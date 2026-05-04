@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "comment": "Channels mirrored by Pigeon's scraper Worker. Add a new entry by submitting a PR. The Worker scrapes these every 2 minutes and commits <username>.json snapshots to the export branch for Pigeon to read.",
+  "channels": [
+    "durov",
+    "ircfspace",
+    "telegram",
+    "vahidonline"
+  ]
+}
