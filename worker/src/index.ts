@@ -32,7 +32,6 @@ interface Env {
   GITHUB_REPO: string;
   GITHUB_BRANCH: string;
   GITHUB_CHANNELS_PATH: string;
-  GITHUB_EXPORT_PREFIX: string;
   MAX_CHANNELS_PER_TICK: string;
   SCHEMA_VERSION: string;
 }
@@ -126,7 +125,9 @@ async function scrapeAndCommit(
   const stable = JSON.stringify({ ...snapshot, fetched_at: "" });
   const newHash = await sha256Hex(stable);
 
-  const path = `${env.GITHUB_EXPORT_PREFIX}/${username}.json`;
+  // Snapshots live at the root of the export branch — that branch is
+  // dedicated to mirror data, no sub-directory needed.
+  const path = `${username}.json`;
   const existing = await fetchFile(coords, path);
 
   if (existing) {
