@@ -1,0 +1,18 @@
+# xcodegen-generated; regenerate with `xcodegen generate`
+Pigeon.xcodeproj/
+Pigeon/Resources/Info.plist
+Pigeon/Resources/Pigeon.entitlements
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# SPM
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store

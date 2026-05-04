@@ -1,0 +1,66 @@
+name: Pigeon
+
+options:
+  bundleIdPrefix: dev.MaroMushii
+  deploymentTarget:
+    macOS: "26.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+
+packages:
+  SwiftSoup:
+    url: https://github.com/scinfu/SwiftSoup.git
+    from: 2.7.5
+  Nuke:
+    url: https://github.com/kean/Nuke.git
+    from: 12.8.0
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    DEAD_CODE_STRIPPING: YES
+    CLANG_ENABLE_MODULES: YES
+
+targets:
+  Pigeon:
+    type: application
+    platform: macOS
+    sources:
+      - path: Pigeon
+    dependencies:
+      - package: SwiftSoup
+      - package: Nuke
+        product: Nuke
+      - package: Nuke
+        product: NukeUI
+    info:
+      path: Pigeon/Resources/Info.plist
+      properties:
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        LSMinimumSystemVersion: "26.0"
+        LSApplicationCategoryType: public.app-category.social-networking
+        NSHumanReadableCopyright: "Pigeon. A native Telegram channel reader."
+        NSPrincipalClass: NSApplication
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: YES
+    entitlements:
+      path: Pigeon/Resources/Pigeon.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.network.client: true
+        com.apple.security.files.user-selected.read-only: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.MaroMushii.Pigeon
+        PRODUCT_NAME: Pigeon
+        MACOSX_DEPLOYMENT_TARGET: "26.0"
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
+        DEVELOPMENT_TEAM: ""
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        COMBINE_HIDPI_IMAGES: YES

@@ -1,0 +1,23 @@
+import Foundation
+import SwiftData
+
+/// Top-level UI state: which channel is selected, which post, and which
+/// sheet (if any) is presented. Selection IDs are SwiftData `PersistentIdentifier`s
+/// so they remain stable across launches.
+@MainActor
+@Observable
+final class AppState {
+    var selectedChannelID: PersistentIdentifier?
+    var presentedSheet: PresentedSheet?
+    var loadingChannels: Set<String> = []
+    var lastError: String?
+
+    enum PresentedSheet: Identifiable {
+        case addChannel
+        var id: String {
+            switch self {
+            case .addChannel: "addChannel"
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+import SwiftUI
+import SwiftData
+import Nuke
+
+@main
+struct PigeonApp: App {
+    @State private var appState = AppState()
+    @State private var postCache = PostCache()
+    private let client = TelegramClient()
+
+    init() {
+        configureNukeWithPinnedTransport()
+    }
+
+    /// Replace Nuke's default image pipeline with one whose URLSession
+    /// routes any `*.translate.goog` request through `PinnedURLProtocol`.
+    /// This means image fetches use the same DNS-bypass as the channel
+    /// HTML proxy — the only requirement is that media URLs are rewritten
+    /// to GT form before they reach Nuke (handled by `TelegramURLRewriter`).
+    private func configureNukeWithPinnedTransport() {
+        let config = URLSessionConfiguration.default
+        config.protocolClasses = [PinnedURLProtocol.self] + (config.protocolClasses ?? [])
+        config.timeoutIntervalForRequest = 30
+        config.timeoutIntervalForResource = 60
+
+        let pipeline = ImagePipeline {
+            $0.dataLoader = DataLoader(configuration: config)
+        }
+        ImagePipeline.shared = pipeline
+    }
+
+    var body: some Scene {
+        WindowGroup("Pigeon") {
+            RootView(client: client)
+                .environment(appState)
+                .environment(postCache)
+                .frame(minWidth: 900, minHeight: 560)
+        }
+        .modelContainer(for: Channel.self)
+        .windowToolbarStyle(.unified)
+        .windowResizability(.contentMinSize)
+        .defaultSize(width: 1200, height: 760)
+        .commands {
+            CommandGroup(replacing: .newItem) {
+                Button("Add Channel…") {
+                    appState.presentedSheet = .addChannel
+                }
+                .keyboardShortcut("n", modifiers: .command)
+            }
+            CommandGroup(after: .toolbar) {
+                Button("Refresh Channel") {
+                    NotificationCenter.default.post(name: .pigeonRefreshSelected, object: nil)
+                }
+                .keyboardShortcut("r", modifiers: .command)
+            }
+            SidebarCommands()
+            InspectorCommands()
+        }
+    }
+}
+
+extension Notification.Name {
+    static let pigeonRefreshSelected = Notification.Name("dev.MaroMushii.Pigeon.refreshSelected")
+}
