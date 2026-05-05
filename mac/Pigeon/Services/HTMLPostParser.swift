@@ -196,7 +196,7 @@ struct HTMLPostParser {
                 let iconClasses = (try? el.select("i.icon").first()?.attr("class")) ?? ""
                 if iconClasses.contains("icon-telegram-stars") {
                     emoji = "⭐"
-                } else if let hasCustom = try? el.select("tg-emoji").first(), hasCustom != nil {
+                } else if (try? el.select("tg-emoji").first()) != nil {
                     emoji = "💎"
                 }
             }
