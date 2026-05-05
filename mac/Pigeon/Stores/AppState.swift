@@ -9,8 +9,6 @@ import SwiftData
 final class AppState {
     var selectedChannelID: PersistentIdentifier?
     var presentedSheet: PresentedSheet?
-    var loadingChannels: Set<String> = []
-    var lastError: String?
 
     enum PresentedSheet: Identifiable {
         case addChannel

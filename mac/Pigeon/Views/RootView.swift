@@ -38,9 +38,6 @@ struct RootView: View {
                 service = ChannelService(client: client, context: context)
             }
         }
-        .onReceive(NotificationCenter.default.publisher(for: .pigeonRefreshSelected)) { _ in
-            Task { await refreshSelected() }
-        }
         .environment(\.channelService, service)
     }
 
@@ -57,17 +54,6 @@ struct RootView: View {
     private var selectedChannel: Channel? {
         guard let id = appState.selectedChannelID else { return nil }
         return channels.first(where: { $0.persistentModelID == id })
-    }
-
-    private func refreshSelected() async {
-        guard let service, let channel = selectedChannel else { return }
-        appState.loadingChannels.insert(channel.username)
-        defer { appState.loadingChannels.remove(channel.username) }
-        do {
-            _ = try await service.refresh(channel)
-        } catch {
-            appState.lastError = error.localizedDescription
-        }
     }
 }
 
