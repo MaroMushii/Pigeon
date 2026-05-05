@@ -2,7 +2,7 @@ import SwiftUI
 
 struct HealthCheckView: View {
     @State private var checker = HealthChecker()
-    @State private var results: [EndpointResult] = EndpointResult.allPending
+    @State private var results: [EndpointResult] = []
     @State private var isChecking = false
     @Environment(\.dismiss) private var dismiss
 
@@ -56,9 +56,31 @@ struct HealthCheckView: View {
 
     private func runChecks() async {
         isChecking = true
-        results = EndpointResult.allPending
-        results = await checker.checkAll()
-        isChecking = false
+        defer { isChecking = false }
+        let base = SettingsStore.defaultMirrorBaseURL
+        results = EndpointResult.allPending(mirrorBaseURL: base)
+
+        // Each probe streams its row into `results` the moment it resolves —
+        // dots appear in completion order, not in declaration order. We probe
+        // each pinned IP individually (no rotation) so a single filtered
+        // Google frontend shows up as one red dot instead of being masked by
+        // the first-success behavior of `getWithIPRotation`.
+        // Structured form so cancellation propagates from `.task { runChecks() }`
+        // down into the probes if the modal is dismissed mid-check.
+        await withTaskGroup(of: EndpointResult.self) { group in
+            group.addTask { await checker.checkMirror(baseURL: base) }
+            for ip in PinnedHTTPSClient.translateGoogIPs {
+                group.addTask { await checker.checkProxy(ip: ip) }
+            }
+            for await result in group {
+                replace(result)
+            }
+        }
+    }
+
+    private func replace(_ updated: EndpointResult) {
+        guard let index = results.firstIndex(where: { $0.id == updated.id }) else { return }
+        results[index] = updated
     }
 }
 

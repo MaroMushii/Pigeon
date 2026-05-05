@@ -306,22 +306,46 @@ actor PinnedHTTPSClient {
     private func readUntilClose(_ conn: NWConnection, timeout: TimeInterval) async throws -> Data {
         var accumulated = Data()
         let deadline = Date.now.addingTimeInterval(timeout)
-        while Date.now < deadline {
-            let (chunk, isComplete) = try await receiveChunk(on: conn)
+        while true {
+            let remaining = deadline.timeIntervalSinceNow
+            if remaining <= 0 { throw ClientError.timedOut }
+            let (chunk, isComplete) = try await receiveChunk(on: conn, timeout: remaining)
             if let chunk, !chunk.isEmpty { accumulated.append(chunk) }
             if isComplete { return accumulated }
         }
-        throw ClientError.timedOut
     }
 
-    private func receiveChunk(on conn: NWConnection) async throws -> (Data?, Bool) {
-        try await withCheckedThrowingContinuation { (cont: CheckedContinuation<(Data?, Bool), Error>) in
+    /// Race `conn.receive` against a `Task.sleep` deadline. NWConnection's
+    /// receive callback never fires when the peer holds the socket open
+    /// silently, so we must enforce the timeout ourselves. Whichever path
+    /// claims the lock first resumes the continuation; the other no-ops.
+    /// Mirrors the pattern in `connect`.
+    private func receiveChunk(on conn: NWConnection, timeout: TimeInterval) async throws -> (Data?, Bool) {
+        let resumed = OSAllocatedUnfairLock<Bool>(initialState: false)
+
+        let claim: @Sendable () -> Bool = {
+            resumed.withLock { state in
+                guard !state else { return false }
+                state = true
+                return true
+            }
+        }
+
+        return try await withCheckedThrowingContinuation { (cont: CheckedContinuation<(Data?, Bool), Error>) in
             conn.receive(minimumIncompleteLength: 1, maximumLength: 64 * 1024) { data, _, isComplete, err in
+                guard claim() else { return }
                 if let err {
                     cont.resume(throwing: ClientError.connectionFailed(err.localizedDescription))
                 } else {
                     cont.resume(returning: (data, isComplete))
                 }
+            }
+
+            Task { [conn] in
+                try? await Task.sleep(for: .seconds(timeout))
+                guard claim() else { return }
+                conn.cancel()
+                cont.resume(throwing: ClientError.timedOut)
             }
         }
     }
