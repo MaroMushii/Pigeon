@@ -1,0 +1,289 @@
+# CLAUDE.md
+
+Project-level guidance for Claude when working in this repo. Read first.
+
+## What this project is
+
+**Pigeon** is a native macOS reader for Telegram public channels, built
+to keep working on heavily filtered networks (Iran-grade DPI, DNS
+poisoning). The repo is two cooperating pieces:
+
+```
+mac/      — Pigeon, SwiftUI macOS 26 client
+mirror/   — pigeon-mirror, a Node scraper run by GitHub Actions
+            (.github/workflows/mirror.yml) every ~5 min. Fetches t.me
+            from a GH-hosted runner (outside Iran), writes per-channel
+            snapshots + image binaries into a checkout of the export
+            branch, then the workflow `git push`es the diff.
+```
+
+Pigeon reads channel data from `raw.githubusercontent.com/MaroMushii/
+Pigeon/refs/heads/export/channels/<u>/snapshot.json` as its primary
+path, and falls back to a pinned-IP HTTPS request to
+`t-me.translate.goog` (Google Translate's domain-translate proxy) when
+a channel isn't mirrored yet.
+
+We migrated **away from a Cloudflare Worker** (which was the original
+design) because the free plan's 10 ms CPU cap can't process even one
+base64-encoded image upload per cron tick, and `git push` from a CI
+runner is dramatically simpler than the Contents API anyway. Don't
+re-introduce the Worker without a strong reason.
+
+The `README.md` has the full architectural pitch — read it once for
+context before suggesting changes.
+
+## Hard rules — do not violate
+
+These are load-bearing for Iran users. If a refactor seems to require
+breaking one of these, stop and ask.
+
+- **Never request `t.me` directly.** Even as a "last-resort" fallback.
+  Iran's DPI fingerprints the SNI/TLS handshake to t.me. We always go
+  through the mirror or the GT-host-rewrite proxy.
+- **Never use `URLSession`'s system DNS for proxy requests.** All
+  `*.translate.goog` traffic goes through `PinnedURLProtocol`, which
+  delegates to `PinnedHTTPSClient` (NWConnection bound to a hardcoded
+  Google IP, TLS SNI override). System DNS is poisoned in Iran for these
+  hostnames.
+- **Pigeon must never *write* to GitHub.** The Worker is the only
+  identity that holds a PAT. The mac app is read-only against the mirror.
+- **Mirror snapshots store canonical (un-rewritten) URLs.** Pigeon
+  applies its own `TelegramURLRewriter` after decode. Don't bake
+  GT-rewriting into the Worker — that breaks anyone else who'd read the
+  mirror data.
+
+## Architecture cheat sheet
+
+### Bypass chain (every channel fetch)
+
+```
+Pigeon.swift
+   │
+   ├──▶  raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/export/<u>.json
+   │     (primary; URLSession; 200 OK on success)
+   │
+   ├──▶  t-me.translate.goog (via PinnedHTTPSClient)
+   │     pinned IP rotation: 216.239.38.120, 142.250.191.196,
+   │                         142.250.184.196, 142.250.74.14
+   │     query rotation: googleAuto / googleFa / googleRu / googleAr
+   │     (fallback when mirror returns 404 or malformed JSON)
+   │
+   └──✗  direct t.me  (NEVER ATTEMPTED, by design)
+```
+
+### Image fetches
+
+```
+LazyImage(url) ──▶ Nuke pipeline ──▶ URLSession (custom config)
+                                          │
+                                          ├──▶ PinnedURLProtocol intercepts
+                                          │      hosts ending in .translate.goog
+                                          │      → routes via PinnedHTTPSClient
+                                          │
+                                          └──▶ everything else: normal URLSession
+```
+
+URLs reach this pipeline already-rewritten (`cdn4-telesco-pe.translate.goog`)
+because `HTMLPostParser` and `JSONFeedDecoder` both pipe their extracted
+URLs through `TelegramURLRewriter.rewrite(...)`.
+
+### Mirror scrape loop (GH Actions, every ~5 min)
+
+```
+cron fires ──▶ runner checks out main into ./src and export into ./out
+           ──▶ pnpm tsx mirror/scrape.ts ./out mirror/channels.json
+                 for each channel:
+                   GET t.me/s/<u>
+                   parseChannelPage() → Snapshot (sync)
+                   write out/channels/<u>/snapshot.json
+                   for each referenced image:
+                     skip if file exists locally (Telegram CDN URLs are
+                     immutable per upload, so name-on-disk == content)
+                     else fetch + write to out/channels/<u>/media/<hash>.<ext>
+                 rebuild out/index.json
+           ──▶ runner: git add -A; commit if diff; git push origin export
+```
+
+## Build & dev
+
+### macOS app
+
+Requires Xcode 26 + macOS 26 (Tahoma) + xcodegen.
+
+```sh
+brew install xcodegen
+cd mac
+xcodegen generate                   # always run after editing project.yml
+xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug build
+open ~/Library/Developer/Xcode/DerivedData/Pigeon-*/Build/Products/Debug/Pigeon.app
+```
+
+`mac/Pigeon.xcodeproj/` and `mac/Pigeon/Resources/{Info.plist,Pigeon.entitlements}`
+are generated by xcodegen and **gitignored** — `mac/project.yml` is the
+source of truth.
+
+If a build fails with "Entitlements file was modified during the build",
+do `xcodebuild ... clean` once and rebuild. xcodegen + xcodebuild can
+race on a fresh generate.
+
+### Mirror
+
+```sh
+cd mirror
+pnpm install
+pnpm typecheck
+
+# Parser-only sanity test (offline; needs an HTML fixture):
+pnpm dry-run /tmp/some-fixture.html durov
+
+# Full end-to-end (needs t.me reachable — won't work from Iran-side
+# machines; works on GH runners):
+pnpm scrape /tmp/test-export-tree mirror/channels.json
+```
+
+The scraper has **no secrets**. The workflow uses the auto-provisioned
+`GITHUB_TOKEN` (scoped to this repo) to push commits — no PAT, no
+wrangler, no CF API token, nothing to manage.
+
+## Conventions
+
+### Swift (mac/)
+
+- Swift 6, **strict concurrency complete**. Don't downgrade.
+- macOS 26 deployment target. Use new APIs freely.
+- `@Observable` + `@State` over `ObservableObject` + `@StateObject`.
+- `@MainActor` on stores; mark `@ObservationIgnored` on any property
+  wrapper inside an `@Observable` class.
+- Networking actors return `Sendable` value types only. Don't pass
+  `ModelContext` across actor boundaries.
+- All `@State` properties are `private`.
+- Don't add Liquid Glass effects without an explicit ask — the system's
+  defaults already give us material sidebar + glass toolbars.
+
+### TypeScript (worker/)
+
+- `strict`, `noUncheckedIndexedAccess`, `verbatimModuleSyntax: false`.
+- ES modules, `.js` extension on internal imports (TS resolves).
+- Snake_case for JSON wire fields. Schema lives in `worker/src/schema.ts`.
+  When you add a field there, mirror it in `mac/Pigeon/Services/JSONFeedDecoder.swift`.
+
+### Git
+
+- Branch naming: `type/description` (e.g. `feat/notifications`,
+  `fix/rate-limit`).
+- Conventional-commit style messages, scoped: `feat(mac):`, `feat(worker):`,
+  `fix(worker):`, `chore:`.
+- Commits include the `Co-Authored-By: Claude Opus 4.7 (1M context)`
+  trailer.
+- Never push to `main` without explicit user confirmation, even for
+  trivial fixes.
+
+### Tooling
+
+- `pnpm`, never npm/yarn (matches user's global preference).
+- Fish shell — use Fish-compatible syntax in any shell snippets.
+- `trash` for deletes, never `rm`.
+- `gh` CLI for GitHub API operations, not WebFetch.
+
+## Common tasks
+
+### Adding a channel to the mirror
+
+Edit `worker/channels.json`, PR (or push directly). The Worker re-reads
+the manifest on every cron tick, so the new channel appears in the next
+sweep. No worker redeploy needed.
+
+### Regenerating the Xcode project
+
+```sh
+cd mac && xcodegen generate
+```
+
+Run after any change to `mac/project.yml`, after adding/removing source
+files, or if Xcode complains about missing files.
+
+### Updating the snapshot schema
+
+1. Bump `SCHEMA_VERSION` in `worker/src/schema.ts` (and the `schema`
+   field everywhere it's referenced).
+2. Update Pigeon's `JSONFeedDecoder.supportedSchemaVersion` and the DTOs.
+3. Test parser with `pnpm exec tsx scripts/dry-run.ts <fixture> <username>`.
+4. Deploy the Worker first, wait one cron tick, then ship the Pigeon
+   change. Pigeon already rejects unsupported schema versions, so
+   reverse-order deploy would brick the app.
+
+### Adding a Telegram CDN host to the rewriter
+
+If Telegram introduces `cdnN.something-new.org`, add the suffix to:
+- `mac/Pigeon/Services/TelegramURLRewriter.proxiedHostSuffixes`
+
+That's it — `PinnedURLProtocol`'s host predicate (`.translate.goog`
+suffix) handles the rest automatically.
+
+### Debugging a stuck channel
+
+```sh
+# 1. Hit the mirror URL directly:
+curl -s 'https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/export/channels/<u>/snapshot.json' \
+  -w '\nHTTP %{http_code}, %{size_download} bytes\n'
+
+# 2. If 404 or stale, check the latest workflow run:
+gh run list --workflow mirror.yml -L 5
+gh run view <run-id> --log
+
+# 3. Re-trigger a run on demand (good for debugging without waiting for cron):
+gh workflow run mirror.yml
+
+# 4. Run the scraper locally against a temp tree (only works on a network
+#    that can reach t.me — won't work from Iran-side machines):
+cd mirror && pnpm scrape /tmp/test-export channels.json
+```
+
+## Lessons learned (don't repeat)
+
+- **NavigationSplitView column visibility** — `.doubleColumn` on a
+  three-column split *hides the sidebar*, not the detail. There's no
+  built-in way to hide just the detail column. We collapsed to a
+  two-column layout instead. (The product reasoning is also better:
+  Telegram channels are streams, not threaded mailboxes.)
+- **`.aspectRatio(_, .fill)` overflows.** Use `.fit` for media tiles,
+  combined with `.frame(maxWidth:..., maxHeight:...)` and `.clipped()`.
+  And put `.clipShape(...)` on the outer card so contents respect the
+  rounded rect.
+- **`URLProtocol` is class-based, not Sendable-friendly out of the box.**
+  Subclass with `@unchecked Sendable`, capture self into the Task as
+  `let proto = self`, and explicitly mark the Task closure `@Sendable`.
+- **CF Workers free tier is too tight for image mirroring.** 10 ms CPU
+  per invocation can't fit even one base64-encoded image PUT. The
+  initial design used a Worker; we migrated to GitHub Actions because
+  (a) free unlimited compute on public repos, (b) `git push` of binary
+  files is dramatically simpler than the Contents API. If you ever
+  reconsider Workers, you'd need the Paid plan ($5/mo) for a 30 s CPU
+  budget — but the GH Actions setup also avoids managing a PAT, so
+  there's not much reason to come back.
+- **`xcodegen` regenerates `Info.plist` and entitlements** on every run.
+  Both are gitignored — `project.yml` is canonical.
+- **Cheerio's `text()` strips line breaks.** When extracting `plain_text`,
+  replace `<br>` with `\n` first via a quick regex, then call `.text()`.
+- **The teleFeed mirror only covers ~2 channels.** It was the original
+  Electron app's last-resort fallback; we dropped it entirely once our
+  own mirror went live. Don't reintroduce it.
+
+## What's deferred / not yet built
+
+Listed in priority order if the user asks "what's next?":
+
+1. **App icon.** Currently the system default. Need a 1024×1024 master
+   PNG in `mac/Pigeon/Resources/Assets.xcassets/AppIcon.appiconset/`,
+   plus the smaller resolutions Xcode demands.
+2. **Channel addition flow when un-mirrored.** Right now if a user adds
+   `@somechannel` not in the manifest, Pigeon falls through to the GT
+   proxy (works) but nobody adds the channel to the mirror manifest.
+   Could pop a "Suggest this channel?" PR-creation link.
+3. **Settings window** — log level, cache TTL override, custom mirror URL
+   for self-hosters.
+4. **Notifications on new posts** for tracked channels.
+5. **Search across mirrored channels.** Mirror data is local + fresh —
+   trivial full-text via SwiftData predicates.
+
+When in doubt about what to work on, ask — don't guess from this list.
