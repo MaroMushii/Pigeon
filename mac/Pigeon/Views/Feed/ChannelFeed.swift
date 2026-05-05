@@ -68,14 +68,6 @@ struct ChannelFeed: View {
                 .help("Check network health")
             }
             if let channel {
-                if let lastFetched = channel.lastFetchedAt {
-                    ToolbarItem(placement: .automatic) {
-                        Text("Updated \(lastFetched, format: .relative(presentation: .named))")
-                            .font(.caption)
-                            .foregroundStyle(.tertiary)
-                            .help("Last refreshed \(lastFetched.formatted(date: .abbreviated, time: .shortened))")
-                    }
-                }
                 if let lastError = service?.lastError {
                     ToolbarItem(placement: .automatic) {
                         errorBadge(lastError)
@@ -92,7 +84,7 @@ struct ChannelFeed: View {
                         }
                     }
                     .keyboardShortcut("r", modifiers: .command)
-                    .help("Refresh this channel (⌘R)")
+                    .help(refreshHelpText(for: channel))
                     .disabled(service?.inflight.contains(channel.username) ?? false)
                 }
             }
@@ -241,6 +233,16 @@ struct ChannelFeed: View {
     private func refresh(_ channel: Channel) {
         guard let service else { return }
         Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
+    }
+
+    private func refreshHelpText(for channel: Channel) -> String {
+        var lines = ["Refresh this channel (⌘R)"]
+        if let lastFetched = channel.lastFetchedAt {
+            let relative = lastFetched.formatted(.relative(presentation: .named))
+            let absolute = lastFetched.formatted(date: .abbreviated, time: .shortened)
+            lines.append("Updated \(relative) — \(absolute)")
+        }
+        return lines.joined(separator: "\n")
     }
 
     @ViewBuilder
