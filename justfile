@@ -35,12 +35,12 @@ clean:
     trash ~/Library/Developer/Xcode/DerivedData/Pigeon-* 2>/dev/null || true
 
 # Build release artifacts into mac/dist and reveal the dir in Finder. Does NOT push a tag.
-release version:
+package version:
     mac/scripts/build.sh --version {{version}}
     open mac/dist
 
 # Create + push a release tag (triggers .github/workflows/release.yml)
-tag version:
+ship version:
     mac/scripts/release.sh --version {{version}} --push
 
 # Mirror typecheck (offline; useful before pushing schema changes)
