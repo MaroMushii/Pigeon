@@ -1,7 +1,7 @@
 import Foundation
 
 /// Decodes a snapshot JSON committed to `MaroMushii/Pigeon#export` by
-/// Pigeon's mirror Worker. Schema lives at `worker/src/schema.ts`; fields
+/// Pigeon's mirror scraper. Schema lives at `mirror/schema.ts`; fields
 /// here mirror it 1:1 via explicit CodingKeys.
 ///
 /// **Path resolution (schema v2):** Each media item carries both

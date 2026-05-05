@@ -10,13 +10,13 @@
 *.swp
 *.swo
 
-# Node (worker/, scripts)
+# Node (mirror/)
 node_modules/
 *.log
 npm-debug.log*
 
 # Stale Electron-era artifacts at repo root (kept ignored to prevent
-# accidental re-add). Subdirectories — worker/, mac/ — keep their own.
+# accidental re-add). Subdirectories — mac/, mirror/ — keep their own.
 /package.json
 /package-lock.json
 /pnpm-lock.yaml

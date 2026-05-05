@@ -3,15 +3,15 @@
  * HTML fixture through `parseChannelPage` and prints a digested view of
  * the resulting `Snapshot`. Run with:
  *
- *   pnpm exec tsx scripts/dry-run.ts <path-to-fixture.html> <fallback-username>
+ *   pnpm exec tsx dry-run.ts <path-to-fixture.html> <fallback-username>
  *
  * Or with a default fixture against the live `t.me` page:
  *
- *   pnpm exec tsx scripts/dry-run.ts --live durov
+ *   pnpm exec tsx dry-run.ts --live durov
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
-import { parseChannelPage } from "../parser.js";
+import { parseChannelPage } from "./parser.js";
 
 async function main() {
   const args = process.argv.slice(2);

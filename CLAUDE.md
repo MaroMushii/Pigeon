@@ -160,19 +160,19 @@ wrangler, no CF API token, nothing to manage.
 - Don't add Liquid Glass effects without an explicit ask — the system's
   defaults already give us material sidebar + glass toolbars.
 
-### TypeScript (worker/)
+### TypeScript (mirror/)
 
 - `strict`, `noUncheckedIndexedAccess`, `verbatimModuleSyntax: false`.
 - ES modules, `.js` extension on internal imports (TS resolves).
-- Snake_case for JSON wire fields. Schema lives in `worker/src/schema.ts`.
+- Snake_case for JSON wire fields. Schema lives in `mirror/schema.ts`.
   When you add a field there, mirror it in `mac/Pigeon/Services/JSONFeedDecoder.swift`.
 
 ### Git
 
 - Branch naming: `type/description` (e.g. `feat/notifications`,
   `fix/rate-limit`).
-- Conventional-commit style messages, scoped: `feat(mac):`, `feat(worker):`,
-  `fix(worker):`, `chore:`.
+- Conventional-commit style messages, scoped: `feat(mac):`, `feat(mirror):`,
+  `fix(mirror):`, `chore(ci):`, `chore:`.
 - Commits include the `Co-Authored-By: Claude Opus 4.7 (1M context)`
   trailer.
 - Never push to `main` without explicit user confirmation, even for
@@ -189,9 +189,9 @@ wrangler, no CF API token, nothing to manage.
 
 ### Adding a channel to the mirror
 
-Edit `worker/channels.json`, PR (or push directly). The Worker re-reads
+Edit `mirror/channels.json`, PR (or push directly). The scraper re-reads
 the manifest on every cron tick, so the new channel appears in the next
-sweep. No worker redeploy needed.
+sweep. There's nothing to deploy — the workflow runs straight from `main`.
 
 ### Regenerating the Xcode project
 
@@ -204,13 +204,14 @@ files, or if Xcode complains about missing files.
 
 ### Updating the snapshot schema
 
-1. Bump `SCHEMA_VERSION` in `worker/src/schema.ts` (and the `schema`
+1. Bump `SCHEMA_VERSION` in `mirror/schema.ts` (and the `schema`
    field everywhere it's referenced).
 2. Update Pigeon's `JSONFeedDecoder.supportedSchemaVersion` and the DTOs.
-3. Test parser with `pnpm exec tsx scripts/dry-run.ts <fixture> <username>`.
-4. Deploy the Worker first, wait one cron tick, then ship the Pigeon
-   change. Pigeon already rejects unsupported schema versions, so
-   reverse-order deploy would brick the app.
+3. Test parser with `pnpm exec tsx dry-run.ts <fixture> <username>`.
+4. Land the mirror change on `main` first, wait one cron tick so the new
+   schema lands in the `export` branch, then ship the Pigeon update.
+   Pigeon already rejects unsupported schema versions, so reverse order
+   would brick deployed copies of the app.
 
 ### Adding a Telegram CDN host to the rewriter
 

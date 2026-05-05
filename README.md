@@ -42,7 +42,7 @@ That's it. There is no settings screen, no account, no sync.
 Pigeon ships with a small list of channels that it actively mirrors
 (faster, fresher, more reliable). To add a channel to that list, open
 a pull request that adds the username to
-[`worker/channels.json`](worker/channels.json). Within a couple of
+[`mirror/channels.json`](mirror/channels.json). Within a couple of
 minutes of merging, the channel is mirrored and works for everyone.
 
 If you'd rather keep a channel private, just add it in-app — Pigeon
@@ -120,7 +120,7 @@ mirror/
   parser.ts                    cheerio-based parser (mirrors HTMLPostParser)
   schema.ts                    snapshot schema (v2)
   media-paths.ts               canonical-URL → repo-path hash derivation
-  scripts/dry-run.ts           local parser test harness
+  dry-run.ts                   local parser test harness
 .github/workflows/mirror.yml   GH Actions cron (every 5 min)
 ```
 
