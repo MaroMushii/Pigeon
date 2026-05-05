@@ -45,7 +45,7 @@ struct PigeonApp: App {
                 .environment(appState)
                 .environment(environment.searchStore)
                 .environment(\.channelService, environment.service)
-                .frame(minWidth: 900, minHeight: 560)
+                .frame(minWidth: 680, minHeight: 560)
                 .task {
                     // Sync the dock badge to whatever's already persisted
                     // — covers the case where unread posts existed across
@@ -56,7 +56,7 @@ struct PigeonApp: App {
         .modelContainer(environment.container)
         .windowToolbarStyle(.unified)
         .windowResizability(.contentMinSize)
-        .defaultSize(width: 1200, height: 760)
+        .defaultSize(width: 680, height: 760)
         .commands {
             CommandGroup(replacing: .newItem) {
                 Button("Add Channel…") {
@@ -66,6 +66,11 @@ struct PigeonApp: App {
             }
             SidebarCommands()
             InspectorCommands()
+        }
+
+        Settings {
+            SettingsView()
+                .environment(environment.settings)
         }
     }
 }
@@ -81,6 +86,7 @@ struct AppEnvironment {
     let client: TelegramClient
     let service: ChannelService
     let searchStore: SearchStore
+    let settings: SettingsStore
 
     init() {
         let schema = Schema([Channel.self, Post.self, Media.self, Reaction.self])
@@ -89,6 +95,7 @@ struct AppEnvironment {
         // for malformed schemas or unwritable storage — both are
         // fatal-at-launch failures we cannot meaningfully recover from.
         let container = try! ModelContainer(for: schema, configurations: configuration)
+        let settings = SettingsStore()
         let client = TelegramClient()
         let service = ChannelService(client: client, context: container.mainContext)
         let searchStore = SearchStore(context: container.mainContext)
@@ -96,6 +103,7 @@ struct AppEnvironment {
         self.client = client
         self.service = service
         self.searchStore = searchStore
+        self.settings = settings
         // We deliberately do NOT call `service.updateDockBadge()` here —
         // `NSApp` isn't ready during `App.init`. The WindowGroup's `.task`
         // performs the initial badge sync once the runloop is alive.
