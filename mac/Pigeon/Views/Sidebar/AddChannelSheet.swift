@@ -83,7 +83,6 @@ struct AddChannelSheet: View {
                 HFlow(spacing: 8, lineSpacing: 8) {
                     ForEach(popularChannels, id: \.username) { channel in
                         PopularChannelChip(
-                            username: channel.username,
                             displayName: channel.displayName,
                             state: chipState(for: channel.username),
                             onTap: { Task { await addPopular(channel.username) } }
@@ -185,7 +184,6 @@ struct AddChannelSheet: View {
 private struct PopularChannelChip: View {
     enum State { case idle, loading, added }
 
-    let username: String
     let displayName: String
     let state: State
     let onTap: () -> Void
@@ -210,7 +208,6 @@ private struct PopularChannelChip: View {
         }
         .buttonStyle(.plain)
         .disabled(state != .idle)
-        .help(helpText)
         .animation(.snappy(duration: 0.18), value: state)
     }
 
@@ -249,14 +246,6 @@ private struct PopularChannelChip: View {
         switch state {
         case .idle, .loading: AnyShapeStyle(.primary)
         case .added:          AnyShapeStyle(Color.accentColor)
-        }
-    }
-
-    private var helpText: String {
-        switch state {
-        case .idle:    "Add \(displayName) (@\(username)) to your channels"
-        case .loading: "Adding \(displayName)…"
-        case .added:   "\(displayName) (@\(username)) is already in your sidebar"
         }
     }
 }
