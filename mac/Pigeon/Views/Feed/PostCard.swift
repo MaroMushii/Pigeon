@@ -8,6 +8,8 @@ import NukeUI
 struct PostCard: View {
     let post: Post
 
+    @Environment(\.channelService) private var service
+
     private static let attributedBuilder = AttributedHTMLBuilder()
 
     var body: some View {
@@ -37,6 +39,22 @@ struct PostCard: View {
         .padding(16)
         .background(.background.secondary)
         .clipShape(.rect(cornerRadius: 10, style: .continuous))
+        .overlay(alignment: .topLeading) {
+            // A small leading rail signals "unread" without taking layout
+            // space. Disappears the moment markRead lands.
+            if !post.isRead {
+                Capsule()
+                    .fill(Color.accentColor)
+                    .frame(width: 3, height: 24)
+                    .offset(x: -10, y: 16)
+                    .accessibilityLabel("Unread")
+            }
+        }
+        .onScrollVisibilityChange(threshold: 0.3) { visible in
+            if visible, !post.isRead {
+                service?.markRead(post)
+            }
+        }
         .contextMenu {
             if let permalink = post.permalink {
                 Button("Open on telegram.org") {

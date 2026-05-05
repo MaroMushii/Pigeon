@@ -39,6 +39,12 @@ final class Post {
     var postedAt: Date?
     var edited: Bool
     var permalink: URL?
+    /// `false` until the post scrolls into view in the feed. Drives the
+    /// per-channel unread count and the dock-tile badge total. New posts
+    /// arriving via auto-refresh start as unread; posts captured during
+    /// `addChannel` are marked read on insert (the user is actively
+    /// adding the channel and is about to see them).
+    var isRead: Bool
     var channel: Channel?
 
     init(
@@ -51,7 +57,8 @@ final class Post {
         viewsLabel: String? = nil,
         postedAt: Date? = nil,
         edited: Bool = false,
-        permalink: URL? = nil
+        permalink: URL? = nil,
+        isRead: Bool = false
     ) {
         self.id = id
         self.channelUsername = channelUsername
@@ -63,6 +70,7 @@ final class Post {
         self.postedAt = postedAt
         self.edited = edited
         self.permalink = permalink
+        self.isRead = isRead
     }
 
     /// Mutate self with the latest snapshot. Caller is responsible for

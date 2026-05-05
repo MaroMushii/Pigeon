@@ -23,7 +23,8 @@ struct ChannelSidebar: View {
                     ForEach(channels) { channel in
                         ChannelRow(
                             channel: channel,
-                            isLoading: service?.inflight.contains(channel.username) ?? false
+                            isLoading: service?.inflight.contains(channel.username) ?? false,
+                            unreadCount: channel.unreadCount
                         )
                         .tag(channel.persistentModelID)
                         .contextMenu {
@@ -73,6 +74,7 @@ struct ChannelSidebar: View {
 private struct ChannelRow: View {
     let channel: Channel
     let isLoading: Bool
+    let unreadCount: Int
 
     var body: some View {
         HStack(spacing: 8) {
@@ -93,6 +95,15 @@ private struct ChannelRow: View {
             if isLoading {
                 ProgressView()
                     .controlSize(.small)
+            } else if unreadCount > 0 {
+                Text("\(unreadCount)")
+                    .font(.caption)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 7)
+                    .padding(.vertical, 2)
+                    .background(Color.accentColor, in: .capsule)
+                    .accessibilityLabel("\(unreadCount) unread")
             }
         }
         .padding(.vertical, 4)

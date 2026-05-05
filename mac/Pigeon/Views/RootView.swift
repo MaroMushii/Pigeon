@@ -2,13 +2,10 @@ import SwiftUI
 import SwiftData
 
 struct RootView: View {
-    let client: TelegramClient
-
-    @Environment(\.modelContext) private var context
     @Environment(AppState.self) private var appState
+    @Environment(\.channelService) private var service
     @Query(sort: [SortDescriptor(\Channel.addedAt, order: .forward)]) private var channels: [Channel]
 
-    @State private var service: ChannelService?
     @State private var sidebarSearch: String = ""
 
     var body: some View {
@@ -33,12 +30,6 @@ struct RootView: View {
                 }
             }
         }
-        .task {
-            if service == nil {
-                service = ChannelService(client: client, context: context)
-            }
-        }
-        .environment(\.channelService, service)
     }
 
     // MARK: - Derived
