@@ -55,8 +55,8 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Run scraper
-        working-directory: src
-        run: pnpm exec tsx mirror/scrape.ts ../out mirror/channels.json
+        working-directory: src/mirror
+        run: pnpm exec tsx scrape.ts ../../out channels.json
 
       - name: Commit & push if changed
         working-directory: out
