@@ -26,6 +26,7 @@ struct PostCard: View {
                     .lineSpacing(5)
                     .textSelection(.enabled)
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    .environment(\.layoutDirection, post.plainText.dominantWritingDirection)
             }
 
             if !post.reactions.isEmpty {
