@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import Nuke
 import NukeUI
 
 struct ChannelSidebar: View {
@@ -100,7 +101,7 @@ private struct ChannelRow: View {
     @ViewBuilder
     private var avatar: some View {
         if let urlString = channel.photoURL, let url = URL(string: urlString) {
-            LazyImage(url: url) { state in
+            LazyImage(request: Self.thumbnailRequest(for: url)) { state in
                 if let image = state.image {
                     image.resizable().scaledToFill()
                 } else {
@@ -110,6 +111,19 @@ private struct ChannelRow: View {
         } else {
             placeholder
         }
+    }
+
+    private static func thumbnailRequest(for url: URL) -> ImageRequest {
+        ImageRequest(
+            url: url,
+            processors: [
+                ImageProcessors.Resize(
+                    size: CGSize(width: 32, height: 32),
+                    contentMode: .aspectFill,
+                    crop: false
+                )
+            ]
+        )
     }
 
     private var placeholder: some View {

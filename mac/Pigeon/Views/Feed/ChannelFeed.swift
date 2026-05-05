@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import Nuke
 import NukeUI
 
 /// Right-hand pane: scrolls a stream of fully-rendered posts for the
@@ -12,6 +13,13 @@ struct ChannelFeed: View {
     @Environment(AppState.self) private var appState
     @Environment(\.channelService) private var service
     @State private var showingErrorPopover = false
+
+    /// Memoized sort of `channel.posts` by `postedAt` (descending). Recomputing
+    /// inside `body` ran on every observable mutation across any post — for a
+    /// channel with hundreds of posts that's a measurable hitch on every
+    /// reaction-count tick. We refresh this only when the selected channel or
+    /// its post count actually changes.
+    @State private var sortedPosts: [Post] = []
 
     var body: some View {
         Group {
@@ -56,11 +64,27 @@ struct ChannelFeed: View {
                 }
             }
         }
+        .task(id: channel?.persistentModelID) {
+            recomputeSortedPosts()
+        }
+        .onChange(of: channel?.posts.count ?? 0) {
+            recomputeSortedPosts()
+        }
+    }
+
+    private func recomputeSortedPosts() {
+        guard let channel else {
+            sortedPosts = []
+            return
+        }
+        sortedPosts = channel.posts.sorted {
+            ($0.postedAt ?? .distantPast) > ($1.postedAt ?? .distantPast)
+        }
     }
 
     @ViewBuilder
     private func content(for channel: Channel) -> some View {
-        let posts = channel.posts.sorted { ($0.postedAt ?? .distantPast) > ($1.postedAt ?? .distantPast) }
+        let posts = sortedPosts
         let isLoading = service?.inflight.contains(channel.username) ?? false
 
         if posts.isEmpty {
@@ -175,7 +199,7 @@ private struct ChannelHeader: View {
     @ViewBuilder
     private var avatar: some View {
         if let urlString = channel.photoURL, let url = URL(string: urlString) {
-            LazyImage(url: url) { state in
+            LazyImage(request: Self.avatarRequest(for: url)) { state in
                 if let image = state.image {
                     image.resizable().scaledToFill()
                 } else {
@@ -185,6 +209,19 @@ private struct ChannelHeader: View {
         } else {
             Circle().fill(Color.accentColor.opacity(0.18))
         }
+    }
+
+    private static func avatarRequest(for url: URL) -> ImageRequest {
+        ImageRequest(
+            url: url,
+            processors: [
+                ImageProcessors.Resize(
+                    size: CGSize(width: 52, height: 52),
+                    contentMode: .aspectFill,
+                    crop: false
+                )
+            ]
+        )
     }
 }
 

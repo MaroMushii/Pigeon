@@ -22,9 +22,13 @@ struct PigeonApp: App {
         config.timeoutIntervalForRequest = 30
         config.timeoutIntervalForResource = 60
 
+        ImageCache.shared.costLimit = 256 * 1024 * 1024
+        ImageCache.shared.countLimit = 500
+
         let pipeline = ImagePipeline {
             $0.dataLoader = DataLoader(configuration: config)
             $0.dataCache = try? DataCache(name: "dev.MaroMushii.Pigeon.images")
+            $0.imageCache = ImageCache.shared
         }
         ImagePipeline.shared = pipeline
     }
