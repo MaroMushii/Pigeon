@@ -9,7 +9,21 @@ because it never talks to Telegram directly.
 
 ## Install
 
-There are no pre-built releases yet — you build from source. Once.
+Grab the latest `Pigeon-X.Y.Z.dmg` from the
+[**Releases**](https://github.com/MaroMushii/Pigeon/releases) page, drag
+the app to `/Applications`, and you're done. Requires macOS 26 (Tahoma).
+
+The DMG is ad-hoc signed, so on first launch macOS will refuse with
+*"can't be opened, developer cannot be verified"*. Clear the quarantine
+attribute once and it's done:
+
+```sh
+xattr -cr /Applications/Pigeon.app
+```
+
+(Or right-click the app in Finder → **Open** → **Open anyway**.)
+
+### Or build from source
 
 ```sh
 brew install xcodegen
@@ -19,19 +33,22 @@ xcodegen generate
 open Pigeon.xcodeproj
 ```
 
-Then in Xcode hit ⌘R. Requires macOS 26 (Tahoma) and Xcode 26.
-
-The build is unsigned, so on first launch right-click the app → **Open**
-and confirm — that dismisses Gatekeeper for good.
+Then in Xcode hit ⌘R. Requires Xcode 26.
 
 ## Using it
 
 - **Add a channel:** ⌘N, then paste a username (`durov`), an `@handle`,
-  or any t.me URL.
+  or any t.me URL. The sheet also lists a few popular channels you can
+  add with one click.
 - **Read posts:** click a channel in the sidebar. Posts load in the
   main pane with text, images, video posters, view counts, reactions.
-- **Refresh:** ⌘R. Posts also auto-refresh whenever you re-select a
-  channel after the cache expires (15 minutes).
+  Each post is marked read once it scrolls into view.
+- **Auto-refresh:** Pigeon polls in the background. Mirror-backed
+  channels refresh every 5 minutes (matching the mirror's cron),
+  on-demand channels every 2 minutes. ⌘R forces an immediate refresh.
+- **Unread badge:** the app's dock icon shows the total number of
+  unread posts across all channels. Channel rows in the sidebar carry
+  their own per-channel count.
 - **Open a post:** right-click → *Open on telegram.org* to view it in
   your browser. (Telegram's own preview pages are public — no login.)
 
@@ -133,7 +150,19 @@ cd mac && xcodegen generate && open Pigeon.xcodeproj
 # Mirror scraper (local sanity check)
 cd mirror
 pnpm install
-pnpm dry-run -- /tmp/some-fixture.html durov   # parse-only, against captured HTML
+pnpm dry-run /tmp/some-fixture.html durov   # parse-only, against captured HTML
+```
+
+### Cutting a release
+
+Tagged releases are built and published by `.github/workflows/release.yml`.
+The `mac/scripts/release.sh` helper validates preconditions (clean tree,
+on `main`, in sync with `origin`, version monotonic), shows the commits
+that will ship, then creates and pushes the tag.
+
+```sh
+mac/scripts/release.sh --version 2.0.0           # dry-run; prints plan
+mac/scripts/release.sh --version 2.0.0 --push    # tag + push (kicks off CI)
 ```
 
 The mirror runs automatically in CI — see `.github/workflows/mirror.yml`.
