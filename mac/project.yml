@@ -39,8 +39,8 @@ targets:
     info:
       path: Pigeon/Resources/Info.plist
       properties:
-        CFBundleShortVersionString: "0.1.0"
-        CFBundleVersion: "1"
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
         LSMinimumSystemVersion: "26.0"
         LSApplicationCategoryType: public.app-category.social-networking
         NSHumanReadableCopyright: "Pigeon. A native Telegram channel reader."
@@ -58,6 +58,8 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: dev.MaroMushii.Pigeon
         PRODUCT_NAME: Pigeon
         MACOSX_DEPLOYMENT_TARGET: "26.0"
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
         ENABLE_HARDENED_RUNTIME: YES
         CODE_SIGN_STYLE: Automatic
         CODE_SIGN_IDENTITY: "-"

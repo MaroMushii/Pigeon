@@ -6,6 +6,9 @@ Pigeon/Resources/Pigeon.entitlements
 # Xcode
 DerivedData/
 build/
+
+# Release artifacts produced by scripts/build.sh
+dist/
 *.xcuserstate
 xcuserdata/
 *.xcworkspace/xcuserdata/

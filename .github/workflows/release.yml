@@ -1,0 +1,131 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to build (X.Y.Z, no leading v). Will create the tag if it doesn't exist."
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+# Don't let two release runs for the same ref clobber each other's
+# uploaded assets. Different tags can run in parallel.
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve version
+        id: ver
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            VERSION="$(mac/scripts/version.sh --version '${{ inputs.version }}')"
+          else
+            VERSION="$(mac/scripts/version.sh)"
+          fi
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=v$VERSION"     >> "$GITHUB_OUTPUT"
+          echo "Resolved version: <$VERSION>"
+
+      - name: Select latest Xcode 26
+        run: |
+          XCODE_PATH="$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -1 || true)"
+          if [[ -z "$XCODE_PATH" ]]; then
+            echo "::error::no Xcode 26.x installed on this runner"
+            ls /Applications/ | grep -i xcode || true
+            exit 1
+          fi
+          sudo xcode-select -s "$XCODE_PATH"
+          xcodebuild -version
+
+      - name: Install xcodegen
+        run: brew install xcodegen
+
+      - name: Build & package
+        run: |
+          mac/scripts/build.sh \
+            --version "${{ steps.ver.outputs.version }}" \
+            --build   "${{ github.run_number }}"
+
+      - name: Compute checksums
+        working-directory: mac/dist
+        run: |
+          shasum -a 256 \
+            "Pigeon-${{ steps.ver.outputs.version }}.zip" \
+            "Pigeon-${{ steps.ver.outputs.version }}.dmg" \
+            | tee SHA256SUMS.txt
+
+      - name: Create or update GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ steps.ver.outputs.version }}"
+          TAG="${{ steps.ver.outputs.tag }}"
+
+          NOTES_FILE="$(mktemp)"
+          cat > "$NOTES_FILE" <<NOTES
+          ## Pigeon $VERSION
+
+          Native macOS reader for Telegram public channels. Designed to keep
+          working on heavily filtered networks.
+
+          ### Installation
+
+          Download \`Pigeon-$VERSION.dmg\` (or the \`.zip\`) below.
+
+          This build is **ad-hoc signed**, so on first launch macOS will
+          refuse to open it ("can't be opened, developer cannot be
+          verified"). To clear the quarantine flag:
+
+          \`\`\`sh
+          xattr -cr /Applications/Pigeon.app
+          \`\`\`
+
+          Or right-click the app in Finder → Open → Open anyway in the
+          warning dialog. You only need to do this once.
+
+          ### Requirements
+
+          - macOS 26 (Tahoma) or later
+          - Apple Silicon or Intel
+
+          ### Verifying the download
+
+          Compare against \`SHA256SUMS.txt\`:
+
+          \`\`\`sh
+          shasum -a 256 -c SHA256SUMS.txt
+          \`\`\`
+          NOTES
+
+          ASSETS=(
+            "mac/dist/Pigeon-$VERSION.zip"
+            "mac/dist/Pigeon-$VERSION.dmg"
+            "mac/dist/SHA256SUMS.txt"
+          )
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG exists — uploading (clobbering) assets"
+            gh release upload "$TAG" "${ASSETS[@]}" --clobber
+          else
+            echo "Creating release $TAG"
+            gh release create "$TAG" \
+              --title "Pigeon $VERSION" \
+              --notes-file "$NOTES_FILE" \
+              --generate-notes \
+              --target "${{ github.sha }}" \
+              "${ASSETS[@]}"
+          fi
