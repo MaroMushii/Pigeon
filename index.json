@@ -1,0 +1,38 @@
+{
+  "schema": 2,
+  "generated_at": "2026-05-05T11:12:18.766Z",
+  "channels": [
+    {
+      "username": "durov",
+      "title": "Pavel Durov",
+      "last_fetched_at": "2026-05-05T11:12:11.815Z",
+      "post_count": 20,
+      "media_count": 8,
+      "snapshot_path": "channels/durov/snapshot.json"
+    },
+    {
+      "username": "ircfspace",
+      "title": "IRCF | اینترنت آزاد برای همه",
+      "last_fetched_at": "2026-05-05T11:12:13.000Z",
+      "post_count": 20,
+      "media_count": 12,
+      "snapshot_path": "channels/ircfspace/snapshot.json"
+    },
+    {
+      "username": "telegram",
+      "title": "Telegram News",
+      "last_fetched_at": "2026-05-05T11:12:14.527Z",
+      "post_count": 20,
+      "media_count": 15,
+      "snapshot_path": "channels/telegram/snapshot.json"
+    },
+    {
+      "username": "vahidonline",
+      "title": "Vahid Online وحید آنلاین",
+      "last_fetched_at": "2026-05-05T11:12:15.777Z",
+      "post_count": 18,
+      "media_count": 19,
+      "snapshot_path": "channels/vahidonline/snapshot.json"
+    }
+  ]
+}
