@@ -22,7 +22,11 @@ concurrency:
 
 jobs:
   build:
-    runs-on: macos-15
+    # macOS 26 runner has the Xcode 26.x release whose actool fully
+    # supports Icon Composer `.icon` bundles. The macos-15 image only
+    # carries an early Xcode 26 beta, which fails to compile our app
+    # icon at the asset-catalog stage.
+    runs-on: macos-26
     timeout-minutes: 30
     steps:
       - name: Checkout
@@ -60,6 +64,15 @@ jobs:
           mac/scripts/build.sh \
             --version "${{ steps.ver.outputs.version }}" \
             --build   "${{ github.run_number }}"
+
+      - name: Upload raw xcodebuild log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcodebuild-log
+          path: mac/build/xcodebuild.log
+          if-no-files-found: ignore
+          retention-days: 14
 
       - name: Compute checksums
         working-directory: mac/dist

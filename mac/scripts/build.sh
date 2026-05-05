@@ -69,12 +69,21 @@ XCBUILD_ARGS=(
   build
 )
 
+BUILD_LOG="$DERIVED/xcodebuild.log"
+mkdir -p "$DERIVED"
+
 if command -v xcbeautify >/dev/null; then
   RENDERER=terminal
   [[ "${GITHUB_ACTIONS:-}" == "true" ]] && RENDERER=github-actions
-  xcodebuild "${XCBUILD_ARGS[@]}" | xcbeautify --renderer "$RENDERER"
+  # Tee the raw xcodebuild output (stdout + stderr) to a log before
+  # xcbeautify consumes it. xcbeautify happily filters out actool
+  # errors, so when builds fail in CI the only place to find the real
+  # cause is this file — the workflow uploads it as an artifact.
+  xcodebuild "${XCBUILD_ARGS[@]}" 2>&1 \
+    | tee "$BUILD_LOG" \
+    | xcbeautify --renderer "$RENDERER"
 else
-  xcodebuild "${XCBUILD_ARGS[@]}"
+  xcodebuild "${XCBUILD_ARGS[@]}" 2>&1 | tee "$BUILD_LOG"
 fi
 
 APP_SRC="$DERIVED/Build/Products/Release/Pigeon.app"
