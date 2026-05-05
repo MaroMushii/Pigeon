@@ -7,12 +7,30 @@ import SwiftUI
 /// `NSAttributedString(data:options:)` because it spins up a full HTML
 /// document parser per call and is very slow.
 struct AttributedHTMLBuilder {
+    /// Memoizes parse results keyed on the raw HTML string. SwiftUI calls
+    /// `build(from:)` on every `PostCard.body` re-evaluation, and any
+    /// observable mutation on any visible post triggers all visible cards to
+    /// re-render. Without a cache that means re-parsing ~20 HTML blobs through
+    /// SwiftSoup on the main thread per tick. NSCache is thread-safe and
+    /// auto-evicts under memory pressure, which is exactly what we want.
+    nonisolated(unsafe) private static let cache: NSCache<NSString, CachedAttributed> = {
+        let cache = NSCache<NSString, CachedAttributed>()
+        cache.countLimit = 500
+        cache.totalCostLimit = 8 * 1024 * 1024
+        return cache
+    }()
+
     func build(from html: String) -> AttributedString {
+        let key = html as NSString
+        if let hit = Self.cache.object(forKey: key) {
+            return hit.value
+        }
         guard let body = try? SwiftSoup.parseBodyFragment(html).body() else {
             return AttributedString(html)
         }
         var out = AttributedString()
         append(node: body, into: &out, inheriting: .init())
+        Self.cache.setObject(CachedAttributed(out), forKey: key, cost: html.utf8.count)
         return out
     }
 
@@ -86,3 +104,14 @@ struct AttributedHTMLBuilder {
         }
     }
 }
+
+/// NSCache requires NSObject values, so wrap the Swift `AttributedString` in
+/// a reference-typed box.
+private final class CachedAttributed: NSObject {
+    let value: AttributedString
+
+    init(_ value: AttributedString) {
+        self.value = value
+    }
+}
+
