@@ -1,6 +1,6 @@
 import Foundation
 
-/// Decodes a snapshot JSON committed to `MaroMushii/teleMirror#export` by
+/// Decodes a snapshot JSON committed to `MaroMushii/Pigeon#export` by
 /// Pigeon's mirror Worker. Schema lives at `worker/src/schema.ts`; fields
 /// here mirror it 1:1 via explicit CodingKeys.
 ///

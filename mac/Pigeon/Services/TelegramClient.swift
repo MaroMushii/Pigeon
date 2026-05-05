@@ -3,7 +3,7 @@ import Foundation
 /// Fetches Telegram channel content. Two transports, in priority order:
 ///
 ///   1. **Pigeon mirror snapshot** — `raw.githubusercontent.com/MaroMushii/
-///      teleMirror/export/<channel>.json`. Updated every ~2 min by our
+///      Pigeon/export/<channel>.json`. Updated every ~2 min by our
 ///      Cloudflare Worker scraping `t.me` from outside Iran. Iran rarely
 ///      blocks GitHub raw. Fast, fresh, hard to censor, decodes straight
 ///      into our domain types.
@@ -72,8 +72,8 @@ actor TelegramClient {
 
     private static let proxyHostname = "t-me.translate.goog"
 
-    /// `MaroMushii/teleMirror#export` raw URL prefix.
-    private static let mirrorPrefix = "https://raw.githubusercontent.com/MaroMushii/teleMirror/refs/heads/export"
+    /// `MaroMushii/Pigeon#export` raw URL prefix.
+    private static let mirrorPrefix = "https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/export"
 
     private let pinned = PinnedHTTPSClient()
     private let session: URLSession

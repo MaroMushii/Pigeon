@@ -1,7 +1,7 @@
 # pigeon-mirror
 
 Pigeon's Cloudflare Worker. Scrapes Telegram channels from outside Iran and
-commits JSON snapshots to `MaroMushii/teleMirror#export` so the Pigeon app can
+commits JSON snapshots to `MaroMushii/Pigeon#export` so the Pigeon app can
 read them via `raw.githubusercontent.com` (which isn't DNS-poisoned in Iran
 the way `t.me` and `*.translate.goog` are).
 
@@ -20,7 +20,7 @@ the way `t.me` and `*.translate.goog` are).
 3. **Generate a fine-grained GitHub PAT**
    At <https://github.com/settings/personal-access-tokens/new>:
    - Resource owner: `MaroMushii`
-   - Repository access: only `MaroMushii/teleMirror`
+   - Repository access: only `MaroMushii/Pigeon`
    - Permissions → Repository → **Contents: Read and write**
    - Expiry: 1 year (renew before it dies)
 

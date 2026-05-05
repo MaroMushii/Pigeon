@@ -1,5 +1,5 @@
 /**
- * Snapshot format committed to MaroMushii/teleMirror#export. Mirrors our
+ * Snapshot format committed to MaroMushii/Pigeon#export. Mirrors our
  * Swift domain types so the Pigeon JSON decoder is a near-identity:
  *  - keys use snake_case (Pigeon's decoder configured with snake-case strategy)
  *  - dates are ISO 8601 strings

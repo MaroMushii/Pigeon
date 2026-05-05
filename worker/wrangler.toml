@@ -13,7 +13,7 @@ crons = ["*/2 * * * *"]
 # are configured via `wrangler secret put`.
 [vars]
 GITHUB_OWNER = "MaroMushii"
-GITHUB_REPO = "teleMirror"
+GITHUB_REPO = "Pigeon"
 GITHUB_BRANCH = "export"
 GITHUB_CHANNELS_PATH = "worker/channels.json"
 MAX_CHANNELS_PER_TICK = "16"
