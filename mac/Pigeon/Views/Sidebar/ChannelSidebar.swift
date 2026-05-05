@@ -39,14 +39,6 @@ struct ChannelSidebar: View {
                             )
                             .tag(channel.persistentModelID)
                             .contextMenu {
-                                Section("@\(channel.username)") {
-                                    if let subs = channel.subscriberCount, !subs.isEmpty {
-                                        Text("\(subs) subscribers")
-                                    }
-                                    Text("Updated \(Self.updatedLabel(channel.lastFetchedAt))")
-                                    Text("\(channel.posts.count) posts cached")
-                                }
-                                Divider()
                                 Button("Refresh") {
                                     if let service {
                                         Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
@@ -61,6 +53,14 @@ struct ChannelSidebar: View {
                                     if appState.selectedChannelID == channel.persistentModelID {
                                         appState.selectedChannelID = nil
                                     }
+                                }
+                                Divider()
+                                Section("@\(channel.username)") {
+                                    if let subs = channel.subscriberCount, !subs.isEmpty {
+                                        Text("\(subs) subscribers")
+                                    }
+                                    Text("Updated \(Self.updatedLabel(channel.lastFetchedAt))")
+                                    Text("\(channel.posts.count) posts cached")
                                 }
                             }
                         }
