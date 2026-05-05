@@ -35,7 +35,8 @@ struct ChannelSidebar: View {
                             ChannelRow(
                                 channel: channel,
                                 isLoading: service?.inflight.contains(channel.username) ?? false,
-                                unreadCount: channel.unreadCount
+                                unreadCount: channel.unreadCount,
+                                isMuted: channel.isMuted
                             )
                             .tag(channel.persistentModelID)
                             .contextMenu {
@@ -46,6 +47,9 @@ struct ChannelSidebar: View {
                                 }
                                 Button("Open on telegram.org") {
                                     NSWorkspace.shared.open(channel.publicURL)
+                                }
+                                Button(channel.isMuted ? "Unmute" : "Mute") {
+                                    service?.setMuted(channel, !channel.isMuted)
                                 }
                                 Divider()
                                 Button("Remove", role: .destructive) {
@@ -114,6 +118,7 @@ private struct ChannelRow: View {
     let channel: Channel
     let isLoading: Bool
     let unreadCount: Int
+    let isMuted: Bool
 
     var body: some View {
         HStack(spacing: 8) {
@@ -125,10 +130,16 @@ private struct ChannelRow: View {
                     .font(.callout)
                     .fontWeight(.medium)
                     .lineLimit(1)
-                Text("@\(channel.username)")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .lineLimit(1)
+                HStack(spacing: 3) {
+                    Text("@\(channel.username)")
+                        .lineLimit(1)
+                    if isMuted {
+                        Image(systemName: "bell.slash")
+                            .imageScale(.small)
+                    }
+                }
+                .font(.caption)
+                .foregroundStyle(.secondary)
             }
             Spacer(minLength: 4)
             if isLoading {
@@ -138,11 +149,16 @@ private struct ChannelRow: View {
                 Text("\(unreadCount)")
                     .font(.caption)
                     .fontWeight(.semibold)
-                    .foregroundStyle(.white)
+                    .foregroundStyle(isMuted ? AnyShapeStyle(.secondary) : AnyShapeStyle(.white))
                     .padding(.horizontal, 7)
                     .padding(.vertical, 2)
-                    .background(Color.accentColor, in: .capsule)
-                    .accessibilityLabel("\(unreadCount) unread")
+                    .background(
+                        isMuted
+                            ? AnyShapeStyle(Color.secondary.opacity(0.18))
+                            : AnyShapeStyle(Color.accentColor),
+                        in: .capsule
+                    )
+                    .accessibilityLabel(isMuted ? "\(unreadCount) unread, muted" : "\(unreadCount) unread")
             }
         }
         .padding(.vertical, 4)

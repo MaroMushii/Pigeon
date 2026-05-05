@@ -16,6 +16,11 @@ final class Channel {
     /// `nil` until the first successful fetch — treated as `.mirror` for
     /// scheduling purposes.
     var lastFetchSource: FetchSource.RawValue?
+    /// User has muted this channel. Muted channels keep refreshing and
+    /// their per-channel unread count keeps incrementing — they just
+    /// don't contribute to the global dock badge (and won't trigger
+    /// notifications when those exist).
+    var isMuted: Bool = false
     @Relationship(deleteRule: .cascade, inverse: \Post.channel)
     var posts: [Post] = []
 

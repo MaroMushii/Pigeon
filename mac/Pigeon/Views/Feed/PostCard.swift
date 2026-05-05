@@ -12,6 +12,18 @@ struct PostCard: View {
 
     private static let attributedBuilder = AttributedHTMLBuilder()
 
+    /// Dwell time before a visible post is counted as read. Brief glances
+    /// during a scroll-fling shouldn't burn through the unread queue, and
+    /// — load-bearing for scroll smoothness — flings no longer fire a
+    /// `markRead` (and its SwiftData mutation + dock-badge update) for
+    /// every card that crosses the threshold for one frame.
+    private static let readDwell: Duration = .milliseconds(600)
+
+    /// Pending dwell-completion task. Recreated on each visibility flip;
+    /// `onDisappear` cancels it so a card scrolled fully off-screen
+    /// doesn't fire `markRead` after the fact.
+    @State private var dwellTask: Task<Void, Never>?
+
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             header
@@ -52,9 +64,11 @@ struct PostCard: View {
             }
         }
         .onScrollVisibilityChange(threshold: 0.3) { visible in
-            if visible, !post.isRead {
-                service?.markRead(post)
-            }
+            handleVisibilityChange(visible)
+        }
+        .onDisappear {
+            dwellTask?.cancel()
+            dwellTask = nil
         }
         .contextMenu {
             if let permalink = post.permalink {
@@ -71,6 +85,17 @@ struct PostCard: View {
                 NSPasteboard.general.setString(post.plainText, forType: .string)
             }
             .disabled(post.plainText.isEmpty)
+        }
+    }
+
+    private func handleVisibilityChange(_ visible: Bool) {
+        dwellTask?.cancel()
+        dwellTask = nil
+        guard visible, !post.isRead, let service else { return }
+        dwellTask = Task { @MainActor in
+            try? await Task.sleep(for: Self.readDwell)
+            guard !Task.isCancelled else { return }
+            service.markRead(post)
         }
     }
 

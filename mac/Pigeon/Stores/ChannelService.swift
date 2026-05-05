@@ -275,15 +275,33 @@ final class ChannelService {
         }
     }
 
-    /// Persist `isRead = true` for a single post. Cheap save; called from
-    /// the feed's onScrollVisibilityChange hook. No-op if already read.
-    /// Decrements the cached `unreadCount` instead of re-querying SwiftData
-    /// — fast scrolling can fire this dozens of times per second.
+    /// Mark a single post as read. No-op if already read. Decrements the
+    /// cached `unreadCount` instead of re-querying SwiftData. Persistence
+    /// is left to `mainContext`'s autosave — explicit `save()` here used
+    /// to peg the main actor on scroll-driven calls and dropped frames
+    /// during fast flings. The caller (`PostCard`) gates this behind a
+    /// dwell timer, so the call rate is at most ~one per 600 ms per card.
     func markRead(_ post: Post) {
         guard !post.isRead else { return }
         post.isRead = true
+        // Muted-channel posts never contributed to `unreadCount`, so a
+        // decrement here would break the cache. `!= true` matches the
+        // prior unconditional decrement for orphan posts (nil channel).
+        if post.channel?.isMuted != true {
+            unreadCount = max(0, unreadCount - 1)
+        }
+        updateDockBadge()
+    }
+
+    /// Toggle a channel's muted state. Muted channels keep refreshing and
+    /// their per-channel unread count keeps incrementing — only the global
+    /// dock-badge aggregation excludes them. Recomputes authoritatively
+    /// because the aggregation rule, not just the data, changed.
+    func setMuted(_ channel: Channel, _ muted: Bool) {
+        guard channel.isMuted != muted else { return }
+        channel.isMuted = muted
         try? context.save()
-        unreadCount = max(0, unreadCount - 1)
+        unreadCount = Self.recomputeUnreadCount(in: context)
         updateDockBadge()
     }
 
@@ -472,9 +490,15 @@ final class ChannelService {
         defaults.removeObject(forKey: Self.lastModifiedKey(username))
     }
 
+    /// Sum unread posts across non-muted channels. Channel-first (rather
+    /// than a `Post` predicate that traverses the optional `channel`
+    /// relationship) sidesteps `#Predicate` macro brittleness around
+    /// `?.` + `??` chains. Dataset is small (dozens of channels), so the
+    /// in-memory sum is fine.
     private static func recomputeUnreadCount(in context: ModelContext) -> Int {
-        let descriptor = FetchDescriptor<Post>(predicate: #Predicate { !$0.isRead })
-        return (try? context.fetchCount(descriptor)) ?? 0
+        let descriptor = FetchDescriptor<Channel>(predicate: #Predicate { !$0.isMuted })
+        let channels = (try? context.fetch(descriptor)) ?? []
+        return channels.reduce(0) { $0 + $1.unreadCount }
     }
 
     // MARK: - Auto-refresh loop
