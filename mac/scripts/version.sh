@@ -2,10 +2,12 @@
 # Resolves the marketing version for a Pigeon release build.
 #
 # Sources, in priority order:
-#   1. --version <X.Y.Z[-prerelease]>
+#   1. --version <X.Y.Z>
 #   2. GITHUB_REF env (when it points at a tag matching v*.*.*)
 #
 # Output: bare semver (no leading "v") on stdout. Exits non-zero on failure.
+#
+# Pigeon doesn't use prerelease versions — only plain X.Y.Z is accepted.
 
 set -euo pipefail
 
@@ -37,8 +39,8 @@ if [[ -z "$VERSION" ]]; then
   exit 1
 fi
 
-if ! [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.-]+)?$ ]]; then
-  echo "version.sh: '$VERSION' is not semver-shaped (expected X.Y.Z[-prerelease])" >&2
+if ! [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+  echo "version.sh: '$VERSION' is not X.Y.Z-shaped (prerelease versions are not supported)" >&2
   exit 1
 fi
 
