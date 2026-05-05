@@ -177,9 +177,35 @@ private struct MediaTile: View {
             }
         }
         .onTapGesture {
-            if let url = media.assetURL {
-                NSWorkspace.shared.open(url)
+            if media.kind == .video {
+                if let url = media.assetURL { NSWorkspace.shared.open(url) }
+            } else {
+                Task { await openInQuickLook() }
             }
+        }
+    }
+
+    @MainActor
+    private func openInQuickLook() async {
+        // Prefer `thumbnailURL` — that's the actual image (matches what
+        // `MediaImageRequest.tile` already loaded into Nuke's data cache,
+        // so this fetch is usually a disk hit). `assetURL` for HTML-parsed
+        // posts can be the t.me post permalink (Telegram wraps photos in
+        // click-through anchors), which we must never hit unproxied.
+        guard let url = media.thumbnailURL ?? media.assetURL else { return }
+        do {
+            let (data, _) = try await ImagePipeline.shared.data(for: ImageRequest(url: url))
+            let ext = url.pathExtension.isEmpty ? "jpg" : url.pathExtension
+            let tempURL = FileManager.default.temporaryDirectory
+                .appendingPathComponent(UUID().uuidString)
+                .appendingPathExtension(ext)
+            try data.write(to: tempURL)
+            QuickLookManager.shared.show(tempURL)
+        } catch {
+            // Fail closed. A fallback `NSWorkspace.shared.open(url)` would
+            // leak a t.me permalink (or proxied CDN URL) to the system
+            // browser, which violates the no-direct-t.me rule.
+            NSLog("[QuickLook] fetch failed for <\(url.absoluteString)>: \(error)")
         }
     }
 }

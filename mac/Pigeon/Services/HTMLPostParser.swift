@@ -140,13 +140,17 @@ struct HTMLPostParser {
 
         if let photos = try? wrap.select(".tgme_widget_message_photo_wrap").array() {
             for el in photos {
-                let href = (try? el.attr("href")).flatMap(URL.init(string:))
                 let style = (try? el.attr("style")) ?? ""
                 let thumb = backgroundImageURL(from: style)
+                // `href` on the wrap is the post permalink (a t.me link),
+                // not the image — Telegram uses it for click-through. The
+                // CSS background URL IS the image, so it's both `assetURL`
+                // and `thumbnailURL`.
+                let asset = TelegramURLRewriter.rewrite(thumb)
                 out.append(MediaSnapshot(
                     kind: .photo,
-                    assetURL: TelegramURLRewriter.rewrite(href ?? thumb),
-                    thumbnailURL: TelegramURLRewriter.rewrite(thumb),
+                    assetURL: asset,
+                    thumbnailURL: asset,
                     durationLabel: nil,
                     aspectRatio: aspectRatio(from: style)
                 ))
