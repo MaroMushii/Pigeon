@@ -1,0 +1,505 @@
+{
+  "schema": 2,
+  "fetched_at": "2026-05-05T15:17:15.661Z",
+  "channel": {
+    "username": "matinsenpaii",
+    "title": "Matin SenPai",
+    "description_html": "یوتوبر انیمه و مانگا(الان کمی شبکه؟!) - برنامه‌نویسِ ایده‌های باحال<br><br>•YouTube:<br><a href=\"http://www.youtube.com/@Matin_SenPai\" target=\"_blank\" rel=\"noopener\">http://www.youtube.com/@Matin_SenPai</a><br><br>•AniList:<br><a href=\"https://anilist.co/user/MatinSenPai\" target=\"_blank\" rel=\"noopener\">https://anilist.co/user/MatinSenPai</a><br><br>•Github:<br><a href=\"https://github.com/MatinSenPai\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai</a>",
+    "photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+    "photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+    "subscriber_count": "86.5K"
+  },
+  "posts": [
+    {
+      "id": "MatinSenPaii/2944",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "<tg-emoji emoji-id=\"5215334566549540768\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji>یه سری مطالب از Repo سازنده‌ی MHR واستون قرار میدم(مربوط به این روش: <a href=\"https://t.me/MatinSenPaii/2785\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/2785</a>) :<br><br>اول از همه دقت داشته باشید که به روز ترین نسخه‌ی <a href=\"http://code.gs/\" target=\"_blank\" rel=\"noopener\">code.gs</a> رو حتما از گیتهاب پروژه گرفته باشید: <a href=\"https://github.com/masterking32/MasterHttpRelayVPN/blob/python_testing/apps_script/Code.gs\" target=\"_blank\" rel=\"noopener\">https://github.com/masterking32/MasterHttpRelayVPN/blob/python_testing/apps_script/Code.gs</a><br><br><tg-emoji emoji-id=\"5411197345968701560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji>1- برای اسکن سریعترین IP گوگل، این دستور رو اجرا کنید:<br><pre>python main.py --scan</pre><br>و بعدش توی config.json، آیپی پیدا شده رو توی بخش <code>google_ip</code> قرار بدید اونی که پینگ کمتری از همه داره.<br><br><tg-emoji emoji-id=\"5411197345968701560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji>2- گوگل و یوتیوب باز می‌شن، ولی ویدئوها پخش نمی‌شن و سایت‌های دیگه هم باز نمی‌شن:<br><br>الف) محدودیت روزانه 20کا ریکوئست شما تموم شده. تا فردا صبر کنید ساعت 10:30 صبح<br>ب) deployment شما مشکل داره و باید مجددا روی همون اکانت گوگلتون پروژه رو دیپلوی کنید<br>ج) اکانت شما فلگ شده و باید با جیمیل دیگه‌ای دیپلوی کنید بالکل پروژه رو روی یه جیمیل دیگه دیپلوی کنید<br><br><tg-emoji emoji-id=\"5411197345968701560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji>3- ارورهایی از جمله certificate error و ... به خاطر نصب نبودن سرتیفیکیت هستن. ویدئو رو با دقت ببینید و سرتیفیکیت‌ها رو نصب کنید<br><br><tg-emoji emoji-id=\"5411197345968701560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji>4-  خطای unauthorized: مقدار auth_key و AUTH_KEY باید یکسان باشه از سمت گوگل و فایل شما<br><br><tg-emoji emoji-id=\"5411197345968701560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji>5- ارور timeout آیپی گوگل فیلتره واستون(به سؤال 1 مراجعه کنید)<br><br><tg-emoji emoji-id=\"5411197345968701560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji>6-  سرعت کم: سازنده گفته که استفاده از چندین deployment_id و چندین اکانت گوگل، این مشکل رو حل میکنه",
+      "plain_text": "💬یه سری مطالب از Repo سازنده‌ی MHR واستون قرار میدم(مربوط به این روش: https://t.me/MatinSenPaii/2785) : اول از همه دقت داشته باشید که به روز ترین نسخه‌ی code.gs رو حتما از گیتهاب پروژه گرفته باشید: https://github.com/masterking32/MasterHttpRelayVPN/blob/python_testing/apps_script/Code.gs ✅1- برای اسکن سریعترین IP گوگل، این دستور رو اجرا کنید: python main.py --scan و بعدش توی config.json، آیپی پیدا شده رو توی بخش google_ip قرار بدید اونی که پینگ کمتری از همه داره. ✅2- گوگل و یوتیوب باز می‌شن، ولی ویدئوها پخش نمی‌شن و سایت‌های دیگه هم باز نمی‌شن: الف) محدودیت روزانه 20کا ریکوئست شما تموم شده. تا فردا صبر کنید ساعت 10:30 صبح ب) deployment شما مشکل داره و باید مجددا روی همون اکانت گوگلتون پروژه رو دیپلوی کنید ج) اکانت شما فلگ شده و باید با جیمیل دیگه‌ای دیپلوی کنید بالکل پروژه رو روی یه جیمیل دیگه دیپلوی کنید ✅3- ارورهایی از جمله certificate error و ... به خاطر نصب نبودن سرتیفیکیت هستن. ویدئو رو با دقت ببینید و سرتیفیکیت‌ها رو نصب کنید ✅4- خطای unauthorized: مقدار auth_key و AUTH_KEY باید یکسان باشه از سمت گوگل و فایل شما ✅5- ارور timeout آیپی گوگل فیلتره واستون(به سؤال 1 مراجعه کنید) ✅6- سرعت کم: سازنده گفته که استفاده از چندین deployment_id و چندین اکانت گوگل، این مشکل رو حل میکنه",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "230"
+        },
+        {
+          "emoji": "👍",
+          "count": "28"
+        },
+        {
+          "emoji": "👎",
+          "count": "6"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        }
+      ],
+      "views_label": "38.9K",
+      "posted_at": "2026-05-03T16:43:53+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2944"
+    },
+    {
+      "id": "MatinSenPaii/2945",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">سلام به همه دوستان<br><br>نسخه جدید تستی WhiteDNS آماده شد. ممنون از همه کسانی که نسخه‌های قبلی رو نصب کردند، تست گرفتند، لاگ فرستادند و با فیدبک‌هاشون کمک کردند مشکلات رو پیدا و برطرف کنیم.<br><br>دانلود سرور داخلی <br><a href=\"https://uplod.ir/gce7505a78tl/WhiteDNS-Beta3.zip.htm\" target=\"_blank\" rel=\"noopener\">https://uplod.ir/gce7505a78tl/WhiteDNS-Beta3.zip.htm</a><br><a href=\"https://guardnet.ir/f/whitednsB-3share\" target=\"_blank\" rel=\"noopener\">https://guardnet.ir/f/whitednsB-3share</a><br><br><br>در این نسخه تغییرات زیادی روی ظاهر، پایداری و مدیریت کانفیگ انجام شده:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> طراحی اپلیکیشن کامل بازطراحی شده و حالا ظاهر جدید، ساده‌تر، مرتب‌تر و دارک دارد<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> دارک مود و رنگ‌بندی جدید برای خوانایی بهتر اضافه شده<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> امکان ساخت چند پروفایل کانکشن اضافه شده<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> امکان ساخت چند پروفایل ریزالور اضافه شده<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> انتخاب پروفایل کانکشن و پروفایل ریزالور ساده‌تر شده<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> لاگ‌ها جدا شدند و حالا خواناتر نمایش داده می‌شوند<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> امکان کپی و خروجی گرفتن از لاگ‌ها اضافه شده تا اگر مشکلی داشتید راحت‌تر برای ما ارسال کنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> دکمه Reset to Default برای برگرداندن تنظیمات پیشرفته به حالت پیش‌فرض اضافه شده<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> تنظیمات اضافه و گیج‌کننده تا حد ممکن مرتب و حذف شدند<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> دسترسی Battery Optimization اضافه شده تا اتصال در پس‌زمینه پایدارتر بماند<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> باگ کرش کردن اپلیکیشن بعد از Disconnect مخصوصا در حالت Full VPN برطرف شده<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> نسخه جدید بهینه‌تر شده و لاگ‌ها فقط آخرین موارد مهم را نگه می‌دارند تا روی عملکرد اپلیکیشن فشار نیاورد<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> حالت Proxy Mode به عنوان گزینه پیش‌فرض قرار داده شده چون عملکرد بهتر و پایدارتری دارد<br><br>پیشنهاد ما این است که اگر امکانش را دارید از Proxy Mode استفاده کنید. حالت Full VPN هنوز برای تست وجود دارد، اما چون کل ترافیک دستگاه را از تونل عبور می‌دهد ممکن است سرعت و پایداری پایین‌تری داشته باشد.<br><br>همچنین اگر سرور StormDNS شخصی دارید، بهتر است از سرورهای خودتان استفاده کنید. فشار زیادی روی سرورهای عمومی WhiteDNS وجود دارد و استفاده از سرور شخصی هم برای شما پایدارتر است و هم کمک می‌کند سرویس عمومی برای بقیه کاربران بهتر کار کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> این نسخه هنوز Beta است. یعنی نسخه نهایی نیست و ما داریم با کمک شما قبل از انتشار رسمی تستش می‌کنیم. ممکن است هنوز روی بعضی دستگاه‌ها یا بعضی شبکه‌ها مشکل وجود داشته باشد. اگر مشکلی دیدید، لطفا از بخش Logs خروجی بگیرید و برای ما ارسال کنید.<br><br>لینک کانال:<br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\">https://t.me/whitedns</a></div>",
+      "plain_text": "سلام به همه دوستان نسخه جدید تستی WhiteDNS آماده شد. ممنون از همه کسانی که نسخه‌های قبلی رو نصب کردند، تست گرفتند، لاگ فرستادند و با فیدبک‌هاشون کمک کردند مشکلات رو پیدا و برطرف کنیم. دانلود سرور داخلی https://uplod.ir/gce7505a78tl/WhiteDNS-Beta3.zip.htm https://guardnet.ir/f/whitednsB-3share در این نسخه تغییرات زیادی روی ظاهر، پایداری و مدیریت کانفیگ انجام شده: ✅ طراحی اپلیکیشن کامل بازطراحی شده و حالا ظاهر جدید، ساده‌تر، مرتب‌تر و دارک دارد ✅ دارک مود و رنگ‌بندی جدید برای خوانایی بهتر اضافه شده ✅ امکان ساخت چند پروفایل کانکشن اضافه شده ✅ امکان ساخت چند پروفایل ریزالور اضافه شده ✅ انتخاب پروفایل کانکشن و پروفایل ریزالور ساده‌تر شده ✅ لاگ‌ها جدا شدند و حالا خواناتر نمایش داده می‌شوند ✅ امکان کپی و خروجی گرفتن از لاگ‌ها اضافه شده تا اگر مشکلی داشتید راحت‌تر برای ما ارسال کنید ✅ دکمه Reset to Default برای برگرداندن تنظیمات پیشرفته به حالت پیش‌فرض اضافه شده ✅ تنظیمات اضافه و گیج‌کننده تا حد ممکن مرتب و حذف شدند ✅ دسترسی Battery Optimization اضافه شده تا اتصال در پس‌زمینه پایدارتر بماند ✅ باگ کرش کردن اپلیکیشن بعد از Disconnect مخصوصا در حالت Full VPN برطرف شده ✅ نسخه جدید بهینه‌تر شده و لاگ‌ها فقط آخرین موارد مهم را نگه می‌دارند تا روی عملکرد اپلیکیشن فشار نیاورد ✅ حالت Proxy Mode به عنوان گزینه پیش‌فرض قرار داده شده چون عملکرد بهتر و پایدارتری دارد پیشنهاد ما این است که اگر امکانش را دارید از Proxy Mode استفاده کنید. حالت Full VPN هنوز برای تست وجود دارد، اما چون کل ترافیک دستگاه را از تونل عبور می‌دهد ممکن است سرعت و پایداری پایین‌تری داشته باشد. همچنین اگر سرور StormDNS شخصی دارید، بهتر است از سرورهای خودتان استفاده کنید. فشار زیادی روی سرورهای عمومی WhiteDNS وجود دارد و استفاده از سرور شخصی هم برای شما پایدارتر است و هم کمک می‌کند سرویس عمومی برای بقیه کاربران بهتر کار کند. ⚠️ این نسخه هنوز Beta است. یعنی نسخه نهایی نیست و ما داریم با کمک شما قبل از انتشار رسمی تستش می‌کنیم. ممکن است هنوز روی بعضی دستگاه‌ها یا بعضی شبکه‌ها مشکل وجود داشته باشد. اگر مشکلی دیدید، لطفا از بخش Logs خروجی بگیرید و برای ما ارسال کنید. لینک کانال: https://t.me/whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/2945?single",
+          "asset_path": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/NtUErwmMyvea9vGtqZAbM40DcaW7723hSvLQxCihRj_015do-fXFD0w_YrCUF54gX8AxRLqNwGWSKFY21hzB-nJpn-Kzc28GhLXvCK2-6lpVK7kPlximRaTDXVO8ZPblQdvAoPnA5TUrCEvcwXeW7lJvJUDVVj8c2HHqVRI-KHMdTozdqhf5dV601GgWYD5dseHTEjjSGJfi7A8BhLQYKYCHWU7T3WzSCkOSmIRCI-emh8aOMmBtBqZ1S9J5VvRp4nu8Z-mlQJhaMdTKd3XoZrnPm_nsNjBu2zXcXvopGJ6s-gGw_NnNi2-Ebiy6K1YQARqgwAPrHGDUQwz8Ho_-Sw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/60e508e563a6e9d213283723.jpg",
+          "duration_label": null,
+          "aspect_ratio": null
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/2946?single",
+          "asset_path": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/kmPf_G98-9TT5m26u3NEtpIWo7oIuTRKOJ9VyKcEYw7NyFvgjVPmfQdfePXBYydlu-Ubr32Y1eweA8aGVzuaGGYExmcLpvc4nmI37Kk3shCE5pNkLDhQpjSdTGde-fBmR59vmW2rh0SwFAUORRPtpCTA1b8bBn2GnpXwtf1ApkI74KciqVukHunT2CsVeSAVhUVIuLg_Yp20xnQfI_Y24MuVst9Yws_oxk3Lunzq2vuOHInYsuRvYAf1EzyPEo1IJ_NCkb0GHvppB28IyzMo4OJkMIWT59C7KYAIWUIP7I5lU2zW9YTCcMT_cJiHZnbbzeSHq6sy24RFmBZNOUm4lw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/789fa639b9e09892d1c77851.jpg",
+          "duration_label": null,
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "count": "157"
+        },
+        {
+          "emoji": "👍",
+          "count": "18"
+        },
+        {
+          "emoji": "👎",
+          "count": "9"
+        }
+      ],
+      "views_label": "32.4K",
+      "posted_at": "2026-05-04T06:09:34+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2945"
+    },
+    {
+      "id": "MatinSenPaii/2947",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "نسخه‌ی بتای 3 منتشر شد. دوستان از سرورهای دیگه‌ی storm توی چنل استفاده کنید. خود سرورهای built-in سرعتشون یه کوچولو پایین اومده",
+      "plain_text": "نسخه‌ی بتای 3 منتشر شد. دوستان از سرورهای دیگه‌ی storm توی چنل استفاده کنید. خود سرورهای built-in سرعتشون یه کوچولو پایین اومده",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "72"
+        },
+        {
+          "emoji": "❤",
+          "count": "20"
+        },
+        {
+          "emoji": "👎",
+          "count": "2"
+        }
+      ],
+      "views_label": "36.3K",
+      "posted_at": "2026-05-04T06:10:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2947"
+    },
+    {
+      "id": "MatinSenPaii/2948",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "97"
+        },
+        {
+          "emoji": "👎",
+          "count": "5"
+        },
+        {
+          "emoji": "😁",
+          "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "37.8K",
+      "posted_at": "2026-05-04T06:44:56+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2948"
+    },
+    {
+      "id": "MatinSenPaii/2953",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "گویا یک پروژه‌ی دیگه نوشته شده واسه‌ی Vercel<br>که تشخیصش سختتره توسط سایت<br>اما من به دلایلی که قبلا گفتم آموزش نمیدم چون از نظرم به درد نمی‌خوره. مردم نه میتونن راحت اکانت بسازن داخلش، نه اعتباری به وایت موندنش هست، نه اعتباری به بن نشدن اکانت. توصیه‌ی اکیدم هم اینه که اکانت Vercel Pro نخرید. اما باز هم اگر علاقه‌مند بودید،<br>این خود پروژه هست: <a href=\"https://github.com/B3hnamR/XHTTPRelayECO\" target=\"_blank\" rel=\"noopener\">https://github.com/B3hnamR/XHTTPRelayECO</a><br><br>این هم آموزش متنیش: <a href=\"https://github.com/B3hnamR/XHTTPRelayECO/blob/master/Anti-Ban-Tutorial.md\" target=\"_blank\" rel=\"noopener\">https://github.com/B3hnamR/XHTTPRelayECO/blob/master/Anti-Ban-Tutorial.md</a>",
+      "plain_text": "گویا یک پروژه‌ی دیگه نوشته شده واسه‌ی Vercel که تشخیصش سختتره توسط سایت اما من به دلایلی که قبلا گفتم آموزش نمیدم چون از نظرم به درد نمی‌خوره. مردم نه میتونن راحت اکانت بسازن داخلش، نه اعتباری به وایت موندنش هست، نه اعتباری به بن نشدن اکانت. توصیه‌ی اکیدم هم اینه که اکانت Vercel Pro نخرید. اما باز هم اگر علاقه‌مند بودید، این خود پروژه هست: https://github.com/B3hnamR/XHTTPRelayECO این هم آموزش متنیش: https://github.com/B3hnamR/XHTTPRelayECO/blob/master/Anti-Ban-Tutorial.md",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "118"
+        },
+        {
+          "emoji": "👍",
+          "count": "26"
+        },
+        {
+          "emoji": "👎",
+          "count": "8"
+        }
+      ],
+      "views_label": "38.3K",
+      "posted_at": "2026-05-04T08:01:57+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2953"
+    },
+    {
+      "id": "MatinSenPaii/2954",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "من با این لیست وصل هستم خودم روی همراه اول و سیمکارت شاتل<br><blockquote expandable=\"\"><a href=\"http://185.161.112.38/\" target=\"_blank\" rel=\"noopener\">185.161.112.38</a><br><a href=\"http://194.225.152.10/\" target=\"_blank\" rel=\"noopener\">194.225.152.10</a><br><a href=\"http://217.218.155.155/\" target=\"_blank\" rel=\"noopener\">217.218.155.155</a><br><a href=\"http://185.20.163.4/\" target=\"_blank\" rel=\"noopener\">185.20.163.4</a><br><a href=\"http://78.157.42.101/\" target=\"_blank\" rel=\"noopener\">78.157.42.101</a><br><a href=\"http://31.24.234.37/\" target=\"_blank\" rel=\"noopener\">31.24.234.37</a><br><a href=\"http://31.7.78.205/\" target=\"_blank\" rel=\"noopener\">31.7.78.205</a><br><a href=\"http://80.75.14.102/\" target=\"_blank\" rel=\"noopener\">80.75.14.102</a><br><a href=\"http://185.255.89.57/\" target=\"_blank\" rel=\"noopener\">185.255.89.57</a><br><a href=\"http://2.188.21.138/\" target=\"_blank\" rel=\"noopener\">2.188.21.138</a><br><a href=\"http://2.188.21.58/\" target=\"_blank\" rel=\"noopener\">2.188.21.58</a><br><a href=\"http://2.189.44.68/\" target=\"_blank\" rel=\"noopener\">2.189.44.68</a><br><a href=\"http://185.110.244.150/\" target=\"_blank\" rel=\"noopener\">185.110.244.150</a><br><a href=\"http://2.189.44.98/\" target=\"_blank\" rel=\"noopener\">2.189.44.98</a><br><a href=\"http://2.188.21.62/\" target=\"_blank\" rel=\"noopener\">2.188.21.62</a><br><a href=\"http://2.188.21.70/\" target=\"_blank\" rel=\"noopener\">2.188.21.70</a><br><a href=\"http://80.210.40.55/\" target=\"_blank\" rel=\"noopener\">80.210.40.55</a><br><a href=\"http://85.185.163.4/\" target=\"_blank\" rel=\"noopener\">85.185.163.4</a><br><a href=\"http://2.189.44.66/\" target=\"_blank\" rel=\"noopener\">2.189.44.66</a><br><a href=\"http://2.188.21.46/\" target=\"_blank\" rel=\"noopener\">2.188.21.46</a><br><a href=\"http://2.189.44.84/\" target=\"_blank\" rel=\"noopener\">2.189.44.84</a><br><a href=\"http://2.189.44.82/\" target=\"_blank\" rel=\"noopener\">2.189.44.82</a><br><a href=\"http://2.189.44.86/\" target=\"_blank\" rel=\"noopener\">2.189.44.86</a><br><a href=\"http://2.189.44.85/\" target=\"_blank\" rel=\"noopener\">2.189.44.85</a><br><a href=\"http://2.189.44.83/\" target=\"_blank\" rel=\"noopener\">2.189.44.83</a><br><a href=\"http://80.210.40.53/\" target=\"_blank\" rel=\"noopener\">80.210.40.53</a><br><a href=\"http://2.188.21.146/\" target=\"_blank\" rel=\"noopener\">2.188.21.146</a><br><a href=\"http://172.64.32.0/\" target=\"_blank\" rel=\"noopener\">172.64.32.0</a><br><a href=\"http://108.162.192.0/\" target=\"_blank\" rel=\"noopener\">108.162.192.0</a><br><a href=\"http://78.39.234.230/\" target=\"_blank\" rel=\"noopener\">78.39.234.230</a><br><a href=\"http://173.245.58.0/\" target=\"_blank\" rel=\"noopener\">173.245.58.0</a><br><a href=\"http://2.188.21.78/\" target=\"_blank\" rel=\"noopener\">2.188.21.78</a><br><a href=\"http://2.189.44.44/\" target=\"_blank\" rel=\"noopener\">2.189.44.44</a><br><a href=\"http://185.20.163.2/\" target=\"_blank\" rel=\"noopener\">185.20.163.2</a><br><a href=\"http://194.60.210.66/\" target=\"_blank\" rel=\"noopener\">194.60.210.66</a><br><a href=\"http://217.218.127.127/\" target=\"_blank\" rel=\"noopener\">217.218.127.127</a><br><a href=\"http://2.188.21.130/\" target=\"_blank\" rel=\"noopener\">2.188.21.130</a><br><a href=\"http://31.24.200.4/\" target=\"_blank\" rel=\"noopener\">31.24.200.4</a><br><a href=\"http://2.185.239.138/\" target=\"_blank\" rel=\"noopener\">2.185.239.138</a><br><a href=\"http://5.145.112.39/\" target=\"_blank\" rel=\"noopener\">5.145.112.39</a><br><a href=\"http://85.185.85.6/\" target=\"_blank\" rel=\"noopener\">85.185.85.6</a><br><a href=\"http://217.219.132.88/\" target=\"_blank\" rel=\"noopener\">217.219.132.88</a><br><a href=\"http://178.22.122.100/\" target=\"_blank\" rel=\"noopener\">178.22.122.100</a><br><a href=\"http://194.36.174.1/\" target=\"_blank\" rel=\"noopener\">194.36.174.1</a><br><a href=\"http://185.53.143.3/\" target=\"_blank\" rel=\"noopener\">185.53.143.3</a><br><a href=\"http://80.191.209.105/\" target=\"_blank\" rel=\"noopener\">80.191.209.105</a><br><a href=\"http://78.157.42.100/\" target=\"_blank\" rel=\"noopener\">78.157.42.100</a><br><a href=\"http://213.176.123.5/\" target=\"_blank\" rel=\"noopener\">213.176.123.5</a><br><a href=\"http://185.55.226.26/\" target=\"_blank\" rel=\"noopener\">185.55.226.26</a></blockquote>",
+      "plain_text": "من با این لیست وصل هستم خودم روی همراه اول و سیمکارت شاتل 185.161.112.38 194.225.152.10 217.218.155.155 185.20.163.4 78.157.42.101 31.24.234.37 31.7.78.205 80.75.14.102 185.255.89.57 2.188.21.138 2.188.21.58 2.189.44.68 185.110.244.150 2.189.44.98 2.188.21.62 2.188.21.70 80.210.40.55 85.185.163.4 2.189.44.66 2.188.21.46 2.189.44.84 2.189.44.82 2.189.44.86 2.189.44.85 2.189.44.83 80.210.40.53 2.188.21.146 172.64.32.0 108.162.192.0 78.39.234.230 173.245.58.0 2.188.21.78 2.189.44.44 185.20.163.2 194.60.210.66 217.218.127.127 2.188.21.130 31.24.200.4 2.185.239.138 5.145.112.39 85.185.85.6 217.219.132.88 178.22.122.100 194.36.174.1 185.53.143.3 80.191.209.105 78.157.42.100 213.176.123.5 185.55.226.26",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "count": "157"
+        },
+        {
+          "emoji": "👎",
+          "count": "58"
+        },
+        {
+          "emoji": "👍",
+          "count": "11"
+        },
+        {
+          "emoji": "🔥",
+          "count": "5"
+        }
+      ],
+      "views_label": "47.5K",
+      "posted_at": "2026-05-04T08:15:50+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2954"
+    },
+    {
+      "id": "MatinSenPaii/2955",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "شرایط نت و محدودیت‌ها رو درحال حاضر نمیشه پیش‌بینی کرد. همونطور که میدونید با کوچکترین حرکتی همه‌چیز محدود میشه..<br>اما به محض اینکه یکم شرایط استیبل بشه، پیگیر کلاه‌بردار ها و کسایی که تو این وضعیت بد جای کمک و کنار مردم بودن ازشون دزدی کردن و زخم تازه ای روی زخم‌هاشون بودن خواهیم بود.",
+      "plain_text": "شرایط نت و محدودیت‌ها رو درحال حاضر نمیشه پیش‌بینی کرد. همونطور که میدونید با کوچکترین حرکتی همه‌چیز محدود میشه.. اما به محض اینکه یکم شرایط استیبل بشه، پیگیر کلاه‌بردار ها و کسایی که تو این وضعیت بد جای کمک و کنار مردم بودن ازشون دزدی کردن و زخم تازه ای روی زخم‌هاشون بودن خواهیم بود.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "2"
+        },
+        {
+          "emoji": "❤",
+          "count": "555"
+        },
+        {
+          "emoji": "👍",
+          "count": "105"
+        },
+        {
+          "emoji": "🔥",
+          "count": "19"
+        },
+        {
+          "emoji": "👎",
+          "count": "4"
+        }
+      ],
+      "views_label": "36.8K",
+      "posted_at": "2026-05-04T13:27:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2955"
+    },
+    {
+      "id": "MatinSenPaii/2956",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "این تبلیغات هم مال کانال من نیست. اعصابم خورد میشه با یه ذره Ton تبلیغ میزنن این زیر اونوقت من باید چندین هزارتا Boost بخرم تا تبلیغات رو غیرفعال کنم",
+      "plain_text": "این تبلیغات هم مال کانال من نیست. اعصابم خورد میشه با یه ذره Ton تبلیغ میزنن این زیر اونوقت من باید چندین هزارتا Boost بخرم تا تبلیغات رو غیرفعال کنم",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/2956",
+          "asset_path": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/MeKH9tj6_CL4yUEQz7wA4Fdb5wRsnS1JFnuwrvHVapAVjgyl6BRS0ndZw8FZyqQzS0N3sijwrqQkrR7IvAj6ChJ-gMvVwhT4NwK29zuhSkOyievz_JQ8xrxzvEquWEi35ObUFD0eBD7qkaKqt60b8tP0rnFC5M5C1JbgbJoXYhoaS4Su8R1Q50jsndBC5ygQjhdBsBdOJQYiuUzd0LHCQOatjtkrPMougkFSS-0nVErlG0t-6g5k-R_rmGHeY6eoaVOAx20p7eHyy6hoOFalQeK3xzJvdB16E8OaF-xLnaz7BagkzGdnUaBZijLcqBEiveCSF8cIIst8bwTU7UQFmA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/ccd8c11a4c018b3a617d08ad.jpg",
+          "duration_label": null,
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "18"
+        },
+        {
+          "emoji": "👍",
+          "count": "359"
+        },
+        {
+          "emoji": "😭",
+          "count": "40"
+        },
+        {
+          "emoji": "💔",
+          "count": "15"
+        },
+        {
+          "emoji": "😁",
+          "count": "12"
+        }
+      ],
+      "views_label": "37.7K",
+      "posted_at": "2026-05-04T13:40:24+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2956"
+    },
+    {
+      "id": "MatinSenPaii/2957",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "اینا که این پایین میاد و خیلی ممبر دارن بازم کلاهبردارن؟",
+      "plain_text": "اینا که این پایین میاد و خیلی ممبر دارن بازم کلاهبردارن؟",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "327"
+        },
+        {
+          "emoji": "❤",
+          "count": "29"
+        },
+        {
+          "emoji": "💔",
+          "count": "12"
+        },
+        {
+          "emoji": "😭",
+          "count": "8"
+        }
+      ],
+      "views_label": "38.6K",
+      "posted_at": "2026-05-04T13:45:53+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2957"
+    },
+    {
+      "id": "MatinSenPaii/2958",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/MatinSenPaii\"><span dir=\"auto\">Matin SenPai</span></a> pinned a photo",
+      "plain_text": "Matin SenPai pinned a photo",
+      "media": [],
+      "reactions": [],
+      "views_label": null,
+      "posted_at": "2026-05-04T13:47:15+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2958"
+    },
+    {
+      "id": "MatinSenPaii/2959",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "خب فکر کنم دوباره جنگ شد؟",
+      "plain_text": "خب فکر کنم دوباره جنگ شد؟",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "413"
+        },
+        {
+          "emoji": "❤",
+          "count": "42"
+        },
+        {
+          "emoji": "👎",
+          "count": "28"
+        },
+        {
+          "emoji": "🔥",
+          "count": "10"
+        }
+      ],
+      "views_label": "37.3K",
+      "posted_at": "2026-05-04T15:13:20+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2959"
+    },
+    {
+      "id": "MatinSenPaii/2960",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "دی ان اس هاتونو آماده کنید",
+      "plain_text": "دی ان اس هاتونو آماده کنید",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "😁",
+          "count": "424"
+        },
+        {
+          "emoji": "😭",
+          "count": "129"
+        },
+        {
+          "emoji": "👍",
+          "count": "47"
+        },
+        {
+          "emoji": "💔",
+          "count": "15"
+        }
+      ],
+      "views_label": "37.6K",
+      "posted_at": "2026-05-04T15:13:39+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2960"
+    },
+    {
+      "id": "MatinSenPaii/2961",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "حملات آخرالزمانی اسرائیل به جنوب لبنان ",
+      "plain_text": "حملات آخرالزمانی اسرائیل به جنوب لبنان",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "😁",
+          "count": "861"
+        },
+        {
+          "emoji": "❤",
+          "count": "45"
+        },
+        {
+          "emoji": "👍",
+          "count": "32"
+        },
+        {
+          "emoji": "🔥",
+          "count": "28"
+        }
+      ],
+      "views_label": "36.7K",
+      "posted_at": "2026-05-04T15:39:28+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2961"
+    },
+    {
+      "id": "MatinSenPaii/2962",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "<tg-emoji emoji-id=\"5812037770301938686\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8DB7.png')\"><b>🍷</b></i></tg-emoji>اپ TeleMirror یه تلاش آزمایشی برای دریافت آخرین مطالب کانال <a href=\"?q=%23%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85\">#تلگرام</a> خودم و سایر کانال‌های موردنظر در شرایط محدودیت شدید اینترنته، که سعی می‌کنه با چند روش مختلف پست‌ها رو بگیره و نمایش بده. <br>این برنامه <a href=\"?q=%23%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86\">#رایگان</a> و متن‌بازه و فعلا می‌تونه برای دنبال کردن اخبار تلگرامی بدون نیاز به فیلترشکن، یه گزینه موقت و کاربردی واسه دسکتاپ باشه.<br><br><br>لینک پروژه:<tg-emoji emoji-id=\"5312016608254762256\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></tg-emoji><br><a href=\"http://github.com/ircfspace/teleMirror/releases/latest\" target=\"_blank\" rel=\"noopener\">http://github.com/ircfspace/teleMirror/releases/latest</a><br><br><br>(پخت و پز عشق ircf)<br><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a> <tg-emoji emoji-id=\"5309958691854754293\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F928E.png')\"><b>💎</b></i></tg-emoji><br><a href=\"https://t.me/xsfilterrnet\" target=\"_blank\">@xsfilterrnet</a> <tg-emoji emoji-id=\"5053169761232356354\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji>",
+      "plain_text": "🍷اپ TeleMirror یه تلاش آزمایشی برای دریافت آخرین مطالب کانال #تلگرام خودم و سایر کانال‌های موردنظر در شرایط محدودیت شدید اینترنته، که سعی می‌کنه با چند روش مختلف پست‌ها رو بگیره و نمایش بده. این برنامه #رایگان و متن‌بازه و فعلا می‌تونه برای دنبال کردن اخبار تلگرامی بدون نیاز به فیلترشکن، یه گزینه موقت و کاربردی واسه دسکتاپ باشه. لینک پروژه:⚡️ http://github.com/ircfspace/teleMirror/releases/latest (پخت و پز عشق ircf) @ircfspace 💎 @xsfilterrnet 👑",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/2962",
+          "asset_path": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/nJsGL5ZDxLcAy9GELlVyC2lZzUkZz7CeUf-FC63WETN_8PAY_I15cYTuCpgKb3J_gF05Hs8d-GN-OVOcSJYDYY0TXhYZxy7k7sRrkrskTaCLsf9dtyGw6SfWacHR9Ac8rcC2B_iRI26PPkQPLhCLc0xvlKgxTV2zh1ccQHUlmo4pUytgIvEzvTUc3BfDLIuDRQwCvEXQ3tVqcHrNWvDw3Dgsj1eMicoGIf8rvoCCY2xpvXixnLL_qSqBYHc35XmsJWbOBJtUg_jHNkzczCLIbZ_LDPpuMiqZ8F7QUwEV9OpWGWfzysJdtc_ufIk6LJeRAi7335ELLpwfMSLyiHw9Wg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/ab47fc7d5c1a622a21c03375.jpg",
+          "duration_label": null,
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "4"
+        },
+        {
+          "emoji": "❤",
+          "count": "246"
+        },
+        {
+          "emoji": "👎",
+          "count": "26"
+        },
+        {
+          "emoji": "👍",
+          "count": "17"
+        },
+        {
+          "emoji": "🔥",
+          "count": "9"
+        }
+      ],
+      "views_label": "31.9K",
+      "posted_at": "2026-05-04T17:55:35+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2962"
+    },
+    {
+      "id": "MatinSenPaii/2963",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IkXdjaXO3tNf_p59RBfsG665rPHTHXSe0hC3mvU8s_FTc6_uX2VMTWKXXxfvNMu7V4S0tdy4UKGKq6oJZB1oVzQ9Ytmz2R28vKlUxVASpCpg14k3-Sc1G2SQ4GrQ56FPW4uNnJvUdEUOc0GOAOCB3P3E4Je79Uz4oip_y5YxSXUQCdlEsEUU0izgOHLgkz1aJQfLp5edkjBPGavkDZnJMjpjQTuvLzkh4Gu1CV1fxioz4Y9ohchaFPsXapwUbrYdlYVKuncZ54gQC9bSPwwKHhzS0ODSxXK6tjuld8ilJu-OvTjBj_iO26JUA2OWNiXUawYaRA_8hLrQNcfrXVo56A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/1e36480498efa9464ab89b55.jpg",
+      "body_html": "سؤال: چرا قیمت کانفیگ‌فروش‌ها پایین اومده یهو؟<br>جواب: 1- تعداد زیادی از کانفیگ‌فروش‌های حال حاضر، زرنگی کردن به حساب خودشون و اومدن از سیمکارت‌های پرو و سفید استفاده می‌کنن، و تا می‌تونن می‌فروشن. <br>2- همینطور یک تعدادی هم از متدهای خاصی که رندوم واسشون جواب داده استفاده میکنن(به طور مثال یه range آیپی وایت شده سرور ایران اینا هم جزوشون بوده یا استفاده از Shecan) <br>3- استفاده از اینترنت طبقاتی شرکت‌ها، سازمان‌ها و یا دانشگاه‌ها و اساتید.<br>4- دلایل دیگه‌ای هم هستن که یا من نمیدونم یا حضور ذهن ندارم.<br><br>به خاطر همین قیمت کانفیگ پایین اومده. منتها من پایداری زیادی درونشون نمیبینم. اگر جایی ارزون دیدید که اوکی بود هم، کم کم بخرید. یهو نرید 50 گیگ بخرید",
+      "plain_text": "سؤال: چرا قیمت کانفیگ‌فروش‌ها پایین اومده یهو؟ جواب: 1- تعداد زیادی از کانفیگ‌فروش‌های حال حاضر، زرنگی کردن به حساب خودشون و اومدن از سیمکارت‌های پرو و سفید استفاده می‌کنن، و تا می‌تونن می‌فروشن. 2- همینطور یک تعدادی هم از متدهای خاصی که رندوم واسشون جواب داده استفاده میکنن(به طور مثال یه range آیپی وایت شده سرور ایران اینا هم جزوشون بوده یا استفاده از Shecan) 3- استفاده از اینترنت طبقاتی شرکت‌ها، سازمان‌ها و یا دانشگاه‌ها و اساتید. 4- دلایل دیگه‌ای هم هستن که یا من نمیدونم یا حضور ذهن ندارم. به خاطر همین قیمت کانفیگ پایین اومده. منتها من پایداری زیادی درونشون نمیبینم. اگر جایی ارزون دیدید که اوکی بود هم، کم کم بخرید. یهو نرید 50 گیگ بخرید",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "359"
+        },
+        {
+          "emoji": "👍",
+          "count": "165"
+        },
+        {
+          "emoji": "👎",
+          "count": "7"
+        }
+      ],
+      "views_label": "18.9K",
+      "posted_at": "2026-05-05T12:52:31+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/2963"
+    }
+  ]
+}
