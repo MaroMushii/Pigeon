@@ -157,8 +157,6 @@ wrangler, no CF API token, nothing to manage.
 - Networking actors return `Sendable` value types only. Don't pass
   `ModelContext` across actor boundaries.
 - All `@State` properties are `private`.
-- Don't add Liquid Glass effects without an explicit ask — the system's
-  defaults already give us material sidebar + glass toolbars.
 
 ### TypeScript (mirror/)
 
