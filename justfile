@@ -12,10 +12,11 @@ xcb := `command -v xcbeautify >/dev/null && echo xcbeautify || echo cat`
 default:
     @just --list
 
-# Regenerate Xcode project + build Debug
+# Regenerate Xcode project + build Debug, then reveal the .app in Finder
 build:
     cd mac && xcodegen generate
     cd mac && xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug build 2>&1 | {{xcb}}
+    just reveal
 
 # Run the test bundle
 test:
