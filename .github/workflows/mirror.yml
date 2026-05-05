@@ -27,24 +27,24 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout main (scraper sources + manifest)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: main
           path: src
 
       - name: Checkout export branch (target tree)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: export
           path: out
 
       - name: Set up pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           version: 10
 
       - name: Set up Node 22
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: "22"
           cache: pnpm
