@@ -61,15 +61,15 @@ struct ChannelFeed: View {
         .toolbar {
             if let channel {
                 if let lastFetched = channel.lastFetchedAt {
-                    ToolbarItem(placement: .status) {
+                    ToolbarItem(placement: .automatic) {
                         Text("Updated \(lastFetched, format: .relative(presentation: .named))")
                             .font(.caption)
-                            .foregroundStyle(.secondary)
+                            .foregroundStyle(.tertiary)
                             .help("Last refreshed \(lastFetched.formatted(date: .abbreviated, time: .shortened))")
                     }
                 }
                 if let lastError = service?.lastError {
-                    ToolbarItem(placement: .status) {
+                    ToolbarItem(placement: .automatic) {
                         errorBadge(lastError)
                     }
                 }
@@ -222,6 +222,11 @@ struct ChannelFeed: View {
                 .frame(maxWidth: .infinity, alignment: .center)
             }
             .scrollEdgeEffectStyle(.soft, for: .top)
+            // Bind the ScrollView's identity to the channel so SwiftUI
+            // rebuilds it on channel switch — otherwise the previous
+            // channel's content offset (and its in-flight visibility
+            // callbacks) bleed into the new feed.
+            .id(channel.persistentModelID)
         }
     }
 
