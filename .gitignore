@@ -10,6 +10,10 @@
 *.swp
 *.swo
 
+# Claude Code agent-isolation scratch space. Other contents of .claude/
+# (commands, agents, settings) are intentionally tracked.
+.claude/worktrees/
+
 # Node (mirror/)
 node_modules/
 *.log
