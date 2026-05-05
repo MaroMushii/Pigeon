@@ -46,18 +46,8 @@ struct PigeonApp: App {
                 }
                 .keyboardShortcut("n", modifiers: .command)
             }
-            CommandGroup(after: .toolbar) {
-                Button("Refresh Channel") {
-                    NotificationCenter.default.post(name: .pigeonRefreshSelected, object: nil)
-                }
-                .keyboardShortcut("r", modifiers: .command)
-            }
             SidebarCommands()
             InspectorCommands()
         }
     }
-}
-
-extension Notification.Name {
-    static let pigeonRefreshSelected = Notification.Name("dev.MaroMushii.Pigeon.refreshSelected")
 }

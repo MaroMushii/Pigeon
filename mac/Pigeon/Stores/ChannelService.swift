@@ -4,7 +4,13 @@ import SwiftData
 /// Coordinates SwiftData persistence + remote fetches for channels.
 /// Always invoked from the main actor — SwiftData's `ModelContext` is
 /// not Sendable and must stay on a single isolation domain.
+///
+/// Also owns transient network state — which channels are currently
+/// fetching (`inflight`) and the most recent failure (`lastError`).
+/// Views observe these directly; they're not navigation state and
+/// don't belong in `AppState`.
 @MainActor
+@Observable
 final class ChannelService {
     enum AddError: Error, LocalizedError {
         case invalidUsername
@@ -20,18 +26,38 @@ final class ChannelService {
         }
     }
 
+    /// Snapshot of the most recent refresh failure, surfaced in the UI
+    /// (toolbar warning + popover) until cleared on success or dismissed.
+    struct ChannelError: Sendable {
+        let channel: String
+        let message: String
+        let at: Date
+    }
+
     /// 15-minute freshness window before a channel auto-refetches on
     /// selection. Manual refresh (⌘R) always bypasses this.
     static let freshnessTTL: TimeInterval = 60 * 15
 
-    private let client: TelegramClient
-    private let parser = HTMLPostParser()
-    private let jsonDecoder = JSONFeedDecoder()
-    private let context: ModelContext
+    /// Channels with an in-flight network refresh. Views render a
+    /// spinner when their channel's username is in this set.
+    var inflight: Set<String> = []
+
+    /// Most recent refresh failure across any channel. Nil after a
+    /// successful refresh or an explicit `clearLastError()`.
+    var lastError: ChannelError?
+
+    @ObservationIgnored private let client: TelegramClient
+    @ObservationIgnored private let parser = HTMLPostParser()
+    @ObservationIgnored private let jsonDecoder = JSONFeedDecoder()
+    @ObservationIgnored private let context: ModelContext
 
     init(client: TelegramClient, context: ModelContext) {
         self.client = client
         self.context = context
+    }
+
+    func clearLastError() {
+        lastError = nil
     }
 
     /// Add a new channel: validates the username, fetches the page, parses
@@ -67,23 +93,38 @@ final class ChannelService {
         return channel
     }
 
-    /// Refresh an existing channel's posts and metadata in place.
+    /// Refresh an existing channel's posts and metadata in place. Marks
+    /// the channel as in-flight for the duration of the network call,
+    /// clears `lastError` on success, sets it on throw.
     @discardableResult
     func refresh(_ channel: Channel) async throws -> [Post] {
-        let result = try await fetch(username: channel.username)
-        channel.displayName = result.channel.title
-        channel.photoURL = result.channel.photoURL ?? channel.photoURL
-        channel.channelDescription = result.channel.descriptionHTML ?? channel.channelDescription
-        channel.subscriberCount = result.channel.subscriberCount ?? channel.subscriberCount
-        channel.lastFetchedAt = .now
-        upsertPosts(result.posts, into: channel)
-        try context.save()
-        return channel.posts
+        let username = channel.username
+        inflight.insert(username)
+        defer { inflight.remove(username) }
+        do {
+            let result = try await fetch(username: username)
+            channel.displayName = result.channel.title
+            channel.photoURL = result.channel.photoURL ?? channel.photoURL
+            channel.channelDescription = result.channel.descriptionHTML ?? channel.channelDescription
+            channel.subscriberCount = result.channel.subscriberCount ?? channel.subscriberCount
+            channel.lastFetchedAt = .now
+            upsertPosts(result.posts, into: channel)
+            try context.save()
+            lastError = nil
+            return channel.posts
+        } catch {
+            lastError = ChannelError(
+                channel: username,
+                message: error.localizedDescription,
+                at: .now
+            )
+            throw error
+        }
     }
 
     /// Returns persisted posts if the channel was fetched within the
     /// freshness TTL; otherwise refreshes from network and returns the
-    /// merged set.
+    /// merged set. Cache-hit path doesn't touch `inflight`/`lastError`.
     func postsForDisplay(_ channel: Channel, forceRefresh: Bool = false) async throws -> [Post] {
         if !forceRefresh, isFresh(channel) {
             return channel.posts

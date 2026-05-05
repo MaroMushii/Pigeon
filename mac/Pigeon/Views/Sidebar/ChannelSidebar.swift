@@ -22,12 +22,14 @@ struct ChannelSidebar: View {
                     ForEach(channels) { channel in
                         ChannelRow(
                             channel: channel,
-                            isLoading: appState.loadingChannels.contains(channel.username)
+                            isLoading: service?.inflight.contains(channel.username) ?? false
                         )
                         .tag(channel.persistentModelID)
                         .contextMenu {
                             Button("Refresh") {
-                                Task { await refresh(channel) }
+                                if let service {
+                                    Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
+                                }
                             }
                             Button("Open on telegram.org") {
                                 NSWorkspace.shared.open(channel.publicURL)
@@ -61,19 +63,8 @@ struct ChannelSidebar: View {
             guard let service else { return }
             if let channel = channels.first(where: { $0.persistentModelID == appState.selectedChannelID }),
                !service.isFresh(channel) {
-                Task { await refresh(channel) }
+                Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
             }
-        }
-    }
-
-    private func refresh(_ channel: Channel) async {
-        guard let service else { return }
-        appState.loadingChannels.insert(channel.username)
-        defer { appState.loadingChannels.remove(channel.username) }
-        do {
-            _ = try await service.postsForDisplay(channel, forceRefresh: true)
-        } catch {
-            appState.lastError = error.localizedDescription
         }
     }
 }

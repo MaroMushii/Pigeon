@@ -11,6 +11,7 @@ struct ChannelFeed: View {
 
     @Environment(AppState.self) private var appState
     @Environment(\.channelService) private var service
+    @State private var showingErrorPopover = false
 
     var body: some View {
         Group {
@@ -34,11 +35,16 @@ struct ChannelFeed: View {
                             .help("Last refreshed \(lastFetched.formatted(date: .abbreviated, time: .shortened))")
                     }
                 }
+                if let lastError = service?.lastError {
+                    ToolbarItem(placement: .status) {
+                        errorBadge(lastError)
+                    }
+                }
                 ToolbarItem(placement: .primaryAction) {
                     Button {
-                        Task { await refresh(channel) }
+                        refresh(channel)
                     } label: {
-                        if appState.loadingChannels.contains(channel.username) {
+                        if service?.inflight.contains(channel.username) ?? false {
                             ProgressView().controlSize(.small)
                         } else {
                             Label("Refresh", systemImage: "arrow.clockwise")
@@ -46,7 +52,7 @@ struct ChannelFeed: View {
                     }
                     .keyboardShortcut("r", modifiers: .command)
                     .help("Refresh this channel (⌘R)")
-                    .disabled(appState.loadingChannels.contains(channel.username))
+                    .disabled(service?.inflight.contains(channel.username) ?? false)
                 }
             }
         }
@@ -55,7 +61,7 @@ struct ChannelFeed: View {
     @ViewBuilder
     private func content(for channel: Channel) -> some View {
         let posts = channel.posts.sorted { ($0.postedAt ?? .distantPast) > ($1.postedAt ?? .distantPast) }
-        let isLoading = appState.loadingChannels.contains(channel.username)
+        let isLoading = service?.inflight.contains(channel.username) ?? false
 
         if posts.isEmpty {
             VStack(spacing: 12) {
@@ -68,7 +74,7 @@ struct ChannelFeed: View {
                         systemImage: "bubble.left.and.bubble.right",
                         description: Text("This channel has no public posts yet.")
                     )
-                    Button("Refresh") { Task { await refresh(channel) } }
+                    Button("Refresh") { refresh(channel) }
                         .buttonStyle(.bordered)
                 }
             }
@@ -96,14 +102,47 @@ struct ChannelFeed: View {
         }
     }
 
-    private func refresh(_ channel: Channel) async {
+    private func refresh(_ channel: Channel) {
         guard let service else { return }
-        appState.loadingChannels.insert(channel.username)
-        defer { appState.loadingChannels.remove(channel.username) }
-        do {
-            _ = try await service.postsForDisplay(channel, forceRefresh: true)
-        } catch {
-            appState.lastError = error.localizedDescription
+        Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
+    }
+
+    @ViewBuilder
+    private func errorBadge(_ error: ChannelService.ChannelError) -> some View {
+        Button {
+            showingErrorPopover = true
+        } label: {
+            Label("Refresh failed", systemImage: "exclamationmark.triangle.fill")
+                .foregroundStyle(.orange)
+        }
+        .help("Last refresh failed — click for details")
+        .popover(isPresented: $showingErrorPopover, arrowEdge: .bottom) {
+            VStack(alignment: .leading, spacing: 10) {
+                Label("Refresh failed", systemImage: "exclamationmark.triangle.fill")
+                    .foregroundStyle(.orange)
+                    .font(.headline)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("@\(error.channel)")
+                        .font(.system(size: 12, weight: .medium))
+                        .foregroundStyle(.secondary)
+                    Text(error.message)
+                        .font(.system(size: 12))
+                        .textSelection(.enabled)
+                    Text(error.at, format: .relative(presentation: .named))
+                        .font(.system(size: 11))
+                        .foregroundStyle(.tertiary)
+                }
+                HStack {
+                    Spacer()
+                    Button("Dismiss") {
+                        service?.clearLastError()
+                        showingErrorPopover = false
+                    }
+                    .keyboardShortcut(.defaultAction)
+                }
+            }
+            .padding(14)
+            .frame(width: 320)
         }
     }
 }
