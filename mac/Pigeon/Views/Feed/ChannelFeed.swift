@@ -59,6 +59,14 @@ struct ChannelFeed: View {
         .navigationTitle(channel?.displayName ?? "Pigeon")
         .navigationSubtitle(channel.map { "@\($0.username)" } ?? "")
         .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Button {
+                    appState.presentedSheet = .healthCheck
+                } label: {
+                    Label("Network Health", systemImage: "stethoscope")
+                }
+                .help("Check network health")
+            }
             if let channel {
                 if let lastFetched = channel.lastFetchedAt {
                     ToolbarItem(placement: .automatic) {

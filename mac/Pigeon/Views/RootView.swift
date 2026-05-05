@@ -47,6 +47,9 @@ struct RootView: View {
                     AddChannelSheet(service: service)
                         .frame(minWidth: 420, minHeight: 220)
                 }
+            case .healthCheck:
+                HealthCheckView()
+                    .frame(minWidth: 380, minHeight: 240)
             }
         }
     }

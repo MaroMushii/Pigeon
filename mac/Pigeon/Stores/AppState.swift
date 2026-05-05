@@ -12,9 +12,11 @@ final class AppState {
 
     enum PresentedSheet: Identifiable {
         case addChannel
+        case healthCheck
         var id: String {
             switch self {
             case .addChannel: "addChannel"
+            case .healthCheck: "healthCheck"
             }
         }
     }
