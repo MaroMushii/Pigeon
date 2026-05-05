@@ -12,44 +12,39 @@ struct ChannelSidebar: View {
     var body: some View {
         @Bindable var appState = appState
 
-        List(selection: $appState.selectedChannelID) {
+        Group {
             if channels.isEmpty {
-                ContentUnavailableView {
-                    Label("No Channels", systemImage: "tray")
-                } description: {
-                    Text("Add a Telegram channel to start reading.")
-                } actions: {
-                    Button("Add Channel…") {
-                        appState.presentedSheet = .addChannel
-                    }
+                SidebarEmptyState {
+                    appState.presentedSheet = .addChannel
                 }
-                .listRowBackground(Color.clear)
             } else {
-                ForEach(channels) { channel in
-                    ChannelRow(
-                        channel: channel,
-                        isLoading: appState.loadingChannels.contains(channel.username)
-                    )
-                    .tag(channel.persistentModelID)
-                    .contextMenu {
-                        Button("Refresh") {
-                            Task { await refresh(channel) }
-                        }
-                        Button("Open on telegram.org") {
-                            NSWorkspace.shared.open(channel.publicURL)
-                        }
-                        Divider()
-                        Button("Remove", role: .destructive) {
-                            service?.remove(channel)
-                            if appState.selectedChannelID == channel.persistentModelID {
-                                appState.selectedChannelID = nil
+                List(selection: $appState.selectedChannelID) {
+                    ForEach(channels) { channel in
+                        ChannelRow(
+                            channel: channel,
+                            isLoading: appState.loadingChannels.contains(channel.username)
+                        )
+                        .tag(channel.persistentModelID)
+                        .contextMenu {
+                            Button("Refresh") {
+                                Task { await refresh(channel) }
+                            }
+                            Button("Open on telegram.org") {
+                                NSWorkspace.shared.open(channel.publicURL)
+                            }
+                            Divider()
+                            Button("Remove", role: .destructive) {
+                                service?.remove(channel)
+                                if appState.selectedChannelID == channel.persistentModelID {
+                                    appState.selectedChannelID = nil
+                                }
                             }
                         }
                     }
                 }
+                .listStyle(.sidebar)
             }
         }
-        .listStyle(.sidebar)
         .navigationTitle("Pigeon")
         .searchable(text: $searchText, placement: .sidebar, prompt: "Filter channels")
         .toolbar {
@@ -88,16 +83,17 @@ private struct ChannelRow: View {
     let isLoading: Bool
 
     var body: some View {
-        HStack(spacing: 10) {
+        HStack(spacing: 8) {
             avatar
-                .frame(width: 30, height: 30)
+                .frame(width: 32, height: 32)
                 .clipShape(.circle)
-            VStack(alignment: .leading, spacing: 2) {
+            VStack(alignment: .leading, spacing: 1) {
                 Text(channel.displayName)
-                    .font(.system(size: 13, weight: .medium))
+                    .font(.callout)
+                    .fontWeight(.medium)
                     .lineLimit(1)
                 Text("@\(channel.username)")
-                    .font(.system(size: 11))
+                    .font(.caption)
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
             }
@@ -107,7 +103,7 @@ private struct ChannelRow: View {
                     .controlSize(.small)
             }
         }
-        .padding(.vertical, 2)
+        .padding(.vertical, 4)
     }
 
     @ViewBuilder
@@ -129,7 +125,8 @@ private struct ChannelRow: View {
         ZStack {
             Circle().fill(Color.accentColor.opacity(0.18))
             Text(initials)
-                .font(.system(size: 12, weight: .semibold))
+                .font(.caption)
+                .fontWeight(.semibold)
                 .foregroundStyle(.secondary)
         }
     }
@@ -138,5 +135,30 @@ private struct ChannelRow: View {
         let parts = channel.displayName.split(separator: " ", omittingEmptySubsequences: true)
         let chars = parts.prefix(2).compactMap { $0.first }
         return chars.isEmpty ? String(channel.username.prefix(1)).uppercased() : String(chars).uppercased()
+    }
+}
+
+private struct SidebarEmptyState: View {
+    let onAdd: () -> Void
+
+    var body: some View {
+        VStack(spacing: 12) {
+            Image(systemName: "tray")
+                .font(.system(size: 26, weight: .light))
+                .foregroundStyle(.tertiary)
+            VStack(spacing: 4) {
+                Text("No Channels")
+                    .font(.headline)
+                Text("Add a Telegram channel\nto start reading.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+            }
+            Button("Add Channel…", action: onAdd)
+                .controlSize(.small)
+                .padding(.top, 4)
+        }
+        .padding(.horizontal, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }

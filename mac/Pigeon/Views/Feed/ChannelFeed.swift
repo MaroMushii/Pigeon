@@ -17,19 +17,8 @@ struct ChannelFeed: View {
             if let channel {
                 content(for: channel)
             } else {
-                ContentUnavailableView {
-                    Label("Pigeon", systemImage: "paperplane")
-                        .symbolRenderingMode(.hierarchical)
-                } description: {
-                    Text("Pick a channel from the sidebar, or add a new one.")
-                } actions: {
-                    Button {
-                        appState.presentedSheet = .addChannel
-                    } label: {
-                        Text("Add Channel")
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .controlSize(.large)
+                FeedEmptyState {
+                    appState.presentedSheet = .addChannel
                 }
             }
         }
@@ -40,7 +29,7 @@ struct ChannelFeed: View {
                 if let lastFetched = channel.lastFetchedAt {
                     ToolbarItem(placement: .status) {
                         Text("Updated \(lastFetched, format: .relative(presentation: .named))")
-                            .font(.system(size: 11))
+                            .font(.caption)
                             .foregroundStyle(.secondary)
                             .help("Last refreshed \(lastFetched.formatted(date: .abbreviated, time: .shortened))")
                     }
@@ -88,17 +77,19 @@ struct ChannelFeed: View {
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 16) {
                     ChannelHeader(channel: channel)
+
+                    Divider()
                         .padding(.bottom, 4)
 
                     ForEach(posts) { post in
                         PostCard(post: post)
                     }
 
-                    Color.clear.frame(height: 24)
+                    Color.clear.frame(height: 32)
                 }
-                .padding(.horizontal, 28)
-                .padding(.vertical, 20)
-                .frame(maxWidth: 760)
+                .padding(.horizontal, 32)
+                .padding(.vertical, 24)
+                .frame(maxWidth: 680)
                 .frame(maxWidth: .infinity, alignment: .center)
             }
             .scrollEdgeEffectStyle(.soft, for: .top)
@@ -123,19 +114,20 @@ private struct ChannelHeader: View {
     var body: some View {
         HStack(alignment: .center, spacing: 12) {
             avatar
-                .frame(width: 44, height: 44)
+                .frame(width: 52, height: 52)
                 .clipShape(.circle)
-            VStack(alignment: .leading, spacing: 2) {
+            VStack(alignment: .leading, spacing: 3) {
                 Text(channel.displayName)
-                    .font(.system(size: 17, weight: .semibold))
+                    .font(.title2)
+                    .fontWeight(.semibold)
                 Text("@\(channel.username)")
-                    .font(.system(size: 12))
+                    .font(.subheadline)
                     .foregroundStyle(.secondary)
             }
             Spacer()
             if let subs = channel.subscriberCount, !subs.isEmpty {
                 Text(subs)
-                    .font(.system(size: 12))
+                    .font(.subheadline)
                     .foregroundStyle(.secondary)
             }
         }
@@ -154,5 +146,31 @@ private struct ChannelHeader: View {
         } else {
             Circle().fill(Color.accentColor.opacity(0.18))
         }
+    }
+}
+
+private struct FeedEmptyState: View {
+    let onAdd: () -> Void
+
+    var body: some View {
+        VStack(spacing: 24) {
+            VStack(spacing: 20) {
+                Image("PigeonMark")
+                    .resizable()
+                    .interpolation(.high)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 128, height: 128)
+                    .opacity(0.85)
+                Text("Pick a channel from the sidebar,\nor add a new one.")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .lineSpacing(2)
+            }
+            Button("Add Channel", action: onAdd)
+                .buttonStyle(.borderedProminent)
+                .controlSize(.regular)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }

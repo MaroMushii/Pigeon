@@ -19,26 +19,23 @@ struct PostCard: View {
 
             if !post.bodyHTML.isEmpty {
                 Text(Self.attributedBuilder.build(from: post.bodyHTML))
-                    .font(.system(size: 14))
-                    .lineSpacing(3)
+                    .font(.body)
+                    .lineSpacing(5)
                     .textSelection(.enabled)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
 
             if !post.reactions.isEmpty {
                 reactionStrip
+                    .padding(.top, 4)
             }
 
             footer
+                .padding(.top, 4)
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 14)
+        .padding(16)
         .background(.background.secondary)
-        .clipShape(.rect(cornerRadius: 12, style: .continuous))
-        .overlay(
-            RoundedRectangle(cornerRadius: 12, style: .continuous)
-                .stroke(.separator.opacity(0.6), lineWidth: 0.5)
-        )
+        .clipShape(.rect(cornerRadius: 10, style: .continuous))
         .contextMenu {
             if let permalink = post.permalink {
                 Button("Open on telegram.org") {
@@ -61,18 +58,19 @@ struct PostCard: View {
         HStack(spacing: 8) {
             if let postedAt = post.postedAt {
                 Text(postedAt, format: .dateTime.month(.abbreviated).day().hour().minute())
-                    .font(.system(size: 11, weight: .medium))
+                    .font(.caption)
+                    .fontWeight(.medium)
                     .foregroundStyle(.secondary)
             }
             if post.edited {
                 Text("· edited")
-                    .font(.system(size: 11))
+                    .font(.caption)
                     .foregroundStyle(.tertiary)
             }
             Spacer()
             if let views = post.viewsLabel {
                 Label(views, systemImage: "eye")
-                    .font(.system(size: 11))
+                    .font(.caption)
                     .labelStyle(.titleAndIcon)
                     .foregroundStyle(.secondary)
             }
@@ -83,13 +81,14 @@ struct PostCard: View {
         HStack(spacing: 6) {
             ForEach(post.reactions, id: \.self) { reaction in
                 HStack(spacing: 4) {
-                    Text(reaction.emoji).font(.system(size: 12))
+                    Text(reaction.emoji).font(.callout)
                     Text(reaction.count)
-                        .font(.system(size: 11, weight: .medium))
+                        .font(.caption)
+                        .fontWeight(.medium)
                         .foregroundStyle(.secondary)
                 }
                 .padding(.horizontal, 8)
-                .padding(.vertical, 4)
+                .padding(.vertical, 5)
                 .background(.quaternary, in: .capsule)
             }
         }
@@ -100,10 +99,10 @@ struct PostCard: View {
             if let permalink = post.permalink {
                 Link(destination: permalink) {
                     Label("Open", systemImage: "arrow.up.right.square")
-                        .font(.system(size: 11))
+                        .font(.caption)
                         .labelStyle(.titleAndIcon)
                 }
-                .foregroundStyle(.tertiary)
+                .foregroundStyle(.secondary)
             }
             Spacer()
         }
@@ -138,7 +137,7 @@ private struct MediaTile: View {
                 if let image = state.image {
                     image.resizable().scaledToFill()
                 } else {
-                    Rectangle().fill(.secondary.opacity(0.08))
+                    Rectangle().fill(.quaternary)
                 }
             }
             .aspectRatio(aspect, contentMode: .fit)
@@ -149,7 +148,8 @@ private struct MediaTile: View {
             if media.kind == .video {
                 Label(media.durationLabel ?? "Video", systemImage: "play.circle.fill")
                     .labelStyle(.titleAndIcon)
-                    .font(.system(size: 11, weight: .medium))
+                    .font(.caption)
+                    .fontWeight(.medium)
                     .padding(.horizontal, 8)
                     .padding(.vertical, 4)
                     .foregroundStyle(.white)

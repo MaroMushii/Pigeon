@@ -16,9 +16,10 @@ struct AddChannelSheet: View {
         VStack(alignment: .leading, spacing: 0) {
             VStack(alignment: .leading, spacing: 6) {
                 Text("Add Channel")
-                    .font(.system(size: 18, weight: .semibold))
+                    .font(.title2)
+                    .fontWeight(.semibold)
                 Text("Paste a Telegram channel URL or username.")
-                    .font(.system(size: 12))
+                    .font(.subheadline)
                     .foregroundStyle(.secondary)
             }
             .padding(.horizontal, 24)
@@ -34,13 +35,13 @@ struct AddChannelSheet: View {
 
                 if let errorMessage {
                     Label(errorMessage, systemImage: "exclamationmark.triangle.fill")
-                        .font(.system(size: 12))
-                        .foregroundStyle(.red)
+                        .font(.caption)
+                        .foregroundStyle(Color.red)
                         .lineLimit(3)
                 }
             }
             .padding(.horizontal, 24)
-            .padding(.top, 18)
+            .padding(.top, 16)
 
             Spacer(minLength: 24)
 
@@ -68,7 +69,8 @@ struct AddChannelSheet: View {
                 .keyboardShortcut(.defaultAction)
                 .disabled(input.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || isLoading)
             }
-            .padding(20)
+            .padding(.horizontal, 24)
+            .padding(.vertical, 16)
             .background(.bar)
         }
         .onAppear { inputFocused = true }

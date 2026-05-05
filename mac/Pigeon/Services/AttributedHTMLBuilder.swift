@@ -51,12 +51,12 @@ struct AttributedHTMLBuilder {
                     append(node: el, into: &out, inheriting: nested)
                 case "p", "div":
                     if !out.characters.isEmpty {
-                        out.append(AttributedString("\n"))
+                        out.append(AttributedString("\n\n"))
                     }
                     append(node: el, into: &out, inheriting: style)
                 case "blockquote":
                     if !out.characters.isEmpty {
-                        out.append(AttributedString("\n"))
+                        out.append(AttributedString("\n\n"))
                     }
                     var nested = style; nested.italic = true
                     append(node: el, into: &out, inheriting: nested)
@@ -68,17 +68,13 @@ struct AttributedHTMLBuilder {
     }
 
     private func apply(_ style: InheritedStyle, to run: inout AttributedString) {
-        var font = Font.body
-        if style.monospaced {
-            font = font.monospaced()
+        var intents: InlinePresentationIntent = []
+        if style.bold { intents.insert(.stronglyEmphasized) }
+        if style.italic { intents.insert(.emphasized) }
+        if style.monospaced { intents.insert(.code) }
+        if !intents.isEmpty {
+            run.inlinePresentationIntent = intents
         }
-        if style.bold {
-            font = font.bold()
-        }
-        if style.italic {
-            font = font.italic()
-        }
-        run.font = font
         if let link = style.link {
             run.link = link
             run.foregroundColor = .accentColor
