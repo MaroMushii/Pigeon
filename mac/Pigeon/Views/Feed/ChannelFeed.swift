@@ -21,6 +21,31 @@ struct ChannelFeed: View {
     /// its post count actually changes.
     @State private var sortedPosts: [Post] = []
 
+    /// Prefetcher for the next-on-screen post images. Uses `.shared` so the
+    /// fetches go through Nuke's `URLSession` that has `PinnedURLProtocol`
+    /// installed — i.e. the same GT-host-rewrite path as visible images.
+    /// `maxConcurrentRequestCount: 2` is deliberately conservative: Iranian
+    /// links saturate quickly, and we'd rather have the *next* image ready
+    /// than burn bandwidth racing five simultaneous downloads against the
+    /// pinned client's foreground requests.
+    @State private var prefetcher = ImagePrefetcher(
+        pipeline: .shared,
+        destination: .memoryCache,
+        maxConcurrentRequestCount: 2
+    )
+
+    /// How many posts ahead we keep prefetched at any given time. Five is
+    /// roughly one screenful past the bottom of the viewport at typical
+    /// reading window sizes — enough that scroll-flings don't reveal
+    /// placeholder rectangles, small enough that mid-feed jumps don't
+    /// queue tens of doomed requests.
+    private static let prefetchWindow = 5
+
+    /// Currently-prefetching `ImageRequest`s, keyed by Post `id`. We keep
+    /// the *requests* (not just URLs) so `stopPrefetching(with:)` matches
+    /// Nuke's cache key exactly — same processor, same URL.
+    @State private var prefetchedByPost: [String: ImageRequest] = [:]
+
     var body: some View {
         Group {
             if let channel {
@@ -66,10 +91,74 @@ struct ChannelFeed: View {
         }
         .task(id: channel?.persistentModelID) {
             recomputeSortedPosts()
+            // Switching channels invalidates the prefetch window — the post
+            // indices we were tracking belong to the previous channel's
+            // ordering. Drain everything; the next visible row will refill.
+            cancelAllPrefetches()
         }
         .onChange(of: channel?.posts.count ?? 0) {
             recomputeSortedPosts()
         }
+        .onDisappear {
+            cancelAllPrefetches()
+        }
+    }
+
+    /// Enqueue the first image of posts in `(index, index + prefetchWindow]`
+    /// and drop anything outside that window that's still in-flight. Called
+    /// every time a card crosses the visibility threshold, so it must be
+    /// cheap — no allocations beyond the request set itself.
+    private func updatePrefetchWindow(startingAfter index: Int, in posts: [Post]) {
+        let lower = index + 1
+        let upper = min(index + 1 + Self.prefetchWindow, posts.count)
+        guard lower < upper else { return }
+
+        var desired: [String: ImageRequest] = [:]
+        for i in lower..<upper {
+            let post = posts[i]
+            guard let request = firstPhotoRequest(for: post) else { continue }
+            desired[post.id] = request
+        }
+
+        // Stop any in-flight prefetches that fell out of the window. Doing
+        // this before starting the new ones keeps the concurrent slot count
+        // honest when scroll moves fast.
+        let droppedRequests = prefetchedByPost
+            .filter { desired[$0.key] == nil }
+            .map(\.value)
+        if !droppedRequests.isEmpty {
+            prefetcher.stopPrefetching(with: droppedRequests)
+        }
+
+        // Enqueue only what's *new* — restarting an already-prefetching
+        // request is harmless but wastes a dictionary update.
+        let newRequests = desired
+            .filter { prefetchedByPost[$0.key] == nil }
+            .map(\.value)
+        if !newRequests.isEmpty {
+            prefetcher.startPrefetching(with: newRequests)
+        }
+
+        prefetchedByPost = desired
+    }
+
+    private func cancelAllPrefetches() {
+        guard !prefetchedByPost.isEmpty else { return }
+        prefetcher.stopPrefetching()
+        prefetchedByPost.removeAll(keepingCapacity: false)
+    }
+
+    /// First photo on a post, or nil if the post is text-only / video-only.
+    /// We deliberately skip videos: the `assetURL` for a video is the MP4
+    /// itself (not a poster), and Telegram videos can be tens of megabytes.
+    /// `MediaTile` shows the poster from `thumbnailURL` which is already
+    /// the photo cache key — so a future enhancement could prefetch video
+    /// posters too. Out of scope here.
+    private func firstPhotoRequest(for post: Post) -> ImageRequest? {
+        guard let media = post.media.first(where: { $0.kind == .photo }) else {
+            return nil
+        }
+        return MediaImageRequest.tile(for: media)
     }
 
     private func recomputeSortedPosts() {
@@ -111,8 +200,18 @@ struct ChannelFeed: View {
                     Divider()
                         .padding(.bottom, 4)
 
-                    ForEach(posts) { post in
+                    // `enumerated()` gives us the index for the prefetch
+                    // window calculation while keeping row identity bound
+                    // to `post.id` — important because new posts arrive at
+                    // index 0 from auto-refresh, and shifting indices
+                    // would otherwise force every row to re-render.
+                    ForEach(Array(posts.enumerated()), id: \.element.id) { index, post in
                         PostCard(post: post)
+                            .onScrollVisibilityChange(threshold: 0.1) { visible in
+                                if visible {
+                                    updatePrefetchWindow(startingAfter: index, in: posts)
+                                }
+                            }
                     }
 
                     Color.clear.frame(height: 32)

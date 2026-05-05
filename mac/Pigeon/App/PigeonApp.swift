@@ -43,6 +43,7 @@ struct PigeonApp: App {
         WindowGroup("Pigeon") {
             RootView()
                 .environment(appState)
+                .environment(environment.searchStore)
                 .environment(\.channelService, environment.service)
                 .frame(minWidth: 900, minHeight: 560)
                 .task {
@@ -79,6 +80,7 @@ struct AppEnvironment {
     let container: ModelContainer
     let client: TelegramClient
     let service: ChannelService
+    let searchStore: SearchStore
 
     init() {
         let schema = Schema([Channel.self, Post.self, Media.self, Reaction.self])
@@ -89,9 +91,11 @@ struct AppEnvironment {
         let container = try! ModelContainer(for: schema, configurations: configuration)
         let client = TelegramClient()
         let service = ChannelService(client: client, context: container.mainContext)
+        let searchStore = SearchStore(context: container.mainContext)
         self.container = container
         self.client = client
         self.service = service
+        self.searchStore = searchStore
         // We deliberately do NOT call `service.updateDockBadge()` here —
         // `NSApp` isn't ready during `App.init`. The WindowGroup's `.task`
         // performs the initial badge sync once the runloop is alive.

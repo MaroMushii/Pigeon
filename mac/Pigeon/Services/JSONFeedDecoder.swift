@@ -14,13 +14,15 @@ import Foundation
 /// pinned GT image transport.
 struct JSONFeedDecoder {
     enum DecodeError: Error, LocalizedError {
-        case unsupportedSchema(Int)
+        case unsupportedSchema(found: Int, supported: Int)
         case invalidJSON(underlying: Error)
 
         var errorDescription: String? {
             switch self {
-            case .unsupportedSchema(let v): "Mirror snapshot uses unsupported schema v\(v)."
-            case .invalidJSON(let e): "Could not decode mirror snapshot: \(e.localizedDescription)"
+            case .unsupportedSchema(let found, let supported):
+                "Mirror snapshot uses unsupported schema v\(found) (this build supports v\(supported))."
+            case .invalidJSON(let e):
+                "Could not decode mirror snapshot: \(e.localizedDescription)"
             }
         }
     }
@@ -86,7 +88,10 @@ struct JSONFeedDecoder {
         }
 
         guard env.schema == Self.supportedSchemaVersion else {
-            throw DecodeError.unsupportedSchema(env.schema)
+            throw DecodeError.unsupportedSchema(
+                found: env.schema,
+                supported: Self.supportedSchemaVersion
+            )
         }
 
         let channel = HTMLPostParser.ChannelInfo(

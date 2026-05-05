@@ -3,6 +3,7 @@ import SwiftData
 
 struct RootView: View {
     @Environment(AppState.self) private var appState
+    @Environment(SearchStore.self) private var searchStore
     @Environment(\.channelService) private var service
     @Query(sort: [SortDescriptor(\Channel.addedAt, order: .forward)]) private var channels: [Channel]
 
@@ -10,6 +11,7 @@ struct RootView: View {
 
     var body: some View {
         @Bindable var appState = appState
+        @Bindable var searchStore = searchStore
 
         NavigationSplitView {
             ChannelSidebar(
@@ -18,9 +20,26 @@ struct RootView: View {
             )
             .navigationSplitViewColumnWidth(min: 220, ideal: 260, max: 340)
         } detail: {
-            ChannelFeed(channel: selectedChannel)
+            if searchStore.hasActiveQuery {
+                SearchResultsView(
+                    results: searchStore.results,
+                    query: searchStore.query,
+                    isSearching: searchStore.isSearching
+                )
+            } else {
+                ChannelFeed(channel: selectedChannel)
+            }
         }
         .navigationSplitViewStyle(.balanced)
+        // Toolbar-mounted searchbar sits in the detail-pane chrome, which is
+        // the conventional Mac placement for a global search affordance —
+        // sidebar-level search would be confused with the existing sidebar
+        // filter (`sidebarSearch`).
+        .searchable(
+            text: $searchStore.query,
+            placement: .toolbar,
+            prompt: "Search posts"
+        )
         .sheet(item: $appState.presentedSheet) { sheet in
             switch sheet {
             case .addChannel:

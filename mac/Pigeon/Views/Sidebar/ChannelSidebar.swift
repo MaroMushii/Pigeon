@@ -10,6 +10,16 @@ struct ChannelSidebar: View {
     @Environment(AppState.self) private var appState
     @Environment(\.channelService) private var service
 
+    /// Freshest mirror-sourced fetch timestamp across all channels. Used
+    /// as a proxy for "how stale is the mirror?" — see comments in the
+    /// footer view for the caveats.
+    private var freshestMirrorFetch: Date? {
+        channels
+            .filter { $0.fetchSource == .mirror }
+            .compactMap(\.lastFetchedAt)
+            .max()
+    }
+
     var body: some View {
         @Bindable var appState = appState
 
@@ -19,34 +29,41 @@ struct ChannelSidebar: View {
                     appState.presentedSheet = .addChannel
                 }
             } else {
-                List(selection: $appState.selectedChannelID) {
-                    ForEach(channels) { channel in
-                        ChannelRow(
-                            channel: channel,
-                            isLoading: service?.inflight.contains(channel.username) ?? false,
-                            unreadCount: channel.unreadCount
-                        )
-                        .tag(channel.persistentModelID)
-                        .contextMenu {
-                            Button("Refresh") {
-                                if let service {
-                                    Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
+                VStack(spacing: 0) {
+                    List(selection: $appState.selectedChannelID) {
+                        ForEach(channels) { channel in
+                            ChannelRow(
+                                channel: channel,
+                                isLoading: service?.inflight.contains(channel.username) ?? false,
+                                unreadCount: channel.unreadCount
+                            )
+                            .tag(channel.persistentModelID)
+                            .contextMenu {
+                                Button("Refresh") {
+                                    if let service {
+                                        Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
+                                    }
                                 }
-                            }
-                            Button("Open on telegram.org") {
-                                NSWorkspace.shared.open(channel.publicURL)
-                            }
-                            Divider()
-                            Button("Remove", role: .destructive) {
-                                service?.remove(channel)
-                                if appState.selectedChannelID == channel.persistentModelID {
-                                    appState.selectedChannelID = nil
+                                Button("Open on telegram.org") {
+                                    NSWorkspace.shared.open(channel.publicURL)
+                                }
+                                Divider()
+                                Button("Remove", role: .destructive) {
+                                    service?.remove(channel)
+                                    if appState.selectedChannelID == channel.persistentModelID {
+                                        appState.selectedChannelID = nil
+                                    }
                                 }
                             }
                         }
                     }
+                    .listStyle(.sidebar)
+
+                    SidebarFooter(
+                        schemaOutdated: service?.schemaOutdated ?? false,
+                        freshestMirrorFetch: freshestMirrorFetch
+                    )
                 }
-                .listStyle(.sidebar)
             }
         }
         .navigationTitle("Pigeon")
@@ -151,6 +168,75 @@ private struct ChannelRow: View {
         let parts = channel.displayName.split(separator: " ", omittingEmptySubsequences: true)
         let chars = parts.prefix(2).compactMap { $0.first }
         return chars.isEmpty ? String(channel.username.prefix(1)).uppercased() : String(chars).uppercased()
+    }
+}
+
+/// Footer rendered below the channel list. Surfaces two degradation
+/// signals:
+///
+/// 1. **Schema skew banner.** When the mirror started serving a snapshot
+///    version this build doesn't understand, `ChannelService` flips
+///    `schemaOutdated = true` and falls through to the GT path. Showing
+///    a banner nudges the user to update; the app keeps working.
+///
+/// 2. **Mirror-staleness footer.** Shows "mirror updated N min ago" using
+///    the freshest `lastFetchedAt` across mirror-sourced channels. This is
+///    a *proxy* — a single freshly-refreshed channel can hide the fact
+///    that everything else is hours stale. Good enough for v1; if it
+///    becomes misleading we'd need per-channel decoration.
+///
+/// Refresh ticks once a minute via a `TimelineView` so the relative-time
+/// label stays current without a manual re-render.
+private struct SidebarFooter: View {
+    let schemaOutdated: Bool
+    let freshestMirrorFetch: Date?
+
+    var body: some View {
+        VStack(spacing: 6) {
+            if schemaOutdated {
+                schemaSkewBanner
+            }
+            if freshestMirrorFetch != nil {
+                stalenessFooter
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 8)
+    }
+
+    private var schemaSkewBanner: some View {
+        Label {
+            Text("Pigeon needs an update — using fallback path.")
+                .font(.footnote)
+                .foregroundStyle(.primary)
+        } icon: {
+            Image(systemName: "info.circle.fill")
+                .foregroundStyle(.tint)
+        }
+        .padding(.horizontal, 10)
+        .padding(.vertical, 6)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Color.accentColor.opacity(0.10), in: .rect(cornerRadius: 6))
+    }
+
+    @ViewBuilder
+    private var stalenessFooter: some View {
+        TimelineView(.periodic(from: .now, by: 60)) { context in
+            if let last = freshestMirrorFetch {
+                let age = context.date.timeIntervalSince(last)
+                Text("mirror updated \(relativeLabel(for: last, now: context.date))")
+                    .font(.footnote)
+                    .foregroundStyle(age > 30 * 60 ? AnyShapeStyle(.red) : AnyShapeStyle(.secondary))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+        }
+    }
+
+    private func relativeLabel(for date: Date, now: Date) -> String {
+        let formatter = RelativeDateTimeFormatter()
+        formatter.unitsStyle = .short
+        return formatter.localizedString(for: date, relativeTo: now)
     }
 }
 

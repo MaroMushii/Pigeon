@@ -53,9 +53,20 @@ actor PinnedHTTPSClient {
         "142.250.74.14"
     ]
 
-    /// Try `get(ip:sni:...)` against each pinned IP in order, returning the
-    /// first successful response. Used when only the IP needs failover —
-    /// the proxy hostname / path / query stay constant.
+    /// Sticky cache of the last IP that produced a successful response.
+    /// On the next rotation, we start from this IP so flaky-but-reachable
+    /// peers don't get re-paid on every request. Reset implicitly when
+    /// that IP starts failing — we just fall through to the next one.
+    private var lastGoodIP: String?
+
+    /// Try `get(ip:sni:...)` against the pinned IP pool with a Happy
+    /// Eyeballs first stage: race the first 2 candidates in parallel,
+    /// take whichever connects + delivers a response first, cancel the
+    /// sibling. If both fail, walk the remaining IPs serially.
+    ///
+    /// The first candidate is `lastGoodIP` (if set), then the static order
+    /// with that IP filtered out. This biases toward whichever Google
+    /// frontend the local network is currently happy with.
     func getWithIPRotation(
         sni: String,
         path: String,
@@ -63,10 +74,42 @@ actor PinnedHTTPSClient {
         headers: [String: String] = [:],
         timeout: TimeInterval = 30
     ) async throws -> Response {
+        let ordered = orderedIPs()
+        guard !ordered.isEmpty else {
+            throw ClientError.connectionFailed("no pinned IPs configured")
+        }
+
         var lastError: Error?
-        for ip in Self.translateGoogIPs {
+
+        // Stage 1: race the first two candidates. Whoever wins updates
+        // `lastGoodIP`; the loser is cancelled. NWConnection.cancel() in
+        // the per-call `catch` tears down its socket cleanly.
+        let firstPair = Array(ordered.prefix(2))
+        if firstPair.count == 2 {
             do {
-                return try await get(
+                let (winnerIP, response) = try await race(
+                    ips: firstPair,
+                    sni: sni,
+                    path: path,
+                    queryItems: queryItems,
+                    headers: headers,
+                    timeout: timeout
+                )
+                lastGoodIP = winnerIP
+                return response
+            } catch {
+                lastError = error
+            }
+        } else {
+            // Single-IP pool — fall through to serial.
+        }
+
+        // Stage 2: walk the rest serially. We've already burned the first
+        // two; pick up at index 2 (or 1 if we only had one IP to begin with).
+        let serialStart = min(firstPair.count, ordered.count)
+        for ip in ordered[serialStart...] {
+            do {
+                let response = try await get(
                     ip: ip,
                     sni: sni,
                     path: path,
@@ -74,12 +117,75 @@ actor PinnedHTTPSClient {
                     headers: headers,
                     timeout: timeout
                 )
+                lastGoodIP = ip
+                return response
             } catch {
                 lastError = error
                 continue
             }
         }
+
         throw lastError ?? ClientError.connectionFailed("no pinned IPs reachable")
+    }
+
+    /// Build the rotation order: `lastGoodIP` first (if any), then the
+    /// static pool with that IP filtered out so we don't double-try it.
+    private func orderedIPs() -> [String] {
+        guard let preferred = lastGoodIP else { return Self.translateGoogIPs }
+        var ordered = [preferred]
+        for ip in Self.translateGoogIPs where ip != preferred {
+            ordered.append(ip)
+        }
+        return ordered
+    }
+
+    /// Race two pinned-IP attempts. Returns `(winnerIP, response)` from
+    /// the first child to deliver a non-throwing result; cancels the
+    /// other. Throws only if both children fail.
+    ///
+    /// Two-element race is enough — we don't want to fan out to 4 sockets
+    /// per request, that's noisy on metered links and pointless once one
+    /// IP responds. `withTaskGroup` is fine even though `get` is
+    /// actor-isolated: each child suspends inside `connect`/`send`/`read`
+    /// continuations, which release actor isolation, so the two sockets
+    /// genuinely overlap on the wire.
+    private func race(
+        ips: [String],
+        sni: String,
+        path: String,
+        queryItems: [URLQueryItem],
+        headers: [String: String],
+        timeout: TimeInterval
+    ) async throws -> (String, Response) {
+        try await withThrowingTaskGroup(of: (String, Response).self) { group in
+            for ip in ips {
+                group.addTask { [self] in
+                    let response = try await self.get(
+                        ip: ip,
+                        sni: sni,
+                        path: path,
+                        queryItems: queryItems,
+                        headers: headers,
+                        timeout: timeout
+                    )
+                    return (ip, response)
+                }
+            }
+
+            var lastError: Error?
+            while !group.isEmpty {
+                do {
+                    if let result = try await group.next() {
+                        group.cancelAll()
+                        return result
+                    }
+                } catch {
+                    // One child failed; keep waiting on the sibling.
+                    lastError = error
+                }
+            }
+            throw lastError ?? ClientError.connectionFailed("race produced no result")
+        }
     }
 
     /// Perform a GET against `https://<ip>:443<path>?<query>` with TLS SNI

@@ -66,3 +66,41 @@ targets:
         DEVELOPMENT_TEAM: ""
         ASSETCATALOG_COMPILER_APPICON_NAME: Pigeon
         COMBINE_HIDPI_IMAGES: YES
+
+  PigeonTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: PigeonTests
+    dependencies:
+      - target: Pigeon
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.MaroMushii.PigeonTests
+        PRODUCT_NAME: PigeonTests
+        MACOSX_DEPLOYMENT_TARGET: "26.0"
+        GENERATE_INFOPLIST_FILE: YES
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Pigeon.app/Contents/MacOS/Pigeon"
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
+        DEVELOPMENT_TEAM: ""
+
+schemes:
+  Pigeon:
+    build:
+      targets:
+        Pigeon: all
+        PigeonTests: [test]
+    test:
+      config: Debug
+      targets:
+        - PigeonTests
+    run:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

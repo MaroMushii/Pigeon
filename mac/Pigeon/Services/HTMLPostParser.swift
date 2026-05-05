@@ -101,7 +101,7 @@ struct HTMLPostParser {
 
         let textEl = try wrap.select(".tgme_widget_message_text").first()
         let bodyHTML = (try? textEl?.html()) ?? ""
-        let plain = (try? textEl?.text()) ?? ""
+        let plain = plainText(fromHTML: bodyHTML)
 
         let media = parseMedia(in: wrap)
         let reactions = parseReactions(in: wrap)
@@ -111,7 +111,8 @@ struct HTMLPostParser {
         var postedAt: Date?
         if let timeEl = try? wrap.select(".tgme_widget_message_date time").first(),
            let datetime = try? timeEl.attr("datetime"), !datetime.isEmpty {
-            postedAt = ISO8601DateFormatter().date(from: datetime)
+            postedAt = Self.fractionalISO.date(from: datetime)
+                ?? Self.plainISO.date(from: datetime)
         }
 
         let edited = (try? wrap.select(".tgme_widget_message_meta").first()?.text().contains("edited")) ?? false
@@ -171,17 +172,85 @@ struct HTMLPostParser {
         return out
     }
 
+    /// Resolve a printable emoji glyph and a count from a single
+    /// `.tgme_reaction` node. Telegram serves three shapes:
+    ///   1. Standard:  `<i class="emoji"><b>👍</b></i>`
+    ///   2. Paid:      `<i class="icon icon-telegram-stars"></i>` → ⭐
+    ///   3. Custom:    `<tg-emoji emoji-id="...">[optional fallback]</tg-emoji>`
+    /// — when a `<tg-emoji>` has no fallback text we substitute 💎 so the
+    /// reaction renders something rather than collapsing to a count next to
+    /// nothing. Mirrors `mirror/parser.ts`'s handling.
+    ///
+    /// The count is parsed via regex (`123`, `1.2K`, `4M`) instead of the
+    /// previous "substring-subtract emoji" approach, which broke when the
+    /// emoji glyph appeared anywhere in the count text (e.g. zero-width
+    /// joiners).
     private func parseReactions(in wrap: Element) -> [ReactionSnapshot] {
         guard let elements = try? wrap.select(".tgme_reaction").array() else { return [] }
         return elements.compactMap { el in
-            let emoji = (try? el.select(".emoji b").first()?.text())
-                ?? (try? el.select(".icon").first()?.text())
-                ?? ""
-            let count = (try? el.text())?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
-            let stripped = count.replacingOccurrences(of: emoji, with: "").trimmingCharacters(in: .whitespacesAndNewlines)
-            return ReactionSnapshot(emoji: emoji, count: stripped.isEmpty ? "0" : stripped)
+            var emoji = (try? el.select(".emoji b").first()?.text()) ?? ""
+            if emoji.isEmpty {
+                emoji = (try? el.select("tg-emoji").first()?.text()) ?? ""
+            }
+            if emoji.isEmpty {
+                let iconClasses = (try? el.select("i.icon").first()?.attr("class")) ?? ""
+                if iconClasses.contains("icon-telegram-stars") {
+                    emoji = "⭐"
+                } else if let hasCustom = try? el.select("tg-emoji").first(), hasCustom != nil {
+                    emoji = "💎"
+                }
+            }
+
+            let fullText = (try? el.text())?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+            let count = Self.extractReactionCount(from: fullText)
+            return ReactionSnapshot(emoji: emoji, count: count)
         }
     }
+
+    private static func extractReactionCount(from text: String) -> String {
+        if let range = text.range(of: #"([\d.]+\s*[KM]?)\s*$"#, options: .regularExpression) {
+            let match = text[range].trimmingCharacters(in: .whitespaces)
+            if !match.isEmpty { return match }
+        }
+        return "0"
+    }
+
+    /// Strip HTML to plain text while preserving `<br>` as `\n`. SwiftSoup's
+    /// `.text()` aggressively normalises whitespace, so a literal `\n`
+    /// injected before parsing gets collapsed to a space. We substitute a
+    /// non-whitespace marker (U+2063 INVISIBLE SEPARATOR) that survives
+    /// normalisation, then convert it back. The TS twin avoids this dance
+    /// because cheerio's `.text()` doesn't normalise as aggressively.
+    private func plainText(fromHTML html: String) -> String {
+        let marker = "\u{2063}"
+        let withMarkers = html.replacingOccurrences(
+            of: #"<br\s*/?>"#,
+            with: marker,
+            options: .regularExpression
+        )
+        let raw = (try? SwiftSoup.parse(withMarkers).text()) ?? ""
+        return raw
+            .replacingOccurrences(of: marker, with: "\n")
+            // Collapse runs of whitespace around newlines and consecutive
+            // newlines into single newlines.
+            .replacingOccurrences(of: #"[ \t]*\n[ \t]*"#, with: "\n", options: .regularExpression)
+            .replacingOccurrences(of: #"\n{2,}"#, with: "\n", options: .regularExpression)
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+
+    // ISO8601DateFormatter is documented thread-safe by Apple but not marked
+    // Sendable; `nonisolated(unsafe)` reflects the runtime contract.
+    nonisolated(unsafe) private static let fractionalISO: ISO8601DateFormatter = {
+        let f = ISO8601DateFormatter()
+        f.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        return f
+    }()
+
+    nonisolated(unsafe) private static let plainISO: ISO8601DateFormatter = {
+        let f = ISO8601DateFormatter()
+        f.formatOptions = [.withInternetDateTime]
+        return f
+    }()
 
     private func backgroundImageURL(from style: String) -> URL? {
         guard let range = style.range(of: #"url\(['"]?([^'"\)]+)['"]?\)"#, options: .regularExpression) else {

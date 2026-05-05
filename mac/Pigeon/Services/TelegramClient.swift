@@ -37,6 +37,15 @@ actor TelegramClient {
         let method: ProxyMethod
     }
 
+    /// Result of a conditional mirror fetch. `unchanged` means the server
+    /// returned 304 Not Modified — the caller should keep persisted state
+    /// untouched but bump its freshness clock. `fresh` carries the new body
+    /// plus the validators to send back next time.
+    enum MirrorFetchResult: Sendable {
+        case fresh(Data, etag: String?, lastModified: String?)
+        case unchanged
+    }
+
     enum ProxyMethod: String, Sendable, CaseIterable {
         case googleAuto, googleFa, googleRu, googleAr
 
@@ -113,23 +122,48 @@ actor TelegramClient {
         throw FetchError.allMethodsFailed(underlying: failures)
     }
 
-    /// Fetch a channel snapshot from Pigeon's GitHub-hosted mirror. Returns
-    /// raw JSON bytes; decode with `JSONFeedDecoder`. Throws `.invalidResponse`
-    /// on 404 (channel not yet mirrored) or any non-200 status.
-    func fetchMirrorSnapshot(username: String) async throws -> Data {
+    /// Fetch a channel snapshot from Pigeon's GitHub-hosted mirror, using
+    /// HTTP conditional-GET semantics. Pass the `ETag` and `Last-Modified`
+    /// values from the previous successful response (if any); the server
+    /// returns 304 when the snapshot hasn't changed, saving the body
+    /// transfer entirely.
+    ///
+    /// Throws `.invalidResponse` on 404 (channel not yet mirrored) or any
+    /// other non-200/304 status.
+    func fetchMirrorSnapshot(
+        username: String,
+        ifNoneMatch etag: String? = nil,
+        ifModifiedSince lastModified: String? = nil
+    ) async throws -> MirrorFetchResult {
         let user = username.lowercased()
         guard let url = URL(string: "\(Self.mirrorPrefix)/channels/\(user)/snapshot.json") else {
             throw FetchError.invalidResponse
         }
         var req = URLRequest(url: url)
         req.setValue(UserAgents.random(), forHTTPHeaderField: "User-Agent")
-        // Avoid stale cached snapshots when a refresh is requested.
+        if let etag, !etag.isEmpty {
+            req.setValue(etag, forHTTPHeaderField: "If-None-Match")
+        }
+        if let lastModified, !lastModified.isEmpty {
+            req.setValue(lastModified, forHTTPHeaderField: "If-Modified-Since")
+        }
+        // Avoid stale cached snapshots when a refresh is requested. URLCache
+        // would otherwise short-circuit our conditional headers.
         req.cachePolicy = .reloadIgnoringLocalCacheData
         let (data, response) = try await session.data(for: req)
-        guard let http = response as? HTTPURLResponse, http.statusCode == 200 else {
+        guard let http = response as? HTTPURLResponse else {
             throw FetchError.invalidResponse
         }
-        return data
+        switch http.statusCode {
+        case 200:
+            let newETag = http.value(forHTTPHeaderField: "ETag")
+            let newLastModified = http.value(forHTTPHeaderField: "Last-Modified")
+            return .fresh(data, etag: newETag, lastModified: newLastModified)
+        case 304:
+            return .unchanged
+        default:
+            throw FetchError.invalidResponse
+        }
     }
 
     // MARK: - Private

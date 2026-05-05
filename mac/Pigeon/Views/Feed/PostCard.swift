@@ -152,7 +152,7 @@ private struct MediaTile: View {
         let aspect = media.aspectRatio ?? (4.0 / 3.0)
 
         ZStack(alignment: .bottomTrailing) {
-            LazyImage(request: Self.imageRequest(for: media)) { state in
+            LazyImage(request: MediaImageRequest.tile(for: media)) { state in
                 if let image = state.image {
                     image.resizable().scaledToFill()
                 } else {
@@ -181,24 +181,5 @@ private struct MediaTile: View {
                 NSWorkspace.shared.open(url)
             }
         }
-    }
-
-    /// Build a Nuke request that downsamples Telegram's full-resolution
-    /// imagery at decode time. The grid tops out around 360pt wide; without
-    /// resize, a 4K `assetURL` decompresses to ~50MB of bitmap to render
-    /// pixels that will get scaled away. `aspectFill` matches the
-    /// `.scaledToFill()` used in the success branch above.
-    private static func imageRequest(for media: Media) -> ImageRequest? {
-        guard let url = media.thumbnailURL ?? media.assetURL else { return nil }
-        return ImageRequest(
-            url: url,
-            processors: [
-                ImageProcessors.Resize(
-                    size: CGSize(width: 360, height: 360),
-                    contentMode: .aspectFill,
-                    crop: false
-                )
-            ]
-        )
     }
 }
