@@ -45,7 +45,8 @@ jobs:
           XCODE_PATH="$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -1 || true)"
           if [[ -z "$XCODE_PATH" ]]; then
             echo "::error::no Xcode 26.x installed on this runner"
-            ls /Applications/ | grep -i xcode || true
+            echo "Installed Xcodes:"
+            ls -d /Applications/Xcode*.app 2>/dev/null || echo "  (none in /Applications)"
             exit 1
           fi
           sudo xcode-select -s "$XCODE_PATH"

@@ -55,18 +55,27 @@ DERIVED="$MAC_DIR/build"
 rm -rf "$DERIVED"
 
 echo "==> xcodebuild Release"
-xcodebuild \
-  -project Pigeon.xcodeproj \
-  -scheme Pigeon \
-  -configuration Release \
-  -derivedDataPath "$DERIVED" \
-  -destination "generic/platform=macOS" \
-  MARKETING_VERSION="$VERSION" \
-  CURRENT_PROJECT_VERSION="$BUILD" \
-  CODE_SIGN_IDENTITY="-" \
-  CODE_SIGN_STYLE=Automatic \
-  DEVELOPMENT_TEAM="" \
+XCBUILD_ARGS=(
+  -project Pigeon.xcodeproj
+  -scheme Pigeon
+  -configuration Release
+  -derivedDataPath "$DERIVED"
+  -destination "generic/platform=macOS"
+  MARKETING_VERSION="$VERSION"
+  CURRENT_PROJECT_VERSION="$BUILD"
+  CODE_SIGN_IDENTITY=-
+  CODE_SIGN_STYLE=Automatic
+  DEVELOPMENT_TEAM=
   build
+)
+
+if command -v xcbeautify >/dev/null; then
+  RENDERER=terminal
+  [[ "${GITHUB_ACTIONS:-}" == "true" ]] && RENDERER=github-actions
+  xcodebuild "${XCBUILD_ARGS[@]}" | xcbeautify --renderer "$RENDERER"
+else
+  xcodebuild "${XCBUILD_ARGS[@]}"
+fi
 
 APP_SRC="$DERIVED/Build/Products/Release/Pigeon.app"
 [[ -d "$APP_SRC" ]] || { echo "build.sh: $APP_SRC not produced" >&2; exit 1; }
@@ -104,4 +113,4 @@ hdiutil create \
   "$OUTPUT/Pigeon-$VERSION.dmg" >/dev/null
 
 echo "==> done"
-ls -lh "$OUTPUT" | grep -E 'Pigeon(\.app|-.*\.(zip|dmg))'
+ls -lh "$OUTPUT"
