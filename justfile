@@ -2,7 +2,11 @@
 # where `just` is invoked. The shell scripts under mac/scripts/ remain
 # the canonical implementations — these recipes are thin wrappers.
 
-set shell := ["bash", "-uc"]
+set shell := ["bash", "-uc", "-o", "pipefail"]
+
+# Pretty-print xcodebuild output if xcbeautify is on PATH; otherwise pass
+# through unchanged. Resolved once at parse time.
+xcb := `command -v xcbeautify >/dev/null && echo xcbeautify || echo cat`
 
 # Show the recipe list
 default:
@@ -11,11 +15,11 @@ default:
 # Regenerate Xcode project + build Debug
 build:
     cd mac && xcodegen generate
-    cd mac && xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug build
+    cd mac && xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug build 2>&1 | {{xcb}}
 
 # Run the test bundle
 test:
-    cd mac && xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug test
+    cd mac && xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug test 2>&1 | {{xcb}}
 
 # Open the freshest Debug build
 app:
