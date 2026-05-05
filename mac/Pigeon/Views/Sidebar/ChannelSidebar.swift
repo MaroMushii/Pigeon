@@ -39,6 +39,14 @@ struct ChannelSidebar: View {
                             )
                             .tag(channel.persistentModelID)
                             .contextMenu {
+                                Section("@\(channel.username)") {
+                                    if let subs = channel.subscriberCount, !subs.isEmpty {
+                                        Text("\(subs) subscribers")
+                                    }
+                                    Text("Updated \(Self.updatedLabel(channel.lastFetchedAt))")
+                                    Text("\(channel.posts.count) posts cached")
+                                }
+                                Divider()
                                 Button("Refresh") {
                                     if let service {
                                         Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
@@ -85,6 +93,20 @@ struct ChannelSidebar: View {
                 Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
             }
         }
+    }
+
+    /// Snapshot relative-time label for the context menu. Static so the
+    /// formatter is allocated once. Context menus are short-lived, so we
+    /// don't tick the value live like the sidebar footer does.
+    private static let relativeFormatter: RelativeDateTimeFormatter = {
+        let f = RelativeDateTimeFormatter()
+        f.unitsStyle = .short
+        return f
+    }()
+
+    private static func updatedLabel(_ date: Date?) -> String {
+        guard let date else { return "never" }
+        return relativeFormatter.localizedString(for: date, relativeTo: .now)
     }
 }
 
