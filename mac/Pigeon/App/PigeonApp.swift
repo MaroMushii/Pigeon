@@ -5,7 +5,6 @@ import Nuke
 @main
 struct PigeonApp: App {
     @State private var appState = AppState()
-    @State private var postCache = PostCache()
     private let client = TelegramClient()
 
     init() {
@@ -25,6 +24,7 @@ struct PigeonApp: App {
 
         let pipeline = ImagePipeline {
             $0.dataLoader = DataLoader(configuration: config)
+            $0.dataCache = try? DataCache(name: "dev.MaroMushii.Pigeon.images")
         }
         ImagePipeline.shared = pipeline
     }
@@ -33,10 +33,9 @@ struct PigeonApp: App {
         WindowGroup("Pigeon") {
             RootView(client: client)
                 .environment(appState)
-                .environment(postCache)
                 .frame(minWidth: 900, minHeight: 560)
         }
-        .modelContainer(for: Channel.self)
+        .modelContainer(for: [Channel.self, Post.self, Media.self, Reaction.self])
         .windowToolbarStyle(.unified)
         .windowResizability(.contentMinSize)
         .defaultSize(width: 1200, height: 760)

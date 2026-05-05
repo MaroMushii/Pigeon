@@ -4,9 +4,14 @@ import Foundation
 /// Pigeon's mirror Worker. Schema lives at `worker/src/schema.ts`; fields
 /// here mirror it 1:1 via explicit CodingKeys.
 ///
-/// URLs in the snapshot are *original* Telegram CDN URLs (e.g.
-/// `cdn4.telesco.pe`). We rewrite them to GT-proxied form here so they
-/// flow through `PinnedURLProtocol` like everything else.
+/// **Path resolution (schema v2):** Each media item carries both
+///   - `asset_url`  — canonical Telegram CDN URL (used as fallback)
+///   - `asset_path` — repo-relative path under the export branch root
+/// We prefer `asset_path` and resolve it against `mirrorRawPrefix` to a
+/// `raw.githubusercontent.com` URL. If `asset_path` is missing (e.g. for
+/// videos, where we don't mirror the .mp4), we fall back to the canonical
+/// URL run through `TelegramURLRewriter` so it still flows through the
+/// pinned GT image transport.
 struct JSONFeedDecoder {
     enum DecodeError: Error, LocalizedError {
         case unsupportedSchema(Int)
@@ -20,7 +25,11 @@ struct JSONFeedDecoder {
         }
     }
 
-    static let supportedSchemaVersion: Int = 1
+    static let supportedSchemaVersion: Int = 2
+
+    /// Prefix that turns a repo-relative path (e.g. `channels/durov/media/abc.jpg`)
+    /// into a fetchable `raw.githubusercontent.com` URL.
+    private static let mirrorRawPrefix = "https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/export/"
 
     private struct SnapshotDTO: Decodable {
         let schema: Int
@@ -34,6 +43,7 @@ struct JSONFeedDecoder {
         let title: String
         let description_html: String?
         let photo_url: String?
+        let photo_path: String?
         let subscriber_count: String?
     }
 
@@ -41,6 +51,7 @@ struct JSONFeedDecoder {
         let id: String
         let author_name: String
         let author_photo_url: String?
+        let author_photo_path: String?
         let body_html: String
         let plain_text: String
         let media: [MediaDTO]
@@ -54,7 +65,9 @@ struct JSONFeedDecoder {
     private struct MediaDTO: Decodable {
         let kind: String
         let asset_url: String?
+        let asset_path: String?
         let thumbnail_url: String?
+        let thumbnail_path: String?
         let duration_label: String?
         let aspect_ratio: Double?
     }
@@ -80,7 +93,7 @@ struct JSONFeedDecoder {
             title: env.channel.title,
             username: env.channel.username.lowercased(),
             descriptionHTML: emptyToNil(env.channel.description_html),
-            photoURL: rewrittenString(env.channel.photo_url),
+            photoURL: resolveImageURL(path: env.channel.photo_path, fallback: env.channel.photo_url),
             subscriberCount: emptyToNil(env.channel.subscriber_count)
         )
 
@@ -89,30 +102,33 @@ struct JSONFeedDecoder {
         let altFormatter = ISO8601DateFormatter()
         altFormatter.formatOptions = [.withInternetDateTime]
 
-        let posts: [Post] = env.posts.map { dto in
-            let media: [Media] = dto.media.map { m in
-                let kind: Media.Kind = switch m.kind.lowercased() {
+        let posts: [PostSnapshot] = env.posts.map { dto in
+            let media: [MediaSnapshot] = dto.media.map { m in
+                let kind: MediaSnapshot.Kind = switch m.kind.lowercased() {
                 case "photo": .photo
                 case "video": .video
                 default: .unknown
                 }
-                return Media(
+                return MediaSnapshot(
                     kind: kind,
-                    assetURL: rewrittenURL(m.asset_url),
-                    thumbnailURL: rewrittenURL(m.thumbnail_url),
+                    assetURL: resolveURL(path: m.asset_path, fallback: m.asset_url),
+                    thumbnailURL: resolveURL(path: m.thumbnail_path, fallback: m.thumbnail_url),
                     durationLabel: emptyToNil(m.duration_label),
                     aspectRatio: m.aspect_ratio
                 )
             }
 
-            let reactions = dto.reactions.map { Reaction(emoji: $0.emoji, count: $0.count) }
+            let reactions = dto.reactions.map { ReactionSnapshot(emoji: $0.emoji, count: $0.count) }
             let postedAt = dto.posted_at.flatMap { formatter.date(from: $0) ?? altFormatter.date(from: $0) }
 
-            return Post(
+            return PostSnapshot(
                 id: dto.id,
                 channelUsername: env.channel.username.lowercased(),
                 authorName: dto.author_name,
-                authorPhotoURL: rewrittenString(dto.author_photo_url),
+                authorPhotoURL: resolveImageURL(
+                    path: dto.author_photo_path,
+                    fallback: dto.author_photo_url
+                ),
                 bodyHTML: dto.body_html,
                 plainText: dto.plain_text,
                 media: media,
@@ -127,19 +143,28 @@ struct JSONFeedDecoder {
         return HTMLPostParser.ParseResult(channel: channel, posts: posts)
     }
 
-    // MARK: -
+    // MARK: - URL resolution
+
+    /// Resolve a media reference: prefer the repo-hosted path (cheap,
+    /// CDN-cached, unblocked); fall back to the canonical URL routed
+    /// through `TelegramURLRewriter` so the pinned-GT image transport
+    /// still applies.
+    private func resolveURL(path: String?, fallback: String?) -> URL? {
+        if let path, !path.isEmpty {
+            return URL(string: Self.mirrorRawPrefix + path)
+        }
+        guard let fallback, !fallback.isEmpty, let url = URL(string: fallback) else {
+            return nil
+        }
+        return TelegramURLRewriter.rewrite(url)
+    }
+
+    private func resolveImageURL(path: String?, fallback: String?) -> String? {
+        resolveURL(path: path, fallback: fallback)?.absoluteString
+    }
 
     private func emptyToNil(_ s: String?) -> String? {
         guard let s, !s.isEmpty else { return nil }
         return s
-    }
-
-    private func rewrittenURL(_ raw: String?) -> URL? {
-        guard let raw, !raw.isEmpty, let url = URL(string: raw) else { return nil }
-        return TelegramURLRewriter.rewrite(url)
-    }
-
-    private func rewrittenString(_ raw: String?) -> String? {
-        rewrittenURL(raw)?.absoluteString
     }
 }

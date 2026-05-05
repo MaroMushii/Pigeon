@@ -18,7 +18,7 @@ struct HTMLPostParser {
 
     struct ParseResult: Sendable {
         let channel: ChannelInfo
-        let posts: [Post]
+        let posts: [PostSnapshot]
     }
 
     enum ParseError: Error, LocalizedError {
@@ -78,14 +78,14 @@ struct HTMLPostParser {
 
     // MARK: - Posts
 
-    private func parsePosts(_ doc: Document, channelUsername: String) throws -> [Post] {
+    private func parsePosts(_ doc: Document, channelUsername: String) throws -> [PostSnapshot] {
         let wraps = try doc.select(".tgme_widget_message_wrap")
         return wraps.array().compactMap { wrap in
             try? parsePost(wrap, channelUsername: channelUsername)
         }
     }
 
-    private func parsePost(_ wrap: Element, channelUsername: String) throws -> Post? {
+    private func parsePost(_ wrap: Element, channelUsername: String) throws -> PostSnapshot? {
         let messageEl = try wrap.select(".tgme_widget_message").first() ?? wrap
 
         let dataPost = try messageEl.attr("data-post")
@@ -118,7 +118,7 @@ struct HTMLPostParser {
 
         let permalink = URL(string: "https://t.me/\(dataPost)")
 
-        return Post(
+        return PostSnapshot(
             id: dataPost,
             channelUsername: channelUsername,
             authorName: author.trimmingCharacters(in: .whitespacesAndNewlines),
@@ -134,15 +134,15 @@ struct HTMLPostParser {
         )
     }
 
-    private func parseMedia(in wrap: Element) -> [Media] {
-        var out: [Media] = []
+    private func parseMedia(in wrap: Element) -> [MediaSnapshot] {
+        var out: [MediaSnapshot] = []
 
         if let photos = try? wrap.select(".tgme_widget_message_photo_wrap").array() {
             for el in photos {
                 let href = (try? el.attr("href")).flatMap(URL.init(string:))
                 let style = (try? el.attr("style")) ?? ""
                 let thumb = backgroundImageURL(from: style)
-                out.append(Media(
+                out.append(MediaSnapshot(
                     kind: .photo,
                     assetURL: TelegramURLRewriter.rewrite(href ?? thumb),
                     thumbnailURL: TelegramURLRewriter.rewrite(thumb),
@@ -158,7 +158,7 @@ struct HTMLPostParser {
                 let thumbStyle = (try? el.select(".tgme_widget_message_video_thumb").first()?.attr("style")) ?? ""
                 let thumb = backgroundImageURL(from: thumbStyle)
                 let duration = try? el.select(".message_video_duration").first()?.text()
-                out.append(Media(
+                out.append(MediaSnapshot(
                     kind: .video,
                     assetURL: TelegramURLRewriter.rewrite(href ?? thumb),
                     thumbnailURL: TelegramURLRewriter.rewrite(thumb),
@@ -171,16 +171,15 @@ struct HTMLPostParser {
         return out
     }
 
-    private func parseReactions(in wrap: Element) -> [Reaction] {
+    private func parseReactions(in wrap: Element) -> [ReactionSnapshot] {
         guard let elements = try? wrap.select(".tgme_reaction").array() else { return [] }
         return elements.compactMap { el in
             let emoji = (try? el.select(".emoji b").first()?.text())
                 ?? (try? el.select(".icon").first()?.text())
                 ?? ""
             let count = (try? el.text())?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
-            // The text() includes the emoji + the count; strip the emoji.
             let stripped = count.replacingOccurrences(of: emoji, with: "").trimmingCharacters(in: .whitespacesAndNewlines)
-            return Reaction(emoji: emoji, count: stripped.isEmpty ? "0" : stripped)
+            return ReactionSnapshot(emoji: emoji, count: stripped.isEmpty ? "0" : stripped)
         }
     }
 

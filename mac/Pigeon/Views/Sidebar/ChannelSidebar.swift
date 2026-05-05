@@ -7,9 +7,7 @@ struct ChannelSidebar: View {
     @Binding var searchText: String
 
     @Environment(AppState.self) private var appState
-    @Environment(PostCache.self) private var postCache
     @Environment(\.channelService) private var service
-    @Environment(\.modelContext) private var context
 
     var body: some View {
         @Bindable var appState = appState
@@ -42,7 +40,7 @@ struct ChannelSidebar: View {
                         }
                         Divider()
                         Button("Remove", role: .destructive) {
-                            service?.remove(channel, in: context)
+                            service?.remove(channel)
                             if appState.selectedChannelID == channel.persistentModelID {
                                 appState.selectedChannelID = nil
                             }
@@ -65,8 +63,9 @@ struct ChannelSidebar: View {
             }
         }
         .onChange(of: appState.selectedChannelID) {
+            guard let service else { return }
             if let channel = channels.first(where: { $0.persistentModelID == appState.selectedChannelID }),
-               !postCache.isFresh(channel.username) {
+               !service.isFresh(channel) {
                 Task { await refresh(channel) }
             }
         }

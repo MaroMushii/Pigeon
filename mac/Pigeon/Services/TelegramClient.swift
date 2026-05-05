@@ -72,7 +72,8 @@ actor TelegramClient {
 
     private static let proxyHostname = "t-me.translate.goog"
 
-    /// `MaroMushii/Pigeon#export` raw URL prefix.
+    /// `MaroMushii/Pigeon#export` raw URL prefix. Snapshot files live under
+    /// `channels/<username>/snapshot.json` (schema v2 layout).
     private static let mirrorPrefix = "https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/export"
 
     private let pinned = PinnedHTTPSClient()
@@ -117,7 +118,7 @@ actor TelegramClient {
     /// on 404 (channel not yet mirrored) or any non-200 status.
     func fetchMirrorSnapshot(username: String) async throws -> Data {
         let user = username.lowercased()
-        guard let url = URL(string: "\(Self.mirrorPrefix)/\(user).json") else {
+        guard let url = URL(string: "\(Self.mirrorPrefix)/channels/\(user)/snapshot.json") else {
             throw FetchError.invalidResponse
         }
         var req = URLRequest(url: url)

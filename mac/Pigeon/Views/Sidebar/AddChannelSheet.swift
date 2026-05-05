@@ -5,7 +5,6 @@ struct AddChannelSheet: View {
     let service: ChannelService
 
     @Environment(\.dismiss) private var dismiss
-    @Environment(\.modelContext) private var context
     @Environment(AppState.self) private var appState
 
     @State private var input: String = ""
@@ -82,7 +81,7 @@ struct AddChannelSheet: View {
         errorMessage = nil
         defer { isLoading = false }
         do {
-            let channel = try await service.addChannel(rawIdentifier: trimmed, in: context)
+            let channel = try await service.addChannel(rawIdentifier: trimmed)
             appState.selectedChannelID = channel.persistentModelID
             dismiss()
         } catch let error as ChannelService.AddError {

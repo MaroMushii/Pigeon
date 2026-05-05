@@ -6,7 +6,6 @@ struct RootView: View {
 
     @Environment(\.modelContext) private var context
     @Environment(AppState.self) private var appState
-    @Environment(PostCache.self) private var postCache
     @Query(sort: [SortDescriptor(\Channel.addedAt, order: .forward)]) private var channels: [Channel]
 
     @State private var service: ChannelService?
@@ -36,7 +35,7 @@ struct RootView: View {
         }
         .task {
             if service == nil {
-                service = ChannelService(client: client, cache: postCache)
+                service = ChannelService(client: client, context: context)
             }
         }
         .onReceive(NotificationCenter.default.publisher(for: .pigeonRefreshSelected)) { _ in

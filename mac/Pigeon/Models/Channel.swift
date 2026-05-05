@@ -10,6 +10,8 @@ final class Channel {
     var subscriberCount: String?
     var addedAt: Date
     var lastFetchedAt: Date?
+    @Relationship(deleteRule: .cascade, inverse: \Post.channel)
+    var posts: [Post] = []
 
     init(
         username: String,

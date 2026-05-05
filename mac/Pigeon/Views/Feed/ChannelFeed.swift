@@ -10,7 +10,6 @@ struct ChannelFeed: View {
     let channel: Channel?
 
     @Environment(AppState.self) private var appState
-    @Environment(PostCache.self) private var postCache
     @Environment(\.channelService) private var service
 
     var body: some View {
@@ -38,6 +37,14 @@ struct ChannelFeed: View {
         .navigationSubtitle(channel.map { "@\($0.username)" } ?? "")
         .toolbar {
             if let channel {
+                if let lastFetched = channel.lastFetchedAt {
+                    ToolbarItem(placement: .status) {
+                        Text("Updated \(lastFetched, format: .relative(presentation: .named))")
+                            .font(.system(size: 11))
+                            .foregroundStyle(.secondary)
+                            .help("Last refreshed \(lastFetched.formatted(date: .abbreviated, time: .shortened))")
+                    }
+                }
                 ToolbarItem(placement: .primaryAction) {
                     Button {
                         Task { await refresh(channel) }
@@ -58,7 +65,7 @@ struct ChannelFeed: View {
 
     @ViewBuilder
     private func content(for channel: Channel) -> some View {
-        let posts = postCache.bucket(for: channel.username)?.posts ?? []
+        let posts = channel.posts.sorted { ($0.postedAt ?? .distantPast) > ($1.postedAt ?? .distantPast) }
         let isLoading = appState.loadingChannels.contains(channel.username)
 
         if posts.isEmpty {
@@ -83,7 +90,7 @@ struct ChannelFeed: View {
                     ChannelHeader(channel: channel)
                         .padding(.bottom, 4)
 
-                    ForEach(posts.reversed()) { post in
+                    ForEach(posts) { post in
                         PostCard(post: post)
                     }
 
