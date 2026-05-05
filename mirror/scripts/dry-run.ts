@@ -11,7 +11,7 @@
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
-import { parseChannelPage } from "../src/parser.js";
+import { parseChannelPage } from "../parser.js";
 
 async function main() {
   const args = process.argv.slice(2);
@@ -44,7 +44,7 @@ async function main() {
     process.exit(1);
   }
   const html = readFileSync(path, "utf8");
-  runOnHTML(html, username);
+  await runOnHTML(html, username);
 }
 
 function runOnHTML(html: string, username: string) {

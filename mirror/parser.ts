@@ -2,6 +2,9 @@
  * Parses the t.me/s/<channel> HTML payload into a `Snapshot`.
  * Selectors mirror Telegram's public widget DOM and match the Swift
  * `HTMLPostParser` so both producers and consumers stay in lock-step.
+ *
+ * Sync end-to-end: Node's `createHash` doesn't return a promise, unlike
+ * the Web Crypto API the Worker version had to deal with.
  */
 
 import * as cheerio from "cheerio";
@@ -14,26 +17,35 @@ import type {
   Snapshot,
 } from "./schema.js";
 import { SCHEMA_VERSION } from "./schema.js";
+import { pathForCanonicalURL } from "./media-paths.js";
 
-export function parseChannelPage(html: string, fallbackUsername: string): Snapshot {
+export function parseChannelPage(
+  html: string,
+  fallbackUsername: string
+): Snapshot {
   const $ = cheerio.load(html);
 
+  const username =
+    strip($(".tgme_channel_info_header_username a").first().text())
+      .replace(/^@/, "")
+      .toLowerCase() || fallbackUsername.toLowerCase();
+
+  const photoUrl = nullIfEmpty(
+    $(".tgme_channel_info_header img").first().attr("src") ??
+      $(".tgme_page_photo_image img").first().attr("src") ??
+      ""
+  );
+
   const channel: ChannelInfo = {
-    username:
-      strip($(".tgme_channel_info_header_username a").first().text())
-        .replace(/^@/, "")
-        .toLowerCase() || fallbackUsername.toLowerCase(),
+    username,
     title:
       strip($(".tgme_channel_info_header_title span").first().text()) ||
       fallbackUsername,
     description_html: nullIfEmpty(
       $(".tgme_channel_info_description").first().html() ?? ""
     ),
-    photo_url: nullIfEmpty(
-      $(".tgme_channel_info_header img").first().attr("src") ??
-        $(".tgme_page_photo_image img").first().attr("src") ??
-        ""
-    ),
+    photo_url: photoUrl,
+    photo_path: photoUrl ? pathForCanonicalURL(photoUrl, username).path : null,
     subscriber_count: nullIfEmpty(
       strip($(".tgme_channel_info_counter .counter_value").first().text())
     ),
@@ -41,7 +53,7 @@ export function parseChannelPage(html: string, fallbackUsername: string): Snapsh
 
   const posts: PostDTO[] = [];
   $(".tgme_widget_message_wrap").each((_, el) => {
-    const post = parsePost($, $(el));
+    const post = parsePost($, $(el), username);
     if (post) posts.push(post);
   });
 
@@ -55,7 +67,8 @@ export function parseChannelPage(html: string, fallbackUsername: string): Snapsh
 
 function parsePost(
   $: cheerio.CheerioAPI,
-  wrap: cheerio.Cheerio<any>
+  wrap: cheerio.Cheerio<any>,
+  channelUsername: string
 ): PostDTO | null {
   const messageEl = wrap.find(".tgme_widget_message").first();
   const dataPost = messageEl.attr("data-post") ?? "";
@@ -68,15 +81,18 @@ function parsePost(
   const authorPhoto = nullIfEmpty(
     wrap.find(".tgme_widget_message_user_photo img").first().attr("src") ?? ""
   );
+  const authorPhotoPath = authorPhoto
+    ? pathForCanonicalURL(authorPhoto, channelUsername).path
+    : null;
 
   const textEl = wrap.find(".tgme_widget_message_text").first();
   const bodyHTML = textEl.html() ?? "";
-  // Extract plain text but preserve <br> as newlines so post excerpts read
-  // the way humans wrote them, not as one giant paragraph blob.
+  // Extract plain text but preserve <br> as newlines so post excerpts
+  // read the way humans wrote them, not as one giant paragraph blob.
   const plainEl = cheerio.load(bodyHTML.replaceAll(/<br\s*\/?>/gi, "\n"));
   const plain = strip(plainEl.text()).replace(/[ \t]*\n[ \t]*/g, "\n");
 
-  const media = parseMedia($, wrap);
+  const media = parseMedia($, wrap, channelUsername);
   const reactions = parseReactions($, wrap);
 
   const viewsLabel = nullIfEmpty(
@@ -96,6 +112,7 @@ function parsePost(
     id: dataPost,
     author_name: author,
     author_photo_url: authorPhoto,
+    author_photo_path: authorPhotoPath,
     body_html: bodyHTML,
     plain_text: plain,
     media,
@@ -109,7 +126,8 @@ function parsePost(
 
 function parseMedia(
   $: cheerio.CheerioAPI,
-  wrap: cheerio.Cheerio<any>
+  wrap: cheerio.Cheerio<any>,
+  channelUsername: string
 ): MediaDTO[] {
   const out: MediaDTO[] = [];
 
@@ -118,10 +136,13 @@ function parseMedia(
     const href = $el.attr("href") ?? null;
     const style = $el.attr("style") ?? "";
     const thumb = backgroundImageURL(style);
+    const asset = href ?? thumb;
     out.push({
       kind: "photo" as MediaKind,
-      asset_url: href ?? thumb,
+      asset_url: asset,
+      asset_path: pathFor(asset, channelUsername),
       thumbnail_url: thumb,
+      thumbnail_path: pathFor(thumb, channelUsername),
       duration_label: null,
       aspect_ratio: aspectRatio(style),
     });
@@ -138,10 +159,14 @@ function parseMedia(
     const duration = nullIfEmpty(
       strip($el.find(".message_video_duration").first().text())
     );
+    // Videos: don't try to mirror the .mp4 itself (large; outside scope).
+    // We only mirror the poster thumb, which behaves like a photo.
     out.push({
       kind: "video" as MediaKind,
       asset_url: href ?? thumb,
+      asset_path: null,
       thumbnail_url: thumb,
+      thumbnail_path: pathFor(thumb, channelUsername),
       duration_label: duration,
       // Telegram puts padding-top on the outer wrap, not the thumb.
       aspect_ratio: aspectRatio(wrapStyle) ?? aspectRatio(thumbStyle),
@@ -149,6 +174,27 @@ function parseMedia(
   });
 
   return out;
+}
+
+function pathFor(url: string | null, channelUsername: string): string | null {
+  if (!url || !isMirrorableImageURL(url)) return null;
+  return pathForCanonicalURL(url, channelUsername).path;
+}
+
+/**
+ * Decide whether a URL points to media we should download + mirror.
+ * Skip telegram.org emoji sprites — they're tiny, ubiquitous, and shared
+ * across thousands of posts; mirroring would balloon the repo.
+ */
+function isMirrorableImageURL(url: string): boolean {
+  try {
+    const u = new URL(url);
+    const host = u.hostname.toLowerCase();
+    if (host === "telegram.org" || host.endsWith(".telegram.org")) return false;
+    return host.endsWith(".telesco.pe") || host.endsWith(".cdn-telegram.org");
+  } catch {
+    return false;
+  }
 }
 
 function parseReactions(
@@ -176,8 +222,6 @@ function parseReactions(
       }
     }
 
-    // Strip any non-count text and grab the trailing count token
-    // ("24K", "1.59M", "421", etc.).
     const fullText = strip($el.text());
     const countMatch = fullText.match(/([\d.]+\s*[KM]?)\s*$/);
     const count = countMatch?.[1] ? strip(countMatch[1]) : "0";
@@ -201,7 +245,6 @@ function backgroundImageURL(style: string): string | null {
   const match = style.match(/url\(['"]?([^'")]+)['"]?\)/);
   if (!match || !match[1]) return null;
   let url = match[1];
-  // Telegram serves protocol-relative URLs in inline styles for emoji.
   if (url.startsWith("//")) url = "https:" + url;
   return url;
 }
