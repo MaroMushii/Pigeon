@@ -128,17 +128,22 @@ struct AddChannelSheet: View {
     }
 
     private var inlineDivider: some View {
-        HStack(spacing: 12) {
-            Rectangle()
-                .fill(.tertiary)
-                .frame(height: 1)
-            Text("Or add popular channels")
-                .font(.caption)
+        VStack(spacing: 4) {
+            HStack(spacing: 12) {
+                Rectangle()
+                    .fill(.tertiary)
+                    .frame(height: 1)
+                Text("Or add a curated channel")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize()
+                Rectangle()
+                    .fill(.tertiary)
+                    .frame(height: 1)
+            }
+            Text("Pre-cached for faster, more reliable loading")
+                .font(.caption2)
                 .foregroundStyle(.secondary)
-                .fixedSize()
-            Rectangle()
-                .fill(.tertiary)
-                .frame(height: 1)
         }
     }
 
