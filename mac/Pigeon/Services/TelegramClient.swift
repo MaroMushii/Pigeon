@@ -81,10 +81,6 @@ actor TelegramClient {
 
     private static let proxyHostname = "t-me.translate.goog"
 
-    /// `MaroMushii/Pigeon#export` raw URL prefix. Snapshot files live under
-    /// `channels/<username>/snapshot.json` (schema v2 layout).
-    private static let mirrorPrefix = "https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/export"
-
     private let pinned = PinnedHTTPSClient()
     private let session: URLSession
     private let minRequestInterval: TimeInterval = 3
@@ -128,17 +124,20 @@ actor TelegramClient {
     /// returns 304 when the snapshot hasn't changed, saving the body
     /// transfer entirely.
     ///
+    /// `baseURL` is the mirror prefix (passed in by the caller — typically
+    /// `SettingsStore.defaultMirrorBaseURL`). The snapshot path
+    /// `channels/<u>/snapshot.json` is appended to it.
+    ///
     /// Throws `.invalidResponse` on 404 (channel not yet mirrored) or any
     /// other non-200/304 status.
     func fetchMirrorSnapshot(
         username: String,
+        baseURL: URL,
         ifNoneMatch etag: String? = nil,
         ifModifiedSince lastModified: String? = nil
     ) async throws -> MirrorFetchResult {
         let user = username.lowercased()
-        guard let url = URL(string: "\(Self.mirrorPrefix)/channels/\(user)/snapshot.json") else {
-            throw FetchError.invalidResponse
-        }
+        let url = baseURL.appending(path: "channels/\(user)/snapshot.json")
         var req = URLRequest(url: url)
         req.setValue(UserAgents.random(), forHTTPHeaderField: "User-Agent")
         if let etag, !etag.isEmpty {

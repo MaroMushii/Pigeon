@@ -1,9 +1,6 @@
 import Foundation
 
-/// User-tweakable preferences persisted in `UserDefaults`. The single most
-/// important field is `mirrorBaseURL` — Pigeon's escape hatch when
-/// `raw.githubusercontent.com` gets blocked in a region. Without it, a
-/// single block forces every user to wait for a new release.
+/// User-tweakable preferences persisted in `UserDefaults`.
 ///
 /// Read once at init, written through on every mutation. All access is
 /// main-actor isolated; the store is observed by SwiftUI views via
@@ -30,7 +27,6 @@ final class SettingsStore {
     /// Defaults stored under these keys. Names are stable — bumping them
     /// silently resets user prefs, so don't.
     private enum Key {
-        static let mirrorBaseURL = "settings.mirrorBaseURL"
         static let cacheTTLMinutes = "settings.cacheTTLMinutes"
         static let logLevel = "settings.logLevel"
     }
@@ -41,18 +37,11 @@ final class SettingsStore {
     static let cacheTTLRange: ClosedRange<Int> = 5...60
     static let defaultCacheTTLMinutes = 15
 
-    /// Custom mirror base URL. Empty string means "use the baked-in default
-    /// (`raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/export`)".
-    /// When non-empty, it's expected to be the prefix that, joined with
-    /// `/channels/<u>/snapshot.json`, yields a valid snapshot URL — i.e.
-    /// the analogue of the default prefix for whatever host the user is
-    /// pointing at.
-    var mirrorBaseURL: String {
-        didSet {
-            guard mirrorBaseURL != oldValue else { return }
-            defaults.set(mirrorBaseURL, forKey: Key.mirrorBaseURL)
-        }
-    }
+    /// Single source of truth for the mirror prefix. Threaded through
+    /// `TelegramClient.fetchMirrorSnapshot`, `JSONFeedDecoder.decode`, and
+    /// `HealthChecker.checkMirror` as an explicit parameter — no globals
+    /// scattered across the network layer.
+    static let defaultMirrorBaseURL = URL(string: "https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/export")!
 
     /// How long a cached channel is considered fresh before it's auto
     /// re-fetched on selection. Clamped to `cacheTTLRange` on write.
@@ -81,29 +70,10 @@ final class SettingsStore {
         TimeInterval(cacheTTLMinutes * 60)
     }
 
-    /// Returns the parsed mirror base URL only when it parses cleanly as
-    /// HTTPS. Returns `nil` for empty input (caller should fall back to
-    /// the bundled default), for HTTP, and for malformed strings.
-    ///
-    /// Trailing slashes are tolerated and stripped by callers when joining
-    /// — see `TelegramClient.mirrorPrefix(using:)`.
-    var validatedMirrorBaseURL: URL? {
-        let trimmed = mirrorBaseURL.trimmingCharacters(in: .whitespacesAndNewlines)
-        guard !trimmed.isEmpty else { return nil }
-        guard let url = URL(string: trimmed),
-              let scheme = url.scheme?.lowercased(),
-              scheme == "https",
-              url.host?.isEmpty == false else {
-            return nil
-        }
-        return url
-    }
-
     @ObservationIgnored private let defaults: UserDefaults
 
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
-        self.mirrorBaseURL = defaults.string(forKey: Key.mirrorBaseURL) ?? ""
         let storedTTL = defaults.object(forKey: Key.cacheTTLMinutes) as? Int
         self.cacheTTLMinutes = Self.cacheTTLRange.clamp(
             storedTTL ?? Self.defaultCacheTTLMinutes

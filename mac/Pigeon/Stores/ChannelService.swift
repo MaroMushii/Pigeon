@@ -394,8 +394,10 @@ final class ChannelService {
     private func fetch(username: String) async throws -> FetchOutcome {
         let etag = defaults.string(forKey: Self.etagKey(username))
         let lastModified = defaults.string(forKey: Self.lastModifiedKey(username))
+        let mirrorBase = SettingsStore.defaultMirrorBaseURL
         if let mirror = try? await client.fetchMirrorSnapshot(
             username: username,
+            baseURL: mirrorBase,
             ifNoneMatch: etag,
             ifModifiedSince: lastModified
         ) {
@@ -404,7 +406,7 @@ final class ChannelService {
                 return .unchanged(source: .mirror)
             case .fresh(let data, let newETag, let newLastModified):
                 do {
-                    let result = try jsonDecoder.decode(data)
+                    let result = try jsonDecoder.decode(data, mirrorBaseURL: mirrorBase)
                     persistMirrorValidators(
                         username: username,
                         etag: newETag,

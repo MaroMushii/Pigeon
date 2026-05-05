@@ -29,10 +29,6 @@ struct JSONFeedDecoder {
 
     static let supportedSchemaVersion: Int = 2
 
-    /// Prefix that turns a repo-relative path (e.g. `channels/durov/media/abc.jpg`)
-    /// into a fetchable `raw.githubusercontent.com` URL.
-    private static let mirrorRawPrefix = "https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/export/"
-
     private struct SnapshotDTO: Decodable {
         let schema: Int
         let fetched_at: String?
@@ -79,7 +75,10 @@ struct JSONFeedDecoder {
         let count: String
     }
 
-    func decode(_ data: Data) throws -> HTMLPostParser.ParseResult {
+    /// `mirrorBaseURL` is the same prefix used to fetch the snapshot —
+    /// resolved by the caller from `SettingsStore`. Repo-relative
+    /// `asset_path` values are appended to it to produce fetchable URLs.
+    func decode(_ data: Data, mirrorBaseURL: URL) throws -> HTMLPostParser.ParseResult {
         let env: SnapshotDTO
         do {
             env = try JSONDecoder().decode(SnapshotDTO.self, from: data)
@@ -98,7 +97,7 @@ struct JSONFeedDecoder {
             title: env.channel.title,
             username: env.channel.username.lowercased(),
             descriptionHTML: emptyToNil(env.channel.description_html),
-            photoURL: resolveImageURL(path: env.channel.photo_path, fallback: env.channel.photo_url),
+            photoURL: resolveImageURL(path: env.channel.photo_path, fallback: env.channel.photo_url, base: mirrorBaseURL),
             subscriberCount: emptyToNil(env.channel.subscriber_count)
         )
 
@@ -116,8 +115,8 @@ struct JSONFeedDecoder {
                 }
                 return MediaSnapshot(
                     kind: kind,
-                    assetURL: resolveURL(path: m.asset_path, fallback: m.asset_url),
-                    thumbnailURL: resolveURL(path: m.thumbnail_path, fallback: m.thumbnail_url),
+                    assetURL: resolveURL(path: m.asset_path, fallback: m.asset_url, base: mirrorBaseURL),
+                    thumbnailURL: resolveURL(path: m.thumbnail_path, fallback: m.thumbnail_url, base: mirrorBaseURL),
                     durationLabel: emptyToNil(m.duration_label),
                     aspectRatio: m.aspect_ratio
                 )
@@ -132,7 +131,8 @@ struct JSONFeedDecoder {
                 authorName: dto.author_name,
                 authorPhotoURL: resolveImageURL(
                     path: dto.author_photo_path,
-                    fallback: dto.author_photo_url
+                    fallback: dto.author_photo_url,
+                    base: mirrorBaseURL
                 ),
                 bodyHTML: dto.body_html,
                 plainText: dto.plain_text,
@@ -154,9 +154,9 @@ struct JSONFeedDecoder {
     /// CDN-cached, unblocked); fall back to the canonical URL routed
     /// through `TelegramURLRewriter` so the pinned-GT image transport
     /// still applies.
-    private func resolveURL(path: String?, fallback: String?) -> URL? {
+    private func resolveURL(path: String?, fallback: String?, base: URL) -> URL? {
         if let path, !path.isEmpty {
-            return URL(string: Self.mirrorRawPrefix + path)
+            return base.appending(path: path)
         }
         guard let fallback, !fallback.isEmpty, let url = URL(string: fallback) else {
             return nil
@@ -164,8 +164,8 @@ struct JSONFeedDecoder {
         return TelegramURLRewriter.rewrite(url)
     }
 
-    private func resolveImageURL(path: String?, fallback: String?) -> String? {
-        resolveURL(path: path, fallback: fallback)?.absoluteString
+    private func resolveImageURL(path: String?, fallback: String?, base: URL) -> String? {
+        resolveURL(path: path, fallback: fallback, base: base)?.absoluteString
     }
 
     private func emptyToNil(_ s: String?) -> String? {
