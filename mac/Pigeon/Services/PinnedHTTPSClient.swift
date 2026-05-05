@@ -1,5 +1,6 @@
 import Foundation
 import Network
+import os
 
 /// Minimal HTTP/1.0 client that connects to a hardcoded IPv4 address and
 /// wraps the socket in TLS with a configurable SNI. Used to bypass DNS
@@ -127,31 +128,59 @@ actor PinnedHTTPSClient {
     // MARK: - Lifecycle helpers
 
     private func connect(_ conn: NWConnection, timeout: TimeInterval) async throws {
+        // `stateUpdateHandler` fires on `queue` (a DispatchQueue), not on the
+        // actor, so concurrent `.waiting` / `.failed` callbacks could race on
+        // a plain Bool flag. The lock makes the test-and-set atomic; whichever
+        // path (state callback or timeout sleep) wins flips the bit, the
+        // others observe `true` and no-op. This guarantees the continuation
+        // is resumed exactly once.
+        let resumed = OSAllocatedUnfairLock<Bool>(initialState: false)
+
+        let claim: @Sendable () -> Bool = {
+            resumed.withLock { state in
+                guard !state else { return false }
+                state = true
+                return true
+            }
+        }
+
         try await withCheckedThrowingContinuation { (cont: CheckedContinuation<Void, Error>) in
-            nonisolated(unsafe) var resumed = false
             conn.stateUpdateHandler = { state in
-                guard !resumed else { return }
                 switch state {
                 case .ready:
-                    resumed = true
+                    guard claim() else { return }
                     conn.stateUpdateHandler = nil
                     cont.resume()
                 case .failed(let err):
-                    resumed = true
+                    guard claim() else { return }
                     conn.stateUpdateHandler = nil
+                    conn.cancel()
                     cont.resume(throwing: ClientError.connectionFailed(err.localizedDescription))
                 case .waiting(let err):
-                    resumed = true
+                    guard claim() else { return }
                     conn.stateUpdateHandler = nil
+                    conn.cancel()
                     cont.resume(throwing: ClientError.connectionFailed(err.localizedDescription))
                 case .cancelled:
-                    resumed = true
+                    guard claim() else { return }
                     conn.stateUpdateHandler = nil
                     cont.resume(throwing: ClientError.connectionFailed("cancelled"))
                 default:
                     break
                 }
             }
+
+            // Race a deadline against the connection. On DPI'd networks a
+            // stuck `.preparing` / `.setup` is the common failure mode, so
+            // we can't rely on NWConnection alone to ever fail us out.
+            Task { [conn] in
+                try? await Task.sleep(for: .seconds(timeout))
+                guard claim() else { return }
+                conn.stateUpdateHandler = nil
+                conn.cancel()
+                cont.resume(throwing: ClientError.timedOut)
+            }
+
             conn.start(queue: queue)
         }
     }
