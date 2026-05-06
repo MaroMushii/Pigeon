@@ -203,6 +203,22 @@ final class ChannelService {
         return try await refresh(channel)
     }
 
+    /// Manual "refresh everything" — sweeps every persisted channel and
+    /// forces a refresh, bypassing per-source freshness TTLs. Channels
+    /// already in flight (e.g. picked up by the auto-refresh loop or a
+    /// context-menu refresh) are skipped; the sweep absorbs per-channel
+    /// failures via `lastError` so one stuck channel can't stall the rest.
+    /// Sequential to keep SwiftData mutations on the main actor — the
+    /// per-call `await` still releases the actor across the network hop.
+    func refreshAll() async {
+        let descriptor = FetchDescriptor<Channel>()
+        guard let channels = try? context.fetch(descriptor) else { return }
+        for channel in channels {
+            guard !inflight.contains(channel.username) else { continue }
+            _ = try? await refresh(channel)
+        }
+    }
+
     func remove(_ channel: Channel) {
         clearMirrorValidators(username: channel.username)
         context.delete(channel)

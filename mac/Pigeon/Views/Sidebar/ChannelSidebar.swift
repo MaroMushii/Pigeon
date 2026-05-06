@@ -82,6 +82,22 @@ struct ChannelSidebar: View {
         .searchable(text: $searchText, placement: .sidebar, prompt: "Filter channels")
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
+                let isRefreshing = !(service?.inflight.isEmpty ?? true)
+                Button {
+                    guard let service else { return }
+                    Task { await service.refreshAll() }
+                } label: {
+                    if isRefreshing {
+                        ProgressView().controlSize(.small)
+                    } else {
+                        Label("Refresh All", systemImage: "arrow.clockwise")
+                    }
+                }
+                .keyboardShortcut("r", modifiers: .command)
+                .help("Refresh all channels (⌘R)")
+                .disabled(channels.isEmpty || isRefreshing)
+            }
+            ToolbarItem(placement: .primaryAction) {
                 Button {
                     appState.presentedSheet = .addChannel
                 } label: {
