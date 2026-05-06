@@ -281,6 +281,13 @@ final class ChannelService {
     /// to peg the main actor on scroll-driven calls and dropped frames
     /// during fast flings. The caller (`PostCard`) gates this behind a
     /// dwell timer, so the call rate is at most ~one per 600 ms per card.
+    ///
+    /// When `post` is the *latest* in its channel, this method also
+    /// sweeps all older unread posts to `isRead = true`. That matches
+    /// chat-app "you reached the latest, you're caught up" semantics:
+    /// fast-scrolling past 9 unread posts to dwell on the 10th (newest)
+    /// shouldn't leave the sidebar badge stuck at 9. The dwell on the
+    /// latest is the trigger; the cascade is the catch-up.
     func markRead(_ post: Post) {
         guard !post.isRead else { return }
         post.isRead = true
@@ -290,7 +297,39 @@ final class ChannelService {
         if post.channel?.isMuted != true {
             unreadCount = max(0, unreadCount - 1)
         }
+
+        if let channel = post.channel, isLatestPost(post, in: channel) {
+            sweepOlderUnread(in: channel, latest: post)
+        }
+
         updateDockBadge()
+    }
+
+    /// Whether `post` is the most recently `postedAt` post in `channel`.
+    /// Posts with a nil `postedAt` can never be "the latest" — ranking
+    /// them as `.distantPast` keeps them from poisoning the comparison.
+    private func isLatestPost(_ post: Post, in channel: Channel) -> Bool {
+        let latest = channel.posts.max {
+            ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast)
+        }
+        return latest?.id == post.id
+    }
+
+    /// Sweep every still-unread post in `channel` to `isRead = true`,
+    /// excluding `latest` (whose state was already flipped by the caller).
+    /// Decrements the cached `unreadCount` by the sweep size in one batch
+    /// rather than per-post — fewer observable mutations during the
+    /// post-dwell window where the dock badge is about to refresh.
+    private func sweepOlderUnread(in channel: Channel, latest: Post) {
+        var swept = 0
+        for other in channel.posts where !other.isRead && other.id != latest.id {
+            other.isRead = true
+            swept += 1
+        }
+        guard swept > 0 else { return }
+        if !channel.isMuted {
+            unreadCount = max(0, unreadCount - swept)
+        }
     }
 
     /// Toggle a channel's muted state. Muted channels keep refreshing and
