@@ -29,48 +29,47 @@ struct ChannelSidebar: View {
                     appState.presentedSheet = .addChannel
                 }
             } else {
-                VStack(spacing: 0) {
-                    List(selection: $appState.selectedChannelID) {
-                        ForEach(channels) { channel in
-                            ChannelRow(
-                                channel: channel,
-                                isLoading: service?.inflight.contains(channel.username) ?? false,
-                                unreadCount: channel.unreadCount,
-                                isMuted: channel.isMuted
-                            )
-                            .tag(channel.persistentModelID)
-                            .contextMenu {
-                                Button("Refresh") {
-                                    if let service {
-                                        Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
-                                    }
+                List(selection: $appState.selectedChannelID) {
+                    ForEach(channels) { channel in
+                        ChannelRow(
+                            channel: channel,
+                            isLoading: service?.inflight.contains(channel.username) ?? false,
+                            unreadCount: channel.unreadCount,
+                            isMuted: channel.isMuted
+                        )
+                        .tag(channel.persistentModelID)
+                        .contextMenu {
+                            Button("Refresh") {
+                                if let service {
+                                    Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
                                 }
-                                Button("Open on telegram.org") {
-                                    NSWorkspace.shared.open(channel.publicURL)
+                            }
+                            Button("Open on telegram.org") {
+                                NSWorkspace.shared.open(channel.publicURL)
+                            }
+                            Button(channel.isMuted ? "Unmute" : "Mute") {
+                                service?.setMuted(channel, !channel.isMuted)
+                            }
+                            Divider()
+                            Button("Remove", role: .destructive) {
+                                service?.remove(channel)
+                                if appState.selectedChannelID == channel.persistentModelID {
+                                    appState.selectedChannelID = nil
                                 }
-                                Button(channel.isMuted ? "Unmute" : "Mute") {
-                                    service?.setMuted(channel, !channel.isMuted)
+                            }
+                            Divider()
+                            Section("@\(channel.username)") {
+                                if let subs = channel.subscriberCount, !subs.isEmpty {
+                                    Text("\(subs) subscribers")
                                 }
-                                Divider()
-                                Button("Remove", role: .destructive) {
-                                    service?.remove(channel)
-                                    if appState.selectedChannelID == channel.persistentModelID {
-                                        appState.selectedChannelID = nil
-                                    }
-                                }
-                                Divider()
-                                Section("@\(channel.username)") {
-                                    if let subs = channel.subscriberCount, !subs.isEmpty {
-                                        Text("\(subs) subscribers")
-                                    }
-                                    Text("Updated \(Self.updatedLabel(channel.lastFetchedAt))")
-                                    Text("\(channel.posts.count) posts cached")
-                                }
+                                Text("Updated \(Self.updatedLabel(channel.lastFetchedAt))")
+                                Text("\(channel.posts.count) posts cached")
                             }
                         }
                     }
-                    .listStyle(.sidebar)
-
+                }
+                .listStyle(.sidebar)
+                .safeAreaInset(edge: .bottom, spacing: 0) {
                     SidebarFooter(
                         schemaOutdated: service?.schemaOutdated ?? false,
                         freshestMirrorFetch: freshestMirrorFetch
@@ -256,6 +255,9 @@ private struct SidebarFooter: View {
                 Text("mirror updated \(relativeLabel(for: last, now: context.date))")
                     .font(.footnote)
                     .foregroundStyle(age > 30 * 60 ? AnyShapeStyle(.red) : AnyShapeStyle(.secondary))
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 4)
+                    .glassEffect(.regular, in: .capsule)
                     .frame(maxWidth: .infinity, alignment: .center)
             }
         }
