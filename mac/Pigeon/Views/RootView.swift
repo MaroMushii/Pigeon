@@ -43,12 +43,14 @@ struct RootView: View {
             placement: .toolbar,
             prompt: "Search posts"
         )
-        // Toolbar items live on the root, NOT on the sidebar column. Declaring
-        // them inside `ChannelSidebar` bound them to the sidebar's title-bar
-        // segment; toggling the sidebar made SwiftUI try to reparent them into
-        // the detail toolbar, and the reparenting diff misplaced them after a
-        // few toggles (ghost copy on the right, original gone). Anchoring at
-        // root keeps them in the unified toolbar regardless of column state.
+        // Toolbar items live on the root, NOT on the sidebar column. When
+        // declared inside `ChannelSidebar`, SwiftUI binds them to that
+        // column's segment of the unified toolbar. On collapse, the system
+        // injects a `>>` chevron next to the regular sidebar toggle as an
+        // "expand the column to access these items" affordance — visually
+        // a duplicate-toggle artifact that confused users and, after a few
+        // collapses, sometimes left ghost copies (commit `6273f5c`).
+        // Anchoring at root sidesteps the segment-reparenting entirely.
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
                 let isRefreshing = !(service?.inflight.isEmpty ?? true)
