@@ -36,7 +36,16 @@ struct PostCard: View {
                 Text(Self.attributedBuilder.build(from: post.bodyHTML))
                     .font(.body)
                     .lineSpacing(5)
-                    .textSelection(.enabled)
+                    // `.textSelection(.enabled)` is deliberately omitted.
+                    // On macOS 26, applying it to `Text(AttributedString)`
+                    // wires up an NSTextView-backed selection layer per
+                    // card that knows about every glyph-run boundary, and
+                    // the per-card setup cost compounded into ~200ms
+                    // scroll-fling hitches when many cards materialised at
+                    // once. Confirmed by binary-search ablation in the
+                    // hot scroll path. The Copy Text context-menu item
+                    // covers the "I want this text" need; partial-text
+                    // drag-selection is the only feature lost.
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .environment(\.layoutDirection, post.plainText.dominantWritingDirection)
             }
