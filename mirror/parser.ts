@@ -134,8 +134,20 @@ function parseMedia(
   wrap.find(".tgme_widget_message_photo_wrap").each((_, el) => {
     const $el = $(el);
     const href = $el.attr("href") ?? null;
-    const style = $el.attr("style") ?? "";
-    const thumb = backgroundImageURL(style);
+    // Telegram has two photo markup variants:
+    //   1. Single: outer <a> has `background-image:`; nested
+    //      `.tgme_widget_message_photo` carries `padding-top:X%` (the
+    //      classic CSS aspect-ratio-reserving padding hack).
+    //   2. Grouped/album: outer <a> has `data-ratio="W/H"` (the
+    //      per-photo aspect, in the same width-to-height convention we
+    //      use); the inner div only carries positioning, and the
+    //      album's combined padding-top sits on a separate
+    //      `.tgme_widget_message_grouped` wrapper.
+    // Try data-ratio first (covers albums), then padding-top.
+    const wrapStyle = $el.attr("style") ?? "";
+    const innerStyle =
+      $el.find(".tgme_widget_message_photo").first().attr("style") ?? "";
+    const thumb = backgroundImageURL(wrapStyle);
     const asset = href ?? thumb;
     out.push({
       kind: "photo" as MediaKind,
@@ -144,7 +156,7 @@ function parseMedia(
       thumbnail_url: thumb,
       thumbnail_path: pathFor(thumb, channelUsername),
       duration_label: null,
-      aspect_ratio: aspectRatio(style),
+      aspect_ratio: dataRatio($el.attr("data-ratio")) ?? aspectRatio(innerStyle),
     });
   });
 
@@ -255,4 +267,11 @@ function aspectRatio(style: string): number | null {
   const pct = parseFloat(match[1]);
   if (!isFinite(pct) || pct <= 0) return null;
   return 100 / pct;
+}
+
+function dataRatio(value: string | undefined): number | null {
+  if (!value) return null;
+  const ratio = parseFloat(value);
+  if (!isFinite(ratio) || ratio <= 0) return null;
+  return ratio;
 }
