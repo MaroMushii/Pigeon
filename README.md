@@ -1,11 +1,22 @@
-# Pigeon
+<p align="center">
+  <img src="docs/logo.png" alt="Pigeon" width="160" />
+</p>
 
-Read Telegram public channels on your Mac, even when Telegram itself is
-blocked. No Telegram account, no VPN, no setup beyond installing the app.
+<h1 align="center">Pigeon</h1>
+
+<p align="center">
+  Read Telegram public channels on your Mac, even when Telegram itself
+  is blocked. No Telegram account, no VPN, no setup beyond installing
+  the app.
+</p>
 
 Built for filtered networks (Iran, in particular). Most readers break
 the moment Telegram is blocked at the network level. Pigeon doesn't,
 because it never talks to Telegram directly.
+
+<p align="center">
+  <img src="docs/screenshot.png" alt="Pigeon main window — sidebar of channels on the left, an open Persian-language channel on the right" width="820" />
+</p>
 
 ## Install
 
