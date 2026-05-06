@@ -54,6 +54,14 @@ extension Channel {
     var unreadCount: Int {
         posts.reduce(0) { $0 + ($1.isRead ? 0 : 1) }
     }
+
+    /// Timestamp of the newest post in this channel, or nil if no post has
+    /// a `postedAt` (genuinely empty channel, or one that hasn't completed
+    /// its first fetch). Drives sidebar recency sorting — a channel bubbles
+    /// up when *content* arrives, not when we polled it.
+    var lastPostAt: Date? {
+        posts.lazy.compactMap(\Post.postedAt).max()
+    }
 }
 
 /// Which transport produced the channel's most recent successful fetch.

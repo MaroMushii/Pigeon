@@ -5,6 +5,9 @@ struct RootView: View {
     @Environment(AppState.self) private var appState
     @Environment(SearchStore.self) private var searchStore
     @Environment(\.channelService) private var service
+    // `@Query` can only sort by stored attributes, but we want recency by
+    // newest post — a computed value derived from the `posts` relationship.
+    // Pull in a stable order here, then re-sort in memory below.
     @Query(sort: [SortDescriptor(\Channel.addedAt, order: .forward)]) private var channels: [Channel]
 
     @State private var sidebarSearch: String = ""
@@ -57,10 +60,23 @@ struct RootView: View {
     // MARK: - Derived
 
     private var filteredChannels: [Channel] {
-        guard !sidebarSearch.isEmpty else { return channels }
-        let q = sidebarSearch.lowercased()
-        return channels.filter {
-            $0.displayName.lowercased().contains(q) || $0.username.contains(q)
+        let base: [Channel]
+        if sidebarSearch.isEmpty {
+            base = channels
+        } else {
+            let q = sidebarSearch.lowercased()
+            base = channels.filter {
+                $0.displayName.lowercased().contains(q) || $0.username.contains(q)
+            }
+        }
+        // Sort by latest post (descending) so channels with new activity
+        // bubble to the top — Telegram-style recency. Channels with no
+        // posts yet (just-added, mid-first-fetch) fall back to `addedAt`
+        // so they don't sink past channels with stale content.
+        return base.sorted { lhs, rhs in
+            let l = lhs.lastPostAt ?? lhs.addedAt
+            let r = rhs.lastPostAt ?? rhs.addedAt
+            return l > r
         }
     }
 
