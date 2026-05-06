@@ -19,6 +19,21 @@ struct AddChannelSheet: View {
     }
 
     var body: some View {
+        ZStack {
+            if isLoading {
+                loadingState
+                    .transition(.opacity.combined(with: .scale(scale: 0.96)))
+            } else {
+                formContents
+                    .transition(.opacity.combined(with: .scale(scale: 1.02)))
+            }
+        }
+        .frame(minWidth: 460, minHeight: 420)
+        .animation(.spring(response: 0.35, dampingFraction: 0.85), value: isLoading)
+        .onAppear { inputFocused = true }
+    }
+
+    private var formContents: some View {
         VStack(alignment: .leading, spacing: 0) {
             VStack(alignment: .leading, spacing: 6) {
                 Text("Add Channel")
@@ -37,7 +52,6 @@ struct AddChannelSheet: View {
                     .controlSize(.large)
                     .focused($inputFocused)
                     .onSubmit { Task { await submit() } }
-                    .disabled(isLoading)
 
                 if let errorMessage {
                     Label(errorMessage, systemImage: "exclamationmark.triangle.fill")
@@ -62,36 +76,44 @@ struct AddChannelSheet: View {
             )
             .padding(.bottom, 16)
 
+            Spacer(minLength: 0)
+
             HStack(spacing: 8) {
                 Spacer()
-                Button("Cancel") { dismiss() }
+                Button("Close") { dismiss() }
                     .keyboardShortcut(.cancelAction)
-                    .disabled(isLoading)
 
                 Button {
                     Task { await submit() }
                 } label: {
-                    if isLoading {
-                        HStack(spacing: 6) {
-                            ProgressView().controlSize(.small)
-                            Text("Adding…")
-                        }
+                    Text("Add Channel")
                         .frame(minWidth: 80)
-                    } else {
-                        Text("Add Channel")
-                            .frame(minWidth: 80)
-                    }
                 }
                 .buttonStyle(.borderedProminent)
                 .keyboardShortcut(.defaultAction)
-                .disabled(input.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || isLoading)
+                .disabled(input.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
             }
             .padding(.horizontal, 24)
             .padding(.vertical, 16)
             .background(.bar)
         }
-        .frame(minWidth: 460)
-        .onAppear { inputFocused = true }
+    }
+
+    private var loadingState: some View {
+        VStack(spacing: 14) {
+            ProgressView()
+                .controlSize(.large)
+            VStack(spacing: 4) {
+                Text("Looking up channel")
+                    .font(.headline)
+                Text("This can take a few seconds on slow networks.")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .padding(.horizontal, 40)
     }
 
     private var inlineDivider: some View {
