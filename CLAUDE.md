@@ -102,7 +102,13 @@ cron fires ──▶ runner checks out main into ./src and export into ./out
            ──▶ cd src/mirror && pnpm exec tsx scrape.ts ../../out channels.json
                  for each channel:
                    GET t.me/s/<u>
-                   parseChannelPage() → Snapshot
+                   parseChannelPage() → fresh Snapshot (~20 newest posts)
+                   load on-disk out/channels/<u>/snapshot.json (if any)
+                   merge previous.posts + fresh.posts:
+                     - keyed by post.id (latest-wins on edits + reactions)
+                     - sort by posted_at desc, msgId tiebreaker
+                     - cap at RETAIN_LIMIT (100)
+                   channel info (title/photo/subscribers): fresh always wins
                    write out/channels/<u>/snapshot.json
                    for each referenced image:
                      skip if file exists locally (Telegram CDN URLs are

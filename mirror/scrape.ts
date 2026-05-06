@@ -23,7 +23,7 @@
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parseChannelPage } from "./parser.js";
-import type { IndexDoc, IndexEntry, Snapshot } from "./schema.js";
+import type { IndexDoc, IndexEntry, PostDTO, Snapshot } from "./schema.js";
 import { SCHEMA_VERSION } from "./schema.js";
 
 interface ChannelsManifest {
@@ -33,6 +33,16 @@ interface ChannelsManifest {
 
 const USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15";
+
+/**
+ * Per-channel retention cap. t.me/s/<u> only ever returns the most recent
+ * ~20 posts, so we merge each fresh fetch into the on-disk snapshot to
+ * give Pigeon meaningful scroll-back. 100 is a few weeks of history on
+ * busy channels and several months on quieter ones, while keeping JSON
+ * payloads small enough that git deltas stay cheap and Pigeon's mount
+ * pipeline (off-main body parse + brief spinner) doesn't need redesign.
+ */
+const RETAIN_LIMIT = 100;
 
 async function main(): Promise<void> {
   const exportRoot = process.argv[2];
@@ -61,10 +71,11 @@ async function main(): Promise<void> {
       const result = await scrapeChannel(username, exportRoot);
       fresh.set(username, result.snapshot);
       process.stderr.write(
-        `  ${username.padEnd(20)} ${result.snapshot.posts.length} posts, ` +
+        `  ${username.padEnd(20)} ${result.snapshot.posts.length} posts ` +
+          `(+${result.freshPostCount} fresh), ` +
           `${result.imagesWritten} new images, ${result.imagesSkipped} cached\n`
       );
-      if (looksLikeDeadHandle(result.snapshot, username)) {
+      if (looksLikeDeadHandle(result.snapshot.channel, result.freshPostCount, username)) {
         process.stderr.write(
           `  ${"".padEnd(20)} WARN ${username} appears unresolved on Telegram ` +
             `(no title, no subscribers, no posts) — handle may have been ` +
@@ -85,7 +96,12 @@ async function main(): Promise<void> {
 async function scrapeChannel(
   username: string,
   exportRoot: string
-): Promise<{ snapshot: Snapshot; imagesWritten: number; imagesSkipped: number }> {
+): Promise<{
+  snapshot: Snapshot;
+  freshPostCount: number;
+  imagesWritten: number;
+  imagesSkipped: number;
+}> {
   const url = `https://t.me/s/${encodeURIComponent(username)}`;
   const res = await fetch(url, {
     headers: {
@@ -98,14 +114,23 @@ async function scrapeChannel(
   if (!res.ok) throw new Error(`t.me ${username}: HTTP ${res.status}`);
 
   const html = await res.text();
-  const snapshot = parseChannelPage(html, username);
+  const fresh = parseChannelPage(html, username);
 
-  // Write the snapshot first so a partial image-mirror failure doesn't
-  // lose the textual update.
   const snapPath = join(
     exportRoot,
     `channels/${username}/snapshot.json`
   );
+
+  // Merge fresh posts into whatever is already on disk so we retain
+  // history beyond t.me's 20-post window. Channel info always comes
+  // from the fresh fetch — only posts[] carries forward.
+  const snapshot: Snapshot = {
+    ...fresh,
+    posts: mergePosts(loadExistingPosts(snapPath), fresh.posts),
+  };
+
+  // Write the snapshot first so a partial image-mirror failure doesn't
+  // lose the textual update.
   mkdirSync(dirname(snapPath), { recursive: true });
   writeFileSync(snapPath, JSON.stringify(snapshot, null, 2) + "\n");
 
@@ -132,7 +157,12 @@ async function scrapeChannel(
     })
   );
 
-  return { snapshot, imagesWritten, imagesSkipped };
+  return {
+    snapshot,
+    freshPostCount: fresh.posts.length,
+    imagesWritten,
+    imagesSkipped,
+  };
 }
 
 function collectMediaRefs(snapshot: Snapshot): Map<string, string> {
@@ -226,13 +256,70 @@ function countMedia(snap: Snapshot): number {
  * together is a strong signal the handle is dead (renamed/deleted/banned),
  * not just a quiet channel: a real channel always has at least a title and
  * a member count, even with zero posts.
+ *
+ * Checks the *fresh* post count, not the merged snapshot — retained posts
+ * from earlier scrapes would otherwise mask a handle that's just gone dead.
  */
-function looksLikeDeadHandle(snap: Snapshot, username: string): boolean {
+function looksLikeDeadHandle(
+  channel: { title: string; subscriber_count: string | null },
+  freshPostCount: number,
+  username: string
+): boolean {
   return (
-    snap.channel.title.toLowerCase() === username.toLowerCase() &&
-    snap.channel.subscriber_count === null &&
-    snap.posts.length === 0
+    channel.title.toLowerCase() === username.toLowerCase() &&
+    channel.subscriber_count === null &&
+    freshPostCount === 0
   );
+}
+
+function loadExistingPosts(snapPath: string): PostDTO[] {
+  if (!existsSync(snapPath)) return [];
+  try {
+    const raw = JSON.parse(readFileSync(snapPath, "utf8")) as Snapshot;
+    return Array.isArray(raw.posts) ? raw.posts : [];
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * Merge `previous` and `fresh` keyed by post id (latest-wins on edits and
+ * reaction-count updates), sort newest-first, cap at RETAIN_LIMIT. Posts
+ * that exist on disk but not in `fresh` are retained — that's the whole
+ * point. A side-effect is that posts deleted upstream live in the mirror
+ * until they age past the cap, which is a deliberate editorial choice.
+ */
+function mergePosts(previous: PostDTO[], fresh: PostDTO[]): PostDTO[] {
+  const byId = new Map<string, PostDTO>();
+  for (const p of previous) byId.set(p.id, p);
+  for (const p of fresh) byId.set(p.id, p);
+  const all = [...byId.values()];
+  all.sort(comparePostsDesc);
+  return all.slice(0, RETAIN_LIMIT);
+}
+
+/**
+ * Sort by `posted_at` desc; fall back to numeric msgId tail of post id
+ * (`<channel>/<msgId>`) when posted_at is missing or unparseable. msgIds
+ * are monotonic within a channel so they're a reliable secondary key.
+ */
+function comparePostsDesc(a: PostDTO, b: PostDTO): number {
+  const aT = parseTimestamp(a.posted_at);
+  const bT = parseTimestamp(b.posted_at);
+  if (Number.isFinite(aT) && Number.isFinite(bT)) return bT - aT;
+  return msgIdFromPostId(b.id) - msgIdFromPostId(a.id);
+}
+
+function parseTimestamp(value: string | null): number {
+  if (!value) return NaN;
+  const t = Date.parse(value);
+  return Number.isFinite(t) ? t : NaN;
+}
+
+function msgIdFromPostId(id: string): number {
+  const tail = id.split("/").pop();
+  const n = tail ? parseInt(tail, 10) : NaN;
+  return Number.isFinite(n) ? n : 0;
 }
 
 function sleep(ms: number): Promise<void> {
