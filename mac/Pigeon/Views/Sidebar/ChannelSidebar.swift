@@ -80,32 +80,6 @@ struct ChannelSidebar: View {
         }
         .navigationTitle("Pigeon")
         .searchable(text: $searchText, placement: .sidebar, prompt: "Filter channels")
-        .toolbar {
-            ToolbarItem(placement: .primaryAction) {
-                let isRefreshing = !(service?.inflight.isEmpty ?? true)
-                Button {
-                    guard let service else { return }
-                    Task { await service.refreshAll() }
-                } label: {
-                    if isRefreshing {
-                        ProgressView().controlSize(.small)
-                    } else {
-                        Label("Refresh All", systemImage: "arrow.clockwise")
-                    }
-                }
-                .keyboardShortcut("r", modifiers: .command)
-                .help("Refresh all channels (⌘R)")
-                .disabled(channels.isEmpty || isRefreshing)
-            }
-            ToolbarItem(placement: .primaryAction) {
-                Button {
-                    appState.presentedSheet = .addChannel
-                } label: {
-                    Label("Add Channel", systemImage: "plus")
-                }
-                .help("Add a Telegram channel (⌘N)")
-            }
-        }
         .onChange(of: appState.selectedChannelID) {
             guard let service else { return }
             if let channel = channels.first(where: { $0.persistentModelID == appState.selectedChannelID }),

@@ -43,6 +43,38 @@ struct RootView: View {
             placement: .toolbar,
             prompt: "Search posts"
         )
+        // Toolbar items live on the root, NOT on the sidebar column. Declaring
+        // them inside `ChannelSidebar` bound them to the sidebar's title-bar
+        // segment; toggling the sidebar made SwiftUI try to reparent them into
+        // the detail toolbar, and the reparenting diff misplaced them after a
+        // few toggles (ghost copy on the right, original gone). Anchoring at
+        // root keeps them in the unified toolbar regardless of column state.
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                let isRefreshing = !(service?.inflight.isEmpty ?? true)
+                Button {
+                    guard let service else { return }
+                    Task { await service.refreshAll() }
+                } label: {
+                    if isRefreshing {
+                        ProgressView().controlSize(.small)
+                    } else {
+                        Label("Refresh All", systemImage: "arrow.clockwise")
+                    }
+                }
+                .keyboardShortcut("r", modifiers: .command)
+                .help("Refresh all channels (⌘R)")
+                .disabled(channels.isEmpty || isRefreshing)
+            }
+            ToolbarItem(placement: .primaryAction) {
+                Button {
+                    appState.presentedSheet = .addChannel
+                } label: {
+                    Label("Add Channel", systemImage: "plus")
+                }
+                .help("Add a Telegram channel (⌘N)")
+            }
+        }
         .sheet(item: $appState.presentedSheet) { sheet in
             switch sheet {
             case .addChannel:
