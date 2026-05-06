@@ -201,15 +201,12 @@ private struct ChannelFeedContent: View {
         }
         .task {
             // Pre-warm the AttributedHTMLBuilder cache off the main
-            // thread before revealing the feed. For cold-cache channels
-            // this avoids ~1–2s of synchronous SwiftSoup parsing on the
-            // main thread when the eager VStack realizes 20 PostCards.
-            // For warm-cache channels the cache check is microseconds
-            // and the loop is essentially a no-op — but we still clear
-            // `isPreparing` from this point so SwiftUI's first-frame
-            // realization of the feed runs while the spinner is shown,
-            // not against an empty viewport.
-            let htmls = sortedPosts.map(\.bodyHTML).filter { !$0.isEmpty }
+            // thread before revealing the feed. With `LazyVStack` only
+            // ~5–10 cards realize on first paint, so cold-cache parsing
+            // cost is bounded — but we still pre-warm the visible
+            // window so the first frame paints with formatted text
+            // instead of plain-text fallback.
+            let htmls = sortedPosts.suffix(10).map(\.bodyHTML).filter { !$0.isEmpty }
             if !htmls.isEmpty {
                 await Task.detached(priority: .userInitiated) {
                     let builder = AttributedHTMLBuilder()
@@ -217,6 +214,15 @@ private struct ChannelFeedContent: View {
                         _ = builder.build(from: html)
                     }
                 }.value
+            }
+            // Force first-paint to the newest post. `LazyVStack`'s
+            // pre-realization size estimate isn't accurate enough for
+            // `.defaultScrollAnchor(.bottom)` to land cleanly on its
+            // own — it parks "near" the bottom, then content grows
+            // underneath. Driving the scroll explicitly converges
+            // layout in a single pass.
+            if let lastID = sortedPosts.last?.id {
+                scrollPosition.scrollTo(id: lastID, anchor: .bottom)
             }
             isPreparing = false
             prefetch.setPosts(sortedPosts)
@@ -240,19 +246,27 @@ private struct ChannelFeedContent: View {
     private func feed(posts: [Post]) -> some View {
         ZStack(alignment: .bottomTrailing) {
             ScrollView {
-                // Eager `VStack`, not `LazyVStack`. The mirror caps
-                // channels at 20 posts, so realizing all rows up front
-                // costs ~nothing and gives the ScrollView accurate
-                // content-size measurement on first layout pass — which
-                // makes `.defaultScrollAnchor(.bottom)` land cleanly on
-                // the newest post with no scroll-nudge required.
-                // `LazyVStack` here introduced first-layout positioning
-                // races (estimated row heights vs. real heights for
-                // media-heavy posts) that manifested as empty space
-                // until the user scrolled. Image bytes stay lazy via
-                // Nuke's `LazyImage` regardless of stack type, so we
-                // pay no I/O cost for eager realization.
-                VStack(alignment: .leading, spacing: 16) {
+                // `LazyVStack`, not eager `VStack`. The mirror retains
+                // up to 100 posts per channel (commit 3c0aa9d), and
+                // realizing all of them up front means 100 PostCards
+                // each installing an `onScrollVisibilityChange`
+                // observer, spinning up a `.task`, allocating a
+                // horizontal reaction ScrollView, and laying out media
+                // — all on every channel mount. That cost dominated
+                // scroll work and produced visible jitter on fling.
+                // The historical reasons we used eager VStack — album
+                // height jumps from a geometry-read race, and
+                // attributed-text height jumps from cold-cache HTML
+                // parses — have since been fixed independently:
+                // `AlbumLayout` (Layout protocol) reports correct
+                // heights synchronously, and `AttributedHTMLBuilder`
+                // seeds row height from cache on first frame. Initial
+                // bottom alignment is handled by an explicit
+                // `scrollTo(id: lastID, anchor: .bottom)` fired once
+                // mount completes (see `.task` below) — which is more
+                // reliable than `.defaultScrollAnchor(.bottom)` against
+                // a lazy stack's pre-realization size estimate.
+                LazyVStack(alignment: .leading, spacing: 16) {
                     // Row identity is `post.id` (a unique String) so new
                     // posts arriving at the last index from auto-refresh
                     // don't force every row to re-render. The visibility
