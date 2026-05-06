@@ -132,20 +132,27 @@ struct PostCard: View {
     }
 
     private var reactionStrip: some View {
-        HStack(spacing: 6) {
-            ForEach(post.reactions, id: \.self) { reaction in
-                HStack(spacing: 4) {
-                    Text(reaction.emoji).font(.callout)
-                    Text(reaction.count)
-                        .font(.caption)
-                        .fontWeight(.medium)
-                        .foregroundStyle(.secondary)
+        ScrollView(.horizontal) {
+            HStack(spacing: 6) {
+                ForEach(post.reactions, id: \.self) { reaction in
+                    HStack(spacing: 4) {
+                        Text(reaction.emoji).font(.callout)
+                        Text(reaction.count)
+                            .font(.caption)
+                            .fontWeight(.medium)
+                            .foregroundStyle(.secondary)
+                            .lineLimit(1)
+                    }
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 5)
+                    .background(.quaternary, in: .capsule)
+                    .fixedSize(horizontal: true, vertical: false)
                 }
-                .padding(.horizontal, 8)
-                .padding(.vertical, 5)
-                .background(.quaternary, in: .capsule)
             }
         }
+        .scrollIndicators(.hidden)
+        .scrollClipDisabled()
+        .scrollEdgeEffectStyle(.soft, for: .horizontal)
     }
 
     private var footer: some View {
