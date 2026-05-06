@@ -555,10 +555,22 @@ private struct MediaTile: View {
                 .clipped()
                 .clipShape(.rect(cornerRadius: 10, style: .continuous))
         } else {
+            // Same `Color.clear` stable-sizer trick as the in-album
+            // branch. The previous chain was
+            //   loader.aspectRatio(_, .fit).frame(maxWidth: .infinity, ...)
+            // which let `scaledToFill` inside `LazyImage` paint pixels
+            // past the aspectRatio'd box and out to the full-width frame
+            // — visible as the image bleeding wider than the surrounding
+            // post body whenever `media.aspectRatio` was `nil` (Telegram
+            // omits `padding-top` on some photos), stale, or mismatched
+            // against the loaded asset. Sizing `Color.clear` to the aspect
+            // and overlaying the loader makes the rendered box and the
+            // clip box the same rectangle.
             let aspect = media.aspectRatio ?? (4.0 / 3.0)
-            loader
+            Color.clear
                 .aspectRatio(aspect, contentMode: .fit)
                 .frame(maxWidth: .infinity, maxHeight: maxHeight)
+                .overlay { loader }
                 .clipped()
                 .clipShape(.rect(cornerRadius: 10, style: .continuous))
         }
