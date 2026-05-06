@@ -345,7 +345,7 @@ private struct ChannelFeedContent: View {
                 ChannelHeader(channel: channel)
                     .padding(.horizontal, 14)
                     .padding(.vertical, 8)
-                    .glassEffect(.regular, in: .rect(cornerRadius: 16))
+                    .glassEffect(.regular, in: .rect(cornerRadius: 16, style: .continuous))
                     .frame(maxWidth: 680)
                     .frame(maxWidth: .infinity, alignment: .center)
                     .padding(.horizontal, 12)

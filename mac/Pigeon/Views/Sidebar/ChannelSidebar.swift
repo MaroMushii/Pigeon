@@ -244,7 +244,7 @@ private struct SidebarFooter: View {
         .padding(.horizontal, 10)
         .padding(.vertical, 6)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color.accentColor.opacity(0.10), in: .rect(cornerRadius: 6))
+        .background(Color.accentColor.opacity(0.10), in: .rect(cornerRadius: 6, style: .continuous))
     }
 
     @ViewBuilder
