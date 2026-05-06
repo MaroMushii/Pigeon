@@ -188,19 +188,32 @@ private struct MediaGallery: View {
             // placed with an explicit `.frame(width:height:)`. No lazy
             // containers, no aspect-ratio modifiers fighting each other,
             // no fixed columns that ignore portrait/landscape mix.
+            // Tiles are positioned via `.offset(...)` inside `AlbumLayout`,
+            // which means the inner `ZStack` reports its layout size as a
+            // single tile — *not* the full painted bounds. We therefore
+            // (a) set an explicit height that matches the painted bounds,
+            // and (b) pin alignment to `.topLeading` so the ZStack doesn't
+            // get centered inside that taller frame, leaving the top empty
+            // and bleeding tiles past the bottom into the body text below.
             AlbumLayout(
                 media: media,
                 width: availableWidth,
                 gap: Self.tileGap,
                 maxHeight: Self.maxAlbumHeight
             )
-            .frame(height: AlbumLayout.height(
-                for: media,
-                width: availableWidth,
-                gap: Self.tileGap,
-                maxHeight: Self.maxAlbumHeight
-            ))
-            .frame(maxWidth: .infinity)
+            .frame(
+                maxWidth: .infinity,
+                alignment: .topLeading
+            )
+            .frame(
+                height: AlbumLayout.height(
+                    for: media,
+                    width: availableWidth,
+                    gap: Self.tileGap,
+                    maxHeight: Self.maxAlbumHeight
+                ),
+                alignment: .topLeading
+            )
             .onGeometryChange(for: CGFloat.self) { proxy in
                 proxy.size.width
             } action: { newWidth in
