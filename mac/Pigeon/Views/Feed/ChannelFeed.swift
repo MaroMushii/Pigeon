@@ -14,46 +14,18 @@ struct ChannelFeed: View {
     @Environment(\.channelService) private var service
     @State private var showingErrorPopover = false
 
-    /// Memoized sort of `channel.posts` by `postedAt` (ascending: oldest
-    /// first, newest last — the bottom-anchored ScrollView renders the last
-    /// index nearest the visible bottom). Recomputing inside `body` ran on
-    /// every observable mutation across any post — for a channel with
-    /// hundreds of posts that's a measurable hitch on every reaction-count
-    /// tick. We refresh this only when the selected channel or its post
-    /// count actually changes.
-    @State private var sortedPosts: [Post] = []
-
-    /// Owns the image prefetcher and the rolling prefetch-window state. Held
-    /// as a class instance (not raw `@State` value types) so visibility-driven
-    /// mutations don't invalidate `ChannelFeed`'s body. With dictionary-typed
-    /// `@State`, every scroll delta re-evaluated `content(for:)`, re-installed
-    /// `onScrollVisibilityChange` modifiers on every visible row, and pumped
-    /// LazyVStack/LazyVGrid into a constant placement-recomputation loop —
-    /// which Instruments lit up as 27 microhangs and dropped frames during
-    /// scroll. Class-reference identity is what `@State` tracks; mutations
-    /// on the controller's internals are invisible to SwiftUI.
-    @State private var prefetch = FeedPrefetchController()
-
-    /// Programmatic scroll handle. Used for jump-to-latest taps and the
-    /// initial scroll-to-bottom when a channel opens. `.defaultScrollAnchor`
-    /// covers the size-change case; this binding is for explicit jumps.
-    @State private var scrollPosition = ScrollPosition()
-
-    /// Whether the newest post (last index after inversion) is currently
-    /// visible. Tracked via `onScrollVisibilityChange` on the last row —
-    /// not via `scrollPosition.edge`, which only updates after explicit
-    /// programmatic scrolls and ignores user-driven gestures.
-    @State private var isAtBottom: Bool = true
-
-    /// Count of posts that have arrived since the user last sat at the
-    /// bottom. Drives the badge on the floating jump-to-latest button.
-    /// Session-only; not written to `Post.isRead`.
-    @State private var unseenCount: Int = 0
-
     var body: some View {
         Group {
             if let channel {
-                content(for: channel)
+                // `.id(channel.persistentModelID)` rebuilds the entire
+                // per-channel subtree — and crucially its `@State` —
+                // on every channel switch. Without this, scroll
+                // position, prefetch state, and `unseenCount` from the
+                // previous channel bleed into the next one and fight
+                // with `.defaultScrollAnchor(.bottom)`, producing the
+                // jumpy "scroll lands somewhere weird" behavior.
+                ChannelFeedContent(channel: channel)
+                    .id(channel.persistentModelID)
             } else {
                 FeedEmptyState {
                     appState.presentedSheet = .addChannel
@@ -77,166 +49,6 @@ struct ChannelFeed: View {
                 }
             }
         }
-        .task(id: channel?.persistentModelID) {
-            // Switching channels invalidates the prefetch window — the post
-            // indices we were tracking belong to the previous channel's
-            // ordering. Drain everything; the next visible row will refill.
-            prefetch.cancelAll()
-            unseenCount = 0
-            isAtBottom = true
-            recomputeSortedPosts()
-            // `.defaultScrollAnchor(.bottom)` handles the initial alignment
-            // for size-change scenarios, but on first render we want an
-            // explicit anchor commit so jump-to-latest can resolve cleanly.
-            scrollPosition.scrollTo(edge: .bottom)
-        }
-        .onChange(of: channel?.posts.count ?? 0) { oldCount, newCount in
-            recomputeSortedPosts()
-            let delta = newCount - oldCount
-            guard delta > 0 else { return }
-            if isAtBottom {
-                withAnimation(.easeOut(duration: 0.25)) {
-                    scrollPosition.scrollTo(edge: .bottom)
-                }
-            } else {
-                unseenCount += delta
-            }
-        }
-        .onDisappear {
-            prefetch.cancelAll()
-        }
-    }
-
-    private func recomputeSortedPosts() {
-        guard let channel else {
-            sortedPosts = []
-            prefetch.setPosts([])
-            return
-        }
-        // Ascending: oldest at index 0, newest at the last index. The
-        // ScrollView is bottom-anchored, so the last index renders nearest
-        // the visible bottom — matching Telegram's chat orientation.
-        let sorted = channel.posts.sorted {
-            ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast)
-        }
-        sortedPosts = sorted
-        prefetch.setPosts(sorted)
-    }
-
-    @ViewBuilder
-    private func content(for channel: Channel) -> some View {
-        let posts = sortedPosts
-        let isLoading = service?.inflight.contains(channel.username) ?? false
-
-        if posts.isEmpty {
-            VStack(spacing: 12) {
-                if isLoading {
-                    ProgressView()
-                    Text("Loading posts…").foregroundStyle(.secondary)
-                } else {
-                    ContentUnavailableView(
-                        "No Posts",
-                        systemImage: "bubble.left.and.bubble.right",
-                        description: Text("This channel has no public posts yet.")
-                    )
-                    Button("Refresh") { refresh(channel) }
-                        .buttonStyle(.bordered)
-                }
-            }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-        } else {
-            ZStack(alignment: .bottomTrailing) {
-                ScrollView {
-                    LazyVStack(alignment: .leading, spacing: 16) {
-                        // Row identity is `post.id` (a unique String) so
-                        // new posts arriving at the last index from
-                        // auto-refresh don't force every row to
-                        // re-render. The visibility callback forwards
-                        // the id to the prefetch controller; tracking
-                        // the *last* post's visibility gives us a
-                        // robust "user is pinned to bottom" signal —
-                        // `ScrollPosition.edge` only updates after
-                        // explicit programmatic scrolls.
-                        ForEach(posts, id: \.id) { post in
-                            PostCard(post: post)
-                                .onScrollVisibilityChange(threshold: 0.1) { visible in
-                                    if visible {
-                                        prefetch.handleVisible(postID: post.id)
-                                    }
-                                    if post.id == posts.last?.id {
-                                        // Only write on transitions to
-                                        // avoid invalidating body
-                                        // mid-scroll when the bottom row
-                                        // re-fires the same value.
-                                        if isAtBottom != visible {
-                                            isAtBottom = visible
-                                        }
-                                        if visible && unseenCount != 0 {
-                                            unseenCount = 0
-                                        }
-                                    }
-                                }
-                        }
-                    }
-                    .padding(.horizontal, 32)
-                    .padding(.vertical, 24)
-                    .frame(maxWidth: 680)
-                    .frame(maxWidth: .infinity, alignment: .center)
-                }
-                // Bottom-anchored: initial render lands on the newest
-                // post, and content-size changes (new posts appended,
-                // window resize) keep the bottom edge pinned. User
-                // scrolling is unaffected — the anchor only governs
-                // size-change and initial-alignment scenarios.
-                .defaultScrollAnchor(.bottom)
-                .scrollPosition($scrollPosition)
-                // Soft fade at the top edge: posts that scroll up
-                // *behind* the Liquid Glass header dissolve into the
-                // glass surface instead of butting up against a hard
-                // line — exactly the "scroll-under glass" feel.
-                .scrollEdgeEffectStyle(.soft, for: .top)
-                // Bind the ScrollView's identity to the channel so
-                // SwiftUI rebuilds it on channel switch — otherwise
-                // the previous channel's content offset (and its
-                // in-flight visibility callbacks) bleed into the new
-                // feed.
-                .id(channel.persistentModelID)
-                // Liquid Glass header: floats over the scroll surface
-                // and lets posts visibly pass behind it as the user
-                // scrolls. `.safeAreaInset` reserves the layout space
-                // *and* renders the inset above the scrolling content,
-                // so glass refraction picks up the moving content.
-                .safeAreaInset(edge: .top, spacing: 0) {
-                    ChannelHeader(channel: channel)
-                        .padding(.horizontal, 14)
-                        .padding(.vertical, 8)
-                        .glassEffect(.regular, in: .rect(cornerRadius: 16))
-                        .frame(maxWidth: 680)
-                        .frame(maxWidth: .infinity, alignment: .center)
-                        .padding(.horizontal, 12)
-                        .padding(.top, 6)
-                        .padding(.bottom, 4)
-                }
-
-                if unseenCount > 0 {
-                    JumpToLatestButton(count: unseenCount) {
-                        withAnimation(.easeOut(duration: 0.25)) {
-                            scrollPosition.scrollTo(edge: .bottom)
-                        }
-                        unseenCount = 0
-                    }
-                    .padding(.trailing, 20)
-                    .padding(.bottom, 20)
-                    .transition(.scale.combined(with: .opacity))
-                }
-            }
-            .animation(.easeInOut(duration: 0.2), value: unseenCount > 0)
-        }
-    }
-
-    private func refresh(_ channel: Channel) {
-        guard let service else { return }
-        Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
     }
 
     @ViewBuilder
@@ -276,6 +88,244 @@ struct ChannelFeed: View {
             .padding(14)
             .frame(width: 320)
         }
+    }
+}
+
+/// Owns the per-channel feed state. Lives as a separate view so the call
+/// site can apply `.id(channel.persistentModelID)` and force SwiftUI to
+/// destroy and recreate the entire subtree — including all `@State` —
+/// on channel switch. Without this split, scroll position, prefetch
+/// window, `isAtBottom`, and `unseenCount` are owned by the parent and
+/// leak across channels: opening a new channel inherits the previous
+/// channel's offset, fights with `.defaultScrollAnchor(.bottom)` for one
+/// frame, and produces visible jumpiness.
+private struct ChannelFeedContent: View {
+    let channel: Channel
+
+    @Environment(\.channelService) private var service
+
+    /// Memoized sort of `channel.posts` by `postedAt` (ascending: oldest
+    /// first, newest last — the bottom-anchored ScrollView renders the last
+    /// index nearest the visible bottom). Recomputing inside `body` ran on
+    /// every observable mutation across any post (a measurable hitch on
+    /// every reaction-count tick), so we refresh it only on init and when
+    /// the post count changes. Seeded synchronously in `init` so the very
+    /// first body evaluation already sees a populated array — otherwise
+    /// the first frame paints the empty state.
+    @State private var sortedPosts: [Post]
+
+    /// Owns the image prefetcher and the rolling prefetch-window state. Held
+    /// as a class instance (not raw `@State` value types) so visibility-driven
+    /// mutations don't invalidate this view's body. With dictionary-typed
+    /// `@State`, every scroll delta re-evaluated `body`, re-installed
+    /// `onScrollVisibilityChange` modifiers on every visible row, and pumped
+    /// the stack into a constant placement-recomputation loop — which
+    /// Instruments lit up as 27 microhangs and dropped frames during scroll.
+    /// Class-reference identity is what `@State` tracks; mutations on the
+    /// controller's internals are invisible to SwiftUI.
+    @State private var prefetch = FeedPrefetchController()
+
+    /// Programmatic scroll handle for jump-to-latest taps and new-post
+    /// auto-follow. Initial bottom alignment is handled by
+    /// `.defaultScrollAnchor(.bottom)` against the eagerly-laid-out
+    /// `VStack` — no init pre-arming required.
+    @State private var scrollPosition = ScrollPosition()
+
+    /// Whether the newest post (last index) is currently visible. Tracked
+    /// via `onScrollVisibilityChange` on the last row — not via
+    /// `scrollPosition.edge`, which only updates after explicit programmatic
+    /// scrolls and ignores user-driven gestures.
+    @State private var isAtBottom: Bool = true
+
+    /// Count of posts that have arrived since the user last sat at the
+    /// bottom. Drives the badge on the floating jump-to-latest button.
+    /// Session-only; not written to `Post.isRead`.
+    @State private var unseenCount: Int = 0
+
+    init(channel: Channel) {
+        self.channel = channel
+        // Sort once, here, so the first body evaluation already has the
+        // final array. Touching `channel.posts` faults the SwiftData
+        // relationship — fast for in-memory cached channels, which is
+        // every channel by the time it's clickable in the sidebar.
+        let sorted = channel.posts.sorted {
+            ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast)
+        }
+        _sortedPosts = State(initialValue: sorted)
+    }
+
+    var body: some View {
+        let posts = sortedPosts
+        let isLoading = service?.inflight.contains(channel.username) ?? false
+
+        Group {
+            if posts.isEmpty {
+                VStack(spacing: 12) {
+                    if isLoading {
+                        ProgressView()
+                        Text("Loading posts…").foregroundStyle(.secondary)
+                    } else {
+                        ContentUnavailableView(
+                            "No Posts",
+                            systemImage: "bubble.left.and.bubble.right",
+                            description: Text("This channel has no public posts yet.")
+                        )
+                        Button("Refresh") { refresh() }
+                            .buttonStyle(.bordered)
+                    }
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            } else {
+                feed(posts: posts)
+            }
+        }
+        .task {
+            // `sortedPosts` is already populated by `init` so the first
+            // frame paints the feed directly. The prefetcher just needs
+            // its index built once on mount; it's a bandwidth optimization
+            // for *future* scrolls, so post-render is fine.
+            prefetch.setPosts(sortedPosts)
+        }
+        .onChange(of: channel.posts.count) { oldCount, newCount in
+            recomputeSortedPosts()
+            let delta = newCount - oldCount
+            guard delta > 0 else { return }
+            if isAtBottom {
+                scrollToLatest(animated: true)
+            } else {
+                unseenCount += delta
+            }
+        }
+        .onDisappear {
+            prefetch.cancelAll()
+        }
+    }
+
+    @ViewBuilder
+    private func feed(posts: [Post]) -> some View {
+        ZStack(alignment: .bottomTrailing) {
+            ScrollView {
+                // Eager `VStack`, not `LazyVStack`. The mirror caps
+                // channels at 20 posts, so realizing all rows up front
+                // costs ~nothing and gives the ScrollView accurate
+                // content-size measurement on first layout pass — which
+                // makes `.defaultScrollAnchor(.bottom)` land cleanly on
+                // the newest post with no scroll-nudge required.
+                // `LazyVStack` here introduced first-layout positioning
+                // races (estimated row heights vs. real heights for
+                // media-heavy posts) that manifested as empty space
+                // until the user scrolled. Image bytes stay lazy via
+                // Nuke's `LazyImage` regardless of stack type, so we
+                // pay no I/O cost for eager realization.
+                VStack(alignment: .leading, spacing: 16) {
+                    // Row identity is `post.id` (a unique String) so new
+                    // posts arriving at the last index from auto-refresh
+                    // don't force every row to re-render. The visibility
+                    // callback forwards the id to the prefetch controller;
+                    // tracking the *last* post's visibility gives us a
+                    // robust "user is pinned to bottom" signal —
+                    // `ScrollPosition.edge` only updates after explicit
+                    // programmatic scrolls.
+                    ForEach(posts, id: \.id) { post in
+                        PostCard(post: post)
+                            .onScrollVisibilityChange(threshold: 0.1) { visible in
+                                if visible {
+                                    prefetch.handleVisible(postID: post.id)
+                                }
+                                if post.id == posts.last?.id {
+                                    // Only write on transitions to avoid
+                                    // invalidating body mid-scroll when
+                                    // the bottom row re-fires the same
+                                    // value.
+                                    if isAtBottom != visible {
+                                        isAtBottom = visible
+                                    }
+                                    if visible && unseenCount != 0 {
+                                        unseenCount = 0
+                                    }
+                                }
+                            }
+                    }
+                }
+                .padding(.horizontal, 32)
+                .padding(.vertical, 24)
+                .frame(maxWidth: 680)
+                .frame(maxWidth: .infinity, alignment: .center)
+            }
+            // Bottom-anchored: initial render lands on the newest post,
+            // and content-size changes (new posts appended, window
+            // resize) keep the bottom edge pinned. User scrolling is
+            // unaffected — the anchor only governs size-change and
+            // initial-alignment scenarios.
+            .defaultScrollAnchor(.bottom)
+            .scrollPosition($scrollPosition)
+            // Soft fade at the top edge: posts that scroll up *behind*
+            // the Liquid Glass header dissolve into the glass surface
+            // instead of butting up against a hard line — exactly the
+            // "scroll-under glass" feel.
+            .scrollEdgeEffectStyle(.soft, for: .top)
+            // Liquid Glass header: floats over the scroll surface and
+            // lets posts visibly pass behind it as the user scrolls.
+            // `.safeAreaInset` reserves the layout space *and* renders
+            // the inset above the scrolling content, so glass refraction
+            // picks up the moving content.
+            .safeAreaInset(edge: .top, spacing: 0) {
+                ChannelHeader(channel: channel)
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 8)
+                    .glassEffect(.regular, in: .rect(cornerRadius: 16))
+                    .frame(maxWidth: 680)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .padding(.horizontal, 12)
+                    .padding(.top, 6)
+                    .padding(.bottom, 4)
+            }
+
+            if unseenCount > 0 {
+                JumpToLatestButton(count: unseenCount) {
+                    scrollToLatest(animated: true)
+                    unseenCount = 0
+                }
+                .padding(.trailing, 20)
+                .padding(.bottom, 20)
+                .transition(.scale.combined(with: .opacity))
+            }
+        }
+        .animation(.easeInOut(duration: 0.2), value: unseenCount > 0)
+    }
+
+    /// Scroll to the newest post via id-based targeting. `scrollTo(edge:)`
+    /// races with `LazyVStack` row realization (the lazy stack reports an
+    /// estimated content size before tail rows materialize, so the "edge"
+    /// resolves to the wrong offset); `scrollTo(id:anchor:)` instead
+    /// instructs the lazy stack to realize the rows around that id, then
+    /// pins it to the bottom anchor — converging layout on a single pass.
+    private func scrollToLatest(animated: Bool) {
+        guard let lastID = sortedPosts.last?.id else { return }
+        if animated {
+            withAnimation(.easeOut(duration: 0.25)) {
+                scrollPosition.scrollTo(id: lastID, anchor: .bottom)
+            }
+        } else {
+            scrollPosition.scrollTo(id: lastID, anchor: .bottom)
+        }
+    }
+
+    private func recomputeSortedPosts() {
+        // Ascending: oldest at index 0, newest at the last index. The
+        // ScrollView is bottom-anchored, so the last index renders
+        // nearest the visible bottom — matching Telegram's chat
+        // orientation.
+        let sorted = channel.posts.sorted {
+            ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast)
+        }
+        sortedPosts = sorted
+        prefetch.setPosts(sorted)
+    }
+
+    private func refresh() {
+        guard let service else { return }
+        Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
     }
 }
 
@@ -333,11 +383,12 @@ private struct ChannelHeader: View {
     }
 }
 
-/// Owns image-prefetch state for `ChannelFeed`. Lives as a class so that
-/// scroll-visibility callbacks can mutate its internals without invalidating
-/// the enclosing view's body — `@State` tracks reference identity for
-/// classes, not internal mutations. See the comment on
-/// `ChannelFeed.prefetch` for the structural reasoning behind this split.
+/// Owns image-prefetch state for `ChannelFeedContent`. Lives as a class
+/// so that scroll-visibility callbacks can mutate its internals without
+/// invalidating the enclosing view's body — `@State` tracks reference
+/// identity for classes, not internal mutations. See the comment on
+/// `ChannelFeedContent.prefetch` for the structural reasoning behind
+/// this split.
 @MainActor
 private final class FeedPrefetchController {
     /// How many posts ahead we keep prefetched at any given time. Five is
