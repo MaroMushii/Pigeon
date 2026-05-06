@@ -23,8 +23,8 @@ final class PopularChannelsStore {
     let channels: [PopularChannelInfo] = [
         .init(username: "vahidonline",   displayName: "Vahid Online"),
         .init(username: "bbcpersian",    displayName: "BBC Persian"),
-        .init(username: "iranintl",      displayName: "Iran International"),
-        .init(username: "voafarsi",      displayName: "VOA Farsi"),
+        .init(username: "iranintltv",    displayName: "Iran International"),
+        .init(username: "farsivoa",      displayName: "Farsi VOA"),
         .init(username: "radiofarda",    displayName: "Radio Farda"),
         .init(username: "dwpersian",     displayName: "DW Persian"),
         .init(username: "sahamnewsorg",  displayName: "Saham News"),
