@@ -13,18 +13,29 @@ default:
     @just --list
 
 # Regenerate Xcode project + build Debug, then reveal the .app in Finder
-build:
-    cd mac && xcodegen generate
-    cd mac && xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug build 2>&1 | {{xcb}}
-    just reveal
+build: _xcbuild reveal
+
+# Build Debug and launch a fresh copy (kills any running instance after a successful build)
+run: _xcbuild kill
+    open "$(ls -dt ~/Library/Developer/Xcode/DerivedData/Pigeon-*/Build/Products/Debug/Pigeon.app | head -1)"
+
+# Kill the running Pigeon app, if any (waits for full termination)
+kill:
+    pkill -x Pigeon 2>/dev/null || true
+    for i in {1..50}; do pgrep -x Pigeon >/dev/null 2>&1 || break; sleep 0.1; done
 
 # Run the test bundle
 test:
     cd mac && xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug test 2>&1 | {{xcb}}
 
-# Open the freshest Debug build
+# Open the freshest Debug build (does not rebuild)
 app:
     open "$(ls -dt ~/Library/Developer/Xcode/DerivedData/Pigeon-*/Build/Products/Debug/Pigeon.app | head -1)"
+
+# Private: regenerate Xcode project + build Debug. No reveal, no launch.
+_xcbuild:
+    cd mac && xcodegen generate
+    cd mac && xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug build 2>&1 | {{xcb}}
 
 # Reveal the freshest Debug build in Finder
 reveal:
