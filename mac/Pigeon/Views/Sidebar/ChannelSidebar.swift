@@ -256,7 +256,7 @@ private struct SidebarFooter: View {
                 Text("mirror updated \(relativeLabel(for: last, now: context.date))")
                     .font(.footnote)
                     .foregroundStyle(age > 30 * 60 ? AnyShapeStyle(.red) : AnyShapeStyle(.secondary))
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxWidth: .infinity, alignment: .center)
             }
         }
     }
