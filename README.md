@@ -10,9 +10,9 @@
   the app.
 </p>
 
-Built for filtered networks (Iran, in particular). Most readers break
-the moment Telegram is blocked at the network level. Pigeon doesn't,
-because it never talks to Telegram directly.
+Built for heavily filtered networks. Most readers break the moment
+Telegram is blocked at the network level. Pigeon doesn't, because it
+never talks to Telegram directly.
 
 <p align="center">
   <img src="docs/screenshot.png" alt="Pigeon main window — sidebar of channels on the left, an open Persian-language channel on the right" width="820" />
