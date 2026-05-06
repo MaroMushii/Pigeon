@@ -175,166 +175,179 @@ private struct MediaGallery: View {
     /// 9:16 album can't consume an entire feed page on its own.
     private static let maxAlbumHeight: CGFloat = 480
 
-    @State private var availableWidth: CGFloat = 0
-
     var body: some View {
-        // Single-image posts (the common case) skip the gallery container
+        // Single-image posts (the common case) skip the album container
         // entirely — no layout math, just the tile in its natural aspect.
         if media.count == 1 {
             MediaTile(media: media[0])
         } else {
-            // Telegram-style proportional album. Width is read once via a
-            // background GeometryReader → preference, then every child is
-            // placed with an explicit `.frame(width:height:)`. No lazy
-            // containers, no aspect-ratio modifiers fighting each other,
-            // no fixed columns that ignore portrait/landscape mix.
-            // Tiles are positioned via `.offset(...)` inside `AlbumLayout`,
-            // which means the inner `ZStack` reports its layout size as a
-            // single tile — *not* the full painted bounds. We therefore
-            // (a) set an explicit height that matches the painted bounds,
-            // and (b) pin alignment to `.topLeading` so the ZStack doesn't
-            // get centered inside that taller frame, leaving the top empty
-            // and bleeding tiles past the bottom into the body text below.
+            // Telegram-style proportional album. `AlbumLayout` is a
+            // `Layout`-protocol container, so it gets the parent's proposed
+            // width *synchronously* during the layout pass and reports the
+            // album's true height on the first render. The previous
+            // implementation read width via `onGeometryChange` after the
+            // first render, which meant every freshly-mounted multi-image
+            // post grew from 1pt to ~488pt on its second render — visible
+            // as a scroll-position jump whenever an album scrolled into
+            // view inside `LazyVStack`'s recycle window.
+            // Pass aspect ratios as a `Sendable` `[Double]` rather than
+            // the live `[Media]` (SwiftData `@Model` instances aren't
+            // thread-safe, and `Layout` types are `Sendable` because the
+            // layout engine may run off the main actor). The subviews
+            // still receive the full `Media` — they render on the main
+            // actor where SwiftData reads are safe.
             AlbumLayout(
-                media: media,
-                width: availableWidth,
+                aspectRatios: media.map { $0.aspectRatio ?? (4.0 / 3.0) },
                 gap: Self.tileGap,
                 maxHeight: Self.maxAlbumHeight
-            )
-            .frame(
-                maxWidth: .infinity,
-                alignment: .topLeading
-            )
-            .frame(
-                height: AlbumLayout.height(
-                    for: media,
-                    width: availableWidth,
-                    gap: Self.tileGap,
-                    maxHeight: Self.maxAlbumHeight
-                ),
-                alignment: .topLeading
-            )
-            .onGeometryChange(for: CGFloat.self) { proxy in
-                proxy.size.width
-            } action: { newWidth in
-                availableWidth = newWidth
+            ) {
+                ForEach(Array(media.enumerated()), id: \.offset) { _, item in
+                    MediaTile(media: item, inAlbum: true)
+                }
             }
         }
     }
 }
 
-/// Per-count layout templates. Each template returns explicit
-/// `(rect, media)` placements for a given container width; `MediaGallery`
-/// renders them as plain positioned tiles. Buckets aspect ratios into
-/// portrait / square / landscape rather than optimising continuously —
-/// good enough to pick a sensible template, dramatically simpler than
-/// Telegram's actual layout solver.
-private struct AlbumLayout: View {
-    let media: [Media]
-    let width: CGFloat
+/// Per-count Telegram-style album templates. Conforms to `Layout`, so
+/// the parent's proposed width is read *synchronously* during the layout
+/// pass — `sizeThatFits` returns the album's true height on the first
+/// render, eliminating the geometry-read race that previously made
+/// multi-image posts grow from ~1pt to ~488pt on second render and
+/// jumped scroll position whenever an album crossed the recycle window.
+/// Buckets aspect ratios into portrait / square / landscape rather than
+/// optimising continuously — good enough to pick a sensible template,
+/// dramatically simpler than Telegram's actual layout solver.
+private struct AlbumLayout: Layout {
+    /// One aspect ratio per media item (in `media` order). Used to pick a
+    /// template and size individual tiles; the actual `Media` objects
+    /// stay out of this `Sendable` type and are rendered by the subviews
+    /// passed via the trailing closure.
+    let aspectRatios: [Double]
     let gap: CGFloat
     let maxHeight: CGFloat
 
-    var body: some View {
-        let placements = Self.placements(
-            for: media,
-            width: width,
-            gap: gap,
-            maxHeight: maxHeight
-        )
-        ZStack(alignment: .topLeading) {
-            ForEach(Array(placements.enumerated()), id: \.offset) { _, placement in
-                MediaTile(media: placement.media, fixedSize: placement.size)
-                    .offset(x: placement.origin.x, y: placement.origin.y)
-            }
-        }
-        .frame(width: width, alignment: .topLeading)
+    /// Memoised placements for the most recently seen proposed width.
+    /// SwiftUI calls `sizeThatFits` and `placeSubviews` once each per
+    /// layout pass with the same proposal, so caching here cuts the
+    /// template math in half. The cache is per-Layout-instance and
+    /// SwiftUI handles invalidation when `aspectRatios`/`gap`/`maxHeight`
+    /// change (the struct's stored properties define identity).
+    struct Cache {
+        var width: CGFloat?
+        var placements: [Placement] = []
     }
 
     struct Placement {
-        let media: Media
         let origin: CGPoint
         let size: CGSize
     }
 
-    /// Convenience: total album height for the placements that would be
-    /// produced at this width. `MediaGallery` uses it to size its
-    /// own `.frame(height:)` once the parent's width is known.
-    static func height(
-        for media: [Media],
-        width: CGFloat,
-        gap: CGFloat,
-        maxHeight: CGFloat
-    ) -> CGFloat {
-        guard width > 0 else { return 1 }
-        let placements = placements(for: media, width: width, gap: gap, maxHeight: maxHeight)
-        let bottom = placements.map { $0.origin.y + $0.size.height }.max() ?? 0
-        return max(1, bottom)
+    func makeCache(subviews: Subviews) -> Cache { Cache() }
+
+    func sizeThatFits(
+        proposal: ProposedViewSize,
+        subviews: Subviews,
+        cache: inout Cache
+    ) -> CGSize {
+        let width = proposal.width ?? 0
+        guard width > 0, width.isFinite else {
+            return CGSize(width: max(0, width), height: 0)
+        }
+        let placements = cachedPlacements(width: width, cache: &cache)
+        let height = placements.map { $0.origin.y + $0.size.height }.max() ?? 0
+        return CGSize(width: width, height: height)
+    }
+
+    func placeSubviews(
+        in bounds: CGRect,
+        proposal: ProposedViewSize,
+        subviews: Subviews,
+        cache: inout Cache
+    ) {
+        let placements = cachedPlacements(width: bounds.width, cache: &cache)
+        for (index, subview) in subviews.enumerated() {
+            guard index < placements.count else { break }
+            let placement = placements[index]
+            subview.place(
+                at: CGPoint(
+                    x: bounds.minX + placement.origin.x,
+                    y: bounds.minY + placement.origin.y
+                ),
+                anchor: .topLeading,
+                proposal: ProposedViewSize(
+                    width: placement.size.width,
+                    height: placement.size.height
+                )
+            )
+        }
+    }
+
+    private func cachedPlacements(width: CGFloat, cache: inout Cache) -> [Placement] {
+        if cache.width == width { return cache.placements }
+        let placements = Self.placements(
+            for: aspectRatios,
+            width: width,
+            gap: gap,
+            maxHeight: maxHeight
+        )
+        cache.width = width
+        cache.placements = placements
+        return placements
     }
 
     // MARK: - Template dispatch
 
     static func placements(
-        for media: [Media],
+        for ratios: [Double],
         width: CGFloat,
         gap: CGFloat,
         maxHeight: CGFloat
     ) -> [Placement] {
-        switch media.count {
+        switch ratios.count {
         case 0, 1: return []
-        case 2: return two(media, width: width, gap: gap, maxHeight: maxHeight)
-        case 3: return three(media, width: width, gap: gap, maxHeight: maxHeight)
-        case 4: return four(media, width: width, gap: gap, maxHeight: maxHeight)
-        case 5: return five(media, width: width, gap: gap, maxHeight: maxHeight)
-        case 6: return six(media, width: width, gap: gap, maxHeight: maxHeight)
-        default: return grid(media, columns: 2, width: width, gap: gap, maxHeight: maxHeight)
+        case 2: return two(ratios, width: width, gap: gap, maxHeight: maxHeight)
+        case 3: return three(ratios, width: width, gap: gap, maxHeight: maxHeight)
+        case 4: return four(ratios, width: width, gap: gap, maxHeight: maxHeight)
+        case 5: return five(ratios, width: width, gap: gap, maxHeight: maxHeight)
+        case 6: return six(ratios, width: width, gap: gap, maxHeight: maxHeight)
+        default: return grid(count: ratios.count, columns: 2, width: width, gap: gap, maxHeight: maxHeight)
         }
     }
 
     // MARK: - Templates
 
     private static func two(
-        _ media: [Media],
+        _ ratios: [Double],
         width: CGFloat,
         gap: CGFloat,
         maxHeight: CGFloat
     ) -> [Placement] {
-        let r0 = ratio(media[0])
-        let r1 = ratio(media[1])
-        // Two landscape images stack vertically — side-by-side would crush
-        // each into a thin sliver. Otherwise default to side-by-side.
-        if bucket(r0) == .landscape && bucket(r1) == .landscape {
-            let totalH0 = width / r0
-            let totalH1 = width / r1
-            let scale = min(1, maxHeight / (totalH0 + totalH1 + gap))
-            let h0 = totalH0 * scale
-            let h1 = totalH1 * scale
-            return [
-                Placement(media: media[0], origin: .zero,
-                          size: CGSize(width: width, height: h0)),
-                Placement(media: media[1], origin: CGPoint(x: 0, y: h0 + gap),
-                          size: CGSize(width: width, height: h1))
-            ]
-        }
+        // Always side-by-side, matching native Telegram. The previous
+        // "stack two landscape images vertically" branch fired for any
+        // ratio > 1.1, which produced two ~480pt-tall full-width tiles
+        // for ordinary 4:3 photos — visually reading as two separate
+        // posts rather than one grouped pair. Side-by-side at half-width
+        // keeps even modest panoramas comfortably tall (~130pt at 21:9),
+        // and the wider tile gets cropped via the album tile's
+        // `scaledToFill` to match the taller one's height.
         let tileWidth = (width - gap) / 2
-        // Pick height from the *taller* required height so neither tile
-        // letterboxes — `scaledToFill` then crops the wider one.
-        let h = min(maxHeight, max(tileWidth / r0, tileWidth / r1))
+        let h = min(maxHeight, max(tileWidth / ratios[0], tileWidth / ratios[1]))
         return [
-            Placement(media: media[0], origin: .zero,
+            Placement(origin: .zero,
                       size: CGSize(width: tileWidth, height: h)),
-            Placement(media: media[1], origin: CGPoint(x: tileWidth + gap, y: 0),
+            Placement(origin: CGPoint(x: tileWidth + gap, y: 0),
                       size: CGSize(width: tileWidth, height: h))
         ]
     }
 
     private static func three(
-        _ media: [Media],
+        _ ratios: [Double],
         width: CGFloat,
         gap: CGFloat,
         maxHeight: CGFloat
     ) -> [Placement] {
-        let r0 = ratio(media[0])
+        let r0 = ratios[0]
         // Wide hero on top + two smaller below, when the lead image is
         // landscape; otherwise lead-on-the-left with two stacked on the
         // right (Telegram's most common 3-up).
@@ -343,11 +356,11 @@ private struct AlbumLayout: View {
             let bottomW = (width - gap) / 2
             let bottomH = min(maxHeight - topH - gap, bottomW * 0.75)
             return [
-                Placement(media: media[0], origin: .zero,
+                Placement(origin: .zero,
                           size: CGSize(width: width, height: topH)),
-                Placement(media: media[1], origin: CGPoint(x: 0, y: topH + gap),
+                Placement(origin: CGPoint(x: 0, y: topH + gap),
                           size: CGSize(width: bottomW, height: bottomH)),
-                Placement(media: media[2], origin: CGPoint(x: bottomW + gap, y: topH + gap),
+                Placement(origin: CGPoint(x: bottomW + gap, y: topH + gap),
                           size: CGSize(width: bottomW, height: bottomH))
             ]
         }
@@ -356,17 +369,17 @@ private struct AlbumLayout: View {
         let h = min(maxHeight, leftW / max(r0, 0.65))
         let smallH = (h - gap) / 2
         return [
-            Placement(media: media[0], origin: .zero,
+            Placement(origin: .zero,
                       size: CGSize(width: leftW, height: h)),
-            Placement(media: media[1], origin: CGPoint(x: leftW + gap, y: 0),
+            Placement(origin: CGPoint(x: leftW + gap, y: 0),
                       size: CGSize(width: rightW, height: smallH)),
-            Placement(media: media[2], origin: CGPoint(x: leftW + gap, y: smallH + gap),
+            Placement(origin: CGPoint(x: leftW + gap, y: smallH + gap),
                       size: CGSize(width: rightW, height: smallH))
         ]
     }
 
     private static func four(
-        _ media: [Media],
+        _ ratios: [Double],
         width: CGFloat,
         gap: CGFloat,
         maxHeight: CGFloat
@@ -374,27 +387,27 @@ private struct AlbumLayout: View {
         // Tall hero on the left + three stacked on the right when the lead
         // is portrait; this matches Telegram's "phone-shaped first photo"
         // case. Otherwise plain 2×2.
-        if bucket(ratio(media[0])) == .portrait {
+        if bucket(ratios[0]) == .portrait {
             let leftW = width * 0.6 - gap / 2
             let rightW = width - leftW - gap
             let h = min(maxHeight, leftW / 0.7)
             let smallH = (h - gap * 2) / 3
             return [
-                Placement(media: media[0], origin: .zero,
+                Placement(origin: .zero,
                           size: CGSize(width: leftW, height: h)),
-                Placement(media: media[1], origin: CGPoint(x: leftW + gap, y: 0),
+                Placement(origin: CGPoint(x: leftW + gap, y: 0),
                           size: CGSize(width: rightW, height: smallH)),
-                Placement(media: media[2], origin: CGPoint(x: leftW + gap, y: smallH + gap),
+                Placement(origin: CGPoint(x: leftW + gap, y: smallH + gap),
                           size: CGSize(width: rightW, height: smallH)),
-                Placement(media: media[3], origin: CGPoint(x: leftW + gap, y: (smallH + gap) * 2),
+                Placement(origin: CGPoint(x: leftW + gap, y: (smallH + gap) * 2),
                           size: CGSize(width: rightW, height: smallH))
             ]
         }
-        return grid(media, columns: 2, width: width, gap: gap, maxHeight: maxHeight)
+        return grid(count: ratios.count, columns: 2, width: width, gap: gap, maxHeight: maxHeight)
     }
 
     private static func five(
-        _ media: [Media],
+        _ ratios: [Double],
         width: CGFloat,
         gap: CGFloat,
         maxHeight: CGFloat
@@ -406,21 +419,22 @@ private struct AlbumLayout: View {
         let topW = (width - gap) / 2
         let botW = (width - gap * 2) / 3
         var out: [Placement] = []
-        out.append(Placement(media: media[0], origin: .zero,
+        out.append(Placement(origin: .zero,
                              size: CGSize(width: topW, height: topH)))
-        out.append(Placement(media: media[1], origin: CGPoint(x: topW + gap, y: 0),
+        out.append(Placement(origin: CGPoint(x: topW + gap, y: 0),
                              size: CGSize(width: topW, height: topH)))
         for i in 0..<3 {
             let x = (botW + gap) * CGFloat(i)
-            out.append(Placement(media: media[2 + i],
-                                 origin: CGPoint(x: x, y: topH + gap),
-                                 size: CGSize(width: botW, height: bottomH)))
+            out.append(Placement(
+                origin: CGPoint(x: x, y: topH + gap),
+                size: CGSize(width: botW, height: bottomH)
+            ))
         }
         return out
     }
 
     private static func six(
-        _ media: [Media],
+        _ ratios: [Double],
         width: CGFloat,
         gap: CGFloat,
         maxHeight: CGFloat
@@ -428,7 +442,7 @@ private struct AlbumLayout: View {
         // 3×2 grid. A 2/4 split looks great for some inputs but produces
         // weirdly tiny bottom tiles when the album isn't wide; uniform 3×2
         // is the safer default at feed-card width.
-        return grid(media, columns: 3, width: width, gap: gap, maxHeight: maxHeight)
+        return grid(count: ratios.count, columns: 3, width: width, gap: gap, maxHeight: maxHeight)
     }
 
     // MARK: - Generic grid
@@ -436,29 +450,29 @@ private struct AlbumLayout: View {
     /// Plain N-column grid. Used as the fallback for 7+ images and as the
     /// base case for 4 and 6 when no asymmetric template applies. Tile
     /// height is the column width × 0.85 — slightly wider than tall, which
-    /// keeps the grid from looking like a wall of squares.
+    /// keeps the grid from looking like a wall of squares. Aspect ratios
+    /// don't matter for a uniform grid, so we take just the count.
     private static func grid(
-        _ media: [Media],
+        count: Int,
         columns: Int,
         width: CGFloat,
         gap: CGFloat,
         maxHeight: CGFloat
     ) -> [Placement] {
         let cols = max(1, columns)
-        let rows = Int(ceil(Double(media.count) / Double(cols)))
+        let rows = Int(ceil(Double(count) / Double(cols)))
         let tileW = (width - gap * CGFloat(cols - 1)) / CGFloat(cols)
         let idealH = tileW * 0.85
         let totalIdeal = idealH * CGFloat(rows) + gap * CGFloat(rows - 1)
         let scale = min(1, maxHeight / totalIdeal)
         let tileH = idealH * scale
         var out: [Placement] = []
-        for (i, item) in media.enumerated() {
+        for i in 0..<count {
             let row = i / cols
             let col = i % cols
             let x = (tileW + gap) * CGFloat(col)
             let y = (tileH + gap) * CGFloat(row)
             out.append(Placement(
-                media: item,
                 origin: CGPoint(x: x, y: y),
                 size: CGSize(width: tileW, height: tileH)
             ))
@@ -470,10 +484,6 @@ private struct AlbumLayout: View {
 
     private enum Bucket { case portrait, square, landscape }
 
-    private static func ratio(_ media: Media) -> Double {
-        media.aspectRatio ?? (4.0 / 3.0)
-    }
-
     private static func bucket(_ ratio: Double) -> Bucket {
         if ratio < 0.9 { return .portrait }
         if ratio > 1.1 { return .landscape }
@@ -484,15 +494,16 @@ private struct AlbumLayout: View {
 private struct MediaTile: View {
     let media: Media
 
-    /// When non-nil, the tile fills this exact size and clips. Used by
-    /// `AlbumLayout` to lay out album children with explicit per-tile
-    /// dimensions. Single-image posts pass nil and fall back to the
-    /// natural-aspect path below.
-    var fixedSize: CGSize? = nil
+    /// When `true`, the tile accepts whatever size its parent proposes
+    /// (used by `AlbumLayout`, which calls `place(at:proposal:)` with
+    /// per-tile dimensions). When `false`, the tile sizes itself from
+    /// `media.aspectRatio` — the single-image-post path.
+    var inAlbum: Bool = false
 
-    /// Cap how tall a single piece of media can get. A 9:16 phone-shaped
-    /// post would otherwise consume an entire feed page on its own.
-    /// Album tiles override this via `fixedSize`.
+    /// Cap how tall a single piece of media can get in the natural-aspect
+    /// path. A 9:16 phone-shaped post would otherwise consume an entire
+    /// feed page on its own. Album tiles bypass this — `AlbumLayout`
+    /// already enforces its own per-album cap.
     private let maxHeight: CGFloat = 480
 
     var body: some View {
@@ -528,9 +539,19 @@ private struct MediaTile: View {
                 Rectangle().fill(.quaternary)
             }
         }
-        if let fixedSize {
-            loader
-                .frame(width: fixedSize.width, height: fixedSize.height)
+        if inAlbum {
+            // `Color.clear` is the canonical "stable sizer" in SwiftUI:
+            // it accepts any proposal and reports back exactly the
+            // proposed size — no growing, no shrinking. The image renders
+            // inside the `.overlay` with `scaledToFill` semantics, and
+            // `.clipped()` trims any pixel overflow at the bounds. We
+            // tried `.frame(maxWidth: .infinity, maxHeight: .infinity)`
+            // here first and it leaked: the range-frame returned the
+            // loaded image's intrinsic size when `scaledToFill` advertised
+            // it, causing tiles to paint taller than `AlbumLayout`
+            // proposed and bleed over the body text below.
+            Color.clear
+                .overlay { loader }
                 .clipped()
                 .clipShape(.rect(cornerRadius: 10, style: .continuous))
         } else {
