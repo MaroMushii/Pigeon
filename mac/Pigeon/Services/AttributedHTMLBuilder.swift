@@ -34,6 +34,16 @@ struct AttributedHTMLBuilder {
         return out
     }
 
+    /// Cache-only lookup — returns the parsed `AttributedString` if a
+    /// previous `build(from:)` call has populated the cache for this HTML
+    /// blob, otherwise `nil`. Used by `PostCard.init` to take a synchronous
+    /// fast-path for warm-cache rows so they paint formatted text on the
+    /// very first frame, while cold-cache rows fall back to `plainText`
+    /// and upgrade after a `.task` parses the HTML off the main thread.
+    static func cached(for html: String) -> AttributedString? {
+        cache.object(forKey: html as NSString)?.value
+    }
+
     private struct InheritedStyle {
         var bold = false
         var italic = false

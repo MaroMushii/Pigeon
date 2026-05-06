@@ -24,6 +24,23 @@ struct PostCard: View {
     /// doesn't fire `markRead` after the fact.
     @State private var dwellTask: Task<Void, Never>?
 
+    /// Attributed rendering of `post.bodyHTML`. Synchronously seeded from
+    /// the `AttributedHTMLBuilder` cache in `init` so warm-cache rows
+    /// paint formatted text on the first frame; cold-cache rows leave
+    /// this `nil`, render `post.plainText` as a fallback, and upgrade
+    /// once `.task` parses the HTML off the main thread. Without the
+    /// off-main parse, switching to a freshly-loaded channel kicked off
+    /// 20 synchronous SwiftSoup parses on the main thread and froze the
+    /// UI for ~1–2 s — the cost of `LazyVStack`-to-`VStack` regressed
+    /// because every row's `body` ran on first mount instead of just
+    /// the visible 5.
+    @State private var attributedBody: AttributedString?
+
+    init(post: Post) {
+        self.post = post
+        _attributedBody = State(initialValue: AttributedHTMLBuilder.cached(for: post.bodyHTML))
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             header
@@ -33,7 +50,13 @@ struct PostCard: View {
             }
 
             if !post.bodyHTML.isEmpty {
-                Text(Self.attributedBuilder.build(from: post.bodyHTML))
+                // `attributedBody` is `nil` until either the cache had a hit
+                // at `init` time or the off-main parse below completes. In
+                // the brief cold-cache window we render `plainText` — same
+                // characters, no formatting — which keeps the row's
+                // height stable so the upgrade to formatted text doesn't
+                // shift surrounding layout.
+                Text(attributedBody ?? AttributedString(post.plainText))
                     .font(.body)
                     .lineSpacing(5)
                     // `.textSelection(.enabled)` is deliberately omitted.
@@ -74,6 +97,21 @@ struct PostCard: View {
         }
         .onScrollVisibilityChange(threshold: 0.3) { visible in
             handleVisibilityChange(visible)
+        }
+        .task(id: post.id) {
+            // Cold-cache fallback: parse off the main thread and upgrade
+            // `attributedBody` once available. `init` already took the
+            // synchronous fast-path for warm-cache rows, so we skip the
+            // detached-task overhead in that case. The `id: post.id`
+            // parameter ensures this restarts if the same `PostCard`
+            // struct is reused for a different post (e.g. new auto-
+            // refreshed post arriving at the tail).
+            guard attributedBody == nil, !post.bodyHTML.isEmpty else { return }
+            let html = post.bodyHTML
+            let parsed = await Task.detached(priority: .userInitiated) {
+                AttributedHTMLBuilder().build(from: html)
+            }.value
+            attributedBody = parsed
         }
         .onDisappear {
             dwellTask?.cancel()

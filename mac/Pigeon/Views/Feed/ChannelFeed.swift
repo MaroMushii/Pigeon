@@ -142,6 +142,16 @@ private struct ChannelFeedContent: View {
     /// Session-only; not written to `Post.isRead`.
     @State private var unseenCount: Int = 0
 
+    /// `true` while the channel is preparing on mount. Covers both the
+    /// cold-cache `AttributedHTMLBuilder` prewarm *and* the brief beat
+    /// where SwiftUI realizes the eager `VStack` of 20 PostCards (text
+    /// layout, media galleries, reactions, ScrollView measurement). Even
+    /// when the cache is warm, that realization isn't free, so we always
+    /// show a spinner on mount and clear the flag once `.task` completes
+    /// — by which point SwiftUI's layout pass for the feed has run
+    /// concurrently with the (possibly no-op) prewarm.
+    @State private var isPreparing: Bool = true
+
     init(channel: Channel) {
         self.channel = channel
         // Sort once, here, so the first body evaluation already has the
@@ -175,15 +185,40 @@ private struct ChannelFeedContent: View {
                     }
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
+            } else if isPreparing {
+                // Mount window. Covers cold-cache HTML parsing (moved
+                // off-main in the `.task` below) *and* the brief beat
+                // where SwiftUI realizes 20 PostCard subtrees eagerly.
+                // The latter happens even on warm cache, so the spinner
+                // is unconditional — the user otherwise sees a stretch
+                // of "stale-feeling" emptiness while layout runs.
+                ProgressView()
+                    .controlSize(.small)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else {
                 feed(posts: posts)
             }
         }
         .task {
-            // `sortedPosts` is already populated by `init` so the first
-            // frame paints the feed directly. The prefetcher just needs
-            // its index built once on mount; it's a bandwidth optimization
-            // for *future* scrolls, so post-render is fine.
+            // Pre-warm the AttributedHTMLBuilder cache off the main
+            // thread before revealing the feed. For cold-cache channels
+            // this avoids ~1–2s of synchronous SwiftSoup parsing on the
+            // main thread when the eager VStack realizes 20 PostCards.
+            // For warm-cache channels the cache check is microseconds
+            // and the loop is essentially a no-op — but we still clear
+            // `isPreparing` from this point so SwiftUI's first-frame
+            // realization of the feed runs while the spinner is shown,
+            // not against an empty viewport.
+            let htmls = sortedPosts.map(\.bodyHTML).filter { !$0.isEmpty }
+            if !htmls.isEmpty {
+                await Task.detached(priority: .userInitiated) {
+                    let builder = AttributedHTMLBuilder()
+                    for html in htmls {
+                        _ = builder.build(from: html)
+                    }
+                }.value
+            }
+            isPreparing = false
             prefetch.setPosts(sortedPosts)
         }
         .onChange(of: channel.posts.count) { oldCount, newCount in
