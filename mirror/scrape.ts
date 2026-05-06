@@ -64,6 +64,13 @@ async function main(): Promise<void> {
         `  ${username.padEnd(20)} ${result.snapshot.posts.length} posts, ` +
           `${result.imagesWritten} new images, ${result.imagesSkipped} cached\n`
       );
+      if (looksLikeDeadHandle(result.snapshot, username)) {
+        process.stderr.write(
+          `  ${"".padEnd(20)} WARN ${username} appears unresolved on Telegram ` +
+            `(no title, no subscribers, no posts) — handle may have been ` +
+            `renamed, deleted, or banned. Verify and update channels.json.\n`
+        );
+      }
       // Be polite to t.me — we share an IP with whoever else is on this
       // GH runner, and Telegram throttles aggressive scrapers.
       await sleep(750 + Math.floor(Math.random() * 750));
@@ -210,6 +217,22 @@ function countMedia(snap: Snapshot): number {
   let n = 0;
   for (const p of snap.posts) n += p.media.length;
   return n;
+}
+
+/**
+ * t.me serves a 200 OK splash for any /<username> — including ones that don't
+ * resolve to a real channel. The parser falls back to the raw username for
+ * the title in that case, and finds no subscriber count or posts. This trio
+ * together is a strong signal the handle is dead (renamed/deleted/banned),
+ * not just a quiet channel: a real channel always has at least a title and
+ * a member count, even with zero posts.
+ */
+function looksLikeDeadHandle(snap: Snapshot, username: string): boolean {
+  return (
+    snap.channel.title.toLowerCase() === username.toLowerCase() &&
+    snap.channel.subscriber_count === null &&
+    snap.posts.length === 0
+  );
 }
 
 function sleep(ms: number): Promise<void> {
