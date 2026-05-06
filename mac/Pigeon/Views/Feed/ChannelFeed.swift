@@ -177,8 +177,6 @@ struct ChannelFeed: View {
                                     }
                                 }
                         }
-
-                        Color.clear.frame(height: 32)
                     }
                     .padding(.horizontal, 32)
                     .padding(.vertical, 24)
