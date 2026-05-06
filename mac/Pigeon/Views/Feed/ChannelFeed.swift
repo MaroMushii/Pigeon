@@ -152,6 +152,19 @@ private struct ChannelFeedContent: View {
     /// concurrently with the (possibly no-op) prewarm.
     @State private var isPreparing: Bool = true
 
+    /// Id of the post above which the "Unread messages" divider is drawn.
+    /// Captured once at mount from the *current* `isRead` state and never
+    /// recomputed for the lifetime of this channel view — otherwise the
+    /// divider would slide downward in real time as posts crossed the
+    /// dwell threshold and `markRead` flipped them. The point of the
+    /// divider is "where you were when you opened this channel," so it
+    /// has to be a frozen session marker. Suppressed when every loaded
+    /// post is unread (no anchor to draw above) so a brand-new channel
+    /// or a long mute window doesn't paint a divider above the topmost
+    /// row. The `.id(channel.persistentModelID)` on the parent guarantees
+    /// this `@State` is fresh on every channel visit.
+    @State private var firstUnreadID: String?
+
     init(channel: Channel) {
         self.channel = channel
         // Sort once, here, so the first body evaluation already has the
@@ -162,6 +175,13 @@ private struct ChannelFeedContent: View {
             ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast)
         }
         _sortedPosts = State(initialValue: sorted)
+        // Snapshot the unread boundary at mount. Only meaningful when
+        // there is at least one read post above the first unread one —
+        // otherwise the divider would render above the very first row
+        // and read as decoration, not a "you read up to here" signal.
+        let firstUnread = sorted.first { !$0.isRead }?.id
+        let hasReadPost = sorted.contains { $0.isRead }
+        _firstUnreadID = State(initialValue: hasReadPost ? firstUnread : nil)
     }
 
     var body: some View {
@@ -276,6 +296,9 @@ private struct ChannelFeedContent: View {
                     // `ScrollPosition.edge` only updates after explicit
                     // programmatic scrolls.
                     ForEach(posts, id: \.id) { post in
+                        if post.id == firstUnreadID {
+                            UnreadDivider()
+                        }
                         PostCard(post: post)
                             .onScrollVisibilityChange(threshold: 0.1) { visible in
                                 if visible {
@@ -559,6 +582,37 @@ private struct FeedEmptyState: View {
                 .controlSize(.regular)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+}
+
+/// Inline "Unread messages" rule, drawn above the first post the user
+/// hadn't read when this channel was opened. Position is frozen for the
+/// session by `ChannelFeedContent.firstUnreadID` — the divider stays put
+/// even after the dwell-driven `markRead` cascade flips its anchor post
+/// to read, so scrolling up after a channel switch reliably surfaces
+/// "this is where I was."
+private struct UnreadDivider: View {
+    var body: some View {
+        HStack(spacing: 10) {
+            rule
+            Text("Unread messages")
+                .font(.system(size: 10, weight: .semibold))
+                .tracking(0.6)
+                .textCase(.uppercase)
+                .foregroundStyle(.secondary)
+                .lineLimit(1)
+                .fixedSize(horizontal: true, vertical: false)
+            rule
+        }
+        .padding(.vertical, 2)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("Unread messages below")
+    }
+
+    private var rule: some View {
+        Rectangle()
+            .fill(.separator)
+            .frame(height: 1)
     }
 }
 
