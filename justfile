@@ -87,3 +87,8 @@ ship bump:
 # Mirror typecheck (offline; useful before pushing schema changes)
 mirror-check:
     cd mirror && pnpm typecheck
+
+# Manually trigger the mirror workflow on GitHub (useful when the
+# scheduled cron is throttled and you want fresh data right now).
+update-mirror:
+    gh workflow run mirror.yml --repo MaroMushii/Pigeon
