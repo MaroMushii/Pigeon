@@ -1,46 +1,90 @@
 ---
-description: Draft a user-facing changelog and ship a new Pigeon release
+description: Draft a user-facing changelog for the latest release and apply it once the workflow is green
 allowed-tools: Bash, Read, Write, Edit
-argument-hint: "[patch|minor|major]"
 ---
 
-You are the release engineer for Pigeon. Your job is to draft a polished,
-user-facing changelog and drive the release end-to-end via `just ship`.
+You are the release engineer for Pigeon. The user has already run
+`just ship` (or is in the middle of doing so) — your job is to wait for
+the resulting workflow to finish, **prepare the changelog while it
+runs**, and replace the placeholder release notes with the polished
+version once the build is green.
+
+You do **not** run `just ship`. You do **not** push tags. You only read
+git history, draft notes, watch the workflow, and edit the release.
 
 # Steps
 
-## 1. Gather commits since the last tag
+## 1. Find the latest tag
 
 ```sh
-last_tag="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -1)"
-git log "$last_tag"..HEAD --no-merges --format='%h%x09%s'
+latest_tag="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -1)"
+prev_tag="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | sed -n '2p')"
 ```
 
-If a commit's subject doesn't tell the full story, read its body:
+Refresh remote tags first so a freshly-pushed tag shows up locally:
 
 ```sh
-git log "$last_tag"..HEAD --no-merges --format='%h%n%s%n%n%b%n---'
+git fetch --tags --quiet origin
 ```
 
-## 2. Draft the changelog
+If `latest_tag` is empty, stop — there are no releases to apply notes to.
 
-Only include commits that an **end user** would care about. Filter rules:
+If `latest_tag` is not present on `origin`, the user hasn't completed
+`just ship` (the y/N push prompt is still pending or was aborted):
 
-- **Include:** `feat:`, `fix:`, `perf:` (and `revert:` of any of these)
-- **Skip silently:** `chore:`, `docs:`, `style:`, `test:`, `ci:`, `refactor:`,
-  `build:`. These don't move users — keep them out of release notes even if
-  the diff is large.
+```sh
+git ls-remote --tags origin "refs/tags/$latest_tag" >/dev/null 2>&1 \
+  || { echo "Latest tag $latest_tag not on origin yet — has \`just ship\` finished?" >&2; exit 1; }
+```
+
+In that case, ask the user whether to wait for them to complete the
+push, or to bail.
+
+## 2. Locate the release workflow run
+
+```sh
+run_id="$(gh run list --repo MaroMushii/Pigeon --workflow release.yml \
+  --limit 5 --json databaseId,headBranch \
+  --jq ".[] | select(.headBranch == \"$latest_tag\") | .databaseId" \
+  | head -1)"
+```
+
+If empty, the tag push hasn't propagated to GitHub yet. Sleep 10s and
+retry up to 3 times before giving up. If still empty after retries,
+surface and stop — the user can re-run `/release` in a moment.
+
+## 3. Draft the changelog (do this while the workflow is running)
+
+Get the commits in this release:
+
+```sh
+git log "$prev_tag".."$latest_tag" --no-merges --format='%h%x09%s'
+```
+
+If a commit's subject is too terse, peek at its body:
+
+```sh
+git log "$prev_tag".."$latest_tag" --no-merges --format='%h%n%s%n%n%b%n---'
+```
+
+Filter rules — only include what an **end user** can perceive:
+
+- **Include:** `feat:`, `fix:`, `perf:` (and reverts of those).
+- **Skip silently:** `chore:`, `docs:`, `style:`, `test:`, `ci:`,
+  `refactor:`, `build:`. These don't move users — never surface them in
+  release notes, even if the diff is large.
 
 For each included commit:
 
 - Strip the conventional prefix (`feat(mac):` → `…`).
-- Rewrite the subject as a short, user-facing one-liner. Imperative mood,
-  sentence case, no trailing period.
-- Append the scope as a parenthetical only if it's `(mac)` or `(mirror)` —
-  drop `(ci)` since user-visible CI changes are rare and confusing in a
-  changelog.
+- Rewrite the subject as a short, user-facing one-liner. Imperative
+  mood, sentence case, no trailing period.
+- Append the scope as a parenthetical only if it's `(mac)` or
+  `(mirror)` — drop `(ci)` since CI changes shouldn't surface in a
+  user-facing changelog at all (the filter above should already exclude
+  them; this is a belt-and-suspenders rule).
 
-Group into sections — omit any section that's empty:
+Section order (omit any section that's empty):
 
 ```markdown
 ### New features
@@ -53,38 +97,46 @@ Group into sections — omit any section that's empty:
 - Switch feed to LazyVStack to handle 100-post retention _(mac)_
 ```
 
-## 3. Show the draft + ask for the bump
+If the filter leaves zero entries, the release is internal-only — show
+the user a single line saying "No user-facing changes in $latest_tag —
+internal/tooling release. Apply empty notes anyway?" and let them
+decide.
 
-Print the draft to the user as plain markdown. Then ask two things:
+## 4. Show the draft + iterate
 
-1. "Any edits to the changelog?"
-2. "Bump kind: patch / minor / major?"
+Print the draft. Ask: "Any edits?" If they ask for changes, apply them
+and reprint. Don't proceed to step 5 until they explicitly approve.
 
-If `$ARGUMENTS` already contains a bump kind (`patch`/`minor`/`major`), use
-that and only ask about edits.
+This step is intentionally where time is spent — the workflow is
+running concurrently, so review here is "free."
 
-Iterate on the changelog until the user is happy. Don't proceed to step 4
-until they explicitly approve.
-
-## 4. Compute the next version
+## 5. Wait for the workflow to finish
 
 ```sh
-last="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -1)"
-IFS=. read -r major minor patch <<<"${last#v}"
-# bump major/minor/patch per the user's choice (mirror what justfile does)
-next="X.Y.Z"
+gh run watch "$run_id" --repo MaroMushii/Pigeon --exit-status --interval 30
 ```
 
-This must match `justfile`'s ship recipe exactly — if they diverge, the file
-you write and the tag `just ship` creates will refer to different versions.
+If the run already finished while the user was reviewing, this returns
+immediately with the final status.
 
-## 5. Write the full release body to a temp file
-
-The body is the polished changelog **plus** the installation/verification
-block. Save it under `mac/dist/` (already gitignored):
+If the run failed (`gh run watch --exit-status` exits non-zero), **stop
+here.** Don't apply notes to a broken release. Surface the failure with:
 
 ```sh
-notes_file="mac/dist/release-notes-v$next.md"
+gh run view "$run_id" --repo MaroMushii/Pigeon --log-failed
+```
+
+…and let the user decide whether to retag or investigate.
+
+## 6. Apply the polished notes
+
+Compose the full body — the changelog from step 3 plus the standard
+installation/verification block. Write to a temp file under
+`mac/dist/` (gitignored):
+
+```sh
+version="${latest_tag#v}"
+notes_file="mac/dist/release-notes-$latest_tag.md"
 ```
 
 Body shape:
@@ -105,9 +157,9 @@ Body shape:
 
 Download `Pigeon-<version>.dmg` (or the `.zip`) below.
 
-This build is **ad-hoc signed**, so on first launch macOS will refuse to
-open it ("can't be opened, developer cannot be verified"). To clear the
-quarantine flag:
+This build is **ad-hoc signed**, so on first launch macOS will refuse
+to open it ("can't be opened, developer cannot be verified"). To clear
+the quarantine flag:
 
 ```sh
 xattr -cr /Applications/Pigeon.app
@@ -118,7 +170,7 @@ dialog. You only need to do this once.
 
 ### Requirements
 
-- macOS 26 (Tahoma) or later
+- macOS 26 (Tahoe) or later
 - Apple Silicon or Intel
 
 ### Verifying the download
@@ -130,57 +182,23 @@ shasum -a 256 -c SHA256SUMS.txt
 ```
 ```
 
-Substitute `<version>` with the actual `$next` everywhere.
+Substitute `<version>` with `$version` (no leading `v`) everywhere.
 
-## 6. Run `just ship <bump>`
-
-```sh
-just ship <bump>
-```
-
-This recipe runs its own dry-run (showing the commits that will ship) and
-prompts the user with `Push v$next now? [y/N]`. **Do not** try to bypass
-that prompt — it's the safety rail for an irreversible action. The user
-either confirms or aborts.
-
-If the user aborts, stop. Don't clean up the notes file — they may want to
-re-run.
-
-## 7. Watch the release workflow
-
-After the tag is pushed, the `release.yml` workflow runs on `macos-26`
-(takes ~10–15 min). Locate it and watch:
+Apply:
 
 ```sh
-sleep 5
-run_id="$(gh run list --workflow release.yml --limit 1 \
-  --json databaseId,headBranch,event \
-  --jq '.[0].databaseId')"
-gh run watch "$run_id" --exit-status
+gh release edit "$latest_tag" --repo MaroMushii/Pigeon \
+  --notes-file "$notes_file"
 ```
 
-If the workflow fails, **do not** edit the release notes. Surface the
-failure and stop. The user will fix the build, re-tag (likely after
-deleting the failed tag), and re-run `/release`.
-
-## 8. Replace the release notes
-
-Once the workflow succeeds, GitHub already has a release at `v$next` with
-the workflow's basic notes. Overwrite the body with the polished version:
+Print the release URL:
 
 ```sh
-gh release edit "v$next" --notes-file "$notes_file"
+gh release view "$latest_tag" --repo MaroMushii/Pigeon \
+  --json url --jq .url
 ```
 
-Print the release URL so the user can verify:
-
-```sh
-gh release view "v$next" --json url --jq .url
-```
-
-## 9. Cleanup
-
-Delete the temp notes file:
+## 7. Cleanup
 
 ```sh
 trash "$notes_file"
@@ -190,17 +208,17 @@ trash "$notes_file"
 
 # Hard rules
 
-- **Never** auto-confirm the `Push v$next now?` prompt. The user types `y`,
-  not you.
-- **Never** run `git push --force`, `git reset --hard`, or
-  `gh release delete` to "fix" a stuck release. If something is wrong, ask
-  the user.
-- **Never** edit the release notes if the build workflow failed — failed
-  releases should not look polished.
-- If `just ship` fails its own preconditions (dirty tree, not on `main`,
-  out of sync with origin, tag exists), surface the exact error message
-  and stop. Don't try to "fix" the precondition silently.
-- Skip commit categories that don't matter to users (`chore`, `docs`,
-  `style`, `test`, `ci`, `refactor`, `build`) even when the user asks
-  what's in the release. Show them only in the *internal* draft if asked,
-  never in the published release notes.
+- **Never** run `just ship` from this command. The user owns that.
+- **Never** create or push git tags. The user owns that too.
+- **Never** apply notes to a failed workflow run. Failed releases stay
+  with their default notes so they look obviously broken.
+- **Never** run `gh release delete`, `git push --force`, or
+  `git reset --hard` to "fix" a stuck release. Ask the user.
+- **Never** include `chore:`, `docs:`, `style:`, `test:`, `ci:`,
+  `refactor:`, or `build:` commits in published release notes — even if
+  the user asks "what changed?", show those only in an internal
+  draft, never in the body that lands on GitHub.
+- If `latest_tag` and the previous release notes look identical (i.e.
+  someone already ran `/release` for this tag), it's safe to re-apply —
+  the operation is idempotent — but mention it so the user isn't
+  surprised by the no-op edit.
