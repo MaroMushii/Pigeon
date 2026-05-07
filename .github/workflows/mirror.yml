@@ -66,7 +66,7 @@ jobs:
             echo "no changes — skipping commit"
             exit 0
           fi
-          git config user.email "noreply@MaroMushii.dev"
+          git config user.email "282584007+MaroMushii@users.noreply.github.com"
           git config user.name "pigeon-mirror[bot]"
           STAMP="$(date -u +%Y-%m-%dT%H:%MZ)"
           CHANGES="$(git diff --staged --name-only | wc -l | tr -d ' ')"
