@@ -47,14 +47,42 @@ reveal:
 clean: kill
     -trash ~/Library/Developer/Xcode/DerivedData/Pigeon-*
 
-# Build release artifacts into mac/dist and reveal the .dmg in Finder. Does NOT push a tag.
-package version:
-    mac/scripts/build.sh --version {{version}}
-    open -R mac/dist/Pigeon-{{version}}.dmg
+# Build release artifacts into mac/dist using the current version (latest v*.*.* tag) and reveal the .dmg in Finder. Does NOT push a tag.
+package:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    version="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -1 | sed 's/^v//')"
+    [[ -n "$version" ]] || { echo "package: no v*.*.* tag found — run 'just ship patch|minor|major' first" >&2; exit 1; }
+    echo "==> packaging current version: $version"
+    mac/scripts/build.sh --version "$version"
+    open -R "mac/dist/Pigeon-$version.dmg"
 
-# Create + push a release tag (triggers .github/workflows/release.yml)
-ship version:
-    mac/scripts/release.sh --version {{version}} --push
+# Bump version (patch|minor|major) from the latest tag, then create + push the new tag (triggers .github/workflows/release.yml)
+ship bump:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    case "{{bump}}" in
+      patch|minor|major) ;;
+      *) echo "ship: bump must be one of: patch, minor, major (got '{{bump}}')" >&2; exit 2 ;;
+    esac
+    last="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -1)"
+    [[ -n "$last" ]] || { echo "ship: no existing v*.*.* tag to bump from — push v0.1.0 manually first" >&2; exit 1; }
+    IFS=. read -r major minor patch <<<"${last#v}"
+    case "{{bump}}" in
+      major) major=$((major + 1)); minor=0; patch=0 ;;
+      minor) minor=$((minor + 1)); patch=0 ;;
+      patch) patch=$((patch + 1)) ;;
+    esac
+    next="$major.$minor.$patch"
+    echo "==> bumping {{bump}}: $last → v$next"
+    echo
+    mac/scripts/release.sh --version "$next"
+    read -r -p "Push v$next now? [y/N] " reply
+    case "$reply" in
+      y|Y|yes|YES) ;;
+      *) echo "ship: aborted." >&2; exit 1 ;;
+    esac
+    mac/scripts/release.sh --version "$next" --push
 
 # Mirror typecheck (offline; useful before pushing schema changes)
 mirror-check:
