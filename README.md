@@ -93,7 +93,7 @@ client — Pigeon borrowed the Google-Translate proxy idea and the
 Telegram widget DOM selectors as starting points, and rebuilt
 everything else as a native macOS app.
 
-MIT licensed.
+Licensed under the [WTFPL](LICENSE) — do what the fuck you want.
 
 ---
 
