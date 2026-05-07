@@ -2,10 +2,15 @@ name: mirror
 
 on:
   schedule:
-    # Every 5 minutes is the lower bound GitHub honours for cron triggers.
-    # Real-world delivery slips by 5–15 min during platform load — fine
-    # for our content cadence (Telegram channels post a few times/day).
+    # Two staggered crons (offset by 2 min) to raise the firing floor.
+    # GitHub deprioritizes and coalesces scheduled workflows under
+    # platform load, so a single */5 schedule routinely delivers every
+    # 30–60 min in practice. Submitting two schedules increases the
+    # chance one slips through. Safe against overlap because the
+    # `concurrency: mirror` group below queues duplicate runs instead
+    # of racing on `git push` to the export branch.
     - cron: "*/5 * * * *"
+    - cron: "2-59/5 * * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
