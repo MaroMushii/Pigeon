@@ -23,7 +23,14 @@
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parseChannelPage } from "./parser.js";
-import type { IndexDoc, IndexEntry, PostDTO, Snapshot } from "./schema.js";
+import type {
+  HealthDoc,
+  HealthFailure,
+  IndexDoc,
+  IndexEntry,
+  PostDTO,
+  Snapshot,
+} from "./schema.js";
 import { SCHEMA_VERSION } from "./schema.js";
 
 interface ChannelsManifest {
@@ -65,6 +72,7 @@ async function main(): Promise<void> {
   );
 
   const fresh = new Map<string, Snapshot>();
+  const failures: HealthFailure[] = [];
 
   for (const username of channels) {
     try {
@@ -86,11 +94,14 @@ async function main(): Promise<void> {
       // GH runner, and Telegram throttles aggressive scrapers.
       await sleep(750 + Math.floor(Math.random() * 750));
     } catch (e) {
-      process.stderr.write(`  ${username}: failed — ${(e as Error).message}\n`);
+      const message = (e as Error).message;
+      process.stderr.write(`  ${username}: failed — ${message}\n`);
+      failures.push({ username, error: message });
     }
   }
 
   rebuildIndex(exportRoot, channels, fresh);
+  writeHealth(exportRoot, fresh.size, failures);
 }
 
 async function scrapeChannel(
@@ -247,6 +258,34 @@ function countMedia(snap: Snapshot): number {
   let n = 0;
   for (const p of snap.posts) n += p.media.length;
   return n;
+}
+
+/**
+ * Persist sweep outcomes to `health.json` at the export tree root. Always
+ * written, even on a fully-failed sweep — a stale `health.json` would be
+ * worse than an honest one announcing widespread failure.
+ *
+ * `succeeded` is the count of channels that wrote a fresh snapshot this
+ * run; channels we didn't touch (e.g. removed from the manifest) are not
+ * counted on either side. `failures` carries one entry per thrown error
+ * inside the per-channel loop.
+ */
+function writeHealth(
+  exportRoot: string,
+  succeeded: number,
+  failed: HealthFailure[]
+): void {
+  const doc: HealthDoc = {
+    schema: SCHEMA_VERSION,
+    generated_at: new Date().toISOString(),
+    succeeded,
+    failed,
+  };
+  const path = join(exportRoot, "health.json");
+  writeFileSync(path, JSON.stringify(doc, null, 2) + "\n");
+  process.stderr.write(
+    `health: ${succeeded} ok, ${failed.length} failed @ ${doc.generated_at}\n`
+  );
 }
 
 /**

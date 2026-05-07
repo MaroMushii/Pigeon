@@ -80,3 +80,25 @@ export interface IndexEntry {
   media_count: number;
   snapshot_path: string; // "channels/<u>/snapshot.json"
 }
+
+/**
+ * Top-level health document at `health.json`. Written at the end of every
+ * sweep — even if every channel failed — so Pigeon can distinguish "mirror
+ * is fine, you're just offline" from "mirror itself is degraded."
+ *
+ * `generated_at` is the sweep finish time (UTC ISO 8601). `succeeded` and
+ * `failed` partition the channels attempted on this run; channels not in
+ * the manifest are simply absent. `failed[].error` is a short, single-line
+ * message suitable for surfacing to users (e.g. "HTTP 502", "timeout").
+ */
+export interface HealthDoc {
+  schema: typeof SCHEMA_VERSION;
+  generated_at: string;
+  succeeded: number;
+  failed: HealthFailure[];
+}
+
+export interface HealthFailure {
+  username: string;
+  error: string;
+}
