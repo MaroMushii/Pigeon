@@ -140,7 +140,7 @@ just mirror-check    # mirror typecheck (offline)
 
 ### macOS app — manual path
 
-Requires Xcode 26 + macOS 26 (Tahoma) + xcodegen.
+Requires Xcode 26 + macOS 26 (Tahoe) + xcodegen.
 
 ```sh
 brew install xcodegen

@@ -22,7 +22,7 @@ never talks to Telegram directly.
 
 Grab the latest `Pigeon-X.Y.Z.dmg` from the
 [**Releases**](https://github.com/MaroMushii/Pigeon/releases) page, drag
-the app to `/Applications`, and you're done. Requires macOS 26 (Tahoma).
+the app to `/Applications`, and you're done. Requires macOS 26 (Tahoe).
 
 The DMG is ad-hoc signed, so on first launch macOS will refuse with
 *"can't be opened, developer cannot be verified"*. Clear the quarantine
