@@ -165,6 +165,28 @@ actor TelegramClient {
         }
     }
 
+    /// Fetch the mirror's `health.json` — a tiny document the scraper
+    /// writes at the end of every sweep. Reports how many channels
+    /// succeeded/failed and when the sweep finished. Used by the sidebar
+    /// to surface "mirror updated N min ago" backed by the actual sweep
+    /// time rather than the user's local last-fetch heuristic.
+    ///
+    /// No conditional GET (the file is ~hundreds of bytes), no proxy
+    /// (raw.githubusercontent.com is reachable). Throws `.invalidResponse`
+    /// for any non-200 — including 404 in the brief window before the
+    /// first sweep ever lands the file.
+    func fetchMirrorHealth(baseURL: URL) async throws -> MirrorHealth {
+        let url = baseURL.appending(path: "health.json")
+        var req = URLRequest(url: url)
+        req.setValue(UserAgents.random(), forHTTPHeaderField: "User-Agent")
+        req.cachePolicy = .reloadIgnoringLocalCacheData
+        let (data, response) = try await session.data(for: req)
+        guard let http = response as? HTTPURLResponse, http.statusCode == 200 else {
+            throw FetchError.invalidResponse
+        }
+        return try MirrorHealthDecoder().decode(data)
+    }
+
     // MARK: - Private
 
     private func rateLimit() async throws {

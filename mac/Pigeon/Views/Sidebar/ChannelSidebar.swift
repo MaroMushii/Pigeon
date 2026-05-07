@@ -72,6 +72,7 @@ struct ChannelSidebar: View {
                 .safeAreaInset(edge: .bottom, spacing: 0) {
                     SidebarFooter(
                         schemaOutdated: service?.schemaOutdated ?? false,
+                        mirrorHealth: service?.mirrorHealth,
                         freshestMirrorFetch: freshestMirrorFetch
                     )
                 }
@@ -207,23 +208,33 @@ private struct ChannelRow: View {
 ///    a banner nudges the user to update; the app keeps working.
 ///
 /// 2. **Mirror-staleness footer.** Shows "mirror updated N min ago" using
-///    the freshest `lastFetchedAt` across mirror-sourced channels. This is
-///    a *proxy* — a single freshly-refreshed channel can hide the fact
-///    that everything else is hours stale. Good enough for v1; if it
-///    becomes misleading we'd need per-channel decoration.
+///    the sweep finish time from `health.json` when available — that's
+///    the *actual* GitHub Actions sweep timestamp, regardless of whether
+///    this app has been open. Falls back to the freshest local
+///    `lastFetchedAt` across mirror-sourced channels for the brief window
+///    after install before health has been fetched. When the latest sweep
+///    reported any per-channel failures, appends a small "(N failed)"
+///    suffix so silent partial degradations are visible.
 ///
 /// Refresh ticks once a minute via a `TimelineView` so the relative-time
 /// label stays current without a manual re-render.
 private struct SidebarFooter: View {
     let schemaOutdated: Bool
+    let mirrorHealth: MirrorHealth?
     let freshestMirrorFetch: Date?
+
+    /// Prefer the sweep timestamp from `health.json` when we have one;
+    /// fall back to the local last-fetch heuristic otherwise.
+    private var stalenessTimestamp: Date? {
+        mirrorHealth?.generatedAt ?? freshestMirrorFetch
+    }
 
     var body: some View {
         VStack(spacing: 6) {
             if schemaOutdated {
                 schemaSkewBanner
             }
-            if freshestMirrorFetch != nil {
+            if stalenessTimestamp != nil {
                 stalenessFooter
             }
         }
@@ -250,9 +261,10 @@ private struct SidebarFooter: View {
     @ViewBuilder
     private var stalenessFooter: some View {
         TimelineView(.periodic(from: .now, by: 60)) { context in
-            if let last = freshestMirrorFetch {
+            if let last = stalenessTimestamp {
                 let age = context.date.timeIntervalSince(last)
-                Text("mirror updated \(relativeLabel(for: last, now: context.date))")
+                let failureCount = mirrorHealth?.failures.count ?? 0
+                Text(footerLabel(last: last, now: context.date, failureCount: failureCount))
                     .font(.footnote)
                     .foregroundStyle(age > 30 * 60 ? AnyShapeStyle(.red) : AnyShapeStyle(.secondary))
                     .padding(.horizontal, 10)
@@ -261,6 +273,13 @@ private struct SidebarFooter: View {
                     .frame(maxWidth: .infinity, alignment: .center)
             }
         }
+    }
+
+    private func footerLabel(last: Date, now: Date, failureCount: Int) -> String {
+        let base = "mirror updated \(relativeLabel(for: last, now: now))"
+        guard failureCount > 0 else { return base }
+        let noun = failureCount == 1 ? "channel" : "channels"
+        return "\(base) · \(failureCount) \(noun) failed"
     }
 
     private func relativeLabel(for date: Date, now: Date) -> String {

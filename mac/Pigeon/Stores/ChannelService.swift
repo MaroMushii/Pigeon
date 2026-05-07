@@ -60,6 +60,14 @@ final class ChannelService {
     /// case a server-side rollback resolves the skew.
     private(set) var schemaOutdated: Bool = false
 
+    /// Latest `health.json` snapshot from the mirror — sweep finish time
+    /// plus per-channel failure list. Refreshed on init and on every
+    /// auto-refresh tick. Nil before the first successful fetch (e.g.
+    /// during the brief window after install before the network is up).
+    /// Sidebar's staleness footer reads this in preference to the
+    /// per-channel `lastFetchedAt` heuristic.
+    private(set) var mirrorHealth: MirrorHealth?
+
     /// Cached unread-post count across all channels. Mirrors what the dock
     /// badge displays. Maintained incrementally on `markRead` and
     /// recomputed authoritatively on add/refresh/remove. Reading SwiftData
@@ -79,6 +87,7 @@ final class ChannelService {
         self.context = context
         self.unreadCount = Self.recomputeUnreadCount(in: context)
         startAutoRefreshLoop()
+        Task { await self.refreshMirrorHealth() }
     }
 
     deinit {
@@ -578,6 +587,8 @@ final class ChannelService {
     }
 
     private func tickAutoRefresh() async {
+        await refreshMirrorHealth()
+
         let descriptor = FetchDescriptor<Channel>()
         guard let channels = try? context.fetch(descriptor) else { return }
 
@@ -596,6 +607,22 @@ final class ChannelService {
             // loop deliberately swallows the throw so one bad channel can't
             // stall the others.
             _ = try? await refresh(channel)
+        }
+    }
+
+    /// Fetch `health.json` and replace `mirrorHealth` on success. A failure
+    /// (network blip, 404 in the brief window before the first sweep ever
+    /// runs, schema skew) leaves the previous value untouched — better to
+    /// show a slightly stale stamp than to flicker the footer back to
+    /// "never". The sidebar's staleness colouring already turns red past
+    /// 30 min, which is the real signal a user needs.
+    private func refreshMirrorHealth() async {
+        do {
+            mirrorHealth = try await client.fetchMirrorHealth(
+                baseURL: SettingsStore.defaultMirrorBaseURL
+            )
+        } catch {
+            // Intentionally silent — health is decorative, not load-bearing.
         }
     }
 }
