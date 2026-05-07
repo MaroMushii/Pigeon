@@ -1,0 +1,19 @@
+{
+  "name": "pigeon-mirror-dispatcher",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Cloudflare Worker that pings GitHub workflow_dispatch on cron, replacing GitHub Actions' unreliable scheduled triggers.",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail",
+    "secret:set": "wrangler secret put GITHUB_TOKEN",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "latest",
+    "typescript": "latest",
+    "wrangler": "latest"
+  }
+}

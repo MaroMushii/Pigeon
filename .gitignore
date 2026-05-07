@@ -14,10 +14,14 @@
 # (commands, agents, settings) are intentionally tracked.
 .claude/worktrees/
 
-# Node (mirror/)
+# Node (mirror/, cf-dispatcher/)
 node_modules/
 *.log
 npm-debug.log*
+
+# Cloudflare Workers local state (cf-dispatcher/)
+.wrangler/
+.dev.vars
 
 # Stale Electron-era artifacts at repo root (kept ignored to prevent
 # accidental re-add). Subdirectories — mac/, mirror/ — keep their own.

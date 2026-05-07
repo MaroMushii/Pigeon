@@ -6,15 +6,24 @@ Project-level guidance for Claude when working in this repo. Read first.
 
 **Pigeon** is a native macOS reader for Telegram public channels, built
 to keep working on heavily filtered networks (Iran-grade DPI, DNS
-poisoning). The repo is two cooperating pieces:
+poisoning). The repo is three cooperating pieces:
 
 ```
-mac/      — Pigeon, SwiftUI macOS 26 client (Swift 6, strict concurrency)
-mirror/   — pigeon-mirror, a Node scraper run by GitHub Actions
-            (.github/workflows/mirror.yml) every ~5 min. Fetches t.me
-            from a GH-hosted runner (outside Iran), writes per-channel
-            snapshots + image binaries into a checkout of the `export`
-            branch, then `git push`es the diff.
+mac/             — Pigeon, SwiftUI macOS 26 client (Swift 6, strict
+                   concurrency)
+mirror/          — pigeon-mirror, a Node scraper run by GitHub Actions
+                   (.github/workflows/mirror.yml) every ~5 min. Fetches
+                   t.me from a GH-hosted runner (outside Iran), writes
+                   per-channel snapshots + image binaries into a
+                   checkout of the `export` branch, then `git push`es
+                   the diff.
+cf-dispatcher/   — tiny Cloudflare Worker that fires every 5 min on a
+                   CF cron trigger and POSTs to GitHub's
+                   workflow_dispatch endpoint to kick mirror.yml.
+                   Exists because GitHub Actions' free-tier scheduled
+                   workflows fire at ~6% of the configured rate; CF
+                   crons hit their slot reliably. Worker does one HTTP
+                   POST and exits — no scraping, no image bytes.
 ```
 
 Pigeon reads channel data from
@@ -23,13 +32,21 @@ as its primary path, and falls back to a pinned-IP HTTPS request to
 `t-me.translate.goog` (Google Translate's domain-translate proxy) when
 a channel isn't in the mirror manifest yet.
 
-We migrated **away from a Cloudflare Worker** (the original design)
-because the free plan's 10 ms CPU cap can't process even one
-base64-encoded image upload per cron tick, and `git push` from a CI
-runner is dramatically simpler than the GitHub Contents API. Don't
-reintroduce the Worker without a strong reason — there is no PAT,
-wrangler config, or CF dashboard to manage anymore, and that's a
-feature.
+We migrated **away from a Cloudflare Worker as the data plane** (the
+original design) because the free plan's 10 ms CPU cap can't process
+even one base64-encoded image upload per cron tick, and `git push`
+from a CI runner is dramatically simpler than the GitHub Contents API.
+Don't put scraping, image fetching, or any per-channel work back in
+CF — that cap will still bite.
+
+The exception is `cf-dispatcher/`, a scheduler-only Worker added after
+measuring that GH-side scheduled workflows on the free tier fire at
+~6% of the configured rate (median gap 42 min on a `*/5` schedule).
+The dispatcher does **one outbound POST per tick** to GitHub's
+workflow_dispatch endpoint and nothing else; CPU per invocation is
+sub-millisecond, well under the cap. It owns one secret — a
+fine-grained PAT (`Actions: read+write` on `MaroMushii/Pigeon` only),
+stored as a `wrangler secret`, never in the repo.
 
 `README.md` has the full architectural pitch — read it once for
 context before suggesting structural changes.
@@ -98,7 +115,12 @@ through `TelegramURLRewriter.rewrite(...)`.
 ### Mirror scrape loop (GH Actions, every ~5 min)
 
 ```
-cron fires ──▶ runner checks out main into ./src and export into ./out
+CF cron (*/5) ──▶ cf-dispatcher Worker ──▶ POST workflow_dispatch ─┐
+                                                                   ├─▶ mirror.yml runs
+GH cron (lazy, ~6% throughput) ────────────────────────────────────┘
+                                          │
+                                          ▼
+              runner checks out main into ./src and export into ./out
            ──▶ cd src/mirror && pnpm exec tsx scrape.ts ../../out channels.json
                  for each channel:
                    GET t.me/s/<u>
@@ -119,7 +141,13 @@ cron fires ──▶ runner checks out main into ./src and export into ./out
 ```
 
 The scraper has **no secrets**. The workflow's `GITHUB_TOKEN` is the
-only auth — no PAT, no wrangler, no CF API token, nothing to manage.
+only auth — no PAT, no CF API token in the workflow itself.
+
+The `cf-dispatcher/` Worker does own one secret (a fine-grained PAT
+that lets it call `workflow_dispatch`), held in CF's encrypted env via
+`wrangler secret put GITHUB_TOKEN`. That secret never lands in the
+repo or any config file. Rotation: re-run `wrangler secret put`; the
+Worker picks up the new value on the next tick.
 
 ## Build & dev
 

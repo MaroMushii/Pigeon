@@ -1,0 +1,22 @@
+name = "pigeon-mirror-dispatcher"
+main = "src/worker.ts"
+compatibility_date = "2026-01-01"
+
+# Cron-only Worker — no public HTTP surface. The Worker exports
+# scheduled() but no fetch(), so HTTP routes would 500 anyway; locking
+# them off explicitly silences wrangler warnings on every deploy and
+# closes a tiny reconnaissance leak (the *.workers.dev hostname
+# advertises that this Worker exists).
+workers_dev = false
+preview_urls = false
+
+# Every 5 min — same cadence the mirror.yml `*/5` schedule was supposed
+# to deliver. CF crons fire reliably (within seconds of the slot) so
+# this becomes the floor, and any GH-side scheduled run is bonus.
+[triggers]
+crons = ["*/5 * * * *"]
+
+# Workers Logs surface scheduled() console output and uncaught throws,
+# making it trivial to spot a 401 (rotated PAT) or 422 (workflow renamed).
+[observability]
+enabled = true
