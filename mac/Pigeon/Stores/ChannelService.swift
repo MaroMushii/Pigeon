@@ -220,6 +220,7 @@ final class ChannelService {
     /// Sequential to keep SwiftData mutations on the main actor — the
     /// per-call `await` still releases the actor across the network hop.
     func refreshAll() async {
+        await refreshMirrorHealth()
         let descriptor = FetchDescriptor<Channel>()
         guard let channels = try? context.fetch(descriptor) else { return }
         for channel in channels {
