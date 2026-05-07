@@ -46,6 +46,18 @@ command -v xcodegen >/dev/null || {
   exit 1
 }
 
+command -v create-dmg >/dev/null || {
+  echo "build.sh: create-dmg not found (brew install create-dmg)" >&2
+  exit 1
+}
+
+DMG_BG="$MAC_DIR/assets/dmg/background.png"
+[[ -f "$DMG_BG" ]] || {
+  echo "build.sh: DMG background missing at <$DMG_BG>" >&2
+  echo "  expected: mac/assets/dmg/background.png (512x512) + background@2x.png (1024x1024)" >&2
+  exit 1
+}
+
 cd "$MAC_DIR"
 
 echo "==> regenerating Xcode project"
@@ -111,15 +123,27 @@ echo "==> packaging .zip"
 ditto -c -k --keepParent "$OUTPUT/Pigeon.app" "$OUTPUT/Pigeon-$VERSION.zip"
 
 echo "==> packaging .dmg"
+# 512x512 painted-background install window. Icon coords are tuned to land
+# inside the painted wells in mac/assets/dmg/background@2x.png — re-export
+# the BG and they'll need re-tuning. The drop link is supplied by create-dmg
+# itself, so the staging dir holds only the .app.
 DMG_STAGE="$(mktemp -d -t pigeon-dmg)"
 trap 'rm -rf "$DMG_STAGE"' EXIT
 cp -R "$OUTPUT/Pigeon.app" "$DMG_STAGE/"
-ln -s /Applications "$DMG_STAGE/Applications"
-hdiutil create \
-  -volname "Pigeon $VERSION" \
-  -srcfolder "$DMG_STAGE" \
-  -ov -format UDZO \
-  "$OUTPUT/Pigeon-$VERSION.dmg" >/dev/null
+
+create-dmg \
+  --volname "Pigeon $VERSION" \
+  --background "$DMG_BG" \
+  --window-pos 200 120 \
+  --window-size 512 512 \
+  --icon-size 96 \
+  --text-size 12 \
+  --icon "Pigeon.app" 256 144 \
+  --hide-extension "Pigeon.app" \
+  --app-drop-link 256 334 \
+  --no-internet-enable \
+  "$OUTPUT/Pigeon-$VERSION.dmg" \
+  "$DMG_STAGE" >/dev/null
 
 echo "==> done"
 ls -lh "$OUTPUT"
