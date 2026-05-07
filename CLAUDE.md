@@ -311,14 +311,17 @@ In rough priority order if the user asks "what's next?":
    (works, but slower and more fragile than the mirror). A "Suggest
    this channel for the mirror" action that opens a pre-filled GitHub
    PR would close the loop without giving Pigeon any write capability.
-2. **Notifications on new posts** for tracked channels. Needs a
-   background refresh actor, dedup against last-seen IDs,
-   `UNUserNotificationCenter` plumbing, per-channel mute. Largest
-   piece on the list.
-3. **Mirror robustness:** retry/backoff per channel in
-   `mirror/scrape.ts` so one flaky `t.me/s/<u>` doesn't poison the
-   whole sweep, plus a `mirror/health.json` Pigeon could surface
-   ("last successful sweep: 6 min ago").
+2. **Mirror retry/backoff** in `mirror/scrape.ts` so one flaky
+   `t.me/s/<u>` doesn't repeatedly fail across consecutive sweeps. Low
+   priority — the 5-min cron is already a coarse retry, and `health.json`
+   now surfaces persistent failures so they're at least visible.
+
+**Explicitly out of scope:** notifications on new posts (banners,
+sounds, `UNUserNotificationCenter`). The dock-icon unread badge —
+maintained by `ChannelService.updateDockBadge()` from a cached
+`unreadCount` — is the deliberate substitute. Don't propose
+notifications as a next feature; if a user request implicitly assumes
+them, push back and reach for the badge or sidebar-row treatment first.
 
 When in doubt about what to work on, **ask** — don't guess from this
 list. Items shipped before this rewrite (search, settings, app icon,
