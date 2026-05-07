@@ -235,17 +235,14 @@ private struct ChannelFeedContent: View {
                     }
                 }.value
             }
-            // Force first-paint to the newest post. `LazyVStack`'s
-            // pre-realization size estimate isn't accurate enough for
-            // `.defaultScrollAnchor(.bottom)` to land cleanly on its
-            // own — it parks "near" the bottom, then content grows
-            // underneath. Driving the scroll explicitly converges
-            // layout in a single pass.
-            if let lastID = sortedPosts.last?.id {
-                scrollPosition.scrollTo(id: lastID, anchor: .bottom)
-            }
             isPreparing = false
             prefetch.setPosts(sortedPosts)
+            // Initial scroll target is set in `feed(posts:)`'s `.task`,
+            // not here: this `.task` runs while `isPreparing == true`
+            // (the `ProgressView` branch), so the `ScrollView` doesn't
+            // exist yet and `scrollPosition.scrollTo` has nothing to
+            // bind to. Calling it from the feed view's own `.task`
+            // guarantees the binding is live before we ask it to move.
         }
         .onChange(of: channel.posts.count) { oldCount, newCount in
             recomputeSortedPosts()
@@ -364,6 +361,22 @@ private struct ChannelFeedContent: View {
             }
         }
         .animation(.easeInOut(duration: 0.2), value: unseenCount > 0)
+        .task {
+            // Mount-time scroll target. Runs once the `ScrollView` is in
+            // the view tree (this `.task` is on the feed itself, not on
+            // the outer `Group` whose `.task` fires while the spinner is
+            // still showing). Prefer the unread boundary so the user
+            // lands where they left off; fall back to the newest post
+            // when there's nothing unread to anchor against. `.center`
+            // over `.top` because the divider renders above the post in
+            // the same `ForEach` row — a top anchor would push the
+            // divider above the viewport and defeat the visual signal.
+            if let unreadID = firstUnreadID {
+                scrollPosition.scrollTo(id: unreadID, anchor: .center)
+            } else if let lastID = sortedPosts.last?.id {
+                scrollPosition.scrollTo(id: lastID, anchor: .bottom)
+            }
+        }
     }
 
     /// Scroll to the newest post via id-based targeting. `scrollTo(edge:)`
