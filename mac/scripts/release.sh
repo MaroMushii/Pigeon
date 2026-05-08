@@ -81,9 +81,17 @@ fi
 if [[ "$LOCAL_HEAD" != "$REMOTE_HEAD" ]]; then
   AHEAD="$(git rev-list --count "$REMOTE/main"..HEAD)"
   BEHIND="$(git rev-list --count HEAD.."$REMOTE/main")"
-  echo "release.sh: local main is not in sync with $REMOTE/main (ahead $AHEAD, behind $BEHIND)" >&2
-  echo "  Push or pull first, then re-run." >&2
-  exit 1
+  if [[ "$BEHIND" -gt 0 ]]; then
+    echo "release.sh: local main is behind $REMOTE/main by $BEHIND commit(s) — pull first" >&2
+    exit 1
+  fi
+  if [[ "$DO_PUSH" -ne 1 ]]; then
+    echo "release.sh: local main is $AHEAD commit(s) ahead of $REMOTE/main" >&2
+    echo "  Pass --push to auto-push commits, or push manually first." >&2
+    exit 1
+  fi
+  echo "Pushing $AHEAD unpublished commit(s) to $REMOTE/main..."
+  git push "$REMOTE" main
 fi
 
 if git rev-parse "refs/tags/$TAG" >/dev/null 2>&1; then
