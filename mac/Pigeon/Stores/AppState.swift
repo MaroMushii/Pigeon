@@ -9,6 +9,7 @@ import SwiftData
 final class AppState {
     var selectedChannelID: PersistentIdentifier?
     var presentedSheet: PresentedSheet?
+    var scrollToLatestToken: UUID?
 
     enum PresentedSheet: Identifiable {
         case addChannel

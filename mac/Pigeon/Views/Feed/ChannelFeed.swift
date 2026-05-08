@@ -24,7 +24,7 @@ struct ChannelFeed: View {
                 // previous channel bleed into the next one and fight
                 // with `.defaultScrollAnchor(.bottom)`, producing the
                 // jumpy "scroll lands somewhere weird" behavior.
-                ChannelFeedContent(channel: channel)
+                ChannelFeedContent(channel: channel, scrollToLatestToken: appState.scrollToLatestToken)
                     .id(channel.persistentModelID)
             } else {
                 FeedEmptyState {
@@ -101,6 +101,7 @@ struct ChannelFeed: View {
 /// frame, and produces visible jumpiness.
 private struct ChannelFeedContent: View {
     let channel: Channel
+    let scrollToLatestToken: UUID?
 
     @Environment(\.channelService) private var service
 
@@ -165,8 +166,9 @@ private struct ChannelFeedContent: View {
     /// this `@State` is fresh on every channel visit.
     @State private var firstUnreadID: String?
 
-    init(channel: Channel) {
+    init(channel: Channel, scrollToLatestToken: UUID?) {
         self.channel = channel
+        self.scrollToLatestToken = scrollToLatestToken
         // Sort once, here, so the first body evaluation already has the
         // final array. Touching `channel.posts` faults the SwiftData
         // relationship — fast for in-memory cached channels, which is
@@ -243,6 +245,11 @@ private struct ChannelFeedContent: View {
             // exist yet and `scrollPosition.scrollTo` has nothing to
             // bind to. Calling it from the feed view's own `.task`
             // guarantees the binding is live before we ask it to move.
+        }
+        .onChange(of: scrollToLatestToken) { _, _ in
+            guard !isPreparing else { return }
+            scrollToLatest(animated: true)
+            unseenCount = 0
         }
         .onChange(of: channel.posts.count) { oldCount, newCount in
             recomputeSortedPosts()

@@ -38,6 +38,17 @@ struct ChannelSidebar: View {
                             isMuted: channel.isMuted
                         )
                         .tag(channel.persistentModelID)
+                        .overlay {
+                            if appState.selectedChannelID == channel.persistentModelID {
+                                Button {
+                                    appState.scrollToLatestToken = UUID()
+                                } label: {
+                                    Color.clear.contentShape(Rectangle())
+                                }
+                                .buttonStyle(.plain)
+                                .accessibilityHidden(true)
+                            }
+                        }
                         .contextMenu {
                             Button("Refresh") {
                                 if let service {
