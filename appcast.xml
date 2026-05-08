@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Pigeon</title>
+        <link>https://github.com/MaroMushii/Pigeon</link>
+        <description>Pigeon release feed</description>
+        <language>en</language>
+        <!-- Entries are prepended here by mac/scripts/update-appcast.sh on each release. -->
+        <item>
+            <title>1.1.1</title>
+            <pubDate>Fri, 08 May 2026 20:19:02 +0000</pubDate>
+            <link>https://github.com/MaroMushii/Pigeon</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/MaroMushii/Pigeon/releases/download/v1.1.1/Pigeon-1.1.1.dmg" length="11003242" type="application/octet-stream" sparkle:edSignature="6EVcdp+q2EFIHTtHJjXTQ1nVZy5KaSFjWdFr3yJ0jMXnGopRsuv4aN1WoO+kStupFaFXdmLY29aeAcrhQLTRCQ=="/>
+        </item>
+    </channel>
+</rss>
