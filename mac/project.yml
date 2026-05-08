@@ -15,6 +15,9 @@ packages:
   Nuke:
     url: https://github.com/kean/Nuke.git
     from: 12.8.0
+  Sparkle:
+    url: https://github.com/sparkle-project/Sparkle
+    from: 2.9.1
 
 settings:
   base:
@@ -36,6 +39,8 @@ targets:
         product: Nuke
       - package: Nuke
         product: NukeUI
+      - package: Sparkle
+        product: Sparkle
     info:
       path: Pigeon/Resources/Info.plist
       properties:
@@ -45,6 +50,9 @@ targets:
         LSApplicationCategoryType: public.app-category.social-networking
         NSHumanReadableCopyright: "Pigeon. A native Telegram channel reader."
         NSPrincipalClass: NSApplication
+        SUFeedURL: "https://raw.githubusercontent.com/MaroMushii/Pigeon/main/appcast.xml"
+        SUPublicEDKey: "KaC3IdC3ViUMPWuxN+RDobm8R1JTPmCY0lMRjLWgYAE="
+        SUEnableAutomaticChecks: true
         NSAppTransportSecurity:
           NSAllowsArbitraryLoads: YES
     entitlements:

@@ -143,3 +143,24 @@ jobs:
               --target "${{ github.sha }}" \
               "${ASSETS[@]}"
           fi
+
+      - name: Update appcast
+        env:
+          SPARKLE_PRIVATE_KEY: ${{ secrets.SPARKLE_PRIVATE_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ steps.ver.outputs.version }}"
+
+          SPARKLE_VERSION="2.9.1"
+          SPARKLE_DIR="$(mktemp -d)"
+          curl -fsSL "https://github.com/sparkle-project/Sparkle/releases/download/${SPARKLE_VERSION}/Sparkle-${SPARKLE_VERSION}.tar.xz" \
+            | tar -xJ -C "$SPARKLE_DIR"
+
+          mac/scripts/update-appcast.sh "$SPARKLE_DIR/bin" "$VERSION" "mac/dist/Pigeon-$VERSION.dmg"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add appcast.xml
+          git diff --cached --quiet && echo "appcast unchanged, skipping commit" && exit 0
+          git commit -m "chore(release): update appcast.xml for v${VERSION}"
+          git push origin HEAD:main
