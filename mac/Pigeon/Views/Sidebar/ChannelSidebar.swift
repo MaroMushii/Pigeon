@@ -10,15 +10,7 @@ struct ChannelSidebar: View {
     @Environment(AppState.self) private var appState
     @Environment(\.channelService) private var service
 
-    /// Freshest mirror-sourced fetch timestamp across all channels. Used
-    /// as a proxy for "how stale is the mirror?" — see comments in the
-    /// footer view for the caveats.
-    private var freshestMirrorFetch: Date? {
-        channels
-            .filter { $0.fetchSource == .mirror }
-            .compactMap(\.lastFetchedAt)
-            .max()
-    }
+    @State private var freshestMirrorFetch: Date?
 
     var body: some View {
         @Bindable var appState = appState
@@ -97,6 +89,12 @@ struct ChannelSidebar: View {
                !service.isFresh(channel) {
                 Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
             }
+        }
+        .onChange(of: channels, initial: true) { _, newValue in
+            freshestMirrorFetch = newValue
+                .filter { $0.fetchSource == .mirror }
+                .compactMap(\.lastFetchedAt)
+                .max()
         }
     }
 

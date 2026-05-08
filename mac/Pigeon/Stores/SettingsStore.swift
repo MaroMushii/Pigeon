@@ -46,14 +46,14 @@ final class SettingsStore {
     /// How long a cached channel is considered fresh before it's auto
     /// re-fetched on selection. Clamped to `cacheTTLRange` on write.
     var cacheTTLMinutes: Int {
+        get { _cacheTTLMinutes }
+        set { _cacheTTLMinutes = Self.cacheTTLRange.clamp(newValue) }
+    }
+
+    private var _cacheTTLMinutes: Int {
         didSet {
-            let clamped = Self.cacheTTLRange.clamp(cacheTTLMinutes)
-            if clamped != cacheTTLMinutes {
-                cacheTTLMinutes = clamped
-                return
-            }
-            guard cacheTTLMinutes != oldValue else { return }
-            defaults.set(cacheTTLMinutes, forKey: Key.cacheTTLMinutes)
+            guard _cacheTTLMinutes != oldValue else { return }
+            defaults.set(_cacheTTLMinutes, forKey: Key.cacheTTLMinutes)
         }
     }
 
@@ -75,7 +75,7 @@ final class SettingsStore {
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
         let storedTTL = defaults.object(forKey: Key.cacheTTLMinutes) as? Int
-        self.cacheTTLMinutes = Self.cacheTTLRange.clamp(
+        self._cacheTTLMinutes = Self.cacheTTLRange.clamp(
             storedTTL ?? Self.defaultCacheTTLMinutes
         )
         let storedLevel = defaults.string(forKey: Key.logLevel)

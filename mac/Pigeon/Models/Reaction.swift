@@ -7,7 +7,7 @@ struct ReactionSnapshot: Hashable, Sendable {
 }
 
 @Model
-final class Reaction {
+final class Reaction: Identifiable {
     var emoji: String
     var count: String
     var post: Post?

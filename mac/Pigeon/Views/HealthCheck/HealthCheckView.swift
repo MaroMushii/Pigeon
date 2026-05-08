@@ -31,11 +31,9 @@ struct HealthCheckView: View {
 
     private var resultsList: some View {
         VStack(spacing: 0) {
-            ForEach(results) { result in
+            ForEach(Array(results.enumerated()), id: \.element.id) { index, result in
+                if index > 0 { Divider().padding(.leading, 52) }
                 EndpointRow(result: result)
-                if result.id != results.last?.id {
-                    Divider().padding(.leading, 52)
-                }
             }
         }
     }

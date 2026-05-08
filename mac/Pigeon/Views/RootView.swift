@@ -12,6 +12,7 @@ struct RootView: View {
 
     @State private var sidebarSearch: String = ""
     @State private var isHoveringRefresh = false
+    @State private var filteredChannels: [Channel] = []
 
     var body: some View {
         @Bindable var appState = appState
@@ -106,11 +107,17 @@ struct RootView: View {
                     .frame(minWidth: 380, minHeight: 240)
             }
         }
+        .onChange(of: channels, initial: true) { _, _ in
+            rebuildFilteredChannels()
+        }
+        .onChange(of: sidebarSearch) { _, _ in
+            rebuildFilteredChannels()
+        }
     }
 
     // MARK: - Derived
 
-    private var filteredChannels: [Channel] {
+    private func rebuildFilteredChannels() {
         let base: [Channel]
         if sidebarSearch.isEmpty {
             base = channels
@@ -120,11 +127,7 @@ struct RootView: View {
                 $0.displayName.lowercased().contains(q) || $0.username.contains(q)
             }
         }
-        // Sort by latest post (descending) so channels with new activity
-        // bubble to the top — Telegram-style recency. Channels with no
-        // posts yet (just-added, mid-first-fetch) fall back to `addedAt`
-        // so they don't sink past channels with stale content.
-        return base.sorted { lhs, rhs in
+        filteredChannels = base.sorted { lhs, rhs in
             let l = lhs.lastPostAt ?? lhs.addedAt
             let r = rhs.lastPostAt ?? rhs.addedAt
             return l > r

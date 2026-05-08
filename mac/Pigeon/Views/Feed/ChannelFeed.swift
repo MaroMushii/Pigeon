@@ -17,13 +17,6 @@ struct ChannelFeed: View {
     var body: some View {
         Group {
             if let channel {
-                // `.id(channel.persistentModelID)` rebuilds the entire
-                // per-channel subtree — and crucially its `@State` —
-                // on every channel switch. Without this, scroll
-                // position, prefetch state, and `unseenCount` from the
-                // previous channel bleed into the next one and fight
-                // with `.defaultScrollAnchor(.bottom)`, producing the
-                // jumpy "scroll lands somewhere weird" behavior.
                 ChannelFeedContent(channel: channel, scrollToLatestToken: appState.scrollToLatestToken)
                     .id(channel.persistentModelID)
             } else {
@@ -96,9 +89,7 @@ struct ChannelFeed: View {
 /// destroy and recreate the entire subtree — including all `@State` —
 /// on channel switch. Without this split, scroll position, prefetch
 /// window, `isAtBottom`, and `unseenCount` are owned by the parent and
-/// leak across channels: opening a new channel inherits the previous
-/// channel's offset, fights with `.defaultScrollAnchor(.bottom)` for one
-/// frame, and produces visible jumpiness.
+/// leak across channels.
 private struct ChannelFeedContent: View {
     let channel: Channel
     let scrollToLatestToken: UUID?
@@ -126,10 +117,6 @@ private struct ChannelFeedContent: View {
     /// controller's internals are invisible to SwiftUI.
     @State private var prefetch = FeedPrefetchController()
 
-    /// Programmatic scroll handle for jump-to-latest taps and new-post
-    /// auto-follow. Initial bottom alignment is handled by
-    /// `.defaultScrollAnchor(.bottom)` against the eagerly-laid-out
-    /// `VStack` — no init pre-arming required.
     @State private var scrollPosition = ScrollPosition()
 
     /// Whether the newest post (last index) is currently visible. Tracked
@@ -270,26 +257,6 @@ private struct ChannelFeedContent: View {
     private func feed(posts: [Post]) -> some View {
         ZStack(alignment: .bottomTrailing) {
             ScrollView {
-                // `LazyVStack`, not eager `VStack`. The mirror retains
-                // up to 100 posts per channel (commit 3c0aa9d), and
-                // realizing all of them up front means 100 PostCards
-                // each installing an `onScrollVisibilityChange`
-                // observer, spinning up a `.task`, allocating a
-                // horizontal reaction ScrollView, and laying out media
-                // — all on every channel mount. That cost dominated
-                // scroll work and produced visible jitter on fling.
-                // The historical reasons we used eager VStack — album
-                // height jumps from a geometry-read race, and
-                // attributed-text height jumps from cold-cache HTML
-                // parses — have since been fixed independently:
-                // `AlbumLayout` (Layout protocol) reports correct
-                // heights synchronously, and `AttributedHTMLBuilder`
-                // seeds row height from cache on first frame. Initial
-                // bottom alignment is handled by an explicit
-                // `scrollTo(id: lastID, anchor: .bottom)` fired once
-                // mount completes (see `.task` below) — which is more
-                // reliable than `.defaultScrollAnchor(.bottom)` against
-                // a lazy stack's pre-realization size estimate.
                 LazyVStack(alignment: .leading, spacing: 16) {
                     // Row identity is `post.id` (a unique String) so new
                     // posts arriving at the last index from auto-refresh
@@ -327,12 +294,6 @@ private struct ChannelFeedContent: View {
                 .frame(maxWidth: 680)
                 .frame(maxWidth: .infinity, alignment: .center)
             }
-            // Bottom-anchored: initial render lands on the newest post,
-            // and content-size changes (new posts appended, window
-            // resize) keep the bottom edge pinned. User scrolling is
-            // unaffected — the anchor only governs size-change and
-            // initial-alignment scenarios.
-            .defaultScrollAnchor(.bottom)
             .scrollPosition($scrollPosition)
             // Soft fade at the top edge: posts that scroll up *behind*
             // the Liquid Glass header dissolve into the glass surface

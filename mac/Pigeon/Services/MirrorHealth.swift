@@ -58,10 +58,24 @@ struct MirrorHealthDecoder {
         let error: String
     }
 
+    nonisolated(unsafe) private static let fractionalISO: ISO8601DateFormatter = {
+        let f = ISO8601DateFormatter()
+        f.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        return f
+    }()
+
+    nonisolated(unsafe) private static let plainISO: ISO8601DateFormatter = {
+        let f = ISO8601DateFormatter()
+        f.formatOptions = [.withInternetDateTime]
+        return f
+    }()
+
+    private static let decoder = JSONDecoder()
+
     func decode(_ data: Data) throws -> MirrorHealth {
         let doc: Doc
         do {
-            doc = try JSONDecoder().decode(Doc.self, from: data)
+            doc = try Self.decoder.decode(Doc.self, from: data)
         } catch {
             throw DecodeError.invalidJSON(underlying: error)
         }
@@ -73,13 +87,8 @@ struct MirrorHealthDecoder {
             )
         }
 
-        let formatter = ISO8601DateFormatter()
-        formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        let altFormatter = ISO8601DateFormatter()
-        altFormatter.formatOptions = [.withInternetDateTime]
-
-        guard let generatedAt = formatter.date(from: doc.generated_at)
-            ?? altFormatter.date(from: doc.generated_at) else {
+        guard let generatedAt = Self.fractionalISO.date(from: doc.generated_at)
+            ?? Self.plainISO.date(from: doc.generated_at) else {
             throw DecodeError.invalidTimestamp(doc.generated_at)
         }
 

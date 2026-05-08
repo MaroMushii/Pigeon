@@ -1,6 +1,8 @@
 import Foundation
 
 enum ChannelIdentifier {
+    nonisolated(unsafe) private static let usernameRegex = /[a-z][a-z0-9_]{3,30}[a-z0-9]/
+
     /// Normalises any of these forms to a lowercase username:
     ///   - "ircfspace"
     ///   - "@ircfspace"
@@ -33,9 +35,7 @@ enum ChannelIdentifier {
             working = String(working[..<q])
         }
 
-        // Telegram usernames: 5-32 chars, [a-z0-9_], must start with a letter.
-        let pattern = #"^[a-z][a-z0-9_]{3,30}[a-z0-9]$"#
-        guard working.range(of: pattern, options: .regularExpression) != nil else {
+        guard working.wholeMatch(of: Self.usernameRegex) != nil else {
             return nil
         }
         return working

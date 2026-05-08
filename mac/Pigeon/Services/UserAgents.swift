@@ -11,6 +11,7 @@ enum UserAgents {
     ]
 
     static func random() -> String {
-        pool.randomElement() ?? pool[0]
+        pool[Int.random(in: pool.indices)]
     }
 }
+

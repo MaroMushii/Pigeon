@@ -97,7 +97,7 @@ struct AppEnvironment {
         let container = try! ModelContainer(for: schema, configurations: configuration)
         let settings = SettingsStore()
         let client = TelegramClient()
-        let service = ChannelService(client: client, context: container.mainContext)
+        let service = ChannelService(client: client, context: container.mainContext, settings: settings)
         let searchStore = SearchStore(context: container.mainContext)
         self.container = container
         self.client = client

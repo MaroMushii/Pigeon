@@ -192,12 +192,14 @@ actor TelegramClient {
     // MARK: - Private
 
     private func rateLimit() async throws {
-        let elapsed = Date.now.timeIntervalSince(lastRequestAt)
-        if elapsed < minRequestInterval {
-            let wait = minRequestInterval - elapsed
-            try await Task.sleep(for: .seconds(wait))
+        let now = Date.now
+        let nextAllowed = lastRequestAt.addingTimeInterval(minRequestInterval)
+        if nextAllowed > now {
+            lastRequestAt = nextAllowed
+            try await Task.sleep(for: .seconds(nextAllowed.timeIntervalSince(now)))
+        } else {
+            lastRequestAt = now
         }
-        lastRequestAt = .now
     }
 
     private func fetchPinned(username: String, method: ProxyMethod) async throws -> String {
@@ -236,3 +238,4 @@ actor TelegramClient {
         }
     }
 }
+

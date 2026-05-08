@@ -81,7 +81,14 @@ struct HTMLPostParser {
     private func parsePosts(_ doc: Document, channelUsername: String) throws -> [PostSnapshot] {
         let wraps = try doc.select(".tgme_widget_message_wrap")
         return wraps.array().compactMap { wrap in
-            try? parsePost(wrap, channelUsername: channelUsername)
+            do {
+                return try parsePost(wrap, channelUsername: channelUsername)
+            } catch {
+                #if DEBUG
+                print("[HTMLPostParser] dropped post: \(error)")
+                #endif
+                return nil
+            }
         }
     }
 
@@ -101,7 +108,7 @@ struct HTMLPostParser {
 
         let textEl = try wrap.select(".tgme_widget_message_text").first()
         let bodyHTML = (try? textEl?.html()) ?? ""
-        let plain = plainText(fromHTML: bodyHTML)
+        let plain = textEl.map { plainText(from: $0) } ?? ""
 
         let media = parseMedia(in: wrap)
         let reactions = parseReactions(in: wrap)
@@ -211,35 +218,40 @@ struct HTMLPostParser {
         }
     }
 
+    nonisolated(unsafe) private static let reactionCountRegex = /(?:[\d.]+\s*[KM]?)\s*$/
+
     private static func extractReactionCount(from text: String) -> String {
-        if let range = text.range(of: #"([\d.]+\s*[KM]?)\s*$"#, options: .regularExpression) {
-            let match = text[range].trimmingCharacters(in: .whitespaces)
-            if !match.isEmpty { return match }
+        if let match = text.firstMatch(of: reactionCountRegex) {
+            let result = String(match.output).trimmingCharacters(in: .whitespaces)
+            if !result.isEmpty { return result }
         }
         return "0"
     }
 
-    /// Strip HTML to plain text while preserving `<br>` as `\n`. SwiftSoup's
-    /// `.text()` aggressively normalises whitespace, so a literal `\n`
-    /// injected before parsing gets collapsed to a space. We substitute a
-    /// non-whitespace marker (U+2063 INVISIBLE SEPARATOR) that survives
-    /// normalisation, then convert it back. The TS twin avoids this dance
-    /// because cheerio's `.text()` doesn't normalise as aggressively.
-    private func plainText(fromHTML html: String) -> String {
-        let marker = "\u{2063}"
-        let withMarkers = html.replacingOccurrences(
-            of: #"<br\s*/?>"#,
-            with: marker,
-            options: .regularExpression
-        )
-        let raw = (try? SwiftSoup.parse(withMarkers).text()) ?? ""
-        return raw
-            .replacingOccurrences(of: marker, with: "\n")
-            // Collapse runs of whitespace around newlines and consecutive
-            // newlines into single newlines.
-            .replacingOccurrences(of: #"[ \t]*\n[ \t]*"#, with: "\n", options: .regularExpression)
-            .replacingOccurrences(of: #"\n{2,}"#, with: "\n", options: .regularExpression)
+    nonisolated(unsafe) private static let whitespaceAroundNewlineRegex = /[ \t]*\n[ \t]*/
+    nonisolated(unsafe) private static let consecutiveNewlinesRegex = /\n{2,}/
+
+    private func plainText(from element: Element) -> String {
+        extractText(from: element)
+            .replacing(Self.whitespaceAroundNewlineRegex, with: "\n")
+            .replacing(Self.consecutiveNewlinesRegex, with: "\n")
             .trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+
+    private func extractText(from element: Element) -> String {
+        var result = ""
+        for node in element.childNodesCopy() {
+            if let text = node as? TextNode {
+                result += text.getWholeText()
+            } else if let el = node as? Element {
+                if el.tagName() == "br" {
+                    result += "\n"
+                } else {
+                    result += extractText(from: el)
+                }
+            }
+        }
+        return result
     }
 
     // ISO8601DateFormatter is documented thread-safe by Apple but not marked
@@ -256,28 +268,17 @@ struct HTMLPostParser {
         return f
     }()
 
+    nonisolated(unsafe) private static let backgroundImageURLRegex = /url\(['"]?(?<url>[^'"\)]+)['"]?\)/
+    nonisolated(unsafe) private static let aspectRatioRegex = /padding-top:\s*(?<pct>[0-9.]+)%/
+
     private func backgroundImageURL(from style: String) -> URL? {
-        guard let range = style.range(of: #"url\(['"]?([^'"\)]+)['"]?\)"#, options: .regularExpression) else {
-            return nil
-        }
-        let match = String(style[range])
-        let trimmed = match
-            .replacingOccurrences(of: "url(", with: "")
-            .replacingOccurrences(of: ")", with: "")
-            .replacingOccurrences(of: "'", with: "")
-            .replacingOccurrences(of: "\"", with: "")
-        return URL(string: trimmed)
+        guard let match = style.firstMatch(of: Self.backgroundImageURLRegex) else { return nil }
+        return URL(string: String(match.url))
     }
 
     private func aspectRatio(from style: String) -> Double? {
-        // padding-top: 56.25% is a common width:height encoding.
-        if let range = style.range(of: #"padding-top:\s*([0-9.]+)%"#, options: .regularExpression) {
-            let match = String(style[range])
-            let digits = match.filter { "0123456789.".contains($0) }
-            if let pct = Double(digits), pct > 0 {
-                return 100.0 / pct
-            }
-        }
-        return nil
+        guard let match = style.firstMatch(of: Self.aspectRatioRegex),
+              let pct = Double(match.pct), pct > 0 else { return nil }
+        return 100.0 / pct
     }
 }

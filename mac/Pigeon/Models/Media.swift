@@ -16,7 +16,7 @@ struct MediaSnapshot: Hashable, Sendable {
 }
 
 @Model
-final class Media {
+final class Media: Identifiable {
     /// Stored as the snapshot's raw string; `kind` exposes the enum form.
     var kindRaw: String
     var assetURL: URL?

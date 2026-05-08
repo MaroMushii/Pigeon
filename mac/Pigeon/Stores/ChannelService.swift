@@ -35,10 +35,6 @@ final class ChannelService {
         let at: Date
     }
 
-    /// 15-minute freshness window before a channel auto-refetches on
-    /// selection. Manual refresh (⌘R) always bypasses this.
-    static let freshnessTTL: TimeInterval = 60 * 15
-
     /// How often the auto-refresh loop wakes and re-evaluates which
     /// channels are due. Each channel has its own per-source interval
     /// (see `FetchSource.refreshInterval`); this is just the polling
@@ -79,13 +75,15 @@ final class ChannelService {
     @ObservationIgnored private let parser = HTMLPostParser()
     @ObservationIgnored private let jsonDecoder = JSONFeedDecoder()
     @ObservationIgnored private let context: ModelContext
+    @ObservationIgnored private let settings: SettingsStore
     @ObservationIgnored private var autoRefreshTask: Task<Void, Never>?
     @ObservationIgnored private var refreshAllTask: Task<Void, Never>?
     @ObservationIgnored private let defaults: UserDefaults = .standard
 
-    init(client: TelegramClient, context: ModelContext) {
+    init(client: TelegramClient, context: ModelContext, settings: SettingsStore) {
         self.client = client
         self.context = context
+        self.settings = settings
         self.unreadCount = Self.recomputeUnreadCount(in: context)
         startAutoRefreshLoop()
         Task { await self.refreshMirrorHealth() }
@@ -146,8 +144,11 @@ final class ChannelService {
         // for content they explicitly chose to subscribe to.
         upsertPosts(result.posts, into: channel, markNewAsRead: true)
         try context.save()
-        unreadCount = Self.recomputeUnreadCount(in: context)
-        updateDockBadge()
+        let freshCountAfterAdd = Self.recomputeUnreadCount(in: context)
+        if freshCountAfterAdd != unreadCount {
+            unreadCount = freshCountAfterAdd
+            updateDockBadge()
+        }
         return channel
     }
 
@@ -189,8 +190,11 @@ final class ChannelService {
                 channel.lastFetchSource = source.rawValue
                 upsertPosts(result.posts, into: channel)
                 try context.save()
-                unreadCount = Self.recomputeUnreadCount(in: context)
-                updateDockBadge()
+                let freshCountAfterRefresh = Self.recomputeUnreadCount(in: context)
+                if freshCountAfterRefresh != unreadCount {
+                    unreadCount = freshCountAfterRefresh
+                    updateDockBadge()
+                }
                 lastError = nil
                 return channel.posts
             }
@@ -246,13 +250,16 @@ final class ChannelService {
         clearMirrorValidators(username: channel.username)
         context.delete(channel)
         try? context.save()
-        unreadCount = Self.recomputeUnreadCount(in: context)
-        updateDockBadge()
+        let freshCountAfterRemove = Self.recomputeUnreadCount(in: context)
+        if freshCountAfterRemove != unreadCount {
+            unreadCount = freshCountAfterRemove
+            updateDockBadge()
+        }
     }
 
     func isFresh(_ channel: Channel) -> Bool {
         guard let last = channel.lastFetchedAt else { return false }
-        return Date.now.timeIntervalSince(last) < Self.freshnessTTL
+        return Date.now.timeIntervalSince(last) < settings.cacheTTL
     }
 
     // MARK: - Upsert
@@ -399,8 +406,11 @@ final class ChannelService {
         guard channel.isMuted != muted else { return }
         channel.isMuted = muted
         try? context.save()
-        unreadCount = Self.recomputeUnreadCount(in: context)
-        updateDockBadge()
+        let freshCountAfterMute = Self.recomputeUnreadCount(in: context)
+        if freshCountAfterMute != unreadCount {
+            unreadCount = freshCountAfterMute
+            updateDockBadge()
+        }
     }
 
     // MARK: - Dock badge
@@ -614,8 +624,8 @@ final class ChannelService {
         autoRefreshTask = Task { [weak self] in
             while !Task.isCancelled {
                 try? await Task.sleep(for: Self.autoRefreshTickInterval)
-                guard !Task.isCancelled else { return }
-                await self?.tickAutoRefresh()
+                guard let self, !Task.isCancelled else { return }
+                await self.tickAutoRefresh()
             }
         }
     }

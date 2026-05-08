@@ -115,8 +115,9 @@ struct PostCard: View {
             // refreshed post arriving at the tail).
             guard attributedBody == nil, !post.bodyHTML.isEmpty else { return }
             let html = post.bodyHTML
+            let builder = Self.attributedBuilder
             let parsed = await Task.detached(priority: .userInitiated) {
-                AttributedHTMLBuilder().build(from: html)
+                builder.build(from: html)
             }.value
             attributedBody = parsed
         }
@@ -179,7 +180,7 @@ struct PostCard: View {
     private var reactionStrip: some View {
         ScrollView(.horizontal) {
             HStack(spacing: 6) {
-                ForEach(post.reactions, id: \.self) { reaction in
+                ForEach(post.reactions) { reaction in
                     HStack(spacing: 4) {
                         Text(reaction.emoji).font(.callout)
                         Text(reaction.count)
@@ -253,7 +254,7 @@ private struct MediaGallery: View {
                 gap: Self.tileGap,
                 maxHeight: Self.maxAlbumHeight
             ) {
-                ForEach(Array(media.enumerated()), id: \.offset) { _, item in
+                ForEach(media) { item in
                     MediaTile(media: item, inAlbum: true)
                 }
             }

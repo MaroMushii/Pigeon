@@ -7,9 +7,7 @@ extension String {
     /// whitespace) are excluded from the ratio so they don't dilute it on
     /// short Farsi posts that happen to contain a hashtag or a URL.
     var dominantWritingDirection: LayoutDirection {
-        var rtl = 0
-        var ltr = 0
-        for scalar in unicodeScalars {
+        let (rtl, ltr) = unicodeScalars.reduce(into: (0, 0)) { counts, scalar in
             switch scalar.value {
             case 0x0590...0x05FF,   // Hebrew
                  0x0600...0x06FF,   // Arabic
@@ -21,16 +19,16 @@ extension String {
                  0xFB1D...0xFB4F,   // Hebrew Presentation Forms
                  0xFB50...0xFDFF,   // Arabic Presentation Forms-A
                  0xFE70...0xFEFF:   // Arabic Presentation Forms-B
-                rtl += 1
+                counts.0 += 1
             case 0x0041...0x005A,   // A–Z
                  0x0061...0x007A,   // a–z
                  0x00C0...0x024F,   // Latin Supplement + Extended-A/B
                  0x0370...0x03FF,   // Greek
                  0x0400...0x052F,   // Cyrillic + Cyrillic Supplement
                  0x1E00...0x1EFF:   // Latin Extended Additional
-                ltr += 1
+                counts.1 += 1
             default:
-                continue
+                break
             }
         }
         let total = rtl + ltr

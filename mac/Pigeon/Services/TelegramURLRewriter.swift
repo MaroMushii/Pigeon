@@ -10,11 +10,10 @@ import Foundation
 enum TelegramURLRewriter {
     /// Hostnames whose responses are rewritten. Anything else is passed
     /// through untouched (e.g., `t.me`, `raw.githubusercontent.com`).
-    private static let proxiedHostSuffixes: [String] = [
-        ".telesco.pe",
-        ".cdn-telegram.org",
-        "telegram.org",
-        "cdn-telegram.org"
+    private static let proxiedHosts: Set<String> = [
+        "telesco.pe",
+        "cdn-telegram.org",
+        "telegram.org"
     ]
 
     static func rewrite(_ url: URL?) -> URL? {
@@ -43,12 +42,11 @@ enum TelegramURLRewriter {
     }
 
     private static func shouldProxy(host: String) -> Bool {
-        proxiedHostSuffixes.contains { suffix in
-            host == suffix || host.hasSuffix(suffix)
-        }
+        proxiedHosts.contains(host) || proxiedHosts.contains { host.hasSuffix(".\($0)") }
     }
 
     static func isProxiedHost(_ host: String) -> Bool {
         host.lowercased().hasSuffix(".translate.goog")
     }
 }
+

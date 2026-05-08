@@ -81,7 +81,7 @@ struct JSONFeedDecoder {
     func decode(_ data: Data, mirrorBaseURL: URL) throws -> HTMLPostParser.ParseResult {
         let env: SnapshotDTO
         do {
-            env = try JSONDecoder().decode(SnapshotDTO.self, from: data)
+            env = try Self.decoder.decode(SnapshotDTO.self, from: data)
         } catch {
             throw DecodeError.invalidJSON(underlying: error)
         }
@@ -101,11 +101,6 @@ struct JSONFeedDecoder {
             subscriberCount: emptyToNil(env.channel.subscriber_count)
         )
 
-        let formatter = ISO8601DateFormatter()
-        formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        let altFormatter = ISO8601DateFormatter()
-        altFormatter.formatOptions = [.withInternetDateTime]
-
         let posts: [PostSnapshot] = env.posts.map { dto in
             let media: [MediaSnapshot] = dto.media.map { m in
                 let kind: MediaSnapshot.Kind = switch m.kind.lowercased() {
@@ -123,7 +118,7 @@ struct JSONFeedDecoder {
             }
 
             let reactions = dto.reactions.map { ReactionSnapshot(emoji: $0.emoji, count: $0.count) }
-            let postedAt = dto.posted_at.flatMap { formatter.date(from: $0) ?? altFormatter.date(from: $0) }
+            let postedAt = dto.posted_at.flatMap { Self.fractionalISO.date(from: $0) ?? Self.plainISO.date(from: $0) }
 
             return PostSnapshot(
                 id: dto.id,
@@ -147,6 +142,20 @@ struct JSONFeedDecoder {
 
         return HTMLPostParser.ParseResult(channel: channel, posts: posts)
     }
+
+    nonisolated(unsafe) private static let fractionalISO: ISO8601DateFormatter = {
+        let f = ISO8601DateFormatter()
+        f.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        return f
+    }()
+
+    nonisolated(unsafe) private static let plainISO: ISO8601DateFormatter = {
+        let f = ISO8601DateFormatter()
+        f.formatOptions = [.withInternetDateTime]
+        return f
+    }()
+
+    private static let decoder = JSONDecoder()
 
     // MARK: - URL resolution
 

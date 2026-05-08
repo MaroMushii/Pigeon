@@ -19,6 +19,7 @@ struct SearchResultsView: View {
     @Environment(AppState.self) private var appState
     @Query(sort: [SortDescriptor(\Channel.username, order: .forward)])
     private var allChannels: [Channel]
+    @State private var channelLookup: [String: Channel] = [:]
 
     var body: some View {
         Group {
@@ -30,6 +31,9 @@ struct SearchResultsView: View {
         }
         .navigationTitle("Search")
         .navigationSubtitle(subtitle)
+        .onChange(of: allChannels, initial: true) { _, newValue in
+            channelLookup = Dictionary(uniqueKeysWithValues: newValue.map { ($0.username.lowercased(), $0) })
+        }
     }
 
     private var subtitle: String {
@@ -38,12 +42,6 @@ struct SearchResultsView: View {
         if isSearching && results.isEmpty { return "Searching…" }
         let count = results.count
         return count == 1 ? "1 match" : "\(count) matches"
-    }
-
-    /// Single pass over `allChannels` keyed by lowercased username, so each
-    /// row is an O(1) dictionary lookup rather than a fetch.
-    private var channelLookup: [String: Channel] {
-        Dictionary(uniqueKeysWithValues: allChannels.map { ($0.username.lowercased(), $0) })
     }
 
     private var resultsList: some View {
@@ -111,6 +109,8 @@ private struct SearchResultRow: View {
     let channel: Channel?
     let query: String
 
+    @State private var cachedSnippet: AttributedString = AttributedString()
+
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
             avatar
@@ -135,7 +135,7 @@ private struct SearchResultRow: View {
                     }
                 }
 
-                Text(highlightedSnippet)
+                Text(cachedSnippet)
                     .font(.system(size: 13))
                     .foregroundStyle(.primary)
                     .lineLimit(3)
@@ -146,6 +146,9 @@ private struct SearchResultRow: View {
         .padding(.vertical, 10)
         .padding(.horizontal, 4)
         .contentShape(.rect)
+        .onChange(of: query, initial: true) { _, newQuery in
+            cachedSnippet = buildSnippet(for: newQuery)
+        }
     }
 
     private var channelLabel: String {
@@ -180,11 +183,7 @@ private struct SearchResultRow: View {
         )
     }
 
-    /// Build a `Text` from an `AttributedString` where every case-insensitive
-    /// occurrence of the query is bolded. We trim a long body to a window
-    /// around the first match so the user actually sees why the post matched
-    /// without having to scroll.
-    private var highlightedSnippet: AttributedString {
+    private func buildSnippet(for query: String) -> AttributedString {
         let trimmedQuery = query.trimmingCharacters(in: .whitespacesAndNewlines)
         let body = post.plainText.replacingOccurrences(of: "\n", with: " ")
         guard !trimmedQuery.isEmpty else {

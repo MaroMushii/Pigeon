@@ -57,6 +57,20 @@ private struct PopularChannelChip: View {
     let displayName: String
     let state: State
     let onTap: () -> Void
+    private let avatarBackground: Color
+
+    init(username: String, displayName: String, state: State, onTap: @escaping () -> Void) {
+        self.username = username
+        self.displayName = displayName
+        self.state = state
+        self.onTap = onTap
+        var hash: UInt32 = 0
+        for byte in username.utf8 {
+            hash = hash &* 31 &+ UInt32(byte)
+        }
+        let hue = Double(hash % 360) / 360.0
+        self.avatarBackground = Color(hue: hue, saturation: 0.55, brightness: 0.65)
+    }
 
     var body: some View {
         Button(action: onTap) {
@@ -92,7 +106,7 @@ private struct PopularChannelChip: View {
                 .clipShape(.circle)
         } else {
             Circle()
-                .fill(initialsBackground)
+                .fill(avatarBackground)
                 .frame(width: 22, height: 22)
                 .overlay(
                     Text(initials)
@@ -147,15 +161,6 @@ private struct PopularChannelChip: View {
             .compactMap { $0.first.map(String.init) }
             .joined()
             .uppercased()
-    }
-
-    private var initialsBackground: Color {
-        var hash: UInt32 = 0
-        for byte in username.utf8 {
-            hash = hash &* 31 &+ UInt32(byte)
-        }
-        let hue = Double(hash % 360) / 360.0
-        return Color(hue: hue, saturation: 0.55, brightness: 0.65)
     }
 }
 
