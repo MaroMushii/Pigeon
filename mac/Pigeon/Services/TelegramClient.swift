@@ -110,6 +110,8 @@ actor TelegramClient {
                     sourceURL: URL(string: "https://t.me/s/\(user)")!,
                     method: method
                 )
+            } catch is CancellationError {
+                throw CancellationError()
             } catch {
                 failures.append(error)
                 continue

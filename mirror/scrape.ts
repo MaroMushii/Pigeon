@@ -20,7 +20,7 @@
  * After all channels, rewrite index.json at the export tree root.
  */
 
-import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync, renameSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parseChannelPage } from "./parser.js";
 import type {
@@ -40,6 +40,23 @@ interface ChannelsManifest {
 
 const USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15";
+
+/** Max channels scraped in parallel. Polite to t.me; each worker still
+ *  sleeps 750–1500ms after its channel fetch. */
+const CHANNEL_CONCURRENCY = 3;
+
+/** Max simultaneous image downloads per channel sweep. CDN hosts tolerate
+ *  more parallelism than t.me itself, but keep it modest so we don't
+ *  exhaust sockets on the runner. */
+const IMAGE_CONCURRENCY = 8;
+
+/** Write content atomically: write to a .tmp sibling then rename into place
+ *  so a mid-write SIGTERM can't leave a truncated file. */
+function atomicWriteFile(path: string, content: string | Buffer): void {
+  const tmp = `${path}.tmp`;
+  writeFileSync(tmp, content);
+  renameSync(tmp, path);
+}
 
 /**
  * Per-channel retention cap. t.me/s/<u> only ever returns the most recent
@@ -73,32 +90,37 @@ async function main(): Promise<void> {
 
   const fresh = new Map<string, Snapshot>();
   const failures: HealthFailure[] = [];
+  const queue = [...channels];
 
-  for (const username of channels) {
-    try {
-      const result = await scrapeChannel(username, exportRoot);
-      fresh.set(username, result.snapshot);
-      process.stderr.write(
-        `  ${username.padEnd(20)} ${result.snapshot.posts.length} posts ` +
-          `(+${result.freshPostCount} fresh), ` +
-          `${result.imagesWritten} new images, ${result.imagesSkipped} cached\n`
-      );
-      if (looksLikeDeadHandle(result.snapshot.channel, result.freshPostCount, username)) {
-        process.stderr.write(
-          `  ${"".padEnd(20)} WARN ${username} appears unresolved on Telegram ` +
-            `(no title, no subscribers, no posts) — handle may have been ` +
-            `renamed, deleted, or banned. Verify and update channels.json.\n`
-        );
+  await Promise.all(
+    Array.from({ length: Math.min(CHANNEL_CONCURRENCY, channels.length) }, async () => {
+      let username: string | undefined;
+      while ((username = queue.shift()) !== undefined) {
+        try {
+          const result = await scrapeChannel(username, exportRoot);
+          fresh.set(username, result.snapshot);
+          process.stderr.write(
+            `  ${username.padEnd(20)} ${result.snapshot.posts.length} posts ` +
+              `(+${result.freshPostCount} fresh), ` +
+              `${result.imagesWritten} new images, ${result.imagesSkipped} cached\n`
+          );
+          if (looksLikeDeadHandle(result.snapshot.channel, result.freshPostCount, username)) {
+            process.stderr.write(
+              `  ${"".padEnd(20)} WARN ${username} appears unresolved on Telegram ` +
+                `(no title, no subscribers, no posts) — handle may have been ` +
+                `renamed, deleted, or banned. Verify and update channels.json.\n`
+            );
+          }
+          // Be polite to t.me — each worker sleeps between its own fetches.
+          await sleep(750 + Math.floor(Math.random() * 750));
+        } catch (e) {
+          const message = (e as Error).message;
+          process.stderr.write(`  ${username}: failed — ${message}\n`);
+          failures.push({ username, error: message });
+        }
       }
-      // Be polite to t.me — we share an IP with whoever else is on this
-      // GH runner, and Telegram throttles aggressive scrapers.
-      await sleep(750 + Math.floor(Math.random() * 750));
-    } catch (e) {
-      const message = (e as Error).message;
-      process.stderr.write(`  ${username}: failed — ${message}\n`);
-      failures.push({ username, error: message });
-    }
-  }
+    })
+  );
 
   rebuildIndex(exportRoot, channels, fresh);
   writeHealth(exportRoot, fresh.size, failures);
@@ -115,6 +137,7 @@ async function scrapeChannel(
 }> {
   const url = `https://t.me/s/${encodeURIComponent(username)}`;
   const res = await fetch(url, {
+    signal: AbortSignal.timeout(15_000),
     headers: {
       "User-Agent": USER_AGENT,
       Accept:
@@ -143,27 +166,33 @@ async function scrapeChannel(
   // Write the snapshot first so a partial image-mirror failure doesn't
   // lose the textual update.
   mkdirSync(dirname(snapPath), { recursive: true });
-  writeFileSync(snapPath, JSON.stringify(snapshot, null, 2) + "\n");
+  atomicWriteFile(snapPath, JSON.stringify(snapshot, null, 2) + "\n");
 
-  // Mirror referenced media in parallel (different CDN hosts; politeness
-  // matters less than to t.me itself).
+  // Mirror referenced media with bounded concurrency (different CDN hosts;
+  // politeness matters less than to t.me itself, but keep sockets modest).
   const refs = collectMediaRefs(snapshot);
   let imagesWritten = 0;
   let imagesSkipped = 0;
+  const imageQueue = [...refs.entries()];
+
   await Promise.all(
-    [...refs.entries()].map(async ([path, canonical]) => {
-      const abs = join(exportRoot, path);
-      if (existsSync(abs)) {
-        imagesSkipped++;
-        return;
-      }
-      try {
-        await downloadTo(canonical, abs);
-        imagesWritten++;
-      } catch (e) {
-        process.stderr.write(
-          `    media ${path} failed — ${(e as Error).message}\n`
-        );
+    Array.from({ length: Math.min(IMAGE_CONCURRENCY, imageQueue.length) }, async () => {
+      let entry: [string, string] | undefined;
+      while ((entry = imageQueue.shift()) !== undefined) {
+        const [path, canonical] = entry;
+        const abs = join(exportRoot, path);
+        if (existsSync(abs)) {
+          imagesSkipped++;
+          continue;
+        }
+        try {
+          await downloadTo(canonical, abs);
+          imagesWritten++;
+        } catch (e) {
+          process.stderr.write(
+            `    media ${path} failed — ${(e as Error).message}\n`
+          );
+        }
       }
     })
   );
@@ -195,6 +224,7 @@ function collectMediaRefs(snapshot: Snapshot): Map<string, string> {
 
 async function downloadTo(url: string, destination: string): Promise<void> {
   const res = await fetch(url, {
+    signal: AbortSignal.timeout(15_000),
     headers: {
       "User-Agent": USER_AGENT,
       Accept: "image/webp,image/avif,image/png,image/jpeg,*/*;q=0.8",
@@ -203,7 +233,7 @@ async function downloadTo(url: string, destination: string): Promise<void> {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const buf = Buffer.from(await res.arrayBuffer());
   mkdirSync(dirname(destination), { recursive: true });
-  writeFileSync(destination, buf);
+  atomicWriteFile(destination, buf);
 }
 
 function rebuildIndex(
@@ -248,7 +278,7 @@ function rebuildIndex(
   };
 
   const indexPath = join(exportRoot, "index.json");
-  writeFileSync(indexPath, JSON.stringify(doc, null, 2) + "\n");
+  atomicWriteFile(indexPath, JSON.stringify(doc, null, 2) + "\n");
   process.stderr.write(
     `index: ${entries.length} channels @ ${doc.generated_at}\n`
   );
@@ -282,7 +312,7 @@ function writeHealth(
     failed,
   };
   const path = join(exportRoot, "health.json");
-  writeFileSync(path, JSON.stringify(doc, null, 2) + "\n");
+  atomicWriteFile(path, JSON.stringify(doc, null, 2) + "\n");
   process.stderr.write(
     `health: ${succeeded} ok, ${failed.length} failed @ ${doc.generated_at}\n`
   );

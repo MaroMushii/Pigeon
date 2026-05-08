@@ -108,6 +108,7 @@ actor PinnedHTTPSClient {
         // two; pick up at index 2 (or 1 if we only had one IP to begin with).
         let serialStart = min(firstPair.count, ordered.count)
         for ip in ordered[serialStart...] {
+            try Task.checkCancellation()
             do {
                 let response = try await get(
                     ip: ip,
@@ -218,16 +219,20 @@ actor PinnedHTTPSClient {
         let parameters = NWParameters(tls: tlsOptions, tcp: tcpOptions)
         let connection = NWConnection(to: endpoint, using: parameters)
 
-        do {
-            try await connect(connection, timeout: timeout)
-            let request = buildRequest(host: sni, path: path, queryItems: queryItems, extraHeaders: headers)
-            try await send(request, on: connection)
-            let raw = try await readUntilClose(connection, timeout: timeout)
+        return try await withTaskCancellationHandler {
+            do {
+                try await connect(connection, timeout: timeout)
+                let request = buildRequest(host: sni, path: path, queryItems: queryItems, extraHeaders: headers)
+                try await send(request, on: connection)
+                let raw = try await readUntilClose(connection, timeout: timeout)
+                connection.cancel()
+                return try parse(raw)
+            } catch {
+                connection.cancel()
+                throw error
+            }
+        } onCancel: {
             connection.cancel()
-            return try parse(raw)
-        } catch {
-            connection.cancel()
-            throw error
         }
     }
 

@@ -303,24 +303,23 @@ private struct ChannelFeedContent: View {
                         if post.id == firstUnreadID {
                             UnreadDivider()
                         }
-                        PostCard(post: post)
-                            .onScrollVisibilityChange(threshold: 0.1) { visible in
-                                if visible {
-                                    prefetch.handleVisible(postID: post.id)
+                        PostCard(post: post, onVisibilityChange: { visible in
+                            if visible {
+                                prefetch.handleVisible(postID: post.id)
+                            }
+                            if post.id == posts.last?.id {
+                                // Only write on transitions to avoid
+                                // invalidating body mid-scroll when
+                                // the bottom row re-fires the same
+                                // value.
+                                if isAtBottom != visible {
+                                    isAtBottom = visible
                                 }
-                                if post.id == posts.last?.id {
-                                    // Only write on transitions to avoid
-                                    // invalidating body mid-scroll when
-                                    // the bottom row re-fires the same
-                                    // value.
-                                    if isAtBottom != visible {
-                                        isAtBottom = visible
-                                    }
-                                    if visible && unseenCount != 0 {
-                                        unseenCount = 0
-                                    }
+                                if visible && unseenCount != 0 {
+                                    unseenCount = 0
                                 }
                             }
+                        })
                     }
                 }
                 .padding(.horizontal, 32)

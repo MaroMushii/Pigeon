@@ -11,6 +11,7 @@ struct RootView: View {
     @Query(sort: [SortDescriptor(\Channel.addedAt, order: .forward)]) private var channels: [Channel]
 
     @State private var sidebarSearch: String = ""
+    @State private var isHoveringRefresh = false
 
     var body: some View {
         @Bindable var appState = appState
@@ -54,19 +55,35 @@ struct RootView: View {
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
                 let isRefreshing = !(service?.inflight.isEmpty ?? true)
-                Button {
-                    guard let service else { return }
-                    Task { await service.refreshAll() }
-                } label: {
-                    if isRefreshing {
-                        ProgressView().controlSize(.small)
-                    } else {
+                if isRefreshing {
+                    Button {
+                        service?.cancelRefreshAll()
+                    } label: {
+                        ZStack {
+                            if isHoveringRefresh {
+                                Image(systemName: "xmark").foregroundStyle(.secondary)
+                            } else {
+                                ProgressView().controlSize(.small)
+                            }
+                        }
+                        .padding(6)
+                        .background(.fill.quaternary, in: Circle())
+                    }
+                    .buttonStyle(.plain)
+                    .onHover { isHoveringRefresh = $0 }
+                    .keyboardShortcut("r", modifiers: .command)
+                    .help("Cancel refresh")
+                    .accessibilityLabel("Cancel refresh")
+                } else {
+                    Button {
+                        service?.refreshAll()
+                    } label: {
                         Label("Refresh All", systemImage: "arrow.clockwise")
                     }
+                    .keyboardShortcut("r", modifiers: .command)
+                    .help("Refresh all channels (⌘R)")
+                    .disabled(channels.isEmpty)
                 }
-                .keyboardShortcut("r", modifiers: .command)
-                .help("Refresh all channels (⌘R)")
-                .disabled(channels.isEmpty || isRefreshing)
             }
             ToolbarItem(placement: .primaryAction) {
                 Button {

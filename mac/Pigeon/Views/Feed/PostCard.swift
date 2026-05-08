@@ -7,6 +7,11 @@ import NukeUI
 /// persistent — selecting just highlights for copy/share.
 struct PostCard: View {
     let post: Post
+    /// Called by the parent before the internal dwell-read logic when
+    /// scroll visibility changes. Used by `ChannelFeedContent` to handle
+    /// prefetch and bottom-tracking without a second `onScrollVisibilityChange`
+    /// observer per row.
+    var onVisibilityChange: ((Bool) -> Void)? = nil
 
     @Environment(\.channelService) private var service
 
@@ -36,8 +41,9 @@ struct PostCard: View {
     /// the visible 5.
     @State private var attributedBody: AttributedString?
 
-    init(post: Post) {
+    init(post: Post, onVisibilityChange: ((Bool) -> Void)? = nil) {
         self.post = post
+        self.onVisibilityChange = onVisibilityChange
         _attributedBody = State(initialValue: AttributedHTMLBuilder.cached(for: post.bodyHTML))
     }
 
@@ -96,6 +102,7 @@ struct PostCard: View {
             }
         }
         .onScrollVisibilityChange(threshold: 0.3) { visible in
+            onVisibilityChange?(visible)
             handleVisibilityChange(visible)
         }
         .task(id: post.id) {

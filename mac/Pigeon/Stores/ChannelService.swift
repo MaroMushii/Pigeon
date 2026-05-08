@@ -80,6 +80,7 @@ final class ChannelService {
     @ObservationIgnored private let jsonDecoder = JSONFeedDecoder()
     @ObservationIgnored private let context: ModelContext
     @ObservationIgnored private var autoRefreshTask: Task<Void, Never>?
+    @ObservationIgnored private var refreshAllTask: Task<Void, Never>?
     @ObservationIgnored private let defaults: UserDefaults = .standard
 
     init(client: TelegramClient, context: ModelContext) {
@@ -92,6 +93,7 @@ final class ChannelService {
 
     deinit {
         autoRefreshTask?.cancel()
+        refreshAllTask?.cancel()
     }
 
     func clearLastError() {
@@ -193,11 +195,13 @@ final class ChannelService {
                 return channel.posts
             }
         } catch {
-            lastError = ChannelError(
-                channel: username,
-                message: error.localizedDescription,
-                at: .now
-            )
+            if !Task.isCancelled {
+                lastError = ChannelError(
+                    channel: username,
+                    message: error.localizedDescription,
+                    at: .now
+                )
+            }
             throw error
         }
     }
@@ -219,14 +223,23 @@ final class ChannelService {
     /// failures via `lastError` so one stuck channel can't stall the rest.
     /// Sequential to keep SwiftData mutations on the main actor — the
     /// per-call `await` still releases the actor across the network hop.
-    func refreshAll() async {
-        await refreshMirrorHealth()
-        let descriptor = FetchDescriptor<Channel>()
-        guard let channels = try? context.fetch(descriptor) else { return }
-        for channel in channels {
-            guard !inflight.contains(channel.username) else { continue }
-            _ = try? await refresh(channel)
+    /// Stores its own Task so callers can cancel via `cancelRefreshAll()`.
+    func refreshAll() {
+        refreshAllTask?.cancel()
+        refreshAllTask = Task {
+            await refreshMirrorHealth()
+            let descriptor = FetchDescriptor<Channel>()
+            guard let channels = try? context.fetch(descriptor) else { return }
+            for channel in channels {
+                guard !Task.isCancelled else { break }
+                guard !inflight.contains(channel.username) else { continue }
+                _ = try? await refresh(channel)
+            }
         }
+    }
+
+    func cancelRefreshAll() {
+        refreshAllTask?.cancel()
     }
 
     func remove(_ channel: Channel) {
@@ -244,11 +257,19 @@ final class ChannelService {
 
     // MARK: - Upsert
 
+    /// Per-channel post retention cap. Eviction uses newest-first ordering so
+    /// the oldest posts are removed. Mirrors the mirror scraper's RETAIN_LIMIT
+    /// but higher — the app accumulates across many scraper runs, so we allow
+    /// more history while still bounding SwiftData growth.
+    private static let maxPostsPerChannel = 200
+
     /// Merge `snapshots` into `channel.posts`. Existing posts (matched by
     /// `id`) are updated in place; previously persisted posts not in this
     /// snapshot are preserved — `t.me/s/<channel>` only returns the most
-    /// recent ~20 posts, so absence is not deletion. Eviction is a future
-    /// concern.
+    /// recent ~20 posts, so absence is not deletion.
+    ///
+    /// After merging, evicts posts beyond `maxPostsPerChannel` (oldest first)
+    /// and updates the stored `channel.lastPostAt`.
     ///
     /// `markNewAsRead` controls the unread state of *newly inserted* posts.
     /// Pass `true` only when the user is the proximate cause of the fetch
@@ -270,6 +291,19 @@ final class ChannelService {
             } else {
                 insertNewPost(from: snap, into: channel, isRead: markNewAsRead)
             }
+        }
+
+        evictOldPosts(in: channel)
+        channel.lastPostAt = channel.posts.compactMap(\.postedAt).max()
+    }
+
+    private func evictOldPosts(in channel: Channel) {
+        guard channel.posts.count > Self.maxPostsPerChannel else { return }
+        let sorted = channel.posts.sorted {
+            ($0.postedAt ?? .distantPast) > ($1.postedAt ?? .distantPast)
+        }
+        for post in sorted.dropFirst(Self.maxPostsPerChannel) {
+            context.delete(post)
         }
     }
 
@@ -332,13 +366,12 @@ final class ChannelService {
     }
 
     /// Whether `post` is the most recently `postedAt` post in `channel`.
-    /// Posts with a nil `postedAt` can never be "the latest" — ranking
-    /// them as `.distantPast` keeps them from poisoning the comparison.
+    /// Uses the stored `channel.lastPostAt` for O(1) lookup rather than
+    /// scanning all posts. If two posts share the same timestamp the cascade
+    /// sweep fires twice — harmless.
     private func isLatestPost(_ post: Post, in channel: Channel) -> Bool {
-        let latest = channel.posts.max {
-            ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast)
-        }
-        return latest?.id == post.id
+        guard let postDate = post.postedAt, let latestDate = channel.lastPostAt else { return false }
+        return postDate == latestDate
     }
 
     /// Sweep every still-unread post in `channel` to `isRead = true`,
@@ -478,12 +511,13 @@ final class ChannelService {
         let etag = defaults.string(forKey: Self.etagKey(username))
         let lastModified = defaults.string(forKey: Self.lastModifiedKey(username))
         let mirrorBase = SettingsStore.defaultMirrorBaseURL
-        if let mirror = try? await client.fetchMirrorSnapshot(
-            username: username,
-            baseURL: mirrorBase,
-            ifNoneMatch: etag,
-            ifModifiedSince: lastModified
-        ) {
+        do {
+            let mirror = try await client.fetchMirrorSnapshot(
+                username: username,
+                baseURL: mirrorBase,
+                ifNoneMatch: etag,
+                ifModifiedSince: lastModified
+            )
             switch mirror {
             case .unchanged:
                 return .unchanged(source: .mirror)
@@ -495,27 +529,26 @@ final class ChannelService {
                         etag: newETag,
                         lastModified: newLastModified
                     )
-                    // Successful mirror decode — clear any stale skew flag in
-                    // case the server rolled back to a supported schema.
                     schemaOutdated = false
                     return .changed(result, source: .mirror)
                 } catch let error as JSONFeedDecoder.DecodeError {
                     if case .unsupportedSchema = error {
-                        // Mirror runs a newer schema than this build
-                        // understands. Surface a banner and drop through to
-                        // GT so reading isn't blocked.
+                        // Newer schema than this build understands — surface
+                        // a banner and fall through to GT so reading isn't blocked.
                         schemaOutdated = true
                     } else {
-                        // Malformed JSON — clear validators so we don't keep
-                        // sending stale ones, then fall through to the GT
-                        // proxy.
+                        // Malformed JSON — clear validators so the next request
+                        // isn't a conditional GET against broken data.
                         persistMirrorValidators(username: username, etag: nil, lastModified: nil)
                     }
                 } catch {
-                    // Other (transport) errors — fall through to GT.
                     persistMirrorValidators(username: username, etag: nil, lastModified: nil)
                 }
             }
+        } catch is CancellationError {
+            throw CancellationError()
+        } catch {
+            // Mirror unreachable or returned unexpected status — fall through to GT.
         }
 
         let page = try await client.fetchChannelPage(username: username)

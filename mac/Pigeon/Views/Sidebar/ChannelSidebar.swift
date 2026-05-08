@@ -293,10 +293,14 @@ private struct SidebarFooter: View {
         return "\(base) · \(failureCount) \(noun) failed"
     }
 
+    private static let relativeFormatter: RelativeDateTimeFormatter = {
+        let f = RelativeDateTimeFormatter()
+        f.unitsStyle = .short
+        return f
+    }()
+
     private func relativeLabel(for date: Date, now: Date) -> String {
-        let formatter = RelativeDateTimeFormatter()
-        formatter.unitsStyle = .short
-        return formatter.localizedString(for: date, relativeTo: now)
+        Self.relativeFormatter.localizedString(for: date, relativeTo: now)
     }
 }
 

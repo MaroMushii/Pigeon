@@ -10,6 +10,10 @@ final class Channel {
     var subscriberCount: String?
     var addedAt: Date
     var lastFetchedAt: Date?
+    /// Timestamp of the newest post, maintained by `ChannelService.upsertPosts`.
+    /// Stored so `RootView.filteredChannels` can sort by it in O(1) rather than
+    /// traversing `posts` on every render.
+    var lastPostAt: Date?
     /// Which transport last successfully populated this channel. Drives the
     /// auto-refresh cadence: mirror channels poll every 5 min, GT-proxy
     /// channels every 2 min (matching their respective upstream freshness).
@@ -53,14 +57,6 @@ extension Channel {
 
     var unreadCount: Int {
         posts.reduce(0) { $0 + ($1.isRead ? 0 : 1) }
-    }
-
-    /// Timestamp of the newest post in this channel, or nil if no post has
-    /// a `postedAt` (genuinely empty channel, or one that hasn't completed
-    /// its first fetch). Drives sidebar recency sorting — a channel bubbles
-    /// up when *content* arrives, not when we polled it.
-    var lastPostAt: Date? {
-        posts.lazy.compactMap(\Post.postedAt).max()
     }
 }
 
