@@ -46,6 +46,18 @@ open Pigeon.xcodeproj
 
 Then in Xcode hit ⌘R. Requires Xcode 26.
 
+## Updates
+
+Pigeon checks for updates automatically in the background. When a new
+version is available you'll see a prompt — click **Download** to open
+the releases page, then install the new DMG the same way you installed
+the first one.
+
+The app cannot install updates silently because it is not signed with an
+Apple Developer certificate (that would require handing Apple identifying
+information, which conflicts with the privacy goals of this project).
+One manual step per update is the deliberate trade-off.
+
 ## Using it
 
 - **Add a channel:** ⌘N, then paste a username (`durov`), an `@handle`,
