@@ -84,9 +84,22 @@ final class ChannelService {
         self.client = client
         self.context = context
         self.settings = settings
+        Self.seedChannelUnreadCounts(in: context)
         self.unreadCount = Self.recomputeUnreadCount(in: context)
         startAutoRefreshLoop()
         Task { await self.refreshMirrorHealth() }
+    }
+
+    /// One-time startup pass: populate each channel's stored `unreadCount`
+    /// from its persisted posts. Runs in O(channels × posts) once per launch —
+    /// cheap on a small dataset, guards against any drift from the incremental
+    /// maintenance path (e.g. after a schema migration that seeds the column at 0).
+    private static func seedChannelUnreadCounts(in context: ModelContext) {
+        let descriptor = FetchDescriptor<Channel>()
+        guard let channels = try? context.fetch(descriptor) else { return }
+        for channel in channels {
+            channel.unreadCount = channel.posts.reduce(0) { $0 + ($1.isRead ? 0 : 1) }
+        }
     }
 
     deinit {
@@ -301,7 +314,14 @@ final class ChannelService {
         }
 
         evictOldPosts(in: channel)
-        channel.lastPostAt = channel.posts.compactMap(\.postedAt).max()
+        // Derive lastPostAt from the incoming snapshots (already in memory)
+        // rather than re-traversing the relationship. Guard the write — an
+        // identical value still fires @Observable and marks the context dirty.
+        let newLastPostAt = snapshots.compactMap(\.postedAt).max()
+        if newLastPostAt != channel.lastPostAt {
+            channel.lastPostAt = newLastPostAt
+        }
+        channel.unreadCount = channel.posts.reduce(0) { $0 + ($1.isRead ? 0 : 1) }
     }
 
     private func evictOldPosts(in channel: Channel) {
@@ -358,18 +378,20 @@ final class ChannelService {
     func markRead(_ post: Post) {
         guard !post.isRead else { return }
         post.isRead = true
-        // Muted-channel posts never contributed to `unreadCount`, so a
-        // decrement here would break the cache. `!= true` matches the
-        // prior unconditional decrement for orphan posts (nil channel).
         if post.channel?.isMuted != true {
             unreadCount = max(0, unreadCount - 1)
         }
-
-        if let channel = post.channel, isLatestPost(post, in: channel) {
-            sweepOlderUnread(in: channel, latest: post)
-        }
-
+        post.channel?.unreadCount = max(0, (post.channel?.unreadCount ?? 0) - 1)
         updateDockBadge()
+        // Defer the sweep to the next run-loop turn so the current render
+        // pass (which triggered this dwell callback) completes before we
+        // fire up to N simultaneous isRead writes on the channel's posts.
+        if let channel = post.channel, isLatestPost(post, in: channel) {
+            Task { @MainActor [weak self] in
+                self?.sweepOlderUnread(in: channel, latest: post)
+                self?.updateDockBadge()
+            }
+        }
     }
 
     /// Whether `post` is the most recently `postedAt` post in `channel`.
@@ -396,6 +418,7 @@ final class ChannelService {
         if !channel.isMuted {
             unreadCount = max(0, unreadCount - swept)
         }
+        channel.unreadCount = max(0, channel.unreadCount - swept)
     }
 
     /// Toggle a channel's muted state. Muted channels keep refreshing and

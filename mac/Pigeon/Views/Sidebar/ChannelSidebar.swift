@@ -25,9 +25,7 @@ struct ChannelSidebar: View {
                     ForEach(channels) { channel in
                         ChannelRow(
                             channel: channel,
-                            isLoading: service?.inflight.contains(channel.username) ?? false,
-                            unreadCount: channel.unreadCount,
-                            isMuted: channel.isMuted
+                            isLoading: service?.inflight.contains(channel.username) ?? false
                         )
                         .tag(channel.persistentModelID)
                         .overlay {
@@ -116,8 +114,6 @@ struct ChannelSidebar: View {
 private struct ChannelRow: View {
     let channel: Channel
     let isLoading: Bool
-    let unreadCount: Int
-    let isMuted: Bool
 
     var body: some View {
         HStack(spacing: 8) {
@@ -132,7 +128,7 @@ private struct ChannelRow: View {
                 HStack(spacing: 3) {
                     Text("@\(channel.username)")
                         .lineLimit(1)
-                    if isMuted {
+                    if channel.isMuted {
                         Image(systemName: "bell.slash")
                             .imageScale(.small)
                     }
@@ -144,20 +140,20 @@ private struct ChannelRow: View {
             if isLoading {
                 ProgressView()
                     .controlSize(.small)
-            } else if unreadCount > 0 {
-                Text("\(unreadCount)")
+            } else if channel.unreadCount > 0 {
+                Text("\(channel.unreadCount)")
                     .font(.caption)
                     .fontWeight(.semibold)
-                    .foregroundStyle(isMuted ? AnyShapeStyle(.secondary) : AnyShapeStyle(.white))
+                    .foregroundStyle(channel.isMuted ? AnyShapeStyle(.secondary) : AnyShapeStyle(.white))
                     .padding(.horizontal, 7)
                     .padding(.vertical, 2)
                     .background(
-                        isMuted
+                        channel.isMuted
                             ? AnyShapeStyle(Color.secondary.opacity(0.18))
                             : AnyShapeStyle(Color.accentColor),
                         in: .capsule
                     )
-                    .accessibilityLabel(isMuted ? "\(unreadCount) unread, muted" : "\(unreadCount) unread")
+                    .accessibilityLabel(channel.isMuted ? "\(channel.unreadCount) unread, muted" : "\(channel.unreadCount) unread")
             }
         }
         .padding(.vertical, 4)

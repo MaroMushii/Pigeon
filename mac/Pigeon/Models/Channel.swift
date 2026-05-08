@@ -25,6 +25,12 @@ final class Channel {
     /// don't contribute to the global dock badge (and won't trigger
     /// notifications when those exist).
     var isMuted: Bool = false
+    /// Cached count of unread posts. Maintained incrementally by
+    /// `ChannelService` on every insert, markRead, and sweep — seeded
+    /// from stored posts on init. Stored so sidebar rows can read it
+    /// in O(1) rather than traversing the full posts relationship on
+    /// every render.
+    var unreadCount: Int = 0
     @Relationship(deleteRule: .cascade, inverse: \Post.channel)
     var posts: [Post] = []
 
@@ -55,9 +61,6 @@ extension Channel {
         lastFetchSource.flatMap(FetchSource.init(rawValue:)) ?? .mirror
     }
 
-    var unreadCount: Int {
-        posts.reduce(0) { $0 + ($1.isRead ? 0 : 1) }
-    }
 }
 
 /// Which transport produced the channel's most recent successful fetch.

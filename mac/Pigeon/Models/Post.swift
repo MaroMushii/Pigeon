@@ -78,13 +78,13 @@ final class Post {
     /// require a `ModelContext` to insert child rows and are easier to
     /// handle outside this method.
     func updateScalars(from snapshot: PostSnapshot) {
-        authorName = snapshot.authorName
-        authorPhotoURL = snapshot.authorPhotoURL
-        bodyHTML = snapshot.bodyHTML
-        plainText = snapshot.plainText
-        viewsLabel = snapshot.viewsLabel
-        postedAt = snapshot.postedAt
-        edited = snapshot.edited
-        permalink = snapshot.permalink
+        if authorName != snapshot.authorName { authorName = snapshot.authorName }
+        if authorPhotoURL != snapshot.authorPhotoURL { authorPhotoURL = snapshot.authorPhotoURL }
+        if bodyHTML != snapshot.bodyHTML { bodyHTML = snapshot.bodyHTML }
+        if plainText != snapshot.plainText { plainText = snapshot.plainText }
+        if viewsLabel != snapshot.viewsLabel { viewsLabel = snapshot.viewsLabel }
+        if postedAt != snapshot.postedAt { postedAt = snapshot.postedAt }
+        if edited != snapshot.edited { edited = snapshot.edited }
+        if permalink != snapshot.permalink { permalink = snapshot.permalink }
     }
 }
