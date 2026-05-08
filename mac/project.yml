@@ -50,7 +50,7 @@ targets:
         LSApplicationCategoryType: public.app-category.social-networking
         NSHumanReadableCopyright: "Pigeon. A native Telegram channel reader."
         NSPrincipalClass: NSApplication
-        SUFeedURL: "https://raw.githubusercontent.com/MaroMushii/Pigeon/main/appcast.xml"
+        SUFeedURL: "https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/release/appcast.xml"
         SUPublicEDKey: "KaC3IdC3ViUMPWuxN+RDobm8R1JTPmCY0lMRjLWgYAE="
         SUEnableAutomaticChecks: true
         NSAppTransportSecurity:

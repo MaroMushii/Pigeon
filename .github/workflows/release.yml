@@ -156,11 +156,19 @@ jobs:
           curl -fsSL "https://github.com/sparkle-project/Sparkle/releases/download/${SPARKLE_VERSION}/Sparkle-${SPARKLE_VERSION}.tar.xz" \
             | tar -xJ -C "$SPARKLE_DIR"
 
+          # Seed from the release branch so previous entries are preserved.
+          git fetch origin release
+          git show origin/release:appcast.xml > appcast.xml 2>/dev/null || true
+
           mac/scripts/update-appcast.sh "$SPARKLE_DIR/bin" "$VERSION" "mac/dist/Pigeon-$VERSION.dmg"
 
+          # Push only to the release branch — never touches main.
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add appcast.xml
-          git diff --cached --quiet && echo "appcast unchanged, skipping commit" && exit 0
-          git commit -m "chore(release): update appcast.xml for v${VERSION}"
-          git push origin HEAD:main
+          git worktree add /tmp/release-branch release
+          cp appcast.xml /tmp/release-branch/appcast.xml
+          git -C /tmp/release-branch add appcast.xml
+          git -C /tmp/release-branch diff --cached --quiet && echo "appcast unchanged, skipping commit" && exit 0
+          git -C /tmp/release-branch commit -m "chore(release): update appcast.xml for v${VERSION}"
+          git -C /tmp/release-branch push origin release
+          git worktree remove /tmp/release-branch
