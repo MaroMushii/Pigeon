@@ -5,18 +5,22 @@
 <h1 align="center">Pigeon</h1>
 
 <p align="center">
-  Read Telegram public channels on your Mac, even when Telegram itself
-  is blocked. No Telegram account, no VPN, no setup beyond installing
-  the app.
+  Read Telegram public channels on your Mac — even when Telegram is
+  blocked. No Telegram account, no VPN, no setup beyond installing the app.
 </p>
-
-Built for heavily filtered networks. Most readers break the moment
-Telegram is blocked at the network level. Pigeon doesn't, because it
-never talks to Telegram directly.
 
 <p align="center">
   <img src="docs/screenshot.png" alt="Pigeon main window — sidebar of channels on the left, an open Persian-language channel on the right" width="820" />
 </p>
+
+---
+
+## Why it works in Iran
+
+**What the firewall sees:**
+Normal HTTPS connections to GitHub and Google — nothing that looks like Telegram.
+
+---
 
 ## Install
 
@@ -32,9 +36,9 @@ attribute once and it's done:
 xattr -cr /Applications/Pigeon.app
 ```
 
-(Or right-click the app in Finder → **Open** → **Open anyway**.)
+Or right-click the app in Finder → **Open** → **Open anyway**.
 
-### Or build from source
+### Build from source
 
 ```sh
 brew install xcodegen
@@ -44,54 +48,58 @@ xcodegen generate
 open Pigeon.xcodeproj
 ```
 
-Then in Xcode hit ⌘R. Requires Xcode 26.
+Then hit ⌘R in Xcode. Requires Xcode 26.
+
+---
 
 ## Updates
 
-Pigeon checks for updates automatically in the background. When a new
-version is available you'll see a prompt — click **Download** to open
-the releases page, then install the new DMG the same way you installed
-the first one.
+Pigeon checks for updates automatically in the background. When a new version is available you'll see a prompt.
 
-The app cannot install updates silently because it is not signed with an
-Apple Developer certificate (that would require handing Apple identifying
-information, which conflicts with the privacy goals of this project).
-One manual step per update is the deliberate trade-off.
+The app cannot install updates silently because it is not signed with an Apple Developer certificate — signing would require handing Apple identifying information, which conflicts with the privacy goals of this project. One manual install step per update is the deliberate trade-off.
+
+---
 
 ## Using it
 
 - **Add a channel:** ⌘N, then paste a username (`durov`), an `@handle`,
-  or any t.me URL. The sheet also lists a few popular channels you can
+  or any `t.me` URL. The sheet also lists a few popular channels you can
   add with one click.
 - **Read posts:** click a channel in the sidebar. Posts load in the
-  main pane with text, images, video posters, view counts, reactions.
+  main pane with text, images, video posters, view counts, and reactions.
   Each post is marked read once it scrolls into view.
 - **Auto-refresh:** Pigeon polls in the background. Mirror-backed
-  channels refresh every 5 minutes (matching the mirror's cron),
-  on-demand channels every 2 minutes. ⌘R forces an immediate refresh.
-- **Unread badge:** the app's dock icon shows the total number of
-  unread posts across all channels. Channel rows in the sidebar carry
-  their own per-channel count.
+  channels refresh every 5 minutes, on-demand channels every 2 minutes.
+  ⌘R forces an immediate refresh.
+- **Unread badge:** the dock icon shows the total number of unread posts
+  across all channels. Channel rows in the sidebar carry their own count.
 - **Open a post:** right-click → *Open on telegram.org* to view it in
-  your browser. (Telegram's own preview pages are public — no login.)
+  your browser. Telegram's preview pages are public — no login required.
 
-That's it. There is no settings screen, no account, no sync.
+There is no settings screen, no account, no sync.
+
+---
 
 ## Privacy
 
-- No Telegram account. Pigeon only reads the same public preview pages
-  Telegram itself shows at `t.me/s/<channel>`.
-- No analytics, no telemetry, no remote logging.
-- Channel list is stored locally in `~/Library/Containers/dev.MaroMushii.Pigeon`.
-- Network traffic is HTTPS-only, to GitHub and Google. Telegram's
-  servers don't see your IP.
+- **No Telegram account.** Pigeon reads the same public preview pages
+  Telegram shows at `t.me/s/<channel>` — scraped externally so your
+  device never has to.
+- **No analytics, no telemetry, no remote logging.**
+- **Your channel list stays on your Mac**, in
+  `~/Library/Containers/dev.MaroMushii.Pigeon`.
+- **Network traffic is HTTPS-only**, to GitHub and Google.
+- **No Apple Developer certificate.** Signing the app would require
+  submitting identifying information to Apple. Pigeon is ad-hoc signed
+  specifically to avoid that.
+
+---
 
 ## Credits
 
-Inspired by the original
-[ircfspace/teleMirror](https://github.com/ircfspace/teleMirror) Electron
-client — Pigeon borrowed the Google-Translate proxy idea and the
-Telegram widget DOM selectors as starting points, and rebuilt
-everything else as a native macOS app.
+Inspired by [ircfspace/teleMirror](https://github.com/ircfspace/teleMirror) —
+Pigeon borrowed the Google Translate proxy idea and the Telegram widget
+DOM selectors as starting points, and rebuilt everything else as a
+native macOS app.
 
 Licensed under the [WTFPL](LICENSE) — do what the fuck you want.
