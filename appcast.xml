@@ -14,6 +14,7 @@
             <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/MaroMushii/Pigeon/releases/download/v1.1.3/Pigeon-1.1.3.dmg" length="11003231" type="application/octet-stream" sparkle:edSignature="YOPXFxWebewaGKmNNC4xbG1m5isPZr+bR46z4vV0El4dSSrmhOaLDUZDNjvJ4rlwVQg8wFKOai5HRD9YO2EKBA=="/>
+            <sparkle:informationOnlyUpdate>true</sparkle:informationOnlyUpdate>
         </item>
         <item>
             <title>1.1.1</title>
@@ -23,6 +24,7 @@
             <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/MaroMushii/Pigeon/releases/download/v1.1.1/Pigeon-1.1.1.dmg" length="11003242" type="application/octet-stream" sparkle:edSignature="6EVcdp+q2EFIHTtHJjXTQ1nVZy5KaSFjWdFr3yJ0jMXnGopRsuv4aN1WoO+kStupFaFXdmLY29aeAcrhQLTRCQ=="/>
+            <sparkle:informationOnlyUpdate>true</sparkle:informationOnlyUpdate>
         </item>
     </channel>
 </rss>
