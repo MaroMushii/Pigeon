@@ -34,5 +34,28 @@ echo "$SPARKLE_PRIVATE_KEY" | "$SPARKLE_BIN/generate_appcast" \
   --maximum-versions 5 \
   "$STAGING"
 
+# Pigeon is ad-hoc signed (no Apple Developer team ID), so Sparkle's XPC
+# installer service can't be launched from the sandbox. Mark every item as
+# informational-only: Sparkle will show the update notification but open the
+# GitHub releases page in the browser instead of trying to run the installer.
+APPCAST_FILE="$STAGING/appcast.xml" python3 << 'PY'
+import re, os
+
+path = os.environ['APPCAST_FILE']
+content = open(path).read()
+
+def add_flag(m):
+    item = m.group(0)
+    if '<sparkle:informationOnlyUpdate>' not in item:
+        item = item.replace(
+            '        </item>',
+            '            <sparkle:informationOnlyUpdate>true</sparkle:informationOnlyUpdate>\n        </item>'
+        )
+    return item
+
+content = re.sub(r'<item>.*?</item>', add_flag, content, flags=re.DOTALL)
+open(path, 'w').write(content)
+PY
+
 cp "$STAGING/appcast.xml" appcast.xml
 echo "==> appcast.xml updated for v${VERSION}"
