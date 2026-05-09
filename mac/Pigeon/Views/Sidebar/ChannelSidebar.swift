@@ -45,6 +45,11 @@ struct ChannelSidebar: View {
                                     Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
                                 }
                             }
+                            if channel.unreadCount > 0 {
+                                Button("Mark as Read") {
+                                    service?.markAllRead(channel)
+                                }
+                            }
                             Button("Open on telegram.org") {
                                 NSWorkspace.shared.open(channel.publicURL)
                             }

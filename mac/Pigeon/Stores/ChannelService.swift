@@ -421,6 +421,23 @@ final class ChannelService {
         channel.unreadCount = max(0, channel.unreadCount - swept)
     }
 
+    /// Mark every unread post in a channel as read in one batch. Resets
+    /// the channel's stored `unreadCount` and updates the global dock-badge
+    /// cache. Respects the muted flag: muted channels don't contribute to
+    /// the global count.
+    func markAllRead(_ channel: Channel) {
+        let unread = channel.posts.filter { !$0.isRead }
+        guard !unread.isEmpty else { return }
+        for post in unread { post.isRead = true }
+        let swept = unread.count
+        channel.unreadCount = 0
+        if !channel.isMuted {
+            unreadCount = max(0, unreadCount - swept)
+        }
+        try? context.save()
+        updateDockBadge()
+    }
+
     /// Toggle a channel's muted state. Muted channels keep refreshing and
     /// their per-channel unread count keeps incrementing — only the global
     /// dock-badge aggregation excludes them. Recomputes authoritatively
