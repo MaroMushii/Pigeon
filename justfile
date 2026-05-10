@@ -81,6 +81,12 @@ ship bump:
     next="$major.$minor.$patch"
     echo "==> bumping {{bump}}: $last → v$next"
     echo
+    # Dry-run first — validates preconditions (clean tree, no unlanded
+    # workspace commits, tag uniqueness, monotonic version) and prints the
+    # plan. Only prompt if the dry-run passed; otherwise we'd be asking the
+    # user to confirm a ship that's about to be refused anyway.
+    mac/scripts/release.sh --version "$next"
+    echo
     read -r -p "Proceed with tagging and pushing v$next? [y/N] " reply </dev/tty
     case "$reply" in
       y|Y|yes|YES) ;;
