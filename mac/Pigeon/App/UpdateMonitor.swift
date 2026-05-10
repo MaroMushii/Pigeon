@@ -20,7 +20,7 @@ final class UpdateMonitor: NSObject {
     }
 
     func checkForUpdates() {
-        controller.updater.checkForUpdates()
+        controller.checkForUpdates(nil)
     }
 }
 

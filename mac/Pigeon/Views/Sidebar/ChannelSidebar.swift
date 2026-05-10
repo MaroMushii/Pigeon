@@ -264,28 +264,25 @@ private struct SidebarFooter: View {
 
     private var updateBanner: some View {
         Button(action: onUpdate) {
-            HStack(spacing: 7) {
+            HStack(spacing: 9) {
                 Image(systemName: "arrow.down.circle.fill")
-                    .foregroundStyle(.tint)
-                    .imageScale(.medium)
+                    .imageScale(.large)
                 Text("Update available")
-                    .font(.footnote)
-                    .fontWeight(.medium)
-                    .foregroundStyle(.primary)
+                    .font(.subheadline)
+                    .fontWeight(.regular)
                 Spacer(minLength: 0)
-                Image(systemName: "chevron.right")
-                    .font(.caption2)
-                    .fontWeight(.semibold)
-                    .foregroundStyle(.tertiary)
             }
-            .padding(.horizontal, 10)
-            .padding(.vertical, 7)
+            .foregroundStyle(.white)
+            .padding(.horizontal, 13)
+            .padding(.vertical, 10)
             .frame(maxWidth: .infinity)
-            .background(Color.accentColor.opacity(0.10), in: .rect(cornerRadius: 8, style: .continuous))
+            .background(Color.accentColor, in: .capsule)
             .overlay(
-                RoundedRectangle(cornerRadius: 8, style: .continuous)
-                    .strokeBorder(Color.accentColor.opacity(0.18), lineWidth: 0.5)
+                Capsule()
+                    .strokeBorder(.white.opacity(0.18), lineWidth: 0.5)
             )
+            .shadow(color: Color.accentColor.opacity(0.25), radius: 4, y: 1)
+            .contentShape(.capsule)
         }
         .buttonStyle(.plain)
     }
