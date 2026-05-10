@@ -23,10 +23,7 @@ struct ChannelSidebar: View {
             } else {
                 List(selection: $appState.selectedChannelID) {
                     ForEach(channels) { channel in
-                        ChannelRow(
-                            channel: channel,
-                            isLoading: service?.inflight.contains(channel.username) ?? false
-                        )
+                        ChannelRow(channel: channel)
                         .tag(channel.persistentModelID)
                         .overlay {
                             if appState.selectedChannelID == channel.persistentModelID {
@@ -118,7 +115,12 @@ struct ChannelSidebar: View {
 
 private struct ChannelRow: View {
     let channel: Channel
-    let isLoading: Bool
+
+    @Environment(\.channelService) private var service
+
+    private var isLoading: Bool {
+        service?.inflight.contains(channel.username) ?? false
+    }
 
     var body: some View {
         HStack(spacing: 8) {

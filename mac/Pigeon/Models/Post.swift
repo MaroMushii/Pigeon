@@ -1,6 +1,51 @@
 import Foundation
 import SwiftData
 
+/// Value-type snapshot of a `Post` for the feed UI. `PostCard` takes this
+/// instead of the live `@Model` so SwiftUI cannot observe individual
+/// property mutations (reaction counts, viewsLabel) during refresh and
+/// issue re-renders mid-scroll. Cards only re-render when the parent
+/// explicitly rebuilds the snapshot array via `recomputeSortedPosts`.
+struct PostDisplaySnapshot: Identifiable, Equatable {
+    let id: String
+    let channelUsername: String
+    let bodyHTML: String
+    let plainText: String
+    let isRead: Bool
+    let postedAt: Date?
+    let edited: Bool
+    let viewsLabel: String?
+    let permalink: URL?
+    let media: [MediaSnapshot]
+    let reactions: [ReactionSnapshot]
+}
+
+extension Post {
+    func displaySnapshot() -> PostDisplaySnapshot {
+        PostDisplaySnapshot(
+            id: id,
+            channelUsername: channelUsername,
+            bodyHTML: bodyHTML,
+            plainText: plainText,
+            isRead: isRead,
+            postedAt: postedAt,
+            edited: edited,
+            viewsLabel: viewsLabel,
+            permalink: permalink,
+            media: media.map {
+                MediaSnapshot(
+                    kind: $0.kind,
+                    assetURL: $0.assetURL,
+                    thumbnailURL: $0.thumbnailURL,
+                    durationLabel: $0.durationLabel,
+                    aspectRatio: $0.aspectRatio
+                )
+            },
+            reactions: reactions.map { ReactionSnapshot(emoji: $0.emoji, count: $0.count) }
+        )
+    }
+}
+
 /// Transient parser/decoder output for a single post. `Sendable`, no
 /// SwiftData dependency. Persisted to disk by upserting into a
 /// `Post` (`@Model`) on the main actor.

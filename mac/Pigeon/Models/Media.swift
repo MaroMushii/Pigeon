@@ -1,13 +1,14 @@
 import Foundation
 import SwiftData
 
-struct MediaSnapshot: Hashable, Sendable {
+struct MediaSnapshot: Identifiable, Hashable, Sendable {
     enum Kind: String, Sendable {
         case photo
         case video
         case unknown
     }
 
+    var id: String { "\(kind.rawValue)|\(assetURL?.absoluteString ?? "")" }
     let kind: Kind
     let assetURL: URL?
     let thumbnailURL: URL?

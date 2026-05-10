@@ -1,7 +1,8 @@
 import Foundation
 import SwiftData
 
-struct ReactionSnapshot: Hashable, Sendable {
+struct ReactionSnapshot: Identifiable, Hashable, Sendable {
+    var id: String { emoji }
     let emoji: String
     let count: String
 }

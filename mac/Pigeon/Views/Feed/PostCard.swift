@@ -6,7 +6,7 @@ import NukeUI
 /// footer. The whole card is one selectable unit but selection isn't
 /// persistent — selecting just highlights for copy/share.
 struct PostCard: View {
-    let post: Post
+    let post: PostDisplaySnapshot
     /// Called by the parent before the internal dwell-read logic when
     /// scroll visibility changes. Used by `ChannelFeedContent` to handle
     /// prefetch and bottom-tracking without a second `onScrollVisibilityChange`
@@ -41,10 +41,17 @@ struct PostCard: View {
     /// the visible 5.
     @State private var attributedBody: AttributedString?
 
-    init(post: Post, onVisibilityChange: ((Bool) -> Void)? = nil) {
+    /// Local read state. Seeded from the snapshot at init so the unread
+    /// rail reflects the persisted value immediately. Set to `true` by
+    /// the dwell timer so the rail disappears without waiting for the
+    /// next snapshot rebuild cycle.
+    @State private var isRead: Bool
+
+    init(post: PostDisplaySnapshot, onVisibilityChange: ((Bool) -> Void)? = nil) {
         self.post = post
         self.onVisibilityChange = onVisibilityChange
         _attributedBody = State(initialValue: AttributedHTMLBuilder.cached(for: post.bodyHTML))
+        _isRead = State(initialValue: post.isRead)
     }
 
     var body: some View {
@@ -92,8 +99,10 @@ struct PostCard: View {
         .clipShape(.rect(cornerRadius: 10, style: .continuous))
         .overlay(alignment: .topLeading) {
             // A small leading rail signals "unread" without taking layout
-            // space. Disappears the moment markRead lands.
-            if !post.isRead {
+            // space. Uses local `isRead` state so it disappears immediately
+            // when the dwell timer fires, without waiting for the next
+            // snapshot rebuild.
+            if !isRead {
                 Capsule()
                     .fill(Color.accentColor)
                     .frame(width: 3, height: 24)
@@ -146,11 +155,13 @@ struct PostCard: View {
     private func handleVisibilityChange(_ visible: Bool) {
         dwellTask?.cancel()
         dwellTask = nil
-        guard visible, !post.isRead, let service else { return }
+        guard visible, !isRead, let service else { return }
+        let postID = post.id
         dwellTask = Task { @MainActor in
             try? await Task.sleep(for: Self.readDwell)
             guard !Task.isCancelled else { return }
-            service.markRead(post)
+            service.markRead(postID: postID)
+            isRead = true
         }
     }
 
@@ -217,7 +228,7 @@ struct PostCard: View {
 }
 
 private struct MediaGallery: View {
-    let media: [Media]
+    let media: [MediaSnapshot]
 
     /// Spacing between album tiles. 4pt reads more like Telegram than the
     /// 8pt default — the gallery should look like one composite image with
@@ -545,7 +556,7 @@ private struct AlbumLayout: Layout {
 }
 
 private struct MediaTile: View {
-    let media: Media
+    let media: MediaSnapshot
 
     /// When `true`, the tile accepts whatever size its parent proposes
     /// (used by `AlbumLayout`, which calls `place(at:proposal:)` with

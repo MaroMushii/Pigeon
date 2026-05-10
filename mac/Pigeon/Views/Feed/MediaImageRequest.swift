@@ -27,5 +27,19 @@ enum MediaImageRequest {
             ]
         )
     }
+
+    static func tile(for media: MediaSnapshot) -> ImageRequest? {
+        guard let url = media.thumbnailURL ?? media.assetURL else { return nil }
+        return ImageRequest(
+            url: url,
+            processors: [
+                ImageProcessors.Resize(
+                    size: renderSize,
+                    contentMode: .aspectFill,
+                    crop: false
+                )
+            ]
+        )
+    }
 }
 

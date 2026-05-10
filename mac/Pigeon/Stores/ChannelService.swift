@@ -192,15 +192,30 @@ final class ChannelService {
                 channel.lastFetchedAt = .now
                 channel.lastFetchSource = source.rawValue
                 try context.save()
-                lastError = nil
+                if lastError?.channel == username { lastError = nil }
                 return channel.posts
             case .changed(let result, let source):
-                channel.displayName = result.channel.title
-                channel.photoURL = result.channel.photoURL ?? channel.photoURL
-                channel.channelDescription = result.channel.descriptionHTML ?? channel.channelDescription
-                channel.subscriberCount = result.channel.subscriberCount ?? channel.subscriberCount
+                // Guard each write so @Observable only fires when a value
+                // actually changed. Unconditional writes were causing ChannelRow
+                // and ChannelHeader to re-render on every refresh cycle even
+                // when title/photo/subs hadn't changed — 111 body re-runs in a
+                // single 175ms hitch window per the Instruments trace.
+                if channel.displayName != result.channel.title {
+                    channel.displayName = result.channel.title
+                }
+                if let photoURL = result.channel.photoURL, channel.photoURL != photoURL {
+                    channel.photoURL = photoURL
+                }
+                if let desc = result.channel.descriptionHTML, channel.channelDescription != desc {
+                    channel.channelDescription = desc
+                }
+                if let subs = result.channel.subscriberCount, channel.subscriberCount != subs {
+                    channel.subscriberCount = subs
+                }
                 channel.lastFetchedAt = .now
-                channel.lastFetchSource = source.rawValue
+                if channel.lastFetchSource != source.rawValue {
+                    channel.lastFetchSource = source.rawValue
+                }
                 upsertPosts(result.posts, into: channel)
                 try context.save()
                 let freshCountAfterRefresh = Self.recomputeUnreadCount(in: context)
@@ -208,7 +223,7 @@ final class ChannelService {
                     unreadCount = freshCountAfterRefresh
                     updateDockBadge()
                 }
-                lastError = nil
+                if lastError?.channel == username { lastError = nil }
                 return channel.posts
             }
         } catch {
@@ -321,7 +336,10 @@ final class ChannelService {
         if newLastPostAt != channel.lastPostAt {
             channel.lastPostAt = newLastPostAt
         }
-        channel.unreadCount = channel.posts.reduce(0) { $0 + ($1.isRead ? 0 : 1) }
+        let freshUnread = channel.posts.reduce(0) { $0 + ($1.isRead ? 0 : 1) }
+        if channel.unreadCount != freshUnread {
+            channel.unreadCount = freshUnread
+        }
     }
 
     private func evictOldPosts(in channel: Channel) {
@@ -360,6 +378,16 @@ final class ChannelService {
             context.insert(model)
             model.post = post
         }
+    }
+
+    /// ID-based entry point called by `PostCard`, which holds a
+    /// `PostDisplaySnapshot` (not the live model). Looks up the `Post` by id
+    /// and delegates to `markRead(_:)`. The fetch hits SwiftData's in-memory
+    /// cache — all displayed posts are already faulted in, so this is O(1).
+    func markRead(postID: String) {
+        let descriptor = FetchDescriptor<Post>(predicate: #Predicate { $0.id == postID })
+        guard let post = (try? context.fetch(descriptor))?.first else { return }
+        markRead(post)
     }
 
     /// Mark a single post as read. No-op if already read. Decrements the
