@@ -89,10 +89,22 @@ jobs:
           VERSION="${{ steps.ver.outputs.version }}"
           TAG="${{ steps.ver.outputs.tag }}"
 
-          NOTES_FILE="$(mktemp)"
-          cat > "$NOTES_FILE" <<NOTES
-          ## Pigeon $VERSION
+          # Pull the annotated tag's body (commit list authored by
+          # release.sh). %(contents:body) skips the subject line, leaving
+          # just "Changes since vX.Y.Z:" + bullets. Falls back to empty
+          # when the tag is lightweight (e.g. workflow_dispatch path).
+          git fetch --tags --force --quiet origin "$TAG" || true
+          TAG_BODY="$(git tag -l --format='%(contents:body)' "$TAG" 2>/dev/null || true)"
 
+          NOTES_FILE="$(mktemp)"
+          {
+            echo "## Pigeon $VERSION"
+            echo
+            if [[ -n "$TAG_BODY" ]]; then
+              echo "$TAG_BODY"
+              echo
+            fi
+            cat <<NOTES
           Native macOS reader for Telegram public channels. Designed to keep
           working on heavily filtered networks.
 
@@ -124,6 +136,7 @@ jobs:
           shasum -a 256 -c SHA256SUMS.txt
           \`\`\`
           NOTES
+          } > "$NOTES_FILE"
 
           ASSETS=(
             "mac/dist/Pigeon-$VERSION.zip"

@@ -18,11 +18,13 @@
 # Usage:
 #   mac/scripts/release.sh --version 2.0.0
 #   mac/scripts/release.sh --version 2.0.0 --push
+#   mac/scripts/release.sh --version 2.0.0 --confirm
 #   mac/scripts/release.sh --version 2.0.0 --push --watch
 #
 # Flags:
 #   --version X.Y.Z   required, semver-shaped (no leading "v")
 #   --push            actually create + push the tag (default: dry-run)
+#   --confirm         like --push, but prompt interactively before tagging
 #   --watch           after pushing, run `gh run watch` on the release workflow
 #   --remote NAME     git remote to push to (default: origin)
 
@@ -30,6 +32,7 @@ set -euo pipefail
 
 VERSION=""
 DO_PUSH=0
+DO_CONFIRM=0
 DO_WATCH=0
 REMOTE="origin"
 
@@ -37,12 +40,19 @@ while [[ $# -gt 0 ]]; do
   case "$1" in
     --version) VERSION="${2:?--version requires X.Y.Z}"; shift 2 ;;
     --push)    DO_PUSH=1; shift ;;
+    --confirm) DO_CONFIRM=1; shift ;;
     --watch)   DO_WATCH=1; shift ;;
     --remote)  REMOTE="${2:?--remote requires a name}"; shift 2 ;;
     -h|--help) sed -n '2,30p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
     *) echo "release.sh: unknown arg: $1" >&2; exit 2 ;;
   esac
 done
+
+if [[ "$DO_PUSH" -eq 1 && "$DO_CONFIRM" -eq 1 ]]; then
+  echo "release.sh: pass --push or --confirm, not both" >&2
+  exit 2
+fi
+WILL_PUSH=$(( DO_PUSH | DO_CONFIRM ))
 
 if [[ -z "$VERSION" ]]; then
   echo "release.sh: --version X.Y.Z is required" >&2
@@ -116,9 +126,9 @@ else
       echo "release.sh: local main is behind $REMOTE/main by $BEHIND commit(s) — pull first" >&2
       exit 1
     fi
-    if [[ "$DO_PUSH" -ne 1 ]]; then
+    if [[ "$WILL_PUSH" -ne 1 ]]; then
       echo "release.sh: local main is $AHEAD commit(s) ahead of $REMOTE/main" >&2
-      echo "  Pass --push to auto-push commits, or push manually first." >&2
+      echo "  Pass --push or --confirm to auto-push commits, or push manually first." >&2
       exit 1
     fi
     echo "Pushing $AHEAD unpublished commit(s) to $REMOTE/main..."
@@ -153,6 +163,22 @@ fi
 
 # --- Plan -----------------------------------------------------------------
 
+# Build the annotated tag message: subject + commit list since LAST_TAG.
+# We capture this before the prompt so the printed plan and the eventual
+# tag annotation are guaranteed to match what the user approved.
+TAG_MSG_FILE="$(mktemp)"
+trap 'rm -f "$TAG_MSG_FILE"' EXIT
+{
+  echo "Pigeon $VERSION"
+  echo
+  if [[ -n "$LAST_TAG" ]]; then
+    echo "Changes since $LAST_TAG:"
+    git --no-pager log --pretty='- %s' "$LAST_TAG".."$TAG_TARGET"
+  else
+    echo "Initial release."
+  fi
+} > "$TAG_MSG_FILE"
+
 echo "Release plan"
 echo "  version : $VERSION"
 echo "  tag     : $TAG"
@@ -160,24 +186,27 @@ echo "  remote  : $REMOTE"
 echo "  target  : $TAG_TARGET ($TAG_TARGET_LABEL)"
 echo "  prev tag: ${LAST_TAG:-<none>}"
 echo
-if [[ -n "$LAST_TAG" ]]; then
-  echo "Commits since $LAST_TAG:"
-  git --no-pager log --oneline "$LAST_TAG".."$TAG_TARGET"
-else
-  echo "Commits in $TAG_TARGET_LABEL (no prior tag):"
-  git --no-pager log --oneline -20 "$TAG_TARGET"
-fi
+echo "Tag annotation:"
+sed 's/^/  /' "$TAG_MSG_FILE"
 echo
 
-if [[ "$DO_PUSH" -ne 1 ]]; then
-  echo "Dry-run only. Pass --push to actually create and push the tag."
+if [[ "$WILL_PUSH" -ne 1 ]]; then
+  echo "Dry-run only. Pass --push to create and push the tag, or --confirm to prompt."
   exit 0
+fi
+
+if [[ "$DO_CONFIRM" -eq 1 ]]; then
+  read -r -p "Proceed with tagging and pushing $TAG? [y/N] " reply </dev/tty
+  case "$reply" in
+    y|Y|yes|YES) ;;
+    *) echo "release.sh: aborted" >&2; exit 1 ;;
+  esac
 fi
 
 # --- Execute --------------------------------------------------------------
 
 echo "Creating annotated tag $TAG at $TAG_TARGET_LABEL..."
-git tag -a "$TAG" -m "Pigeon $VERSION" "$TAG_TARGET"
+git tag -a "$TAG" -F "$TAG_MSG_FILE" "$TAG_TARGET"
 
 echo "Pushing $TAG to $REMOTE..."
 git push "$REMOTE" "$TAG"
@@ -192,12 +221,19 @@ if [[ "$DO_WATCH" -eq 1 ]]; then
     echo "release.sh: --watch requires the 'gh' CLI" >&2
     exit 0
   fi
-  # Give Actions a beat to register the workflow run for this tag.
-  sleep 4
-  RUN_ID="$(gh run list --workflow release.yml --limit 1 --json databaseId --jq '.[0].databaseId' 2>/dev/null || true)"
+  # Poll for the workflow run that was triggered by *this* tag push.
+  # `--branch "$TAG"` filters to runs whose ref is the tag (gh treats the
+  # tag name as the head branch for tag-triggered runs). Cheaper than
+  # sleep+limit-1, which could grab an unrelated prior run.
+  RUN_ID=""
+  for _ in 1 2 3 4 5 6 7 8 9 10; do
+    RUN_ID="$(gh run list --workflow release.yml --branch "$TAG" --limit 1 --json databaseId --jq '.[0].databaseId // empty' 2>/dev/null || true)"
+    [[ -n "$RUN_ID" ]] && break
+    sleep 2
+  done
   if [[ -n "$RUN_ID" ]]; then
     gh run watch "$RUN_ID" --exit-status
   else
-    echo "release.sh: couldn't locate the workflow run; check the Actions tab manually." >&2
+    echo "release.sh: couldn't locate the workflow run for $TAG after 20s; check the Actions tab manually." >&2
   fi
 fi
