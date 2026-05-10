@@ -93,6 +93,20 @@ if [[ "$GITBUTLER_MODE" -eq 1 ]]; then
   # first (`but land <branch>`); we won't push the workspace meta-commit.
   TAG_TARGET="$REMOTE_HEAD"
   TAG_TARGET_LABEL="$REMOTE/main"
+
+  # Refuse to ship if the workspace has commits that aren't on origin/main.
+  # We'd otherwise tag origin/main behind the user's back, releasing a
+  # state that excludes their applied virtual branches. The workspace
+  # meta-commit itself counts as one of these — filter it from the
+  # printed list, but any non-zero count is a stop.
+  UNLANDED="$(git rev-list "$REMOTE/main"..HEAD --grep='^GitButler Workspace Commit$' --invert-grep || true)"
+  if [[ -n "$UNLANDED" ]]; then
+    echo "release.sh: workspace has commits not on $REMOTE/main:" >&2
+    git --no-pager log --oneline "$REMOTE/main"..HEAD --grep='^GitButler Workspace Commit$' --invert-grep >&2
+    echo >&2
+    echo "  Land them first (\`but land <branch>\`) or merge their PRs, then re-run." >&2
+    exit 1
+  fi
 else
   LOCAL_HEAD="$(git rev-parse HEAD)"
   if [[ "$LOCAL_HEAD" != "$REMOTE_HEAD" ]]; then
