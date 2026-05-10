@@ -58,9 +58,19 @@ TAG="v$VERSION"
 
 # --- Preconditions --------------------------------------------------------
 
-BRANCH="$(git symbolic-ref --short HEAD 2>/dev/null || echo "")"
-if [[ "$BRANCH" != "main" ]]; then
-  echo "release.sh: must be on 'main' (currently on '$BRANCH')" >&2
+# Detect GitButler workspace mode. HEAD there is a virtual workspace
+# commit composed of every applied virtual branch — tagging it would
+# capture state that doesn't exist on main. In GitButler mode we tag
+# origin/main directly and require the user to have already landed
+# everything they want in the release (via `but land`).
+GITBUTLER_MODE=0
+HEAD_BRANCH="$(git symbolic-ref --short HEAD 2>/dev/null || echo "")"
+if [[ -d .git/gitbutler ]] || [[ "$HEAD_BRANCH" == gitbutler/* ]]; then
+  GITBUTLER_MODE=1
+fi
+
+if [[ "$GITBUTLER_MODE" -eq 0 && "$HEAD_BRANCH" != "main" ]]; then
+  echo "release.sh: must be on 'main' (currently on '$HEAD_BRANCH')" >&2
   exit 1
 fi
 
@@ -72,26 +82,36 @@ fi
 
 git fetch --tags --quiet "$REMOTE"
 
-LOCAL_HEAD="$(git rev-parse HEAD)"
 REMOTE_HEAD="$(git rev-parse "$REMOTE/main" 2>/dev/null || echo "")"
 if [[ -z "$REMOTE_HEAD" ]]; then
   echo "release.sh: '$REMOTE/main' not found — is the remote configured?" >&2
   exit 1
 fi
-if [[ "$LOCAL_HEAD" != "$REMOTE_HEAD" ]]; then
-  AHEAD="$(git rev-list --count "$REMOTE/main"..HEAD)"
-  BEHIND="$(git rev-list --count HEAD.."$REMOTE/main")"
-  if [[ "$BEHIND" -gt 0 ]]; then
-    echo "release.sh: local main is behind $REMOTE/main by $BEHIND commit(s) — pull first" >&2
-    exit 1
+
+if [[ "$GITBUTLER_MODE" -eq 1 ]]; then
+  # Tag origin/main directly. Anything not yet there has to be landed
+  # first (`but land <branch>`); we won't push the workspace meta-commit.
+  TAG_TARGET="$REMOTE_HEAD"
+  TAG_TARGET_LABEL="$REMOTE/main"
+else
+  LOCAL_HEAD="$(git rev-parse HEAD)"
+  if [[ "$LOCAL_HEAD" != "$REMOTE_HEAD" ]]; then
+    AHEAD="$(git rev-list --count "$REMOTE/main"..HEAD)"
+    BEHIND="$(git rev-list --count HEAD.."$REMOTE/main")"
+    if [[ "$BEHIND" -gt 0 ]]; then
+      echo "release.sh: local main is behind $REMOTE/main by $BEHIND commit(s) — pull first" >&2
+      exit 1
+    fi
+    if [[ "$DO_PUSH" -ne 1 ]]; then
+      echo "release.sh: local main is $AHEAD commit(s) ahead of $REMOTE/main" >&2
+      echo "  Pass --push to auto-push commits, or push manually first." >&2
+      exit 1
+    fi
+    echo "Pushing $AHEAD unpublished commit(s) to $REMOTE/main..."
+    git push "$REMOTE" main
   fi
-  if [[ "$DO_PUSH" -ne 1 ]]; then
-    echo "release.sh: local main is $AHEAD commit(s) ahead of $REMOTE/main" >&2
-    echo "  Pass --push to auto-push commits, or push manually first." >&2
-    exit 1
-  fi
-  echo "Pushing $AHEAD unpublished commit(s) to $REMOTE/main..."
-  git push "$REMOTE" main
+  TAG_TARGET="$LOCAL_HEAD"
+  TAG_TARGET_LABEL="HEAD"
 fi
 
 if git rev-parse "refs/tags/$TAG" >/dev/null 2>&1; then
@@ -120,15 +140,15 @@ echo "Release plan"
 echo "  version : $VERSION"
 echo "  tag     : $TAG"
 echo "  remote  : $REMOTE"
-echo "  HEAD    : $LOCAL_HEAD"
+echo "  target  : $TAG_TARGET ($TAG_TARGET_LABEL)"
 echo "  prev tag: ${LAST_TAG:-<none>}"
 echo
 if [[ -n "$LAST_TAG" ]]; then
   echo "Commits since $LAST_TAG:"
-  git --no-pager log --oneline "$LAST_TAG"..HEAD
+  git --no-pager log --oneline "$LAST_TAG".."$TAG_TARGET"
 else
-  echo "Commits in HEAD (no prior tag):"
-  git --no-pager log --oneline -20
+  echo "Commits in $TAG_TARGET_LABEL (no prior tag):"
+  git --no-pager log --oneline -20 "$TAG_TARGET"
 fi
 echo
 
@@ -139,8 +159,8 @@ fi
 
 # --- Execute --------------------------------------------------------------
 
-echo "Creating annotated tag $TAG..."
-git tag -a "$TAG" -m "Pigeon $VERSION"
+echo "Creating annotated tag $TAG at $TAG_TARGET_LABEL..."
+git tag -a "$TAG" -m "Pigeon $VERSION" "$TAG_TARGET"
 
 echo "Pushing $TAG to $REMOTE..."
 git push "$REMOTE" "$TAG"
