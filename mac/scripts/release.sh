@@ -124,7 +124,10 @@ if git ls-remote --tags --exit-code "$REMOTE" "refs/tags/$TAG" >/dev/null 2>&1; 
 fi
 
 # Strict monotonic check against the highest existing v*.*.* tag.
-LAST_TAG="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -1 || true)"
+# `--merged $REMOTE/main` rejects tags whose commits aren't on our main
+# branch (e.g. inherited from a fork ancestor's remote). Without it, a
+# stale upstream tag can be misread as the latest Pigeon release.
+LAST_TAG="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --merged "$REMOTE/main" --sort=-v:refname | head -1 || true)"
 if [[ -n "$LAST_TAG" ]]; then
   PREV="${LAST_TAG#v}"
   HIGHER="$(printf '%s\n%s\n' "$PREV" "$VERSION" | sort -V | tail -1)"

@@ -51,7 +51,8 @@ clean: kill
 package:
     #!/usr/bin/env bash
     set -euo pipefail
-    version="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -1 | sed 's/^v//')"
+    git fetch --tags --quiet origin
+    version="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --merged origin/main --sort=-v:refname | head -1 | sed 's/^v//')"
     [[ -n "$version" ]] || { echo "package: no v*.*.* tag found — run 'just ship patch|minor|major' first" >&2; exit 1; }
     echo "==> packaging current version: $version"
     mac/scripts/build.sh --version "$version"
@@ -65,7 +66,11 @@ ship bump:
       patch|minor|major) ;;
       *) echo "ship: bump must be one of: patch, minor, major (got '{{bump}}')" >&2; exit 2 ;;
     esac
-    last="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -1)"
+    # `--merged origin/main` filters out tags whose commits aren't on our
+    # main branch — e.g. tags that leaked in from a fork ancestor's remote.
+    # Without this, a stale upstream tag like v3.2.0 can pose as the latest.
+    git fetch --tags --quiet origin
+    last="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --merged origin/main --sort=-v:refname | head -1)"
     [[ -n "$last" ]] || { echo "ship: no existing v*.*.* tag to bump from — push v0.1.0 manually first" >&2; exit 1; }
     IFS=. read -r major minor patch <<<"${last#v}"
     case "{{bump}}" in
