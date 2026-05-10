@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "instruments-analyzer": {
+      "source": "jlreyes/instruments-analyzer",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "a79e6146cc04498ef35f44a9ada18a71f7f265bd4ff9d1644bd404a2b232e3b8"
+    },
+    "swiftui-expert-skill": {
+      "source": "avdlee/swiftui-agent-skill",
+      "sourceType": "github",
+      "skillPath": "swiftui-expert-skill/SKILL.md",
+      "computedHash": "1f56a9a166a86c3622b695929cdbfe614f1e1ec998a97df068e102c7aff52224"
+    }
+  }
+}
