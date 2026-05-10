@@ -281,17 +281,16 @@ private struct ChannelFeedContent: View {
                     .frame(maxWidth: 680)
                     .frame(maxWidth: .infinity, alignment: .center)
                 }
-                // Soft fade at the top edge: posts that scroll up *behind*
-                // the Liquid Glass header dissolve into the glass surface
-                // instead of butting up against a hard line.
-                .scrollEdgeEffectStyle(.soft, for: .top)
-                // Liquid Glass header: floats over the scroll surface and
-                // lets posts visibly pass behind it as the user scrolls.
+                // Soft fade at the top edge so posts dissolve as they
+                // scroll behind the floating header rather than hard-clipping.
+                .softTopScrollEdgeEffect()
+                // Floating header: sits in the safe area so posts visibly
+                // pass behind it. Glass effect on macOS 26+, material on 15.
                 .safeAreaInset(edge: .top, spacing: 0) {
                     ChannelHeader(channel: channel)
                         .padding(.horizontal, 14)
                         .padding(.vertical, 8)
-                        .glassEffect(.regular, in: .rect(cornerRadius: 16, style: .continuous))
+                        .glassEffectIfAvailable(in: .rect(cornerRadius: 16, style: .continuous))
                         .frame(maxWidth: 680)
                         .frame(maxWidth: .infinity, alignment: .center)
                         .padding(.horizontal, 12)

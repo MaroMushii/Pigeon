@@ -205,7 +205,7 @@ pnpm scrape /tmp/test-export-tree channels.json
 ### Swift (`mac/`)
 
 - Swift 6, **strict concurrency complete.** Don't downgrade.
-- macOS 26 deployment target. Use new APIs freely.
+- macOS 15 deployment target. macOS 26-only APIs (Liquid Glass `.glassEffect`, `scrollEdgeEffectStyle(_:for:)`) require `#available(macOS 26, *)` guards — use the helpers in `Views/ViewExtensions.swift` (`glassEffectIfAvailable`, `softTopScrollEdgeEffect`, `softHorizontalScrollEdgeEffect`).
 - `@Observable` + `@State` over `ObservableObject` + `@StateObject`.
 - `@MainActor` on stores; mark `@ObservationIgnored` on any property
   wrapper inside an `@Observable` class.

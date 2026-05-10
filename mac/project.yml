@@ -3,7 +3,7 @@ name: Pigeon
 options:
   bundleIdPrefix: dev.MaroMushii
   deploymentTarget:
-    macOS: "26.0"
+    macOS: "15.0"
   developmentLanguage: en
   createIntermediateGroups: true
   generateEmptyDirectories: true
@@ -46,7 +46,7 @@ targets:
       properties:
         CFBundleShortVersionString: "$(MARKETING_VERSION)"
         CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
-        LSMinimumSystemVersion: "26.0"
+        LSMinimumSystemVersion: "15.0"
         LSApplicationCategoryType: public.app-category.social-networking
         NSHumanReadableCopyright: "Pigeon. A native Telegram channel reader."
         NSPrincipalClass: NSApplication
@@ -57,15 +57,12 @@ targets:
           NSAllowsArbitraryLoads: YES
     entitlements:
       path: Pigeon/Resources/Pigeon.entitlements
-      properties:
-        com.apple.security.app-sandbox: true
-        com.apple.security.network.client: true
-        com.apple.security.files.user-selected.read-only: true
+      properties: {}
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: dev.MaroMushii.Pigeon
         PRODUCT_NAME: Pigeon
-        MACOSX_DEPLOYMENT_TARGET: "26.0"
+        MACOSX_DEPLOYMENT_TARGET: "15.0"
         MARKETING_VERSION: "0.1.0"
         CURRENT_PROJECT_VERSION: "1"
         ENABLE_HARDENED_RUNTIME: YES
@@ -86,7 +83,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: dev.MaroMushii.PigeonTests
         PRODUCT_NAME: PigeonTests
-        MACOSX_DEPLOYMENT_TARGET: "26.0"
+        MACOSX_DEPLOYMENT_TARGET: "15.0"
         GENERATE_INFOPLIST_FILE: YES
         BUNDLE_LOADER: "$(TEST_HOST)"
         TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Pigeon.app/Contents/MacOS/Pigeon"

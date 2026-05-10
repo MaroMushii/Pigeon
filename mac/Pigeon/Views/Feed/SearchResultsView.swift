@@ -67,7 +67,7 @@ struct SearchResultsView: View {
             .frame(maxWidth: 720)
             .frame(maxWidth: .infinity, alignment: .center)
         }
-        .scrollEdgeEffectStyle(.soft, for: .top)
+        .softTopScrollEdgeEffect()
     }
 
     @ViewBuilder

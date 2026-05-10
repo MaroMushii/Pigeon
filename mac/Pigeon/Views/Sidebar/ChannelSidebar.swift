@@ -9,6 +9,7 @@ struct ChannelSidebar: View {
 
     @Environment(AppState.self) private var appState
     @Environment(\.channelService) private var service
+    @Environment(UpdateMonitor.self) private var updateMonitor
 
     @State private var freshestMirrorFetch: Date?
 
@@ -76,7 +77,9 @@ struct ChannelSidebar: View {
                     SidebarFooter(
                         schemaOutdated: service?.schemaOutdated ?? false,
                         mirrorHealth: service?.mirrorHealth,
-                        freshestMirrorFetch: freshestMirrorFetch
+                        freshestMirrorFetch: freshestMirrorFetch,
+                        updateAvailable: updateMonitor.updateAvailable,
+                        onUpdate: { updateMonitor.checkForUpdates() }
                     )
                 }
             }
@@ -234,6 +237,8 @@ private struct SidebarFooter: View {
     let schemaOutdated: Bool
     let mirrorHealth: MirrorHealth?
     let freshestMirrorFetch: Date?
+    let updateAvailable: Bool
+    let onUpdate: () -> Void
 
     /// Prefer the sweep timestamp from `health.json` when we have one;
     /// fall back to the local last-fetch heuristic otherwise.
@@ -246,13 +251,43 @@ private struct SidebarFooter: View {
             if schemaOutdated {
                 schemaSkewBanner
             }
-            if stalenessTimestamp != nil {
+            if updateAvailable {
+                updateBanner
+            } else if stalenessTimestamp != nil {
                 stalenessFooter
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.horizontal, 16)
         .padding(.vertical, 8)
+    }
+
+    private var updateBanner: some View {
+        Button(action: onUpdate) {
+            HStack(spacing: 7) {
+                Image(systemName: "arrow.down.circle.fill")
+                    .foregroundStyle(.tint)
+                    .imageScale(.medium)
+                Text("Update available")
+                    .font(.footnote)
+                    .fontWeight(.medium)
+                    .foregroundStyle(.primary)
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right")
+                    .font(.caption2)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.tertiary)
+            }
+            .padding(.horizontal, 10)
+            .padding(.vertical, 7)
+            .frame(maxWidth: .infinity)
+            .background(Color.accentColor.opacity(0.10), in: .rect(cornerRadius: 8, style: .continuous))
+            .overlay(
+                RoundedRectangle(cornerRadius: 8, style: .continuous)
+                    .strokeBorder(Color.accentColor.opacity(0.18), lineWidth: 0.5)
+            )
+        }
+        .buttonStyle(.plain)
     }
 
     private var schemaSkewBanner: some View {
@@ -281,7 +316,7 @@ private struct SidebarFooter: View {
                     .foregroundStyle(age > 30 * 60 ? AnyShapeStyle(.red) : AnyShapeStyle(.secondary))
                     .padding(.horizontal, 10)
                     .padding(.vertical, 4)
-                    .glassEffect(.regular, in: .capsule)
+                    .glassEffectIfAvailable(in: .capsule)
                     .frame(maxWidth: .infinity, alignment: .center)
             }
         }

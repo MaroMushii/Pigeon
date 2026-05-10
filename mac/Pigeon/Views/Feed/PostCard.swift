@@ -209,7 +209,7 @@ struct PostCard: View {
         }
         .scrollIndicators(.hidden)
         .scrollClipDisabled()
-        .scrollEdgeEffectStyle(.soft, for: .horizontal)
+        .softHorizontalScrollEdgeEffect()
     }
 
     private var footer: some View {
