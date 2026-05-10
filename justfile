@@ -81,6 +81,11 @@ ship bump:
     next="$major.$minor.$patch"
     echo "==> bumping {{bump}}: $last → v$next"
     echo
+    read -r -p "Proceed with tagging and pushing v$next? [y/N] " reply </dev/tty
+    case "$reply" in
+      y|Y|yes|YES) ;;
+      *) echo "ship: aborted" >&2; exit 1 ;;
+    esac
     mac/scripts/release.sh --version "$next" --push
 
 # Mirror typecheck (offline; useful before pushing schema changes)
