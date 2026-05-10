@@ -14,14 +14,10 @@ struct PigeonApp: App {
     /// load-bearing for the notification feature.
     @State private var environment: AppEnvironment = AppEnvironment()
 
-    // Must be a stored `let` — Sparkle stops the updater if this is released.
+    // Must be a stored `@State` — Sparkle stops the updater if this is released.
     // Ad-hoc signed builds can check and prompt but cannot auto-install
     // (XPC handoff requires matching code signatures on both sides).
-    private let updaterController = SPUStandardUpdaterController(
-        startingUpdater: true,
-        updaterDelegate: nil,
-        userDriverDelegate: nil
-    )
+    @State private var updateMonitor = UpdateMonitor()
 
     init() {
         configureNukeWithPinnedTransport()
@@ -55,6 +51,7 @@ struct PigeonApp: App {
                 .environment(appState)
                 .environment(environment.searchStore)
                 .environment(\.channelService, environment.service)
+                .environment(updateMonitor)
                 .frame(minWidth: 680, minHeight: 560)
                 .task {
                     // Sync the dock badge to whatever's already persisted
@@ -70,7 +67,7 @@ struct PigeonApp: App {
         .commands {
             CommandGroup(after: .appInfo) {
                 Button("Check for Updates…") {
-                    updaterController.updater.checkForUpdates()
+                    updateMonitor.checkForUpdates()
                 }
             }
             CommandGroup(replacing: .newItem) {
