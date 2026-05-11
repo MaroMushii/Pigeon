@@ -28,30 +28,60 @@ struct AddChannelSheet: View {
                     .transition(.opacity.combined(with: .scale(scale: 1.02)))
             }
         }
-        .frame(minWidth: 460, minHeight: 420)
+        .frame(minWidth: 460, minHeight: 560)
         .animation(.spring(response: 0.35, dampingFraction: 0.85), value: isLoading)
         .onAppear { inputFocused = true }
     }
 
     private var formContents: some View {
         VStack(alignment: .leading, spacing: 0) {
-            VStack(alignment: .leading, spacing: 6) {
-                Text("Add Channel")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                Text("Paste a Telegram channel URL or username.")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
+            HStack(alignment: .top) {
+                VStack(alignment: .leading, spacing: 6) {
+                    Text("Add Channel")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                    Text("Paste a Telegram channel URL or username.")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+
+                Spacer(minLength: 12)
+
+                Button {
+                    dismiss()
+                } label: {
+                    Image(systemName: "xmark")
+                        .font(.system(size: 11, weight: .bold))
+                        .foregroundStyle(.secondary)
+                        .frame(width: 22, height: 22)
+                        .background(Color.secondary.opacity(0.15), in: Circle())
+                }
+                .buttonStyle(.plain)
+                .keyboardShortcut(.cancelAction)
+                .help("Close")
             }
             .padding(.horizontal, 24)
-            .padding(.top, 24)
+            .padding(.top, 20)
 
-            VStack(alignment: .leading, spacing: 8) {
-                TextField("@username, t.me/name, or https://t.me/name", text: $input)
-                    .textFieldStyle(.roundedBorder)
+            VStack(alignment: .leading, spacing: 10) {
+                HStack(spacing: 8) {
+                    TextField("@username, t.me/name, or https://t.me/name", text: $input)
+                        .textFieldStyle(.roundedBorder)
+                        .controlSize(.large)
+                        .focused($inputFocused)
+                        .onSubmit { Task { await submit() } }
+
+                    Button {
+                        Task { await submit() }
+                    } label: {
+                        Text("Add")
+                            .frame(minWidth: 60)
+                    }
                     .controlSize(.large)
-                    .focused($inputFocused)
-                    .onSubmit { Task { await submit() } }
+                    .buttonStyle(.borderedProminent)
+                    .keyboardShortcut(.defaultAction)
+                    .disabled(input.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                }
 
                 if let errorMessage {
                     Label(errorMessage, systemImage: "exclamationmark.triangle.fill")
@@ -74,28 +104,6 @@ struct AddChannelSheet: View {
                 inflightUsernames: popular.inflight,
                 onTap: { channel in Task { await addPopular(channel.username) } }
             )
-            .padding(.bottom, 16)
-
-            Spacer(minLength: 0)
-
-            HStack(spacing: 8) {
-                Spacer()
-                Button("Close") { dismiss() }
-                    .keyboardShortcut(.cancelAction)
-
-                Button {
-                    Task { await submit() }
-                } label: {
-                    Text("Add Channel")
-                        .frame(minWidth: 80)
-                }
-                .buttonStyle(.borderedProminent)
-                .keyboardShortcut(.defaultAction)
-                .disabled(input.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
-            }
-            .padding(.horizontal, 24)
-            .padding(.vertical, 16)
-            .background(.bar)
         }
     }
 

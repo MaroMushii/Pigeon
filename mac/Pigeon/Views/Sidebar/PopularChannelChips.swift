@@ -24,7 +24,7 @@ struct PopularChannelChips: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.horizontal, 12)
         }
-        .frame(maxHeight: 140)
+        .frame(maxHeight: .infinity)
         .contentMargins(.vertical, 16, for: .scrollContent)
         .overlay(alignment: .top) { edgeFade(edge: .top) }
         .overlay(alignment: .bottom) { edgeFade(edge: .bottom) }
