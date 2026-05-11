@@ -38,6 +38,9 @@ final class PopularChannelsStore {
         .init(username: "iranlix",       displayName: "Iran Lix"),
         .init(username: "matinsenpaii",  displayName: "Matin Sen Paii"),
         .init(username: "no_itsmyturn",  displayName: "No It’s My Turn"),
+        .init(username: "bidarzani",     displayName: "Bidarzani"),
+        .init(username: "filter_watch",  displayName: "Filter Watch"),
+        .init(username: "tavaana_tavaanatech", displayName: "Tavaana"),
         .init(username: "telegram",      displayName: "Telegram News"),
         .init(username: "durov",         displayName: "Pavel Durov"),
     ]
