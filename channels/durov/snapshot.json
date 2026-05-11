@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-11T19:30:52.762Z",
+  "fetched_at": "2026-05-11T19:35:39.637Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -10,6 +10,41 @@
     "subscriber_count": "11.6M"
   },
   "posts": [
+    {
+      "id": "durov/509",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Zp22zMEkVVGiyr5RwN-Zkm66hGcrkg69Mp0-xDm91OEwEVTHg-DM38-SE6-8lzTjxtxfT4-d_VPpRt7QVDzm88N6iyCAGJ7svH8JnXHNB87uAxoNFgZACOAnHDdKG6bajrcaOmkoZCpuoFg3k19adi5iB9uJIqVff837_Ayvlg3A3Kl8VjCqcRXO8HaT04V8WJT6S4SCjqxCTgK9cwsMVbo9ovw8_VZuQynOBPJvjSeEN0ZcB04LcL2Yf7h4T11riC_MOXMr2tYSnBpGHDe2RTUx8LWNPefO04cC2zilZ9TAcpsH2Ldu0DMzOmpWjFgWLLrr42PDUZ4XuhE4VmYSbA.jpg",
+      "author_photo_path": "channels/durov/media/bfc6f4cf26b2f42cfdc23dec.jpg",
+      "body_html": "<tg-emoji emoji-id=\"5389060311430999304\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i></tg-emoji> Developing for TON just became <b>10x faster</b>. The <a href=\"https://ton-blockchain.github.io/acton/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">new toolchain</a> makes smart contracts easy to create, test, and deploy.<br><br>Most importantly, fully AI-ready.<br><br>It replaces TON’s fragmented tooling stack with one developer flow. Start building!",
+      "plain_text": "🛠 Developing for TON just became 10x faster. The new toolchain makes smart contracts easy to create, test, and deploy. Most importantly, fully AI-ready. It replaces TON’s fragmented tooling stack with one developer flow. Start building!",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "549"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.5K"
+        },
+        {
+          "emoji": "🫡",
+          "count": "855"
+        },
+        {
+          "emoji": "💎",
+          "count": "564"
+        },
+        {
+          "emoji": "💎",
+          "count": "402"
+        }
+      ],
+      "views_label": "70.9K",
+      "posted_at": "2026-05-11T19:32:24+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/509"
+    },
     {
       "id": "durov/508",
       "author_name": "Pavel Durov",
@@ -31,11 +66,11 @@
       "reactions": [
         {
           "emoji": "⭐",
-          "count": "4.72K"
+          "count": "4.73K"
         },
         {
           "emoji": "💎",
-          "count": "46.1K"
+          "count": "46.3K"
         },
         {
           "emoji": "🫡",
@@ -43,14 +78,14 @@
         },
         {
           "emoji": "💎",
-          "count": "9.51K"
+          "count": "9.55K"
         },
         {
           "emoji": "💎",
-          "count": "3.39K"
+          "count": "3.41K"
         }
       ],
-      "views_label": "1.04M",
+      "views_label": "1.06M",
       "posted_at": "2026-05-10T18:42:03+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/508"
@@ -80,22 +115,22 @@
         },
         {
           "emoji": "💎",
-          "count": "51.6K"
+          "count": "51.7K"
         },
         {
           "emoji": "🫡",
-          "count": "16.7K"
+          "count": "16.8K"
         },
         {
           "emoji": "💎",
-          "count": "8.07K"
+          "count": "8.08K"
         },
         {
           "emoji": "💎",
           "count": "4.33K"
         }
       ],
-      "views_label": "1.48M",
+      "views_label": "1.49M",
       "posted_at": "2026-05-09T22:24:14+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/507"
@@ -119,7 +154,7 @@
         },
         {
           "emoji": "💎",
-          "count": "8.55K"
+          "count": "8.56K"
         },
         {
           "emoji": "💎",
@@ -130,7 +165,7 @@
           "count": "2.85K"
         }
       ],
-      "views_label": "1.58M",
+      "views_label": "1.59M",
       "posted_at": "2026-05-09T15:32:17+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/506"
@@ -164,7 +199,7 @@
         },
         {
           "emoji": "💎",
-          "count": "15.7K"
+          "count": "15.8K"
         },
         {
           "emoji": "💎",
@@ -252,7 +287,7 @@
         },
         {
           "emoji": "💎",
-          "count": "6.6K"
+          "count": "6.61K"
         }
       ],
       "views_label": "13.1M",
@@ -314,7 +349,7 @@
         },
         {
           "emoji": "💎",
-          "count": "8.67K"
+          "count": "8.68K"
         },
         {
           "emoji": "💎",
@@ -322,10 +357,10 @@
         },
         {
           "emoji": "💎",
-          "count": "6.9K"
+          "count": "6.91K"
         }
       ],
-      "views_label": "9.27M",
+      "views_label": "9.28M",
       "posted_at": "2026-05-04T14:54:43+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/501"
@@ -380,7 +415,7 @@
         },
         {
           "emoji": "💎",
-          "count": "24.9K"
+          "count": "25K"
         },
         {
           "emoji": "💎",
@@ -475,7 +510,7 @@
           "count": "3.12K"
         }
       ],
-      "views_label": "4.26M",
+      "views_label": "4.27M",
       "posted_at": "2026-04-20T22:55:10+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/497"
@@ -507,10 +542,10 @@
         },
         {
           "emoji": "💎",
-          "count": "7.79K"
+          "count": "7.8K"
         }
       ],
-      "views_label": "4M",
+      "views_label": "4.01M",
       "posted_at": "2026-04-20T16:25:25+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/496"
@@ -583,7 +618,7 @@
         },
         {
           "emoji": "💎",
-          "count": "4.5K"
+          "count": "4.51K"
         },
         {
           "emoji": "💎",
