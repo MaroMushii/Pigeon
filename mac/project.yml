@@ -57,7 +57,8 @@ targets:
           NSAllowsArbitraryLoads: YES
     entitlements:
       path: Pigeon/Resources/Pigeon.entitlements
-      properties: {}
+      properties:
+        com.apple.security.cs.disable-library-validation: true
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: dev.MaroMushii.Pigeon
