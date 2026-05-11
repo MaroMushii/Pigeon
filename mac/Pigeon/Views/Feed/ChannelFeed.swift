@@ -144,6 +144,7 @@ private struct ChannelFeedContent: View {
     /// row. The `.id(channel.persistentModelID)` on the parent guarantees
     /// this `@State` is fresh on every channel visit.
     @State private var firstUnreadID: String?
+    @State private var unreadDividerVisible = false
 
     init(channel: Channel, scrollToLatestToken: UUID?) {
         self.channel = channel
@@ -210,7 +211,7 @@ private struct ChannelFeedContent: View {
         }
         .onChange(of: scrollToLatestToken) { _, _ in
             guard !isPreparing else { return }
-            scrollToLatest(animated: true)
+            scrollToUnread(animated: true)
             unseenCount = 0
         }
         .onDisappear {
@@ -258,6 +259,9 @@ private struct ChannelFeedContent: View {
                         ForEach(posts, id: \.id) { post in
                             if post.id == firstUnreadID {
                                 UnreadDivider()
+                                    .id("unread-divider")
+                                    .onAppear { unreadDividerVisible = true }
+                                    .onDisappear { unreadDividerVisible = false }
                             }
                             PostCard(post: post, onVisibilityChange: { visible in
                                 if visible {
@@ -275,9 +279,16 @@ private struct ChannelFeedContent: View {
                                 }
                             })
                         }
+                        // Sentinel: scrollToLatest targets this so the full
+                        // bottom padding is inside the scroll target's frame.
+                        // Height (8pt) + VStack spacing (16pt) = 24pt gap
+                        // below the last post, matching the top padding.
+                        Color.clear
+                            .frame(height: 8)
+                            .id("feed-bottom")
                     }
                     .padding(.horizontal, 32)
-                    .padding(.vertical, 24)
+                    .padding(.top, 24)
                     .frame(maxWidth: 680)
                     .frame(maxWidth: .infinity, alignment: .center)
                 }
@@ -313,10 +324,10 @@ private struct ChannelFeedContent: View {
                 // divider because the divider renders above its anchor post —
                 // a `.top` anchor would push the divider above the viewport.
                 prefetch.scrollProxy = proxy
-                if let unreadID = firstUnreadID {
-                    proxy.scrollTo(unreadID, anchor: .center)
-                } else if let lastID = sortedPosts.last?.id {
-                    proxy.scrollTo(lastID, anchor: .bottom)
+                if firstUnreadID != nil {
+                    proxy.scrollTo("unread-divider", anchor: UnitPoint(x: 0.5, y: 0.2))
+                } else {
+                    proxy.scrollTo("feed-bottom", anchor: .bottom)
                 }
             }
         }
@@ -329,13 +340,28 @@ private struct ChannelFeedContent: View {
     /// lazy stack to realize the rows around that id, then pins to the
     /// bottom anchor — converging layout on a single pass.
     private func scrollToLatest(animated: Bool) {
-        guard let lastID = sortedPosts.last?.id else { return }
         if animated {
             withAnimation(.easeOut(duration: 0.25)) {
-                prefetch.scrollProxy?.scrollTo(lastID, anchor: .bottom)
+                prefetch.scrollProxy?.scrollTo("feed-bottom", anchor: .bottom)
             }
         } else {
-            prefetch.scrollProxy?.scrollTo(lastID, anchor: .bottom)
+            prefetch.scrollProxy?.scrollTo("feed-bottom", anchor: .bottom)
+        }
+    }
+
+    private func scrollToUnread(animated: Bool) {
+        guard firstUnreadID != nil else {
+            scrollToLatest(animated: animated)
+            return
+        }
+        guard unreadDividerVisible else { return }
+        let anchor = UnitPoint(x: 0.5, y: 0.2)
+        if animated {
+            withAnimation(.easeOut(duration: 0.25)) {
+                prefetch.scrollProxy?.scrollTo("unread-divider", anchor: anchor)
+            }
+        } else {
+            prefetch.scrollProxy?.scrollTo("unread-divider", anchor: anchor)
         }
     }
 
