@@ -44,8 +44,17 @@ struct FeedTableView: NSViewRepresentable {
         scrollView.drawsBackground = false
         scrollView.borderType = .noBorder
         scrollView.verticalScrollElasticity = .allowed
+        // Layer-back the entire scroll hierarchy so the GPU compositor can
+        // copy cached row layers during scroll instead of redrawing via
+        // Core Graphics on the main thread. Without this, a SwiftUI trace
+        // showed 400ms+ hitches with "expensive render" narrative and an
+        // idle CPU — the smoking gun for non-layer-backed NSHostingView
+        // content under NSTableView scroll.
+        scrollView.wantsLayer = true
+        scrollView.contentView.wantsLayer = true
 
         let tableView = NSTableView()
+        tableView.wantsLayer = true
         tableView.headerView = nil
         tableView.style = .plain
         tableView.intercellSpacing = NSSize(width: 0, height: 16)
@@ -141,21 +150,16 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     private var heightCache: [String: CGFloat] = [:]
     private var lastMeasuredWidth: CGFloat = 0
 
-    /// Persistent measurement host. The canonical NSHostingView+sizingOptions
-    /// pattern requires reusing a single host across measurements rather than
-    /// allocating one per call — `.intrinsicContentSize` narrows the layout
-    /// probe to just the intrinsic size (avoiding the `[.minSize, .intrinsicContentSize, .maxSize]`
-    /// default, where `.minSize`'s zero-width probe collapses `.aspectRatio(_, .fit)`
-    /// chains to height=0 and image cells get clipped). See `measureHeight(for:width:)`.
-    private lazy var measurementHost: NSHostingView<AnyView> = {
-        let host = NSHostingView(rootView: AnyView(EmptyView()))
-        host.sizingOptions = .intrinsicContentSize
-        return host
-    }()
-
     /// Frame-change observer token. See `FeedTableView.makeNSView` for the
     /// width-invalidation rationale.
     var frameObserver: NSObjectProtocol?
+
+    /// Mount-time scroll placement happens exactly once, after the table
+    /// has resolved a real width and measured its rows. Posts are sorted
+    /// ascending by `postedAt` — the newest post lives at the last index —
+    /// so a fresh channel mount should land the user at the bottom of the
+    /// list, matching the Telegram/Messages chat convention.
+    private var didPlaceInitialScroll = false
 
     /// Called when the table view's frame changes (e.g. window resize, or
     /// the initial scroll-view layout pass that brings the table from its
@@ -168,8 +172,34 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         guard effectiveWidth != lastMeasuredWidth, effectiveWidth > 0 else { return }
         heightCache.removeAll(keepingCapacity: true)
         lastMeasuredWidth = effectiveWidth
+
         let indexes = IndexSet(0..<rows.count)
+        // Signpost bulk re-measure: `noteHeightOfRows` causes NSTableView to
+        // synchronously re-ask `heightOfRow` for every row in `indexes`. With
+        // ~200 rows × a fresh `NSHostingController` measurement each, this is
+        // the prime suspect for the 1267ms hang observed at 14043ms in
+        // pigeon-scroll-perf.trace. The signpost spans the entire blocking
+        // call so we can attribute the wall-clock time in Instruments.
+        let rowCount = rows.count
+        let state = AppLog.signpost.beginInterval("BulkMeasure", id: AppLog.signpost.makeSignpostID(), "rows=\(rowCount) width=\(Int(effectiveWidth))")
         tableView.noteHeightOfRows(withIndexesChanged: indexes)
+        AppLog.signpost.endInterval("BulkMeasure", state)
+        placeInitialScrollIfNeeded()
+    }
+
+    /// Scroll to the last row on first valid layout. Idempotent — guarded
+    /// by `didPlaceInitialScroll` so subsequent width changes (window
+    /// resize, sidebar toggle) don't yank the user back to the bottom.
+    private func placeInitialScrollIfNeeded() {
+        guard !didPlaceInitialScroll,
+              let tableView,
+              !rows.isEmpty,
+              lastMeasuredWidth > 0
+        else { return }
+        didPlaceInitialScroll = true
+        let lastRow = rows.count - 1
+        tableView.scrollRowToVisible(lastRow)
+        AppLog.scroll.pub("initial scroll → row=<\(lastRow)> of <\(rows.count)>")
     }
 
     func update(rows newRows: [FeedRow], envChanged: Bool) {
@@ -201,7 +231,17 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
         guard row < rows.count else { return nil }
         let feedRow = rows[row]
-        let cell = HostingTableCellView()
+        // Cell reuse: ask NSTableView for a recycled HostingTableCellView
+        // before allocating a fresh one. The cell shell (NSTableCellView +
+        // autolayout constraints) is reused; configure() always installs a
+        // fresh NSHostingView inside it to avoid stale SwiftUI layout state.
+        let identifier = NSUserInterfaceItemIdentifier("FeedHostingCell")
+        let cell = tableView.makeView(withIdentifier: identifier, owner: self) as? HostingTableCellView
+            ?? {
+                let fresh = HostingTableCellView()
+                fresh.identifier = identifier
+                return fresh
+            }()
         cell.configure(
             with: feedRow,
             channelService: channelService,
@@ -218,6 +258,7 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         if effectiveWidth != lastMeasuredWidth, effectiveWidth > 0 {
             heightCache.removeAll(keepingCapacity: true)
             lastMeasuredWidth = effectiveWidth
+    
         }
         if let cached = heightCache[feedRow.id] {
             return cached
@@ -229,34 +270,37 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         guard effectiveWidth >= 200 else {
             return 280
         }
+        let state = AppLog.signpost.beginInterval("MeasureRow", id: AppLog.signpost.makeSignpostID())
         let height = measureHeight(for: feedRow, width: effectiveWidth)
+        AppLog.signpost.endInterval("MeasureRow", state)
         heightCache[feedRow.id] = height
-        AppLog.measure.pub("row=<\(feedRow.id)> width=<\(Int(effectiveWidth))> → <\(Int(height))>")
+        AppLog.measure.pub("row=<\(feedRow.id)> width=<\(Int(effectiveWidth))> → <\(Int(height))> shape=<\(shapeDescription(for: feedRow))>")
         return height
     }
 
-    /// Canonical SwiftUI-in-NSTableView height measurement, per Apple's
-    /// `NSHostingView.sizingOptions` API and the layout-engine semantics
-    /// of `.aspectRatio(_, .fit)`.
+    /// Compact one-line summary of a row's content shape for measure logs.
+    private func shapeDescription(for row: FeedRow) -> String {
+        switch row {
+        case .unreadDivider:
+            return "divider"
+        case .post(let snap):
+            let mediaCount = snap.media.count
+            let ars = snap.media.map { $0.aspectRatio.map { String(format: "%.2f", $0) } ?? "nil" }.joined(separator: ",")
+            let bodyLen = snap.plainText.count
+            return "media=<\(mediaCount)> ar=<\(ars)> bodyLen=<\(bodyLen)>"
+        }
+    }
+
+    /// Canonical SwiftUI-in-NSTableView height measurement.
     ///
-    /// Three things must be combined:
-    ///   1. `NSHostingView` with `sizingOptions = .intrinsicContentSize`
-    ///      (set once on `measurementHost`). Avoids `NSHostingController`'s
-    ///      chrome-allowance inflation AND the default multi-probe
-    ///      `[.minSize, .intrinsicContentSize, .maxSize]` that returns 0
-    ///      for aspect-ratio views during the minSize probe.
-    ///   2. `.frame(width: width)` on the rootView — concrete, not
-    ///      `maxWidth`. `.aspectRatio(_, .fit)` propagates `nil` width
-    ///      upward to discover a concrete proposal; without it the chain
-    ///      resolves to width=0 → height=0.
-    ///   3. `.fixedSize(horizontal: false, vertical: true)` — tells SwiftUI
-    ///      to report its ideal vertical size rather than expanding to
-    ///      fill the (effectively unbounded) host height.
+    /// Fresh `NSHostingController` per call, `preferredContentSize` after
+    /// a layout pass. This is the only API combination verified to honor
+    /// both `.aspectRatio(_, .fit)` media AND multi-line wrapped text.
     ///
-    /// Reusing one `measurementHost` across cells is intentional: the
-    /// SizingOptions path is keyed to a stable host's intrinsic-size
-    /// reporting; swapping `rootView` and re-laying-out is cheaper than
-    /// allocating a fresh hosting view per row.
+    /// The render path (HostingTableCellView.configure) always creates a
+    /// fresh NSHostingView — stale rootView swaps caused height mismatches
+    /// (diagnostic 2026-05-13). Height cache ensures each row allocates
+    /// only once per width.
     private func measureHeight(for row: FeedRow, width: CGFloat) -> CGFloat {
         let view = HostingTableCellView.makeRootView(
             for: row,
@@ -268,17 +312,11 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
                 .frame(width: width)
                 .fixedSize(horizontal: false, vertical: true)
         )
-        // With `sizingOptions = .intrinsicContentSize` set on the host,
-        // SwiftUI's intrinsic size is exposed via the host's
-        // `intrinsicContentSize` (NOT `fittingSize`, which queries the
-        // AppKit autolayout pathway and falls back to screen bounds for
-        // an unrooted host — observed empirically as ~2117pt clamps).
-        // Explicit frame width grounds SwiftUI's layout at the target
-        // size before we read intrinsic.
-        measurementHost.frame = NSRect(x: 0, y: 0, width: width, height: 0)
-        measurementHost.rootView = constrained
-        measurementHost.layoutSubtreeIfNeeded()
-        return measurementHost.intrinsicContentSize.height
+        let controller = NSHostingController(rootView: constrained)
+        controller.sizingOptions = .preferredContentSize
+        controller.view.frame = NSRect(x: 0, y: 0, width: width, height: .greatestFiniteMagnitude)
+        controller.view.layoutSubtreeIfNeeded()
+        return controller.preferredContentSize.height
     }
 
     func tableView(_ tableView: NSTableView, shouldSelectRow row: Int) -> Bool {

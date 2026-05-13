@@ -7,73 +7,50 @@ import AppKit
 /// pure-SwiftUI implementation.
 @MainActor
 final class HostingTableCellView: NSTableCellView {
-    /// Single hosting view reused across reconfigurations — swapping
-    /// `rootView` is cheaper than tearing down and re-installing the host.
-    private var hostingView: NSHostingView<AnyView>?
-
     /// 680-pt max column width, matching the original `LazyVStack`'s
     /// `.frame(maxWidth: 680)`. Beyond this the column would feel cavernous
     /// for reading-oriented content (long line lengths hurt scanability).
     static let columnMaxWidth: CGFloat = 680
 
-    /// Install or update the SwiftUI rootView for this cell. Width-clamp
-    /// and centering happen here at the AppKit layer (via autolayout
-    /// constraints on the hosting view) rather than as SwiftUI frame
-    /// modifiers on the rootView, because flexible SwiftUI frames confused
-    /// `NSHostingController.sizeThatFits(in:)` into 2-3× over-allocating
-    /// the measured height. See `makeRootView` for the structural reason.
+    /// Install a fresh SwiftUI host for this cell. A new `NSHostingView` is
+    /// created on every configure — we never swap `rootView` on a reused
+    /// host. Swapping rootView preserves stale SwiftUI layout state from the
+    /// previous post, causing height mismatches (diagnostic 2026-05-13:
+    /// cell.h=1112 host.fitting=286). The cell VIEW itself is reused via
+    /// `NSTableView.makeView(withIdentifier:owner:)`, which avoids the
+    /// expensive autolayout constraint setup; the host inside it is cheap to
+    /// recreate per configure.
     func configure(
         with row: FeedRow,
         channelService: ChannelService?,
         colorScheme: ColorScheme
     ) {
-        let view = Self.makeRootView(
-            for: row,
-            channelService: channelService,
-            colorScheme: colorScheme
-        )
+        // Tear down any previous host so constraints don't accumulate.
+        subviews.forEach { $0.removeFromSuperview() }
 
-        if let host = hostingView {
-            host.rootView = view
-        } else {
-            let host = NSHostingView(rootView: view)
-            host.translatesAutoresizingMaskIntoConstraints = false
-            addSubview(host)
-            // Width: clamp to `columnMaxWidth`, allow shrinking under that.
-            // Center horizontally in the cell. Top + bottom pinned so the
-            // cell's frame (set by NSTableView from `heightOfRow`) drives
-            // the hosting view's height exactly.
-            let widthCap = host.widthAnchor.constraint(
-                lessThanOrEqualToConstant: Self.columnMaxWidth
-            )
-            widthCap.priority = .required
-            let fillWidth = host.widthAnchor.constraint(equalTo: widthAnchor)
-            fillWidth.priority = .defaultHigh
-            NSLayoutConstraint.activate([
-                widthCap,
-                fillWidth,
-                host.centerXAnchor.constraint(equalTo: centerXAnchor),
-                host.topAnchor.constraint(equalTo: topAnchor),
-                host.bottomAnchor.constraint(equalTo: bottomAnchor),
-            ])
-            hostingView = host
-        }
+        wantsLayer = true
+        let view = Self.makeRootView(for: row, channelService: channelService, colorScheme: colorScheme)
+        let host = NSHostingView(rootView: view)
+        host.translatesAutoresizingMaskIntoConstraints = false
+        host.wantsLayer = true
+        addSubview(host)
+        // Width: clamp to `columnMaxWidth`, allow shrinking under that.
+        // Center horizontally in the cell. Top + bottom pinned so the
+        // cell's frame (set by NSTableView from `heightOfRow`) drives
+        // the hosting view's height exactly.
+        let widthCap = host.widthAnchor.constraint(lessThanOrEqualToConstant: Self.columnMaxWidth)
+        widthCap.priority = .required
+        let fillWidth = host.widthAnchor.constraint(equalTo: widthAnchor)
+        fillWidth.priority = .defaultHigh
+        NSLayoutConstraint.activate([
+            widthCap,
+            fillWidth,
+            host.centerXAnchor.constraint(equalTo: centerXAnchor),
+            host.topAnchor.constraint(equalTo: topAnchor),
+            host.bottomAnchor.constraint(equalTo: bottomAnchor),
+        ])
     }
 
-    /// Compute the natural height of a row at a given table width.
-    ///
-    /// Empirical findings (logged measurements across real channel data):
-    ///   • `NSHostingController.sizeThatFits(in:)` → 2-3× too large
-    ///     (chrome / presenting-context allowance gets included).
-    ///   • `NSHostingView.intrinsicContentSize` → collapses aspect-ratio
-    ///     views to zero so image rows clip badly.
-    ///   • `NSHostingView.sizeThatFits(_:)` → respects aspect modifiers
-    ///     (image rows reserve correct space) without the chrome
-    ///     inflation. This is the one.
-    ///
-    /// The proposed size is `width` × unbounded; `NSHostingView` lays out
-    /// at the width and returns the natural height including space for
-    /// `aspectRatio(_:contentMode: .fit)` media tiles.
     /// Build the SwiftUI view tree to host for a given row.
     ///
     /// Does NOT include outer flexible frames (`.frame(maxWidth: .infinity)`
@@ -132,4 +109,3 @@ struct UnreadDivider: View {
             .frame(height: 1)
     }
 }
-

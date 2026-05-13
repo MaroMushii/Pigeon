@@ -31,6 +31,13 @@ enum AppLog {
     static let net     = Logger(subsystem: subsystem, category: "Net")
     /// Mirror fetch, manifest, health.json, schema-version checks.
     static let mirror  = Logger(subsystem: subsystem, category: "Mirror")
+
+    /// Signposter for `os_signpost` intervals. Visible in Instruments under
+    /// the `Points of Interest` instrument and queryable via
+    /// `python3 analyze_trace.py --list-signposts`. Use for code regions
+    /// where we want to attribute wall-clock time across traces — e.g.
+    /// bulk row-height measurement, channel switch, mirror fetch.
+    static let signpost = OSSignposter(subsystem: subsystem, category: .pointsOfInterest)
 }
 
 extension Logger {
