@@ -83,7 +83,7 @@ struct PostCard: View {
                     // covers the "I want this text" need; partial-text
                     // drag-selection is the only feature lost.
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .environment(\.layoutDirection, post.plainText.dominantWritingDirection)
+                    .environment(\.layoutDirection, post.layoutDirection)
             }
 
             if !post.reactions.isEmpty {

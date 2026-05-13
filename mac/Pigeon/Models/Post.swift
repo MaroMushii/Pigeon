@@ -1,5 +1,6 @@
 import Foundation
 import SwiftData
+import SwiftUI
 
 /// Value-type snapshot of a `Post` for the feed UI. `PostCard` takes this
 /// instead of the live `@Model` so SwiftUI cannot observe individual
@@ -18,6 +19,12 @@ struct PostDisplaySnapshot: Identifiable, Equatable {
     let permalink: URL?
     let media: [MediaSnapshot]
     let reactions: [ReactionSnapshot]
+    /// Pre-computed at snapshot construction so the per-render BIDI scan
+    /// over `plainText.unicodeScalars` doesn't run on every PostCard body
+    /// evaluation + every NSTableView row-height measurement. Without this,
+    /// `dominantWritingDirection` accounted for ~14% of CPU during scroll
+    /// (Instruments SwiftUI trace, 2026-05-13). See WritingDirection.swift.
+    let layoutDirection: LayoutDirection
 }
 
 extension Post {
@@ -41,7 +48,8 @@ extension Post {
                     aspectRatio: $0.aspectRatio
                 )
             },
-            reactions: reactions.map { ReactionSnapshot(emoji: $0.emoji, count: $0.count) }
+            reactions: reactions.map { ReactionSnapshot(emoji: $0.emoji, count: $0.count) },
+            layoutDirection: plainText.dominantWritingDirection
         )
     }
 }
