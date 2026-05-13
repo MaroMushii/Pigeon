@@ -87,6 +87,61 @@ ship bump:
     # the dry-run and the actual push.
     mac/scripts/release.sh --version "$next" --confirm
 
+# Subsystem used by AppLog. Single source of truth for the log predicates below.
+log_subsystem := "dev.MaroMushii.Pigeon"
+
+# Tail Pigeon logs live. Examples:
+#   just logs                 # everything Pigeon emits, live
+#   just logs scroll          # only Scroll, live
+#   just logs measure         # only row-height measurement, live
+# Categories: scroll, mount, measure, visible, feed, net, mirror, all (default). Ctrl-C to stop.
+logs category="all":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    cat=$(echo "{{category}}" | tr '[:upper:]' '[:lower:]')
+    if [[ "$cat" == "all" ]]; then
+      pred='subsystem == "{{log_subsystem}}"'
+    else
+      # First letter uppercase to match AppLog category strings ("Scroll", "Measure", ...).
+      capped="$(tr '[:lower:]' '[:upper:]' <<< ${cat:0:1})${cat:1}"
+      pred='subsystem == "{{log_subsystem}}" AND category == "'"$capped"'"'
+    fi
+    echo "==> tailing $cat — Ctrl-C to stop"
+    exec log stream --style compact --level info --predicate "$pred"
+
+# Dump last <duration> of Pigeon logs and exit. Examples:
+#   just logs-since                       # all categories, last 5m
+#   just logs-since scroll                # Scroll only, last 5m
+#   just logs-since measure 30s           # Measure only, last 30s
+# Duration syntax: 30s, 5m, 1h. Categories: same vocab as `just logs`.
+logs-since category="all" duration="5m":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    cat=$(echo "{{category}}" | tr '[:upper:]' '[:lower:]')
+    if [[ "$cat" == "all" ]]; then
+      pred='subsystem == "{{log_subsystem}}"'
+    else
+      capped="$(tr '[:lower:]' '[:upper:]' <<< ${cat:0:1})${cat:1}"
+      pred='subsystem == "{{log_subsystem}}" AND category == "'"$capped"'"'
+    fi
+    echo "==> dumping $cat (last {{duration}})"
+    log show --style compact --info --debug --last {{duration}} --predicate "$pred"
+
+# Record an Instruments SwiftUI trace of the running app → ~/Desktop/pigeon-<ts>.trace
+# Example: just trace 20    # 20-second trace; default 15s. App must already be running.
+trace seconds="15":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    ts=$(date +%Y%m%d-%H%M%S)
+    out="$HOME/Desktop/pigeon-$ts.trace"
+    echo "==> recording SwiftUI trace for {{seconds}}s → $out"
+    xcrun xctrace record \
+      --template "SwiftUI" \
+      --attach Pigeon \
+      --time-limit {{seconds}}s \
+      --output "$out"
+    echo "==> done. Open in Instruments:  open '$out'"
+
 # Mirror typecheck (offline; useful before pushing schema changes)
 mirror-check:
     cd mirror && pnpm typecheck

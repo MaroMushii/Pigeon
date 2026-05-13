@@ -2,20 +2,10 @@ import SwiftUI
 import SwiftData
 import Nuke
 import NukeUI
-import os
-
-/// Temporary debug channel for scroll-memory / restore investigation. Routes
-/// through unified log so `log show --predicate 'subsystem == ...' --last 5m`
-/// can pick the entries up even when the app is launched outside of Xcode.
-private let scrollLog = Logger(subsystem: "dev.MaroMushii.Pigeon", category: "ScrollMem")
-
-/// Bypass Logger's default `<private>` redaction on dynamic strings.
-/// Logger marks String interpolations as private by default for PII safety;
-/// for this debug session we explicitly opt into `.public` so channel
-/// usernames, post ids, etc. surface in `log show`.
-internal func slog(_ message: String) {
-    scrollLog.notice("\(message, privacy: .public)")
-}
+// Logging lives in Support/AppLog.swift. Topic-keyed Loggers per
+// category; tail with `just logs <category>`. The categories used in
+// this file are AppLog.feed (lifecycle) and AppLog.scroll (save/restore
+// + re-click cycle).
 
 /// Right-hand pane: scrolls a stream of fully-rendered posts for the
 /// currently selected channel. No separate detail view — Telegram channels
@@ -201,7 +191,7 @@ private struct ChannelFeedContent: View {
         let resolvedFirstUnreadID = hasReadPost ? firstUnread : nil
         _firstUnreadID = State(initialValue: resolvedFirstUnreadID)
         _rows = State(initialValue: Self.buildRows(posts: sorted, firstUnreadID: resolvedFirstUnreadID))
-        slog("init @\(channel.username) postCount=<\(sorted.count)>")
+        AppLog.scroll.pub("init @\(channel.username) postCount=<\(sorted.count)>")
     }
 
     /// Build the unified row stream — divider injected in place ahead of
@@ -344,7 +334,7 @@ private struct ChannelFeedContent: View {
         revealTask = Task { @MainActor in
             try? await Task.sleep(for: .milliseconds(80))
             guard !Task.isCancelled else { return }
-            slog("reveal @\(channel.username) — phase=.ready")
+            AppLog.scroll.pub("reveal @\(channel.username) — phase=.ready")
             withAnimation(.easeOut(duration: 0.12)) {
                 phase = .ready
             }
@@ -382,32 +372,32 @@ private struct ChannelFeedContent: View {
     /// later — to absorb LazyVStack's estimated-vs-measured offset drift
     /// for targets outside the initial realization window.
     private func applyInitialScroll(saved: ChannelScrollMemory.Position?, proxy: ScrollViewProxy) {
-        slog("applyInitialScroll @\(channel.username): saved=<\(String(describing: saved))> firstUnreadID=<\(firstUnreadID ?? "nil")> rowCount=<\(rows.count)>")
+        AppLog.scroll.pub("applyInitialScroll @\(channel.username): saved=<\(String(describing: saved))> firstUnreadID=<\(firstUnreadID ?? "nil")> rowCount=<\(rows.count)>")
         switch saved {
         case .bottom:
-            slog("  → scrollTo(feed-bottom)")
+            AppLog.scroll.pub("  → scrollTo(feed-bottom)")
             scrollToBottom(proxy: proxy)
         case .unreadDivider(let anchor):
             if firstUnreadID == anchor {
-                slog("  → scrollTo(unread-divider) — anchor still firstUnread")
+                AppLog.scroll.pub("  → scrollTo(unread-divider) — anchor still firstUnread")
                 proxy.scrollTo("unread-divider", anchor: dividerAnchor)
             } else {
                 // Divider concept lost (everything got marked read, or the
                 // anchor post itself got marked read individually). Scroll
                 // to the anchor post directly so the user lands on the
                 // same content they were reading.
-                slog("  → fallback scrollTo(anchor=<\(anchor)>) — firstUnreadID now <\(firstUnreadID ?? "nil")>")
+                AppLog.scroll.pub("  → fallback scrollTo(anchor=<\(anchor)>) — firstUnreadID now <\(firstUnreadID ?? "nil")>")
                 proxy.scrollTo(anchor, anchor: offsetAnchor)
             }
         case .offset(let postID):
-            slog("  → scrollTo(post=<\(postID)>) — exists in rows: <\(rows.contains { if case .post(let s) = $0 { return s.id == postID } else { return false } })>")
+            AppLog.scroll.pub("  → scrollTo(post=<\(postID)>) — exists in rows: <\(rows.contains { if case .post(let s) = $0 { return s.id == postID } else { return false } })>")
             proxy.scrollTo(postID, anchor: offsetAnchor)
         case .none:
             if firstUnreadID != nil {
-                slog("  → cold-launch scrollTo(unread-divider)")
+                AppLog.scroll.pub("  → cold-launch scrollTo(unread-divider)")
                 proxy.scrollTo("unread-divider", anchor: dividerAnchor)
             } else {
-                slog("  → cold-launch scrollTo(feed-bottom)")
+                AppLog.scroll.pub("  → cold-launch scrollTo(feed-bottom)")
                 scrollToBottom(proxy: proxy)
             }
         }
@@ -447,20 +437,20 @@ private struct ChannelFeedContent: View {
     /// because the floating jump-to-latest button no longer makes sense.
     private func advanceReclickCycle() {
         let hasUnread = firstUnreadID != nil
-        slog("reclick @\(channel.username): isAtBottom=<\(prefetch.isAtBottom)> hasUnread=<\(hasUnread)> dividerVis=<\(unreadDividerVisible)>")
+        AppLog.scroll.pub("reclick @\(channel.username): isAtBottom=<\(prefetch.isAtBottom)> hasUnread=<\(hasUnread)> dividerVis=<\(unreadDividerVisible)>")
 
         if prefetch.isAtBottom {
-            slog("  → no-op (at bottom)")
+            AppLog.scroll.pub("  → no-op (at bottom)")
             return
         }
 
         if hasUnread && !unreadDividerVisible {
-            slog("  → scrollToUnread")
+            AppLog.scroll.pub("  → scrollToUnread")
             scrollToUnread(animated: true)
             return
         }
 
-        slog("  → scrollToLatest")
+        AppLog.scroll.pub("  → scrollToLatest")
         scrollToLatest(animated: true)
         unseenCount = 0
     }
@@ -484,10 +474,10 @@ private struct ChannelFeedContent: View {
         } else if let topID = prefetch.topmostVisiblePostID {
             position = .offset(postID: topID)
         } else {
-            slog("save @\(channel.username): SKIP — isAtBottom=<false> dividerVis=<false> topmost=<nil>")
+            AppLog.scroll.pub("save @\(channel.username): SKIP — isAtBottom=<false> dividerVis=<false> topmost=<nil>")
             return
         }
-        slog("save @\(channel.username): <\(String(describing: position))> isAtBottom=<\(prefetch.isAtBottom)> dividerVis=<\(unreadDividerVisible)> topmost=<\(prefetch.topmostVisiblePostID ?? "nil")>")
+        AppLog.scroll.pub("save @\(channel.username): <\(String(describing: position))> isAtBottom=<\(prefetch.isAtBottom)> dividerVis=<\(unreadDividerVisible)> topmost=<\(prefetch.topmostVisiblePostID ?? "nil")>")
         scrollMemory.save(position, for: channel.persistentModelID)
     }
 

@@ -19,6 +19,11 @@
 .cartog.db-shm
 .cartog.db-wal
 
+# Python bytecode (skill scripts under .agents/ run Python — Python
+# leaves __pycache__/*.pyc next to each module on import)
+__pycache__/
+*.pyc
+
 # Node (mirror/, cf-dispatcher/)
 node_modules/
 *.log

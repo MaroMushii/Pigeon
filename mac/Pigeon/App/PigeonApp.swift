@@ -19,6 +19,11 @@ struct PigeonApp: App {
     // (XPC handoff requires matching code signatures on both sides).
     @State private var updateMonitor = UpdateMonitor()
 
+    /// Process-lifetime memory of each channel's last-seen scroll position.
+    /// Empty on cold launch — by design, so the first open of any channel
+    /// lands on the unread divider.
+    @State private var scrollMemory = ChannelScrollMemory()
+
     init() {
         configureNukeWithPinnedTransport()
     }
@@ -52,6 +57,7 @@ struct PigeonApp: App {
                 .environment(environment.searchStore)
                 .environment(\.channelService, environment.service)
                 .environment(updateMonitor)
+                .environment(scrollMemory)
                 .frame(minWidth: 680, minHeight: 560)
                 .task {
                     // Sync the dock badge to whatever's already persisted

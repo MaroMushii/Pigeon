@@ -36,7 +36,7 @@ struct ChannelSidebar: View {
                             TapGesture()
                                 .onEnded {
                                     guard appState.selectedChannelID == channel.persistentModelID else { return }
-                                    slog("sidebar.reclick @\(channel.username)")
+                                    AppLog.scroll.pub("sidebar.reclick @\(channel.username)")
                                     appState.scrollToLatestToken = UUID()
                                 }
                         )

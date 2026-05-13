@@ -58,6 +58,7 @@ struct FeedTableView: NSViewRepresentable {
         tableView.allowsColumnResizing = false
         tableView.allowsEmptySelection = true
         tableView.focusRingType = .none
+        tableView.columnAutoresizingStyle = .uniformColumnAutoresizingStyle
 
         let column = NSTableColumn(identifier: NSUserInterfaceItemIdentifier("feed"))
         column.resizingMask = .autoresizingMask
@@ -74,7 +75,34 @@ struct FeedTableView: NSViewRepresentable {
         tableView.dataSource = coordinator
 
         scrollView.documentView = tableView
+
+        // Observe frame changes on the table so we can invalidate height
+        // cache and re-ask `heightOfRow` once the scroll view has actually
+        // been laid out with a real width. Without this, initial
+        // `reloadData` fires while the table is at its tiny default
+        // bounds (~100pt) — every cell gets measured at that width,
+        // text wraps to dozens of lines, heights end up in the
+        // thousands of points, and `NSTableView` happily caches those
+        // wrong values forever because we never tell it to re-ask.
+        tableView.postsFrameChangedNotifications = true
+        coordinator.frameObserver = NotificationCenter.default.addObserver(
+            forName: NSView.frameDidChangeNotification,
+            object: tableView,
+            queue: .main
+        ) { [weak coordinator] _ in
+            MainActor.assumeIsolated {
+                coordinator?.handleTableFrameChange()
+            }
+        }
+
         return scrollView
+    }
+
+    static func dismantleNSView(_ nsView: NSScrollView, coordinator: Coordinator) {
+        if let observer = coordinator.frameObserver {
+            NotificationCenter.default.removeObserver(observer)
+            coordinator.frameObserver = nil
+        }
     }
 
     func updateNSView(_ scrollView: NSScrollView, context: Context) {
@@ -111,6 +139,25 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         host.sizingOptions = .intrinsicContentSize
         return host
     }()
+
+    /// Frame-change observer token. See `FeedTableView.makeNSView` for the
+    /// width-invalidation rationale.
+    var frameObserver: NSObjectProtocol?
+
+    /// Called when the table view's frame changes (e.g. window resize, or
+    /// the initial scroll-view layout pass that brings the table from its
+    /// tiny default bounds to its real size). Drops the height cache and
+    /// tells `NSTableView` to re-ask `heightOfRow` for every row.
+    func handleTableFrameChange() {
+        guard let tableView else { return }
+        let width = max(0, tableView.bounds.width)
+        let effectiveWidth = min(width, HostingTableCellView.columnMaxWidth)
+        guard effectiveWidth != lastMeasuredWidth, effectiveWidth > 0 else { return }
+        heightCache.removeAll(keepingCapacity: true)
+        lastMeasuredWidth = effectiveWidth
+        let indexes = IndexSet(0..<rows.count)
+        tableView.noteHeightOfRows(withIndexesChanged: indexes)
+    }
 
     func update(rows newRows: [FeedRow]) {
         // For step 1 we just reload. Step 7 will replace this with a
@@ -151,12 +198,16 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         if let cached = heightCache[feedRow.id] {
             return cached
         }
-        guard effectiveWidth > 0 else {
+        // Below 200pt the table hasn't been laid out yet — measuring at
+        // those widths produces absurd heights (text wraps to dozens of
+        // lines). Return a placeholder; the frame-change observer will
+        // invalidate + re-ask when the real width arrives.
+        guard effectiveWidth >= 200 else {
             return 280
         }
         let height = measureHeight(for: feedRow, width: effectiveWidth)
         heightCache[feedRow.id] = height
-        slog("measure row=<\(feedRow.id)> width=<\(Int(effectiveWidth))> → <\(Int(height))>")
+        AppLog.measure.pub("row=<\(feedRow.id)> width=<\(Int(effectiveWidth))> → <\(Int(height))>")
         return height
     }
 
@@ -193,9 +244,17 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
                 .frame(width: width)
                 .fixedSize(horizontal: false, vertical: true)
         )
+        // With `sizingOptions = .intrinsicContentSize` set on the host,
+        // SwiftUI's intrinsic size is exposed via the host's
+        // `intrinsicContentSize` (NOT `fittingSize`, which queries the
+        // AppKit autolayout pathway and falls back to screen bounds for
+        // an unrooted host — observed empirically as ~2117pt clamps).
+        // Explicit frame width grounds SwiftUI's layout at the target
+        // size before we read intrinsic.
+        measurementHost.frame = NSRect(x: 0, y: 0, width: width, height: 0)
         measurementHost.rootView = constrained
         measurementHost.layoutSubtreeIfNeeded()
-        return measurementHost.fittingSize.height
+        return measurementHost.intrinsicContentSize.height
     }
 
     func tableView(_ tableView: NSTableView, shouldSelectRow row: Int) -> Bool {
