@@ -100,13 +100,45 @@ struct AppEnvironment {
     let searchStore: SearchStore
     let settings: SettingsStore
 
+    /// Canonical store location: `~/Library/Application Support/dev.MaroMushii.Pigeon/default.store`.
+    /// On first run after this fix landed, the store may exist at the old
+    /// unscoped path (`~/Library/Application Support/default.store`); we move
+    /// all three SQLite files (main, -shm, -wal) before opening so existing
+    /// data is preserved.
+    private static func resolveStoreURL() -> URL {
+        let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+        let storeDir = appSupport.appendingPathComponent("dev.MaroMushii.Pigeon", isDirectory: true)
+        let storeURL = storeDir.appendingPathComponent("default.store")
+        try? FileManager.default.createDirectory(at: storeDir, withIntermediateDirectories: true)
+
+        let oldBase = appSupport.appendingPathComponent("default.store")
+        let fm = FileManager.default
+        if fm.fileExists(atPath: oldBase.path), !fm.fileExists(atPath: storeURL.path) {
+            for suffix in ["", "-shm", "-wal"] {
+                let src = appSupport.appendingPathComponent("default.store\(suffix)")
+                let dst = storeDir.appendingPathComponent("default.store\(suffix)")
+                guard fm.fileExists(atPath: src.path) else { continue }
+                try? fm.moveItem(at: src, to: dst)
+            }
+        }
+
+        return storeURL
+    }
+
     init() {
         let schema = Schema([Channel.self, Post.self, Media.self, Reaction.self])
-        let configuration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-        // SwiftData container construction is documented as throwing only
-        // for malformed schemas or unwritable storage — both are
-        // fatal-at-launch failures we cannot meaningfully recover from.
-        let container = try! ModelContainer(for: schema, configurations: configuration)
+        let storeURL = Self.resolveStoreURL()
+        let configuration = ModelConfiguration(schema: schema, url: storeURL)
+        let container: ModelContainer
+        do {
+            container = try ModelContainer(
+                for: schema,
+                migrationPlan: PigeonMigrationPlan.self,
+                configurations: configuration
+            )
+        } catch {
+            fatalError("SwiftData failed to open store at <\(storeURL.path)>: \(error)")
+        }
         let settings = SettingsStore()
         let client = TelegramClient()
         let service = ChannelService(client: client, context: container.mainContext, settings: settings)

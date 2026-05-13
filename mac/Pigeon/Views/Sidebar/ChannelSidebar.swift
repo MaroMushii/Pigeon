@@ -26,17 +26,20 @@ struct ChannelSidebar: View {
                     ForEach(channels) { channel in
                         ChannelRow(channel: channel)
                         .tag(channel.persistentModelID)
-                        .overlay {
-                            if appState.selectedChannelID == channel.persistentModelID {
-                                Button {
+                        // Re-click detection. `List(selection:)` swallows the
+                        // click before any overlay `Button` receives it, so the
+                        // previous overlay approach silently never fired.
+                        // `simultaneousGesture` runs alongside List's selection
+                        // handler — both fire on every click; we filter to
+                        // "the channel that's already selected" for re-clicks.
+                        .simultaneousGesture(
+                            TapGesture()
+                                .onEnded {
+                                    guard appState.selectedChannelID == channel.persistentModelID else { return }
+                                    slog("sidebar.reclick @\(channel.username)")
                                     appState.scrollToLatestToken = UUID()
-                                } label: {
-                                    Color.clear.contentShape(Rectangle())
                                 }
-                                .buttonStyle(.plain)
-                                .accessibilityHidden(true)
-                            }
-                        }
+                        )
                         .contextMenu {
                             Button("Refresh") {
                                 if let service {

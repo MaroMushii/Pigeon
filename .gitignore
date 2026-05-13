@@ -14,6 +14,11 @@
 # (commands, agents, settings) are intentionally tracked.
 .claude/worktrees/
 
+# Cartog code-intelligence database
+.cartog.db
+.cartog.db-shm
+.cartog.db-wal
+
 # Node (mirror/, cf-dispatcher/)
 node_modules/
 *.log

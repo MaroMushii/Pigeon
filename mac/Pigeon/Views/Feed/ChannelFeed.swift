@@ -2,6 +2,20 @@ import SwiftUI
 import SwiftData
 import Nuke
 import NukeUI
+import os
+
+/// Temporary debug channel for scroll-memory / restore investigation. Routes
+/// through unified log so `log show --predicate 'subsystem == ...' --last 5m`
+/// can pick the entries up even when the app is launched outside of Xcode.
+private let scrollLog = Logger(subsystem: "dev.MaroMushii.Pigeon", category: "ScrollMem")
+
+/// Bypass Logger's default `<private>` redaction on dynamic strings.
+/// Logger marks String interpolations as private by default for PII safety;
+/// for this debug session we explicitly opt into `.public` so channel
+/// usernames, post ids, etc. surface in `log show`.
+internal func slog(_ message: String) {
+    scrollLog.notice("\(message, privacy: .public)")
+}
 
 /// Right-hand pane: scrolls a stream of fully-rendered posts for the
 /// currently selected channel. No separate detail view — Telegram channels
@@ -95,6 +109,7 @@ private struct ChannelFeedContent: View {
     let scrollToLatestToken: UUID?
 
     @Environment(\.channelService) private var service
+    @Environment(ChannelScrollMemory.self) private var scrollMemory
 
     /// Sorted display snapshots of `channel.posts` (ascending by postedAt).
     /// Using value-type snapshots instead of live `@Model` references means
@@ -105,6 +120,16 @@ private struct ChannelFeedContent: View {
     /// fine-grained property mutations. Seeded synchronously in `init` so
     /// the very first body evaluation already sees a populated array.
     @State private var sortedPosts: [PostDisplaySnapshot]
+
+    /// `sortedPosts` lifted into a unified row enum so the `ForEach` in
+    /// `feed(posts:)` produces *exactly one view per element*. The naive
+    /// shape — `if post.id == firstUnreadID { UnreadDivider() } PostCard()`
+    /// — gives the ForEach a variable child count, which breaks SwiftUI's
+    /// stable-identity contract and forces `LazyVStack` to re-realize rows
+    /// on every scroll past the initial window. That re-realization is
+    /// the source of the visible scroll-up jumping (estimated heights are
+    /// re-applied per re-realization, layout shifts).
+    @State private var rows: [FeedRow]
 
     /// Owns the image prefetcher and the rolling prefetch-window state. Held
     /// as a class instance (not raw `@State` value types) so visibility-driven
@@ -122,15 +147,33 @@ private struct ChannelFeedContent: View {
     /// Session-only; not written to `Post.isRead`.
     @State private var unseenCount: Int = 0
 
-    /// `true` while the channel is preparing on mount. Covers both the
-    /// cold-cache `AttributedHTMLBuilder` prewarm *and* the brief beat
-    /// where SwiftUI realizes the eager `VStack` of 20 PostCards (text
-    /// layout, media galleries, reactions, ScrollView measurement). Even
-    /// when the cache is warm, that realization isn't free, so we always
-    /// show a spinner on mount and clear the flag once `.task` completes
-    /// — by which point SwiftUI's layout pass for the feed has run
-    /// concurrently with the (possibly no-op) prewarm.
-    @State private var isPreparing: Bool = true
+    /// Three-step mount state machine — one source of truth for "what
+    /// should the view show right now."
+    ///
+    ///   `.preparing`   HTML prewarm + initial PostCard realization happen
+    ///                  off the visible path. Spinner only; feed not yet in
+    ///                  the hierarchy.
+    ///   `.layingOut`   Feed is in the hierarchy with `opacity(0)` so the
+    ///                  ScrollView measures itself and `onScrollGeometryChange`
+    ///                  can fire — but still under the spinner because the
+    ///                  scroll position hasn't been placed yet.
+    ///   `.ready`       Initial scroll has been applied; feed is revealed.
+    ///
+    /// Channel switches reset this via the `.id(channel.persistentModelID)`
+    /// on the parent.
+    enum MountPhase {
+        case preparing
+        case layingOut
+        case ready
+    }
+    @State private var phase: MountPhase = .preparing
+
+    /// Debounce handle for the `.layingOut → .ready` reveal. Every layout
+    /// change during `.layingOut` cancels and reschedules this; the reveal
+    /// fires once the geometry has been quiet for a single debounce window.
+    /// That gives us "wait for the lazy stack to settle" without guessing
+    /// how long realization will take.
+    @State private var revealTask: Task<Void, Never>?
 
     /// Id of the post above which the "Unread messages" divider is drawn.
     /// Captured once at mount from the *current* `isRead` state and never
@@ -155,7 +198,26 @@ private struct ChannelFeedContent: View {
         _sortedPosts = State(initialValue: sorted)
         let firstUnread = sorted.first { !$0.isRead }?.id
         let hasReadPost = sorted.contains { $0.isRead }
-        _firstUnreadID = State(initialValue: hasReadPost ? firstUnread : nil)
+        let resolvedFirstUnreadID = hasReadPost ? firstUnread : nil
+        _firstUnreadID = State(initialValue: resolvedFirstUnreadID)
+        _rows = State(initialValue: Self.buildRows(posts: sorted, firstUnreadID: resolvedFirstUnreadID))
+        slog("init @\(channel.username) postCount=<\(sorted.count)>")
+    }
+
+    /// Build the unified row stream — divider injected in place ahead of
+    /// `firstUnreadID`, never at the top (the divider's whole purpose is
+    /// "where you were when you opened this channel," so it lives between
+    /// rows, not above the first row).
+    private static func buildRows(posts: [PostDisplaySnapshot], firstUnreadID: String?) -> [FeedRow] {
+        var rows: [FeedRow] = []
+        rows.reserveCapacity(posts.count + 1)
+        for post in posts {
+            if post.id == firstUnreadID {
+                rows.append(.unreadDivider)
+            }
+            rows.append(.post(post))
+        }
+        return rows
     }
 
     var body: some View {
@@ -164,18 +226,26 @@ private struct ChannelFeedContent: View {
         Group {
             if posts.isEmpty {
                 EmptyFeedState(channel: channel, onRefresh: refresh)
-            } else if isPreparing {
-                // Mount window. Covers cold-cache HTML parsing (moved
-                // off-main in the `.task` below) *and* the brief beat
-                // where SwiftUI realizes 20 PostCard subtrees eagerly.
-                // The latter happens even on warm cache, so the spinner
-                // is unconditional — the user otherwise sees a stretch
-                // of "stale-feeling" emptiness while layout runs.
-                ProgressView()
-                    .controlSize(.small)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else {
-                feed(posts: posts)
+                ZStack {
+                    if phase != .preparing {
+                        // Feed enters the hierarchy at `.layingOut` so the
+                        // ScrollView measures itself and `onScrollGeometryChange`
+                        // can place the scroll target — held invisible until
+                        // `.ready`, otherwise the user sees a flash of
+                        // top-of-feed before the proxy jumps to position.
+                        feed(posts: posts)
+                            .opacity(phase == .ready ? 1 : 0)
+                    }
+                    if phase != .ready {
+                        // Single spinner across `.preparing` and `.layingOut`
+                        // — the user shouldn't be able to tell which phase
+                        // we're in, only that the channel is loading.
+                        ProgressView()
+                            .controlSize(.small)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    }
+                }
             }
         }
         .background {
@@ -200,22 +270,21 @@ private struct ChannelFeedContent: View {
                     }
                 }.value
             }
-            isPreparing = false
             prefetch.setPosts(sortedPosts)
-            // Initial scroll target is set in `feed(posts:)`'s `.task`,
-            // not here: this `.task` runs while `isPreparing == true`
-            // (the `ProgressView` branch), so the `ScrollView` doesn't
-            // exist yet and `scrollPosition.scrollTo` has nothing to
-            // bind to. Calling it from the feed view's own `.task`
-            // guarantees the binding is live before we ask it to move.
+            // With the AppKit bridge replacing LazyVStack, `NSTableView`
+            // measures all rows synchronously via its delegate and lays out
+            // deterministically — no convergence/reveal dance needed.
+            // Go straight `.preparing → .ready`.
+            phase = .ready
         }
         .onChange(of: scrollToLatestToken) { _, _ in
-            guard !isPreparing else { return }
-            scrollToUnread(animated: true)
-            unseenCount = 0
+            guard phase == .ready else { return }
+            advanceReclickCycle()
         }
         .onDisappear {
+            saveCurrentPosition()
             prefetch.cancelAll()
+            revealTask?.cancel()
         }
     }
 
@@ -238,65 +307,15 @@ private struct ChannelFeedContent: View {
 
     @ViewBuilder
     private func feed(posts: [PostDisplaySnapshot]) -> some View {
-        // `ScrollViewReader` gives a `ScrollViewProxy` for programmatic
-        // scrolling without requiring a `@State` binding. The previous
-        // `.scrollPosition($scrollPosition)` approach stored `ScrollPosition`
-        // in `@State`, so every `scrollToLatest` call mutated `@State` and
-        // scheduled a body re-run. That re-run created new `onVisibilityChange`
-        // closures, which caused every visible `PostCard` to re-evaluate,
-        // which re-fired visibility callbacks, which wrote `isAtBottom`,
-        // which scheduled another body re-run — a feedback loop hitting
-        // ~16 k re-renders/sec under the refresh window (confirmed in trace).
-        // The proxy lives on `prefetch` (a class) so writes are invisible to
-        // SwiftUI's observation graph.
-        ScrollViewReader { proxy in
-            ZStack(alignment: .bottomTrailing) {
-                ScrollView {
-                    LazyVStack(alignment: .leading, spacing: 16) {
-                        // Row identity is `post.id` (a unique String) so new
-                        // posts arriving at the last index from auto-refresh
-                        // don't force every row to re-render.
-                        ForEach(posts, id: \.id) { post in
-                            if post.id == firstUnreadID {
-                                UnreadDivider()
-                                    .id("unread-divider")
-                                    .onAppear { unreadDividerVisible = true }
-                                    .onDisappear { unreadDividerVisible = false }
-                            }
-                            PostCard(post: post, onVisibilityChange: { visible in
-                                if visible {
-                                    prefetch.handleVisible(postID: post.id)
-                                }
-                                if post.id == posts.last?.id {
-                                    // Write to the controller, not @State —
-                                    // avoids scheduling a body re-run on every
-                                    // visibility flip of the bottom row.
-                                    prefetch.isAtBottom = visible
-                                    // `@State` deduplication prevents a re-run
-                                    // when unseenCount is already 0, which is
-                                    // the common case when the user is at bottom.
-                                    if visible { unseenCount = 0 }
-                                }
-                            })
-                        }
-                        // Sentinel: scrollToLatest targets this so the full
-                        // bottom padding is inside the scroll target's frame.
-                        // Height (8pt) + VStack spacing (16pt) = 24pt gap
-                        // below the last post, matching the top padding.
-                        Color.clear
-                            .frame(height: 8)
-                            .id("feed-bottom")
-                    }
-                    .padding(.horizontal, 32)
-                    .padding(.top, 24)
-                    .frame(maxWidth: 680)
-                    .frame(maxWidth: .infinity, alignment: .center)
-                }
-                // Soft fade at the top edge so posts dissolve as they
-                // scroll behind the floating header rather than hard-clipping.
-                .softTopScrollEdgeEffect()
-                // Floating header: sits in the safe area so posts visibly
-                // pass behind it. Glass effect on macOS 26+, material on 15.
+        // AppKit-backed `NSTableView` bridge. Replaces the previous
+        // `ScrollView` + `LazyVStack` + `ScrollViewProxy` setup because
+        // SwiftUI's lazy stack APIs don't give us reliable scroll-to-row
+        // for variable-height cells at feed scale — see `FeedTableView`
+        // for the full rationale. Subsequent build steps will wire up
+        // save/restore, visibility tracking, and re-click commands; for
+        // now this is just the rendering substrate.
+        ZStack(alignment: .bottomTrailing) {
+            FeedTableView(rows: rows)
                 .safeAreaInset(edge: .top, spacing: 0) {
                     ChannelHeader(channel: channel)
                         .padding(.horizontal, 14)
@@ -308,27 +327,26 @@ private struct ChannelFeedContent: View {
                         .padding(.top, 6)
                         .padding(.bottom, 4)
                 }
-
-                // `FeedOverlay` owns the `unseenCount` observation so that
-                // scroll-driven zeroing and refresh-driven incrementing never
-                // re-run this view's body.
-                FeedOverlay(unseenCount: $unseenCount) {
-                    scrollToLatest(animated: true)
-                }
+            FeedOverlay(unseenCount: $unseenCount) {
+                // Step 6 will wire scrollToLatest to the bridge. Stub for now.
             }
-            .task {
-                // Capture the proxy on the controller so `scrollToLatest` can
-                // reach it without going through `@State`. Mount-time initial
-                // scroll: land on the unread boundary when available, otherwise
-                // jump to the newest post. `.center` anchor for the unread
-                // divider because the divider renders above its anchor post —
-                // a `.top` anchor would push the divider above the viewport.
-                prefetch.scrollProxy = proxy
-                if firstUnreadID != nil {
-                    proxy.scrollTo("unread-divider", anchor: UnitPoint(x: 0.5, y: 0.2))
-                } else {
-                    proxy.scrollTo("feed-bottom", anchor: .bottom)
-                }
+        }
+    }
+
+    /// Debounce-schedule the reveal: each call cancels the prior pending
+    /// reveal and reschedules. When the geometry stops changing — i.e. no
+    /// more `applyInitialScroll → contentSize → onScrollGeometryChange`
+    /// cycles — the last-scheduled task survives the debounce window and
+    /// flips us to `.ready`. Pure event-driven convergence; the only timing
+    /// primitive is the debounce window itself.
+    private func scheduleReveal() {
+        revealTask?.cancel()
+        revealTask = Task { @MainActor in
+            try? await Task.sleep(for: .milliseconds(80))
+            guard !Task.isCancelled else { return }
+            slog("reveal @\(channel.username) — phase=.ready")
+            withAnimation(.easeOut(duration: 0.12)) {
+                phase = .ready
             }
         }
     }
@@ -349,20 +367,128 @@ private struct ChannelFeedContent: View {
         }
     }
 
+    /// Anchor for the unread divider — keeps it in the upper fifth of the
+    /// viewport so the first unread post sits clearly *below* it instead of
+    /// being scrolled offscreen above.
+    private var dividerAnchor: UnitPoint { UnitPoint(x: 0.5, y: 0.2) }
+
+    /// Anchor for restoring a saved mid-stream offset — pins the target post
+    /// near the top with a small inset for breathing room beneath the
+    /// floating header.
+    private var offsetAnchor: UnitPoint { UnitPoint(x: 0.5, y: 0.08) }
+
+    /// Resolve and apply the mount-time scroll target. Called twice — once
+    /// at the first non-zero content-size measurement, and once one frame
+    /// later — to absorb LazyVStack's estimated-vs-measured offset drift
+    /// for targets outside the initial realization window.
+    private func applyInitialScroll(saved: ChannelScrollMemory.Position?, proxy: ScrollViewProxy) {
+        slog("applyInitialScroll @\(channel.username): saved=<\(String(describing: saved))> firstUnreadID=<\(firstUnreadID ?? "nil")> rowCount=<\(rows.count)>")
+        switch saved {
+        case .bottom:
+            slog("  → scrollTo(feed-bottom)")
+            scrollToBottom(proxy: proxy)
+        case .unreadDivider(let anchor):
+            if firstUnreadID == anchor {
+                slog("  → scrollTo(unread-divider) — anchor still firstUnread")
+                proxy.scrollTo("unread-divider", anchor: dividerAnchor)
+            } else {
+                // Divider concept lost (everything got marked read, or the
+                // anchor post itself got marked read individually). Scroll
+                // to the anchor post directly so the user lands on the
+                // same content they were reading.
+                slog("  → fallback scrollTo(anchor=<\(anchor)>) — firstUnreadID now <\(firstUnreadID ?? "nil")>")
+                proxy.scrollTo(anchor, anchor: offsetAnchor)
+            }
+        case .offset(let postID):
+            slog("  → scrollTo(post=<\(postID)>) — exists in rows: <\(rows.contains { if case .post(let s) = $0 { return s.id == postID } else { return false } })>")
+            proxy.scrollTo(postID, anchor: offsetAnchor)
+        case .none:
+            if firstUnreadID != nil {
+                slog("  → cold-launch scrollTo(unread-divider)")
+                proxy.scrollTo("unread-divider", anchor: dividerAnchor)
+            } else {
+                slog("  → cold-launch scrollTo(feed-bottom)")
+                scrollToBottom(proxy: proxy)
+            }
+        }
+    }
+
+    /// Scroll-to-bottom helper that also records our intent: after this
+    /// returns we *know* we're at the bottom, so we tell the controller
+    /// directly instead of waiting on the bottom row's visibility
+    /// callback. A refresh racing the callback would otherwise bump the
+    /// unseen badge instead of auto-scrolling for new posts.
+    private func scrollToBottom(proxy: ScrollViewProxy) {
+        proxy.scrollTo("feed-bottom", anchor: .bottom)
+        prefetch.markAtBottom()
+    }
+
     private func scrollToUnread(animated: Bool) {
         guard firstUnreadID != nil else {
             scrollToLatest(animated: animated)
             return
         }
-        guard unreadDividerVisible else { return }
-        let anchor = UnitPoint(x: 0.5, y: 0.2)
         if animated {
             withAnimation(.easeOut(duration: 0.25)) {
-                prefetch.scrollProxy?.scrollTo("unread-divider", anchor: anchor)
+                prefetch.scrollProxy?.scrollTo("unread-divider", anchor: dividerAnchor)
             }
         } else {
-            prefetch.scrollProxy?.scrollTo("unread-divider", anchor: anchor)
+            prefetch.scrollProxy?.scrollTo("unread-divider", anchor: dividerAnchor)
         }
+    }
+
+    /// Re-click on the already-selected channel cycles the scroll position:
+    ///
+    ///   somewhere mid-stream  →  unread divider  →  bottom  →  (no-op)
+    ///
+    /// When the channel has no unread posts the divider step is skipped
+    /// entirely — re-click just moves you to the bottom (or no-ops if you're
+    /// already there). `unseenCount` is cleared whenever we land at bottom
+    /// because the floating jump-to-latest button no longer makes sense.
+    private func advanceReclickCycle() {
+        let hasUnread = firstUnreadID != nil
+        slog("reclick @\(channel.username): isAtBottom=<\(prefetch.isAtBottom)> hasUnread=<\(hasUnread)> dividerVis=<\(unreadDividerVisible)>")
+
+        if prefetch.isAtBottom {
+            slog("  → no-op (at bottom)")
+            return
+        }
+
+        if hasUnread && !unreadDividerVisible {
+            slog("  → scrollToUnread")
+            scrollToUnread(animated: true)
+            return
+        }
+
+        slog("  → scrollToLatest")
+        scrollToLatest(animated: true)
+        unseenCount = 0
+    }
+
+    /// Capture the current scroll position so a switch-back to this channel
+    /// can resume here. Called from `.onDisappear`, which fires when the
+    /// `.id(channel.persistentModelID)` on the parent destroys this subtree
+    /// on channel switch — so the controller's `isAtBottom` /
+    /// `topmostVisiblePostID` are still authoritative at this point.
+    private func saveCurrentPosition() {
+        let position: ChannelScrollMemory.Position
+        if prefetch.isAtBottom {
+            position = .bottom
+        } else if unreadDividerVisible, let anchor = firstUnreadID {
+            // Capture the divider's anchor post so the restore site has a
+            // concrete fallback even if `firstUnreadID` later becomes nil
+            // (the channel was auto-marked-as-read while away). Without
+            // this, the restore would silently fall through to feed-bottom
+            // and discard the user's reading position.
+            position = .unreadDivider(anchorPostID: anchor)
+        } else if let topID = prefetch.topmostVisiblePostID {
+            position = .offset(postID: topID)
+        } else {
+            slog("save @\(channel.username): SKIP — isAtBottom=<false> dividerVis=<false> topmost=<nil>")
+            return
+        }
+        slog("save @\(channel.username): <\(String(describing: position))> isAtBottom=<\(prefetch.isAtBottom)> dividerVis=<\(unreadDividerVisible)> topmost=<\(prefetch.topmostVisiblePostID ?? "nil")>")
+        scrollMemory.save(position, for: channel.persistentModelID)
     }
 
     private func recomputeSortedPosts() {
@@ -370,6 +496,7 @@ private struct ChannelFeedContent: View {
             .sorted { ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast) }
             .map { $0.displaySnapshot() }
         sortedPosts = sorted
+        rows = Self.buildRows(posts: sorted, firstUnreadID: firstUnreadID)
         prefetch.setPosts(sorted)
     }
 
@@ -494,11 +621,50 @@ private final class FeedPrefetchController {
     /// lived in `@State`.
     var scrollProxy: ScrollViewProxy?
 
-    /// Whether the last post in the feed is currently visible. Stored on the
-    /// controller (not as `@State`) for the same reason as `scrollProxy`:
-    /// visibility callbacks write this on every scroll frame and we cannot
-    /// afford a body re-run per write.
-    var isAtBottom: Bool = true
+    /// Whether the last post in the feed is currently in the viewport.
+    /// Stored on the controller (not as `@State`) for the same reason as
+    /// `scrollProxy`: the bottom row's visibility callback writes this on
+    /// every scroll frame and we cannot afford a body re-run per write.
+    ///
+    /// Defaults to `false`: a fresh mount that lands on the unread divider
+    /// (the cold-launch path) never has the bottom row in the viewport, so
+    /// the visibility callback won't fire `true` until the user actually
+    /// scrolls there. Defaulting to `true` would make the re-click cycle
+    /// short-circuit as "already at bottom" and silently no-op.
+    ///
+    /// External mutation goes through `markAtBottom()` / `setBottomVisible(_:)`
+    /// — the named methods document intent and keep the assignment site
+    /// greppable.
+    private(set) var isAtBottom: Bool = false
+
+    /// Called by the bottom row's `onVisibilityChange` callback. The flag
+    /// is *eventually consistent* with viewport state; `markAtBottom()`
+    /// exists for callers that have just programmatically scrolled there
+    /// and know the answer without waiting for the callback.
+    func setBottomVisible(_ visible: Bool) {
+        isAtBottom = visible
+    }
+
+    /// Record that we just programmatically scrolled to the bottom, so
+    /// downstream checks (refresh auto-scroll, re-click cycle) treat us
+    /// as at-bottom without waiting for the visibility callback to fire.
+    func markAtBottom() {
+        isAtBottom = true
+    }
+
+    /// Set of post ids currently inside the viewport. Updated from
+    /// `PostCard.onVisibilityChange` — same callback that already drives
+    /// prefetch — so no extra observation cost.
+    private var visiblePostIDs: Set<String> = []
+
+    /// Cached "oldest post currently on screen" — i.e. the *top* row in
+    /// our chronological feed (ascending by `postedAt`). Updated eagerly on
+    /// every visibility flip, *but only when the visible set is non-empty*,
+    /// so a teardown (channel switch) — which fires `false` callbacks for
+    /// every visible card before `.onDisappear` runs on the parent — never
+    /// clobbers the last good value. Read at save-time to record the user's
+    /// "continue from here" position.
+    private(set) var topmostVisiblePostID: String?
 
     private var orderedPosts: [PostDisplaySnapshot] = []
     private var indexByPostID: [String: Int] = [:]
@@ -516,6 +682,13 @@ private final class FeedPrefetchController {
             map[post.id] = i
         }
         indexByPostID = map
+        // Drop the cached topmost if it no longer references a known post
+        // (paranoia — `setPosts` is mostly called for incremental refreshes
+        // that preserve ids, but defensive against the case where a
+        // schema-version reset replaces the entire post set).
+        if let cached = topmostVisiblePostID, map[cached] == nil {
+            topmostVisiblePostID = nil
+        }
     }
 
     /// Slide the prefetch window to cover the N posts the user is about
@@ -524,6 +697,23 @@ private final class FeedPrefetchController {
     /// content — so the upcoming window is at *lower* indices than the
     /// currently visible row, not higher. Cheap enough to call on every
     /// scroll visibility flip — no allocations beyond the desired-set.
+    func setVisible(_ visible: Bool, postID: String) {
+        if visible {
+            visiblePostIDs.insert(postID)
+        } else {
+            visiblePostIDs.remove(postID)
+        }
+        // Refresh the cached topmost ONLY when something is still visible.
+        // During teardown SwiftUI fires `false` for every card before the
+        // parent's `.onDisappear` runs; clearing the cache here would erase
+        // the value we need a moment later in `saveCurrentPosition`.
+        guard !visiblePostIDs.isEmpty else { return }
+        topmostVisiblePostID = visiblePostIDs
+            .compactMap { id in indexByPostID[id].map { (id, $0) } }
+            .min(by: { $0.1 < $1.1 })?
+            .0
+    }
+
     func handleVisible(postID: String) {
         guard let index = indexByPostID[postID] else { return }
         let upper = index
@@ -638,37 +828,6 @@ private struct FeedEmptyState: View {
                 .controlSize(.regular)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-    }
-}
-
-/// Inline "Unread messages" rule, drawn above the first post the user
-/// hadn't read when this channel was opened. Position is frozen for the
-/// session by `ChannelFeedContent.firstUnreadID` — the divider stays put
-/// even after the dwell-driven `markRead` cascade flips its anchor post
-/// to read, so scrolling up after a channel switch reliably surfaces
-/// "this is where I was."
-private struct UnreadDivider: View {
-    var body: some View {
-        HStack(spacing: 10) {
-            rule
-            Text("Unread messages")
-                .font(.system(size: 10, weight: .semibold))
-                .tracking(0.6)
-                .textCase(.uppercase)
-                .foregroundStyle(.secondary)
-                .lineLimit(1)
-                .fixedSize(horizontal: true, vertical: false)
-            rule
-        }
-        .padding(.vertical, 2)
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("Unread messages below")
-    }
-
-    private var rule: some View {
-        Rectangle()
-            .fill(.separator)
-            .frame(height: 1)
     }
 }
 
