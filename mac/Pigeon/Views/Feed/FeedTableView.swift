@@ -107,9 +107,22 @@ struct FeedTableView: NSViewRepresentable {
 
     func updateNSView(_ scrollView: NSScrollView, context: Context) {
         let coordinator = context.coordinator
+        // Detect whether *anything* the cells care about actually changed.
+        // SwiftUI calls `updateNSView` on every parent re-render — environment
+        // pulses, binding writes, parent recomputes — and the previous
+        // implementation called `reloadData()` unconditionally on each one.
+        // `reloadData()` tears down every visible `NSHostingView`, which means
+        // every PostCard's `@State`, `@StateObject` (incl. LazyImage's image
+        // viewModel), and `.task(id:)` get rebuilt from scratch on every
+        // spurious update. A SwiftUI Instruments trace showed this as
+        // ~125k transaction edges into `LazyImage.viewModel` and ~100k into
+        // `_TaskValueModifier.taskState` over 20s — pure waste from cells
+        // that didn't need to change.
+        let envChanged = coordinator.channelService !== channelService
+            || coordinator.colorScheme != colorScheme
         coordinator.channelService = channelService
         coordinator.colorScheme = colorScheme
-        coordinator.update(rows: rows)
+        coordinator.update(rows: rows, envChanged: envChanged)
     }
 }
 
@@ -159,10 +172,21 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         tableView.noteHeightOfRows(withIndexesChanged: indexes)
     }
 
-    func update(rows newRows: [FeedRow]) {
-        // For step 1 we just reload. Step 7 will replace this with a
-        // proper diff + `insertRows`/`removeRows` for animated updates.
+    func update(rows newRows: [FeedRow], envChanged: Bool) {
+        // Skip the reload entirely when nothing the cells render has
+        // actually changed. `FeedRow` is `Equatable`, so this is a cheap
+        // O(n) compare on ~200 rows. See `updateNSView` for why this gate
+        // exists (collapses 90%+ of spurious cell teardowns).
+        let rowsChanged = newRows != rows
         rows = newRows
+        guard rowsChanged || envChanged else {
+            AppLog.feed.pub("update skipped — rows + env unchanged (n=\(newRows.count))")
+            return
+        }
+        AppLog.feed.pub("update reload — rowsChanged=\(rowsChanged) envChanged=\(envChanged) n=\(newRows.count)")
+        // For now we still do a full reload on legitimate change. Step 7
+        // will replace this with a `[FeedRow]` diff + `insertRows` /
+        // `removeRows` for animated updates and per-row preservation.
         tableView?.reloadData()
     }
 
