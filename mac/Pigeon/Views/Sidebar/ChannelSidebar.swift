@@ -10,6 +10,7 @@ struct ChannelSidebar: View {
     @Environment(AppState.self) private var appState
     @Environment(\.channelService) private var service
     @Environment(UpdateMonitor.self) private var updateMonitor
+    @Environment(\.colorScheme) private var colorScheme
 
     @State private var freshestMirrorFetch: Date?
 
@@ -22,60 +23,17 @@ struct ChannelSidebar: View {
                     appState.presentedSheet = .addChannel
                 }
             } else {
-                List(selection: $appState.selectedChannelID) {
-                    ForEach(channels) { channel in
-                        ChannelRow(channel: channel)
-                        .tag(channel.persistentModelID)
-                        // Re-click detection. `List(selection:)` swallows the
-                        // click before any overlay `Button` receives it, so the
-                        // previous overlay approach silently never fired.
-                        // `simultaneousGesture` runs alongside List's selection
-                        // handler — both fire on every click; we filter to
-                        // "the channel that's already selected" for re-clicks.
-                        .simultaneousGesture(
-                            TapGesture()
-                                .onEnded {
-                                    guard appState.selectedChannelID == channel.persistentModelID else { return }
-                                    AppLog.scroll.pub("sidebar.reclick @\(channel.username)")
-                                    appState.scrollToLatestToken = UUID()
-                                }
-                        )
-                        .contextMenu {
-                            Button("Refresh") {
-                                if let service {
-                                    Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
-                                }
-                            }
-                            if channel.unreadCount > 0 {
-                                Button("Mark as Read") {
-                                    service?.markAllRead(channel)
-                                }
-                            }
-                            Button("Open on telegram.org") {
-                                NSWorkspace.shared.open(channel.publicURL)
-                            }
-                            Button(channel.isMuted ? "Unmute" : "Mute") {
-                                service?.setMuted(channel, !channel.isMuted)
-                            }
-                            Divider()
-                            Button("Remove", role: .destructive) {
-                                service?.remove(channel)
-                                if appState.selectedChannelID == channel.persistentModelID {
-                                    appState.selectedChannelID = nil
-                                }
-                            }
-                            Divider()
-                            Section("@\(channel.username)") {
-                                if let subs = channel.subscriberCount, !subs.isEmpty {
-                                    Text("\(subs) subscribers")
-                                }
-                                Text("Updated \(Self.updatedLabel(channel.lastFetchedAt))")
-                                Text("\(channel.posts.count) posts cached")
-                            }
-                        }
-                    }
-                }
-                .listStyle(.sidebar)
+                SidebarTableView(
+                    channels: channels,
+                    selectedID: $appState.selectedChannelID,
+                    onReClick: { channel in
+                        AppLog.scroll.pub("sidebar.reclick @\(channel.username)")
+                        appState.scrollToLatestToken = UUID()
+                    },
+                    channelService: service,
+                    appState: appState,
+                    colorScheme: colorScheme
+                )
                 .safeAreaInset(edge: .bottom, spacing: 0) {
                     SidebarFooter(
                         schemaOutdated: service?.schemaOutdated ?? false,
@@ -104,22 +62,9 @@ struct ChannelSidebar: View {
         }
     }
 
-    /// Snapshot relative-time label for the context menu. Static so the
-    /// formatter is allocated once. Context menus are short-lived, so we
-    /// don't tick the value live like the sidebar footer does.
-    private static let relativeFormatter: RelativeDateTimeFormatter = {
-        let f = RelativeDateTimeFormatter()
-        f.unitsStyle = .short
-        return f
-    }()
-
-    private static func updatedLabel(_ date: Date?) -> String {
-        guard let date else { return "never" }
-        return relativeFormatter.localizedString(for: date, relativeTo: .now)
-    }
 }
 
-private struct ChannelRow: View {
+struct ChannelRow: View {
     let channel: Channel
 
     @Environment(\.channelService) private var service
@@ -365,3 +310,4 @@ private struct SidebarEmptyState: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
+
