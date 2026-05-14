@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-14T16:45:46.105Z",
+  "fetched_at": "2026-05-14T16:50:49.589Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -10,6 +10,68 @@
     "subscriber_count": "101K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3054",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/FCBKSulsz3FEnrE3X8cvoqSC_hUWGJ2foysUezhug_yQKW1pgASwxVxuKauI0BcR7-p_gDr3tV8jedGmIh3DPjsluMM4ZgaPb2NM4qErFDP-0a7zoBR_2s-47we1SMvJtf1_PZS4n58x0LNz8a91E56iL7JQjU3htPbRQv2Pb-pFLzWfqZHmlOhoTbmd8Lx0xJPeJ5pcBGfvmHuMQEBHqDasmGu5G7u5Qb_ZsBHyrEwPs_qgi5d0b2loc_NDc5ODuh7i9h1NkvI_p1162f3BypSPi0oK_JON0TRo-LFnyyDlfwbAAU8wvA8YPL36K7LjX86GUiyA3X0F9857Ixl7yg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/50e06e17f33a2efc127d93ed.jpg",
+      "body_html": "یکی از بچه‌ها(abol) گفته بودش که:<br><br><blockquote>از وقتی سرتیفیکیتو نصب کردم رو سیستم<br>دیگه نت سیستم به کل قطع شده<br>هر چی میگردم راهی برای حذف سرتیفیکیت پیدا نمیکنم</blockquote><br><br>و این شکلی مشکلش رو حل کرد:<br><blockquote expandable=\"\">ریست شبکه در ویندوز گاهی همه فایل‌ها رو پاکسازی نمی‌کنه. این دستورات رو در حالت ادمین امتحان کن:<br>توی منوی استارت تایپ کن cmd و روش راست‌کلیک کن و Run as Administrator رو بزن.<br>این دستورات رو یکی‌یکی وارد کن و بعد از هر کدوم اینتر بزن:<br>netsh winsock reset<br>netsh int ip reset<br>ipconfig /release<br>ipconfig /renew<br>ipconfig /flushdns<br>در نهایت سیستم رو Restart کن.</blockquote>",
+      "plain_text": "یکی از بچه‌ها(abol) گفته بودش که: از وقتی سرتیفیکیتو نصب کردم رو سیستم دیگه نت سیستم به کل قطع شده هر چی میگردم راهی برای حذف سرتیفیکیت پیدا نمیکنم و این شکلی مشکلش رو حل کرد: ریست شبکه در ویندوز گاهی همه فایل‌ها رو پاکسازی نمی‌کنه. این دستورات رو در حالت ادمین امتحان کن: توی منوی استارت تایپ کن cmd و روش راست‌کلیک کن و Run as Administrator رو بزن. این دستورات رو یکی‌یکی وارد کن و بعد از هر کدوم اینتر بزن: netsh winsock reset netsh int ip reset ipconfig /release ipconfig /renew ipconfig /flushdns در نهایت سیستم رو Restart کن.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "57"
+        },
+        {
+          "emoji": "👍",
+          "count": "5"
+        },
+        {
+          "emoji": "🔥",
+          "count": "4"
+        },
+        {
+          "emoji": "😁",
+          "count": "2"
+        }
+      ],
+      "views_label": "4.7K",
+      "posted_at": "2026-05-14T16:46:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3054"
+    },
+    {
+      "id": "MatinSenPaii/3053",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/FCBKSulsz3FEnrE3X8cvoqSC_hUWGJ2foysUezhug_yQKW1pgASwxVxuKauI0BcR7-p_gDr3tV8jedGmIh3DPjsluMM4ZgaPb2NM4qErFDP-0a7zoBR_2s-47we1SMvJtf1_PZS4n58x0LNz8a91E56iL7JQjU3htPbRQv2Pb-pFLzWfqZHmlOhoTbmd8Lx0xJPeJ5pcBGfvmHuMQEBHqDasmGu5G7u5Qb_ZsBHyrEwPs_qgi5d0b2loc_NDc5ODuh7i9h1NkvI_p1162f3BypSPi0oK_JON0TRo-LFnyyDlfwbAAU8wvA8YPL36K7LjX86GUiyA3X0F9857Ixl7yg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/50e06e17f33a2efc127d93ed.jpg",
+      "body_html": "دوستان من، خیلی ممنونم بابت حرف‌های پر از مهرتون<tg-emoji emoji-id=\"5370874393402556706\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA5B0.png')\"><b>🥰</b></i></tg-emoji> خیلی خیلی زیاد خوشحال شدم از دیدن اینهمه پیام‌ زیبا<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8CB1.png')\"><b>🌱</b></i>",
+      "plain_text": "دوستان من، خیلی ممنونم بابت حرف‌های پر از مهرتون🥰 خیلی خیلی زیاد خوشحال شدم از دیدن اینهمه پیام‌ زیبا🌱",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "😁",
+          "count": "969"
+        },
+        {
+          "emoji": "❤",
+          "count": "73"
+        },
+        {
+          "emoji": "😭",
+          "count": "13"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        }
+      ],
+      "views_label": "5.33K",
+      "posted_at": "2026-05-14T16:45:48+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3053"
+    },
     {
       "id": "MatinSenPaii/3052",
       "author_name": "Matin SenPai",
@@ -25,22 +87,22 @@
         },
         {
           "emoji": "❤",
-          "count": "391"
+          "count": "490"
         },
         {
           "emoji": "👍",
-          "count": "17"
+          "count": "18"
         },
         {
           "emoji": "😭",
-          "count": "10"
+          "count": "14"
         },
         {
           "emoji": "👎",
-          "count": "3"
+          "count": "4"
         }
       ],
-      "views_label": "5.07K",
+      "views_label": "9.21K",
       "posted_at": "2026-05-14T16:39:30+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3052"
@@ -59,12 +121,12 @@
           "count": "20"
         },
         {
-          "emoji": "❤",
-          "count": "1.11K"
+          "emoji": "😁",
+          "count": "1.2K"
         },
         {
-          "emoji": "😁",
-          "count": "294"
+          "emoji": "❤",
+          "count": "1.16K"
         },
         {
           "emoji": "🔥",
@@ -72,10 +134,10 @@
         },
         {
           "emoji": "👍",
-          "count": "43"
+          "count": "44"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "17.3K",
       "posted_at": "2026-05-14T16:12:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3051"
@@ -91,7 +153,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "333"
+          "count": "346"
         },
         {
           "emoji": "💔",
@@ -99,14 +161,14 @@
         },
         {
           "emoji": "👍",
-          "count": "28"
+          "count": "29"
         },
         {
           "emoji": "🔥",
           "count": "13"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "26.1K",
       "posted_at": "2026-05-14T15:22:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3050"
@@ -126,22 +188,22 @@
         },
         {
           "emoji": "❤",
-          "count": "3.68K"
+          "count": "3.72K"
         },
         {
           "emoji": "😁",
-          "count": "501"
+          "count": "505"
         },
         {
           "emoji": "🔥",
-          "count": "170"
+          "count": "171"
         },
         {
           "emoji": "👍",
-          "count": "65"
+          "count": "66"
         }
       ],
-      "views_label": "31.4K",
+      "views_label": "33.9K",
       "posted_at": "2026-05-14T13:58:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3049"
@@ -171,7 +233,7 @@
         },
         {
           "emoji": "❤",
-          "count": "316"
+          "count": "324"
         },
         {
           "emoji": "👍",
@@ -186,7 +248,7 @@
           "count": "7"
         }
       ],
-      "views_label": "31.9K",
+      "views_label": "34K",
       "posted_at": "2026-05-14T13:52:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3048"
@@ -202,7 +264,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "157"
+          "count": "161"
         },
         {
           "emoji": "👍",
@@ -217,7 +279,7 @@
           "count": "4"
         }
       ],
-      "views_label": "31.5K",
+      "views_label": "32.9K",
       "posted_at": "2026-05-14T13:47:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3047"
@@ -233,11 +295,11 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "184"
+          "count": "185"
         },
         {
           "emoji": "❤",
-          "count": "64"
+          "count": "65"
         },
         {
           "emoji": "👎",
@@ -245,10 +307,10 @@
         },
         {
           "emoji": "👍",
-          "count": "9"
+          "count": "10"
         }
       ],
-      "views_label": "38.5K",
+      "views_label": "39.8K",
       "posted_at": "2026-05-14T12:40:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3046"
@@ -288,7 +350,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "543"
+          "count": "547"
         },
         {
           "emoji": "😨",
@@ -303,7 +365,7 @@
           "count": "8"
         }
       ],
-      "views_label": "36K",
+      "views_label": "36.3K",
       "posted_at": "2026-05-14T12:32:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3044"
@@ -323,7 +385,7 @@
         },
         {
           "emoji": "❤",
-          "count": "455"
+          "count": "460"
         },
         {
           "emoji": "👍",
@@ -338,7 +400,7 @@
           "count": "7"
         }
       ],
-      "views_label": "35.7K",
+      "views_label": "36K",
       "posted_at": "2026-05-14T12:20:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3043"
@@ -364,7 +426,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "1.1K"
+          "count": "1.11K"
         },
         {
           "emoji": "😁",
@@ -379,7 +441,7 @@
           "count": "20"
         }
       ],
-      "views_label": "36K",
+      "views_label": "36.3K",
       "posted_at": "2026-05-14T12:13:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3042"
@@ -432,7 +494,7 @@
         },
         {
           "emoji": "❤",
-          "count": "350"
+          "count": "353"
         },
         {
           "emoji": "👎",
@@ -447,7 +509,7 @@
           "count": "19"
         }
       ],
-      "views_label": "43.8K",
+      "views_label": "44.2K",
       "posted_at": "2026-05-14T12:04:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3039"
@@ -467,11 +529,11 @@
         },
         {
           "emoji": "❤",
-          "count": "648"
+          "count": "655"
         },
         {
           "emoji": "👎",
-          "count": "163"
+          "count": "167"
         },
         {
           "emoji": "👍",
@@ -482,7 +544,7 @@
           "count": "17"
         }
       ],
-      "views_label": "52.6K",
+      "views_label": "53.2K",
       "posted_at": "2026-05-14T12:01:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3038"
@@ -498,11 +560,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "843"
+          "count": "846"
         },
         {
           "emoji": "❤",
-          "count": "93"
+          "count": "94"
         },
         {
           "emoji": "👍",
@@ -513,7 +575,7 @@
           "count": "17"
         }
       ],
-      "views_label": "36.6K",
+      "views_label": "36.9K",
       "posted_at": "2026-05-14T11:51:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3037"
@@ -529,7 +591,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "463"
+          "count": "466"
         },
         {
           "emoji": "👍",
@@ -544,7 +606,7 @@
           "count": "6"
         }
       ],
-      "views_label": "36.6K",
+      "views_label": "36.9K",
       "posted_at": "2026-05-14T11:48:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3036"
@@ -574,7 +636,7 @@
         },
         {
           "emoji": "❤",
-          "count": "599"
+          "count": "602"
         },
         {
           "emoji": "👎",
@@ -589,7 +651,7 @@
           "count": "24"
         }
       ],
-      "views_label": "54.7K",
+      "views_label": "55K",
       "posted_at": "2026-05-14T11:43:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3035"
