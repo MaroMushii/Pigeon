@@ -2,7 +2,7 @@
 # Orchestrates a Pigeon tagged release.
 #
 # What it does:
-#   1. Validates preconditions (on main, clean tree, in sync with origin).
+#   1. Validates preconditions (on main, clean tree, in sync with origin/main).
 #   2. Validates the requested X.Y.Z version (semver-shaped, not already taken,
 #      strictly newer than the latest existing tag).
 #   3. Shows the commits that will ship (everything since the latest tag).
@@ -68,18 +68,9 @@ TAG="v$VERSION"
 
 # --- Preconditions --------------------------------------------------------
 
-# Detect GitButler workspace mode. HEAD there is a virtual workspace
-# commit composed of every applied virtual branch — tagging it would
-# capture state that doesn't exist on main. In GitButler mode we tag
-# origin/main directly and require the user to have already landed
-# everything they want in the release (via `but land`).
-GITBUTLER_MODE=0
 HEAD_BRANCH="$(git symbolic-ref --short HEAD 2>/dev/null || echo "")"
-if [[ -d .git/gitbutler ]] || [[ "$HEAD_BRANCH" == gitbutler/* ]]; then
-  GITBUTLER_MODE=1
-fi
 
-if [[ "$GITBUTLER_MODE" -eq 0 && "$HEAD_BRANCH" != "main" ]]; then
+if [[ "$HEAD_BRANCH" != "main" ]]; then
   echo "release.sh: must be on 'main' (currently on '$HEAD_BRANCH')" >&2
   exit 1
 fi
@@ -98,45 +89,24 @@ if [[ -z "$REMOTE_HEAD" ]]; then
   exit 1
 fi
 
-if [[ "$GITBUTLER_MODE" -eq 1 ]]; then
-  # Tag origin/main directly. Anything not yet there has to be landed
-  # first (`but land <branch>`); we won't push the workspace meta-commit.
-  TAG_TARGET="$REMOTE_HEAD"
-  TAG_TARGET_LABEL="$REMOTE/main"
-
-  # Refuse to ship if the workspace has commits that aren't on origin/main.
-  # We'd otherwise tag origin/main behind the user's back, releasing a
-  # state that excludes their applied virtual branches. The workspace
-  # meta-commit itself counts as one of these — filter it from the
-  # printed list, but any non-zero count is a stop.
-  UNLANDED="$(git rev-list "$REMOTE/main"..HEAD --grep='^GitButler Workspace Commit$' --invert-grep || true)"
-  if [[ -n "$UNLANDED" ]]; then
-    echo "release.sh: workspace has commits not on $REMOTE/main:" >&2
-    git --no-pager log --oneline "$REMOTE/main"..HEAD --grep='^GitButler Workspace Commit$' --invert-grep >&2
-    echo >&2
-    echo "  Land them first (\`but land <branch>\`) or merge their PRs, then re-run." >&2
+LOCAL_HEAD="$(git rev-parse HEAD)"
+if [[ "$LOCAL_HEAD" != "$REMOTE_HEAD" ]]; then
+  AHEAD="$(git rev-list --count "$REMOTE/main"..HEAD)"
+  BEHIND="$(git rev-list --count HEAD.."$REMOTE/main")"
+  if [[ "$BEHIND" -gt 0 ]]; then
+    echo "release.sh: local main is behind $REMOTE/main by $BEHIND commit(s) — pull first" >&2
     exit 1
   fi
-else
-  LOCAL_HEAD="$(git rev-parse HEAD)"
-  if [[ "$LOCAL_HEAD" != "$REMOTE_HEAD" ]]; then
-    AHEAD="$(git rev-list --count "$REMOTE/main"..HEAD)"
-    BEHIND="$(git rev-list --count HEAD.."$REMOTE/main")"
-    if [[ "$BEHIND" -gt 0 ]]; then
-      echo "release.sh: local main is behind $REMOTE/main by $BEHIND commit(s) — pull first" >&2
-      exit 1
-    fi
-    if [[ "$WILL_PUSH" -ne 1 ]]; then
-      echo "release.sh: local main is $AHEAD commit(s) ahead of $REMOTE/main" >&2
-      echo "  Pass --push or --confirm to auto-push commits, or push manually first." >&2
-      exit 1
-    fi
-    echo "Pushing $AHEAD unpublished commit(s) to $REMOTE/main..."
-    git push "$REMOTE" main
+  if [[ "$WILL_PUSH" -ne 1 ]]; then
+    echo "release.sh: local main is $AHEAD commit(s) ahead of $REMOTE/main" >&2
+    echo "  Pass --push or --confirm to auto-push commits, or push manually first." >&2
+    exit 1
   fi
-  TAG_TARGET="$LOCAL_HEAD"
-  TAG_TARGET_LABEL="HEAD"
+  echo "Pushing $AHEAD unpublished commit(s) to $REMOTE/main..."
+  git push "$REMOTE" main
 fi
+TAG_TARGET="$LOCAL_HEAD"
+TAG_TARGET_LABEL="HEAD"
 
 if git rev-parse "refs/tags/$TAG" >/dev/null 2>&1; then
   echo "release.sh: tag '$TAG' already exists locally" >&2
