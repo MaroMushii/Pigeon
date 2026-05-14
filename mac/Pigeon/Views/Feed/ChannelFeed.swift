@@ -137,10 +137,10 @@ private struct ChannelFeedContent: View {
     /// Session-only; not written to `Post.isRead`.
     @State private var unseenCount: Int = 0
 
-    /// Two-phase mount state: `.preparing` while the HTML pre-warms, then
-    /// `.ready` once `NSTableView` has measured its rows and applied the
-    /// initial scroll. The feed is hidden until `.ready` so the user never
-    /// sees an un-positioned layout.
+    /// Two-phase mount state: `.preparing` while row heights are being measured
+    /// and the initial scroll is being placed, then `.ready` once the coordinator
+    /// fires `onReadyToReveal`. The feed is hidden behind an opaque overlay until
+    /// `.ready` so the user never sees an un-positioned layout.
     enum MountPhase { case preparing, ready }
     @State private var phase: MountPhase = .preparing
 
@@ -194,12 +194,24 @@ private struct ChannelFeedContent: View {
         Group {
             if posts.isEmpty {
                 EmptyFeedState(channel: channel, onRefresh: refresh)
-            } else if phase == .ready {
-                feed(posts: posts)
             } else {
-                ProgressView()
-                    .controlSize(.small)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                // `FeedTableView` is always in the tree when posts exist so
+                // its coordinator can measure rows and signal readiness.
+                // An opaque overlay hides the un-positioned layout until
+                // `onReadyToReveal` fires (after async measurement + initial
+                // scroll placement). On re-visits the shared height cache means
+                // measurement completes in <1ms and the overlay is barely visible.
+                ZStack {
+                    feed(posts: posts)
+                    if phase == .preparing {
+                        Color(nsColor: .windowBackgroundColor)
+                            .ignoresSafeArea()
+                            .allowsHitTesting(true)
+                        ProgressView()
+                            .controlSize(.small)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    }
+                }
             }
         }
         .background {
@@ -209,12 +221,12 @@ private struct ChannelFeedContent: View {
             FeedDataWatcher(channel: channel, onUpdate: scheduleRecompute)
         }
         .task {
-            // Pre-warm the AttributedHTMLBuilder cache off the main
-            // thread before revealing the feed. With `LazyVStack` only
-            // ~5–10 cards realize on first paint, so cold-cache parsing
-            // cost is bounded — but we still pre-warm the visible
-            // window so the first frame paints with formatted text
-            // instead of plain-text fallback.
+            // Seed the prefetch controller before awaiting anything so it's
+            // ready even if `onReadyToReveal` fires before this task finishes.
+            prefetch.setPosts(sortedPosts)
+            // Pre-warm the AttributedHTMLBuilder cache off the main thread.
+            // `phase = .ready` is no longer set here — the coordinator fires
+            // `onReadyToReveal` after async row measurement + initial scroll.
             let htmls = sortedPosts.suffix(10).map(\.bodyHTML).filter { !$0.isEmpty }
             if !htmls.isEmpty {
                 await Task.detached(priority: .userInitiated) {
@@ -224,12 +236,6 @@ private struct ChannelFeedContent: View {
                     }
                 }.value
             }
-            prefetch.setPosts(sortedPosts)
-            // With the AppKit bridge replacing LazyVStack, `NSTableView`
-            // measures all rows synchronously via its delegate and lays out
-            // deterministically — no convergence/reveal dance needed.
-            // Go straight `.preparing → .ready`.
-            phase = .ready
         }
         .onChange(of: appState.scrollToLatestToken) { _, _ in
             guard phase == .ready else { return }
@@ -260,10 +266,11 @@ private struct ChannelFeedContent: View {
 
     @ViewBuilder
     private func feed(posts: [PostDisplaySnapshot]) -> some View {
-        // Capture Binding before the closure — `$` requires self to be a
-        // concrete struct value; capturing the Binding (not the @State directly)
-        // gives the closure reference semantics into the State storage box.
+        // Capture Bindings before closures — `$` requires self to be a
+        // concrete struct value; capturing Bindings gives closures reference
+        // semantics into the State storage boxes.
         let dividerBinding = $unreadDividerVisible
+        let phaseBinding = $phase
         ZStack(alignment: .bottomTrailing) {
             FeedTableView(
                 rows: rows,
@@ -278,7 +285,8 @@ private struct ChannelFeedContent: View {
                     prefetch.setBottomVisible(visible)
                 },
                 initialScrollCommand: resolveInitialScroll(saved: scrollMemory.saved(for: channel.persistentModelID)),
-                onScrollCommandReady: { [prefetch] action in prefetch.performScroll = action }
+                onScrollCommandReady: { [prefetch] action in prefetch.performScroll = action },
+                onReadyToReveal: { phaseBinding.wrappedValue = .ready }
             )
                 .safeAreaInset(edge: .top, spacing: 0) {
                     ChannelHeader(channel: channel)
