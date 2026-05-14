@@ -1,6 +1,17 @@
 import SwiftUI
 import AppKit
 
+/// Imperative scroll command routed from `ChannelFeedContent` into the
+/// `Coordinator` via the `onScrollCommandReady` callback. Replaces the
+/// old `ScrollViewProxy` pattern which required a live SwiftUI proxy.
+enum ScrollCommand {
+    /// Scroll to the last row. `animated` drives `NSAnimationContext`.
+    case bottom(animated: Bool)
+    /// Scroll so the row matching `id` (a `FeedRow.id` string) appears at
+    /// `viewportFraction` from the top of the visible area (0 = top, 1 = bottom).
+    case toRow(id: String, viewportFraction: CGFloat, animated: Bool)
+}
+
 /// Unified row type for the channel feed. The point of modelling the
 /// unread divider as a `case` rather than an inline `if` is that the
 /// underlying table (`NSTableView` here, previously `LazyVStack`) needs
@@ -36,6 +47,14 @@ struct FeedTableView: NSViewRepresentable {
     var onDividerVisibilityChange: (@MainActor (Bool) -> Void)?
     /// Called when the last row's visibility changes (isAtBottom tracking).
     var onBottomVisibilityChange: (@MainActor (Bool) -> Void)?
+
+    /// Scroll target applied exactly once on the first valid layout pass.
+    /// Defaults to `.bottom` so a fresh channel opens at the newest post.
+    var initialScrollCommand: ScrollCommand = .bottom(animated: false)
+    /// Delivers a scroll-action closure to the caller so they can command
+    /// programmatic scrolls after mount. Mirrors `ScrollViewReader`'s pattern
+    /// but routes into the `Coordinator` instead of a SwiftUI proxy.
+    var onScrollCommandReady: (@MainActor (@escaping @MainActor (ScrollCommand) -> Void) -> Void)?
 
     @Environment(\.channelService) private var channelService
     @Environment(\.colorScheme) private var colorScheme
@@ -92,6 +111,14 @@ struct FeedTableView: NSViewRepresentable {
         tableView.dataSource = coordinator
 
         scrollView.documentView = tableView
+
+        // Deliver the scroll-action closure to the caller. Strong capture is
+        // correct: the Coordinator is owned by the NSViewRepresentable lifecycle
+        // (SwiftUI holds it), not by this closure, so there is no retain cycle.
+        let scrollAction: @MainActor (ScrollCommand) -> Void = { cmd in
+            coordinator.perform(cmd)
+        }
+        onScrollCommandReady?(scrollAction)
 
         // Observe frame changes on the table so we can invalidate height
         // cache and re-ask `heightOfRow` once the scroll view has actually
@@ -160,6 +187,13 @@ struct FeedTableView: NSViewRepresentable {
         coordinator.onPostVisibilityChange = onPostVisibilityChange
         coordinator.onDividerVisibilityChange = onDividerVisibilityChange
         coordinator.onBottomVisibilityChange = onBottomVisibilityChange
+        coordinator.setInitialScrollCommand(initialScrollCommand)
+        // Re-deliver the scroll action on every update in case the struct was
+        // recreated before makeNSView's delivery reached prefetch.performScroll.
+        if let action = onScrollCommandReady {
+            let c = coordinator
+            action { cmd in c.perform(cmd) }
+        }
         coordinator.update(rows: rows, envChanged: envChanged)
     }
 }
@@ -210,6 +244,9 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     /// so a fresh channel mount should land the user at the bottom of the
     /// list, matching the Telegram/Messages chat convention.
     private var didPlaceInitialScroll = false
+    /// Scroll target to apply on first valid layout. Set by `ChannelFeedContent`
+    /// via `setInitialScrollCommand`; consumed once by `placeInitialScrollIfNeeded`.
+    private var pendingInitialScroll: ScrollCommand?
 
     /// Called when the table view's frame changes (e.g. window resize, or
     /// the initial scroll-view layout pass that brings the table from its
@@ -237,9 +274,65 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         placeInitialScrollIfNeeded()
     }
 
-    /// Scroll to the last row on first valid layout. Idempotent — guarded
-    /// by `didPlaceInitialScroll` so subsequent width changes (window
-    /// resize, sidebar toggle) don't yank the user back to the bottom.
+    /// Accept a scroll target for the first layout pass. No-ops once the
+    /// initial placement has already fired — guards against `updateNSView`
+    /// re-pushing on subsequent renders.
+    func setInitialScrollCommand(_ cmd: ScrollCommand) {
+        guard !didPlaceInitialScroll else { return }
+        pendingInitialScroll = cmd
+        AppLog.scroll.pub("pendingInitialScroll set: <\(cmd)>")
+    }
+
+    /// Execute a scroll command immediately. Safe to call at any time after
+    /// the table has a real layout; silently no-ops if geometry is not ready.
+    func perform(_ command: ScrollCommand) {
+        switch command {
+        case .bottom(let animated):
+            guard let tableView, !rows.isEmpty else { return }
+            let lastRow = rows.count - 1
+            if animated {
+                NSAnimationContext.runAnimationGroup { ctx in
+                    ctx.duration = 0.25
+                    ctx.allowsImplicitAnimation = true
+                    tableView.scrollRowToVisible(lastRow)
+                }
+            } else {
+                tableView.scrollRowToVisible(lastRow)
+            }
+            AppLog.scroll.pub("scroll → bottom row=<\(lastRow)> animated=<\(animated)>")
+
+        case .toRow(let rowID, let fraction, let animated):
+            guard let tableView, let scrollView else { return }
+            guard let idx = rows.firstIndex(where: { $0.id == rowID }) else {
+                AppLog.scroll.pub("scroll → toRow id=<\(rowID)> NOT FOUND in <\(rows.count)> rows")
+                return
+            }
+            let rowRect = tableView.rect(ofRow: idx)
+            guard rowRect.height > 0 else { return }
+            let viewportH = scrollView.contentView.bounds.height
+            guard viewportH > 0 else { return }
+            let targetY = rowRect.minY - viewportH * fraction
+            let maxY = max(0, tableView.frame.height - viewportH)
+            let clampedY = max(0, min(targetY, maxY))
+            let point = NSPoint(x: 0, y: clampedY)
+            AppLog.scroll.pub("scroll → toRow id=<\(rowID)> idx=<\(idx)> fraction=<\(fraction)> targetY=<\(Int(clampedY))> animated=<\(animated)>")
+            if animated {
+                NSAnimationContext.runAnimationGroup { ctx in
+                    ctx.duration = 0.25
+                    ctx.allowsImplicitAnimation = true
+                    scrollView.contentView.setBoundsOrigin(point)
+                    scrollView.reflectScrolledClipView(scrollView.contentView)
+                }
+            } else {
+                scrollView.contentView.scroll(to: point)
+                scrollView.reflectScrolledClipView(scrollView.contentView)
+            }
+        }
+    }
+
+    /// Scroll to the last row on first valid layout. Uses `pendingInitialScroll`
+    /// if set (from `ChannelFeedContent`), otherwise defaults to the bottom row.
+    /// Idempotent — `didPlaceInitialScroll` prevents re-firing on window resize.
     private func placeInitialScrollIfNeeded() {
         guard !didPlaceInitialScroll,
               let tableView,
@@ -247,9 +340,14 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
               lastMeasuredWidth > 0
         else { return }
         didPlaceInitialScroll = true
-        let lastRow = rows.count - 1
-        tableView.scrollRowToVisible(lastRow)
-        AppLog.scroll.pub("initial scroll → row=<\(lastRow)> of <\(rows.count)>")
+        if let cmd = pendingInitialScroll {
+            pendingInitialScroll = nil
+            perform(cmd)
+        } else {
+            let lastRow = rows.count - 1
+            tableView.scrollRowToVisible(lastRow)
+            AppLog.scroll.pub("initial scroll → bottom row=<\(lastRow)> of <\(rows.count)> (default)")
+        }
     }
 
     // MARK: Bounds / visibility

@@ -137,33 +137,12 @@ private struct ChannelFeedContent: View {
     /// Session-only; not written to `Post.isRead`.
     @State private var unseenCount: Int = 0
 
-    /// Three-step mount state machine — one source of truth for "what
-    /// should the view show right now."
-    ///
-    ///   `.preparing`   HTML prewarm + initial PostCard realization happen
-    ///                  off the visible path. Spinner only; feed not yet in
-    ///                  the hierarchy.
-    ///   `.layingOut`   Feed is in the hierarchy with `opacity(0)` so the
-    ///                  ScrollView measures itself and `onScrollGeometryChange`
-    ///                  can fire — but still under the spinner because the
-    ///                  scroll position hasn't been placed yet.
-    ///   `.ready`       Initial scroll has been applied; feed is revealed.
-    ///
-    /// Channel switches reset this via the `.id(channel.persistentModelID)`
-    /// on the parent.
-    enum MountPhase {
-        case preparing
-        case layingOut
-        case ready
-    }
+    /// Two-phase mount state: `.preparing` while the HTML pre-warms, then
+    /// `.ready` once `NSTableView` has measured its rows and applied the
+    /// initial scroll. The feed is hidden until `.ready` so the user never
+    /// sees an un-positioned layout.
+    enum MountPhase { case preparing, ready }
     @State private var phase: MountPhase = .preparing
-
-    /// Debounce handle for the `.layingOut → .ready` reveal. Every layout
-    /// change during `.layingOut` cancels and reschedules this; the reveal
-    /// fires once the geometry has been quiet for a single debounce window.
-    /// That gives us "wait for the lazy stack to settle" without guessing
-    /// how long realization will take.
-    @State private var revealTask: Task<Void, Never>?
 
     /// Id of the post above which the "Unread messages" divider is drawn.
     /// Captured once at mount from the *current* `isRead` state and never
@@ -216,26 +195,12 @@ private struct ChannelFeedContent: View {
         Group {
             if posts.isEmpty {
                 EmptyFeedState(channel: channel, onRefresh: refresh)
+            } else if phase == .ready {
+                feed(posts: posts)
             } else {
-                ZStack {
-                    if phase != .preparing {
-                        // Feed enters the hierarchy at `.layingOut` so the
-                        // ScrollView measures itself and `onScrollGeometryChange`
-                        // can place the scroll target — held invisible until
-                        // `.ready`, otherwise the user sees a flash of
-                        // top-of-feed before the proxy jumps to position.
-                        feed(posts: posts)
-                            .opacity(phase == .ready ? 1 : 0)
-                    }
-                    if phase != .ready {
-                        // Single spinner across `.preparing` and `.layingOut`
-                        // — the user shouldn't be able to tell which phase
-                        // we're in, only that the channel is loading.
-                        ProgressView()
-                            .controlSize(.small)
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    }
-                }
+                ProgressView()
+                    .controlSize(.small)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
         .background {
@@ -274,7 +239,6 @@ private struct ChannelFeedContent: View {
         .onDisappear {
             saveCurrentPosition()
             prefetch.cancelAll()
-            revealTask?.cancel()
         }
     }
 
@@ -313,7 +277,9 @@ private struct ChannelFeedContent: View {
                 },
                 onBottomVisibilityChange: { [prefetch] visible in
                     prefetch.setBottomVisible(visible)
-                }
+                },
+                initialScrollCommand: resolveInitialScroll(saved: scrollMemory.saved(for: channel.persistentModelID)),
+                onScrollCommandReady: { [prefetch] action in prefetch.performScroll = action }
             )
                 .safeAreaInset(edge: .top, spacing: 0) {
                     ChannelHeader(channel: channel)
@@ -327,112 +293,49 @@ private struct ChannelFeedContent: View {
                         .padding(.bottom, 4)
                 }
             FeedOverlay(unseenCount: $unseenCount) {
-                // Step 6 will wire scrollToLatest to the bridge. Stub for now.
+                scrollToLatest(animated: true)
+                unseenCount = 0
             }
         }
     }
 
-    /// Debounce-schedule the reveal: each call cancels the prior pending
-    /// reveal and reschedules. When the geometry stops changing — i.e. no
-    /// more `applyInitialScroll → contentSize → onScrollGeometryChange`
-    /// cycles — the last-scheduled task survives the debounce window and
-    /// flips us to `.ready`. Pure event-driven convergence; the only timing
-    /// primitive is the debounce window itself.
-    private func scheduleReveal() {
-        revealTask?.cancel()
-        revealTask = Task { @MainActor in
-            try? await Task.sleep(for: .milliseconds(80))
-            guard !Task.isCancelled else { return }
-            AppLog.scroll.pub("reveal @\(channel.username) — phase=.ready")
-            withAnimation(.easeOut(duration: 0.12)) {
-                phase = .ready
-            }
-        }
-    }
-
-    /// Scroll to the newest post via `ScrollViewProxy`. `scrollTo(edge:)`
-    /// races with `LazyVStack` row realization (the lazy stack reports an
-    /// estimated content size before tail rows materialize, so the "edge"
-    /// resolves to the wrong offset); id-based targeting instructs the
-    /// lazy stack to realize the rows around that id, then pins to the
-    /// bottom anchor — converging layout on a single pass.
     private func scrollToLatest(animated: Bool) {
-        if animated {
-            withAnimation(.easeOut(duration: 0.25)) {
-                prefetch.scrollProxy?.scrollTo("feed-bottom", anchor: .bottom)
-            }
-        } else {
-            prefetch.scrollProxy?.scrollTo("feed-bottom", anchor: .bottom)
-        }
+        prefetch.performScroll?(.bottom(animated: animated))
+        prefetch.markAtBottom()
     }
 
-    /// Anchor for the unread divider — keeps it in the upper fifth of the
-    /// viewport so the first unread post sits clearly *below* it instead of
-    /// being scrolled offscreen above.
-    private var dividerAnchor: UnitPoint { UnitPoint(x: 0.5, y: 0.2) }
-
-    /// Anchor for restoring a saved mid-stream offset — pins the target post
-    /// near the top with a small inset for breathing room beneath the
-    /// floating header.
-    private var offsetAnchor: UnitPoint { UnitPoint(x: 0.5, y: 0.08) }
-
-    /// Resolve and apply the mount-time scroll target. Called twice — once
-    /// at the first non-zero content-size measurement, and once one frame
-    /// later — to absorb LazyVStack's estimated-vs-measured offset drift
-    /// for targets outside the initial realization window.
-    private func applyInitialScroll(saved: ChannelScrollMemory.Position?, proxy: ScrollViewProxy) {
-        AppLog.scroll.pub("applyInitialScroll @\(channel.username): saved=<\(String(describing: saved))> firstUnreadID=<\(firstUnreadID ?? "nil")> rowCount=<\(rows.count)>")
-        switch saved {
-        case .bottom:
-            AppLog.scroll.pub("  → scrollTo(feed-bottom)")
-            scrollToBottom(proxy: proxy)
-        case .unreadDivider(let anchor):
-            if firstUnreadID == anchor {
-                AppLog.scroll.pub("  → scrollTo(unread-divider) — anchor still firstUnread")
-                proxy.scrollTo("unread-divider", anchor: dividerAnchor)
-            } else {
-                // Divider concept lost (everything got marked read, or the
-                // anchor post itself got marked read individually). Scroll
-                // to the anchor post directly so the user lands on the
-                // same content they were reading.
-                AppLog.scroll.pub("  → fallback scrollTo(anchor=<\(anchor)>) — firstUnreadID now <\(firstUnreadID ?? "nil")>")
-                proxy.scrollTo(anchor, anchor: offsetAnchor)
-            }
-        case .offset(let postID):
-            AppLog.scroll.pub("  → scrollTo(post=<\(postID)>) — exists in rows: <\(rows.contains { if case .post(let s) = $0 { return s.id == postID } else { return false } })>")
-            proxy.scrollTo(postID, anchor: offsetAnchor)
-        case .none:
-            if firstUnreadID != nil {
-                AppLog.scroll.pub("  → cold-launch scrollTo(unread-divider)")
-                proxy.scrollTo("unread-divider", anchor: dividerAnchor)
-            } else {
-                AppLog.scroll.pub("  → cold-launch scrollTo(feed-bottom)")
-                scrollToBottom(proxy: proxy)
-            }
-        }
-    }
-
-    /// Scroll-to-bottom helper that also records our intent: after this
-    /// returns we *know* we're at the bottom, so we tell the controller
-    /// directly instead of waiting on the bottom row's visibility
-    /// callback. A refresh racing the callback would otherwise bump the
-    /// unseen badge instead of auto-scrolling for new posts.
-    private func scrollToBottom(proxy: ScrollViewProxy) {
-        proxy.scrollTo("feed-bottom", anchor: .bottom)
+    private func scrollToBottom() {
+        prefetch.performScroll?(.bottom(animated: false))
         prefetch.markAtBottom()
     }
 
     private func scrollToUnread(animated: Bool) {
-        guard firstUnreadID != nil else {
-            scrollToLatest(animated: animated)
-            return
-        }
-        if animated {
-            withAnimation(.easeOut(duration: 0.25)) {
-                prefetch.scrollProxy?.scrollTo("unread-divider", anchor: dividerAnchor)
+        guard firstUnreadID != nil else { scrollToLatest(animated: animated); return }
+        prefetch.performScroll?(.toRow(id: "row-unread-divider", viewportFraction: 0.2, animated: animated))
+    }
+
+    /// Map a saved scroll position (from `ChannelScrollMemory`) to the
+    /// `ScrollCommand` the Coordinator should apply on first layout.
+    private func resolveInitialScroll(saved: ChannelScrollMemory.Position?) -> ScrollCommand {
+        switch saved {
+        case .bottom:
+            return .bottom(animated: false)
+        case .unreadDivider(let anchor):
+            if anchor == firstUnreadID {
+                return .toRow(id: "row-unread-divider", viewportFraction: 0.2, animated: false)
+            } else {
+                // Anchor post was individually marked read — scroll to the
+                // post directly so the user lands on the same content.
+                return .toRow(id: "row-post-\(anchor)", viewportFraction: 0.08, animated: false)
             }
-        } else {
-            prefetch.scrollProxy?.scrollTo("unread-divider", anchor: dividerAnchor)
+        case .offset(let postID):
+            return .toRow(id: "row-post-\(postID)", viewportFraction: 0.08, animated: false)
+        case .none:
+            if firstUnreadID != nil {
+                return .toRow(id: "row-unread-divider", viewportFraction: 0.2, animated: false)
+            } else {
+                return .bottom(animated: false)
+            }
         }
     }
 
@@ -614,11 +517,11 @@ private final class FeedPrefetchController {
         maxConcurrentRequestCount: 2
     )
 
-    /// Stored here (not as `@State`) so mutations are invisible to SwiftUI —
-    /// writing via `.scrollTo` must not trigger a body re-run, which was the
-    /// source of the 16 k re-renders/sec feedback loop when `scrollPosition`
-    /// lived in `@State`.
-    var scrollProxy: ScrollViewProxy?
+    /// Scroll-action closure delivered by `FeedTableView` via `onScrollCommandReady`.
+    /// Stored here (not as `@State`) so writes are invisible to SwiftUI — storing
+    /// it in `@State` would trigger a body re-run when the closure is first set,
+    /// causing a premature re-render on mount.
+    var performScroll: (@MainActor (ScrollCommand) -> Void)?
 
     /// Whether the last post in the feed is currently in the viewport.
     /// Stored on the controller (not as `@State`) for the same reason as
