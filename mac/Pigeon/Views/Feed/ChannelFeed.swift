@@ -21,7 +21,7 @@ struct ChannelFeed: View {
     var body: some View {
         Group {
             if let channel {
-                ChannelFeedContent(channel: channel, scrollToLatestToken: appState.scrollToLatestToken)
+                ChannelFeedContent(channel: channel)
                     .id(channel.persistentModelID)
             } else {
                 FeedEmptyState {
@@ -96,8 +96,8 @@ struct ChannelFeed: View {
 /// leak across channels.
 private struct ChannelFeedContent: View {
     let channel: Channel
-    let scrollToLatestToken: UUID?
 
+    @Environment(AppState.self) private var appState
     @Environment(\.channelService) private var service
     @Environment(ChannelScrollMemory.self) private var scrollMemory
 
@@ -158,9 +158,8 @@ private struct ChannelFeedContent: View {
     @State private var firstUnreadID: String?
     @State private var unreadDividerVisible = false
 
-    init(channel: Channel, scrollToLatestToken: UUID?) {
+    init(channel: Channel) {
         self.channel = channel
-        self.scrollToLatestToken = scrollToLatestToken
         let sorted = channel.posts
             .sorted { ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast) }
             .map { $0.displaySnapshot() }
@@ -232,7 +231,7 @@ private struct ChannelFeedContent: View {
             // Go straight `.preparing → .ready`.
             phase = .ready
         }
-        .onChange(of: scrollToLatestToken) { _, _ in
+        .onChange(of: appState.scrollToLatestToken) { _, _ in
             guard phase == .ready else { return }
             advanceReclickCycle()
         }

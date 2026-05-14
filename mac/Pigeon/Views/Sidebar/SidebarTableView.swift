@@ -2,11 +2,12 @@ import SwiftUI
 import AppKit
 import SwiftData
 
-/// AppKit-backed sidebar channel list. Replaces `List(selection:)` so we
-/// own the `NSTableViewDelegate` and can detect re-clicks synchronously via
-/// `tableView(_:shouldSelectRow:)` — the delegate method fires before
-/// `tableViewSelectionDidChange`, giving us "already selected" information
-/// without any NSEvent monitor or timing assumptions.
+/// AppKit-backed sidebar channel list. Re-click detection works by subclassing
+/// `NSTableView` and capturing `selectedRow == clickedRow` in `mouseDown`
+/// BEFORE `super.mouseDown` processes the event — the only moment we can
+/// reliably distinguish "row was already selected" from "row just got selected".
+/// `shouldSelectRow` is NOT used for this: it only fires when selection is
+/// changing, so it never sees clicks on already-selected rows.
 struct SidebarTableView: NSViewRepresentable {
     let channels: [Channel]
     @Binding var selectedID: PersistentIdentifier?
@@ -27,7 +28,12 @@ struct SidebarTableView: NSViewRepresentable {
         scrollView.wantsLayer = true
         scrollView.contentView.wantsLayer = true
 
-        let tableView = NSTableView()
+        let coordinator = context.coordinator
+
+        let tableView = SidebarNSTableView()
+        tableView.onRowReClick = { [weak coordinator] row in
+            coordinator?.handleReClick(row: row)
+        }
         tableView.wantsLayer = true
         tableView.style = .sourceList
         tableView.selectionHighlightStyle = .sourceList
@@ -47,7 +53,6 @@ struct SidebarTableView: NSViewRepresentable {
         column.resizingMask = .autoresizingMask
         tableView.addTableColumn(column)
 
-        let coordinator = context.coordinator
         coordinator.tableView = tableView
         coordinator.channelService = channelService
         coordinator.appState = appState
@@ -94,10 +99,6 @@ final class SidebarCoordinator: NSObject, NSTableViewDelegate, NSTableViewDataSo
     var onSelectionChange: (@MainActor (PersistentIdentifier?) -> Void)?
     weak var tableView: NSTableView?
 
-    /// Guards `shouldSelectRow` from firing re-click during programmatic
-    /// selection changes (`applySelection`).
-    private var isUpdatingSelection = false
-
     func update(channels newChannels: [Channel], selectedID newID: PersistentIdentifier?, envChanged: Bool) {
         let channelsChanged = newChannels.map(\.persistentModelID) != channels.map(\.persistentModelID)
         channels = newChannels
@@ -107,11 +108,11 @@ final class SidebarCoordinator: NSObject, NSTableViewDelegate, NSTableViewDataSo
         applySelection(selectedID: newID)
     }
 
-    /// Sync the table's selection to match the given ID without firing onReClick.
+    /// Sync the table's selection to match the given ID.
+    /// `SidebarNSTableView.mouseDown` won't fire during `selectRowIndexes`
+    /// (it's programmatic, not user-initiated), so no re-click spuriously fires.
     private func applySelection(selectedID: PersistentIdentifier?) {
         guard let tableView else { return }
-        isUpdatingSelection = true
-        defer { isUpdatingSelection = false }
         if let id = selectedID,
            let row = channels.firstIndex(where: { $0.persistentModelID == id }) {
             if tableView.selectedRow != row {
@@ -143,14 +144,11 @@ final class SidebarCoordinator: NSObject, NSTableViewDelegate, NSTableViewDataSo
 
     func tableView(_ tableView: NSTableView, heightOfRow row: Int) -> CGFloat { 52 }
 
-    func tableView(_ tableView: NSTableView, shouldSelectRow row: Int) -> Bool {
-        // Fires only for user-initiated selection. If the row is already selected,
-        // this is a re-click — fire the callback synchronously before selection
-        // state changes, so the caller gets a stable channel reference.
-        if !isUpdatingSelection && tableView.selectedRow == row, row < channels.count {
-            onReClick?(channels[row])
-        }
-        return true
+    func tableView(_ tableView: NSTableView, shouldSelectRow row: Int) -> Bool { true }
+
+    func handleReClick(row: Int) {
+        guard row < channels.count else { return }
+        onReClick?(channels[row])
     }
 
     func tableViewSelectionDidChange(_ notification: Notification) {
@@ -259,6 +257,26 @@ final class SidebarCoordinator: NSObject, NSTableViewDelegate, NSTableViewDataSo
     private static func updatedLabel(_ date: Date?) -> String {
         guard let date else { return "never" }
         return relativeFormatter.localizedString(for: date, relativeTo: .now)
+    }
+}
+
+// MARK: - NSTableView subclass
+
+/// `NSTableView` subclass that captures re-clicks on the already-selected row.
+/// In `mouseDown`, we record whether the target row is already selected BEFORE
+/// calling `super` (which processes selection). If it was, we fire `onRowReClick`
+/// after `super` returns — at which point the event cycle is complete and the
+/// selection state is stable.
+final class SidebarNSTableView: NSTableView {
+    var onRowReClick: ((Int) -> Void)?
+
+    override func mouseDown(with event: NSEvent) {
+        guard event.clickCount == 1 else { super.mouseDown(with: event); return }
+        let point = convert(event.locationInWindow, from: nil)
+        let row = self.row(at: point)
+        let wasAlreadySelected = row >= 0 && selectedRow == row
+        super.mouseDown(with: event)
+        if wasAlreadySelected { onRowReClick?(row) }
     }
 }
 
