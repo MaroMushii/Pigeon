@@ -329,6 +329,13 @@ cd mirror && pnpm scrape /tmp/test-export channels.json
   `.github/workflows/release.yml`.
 - **`xcodegen` regenerates `Info.plist` and entitlements** on every
   run. Both are gitignored — `project.yml` is canonical.
+- **GitHub release assets are blocked in Iran.** `github.com/releases/download/...`
+  URLs 302-redirect to `release-assets.githubusercontent.com`, which is not on
+  Iran's whitelist. DMGs are therefore committed to the `release` branch under
+  `dist/` and served via `raw.githubusercontent.com` (confirmed open). The
+  appcast enclosure URLs and per-item `<link>` tags both point there. Don't
+  change the `--download-url-prefix` in `update-appcast.sh` back to the GitHub
+  releases CDN path.
 
 ## What's deferred / not yet built
 

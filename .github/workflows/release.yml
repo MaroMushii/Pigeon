@@ -182,9 +182,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git worktree add /tmp/release-branch release
+
+          # DMG lives in release/dist/ so raw.githubusercontent.com can serve it
+          # (release-assets.githubusercontent.com is blocked in Iran).
+          mkdir -p /tmp/release-branch/dist
+          cp "mac/dist/Pigeon-$VERSION.dmg" /tmp/release-branch/dist/
+
+          # Keep only the 5 most recent DMGs (matches --maximum-versions 5 in appcast).
+          ls -t /tmp/release-branch/dist/Pigeon-*.dmg 2>/dev/null \
+            | tail -n +6 \
+            | xargs -r git -C /tmp/release-branch rm --force --quiet
+
           cp appcast.xml /tmp/release-branch/appcast.xml
-          git -C /tmp/release-branch add appcast.xml
+          git -C /tmp/release-branch add appcast.xml dist/
           git -C /tmp/release-branch diff --cached --quiet && echo "appcast unchanged, skipping commit" && exit 0
-          git -C /tmp/release-branch commit -m "chore(release): update appcast.xml for v${VERSION}"
+          git -C /tmp/release-branch commit -m "chore(release): update appcast + dist for v${VERSION}"
           git -C /tmp/release-branch push origin release
           git worktree remove /tmp/release-branch
