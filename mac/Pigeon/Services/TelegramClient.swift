@@ -1,4 +1,5 @@
 import Foundation
+import os
 
 /// Fetches Telegram channel content. Two transports, in priority order:
 ///
@@ -20,6 +21,7 @@ actor TelegramClient {
         case allMethodsFailed(underlying: [Error])
         case rateLimited
         case invalidResponse
+        case channelNotFound
 
         var errorDescription: String? {
             switch self {
@@ -27,6 +29,7 @@ actor TelegramClient {
             case .allMethodsFailed: "All bypass methods failed."
             case .rateLimited: "Rate-limited. Try again in a minute."
             case .invalidResponse: "Telegram returned an unexpected response."
+            case .channelNotFound: "That channel is private or doesn't exist on Telegram."
             }
         }
     }
@@ -102,9 +105,11 @@ actor TelegramClient {
         var failures: [Error] = []
 
         for method in ProxyMethod.allCases {
+            AppLog.net.pub("[GT] trying method=<\(method.rawValue)> for <\(user)>")
             do {
                 try await rateLimit()
                 let html = try await fetchPinned(username: user, method: method)
+                AppLog.net.pub("[GT] method=<\(method.rawValue)> succeeded for <\(user)> htmlBytes=<\(html.utf8.count)>")
                 return ChannelPage(
                     html: html,
                     sourceURL: URL(string: "https://t.me/s/\(user)")!,
@@ -112,11 +117,19 @@ actor TelegramClient {
                 )
             } catch is CancellationError {
                 throw CancellationError()
+            } catch FetchError.channelNotFound {
+                // 3xx from the proxy is a definitive "doesn't exist" — no point
+                // trying other methods or IPs, they'll all say the same thing.
+                AppLog.net.pub("[GT] method=<\(method.rawValue)> got 3xx for <\(user)> — channel not found")
+                throw FetchError.channelNotFound
             } catch {
+                AppLog.net.pub("[GT] method=<\(method.rawValue)> failed for <\(user)>: \(error.localizedDescription)")
                 failures.append(error)
                 continue
             }
         }
+        let descriptions = failures.map { $0.localizedDescription }.joined(separator: " | ")
+        AppLog.net.error("[GT] all methods failed for <\(user, privacy: .public)>: \(descriptions, privacy: .public)")
         throw FetchError.allMethodsFailed(underlying: failures)
     }
 
@@ -228,9 +241,11 @@ actor TelegramClient {
                 throw FetchError.invalidResponse
             }
             if html.contains("Sorry, this channel doesn") {
-                throw FetchError.invalidResponse
+                throw FetchError.channelNotFound
             }
             return html
+        case 301, 302, 303, 307, 308:
+            throw FetchError.channelNotFound
         case 429:
             throw FetchError.rateLimited
         default:

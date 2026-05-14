@@ -2,6 +2,8 @@ import Foundation
 import Network
 import os
 
+private let log = Logger(subsystem: "dev.MaroMushii.Pigeon", category: "Net")
+
 /// Minimal HTTP/1.0 client that connects to a hardcoded IPv4 address and
 /// wraps the socket in TLS with a configurable SNI. Used to bypass DNS
 /// poisoning on filtered networks (Iran-grade DPI) by skipping the system
@@ -86,6 +88,7 @@ actor PinnedHTTPSClient {
         // the per-call `catch` tears down its socket cleanly.
         let firstPair = Array(ordered.prefix(2))
         if firstPair.count == 2 {
+            log.notice("[PinnedHTTPS] racing IPs \(firstPair.joined(separator: " vs "), privacy: .public) sni=\(sni, privacy: .public)")
             do {
                 let (winnerIP, response) = try await race(
                     ips: firstPair,
@@ -95,9 +98,11 @@ actor PinnedHTTPSClient {
                     headers: headers,
                     timeout: timeout
                 )
+                log.notice("[PinnedHTTPS] race winner=<\(winnerIP, privacy: .public)> status=<\(response.status, privacy: .public)>")
                 lastGoodIP = winnerIP
                 return response
             } catch {
+                log.notice("[PinnedHTTPS] race failed: \(error.localizedDescription, privacy: .public)")
                 lastError = error
             }
         } else {
@@ -109,6 +114,7 @@ actor PinnedHTTPSClient {
         let serialStart = min(firstPair.count, ordered.count)
         for ip in ordered[serialStart...] {
             try Task.checkCancellation()
+            log.notice("[PinnedHTTPS] serial trying ip=<\(ip, privacy: .public)> sni=<\(sni, privacy: .public)>")
             do {
                 let response = try await get(
                     ip: ip,
@@ -118,9 +124,11 @@ actor PinnedHTTPSClient {
                     headers: headers,
                     timeout: timeout
                 )
+                log.notice("[PinnedHTTPS] serial ip=<\(ip, privacy: .public)> status=<\(response.status, privacy: .public)>")
                 lastGoodIP = ip
                 return response
             } catch {
+                log.notice("[PinnedHTTPS] serial ip=<\(ip, privacy: .public)> failed: \(error.localizedDescription, privacy: .public)")
                 lastError = error
                 continue
             }

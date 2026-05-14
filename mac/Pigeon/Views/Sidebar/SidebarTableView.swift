@@ -36,7 +36,6 @@ struct SidebarTableView: NSViewRepresentable {
         }
         tableView.wantsLayer = true
         tableView.style = .sourceList
-        tableView.selectionHighlightStyle = .sourceList
         tableView.headerView = nil
         tableView.backgroundColor = .clear
         tableView.intercellSpacing = .zero

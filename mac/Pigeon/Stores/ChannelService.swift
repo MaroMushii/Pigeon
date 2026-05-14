@@ -16,12 +16,14 @@ final class ChannelService {
     enum AddError: Error, LocalizedError {
         case invalidUsername
         case alreadyExists(displayName: String)
+        case channelNotFound
         case fetchFailed(underlying: Error)
 
         var errorDescription: String? {
             switch self {
             case .invalidUsername: "That doesn't look like a Telegram channel."
-            case .alreadyExists(let name): "“\(name)” is already in your sidebar."
+            case .alreadyExists(let name): "\u{201C}\(name)\u{201D} is already in your sidebar."
+            case .channelNotFound: "That channel is private or doesn't exist on Telegram."
             case .fetchFailed(let e): "Couldn't load channel: \(e.localizedDescription)"
             }
         }
@@ -131,6 +133,8 @@ final class ChannelService {
         let outcome: FetchOutcome
         do {
             outcome = try await fetch(username: username)
+        } catch TelegramClient.FetchError.channelNotFound {
+            throw AddError.channelNotFound
         } catch {
             throw AddError.fetchFailed(underlying: error)
         }
@@ -589,6 +593,7 @@ final class ChannelService {
         let etag = defaults.string(forKey: Self.etagKey(username))
         let lastModified = defaults.string(forKey: Self.lastModifiedKey(username))
         let mirrorBase = SettingsStore.defaultMirrorBaseURL
+        AppLog.mirror.pub("[fetch] attempting mirror for <\(username)> etag=<\(etag ?? "nil")>")
         do {
             let mirror = try await client.fetchMirrorSnapshot(
                 username: username,
@@ -598,8 +603,10 @@ final class ChannelService {
             )
             switch mirror {
             case .unchanged:
+                AppLog.mirror.pub("[fetch] mirror 304 unchanged for <\(username)>")
                 return .unchanged(source: .mirror)
             case .fresh(let data, let newETag, let newLastModified):
+                AppLog.mirror.pub("[fetch] mirror 200 for <\(username)> bytes=<\(data.count)>")
                 do {
                     let result = try jsonDecoder.decode(data, mirrorBaseURL: mirrorBase)
                     persistMirrorValidators(
@@ -608,29 +615,37 @@ final class ChannelService {
                         lastModified: newLastModified
                     )
                     schemaOutdated = false
+                    AppLog.mirror.pub("[fetch] mirror decoded <\(result.posts.count)> posts for <\(username)>")
                     return .changed(result, source: .mirror)
                 } catch let error as JSONFeedDecoder.DecodeError {
                     if case .unsupportedSchema = error {
                         // Newer schema than this build understands — surface
                         // a banner and fall through to GT so reading isn't blocked.
                         schemaOutdated = true
+                        AppLog.mirror.pub("[fetch] mirror unsupported schema for <\(username)>, falling through to GT")
                     } else {
                         // Malformed JSON — clear validators so the next request
                         // isn't a conditional GET against broken data.
                         persistMirrorValidators(username: username, etag: nil, lastModified: nil)
+                        AppLog.mirror.pub("[fetch] mirror decode error for <\(username)>: \(error.localizedDescription)")
                     }
                 } catch {
                     persistMirrorValidators(username: username, etag: nil, lastModified: nil)
+                    AppLog.mirror.pub("[fetch] mirror decode error for <\(username)>: \(error.localizedDescription)")
                 }
             }
         } catch is CancellationError {
             throw CancellationError()
         } catch {
             // Mirror unreachable or returned unexpected status — fall through to GT.
+            AppLog.mirror.pub("[fetch] mirror failed for <\(username)>: \(error.localizedDescription), falling through to GT")
         }
 
+        AppLog.net.pub("[fetch] trying GT proxy for <\(username)>")
         let page = try await client.fetchChannelPage(username: username)
+        AppLog.net.pub("[fetch] GT proxy succeeded for <\(username)> via method=<\(page.method.rawValue)>")
         let result = try parser.parse(page.html, fallbackUsername: username)
+        AppLog.net.pub("[fetch] parsed <\(result.posts.count)> posts from GT for <\(username)>")
         return .changed(result, source: .gt)
     }
 
