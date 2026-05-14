@@ -20,13 +20,17 @@ final class HostingTableCellView: NSTableCellView {
     /// `NSTableView.makeView(withIdentifier:owner:)`, which avoids the
     /// expensive autolayout constraint setup; the host inside it is cheap to
     /// recreate per configure.
+    private var hostedView: NSHostingView<AnyView>?
+
     func configure(
         with row: FeedRow,
         channelService: ChannelService?,
         colorScheme: ColorScheme
     ) {
-        // Tear down any previous host so constraints don't accumulate.
-        subviews.forEach { $0.removeFromSuperview() }
+        // Remove only the view we installed — avoids nuking internal
+        // NSTableCellView subviews AppKit may manage.
+        hostedView?.removeFromSuperview()
+        hostedView = nil
 
         wantsLayer = true
         let view = Self.makeRootView(for: row, channelService: channelService, colorScheme: colorScheme)
@@ -34,6 +38,7 @@ final class HostingTableCellView: NSTableCellView {
         host.translatesAutoresizingMaskIntoConstraints = false
         host.wantsLayer = true
         addSubview(host)
+        hostedView = host
         // Width: clamp to `columnMaxWidth`, allow shrinking under that.
         // Center horizontally in the cell. Top + bottom pinned so the
         // cell's frame (set by NSTableView from `heightOfRow`) drives

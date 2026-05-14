@@ -31,11 +31,11 @@ struct FeedTableView: NSViewRepresentable {
 
     /// Called when a `.post` row crosses the 30% visibility threshold.
     /// `(postID, visible)` — matches `onScrollVisibilityChange(threshold: 0.3)`.
-    var onPostVisibilityChange: ((String, Bool) -> Void)?
+    var onPostVisibilityChange: (@MainActor (String, Bool) -> Void)?
     /// Called when the `.unreadDivider` row crosses the 30% threshold.
-    var onDividerVisibilityChange: ((Bool) -> Void)?
+    var onDividerVisibilityChange: (@MainActor (Bool) -> Void)?
     /// Called when the last row's visibility changes (isAtBottom tracking).
-    var onBottomVisibilityChange: ((Bool) -> Void)?
+    var onBottomVisibilityChange: (@MainActor (Bool) -> Void)?
 
     @Environment(\.channelService) private var channelService
     @Environment(\.colorScheme) private var colorScheme
@@ -137,6 +137,7 @@ struct FeedTableView: NSViewRepresentable {
             NotificationCenter.default.removeObserver(observer)
             coordinator.boundsObserver = nil
         }
+        coordinator.cancelAllDwells()
     }
 
     func updateNSView(_ scrollView: NSScrollView, context: Context) {
@@ -186,15 +187,18 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
 
     // MARK: Visibility tracking
 
-    var onPostVisibilityChange: ((String, Bool) -> Void)?
-    var onDividerVisibilityChange: ((Bool) -> Void)?
-    var onBottomVisibilityChange: ((Bool) -> Void)?
+    var onPostVisibilityChange: (@MainActor (String, Bool) -> Void)?
+    var onDividerVisibilityChange: (@MainActor (Bool) -> Void)?
+    var onBottomVisibilityChange: (@MainActor (Bool) -> Void)?
 
     /// Row indices currently qualifying as visible (≥30% of row height in viewport).
     /// Recomputed on every clip-view bounds change; diff drives callbacks + dwell timers.
     private var qualifiedRowIndices: Set<Int> = []
     /// Last reported isAtBottom value — guards against redundant callback fires.
     private var bottomVisible: Bool = false
+    /// True between `reloadData()` and the deferred `handleBoundsChange()` call.
+    /// Suppresses the intermediate bounds event that fires with stale row geometry.
+    private var isReloading: Bool = false
     /// Pending dwell work items keyed by postID. Cancelled when the row scrolls off-screen.
     private var dwellItems: [String: DispatchWorkItem] = [:]
     /// Dwell delay before a visible unread post is marked read. Matches PostCard.readDwell.
@@ -256,7 +260,7 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     /// bounds change (120 fps during scroll) — kept O(k) where k ≈ visible
     /// row count (~5-10) via `tableView.rows(in:)` + `rect(ofRow:)`.
     func handleBoundsChange() {
-        guard let tableView else { return }
+        guard let tableView, !isReloading else { return }
         let visibleRect = tableView.visibleRect
         let nsRange = tableView.rows(in: visibleRect)
 
@@ -337,11 +341,15 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         // For now we still do a full reload on legitimate change. Step 7
         // will replace this with a `[FeedRow]` diff + `insertRows` /
         // `removeRows` for animated updates and per-row preservation.
+        isReloading = true
         tableView?.reloadData()
-        // Defer visibility re-report by one runloop tick so AppKit has
-        // completed its post-reload layout pass — rect(ofRow:) returns
-        // stale geometry if called synchronously here.
-        Task { @MainActor [weak self] in self?.handleBoundsChange() }
+        // Defer visibility re-report one runloop tick: AppKit posts a bounds
+        // change during reloadData with stale row geometry. `isReloading`
+        // suppresses that event; the Task hop runs after layout settles.
+        Task { @MainActor [weak self] in
+            self?.isReloading = false
+            self?.handleBoundsChange()
+        }
     }
 
     // MARK: NSTableViewDataSource
@@ -383,7 +391,8 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
             heightCache.removeAll(keepingCapacity: true)
             lastMeasuredWidth = effectiveWidth
         }
-        if let cached = heightCache[feedRow.id] {
+        let cacheKey = heightCacheKey(for: feedRow)
+        if let cached = heightCache[cacheKey] {
             return cached
         }
         // Below 200pt the table hasn't been laid out yet — measuring at
@@ -396,9 +405,26 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         let state = AppLog.signpost.beginInterval("MeasureRow", id: AppLog.signpost.makeSignpostID())
         let height = measureHeight(for: feedRow, width: effectiveWidth)
         AppLog.signpost.endInterval("MeasureRow", state)
-        heightCache[feedRow.id] = height
+        heightCache[cacheKey] = height
         AppLog.measure.pub("row=<\(feedRow.id)> width=<\(Int(effectiveWidth))> → <\(Int(height))> shape=<\(shapeDescription(for: feedRow))>")
         return height
+    }
+
+    /// Cache key that changes when height-affecting content changes.
+    /// Includes body length, media count, and reaction count so an edited
+    /// post gets a fresh measurement rather than reusing a stale cached height.
+    private func heightCacheKey(for row: FeedRow) -> String {
+        switch row {
+        case .unreadDivider:
+            return "divider"
+        case .post(let snap):
+            return "\(snap.id)|\(snap.bodyHTML.count)|\(snap.media.count)|\(snap.reactions.count)"
+        }
+    }
+
+    func cancelAllDwells() {
+        dwellItems.values.forEach { $0.cancel() }
+        dwellItems.removeAll()
     }
 
     /// Compact one-line summary of a row's content shape for measure logs.
