@@ -29,6 +29,14 @@ enum FeedRow: Identifiable, Equatable {
 struct FeedTableView: NSViewRepresentable {
     let rows: [FeedRow]
 
+    /// Called when a `.post` row crosses the 30% visibility threshold.
+    /// `(postID, visible)` — matches `onScrollVisibilityChange(threshold: 0.3)`.
+    var onPostVisibilityChange: ((String, Bool) -> Void)?
+    /// Called when the `.unreadDivider` row crosses the 30% threshold.
+    var onDividerVisibilityChange: ((Bool) -> Void)?
+    /// Called when the last row's visibility changes (isAtBottom tracking).
+    var onBottomVisibilityChange: ((Bool) -> Void)?
+
     @Environment(\.channelService) private var channelService
     @Environment(\.colorScheme) private var colorScheme
 
@@ -104,6 +112,19 @@ struct FeedTableView: NSViewRepresentable {
             }
         }
 
+        // Observe clip-view bounds to track which rows are on-screen.
+        // `postsBoundsChangedNotifications` must be set on the clip view itself.
+        scrollView.contentView.postsBoundsChangedNotifications = true
+        coordinator.boundsObserver = NotificationCenter.default.addObserver(
+            forName: NSView.boundsDidChangeNotification,
+            object: scrollView.contentView,
+            queue: .main
+        ) { [weak coordinator] _ in
+            MainActor.assumeIsolated {
+                coordinator?.handleBoundsChange()
+            }
+        }
+
         return scrollView
     }
 
@@ -111,6 +132,10 @@ struct FeedTableView: NSViewRepresentable {
         if let observer = coordinator.frameObserver {
             NotificationCenter.default.removeObserver(observer)
             coordinator.frameObserver = nil
+        }
+        if let observer = coordinator.boundsObserver {
+            NotificationCenter.default.removeObserver(observer)
+            coordinator.boundsObserver = nil
         }
     }
 
@@ -131,6 +156,9 @@ struct FeedTableView: NSViewRepresentable {
             || coordinator.colorScheme != colorScheme
         coordinator.channelService = channelService
         coordinator.colorScheme = colorScheme
+        coordinator.onPostVisibilityChange = onPostVisibilityChange
+        coordinator.onDividerVisibilityChange = onDividerVisibilityChange
+        coordinator.onBottomVisibilityChange = onBottomVisibilityChange
         coordinator.update(rows: rows, envChanged: envChanged)
     }
 }
@@ -153,6 +181,24 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     /// Frame-change observer token. See `FeedTableView.makeNSView` for the
     /// width-invalidation rationale.
     var frameObserver: NSObjectProtocol?
+    /// Clip-view bounds-change observer token for visibility tracking.
+    var boundsObserver: NSObjectProtocol?
+
+    // MARK: Visibility tracking
+
+    var onPostVisibilityChange: ((String, Bool) -> Void)?
+    var onDividerVisibilityChange: ((Bool) -> Void)?
+    var onBottomVisibilityChange: ((Bool) -> Void)?
+
+    /// Row indices currently qualifying as visible (≥30% of row height in viewport).
+    /// Recomputed on every clip-view bounds change; diff drives callbacks + dwell timers.
+    private var qualifiedRowIndices: Set<Int> = []
+    /// Last reported isAtBottom value — guards against redundant callback fires.
+    private var bottomVisible: Bool = false
+    /// Pending dwell work items keyed by postID. Cancelled when the row scrolls off-screen.
+    private var dwellItems: [String: DispatchWorkItem] = [:]
+    /// Dwell delay before a visible unread post is marked read. Matches PostCard.readDwell.
+    private static let dwellDelay: TimeInterval = 0.6
 
     /// Mount-time scroll placement happens exactly once, after the table
     /// has resolved a real width and measured its rows. Posts are sorted
@@ -202,6 +248,80 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         AppLog.scroll.pub("initial scroll → row=<\(lastRow)> of <\(rows.count)>")
     }
 
+    // MARK: Bounds / visibility
+
+    /// Recomputes which rows meet the 30% visibility threshold and diffs
+    /// against the previous qualified set. Fires row-level callbacks and
+    /// manages dwell timers for unread posts. Called on every clip-view
+    /// bounds change (120 fps during scroll) — kept O(k) where k ≈ visible
+    /// row count (~5-10) via `tableView.rows(in:)` + `rect(ofRow:)`.
+    func handleBoundsChange() {
+        guard let tableView else { return }
+        let visibleRect = tableView.visibleRect
+        let nsRange = tableView.rows(in: visibleRect)
+
+        var newQualified: Set<Int> = []
+        if nsRange.location != NSNotFound && nsRange.length > 0 {
+            for idx in nsRange.location ..< (nsRange.location + nsRange.length) where idx < rows.count {
+                let rowRect = tableView.rect(ofRow: idx)
+                guard rowRect.height > 0 else { continue }
+                let overlap = rowRect.intersection(visibleRect).height
+                if overlap / rowRect.height >= 0.3 {
+                    newQualified.insert(idx)
+                }
+            }
+        }
+
+        // isAtBottom: last row qualifies at ≥30% — consistent threshold.
+        let lastIdx = rows.count - 1
+        let nowBottom = lastIdx >= 0 && newQualified.contains(lastIdx)
+        if nowBottom != bottomVisible {
+            bottomVisible = nowBottom
+            onBottomVisibilityChange?(nowBottom)
+        }
+
+        guard newQualified != qualifiedRowIndices else { return }
+
+        let appeared = newQualified.subtracting(qualifiedRowIndices)
+        let disappeared = qualifiedRowIndices.subtracting(newQualified)
+        qualifiedRowIndices = newQualified
+
+        for idx in disappeared where idx < rows.count {
+            switch rows[idx] {
+            case .post(let snap):
+                onPostVisibilityChange?(snap.id, false)
+                cancelDwell(for: snap.id)
+            case .unreadDivider:
+                onDividerVisibilityChange?(false)
+            }
+        }
+
+        for idx in appeared where idx < rows.count {
+            switch rows[idx] {
+            case .post(let snap):
+                onPostVisibilityChange?(snap.id, true)
+                if !snap.isRead { startDwell(for: snap.id) }
+            case .unreadDivider:
+                onDividerVisibilityChange?(true)
+            }
+        }
+
+        AppLog.visible.pub("bounds visible=<\(newQualified.sorted())>")
+    }
+
+    private func startDwell(for postID: String) {
+        dwellItems[postID]?.cancel()
+        let service = channelService
+        let item = DispatchWorkItem { service?.markRead(postID: postID) }
+        dwellItems[postID] = item
+        DispatchQueue.main.asyncAfter(deadline: .now() + Self.dwellDelay, execute: item)
+    }
+
+    private func cancelDwell(for postID: String) {
+        dwellItems[postID]?.cancel()
+        dwellItems.removeValue(forKey: postID)
+    }
+
     func update(rows newRows: [FeedRow], envChanged: Bool) {
         // Skip the reload entirely when nothing the cells render has
         // actually changed. `FeedRow` is `Equatable`, so this is a cheap
@@ -218,6 +338,10 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         // will replace this with a `[FeedRow]` diff + `insertRows` /
         // `removeRows` for animated updates and per-row preservation.
         tableView?.reloadData()
+        // Defer visibility re-report by one runloop tick so AppKit has
+        // completed its post-reload layout pass — rect(ofRow:) returns
+        // stale geometry if called synchronously here.
+        Task { @MainActor [weak self] in self?.handleBoundsChange() }
     }
 
     // MARK: NSTableViewDataSource
@@ -258,7 +382,6 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         if effectiveWidth != lastMeasuredWidth, effectiveWidth > 0 {
             heightCache.removeAll(keepingCapacity: true)
             lastMeasuredWidth = effectiveWidth
-    
         }
         if let cached = heightCache[feedRow.id] {
             return cached

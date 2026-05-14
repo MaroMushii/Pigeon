@@ -297,15 +297,24 @@ private struct ChannelFeedContent: View {
 
     @ViewBuilder
     private func feed(posts: [PostDisplaySnapshot]) -> some View {
-        // AppKit-backed `NSTableView` bridge. Replaces the previous
-        // `ScrollView` + `LazyVStack` + `ScrollViewProxy` setup because
-        // SwiftUI's lazy stack APIs don't give us reliable scroll-to-row
-        // for variable-height cells at feed scale — see `FeedTableView`
-        // for the full rationale. Subsequent build steps will wire up
-        // save/restore, visibility tracking, and re-click commands; for
-        // now this is just the rendering substrate.
+        // Capture Binding before the closure — `$` requires self to be a
+        // concrete struct value; capturing the Binding (not the @State directly)
+        // gives the closure reference semantics into the State storage box.
+        let dividerBinding = $unreadDividerVisible
         ZStack(alignment: .bottomTrailing) {
-            FeedTableView(rows: rows)
+            FeedTableView(
+                rows: rows,
+                onPostVisibilityChange: { [prefetch] id, visible in
+                    prefetch.setVisible(visible, postID: id)
+                    if visible { prefetch.handleVisible(postID: id) }
+                },
+                onDividerVisibilityChange: { visible in
+                    dividerBinding.wrappedValue = visible
+                },
+                onBottomVisibilityChange: { [prefetch] visible in
+                    prefetch.setBottomVisible(visible)
+                }
+            )
                 .safeAreaInset(edge: .top, spacing: 0) {
                     ChannelHeader(channel: channel)
                         .padding(.horizontal, 14)
