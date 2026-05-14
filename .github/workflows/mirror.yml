@@ -1,4 +1,8 @@
 name: mirror
+run-name: >-
+  ${{ github.event_name == 'push' && github.event.head_commit.message ||
+      github.event_name == 'workflow_dispatch' && format('mirror: manual by @{0}', github.actor) ||
+      format('mirror: cron #{0}', github.run_number) }}
 
 on:
   schedule:
