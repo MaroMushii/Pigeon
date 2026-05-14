@@ -170,6 +170,7 @@ private struct ChannelRow: View {
             }
         }
         .padding(.vertical, 4)
+        .allowsHitTesting(false)
     }
 
     @ViewBuilder
