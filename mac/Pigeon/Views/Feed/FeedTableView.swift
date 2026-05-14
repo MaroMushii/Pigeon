@@ -1,6 +1,5 @@
 import SwiftUI
 import AppKit
-import os
 
 /// Imperative scroll command routed from `ChannelFeedContent` into the
 /// `Coordinator` via the `onScrollCommandReady` callback. Replaces the
@@ -56,10 +55,6 @@ struct FeedTableView: NSViewRepresentable {
     /// programmatic scrolls after mount. Mirrors `ScrollViewReader`'s pattern
     /// but routes into the `Coordinator` instead of a SwiftUI proxy.
     var onScrollCommandReady: (@MainActor (@escaping @MainActor (ScrollCommand) -> Void) -> Void)?
-    /// Called once after async row measurement + initial scroll placement complete.
-    /// `ChannelFeedContent` uses this to transition from `.preparing` to `.ready`,
-    /// revealing the feed at the correct scroll position.
-    var onReadyToReveal: (@MainActor () -> Void)?
 
     @Environment(\.channelService) private var channelService
     @Environment(\.colorScheme) private var colorScheme
@@ -111,7 +106,6 @@ struct FeedTableView: NSViewRepresentable {
         coordinator.rows = rows
         coordinator.channelService = channelService
         coordinator.colorScheme = colorScheme
-        coordinator.onReadyToReveal = onReadyToReveal
 
         tableView.delegate = coordinator
         tableView.dataSource = coordinator
@@ -170,8 +164,6 @@ struct FeedTableView: NSViewRepresentable {
             NotificationCenter.default.removeObserver(observer)
             coordinator.boundsObserver = nil
         }
-        coordinator.measurementTask?.cancel()
-        coordinator.measurementTask = nil
         coordinator.cancelAllDwells()
     }
 
@@ -195,7 +187,6 @@ struct FeedTableView: NSViewRepresentable {
         coordinator.onPostVisibilityChange = onPostVisibilityChange
         coordinator.onDividerVisibilityChange = onDividerVisibilityChange
         coordinator.onBottomVisibilityChange = onBottomVisibilityChange
-        coordinator.onReadyToReveal = onReadyToReveal
         coordinator.setInitialScrollCommand(initialScrollCommand)
         // Re-deliver the scroll action on every update in case the struct was
         // recreated before makeNSView's delivery reached prefetch.performScroll.
@@ -215,24 +206,12 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     var channelService: ChannelService?
     var colorScheme: ColorScheme = .light
 
-    /// Shared height cache across all Coordinator instances (i.e. across channel
-    /// switches). The Coordinator is destroyed and recreated on every channel
-    /// switch, so a per-instance cache is always cold. Making it static means a
-    /// re-visit costs zero measurements.
-    ///
-    /// Key format: `"\(rowContentKey)@\(Int(width))"` — width is baked into the
-    /// key so no explicit invalidation is needed when the window is resized; a
-    /// different width simply misses and measures once, then is cached at that
-    /// width. Max size: ~22 channels × 200 posts × 1–3 widths × ~160 bytes ≈ 2 MB.
-    @MainActor private static var sharedHeightCache: [String: CGFloat] = [:]
-
-    /// Last effective column width this coordinator measured at. Used only to
-    /// detect width changes in `handleTableFrameChange` and skip no-op calls.
+    /// Per-row height cache keyed by `FeedRow.id`. Invalidated whenever the
+    /// table's width changes, because PostCard wraps text — height depends
+    /// on width. `NSTableView` also caches our `heightOfRow` returns, but
+    /// we cache locally so a `reloadData()` doesn't re-measure every cell.
+    private var heightCache: [String: CGFloat] = [:]
     private var lastMeasuredWidth: CGFloat = 0
-
-    /// In-flight async measurement task. Cancelled when the frame changes again
-    /// (window resize mid-measurement) or when the view is dismantled.
-    var measurementTask: Task<Void, Never>?
 
     /// Frame-change observer token. See `FeedTableView.makeNSView` for the
     /// width-invalidation rationale.
@@ -245,7 +224,6 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     var onPostVisibilityChange: (@MainActor (String, Bool) -> Void)?
     var onDividerVisibilityChange: (@MainActor (Bool) -> Void)?
     var onBottomVisibilityChange: (@MainActor (Bool) -> Void)?
-    var onReadyToReveal: (@MainActor () -> Void)?
 
     /// Row indices currently qualifying as visible (≥30% of row height in viewport).
     /// Recomputed on every clip-view bounds change; diff drives callbacks + dwell timers.
@@ -271,65 +249,29 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     private var pendingInitialScroll: ScrollCommand?
 
     /// Called when the table view's frame changes (e.g. window resize, or
-    /// the initial layout pass that brings the table from its tiny default
-    /// bounds to its real size). Kicks off async batch measurement so the
-    /// main thread is never blocked for the full ~200-row measurement cost.
+    /// the initial scroll-view layout pass that brings the table from its
+    /// tiny default bounds to its real size). Drops the height cache and
+    /// tells `NSTableView` to re-ask `heightOfRow` for every row.
     func handleTableFrameChange() {
         guard let tableView else { return }
         let width = max(0, tableView.bounds.width)
         let effectiveWidth = min(width, HostingTableCellView.columnMaxWidth)
         guard effectiveWidth != lastMeasuredWidth, effectiveWidth > 0 else { return }
+        heightCache.removeAll(keepingCapacity: true)
         lastMeasuredWidth = effectiveWidth
 
-        // Cancel any in-flight measurement from a previous frame change
-        // (e.g. window being actively resized) so we don't pile up tasks.
-        measurementTask?.cancel()
+        let indexes = IndexSet(0..<rows.count)
+        // Signpost bulk re-measure: `noteHeightOfRows` causes NSTableView to
+        // synchronously re-ask `heightOfRow` for every row in `indexes`. With
+        // ~200 rows × a fresh `NSHostingController` measurement each, this is
+        // the prime suspect for the 1267ms hang observed at 14043ms in
+        // pigeon-scroll-perf.trace. The signpost spans the entire blocking
+        // call so we can attribute the wall-clock time in Instruments.
         let rowCount = rows.count
-        let signpostID = AppLog.signpost.makeSignpostID()
-        let state = AppLog.signpost.beginInterval("BulkMeasure", id: signpostID, "rows=\(rowCount) width=\(Int(effectiveWidth))")
-        measurementTask = Task { @MainActor [weak self] in
-            await self?.bulkMeasureAndReveal(width: effectiveWidth, signpostState: state)
-        }
-    }
-
-    /// Measures all rows that are not yet in the shared cache for `width`,
-    /// notifying NSTableView in batches of 5 with a `Task.yield()` between
-    /// each batch. This keeps the main thread responsive during first-visit
-    /// measurement (each batch is ~60ms instead of one 1200ms freeze).
-    ///
-    /// On re-visits all rows are cache hits — the loop completes without any
-    /// `measureHeight` calls or yields, effectively running synchronously.
-    /// After all rows are accounted for, places the initial scroll and signals
-    /// `onReadyToReveal` so `ChannelFeedContent` transitions `.preparing → .ready`.
-    private func bulkMeasureAndReveal(width: CGFloat, signpostState: OSSignpostIntervalState) async {
-        guard let tableView, !rows.isEmpty else { return }
-        var batch = IndexSet()
-        for (i, row) in rows.enumerated() {
-            guard !Task.isCancelled else {
-                AppLog.signpost.endInterval("BulkMeasure", signpostState, "cancelled")
-                return
-            }
-            let key = Self.heightCacheKey(for: row, width: width)
-            if Self.sharedHeightCache[key] == nil {
-                let measureState = AppLog.signpost.beginInterval("MeasureRow", id: AppLog.signpost.makeSignpostID())
-                let h = measureHeight(for: row, width: width)
-                AppLog.signpost.endInterval("MeasureRow", measureState)
-                AppLog.measure.pub("row=<\(row.id)> width=<\(Int(width))> → <\(Int(h))> shape=<\(shapeDescription(for: row))>")
-                Self.sharedHeightCache[key] = h
-                batch.insert(i)
-                if batch.count >= 5 {
-                    tableView.noteHeightOfRows(withIndexesChanged: batch)
-                    batch.removeAll()
-                    await Task.yield()
-                }
-            }
-        }
-        if !batch.isEmpty {
-            tableView.noteHeightOfRows(withIndexesChanged: batch)
-        }
-        AppLog.signpost.endInterval("BulkMeasure", signpostState, "done rows=\(self.rows.count)")
+        let state = AppLog.signpost.beginInterval("BulkMeasure", id: AppLog.signpost.makeSignpostID(), "rows=\(rowCount) width=\(Int(effectiveWidth))")
+        tableView.noteHeightOfRows(withIndexesChanged: indexes)
+        AppLog.signpost.endInterval("BulkMeasure", state)
         placeInitialScrollIfNeeded()
-        onReadyToReveal?()
     }
 
     /// Accept a scroll target for the first layout pass. No-ops once the
@@ -543,34 +485,38 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         let feedRow = rows[row]
         let tableWidth = max(0, tableView.bounds.width)
         let effectiveWidth = min(tableWidth, HostingTableCellView.columnMaxWidth)
+        if effectiveWidth != lastMeasuredWidth, effectiveWidth > 0 {
+            heightCache.removeAll(keepingCapacity: true)
+            lastMeasuredWidth = effectiveWidth
+        }
+        let cacheKey = heightCacheKey(for: feedRow)
+        if let cached = heightCache[cacheKey] {
+            return cached
+        }
         // Below 200pt the table hasn't been laid out yet — measuring at
         // those widths produces absurd heights (text wraps to dozens of
         // lines). Return a placeholder; the frame-change observer will
-        // re-ask once the real width arrives.
-        guard effectiveWidth >= 200 else { return 280 }
-        let key = Self.heightCacheKey(for: feedRow, width: effectiveWidth)
-        if let cached = Self.sharedHeightCache[key] { return cached }
-        // Cold path: row not yet in the shared cache. This happens for the
-        // initial reloadData() call at the real width before the async batch
-        // has had a chance to run, and for new posts that arrived after the
-        // last measurement sweep. Measure synchronously, store for reuse.
+        // invalidate + re-ask when the real width arrives.
+        guard effectiveWidth >= 200 else {
+            return 280
+        }
         let state = AppLog.signpost.beginInterval("MeasureRow", id: AppLog.signpost.makeSignpostID())
         let height = measureHeight(for: feedRow, width: effectiveWidth)
         AppLog.signpost.endInterval("MeasureRow", state)
-        Self.sharedHeightCache[key] = height
+        heightCache[cacheKey] = height
         AppLog.measure.pub("row=<\(feedRow.id)> width=<\(Int(effectiveWidth))> → <\(Int(height))> shape=<\(shapeDescription(for: feedRow))>")
         return height
     }
 
     /// Cache key that changes when height-affecting content changes.
-    /// Width is baked in so different column widths never collide, and no
-    /// explicit cache invalidation is needed when the window is resized.
-    private static func heightCacheKey(for row: FeedRow, width: CGFloat) -> String {
+    /// Includes body length, media count, and reaction count so an edited
+    /// post gets a fresh measurement rather than reusing a stale cached height.
+    private func heightCacheKey(for row: FeedRow) -> String {
         switch row {
         case .unreadDivider:
-            return "divider@\(Int(width))"
+            return "divider"
         case .post(let snap):
-            return "\(snap.id)|\(snap.bodyHTML.count)|\(snap.media.count)|\(snap.reactions.count)@\(Int(width))"
+            return "\(snap.id)|\(snap.bodyHTML.count)|\(snap.media.count)|\(snap.reactions.count)"
         }
     }
 
