@@ -338,25 +338,33 @@ private struct ChannelFeedContent: View {
         }
     }
 
-    /// Re-click on the already-selected channel cycles the scroll position:
+    /// Re-click on the already-selected channel routes scroll based on where
+    /// the viewport sits relative to the unread divider:
     ///
-    ///   somewhere mid-stream  →  unread divider  →  bottom  →  (no-op)
+    ///   at bottom                          →  (no-op)
+    ///   above the unread divider           →  scroll to divider
+    ///   at/below the divider, not bottom   →  scroll to latest
     ///
-    /// When the channel has no unread posts the divider step is skipped
-    /// entirely — re-click just moves you to the bottom (or no-ops if you're
-    /// already there). `unseenCount` is cleared whenever we land at bottom
-    /// because the floating jump-to-latest button no longer makes sense.
+    /// "Above" is determined by comparing the topmost visible post's index in
+    /// `rows` against the divider's index — `unreadDividerVisible` alone can't
+    /// tell us *which side* of the viewport the divider just left, so once
+    /// the user reads past it the cycle would otherwise yank them back up.
+    /// `unseenCount` is cleared whenever we land at bottom because the
+    /// floating jump-to-latest button no longer makes sense.
     private func advanceReclickCycle() {
         let hasUnread = firstUnreadID != nil
-        AppLog.scroll.pub("reclick @\(channel.username): isAtBottom=<\(prefetch.isAtBottom)> hasUnread=<\(hasUnread)> dividerVis=<\(unreadDividerVisible)>")
+        let topmost = prefetch.topmostVisiblePostID
+        let dividerIdx = rows.firstIndex(of: .unreadDivider)
+        let topIdx = topmost.flatMap { id in rows.firstIndex(where: { $0.id == "row-post-\(id)" }) }
+        AppLog.scroll.pub("reclick @\(channel.username): isAtBottom=<\(prefetch.isAtBottom)> hasUnread=<\(hasUnread)> topmost=<\(topmost ?? "nil")> dividerIdx=<\(dividerIdx.map(String.init) ?? "nil")> topIdx=<\(topIdx.map(String.init) ?? "nil")>")
 
         if prefetch.isAtBottom {
             AppLog.scroll.pub("  → no-op (at bottom)")
             return
         }
 
-        if hasUnread && !unreadDividerVisible {
-            AppLog.scroll.pub("  → scrollToUnread")
+        if hasUnread, let dIdx = dividerIdx, let tIdx = topIdx, tIdx < dIdx {
+            AppLog.scroll.pub("  → scrollToUnread (above divider)")
             scrollToUnread(animated: true)
             return
         }
