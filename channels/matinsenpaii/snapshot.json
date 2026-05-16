@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-16T05:21:10.814Z",
+  "fetched_at": "2026-05-16T05:26:19.373Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -10,6 +10,37 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3086",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/YEer85JBfWTss8q8fYw2ft1kRCyZVqAi3Wh3iF0sjdwh36rNUyF4JBVQ9IQoqvP6nLVfd7TiGVFU9owUf2L4ub61jhwEci3QyRZJGsoN7xuNnSHyWEIYxUoG9ls9aDp7glgEvxO0Hh-35qGaxlb_yhaI637or1n6Zwg4EijeB9P0te6K77r7-Fakf8ZxRqjuMWxZYB0JWaiaSfftif3baC1TTjQ7azM6coDcTdfMmfDYlC9r8jjES_NSbl-2qdqhCbadp0shDxhNbByyP4S4WdC62eCMD0ViFdfbS35ZcQND4629TJbAu7Ij7eyrOoE0rOsba8G3SE5XRtlJP0qH4g.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/fc2c5f3aa5ed36d71cd869f3.jpg",
+      "body_html": "نسخه 1.0.3 <br><br><blockquote>یک آپدیت متمرکز بر پایداری است. در این نسخه پایداری اتصال بهتر شده، مپ شدن تنظیمات Advanced اصلاح شده، تفاوت بین SOCKS5 و System Proxy شفاف‌تر شده، و احتمال حالتی که برنامه Connected باشد ولی سایت‌ها باز نشوند کمتر شده است.<br><br>WhiteDns Windows v1.0.3<br> - راهنمای سریع تست<br><br>لطفا برای تست اول این تنظیمات را استفاده کنید:<br><br>1. برنامه را باز کنید.<br>2. وارد بخش Connect شوید.<br>3. گزینه Proxy Mode را روی System proxy بگذارید.<br>4. وارد بخش Advanced شوید.<br>5. گزینه Transport preset را روی Balanced بگذارید.<br>6. این موارد را بررسی کنید:<br>   - Compression = off<br>   - Base64-encode data = Off<br>   - DNS listener enabled = Off<br>   - SOCKS5 authentication = Off<br>   - Packet duplication = 0<br>7. در صورت نیاز ذخیره کنید و سپس Connect بزنید.<br><br>اگر سایت ها ناپایدار بودند یا باز نشدند:<br>- فقط همین یک مورد را تغییر دهید:<br>  - Transport preset = Stable Iran<br><br>لطفا این موارد را گزارش کنید:<br>- آیا اتصال با موفقیت انجام شد؟<br>- آیا یوتیوب و سایت های عادی باز شدند؟<br>- از چه Proxy Mode استفاده کردید؟<br>- سرعت مرور مناسب بود یا نه؟<br>- آیا برنامه یا سایتی بود که با وجود Connected بودن کار نکند؟</blockquote><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "نسخه 1.0.3 یک آپدیت متمرکز بر پایداری است. در این نسخه پایداری اتصال بهتر شده، مپ شدن تنظیمات Advanced اصلاح شده، تفاوت بین SOCKS5 و System Proxy شفاف‌تر شده، و احتمال حالتی که برنامه Connected باشد ولی سایت‌ها باز نشوند کمتر شده است. WhiteDns Windows v1.0.3 - راهنمای سریع تست لطفا برای تست اول این تنظیمات را استفاده کنید: 1. برنامه را باز کنید. 2. وارد بخش Connect شوید. 3. گزینه Proxy Mode را روی System proxy بگذارید. 4. وارد بخش Advanced شوید. 5. گزینه Transport preset را روی Balanced بگذارید. 6. این موارد را بررسی کنید: - Compression = off - Base64-encode data = Off - DNS listener enabled = Off - SOCKS5 authentication = Off - Packet duplication = 0 7. در صورت نیاز ذخیره کنید و سپس Connect بزنید. اگر سایت ها ناپایدار بودند یا باز نشدند: - فقط همین یک مورد را تغییر دهید: - Transport preset = Stable Iran لطفا این موارد را گزارش کنید: - آیا اتصال با موفقیت انجام شد؟ - آیا یوتیوب و سایت های عادی باز شدند؟ - از چه Proxy Mode استفاده کردید؟ - سرعت مرور مناسب بود یا نه؟ - آیا برنامه یا سایتی بود که با وجود Connected بودن کار نکند؟ @whitedns",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        },
+        {
+          "emoji": "👍",
+          "count": "3"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        },
+        {
+          "emoji": "💔",
+          "count": "1"
+        }
+      ],
+      "views_label": "643",
+      "posted_at": "2026-05-16T05:24:15+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3086"
+    },
     {
       "id": "MatinSenPaii/3085",
       "author_name": "Matin SenPai",
@@ -21,22 +52,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "20"
+          "count": "31"
         },
         {
           "emoji": "😭",
-          "count": "10"
+          "count": "15"
+        },
+        {
+          "emoji": "😁",
+          "count": "7"
         },
         {
           "emoji": "👍",
           "count": "5"
-        },
-        {
-          "emoji": "😁",
-          "count": "5"
         }
       ],
-      "views_label": "1.73K",
+      "views_label": "3.3K",
       "posted_at": "2026-05-16T05:16:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3085"
@@ -56,7 +87,7 @@
         },
         {
           "emoji": "❤",
-          "count": "170"
+          "count": "175"
         },
         {
           "emoji": "👍",
@@ -71,7 +102,7 @@
           "count": "8"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.6K",
       "posted_at": "2026-05-16T01:39:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3084"
@@ -87,7 +118,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "250"
+          "count": "255"
         },
         {
           "emoji": "👍",
@@ -102,7 +133,7 @@
           "count": "15"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.8K",
       "posted_at": "2026-05-16T01:25:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3083"
@@ -137,7 +168,7 @@
           "count": "26"
         }
       ],
-      "views_label": "32.3K",
+      "views_label": "32.6K",
       "posted_at": "2026-05-15T21:17:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3082"
@@ -176,7 +207,7 @@
         },
         {
           "emoji": "😁",
-          "count": "1K"
+          "count": "1.01K"
         },
         {
           "emoji": "❤",
@@ -191,7 +222,7 @@
           "count": "4"
         }
       ],
-      "views_label": "33.9K",
+      "views_label": "34.2K",
       "posted_at": "2026-05-15T20:58:43+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3080"
@@ -226,7 +257,7 @@
           "count": "18"
         }
       ],
-      "views_label": "34.9K",
+      "views_label": "35.2K",
       "posted_at": "2026-05-15T20:53:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3079"
@@ -242,7 +273,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "242"
+          "count": "243"
         },
         {
           "emoji": "❤",
@@ -277,7 +308,7 @@
         },
         {
           "emoji": "❤",
-          "count": "246"
+          "count": "247"
         },
         {
           "emoji": "👎",
@@ -292,7 +323,7 @@
           "count": "6"
         }
       ],
-      "views_label": "34.6K",
+      "views_label": "34.9K",
       "posted_at": "2026-05-15T20:46:16+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3077"
@@ -362,7 +393,7 @@
         },
         {
           "emoji": "❤",
-          "count": "161"
+          "count": "163"
         },
         {
           "emoji": "👍",
@@ -453,7 +484,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "166"
+          "count": "167"
         },
         {
           "emoji": "👎",
@@ -509,7 +540,7 @@
           "count": "5"
         }
       ],
-      "views_label": "45.4K",
+      "views_label": "45.5K",
       "posted_at": "2026-05-15T14:25:33+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3070"
@@ -3486,37 +3517,6 @@
       "posted_at": "2026-05-06T21:41:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/2972"
-    },
-    {
-      "id": "MatinSenPaii/2971",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/tjuO6rG8D6479snQmgfKw1-qPwi7D2XQ4NX994cIM0fDB3NRVDjYw8S20QPzCKWm7MJh9BEwHJQWpbDOa_QDnLj8iTBEtW0nzzQZN_B2KSOOl26KZHfivQt06Yey6ngNnhXcOIYBAbiXGNTV8cQKtM8wgHmjmb4_iJ074dzKcqzCpqDWdVKZM08zPfI2NG6uSUjR0S7pVmp5VrzOErHg57zONOxxxIbcoVwkZJzZQsPbGJonQFfFGu7gmayWRpt8ucH1oerwGcfNHBhbLhR2tR9GrdkqL9oaOtaqMovZBkblCgy9siMj_jAJ3iA3ZJsXgZsDf-sNAfQRa98zYVrlHw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/71bd41d67458f050abed8a93.jpg",
-      "body_html": "<tg-emoji emoji-id=\"5458640241915084025\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28FB1.png')\"><b>⏱</b></i></tg-emoji>لینک فایل‌های apk با نت داخلی:  https://guardnet.ir/f/8785ed32c47c (متاسفانه فقط آرمبی ۷ هست باید اون یکی رو هم بذارم) <tg-emoji emoji-id=\"5458640241915084025\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28FB1.png')\"><b>⏱</b></i></tg-emoji>لینک دانلود ویدئو: https://guardnet.ir/f/c5321e5300d0",
-      "plain_text": "⏱لینک فایل‌های apk با نت داخلی: https://guardnet.ir/f/8785ed32c47c (متاسفانه فقط آرمبی ۷ هست باید اون یکی رو هم بذارم) ⏱لینک دانلود ویدئو: https://guardnet.ir/f/c5321e5300d0",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "311"
-        },
-        {
-          "emoji": "🔥",
-          "count": "21"
-        },
-        {
-          "emoji": "😭",
-          "count": "7"
-        }
-      ],
-      "views_label": "42.5K",
-      "posted_at": "2026-05-06T15:41:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/2971"
     }
   ]
 }
