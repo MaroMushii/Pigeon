@@ -318,6 +318,14 @@ private struct ChannelFeedContent: View {
     private func resolveInitialScroll(saved: ChannelScrollMemory.Position?) -> ScrollCommand {
         switch saved {
         case .bottom:
+            // "Caught up at end" is only still true if no new unread posts
+            // arrived while we were away. Otherwise the user expects to land
+            // on new content, not below it. `firstUnreadID` is frozen at init
+            // from the current isRead state, so its presence here means there
+            // are genuinely new unread posts since the save.
+            if firstUnreadID != nil {
+                return .toRow(id: "row-unread-divider", viewportFraction: 0.2, animated: false)
+            }
             return .bottom(animated: false)
         case .unreadDivider(let anchor):
             if anchor == firstUnreadID {
