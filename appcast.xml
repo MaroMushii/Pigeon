@@ -7,6 +7,16 @@
         <language>en</language>
         <!-- Entries are prepended here by mac/scripts/update-appcast.sh on each release. -->
         <item>
+            <title>1.1.7</title>
+            <pubDate>Sat, 16 May 2026 11:13:12 +0000</pubDate>
+            <link>https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/release/dist/Pigeon-1.1.7.dmg</link>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/release/dist/Pigeon-1.1.7.dmg" length="11186203" type="application/octet-stream" sparkle:edSignature="BUe1YXM8nl5Sz7okZwpg3QGechxC2xm4ahkhOFPmj6mvKaOLe8XDTcY5pY0ViHfy2khkaRsHK5HMPslVnqY/Aw=="/>
+            <sparkle:informationOnlyUpdate>true</sparkle:informationOnlyUpdate>
+        </item>
+        <item>
             <title>1.1.6</title>
             <pubDate>Fri, 15 May 2026 10:43:08 +0000</pubDate>
             <link>https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/release/dist/Pigeon-1.1.6.dmg</link>
@@ -44,16 +54,6 @@
             <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <enclosure url="https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/release/dist/Pigeon-1.1.2.dmg" length="11077610" type="application/octet-stream" sparkle:edSignature="6+0bRu7YB8lafM2PBucigdW9a6bOp53TsaGo8L8dDzXKnyXA+YhrJLQkO0ouV8b3wCOnpEtNY7h6UvTfXCuOCQ=="/>
-            <sparkle:informationOnlyUpdate>true</sparkle:informationOnlyUpdate>
-        </item>
-        <item>
-            <title>1.1.1</title>
-            <pubDate>Mon, 11 May 2026 09:44:11 +0000</pubDate>
-            <link>https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/release/dist/Pigeon-1.1.1.dmg</link>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/release/dist/Pigeon-1.1.1.dmg" length="11082020" type="application/octet-stream" sparkle:edSignature="P4hHaPREganJpSBXZmPwoc/YAeYS4m0ZUfKOYkmfXCF7qAxM5Q92F+38t7vWucSjIqwCAeVXpF0vkLkXvPNMBg=="/>
             <sparkle:informationOnlyUpdate>true</sparkle:informationOnlyUpdate>
         </item>
     </channel>
