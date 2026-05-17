@@ -12,7 +12,6 @@ struct RootView: View {
 
     @State private var sidebarSearch: String = ""
     @State private var isHoveringRefresh = false
-    @State private var filteredChannels: [Channel] = []
 
     var body: some View {
         @Bindable var appState = appState
@@ -107,17 +106,16 @@ struct RootView: View {
                     .frame(minWidth: 380, minHeight: 240)
             }
         }
-        .onChange(of: channels, initial: true) { _, _ in
-            rebuildFilteredChannels()
-        }
-        .onChange(of: sidebarSearch) { _, _ in
-            rebuildFilteredChannels()
-        }
     }
 
     // MARK: - Derived
 
-    private func rebuildFilteredChannels() {
+    // Computed (not cached in @State): `@Query` re-emits when the array's
+    // membership/order changes, but our query is sorted by `addedAt` so
+    // per-row `lastPostAt` mutations don't bump the array identity. A cached
+    // version stayed stale on new posts; recomputing each render is cheap at
+    // the channel-list size we ever have.
+    private var filteredChannels: [Channel] {
         let base: [Channel]
         if sidebarSearch.isEmpty {
             base = channels
@@ -127,7 +125,7 @@ struct RootView: View {
                 $0.displayName.lowercased().contains(q) || $0.username.contains(q)
             }
         }
-        filteredChannels = base.sorted { lhs, rhs in
+        return base.sorted { lhs, rhs in
             let l = lhs.lastPostAt ?? lhs.addedAt
             let r = rhs.lastPostAt ?? rhs.addedAt
             return l > r
