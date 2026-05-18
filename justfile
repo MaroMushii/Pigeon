@@ -12,11 +12,16 @@ xcb := `command -v xcbeautify >/dev/null && echo xcbeautify || echo cat`
 default:
     @just --list
 
-# Regenerate Xcode project + build Debug
-build: xcbuild
+# Regenerate Pigeon.xcodeproj from mac/project.yml — run after editing project.yml or adding/removing sources
+gen:
+    cd mac && xcodegen generate
+
+# Build Debug
+build:
+    cd mac && NSUnbufferedIO=YES xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug build 2>&1 | {{xcb}}
 
 # Build Debug and launch a fresh copy (kills any running instance after a successful build)
-run: xcbuild kill
+run: build kill
     open "$(ls -dt ~/Library/Developer/Xcode/DerivedData/Pigeon-*/Build/Products/Debug/Pigeon.app | head -1)"
 
 # Kill the running Pigeon app, if any (waits for full termination)
@@ -25,25 +30,13 @@ kill:
     pkill -x Pigeon 2>/dev/null || true
     for i in {1..50}; do pgrep -x Pigeon >/dev/null 2>&1 || break; sleep 0.1; done
 
-# Run the test bundle. Run this directly — preceding `just build`
-# regenerates the .pbxproj and invalidates xcodebuild's incremental
-# cache. `script -q /dev/null` gives xcodebuild a PTY so it line-flushes
-# instead of block-buffering output through the xcbeautify pipe.
+# Run the test bundle
 test:
-    cd mac && script -q /dev/null xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug test 2>&1 | {{xcb}}
+    cd mac && NSUnbufferedIO=YES xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug test 2>&1 | {{xcb}}
 
 # Open the freshest Debug build (does not rebuild)
 app:
     open "$(ls -dt ~/Library/Developer/Xcode/DerivedData/Pigeon-*/Build/Products/Debug/Pigeon.app | head -1)"
-
-# Regenerate Xcode project + build Debug. No reveal, no launch.
-# Skip the xcodegen step when project.yml hasn't changed — running it
-# unconditionally rewrites the .pbxproj and invalidates xcodebuild's
-# incremental cache, turning every `just build` into a near-clean build.
-[private]
-xcbuild:
-    cd mac && if [ project.yml -nt Pigeon.xcodeproj/project.pbxproj ] || [ ! -f Pigeon.xcodeproj/project.pbxproj ]; then xcodegen generate; fi
-    cd mac && NSUnbufferedIO=YES xcodebuild -project Pigeon.xcodeproj -scheme Pigeon -configuration Debug build 2>&1 | {{xcb}}
 
 # Reveal the freshest Debug build in Finder
 reveal:
