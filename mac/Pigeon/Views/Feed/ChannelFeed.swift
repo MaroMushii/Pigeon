@@ -146,6 +146,7 @@ private struct ChannelFeedContent: View {
                 ProgressView()
                     .controlSize(.small)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .accessibilityLabel(Text("Loading channel"))
             } else if posts.isEmpty {
                 EmptyFeedState(channel: channel, onRefresh: refresh)
             } else {
@@ -163,10 +164,12 @@ private struct ChannelFeedContent: View {
                     feed(posts: posts)
                         .opacity(phase == .ready ? 1 : 0)
                         .allowsHitTesting(phase == .ready)
+                        .accessibilityHidden(phase != .ready)
                     if phase != .ready {
                         ProgressView()
                             .controlSize(.small)
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .accessibilityLabel(Text("Preparing feed"))
                     }
                 }
             }
@@ -187,9 +190,26 @@ private struct ChannelFeedContent: View {
             // `.task` means the spinner is already on screen by the
             // time we touch SwiftData.
             if sortedPosts.isEmpty {
-                let sorted = channel.posts
+                // `displaySnapshot()` faults in each post's media/reactions
+                // from SwiftData — synchronous and main-actor-bound. For
+                // ~100 posts the unchunked map is the 200-500ms stall the
+                // three-phase mount was meant to soften. Build snapshots in
+                // small batches with `Task.yield()` between so AppKit can
+                // drain pending input (sidebar clicks) during hydration.
+                let postModels = channel.posts
                     .sorted { ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast) }
-                    .map { $0.displaySnapshot() }
+                var sorted: [PostDisplaySnapshot] = []
+                sorted.reserveCapacity(postModels.count)
+                var idx = 0
+                while idx < postModels.count {
+                    let end = min(idx + 16, postModels.count)
+                    for i in idx..<end {
+                        sorted.append(postModels[i].displaySnapshot())
+                    }
+                    idx = end
+                    await Task.yield()
+                    if Task.isCancelled { return }
+                }
                 let firstUnread = sorted.first { !$0.isRead }?.id
                 let hasReadPost = sorted.contains { $0.isRead }
                 let resolvedFirstUnreadID = hasReadPost ? firstUnread : nil
@@ -226,6 +246,17 @@ private struct ChannelFeedContent: View {
             // scroll-restore (unread divider, "at bottom", re-click cycle)
             // landing on the correct row Y — partially-measured rows would
             // cause the scroll target to drift as more rows resolve.
+
+            // Safety net: if `onMeasurementComplete` never fires (its
+            // task got cancelled mid-flight and no width change retriggered
+            // a new measurement), the user would be stuck on a silent
+            // spinner forever. Flip to `.ready` after a generous timeout so
+            // the feed reveals even if the callback is lost.
+            try? await Task.sleep(for: .seconds(3))
+            if phase == .preparing {
+                AppLog.feed.pub("measurement-complete fallback fired for @\(channel.username)")
+                phase = .ready
+            }
         }
         .onChange(of: appState.scrollToLatestToken) { _, _ in
             guard phase == .ready else { return }
@@ -418,7 +449,13 @@ private struct ChannelFeedContent: View {
 
     private func refresh() {
         guard let service else { return }
-        Task { _ = try? await service.postsForDisplay(channel, forceRefresh: true) }
+        Task {
+            do {
+                _ = try await service.postsForDisplay(channel, forceRefresh: true)
+            } catch {
+                AppLog.feed.error("refresh failed for @\(channel.username, privacy: .public): \(error.localizedDescription, privacy: .public)")
+            }
+        }
     }
 }
 

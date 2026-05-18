@@ -245,10 +245,10 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     /// True between `reloadData()` and the deferred `handleBoundsChange()` call.
     /// Suppresses the intermediate bounds event that fires with stale row geometry.
     private var isReloading: Bool = false
-    /// Pending dwell work items keyed by postID. Cancelled when the row scrolls off-screen.
-    private var dwellItems: [String: DispatchWorkItem] = [:]
+    /// Pending dwell tasks keyed by postID. Cancelled when the row scrolls off-screen.
+    private var dwellItems: [String: Task<Void, Never>] = [:]
     /// Dwell delay before a visible unread post is marked read. Matches PostCard.readDwell.
-    private static let dwellDelay: TimeInterval = 0.6
+    private static let dwellDelay: Duration = .milliseconds(600)
 
     /// Mount-time scroll placement happens exactly once, after the table
     /// has resolved a real width and measured its rows. Posts are sorted
@@ -478,9 +478,11 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     private func startDwell(for postID: String) {
         dwellItems[postID]?.cancel()
         let service = channelService
-        let item = DispatchWorkItem { service?.markRead(postID: postID) }
-        dwellItems[postID] = item
-        DispatchQueue.main.asyncAfter(deadline: .now() + Self.dwellDelay, execute: item)
+        dwellItems[postID] = Task { @MainActor in
+            try? await Task.sleep(for: Self.dwellDelay)
+            guard !Task.isCancelled else { return }
+            service?.markRead(postID: postID)
+        }
     }
 
     private func cancelDwell(for postID: String) {
@@ -500,9 +502,10 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
             return
         }
         AppLog.feed.pub("update reload — rowsChanged=\(rowsChanged) envChanged=\(envChanged) n=\(newRows.count)")
-        // For now we still do a full reload on legitimate change. Step 7
-        // will replace this with a `[FeedRow]` diff + `insertRows` /
-        // `removeRows` for animated updates and per-row preservation.
+        // Full reload on legitimate change. A per-row diff with
+        // `insertRows` / `removeRows` would preserve scroll position and
+        // animate edits, but it's a bigger refactor than the
+        // channel-switch perf work needed.
         isReloading = true
         tableView?.reloadData()
         // Defer visibility re-report one runloop tick: AppKit posts a bounds
