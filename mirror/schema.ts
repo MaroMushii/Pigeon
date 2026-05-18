@@ -46,6 +46,26 @@ export interface PostDTO {
   posted_at: string | null;
   edited: boolean;
   permalink: string;
+  reply: ReplyDTO | null;
+}
+
+/**
+ * Reply quote attached to a post. Telegram renders this as a small card
+ * above the body showing the replied-to post's author, a 1-line preview
+ * (always truncated by Telegram with `…`), and an optional thumbnail.
+ *
+ * `preview_text` is plain — we deliberately drop inline formatting to
+ * keep the schema simple; the reply card UI doesn't need bold/links in a
+ * 1-line snippet. Promote to `inline_nodes` later if that proves wrong.
+ */
+export interface ReplyDTO {
+  channel_username: string;
+  post_id: string;
+  author_name: string;
+  preview_text: string;
+  thumbnail_url: string | null;
+  thumbnail_path: string | null;
+  permalink: string;
 }
 
 export type MediaKind = "photo" | "video" | "unknown";

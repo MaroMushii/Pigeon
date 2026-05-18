@@ -218,6 +218,9 @@ function collectMediaRefs(snapshot: Snapshot): Map<string, string> {
       consider(m.asset_url, m.asset_path);
       consider(m.thumbnail_url, m.thumbnail_path);
     }
+    if (p.reply) {
+      consider(p.reply.thumbnail_url, p.reply.thumbnail_path);
+    }
   }
   return refs;
 }

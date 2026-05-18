@@ -14,6 +14,7 @@ import type {
   MediaKind,
   PostDTO,
   ReactionDTO,
+  ReplyDTO,
   Snapshot,
 } from "./schema.js";
 import { SCHEMA_VERSION } from "./schema.js";
@@ -85,7 +86,16 @@ function parsePost(
     ? pathForCanonicalURL(authorPhoto, channelUsername).path
     : null;
 
-  const textEl = wrap.find(".tgme_widget_message_text").first();
+  // Telegram renders reply quotes inside `.tgme_widget_message_reply`,
+  // and the nested preview shares the `tgme_widget_message_text` class
+  // with the actual post body. A naïve `.first()` picks the quote and
+  // leaks it into the body (with a Telegram-imposed `…` mid-sentence).
+  // Exclude any text node that has a `.tgme_widget_message_reply`
+  // ancestor before grabbing the first remaining match.
+  const textEl = wrap
+    .find(".tgme_widget_message_text")
+    .filter((_, el) => $(el).closest(".tgme_widget_message_reply").length === 0)
+    .first();
   const bodyHTML = textEl.html() ?? "";
   // Extract plain text but preserve <br> as newlines so post excerpts
   // read the way humans wrote them, not as one giant paragraph blob.
@@ -108,6 +118,8 @@ function parsePost(
   const metaText = strip(wrap.find(".tgme_widget_message_meta").first().text());
   const edited = metaText.toLowerCase().includes("edited");
 
+  const reply = parseReply($, wrap, channelUsername);
+
   return {
     id: dataPost,
     author_name: author,
@@ -121,6 +133,49 @@ function parsePost(
     posted_at: postedAt,
     edited,
     permalink: `https://t.me/${dataPost}`,
+    reply,
+  };
+}
+
+function parseReply(
+  $: cheerio.CheerioAPI,
+  wrap: cheerio.Cheerio<any>,
+  channelUsername: string
+): ReplyDTO | null {
+  const replyEl = wrap.find(".tgme_widget_message_reply").first();
+  if (replyEl.length === 0) return null;
+
+  const href = replyEl.attr("href") ?? "";
+  // Expected shape: https://t.me/<channel>/<post_id> (sometimes /s/ variant).
+  const match = href.match(/t\.me\/(?:s\/)?([A-Za-z0-9_]+)\/(\d+)/);
+  if (!match || !match[1] || !match[2]) return null;
+  const replyChannel = match[1].toLowerCase();
+  const postId = match[2];
+
+  const author = strip(
+    replyEl.find(".tgme_widget_message_author_name").first().text()
+  );
+  const previewText = strip(
+    replyEl.find(".tgme_widget_message_text").first().text()
+  );
+
+  // Reply thumbnails come from telesco.pe CDN URLs the same way photos
+  // do — route them through pathForCanonicalURL so they end up mirrored.
+  const thumbStyle =
+    replyEl.find(".tgme_widget_message_reply_thumb").first().attr("style") ?? "";
+  const thumbURL = backgroundImageURL(thumbStyle);
+  const thumbPath = thumbURL && isMirrorableImageURL(thumbURL)
+    ? pathForCanonicalURL(thumbURL, channelUsername).path
+    : null;
+
+  return {
+    channel_username: replyChannel,
+    post_id: postId,
+    author_name: author,
+    preview_text: previewText,
+    thumbnail_url: thumbURL,
+    thumbnail_path: thumbPath,
+    permalink: `https://t.me/${replyChannel}/${postId}`,
   };
 }
 
