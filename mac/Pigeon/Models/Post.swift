@@ -19,12 +19,27 @@ struct PostDisplaySnapshot: Identifiable, Equatable {
     let permalink: URL?
     let media: [MediaSnapshot]
     let reactions: [ReactionSnapshot]
+    let reply: ReplySnapshot?
     /// Pre-computed at snapshot construction so the per-render BIDI scan
     /// over `plainText.unicodeScalars` doesn't run on every PostCard body
     /// evaluation + every NSTableView row-height measurement. Without this,
     /// `dominantWritingDirection` accounted for ~14% of CPU during scroll
     /// (Instruments SwiftUI trace, 2026-05-13). See WritingDirection.swift.
     let layoutDirection: LayoutDirection
+}
+
+/// Reply quote attached to a post. Plain-text preview, mirror-routed
+/// thumbnail. `targetPostID` is the channel-prefixed full id
+/// (`"bbcpersian/281392"`) so it matches `Post.id` for lookup / scroll.
+struct ReplySnapshot: Hashable, Sendable, Equatable {
+    let channelUsername: String
+    let postIDNumeric: String
+    let authorName: String
+    let previewText: String
+    let thumbnailURL: String?
+    let permalink: URL?
+
+    var targetPostID: String { "\(channelUsername)/\(postIDNumeric)" }
 }
 
 extension Post {
@@ -49,7 +64,25 @@ extension Post {
                 )
             },
             reactions: reactions.map { ReactionSnapshot(emoji: $0.emoji, count: $0.count) },
+            reply: replySnapshot,
             layoutDirection: plainText.dominantWritingDirection
+        )
+    }
+
+    fileprivate var replySnapshot: ReplySnapshot? {
+        guard
+            let channel = replyChannelUsername,
+            let postID = replyPostIDNumeric,
+            let author = replyAuthorName,
+            let preview = replyPreviewText
+        else { return nil }
+        return ReplySnapshot(
+            channelUsername: channel,
+            postIDNumeric: postID,
+            authorName: author,
+            previewText: preview,
+            thumbnailURL: replyThumbnailURL,
+            permalink: URL(string: "https://t.me/\(channel)/\(postID)")
         )
     }
 }
@@ -70,6 +103,7 @@ struct PostSnapshot: Identifiable, Hashable, Sendable {
     let postedAt: Date?
     let edited: Bool
     let permalink: URL?
+    let reply: ReplySnapshot?
 }
 
 /// Persistent post record. Survives app relaunch so cold starts can show
@@ -98,6 +132,15 @@ final class Post {
     /// `addChannel` are marked read on insert (the user is actively
     /// adding the channel and is about to see them).
     var isRead: Bool
+    /// Reply quote, flattened to scalars to dodge a relationship-table
+    /// migration. A non-nil `replyTargetChannel` + `replyTargetPostID`
+    /// pair signals "this post is a reply"; all five fields are populated
+    /// together by `updateScalars` / `insertNewPost`.
+    var replyChannelUsername: String?
+    var replyPostIDNumeric: String?
+    var replyAuthorName: String?
+    var replyPreviewText: String?
+    var replyThumbnailURL: String?
     var channel: Channel?
 
     init(
@@ -111,7 +154,8 @@ final class Post {
         postedAt: Date? = nil,
         edited: Bool = false,
         permalink: URL? = nil,
-        isRead: Bool = false
+        isRead: Bool = false,
+        reply: ReplySnapshot? = nil
     ) {
         self.id = id
         self.channelUsername = channelUsername
@@ -124,6 +168,11 @@ final class Post {
         self.edited = edited
         self.permalink = permalink
         self.isRead = isRead
+        self.replyChannelUsername = reply?.channelUsername
+        self.replyPostIDNumeric = reply?.postIDNumeric
+        self.replyAuthorName = reply?.authorName
+        self.replyPreviewText = reply?.previewText
+        self.replyThumbnailURL = reply?.thumbnailURL
     }
 
     /// Mutate self with the latest snapshot. Caller is responsible for
@@ -139,5 +188,11 @@ final class Post {
         if postedAt != snapshot.postedAt { postedAt = snapshot.postedAt }
         if edited != snapshot.edited { edited = snapshot.edited }
         if permalink != snapshot.permalink { permalink = snapshot.permalink }
+        let r = snapshot.reply
+        if replyChannelUsername != r?.channelUsername { replyChannelUsername = r?.channelUsername }
+        if replyPostIDNumeric != r?.postIDNumeric { replyPostIDNumeric = r?.postIDNumeric }
+        if replyAuthorName != r?.authorName { replyAuthorName = r?.authorName }
+        if replyPreviewText != r?.previewText { replyPreviewText = r?.previewText }
+        if replyThumbnailURL != r?.thumbnailURL { replyThumbnailURL = r?.thumbnailURL }
     }
 }

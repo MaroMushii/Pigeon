@@ -595,7 +595,8 @@ final class ChannelService {
             postedAt: snap.postedAt,
             edited: snap.edited,
             permalink: snap.permalink,
-            isRead: isRead
+            isRead: isRead,
+            reply: snap.reply
         )
         context.insert(post)
         post.channel = channel

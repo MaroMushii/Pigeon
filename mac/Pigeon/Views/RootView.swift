@@ -172,4 +172,11 @@ struct RootView: View {
 
 extension EnvironmentValues {
     @Entry var channelService: ChannelService? = nil
+    /// Imperative "scroll to a post in the currently displayed feed".
+    /// Returns `true` if the post id matched a row in the current feed
+    /// (and the scroll was issued), `false` otherwise. PostCard's reply
+    /// card uses this to scroll-to-quoted-post when local; falls back to
+    /// opening the t.me permalink when the target is out-of-window or in
+    /// another channel.
+    @Entry var scrollToPostInFeed: (@MainActor (String) -> Bool)? = nil
 }

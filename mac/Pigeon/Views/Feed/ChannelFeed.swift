@@ -308,6 +308,16 @@ private struct ChannelFeedContent: View {
                 onScrollCommandReady: { [prefetch] action in prefetch.performScroll = action },
                 onMeasurementComplete: { phase = .ready }
             )
+            .environment(\.scrollToPostInFeed, { [prefetch] postID in
+                // Only scroll if the target id matches a `.post` row in
+                // the *current* feed snapshot. Cross-channel replies and
+                // replies to posts older than `maxPostsPerChannel` fall
+                // through to the caller's permalink fallback.
+                let rowID = "row-post-\(postID)"
+                guard rows.contains(where: { $0.id == rowID }) else { return false }
+                prefetch.performScroll?(.toRow(id: rowID, viewportFraction: 0.08, animated: true))
+                return true
+            })
             VStack(spacing: 0) {
                 ChannelHeader(channel: channel)
                     .padding(.horizontal, 14)
@@ -394,14 +404,24 @@ private struct ChannelFeedContent: View {
         let topmost = prefetch.topmostVisiblePostID
         let dividerIdx = rows.firstIndex(of: .unreadDivider)
         let topIdx = topmost.flatMap { id in rows.firstIndex(where: { $0.id == "row-post-\(id)" }) }
-        AppLog.scroll.pub("reclick @\(channel.username): isAtBottom=<\(prefetch.isAtBottom)> hasUnread=<\(hasUnread)> topmost=<\(topmost ?? "nil")> dividerIdx=<\(dividerIdx.map(String.init) ?? "nil")> topIdx=<\(topIdx.map(String.init) ?? "nil")>")
+        AppLog.scroll.pub("reclick @\(channel.username): isAtBottom=<\(prefetch.isAtBottom)> hasUnread=<\(hasUnread)> dividerVis=<\(unreadDividerVisible)> topmost=<\(topmost ?? "nil")> dividerIdx=<\(dividerIdx.map(String.init) ?? "nil")> topIdx=<\(topIdx.map(String.init) ?? "nil")>")
 
         if prefetch.isAtBottom {
             AppLog.scroll.pub("  → no-op (at bottom)")
             return
         }
 
-        if hasUnread, let dIdx = dividerIdx, let tIdx = topIdx, tIdx < dIdx {
+        // Require topmost-visible to be *meaningfully* above the divider —
+        // not the immediately-prior post. After the initial landing places
+        // the divider at viewportFraction 0.2, the post directly above the
+        // divider is still partially visible at the top of the viewport,
+        // so `topmostVisiblePostID` reports it as topmost. With a naive
+        // `tIdx < dIdx`, the first re-click would re-scroll to the same
+        // divider position (zero visible motion) instead of advancing to
+        // latest. `tIdx < dIdx - 1` requires the user to have scrolled at
+        // least one full post above the divider before the cycle treats it
+        // as "bring me back to where I was."
+        if hasUnread, let dIdx = dividerIdx, let tIdx = topIdx, tIdx < dIdx - 1 {
             AppLog.scroll.pub("  → scrollToUnread (above divider)")
             scrollToUnread(animated: true)
             return

@@ -106,12 +106,25 @@ struct HTMLPostParser {
             .flatMap(TelegramURLRewriter.rewrite)
             .map(\.absoluteString)
 
-        let textEl = try wrap.select(".tgme_widget_message_text").first()
+        // Reply quotes nest a `.tgme_widget_message_text` inside
+        // `.tgme_widget_message_reply`; SwiftSoup's CSS engine doesn't
+        // support `:not(.x .y)`, so we scan the matches and drop any
+        // whose ancestor chain hits a reply block. Otherwise `first()`
+        // would pick the truncated reply preview instead of the body.
+        let textEl = (try? wrap.select(".tgme_widget_message_text").array())?.first { el in
+            var cursor: Element? = el.parent()
+            while let node = cursor {
+                if node.hasClass("tgme_widget_message_reply") { return false }
+                cursor = node.parent()
+            }
+            return true
+        }
         let bodyHTML = (try? textEl?.html()) ?? ""
         let plain = textEl.map { plainText(from: $0) } ?? ""
 
         let media = parseMedia(in: wrap)
         let reactions = parseReactions(in: wrap)
+        let reply = parseReply(in: wrap)
 
         let viewsLabel = try? wrap.select(".tgme_widget_message_views").first()?.text()
 
@@ -138,7 +151,37 @@ struct HTMLPostParser {
             viewsLabel: viewsLabel,
             postedAt: postedAt,
             edited: edited,
-            permalink: permalink
+            permalink: permalink,
+            reply: reply
+        )
+    }
+
+    nonisolated(unsafe) private static let replyHrefRegex = /t\.me\/(?:s\/)?(?<channel>[A-Za-z0-9_]+)\/(?<post>\d+)/
+
+    private func parseReply(in wrap: Element) -> ReplySnapshot? {
+        guard let replyEl = try? wrap.select(".tgme_widget_message_reply").first() else { return nil }
+        let href = (try? replyEl.attr("href")) ?? ""
+        guard let match = href.firstMatch(of: Self.replyHrefRegex) else { return nil }
+        let channel = String(match.channel).lowercased()
+        let postID = String(match.post)
+
+        let author = ((try? replyEl.select(".tgme_widget_message_author_name").first()?.text()) ?? "")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        let previewText = ((try? replyEl.select(".tgme_widget_message_text").first()?.text()) ?? "")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+
+        let thumbStyle = (try? replyEl.select(".tgme_widget_message_reply_thumb").first()?.attr("style")) ?? ""
+        let thumb = backgroundImageURL(from: thumbStyle)
+            .flatMap(TelegramURLRewriter.rewrite)
+            .map(\.absoluteString)
+
+        return ReplySnapshot(
+            channelUsername: channel,
+            postIDNumeric: postID,
+            authorName: author,
+            previewText: previewText,
+            thumbnailURL: thumb,
+            permalink: URL(string: "https://t.me/\(channel)/\(postID)")
         )
     }
 

@@ -58,6 +58,19 @@ struct JSONFeedDecoder {
         let posted_at: String?
         let edited: Bool
         let permalink: String
+        /// Optional — older snapshots written before the reply field
+        /// landed will simply decode this as `nil`.
+        let reply: ReplyDTO?
+    }
+
+    private struct ReplyDTO: Decodable {
+        let channel_username: String
+        let post_id: String
+        let author_name: String
+        let preview_text: String
+        let thumbnail_url: String?
+        let thumbnail_path: String?
+        let permalink: String
     }
 
     private struct MediaDTO: Decodable {
@@ -120,6 +133,21 @@ struct JSONFeedDecoder {
             let reactions = dto.reactions.map { ReactionSnapshot(emoji: $0.emoji, count: $0.count) }
             let postedAt = dto.posted_at.flatMap { Self.fractionalISO.date(from: $0) ?? Self.plainISO.date(from: $0) }
 
+            let reply: ReplySnapshot? = dto.reply.map { r in
+                ReplySnapshot(
+                    channelUsername: r.channel_username.lowercased(),
+                    postIDNumeric: r.post_id,
+                    authorName: r.author_name,
+                    previewText: r.preview_text,
+                    thumbnailURL: resolveImageURL(
+                        path: r.thumbnail_path,
+                        fallback: r.thumbnail_url,
+                        base: mirrorBaseURL
+                    ),
+                    permalink: URL(string: r.permalink)
+                )
+            }
+
             return PostSnapshot(
                 id: dto.id,
                 channelUsername: env.channel.username.lowercased(),
@@ -136,7 +164,8 @@ struct JSONFeedDecoder {
                 viewsLabel: emptyToNil(dto.views_label),
                 postedAt: postedAt,
                 edited: dto.edited,
-                permalink: URL(string: dto.permalink)
+                permalink: URL(string: dto.permalink),
+                reply: reply
             )
         }
 

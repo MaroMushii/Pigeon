@@ -14,6 +14,7 @@ struct PostCard: View {
     var onVisibilityChange: ((Bool) -> Void)? = nil
 
     @Environment(\.channelService) private var service
+    @Environment(\.scrollToPostInFeed) private var scrollToPostInFeed
 
     private static let attributedBuilder = AttributedHTMLBuilder()
 
@@ -57,6 +58,14 @@ struct PostCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             header
+
+            if let reply = post.reply {
+                ReplyCard(
+                    reply: reply,
+                    isNavigable: reply.channelUsername == post.channelUsername,
+                    onTap: { handleReplyTap(reply: reply) }
+                )
+            }
 
             if !post.media.isEmpty {
                 MediaGallery(media: post.media)
@@ -150,6 +159,16 @@ struct PostCard: View {
             }
             .disabled(post.plainText.isEmpty)
         }
+    }
+
+    private func handleReplyTap(reply: ReplySnapshot) {
+        // Best-effort scroll to the quoted post when it lives in this
+        // channel's feed window. Falls through silently when the target
+        // is out-of-window — opening the t.me permalink would just hang
+        // the user's browser behind DPI, so we don't.
+        guard reply.channelUsername == post.channelUsername,
+              let scroll = scrollToPostInFeed else { return }
+        _ = scroll(reply.targetPostID)
     }
 
     private func handleVisibilityChange(_ visible: Bool) {
@@ -662,5 +681,80 @@ private struct MediaTile: View {
             // browser, which violates the no-direct-t.me rule.
             NSLog("[QuickLook] fetch failed for <\(url.absoluteString)>: \(error)")
         }
+    }
+}
+
+/// Quoted-reply card shown above the body. Matches Telegram's visual
+/// shape: leading accent rail, optional square thumbnail, author name on
+/// top in accent color, 1-line preview underneath. Whole card is one
+/// tap target — the caller decides whether to scroll-in-feed or open
+/// the permalink.
+private struct ReplyCard: View {
+    let reply: ReplySnapshot
+    /// `true` when the quoted post lives in this channel — tap may jump.
+    /// `false` for cross-channel replies, where we render a static card
+    /// (no hover, no button) since we can't reach the original from
+    /// inside the app and won't deep-link out via t.me (DPI-blocked for
+    /// users in Iran).
+    let isNavigable: Bool
+    let onTap: () -> Void
+
+    @State private var isHovering = false
+
+    var body: some View {
+        if isNavigable {
+            Button(action: onTap) {
+                content
+            }
+            .buttonStyle(.plain)
+            .onHover { isHovering = $0 }
+            .help("Jump to replied post")
+        } else {
+            content
+                .help("Quoted post is in another channel")
+        }
+    }
+
+    private var content: some View {
+        HStack(spacing: 8) {
+            Rectangle()
+                .fill(Color.accentColor)
+                .frame(width: 3)
+                .clipShape(.capsule)
+
+            if let urlString = reply.thumbnailURL, let url = URL(string: urlString) {
+                LazyImage(url: url) { state in
+                    if let img = state.image {
+                        img.resizable().scaledToFill()
+                    } else {
+                        Rectangle().fill(.quaternary)
+                    }
+                }
+                .frame(width: 32, height: 32)
+                .clipShape(.rect(cornerRadius: 4, style: .continuous))
+            }
+
+            VStack(alignment: .leading, spacing: 2) {
+                Text(reply.authorName)
+                    .font(.caption)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(Color.accentColor)
+                    .lineLimit(1)
+                Text(reply.previewText)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(1)
+                    .truncationMode(.tail)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .padding(.vertical, 6)
+        .padding(.horizontal, 8)
+        .background(
+            Color.accentColor.opacity(isHovering ? 0.10 : 0.06),
+            in: .rect(cornerRadius: 6, style: .continuous)
+        )
+        .opacity(isNavigable ? 1.0 : 0.75)
+        .contentShape(.rect)
     }
 }
