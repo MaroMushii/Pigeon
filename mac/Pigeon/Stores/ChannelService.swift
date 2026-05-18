@@ -263,7 +263,15 @@ final class ChannelService {
             try await self.performRefresh(channel)
         }
         inflightTasks[username] = task
-        defer { inflightTasks.removeValue(forKey: username) }
+        // Identity-guard: `refreshAll(force: true)` can synchronously
+        // replace the slot with a fresh task. When this older task's
+        // cancellation eventually unwinds, its defer must NOT clobber
+        // the replacement's slot.
+        defer {
+            if inflightTasks[username] == task {
+                inflightTasks.removeValue(forKey: username)
+            }
+        }
         try await task.value
     }
 
@@ -453,6 +461,16 @@ final class ChannelService {
             return existing
         }
         refreshTask?.cancel()
+        if force {
+            // `force: true` means "preempt now, fetch fresh now." Cancel
+            // every in-flight per-channel task and clear the dict so the
+            // replacement sweep doesn't join a stale (cancelled) fetch
+            // via `refresh(_:)`'s de-dupe check. The cancelled tasks'
+            // own defers are identity-guarded and won't clobber the
+            // refreshed slots.
+            for task in inflightTasks.values { task.cancel() }
+            inflightTasks.removeAll()
+        }
         refreshGeneration &+= 1
         let myGen = refreshGeneration
         let task = Task { @MainActor [weak self] in

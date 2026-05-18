@@ -28,7 +28,11 @@ actor FakeTelegramFetcher: TelegramFetching {
     }
 
     private var behavior: Behavior = .throwError(TelegramClient.FetchError.invalidResponse)
-    private var suspendedSnapshots: [String: CheckedContinuation<TelegramClient.MirrorFetchResult, Error>] = [:]
+    /// FIFO queue per username. A cancelled production sweep can leave
+    /// its child continuation parked here while the replacement sweep
+    /// spawns a fresh child for the same username; both must coexist,
+    /// resolved in entry order by `throwSnapshot` / `resolveSnapshot`.
+    private var suspendedSnapshots: [String: [CheckedContinuation<TelegramClient.MirrorFetchResult, Error>]] = [:]
     private var snapshotCallWaiters: [(threshold: Int, continuation: CheckedContinuation<Void, Never>)] = []
 
     private(set) var snapshotCallCount: Int = 0
@@ -51,11 +55,17 @@ actor FakeTelegramFetcher: TelegramFetching {
     }
 
     func resolveSnapshot(for username: String, with result: TelegramClient.MirrorFetchResult) {
-        suspendedSnapshots.removeValue(forKey: username)?.resume(returning: result)
+        guard var queue = suspendedSnapshots[username], !queue.isEmpty else { return }
+        let cont = queue.removeFirst()
+        suspendedSnapshots[username] = queue.isEmpty ? nil : queue
+        cont.resume(returning: result)
     }
 
     func throwSnapshot(for username: String, error: any Error) {
-        suspendedSnapshots.removeValue(forKey: username)?.resume(throwing: error)
+        guard var queue = suspendedSnapshots[username], !queue.isEmpty else { return }
+        let cont = queue.removeFirst()
+        suspendedSnapshots[username] = queue.isEmpty ? nil : queue
+        cont.resume(throwing: error)
     }
 
     // MARK: - TelegramFetching
@@ -83,7 +93,7 @@ actor FakeTelegramFetcher: TelegramFetching {
         case .throwError(let err): throw err
         case .suspend:
             return try await withCheckedThrowingContinuation { cont in
-                suspendedSnapshots[username] = cont
+                suspendedSnapshots[username, default: []].append(cont)
             }
         }
     }
