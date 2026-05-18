@@ -29,10 +29,22 @@ final class ChannelService {
         }
     }
 
-    /// Snapshot of the most recent refresh failure, surfaced in the UI
-    /// (toolbar warning + popover) until cleared on success or dismissed.
+    /// A refresh failure scoped to a single channel — the channel returned
+    /// a per-channel-shaped error (404, malformed payload, rate limit).
+    /// Surfaced on the matching sidebar row until cleared on success or
+    /// dismissed. The owning channel is the dictionary key in
+    /// `channelErrors`; this struct intentionally doesn't repeat it.
     struct ChannelError: Sendable {
-        let channel: String
+        let message: String
+        let at: Date
+    }
+
+    /// A refresh failure that's app-wide — the network path itself is
+    /// broken (no internet, pinned IPs unreachable, transport timeout).
+    /// Surfaced on the toolbar; clicking opens the diagnosis sheet.
+    /// Single slot: every channel that fails for this reason produces the
+    /// same message, so there's no per-channel data worth preserving.
+    struct ConnectionError: Sendable {
         let message: String
         let at: Date
     }
@@ -43,13 +55,30 @@ final class ChannelService {
     /// granularity. 30s gives a worst-case 30s overshoot which is fine.
     static let autoRefreshTickInterval: Duration = .seconds(30)
 
-    /// Channels with an in-flight network refresh. Views render a
-    /// spinner when their channel's username is in this set.
-    var inflight: Set<String> = []
+    /// Most recent per-channel failure, keyed by username. Each row in
+    /// the sidebar reads its own entry. Cleared on that channel's next
+    /// successful refresh or via `dismissChannelError(_:)`. Read-only
+    /// from outside — mutations go through the named methods so the
+    /// classifier in `recordFailure` stays authoritative.
+    private(set) var channelErrors: [String: ChannelError] = [:]
 
-    /// Most recent refresh failure across any channel. Nil after a
-    /// successful refresh or an explicit `clearLastError()`.
-    var lastError: ChannelError?
+    /// Most recent network-path failure. Cleared on *any* successful
+    /// refresh (the network is back), or via `dismissConnectionError()`.
+    private(set) var connectionError: ConnectionError?
+
+    /// In-flight per-channel refreshes, keyed by username. Owning the
+    /// `Task` (not just a flag) is what makes `cancelAll()` reach
+    /// per-channel refreshes started from sidebar / context-menu /
+    /// empty-state — those callers fire-and-forget; the service holds
+    /// the only handle that can cancel them. Observed: spinner views
+    /// (`ChannelRow`, `EmptyFeedState`, toolbar refresh/cancel morph)
+    /// re-render when the keyset changes.
+    private var inflightTasks: [String: Task<Void, Error>] = [:]
+
+    /// Set of usernames currently being refreshed. Computed from
+    /// `inflightTasks` so existing sites keep their `.inflight.contains(...)`
+    /// reads unchanged.
+    var inflight: Set<String> { Set(inflightTasks.keys) }
 
     /// True when the mirror returned a snapshot whose schema version is
     /// newer than this build understands. We fall back to the GT path so
@@ -73,44 +102,79 @@ final class ChannelService {
     /// main actor; this cache makes the hot path O(1).
     private(set) var unreadCount: Int = 0
 
-    @ObservationIgnored private let client: TelegramClient
+    @ObservationIgnored private let client: any TelegramFetching
     @ObservationIgnored private let parser = HTMLPostParser()
     @ObservationIgnored private let jsonDecoder = JSONFeedDecoder()
     @ObservationIgnored private let context: ModelContext
     @ObservationIgnored private let settings: SettingsStore
-    @ObservationIgnored private var autoRefreshTask: Task<Void, Never>?
-    @ObservationIgnored private var refreshAllTask: Task<Void, Never>?
-    @ObservationIgnored private let defaults: UserDefaults = .standard
+    @ObservationIgnored private var autoRefreshLoopTask: Task<Void, Never>?
+    @ObservationIgnored private var refreshTask: Task<Void, Never>?
+    /// Monotonic counter for `refreshTask` slot ownership. Each time the
+    /// slot is replaced (cancel + spawn) the generation bumps; the prior
+    /// task's `defer` only clears the slot if it still matches its own
+    /// generation. Without this, a cancelled task's late-running defer
+    /// would clobber the slot held by its replacement.
+    @ObservationIgnored private var refreshGeneration: Int = 0
+    @ObservationIgnored private let validatorStore = MirrorValidatorStore()
 
-    init(client: TelegramClient, context: ModelContext, settings: SettingsStore) {
+    init(
+        client: any TelegramFetching,
+        context: ModelContext,
+        settings: SettingsStore
+    ) {
         self.client = client
         self.context = context
         self.settings = settings
-        Self.seedChannelUnreadCounts(in: context)
+        Self.seedChannelUnreadCountsIfNeeded(in: context)
         self.unreadCount = Self.recomputeUnreadCount(in: context)
+    }
+
+    /// Kick off the auto-refresh ticker and the initial mirror-health
+    /// fetch. The app's entry point (`PigeonApp`) calls this immediately
+    /// after constructing the service. Kept out of `init` so tests can
+    /// construct a service whose Task lifecycle is fully controlled by
+    /// the test body — no background ticker racing the assertions.
+    func start() {
         startAutoRefreshLoop()
         Task { await self.refreshMirrorHealth() }
     }
 
-    /// One-time startup pass: populate each channel's stored `unreadCount`
-    /// from its persisted posts. Runs in O(channels × posts) once per launch —
-    /// cheap on a small dataset, guards against any drift from the incremental
-    /// maintenance path (e.g. after a schema migration that seeds the column at 0).
-    private static func seedChannelUnreadCounts(in context: ModelContext) {
+    /// Bump this when `Channel.unreadCount` semantics change in a way
+    /// that requires a re-seed (e.g. a migration adds the column at 0,
+    /// or the counted-set definition shifts). Existing installs with a
+    /// lower stored value get one re-seed pass on next launch.
+    private static let unreadSeedVersion = 1
+    private static let unreadSeedVersionKey = "channelUnreadSeedVersion"
+
+    /// Versioned startup pass: populate each channel's stored
+    /// `unreadCount` from its persisted posts the first time this build
+    /// runs (or whenever `unreadSeedVersion` bumps). Pre-fix this ran on
+    /// every launch — cheap on small datasets, but unnecessary, and the
+    /// only thing protecting against drift the rest of the code already
+    /// maintains incrementally. Re-seed on demand via `unreadSeedVersionKey`.
+    private static func seedChannelUnreadCountsIfNeeded(in context: ModelContext) {
+        let defaults = UserDefaults.standard
+        let stored = defaults.integer(forKey: unreadSeedVersionKey)
+        guard stored < unreadSeedVersion else { return }
         let descriptor = FetchDescriptor<Channel>()
         guard let channels = try? context.fetch(descriptor) else { return }
         for channel in channels {
             channel.unreadCount = channel.posts.reduce(0) { $0 + ($1.isRead ? 0 : 1) }
         }
+        defaults.set(unreadSeedVersion, forKey: unreadSeedVersionKey)
     }
 
     deinit {
-        autoRefreshTask?.cancel()
-        refreshAllTask?.cancel()
+        autoRefreshLoopTask?.cancel()
+        refreshTask?.cancel()
     }
 
-    func clearLastError() {
-        lastError = nil
+    func dismissChannelError(_ username: String) {
+        channelErrors.removeValue(forKey: username)
+    }
+
+    func dismissConnectionError() {
+        connectionError = nil
     }
 
     /// Add a new channel: validates the username, fetches the page, parses
@@ -128,7 +192,7 @@ final class ChannelService {
         // Defensive: a previous remove (or a crash before remove finished)
         // can leave stale validators in UserDefaults. Without this clear the
         // fetch below could 304 against a channel we have no posts for.
-        clearMirrorValidators(username: username)
+        validatorStore.clear(username: username)
 
         let outcome: FetchOutcome
         do {
@@ -161,11 +225,7 @@ final class ChannelService {
         // for content they explicitly chose to subscribe to.
         upsertPosts(result.posts, into: channel, markNewAsRead: true)
         try context.save()
-        let freshCountAfterAdd = Self.recomputeUnreadCount(in: context)
-        if freshCountAfterAdd != unreadCount {
-            unreadCount = freshCountAfterAdd
-            updateDockBadge()
-        }
+        recomputeUnreadCountAndBadge()
         return channel
     }
 
@@ -178,12 +238,40 @@ final class ChannelService {
 
     /// Refresh an existing channel's posts and metadata in place. Marks
     /// the channel as in-flight for the duration of the network call,
-    /// clears `lastError` on success, sets it on throw.
-    @discardableResult
-    func refresh(_ channel: Channel) async throws -> [Post] {
+    /// clears its `channelErrors` entry (and `connectionError`) on
+    /// success, classifies + stores the failure on throw.
+    ///
+    /// De-dupes by username: a second call while the first is still
+    /// in-flight joins the existing `Task` instead of starting a duplicate
+    /// fetch. That's what lets `refreshAll` blindly iterate every channel
+    /// without skipping the ones the auto-loop or a context-menu refresh
+    /// already started — they all converge on the same Task.
+    func refresh(_ channel: Channel) async throws {
         let username = channel.username
-        inflight.insert(username)
-        defer { inflight.remove(username) }
+        if let existing = inflightTasks[username] {
+            try await existing.value
+            return
+        }
+        // Create the Task but DON'T let its body clear `inflightTasks` —
+        // a concurrent re-entry could repopulate the slot with a new
+        // Task and the old defer would clobber it. The creator (this
+        // function) owns the slot for the duration of its own await,
+        // clearing on exit via the outer defer. De-dupe joiners don't
+        // run the defer, so the dict has exactly one owner.
+        let task = Task<Void, Error> { [weak self] in
+            guard let self else { throw CancellationError() }
+            try await self.performRefresh(channel)
+        }
+        inflightTasks[username] = task
+        defer { inflightTasks.removeValue(forKey: username) }
+        try await task.value
+    }
+
+    /// Actual per-channel refresh body. Always run inside the Task held
+    /// in `inflightTasks` so cancellation propagates and the inflight
+    /// entry is cleared exactly once.
+    private func performRefresh(_ channel: Channel) async throws {
+        let username = channel.username
         do {
             let outcome = try await fetch(username: username)
             switch outcome {
@@ -196,8 +284,7 @@ final class ChannelService {
                 channel.lastFetchedAt = .now
                 channel.lastFetchSource = source.rawValue
                 try context.save()
-                if lastError?.channel == username { lastError = nil }
-                return channel.posts
+                clearErrorsOnSuccess(username: username)
             case .changed(let result, let source):
                 // Guard each write so @Observable only fires when a value
                 // actually changed. Unconditional writes were causing ChannelRow
@@ -222,24 +309,109 @@ final class ChannelService {
                 }
                 upsertPosts(result.posts, into: channel)
                 try context.save()
-                let freshCountAfterRefresh = Self.recomputeUnreadCount(in: context)
-                if freshCountAfterRefresh != unreadCount {
-                    unreadCount = freshCountAfterRefresh
-                    updateDockBadge()
-                }
-                if lastError?.channel == username { lastError = nil }
-                return channel.posts
+                recomputeUnreadCountAndBadge()
+                clearErrorsOnSuccess(username: username)
             }
         } catch {
-            if !Task.isCancelled {
-                lastError = ChannelError(
-                    channel: username,
-                    message: error.localizedDescription,
-                    at: .now
-                )
+            // Cancellation is not a user-visible failure — the user
+            // clicked cancel, so just propagate without bucketing.
+            if !(error is CancellationError) {
+                recordFailure(username: username, error: error)
             }
             throw error
         }
+    }
+
+    /// Clear both error surfaces this channel could be on. A successful
+    /// round-trip proves the network is up, so the global
+    /// `connectionError` clears regardless of which channel succeeded.
+    private func clearErrorsOnSuccess(username: String) {
+        channelErrors.removeValue(forKey: username)
+        connectionError = nil
+    }
+
+    /// Bucket a refresh failure into the two visible error surfaces.
+    /// Network-path errors (no internet, pinned IPs unreachable, transport
+    /// timeout) → `connectionError`. Anything else (404, decoder failure,
+    /// rate limit, etc.) → `channelErrors[username]`.
+    private func recordFailure(username: String, error: Error) {
+        let message = Self.userFacingMessage(for: error)
+        if Self.isConnectionError(error) {
+            connectionError = ConnectionError(message: message, at: .now)
+        } else {
+            channelErrors[username] = ChannelError(message: message, at: .now)
+        }
+    }
+
+    /// Predicate for "this is a network-path failure, not a channel-shaped
+    /// failure." The set is deliberately narrow: only failures that would
+    /// resolve by toggling Wi-Fi or unblocking the pinned host count as
+    /// connection errors. A 404 / parse failure / rate limit stays
+    /// per-channel — those will keep failing even on a healthy network.
+    ///
+    /// The `URLError` set covers what Iranian DPI / DNS-poisoning tends
+    /// to surface as: `.cannotFindHost` shows up when the system resolver
+    /// returns a poisoned answer, `.cannotLoadFromNetwork` when the
+    /// pinned path is cooperatively torn down mid-handshake.
+    private static func isConnectionError(_ error: Error) -> Bool {
+        if let urlError = error as? URLError {
+            switch urlError.code {
+            case .notConnectedToInternet, .timedOut, .cannotConnectToHost,
+                 .cannotFindHost, .cannotLoadFromNetwork,
+                 .networkConnectionLost, .dnsLookupFailed,
+                 .internationalRoamingOff, .callIsActive,
+                 .dataNotAllowed, .secureConnectionFailed:
+                return true
+            default:
+                return false
+            }
+        }
+        if let pinnedError = error as? PinnedHTTPSClient.ClientError {
+            switch pinnedError {
+            case .connectionFailed, .timedOut, .truncated:
+                return true
+            case .invalidIP, .malformedResponse, .statusCode:
+                return false
+            }
+        }
+        if let fetchError = error as? TelegramClient.FetchError {
+            switch fetchError {
+            case .noInternet, .allMethodsFailed:
+                return true
+            case .rateLimited, .invalidResponse, .channelNotFound:
+                return false
+            }
+        }
+        return false
+    }
+
+    /// Map raw error types to a short, actionable user-facing string.
+    /// `error.localizedDescription` on `URLError` yields system messages
+    /// like "A server with the specified hostname could not be found."
+    /// — accurate, but not the language we want surfaced in a sidebar
+    /// tooltip. Conformance to `LocalizedError` on our own error types
+    /// (`TelegramClient.FetchError`, `PinnedHTTPSClient.ClientError`)
+    /// already gives nice strings; we only need to override `URLError`.
+    private static func userFacingMessage(for error: Error) -> String {
+        if let urlError = error as? URLError {
+            switch urlError.code {
+            case .notConnectedToInternet, .dataNotAllowed,
+                 .internationalRoamingOff, .callIsActive:
+                return "No internet connection."
+            case .timedOut:
+                return "Network request timed out."
+            case .cannotFindHost, .dnsLookupFailed:
+                return "Server name couldn't be resolved."
+            case .cannotConnectToHost, .networkConnectionLost,
+                 .cannotLoadFromNetwork:
+                return "Couldn't reach server — connection dropped."
+            case .secureConnectionFailed:
+                return "Secure connection failed."
+            default:
+                return "Network error."
+            }
+        }
+        return error.localizedDescription
     }
 
     /// Returns persisted posts if the channel was fetched within the
@@ -249,44 +421,81 @@ final class ChannelService {
         if !forceRefresh, isFresh(channel) {
             return channel.posts
         }
-        return try await refresh(channel)
+        try await refresh(channel)
+        return channel.posts
     }
 
-    /// Manual "refresh everything" — sweeps every persisted channel and
-    /// forces a refresh, bypassing per-source freshness TTLs. Channels
-    /// already in flight (e.g. picked up by the auto-refresh loop or a
-    /// context-menu refresh) are skipped; the sweep absorbs per-channel
-    /// failures via `lastError` so one stuck channel can't stall the rest.
-    /// Sequential to keep SwiftData mutations on the main actor — the
-    /// per-call `await` still releases the actor across the network hop.
-    /// Stores its own Task so callers can cancel via `cancelRefreshAll()`.
-    func refreshAll() {
-        refreshAllTask?.cancel()
-        refreshAllTask = Task {
-            await refreshMirrorHealth()
+    /// Sweep every persisted channel. `force: true` (the default, used by
+    /// the manual toolbar button) refreshes every channel regardless of
+    /// freshness. `force: false` (used by the auto-refresh ticker) only
+    /// refreshes channels whose `lastFetchedAt` is past their per-source
+    /// TTL — that's the whole job the dedicated auto-loop used to do.
+    ///
+    /// Channels already in flight are no longer skipped: per-channel
+    /// de-dupe lives inside `refresh(_:)` itself, so a blind iteration
+    /// here either joins the existing fetch or starts a fresh one. Net
+    /// effect: every channel is guaranteed to have a fresh result (or a
+    /// fresh classified error) by the time this Task completes.
+    ///
+    /// Non-force calls (the auto-tick) join a still-running sweep
+    /// instead of cancelling and restarting it — N channels × sequential
+    /// fetches can easily exceed the 30 s tick interval, and restarting
+    /// from scratch every tick means the auto-loop would never finish
+    /// a full pass on a slow network.
+    ///
+    /// Returns the underlying Task so callers can `await` completion if
+    /// they need to (tests, future "wait until first sweep" UI). The
+    /// toolbar button uses it as fire-and-forget, hence
+    /// `@discardableResult`.
+    @discardableResult
+    func refreshAll(force: Bool = true) -> Task<Void, Never> {
+        if !force, let existing = refreshTask {
+            return existing
+        }
+        refreshTask?.cancel()
+        refreshGeneration &+= 1
+        let myGen = refreshGeneration
+        let task = Task { @MainActor [weak self] in
+            guard let self else { return }
+            defer {
+                if self.refreshGeneration == myGen {
+                    self.refreshTask = nil
+                }
+            }
+            await self.refreshMirrorHealth()
             let descriptor = FetchDescriptor<Channel>()
-            guard let channels = try? context.fetch(descriptor) else { return }
+            guard let channels = try? self.context.fetch(descriptor) else { return }
             for channel in channels {
                 guard !Task.isCancelled else { break }
-                guard !inflight.contains(channel.username) else { continue }
-                _ = try? await refresh(channel)
+                if !force, self.isFresh(channel) { continue }
+                _ = try? await self.refresh(channel)
             }
         }
+        refreshTask = task
+        return task
     }
 
-    func cancelRefreshAll() {
-        refreshAllTask?.cancel()
+    /// Stop every in-flight refresh — sweep and per-channel both — and
+    /// drop the inflight set so spinners clear at the next render. The
+    /// auto-refresh ticker keeps running on its 30 s cadence; its
+    /// per-source TTL gate (`refreshAll(force: false)` + `isFresh`) is
+    /// strong enough that most recently-touched channels won't be picked
+    /// back up. No persistent paused state — Cancel means *stop now*,
+    /// not *stay stopped*.
+    func cancelAll() {
+        refreshTask?.cancel()
+        for task in inflightTasks.values { task.cancel() }
+        // The Task's own `defer` clears its `inflightTasks` entry once
+        // cancellation propagates. Don't clobber the dict here — that
+        // would orphan the still-running fetch (cancellation is
+        // cooperative; the task hasn't exited yet).
     }
 
     func remove(_ channel: Channel) {
-        clearMirrorValidators(username: channel.username)
+        validatorStore.clear(username: channel.username)
         context.delete(channel)
         try? context.save()
-        let freshCountAfterRemove = Self.recomputeUnreadCount(in: context)
-        if freshCountAfterRemove != unreadCount {
-            unreadCount = freshCountAfterRemove
-            updateDockBadge()
-        }
+        recomputeUnreadCountAndBadge()
     }
 
     func isFresh(_ channel: Channel) -> Bool {
@@ -478,11 +687,7 @@ final class ChannelService {
         guard channel.isMuted != muted else { return }
         channel.isMuted = muted
         try? context.save()
-        let freshCountAfterMute = Self.recomputeUnreadCount(in: context)
-        if freshCountAfterMute != unreadCount {
-            unreadCount = freshCountAfterMute
-            updateDockBadge()
-        }
+        recomputeUnreadCountAndBadge()
     }
 
     // MARK: - Dock badge
@@ -492,6 +697,19 @@ final class ChannelService {
     /// scroll-driven visibility change, and a `fetchCount` per call pegged
     /// the main actor on fast scrolls. Empty string clears the badge (an
     /// explicit "0" would leave a "0" pill on the icon).
+    /// Recompute the global unread total from SwiftData and push it onto
+    /// the dock badge if it actually changed. Used after operations that
+    /// can shift unread aggregation in non-trivial ways (channel add /
+    /// remove, full refresh, mute toggle) — the `markRead` hot path uses
+    /// the incremental decrement instead, since per-scroll `fetchCount`s
+    /// were pegging the main actor.
+    private func recomputeUnreadCountAndBadge() {
+        let fresh = Self.recomputeUnreadCount(in: context)
+        guard fresh != unreadCount else { return }
+        unreadCount = fresh
+        updateDockBadge()
+    }
+
     func updateDockBadge() {
         // `NSApp` is an implicitly-unwrapped optional that's only non-nil
         // after the AppKit runloop is up. Calls during `App.init` would
@@ -590,8 +808,7 @@ final class ChannelService {
     ///
     /// We never attempt direct `t.me` per the project brief.
     private func fetch(username: String) async throws -> FetchOutcome {
-        let etag = defaults.string(forKey: Self.etagKey(username))
-        let lastModified = defaults.string(forKey: Self.lastModifiedKey(username))
+        let (etag, lastModified) = validatorStore.validators(for: username)
         let mirrorBase = SettingsStore.defaultMirrorBaseURL
         AppLog.mirror.pub("[fetch] attempting mirror for <\(username)> etag=<\(etag ?? "nil")>")
         do {
@@ -609,7 +826,7 @@ final class ChannelService {
                 AppLog.mirror.pub("[fetch] mirror 200 for <\(username)> bytes=<\(data.count)>")
                 do {
                     let result = try jsonDecoder.decode(data, mirrorBaseURL: mirrorBase)
-                    persistMirrorValidators(
+                    validatorStore.persist(
                         username: username,
                         etag: newETag,
                         lastModified: newLastModified
@@ -626,11 +843,11 @@ final class ChannelService {
                     } else {
                         // Malformed JSON — clear validators so the next request
                         // isn't a conditional GET against broken data.
-                        persistMirrorValidators(username: username, etag: nil, lastModified: nil)
+                        validatorStore.persist(username: username, etag: nil, lastModified: nil)
                         AppLog.mirror.pub("[fetch] mirror decode error for <\(username)>: \(error.localizedDescription)")
                     }
                 } catch {
-                    persistMirrorValidators(username: username, etag: nil, lastModified: nil)
+                    validatorStore.persist(username: username, etag: nil, lastModified: nil)
                     AppLog.mirror.pub("[fetch] mirror decode error for <\(username)>: \(error.localizedDescription)")
                 }
             }
@@ -649,38 +866,6 @@ final class ChannelService {
         return .changed(result, source: .gt)
     }
 
-    private static func etagKey(_ username: String) -> String {
-        "mirror.etag.\(username.lowercased())"
-    }
-
-    private static func lastModifiedKey(_ username: String) -> String {
-        "mirror.lastModified.\(username.lowercased())"
-    }
-
-    private func persistMirrorValidators(
-        username: String,
-        etag: String?,
-        lastModified: String?
-    ) {
-        let eKey = Self.etagKey(username)
-        let lKey = Self.lastModifiedKey(username)
-        if let etag, !etag.isEmpty {
-            defaults.set(etag, forKey: eKey)
-        } else {
-            defaults.removeObject(forKey: eKey)
-        }
-        if let lastModified, !lastModified.isEmpty {
-            defaults.set(lastModified, forKey: lKey)
-        } else {
-            defaults.removeObject(forKey: lKey)
-        }
-    }
-
-    private func clearMirrorValidators(username: String) {
-        defaults.removeObject(forKey: Self.etagKey(username))
-        defaults.removeObject(forKey: Self.lastModifiedKey(username))
-    }
-
     /// Sum unread posts across non-muted channels. Channel-first (rather
     /// than a `Post` predicate that traverses the optional `channel`
     /// relationship) sidesteps `#Predicate` macro brittleness around
@@ -694,46 +879,20 @@ final class ChannelService {
 
     // MARK: - Auto-refresh loop
 
-    /// Periodic background refresh. Wakes every `autoRefreshTickInterval`
-    /// (30s), enumerates all channels, and refreshes any whose
-    /// `lastFetchedAt` is older than its source-specific interval
-    /// (mirror: 5 min, GT: 2 min). Refreshes run sequentially to avoid
-    /// hammering either upstream and to keep the main actor responsive
-    /// across the SwiftData mutations the refresh performs.
+    /// Periodic background ticker. Wakes every `autoRefreshTickInterval`
+    /// (30 s) and delegates the actual sweep to `refreshAll(force:
+    /// false)` — same code path the manual button uses, just with the
+    /// per-source TTL gate engaged so we don't hammer upstream.
     ///
     /// Continues running while the app process is alive — including when
     /// all windows are closed — so the dock badge stays current.
     private func startAutoRefreshLoop() {
-        autoRefreshTask = Task { [weak self] in
+        autoRefreshLoopTask = Task { [weak self] in
             while !Task.isCancelled {
                 try? await Task.sleep(for: Self.autoRefreshTickInterval)
                 guard let self, !Task.isCancelled else { return }
-                await self.tickAutoRefresh()
+                self.refreshAll(force: false)
             }
-        }
-    }
-
-    private func tickAutoRefresh() async {
-        await refreshMirrorHealth()
-
-        let descriptor = FetchDescriptor<Channel>()
-        guard let channels = try? context.fetch(descriptor) else { return }
-
-        let now = Date.now
-        for channel in channels {
-            if Task.isCancelled { return }
-            let interval = channel.fetchSource.refreshInterval
-            let due: Bool
-            if let last = channel.lastFetchedAt {
-                due = now.timeIntervalSince(last) >= interval
-            } else {
-                due = true
-            }
-            guard due, !inflight.contains(channel.username) else { continue }
-            // Failures are surfaced via `lastError` inside `refresh`. The
-            // loop deliberately swallows the throw so one bad channel can't
-            // stall the others.
-            _ = try? await refresh(channel)
         }
     }
 

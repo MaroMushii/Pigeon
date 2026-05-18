@@ -15,8 +15,6 @@ struct ChannelFeed: View {
     let channel: Channel?
 
     @Environment(AppState.self) private var appState
-    @Environment(\.channelService) private var service
-    @State private var showingErrorPopover = false
 
     var body: some View {
         Group {
@@ -31,60 +29,6 @@ struct ChannelFeed: View {
         }
         .navigationTitle("Pigeon")
         .navigationSubtitle("")
-        .toolbar {
-            ToolbarItem(placement: .primaryAction) {
-                Button {
-                    appState.presentedSheet = .healthCheck
-                } label: {
-                    Label("Network Health", systemImage: "stethoscope")
-                }
-                .help("Check network health")
-            }
-            if let lastError = service?.lastError {
-                ToolbarItem(placement: .automatic) {
-                    errorBadge(lastError)
-                }
-            }
-        }
-    }
-
-    @ViewBuilder
-    private func errorBadge(_ error: ChannelService.ChannelError) -> some View {
-        Button {
-            showingErrorPopover = true
-        } label: {
-            Label("Refresh failed", systemImage: "exclamationmark.triangle.fill")
-                .foregroundStyle(.orange)
-        }
-        .help("Last refresh failed — click for details")
-        .popover(isPresented: $showingErrorPopover, arrowEdge: .bottom) {
-            VStack(alignment: .leading, spacing: 10) {
-                Label("Refresh failed", systemImage: "exclamationmark.triangle.fill")
-                    .foregroundStyle(.orange)
-                    .font(.headline)
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("@\(error.channel)")
-                        .font(.system(size: 12, weight: .medium))
-                        .foregroundStyle(.secondary)
-                    Text(error.message)
-                        .font(.system(size: 12))
-                        .textSelection(.enabled)
-                    Text(error.at, format: .relative(presentation: .named))
-                        .font(.system(size: 11))
-                        .foregroundStyle(.tertiary)
-                }
-                HStack {
-                    Spacer()
-                    Button("Dismiss") {
-                        service?.clearLastError()
-                        showingErrorPopover = false
-                    }
-                    .keyboardShortcut(.defaultAction)
-                }
-            }
-            .padding(14)
-            .frame(width: 320)
-        }
     }
 }
 
@@ -280,17 +224,19 @@ private struct ChannelFeedContent: View {
                 initialScrollCommand: resolveInitialScroll(saved: scrollMemory.saved(for: channel.persistentModelID)),
                 onScrollCommandReady: { [prefetch] action in prefetch.performScroll = action }
             )
-                .safeAreaInset(edge: .top, spacing: 0) {
-                    ChannelHeader(channel: channel)
-                        .padding(.horizontal, 14)
-                        .padding(.vertical, 8)
-                        .glassEffectIfAvailable(in: .rect(cornerRadius: 16, style: .continuous))
-                        .frame(maxWidth: 680)
-                        .frame(maxWidth: .infinity, alignment: .center)
-                        .padding(.horizontal, 12)
-                        .padding(.top, 6)
-                        .padding(.bottom, 4)
-                }
+            VStack(spacing: 0) {
+                ChannelHeader(channel: channel)
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 8)
+                    .glassEffectIfAvailable(in: .rect(cornerRadius: 16, style: .continuous))
+                    .frame(maxWidth: 680)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .padding(.horizontal, 12)
+                    .padding(.top, 6)
+                    .padding(.bottom, 4)
+                Spacer(minLength: 0)
+            }
+            .allowsHitTesting(false)
             FeedOverlay(unseenCount: $unseenCount) {
                 scrollToLatest(animated: true)
                 unseenCount = 0

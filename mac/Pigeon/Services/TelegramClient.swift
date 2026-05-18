@@ -15,7 +15,24 @@ import os
 ///      and as a freshness fallback if GitHub is unreachable.
 ///
 /// Per the project brief, **direct** `t.me` requests are never attempted.
-actor TelegramClient {
+///
+/// The fetching surface is also exposed as a `Sendable` protocol so tests
+/// can substitute a controllable fake. Production stays the same — the
+/// concrete actor conforms — but `ChannelService` accepts any conforming
+/// implementation, which is what lets behavioral tests drive timing and
+/// inject specific errors without making real network calls.
+protocol TelegramFetching: Sendable {
+    func fetchChannelPage(username: String) async throws -> TelegramClient.ChannelPage
+    func fetchMirrorSnapshot(
+        username: String,
+        baseURL: URL,
+        ifNoneMatch etag: String?,
+        ifModifiedSince lastModified: String?
+    ) async throws -> TelegramClient.MirrorFetchResult
+    func fetchMirrorHealth(baseURL: URL) async throws -> MirrorHealth
+}
+
+actor TelegramClient: TelegramFetching {
     enum FetchError: Error, LocalizedError {
         case noInternet
         case allMethodsFailed(underlying: [Error])

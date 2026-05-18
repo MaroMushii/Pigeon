@@ -73,6 +73,10 @@ struct ChannelRow: View {
         service?.inflight.contains(channel.username) ?? false
     }
 
+    private var channelError: ChannelService.ChannelError? {
+        service?.channelErrors[channel.username]
+    }
+
     var body: some View {
         HStack(spacing: 8) {
             avatar
@@ -95,27 +99,42 @@ struct ChannelRow: View {
                 .foregroundStyle(.secondary)
             }
             Spacer(minLength: 4)
-            if isLoading {
-                ProgressView()
-                    .controlSize(.small)
-            } else if channel.unreadCount > 0 {
-                Text("\(channel.unreadCount)")
-                    .font(.caption)
-                    .fontWeight(.semibold)
-                    .foregroundStyle(channel.isMuted ? AnyShapeStyle(.secondary) : AnyShapeStyle(.white))
-                    .padding(.horizontal, 7)
-                    .padding(.vertical, 2)
-                    .background(
-                        channel.isMuted
-                            ? AnyShapeStyle(Color.secondary.opacity(0.18))
-                            : AnyShapeStyle(Color.accentColor),
-                        in: .capsule
-                    )
-                    .accessibilityLabel(channel.isMuted ? "\(channel.unreadCount) unread, muted" : "\(channel.unreadCount) unread")
-            }
+            trailingIndicator
         }
         .padding(.vertical, 4)
         .allowsHitTesting(false)
+    }
+
+    // Priority order — loading wins (transient), then error (something
+    // the user needs to know about), then unread badge (steady state).
+    // Showing both unread + error is visually noisy and the error is
+    // the more actionable signal: retry via right-click → Refresh.
+    @ViewBuilder
+    private var trailingIndicator: some View {
+        if isLoading {
+            ProgressView()
+                .controlSize(.small)
+        } else if let error = channelError {
+            Image(systemName: "exclamationmark.circle.fill")
+                .imageScale(.medium)
+                .foregroundStyle(.orange)
+                .help("Couldn't refresh @\(channel.username): \(error.message). Right-click → Refresh to retry.")
+                .accessibilityLabel("Refresh failed: \(error.message)")
+        } else if channel.unreadCount > 0 {
+            Text("\(channel.unreadCount)")
+                .font(.caption)
+                .fontWeight(.semibold)
+                .foregroundStyle(channel.isMuted ? AnyShapeStyle(.secondary) : AnyShapeStyle(.white))
+                .padding(.horizontal, 7)
+                .padding(.vertical, 2)
+                .background(
+                    channel.isMuted
+                        ? AnyShapeStyle(Color.secondary.opacity(0.18))
+                        : AnyShapeStyle(Color.accentColor),
+                    in: .capsule
+                )
+                .accessibilityLabel(channel.isMuted ? "\(channel.unreadCount) unread, muted" : "\(channel.unreadCount) unread")
+        }
     }
 
     @ViewBuilder

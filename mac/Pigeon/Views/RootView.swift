@@ -57,7 +57,7 @@ struct RootView: View {
                 let isRefreshing = !(service?.inflight.isEmpty ?? true)
                 if isRefreshing {
                     Button {
-                        service?.cancelRefreshAll()
+                        service?.cancelAll()
                     } label: {
                         ZStack {
                             if isHoveringRefresh {
@@ -82,7 +82,7 @@ struct RootView: View {
                     }
                     .keyboardShortcut("r", modifiers: .command)
                     .help("Refresh all channels (⌘R)")
-                    .disabled(channels.isEmpty)
+                    .disabled(channels.isEmpty || service == nil)
                 }
             }
             ToolbarItem(placement: .primaryAction) {
@@ -92,6 +92,9 @@ struct RootView: View {
                     Label("Add Channel", systemImage: "plus")
                 }
                 .help("Add a Telegram channel (⌘N)")
+            }
+            ToolbarItem(placement: .primaryAction) {
+                networkStatusButton
             }
         }
         .sheet(item: $appState.presentedSheet) { sheet in
@@ -105,6 +108,35 @@ struct RootView: View {
                 HealthCheckView()
                     .frame(minWidth: 380, minHeight: 240)
             }
+        }
+    }
+
+    // MARK: - Toolbar
+
+    // One slot that morphs between two states. Stethoscope normally,
+    // orange warning triangle when a network-path failure is active.
+    // Both open the diagnosis sheet — when something's broken the user
+    // wants to see *why*, not read a one-line error in a popover. The
+    // per-channel error UX lives on the sidebar rows where each row
+    // owns its own failure.
+    @ViewBuilder
+    private var networkStatusButton: some View {
+        if let error = service?.connectionError {
+            Button {
+                appState.presentedSheet = .healthCheck
+            } label: {
+                Label("Network problem", systemImage: "exclamationmark.triangle.fill")
+                    .foregroundStyle(.orange)
+            }
+            .help("Network problem — \(error.message). Click to diagnose.")
+            .accessibilityLabel("Network problem, click to diagnose")
+        } else {
+            Button {
+                appState.presentedSheet = .healthCheck
+            } label: {
+                Label("Network Health", systemImage: "stethoscope")
+            }
+            .help("Check network health")
         }
     }
 
