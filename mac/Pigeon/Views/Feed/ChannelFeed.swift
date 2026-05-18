@@ -51,9 +51,13 @@ private struct ChannelFeedContent: View {
     /// viewsLabel) during a refresh and issue re-renders mid-scroll. Cards
     /// only re-render when `recomputeSortedPosts` explicitly rebuilds this
     /// array — triggered by `channel.lastFetchedAt` changes rather than
-    /// fine-grained property mutations. Seeded synchronously in `init` so
-    /// the very first body evaluation already sees a populated array.
-    @State private var sortedPosts: [PostDisplaySnapshot]
+    /// fine-grained property mutations. Populated by `.task` on first
+    /// appear, NOT in `init` — accessing `channel.posts` (a SwiftData
+    /// relationship) faults in N posts plus their media/reactions, which
+    /// can take 200-500ms on the main thread. Doing that work in `init`
+    /// blocks SwiftUI from committing the `.id()`-swapped subtree, so the
+    /// previous channel's pixels stay on screen until init returns.
+    @State private var sortedPosts: [PostDisplaySnapshot] = []
 
     /// `sortedPosts` lifted into a unified row enum so the `ForEach` in
     /// `feed(posts:)` produces *exactly one view per element*. The naive
@@ -63,7 +67,7 @@ private struct ChannelFeedContent: View {
     /// on every scroll past the initial window. That re-realization is
     /// the source of the visible scroll-up jumping (estimated heights are
     /// re-applied per re-realization, layout shifts).
-    @State private var rows: [FeedRow]
+    @State private var rows: [FeedRow] = []
 
     /// Owns the image prefetcher and the rolling prefetch-window state. Held
     /// as a class instance (not raw `@State` value types) so visibility-driven
@@ -81,12 +85,18 @@ private struct ChannelFeedContent: View {
     /// Session-only; not written to `Post.isRead`.
     @State private var unseenCount: Int = 0
 
-    /// Two-phase mount state: `.preparing` while the HTML pre-warms, then
-    /// `.ready` once `NSTableView` has measured its rows and applied the
-    /// initial scroll. The feed is hidden until `.ready` so the user never
-    /// sees an un-positioned layout.
-    enum MountPhase { case preparing, ready }
-    @State private var phase: MountPhase = .preparing
+    /// Three-phase mount state:
+    ///   `.loading`   — snapshots not yet built. `.task` runs the SwiftData
+    ///                  fault-in + sort + `displaySnapshot()` map off `init`
+    ///                  so the parent's `.id()` swap can commit immediately.
+    ///                  Without this, init blocks the swap and the previous
+    ///                  channel's pixels remain visible for 200-500ms.
+    ///   `.preparing` — snapshots built; FeedTableView is mounted but
+    ///                  chunked row-height measurement hasn't drained yet.
+    ///   `.ready`     — first measurement complete; feed revealed against
+    ///                  fully-measured rows so scroll-restore lands correctly.
+    enum MountPhase { case loading, preparing, ready }
+    @State private var phase: MountPhase = .loading
 
     /// Id of the post above which the "Unread messages" divider is drawn.
     /// Captured once at mount from the *current* `isRead` state and never
@@ -104,16 +114,9 @@ private struct ChannelFeedContent: View {
 
     init(channel: Channel) {
         self.channel = channel
-        let sorted = channel.posts
-            .sorted { ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast) }
-            .map { $0.displaySnapshot() }
-        _sortedPosts = State(initialValue: sorted)
-        let firstUnread = sorted.first { !$0.isRead }?.id
-        let hasReadPost = sorted.contains { $0.isRead }
-        let resolvedFirstUnreadID = hasReadPost ? firstUnread : nil
-        _firstUnreadID = State(initialValue: resolvedFirstUnreadID)
-        _rows = State(initialValue: Self.buildRows(posts: sorted, firstUnreadID: resolvedFirstUnreadID))
-        AppLog.scroll.pub("init @\(channel.username) postCount=<\(sorted.count)>")
+        // Deliberately empty: snapshot + sort happens in `.task`. See the
+        // `sortedPosts` doc comment for why.
+        AppLog.scroll.pub("init @\(channel.username)")
     }
 
     /// Build the unified row stream — divider injected in place ahead of
@@ -136,14 +139,36 @@ private struct ChannelFeedContent: View {
         let posts = sortedPosts
 
         Group {
-            if posts.isEmpty {
-                EmptyFeedState(channel: channel, onRefresh: refresh)
-            } else if phase == .ready {
-                feed(posts: posts)
-            } else {
+            if phase == .loading {
+                // First frame after `.id()` swap. Snapshots aren't built
+                // yet; show the spinner against a blank background so the
+                // previous channel's pixels are immediately gone.
                 ProgressView()
                     .controlSize(.small)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
+            } else if posts.isEmpty {
+                EmptyFeedState(channel: channel, onRefresh: refresh)
+            } else {
+                // Keep `feed(posts:)` mounted while `phase == .preparing` so
+                // `FeedTableView` can measure rows behind the spinner. If
+                // we conditionally mount the feed on `phase == .ready`,
+                // `FeedTableView` never gets a chance to call its
+                // `onMeasurementComplete` closure — phase stays
+                // `.preparing` forever and the user is stuck on the
+                // ProgressView. `.opacity(0)` keeps the NSViewRepresentable
+                // alive but invisible; `allowsHitTesting(false)` blocks
+                // accidental trackpad scrolls during the measurement
+                // window.
+                ZStack {
+                    feed(posts: posts)
+                        .opacity(phase == .ready ? 1 : 0)
+                        .allowsHitTesting(phase == .ready)
+                    if phase != .ready {
+                        ProgressView()
+                            .controlSize(.small)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    }
+                }
             }
         }
         .background {
@@ -153,6 +178,31 @@ private struct ChannelFeedContent: View {
             FeedDataWatcher(channel: channel, onUpdate: scheduleRecompute)
         }
         .task {
+            // Build snapshots off `init` so the `.id()` swap commits
+            // instantly. `channel.posts` is a SwiftData relationship —
+            // first access faults in N posts plus their media/reactions
+            // for `displaySnapshot()`. Done in `init`, that work blocks
+            // SwiftUI from committing the new subtree and the old
+            // channel stays painted for the duration. Running this in
+            // `.task` means the spinner is already on screen by the
+            // time we touch SwiftData.
+            if sortedPosts.isEmpty {
+                let sorted = channel.posts
+                    .sorted { ($0.postedAt ?? .distantPast) < ($1.postedAt ?? .distantPast) }
+                    .map { $0.displaySnapshot() }
+                let firstUnread = sorted.first { !$0.isRead }?.id
+                let hasReadPost = sorted.contains { $0.isRead }
+                let resolvedFirstUnreadID = hasReadPost ? firstUnread : nil
+                sortedPosts = sorted
+                firstUnreadID = resolvedFirstUnreadID
+                rows = Self.buildRows(posts: sorted, firstUnreadID: resolvedFirstUnreadID)
+                AppLog.scroll.pub("hydrated @\(channel.username) postCount=<\(sorted.count)>")
+                // Move to `.preparing` so the feed view mounts. If the
+                // channel has no posts, jump straight to `.ready` —
+                // EmptyFeedState doesn't need measurement.
+                phase = sorted.isEmpty ? .ready : .preparing
+            }
+
             // Pre-warm the AttributedHTMLBuilder cache off the main
             // thread before revealing the feed. With `LazyVStack` only
             // ~5–10 cards realize on first paint, so cold-cache parsing
@@ -169,11 +219,13 @@ private struct ChannelFeedContent: View {
                 }.value
             }
             prefetch.setPosts(sortedPosts)
-            // With the AppKit bridge replacing LazyVStack, `NSTableView`
-            // measures all rows synchronously via its delegate and lays out
-            // deterministically — no convergence/reveal dance needed.
-            // Go straight `.preparing → .ready`.
-            phase = .ready
+            // `phase = .ready` is no longer set here. `FeedTableView`'s
+            // `onMeasurementComplete` callback flips it once the chunked
+            // bulk row-height measurement drains, so the feed is only
+            // revealed against fully-measured rows. This is what keeps
+            // scroll-restore (unread divider, "at bottom", re-click cycle)
+            // landing on the correct row Y — partially-measured rows would
+            // cause the scroll target to drift as more rows resolve.
         }
         .onChange(of: appState.scrollToLatestToken) { _, _ in
             guard phase == .ready else { return }
@@ -222,7 +274,8 @@ private struct ChannelFeedContent: View {
                     prefetch.setBottomVisible(visible)
                 },
                 initialScrollCommand: resolveInitialScroll(saved: scrollMemory.saved(for: channel.persistentModelID)),
-                onScrollCommandReady: { [prefetch] action in prefetch.performScroll = action }
+                onScrollCommandReady: { [prefetch] action in prefetch.performScroll = action },
+                onMeasurementComplete: { phase = .ready }
             )
             VStack(spacing: 0) {
                 ChannelHeader(channel: channel)

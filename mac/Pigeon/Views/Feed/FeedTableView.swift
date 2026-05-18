@@ -55,6 +55,12 @@ struct FeedTableView: NSViewRepresentable {
     /// programmatic scrolls after mount. Mirrors `ScrollViewReader`'s pattern
     /// but routes into the `Coordinator` instead of a SwiftUI proxy.
     var onScrollCommandReady: (@MainActor (@escaping @MainActor (ScrollCommand) -> Void) -> Void)?
+    /// Fired exactly once when the first bulk row-height measurement
+    /// drains. `ChannelFeedContent` uses this to flip its `phase` from
+    /// `.preparing` to `.ready`, revealing the feed against fully-measured
+    /// rows. Width-change re-measurements (window resize) do not re-fire
+    /// this — the closure is one-shot per coordinator lifetime.
+    var onMeasurementComplete: (@MainActor () -> Void)?
 
     @Environment(\.channelService) private var channelService
     @Environment(\.colorScheme) private var colorScheme
@@ -106,6 +112,11 @@ struct FeedTableView: NSViewRepresentable {
         coordinator.rows = rows
         coordinator.channelService = channelService
         coordinator.colorScheme = colorScheme
+        // One-shot install — `updateNSView` must NOT re-assign this slot.
+        // The coordinator clears it after firing, and re-assigning on every
+        // SwiftUI re-render would resurrect a stale closure and re-fire
+        // `phase = .ready` on width-change re-measurements.
+        coordinator.onMeasurementComplete = onMeasurementComplete
 
         tableView.delegate = coordinator
         tableView.dataSource = coordinator
@@ -165,6 +176,7 @@ struct FeedTableView: NSViewRepresentable {
             coordinator.boundsObserver = nil
         }
         coordinator.cancelAllDwells()
+        coordinator.cancelMeasurement()
     }
 
     func updateNSView(_ scrollView: NSScrollView, context: Context) {
@@ -248,10 +260,38 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     /// via `setInitialScrollCommand`; consumed once by `placeInitialScrollIfNeeded`.
     private var pendingInitialScroll: ScrollCommand?
 
+    /// In-flight chunked row-measurement task. Owned by the coordinator so
+    /// it can be cancelled when the view is dismantled (channel switch),
+    /// when a new frame-change kicks off a re-measurement, or when an
+    /// update mutates `rows` mid-flight.
+    private var measurementTask: Task<Void, Never>?
+    /// One-shot signal fired exactly once when the first bulk measurement
+    /// drains. `ChannelFeedContent` uses this to flip `phase` from
+    /// `.preparing` to `.ready`, revealing the feed against fully-measured
+    /// rows. Cleared after firing so width-change re-measurements don't
+    /// re-fire it.
+    var onMeasurementComplete: (@MainActor () -> Void)?
+    /// Chunk size for the async measurement loop. ~16 rows × ~6ms per row
+    /// ≈ 100ms per synchronous chunk; the `await Task.yield()` between
+    /// chunks lets AppKit drain pending input (sidebar clicks) so the UI
+    /// remains responsive during the initial measurement window.
+    private static let measurementChunkSize = 16
+
     /// Called when the table view's frame changes (e.g. window resize, or
     /// the initial scroll-view layout pass that brings the table from its
     /// tiny default bounds to its real size). Drops the height cache and
-    /// tells `NSTableView` to re-ask `heightOfRow` for every row.
+    /// drives a chunked re-measurement of every row.
+    ///
+    /// Background: a single synchronous `noteHeightOfRows(IndexSet(0..<n))`
+    /// for ~200 rows × a fresh `NSHostingController` per row produced a
+    /// 1267ms main-thread hang at 14043ms in `pigeon-scroll-perf.trace`.
+    /// During that window AppKit cannot deliver new mouse events, so the
+    /// sidebar feels locked. We now measure in chunks of
+    /// `measurementChunkSize` rows, yielding between chunks so input
+    /// events get processed. `placeInitialScrollIfNeeded` runs once at the
+    /// end, against fully-measured rows — preserving the exact scroll-
+    /// restore behavior we had before (unread divider, "at bottom",
+    /// re-click cycle).
     func handleTableFrameChange() {
         guard let tableView else { return }
         let width = max(0, tableView.bounds.width)
@@ -260,18 +300,42 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
         heightCache.removeAll(keepingCapacity: true)
         lastMeasuredWidth = effectiveWidth
 
-        let indexes = IndexSet(0..<rows.count)
-        // Signpost bulk re-measure: `noteHeightOfRows` causes NSTableView to
-        // synchronously re-ask `heightOfRow` for every row in `indexes`. With
-        // ~200 rows × a fresh `NSHostingController` measurement each, this is
-        // the prime suspect for the 1267ms hang observed at 14043ms in
-        // pigeon-scroll-perf.trace. The signpost spans the entire blocking
-        // call so we can attribute the wall-clock time in Instruments.
+        // If a previous measurement is still in flight (rapid width change,
+        // window resize during initial load) cancel it so we don't double-
+        // measure with stale width.
+        measurementTask?.cancel()
+
         let rowCount = rows.count
-        let state = AppLog.signpost.beginInterval("BulkMeasure", id: AppLog.signpost.makeSignpostID(), "rows=\(rowCount) width=\(Int(effectiveWidth))")
-        tableView.noteHeightOfRows(withIndexesChanged: indexes)
-        AppLog.signpost.endInterval("BulkMeasure", state)
-        placeInitialScrollIfNeeded()
+        let chunkSize = Self.measurementChunkSize
+        let state = AppLog.signpost.beginInterval(
+            "BulkMeasure",
+            id: AppLog.signpost.makeSignpostID(),
+            "rows=\(rowCount) width=\(Int(effectiveWidth)) chunked"
+        )
+        measurementTask = Task { @MainActor [weak self] in
+            defer { AppLog.signpost.endInterval("BulkMeasure", state) }
+            var idx = 0
+            while idx < rowCount {
+                guard !Task.isCancelled, let self else { return }
+                // Re-read `self.rows.count` so a mid-flight `update()` that
+                // shrinks the row array can't push us past the end. The
+                // bounds guard in `heightOfRow` further protects against
+                // races between this loop and a concurrent reload.
+                let end = min(idx + chunkSize, self.rows.count)
+                guard end > idx else { break }
+                self.tableView?.noteHeightOfRows(withIndexesChanged: IndexSet(idx..<end))
+                idx = end
+                await Task.yield()
+            }
+            guard !Task.isCancelled, let self else { return }
+            self.placeInitialScrollIfNeeded()
+            // One-shot: clear before firing so a width-change re-measure
+            // can't re-trigger `phase = .ready` on an already-revealed feed.
+            let completion = self.onMeasurementComplete
+            self.onMeasurementComplete = nil
+            self.measurementTask = nil
+            completion?()
+        }
     }
 
     /// Accept a scroll target for the first layout pass. No-ops once the
@@ -523,6 +587,15 @@ final class Coordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource {
     func cancelAllDwells() {
         dwellItems.values.forEach { $0.cancel() }
         dwellItems.removeAll()
+    }
+
+    /// Cancel an in-flight chunked measurement. Used by `dismantleNSView`
+    /// (channel switch) and by `update()` when a refresh mutates `rows`
+    /// mid-measurement. The next frame-change or layout pass will start a
+    /// fresh measurement if one is still needed.
+    func cancelMeasurement() {
+        measurementTask?.cancel()
+        measurementTask = nil
     }
 
     /// Compact one-line summary of a row's content shape for measure logs.
