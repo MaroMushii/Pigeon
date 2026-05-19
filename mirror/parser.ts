@@ -8,6 +8,12 @@
  */
 
 import * as cheerio from "cheerio";
+
+/** Cheerio's wrap nodes are `AnyNode` from domhandler, re-exported through
+ *  cheerio under various paths depending on the entry point. Using a local
+ *  alias keeps the per-helper signatures readable without pulling in an
+ *  extra `domhandler` import that pnpm's hoisting may not expose. */
+type WrapNode = ReturnType<cheerio.CheerioAPI>[number];
 import type {
   ChannelInfo,
   MediaDTO,
@@ -68,7 +74,7 @@ export function parseChannelPage(
 
 function parsePost(
   $: cheerio.CheerioAPI,
-  wrap: cheerio.Cheerio<any>,
+  wrap: cheerio.Cheerio<WrapNode>,
   channelUsername: string
 ): PostDTO | null {
   const messageEl = wrap.find(".tgme_widget_message").first();
@@ -139,7 +145,7 @@ function parsePost(
 
 function parseReply(
   $: cheerio.CheerioAPI,
-  wrap: cheerio.Cheerio<any>,
+  wrap: cheerio.Cheerio<WrapNode>,
   channelUsername: string
 ): ReplyDTO | null {
   const replyEl = wrap.find(".tgme_widget_message_reply").first();
@@ -181,7 +187,7 @@ function parseReply(
 
 function parseMedia(
   $: cheerio.CheerioAPI,
-  wrap: cheerio.Cheerio<any>,
+  wrap: cheerio.Cheerio<WrapNode>,
   channelUsername: string
 ): MediaDTO[] {
   const out: MediaDTO[] = [];
@@ -266,7 +272,7 @@ function isMirrorableImageURL(url: string): boolean {
 
 function parseReactions(
   $: cheerio.CheerioAPI,
-  wrap: cheerio.Cheerio<any>
+  wrap: cheerio.Cheerio<WrapNode>
 ): ReactionDTO[] {
   const out: ReactionDTO[] = [];
   wrap.find(".tgme_reaction").each((_, el) => {

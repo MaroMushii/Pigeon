@@ -25,6 +25,7 @@ actor PinnedHTTPSClient {
         case truncated
         case malformedResponse
         case statusCode(Int)
+        case bodyTooLarge(Int)
 
         var errorDescription: String? {
             switch self {
@@ -34,6 +35,7 @@ actor PinnedHTTPSClient {
             case .truncated: "Server closed connection mid-response."
             case .malformedResponse: "Could not parse pinned HTTP response."
             case .statusCode(let s): "Pinned proxy returned HTTP \(s)."
+            case .bodyTooLarge(let max): "Pinned response exceeded \(max)-byte cap."
             }
         }
     }
@@ -60,6 +62,13 @@ actor PinnedHTTPSClient {
     /// peers don't get re-paid on every request. Reset implicitly when
     /// that IP starts failing — we just fall through to the next one.
     private var lastGoodIP: String?
+
+    /// Hard cap on accumulated response bytes. A hostile or compromised
+    /// pinned IP could otherwise stream gigabytes via `readUntilClose` and
+    /// OOM the process. 16 MiB comfortably covers a t.me HTML payload
+    /// (~1–2 MiB) and the largest Telegram thumbnail (~5 MiB) while
+    /// keeping the worst-case footprint bounded.
+    static let maxBodyBytes = 16 * 1024 * 1024
 
     /// Try `get(ip:sni:...)` against the pinned IP pool with a Happy
     /// Eyeballs first stage: race the first 2 candidates in parallel,
@@ -219,6 +228,39 @@ actor PinnedHTTPSClient {
         sni.withCString { ptr in
             sec_protocol_options_set_tls_server_name(tlsOptions.securityProtocolOptions, ptr)
         }
+        // Refuse anything older than TLS 1.2. The blanket ATS exception in
+        // Info.plist permits arbitrary negotiation, so the floor has to
+        // live here. A hostile middlebox winning the race to the pinned
+        // IP must not be able to downgrade us to TLS 1.0/1.1.
+        sec_protocol_options_set_min_tls_protocol_version(
+            tlsOptions.securityProtocolOptions,
+            .TLSv12
+        )
+        // Constrain trust to certs issued by Google Trust Services. Without
+        // this block, Apple's default chain validation accepts any cert that
+        // chains to a public CA — a DPI box could present a valid leaf for
+        // `translate.goog` issued by *some* root in the system store and we'd
+        // accept it. GTS is the only CA Google uses for `*.translate.goog`,
+        // so anchoring on that issuer is far stronger than no anchor at all
+        // while still surviving leaf cert rotation. Default chain validation
+        // still runs first — we only narrow the *acceptable* roots.
+        sec_protocol_options_set_verify_block(
+            tlsOptions.securityProtocolOptions,
+            { _, secTrust, complete in
+                let trust = sec_trust_copy_ref(secTrust).takeRetainedValue()
+                var error: CFError?
+                guard SecTrustEvaluateWithError(trust, &error) else {
+                    complete(false)
+                    return
+                }
+                guard Self.chainContainsGoogleTrustServices(trust) else {
+                    complete(false)
+                    return
+                }
+                complete(true)
+            },
+            queue
+        )
 
         let tcpOptions = NWProtocolTCP.Options()
         tcpOptions.connectionTimeout = Int(timeout)
@@ -244,6 +286,29 @@ actor PinnedHTTPSClient {
         }
     }
 
+    /// Walk the cert chain and assert at least one cert's subject names
+    /// "Google Trust Services" (its CN or O field). GTS is the CA Google
+    /// uses for `translate.goog` — leaf certs rotate, but the GTS
+    /// intermediate / root is the stable anchor.
+    ///
+    /// If Google ever migrates `translate.goog` to a different CA (very
+    /// unlikely; GTS is their own infrastructure), every pinned request
+    /// will fail until this list expands. That's the deliberate trade:
+    /// we'd rather brick our own clients than silently accept a rogue
+    /// cert from an unrelated CA in the system store.
+    nonisolated static func chainContainsGoogleTrustServices(_ trust: SecTrust) -> Bool {
+        guard let chain = SecTrustCopyCertificateChain(trust) as? [SecCertificate] else {
+            return false
+        }
+        for cert in chain {
+            guard let summary = SecCertificateCopySubjectSummary(cert) as String? else { continue }
+            if summary.contains("Google Trust Services") || summary.contains("GTS ") {
+                return true
+            }
+        }
+        return false
+    }
+
     // MARK: - Lifecycle helpers
 
     private func connect(_ conn: NWConnection, timeout: TimeInterval) async throws {
@@ -264,40 +329,47 @@ actor PinnedHTTPSClient {
         }
 
         try await withCheckedThrowingContinuation { (cont: CheckedContinuation<Void, Error>) in
+            // Race a deadline against the connection. On DPI'd networks a
+            // stuck `.preparing` / `.setup` is the common failure mode, so
+            // we can't rely on NWConnection alone to ever fail us out.
+            // The handle is captured so the success path can cancel the
+            // sleeping task — otherwise it'd linger for the full timeout
+            // window holding `conn` alive in its closure.
+            let timeoutTask = Task { [conn] in
+                try? await Task.sleep(for: .seconds(timeout))
+                guard !Task.isCancelled, claim() else { return }
+                conn.stateUpdateHandler = nil
+                conn.cancel()
+                cont.resume(throwing: ClientError.timedOut)
+            }
+
             conn.stateUpdateHandler = { state in
                 switch state {
                 case .ready:
                     guard claim() else { return }
+                    timeoutTask.cancel()
                     conn.stateUpdateHandler = nil
                     cont.resume()
                 case .failed(let err):
                     guard claim() else { return }
+                    timeoutTask.cancel()
                     conn.stateUpdateHandler = nil
                     conn.cancel()
                     cont.resume(throwing: ClientError.connectionFailed(err.localizedDescription))
                 case .waiting(let err):
                     guard claim() else { return }
+                    timeoutTask.cancel()
                     conn.stateUpdateHandler = nil
                     conn.cancel()
                     cont.resume(throwing: ClientError.connectionFailed(err.localizedDescription))
                 case .cancelled:
                     guard claim() else { return }
+                    timeoutTask.cancel()
                     conn.stateUpdateHandler = nil
                     cont.resume(throwing: ClientError.connectionFailed("cancelled"))
                 default:
                     break
                 }
-            }
-
-            // Race a deadline against the connection. On DPI'd networks a
-            // stuck `.preparing` / `.setup` is the common failure mode, so
-            // we can't rely on NWConnection alone to ever fail us out.
-            Task { [conn] in
-                try? await Task.sleep(for: .seconds(timeout))
-                guard claim() else { return }
-                conn.stateUpdateHandler = nil
-                conn.cancel()
-                cont.resume(throwing: ClientError.timedOut)
             }
 
             conn.start(queue: queue)
@@ -323,7 +395,12 @@ actor PinnedHTTPSClient {
             let remaining = deadline.timeIntervalSinceNow
             if remaining <= 0 { throw ClientError.timedOut }
             let (chunk, isComplete) = try await receiveChunk(on: conn, timeout: remaining)
-            if let chunk, !chunk.isEmpty { accumulated.append(chunk) }
+            if let chunk, !chunk.isEmpty {
+                if accumulated.count + chunk.count > Self.maxBodyBytes {
+                    throw ClientError.bodyTooLarge(Self.maxBodyBytes)
+                }
+                accumulated.append(chunk)
+            }
             if isComplete { return accumulated }
         }
     }
@@ -345,20 +422,20 @@ actor PinnedHTTPSClient {
         }
 
         return try await withCheckedThrowingContinuation { (cont: CheckedContinuation<(Data?, Bool), Error>) in
+            let timeoutTask = Task { [conn] in
+                try? await Task.sleep(for: .seconds(timeout))
+                guard !Task.isCancelled, claim() else { return }
+                conn.cancel()
+                cont.resume(throwing: ClientError.timedOut)
+            }
             conn.receive(minimumIncompleteLength: 1, maximumLength: 64 * 1024) { data, _, isComplete, err in
+                timeoutTask.cancel()
                 guard claim() else { return }
                 if let err {
                     cont.resume(throwing: ClientError.connectionFailed(err.localizedDescription))
                 } else {
                     cont.resume(returning: (data, isComplete))
                 }
-            }
-
-            Task { [conn] in
-                try? await Task.sleep(for: .seconds(timeout))
-                guard claim() else { return }
-                conn.cancel()
-                cont.resume(throwing: ClientError.timedOut)
             }
         }
     }

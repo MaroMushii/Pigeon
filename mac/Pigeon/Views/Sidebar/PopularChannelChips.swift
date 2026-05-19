@@ -16,6 +16,7 @@ struct PopularChannelChips: View {
                     PopularChannelChip(
                         username: channel.username,
                         displayName: channel.displayName,
+                        avatarFilename: channel.avatarFilename,
                         state: state(for: channel.username),
                         onTap: { onTap(channel) }
                     )
@@ -55,13 +56,21 @@ private struct PopularChannelChip: View {
 
     let username: String
     let displayName: String
+    let avatarFilename: String
     let state: State
     let onTap: () -> Void
     private let avatarBackground: Color
 
-    init(username: String, displayName: String, state: State, onTap: @escaping () -> Void) {
+    init(
+        username: String,
+        displayName: String,
+        avatarFilename: String,
+        state: State,
+        onTap: @escaping () -> Void
+    ) {
         self.username = username
         self.displayName = displayName
+        self.avatarFilename = avatarFilename
         self.state = state
         self.onTap = onTap
         var hash: UInt32 = 0
@@ -98,7 +107,7 @@ private struct PopularChannelChip: View {
 
     @ViewBuilder
     private var avatar: some View {
-        if let nsImage = NSImage(named: "PopularChannels/\(username)") {
+        if let nsImage = bundledAvatar() {
             Image(nsImage: nsImage)
                 .resizable()
                 .scaledToFill()
@@ -114,6 +123,18 @@ private struct PopularChannelChip: View {
                         .foregroundStyle(.white)
                 )
         }
+    }
+
+    /// Resolve the bundled avatar for this chip. Missing files degrade to
+    /// the generated initials chip rather than failing — keeps the grid
+    /// looking complete while the avatar set fills in.
+    private func bundledAvatar() -> NSImage? {
+        guard let url = Bundle.main.url(
+            forResource: avatarFilename,
+            withExtension: nil,
+            subdirectory: "popular-channel-avatars"
+        ) else { return nil }
+        return NSImage(contentsOf: url)
     }
 
     @ViewBuilder

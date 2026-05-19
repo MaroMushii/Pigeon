@@ -19,6 +19,7 @@ export default {
         "User-Agent": "pigeon-mirror-dispatcher",
       },
       body: JSON.stringify({ ref: REF }),
+      signal: AbortSignal.timeout(10_000),
     });
 
     if (!response.ok) {

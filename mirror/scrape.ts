@@ -79,9 +79,7 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const manifest = JSON.parse(
-    readFileSync(manifestPath, "utf8")
-  ) as ChannelsManifest;
+  const manifest = parseManifest(readFileSync(manifestPath, "utf8"), manifestPath);
   const channels = manifest.channels.map((c) => c.toLowerCase()).sort();
 
   process.stderr.write(
@@ -256,8 +254,10 @@ function rebuildIndex(
       if (existsSync(path)) {
         try {
           snap = JSON.parse(readFileSync(path, "utf8")) as Snapshot;
-        } catch {
-          // skip — leave it out of the index
+        } catch (e) {
+          process.stderr.write(
+            `  index: skipping ${username} — corrupt snapshot.json (${(e as Error).message})\n`
+          );
         }
       }
     }
@@ -344,14 +344,49 @@ function looksLikeDeadHandle(
   );
 }
 
+/**
+ * Read the on-disk snapshot for a channel and return its posts. A missing
+ * file is fine (first sweep ever for this channel) and returns []. A
+ * *corrupt* file throws — never silently — because the merge step that
+ * follows treats [] as "nothing to retain" and would overwrite the bad
+ * file with a fresh-only snapshot, destroying every retained post. The
+ * caller surfaces the throw as a per-channel failure and skips the write.
+ */
 function loadExistingPosts(snapPath: string): PostDTO[] {
   if (!existsSync(snapPath)) return [];
-  try {
-    const raw = JSON.parse(readFileSync(snapPath, "utf8")) as Snapshot;
-    return Array.isArray(raw.posts) ? raw.posts : [];
-  } catch {
-    return [];
+  const raw = JSON.parse(readFileSync(snapPath, "utf8")) as Snapshot;
+  if (!Array.isArray(raw.posts)) {
+    throw new Error(
+      `snapshot.json at ${snapPath} is missing posts[] — refusing to overwrite with fresh-only`
+    );
   }
+  return raw.posts;
+}
+
+/**
+ * Validate the manifest's shape before treating it as a `ChannelsManifest`.
+ * A malformed manifest would otherwise crash the whole sweep with a cryptic
+ * TypeError deep inside the worker pool. Catching it here lets us exit with
+ * a clear message and a non-zero status so the workflow turns red.
+ */
+function parseManifest(raw: string, path: string): ChannelsManifest {
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(raw);
+  } catch (e) {
+    throw new Error(`${path}: not valid JSON — ${(e as Error).message}`);
+  }
+  if (!parsed || typeof parsed !== "object") {
+    throw new Error(`${path}: expected a JSON object`);
+  }
+  const obj = parsed as Record<string, unknown>;
+  if (typeof obj.schema !== "number") {
+    throw new Error(`${path}: missing or non-numeric "schema"`);
+  }
+  if (!Array.isArray(obj.channels) || !obj.channels.every((c) => typeof c === "string")) {
+    throw new Error(`${path}: "channels" must be an array of strings`);
+  }
+  return { schema: obj.schema, channels: obj.channels };
 }
 
 /**

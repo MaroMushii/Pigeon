@@ -54,16 +54,24 @@ final class PinnedURLProtocol: URLProtocol, @unchecked Sendable {
                     headers: headers,
                     timeout: 30
                 )
+                // Re-check at every client callback. `stopLoading` can fire
+                // between any pair of these — the URL loading system tears
+                // down its bookkeeping the moment it cancels, so emitting
+                // didReceive/didLoad/didFinish into a freed handle is UB.
                 if Task.isCancelled { return }
-
-                let httpResponse = HTTPURLResponse(
+                guard let httpResponse = HTTPURLResponse(
                     url: urlCopy,
                     statusCode: response.status,
                     httpVersion: "HTTP/1.0",
                     headerFields: response.headers
-                )!
+                ) else {
+                    proto.client?.urlProtocol(proto, didFailWithError: URLError(.cannotParseResponse))
+                    return
+                }
                 proto.client?.urlProtocol(proto, didReceive: httpResponse, cacheStoragePolicy: .allowed)
+                if Task.isCancelled { return }
                 proto.client?.urlProtocol(proto, didLoad: response.body)
+                if Task.isCancelled { return }
                 proto.client?.urlProtocolDidFinishLoading(proto)
             } catch {
                 if Task.isCancelled { return }

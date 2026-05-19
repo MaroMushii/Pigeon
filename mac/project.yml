@@ -33,6 +33,15 @@ targets:
     platform: macOS
     sources:
       - path: Pigeon
+        excludes:
+          - Resources/popular-channel-avatars
+      # Folder reference: preserves the directory structure in the
+      # built bundle so `Bundle.main.url(forResource:..subdirectory:)`
+      # can find avatars by their channel-name filenames without
+      # risking collisions against other top-level resources.
+      - path: Pigeon/Resources/popular-channel-avatars
+        type: folder
+        buildPhase: resources
     dependencies:
       - package: SwiftSoup
       - package: Nuke
@@ -53,8 +62,21 @@ targets:
         SUFeedURL: "https://raw.githubusercontent.com/MaroMushii/Pigeon/refs/heads/release/appcast.xml"
         SUPublicEDKey: "KaC3IdC3ViUMPWuxN+RDobm8R1JTPmCY0lMRjLWgYAE="
         SUEnableAutomaticChecks: true
+        # ATS exception scoped to the Google Translate domain-proxy host.
+        # `PinnedHTTPSClient` talks plain NWConnection (ATS doesn't govern
+        # those), but `PinnedURLProtocol`'s synthesised HTTPURLResponse
+        # carries a `*.translate.goog` URL that URLSession introspects —
+        # without an exception entry, ATS rejects the response before Nuke
+        # ever sees it. Scope it tightly here instead of the previous
+        # blanket `NSAllowsArbitraryLoads: YES`, so any future code that
+        # accidentally talks to an arbitrary host gets blocked.
         NSAppTransportSecurity:
-          NSAllowsArbitraryLoads: YES
+          NSExceptionDomains:
+            translate.goog:
+              NSIncludesSubdomains: YES
+              NSExceptionAllowsInsecureHTTPLoads: NO
+              NSExceptionRequiresForwardSecrecy: NO
+              NSExceptionMinimumTLSVersion: TLSv1.2
     entitlements:
       path: Pigeon/Resources/Pigeon.entitlements
       properties:

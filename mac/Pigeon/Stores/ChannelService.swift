@@ -109,12 +109,12 @@ final class ChannelService {
     @ObservationIgnored private let settings: SettingsStore
     @ObservationIgnored private var autoRefreshLoopTask: Task<Void, Never>?
     @ObservationIgnored private var refreshTask: Task<Void, Never>?
-    /// Monotonic counter for `refreshTask` slot ownership. Each time the
-    /// slot is replaced (cancel + spawn) the generation bumps; the prior
-    /// task's `defer` only clears the slot if it still matches its own
-    /// generation. Without this, a cancelled task's late-running defer
-    /// would clobber the slot held by its replacement.
-    @ObservationIgnored private var refreshGeneration: Int = 0
+    /// Per-spawn identity for `refreshTask`. Each time the slot is replaced
+    /// (cancel + spawn) we mint a new UUID; the prior task's `defer` only
+    /// clears the slot if it still matches its own token. A UUID avoids the
+    /// (theoretical) wrap-around hazard of a counter and the (very real)
+    /// readability hit of remembering which generation is current.
+    @ObservationIgnored private var refreshGeneration: UUID = UUID()
     @ObservationIgnored private let validatorStore = MirrorValidatorStore()
 
     init(
@@ -378,7 +378,7 @@ final class ChannelService {
             switch pinnedError {
             case .connectionFailed, .timedOut, .truncated:
                 return true
-            case .invalidIP, .malformedResponse, .statusCode:
+            case .invalidIP, .malformedResponse, .statusCode, .bodyTooLarge:
                 return false
             }
         }
@@ -471,8 +471,8 @@ final class ChannelService {
             for task in inflightTasks.values { task.cancel() }
             inflightTasks.removeAll()
         }
-        refreshGeneration &+= 1
-        let myGen = refreshGeneration
+        let myGen = UUID()
+        refreshGeneration = myGen
         let task = Task { @MainActor [weak self] in
             guard let self else { return }
             defer {
@@ -512,7 +512,11 @@ final class ChannelService {
     func remove(_ channel: Channel) {
         validatorStore.clear(username: channel.username)
         context.delete(channel)
-        try? context.save()
+        do {
+            try context.save()
+        } catch {
+            AppLog.mount.error("[ChannelService] remove save failed: \(error.localizedDescription, privacy: .public)")
+        }
         recomputeUnreadCountAndBadge()
     }
 
@@ -613,9 +617,12 @@ final class ChannelService {
     }
 
     /// ID-based entry point called by `PostCard`, which holds a
-    /// `PostDisplaySnapshot` (not the live model). Looks up the `Post` by id
-    /// and delegates to `markRead(_:)`. The fetch hits SwiftData's in-memory
-    /// cache — all displayed posts are already faulted in, so this is O(1).
+    /// `PostDisplaySnapshot` (not the live model). Looks up the `Post` by
+    /// id (an indexed `@Attribute(.unique)` column) and delegates to
+    /// `markRead(_:)`. Not strictly O(1) — it's still a SwiftData query —
+    /// but the dwell gate in `PostCard` rate-limits this to ~1 call per
+    /// 600 ms per card, well below the threshold where the lookup would
+    /// register on a scroll trace.
     func markRead(postID: String) {
         let descriptor = FetchDescriptor<Post>(predicate: #Predicate { $0.id == postID })
         guard let post = (try? context.fetch(descriptor))?.first else { return }
@@ -694,7 +701,11 @@ final class ChannelService {
         if !channel.isMuted {
             unreadCount = max(0, unreadCount - swept)
         }
-        try? context.save()
+        do {
+            try context.save()
+        } catch {
+            AppLog.feed.error("[ChannelService] markAllRead save failed: \(error.localizedDescription, privacy: .public)")
+        }
         updateDockBadge()
     }
 
@@ -705,7 +716,11 @@ final class ChannelService {
     func setMuted(_ channel: Channel, _ muted: Bool) {
         guard channel.isMuted != muted else { return }
         channel.isMuted = muted
-        try? context.save()
+        do {
+            try context.save()
+        } catch {
+            AppLog.mount.error("[ChannelService] setMuted save failed: \(error.localizedDescription, privacy: .public)")
+        }
         recomputeUnreadCountAndBadge()
     }
 
@@ -927,7 +942,12 @@ final class ChannelService {
                 baseURL: SettingsStore.defaultMirrorBaseURL
             )
         } catch {
-            // Intentionally silent — health is decorative, not load-bearing.
+            // health.json is decorative — don't surface to the UI. But a
+            // persistent failure is worth knowing about (mirror relocated,
+            // schema skew, network down for the whole device) so the next
+            // person debugging "why is the staleness footer stuck" has a
+            // breadcrumb.
+            AppLog.mirror.pub("[ChannelService] health fetch failed: \(error.localizedDescription)")
         }
     }
 }

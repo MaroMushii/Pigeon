@@ -172,16 +172,19 @@ struct JSONFeedDecoder {
         return HTMLPostParser.ParseResult(channel: channel, posts: posts)
     }
 
-    nonisolated(unsafe) private static let fractionalISO: ISO8601DateFormatter = {
+    // See `LockedISO8601` — Apple's docs don't formally cover
+    // `ISO8601DateFormatter` thread-safety, and a corrupt date silently
+    // produced by a race would be near-impossible to debug downstream.
+    private static let fractionalISO: LockedISO8601 = {
         let f = ISO8601DateFormatter()
         f.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        return f
+        return LockedISO8601(f)
     }()
 
-    nonisolated(unsafe) private static let plainISO: ISO8601DateFormatter = {
+    private static let plainISO: LockedISO8601 = {
         let f = ISO8601DateFormatter()
         f.formatOptions = [.withInternetDateTime]
-        return f
+        return LockedISO8601(f)
     }()
 
     private static let decoder = JSONDecoder()

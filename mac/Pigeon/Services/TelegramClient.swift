@@ -127,9 +127,12 @@ actor TelegramClient: TelegramFetching {
                 try await rateLimit()
                 let html = try await fetchPinned(username: user, method: method)
                 AppLog.net.pub("[GT] method=<\(method.rawValue)> succeeded for <\(user)> htmlBytes=<\(html.utf8.count)>")
+                guard let sourceURL = URL(string: "https://t.me/s/\(user)") else {
+                    throw FetchError.invalidResponse
+                }
                 return ChannelPage(
                     html: html,
-                    sourceURL: URL(string: "https://t.me/s/\(user)")!,
+                    sourceURL: sourceURL,
                     method: method
                 )
             } catch is CancellationError {

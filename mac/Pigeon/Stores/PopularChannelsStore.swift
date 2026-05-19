@@ -4,15 +4,25 @@ import Foundation
 /// inside `AddChannelSheet`. The mirror backfills these on its first
 /// scrape, so they load instantly from `raw.githubusercontent.com` —
 /// hence the "pre-cached" copy in the sheet.
-struct PopularChannelInfo: Sendable, Hashable {
+struct PopularChannelInfo: Sendable, Hashable, Decodable {
     let username: String
     let displayName: String
+
+    /// Bundled avatar lives at
+    /// `Resources/popular-channel-avatars/<username>.jpg` by convention.
+    /// Every popular channel is expected to ship one — the chip view's
+    /// initials fallback exists only to keep the build from cratering
+    /// while the avatar set is being filled in.
+    var avatarFilename: String { "\(username).jpg" }
 }
 
 /// Owns the static catalogue of popular channels and the transient
 /// "currently being added" set used by `PopularChannelChips`. Scoped to
 /// the main actor — chip taps mutate inflight state synchronously while
 /// the async add runs.
+///
+/// The catalogue lives in `Resources/popular-channels.json` so it can be
+/// curated without a recompile and so non-engineers can edit the list.
 @MainActor
 @Observable
 final class PopularChannelsStore {
@@ -20,30 +30,24 @@ final class PopularChannelsStore {
     var inflight: Set<String> = []
 
     @ObservationIgnored
-    let channels: [PopularChannelInfo] = [
-        .init(username: "vahidonline",   displayName: "Vahid Online"),
-        .init(username: "bbcpersian",    displayName: "BBC Persian"),
-        .init(username: "iranintltv",    displayName: "Iran International"),
-        .init(username: "farsivoa",      displayName: "Farsi VOA"),
-        .init(username: "radiofarda",    displayName: "Radio Farda"),
-        .init(username: "dwpersian",     displayName: "DW Persian"),
-        .init(username: "sahamnewsorg",  displayName: "Saham News"),
-        .init(username: "farsi_iranwire", displayName: "IranWire"),
-        .init(username: "followupiran",  displayName: "Followup Iran"),
-        .init(username: "mamlekate",     displayName: "Mamlekate"),
-        .init(username: "daadbaan2021",  displayName: "Daadbaan"),
-        .init(username: "hranews",       displayName: "HRANA News"),
-        .init(username: "ircfspace",     displayName: "IRCF"),
-        .init(username: "persianvpnhub", displayName: "Persian VPN Hub"),
-        .init(username: "iranlix",       displayName: "Iran Lix"),
-        .init(username: "matinsenpaii",  displayName: "Matin Sen Paii"),
-        .init(username: "no_itsmyturn",  displayName: "No It’s My Turn"),
-        .init(username: "bidarzani",     displayName: "Bidarzani"),
-        .init(username: "filter_watch",  displayName: "Filter Watch"),
-        .init(username: "tavaana_tavaanatech", displayName: "Tavaana"),
-        .init(username: "telegram",      displayName: "Telegram News"),
-        .init(username: "durov",         displayName: "Pavel Durov"),
-    ]
+    let channels: [PopularChannelInfo] = PopularChannelsStore.loadCatalogue()
+
+    /// Read the bundled JSON catalogue. A missing or corrupt resource is a
+    /// build-time failure, not a runtime one — the file ships inside the
+    /// app bundle, so if it's gone the install is broken in a way the
+    /// user can't recover from. Fail loud rather than silently surfacing
+    /// an empty grid.
+    private static func loadCatalogue() -> [PopularChannelInfo] {
+        guard let url = Bundle.main.url(forResource: "popular-channels", withExtension: "json") else {
+            fatalError("popular-channels.json missing from app bundle")
+        }
+        do {
+            let data = try Data(contentsOf: url)
+            return try JSONDecoder().decode([PopularChannelInfo].self, from: data)
+        } catch {
+            fatalError("popular-channels.json failed to decode: \(error)")
+        }
+    }
 
     func markInflight(_ username: String) {
         inflight.insert(username)

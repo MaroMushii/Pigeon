@@ -80,16 +80,22 @@ struct HTMLPostParser {
 
     private func parsePosts(_ doc: Document, channelUsername: String) throws -> [PostSnapshot] {
         let wraps = try doc.select(".tgme_widget_message_wrap")
-        return wraps.array().compactMap { wrap in
+        var dropped = 0
+        let posts = wraps.array().compactMap { wrap -> PostSnapshot? in
             do {
                 return try parsePost(wrap, channelUsername: channelUsername)
             } catch {
-                #if DEBUG
-                print("[HTMLPostParser] dropped post: \(error)")
-                #endif
+                dropped += 1
                 return nil
             }
         }
+        if dropped > 0 {
+            // A non-zero drop typically means Telegram changed selectors on
+            // the widget DOM. Surface once per parse so a degradation is
+            // visible without flooding logs from individual `try?` sites.
+            AppLog.feed.pub("[HTMLPostParser] dropped <\(dropped)> of <\(wraps.array().count)> wraps for <\(channelUsername)>")
+        }
+        return posts
     }
 
     private func parsePost(_ wrap: Element, channelUsername: String) throws -> PostSnapshot? {
@@ -297,18 +303,21 @@ struct HTMLPostParser {
         return result
     }
 
-    // ISO8601DateFormatter is documented thread-safe by Apple but not marked
-    // Sendable; `nonisolated(unsafe)` reflects the runtime contract.
-    nonisolated(unsafe) private static let fractionalISO: ISO8601DateFormatter = {
+    // Apple's docs cover `DateFormatter` thread-safety since iOS 7 but stay
+    // silent on `ISO8601DateFormatter`, so the contract is implicit at best.
+    // Wrap every read behind an unfair lock — the contention is minimal
+    // (only the scrape path reaches these) and the cost of a stray race is
+    // a silently corrupted timestamp that'd be impossible to debug later.
+    private static let fractionalISO: LockedISO8601 = {
         let f = ISO8601DateFormatter()
         f.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        return f
+        return LockedISO8601(f)
     }()
 
-    nonisolated(unsafe) private static let plainISO: ISO8601DateFormatter = {
+    private static let plainISO: LockedISO8601 = {
         let f = ISO8601DateFormatter()
         f.formatOptions = [.withInternetDateTime]
-        return f
+        return LockedISO8601(f)
     }()
 
     nonisolated(unsafe) private static let backgroundImageURLRegex = /url\(['"]?(?<url>[^'"\)]+)['"]?\)/
