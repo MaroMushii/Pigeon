@@ -51,7 +51,14 @@ extension ChannelServiceBehaviorTests {
         XCTAssertEqual(callCount, 1, "second concurrent refresh should join the first, not start a new fetch")
         XCTAssertEqual(service.inflight, ["alpha"])
 
-        await fetcher.resolveSnapshot(for: "alpha", with: .unchanged)
+        // Pre-signing builds resolved this as `.unchanged` (304 semantics).
+        // The verified-snapshot path has no 304 — resolve with a minimal
+        // empty-channel snapshot instead. Dedup behaviour is what matters
+        // here, not the snapshot's content.
+        let emptySnapshot = Data(#"""
+        {"schema":2,"fetched_at":"2026-05-19T12:00:00Z","channel":{"username":"alpha","title":"Alpha","description_html":null,"photo_url":null,"photo_path":null,"photo_sha256":null,"subscriber_count":null},"posts":[]}
+        """#.utf8)
+        await fetcher.resolveSnapshot(for: "alpha", with: .fresh(emptySnapshot, etag: nil, lastModified: nil))
         _ = try await first.value
         _ = try await second.value
 

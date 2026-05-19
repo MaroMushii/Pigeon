@@ -43,7 +43,12 @@ struct PigeonApp: App {
         ImageCache.shared.countLimit = 500
 
         let pipeline = ImagePipeline {
-            $0.dataLoader = DataLoader(configuration: config)
+            // Wrap Nuke's DataLoader in VerifyingDataLoader so any image
+            // whose URL was published in a (signature-verified) snapshot
+            // gets its bytes SHA-256-checked before Nuke decodes them. URLs
+            // not in ImageHashRegistry pass through unverified — that's the
+            // fall-open path for GT-proxied or pre-signing cached images.
+            $0.dataLoader = VerifyingDataLoader(wrapping: DataLoader(configuration: config))
             $0.dataCache = try? DataCache(name: "dev.MaroMushii.Pigeon.images")
             $0.imageCache = ImageCache.shared
         }

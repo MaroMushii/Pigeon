@@ -832,64 +832,67 @@ final class ChannelService {
     }
 
     /// Fetch order:
-    ///   1. Pigeon mirror snapshot on raw.githubusercontent.com (primary —
-    ///      fast, fresh ~5min, hard to block, decodes our exact schema).
-    ///      Sent with `If-None-Match` / `If-Modified-Since` from the last
-    ///      successful response; a 304 short-circuits the upsert path.
-    ///   2. Pinned GT proxy on `t-me.translate.goog` (fallback for channels
-    ///      not yet mirrored, or when GitHub raw is unreachable). No
-    ///      conditional-GET — the proxy doesn't expose validators we trust.
+    ///   1. Signed-mirror tier walk via `client.fetchVerifiedSnapshot` —
+    ///      tries every entry in `MirrorEndpoints.production` in turn,
+    ///      Ed25519-verifying each response and checking freshness before
+    ///      accepting it. Every tier is independently trust-checked, so we
+    ///      can safely fall back to untrusted Iran-domestic mirrors when
+    ///      raw.gh is blocked.
+    ///   2. Pinned GT proxy on `t-me.translate.goog` — used ONLY when the
+    ///      channel isn't in any mirror's manifest yet (every tier 404'd).
+    ///      A signature/freshness failure across all tiers is treated as a
+    ///      hard error rather than a fall-through, because mirror integrity
+    ///      failures are a load-bearing signal — silently masking them with
+    ///      GT would hide active tampering from the UI.
     ///
     /// We never attempt direct `t.me` per the project brief.
     private func fetch(username: String) async throws -> FetchOutcome {
-        let (etag, lastModified) = validatorStore.validators(for: username)
-        let mirrorBase = SettingsStore.defaultMirrorBaseURL
-        AppLog.mirror.pub("[fetch] attempting mirror for <\(username)> etag=<\(etag ?? "nil")>")
+        AppLog.mirror.pub("[fetch] attempting verified mirror for <\(username)>")
         do {
-            let mirror = try await client.fetchMirrorSnapshot(
-                username: username,
-                baseURL: mirrorBase,
-                ifNoneMatch: etag,
-                ifModifiedSince: lastModified
-            )
-            switch mirror {
-            case .unchanged:
-                AppLog.mirror.pub("[fetch] mirror 304 unchanged for <\(username)>")
-                return .unchanged(source: .mirror)
-            case .fresh(let data, let newETag, let newLastModified):
-                AppLog.mirror.pub("[fetch] mirror 200 for <\(username)> bytes=<\(data.count)>")
-                do {
-                    let result = try jsonDecoder.decode(data, mirrorBaseURL: mirrorBase)
-                    validatorStore.persist(
-                        username: username,
-                        etag: newETag,
-                        lastModified: newLastModified
-                    )
-                    schemaOutdated = false
-                    AppLog.mirror.pub("[fetch] mirror decoded <\(result.posts.count)> posts for <\(username)>")
-                    return .changed(result, source: .mirror)
-                } catch let error as JSONFeedDecoder.DecodeError {
-                    if case .unsupportedSchema = error {
-                        // Newer schema than this build understands — surface
-                        // a banner and fall through to GT so reading isn't blocked.
-                        schemaOutdated = true
-                        AppLog.mirror.pub("[fetch] mirror unsupported schema for <\(username)>, falling through to GT")
-                    } else {
-                        // Malformed JSON — clear validators so the next request
-                        // isn't a conditional GET against broken data.
-                        validatorStore.persist(username: username, etag: nil, lastModified: nil)
-                        AppLog.mirror.pub("[fetch] mirror decode error for <\(username)>: \(error.localizedDescription)")
-                    }
-                } catch {
-                    validatorStore.persist(username: username, etag: nil, lastModified: nil)
-                    AppLog.mirror.pub("[fetch] mirror decode error for <\(username)>: \(error.localizedDescription)")
+            let verified = try await client.fetchVerifiedSnapshot(username: username)
+            AppLog.mirror.pub("[fetch] mirror verified for <\(username)> bytes=<\(verified.data.count)> base=<\(verified.base.absoluteString)>")
+            do {
+                let result = try jsonDecoder.decode(verified.data, mirrorBaseURL: verified.base)
+                // Stale-validator cleanup: pre-signing builds persisted ETag/
+                // Last-Modified for conditional GETs. The new path never sends
+                // them, so clear once to keep the table tidy.
+                validatorStore.persist(username: username, etag: nil, lastModified: nil)
+                schemaOutdated = false
+                AppLog.mirror.pub("[fetch] mirror decoded <\(result.posts.count)> posts for <\(username)>")
+                return .changed(result, source: .mirror)
+            } catch let error as JSONFeedDecoder.DecodeError {
+                if case .unsupportedSchema = error {
+                    // Newer schema than this build understands — banner the
+                    // app and fall through to GT so reading isn't blocked.
+                    schemaOutdated = true
+                    AppLog.mirror.pub("[fetch] mirror unsupported schema for <\(username)>, falling through to GT")
+                } else {
+                    // Signed-but-malformed JSON — that's a producer bug; nothing
+                    // safe to do except fall through. Logged loudly.
+                    AppLog.mirror.error("[fetch] signed snapshot malformed for <\(username, privacy: .public)>: \(error.localizedDescription, privacy: .public)")
                 }
+            } catch {
+                AppLog.mirror.error("[fetch] signed snapshot decode error for <\(username, privacy: .public)>: \(error.localizedDescription, privacy: .public)")
             }
         } catch is CancellationError {
             throw CancellationError()
+        } catch TelegramClient.VerifyError.notMirroredAnywhere {
+            // Every tier returned 404 — channel isn't in the manifest yet.
+            // GT is the right fallback here; no integrity claim is being
+            // bypassed because there was never a signed snapshot to verify.
+            AppLog.mirror.pub("[fetch] no mirror tier has <\(username)>, falling through to GT")
+        } catch let error as TelegramClient.VerifyError {
+            // allTiersFailed — at least one tier returned data and we
+            // couldn't verify any of them. HARD FAIL. Falling through to
+            // GT here would mask exactly the attack class signatures
+            // protect against.
+            AppLog.mirror.error("[fetch] hard fail (all mirror tiers failed verification) for <\(username, privacy: .public)>: \(error.localizedDescription, privacy: .public)")
+            throw error
         } catch {
-            // Mirror unreachable or returned unexpected status — fall through to GT.
-            AppLog.mirror.pub("[fetch] mirror failed for <\(username)>: \(error.localizedDescription), falling through to GT")
+            // Anything else (transport error, etc.) — mirror unreachable; let
+            // GT take a swing for now. This preserves the previous behaviour
+            // of "network blip on raw.gh → try GT".
+            AppLog.mirror.pub("[fetch] mirror unreachable for <\(username)>: \(error.localizedDescription), falling through to GT")
         }
 
         AppLog.net.pub("[fetch] trying GT proxy for <\(username)>")

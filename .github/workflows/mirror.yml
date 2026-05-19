@@ -65,12 +65,25 @@ jobs:
 
       - name: Run scraper
         working-directory: src/mirror
+        # MIRROR_SIGNING_KEY is a base64-encoded 32-byte Ed25519 seed used
+        # to sign snapshot.json and index.json. Scoped to this step only —
+        # other steps (checkout, push) must never see the secret. The
+        # scraper throws synchronously on missing/malformed key, so a
+        # misconfigured secret turns the workflow red immediately rather
+        # than silently producing unsigned output.
+        env:
+          MIRROR_SIGNING_KEY: ${{ secrets.MIRROR_SIGNING_KEY }}
         run: pnpm exec tsx scrape.ts ../../out channels.json
 
       - name: Commit & push if changed
         working-directory: out
         run: |
-          git add -A
+          # Explicit allowlist (not `git add -A`) so a future scraper bug
+          # that drops MIRROR_SIGNING_KEY (or anything else) into the work
+          # tree cannot accidentally publish it to the export branch. The
+          # `.sig` companions must be named explicitly — `git add index.json`
+          # would otherwise silently drop the signature file at the root.
+          git add channels/ index.json index.json.sig health.json
           if git diff --quiet --staged; then
             echo "no changes — skipping commit"
             exit 0

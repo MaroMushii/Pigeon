@@ -53,6 +53,7 @@ export function parseChannelPage(
     ),
     photo_url: photoUrl,
     photo_path: photoUrl ? pathForCanonicalURL(photoUrl, username).path : null,
+    photo_sha256: null,
     subscriber_count: nullIfEmpty(
       strip($(".tgme_channel_info_counter .counter_value").first().text())
     ),
@@ -131,6 +132,7 @@ function parsePost(
     author_name: author,
     author_photo_url: authorPhoto,
     author_photo_path: authorPhotoPath,
+    author_photo_sha256: null,
     body_html: bodyHTML,
     plain_text: plain,
     media,
@@ -181,6 +183,7 @@ function parseReply(
     preview_text: previewText,
     thumbnail_url: thumbURL,
     thumbnail_path: thumbPath,
+    thumbnail_sha256: null,
     permalink: `https://t.me/${replyChannel}/${postId}`,
   };
 }
@@ -214,8 +217,10 @@ function parseMedia(
       kind: "photo" as MediaKind,
       asset_url: asset,
       asset_path: pathFor(asset, channelUsername),
+      asset_sha256: null,
       thumbnail_url: thumb,
       thumbnail_path: pathFor(thumb, channelUsername),
+      thumbnail_sha256: null,
       duration_label: null,
       aspect_ratio: dataRatio($el.attr("data-ratio")) ?? aspectRatio(innerStyle),
     });
@@ -238,8 +243,10 @@ function parseMedia(
       kind: "video" as MediaKind,
       asset_url: href ?? thumb,
       asset_path: null,
+      asset_sha256: null,
       thumbnail_url: thumb,
       thumbnail_path: pathFor(thumb, channelUsername),
+      thumbnail_sha256: null,
       duration_label: duration,
       // Telegram puts padding-top on the outer wrap, not the thumb.
       aspect_ratio: aspectRatio(wrapStyle) ?? aspectRatio(thumbStyle),

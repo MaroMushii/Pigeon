@@ -8,7 +8,8 @@
   "scripts": {
     "scrape": "tsx scrape.ts",
     "dry-run": "tsx dry-run.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test '*.test.ts'"
   },
   "dependencies": {
     "cheerio": "^1.1.2"

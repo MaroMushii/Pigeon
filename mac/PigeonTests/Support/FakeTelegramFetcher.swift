@@ -20,6 +20,13 @@ import Foundation
 ///    resolves the moment the nth call enters. Tests assert intermediate
 ///    state without `while !predicate { sleep }` polling.
 actor FakeTelegramFetcher: TelegramFetching {
+    /// Stand-in base URL for `VerifiedSnapshot.base`. `SettingsStore
+    /// .defaultMirrorBaseURL` is `@MainActor`-isolated and not reachable
+    /// from inside this actor; the value doesn't matter for tests because
+    /// the JSON they decode resolves its own asset paths against it.
+    static let fixtureBaseURL = URL(string: "https://test-mirror.invalid/")!
+
+
     enum Behavior: Sendable {
         case successUnchanged
         case successFresh(Data)
@@ -121,5 +128,62 @@ actor FakeTelegramFetcher: TelegramFetching {
 
     func fetchMirrorHealth(baseURL: URL) async throws -> MirrorHealth {
         throw TelegramClient.FetchError.invalidResponse
+    }
+
+    /// Same accounting as `fetchMirrorSnapshot` — production's
+    /// `ChannelService.fetch` now calls this method instead, so the snapshot
+    /// call counters / waiters need to bump from here too. The mapping from
+    /// `Behavior` to verified-snapshot outcome is:
+    ///
+    ///   - `.successFresh(data)` → VerifiedSnapshot stamped at `now`
+    ///   - `.successUnchanged`   → `notMirroredAnywhere` (no analog of 304
+    ///                              in the new tier-walked flow). Tests that
+    ///                              relied on .unchanged semantics need to
+    ///                              be migrated; this maps to "all tiers
+    ///                              missing the channel" so GT fallback
+    ///                              gets exercised loudly rather than
+    ///                              silently passing.
+    ///   - `.throwError(err)`   → re-throw
+    ///   - `.suspend`           → park on the same per-username queue used
+    ///                              by `fetchMirrorSnapshot`, then map the
+    ///                              resolved `MirrorFetchResult` into a
+    ///                              `VerifiedSnapshot` the same way.
+    func fetchVerifiedSnapshot(username: String) async throws -> TelegramClient.VerifiedSnapshot {
+        snapshotCallCount += 1
+        snapshotUsernames.append(username)
+        snapshotCallWaiters.removeAll { entry in
+            if snapshotCallCount >= entry.threshold {
+                entry.continuation.resume()
+                return true
+            }
+            return false
+        }
+
+        switch behavior {
+        case .successUnchanged:
+            throw TelegramClient.VerifyError.notMirroredAnywhere
+        case .successFresh(let data):
+            return TelegramClient.VerifiedSnapshot(
+                data: data,
+                base: Self.fixtureBaseURL,
+                fetchedAt: .now
+            )
+        case .throwError(let err):
+            throw err
+        case .suspend:
+            let result = try await withCheckedThrowingContinuation { cont in
+                suspendedSnapshots[username, default: []].append(cont)
+            }
+            switch result {
+            case .unchanged:
+                throw TelegramClient.VerifyError.notMirroredAnywhere
+            case .fresh(let data, _, _):
+                return TelegramClient.VerifiedSnapshot(
+                    data: data,
+                    base: Self.fixtureBaseURL,
+                    fetchedAt: .now
+                )
+            }
+        }
     }
 }

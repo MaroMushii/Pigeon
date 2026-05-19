@@ -20,8 +20,9 @@
  * After all channels, rewrite index.json at the export tree root.
  */
 
-import { mkdirSync, readFileSync, writeFileSync, renameSync, existsSync } from "node:fs";
+import { mkdirSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
+import { atomicWriteFile } from "./fs-utils.js";
 import { parseChannelPage } from "./parser.js";
 import type {
   HealthDoc,
@@ -32,6 +33,7 @@ import type {
   Snapshot,
 } from "./schema.js";
 import { SCHEMA_VERSION } from "./schema.js";
+import { sha256Hex, signAndWrite } from "./signing.js";
 
 interface ChannelsManifest {
   schema: number;
@@ -50,12 +52,105 @@ const CHANNEL_CONCURRENCY = 3;
  *  exhaust sockets on the runner. */
 const IMAGE_CONCURRENCY = 8;
 
-/** Write content atomically: write to a .tmp sibling then rename into place
- *  so a mid-write SIGTERM can't leave a truncated file. */
-function atomicWriteFile(path: string, content: string | Buffer): void {
-  const tmp = `${path}.tmp`;
-  writeFileSync(tmp, content);
-  renameSync(tmp, path);
+/** Write a signed JSON document: `payload` lands at `path` and its detached
+ *  Ed25519 signature lands at `path + ".sig"`. When `signed` is false we
+ *  skip the signature, producing output Pigeon will refuse to load (by
+ *  design — only the live workflow output is meant to be consumed). */
+function writeSignedJSON(path: string, payload: Buffer, signed: boolean): void {
+  if (signed) {
+    signAndWrite(path, payload);
+  } else {
+    atomicWriteFile(path, payload);
+  }
+}
+
+/**
+ * Bounded-concurrency worker pool. Spawns up to `concurrency` workers, each
+ * draining the same FIFO queue until it's empty. Order-agnostic — callers
+ * that need stable order must sort the input first.
+ */
+async function parallelWorkerPool<T>(
+  items: T[],
+  concurrency: number,
+  worker: (item: T) => Promise<void>
+): Promise<void> {
+  const queue = [...items];
+  const workerCount = Math.min(concurrency, queue.length);
+  if (workerCount === 0) return;
+  await Promise.all(
+    Array.from({ length: workerCount }, async () => {
+      let item: T | undefined;
+      while ((item = queue.shift()) !== undefined) {
+        await worker(item);
+      }
+    })
+  );
+}
+
+/**
+ * Read the SHA-256 of a file at `abs`, returning a 64-char lowercase hex
+ * string. Returns `null` if the file is missing — the caller treats that as
+ * "no integrity claim possible" and nulls out the corresponding `_path`
+ * field so Pigeon doesn't try to fetch an unverifiable asset. Small media
+ * files (avg ~50–200 KB) make `readFileSync` cheaper than streaming.
+ */
+function hashFileIfExists(abs: string): string | null {
+  if (!existsSync(abs)) return null;
+  return sha256Hex(readFileSync(abs));
+}
+
+/**
+ * After media downloads complete, walk the snapshot and populate every
+ * `_sha256` field next to a non-null `_path`. If a path's file isn't on
+ * disk (download failed mid-sweep, or a retained post points at media we
+ * never mirrored), null *both* the path and the hash for that reference —
+ * Pigeon will then either fall back to the canonical `_url` (unverified)
+ * or skip the asset entirely.
+ */
+function applyMediaHashes(snapshot: Snapshot, exportRoot: string): void {
+  const cache = new Map<string, string | null>();
+  const hashFor = (relPath: string): string | null => {
+    const cached = cache.get(relPath);
+    if (cached !== undefined) return cached;
+    const h = hashFileIfExists(join(exportRoot, relPath));
+    cache.set(relPath, h);
+    return h;
+  };
+
+  // Per-field explicit assignment instead of a generic helper — TS index
+  // signatures on the DTO types would force `Record<string, unknown>` casts
+  // here, which loses the per-DTO field shape that catches typos at compile
+  // time. The repetition is mechanical and grep-able.
+  if (snapshot.channel.photo_path) {
+    const h = hashFor(snapshot.channel.photo_path);
+    if (h) snapshot.channel.photo_sha256 = h;
+    else { snapshot.channel.photo_path = null; snapshot.channel.photo_sha256 = null; }
+  }
+
+  for (const post of snapshot.posts) {
+    if (post.author_photo_path) {
+      const h = hashFor(post.author_photo_path);
+      if (h) post.author_photo_sha256 = h;
+      else { post.author_photo_path = null; post.author_photo_sha256 = null; }
+    }
+    for (const m of post.media) {
+      if (m.asset_path) {
+        const h = hashFor(m.asset_path);
+        if (h) m.asset_sha256 = h;
+        else { m.asset_path = null; m.asset_sha256 = null; }
+      }
+      if (m.thumbnail_path) {
+        const h = hashFor(m.thumbnail_path);
+        if (h) m.thumbnail_sha256 = h;
+        else { m.thumbnail_path = null; m.thumbnail_sha256 = null; }
+      }
+    }
+    if (post.reply?.thumbnail_path) {
+      const h = hashFor(post.reply.thumbnail_path);
+      if (h) post.reply.thumbnail_sha256 = h;
+      else { post.reply.thumbnail_path = null; post.reply.thumbnail_sha256 = null; }
+    }
+  }
 }
 
 /**
@@ -69,14 +164,33 @@ function atomicWriteFile(path: string, content: string | Buffer): void {
 const RETAIN_LIMIT = 100;
 
 async function main(): Promise<void> {
-  const exportRoot = process.argv[2];
-  const manifestPath = process.argv[3] ?? "mirror/channels.json";
+  // Parse flags out of argv. The only supported flag right now is
+  // `--unsigned`, which suppresses .sig generation for local dev runs that
+  // don't have MIRROR_SIGNING_KEY in their env. CI must never pass it.
+  let signed = true;
+  const argv = process.argv.slice(2).filter((arg) => {
+    if (arg === "--unsigned") {
+      signed = false;
+      return false;
+    }
+    return true;
+  });
+
+  const exportRoot = argv[0];
+  const manifestPath = argv[1] ?? "mirror/channels.json";
 
   if (!exportRoot) {
     process.stderr.write(
-      "usage: scrape.ts <export-tree-path> [<manifest-path>]\n"
+      "usage: scrape.ts [--unsigned] <export-tree-path> [<manifest-path>]\n"
     );
     process.exit(1);
+  }
+
+  if (!signed) {
+    process.stderr.write(
+      "WARNING: --unsigned passed; outputs will NOT be signed. " +
+        "Pigeon will refuse to load this data. Use only for local dev.\n"
+    );
   }
 
   const manifest = parseManifest(readFileSync(manifestPath, "utf8"), manifestPath);
@@ -88,45 +202,40 @@ async function main(): Promise<void> {
 
   const fresh = new Map<string, Snapshot>();
   const failures: HealthFailure[] = [];
-  const queue = [...channels];
 
-  await Promise.all(
-    Array.from({ length: Math.min(CHANNEL_CONCURRENCY, channels.length) }, async () => {
-      let username: string | undefined;
-      while ((username = queue.shift()) !== undefined) {
-        try {
-          const result = await scrapeChannel(username, exportRoot);
-          fresh.set(username, result.snapshot);
-          process.stderr.write(
-            `  ${username.padEnd(20)} ${result.snapshot.posts.length} posts ` +
-              `(+${result.freshPostCount} fresh), ` +
-              `${result.imagesWritten} new images, ${result.imagesSkipped} cached\n`
-          );
-          if (looksLikeDeadHandle(result.snapshot.channel, result.freshPostCount, username)) {
-            process.stderr.write(
-              `  ${"".padEnd(20)} WARN ${username} appears unresolved on Telegram ` +
-                `(no title, no subscribers, no posts) — handle may have been ` +
-                `renamed, deleted, or banned. Verify and update channels.json.\n`
-            );
-          }
-          // Be polite to t.me — each worker sleeps between its own fetches.
-          await sleep(750 + Math.floor(Math.random() * 750));
-        } catch (e) {
-          const message = (e as Error).message;
-          process.stderr.write(`  ${username}: failed — ${message}\n`);
-          failures.push({ username, error: message });
-        }
+  await parallelWorkerPool(channels, CHANNEL_CONCURRENCY, async (username) => {
+    try {
+      const result = await scrapeChannel(username, exportRoot, signed);
+      fresh.set(username, result.snapshot);
+      process.stderr.write(
+        `  ${username.padEnd(20)} ${result.snapshot.posts.length} posts ` +
+          `(+${result.freshPostCount} fresh), ` +
+          `${result.imagesWritten} new images, ${result.imagesSkipped} cached\n`
+      );
+      if (looksLikeDeadHandle(result.snapshot.channel, result.freshPostCount, username)) {
+        process.stderr.write(
+          `  ${"".padEnd(20)} WARN ${username} appears unresolved on Telegram ` +
+            `(no title, no subscribers, no posts) — handle may have been ` +
+            `renamed, deleted, or banned. Verify and update channels.json.\n`
+        );
       }
-    })
-  );
+      // Be polite to t.me — each worker sleeps between its own fetches.
+      await sleep(750 + Math.floor(Math.random() * 750));
+    } catch (e) {
+      const message = (e as Error).message;
+      process.stderr.write(`  ${username}: failed — ${message}\n`);
+      failures.push({ username, error: message });
+    }
+  });
 
-  rebuildIndex(exportRoot, channels, fresh);
+  rebuildIndex(exportRoot, channels, fresh, signed);
   writeHealth(exportRoot, fresh.size, failures);
 }
 
 async function scrapeChannel(
   username: string,
-  exportRoot: string
+  exportRoot: string,
+  signed: boolean
 ): Promise<{
   snapshot: Snapshot;
   freshPostCount: number;
@@ -161,39 +270,38 @@ async function scrapeChannel(
     posts: mergePosts(loadExistingPosts(snapPath), fresh.posts),
   };
 
-  // Write the snapshot first so a partial image-mirror failure doesn't
-  // lose the textual update.
   mkdirSync(dirname(snapPath), { recursive: true });
-  atomicWriteFile(snapPath, JSON.stringify(snapshot, null, 2) + "\n");
 
   // Mirror referenced media with bounded concurrency (different CDN hosts;
   // politeness matters less than to t.me itself, but keep sockets modest).
+  // Order matters: images must be on disk before we serialize the snapshot
+  // so `applyMediaHashes` can stamp each `_sha256` field from the actual
+  // bytes. The signed snapshot then transitively covers every image it
+  // references — Pigeon refuses to load any image whose hash doesn't match.
   const refs = collectMediaRefs(snapshot);
   let imagesWritten = 0;
   let imagesSkipped = 0;
-  const imageQueue = [...refs.entries()];
 
-  await Promise.all(
-    Array.from({ length: Math.min(IMAGE_CONCURRENCY, imageQueue.length) }, async () => {
-      let entry: [string, string] | undefined;
-      while ((entry = imageQueue.shift()) !== undefined) {
-        const [path, canonical] = entry;
-        const abs = join(exportRoot, path);
-        if (existsSync(abs)) {
-          imagesSkipped++;
-          continue;
-        }
-        try {
-          await downloadTo(canonical, abs);
-          imagesWritten++;
-        } catch (e) {
-          process.stderr.write(
-            `    media ${path} failed — ${(e as Error).message}\n`
-          );
-        }
-      }
-    })
-  );
+  await parallelWorkerPool([...refs.entries()], IMAGE_CONCURRENCY, async ([path, canonical]) => {
+    const abs = join(exportRoot, path);
+    if (existsSync(abs)) {
+      imagesSkipped++;
+      return;
+    }
+    try {
+      await downloadTo(canonical, abs);
+      imagesWritten++;
+    } catch (e) {
+      process.stderr.write(
+        `    media ${path} failed — ${(e as Error).message}\n`
+      );
+    }
+  });
+
+  applyMediaHashes(snapshot, exportRoot);
+
+  const payload = Buffer.from(JSON.stringify(snapshot, null, 2) + "\n");
+  writeSignedJSON(snapPath, payload, signed);
 
   return {
     snapshot,
@@ -240,7 +348,8 @@ async function downloadTo(url: string, destination: string): Promise<void> {
 function rebuildIndex(
   exportRoot: string,
   channels: string[],
-  freshlyScraped: Map<string, Snapshot>
+  freshlyScraped: Map<string, Snapshot>,
+  signed: boolean
 ): void {
   const entries: IndexEntry[] = [];
 
@@ -281,7 +390,7 @@ function rebuildIndex(
   };
 
   const indexPath = join(exportRoot, "index.json");
-  atomicWriteFile(indexPath, JSON.stringify(doc, null, 2) + "\n");
+  writeSignedJSON(indexPath, Buffer.from(JSON.stringify(doc, null, 2) + "\n"), signed);
   process.stderr.write(
     `index: ${entries.length} channels @ ${doc.generated_at}\n`
   );

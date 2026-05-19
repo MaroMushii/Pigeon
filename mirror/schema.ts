@@ -30,6 +30,7 @@ export interface ChannelInfo {
   description_html: string | null;
   photo_url: string | null;
   photo_path: string | null;
+  photo_sha256: string | null;
   subscriber_count: string | null;
 }
 
@@ -38,6 +39,7 @@ export interface PostDTO {
   author_name: string;
   author_photo_url: string | null;
   author_photo_path: string | null;
+  author_photo_sha256: string | null;
   body_html: string;
   plain_text: string;
   media: MediaDTO[];
@@ -65,6 +67,7 @@ export interface ReplyDTO {
   preview_text: string;
   thumbnail_url: string | null;
   thumbnail_path: string | null;
+  thumbnail_sha256: string | null;
   permalink: string;
 }
 
@@ -74,8 +77,10 @@ export interface MediaDTO {
   kind: MediaKind;
   asset_url: string | null;
   asset_path: string | null;
+  asset_sha256: string | null;
   thumbnail_url: string | null;
   thumbnail_path: string | null;
+  thumbnail_sha256: string | null;
   duration_label: string | null;
   aspect_ratio: number | null;
 }

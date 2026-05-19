@@ -27,7 +27,7 @@ struct JSONFeedDecoder {
         }
     }
 
-    static let supportedSchemaVersion: Int = 2
+    static let supportedSchemaVersion = 2
 
     private struct SnapshotDTO: Decodable {
         let schema: Int
@@ -42,6 +42,10 @@ struct JSONFeedDecoder {
         let description_html: String?
         let photo_url: String?
         let photo_path: String?
+        // Optional — pre-signing snapshots lack this. Used by VerifyingDataLoader
+        // to integrity-check the channel avatar bytes against the (already
+        // signature-verified) snapshot.
+        let photo_sha256: String?
         let subscriber_count: String?
     }
 
@@ -50,6 +54,7 @@ struct JSONFeedDecoder {
         let author_name: String
         let author_photo_url: String?
         let author_photo_path: String?
+        let author_photo_sha256: String?
         let body_html: String
         let plain_text: String
         let media: [MediaDTO]
@@ -70,6 +75,7 @@ struct JSONFeedDecoder {
         let preview_text: String
         let thumbnail_url: String?
         let thumbnail_path: String?
+        let thumbnail_sha256: String?
         let permalink: String
     }
 
@@ -77,8 +83,10 @@ struct JSONFeedDecoder {
         let kind: String
         let asset_url: String?
         let asset_path: String?
+        let asset_sha256: String?
         let thumbnail_url: String?
         let thumbnail_path: String?
+        let thumbnail_sha256: String?
         let duration_label: String?
         let aspect_ratio: Double?
     }
@@ -106,11 +114,18 @@ struct JSONFeedDecoder {
             )
         }
 
+        let channelPhotoURL = resolveURL(
+            path: env.channel.photo_path,
+            fallback: env.channel.photo_url,
+            base: mirrorBaseURL
+        )
+        registerHash(url: channelPhotoURL, path: env.channel.photo_path, hex: env.channel.photo_sha256)
+
         let channel = HTMLPostParser.ChannelInfo(
             title: env.channel.title,
             username: env.channel.username.lowercased(),
             descriptionHTML: emptyToNil(env.channel.description_html),
-            photoURL: resolveImageURL(path: env.channel.photo_path, fallback: env.channel.photo_url, base: mirrorBaseURL),
+            photoURL: channelPhotoURL?.absoluteString,
             subscriberCount: emptyToNil(env.channel.subscriber_count)
         )
 
@@ -121,10 +136,14 @@ struct JSONFeedDecoder {
                 case "video": .video
                 default: .unknown
                 }
+                let assetURL = resolveURL(path: m.asset_path, fallback: m.asset_url, base: mirrorBaseURL)
+                let thumbURL = resolveURL(path: m.thumbnail_path, fallback: m.thumbnail_url, base: mirrorBaseURL)
+                registerHash(url: assetURL, path: m.asset_path, hex: m.asset_sha256)
+                registerHash(url: thumbURL, path: m.thumbnail_path, hex: m.thumbnail_sha256)
                 return MediaSnapshot(
                     kind: kind,
-                    assetURL: resolveURL(path: m.asset_path, fallback: m.asset_url, base: mirrorBaseURL),
-                    thumbnailURL: resolveURL(path: m.thumbnail_path, fallback: m.thumbnail_url, base: mirrorBaseURL),
+                    assetURL: assetURL,
+                    thumbnailURL: thumbURL,
                     durationLabel: emptyToNil(m.duration_label),
                     aspectRatio: m.aspect_ratio
                 )
@@ -133,17 +152,26 @@ struct JSONFeedDecoder {
             let reactions = dto.reactions.map { ReactionSnapshot(emoji: $0.emoji, count: $0.count) }
             let postedAt = dto.posted_at.flatMap { Self.fractionalISO.date(from: $0) ?? Self.plainISO.date(from: $0) }
 
+            let authorPhotoURL = resolveURL(
+                path: dto.author_photo_path,
+                fallback: dto.author_photo_url,
+                base: mirrorBaseURL
+            )
+            registerHash(url: authorPhotoURL, path: dto.author_photo_path, hex: dto.author_photo_sha256)
+
             let reply: ReplySnapshot? = dto.reply.map { r in
-                ReplySnapshot(
+                let replyThumbURL = resolveURL(
+                    path: r.thumbnail_path,
+                    fallback: r.thumbnail_url,
+                    base: mirrorBaseURL
+                )
+                registerHash(url: replyThumbURL, path: r.thumbnail_path, hex: r.thumbnail_sha256)
+                return ReplySnapshot(
                     channelUsername: r.channel_username.lowercased(),
                     postIDNumeric: r.post_id,
                     authorName: r.author_name,
                     previewText: r.preview_text,
-                    thumbnailURL: resolveImageURL(
-                        path: r.thumbnail_path,
-                        fallback: r.thumbnail_url,
-                        base: mirrorBaseURL
-                    ),
+                    thumbnailURL: replyThumbURL?.absoluteString,
                     permalink: URL(string: r.permalink)
                 )
             }
@@ -152,11 +180,7 @@ struct JSONFeedDecoder {
                 id: dto.id,
                 channelUsername: env.channel.username.lowercased(),
                 authorName: dto.author_name,
-                authorPhotoURL: resolveImageURL(
-                    path: dto.author_photo_path,
-                    fallback: dto.author_photo_url,
-                    base: mirrorBaseURL
-                ),
+                authorPhotoURL: authorPhotoURL?.absoluteString,
                 bodyHTML: dto.body_html,
                 plainText: dto.plain_text,
                 media: media,
@@ -205,12 +229,27 @@ struct JSONFeedDecoder {
         return TelegramURLRewriter.rewrite(url)
     }
 
-    private func resolveImageURL(path: String?, fallback: String?, base: URL) -> String? {
-        resolveURL(path: path, fallback: fallback, base: base)?.absoluteString
-    }
-
     private func emptyToNil(_ s: String?) -> String? {
         guard let s, !s.isEmpty else { return nil }
         return s
+    }
+
+    /// Register `hex` as the expected SHA-256 for `url`. Only registers when
+    /// the URL resolved via a repo-relative `path` (i.e. we trust this hash
+    /// because it came from a signature-verified snapshot AND the URL points
+    /// at mirror-hosted bytes). If the URL came from a fallback `_url` field,
+    /// the hash doesn't apply to those bytes — they live on Telegram's CDN,
+    /// not in our mirror, and were never hashed by the scraper.
+    private func registerHash(url: URL?, path: String?, hex: String?) {
+        guard let url, let path, !path.isEmpty else { return }
+        guard let hex, !hex.isEmpty else {
+            // Repo-relative path present but no hash — the scraper wrote a
+            // mirrored asset without stamping it. Signals a producer-pipeline
+            // regression (e.g. `applyMediaHashes` skipped this file). Log so
+            // it shows up in mirror logs; bytes will load unverified.
+            AppLog.mirror.error("[verify] mirrored asset has no sha256 stamp path=<\(path, privacy: .public)>")
+            return
+        }
+        ImageHashRegistry.shared.register(url: url, sha256Hex: hex)
     }
 }
