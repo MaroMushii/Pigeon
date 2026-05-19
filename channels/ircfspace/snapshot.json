@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-19T05:20:54.837Z",
+  "fetched_at": "2026-05-19T05:25:46.848Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -15,8 +15,8 @@
       "author_name": "IRCF | اینترنت آزاد برای همه",
       "author_photo_url": "https://cdn1.telesco.pe/file/ecP2-hkC20MWMg61TcqJ6R0DMYdlABlpKVxK0Akc2bK1Xxtl4zLj3wbss0dNAeZ6gcbRQnbxK1HsKz6QT0HcnvAufivGyOGe4LR6nU5Cf1rQdoO6qharfvXw6XWzjjsWPY-L5xvAWzHCZuAp2IDWJe8b863K5rYjBuDhepuRKzq5_lthUgw_6yMEzazoM3oOAALLMBGQSMWkBX1q3UV1yuTKJQ5AKGEMWsORewj1kFdE6X_Kl27CLArvk5vTjAbWXQqEHRvoeGw0gwM4aI1GHejqOa5zRPQ5Nlvw1YczsmnA_4VAbxDoMBlDVVJ7J7LEQEU_8KtHSxzOzzi3SOjhXQ.jpg",
       "author_photo_path": "channels/ircfspace/media/5c38d54fdf4703e1b2a4def1.jpg",
-      "body_html": "در بروزرسانی جدید از اپ Network Checker برای اندروید، ویندوز و لینوکس، قابلیت اسکنر آیپی Akamai (جهت استفاده در اپ شیروخورشید) و کانفیگ جنریتور Netlify اضافه شده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/mirarr-app/network-checker/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/mirarr-app/network-checker/releases/latest</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <a href=\"http://t.me/PersianGithubMirror/5227\" target=\"_blank\" rel=\"noopener\">t.me/PersianGithubMirror/5227</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> <a href=\"http://ircf.space/\" target=\"_blank\" rel=\"noopener\">ircf.space</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "در بروزرسانی جدید از اپ Network Checker برای اندروید، ویندوز و لینوکس، قابلیت اسکنر آیپی Akamai (جهت استفاده در اپ شیروخورشید) و کانفیگ جنریتور Netlify اضافه شده. 👉 github.com/mirarr-app/network-checker/releases/latest 💡 t.me/PersianGithubMirror/5227 🔍 ircf.space @ircfspace",
+      "body_html": "در بروزرسانی جدید از اپ Network Checker برای اندروید، ویندوز و لینوکس، قابلیت اسکنر آیپی Akamai (جهت استفاده در اپ <a href=\"?q=%23%D8%B4%DB%8C%D8%B1%D9%88%D8%AE%D9%88%D8%B1%D8%B4%DB%8C%D8%AF\">#شیروخورشید</a>) اضافه شده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/mirarr-app/network-checker/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/mirarr-app/network-checker/releases/latest</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <a href=\"http://t.me/PersianGithubMirror/5227\" target=\"_blank\" rel=\"noopener\">t.me/PersianGithubMirror/5227</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> <a href=\"http://ircf.space/\" target=\"_blank\" rel=\"noopener\">ircf.space</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "در بروزرسانی جدید از اپ Network Checker برای اندروید، ویندوز و لینوکس، قابلیت اسکنر آیپی Akamai (جهت استفاده در اپ #شیروخورشید) اضافه شده. 👉 github.com/mirarr-app/network-checker/releases/latest 💡 t.me/PersianGithubMirror/5227 🔍 ircf.space @ircfspace",
       "media": [
         {
           "kind": "photo",
@@ -28,10 +28,23 @@
           "aspect_ratio": 1.3333333333333333
         }
       ],
-      "reactions": [],
-      "views_label": "1",
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "❤",
+          "count": "3"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        }
+      ],
+      "views_label": "893",
       "posted_at": "2026-05-19T05:20:50+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/ircfspace/2358"
     },
     {
@@ -55,18 +68,18 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "17"
+          "count": "19"
         },
         {
           "emoji": "❤",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "👍",
           "count": "1"
         }
       ],
-      "views_label": "1.63K",
+      "views_label": "2.23K",
       "posted_at": "2026-05-19T05:08:51+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2357"
@@ -82,7 +95,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "347"
+          "count": "350"
         },
         {
           "emoji": "❤",
@@ -101,7 +114,7 @@
           "count": "4"
         }
       ],
-      "views_label": "19K",
+      "views_label": "19.2K",
       "posted_at": "2026-05-18T16:37:37+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2355"
@@ -138,7 +151,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.9K",
+      "views_label": "17.1K",
       "posted_at": "2026-05-18T16:35:16+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2354"
@@ -168,7 +181,7 @@
         },
         {
           "emoji": "👍",
-          "count": "604"
+          "count": "606"
         },
         {
           "emoji": "👏",
@@ -203,7 +216,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.2K",
+      "views_label": "20.3K",
       "posted_at": "2026-05-18T12:54:06+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2353"
@@ -229,7 +242,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "466"
+          "count": "469"
         },
         {
           "emoji": "🤡",
@@ -260,7 +273,7 @@
           "count": "3"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.8K",
       "posted_at": "2026-05-18T12:51:40+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2352"
@@ -317,7 +330,7 @@
           "count": "1"
         }
       ],
-      "views_label": "44.4K",
+      "views_label": "44.5K",
       "posted_at": "2026-05-18T06:32:00+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2351"
@@ -376,7 +389,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.5K",
+      "views_label": "22.6K",
       "posted_at": "2026-05-18T05:51:32+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2350"
@@ -402,7 +415,7 @@
       "reactions": [
         {
           "emoji": "🤡",
-          "count": "809"
+          "count": "810"
         },
         {
           "emoji": "🤬",
@@ -506,7 +519,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "276"
+          "count": "277"
         },
         {
           "emoji": "😢",
@@ -563,7 +576,7 @@
         },
         {
           "emoji": "👍",
-          "count": "181"
+          "count": "182"
         },
         {
           "emoji": "❤",
@@ -706,7 +719,7 @@
           "count": "1"
         }
       ],
-      "views_label": "33.1K",
+      "views_label": "33.2K",
       "posted_at": "2026-05-16T05:51:15+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2344"
@@ -796,7 +809,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.5K",
+      "views_label": "26.6K",
       "posted_at": "2026-05-16T05:33:21+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2342"
@@ -845,7 +858,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.4K",
+      "views_label": "25.5K",
       "posted_at": "2026-05-16T05:14:44+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2341"
@@ -910,7 +923,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-05-16T05:08:54+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2340"
@@ -1008,7 +1021,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "24.8K",
       "posted_at": "2026-05-16T04:57:11+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2338"
