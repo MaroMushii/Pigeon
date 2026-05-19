@@ -334,8 +334,12 @@ final class ChannelService {
     /// round-trip proves the network is up, so the global
     /// `connectionError` clears regardless of which channel succeeded.
     private func clearErrorsOnSuccess(username: String) {
+        let hadError = channelErrors[username] != nil
         channelErrors.removeValue(forKey: username)
         connectionError = nil
+        if hadError {
+            AppLog.feed.pub("channelErrors cleared for <\(username)>")
+        }
     }
 
     /// Bucket a refresh failure into the two visible error surfaces.
@@ -346,8 +350,10 @@ final class ChannelService {
         let message = Self.userFacingMessage(for: error)
         if Self.isConnectionError(error) {
             connectionError = ConnectionError(message: message, at: .now)
+            AppLog.feed.pub("connectionError set for <\(username)>: <\(message)>")
         } else {
             channelErrors[username] = ChannelError(message: message, at: .now)
+            AppLog.feed.pub("channelErrors[<\(username)>] = <\(message)>")
         }
     }
 

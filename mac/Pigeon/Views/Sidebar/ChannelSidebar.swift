@@ -77,32 +77,41 @@ struct ChannelRow: View {
         service?.channelErrors[channel.username]
     }
 
+    @State private var isShowingErrorDetails = false
+
     var body: some View {
         HStack(spacing: 8) {
-            avatar
-                .frame(width: 32, height: 32)
-                .clipShape(.circle)
-            VStack(alignment: .leading, spacing: 1) {
-                Text(channel.displayName)
-                    .font(.callout)
-                    .fontWeight(.medium)
-                    .lineLimit(1)
-                HStack(spacing: 3) {
-                    Text("@\(channel.username)")
+            // Hit-testing is disabled on the leading content so AppKit's
+            // NSTableView owns clicks (row selection, re-click detection).
+            // The trailing indicator stays hit-testable so the error icon
+            // can fire .onHover / .popover — clicking the icon won't
+            // select the row, which is fine UX for an accessory glyph.
+            HStack(spacing: 8) {
+                avatar
+                    .frame(width: 32, height: 32)
+                    .clipShape(.circle)
+                VStack(alignment: .leading, spacing: 1) {
+                    Text(channel.displayName)
+                        .font(.callout)
+                        .fontWeight(.medium)
                         .lineLimit(1)
-                    if channel.isMuted {
-                        Image(systemName: "bell.slash")
-                            .imageScale(.small)
+                    HStack(spacing: 3) {
+                        Text("@\(channel.username)")
+                            .lineLimit(1)
+                        if channel.isMuted {
+                            Image(systemName: "bell.slash")
+                                .imageScale(.small)
+                        }
                     }
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
                 }
-                .font(.caption)
-                .foregroundStyle(.secondary)
+                Spacer(minLength: 4)
             }
-            Spacer(minLength: 4)
+            .allowsHitTesting(false)
             trailingIndicator
         }
         .padding(.vertical, 4)
-        .allowsHitTesting(false)
     }
 
     // Priority order — loading wins (transient), then error (something
@@ -118,7 +127,10 @@ struct ChannelRow: View {
             Image(systemName: "exclamationmark.circle.fill")
                 .imageScale(.medium)
                 .foregroundStyle(.orange)
-                .help("Couldn't refresh @\(channel.username): \(error.message). Right-click → Refresh to retry.")
+                .onHover { isShowingErrorDetails = $0 }
+                .popover(isPresented: $isShowingErrorDetails, arrowEdge: .trailing) {
+                    ErrorPopover(username: channel.username, error: error)
+                }
                 .accessibilityLabel("Refresh failed: \(error.message)")
         } else if channel.unreadCount > 0 {
             Text("\(channel.unreadCount)")
@@ -327,6 +339,35 @@ private struct SidebarEmptyState: View {
         }
         .padding(.horizontal, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+}
+
+private struct ErrorPopover: View {
+    let username: String
+    let error: ChannelService.ChannelError
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack(spacing: 6) {
+                Image(systemName: "exclamationmark.circle.fill")
+                    .foregroundStyle(.orange)
+                Text("Couldn't refresh @\(username)")
+                    .font(.headline)
+            }
+            Text(error.message)
+                .font(.callout)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
+            Text(error.at.formatted(.relative(presentation: .named)))
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+            Text("Right-click the channel → Refresh to retry.")
+                .font(.caption)
+                .foregroundStyle(.tertiary)
+                .padding(.top, 2)
+        }
+        .padding(12)
+        .frame(maxWidth: 280, alignment: .leading)
     }
 }
 

@@ -83,7 +83,29 @@ struct SidebarTableView: NSViewRepresentable {
         coordinator.onSelectionChange = { id in
             binding.wrappedValue = id
         }
-        coordinator.update(channels: channels, selectedID: selectedID, envChanged: envChanged)
+        // Bridge @Observable error/inflight changes into the AppKit table.
+        // The hosted ChannelRow can't reliably re-evaluate its body when
+        // these dictionaries mutate (NSHostingView + AnyView observation
+        // is flaky), so we fingerprint the keys here — reading them in
+        // updateNSView registers a SwiftUI observation dependency, so the
+        // representable re-runs on mutation and we reloadData() the
+        // affected rows.
+        let fingerprint = Self.fingerprint(for: channelService)
+        let fingerprintChanged = coordinator.observableFingerprint != fingerprint
+        coordinator.observableFingerprint = fingerprint
+        coordinator.update(
+            channels: channels,
+            selectedID: selectedID,
+            envChanged: envChanged,
+            fingerprintChanged: fingerprintChanged
+        )
+    }
+
+    private static func fingerprint(for service: ChannelService?) -> String {
+        guard let service else { return "" }
+        let errors = service.channelErrors.keys.sorted().joined(separator: ",")
+        let inflight = service.inflight.sorted().joined(separator: ",")
+        return "e:\(errors)|i:\(inflight)"
     }
 }
 
@@ -98,11 +120,21 @@ final class SidebarCoordinator: NSObject, NSTableViewDelegate, NSTableViewDataSo
     var onReClick: (@MainActor (Channel) -> Void)?
     var onSelectionChange: (@MainActor (PersistentIdentifier?) -> Void)?
     weak var tableView: NSTableView?
+    /// Tracks the union of error keys and inflight keys. Bumped by
+    /// `SidebarTableView.updateNSView`; a diff triggers `reloadData()` so
+    /// hosted ChannelRows pick up the new state (since their @Observable
+    /// subscriptions don't survive the AnyView + NSHostingView wrapping).
+    var observableFingerprint: String = ""
 
-    func update(channels newChannels: [Channel], selectedID newID: PersistentIdentifier?, envChanged: Bool) {
+    func update(
+        channels newChannels: [Channel],
+        selectedID newID: PersistentIdentifier?,
+        envChanged: Bool,
+        fingerprintChanged: Bool
+    ) {
         let channelsChanged = newChannels.map(\.persistentModelID) != channels.map(\.persistentModelID)
         channels = newChannels
-        if channelsChanged || envChanged {
+        if channelsChanged || envChanged || fingerprintChanged {
             tableView?.reloadData()
         }
         applySelection(selectedID: newID)
@@ -331,32 +363,36 @@ final class SidebarRowView: NSTableRowView {
 // MARK: - Cell
 
 /// NSTableCellView that hosts `ChannelRow` in a SwiftUI `NSHostingView`.
-/// The cell shell is reused via `makeView(withIdentifier:owner:)`; we swap
-/// `rootView` on reuse (unlike `HostingTableCellView` in the feed, sidebar
-/// rows have fixed height so stale layout state is not a concern).
+/// The cell shell is reused via `makeView(withIdentifier:owner:)`, but the
+/// hosted SwiftUI view is rebuilt from scratch on every configure. Swapping
+/// `rootView` on a reused host preserved stale `@Observable` subscription
+/// state — the orange refresh-error icon would stick on previously-failed
+/// channels after a successful refresh because `ChannelRow.body` wasn't
+/// re-evaluating against the cleared `channelErrors` entry. The feed's
+/// `HostingTableCellView` documents the same gotcha (height mismatches there,
+/// stuck-state here); the recipe is identical.
 final class SidebarCellView: NSTableCellView {
     private var hostedView: NSHostingView<AnyView>?
 
     func configure(with channel: Channel, channelService: ChannelService?, colorScheme: ColorScheme) {
+        hostedView?.removeFromSuperview()
+        hostedView = nil
+
         let view = AnyView(
             ChannelRow(channel: channel)
                 .environment(\.channelService, channelService)
                 .environment(\.colorScheme, colorScheme)
         )
-        if let host = hostedView {
-            host.rootView = view
-        } else {
-            let host = NSHostingView(rootView: view)
-            host.translatesAutoresizingMaskIntoConstraints = false
-            host.wantsLayer = true
-            addSubview(host)
-            hostedView = host
-            NSLayoutConstraint.activate([
-                host.leadingAnchor.constraint(equalTo: leadingAnchor),
-                host.trailingAnchor.constraint(equalTo: trailingAnchor),
-                host.topAnchor.constraint(equalTo: topAnchor),
-                host.bottomAnchor.constraint(equalTo: bottomAnchor),
-            ])
-        }
+        let host = NSHostingView(rootView: view)
+        host.translatesAutoresizingMaskIntoConstraints = false
+        host.wantsLayer = true
+        addSubview(host)
+        hostedView = host
+        NSLayoutConstraint.activate([
+            host.leadingAnchor.constraint(equalTo: leadingAnchor),
+            host.trailingAnchor.constraint(equalTo: trailingAnchor),
+            host.topAnchor.constraint(equalTo: topAnchor),
+            host.bottomAnchor.constraint(equalTo: bottomAnchor),
+        ])
     }
 }
