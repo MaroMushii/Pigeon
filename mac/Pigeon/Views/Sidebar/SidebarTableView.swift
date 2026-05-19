@@ -59,6 +59,7 @@ struct SidebarTableView: NSViewRepresentable {
 
         tableView.delegate = coordinator
         tableView.dataSource = coordinator
+        tableView.selectionHighlightStyle = .regular
 
         // Context menu: AppKit calls menuNeedsUpdate before showing it,
         // where we populate items for whichever row was right-clicked.
@@ -144,6 +145,16 @@ final class SidebarCoordinator: NSObject, NSTableViewDelegate, NSTableViewDataSo
     func tableView(_ tableView: NSTableView, heightOfRow row: Int) -> CGFloat { 52 }
 
     func tableView(_ tableView: NSTableView, shouldSelectRow row: Int) -> Bool { true }
+
+    func tableView(_ tableView: NSTableView, rowViewForRow row: Int) -> NSTableRowView? {
+        let identifier = NSUserInterfaceItemIdentifier("SidebarRow")
+        return tableView.makeView(withIdentifier: identifier, owner: self) as? SidebarRowView
+            ?? {
+                let r = SidebarRowView()
+                r.identifier = identifier
+                return r
+            }()
+    }
 
     func handleReClick(row: Int) {
         guard row < channels.count else { return }
@@ -276,6 +287,44 @@ final class SidebarNSTableView: NSTableView {
         let wasAlreadySelected = row >= 0 && selectedRow == row
         super.mouseDown(with: event)
         if wasAlreadySelected { onRowReClick?(row) }
+    }
+}
+
+// MARK: - Row view
+
+/// `NSTableRowView` that draws the selection highlight with Apple's
+/// continuous (squircle) corner geometry. AppKit's default
+/// `drawSelection(in:)` uses `CGPath(roundedRect:cornerSize:)` which is
+/// the legacy circular curve — visibly inconsistent with every SwiftUI
+/// `.rect(cornerRadius:style: .continuous)` elsewhere in the app.
+final class SidebarRowView: NSTableRowView {
+    private static let cornerRadius: CGFloat = 6
+    private static let horizontalInset: CGFloat = 8
+    private static let verticalInset: CGFloat = 2
+
+    override func drawSelection(in dirtyRect: NSRect) {
+        guard selectionHighlightStyle != .none else { return }
+
+        let rect = bounds.insetBy(dx: Self.horizontalInset, dy: Self.verticalInset)
+        let path = RoundedRectangle(cornerRadius: Self.cornerRadius, style: .continuous)
+            .path(in: rect)
+            .cgPath
+
+        let color = selectionColor()
+        guard let ctx = NSGraphicsContext.current?.cgContext else { return }
+        ctx.saveGState()
+        ctx.addPath(path)
+        ctx.setFillColor(color.cgColor)
+        ctx.fillPath()
+        ctx.restoreGState()
+    }
+
+    private func selectionColor() -> NSColor {
+        let focused = (window?.firstResponder as? NSView)?.isDescendant(of: self) == true
+            || window?.isKeyWindow == true
+        return focused
+            ? NSColor.selectedContentBackgroundColor
+            : NSColor.unemphasizedSelectedContentBackgroundColor
     }
 }
 
