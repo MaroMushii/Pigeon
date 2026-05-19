@@ -716,22 +716,33 @@ private struct ReplyCard: View {
     }
 
     private var content: some View {
+        // Rail is attached as a leading overlay rather than an HStack sibling.
+        // As an HStack child, a bare `Rectangle().frame(width: 3)` is a flex
+        // Shape with no height constraint — under the row-measurement path's
+        // `.fixedSize(vertical: true)` (FeedTableView.measureHeight), it
+        // claims the proposed `.infinity` height and stretches the whole
+        // reply card to hundreds of points tall. Overlay sizing follows the
+        // host view, so the rail naturally matches the content's height.
         HStack(spacing: 8) {
-            Rectangle()
-                .fill(Color.accentColor)
-                .frame(width: 3)
-                .clipShape(.capsule)
-
             if let urlString = reply.thumbnailURL, let url = URL(string: urlString) {
-                LazyImage(url: url) { state in
-                    if let img = state.image {
-                        img.resizable().scaledToFill()
-                    } else {
-                        Rectangle().fill(.quaternary)
+                // `Color.clear` stable-sizer (same trick as `MediaTile.image`):
+                // a bare `.frame(32, 32)` around `LazyImage` lets the loaded
+                // telesco.pe thumb's intrinsic size (~320²) leak through
+                // `scaledToFill`. Sizing `Color.clear` and rendering the
+                // loader inside `.overlay` pins the box to 32×32.
+                Color.clear
+                    .frame(width: 32, height: 32)
+                    .overlay {
+                        LazyImage(url: url) { state in
+                            if let img = state.image {
+                                img.resizable().scaledToFill()
+                            } else {
+                                Rectangle().fill(.quaternary)
+                            }
+                        }
                     }
-                }
-                .frame(width: 32, height: 32)
-                .clipShape(.rect(cornerRadius: 4, style: .continuous))
+                    .clipped()
+                    .clipShape(.rect(cornerRadius: 4, style: .continuous))
             }
 
             VStack(alignment: .leading, spacing: 2) {
@@ -749,11 +760,19 @@ private struct ReplyCard: View {
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .padding(.vertical, 6)
-        .padding(.horizontal, 8)
+        .padding(.leading, 11)
+        .padding(.trailing, 8)
         .background(
             Color.accentColor.opacity(isHovering ? 0.10 : 0.06),
             in: .rect(cornerRadius: 6, style: .continuous)
         )
+        .overlay(alignment: .leading) {
+            Capsule()
+                .fill(Color.accentColor)
+                .frame(width: 3)
+                .padding(.vertical, 6)
+                .padding(.leading, 4)
+        }
         .opacity(isNavigable ? 1.0 : 0.75)
         .contentShape(.rect)
     }
