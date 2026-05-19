@@ -29,7 +29,7 @@ enum MirrorSignature {
     /// `pnpm exec tsx mirror/keygen.ts`, paste the base64 public key here,
     /// and stash the private seed in your password manager + the
     /// `MIRROR_SIGNING_KEY` GH Actions secret.
-    private static let publicKeyBase64 = "17hNErzo6LqtLCXoCRmBFrjBcA5AtveTBwCEqpkJK8A="
+    private static let publicKeyBase64 = "EUWdj/l5H7HQavcfVXcH/j6pJbqOxKaNsahFwTUmZWY="
 
     /// Sentinel: the development placeholder key. Release builds trap on
     /// startup if `publicKeyBase64` still matches this — shipping an app
