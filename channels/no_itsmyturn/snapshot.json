@@ -1,12 +1,13 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-19T20:36:43.519Z",
+  "fetched_at": "2026-05-19T20:37:34.319Z",
   "channel": {
     "username": "no_itsmyturn",
     "title": "Aleph (no_itsmyturn)",
     "description_html": "Website: <a href=\"https://aleph.wtf/\" target=\"_blank\" rel=\"noopener\">https://aleph.wtf</a><br>Twitter: <a href=\"https://twitter.com/no_itsmyturn\" target=\"_blank\" rel=\"noopener\">https://twitter.com/no_itsmyturn</a><br><br>PayPal Donation: <a href=\"https://www.paypal.com/donate/?hosted_button_id=5YGL2N9QVKUBG\" target=\"_blank\" rel=\"noopener\">https://www.paypal.com/donate/?hosted_button_id=5YGL2N9QVKUBG</a><br><br>Patreon: <a href=\"https://patreon.com/AlephWTF\" target=\"_blank\" rel=\"noopener\">https://patreon.com/AlephWTF</a><br><br>BTC: bc1qgkgwf0z02563cs8rjgntnzhn2v2ygj450tfg8l",
     "photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
     "photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+    "photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
     "subscriber_count": "3.05K"
   },
   "posts": [
@@ -15,6 +16,7 @@
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/no_itsmyturn\"><span dir=\"auto\">Aleph (no_itsmyturn)</span></a> pinned Deleted message",
       "plain_text": "Aleph (no_itsmyturn) pinned Deleted message",
       "media": [],
@@ -22,13 +24,15 @@
       "views_label": null,
       "posted_at": "2024-01-15T10:01:01+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110852"
+      "permalink": "https://t.me/no_itsmyturn/110852",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110848",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Twitter is becoming really intolerable!!!",
       "plain_text": "Twitter is becoming really intolerable!!!",
       "media": [
@@ -36,8 +40,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/no_itsmyturn/110848",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/cx7m6m46c6WY5bn1XM4a9AgYojX6pxWytZU9C4THCO0sgWXWs5sl7NixRdX7KJJQ8XriHY7I8reiYQDvgcPiSfsdYY_2mXihW7GU1o1CpZ0EZpnHOa35W_2uRM2atvZGEaaqpiqr1fUq0t3sEUhgGWCN919nIIV6zXo4BK5tjuFV93MjQu4RQin3_B4NemZv1yhHJw0EDukIm5uCZA8jbrWPXaPeRKnX5CoyFm7_4Up22yLeuZ4v8CGkF4s7O5ZCE8mOkwZP55a6BNugER-9U_EDtdTM4BuxTQKJkO02KjShq6WI81MNU_FlVotD1dRBGC1HCsyzuagLcjd-wO7ylg.jpg",
           "thumbnail_path": "channels/no_itsmyturn/media/fce72c49fa85ac82cc3902f8.jpg",
+          "thumbnail_sha256": "5bb97a16effaa83bd49a21269df8da21ec32725d1a85069d9f18a4b1563bc243",
           "duration_label": null,
           "aspect_ratio": 10.526315789473685
         }
@@ -59,13 +65,15 @@
       "views_label": "7.8K",
       "posted_at": "2023-08-11T12:08:18+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110848"
+      "permalink": "https://t.me/no_itsmyturn/110848",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110847",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Esfarayen, Northern Khorasan Province<br>EAF blast in Eico steel factory injured 8 <br><a href=\"?q=%23Iran\">#Iran</a><br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689690704748933121\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "Esfarayen, Northern Khorasan Province EAF blast in Eico steel factory injured 8 #Iran TWEET LINK",
       "media": [],
@@ -86,13 +94,15 @@
       "views_label": "7.18K",
       "posted_at": "2023-08-10T17:30:39+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110847"
+      "permalink": "https://t.me/no_itsmyturn/110847",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110845",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Reported image of the vehicle transporting Maurice Selim, the Defense Minister of Lebanon <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i>. <br><br>This incident occurred less than 24 hours following the death of a Hezbollah militant in Kahaleh, where their ammunition truck had overturned, sparking clashes with local residents.  <br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689640334727471105\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "Reported image of the vehicle transporting Maurice Selim, the Defense Minister of Lebanon 🇱🇧. This incident occurred less than 24 hours following the death of a Hezbollah militant in Kahaleh, where their ammunition truck had overturned, sparking clashes with local residents. TWEET LINK",
       "media": [
@@ -100,8 +110,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/no_itsmyturn/110845",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/g1nelYb2Aw89pc9JsTdeQb0wn7jxFIemN4KX6wgBz0R6fXcOSDPl8S7wg0JLPjIUQz14Eke1jb02sNZ0erT8PcBqlvDIIkvSS4_EDCstSZxr-WzdAVaLDeaRY7Ui85dzO4V1SM2Ud8sHnOm9laWhhhDDs9KgNN4L7VoXLMDXJxw_AucC_FssJhMWZSUBTr-1U5w8l-guai_ODihelcSzcW6Gda4FNCJxnPnad9oaVk6P46Peg9HxuGyFD4O_OyadnQX50bWGWToUU-VlUvg6z39AdZH6WL-MEaoR_cfDYoaWal4wZ5iG0aeI7rIQjRMAk9lyl426Zvg2ObAVVumoyg.jpg",
           "thumbnail_path": "channels/no_itsmyturn/media/4527666e0bc848058a955bf7.jpg",
+          "thumbnail_sha256": "7810dbcb454de4090402de9edef8346e965e9cd80dec17580b94cd9c180db053",
           "duration_label": null,
           "aspect_ratio": 1.3333333333333333
         }
@@ -115,27 +127,40 @@
       "views_label": "5.03K",
       "posted_at": "2023-08-10T14:10:25+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110845"
+      "permalink": "https://t.me/no_itsmyturn/110845",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110846",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
-      "body_html": "Reported image of the vehicle transporting Maurice Selim, the Defense Minister of Lebanon <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i>.   This incident occurred less than 24 hours following the death of a Hezbollah militant in Kahaleh, where their ammunition truck had overturned, sparking clashes…",
-      "plain_text": "Reported image of the vehicle transporting Maurice Selim, the Defense Minister of Lebanon 🇱🇧. This incident occurred less than 24 hours following the death of a Hezbollah militant in Kahaleh, where their ammunition truck had overturned, sparking clashes…",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
+      "body_html": "<b>Above post has a quote, quoted tweet is:</b><br><a href=\"https://vxtwitter.com/no_itsmyturn/status/1689638535173902336\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Quoted Tweet</a>",
+      "plain_text": "Above post has a quote, quoted tweet is: Quoted Tweet",
       "media": [],
       "reactions": [],
       "views_label": "6.34K",
       "posted_at": "2023-08-10T14:10:25+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110846"
+      "permalink": "https://t.me/no_itsmyturn/110846",
+      "reply": {
+        "channel_username": "no_itsmyturn",
+        "post_id": "110845",
+        "author_name": "Aleph (no_itsmyturn)",
+        "preview_text": "Reported image of the vehicle transporting Maurice Selim, the Defense Minister of Lebanon 🇱🇧. This incident occurred less than 24 hours following the death of a Hezbollah militant in Kahaleh, where their ammunition truck had overturned, sparking clashes…",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/UaAemjQkIKeKeH1i8z6HBWOILvMfIcGzNSfB83NKEgOJqE9Rex4LxCkBjufJVqohhknFXweeO_8s0INzBMTm2E4ApeXMZ-EKOGRrKBxvom49m2K6X1ALDAkVM8s_yRzVKZmI_2GXRLTP6iFLlmtAPcJIoYDPhu-I1_Toluwu0LWbWdv2FMbnCvp4zxWJS6KPDZ_CmkMpE48RPGDVxVNjTV0lV_SrgR_5dPzxGZ0ODB9hsKBJarvi4jyxad47uQqi8OJ5iZdev8ey5aZfCr880VvpvEPW667o7HRvhRsaY9dULytLUKyydq9MwGY_WDZFGyiyDG0D7VK0ZEjfRgiQ3w.jpg",
+        "thumbnail_path": "channels/no_itsmyturn/media/d1dd93d3b2244d41a0a84f4d.jpg",
+        "thumbnail_sha256": "28b39c920ad7bb3ec33bc2ed4254d10be7beb8ec7b0b703a60d8eb6c922be911",
+        "permalink": "https://t.me/no_itsmyturn/110845"
+      }
     },
     {
       "id": "no_itsmyturn/110844",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Lebanon Defense Minister's car was fired upon in Eastern Beirut, he survived and is fine<br><a href=\"?q=%23Lebanon\">#Lebanon</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i><br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689638535173902336\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "Lebanon Defense Minister's car was fired upon in Eastern Beirut, he survived and is fine #Lebanon 🇱🇧 TWEET LINK",
       "media": [],
@@ -143,13 +168,15 @@
       "views_label": "3.53K",
       "posted_at": "2023-08-10T14:03:17+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110844"
+      "permalink": "https://t.me/no_itsmyturn/110844",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110843",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Several blasts were heard in northern Gaza, all due to the \"resistance acts\"<br><a href=\"?q=%23Gaza\">#Gaza</a><br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689610596537286656\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "Several blasts were heard in northern Gaza, all due to the \"resistance acts\" #Gaza TWEET LINK",
       "media": [],
@@ -166,13 +193,15 @@
       "views_label": "3.36K",
       "posted_at": "2023-08-10T12:12:16+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110843"
+      "permalink": "https://t.me/no_itsmyturn/110843",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110842",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Palestinian media reporting that a militant, Amir Khalifa, was killed during clashes with Israeli forces near Nablus overnight. <br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689483536917565440\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "Palestinian media reporting that a militant, Amir Khalifa, was killed during clashes with Israeli forces near Nablus overnight. TWEET LINK",
       "media": [
@@ -180,8 +209,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/no_itsmyturn/110842",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/mDHpfWcZbwMb6QFGvkMlMZSEc1FG1qPlHuVCIGsfMXdTY59iSBrNdDaRpI1kzA-x12KYq56zjWGbRc7iIxC7gDBStxAMKdiolb8exVCO9Lbo8H6z-gKl3tD2-4njQ336FoUGJiq9Bp5jM086rJJAEnzbTyK0ClF3r2tVqLJHRSZ2cZzYcvZP_-T_0-6dVRlU_WkYqFIQoL_x9gsqhv8M7bNLkio6FlokiNI0f-bUPYmvzPjGdxhnFXfPsMjpHxgT-JHzN_IjAHM0rxqhJEzHQOzCwYIdIcKl_0nf6UKfXcHcYHaM0-EM8xtDK4nvOeo1rEx2peEST4XbJOoVx-y-Sw.jpg",
           "thumbnail_path": "channels/no_itsmyturn/media/90362184856599315361bb8c.jpg",
+          "thumbnail_sha256": "93556f89401a11d87bb13ce3c68869b08709914adf8bdc964c7d9ed8eb43e2b0",
           "duration_label": null,
           "aspect_ratio": 0.7975000000000035
         }
@@ -199,13 +230,15 @@
       "views_label": "3.2K",
       "posted_at": "2023-08-10T03:47:25+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110842"
+      "permalink": "https://t.me/no_itsmyturn/110842",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110841",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "<a href=\"?q=%23USAF\">#USAF</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87B8.png')\"><b>🇺🇸</b></i> tanker conducting AAR near the strait of Hormuz <br>58-0018 | AE04B8 <br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689476337080115200\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "#USAF 🇺🇸 tanker conducting AAR near the strait of Hormuz 58-0018 | AE04B8 TWEET LINK",
       "media": [
@@ -213,8 +246,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/no_itsmyturn/110841",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/hzYKhlcX9yJ5Fq9O-tvxfs3fHBjd5JFw4NjoMdivX88nTykpf91K-P-USF68XOi-ZJkId3r60bnVl7UpHGpRco9P_J89fU5Rbe_P9OH_craeHfbOzwqgI3hEZw6h47X1_aD0ybRTWNCS6l2ZqF4vJ_OQKk-z9DVc_oHx7-d-mPsRftDag9NzAXgM1FFwgnkyeaoUPetFRUHBISooUyKFRswRbtnV4eP5xsZbMMhgIOG902R-22oAiRV-tmNJ1oK8RSBR1p_Shiz0hwFZvMKNTCvZuebqz3n_4CCUmIOWLsD0hlnUTbXAvuusB6z9Txv0QVn98btiA8PS-KiJw7U_pQ.jpg",
           "thumbnail_path": "channels/no_itsmyturn/media/b0134aea7a7f21fa71664c8e.jpg",
+          "thumbnail_sha256": "06472da0bfa5abbb18ccd39a6c02fe38b8a630a528c023f658b1f1b8ed6594ae",
           "duration_label": null,
           "aspect_ratio": 1.9753086419753085
         }
@@ -228,13 +263,15 @@
       "views_label": "2.4K",
       "posted_at": "2023-08-10T03:18:45+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110841"
+      "permalink": "https://t.me/no_itsmyturn/110841",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110839",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Kahaleh, people holding \"Resistance against the Iranian occupation\" banner <br><a href=\"?q=%23Lebanon\">#Lebanon</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i>  <br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689402871605833728\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "Kahaleh, people holding \"Resistance against the Iranian occupation\" banner #Lebanon 🇱🇧 TWEET LINK",
       "media": [
@@ -242,8 +279,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/no_itsmyturn/110839",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/kI1Bw7Zs7CU6ORTjPaVtTlymg7fcjhHdqsNUp3jw7gXnfzIEkp9vBv3uS1eHoyGLJH6jnSqtL-mtBLQTSbjpKHi4RiCuOVL69R6ARnxdzkNRkxHl0Iif0cEkKlSRvXqABjLRQAqvmxZi3YNNmWE41x8KWWUD-rXvzTMStuKRr0eaFC11TlzUEtebuK-78HL3t8ASimTPTGjRexNWwYob9Nv0Z45ULPqksonThuvo8mZLCDEPnwj3jFM14ZRlyvirsyYQTEfN4HInP2VPjUjst8lpdHJisr36hMgQfAKQgQ5MgrjOn_GPOb10gfzVA1iC8apJ3mJiM54mQZ7IOVjCvA.jpg",
           "thumbnail_path": "channels/no_itsmyturn/media/8cc6c905d53b94adeacc64c0.jpg",
+          "thumbnail_sha256": "6cadb36ab8287d91b0aa07a495616a72a159333d00acb9a66cf072fe9f118de7",
           "duration_label": null,
           "aspect_ratio": 1.7857142857142858
         }
@@ -261,27 +300,40 @@
       "views_label": "1.92K",
       "posted_at": "2023-08-09T22:26:50+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110839"
+      "permalink": "https://t.me/no_itsmyturn/110839",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110840",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
-      "body_html": "Kahaleh, people holding \"Resistance against the Iranian occupation\" banner  #Lebanon <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i>    TWEET LINK",
-      "plain_text": "Kahaleh, people holding \"Resistance against the Iranian occupation\" banner #Lebanon 🇱🇧 TWEET LINK",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
+      "body_html": "<b>Above post has a quote, quoted tweet is:</b><br><a href=\"https://vxtwitter.com/AlHadath/status/1689402510325207040\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Quoted Tweet</a>",
+      "plain_text": "Above post has a quote, quoted tweet is: Quoted Tweet",
       "media": [],
       "reactions": [],
       "views_label": "2.19K",
       "posted_at": "2023-08-09T22:26:50+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110840"
+      "permalink": "https://t.me/no_itsmyturn/110840",
+      "reply": {
+        "channel_username": "no_itsmyturn",
+        "post_id": "110839",
+        "author_name": "Aleph (no_itsmyturn)",
+        "preview_text": "Kahaleh, people holding \"Resistance against the Iranian occupation\" banner #Lebanon 🇱🇧 TWEET LINK",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/XrcbmrA-HixI2KwRyjwdQtdBuFbV8ANUJLkTWBopG6M4qZNHyApencL-wzTV9ke1u9Y3jN9-Dk9pNhel1W7WG741GDQ_pDYHCEWewyu-0KcQH1pB1XiPCUuh78MN1h2r_aZpLFH-ZleAjJ7hQOYDSVfsxzzyc0qv_TTeN6VK6kiaUKxXi-bn7l7fYuQ61iaLbMhUaPqGUK-BGuhw_-QKFnvne2ZfSVw7cukIi_yNh4uwxqCNF0WHQjNhf2kmpgkGn_EXTuh8zZDWK8_vsfO_l_j223RMHtlIHz86DQiiNlLMdf3LyF7JsmK69KiOnmrsgc7zdOdcgRZIVHrU5boVEA.jpg",
+        "thumbnail_path": "channels/no_itsmyturn/media/3c3f43bac7a4311d94268038.jpg",
+        "thumbnail_sha256": "b16a8355cb348b8b2e2bde9fa64792ec796d2871ae4b571a72865e182ee4d4e5",
+        "permalink": "https://t.me/no_itsmyturn/110839"
+      }
     },
     {
       "id": "no_itsmyturn/110838",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "3 <a href=\"?q=%23USAF\">#USAF</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87B8.png')\"><b>🇺🇸</b></i> tankers and a BACN bird over <a href=\"?q=%23Iraq\">#Iraq</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87AEF09F87B6.png')\"><b>🇮🇶</b></i> <br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689401159126069248\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "3 #USAF 🇺🇸 tankers and a BACN bird over #Iraq 🇮🇶 TWEET LINK",
       "media": [
@@ -289,8 +341,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/no_itsmyturn/110838",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/E8jwynxAxyxxXMROlsD_ymt9ft5cOUT5cjZt_-yYCfeCVtGJmptiUuicHrKLErg-oOk7HOLP5tUdfPo_zxEgDxR-roPZ9J-zwlWltw_H0p3wsvEp5yD-kk_rsvxea8HbaOw-0cbA0j5S3AETpVok-_MMAoV_RIXFdmtQcQv-TDyDQLeO3N2glUZuc_tEfXod856ngwwGe6c2KYtvTa81umlawiVpPeMbz9MbTuTsW7Z-qAvnz57K9eqlFkycQNUwkUnUiBVaLcgkWynyDwJxlGRRKxexLqmXBZyhb2-7PPKrAZoVeQpvS4V6olEMkn1-x5YZY-wvoKucw1OXoVPB9g.jpg",
           "thumbnail_path": "channels/no_itsmyturn/media/062a3fc6ab1bad2754ff9aa1.jpg",
+          "thumbnail_sha256": "933a5db704e95a6c781ea6ee8637cb843516e5dd6aae4299a5c04b335dcd5959",
           "duration_label": null,
           "aspect_ratio": 0.7500000000000188
         }
@@ -308,13 +362,15 @@
       "views_label": "2.09K",
       "posted_at": "2023-08-09T22:20:05+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110838"
+      "permalink": "https://t.me/no_itsmyturn/110838",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110836",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "والعالم <br> <a href=\"?q=%23%D8%A7%D9%84%D9%83%D8%AD%D8%A7%D9%84%D9%87\">#الكحاله</a> <br>------<br>This tweet is not in English, Translation:<br>------<br>And the world<br> <a href=\"?q=%23Al\">#Al</a> -Kahla<br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689353074693873665\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "والعالم #الكحاله ------ This tweet is not in English, Translation: ------ And the world #Al -Kahla TWEET LINK",
       "media": [],
@@ -322,15 +378,17 @@
       "views_label": "1.58K",
       "posted_at": "2023-08-09T19:08:58+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110836"
+      "permalink": "https://t.me/no_itsmyturn/110836",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110837",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
-      "body_html": "والعالم   #الكحاله  ------ This tweet is not in English, Translation: ------ And the world  #Al -Kahla  TWEET LINK",
-      "plain_text": "والعالم #الكحاله ------ This tweet is not in English, Translation: ------ And the world #Al -Kahla TWEET LINK",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
+      "body_html": "<b>Above post has a quote, quoted tweet is:</b><br><a href=\"https://vxtwitter.com/MarioLeb79/status/1689352854480232453\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Quoted Tweet</a>",
+      "plain_text": "Above post has a quote, quoted tweet is: Quoted Tweet",
       "media": [],
       "reactions": [
         {
@@ -341,13 +399,24 @@
       "views_label": "1.64K",
       "posted_at": "2023-08-09T19:08:58+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110837"
+      "permalink": "https://t.me/no_itsmyturn/110837",
+      "reply": {
+        "channel_username": "no_itsmyturn",
+        "post_id": "110836",
+        "author_name": "Aleph (no_itsmyturn)",
+        "preview_text": "والعالم #الكحاله ------ This tweet is not in English, Translation: ------ And the world #Al -Kahla TWEET LINK",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/no_itsmyturn/110836"
+      }
     },
     {
       "id": "no_itsmyturn/110834",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Hezbollah officially confirmed the death of one of their terrorists <br><br><a href=\"?q=%23Lebanon\">#Lebanon</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i> <br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689352001006477314\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "Hezbollah officially confirmed the death of one of their terrorists #Lebanon 🇱🇧 TWEET LINK",
       "media": [],
@@ -364,27 +433,40 @@
       "views_label": "1.5K",
       "posted_at": "2023-08-09T19:04:48+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110834"
+      "permalink": "https://t.me/no_itsmyturn/110834",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110835",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
-      "body_html": "Hezbollah officially confirmed the death of one of their terrorists   #Lebanon <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i>   TWEET LINK",
-      "plain_text": "Hezbollah officially confirmed the death of one of their terrorists #Lebanon 🇱🇧 TWEET LINK",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
+      "body_html": "<b>Above post has a quote, quoted tweet is:</b><br><a href=\"https://vxtwitter.com/no_itsmyturn/status/1689351720441143297\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Quoted Tweet</a>",
+      "plain_text": "Above post has a quote, quoted tweet is: Quoted Tweet",
       "media": [],
       "reactions": [],
       "views_label": "1.44K",
       "posted_at": "2023-08-09T19:04:48+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110835"
+      "permalink": "https://t.me/no_itsmyturn/110835",
+      "reply": {
+        "channel_username": "no_itsmyturn",
+        "post_id": "110834",
+        "author_name": "Aleph (no_itsmyturn)",
+        "preview_text": "Hezbollah officially confirmed the death of one of their terrorists #Lebanon 🇱🇧 TWEET LINK",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/no_itsmyturn/110834"
+      }
     },
     {
       "id": "no_itsmyturn/110833",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "I assume Sayyad Hassan bunker will soon show up on a video and will say that truck was not ours but for privacy reasons we asked the army to block the cameras to not get even close to it. <br><br>Remember this workshop?<br><br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689347815258857472\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "I assume Sayyad Hassan bunker will soon show up on a video and will say that truck was not ours but for privacy reasons we asked the army to block the cameras to not get even close to it. Remember this workshop? TWEET LINK",
       "media": [],
@@ -397,13 +479,15 @@
       "views_label": "1.49K",
       "posted_at": "2023-08-09T18:48:11+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110833"
+      "permalink": "https://t.me/no_itsmyturn/110833",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110832",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Al Jadeed: <br>Lebanese army is preventing the press to get close to the overturned truck which is believed to be a Hezbollah ammunition truck. <br><br>Al-Hadath camera was also blocked by the Lebanese army. <br><br><a href=\"?q=%23Lebanon\">#Lebanon</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i> <br><br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689345031553830912\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "Al Jadeed: Lebanese army is preventing the press to get close to the overturned truck which is believed to be a Hezbollah ammunition truck. Al-Hadath camera was also blocked by the Lebanese army. #Lebanon 🇱🇧 TWEET LINK",
       "media": [
@@ -411,8 +495,10 @@
           "kind": "video",
           "asset_url": "https://t.me/no_itsmyturn/110832",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": null,
           "thumbnail_path": null,
+          "thumbnail_sha256": null,
           "duration_label": "0:00",
           "aspect_ratio": 1
         }
@@ -430,13 +516,15 @@
       "views_label": "1.24K",
       "posted_at": "2023-08-09T18:37:07+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110832"
+      "permalink": "https://t.me/no_itsmyturn/110832",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110831",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "Shit's hitting the fan slowly in <a href=\"?q=%23Lebanon\">#Lebanon</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i> <br><br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689343818154250240\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "Shit's hitting the fan slowly in #Lebanon 🇱🇧 TWEET LINK",
       "media": [
@@ -444,8 +532,10 @@
           "kind": "video",
           "asset_url": "https://t.me/no_itsmyturn/110831",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/azZ_5kY0ImBQ8DuzhvXt9b__ZbuU9Ahy6JaudBUzS8AQwcWwn5lyaYrSvjPJoBjP0myxxm4bkRA4nUR0a832nYHN4S2sq1TqnAlznhG798C8MD15bp_C608WqRGXvGWHpAJ_jEeCTRVUZ6MLYOn7AFVKVRdIAS8Jk0yr8daAWEjIKxKwFMT5Vh9V7BIRC7h1R81IJxMn0kRBMfM-MWhbeoK4myS7uKSNBN0HVL6dsiQDNE0Mj1CWy1VT8S6JLdhvzDFzIczd_0N1-sDvK_YWFu7C16oBSMKKkpCmApiIiKDFRh7avvQw2LTFUL3Y5SvsU2hsDoc4aDzfW8BbZjCHRQ",
           "thumbnail_path": "channels/no_itsmyturn/media/3c6690045defe419829d3a0f.jpg",
+          "thumbnail_sha256": "222431da1d77b4002a85c3595f24abba5d8fcfee1d3f65df9e631d97a83dfe34",
           "duration_label": "0:11",
           "aspect_ratio": 0.7500000000000188
         }
@@ -459,13 +549,15 @@
       "views_label": "1.08K",
       "posted_at": "2023-08-09T18:32:20+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110831"
+      "permalink": "https://t.me/no_itsmyturn/110831",
+      "reply": null
     },
     {
       "id": "no_itsmyturn/110830",
       "author_name": "Aleph (no_itsmyturn)",
       "author_photo_url": "https://cdn1.telesco.pe/file/Mgm5sJDLBqMmtCYCeMPaXTrrBqFvuomToJDaWemvI5Bnl80hDCy4aQm2tBg4w04rJdsGJvRvIaZwjrxwx-jxMD2TNp7NQXpx-poXczNVJAP8pzvfWGTftelzn-_AAPpdXbMyHK8WaiKS2Zi2CV2sV6f0hsRztnPVjZ2GlP4vHhsSbx8UV7TiEaP8tqYyU71m2gCRygZDH-1Sps2m5W_JR75Vbtq-G2f_xeqGFuVHovK_PqTjll8nQMyziS7disvkwJbmCgFW1kzEjyklsfpEwl4BAFhnKwkig166GqZYZ81DEnDmln8Ny_SVxqjeKPSMo4b53bCVv-7O_WZDa3BGgg.jpg",
       "author_photo_path": "channels/no_itsmyturn/media/ad2c11ef2dd6e40639246caf.jpg",
+      "author_photo_sha256": "5182e926a8844416952ea2dd27b5691ed6f887f7e8381884bbf926b8b7f259fa",
       "body_html": "2 killed during the clashes between Hezbollah terrorists and people of Kahaleh after Hezbollah's weapon truck got overturned. <br><a href=\"?q=%23Lebanon\">#Lebanon</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B1F09F87A7.png')\"><b>🇱🇧</b></i> <br><br><br><a href=\"https://twitter.com/no_itsmyturn/status/1689343315479564288\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TWEET LINK</a>",
       "plain_text": "2 killed during the clashes between Hezbollah terrorists and people of Kahaleh after Hezbollah's weapon truck got overturned. #Lebanon 🇱🇧 TWEET LINK",
       "media": [
@@ -473,8 +565,10 @@
           "kind": "video",
           "asset_url": "https://t.me/no_itsmyturn/110830",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/MPI_702oR4FhhNsIyF2LPLdrCO3HaJ7CPnv_nSWPXajI2-4vIEKhFEgyHl9fQZKTPHZPWoJgBk0Of824bsO30r-SFl-apJ0eEaOtuk5riuUtO8kSnE0SJSSCebIFOLpcRRCh-t3Vna4b4uM5n9d9nRNxdWTgLSbSEVr8aynFkl7lg4sVUFdF2ZmJtCIN-JYeAaiP4uDgXhQEtUfj6a3JdHn5yb8_NwyYELhoa3N8bCO2PLh41jJ-xIgAZgu9_htQrEpsvKUKYEnM9jOo7tF3N6ZMPLsJ34xFerqJrZC-HzttnmKyoenYFy2tZrRo-I3rj_CF-9K57T_3rCULV4eovQ",
           "thumbnail_path": "channels/no_itsmyturn/media/78d2e5e06622cf08f56ca528.jpg",
+          "thumbnail_sha256": "24c1823937bbe64498265807988e53666c72f7490d567a2c02c8e7dde706934e",
           "duration_label": "0:28",
           "aspect_ratio": 0.7500000000000188
         }
@@ -492,7 +586,8 @@
       "views_label": "1.07K",
       "posted_at": "2023-08-09T18:30:19+00:00",
       "edited": false,
-      "permalink": "https://t.me/no_itsmyturn/110830"
+      "permalink": "https://t.me/no_itsmyturn/110830",
+      "reply": null
     }
   ]
 }

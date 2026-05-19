@@ -1,12 +1,13 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-19T20:36:46.035Z",
+  "fetched_at": "2026-05-19T20:37:36.563Z",
   "channel": {
     "username": "telegram",
     "title": "Telegram News",
     "description_html": "The official Telegram on Telegram. Much recursion. Very Telegram. Wow.",
     "photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
     "photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+    "photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
     "subscriber_count": "10.6M"
   },
   "posts": [
@@ -15,6 +16,7 @@
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "For all the features from this update, like <b>statistics</b> and <b>custom limits</b> for polls, <b>streaming text</b> for bots, <b>silent scheduled messages</b> and more –&nbsp;check out the full blog:<br><a href=\"https://telegram.org/blog/ai-bot-revolution-11-new-features\" target=\"_blank\" rel=\"noopener\">https://telegram.org/blog/ai-bot-revolution-11-new-features</a><br><br>May Features<br><a href=\"https://t.me/telegram/440\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/441\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> • <a href=\"https://t.me/telegram/443\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/444\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> •&nbsp;<b>More</b>",
       "plain_text": "For all the features from this update, like statistics and custom limits for polls, streaming text for bots, silent scheduled messages and more – check out the full blog: https://telegram.org/blog/ai-bot-revolution-11-new-features May Features 1 • 2 • 3 • 4 • 5 • More",
       "media": [],
@@ -22,13 +24,15 @@
       "views_label": "715K",
       "posted_at": "2026-05-14T16:09:50+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/445"
+      "permalink": "https://t.me/telegram/445",
+      "reply": null
     },
     {
       "id": "telegram/444",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Expanded Emoji and Sticker Search.</b> Over <b>100 million</b> emoji and stickers can now be found via the <b>search function</b> in the sticker panel.<br><br>May Features<br><a href=\"https://t.me/telegram/440\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/441\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> • <a href=\"https://t.me/telegram/443\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<b>5</b> •&nbsp;<a href=\"https://t.me/telegram/445\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Expanded Emoji and Sticker Search. Over 100 million emoji and stickers can now be found via the search function in the sticker panel. May Features 1 • 2 • 3 • 4 • 5 • More",
       "media": [
@@ -36,8 +40,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/444",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/A-u6THav9N_cUGL7F33f-6gT2kalofELBc8grYDAbxOP89e8CrkbwWgU0YryRR2s3TYVKM4hr71HDfk1sPLR70Rb5x3XBS8KbtoeiQ49pA-HNjxD1NT1vmXA2G5m9eS3tK0IQwOiVrYohRjvg8uYIM-3MCAk0mDZsjmpO5CZtCMEuirjRJd4-OMvpqYdUErqAaXTTakavxAuej9Pie5JEx5jmHuptCLOJcKLKZavFqtLgvYGpBMgNiQYWhYBbwI2k-LbKnbvuooCKIrc_lz3FKhdgSAqibMGME7xUSLf0wim1jkEG8FvaJ1drYdD0OpUFNFVUfBk-QmEXcBKwQxvgQ",
           "thumbnail_path": "channels/telegram/media/8a1d6c92b5a1ed9422cb89ea.jpg",
+          "thumbnail_sha256": "c4ffb5f2b8476e1de261b2cd92841b8d939475f78b2a8f67d286665adfefec0a",
           "duration_label": "0:14",
           "aspect_ratio": 1
         }
@@ -46,13 +52,15 @@
       "views_label": "610K",
       "posted_at": "2026-05-14T16:09:39+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/444"
+      "permalink": "https://t.me/telegram/444",
+      "reply": null
     },
     {
       "id": "telegram/443",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Custom AI Styles.</b> The <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">text editor</a> allows anyone to use <b>their own prompts</b> to build <b>unique styles</b>.<br><br>Each custom style has a <b>shareable link</b> so others users can add it to their editor.<br><br>May Features<br><a href=\"https://t.me/telegram/440\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/441\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> • <b>4</b> •&nbsp;<a href=\"https://t.me/telegram/444\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> •&nbsp;<a href=\"https://t.me/telegram/445\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Custom AI Styles. The text editor allows anyone to use their own prompts to build unique styles. Each custom style has a shareable link so others users can add it to their editor. May Features 1 • 2 • 3 • 4 • 5 • More",
       "media": [
@@ -60,8 +68,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/443",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/oDaX6C6YFS4G7GqeQ_KnLFR2wCjk8Rps2qYwevotlWUJBdbH0OLaqvL87tc0Po3mXJe8PLuCVDqxT6cZWAfOOMtYmQTM_l6EiIkr0RkFRCXDFIyc8jq1OiV1f8PF6J-ENmdpF08RNJfU2OADgNph2HD6pp1TCyU-HDf7-z8jd0oH3Iu9wutkIJXjxMrNLxZCjUrpOFWFo4GN3hV7R7t0XfL_djEVTe1fH5A__rQ8gHnoEmI4lzU3FL77MzOFD1u0Oig4NJ3OTIwX5VgKCYsiAJ8o__LIOIWAOrAEETOmTYW4PA6qLNwzsENA2RRI1AEuH05l3B185mKNd9J672h5sA",
           "thumbnail_path": "channels/telegram/media/4f6b87461addde98b8e5d203.jpg",
+          "thumbnail_sha256": "6ffa71d79fa515c93fde1c9d13470aa322d79df1a569f95ea892833d5b6f3368",
           "duration_label": "0:16",
           "aspect_ratio": 1
         }
@@ -70,13 +80,15 @@
       "views_label": "454K",
       "posted_at": "2026-05-14T16:09:19+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/443"
+      "permalink": "https://t.me/telegram/443",
+      "reply": null
     },
     {
       "id": "telegram/442",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Chat Automation in Profiles.</b> Every Telegram user can now <b>connect a bot </b>to their profile – and let it <b>respond to messages</b> on their behalf.<br><br>May Features<br><a href=\"https://t.me/telegram/440\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/441\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<b>3</b> • <a href=\"https://t.me/telegram/443\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/444\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> •&nbsp;<a href=\"https://t.me/telegram/445\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Chat Automation in Profiles. Every Telegram user can now connect a bot to their profile – and let it respond to messages on their behalf. May Features 1 • 2 • 3 • 4 • 5 • More",
       "media": [
@@ -84,8 +96,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/442",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/p2Lhj968VX2W9tZORZu9b96csD92TsKlfNvzcQbLg9ce2QRvYzl4VMvd-vgd7Vv1FpfGT_kqkMqhkvfwo02EidiUBOAXLN7Zxpu2Gfx8QCBkHjLs-y4210Iq2O5yFz_ds4RuFLinGUYc_85JNMExLMMw31gHF3hZpF3Ryka3uxis-AFb23Gc_0bFaag3x0wgHBK4MH9X4o6m0bHRsOhUufgcwFOU6Olr-hEMjDmoH1GkrNrfCWdwfciD2FxkkH6zsBWmqno-ZhQ7oQGnX9iaI1IGuB-4hWRl_5qTKJYXGoBmRfK4EVqyoQImwguc-hFYCM8GAm3rZSglXh9bHGb_2w",
           "thumbnail_path": "channels/telegram/media/6dfa2fb179dae92b273c1cdd.jpg",
+          "thumbnail_sha256": "09c5a4261ba4d2c26bd18fdedae48abb7a2bbee0ccc4eaceb25b5fb05812da08",
           "duration_label": "0:09",
           "aspect_ratio": 1
         }
@@ -94,13 +108,15 @@
       "views_label": "445K",
       "posted_at": "2026-05-14T16:08:52+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/442"
+      "permalink": "https://t.me/telegram/442",
+      "reply": null
     },
     {
       "id": "telegram/441",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Bot-to-Bot Communication.</b> Bots are now able to respond to <b>other bots</b>, not just users.<br><br>AI enthusiasts can utilize this to create <b>custom workflows</b> with <b>autonomous agents</b>.<br><br>May Features<br><a href=\"https://t.me/telegram/440\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <b>2</b> •&nbsp;<a href=\"https://t.me/telegram/442\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> • <a href=\"https://t.me/telegram/443\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/444\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> •&nbsp;<a href=\"https://t.me/telegram/445\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Bot-to-Bot Communication. Bots are now able to respond to other bots, not just users. AI enthusiasts can utilize this to create custom workflows with autonomous agents. May Features 1 • 2 • 3 • 4 • 5 • More",
       "media": [
@@ -108,8 +124,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/441",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/YqilK7F_Qp_rzjZ1xfH_cMYSeJZa7rkuNF7RFo2v3wEjrEZ5hCgryJRzzyZMA-u7WmDczOEMgaDpP6dGYCSwjTusyS9Z3-SGCv7Qew7MBLb-3eaWfOGNBtUpqXKLT43n7G8-EhOpP3UFSxAt1kv14FT7ADEEkdpUhkgFpvBxYqzjjCHrzzRkl6e2x1Szws_jSYo098g1xJk9GZ2yaMMD5yJ7cyE9hkRnEKQDhRd8khS1iTy_iLg9kOiE-S1E3mr4GP2CnQHFkPX_I0JnLVdf5L6QAFfKeNcq-fjmQh3ageLM0AxONS-bkjAAF914b_tDd3YLk-GMQktkZ8goLl9NYw",
           "thumbnail_path": "channels/telegram/media/88ed493b39ffd842ddc43260.jpg",
+          "thumbnail_sha256": "e9ae361fd1095eca60e371eef0d21cb750da37cb00b64385fbe9cddc0ede7809",
           "duration_label": "0:06",
           "aspect_ratio": 1
         }
@@ -118,13 +136,15 @@
       "views_label": "572K",
       "posted_at": "2026-05-14T16:08:31+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/441"
+      "permalink": "https://t.me/telegram/441",
+      "reply": null
     },
     {
       "id": "telegram/440",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Guest Bots.</b> Telegram bots can now be accessed directly in <b>groups and 1-on-1 chats</b> to answer questions and <b>perform tasks</b>.<br><br>May Features<br><b>1</b> • <a href=\"https://t.me/telegram/441\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> • <a href=\"https://t.me/telegram/443\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/444\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> •&nbsp;<a href=\"https://t.me/telegram/445\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Guest Bots. Telegram bots can now be accessed directly in groups and 1-on-1 chats to answer questions and perform tasks. May Features 1 • 2 • 3 • 4 • 5 • More",
       "media": [
@@ -132,8 +152,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/440",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/nMrryPz6_-bUrB1VI1Y24KK2BxFgifIkF0RNWwINZFDZVksQdEMUO-wX_L0XmV8CJ41XWFOVj47TWuSO5AyZX0MH0MX1_211XfMFB0oV2AFWqcToARpny62k-HyC6lGs1m62ldU6YHz3mPZO0Gaj_GZjW3HwiFB23clAXh3YLIl9DtsN70wNgtGS-btlG241f75jFr_bCPifKIejgwW3ihdegGe6sRMwEBYcLL3d5TMTxXHlwtKvBJAtKb_Bl5lGSQJQNiDfvK9MYTIZ6NC_Wwt4dbgEGWhEL4jaJJJWFgr9es2d0GonSHGFZtRLzr8KsV0n_gzaueWOjF5-J-_R1Q",
           "thumbnail_path": "channels/telegram/media/fcc78615e5852b6b2ff090ec.jpg",
+          "thumbnail_sha256": "b4349c3a4312d2b877092ba41a357e25dfe602bdb85f3581a1a35e35eedf3046",
           "duration_label": "0:07",
           "aspect_ratio": 1
         }
@@ -142,13 +164,15 @@
       "views_label": "581K",
       "posted_at": "2026-05-14T16:08:06+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/440"
+      "permalink": "https://t.me/telegram/440",
+      "reply": null
     },
     {
       "id": "telegram/439",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "For all the features from this update, like <b>scanning documents</b> on iOS, extra <b>security alerts</b> to protect user privacy, and even more options for polls – check out our blog:<br><a href=\"https://telegram.org/blog/ai-editor-mighty-polls-and-more\" target=\"_blank\" rel=\"noopener\">https://telegram.org/blog/ai-editor-mighty-polls-and-more</a><br><br>March Features<br><a href=\"https://t.me/telegram/429\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/430\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> • <a href=\"https://t.me/telegram/434\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">6</a> • <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">7</a> • <a href=\"https://t.me/telegram/436\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">8</a> • <a href=\"https://t.me/telegram/437\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">9</a> • <b>More</b>",
       "plain_text": "For all the features from this update, like scanning documents on iOS, extra security alerts to protect user privacy, and even more options for polls – check out our blog: https://telegram.org/blog/ai-editor-mighty-polls-and-more March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [],
@@ -156,13 +180,15 @@
       "views_label": "2.02M",
       "posted_at": "2026-04-09T07:02:48+00:00",
       "edited": true,
-      "permalink": "https://t.me/telegram/439"
+      "permalink": "https://t.me/telegram/439",
+      "reply": null
     },
     {
       "id": "telegram/438",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Managed Bots.</b> Anyone can now <b>utilize AI bots</b> to easily develop, launch and <b>manage their own bot</b> – with no coding required.<br><br>More information for developers is <a href=\"https://core.telegram.org/bots/features#managed-bots\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">available here</a>.<br><br>March Features<br><a href=\"https://t.me/telegram/429\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/430\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> • <a href=\"https://t.me/telegram/434\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">6</a> • <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">7</a> • <a href=\"https://t.me/telegram/436\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">8</a> • <b>9</b> • <a href=\"https://t.me/telegram/438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Managed Bots. Anyone can now utilize AI bots to easily develop, launch and manage their own bot – with no coding required. More information for developers is available here. March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [
@@ -170,8 +196,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/438",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/hfNknWSxeq2-7X72f_8PwlDrQZYd6gHvZzXo2jskJGhgU11gQG97Tf2sK3cGnBbnUw6NVPIV97A_IJEHzNo2IKo-OV3kpgco9fx4VFXGjhVeFdVFvJNDml9M0GVNzvRP2g3vP9davF5bM3GJmJJMGkFacNzXR13D_tAKUFs79mz-6cifNmbOndAWHfwkcMZhLqRCNwSTmN-JPko4pPquWNY9Y8EQI4_SLfCmxw87il-Tcwba8TRpR9xP-Oskx9mYvoUnRFEyUhVTbrkUqPNPjuDRtTgnaTwoImOJp_JhhoWtkx0mmiXuvl2kHLLyVJr3CK4omF2M2a1cSXwrGNE8Pw",
           "thumbnail_path": "channels/telegram/media/b50991f81bfd55e974114e99.jpg",
+          "thumbnail_sha256": "ce1619de4f6cecd424dde455cc5753085d2d8fca3f56966e24751329bf686074",
           "duration_label": "0:12",
           "aspect_ratio": 1
         }
@@ -180,13 +208,15 @@
       "views_label": "1.49M",
       "posted_at": "2026-04-09T07:02:39+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/438"
+      "permalink": "https://t.me/telegram/438",
+      "reply": null
     },
     {
       "id": "telegram/437",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Live and Motion Photos.</b> Telegram now <b>natively supports</b> Live and Motion Photos.<br><br>Android and iOS users can send <b>animated images</b> right from their camera –&nbsp;which are viewable in <b>any app</b>.<br><br>March Features<br><a href=\"https://t.me/telegram/429\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/430\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> • <a href=\"https://t.me/telegram/434\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">6</a> • <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">7</a> • <b>8</b> • <a href=\"https://t.me/telegram/437\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">9</a> • <a href=\"https://t.me/telegram/438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Live and Motion Photos. Telegram now natively supports Live and Motion Photos. Android and iOS users can send animated images right from their camera – which are viewable in any app. March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [
@@ -194,8 +224,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/437",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/ThogkaM_hl48zQoyKlpYnsC-DuIg1hJCJgy_ebicNdL72oDmmNgLYKq__kF-Flh2bpQifsVjvSNhTJ7LbOa3d2z7Q6sH1hvQ3_RYTgWOG46czIkSZAgYG48wb0gd7AP3M1xDeOYbCeJ19gt1UebmmGIufWwex-g0m7esRwp8elWkKGkORS34FF3zv-F1ZuIh3NxSZrGKyT2qgwEWGSyVRIHSk7A7Dk5NlOyQVINlhJUwIa5-cQIkyYBeSSmcPMUXROyZAaMqj9byVwLliWAPZk-d0K5iFMAEGCmQ0VcD4p7vR3m4N8jUG-KqnUGl2dv7LDPuTYtrQmH2uY48ViP1wA",
           "thumbnail_path": "channels/telegram/media/30897554d6497a7d62caf99a.jpg",
+          "thumbnail_sha256": "e45abd246139a627aa2d591b60bcea1360cf609f967521f06a27869faa8a85c5",
           "duration_label": "0:10",
           "aspect_ratio": 1
         }
@@ -204,13 +236,15 @@
       "views_label": "1.02M",
       "posted_at": "2026-04-09T07:02:22+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/437"
+      "permalink": "https://t.me/telegram/437",
+      "reply": null
     },
     {
       "id": "telegram/436",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>10+ Features for Polls.</b> You can now <b>attach media</b> in polls, set a <b>specific duration</b> for the poll, let users <b>suggest new options</b> – <a href=\"https://telegram.org/blog/ai-editor-mighty-polls-and-more#10-new-features-for-polls\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">and more</a>.<br><br>March Features<br><a href=\"https://t.me/telegram/429\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/430\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> • <a href=\"https://t.me/telegram/434\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">6</a> • <b>7</b> • <a href=\"https://t.me/telegram/436\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">8</a> • <a href=\"https://t.me/telegram/437\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">9</a> • <a href=\"https://t.me/telegram/438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "10+ Features for Polls. You can now attach media in polls, set a specific duration for the poll, let users suggest new options – and more. March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [
@@ -218,8 +252,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/436",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/qsabMn7TOOgw-9M41Ic3T6sN7LOZ6X3MgzRdMmP_lXzo6w1COo-3B-8FQ6KxSmbLW1wdbbs4Z_Cc0YI7CQH2_w60SGt5xMO3dqAw0qVCTOOdxMY_d2CJkfnDcwI79ueK8rYWT4WiQvmNZWiKvtmtplIG1d0gSrfRbgsXjfkjiLz0UQ1CmP6XWhun1xxgkxzeQy1LmMxs6jn8_9rMMTSdl_ezrOSmCtrWeyLKWyQXY5zPMcHIzehmUalkrUTSscTXy_MQsdNTPebbP7WHS8LNLPBMai60Q4zj54F1S6J0iBgc6k33hE6Tf4Oxsvu35jOsyFMQg2qYShJm_ljqOEhg8w",
           "thumbnail_path": "channels/telegram/media/885df2f793671019429c0d69.jpg",
+          "thumbnail_sha256": "0d75de089f628a2921c959f9646f6dea3c14d8cb049b82304106b0389e06cbef",
           "duration_label": "0:20",
           "aspect_ratio": 1
         }
@@ -228,13 +264,15 @@
       "views_label": "977K",
       "posted_at": "2026-04-09T07:02:04+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/436"
+      "permalink": "https://t.me/telegram/436",
+      "reply": null
     },
     {
       "id": "telegram/435",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>AI Text Editor.</b> The message bar now has a built-in editor that can instantly <b>fix grammar</b>, translate your text or rewrite it in <b>several styles</b>:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA49D.png')\"><b>🤝</b></i> Formal<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAF.png')\"><b>🎯</b></i> Short<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D96.png')\"><b>🍖</b></i> Tribal<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F97BF.png')\"><b>🗿</b></i> Zen<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F95AF.png')\"><b>🕯</b></i> Biblical<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BC.png')\"><b>💼</b></i> Corp<br><br>Telegram AI features are <b>100% private</b> and optional –&nbsp;powered by the <a href=\"https://cocoon.org/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Cocoon AI Network</a>.<br><br>March Features<br><a href=\"https://t.me/telegram/429\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/430\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> • <b>6</b> • <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">7</a> • <a href=\"https://t.me/telegram/436\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">8</a> • <a href=\"https://t.me/telegram/437\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">9</a> • <a href=\"https://t.me/telegram/438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "AI Text Editor. The message bar now has a built-in editor that can instantly fix grammar, translate your text or rewrite it in several styles: 🤝 Formal 🎯 Short 🍖 Tribal 🗿 Zen 🕯 Biblical 💼 Corp Telegram AI features are 100% private and optional – powered by the Cocoon AI Network. March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [
@@ -242,8 +280,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/435",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/iKSdB5ogdie2Jzor_xN96qZJKN1QdF5eR0KKecRnzDn5dPaNMotKYSFFi-4tbG8JLc27g522nNTeIDJhVqh8E0z_QlNHxPGiOBm9CZMDF9_P6mHh4v1rVhQkHf0GzxE-R57Tqyptyk0NmyYWILwA16--sJv9dIFPrXVOCQVFHkFLAgeIIOiXCOIiQDTbAFIH8Lnp6c_uId3u_5i9Wii449aHYYjFou39hBRvIGp4Gj88bZAK_8n9kLhTgGHLLOQ88vvPc19srpQeWKGP2_Rbxqwh72czhGgSWi1W7SkVXFKssCGkbCztdks2dH6wHko8ZBtR50vUU2saMcIyifti-A",
           "thumbnail_path": "channels/telegram/media/dd5ad3d9ee98024db2ff2579.jpg",
+          "thumbnail_sha256": "f006ed0069f7cb9bd031949a08ac1fd296095127d4a31263a88f402314eb8438",
           "duration_label": "0:19",
           "aspect_ratio": 1
         }
@@ -252,13 +292,15 @@
       "views_label": "1.01M",
       "posted_at": "2026-04-09T07:01:44+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/435"
+      "permalink": "https://t.me/telegram/435",
+      "reply": null
     },
     {
       "id": "telegram/433",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "For all the features from this update, like <b>instant stickers</b> from photos, <b>editing stickers and GIFs</b>, a new platform to <b>log in to apps</b> with Telegram and more –&nbsp;check out the full blog:<br><br><a href=\"https://telegram.org/blog/member-tags-disable-sharing-and-more\" target=\"_blank\" rel=\"noopener\">https://telegram.org/blog/member-tags-disable-sharing-and-more</a><br><br>March Features<br><a href=\"https://t.me/telegram/429\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/430\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<b>5</b> • <a href=\"https://t.me/telegram/434\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">6</a> • <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">7</a> • <a href=\"https://t.me/telegram/436\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">8</a> • <a href=\"https://t.me/telegram/437\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">9</a> • <a href=\"https://t.me/telegram/438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "For all the features from this update, like instant stickers from photos, editing stickers and GIFs, a new platform to log in to apps with Telegram and more – check out the full blog: https://telegram.org/blog/member-tags-disable-sharing-and-more March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [],
@@ -266,13 +308,15 @@
       "views_label": "2.56M",
       "posted_at": "2026-03-02T17:34:24+00:00",
       "edited": true,
-      "permalink": "https://t.me/telegram/433"
+      "permalink": "https://t.me/telegram/433",
+      "reply": null
     },
     {
       "id": "telegram/432",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Date Formatting. </b>The <i>'Date'</i> formatting option lets you set a <b>specific date and time</b> to add events to a calendar or <b>set a reminder</b>.<br><br>Date formatting <b>automatically adapts</b> to each recipient's <b>local date and time</b>.<br><br>March Features<br><a href=\"https://t.me/telegram/429\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/430\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<b>4</b> •&nbsp;<a href=\"https://t.me/telegram/433\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> • <a href=\"https://t.me/telegram/434\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">6</a> • <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">7</a> • <a href=\"https://t.me/telegram/436\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">8</a> • <a href=\"https://t.me/telegram/437\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">9</a> • <a href=\"https://t.me/telegram/438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Date Formatting. The 'Date' formatting option lets you set a specific date and time to add events to a calendar or set a reminder. Date formatting automatically adapts to each recipient's local date and time. March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [
@@ -280,8 +324,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/432",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/fC-Xd_bISsmKUTtaTcP_zSWEDMCCjXnlepHWueKQQsM-LWB24Vi8klQlt0CZgCJ20P2allgmCpZe4roP1NdQIMK-4WXYQSX0DzQS5R29jEXEMNzzgi-PmgPf5s84rxVmhnK4NXYQxxZ89JA08mVRckTMq0fcdk6KHFnATE_GsPwdfUTbF2SN0yK1bdeN7Rpe0RJXE6snkojjxiQ0wtjrnBPNvtLgKwmX6eN-79Dhoa9eFPUEPey764r4kWiWUsO8T1q4TQ1zU0j1qQVg3qYXtidhnk_e6o7njXuC4YbdjHRWbQaohNp90NjFp310ChGPWQNT78IfY13L4W9qr-HyLw",
           "thumbnail_path": "channels/telegram/media/1eb2d11756d130606b81f7a1.jpg",
+          "thumbnail_sha256": "a5f0f10b8597580c73a75f3960bcebd92803c944610274a4e2e31cddbd3b8f46",
           "duration_label": "0:10",
           "aspect_ratio": 1
         }
@@ -290,13 +336,15 @@
       "views_label": "1.76M",
       "posted_at": "2026-03-02T17:34:22+00:00",
       "edited": true,
-      "permalink": "https://t.me/telegram/432"
+      "permalink": "https://t.me/telegram/432",
+      "reply": null
     },
     {
       "id": "telegram/431",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Captions for GIFs.</b> When selecting a GIF in the GIF panel, you can now <b>add a caption</b> directly to it – and send it all as <b>one message</b>.<br><br>March Features<br><a href=\"https://t.me/telegram/429\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <a href=\"https://t.me/telegram/430\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<b>3</b> •&nbsp;<a href=\"https://t.me/telegram/432\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> • <a href=\"https://t.me/telegram/434\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">6</a> • <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">7</a> • <a href=\"https://t.me/telegram/436\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">8</a> • <a href=\"https://t.me/telegram/437\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">9</a> • <a href=\"https://t.me/telegram/438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Captions for GIFs. When selecting a GIF in the GIF panel, you can now add a caption directly to it – and send it all as one message. March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [
@@ -304,8 +352,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/431",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/qHAADD1tYmp3gabUrT04CPIPOtGCr28ceBTnJEe6QZKZfYWz2MEDP1Xl1gpmhSM_vNQgCwEx1KWS_eWQRBx5rMJICmCxVrxa6Z0_GWDi-9HGDFoBq6UPL8abWhI4a-d7NradKlljCefQ0cFkcGljW-jd2USs5kjAfmeUyRXBWxZkpzWhdfd4_QJLkG5Bp4nUTKyzIspc2PyhPxQGqA3Z4irFFz9esIp-4zc9v_049SYYTahp5n0oUFv6rnRq3BQhEN-mnjv4gBXbVD75uZujgYMnNmM0isHJyklKHO8MBiI6aoHuhfHhiEjWiVsVXnI72rtZy1_jns_i3lTLe1h_7w",
           "thumbnail_path": "channels/telegram/media/cb74759b69c634ce5977d7fb.jpg",
+          "thumbnail_sha256": "6b5ef34e71e006f420054928d37394e8d503a1043eaaa521aa12ee1603fab254",
           "duration_label": "0:08",
           "aspect_ratio": 1
         }
@@ -314,13 +364,15 @@
       "views_label": "1.4M",
       "posted_at": "2026-03-02T17:34:08+00:00",
       "edited": true,
-      "permalink": "https://t.me/telegram/431"
+      "permalink": "https://t.me/telegram/431",
+      "reply": null
     },
     {
       "id": "telegram/430",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<tg-emoji emoji-id=\"6028338546736107668\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i></tg-emoji> <b>Disable Sharing in Private Chats.</b> Subscribers of <a href=\"tg://settings/premium\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Telegram Premium</a> can now <b>disable sharing</b> in any 1-on-1 chat.<br><br>This <b>restricts forwarding</b> or copying messages and <b>prevents screenshots</b> or saving media from the chat.<br><br>March Features<br><a href=\"https://t.me/telegram/429\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> • <b>2</b> •&nbsp;<a href=\"https://t.me/telegram/431\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> • <a href=\"https://t.me/telegram/434\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">6</a> • <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">7</a> • <a href=\"https://t.me/telegram/436\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">8</a> • <a href=\"https://t.me/telegram/437\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">9</a> • <a href=\"https://t.me/telegram/438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "⭐️ Disable Sharing in Private Chats. Subscribers of Telegram Premium can now disable sharing in any 1-on-1 chat. This restricts forwarding or copying messages and prevents screenshots or saving media from the chat. March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [
@@ -328,8 +380,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/430",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/A1qj0O7EvVSOjSUXO_yPnTJdS0hSNTbz1bbE-k4PY31GCi0NoUC1rkXGV-n0_YHdC2b4DRUwgZ2Wp_fW6OBuvxxnuGfjmxXMHFldBT-kgdH-U3TpRUQVAclWe7y3QuqW-bR5m2DIhQ81q2IgF86fEuas_nzmH_DRoWKnSiUUGZKLQpu-ftyh11iv911t3mNhqqBoVPkkCqjb5LYCe82-sohEMjjPoIn7cf_xJbipydrP4hgrwcIZjUrO4cXJN9tmZwOsHcix8U41tLeYzjOYAEBDUc0GVnjRarSQZfjKznwvrI6vVoUbDJzK2EafcKmVhpMva0GHwOy_tGERJJ2_dQ",
           "thumbnail_path": "channels/telegram/media/9332ecf33d60d9f6cc488daf.jpg",
+          "thumbnail_sha256": "41e776fcf7a2de62b376354db381cf959f5c3be904aeba79e92e9ee7bdda5d7b",
           "duration_label": "0:13",
           "aspect_ratio": 1
         }
@@ -338,13 +392,15 @@
       "views_label": "1.35M",
       "posted_at": "2026-03-02T17:33:52+00:00",
       "edited": true,
-      "permalink": "https://t.me/telegram/430"
+      "permalink": "https://t.me/telegram/430",
+      "reply": null
     },
     {
       "id": "telegram/429",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Member Tags.</b> Members in group chats can now <b>add a tag</b> next to their name – to <b>highlight roles</b> and <b>show their interests</b>.<br><br>March Features<br><b>1</b> • <a href=\"https://t.me/telegram/430\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">5</a> • <a href=\"https://t.me/telegram/434\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">6</a> • <a href=\"https://t.me/telegram/435\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">7</a> • <a href=\"https://t.me/telegram/436\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">8</a> • <a href=\"https://t.me/telegram/437\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">9</a> • <a href=\"https://t.me/telegram/438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Member Tags. Members in group chats can now add a tag next to their name – to highlight roles and show their interests. March Features 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [
@@ -352,8 +408,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/429",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/BsVx_R5TTqRCFgqMON3fkVbOQ0fCkQSR7udA-UyLrN6z6gw4BVMsu6gCD6ca1bC6E55LHlwp1KyK7OclThxIBW6zPkL3iBkCZZKLrkOCniU7usyCGJhadjBHHXAT6Eei6JmyYNqGEIwBU1IUFZtskNSSNpFZFKwOakv3QTS5BuCrqPxtF4ZEhqyvp4wP7kq3848fwZeaYS8QZrg8n0fiQp8g4oaAgxLh6FcllBYgziyq33XBo4bMdBmxhLS4xqZyaNyqz74b9lzh4OV5m6Ck3_lK05WYVjFBUoR1pkvkdWE_C2eNMcUaNq6b1Mxv0uqc6M3glLLppxvLqyiTWAvrIA",
           "thumbnail_path": "channels/telegram/media/a34b341cf1ee31ee40575b26.jpg",
+          "thumbnail_sha256": "468853bcba05f1534c079af0c48dfa005c5ce260357ef8e81ff7bc254876d22c",
           "duration_label": "0:10",
           "aspect_ratio": 1
         }
@@ -362,13 +420,15 @@
       "views_label": "1.3M",
       "posted_at": "2026-03-02T17:33:34+00:00",
       "edited": true,
-      "permalink": "https://t.me/telegram/429"
+      "permalink": "https://t.me/telegram/429",
+      "reply": null
     },
     {
       "id": "telegram/428",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "For all the features from this update, like a new way to <b>seamlessly appoint admins</b> in groups –&nbsp;check out our blog:<br><a href=\"https://telegram.org/blog/crafting-android-design-and-more\" target=\"_blank\" rel=\"noopener\">https://telegram.org/blog/crafting-android-design-and-more</a><br><br>February Features<br><a href=\"https://t.me/telegram/425\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> •&nbsp;<a href=\"https://t.me/telegram/426\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/427\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<b>More</b>",
       "plain_text": "For all the features from this update, like a new way to seamlessly appoint admins in groups – check out our blog: https://telegram.org/blog/crafting-android-design-and-more February Features 1 • 2 • 3 • More",
       "media": [],
@@ -376,13 +436,15 @@
       "views_label": "2.52M",
       "posted_at": "2026-02-10T17:44:32+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/428"
+      "permalink": "https://t.me/telegram/428",
+      "reply": null
     },
     {
       "id": "telegram/427",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Colored Buttons for Bots.</b> Bot developers can now <b>assign colors and emoji </b>to their buttons – to make interfaces <b>more intuitive</b> or to <b>highlight specific actions</b>.<br><br>February Features<br><a href=\"https://t.me/telegram/425\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> •&nbsp;<a href=\"https://t.me/telegram/426\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<b>3</b> •&nbsp;<a href=\"https://t.me/telegram/428\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Colored Buttons for Bots. Bot developers can now assign colors and emoji to their buttons – to make interfaces more intuitive or to highlight specific actions. February Features 1 • 2 • 3 • More",
       "media": [
@@ -390,8 +452,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/427",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/tW0scApH70XqCPDLPiaf2xkNkRGNsQ6PIyh5LPOeUl7mMoI_d2wmkiPpHB7t17sU-LDLUbeiJ7VQP6gcSbOhw_ILI1VxN2gCQLyPZUQHGID2TPHQxyIUKtMk5dnGo3aZ6sZgy8im2s2XiMOC_w8AoWm7LVy-sIsZoHInExZexTtGTpK9n6P9piEOYCvuF6oZCfILu0IRs0t3hbzIWxJKcyPfAYsnu8G1_jfY9JmdkgRLNjCqMSojjMGyslT_FRtwhngcNjYnCgfEhmAQ9eLkMA4piytqw_E1l8tODRkHqvkW_tJywUl3RnfQYEKFNE7x8O0EMBOtobg1e3BI2rA8dA",
           "thumbnail_path": "channels/telegram/media/8d5c3720fdc04da04f3751c9.jpg",
+          "thumbnail_sha256": "127be96fd2af1c06e6ee9177b1ff58a97549c34b3a8f243881a83b4f105e4936",
           "duration_label": "0:03",
           "aspect_ratio": 1.28
         }
@@ -400,13 +464,15 @@
       "views_label": "2.22M",
       "posted_at": "2026-02-10T17:44:22+00:00",
       "edited": true,
-      "permalink": "https://t.me/telegram/427"
+      "permalink": "https://t.me/telegram/427",
+      "reply": null
     },
     {
       "id": "telegram/426",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>Gift Crafting.</b> Collectible gifts can now be combined to create <b>exclusive new versions</b> – with stunning artwork and <b>unique effects</b>.<br><br>February Features<br><a href=\"https://t.me/telegram/425\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> •&nbsp;<b>2</b> •&nbsp;<a href=\"https://t.me/telegram/427\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/428\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "Gift Crafting. Collectible gifts can now be combined to create exclusive new versions – with stunning artwork and unique effects. February Features 1 • 2 • 3 • More",
       "media": [
@@ -414,8 +480,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/426",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/CpIjTDUEDhg3Trfd_I8bJJuhDHK7IHomOonUKMThvoCecJPB5KjkN9ob2xY79WaeoFTsRRRIfJc3YpcErJBu1lJ1R-qj9TmDiTpRtFyrE_pJcxe3dOMm-HexeZFOoqHIIJsJQ7OxX5HlFa199S36GmHQLPB2cuQllWPxeDo_IDpK-KPYt7iNLgJK_e8MO9mC-oZsc1MmwT5SyW4KbquR_P_mlW7hvyVBZ4R-hXZbEv6BnRlXoAUydf_lEGqkw7s0CKf8zaAr7KvDEi6ZmHwC1yM-t3ub2EK6YbxwEoBlZdwKgnE7rpazuGd7oMLatLgZwHsLo64j_ZIVJZB3YDiwnw",
           "thumbnail_path": "channels/telegram/media/2ab5499ad55c3a42c89d13eb.jpg",
+          "thumbnail_sha256": "c8059f61517618891ed84d5b0ab0f8f7a09871f22db68175ad64767ba8aebf62",
           "duration_label": "0:14",
           "aspect_ratio": 1
         }
@@ -424,13 +492,15 @@
       "views_label": "1.67M",
       "posted_at": "2026-02-10T17:44:05+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/426"
+      "permalink": "https://t.me/telegram/426",
+      "reply": null
     },
     {
       "id": "telegram/425",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/tk-kV7v-Qm5HWJ3M0-Kvss9B13DCK6-ak2YfyP8rvZe0qxldExT77gasgawOMQlYTQpWab4yB9zxS2WgWU9eaLzgXTJXnhmZXpxA44_QQKEQlz5z3f2j27FIa8uE-dFwqgE9VWJWC8WC5tpZi0li_tVqBTHZdg1sJ2jfGAK3khBEzFEE2KOFSobkDsfIL1kEytHHGl7pBBrcHCm3-EGQ2c8zeXtT3468QV5j1SfW85L-KfOmtxie44AuwFNZNPmycuubfDHYs2KC3M3is68PV-EZ39nxBUfl9fezsXiUL0Dda4H9XfD3aK6_uNc1DGTwWNTB8lmmfoVN_3-gOSsKMQ.jpg",
       "author_photo_path": "channels/telegram/media/64ade1dc6a720dc282795013.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
       "body_html": "<b>New Design.</b> Telegram for Android has a <b>fully redesigned interface </b>that makes navigation and search <b>even quicker</b> and <b>more responsive</b>.<br><br>On iOS, our developers added Liquid Glass to the <b>media viewer</b>, new <b>preview panels</b> for sticker and emoji packs, plus updated <b>context menus</b> in profiles and chats. <br><br>February Features<br><b>1</b> •&nbsp;<a href=\"https://t.me/telegram/426\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/427\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> •&nbsp;<a href=\"https://t.me/telegram/428\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
       "plain_text": "New Design. Telegram for Android has a fully redesigned interface that makes navigation and search even quicker and more responsive. On iOS, our developers added Liquid Glass to the media viewer, new preview panels for sticker and emoji packs, plus updated context menus in profiles and chats. February Features 1 • 2 • 3 • More",
       "media": [
@@ -438,8 +508,10 @@
           "kind": "video",
           "asset_url": "https://t.me/telegram/425",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/D10JdaKzSQMHYwaJeaVz2K7Nfl7kDr5qPwqK8p3zPMpu70nAN1oNO2tscrM0xNhEs8NEuSjj-UqV6uYT_BiZ7R1dY9dv6MkquJ5QgANJeAhDn2dd1-VFlXL20t1dHqA36VfSPnN3MbnkqGDbO_lEbmaEnbAIm5Y-Tl-mAEA5JE__hU4Jjk8Dkt8qmQFqG58snLOcjUzPuejfHxX8fbjo1j4QDX29UUwm0al6aIqCyGuJ4XXjMJkXO4nzlX78xOLdew75-dPqkt_WYWHDkvjBEOZSy7loYsarKldnJmxWwpa8Wb2kFa-Cfm-xFJwWuGO2SR-Ubue_wbKVR5ApOO21Xw",
           "thumbnail_path": "channels/telegram/media/96bb3626c578065e5fd41187.jpg",
+          "thumbnail_sha256": "c28f92dd8d40e310bb1791bda6cfb5893873c3b1f55234dbf2e3242a3869d4e6",
           "duration_label": "0:16",
           "aspect_ratio": 1
         }
@@ -448,7 +520,8 @@
       "views_label": "1.59M",
       "posted_at": "2026-02-10T17:43:45+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/425"
+      "permalink": "https://t.me/telegram/425",
+      "reply": null
     },
     {
       "id": "telegram/424",
@@ -462,7 +535,8 @@
       "views_label": "3.16M",
       "posted_at": "2026-01-07T18:18:01+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/424"
+      "permalink": "https://t.me/telegram/424",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37"
     },
     {
       "id": "telegram/423",
@@ -479,14 +553,16 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/TR7pUDUY5fmWHaPeZPMVxGHMf7c3gPWhtqKO3UZz9l7dboqy1P2XRXSD-OwUarwRqrfafX2oxFxeULw4f8cb-4rjV89iOrwfntzqvDD1E5QtoCJubyHDygrXTrU2L9dTHFvO1qmYgmOXcF8SM6CM1cYLGKlGE8lsDef_PAwqPp8qsqJX1a4-lBi3N-eT5Z9qqzozR0Le_5w5IExcYa26m4GlEEHCJRFztBGF8k3ai8WZt1fWzHNdNrXF8dkGhgqFB2eomenlFMxQ7x6c6KAxs9ROE64Sb6DzYJzTNROrwk4zZm-DENr_lgukl1x6DcNv3B0IQbwnIBbYej7o229_DQ",
           "thumbnail_path": "channels/telegram/media/5d7af5365b3ea46017b140cc.jpg",
           "duration_label": "0:14",
-          "aspect_ratio": 1.7777777777777777
+          "aspect_ratio": 1.7777777777777777,
+          "thumbnail_sha256": "d0381d7260093b25acf8dc76992a0a3d6ac1749df439cfe8c261b70a33e54713"
         }
       ],
       "reactions": [],
       "views_label": "2.47M",
       "posted_at": "2026-01-07T18:17:53+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/423"
+      "permalink": "https://t.me/telegram/423",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37"
     },
     {
       "id": "telegram/422",
@@ -503,14 +579,16 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/JmCWtnhMwzlDVK7WWIYYPbPJginPaKxsZZLHkqWXcXpINy4YGtxUf7Qee31zhwvYv79Dq06st_ki-5eIUcTbBsocw_axZb8caD1sCd07RFB5kRYmgfGPM9inGxarVNyfz0JKQIEhHuou0m7Y3DHSy-UmKEVbqQm0tqhY1RKwRoRbtgVJbK6RqSo9R7COFqe7cKkwAWzrWO3IY7x5AjAi15V8-XYevV9G6pShSPQkiCUz6scx45vy61Ne4rnzadAuZxjbV09anorlfHEhOpsrtgNxyLPTN331CMCiq3hl-_uQ58l_U2oRjUcfbSqLV3FabMFdHKBLPK5cNgkpP2cDyg",
           "thumbnail_path": "channels/telegram/media/135aadcc3787154a42e29e95.jpg",
           "duration_label": "0:13",
-          "aspect_ratio": 1
+          "aspect_ratio": 1,
+          "thumbnail_sha256": "a556678bde98298b9ab28729fd85564c06ff397c2e39c469284e2d7bf798a1a8"
         }
       ],
       "reactions": [],
       "views_label": "2.18M",
       "posted_at": "2026-01-07T18:17:34+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/422"
+      "permalink": "https://t.me/telegram/422",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37"
     },
     {
       "id": "telegram/421",
@@ -527,14 +605,16 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/uTrucJvDVd2Fn7HMWpcJIBWhfB-lQYxW3C9laVEIKBxY9JbYq3DztPZxXJhP0GEz_KRxt42Izrqh9INrjA_6O0gdsCyzDsl2eGod8Tr-ZkEUcpx7VYb1czCBUm5_h8L22fUaMkrFQkHHhUCe0It1uej-A_KuYGLoz2J5NWQPZodI5uHmB7YL7zMipuDZp3kCAfGiU-MHehBFh0NLBK86EoVBFn9jJEsKh4avYUU8liJLZiArmYK7X1OXzbn-8JInBKsrUDDIyJtvte1YwJtsCH-gcxCCcUH-EsWPm12AZQV_7ongYgrziB9898yPT_Q70S-03LA9oUknwB_dB8YB6Q",
           "thumbnail_path": "channels/telegram/media/3e2d46dd9d1e527ca4176d7a.jpg",
           "duration_label": "0:06",
-          "aspect_ratio": 1
+          "aspect_ratio": 1,
+          "thumbnail_sha256": "2d2b155abdfa6d435a52b16f306ef80786bf34a1e25905d97bb8b7b20a770863"
         }
       ],
       "reactions": [],
       "views_label": "1.69M",
       "posted_at": "2026-01-07T18:17:14+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/421"
+      "permalink": "https://t.me/telegram/421",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37"
     },
     {
       "id": "telegram/420",
@@ -548,7 +628,8 @@
       "views_label": "2.83M",
       "posted_at": "2025-12-15T08:22:11+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/420"
+      "permalink": "https://t.me/telegram/420",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37"
     },
     {
       "id": "telegram/419",
@@ -565,14 +646,16 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/TAJ2u1475TEPJI7yCTuR5vVY1EOBEtVzrxIlgDzmCnXNWQk4XxVLUKag2b8q3WFJs07q_cAg1gRJ6ZrK09VlEnNQYuGio21x37-Os3IL69texgdjlE0vM5BoZLDOTmDsjcx3oEeYRJVdvR9FYm7aveXqA8SJNV_LYP2mlR0SXEiuq5p0kVj1D1jW9dp-BLWLcohvG4xFooDQhQicV84ADim2ttxTDwpEwik4mE0pDZZz5HdCk65a1DzA0KNwiYu9TgAU0PumOHgMq2nPVZ0aDdwAhyPhlD_tGnZlWwkybMfgjMngIt44sBSICTlvmhkxucuGndPIr9d1JkgVgb8EVA.jpg",
           "thumbnail_path": "channels/telegram/media/f0888c50c008c7cd8109bc13.jpg",
           "duration_label": null,
-          "aspect_ratio": 1
+          "aspect_ratio": 1,
+          "thumbnail_sha256": "e8474f7d832e02bb6215f4c646bc04f4708d76da8be3b2dff36990e1b915a749"
         }
       ],
       "reactions": [],
       "views_label": "2.43M",
       "posted_at": "2025-12-15T08:21:52+00:00",
       "edited": false,
-      "permalink": "https://t.me/telegram/419"
+      "permalink": "https://t.me/telegram/419",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37"
     }
   ]
 }

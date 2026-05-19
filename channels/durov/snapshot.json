@@ -1,12 +1,13 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-19T20:36:38.164Z",
+  "fetched_at": "2026-05-19T20:37:28.427Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
     "description_html": "Founder of Telegram.",
     "photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
     "photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+    "photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
     "subscriber_count": "11.4M"
   },
   "posts": [
@@ -15,6 +16,7 @@
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5296691786985527033\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AA.png')\"><b>💪</b></i></tg-emoji> Anyone can now prompt their own text transformation style — for example, <b>“Gym Bro”</b> — and turn any message into motivational protein poetry.<br><br><tg-emoji emoji-id=\"5283134250269287209\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AA.png')\"><b>💪</b></i></tg-emoji> Then share the style with friends so they can reply like gym bros too.<br><br><tg-emoji emoji-id=\"5190415054629002671\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA490.png')\"><b>🤐</b></i></tg-emoji> All fully confidential. No AI-related privacy leaks.",
       "plain_text": "💪 Anyone can now prompt their own text transformation style — for example, “Gym Bro” — and turn any message into motivational protein poetry. 💪 Then share the style with friends so they can reply like gym bros too. 🤐 All fully confidential. No AI-related privacy leaks.",
       "media": [
@@ -22,8 +24,10 @@
           "kind": "video",
           "asset_url": "https://t.me/durov/518",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/l6mrorLP2wuykakkKQDEkdzDOy5eJwuvtpv1PNPwLtX0bWoaguyMxN6VNb4vVkoo0GvdbIxMPTF6OWhVaGgqfOaE8_uOHhYzYqT_pVXbk3VDToCpOSP6XM9H93XJXtuQwMYjAvxi9yqzhNRwIXSYtVhv_E3gyMzuWnJfgfQ5pxUS2-vWv0wwMp-qtByoIsQvWwPKM6FBN9BpFC-yA1jorwrRFngmKSqvIB33PlfTcTwwcGoux-x3V7Sg4_6tRMAWgAJxUtXp9BrY8bxs0AAgCHSNIgm3faKKv4qOQL4Hm8M8QgNGr1rPpQuiBP07DcWc5AI254o0-oNSbtixHZe0UA",
           "thumbnail_path": "channels/durov/media/55eb26f780554fbcf1a82cd3.jpg",
+          "thumbnail_sha256": "5fe2d91e07c971587702cd2a6506a304f3dac7382be2ce9be6c38b576ff2c58f",
           "duration_label": "0:16",
           "aspect_ratio": 0.837499999999978
         }
@@ -35,27 +39,29 @@
         },
         {
           "emoji": "💎",
-          "count": "9.64K"
+          "count": "9.66K"
         },
         {
           "emoji": "💎",
-          "count": "3.95K"
+          "count": "3.96K"
         },
         {
           "emoji": "💎",
           "count": "3.07K"
         }
       ],
-      "views_label": "398K",
+      "views_label": "399K",
       "posted_at": "2026-05-19T18:02:53+00:00",
       "edited": true,
-      "permalink": "https://t.me/durov/518"
+      "permalink": "https://t.me/durov/518",
+      "reply": null
     },
     {
       "id": "durov/517",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5927026418616636353\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A0.png')\"><b>🧠</b></i></tg-emoji> AI devs asked for this — and we delivered.<br><br><tg-emoji emoji-id=\"5372981976804366741\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i></tg-emoji> Bots can now talk to other bots on Telegram.<br><br><tg-emoji emoji-id=\"5443038326535759644\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji> Autonomous agents now have a communication layer humans can follow.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> <a href=\"https://core.telegram.org/bots/features#bot-to-bot-communication\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Start building</a>!",
       "plain_text": "🧠 AI devs asked for this — and we delivered. 🤖 Bots can now talk to other bots on Telegram. 💬 Autonomous agents now have a communication layer humans can follow. 🛠 Start building!",
       "media": [
@@ -63,8 +69,10 @@
           "kind": "video",
           "asset_url": "https://t.me/durov/517",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/dGszEjSlwTXNeSC9Vp4g4cNW9131aZ6jvbqhueCg9Q0DkH9xztWES9lPWd-51yO95fY4wV8ZcIPv32SjF8hAiQXA2KqiqL8KhFtmdTu6C0hDDjj6cdcAbm390pf5kwCu3iNbYnmaiF9w-zljzxQ4_iN4QFgoohhVO-pUU206NuQ3yqrHJBK2yYZiX6t8iXKLFkUKXlay7UZLVerxP334GUv7Vk1JbAlaausf6KC_rLK689PEv_ENV9Q2tFhb0e0rYM4YJBoqCTrWu25MhX5Qy9RJ88Du0ZdkbkwhdkeARVIQO4ASEFkuQ9io_D9OMBrVjsJ8ZNBH1IBms1iN0Gnj6Q",
           "thumbnail_path": "channels/durov/media/14c3a56b35e4d526d6a88aa3.jpg",
+          "thumbnail_sha256": "12a9d6fdcf36c3334cfe47e3a5ea5f8d86d195a1f7e79b4c0c3b1271e4b0ac26",
           "duration_label": "0:06",
           "aspect_ratio": 0.8440944881889859
         }
@@ -90,13 +98,15 @@
       "views_label": "870K",
       "posted_at": "2026-05-18T14:56:21+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/517"
+      "permalink": "https://t.me/durov/517",
+      "reply": null
     },
     {
       "id": "durov/516",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5399847211989246390\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')\"><b>🎁</b></i></tg-emoji>",
       "plain_text": "🎁",
       "media": [],
@@ -121,13 +131,15 @@
       "views_label": "1.51M",
       "posted_at": "2026-05-17T14:55:50+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/516"
+      "permalink": "https://t.me/durov/516",
+      "reply": null
     },
     {
       "id": "durov/515",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5409008750893734809\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8F86.png')\"><b>🏆</b></i></tg-emoji> We just awarded <b>$52,420</b> to the winners of the Telegram <a href=\"https://t.me/contest/453\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Art Contest</a>.<br><br><tg-emoji emoji-id=\"5431456208487716895\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i></tg-emoji> The participants did an amazing job with the MiniDurov collectibles.<br><br><tg-emoji emoji-id=\"5471952986970267163\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F928E.png')\"><b>💎</b></i></tg-emoji> Their skills and ideas will enrich Telegram’s TON-based NFT ecosystem.",
       "plain_text": "🏆 We just awarded $52,420 to the winners of the Telegram Art Contest. 🎨 The participants did an amazing job with the MiniDurov collectibles. 💎 Their skills and ideas will enrich Telegram’s TON-based NFT ecosystem.",
       "media": [
@@ -135,8 +147,10 @@
           "kind": "video",
           "asset_url": "https://t.me/durov/515",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/HWtZnbdp_ic533UwZmvDWaXS5znU7ZYaFHt1-jGv9Nm8chjviVjlEmNkZx4HwlLU01GgxRuZAWBxVSoNM28yyA5mIk9h0Ie3EUQCOuyEFCOCmKvYGCP57BlxM2QltFA0RHzISA28hA_uz6N7ZAYIfThxAHEACgFoyOo1uz-HfTExA22Amb_m_huWoDX2YJKIqBc22iBHuuoprU4Dg_AkxjIUhxilsVapAH2d1keW8srRsGMUY7lLHYEZ3PnJvWxlQ0thnd6bqWDXx5FdBLy9CWVmR7mDt4gjE15lnh69G76d7NWfQP4cxGaUFKL8-Inubbc-_7Ktrx6WxNIvraVrkw",
           "thumbnail_path": "channels/durov/media/fd6725c0452c63bb06781213.jpg",
+          "thumbnail_sha256": "616721a2207b983b6864c1f6ce105965e3ae250af40043da4348e0acb6004822",
           "duration_label": "0:14",
           "aspect_ratio": 1
         }
@@ -166,13 +180,15 @@
       "views_label": "1.39M",
       "posted_at": "2026-05-17T14:44:56+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/515"
+      "permalink": "https://t.me/durov/515",
+      "reply": null
     },
     {
       "id": "durov/514",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5449495646656537594\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87A6F09F87AA.png')\"><b>🇦🇪</b></i></tg-emoji> Dubai is full of traffic and crowds again. Already missing the Iranian fireworks — they helped clear the city of the easily impressed.<br><br>The UAE’s air defenses proved excellent under fire. For 0% tax, we get better protection than Europeans paying 50%.",
       "plain_text": "🇦🇪 Dubai is full of traffic and crowds again. Already missing the Iranian fireworks — they helped clear the city of the easily impressed. The UAE’s air defenses proved excellent under fire. For 0% tax, we get better protection than Europeans paying 50%.",
       "media": [],
@@ -201,13 +217,15 @@
       "views_label": "1.52M",
       "posted_at": "2026-05-16T13:57:49+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/514"
+      "permalink": "https://t.me/durov/514",
+      "reply": null
     },
     {
       "id": "durov/513",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<b>$100,400</b> just went to the <b>15 winners</b> of the <a href=\"https://t.me/contest/452\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">TON Consensus Challenge</a>. <br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A0.png')\"><b>🧠</b></i> </b>The smartest engineers on the planet — some armed with loyal AI sidekicks — helped us maximize the security of the new consensus mechanism.<br><br><tg-emoji emoji-id=\"5409008750893734809\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8F86.png')\"><b>🏆</b></i></tg-emoji> <a href=\"https://t.me/contest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Telegram contests</a> offer generous prize money — and the only path to joining our engineering team.",
       "plain_text": "$100,400 just went to the 15 winners of the TON Consensus Challenge. 🧠 The smartest engineers on the planet — some armed with loyal AI sidekicks — helped us maximize the security of the new consensus mechanism. 🏆 Telegram contests offer generous prize money — and the only path to joining our engineering team.",
       "media": [],
@@ -236,13 +254,15 @@
       "views_label": "1.66M",
       "posted_at": "2026-05-15T18:14:32+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/513"
+      "permalink": "https://t.me/durov/513",
+      "reply": null
     },
     {
       "id": "durov/512",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5929303365463838232\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F95B5E2808DE29982.png')\"><b>🕵️‍♂️</b></i></tg-emoji> Now you can search 100M+ Telegram stickers and emoji by keyword — in 36 languages.<br><br>Telegram’s AI scans and labels millions of public stickers so you can finally find the exact suspicious frog you need. <tg-emoji emoji-id=\"5846197380373810711\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA494.png')\"><b>🤔</b></i></tg-emoji>",
       "plain_text": "🕵️‍♂️ Now you can search 100M+ Telegram stickers and emoji by keyword — in 36 languages. Telegram’s AI scans and labels millions of public stickers so you can finally find the exact suspicious frog you need. 🤔",
       "media": [
@@ -250,8 +270,10 @@
           "kind": "video",
           "asset_url": "https://t.me/durov/512",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/tTU5xbdmY9hRg9XrraXr2_9ib3kFyxDIWv_oJYyQhHe5m9CuAz6PjWb5qwKMBPsLGMtfIVnFtB2_NPTDmQEDqH2ZCLVxJUker7UQObxxfmtAhd_rOD0mQz0DmDNCTrJ_A8uIsmTPR9BnGxATjdxiaDgO4YwCxg9L4Zbo72E-sbS8NUnWklSkbZL1ugNIF2LtjiLlPhtd743tz7dawWS8P2CR7nNYUB-OsuXXU3f_i_7U4bR2WtOWvkCqLu-ShJJyaZGydyx3LVnLmEUEzMoOHxyguJjy8Z9FRS2FwIQW5W9oUmdH2b4ZD1D9qq1G7XbqHeKR5muix8ObJwnX-Gq7bg",
           "thumbnail_path": "channels/durov/media/e27a9f3d82baea2347e6c770.jpg",
+          "thumbnail_sha256": "2d502ab42ea4d2506639bfdb28c30685dd25198c6e7064d496bd17eba07ea917",
           "duration_label": "0:09",
           "aspect_ratio": 1
         }
@@ -281,13 +303,15 @@
       "views_label": "1.75M",
       "posted_at": "2026-05-14T12:38:57+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/512"
+      "permalink": "https://t.me/durov/512",
+      "reply": null
     },
     {
       "id": "durov/510",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5399898266265475100\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8D.png')\"><b>🌍</b></i></tg-emoji> With 400 validators across 6 continents, TON is one of the most decentralized blockchain networks on the planet. <br><br><tg-emoji emoji-id=\"5431795571033645908\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA791E2808DF09F92BB.png')\"><b>🧑‍💻</b></i></tg-emoji> Telegram becoming the largest validator opened the door for major exchanges and custodians to stake TON without increasing centralization risk.",
       "plain_text": "🌍 With 400 validators across 6 continents, TON is one of the most decentralized blockchain networks on the planet. 🧑‍💻 Telegram becoming the largest validator opened the door for major exchanges and custodians to stake TON without increasing centralization risk.",
       "media": [
@@ -295,8 +319,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/durov/510?single",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/X791m-Ua21x9JXi6JQ9DrWY-wZXCW2T0f1RVkMV73GIk_0yY0vpMEc1c5uYxynpw_WYrgO1CXscID7JPn9Meu9FTrqnVe-NH6vydFPHO9CMhIWzwceg03HS3H5MYw-WPHSxvAd0Ob2LN0pIv6vdUvF-QnYaGSIGce7kaWVWTP6pRqZ2gRmtP2qJoPTbzTZOqYhk3SUS9rC10jbM30gpA0XvD4hzuX7iSiB_5QGe4Mt6yMrTqDqakhjjOwvULNnH2xvWZkWa9EoUWzNrBk56nFje7IhaT4Z0y9cvM1oQ8cv6QgxgZ5AsNpJyfmLkb_cnJhtpRSHW6YRP872v6ace06Q.jpg",
           "thumbnail_path": "channels/durov/media/98cca17a25acc3a66852e3ef.jpg",
+          "thumbnail_sha256": "839d336b90baf945c97d6e62761ebfd0c269940db1fe3bcbe487d8359583a492",
           "duration_label": null,
           "aspect_ratio": 0.7225
         },
@@ -304,8 +330,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/durov/511?single",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/Xnb_3QLJXWVOyV5t-gEgfg46IogNwiAOr3AG-J_BnW9SwTRUJB-oo-RMMWMJxsvvShbG50ETNf_PpeQI0cj8kUYEpwaVH-GGZi573D7GmT9lcydk_4LdWLL3t2KJerCV8uobHbLP3l7O2FW8BalOJlq5sUjGbSp6DdKRhvJr-pY9phPwH5VUGC5lSEj3yRItHKvNpxhah50HGuXgEbHcvkkRc-vE4iLlwg5L2v5kC5rt6tfC2S_ccyDTQOdWsGAmoS6cxUI97geDN-_EQnedVeZOrHr7zvCQ8tXJ-p5r2Pd66Fz5E3XXYW6pAnETu789PhNPrZKl1QOYXzzXksYWSg.jpg",
           "thumbnail_path": "channels/durov/media/6f9b875f726c81d84bc369fc.jpg",
+          "thumbnail_sha256": "5b88f3d903a09e1b80849e7524d86a779ce16beb3b0dc7a2576f7a9b005a0d47",
           "duration_label": null,
           "aspect_ratio": 0.7225
         }
@@ -335,13 +363,15 @@
       "views_label": "2.15M",
       "posted_at": "2026-05-12T17:28:39+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/510"
+      "permalink": "https://t.me/durov/510",
+      "reply": null
     },
     {
       "id": "durov/509",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5389060311430999304\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i></tg-emoji> Developing for TON just became <b>10x faster</b>. The <a href=\"https://ton-blockchain.github.io/acton/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">new toolchain</a> makes smart contracts easy to create, test, and deploy.<br><br>Most importantly, fully AI-ready.<br><br>It replaces TON’s fragmented tooling stack with one developer flow. Start building!",
       "plain_text": "🛠 Developing for TON just became 10x faster. The new toolchain makes smart contracts easy to create, test, and deploy. Most importantly, fully AI-ready. It replaces TON’s fragmented tooling stack with one developer flow. Start building!",
       "media": [],
@@ -370,13 +400,15 @@
       "views_label": "2.08M",
       "posted_at": "2026-05-11T19:32:24+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/509"
+      "permalink": "https://t.me/durov/509",
+      "reply": null
     },
     {
       "id": "durov/508",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5231200819986047254\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i></tg-emoji><b> </b>Channel admins can now run massive polls limited to subscribers or specific countries — making fake-vote inflation much harder.<br><br>Now people in places like Russia can see real results. For example, <a href=\"https://t.me/cb_economics/24591\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">only 5% support internet restrictions</a> — not 52%, as old rigged polls claimed <tg-emoji emoji-id=\"5384214488809490070\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F988F.png')\"><b>😏</b></i></tg-emoji>",
       "plain_text": "📊 Channel admins can now run massive polls limited to subscribers or specific countries — making fake-vote inflation much harder. Now people in places like Russia can see real results. For example, only 5% support internet restrictions — not 52%, as old rigged polls claimed 😏",
       "media": [
@@ -384,8 +416,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/durov/508",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/IJOniCONwDMo05KdCz9i5lLmJbn4nfAusM7Uy1B2A_0Xo8bCjwekkz_cQj2i8pChGUC8LB8mgT5EwIHIGiuPztCCLw8wEoZMngea8NttdUPbw_8OhxFCtw9T8XB02aqUXkOgb5VI6KPUHMKPwT98UJciPoXmlaf88Vi7KSwKV4dnqJ30Hdwv9E4HIgeibVaZRCfdPqHgGTnsdpuAqAiA-Q6kx176EM2efOjA40dzo0LpP6Jwhxnea-WZu0H_XVOM9nfKiYceO_2Q2jgfm7wHlNjmWiZ-uD-E6d5oeo4aBjAQRE9sU9WF0Bpa3dQXd7fvfvZRZE7WkCZ6wIuyspbUKQ.jpg",
           "thumbnail_path": "channels/durov/media/d6bb6c472ca71385593d73d6.jpg",
+          "thumbnail_sha256": "e970ec5ceca7e73409746c981f10b00f2737023836f4831d1c58cbc83cf36d0b",
           "duration_label": null,
           "aspect_ratio": 1.7777777777777777
         }
@@ -415,13 +449,15 @@
       "views_label": "2.31M",
       "posted_at": "2026-05-10T18:42:03+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/508"
+      "permalink": "https://t.me/durov/508",
+      "reply": null
     },
     {
       "id": "durov/507",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA596.png')\"><b>🥖</b></i> The French government <a href=\"https://www.wsj.com/tech/elon-musk-summoned-to-france-to-face-criminal-charges-589acd6c\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">is accusing</a> X and Elon Musk of the very things the French government itself is doing:<br><br>- Illegally collecting <a href=\"https://t.me/durov/500\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">personal data</a><br>- Processing personal data <a href=\"https://t.me/durov/497\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">without proper security</a><br>- <a href=\"https://www.rferl.org/a/spying-france-snowden-us-internet-telephone-eavesdropping/25037453.html\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Extracting data</a> from automated systems<br>- <a href=\"https://www.theguardian.com/world/2013/jul/04/france-electronic-spying-operation-nsa\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Violating the secrecy</a> of electronic communications<br><br>The French government is panicking. They know a major political shift in 2027 will expose their misdeeds. So they’re trying to silence free speech platforms under whatever pretext they think they can get away with.<br><br><tg-emoji emoji-id=\"5305517652721022708\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8A.png')\"><b>✊</b></i></tg-emoji> The free world should stand with Elon and X against this immoral assault by the French state. Telegram supports our brothers and sisters from X in their fight for our freedoms.",
       "plain_text": "🥖 The French government is accusing X and Elon Musk of the very things the French government itself is doing: - Illegally collecting personal data - Processing personal data without proper security - Extracting data from automated systems - Violating the secrecy of electronic communications The French government is panicking. They know a major political shift in 2027 will expose their misdeeds. So they’re trying to silence free speech platforms under whatever pretext they think they can get away with. ✊ The free world should stand with Elon and X against this immoral assault by the French state. Telegram supports our brothers and sisters from X in their fight for our freedoms.",
       "media": [
@@ -429,8 +465,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/durov/507",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/fxK9bfW0sGiEkUl2MNzdCZ6k24j5oDvQhGh-S3CKE1s567fDs6TMmYC-U_H2Xj6w9tUkHudSSzsfnBRcUoJo3qCZ5kOGMtddw10vk9N4dWpFw8uquCRhJNyBovqa36Wh27GG1rwMBIUvGnMW1uFkS6gY4Uz77KzRtATYgs-muCkeM_y2daidFDCXwg40QHjmXAdOqQC_MwLCp7g0sUeiDynrFWykqZmgUJtp5j838RBEZH5pTrycyV9TiyakQIQaJgcwblI5vSzXFfr5eoAOqCgYGTEEctsodaE8X990fb3TJSzcDtLWg9zI7DG42uRkVlfRsZLJvF7VVfSWbp5zDA.jpg",
           "thumbnail_path": "channels/durov/media/168160e76ef3e6ff5efcce2f.jpg",
+          "thumbnail_sha256": "d4e4b040a1a64d4dd83852a354b3a6d27253f6196595fa0a795a665f80ff56f7",
           "duration_label": null,
           "aspect_ratio": 1.0050251256281406
         }
@@ -460,13 +498,15 @@
       "views_label": "2.32M",
       "posted_at": "2026-05-09T22:24:14+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/507"
+      "permalink": "https://t.me/durov/507",
+      "reply": null
     },
     {
       "id": "durov/506",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5409008750893734809\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8F86.png')\"><b>🏆</b></i></tg-emoji> We’ve distributed <b>$75,000</b> among the best designers who imagined a new way to communicate — Telegram Nodes (<a href=\"https://t.me/contest/449\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">see here</a>).<br><br><tg-emoji emoji-id=\"5465602641599930340\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A96.png')\"><b>⚖</b></i></tg-emoji> I joined the judging process and spent 10+ hours reviewing thousands of designs from nearly 200 participants. Great work! <tg-emoji emoji-id=\"5471921242866981303\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918F.png')\"><b>👏</b></i></tg-emoji><br><br><tg-emoji emoji-id=\"5253767677670862169\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F949C.png')\"><b>🔜</b></i></tg-emoji> We’ve now invited the 19 winners to <a href=\"https://t.me/contest/451\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">suggest improvements</a> to existing Telegram features. <br><br><tg-emoji emoji-id=\"5435957248314579621\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i></tg-emoji> We’re looking for people who — like us — have a burning desire to make Telegram better every day, with no exceptions.",
       "plain_text": "🏆 We’ve distributed $75,000 among the best designers who imagined a new way to communicate — Telegram Nodes (see here). ⚖ I joined the judging process and spent 10+ hours reviewing thousands of designs from nearly 200 participants. Great work! 👏 🔜 We’ve now invited the 19 winners to suggest improvements to existing Telegram features. ⭐️ We’re looking for people who — like us — have a burning desire to make Telegram better every day, with no exceptions.",
       "media": [],
@@ -495,13 +535,15 @@
       "views_label": "2.36M",
       "posted_at": "2026-05-09T15:32:17+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/506"
+      "permalink": "https://t.me/durov/506",
+      "reply": null
     },
     {
       "id": "durov/505",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5008248651038852115\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FABB4.png')\"><b>🫴</b></i></tg-emoji> TON is <b>#1 in annual staking rewards</b> among the 50 largest cryptocurrencies. <br><br>And that’s on top of the coin’s price growth — which doubled over the past week.",
       "plain_text": "🫴 TON is #1 in annual staking rewards among the 50 largest cryptocurrencies. And that’s on top of the coin’s price growth — which doubled over the past week.",
       "media": [
@@ -509,8 +551,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/durov/505",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/dKc9RabHTQ2dH1a_xjpe7nblfssj-MWEEua5FZygUQw5ENYAKxdMDofX5r7SNrSEyqoVdbAKiNWNGxALxo-Q-MfBY4LRsAv7NRDjbNIdUC68eKlu3a4vubc_Hk-NcmASipxtfjwE56U13iLioZsg1QS5IMw-ILUeJA5hQzOwjJR6k7plW_g2krq3Ahx2xDQB_dw0YNRNNxHMQU4RFDsjNOvcvG4lYxiFhhgYYWkULlMlRC6QM4uPOv7zTU5ebAFCvyvj-D51lMsVJfqZzx-j5KANj5QKhhaoMtmncQTWSbvnq6OVa1DLS4hVA3YTYjVZTusuAdhERDHZ_fuuuuQhiA.jpg",
           "thumbnail_path": "channels/durov/media/7f1cbc4c5a72f6ed1768e7bd.jpg",
+          "thumbnail_sha256": "71d18b821a5a85d353b0e716a7a959514dc8710154979584149742a3ae02a534",
           "duration_label": null,
           "aspect_ratio": 1.2195121951219512
         }
@@ -540,13 +584,15 @@
       "views_label": "3.3M",
       "posted_at": "2026-05-08T17:41:53+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/505"
+      "permalink": "https://t.me/durov/505",
+      "reply": null
     },
     {
       "id": "durov/504",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "Huge Telegram update — 10 major new features, 200+ improvements. <a href=\"https://telegram.org/blog/ai-bot-revolution-11-new-features\" target=\"_blank\" rel=\"noopener\">https://telegram.org/blog/ai-bot-revolution-11-new-features</a>",
       "plain_text": "Huge Telegram update — 10 major new features, 200+ improvements. https://telegram.org/blog/ai-bot-revolution-11-new-features",
       "media": [],
@@ -575,13 +621,15 @@
       "views_label": "15M",
       "posted_at": "2026-05-07T16:00:22+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/504"
+      "permalink": "https://t.me/durov/504",
+      "reply": null
     },
     {
       "id": "durov/503",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5411520005386806155\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8F81.png')\"><b>🏁</b></i></tg-emoji> TON leads Layer-1 blockchains in finality time. <br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> Sources: <a href=\"https://telegra.ph/Comparison-of-Layer-1-blockchains-by-finalization-time-05-01\" target=\"_blank\" rel=\"noopener\">https://telegra.ph/Comparison-of-Layer-1-blockchains-by-finalization-time-05-01</a>",
       "plain_text": "🏁 TON leads Layer-1 blockchains in finality time. 🔗 Sources: https://telegra.ph/Comparison-of-Layer-1-blockchains-by-finalization-time-05-01",
       "media": [
@@ -589,8 +637,10 @@
           "kind": "video",
           "asset_url": "https://t.me/durov/503",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/eZdzTRftvKczLl6bSphgpymGOZfi8JgI2UbU3oyH8_s0jQsKlUnvfap3GBUS21vjAnd_ujFYlO-Z8tnJmirxUboKVBRlJdE4WDPiOS0fF8AuZPpAMFFDQ_aG3ANvjVKoAz_5U7jy4rOOoFwWRmuE6KRCWt3T0Qvs2yBcKbsAbndjsUxjeh5s8CMIzfjlp1vE995IFVf4JBqt9deKhc_d61CyygA_5WYrVZszz9DTtlO0iRpI-2L9-36N3HwHmM8alejr0dct4sIjL2grBbWsNLe_u1AlHypJjy7_UOdEuANAgOLKpnvctujL4YAdFfbIAEOd8kJS6ynkViUPL-Lajg",
           "thumbnail_path": "channels/durov/media/e895a6100eb38d4a0ab56b5a.jpg",
+          "thumbnail_sha256": "771356efa719610300a9b238fdb99e9dafba85c54e163d95f9d3527fd2d0c5a9",
           "duration_label": "0:29",
           "aspect_ratio": 1
         }
@@ -620,13 +670,15 @@
       "views_label": "13.8M",
       "posted_at": "2026-05-06T15:57:26+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/503"
+      "permalink": "https://t.me/durov/503",
+      "reply": null
     },
     {
       "id": "durov/502",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5471952986970267163\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F928E.png')\"><b>💎</b></i></tg-emoji> Telegram becoming TON’s largest validator strengthens decentralization. <br><br><tg-emoji emoji-id=\"5411197345968701560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji> It lets other major players join the validator pool without centralizing the network — with Telegram as the counterbalance.<br><br><tg-emoji emoji-id=\"5373001317042101552\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9388.png')\"><b>📈</b></i></tg-emoji> More and more TON gets locked in validation as everyone competes for <b>20%+ APR</b>.",
       "plain_text": "💎 Telegram becoming TON’s largest validator strengthens decentralization. ✅ It lets other major players join the validator pool without centralizing the network — with Telegram as the counterbalance. 📈 More and more TON gets locked in validation as everyone competes for 20%+ APR.",
       "media": [],
@@ -655,13 +707,15 @@
       "views_label": "11.3M",
       "posted_at": "2026-05-05T15:46:44+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/502"
+      "permalink": "https://t.me/durov/502",
+      "reply": null
     },
     {
       "id": "durov/501",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5431449001532594346\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></tg-emoji> Fees in TON have <b>dropped 6×</b> — to nearly zero. <br><br><b>Next step</b> — Telegram replaces the TON Foundation as the driving force behind TON and becomes its largest validator. <br><br><tg-emoji emoji-id=\"5341715473882955310\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i></tg-emoji> The focus shifts to <b>tech superiority</b>. <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A9.png')\"><b>🧩</b></i> New <a href=\"http://ton.org/\" target=\"_blank\" rel=\"noopener\"><b>ton.org</b></a>, new <b>dev tools</b>, new <b>performance</b> upgrades. <br><br><tg-emoji emoji-id=\"5433825729060018456\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AD.png')\"><b>🧭</b></i></tg-emoji> <b>Timeline</b> — 2-3 weeks.<br><br><tg-emoji emoji-id=\"5296339823005557585\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FAA99.png')\"><b>🪙</b></i></tg-emoji> This is step<b> 3 </b>of <b>7</b> to <b>Make TON Great Again</b>.",
       "plain_text": "⚡️ Fees in TON have dropped 6× — to nearly zero. Next step — Telegram replaces the TON Foundation as the driving force behind TON and becomes its largest validator. ⚙️ The focus shifts to tech superiority. 🧩 New ton.org, new dev tools, new performance upgrades. 🧭 Timeline — 2-3 weeks. 🪙 This is step 3 of 7 to Make TON Great Again.",
       "media": [],
@@ -690,13 +744,15 @@
       "views_label": "9.87M",
       "posted_at": "2026-05-04T14:54:43+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/501"
+      "permalink": "https://t.me/durov/501",
+      "reply": null
     },
     {
       "id": "durov/500",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<b>41</b> kidnappings of crypto holders in France in <b>3.5</b> months of <b>2026</b>.<br><br>Why?<br><br><tg-emoji emoji-id=\"5222351452189509927\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA596.png')\"><b>🥖</b></i></tg-emoji> French tax officials selling crypto owners' data to criminals (Ghalia C.) + massive tax database leaks.<br><br>Now the same state also wants IDs and private messages of social media users.<br><br>More data =&gt; More leaks =&gt; More victims.<br><br>That’s why Telegram would rather leave the French market than give their corrupt bureaucrats access to private messages.  <tg-emoji emoji-id=\"5357166373917184514\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90B6.png')\"><b>🐶</b></i></tg-emoji>",
       "plain_text": "41 kidnappings of crypto holders in France in 3.5 months of 2026. Why? 🥖 French tax officials selling crypto owners' data to criminals (Ghalia C.) + massive tax database leaks. Now the same state also wants IDs and private messages of social media users. More data => More leaks => More victims. That’s why Telegram would rather leave the French market than give their corrupt bureaucrats access to private messages. 🐶",
       "media": [],
@@ -725,13 +781,15 @@
       "views_label": "7.55M",
       "posted_at": "2026-04-24T19:32:04+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/500"
+      "permalink": "https://t.me/durov/500",
+      "reply": null
     },
     {
       "id": "durov/499",
       "author_name": "Pavel Durov",
       "author_photo_url": "https://cdn4.telesco.pe/file/iY2ptAVLSGQbDK_e8ENHWrn9LJFQqtIqsfmcXrH8y1nJbJGtwiZTn10UGwsfrER4NEbB92sc8G03EM_uriYiSdaJTlm1L_wxY-HJuEb1Rvx0U3uuNTEL-Lmrznf0S5ROVY2AYdZxePT6f16UtOnthw1TXNHb5Y6-zRfGLtIqukgyXsq3qwPuPv60S8AlgsUCCBe8xw2dcCn2U9385enTD8Ivlgl2lRdBh2-t4lvZI1HwRncmG4fYs-MvKQGpAke2_v8WDBeowLKdSGTokG0UgnwndeSVw2wmOR_Bw-U-xIZoYIX_S8DQ82rp-rAh2tWsR3TPjUr0PktGsRLA5ZhEmA.jpg",
       "author_photo_path": "channels/durov/media/6296517e55eb1e6409c5f432.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
       "body_html": "<tg-emoji emoji-id=\"5456140674028019486\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></tg-emoji> In one week, TON fees will drop 6× — to just 0.00039 TON (~$0.0005) per transaction, fixed regardless of network load.<br><br><tg-emoji emoji-id=\"5364112491381006601\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8693.png')\"><b>🆓</b></i></tg-emoji> Soon after most transactions go fully feeless. Zero commission.<br><br><tg-emoji emoji-id=\"5296339823005557585\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FAA99.png')\"><b>🪙</b></i></tg-emoji> <a href=\"https://t.me/durov/482\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">MTONGA</a>",
       "plain_text": "⚡️ In one week, TON fees will drop 6× — to just 0.00039 TON (~$0.0005) per transaction, fixed regardless of network load. 🆓 Soon after most transactions go fully feeless. Zero commission. 🪙 MTONGA",
       "media": [],
@@ -760,7 +818,8 @@
       "views_label": "6.17M",
       "posted_at": "2026-04-23T17:12:59+00:00",
       "edited": true,
-      "permalink": "https://t.me/durov/499"
+      "permalink": "https://t.me/durov/499",
+      "reply": null
     },
     {
       "id": "durov/498",
@@ -777,7 +836,8 @@
           "thumbnail_url": "https://cdn4.telesco.pe/file/NC1WmbUjdrfEj0thd57zPzK4oxsbvnSAL2Bwa78P8dwNj3ioTXcbepmd05LGogEgAL15I7Sns-0w-EXjexUc2paPcM80NOOnkTeNJVMoL49jcH7qxQXyN8pRQQ5GZLFo34HisKMSEqsNyihwZ2ksuh_KsAlrCONghhQ58sSUl0RGVha3Ep-N1EgOC8KEGS2reCSq1RK48cduVwPJcLE_LrJZ3aK-OK5XZlxMFBmZ0EJH1w1M4BmyqR1y0BK8FQx655dCMASiEi5LLp2J6ls1LyprWshvY4zYth-HC5bm20_oeDyEwWGT4xUZpP-C4NCQWFPpfOHCtRIQmNj7tMjieg.jpg",
           "thumbnail_path": "channels/durov/media/a855646946a11fbe30c4689e.jpg",
           "duration_label": null,
-          "aspect_ratio": 1.9885714285714318
+          "aspect_ratio": 1.9885714285714318,
+          "thumbnail_sha256": "7982c9cab3b738b7a07b66870e5c2f04f047efae154813352649153c731bd973"
         }
       ],
       "reactions": [
@@ -805,7 +865,8 @@
       "views_label": "5.2M",
       "posted_at": "2026-04-22T17:06:37+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/498"
+      "permalink": "https://t.me/durov/498",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/497",
@@ -840,7 +901,8 @@
       "views_label": "4.55M",
       "posted_at": "2026-04-20T22:55:10+00:00",
       "edited": true,
-      "permalink": "https://t.me/durov/497"
+      "permalink": "https://t.me/durov/497",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/496",
@@ -875,7 +937,8 @@
       "views_label": "4.21M",
       "posted_at": "2026-04-20T16:25:25+00:00",
       "edited": true,
-      "permalink": "https://t.me/durov/496"
+      "permalink": "https://t.me/durov/496",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/495",
@@ -910,7 +973,8 @@
       "views_label": "4.04M",
       "posted_at": "2026-04-20T00:01:54+00:00",
       "edited": true,
-      "permalink": "https://t.me/durov/495"
+      "permalink": "https://t.me/durov/495",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/494",
@@ -927,7 +991,8 @@
           "thumbnail_url": "https://cdn4.telesco.pe/file/Lm2ES_AMEJklGnT3S1NP8E8xTozJsO0m4SOIF1dFsuNUtvRRZ2rXMNoml5MPQYc32N49_iqX2OB2Y3Pf1-HEYKN-1gzpTv5st0Xq-alCSkqNmbC3pjcZZ48zkhf7fHtBAzjgGQ8bcQ_FcOrSchcDcsYmZzzny7NWvPRjo2koO-iWR_T8kHlssuxX4zGdC9x-ucZRF_Uig3vM55NwU5g1-TKOTsNhocdW1pXz39engRbWkDkCCmzXFjwvj2q58vzaV2SQFQ613THrMBob2oZHXG0HNYqH8RhushzlIyJmq5dgBrAemtVvGzgoMRhcbiUVHGGYFjD5MdqMFUoEiewkcQ",
           "thumbnail_path": "channels/durov/media/7a82b40b4d7924ee88de5ca1.jpg",
           "duration_label": null,
-          "aspect_ratio": 1
+          "aspect_ratio": 1,
+          "thumbnail_sha256": "54cb0c0cbd286ce69de974372fe1770503fac68fff40aed7ebe4258f7a1bdfe8"
         }
       ],
       "reactions": [
@@ -955,7 +1020,8 @@
       "views_label": "3.12M",
       "posted_at": "2026-04-18T23:57:36+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/494"
+      "permalink": "https://t.me/durov/494",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/493",
@@ -972,7 +1038,8 @@
           "thumbnail_url": "https://cdn4.telesco.pe/file/STJ2-70yxGNWD19Z5O17OKMgsY5kRE911k1zMfSUKwJMRsgyVKd3ZFdWXKD8a4SmgmZGCJ7b7loqmug1t_to6PoKSskoxiy-7DlVLjTbokpMhiVYIXG1F1CfcAmtgkB-3ZfkvNxd5024N0Zcp6qouHmOnO3Uej3MoPp-nn6rXOve4wQlQSUPRqgh5E_oL-KfJODpVvXgwhBOKsc8aw1CFGYENh1LB2BqAgtWGQU2uQWFT8bIgEEJuquf3p94wSYoMuFYeqQFbPLMLF25l2d5FQQbS2cD7a1dJU6q1iAUtQy0Lx6Ws-Y_6PxUPsos91xPJ9BQQmDGbpvbbZpsKLKaLQ",
           "thumbnail_path": "channels/durov/media/9e72ab90de96ada89488d416.jpg",
           "duration_label": null,
-          "aspect_ratio": 1
+          "aspect_ratio": 1,
+          "thumbnail_sha256": "94b1f18a452b3cbbb83f91b764fba15de0103fd0d46435a2a71b5bf91a96d7b3"
         }
       ],
       "reactions": [
@@ -1000,7 +1067,8 @@
       "views_label": "2.87M",
       "posted_at": "2026-04-18T00:58:41+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/493"
+      "permalink": "https://t.me/durov/493",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/491",
@@ -1035,7 +1103,8 @@
       "views_label": "2.89M",
       "posted_at": "2026-04-17T02:31:54+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/491"
+      "permalink": "https://t.me/durov/491",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/490",
@@ -1052,7 +1121,8 @@
           "thumbnail_url": "https://cdn4.telesco.pe/file/g8rh_ouMlvmUVU9nsit5udZv7aW8aeM-z0nsuuVF3VSEfqpdeB32oabgHp45QkX0IGJuYM8CtG52mFl0vMfhUlTCtwH69Emh62o7r4oVGIXanKgKBlgrNPXzI2FZbP19y3IdWF7yHA7EZDeAWI1PoHFviD-VO4XKZ5PCiEyXwnCsNhUY6jKABwusv5GwzNZIRR9p1j4kPq6M5S1ecFaDqXkl-BLvvFBVtV4VgfJS0mMawl97faGRlKa1LP_DkvRHJnVJ9wL1EJsaWcR3qWjpGLvs2STxXin1mLvTosQ99nqAnstC7vcsVryJKiWNFDSSXHjFE-nW5iFaR_HTV0eapQ",
           "thumbnail_path": "channels/durov/media/bf76bb147634c4db0e3d5824.jpg",
           "duration_label": "0:10",
-          "aspect_ratio": 1
+          "aspect_ratio": 1,
+          "thumbnail_sha256": "78ed0ff249cd1d58cb14e1815bffabe9151714a6b4580b89aacbf7358d8a0461"
         }
       ],
       "reactions": [
@@ -1080,7 +1150,8 @@
       "views_label": "2.51M",
       "posted_at": "2026-04-15T20:18:53+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/490"
+      "permalink": "https://t.me/durov/490",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/489",
@@ -1097,7 +1168,8 @@
           "thumbnail_url": "https://cdn4.telesco.pe/file/qAIM8eknqQd_EKUkgR6FIBY9kOOiQwqc_EiFQLauunRUbKi5MRmebwtR33tYtD-_RdoGcUDtYT9XFoLKo57OCXTlBIOyyASXwTwu_4N_Y_mctTMHD3Oizp2PvRx8pdDm3qhfkHAcdIuPLMpOizPSD3P0aWh-Hl7vyp3pwcu4snKdcSopnv6X_GOabDG53mMx-GH-58LoT0-nip02V78dUuTPhIPWt47BmG2jfdaSiMnmZpM_d2FJ2DoZs14hfleu0PNGavsaahQSI3NI1eo8pxoJu71hvXvf0whGKaQP1b2Te4-13F-_Wv6AR_bpK6FCQGz-5S-zAiHH52bo4iUdog",
           "thumbnail_path": "channels/durov/media/69fe166551d5d277d3c3679d.jpg",
           "duration_label": "0:09",
-          "aspect_ratio": 1
+          "aspect_ratio": 1,
+          "thumbnail_sha256": "16fbb815556a8040872ed6a53d720eb8227645d9c42cfa9269c2b856e508bf51"
         }
       ],
       "reactions": [
@@ -1125,7 +1197,8 @@
       "views_label": "2.59M",
       "posted_at": "2026-04-15T01:20:29+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/489"
+      "permalink": "https://t.me/durov/489",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/488",
@@ -1160,7 +1233,8 @@
       "views_label": "4.58M",
       "posted_at": "2026-04-13T21:25:34+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/488"
+      "permalink": "https://t.me/durov/488",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/487",
@@ -1195,7 +1269,8 @@
       "views_label": "3.16M",
       "posted_at": "2026-04-12T15:25:09+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/487"
+      "permalink": "https://t.me/durov/487",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/486",
@@ -1230,7 +1305,8 @@
       "views_label": "3.55M",
       "posted_at": "2026-04-11T12:44:51+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/486"
+      "permalink": "https://t.me/durov/486",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/485",
@@ -1265,7 +1341,8 @@
       "views_label": "2.7M",
       "posted_at": "2026-04-10T22:24:40+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/485"
+      "permalink": "https://t.me/durov/485",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/483",
@@ -1282,7 +1359,8 @@
           "thumbnail_url": "https://cdn4.telesco.pe/file/E3WrjlU4ZdmF63tETxU7RzN1ix2sJPIFXJbbQcNdnPw3ojBz_mGOi0-6ti1VMayTrSPvmZ6YsalLtlqT2L6Pe4ZvyroGHAiZyEVnY71ihskPLz8zeABmKCmoxNu6fxn8ImCnoEGWa_EhjqZiZCG70reHHPfSMpP3lBt4bWz8I_K7eKaaCbMWu4vqLwOs6yPGXIVYae8LY2AS-vfh2NsXWEim2MjK9YhXZSyE5pxRqnEkNQqoEJX5O-KrU_-OGWVaT_ET7xGc3f0iVKtmkA0bGqrm03cCQHou-Zn4jLvndxaoCxDtpZmwm-6yyWihDptjoHMNw64U6857vUmn0q00Fg.jpg",
           "thumbnail_path": "channels/durov/media/bd539e8aa85d2a4e193981c3.jpg",
           "duration_label": null,
-          "aspect_ratio": 1.6771488469601676
+          "aspect_ratio": 1.6771488469601676,
+          "thumbnail_sha256": "0c98999823429a3a07b6d7a16411c755c98dd3dcec0b0a441e9278eb1f370a0b"
         }
       ],
       "reactions": [
@@ -1310,7 +1388,8 @@
       "views_label": "3.93M",
       "posted_at": "2026-04-09T21:27:05+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/483"
+      "permalink": "https://t.me/durov/483",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     },
     {
       "id": "durov/482",
@@ -1345,7 +1424,8 @@
       "views_label": "2.82M",
       "posted_at": "2026-04-09T14:09:27+00:00",
       "edited": false,
-      "permalink": "https://t.me/durov/482"
+      "permalink": "https://t.me/durov/482",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b"
     }
   ]
 }

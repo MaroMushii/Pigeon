@@ -1,12 +1,13 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-19T20:36:43.500Z",
+  "fetched_at": "2026-05-19T20:37:33.164Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
     "description_html": "یوتوبر انیمه و مانگا(الان کمی شبکه؟!) - برنامه‌نویسِ ایده‌های باحال<br><br>•YouTube:<br><a href=\"http://www.youtube.com/@Matin_SenPai\" target=\"_blank\" rel=\"noopener\">http://www.youtube.com/@Matin_SenPai</a><br><br>•AniList:<br><a href=\"https://anilist.co/user/MatinSenPai\" target=\"_blank\" rel=\"noopener\">https://anilist.co/user/MatinSenPai</a><br><br>•Github:<br><a href=\"https://github.com/MatinSenPai\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai</a>",
     "photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
     "photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+    "photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
     "subscriber_count": "130K"
   },
   "posts": [
@@ -15,6 +16,7 @@
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "یه سایت رایگان برای یادگیری باگ بانتی :<br><br><a href=\"http://vulnweb.inst.lk/\" target=\"_blank\" rel=\"noopener\">vulnweb.inst.lk</a><br><br><br><a href=\"https://t.me/Linuxor\" target=\"_blank\">@Linuxor</a>",
       "plain_text": "یه سایت رایگان برای یادگیری باگ بانتی : vulnweb.inst.lk @Linuxor",
       "media": [
@@ -22,8 +24,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/MatinSenPaii/3206",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/KylARx7eMErEDWncLsaJuWkytF7-dzQqgHA6qxSTyihee2VpZl4dweSLwP5FFgLh7dDWuTvdaWqzYFO31HMnITQpUqUKNc-32TwY_8luFmGU5QC8G9LcwYE73qFKBbZGfg68pxZrrMHI-YRF1K4PK31CQ0b2oNOAGqtfB2VP3ie70Wj9NMe-mPqbTr9T_hxbkY5HTFjiroTZBu_uNnNldYkhvz9Xg9EdFdGOBlSHybkZfuS-PnHhDrUbOJ_othMyuN3Z8t3-nBQEcgklliCx2U2nmOFCHePNBwM5_UnTvWt9WNHNcvz2FgTC0Gy-4u4LIXT6HtHl3vbGqMTIhgUBYg.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/92c33679cc8b19cd71b77440.jpg",
+          "thumbnail_sha256": "196fd1104d2781353c985fcb3b0099ad223b3fc5919a8b7461d17191b431b32e",
           "duration_label": null,
           "aspect_ratio": 1.5664621676891528
         }
@@ -31,7 +35,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "87"
+          "count": "88"
         },
         {
           "emoji": "😨",
@@ -46,16 +50,18 @@
           "count": "3"
         }
       ],
-      "views_label": "11.6K",
+      "views_label": "11.7K",
       "posted_at": "2026-05-19T20:08:30+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3206"
+      "permalink": "https://t.me/MatinSenPaii/3206",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3205",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "خب این هم آموزش SNI Spoof برای مک.<br>فرآیندش برای ویندوز و لینوکس کاملاً مشابه هم هستش. فقط باید فایل اجرایی‌ای که برای sni spoof هستش رو مطابق سیستم‌عاملتون دانلود کنین.<br>فرقی هم نداره که از چه برنامه‌ای برای کانفیگ‌ها استفاده کنین.<br><br><br><br><a href=\"https://github.com/selfishblackberry177/sni-spoof/releases/tag/v0.2.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">لینک دانلود برنامه SNI Spoof برای مک و لینوکس</a><br><a href=\"https://t.me/khosrow_v2ray/771\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">برنامه آپلود شده در تلگرام</a><br><a href=\"https://t.me/MatinSenPaii/3183\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">لیست کانفیگای جمع آوری شده توسط متین عزیز.</a><br><a href=\"https://t.me/MatinSenPaii/3168\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">کانفیگ JSON </a><br><a href=\"https://uplod.ir/pv2by767p0p6/2026-05-19_17-38-41.mp4.htm\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">لینک دانلود ویدئو بالا برای اینترنت ایران.</a><br><br><a href=\"https://t.me/khosrow_v2ray\" target=\"_blank\">@khosrow_v2ray</a>",
       "plain_text": "خب این هم آموزش SNI Spoof برای مک. فرآیندش برای ویندوز و لینوکس کاملاً مشابه هم هستش. فقط باید فایل اجرایی‌ای که برای sni spoof هستش رو مطابق سیستم‌عاملتون دانلود کنین. فرقی هم نداره که از چه برنامه‌ای برای کانفیگ‌ها استفاده کنین. لینک دانلود برنامه SNI Spoof برای مک و لینوکس برنامه آپلود شده در تلگرام لیست کانفیگای جمع آوری شده توسط متین عزیز. کانفیگ JSON لینک دانلود ویدئو بالا برای اینترنت ایران. @khosrow_v2ray",
       "media": [
@@ -63,8 +69,10 @@
           "kind": "video",
           "asset_url": "https://t.me/MatinSenPaii/3205",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/IB_MgkLTu6474Aw-_51PNMzLuVO6ijt_kSH3AapKk4LYdsk3pcNLz-aKUZcXooKsXIjGdwgOew8-ZxmHwoLRgMKHg4zApyVEQJ0ObSeWLbjGOjKjwbQLoOYTm98vraP3IrN_cUZOHimo1BNnpzUsWB5pUVqxaU23DTzL5oCdpqH8pRoDR3euoF0TrsZfEBtM4mR1Uau0-FIxzVECSXyewFFp_anadx2HYr-GLf0zBd1DCns3NId4QEG2Svx4VXOwpqMb3egdvnn7ZkI7Fk3fL3H0Jwkif3HN6uft4MVcaTPFr5az5-VKM2M6j9oPdo81RnY2lffcC98ydNxhU5LKAg",
           "thumbnail_path": "channels/matinsenpaii/media/6972aa99ce914d7e8fd52b93.jpg",
+          "thumbnail_sha256": "1d1c4148c9346f8d105e220328b62b61c314a8429181608d350c1bb6bd63d4de",
           "duration_label": "3:35",
           "aspect_ratio": 1.5541666666666667
         }
@@ -90,13 +98,15 @@
       "views_label": "19.2K",
       "posted_at": "2026-05-19T19:29:03+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3205"
+      "permalink": "https://t.me/MatinSenPaii/3205",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3204",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "دوستان، اگر پیامتون توی دایرکت سین میشه به این معنی نیست که من دیدم و جواب ندادم<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F998F.png')\"><b>🙏</b></i> من میزنم بیاد پایین، همه سین میشه<br>روزانه بالای ۶۰۰-۷۰۰ تا پیام هست و من نمیرسم متأسفانه جواب همه رو بدم",
       "plain_text": "دوستان، اگر پیامتون توی دایرکت سین میشه به این معنی نیست که من دیدم و جواب ندادم🙏 من میزنم بیاد پایین، همه سین میشه روزانه بالای ۶۰۰-۷۰۰ تا پیام هست و من نمیرسم متأسفانه جواب همه رو بدم",
       "media": [],
@@ -107,7 +117,7 @@
         },
         {
           "emoji": "💔",
-          "count": "26"
+          "count": "27"
         },
         {
           "emoji": "👎",
@@ -121,13 +131,15 @@
       "views_label": "24.5K",
       "posted_at": "2026-05-19T19:11:03+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3204"
+      "permalink": "https://t.me/MatinSenPaii/3204",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3203",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "این ارور به علت پایین بودن ورژن ویندوزه",
       "plain_text": "این ارور به علت پایین بودن ورژن ویندوزه",
       "media": [
@@ -135,8 +147,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/MatinSenPaii/3203",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/KXw2agzSKARmKVxrZIo90t1yTjDOVOQKrVr1XOmAoD1j-R2NssJxKUru5yX36_AJFpPZJZQhoiRNr5CWTJvWlb-jU0NkD6qYpE1ZnzwxcgliudgW1tyO-nfzivtM9YMu_uVZt1EpnREH4_Mjk4lPcKGj5vC_LQ0ty_0tIGpgr3-bpkbjEjCk5hURYtvjsKo18RLQdPVH2XHjc91g84RaHq7zWmsiaisY5I-Vj0pYXFjYQRaEtBk4RqsZhYPhaa29kyNeZfxUFuiULs7BrSOvJareSlXXh9imDOL6cbNzuWLuM4ExOMfCIwnhaDJQNkJ6Dh0d51qer-OdYBqOAzlBOQ.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/58f313afc435388d29779ec5.jpg",
+          "thumbnail_sha256": "b1afea620a2e35ec8ad7f3b5a9e821468a7029d5764610623c9308ae9fc395c3",
           "duration_label": null,
           "aspect_ratio": 1.9851632047477725
         }
@@ -144,7 +158,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "204"
+          "count": "205"
         },
         {
           "emoji": "😨",
@@ -162,20 +176,22 @@
       "views_label": "33K",
       "posted_at": "2026-05-19T18:02:57+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3203"
+      "permalink": "https://t.me/MatinSenPaii/3203",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3202",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "یک سری آیپی‌های کلودفلر وایت شدن گویا.<br>اما اختلال زیاد دارن<br>میرن و میان<br>اسکنرها رو روشن کنید، با تایم‌اوت بالا. ببینم چه می‌کنید",
       "plain_text": "یک سری آیپی‌های کلودفلر وایت شدن گویا. اما اختلال زیاد دارن میرن و میان اسکنرها رو روشن کنید، با تایم‌اوت بالا. ببینم چه می‌کنید",
       "media": [],
       "reactions": [
         {
           "emoji": "❤",
-          "count": "399"
+          "count": "400"
         },
         {
           "emoji": "😁",
@@ -193,20 +209,22 @@
       "views_label": "38.4K",
       "posted_at": "2026-05-19T17:14:22+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3202"
+      "permalink": "https://t.me/MatinSenPaii/3202",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3201",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "یه حسی بهم میگه حکومت یهو باز میکنه این متدها رو که ملت بپرن بسته اینترنت بخرن و مجدد قطع بشه، نمیدونم واقعا. قشنگ یه الگو شده<br>هر دو سه هفته یک بار یهو اسپوف یا یه متد خیلی راحت برای اتصال باز میشه و مجدداً بسته میشه. اعصاب خورد کن شده. نه دارن باز میکنن نه دارن میبندن",
       "plain_text": "یه حسی بهم میگه حکومت یهو باز میکنه این متدها رو که ملت بپرن بسته اینترنت بخرن و مجدد قطع بشه، نمیدونم واقعا. قشنگ یه الگو شده هر دو سه هفته یک بار یهو اسپوف یا یه متد خیلی راحت برای اتصال باز میشه و مجدداً بسته میشه. اعصاب خورد کن شده. نه دارن باز میکنن نه دارن میبندن",
       "media": [],
       "reactions": [
         {
           "emoji": "👍",
-          "count": "880"
+          "count": "882"
         },
         {
           "emoji": "💔",
@@ -224,13 +242,15 @@
       "views_label": "40K",
       "posted_at": "2026-05-19T17:05:09+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3201"
+      "permalink": "https://t.me/MatinSenPaii/3201",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3200",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "اگر پنجره باز شد، و از کانفیگتون پینگ گرفتید، و -1 داد و اینجا هیچی ننوشت،<br>یا مجدد، WinError6 داد و بازم -1 گرفتید، یعنی اسپوف با این کانفیگ json(hcaptcha) روی اپراتور سرویس‌دهنده‌ی اینترنت شما بسته هستش",
       "plain_text": "اگر پنجره باز شد، و از کانفیگتون پینگ گرفتید، و -1 داد و اینجا هیچی ننوشت، یا مجدد، WinError6 داد و بازم -1 گرفتید، یعنی اسپوف با این کانفیگ json(hcaptcha) روی اپراتور سرویس‌دهنده‌ی اینترنت شما بسته هستش",
       "media": [
@@ -238,8 +258,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/MatinSenPaii/3200",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/mN1DPPFrKikT0NH3ayZ7tTBdbfBmrqJewi6iTxGzAjn41mUAbMn9aIqQDP1TnxJN-itW-mj5ou60Rf3P8WFY2uxGM8Dw-SNsMFAGX2YXTF4p_HZbiHaG11x0c2sEIOCj99164D1xTGOELmSCEtAACiONX-aOidJoJbKTYG2bO6zB3fgfpxfmwPh8n53riIy1NNW_hx-I8b0IgX83sFTc0ObJBzd9BHUZrqVvGK9hnyZuLP4qlDqAMtXUOjnoxIec7JGUUVB9T-DNOQIdImFTbXqPySVwE5GkH-JGJpYryAeCz7FI4-OtGDTM2ZFf8oRM8kWLUc9X3XxmM1YJAK2Y1w.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/47f5792918a6c79b4b734ef4.jpg",
+          "thumbnail_sha256": "0a70d0623b0145632a205b5bd7364f37e8290f1841b840e6733faad8c85b9f06",
           "duration_label": null,
           "aspect_ratio": 1.2422360248447204
         }
@@ -251,7 +273,7 @@
         },
         {
           "emoji": "💔",
-          "count": "337"
+          "count": "338"
         },
         {
           "emoji": "❤",
@@ -269,15 +291,17 @@
       "views_label": "41.2K",
       "posted_at": "2026-05-19T16:41:01+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3200"
+      "permalink": "https://t.me/MatinSenPaii/3200",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3199",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
-      "body_html": "آیپی‌ای که اینجا بهتون میده، صد درصد کار میکنه روی شیر و خورشید و MahsaNG<tg-emoji emoji-id=\"5316598638279932636\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i></tg-emoji>",
-      "plain_text": "آیپی‌ای که اینجا بهتون میده، صد درصد کار میکنه روی شیر و خورشید و MahsaNG❤️",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "البته این گزاره‌ی درستی نیست. برای من جواب داده، باز باید تست بشه و نتیجه‌اش رو بهم بگید",
+      "plain_text": "البته این گزاره‌ی درستی نیست. برای من جواب داده، باز باید تست بشه و نتیجه‌اش رو بهم بگید",
       "media": [],
       "reactions": [
         {
@@ -300,22 +324,35 @@
       "views_label": "46.6K",
       "posted_at": "2026-05-19T14:05:01+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3199"
+      "permalink": "https://t.me/MatinSenPaii/3199",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3198",
+        "author_name": "Matin SenPai",
+        "preview_text": "آیپی‌ای که اینجا بهتون میده، صد درصد کار میکنه روی شیر و خورشید و MahsaNG❤️",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/JGYYRj8rNr8vjYKmwYVlQh7pOqyMMBjyNltjNvf4nWcoktEijt4osD2Ssd0fCZnzeX0slQYAn-lLusgDpZZLYXLNg_hoQhMGQRJ4br-69Cp863GMVcy-1FhDNFeSSrCDtkXunEVuM2Lns-4w-lOIfSJXrt2GhYivkWTH1qKaozv6WxQAJ2cvuBHctzgyfPQUYITVDKe_p6LYpez8f64_ThLm9LB5Uvu5J92a0UDDzFuuxdP7pl4Z5idH0afH7Y1Vii-n87_8mVAgrMQ17tynjzZIQziq4Tecle9rT1Q0Lpm9vzTTdh5xOzBdYTHQVpJX-Cqp3PNANqz8vc5vnFi7nQ.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/054b86416766e3c0b1bc9ef7.jpg",
+        "thumbnail_sha256": "0cddf96e98e2dea781c4d9933fe04a86d32441cd63e199be46da952033bd859d",
+        "permalink": "https://t.me/matinsenpaii/3198"
+      }
     },
     {
       "id": "MatinSenPaii/3198",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
-      "body_html": "این اپ رو هم چک کنید، اسکنر برای Akamai و کاربردی برای شیر و خورشیده https://github.com/mirarr-app/network-checker",
-      "plain_text": "این اپ رو هم چک کنید، اسکنر برای Akamai و کاربردی برای شیر و خورشیده https://github.com/mirarr-app/network-checker",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "شیر و خورشیدیا، حواسم بهتون هست<tg-emoji emoji-id=\"5472355270787079946\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AE.png')\"><b>🧮</b></i></tg-emoji><br><br>این همون اسکنریه که دیروز گذاشته بودم برای شیر و خورشید(تست با VPN انجام شده جهت تایید عملکرد. این آیپیا کار نمیکنن باید خودتون اسکن کنید)<br><br><tg-emoji emoji-id=\"5443127283898405358\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i></tg-emoji>این اپلیکیشن هم ورژن اندروید داره هم لینوکس و هم ویندوز. با فلاتر هم نوشته شده<br>از اینجا میتونید دانلود کنید: <a href=\"https://github.com/mirarr-app/network-checker/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/mirarr-app/network-checker/releases</a><br>به پروژه هم استار بدید اگر دوست داشتید.<br><br><tg-emoji emoji-id=\"5190806721286657692\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i></tg-emoji>ابتدا برید به بخش Akamai، سپس تنظیمات رو به این شکل تغییر بدید:<br>Port که باید همون 443 باشه<br>Timeout هم 5 مناسبه<br>Cocurrent workers هم بستگی به پردازنده‌تون داره که چقدر قدرتمنده زیادی بالا هم بذارید خوب نیست. من 250 تا گذاشتم کافیه و کار میکنه<br><br>آیپی‌ای که اینجا بهتون میده، صد درصد کار میکنه روی شیر و خورشید و MahsaNG<tg-emoji emoji-id=\"5316598638279932636\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i></tg-emoji>",
+      "plain_text": "شیر و خورشیدیا، حواسم بهتون هست🧮 این همون اسکنریه که دیروز گذاشته بودم برای شیر و خورشید(تست با VPN انجام شده جهت تایید عملکرد. این آیپیا کار نمیکنن باید خودتون اسکن کنید) 📥این اپلیکیشن هم ورژن اندروید داره هم لینوکس و هم ویندوز. با فلاتر هم نوشته شده از اینجا میتونید دانلود کنید: https://github.com/mirarr-app/network-checker/releases به پروژه هم استار بدید اگر دوست داشتید. 📊ابتدا برید به بخش Akamai، سپس تنظیمات رو به این شکل تغییر بدید: Port که باید همون 443 باشه Timeout هم 5 مناسبه Cocurrent workers هم بستگی به پردازنده‌تون داره که چقدر قدرتمنده زیادی بالا هم بذارید خوب نیست. من 250 تا گذاشتم کافیه و کار میکنه آیپی‌ای که اینجا بهتون میده، صد درصد کار میکنه روی شیر و خورشید و MahsaNG❤️",
       "media": [
         {
           "kind": "photo",
           "asset_url": "https://t.me/MatinSenPaii/3198",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/j0nv7N92tHvzJoYYQu89Sqm9hjaNiZjUW3zZdici3R6PDxjPsxu-hXqc1V1_cBHMGlPGSGISPwt5Yn9iu6oM71NJLu3mZTudMifJ83ZT6F5S9VBBoF261bLXabtggssIpqQFwBKpmUa8KR61kG48SOBMUi4_r8V-BmA_IjOnXkKw-ARe5-n3j8adQ-r58bNJtfOu425BiZHtGwWFqO56XCh4UfaGX9R7det6UgS6WUqXuBfb9Z-TnD0IrVgSnSgskE58KXLHPltlIPfyS2th4JLgr_2MxjrqPqMnMIKxPmtKNpUSte3rw3wyBQ6yy2nQyw89NIUjFRhyzUGCeV7n-w.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/ec35937506299983b093d45f.jpg",
+          "thumbnail_sha256": "2bc39c7c036bfe2390f91583fe69105b5302c9aef95cdb807327b748d6e53c35",
           "duration_label": null,
           "aspect_ratio": 1.492537313432836
         }
@@ -345,7 +382,17 @@
       "views_label": "48.2K",
       "posted_at": "2026-05-19T13:57:23+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3198"
+      "permalink": "https://t.me/MatinSenPaii/3198",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3147",
+        "author_name": "Matin SenPai",
+        "preview_text": "این اپ رو هم چک کنید، اسکنر برای Akamai و کاربردی برای شیر و خورشیده https://github.com/mirarr-app/network-checker",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/3147"
+      }
     },
     {
       "id": "MatinSenPaii/3197",
@@ -362,7 +409,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/m1RFzs6EIOHXr99x3GYc1RoeEKKqOzsUYInNAG7iDPnYJ7k6zQviGWahlRoCaKeGUHegUJZD1hBvWrPTv3s-SI_YPmp4f1RUpUrHGtPCCeLt42AQRCoxeKtakRbaFE9OVwvk6PTNBdfPeMViFDYriN0GnoWepD0VhGk1rdjpM_ONwUEDb5SEPEOLJFA9YygGI9iWtQqgHFV2a8mvauY9ndku2_Bwu2hnxcl_zuqgAR2r8RCDpqaTsZTeD17FHvlqkadkjQRRFXhsRtKmiLToONukHRSxw9Qa3ElgJ4sk6vyGkXqHhn5TVRpmt5Aw6QDl65IfqOQSAhqZISBLJDjekA",
           "thumbnail_path": "channels/matinsenpaii/media/05a1e869a165eca63b7e8063.jpg",
           "duration_label": "5:10",
-          "aspect_ratio": 1.5361111111111063
+          "aspect_ratio": 1.5361111111111063,
+          "thumbnail_sha256": "0d6a79d36a8a21ed940516cc546635a4c0b404297805b5f55d82099e850df8e2"
         }
       ],
       "reactions": [
@@ -382,7 +430,8 @@
       "views_label": "4.08K",
       "posted_at": "2026-05-19T13:49:28+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3197"
+      "permalink": "https://t.me/MatinSenPaii/3197",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3196",
@@ -399,7 +448,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/IgNNZeW0fJLl0LNDB-t09wbpz_Pc4gn10cTExG1VOLaJTbLmMMzDxpRxeIsy554DbDJvUPinPUAMixB2CxcvButKUDN792LBoTTzHgkUt9BArFXSmqDQuz6XxzNzf29__QRaNb6PcfzkgWMxudnSOBrIJnRcz1AVpZdOMAS3gwLf-_neBIXMznVdiT6nVQ_4mClyhtX9Z-DuSHp3gzPNExBJfWPoiPKT3iM6LypbeY1DYuwAicpX2G2UfcE33ziwYNqkEFUh84q6PD6rOLvprUqBSlFf9LkTf6PofNlBbGGqLW_7BaIDzilXGmqzllHbbguBNplcCpwaAvyQgs8Gbw",
           "thumbnail_path": "channels/matinsenpaii/media/f96a1929d8ec7f2d37aaf7d1.jpg",
           "duration_label": "2:41",
-          "aspect_ratio": 1.5541666666666667
+          "aspect_ratio": 1.5541666666666667,
+          "thumbnail_sha256": "baee64b7b879a46f3b467095fada4589670f9affb8cdad42cdeff758a97af5a2"
         }
       ],
       "reactions": [
@@ -423,13 +473,15 @@
       "views_label": "15.1K",
       "posted_at": "2026-05-19T12:48:35+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3196"
+      "permalink": "https://t.me/MatinSenPaii/3196",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3195",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i>",
       "plain_text": "🔥🔥🔥",
       "media": [
@@ -437,8 +489,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/MatinSenPaii/3195",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/tsT3wJnpvUVePAgs8I5Nsfr35RtdnNytJtCOMK8SoDkb9aXZNvP9Fwka3JalIQjblbX1tLzVZch4bbN4CuKuzQNZzmxnG7GO8-xMOQJ9c3WSK73R8pzi2ObxiUALwWO6gKyNMW8K8JBamTLng0pYRABL1syfsTy2FS8XvUjq6giue8LvbTEgXCLp-ggXH3cSdubXrdvfqRcqEK1JJoQe5Eg35eshKSYU9endxa_iEHV7yIGZ36Mqy3jLb9rczfI_woZ6dyeW3NrD1l5d1N5gv6QXYeEq6a1_j8Aaz7uXaqbhqvAAfsCjQW_6bLjKXctBVxG4IDAKKYjo5HlPj4FgdQ.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/f5f94858fa8b343a9ba579e7.jpg",
+          "thumbnail_sha256": "7569f6705d13cc9c1c5031a2c0e8764c8c662a95afa3767103af39aeea722199",
           "duration_label": null,
           "aspect_ratio": 4.161971830985954
         }
@@ -468,13 +522,15 @@
       "views_label": "50.9K",
       "posted_at": "2026-05-19T12:05:37+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3195"
+      "permalink": "https://t.me/MatinSenPaii/3195",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3194",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "دقت کنید، اگر خود Spoof لاگ داره<br>و V2ray هم لاگ داره اما پینگا -1 هستن همچنان<br>یعنی مشکل از اپراتوره. اپراتورتون رو عوض کنید و با هرچی سیمکارت توی خونه دارید تست کنید. روی اینترنت خونگی هم به کرات دیدم توی طیف وسیع‌تری پاسخگو هستش",
       "plain_text": "دقت کنید، اگر خود Spoof لاگ داره و V2ray هم لاگ داره اما پینگا -1 هستن همچنان یعنی مشکل از اپراتوره. اپراتورتون رو عوض کنید و با هرچی سیمکارت توی خونه دارید تست کنید. روی اینترنت خونگی هم به کرات دیدم توی طیف وسیع‌تری پاسخگو هستش",
       "media": [],
@@ -496,18 +552,20 @@
           "count": "5"
         }
       ],
-      "views_label": "50.9K",
+      "views_label": "51.2K",
       "posted_at": "2026-05-19T11:50:51+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3194"
+      "permalink": "https://t.me/MatinSenPaii/3194",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3193",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
-      "body_html": "V3-Spoof-Configs-MatinSenPaii.txt",
-      "plain_text": "V3-Spoof-Configs-MatinSenPaii.txt",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "کانفیگ‌ها آپدیت شد و سه تا سرور قدرتمند از چنل <a href=\"https://t.me/khosrow_v2ray\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">خسرو</a> اضافه شد بهشون",
+      "plain_text": "کانفیگ‌ها آپدیت شد و سه تا سرور قدرتمند از چنل خسرو اضافه شد بهشون",
       "media": [],
       "reactions": [
         {
@@ -530,13 +588,24 @@
       "views_label": "51.4K",
       "posted_at": "2026-05-19T11:27:19+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3193"
+      "permalink": "https://t.me/MatinSenPaii/3193",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3183",
+        "author_name": "Matin SenPai",
+        "preview_text": "V3-Spoof-Configs-MatinSenPaii.txt",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/3183"
+      }
     },
     {
       "id": "MatinSenPaii/3192",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "ماشالا داریم قله‌های پیشرفت رو فتح میکنیم",
       "plain_text": "ماشالا داریم قله‌های پیشرفت رو فتح میکنیم",
       "media": [
@@ -544,8 +613,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/MatinSenPaii/3192",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/V717aMQyF1SfgpYi9WPRH_uBNwDB14_tJvoD8QO00Aac49M06i1TI6XtqYx60O2kVRu3KZ-cAOo-Abj5cF7WJSfRO6WzFZ9oBXUxRo3Lx62v2hGzVFGmMyYM2__8vq04nFB_Xdqt2OnlQX_w_Qv2iMwOAP1iTHH4gTiNN8qHVGmpJ1ypEh04UxYwGunGDzTXV9AvZ1gqwPBpsow_XAVy1CoxgZ0W8ImPn5FQiDPZtDVYDn8fWpzXwB4QqMLzz9613dPATsWf5aeA1AQGIvj9_-cFe6B1DP7WkzK2npMmK7vAmOuGZ80SPsEybM6Cknt8bm_zGzx6FUSX20MXPQdt3A.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/f0f8bd4c678429c1386af2cc.jpg",
+          "thumbnail_sha256": "c74807d9e8e37f521fc5cfa5ac34046b926107dbb20d7c0a981403f299a97c03",
           "duration_label": null,
           "aspect_ratio": 2.6315789473684212
         }
@@ -575,13 +646,15 @@
       "views_label": "56.3K",
       "posted_at": "2026-05-19T10:05:58+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3192"
+      "permalink": "https://t.me/MatinSenPaii/3192",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3191",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "یکی از دوستان گفتش که روی آسیاتک، خود hcaptcha پینگ نمیده اما کانفیگ‌ها وصلن روی Spoof<br>یعنی json شما باید همون hcaptcha باشه، خیلی عادی ران میکنید و پینگ میگیرید و بعدش کانفیگ‌ها بهتون پینگ میدن. <br><a href=\"https://t.me/MatinSenPaii/3186\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای کامل</a>",
       "plain_text": "یکی از دوستان گفتش که روی آسیاتک، خود hcaptcha پینگ نمیده اما کانفیگ‌ها وصلن روی Spoof یعنی json شما باید همون hcaptcha باشه، خیلی عادی ران میکنید و پینگ میگیرید و بعدش کانفیگ‌ها بهتون پینگ میدن. راهنمای کامل",
       "media": [],
@@ -610,13 +683,15 @@
       "views_label": "56.1K",
       "posted_at": "2026-05-19T08:38:26+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3191"
+      "permalink": "https://t.me/MatinSenPaii/3191",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3190",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "",
       "plain_text": "",
       "media": [
@@ -624,8 +699,10 @@
           "kind": "video",
           "asset_url": "https://t.me/MatinSenPaii/3190",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/RVvZUnhhVucok0dbcQHNTJA05ZH54baWl-TCDVzwhmxibFodZwNcNK9JNJKZmUnQWcGGczkTWwvHHujHPunLwYy7ac3SOLnvNlBcqCQ1hsN2tiWsQtFuVhMThpa80ENAcmhoibILN7Lo7EPRsqUYlXXpSUt-fQPKeedf2H7QwCnYfhgvTHR-VeV7xl6BY8kEa6H9wv7_rZ8kZM1KcmYxnj1W5OzuoAPif_SNQBoIRtyDyZSv1hnyn6Ff-C1wSvuOw5k3PCjUfRPKIWlLoklhmVYeKR8xGcjWyKLdFA-T_4w1dkQczSATrJvBizcu169U7WhPX0CAdkqJUyP6seeFEw",
           "thumbnail_path": "channels/matinsenpaii/media/fa0992f5490c34f8621f9a28.jpg",
+          "thumbnail_sha256": "410dea8ad813b917c66bd89c5eea19e6cce34d7441079bcf0e8bbe7d9661e123",
           "duration_label": null,
           "aspect_ratio": 1.0810810810810811
         }
@@ -655,13 +732,15 @@
       "views_label": "56.2K",
       "posted_at": "2026-05-19T08:09:04+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3190"
+      "permalink": "https://t.me/MatinSenPaii/3190",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3189",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "<tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji>سؤالات متداول راجب SNI-Spoof:<br><br>1- ارور WinError2 میگیرم توی اپ؟<br>این ارور به این معنیه که شما نرم‌افزار رو با Run as Administor ران نکردید. اگر مطمئنید که این کار رو کردید و باز هم این اروره رو میگیرید، به سادگی یک بار ببندید و مجددا باز کنید.<br><br>2- ارور WinError6 میگیرم توی اپ؟<br>این طبیعیه کاملا. باید هم بگیرید. اصلا اگر این رو نگیرید یعنی کانفیگتون کار نمیکنه. همینجوری پشت سر هم تکرار میشه و این اوکیه. مشکلی هم نیست<br><br>3- پس اگر ارور WinError6 میگیرم یعنی وصله؟<br>نه لزوما. ممکنه همچنان Hcaptcha روی اپراتورتون بسته باشه. پینگ هم بده اما کانفیگا -1 بدن بهتون با اینکه WinError6 هم میگیرید. با اپراتور دیگه‌ای امتحان کنید.<br><br>4- اگر <a href=\"http://Hcaptcha.com/\" target=\"_blank\" rel=\"noopener\">Hcaptcha.com</a> بهم پینگ بده توی ترمینال یعنی وصله قطعا؟<br>نه لزوما. توی سؤال قبلی عرض کردم<br><br>5- اگر <a href=\"http://Hcaptcha.com/\" target=\"_blank\" rel=\"noopener\">Hcaptcha.com</a> بهم پینگ نده توی ترمینال یعنی قطعه و کار نمیکنه؟<br>نه لزوما. توی یه برهه‌ای Hcaptcha پینگ هم نمیداد اما وقتی با اپ پترنیها ران میکردیم، کانفیگ‌هامون پینگ میداد<br><br>6- با چه اپراتوری بهتر جواب میگیرم؟<br>منطقه به منطقه فرق داره. همراه اول به طور مثال یه جا وصله، یه جا قطع. اکثر اپراتورهایی که دیدم وصل باشن، ایرانسل و سامانتل و رایتل و فیبر مخابرات و مبین نت بودش و adsl خونگی<br><br>7- کی این متد رو میبندن؟<br>به قول یکی از بچه‌ها هروقت ثبت نام ایران‌خودرو تموم شد:))<br>اصلا مشخص نیست کی میبندن و چرا باز شده و...<br>اما تا وصل هستش کارهای ضروریتون رو برسید لطفا. آپدیت‌های سیستم عامل و...<br>فقط روی اندروید حواستون باشه سیستم عاملتون نیاز به لاگین نداشته باشه بعد از آپدیت<br><br>8- دقت کنید، اگر خود Spoof لاگ داره<br>و V2ray هم لاگ داره اما پینگا -1 هستن همچنان<br>یعنی مشکل از اپراتوره. اپراتورتون رو عوض کنید و با هرچی سیمکارت توی خونه دارید تست کنید. روی اینترنت خونگی هم به کرات دیدم توی طیف وسیع‌تری پاسخگو هستش",
       "plain_text": "✍️سؤالات متداول راجب SNI-Spoof: 1- ارور WinError2 میگیرم توی اپ؟ این ارور به این معنیه که شما نرم‌افزار رو با Run as Administor ران نکردید. اگر مطمئنید که این کار رو کردید و باز هم این اروره رو میگیرید، به سادگی یک بار ببندید و مجددا باز کنید. 2- ارور WinError6 میگیرم توی اپ؟ این طبیعیه کاملا. باید هم بگیرید. اصلا اگر این رو نگیرید یعنی کانفیگتون کار نمیکنه. همینجوری پشت سر هم تکرار میشه و این اوکیه. مشکلی هم نیست 3- پس اگر ارور WinError6 میگیرم یعنی وصله؟ نه لزوما. ممکنه همچنان Hcaptcha روی اپراتورتون بسته باشه. پینگ هم بده اما کانفیگا -1 بدن بهتون با اینکه WinError6 هم میگیرید. با اپراتور دیگه‌ای امتحان کنید. 4- اگر Hcaptcha.com بهم پینگ بده توی ترمینال یعنی وصله قطعا؟ نه لزوما. توی سؤال قبلی عرض کردم 5- اگر Hcaptcha.com بهم پینگ نده توی ترمینال یعنی قطعه و کار نمیکنه؟ نه لزوما. توی یه برهه‌ای Hcaptcha پینگ هم نمیداد اما وقتی با اپ پترنیها ران میکردیم، کانفیگ‌هامون پینگ میداد 6- با چه اپراتوری بهتر جواب میگیرم؟ منطقه به منطقه فرق داره. همراه اول به طور مثال یه جا وصله، یه جا قطع. اکثر اپراتورهایی که دیدم وصل باشن، ایرانسل و سامانتل و رایتل و فیبر مخابرات و مبین نت بودش و adsl خونگی 7- کی این متد رو میبندن؟ به قول یکی از بچه‌ها هروقت ثبت نام ایران‌خودرو تموم شد:)) اصلا مشخص نیست کی میبندن و چرا باز شده و... اما تا وصل هستش کارهای ضروریتون رو برسید لطفا. آپدیت‌های سیستم عامل و... فقط روی اندروید حواستون باشه سیستم عاملتون نیاز به لاگین نداشته باشه بعد از آپدیت 8- دقت کنید، اگر خود Spoof لاگ داره و V2ray هم لاگ داره اما پینگا -1 هستن همچنان یعنی مشکل از اپراتوره. اپراتورتون رو عوض کنید و با هرچی سیمکارت توی خونه دارید تست کنید. روی اینترنت خونگی هم به کرات دیدم توی طیف وسیع‌تری پاسخگو هستش",
       "media": [],
@@ -686,13 +765,15 @@
       "views_label": "56.3K",
       "posted_at": "2026-05-19T07:54:23+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3189"
+      "permalink": "https://t.me/MatinSenPaii/3189",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3188",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": ":)))))))))))))))))))",
       "plain_text": ":)))))))))))))))))))",
       "media": [
@@ -700,8 +781,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/MatinSenPaii/3188",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/Y1zKh_tN82lOsJdFeAI8GV-Tw_5byMgbViaZEBAy2jvwOrfJKr6WbuwmyvWnIG68uQD_CC83pLgypu-xnFj6Ss9RPsCPtrqP7DEh7vsPMua2Do_NJKwq43d7VwfUct6eFRiQaGY-p6oAlf6_E32HLPcZbMEmaSbywOMO4nM-PMe0xqpfprED-R-Ir3xm-BCtq05Xwn8Y16cI-r2Ao-Kq4E1Y1CccX6SiC53yXXIU8nS2fw1du4cGzMkOI4-tanHgnHjbejE8VyeJNVEQpouFZ2JqK0BSOsfqSw-TeYX2TvAcoveE_93CSwMJ54N8atIn7JAQa1chSmmpFAVErxHkNA.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/9aa1138d5784b2eb1fd1c05b.jpg",
+          "thumbnail_sha256": "753c670acd1696538c6e7ae01e70cb670b3781d7c1b7710743ea081b4000210d",
           "duration_label": null,
           "aspect_ratio": 5.542857142857161
         }
@@ -731,13 +814,15 @@
       "views_label": "51.9K",
       "posted_at": "2026-05-19T07:07:53+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3188"
+      "permalink": "https://t.me/MatinSenPaii/3188",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3187",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/MatinSenPaii\"><span dir=\"auto\">Matin SenPai</span></a> pinned «<span class=\"tgme_widget_service_strong_text\" dir=\"auto\"><tg-emoji emoji-id=\"5267500801240092311\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i></tg-emoji>کمی مرتب کردن مطالب برای دسترسی به اینترنت آزاد با SNI-Spoof:  1- آموزش پایه: https://t.me/MatinSenPaii/2627 2- آموزش پایه رو که دیدید، بفرمایید از این json استفاده کنید: https://t.me/MatinSenPaii/3168 3- و کانفیگ‌های این پست: https://t.me/MatinSenPaii/3183…</span>»",
       "plain_text": "Matin SenPai pinned «⭐️کمی مرتب کردن مطالب برای دسترسی به اینترنت آزاد با SNI-Spoof: 1- آموزش پایه: https://t.me/MatinSenPaii/2627 2- آموزش پایه رو که دیدید، بفرمایید از این json استفاده کنید: https://t.me/MatinSenPaii/3168 3- و کانفیگ‌های این پست: https://t.me/MatinSenPaii/3183…»",
       "media": [],
@@ -745,15 +830,17 @@
       "views_label": null,
       "posted_at": "2026-05-19T06:51:17+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3187"
+      "permalink": "https://t.me/MatinSenPaii/3187",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3186",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
-      "body_html": "شاید شبیه کلاهبردارا به نظر برسم اما می‌خوای نامحدود به اینترنت آزاد وصل بشیییییییی؟<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i>",
-      "plain_text": "شاید شبیه کلاهبردارا به نظر برسم اما می‌خوای نامحدود به اینترنت آزاد وصل بشیییییییی؟😂",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<tg-emoji emoji-id=\"5267500801240092311\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i></tg-emoji>کمی مرتب کردن مطالب برای دسترسی به اینترنت آزاد با SNI-Spoof:<br><br>1- آموزش پایه: <a href=\"https://t.me/MatinSenPaii/2627\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/2627</a><br>2- آموزش پایه رو که دیدید، بفرمایید از این json استفاده کنید: <a href=\"https://t.me/MatinSenPaii/3168\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3168</a><br>3- و کانفیگ‌های این پست: <a href=\"https://t.me/MatinSenPaii/3183\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3183</a> ترجیحا با ایرانسل یا سامانتل<br>4- سؤالات متداول راجب این متود: <a href=\"https://t.me/MatinSenPaii/3189\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3189</a><br><br>و تبریک میگم! شما به اینترنت آزاد دسترسی دارید.",
+      "plain_text": "⭐️کمی مرتب کردن مطالب برای دسترسی به اینترنت آزاد با SNI-Spoof: 1- آموزش پایه: https://t.me/MatinSenPaii/2627 2- آموزش پایه رو که دیدید، بفرمایید از این json استفاده کنید: https://t.me/MatinSenPaii/3168 3- و کانفیگ‌های این پست: https://t.me/MatinSenPaii/3183 ترجیحا با ایرانسل یا سامانتل 4- سؤالات متداول راجب این متود: https://t.me/MatinSenPaii/3189 و تبریک میگم! شما به اینترنت آزاد دسترسی دارید.",
       "media": [],
       "reactions": [
         {
@@ -780,13 +867,24 @@
       "views_label": "62.9K",
       "posted_at": "2026-05-19T06:51:12+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3186"
+      "permalink": "https://t.me/MatinSenPaii/3186",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3184",
+        "author_name": "Matin SenPai",
+        "preview_text": "شاید شبیه کلاهبردارا به نظر برسم اما می‌خوای نامحدود به اینترنت آزاد وصل بشیییییییی؟😂",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/CyhiHmAUPWnuD_CKhbE82Er0dO57G7U3w1YRIDglEyqDaDIQ4z3W7TQ7INMvfISPU18pUcIwdjXIat77KsXVmjobpsiJkZG7ZQRrQVYNjR7Qlba1JtnUF5Qo3VBobhAeiOjK01ZDWxAoCTqxK-rXIM0ow9xDgQRYgBAZ4lOiTVz86gE8itwyi5cY9Rr2TJW9U3OIVy_CCvikwie_blB3RG36ifuOqoHxO42gjfqGs2Z8DLjQ5gxYF1Oyv2mjDzXogFPulilqBVz8F46AyzNZyLuVjLNh_cZvKnDy6ZGTs0fHsqn9nC5mhYWLitWPSErZ-K0fAzsPC_uZrjNaTeOkZQ.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/c0c9dd6b3b8823d7bd81bed1.jpg",
+        "thumbnail_sha256": "4bcd0baeb67789f0430259db8ee07fd414775510b0df49a94609af547a3acb2f",
+        "permalink": "https://t.me/matinsenpaii/3184"
+      }
     },
     {
       "id": "MatinSenPaii/3184",
       "author_name": "Matin SenPai",
       "author_photo_url": "https://cdn1.telesco.pe/file/AxHGH008aAcbgTsajHC0-ByfktHnXaKD8ENhbLQSBW0QzOnCnCawtNbgVWCPTMmNupWHtLU2Ev6fyA-B13BUfPcGVWZujrkHH7K03VONH4aVXvZ4jv-e32I4uFWlLONlC_qroNU_GB5mpuVrDRbvB0JeAA7a2-seo2C5P6zHsrS3vXBp1TrFLzaC6-T5qFoYXvvI8FeYQ1NVnw_OaHYs3ZWKtFa1HA1cBbsJWDa_reaXFAm_CwP_ULh_jzR6vG3sFDf7qnf1dD6wBS83PXAcGAxOL7Xb7dSGwpmcC-07sUZhl5nK8h9X7AngFBSUNYTmcFZGv_jjrxB9cJ3O2OSzbQ.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fd319f4d151df85929ec35c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
       "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">شاید شبیه کلاهبردارا به نظر برسم اما می‌خوای نامحدود به اینترنت آزاد وصل بشیییییییی؟<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i></div>",
       "plain_text": "شاید شبیه کلاهبردارا به نظر برسم اما می‌خوای نامحدود به اینترنت آزاد وصل بشیییییییی؟😂",
       "media": [
@@ -794,8 +892,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/MatinSenPaii/3184?single",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/fbv2xj0t7suwRiyxGYN5TOeTTmDwFjESZrALqwBODz1IspWiyyESZ1E6bMhMwb3IxXXOV2IfBIjdKmffiqzXM9EiL6WWsJhvdXWQAi2p7PpmfZL9X1eu8sCgOzbqXNRxpH079rgD0sD6aYb3_yOY1fzOhUxKIfxhyDSQkfZzMFkEUVbw_TCI3xYlBR49BnECJCV6XSbvi4Be387PBwvzWNVsruuffvnQggLJJMLsAjFPNlxNNLHS72SutpYaT4zpn8gmsnNbjkvcZJRG-8o_MO515mYYmYX1J2XZwRaLxpzi2TKDH4wt1c1Fj4a_AICs0qlnsRxiN7SJRmRv4Ss9cw.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/f613244ca307d1980c83477f.jpg",
+          "thumbnail_sha256": "fab4e5d999ea8b0164c822d2a7af8b386f1d21c3738c3a3cfb0bd72d7816cca4",
           "duration_label": null,
           "aspect_ratio": 1.1988304093567
         },
@@ -803,8 +903,10 @@
           "kind": "photo",
           "asset_url": "https://t.me/MatinSenPaii/3185?single",
           "asset_path": null,
+          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/ULQmufkvPDGojuZejYbmTXUwHGctrb6F8ZYsHMc8l0iJHUMZN75REPi9XZyeEXLysJJfVrpljYlxwq4hM1-x1ogL9plWsgT0d_AHkGewW59CSElQ29UKG5dpcUP9TJ7gFXJYt_gqYcZHmzPj4REX845G9l0D3AoAfrxtXdm1V_kSK_gybCfH_KIJf088VkHX-aQz8HqsVTzpDrT4M2Kc2xYh4NSTUvowOzyuBcgyrEV8DeHvAD5i9VvQKy3r-Vsiwap4MZcy1Fhw5xT2-uNjwE1EtEHOCqq36rTYFV4COd5hrDjKyBdyMZRicsNZbC_XQBvMTASyilzGY5FZMcDrbg.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/2d7fe1028768281eca8e963b.jpg",
+          "thumbnail_sha256": "1371da59a071d894e9e294d3c7f8868fd7db29deb8e545982f8cea3c99f146df",
           "duration_label": null,
           "aspect_ratio": 2.3668639053254
         }
@@ -834,7 +936,8 @@
       "views_label": "51.7K",
       "posted_at": "2026-05-19T06:50:58+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3184"
+      "permalink": "https://t.me/MatinSenPaii/3184",
+      "reply": null
     },
     {
       "id": "MatinSenPaii/3183",
@@ -865,7 +968,8 @@
       "views_label": "56.3K",
       "posted_at": "2026-05-19T06:41:08+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3183"
+      "permalink": "https://t.me/MatinSenPaii/3183",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3182",
@@ -896,7 +1000,8 @@
       "views_label": "48.9K",
       "posted_at": "2026-05-19T06:33:31+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3182"
+      "permalink": "https://t.me/MatinSenPaii/3182",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3181",
@@ -931,7 +1036,8 @@
       "views_label": "47.7K",
       "posted_at": "2026-05-19T06:29:21+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3181"
+      "permalink": "https://t.me/MatinSenPaii/3181",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3180",
@@ -962,7 +1068,8 @@
       "views_label": "47.5K",
       "posted_at": "2026-05-19T05:45:37+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3180"
+      "permalink": "https://t.me/MatinSenPaii/3180",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3179",
@@ -979,7 +1086,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/GgWVhsyAUkxVy6rKdt_OkRO_hKHfVsMZg0IIfys0GQ5Oe5TSjhZ1xSCHTk4qLjwq6zUKWAhKD2_YtEMtXPoAuAcH7hewWFcg6f3BzgfVrnoiUshHIh2Vtz2T_sXjuQH2I0V4zPzetJH5gtNEgMZ_xdZaydVTpMzrlCERzqbn09PQ6M7M-Ma-SHiiUtb8AK0JXXLg6UgHr-H-h-Y6wXEBCvxgY4Te2eGbdMGYnSp28vili711k7Cu0UCTri3f46NWOKhMKozhc1pcBq-T4678cqDRus3YJYSonkv5xAwxdLG_y-ZZhCub1Smsqtv-KdPO-KzACUe9YeSlWowHkLUAJg.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/dd6ee5c09bb94f81279b2e08.jpg",
           "duration_label": null,
-          "aspect_ratio": 1.5904572564612327
+          "aspect_ratio": 1.5904572564612327,
+          "thumbnail_sha256": "b2e264ff3faadf49b620aab2c39657b3c3d4d6cb18a104931deebfb10102f42f"
         }
       ],
       "reactions": [
@@ -1007,7 +1115,8 @@
       "views_label": "48.5K",
       "posted_at": "2026-05-19T04:44:18+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3179"
+      "permalink": "https://t.me/MatinSenPaii/3179",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3178",
@@ -1042,7 +1151,8 @@
       "views_label": "47.3K",
       "posted_at": "2026-05-19T00:04:39+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3178"
+      "permalink": "https://t.me/MatinSenPaii/3178",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3177",
@@ -1069,7 +1179,8 @@
       "views_label": "45.7K",
       "posted_at": "2026-05-18T23:30:31+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3177"
+      "permalink": "https://t.me/MatinSenPaii/3177",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3176",
@@ -1086,7 +1197,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/YL-TXEufqqXlIspNSsX2gdedSYZvrGFaeOAHzG2lMRp0THYIUddHhZORujGtwDyQdQ62jLXHVZy_PC5KiOY7hUi5sjlFIZwZqDj4YMWRQhlF_eYGjSM8W3WhbxKknmgiJHw6RgZo_1_8JrjC-liBfYsFSRqDi8wUa6yFw05JJTATBOARiotazURh7l8hZVDTC2bx3rO0foA0w8MrpHBPAOljY22ZYv7rNODVTh5UTfLOvvH0Mf7bxL1OUNuXoai5Jotn-thhornbIFCtDXXifqd3_lX3rHjzL5H6L-HrniUllL64CWm78vV-YARrQ9G61SlzMUVB8_CTfHDkGHVzXw.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/d1c3d126e9cf8395a6304c1e.jpg",
           "duration_label": null,
-          "aspect_ratio": 2.7224880382775045
+          "aspect_ratio": 2.7224880382775045,
+          "thumbnail_sha256": "53ae02fd4dba37a0889a44b1502fc28d3161ee794c3b0eb2a3be937526502d78"
         }
       ],
       "reactions": [
@@ -1110,7 +1222,8 @@
       "views_label": "44.5K",
       "posted_at": "2026-05-18T23:19:42+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3176"
+      "permalink": "https://t.me/MatinSenPaii/3176",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3174",
@@ -1145,7 +1258,8 @@
       "views_label": "43.2K",
       "posted_at": "2026-05-18T23:07:23+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3174"
+      "permalink": "https://t.me/MatinSenPaii/3174",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3173",
@@ -1176,7 +1290,8 @@
       "views_label": "41.6K",
       "posted_at": "2026-05-18T22:45:15+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3173"
+      "permalink": "https://t.me/MatinSenPaii/3173",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3172",
@@ -1207,7 +1322,8 @@
       "views_label": "40.5K",
       "posted_at": "2026-05-18T22:40:24+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3172"
+      "permalink": "https://t.me/MatinSenPaii/3172",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3171",
@@ -1221,7 +1337,8 @@
       "views_label": null,
       "posted_at": "2026-05-18T22:36:03+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3171"
+      "permalink": "https://t.me/MatinSenPaii/3171",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3170",
@@ -1238,7 +1355,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/nkub6-57DQYH_MqLcN0_xYH8GCYrgSqumdFvW_hZ5XpTHCQqz57VcjVAqq2ytld5_HtepfamFytvQto8BVpB-TVDj22mLapjy6RjnsbQh--4kH25l0_1xq9g1y82_9udl174XKzOBnl5YJR89joVf6DMJkdBJll6RxAZ9DAUIUnmCuNA08lDjVcGBGblEgCohW16gxdtDhDsOYCeDyAbk8RrvrOkxr3S9C98oBqKzU9cMmCkyatSAD__R3lI4Zo3wKEFSKtFl7n5-jJifN_9iDpitWTOFj6m_kmkM43-cHzFbMaZt0UC78h6vqmY6mHu1bOXavqxhQ0Ffx4ULlQmcw.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/ab471a774387da24f8d7b273.jpg",
           "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
+          "aspect_ratio": 1.7777777777777777,
+          "thumbnail_sha256": "fc5580a5835a1795f80d24b93649e10da5afda64c9f71baf02d09a0a78ac8b04"
         }
       ],
       "reactions": [
@@ -1266,7 +1384,8 @@
       "views_label": "36.6K",
       "posted_at": "2026-05-18T22:27:16+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3170"
+      "permalink": "https://t.me/MatinSenPaii/3170",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3169",
@@ -1301,7 +1420,8 @@
       "views_label": "35.2K",
       "posted_at": "2026-05-18T22:23:39+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3169"
+      "permalink": "https://t.me/MatinSenPaii/3169",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3168",
@@ -1336,7 +1456,8 @@
       "views_label": "35.2K",
       "posted_at": "2026-05-18T22:22:36+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3168"
+      "permalink": "https://t.me/MatinSenPaii/3168",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3167",
@@ -1367,7 +1488,8 @@
       "views_label": "31.5K",
       "posted_at": "2026-05-18T22:05:49+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3167"
+      "permalink": "https://t.me/MatinSenPaii/3167",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3166",
@@ -1402,7 +1524,8 @@
       "views_label": "36.4K",
       "posted_at": "2026-05-18T20:15:31+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3166"
+      "permalink": "https://t.me/MatinSenPaii/3166",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3165",
@@ -1416,7 +1539,8 @@
       "views_label": null,
       "posted_at": "2026-05-18T20:08:23+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3165"
+      "permalink": "https://t.me/MatinSenPaii/3165",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3164",
@@ -1451,7 +1575,8 @@
       "views_label": "36.3K",
       "posted_at": "2026-05-18T20:06:57+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3164"
+      "permalink": "https://t.me/MatinSenPaii/3164",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3163",
@@ -1468,7 +1593,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/k0RWgTvpesaY_JmCyjt69J3ucgcebBVWnJs9Be0pX7G6Tju7eB8gCYLN30frwevrjpUNvUFqiC0UtcZDSGUXgNTBrOYlgCOw7NW43AB4ljh529gkymRuHpmrM8G9mAriZ_u7X6byHKYDrNj06Y-D61TCMVAWWBx-bw9H6Gc553UA3ZdCpggSCS4RoC45bn_joBhYKp-PlUH6BrdHBi3u3zJQnRdJ3mcvJPL3sy0i1Tlf8pwHE1F6g6EicfStvfvayy4ZMSK07upDm-vAPJzepg0L8GPWzHtLuU7_AxbFEHhWQ0KK9lUgUe28v7qDBIag-TxG3u98_7-WPeg5BAfbqQ.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/ca6d489a4ddc9e7eb6ee49d1.jpg",
           "duration_label": null,
-          "aspect_ratio": 0.8199999999999672
+          "aspect_ratio": 0.8199999999999672,
+          "thumbnail_sha256": "c776439df71ae9f0f3c3572ecda018bbc730e90d3315467afeb9728aa1dd76da"
         }
       ],
       "reactions": [
@@ -1496,7 +1622,8 @@
       "views_label": "36.9K",
       "posted_at": "2026-05-18T20:03:05+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3163"
+      "permalink": "https://t.me/MatinSenPaii/3163",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3162",
@@ -1531,7 +1658,8 @@
       "views_label": "35.4K",
       "posted_at": "2026-05-18T19:56:48+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3162"
+      "permalink": "https://t.me/MatinSenPaii/3162",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3161",
@@ -1545,7 +1673,8 @@
       "views_label": null,
       "posted_at": "2026-05-18T19:49:21+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3161"
+      "permalink": "https://t.me/MatinSenPaii/3161",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3160",
@@ -1580,7 +1709,8 @@
       "views_label": "35.3K",
       "posted_at": "2026-05-18T19:49:04+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3160"
+      "permalink": "https://t.me/MatinSenPaii/3160",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3159",
@@ -1607,7 +1737,8 @@
       "views_label": "6.62K",
       "posted_at": "2026-05-18T19:34:18+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3159"
+      "permalink": "https://t.me/MatinSenPaii/3159",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3158",
@@ -1642,7 +1773,8 @@
       "views_label": "15.7K",
       "posted_at": "2026-05-18T18:53:42+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3158"
+      "permalink": "https://t.me/MatinSenPaii/3158",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3157",
@@ -1677,7 +1809,8 @@
       "views_label": "38.8K",
       "posted_at": "2026-05-18T18:35:52+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3157"
+      "permalink": "https://t.me/MatinSenPaii/3157",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3156",
@@ -1712,7 +1845,8 @@
       "views_label": "37.1K",
       "posted_at": "2026-05-18T18:35:28+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3156"
+      "permalink": "https://t.me/MatinSenPaii/3156",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3154",
@@ -1747,7 +1881,8 @@
       "views_label": "34.4K",
       "posted_at": "2026-05-18T18:29:45+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3154"
+      "permalink": "https://t.me/MatinSenPaii/3154",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3152",
@@ -1782,7 +1917,8 @@
       "views_label": "34.2K",
       "posted_at": "2026-05-18T18:16:48+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3152"
+      "permalink": "https://t.me/MatinSenPaii/3152",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3151",
@@ -1799,7 +1935,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/paRSVBwgvu1QCsVGiSzVjFWoGyxbm_0ArUBXWEMPYQ-5ssaJmllaVEa4TLSST01KeJRoW2XseLGFy4z677cABkDQaeacBf9aaujMc2ZueZ951BFJBxScN_RLs2xrGurXj9kRSAQYKk0MA8OQRN0B1BhD_iEaf7tab3qzJI7X0XeWTlM09VEbKdqcWPdAM8VVrHVEI6kGQM5KrOeZ18ItUbnqraQZ8gWUYea73zPI198soMXPAZe9_adbes_C5ZtC4B9B5dmKHhgBj6kzPf5aYjdvkA6_2OqhbAg_jES-is5sj91lttN9Kc6638FYnjz2jMb85ENS79U1pHsF3GVNwA",
           "thumbnail_path": "channels/matinsenpaii/media/206a196eb044c10a508c6a95.jpg",
           "duration_label": "7:44",
-          "aspect_ratio": 1.7777777777777777
+          "aspect_ratio": 1.7777777777777777,
+          "thumbnail_sha256": "3c78a5acc593c883858c4be65cac125d87d18f94c9872cf1ef9086de9a2626d7"
         }
       ],
       "reactions": [
@@ -1827,7 +1964,8 @@
       "views_label": "36.4K",
       "posted_at": "2026-05-18T18:15:11+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3151"
+      "permalink": "https://t.me/MatinSenPaii/3151",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3150",
@@ -1862,7 +2000,8 @@
       "views_label": "33.6K",
       "posted_at": "2026-05-18T18:03:19+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3150"
+      "permalink": "https://t.me/MatinSenPaii/3150",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3149",
@@ -1897,7 +2036,8 @@
       "views_label": "33.9K",
       "posted_at": "2026-05-18T17:54:27+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3149"
+      "permalink": "https://t.me/MatinSenPaii/3149",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3148",
@@ -1932,7 +2072,8 @@
       "views_label": "36K",
       "posted_at": "2026-05-18T17:54:01+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3148"
+      "permalink": "https://t.me/MatinSenPaii/3148",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3147",
@@ -1963,7 +2104,8 @@
       "views_label": "38.3K",
       "posted_at": "2026-05-18T15:53:39+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3147"
+      "permalink": "https://t.me/MatinSenPaii/3147",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3146",
@@ -1980,7 +2122,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/nVxR9PAk-fKZ1uOJf6eByx-4ROlXNrlhWQRqIpGIG_1FkO2xWVGNrTrHmOusZlZuW7uJZsPFVxygywGP-_tF5KnzF7x3wkIBJcJY0fm88QPJPO973qcj5QPbfE_HisJQaQ4nDQa7dUDa-5edFlcdrnUHu4AWu9ia6dat_X1HhckgWYBPI7v-alpjGUNewCieJsmiPf8UJWDplatBBSpakhJOuyBmF1AYdtT8UToTdabSVojyf__7VOK_cBo4iukJ_gkFV_I4q7BaqjKNeJvaxdMsMZAC8zCFP1vMhDuf_dEoK4M2P5HmvuysenBw2A4H1BGi4_Jra7lseNrCjdqLDA.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/6bfba1857f4f1d34c7c3b3e1.jpg",
           "duration_label": null,
-          "aspect_ratio": 2.380952380952381
+          "aspect_ratio": 2.380952380952381,
+          "thumbnail_sha256": "fd42911050cdaf3fbc5967d813f069a31f254b0b0113fea8e09375c76ad962be"
         }
       ],
       "reactions": [
@@ -2004,7 +2147,8 @@
       "views_label": "38.6K",
       "posted_at": "2026-05-18T15:40:13+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3146"
+      "permalink": "https://t.me/MatinSenPaii/3146",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3145",
@@ -2035,7 +2179,8 @@
       "views_label": "41.4K",
       "posted_at": "2026-05-18T14:28:46+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3145"
+      "permalink": "https://t.me/MatinSenPaii/3145",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3144",
@@ -2070,7 +2215,8 @@
       "views_label": "40.8K",
       "posted_at": "2026-05-18T14:07:21+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3144"
+      "permalink": "https://t.me/MatinSenPaii/3144",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3143",
@@ -2101,7 +2247,8 @@
       "views_label": "38K",
       "posted_at": "2026-05-18T14:01:31+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3143"
+      "permalink": "https://t.me/MatinSenPaii/3143",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3141",
@@ -2132,7 +2279,8 @@
       "views_label": "36.9K",
       "posted_at": "2026-05-18T13:57:22+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3141"
+      "permalink": "https://t.me/MatinSenPaii/3141",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3138",
@@ -2163,7 +2311,8 @@
       "views_label": "36.8K",
       "posted_at": "2026-05-18T13:48:25+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3138"
+      "permalink": "https://t.me/MatinSenPaii/3138",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3137",
@@ -2180,7 +2329,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/Qp5v5095_1IDgVH4nHGHc3Pe129wR31d9xG1oWeC7TSDHth-Ipea8tqhQL4qm6GE2qtusjq-WKtYTCF7IxLLEcP0XE3PQqm3f2hKCAjUbeOpx0CPwfYb1HJ9lnMzYV0xzcUEg1cLYuu9pSg0svEBcXwA6lqBhTsJiEkErmO-uemdA0smD9JLa93bJ88oDY8wDZlOnEbgVw1t8B3UQdhnOGn1IBX3zL6z2Fu_WdTb2Urn8YsrdpEE_zqqEYynTh3nD1nxQfG6bMMfWcKQ4uwQ67UMzwteL4_QATI1EXdqx7lCHfIpA_gE-ryGqkh7u6NKaiw2t6zsonafLBX_DocDYw.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/3e5c632ef067ebfe360c2abb.jpg",
           "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
+          "aspect_ratio": 0.7500000000000188,
+          "thumbnail_sha256": "16519fe4fcdc983ea46aab0aaf169812cb5b71a3111e7ecef11ebc88187db736"
         }
       ],
       "reactions": [
@@ -2204,7 +2354,8 @@
       "views_label": "37K",
       "posted_at": "2026-05-18T13:45:53+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3137"
+      "permalink": "https://t.me/MatinSenPaii/3137",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3136",
@@ -2235,7 +2386,8 @@
       "views_label": "36.7K",
       "posted_at": "2026-05-18T13:31:22+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3136"
+      "permalink": "https://t.me/MatinSenPaii/3136",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3135",
@@ -2266,7 +2418,8 @@
       "views_label": "36.4K",
       "posted_at": "2026-05-18T13:27:32+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3135"
+      "permalink": "https://t.me/MatinSenPaii/3135",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3134",
@@ -2297,7 +2450,8 @@
       "views_label": "35.5K",
       "posted_at": "2026-05-18T13:19:21+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3134"
+      "permalink": "https://t.me/MatinSenPaii/3134",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3128",
@@ -2328,7 +2482,8 @@
       "views_label": "32K",
       "posted_at": "2026-05-18T11:03:54+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3128"
+      "permalink": "https://t.me/MatinSenPaii/3128",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3133",
@@ -2359,7 +2514,8 @@
       "views_label": "33.9K",
       "posted_at": "2026-05-18T11:03:54+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3133"
+      "permalink": "https://t.me/MatinSenPaii/3133",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3127",
@@ -2376,7 +2532,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/q44Ld-Z6r4KT9D_L0mZHRS2sWxxYDL6EQ076C7Qj7UaepCwyCkaBpKvAD6RiD6Wf9quoWGqYja6VpD_Cu3d0J_o-LHvfxGzCM-QjlZy16zTzjhhkBxBJ9RiM21tJ-Y5PwSiYkBF8p2h9udKMNtz0KFi6f4lkyEGVrIxAfdApbFm2u0RbBjc6yiE2Yh0SxjjTOpx73Y27_3-JdUvhHHX4mtKaREV3tl8qys9ZJ0BUizvweBZJ5SRrpQF6q1h3XAVrGU6WQrLwmS_gojfVbvr3M6Und6J9HIR9FlHRMzGo-SZvZnmMm2NOpdy_ZBj8HWBZEVwMFL7q-15XcqEmhYyGVQ.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/0006c91cd6124310142b62cb.jpg",
           "duration_label": null,
-          "aspect_ratio": 1.2387096774193498
+          "aspect_ratio": 1.2387096774193498,
+          "thumbnail_sha256": "f1f3d855bb5d193e5fc53cc2665d2059d4ff33081d8c33c703bf77d5f2368982"
         }
       ],
       "reactions": [
@@ -2404,7 +2561,8 @@
       "views_label": "41.5K",
       "posted_at": "2026-05-18T09:02:58+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3127"
+      "permalink": "https://t.me/MatinSenPaii/3127",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3126",
@@ -2435,7 +2593,8 @@
       "views_label": "41K",
       "posted_at": "2026-05-18T08:40:45+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3126"
+      "permalink": "https://t.me/MatinSenPaii/3126",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3125",
@@ -2466,7 +2625,8 @@
       "views_label": "42.1K",
       "posted_at": "2026-05-18T08:13:51+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3125"
+      "permalink": "https://t.me/MatinSenPaii/3125",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3123",
@@ -2483,7 +2643,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/OG_4DgMbgBfBE6sWyUuJ48_ndZdKG1-_ETS91fczE-3U5pMecu2N4gr4-PsnwRPtl_xJtsg9LlmahqeF1NCn59-qL54aC4gMX9Dngu4DBMafGiAr3ruJaQeWcgyUgqp9LBtnfr2_AAlMkhpLHniXYNLR3gZRWCgcdWxL7WTb5haYR6uz9hFPQGI0Vdwy7Kaz8k9DknpTCqcyC8LwCa4hciTSluYZLeHOZAlNvD571O0r0aXsDDSysY_RVywe_umLXBQBqV_YR8AFrknqqDloS_1lkAfjraVsIzE_ZRVd94GRf-Adk8p2fzZJ8qpsoMQsmPbZSWX4fhpMSv1xYoq4Og.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/6712cbc0ba364825d7ed09b3.jpg",
           "duration_label": null,
-          "aspect_ratio": 2.6377952755906
+          "aspect_ratio": 2.6377952755906,
+          "thumbnail_sha256": "afc596e1727c65f0b526ce9c8a2ed06f6521c7d6c3cebaeb3b0f41a60ed12af0"
         },
         {
           "kind": "photo",
@@ -2492,7 +2653,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/LD_dtSodoSESRPctlBIDXWKYg87FPj0u78C3HNN_UgHWz8nB6VKBJb3uftsCjEXb3CMSYLXqU_2_DNrftTwuSIb_KmPKSRaoYjyXcU0yHb5fISXB9LrSE75ujh1ninegwp-scR6-5-gKOlKAobRBKcu-yJzOXAnLnbiu4jG8s2h2WmPI-oBFxvFHu2VgxxSbsnUk770sUSnVa5j5Z8Z2gjDwbRrJ2DB5OuY8OtNJl7FZ0LF9hMegxtZ1Pj3_vHyZ6WHTgf0ONlIBfAEXFMHvSQd22oEQCM--F46vPZ4g3rzcs3nVeyj99Xu_CjrmZmEFRJv5oVEe4AaVPNsetpngzQ.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/9662cd2d31c3a4a06493d28c.jpg",
           "duration_label": null,
-          "aspect_ratio": 1.8058690744921
+          "aspect_ratio": 1.8058690744921,
+          "thumbnail_sha256": "42a67fa5797b0079a49ad135e4de9aa33868d07918399c88e821cd5c35ae9de2"
         }
       ],
       "reactions": [
@@ -2516,7 +2678,8 @@
       "views_label": "40.2K",
       "posted_at": "2026-05-18T07:21:29+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3123"
+      "permalink": "https://t.me/MatinSenPaii/3123",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3122",
@@ -2547,7 +2710,8 @@
       "views_label": "38.3K",
       "posted_at": "2026-05-18T07:05:54+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3122"
+      "permalink": "https://t.me/MatinSenPaii/3122",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3121",
@@ -2564,7 +2728,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/Fle2obtsP6JjOfJ-QZx4Htni99J49wOj1isKwVPPRDH26R6nckE3tHuGLpJezcrrojfjUSljTJopFLrf-OZa65g-MfTrdTZscKcrLvHHEmaKOAo5rX3Ae1czNBIWCQcscq_WRzgk2YZLTKlBm6liQMNoHGXYF-DPB7rFzT6umls9Pk6hqEIFuL9rdmjQDA0s405Ffz6Bg_3F02v5WIjuQc8FN3yiP9p2HdMR8H1_0A5McrttfRkpRb_NhspUiQe_bs_tj0EhLSvOQBzgz42ThD9T8-h9GmKH9rNg8e53k_-_s6bf3lKLHFt2HPewf5hIIK8zsWPBkHLZhNMgAKHjVw.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/c875c38ce05a4ededcf56795.jpg",
           "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
+          "aspect_ratio": 0.7500000000000188,
+          "thumbnail_sha256": "d572a90149e47a5764e66dc945c4e08956dc3e68dc0dbd2f9ae1882ce2b92ff1"
         }
       ],
       "reactions": [
@@ -2588,7 +2753,8 @@
       "views_label": "37.4K",
       "posted_at": "2026-05-18T07:05:38+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3121"
+      "permalink": "https://t.me/MatinSenPaii/3121",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3120",
@@ -2619,7 +2785,8 @@
       "views_label": "36.1K",
       "posted_at": "2026-05-18T06:50:08+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3120"
+      "permalink": "https://t.me/MatinSenPaii/3120",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3119",
@@ -2636,7 +2803,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/plQUwuPTBCLAuUhiySyMqxXjpGkEUPyL0DChPO_Vk6SlvQnproV3O5sQ_Oe8YW9kRI68k-t1Zb3daOPOol8J0fsa6xGN1V_k4BYa27r6O10cZHYUDc87mW3drdR5PCSwxWI-qEbJ5aHdIr7dsSMg5SCcWarvXpjSSyb7sgmScGn9NXE_vj1NPOHHSe2EpbPQPNeG4y2TmYtAqgvUpFhy5CgnG0LYFK4Ttqg72KsYr5j-fw8GAgMzWtyXDfALa_5vpjQJ3MiTPAawK7pjawUvczusH9uEp4BOmBcxCilCEbEHq41OFf0lukUKUvWoy1kQfe-P__hjxi07e6JjNdWgZg.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/7f82503e073f5e5ecb5d1c94.jpg",
           "duration_label": null,
-          "aspect_ratio": 2.829545454545486
+          "aspect_ratio": 2.829545454545486,
+          "thumbnail_sha256": "38fe2bf3ed843dfa45c37c873a9cee7f483c019977a468753cb35969c5ea424a"
         }
       ],
       "reactions": [
@@ -2656,7 +2824,8 @@
       "views_label": "36.9K",
       "posted_at": "2026-05-18T06:44:23+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3119"
+      "permalink": "https://t.me/MatinSenPaii/3119",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3118",
@@ -2687,7 +2856,8 @@
       "views_label": "39.6K",
       "posted_at": "2026-05-18T05:37:22+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3118"
+      "permalink": "https://t.me/MatinSenPaii/3118",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3117",
@@ -2701,7 +2871,8 @@
       "views_label": null,
       "posted_at": "2026-05-17T20:32:40+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3117"
+      "permalink": "https://t.me/MatinSenPaii/3117",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3116",
@@ -2718,7 +2889,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/TCIMkhKEWu2kTrgoL0KzV5n4-q05qxfBj4jQLvvDqqWHgwHmkh5cnvtyhTefhi3tdUtqWe5dha0rgtEn0n9MnSklBOE11HLxSW_j-tX9fJyjNlF933_417O-mmk4Z4BqVsWASjxSapzN-Kr8JnEKr8Y8GDG_LT9hRkxSOcwQBkKH9NdY-EB_UHlfqI2eVphQY6q0SKg_LvWWTPu37qYMtlnK5qhzStKd-nWcYyMFtIQBO0CqHK7GasDmxb-FccdWC27m9EmrBYnOMKXLQBE04qIEtQYReDNKH501WAMIv7ZBM_14SRJIvQqHMm61Ph5T5lIDuqWzgv6Z6CICd91rFA.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/59db469e76c7f38f31f31518.jpg",
           "duration_label": null,
-          "aspect_ratio": 0.8387500000000291
+          "aspect_ratio": 0.8387500000000291,
+          "thumbnail_sha256": "f920de7d72f7ebf0113aa2a83abda9fec78e8c28f560ad0d8bf1ca4a04f6d676"
         }
       ],
       "reactions": [
@@ -2746,7 +2918,8 @@
       "views_label": "47.9K",
       "posted_at": "2026-05-17T20:23:27+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3116"
+      "permalink": "https://t.me/MatinSenPaii/3116",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3115",
@@ -2781,7 +2954,8 @@
       "views_label": "47K",
       "posted_at": "2026-05-17T20:07:54+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3115"
+      "permalink": "https://t.me/MatinSenPaii/3115",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3114",
@@ -2812,7 +2986,8 @@
       "views_label": "47.4K",
       "posted_at": "2026-05-17T20:02:33+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3114"
+      "permalink": "https://t.me/MatinSenPaii/3114",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3113",
@@ -2843,7 +3018,8 @@
       "views_label": "45.9K",
       "posted_at": "2026-05-17T20:00:16+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3113"
+      "permalink": "https://t.me/MatinSenPaii/3113",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3112",
@@ -2874,7 +3050,8 @@
       "views_label": "45.6K",
       "posted_at": "2026-05-17T19:56:16+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3112"
+      "permalink": "https://t.me/MatinSenPaii/3112",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3111",
@@ -2905,7 +3082,8 @@
       "views_label": "42K",
       "posted_at": "2026-05-17T19:55:55+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3111"
+      "permalink": "https://t.me/MatinSenPaii/3111",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3110",
@@ -2936,7 +3114,8 @@
       "views_label": "45K",
       "posted_at": "2026-05-17T19:41:40+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3110"
+      "permalink": "https://t.me/MatinSenPaii/3110",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3109",
@@ -2967,7 +3146,8 @@
       "views_label": "49.1K",
       "posted_at": "2026-05-17T18:30:05+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3109"
+      "permalink": "https://t.me/MatinSenPaii/3109",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3108",
@@ -2984,7 +3164,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/eEvIWg_hbLqkWGohtMNTyQlyYntOfPcwbFF7P7nfQ1Kk3cg1ck4UlXe5IbPUym-XSX6nkFcyt_XODAJ5X6iOS2CdJlOIqWRsPIpZRstsGl7FEBHAzi7nUHWF1mytntCGO3C4yFAG60q4VfgmKnxCf_1GogtN7lQdYY6g28wJoDbB-s7F5MmdZWjmG4zcBmFJkAc3Si9vFJxJoFsgPwsJW1v7U7rUEXw995HReIpSNqjomBIN7_O1dm2vWiLFz4lNZxUncwXzmysItyqCM3nX0sqpmXTzTJdZ2YWSaGBs9DYlPELId0AG-dacDWKvXHTue4A8YL2ymHlfxAZE2rD9cA.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/c78b31ec7473660e9bf1b3c0.jpg",
           "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
+          "aspect_ratio": 0.7500000000000188,
+          "thumbnail_sha256": "3bb9503f388c229b4091a0890c705cedcfecf41941344f17deab150e8afc16ba"
         }
       ],
       "reactions": [
@@ -3008,7 +3189,8 @@
       "views_label": "50.1K",
       "posted_at": "2026-05-17T18:18:17+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3108"
+      "permalink": "https://t.me/MatinSenPaii/3108",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3107",
@@ -3025,7 +3207,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/tUlG-WG6YKCYIn246u36FexESWRXxHRiYDEN7AgRFZSET9PhosotU9IdPdqcEeJP-taK2TFD_VOkcWAzuVDD0fPsHcRyhLxCCFRrcwBjHmBQyd_lRDWYcll2rp4mxCdrGOaufgGw7HbwwvRuHkdUt6vtifJXV-9S8FcLVLWhF5YrpC5Yw3C3Jj2tcoIBKhqXzZoolNyuu_AjWFV2lM64R1SHIeZ92agMMtMSOHKWVAgZ64AgBnW2Py8i2xDeNwSqT93HZJj9zFfQN0pp1BBSkC9Ru5-u7t0oypgsHlfvACh_bVH-1J_8BE1IifTDWc2OPhiF-CJOGqG6GoX3gabVpg.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/fcbdc452618221c5f457d3c7.jpg",
           "duration_label": null,
-          "aspect_ratio": 1.6496350364963415
+          "aspect_ratio": 1.6496350364963415,
+          "thumbnail_sha256": "cb5a7fa9504ee74c25832b62213a372f6db1a3e8b9ed5ff923e7bc0e57cf314d"
         }
       ],
       "reactions": [
@@ -3049,7 +3232,8 @@
       "views_label": "55.5K",
       "posted_at": "2026-05-17T14:32:34+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3107"
+      "permalink": "https://t.me/MatinSenPaii/3107",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3106",
@@ -3080,7 +3264,8 @@
       "views_label": "53.8K",
       "posted_at": "2026-05-17T13:09:35+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3106"
+      "permalink": "https://t.me/MatinSenPaii/3106",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3105",
@@ -3097,7 +3282,8 @@
           "thumbnail_url": "https://cdn1.telesco.pe/file/iXN5pmX8rmmTp3AAt7L6oDiNHXY_2qpmM5lX0Zn_Et2VGTbEVU1bxBasJFMvtPoEsm7Oi87yjSRKV8fLB7IvS5X8Z6_cxg4IJ7flSJ_M1s3wT80UAVxvOJScGBs7_5ZtXjI2Us6aStwrwX_VY9otbc8h32_ZQ5_fADuCtpYKoN97g1dpYr_yPk92U-HqEYruOnXfI17Yx4ckIFxRuPxJssP5eMgfpnrxIczu0NKgAa1OF35vF3iV-rmWNeCWd3CHzzAPHvrEzAFbQyfSf0nehTSL4hKQM9AwV8B11qSWpHk6jyW3dVkYRvP5aG6SibzmCos4hP25D5tPPMTElxi93Q.jpg",
           "thumbnail_path": "channels/matinsenpaii/media/0002f18e1fd995c36f765ac8.jpg",
           "duration_label": null,
-          "aspect_ratio": 1.2884250474383254
+          "aspect_ratio": 1.2884250474383254,
+          "thumbnail_sha256": "ecf6910c7c756d9032bd96cfdfad160330c35d5d3a02c0c5d0e924b64a156e59"
         }
       ],
       "reactions": [
@@ -3125,7 +3311,8 @@
       "views_label": "55.5K",
       "posted_at": "2026-05-17T11:36:16+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3105"
+      "permalink": "https://t.me/MatinSenPaii/3105",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3104",
@@ -3160,7 +3347,8 @@
       "views_label": "58.2K",
       "posted_at": "2026-05-17T10:50:36+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3104"
+      "permalink": "https://t.me/MatinSenPaii/3104",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3103",
@@ -3191,7 +3379,8 @@
       "views_label": "55K",
       "posted_at": "2026-05-17T09:59:38+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3103"
+      "permalink": "https://t.me/MatinSenPaii/3103",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3100",
@@ -3222,7 +3411,8 @@
       "views_label": "59.8K",
       "posted_at": "2026-05-17T08:41:42+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3100"
+      "permalink": "https://t.me/MatinSenPaii/3100",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3099",
@@ -3253,7 +3443,8 @@
       "views_label": "50.6K",
       "posted_at": "2026-05-17T08:39:05+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3099"
+      "permalink": "https://t.me/MatinSenPaii/3099",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3098",
@@ -3270,7 +3461,8 @@
           "thumbnail_url": "https://cdn4.telesco.pe/file/r9gdf0OW8GjBBtWkRpKsmWV9_D-96TghpdDfn5RNyi1pdCYds8DXtFUh9iOgpsKwFYZAXX-qDL7Z1PO-gQpt1pj-gJTMxw6-nc2QT7vmV2F4lDfEIvb9woali6OqBgI3l9OedvgiKscySvNKuQa4-qoC7gPife4T5wdsJsYXos8dheN7WaKb15CLylJYqL9R2QktGTaZYFlNkqnUkxKCgT1WRgGedZqcaOimETk93qAZ0xCExsFopVBSKrXoo-sD4pTngXiIeNXoK1U4ZTqP-pKwuv9db4uHnHZ8yKoLxwuEFNTlLpAKdJh8tuHuHwFdc_2X8q6mYYlDgcRs1wDvOg",
           "thumbnail_path": "channels/matinsenpaii/media/75fbcb301c19e71447e1733e.jpg",
           "duration_label": "1:38",
-          "aspect_ratio": 0.7500000000000188
+          "aspect_ratio": 0.7500000000000188,
+          "thumbnail_sha256": "1d9342bb4f8d16a1dc1c4480103045d6f53d0ec1c745ac0634ac0cafccc990a0"
         }
       ],
       "reactions": [
@@ -3294,7 +3486,8 @@
       "views_label": "55.8K",
       "posted_at": "2026-05-17T08:38:40+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3098"
+      "permalink": "https://t.me/MatinSenPaii/3098",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3097",
@@ -3325,7 +3518,8 @@
       "views_label": "51.6K",
       "posted_at": "2026-05-17T06:54:30+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3097"
+      "permalink": "https://t.me/MatinSenPaii/3097",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3096",
@@ -3356,7 +3550,8 @@
       "views_label": "53.6K",
       "posted_at": "2026-05-17T06:24:30+00:00",
       "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3096"
+      "permalink": "https://t.me/MatinSenPaii/3096",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3095",
@@ -3387,7 +3582,8 @@
       "views_label": "57.8K",
       "posted_at": "2026-05-16T23:14:41+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3095"
+      "permalink": "https://t.me/MatinSenPaii/3095",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3094",
@@ -3422,7 +3618,8 @@
       "views_label": "64.1K",
       "posted_at": "2026-05-16T13:53:04+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3094"
+      "permalink": "https://t.me/MatinSenPaii/3094",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     },
     {
       "id": "MatinSenPaii/3093",
@@ -3453,7 +3650,8 @@
       "views_label": "64.4K",
       "posted_at": "2026-05-16T13:50:21+00:00",
       "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3093"
+      "permalink": "https://t.me/MatinSenPaii/3093",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     }
   ]
 }
