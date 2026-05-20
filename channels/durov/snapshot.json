@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-20T15:35:47.776Z",
+  "fetched_at": "2026-05-20T15:40:57.047Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,51 @@
     "subscriber_count": "11.4M"
   },
   "posts": [
+    {
+      "id": "durov/519",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/TZx3TrqKA9j3JGmS0qPoc58EbY3NDpNuKcHqhnWIMF8BzGYkE7XHUn-TUTGJpQqm5UoYzcx37MuR10-tfA_UyiAuwvzyohKTrz6SWpq_GtcNfUoseN6TVa5Bvn2t7JDrJYhvMFgCjKfjlrr2LZYs2gqLq9AL1b5uAPSX8tKVe3cbGZ8x6N8SjIVCeY1jmUlmc5iKnGbq4qsvt753iv6cJC4vikARoBwA8mDW2HUY-kwH5tyW7oNnYpcMFEhirktVCB8Fv9eCHRta3xCS6oyco1YCjv6yxFJQ-1Csp-qIsXdLiT3JpmIXnHOun2ybs1OjmNY3HsW_I7dqoS__lkcVeQ.jpg",
+      "author_photo_path": "channels/durov/media/6d5a42039c231794c0d3cd01.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<tg-emoji emoji-id=\"5345799227572257356\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i></tg-emoji> Your Telegram inbox can now run itself.<br><br>Assign a bot to read and reply for you — with granular control over its rights and chat access. <tg-emoji emoji-id=\"5226639745106330551\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A0.png')\"><b>🧠</b></i></tg-emoji><br><br><tg-emoji emoji-id=\"5341715473882955310\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i></tg-emoji> <a href=\"https://core.telegram.org/bots/features#secretary-bots\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Start building</a>!",
+      "plain_text": "🤖 Your Telegram inbox can now run itself.\n\nAssign a bot to read and reply for you — with granular control over its rights and chat access. 🧠\n\n⚙️ Start building!",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/durov/519",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/XyGk7rKccuCpUkW-0BhkdgrVQjhM1LdTYoL4FCBLKTo3oYEbV4yRxhEmpwdp56cvOvRve3WBNRRDh4eYcGIpgeK4DbyWCDrNXAtuhFNERz7Tbee05SfpNs2-PAvBNAcT-9uUTWyQdZpFER3WH47W0e9OfhZSfjabDSpfkdpyZzWPyWZo4YZWXQqise6tOd66wZeEz3rHY7XCL0QMBsXxPhnLZmF2DThNNZMVJBV24E6DCuOc1Of1-gxZVagVMSx3CRL7T8SVKtf0-pB5hLgR3_2_9cXMdzhsDBjKYdxjvjqHwVwL5dW2EgSzpKieR0mcxVzbihk5XMFAfGG454GsBg",
+          "thumbnail_path": "channels/durov/media/0c7a4eff1f4684b1eab86a65.jpg",
+          "thumbnail_sha256": "2465426e116ab14c66dc9165de83f5976b59e679aa75aa5dc6161702a8e7aac1",
+          "duration_label": "0:09",
+          "aspect_ratio": 0.8443051201671602
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "373"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.21K"
+        },
+        {
+          "emoji": "💎",
+          "count": "632"
+        },
+        {
+          "emoji": "💎",
+          "count": "567"
+        }
+      ],
+      "views_label": "65K",
+      "posted_at": "2026-05-20T15:38:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/519",
+      "reply": null
+    },
     {
       "id": "durov/518",
       "author_name": "Pavel Durov",
@@ -35,22 +80,22 @@
       "reactions": [
         {
           "emoji": "⭐",
-          "count": "6.95K"
+          "count": "6.96K"
         },
         {
           "emoji": "💎",
-          "count": "16.3K"
+          "count": "16.4K"
         },
         {
           "emoji": "💎",
-          "count": "6.25K"
+          "count": "6.29K"
         },
         {
           "emoji": "💎",
-          "count": "4.68K"
+          "count": "4.71K"
         }
       ],
-      "views_label": "710K",
+      "views_label": "731K",
       "posted_at": "2026-05-19T18:02:53+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/518",
@@ -84,18 +129,18 @@
         },
         {
           "emoji": "💎",
-          "count": "17.6K"
+          "count": "17.7K"
         },
         {
           "emoji": "💎",
-          "count": "5.81K"
+          "count": "5.82K"
         },
         {
           "emoji": "💎",
-          "count": "5.41K"
+          "count": "5.42K"
         }
       ],
-      "views_label": "1M",
+      "views_label": "1.01M",
       "posted_at": "2026-05-18T14:56:21+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/517",
@@ -125,10 +170,10 @@
         },
         {
           "emoji": "💎",
-          "count": "13.9K"
+          "count": "14K"
         }
       ],
-      "views_label": "1.57M",
+      "views_label": "1.58M",
       "posted_at": "2026-05-17T14:55:50+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/516",
@@ -162,7 +207,7 @@
         },
         {
           "emoji": "💎",
-          "count": "24.3K"
+          "count": "24.4K"
         },
         {
           "emoji": "💎",
@@ -199,7 +244,7 @@
         },
         {
           "emoji": "💎",
-          "count": "45.7K"
+          "count": "45.8K"
         },
         {
           "emoji": "💎",
@@ -214,7 +259,7 @@
           "count": "6.26K"
         }
       ],
-      "views_label": "1.57M",
+      "views_label": "1.58M",
       "posted_at": "2026-05-16T13:57:49+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/514",
@@ -251,7 +296,7 @@
           "count": "2.03K"
         }
       ],
-      "views_label": "1.7M",
+      "views_label": "1.71M",
       "posted_at": "2026-05-15T18:14:32+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/513",
@@ -360,7 +405,7 @@
           "count": "3.33K"
         }
       ],
-      "views_label": "2.2M",
+      "views_label": "2.21M",
       "posted_at": "2026-05-12T17:28:39+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/510",
@@ -397,7 +442,7 @@
           "count": "2.23K"
         }
       ],
-      "views_label": "2.09M",
+      "views_label": "2.1M",
       "posted_at": "2026-05-11T19:32:24+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/509",
@@ -446,7 +491,7 @@
           "count": "4.11K"
         }
       ],
-      "views_label": "2.32M",
+      "views_label": "2.33M",
       "posted_at": "2026-05-10T18:42:03+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/508",
@@ -495,7 +540,7 @@
           "count": "4.76K"
         }
       ],
-      "views_label": "2.33M",
+      "views_label": "2.34M",
       "posted_at": "2026-05-09T22:24:14+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/507",
