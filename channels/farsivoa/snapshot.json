@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-20T17:25:52.908Z",
+  "fetched_at": "2026-05-20T17:31:07.325Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,34 @@
     "subscriber_count": "123K"
   },
   "posts": [
+    {
+      "id": "farsivoa/218241",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/t98RdfEWdvcrkI1kM2OncXqs3ok7mxT0hy-Us-T4-EOyy85HHau6UG6vlmb6WewrMAkW4VHlcjBlDLyXjVIrQ7hvk7wFOT-TAHwKGNY2kMV7vwqLABObIDZBUcWSKmLUF8XCXczAUEbmejVRtz6dIBYUBmh_jJK0qcV6P45dxZ4519aK1qR_BgxiVXLY-3r1dinJeTSnE2dYIqbj9elwwiMjSqnKk01RA-qOM5Ux16066fe2l07mtDfGGyCAThXRRvCK0W3HbGJnUuznjQKtTzkxAtaLdvcvzg6yKj_hVM3Rhcfhp1yZMEPV3vC1_-8d9snrxa6aq0XywF-IBfUFRw.jpg",
+      "author_photo_path": "channels/farsivoa/media/e17ef8ca7c358f8a29c1d031.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "پیام صریح بغداد به گروه‌های مسلح: هیچ حمله‌ای از خاک عراق تحمل نمی‌شود",
+      "plain_text": "پیام صریح بغداد به گروه‌های مسلح: هیچ حمله‌ای از خاک عراق تحمل نمی‌شود",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/218241",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/lF4eYEYEp-GYIKWBs_XV3ryiZOlKwlvT5feyqix0gIMYGVthpDhcnGk0DxwJOj9uV9xaLHqRA3gsNhQq-8-FkME9af2xAFa6lduXG2JA6OpkwET3k1m8ccOH8XBEHcb7b4szfkkKDqssonPxINB9E-8CdpQNinzJj_5hjmYYFhAreA5Mn-mlpKop_Fk5Xk0XSJI2u9W_wyidJ6CWD_o0LJOeCLYe3ttecCbw-i19BWZWqoCKHz-z2A76Ys71wjvO8MtWlpxbe_AcCyG6RajqtNdoOmCJo0Kvp8Np9KqCHSdK-ytOfwCQwWFmxA5_xjg5sFhFopSp7rbv36-h9VGnzQ",
+          "thumbnail_path": "channels/farsivoa/media/d85b6d37dc7d25554b74cce9.jpg",
+          "thumbnail_sha256": "1d2628f14b7c8f0cf190d43a15fa1c3e19821e9a55445dfaa295996da7528d62",
+          "duration_label": "3:37",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "140",
+      "posted_at": "2026-05-20T17:27:31+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/218241",
+      "reply": null
+    },
     {
       "id": "farsivoa/218240",
       "author_name": "Farsi VOA",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "323",
+      "views_label": "497",
       "posted_at": "2026-05-20T17:17:44+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218240",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "465",
+      "views_label": "605",
       "posted_at": "2026-05-20T17:10:24+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218239",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "499",
+      "views_label": "635",
       "posted_at": "2026-05-20T17:08:24+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218238",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "630",
+      "views_label": "704",
       "posted_at": "2026-05-20T17:03:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218237",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "727",
+      "views_label": "830",
       "posted_at": "2026-05-20T16:58:30+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218236",
@@ -173,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "887",
+      "views_label": "989",
       "posted_at": "2026-05-20T16:48:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218235",
@@ -201,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "846",
+      "views_label": "918",
       "posted_at": "2026-05-20T16:47:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218234",
@@ -217,7 +245,7 @@
       "plain_text": "🔺پرزیدنت ترامپ درباره عملیات نظامی علیه رژيم ایران: یا توافق امضا می‌شود یا کار را تمام می‌کنیم\n\n▪️رئیس جمهوری آمریکا روز چهارشنبه ۳۰ اردیبهشت در مراسم دانش‌آموختگی آکادمی گارد ساحلی در شهر نیو لاندن، ایالت کنتیکت، درباره اقدام آتی ایالات متحده در قبال جمهوری اسلامی و عملیات نظامی علیه رژيم ایران گفت: «یا توافق امضا می‌شود یا کار را تمام می‌کنیم.»\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/trump-coast-guard-academy/8152031.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "917",
+      "views_label": "959",
       "posted_at": "2026-05-20T16:43:48+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218233",
@@ -233,7 +261,7 @@
       "plain_text": "🔺سنتکام درباره محاصره دریایی جمهوری اسلامی: ۹۰ کشتی را وادار به تغییر مسیر و ۴ کشتی را غیر فعال کردیم\n\n▪️سنتکام در یک به‌روز‌رسانی تازه درباره محاصره دریایی جمهوری اسلامی، از افزایش تعداد شناورهایی که در جریان این عملیات وادار به تغییر مسیر شده و یا از کار افتاده‌اند، خبر داد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/ship-patrol-strait-of-hormuz-attack-helicopter/8151990.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.18K",
+      "views_label": "1.22K",
       "posted_at": "2026-05-20T16:23:41+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218232",
@@ -261,7 +289,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.67K",
+      "views_label": "1.7K",
       "posted_at": "2026-05-20T15:38:48+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/218231",
@@ -344,7 +372,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.89K",
+      "views_label": "1.93K",
       "posted_at": "2026-05-20T15:10:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218225",
@@ -372,7 +400,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.94K",
+      "views_label": "1.98K",
       "posted_at": "2026-05-20T15:01:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218224",
@@ -388,7 +416,7 @@
       "plain_text": "🔺پرزیدنت ترامپ: در ایران شرایط زندگی بسیار بد و میزان خشم و نارضایتی بی‌سابقه است؛ تنگه هرمز باز خواهد شد\n\n▪️پرزیدنت ترامپ گفت: «الان در ایران خشم زیادی وجود دارد چون مردم وضعیت زندگی بسیار بدی دارند. ناآرامی زیادی هست که قبلاً این‌قدر ندیده بودیم و خواهیم دید چه اتفاقی می‌افتد.»\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-trump-us-people-hormuz/8152001.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.26K",
+      "views_label": "2.29K",
       "posted_at": "2026-05-20T14:37:31+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218223",
@@ -2456,32 +2484,6 @@
       "posted_at": "2026-05-19T12:59:26+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218137",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90"
-    },
-    {
-      "id": "farsivoa/218136",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/QH39GYSQojdgR8it0RhjsgFzxmfmvO0H_gQA33ujDk6l2fBD5e47_m_43uueJbEM5FbXqMRHvaegj1hgna6-66KU9mklk1sgft9Y1BmtGbhIa_JGA36QLCH5wBRSR7Z_SDzxo7PBf9HoU5OXhmGCdPyGSo0yjtZNOH2JQeLDXXtK_S6UtAEtJ7iWbPHjUBjbwfsF7Xza8Np0krtolXTMNGItjZOwh2yM0-oAgayEJr-XW9Yo7rEjRokCFpuOa1Oj0gKt9PFq1uGbds-Umz6phWs7wUNIB2jMHsbZjJ66ePJe2KdcB_2SAh7KVddegU82FxJ4KpUw2XKElkRU6HGHWA.jpg",
-      "author_photo_path": "channels/farsivoa/media/c9e4d12e46bcde6b412ba951.jpg",
-      "body_html": "لحظه زیر گرفتن عابران توسط یک خودرو در ایتالیا؛ رد تروریستی بودن حادثه از سوی مقامات امنیتی؛<br><br>مقامات ایتالیا رسماً اعلام کردند که حمله روز گذشته با خودرو به عابران پیاده در شهر مودنا، یک اقدام تروریستی نبوده است.<br><br>این حمله توسط فردی به نام «سلیم الکودری» انجام شده بود.<br><br>بر اساس گزارش خبرگزاری‌های رسمی از جمله رویترز، این حادثه هیچ کشته‌ای نداشته، اما ۸ نفر زخمی شده‌اند که حال ۴ نفر از آن‌ها وخیم گزارش شده است.<br><br>بر اساس بیانیه دستگاه‌های امنیتی و قضایی ایتالیا، بررسی‌ها نشان می‌دهد این اقدام ناشی از «مشکلات روحی و روانی» شدید ضارب بوده و هیچ انگیزه تروریستی یا سازمان‌یافته‌ای پشت آن نبوده است.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "لحظه زیر گرفتن عابران توسط یک خودرو در ایتالیا؛ رد تروریستی بودن حادثه از سوی مقامات امنیتی؛ مقامات ایتالیا رسماً اعلام کردند که حمله روز گذشته با خودرو به عابران پیاده در شهر مودنا، یک اقدام تروریستی نبوده است. این حمله توسط فردی به نام «سلیم الکودری» انجام شده بود. بر اساس گزارش خبرگزاری‌های رسمی از جمله رویترز، این حادثه هیچ کشته‌ای نداشته، اما ۸ نفر زخمی شده‌اند که حال ۴ نفر از آن‌ها وخیم گزارش شده است. بر اساس بیانیه دستگاه‌های امنیتی و قضایی ایتالیا، بررسی‌ها نشان می‌دهد این اقدام ناشی از «مشکلات روحی و روانی» شدید ضارب بوده و هیچ انگیزه تروریستی یا سازمان‌یافته‌ای پشت آن نبوده است. @FarsiVOA",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/218136",
-          "asset_path": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/qZOqgYyzHlXNcTEJYrW5LZqCN6_1Lnh_wWApsYhf59ArNWMH3pN3unT2tKnNzriTmIHLnu8d-CHfAwaZOk3FpgAslNjxD4sS4N3ucozkzyZ7HT46gcIEsyDHF3-IRjLk4QGEFGPEPxR4Ptf0bxkEHM11kM45lj5X1gGjfT6jbzzZdH3nvDFOnEhWyEyeuS9jQeYMXLwV4RAF1rlJWf_371EE4hBCCp2mNGLiReMuZnC6JCDAiv-itl1drJQQQyHFAhswNwRRiLuk9uzhQmSnB8sjtNJroBv6qB0F3-eNmcPSWRqcRePlX9VYPdY0uKb10DQekWGd_5F1dX9n2d8FUA",
-          "thumbnail_path": "channels/farsivoa/media/e1870652a99a7261ffd44640.jpg",
-          "duration_label": "0:10",
-          "aspect_ratio": 1.7777777777777777,
-          "thumbnail_sha256": "e54fb472ceac6a7bf010a05480c51de25b1024d7961e6918da7f6804430d9ea4"
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.03K",
-      "posted_at": "2026-05-19T11:51:42+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/218136",
       "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90"
     }
   ]
