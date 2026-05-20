@@ -106,8 +106,15 @@ function parsePost(
   const bodyHTML = textEl.html() ?? "";
   // Extract plain text but preserve <br> as newlines so post excerpts
   // read the way humans wrote them, not as one giant paragraph blob.
+  // Can't use strip() here — its \s+ collapse eats the \n we just inserted,
+  // which then makes Pigeon's row-height measurement under-count lines and
+  // tail-truncate the formatted body at render time.
   const plainEl = cheerio.load(bodyHTML.replaceAll(/<br\s*\/?>/gi, "\n"));
-  const plain = strip(plainEl.text()).replace(/[ \t]*\n[ \t]*/g, "\n");
+  const plain = plainEl
+    .text()
+    .replace(/[ \t]+/g, " ")
+    .replace(/[ \t]*\n[ \t]*/g, "\n")
+    .trim();
 
   const media = parseMedia($, wrap, channelUsername);
   const reactions = parseReactions($, wrap);
