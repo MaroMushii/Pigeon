@@ -208,27 +208,23 @@ struct PostCard: View {
     }
 
     private var reactionStrip: some View {
-        ScrollView(.horizontal) {
-            HStack(spacing: 6) {
-                ForEach(post.reactions) { reaction in
-                    HStack(spacing: 4) {
-                        Text(reaction.emoji).font(.callout)
-                        Text(reaction.count)
-                            .font(.caption)
-                            .fontWeight(.medium)
-                            .foregroundStyle(.secondary)
-                            .lineLimit(1)
-                    }
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 5)
-                    .background(.quaternary, in: .capsule)
-                    .fixedSize(horizontal: true, vertical: false)
+        ReactionFlow(hSpacing: 6, vSpacing: 6) {
+            ForEach(post.reactions) { reaction in
+                HStack(spacing: 4) {
+                    Text(reaction.emoji).font(.callout)
+                    Text(reaction.count)
+                        .font(.caption)
+                        .fontWeight(.medium)
+                        .foregroundStyle(.secondary)
+                        .lineLimit(1)
                 }
+                .padding(.horizontal, 8)
+                .padding(.vertical, 5)
+                .background(.quaternary, in: .capsule)
+                .fixedSize(horizontal: true, vertical: false)
             }
         }
-        .scrollIndicators(.hidden)
-        .scrollClipDisabled()
-        .softHorizontalScrollEdgeEffect()
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 
     private var footer: some View {
@@ -243,6 +239,76 @@ struct PostCard: View {
             }
             Spacer()
         }
+    }
+}
+
+/// Left-aligned wrapping row of pill-shaped reactions. A custom `Layout`
+/// because SwiftUI has no built-in flow container — `HStack` would
+/// overflow and get clipped by the card's rounded-rect, and wrapping it
+/// in a `ScrollView` reintroduced the unwanted horizontal scroll
+/// interaction that was the whole reason for this change.
+private struct ReactionFlow: Layout {
+    var hSpacing: CGFloat
+    var vSpacing: CGFloat
+
+    func sizeThatFits(
+        proposal: ProposedViewSize,
+        subviews: Subviews,
+        cache: inout ()
+    ) -> CGSize {
+        let maxWidth = proposal.width ?? .infinity
+        let rows = computeRows(subviews: subviews, maxWidth: maxWidth)
+        let width = rows.map { $0.width }.max() ?? 0
+        let height = rows.reduce(0) { $0 + $1.height } + CGFloat(max(0, rows.count - 1)) * vSpacing
+        return CGSize(width: width, height: height)
+    }
+
+    func placeSubviews(
+        in bounds: CGRect,
+        proposal: ProposedViewSize,
+        subviews: Subviews,
+        cache: inout ()
+    ) {
+        let rows = computeRows(subviews: subviews, maxWidth: bounds.width)
+        var y = bounds.minY
+        for row in rows {
+            var x = bounds.minX
+            for index in row.indices {
+                let size = subviews[index].sizeThatFits(.unspecified)
+                subviews[index].place(
+                    at: CGPoint(x: x, y: y),
+                    anchor: .topLeading,
+                    proposal: ProposedViewSize(size)
+                )
+                x += size.width + hSpacing
+            }
+            y += row.height + vSpacing
+        }
+    }
+
+    private struct Row {
+        var indices: [Int]
+        var width: CGFloat
+        var height: CGFloat
+    }
+
+    private func computeRows(subviews: Subviews, maxWidth: CGFloat) -> [Row] {
+        var rows: [Row] = []
+        var current = Row(indices: [], width: 0, height: 0)
+        for (index, subview) in subviews.enumerated() {
+            let size = subview.sizeThatFits(.unspecified)
+            let needsSpace = current.indices.isEmpty ? 0 : hSpacing
+            if !current.indices.isEmpty, current.width + needsSpace + size.width > maxWidth {
+                rows.append(current)
+                current = Row(indices: [], width: 0, height: 0)
+            }
+            let leading = current.indices.isEmpty ? 0 : hSpacing
+            current.indices.append(index)
+            current.width += leading + size.width
+            current.height = max(current.height, size.height)
+        }
+        if !current.indices.isEmpty { rows.append(current) }
+        return rows
     }
 }
 
