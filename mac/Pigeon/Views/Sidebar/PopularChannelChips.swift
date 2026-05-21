@@ -15,7 +15,6 @@ struct PopularChannelChips: View {
                 ForEach(channels, id: \.username) { channel in
                     PopularChannelChip(
                         username: channel.username,
-                        displayName: channel.displayName,
                         avatarFilename: channel.avatarFilename,
                         state: state(for: channel.username),
                         onTap: { onTap(channel) }
@@ -55,7 +54,6 @@ private struct PopularChannelChip: View {
     enum State { case idle, loading, added }
 
     let username: String
-    let displayName: String
     let avatarFilename: String
     let state: State
     let onTap: () -> Void
@@ -63,13 +61,11 @@ private struct PopularChannelChip: View {
 
     init(
         username: String,
-        displayName: String,
         avatarFilename: String,
         state: State,
         onTap: @escaping () -> Void
     ) {
         self.username = username
-        self.displayName = displayName
         self.avatarFilename = avatarFilename
         self.state = state
         self.onTap = onTap
@@ -85,7 +81,7 @@ private struct PopularChannelChip: View {
         Button(action: onTap) {
             HStack(spacing: 8) {
                 avatar
-                Text(displayName)
+                Text("@\(username)")
                     .font(.callout)
                     .fontWeight(.medium)
                     .lineLimit(1)
@@ -176,8 +172,8 @@ private struct PopularChannelChip: View {
     }
 
     private var initials: String {
-        displayName
-            .split(separator: " ")
+        username
+            .split(whereSeparator: { $0 == "_" || $0 == "." || $0 == "-" })
             .prefix(2)
             .compactMap { $0.first.map(String.init) }
             .joined()

@@ -4,9 +4,13 @@ import Foundation
 /// inside `AddChannelSheet`. The mirror backfills these on its first
 /// scrape, so they load instantly from `raw.githubusercontent.com` —
 /// hence the "pre-cached" copy in the sheet.
-struct PopularChannelInfo: Sendable, Hashable, Decodable {
+/// Username is the join key everywhere — bundled avatar filename, chip
+/// label (rendered as `@username`), mirror snapshot path. The
+/// post-subscription title comes from the mirror snapshot via
+/// `ChannelService`, so there's no separate display name to maintain in
+/// the catalogue.
+struct PopularChannelInfo: Sendable, Hashable {
     let username: String
-    let displayName: String
 
     /// Bundled avatar lives at
     /// `Resources/popular-channel-avatars/<username>.jpg` by convention.
@@ -43,7 +47,8 @@ final class PopularChannelsStore {
         }
         do {
             let data = try Data(contentsOf: url)
-            return try JSONDecoder().decode([PopularChannelInfo].self, from: data)
+            let usernames = try JSONDecoder().decode([String].self, from: data)
+            return usernames.map { PopularChannelInfo(username: $0) }
         } catch {
             fatalError("popular-channels.json failed to decode: \(error)")
         }
