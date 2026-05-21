@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-21T16:11:37.911Z",
+  "fetched_at": "2026-05-21T16:16:43.557Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,48 @@
     "subscriber_count": "142K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3286",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/YLuACXfpLfvLAJ7WVJjmanb6C0prLYZNY1i2JDOGNn96w8d7Xj9ud8Ll0fNaD7E69XKw8qsrKl0d6pS_39YO7340qSwaUd8CJrqBrjVWsAes9jgAkbVc6Jf51-5AVRHkoA_GNrFiJtrwuqsBzvgsGsVuA1xU6GhJ7lEoBmuqj30ISOV40GDGrI4osoutTvuoHNoMhaWzWWSBRzEnR5lAiX_sV31SJCHaU7PecLFFSEUhMJE7sPlQtSfWZWH9wem_bvn5uyvqpfYAAyP40MRqzL4G7UjU1CfrRz1GZlA4w_MQztyFOoHsPI6cvhGE_mBaj37122jAMVELTEufQsi6GA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b37f7a3648f375b8d420cc68.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "نکته‌ی مهم راجب سرورهای StormDNS و MasterDNS که روی WhiteDNS استفاده می‌کنیم:<br><br>هر سرور و پورت 53، فقط ظرفیت 255 کانکشن رو داره و دامنه برای تعداد بالاتر باید لودبالانس(توزیع بار) بشه.<br><br>خلاصه اینکه اگر با سرورهای رایگان سرعت نسبتا پایینی رو تجربه می‌کنید، به خاطر تعداد بالای کانکشن روی اون سرور هستش. اگر سرور شخصی خودتون رو راه‌اندازی کنید(که آموزشش رو ضبط می‌کنم واستون) به هیچ وجه سرعت پایینی نخواهید داشت",
+      "plain_text": "نکته‌ی مهم راجب سرورهای StormDNS و MasterDNS که روی WhiteDNS استفاده می‌کنیم:\n\nهر سرور و پورت 53، فقط ظرفیت 255 کانکشن رو داره و دامنه برای تعداد بالاتر باید لودبالانس(توزیع بار) بشه.\n\nخلاصه اینکه اگر با سرورهای رایگان سرعت نسبتا پایینی رو تجربه می‌کنید، به خاطر تعداد بالای کانکشن روی اون سرور هستش. اگر سرور شخصی خودتون رو راه‌اندازی کنید(که آموزشش رو ضبط می‌کنم واستون) به هیچ وجه سرعت پایینی نخواهید داشت",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "60"
+        },
+        {
+          "emoji": "🔥",
+          "count": "8"
+        },
+        {
+          "emoji": "😨",
+          "count": "2"
+        },
+        {
+          "emoji": "😭",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.59K",
+      "posted_at": "2026-05-21T16:14:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3286",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3283",
+        "author_name": "Matin SenPai",
+        "preview_text": "",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/U-zUrLlYXvv4tkUW67kO68jcZM08JYdI8xM4MtuGnPlJx0XgrMWlYm1eNPTB0wr7tR85ylPY6fcDLbeX6BMOtIPU9M6X8PBYXS1uxQoZowJ8xhPX9PqZ_1BQ8I9sT4nLxWAlLu9wVmUROlpFSDFluUGHMQsNtHTJ59LoD_qdxvC4CqmixLiwdko51KfOaQH06w7jGC6Yjah32VrXnHrii563hx8CIE_UY6M2VrXyPRpI9f_bA_LThNmDw3SamZBeD3-ZDQAwUaAwFL6EENzw2l-U2ws6hvGjcmkAdMupq2W1iy4kaYUIJK8VMal0DSzpxukIhB2jtq_gZkk3S4cX_A.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/7b7c6240e74b0e48b6365dc5.jpg",
+        "thumbnail_sha256": "e4820df79d35d902425c3665284f123955699326dd7237fb8a80adac3c92fbfd",
+        "permalink": "https://t.me/matinsenpaii/3283"
+      }
+    },
     {
       "id": "MatinSenPaii/3285",
       "author_name": "Matin SenPai",
@@ -23,22 +65,22 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "573"
+          "count": "600"
         },
         {
           "emoji": "👍",
-          "count": "175"
+          "count": "183"
         },
         {
           "emoji": "🎃",
-          "count": "63"
+          "count": "66"
         },
         {
           "emoji": "❤",
-          "count": "62"
+          "count": "63"
         }
       ],
-      "views_label": "12K",
+      "views_label": "13.2K",
       "posted_at": "2026-05-21T15:38:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3285",
@@ -60,7 +102,7 @@
         },
         {
           "emoji": "😁",
-          "count": "511"
+          "count": "517"
         },
         {
           "emoji": "👍",
@@ -75,7 +117,7 @@
           "count": "6"
         }
       ],
-      "views_label": "27.8K",
+      "views_label": "28.4K",
       "posted_at": "2026-05-21T13:27:42+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3284",
@@ -125,7 +167,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "314"
+          "count": "318"
         },
         {
           "emoji": "👍",
@@ -140,7 +182,7 @@
           "count": "5"
         }
       ],
-      "views_label": "30.8K",
+      "views_label": "31.2K",
       "posted_at": "2026-05-21T13:07:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3282",
@@ -158,22 +200,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "656"
+          "count": "659"
         },
         {
           "emoji": "😨",
-          "count": "355"
+          "count": "357"
         },
         {
           "emoji": "👍",
-          "count": "92"
+          "count": "93"
         },
         {
           "emoji": "🎃",
           "count": "22"
         }
       ],
-      "views_label": "34.6K",
+      "views_label": "35.3K",
       "posted_at": "2026-05-21T12:38:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3281",
@@ -203,7 +245,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "579"
+          "count": "582"
         },
         {
           "emoji": "👍",
@@ -211,14 +253,14 @@
         },
         {
           "emoji": "😁",
-          "count": "87"
+          "count": "88"
         },
         {
           "emoji": "👎",
           "count": "16"
         }
       ],
-      "views_label": "35.8K",
+      "views_label": "36.1K",
       "posted_at": "2026-05-21T12:08:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3280",
@@ -248,11 +290,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "825"
+          "count": "830"
         },
         {
           "emoji": "❤",
-          "count": "118"
+          "count": "119"
         },
         {
           "emoji": "🎃",
@@ -263,7 +305,7 @@
           "count": "5"
         }
       ],
-      "views_label": "35.5K",
+      "views_label": "35.8K",
       "posted_at": "2026-05-21T12:02:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3279",
@@ -293,7 +335,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "688"
+          "count": "695"
         },
         {
           "emoji": "👍",
@@ -308,7 +350,7 @@
           "count": "1"
         }
       ],
-      "views_label": "36K",
+      "views_label": "36.3K",
       "posted_at": "2026-05-21T11:59:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3278",
@@ -342,7 +384,7 @@
         },
         {
           "emoji": "❤",
-          "count": "896"
+          "count": "897"
         },
         {
           "emoji": "👍",
@@ -357,7 +399,7 @@
           "count": "6"
         }
       ],
-      "views_label": "38.5K",
+      "views_label": "38.8K",
       "posted_at": "2026-05-21T11:19:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3277",
@@ -379,7 +421,7 @@
         },
         {
           "emoji": "👍",
-          "count": "623"
+          "count": "624"
         },
         {
           "emoji": "💔",
@@ -394,7 +436,7 @@
           "count": "7"
         }
       ],
-      "views_label": "40K",
+      "views_label": "40.4K",
       "posted_at": "2026-05-21T10:51:56+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3276",
@@ -437,7 +479,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "687"
+          "count": "688"
         },
         {
           "emoji": "😭",
@@ -523,7 +565,7 @@
           "count": "9"
         }
       ],
-      "views_label": "44.8K",
+      "views_label": "45.1K",
       "posted_at": "2026-05-21T09:22:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3271",
@@ -562,10 +604,10 @@
         },
         {
           "emoji": "😭",
-          "count": "16"
+          "count": "17"
         }
       ],
-      "views_label": "44K",
+      "views_label": "44.3K",
       "posted_at": "2026-05-21T09:12:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3270",
@@ -595,7 +637,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "607"
+          "count": "608"
         },
         {
           "emoji": "❤",
@@ -610,7 +652,7 @@
           "count": "11"
         }
       ],
-      "views_label": "44.9K",
+      "views_label": "45.2K",
       "posted_at": "2026-05-21T08:59:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3269",
@@ -4020,21 +4062,6 @@
       "posted_at": "2026-05-18T22:40:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3172",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
-    },
-    {
-      "id": "MatinSenPaii/3171",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/M4I3l4xnUS9IEBeDLpKFwylp3F2u5GAu4tBpzM7jwAMVfOGEkaq_yYR7iqeJuJ12LbuaUIIJrmbYt-eydXPPf4MdaznEPMKc0dTzCJomE2tSQVe_-OyesFIfsuiKFEIGVwsl1h5hJPTi-IFznAgmVgIj0yup9X3egbl9E2aHQzKO3xHAntEnLp9Lc4ZH10UuTfMElToeHTrJFre-0lcOIV6KQAX0oYyT1l18YjikRiXeFZSlACbFyIfQEl46g0JJkrdMqVLu9tVuM0vyHt_u3x1fnL7NXsNI4y9SYSrJo1BQCkZP6WldoAUYOeSkhesnKVjddM0q4a1g--CDjRJmgQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/bb44a2773b25c66fb02f9822.jpg",
-      "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/MatinSenPaii\"><span dir=\"auto\">Matin SenPai</span></a> pinned «<span class=\"tgme_widget_service_strong_text\" dir=\"auto\">انگار که واسه‌ی یه سری از دوستان، SNI SPOOF مجددا باز شده. ویدئوش اینجاست: https://t.me/MatinSenPaii/2627 جیسونش هم این: {   \"LISTEN_HOST\": \"0.0.0.0\",   \"LISTEN_PORT\": 40443,   \"CONNECT_IP\": \"104.19.229.21\",    \"CONNECT_PORT\": 443,   \"FAKE_SNI\": \"www.hcaptcha.com\"…</span>»",
-      "plain_text": "Matin SenPai pinned «انگار که واسه‌ی یه سری از دوستان، SNI SPOOF مجددا باز شده. ویدئوش اینجاست: https://t.me/MatinSenPaii/2627 جیسونش هم این: { \"LISTEN_HOST\": \"0.0.0.0\", \"LISTEN_PORT\": 40443, \"CONNECT_IP\": \"104.19.229.21\", \"CONNECT_PORT\": 443, \"FAKE_SNI\": \"www.hcaptcha.com\"…»",
-      "media": [],
-      "reactions": [],
-      "views_label": null,
-      "posted_at": "2026-05-18T22:36:03+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3171",
       "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     }
   ]
