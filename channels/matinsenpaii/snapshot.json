@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-21T07:56:38.116Z",
+  "fetched_at": "2026-05-21T08:01:38.901Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,40 @@
     "subscriber_count": "140K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3267",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/jjPIMj1CVgbr1d91qTZw3Kns9JVAoyzqb2Nn7sGqV49iBfUyDvCv6xUItp_RutDqMelZhqQBXqvlYzwZJNuZ9Nq8Xe1mMRJqkVlLcaEAlXULQn7IZS4A56KhzizP6TLtjp_WEmfzsU_xPnosrQRQMldGyVtQooYnxkVkumBi9H_3mQ10XeXTmZTJyOkpdMvTONEoXOCacOV2DwFsYSyrMgk4CEZqSoe08ucD00pFUE1yUEGo1uaY3uBYG_5sue64QSB1j8Vdn-X5nUv8YguFYlwfFKtq_fyKL_9kXduEeJkk1PeEeWLADNmzg3eK-Q4W628eWWEzxzKpeAncpL-prA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/4c33f7b43713cee58e759ffe.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "آپدیت جدید MHRv-Rust منتشر شد 18 ساعت پیش و بهبودهای زیادی درونش شکل گرفته:<br><br><blockquote expandable=\"\">• در حالت Full Tunnel، نشست های کاملا idle حالا keepalive خالی را با backoff شدیدتر می فرستند و وقتی همه deploymentها legacy تشخیص داده شوند، بعد از idle شدن دیگر poll خالی پشت سر هم نمی زنند. این کار مصرف request روی Apps Script و&nbsp;tunnel-node&nbsp;را برای اتصال های بی کار کمتر می کند. <br>• برای fleetهای mixed که هنوز حداقل یک deployment با long-poll سالم دارند، کلاینت همچنان poll خالی را ادامه می دهد تا round-robin بتواند به همان peer سالم برسد و داده remote→client گیر نکند.</blockquote><br><br>آموزش راه‌اندازی با گوشی به تنهایی: <a href=\"https://t.me/MatinSenPaii/2968\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/2968</a>",
+      "plain_text": "آپدیت جدید MHRv-Rust منتشر شد 18 ساعت پیش و بهبودهای زیادی درونش شکل گرفته:\n\n• در حالت Full Tunnel، نشست های کاملا idle حالا keepalive خالی را با backoff شدیدتر می فرستند و وقتی همه deploymentها legacy تشخیص داده شوند، بعد از idle شدن دیگر poll خالی پشت سر هم نمی زنند. این کار مصرف request روی Apps Script و tunnel-node را برای اتصال های بی کار کمتر می کند.\n• برای fleetهای mixed که هنوز حداقل یک deployment با long-poll سالم دارند، کلاینت همچنان poll خالی را ادامه می دهد تا round-robin بتواند به همان peer سالم برسد و داده remote→client گیر نکند.\n\nآموزش راه‌اندازی با گوشی به تنهایی: https://t.me/MatinSenPaii/2968",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "17"
+        },
+        {
+          "emoji": "👎",
+          "count": "2"
+        }
+      ],
+      "views_label": "2.52K",
+      "posted_at": "2026-05-21T07:57:50+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3267",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "2968",
+        "author_name": "Matin SenPai",
+        "preview_text": "☠️ آموزش ساخت متد MHR با گوشی + کاهش مصرف ریکوئست های گوگل ⚡️لینک‌های داخلی جهت دانلود: https://t.me/MatinSenPaii/2969 لینک پروژه اصلی: https://github.com/therealaleph/MasterHttpRelayVPN-RUST ⭐️توی این ویدئو بهتون یاد میدم که چطوری متد MHR رو صفر تا صد…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/ScIQXrofVZWgdTedU8UvJSginocIoxRJdYhFIy7O0pPpLnlcPcRE8dcTb3QcbUsEEi8hJ299Z5JdF3hZZjbcJSxaKymewitW1BoO2i66FGgR8O6HpmXR2_pdyhBq8V-Fv1ovUNqGdW7gYsm3_cV2584amy867_ltnEa-FXRTcDAvJq5DB5_POOP_YGxcFzvNPPpFke3Gt6YWrS9AV1Olqi1tcZ0-1tQrCTUCqSehdkx9JH8cwB2cbQO8_D4o9X7t5WI_Aslcl-kknCMQ5hXatYPdAL8BxblDcbZ08QoRoPembh313gIyYlv2BtDcNhwJ8emkmt4QcJqS7HgT71gW3A",
+        "thumbnail_path": "channels/matinsenpaii/media/64ce27bddf1483ba5b397338.jpg",
+        "thumbnail_sha256": "f9ecff75caba375df1b75bb26589cfff2f5bc23825304a5da07ed6cff14fe87c",
+        "permalink": "https://t.me/matinsenpaii/2968"
+      }
+    },
     {
       "id": "MatinSenPaii/3266",
       "author_name": "Matin SenPai",
@@ -23,22 +57,22 @@
       "reactions": [
         {
           "emoji": "👎",
-          "count": "83"
+          "count": "85"
         },
         {
           "emoji": "❤",
-          "count": "36"
+          "count": "42"
         },
         {
           "emoji": "😭",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "🎃",
           "count": "1"
         }
       ],
-      "views_label": "8.23K",
+      "views_label": "9.5K",
       "posted_at": "2026-05-21T07:35:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3266",
@@ -65,11 +99,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "221"
+          "count": "225"
         },
         {
           "emoji": "❤",
-          "count": "51"
+          "count": "52"
         },
         {
           "emoji": "😁",
@@ -80,7 +114,7 @@
           "count": "7"
         }
       ],
-      "views_label": "14.8K",
+      "views_label": "15.7K",
       "posted_at": "2026-05-21T07:04:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3265",
@@ -102,11 +136,11 @@
         },
         {
           "emoji": "❤",
-          "count": "1.22K"
+          "count": "1.23K"
         },
         {
           "emoji": "👍",
-          "count": "245"
+          "count": "252"
         },
         {
           "emoji": "👎",
@@ -117,7 +151,7 @@
           "count": "23"
         }
       ],
-      "views_label": "23.3K",
+      "views_label": "24.3K",
       "posted_at": "2026-05-21T06:03:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3264",
@@ -156,7 +190,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "299"
+          "count": "303"
         },
         {
           "emoji": "❤",
@@ -171,7 +205,7 @@
           "count": "4"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "25.4K",
       "posted_at": "2026-05-21T05:47:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3263",
@@ -201,7 +235,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "383"
+          "count": "388"
         },
         {
           "emoji": "💔",
@@ -216,7 +250,7 @@
           "count": "7"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "25.3K",
       "posted_at": "2026-05-21T05:45:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3262",
@@ -255,11 +289,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "584"
+          "count": "594"
         },
         {
           "emoji": "😨",
-          "count": "69"
+          "count": "73"
         },
         {
           "emoji": "❤",
@@ -270,7 +304,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.1K",
+      "views_label": "24.8K",
       "posted_at": "2026-05-21T05:44:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3261",
@@ -288,22 +322,22 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "1.11K"
+          "count": "1.13K"
         },
         {
           "emoji": "👍",
-          "count": "156"
+          "count": "157"
         },
         {
           "emoji": "❤",
-          "count": "95"
+          "count": "98"
         },
         {
           "emoji": "😁",
           "count": "29"
         }
       ],
-      "views_label": "27.7K",
+      "views_label": "28.3K",
       "posted_at": "2026-05-21T04:53:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3259",
@@ -330,7 +364,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "299"
+          "count": "304"
         },
         {
           "emoji": "😭",
@@ -345,7 +379,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.1K",
+      "views_label": "24.4K",
       "posted_at": "2026-05-21T04:51:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3258",
@@ -378,7 +412,7 @@
           "count": "6"
         }
       ],
-      "views_label": "29.7K",
+      "views_label": "30K",
       "posted_at": "2026-05-21T04:24:29+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3257",
@@ -408,7 +442,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "310"
+          "count": "316"
         },
         {
           "emoji": "😨",
@@ -423,7 +457,7 @@
           "count": "9"
         }
       ],
-      "views_label": "29.4K",
+      "views_label": "29.7K",
       "posted_at": "2026-05-21T04:11:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3256",
@@ -441,7 +475,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "224"
+          "count": "225"
         },
         {
           "emoji": "👍",
@@ -489,7 +523,7 @@
           "count": "5"
         }
       ],
-      "views_label": "44.7K",
+      "views_label": "45K",
       "posted_at": "2026-05-20T21:12:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3254",
@@ -531,7 +565,7 @@
           "count": "83"
         }
       ],
-      "views_label": "48.9K",
+      "views_label": "49.2K",
       "posted_at": "2026-05-20T20:32:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3253",
@@ -585,7 +619,7 @@
           "count": "9"
         }
       ],
-      "views_label": "49.3K",
+      "views_label": "49.6K",
       "posted_at": "2026-05-20T20:27:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3252",
@@ -634,7 +668,7 @@
           "count": "17"
         }
       ],
-      "views_label": "50.6K",
+      "views_label": "50.9K",
       "posted_at": "2026-05-20T20:02:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3251",
@@ -667,7 +701,7 @@
           "count": "12"
         }
       ],
-      "views_label": "55K",
+      "views_label": "55.3K",
       "posted_at": "2026-05-20T18:06:58+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3250",
@@ -700,7 +734,7 @@
           "count": "6"
         }
       ],
-      "views_label": "53.3K",
+      "views_label": "53.6K",
       "posted_at": "2026-05-20T17:58:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3249",
@@ -3847,42 +3881,6 @@
       "posted_at": "2026-05-18T18:35:28+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3156",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
-    },
-    {
-      "id": "MatinSenPaii/3154",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/M4I3l4xnUS9IEBeDLpKFwylp3F2u5GAu4tBpzM7jwAMVfOGEkaq_yYR7iqeJuJ12LbuaUIIJrmbYt-eydXPPf4MdaznEPMKc0dTzCJomE2tSQVe_-OyesFIfsuiKFEIGVwsl1h5hJPTi-IFznAgmVgIj0yup9X3egbl9E2aHQzKO3xHAntEnLp9Lc4ZH10UuTfMElToeHTrJFre-0lcOIV6KQAX0oYyT1l18YjikRiXeFZSlACbFyIfQEl46g0JJkrdMqVLu9tVuM0vyHt_u3x1fnL7NXsNI4y9SYSrJo1BQCkZP6WldoAUYOeSkhesnKVjddM0q4a1g--CDjRJmgQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/bb44a2773b25c66fb02f9822.jpg",
-      "body_html": "با تشکر از<br><a href=\"https://x.com/patterniha\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@patterniha</a><br>، برنامه‌نویس پروژه، علت ضبط این ویدئو اول این بودش که مقدمه‌ای باشه بر روشی که برای یوتوب می‌خوام بگم، دوما این بودش که حس کردم این پروژه به اندازه‌ی کافی دیده نشده.",
-      "plain_text": "با تشکر از @patterniha ، برنامه‌نویس پروژه، علت ضبط این ویدئو اول این بودش که مقدمه‌ای باشه بر روشی که برای یوتوب می‌خوام بگم، دوما این بودش که حس کردم این پروژه به اندازه‌ی کافی دیده نشده.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "3"
-        },
-        {
-          "emoji": "❤",
-          "count": "271"
-        },
-        {
-          "emoji": "👍",
-          "count": "6"
-        },
-        {
-          "emoji": "🎃",
-          "count": "5"
-        },
-        {
-          "emoji": "🔥",
-          "count": "4"
-        }
-      ],
-      "views_label": "34.4K",
-      "posted_at": "2026-05-18T18:29:45+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3154",
       "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90"
     }
   ]
