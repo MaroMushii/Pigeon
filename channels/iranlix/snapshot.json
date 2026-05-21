@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-21T10:36:40.026Z",
+  "fetched_at": "2026-05-21T10:41:36.433Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "iranlix/6951",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/j6lMrf2VaWiWIuG44-OWcYbJ-llb39GmaYf3yWNE3DoQLMJzPBm8vBkJMtlL3gl92WlK8nZNcxnEib8fRv_p-4_Jdj1WnCZiI6iwkn2RzwzubBPUfNvOe6sUmclxTa3Gw2fUQbIW2KEqUCsJVjBY9f_3JGrIUNs7GqJ7LqWZFqLrGwmbTj3VwiJn3CrXHq4R7PeX6dNi48hiStpXvb4Ixlc1HiYR2Z0eAGc5z8BVtB4xi7Mnh0DyUUPjz4uxD0ANcm5TDn9xlTberX3vcXtrSn4lB5iLbYIA77-X_WDs_BmaO8GZTV9MfG-7dfWpXnvpvMs18-G85SkB5ZmmHJZCyg.jpg",
+      "author_photo_path": "channels/iranlix/media/a31760e9b36514d9ab2bc9b6.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><b>سه انفجار پیاپی، الان در بندرعباس</b><br><br>گزارش‌های اولیه از بندرعباس حاکی است دقایقی پیش صدای سه انفجار پیاپی در این شهر شنیده شده است.",
+      "plain_text": "💥🔥سه انفجار پیاپی، الان در بندرعباس\n\nگزارش‌های اولیه از بندرعباس حاکی است دقایقی پیش صدای سه انفجار پیاپی در این شهر شنیده شده است.",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/6951",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/Rq8wlwS3FVK7JowHoIR57h1u-OT_KIaNlpqAIwME_nYmnI6bytmMz9qi0XVQpBK-6XnDfWWWdBYExrYKOzxH7zRjCHUTVgv7rmCJjPlrNWx4uHJlXDJEUjLTtGKu7iEsR2FvFBIi-X56tjZ3AKrASsAxH2_3mdTDouGG2tgcK7pTgmoOd6fRM-3MYW3vELlINbNQCTuCbEN2YsOGPDPK8d3kI4T3eseXcJKBSAwnCbJ9WW-Fdn5wfipY0qiN7svYWQ8DNG5U_1Z-XsBLYVrrQVVbrHE63LVOKLmoeOniXzLJgvbLWZQH-da020D5490lA1cXgwCECHGzQvXyQ_O6KQ.jpg",
+          "thumbnail_path": "channels/iranlix/media/65079c9275f31cf2f120ea45.jpg",
+          "thumbnail_sha256": "3d7866f9c17e7c35938ea9f559bf52836368aabb460f48d676a344df2e2c359d",
+          "duration_label": null,
+          "aspect_ratio": 1.7937219730941705
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-05-21T10:41:26+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/6951",
+      "reply": null
+    },
+    {
       "id": "iranlix/6950",
       "author_name": "ایرانلیکس",
       "author_photo_url": "https://cdn4.telesco.pe/file/j6lMrf2VaWiWIuG44-OWcYbJ-llb39GmaYf3yWNE3DoQLMJzPBm8vBkJMtlL3gl92WlK8nZNcxnEib8fRv_p-4_Jdj1WnCZiI6iwkn2RzwzubBPUfNvOe6sUmclxTa3Gw2fUQbIW2KEqUCsJVjBY9f_3JGrIUNs7GqJ7LqWZFqLrGwmbTj3VwiJn3CrXHq4R7PeX6dNi48hiStpXvb4Ixlc1HiYR2Z0eAGc5z8BVtB4xi7Mnh0DyUUPjz4uxD0ANcm5TDn9xlTberX3vcXtrSn4lB5iLbYIA77-X_WDs_BmaO8GZTV9MfG-7dfWpXnvpvMs18-G85SkB5ZmmHJZCyg.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "زمین لرزه در بندرعباس؛ زمین‌لرزه ۴.۶ ریشتری هرمزگان را تکان داد\n\nزمین‌لرزه‌ای به بزرگی ۴.۶ ریشتر امروز بندرعباس و بخش‌هایی از هرمزگان را لرزاند. این زمین‌لرزه در چند منطقه اطراف نیز احساس شد.\n\nتا این لحظه گزارشی از خسارت یا تلفات احتمالی منتشر نشده.",
       "media": [],
       "reactions": [],
-      "views_label": "5",
+      "views_label": "59",
       "posted_at": "2026-05-21T10:35:12+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/6950",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "227",
+      "views_label": "246",
       "posted_at": "2026-05-21T09:50:26+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/6949",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "757",
+      "views_label": "768",
       "posted_at": "2026-05-20T18:35:43+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/6948",
@@ -93,7 +121,7 @@
       "plain_text": "‏اونکه با شراکت با \"شبدوست مالامیری\" چند سال پیش یک فقره اختلاس ۶۰۰ میلیون دلاری رو بُرد قبرس شمالی و از \"شرکتهای اسرائیلی\" ویلا و خونه خرید اسمش: \"حسین فریدون\"، برادر حسن فریدون (روحانی) است!\nحالا، هم ‎#احمدی‌نژاد رو محاکمه کنید هم حسن روحانی و هم ماله کش، جواد ظریف خونساری!\n🖼 تصویر: حسین فریدون در مجتمع مسکونی تفریحی سزار، متعلق به آفیک گروپ (سرمایه دار اسرائیلی) در فاماگوستا، قبرس شمالی، در حال بازدید برای خرید انبوه!",
       "media": [],
       "reactions": [],
-      "views_label": "915",
+      "views_label": "921",
       "posted_at": "2026-05-20T13:44:15+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/6947",
@@ -130,7 +158,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "976",
+      "views_label": "979",
       "posted_at": "2026-05-20T09:41:18+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/6946",
@@ -169,7 +197,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "940",
+      "views_label": "945",
       "posted_at": "2026-05-20T08:34:59+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/6944",
