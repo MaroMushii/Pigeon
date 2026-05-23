@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-23T06:01:23.671Z",
+  "fetched_at": "2026-05-23T06:06:25.287Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -17,8 +17,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/YAHakP-iAq1s2duMnTnFnNBJ-TKevvyVRaHOWHN-gZXlOtHeotqze-FP0glQgTHdEoI9VIjUZKWzCP55Wh8GwtBrcoGL_HuXwJIeXT7--O9RdoLQ6k8zBpC5kZXF1KP4gD9MHbvNRn0JIef3Q5YOkAFg7phAmenV7ZC-UxhxlcurDfe5Q9iMXvQHiFGB-JgWpPL7O0yLWFUgjj6-gdr8kfkM_sG-tB8wJrZwmhRIQOS8jLkBKOnTp85y-r1P3u2PW4hQ3lgW9UX-Yw6ntb-MQT-ZFS4e5-8MbS_p2XfCc2FCnwG7I5-YWjqz4SbkA5gEZi3d44zWN0nxNhsptjKFRQ.jpg",
       "author_photo_path": "channels/whitedns/media/cbe75ca5c96ba35eacceaeef.jpg",
       "author_photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A8.png')\"><b>♨️</b></i> پروژه جدید WhiteDNS در حال آماده‌سازی است <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A8.png')\"><b>♨️</b></i><br><br>ما در تیم WhiteDNS مدتیه روی سیستمی کار می‌کنیم که کاربران بتوانند فقط با داشتن یک VPS و یک دامنه، سرور شخصی MasterDNS خودشان را مستقیماً داخل تلگرام راه‌اندازی کنند.<br><br>هدف این پروژه این نیست که ما برای کاربران سرور یا دامنه بفروشیم یا مدیریت کنیم.<br>هدف فقط ساده‌تر کردن فرآیندی است که امروز برای خیلی‌ها پیچیده، زمان‌بر و فنی محسوب می‌شود.<br><br>در این سیستم، کاربر فقط:<br><br>• VPS خودش را تهیه می‌کند<br>• دامنه خودش را تهیه می‌کند<br>• DNS Record ها را تنظیم می‌کند<br><br>و باقی مراحل توسط ربات و Mini App تلگرام به‌صورت خودکار انجام می‌شود.<br><br>سیستم به‌صورت اتوماتیک:<br>• وضعیت DNS Record ها را بررسی می‌کند<br>• اتصال دامنه به سرور را تست می‌کند<br>• MasterDNS را نصب و راه‌اندازی می‌کند<br>• اطلاعات نهایی مثل Domain و Encryption Key را به کاربر تحویل می‌دهد<br><br>در عمل، کاربران می‌توانند بدون درگیر شدن با دستورات پیچیده لینوکس و تنظیمات طولانی، سرور شخصی خودشان را راه‌اندازی و مدیریت کنند.<br><b><br>این پروژه متن‌باز خواهد بود تا همه بتوانند کد آن را بررسی کنند.</b><br><b><br>در حال حاضر پروژه در مراحل نهایی توسعه قرار دارد و طی روزهای آینده نسخه اولیه آن منتشر خواهد شد.</b><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "♨️ پروژه جدید WhiteDNS در حال آماده‌سازی است ♨️\n\nما در تیم WhiteDNS مدتیه روی سیستمی کار می‌کنیم که کاربران بتوانند فقط با داشتن یک VPS و یک دامنه، سرور شخصی MasterDNS خودشان را مستقیماً داخل تلگرام راه‌اندازی کنند.\n\nهدف این پروژه این نیست که ما برای کاربران سرور یا دامنه بفروشیم یا مدیریت کنیم.\nهدف فقط ساده‌تر کردن فرآیندی است که امروز برای خیلی‌ها پیچیده، زمان‌بر و فنی محسوب می‌شود.\n\nدر این سیستم، کاربر فقط:\n\n• VPS خودش را تهیه می‌کند\n• دامنه خودش را تهیه می‌کند\n• DNS Record ها را تنظیم می‌کند\n\nو باقی مراحل توسط ربات و Mini App تلگرام به‌صورت خودکار انجام می‌شود.\n\nسیستم به‌صورت اتوماتیک:\n• وضعیت DNS Record ها را بررسی می‌کند\n• اتصال دامنه به سرور را تست می‌کند\n• MasterDNS را نصب و راه‌اندازی می‌کند\n• اطلاعات نهایی مثل Domain و Encryption Key را به کاربر تحویل می‌دهد\n\nدر عمل، کاربران می‌توانند بدون درگیر شدن با دستورات پیچیده لینوکس و تنظیمات طولانی، سرور شخصی خودشان را راه‌اندازی و مدیریت کنند.\n\nاین پروژه متن‌باز خواهد بود تا همه بتوانند کد آن را بررسی کنند.\n\nدر حال حاضر پروژه در مراحل نهایی توسعه قرار دارد و طی روزهای آینده نسخه اولیه آن منتشر خواهد شد.\n\n@WhiteDNS",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A8.png')\"><b>♨️</b></i> پروژه جدید WhiteDNS در حال آماده‌سازی است <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A8.png')\"><b>♨️</b></i><br><br>«تیم WhiteDNS بر روی سیستمی کار میکند» که کاربران بتوانند فقط با داشتن یک VPS و یک دامنه، سرور شخصی MasterDNS خودشان را مستقیماً داخل تلگرام راه‌اندازی کنند.<br><br>هدف این پروژه این نیست که ما «به» کاربران سرور یا دامنه بفروشیم یا مدیریت کنیم.<br>هدف «تنها» ساده‌تر کردن فرآیندی است که امروز برای خیلی‌ها پیچیده، زمان‌بر و فنی محسوب می‌شود.<br><br>در این سیستم، کاربر فقط:<br><br>• VPS خودش را تهیه می‌کند<br>• دامنه خودش را تهیه می‌کند<br>• DNS Record ها را تنظیم می‌کند<br><br>و باقی مراحل توسط ربات و Mini App تلگرام به‌صورت خودکار انجام می‌شود.<br><br>سیستم به‌صورت اتوماتیک:<br>• وضعیت DNS Record ها را بررسی می‌کند<br>• اتصال دامنه به سرور را تست می‌کند<br>• MasterDNS را نصب و راه‌اندازی می‌کند<br>• اطلاعات نهایی مثل Domain و Encryption Key را به کاربر تحویل می‌دهد<br><br>در عمل، کاربران می‌توانند بدون درگیر شدن با دستورات پیچیده لینوکس و تنظیمات طولانی، سرور شخصی خودشان را راه‌اندازی و مدیریت کنند.<br><b><br>این پروژه متن‌باز خواهد بود تا همه بتوانند کد آن را بررسی کنند.</b><br><b><br>در حال حاضر پروژه در مراحل نهایی توسعه قرار دارد و طی روزهای آینده نسخه اولیه آن منتشر خواهد شد.</b><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "♨️ پروژه جدید WhiteDNS در حال آماده‌سازی است ♨️\n\n«تیم WhiteDNS بر روی سیستمی کار میکند» که کاربران بتوانند فقط با داشتن یک VPS و یک دامنه، سرور شخصی MasterDNS خودشان را مستقیماً داخل تلگرام راه‌اندازی کنند.\n\nهدف این پروژه این نیست که ما «به» کاربران سرور یا دامنه بفروشیم یا مدیریت کنیم.\nهدف «تنها» ساده‌تر کردن فرآیندی است که امروز برای خیلی‌ها پیچیده، زمان‌بر و فنی محسوب می‌شود.\n\nدر این سیستم، کاربر فقط:\n\n• VPS خودش را تهیه می‌کند\n• دامنه خودش را تهیه می‌کند\n• DNS Record ها را تنظیم می‌کند\n\nو باقی مراحل توسط ربات و Mini App تلگرام به‌صورت خودکار انجام می‌شود.\n\nسیستم به‌صورت اتوماتیک:\n• وضعیت DNS Record ها را بررسی می‌کند\n• اتصال دامنه به سرور را تست می‌کند\n• MasterDNS را نصب و راه‌اندازی می‌کند\n• اطلاعات نهایی مثل Domain و Encryption Key را به کاربر تحویل می‌دهد\n\nدر عمل، کاربران می‌توانند بدون درگیر شدن با دستورات پیچیده لینوکس و تنظیمات طولانی، سرور شخصی خودشان را راه‌اندازی و مدیریت کنند.\n\nاین پروژه متن‌باز خواهد بود تا همه بتوانند کد آن را بررسی کنند.\n\nدر حال حاضر پروژه در مراحل نهایی توسعه قرار دارد و طی روزهای آینده نسخه اولیه آن منتشر خواهد شد.\n\n@WhiteDNS",
       "media": [
         {
           "kind": "photo",
@@ -35,11 +35,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "146"
+          "count": "166"
         },
         {
           "emoji": "👏",
-          "count": "16"
+          "count": "24"
         },
         {
           "emoji": "❤‍🔥",
@@ -50,9 +50,9 @@
           "count": "1"
         }
       ],
-      "views_label": "3.03K",
+      "views_label": "3.51K",
       "posted_at": "2026-05-23T05:39:32+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/784",
       "reply": null
     },
@@ -127,7 +127,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22K",
+      "views_label": "22.2K",
       "posted_at": "2026-05-22T14:38:05+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/782",
@@ -180,7 +180,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.5K",
+      "views_label": "23.6K",
       "posted_at": "2026-05-22T13:45:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/781",
@@ -213,7 +213,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25K",
+      "views_label": "25.1K",
       "posted_at": "2026-05-22T13:06:21+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/780",
@@ -262,7 +262,7 @@
           "count": "7"
         }
       ],
-      "views_label": "28.8K",
+      "views_label": "28.9K",
       "posted_at": "2026-05-22T07:19:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/778",
@@ -354,7 +354,7 @@
           "count": "3"
         }
       ],
-      "views_label": "30K",
+      "views_label": "30.1K",
       "posted_at": "2026-05-22T04:24:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/774",
@@ -376,7 +376,7 @@
         },
         {
           "emoji": "❤",
-          "count": "330"
+          "count": "331"
         },
         {
           "emoji": "👍",
@@ -514,7 +514,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.4K",
+      "views_label": "21.5K",
       "posted_at": "2026-05-22T04:18:54+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/770",
@@ -568,7 +568,7 @@
           "count": "20"
         }
       ],
-      "views_label": "19.2K",
+      "views_label": "19.3K",
       "posted_at": "2026-05-22T04:18:34+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/768",
@@ -626,7 +626,7 @@
           "count": "4"
         }
       ],
-      "views_label": "19K",
+      "views_label": "19.1K",
       "posted_at": "2026-05-22T04:18:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/766",
