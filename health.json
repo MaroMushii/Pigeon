@@ -1,6 +1,11 @@
 {
   "schema": 2,
-  "generated_at": "2026-05-23T23:40:47.973Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-05-23T23:45:54.451Z",
+  "succeeded": 22,
+  "failed": [
+    {
+      "username": "iranlix",
+      "error": "fetch failed"
+    }
+  ]
 }
