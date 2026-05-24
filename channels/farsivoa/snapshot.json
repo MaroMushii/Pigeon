@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-24T18:11:32.792Z",
+  "fetched_at": "2026-05-24T18:16:29.364Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,62 @@
     "subscriber_count": "123K"
   },
   "posts": [
+    {
+      "id": "farsivoa/218556",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/m2lpfgHUi0h_sFpa7rTdSAqlhLcwmhhflnXNyyr2Sf3kW1XbJav1z-O1JrfKTKeKy5Vrm16r3oddodGrpCdk_dip2ylwPpxDZ2zOiE1v-_urqIfbUqOUhBugJSQp1VAzbn7_BVBeXzcznW-NFncxC9K3JMe48yc13fzCAu9uV_SXJnebiFwlSJ-RVMepnrXDzVXNJ1D5G_yzkvi9V2crj4Ttl-fk-QWv0gV9-Xr-MJ94Np4Lv_-P5WYcOQSMQEnS-HzFLXqDzidiKGxkLMenou4EyATNysX6YcCALL_gasrliZ8ifoBX1jIoS27OGj96tSl9FspyBC7mcx0qq8Ehhw.jpg",
+      "author_photo_path": "channels/farsivoa/media/20a6a6b14857197a460a4c98.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "گزارش زنده مایکل لیپین، خبرنگار صدای آمریکا از نزدیک کاخ سفید",
+      "plain_text": "گزارش زنده مایکل لیپین، خبرنگار صدای آمریکا از نزدیک کاخ سفید",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/218556",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/tH0-X9mQ-T8AFol9uJOko8jCu3QrS1Uzeoyxd0ydNPvDhk7BVmE3pNvVs7YpvA7z-GWeqRlKsnlEkksUDivgz93khs7Py4cdEPCQxKdAHNT0CmdH8fr6DuHoqrcPQppUpUY10xAgchVZ-5bKgVMkQYb59GqwDzWts6ZzlAxFGTqVr2juf7h1FwEE8Wo-EZW2W61xS32P3223q35oEH-f085ItxjxGYb1lkc2m0f_6z9ZcalDHxwZk0BZ5w417NQkmiIb4KVwKoCrMRpmhR18e37rm2EVdYIGpIeN5-4Aysb6i2GeL9u4zJctSYkje4w4vaJ2Bh9fKDlC9TV_DBAj8g",
+          "thumbnail_path": "channels/farsivoa/media/7b6f232d7a08161cbe841630.jpg",
+          "thumbnail_sha256": "492b9078aa3c52962aabbcbb8bf696fb8f4e4cd56c58cd95e89376330f2778d4",
+          "duration_label": "5:22",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "105",
+      "posted_at": "2026-05-24T18:14:05+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/218556",
+      "reply": null
+    },
+    {
+      "id": "farsivoa/218555",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/m2lpfgHUi0h_sFpa7rTdSAqlhLcwmhhflnXNyyr2Sf3kW1XbJav1z-O1JrfKTKeKy5Vrm16r3oddodGrpCdk_dip2ylwPpxDZ2zOiE1v-_urqIfbUqOUhBugJSQp1VAzbn7_BVBeXzcznW-NFncxC9K3JMe48yc13fzCAu9uV_SXJnebiFwlSJ-RVMepnrXDzVXNJ1D5G_yzkvi9V2crj4Ttl-fk-QWv0gV9-Xr-MJ94Np4Lv_-P5WYcOQSMQEnS-HzFLXqDzidiKGxkLMenou4EyATNysX6YcCALL_gasrliZ8ifoBX1jIoS27OGj96tSl9FspyBC7mcx0qq8Ehhw.jpg",
+      "author_photo_path": "channels/farsivoa/media/20a6a6b14857197a460a4c98.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "بررسی امنیت ملی، انگیزه ترور، و تحولات جاری خاورمیانه",
+      "plain_text": "بررسی امنیت ملی، انگیزه ترور، و تحولات جاری خاورمیانه",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/218555",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/BJlx-ytANWKpUwl84PVuy-x6IUg6ngJDPEpE9h1iJGvtJqSypq4SL06OQ_Bo7KQ-463kyWbjnkh3FPPrta940XxLYbE-q-e9h0RKjiGBvj06GxFD9CySmnKBnWLGtoaPYbAduINT6leAEAR7ERysFGK6iyMSSZbCnt7cgz90PVaFG9lSZxMXj6eI1Cp6lYFbVXKFsCLaNg7sxlfzMYNnuf7k-m-y4ExIaUr4y8e-YfaGRJp3p-CqA5QcforPSeXERGx9mTaQ0CPEwujrJzsW4TDVwGxt8ZBZ37nRRSKeJvS31w86TIu-WbAU3nCfa2yoyjQmL2NYB4-HElDyNOKNaw",
+          "thumbnail_path": "channels/farsivoa/media/649db1d95519319a8f9c5496.jpg",
+          "thumbnail_sha256": "37fb3fb9fc4595e00bb88521a168d9d7534380ab335efd468c75ae1d5ef4b189",
+          "duration_label": "1:09:09",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "242",
+      "posted_at": "2026-05-24T18:11:37+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/218555",
+      "reply": null
+    },
     {
       "id": "farsivoa/218554",
       "author_name": "Farsi VOA",
@@ -33,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "141",
+      "views_label": "347",
       "posted_at": "2026-05-24T18:09:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218554",
@@ -83,7 +139,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "357",
+      "views_label": "529",
       "posted_at": "2026-05-24T18:03:44+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218551",
@@ -111,7 +167,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.17K",
+      "views_label": "1.28K",
       "posted_at": "2026-05-24T17:26:44+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218550",
@@ -139,7 +195,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.18K",
+      "views_label": "1.28K",
       "posted_at": "2026-05-24T17:25:33+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218549",
@@ -167,7 +223,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.25K",
+      "views_label": "1.32K",
       "posted_at": "2026-05-24T17:21:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218548",
@@ -195,7 +251,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.21K",
+      "views_label": "1.28K",
       "posted_at": "2026-05-24T17:20:11+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218547",
@@ -223,7 +279,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.31K",
+      "views_label": "1.38K",
       "posted_at": "2026-05-24T17:12:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218546",
@@ -239,7 +295,7 @@
       "plain_text": "🔺آکسیوس: کاخ سفید معتقد است نهایی شدن توافق با جمهوری اسلامی احتمالا چند روز طول می‌کشد\n\n◾️وبسایت خبری آکسیوس روز یکشنبه ۳ خرداد به نقل از «یک مقام ارشد آمریکایی» گزارش داد کاخ سفید انتظار ندارد توافق با جمهوری اسلامی، در روز یکشنبه نهایی شود و رسیدن به مرحله نهایی احتمالا چند روزی بیشتر طول می‌کشد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/8153325.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.31K",
+      "views_label": "1.38K",
       "posted_at": "2026-05-24T17:10:19+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218545",
@@ -267,7 +323,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.78K",
+      "views_label": "1.85K",
       "posted_at": "2026-05-24T16:35:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218544",
@@ -283,7 +339,7 @@
       "plain_text": "🔺گراهام: برای آینده خاورمیانه جدید جسور باشیم\n\n◾️لیندزی گراهام، سناتور جمهوری‌خواه گفت که پیوستن متحدان عرب و مسلمان به توافق‌نامه‌های ابراهیم، در نتیجه مذاکرات برای پایان دادن به درگیری رژیم ایران، این توافق‌نامه را به یکی از مهم‌ترین توافق‌ها در تاریخ خاورمیانه تبدیل خواهد کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/the-new-middle-east-abraham-accords-lindsay-graham/8153321.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.88K",
+      "views_label": "1.95K",
       "posted_at": "2026-05-24T16:28:10+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218543",
@@ -311,7 +367,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.67K",
+      "views_label": "1.74K",
       "posted_at": "2026-05-24T16:24:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218542",
@@ -327,7 +383,7 @@
       "plain_text": "🔺اشتراک ‌نظر نتانیاهو و ترامپ: «رفع خطر هسته‌ای» پیش‌شرط توافق نهایی با جمهوری اسلامی است\n\n◾️نخست وزیر اسرائیل روز یکشنبه ۳ خرداد با انتشار پستی در رسانه اجتماعی ایکس از گفت‌وگوی تلفنی با رئیس جمهوری آمریکا در شامگاه شنبه خبر داد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/8153320.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.74K",
+      "views_label": "1.78K",
       "posted_at": "2026-05-24T16:21:24+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/218541",
@@ -355,7 +411,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.61K",
+      "views_label": "1.64K",
       "posted_at": "2026-05-24T16:16:06+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/218540",
@@ -383,7 +439,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.89K",
+      "views_label": "1.93K",
       "posted_at": "2026-05-24T15:54:51+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218539",
@@ -411,7 +467,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.02K",
+      "views_label": "2.05K",
       "posted_at": "2026-05-24T15:34:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218538",
@@ -439,7 +495,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.95K",
+      "views_label": "1.98K",
       "posted_at": "2026-05-24T15:33:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218537",
@@ -2514,50 +2570,6 @@
       "posted_at": "2026-05-23T15:14:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218445",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/218444",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/vY1_VVgoe5DdY_CwOO51nee29MbnvkD9T2FbbItMuZhYlrzA6c_s7-wdokILBZfwbX3qrWe18gJQLb9SJ54JMKmb8vdfPO5NYEeoeJcpOVS6itrXvQgg535vzk2TEG_C4-IEgdR9qB3oQ9ZG6-qKtzMyYX9a0UTs-aWRos4wPEm308L7qtuEVxeW_ilyL_206-je0nFJdu_Hv2zm0Xm7B11jXywjiYPvKtuxWuT-_7vayCC5kPsLWmWlwTtiaWpG0AiTYHSxCCEXpi1AqQVK35GdcUvqr7NXCkZtGH8WoVoTaGXJRJq02xFVtYmIzX9vyNrh9IWm2JZmQciWkV4i0w.jpg",
-      "author_photo_path": "channels/farsivoa/media/2fc5bfe710d3533afb62dcd2.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "در گفت‌وگو با شاهین مدرس، تحلیلگر مطالعات امنیتی، به نشانه‌های آمادگی آمریکا برای دور تازه حملات پرداختیم و بررسی کردیم چگونه جمهوری اسلامی، با تکیه بر برآوردهایی مربوط به دورهای پیشین درگیری، تصویر دقیقی از توان واقعی و فرسایش‌یافته نظامی خود در شرایط کنونی و تحت محاصره دریایی آمریکا ندارد.",
-      "plain_text": "در گفت‌وگو با شاهین مدرس، تحلیلگر مطالعات امنیتی، به نشانه‌های آمادگی آمریکا برای دور تازه حملات پرداختیم و بررسی کردیم چگونه جمهوری اسلامی، با تکیه بر برآوردهایی مربوط به دورهای پیشین درگیری، تصویر دقیقی از توان واقعی و فرسایش‌یافته نظامی خود در شرایط کنونی و تحت محاصره دریایی آمریکا ندارد.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/218444",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/cXekmgqGj3q8teZWxU-8HUiwDrWpBUYkQxtgIdisVHtAtgNe7D7vwcOBcPmG4n0Fk9AwogJFFUVetf7L0dV32R4zbPxR7BtPx6E87luV-l9smCK-vUSeij7OJ4bxa13_6nEr2hZhQh7WA9P-TzM4yU-zyfgCB18yq3xsWLOAvNilf9dwFP-vpCeabMXWhbMaxiH7PYJQ6tJqYVwBHnE1q7S-9AApsQpTNRpBnALaHTkysbGy9PX6ErhIK72Y1Hl9ikISF_1_XrrIr-82PeoydLRGehADQ75IrYIuk8ga6kY-bPFgxuSuK5o0aBzfHCM7twZta1ftTPTecLwQP-bzxA",
-          "thumbnail_path": "channels/farsivoa/media/0ba283f08fb338593aa19a47.jpg",
-          "thumbnail_sha256": "ff7ebe79904096c3f92d0976cb610447242bb9ea6c7b70ed6a713aaf231ecb68",
-          "duration_label": "10:29",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.86K",
-      "posted_at": "2026-05-23T14:59:57+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/218444",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/218443",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/vY1_VVgoe5DdY_CwOO51nee29MbnvkD9T2FbbItMuZhYlrzA6c_s7-wdokILBZfwbX3qrWe18gJQLb9SJ54JMKmb8vdfPO5NYEeoeJcpOVS6itrXvQgg535vzk2TEG_C4-IEgdR9qB3oQ9ZG6-qKtzMyYX9a0UTs-aWRos4wPEm308L7qtuEVxeW_ilyL_206-je0nFJdu_Hv2zm0Xm7B11jXywjiYPvKtuxWuT-_7vayCC5kPsLWmWlwTtiaWpG0AiTYHSxCCEXpi1AqQVK35GdcUvqr7NXCkZtGH8WoVoTaGXJRJq02xFVtYmIzX9vyNrh9IWm2JZmQciWkV4i0w.jpg",
-      "author_photo_path": "channels/farsivoa/media/2fc5bfe710d3533afb62dcd2.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BA.png')\"><b>🔺</b></i>تاکید مارکو روبیو بر موضع قاطع پرزیدنت ترامپ در مذاکرات: رژیم ایران هرگز سلاح هسته‌ای نخواهد داشت<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i>مارکو روبیو وزیر امور خارجه آمریکا روز شنبه ۲ خرداد برای یک سفر چهارروزه و برای شرکت در نشست وزیران امور خارجه مجمع «کوآد» وارد هند شد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> بیشتر بخوانید:<br><br><a href=\"https://ir.voanews.com/a/rubio-india-trip-modi-new-delhi-quad-marco-/8153031.html/?nocach=1\" target=\"_blank\" rel=\"noopener\">https://ir.voanews.com/a/rubio-india-trip-modi-new-delhi-quad-marco-/8153031.html/?nocach=1</a>",
-      "plain_text": "🔺تاکید مارکو روبیو بر موضع قاطع پرزیدنت ترامپ در مذاکرات: رژیم ایران هرگز سلاح هسته‌ای نخواهد داشت\n\n▪️مارکو روبیو وزیر امور خارجه آمریکا روز شنبه ۲ خرداد برای یک سفر چهارروزه و برای شرکت در نشست وزیران امور خارجه مجمع «کوآد» وارد هند شد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/rubio-india-trip-modi-new-delhi-quad-marco-/8153031.html/?nocach=1",
-      "media": [],
-      "reactions": [],
-      "views_label": "1.88K",
-      "posted_at": "2026-05-23T14:56:13+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/218443",
       "reply": null
     }
   ]
