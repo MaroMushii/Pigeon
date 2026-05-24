@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-24T07:21:21.174Z",
+  "fetched_at": "2026-05-24T07:26:14.245Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,101 @@
     "subscriber_count": "147K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3399",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/YH9ncQOy9ia6Bz6P0PXN8SlkpmbxRNjpC54uApeyZBXJg42LGSGlyjq3muH2DGFeQGNKPMBrVBMHF90ocGxGQe9j24tBRdrJafAGbIJiepNLIovDid0myezvK-VKthYKO0BwqUWitt7x3ZC0kqAVjrJbcqy8Zus8y_oaVs_XD_HI6KGG5ZmVM6TKt8d3JXhSrsk2rievAAQvJh7tY2HEgRQ4KnGlhfKy1IyU_8u7D8KItFJ4FXxG86AJoOzzznKI3Ja3i8rGWlWWt0Xx8U82EleLjkeqzkjqXP2MRc1Av5YIrsZiO5vh8V6YEJvjajjrX06Zl36RW6ZaavdOXVVsWQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/0da94c0d06a928eba058a9e4.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "37"
+        },
+        {
+          "emoji": "🔥",
+          "count": "7"
+        }
+      ],
+      "views_label": "2.23K",
+      "posted_at": "2026-05-24T07:22:38+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3399",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/3395",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/YH9ncQOy9ia6Bz6P0PXN8SlkpmbxRNjpC54uApeyZBXJg42LGSGlyjq3muH2DGFeQGNKPMBrVBMHF90ocGxGQe9j24tBRdrJafAGbIJiepNLIovDid0myezvK-VKthYKO0BwqUWitt7x3ZC0kqAVjrJbcqy8Zus8y_oaVs_XD_HI6KGG5ZmVM6TKt8d3JXhSrsk2rievAAQvJh7tY2HEgRQ4KnGlhfKy1IyU_8u7D8KItFJ4FXxG86AJoOzzznKI3Ja3i8rGWlWWt0Xx8U82EleLjkeqzkjqXP2MRc1Av5YIrsZiO5vh8V6YEJvjajjrX06Zl36RW6ZaavdOXVVsWQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/0da94c0d06a928eba058a9e4.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">آپدیت جدید کلاینت شیر و خورشید 2026.05.24:<br><br>- آپدیت Beast Mode برای درست کار کردن روی CDN Fronting<br><br>- اضافه شدن اسکنر ای‌پی. برنامه لیست خیلی بزرگی از ای‌پی های ممکن را داره٬ پس اگر در اتصال مشکلی دارید پیشنهاد میکنم تنظیمات قدیمی ای‌پی ها و SNI رو از قسمت settings برنامه حذف کنید (خالی باشه)‌ و اجازه بدید برنامه خودش کار رو انجام بده. دقت کنید ممکن هست بار اول خیلی طول بکشه٬ حتی چند ساعت!<br><br>- اضافه شدن پروتکل های بیشتری که با CDN Fronting کار میکنند. احتمال اتصالتون و سرعت باید یکمی بهتر باشه الان<br><br>- قابلیت غیر فعال کردن سایتی که زمان اتصال٬ سایفون باز میکنه!<br><br>- قابلیت تنظیم پورت مورد نظر خودتون برای LAN Proxy ها.<br><br>- قابلیت تنظیم username و password مورد نظر خودتون برای LAN Proxy ها. این تنظیم دلخواه است و اگر تنظیم کنید فقط با این username و password در شبکه خانگی میتونن به شما وصل بشوند.<br><br>- آپدیت شدن هسته سایفون<br><br>میتونید از اینجا دانلود و نصب کنید و ممنون میشم اگه به اشتراک بگذارید که تعداد بیشتری ببینند:<br><br><a href=\"https://github.com/shirokhorshid/shirokhorshid-android/releases/tag/v2026.05.24-a3b91cf\" target=\"_blank\" rel=\"noopener\">https://github.com/shirokhorshid/shirokhorshid-android/releases/tag/v2026.05.24-a3b91cf</a></div>",
+      "plain_text": "آپدیت جدید کلاینت شیر و خورشید 2026.05.24:\n\n- آپدیت Beast Mode برای درست کار کردن روی CDN Fronting\n\n- اضافه شدن اسکنر ای‌پی. برنامه لیست خیلی بزرگی از ای‌پی های ممکن را داره٬ پس اگر در اتصال مشکلی دارید پیشنهاد میکنم تنظیمات قدیمی ای‌پی ها و SNI رو از قسمت settings برنامه حذف کنید (خالی باشه)‌ و اجازه بدید برنامه خودش کار رو انجام بده. دقت کنید ممکن هست بار اول خیلی طول بکشه٬ حتی چند ساعت!\n\n- اضافه شدن پروتکل های بیشتری که با CDN Fronting کار میکنند. احتمال اتصالتون و سرعت باید یکمی بهتر باشه الان\n\n- قابلیت غیر فعال کردن سایتی که زمان اتصال٬ سایفون باز میکنه!\n\n- قابلیت تنظیم پورت مورد نظر خودتون برای LAN Proxy ها.\n\n- قابلیت تنظیم username و password مورد نظر خودتون برای LAN Proxy ها. این تنظیم دلخواه است و اگر تنظیم کنید فقط با این username و password در شبکه خانگی میتونن به شما وصل بشوند.\n\n- آپدیت شدن هسته سایفون\n\nمیتونید از اینجا دانلود و نصب کنید و ممنون میشم اگه به اشتراک بگذارید که تعداد بیشتری ببینند:\n\nhttps://github.com/shirokhorshid/shirokhorshid-android/releases/tag/v2026.05.24-a3b91cf",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3395?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/riL9T0IV1E0dFlpIizkbDz3ibZxEevuV39mgq1ozugoYKb84krMIhoU1Vj2XXWuJ5SL87wPEL_nyKWDF3zWcNa6i7zOTTpb61jZ6kuCiP1ADR72JtVSe1x-1iyC6C9rEi0WFicH9vomFmH3FKS1MHjnaFKbc5ErqkqIaISZrDocQEqbi8XC_vXaiGoyiU8fPRglhNtbpMoMYs0DJ4YwBfhpwL-e3M40xUZRVMt74DlWUpjEXtIzy7BvwTFyO6J2X6zjsLAFRXkVL59c4mWiYNxZMnr9KfuTnwuqBt8jSzLvxFEChTAkCq1ECqbtsppNzGxCkOKKCnyGqsgTTpGwQ6A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/1f93d5c2736c4c25ff77ccd1.jpg",
+          "thumbnail_sha256": "63007ee65b37c16e6aaadbe1f3a2c4c1ef7d5c8f0d1584d4fc49c41f77972909",
+          "duration_label": null,
+          "aspect_ratio": 1.1967213114754
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3396?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/hkzPMyDZ6eTdZzfhvWFUHpvuPm3Vo_a_IltCU9H3EsgVJHpR1scRfWVOVBCWsxsT5RHgKe2xqgusTqyy3nk8JnU2_McPNP_jIkIUPf81XsvUeZQaRDbKhOPb0D_8WNlkXhPVUppYhEZ79r4spsAxGFSKeJDva422EF4ZYTPAxGmyvQaDwaNEyWGK8UTuhs47AyPrfDxGOQIGA11EsRqwKz5Qp1UokhzHuz8LCJGTbiSzxDlGHwycyPCejEtsl3zgvJuOMU0g62z5HIMhf_yoaNK1ZklOPyG1iey3JNbiRAaPDrxtf2RJiBIRWsyEIUB6EBhWEhkakfMuGzwNjfFXrQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/6c6afd66440670e11756b683.jpg",
+          "thumbnail_sha256": "8c222c1dae5ad11847488f9512d5300786b7a6accfdfbe02243bda02cebe15a5",
+          "duration_label": null,
+          "aspect_ratio": 1.0690789473684
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3397?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/XBXXavW0A8iv1xT22iP4W0kgR2MeFOygz806ysPAmZY7Ty49PNvbY3bGjPXGHGcfoN4NoRxu_6n4lhw3dg6rYtnFhz-rOLbhidVIMqcI9B7qU0VvgzADFTt0ZAT_4gl521KzugEn-JYm6k3iSnMqDWfPHfx-tC9ZVqukmM3DwiaG3qZLdws2YitprWZHKIujcZZsPFm55hN7422nFIGI141CdNLhVTPOpdZkPXebyEcOVYKiEMCwDVskR9y-BAxEqGqn_9O4lp5QUo2JuS3C1e4Dl0h0JqY6w2OS6Rz1tikCtm_oQlPwyWVuqPqgYZ8EjMkG1n_fxBCw6e5u6WR0jw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/8e249d20838d2237cdcb0b24.jpg",
+          "thumbnail_sha256": "258ca5b23f0462b79a5c7b0c783b13a6666b13c7afd3ed1798c6ccff7a01b6c6",
+          "duration_label": null,
+          "aspect_ratio": 0.74358974358974
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3398?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/EkQ5UB31uXd4CWGWbnRTdys-8iJNXCDlS1IH57p-YfSV1fhfy_1dmJh5u9sD4CrqTtLpvzCXXv8AJuBzOJpQ3bafOxYDqtJ6-SHwWqpSRApfu7jSfERGzxXhh-cXScwC_i6D7Wc-jS1_e5fQKSo9UqgKs4nTrzJZ65dGbMMPCw7SDadDyC5cnQ5JSViumzhetNlE2Z_7qh0FfB_4W4N4vm9ckhsEvNXehh16HXrZN0rZ5lsCjw5swrrl-S7M7lDPZWC2MnuOKDHSAaoooW9kVB_ZGw3MZRWWu9ZOQfFkk39TQajW4AFVDbIKxwSZh_A-eJ54prUIg0zQUKg_ZhXnfA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/b90c8c266a6a80e75b128aee.jpg",
+          "thumbnail_sha256": "973a759fac42e9eac704c49197f2c8fdc76a27f6c7728f1a704f6e923f69ca85",
+          "duration_label": null,
+          "aspect_ratio": 4.5774647887324
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "38"
+        },
+        {
+          "emoji": "🔥",
+          "count": "3"
+        }
+      ],
+      "views_label": "1.91K",
+      "posted_at": "2026-05-24T07:22:37+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3395",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3392",
       "author_name": "Matin SenPai",
@@ -35,7 +130,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "189"
+          "count": "200"
         },
         {
           "emoji": "😁",
@@ -50,7 +145,7 @@
           "count": "12"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "13.8K",
       "posted_at": "2026-05-24T06:18:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3392",
@@ -81,7 +176,7 @@
         },
         {
           "emoji": "❤",
-          "count": "167"
+          "count": "170"
         },
         {
           "emoji": "👎",
@@ -96,7 +191,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.2K",
+      "views_label": "13.8K",
       "posted_at": "2026-05-24T05:41:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3391",
@@ -118,7 +213,7 @@
         },
         {
           "emoji": "❤",
-          "count": "80"
+          "count": "81"
         },
         {
           "emoji": "👍",
@@ -129,7 +224,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.9K",
+      "views_label": "23.6K",
       "posted_at": "2026-05-24T04:37:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3390",
@@ -159,7 +254,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "132"
+          "count": "135"
         },
         {
           "emoji": "💔",
@@ -174,7 +269,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.7K",
+      "views_label": "23.4K",
       "posted_at": "2026-05-24T04:32:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3389",
@@ -192,7 +287,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "175"
+          "count": "177"
         },
         {
           "emoji": "😨",
@@ -207,7 +302,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29.2K",
+      "views_label": "29.8K",
       "posted_at": "2026-05-24T00:11:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3387",
@@ -225,7 +320,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "106"
+          "count": "107"
         },
         {
           "emoji": "👍",
@@ -236,7 +331,7 @@
           "count": "4"
         }
       ],
-      "views_label": "28.9K",
+      "views_label": "29.2K",
       "posted_at": "2026-05-24T00:11:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3382",
@@ -254,7 +349,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "105"
+          "count": "106"
         },
         {
           "emoji": "👍",
@@ -265,7 +360,7 @@
           "count": "3"
         }
       ],
-      "views_label": "27.9K",
+      "views_label": "28.5K",
       "posted_at": "2026-05-24T00:11:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3374",
@@ -4103,84 +4198,6 @@
       "posted_at": "2026-05-21T04:51:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3258",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3257",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/jjPIMj1CVgbr1d91qTZw3Kns9JVAoyzqb2Nn7sGqV49iBfUyDvCv6xUItp_RutDqMelZhqQBXqvlYzwZJNuZ9Nq8Xe1mMRJqkVlLcaEAlXULQn7IZS4A56KhzizP6TLtjp_WEmfzsU_xPnosrQRQMldGyVtQooYnxkVkumBi9H_3mQ10XeXTmZTJyOkpdMvTONEoXOCacOV2DwFsYSyrMgk4CEZqSoe08ucD00pFUE1yUEGo1uaY3uBYG_5sue64QSB1j8Vdn-X5nUv8YguFYlwfFKtq_fyKL_9kXduEeJkk1PeEeWLADNmzg3eK-Q4W628eWWEzxzKpeAncpL-prA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/4c33f7b43713cee58e759ffe.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "متدهایی که در حال حاضر متصل هستن:<br><br>برای وقتی که گوگل وصله:<br><br>متد دانلود از یوتوب و رفع تحریم سرویس‌های گوگل پارت 1:<br><a href=\"https://t.me/MatinSenPaii/3151\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3151</a><br>پارت 2: <br><a href=\"https://t.me/MatinSenPaii/3230\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3230</a><br> <br>MHR-CFW: <a href=\"https://youtu.be/L3lJZrAqqUQ?si=Iby4iSumzgAXj_GG\" target=\"_blank\" rel=\"noopener\">https://youtu.be/L3lJZrAqqUQ?si=Iby4iSumzgAXj_GG</a><br><br>MHRV-RUST:<br><a href=\"https://youtu.be/7YdJIJloIxY?si=WJgiFKDcCmISyDdB\" target=\"_blank\" rel=\"noopener\">https://youtu.be/7YdJIJloIxY?si=WJgiFKDcCmISyDdB</a><br><br>شیر و خورشید همچنان وصلن با آیپی‌ها:<br><a href=\"https://t.me/MatinSenPaii/3247\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3247</a><br><br>متد اسکریک که شبیه به گوگل درایوه اما اون نیست:<br><a href=\"https://t.me/ShahabSL/9223\" target=\"_blank\" rel=\"noopener\">https://t.me/ShahabSL/9223</a><br><br><br>برای وقتی گوگل هم قطعه:<br><br>WhiteDNS(برپایه MasterDNS و Storm):<br><a href=\"https://t.me/MatinSenPaii/3130?single\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3130?single</a><br><br>کلا دیگه سمت dnstt و اسلیپ نرید مقابل Master و Storm به شدت اذیت میکنن سر ریزالور",
-      "plain_text": "متدهایی که در حال حاضر متصل هستن:\n\nبرای وقتی که گوگل وصله:\n\nمتد دانلود از یوتوب و رفع تحریم سرویس‌های گوگل پارت 1:\nhttps://t.me/MatinSenPaii/3151\nپارت 2:\nhttps://t.me/MatinSenPaii/3230\n\nMHR-CFW: https://youtu.be/L3lJZrAqqUQ?si=Iby4iSumzgAXj_GG\n\nMHRV-RUST:\nhttps://youtu.be/7YdJIJloIxY?si=WJgiFKDcCmISyDdB\n\nشیر و خورشید همچنان وصلن با آیپی‌ها:\nhttps://t.me/MatinSenPaii/3247\n\nمتد اسکریک که شبیه به گوگل درایوه اما اون نیست:\nhttps://t.me/ShahabSL/9223\n\n\nبرای وقتی گوگل هم قطعه:\n\nWhiteDNS(برپایه MasterDNS و Storm):\nhttps://t.me/MatinSenPaii/3130?single\n\nکلا دیگه سمت dnstt و اسلیپ نرید مقابل Master و Storm به شدت اذیت میکنن سر ریزالور",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "274"
-        },
-        {
-          "emoji": "👎",
-          "count": "23"
-        },
-        {
-          "emoji": "👍",
-          "count": "16"
-        },
-        {
-          "emoji": "💔",
-          "count": "7"
-        }
-      ],
-      "views_label": "45K",
-      "posted_at": "2026-05-21T04:24:29+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3257",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3256",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/jjPIMj1CVgbr1d91qTZw3Kns9JVAoyzqb2Nn7sGqV49iBfUyDvCv6xUItp_RutDqMelZhqQBXqvlYzwZJNuZ9Nq8Xe1mMRJqkVlLcaEAlXULQn7IZS4A56KhzizP6TLtjp_WEmfzsU_xPnosrQRQMldGyVtQooYnxkVkumBi9H_3mQ10XeXTmZTJyOkpdMvTONEoXOCacOV2DwFsYSyrMgk4CEZqSoe08ucD00pFUE1yUEGo1uaY3uBYG_5sue64QSB1j8Vdn-X5nUv8YguFYlwfFKtq_fyKL_9kXduEeJkk1PeEeWLADNmzg3eK-Q4W628eWWEzxzKpeAncpL-prA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/4c33f7b43713cee58e759ffe.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "دیگه از شوخی گذشت<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9891.png')\"><b>😑</b></i>",
-      "plain_text": "دیگه از شوخی گذشت😑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3256",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/vwfumSryeuto3E_r58eCb-0uELSGc4cXRt6gSht_uQV2nKAnBbcRyWBPJM-jJC0gLpqwIyhR47YIiEJvm2Oz53pfchetAFCpjJe-JqP8Atjf3h3cfCDcndzXHIJ2OKNcoTtzgl2gR9MXvfhYXSa9eJ1coayJPRHuOU6wL6VTgv-yHem9ZAACDx5wN-dOKohtmRbvkeHE1pKFFu48QJswBH3UtxYXKBEFCLgnFGdaJs_l5XPTmZrAmPJzYEKcc7kWOp0i5I4jzia_HI1PnnMpiwdSgBV021JrMagJvk0sIuFwlDdUqllWGKnyRT7oPwv38bQY3RXBsx1RBgnvEIbPJw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/075fec101d6f22f13a4b0915.jpg",
-          "thumbnail_sha256": "fb53b129e3366b7e2090109975014793155ee409d127589fcbe1e452994e1697",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "398"
-        },
-        {
-          "emoji": "😨",
-          "count": "45"
-        },
-        {
-          "emoji": "❤",
-          "count": "16"
-        },
-        {
-          "emoji": "😭",
-          "count": "12"
-        }
-      ],
-      "views_label": "42.4K",
-      "posted_at": "2026-05-21T04:11:05+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3256",
       "reply": null
     }
   ]
