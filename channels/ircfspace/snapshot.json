@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-24T14:01:13.831Z",
+  "fetched_at": "2026-05-24T14:06:13.545Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -19,18 +19,30 @@
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "توی آپدیت جدید از اپ متن‌باز و رایگان <a href=\"?q=%23%D8%B4%DB%8C%D8%B1%D9%88%D8%AE%D9%88%D8%B1%D8%B4%DB%8C%D8%AF\">#شیروخورشید</a> کار خاصی نیاز نیست بکنید! حالت اتصال رو روی CDN FRONTING بذارید، اگر قبلا آی‌پی و SNI ست کرده بودین، پاک کنین؛ بعد روی اتصال بزنین و برای مدتی صبر کنید تا نرم‌افزار خودش آی‌پی تمیز پیدا کنه و وصلتون کنه!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/shirokhorshid/shirokhorshid-android/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/shirokhorshid/shirokhorshid-android/releases/latest</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <a href=\"http://t.me/PersianGithubMirror/5515\" target=\"_blank\" rel=\"noopener\">t.me/PersianGithubMirror/5515</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> yebekhe<br><br><blockquote>آیا این برنامه امنه؟ قبلا <a href=\"https://t.me/ircfspace/2345\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">اینجا</a> توضیح دادم.</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "توی آپدیت جدید از اپ متن‌باز و رایگان #شیروخورشید کار خاصی نیاز نیست بکنید! حالت اتصال رو روی CDN FRONTING بذارید، اگر قبلا آی‌پی و SNI ست کرده بودین، پاک کنین؛ بعد روی اتصال بزنین و برای مدتی صبر کنید تا نرم‌افزار خودش آی‌پی تمیز پیدا کنه و وصلتون کنه!\n\n👉 github.com/shirokhorshid/shirokhorshid-android/releases/latest\n💡 t.me/PersianGithubMirror/5515\n© yebekhe\n\nآیا این برنامه امنه؟ قبلا اینجا توضیح دادم.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [],
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2380",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Ec8OAHyzb5aUBDYqbIS65K8CbpCII5FYJuVM09UtYWWzODikDEpJkv2PXPlUlyQr-_SVumCw7lygFyZPABwDk8PcItDFggQAoZewEp8eG-nLhaAPtqlAwN44sJHckFiZyt8PCRkYlc8VMwyKKJuBr5vfWyNmTjlvzjwIHm1WuFA5fx3o_VNaBakB9eQ5axKOwmrgAsJMZDOv9OvfJCufCWY5_pGynoZ0b8AQVIY1LWQtH1zKrzhuFLDaZHY5BMV4GB57U0YDBR3Mk0rFHRHC8UPqLQSXOirnonjOJPAhgunKyZwxTroJKUTODlkjRXuiHOsUipkaTTTi_GFs38csmw.jpg",
+          "thumbnail_path": "channels/ircfspace/media/509700427d8105e4da001e19.jpg",
+          "thumbnail_sha256": "d8f73a9547f6deb34cb12989432c76f252f0b9f6eac1e3f4041a2ac89938c05f",
+          "duration_label": null,
+          "aspect_ratio": 0.9651474530831202
+        }
+      ],
       "reactions": [
         {
           "emoji": "👍",
-          "count": "45"
-        },
-        {
-          "emoji": "❤",
-          "count": "9"
+          "count": "53"
         },
         {
           "emoji": "👎",
+          "count": "12"
+        },
+        {
+          "emoji": "❤",
           "count": "9"
         },
         {
@@ -38,7 +50,7 @@
           "count": "6"
         }
       ],
-      "views_label": "3.29K",
+      "views_label": "3.93K",
       "posted_at": "2026-05-24T13:46:32+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2380",
@@ -60,7 +72,7 @@
         },
         {
           "emoji": "😢",
-          "count": "1.02K"
+          "count": "1.03K"
         },
         {
           "emoji": "🤬",
@@ -72,7 +84,7 @@
         },
         {
           "emoji": "❤",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "😐",
@@ -95,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.8K",
+      "views_label": "15.9K",
       "posted_at": "2026-05-24T05:27:03+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2378",
@@ -125,7 +137,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "240"
+          "count": "242"
         },
         {
           "emoji": "😢",
@@ -156,7 +168,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "15.7K",
       "posted_at": "2026-05-24T05:21:32+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2377",
@@ -186,11 +198,11 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "206"
+          "count": "207"
         },
         {
           "emoji": "🤡",
-          "count": "49"
+          "count": "50"
         },
         {
           "emoji": "😁",
@@ -213,7 +225,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16K",
+      "views_label": "16.1K",
       "posted_at": "2026-05-24T05:10:24+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2376",
@@ -246,7 +258,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.1K",
+      "views_label": "15.3K",
       "posted_at": "2026-05-24T05:06:55+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2375",
@@ -319,7 +331,7 @@
           "count": "4"
         }
       ],
-      "views_label": "20.6K",
+      "views_label": "20.7K",
       "posted_at": "2026-05-23T05:08:17+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2374",
@@ -368,7 +380,7 @@
           "count": "6"
         }
       ],
-      "views_label": "20K",
+      "views_label": "20.1K",
       "posted_at": "2026-05-23T04:45:39+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2373",
@@ -478,7 +490,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.4K",
+      "views_label": "22.5K",
       "posted_at": "2026-05-22T16:15:15+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2371",
@@ -641,7 +653,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.6K",
+      "views_label": "24.7K",
       "posted_at": "2026-05-21T16:39:26+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2368",
@@ -698,7 +710,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-05-21T16:34:37+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2367",
@@ -743,7 +755,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.1K",
+      "views_label": "23.2K",
       "posted_at": "2026-05-21T16:22:04+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2366",
@@ -943,7 +955,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.8K",
+      "views_label": "25.9K",
       "posted_at": "2026-05-21T04:54:19+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2362",
