@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-24T16:01:13.058Z",
+  "fetched_at": "2026-05-24T16:06:25.158Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "149K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3406",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/XPlEJedByPSvY36wRZsUJkG5EVDwIh8mdWhn87zJMNyaCELHXcL2zK65w0tjg9qC4zKRLdYiDmDFq3UlT0a9Mn6Yc2hyLMl0Nxi1QCeTdwACnnXc-nFLSeLag8Cln3Yg5CS_aBT-j0A58siYkd_JQOgnHC5HQja8aahDCdvCW7YHszACcqveRNaehx6K9LBPUR-hRt6taGgfkaPPrlm6Nd2RIXV9XcZc8r2O2GOKDfmr3LpsN0RBJJ3ehiYRVNP6X6p68wxOXHIJcEDu_5LbRn1Q3M5qboeb5NhIV-uoLHv6DAz5GyuLLABQ41AoRwPYZNrhrFoci8SRncbhmXJAOQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/8969a0a57e5b354f017cd5d4.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "زبان‌های مختلف برنامه‌نویسی، هر کدوم قاعده و قانون خودشون رو دارن و به درد یه جایی می‌خورن، اما یکی از پارامترهایی که می‌تونیم اونها رو بر اساسش مقایسه کنیم، «کامپایلری» بودن یا «مُفَسِّری» بودن(از تفسیر میاد) اون زبان هستش.<br><b><br>۱- زبان کامپایلری (Compiled) چیه؟</b><br><br>توی این زبان‌ها، قبل از اینکه برنامه اجرا بشه، کل کد به زبان ماشین(کد باینری) تبدیل می‌شه. این کار توسط کامپایلر انجام می‌شه. این که ماهیت کامپایلر چی هستش، بماند.<br><br>مزایا:<br><br><blockquote>۱- سرعت اجرای خیلی بالا<br>۲- اکثر خطاها قبل از اجرای خود نرم‌افزار پیدا می‌شن (Compile-time error)<br>۳- پرفرمنس بهتر<br></blockquote>﻿<br>معایب:<br><br><blockquote>- باینری تولید شده معمولاً فقط روی یه سیستم‌عامل و معماری خاص (مثلاً Windows x64) اجرا می‌شه. و برای پشتیبانی از پلتفرم‌های مختلف باید کراس‌کامپایل کنیم که پیچیده هست و دردسرهای خودش رو داره.<br>۲- تغییر کد و تست دوباره سخته (باید دوباره کامپایل بشه)<br></blockquote>مثال‌های معروف:<br>زبان C --&gt; سیستم‌عامل، بازی‌سازی<br>زبان C++ --&gt; بازی‌سازی (با انجین Unreal Engine)، نرم‌افزارهای سنگین<br>زبان Rust --&gt; سیستم‌های امن(به خاطر مموری سیفتی) و سریع (در حال رشد و توی هایپ شدید)<br>زبان Go(گولَنگ) --&gt; بک‌اندهای Scalable(مقیاس‌پذیر)، میکروسرویس‌ها<br>زبان Swift --&gt; اپلیکیشن‌های مک و iOS<br><br><b><br>۲. زبان مفسری (Interpreted) چیه؟</b><br><br>کد خط به خط، موقع اجرا ترجمه و اجرا می‌شه. نیازی به کامپایل قبلی نداره.<br><br>مزایا:<br><br><blockquote>۱- توسعه‌ی نسبتاً سریع‌تر (تغییر رو میدی، فوری اجرا می‌کنی)<br>۲- یه سری به عنوان مزایا می‌گن خوندن کد راحت‌تره که من قبول ندارم اصلا<br>۳- در کل Portablity بهتری دارن. هرچند شما عموما مجبوری سورس کد رو کامل تحویل بدی چون نرم‌افزارت همونه!<br></blockquote>معایب:<br><br><blockquote>۱- سرعت اجرای پایین‌تر (چون هر بار باید ترجمه بشه)<br>۲- مصرف منابع بیشتر<br>۳- خطاهای سینتکس و DataType، معمولاً زمان اجرا (Runtime) تشخیص داده می‌شن، در حالی که توی زبان‌های کامپایلری، خیلی از این خطاها زمان کامپایل گرفته می‌شن. این موضوع برای پروژه‌هایی که با این زبان‌ها نوشته شدن، باعث می‌شه دیباگینگ پیچیده‌تر بشه.<br></blockquote>مثال‌های معروف:<br>زبان Python --&gt; هوش مصنوعی، مهندسی داده، اسکریپت‌نویسی(ابزارهای قدرتمندی داره)، وب (Django/FastAPI)<br>زبان JavaScript --&gt; فرانت‌اند وب (بک‌اند با Node.js و فرانت)<br>زبان Ruby --&gt; وب (Ruby on Rails)<br>زبان PHP --&gt; وب (WordPress و لاراول)<br><br>(هرچند جاوااسکریپت و php رو دیگه نمیشه کاملا مفسری دونست. به خاطر JIT Compilation که بعدا توضیح می‌دم)<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "زبان‌های مختلف برنامه‌نویسی، هر کدوم قاعده و قانون خودشون رو دارن و به درد یه جایی می‌خورن، اما یکی از پارامترهایی که می‌تونیم اونها رو بر اساسش مقایسه کنیم، «کامپایلری» بودن یا «مُفَسِّری» بودن(از تفسیر میاد) اون زبان هستش.\n\n۱- زبان کامپایلری (Compiled) چیه؟\n\nتوی این زبان‌ها، قبل از اینکه برنامه اجرا بشه، کل کد به زبان ماشین(کد باینری) تبدیل می‌شه. این کار توسط کامپایلر انجام می‌شه. این که ماهیت کامپایلر چی هستش، بماند.\n\nمزایا:\n\n۱- سرعت اجرای خیلی بالا\n۲- اکثر خطاها قبل از اجرای خود نرم‌افزار پیدا می‌شن (Compile-time error)\n۳- پرفرمنس بهتر\n﻿\nمعایب:\n\n- باینری تولید شده معمولاً فقط روی یه سیستم‌عامل و معماری خاص (مثلاً Windows x64) اجرا می‌شه. و برای پشتیبانی از پلتفرم‌های مختلف باید کراس‌کامپایل کنیم که پیچیده هست و دردسرهای خودش رو داره.\n۲- تغییر کد و تست دوباره سخته (باید دوباره کامپایل بشه)\nمثال‌های معروف:\nزبان C --> سیستم‌عامل، بازی‌سازی\nزبان C++ --> بازی‌سازی (با انجین Unreal Engine)، نرم‌افزارهای سنگین\nزبان Rust --> سیستم‌های امن(به خاطر مموری سیفتی) و سریع (در حال رشد و توی هایپ شدید)\nزبان Go(گولَنگ) --> بک‌اندهای Scalable(مقیاس‌پذیر)، میکروسرویس‌ها\nزبان Swift --> اپلیکیشن‌های مک و iOS\n\n\n۲. زبان مفسری (Interpreted) چیه؟\n\nکد خط به خط، موقع اجرا ترجمه و اجرا می‌شه. نیازی به کامپایل قبلی نداره.\n\nمزایا:\n\n۱- توسعه‌ی نسبتاً سریع‌تر (تغییر رو میدی، فوری اجرا می‌کنی)\n۲- یه سری به عنوان مزایا می‌گن خوندن کد راحت‌تره که من قبول ندارم اصلا\n۳- در کل Portablity بهتری دارن. هرچند شما عموما مجبوری سورس کد رو کامل تحویل بدی چون نرم‌افزارت همونه!\nمعایب:\n\n۱- سرعت اجرای پایین‌تر (چون هر بار باید ترجمه بشه)\n۲- مصرف منابع بیشتر\n۳- خطاهای سینتکس و DataType، معمولاً زمان اجرا (Runtime) تشخیص داده می‌شن، در حالی که توی زبان‌های کامپایلری، خیلی از این خطاها زمان کامپایل گرفته می‌شن. این موضوع برای پروژه‌هایی که با این زبان‌ها نوشته شدن، باعث می‌شه دیباگینگ پیچیده‌تر بشه.\nمثال‌های معروف:\nزبان Python --> هوش مصنوعی، مهندسی داده، اسکریپت‌نویسی(ابزارهای قدرتمندی داره)، وب (Django/FastAPI)\nزبان JavaScript --> فرانت‌اند وب (بک‌اند با Node.js و فرانت)\nزبان Ruby --> وب (Ruby on Rails)\nزبان PHP --> وب (WordPress و لاراول)\n\n(هرچند جاوااسکریپت و php رو دیگه نمیشه کاملا مفسری دونست. به خاطر JIT Compilation که بعدا توضیح می‌دم)\n\n✉️ t.me/MatinSenPaii",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "52"
+        },
+        {
+          "emoji": "😁",
+          "count": "8"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "👎",
+          "count": "4"
+        }
+      ],
+      "views_label": "4.03K",
+      "posted_at": "2026-05-24T16:01:37+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3406",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3405",
       "author_name": "Matin SenPai",
@@ -23,7 +56,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "863"
+          "count": "883"
         },
         {
           "emoji": "👍",
@@ -38,7 +71,7 @@
           "count": "29"
         }
       ],
-      "views_label": "33.5K",
+      "views_label": "34.5K",
       "posted_at": "2026-05-24T11:38:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3405",
@@ -56,11 +89,11 @@
       "reactions": [
         {
           "emoji": "⭐",
-          "count": "2"
+          "count": "10"
         },
         {
           "emoji": "❤",
-          "count": "361"
+          "count": "369"
         },
         {
           "emoji": "👍",
@@ -75,7 +108,7 @@
           "count": "6"
         }
       ],
-      "views_label": "31.2K",
+      "views_label": "31.8K",
       "posted_at": "2026-05-24T11:16:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3404",
@@ -97,11 +130,11 @@
         },
         {
           "emoji": "👍",
-          "count": "418"
+          "count": "423"
         },
         {
           "emoji": "❤",
-          "count": "82"
+          "count": "83"
         },
         {
           "emoji": "👎",
@@ -112,7 +145,7 @@
           "count": "10"
         }
       ],
-      "views_label": "36.5K",
+      "views_label": "37K",
       "posted_at": "2026-05-24T11:15:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3403",
@@ -130,7 +163,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "370"
+          "count": "375"
         },
         {
           "emoji": "❤",
@@ -138,14 +171,14 @@
         },
         {
           "emoji": "😭",
-          "count": "35"
+          "count": "37"
         },
         {
           "emoji": "👎",
           "count": "16"
         }
       ],
-      "views_label": "35.9K",
+      "views_label": "36.4K",
       "posted_at": "2026-05-24T11:05:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3402",
@@ -205,7 +238,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "484"
+          "count": "487"
         },
         {
           "emoji": "😁",
@@ -220,7 +253,7 @@
           "count": "16"
         }
       ],
-      "views_label": "43K",
+      "views_label": "43.1K",
       "posted_at": "2026-05-24T08:58:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3400",
@@ -251,7 +284,7 @@
         },
         {
           "emoji": "❤",
-          "count": "442"
+          "count": "444"
         },
         {
           "emoji": "👎",
@@ -266,7 +299,7 @@
           "count": "12"
         }
       ],
-      "views_label": "41.4K",
+      "views_label": "41.5K",
       "posted_at": "2026-05-24T07:22:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3399",
@@ -329,7 +362,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "423"
+          "count": "424"
         },
         {
           "emoji": "👎",
@@ -344,7 +377,7 @@
           "count": "10"
         }
       ],
-      "views_label": "40.1K",
+      "views_label": "40.2K",
       "posted_at": "2026-05-24T07:22:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3395",
@@ -374,11 +407,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "360"
+          "count": "362"
         },
         {
           "emoji": "😁",
-          "count": "105"
+          "count": "106"
         },
         {
           "emoji": "👍",
@@ -389,7 +422,7 @@
           "count": "15"
         }
       ],
-      "views_label": "42K",
+      "views_label": "42.1K",
       "posted_at": "2026-05-24T06:18:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3392",
@@ -435,7 +468,7 @@
           "count": "1"
         }
       ],
-      "views_label": "33.9K",
+      "views_label": "34K",
       "posted_at": "2026-05-24T05:41:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3391",
@@ -502,7 +535,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "210"
+          "count": "211"
         },
         {
           "emoji": "💔",
@@ -517,7 +550,7 @@
           "count": "2"
         }
       ],
-      "views_label": "42.9K",
+      "views_label": "43K",
       "posted_at": "2026-05-24T04:32:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3389",
@@ -535,7 +568,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "233"
+          "count": "234"
         },
         {
           "emoji": "😨",
@@ -568,7 +601,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "147"
+          "count": "148"
         },
         {
           "emoji": "👍",
@@ -4145,39 +4178,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/3265"
       }
-    },
-    {
-      "id": "MatinSenPaii/3265",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/YLuACXfpLfvLAJ7WVJjmanb6C0prLYZNY1i2JDOGNn96w8d7Xj9ud8Ll0fNaD7E69XKw8qsrKl0d6pS_39YO7340qSwaUd8CJrqBrjVWsAes9jgAkbVc6Jf51-5AVRHkoA_GNrFiJtrwuqsBzvgsGsVuA1xU6GhJ7lEoBmuqj30ISOV40GDGrI4osoutTvuoHNoMhaWzWWSBRzEnR5lAiX_sV31SJCHaU7PecLFFSEUhMJE7sPlQtSfWZWH9wem_bvn5uyvqpfYAAyP40MRqzL4G7UjU1CfrRz1GZlA4w_MQztyFOoHsPI6cvhGE_mBaj37122jAMVELTEufQsi6GA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/b37f7a3648f375b8d420cc68.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "یک سری از گروه‌های ارسال کانفیگ و کمک و اینهایی که از سرتاسر تلگرام دیدم و خب نمیدونم مال کی هستن اکثرا، می‌ذارم خدمتتون توی پست بعد",
-      "plain_text": "یک سری از گروه‌های ارسال کانفیگ و کمک و اینهایی که از سرتاسر تلگرام دیدم و خب نمیدونم مال کی هستن اکثرا، می‌ذارم خدمتتون توی پست بعد",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "348"
-        },
-        {
-          "emoji": "❤",
-          "count": "68"
-        },
-        {
-          "emoji": "😁",
-          "count": "9"
-        },
-        {
-          "emoji": "👎",
-          "count": "8"
-        }
-      ],
-      "views_label": "45.4K",
-      "posted_at": "2026-05-21T07:04:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3265",
-      "reply": null
     }
   ]
 }
