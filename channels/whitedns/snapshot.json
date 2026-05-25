@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-25T05:56:21.970Z",
+  "fetched_at": "2026-05-25T06:01:29.038Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "96.2K"
   },
   "posts": [
+    {
+      "id": "whitedns/795",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/ir2qWBDvVIK1S6XpVcuIi_LZhQA8u_v30bw9iOCA3_7J48JKorEzwg8CSvrs0eeMe99qX0dCgrtXBW4nUoytIydOblknXoE0jW0yAaJ-q3_9ivBGqiEXPvarHaT6uPXfdqraLDZN1JqNchHQdLEkW9O81mvR0x424GxFy416DfcXKsTEVTddMP6OE0jLbBt9CvpRCtkCb5cDdw9tNzMFgC14bi-Ur7b3GePub55GaUvtqgHKR8SFXWUbNKX68SHj27qyoLKsD2rWlLbDZ4DyKMjbmsJhdL_Esn00BuzD0L1dm7CYYka8pS8J9Lm0q4yIUJt6rz2jDRCO7BXLgWo3NQ.jpg",
+      "author_photo_path": "channels/whitedns/media/ceaaf842c193696287627e52.jpg",
+      "author_photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
+      "body_html": "در حال حاضر مشغول تست نسخه جدید اپلیکیشن دسکتاپ WhiteDNS هستیم.<br><br>در این نسخه، علاوه بر اضافه شدن حالت دارک مود، تغییرات مهمی در عملکرد داخلی برنامه اعمال شده است.<br><br>یکی از تغییرات اصلی این نسخه، تغییر کلاینت داخلی اپ از StormDNS به MasterDNS است.<br><br>این تغییر به این معنی نیست که سرورهای StormDNS دیگر قابل استفاده نیستند یا وصل نمی‌شوند. سرورهای StormDNS همچنان قابل استفاده هستند.<br><br>اما تنظیمات داخلی برنامه در این نسخه بر اساس آخرین نسخه MasterDNS ساخته شده و در تست‌های اولیه، از نظر سرعت، پایداری و مصرف حجم، عملکرد بهتری نسبت به نسخه‌های قبلی نشان داده است.<br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "در حال حاضر مشغول تست نسخه جدید اپلیکیشن دسکتاپ WhiteDNS هستیم.\n\nدر این نسخه، علاوه بر اضافه شدن حالت دارک مود، تغییرات مهمی در عملکرد داخلی برنامه اعمال شده است.\n\nیکی از تغییرات اصلی این نسخه، تغییر کلاینت داخلی اپ از StormDNS به MasterDNS است.\n\nاین تغییر به این معنی نیست که سرورهای StormDNS دیگر قابل استفاده نیستند یا وصل نمی‌شوند. سرورهای StormDNS همچنان قابل استفاده هستند.\n\nاما تنظیمات داخلی برنامه در این نسخه بر اساس آخرین نسخه MasterDNS ساخته شده و در تست‌های اولیه، از نظر سرعت، پایداری و مصرف حجم، عملکرد بهتری نسبت به نسخه‌های قبلی نشان داده است.\n\n@WhiteDNS",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/795",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/tYRhXzNjU-LFgNvbvnUMSrqi6-Fv35aaWw6-eVDLNVkUVVlTbwzU-HlhzC6EKtALPJ5CA0v0jS9rI2mQQfiR9zlhFbXTuOUE4D4TeEJrnZgpxHAi61fCCcwfV5PVgzfEdYU4O0ZxaRsh03N190uypBoPs_vJe2DZgKEnNNH6VorkDgIdI0AAnHql66oE4PdSrohVvSYeBWKLMwWTvxZ7A7Pv3j3lAtlUJ-RInW86gLvkAk5-Y_4MDV4KiV1toHLWVwR9w7-ndLXEloliJHpPW_aDCnp0y8F-iyKGONersBkssSLLACo0p9jlqud2lPNl6TBjt-4D9P2U54pi0K_NZA.jpg",
+          "thumbnail_path": "channels/whitedns/media/f948ee3ab99a05c752d14283.jpg",
+          "thumbnail_sha256": "a13859bc1b071c2aef918f88a723b6939c120b056534a89f3d891804f5bf087c",
+          "duration_label": null,
+          "aspect_ratio": 1.4492753623188406
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "24"
+        },
+        {
+          "emoji": "👏",
+          "count": "1"
+        }
+      ],
+      "views_label": "614",
+      "posted_at": "2026-05-25T05:59:06+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/795",
+      "reply": null
+    },
     {
       "id": "whitedns/793",
       "author_name": "White DNS",
@@ -39,11 +76,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "163"
+          "count": "164"
         },
         {
           "emoji": "🤣",
-          "count": "48"
+          "count": "49"
         },
         {
           "emoji": "❤",
@@ -70,7 +107,7 @@
           "count": "2"
         }
       ],
-      "views_label": "13.8K",
+      "views_label": "13.9K",
       "posted_at": "2026-05-24T16:35:26+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/792",
@@ -88,7 +125,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "90"
+          "count": "91"
         },
         {
           "emoji": "👍",
@@ -115,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.6K",
+      "views_label": "27.7K",
       "posted_at": "2026-05-24T12:50:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/791",
@@ -199,7 +236,7 @@
         },
         {
           "emoji": "👍",
-          "count": "185"
+          "count": "186"
         },
         {
           "emoji": "❤",
@@ -222,7 +259,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.3K",
+      "views_label": "30.4K",
       "posted_at": "2026-05-24T09:11:50+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/789",
@@ -281,7 +318,7 @@
         },
         {
           "emoji": "❤‍🔥",
-          "count": "224"
+          "count": "225"
         },
         {
           "emoji": "❤",
@@ -300,7 +337,7 @@
           "count": "1"
         }
       ],
-      "views_label": "73.2K",
+      "views_label": "73.3K",
       "posted_at": "2026-05-24T02:25:08+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/787",
@@ -334,7 +371,7 @@
         },
         {
           "emoji": "❤‍🔥",
-          "count": "155"
+          "count": "156"
         },
         {
           "emoji": "❤",
@@ -391,7 +428,7 @@
         },
         {
           "emoji": "❤",
-          "count": "489"
+          "count": "490"
         },
         {
           "emoji": "👍",
@@ -434,7 +471,7 @@
           "count": "1"
         }
       ],
-      "views_label": "37.5K",
+      "views_label": "37.6K",
       "posted_at": "2026-05-23T18:27:58+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/785",
@@ -468,7 +505,7 @@
         },
         {
           "emoji": "❤",
-          "count": "960"
+          "count": "961"
         },
         {
           "emoji": "👏",
@@ -637,7 +674,7 @@
           "count": "1"
         }
       ],
-      "views_label": "40.7K",
+      "views_label": "40.8K",
       "posted_at": "2026-05-22T13:45:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/781",
