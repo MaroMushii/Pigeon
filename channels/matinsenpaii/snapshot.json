@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-25T18:56:17.272Z",
+  "fetched_at": "2026-05-25T19:01:17.024Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,51 @@
     "subscriber_count": "152K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3427",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/pReWTzLaUgCh-bxcrgBazGaCix02BMVHbEiU-sqi2dhuFoBwvDnIaUz2_yctSI550SUduN1O__tPRNirrU9vsbJZ6kHIReF94e_fWHOANN9sO73YBn0Dp5hTTk3tb045laon4OsbFM9Z64bhnFWDU5JaN-9OM0SW0TVgjekvYds24GqQ66G3So_5r6rJ7bebYy_lxRwKGdWMsyGnP7ubDZPqD3u2VJiXIG5JXm35t5KbnQ1XDXh9grGQsZyhbsgxejwlywiRvHzBvGyKHoAjtAEiAKmOqxERuNp8V2eRH1AXLyQjvJp_-yL6qJor18oIV9ZgVlqRZJPeeBNpOs0SAw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/fe3415e67399411424342449.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<a href=\"https://x.com/i/status/2058883900051505572\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Aleskxyz</a>:<br>واسه sni spoofing من یه اپ با go نوشتم که به جای اون template واسه client hello که توی کد اصلی هست، از utls استفاده میکنه که میتونه رفتار مرورگرهای مختلف رو تقلید کنه.<br>همچنین fragment و ارسال چندباره fake sni رو هم بهش اضافه کردم.<br>توی تست خودم واسه لینوکس و ویندوز کار میکنه ولی نمیدونم داخل ایران هم جواب میده یا نه.<br>اگه sni spoofing روی نت شما جواب میده، این رو هم تست کنید، هر دو نسخه‌اش رو. ببینید کار میکنه یا نه<br>از firefox واسه utls استفاده کنید. خیلیا مشکلشون حل شده:<br>-utls firefox<br><br>توی نسخه جدید (v0.3.0) میتونید کانفیگ رو داخل فایل config.ini بنویسید و بذارید کنار فایل exe رو فایل رو run a admin کنید. نمونه محتوای فایل:<br><br>listen = <a href=\"http://127.0.0.1:40443/\" target=\"_blank\" rel=\"noopener\">127.0.0.1:40443</a><br>connect = <a href=\"http://104.19.229.21:443/\" target=\"_blank\" rel=\"noopener\">104.19.229.21:443</a><br>fake-sni = hcaptcha[.]com<br>utls = firefox<br><br>قبل از اینکه بخواید از این روش استفاده کنید، لازمه این دو تا شرط برقرار باشه.<br>اول اینکه لینک زیر برای شما بدون vpn باز بشه. اگر این لینک باز شد مقدار ip رو بخونید و یادداشت کنید:<br><a href=\"http://hcaptcha.com/cdn-cgi/trace\" target=\"_blank\" rel=\"noopener\">hcaptcha.com/cdn-cgi/trace</a>‎<br>بعد این لینک رو باز کنید و ببینید ip داخل ایران شما چیه:<br><a href=\"http://ipmyp.ir/\" target=\"_blank\" rel=\"noopener\">ipmyp.ir</a>‎<br>اگه هر دو این ip ها یکی بود، این روش احتمالا برای شما کار کنه وگرنه قطعا کار نمیکنه.<br><br><a href=\"https://github.com/aleskxyz/SNI-Spoofing-Go\" target=\"_blank\" rel=\"noopener\">https://github.com/aleskxyz/SNI-Spoofing-Go</a>",
+      "plain_text": "Aleskxyz:\nواسه sni spoofing من یه اپ با go نوشتم که به جای اون template واسه client hello که توی کد اصلی هست، از utls استفاده میکنه که میتونه رفتار مرورگرهای مختلف رو تقلید کنه.\nهمچنین fragment و ارسال چندباره fake sni رو هم بهش اضافه کردم.\nتوی تست خودم واسه لینوکس و ویندوز کار میکنه ولی نمیدونم داخل ایران هم جواب میده یا نه.\nاگه sni spoofing روی نت شما جواب میده، این رو هم تست کنید، هر دو نسخه‌اش رو. ببینید کار میکنه یا نه\nاز firefox واسه utls استفاده کنید. خیلیا مشکلشون حل شده:\n-utls firefox\n\nتوی نسخه جدید (v0.3.0) میتونید کانفیگ رو داخل فایل config.ini بنویسید و بذارید کنار فایل exe رو فایل رو run a admin کنید. نمونه محتوای فایل:\n\nlisten = 127.0.0.1:40443\nconnect = 104.19.229.21:443\nfake-sni = hcaptcha[.]com\nutls = firefox\n\nقبل از اینکه بخواید از این روش استفاده کنید، لازمه این دو تا شرط برقرار باشه.\nاول اینکه لینک زیر برای شما بدون vpn باز بشه. اگر این لینک باز شد مقدار ip رو بخونید و یادداشت کنید:\nhcaptcha.com/cdn-cgi/trace‎\nبعد این لینک رو باز کنید و ببینید ip داخل ایران شما چیه:\nipmyp.ir‎\nاگه هر دو این ip ها یکی بود، این روش احتمالا برای شما کار کنه وگرنه قطعا کار نمیکنه.\n\nhttps://github.com/aleskxyz/SNI-Spoofing-Go",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3427",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/jDZKqdGBSRFWXU7C4x3NlOImP9bnC5polaoIDEGFVXgXxO4ilCZ7s7HmeIAAN_LMDGCXnTkpDlTyrN_LxWtr-NdyMLOTGb3rOianZ57epPgMtPm8ILQfvgSEB9gzlkZml_LdSRwyxZZk9XUmhUUwnDMWsVuQkgOmGTUJKWuL-LuYb3_865t_Cr3Ufp9Ae91D-JOoa-jKJiQBAZ8-Ojfhl0ZlLzwNJwiifZLzoUZq0CKYb8cgj7rilNx5f_4X3Rmd8ugRZUepo4bYu5u4GKTjoFBYP8IF2TwrdUSejtjLvw0FFD8YuLc1DpuZJlP6T9xz01txZQFFjXKxN5VgT97bnw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/4e749d48f8822d11eae28d00.jpg",
+          "thumbnail_sha256": "9cd69bf36e2dd09c33610956e545fc4dbd447283fe6ef03f6749358de5fe98d9",
+          "duration_label": null,
+          "aspect_ratio": 0.8525000000000273
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "10"
+        },
+        {
+          "emoji": "👎",
+          "count": "3"
+        },
+        {
+          "emoji": "😭",
+          "count": "3"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.53K",
+      "posted_at": "2026-05-25T18:59:34+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3427",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3426",
       "author_name": "Matin SenPai",
@@ -23,22 +68,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "208"
+          "count": "237"
         },
         {
           "emoji": "👍",
-          "count": "10"
+          "count": "12"
         },
         {
           "emoji": "😭",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "🎃",
           "count": "8"
         }
       ],
-      "views_label": "13K",
+      "views_label": "14.9K",
       "posted_at": "2026-05-25T18:32:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3426",
@@ -77,7 +122,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "125"
+          "count": "131"
         },
         {
           "emoji": "🔥",
@@ -92,7 +137,7 @@
           "count": "4"
         }
       ],
-      "views_label": "14.8K",
+      "views_label": "15.4K",
       "posted_at": "2026-05-25T17:28:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3425",
@@ -114,7 +159,7 @@
         },
         {
           "emoji": "❤",
-          "count": "190"
+          "count": "191"
         },
         {
           "emoji": "👍",
@@ -129,7 +174,7 @@
           "count": "5"
         }
       ],
-      "views_label": "39.5K",
+      "views_label": "40.1K",
       "posted_at": "2026-05-25T13:16:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3424",
@@ -168,7 +213,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "172"
+          "count": "174"
         },
         {
           "emoji": "👍",
@@ -183,7 +228,7 @@
           "count": "8"
         }
       ],
-      "views_label": "43.3K",
+      "views_label": "43.9K",
       "posted_at": "2026-05-25T12:24:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3423",
@@ -205,11 +250,11 @@
         },
         {
           "emoji": "❤",
-          "count": "1.96K"
+          "count": "1.97K"
         },
         {
           "emoji": "👍",
-          "count": "127"
+          "count": "128"
         },
         {
           "emoji": "🔥",
@@ -220,7 +265,7 @@
           "count": "19"
         }
       ],
-      "views_label": "48.1K",
+      "views_label": "48.8K",
       "posted_at": "2026-05-25T10:52:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3422",
@@ -242,7 +287,7 @@
         },
         {
           "emoji": "❤",
-          "count": "295"
+          "count": "296"
         },
         {
           "emoji": "👍",
@@ -257,7 +302,7 @@
           "count": "6"
         }
       ],
-      "views_label": "48.2K",
+      "views_label": "48.5K",
       "posted_at": "2026-05-25T10:34:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3421",
@@ -296,11 +341,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "979"
+          "count": "982"
         },
         {
           "emoji": "👍",
-          "count": "107"
+          "count": "108"
         },
         {
           "emoji": "💔",
@@ -311,7 +356,7 @@
           "count": "60"
         }
       ],
-      "views_label": "50K",
+      "views_label": "50.4K",
       "posted_at": "2026-05-25T10:13:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3420",
@@ -329,7 +374,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "216"
+          "count": "217"
         },
         {
           "emoji": "👍",
@@ -375,7 +420,7 @@
         },
         {
           "emoji": "👍",
-          "count": "77"
+          "count": "78"
         },
         {
           "emoji": "🎃",
@@ -386,7 +431,7 @@
           "count": "4"
         }
       ],
-      "views_label": "55.1K",
+      "views_label": "55.4K",
       "posted_at": "2026-05-25T07:05:50+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3418",
@@ -419,7 +464,7 @@
           "count": "20"
         }
       ],
-      "views_label": "56.5K",
+      "views_label": "56.8K",
       "posted_at": "2026-05-25T03:52:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3417",
@@ -464,7 +509,7 @@
           "count": "17"
         }
       ],
-      "views_label": "56.6K",
+      "views_label": "56.9K",
       "posted_at": "2026-05-25T02:40:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3416",
@@ -567,7 +612,7 @@
           "count": "10"
         }
       ],
-      "views_label": "55.9K",
+      "views_label": "56.2K",
       "posted_at": "2026-05-25T00:21:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3414",
@@ -713,7 +758,7 @@
         },
         {
           "emoji": "❤",
-          "count": "337"
+          "count": "338"
         },
         {
           "emoji": "👍",
@@ -746,7 +791,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "346"
+          "count": "347"
         },
         {
           "emoji": "💔",
@@ -761,7 +806,7 @@
           "count": "23"
         }
       ],
-      "views_label": "77.9K",
+      "views_label": "78.2K",
       "posted_at": "2026-05-24T16:27:43+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3409",
@@ -4084,55 +4129,6 @@
       "posted_at": "2026-05-22T08:25:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3289",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3288",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/vUHh-AuS3F_nr4PSd4YWYPGkk0Ryk67IQ-wQ1BiuDYraah_3npr8yDq3Cx7tC3bGAplGVL3QZ0qNUIZCanjwm3SZ1STL9Vht5LJnJcv6_AhFgYkEYu84ueTA4df1Bp1JC-u3aeCQb4JWvWbVBJ_Wtd74jfjMBhzFCRSQuvGSS3bZLZHEMtygW6wkp4WrF6A3hJQAqiRnYqxqrdp0P-8MrlWjmbTPQcn5PM44_Njpf4P6TXQUZpdfl4hoEUN16n2sDJz7ZfkYmUU1LlIzX9g0OSDUMxhQcgYKejZPUsTAenkuVVWVkkDB53SGaCgIdYuG9DJDpG3pdgRrdM0uhpESiA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/37a05e349d8f24bcd66724bf.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "چنین بود، افسانه‌ی شیر و خورشید<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FABA0.png')\"><b>🫠</b></i>",
-      "plain_text": "چنین بود، افسانه‌ی شیر و خورشید🫠",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3288",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/g8A3h_ZDRelT3qVoSF5iQIPXidWfNA5CNWBFL6h4JL7HhvJgMkd5ZjIn9Bwbg0YRC5LrFOou127ZeADiTkFt-rQRCAATHAFiHTUdvSDHk9ZnMQYPkXOReW48wLDVp4-cVFYi-XQxFGilTkSwmHneBCawzdWnmv0tyQaPDgtk9l7Yr7oWf63xK4OehfGUqNoXxEpeWAJ9X9YCHM7BlRtIAxtdOdgL47LQBurjUtYI4-p-iGBzPHdvvT9acgxLIIgU4441yCzEg2M057EuOvYuMfEqMafVtnin_TWWh2itwc0ZLzL8akr5TcAX3yvJtqwOFsTouZ5ljI9OhTShfwCfdw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/871416fece2549c35e8ccf36.jpg",
-          "thumbnail_sha256": "dfc9510d42e32226756bbd79875957036542cf95bbd9a84b2a01aa1b5d36ec88",
-          "duration_label": null,
-          "aspect_ratio": 1.909307875894988
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "3"
-        },
-        {
-          "emoji": "❤",
-          "count": "1.33K"
-        },
-        {
-          "emoji": "😁",
-          "count": "402"
-        },
-        {
-          "emoji": "💔",
-          "count": "173"
-        },
-        {
-          "emoji": "👎",
-          "count": "41"
-        }
-      ],
-      "views_label": "67.8K",
-      "posted_at": "2026-05-21T19:38:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3288",
       "reply": null
     }
   ]
