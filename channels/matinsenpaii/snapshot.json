@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-25T17:26:22.243Z",
+  "fetched_at": "2026-05-25T17:31:18.383Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,47 @@
     "subscriber_count": "152K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3425",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/pReWTzLaUgCh-bxcrgBazGaCix02BMVHbEiU-sqi2dhuFoBwvDnIaUz2_yctSI550SUduN1O__tPRNirrU9vsbJZ6kHIReF94e_fWHOANN9sO73YBn0Dp5hTTk3tb045laon4OsbFM9Z64bhnFWDU5JaN-9OM0SW0TVgjekvYds24GqQ66G3So_5r6rJ7bebYy_lxRwKGdWMsyGnP7ubDZPqD3u2VJiXIG5JXm35t5KbnQ1XDXh9grGQsZyhbsgxejwlywiRvHzBvGyKHoAjtAEiAKmOqxERuNp8V2eRH1AXLyQjvJp_-yL6qJor18oIV9ZgVlqRZJPeeBNpOs0SAw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/fe3415e67399411424342449.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAC.png')\"><b>🎬</b></i> آموزش کامل TheFeed از صفر تا صد<br><br>اگر تازه با TheFeed آشنا شدید و نمی‌دانید از کجا باید شروع کنید، این ویدیو دقیقاً برای شماست. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br>در این آموزش یاد می‌گیرید:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> اضافه کردن کانفیگ<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> آشنایی با ریزالورها (DNS)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> پیدا کردن ریزالورهای سالم<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> مشاهده کانال‌ها و دریافت محتوا<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> آشنایی با بخش TeleMirror<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> رفع مشکلات رایج کاربران<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> نکات مهم برای استفاده بهتر از برنامه<br><br>دفید یک سیستم مبتنی بر DNS است که امکان دسترسی به محتوای کانال‌های تلگرام را حتی در شرایط محدودیت اینترنت فراهم می‌کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A2.png')\"><b>📢</b></i> کانال اصلی پروژه:<br><a href=\"https://t.me/networkti\" target=\"_blank\">@networkti</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> فایل‌های نصب:<br><a href=\"https://t.me/thefeedfile\" target=\"_blank\">@thefeedfile</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> کانفیگ‌های عمومی:<br><a href=\"https://t.me/thefeedconfig\" target=\"_blank\">@thefeedconfig</a><br><br><blockquote expandable=\"\">توضیحات متنی <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br>سلام. توی این ویدیو می‌خوام خیلی ساده و سریع نحوه کار با برنامه The Feed رو توضیح بدم.<br><br>بعد از نصب و باز کردن برنامه، اولین کاری که باید انجام بدید اضافه کردن یک کانفیگه. برای این کار از بالا روی علامت جمع بزنید و کانفیگ مورد نظرتون رو وارد کنید. کانفیگ‌های عمومی داخل کانال <a href=\"https://t.me/thefeedconfig\" target=\"_blank\">@thefeedconfig</a> منتشر میشن و می‌تونید از اونجا دریافتشون کنید.<br><br>هر کانفیگ دارای تعدادی ریزالور پیش فرض هست که توسط سازنده کانفیگ داخل کانفیگ قرار میگیرن. بعد از اینکه کانفیگ رو اضافه کردید، برنامه شروع می‌کنه به بررسی ریزالورها. ریزالورها همون DNS هایی هستن که The Feed از طریق اون‌ها اطلاعات رو دریافت می‌کنه. این مرحله ممکنه چند دقیقه طول بکشه، پس اگر بلافاصله کانال‌ها نمایش داده نشدن نگران نباشید. بعد از پیدا شدن ریزالورهای سالم، لیست کانال‌ها دریافت میشه و می‌تونید وارد هر کانال بشید، پست‌ها رو ببینید و در صورت وجود، عکس‌ها، فایل‌ها، ویس‌ها و ویدیوها رو دانلود کنید.<br><br>اگر یه زمانی دیدید برنامه کند شده یا اطلاعات جدید دریافت نمی‌کنه، معمولاً مشکل از ریزالورهاست. برای همین داخل برنامه بخشی به اسم «پیدا کردن ریزالور» وجود داره. وارد این قسمت بشید و روی «بارگذاری لیست پیش‌فرض» بزنید. با این کار حدود ۵۸ هزار ریزالور برای اسکن آماده میشن. <br>اگه خودتون ریزالور خاصی دارید، می‌تونید به صورت دستی هم واردش کنید. علاوه بر این، ربات <a href=\"https://t.me/dns_resolvers_bot\" target=\"_blank\">@dns_resolvers_bot</a> هم می‌تونه برای پیدا کردن ریزالورهای جدید بهتون کمک کنه.<br>بعد دکمه «شروع اسکن» رو بزنید تا برنامه ریزالورهای سالمی که روی اینترنت شما کار می‌کنن رو پیدا کنه. وقتی چند تا ریزالور پیدا شد، می‌تونید اون‌ها رو به لیست فعال اضافه کنید. فقط یادتون باشه موقع اسکن بهتره VPN خاموش باشه تا نتیجه دقیق‌تری بگیرید.<br><br><br><br>داخل برنامه یه بخش دیگه هم به اسم Tele Mirror وجود داره. این قسمت با سیستم اصلی TheFeed فرق داره و برای نمایش کانال‌های عمومی تلگرام از سرویس‌های گوگل استفاده می‌کنه. با TeleMirror می‌تونید خیلی از کانال‌های عمومی دلخواهتون رو دنبال کنید، ولی محدودیت‌هایی هم داره؛ مثلاً امکان دانلود فایل یا پخش ویدیو توی این بخش وجود نداره. همچنین اگر سرویس‌های گوگل در دسترس نباشن، ممکنه Tele Mirror کار نکنه. البته این موضوع روی بخش اصلی TheFeed تأثیری نداره و سیستم اصلی برنامه همچنان از طریق DNS به کار خودش ادامه میده.<br><br><br>در نهایت اگر جایی به مشکل خوردید، اولین چیزی که باید بررسی کنید ریزالورها هستن. در اکثر مواقع با پیدا کردن چند ریزالور سالم، مشکل برنامه برطرف میشه. برای دریافت آخرین اخبار پروژه هم می‌تونید کانال <a href=\"https://t.me/networkti\" target=\"_blank\">@networkti</a> رو دنبال کنید، فایل‌های نصب رو از <a href=\"https://t.me/thefeedfile\" target=\"_blank\">@thefeedfile</a> بگیرید و کانفیگ‌های عمومی رو از <a href=\"https://t.me/thefeedconfig\" target=\"_blank\">@thefeedconfig</a> دریافت کنید.<br><br>ممنون که این ویدیو رو دیدید و امیدوارم از The Feed لذت ببرید.</blockquote>",
+      "plain_text": "🎬 آموزش کامل TheFeed از صفر تا صد\n\nاگر تازه با TheFeed آشنا شدید و نمی‌دانید از کجا باید شروع کنید، این ویدیو دقیقاً برای شماست. 👇\n\nدر این آموزش یاد می‌گیرید:\n✅ اضافه کردن کانفیگ\n✅ آشنایی با ریزالورها (DNS)\n✅ پیدا کردن ریزالورهای سالم\n✅ مشاهده کانال‌ها و دریافت محتوا\n✅ آشنایی با بخش TeleMirror\n✅ رفع مشکلات رایج کاربران\n✅ نکات مهم برای استفاده بهتر از برنامه\n\nدفید یک سیستم مبتنی بر DNS است که امکان دسترسی به محتوای کانال‌های تلگرام را حتی در شرایط محدودیت اینترنت فراهم می‌کند.\n\n📢 کانال اصلی پروژه:\n@networkti\n📦 فایل‌های نصب:\n@thefeedfile\n⚙️ کانفیگ‌های عمومی:\n@thefeedconfig\n\nتوضیحات متنی 👇\nسلام. توی این ویدیو می‌خوام خیلی ساده و سریع نحوه کار با برنامه The Feed رو توضیح بدم.\n\nبعد از نصب و باز کردن برنامه، اولین کاری که باید انجام بدید اضافه کردن یک کانفیگه. برای این کار از بالا روی علامت جمع بزنید و کانفیگ مورد نظرتون رو وارد کنید. کانفیگ‌های عمومی داخل کانال @thefeedconfig منتشر میشن و می‌تونید از اونجا دریافتشون کنید.\n\nهر کانفیگ دارای تعدادی ریزالور پیش فرض هست که توسط سازنده کانفیگ داخل کانفیگ قرار میگیرن. بعد از اینکه کانفیگ رو اضافه کردید، برنامه شروع می‌کنه به بررسی ریزالورها. ریزالورها همون DNS هایی هستن که The Feed از طریق اون‌ها اطلاعات رو دریافت می‌کنه. این مرحله ممکنه چند دقیقه طول بکشه، پس اگر بلافاصله کانال‌ها نمایش داده نشدن نگران نباشید. بعد از پیدا شدن ریزالورهای سالم، لیست کانال‌ها دریافت میشه و می‌تونید وارد هر کانال بشید، پست‌ها رو ببینید و در صورت وجود، عکس‌ها، فایل‌ها، ویس‌ها و ویدیوها رو دانلود کنید.\n\nاگر یه زمانی دیدید برنامه کند شده یا اطلاعات جدید دریافت نمی‌کنه، معمولاً مشکل از ریزالورهاست. برای همین داخل برنامه بخشی به اسم «پیدا کردن ریزالور» وجود داره. وارد این قسمت بشید و روی «بارگذاری لیست پیش‌فرض» بزنید. با این کار حدود ۵۸ هزار ریزالور برای اسکن آماده میشن.\nاگه خودتون ریزالور خاصی دارید، می‌تونید به صورت دستی هم واردش کنید. علاوه بر این، ربات @dns_resolvers_bot هم می‌تونه برای پیدا کردن ریزالورهای جدید بهتون کمک کنه.\nبعد دکمه «شروع اسکن» رو بزنید تا برنامه ریزالورهای سالمی که روی اینترنت شما کار می‌کنن رو پیدا کنه. وقتی چند تا ریزالور پیدا شد، می‌تونید اون‌ها رو به لیست فعال اضافه کنید. فقط یادتون باشه موقع اسکن بهتره VPN خاموش باشه تا نتیجه دقیق‌تری بگیرید.\n\n\n\nداخل برنامه یه بخش دیگه هم به اسم Tele Mirror وجود داره. این قسمت با سیستم اصلی TheFeed فرق داره و برای نمایش کانال‌های عمومی تلگرام از سرویس‌های گوگل استفاده می‌کنه. با TeleMirror می‌تونید خیلی از کانال‌های عمومی دلخواهتون رو دنبال کنید، ولی محدودیت‌هایی هم داره؛ مثلاً امکان دانلود فایل یا پخش ویدیو توی این بخش وجود نداره. همچنین اگر سرویس‌های گوگل در دسترس نباشن، ممکنه Tele Mirror کار نکنه. البته این موضوع روی بخش اصلی TheFeed تأثیری نداره و سیستم اصلی برنامه همچنان از طریق DNS به کار خودش ادامه میده.\n\n\nدر نهایت اگر جایی به مشکل خوردید، اولین چیزی که باید بررسی کنید ریزالورها هستن. در اکثر مواقع با پیدا کردن چند ریزالور سالم، مشکل برنامه برطرف میشه. برای دریافت آخرین اخبار پروژه هم می‌تونید کانال @networkti رو دنبال کنید، فایل‌های نصب رو از @thefeedfile بگیرید و کانفیگ‌های عمومی رو از @thefeedconfig دریافت کنید.\n\nممنون که این ویدیو رو دیدید و امیدوارم از The Feed لذت ببرید.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/3425",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/b1fJ01Pa4PJhmIQNsxEEpup4WiPhKYe0IUc_aOkYauisinZJwyeYGxOPCmgcJ2ClqqqqNQWRpTtR41-eBZN7KVCQW8eXGX5cfsSLL5i3rQP8LKbYF7GzqbB-vTzvSxiocfBThNDsKPEfERCq8x3pw82ThNOFid7M-nVdwUzfTsABC402joA4ifC_rdnlb3KmXIKDuZwVH0BVmC_Mv7GLTCLtn5Ji820cmh8FVXvq19mZWZ3KpLiD5cFi24vpxhPzW8V1NswvBUxvPoGdigb8VrrWrnotjres9gz8nWfuzmYLtYgSGt_s0cpaTDRn5weMjSKH7P6_gonTVy6j0wJnHQ",
+          "thumbnail_path": "channels/matinsenpaii/media/13d864271f47fc3f27365c9a.jpg",
+          "thumbnail_sha256": "b8960921794e8eb10f54e5dfb9eb883b6e7c408210d6a41374c6e92f0ef63949",
+          "duration_label": "3:00",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "12"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.04K",
+      "posted_at": "2026-05-25T17:28:59+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3425",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3424",
       "author_name": "Matin SenPai",
@@ -42,7 +83,7 @@
           "count": "4"
         }
       ],
-      "views_label": "30.7K",
+      "views_label": "31.3K",
       "posted_at": "2026-05-25T13:16:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3424",
@@ -81,7 +122,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "158"
+          "count": "159"
         },
         {
           "emoji": "👍",
@@ -96,7 +137,7 @@
           "count": "7"
         }
       ],
-      "views_label": "36.5K",
+      "views_label": "37K",
       "posted_at": "2026-05-25T12:24:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3423",
@@ -118,7 +159,7 @@
         },
         {
           "emoji": "❤",
-          "count": "1.89K"
+          "count": "1.9K"
         },
         {
           "emoji": "👍",
@@ -133,7 +174,7 @@
           "count": "19"
         }
       ],
-      "views_label": "43.3K",
+      "views_label": "43.6K",
       "posted_at": "2026-05-25T10:52:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3422",
@@ -170,7 +211,7 @@
           "count": "6"
         }
       ],
-      "views_label": "44.2K",
+      "views_label": "44.4K",
       "posted_at": "2026-05-25T10:34:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3421",
@@ -209,7 +250,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "944"
+          "count": "949"
         },
         {
           "emoji": "👍",
@@ -224,7 +265,7 @@
           "count": "57"
         }
       ],
-      "views_label": "46.6K",
+      "views_label": "46.9K",
       "posted_at": "2026-05-25T10:13:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3420",
@@ -257,7 +298,7 @@
           "count": "3"
         }
       ],
-      "views_label": "49.8K",
+      "views_label": "50K",
       "posted_at": "2026-05-25T08:26:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3419",
@@ -299,7 +340,7 @@
           "count": "4"
         }
       ],
-      "views_label": "52.6K",
+      "views_label": "52.8K",
       "posted_at": "2026-05-25T07:05:50+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3418",
@@ -317,7 +358,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "572"
+          "count": "573"
         },
         {
           "emoji": "👍",
@@ -332,7 +373,7 @@
           "count": "20"
         }
       ],
-      "views_label": "54.9K",
+      "views_label": "55K",
       "posted_at": "2026-05-25T03:52:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3417",
@@ -377,7 +418,7 @@
           "count": "17"
         }
       ],
-      "views_label": "55.1K",
+      "views_label": "55.2K",
       "posted_at": "2026-05-25T02:40:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3416",
@@ -431,7 +472,7 @@
           "count": "8"
         }
       ],
-      "views_label": "54.2K",
+      "views_label": "54.3K",
       "posted_at": "2026-05-25T01:26:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3415",
@@ -480,7 +521,7 @@
           "count": "10"
         }
       ],
-      "views_label": "54.5K",
+      "views_label": "54.6K",
       "posted_at": "2026-05-25T00:21:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3414",
@@ -529,7 +570,7 @@
           "count": "33"
         }
       ],
-      "views_label": "53.5K",
+      "views_label": "53.7K",
       "posted_at": "2026-05-24T23:57:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3413",
@@ -551,7 +592,7 @@
         },
         {
           "emoji": "❤",
-          "count": "400"
+          "count": "401"
         },
         {
           "emoji": "👎",
@@ -641,7 +682,7 @@
           "count": "19"
         }
       ],
-      "views_label": "60.9K",
+      "views_label": "61K",
       "posted_at": "2026-05-24T16:30:41+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3410",
@@ -732,7 +773,7 @@
           "count": "18"
         }
       ],
-      "views_label": "61.1K",
+      "views_label": "61.2K",
       "posted_at": "2026-05-24T16:01:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3406",
@@ -765,7 +806,7 @@
           "count": "31"
         }
       ],
-      "views_label": "61.6K",
+      "views_label": "61.7K",
       "posted_at": "2026-05-24T11:38:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3405",
@@ -4096,48 +4137,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3287",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3286",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/vUHh-AuS3F_nr4PSd4YWYPGkk0Ryk67IQ-wQ1BiuDYraah_3npr8yDq3Cx7tC3bGAplGVL3QZ0qNUIZCanjwm3SZ1STL9Vht5LJnJcv6_AhFgYkEYu84ueTA4df1Bp1JC-u3aeCQb4JWvWbVBJ_Wtd74jfjMBhzFCRSQuvGSS3bZLZHEMtygW6wkp4WrF6A3hJQAqiRnYqxqrdp0P-8MrlWjmbTPQcn5PM44_Njpf4P6TXQUZpdfl4hoEUN16n2sDJz7ZfkYmUU1LlIzX9g0OSDUMxhQcgYKejZPUsTAenkuVVWVkkDB53SGaCgIdYuG9DJDpG3pdgRrdM0uhpESiA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/37a05e349d8f24bcd66724bf.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "نکته‌ی مهم راجب سرورهای StormDNS و MasterDNS که روی WhiteDNS استفاده می‌کنیم:<br><br>هر سرور و پورت 53، فقط ظرفیت 255 کانکشن رو داره و دامنه برای تعداد بالاتر باید لودبالانس(توزیع بار) بشه.<br><br>خلاصه اینکه اگر با سرورهای رایگان سرعت نسبتا پایینی رو تجربه می‌کنید، به خاطر تعداد بالای کانکشن روی اون سرور هستش. اگر سرور شخصی خودتون رو راه‌اندازی کنید(که آموزشش رو ضبط می‌کنم واستون) به هیچ وجه سرعت پایینی نخواهید داشت",
-      "plain_text": "نکته‌ی مهم راجب سرورهای StormDNS و MasterDNS که روی WhiteDNS استفاده می‌کنیم:\n\nهر سرور و پورت 53، فقط ظرفیت 255 کانکشن رو داره و دامنه برای تعداد بالاتر باید لودبالانس(توزیع بار) بشه.\n\nخلاصه اینکه اگر با سرورهای رایگان سرعت نسبتا پایینی رو تجربه می‌کنید، به خاطر تعداد بالای کانکشن روی اون سرور هستش. اگر سرور شخصی خودتون رو راه‌اندازی کنید(که آموزشش رو ضبط می‌کنم واستون) به هیچ وجه سرعت پایینی نخواهید داشت",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "1.02K"
-        },
-        {
-          "emoji": "🔥",
-          "count": "94"
-        },
-        {
-          "emoji": "😨",
-          "count": "16"
-        },
-        {
-          "emoji": "😭",
-          "count": "13"
-        }
-      ],
-      "views_label": "67.3K",
-      "posted_at": "2026-05-21T16:14:01+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3286",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "3283",
-        "author_name": "Matin SenPai",
-        "preview_text": "",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/oUySZVdzhPqti-iGuZRFav7fPb01tfkitvGTGn-aWDYbioWKNRVamXQViybcALiIAH8c3e74GicE8ViELc0eo22aDhyaEgNHEs7gZIdTIwMpR4Y0bLEHcXW5zkHRiD3GE6b10I-4RUr2HoVYYZVz0g-fk8--M_LXMqnDuNc32uoaEV10xuB_Cl2jAVRpICfk7DFcv16V1JsVNcRRMh27AgPSx7Ejy1UjM1uxgjJzShBuZQ0Bztrkj6D2RtZ_dinOcWFvLZLurBnYJc-r9k9G7kdB0PFynHUP4fk2fAJWusomk6e5IZg7RNgGAaeYEgMuOi3-NyOvhNfUaEeIqo2wlQ.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/c8b608df9d396ee9ef3f69be.jpg",
-        "thumbnail_sha256": "e4820df79d35d902425c3665284f123955699326dd7237fb8a80adac3c92fbfd",
-        "permalink": "https://t.me/matinsenpaii/3283"
-      }
     }
   ]
 }
