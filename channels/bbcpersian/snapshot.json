@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-25T13:31:16.602Z",
+  "fetched_at": "2026-05-25T13:36:13.464Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -11,6 +11,34 @@
     "subscriber_count": "787K"
   },
   "posts": [
+    {
+      "id": "bbcpersian/282020",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/alCCoeO1TIRdQjx7b9cAf1KbmptAXOpXhlClLaIHQZz9jd33UmN4qRa2LcgK-Vdv6Oow9kaLF-H-Xex9GCBOlCbpqxMJpNlgH91Ov8FkrwbICVLlKpLSW3vrJ-6guheXeTCWqJ7YI1g-WysdM1U3RLkrWRfl34AVAIRlMywI1awKSjBnBTkTwC_uAg0kvwNPfQngNx6lYmtrV9jutpt9gg-KEsb0aM27oNo3bsahqe4KkzHy-THWhxHWAdhmahe8BC2OztAsL1bloZhN_X6B-Kg-RbiSUO-7-Ha_FtpZKdciNdkYhvbgzvwm1t0aW4FHUzDtUaebFUPuyQmIJV1t4w.jpg",
+      "author_photo_path": "channels/bbcpersian/media/cf75ed3606b5a23c5350826b.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>سرخط خبرهای دوشنبه ۴ خرداد ۱۴۰۵<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "🔻سرخط خبرهای دوشنبه ۴ خرداد ۱۴۰۵\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/282020",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/S3aW-IfR7IO_QQVwa5G4mTEKCDSfFro9L0tpvtnA_WZgGPVqccVHXjyyM1RJSPS3ERzKJrvTO2GvOG1KLRBszjy42gUh70Ied95QuUX2BGgd6w_sOetRtfAjAQviFYdVpv1aATqvpoN_-hWx2RTRjErL0zscZimfkLOEOkDzRCSBYAyBuAMzTgps9MLApOu_tYSfXHDWqDBgLJUFo_xxFzMN-EaFZV7XB5rodxA3h1FHY69A9EOzUZLIWrBwIKXdMbTRmm-H_oo_J80cUN5kumhsNRclW3pF8S53x-3-WuC8IFYzaOADJkxogsVaDd6396yB0WSZ8FlgjY2DRoeolQ",
+          "thumbnail_path": "channels/bbcpersian/media/ff34873f66f756f8de909671.jpg",
+          "thumbnail_sha256": "3c543c6c8838663477213cf57685f8766323c7672f78a94510807d17dcc0c2fb",
+          "duration_label": "1:08",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "741",
+      "posted_at": "2026-05-25T13:34:04+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/282020",
+      "reply": null
+    },
     {
       "id": "bbcpersian/282019",
       "author_name": "BBCPersian",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.77K",
+      "views_label": "3.85K",
       "posted_at": "2026-05-25T13:20:54+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282019",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.3K",
+      "views_label": "5.34K",
       "posted_at": "2026-05-25T13:14:19+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282018",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "10.4K",
+      "views_label": "11.1K",
       "posted_at": "2026-05-25T12:39:48+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282017",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "14.5K",
+      "views_label": "14.9K",
       "posted_at": "2026-05-25T12:08:03+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282016",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "13.8K",
+      "views_label": "14.2K",
       "posted_at": "2026-05-25T11:56:18+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282015",
@@ -173,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "16.5K",
+      "views_label": "16.8K",
       "posted_at": "2026-05-25T11:26:30+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282014",
@@ -217,7 +245,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "20K",
+      "views_label": "20.4K",
       "posted_at": "2026-05-25T10:12:53+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282012",
@@ -245,7 +273,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "19.1K",
+      "views_label": "19.4K",
       "posted_at": "2026-05-25T10:06:52+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/282011",
@@ -273,7 +301,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "20.2K",
+      "views_label": "20.6K",
       "posted_at": "2026-05-25T09:33:39+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282010",
@@ -367,7 +395,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "19.3K",
+      "views_label": "19.6K",
       "posted_at": "2026-05-25T09:15:06+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282003",
@@ -2598,22 +2626,6 @@
       "posted_at": "2026-05-23T14:21:28+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/281882",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/281881",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/PSN8J3xabNHNiG_rpIvTFO0O8ONy5MJ0Df0Hlkna6sVD9V-JmaYa3TzLf5AghuWLhSllLoQRlXD2rfmXBryG_I-eQU-hoTnrT4ytptSKZX6vUZHWFG_xPOwFnJYeT-qC-5n8MXYr-_8WcUKPQlN841DloUasR7wIzDjYPijSO4HXkUm6j0e2uw13bGzPqY7tTr4PlcvTsJzlF-WSQaTkcWXg7vngIhUAg4RRuIKrQMT-F7sqW3GVuCUBZpT8OSr8A_cq48GIVtOQI5znPXsxObtK7BGzrlQH2rnJV7XU6gyYUgdyUMEgPROYkcoZ8BcJ8KUp5xLDJNKQkvskfIFXlg.jpg",
-      "author_photo_path": "channels/bbcpersian/media/a01f1aefb745380de8399322.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>رسانه‌های ایران می‌گویند شاخص بازار سهام رشد داشته است<br><br>رسانه‌های ایران می‌گویند بازار سهام در پایان معاملات اولین روز هفته رشد داشته است.<br><br>خبرگزاری رسمی ایرنا می‌گوید بازار سهام امروز با رشد ۷۰ هزار واحدی به ارتفاع سه میلیون و ۸۳۱ هزار واحد رسید.<br><br>رشد شاخص بورس به معنای افزایش میانگین قیمت سهام و سودآوری شرکت‌های فعال در بازار است.<br><br>بازار بورس ایران که با جنگ اخیر تعطیل شد، پس از هشتاد روز توقف دوباره بازگشایی شده است.<br><br><a href=\"https://bbc.in/42Nfbm6\" target=\"_blank\" rel=\"noopener\">https://bbc.in/42Nfbm6</a><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻رسانه‌های ایران می‌گویند شاخص بازار سهام رشد داشته است\n\nرسانه‌های ایران می‌گویند بازار سهام در پایان معاملات اولین روز هفته رشد داشته است.\n\nخبرگزاری رسمی ایرنا می‌گوید بازار سهام امروز با رشد ۷۰ هزار واحدی به ارتفاع سه میلیون و ۸۳۱ هزار واحد رسید.\n\nرشد شاخص بورس به معنای افزایش میانگین قیمت سهام و سودآوری شرکت‌های فعال در بازار است.\n\nبازار بورس ایران که با جنگ اخیر تعطیل شد، پس از هشتاد روز توقف دوباره بازگشایی شده است.\n\nhttps://bbc.in/42Nfbm6\n@BBCPersian",
-      "media": [],
-      "reactions": [],
-      "views_label": "20.2K",
-      "posted_at": "2026-05-23T14:18:29+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/281881",
       "reply": null
     }
   ]
