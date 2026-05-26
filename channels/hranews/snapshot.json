@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-26T14:06:28.444Z",
+  "fetched_at": "2026-05-26T14:11:53.350Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "31.2K"
   },
   "posts": [
+    {
+      "id": "hranews/113178",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Ek1XAER8ylGA53qcIQ95T2GrSp3V3Bbor71H39ddDEPa5qtqNBloCZsvAtIAV5qMIa56lCWeDiET8HUyov8f09r52WnjsMzg0DY7zPhZY7Hn8US_UPE8JE2tzCreVy3IGchOmekbD_yZsct1IBrDpT6OF495gi5m-2tr-51FAPPp7mmBtxyfZGpH_m7as4BIRShGAEIaw4fVyXYxiVA-4nIEwSDE1fLZnA57lK-CJeZqD9nVQQO6alGKLQ07K5HCd7bslKv_Hv8M3uSQVqq0kjyD6W3NQkk99AfDQpDgHTxuvTP5EHsHf-lYsZYL-nJtNyueoCMV6VsHX9YyadhigA.jpg",
+      "author_photo_path": "channels/hranews/media/43354ab0b3a254ef32a2f01d.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "امروز سه‌شنبه ۵ خردادماه، گروهی از مال‌باختگان پروژه «نگین غرب» با برگزاری تجمعی مقابل دادسرای عمومی و انقلاب ناحیه پنج تهران، نسبت به ادامه بلاتکلیفی پرونده خود اعتراض کردند.<br><br>شهروندان معترض بعد از گذشت حدود ۲۲ سال از زمان سرمایه‌گذاریشان، کماکان در بلاتکلیفی بسر میبرند.<br><a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9\">#تجمع</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -&nbsp; <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>&nbsp; کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "امروز سه‌شنبه ۵ خردادماه، گروهی از مال‌باختگان پروژه «نگین غرب» با برگزاری تجمعی مقابل دادسرای عمومی و انقلاب ناحیه پنج تهران، نسبت به ادامه بلاتکلیفی پرونده خود اعتراض کردند.\n\nشهروندان معترض بعد از گذشت حدود ۲۲ سال از زمان سرمایه‌گذاریشان، کماکان در بلاتکلیفی بسر میبرند.\n#تجمع\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/113178",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/AG2CmdAHO7JlBBcY9qjOFOLrlR3TIwlOUENbh2wWL9-EIB5CG26H_VZSY8wBx5DuNbCqgh694zrgiXl-UgHBZOmvkWxaIDtGp9HP__YE_fyce5EYZJKlNo3QqGOAr1WP2bFbRRfcPzzOOrQShZKFok4mq9-kUmP1VlI3j1cdjomSPoJ9VB_ODs_zQMErQh3EoOr2PTzpwPHWAFz5WGoObeP7zb17toJPxr0LzWrNz7e2nf_ILZbBSh-DMzvDXzHCsgvIbtBAxm8MPZIJpUESMLPIJv7U0yiHY65b0gXkZNhD4Q4msj4DkVA6q_BRrikIheIzxE8510yKr8PJY9Kozg",
+          "thumbnail_path": "channels/hranews/media/ccfcccb8db8da81c3feef89e.jpg",
+          "thumbnail_sha256": "11eac7b1328c14fa0bb57bf7586ddf290c41c12bc99136d45f6d7d479ecad48e",
+          "duration_label": "0:22",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "52",
+      "posted_at": "2026-05-26T14:07:32+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/113178",
+      "reply": null
+    },
     {
       "id": "hranews/113177",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "133",
+      "views_label": "158",
       "posted_at": "2026-05-26T13:51:45+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113177",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "188",
+      "views_label": "202",
       "posted_at": "2026-05-26T13:36:43+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113176",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "298",
+      "views_label": "310",
       "posted_at": "2026-05-26T12:49:35+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113175",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "296",
+      "views_label": "306",
       "posted_at": "2026-05-26T12:33:59+00:00",
       "edited": true,
       "permalink": "https://t.me/hranews/113174",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "442",
+      "views_label": "447",
       "posted_at": "2026-05-26T10:34:10+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113173",
@@ -173,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "474",
+      "views_label": "478",
       "posted_at": "2026-05-26T10:11:09+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113172",
@@ -201,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "527",
+      "views_label": "531",
       "posted_at": "2026-05-26T09:06:38+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113171",
@@ -229,7 +257,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "526",
+      "views_label": "530",
       "posted_at": "2026-05-26T08:52:11+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113170",
@@ -257,7 +285,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.69K",
+      "views_label": "2.72K",
       "posted_at": "2026-05-26T08:23:02+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113169",
@@ -285,7 +313,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "568",
+      "views_label": "571",
       "posted_at": "2026-05-26T07:33:29+00:00",
       "edited": true,
       "permalink": "https://t.me/hranews/113168",
@@ -313,7 +341,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "482",
+      "views_label": "485",
       "posted_at": "2026-05-26T07:21:24+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113167",
@@ -341,7 +369,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "577",
+      "views_label": "582",
       "posted_at": "2026-05-26T07:01:36+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113166",
@@ -357,7 +385,7 @@
       "plain_text": "گزارشی از تجمع اعتراضی رانندگان استیجاری در تهران\n\n❗️❗️❗️❗️❗️– امروز دوشنبه ۴ خردادماه، جمعی از رانندگان استیجاری از استان‌های مختلف برای سومین روز متوالی در مقابل ساختمان نهاد ریاست جمهوری در تهران، #تجمع_اعتراضی برگزار کردند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "883",
+      "views_label": "885",
       "posted_at": "2026-05-25T19:28:51+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113165",
@@ -373,7 +401,7 @@
       "plain_text": "رضایت اولیای دم؛ ۴ زندانی از اعدام رهایی یافتند\n\n❗️❗️❗️❗️❗️– چهار زندانی در رشت، همدان، تایباد و استان آذربایجان غربی که پیشتر بابت اتهام قتل در پرونده‌های مجزا به #اعدام محکوم شده بودند، با اعلام رضایت اولیای دم از مجازات مرگ رهایی یافتند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "798",
+      "views_label": "801",
       "posted_at": "2026-05-25T19:21:08+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113164",
@@ -401,7 +429,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "663",
+      "views_label": "667",
       "posted_at": "2026-05-25T19:09:50+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113163",
@@ -417,7 +445,7 @@
       "plain_text": "فقدان ایمنی کار؛ مرگ و مصدومیت ۳ کارگر در یزد و پاکدشت\n\n❗️❗️❗️❗️❗️– در سایه فقدان ایمنی محیط و شرایط نامناسب کار، روز جاری، دو کارگر در پاکدشت در پی حادثه آتش‌سوزی مصدوم شدند. از سوی دیگر، روز یکشنبه ۳ خردادماه، یک #کارگر در یزد، حین انجام کار بر اثر برق‌گرفتگی جان خود را از دست داد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "802",
+      "views_label": "803",
       "posted_at": "2026-05-25T18:53:59+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113162",
@@ -433,7 +461,7 @@
       "plain_text": "سه شهروند در مهاباد بازداشت شدند\n\n❗️❗️❗️❗️❗️– منصور عباسی، احد خیری و واحد خیری شهروندان اهل مهاباد، امروز دوشنبه ۴ خردادماه، توسط نیروهای امنیتی بازداشت و به مکان نامعلومی منتقل شدند.\n\nادامه مطلب\n\n#منصور_عباسی #احد_خیری #واحد_خیری\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "587",
+      "views_label": "589",
       "posted_at": "2026-05-25T18:39:33+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113161",
@@ -461,7 +489,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "621",
+      "views_label": "622",
       "posted_at": "2026-05-25T17:55:39+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113160",
@@ -477,7 +505,7 @@
       "plain_text": "گزارشی از مطالبات مزدی، بیمه‌ای و بیکاری کارگران در شهرهای مختلف\n\n❗️❗️❗️❗️❗️– کارگران ابنیه فنی راه‌آهن زاهدان از تعلیق شماری از همکارانشان پس از پیگیری مطالبات صنفی خبر داده و اعلام کردند که به دلیل عدم پرداخت چندین ماه حق بیمه توسط کارفرما از دریافت خدمات بیمه و امکانات درمانی نیز محروم مانده‌اند. همچنین، #کارگران کارخانه فولاد سیادن ابهر از تاخیر در پرداخت حقوق اردیبهشت ماه و دیگر مشکلات شغلی خود انتقاد کردند. افزون بر این، مدیرکل تعاون، کار و رفاه اجتماعی خراسان جنوبی اعلام کرد که از ابتدای امسال تاکنون، ۵۲۷ نفر از کارگران واحدهای تولیدی این استان از چرخه کار خارج شده‌اند و اکنون تحت پوشش بیمه بیکاری قرار دارند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "606",
+      "views_label": "608",
       "posted_at": "2026-05-25T17:29:19+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113159",
@@ -2400,34 +2428,6 @@
       "posted_at": "2026-05-21T11:53:54+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113075",
-      "reply": null
-    },
-    {
-      "id": "hranews/113074",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SqXnQuv6S5Ejy3cDV_Zxi_SGJBSSSc_5xajeviyyiu9eaQhSMSIe2LrHLHcyVC785RJJf66uYRqtIeQvH65HOg5YYvNkcF1ThK5t1eNwHtsw31hw1v7x7LLTErnSdIOn0McGOuqZk2ueYEVwy6jXR4SsJLJY72FV7JN3QwxYmhexR8DLtyqxlLa5noqPiCLoAfj_aaRp1YGrFIhsqN9fMbciaeYK2zP7Bq9PiVVVAzukg9XuHbqNT29ga5yX11qBQ_G5g434kpZ21-npOZijWlb0XxYwWRIcpaiTIt1tex7s-2gnlsq2RmxtWkNFYF4PZD8-KYCNlbduedtalht44A.jpg",
-      "author_photo_path": "channels/hranews/media/17a36cc913282b9bc4fa2df9.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "رئیس انجمن پزشکان عمومی ایران از دریافت گزارش‌هایی درباره کمبود یا دسترسی دشوار به برخی داروها در ماه‌های اخیر خبر داد. به گفته وی، این وضعیت پیش از شرایط جنگی نیز وجود داشته و با تشدید محدودیت‌های اقتصادی و لجستیکی ادامه یافته است. احمد ولی‌پور اعلام کرد این کمبودها عمدتا در حوزه برخی آنتی‌بیوتیک‌ها، داروهای بیماران مزمن، سرم‌ها و اقلام مصرفی درمانی مشاهده شده است. وی با اشاره به فشار بر زنجیره تامین دارو ناشی از مشکلات اقتصادی، محدودیت واردات مواد اولیه و نقدینگی صنعت دارو، بر ضرورت اقدام عملی تاکید کرد.<br><br>ولی‌پور همچنین به وضعیت <a href=\"?q=%23%D9%BE%D8%B2%D8%B4%DA%A9%D8%A7%D9%86_%D8%B9%D9%85%D9%88%D9%85%DB%8C\">#پزشکان_عمومی</a> اشاره کرد و گفت برخلاف تصور عمومی، بسیاری از آنان به‌ویژه در بخش دولتی و مناطق محروم با وجود مسئولیت‌های سنگین، کشیک‌های مداوم و حجم بالای مراجعه بیماران، با چالش‌های معیشتی و نبود امنیت شغلی پایدار مواجه هستند. وی با تاکید بر نقش پزشکان عمومی به‌عنوان خط اول نظام سلامت، نسبت به تضعیف جایگاه این گروه و پیامدهای آن بر دسترسی مردم به خدمات درمانی هشدار داد.<br><a href=\"?q=%23%DA%A9%D9%85%D8%A8%D9%88%D8%AF_%D8%AF%D8%A7%D8%B1%D9%88\">#کمبود_دارو</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "رئیس انجمن پزشکان عمومی ایران از دریافت گزارش‌هایی درباره کمبود یا دسترسی دشوار به برخی داروها در ماه‌های اخیر خبر داد. به گفته وی، این وضعیت پیش از شرایط جنگی نیز وجود داشته و با تشدید محدودیت‌های اقتصادی و لجستیکی ادامه یافته است. احمد ولی‌پور اعلام کرد این کمبودها عمدتا در حوزه برخی آنتی‌بیوتیک‌ها، داروهای بیماران مزمن، سرم‌ها و اقلام مصرفی درمانی مشاهده شده است. وی با اشاره به فشار بر زنجیره تامین دارو ناشی از مشکلات اقتصادی، محدودیت واردات مواد اولیه و نقدینگی صنعت دارو، بر ضرورت اقدام عملی تاکید کرد.\n\nولی‌پور همچنین به وضعیت #پزشکان_عمومی اشاره کرد و گفت برخلاف تصور عمومی، بسیاری از آنان به‌ویژه در بخش دولتی و مناطق محروم با وجود مسئولیت‌های سنگین، کشیک‌های مداوم و حجم بالای مراجعه بیماران، با چالش‌های معیشتی و نبود امنیت شغلی پایدار مواجه هستند. وی با تاکید بر نقش پزشکان عمومی به‌عنوان خط اول نظام سلامت، نسبت به تضعیف جایگاه این گروه و پیامدهای آن بر دسترسی مردم به خدمات درمانی هشدار داد.\n#کمبود_دارو\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/hranews/113074",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/r0giM0jEk_ElhKXquEvuw5W8DslzW4DrAGdboRBmVsFlaM30Uh5myrf84VLKuE9-e2W72ausx56h6mfdgwCG6Q0lwbmanHR1ouK7qIAs5nArzZsj9g4eC1zkBquVHxyvnknuAeLV71dcweo9WVQlJLhq5T2kXCBVuulk2Ae2FPF35ZA4aRr0zxTUyQkXQE1VB1oJzAQnlZX88jSplN8BxHtLo9ra07mOYJuRf8wAZsdBX7ZXgyvGXFCUpb87d48kGb_uQvI-AS4Nfy59ETgEN6_OjQB2XbTG2bow4dShVz9PfHGDc_mkX1fsEa35_GgTDrlP2CRZYEad0A6UAeE5Bg.jpg",
-          "thumbnail_path": "channels/hranews/media/6d328666122a384d43dddbea.jpg",
-          "thumbnail_sha256": "8f0b2cbf4f2b6bd38ade62c6a1f8efc6ed635f74f167782c2ce9ebf5e9ff98d8",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [],
-      "views_label": "750",
-      "posted_at": "2026-05-21T10:57:06+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/113074",
       "reply": null
     }
   ]
