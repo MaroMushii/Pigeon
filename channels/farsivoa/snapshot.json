@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-28T17:35:41.402Z",
+  "fetched_at": "2026-05-28T17:41:53.462Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/218905",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Ft9NiyYrHhNdljSB5Ca-LnlldY5TkbdHAhVuF3IaZq7Q8DTfxSnORxE4bl9EbXttwvjDJQdoXR-PFkw97WORhUf4MzK5vOShgRM64Wwal5hGWQKxojPFwIbD4FYbL_3A0QTaYbaHiUgh-1uVIDpwcMFznjvXRDXknUZnbiZ4hsr4vqjlr4SzXc60QXtwppiWw1qFS2hjkKuRTPW841f3AIPCNALTxxyUz0LPTbul2WpP0kX4W9eq7jIWASRw1CZyzfKZfN0jIVUxGwqYXN1_tk_b9fqUWMDyXwNejReR7M9Z5WLKgxc3hVkEH9kp7btoNBg7XghcU_cz-uRu-VIl_w.jpg",
+      "author_photo_path": "channels/farsivoa/media/fc34c4dcc3a0253399ccc54a.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "عفو بین‌الملل هشدار داد مقام‌های جمهوری اسلامی از پوشش شرایط جنگی برای تشدید سرکوب استفاده کرده‌اند. همزمان برخی خانواده کشته‌شدگان‌ دی هم از حذف نام آنها در سامانه «بهشت زهرا»ا خبر دادند.",
+      "plain_text": "عفو بین‌الملل هشدار داد مقام‌های جمهوری اسلامی از پوشش شرایط جنگی برای تشدید سرکوب استفاده کرده‌اند. همزمان برخی خانواده کشته‌شدگان‌ دی هم از حذف نام آنها در سامانه «بهشت زهرا»ا خبر دادند.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/218905",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Xyjp56QYlVLGHdSSPRhYVagTcPojNCrylJAy-zkXt12VB4i_2bU9FQ54KlHbEitVuIvdGprReZIPBToX9MC54BDhSse3g3iJ36mGjwCptGMyUt5yBIqO5y28caGKvuEuFQABuKk8rZ1V-Tr-s-tu4VjHIEyYrEvIRTx99BwQb4XZOZIX8r91blixLyp2MDWsyGLwwqPLJjqbpLfjRF3cBWp5EyFS4ryVux_NG47yB5uxAm5m0v8CXEyi2n8O5xd8QiDZCrt_E92PpreN8pvo675lwD3-mRCxUVF40WDk5A7F54_11cqRnjFoAHtyhHD39JJOjrvOYn-ziz8duiYGIg",
+          "thumbnail_path": "channels/farsivoa/media/3a3e968dad4f254af580b553.jpg",
+          "thumbnail_sha256": "1b70982484a8f415ee37dbbecbce8c8c9821002b92f694531edac00539c8c936",
+          "duration_label": "5:02",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "397",
+      "posted_at": "2026-05-28T17:36:04+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/218905",
+      "reply": null
+    },
+    {
       "id": "farsivoa/218904",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/Ft9NiyYrHhNdljSB5Ca-LnlldY5TkbdHAhVuF3IaZq7Q8DTfxSnORxE4bl9EbXttwvjDJQdoXR-PFkw97WORhUf4MzK5vOShgRM64Wwal5hGWQKxojPFwIbD4FYbL_3A0QTaYbaHiUgh-1uVIDpwcMFznjvXRDXknUZnbiZ4hsr4vqjlr4SzXc60QXtwppiWw1qFS2hjkKuRTPW841f3AIPCNALTxxyUz0LPTbul2WpP0kX4W9eq7jIWASRw1CZyzfKZfN0jIVUxGwqYXN1_tk_b9fqUWMDyXwNejReR7M9Z5WLKgxc3hVkEH9kp7btoNBg7XghcU_cz-uRu-VIl_w.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺گزارش | اعترافات اجباری، ابهام‌ها، و ناگفته‌ها؛ نگاهی به اعدام عباس اکبری فیض‌آبادی\n\n▪️عباس اکبری فیض‌آبادی، از معترضان بازداشت‌شده در شهرستان نائین در جریان اعتراضات دی ۱۴۰۴، روز ۴ خرداد ۱۴۰۵ اعدام شد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/forced-confession-protesters-abbas-akbari-feizabadi-execution/8154864.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "499",
+      "views_label": "823",
       "posted_at": "2026-05-28T17:27:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218904",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.64K",
+      "views_label": "1.84K",
       "posted_at": "2026-05-28T17:00:15+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218902",
@@ -65,7 +93,7 @@
       "plain_text": "🔺اختصاصی | منابعی در دولت ایالات متحده خبر توافق اولیه آمریکا و رژیم ایران را تایید کردند\n\n◾️منایعی در دولت ایالات متحده در پیامی به صدای آمریکا گزارش «اکسیوس» درباره توافق اولیه میان ایالات متحده و رژیم ایران برای تمدید آتش‌بس و آغاز مذاکرات هسته‌ای را تایید کردند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/axios-report-us-iran-reach-deal-but-need-president-trumps-final-approval/8154874.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.74K",
+      "views_label": "1.91K",
       "posted_at": "2026-05-28T16:58:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218901",
@@ -93,7 +121,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.48K",
+      "views_label": "1.61K",
       "posted_at": "2026-05-28T16:57:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218900",
@@ -121,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.62K",
+      "views_label": "1.75K",
       "posted_at": "2026-05-28T16:51:42+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218899",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.81K",
+      "views_label": "1.94K",
       "posted_at": "2026-05-28T16:43:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218898",
@@ -165,7 +193,7 @@
       "plain_text": "🔺گسترش منطقه نبرد اسرائیل با حزب‌الله در جنوب لبنان در آستانه برگزاری مذاکرات «سطح نظامی» دو کشور در پنتاگون\n\n▪️در آستانه دیدار هیات‌های نظامی اسرائیل و لبنان در پنتاگون که قرار است روز جمعه ۸ خرداد برگزار شود، ارتش اسرائیل ضمن اعلام خبر حمله به مناطقی در حومه جنوبی بیروت، گفت که دامنه نبرد خود علیه حزب‌الله را گسترش می‌دهد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-us-lebanon-hezbollah-pentagon/8154853.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.62K",
+      "views_label": "1.75K",
       "posted_at": "2026-05-28T16:43:28+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218897",
@@ -193,7 +221,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.83K",
+      "views_label": "1.96K",
       "posted_at": "2026-05-28T16:34:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218896",
@@ -209,7 +237,7 @@
       "plain_text": "🔺وزارت خزانه‌داری آمریکا «نهاد مدیریت آبراه خلیج فارس» جمهوری اسلامی را تحریم کرد\n\n▪️دولت آمریکا در راستای اعمال کارزار «خشم اقتصادی» علیه جمهوری اسلامی و در ادامه تلاش واشنگتن برای مقابله با «اخاذی دریایی» تهران، روز پنجشنبه ۷ خرداد «نهاد مدیریت آبراه خلیج فارس» جمهوری اسلامی را تحریم کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/economic-fury-targets-iranian-maritime-extortion-persian-gulf-strait-authority/8154848.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.03K",
+      "views_label": "2.12K",
       "posted_at": "2026-05-28T16:28:33+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218895",
@@ -237,7 +265,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.97K",
+      "views_label": "2.06K",
       "posted_at": "2026-05-28T16:24:19+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218894",
@@ -265,7 +293,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.67K",
+      "views_label": "2.74K",
       "posted_at": "2026-05-28T16:01:49+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218893",
@@ -293,7 +321,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.66K",
+      "views_label": "2.75K",
       "posted_at": "2026-05-28T15:54:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218892",
@@ -321,7 +349,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.7K",
+      "views_label": "3.76K",
       "posted_at": "2026-05-28T14:47:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218891",
@@ -337,7 +365,7 @@
       "plain_text": "🔺گزارش | «امروز نوبت من است، فردا نوبت دیگری»؛ اعدام ناصر بکرزاده پس از دو بار نقض حکم\n\n▪️ناصر بکرزاده، ۲۶ ساله، که خود را «فرزند ملامنصور و دارای دو خواهر کوچک‌تر» معرفی کرده، پیش از اجرای حکم اعدامش در نامه‌ای از زندان ارومیه نوشت: «اعدام مرا کشت، متلاشی کرد و هر لحظه مردن خودم را می‌بینم و خانواده‌ام را هم از پای درآورده است.» او در این نامه، که پنجم اردیبهشت امسال و پس از تایید حکم اعدامش در دیوان عالی کشور منتشر شد، از مردم خواست: «از کنار این نامه اعدام راحت رد نشوید، امروز نوبت من است و فردا نوبت فرد دیگری.»\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-execution-naser-bakrzadeh-orumieh-war/8154490.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.88K",
+      "views_label": "3.95K",
       "posted_at": "2026-05-28T14:10:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218890",
@@ -353,7 +381,7 @@
       "plain_text": "🔺دیدگاه | هنرمند ایرانی؛ محتاط در بازی دو-سر-باخت\n\n▪️«با یک کروسان، خارجی شدی خانم آهنگرانی؟»!\n\nاین تیتر نوشته‌ای است که در اواسط هفتاد و نهمین جشنواره فیلم کن در وبسایت روزنامه فرهیختگان منتشر شد. خطاب و انتقادش به پگاه آهنگرانی بازیگر سابق و فیلمساز فعلی بود که مستند جدیدش «تمرین‌هایی برای یک انقلاب» در بخش نمایش‌های ویژه جشنواره به نمایش درآمد و جایزه بهترین مستند حاضر در بخش‌های گوناگون کن ۲۰۲۶ را از آن خود کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-artists-festival-actors-cannes-/8154505.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.47K",
+      "views_label": "3.5K",
       "posted_at": "2026-05-28T14:02:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218889",
@@ -369,7 +397,7 @@
       "plain_text": "🔺سنتکام: مسیر ۱۱۱ شناور تجاری را تغییر داد‌ه‌ایم\n\n▪️فرماندهی مرکزی ایالات متحده، سنتکام، پنج‌شنبه ۷ خرداد، اعلام کرد: «نیروهای آمریکایی در ادامه اجرای محاصره علیه جمهوری اسلامی، مسیر ۱۱۱ شناور تجاری را تغییر داد‌ه‌اند.»\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/centcom-change-of-course-111-vessels-iran/8154830.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.57K",
+      "views_label": "3.6K",
       "posted_at": "2026-05-28T13:51:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218888",
@@ -397,7 +425,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.57K",
+      "views_label": "3.63K",
       "posted_at": "2026-05-28T13:43:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218887",
@@ -425,7 +453,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.44K",
+      "views_label": "4.47K",
       "posted_at": "2026-05-28T12:46:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218886",
@@ -441,7 +469,7 @@
       "plain_text": "🔺سه زخمی در حمله با سلاح سرد در سوئیس\n\n◾️پلیس محلی سوئیس روز پنجشنبه ۷ خرداد اعلام کرد که مردی سه نفر را در حمله با چاقو در یک ایستگاه قطار در شهر وینترتور سوئیس در نزدیکی زوریخ زخمی کرده بود، دستگیر شد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/switzerland-attack-injury-allaho-akbar/8154821.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.3K",
+      "views_label": "4.33K",
       "posted_at": "2026-05-28T12:39:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218885",
@@ -2477,34 +2505,6 @@
       "posted_at": "2026-05-27T13:31:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/218801",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/218800",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/FpobTeXNb73j34luhhD1s1r_7dj1BI5N8SI4IMqWass7APSPmvuEiu4VXr0CdGlW3isZilwDrc8Ym623AbGHOz1NxFquGoa9nlezq-VTpn_GXFSNPd7eLMfnI-FklIb8fLPhSXtiS-xlWcEgw9PES9bsXGncB6--ikxHtPSBj5h1anDalhqHA3tKY0tmrWNVCw__MSDazTVFuyDOvTrucrrWNOpX_K_pkOh54oYcmdYkDkao7D5ZnuCShS27wlOw7MFsDzMQ9lg9A30vMjSHgrU7BnsQJi5OWa-CrYkCDjZ3iS9yV3O6Kqn9nwiqlw-2vQTWD0GsrSU3iN8fnrkJ6A.jpg",
-      "author_photo_path": "channels/farsivoa/media/6d7b66be5627dfd5d16e5733.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "چشم‌انداز تورمی که با وقوع جنگ و درگیری نظامی در ایران می‌بینیم چیست؟ معصومه طاهرخانی، اقتصاددان در میدان می‌گوید شرایط خیلی سخت‌تری در پیش است",
-      "plain_text": "چشم‌انداز تورمی که با وقوع جنگ و درگیری نظامی در ایران می‌بینیم چیست؟ معصومه طاهرخانی، اقتصاددان در میدان می‌گوید شرایط خیلی سخت‌تری در پیش است",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/218800",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Zzq4npBHri1-aiDxcRSxRBX0mFsJ5y4S_Qmw6GJ4vQAjOPVouIWV8detiwcW3KylzLPvL6djV_RbfhDiT7WzUt3nK1MAe9wC2ASiRgGnbryNNO5sx6ZLQVYC8lG3IIZZOYsSyK0d3i7Kse73Cax4CD4AsS_6QPjKsDBrAJdf5N4ymbW395RjfQNr-S6mSPFmuoAOwhgmsbXhjgUKSBaN4tpFhikTwSLBsHsW4rIBfnGZ2_8gbZReHvsGOjMOIvrIM8_e5cH6N6VY1qPgbtYC0CkFPF3W0pp1cdP6BDI9hR4IGWO72AqUmstkL30TqXpjuM5uzeYrYl7QEwEhErtLJA",
-          "thumbnail_path": "channels/farsivoa/media/f20ef8f746b0ae8f3361da33.jpg",
-          "thumbnail_sha256": "279febc8c15d0c92545e4c5bbb2586d60d432b7383aa694ea75b2e1162e90367",
-          "duration_label": "2:53",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.98K",
-      "posted_at": "2026-05-27T13:28:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/218800",
       "reply": null
     }
   ]
