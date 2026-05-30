@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-30T18:56:35.727Z",
+  "fetched_at": "2026-05-30T19:01:48.858Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,34 @@
     "subscriber_count": "122K"
   },
   "posts": [
+    {
+      "id": "farsivoa/219117",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/jatU7E7kpmDV_jv9gG04ODk3wDOek2ge8k--a8aLt6zajNLzJ4WvamoW3uT94xZz4o8zR5Z-jd6fRmxISSbuJEK52xTyD1wbEklil3fqzjyDdusdylJlA3Bft_tE-tvLtSrPwy5zSEbQymnI89qsrenYGpr4oxrz72J6Jn5EAJqx_hONdD4OpwjtWe4JsH-fCUyTqemwlLQf_tlD9okMSBF1D4D9CYpT0cVFPRZLA0kXFOv1Fuqs17hUC5xWURH7FExrVmUPzdmOXLMvzSjtSMoESISXZNUa3FwELeshv2OuRY7hVkemRBaKSXUvoDmigY9zPYUvPv3dwSAFxMkZAw.jpg",
+      "author_photo_path": "channels/farsivoa/media/17b9660be6ca235b9c204ce9.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "گزارش نرگس صبا در برنامه تفسیر خبر: ترور به سبک جمهوری اسلامی در اروپا",
+      "plain_text": "گزارش نرگس صبا در برنامه تفسیر خبر: ترور به سبک جمهوری اسلامی در اروپا",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/219117",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/i9ahoVk3szACis_uu8pNxG4lY95FGnm0aViG5sPjvzccDyHhqxJebZbRKEsfKGlvFV9NRhlE2xGbGIHi7cZNjhfoTAl3ZS5XNtx-PfIXLl8hvYb8YRK9wEj8HQmZHMSBH-rDN7u1XOpAxuxXQFx7YF92SCUcAJjgEcQYE_lUtGQkrnVJ2wAvelvsaCMXCItO2-D-G9T82wSB4Ohsiz4Qn5aLYI387e-zlpBxY9y-TMSS_lxBL50FBvpa_WQ-Qc48-tjZ9EisPNwOPjuCrzi4CRB3c_A2_X11_UitR2s_k4_Gx0Eb_YeSN6twqNaXiiEiKKL5J-fDM0-AhxQ7gpznkw",
+          "thumbnail_path": "channels/farsivoa/media/6cb1a2ecb82902a3c95dc906.jpg",
+          "thumbnail_sha256": "aca3d418f50b87dd5b008dbabaa8bdbe9b089c8af84091008952339fd4a5b1be",
+          "duration_label": "5:39",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "252",
+      "posted_at": "2026-05-30T18:58:11+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/219117",
+      "reply": null
+    },
     {
       "id": "farsivoa/219116",
       "author_name": "Farsi VOA",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "72",
+      "views_label": "415",
       "posted_at": "2026-05-30T18:55:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219116",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "485",
+      "views_label": "706",
       "posted_at": "2026-05-30T18:49:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219115",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "615",
+      "views_label": "834",
       "posted_at": "2026-05-30T18:48:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219114",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "834",
+      "views_label": "1.03K",
       "posted_at": "2026-05-30T18:44:25+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/219113",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.24K",
+      "views_label": "1.34K",
       "posted_at": "2026-05-30T18:35:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219112",
@@ -173,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.56K",
+      "views_label": "1.65K",
       "posted_at": "2026-05-30T18:23:44+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219111",
@@ -201,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.72K",
+      "views_label": "1.79K",
       "posted_at": "2026-05-30T18:19:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219110",
@@ -229,7 +257,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.76K",
+      "views_label": "1.86K",
       "posted_at": "2026-05-30T18:11:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219109",
@@ -257,7 +285,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2K",
+      "views_label": "2.06K",
       "posted_at": "2026-05-30T18:02:17+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219108",
@@ -307,7 +335,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.19K",
+      "views_label": "2.25K",
       "posted_at": "2026-05-30T17:53:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219105",
@@ -323,7 +351,7 @@
       "plain_text": "🔺آسوشیتدپرس: آمریکا یک کشتی تجاری دیگر را که تلاش داشت محاصره بنادر ایران را نقض کند از کار انداخت\n\n▪️یک مقام آمریکایی می‌گوید ارتش ایالات متحده یک کشتی تجاری دیگر را که قصد داشت محاصره بنادر ایران را نقض کند، در خلیج عمان از کار انداخت.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/usa-disabled-ship-near-iran/8155588.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.97K",
+      "views_label": "2.04K",
       "posted_at": "2026-05-30T17:51:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219104",
@@ -339,7 +367,7 @@
       "plain_text": "🔺دو زندانی سیاسی اهل بوکان زیر تیغ رژیم ایران؛ حکم اعدام رئوف شیخ‌معروفی و محمد فرجی در دیوان عالی تایید شد\n\n▪️احکام اعدام رئوف شیخ‌معروفی و محمد فرجی، دو زندانی سیاسی اهل بوکان، در دیوان عالی کشور تأیید و برای اجرا به شعبه اجرای احکام ارسال شده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/death-sentences-upheld-two-iranian-political-prisoners/8155586.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.08K",
+      "views_label": "2.11K",
       "posted_at": "2026-05-30T17:36:51+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219103",
@@ -355,7 +383,7 @@
       "plain_text": "🔺انتقال یک فعال حقوق زنان به زندان رشت و بلاتکلیفی یک زندانی بهائی در یزد؛ آزادی سپیده قلیان پس از پایان دوره محکومیت\n\n▪️رسانه‌های حقوق بشری روز شنبه ۹ خرداد اعلام کردند تینا دلجو، فعال حقوق زنان، به زندان لاکان رشت منتقل شد، بلاتکلیفی فلورا صمدانی، شهروند بهائی در زندان یزد از یک‌ ماه فراتر رفت، و همزمان سپیده قلیان، با پایان دوران محکومیت، از زندان وکیل‌آباد مشهد آزاد شد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-prison-arrest-women-activist-bahaie/8155579.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.07K",
+      "views_label": "2.1K",
       "posted_at": "2026-05-30T17:32:54+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219102",
@@ -371,7 +399,7 @@
       "plain_text": "🔺صدور حکم اعدام علیه بنیامین نقدی در شیراز؛ ماشین مرگ جمهوری اسلامی همچنان در حرکت است\n\n▪️وکیل بنیامین نقدی، از بازداشت‌شدگان اعتراضات سراسری دی ۱۴۰۴ در شیراز، از صدور جکم اعدام برای او خبر داد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-court-sentences-protester-to-death/8155582.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.11K",
+      "views_label": "2.15K",
       "posted_at": "2026-05-30T17:28:33+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219101",
@@ -421,7 +449,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.77K",
+      "views_label": "2.8K",
       "posted_at": "2026-05-30T16:56:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219098",
@@ -2484,34 +2512,6 @@
       "posted_at": "2026-05-29T18:57:41+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/219009",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/219008",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/qWtkmegZK0rMj3F27ZPuGZ_xBJK22ZCd08_MJ6wI1wME8dPWJyJQEI_FUG5ZbQ-98QG4Ung7HJ1ifSwQ5KyJHHS1RLmv7kzUpWIuuhVm6PkzP39nLzU6dZPvP71-T0_h5EXpyThrXAIP762Jbvhkbiq6s3Xs0q4YJN8AfYespR5S3mDEIc1jsFpxPLFU-cU83FVB5SaVzf18S0fFZBjX32odZfa97c3FTK0sGSwqsKvD2R_OaCOCGxRJXRWRGf5CJC5dp5FxDstd1EpqsC7jS4Gu1sxrF8MIDcfb68v7h4k061Npuw2-c63aulduVfKYRx8JtzCzMsW-SG00IrHGtQ.jpg",
-      "author_photo_path": "channels/farsivoa/media/7115b1bb405ebbae54435802.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "نسرین ستوده در روایتی از بازداشت خود از ضرب‌وشتم، فشار برای اعتراف اجباری و شرایط «غیرانسانی» بازداشتگاه گفته و تأکید کرده توجه افکار عمومی و حمایت‌های داخلی و بین‌المللی در آزادی موقت او نقش داشته است",
-      "plain_text": "نسرین ستوده در روایتی از بازداشت خود از ضرب‌وشتم، فشار برای اعتراف اجباری و شرایط «غیرانسانی» بازداشتگاه گفته و تأکید کرده توجه افکار عمومی و حمایت‌های داخلی و بین‌المللی در آزادی موقت او نقش داشته است",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/219008",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/YnimHF4MCDrzCqPlNiYBIvzenuzY5ubfpRuVzDJ-pIYmTKIRVPrD-1V9OvOQgSnhJ8B0uHB4QJxjTchH-1ry4BOzW1vUMLBjtBHTzmWPDeTDg9J8jMxLqOPuqMMg35usH_OV6oTffxz37v0-IBI3_w4jaNRZhLrNZyuk5ULhIN-ekXwRWKBMPVyeN54uq06Qf0Ft2JA1OnnayKn0OoLlo5ysIX8d9yYMCrRfEjgBToOfJliOWW_fxggmdoqvEs2gzfHfBLCwEI0OOn-uuR-r-HaXKiGU_Du5bge_bh6qTFV7DW1Wf5GnQzWskTV11kvUcL3CBIC67nZRiN1FVotjCA",
-          "thumbnail_path": "channels/farsivoa/media/aa9c5332a56a7b53042bd7c8.jpg",
-          "thumbnail_sha256": "f894748b762b895c39f484933d53d4fa058065e45754b0608f8807bfa62e2fc7",
-          "duration_label": "4:49",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.63K",
-      "posted_at": "2026-05-29T18:53:23+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/219008",
       "reply": null
     }
   ]
