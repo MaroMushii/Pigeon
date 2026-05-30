@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-30T16:01:44.767Z",
+  "fetched_at": "2026-05-30T16:06:46.929Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,31 @@
     "subscriber_count": "97.7K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2402",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Ox6xBodijzWgdZCfn2iiC8VfmUFiVhxoKp0s3JMTnOuA45yzAXtcUT-6SaVCrC2kkVwIIJFWBa3D8Yd9gkOObf6YH4iM-v6xbRt1J5VCasg3D3WerQ5jxC_LTyYIIXbHiAU7QgRF3D1zbBV77ukuq6HSYk1enLE61IDOowQRVwJ2UTJQ8U-5huHXr9TQmocvJ9S-0WR-g2bV2KGPvYBWd0BYwIbMUuTXDBh6Pz4wCrpGKMhvlin-k3SpPJ5v-IBuvrUJY-aYW_rdGhnAQUm5AmBcHCJinvx8WD08rETzg260nMnBUU4aezf9zMKQU8tyZptFnA3IPUMXAMVpdKEFpQ.jpg",
+      "author_photo_path": "channels/ircfspace/media/53f3e8ae522e3cefa2f9edc2.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "تقریبا اکثر IPهای خارجی خاکستری هستند، یعنی در هر کانکشن شما مجاز هستید حداکثر ۶ پکت به سمت سرور خارجی بفرستید؛ این محدودیت به شدت سختگیرانه است و تقریبا هیچ سرویسی نمیتواند با این محدودیت کار کند. به طور مثال برای کانکشن‌های Https صرفا میتوان یک ریسپانس ساده Http را دریافت کرد و  شما حتی نمی‌توانید درخواست دیگری بفرستید.<br>برای بعضی از IPهای خارجی خاکستری مثل IPهای CDNها و ...، SNIهای محدودی سفید شده، یعنی اگر شما یک درخواست TLS با یک SNI سفید به یک IP خاکستری ارسال کنید، آن کانکشن سفید میشود و می‌توانید به صورت نامحدود پکت ارسال کنید! به طور مثال با اینکه الان تمام IPهای کلودفلر خاکستری هستند، ولی اگر شما یک درخواست با SNI سفیدی مثل <code>www.speedtest.net</code> ارسال کنید، کانکشن سفید شده و محدودیت ۶ پکت برداشته میشود.<br><br>در حال حاضر SNIهای سفید به صورت وایت‌لیست بسیار محدود هستند. با وجود میلیون‌ها وبسایت میتوان گفت عملا اینترنت همچنان قطع است و صرفا دسترسی به سرویسهای خاصی امکان پذیر است. حکومت برای بهبود کیفیت اینترنت مجبور است بسیاری از دامنه‌ها را بدون بررسی دقیق به لیست وایت‌لیست اضافه کند؛ به طور مثال الان تمام دامنه‌هایی که در لیست نیم‌بها ثبت شده‌اند همگی سفید هستند. نکته‌ی قابل تامل این است که اکثر این دامنه‌ها را فیلترشکن فروشها ثبت کرده‌اند (زیرا قبلا شما می‌توانستید صرفا با بالا آوردن یک وبسایت فیک و ثبت درخواست، دامنه خود را در لیست نیم‌بها ثبت کنید). بنابراین فیلترشکن فروش هایی که دامنه‌شان را در لیست نیم‌بها ثبت کرده‌اند حالا دارند سود خوبی به جیب می‌زنند. <br>این سیاست‌های بستن و وایت‌لیست کردن اینترنت موجب رانت و فساد زیادی شده و شک نکنید که خشم خدا را در بر خواهد داشت.<br><br>تکنیک SNI Spoofing باعث میشود که یک SNI فیک توسط فایروال دیده شود و کانکشن سفید شود و محدودیت ۶ پکت ارسال برداشته شود. روش اولی که منتشر شد اکنون در بسیاری از نت‌ها بسته شده (یعنی فایروال SNI اصلی را می‌بیند)، ولی طبق گزارشات همچنان بر روی ایرانسل و بسیاری از مناطق حاشیه‌ای برقرار است. روش دیگری که آن را Plan B نامیده‌ام، دیروز (با تشکر از دوستانی که نکات فنی خوبی را متذکر شدند و باعث جرقه ایده جدید شدند) با موفقیت تست شد، ولی به ۳ دلیل فعلا قصد انتشار ندارم؛ اول اینکه بسیاری از فیلترشکن‌های رایگان اکنون وصل میشوند (به طور مثال سایفون به راحتی با فستلی وصل میشود)، دوم اینکه همانطور که گفتم روش اول همچنان بر روی ایرانسل و بسیاری از مناطق فعال است، و سوم اینکه بسیاری از سرویس‌ها مثل اینستاگرام، واتس‌اپ، یوتیوب و ... به طور مستقیم با MITM در دسترس هستند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> patterniha<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "تقریبا اکثر IPهای خارجی خاکستری هستند، یعنی در هر کانکشن شما مجاز هستید حداکثر ۶ پکت به سمت سرور خارجی بفرستید؛ این محدودیت به شدت سختگیرانه است و تقریبا هیچ سرویسی نمیتواند با این محدودیت کار کند. به طور مثال برای کانکشن‌های Https صرفا میتوان یک ریسپانس ساده Http را دریافت کرد و شما حتی نمی‌توانید درخواست دیگری بفرستید.\nبرای بعضی از IPهای خارجی خاکستری مثل IPهای CDNها و ...، SNIهای محدودی سفید شده، یعنی اگر شما یک درخواست TLS با یک SNI سفید به یک IP خاکستری ارسال کنید، آن کانکشن سفید میشود و می‌توانید به صورت نامحدود پکت ارسال کنید! به طور مثال با اینکه الان تمام IPهای کلودفلر خاکستری هستند، ولی اگر شما یک درخواست با SNI سفیدی مثل www.speedtest.net ارسال کنید، کانکشن سفید شده و محدودیت ۶ پکت برداشته میشود.\n\nدر حال حاضر SNIهای سفید به صورت وایت‌لیست بسیار محدود هستند. با وجود میلیون‌ها وبسایت میتوان گفت عملا اینترنت همچنان قطع است و صرفا دسترسی به سرویسهای خاصی امکان پذیر است. حکومت برای بهبود کیفیت اینترنت مجبور است بسیاری از دامنه‌ها را بدون بررسی دقیق به لیست وایت‌لیست اضافه کند؛ به طور مثال الان تمام دامنه‌هایی که در لیست نیم‌بها ثبت شده‌اند همگی سفید هستند. نکته‌ی قابل تامل این است که اکثر این دامنه‌ها را فیلترشکن فروشها ثبت کرده‌اند (زیرا قبلا شما می‌توانستید صرفا با بالا آوردن یک وبسایت فیک و ثبت درخواست، دامنه خود را در لیست نیم‌بها ثبت کنید). بنابراین فیلترشکن فروش هایی که دامنه‌شان را در لیست نیم‌بها ثبت کرده‌اند حالا دارند سود خوبی به جیب می‌زنند.\nاین سیاست‌های بستن و وایت‌لیست کردن اینترنت موجب رانت و فساد زیادی شده و شک نکنید که خشم خدا را در بر خواهد داشت.\n\nتکنیک SNI Spoofing باعث میشود که یک SNI فیک توسط فایروال دیده شود و کانکشن سفید شود و محدودیت ۶ پکت ارسال برداشته شود. روش اولی که منتشر شد اکنون در بسیاری از نت‌ها بسته شده (یعنی فایروال SNI اصلی را می‌بیند)، ولی طبق گزارشات همچنان بر روی ایرانسل و بسیاری از مناطق حاشیه‌ای برقرار است. روش دیگری که آن را Plan B نامیده‌ام، دیروز (با تشکر از دوستانی که نکات فنی خوبی را متذکر شدند و باعث جرقه ایده جدید شدند) با موفقیت تست شد، ولی به ۳ دلیل فعلا قصد انتشار ندارم؛ اول اینکه بسیاری از فیلترشکن‌های رایگان اکنون وصل میشوند (به طور مثال سایفون به راحتی با فستلی وصل میشود)، دوم اینکه همانطور که گفتم روش اول همچنان بر روی ایرانسل و بسیاری از مناطق فعال است، و سوم اینکه بسیاری از سرویس‌ها مثل اینستاگرام، واتس‌اپ، یوتیوب و ... به طور مستقیم با MITM در دسترس هستند.\n\n© patterniha\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "1",
+      "posted_at": "2026-05-30T16:05:55+00:00",
+      "edited": false,
+      "permalink": "https://t.me/ircfspace/2402",
+      "reply": null
+    },
     {
       "id": "ircfspace/2401",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -23,11 +48,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "54"
+          "count": "75"
         },
         {
           "emoji": "❤",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👎",
@@ -46,11 +71,15 @@
           "count": "1"
         },
         {
+          "emoji": "🤬",
+          "count": "1"
+        },
+        {
           "emoji": "🥴",
           "count": "1"
         }
       ],
-      "views_label": "2.46K",
+      "views_label": "3.78K",
       "posted_at": "2026-05-30T15:55:55+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2401",
@@ -68,15 +97,15 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "822"
+          "count": "832"
         },
         {
           "emoji": "❤",
-          "count": "43"
+          "count": "44"
         },
         {
           "emoji": "🤬",
-          "count": "37"
+          "count": "38"
         },
         {
           "emoji": "💯",
@@ -107,7 +136,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "16K",
       "posted_at": "2026-05-30T12:28:10+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2400",
@@ -137,11 +166,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "230"
+          "count": "231"
         },
         {
           "emoji": "❤",
-          "count": "72"
+          "count": "73"
         },
         {
           "emoji": "👎",
@@ -164,7 +193,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.1K",
+      "views_label": "29.2K",
       "posted_at": "2026-05-29T07:23:48+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2399",
@@ -194,7 +223,7 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "93"
+          "count": "94"
         },
         {
           "emoji": "❤",
@@ -213,7 +242,7 @@
           "count": "2"
         }
       ],
-      "views_label": "27.3K",
+      "views_label": "27.4K",
       "posted_at": "2026-05-29T07:21:30+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2398",
@@ -270,7 +299,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.3K",
+      "views_label": "30.4K",
       "posted_at": "2026-05-28T16:15:24+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2397",
@@ -319,7 +348,7 @@
           "count": "3"
         }
       ],
-      "views_label": "31.2K",
+      "views_label": "31.3K",
       "posted_at": "2026-05-28T16:09:33+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2396",
@@ -548,7 +577,7 @@
           "count": "4"
         }
       ],
-      "views_label": "40.6K",
+      "views_label": "40.7K",
       "posted_at": "2026-05-26T18:26:13+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2390",
@@ -609,7 +638,7 @@
           "count": "6"
         }
       ],
-      "views_label": "39.5K",
+      "views_label": "39.6K",
       "posted_at": "2026-05-26T18:01:18+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2389",
@@ -666,7 +695,7 @@
           "count": "1"
         }
       ],
-      "views_label": "68.6K",
+      "views_label": "68.9K",
       "posted_at": "2026-05-26T14:00:38+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2388",
@@ -723,7 +752,7 @@
           "count": "1"
         }
       ],
-      "views_label": "38.5K",
+      "views_label": "38.6K",
       "posted_at": "2026-05-26T13:54:11+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2387",
@@ -906,7 +935,7 @@
           "count": "2"
         }
       ],
-      "views_label": "32.6K",
+      "views_label": "32.7K",
       "posted_at": "2026-05-26T13:39:09+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2384",
@@ -5366,49 +5395,6 @@
       "posted_at": "2026-05-08T14:15:56+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2296",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc"
-    },
-    {
-      "id": "ircfspace/2295",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/GWK2IRUXOrwAyR_lpgRwq1nUOOvMxm6UIG_WGIZMA-A3wNDfmLEAQCa5ZdQvhZ7dln3U63GBezknmdNgmLPLAWWx_UGP59WsRmSE44YO9s7O6fiLKmyBT2jQ-SwvQv-3Hp9hYkpyAzlJi1ku-KXc5jdAudCL6eLjOxFVHBAcFoX9NEYq-Gt_ZRuyjHKbXbFASy3bL4uwgY_aFxTXg2eSJN6NAzDZrTgqnHTYyrqFw5cXFovSZe-V2FSYjC_rbkBVUhdQETuUpYSQp7QofhMsjTOAF6PxSGoLTuwfVKumd1SC8zdszt3oXLkwdhmDNnQ0RcNi148nEY6cVGNy7VI40Q.jpg",
-      "author_photo_path": "channels/ircfspace/media/85d8575743d50201071c3ee3.jpg",
-      "body_html": "پروژه Youtube Sandbox با استفاده از GitHub Actions بهمون اجازه میده که فقط با ارسال لینک یوتیوب توی کامیت‌مسیج، فایل ویدیوی موردنظرمون رو توی فولدر Downloads (داخل مخزن) ذخیره کنیم.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/iphoenixon/youtube-sandbox\" target=\"_blank\" rel=\"noopener\">github.com/iphoenixon/youtube-sandbox</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "پروژه Youtube Sandbox با استفاده از GitHub Actions بهمون اجازه میده که فقط با ارسال لینک یوتیوب توی کامیت‌مسیج، فایل ویدیوی موردنظرمون رو توی فولدر Downloads (داخل مخزن) ذخیره کنیم. 👉 github.com/iphoenixon/youtube-sandbox 🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ @ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2295",
-          "asset_path": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/EANwPCGigTKNN3XMPs862-d7Z_z0lxswyiaSEBklXoG4JFXG9cSTWi31F0IXJo7ypm_92-T_gbwp3eow3rpKgI9y2SAteg0HhXqBKhAyj05ZAbhkW1hZZbENx4vBWizgAezZZnla3v5fnLfVB7rscZPdKZ_hnCtAdC7QtUwkXj-L_iLKOXgPQnI4TMT2qxzbzAcjCC1qAbZHcH4lNDUV0fCYcRrhRyAeXS9a2KAzdi2zUOT0TUMQpfzvCOV0xJjtRgA-nmBme4TYCK8Pf9NvThBw4753zSLaWalsywKbJjjUyMQqx8fycEVjvj2WjKaNPQeaCsMAGOvAddg1upi9Hw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/2c8f71f3e611b9a7016b5712.jpg",
-          "duration_label": null,
-          "aspect_ratio": 3.337552742616054,
-          "thumbnail_sha256": "48ce4181d6a5efe01a1d501666780538b6e3d764f871e07f1695599884526736"
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "100"
-        },
-        {
-          "emoji": "👍",
-          "count": "21"
-        },
-        {
-          "emoji": "😁",
-          "count": "7"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        }
-      ],
-      "views_label": "27.7K",
-      "posted_at": "2026-05-08T14:06:45+00:00",
-      "edited": false,
-      "permalink": "https://t.me/ircfspace/2295",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc"
     }
   ]
