@@ -1,47 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-05-31T17:31:46.043Z",
-  "succeeded": 13,
-  "failed": [
-    {
-      "username": "iranlix",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "matinsenpaii",
-      "error": "t.me matinsenpaii: HTTP 502"
-    },
-    {
-      "username": "ircfspace",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "persianvpnhub",
-      "error": "t.me persianvpnhub: HTTP 502"
-    },
-    {
-      "username": "mamlekate",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "sahamnewsorg",
-      "error": "t.me sahamnewsorg: HTTP 502"
-    },
-    {
-      "username": "tavaana_tavaanatech",
-      "error": "t.me tavaana_tavaanatech: HTTP 502"
-    },
-    {
-      "username": "telegram",
-      "error": "t.me telegram: HTTP 502"
-    },
-    {
-      "username": "vahidonline",
-      "error": "t.me vahidonline: HTTP 502"
-    },
-    {
-      "username": "whitedns",
-      "error": "t.me whitedns: HTTP 502"
-    }
-  ]
+  "generated_at": "2026-05-31T17:36:26.421Z",
+  "succeeded": 23,
+  "failed": []
 }
