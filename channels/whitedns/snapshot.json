@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-05-30T23:56:45.708Z",
+  "fetched_at": "2026-05-31T00:01:55.023Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -8,7 +8,7 @@
     "photo_url": "https://cdn4.telesco.pe/file/G1Ocn9n7OZ4Tz06IFAzgAVoDR9rT5RK6mNdR1jGgGK8S0YETH0zrSS3If5Dc5EsxACwpwcJH5XMvjcAJ9CfvbXHXNmYjm0_j42QzmZVaeUmUAatBExJzRCzz-wsC1jkPfiZhgEzMwQHYgj_1IJDYwGuUKXElf7PwmdeqMn6n4kx37kXI_iy8B9RAeJdwcMJLzcF8SXyuCKYTincKrOVHjyNCHOSVvkPSZvlQwOF5BRfEvQ2LtghTj9HBPYv6HO3tLzIKcfGwL8CDvS-E8TiN5OPaSvjM-YZhmyrBYmieVH0bxFxgZHfxGBafmyz77oasEtDXBXp_xqgJYgDdH6YCCQ.jpg",
     "photo_path": "channels/whitedns/media/b658fc30d581f13124653c28.jpg",
     "photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
-    "subscriber_count": "101K"
+    "subscriber_count": "102K"
   },
   "posts": [
     {
@@ -17,8 +17,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/G1Ocn9n7OZ4Tz06IFAzgAVoDR9rT5RK6mNdR1jGgGK8S0YETH0zrSS3If5Dc5EsxACwpwcJH5XMvjcAJ9CfvbXHXNmYjm0_j42QzmZVaeUmUAatBExJzRCzz-wsC1jkPfiZhgEzMwQHYgj_1IJDYwGuUKXElf7PwmdeqMn6n4kx37kXI_iy8B9RAeJdwcMJLzcF8SXyuCKYTincKrOVHjyNCHOSVvkPSZvlQwOF5BRfEvQ2LtghTj9HBPYv6HO3tLzIKcfGwL8CDvS-E8TiN5OPaSvjM-YZhmyrBYmieVH0bxFxgZHfxGBafmyz77oasEtDXBXp_xqgJYgDdH6YCCQ.jpg",
       "author_photo_path": "channels/whitedns/media/b658fc30d581f13124653c28.jpg",
       "author_photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
-      "body_html": "<b>آموزش تبدیل کانفیگ به آی‌پی سفید</b><br><br>از این به بعد برای تبدیل کانفیگ، آی‌پی‌های خودتان استفاده می‌شود.<br><br><a href=\"https://t.me/WhiteDNS_Installer_bot\" target=\"_blank\"><b>@WhiteDNS_Installer_bot</b></a><br><br><b>مراحل کار:</b><br>1. وارد ربات شوید.<br>2. روی گزینه «تبدیل کانفیگ با آی‌پی سفید» بزنید.<br>3. کانفیگ V2Ray خود را ارسال کنید.<br><br><b>فرمت‌های پشتیبانی‌شده:</b><br>VLESS<br>VMess<br>Trojan<br><br>بعد از تایید کانفیگ، ربات از شما لیست آی‌پی‌ها را می‌خواهد.<br><br><b>می‌توانید آی‌پی‌ها را به این شکل بفرستید:</b><br><pre><br>8.8.8.8<br>104.18.1.1:8443<br></pre><br><b>یا با کاما:</b><br><pre>1.1.1.1, 8.8.8.8, 104.18.1.1:8443</pre><br><br><b>نکته مهم:</b><br>اگر پورت وارد نکنید، پورت پیش‌فرض 443 استفاده می‌شود.<br>اگر آی‌پی را همراه پورت بفرستید، همان پورت استفاده می‌شود.<br><br><b>مثال:</b><br><a href=\"http://1.1.1.1/\" target=\"_blank\" rel=\"noopener\">1.1.1.1</a>  →  پورت 443<br><a href=\"http://1.1.1.1:2053/\" target=\"_blank\" rel=\"noopener\">1.1.1.1:2053</a>  →  پورت 2053<br><br>در پایان، ربات فایل کانفیگ جدید را برای شما ارسال می‌کند که host و port آن با آی‌پی‌های ارسالی خودتان جایگزین شده است.<br><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "آموزش تبدیل کانفیگ به آی‌پی سفید\n\nاز این به بعد برای تبدیل کانفیگ، آی‌پی‌های خودتان استفاده می‌شود.\n\n@WhiteDNS_Installer_bot\n\nمراحل کار:\n1. وارد ربات شوید.\n2. روی گزینه «تبدیل کانفیگ با آی‌پی سفید» بزنید.\n3. کانفیگ V2Ray خود را ارسال کنید.\n\nفرمت‌های پشتیبانی‌شده:\nVLESS\nVMess\nTrojan\n\nبعد از تایید کانفیگ، ربات از شما لیست آی‌پی‌ها را می‌خواهد.\n\nمی‌توانید آی‌پی‌ها را به این شکل بفرستید:\n8.8.8.8\n104.18.1.1:8443\n\nیا با کاما:\n1.1.1.1, 8.8.8.8, 104.18.1.1:8443\n\nنکته مهم:\nاگر پورت وارد نکنید، پورت پیش‌فرض 443 استفاده می‌شود.\nاگر آی‌پی را همراه پورت بفرستید، همان پورت استفاده می‌شود.\n\nمثال:\n1.1.1.1 → پورت 443\n1.1.1.1:2053 → پورت 2053\n\nدر پایان، ربات فایل کانفیگ جدید را برای شما ارسال می‌کند که host و port آن با آی‌پی‌های ارسالی خودتان جایگزین شده است.\n\n\n@WhiteDNS",
+      "body_html": "<b>آموزش تبدیل کانفیگ به آی‌پی سفید</b><br><br>از این به بعد برای تبدیل کانفیگ، آی‌پی‌های خودتان استفاده می‌شود.<br><br><a href=\"https://t.me/WhiteDNS_Installer_bot\" target=\"_blank\"><b>@WhiteDNS_Installer_bot</b></a><br><br><b>مراحل کار:</b><br>1. وارد ربات شوید.<br>2. روی گزینه «تبدیل کانفیگ با آی‌پی سفید» بزنید.<br>3. کانفیگ V2Ray خود را ارسال کنید.<br><br><b>فرمت‌های پشتیبانی‌شده:</b><br>VLESS<br>VMess<br>Trojan<br><br>بعد از تایید کانفیگ، ربات از شما لیست آی‌پی‌ها را می‌خواهد.<br><br><b>می‌توانید آی‌پی‌ها را به این شکل بفرستید:</b><br><pre><br>8.8.8.8<br>104.18.1.1:8443<br></pre><br><b>یا با کاما:</b><br><pre>1.1.1.1, 8.8.8.8, 104.18.1.1:8443</pre><br><br><b>نکته مهم:</b><br>اگر پورت وارد نکنید، پورت پیش‌فرض 443 استفاده می‌شود.<br>اگر آی‌پی را همراه پورت بفرستید، همان پورت استفاده می‌شود.<br><br><b>مثال:</b><br><a href=\"http://1.1.1.1/\" target=\"_blank\" rel=\"noopener\">1.1.1.1</a>  →  پورت 443<br><a href=\"http://1.1.1.1:2053/\" target=\"_blank\" rel=\"noopener\">1.1.1.1:2053</a>  →  پورت 2053<br><br><br>در پایان، ربات فایل کانفیگ جدید را برای شما ارسال می‌کند که host و port آن با آی‌پی‌های ارسالی خودتان جایگزین شده است.<br><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "آموزش تبدیل کانفیگ به آی‌پی سفید\n\nاز این به بعد برای تبدیل کانفیگ، آی‌پی‌های خودتان استفاده می‌شود.\n\n@WhiteDNS_Installer_bot\n\nمراحل کار:\n1. وارد ربات شوید.\n2. روی گزینه «تبدیل کانفیگ با آی‌پی سفید» بزنید.\n3. کانفیگ V2Ray خود را ارسال کنید.\n\nفرمت‌های پشتیبانی‌شده:\nVLESS\nVMess\nTrojan\n\nبعد از تایید کانفیگ، ربات از شما لیست آی‌پی‌ها را می‌خواهد.\n\nمی‌توانید آی‌پی‌ها را به این شکل بفرستید:\n8.8.8.8\n104.18.1.1:8443\n\nیا با کاما:\n1.1.1.1, 8.8.8.8, 104.18.1.1:8443\n\nنکته مهم:\nاگر پورت وارد نکنید، پورت پیش‌فرض 443 استفاده می‌شود.\nاگر آی‌پی را همراه پورت بفرستید، همان پورت استفاده می‌شود.\n\nمثال:\n1.1.1.1 → پورت 443\n1.1.1.1:2053 → پورت 2053\n\n\nدر پایان، ربات فایل کانفیگ جدید را برای شما ارسال می‌کند که host و port آن با آی‌پی‌های ارسالی خودتان جایگزین شده است.\n\n\n@WhiteDNS",
       "media": [
         {
           "kind": "photo",
@@ -35,10 +35,10 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "3"
+          "count": "11"
         }
       ],
-      "views_label": "195",
+      "views_label": "1.68K",
       "posted_at": "2026-05-30T23:55:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/883",
@@ -56,14 +56,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "31"
+          "count": "35"
         },
         {
           "emoji": "👍",
           "count": "3"
         }
       ],
-      "views_label": "2.83K",
+      "views_label": "3.05K",
       "posted_at": "2026-05-30T23:15:18+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/882",
@@ -90,7 +90,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "52"
+          "count": "53"
         },
         {
           "emoji": "👍",
@@ -101,7 +101,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.02K",
+      "views_label": "4.18K",
       "posted_at": "2026-05-30T23:00:25+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/881",
@@ -140,7 +140,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "41"
+          "count": "43"
         },
         {
           "emoji": "👍",
@@ -155,7 +155,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.88K",
+      "views_label": "1.98K",
       "posted_at": "2026-05-30T22:57:30+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/880",
@@ -266,7 +266,7 @@
         },
         {
           "emoji": "❤",
-          "count": "341"
+          "count": "342"
         },
         {
           "emoji": "👍",
@@ -305,7 +305,7 @@
           "count": "1"
         }
       ],
-      "views_label": "63.7K",
+      "views_label": "63.8K",
       "posted_at": "2026-05-30T07:57:52+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/878",
@@ -749,7 +749,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31K",
+      "views_label": "31.1K",
       "posted_at": "2026-05-29T08:09:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/861",
