@@ -1,6 +1,15 @@
 {
   "schema": 2,
-  "generated_at": "2026-05-31T08:21:42.994Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-05-31T08:26:38.312Z",
+  "succeeded": 21,
+  "failed": [
+    {
+      "username": "bidarzani",
+      "error": "fetch failed"
+    },
+    {
+      "username": "sahamnewsorg",
+      "error": "fetch failed"
+    }
+  ]
 }
