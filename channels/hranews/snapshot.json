@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-01T08:06:33.437Z",
+  "fetched_at": "2026-06-01T08:11:35.719Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "31K"
   },
   "posts": [
+    {
+      "id": "hranews/113297",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Ukm544f4sXCzKxoyXLs8BLkIgOxR3EoeW01wCrKk3lc_BGVs-5l_dMUUSNiIwxZycnofapa5CMZsW4BXjVzyZckNLx7K-gHg_GjByG_3lvLVSWS7C-_qWVzDLW6faf3IU6Xu_p6fh4EzOn6LgaImXqOlU0IpekZa-IU1_s8e_Bewrz7E9_ik0O8qNQ08gz6osSRAU8Tgbyj2oYJG7rgqvh-2LXEp8M90xd86puALfpkOqjJO5JjE_sjr_9Yj06jca9sWqmEO8BX-69rtiwv5K0m76JHmqYjA8Ed7wVxNSnxmcjEFhCLpNyNlJ66yH76acOXPyKMuZBecb-ojuY4S3A.jpg",
+      "author_photo_path": "channels/hranews/media/fd6216ccca6089a27ddf7578.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "روز یکشنبه ۱۰ خرداد‌ماه، شماری از اساتید اخراجی دانشگاه فرهنگیان در مقابل ساختمان وزارت آموزش و پرورش در تهران، دست به <a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9_%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%DB%8C\">#تجمع_اعتراضی</a> زدند.<br><br>لغو احکام بازنشستگی اجباری اعضای هیئت علمی دانشگاه فرهنگیان براساس مصوبه سال ۱۳۹۶ هیات امنای دانشگاه از جمله دلایل اعتراض این اساتید است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "روز یکشنبه ۱۰ خرداد‌ماه، شماری از اساتید اخراجی دانشگاه فرهنگیان در مقابل ساختمان وزارت آموزش و پرورش در تهران، دست به #تجمع_اعتراضی زدند.\n\nلغو احکام بازنشستگی اجباری اعضای هیئت علمی دانشگاه فرهنگیان براساس مصوبه سال ۱۳۹۶ هیات امنای دانشگاه از جمله دلایل اعتراض این اساتید است.\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/hranews/113297",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/A-eka58EHdj1AR4BSpYLk18k2y3378R7c9bvpP_WH8Hcbw1O5R8TGueA_ItJo0jzccrKgOeco6tRADtLNAf0ijk24F4ZnRW2w8mszEwnNvcvOQi8t7QbkgH5TwtlgJzP4AYzkWaIjNjuvL1UErDRQOLkNvXEV52opzEXEJmJXnenbVYGKcGUshfrA0cDarzgQ_FHoCqOLzAXxpuJPuLPFAuxAE9y2OcuohIoCG1Rdb4kCRtrpD-V8e2C2wq3zSkodF4EegjGbo7EBrJ0ILMzb-l-R0BqdQPuISs29iwm9I0DmTxVqLnq7uuBmZjxvjpwutcCd4lZlypx6bmlT8SwCQ.jpg",
+          "thumbnail_path": "channels/hranews/media/b018edbb4dfc574ac2f55d4a.jpg",
+          "thumbnail_sha256": "110354ece7963519f97592fbded724b6ce65ecc16adb0417296ed421dd1ddc7e",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-06-01T08:10:34+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/113297",
+      "reply": null
+    },
     {
       "id": "hranews/113296",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "287",
+      "views_label": "313",
       "posted_at": "2026-06-01T07:19:42+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113296",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.1K",
+      "views_label": "1.11K",
       "posted_at": "2026-05-31T19:33:33+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113295",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "984",
+      "views_label": "991",
       "posted_at": "2026-05-31T19:24:34+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113294",
@@ -105,7 +133,7 @@
       "plain_text": "دستکم ۴ تجمع اعتراضی برگزار شد\n\n❗️❗️❗️❗️❗️– امروز یکشنبه ۱۰ خرداد، جمعی از بازنشستگان تامین اجتماعی در شهرهای تهران، رشت و شوش و گروهی از کارگران شهرداری در شوش تجمع اعتراضی برگزار کردند.\n\nادامه مطلب\n\n#کارگران #بازنشستگان\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "946",
+      "views_label": "949",
       "posted_at": "2026-05-31T19:11:31+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113293",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "801",
+      "views_label": "806",
       "posted_at": "2026-05-31T19:06:54+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113292",
@@ -149,7 +177,7 @@
       "plain_text": "گزارشی از بلاتکلیفی، معوقات مزدی و بیمه‌ای کارگران در ۳ واحد مختلف\n\n❗️❗️❗️❗️❗️– حدود ۱۷۰ نفر از کارگران کارخانه پویا نخ ایلام واقع در شهرک صنعتی ششدار در بلاتکلیفی شغلی به‌سر می‌برند. از سوی دیگر، گروهی از #کارگران کارخانه کیش چوب از عدم پرداخت مطالبات مزدی چندین ماهه خود خبر دادند. همچنین، شماری از کارگران کارخانجات مخابراتی ایران (آی‌تی‌ام‌سی) در شیراز، از عدم پرداخت چندین ماه حق بیمه و مطالبات مزدی خود ابراز نارضایتی کرده و خواستار رسیدگی به مطالباتشان شدند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "729",
+      "views_label": "734",
       "posted_at": "2026-05-31T18:55:07+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113291",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "786",
+      "views_label": "790",
       "posted_at": "2026-05-31T18:40:12+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113290",
@@ -193,7 +221,7 @@
       "plain_text": "مردی در تهران به اعدام و شلاق محکوم شد\n\n❗️❗️❗️❗️❗️– مردی به اتهام قتل و مصرف مشروبات الکلی توسط شعبه سه دادگاه کیفری تهران به مجازات‌هایی از جمله #اعدام و #شلاق محکوم شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "964",
+      "views_label": "969",
       "posted_at": "2026-05-31T18:02:32+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113289",
@@ -209,7 +237,7 @@
       "plain_text": "کرمان؛ مرگ یک کارگر در سایه فقدان ایمنی کار\n\n❗️❗️❗️❗️❗️– در سایه فقدان ایمنی محیط و شرایط نامناسب کار، یک #کارگر مقنی در کرمان، حین انجام کار طی حادثه ای جان خود را از دست داد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "951",
+      "views_label": "953",
       "posted_at": "2026-05-31T17:54:38+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113288",
@@ -237,7 +265,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "877",
+      "views_label": "879",
       "posted_at": "2026-05-31T17:35:20+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113287",
@@ -253,7 +281,7 @@
       "plain_text": "بازماندگی از تحصیل بیش از ۱۵۰۰ دانش‌آموز در استان مرکزی\n\n❗️❗️❗️❗️❗️– مدیرکل بهزیستی استان مرکزی اعلام کرد که ۱۵۹۸ دانش‌آموز در این استان از تحصیل بازمانده‌اند.\n\nادامه مطلب\n\n#دانش‌آموزان\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "828",
+      "views_label": "830",
       "posted_at": "2026-05-31T17:17:30+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113286",
@@ -269,7 +297,7 @@
       "plain_text": "اعتراضات ۱۴۰۴؛ تایید حکم ۱۰ سال حبس مسعود پیاهو در دیوان عالی کشور\n\n❗️❗️❗️❗️❗️– محکومیت حبس مسعود پیاهو، از بازداشت‌شدگان اعتراضات سراسری دی‌ماه ۱۴۰۴، توسط شعبه ۹ دیوان عالی کشور عینا تایید شد. وی پیشتر توسط شعبه ۲۳ دادگاه انقلاب تهران به ۱۰ سال حبس محکوم شده بود.\n\nادامه مطلب\n\n#مسعود_پیاهو\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "875",
+      "views_label": "877",
       "posted_at": "2026-05-31T16:55:15+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113285",
@@ -285,7 +313,7 @@
       "plain_text": "سنندج؛ وریا موید و جمال خداکرمی آزاد شدند\n\n❗️❗️❗️❗️❗️– وریا موید و جمال خداکرمی که در جریان اعتراضات سراسری ۱۴۰۴، در سنندج بازداشت شده بودند، با تودیع وثیقه آزاد شدند.\n\nادامه مطلب\n\n#وریا_موید #جمال_خداکرمی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "893",
+      "views_label": "898",
       "posted_at": "2026-05-31T16:39:43+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113284",
@@ -345,7 +373,7 @@
       "plain_text": "شش شهروند توسط سازمان اطلاعات فراجا بازداشت شدند؛ پخش اعترافات اجباری یکی از آنها\n\n❗️❗️❗️❗️❗️– سازمان اطلاعات فراجا از #بازداشت شش شهروند در یکی از شهرهای جنوبی کشور خبر داد و مدعی شد این افراد در ارتباط با یک شبکه فعال در داخل کشور بازداشت شده‌اند. هم‌زمان ویدئویی از اعترافات اجباری یکی از بازداشت‌شدگان منتشر شده که مشخص نیست در چه شرایطی ضبط شده است.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "982",
+      "views_label": "983",
       "posted_at": "2026-05-31T15:19:12+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113281",
@@ -2205,34 +2233,6 @@
       "posted_at": "2026-05-27T15:15:27+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113198",
-      "reply": null
-    },
-    {
-      "id": "hranews/113197",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DPXcq2DT4Rfz5Ti1k_36jjhxIKwNmiO_uZ3FLqTRZjL_BmpfSIRerR5VyPjHUQZyTiA7eeyLMOMWTvxZldoFSVtc31cV28nHwqa40OR-DtOL8HH5LnSvE0k0aXjePN3RqDK3PzouhTFz9PZsl3-lH9dfCnuu5uDaPY42ugBpBIMushzBce3zcKQzv749FJuxcDMeq4Ehd6KzoXWTy1S5YyUeoWjbjB6mwivULBbID25JaXYSo3DuhEDVAtFHHXv9V70eI_XwHuCZyPaSvOKI68Nls2ZEmD8y1iqG47-dwatlgJk5xhL0B2wkQolWMuhnK0UeyY7iwKPXylO4WZEUDg.jpg",
-      "author_photo_path": "channels/hranews/media/56e41af9ab9c5e8674677660.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "تداوم بازداشت و بلاتکلیفی حسن و حسین امیری در زندان قزلحصار کرج<br><br><tg-emoji emoji-id=\"4936376861581116178\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936234406105842841\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936202185261187827\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933936920725029797\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933769043338331221\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji>– حسن امیری و حسین امیری، برادران دوقلوی ۲۰ ساله، بیش از دو ماه است که بازداشت شده‌اند و کماکان به‌صورت بلاتکلیف در زندان قزلحصار کرج نگهداری می‌شوند.<br><br>به گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، حسن امیری و حسین امیری در بازداشت بسر میبرند.<br><br>بر اساس اطلاعات دریافتی هرانا، این دو برادر دوقلو همزمان با تحولات نظامی در یکی از ایست‌های بازرسی نگه داشته شدند. ماموران حاضر در این ایست بازرسی، تلفن همراه هر دوی آن‌ها را بررسی کردند و پس از مشاهده تصاویری از ساختمان‌های آسیب‌دیده بر اثر حملات موشکی، آن‌ها را بازداشت کردند. اکنون این دو برادر با اتهام جاسوسی مواجه هستند.<br>این دو برادر ۲۰ ساله که از دو سالگی در بهزیستی بزرگ شده‌اند، هم‌اکنون در واحد سه، اندرزگاه ۳۵ (بند تربیت) زندان قزلحصار کرج نگهداری می‌شوند و با گذشت بیش از دو ماه از زمان بازداشت، تاکنون دادگاهی برای آن‌ها تشکیل نشده است.<br><br><a href=\"?q=%23%D8%AD%D8%B3%D9%86_%D8%A7%D9%85%DB%8C%D8%B1%DB%8C\">#حسن_امیری</a> <a href=\"?q=%23%D8%AD%D8%B3%DB%8C%D9%86_%D8%A7%D9%85%DB%8C%D8%B1%DB%8C\">#حسین_امیری</a><br><br><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-c6c764f7/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ادامه مطلب</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "تداوم بازداشت و بلاتکلیفی حسن و حسین امیری در زندان قزلحصار کرج\n\n❗️❗️❗️❗️❗️– حسن امیری و حسین امیری، برادران دوقلوی ۲۰ ساله، بیش از دو ماه است که بازداشت شده‌اند و کماکان به‌صورت بلاتکلیف در زندان قزلحصار کرج نگهداری می‌شوند.\n\nبه گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، حسن امیری و حسین امیری در بازداشت بسر میبرند.\n\nبر اساس اطلاعات دریافتی هرانا، این دو برادر دوقلو همزمان با تحولات نظامی در یکی از ایست‌های بازرسی نگه داشته شدند. ماموران حاضر در این ایست بازرسی، تلفن همراه هر دوی آن‌ها را بررسی کردند و پس از مشاهده تصاویری از ساختمان‌های آسیب‌دیده بر اثر حملات موشکی، آن‌ها را بازداشت کردند. اکنون این دو برادر با اتهام جاسوسی مواجه هستند.\nاین دو برادر ۲۰ ساله که از دو سالگی در بهزیستی بزرگ شده‌اند، هم‌اکنون در واحد سه، اندرزگاه ۳۵ (بند تربیت) زندان قزلحصار کرج نگهداری می‌شوند و با گذشت بیش از دو ماه از زمان بازداشت، تاکنون دادگاهی برای آن‌ها تشکیل نشده است.\n\n#حسن_امیری #حسین_امیری\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/hranews/113197",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/lUKPKNFG-ZmfWBzH2DXkDvzlHSMdcTjJAAkJuXLT4djODIZv3Q0yfLolAJK7QrFq2wtuFDR6YlCBJU406yNBWXK1_VSKKRuz1QTcQxGyCdnb2n9FW9QFBPUuRzCgb_T0Cvd0-p0YcSE5kWWTD0mVbY819e59P8b5I91yN8sMJNDGXyUdVdRg0v4Wqwty3LWQOc1487YsUbs5bXCTn_iyLMuDnBDIjFmqw02D1zQDndtWiuf3ePwAgntPDhRL_y0faz7azb8LxTfEfmhKYxc4ScdmXY_CPDP4LL5i8bM4QqvT9rGu8Mxd_7XaKy_nLBk1WEzuf4jKfROrTnhhkopuAQ.jpg",
-          "thumbnail_path": "channels/hranews/media/ad0f0838e11a0184d546f0d5.jpg",
-          "thumbnail_sha256": "6fdfceb0d82e2d8720359bcc51f6df996bbdd6754d1ccffb5550e977307d36c1",
-          "duration_label": null,
-          "aspect_ratio": 1.5009380863039399
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.17K",
-      "posted_at": "2026-05-27T14:41:48+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/113197",
       "reply": null
     }
   ]
