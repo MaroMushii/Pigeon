@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-01T07:36:41.889Z",
+  "fetched_at": "2026-06-01T07:41:44.457Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -12,39 +12,72 @@
   },
   "posts": [
     {
+      "id": "whitedns/898",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/EnsF3exnqrSYHl7ZZCgVSO5bhVdD66WlDmdOFBMhW968zTVXpFHrbT4rr2Cud8VF_Ko9MpE_blHFGTilJYiGZ7lBavjfPSqyM-A0lq1q6TNl-3_QXc3zhrT6G5p3eDcx3Aw04kwmZCg3HnOyU0MZqb7kUC3fGjByilqaKJaKmgsz1LN5oJdHX6TNh-zK7whc9fE_Ck4FTLn2Rh4zVy--4MpUBo6pzouie87o4FOS2ybWpcI6nRPyGFBzz7EwHa5FDHiptCyygQJks7PTTkPxAkRckE3ASSBHeK5S_l1uHBY-U_pDcjcG2dpP3Psy3-vYMq01BRQSffkGYv3NOG81BQ.jpg",
+      "author_photo_path": "channels/whitedns/media/5b01dfe457f14dd359486086.jpg",
+      "author_photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
+      "body_html": "آموزش استفاده از FLClash <br><br>ممنون از رضا عزیز<br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "آموزش استفاده از FLClash\n\nممنون از رضا عزیز\n\n@WhiteDNS",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/whitedns/898",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/I4uAs2di7znxTdcLmiH4a9X22QMraBP0qYzAquckogKTa7AqaUw1JNNMpvYTnJpNX0ozjCxBsTMXSG5vDeE0BHOtE_Babn7rDlW8mqdDvMB_hsRm-gbvqqXyAW2iCj6IXcy1DnEtJg_obDuG9oz3Oe_36HmiMO0H-66lZxDRPf9mMPLAIEr2QS2sPumNs4bFxOO2EPcaE1cMJWrTKcHCYTQbwXFBdWwhVXq6rEQ_j0aEY7AwofHspA76ojBU39xN4ay2pThhwMmaS9Q50U6tPw0ugOnAM7xOLjwCc6_0JmCjfKK4jlzw9S-7R3bZY4lpsnU4Mx_1AqBdBNHyKpGyRQ",
+          "thumbnail_path": "channels/whitedns/media/99403f0c5d30cbc88e2a143b.jpg",
+          "thumbnail_sha256": "08278ec5f32bd952919b79f6ea88822c85b474a9f73cf08961a7ed9417b465c2",
+          "duration_label": "2:22",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        }
+      ],
+      "views_label": "704",
+      "posted_at": "2026-06-01T07:39:27+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/898",
+      "reply": null
+    },
+    {
       "id": "whitedns/897",
       "author_name": "White DNS",
       "author_photo_url": "https://cdn4.telesco.pe/file/EnsF3exnqrSYHl7ZZCgVSO5bhVdD66WlDmdOFBMhW968zTVXpFHrbT4rr2Cud8VF_Ko9MpE_blHFGTilJYiGZ7lBavjfPSqyM-A0lq1q6TNl-3_QXc3zhrT6G5p3eDcx3Aw04kwmZCg3HnOyU0MZqb7kUC3fGjByilqaKJaKmgsz1LN5oJdHX6TNh-zK7whc9fE_Ck4FTLn2Rh4zVy--4MpUBo6pzouie87o4FOS2ybWpcI6nRPyGFBzz7EwHa5FDHiptCyygQJks7PTTkPxAkRckE3ASSBHeK5S_l1uHBY-U_pDcjcG2dpP3Psy3-vYMq01BRQSffkGYv3NOG81BQ.jpg",
       "author_photo_path": "channels/whitedns/media/5b01dfe457f14dd359486086.jpg",
       "author_photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> برای وارد کردن ساب بای</b>د<b> به یک وی‌پی‌ان  متصل باشید</b>",
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> برای وارد کردن ساب باید به یک وی‌پی‌ان  متصل باشید</b>",
       "plain_text": "⚠️ برای وارد کردن ساب باید به یک وی‌پی‌ان متصل باشید",
       "media": [],
       "reactions": [
         {
           "emoji": "🍓",
-          "count": "20"
+          "count": "26"
         },
         {
           "emoji": "❤",
-          "count": "13"
+          "count": "16"
         },
         {
           "emoji": "🤣",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "😁",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👍",
           "count": "3"
         }
       ],
-      "views_label": "2.95K",
+      "views_label": "3.59K",
       "posted_at": "2026-06-01T07:23:30+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/897",
       "reply": null
     },
@@ -60,11 +93,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "71"
+          "count": "80"
         },
         {
           "emoji": "🙏",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "🤣",
@@ -79,7 +112,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.96K",
+      "views_label": "5.5K",
       "posted_at": "2026-06-01T07:07:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/896",
@@ -118,7 +151,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "137"
+          "count": "147"
         },
         {
           "emoji": "👍",
@@ -141,7 +174,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.45K",
+      "views_label": "6.95K",
       "posted_at": "2026-06-01T07:00:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/893",
@@ -394,7 +427,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "191"
+          "count": "193"
         },
         {
           "emoji": "👍",
@@ -413,7 +446,7 @@
           "count": "3"
         }
       ],
-      "views_label": "26.5K",
+      "views_label": "26.6K",
       "posted_at": "2026-05-31T01:26:12+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/885",
@@ -447,7 +480,7 @@
         },
         {
           "emoji": "❤",
-          "count": "177"
+          "count": "178"
         },
         {
           "emoji": "👍",
@@ -466,7 +499,7 @@
           "count": "1"
         }
       ],
-      "views_label": "64.7K",
+      "views_label": "64.8K",
       "posted_at": "2026-05-30T23:55:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/883",
@@ -499,7 +532,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.8K",
+      "views_label": "19.9K",
       "posted_at": "2026-05-30T23:15:18+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/882",
@@ -537,7 +570,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.8K",
       "posted_at": "2026-05-30T23:00:25+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/881",
@@ -576,7 +609,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "155"
+          "count": "156"
         },
         {
           "emoji": "👍",
@@ -692,8 +725,8 @@
           "asset_url": "https://t.me/whitedns/878",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/PNSkPf-Kfwqdhj3LekKNjMY0yPz9fr1c-5rY0RCb92UBe3VuVnTf2_SgfaeFKTfYZYQGeW6j1ajVtZcW_pTvvjNiPC48HST7KNpLgI1zZt_9_S3CeYmvU-jdLhcB6hAytR9CTMm_bH2YCB_uh1-QGL4XiBne_-ZP192EVBlSaX0ctQOLCsGhITBqgIrqL5WrghZf2I6lN-mW26C3H3Fq78eIPFek-gWS4rIqyakQanyPcpL4JPT73RW1HzpdP10l1IAJWx1z3VBhGptfSIDSwgBbOZXA0sBQmGQVERxlX2VNTM_dsueVzpQ5emzCamaoEsLYz_uoIXNCASgoJrr1gw.jpg",
-          "thumbnail_path": "channels/whitedns/media/8845ffa7efd31160d75be868.jpg",
+          "thumbnail_url": "https://cdn4.telesco.pe/file/B_8Vz7fFahAtscMB4FmeXMeVF3xrtpqQGOb9dEocFdhgP2HPAYJMGGgha9KUfoQmhGbT0q-H4clHnDqsuiczOFfMhUkaJKtl29kJqXNpxaeZcgeg2w7lAoriwSC37FHv0KjCGTQIKDfNoVzbw14xnUk1dtixbZCmP_vcIB6hG8Inb6QI-ru8X04dQWL3gJuHV0v8genDA9-j6bu6Y0campiTbRYxfUXBP6Lhzc0gODqtb8082YCj1GjAnI6CLC9H8-5lE26Qawqo0aZXdCNlqSMfFtuT3qdfNUrOwvwkaE7hwSS_tqsckUVIpQ0gq1YBHAm-Dp8Ga2Zco0DC-uc3FA.jpg",
+          "thumbnail_path": "channels/whitedns/media/d6b2286f9434f302db646fa0.jpg",
           "thumbnail_sha256": "b211a0667c0b534513cec0d685449910cfa36ada336e424d6bad631a63da729b",
           "duration_label": null,
           "aspect_ratio": 1.7777777777777777
@@ -4759,39 +4792,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/whitedns/755"
       }
-    },
-    {
-      "id": "whitedns/755",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/meHZS16YGnb4UVhhcHe7z8K1LusgMf8pqLlzPQwyfT0LhvHltHzBWLFoVypUY0MgcxmDpLtbCf3XqoBmOWZ0MktjC-EVNxiDAyh0z-OyAX69loIumekj_8fPQIJWmtlfp8Pso5igGniQJzCBdMimSRtqP3Q7NXsWZUCJBS9MbLOz6HpmW7yooJwzSMUKXOVJaG4i59MNv4mqLE2Lojv-GQIRQs6W6x_8zzfPJso2rirqlhr0-WrdufpBiIZVrb-Qd65xIk-NhY-kM37fjjrIDbkmlJqQeO8iu2pdi5bASPxGn94USkuYmv--ayFfGGAAtg8eARtlQaApa-OCApNcvQ.jpg",
-      "author_photo_path": "channels/whitedns/media/49b45d26dc63f50fe995623d.jpg",
-      "author_photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
-      "body_html": "سرور جدید WhiteDNS مناسب موبایل و دسکتاپ <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i><br><tg-emoji emoji-id=\"5276032951342088188\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i></tg-emoji><br><br>لطفاً تجربه خودتون را با ما در میان بگذارید <br><br>تشکر <br><br><br><code>stromv.iranmotor.biz</code><br><br><code>da190952ef61ec61fee7597c09c72358</code><br><br><b>Encryption: AES-128-GCM</b><br> <br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>  <tg-emoji emoji-id=\"5465443379917629504\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9493.png')\"><b>🔓</b></i></tg-emoji>",
-      "plain_text": "سرور جدید WhiteDNS مناسب موبایل و دسکتاپ 📱💻\n💥\n\nلطفاً تجربه خودتون را با ما در میان بگذارید\n\nتشکر\n\n\nstromv.iranmotor.biz\n\nda190952ef61ec61fee7597c09c72358\n\nEncryption: AES-128-GCM\n\n@whitedns 🔓",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "96"
-        },
-        {
-          "emoji": "👎",
-          "count": "32"
-        },
-        {
-          "emoji": "👏",
-          "count": "6"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        }
-      ],
-      "views_label": "17.5K",
-      "posted_at": "2026-05-21T12:50:15+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/755",
-      "reply": null
     }
   ]
 }
