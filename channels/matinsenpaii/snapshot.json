@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-02T17:31:30.251Z",
+  "fetched_at": "2026-06-02T17:36:14.456Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,73 @@
     "subscriber_count": "162K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3662",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/dT6ILaS8Y8E2LiQK7g0DObVOMfNgj-Mo5X0jVVqJoJuAEKVDgm6IqV2y0CMawAwTRnoa5-c3sbR8PGWw-YdKg4PwoN0ny179QF7ZbUXR3IG7p13d6VBOfnAYLJ-HtEkmPspHVhxGlc30FN-pcxu-aoerBJkexfYmk9_7xdsiAe0dB2V8SzUZRAXSYkL2MLBpejTUy03ye3QKjfgGtWHKw6Ch2-3HwaRMepZWQWpnNEZMhAM_Ko2uPCvUfsPXavB3OZlvBq7PpSyzOKfFTBXjgNZYr5vLw3oV-nnUy1mMYasJUM-m9z3MQ2xlhe_OkThEGgJb9dDcmoB-He53B2axqw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/06db97b29cceb5cfd5bdd423.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "روزی ۸ بار آسیاتک رو قطع و وصل می‌کنن",
+      "plain_text": "روزی ۸ بار آسیاتک رو قطع و وصل می‌کنن",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "86"
+        },
+        {
+          "emoji": "😁",
+          "count": "22"
+        },
+        {
+          "emoji": "❤",
+          "count": "10"
+        },
+        {
+          "emoji": "😭",
+          "count": "4"
+        }
+      ],
+      "views_label": "3.57K",
+      "posted_at": "2026-06-02T17:32:03+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3662",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3661",
+        "author_name": "iran internet monitor",
+        "preview_text": "Operator: Asiatech/Datacenter Time: 2026-06-02 21:01:30 The status of this service has changed to: ✅ DNS google.com via 1.1.1.1 : 142.251.14.138",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/3661"
+      }
+    },
+    {
+      "id": "MatinSenPaii/3661",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/dT6ILaS8Y8E2LiQK7g0DObVOMfNgj-Mo5X0jVVqJoJuAEKVDgm6IqV2y0CMawAwTRnoa5-c3sbR8PGWw-YdKg4PwoN0ny179QF7ZbUXR3IG7p13d6VBOfnAYLJ-HtEkmPspHVhxGlc30FN-pcxu-aoerBJkexfYmk9_7xdsiAe0dB2V8SzUZRAXSYkL2MLBpejTUy03ye3QKjfgGtWHKw6Ch2-3HwaRMepZWQWpnNEZMhAM_Ko2uPCvUfsPXavB3OZlvBq7PpSyzOKfFTBXjgNZYr5vLw3oV-nnUy1mMYasJUM-m9z3MQ2xlhe_OkThEGgJb9dDcmoB-He53B2axqw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/06db97b29cceb5cfd5bdd423.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "Operator: Asiatech/Datacenter<br>Time: 2026-06-02 21:01:30<br><br>The status of this service has changed to:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> DNS <a href=\"http://google.com/\" target=\"_blank\" rel=\"noopener\">google.com</a> via <a href=\"http://1.1.1.1/\" target=\"_blank\" rel=\"noopener\">1.1.1.1</a> : <a href=\"http://142.251.14.138/\" target=\"_blank\" rel=\"noopener\">142.251.14.138</a>",
+      "plain_text": "Operator: Asiatech/Datacenter\nTime: 2026-06-02 21:01:30\n\nThe status of this service has changed to:\n✅ DNS google.com via 1.1.1.1 : 142.251.14.138",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "7"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "4.16K",
+      "posted_at": "2026-06-02T17:31:53+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3661",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3660",
       "author_name": "Matin SenPai",
@@ -35,11 +102,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "183"
+          "count": "189"
         },
         {
           "emoji": "❤",
-          "count": "15"
+          "count": "17"
         },
         {
           "emoji": "😭",
@@ -50,7 +117,7 @@
           "count": "4"
         }
       ],
-      "views_label": "22.6K",
+      "views_label": "24.2K",
       "posted_at": "2026-06-02T15:34:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3660",
@@ -80,7 +147,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "431"
+          "count": "441"
         },
         {
           "emoji": "👍",
@@ -88,14 +155,14 @@
         },
         {
           "emoji": "😁",
-          "count": "17"
+          "count": "18"
         },
         {
           "emoji": "🔥",
           "count": "14"
         }
       ],
-      "views_label": "29.9K",
+      "views_label": "31K",
       "posted_at": "2026-06-02T14:19:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3659",
@@ -158,7 +225,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "434"
+          "count": "435"
         },
         {
           "emoji": "👍",
@@ -173,7 +240,7 @@
           "count": "5"
         }
       ],
-      "views_label": "45.7K",
+      "views_label": "46.2K",
       "posted_at": "2026-06-02T08:43:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3657",
@@ -195,7 +262,7 @@
         },
         {
           "emoji": "❤",
-          "count": "390"
+          "count": "391"
         },
         {
           "emoji": "💔",
@@ -203,14 +270,14 @@
         },
         {
           "emoji": "👍",
-          "count": "24"
+          "count": "25"
         },
         {
           "emoji": "😨",
           "count": "9"
         }
       ],
-      "views_label": "43.2K",
+      "views_label": "43.6K",
       "posted_at": "2026-06-02T08:24:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3656",
@@ -232,11 +299,11 @@
         },
         {
           "emoji": "😭",
-          "count": "679"
+          "count": "682"
         },
         {
           "emoji": "❤",
-          "count": "140"
+          "count": "143"
         },
         {
           "emoji": "💔",
@@ -247,7 +314,7 @@
           "count": "18"
         }
       ],
-      "views_label": "40.9K",
+      "views_label": "41.3K",
       "posted_at": "2026-06-02T08:08:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3655",
@@ -265,7 +332,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "353"
+          "count": "355"
         },
         {
           "emoji": "😭",
@@ -280,7 +347,7 @@
           "count": "13"
         }
       ],
-      "views_label": "48.6K",
+      "views_label": "48.8K",
       "posted_at": "2026-06-01T21:25:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3654",
@@ -313,7 +380,7 @@
           "count": "9"
         }
       ],
-      "views_label": "50.8K",
+      "views_label": "51K",
       "posted_at": "2026-06-01T20:04:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3653",
@@ -352,7 +419,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "193"
+          "count": "194"
         },
         {
           "emoji": "👍",
@@ -367,7 +434,7 @@
           "count": "9"
         }
       ],
-      "views_label": "51.4K",
+      "views_label": "51.5K",
       "posted_at": "2026-06-01T19:15:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3652",
@@ -400,7 +467,7 @@
           "count": "13"
         }
       ],
-      "views_label": "51.3K",
+      "views_label": "51.4K",
       "posted_at": "2026-06-01T17:02:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3651",
@@ -454,7 +521,7 @@
           "count": "2"
         }
       ],
-      "views_label": "52.6K",
+      "views_label": "52.7K",
       "posted_at": "2026-06-01T15:38:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3650",
@@ -487,7 +554,7 @@
           "count": "3"
         }
       ],
-      "views_label": "48.2K",
+      "views_label": "48.3K",
       "posted_at": "2026-06-01T15:32:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3649",
@@ -529,7 +596,7 @@
           "count": "4"
         }
       ],
-      "views_label": "48.8K",
+      "views_label": "49K",
       "posted_at": "2026-06-01T14:39:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3648",
@@ -594,7 +661,7 @@
           "count": "7"
         }
       ],
-      "views_label": "49.7K",
+      "views_label": "49.8K",
       "posted_at": "2026-06-01T14:17:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3646",
@@ -640,7 +707,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.7K",
       "posted_at": "2026-06-01T14:05:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3645",
@@ -702,7 +769,7 @@
           "count": "5"
         }
       ],
-      "views_label": "47.5K",
+      "views_label": "47.6K",
       "posted_at": "2026-06-01T14:03:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3643",
@@ -751,7 +818,7 @@
           "count": "13"
         }
       ],
-      "views_label": "52.7K",
+      "views_label": "52.9K",
       "posted_at": "2026-06-01T14:02:36+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3642",
@@ -4166,84 +4233,6 @@
       "posted_at": "2026-05-28T17:53:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3534",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3527",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Uan0wCWYimoEGud5_Bm-atjSy0r3UofOMpcIavbqNtaPkIXapq_S2vRPKDxooFNAQsZdxWHgBa3tjprTM-gQVibpFnsR7Hb6NhZUXeLJYuOqiAfLnKlDSV97hUSxDz20id0NTJ8_Jj3P7Ccl5eEybD6iaBOC5y_tE7FTUAVAtFvpmwHTVhOVjSIfYG3I0b3qbwJWu5T8T52ObU8NfUH1Q3m67NkwoXa8IXlKhvfKiuBJnvdBoY1tC_WOhFCTknp2A4G3p-Nl-49X5z057tUc74lzyv7n1K6kZ8pX75G7Am994ShlM7TtdDN4CvBLIDDMTHcd9o95DqdO6ZR8Nvg_iw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/7701ed94a5f26ab88ad5f4e9.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "راهنمای نسخه‌ها:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FAA9F.png')\"><b>🪟</b></i> ویندوز (Windows)<br><code>senpaiscanner-windows-amd64.exe</code><br><b>مناسب برای:</b> سیستم‌های ویندوزی ۶۴ بیتی (بیشتر لپ‌تاپ‌ها و کامپیوترهای امروزی با پردازنده‌های Intel یا AMD).<br><code>senpaiscanner-windows-336.exe</code> (یا همان <code>windows-386.exe</code>)<br><b>مناسب برای:</b> سیستم‌های ویندوزی قدیمی ۳۲ بیتی.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8F.png')\"><b>🍏</b></i> مک‌بوک / اپل (macOS / Darwin)<br><code>senpaiscanner-darwin-arm64</code><br><b>مناسب برای:</b> مک‌بوک‌ها و آی‌مک‌های جدید با تراشه‌های اختصاصی اپل (<b>M1, M2, M3</b> و جدیدتر).<br><code>senpaiscanner-darwin-amd64</code><br><b>مناسب برای:</b> مک‌بوک‌ها و کامپیوترهای قدیمی‌تر اپل که پردازنده <b>Intel</b> دارند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90A7.png')\"><b>🐧</b></i> لینوکس (Linux)<br><code>senpaiscanner-linux-amd64</code><br><b>مناسب برای:</b> توزیع‌های لینوکس ۶۴ بیتی روی کامپیوترها و سرورهای استاندارد (Intel/AMD).<br><code>senpaiscanner-linux-arm64</code><br><b>مناسب برای:</b> مینی‌کامپیوترها (مثل رزبری پای ۴ و ۵)، سرورهای ابری ARM، یا لینوکس‌های نصب‌شده روی مک‌های M1/M2.<br><code>senpaiscanner-linux-386</code><br><b>مناسب برای:</b> سیستم‌ها یا سرورهای بسیار قدیمی لینوکس با ساختار ۳۲ بیتی.<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "راهنمای نسخه‌ها:\n\n🪟 ویندوز (Windows)\nsenpaiscanner-windows-amd64.exe\nمناسب برای: سیستم‌های ویندوزی ۶۴ بیتی (بیشتر لپ‌تاپ‌ها و کامپیوترهای امروزی با پردازنده‌های Intel یا AMD).\nsenpaiscanner-windows-336.exe (یا همان windows-386.exe)\nمناسب برای: سیستم‌های ویندوزی قدیمی ۳۲ بیتی.\n🍏 مک‌بوک / اپل (macOS / Darwin)\nsenpaiscanner-darwin-arm64\nمناسب برای: مک‌بوک‌ها و آی‌مک‌های جدید با تراشه‌های اختصاصی اپل (M1, M2, M3 و جدیدتر).\nsenpaiscanner-darwin-amd64\nمناسب برای: مک‌بوک‌ها و کامپیوترهای قدیمی‌تر اپل که پردازنده Intel دارند.\n🐧 لینوکس (Linux)\nsenpaiscanner-linux-amd64\nمناسب برای: توزیع‌های لینوکس ۶۴ بیتی روی کامپیوترها و سرورهای استاندارد (Intel/AMD).\nsenpaiscanner-linux-arm64\nمناسب برای: مینی‌کامپیوترها (مثل رزبری پای ۴ و ۵)، سرورهای ابری ARM، یا لینوکس‌های نصب‌شده روی مک‌های M1/M2.\nsenpaiscanner-linux-386\nمناسب برای: سیستم‌ها یا سرورهای بسیار قدیمی لینوکس با ساختار ۳۲ بیتی.\n\n✉️ t.me/MatinSenPaii",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "500"
-        },
-        {
-          "emoji": "🔥",
-          "count": "22"
-        },
-        {
-          "emoji": "👍",
-          "count": "16"
-        },
-        {
-          "emoji": "😭",
-          "count": "3"
-        }
-      ],
-      "views_label": "49.6K",
-      "posted_at": "2026-05-28T17:50:42+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3527",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3526",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Uan0wCWYimoEGud5_Bm-atjSy0r3UofOMpcIavbqNtaPkIXapq_S2vRPKDxooFNAQsZdxWHgBa3tjprTM-gQVibpFnsR7Hb6NhZUXeLJYuOqiAfLnKlDSV97hUSxDz20id0NTJ8_Jj3P7Ccl5eEybD6iaBOC5y_tE7FTUAVAtFvpmwHTVhOVjSIfYG3I0b3qbwJWu5T8T52ObU8NfUH1Q3m67NkwoXa8IXlKhvfKiuBJnvdBoY1tC_WOhFCTknp2A4G3p-Nl-49X5z057tUc74lzyv7n1K6kZ8pX75G7Am994ShlM7TtdDN4CvBLIDDMTHcd9o95DqdO6ZR8Nvg_iw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/7701ed94a5f26ab88ad5f4e9.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<tg-emoji emoji-id=\"5447246917744478110\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E298A0.png')\"><b>☠️</b></i></tg-emoji> پروژه‌ی <b>SenPai Scanner</b> — اسکنر IPهای Cloudflare <br><br><b>چی کار می‌کنه؟</b>  <br>از شبکه‌ات چند هزار IP از محدوده‌های رسمی Cloudflare رو تست می‌کنه، سریع‌ترین و سالم‌ترین‌ها رو پیدا می‌کنه تا توی کانفیگ V2Ray / Xray / Trojan بذاری.<br><br><b>چطور اجرا می‌شه؟</b>  <br>فقط فایل مخصوص سیستم عاملت رو دانلود کن و اجرا کن.<br><br><b>۴ حالت اصلی:</b><br><br><tg-emoji emoji-id=\"6005676598475364749\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i></tg-emoji> <b>Quick Scan</b> — سریع: تعداد IP، تعداد worker و timeout رو انتخاب می‌کنی و اسکن شروع می‌شه (پیش‌فرض: حالت HTTP + تست واقعی داده)<br><br><tg-emoji emoji-id=\"6005676598475364749\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i></tg-emoji> <b>Custom Scan</b> — کامل: تعداد IP، پورت، محدوده CIDR، فیلتر دیتاسنتر (مثل FRA)، حالت tcp/tls/http، خروجی CSV/JSON/TXT<br><br><tg-emoji emoji-id=\"6005676598475364749\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i></tg-emoji> <b>Test IPs</b> — لیست IPهای خودت رو از فایل <code>ips.txt</code> عمیق‌تر تست می‌کنه<br><br><tg-emoji emoji-id=\"6005676598475364749\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i></tg-emoji> <b>Discover Colos</b> — می‌فهمی از شبکه‌ات به کدوم دیتاسنترهای Cloudflare دسترسی داری<br><br><b>چی اندازه می‌گیره؟</b><br>- تأخیر (latency) و jitter  <br>- درصد packet loss  <br>- در حالت HTTP: تأیید Cloudflare + شناسایی colo (مثل FRA، AMS)  <br>- یک نمونه دانلود کوچک — تا گول IPی که «وصل می‌شه ولی داده نمی‌ده» رو نخوریم<br><br><b>نکته مهم:</b>  <br>این یه ابزار<b> پروکسی نیست</b> — فقط IPهای خوب رو پیدا می‌کنه. تست نهایی هنوز با همون کانفیگ واقعی‌ات روی Xray/V2Ray هست.<br><br>---<br><br><tg-emoji emoji-id=\"5226989999689318156\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E84.png')\"><b>🎄</b></i></tg-emoji><b>پلتفرم‌ها:</b> Linux · macOS · Windows  <br><br><tg-emoji emoji-id=\"5271604874419647061\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji>لینک پروژه: <a href=\"https://github.com/MatinSenPai/SenPaiScanner\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/SenPaiScanner</a><br><br>دانلود فایل‌ها از گیتهاب: <a href=\"https://github.com/MatinSenPai/SenPaiScanner/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/SenPaiScanner/releases</a><br><br>دانلود فایلها از تلگرام: <a href=\"https://t.me/MatinSenPaii/3526\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3526</a>",
-      "plain_text": "☠️ پروژه‌ی SenPai Scanner — اسکنر IPهای Cloudflare\n\nچی کار می‌کنه؟\nاز شبکه‌ات چند هزار IP از محدوده‌های رسمی Cloudflare رو تست می‌کنه، سریع‌ترین و سالم‌ترین‌ها رو پیدا می‌کنه تا توی کانفیگ V2Ray / Xray / Trojan بذاری.\n\nچطور اجرا می‌شه؟\nفقط فایل مخصوص سیستم عاملت رو دانلود کن و اجرا کن.\n\n۴ حالت اصلی:\n\n⚙️ Quick Scan — سریع: تعداد IP، تعداد worker و timeout رو انتخاب می‌کنی و اسکن شروع می‌شه (پیش‌فرض: حالت HTTP + تست واقعی داده)\n\n⚙️ Custom Scan — کامل: تعداد IP، پورت، محدوده CIDR، فیلتر دیتاسنتر (مثل FRA)، حالت tcp/tls/http، خروجی CSV/JSON/TXT\n\n⚙️ Test IPs — لیست IPهای خودت رو از فایل ips.txt عمیق‌تر تست می‌کنه\n\n⚙️ Discover Colos — می‌فهمی از شبکه‌ات به کدوم دیتاسنترهای Cloudflare دسترسی داری\n\nچی اندازه می‌گیره؟\n- تأخیر (latency) و jitter\n- درصد packet loss\n- در حالت HTTP: تأیید Cloudflare + شناسایی colo (مثل FRA، AMS)\n- یک نمونه دانلود کوچک — تا گول IPی که «وصل می‌شه ولی داده نمی‌ده» رو نخوریم\n\nنکته مهم:\nاین یه ابزار پروکسی نیست — فقط IPهای خوب رو پیدا می‌کنه. تست نهایی هنوز با همون کانفیگ واقعی‌ات روی Xray/V2Ray هست.\n\n---\n\n🎄پلتفرم‌ها: Linux · macOS · Windows\n\n🔗لینک پروژه: https://github.com/MatinSenPai/SenPaiScanner\n\nدانلود فایل‌ها از گیتهاب: https://github.com/MatinSenPai/SenPaiScanner/releases\n\nدانلود فایلها از تلگرام: https://t.me/MatinSenPaii/3526",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3526",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/er0bpPhpvRvF8B_yfDDq-t_Ys3_kJRLueAZwfFXfEUSSMUJ2ACBWwOIb26WvdMlfIMzOS07oR9ie9wFMy4Qnx1yALjGO7wlDAVAAJJ4Zm1jrCY8TEXRJTv2aSsNOlc9i9z-SikGmUuKoOBqcaSN1vbrGZR2-n7lBj4pnJwNezBKQ4NHNIrpjCNahulsCPgTDdKScoVKElqxW4otv82SFfsINtsUhRKSh0BZoNgBP2lzGfbHxPBtEVHKYd7La_vekHzbrK5dXh0zq1yThLkYNicADsvzwTx4qvM4TU0j1HDP-M04E4R1BoScLfSQqOusJmpp0UJNJmkWVo-OG13XS0w.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/fadc0230990f1374fa1f63b8.jpg",
-          "thumbnail_sha256": "faf8359ff65ed47c285f0a9ef63aa44f3abd29dbc8400ead0150e2658a03c975",
-          "duration_label": null,
-          "aspect_ratio": 1.3245283018868013
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "548"
-        },
-        {
-          "emoji": "🔥",
-          "count": "26"
-        },
-        {
-          "emoji": "👍",
-          "count": "18"
-        },
-        {
-          "emoji": "🎃",
-          "count": "10"
-        }
-      ],
-      "views_label": "45.2K",
-      "posted_at": "2026-05-28T17:47:58+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3526",
       "reply": null
     }
   ]
