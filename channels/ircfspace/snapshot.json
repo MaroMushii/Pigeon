@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-04T19:21:04.782Z",
+  "fetched_at": "2026-06-04T19:26:12.360Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,39 @@
     "subscriber_count": "98.4K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2418",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/TXO-kFKfUkAwpU93b8T23raWizXVZxVP1rJtomYMLCZ16OnnTQYCy_fe2RxlIpbI4sf7CHc2iDAKIuZtszOMa7Is3C9BmA4qwB7s-6l4qdktvQnQOdoALwQWHoSWqsSQp36Zrdn4fI0kVRG5sj_vdZOvwkLF6qccAzhevBfFJhiqZTLaz7lZ7Ann32AClDCpingbsdwugq6jgxxRHtaPwWiuPaZaXDKY3VI9RKO2Pcr46WUgqVlnle2pnfbw-Wul1RYohngsbJ3_xpKTz-tweS2F4hQE3l3h4TXhWZ19HiKoHLPGdjabgJy2vypD1-gFZ3Lby6l6vlligL3DbSAYjA.jpg",
+      "author_photo_path": "channels/ircfspace/media/3aa66c5ba0ec426cef7db71b.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "محققان امنیت سایبری یک آسیب‌پذیری در Visual Studio Code کشف کرده‌اند که به مهاجمان امکان می‌دهد توکن احراز هویت گیت‌هاب (GitHub OAuth token) کاربران را به سرقت ببرند. تنها با کلیک روی یک لینک، مهاجم می‌تواند توکنی را بدزدد که دسترسی کامل به تمام مخازن کد کاربر، از جمله مخازن خصوصی، را فراهم می‌کند. این آسیب‌پذیری از طریق سوءاستفاده از مکانیزم انتقال پیام میان پنجره اصلی VS Code و نماهای وب عمل می‌کند و به مهاجم اجازه می‌دهد افزونه‌های مخرب نصب کرده و توکن OAuth ارسال‌شده به سرویس <code>GitHub.dev</code> را استخراج نماید.<br><br>این حمله همچنین از قابلیتی به نام «افزونه‌های محلی فضای کاری» در VS Code بهره می‌برد که نصب افزونه را بدون نمایش هیچ هشدار اعتماد اضافی ممکن می‌سازد و بدین ترتیب بررسی اعتماد ناشر را دور می‌زند. گفتنی است این آسیب‌پذیری در دوم ژوئن ۲۰۲۶ به گیت‌هاب گزارش شد و تنها یک ساعت پس از آن جزئیاتش به‌صورت عمومی منتشر گردید. مایکروسافت این آسیب‌پذیری را تأیید کرده و اعلام نموده در حال توسعه یک وصله امنیتی (fix) است، همچنین تصریح کرد که این مشکل نسخه دسکتاپ VS Code را تحت تأثیر قرار نمی‌دهد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> Teeegra<br><br><a href=\"https://pbs.twimg.com/media/HJ-t4YNWcAE-zHD?format=png&amp;amp;name=360x360\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></a> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "محققان امنیت سایبری یک آسیب‌پذیری در Visual Studio Code کشف کرده‌اند که به مهاجمان امکان می‌دهد توکن احراز هویت گیت‌هاب (GitHub OAuth token) کاربران را به سرقت ببرند. تنها با کلیک روی یک لینک، مهاجم می‌تواند توکنی را بدزدد که دسترسی کامل به تمام مخازن کد کاربر، از جمله مخازن خصوصی، را فراهم می‌کند. این آسیب‌پذیری از طریق سوءاستفاده از مکانیزم انتقال پیام میان پنجره اصلی VS Code و نماهای وب عمل می‌کند و به مهاجم اجازه می‌دهد افزونه‌های مخرب نصب کرده و توکن OAuth ارسال‌شده به سرویس GitHub.dev را استخراج نماید.\n\nاین حمله همچنین از قابلیتی به نام «افزونه‌های محلی فضای کاری» در VS Code بهره می‌برد که نصب افزونه را بدون نمایش هیچ هشدار اعتماد اضافی ممکن می‌سازد و بدین ترتیب بررسی اعتماد ناشر را دور می‌زند. گفتنی است این آسیب‌پذیری در دوم ژوئن ۲۰۲۶ به گیت‌هاب گزارش شد و تنها یک ساعت پس از آن جزئیاتش به‌صورت عمومی منتشر گردید. مایکروسافت این آسیب‌پذیری را تأیید کرده و اعلام نموده در حال توسعه یک وصله امنیتی (fix) است، همچنین تصریح کرد که این مشکل نسخه دسکتاپ VS Code را تحت تأثیر قرار نمی‌دهد.\n\n© Teeegra\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "10"
+        },
+        {
+          "emoji": "😱",
+          "count": "5"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.57K",
+      "posted_at": "2026-06-04T19:22:42+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2418",
+      "reply": null
+    },
     {
       "id": "ircfspace/2417",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -54,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "16.2K",
       "posted_at": "2026-06-04T04:51:18+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2417",
@@ -72,7 +105,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "549"
+          "count": "550"
         },
         {
           "emoji": "🤬",
@@ -115,7 +148,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.9K",
+      "views_label": "25.1K",
       "posted_at": "2026-06-03T04:45:35+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2416",
@@ -176,7 +209,7 @@
           "count": "1"
         }
       ],
-      "views_label": "36.1K",
+      "views_label": "36.2K",
       "posted_at": "2026-06-02T04:47:41+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2415",
@@ -221,7 +254,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30K",
+      "views_label": "30.2K",
       "posted_at": "2026-06-02T04:37:33+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2414",
@@ -282,7 +315,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27K",
+      "views_label": "27.1K",
       "posted_at": "2026-06-02T04:23:17+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2413",
@@ -368,7 +401,7 @@
           "count": "1"
         }
       ],
-      "views_label": "85K",
+      "views_label": "85.1K",
       "posted_at": "2026-06-02T04:09:55+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2411",
@@ -463,7 +496,7 @@
         },
         {
           "emoji": "😁",
-          "count": "91"
+          "count": "92"
         },
         {
           "emoji": "🤡",
@@ -502,7 +535,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.8K",
+      "views_label": "32.9K",
       "posted_at": "2026-05-31T15:59:24+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2409",
@@ -555,7 +588,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.5K",
+      "views_label": "30.6K",
       "posted_at": "2026-05-31T08:55:59+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2408",
@@ -645,7 +678,7 @@
           "count": "20"
         }
       ],
-      "views_label": "28.6K",
+      "views_label": "29K",
       "posted_at": "2026-05-31T08:31:11+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2406",
@@ -679,7 +712,7 @@
         },
         {
           "emoji": "😁",
-          "count": "860"
+          "count": "861"
         },
         {
           "emoji": "🤡",
@@ -722,7 +755,7 @@
           "count": "1"
         }
       ],
-      "views_label": "39.7K",
+      "views_label": "39.8K",
       "posted_at": "2026-05-31T07:01:56+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2405",
@@ -828,7 +861,7 @@
           "count": "1"
         }
       ],
-      "views_label": "39.6K",
+      "views_label": "39.7K",
       "posted_at": "2026-05-30T16:07:38+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2403",
@@ -1048,7 +1081,7 @@
           "count": "1"
         }
       ],
-      "views_label": "45.6K",
+      "views_label": "45.7K",
       "posted_at": "2026-05-29T07:23:48+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2399",
@@ -5377,57 +5410,6 @@
       "posted_at": "2026-05-12T05:16:10+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2314",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc"
-    },
-    {
-      "id": "ircfspace/2312",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/XI5Y2sjaKL13BreaJtNrdGy3ua9KegB8lE54AWIVOmgj33mhRRTDWYsrdYlW4mXq59qNbpIzzKeo4MBL5jS5aKMkJhjeUEHMrYZJyXVe6SKJ1ONIOZ3gmNDs_QLp5pCu9f88lNUG71AJuF6i7TuyR9Bs0CtjOCyvmbeZcg6MHD1HSkEuaComxlUa8Hn7JBeCq5RpXcCp3Frkrej8_aMl3HSw9kWZDgmZREWf7Pz4HkYac-nRPF2LCvJmq25Uo9_TsnlacHPKR-FPnm_74sJ6wpC18ZOTzToudAzKC_OpjlZNLRyQalY9l0P9LYK_oJ60Og_pHLVS1vIV-acjEetkwQ.jpg",
-      "author_photo_path": "channels/ircfspace/media/7a939a0a751ddb3639a54d43.jpg",
-      "body_html": "اسکریپت AIO Downloader یه ابزار متن‌باز و کاربردی برای دانلود فایل و محتوا از سرویس‌هایی مثل یوتیوب، گیت‌هاب، اینستاگرام، ایکس، تلگرام، گوگل‌پلی، تیک‌تاک، پینترست، ساندکلود و ... هست، که فرایند دانلود رو از طریق GitHub Actions انجام میده.<br>این ابزار طوری طراحی شده که در شرایط محدودیت شدید اینترنت و وایت‌لیست فعلی بتونه بسیاری از فایل‌ها و لینک‌ها رو دریافت کنه، بدون اینکه نیاز باشه سیستم یا سرور شخصی برای دانلود داشته باشین.<br><br>با توجه به اینکه این پروژه به GitHub Actions متکیه، بهتره برای استفاده ازش از اکانت اصلی گیت‌هاب استفاده نکنین و ترجیحاً یک اکانت جداگانه بسازین.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/ProAlit/aio-downloader\" target=\"_blank\" rel=\"noopener\">github.com/ProAlit/aio-downloader</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "اسکریپت AIO Downloader یه ابزار متن‌باز و کاربردی برای دانلود فایل و محتوا از سرویس‌هایی مثل یوتیوب، گیت‌هاب، اینستاگرام، ایکس، تلگرام، گوگل‌پلی، تیک‌تاک، پینترست، ساندکلود و ... هست، که فرایند دانلود رو از طریق GitHub Actions انجام میده. این ابزار طوری طراحی شده که در شرایط محدودیت شدید اینترنت و وایت‌لیست فعلی بتونه بسیاری از فایل‌ها و لینک‌ها رو دریافت کنه، بدون اینکه نیاز باشه سیستم یا سرور شخصی برای دانلود داشته باشین. با توجه به اینکه این پروژه به GitHub Actions متکیه، بهتره برای استفاده ازش از اکانت اصلی گیت‌هاب استفاده نکنین و ترجیحاً یک اکانت جداگانه بسازین. 👉 github.com/ProAlit/aio-downloader 🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ @ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2312",
-          "asset_path": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/TAnJanLRwSEiSSfxg-1vfc3fuox235EnoW8D7O_oPpvfHzww7u7ohVAE2lsxmtkt7rQRV00KG-oQ9a6FEcdtddVzAEpfodtlfmkhVe1r3U7lStIk7exiBWYP1mg6rBON2wJbyGBUwYDSk476jt9KIQCYTlAHBw5oIFli7VseEX3sJAcdMrZeGMWVxUgS6b_H_XggEfNuHFDbdkwDHXiq8kR62Es8TphOiq-VwbGBu3sabpFacCLYssDXlCp_fEVMLFqH_AaRcaWeodQvb0WpP2NeakQrtwNsLhDmXsdA-nK_cUi6QMhEJeZaArdUd86ao_uyi45ZuTkFTCP1uJeH_A.jpg",
-          "thumbnail_path": "channels/ircfspace/media/f2f8f0586dae728f299a01eb.jpg",
-          "duration_label": null,
-          "aspect_ratio": 2,
-          "thumbnail_sha256": "defc3ff87416e916bccfb681098494faf47d0ffdf75cfdcfa3a4463f70c40bbb"
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "107"
-        },
-        {
-          "emoji": "❤",
-          "count": "24"
-        },
-        {
-          "emoji": "🗿",
-          "count": "5"
-        },
-        {
-          "emoji": "⚡",
-          "count": "1"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        }
-      ],
-      "views_label": "21.5K",
-      "posted_at": "2026-05-12T05:07:01+00:00",
-      "edited": false,
-      "permalink": "https://t.me/ircfspace/2312",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc"
     }
   ]
