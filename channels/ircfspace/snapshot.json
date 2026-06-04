@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-04T20:06:14.713Z",
+  "fetched_at": "2026-06-04T20:11:04.850Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -35,11 +35,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "39"
+          "count": "44"
         },
         {
           "emoji": "👎",
-          "count": "13"
+          "count": "14"
         },
         {
           "emoji": "👍",
@@ -50,7 +50,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.21K",
+      "views_label": "5.81K",
       "posted_at": "2026-06-04T19:40:15+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2421",
@@ -68,7 +68,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "96"
+          "count": "103"
         },
         {
           "emoji": "😁",
@@ -80,14 +80,14 @@
         },
         {
           "emoji": "😐",
-          "count": "1"
+          "count": "2"
         },
         {
           "emoji": "🗿",
-          "count": "1"
+          "count": "2"
         }
       ],
-      "views_label": "6.81K",
+      "views_label": "7.41K",
       "posted_at": "2026-06-04T19:32:28+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2420",
@@ -105,22 +105,22 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "196"
+          "count": "211"
         },
         {
           "emoji": "😁",
-          "count": "18"
+          "count": "19"
         },
         {
           "emoji": "❤",
           "count": "9"
         },
         {
-          "emoji": "😱",
-          "count": "3"
+          "emoji": "🥴",
+          "count": "4"
         },
         {
-          "emoji": "🥴",
+          "emoji": "😱",
           "count": "3"
         },
         {
@@ -132,7 +132,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.55K",
+      "views_label": "8.09K",
       "posted_at": "2026-06-04T19:29:04+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2419",
@@ -144,13 +144,13 @@
       "author_photo_url": "https://cdn1.telesco.pe/file/TXO-kFKfUkAwpU93b8T23raWizXVZxVP1rJtomYMLCZ16OnnTQYCy_fe2RxlIpbI4sf7CHc2iDAKIuZtszOMa7Is3C9BmA4qwB7s-6l4qdktvQnQOdoALwQWHoSWqsSQp36Zrdn4fI0kVRG5sj_vdZOvwkLF6qccAzhevBfFJhiqZTLaz7lZ7Ann32AClDCpingbsdwugq6jgxxRHtaPwWiuPaZaXDKY3VI9RKO2Pcr46WUgqVlnle2pnfbw-Wul1RYohngsbJ3_xpKTz-tweS2F4hQE3l3h4TXhWZ19HiKoHLPGdjabgJy2vypD1-gFZ3Lby6l6vlligL3DbSAYjA.jpg",
       "author_photo_path": "channels/ircfspace/media/3aa66c5ba0ec426cef7db71b.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "محققان امنیت سایبری یک آسیب‌پذیری در Visual Studio Code کشف کرده‌اند که به مهاجمان امکان می‌دهد توکن احراز هویت گیت‌هاب (GitHub OAuth token) کاربران را به سرقت ببرند. تنها با کلیک روی یک لینک، مهاجم می‌تواند توکنی را بدزدد که دسترسی کامل به تمام مخازن کد کاربر، از جمله مخازن خصوصی، را فراهم می‌کند. این آسیب‌پذیری از طریق سوءاستفاده از مکانیزم انتقال پیام میان پنجره اصلی VS Code و نماهای وب عمل می‌کند و به مهاجم اجازه می‌دهد افزونه‌های مخرب نصب کرده و توکن OAuth ارسال‌شده به سرویس <code>GitHub.dev</code> را استخراج نماید.<br><br>این حمله همچنین از قابلیتی به نام «افزونه‌های محلی فضای کاری» در VS Code بهره می‌برد که نصب افزونه را بدون نمایش هیچ هشدار اعتماد اضافی ممکن می‌سازد و بدین ترتیب بررسی اعتماد ناشر را دور می‌زند. گفتنی است این آسیب‌پذیری در دوم ژوئن ۲۰۲۶ به گیت‌هاب گزارش شد و تنها یک ساعت پس از آن جزئیاتش به‌صورت عمومی منتشر گردید. مایکروسافت این آسیب‌پذیری را تأیید کرده و اعلام نموده در حال توسعه یک وصله امنیتی (fix) است، همچنین تصریح کرد که این مشکل نسخه دسکتاپ VS Code را تحت تأثیر قرار نمی‌دهد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> Teeegra<br><br><a href=\"https://pbs.twimg.com/media/HJ-t4YNWcAE-zHD?format=png&amp;amp;name=360x360\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></a> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "body_html": "محققان امنیت سایبری یک آسیب‌پذیری در Visual Studio Code کشف کرده‌اند که به مهاجمان امکان می‌دهد توکن احراز هویت گیت‌هاب (GitHub OAuth token) کاربران را به سرقت ببرند. تنها با کلیک روی یک لینک، مهاجم می‌تواند توکنی را بدزدد که دسترسی کامل به تمام مخازن کد کاربر، از جمله مخازن خصوصی، را فراهم می‌کند. این آسیب‌پذیری از طریق سوءاستفاده از مکانیزم انتقال پیام میان پنجره اصلی VS Code و نماهای وب عمل می‌کند و به مهاجم اجازه می‌دهد افزونه‌های مخرب نصب کرده و توکن OAuth ارسال‌شده به سرویس <code>GitHub.dev</code> را استخراج نماید.<br><br>این حمله همچنین از قابلیتی به نام «افزونه‌های محلی فضای کاری» در VS Code بهره می‌برد که نصب افزونه را بدون نمایش هیچ هشدار اعتماد اضافی ممکن می‌سازد و بدین ترتیب بررسی اعتماد ناشر را دور می‌زند. گفتنی است این آسیب‌پذیری در دوم ژوئن ۲۰۲۶ به گیت‌هاب گزارش شد و تنها یک ساعت پس از آن جزئیاتش به‌صورت عمومی منتشر گردید. مایکروسافت این آسیب‌پذیری را تأیید کرده و اعلام نموده در حال توسعه یک وصله امنیتی (fix) است، همچنین تصریح کرد که این مشکل نسخه دسکتاپ VS Code را تحت تأثیر قرار نمی‌دهد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> Teeegra<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "محققان امنیت سایبری یک آسیب‌پذیری در Visual Studio Code کشف کرده‌اند که به مهاجمان امکان می‌دهد توکن احراز هویت گیت‌هاب (GitHub OAuth token) کاربران را به سرقت ببرند. تنها با کلیک روی یک لینک، مهاجم می‌تواند توکنی را بدزدد که دسترسی کامل به تمام مخازن کد کاربر، از جمله مخازن خصوصی، را فراهم می‌کند. این آسیب‌پذیری از طریق سوءاستفاده از مکانیزم انتقال پیام میان پنجره اصلی VS Code و نماهای وب عمل می‌کند و به مهاجم اجازه می‌دهد افزونه‌های مخرب نصب کرده و توکن OAuth ارسال‌شده به سرویس GitHub.dev را استخراج نماید.\n\nاین حمله همچنین از قابلیتی به نام «افزونه‌های محلی فضای کاری» در VS Code بهره می‌برد که نصب افزونه را بدون نمایش هیچ هشدار اعتماد اضافی ممکن می‌سازد و بدین ترتیب بررسی اعتماد ناشر را دور می‌زند. گفتنی است این آسیب‌پذیری در دوم ژوئن ۲۰۲۶ به گیت‌هاب گزارش شد و تنها یک ساعت پس از آن جزئیاتش به‌صورت عمومی منتشر گردید. مایکروسافت این آسیب‌پذیری را تأیید کرده و اعلام نموده در حال توسعه یک وصله امنیتی (fix) است، همچنین تصریح کرد که این مشکل نسخه دسکتاپ VS Code را تحت تأثیر قرار نمی‌دهد.\n\n© Teeegra\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
       "media": [],
       "reactions": [
         {
           "emoji": "❤",
-          "count": "30"
+          "count": "33"
         },
         {
           "emoji": "😱",
@@ -158,7 +158,7 @@
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "🔥",
@@ -169,7 +169,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.17K",
+      "views_label": "8.67K",
       "posted_at": "2026-06-04T19:22:42+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2418",
@@ -218,7 +218,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.1K",
+      "views_label": "19.3K",
       "posted_at": "2026-06-04T04:51:18+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2417",
@@ -236,7 +236,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "555"
+          "count": "556"
         },
         {
           "emoji": "🤬",
@@ -256,7 +256,7 @@
         },
         {
           "emoji": "🎉",
-          "count": "13"
+          "count": "14"
         },
         {
           "emoji": "❤",
@@ -279,7 +279,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.8K",
+      "views_label": "27K",
       "posted_at": "2026-06-03T04:45:35+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2416",
@@ -340,7 +340,7 @@
           "count": "1"
         }
       ],
-      "views_label": "37.2K",
+      "views_label": "37.3K",
       "posted_at": "2026-06-02T04:47:41+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2415",
@@ -385,7 +385,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.8K",
+      "views_label": "30.9K",
       "posted_at": "2026-06-02T04:37:33+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2414",
@@ -479,7 +479,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.6K",
+      "views_label": "26.7K",
       "posted_at": "2026-06-02T04:14:17+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2412",
@@ -509,7 +509,7 @@
         },
         {
           "emoji": "🤬",
-          "count": "71"
+          "count": "72"
         },
         {
           "emoji": "👍",
@@ -666,7 +666,7 @@
           "count": "1"
         }
       ],
-      "views_label": "33.8K",
+      "views_label": "33.9K",
       "posted_at": "2026-05-31T15:59:24+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2409",
@@ -768,7 +768,7 @@
           "count": "4"
         }
       ],
-      "views_label": "31.7K",
+      "views_label": "31.8K",
       "posted_at": "2026-05-31T08:45:27+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2407",
@@ -809,7 +809,7 @@
           "count": "20"
         }
       ],
-      "views_label": "31.1K",
+      "views_label": "31.3K",
       "posted_at": "2026-05-31T08:31:11+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2406",
@@ -943,7 +943,7 @@
           "count": "1"
         }
       ],
-      "views_label": "39.5K",
+      "views_label": "39.6K",
       "posted_at": "2026-05-30T16:10:57+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2404",
