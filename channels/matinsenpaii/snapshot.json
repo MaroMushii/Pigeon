@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-05T15:15:56.649Z",
+  "fetched_at": "2026-06-05T15:21:06.282Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,36 @@
     "subscriber_count": "162K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3708",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/kimjLMwXKMNgKLWaWAKVl6-3a6n64DIJ9PLAu4JyqAAPiNUqB2--G7IkaS2TaLdWdmkBK9dY_EORMfR1H9qExYEcCePWQe7hqt6ool5j7n2dYtXHz9r3fwrOICczvqpg5dE7UictEBle9h5VVEwlqdhLXT6ICE5LDwZvC1sDilt51fg0CsNKacKzdPXJb3_09Sp9PERacvALucasyU7GULcMDnmmv_MghXpOfggJECSjmXk-PCrp67p4g-vlszFmVBeT66u2YYm1MDNgQKyabDnPgxOlFsAxwF_4sq1r1LLI4soYobEuFExuKwjk-V_D9dL02DVbO7gxIKpeNZBhkQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/824a0e4e0ba8c18b861ecef6.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "اگر به مشکل خوردید:<br><br>1- نسخه کلاینت sing-box باید ۱٫۱۲٫۰ یا بالاتر باشه.<br><br>2- کلاینت‌های Xray باید به آخرین نسخه به‌روزرسانی بشن، به طور مثال v2rayNG، v2rayN و Streisand.<br><br>3- برای اتصال صحیح، باید قابلیت Hev TUN رو توی v2rayNG فعال کنید. Tun بومی Xray در حال حاضر بی‌فایده‌ست.<br><br>4- اگر از نسخه‌های پایین‌تر از ۳٫۵٫۱ به نسخه ۴ ارتقا می‌دید، باید دوباره لینک ساب رو از پنل دریافت کنید.<br><br>5- این روزها Fragment روی برخی اپراتورها توی ایران کار نمی‌کنه. می‌تونید تنظیمات Fragment packet رو از tlshello به 1-1 تغییر بدید و تست کنید. همچنین می‌تونید حالت Fragment رو روی حالت «bypass Iran firewall» بذارید و امتحان کنید.",
+      "plain_text": "اگر به مشکل خوردید:\n\n1- نسخه کلاینت sing-box باید ۱٫۱۲٫۰ یا بالاتر باشه.\n\n2- کلاینت‌های Xray باید به آخرین نسخه به‌روزرسانی بشن، به طور مثال v2rayNG، v2rayN و Streisand.\n\n3- برای اتصال صحیح، باید قابلیت Hev TUN رو توی v2rayNG فعال کنید. Tun بومی Xray در حال حاضر بی‌فایده‌ست.\n\n4- اگر از نسخه‌های پایین‌تر از ۳٫۵٫۱ به نسخه ۴ ارتقا می‌دید، باید دوباره لینک ساب رو از پنل دریافت کنید.\n\n5- این روزها Fragment روی برخی اپراتورها توی ایران کار نمی‌کنه. می‌تونید تنظیمات Fragment packet رو از tlshello به 1-1 تغییر بدید و تست کنید. همچنین می‌تونید حالت Fragment رو روی حالت «bypass Iran firewall» بذارید و امتحان کنید.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "9"
+        }
+      ],
+      "views_label": "376",
+      "posted_at": "2026-06-05T15:20:32+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3708",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3706",
+        "author_name": "Matin SenPai",
+        "preview_text": "ورژن جدید 4.2.0 BPB رو تست کنید بچه‌ها. سازنده‌ی عزیز روی مشکل Undefined کار کرد و درستش کرد. همینطور بخش Compatibility date رو نیازی نیست دست بزنید دیگه https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/tag/v4.2.0",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/3706"
+      }
+    },
     {
       "id": "MatinSenPaii/3707",
       "author_name": "Matin SenPai",
@@ -39,7 +69,7 @@
         },
         {
           "emoji": "❤",
-          "count": "360"
+          "count": "364"
         },
         {
           "emoji": "👍",
@@ -47,14 +77,14 @@
         },
         {
           "emoji": "🔥",
-          "count": "16"
+          "count": "17"
         },
         {
           "emoji": "👎",
           "count": "13"
         }
       ],
-      "views_label": "22K",
+      "views_label": "22.2K",
       "posted_at": "2026-06-05T12:07:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3707",
@@ -76,7 +106,7 @@
         },
         {
           "emoji": "❤",
-          "count": "369"
+          "count": "373"
         },
         {
           "emoji": "🔥",
@@ -91,7 +121,7 @@
           "count": "8"
         }
       ],
-      "views_label": "28.7K",
+      "views_label": "28.9K",
       "posted_at": "2026-06-05T10:46:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3706",
@@ -125,7 +155,7 @@
         },
         {
           "emoji": "👍",
-          "count": "209"
+          "count": "211"
         },
         {
           "emoji": "❤",
@@ -140,7 +170,7 @@
           "count": "3"
         }
       ],
-      "views_label": "35K",
+      "views_label": "35.2K",
       "posted_at": "2026-06-05T08:24:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3705",
@@ -313,7 +343,7 @@
           "count": "1"
         }
       ],
-      "views_label": "39K",
+      "views_label": "39.1K",
       "posted_at": "2026-06-04T17:01:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3700",
@@ -462,7 +492,7 @@
           "count": "5"
         }
       ],
-      "views_label": "45.5K",
+      "views_label": "45.6K",
       "posted_at": "2026-06-04T16:28:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3696",
@@ -4151,39 +4181,6 @@
       "posted_at": "2026-05-30T13:41:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3594",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3593",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DVl6JgTUMrFCax2-z4Eij6PNo8sjbYz51XNXn63PcGQNzESOKt_Pq4ejZjZ9FMo3qIDcJ1m_FI4QwpG0h8h7nRmKjiecHfAkP-c-wWeRqYl7sCHQ0yeQrKuDfV9tEvzCz-bKoUVPmmcytcM8p8G3WPkBKTmqzAkgNtxeS94Ai5rn3rnr1NfGAtdwSU36Y3_7a9JCwRO8tlmSDSaq90cn9E8jpNCvSyYIJMyB1wDpeG9ovNnzX8M1D7MlZIoSU29fR9AbIw69GPOnFsiLb7OB1cy21cJ5U60dMR7kz5eN4Ut8dndwVEqYVuWfEvK1iKMcTcl1k2YFzIz59r_gY5XfFA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/267b236aadbfa61ed0a2a065.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "این تبلیغ مزخرف رو اگر این زیر می‌بینید ریپورتش کنید<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9891.png')\"><b>😑</b></i>",
-      "plain_text": "این تبلیغ مزخرف رو اگر این زیر می‌بینید ریپورتش کنید😑",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "411"
-        },
-        {
-          "emoji": "😁",
-          "count": "160"
-        },
-        {
-          "emoji": "❤",
-          "count": "38"
-        },
-        {
-          "emoji": "🔥",
-          "count": "9"
-        }
-      ],
-      "views_label": "26.1K",
-      "posted_at": "2026-05-30T13:37:29+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3593",
       "reply": null
     }
   ]
