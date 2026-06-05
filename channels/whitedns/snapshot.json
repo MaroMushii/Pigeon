@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-05T16:21:00.254Z",
+  "fetched_at": "2026-06-05T16:26:02.807Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "105K"
   },
   "posts": [
+    {
+      "id": "whitedns/934",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/AIUT3Qxb9MAyhEwDihlDeDV7GOl9x5lpmnERD2OTpvpWu92MSY6VswKDuUWMiEKdKxlTIOoU1opOTl2imwhM8pAZdXWnpiaui7U2Jhc3LrMKW2kEVQIPjqiJOq18byqlTLBAKQ7zdLSGXo6hi8GFl67sTGsy8ZjwBbekwzBzIY4T-j7yWMTKHsVZFFgesU0f305Blz8rY-7c-6m9jqMyToQYCfArPo_nP8KeeFd5Iajxi4o1Qj1dQUFPS74RmyW7GRnCmni30RtJhUFDMg0CH0kR0PKebobFSxHmVcV42f8rdmLpuR41dgIKUeDDJFQiLMsA35I8mcJYUNs_P78vhw.jpg",
+      "author_photo_path": "channels/whitedns/media/8de51611d9ed8e70c29d9a6e.jpg",
+      "author_photo_sha256": "b0bce9dee26815d7fb963a1a9f9ac03530618fb5424e99a56e84ac647ad84643",
+      "body_html": "سرویس WhiteDNS  برای ساده‌تر کردن راه‌اندازی و مدیریت سرورهای شخصی،  با نام  WhiteDNS Wizard آماده شده است.<br><br>هدف WhiteDNS این است که کاربران بتوانند بدون نیاز به دانش فنی درباره تنظیمات سرور، DNS، اینباندها، اوتباندها، گواهی‌ها و پنل‌های مدیریتی، سرور خود را به صورت خودکار و یکپارچه آماده استفاده کنند.<br><br>با این ابزار کافی است اطلاعات اولیه مثل دامنه، سرور و دسترسی Cloudflare را وارد کنید. WhiteDNS به صورت خودکار رکوردهای DNS را تنظیم می‌کند، ساختار مورد نیاز روی سرور را آماده می‌کند، اینباندها و اوتباندهای لازم را می‌سازد، گواهی‌های مورد نیاز را مدیریت می‌کند و در پایان لینک‌های اتصال آماده را در اختیار شما قرار می‌دهد.<br><br>تمام مراحل به شکلی طراحی شده‌اند که کاربر نیازی به درگیر شدن با جزئیات پیچیده کانفیگ سرور نداشته باشد. هدف ما این است که راه‌اندازی یک سرور شخصی، از مرحله اتصال دامنه تا دریافت کانفیگ‌های نهایی، تا حد ممکن ساده، سریع و قابل فهم شود.<br><br>WhiteDNS برای کسانی ساخته شده که می‌خواهند کنترل سرور خودشان را داشته باشند، اما نمی‌خواهند زمان زیادی صرف یادگیری تنظیمات فنی، خطاهای رایج، مدیریت DNS یا ساخت دستی کانفیگ‌ها کنند.<br><br>این پروژه قدمی دیگر در مسیر ما برای آسان‌تر کردن دسترسی به ابزارهای کاربردی، مستقل و قابل مدیریت برای کاربران است.<br><br><a href=\"https://github.com/iampedii/WhiteDNS-Wizard/releases/tag/v1.0.0\" target=\"_blank\" rel=\"noopener\">https://github.com/iampedii/WhiteDNS-Wizard/releases/tag/v1.0.0</a>",
+      "plain_text": "سرویس WhiteDNS برای ساده‌تر کردن راه‌اندازی و مدیریت سرورهای شخصی، با نام WhiteDNS Wizard آماده شده است.\n\nهدف WhiteDNS این است که کاربران بتوانند بدون نیاز به دانش فنی درباره تنظیمات سرور، DNS، اینباندها، اوتباندها، گواهی‌ها و پنل‌های مدیریتی، سرور خود را به صورت خودکار و یکپارچه آماده استفاده کنند.\n\nبا این ابزار کافی است اطلاعات اولیه مثل دامنه، سرور و دسترسی Cloudflare را وارد کنید. WhiteDNS به صورت خودکار رکوردهای DNS را تنظیم می‌کند، ساختار مورد نیاز روی سرور را آماده می‌کند، اینباندها و اوتباندهای لازم را می‌سازد، گواهی‌های مورد نیاز را مدیریت می‌کند و در پایان لینک‌های اتصال آماده را در اختیار شما قرار می‌دهد.\n\nتمام مراحل به شکلی طراحی شده‌اند که کاربر نیازی به درگیر شدن با جزئیات پیچیده کانفیگ سرور نداشته باشد. هدف ما این است که راه‌اندازی یک سرور شخصی، از مرحله اتصال دامنه تا دریافت کانفیگ‌های نهایی، تا حد ممکن ساده، سریع و قابل فهم شود.\n\nWhiteDNS برای کسانی ساخته شده که می‌خواهند کنترل سرور خودشان را داشته باشند، اما نمی‌خواهند زمان زیادی صرف یادگیری تنظیمات فنی، خطاهای رایج، مدیریت DNS یا ساخت دستی کانفیگ‌ها کنند.\n\nاین پروژه قدمی دیگر در مسیر ما برای آسان‌تر کردن دسترسی به ابزارهای کاربردی، مستقل و قابل مدیریت برای کاربران است.\n\nhttps://github.com/iampedii/WhiteDNS-Wizard/releases/tag/v1.0.0",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/934",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/gM37Q8EFaxQ941_k5ixvt7mG_QdAJ48ypXA3VCwoBQOzgvLBHizmv5txu6pe_7Ef3jxAxlFVKh3Up1YNstQrcKGPfMcXp2sgUVY3MgbHZ5IkHF913vB6-gQ6wQWVMfrzBzzLSSKk-stjON3EN568rXAyjJB9ofCX1UMYta3qvSDwCY-gY5Mxe9v6NoRpW5OsjaIy4DCRISsTINQwlMwzdB-gzr-Vdr25mHZltudhWck6283WaORfUqemTWD2dSQ35cHx69e000NW_ntp282YnoBLdp9ORK03iHH6tSrIONd6FHzF6AusFI5X7JrhhNg7QDPZ0_1_jD9mLNgKmBxn3g.jpg",
+          "thumbnail_path": "channels/whitedns/media/139db27acbab19979341a7eb.jpg",
+          "thumbnail_sha256": "caf75d233ffeffdb47acff4bad508645a00f47df6e2f3faa8dbfbfe5eba91ef5",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "19"
+        },
+        {
+          "emoji": "🤡",
+          "count": "1"
+        }
+      ],
+      "views_label": "677",
+      "posted_at": "2026-06-05T16:24:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/934",
+      "reply": null
+    },
     {
       "id": "whitedns/933",
       "author_name": "White DNS",
@@ -27,7 +64,11 @@
         },
         {
           "emoji": "❤",
-          "count": "150"
+          "count": "162"
+        },
+        {
+          "emoji": "🤡",
+          "count": "4"
         },
         {
           "emoji": "👍",
@@ -42,10 +83,6 @@
           "count": "2"
         },
         {
-          "emoji": "🤡",
-          "count": "2"
-        },
-        {
           "emoji": "🖕",
           "count": "1"
         },
@@ -54,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.37K",
+      "views_label": "6.82K",
       "posted_at": "2026-06-05T15:14:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/933",
@@ -76,7 +113,7 @@
         },
         {
           "emoji": "❤",
-          "count": "615"
+          "count": "620"
         },
         {
           "emoji": "👍",
@@ -107,7 +144,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.5K",
+      "views_label": "14.7K",
       "posted_at": "2026-06-05T10:31:17+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/932",
@@ -129,7 +166,7 @@
         },
         {
           "emoji": "❤",
-          "count": "611"
+          "count": "612"
         },
         {
           "emoji": "👍",
@@ -172,7 +209,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.3K",
+      "views_label": "28.4K",
       "posted_at": "2026-06-04T02:24:09+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/931",
@@ -419,7 +456,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "297"
+          "count": "298"
         },
         {
           "emoji": "👌",
@@ -532,7 +569,7 @@
           "count": "2"
         }
       ],
-      "views_label": "31.6K",
+      "views_label": "31.7K",
       "posted_at": "2026-06-02T14:27:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/923",
@@ -642,7 +679,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.2K",
+      "views_label": "11.3K",
       "posted_at": "2026-06-02T12:26:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/920",
@@ -723,7 +760,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.7K",
+      "views_label": "28.9K",
       "posted_at": "2026-06-02T07:36:34+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/916",
@@ -756,7 +793,7 @@
           "count": "1"
         }
       ],
-      "views_label": "65.6K",
+      "views_label": "65.7K",
       "posted_at": "2026-06-02T06:48:13+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/915",
@@ -879,7 +916,7 @@
           "count": "2"
         }
       ],
-      "views_label": "31.5K",
+      "views_label": "31.6K",
       "posted_at": "2026-06-01T23:12:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/910",
@@ -4921,63 +4958,6 @@
       "posted_at": "2026-05-24T08:45:59+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/788",
-      "reply": null
-    },
-    {
-      "id": "whitedns/787",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/o6jWTmeaYBohZo9fGuxmbaXnOR2I8mdqfZVGImEnSO0gLDTVn8iv0IZ4TwnFxfdG6AkrY0HSXEhItdkNeX0-H72ECjQPF_myqm3XvIL2a_FrO32Ri--Bh_L0xsdQdgH6dliA19iiDrfdwj8thxamCVO3ZnM0Ap8yQTzkhU4PnQz7igxb7LK-tpCdCDj0oeJBrthGNscrveZLzqcfTqAI0yGu0QmBMGRjJSeHrgbWpnRcqvPbIUYWlngem55xMr9yp0cJjJiYSHpczNe8PMkAYr2X93lYMPUifLLqhHpZbvBgPzzaxCtURT2ztlFlWBjNwbYZxGV4WQbEQloAYLwTpA.jpg",
-      "author_photo_path": "channels/whitedns/media/04d9bf96c79925bee1e29bfd.jpg",
-      "author_photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
-      "body_html": "سلام خدمت همه همراهان عزیز<br><br>ویدیو آموزش ساخت سرور شخصی که متین عزیز تهیه کردند دقیق همه مسایل رو ‌توضیح‌ میده. <br><br>تنها‌ نکته‌ای که باید اشاره کنم، متین از ترمینال برای وارد کردن دستورات و نصب MasterDNS استفاده کرده. <br><br><b>من پیشنهاد میکنم برای راحتی کار شما، بعد از خرید دامنه و اتصال DNS از ربات </b><a href=\"https://t.me/WhiteDNS_installer_bot\" target=\"_blank\"><b>@WhiteDNS_installer_bot</b></a><b> استفاده کنید. </b><br><br>اگر از این‌ ربات استفاده کنید، فقط با پروکسی کردن تلگرام‌ میتونید سرور خودتون رو مدیریت کنید و در شرایط بحرانی فقط از طریق تلگرام همه چیز رو مدیریت بکنید.<br><br><b><br></b>ممنون<br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "سلام خدمت همه همراهان عزیز\n\nویدیو آموزش ساخت سرور شخصی که متین عزیز تهیه کردند دقیق همه مسایل رو ‌توضیح‌ میده.\n\nتنها‌ نکته‌ای که باید اشاره کنم، متین از ترمینال برای وارد کردن دستورات و نصب MasterDNS استفاده کرده.\n\nمن پیشنهاد میکنم برای راحتی کار شما، بعد از خرید دامنه و اتصال DNS از ربات @WhiteDNS_installer_bot استفاده کنید.\n\nاگر از این‌ ربات استفاده کنید، فقط با پروکسی کردن تلگرام‌ میتونید سرور خودتون رو مدیریت کنید و در شرایط بحرانی فقط از طریق تلگرام همه چیز رو مدیریت بکنید.\n\n\nممنون\n@WhiteDNS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "253"
-        },
-        {
-          "emoji": "❤",
-          "count": "67"
-        },
-        {
-          "emoji": "🤡",
-          "count": "28"
-        },
-        {
-          "emoji": "👍",
-          "count": "18"
-        },
-        {
-          "emoji": "👎",
-          "count": "9"
-        },
-        {
-          "emoji": "🥰",
-          "count": "1"
-        },
-        {
-          "emoji": "🤔",
-          "count": "1"
-        },
-        {
-          "emoji": "🤣",
-          "count": "1"
-        },
-        {
-          "emoji": "💅",
-          "count": "1"
-        }
-      ],
-      "views_label": "88.5K",
-      "posted_at": "2026-05-24T02:25:08+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/787",
       "reply": null
     }
   ]
