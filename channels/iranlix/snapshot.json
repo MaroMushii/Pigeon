@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-07T12:46:02.427Z",
+  "fetched_at": "2026-06-07T12:51:12.069Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,45 @@
     "subscriber_count": "16K"
   },
   "posts": [
+    {
+      "id": "iranlix/7398",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/mNUGOxasgsSla0MZZZXmFOuSavGlyo3dXpJi7IyEpNogewXEQ-d_u-W4QUlOGzPUtrkmFPcS-eKs2AK8isT6kVXwlgPh5wUNFye_DMlPAvCZETEzjRigytlgPeb3RCiRGXxO-rptMg7KoQ_LeLrt0cM9zbUIAFHP_RS_t2hFqramcAQVGiWr3kgM6UGzmtqsUrJ5Rr0WMabqFKiCAEXFil6JYhpVDmSwhwy428HPZWPo6EPp_TP56GvZfAYsEEPJ_D8IHywVYl9c-gmA3F_m6y0ArBVsJTkBOjcaHHRzvaM4XvRQ4jQ5jZdaCN5rZDObkQ-JEgROzQNDXiEGJ-R95w.jpg",
+      "author_photo_path": "channels/iranlix/media/282ba3853b544233194a2af2.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>وزیر امنیت اسرائیل:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>نیروی هوایی به اتاق عملیات در ضاحیه جنوبی بیروت حمله کرد</b>.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a></div>",
+      "plain_text": "🔻وزیر امنیت اسرائیل:\n\n🔹نیروی هوایی به اتاق عملیات در ضاحیه جنوبی بیروت حمله کرد.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/7398?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/L6H4LFIxSeAb4qYDVuxo0bnsispHcpjLhzDEy8Es6A-prjekIARRNKxuejVD-PS4H-4dakuZGXFncftpSbaY-PmsFcVq13Mj6EKuxne1Ts9_yVOj-qm5NqN68q3AK1BvkG3de790d2VUZQnXgWjmS8JUzy8bwfqHELcipCehYxZOYqGNtqX1x8qJWt7_5O9a5YkHQdmJllFRUOtcnnb_CYOqHjFrmOc1fA8m-0bRkJYG1QsHgoDO12kH-_9GPVuxML28haVItt1osdbVNwOw5EKs-LtT4uLqYM_WN1vfZ3HdgyIeSo69rLwRNd68NBI7pudqP0MUNf6Edo31HH6NfA",
+          "thumbnail_path": "channels/iranlix/media/e5a5b33aad108ee051e590ba.jpg",
+          "thumbnail_sha256": "bc7257ee1e9951108f702d167a92d59158c3d65aaf9af0e30275f235bccdc6e3",
+          "duration_label": "0:02",
+          "aspect_ratio": null
+        },
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/7399?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/RsS_AvYx3auCvN3qNg22gLrOLkXwwyprWFfPYTi6FWi95AV4je7lzwUYr_NE_YcmC3ekMC8RtQpxn9-oAS_sydPdh7ubrJm_lTLyG_8Jy8r4m923oDiXsU_egFizoCWcltZxDliF8j2ceFLyUxKAJDxOt8fVYHPY2VgsNM8SZPp7RyxF0alIF-GAyQnFnSOGDAc6W7-6gnxj05AWomSWldiL8PmajT8FAq-OUOJQfu4DDSkzppkpPMObTjkKsPMiPTTl-I_0fjqpsjaT6fsehbxmYNm9o9uJikCHsougxD2T_ImYbF9YXKL3gpRFBNhoqjEJJpPNRoD14swBH0lvRg",
+          "thumbnail_path": "channels/iranlix/media/05d7edcec0be619a6900b291.jpg",
+          "thumbnail_sha256": "d3b7353e38eb05b5ba5a1e7234dd074ea541e8d5447b53bac2b58679024db831",
+          "duration_label": "0:05",
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [],
+      "views_label": "65",
+      "posted_at": "2026-06-07T12:46:33+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/7398",
+      "reply": null
+    },
     {
       "id": "iranlix/7396",
       "author_name": "ایرانلیکس",
@@ -71,7 +110,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "116",
+      "views_label": "179",
       "posted_at": "2026-06-07T12:37:08+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7393",
@@ -99,7 +138,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "216",
+      "views_label": "248",
       "posted_at": "2026-06-07T12:26:54+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7392",
@@ -138,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "223",
+      "views_label": "256",
       "posted_at": "2026-06-07T12:24:48+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7390",
@@ -166,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "283",
+      "views_label": "316",
       "posted_at": "2026-06-07T12:12:49+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7389",
@@ -194,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "406",
+      "views_label": "409",
       "posted_at": "2026-06-07T11:55:51+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7388",
@@ -222,7 +261,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "525",
+      "views_label": "528",
       "posted_at": "2026-06-07T11:30:44+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7387",
@@ -250,7 +289,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "559",
+      "views_label": "562",
       "posted_at": "2026-06-07T11:27:17+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7386",
@@ -278,7 +317,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "670",
+      "views_label": "703",
       "posted_at": "2026-06-07T10:52:25+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7385",
@@ -306,7 +345,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "701",
+      "views_label": "734",
       "posted_at": "2026-06-07T10:32:02+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7383",
@@ -334,7 +373,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "875",
+      "views_label": "877",
       "posted_at": "2026-06-07T09:29:34+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7382",
@@ -362,7 +401,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "876",
+      "views_label": "877",
       "posted_at": "2026-06-07T09:11:44+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7381",
@@ -390,7 +429,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "802",
+      "views_label": "804",
       "posted_at": "2026-06-07T09:11:12+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7380",
@@ -418,7 +457,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "829",
+      "views_label": "831",
       "posted_at": "2026-06-07T09:01:27+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7379",
@@ -446,7 +485,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "829",
+      "views_label": "830",
       "posted_at": "2026-06-07T08:57:01+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7378",
@@ -502,7 +541,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "872",
+      "views_label": "904",
       "posted_at": "2026-06-07T08:32:21+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7376",
@@ -2911,34 +2950,6 @@
       "posted_at": "2026-06-05T17:34:36+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7282",
-      "reply": null
-    },
-    {
-      "id": "iranlix/7280",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/rqdvSQnb6HXTBofx3-KXhC97uhRSIrPFvnMuP4ybpLE_omQomqPmJ9FYqzGt3xjL1xtMib71CdX5ud-N61yvtDzcFuvnbgki1eqmLGC8BPmkaU1GFtM8FzANYsZ_Em8ZowhvSBJmJF-5So5vIFVC6EaNi7hb75z6bOzExGXk0dq0itePadJEiV2r9jBmvHYvh6JSPM4Te8M9rSL7zg6VfgT1J5UL1eXog9jhP25Sk-PH_06SsJ9CLsN2xFlC2kPzuWt2xurhkJvEu0847lWUfgz9AeuLcA5QcYyu6aSb2RoWH4y-b0U2fsKBqaYgiO90rrENAP6faYGNuPf_I-uqzQ.jpg",
-      "author_photo_path": "channels/iranlix/media/ddd4e5d05349074b7049d375.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>نواف سلام نخست‌وزیر لبنان:<br><br></b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A6.png')\"><b>♦️</b></i><b>ما موفق شدیم به توافق آتش‌بس برسیم، اما متعجب شدیم که سپاه پاسداران اولین مخالف آن بود</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "🔻نواف سلام نخست‌وزیر لبنان:\n\n♦️ما موفق شدیم به توافق آتش‌بس برسیم، اما متعجب شدیم که سپاه پاسداران اولین مخالف آن بود\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/7280",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/UszdAJlPNKaLhZNKG03bGtqpzqPJWO9BrxfRpdboy_GpxZI_OFhigeydrxoS7A6e6jQLgl7UiicFubNQUlKuns2I2Ry2hDrNShUr70PW8vKnxUmILwe67yQQUxcEXbVYfnYm5tUnSI8C6GBWb7fuTNMQcYwamKGfXTFk_KzbQye1E1QH57MSgiMa_jdpRXZJrLCeVeJCQxjH_TAHMh4aAuMzzcvRW6kmPBQctVRID866RPZyWaInHA-74W0otvQgpgwJG9sLJEpCe6dYUz6ljDaYgtIIQ3VVBNP3ALA4sZrqQYUwcOUvrAZy18hrD3JA_JZd7JZgCtegGtTWRcT8zQ.jpg",
-          "thumbnail_path": "channels/iranlix/media/132701b418e49b5e25abdfa9.jpg",
-          "thumbnail_sha256": "929e53df6e6be7f1590afe7cc2146df83bc06f28cb04ad31b87f62df0cb3f2d6",
-          "duration_label": null,
-          "aspect_ratio": 1.1950113378684861
-        }
-      ],
-      "reactions": [],
-      "views_label": "962",
-      "posted_at": "2026-06-05T17:21:56+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/7280",
       "reply": null
     }
   ]
