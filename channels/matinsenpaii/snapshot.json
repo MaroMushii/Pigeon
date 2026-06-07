@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-07T18:02:14.686Z",
+  "fetched_at": "2026-06-07T18:06:02.910Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,27 @@
     "subscriber_count": "162K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3742",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/CC0Es9mOcTdID3vbw_jJQE5XTutyZPOKkOfQhp3bT_CdjdX8yHx9aK_BftRil6P2HFhZVlrfW5SWx_P7nhrZA8U5QAjYN5SknJ0GLKePZgpdiGSLNcXnHo39zLOJY6FV-h3AXSHaNRjP1_5zwoTq_8gUErLru7LA-FPEDRs2ZxLFJrsl5f6AZiYbjWTWkakQFVDUPRdL-x9Ttc5xnksDHFkBlSiYrcgZedimatF87mmZ0bjqL662JKICE-2Xkr97-Z-gSIDC_ZF5ffCPJ68Pc5iZxr6kSfY4d41RnC5vS27GVLFGyxmkHg2igDR8NV41WAGZypGFpI2NK1h_wu0dpw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a875575613969c2ab7d782f7.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>تغییرات WhiteDNS Wizard v1.1.0</b><br><br>- خطای ACME و DNS بهتر تشخیص داده می‌شود.<br>- قبل از ساخت SSL، برنامه چک می‌کند دامنه واقعا روی Cloudflare فعال و درست تنظیم شده باشد.<br>- پیام‌های خطا واضح‌تر شده‌اند و کاربر بهتر می‌فهمد مشکل از توکن، دامنه یا DNS است.<br>- آموزش دسترسی‌های Cloudflare در README کامل‌تر شده.<br>- Reality XHTTP با Reality TCP Vision جایگزین شد.<br>- Reality حالا از <code>xtls-rprx-vision</code> استفاده می‌کند.<br>- انتخاب SNI برای Reality امن‌تر و پایدارتر شده.<br>- مسیر نصب روی سرور از <code>/opt</code> به <code>/var/lib/whitedns</code> منتقل شد تا روی VPSهای بیشتری بدون مشکل کار کند.<br>- مشکل ساخت فایل Docker Compose روی بعضی سرورها رفع شد.<br>- نصب Docker Compose Plugin روی سیستم‌عامل‌های مختلف بهتر شده.<br>- بیلدهای GitHub Release سریع‌تر شده‌اند و به صورت موازی ساخته می‌شوند.<br>- چند مشکل مربوط به مسیر فایل‌ها، ریستور، تست‌ها و آپلود فایل‌ها رفع شد.<br><br><br><a href=\"https://github.com/iampedii/WhiteDNS-Wizard/releases/tag/v1.1.0\" target=\"_blank\" rel=\"noopener\">https://github.com/iampedii/WhiteDNS-Wizard/releases/tag/v1.1.0</a>",
+      "plain_text": "تغییرات WhiteDNS Wizard v1.1.0\n\n- خطای ACME و DNS بهتر تشخیص داده می‌شود.\n- قبل از ساخت SSL، برنامه چک می‌کند دامنه واقعا روی Cloudflare فعال و درست تنظیم شده باشد.\n- پیام‌های خطا واضح‌تر شده‌اند و کاربر بهتر می‌فهمد مشکل از توکن، دامنه یا DNS است.\n- آموزش دسترسی‌های Cloudflare در README کامل‌تر شده.\n- Reality XHTTP با Reality TCP Vision جایگزین شد.\n- Reality حالا از xtls-rprx-vision استفاده می‌کند.\n- انتخاب SNI برای Reality امن‌تر و پایدارتر شده.\n- مسیر نصب روی سرور از /opt به /var/lib/whitedns منتقل شد تا روی VPSهای بیشتری بدون مشکل کار کند.\n- مشکل ساخت فایل Docker Compose روی بعضی سرورها رفع شد.\n- نصب Docker Compose Plugin روی سیستم‌عامل‌های مختلف بهتر شده.\n- بیلدهای GitHub Release سریع‌تر شده‌اند و به صورت موازی ساخته می‌شوند.\n- چند مشکل مربوط به مسیر فایل‌ها، ریستور، تست‌ها و آپلود فایل‌ها رفع شد.\n\n\nhttps://github.com/iampedii/WhiteDNS-Wizard/releases/tag/v1.1.0",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "5"
+        }
+      ],
+      "views_label": "1.44K",
+      "posted_at": "2026-06-07T18:03:54+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3742",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3741",
       "author_name": "Matin SenPai",
@@ -23,11 +44,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "421"
+          "count": "431"
         },
         {
           "emoji": "❤",
-          "count": "50"
+          "count": "51"
         },
         {
           "emoji": "👎",
@@ -38,7 +59,7 @@
           "count": "11"
         }
       ],
-      "views_label": "18.8K",
+      "views_label": "19.6K",
       "posted_at": "2026-06-07T16:32:36+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3741",
@@ -56,7 +77,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "448"
+          "count": "449"
         },
         {
           "emoji": "👍",
@@ -71,7 +92,7 @@
           "count": "5"
         }
       ],
-      "views_label": "28.2K",
+      "views_label": "28.6K",
       "posted_at": "2026-06-07T14:13:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3740",
@@ -102,7 +123,7 @@
         },
         {
           "emoji": "❤",
-          "count": "52"
+          "count": "53"
         },
         {
           "emoji": "👎",
@@ -113,7 +134,7 @@
           "count": "14"
         }
       ],
-      "views_label": "35.1K",
+      "views_label": "35.4K",
       "posted_at": "2026-06-07T11:40:18+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3739",
@@ -131,7 +152,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "397"
+          "count": "398"
         },
         {
           "emoji": "👍",
@@ -146,7 +167,7 @@
           "count": "3"
         }
       ],
-      "views_label": "37.1K",
+      "views_label": "37.2K",
       "posted_at": "2026-06-07T07:49:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3738",
@@ -176,7 +197,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "489"
+          "count": "491"
         },
         {
           "emoji": "🔥",
@@ -191,7 +212,7 @@
           "count": "15"
         }
       ],
-      "views_label": "38.6K",
+      "views_label": "38.7K",
       "posted_at": "2026-06-07T04:47:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3737",
@@ -209,7 +230,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "229"
+          "count": "230"
         },
         {
           "emoji": "👍",
@@ -224,7 +245,7 @@
           "count": "2"
         }
       ],
-      "views_label": "40.6K",
+      "views_label": "40.7K",
       "posted_at": "2026-06-06T22:02:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3736",
@@ -255,7 +276,7 @@
         },
         {
           "emoji": "❤",
-          "count": "263"
+          "count": "264"
         },
         {
           "emoji": "👎",
@@ -270,7 +291,7 @@
           "count": "4"
         }
       ],
-      "views_label": "35.1K",
+      "views_label": "35.2K",
       "posted_at": "2026-06-06T22:02:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3735",
@@ -301,7 +322,7 @@
         },
         {
           "emoji": "❤",
-          "count": "308"
+          "count": "309"
         },
         {
           "emoji": "👍",
@@ -316,7 +337,7 @@
           "count": "3"
         }
       ],
-      "views_label": "42.5K",
+      "views_label": "42.6K",
       "posted_at": "2026-06-06T21:25:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3734",
@@ -522,7 +543,7 @@
           "count": "17"
         }
       ],
-      "views_label": "47.5K",
+      "views_label": "47.6K",
       "posted_at": "2026-06-06T09:14:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3729",
@@ -4115,56 +4136,6 @@
         "thumbnail_path": null,
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/3613"
-      }
-    },
-    {
-      "id": "MatinSenPaii/3630",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/gnKh-KvUElndqeEQ4W07Mm-i79XeRrWG_UXb9GRT7SgLBZlUArXF4SrcAFxa7XzbH0P_5h0ZGhAEC6Hg9Ew1t9d3NMPfHg-udZN5KamM6Wv55NPcxO4q_0XOx4E4e-XxKJy9Q-RUOk110CV19GF9PjOmIMe1gDn77TP1IGzirmJzsNPoLKeiU61ymqJm_78ymIp01vem49QB1OJRfbC7EuOClZxr9KKTwjRqOn0NH11w5sh0qktNSAf_z0ZKDQd3wXPyZAtOb_x68dwm7exFKsKg3tcc4BOi5Oqy29DYzXy2SOmCVcvvipg8km4FA_Z1rtFbFBWVmq2mz2jx3eYCpw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/cbc07baca148434c0401c054.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "اوتباند paqet<br>اما گول سرعتش رو نخورید. برای استفاده‌ی شخصی خوبه<br>مصرفش 4-5 برابره<br>که با گذاشتن مود اتصال روی normal به جای fast در هر دو سمت کلاینت و سرور، به 2-3 برابر کاهش پیدا می‌کنه(اینها مربوط به ویدئوی paqet هستش اگر متوجه نمیشید اشکالی نداره طبیعتا)",
-      "plain_text": "اوتباند paqet\nاما گول سرعتش رو نخورید. برای استفاده‌ی شخصی خوبه\nمصرفش 4-5 برابره\nکه با گذاشتن مود اتصال روی normal به جای fast در هر دو سمت کلاینت و سرور، به 2-3 برابر کاهش پیدا می‌کنه(اینها مربوط به ویدئوی paqet هستش اگر متوجه نمیشید اشکالی نداره طبیعتا)",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3630",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/IWnuGZYf3gu2NB5LrF9JBzDCuLefj8ZpV40nB0z0kikX3tOOy6P1rKrLVHCKDNK8Wc5ESNuhcCBD2cvybVsOCBEQqzG8GTQYOW3vqpFoT4FtYf2BCnswdnJlHBnQBMrJOLkBXXNx4u1xc9HoBSsBVj7nLjdw2-y82LyhtbFjtu2hUASS1gMu94UXlDV8wjR3g-pxBBI3nurd1rmP3wSlYmjH_c0RREONnGEnIG4n88stMu7OoOC2md-MMamNFNlbHbz4yQjY9X-RMEPu2hWyw_J5vaTGYTCWX9Nq6IMkuBzKi2u5CTluRH7v1KzBCFwcVwSRQkreyuOu-1jILZ75yw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/02c09cc63eb9dc9fb4f304d4.jpg",
-          "thumbnail_sha256": "7da30c10cd2ec2f91eb96d9d4b2397596fd04294463dd9b99d84e802ae6c199b",
-          "duration_label": null,
-          "aspect_ratio": 2.2820512820512886
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "203"
-        },
-        {
-          "emoji": "❤",
-          "count": "59"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        }
-      ],
-      "views_label": "51.1K",
-      "posted_at": "2026-05-31T21:45:26+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3630",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "3629",
-        "author_name": "Matin SenPai",
-        "preview_text": "خب رفقا آموزش شکست خورد چیزی که می‌خواستم بهتون یاد بدم فعلا بسته هست و پولم حروم شد😂 خوبه ساعتیه باز میشه خاموش کرد سعی میکنم اگر راه خوبی پیدا شد مجدد یاد بدم اینم بگم که paqet و gfk کار کردن روش که خب قبلا آموزشش رو دادم(ویدئو سوم و چهارم چنل) به راحتی…",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/3629"
       }
     }
   ]
