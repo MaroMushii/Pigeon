@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-07T15:40:57.556Z",
+  "fetched_at": "2026-06-07T15:46:01.665Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -12,13 +12,63 @@
   },
   "posts": [
     {
+      "id": "iranlix/7421",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/mNUGOxasgsSla0MZZZXmFOuSavGlyo3dXpJi7IyEpNogewXEQ-d_u-W4QUlOGzPUtrkmFPcS-eKs2AK8isT6kVXwlgPh5wUNFye_DMlPAvCZETEzjRigytlgPeb3RCiRGXxO-rptMg7KoQ_LeLrt0cM9zbUIAFHP_RS_t2hFqramcAQVGiWr3kgM6UGzmtqsUrJ5Rr0WMabqFKiCAEXFil6JYhpVDmSwhwy428HPZWPo6EPp_TP56GvZfAYsEEPJ_D8IHywVYl9c-gmA3F_m6y0ArBVsJTkBOjcaHHRzvaM4XvRQ4jQ5jZdaCN5rZDObkQ-JEgROzQNDXiEGJ-R95w.jpg",
+      "author_photo_path": "channels/iranlix/media/282ba3853b544233194a2af2.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87AEF09F87B1.png')\"><b>🇮🇱</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i><b>جنگنده‌های اسرائیلی حملات هوایی شدیدتر دیگری را در منطقه الحوش در حومه صور، جنوب لبنان انجام دادند.</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a></div>",
+      "plain_text": "🇮🇱💥جنگنده‌های اسرائیلی حملات هوایی شدیدتر دیگری را در منطقه الحوش در حومه صور، جنوب لبنان انجام دادند.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/7421?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/mQ1nFqEK1AjCYHZPhUC2i4wIHmSIovJYq54ahx5TUVQ4ilZrXYqwg3iu8vCrilh3oGUteD9NoedjMerO7M6RGaR72yyyvt7fTdJ8PHrW_hcl7GeVe5fqkhEXiBQ9DL3ew4GN15wkQd__d4430I-CO4C0uSVa2IL_4zrtEMhQdnNpOgMgT96TxeMdNmaFviGsjm9kKUD0Aeoo64h_fjAuMKRINpapvRKr8fGBn3z0i87VCmLrY6VTrrH5ICxjx3jhAaVwP_oEjOfEhwSHyKPl7Q6BRf5kjykauwnb4K1k7fdbv0TRbIOXRe2KgYMCln6Mv6KhvzX8qNxGtgiJphGL0w.jpg",
+          "thumbnail_path": "channels/iranlix/media/36b64628d28251618a64eb8f.jpg",
+          "thumbnail_sha256": "7e6f8c072fdffd181af850b19c6af816c62ddf4ccb24c2f23843342750a366ed",
+          "duration_label": null,
+          "aspect_ratio": 0.5625
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/7422?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/SMiquc7MHDIztoBRBXQTMYDbX-fK1iGwUxQaZ9F4ELhzeRQmEeJ0hNhZF1UMw7Ve7icEuik0iIymQzMI67uusTWtxPkV1nWa28LEFEfoIBv6A6OrHDsYAf9PYaufOYYq3uAxauS3Dx0uH4YIiO-c6gkhd5N9mG83s6kwiUI_3DByRx-OV_OM1JanFJr-NNgiT46PhSy33vw__T7BZ0aeZ_nEfaCR5JJYxIxyRoSHlmAYTSooMidHdeoOIDfQzmy_ZDAL3l4vtbrkOhE_393HIgy4axQVXlppinKOOP2VRzPC6puGegWLw8JIMHEmleSMJrWG4VgvBgI44G7beGhcNg.jpg",
+          "thumbnail_path": "channels/iranlix/media/3c524a1302c4ea07f0d7599a.jpg",
+          "thumbnail_sha256": "c2383026831b7aeae67a803b8df93a5ff705730e5a53c08f442f33bc55cd3f0f",
+          "duration_label": null,
+          "aspect_ratio": 1.5267175572519
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/7423?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/OUa8byZ9XmNZSZWeE_fZYuHr8oB0H8DNC175BmrIuY8uaG3hrGeuXHs1EgP-wY_R2IFq1Ai_LeHrMALThECqZq2wbfEXDxzwW4ti661DlB4lJan5uzNU-X7DZmCelajWdMnRod345vM853p6DlrxSeGmYd0OGzIVcT-XX_fvKh9KWMhSQJAZONXPpcHtnbE5aZ2wd54i8JEF7mLmOlowUJg7H5t4OCoZ8cZbjvW3EjgltEjp1Zmy-p11v8GFC5v4QjGrxs7p3j-IJOeNj3Hr_LAMxe7AnJ8VqKalqggsSnw9DYox5QpVhpotBN07zdCo0_OwEOjIqtf4OsenFXQFcQ.jpg",
+          "thumbnail_path": "channels/iranlix/media/269e1af96501ec4933f8ee83.jpg",
+          "thumbnail_sha256": "15014fb08bd0268bcf01e7e4fccf09ef4c6e2ecf229e22343b8e396afc0234d9",
+          "duration_label": null,
+          "aspect_ratio": 0.5625
+        }
+      ],
+      "reactions": [],
+      "views_label": "95",
+      "posted_at": "2026-06-07T15:42:24+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/7421",
+      "reply": null
+    },
+    {
       "id": "iranlix/7418",
       "author_name": "ایرانلیکس",
       "author_photo_url": "https://cdn4.telesco.pe/file/mNUGOxasgsSla0MZZZXmFOuSavGlyo3dXpJi7IyEpNogewXEQ-d_u-W4QUlOGzPUtrkmFPcS-eKs2AK8isT6kVXwlgPh5wUNFye_DMlPAvCZETEzjRigytlgPeb3RCiRGXxO-rptMg7KoQ_LeLrt0cM9zbUIAFHP_RS_t2hFqramcAQVGiWr3kgM6UGzmtqsUrJ5Rr0WMabqFKiCAEXFil6JYhpVDmSwhwy428HPZWPo6EPp_TP56GvZfAYsEEPJ_D8IHywVYl9c-gmA3F_m6y0ArBVsJTkBOjcaHHRzvaM4XvRQ4jQ5jZdaCN5rZDObkQ-JEgROzQNDXiEGJ-R95w.jpg",
       "author_photo_path": "channels/iranlix/media/282ba3853b544233194a2af2.jpg",
       "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87B8.png')\"><b>🇺🇸</b></i><b>حملات هوایی ادامه دار اسرائیل  به مواضع حزب الله در بندر صور،جنوب لبنان</b>:<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a></div>",
-      "plain_text": "💥💥🇺🇸حملات هوایی ادامه دار اسرائیل به مواضع حزب الله در بندر صور،جنوب لبنان:\n\n@iranlix",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAF.png')\"><b>🎯</b></i><b>حملات هوایی ادامه دار اسرائیل  به مواضع حزب الله در بندر صور،جنوب لبنان</b>:<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a></div>",
+      "plain_text": "💥💥🎯حملات هوایی ادامه دار اسرائیل به مواضع حزب الله در بندر صور،جنوب لبنان:\n\n@iranlix",
       "media": [
         {
           "kind": "photo",
@@ -55,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "31",
+      "views_label": "126",
       "posted_at": "2026-06-07T15:38:47+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7418",
@@ -83,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "121",
+      "views_label": "184",
       "posted_at": "2026-06-07T15:34:39+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7417",
@@ -139,7 +189,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "216",
+      "views_label": "250",
       "posted_at": "2026-06-07T15:28:12+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7415",
@@ -167,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "217",
+      "views_label": "279",
       "posted_at": "2026-06-07T15:25:13+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7414",
@@ -195,7 +245,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "343",
+      "views_label": "374",
       "posted_at": "2026-06-07T15:08:57+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7413",
@@ -223,7 +273,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "383",
+      "views_label": "414",
       "posted_at": "2026-06-07T15:00:23+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7412",
@@ -262,7 +312,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "490",
+      "views_label": "521",
       "posted_at": "2026-06-07T14:35:53+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7410",
@@ -290,7 +340,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "515",
+      "views_label": "545",
       "posted_at": "2026-06-07T14:30:49+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7409",
@@ -355,7 +405,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "512",
+      "views_label": "542",
       "posted_at": "2026-06-07T14:14:17+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7407",
@@ -383,7 +433,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "513",
+      "views_label": "544",
       "posted_at": "2026-06-07T14:09:30+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7406",
@@ -411,7 +461,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "566",
+      "views_label": "597",
       "posted_at": "2026-06-07T13:55:11+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7405",
@@ -439,7 +489,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "651",
+      "views_label": "652",
       "posted_at": "2026-06-07T13:26:46+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7404",
@@ -467,7 +517,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "654",
+      "views_label": "655",
       "posted_at": "2026-06-07T13:24:30+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7403",
@@ -2942,34 +2992,6 @@
       "posted_at": "2026-06-06T00:01:00+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7303",
-      "reply": null
-    },
-    {
-      "id": "iranlix/7302",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/vylMbRVUXZEtwB0Nvm60xsM4hfuyjw-MtfNaQK_c1kiDX79JpcFgEQofy4M5ZVr2_wySx7LR_p24gNI6rmXvc8HlMoaTRUOWH1FWfZNmNL4XxoDHUdIDfffnYE_DybPwkT6Gztbscg8q2qmxYFTCP_vCuOkwb5SwMzeGVreyYdR6Sd3lLAzXDmlT9UKoxOe855FLdNEggCzMCoCOssYPsw-pbJEf7Gztukz_glaL9_9Psy7O2e0CRVPA2cTh0Htigr9bFgBAKL97qvUBtsvDFFzl_KxvAW8on7NUSmhyHflrbeYJOQztvPLA-w7T_OF0D-g2FHedt3VxaOZvmPZyfQ.jpg",
-      "author_photo_path": "channels/iranlix/media/a7388e0875cac6b880e7ba1e.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>پیام‌های دریافتی از سیریک در هرمزگان</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>پایگاه نیروی دریایی سپاه بندر سیریک رو همین الان دوباره زدند. همون لوکیشن چند روز پیش.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>شهرستان سیریک صدای لانچ موشک ساعت&nbsp; ۲:۱۴<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>سلام ساعت ۲:۱۰ دیقه<br>پنج تا انفجار نیرو دریای سپاه سیرک هرمزگان<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "🔻پیام‌های دریافتی از سیریک در هرمزگان\n\n🔸پایگاه نیروی دریایی سپاه بندر سیریک رو همین الان دوباره زدند. همون لوکیشن چند روز پیش.\n\n🔸شهرستان سیریک صدای لانچ موشک ساعت  ۲:۱۴\n\n🔸سلام ساعت ۲:۱۰ دیقه\nپنج تا انفجار نیرو دریای سپاه سیرک هرمزگان\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/7302",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/tlNYciQu6JAc6-2Q0m6dl70Ls17k3DGoH2EcbOIltYLuwp7ly5FBuALsAAYvuAyc2eYqF6IGxpT40VwU0CVAKoumD9F03ZxmL-zmKrvVCSgG0W67C8XaZcuR1mxMe3EFBL--KWLhJJu_DTGqqKMpY8hdSJIoJoUlC1mRRJsrYpM2hSjqqSUNlNZPAGUbGnkOTdFUE1BfURxcfxAZZhPCsddw4FibXW7_TMuuYiaM6I_bBeoFdFzfi913sbuNnTaF92dFS0qNE84J6M-gh91vp0Ln8JJshwifjmgxJbzjMjcgJH0cqpWorIACxgcfw9rCO_n3oCiutov4XwXUpICVQg.jpg",
-          "thumbnail_path": "channels/iranlix/media/d1ea0087ffdadfd82715f39b.jpg",
-          "thumbnail_sha256": "7f0e9752150c7a16c079d8d2e9114227eb8fe67ad90543e8f54552b40b5dbbfb",
-          "duration_label": null,
-          "aspect_ratio": 1.4999999999999925
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.13K",
-      "posted_at": "2026-06-05T23:45:03+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/7302",
       "reply": null
     }
   ]
