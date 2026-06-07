@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-07T13:36:04.841Z",
+  "fetched_at": "2026-06-07T13:40:52.893Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "bbcpersian/283073",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/GXmvhit4OSm8zxxH0v7VBNssbJAW9-EnQOhtPTE38AmcddFPXbjh-UJ8WrBwIKAUf8kI31jqRDdyl_wjlvfsmbNO6ZS27xDm8Ev_LVEfzqCjyr5w2zAvjQVIvz51lKXCj3_H5QFcbjEdhvsCM1sO10Y7ytueBGSOnsZNs0qtcEp9DaepvsjGGbfzbe423zmucD8J7VUv_wzV6RrvXOzJJTRL9ZPaog5WSRQO74pqgpmu1gLxjjRbOU1jb-iG2DLNM7IfLOktkD6WjfFFCEXdvRdwW6tJYzLVMYXRtRUCJ-wI0llEmmd36_5Itx8-CoCWe6Ruzf6NcIjXubDdNWPfbQ.jpg",
+      "author_photo_path": "channels/bbcpersian/media/358a0f7a42a39e8ba092f4e1.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i> سرخط خبرهای یکشنبه ۱۷ خرداد ۱۴۰۵<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "⭕️ سرخط خبرهای یکشنبه ۱۷ خرداد ۱۴۰۵\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/283073",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/HF9UgEl6wAjo7cJNqlUnmRZNVUoWT_pJObRK6CD3JHRVDljRrCrWd7Fdc6s9ZNtY8LqkA3sqyB7GtfNwelO_mxsxx-33y0vscch45NHK4FbqiVWq7NTzcWV_kms99mB_sUO5QnNZhCWHghaQF316QsRNLZ16RfhdM8Cfb4Po7gLponhs5yfWRXHwJyTJT91wdZbiaEomQ9yE4SuQQ7kwUP5cGkC3uNnGhKiapah9EClH-dmGyHl0yTQlxWFQQsUaT1L0LK3IZnS-bTmS7ays5FKStrfNuS620za9DviD4vg9jHQj5-7AhZ0ogmtdu5j65wYysszica6dTORoiBqk3g",
+          "thumbnail_path": "channels/bbcpersian/media/98984d4e1a2a8e1d1600e5f5.jpg",
+          "thumbnail_sha256": "bbda9b2af4e36b77e2e80a18f43adff55921bd79f58fecae4b15d12fd07e0860",
+          "duration_label": "0:48",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "1.63K",
+      "posted_at": "2026-06-07T13:36:54+00:00",
+      "edited": true,
+      "permalink": "https://t.me/bbcpersian/283073",
+      "reply": null
+    },
+    {
       "id": "bbcpersian/283072",
       "author_name": "BBCPersian",
       "author_photo_url": "https://cdn4.telesco.pe/file/GXmvhit4OSm8zxxH0v7VBNssbJAW9-EnQOhtPTE38AmcddFPXbjh-UJ8WrBwIKAUf8kI31jqRDdyl_wjlvfsmbNO6ZS27xDm8Ev_LVEfzqCjyr5w2zAvjQVIvz51lKXCj3_H5QFcbjEdhvsCM1sO10Y7ytueBGSOnsZNs0qtcEp9DaepvsjGGbfzbe423zmucD8J7VUv_wzV6RrvXOzJJTRL9ZPaog5WSRQO74pqgpmu1gLxjjRbOU1jb-iG2DLNM7IfLOktkD6WjfFFCEXdvRdwW6tJYzLVMYXRtRUCJ-wI0llEmmd36_5Itx8-CoCWe6Ruzf6NcIjXubDdNWPfbQ.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "تازه‌ترین خبرهای ایران و جهان یکشنبه ۱۷ خرداد ۱۴۰۵ از رادیو بی‌بی‌سی در لندن",
       "media": [],
       "reactions": [],
-      "views_label": "6.25K",
+      "views_label": "7.91K",
       "posted_at": "2026-06-07T13:16:45+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283072",
@@ -37,7 +65,7 @@
       "plain_text": "🔻آژانس: ایران باید اطلاعات دقیق و فوری از سایت‌های هسته‌ای بمباران‌شده‌اش بدهد\n\nخبرگزاری رویترز می‌گوید پیش‌نویس قطعنامه‌ای را دیده است که ایالات متحده آمریکا تهیه و برای سایر کشورهای عضو شورای حکام آژانس بین‌المللی انرژی اتمی ارسال کرده است.\n\nاین قطعنامه فردا در نشست شورای حکام این آژانس در وین بررسی می‌شود.\n\nبنابر این گزارش، در متن این قطعنامه که امروز به‌دست خبرگزاری رویترز رسید، آمده است که ایران باید «اطلاعات دقیقی در مورد میزان مواد هسته‌ای و تاسیسات هسته‌ای تحت حفاظت در ایران را در اختیار آژانس قرار دهد» و «برای تایید این اطلاعات بدون تاخیر تمام دسترسی‌های لازم را آژانس بدهد».\n\nhttps://bbc.in/4etNXY4\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "9.54K",
+      "views_label": "11.2K",
       "posted_at": "2026-06-07T13:08:47+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283071",
@@ -65,7 +93,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "11.2K",
+      "views_label": "12.2K",
       "posted_at": "2026-06-07T13:04:34+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283070",
@@ -81,7 +109,7 @@
       "plain_text": "🔻تیم فوتبال ایران وارد مکزیک شد\n\nتیم ملی فوتبال ایران پس از برگزاری اردوی خود در ترکیه وارد تیخوانا در مکزیک شد.\n\nاین تیم با پرواز چارتر یک شرکت هوایی آلمانی پس از حدود ۲۰ ساعت پرواز به تیخوانا رسید.\n\nکمپ تیم ملی ایران در این شهر است و برای مسابقات جام جهانی باید دوبار به لس‌آنجلس و یک بار به سیاتل برود.\n\nبه گفته مهدی تاج، رئیس فدراسیون فوتبال، برای تیم ملی اجازه ورود به آمریکا فقط یک روز پیش از هر مسابقه صادر شده است و بعد از هر مسابقه باید به مکزیک برگردند.\n\nhttps://bbc.in/4etNXY4\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "10.2K",
+      "views_label": "11.2K",
       "posted_at": "2026-06-07T13:01:59+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283069",
@@ -109,7 +137,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "13.1K",
+      "views_label": "13.8K",
       "posted_at": "2026-06-07T12:51:47+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283068",
@@ -125,7 +153,7 @@
       "plain_text": "منصور شیشه‌فروش، مدیرکل مدیریت بحران استانداری اصفهان اردیبهشت امسال در گفت‌وگو با خبرگزاری مهر، حجم آب سد زاینده‌رود را ۴۵۵ میلیون مترمکعب عنوان کرده و گفته بود که میزان ورودی آب ۱۲۹ مترمکعب بر ثانیه و خروجی آن ۱۸ مترمکعب بر ثانیه ثبت شده است. بر اساس اعلام مدیرکل مدیریت بحران استانداری اصفهان، ذخیره سد مخزنی زاینده‌رود در زمان رهاسازی آب، ۶۲۵ میلیون مترمکعب ثبت شده بود.\n\nاو درباره بازگشایی رودخانه زاینده‌رود گفته بود که تعیین زمان بازگشایی آب به صنف کشاورزی واگذار شده است.\n\nبا توجه به محدودیت بارش در ایران، کارشناسان به مدیریت آب در ایران انتقاد می‌کنند و می‌گویند که در سال‌های پربارش باید از فرصتی که طبیعت برای جبران کم‌آبی داده به درستی استفاده شود. تابستان و پاییز سال گذشته وضعیت آب در حالت بحران قرار داشت. خبرگزاری‌های ایران گزارش دادند که ۱۹ سد ایران در آستانه خشک شدن کامل قرار دارند و تنها کمتر از ۵ درصد آب داشتند.\n\n@BBCPersian\nhttps://bbc.in/4olkt2c",
       "media": [],
       "reactions": [],
-      "views_label": "15.4K",
+      "views_label": "16.1K",
       "posted_at": "2026-06-07T12:39:05+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283066",
@@ -162,7 +190,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "14.4K",
+      "views_label": "15.1K",
       "posted_at": "2026-06-07T12:38:59+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283065",
@@ -178,7 +206,7 @@
       "plain_text": "🔻دستور اسرائیل به ساکنان برای ترک شهر صور در جنوب لبنان\n\nارتش اسرائیل برای ساکنان شهر صور در جنوب لبنان و مناطق اطراف دستور ترک صادر کرد.\n\nارتش اسرائیل پیش از این گفته بود که پس از به صدا درآمدن آژیر خطر در مناطق یفتاح و راموت نفتالی، دو موشک را که از لبنان وارد خاک اسرائیل شده بودند، رهگیری کرده است. حزب‌الله لبنان مسئولیت این پرتاب‌ها را بر عهده نگرفته است.\n\nحزب‌الله طرح آتش‌بس و خلع سلاح را رد کرده و گفته است که اسرائیل ابتدا باید حملات خود را متوقف کند و نیروهای خود را از جنوب لبنان خارج کند.\n\nایران هم برقراری آتش‌بس در لبنان را از پیش‌شرط‌های خود برای دستیابی به توافق صلح با ایالات متحده مطرح کرده است.\n\nhttps://bbc.in/4xeGwvq\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "15.4K",
+      "views_label": "15.8K",
       "posted_at": "2026-06-07T12:33:16+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283064",
@@ -194,7 +222,7 @@
       "plain_text": "🔻عراقچی تصویر نامه‌ سران پاکستان به مجتبی خامنه‌ای را منتشر کرد\n\nعباس عراقچی در کانال تلگرامی‌اش تصاویر بیشتری از دیدار با محسن نقوی، وزیر کشور پاکستان منتشر کرد، از جمله عکسی در آن که نامه سران پاکستان به مجتبی خامنه‌ای را در دست دارد.\n\nبه گزارش رسانه‌های ایران، در این دیدار درباره «تازه‌ترین ابتکارات دیپلماتیک در مسیر گفت‌وگوهای ایران و آمریکا» تبادل نظر شده است.\n\nبه گفته وزیر خارجه ایران، آقای نقوی «به منظور تداوم روند میانجی‌گری مذاکرات ایران و آمریکا به تهران سفر کرده است.»\n\nآقای نقوی پس از دیدار دیشب با اسکندر مومنی گفته بود که برای تحویل «نامه ویژه» و «پیام مهم» عاصم منیر و شهباز شریف، فرمانده کل قوا و نخست‌وزیر پاکستان به مجتبی خامنه‌ای، به تهران سفر کرده است.\n\nhttps://bbc.in/4xeGwvq\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "19.1K",
+      "views_label": "19.4K",
       "posted_at": "2026-06-07T12:22:11+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283063",
@@ -233,7 +261,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "18.8K",
+      "views_label": "19.4K",
       "posted_at": "2026-06-07T12:18:46+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283061",
@@ -261,7 +289,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "20.4K",
+      "views_label": "20.7K",
       "posted_at": "2026-06-07T12:07:01+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283060",
@@ -289,7 +317,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "27.4K",
+      "views_label": "27.7K",
       "posted_at": "2026-06-07T11:09:35+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283059",
@@ -305,7 +333,7 @@
       "plain_text": "🔻گزارش‌ها از نگرانی پنتاگون از «جاسوسی» اسرائیل\n\nرسانه‌ها آمریکا گزارش می‌دهند که پنتاگون به دلیل نگرانی از فعالیت‌های جاسوسی، سطح تهدید ضداطلاعاتی برای اسرائیل را به بالاترین حد افزایش داده است.\n\nشبکه خبری ان‌بی‌سی به نقل از مقام‌های آمریکایی گزارش داد که آژانس اطلاعات دفاعی پنتاگون هشدار داده است که توانایی اسرائیل برای «جاسوسی انسانی و جمع‌آوری اطلاعات با اتکا به فن‌آوری به حد 'بحرانی' رسیده است.»\n\nان‌بی‌سی می‌گوید که این تغییر سطح تهدید ضداطلاعاتی همزمان شده است با نگرانی‌هایی درباره تلاش اسرائیل برای جاسوسی از مقام‌های آمریکایی برای اطلاع یافتن از «بررسی‌ها و تصمیم‌گیری‌های داخلی دولت ترامپ درباره درگیری‌های خاورمیانه.»\n\nدر همین حال روزنامه نیویورک تایمز هم می‌گوید که نهادهای اطلاعاتی آمریکا در گزارش‌های اخیر خود از شنود اسرائیل از مقام‌های آمریکایی ابراز نگرانی کرده‌اند، از جمله شنود استیو ویتکاف، نماینده ارشد دونالد ترامپ در مذاکرات با ایران.\n\nهم نیویورک تایمز و هم ان‌بی‌سی می‌گویند که پنتاگون از اظهارنظر در این مورد خودداری کرده است؛ یک مقام کاخ سفید این را رد کرده و سخنگوی سفارت اسرائیل در واشنگتن هم کلا هرگونه جاسوسی کشورش از آمریکا را تکذیب کرده است.\n\nhttps://bbc.in/4xeGwvq\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "35.1K",
+      "views_label": "35.4K",
       "posted_at": "2026-06-07T09:56:32+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283058",
@@ -333,7 +361,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "37.7K",
+      "views_label": "38K",
       "posted_at": "2026-06-07T09:11:08+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283057",
@@ -349,7 +377,7 @@
       "plain_text": "🔻وزیر کشور پاکستان با عراقچی دیدار کرد\n\nمحسن نقوی با عباس عراقچی، وزیر خارجه ایران، در تهران دیدار کرد.\n\nوزیر کشور پاکستان شنبه شب با اسکندر مومنی، همتای ایرانی خود، دیدار کرده بود.\n\nبه گزارش رسانه‌های ایران، پس از این دیدار، آقای نقوی گفت به تهران آمده است تا «نامه‌ ویژه» و پیام «مهم» فرمانده کل قوا و نخست‌وزیر پاکستان به مجتبی خامنه‌ای را تحویل دهد.\n\nhttps://bbc.in/4xeGwvq\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "34.1K",
+      "views_label": "34.4K",
       "posted_at": "2026-06-07T09:02:15+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283056",
@@ -365,7 +393,7 @@
       "plain_text": "🔻عضو کمیسیون امنیت ملی مجلس: با آمریکا آتش‌بس نداریم\n\nوحید احمدی، عضو کمیسیون امنیت ملی مجلس، گفت که «احتمال شروع جنگی جدید وجود دارد.»\n\nاو به وبسایت خبری فرارو گفت: «این یک حقیقت است که ما با آمریکا آتش‌بس نداریم. در واقع ما مشغول توقف در درگیری‌ها هستیم. آمریکایی‌ها موفق نشده‌اند به هدفی که برای جنگ در میدان ترسیم کرده بودند برسند و حالا رو به محاصره دریایی آورده‌اند تا شاید بتوانند به لحاظ اقتصادی به ما فشار وارد کنند که اتفاقا در این بخش هم موفقیتی کسب نکرده‌اند.»\n\nآقای احمدی همچنین گفت: «احتمال شروع جنگی جدید وجود دارد و ایران امکانات جدیدی را در راه دارد.»\n\nاو از کشورهای حاشیه خلیج فارس انتقاد کرد که سا‌ل‌هاست «هر چه داشتند در اختیار آمریکا گذاشتند و گدایی امنیت را از آمریکا می‌کنند. اما جنگ اخیر نشان داد امنیت این‌گونه به دست نمی‌آید.»\n\nhttps://bbc.in/4xeGwvq\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "32.8K",
+      "views_label": "33.1K",
       "posted_at": "2026-06-07T09:00:46+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283055",
@@ -459,7 +487,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "32.3K",
+      "views_label": "32.6K",
       "posted_at": "2026-06-07T08:32:29+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283048",
@@ -3060,34 +3088,6 @@
       "posted_at": "2026-06-05T07:18:51+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/282910",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/282909",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/Kzkh9NYqbynWqYZr0c-QrO1tzuOJTHRnyjS8XDvOAmgSCaU414fO6Vx0EuTbmHznjgwqZzQMXjWiNyo0TIBP566wrjcLW3xKB9ZBDwLbpj1KG_4bvGNAmniGvZL70mq8FjYuvnLmlGnjR2r5i8FAZizf9Zilfw0FCU0bH5MqxMr2IzXceNFP6FZuV4oPLnWAcwTha6pBTlV9huLLdJwyKtVeNMBR6OTdC3VFecrPfoitYgMTVuCaTBVE9auXpbllZ5gNRmGVDSYnnYszwl-tPiw6_F6bLt4fGeffQ0tgq2L5QychLaE49dZWjE9SS9L5GBTK3pEljbx7fHUg6Y8ZpQ.jpg",
-      "author_photo_path": "channels/bbcpersian/media/21fb78a1677c636923cc5151.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>این هفته در پرگار: در تاب‌آوری مردم ایران فضیلتی هست؟<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>صبر و تاب‌آوری مردم ایران با وجود بحران‌های پیاپی ناشی از چیست؟ صبری‌ست از سر مصلحت یا سازگاری‌یست که عامل ماندگاری حکومت می‌شود؟<br><br>میهمان‌ها:<br>حسین رسام، تحلیل‌گر سیاسی<br>وریا امیری، تحلیل‌گر سیاسی و دانش‌آموخته فلسفه<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻این هفته در پرگار: در تاب‌آوری مردم ایران فضیلتی هست؟\n\n🔻صبر و تاب‌آوری مردم ایران با وجود بحران‌های پیاپی ناشی از چیست؟ صبری‌ست از سر مصلحت یا سازگاری‌یست که عامل ماندگاری حکومت می‌شود؟\n\nمیهمان‌ها:\nحسین رسام، تحلیل‌گر سیاسی\nوریا امیری، تحلیل‌گر سیاسی و دانش‌آموخته فلسفه\n\n@BBCPersian",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/bbcpersian/282909",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/tKorV2XgwTgQ1CxjoARVqSCQHGYdsf2kiV3dAF6z69aCMGs3Nkk6wRDUnjSXXjFrSIcL1YbEVhe61UDoR-2CAZhLjn5sTIjG8uirBtq8NU59SOj2_j8pRmAur8_LAzjS50BJt9BYLVmgai3PY5po6bqq7Rynn9gukGEajbRlj2fPhoIvJD2GkXWIKVYvY60cV5yN7F16JUy31Et9DRCKlBW_kFnMFOBfd7Pc4v-fgzraZgvInV6kTZm9jwzw9T_Ys4NaYQpLcs1h5K7HV9H01mfnEoCrfC-HNq5ySMgcmcO5dRlRfv88knBJdpEW5RsWpaovguUW-I4cp5Sgcm7iZw",
-          "thumbnail_path": "channels/bbcpersian/media/f249e002e26b7c9f79793de5.jpg",
-          "thumbnail_sha256": "db2317efbc93623da7120916fb9beece0ab323cfea157283ad14d5d70f59dda2",
-          "duration_label": "0:30",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "50K",
-      "posted_at": "2026-06-05T06:54:01+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/282909",
       "reply": null
     }
   ]
