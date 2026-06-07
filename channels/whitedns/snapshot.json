@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-07T06:15:58.500Z",
+  "fetched_at": "2026-06-07T06:21:03.709Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,40 @@
     "subscriber_count": "105K"
   },
   "posts": [
+    {
+      "id": "whitedns/938",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Pzvh9Lit2zwnKcxjSsHPT-QySGwLpI4y9B9l7fiiDmRhMnvKW9G40RJqsM3nn0E392MUBLx72MYJ1oHMX5Vnt-phXhMs3qf4cpNdN14Fke8k_0sBPxU-OibtgPPgx5v5A657dnvWQDcc3RPwdnIXSdQvqzquUW-S9tggXSCNYb2WC9JOZEfwfaPsa0IwRwx0wrOenlmFtfRSjWz84Yj7pQVPRb6KMpGB4KpaQi4YT3J_OmJ4MK753yQyvWBhAsuks1G9FmSY3UFZJUl74jkDRAwuuEKfUUl1yu4_9hF2sGXQp6x_K-V-fTwFl-M7HZxdJkWYOmJmXEdNZGJw209h7w.jpg",
+      "author_photo_path": "channels/whitedns/media/77557f15e76366049c534f3d.jpg",
+      "author_photo_sha256": "b0bce9dee26815d7fb963a1a9f9ac03530618fb5424e99a56e84ac647ad84643",
+      "body_html": "<b>تغییرات WhiteDNS Wizard v1.1.0</b><br><br>- خطای ACME و DNS بهتر تشخیص داده می‌شود.<br>- قبل از ساخت SSL، برنامه چک می‌کند دامنه واقعا روی Cloudflare فعال و درست تنظیم شده باشد.<br>- پیام‌های خطا واضح‌تر شده‌اند و کاربر بهتر می‌فهمد مشکل از توکن، دامنه یا DNS است.<br>- آموزش دسترسی‌های Cloudflare در README کامل‌تر شده.<br>- Reality XHTTP با Reality TCP Vision جایگزین شد.<br>- Reality حالا از <code>xtls-rprx-vision</code> استفاده می‌کند.<br>- انتخاب SNI برای Reality امن‌تر و پایدارتر شده.<br>- مسیر نصب روی سرور از <code>/opt</code> به <code>/var/lib/whitedns</code> منتقل شد تا روی VPSهای بیشتری بدون مشکل کار کند.<br>- مشکل ساخت فایل Docker Compose روی بعضی سرورها رفع شد.<br>- نصب Docker Compose Plugin روی سیستم‌عامل‌های مختلف بهتر شده.<br>- بیلدهای GitHub Release سریع‌تر شده‌اند و به صورت موازی ساخته می‌شوند.<br>- چند مشکل مربوط به مسیر فایل‌ها، ریستور، تست‌ها و آپلود فایل‌ها رفع شد.<br><br><br><a href=\"https://github.com/iampedii/WhiteDNS-Wizard/releases/tag/v1.1.0\" target=\"_blank\" rel=\"noopener\">https://github.com/iampedii/WhiteDNS-Wizard/releases/tag/v1.1.0</a>",
+      "plain_text": "تغییرات WhiteDNS Wizard v1.1.0\n\n- خطای ACME و DNS بهتر تشخیص داده می‌شود.\n- قبل از ساخت SSL، برنامه چک می‌کند دامنه واقعا روی Cloudflare فعال و درست تنظیم شده باشد.\n- پیام‌های خطا واضح‌تر شده‌اند و کاربر بهتر می‌فهمد مشکل از توکن، دامنه یا DNS است.\n- آموزش دسترسی‌های Cloudflare در README کامل‌تر شده.\n- Reality XHTTP با Reality TCP Vision جایگزین شد.\n- Reality حالا از xtls-rprx-vision استفاده می‌کند.\n- انتخاب SNI برای Reality امن‌تر و پایدارتر شده.\n- مسیر نصب روی سرور از /opt به /var/lib/whitedns منتقل شد تا روی VPSهای بیشتری بدون مشکل کار کند.\n- مشکل ساخت فایل Docker Compose روی بعضی سرورها رفع شد.\n- نصب Docker Compose Plugin روی سیستم‌عامل‌های مختلف بهتر شده.\n- بیلدهای GitHub Release سریع‌تر شده‌اند و به صورت موازی ساخته می‌شوند.\n- چند مشکل مربوط به مسیر فایل‌ها، ریستور، تست‌ها و آپلود فایل‌ها رفع شد.\n\n\nhttps://github.com/iampedii/WhiteDNS-Wizard/releases/tag/v1.1.0",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "12"
+        },
+        {
+          "emoji": "👌",
+          "count": "1"
+        }
+      ],
+      "views_label": "757",
+      "posted_at": "2026-06-07T06:17:19+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/938",
+      "reply": {
+        "channel_username": "whitedns",
+        "post_id": "934",
+        "author_name": "White DNS",
+        "preview_text": "ابزار WhiteDNS برای ساده‌تر کردن راه‌اندازی و مدیریت سرورهای شخصی، با نام WhiteDNS Wizard آماده شده است. هدف WhiteDNS این است که کاربران بتوانند بدون نیاز به دانش فنی درباره تنظیمات سرور، DNS، اینباندها، اوتباندها، گواهی‌ها و پنل‌های مدیریتی، سرور خود…",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/ebFPxXpjr89jtm6NrzA6e2V91viuT3iDmwKW0ZNG-nPP8Ezj3H3dpMlVdEiSzeizyma2oyb_XR6A1kg4OKWQnpGLtTECxE31vGwyMRtpWeHBy3kGQ9KUdTW3bnwddIWRQzMpQq9EW41C0jQm34ZWsOse6auKZoNROSX5nbAUKDOiTeKZbp3aqnp7b9ua6U5YcqTeQrJKWVTaQ5axk1_rhlteRQngh2pwRuKgUNaiWfbiaamSciUBTFWFfs1kB48ywqLRiy24ST0S1J57jQA6sIP4IKma5rmg5_5r-OnFObiC37Tq_uF-nRadCJBtvtx0Yu2fr6g7ZMNKoa4t-dT_vw.jpg",
+        "thumbnail_path": "channels/whitedns/media/43e2fd891cc6be8f1b2a9523.jpg",
+        "thumbnail_sha256": "4c1c6f3d7e385ba2803f16b6b711b56dc010c14af46314e84b78f6db8c0048d4",
+        "permalink": "https://t.me/whitedns/934"
+      }
+    },
     {
       "id": "whitedns/937",
       "author_name": "White DNS",
@@ -27,7 +61,7 @@
         },
         {
           "emoji": "❤",
-          "count": "69"
+          "count": "72"
         },
         {
           "emoji": "👍",
@@ -46,7 +80,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.9K",
+      "views_label": "4.38K",
       "posted_at": "2026-06-07T05:38:42+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/937",
@@ -109,7 +143,7 @@
         },
         {
           "emoji": "👏",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "🍓",
@@ -120,7 +154,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.7K",
+      "views_label": "17.9K",
       "posted_at": "2026-06-06T14:03:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/936",
@@ -177,7 +211,7 @@
           "count": "1"
         }
       ],
-      "views_label": "52.8K",
+      "views_label": "52.9K",
       "posted_at": "2026-06-06T05:05:30+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/935",
@@ -263,7 +297,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26K",
+      "views_label": "26.1K",
       "posted_at": "2026-06-05T16:24:01+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/934",
@@ -328,7 +362,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.8K",
+      "views_label": "24.9K",
       "posted_at": "2026-06-05T15:14:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/933",
@@ -385,7 +419,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.6K",
       "posted_at": "2026-06-05T10:31:17+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/932",
@@ -450,7 +484,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.6K",
+      "views_label": "32.7K",
       "posted_at": "2026-06-04T02:24:09+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/931",
@@ -515,7 +549,7 @@
           "count": "1"
         }
       ],
-      "views_label": "34.4K",
+      "views_label": "34.5K",
       "posted_at": "2026-06-03T13:10:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/929",
@@ -810,7 +844,7 @@
           "count": "2"
         }
       ],
-      "views_label": "34.9K",
+      "views_label": "35.1K",
       "posted_at": "2026-06-02T14:27:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/923",
@@ -875,7 +909,7 @@
           "count": "1"
         }
       ],
-      "views_label": "34.2K",
+      "views_label": "34.4K",
       "posted_at": "2026-06-02T12:37:13+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/921",
@@ -1128,7 +1162,7 @@
           "count": "1"
         }
       ],
-      "views_label": "39.1K",
+      "views_label": "39.2K",
       "posted_at": "2026-06-01T23:16:36+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/911",
@@ -4975,76 +5009,6 @@
       "edited": false,
       "permalink": "https://t.me/whitedns/792",
       "reply": null
-    },
-    {
-      "id": "whitedns/791",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/o6jWTmeaYBohZo9fGuxmbaXnOR2I8mdqfZVGImEnSO0gLDTVn8iv0IZ4TwnFxfdG6AkrY0HSXEhItdkNeX0-H72ECjQPF_myqm3XvIL2a_FrO32Ri--Bh_L0xsdQdgH6dliA19iiDrfdwj8thxamCVO3ZnM0Ap8yQTzkhU4PnQz7igxb7LK-tpCdCDj0oeJBrthGNscrveZLzqcfTqAI0yGu0QmBMGRjJSeHrgbWpnRcqvPbIUYWlngem55xMr9yp0cJjJiYSHpczNe8PMkAYr2X93lYMPUifLLqhHpZbvBgPzzaxCtURT2ztlFlWBjNwbYZxGV4WQbEQloAYLwTpA.jpg",
-      "author_photo_path": "channels/whitedns/media/04d9bf96c79925bee1e29bfd.jpg",
-      "author_photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
-      "body_html": "مهم ! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i><br><br>بعد از گرفتن تنظیمات نهایی از بات تلگرام ساخت سرور شخصی،  در تنظیمات کلاینت خود حتما نوع رمزگذاری ( encryption ) را روی حالت AES-128 یا شماره ۳ قرار دهید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i>، در غیر این صورت اتصال شما دچار اختلال خواهد شد <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i>.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i>",
-      "plain_text": "مهم ! 💥\n\nبعد از گرفتن تنظیمات نهایی از بات تلگرام ساخت سرور شخصی، در تنظیمات کلاینت خود حتما نوع رمزگذاری ( encryption ) را روی حالت AES-128 یا شماره ۳ قرار دهید 🔐، در غیر این صورت اتصال شما دچار اختلال خواهد شد ⚠️.\n\n@whitedns 🌐",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "123"
-        },
-        {
-          "emoji": "🤡",
-          "count": "38"
-        },
-        {
-          "emoji": "👍",
-          "count": "17"
-        },
-        {
-          "emoji": "😁",
-          "count": "10"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "7"
-        },
-        {
-          "emoji": "👎",
-          "count": "4"
-        },
-        {
-          "emoji": "⚡",
-          "count": "2"
-        },
-        {
-          "emoji": "🍌",
-          "count": "2"
-        },
-        {
-          "emoji": "🗿",
-          "count": "2"
-        },
-        {
-          "emoji": "☃",
-          "count": "1"
-        },
-        {
-          "emoji": "🤣",
-          "count": "1"
-        }
-      ],
-      "views_label": "46.5K",
-      "posted_at": "2026-05-24T12:50:24+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/791",
-      "reply": {
-        "channel_username": "whitedns",
-        "post_id": "787",
-        "author_name": "White DNS",
-        "preview_text": "سلام خدمت همه همراهان عزیز ویدیو آموزش ساخت سرور شخصی که متین عزیز تهیه کردند دقیق همه مسایل رو ‌توضیح‌ میده. تنها‌ نکته‌ای که باید اشاره کنم، متین از ترمینال برای وارد کردن دستورات و نصب MasterDNS استفاده کرده. من پیشنهاد میکنم برای راحتی کار شما، بعد…",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/whitedns/787"
-      }
     }
   ]
 }
