@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-08T12:41:04.214Z",
+  "fetched_at": "2026-06-08T12:45:55.763Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "30.9K"
   },
   "posts": [
+    {
+      "id": "hranews/113466",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/KjYnL9QJQ-oM2lahWGNq10g30ylXWf6gJS5dIxkZ9sqLgWgUza42vynDshR5lRgw5e9tFLiSHoHG4ysEqGixjjaLxk48Forok5bAa1BnaWbGTZTxttLjGvZD3OVFWepRLHEAAHgV8mxfMSHrJqSyZ22DaAVFfNi_RX2iF9SLQ-xtpLjLFKfh4cBCYYAYhYJp6LLm-YBqLVIqDM4SzMl0oy4J4aVva6bMluC1uPHUAIUn3tdc8z4iZShw6dWmMXtnva76Je4FJZBZeGiojM6HK0N7suFz3xJogsF_-6DCDtJT8pRAwX6V2KR9rMus0DEff2W1Ain2BD3OuRIsAsPuYA.jpg",
+      "author_photo_path": "channels/hranews/media/bb7ff56a0f917b4a2e472d1f.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "سخنگوی جمعیت هلال احمر اعلام کرد که از ساعت چهار بامداد امروز ۱۸ خردادماه، ۱۲ نقطه در کشور هدف حملات نظامی ارتش اسرائیل قرار گرفته‌اند. به گفته مجتبی خالدی، این حملات تاکنون هیچ کشته یا مصدومی بر جای نگذاشته است.<br><a href=\"?q=%23%D8%AD%D9%85%D9%84%D9%87_%D9%86%D8%B8%D8%A7%D9%85%DB%8C\">#حمله_نظامی</a> <a href=\"?q=%23%D8%AC%D9%86%DA%AF\">#جنگ</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "سخنگوی جمعیت هلال احمر اعلام کرد که از ساعت چهار بامداد امروز ۱۸ خردادماه، ۱۲ نقطه در کشور هدف حملات نظامی ارتش اسرائیل قرار گرفته‌اند. به گفته مجتبی خالدی، این حملات تاکنون هیچ کشته یا مصدومی بر جای نگذاشته است.\n#حمله_نظامی #جنگ\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/113466",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/LDzZoOg7n1DZOr2Z8EihuNcOMP3tRWHh-rBQoQCA25VRlRPcpNiGGvwtDB4s_06qtwma9r8Crf8xYOx8R2aYawA0RVxptQKCPKJIjI5NZNdZ_yx0YKKqgltLKcfpG3_gKpiYbUAaUt7rMQXyQ8MhR2FtkQF9xHW3gerXtIglwRC8xTVbm71-x7GZP-QU6dm-rKnLZ18QltWVeg12GH7B1KnVvvJTjqY1Go49L_CPQbvkEA6Yzk9vsAgEG8PpQJmXslirW9zxCi7Y5nrYNJp28yy4SJQIVFAJhoZQ02bfxaDiSq9TLnq8-w10dhYoJfXRrCFb5cinSb6d-i6ZTHhsdw",
+          "thumbnail_path": "channels/hranews/media/9135d58d027224355dd6bc9c.jpg",
+          "thumbnail_sha256": "72c584e750c7bcb0b7c045cb272ffa72d2ec1fd4e0a78d668ccb916c45c9c49a",
+          "duration_label": "0:16",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "85",
+      "posted_at": "2026-06-08T12:41:38+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/113466",
+      "reply": null
+    },
     {
       "id": "hranews/113465",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "543",
+      "views_label": "579",
       "posted_at": "2026-06-08T11:28:43+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113465",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "961",
+      "views_label": "986",
       "posted_at": "2026-06-08T09:29:31+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113464",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.15K",
+      "views_label": "1.17K",
       "posted_at": "2026-06-08T08:15:57+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113463",
@@ -105,7 +133,7 @@
       "plain_text": "کیفرخواست پرونده منصور عبدالله‌زاده صادر شد\n\n❗️❗️❗️❗️❗️ – پرونده قضایی منصور عبدالله‌زاده، شهروند بازداشتی اهل نقده، با صدور کیفرخواست به دادگستری این شهرستان ارجاع داده شد.\n\nادامه مطلب\n\n#منصور_عبدالله‌زاده\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "1.09K",
+      "views_label": "1.1K",
       "posted_at": "2026-06-08T07:42:57+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113462",
@@ -177,7 +205,7 @@
       "plain_text": "رضایت اولیای دم؛ ۲ زندانی از اعدام رهایی یافتند\n\n❗️❗️❗️❗️❗️– دو زندانی در سنندج و استان خوزستان که پیشتر از بابت اتهام قتل به #اعدام محکوم شده بودند، با گذشت اولیای دم از مجازات مرگ رهایی یافتند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "1.03K",
+      "views_label": "1.04K",
       "posted_at": "2026-06-07T19:19:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113459",
@@ -193,7 +221,7 @@
       "plain_text": "دستکم ۴ تجمع اعتراضی برگزار شد\n\n❗️❗️❗️❗️❗️– امروز یکشنبه ۱۷ خردادماه، شماری از #بازنشستگان تامین اجتماعی در شهرهای شوش، رشت و تهران و جمعی از متقاضیان مسکن مهر پردیس در تهران با برگزاری تجمعات اعتراضی خواستار رسیدگی به مطالبات خود شدند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "1.07K",
+      "views_label": "1.08K",
       "posted_at": "2026-06-07T19:08:15+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113458",
@@ -209,7 +237,7 @@
       "plain_text": "دادستانی تهران علیه زیباکلام اعلام جرم کرد\n\n❗️❗️❗️❗️❗️– دادستانی تهران علیه صادق زیباکلام، تحلیل‌گر سیاسی، به دلیل انجام یک مصاحبه جدید اعلام جرم کرد و هم‌زمان قرار نظارت قضایی پیشین او مبنی بر ممنوعیت هرگونه فعالیت رسانه‌ای و تولید محتوا در شبکه‌های اجتماعی را تشدید کرد.\n\nادامه مطلب\n\n#صادق_زیباکلام\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "1.1K",
+      "views_label": "1.11K",
       "posted_at": "2026-06-07T18:49:17+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113457",
@@ -237,7 +265,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "906",
+      "views_label": "908",
       "posted_at": "2026-06-07T18:33:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113456",
@@ -253,7 +281,7 @@
       "plain_text": "مرگ و مصدومیت ۲ کارگر در سایه فقدان ایمنی کار\n\n❗️❗️❗️❗️❗️– در سایه فقدان ایمنی محیط و شرایط نامناسب کار، روز گذشته دو کارگر در قائمشهر و بانه حین انجام کار دچار حادثه شدند. طی این حوادث، یک #کارگر جان باخت و یک تن دیگر مصدوم شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "897",
+      "views_label": "899",
       "posted_at": "2026-06-07T18:21:26+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113455",
@@ -269,7 +297,7 @@
       "plain_text": "گزارشی از تداوم بلاتکلیفی کارگران تعدیل‌شده کارخانه قند ممسنی\n\n❗️❗️❗️❗️❗️– بیش از ۹۰ #کارگر تعدیل شده کارخانه قند ممسنی، واقع در شهرستان رستم، از بلاتکلیفی شغلی چندین ساله خود گلایه‌مند بوده و خواستار بازگشت به کار هستند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "815",
+      "views_label": "826",
       "posted_at": "2026-06-07T18:04:58+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113454",
@@ -285,7 +313,7 @@
       "plain_text": "کیفرخواست پرونده عباس عبدی و روزنامه اعتماد صادر شد\n\n❗️❗️❗️❗️❗️– خبرگزاری قوه قضاییه از صدور کیفرخواست پرونده عباس عبدی و روزنامه اعتماد خبر داد. این پرونده برای رسیدگی به دادگاه کیفری یک استان تهران ارسال شده است.\n\nادامه مطلب\n\n#عباس_عبدی #روزنامه_اعتماد\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "880",
+      "views_label": "883",
       "posted_at": "2026-06-07T17:56:09+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113453",
@@ -313,7 +341,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "918",
+      "views_label": "922",
       "posted_at": "2026-06-07T17:24:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113452",
@@ -341,7 +369,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "880",
+      "views_label": "881",
       "posted_at": "2026-06-07T16:43:40+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113451",
@@ -385,7 +413,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "957",
+      "views_label": "960",
       "posted_at": "2026-06-07T15:38:09+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113449",
@@ -413,7 +441,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "902",
+      "views_label": "904",
       "posted_at": "2026-06-07T15:19:18+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113448",
@@ -441,7 +469,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "918",
+      "views_label": "921",
       "posted_at": "2026-06-07T15:00:10+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113447",
@@ -2378,34 +2406,6 @@
       "posted_at": "2026-06-03T13:02:59+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/113360",
-      "reply": null
-    },
-    {
-      "id": "hranews/113359",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/p2RbQ5Jfsd21jBxxhfipnPUVSiqBD5GnNxl3Y_S9D4DPO83dgiplUlwnllVMRxs2VfvpLTlBmvhG8UvfmrHeDcQZho0RD0W8Pq2osnWGV1qAbkd0UuqEKjpvMRgpQJ_cbSdVI2Y5-VYDTOwv9JXwSJXJSsCgx-s6UIhb89HnZj3jEr9ZfX2rfKC51RhnWHUC6U-OBxPdzwT-Bpj-t63EzBk1rtLgdUCHaWfMHo7Y5AbxlAoF4dUmxaA_RP8B3KSgpwyA4OBzGXlwrUxtzvrEZAtBBda15LwXmbJLjdAyToZ2fMED5W-bwG5KtKxA1Qwz-dZ1uYA5v5_fCmkh-AIE-g.jpg",
-      "author_photo_path": "channels/hranews/media/2663a4517965e8a59cadb26b.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "روز جاری، فتح‌الله آوری، از بازداشت شدگان اعتراضات سراسری دی‌ماه ۱۴۰۴، در زندان همدان اعدام شد.<br><br>مرکز رسانه قوه قضاییه اعلام کرد که این زندانی در بهمن ماه سال گذشته، در ارتباط با وقایع اعتراضی ۱۸ دی ماه همان سال در همدان، در یکی از شهرستان‌های استان البرز بازداشت شد. سپس توسط مراجع قضایی به اتهامات محاربه و قتل به اعدام محکوم شده بود.<br><br>همزمان با آغاز درگیری‌های نظامی، روند صدور و اجرای احکام اعدام در پرونده‌های سیاسی و امنیتی افزایش یافته و تاکنون ۴۰ زندانی در این بازه زمانی در ارتباط با همین پرونده‌ها اعدام شده‌اند.<br><br><a href=\"?q=%23%D9%81%D8%AA%D8%AD%E2%80%8C%D8%A7%D9%84%D9%84%D9%87_%D8%A2%D9%88%D8%B1%DB%8C\">#فتح‌الله_آوری</a> <a href=\"?q=%23%D8%A7%D8%B9%D8%AF%D8%A7%D9%85\">#اعدام</a> <a href=\"?q=%23%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%D8%A7%D8%AA_%DB%B1%DB%B4%DB%B0%DB%B4\">#اعتراضات_۱۴۰۴</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "روز جاری، فتح‌الله آوری، از بازداشت شدگان اعتراضات سراسری دی‌ماه ۱۴۰۴، در زندان همدان اعدام شد.\n\nمرکز رسانه قوه قضاییه اعلام کرد که این زندانی در بهمن ماه سال گذشته، در ارتباط با وقایع اعتراضی ۱۸ دی ماه همان سال در همدان، در یکی از شهرستان‌های استان البرز بازداشت شد. سپس توسط مراجع قضایی به اتهامات محاربه و قتل به اعدام محکوم شده بود.\n\nهمزمان با آغاز درگیری‌های نظامی، روند صدور و اجرای احکام اعدام در پرونده‌های سیاسی و امنیتی افزایش یافته و تاکنون ۴۰ زندانی در این بازه زمانی در ارتباط با همین پرونده‌ها اعدام شده‌اند.\n\n#فتح‌الله_آوری #اعدام #اعتراضات_۱۴۰۴\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/hranews/113359",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/CyXRfMXioDqjoR2X94WFRx4O3lbjmRa0tqDCE5kzFf8GGNeoAaIapiS4mHhdXOFikqbhx0QjvHIW3sVbFm0IEUs4Z1eOHHtbl1GcY_eqSZfoNAEPGkPx-ydxyL4UMsIAj5TTpaJ9TmsnNgQTwzk0VyYfWmX_yadeMSGfz9uFXgCbSs04aECHZtIifD4juWCjUW4AftGpnrFtnbUub7fjcQBLNFHNoKy9m_5Se45rBVtlQPYgeRz_VwBOJksZOi0tGDRSR_BBwY_Bff3BP7fB6SK-6C8leOsc_p8_GkjxDHnfSlPtv7CBasn6xiGmkDpih2iWXIZ3z1-z296Ylt5HeQ.jpg",
-          "thumbnail_path": "channels/hranews/media/03eff020d6d40310bc5fb3f4.jpg",
-          "thumbnail_sha256": "8714fa93a6145a9666f4a8c0d97cdfc12b2a91daa8108fdb152cd6743e0abf89",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [],
-      "views_label": "990",
-      "posted_at": "2026-06-03T11:37:23+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/113359",
       "reply": null
     }
   ]
