@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-08T05:21:08.303Z",
+  "fetched_at": "2026-06-08T05:26:11.816Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -12,6 +12,62 @@
   },
   "posts": [
     {
+      "id": "iranlix/7557",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/s4gNZx2EM-7b7_Ifpu5PqH-VMu4zzJpjY4XshBCrAyKtQAqmvJyPETHuissVekzxSd3C8YNpZ-Z_6FB8zIueIBNvjia9JcZdtpEjXBaEo-YtFJFb1anTGgjvgKFE19xepGNezod-5S53tZFs0upCp-2QLn501XWSQUsSYcd3x0tyXgGM86tA3pBx5m5KC_cpaDrYp6OtRb39tI6obkuVFOFKq5mox5b1GiOh_UwbWI6fWpkyzXC9KAp0aURoWoS2cKwGTeFUN4sv9RlsuN4znTWe5AE4xEWyIGyUwM7X8Cll9Xo0OGWpZXa3giXMnc1hq2wbQjRFsPpp6uTnjWO1Yg.jpg",
+      "author_photo_path": "channels/iranlix/media/0272d51819c5d7a403d07eb8.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>روزنامه «معاریو»: ارتش اسرائیل حمله به اهداف جدید در ج.ا را آغاز کرده است.</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "🔻روزنامه «معاریو»: ارتش اسرائیل حمله به اهداف جدید در ج.ا را آغاز کرده است.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/7557",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/EULrFouNsZgDQ9pi1J9vcWti51ZJZBaJO__TCWkW5u-k5pLNzteWq10huV7w0_-RG8TnRwmTfVJi_qvwapFL0_tHGbFMuhMRrzkw7lzk0KjwjuAQufSx7nv5fiPSoPUailykkoQnhxw46e-PxVafMvdlRDPPBMWu8M0-5w1q6ZEpFbE9h04qKNgV3V7aC4p1KzG21Zofdy61TudVgDFoARAHslLXeG3U7BRKFoEDLpnmiHKqgppxJMyYylQJGKCHM96Lq-cmBQhiBwbe_OfSbitY9F_YR1JTre4YFZXCcmUH3BBy2DzIdHij312P-ioOPBzBJlJ9reYnvqvf11IpTg.jpg",
+          "thumbnail_path": "channels/iranlix/media/4d9ae91922233e5826762724.jpg",
+          "thumbnail_sha256": "d4d381eb82826d73b51e7623b2c4d1fe100e9579daa62411ba2143536f8a2774",
+          "duration_label": null,
+          "aspect_ratio": 1.5359116022099388
+        }
+      ],
+      "reactions": [],
+      "views_label": "32",
+      "posted_at": "2026-06-08T05:24:34+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/7557",
+      "reply": null
+    },
+    {
+      "id": "iranlix/7556",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/s4gNZx2EM-7b7_Ifpu5PqH-VMu4zzJpjY4XshBCrAyKtQAqmvJyPETHuissVekzxSd3C8YNpZ-Z_6FB8zIueIBNvjia9JcZdtpEjXBaEo-YtFJFb1anTGgjvgKFE19xepGNezod-5S53tZFs0upCp-2QLn501XWSQUsSYcd3x0tyXgGM86tA3pBx5m5KC_cpaDrYp6OtRb39tI6obkuVFOFKq5mox5b1GiOh_UwbWI6fWpkyzXC9KAp0aURoWoS2cKwGTeFUN4sv9RlsuN4znTWe5AE4xEWyIGyUwM7X8Cll9Xo0OGWpZXa3giXMnc1hq2wbQjRFsPpp6uTnjWO1Yg.jpg",
+      "author_photo_path": "channels/iranlix/media/0272d51819c5d7a403d07eb8.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>رسانه های عبری :<br>در اسرائیل دستورات داده شده برای چند روز جنگ آماده شوید</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "🔻رسانه های عبری :\nدر اسرائیل دستورات داده شده برای چند روز جنگ آماده شوید\n\n@iranlix",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/7556",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/Q0DdkOijP5KmD5hffI6iu6flbRpW5dUSWA8mcbSHEvZTtd9tpRG7V1QIqg22snf8QU6KQ1E5xvtEuEqGkkTE7NWKXfVt3YNpb9Ydrb6k7z82znGBUQw1Mhp39TGV12FM7Scj9_xE5CXmRbo9SNj-w3LD5fo8HvAeIybyk7BQNpo7Cmtv_C_VMyfOz1rzDldCh28ueGKvIda_SEbenkJbs1zPb5Sj0M3aDzBo6V0wJCW82SoW2D8V1J_nJdJPPaPhnTTaUrkmex-LsefPtnyA6ROBVyOcU8yygDMIGJ2HVNJ5VlCsJwaDrHP9V21haM3etM0YNDOXGecNiXrgnnYliw.jpg",
+          "thumbnail_path": "channels/iranlix/media/856273ba09fa75ff6b1a31a1.jpg",
+          "thumbnail_sha256": "ebdb339825732a760e4c41ce1b292e95f7d4d5c26d0cb4897eba31ecc0974db7",
+          "duration_label": null,
+          "aspect_ratio": 1.7791044776119458
+        }
+      ],
+      "reactions": [],
+      "views_label": "155",
+      "posted_at": "2026-06-08T05:21:09+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/7556",
+      "reply": null
+    },
+    {
       "id": "iranlix/7555",
       "author_name": "ایرانلیکس",
       "author_photo_url": "https://cdn4.telesco.pe/file/s4gNZx2EM-7b7_Ifpu5PqH-VMu4zzJpjY4XshBCrAyKtQAqmvJyPETHuissVekzxSd3C8YNpZ-Z_6FB8zIueIBNvjia9JcZdtpEjXBaEo-YtFJFb1anTGgjvgKFE19xepGNezod-5S53tZFs0upCp-2QLn501XWSQUsSYcd3x0tyXgGM86tA3pBx5m5KC_cpaDrYp6OtRb39tI6obkuVFOFKq5mox5b1GiOh_UwbWI6fWpkyzXC9KAp0aURoWoS2cKwGTeFUN4sv9RlsuN4znTWe5AE4xEWyIGyUwM7X8Cll9Xo0OGWpZXa3giXMnc1hq2wbQjRFsPpp6uTnjWO1Yg.jpg",
@@ -21,7 +77,7 @@
       "plain_text": "♦️سازمان منطقه ویژه پتروشیمی:  دستور خروج اضطراری کلیه کارکنان روزکار از این منطقه صادر شده است\n\n@iranlix",
       "media": [],
       "reactions": [],
-      "views_label": "62",
+      "views_label": "186",
       "posted_at": "2026-06-08T05:19:15+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7555",
@@ -69,7 +125,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "184",
+      "views_label": "278",
       "posted_at": "2026-06-08T05:15:53+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7553",
@@ -97,7 +153,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "251",
+      "views_label": "344",
       "posted_at": "2026-06-08T05:12:34+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7551",
@@ -125,7 +181,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "410",
+      "views_label": "503",
       "posted_at": "2026-06-08T05:03:06+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7550",
@@ -153,7 +209,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "440",
+      "views_label": "502",
       "posted_at": "2026-06-08T05:02:00+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7549",
@@ -181,7 +237,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "632",
+      "views_label": "663",
       "posted_at": "2026-06-08T04:42:22+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7548",
@@ -197,7 +253,7 @@
       "plain_text": "♦️معاون امنیتی استانداری خوزستان: دقایقی پیش شرکت پتروشیمی کارون ماهشهر مورد تهاجم هوایی و اصابت پرتابه‌های اسرائیل قرار گرفت.\n\n@iranlix",
       "media": [],
       "reactions": [],
-      "views_label": "680",
+      "views_label": "711",
       "posted_at": "2026-06-08T04:34:51+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7547",
@@ -234,7 +290,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "762",
+      "views_label": "793",
       "posted_at": "2026-06-08T04:26:53+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7546",
@@ -273,7 +329,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "763",
+      "views_label": "794",
       "posted_at": "2026-06-08T04:20:55+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7544",
@@ -312,7 +368,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "772",
+      "views_label": "803",
       "posted_at": "2026-06-08T04:18:08+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7542",
@@ -368,7 +424,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "778",
+      "views_label": "809",
       "posted_at": "2026-06-08T04:10:53+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7540",
@@ -418,7 +474,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "806",
+      "views_label": "836",
       "posted_at": "2026-06-08T04:06:53+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/7537",
@@ -446,7 +502,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "831",
+      "views_label": "861",
       "posted_at": "2026-06-08T03:43:40+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7536",
@@ -2802,95 +2858,6 @@
       "posted_at": "2026-06-07T17:38:21+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/7444",
-      "reply": null
-    },
-    {
-      "id": "iranlix/7440",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/mNUGOxasgsSla0MZZZXmFOuSavGlyo3dXpJi7IyEpNogewXEQ-d_u-W4QUlOGzPUtrkmFPcS-eKs2AK8isT6kVXwlgPh5wUNFye_DMlPAvCZETEzjRigytlgPeb3RCiRGXxO-rptMg7KoQ_LeLrt0cM9zbUIAFHP_RS_t2hFqramcAQVGiWr3kgM6UGzmtqsUrJ5Rr0WMabqFKiCAEXFil6JYhpVDmSwhwy428HPZWPo6EPp_TP56GvZfAYsEEPJ_D8IHywVYl9c-gmA3F_m6y0ArBVsJTkBOjcaHHRzvaM4XvRQ4jQ5jZdaCN5rZDObkQ-JEgROzQNDXiEGJ-R95w.jpg",
-      "author_photo_path": "channels/iranlix/media/282ba3853b544233194a2af2.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>ارتش اسرائیل اعلام کرد در یک حمله غافلگیرانه یک تونل عظیم را در نزدیکی قلعه بوفور کشف و تصرف کردند.</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i> ارتش اسرائیل اعلام کرد این تونل حزب‌الله بسیار بزرگ و وظیفه آموزش نیرو‌های رضوان حزب‌الله را برعهده داشته است و مستقیما توسط ج.ا تامین مالی شده است.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a></div>",
-      "plain_text": "🔻ارتش اسرائیل اعلام کرد در یک حمله غافلگیرانه یک تونل عظیم را در نزدیکی قلعه بوفور کشف و تصرف کردند.\n\n▪️ ارتش اسرائیل اعلام کرد این تونل حزب‌الله بسیار بزرگ و وظیفه آموزش نیرو‌های رضوان حزب‌الله را برعهده داشته است و مستقیما توسط ج.ا تامین مالی شده است.\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/7441?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/gpxBbPlNaPpYMhYk0YkvCCGZPpjOdg5tjw3p-xlkhctevwMr3GCu-0aWjPcVNY5z4oVz_gUkmhqjz0aT4o3OaGHrBj3vdZMf_a_A29MDGrSwzw9kH-dJkTw-HNVzX8O2CfXmJefOKcKmytRsWy5FPuku3yYIw_m4Nx92S_u1UJ7BDwjsW-sBbMj6VcW_0qBmvnU8Q7L8U97AR1U4-69Prz6j-TYT9aHTTLNxEPOYcur-i3c9Nf089WDVu8mgszQdrEWKPt3dAxVRSX632XN7Xhr6BWzTyUVDA-uAh8CeQFd8m3fbXRk1BAsejyB2GOOAdzLQSJHw_3eQ8XUPj5iwEw.jpg",
-          "thumbnail_path": "channels/iranlix/media/a320465399845d0ee2385d60.jpg",
-          "thumbnail_sha256": "32372a6e29eed38577c7e44859b99e52139d12e517e035a05f4086b08edb4b3b",
-          "duration_label": null,
-          "aspect_ratio": 2.0833333333333
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/7442?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/ZwpfWFKQWScBNSO96ZfKndcdadgIGcCzS-UCwp56HaSv2_v_f35DGe4STAQ0WzuiEcHuCXre73aKsLSLPCs_bu5anChqu2ORQdP8kkXZa64C3YxarB_mlKXm_LlSVC5opozqQplVrISNfNwuNTneXND9W8iWA3J62QRFy39NG0s0AYLnXPsiPH1LF7sgHiAVPDS0xYLphp-LFlMu4PM2idC3peh5cTsF95Y-tPRLQ1FSET5EHhQSqcmtAqBJ_LINXF_vXi_9SYXKAYVrAo36z_L_ZexDOSfUdl2A3RubS8RylstDMpRVzGpM2HqPZPK6WkWaYcTk2YhQUt4CSprrNg.jpg",
-          "thumbnail_path": "channels/iranlix/media/1b47fb9e401f8e025892c326.jpg",
-          "thumbnail_sha256": "af968485e8df0f12f5b05abc79a91849a055e41abdedb9d23362e95d7ab3bda5",
-          "duration_label": null,
-          "aspect_ratio": 0.75
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/7443?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/nav9bLw1um_DNPlUBrKUkXTX5SCJPQGACRDvtCpDxI0gxv0xZ728CxciOBCstAtgcP2m1TuGQ955t4ZgK7dpnp1SOYvHLP0Mm36Q_fT4BiVvyOtHqHUxJMzxuzLlXVn_oik0mOLIZgv0u2KQCmURUO2Kwy4ypi3sjfQ_yTYfkfMiOc7Gsv9yLuKvnU1JaQZXGCd7C12r6gvQvOS1TPvnuLkWwF28cFDF-wMWJuXITgNXmIy3wK80zCuMlzYrvoIno54t6YwVOrGexSIsPNIiv0x4SunKN9NN4TrOvv3YI2Ae9XEjt1cwW38WvZMFKND0ENoTHw277MS-z7aez6r7CQ.jpg",
-          "thumbnail_path": "channels/iranlix/media/c33f605f15b7085124a20e65.jpg",
-          "thumbnail_sha256": "209ff27664e8645fa0467e2deacaf1a71c733f397be7347ab266c530325d4224",
-          "duration_label": null,
-          "aspect_ratio": 0.75
-        },
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/iranlix/7440?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/ZJl7yaBEvY31jpLYH2HXrBtZy49Ra1XXsZtPvJMYSdaNZngXDAoPxBSu7KWxctijExskDkkOJbyQlz6bI4l7M4G9p63K4Wp1LPut4noUXAqwrxdJ5DR5iFYQtIV_RGE6wGxTyGxjanl_1Uh4hG_3vc9__WSz1LQBVjgE5oiDBpSlKpX48qd4j59KQpk4k4_AWwSa-iOCxK2f6wE-KddZiyEh8ptBT3UeNylY2sZ6iAGpbIYyRbsWfYMuaMkuXFx05uyUFOEukFEaNuXNCXXh-oDoPTkTehoboMotVksyULXXhSz-lTvdxgEfcKQ8n9b62WggE-EQ1iYy0pdkSmS6dA",
-          "thumbnail_path": "channels/iranlix/media/3c71701d8ea02d8795e44323.jpg",
-          "thumbnail_sha256": "11a8770d2e7f1fc7b994049c786457d33558723dddb1a5250226ba72eeaf8ea0",
-          "duration_label": "0:58",
-          "aspect_ratio": null
-        }
-      ],
-      "reactions": [],
-      "views_label": "916",
-      "posted_at": "2026-06-07T17:30:37+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/7440",
-      "reply": null
-    },
-    {
-      "id": "iranlix/7439",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/mNUGOxasgsSla0MZZZXmFOuSavGlyo3dXpJi7IyEpNogewXEQ-d_u-W4QUlOGzPUtrkmFPcS-eKs2AK8isT6kVXwlgPh5wUNFye_DMlPAvCZETEzjRigytlgPeb3RCiRGXxO-rptMg7KoQ_LeLrt0cM9zbUIAFHP_RS_t2hFqramcAQVGiWr3kgM6UGzmtqsUrJ5Rr0WMabqFKiCAEXFil6JYhpVDmSwhwy428HPZWPo6EPp_TP56GvZfAYsEEPJ_D8IHywVYl9c-gmA3F_m6y0ArBVsJTkBOjcaHHRzvaM4XvRQ4jQ5jZdaCN5rZDObkQ-JEgROzQNDXiEGJ-R95w.jpg",
-      "author_photo_path": "channels/iranlix/media/282ba3853b544233194a2af2.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA5.png')\"><b>🎥</b></i> نبویان: بیشتر پیش‌شرط‌های ما در متن یادداشت تفاهم با آمریکا نیامده است.</b><br><br>بعداز گذشت ۶۰ روز از شاهکار قالیباف در پاکستان، تازه الان نماینده‌ها گفتن اصلا نماینده رهخر درمذاکرات حاضر نبوده !!!!<br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "🎥 نبویان: بیشتر پیش‌شرط‌های ما در متن یادداشت تفاهم با آمریکا نیامده است.\n\nبعداز گذشت ۶۰ روز از شاهکار قالیباف در پاکستان، تازه الان نماینده‌ها گفتن اصلا نماینده رهخر درمذاکرات حاضر نبوده !!!!\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/7439",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/qXnVMKMIx9FYzKV91WHkRMpA9qLz-bwxpnAMXvOknD0pXUMpFlTUorBCsdLq7EVH0-8gXfZiedpDliQXSznwty8MDK-cvHYf6Cr8VfV0DfAkzNpQPOPDbe9wxBEmmspievZyrIR35_F3w-rw-g6s-g-tZV4T33UeVFYcVrd9UUqxUu_l9U4qy_kRLJa2uO51W7nvocKva8V00_iVU78gz1NfQPYnjsN9JVfWlzAPe4sUwHSwXMd0e0kbucL_NW-kfDAwj5i8UtlaztWtwE0rgY71qTGTflabNJmy967UGOuG6cc27nrfDg6tHw3AMDwkd-yLdOIlwr7wD9-WMSq_zg.jpg",
-          "thumbnail_path": "channels/iranlix/media/329657f27f84c7db0c0a49e7.jpg",
-          "thumbnail_sha256": "71a74146708965c7deeed4cb2cf3c8c6670ce4ce5b018ba289b5666410f49cd1",
-          "duration_label": null,
-          "aspect_ratio": 1.4209591474245116
-        }
-      ],
-      "reactions": [],
-      "views_label": "815",
-      "posted_at": "2026-06-07T17:23:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/7439",
       "reply": null
     }
   ]
