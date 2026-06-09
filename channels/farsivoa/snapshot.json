@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-09T18:06:11.022Z",
+  "fetched_at": "2026-06-09T18:11:44.376Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -19,10 +19,77 @@
       "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
       "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B7.png')\"><b>📷</b></i>ارتش اسرائیل با انتشار تصاویری از تسلیحات کشف‌شده متعلق به حزب‌الله اعلام کرد در روزهای اخیر، نیروهای تیپ گولانی چند انبار تسلیحات متعلق به سازمان تروریستی حزب‌الله را در ساختمان‌های غیرنظامی در مناطق زوطر الغربیه و زوطر الشرقیه در جنوب لبنان شناسایی کردند.<br><br>بنابر بیانیه ارتش اسرائیل در یکی از این انبارها در یک ساختمان غیرنظامی، ده‌ها نوع تسلیحات در کنار یک گهواره نوزاد شناسایی شد.<br><br>تسلیحات کشف‌شده در این انبارها شامل «کلاشنیکف، موشک‌ها و پرتابگرهای ضد زره، خشاب‌ها، نارنجک‌ها، دستگاه‌های ارتباطی، پهپادها و تجهیزات رزمی دیگر» بود.</div>",
       "plain_text": "📷ارتش اسرائیل با انتشار تصاویری از تسلیحات کشف‌شده متعلق به حزب‌الله اعلام کرد در روزهای اخیر، نیروهای تیپ گولانی چند انبار تسلیحات متعلق به سازمان تروریستی حزب‌الله را در ساختمان‌های غیرنظامی در مناطق زوطر الغربیه و زوطر الشرقیه در جنوب لبنان شناسایی کردند.\n\nبنابر بیانیه ارتش اسرائیل در یکی از این انبارها در یک ساختمان غیرنظامی، ده‌ها نوع تسلیحات در کنار یک گهواره نوزاد شناسایی شد.\n\nتسلیحات کشف‌شده در این انبارها شامل «کلاشنیکف، موشک‌ها و پرتابگرهای ضد زره، خشاب‌ها، نارنجک‌ها، دستگاه‌های ارتباطی، پهپادها و تجهیزات رزمی دیگر» بود.",
-      "media": [],
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/220148?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/INcISIzsOh0ikexQSGuaLNYUvNG11BEEZOukjnOsN5uG_aEcUYMhiGxSNcX-wG7LqQVZsuNiO0Wv4KiD8x9n4iKJl9nIL1PxTQBFrwod_NOaC1ONJvokVW3ePBCFh5jqfFOJk74PnnMcgQk0vSPpDlbM-qbRWmBlNeU3NwGHzgZYPj1whPddVSP4pM_ohwlsiulKtpdpykpE0e0L9C5wRhYKAt61NxNyoHpoQJ0PdNcbFiS6-rxJDOF9U3Pcnydf5UANML7LRXtRRfFOx3pPqLu_Ej1l3BZZ7mOx6t0aOgSeNKPHBidF8mRC5ND06G7XpkXXwfGJHQIT1wLMy6SR-A.jpg",
+          "thumbnail_path": "channels/farsivoa/media/b0befe05041bd7ac9e175195.jpg",
+          "thumbnail_sha256": "4a1b5cea62ec13f92deed98d2b6cb695c27492d70ccbf9f6973f1479d82c563e",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/220149?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/F3ZU78mCDc-30zVC0qaiFk8LqwzqlkG_5777wQgUZxtuiqUmHRCL99Se_Y_tYWhGoAcPK1S6LlOtlE7zMZLbNPZTqcMzOHwL1Bs6QidRnc3g7c9ArTcHhHFFSSDrx7ZTu7l8S1LqmsYriZDy-6stcfJy-xWEb_dcW1n4s9oJDkjpPu8lwTNlLirhQfoqfyYCs0CCmT-q1bcdqCEyFB9omq5T8BKj_lMRAQ8lrq49vFVWMeEst1fHTRIIg1GRlBIhirzsfsnntuy1pj93UEJ7gXBnHdu4ZKQvZGy2XdRbg-3VNtP6hv-d_jgdvukugwbHXYkCVzL34NiDb4eslz7p0Q.jpg",
+          "thumbnail_path": "channels/farsivoa/media/fbfa18964b175dee899afcbc.jpg",
+          "thumbnail_sha256": "579d28a7826d60b5bfda45faf5c809d5fff887a35ee7da4fd5b93dccc1ba94d8",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/220150?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/iaaqQKNAeO1Ztg2qZqrsDKzOkgOsMh7QD1218-SLaavsl6IceoVBfDlAgc-uLoWytHQCrFNblcKe7ctUi4dUAp6YdSUMVBUM7e0U4oZ6J12-NKLVv0TtQXZjFWTfEE_6_pfzVmjIhQeuLVILFxgvuykvn-n4kJcagryauon6kI5IMIV1kSwZr3W0lSBQbodJuJaixouM0DBGMPH6cI8JxPlblbWJhImqV0-S3DHwCRXbnUp0Pu1bRZAkeM_EqkMuMo5UxGBuVlgfSGClu7842DOppxNEFb11881vZVxciW-J13a2_MXsoEwl5w-c-UATr0wJ7qmbQvprdKZ7MV7K1A.jpg",
+          "thumbnail_path": "channels/farsivoa/media/602b46848f6c056e1653057d.jpg",
+          "thumbnail_sha256": "6628aeca1074eff83d8d2d4c0af51d38a1cf6fb183da911ed5aa18446bc52094",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/220151?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/oYrrkwontLUWuqW8t109o0mGkU95483OTsA5qCelZCdychxXK_WoFxx3aOlTGpAXJflrvRmDfUIOHMiN6dBYL4-CeMosJDJztulg91YS5muuegFet0qoXQvjUiJZ8fwfThPyTfAWOZgfX4LwiqTz_Ci1NsMTHQQli7clMyHkBnNJv4FlqCoe8dNm8MxjicQ8f0QaRUPY6Um62rsdtgNOznzxe6Bfq3mYgCHjSG4k1QxvjjbuDc8IMCzIW9ibMJGSo1LLJQu8_mE9XN9C_fDEfokvgFjuimqWEyNT4GqX_an3Aw-ISUb8QOffXptOr-FXJNc27XQLWLattHjbDJ1mTg.jpg",
+          "thumbnail_path": "channels/farsivoa/media/b28a9744f3630a24249c4403.jpg",
+          "thumbnail_sha256": "6a0f7db1f9328fbb93b441a0f6a7c16ba7abd959f93d41e15187c5398bc461d8",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/220152?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/BDJfuXApSBuLNqpzX3WhLdvoa-CxQezgu4ZaJp5fc4ZHFiCO0vmeuvKH-9yaORIyvfW5DM_C7y6TCp6pZvy-DX3qLdlPcSQU2BUWPoeirTCK2EfdzQUT3GKUFSSdOitnQ7Up3I4_MxAy3XN5a4Aa0PZH10ohAXgg0iTpoq70yH8IAnnPlwz8boW50xV6KfFFQE4v7IuJCsz5y4MlatZYu57aUdRToS2pa385cxppdYzvQL2ugLJFVPHJG3BrTqqgAdJsnwmA7URb4FwqU4KBHim2A0Fu6IxPYMtwVgqpZhrQdNB8b0kyE3LOE7bJTft5UYy3jeif_8Cz4sKtz25_7g.jpg",
+          "thumbnail_path": "channels/farsivoa/media/5fb44155657dfe81ab2b671a.jpg",
+          "thumbnail_sha256": "44d410e471d8360266e7d65787c7851a3ff7a18a0993ed4bfac1080b1618f49e",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/220153?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/roCNyApK61Z2-MBm3ilK270aXqnOkSRfeeID6GWeYiFGS7YJ-2q8XjbjPAG6DcK5zCGolFflOa6eR0S6DwoqH3rAmZW6H7y-hCimqoCgwX65FW5RUOgVw1yzQ3pmRqp5SOIrPpiH9n2YWby5193ejbl56GDMuBW6awZFQUqvVz89GsVuQwfDnZxLdlDL_VMj96L2QHQzBbfr0bwRZq_yRELhSYytZiJt-szMCfIo6kTTiFw_pQP1Vf0GoBCZFNQmVXzScIfj66YaWD4ksffUV9GioMa6ByAmFoljmwMLX9qoDeYVPu-HuHkqo5CHBAltsQKZOK-bR7k4UcT2fzQmww.jpg",
+          "thumbnail_path": "channels/farsivoa/media/e801c89570cddf734c3c433d.jpg",
+          "thumbnail_sha256": "8a9f2dcb14b560793f80ee31f7c7b0438676225667f94ebb5e8db5cb154b5d70",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
       "reactions": [],
-      "views_label": "1",
-      "posted_at": "2026-06-09T18:06:10+00:00",
+      "views_label": "594",
+      "posted_at": "2026-06-09T18:06:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220148",
       "reply": null
@@ -121,7 +188,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "969",
+      "views_label": "1.4K",
       "posted_at": "2026-06-09T17:53:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220146",
@@ -149,7 +216,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.2K",
+      "views_label": "1.63K",
       "posted_at": "2026-06-09T17:48:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220140",
@@ -177,7 +244,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.34K",
+      "views_label": "1.7K",
       "posted_at": "2026-06-09T17:45:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220139",
@@ -205,7 +272,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.72K",
+      "views_label": "1.97K",
       "posted_at": "2026-06-09T17:37:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220138",
@@ -221,7 +288,7 @@
       "plain_text": "🔺پرزیدنت ترامپ: سرنگونی بالگرد آپاچی آمریکا در تنگه هرمز کار رژیم ایران بود؛ باید به این اقدام پاسخ دهیم\n\n◾️دونالد ترامپ، رئیس‌جمهوری ایالات متحده، اعلام کرد نیروهای ایرانی یک بالگرد آپاچی ارتش آمریکا را هنگام گشت‌زنی بر فراز تنگه هرمز سرنگون کرده‌اند و گفت واشنگتن ناگزیر است به این اقدام پاسخ دهد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/trump-iran-downed-us-apache/8158968.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.77K",
+      "views_label": "2.93K",
       "posted_at": "2026-06-09T17:16:01+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220137",
@@ -249,7 +316,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.28K",
+      "views_label": "3.41K",
       "posted_at": "2026-06-09T17:00:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220136",
@@ -277,7 +344,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.87K",
+      "views_label": "2.96K",
       "posted_at": "2026-06-09T16:59:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220135",
@@ -293,7 +360,7 @@
       "plain_text": "🔺ارتش اسرائیل: برای وارد کردن ضربه‌ای سنگین‌تر به جمهوری اسلامی آماده‌ایم\n\n◾️ایال زمیر، رئیس ستاد کل ارتش اسرائیل، می‌گوید نیروهای این کشور در حالت آماده‌باش کامل برای ازسرگیری درگیری نظامی با جمهوری اسلامی قرار دارند و در صورت لزوم آماده‌اند «ضربه سخت و عمیق» دیگری را به رژیم وارد کنند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/israel-army-chief-warns-iran/8158957.html",
       "media": [],
       "reactions": [],
-      "views_label": "3K",
+      "views_label": "3.13K",
       "posted_at": "2026-06-09T16:50:41+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220133",
@@ -321,7 +388,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.01K",
+      "views_label": "3.11K",
       "posted_at": "2026-06-09T16:40:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220132",
@@ -337,7 +404,7 @@
       "plain_text": "🔺هشدار درباره تشدید اقدامات هکرهای مرتبط با حکومت‌های چند کشور علیه بخش فناوری\n\n◾️شرکت امنیت سایبری کراوداسترایک می‌گوید هکرهای مرتبط با حکومت چین در یک سال گذشته بزرگ‌ترین تهدید جاسوسی سایبری علیه شرکت‌های فناوری بوده‌اند؛ در همین حال، گروه‌های وابسته به جمهوری اسلامی، روسیه، و کره شمالی نیز به‌طور گسترده شرکت‌های فناوری در آمریکا و دیگر کشورها را هدف قرار داده‌اند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/chinese-hackers-lead-tech-espionage/8158948.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.27K",
+      "views_label": "3.37K",
       "posted_at": "2026-06-09T16:20:47+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/220131",
@@ -365,7 +432,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.41K",
+      "views_label": "3.5K",
       "posted_at": "2026-06-09T16:10:54+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220130",
@@ -381,7 +448,7 @@
       "plain_text": "🔺لغو «سهمیه بلیت» جمهوری اسلامی در جام جهانی؛ خنثی شدن نقشه رژیم برای انتقال سازمان‌یافته هواداران حکومتی\n\n◾️فدراسیون فوتبال جمهوری اسلامی اعلام کرد سهمیه بلیت اختصاص‌یافته به این فدراسیون برای سه مسابقه تیم ایران در مرحله گروهی جام جهانی فوتبال ۲۰۲۶ لغو شده است؛ تصمیمی که تنها چند روز پیش از آغاز رقابت‌ها اتخاذ شده است و دست فدراسیون را از توزیع مستقیم هزاران بلیت کوتاه می‌کند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/fifa-revokes-iran-fan-tickets/8158940.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.4K",
+      "views_label": "3.52K",
       "posted_at": "2026-06-09T16:06:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220129",
@@ -409,7 +476,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.4K",
+      "views_label": "3.46K",
       "posted_at": "2026-06-09T15:49:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220128",
@@ -437,7 +504,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.27K",
+      "views_label": "3.34K",
       "posted_at": "2026-06-09T15:46:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220127",
