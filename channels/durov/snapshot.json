@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-09T19:31:08.818Z",
+  "fetched_at": "2026-06-09T19:36:06.709Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,51 @@
     "subscriber_count": "11.1M"
   },
   "posts": [
+    {
+      "id": "durov/523",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/f5I2hrb5BtkoL1CndfjBrQMnaCEVOuSvYQIUPZknAV_7ISAvsQDi7Qzrbpobp8KPgmfvqoRQmQ55KsFy5DnPDbP31-vSgSjZUyQW_Jx6AkSEsjeFIQ33JldPmxWl73SA9-gtTV5cdJdygVUxhOa3b5bvRSPWk-iZdXLsZnZivQQtVMU9LEHrrEFsdC8rzmlPax8yv87l30IZjF1f9Nt9lFOdT1HzdQUQuNZiDhHQd2u-pNbWx8aCJGiSSfMdDiXInxJmNdN4iY4qzcl12qKIS6FoogXNW6NKA-g-b4JPmB8fxXvinpBSQUMSwtCBAy_tRyGEHWGUdykiTV4ZzgEWpw.jpg",
+      "author_photo_path": "channels/durov/media/d817a4d2c379cca14fbc085d.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<tg-emoji emoji-id=\"5389033296086709487\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28C9A.png')\"><b>⌚️</b></i></tg-emoji> A fully native <b>Telegram app for Apple Watch</b> is out.",
+      "plain_text": "⌚️ A fully native Telegram app for Apple Watch is out.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/durov/523",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/rlznA_R3EdmkuaL8OxSfrf-PexDl1wi5pKDZcgCYf1iLGqt0niFtVM9NdBrpvsJ8rfUuMkNFpWUO_nZvgPXRyaX5S3kL7jVxC-hx4BTgH6LCrPB7SuomhLKsuuzo_3AZlZHCIjR68q0uJVCK9oEiyUEuaw2YrAQGp9ys5_XJaRRHgbzkf6bKEwlRqEbc3TdU3URRvOKgrm2kFEmOlmPjOlmoQBaWNDokJkP2VTtPviS0b_67a1DiLshRc8uELqOPhTmTbiQAyV8glu57TLjQLdMODTtcIuY92zpsLPkIKF9ibG75asHUtkIbX6csOHgbNdChJpLbL1UhyHyvJMH7mA",
+          "thumbnail_path": "channels/durov/media/87422a3daf5c2891bc6bb02b.jpg",
+          "thumbnail_sha256": "e4a25b6eaf392f8b6940e51caa555dfdf77c5dbbe10f82b2a80c0c988291f759",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "954"
+        },
+        {
+          "emoji": "💎",
+          "count": "2.05K"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.48K"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.39K"
+        }
+      ],
+      "views_label": "48K",
+      "posted_at": "2026-06-09T19:33:51+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/523",
+      "reply": null
+    },
     {
       "id": "durov/522",
       "author_name": "Pavel Durov",
@@ -39,7 +84,7 @@
         },
         {
           "emoji": "💎",
-          "count": "31.5K"
+          "count": "31.7K"
         },
         {
           "emoji": "💎",
@@ -47,10 +92,10 @@
         },
         {
           "emoji": "💎",
-          "count": "8.38K"
+          "count": "8.39K"
         }
       ],
-      "views_label": "1.73M",
+      "views_label": "1.78M",
       "posted_at": "2026-06-01T15:46:12+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/522",
@@ -68,22 +113,22 @@
       "reactions": [
         {
           "emoji": "⭐",
-          "count": "3.04K"
+          "count": "3.05K"
         },
         {
           "emoji": "💎",
-          "count": "18.5K"
+          "count": "18.6K"
         },
         {
           "emoji": "💎",
-          "count": "6.82K"
+          "count": "6.83K"
         },
         {
           "emoji": "💎",
-          "count": "6.08K"
+          "count": "6.09K"
         }
       ],
-      "views_label": "1.93M",
+      "views_label": "1.96M",
       "posted_at": "2026-06-01T15:40:13+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/521",
@@ -116,7 +161,7 @@
           "count": "12.4K"
         }
       ],
-      "views_label": "2.6M",
+      "views_label": "2.61M",
       "posted_at": "2026-05-23T13:26:07+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/520",
@@ -161,7 +206,7 @@
           "count": "5.19K"
         }
       ],
-      "views_label": "2.48M",
+      "views_label": "2.49M",
       "posted_at": "2026-05-20T15:38:10+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/519",
@@ -240,7 +285,7 @@
         },
         {
           "emoji": "💎",
-          "count": "20.9K"
+          "count": "21K"
         },
         {
           "emoji": "💎",
@@ -441,7 +486,7 @@
         },
         {
           "emoji": "💎",
-          "count": "47.3K"
+          "count": "47.4K"
         },
         {
           "emoji": "💎",
@@ -449,7 +494,7 @@
         },
         {
           "emoji": "🫡",
-          "count": "6.96K"
+          "count": "6.97K"
         },
         {
           "emoji": "💎",
