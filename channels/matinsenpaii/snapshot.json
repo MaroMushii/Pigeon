@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-10T20:11:39.513Z",
+  "fetched_at": "2026-06-10T20:16:37.766Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,47 @@
     "subscriber_count": "163K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3780",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/rTQJib_KDlOvLsXn-hgKDqFzTmmXTH7g7kNUMsAwV3Z4wTXBE1vs9bSC6-NQViZgxLyZB3UmZedKnmc4nMSKJBdh6sqxe7PUwOp-EbIndT4Y_KWSkRzmLP_R2xjbS4RnGllgZcmkoxnAa4nG0ZWyv8Di97vAdxgXK6zdYzrja1jIkwhJvu9KTuRAmnf-rtua8MDLWMuKqdM5A_57IBAA-covIKvhkA5cNGm6gmIXZ55NR8d0JvBdAovAR6RQ_-DUtTJEg0Ndn6N_tX5M65K_2UAwKxLm83p8l2f4dpcGdZGSCnNnHctXXrm5pqYnZ481-B5LkbncWox4DllPyKsZig.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/725bca2011265ec8b9b633bc.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<tg-emoji emoji-id=\"5447644863644320013\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i></tg-emoji><b>پروژه‌ی FreeLLMAPI — یه پروکسی OpenAI-compatible فوق‌العاده‌ست که ۱۶ تا از بهترین ارائه‌دهنده‌های LLM(مدل‌های زبانی بزرگ. همون هوش مصنوعی خودمون) رایگان رو روی هم جمع کرده!</b><br><br>تقریباً ۱٫۷ میلیارد توکن توی هر ماه ظرفیت inference (از Google Gemini، Groq، Mistral، Cerebras، OpenRouter، GitHub Models، Cloudflare، NVIDIA، HuggingFace و ... + هر endpoint سفارشی مثل Ollama، vLLM، LM Studio و غیره) می‌ده.<br><br>ویژگی‌های اصلی:<br><tg-emoji emoji-id=\"5447174087984038144\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A4.png')\"><b>🔤</b></i></tg-emoji>یه endpoint واحد (/v1/chat/completions) برای همه‌چی<br><tg-emoji emoji-id=\"5447174087984038144\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A4.png')\"><b>🔤</b></i></tg-emoji>روتینگ هوشمند + failover خودکار (اگر یه کلید به rate limit خورد، سریع میره سراغ بعدی)<br><tg-emoji emoji-id=\"5447174087984038144\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A4.png')\"><b>🔤</b></i></tg-emoji>مدیریت دقیق quota هر api key تا زیر حد استفاده‌ی رایگان بمونیم<br><tg-emoji emoji-id=\"5447174087984038144\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A4.png')\"><b>🔤</b></i></tg-emoji>کلیدها به صورت رمزنگاری‌شده ذخیره میشن<br><tg-emoji emoji-id=\"5447174087984038144\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A4.png')\"><b>🔤</b></i></tg-emoji>داشبورد باحال برای مدیریت api key<br><tg-emoji emoji-id=\"5447174087984038144\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A4.png')\"><b>🔤</b></i></tg-emoji>نصب خیلی راحت با Docker<br><br>در واقع همه free tierهای پراکنده رو تبدیل کرده به یه LLM قدرتمند و همیشه در دسترس، بدون اینکه مجبور بشی با کلی SDK و rate limit جداگانه کلنجار بری.<br><br>بهترین‌ها برای کدنویسی (بر اساس این پروژه و لیست هوش مصنوعی‌ها) عمدتاً DeepSeek V4 Pro، Qwen3-Coder سری (مخصوصاً Qwen3-Coder Next و 480B) و Codestral/Devstral هستن.<br><br><tg-emoji emoji-id=\"5438571934210082705\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></tg-emoji>لینک پروژه: <a href=\"https://github.com/tashfeenahmed/freellmapi\" target=\"_blank\" rel=\"noopener\">https://github.com/tashfeenahmed/freellmapi</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "⭐️پروژه‌ی FreeLLMAPI — یه پروکسی OpenAI-compatible فوق‌العاده‌ست که ۱۶ تا از بهترین ارائه‌دهنده‌های LLM(مدل‌های زبانی بزرگ. همون هوش مصنوعی خودمون) رایگان رو روی هم جمع کرده!\n\nتقریباً ۱٫۷ میلیارد توکن توی هر ماه ظرفیت inference (از Google Gemini، Groq، Mistral، Cerebras، OpenRouter، GitHub Models، Cloudflare، NVIDIA، HuggingFace و ... + هر endpoint سفارشی مثل Ollama، vLLM، LM Studio و غیره) می‌ده.\n\nویژگی‌های اصلی:\n🔤یه endpoint واحد (/v1/chat/completions) برای همه‌چی\n🔤روتینگ هوشمند + failover خودکار (اگر یه کلید به rate limit خورد، سریع میره سراغ بعدی)\n🔤مدیریت دقیق quota هر api key تا زیر حد استفاده‌ی رایگان بمونیم\n🔤کلیدها به صورت رمزنگاری‌شده ذخیره میشن\n🔤داشبورد باحال برای مدیریت api key\n🔤نصب خیلی راحت با Docker\n\nدر واقع همه free tierهای پراکنده رو تبدیل کرده به یه LLM قدرتمند و همیشه در دسترس، بدون اینکه مجبور بشی با کلی SDK و rate limit جداگانه کلنجار بری.\n\nبهترین‌ها برای کدنویسی (بر اساس این پروژه و لیست هوش مصنوعی‌ها) عمدتاً DeepSeek V4 Pro، Qwen3-Coder سری (مخصوصاً Qwen3-Coder Next و 480B) و Codestral/Devstral هستن.\n\n⚡️لینک پروژه: https://github.com/tashfeenahmed/freellmapi\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3780",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/lr7zahDIfEmsrakwWXUtt8JWpae0LzYg0FVJWqdSy1Q9zk9nM7lER9rENEFjcUwgMmln5-GsWZGTDj8E_HtNQ70iwYgds1N-KeoIbR7w8cPG0rcWwuEu-JPDS4pEytCyM9gVe0kbNTSq4TwucFPTZkkM69ikKztMdp24VJCK7lOvsMj7CXzCksS5v8lPDg9vriESx2e63D4snAr5V4KZwBk-AwaizNXdin1d9NgpSxj-1aT7zK5yPw2VVW4lRpZIujYvLtBbW9KzhCIZZvpE-gkhnU9FGtVRYRGJgFNPfTrsUrmRHRDaIr_cks17nvUjhHsG2qu5aO7wvEa98AQghg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/8e41989089ec7323c8e8ca20.jpg",
+          "thumbnail_sha256": "07620bbd7b174164f2ab2609579034a3b8d6b1f2f672f6029fadf5d9857e1e69",
+          "duration_label": null,
+          "aspect_ratio": 1.3675213675213675
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "27"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.6K",
+      "posted_at": "2026-06-10T20:13:50+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3780",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3779",
       "author_name": "Matin SenPai",
@@ -23,7 +64,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "148"
+          "count": "152"
         },
         {
           "emoji": "👍",
@@ -38,7 +79,7 @@
           "count": "4"
         }
       ],
-      "views_label": "19.1K",
+      "views_label": "20K",
       "posted_at": "2026-06-10T18:43:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3779",
@@ -92,22 +133,22 @@
         },
         {
           "emoji": "😁",
-          "count": "661"
+          "count": "670"
         },
         {
           "emoji": "🔥",
-          "count": "110"
+          "count": "111"
         },
         {
           "emoji": "❤",
-          "count": "65"
+          "count": "66"
         },
         {
           "emoji": "👍",
-          "count": "16"
+          "count": "17"
         }
       ],
-      "views_label": "24.3K",
+      "views_label": "25K",
       "posted_at": "2026-06-10T18:02:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3777",
@@ -137,7 +178,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "155"
+          "count": "157"
         },
         {
           "emoji": "❤",
@@ -152,7 +193,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.4K",
+      "views_label": "29.9K",
       "posted_at": "2026-06-10T16:28:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3776",
@@ -210,7 +251,7 @@
           "count": "6"
         }
       ],
-      "views_label": "32.3K",
+      "views_label": "32.7K",
       "posted_at": "2026-06-10T15:24:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3775",
@@ -240,7 +281,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "241"
+          "count": "242"
         },
         {
           "emoji": "❤",
@@ -251,7 +292,7 @@
           "count": "7"
         }
       ],
-      "views_label": "36.7K",
+      "views_label": "36.9K",
       "posted_at": "2026-06-10T12:39:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3774",
@@ -305,7 +346,7 @@
           "count": "3"
         }
       ],
-      "views_label": "39.1K",
+      "views_label": "39.3K",
       "posted_at": "2026-06-10T11:19:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3773",
@@ -347,7 +388,7 @@
           "count": "8"
         }
       ],
-      "views_label": "39.4K",
+      "views_label": "39.5K",
       "posted_at": "2026-06-10T10:27:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3772",
@@ -389,7 +430,7 @@
           "count": "3"
         }
       ],
-      "views_label": "37.5K",
+      "views_label": "37.6K",
       "posted_at": "2026-06-10T10:03:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3771",
@@ -418,7 +459,7 @@
           "count": "10"
         }
       ],
-      "views_label": "29.6K",
+      "views_label": "29.7K",
       "posted_at": "2026-06-10T08:13:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3770",
@@ -463,7 +504,7 @@
           "count": "3"
         }
       ],
-      "views_label": "41.8K",
+      "views_label": "41.9K",
       "posted_at": "2026-06-09T21:50:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3768",
@@ -508,7 +549,7 @@
           "count": "6"
         }
       ],
-      "views_label": "42.3K",
+      "views_label": "42.4K",
       "posted_at": "2026-06-09T21:50:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3769",
@@ -553,7 +594,7 @@
           "count": "10"
         }
       ],
-      "views_label": "46K",
+      "views_label": "46.1K",
       "posted_at": "2026-06-09T19:13:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3767",
@@ -586,7 +627,7 @@
           "count": "6"
         }
       ],
-      "views_label": "48.5K",
+      "views_label": "48.6K",
       "posted_at": "2026-06-09T14:18:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3766",
@@ -616,7 +657,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "854"
+          "count": "855"
         },
         {
           "emoji": "😨",
@@ -706,7 +747,7 @@
           "count": "4"
         }
       ],
-      "views_label": "55.8K",
+      "views_label": "55.9K",
       "posted_at": "2026-06-09T06:12:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3763",
@@ -739,7 +780,7 @@
           "count": "6"
         }
       ],
-      "views_label": "56.9K",
+      "views_label": "57K",
       "posted_at": "2026-06-08T20:23:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3762",
@@ -4040,43 +4081,6 @@
         "thumbnail_sha256": "440e09018297c9064018d7980432798a7a1bb8ac1bab5b5579f89dd9f78013d9",
         "permalink": "https://t.me/matinsenpaii/2524"
       }
-    },
-    {
-      "id": "MatinSenPaii/3668",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/dT6ILaS8Y8E2LiQK7g0DObVOMfNgj-Mo5X0jVVqJoJuAEKVDgm6IqV2y0CMawAwTRnoa5-c3sbR8PGWw-YdKg4PwoN0ny179QF7ZbUXR3IG7p13d6VBOfnAYLJ-HtEkmPspHVhxGlc30FN-pcxu-aoerBJkexfYmk9_7xdsiAe0dB2V8SzUZRAXSYkL2MLBpejTUy03ye3QKjfgGtWHKw6Ch2-3HwaRMepZWQWpnNEZMhAM_Ko2uPCvUfsPXavB3OZlvBq7PpSyzOKfFTBXjgNZYr5vLw3oV-nnUy1mMYasJUM-m9z3MQ2xlhe_OkThEGgJb9dDcmoB-He53B2axqw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/06db97b29cceb5cfd5bdd423.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "چه خبر شد؟",
-      "plain_text": "چه خبر شد؟",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "😨",
-          "count": "85"
-        },
-        {
-          "emoji": "😁",
-          "count": "11"
-        },
-        {
-          "emoji": "🎃",
-          "count": "6"
-        },
-        {
-          "emoji": "💔",
-          "count": "1"
-        }
-      ],
-      "views_label": "4.76K",
-      "posted_at": "2026-06-02T21:53:24+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3668",
-      "reply": null
     }
   ]
 }
