@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-11T12:36:50.510Z",
+  "fetched_at": "2026-06-11T12:41:52.280Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,44 @@
     "subscriber_count": "163K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3794",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/OoMsmD8IkY9p2q8rCWElSPq2zJV0Ua8Fhb3erlNPtyoTOLxGkuig4kq_FpPb_dzvCJWOaMVcOp5B5U5ha5oxaBNE_Gwc-ILYStZvY13UX2jEmzKethBIPlgUFQeP_cjxgsNtKcFi1uMo2CHlmw1tWB4vDI-L28ZvmRvvvrvyuM3M8s-_EwZzqWHPkXuE_WjEdw1doGme5cq8__3oJZpTnYCIkKz7sIn0PTNVttmuMZlHwJgSp9BIFFUsw4894I9R8BFK-BXZCQsKw5AfjUc1OrIODRny8vXyUCP7UJsMo8O_IIujy_i9WS12_Y8rqywkUz0wibnRPzUeHOe-rLPr0g.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/435071721a273a1ecebed939.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "خلاصه خیلی ساده‌ی Fragment در Xray:<br><blockquote expandable=\"\"><br>۱. Mux → ۸<br>- چند اتصال همزمان روی یک لینک.<br>- مقادیر ممکن: 0 (خاموش)، ۴، ۸، ۱۶  <br>- مثال: ۸ = خوب برای سرعت معمولی<br><br>۲. Fakehost → <a href=\"http://cloudflare.com/\" target=\"_blank\" rel=\"noopener\">cloudflare.com</a><br>- هاست جعلی (برای پورت‌های Non-TLS).<br>- مقادیر ممکن: <a href=\"http://cloudflare.com/\" target=\"_blank\" rel=\"noopener\">cloudflare.com</a>, <a href=\"http://www.google.com/\" target=\"_blank\" rel=\"noopener\">www.google.com</a>, <a href=\"http://microsoft.com/\" target=\"_blank\" rel=\"noopener\">microsoft.com</a> و غیره.<br><br>۳. Packets → tlshello<br>- کدام پکت‌ها شکسته شوند.<br>- مقادیر ممکن:<br>  - tlshello ← بهترین برای TLS<br>  - 1-3 یا 1-5<br>  - all یا خالی (همه پکت‌ها)<br><br>۴. Length (byte) → 10-20<br>- اندازه هر تکه (به بایت).<br>- مقادیر ممکن: 10-20, 15-30, 8-15, 20-40, 5-10<br><br>۵. Interval (ms) → 10-20<br>- فاصله زمانی بین تکه‌ها (میلی‌ثانیه).<br>- مقادیر ممکن: 10-20, 5-15, 15-30, 20-40<br></blockquote>﻿<br>نکته: هر چی Length و Interval کوچکتر باشه، پینگ کمتره ولی ممکنه کمتر کار کنه(قدرت عبور کمتر).  <br>و هر چی بزرگتر باشه، پینگ بیشتره اما ولی قدرت عبور هم بالاتره.",
+      "plain_text": "خلاصه خیلی ساده‌ی Fragment در Xray:\n\n۱. Mux → ۸\n- چند اتصال همزمان روی یک لینک.\n- مقادیر ممکن: 0 (خاموش)، ۴، ۸، ۱۶\n- مثال: ۸ = خوب برای سرعت معمولی\n\n۲. Fakehost → cloudflare.com\n- هاست جعلی (برای پورت‌های Non-TLS).\n- مقادیر ممکن: cloudflare.com, www.google.com, microsoft.com و غیره.\n\n۳. Packets → tlshello\n- کدام پکت‌ها شکسته شوند.\n- مقادیر ممکن:\n- tlshello ← بهترین برای TLS\n- 1-3 یا 1-5\n- all یا خالی (همه پکت‌ها)\n\n۴. Length (byte) → 10-20\n- اندازه هر تکه (به بایت).\n- مقادیر ممکن: 10-20, 15-30, 8-15, 20-40, 5-10\n\n۵. Interval (ms) → 10-20\n- فاصله زمانی بین تکه‌ها (میلی‌ثانیه).\n- مقادیر ممکن: 10-20, 5-15, 15-30, 20-40\n﻿\nنکته: هر چی Length و Interval کوچکتر باشه، پینگ کمتره ولی ممکنه کمتر کار کنه(قدرت عبور کمتر).\nو هر چی بزرگتر باشه، پینگ بیشتره اما ولی قدرت عبور هم بالاتره.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "10"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.5K",
+      "posted_at": "2026-06-11T12:39:55+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3794",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3793",
+        "author_name": "Matin SenPai",
+        "preview_text": "هرچی کانفیگ مرده بود با این تنظیمات واسم زنده شد. توضیحاتش رو هم میدم خدمتتون که هر کدوم چیه و Mux رو خاموش بذارید",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/HpGDpwVlAvKS63fXo8RiPTf-bgbtG7Eve4dbmoDlTL4NOfVIIbx6tHUCkfhKye3uWtgBatG_7mH_LYKDbkzmM4H56BJH69S-TZTv9V5ZEyN2fbeOnfSKgdc4z97bZPkRpLQVkCdKucMACFenbtiQy8oQq5HwPadZppTgg5IQ9_Vhdft_C9rB1ZOxMvJyNOF0uIk6nM0RbER0r5o1OSUoUTE6qX_o5X_l_qOFUNgHsnJOMEY2wh7CbtXfVkTnuDCkLXqfhZt-22FDzga5duwlBxEq9lKk9EhuIuM4SHU-pckNVWl_WkOIDBdyh32w8YBe4uhtiHQIjkdWnv3_zbbOZg.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/b8bc2767aa02c77f616ad65c.jpg",
+        "thumbnail_sha256": "31b31ad6f67ceea7e3860e4dff0c9aec84e8817302e6f804b02da54e5e56f866",
+        "permalink": "https://t.me/matinsenpaii/3793"
+      }
+    },
     {
       "id": "MatinSenPaii/3793",
       "author_name": "Matin SenPai",
@@ -35,18 +73,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "120"
+          "count": "135"
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "7"
         },
         {
           "emoji": "🔥",
-          "count": "4"
+          "count": "5"
         }
       ],
-      "views_label": "7.74K",
+      "views_label": "8.99K",
       "posted_at": "2026-06-11T12:18:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3793",
@@ -118,11 +156,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "152"
+          "count": "153"
         },
         {
           "emoji": "❤",
-          "count": "60"
+          "count": "63"
         },
         {
           "emoji": "😁",
@@ -133,7 +171,7 @@
           "count": "4"
         }
       ],
-      "views_label": "21.3K",
+      "views_label": "22K",
       "posted_at": "2026-06-11T10:09:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3789",
@@ -166,7 +204,7 @@
           "count": "59"
         }
       ],
-      "views_label": "35.4K",
+      "views_label": "35.7K",
       "posted_at": "2026-06-11T05:45:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3788",
@@ -450,7 +488,7 @@
           "count": "9"
         }
       ],
-      "views_label": "42.3K",
+      "views_label": "42.6K",
       "posted_at": "2026-06-10T20:13:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3780",
@@ -735,7 +773,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "262"
+          "count": "263"
         },
         {
           "emoji": "👍",
@@ -4061,55 +4099,6 @@
       "posted_at": "2026-06-03T11:35:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3681",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3680",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/gJgdKEpTIh9Z9C5idEWbEA15GS8BJIiMsIrpHmMN7t3X2MBMjl0ygGGIGL1sb6wBDYyrdanAr9MjL_P5eXPHgCCasqfFh3tQVFEx0x1IGauUs9QnzBFQ9mJ24eJMh7hQHiZ_8LXM961aiz1HrMoeVEo_4L8_ynwXT3P4ceS5q8F3LTZPK90MKQnxmGKSp6yMmb6EBvpy4ok2_cHqKTHeyC3QGTUrQhBC4HBnPLorLKx1KI3soosarZSQjfv7C2lUYRtp4KsKlWqzW8bxGTxmbbZPY76KxZBQIi3MP4julJ-lFi8RI8Z3KQXCrVfmfh4yTWNMr8etJxaTQtNYpWr9Xw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/e6669c835753de89c6f0e0d7.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "تمام آموزش‌های مبنی بر اینترنت آزاد که من توی کانال یوتوبم منتشر کردم به علاوه‌ی توضیحات و اینکه توی چه شرایطی به چه دردی می‌خورن. از بالا به پایین، برای شرایط سخت‌تر معرفی می‌شن تا شرایط خاموشی کامل:<br><br>1- متد Paqet، ویژه‌ی شرایط الآن(کلودفلر و اینترنت بین‌الملل باز شده) واسه‌ی هر نتی(تبدیل سرعت اینترنت داغون به سرعت خدا)<br>مزایا: سرعت بالا و راه‌اندازی یک باره(هم مستقیم هم تانل)<br>معایب: نیاز به سرور داره، روش مستقیمش فقط روی سیستم میتونه ران بشه یا گوشی Root شده و تانلش مصرف داده‌اش ۴-۵ برابره<br><br>ویدئوی اول آموزش Paqet مستقیم: <a href=\"https://youtu.be/q4BbgdhPm-w\" target=\"_blank\" rel=\"noopener\">https://youtu.be/q4BbgdhPm-w</a><br>ویدئوی دوم آموزش Paqet تانل: <a href=\"https://youtu.be/nwpLOANv7VY\" target=\"_blank\" rel=\"noopener\">https://youtu.be/nwpLOANv7VY</a><br>ویدئوی سوم آموزش Paqet با نصب آسان(اسکریپت سم): <a href=\"https://youtu.be/QkGI8WoOtPc\" target=\"_blank\" rel=\"noopener\">https://youtu.be/QkGI8WoOtPc</a><br><br>2- متدهای بر پایه کلودفلر Workers، ویژه‌ی شرایط الآن(کلودفلر و اینترنت بین‌الملل باز شده) واسه‌ی اکثر اینترنتا به علاوه‌ی آیپی تمیز<br>مزایا: سرعت بالا و راه‌اندازی یک باره، نامحدود بودن(هر اکانت روزانه 6 گیگابایت حدودا(هر شب ریست میشه) و می‌تونید اکانت‌های زیادی بسازید. من خودم نزدیک به ۱۰۰ تا ساختم)<br>معایب: فقط وب سوکت میشه ساخت و ممکنه برای گیم و... مناسب نباشه اما برای اینستاگرام و یوتوب و اینها خارق‌العادست.<br><br>سری اول کلودفلر، پنل BPB: <br>آموزش اول: ساخت فیلترشکن بر پایه پروژه BPB و اسکن آیپی تمیز با سیستم: <a href=\"https://youtu.be/_aXy8wwyRG8\" target=\"_blank\" rel=\"noopener\">https://youtu.be/_aXy8wwyRG8</a><br>آموزش دوم: تنظیمات پنل BPB از سیر تا پیاز: <a href=\"https://youtu.be/7G9Fjhe_NxM\" target=\"_blank\" rel=\"noopener\">https://youtu.be/7G9Fjhe_NxM</a><br><br>سری دوم کلودفلر، آموزش پنل Edge:<br>آموزش اول، ساخت پنل Edge با سیستم به علاوه تمام تنظیماتش و ثابت کردن لوکیشن: <a href=\"https://youtu.be/svYBcv4bSzo\" target=\"_blank\" rel=\"noopener\">https://youtu.be/svYBcv4bSzo</a><br>آموزش دوم، ساخت پنل Edge فقط با یک گوشی موبایل و نصب ترموکس و اسکنر برای پیدا کردن آیپی تمیز: <a href=\"https://youtu.be/2otJfXgNWCM\" target=\"_blank\" rel=\"noopener\">https://youtu.be/2otJfXgNWCM</a><br><br>3- آموزش کامل خرید سرور و دامنه و نصب کاندوئیت بر روی سرور ویژه ایرانی‌های خارج از کشور که می‌خوان کمک کنن به اتصال از طریق سایفون: <a href=\"https://youtu.be/DtZyWXWV4BA\" target=\"_blank\" rel=\"noopener\">https://youtu.be/DtZyWXWV4BA</a><br><br>4- متد SNI-SPOOFING که در صورتی که یه روزنه‌ی کوچیک باز بمونه، می‌تونید باهاش با نهایت سرعت حتی توی بدترین قطعی‌ها هم وصل بمونید.<br>مزایا: بدون محدودیت سرعت، می‌تونید کاملا رایگان وصل بشید(با کانفیگ‌های کلودفلر متد شماره 2)<br>معایب: نیاز به باز بودن اون روزنه داره، و فقط روی سیستم قابل اجراست مثل Paqet. اما قابل اشتراک‌گذاری به دیگر دستگاه‌هاست.<br>آموزش اول: راه‌اندازی SNI-SPOOFING و استفاده ازش روی ویندوز: <a href=\"https://youtu.be/dujMBt4sCpw\" target=\"_blank\" rel=\"noopener\">https://youtu.be/dujMBt4sCpw</a><br><br>آموزش دوم: رفع مشکلات و ترکیب لوکیشن متد هر کانفیگی از SNI-SPOOFING روی آمریکا: <a href=\"https://youtu.be/PuYwXH4D4tU\" target=\"_blank\" rel=\"noopener\">https://youtu.be/PuYwXH4D4tU</a><br><br>5- متدهای بر پایه‌ی گوگل. این متدها مادامی که گوگل وصل باشن، کار می‌کنن و طیف وسیعی از متدها رو هم در بر می‌گیرن: <br><br>الف- متد MHR و زیرمجموعه‌هاش: این متد محدودیت ۲۰ هزار ریکوئست روزانه روی هر جیمیل داره و سرعت آنچنان بالایی نداره اما با تعداد ایمیل‌های بالا، میشه بهترش کرد.<br><br>آموزش اول، متد MHR خام(توصیه میشه بعدیا رو راه بندازید نه این. چون با آیپی خودتون باید برید و هوش مصنوعیا رو نمیاره واستون): <a href=\"https://youtu.be/jzaqdKl40Ww\" target=\"_blank\" rel=\"noopener\">https://youtu.be/jzaqdKl40Ww</a><br><br>آموزش MHR-CFW(ترکیب همین، با کلودفلر برای داشتن آیپی خارج): <a href=\"https://youtu.be/L3lJZrAqqUQ\" target=\"_blank\" rel=\"noopener\">https://youtu.be/L3lJZrAqqUQ</a><br><br>آموزش راه‌اندازی MHRv-RUST با گوشی موبایل: <a href=\"https://youtu.be/7YdJIJloIxY\" target=\"_blank\" rel=\"noopener\">https://youtu.be/7YdJIJloIxY</a><br><br>ب- متد MITM برای دسترسی به سرویس‌های بسته شده‌ی گوگل(چون از روش یک حمله‌ی سایبری استفاده میشه روی تلگرام آپلود شده فقط): <br>آموزش اول دسترسی به سرویس‌های گوگل و گیتهاب: <a href=\"https://t.me/MatinSenPaii/3151\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3151</a><br>آموزش دوم دانلود نامحدود از یوتوب با نت ملی بر پایه‌ی آموزش اول: <a href=\"https://t.me/MatinSenPaii/3230\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/3230</a><br><br>ج- متد Skirk بر پایه‌ی گوگل درایو که مزایاش، سرعت دانلود بالا و معایبش، Latency بالا هست؛ از کانال عزیزی: <a href=\"https://youtu.be/vCr4E6Y1k4c\" target=\"_blank\" rel=\"noopener\">https://youtu.be/vCr4E6Y1k4c</a><br><br>6- متدهای بر پایه‌ی DNS، که از روز اول جنگ وصل بودن تا آخر قطعی. اما ما اواخر قطعی بود که به بهترین ترکیبش رسیدیم. پروژه‌ی MasterDNS و کلاینت WhiteDNS. مزایا: وصل توی هر شرایطی، قابلیت اجرا روی هر پلتفرم و سیستم عاملی، حتی روی سرور، و اضطراری‌ترین راه چاره‌ی ما<br>معایب: مصرف حدود دو برابری اینترنت(که به نظر خودم می‌ارزه توی اون شرایط) به علت کوئری‌های DNS فراوان. همینطور نیاز به سرور داره اما از سرورهای رایگان هم می‌تونید استفاده کنید(طبیعتا سرعت خیلی پایینتر)<br>آموزش کامل راه‌اندازی روی گوشی و سیستم: <a href=\"https://youtu.be/6Pm7kNQb3mo\" target=\"_blank\" rel=\"noopener\">https://youtu.be/6Pm7kNQb3mo</a>",
-      "plain_text": "تمام آموزش‌های مبنی بر اینترنت آزاد که من توی کانال یوتوبم منتشر کردم به علاوه‌ی توضیحات و اینکه توی چه شرایطی به چه دردی می‌خورن. از بالا به پایین، برای شرایط سخت‌تر معرفی می‌شن تا شرایط خاموشی کامل:\n\n1- متد Paqet، ویژه‌ی شرایط الآن(کلودفلر و اینترنت بین‌الملل باز شده) واسه‌ی هر نتی(تبدیل سرعت اینترنت داغون به سرعت خدا)\nمزایا: سرعت بالا و راه‌اندازی یک باره(هم مستقیم هم تانل)\nمعایب: نیاز به سرور داره، روش مستقیمش فقط روی سیستم میتونه ران بشه یا گوشی Root شده و تانلش مصرف داده‌اش ۴-۵ برابره\n\nویدئوی اول آموزش Paqet مستقیم: https://youtu.be/q4BbgdhPm-w\nویدئوی دوم آموزش Paqet تانل: https://youtu.be/nwpLOANv7VY\nویدئوی سوم آموزش Paqet با نصب آسان(اسکریپت سم): https://youtu.be/QkGI8WoOtPc\n\n2- متدهای بر پایه کلودفلر Workers، ویژه‌ی شرایط الآن(کلودفلر و اینترنت بین‌الملل باز شده) واسه‌ی اکثر اینترنتا به علاوه‌ی آیپی تمیز\nمزایا: سرعت بالا و راه‌اندازی یک باره، نامحدود بودن(هر اکانت روزانه 6 گیگابایت حدودا(هر شب ریست میشه) و می‌تونید اکانت‌های زیادی بسازید. من خودم نزدیک به ۱۰۰ تا ساختم)\nمعایب: فقط وب سوکت میشه ساخت و ممکنه برای گیم و... مناسب نباشه اما برای اینستاگرام و یوتوب و اینها خارق‌العادست.\n\nسری اول کلودفلر، پنل BPB:\nآموزش اول: ساخت فیلترشکن بر پایه پروژه BPB و اسکن آیپی تمیز با سیستم: https://youtu.be/_aXy8wwyRG8\nآموزش دوم: تنظیمات پنل BPB از سیر تا پیاز: https://youtu.be/7G9Fjhe_NxM\n\nسری دوم کلودفلر، آموزش پنل Edge:\nآموزش اول، ساخت پنل Edge با سیستم به علاوه تمام تنظیماتش و ثابت کردن لوکیشن: https://youtu.be/svYBcv4bSzo\nآموزش دوم، ساخت پنل Edge فقط با یک گوشی موبایل و نصب ترموکس و اسکنر برای پیدا کردن آیپی تمیز: https://youtu.be/2otJfXgNWCM\n\n3- آموزش کامل خرید سرور و دامنه و نصب کاندوئیت بر روی سرور ویژه ایرانی‌های خارج از کشور که می‌خوان کمک کنن به اتصال از طریق سایفون: https://youtu.be/DtZyWXWV4BA\n\n4- متد SNI-SPOOFING که در صورتی که یه روزنه‌ی کوچیک باز بمونه، می‌تونید باهاش با نهایت سرعت حتی توی بدترین قطعی‌ها هم وصل بمونید.\nمزایا: بدون محدودیت سرعت، می‌تونید کاملا رایگان وصل بشید(با کانفیگ‌های کلودفلر متد شماره 2)\nمعایب: نیاز به باز بودن اون روزنه داره، و فقط روی سیستم قابل اجراست مثل Paqet. اما قابل اشتراک‌گذاری به دیگر دستگاه‌هاست.\nآموزش اول: راه‌اندازی SNI-SPOOFING و استفاده ازش روی ویندوز: https://youtu.be/dujMBt4sCpw\n\nآموزش دوم: رفع مشکلات و ترکیب لوکیشن متد هر کانفیگی از SNI-SPOOFING روی آمریکا: https://youtu.be/PuYwXH4D4tU\n\n5- متدهای بر پایه‌ی گوگل. این متدها مادامی که گوگل وصل باشن، کار می‌کنن و طیف وسیعی از متدها رو هم در بر می‌گیرن:\n\nالف- متد MHR و زیرمجموعه‌هاش: این متد محدودیت ۲۰ هزار ریکوئست روزانه روی هر جیمیل داره و سرعت آنچنان بالایی نداره اما با تعداد ایمیل‌های بالا، میشه بهترش کرد.\n\nآموزش اول، متد MHR خام(توصیه میشه بعدیا رو راه بندازید نه این. چون با آیپی خودتون باید برید و هوش مصنوعیا رو نمیاره واستون): https://youtu.be/jzaqdKl40Ww\n\nآموزش MHR-CFW(ترکیب همین، با کلودفلر برای داشتن آیپی خارج): https://youtu.be/L3lJZrAqqUQ\n\nآموزش راه‌اندازی MHRv-RUST با گوشی موبایل: https://youtu.be/7YdJIJloIxY\n\nب- متد MITM برای دسترسی به سرویس‌های بسته شده‌ی گوگل(چون از روش یک حمله‌ی سایبری استفاده میشه روی تلگرام آپلود شده فقط):\nآموزش اول دسترسی به سرویس‌های گوگل و گیتهاب: https://t.me/MatinSenPaii/3151\nآموزش دوم دانلود نامحدود از یوتوب با نت ملی بر پایه‌ی آموزش اول: https://t.me/MatinSenPaii/3230\n\nج- متد Skirk بر پایه‌ی گوگل درایو که مزایاش، سرعت دانلود بالا و معایبش، Latency بالا هست؛ از کانال عزیزی: https://youtu.be/vCr4E6Y1k4c\n\n6- متدهای بر پایه‌ی DNS، که از روز اول جنگ وصل بودن تا آخر قطعی. اما ما اواخر قطعی بود که به بهترین ترکیبش رسیدیم. پروژه‌ی MasterDNS و کلاینت WhiteDNS. مزایا: وصل توی هر شرایطی، قابلیت اجرا روی هر پلتفرم و سیستم عاملی، حتی روی سرور، و اضطراری‌ترین راه چاره‌ی ما\nمعایب: مصرف حدود دو برابری اینترنت(که به نظر خودم می‌ارزه توی اون شرایط) به علت کوئری‌های DNS فراوان. همینطور نیاز به سرور داره اما از سرورهای رایگان هم می‌تونید استفاده کنید(طبیعتا سرعت خیلی پایینتر)\nآموزش کامل راه‌اندازی روی گوشی و سیستم: https://youtu.be/6Pm7kNQb3mo",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3680",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/O4Dh75k_NalTHO7Gnhc5l7miV2wtoKsx3gbMcKq6l1dV-VV3Nn2SDhP4a9Fmbi3zL5JOoS1jZ_q8LwBiSyxQHMKHpzlopb3BFHE32TAoQSbFrlAibqhYU7uVhF2uo-f0QNObrR2WaHqw99rhKhOWen2OBOSlKKCUJGyY7sLAfDegi6aHrzvFaoBTGUHMBxreJlsaHvQWWSFGWz0dMPSZKvBUb-aft5QKFqAe30wO4iHj-W9oyWkEmfKaQIIqJXNgHHa2zLv9Isn8a8DBH348Y_n8KjiTWB3Ims-yoZCpCFAotFF8Gm9O-jVXV-NUQ1g9KttO3ZE5nO8BhoaFFvo71g.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/22be6ef7bb8e610eb8a94847.jpg",
-          "thumbnail_sha256": "d5144aecc1ac380ff17f163ca74de4d3f731a138031b763f682f50d1490d84d6",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "6"
-        },
-        {
-          "emoji": "❤",
-          "count": "1.23K"
-        },
-        {
-          "emoji": "🔥",
-          "count": "56"
-        },
-        {
-          "emoji": "👍",
-          "count": "48"
-        },
-        {
-          "emoji": "🎃",
-          "count": "12"
-        }
-      ],
-      "views_label": "56.6K",
-      "posted_at": "2026-06-03T11:26:42+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3680",
       "reply": null
     }
   ]
