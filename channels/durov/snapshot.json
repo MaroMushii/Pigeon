@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-11T17:51:44.811Z",
+  "fetched_at": "2026-06-11T17:55:13.493Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,47 @@
     "subscriber_count": "11M"
   },
   "posts": [
+    {
+      "id": "durov/524",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/JlSFE836vTsSO76VIEd64kqCLGAS8fb8dCsuvMTVl2e1kRVmaFg-80Tj6mbiJsUFCb5y8RQ8wgzWktS16rrJZXpIN9JdNOKOll-xWhHzbTDgmwhK3MGfUtXBlONvYCtB2B3hk6fXjFUyRSu_EIxhmvokusUsV6FuJ2VJECl0ElXbkm2OtVxowKB1Qf0SoVnnZLRw69J6lHqbe0X2eaCbyGzd2AsOWc9WgsoC0h7nR5F4YbnJNS-BIlCxGulGLNhTgm2AVm2AB-dEji8Be2Xyl2YHBWIxuXSg-KY8K5PG_-c-9me9SNpEcBpTW9SPuZhVl7g_pzcUWonklozkU9q7Fg.jpg",
+      "author_photo_path": "channels/durov/media/4b70caf7be13ea75a1ec231f.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<tg-emoji emoji-id=\"5224615466890193456\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28C9A.png')\"><b>⌚️</b></i></tg-emoji> Telegram is now on <b>Wear OS</b>.<br><br>Owners of Galaxy Watch, Pixel Watch, Xiaomi Watch and other smartwatches — enjoy! <tg-emoji emoji-id=\"6132093145447404748\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29895.png')\"><b>☕️</b></i></tg-emoji>",
+      "plain_text": "⌚️ Telegram is now on Wear OS.\n\nOwners of Galaxy Watch, Pixel Watch, Xiaomi Watch and other smartwatches — enjoy! ☕️",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/durov/524",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/AcbWOzEskHMc6Gc9oRnLBMtqmojA7Mni7GeHkUxZvS8HU7fUGqaI_ZNuEugiX6MAo4FtLRNbzeV-30EqOSzOIpiqOe61wWFxXI5YY0es0_9LclNy7EjMoYSdKLRrPUhBpmP0pqjqsuf0QYqzHZYAgB2ik8kkg3F72i1DKnivCRa0EVb3hoHMC2EgJAFFcMUPRdqncyr9sYnR_5jPOwb_7DQNYeBGn4BPikh32ry5iBupwT1jPO2-ZE5wEkJZ0Z5KYBuVqiRjzQ7UuBQEUlgVSX1UUzF51uIF3kp8RdpW77PCmrDCss8FlOOVqZxY8YXRZS4yT6kBIJKxxw1CpcsyOg",
+          "thumbnail_path": "channels/durov/media/16e20b3f2e0b436912121f31.jpg",
+          "thumbnail_sha256": "192ca185aa7459a4ff7f21eb85fef02d32f81f052ddc7f375ee60a531c97f963",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "124"
+        },
+        {
+          "emoji": "💎",
+          "count": "2"
+        },
+        {
+          "emoji": "💎",
+          "count": "1"
+        }
+      ],
+      "views_label": "21K",
+      "posted_at": "2026-06-11T17:54:31+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/524",
+      "reply": null
+    },
     {
       "id": "durov/523",
       "author_name": "Pavel Durov",
@@ -50,7 +91,7 @@
           "count": "10.3K"
         }
       ],
-      "views_label": "990K",
+      "views_label": "991K",
       "posted_at": "2026-06-09T19:33:51+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/523",
