@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-11T17:46:49.613Z",
+  "fetched_at": "2026-06-11T17:51:46.325Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/220404",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/S3OxExwEvm_t79PSW3o7A_DlfGpQGfWy542cvSEMg98kH7hjBVjJ6D6HLvGmeEGc9C2AR67LjC6fXWFWi1KD--yC_YpDsxoCZsaBgUKWYwB_Rbnp-FvoSq_SFMHzXNvDLddTmfQk1ga6Ih-1-B6DiImebboxngNgxWSHcYEDcme4WoCffv-vMdBbnShACmT63u5Rrf-C2wrLfFjuQnmqITd2EacvoMgTssax-b4tCTakbkhgem8hQ_IX3ScrleF-zyyqlibznCvsfGibRGy8BSy5JsTOlfiUsQJimSLEoBFZ1ziCmk648Q9VNL8Pry4RRA4wnZCfxto0vb2POiyQCw.jpg",
+      "author_photo_path": "channels/farsivoa/media/976b59c4708c3577a88a92cb.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>رئیس جمهوری آمریکا می‌گوید از آن جا که مذاکرات به بالاترین سطح رهبری رژیم ایران رسیده او حملاتی را که برای شامگاه پنج‌شنبه برنامه‌ریزی‌شده بود، لغو کرده است، او با این حال تاکید کرد که محاصره تا نهایی شدن توافق ادامه خواهد داشت.",
+      "plain_text": "⚡️رئیس جمهوری آمریکا می‌گوید از آن جا که مذاکرات به بالاترین سطح رهبری رژیم ایران رسیده او حملاتی را که برای شامگاه پنج‌شنبه برنامه‌ریزی‌شده بود، لغو کرده است، او با این حال تاکید کرد که محاصره تا نهایی شدن توافق ادامه خواهد داشت.",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/220404",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/FOb6g4gL_I3xeB6zOehZdQn1zPJPdEb1u6gwM0P3HtNwrcv7lazV_Ls3ExXTnQl0ObjLA-7cAwU78spgkKwuEJYNy32itQaKdq6o7KF499uAaAv6Gyk8WcJxf4KlZNfUcVLTg2JpB8wVDkS0565tvNOQzoZHI-jP1Oaf69wtpVM3dl5dxdD4uChuEg4dTwEqy7wIl7kgKCbL4Lt9K9JkH_lGxC7knKvAGcRlN4-jotWc94wOHs-HhtyFo-j8GCSzpWd0vSB9jLZTFAGaYa_bFSApCFuinQHG66T-uWc8x9ffoxNV8zsBg8BMukwaaJjg_h3ORsWVbs4HBF6wZxakpQ.jpg",
+          "thumbnail_path": "channels/farsivoa/media/745a1f25df9ff06a076e574f.jpg",
+          "thumbnail_sha256": "f5eb6969fc9a1f6f4863440da1c12771371b06eb7c6f590b582005cd937edcd9",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [],
+      "views_label": "447",
+      "posted_at": "2026-06-11T17:49:31+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/220404",
+      "reply": null
+    },
+    {
       "id": "farsivoa/220403",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/S3OxExwEvm_t79PSW3o7A_DlfGpQGfWy542cvSEMg98kH7hjBVjJ6D6HLvGmeEGc9C2AR67LjC6fXWFWi1KD--yC_YpDsxoCZsaBgUKWYwB_Rbnp-FvoSq_SFMHzXNvDLddTmfQk1ga6Ih-1-B6DiImebboxngNgxWSHcYEDcme4WoCffv-vMdBbnShACmT63u5Rrf-C2wrLfFjuQnmqITd2EacvoMgTssax-b4tCTakbkhgem8hQ_IX3ScrleF-zyyqlibznCvsfGibRGy8BSy5JsTOlfiUsQJimSLEoBFZ1ziCmk648Q9VNL8Pry4RRA4wnZCfxto0vb2POiyQCw.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺سنتکام: تنگه هرمز برای عبور و مرور باز است\n\n▪️فرماندهی مرکزی ایالات متحده آمریکا می‌گوید تنگه هرمز باز است و عبور و مرور برای شناورهایی که محاصره را نقض نکنند، جریان دارد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/escalating-conflicts-iran-america-centcom-strait-of-hormuz/8159771.html",
       "media": [],
       "reactions": [],
-      "views_label": "904",
+      "views_label": "1.48K",
       "posted_at": "2026-06-11T17:40:02+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220403",
@@ -37,7 +65,7 @@
       "plain_text": "🔺اسرائیل: آینده لبنان متعلق به لبنانی‌ها است، نه جمهوری اسلامی و نیابتی‌هایش\n\n▪️اسرائیل می‌گوید که گروه حزب‌الله آینده لبنان را قربانی اهداف خود کرده است و در خدمت منافع جمهوری اسلامی عمل می‌کند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/israel-persian-says-lebanon-not-belonging-to-iran-hezbollah/8159778.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.59K",
+      "views_label": "2.94K",
       "posted_at": "2026-06-11T17:13:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220402",
@@ -53,7 +81,7 @@
       "plain_text": "🔺بسنت: غرامت آسیب‌های وارده به متحدان آمریکا از محل «حساب‌های» رژیم پرداخت خواهد شد\n\n▪️مسابقات جام جهانی فیفا ۲۰۲۶ روز پنجشنبه ۲۱ خرداد، با مراسم افتتاحیه‌ای باشکوه آغاز می‌شود و پس از آن اولین دیدار این رقابت‌ها بین مکزیک، یکی از کشورهای میزبان، و آفریقای جنوبی برگزار می‌شود.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/opening-of-the-world-cup-fifa-mexico-city-usa/8159744.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.56K",
+      "views_label": "2.91K",
       "posted_at": "2026-06-11T17:10:19+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220401",
@@ -81,7 +109,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.08K",
+      "views_label": "3.3K",
       "posted_at": "2026-06-11T16:58:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220400",
@@ -97,7 +125,7 @@
       "plain_text": "🔺بسنت: غرامت آسیب‌های وارده به متحدان آمریکا از محل «حساب‌های» رژیم پرداخت خواهد شد\n\n◾️وزیر خزانه‌داری آمریکا با هشدار درباره تبعات رفتارهای مخرب رژیم ایران در منطقه، تاکید کرد که در نهایت جمهوری اسلامی بازنده خواهد بود.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-bessent-treasury-persian-gulf-strike/8159745.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.02K",
+      "views_label": "3.21K",
       "posted_at": "2026-06-11T16:54:49+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220399",
@@ -125,7 +153,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.35K",
+      "views_label": "3.48K",
       "posted_at": "2026-06-11T16:39:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220398",
@@ -153,7 +181,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.6K",
+      "views_label": "3.73K",
       "posted_at": "2026-06-11T16:33:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220397",
@@ -181,7 +209,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.53K",
+      "views_label": "3.7K",
       "posted_at": "2026-06-11T16:32:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220396",
@@ -197,7 +225,7 @@
       "plain_text": "🔺کایا کالاس پس از تماس با وزیران امور خارجه کویت و جمهوری اسلامی: حملات رژیم به کشورهای منطقه غیرقابل قبول است\n\n▪️نماینده عالی اتحادیه اروپا در امور خارجی تداوم حملات رژیم ایران به کشورهای خلیج فارس را غیرقابل قبول دانست و بر لزوم پرهیز از جنگ تمام‌عیار و پایبندی به دیپلماسی تاکید کرد.\n\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/kaya-kallas-iranian-regime-attacks-persian-gulf-countries-iran/8159761.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.66K",
+      "views_label": "3.76K",
       "posted_at": "2026-06-11T16:19:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220395",
@@ -213,7 +241,7 @@
       "plain_text": "🔺هشدار پرزیدنت ترامپ به جمهوری اسلامی: توافق نشود حملات تشدید خواهد شد\n\n▪️دونالد ترامپ، رئیس جمهوری ایالات متحده، روز پنجشنبه ۲۱ خرداد در گفت‌وگویی با فاکس نیوز اعلام کرد حملات آمریکا علیه رژیم ایران ادامه خواهد یافت و حتی ممکن است در ساعات آینده گسترش پیدا کند. او همچنین گفت جمهوری اسلامی به دنبال توافق است، اما رسانه‌های آمریکا تصویر نادرستی از وضعیت ارائه می‌دهند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/president-trump-military-operation-fox-news-interview/8159755.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.67K",
+      "views_label": "3.76K",
       "posted_at": "2026-06-11T16:15:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220394",
@@ -241,7 +269,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.78K",
+      "views_label": "3.87K",
       "posted_at": "2026-06-11T16:06:06+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220393",
@@ -269,7 +297,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.05K",
+      "views_label": "4.14K",
       "posted_at": "2026-06-11T15:57:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220392",
@@ -297,7 +325,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.08K",
+      "views_label": "4.18K",
       "posted_at": "2026-06-11T15:53:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220391",
@@ -313,7 +341,7 @@
       "plain_text": "🔺دومین نامه پرزیدنت ترامپ به خانواده یکی از کشته‌شدگان اعتراضات دی‌ ۱۴۰۴ ایران\n\n▪️رئیس جمهوری ایالات متحده برای دومین بار به مجید مقدسی، دایی محمدعرفان فرجی از کشته‌شدگان اعتراضات دی ۱۴۰۴ ایران نامه نوشت و بر «بازدارندگی نیروهای نظامی آمریکا در برابر تهدیدها» تاکید کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/president-trump-letter-about-executed-iranian-protester/8159731.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "4.65K",
+      "views_label": "4.72K",
       "posted_at": "2026-06-11T15:43:24+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220390",
@@ -341,7 +369,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.81K",
+      "views_label": "5.88K",
       "posted_at": "2026-06-11T15:03:56+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220389",
@@ -369,7 +397,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.33K",
+      "views_label": "5.39K",
       "posted_at": "2026-06-11T15:00:54+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220388",
@@ -385,7 +413,7 @@
       "plain_text": "🔺حمایت سناتور گراهام از اظهارات پرزیدنت ترامپ درباره تصرف جزیره خارک\n\n▪️لیندزی گراهام، سناتور ارشد جمهوری‌خواه از ایالت کارولینای جنوبی، از اظهارات دونالد ترامپ، رئیس جمهوری ایالات متحده، درباره احتمال تصرف جزیره خارک در صورت عدم دستیابی به توافق با جمهوری اسلامی حمایت کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/sen-graham-says-president-trump-right-to-take-kharg-island/8159722.html",
       "media": [],
       "reactions": [],
-      "views_label": "5.94K",
+      "views_label": "6K",
       "posted_at": "2026-06-11T14:39:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220387",
@@ -413,7 +441,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "6.13K",
+      "views_label": "6.2K",
       "posted_at": "2026-06-11T14:04:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220386",
@@ -429,7 +457,7 @@
       "plain_text": "🔺اسرائیل: حزب‌الله با حمله پهپادی مرتکب «نقض آشکار آتش‌بس» شد\n\n▪️اسرائیل از نقض آشکار آتش‌بس توسط حزب‌الله، نیروی نیابتی جمهوری اسلامی، با شلیک پهپاد به اسرائیل از خاک لبنان خبر داد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/rocket-launch-ceasefire-failure-israel-lebanon-attack/8159703.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "5.63K",
+      "views_label": "5.69K",
       "posted_at": "2026-06-11T13:57:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220385",
@@ -2575,34 +2603,6 @@
       "posted_at": "2026-06-10T22:01:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220301",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/220300",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Fv-dT0zmZckws7J51hmhQ4ypbwf8rebolUVEjjHxFwj-yUWIVXDsNWUOFamZpNiNtQDShWVSDeBd55H5eu_T7-JyOZPctYyBc6C70jezYWm4Ktb8YRqNsZ_QH4nF3r0zx6CAX3N_cPoTRRtVbg2Bp2nfQ_1Jwl7cdbSJ0BrHySTHjC4Se6xUUXKS0DSYT_Em6oQGnIYCpX8X71t7Zd933mrW83nEVcr3Zdm92z7w2Sc_tf60v9Ksnmm7g_bCxi7QsYvu7b8jRdpTtkBnn5g4OLX6jbit10ttRrsQb-oAJevbOoqbzhmONJkQWB-hnwVD1mOfBDOflyNPPm1MeHS-RA.jpg",
-      "author_photo_path": "channels/farsivoa/media/3e4e87248144aebe0318084e.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "ستاد فرماندهی مرکزی آمریکا، چهارشنبه عصر به وقت واشنگتن گفت که نیروهای آمریکایی ساعت ۵:۱۵ بعد از ظهر چهارشنبه به وقت شرق آمریکا، به دستور فرمانده کل قوا (دونالد ترامپ)، «حملات دفاعی» بیشتری را علیه چندین هدف در ایران آغاز کردند.<br><br>سنتکام گفت این حملات در پاسخ به تجاوز بی‌اساس و مداوم رژیم ایران انجام می‌شود.<br><br>باراک راوید، خبرنگار آکسیوس از قول «یک مقام آمریکایی» می‌گوید تمام اهدافی که مورد حمله قرار گرفته‌اند در جنوب ایران هستند و شامل سامانه‌های پدافند هوایی، رادارها و واحدهای فرماندهی و کنترل پهپادها می‌شوند.<br><br>در آغاز عملیات آمریکا، بر اساس گزارش‌های مردمی منتشر شده در کانال وحید‌آنلاین، از ساعت ۱:۰۳ بامداد روز پنج‌شنبه ۲۱ خرداد چندین صدای انفجار شدید در بندرعباس و مناطق اطراف شنیده شده است.<br><br>برخی منابع مردمی اعلام کرده‌اند که شدت انفجارها به‌تدریج افزایش یافته است.<br><br>همچنین گزارش‌هایی از شنیده شدن صدای انفجار در شهرستان میناب، به‌ویژه در نوار ساحلی و محدوده بندرکرگان، منتشر شده که در برخی از آن‌ها ادعا شده یک پاسگاه دریابانی هدف قرار گرفته است.<br><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "ستاد فرماندهی مرکزی آمریکا، چهارشنبه عصر به وقت واشنگتن گفت که نیروهای آمریکایی ساعت ۵:۱۵ بعد از ظهر چهارشنبه به وقت شرق آمریکا، به دستور فرمانده کل قوا (دونالد ترامپ)، «حملات دفاعی» بیشتری را علیه چندین هدف در ایران آغاز کردند.\n\nسنتکام گفت این حملات در پاسخ به تجاوز بی‌اساس و مداوم رژیم ایران انجام می‌شود.\n\nباراک راوید، خبرنگار آکسیوس از قول «یک مقام آمریکایی» می‌گوید تمام اهدافی که مورد حمله قرار گرفته‌اند در جنوب ایران هستند و شامل سامانه‌های پدافند هوایی، رادارها و واحدهای فرماندهی و کنترل پهپادها می‌شوند.\n\nدر آغاز عملیات آمریکا، بر اساس گزارش‌های مردمی منتشر شده در کانال وحید‌آنلاین، از ساعت ۱:۰۳ بامداد روز پنج‌شنبه ۲۱ خرداد چندین صدای انفجار شدید در بندرعباس و مناطق اطراف شنیده شده است.\n\nبرخی منابع مردمی اعلام کرده‌اند که شدت انفجارها به‌تدریج افزایش یافته است.\n\nهمچنین گزارش‌هایی از شنیده شدن صدای انفجار در شهرستان میناب، به‌ویژه در نوار ساحلی و محدوده بندرکرگان، منتشر شده که در برخی از آن‌ها ادعا شده یک پاسگاه دریابانی هدف قرار گرفته است.\n\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/220300",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/japDS6MmVG90LwKNjW6Il6DvNT7euITUqpQJm9vdMKa91h20Oj1K2AF_Qo_EnjVg1sVGUThaXWhAow0UgOCZRdf-D-n4mpd0JYC56Urs86eqFP7phOVbtLqzwDdYz8lHaRxx9Np-LJgAYUe12zIYnocLRSGncvFmC73KbaPx_53eH1zObxo7fqdkfA2-wpWmc-ITfBPQa27mmjpfQtwspZKStV1HOrecG8pMqHQpiD74dEvIGUQ0WaekePmF5PeYNXVz9J8vbPevmFf6sIs51AmnW9JSyw3Pyf_XdnhKmatdzSgDJEQj47lR4pQLTYiIAq1_0XFUvTewBrX3ctT-jg.jpg",
-          "thumbnail_path": "channels/farsivoa/media/2225e2f706e517d1c7cd9adc.jpg",
-          "thumbnail_sha256": "568d6aa4d6fdba2da8ddf525dac75f4bbe1fe35195507b1c474e48c2372ab9ec",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "7.15K",
-      "posted_at": "2026-06-10T21:51:07+00:00",
-      "edited": true,
-      "permalink": "https://t.me/farsivoa/220300",
       "reply": null
     }
   ]
