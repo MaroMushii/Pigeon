@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-12T05:36:46.327Z",
+  "fetched_at": "2026-06-12T05:41:53.928Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "163K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3814",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/OoMsmD8IkY9p2q8rCWElSPq2zJV0Ua8Fhb3erlNPtyoTOLxGkuig4kq_FpPb_dzvCJWOaMVcOp5B5U5ha5oxaBNE_Gwc-ILYStZvY13UX2jEmzKethBIPlgUFQeP_cjxgsNtKcFi1uMo2CHlmw1tWB4vDI-L28ZvmRvvvrvyuM3M8s-_EwZzqWHPkXuE_WjEdw1doGme5cq8__3oJZpTnYCIkKz7sIn0PTNVttmuMZlHwJgSp9BIFFUsw4894I9R8BFK-BXZCQsKw5AfjUc1OrIODRny8vXyUCP7UJsMo8O_IIujy_i9WS12_Y8rqywkUz0wibnRPzUeHOe-rLPr0g.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/435071721a273a1ecebed939.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "‏این روزا اسم Agent Harness رو زیاد میشنویم، ولی بیاید ببینیم واقعا چیه و به چه درد میخوره!<br><br>همونطور که میدونیم context window مدل‌ها محدوده و اگه به صورت کارآمد ازش استفاده نشه، خیلی سریع پر میشه و مدل مجبوره برای ادامه، یک دور summarization انجام بده.<br><br>بعد از چند دور summarize کردن، نهایتا بخشی از دیتای مهم از بین میره و تسک به صورت کامل انجام نمیشه! پس اومدیم یک سری تکنیک پیاده کردیم مثل تقسیم کار بین sub-agentها تا از پر شدن سریع کانتکس اصلی جلوگیری کنیم.<br><br>بعد این ایده مطرح شد که بیایم هدف نهایی (PRD) رو تعریف کنیم و اون رو به تعداد زیادی sub-task تقسیم کنیم، بعد مدل رو در یک loop بندازیم که با هر بار اجرا، یک context و یک prompt جدید داشته باشه و بعد از هر iteration چک کنیم که تسک به صورت کامل انجام شده، و در غیر اینصورت چرخه رو دوباره تکرار کنیم!<br><br>در واقع به جای اینکه برای اتمام تسک به مدل اعتماد کنیم، ما در یک لایه بالاتر این رو validate میکنیم و اجینتِ تنبل رو harness می‌کنیم :))<br><br><tg-emoji emoji-id=\"5470060791883374114\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <a href=\"https://x.com/i/status/2065021912728633357\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Amir</a>",
+      "plain_text": "‏این روزا اسم Agent Harness رو زیاد میشنویم، ولی بیاید ببینیم واقعا چیه و به چه درد میخوره!\n\nهمونطور که میدونیم context window مدل‌ها محدوده و اگه به صورت کارآمد ازش استفاده نشه، خیلی سریع پر میشه و مدل مجبوره برای ادامه، یک دور summarization انجام بده.\n\nبعد از چند دور summarize کردن، نهایتا بخشی از دیتای مهم از بین میره و تسک به صورت کامل انجام نمیشه! پس اومدیم یک سری تکنیک پیاده کردیم مثل تقسیم کار بین sub-agentها تا از پر شدن سریع کانتکس اصلی جلوگیری کنیم.\n\nبعد این ایده مطرح شد که بیایم هدف نهایی (PRD) رو تعریف کنیم و اون رو به تعداد زیادی sub-task تقسیم کنیم، بعد مدل رو در یک loop بندازیم که با هر بار اجرا، یک context و یک prompt جدید داشته باشه و بعد از هر iteration چک کنیم که تسک به صورت کامل انجام شده، و در غیر اینصورت چرخه رو دوباره تکرار کنیم!\n\nدر واقع به جای اینکه برای اتمام تسک به مدل اعتماد کنیم، ما در یک لایه بالاتر این رو validate میکنیم و اجینتِ تنبل رو harness می‌کنیم :))\n\n✍️ Amir",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3814",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Q7ejXXJ8B5Nucn-NTLazRkXeco3dTkWpz1sQ09fCPbnzvF2YYIIe4rnSTD2UW0ppc3AROpnc8nX5NCKTFjPANSAfhk0TubczFGC8IO9BsuSYvKdnfW7AvBZfoVggkwul-YeJVY-JV5KxjGsvCvSs6g9S_ekHYZ1Z7Ken4AjgcXKr1vYNIaRclHG2E_tewS8wmpPglt_F8MrdL_wOF5QFIJgP92niZfywmZhX9TfAn8KzNLVALjbA3n--19d4LYbzlY29mt75T9Ur8nqrq48avVXIHOYxRvSoumanKrFbyQJtrTIT7yi8xcfn52lPl6e8zl2TkVLhId6I6ngDmXX26A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/9479a178481c64457ac60c78.jpg",
+          "thumbnail_sha256": "ee2d26f8b0bc51ca0d82003cb73f9d3edc03dad951d76068b1cadc9007e98695",
+          "duration_label": null,
+          "aspect_ratio": 1.0610079575596818
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "5"
+        },
+        {
+          "emoji": "😁",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.22K",
+      "posted_at": "2026-06-12T05:37:05+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3814",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3813",
       "author_name": "Matin SenPai",
@@ -35,7 +72,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "101"
+          "count": "105"
         },
         {
           "emoji": "❤",
@@ -43,10 +80,10 @@
         },
         {
           "emoji": "👎",
-          "count": "4"
+          "count": "5"
         }
       ],
-      "views_label": "9.01K",
+      "views_label": "9.65K",
       "posted_at": "2026-06-12T03:31:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3813",
@@ -121,7 +158,7 @@
           "count": "5"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.5K",
       "posted_at": "2026-06-11T21:44:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3811",
@@ -185,7 +222,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "211"
+          "count": "212"
         },
         {
           "emoji": "👎",
@@ -200,7 +237,7 @@
           "count": "4"
         }
       ],
-      "views_label": "32K",
+      "views_label": "32.3K",
       "posted_at": "2026-06-11T20:43:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3809",
@@ -246,7 +283,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.9K",
+      "views_label": "27.1K",
       "posted_at": "2026-06-11T20:22:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3808",
@@ -291,7 +328,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.6K",
+      "views_label": "29.7K",
       "posted_at": "2026-06-11T20:22:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3807",
@@ -322,7 +359,7 @@
         },
         {
           "emoji": "❤",
-          "count": "207"
+          "count": "208"
         },
         {
           "emoji": "👍",
@@ -333,7 +370,7 @@
           "count": "8"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.7K",
       "posted_at": "2026-06-11T19:20:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3806",
@@ -355,7 +392,7 @@
         },
         {
           "emoji": "😭",
-          "count": "449"
+          "count": "450"
         },
         {
           "emoji": "💔",
@@ -370,7 +407,7 @@
           "count": "28"
         }
       ],
-      "views_label": "32.4K",
+      "views_label": "32.5K",
       "posted_at": "2026-06-11T18:35:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3805",
@@ -409,7 +446,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "191"
+          "count": "192"
         },
         {
           "emoji": "👍",
@@ -424,7 +461,7 @@
           "count": "10"
         }
       ],
-      "views_label": "39.6K",
+      "views_label": "39.7K",
       "posted_at": "2026-06-11T18:19:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3804",
@@ -469,7 +506,7 @@
           "count": "7"
         }
       ],
-      "views_label": "35.2K",
+      "views_label": "35.3K",
       "posted_at": "2026-06-11T17:04:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3803",
@@ -528,7 +565,7 @@
         },
         {
           "emoji": "👎",
-          "count": "680"
+          "count": "681"
         },
         {
           "emoji": "❤",
@@ -543,7 +580,7 @@
           "count": "8"
         }
       ],
-      "views_label": "36.4K",
+      "views_label": "36.5K",
       "posted_at": "2026-06-11T16:28:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3801",
@@ -585,7 +622,7 @@
           "count": "5"
         }
       ],
-      "views_label": "39.3K",
+      "views_label": "39.4K",
       "posted_at": "2026-06-11T15:00:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3800",
@@ -673,7 +710,7 @@
           "count": "45"
         }
       ],
-      "views_label": "41.9K",
+      "views_label": "42K",
       "posted_at": "2026-06-11T13:47:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3798",
@@ -715,7 +752,7 @@
           "count": "94"
         }
       ],
-      "views_label": "42.8K",
+      "views_label": "42.9K",
       "posted_at": "2026-06-11T13:44:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3797",
@@ -733,7 +770,7 @@
       "reactions": [
         {
           "emoji": "😭",
-          "count": "316"
+          "count": "317"
         },
         {
           "emoji": "❤",
@@ -781,7 +818,7 @@
           "count": "6"
         }
       ],
-      "views_label": "42.5K",
+      "views_label": "42.6K",
       "posted_at": "2026-06-11T12:39:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3794",
@@ -926,7 +963,7 @@
           "count": "6"
         }
       ],
-      "views_label": "44.8K",
+      "views_label": "44.9K",
       "posted_at": "2026-06-11T10:09:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3789",
@@ -4114,43 +4151,6 @@
       "posted_at": "2026-06-04T17:01:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3700",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3701",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/kimjLMwXKMNgKLWaWAKVl6-3a6n64DIJ9PLAu4JyqAAPiNUqB2--G7IkaS2TaLdWdmkBK9dY_EORMfR1H9qExYEcCePWQe7hqt6ool5j7n2dYtXHz9r3fwrOICczvqpg5dE7UictEBle9h5VVEwlqdhLXT6ICE5LDwZvC1sDilt51fg0CsNKacKzdPXJb3_09Sp9PERacvALucasyU7GULcMDnmmv_MghXpOfggJECSjmXk-PCrp67p4g-vlszFmVBeT66u2YYm1MDNgQKyabDnPgxOlFsAxwF_4sq1r1LLI4soYobEuFExuKwjk-V_D9dL02DVbO7gxIKpeNZBhkQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/824a0e4e0ba8c18b861ecef6.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> چند نکته کاربردی برای بهتر وصل شدن با FlClash در اندروید<br></b><br>یکی از کاربران WhiteDNS تجربه‌ی شخصی خودش را از کار با FlClash فرستاده که برای اتصال بهتر مؤثر بوده.<br><br>اگر با FlClash مشکل اتصال، آپدیت نشدن ساب، پینگ‌های عجیب یا ناپایداری دارید، این موارد را امتحان کنید.<br><br>━━━━━━━━━━━━━━<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> بعد از نصب، قبل از اضافه کردن ساب، Resourceها را آپدیت کنید<br></b><br>بعد از نصب FlClash، قبل از اینکه لینک سابسکریپشن را اضافه کنید، وارد این بخش شوید:<br><br><code>Tools → Resource<br></code><br>و تمام Resourceها را آپدیت کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> نکته مهم:<br><blockquote>طبق تجربه‌ی بعضی کاربران، اگر اول لینک ساب را اضافه کنید، ممکن است بعداً Resourceها درست آپدیت نشوند یا اپ رفتار عجیب نشان بدهد.<br></blockquote><br><b>━━━━━━━━━━━━━━<br></b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> تنظیمات Network<br></b><br>از بخش Network این موارد را بررسی کنید:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> گزینه‌ی DNS Hijack را فعال کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D8C.png')\"><b>❌</b></i> گزینه‌ی<code> Allow applications to bypass VPN </code>را غیرفعال کنید.<br><br>این کار کمک می‌کند برنامه‌ها ترافیک یا DNS را از بیرون VPN رد نکنند.<br><br><b>━━━━━━━━━━━━━━<br></b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/33E283A3.png')\"><b>3️⃣</b></i> تنظیمات دسترسی و اجرای پس‌زمینه<br></b><br>بعد از نصب وارد این مسیر شوید:<br><br><code>Tools → Advanced Configuration → On Demand<br></code><br>در این بخش، گزینه‌های مربوط به دسترسی‌ها را روی Authorized قرار دهید.<br><br>همچنین در تنظیمات باتری گوشی، برای FlClash حالت Battery Optimization را غیرفعال کنید تا اندروید برنامه را در پس‌زمینه نبندد.<br><br><b>━━━━━━━━━━━━━━<br></b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/34E283A3.png')\"><b>4️⃣</b></i> گوشی روی Power Saving نباشد<br></b><br>اگر گوشی روی حالت<code> Power Saving / Battery </code>Saver باشد، ممکن است اتصال ناپایدار شود یا برنامه در پس‌زمینه قطع شود.<br><br>برای استفاده بهتر از FlClash، هنگام اتصال، حالت Power Saving را خاموش کنید.<br><br><b>━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/35E283A3.png')\"><b>5️⃣</b></i> تنظیمات DNS</b><br><br>از بخش DNS:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> گزینه‌ی Override DNS را فعال کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8D.png')\"><b>🌍</b></i> گزینه‌ی GeoIP Code را روی IR قرار دهید.<br><br>بعد از این تغییرات، لینک ساب را اضافه کنید و تست پینگ بگیرید.<br><br><b>━━━━━━━━━━━━━━<br></b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/36E283A3.png')\"><b>6️⃣</b></i> اگر ساب آپدیت نمی‌شود، حذف و دوباره اضافه کنید<br></b><br>طبق تجربه‌ی بعضی کاربران، FlClash گاهی نشان می‌دهد که ساب آپدیت شده، اما در عمل لیست کانفیگ‌ها تغییر نکرده است.<br><br>اگر حس کردید ساب درست آپدیت نشده:<br><br>1. لینک ساب را حذف کنید.<br>2. دوباره همان لینک را اضافه کنید.<br>3. مجدد پینگ بگیرید و تست اتصال انجام دهید.<br><br><b>━━━━━━━━━━━━━━<br></b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/37E283A3.png')\"><b>7️⃣</b></i> در تب Auto کمی صبر کنید<br></b><br>طبق تجربه‌ی کاربر، بعد از حذف و اضافه کردن دوباره‌ی ساب و گرفتن پینگ در تب Auto، ممکن است اول فقط چند سرور پینگ بدهند و بقیه Timeout شوند.<br><br>اما بعد از اولین اتصال، FlClash ممکن است خودش شروع کند سرورها را دوباره بررسی کند و از بالای لیست Auto دونه‌دونه سرورها را تست کند تا به گزینه‌ی بهتر برسد.<br><br>یعنی ممکن است اول یک سرور اصلاً پینگ ندهد یا در لیست بالا نباشد، اما بعد از اولین اتصال، همان سرور یا سرورهای دیگر دوباره تست شوند و وصل شوند.<br><br><blockquote><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28FB3.png')\"><b>⏳</b></i> گاهی این روند کمی زمان می‌برد، پس اگر همان لحظه همه‌چیز Timeout بود، چند دقیقه صبر کنید و دوباره وضعیت را بررسی کنید.<br></blockquote><br><b>━━━━━━━━━━━━━━<br></b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/38E283A3.png')\"><b>8️⃣</b></i> مرتب‌سازی سرورها بر اساس پینگ<br></b><br>برای اینکه سرورهایی که پینگ گرفته‌اند بالای لیست بیایند، روی سه‌نقطه بزنید و وارد این مسیر شوید:<br><br><code>⋮ → Settings → Sort → Delay<br></code><br>با این کار، سرورهایی که پینگ بهتری دارند بالاتر نمایش داده می‌شوند و انتخاب سرور راحت‌تر می‌شود.<br><br><b>━━━━━━━━━━━━━━<br></b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> ترتیب پیشنهادی بعد از نصب FlClash<br></b><br>1. نصب FlClash<br>2. آپدیت Resourceها از بخش Tools → Resource<br>3. فعال کردن DNS Hijack<br>4. غیرفعال کردن Allow applications to bypass VPN<br>5. فعال کردن Override DNS<br>6. تنظیم GeoIP Code روی IR<br>7. غیرفعال کردن Battery Optimization برای FlClash<br>8. خاموش بودن Power Saving گوشی<br>9. اضافه کردن لینک ساب<br>10. رفتن به تب Auto و گرفتن پینگ<br>11. تنظیم Sort روی Delay<br>12. اتصال و چند دقیقه صبر برای تست خودکار سرورها<br><br><b>━━━━━━━━━━━━━━<br></b><br><blockquote><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> این تنظیمات تضمینی نیست، چون شرایط اینترنت، اپراتور و گوشی‌ها متفاوت است؛ اما برای بعضی کاربران باعث اتصال بهتر و پایدارتر شده است.<br></blockquote><br><br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> لینک ساب WhiteDNS برای FlClash:</b><br><a href=\"https://sub.whitedns.one/sub/mihomo.yaml\" target=\"_blank\" rel=\"noopener\">https://sub.whitedns.one/sub/mihomo.yaml</a><br><br><b>لینک ساب برای اپ های V2Ray<br></b><a href=\"https://sub.whitedns.one/sub/base64.txt\" target=\"_blank\" rel=\"noopener\">https://sub.whitedns.one/sub/base64.txt</a><br><br><tg-emoji emoji-id=\"5771777713236877062\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji> <b>یا دسترسی ساب از گیتهاب </b><br><br><b>لینک ساب برای  Clash Party &amp; Mi Clash &amp; FLClash<br></b><a href=\"https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml\" target=\"_blank\" rel=\"noopener\">https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml</a><br><br><b>لینک ساب برای اپ های V2Ray <br></b><a href=\"https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/base64.txt\" target=\"_blank\" rel=\"noopener\">https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/base64.txt</a>",
-      "plain_text": "📌 چند نکته کاربردی برای بهتر وصل شدن با FlClash در اندروید\n\nیکی از کاربران WhiteDNS تجربه‌ی شخصی خودش را از کار با FlClash فرستاده که برای اتصال بهتر مؤثر بوده.\n\nاگر با FlClash مشکل اتصال، آپدیت نشدن ساب، پینگ‌های عجیب یا ناپایداری دارید، این موارد را امتحان کنید.\n\n━━━━━━━━━━━━━━\n\n1️⃣ بعد از نصب، قبل از اضافه کردن ساب، Resourceها را آپدیت کنید\n\nبعد از نصب FlClash، قبل از اینکه لینک سابسکریپشن را اضافه کنید، وارد این بخش شوید:\n\nTools → Resource\n\nو تمام Resourceها را آپدیت کنید.\n\n⚠️ نکته مهم:\nطبق تجربه‌ی بعضی کاربران، اگر اول لینک ساب را اضافه کنید، ممکن است بعداً Resourceها درست آپدیت نشوند یا اپ رفتار عجیب نشان بدهد.\n\n━━━━━━━━━━━━━━\n\n2️⃣ تنظیمات Network\n\nاز بخش Network این موارد را بررسی کنید:\n\n✅ گزینه‌ی DNS Hijack را فعال کنید.\n\n❌ گزینه‌ی Allow applications to bypass VPN را غیرفعال کنید.\n\nاین کار کمک می‌کند برنامه‌ها ترافیک یا DNS را از بیرون VPN رد نکنند.\n\n━━━━━━━━━━━━━━\n\n3️⃣ تنظیمات دسترسی و اجرای پس‌زمینه\n\nبعد از نصب وارد این مسیر شوید:\n\nTools → Advanced Configuration → On Demand\n\nدر این بخش، گزینه‌های مربوط به دسترسی‌ها را روی Authorized قرار دهید.\n\nهمچنین در تنظیمات باتری گوشی، برای FlClash حالت Battery Optimization را غیرفعال کنید تا اندروید برنامه را در پس‌زمینه نبندد.\n\n━━━━━━━━━━━━━━\n\n4️⃣ گوشی روی Power Saving نباشد\n\nاگر گوشی روی حالت Power Saving / Battery Saver باشد، ممکن است اتصال ناپایدار شود یا برنامه در پس‌زمینه قطع شود.\n\nبرای استفاده بهتر از FlClash، هنگام اتصال، حالت Power Saving را خاموش کنید.\n\n━━━━━━━━━━━━━━\n\n5️⃣ تنظیمات DNS\n\nاز بخش DNS:\n\n✅ گزینه‌ی Override DNS را فعال کنید.\n\n🌍 گزینه‌ی GeoIP Code را روی IR قرار دهید.\n\nبعد از این تغییرات، لینک ساب را اضافه کنید و تست پینگ بگیرید.\n\n━━━━━━━━━━━━━━\n\n6️⃣ اگر ساب آپدیت نمی‌شود، حذف و دوباره اضافه کنید\n\nطبق تجربه‌ی بعضی کاربران، FlClash گاهی نشان می‌دهد که ساب آپدیت شده، اما در عمل لیست کانفیگ‌ها تغییر نکرده است.\n\nاگر حس کردید ساب درست آپدیت نشده:\n\n1. لینک ساب را حذف کنید.\n2. دوباره همان لینک را اضافه کنید.\n3. مجدد پینگ بگیرید و تست اتصال انجام دهید.\n\n━━━━━━━━━━━━━━\n\n7️⃣ در تب Auto کمی صبر کنید\n\nطبق تجربه‌ی کاربر، بعد از حذف و اضافه کردن دوباره‌ی ساب و گرفتن پینگ در تب Auto، ممکن است اول فقط چند سرور پینگ بدهند و بقیه Timeout شوند.\n\nاما بعد از اولین اتصال، FlClash ممکن است خودش شروع کند سرورها را دوباره بررسی کند و از بالای لیست Auto دونه‌دونه سرورها را تست کند تا به گزینه‌ی بهتر برسد.\n\nیعنی ممکن است اول یک سرور اصلاً پینگ ندهد یا در لیست بالا نباشد، اما بعد از اولین اتصال، همان سرور یا سرورهای دیگر دوباره تست شوند و وصل شوند.\n\n⏳ گاهی این روند کمی زمان می‌برد، پس اگر همان لحظه همه‌چیز Timeout بود، چند دقیقه صبر کنید و دوباره وضعیت را بررسی کنید.\n\n━━━━━━━━━━━━━━\n\n8️⃣ مرتب‌سازی سرورها بر اساس پینگ\n\nبرای اینکه سرورهایی که پینگ گرفته‌اند بالای لیست بیایند، روی سه‌نقطه بزنید و وارد این مسیر شوید:\n\n⋮ → Settings → Sort → Delay\n\nبا این کار، سرورهایی که پینگ بهتری دارند بالاتر نمایش داده می‌شوند و انتخاب سرور راحت‌تر می‌شود.\n\n━━━━━━━━━━━━━━\n\n✅ ترتیب پیشنهادی بعد از نصب FlClash\n\n1. نصب FlClash\n2. آپدیت Resourceها از بخش Tools → Resource\n3. فعال کردن DNS Hijack\n4. غیرفعال کردن Allow applications to bypass VPN\n5. فعال کردن Override DNS\n6. تنظیم GeoIP Code روی IR\n7. غیرفعال کردن Battery Optimization برای FlClash\n8. خاموش بودن Power Saving گوشی\n9. اضافه کردن لینک ساب\n10. رفتن به تب Auto و گرفتن پینگ\n11. تنظیم Sort روی Delay\n12. اتصال و چند دقیقه صبر برای تست خودکار سرورها\n\n━━━━━━━━━━━━━━\n\n⚠️ این تنظیمات تضمینی نیست، چون شرایط اینترنت، اپراتور و گوشی‌ها متفاوت است؛ اما برای بعضی کاربران باعث اتصال بهتر و پایدارتر شده است.\n\n\n\n🔗 لینک ساب WhiteDNS برای FlClash:\nhttps://sub.whitedns.one/sub/mihomo.yaml\n\nلینک ساب برای اپ های V2Ray\nhttps://sub.whitedns.one/sub/base64.txt\n\n📱 یا دسترسی ساب از گیتهاب\n\nلینک ساب برای Clash Party & Mi Clash & FLClash\nhttps://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml\n\nلینک ساب برای اپ های V2Ray\nhttps://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/base64.txt",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "204"
-        },
-        {
-          "emoji": "👍",
-          "count": "21"
-        },
-        {
-          "emoji": "👎",
-          "count": "15"
-        },
-        {
-          "emoji": "😨",
-          "count": "8"
-        }
-      ],
-      "views_label": "44.5K",
-      "posted_at": "2026-06-04T17:01:18+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3701",
       "reply": null
     }
   ]
