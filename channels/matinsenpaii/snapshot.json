@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-12T16:02:10.822Z",
+  "fetched_at": "2026-06-12T16:07:02.951Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "163K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3824",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/D6nIAJAn6mXi2HaM5xpj5niwowP9fqjWKrkOUodc26glr4YbAnDy1vEsuP7mB0X2nM0oPSnPg3AfsgV61nbhPoUR0dwaChz2BHNzUZp_SSlEXYJYk0QO2VT1EQCM29NxALki2rNWtv1O_sraF1vbAhnrMrYc1_J-nPf297BXZXGtFyvDkCcK_W9PGZxwrVwNZKYEtL_YsAtsxiyxjgQwSwlNuBEfpFOMQqQRZkASejh2D8-H1tZQqfcGvt6FH48K8zxuyFB9NjvpDO4iQH-Cq052MhFQ_Il-1PR4LExNsaUIIT3a_gz7DzNpxxsOXS45JjZe618R2itS8uNxH-DkeQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/358e74c0fd1b3f9e96c4a5ac.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>شیائومی از MiMo Code رونمایی کرد</b><br><br>توی این مجله‌های زرد دنیای AI بهش لقب «قاتل Claude Code و OpenCode» رو دادن؛ ولی بذارید واقع‌بین باشیم — یه سری ویژگی‌های جذاب داره، اما قاتل این دو تا عزیز دل نیست <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9881.png')\"><b>😁</b></i> (مخصوصاً که خودش <b>فورک OpenCode</b> هست!).<br><br>خلاصه‌ی ماجرا: تیم MiMo شیائومی به‌تازگی، دو روز پیش (۱۰ ژوئن ۲۰۲۶) نسخه‌ی <b>v0.1.0</b> از یه <b>AI coding agent اوپن‌سورس</b> با لایسنس MIT منتشر کرده که توی ترمینال کار می‌کنه و برای پروژه‌های پیچیده و <b>long-horizon</b> (بیش از ۲۰۰ مرحله) ساخته شده. این ابزار فقط کد نمی‌نویسه؛ می‌تونه دستور اجرا کنه، با Git کار کنه و در طول جلسات مختلف، درک عمیقی از پروژه‌ت رو حفظ کنه.<br><br>از اون‌جا که نسخه v0.1.0 هست، طبیعتاً یه پروژه‌ی اولیه و اکتشافیه — ولی معماری‌ش جدی و قابل‌بررسیه.<br><br><b>ویژگی‌های جذابش:</b><br><br><b>۱. حافظه ماندگار (Persistent Memory):</b> برخلاف ابزارهای فعلی که فقط به context window مدل تکیه می‌کنن، اینجا یه subagent جداگانه (به اسم checkpoint-writer) توی پس‌زمینه کار می‌کنه و تصمیم‌ها و پیشرفت رو لحظه‌به‌لحظه ثبت می‌کنه. حافظه روی <b>SQLite FTS5</b> (جست‌وجوی full-text) ذخیره می‌شه و توی فایل‌هایی مثل <code>MEMORY.md</code>، <code>checkpoint.md</code> و <code>tasks/&lt;id&gt;/progress.md</code> نگه‌داری می‌شه. وقتی context پر می‌شه، خودش از روی آخرین checkpoint بازسازیش می‌کنه؛ یعنی دیگه نیازی نیست پروژه رو از اول یاد بگیره.<br><br><b>۲. ویژگی Dream و Distill (خودتکاملی):</b> دستور <code>/dream</code> به راحتی جلسات اخیر رو اسکن می‌کنه، دانش مهم رو به حافظه پروژه منتقل می‌کنه و موارد قدیمی رو حذف می‌کنه. دستور <code>/distill</code> هم کارهای تکراری رو پیدا می‌کنه و تبدیلشون می‌کنه به skill یا command قابل‌استفاده مجدد. هر چی بیشتر کار کنی، بهتر «پروژه‌ی شما رو می‌شناسه».<br><br><b>۳. قابلیت Max Mode (آزمایشی):</b> چند راه‌حل موازی تولید می‌کنه (best-of-N) و با یه مدل داور بهترین رو انتخاب می‌کنه. که با <code>experimental.maxMode</code> توی فایل کانفیگ می‌تونید فعالش کنید.<br><br><b>۴. قابلیت Goal Mode:</b> با دستور <code>/goal</code> یه شرط توقف تعیین می‌کنی؛ وقتی agent می‌خواد متوقف بشه، یه <b>مدل داور مستقل</b> چک می‌کنه که واقعاً شرط برآورده شده یا نه — در نتیجه جلوی توقف زودهنگام و خوش‌بینانه رو می‌گیره.<br><br><b>۵. ویژگی Compose Mode:</b> با زدن کلید Tab فعال می‌شه و یه workflow ساختاریافته برای توسعه مبتنی بر spec ارائه می‌ده — با skillهای داخلی برای planning، اجرا، code review، TDD، دیباگ و merge. کل چرخه از spec تا کد نهایی.<br><br><b>۶. ورودی صوتی، Git و Multimodal:</b> ورودی صوتی real-time با <code>/voice</code> (بر پایه MiMo ASR و TenVAD، مخصوص کاربران لاگین‌شده)؛ مستقیم با Git پروژه‌ت کار می‌کنه و multimodal هم هست.<br><br><b>۷. سازگار با Claude Code:</b> authentication، skillها، MCP serverها و دستورهای قبلی رو توی یه مرحله import می‌کنه از پروژه‌ای که داشتید با Claude می‌زدید.<br><br><b>۸. انعطاف‌پذیری مدل:</b> MiMo Auto به‌صورت <b>رایگان(1 میلیون توکن اگز اشتباه نکنم) برای مدت محدود</b> و بدون کانفیگ در دسترسه، ولی خودش هم از هر API سازگار با OpenAI و prov/erهایی مثل Anthropic، DeepSeek، Kimi و GLM هم پشتیبانی می‌کنه — یعنی vendor lock-in نداریم.<br><br><b>نتیجه؟</b> طبق ادعای شیائومی، توی بنچمارک‌های SWE-Bench Pro و Terminal Bench 2 (به‌ترتیب ۶۲٪ و ۷۳٪)، با همون مدل پایه حدوداً <b>۵ درصد</b> از Claude Code جلوتره(که هنوز بعید میدونم. به چینی‌ها اعتماد ندارم). اما می‌گن تفاوت واقعی‌ش جایی خودش رو نشون می‌ده که کار طولانی و چندمرحله‌ای باشه — نه «له کردن»، ولی برتری معناداری توی long-horizon.<br><br><br>نحوه استفاده (خیلی ساده):<br><br><b>۱. نصب یک‌خطی (Mac/Linux):</b><br><pre>curl -fsSL https://mimo.xiaomi.com/install | bash</pre><br>(بهترین تجربه با iTerm یا ترمینال VSCode)<br><br><b>ویندوز:</b><br><pre>npm install -g @mimo-ai/cli</pre><br><b>۲. اولین اجرا:</b> خودش راهنمایی می‌کنه — MiMo Auto (رایگان) رو انتخاب می‌کنیم، با حساب شیائومی لاگین می‌کنیم، از Claude Code Import می‌کنیم تنظیمات و... رو، یا خودمون می‌سازیم.<br><br><b>۳.</b> می‌ریم تو پروژه و کار رو بهش می‌سپریم (با زدن Tab بین agentهای build / plan / compose سوییچ می‌کنیم).<br><br><b>لینک‌ها:</b><br>- گیت‌هاب: <code>github.com/XiaomiMiMo/MiMo-Code</code><br>- سایت: <code>mimo.xiaomi.com/en/mimocode</code><br>- بلاگ فنی (درباره long-horizon): <code>mimo.xiaomi.com/en/blog/mimo-code-long-horizon</code><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "شیائومی از MiMo Code رونمایی کرد\n\nتوی این مجله‌های زرد دنیای AI بهش لقب «قاتل Claude Code و OpenCode» رو دادن؛ ولی بذارید واقع‌بین باشیم — یه سری ویژگی‌های جذاب داره، اما قاتل این دو تا عزیز دل نیست 😁 (مخصوصاً که خودش فورک OpenCode هست!).\n\nخلاصه‌ی ماجرا: تیم MiMo شیائومی به‌تازگی، دو روز پیش (۱۰ ژوئن ۲۰۲۶) نسخه‌ی v0.1.0 از یه AI coding agent اوپن‌سورس با لایسنس MIT منتشر کرده که توی ترمینال کار می‌کنه و برای پروژه‌های پیچیده و long-horizon (بیش از ۲۰۰ مرحله) ساخته شده. این ابزار فقط کد نمی‌نویسه؛ می‌تونه دستور اجرا کنه، با Git کار کنه و در طول جلسات مختلف، درک عمیقی از پروژه‌ت رو حفظ کنه.\n\nاز اون‌جا که نسخه v0.1.0 هست، طبیعتاً یه پروژه‌ی اولیه و اکتشافیه — ولی معماری‌ش جدی و قابل‌بررسیه.\n\nویژگی‌های جذابش:\n\n۱. حافظه ماندگار (Persistent Memory): برخلاف ابزارهای فعلی که فقط به context window مدل تکیه می‌کنن، اینجا یه subagent جداگانه (به اسم checkpoint-writer) توی پس‌زمینه کار می‌کنه و تصمیم‌ها و پیشرفت رو لحظه‌به‌لحظه ثبت می‌کنه. حافظه روی SQLite FTS5 (جست‌وجوی full-text) ذخیره می‌شه و توی فایل‌هایی مثل MEMORY.md، checkpoint.md و tasks/<id>/progress.md نگه‌داری می‌شه. وقتی context پر می‌شه، خودش از روی آخرین checkpoint بازسازیش می‌کنه؛ یعنی دیگه نیازی نیست پروژه رو از اول یاد بگیره.\n\n۲. ویژگی Dream و Distill (خودتکاملی): دستور /dream به راحتی جلسات اخیر رو اسکن می‌کنه، دانش مهم رو به حافظه پروژه منتقل می‌کنه و موارد قدیمی رو حذف می‌کنه. دستور /distill هم کارهای تکراری رو پیدا می‌کنه و تبدیلشون می‌کنه به skill یا command قابل‌استفاده مجدد. هر چی بیشتر کار کنی، بهتر «پروژه‌ی شما رو می‌شناسه».\n\n۳. قابلیت Max Mode (آزمایشی): چند راه‌حل موازی تولید می‌کنه (best-of-N) و با یه مدل داور بهترین رو انتخاب می‌کنه. که با experimental.maxMode توی فایل کانفیگ می‌تونید فعالش کنید.\n\n۴. قابلیت Goal Mode: با دستور /goal یه شرط توقف تعیین می‌کنی؛ وقتی agent می‌خواد متوقف بشه، یه مدل داور مستقل چک می‌کنه که واقعاً شرط برآورده شده یا نه — در نتیجه جلوی توقف زودهنگام و خوش‌بینانه رو می‌گیره.\n\n۵. ویژگی Compose Mode: با زدن کلید Tab فعال می‌شه و یه workflow ساختاریافته برای توسعه مبتنی بر spec ارائه می‌ده — با skillهای داخلی برای planning، اجرا، code review، TDD، دیباگ و merge. کل چرخه از spec تا کد نهایی.\n\n۶. ورودی صوتی، Git و Multimodal: ورودی صوتی real-time با /voice (بر پایه MiMo ASR و TenVAD، مخصوص کاربران لاگین‌شده)؛ مستقیم با Git پروژه‌ت کار می‌کنه و multimodal هم هست.\n\n۷. سازگار با Claude Code: authentication، skillها، MCP serverها و دستورهای قبلی رو توی یه مرحله import می‌کنه از پروژه‌ای که داشتید با Claude می‌زدید.\n\n۸. انعطاف‌پذیری مدل: MiMo Auto به‌صورت رایگان(1 میلیون توکن اگز اشتباه نکنم) برای مدت محدود و بدون کانفیگ در دسترسه، ولی خودش هم از هر API سازگار با OpenAI و prov/erهایی مثل Anthropic، DeepSeek، Kimi و GLM هم پشتیبانی می‌کنه — یعنی vendor lock-in نداریم.\n\nنتیجه؟ طبق ادعای شیائومی، توی بنچمارک‌های SWE-Bench Pro و Terminal Bench 2 (به‌ترتیب ۶۲٪ و ۷۳٪)، با همون مدل پایه حدوداً ۵ درصد از Claude Code جلوتره(که هنوز بعید میدونم. به چینی‌ها اعتماد ندارم). اما می‌گن تفاوت واقعی‌ش جایی خودش رو نشون می‌ده که کار طولانی و چندمرحله‌ای باشه — نه «له کردن»، ولی برتری معناداری توی long-horizon.\n\n\nنحوه استفاده (خیلی ساده):\n\n۱. نصب یک‌خطی (Mac/Linux):\ncurl -fsSL https://mimo.xiaomi.com/install | bash\n(بهترین تجربه با iTerm یا ترمینال VSCode)\n\nویندوز:\nnpm install -g @mimo-ai/cli\n۲. اولین اجرا: خودش راهنمایی می‌کنه — MiMo Auto (رایگان) رو انتخاب می‌کنیم، با حساب شیائومی لاگین می‌کنیم، از Claude Code Import می‌کنیم تنظیمات و... رو، یا خودمون می‌سازیم.\n\n۳. می‌ریم تو پروژه و کار رو بهش می‌سپریم (با زدن Tab بین agentهای build / plan / compose سوییچ می‌کنیم).\n\nلینک‌ها:\n- گیت‌هاب: github.com/XiaomiMiMo/MiMo-Code\n- سایت: mimo.xiaomi.com/en/mimocode\n- بلاگ فنی (درباره long-horizon): mimo.xiaomi.com/en/blog/mimo-code-long-horizon\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3824",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/SukYsMasXIOiwVcVwbOdNrEQSRSWzVpEJgrEEI9RYsyrAyPNv9wtcgOAb4BEiB2DRupFk4BuopGKBBtuPFi-4xsdH0rAoihhZto0OKgio3WZUQuGYoSU86l_z0omrgXBlkKjzmy2OMi9R1VIgpCGelzFK0yeXx8oLaSUFX8zsfZ7HSt6nUT98YAobVC-7_jESwz0xTeRPn7s2zv41DsinuF5UGApuq0qcnSikw154iY-rYhRHFEQA5VAWK8oerRSQRSBrPB_8Q3NSXZz1A0b1IJ6Sm5TLSpyR7J3AITsdxd5onU3p1HxzfbdMCxtLbCUzHg_Zy-aZCMWQzgW-t3Z8A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/aeb96867c61a0b08139a4ffc.jpg",
+          "thumbnail_sha256": "37f8c479899626bb35342af7565e9b948845b7dd2f71143e209bb49d84eba557",
+          "duration_label": null,
+          "aspect_ratio": 3.361344537815126
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "11"
+        }
+      ],
+      "views_label": "2.24K",
+      "posted_at": "2026-06-12T16:03:52+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3824",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3820",
       "author_name": "Matin SenPai",
@@ -68,11 +101,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "587"
+          "count": "597"
         },
         {
           "emoji": "👍",
-          "count": "155"
+          "count": "157"
         },
         {
           "emoji": "🎃",
@@ -80,10 +113,10 @@
         },
         {
           "emoji": "🔥",
-          "count": "20"
+          "count": "19"
         }
       ],
-      "views_label": "27.9K",
+      "views_label": "28.5K",
       "posted_at": "2026-06-12T12:05:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3819",
@@ -113,7 +146,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "306"
+          "count": "309"
         },
         {
           "emoji": "❤",
@@ -128,7 +161,7 @@
           "count": "5"
         }
       ],
-      "views_label": "31.3K",
+      "views_label": "31.9K",
       "posted_at": "2026-06-12T10:48:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3818",
@@ -150,7 +183,7 @@
         },
         {
           "emoji": "❤",
-          "count": "249"
+          "count": "250"
         },
         {
           "emoji": "👍",
@@ -165,7 +198,7 @@
           "count": "9"
         }
       ],
-      "views_label": "28.1K",
+      "views_label": "28.5K",
       "posted_at": "2026-06-12T08:58:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3817",
@@ -195,7 +228,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "264"
+          "count": "265"
         },
         {
           "emoji": "👍",
@@ -210,7 +243,7 @@
           "count": "4"
         }
       ],
-      "views_label": "34.8K",
+      "views_label": "35.1K",
       "posted_at": "2026-06-12T08:19:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3816",
@@ -243,7 +276,7 @@
           "count": "1"
         }
       ],
-      "views_label": "35.4K",
+      "views_label": "35.8K",
       "posted_at": "2026-06-12T06:40:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3815",
@@ -290,7 +323,7 @@
         },
         {
           "emoji": "❤",
-          "count": "71"
+          "count": "72"
         },
         {
           "emoji": "😨",
@@ -301,7 +334,7 @@
           "count": "5"
         }
       ],
-      "views_label": "37K",
+      "views_label": "37.3K",
       "posted_at": "2026-06-12T05:37:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3814",
@@ -346,7 +379,7 @@
           "count": "3"
         }
       ],
-      "views_label": "36.7K",
+      "views_label": "37K",
       "posted_at": "2026-06-12T03:31:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3813",
@@ -421,7 +454,7 @@
           "count": "10"
         }
       ],
-      "views_label": "40.8K",
+      "views_label": "41K",
       "posted_at": "2026-06-11T21:44:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3811",
@@ -500,7 +533,7 @@
           "count": "4"
         }
       ],
-      "views_label": "42.8K",
+      "views_label": "43K",
       "posted_at": "2026-06-11T20:43:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3809",
@@ -546,7 +579,7 @@
           "count": "1"
         }
       ],
-      "views_label": "34.7K",
+      "views_label": "34.8K",
       "posted_at": "2026-06-11T20:22:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3808",
@@ -591,7 +624,7 @@
           "count": "5"
         }
       ],
-      "views_label": "38.5K",
+      "views_label": "38.6K",
       "posted_at": "2026-06-11T20:22:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3807",
@@ -637,7 +670,7 @@
           "count": "1"
         }
       ],
-      "views_label": "34.2K",
+      "views_label": "34.3K",
       "posted_at": "2026-06-11T19:20:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3806",
@@ -674,7 +707,7 @@
           "count": "29"
         }
       ],
-      "views_label": "38.3K",
+      "views_label": "38.4K",
       "posted_at": "2026-06-11T18:35:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3805",
@@ -728,7 +761,7 @@
           "count": "12"
         }
       ],
-      "views_label": "46.8K",
+      "views_label": "46.9K",
       "posted_at": "2026-06-11T18:19:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3804",
@@ -810,7 +843,7 @@
           "count": "7"
         }
       ],
-      "views_label": "42.5K",
+      "views_label": "42.6K",
       "posted_at": "2026-06-11T16:34:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3802",
@@ -847,7 +880,7 @@
           "count": "8"
         }
       ],
-      "views_label": "41.3K",
+      "views_label": "41.4K",
       "posted_at": "2026-06-11T16:28:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3801",
@@ -889,7 +922,7 @@
           "count": "5"
         }
       ],
-      "views_label": "43.8K",
+      "views_label": "43.9K",
       "posted_at": "2026-06-11T15:00:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3800",
@@ -4111,55 +4144,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/3706"
       }
-    },
-    {
-      "id": "MatinSenPaii/3707",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/kimjLMwXKMNgKLWaWAKVl6-3a6n64DIJ9PLAu4JyqAAPiNUqB2--G7IkaS2TaLdWdmkBK9dY_EORMfR1H9qExYEcCePWQe7hqt6ool5j7n2dYtXHz9r3fwrOICczvqpg5dE7UictEBle9h5VVEwlqdhLXT6ICE5LDwZvC1sDilt51fg0CsNKacKzdPXJb3_09Sp9PERacvALucasyU7GULcMDnmmv_MghXpOfggJECSjmXk-PCrp67p4g-vlszFmVBeT66u2YYm1MDNgQKyabDnPgxOlFsAxwF_4sq1r1LLI4soYobEuFExuKwjk-V_D9dL02DVbO7gxIKpeNZBhkQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/824a0e4e0ba8c18b861ecef6.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "‏شرکت OpenAI ویژگی Dreaming رو برای حافظه ChatGPT معرفی کرد! <br><br>بالاخره بعد از مدت‌ها انتظار، OpenAI ویژگی خیلی مهمی به اسم Dreaming رو برای ChatGPT معرفی کرد. این آپدیت حافظه رو از حالت «یادآوری ساده» به یه سیستم هوشمند و پویا تبدیل کرده.<br><br>قبلاً چی بود؟<br>قبلاً ChatGPT چند تا نکته رو یادش می‌موند، ولی بعد از مدتی قدیمی و بی‌ربط می‌شد. مثلاً اگه بهش گفته بودی رژیم غذایی خاصی داری یا پروژه‌ای داری، بعد از چند هفته دیگه درست به یادش نمی‌اومد.<br><br>حالا با Dreaming چی شده؟<br>با این قابلیت ChatGPT تو پس‌زمینه (حتی وقتی باهاش حرف نمی‌زنی) همه چت‌هات رو بررسی می‌کنه، خلاصه می‌کنه، الگوها رو پیدا می‌کنه و حافظه‌ش رو همیشه تازه و به‌روز نگه می‌داره. انگار داره «رویا می‌بینه» و اطلاعات رو مرتب و هوشمندانه سازماندهی می‌کنه.<br><br>فایده‌های واقعی‌ش چیه؟<br>شخصی‌سازی خیلی بهتر: ترجیحاتت، علایقت، محدودیت‌هات و جزئیات زندگی‌ت رو خیلی دقیق‌تر به خاطر می‌سپاره. مثلاً اگه قبلاً گفتی عاشق عکاسی طبیعت هستی، دیگه پیشنهادهای generic نمی‌ده؛ مستقیم بهت ایده‌های مرتبط با سبک مورد علاقه‌ت می‌ده.<br><br>پروژه‌های طولانی: اگه روی یه پروژه چند ماهه کار می‌کنی (مثل نوشتن کتاب، راه‌اندازی بیزینس یا یادگیری زبان)، لازم نیست هر بار از اول توضیح بدی. ChatGPT زمینه کامل رو حفظ می‌کنه.<br><br>آپدیت خودکار: مثلاً اگه گفتی قراره به سفر بری، بعد از سفر خودش متوجه می‌شه و اطلاعات قدیمی رو پاک یا آپدیت می‌کنه.<br>کنترل کامل داری: می‌تونی حافظه رو ببینی، ویرایش کنی، بگی چی رو فراموش کنه یا چی رو حتماً یادش بمونه.<br><br>در کل، ChatGPT دیگه مثل یه دوست معمولی عمل می‌کنه که فقط حرفاتو گوش می‌ده (حتی این هم با ما دوست معمولیه!) حالا مثل یه دستیار واقعاً باهوش شده که تو جزئیات زندگی و کارتو درگیره و همیشه به‌روزه.<br><br>این ویژگی از امروز برای کاربران Plus و Pro در آمریکا فعال شده و به زودی برای بقیه کشورها و حتی کاربران معمولی هم می‌رسه.<br><br>لینک کامل توضیحات OpenAI:<br><a href=\"https://openai.com/index/chatgpt-memory-dreaming/\" target=\"_blank\" rel=\"noopener\">https://openai.com/index/chatgpt-memory-dreaming/</a><br><br><tg-emoji emoji-id=\"5470060791883374114\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji><a href=\"https://x.com/i/status/2062831593014599984\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> Diego JR</a>",
-      "plain_text": "‏شرکت OpenAI ویژگی Dreaming رو برای حافظه ChatGPT معرفی کرد!\n\nبالاخره بعد از مدت‌ها انتظار، OpenAI ویژگی خیلی مهمی به اسم Dreaming رو برای ChatGPT معرفی کرد. این آپدیت حافظه رو از حالت «یادآوری ساده» به یه سیستم هوشمند و پویا تبدیل کرده.\n\nقبلاً چی بود؟\nقبلاً ChatGPT چند تا نکته رو یادش می‌موند، ولی بعد از مدتی قدیمی و بی‌ربط می‌شد. مثلاً اگه بهش گفته بودی رژیم غذایی خاصی داری یا پروژه‌ای داری، بعد از چند هفته دیگه درست به یادش نمی‌اومد.\n\nحالا با Dreaming چی شده؟\nبا این قابلیت ChatGPT تو پس‌زمینه (حتی وقتی باهاش حرف نمی‌زنی) همه چت‌هات رو بررسی می‌کنه، خلاصه می‌کنه، الگوها رو پیدا می‌کنه و حافظه‌ش رو همیشه تازه و به‌روز نگه می‌داره. انگار داره «رویا می‌بینه» و اطلاعات رو مرتب و هوشمندانه سازماندهی می‌کنه.\n\nفایده‌های واقعی‌ش چیه؟\nشخصی‌سازی خیلی بهتر: ترجیحاتت، علایقت، محدودیت‌هات و جزئیات زندگی‌ت رو خیلی دقیق‌تر به خاطر می‌سپاره. مثلاً اگه قبلاً گفتی عاشق عکاسی طبیعت هستی، دیگه پیشنهادهای generic نمی‌ده؛ مستقیم بهت ایده‌های مرتبط با سبک مورد علاقه‌ت می‌ده.\n\nپروژه‌های طولانی: اگه روی یه پروژه چند ماهه کار می‌کنی (مثل نوشتن کتاب، راه‌اندازی بیزینس یا یادگیری زبان)، لازم نیست هر بار از اول توضیح بدی. ChatGPT زمینه کامل رو حفظ می‌کنه.\n\nآپدیت خودکار: مثلاً اگه گفتی قراره به سفر بری، بعد از سفر خودش متوجه می‌شه و اطلاعات قدیمی رو پاک یا آپدیت می‌کنه.\nکنترل کامل داری: می‌تونی حافظه رو ببینی، ویرایش کنی، بگی چی رو فراموش کنه یا چی رو حتماً یادش بمونه.\n\nدر کل، ChatGPT دیگه مثل یه دوست معمولی عمل می‌کنه که فقط حرفاتو گوش می‌ده (حتی این هم با ما دوست معمولیه!) حالا مثل یه دستیار واقعاً باهوش شده که تو جزئیات زندگی و کارتو درگیره و همیشه به‌روزه.\n\nاین ویژگی از امروز برای کاربران Plus و Pro در آمریکا فعال شده و به زودی برای بقیه کشورها و حتی کاربران معمولی هم می‌رسه.\n\nلینک کامل توضیحات OpenAI:\nhttps://openai.com/index/chatgpt-memory-dreaming/\n\n✍️ Diego JR",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3707",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ElB2-DHGwlBW6iae7xJf1tRAuoL08F7xmOm5GJ2BK7Xk0xtjlVAphKi7c5kkmbB7y2YAuf_h7ppaqC8JsUJtuQZCnlvYvbyl28N23IAnhd71TpgTUcMLcoYSeVt7TeR-35-NWZ-reyA-kf-MgAQs8KzzmpwLXGUahnCBwjciN1dEu_s5mJUEMAKmS_RTCsZ9jmcZOS4o7-7fFpD3fTEUuzRafoEjUHbltgFGRKl80kCubpivOf-AxIZbn-i7dMj87MxBx4phhFJrP29QdQs19oFs47S8-dBbZmOrRUWxAjCynF6XtXy0ftQf_OivzA157RHXzTNQpJFmO6RpURVJgQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/dea451168c7d2875d86e71d0.jpg",
-          "thumbnail_sha256": "82c7d0ae46f39f0b333f58b44ebe3d4a4cfd9b45cf5fd5d1feac4bf6c42049f3",
-          "duration_label": null,
-          "aspect_ratio": 1.5009380863039399
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "505"
-        },
-        {
-          "emoji": "👍",
-          "count": "77"
-        },
-        {
-          "emoji": "🔥",
-          "count": "20"
-        },
-        {
-          "emoji": "👎",
-          "count": "17"
-        }
-      ],
-      "views_label": "45.8K",
-      "posted_at": "2026-06-05T12:07:44+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3707",
-      "reply": null
     }
   ]
 }
