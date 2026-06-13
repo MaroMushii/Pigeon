@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-13T20:11:38.641Z",
+  "fetched_at": "2026-06-13T20:16:46.646Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,51 @@
     "subscriber_count": "11M"
   },
   "posts": [
+    {
+      "id": "durov/526",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/BTpmxP7k4uClRqqmB8kUCwWfyFRFbxAlQRGEAVf_OHbjV6FnRAas--jE-Nv_KQ168MCeC6BB2LHjlPwyn2mNKiVbnBFLUCunWtLS1LRuzeifxtWzJe0KFp4a4pGQ5p7A8PSD_jKPIrgvna3sMrXGVsrIcsjUYCmEu5GbND2cr-RYBGzl8c3HLcVAUWA4ACc7pPZtec6-75N3VboYYeFDtEgESdhpE2ikmoyNkVwYrlTkrm0uzMCF18dEyHz4aIcdjRpVS4ilxPJPDOpqSjo4fBGoJBpRCK-ME45hI8kb1OQhcR7n2SWeRyOVnlv7SWPYehskKh55luVVY7lx3pY2ZQ.jpg",
+      "author_photo_path": "channels/durov/media/55303a2636e9e0b2fbcef8ad.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<tg-emoji emoji-id=\"5282843764451195532\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i></tg-emoji> Don't be surprised if you see tables, nested lists, inline media, formulas, headers and more in Telegram messages.<br><br><tg-emoji emoji-id=\"5312047639393480586\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i></tg-emoji> We now support rich formatting for all chatbots.<br><br><tg-emoji emoji-id=\"5456312597273923475\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A8.png')\"><b>🔨</b></i></tg-emoji> Start building! <a href=\"https://core.telegram.org/bots/api#rich-message-formatting-options\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Docs for chatbot devs →</a>",
+      "plain_text": "🖥 Don't be surprised if you see tables, nested lists, inline media, formulas, headers and more in Telegram messages.\n\n📖 We now support rich formatting for all chatbots.\n\n🔨 Start building! Docs for chatbot devs →",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/durov/526",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/kk4du5yV04MNcJRmBey5AVDQuEFwDTVUR1URzmfx9I2-0g466W2kbIO7WMporkaA2IqCd2pb7C3loV6HNVeQ78l8TVMr4nuWV3U-MY1W2wtFwfjw65iRuwptXw1AuRaBDK9TD1IDf4YuYpAvsvFId1kUHBamyaOwggqNaEKz9tW390jtKEgh76tSqtc-smQj1rgW9kuPewXwUJdBevs967zQLU4EVd5wMAGcH4zKw-qNN6nmwbOqEUiGuEn5K8D0vcT8I0TkT-8u2bL2a230cUGuQiiLubfrn2zGEUooIYXCujf-aUi6JMUyWL9i9Dul7SQv8hqe6ejbk0JT3AE6ow",
+          "thumbnail_path": "channels/durov/media/155d8df10561eaea988930d9.jpg",
+          "thumbnail_sha256": "04012927e5309b100b57e167bf08104851a88e0ac790c2a8c4f011f1b18ebbab",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "294"
+        },
+        {
+          "emoji": "💎",
+          "count": "463"
+        },
+        {
+          "emoji": "💎",
+          "count": "446"
+        },
+        {
+          "emoji": "💎",
+          "count": "235"
+        }
+      ],
+      "views_label": "29.3K",
+      "posted_at": "2026-06-13T20:15:20+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/526",
+      "reply": null
+    },
     {
       "id": "durov/525",
       "author_name": "Pavel Durov",
@@ -23,7 +68,7 @@
       "reactions": [
         {
           "emoji": "⭐",
-          "count": "3.98K"
+          "count": "3.99K"
         },
         {
           "emoji": "💎",
@@ -31,14 +76,14 @@
         },
         {
           "emoji": "💎",
-          "count": "4.39K"
+          "count": "4.41K"
         },
         {
           "emoji": "💎",
-          "count": "3.45K"
+          "count": "3.46K"
         }
       ],
-      "views_label": "746K",
+      "views_label": "755K",
       "posted_at": "2026-06-12T19:15:19+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/525",
@@ -76,11 +121,11 @@
         },
         {
           "emoji": "💎",
-          "count": "8.62K"
+          "count": "8.63K"
         },
         {
           "emoji": "💎",
-          "count": "5.97K"
+          "count": "5.98K"
         }
       ],
       "views_label": "1.1M",
@@ -128,7 +173,7 @@
           "count": "11.7K"
         }
       ],
-      "views_label": "1.46M",
+      "views_label": "1.47M",
       "posted_at": "2026-06-09T19:33:51+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/523",
@@ -166,11 +211,11 @@
         },
         {
           "emoji": "💎",
-          "count": "13K"
+          "count": "12.9K"
         },
         {
           "emoji": "💎",
-          "count": "9.29K"
+          "count": "9.3K"
         }
       ],
       "views_label": "2.92M",
@@ -493,7 +538,7 @@
           "count": "6.59K"
         }
       ],
-      "views_label": "2.28M",
+      "views_label": "2.29M",
       "posted_at": "2026-05-16T13:57:49+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/514",
