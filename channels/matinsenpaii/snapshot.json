@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-13T14:22:07.763Z",
+  "fetched_at": "2026-06-13T14:26:58.268Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,40 @@
     "subscriber_count": "162K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3864",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/M1LkiLFBl8Oby0570mcZU6SeuImBA-KyqgYi1QeNVuPT1i3Fenb5uZPOXRPJV90aAIRQwXrhjNCo97P3poTQaLGzgdu3HiKRqP-XASaQRHSOBOoLib9bN5ENliYv8f7fgrdX9_y-bj-KGrQeCkjsmvy13En13outkyVNRLWHVagzGOavNbqzgvvrmKYitN0aQUUXIfTMw-XjY7ZLJIh6X27cbzb-O34-QcifHZ6Fs2EpLW950pIls7qQ0l2KNRby6jpWJTvYTeoqxXKKgu7l8HeiyguayzSXhugkxShzKYjO85Oab4nIHOtV9FPvaWt_Kb8oTZAucPXLt18VRImFNA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/bee0ba070290138855886466.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "صحبت دوست عزیزمون که PR داده بود برای ترموکس:<br><br>سلام متین خوبی<br>ببین من دارم می‌بینم که خیلی دارید اضافه کاری می‌کنید برای اجرا کردن سنپای اسکنر روی ترموکس <br>اون اسکریپت <a href=\"http://install.sh/\" target=\"_blank\" rel=\"noopener\">install.sh</a> که از قضا بنده نوشته بودمش برای ترموکس هم کار میکنه و فقط نیازه همین دستور زیر رو توی ترموکس بزنید و گیتهاب روی نتتون باز باشه <br>اگر باز نبود یک دور VPN بزنید صبر کنید دانلودش تموم بشه بعدش <code>senpaiscanner</code> توی خود ترموکس بزنید اجرا میشه<br>این دستورشه:<br><pre>curl -fsSL https://github.com/MatinSenPai/SenPaiScanner/raw/refs/heads/main/install.sh | bash</pre><br>ترموکس از باینری های بیلد شده linux-arm64 پشتیبانی میکنه<br>اگر ارور های تیپ exc_info میگیرید بخاطر اینه که ترموکس رو از گوگل پلی نصب کردید<br>باید پاک کنید بجاش از گیتهاب یا اف دروید بریزیدش<br><br>این اسکریپت برای اولین بار دانلود و نصب میکنه<br>اگر بار دوم اجرا بکنی در صورت وجود اپدیت میکنه یا اگر اپدیتی نبود همون سنپای اسکنر رو برات اجرا میکنه",
+      "plain_text": "صحبت دوست عزیزمون که PR داده بود برای ترموکس:\n\nسلام متین خوبی\nببین من دارم می‌بینم که خیلی دارید اضافه کاری می‌کنید برای اجرا کردن سنپای اسکنر روی ترموکس\nاون اسکریپت install.sh که از قضا بنده نوشته بودمش برای ترموکس هم کار میکنه و فقط نیازه همین دستور زیر رو توی ترموکس بزنید و گیتهاب روی نتتون باز باشه\nاگر باز نبود یک دور VPN بزنید صبر کنید دانلودش تموم بشه بعدش senpaiscanner توی خود ترموکس بزنید اجرا میشه\nاین دستورشه:\ncurl -fsSL https://github.com/MatinSenPai/SenPaiScanner/raw/refs/heads/main/install.sh | bash\nترموکس از باینری های بیلد شده linux-arm64 پشتیبانی میکنه\nاگر ارور های تیپ exc_info میگیرید بخاطر اینه که ترموکس رو از گوگل پلی نصب کردید\nباید پاک کنید بجاش از گیتهاب یا اف دروید بریزیدش\n\nاین اسکریپت برای اولین بار دانلود و نصب میکنه\nاگر بار دوم اجرا بکنی در صورت وجود اپدیت میکنه یا اگر اپدیتی نبود همون سنپای اسکنر رو برات اجرا میکنه",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        },
+        {
+          "emoji": "🎃",
+          "count": "1"
+        }
+      ],
+      "views_label": "2",
+      "posted_at": "2026-06-13T14:26:43+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3864",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3862",
+        "author_name": "Matin SenPai",
+        "preview_text": "برای اندروید و ترموکس، کسایی که مشکل دارن طبق این آموزش دوستمون برن",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/3862"
+      }
+    },
     {
       "id": "MatinSenPaii/3863",
       "author_name": "Matin SenPai",
@@ -23,22 +57,22 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "289"
+          "count": "304"
         },
         {
           "emoji": "👎",
-          "count": "78"
+          "count": "82"
         },
         {
           "emoji": "💔",
-          "count": "37"
+          "count": "39"
         },
         {
           "emoji": "😨",
           "count": "4"
         }
       ],
-      "views_label": "8.07K",
+      "views_label": "9.01K",
       "posted_at": "2026-06-13T13:55:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3863",
@@ -56,11 +90,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "166"
+          "count": "170"
         },
         {
           "emoji": "👎",
-          "count": "16"
+          "count": "18"
         },
         {
           "emoji": "👍",
@@ -71,7 +105,7 @@
           "count": "2"
         }
       ],
-      "views_label": "17.8K",
+      "views_label": "18.4K",
       "posted_at": "2026-06-13T12:05:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3862",
@@ -102,11 +136,11 @@
         },
         {
           "emoji": "❤",
-          "count": "5.91K"
+          "count": "5.92K"
         },
         {
           "emoji": "😁",
-          "count": "965"
+          "count": "966"
         },
         {
           "emoji": "👎",
@@ -117,7 +151,7 @@
           "count": "27"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.5K",
       "posted_at": "2026-06-13T10:33:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3861",
@@ -148,11 +182,11 @@
         },
         {
           "emoji": "😁",
-          "count": "1.63K"
+          "count": "1.64K"
         },
         {
           "emoji": "👍",
-          "count": "242"
+          "count": "243"
         },
         {
           "emoji": "❤",
@@ -160,10 +194,10 @@
         },
         {
           "emoji": "🔥",
-          "count": "14"
+          "count": "16"
         }
       ],
-      "views_label": "35.2K",
+      "views_label": "35.6K",
       "posted_at": "2026-06-13T10:31:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3860",
@@ -200,7 +234,7 @@
           "count": "438"
         }
       ],
-      "views_label": "44K",
+      "views_label": "44.3K",
       "posted_at": "2026-06-13T10:29:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3859",
@@ -265,7 +299,7 @@
         },
         {
           "emoji": "❤",
-          "count": "1.58K"
+          "count": "1.59K"
         },
         {
           "emoji": "👎",
@@ -273,14 +307,14 @@
         },
         {
           "emoji": "👍",
-          "count": "145"
+          "count": "146"
         },
         {
           "emoji": "🔥",
           "count": "26"
         }
       ],
-      "views_label": "41K",
+      "views_label": "41.4K",
       "posted_at": "2026-06-13T09:37:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3856",
@@ -302,7 +336,7 @@
         },
         {
           "emoji": "❤",
-          "count": "32"
+          "count": "33"
         },
         {
           "emoji": "😁",
@@ -313,7 +347,7 @@
           "count": "8"
         }
       ],
-      "views_label": "39.3K",
+      "views_label": "39.6K",
       "posted_at": "2026-06-13T08:43:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3855",
@@ -339,7 +373,7 @@
         },
         {
           "emoji": "❤",
-          "count": "20"
+          "count": "21"
         },
         {
           "emoji": "😁",
@@ -478,7 +512,7 @@
         },
         {
           "emoji": "❤",
-          "count": "244"
+          "count": "245"
         },
         {
           "emoji": "👍",
@@ -518,7 +552,7 @@
           "count": "9"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.8K",
       "posted_at": "2026-06-13T08:03:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3849",
@@ -605,7 +639,7 @@
           "count": "5"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "25K",
       "posted_at": "2026-06-13T07:48:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3847",
@@ -647,7 +681,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24.8K",
+      "views_label": "25.1K",
       "posted_at": "2026-06-13T07:44:43+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3846",
@@ -685,7 +719,7 @@
           "count": "11"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "25K",
       "posted_at": "2026-06-13T07:37:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3845",
@@ -4156,39 +4190,6 @@
       "posted_at": "2026-06-07T19:44:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3746",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3745",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/uvX1lx-O42F6c4ujvnk5vLwxGKhAmNPgV_ibur-UFAMVk9KEjXW8ECf1fgRQ5KJXHoSDvpE2PIi7ND-mWAmqHiN3XMcp5opKgw8-qXE2yJor6WSH5wsALcxBkvAhnbr9hyf3ahJ6EZpKdsZ2_qTSbglsPTIc9Xu0N-H9rJdAl9MxFqbohE8DkxXx5wIMTqgIo4vLw7hLIZEzbGhyJRSEYP5R1Magh4Y8CNCH8MgA-sMl8aQ1HjWG794wRT8XixRDJlHk3kfIWlTmgT1Lg3MzN6HRJwDS4_otMxry08NtaDSkAFnnXhQA5TsrORsi0FEEinh4t8ZIlkfZ1xxmctFjDw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0e053ea9c5fe35687726dcf7.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "283"
-        },
-        {
-          "emoji": "💔",
-          "count": "94"
-        },
-        {
-          "emoji": "😭",
-          "count": "41"
-        },
-        {
-          "emoji": "❤",
-          "count": "28"
-        }
-      ],
-      "views_label": "62.5K",
-      "posted_at": "2026-06-07T19:43:55+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3745",
       "reply": null
     }
   ]
