@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-13T09:36:51.383Z",
+  "fetched_at": "2026-06-13T09:41:57.823Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,73 @@
     "subscriber_count": "162K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3856",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/M1LkiLFBl8Oby0570mcZU6SeuImBA-KyqgYi1QeNVuPT1i3Fenb5uZPOXRPJV90aAIRQwXrhjNCo97P3poTQaLGzgdu3HiKRqP-XASaQRHSOBOoLib9bN5ENliYv8f7fgrdX9_y-bj-KGrQeCkjsmvy13En13outkyVNRLWHVagzGOavNbqzgvvrmKYitN0aQUUXIfTMw-XjY7ZLJIh6X27cbzb-O34-QcifHZ6Fs2EpLW950pIls7qQ0l2KNRby6jpWJTvYTeoqxXKKgu7l8HeiyguayzSXhugkxShzKYjO85Oab4nIHOtV9FPvaWt_Kb8oTZAucPXLt18VRImFNA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/bee0ba070290138855886466.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>ورژن 0.7.1 از SenPaiScanner منتشر شد</b><b><tg-emoji emoji-id=\"5474371208176737086\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji></b><br><br><tg-emoji emoji-id=\"5319227080955672287\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F988F.png')\"><b>😏</b></i></tg-emoji><b> پروتکل‌های جدید</b>: پشتیبانی از <b>Shadowsocks</b> و <b>VMess</b> اضافه شد — هر دو از فاز ۱ اسکن تا فاز ۲ xray کاملا کار می‌کنن.<br><tg-emoji emoji-id=\"5472355270787079946\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AE.png')\"><b>🧮</b></i></tg-emoji><b> خروجی چندفرمتی</b>: با زدن <code>e</code> بعد از فاز ۲ می‌تونید نتایج رو به سه فرمت صادر کنید:<br>1- لیست Subscription<br>2- Sing-Box JSON<br>3- Clash YAML<br><br><tg-emoji emoji-id=\"5472423702501006989\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><b> تنظیمات سرعت</b>: فیلتر حداقل سرعت، تست سرعت آپلود، آدرس سرعت‌سنج دلخواه، و سایز sample قابل تنظیم.<br><tg-emoji emoji-id=\"5471981853445463256\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i></tg-emoji><b> ذخیره تنظیمات</b>: تنظیمات اسکن ذخیره می‌شن و گزینه «retry last scan» هم اضافه شد.<br><tg-emoji emoji-id=\"5388953246486269495\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939A.png')\"><b>📚</b></i></tg-emoji><b> پشتیبانی از CIDR</b>: حالا می‌تونید توی <code>ips.txt</code>، مستقیم رنج‌های <code>/13</code> و... بنویسید.<br><b><tg-emoji emoji-id=\"5471960722206366390\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji></b><b> </b>اولین نسخه پیش‌نمایش <b>اپ اندروید</b> با Kotlin و Jetpack Compose اضافه شد. معماری MVVM، تم‌بندی کامل، و ساخت خودکار APK از طریق CI/CD(هرچند CI/CD باید روش کار بشه هنوز).<br><br>لینک دانلود آخرین نسخه: <a href=\"https://github.com/MatinSenPai/SenPaiScanner/releases/tag/v0.7.1\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/SenPaiScanner/releases/tag/v0.7.1</a>",
+      "plain_text": "ورژن 0.7.1 از SenPaiScanner منتشر شد✉️\n\n😏 پروتکل‌های جدید: پشتیبانی از Shadowsocks و VMess اضافه شد — هر دو از فاز ۱ اسکن تا فاز ۲ xray کاملا کار می‌کنن.\n🧮 خروجی چندفرمتی: با زدن e بعد از فاز ۲ می‌تونید نتایج رو به سه فرمت صادر کنید:\n1- لیست Subscription\n2- Sing-Box JSON\n3- Clash YAML\n\n🔥 تنظیمات سرعت: فیلتر حداقل سرعت، تست سرعت آپلود، آدرس سرعت‌سنج دلخواه، و سایز sample قابل تنظیم.\n🤖 ذخیره تنظیمات: تنظیمات اسکن ذخیره می‌شن و گزینه «retry last scan» هم اضافه شد.\n📚 پشتیبانی از CIDR: حالا می‌تونید توی ips.txt، مستقیم رنج‌های /13 و... بنویسید.\n📱 اولین نسخه پیش‌نمایش اپ اندروید با Kotlin و Jetpack Compose اضافه شد. معماری MVVM، تم‌بندی کامل، و ساخت خودکار APK از طریق CI/CD(هرچند CI/CD باید روش کار بشه هنوز).\n\nلینک دانلود آخرین نسخه: https://github.com/MatinSenPai/SenPaiScanner/releases/tag/v0.7.1",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3856?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/WviA-vGSGVf5w_rqP58wb-Pmv9lEwZg9YTMSl9UZ7GIzAWPoEaGs1L4Br89Imldy1K0JhxUJbD0ypEZ_vTX-aHWszaLzvBgyHbaRfgyWfHLLJU2Pvrjc8kAIInwcQ7S7937_C7891MqvijXZSRDuau7AgoFAynFFJatcx6-XDN62ic3qQ0cPcXJ3aVNtZROETK9Uhh6K5-7fZQoLD-qwuSWZFkVo90Mq69MzBp88K1o_rk_1uBe9KR2PCN-KHyFGddgHx1EtiqGThlX7yRiNK5G6TH2IEwTEz1TMd7ModrBn1FRgJRGwNINhyZ1PSjbbQAsbONwwdISkH1VJe4YEbw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/8e3b0b0e174e8ad3cc4080bd.jpg",
+          "thumbnail_sha256": "f899d2d5c46e98c2cf12a7ba17d12ec779267bbcd0d836bebf8d70ba8316491b",
+          "duration_label": null,
+          "aspect_ratio": 1.4010507880911
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3857?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Zj58fJSUOfZrbPxY2PHT1JPC3Jk2CoGFXARKW3T3A0jy_EHKoGSGh3aeRR052Wl4WQksj9ySyre_97rD1DePHgqT92BtnY8lh6zjHgI7gby2cZngDC385GYfhVpxgltOr0pqFSbXl2kNGx0d02U2D3ShdaOUgRkPkRdn8aSpvQrPRpMhLcGVmEcK-0_sAfmQ7R3LoqlXIJ2vwx9eVOG1W9xWXekDjfxYDBMLROE-06oNLnGZlPWmGW4surXrdJXOHkKgPQZOfAZKPpRROOqVoolFbzbhEJTL7m2uKYidN0r45g-BCJCJMDdideiN4vgk-OEKh8CvOxEXh-P_qr0zFg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/981f51395198d74de7300ef9.jpg",
+          "thumbnail_sha256": "f25996a48664a22c63c0fe587fb0ec5c3b7475d56d922aa6668bf7c55278c867",
+          "duration_label": null,
+          "aspect_ratio": 2.0050125313283
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3858?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/BfDlcRZdIPF8QLfg4NleJRs18LN0Ha2PysBcYEtAmMCTXGKPy2AXj2O2X2n_EaFmW2rVLpC5bZcizulm_MC4aLrjavdz48ffJMBXfGybM6TJdBhT5UtLXpPaNeTVEyiS3lh_U_Jvhx4-OUN52iRchrorNXOKenStZXhPpZXwyKsNdpA1i9Vscu4kX3WdiD4HnzqLkqDIbRNEebnHqx5E7s-i8aRmpkxy44EhHvooc9ZUnY9SZ5gh9HR1_eolCYhFzPGC6E8NjCD0FsL27nwZ1S766m7APgMD3sQTEqCvyVr8p2uUGSQFUn0VjvlDcxuJAUVQVjfr-QKxhoTOJ8b4aw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/ac1a1ba493ce6a60bd7942fe.jpg",
+          "thumbnail_sha256": "ec37603c2f664252a3c6a7c0b9f821d33eb26df9e0e554b610c230c847949e38",
+          "duration_label": null,
+          "aspect_ratio": 1.8306636155606
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "37"
+        },
+        {
+          "emoji": "🔥",
+          "count": "6"
+        },
+        {
+          "emoji": "👍",
+          "count": "3"
+        },
+        {
+          "emoji": "👎",
+          "count": "3"
+        }
+      ],
+      "views_label": "1.9K",
+      "posted_at": "2026-06-13T09:37:33+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3856",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3855",
       "author_name": "Matin SenPai",
@@ -23,7 +90,7 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "76"
+          "count": "80"
         },
         {
           "emoji": "😁",
@@ -38,7 +105,7 @@
           "count": "5"
         }
       ],
-      "views_label": "9.44K",
+      "views_label": "10.4K",
       "posted_at": "2026-06-13T08:43:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3855",
@@ -56,7 +123,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "102"
+          "count": "112"
         },
         {
           "emoji": "🔥",
@@ -71,7 +138,7 @@
           "count": "8"
         }
       ],
-      "views_label": "10.4K",
+      "views_label": "11.4K",
       "posted_at": "2026-06-13T08:39:22+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3854",
@@ -93,7 +160,7 @@
         },
         {
           "emoji": "❤",
-          "count": "142"
+          "count": "146"
         },
         {
           "emoji": "🔥",
@@ -104,7 +171,7 @@
           "count": "2"
         }
       ],
-      "views_label": "11.3K",
+      "views_label": "12.3K",
       "posted_at": "2026-06-13T08:33:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3853",
@@ -145,7 +212,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "54"
+          "count": "56"
         },
         {
           "emoji": "❤",
@@ -160,7 +227,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "13.2K",
       "posted_at": "2026-06-13T08:24:28+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3851",
@@ -199,7 +266,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "142"
+          "count": "147"
         },
         {
           "emoji": "👍",
@@ -210,7 +277,7 @@
           "count": "4"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "13.3K",
       "posted_at": "2026-06-13T08:21:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3850",
@@ -228,7 +295,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "106"
+          "count": "107"
         },
         {
           "emoji": "👍",
@@ -239,7 +306,7 @@
           "count": "6"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.8K",
       "posted_at": "2026-06-13T08:03:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3849",
@@ -278,7 +345,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "192"
+          "count": "195"
         },
         {
           "emoji": "👍",
@@ -293,7 +360,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15.1K",
+      "views_label": "15.8K",
       "posted_at": "2026-06-13T07:52:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3848",
@@ -311,7 +378,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "139"
+          "count": "142"
         },
         {
           "emoji": "👍",
@@ -326,7 +393,7 @@
           "count": "4"
         }
       ],
-      "views_label": "15.4K",
+      "views_label": "15.8K",
       "posted_at": "2026-06-13T07:48:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3847",
@@ -357,7 +424,7 @@
         },
         {
           "emoji": "❤",
-          "count": "38"
+          "count": "39"
         },
         {
           "emoji": "👎",
@@ -368,7 +435,7 @@
           "count": "3"
         }
       ],
-      "views_label": "15.4K",
+      "views_label": "16K",
       "posted_at": "2026-06-13T07:44:43+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3846",
@@ -395,7 +462,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "149"
+          "count": "151"
         },
         {
           "emoji": "👍",
@@ -406,7 +473,7 @@
           "count": "7"
         }
       ],
-      "views_label": "16.4K",
+      "views_label": "16.7K",
       "posted_at": "2026-06-13T07:37:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3845",
@@ -433,7 +500,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "143"
+          "count": "146"
         },
         {
           "emoji": "👍",
@@ -448,7 +515,7 @@
           "count": "3"
         }
       ],
-      "views_label": "16.7K",
+      "views_label": "17.3K",
       "posted_at": "2026-06-13T07:35:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3838",
@@ -4089,39 +4156,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/3739"
       }
-    },
-    {
-      "id": "MatinSenPaii/3739",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/d7VYk6nUa8TQ0QVBUK1mF0ASq0PxFwKO0GX8z-gax6Q2P-Hb7GHISTOKpZJ7YGsSmfY96EhH3rHqWQWKiPuhxRI5wFOgMYDBzpYXvHlY_PzqFRRT3OoSA7uOiFOYOmZ2Uf9AJnYWVbYMJt0akaPxYmGw3hTOjWkjIYEROoWlEe-trDR7zXVu5phztcB8gZHbXt7qIdXRlVb57Mcrl8iit9IJIpsMjpz8z5Lun_OHyXNvaKd1OIiDR0SAQqd-z-SPOaTeQt5eX7nMvxcy5VfPZTak9MsrQY0Slhxz15FIGCm5VTeRzICj6UTlLDddzGwFpfnHRzRtNu4NaHX_uWyKFQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/85b1b645aebba1e9aeb3e64e.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "این پنل هم دیدم بچه‌ها زیاد باهاش ساخته بودن vpn روی کلودفلر. یه تست بکنید<br><a href=\"https://github.com/IRNova/Nova-Proxy\" target=\"_blank\" rel=\"noopener\">https://github.com/IRNova/Nova-Proxy</a>",
-      "plain_text": "این پنل هم دیدم بچه‌ها زیاد باهاش ساخته بودن vpn روی کلودفلر. یه تست بکنید\nhttps://github.com/IRNova/Nova-Proxy",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "343"
-        },
-        {
-          "emoji": "❤",
-          "count": "65"
-        },
-        {
-          "emoji": "👎",
-          "count": "38"
-        },
-        {
-          "emoji": "🔥",
-          "count": "14"
-        }
-      ],
-      "views_label": "56.3K",
-      "posted_at": "2026-06-07T11:40:18+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/3739",
-      "reply": null
     }
   ]
 }
