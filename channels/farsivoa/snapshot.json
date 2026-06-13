@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-13T00:41:50.233Z",
+  "fetched_at": "2026-06-13T00:46:53.409Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,13 +12,41 @@
   },
   "posts": [
     {
+      "id": "farsivoa/220541",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/gzO4NaEUxrvZs5vp4gr8L3DX7pUEkZdxMnwzCREJ3ySxh0WCl6fBY3X5lLh-ibCoH_tj704r87-2n_0zZKj0XruBVzrsh_cErdnLZLHGO9wc-IXfIf-wtcOycig97yGgxjznJDF7LAejC7FJw7AaSLbNgoSuhnHYI33jtFKcFmd9jHuZxCW1IKjRokuqwHNgfe6ZHtaH8IWSnntmdEToQKBac0AwgDJD8jEDowoc4BDEkSkU3YmjS3s04dUS8uzURdKU4VV9xK92gZHs4_LE070npH3sB5o5XuzHcCacfzg4mN6fayyIb8LeZQgxmPdENjj-b2FLDZRqRl2Fhp1DUg.jpg",
+      "author_photo_path": "channels/farsivoa/media/8c9d4558e02e86a5d80dac2d.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>بازیکن سابق تیم ملی فوتبال زنان ایران از شرایط تیم ملی فوتبال در جام جهانی ۲۰۲۶ می‌گوید<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
+      "plain_text": "⚡️بازیکن سابق تیم ملی فوتبال زنان ایران از شرایط تیم ملی فوتبال در جام جهانی ۲۰۲۶ می‌گوید\n@FarsiVOA",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/220541",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/XzITZRSztFzfiDuS4iiY7s88XcRbPuyCSPANX0qYOjiiMRSt4XAa8a7JSZ27KzvzZbEKc9dn-zUg6_LnuJTl_R_hMQVawUgTTDP0-C7gkB1HH5F0eFzvyh4lRDBigG3JRtnc-Krf2JGzIaGVfgdLlrYkUqKokfh73K43XnY4QSOGmYT_LUaAMmxGzK3ZV89g7-gLwKQvINmwdadYXyHVek8srVj4M5UHZr349TZ_cqSrrqcOI7Cb0pGRYZFJh8dfrG3V87VKpfdQLCUGa74sa_ttpLqbFoQ1RfCmkSSVUgV2KoSxlt4VSwSC-6JYb7yjzTuBEAPTluLFj9l3_kiU_g",
+          "thumbnail_path": "channels/farsivoa/media/b207a25e9a1af7c81f153e46.jpg",
+          "thumbnail_sha256": "6163f2037ce72e0060308939772b0b4371f0e9044b5980220de0fe50ecc07b7d",
+          "duration_label": "1:44",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-06-13T00:46:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/220541",
+      "reply": null
+    },
+    {
       "id": "farsivoa/220540",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/gzO4NaEUxrvZs5vp4gr8L3DX7pUEkZdxMnwzCREJ3ySxh0WCl6fBY3X5lLh-ibCoH_tj704r87-2n_0zZKj0XruBVzrsh_cErdnLZLHGO9wc-IXfIf-wtcOycig97yGgxjznJDF7LAejC7FJw7AaSLbNgoSuhnHYI33jtFKcFmd9jHuZxCW1IKjRokuqwHNgfe6ZHtaH8IWSnntmdEToQKBac0AwgDJD8jEDowoc4BDEkSkU3YmjS3s04dUS8uzURdKU4VV9xK92gZHs4_LE070npH3sB5o5XuzHcCacfzg4mN6fayyIb8LeZQgxmPdENjj-b2FLDZRqRl2Fhp1DUg.jpg",
       "author_photo_path": "channels/farsivoa/media/8c9d4558e02e86a5d80dac2d.jpg",
       "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>یک منبع آگاه به رویترز گفت: نیروهای آمریکایی چندین پهپاد تهاجمی یک‌طرفه جمهوری اسلامی را که به سمت تنگه هرمز در حرکت بودند، سرنگون کردند.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "⚡️یک منبع آگاه به رویترز گفت: نیروهای آمریکایی چندین پهپاد تهاجمی یک‌طرفه جمهوری اسلامی را که به سمت تنگه هرمز در حرکت بودند، سرنگون کردند.\n@FarsiVOA",
+      "body_html": "یک منبع آگاه به رویترز گفت: نیروهای آمریکایی چندین پهپاد تهاجمی یک‌طرفه جمهوری اسلامی را که به سمت تنگه هرمز در حرکت بودند، سرنگون کردند.<br><br>پیشتر خبرگزاری‌های حکومتی در ایران از شنیده‌شدن صدای انفجار در حوالی جزیره قشم و سیریک خبر داده بودند.<br><br>خبرگزاری حکومتی مهر مدعی شده بود نیروهای جمهوری اسلامی اقدام به «شلیک هشدار در دریا» کرده بودند.<br><br>جمهوری اسلامی پیشتر کشتی‌های خارجی در اطراف تنگه هرمز را تهدید به حمله کرد‌ه‌است. ایالات متحده نیز در حمایت از کشتی‌های تجاری، بارها با حملات جمهوری اسلامی مقابله کرده است.<br><br>این تحولات در حالی است که مقامات آمریکایی و جمهوری اسلامی می‌گویند به امضای یک توافق نزدیک شده‌اند.<br><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
+      "plain_text": "یک منبع آگاه به رویترز گفت: نیروهای آمریکایی چندین پهپاد تهاجمی یک‌طرفه جمهوری اسلامی را که به سمت تنگه هرمز در حرکت بودند، سرنگون کردند.\n\nپیشتر خبرگزاری‌های حکومتی در ایران از شنیده‌شدن صدای انفجار در حوالی جزیره قشم و سیریک خبر داده بودند.\n\nخبرگزاری حکومتی مهر مدعی شده بود نیروهای جمهوری اسلامی اقدام به «شلیک هشدار در دریا» کرده بودند.\n\nجمهوری اسلامی پیشتر کشتی‌های خارجی در اطراف تنگه هرمز را تهدید به حمله کرد‌ه‌است. ایالات متحده نیز در حمایت از کشتی‌های تجاری، بارها با حملات جمهوری اسلامی مقابله کرده است.\n\nاین تحولات در حالی است که مقامات آمریکایی و جمهوری اسلامی می‌گویند به امضای یک توافق نزدیک شده‌اند.\n\n@FarsiVOA",
       "media": [
         {
           "kind": "photo",
@@ -33,9 +61,9 @@
         }
       ],
       "reactions": [],
-      "views_label": "171",
+      "views_label": "333",
       "posted_at": "2026-06-13T00:36:48+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/farsivoa/220540",
       "reply": null
     },
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "272",
+      "views_label": "397",
       "posted_at": "2026-06-13T00:31:42+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220539",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "585",
+      "views_label": "665",
       "posted_at": "2026-06-13T00:16:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220538",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.01K",
+      "views_label": "1.09K",
       "posted_at": "2026-06-12T23:45:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220537",
@@ -133,7 +161,7 @@
       "plain_text": "🔺امارات گزارش‌ تحویل ۳ میلیارد دلار پول به جمهوری اسلامی را تکذیب کرد\n\n▪️وزارت امور خارجه امارات اوایل روز شنبه ۲۳ خرداد با انتشار بیانیه‌ای گزارش‌های رسانه‌ای درباره انتقال منابع مالی به جمهوری اسلامی را رد کرد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8160260.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "1.32K",
+      "views_label": "1.39K",
       "posted_at": "2026-06-12T23:31:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220536",
@@ -161,7 +189,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.59K",
+      "views_label": "1.66K",
       "posted_at": "2026-06-12T23:07:48+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220535",
@@ -189,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.01K",
+      "views_label": "2.08K",
       "posted_at": "2026-06-12T22:46:49+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/220534",
@@ -217,7 +245,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.27K",
+      "views_label": "2.3K",
       "posted_at": "2026-06-12T22:32:58+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220533",
@@ -245,7 +273,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.66K",
+      "views_label": "2.7K",
       "posted_at": "2026-06-12T22:15:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220532",
@@ -273,7 +301,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.77K",
+      "views_label": "2.8K",
       "posted_at": "2026-06-12T22:07:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220531",
@@ -301,7 +329,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.82K",
+      "views_label": "2.86K",
       "posted_at": "2026-06-12T22:00:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220530",
@@ -329,7 +357,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.87K",
+      "views_label": "2.91K",
       "posted_at": "2026-06-12T21:53:49+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220529",
@@ -361,7 +389,7 @@
       "plain_text": "🔺گزارش | واکنش‌ها به اعدام کریم معروف‌پور: صدای مردم را نمی‌توان اعدام کرد\n\n◾️کریم معروف‌پور، زندانی سیاسی اهل نقده، صبح ۳۱ اردیبهشت ۱۴۰۵ اعدام شد. اگرچه در گزارش‌های رسمی جمهوری اسلامی، محل اجرای حکم اعدام اعلام نشده است، سازمان حقوق بشر ایران گزارش داده است که او به همراه رامین زله، دیگر زندانی سیاسی، در زندان نقده در استان آذربایجان غربی اعدام شده است. این سازمان می‌افزاید که اعدام «به‌صورت مخفیانه و بدون اطلاع قبلی و ملاقات آخر با خانواده انجام شده است.»\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iran-iranian-kurd-execution-protest-prison-kurdestan-human-rights/8159789.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "4.16K",
+      "views_label": "4.19K",
       "posted_at": "2026-06-12T21:05:32+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220527",
@@ -389,7 +417,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.28K",
+      "views_label": "4.32K",
       "posted_at": "2026-06-12T20:57:11+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220526",
@@ -417,7 +445,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.14K",
+      "views_label": "4.17K",
       "posted_at": "2026-06-12T20:52:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220525",
@@ -449,7 +477,7 @@
       "plain_text": "🔺آمریکا در مرکز توجه روز دوم جام جهانی؛ ستارگان موسیقی و مقام‌های ارشد واشنگتن در افتتاحیه لس‌آنجلس\n\n◾️آمریکا روز جمعه ۲۲ خرداد (بامداد شنبه ۲۳ خرداد به وقت ایران)، در دومین روز مراسم افتتاحیه جام جهانی ۲۰۲۶ در مرکز توجه قرار می‌گیرد؛ روزی که لس‌آنجلس، مرکز صنعت سینمای آمریکا و از شهرهای چندفرهنگی این کشور، میزبان مراسم رسمی افتتاحیه در خاک ایالات متحده و نخستین بازی تیم ملی آمریکا خواهد بود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/us-opens-world-cup-stage/8160141.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "5.5K",
+      "views_label": "5.54K",
       "posted_at": "2026-06-12T19:52:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220523",
@@ -2578,34 +2606,6 @@
       "posted_at": "2026-06-11T21:17:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220430",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/220429",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/S3OxExwEvm_t79PSW3o7A_DlfGpQGfWy542cvSEMg98kH7hjBVjJ6D6HLvGmeEGc9C2AR67LjC6fXWFWi1KD--yC_YpDsxoCZsaBgUKWYwB_Rbnp-FvoSq_SFMHzXNvDLddTmfQk1ga6Ih-1-B6DiImebboxngNgxWSHcYEDcme4WoCffv-vMdBbnShACmT63u5Rrf-C2wrLfFjuQnmqITd2EacvoMgTssax-b4tCTakbkhgem8hQ_IX3ScrleF-zyyqlibznCvsfGibRGy8BSy5JsTOlfiUsQJimSLEoBFZ1ziCmk648Q9VNL8Pry4RRA4wnZCfxto0vb2POiyQCw.jpg",
-      "author_photo_path": "channels/farsivoa/media/976b59c4708c3577a88a92cb.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>گزارش نرگس صبا در برنامه تفسیر خبر از چرایی چرخش موضع جهان عرب نسبت به اسرائیل و ایران<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "⚡️گزارش نرگس صبا در برنامه تفسیر خبر از چرایی چرخش موضع جهان عرب نسبت به اسرائیل و ایران\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/220429",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ky-EUAmrKKdkUMgfaNa81ewVgUtLDuexO4ocGW1ALHCcIZqByrJFpt36pbUAzuGDLnpW3eOItMWYMaZ1GuDk74l5E4roZJV54gP2-2zoTr059opj_gvejyKX1EWTLpNzbb-pBbhoPNKsI3Qd-eT7gsdLkIvCJQlcQgdZIY11ij3IGd0qui4st2okT3yry5hYzKEoY8Vbd8A1zx1zMDpKUxZFoy4yuGND1_d3KozIfB2KVht0_xDW6VNcMoWPP09E_EZsJab1nezGj3oWqwwyr7blHR3ApajMJVcxMDnrDzMXYDaHxcZzBD0OEk10Gdd9dyBLlyUzM5-6Zf-Q11YnlQ",
-          "thumbnail_path": "channels/farsivoa/media/0b21ee6f7dd3658990a3e996.jpg",
-          "thumbnail_sha256": "da014bcfdcdfa950192d4d4af52d4d4e0e282ea5392adc063aa10baf6642c7ab",
-          "duration_label": "4:18",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "5.49K",
-      "posted_at": "2026-06-11T21:12:26+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/220429",
       "reply": null
     }
   ]
