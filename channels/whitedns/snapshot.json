@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-13T01:06:59.442Z",
+  "fetched_at": "2026-06-13T01:11:56.283Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,51 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/969",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/hpJHV4FbLxK5oA0n3V80pXLqWaYOsBAkPnv4RMjswOtxNorokMWl98VkyFOs7inTkEwNQEchg0YZl7abUFBDBgDxgOdG-eppIokjlMhEhAbOWnwMCCWIZFzHiR9YQOYNy8ZMvXHRDq01W9XlrEuWmmRpsHrZf_4pbtv0SoaBN97CVNJGm5Vg_9UjHpFtTepqDOTEfslqELSlCCEpDyHK1FbRvP4KON7yTqlrY8AFfAx8jpqy7w1ULkNitJgi0G_Dr8pw9cFhEXp3Ma_dn47xbDFuG_2naoI_d9r28-e_Iq5iiFH4XzCqv3grRnOC73K2v5moZ3RmSYibUjAxr3_DbA.jpg",
+      "author_photo_path": "channels/whitedns/media/09241a5b292d442ed60bb4dc.jpg",
+      "author_photo_sha256": "b0bce9dee26815d7fb963a1a9f9ac03530618fb5424e99a56e84ac647ad84643",
+      "body_html": "نسخه جدید دفید قراره قابلیت چت با رمزنگاری e2e داشته باشه؛<br> باهاش میشه ارتباط امن با خارج و داخل ایران داشت.<br><br>کل این قابلیت با ریزالور ها کار‌ میکنه تا توی فیلترینگ و قطعی شدید هم وصل بمونه.<br><br>طبق تست های من یک‌ سرور متوسط با ۸ گیگ رم و ۴ کور سی‌پی‌یو میتونه تا ۵ هزار کاربر انلاین رو هندل کنه!<br> اینجوری کار میکنه که هر کاربر یک اکانت رندم واسش ساخته میشه که توی سرور های مختلف ادرس اکانتش ثابت هست؛<br> ادرس اکانت شامل ۲۰ حرف انگلیسیه که هرکی این رو داشه باشه میتونه بهتون پیام بده.<br><br>(سیستم اکانتینگش تقریبا شکل شبکه اتریوم هست، یعنی‌یک seed دارید که با اون یک اکانت ساخته میشه)<br><br>کلاینت هر ۱۵ ثانیه به سرور هایی که بهش وصل هست درخواست میده و پیام های جدید رو میگیره و تقریبا برای ارسال یک پیام چند کلمه ای باید حدود ۴‌ کوئری دی ان اس کوچیک‌به سرور بفرسته!<br><br>واسه اینکه به سرور ها فشار نیاد محدودیت های سختگیرانه گذاشتم، ولی همه این محدودیت ها توی سرور قابل تنظیم هست و اگر سرور شخصی راه بندازید میتونید محدودیت هارو کمتر کنید.<br><br><br><a href=\"https://x.com/i/status/2065531715041239193\" target=\"_blank\" rel=\"noopener\">https://x.com/i/status/2065531715041239193</a>",
+      "plain_text": "نسخه جدید دفید قراره قابلیت چت با رمزنگاری e2e داشته باشه؛\nباهاش میشه ارتباط امن با خارج و داخل ایران داشت.\n\nکل این قابلیت با ریزالور ها کار‌ میکنه تا توی فیلترینگ و قطعی شدید هم وصل بمونه.\n\nطبق تست های من یک‌ سرور متوسط با ۸ گیگ رم و ۴ کور سی‌پی‌یو میتونه تا ۵ هزار کاربر انلاین رو هندل کنه!\nاینجوری کار میکنه که هر کاربر یک اکانت رندم واسش ساخته میشه که توی سرور های مختلف ادرس اکانتش ثابت هست؛\nادرس اکانت شامل ۲۰ حرف انگلیسیه که هرکی این رو داشه باشه میتونه بهتون پیام بده.\n\n(سیستم اکانتینگش تقریبا شکل شبکه اتریوم هست، یعنی‌یک seed دارید که با اون یک اکانت ساخته میشه)\n\nکلاینت هر ۱۵ ثانیه به سرور هایی که بهش وصل هست درخواست میده و پیام های جدید رو میگیره و تقریبا برای ارسال یک پیام چند کلمه ای باید حدود ۴‌ کوئری دی ان اس کوچیک‌به سرور بفرسته!\n\nواسه اینکه به سرور ها فشار نیاد محدودیت های سختگیرانه گذاشتم، ولی همه این محدودیت ها توی سرور قابل تنظیم هست و اگر سرور شخصی راه بندازید میتونید محدودیت هارو کمتر کنید.\n\n\nhttps://x.com/i/status/2065531715041239193",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/969",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/HxKRi5phRNTfNgkhgz23uNpmn-zciH0Tbn1EpL4OuD1zknpUu4T1hNXvDenOyYvU8AiOloTAv05fz4_YmEYtNV48mfkI-YaKryYzXr2S-kfvVp-qisU3FGxqR_qlJpABOLxdFPEWjfN-eiFMjmeJnDfdMskJpXGVA4wPrb0pnXpx8tFspV6gjmh-ik3vlCDFmhqx9-Ya496k0NTwrzQyPDr_EE77j0NP5w3w-UvLSdwd-iAHQVaeWThl1BGfurTbT7-YWPRNIxC1PNepeCQrrd--BZki6jV1JCEXscCf2rWWSlUvaAbzhCBv-7zzfmG0OQmBbaIOMArDu4mQmY6szA.jpg",
+          "thumbnail_path": "channels/whitedns/media/67805a9b3f3870a9565f2713.jpg",
+          "thumbnail_sha256": "e4fa5bb8a3c6928a506d26170e70037de75fd3e419d6585f0d9183fa20e7e00c",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "213",
+      "posted_at": "2026-06-13T01:08:40+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/969",
+      "reply": null
+    },
     {
       "id": "whitedns/968",
       "author_name": "White DNS",
@@ -35,7 +80,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "384"
+          "count": "385"
         },
         {
           "emoji": "👍",
@@ -149,7 +194,7 @@
         },
         {
           "emoji": "❤",
-          "count": "388"
+          "count": "389"
         },
         {
           "emoji": "👍",
@@ -184,7 +229,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.7K",
+      "views_label": "31.8K",
       "posted_at": "2026-06-11T10:23:31+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/963",
@@ -249,7 +294,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.7K",
+      "views_label": "21.8K",
       "posted_at": "2026-06-11T05:40:17+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/962",
@@ -384,7 +429,7 @@
           "count": "2"
         }
       ],
-      "views_label": "19.5K",
+      "views_label": "19.6K",
       "posted_at": "2026-06-11T04:28:26+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/959",
@@ -433,7 +478,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.5K",
+      "views_label": "18.6K",
       "posted_at": "2026-06-11T04:13:32+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/958",
@@ -4890,39 +4935,6 @@
       "posted_at": "2026-05-27T08:21:42+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/818",
-      "reply": null
-    },
-    {
-      "id": "whitedns/817",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/oOKMfYK02Jxjzc0JJNpjFSyDOxU1TYeeHdSEk--N5eY1-ixQ-wz7tuyY8C8YGJljP5O3tNgHIncjhcUsUVQkLCprWZJnnWBrRZeVGlMMO7-tOecIDLEIm3qF1QiwTbi6rqpYSonP4WG0MyQDEV8zRwUibIvK8mahANO1owicBPIJGeHrthB_Nrmy1gHj4Rrhqh21wER-1Jiis3Qa8QgmEEOkGd0VrNA2RgEN2lUgMcBifNJDS757LIZUlrErJaec7jdJ_q2hwQmrQR0VmmmH2QGHYhigjia8bAw2cVnNu7DdVbW8uLzVqOd2JFAV6925Br952NgQeE3wwvmu5aP0Sw.jpg",
-      "author_photo_path": "channels/whitedns/media/db92001480458808f49ab8bb.jpg",
-      "author_photo_sha256": "c3710b35e9a6484cf1ef2f7b2b09f72fe38fdb555acb65155a6f8106d3d0409d",
-      "body_html": "<b>دوستانی که از نسخه اندروید اپ WhiteDNS  استفاده میکنند. </b><br><br><b>برای بیشتر کردن سرعت و پایداری</b>، میتونید با وارد شدن به بخش ریزالور ها، یک پروفایل جدید با مقادیر زیر بسازید <br><br><br><pre>1.1.1.1<br>1.0.0.1<br>8.8.8.8<br>8.8.4.4<br>9.9.9.9<br>149.112.112.112<br>208.67.222.222<br>208.67.220.220<br>94.140.14.14<br>94.140.15.15<br></pre><br><b>برای کم کردن مصرف</b>، سپس وارد بخش تنظیمات و پیشرفته بشید و‌مقادیر زیر رو تغییر بدید. <br><br>Upload Dup = 1<br>Download Dup = 2<br><br>اگر سرعت شما قابل قبول نبود، دوباره مقادیر Dup رو بالا ببرید. <br><br><br>توجه کنید که این مقادیر فقط مناسب اینترنت پایدار هستش. در صورت بازگشت اینترنت به وضعیت قبلی، باید کانفیگ های متفاوتی اعمال کرد. <br>ممنون<br>تیم White DNS",
-      "plain_text": "دوستانی که از نسخه اندروید اپ WhiteDNS استفاده میکنند.\n\nبرای بیشتر کردن سرعت و پایداری، میتونید با وارد شدن به بخش ریزالور ها، یک پروفایل جدید با مقادیر زیر بسازید\n\n\n1.1.1.1\n1.0.0.1\n8.8.8.8\n8.8.4.4\n9.9.9.9\n149.112.112.112\n208.67.222.222\n208.67.220.220\n94.140.14.14\n94.140.15.15\n\nبرای کم کردن مصرف، سپس وارد بخش تنظیمات و پیشرفته بشید و‌مقادیر زیر رو تغییر بدید.\n\nUpload Dup = 1\nDownload Dup = 2\n\nاگر سرعت شما قابل قبول نبود، دوباره مقادیر Dup رو بالا ببرید.\n\n\nتوجه کنید که این مقادیر فقط مناسب اینترنت پایدار هستش. در صورت بازگشت اینترنت به وضعیت قبلی، باید کانفیگ های متفاوتی اعمال کرد.\nممنون\nتیم White DNS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "247"
-        },
-        {
-          "emoji": "👍",
-          "count": "15"
-        },
-        {
-          "emoji": "💩",
-          "count": "4"
-        },
-        {
-          "emoji": "🥴",
-          "count": "2"
-        }
-      ],
-      "views_label": "37.4K",
-      "posted_at": "2026-05-27T08:18:48+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/817",
       "reply": null
     }
   ]
