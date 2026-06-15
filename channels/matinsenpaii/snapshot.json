@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-15T05:01:55.585Z",
+  "fetched_at": "2026-06-15T05:07:08.865Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "162K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3885",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/BKXMByZNNbUVDjdNuubKRtn0i_bN50M1GODzzpGKDkEeIndb9zS0-N6hwFRF5oi4_b76ELouzHm2u7fWv9zVnpyw7gscNBqqxrSo7Ige2bEBaGMJkO4RdRLdkeEbI_R155y1TCZmnEakpkYXNuKjQzMjw2qowbTAS9FXEIB-YU28TQpbtS-NxR-o-L0K7a2tW0oQo0jxpEAI-ea-PF8trtH9Ro1l9EeX_zyO4L7vduQqtPttZQSzKEjc3BQP77cDTCETGAlRLsQ5GCdllQ2hf2CbBSIN1rqvn1oNJxM0dSDi-yZ0Wp4BnXGqvopfu7Z1sTraaIaEppcx1CYIm3gYqg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/4281a0c080a8a6afe3651e44.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "یه پروژه‌ی جالب دیدم به اسم SurfSense، که بهش می‌گن جایگزین اوپن سورس NotebookLM <tg-emoji emoji-id=\"5472201536727686043\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939E.png')\"><b>📞</b></i></tg-emoji><br><br>اگه از NotebookLM میاید، باید بگم که SurfSense همون کارو می‌کنه؛ صرفا با کنترل کامل دست خودتون. خلاصه بخوام بگم، یه agent تحقیقاتی اوپن‌سورس و با تمرکز روی حریم خصوصیه که شبیه به کار NotebookLM رو انجام میده.<br><br><tg-emoji emoji-id=\"5472375242385005771\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918D.png')\"><b>👍</b></i></tg-emoji> مزایا نسبت به NotebookLM:<br>• اتصال به ۲۵+ منبع: گوگل درایو، Notion، Slack، YouTube، GitHub و افزونه‌ی مرورگر برای ذخیره‌ی هر صفحه‌ای (حتی پشت لاگین)<br>• آزادی انتخاب مدل: ۱۰۰+ مدل از طریق LiteLLM، یا اجرای کاملاً لوکال با Ollama و vLLM <br>• بدون محدودیت داده: هیچ سقفی روی تعداد منبع و نوت‌بوک نیست، و دیتا روی سرور(یا سیستم) خودت می‌مونه<br>• جستجوی بهتر: RAG دومرحله‌ای در برابر سرچ تک‌مرحله‌ای NotebookLM<br>• قابلیت‌های تیمی جالب: به شما رول‌های Owner/Admin/Editor/Viewer میده + چت و کامنت و...<br>• تولید پادکستا بدون محدودیته<br><br><tg-emoji emoji-id=\"5472130601047825721\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F98AD.png')\"><b>😭</b></i></tg-emoji> معایب:<br>• نصبش هلو برو توی گلو نیست واقعا. رو اعصابه — باید با dependency، API key و فایل‌های Env کلنجار برید<br>• هنوز کاملاً production-ready نیست و در حال توسعه‌ی فعاله<br>• باید خودت میزبانی و نگهداری کنی؛ طبیعتا که راحتی NotebookLM رو نداره<br><br><tg-emoji emoji-id=\"5418077986656112171\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/23E283A3.png')\"><b>#️⃣</b></i></tg-emoji> جمع‌بندی:<br>صادقانه بگم، NotebookLM همچنان ساده‌تر و آماده‌تره ولی کاملاً بسته‌ست. SurfSense سخت‌تر راه میفته ولی دیتا و انتخاب مدل کاملاً دست خودته. اگه با self-hosting و سرور هم بخواید پیش برید، به درد بخورترینه.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> ریپوی اصلی: <a href=\"http://github.com/MODSetter/SurfSense\" target=\"_blank\" rel=\"noopener\">github.com/MODSetter/SurfSense</a><br>آدرس خود وبسایتش برای دانلود مستقیم نرم‌افزار: <a href=\"https://www.surfsense.com/\" target=\"_blank\" rel=\"noopener\">https://www.surfsense.com/</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "یه پروژه‌ی جالب دیدم به اسم SurfSense، که بهش می‌گن جایگزین اوپن سورس NotebookLM 📞\n\nاگه از NotebookLM میاید، باید بگم که SurfSense همون کارو می‌کنه؛ صرفا با کنترل کامل دست خودتون. خلاصه بخوام بگم، یه agent تحقیقاتی اوپن‌سورس و با تمرکز روی حریم خصوصیه که شبیه به کار NotebookLM رو انجام میده.\n\n👍 مزایا نسبت به NotebookLM:\n• اتصال به ۲۵+ منبع: گوگل درایو، Notion، Slack، YouTube، GitHub و افزونه‌ی مرورگر برای ذخیره‌ی هر صفحه‌ای (حتی پشت لاگین)\n• آزادی انتخاب مدل: ۱۰۰+ مدل از طریق LiteLLM، یا اجرای کاملاً لوکال با Ollama و vLLM\n• بدون محدودیت داده: هیچ سقفی روی تعداد منبع و نوت‌بوک نیست، و دیتا روی سرور(یا سیستم) خودت می‌مونه\n• جستجوی بهتر: RAG دومرحله‌ای در برابر سرچ تک‌مرحله‌ای NotebookLM\n• قابلیت‌های تیمی جالب: به شما رول‌های Owner/Admin/Editor/Viewer میده + چت و کامنت و...\n• تولید پادکستا بدون محدودیته\n\n😭 معایب:\n• نصبش هلو برو توی گلو نیست واقعا. رو اعصابه — باید با dependency، API key و فایل‌های Env کلنجار برید\n• هنوز کاملاً production-ready نیست و در حال توسعه‌ی فعاله\n• باید خودت میزبانی و نگهداری کنی؛ طبیعتا که راحتی NotebookLM رو نداره\n\n#️⃣ جمع‌بندی:\nصادقانه بگم، NotebookLM همچنان ساده‌تر و آماده‌تره ولی کاملاً بسته‌ست. SurfSense سخت‌تر راه میفته ولی دیتا و انتخاب مدل کاملاً دست خودته. اگه با self-hosting و سرور هم بخواید پیش برید، به درد بخورترینه.\n\n🔗 ریپوی اصلی: github.com/MODSetter/SurfSense\nآدرس خود وبسایتش برای دانلود مستقیم نرم‌افزار: https://www.surfsense.com/\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/3885",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/GdUuMzjB6H5hb1dn3BcUfkfaVgbS3AJux9mmRjoli52c8-g4DuTjUpu92BqcaH0Oi4oze9-5w-GqQE1F0-68-W7fIrrp8WMmmIKlFKez4Ujeftp5xH3Nh6B3lfqHpgHCIjgR7T7IDZ89oc73Yda5rsZI9tirNO-iB20V82dC7R9EsAsKv7dJ7ws9H872cUsjttWSD5Y3JWvvSmBQIuK3MnnINy56KbCtG2hO3soh6uBhXl0IhsTAx1KytBeWdty612ZVLK9H3nizJhmjaPtBzLCMMZlC6AtTbZp9J4RjEmNCIdvP3sEcbp_8MiG1g7WjYtX-NlUXl9nbGSBqLTQGDA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/5534a861a482cf0c703f0db3.jpg",
+          "thumbnail_sha256": "a3a10ede9ca6d854a54448ca71d403172d3a98dd1e6749416cb8b35616f2fd07",
+          "duration_label": null,
+          "aspect_ratio": 1.381692573402418
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "239",
+      "posted_at": "2026-06-15T05:06:17+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3885",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3884",
       "author_name": "Matin SenPai",
@@ -27,7 +60,7 @@
         },
         {
           "emoji": "❤",
-          "count": "435"
+          "count": "436"
         },
         {
           "emoji": "👍",
@@ -42,7 +75,7 @@
           "count": "6"
         }
       ],
-      "views_label": "23.3K",
+      "views_label": "23.5K",
       "posted_at": "2026-06-14T18:17:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3884",
@@ -88,7 +121,7 @@
           "count": "10"
         }
       ],
-      "views_label": "28.2K",
+      "views_label": "28.3K",
       "posted_at": "2026-06-14T16:28:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3883",
@@ -171,7 +204,7 @@
         },
         {
           "emoji": "👍",
-          "count": "40"
+          "count": "41"
         },
         {
           "emoji": "🔥",
@@ -211,7 +244,7 @@
           "count": "24"
         }
       ],
-      "views_label": "26.9K",
+      "views_label": "27K",
       "posted_at": "2026-06-14T12:21:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3876",
@@ -241,7 +274,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "797"
+          "count": "798"
         },
         {
           "emoji": "😁",
@@ -479,7 +512,7 @@
           "count": "7"
         }
       ],
-      "views_label": "36.2K",
+      "views_label": "36.3K",
       "posted_at": "2026-06-14T07:19:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3869",
@@ -4271,39 +4304,6 @@
       "posted_at": "2026-06-09T06:12:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3763",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3762",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/rTQJib_KDlOvLsXn-hgKDqFzTmmXTH7g7kNUMsAwV3Z4wTXBE1vs9bSC6-NQViZgxLyZB3UmZedKnmc4nMSKJBdh6sqxe7PUwOp-EbIndT4Y_KWSkRzmLP_R2xjbS4RnGllgZcmkoxnAa4nG0ZWyv8Di97vAdxgXK6zdYzrja1jIkwhJvu9KTuRAmnf-rtua8MDLWMuKqdM5A_57IBAA-covIKvhkA5cNGm6gmIXZ55NR8d0JvBdAovAR6RQ_-DUtTJEg0Ndn6N_tX5M65K_2UAwKxLm83p8l2f4dpcGdZGSCnNnHctXXrm5pqYnZ481-B5LkbncWox4DllPyKsZig.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/725bca2011265ec8b9b633bc.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "دوستان اگر خواستید از سایت yotta سرور و دامنه بگیرید، می‌تونید آدرس فیک از <a href=\"http://fakexy.com/\" target=\"_blank\" rel=\"noopener\">fakexy.com</a> بگیرید و استفاده کنید",
-      "plain_text": "دوستان اگر خواستید از سایت yotta سرور و دامنه بگیرید، می‌تونید آدرس فیک از fakexy.com بگیرید و استفاده کنید",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "347"
-        },
-        {
-          "emoji": "👍",
-          "count": "50"
-        },
-        {
-          "emoji": "👎",
-          "count": "8"
-        },
-        {
-          "emoji": "😭",
-          "count": "6"
-        }
-      ],
-      "views_label": "57.5K",
-      "posted_at": "2026-06-08T20:23:33+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3762",
       "reply": null
     }
   ]
