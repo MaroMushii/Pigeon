@@ -1,19 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-06-15T13:35:24.441Z",
-  "succeeded": 20,
-  "failed": [
-    {
-      "username": "farsivoa",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "filter_watch",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "followupiran",
-      "error": "The operation was aborted due to timeout"
-    }
-  ]
+  "generated_at": "2026-06-15T13:36:34.993Z",
+  "succeeded": 23,
+  "failed": []
 }
