@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-15T23:01:59.830Z",
+  "fetched_at": "2026-06-15T23:07:06.059Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,43 @@
     "subscriber_count": "15.9K"
   },
   "posts": [
+    {
+      "id": "iranlix/8156",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Ohgy1XhLAN7gLE0YK1jPu3VFdBGwGhZWipPh4tHqeVGVMXwe0K5UJgqWxX1hLDlWfJ8GrLJ-UYdufYPVlAOdx-5aVBaizgvrq6ce7bFB-mNDuG5Cam4OhSZBIJzP-wiSYmUfTljooZT0D25kgfmDQ1-4a0P3SA3XXxJqq_DVkKzO4l8i3lYx3FfTRTh7jDzsBkeU8pppRpApAFRAKvSfuiunRQ-BZgYGENGqUNyxZ72tfqz5iM96MVIwB2A0COQBLVAdLSC6IXkNyjw5kVGiCKj5lWejRXQ-LbaPv2VisRaBWoe4NR81PJcOEiNj249b77lLzHdlTtkL8GkN7pEhmg.jpg",
+      "author_photo_path": "channels/iranlix/media/b9ba2e97ef9d8c77fa488322.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><b>تصویر از انفجار در قشم سمت سوزا خیابون اصلی؛ ساعت ۰۰:۳۰</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "💢تصویر از انفجار در قشم سمت سوزا خیابون اصلی؛ ساعت ۰۰:۳۰\n\n@iranlix",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/8156",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/sxSUzGghipRacV0zZNdpgyJbYB0E6eTLMHRKAs-6ODs11X9lrV6X7RzgUGnGUdj9msCWnzaWS5ZlMdwjq-opb3XpUMiaczVvojV7ONQPkEk9ewyGFV28KXvHILyjGLzjmgGFVYgntS1baCDqRZVQyvwHoa1B8Xg2EBcd5JFpaW2ga7N_Zg6QfGr022qxqUx6x200BNajKsfy219iorWeGn2dUL7KBX2ggkxCU3V2246KocXhiNMWk7FAF7AU_BiGfaHFb3Et0Ikybc_Y9_gxbQEfj1Gz0JSwuJixbm4a1rdu1X3xpiRDGSUk3x1dPMSSPT1monwzh4jjOZYKd30QFA.jpg",
+          "thumbnail_path": "channels/iranlix/media/c6248caebc07241a20fb794d.jpg",
+          "thumbnail_sha256": "190b106bea20819841e9f28ec0dad4458db07ed1b75352f17555c8860a5af63e",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "81",
+      "posted_at": "2026-06-15T23:02:15+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/8156",
+      "reply": {
+        "channel_username": "iranlix",
+        "post_id": "8149",
+        "author_name": "ایرانلیکس",
+        "preview_text": "🚨گزارشات محلی از ۳ انفجار سنگین از سمت دریا در قشم خبر میدهند. @iranlix",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/AJZD06K6vw3QSc9sJMN0UXMjL0p8izNfAJnFTdu9SGudZhf9RctdN4YGIbbZZUD-znv3DLNI_DNzPOxXIPlz15rJbjHsGUxnblBX0YaHZGj2e6Ljb4gE5DbYkhLW0pbVs-AHnCPGrcNdArCCBbq9R4QrfW744RwTQqL38PZUMo18sMjNTeyyiDaAxenymRW8afSRAag33M_amYrH9vs3uasyodaHlxeyWvFZ96DnVdIKROS227WLC31sF-kAjWiGiUwUI0kYrD7_Uw_xmrbU7iZi6imzzvieTj1qygZXNjGh7Kq-C5GM4ubFUdcX-l0kGs-rXF89wDzWNCKXNNy4uw.jpg",
+        "thumbnail_path": "channels/iranlix/media/d56ca22e62d1786a78b7e0f1.jpg",
+        "thumbnail_sha256": "dc968fea884ab3d5db0708b8275e0b0e1145327f4d86ade9e339bc8dc2ca8f83",
+        "permalink": "https://t.me/iranlix/8149"
+      }
+    },
     {
       "id": "iranlix/8155",
       "author_name": "ایرانلیکس",
@@ -33,7 +70,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "72",
+      "views_label": "131",
       "posted_at": "2026-06-15T22:56:12+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8155",
@@ -61,7 +98,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "177",
+      "views_label": "219",
       "posted_at": "2026-06-15T22:44:12+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8154",
@@ -114,7 +151,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "267",
+      "views_label": "307",
       "posted_at": "2026-06-15T22:31:05+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8152",
@@ -142,7 +179,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "466",
+      "views_label": "494",
       "posted_at": "2026-06-15T22:03:31+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8151",
@@ -207,7 +244,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "892",
+      "views_label": "908",
       "posted_at": "2026-06-15T21:02:56+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8149",
@@ -251,7 +288,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.17K",
+      "views_label": "1.18K",
       "posted_at": "2026-06-15T20:32:32+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8147",
@@ -279,7 +316,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.09K",
+      "views_label": "1.1K",
       "posted_at": "2026-06-15T20:15:42+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8144",
@@ -2923,43 +2960,6 @@
       "edited": true,
       "permalink": "https://t.me/iranlix/8038",
       "reply": null
-    },
-    {
-      "id": "iranlix/8037",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/EnazMNiJU0B3ByuJnnODX-jjBj2s8qOTRQ5j6dIPvV26xu7xWcFLvyMjkG0QPJueaoZE38EUbokG-MRoIDkCGJaU95IaMX2VS-WSHfkwXq5rhRC9zlp6LKZNziUdll4bQpASuI87coEssHMwX1xN9B63zNjWK4wcuL7k5sy1bMTnPnHSMcCVpt4SKVZR9DvmiAUU1FceM8vcFRo7aQQwrC3_o_Fzpod--VBIrI-FVT9hf02X7Mv46xqUZIPDLzEzIvU1TL6pBxv_nVgPjCYbuzb0uMTPC7qvbCHiv-9lgXk_KVkwsf8ss2lFdf_p-L3f38-jknAhkYXWooRe1k7MNg.jpg",
-      "author_photo_path": "channels/iranlix/media/56d2cd9ed2e331a19729dad0.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<b>عده ای از مخالفین توافق در بدنه نظام، توافق و عملکرد عباس عراقچی را با صدراعظم خائن و جاسوس ناصرالدین شاه ( میرزا آقاخان نوری) مقایسه کرده اند. </b><br><blockquote>آنها میگویند: قالیباف در حالیکه مجتبی خامنه ای و اطلاع از مرگ و زندگی او در هاله ای از ابهام است ، خود را یکشبه به باقرشاه تبدیل کرده و با ترامپ معامله ای کرده که همه چیز آن از پیش برنامه ریزی شده بوده. <br>کودتایی درونی برای به دست گرفتن قدرت مطلقه و فرار از مجازات. <br>عراقچی نیز در همدستی با قالیباف، نقش دلال امتیازات را دارد که  هرچه و هرکه در ۴۷ سال گذشته، اساس نظام ج.ا بوده را تقدیم ترامپ کرده است تا قبای صدارت باقرشاه را بر تن کند.</blockquote><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "عده ای از مخالفین توافق در بدنه نظام، توافق و عملکرد عباس عراقچی را با صدراعظم خائن و جاسوس ناصرالدین شاه ( میرزا آقاخان نوری) مقایسه کرده اند.\nآنها میگویند: قالیباف در حالیکه مجتبی خامنه ای و اطلاع از مرگ و زندگی او در هاله ای از ابهام است ، خود را یکشبه به باقرشاه تبدیل کرده و با ترامپ معامله ای کرده که همه چیز آن از پیش برنامه ریزی شده بوده.\nکودتایی درونی برای به دست گرفتن قدرت مطلقه و فرار از مجازات.\nعراقچی نیز در همدستی با قالیباف، نقش دلال امتیازات را دارد که هرچه و هرکه در ۴۷ سال گذشته، اساس نظام ج.ا بوده را تقدیم ترامپ کرده است تا قبای صدارت باقرشاه را بر تن کند.\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/8037",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/HVaJYZJUhB3wCDyNj_roNAlSWnnN9yKQcTD2nuGXjG_pkAeF-h2wqoRbhusuGoZMlQ4fpqriF3-HpXzoPvrCIWTjIk-ui5oPDbJl5d3mlqvD01V965hqe_EKjJy_oBK7oGUvdkYRrR_NtB1mEcEU1UswedXxmsgpwZuIbpr20sGB6iUxNUDPlFSCT8bSalSV7tn1F0TLslZJojCULyALNLpBkdHE5PlHgFVI55Zw_agE6TwlT8lO8a9E_AB1Dte1v4S2ORicvK_20YHyK9nt9QBWZf22kmuqLh8JBl5HGt_D8WBsplsE6H04Kgu-NelYBLTiV55AsyEvpQmBMBDAOg.jpg",
-          "thumbnail_path": "channels/iranlix/media/79f69b10b2e3bfa986f9b6bf.jpg",
-          "thumbnail_sha256": "f26db45020efb811104ee526404dc08ced473c9d47b3457cc5cbb4c0801a8d0d",
-          "duration_label": null,
-          "aspect_ratio": 0.9249999999999838
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.48K",
-      "posted_at": "2026-06-14T13:02:54+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/8037",
-      "reply": {
-        "channel_username": "iranlix",
-        "post_id": "8033",
-        "author_name": "ایرانلیکس",
-        "preview_text": "💢شبکه۱۲ اسراییل: نعیم قاسم ، دبیرکل نیروهای تروریستی حزب‌الله در حمله به ضاحیه بیروت، سقط شد. @iranlix",
-        "thumbnail_url": "https://cdn4.telesco.pe/file/F4PTyWRtFdGU_W7gkiM1ctHsOuAlIt0DbZgi_wmsV3Gx8UQgRJ1fxV3IZWazuZUB86ZHsrwPPcfECBWks1otlhOEtYjmc6JOLJB7EOO-q973BvOLvNrqyYxwgsIb3SC8GpKZishmftj36On5oVRzxRHsYXKNKEPi9imMhnhd1ltn0FPDMlaY3pnFPf_NlhjWPy8DTpY6JbTzffUF7yOKWSEEyeu8OxQtilxf34lgvHitoB1hWxdEcmsFDPS4q3Xe44e2ffSjnSJObHk80UqlLHLdiP4ke5mAwR8l8BVe4vRZUoeJmw1rymlRPSq3iDz0qBtmbp607ncRos76FDds-A.jpg",
-        "thumbnail_path": "channels/iranlix/media/c18e4d29728282b83711badb.jpg",
-        "thumbnail_sha256": "7297e288e2e230f8e0d3a2e1cc2a1b888850c3a0b024efeac8dbde18e6758052",
-        "permalink": "https://t.me/iranlix/8033"
-      }
     }
   ]
 }
