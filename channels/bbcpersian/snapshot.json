@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-15T13:37:43.240Z",
+  "fetched_at": "2026-06-15T13:42:01.689Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "bbcpersian/283896",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/FgCyCRA9t_XolVbgci4t6xzLCZR9AJ-Hzlui9MCUkvD0BdwySxkwYy3tWEKQIgbkGLU0jzQjxFGj5r_ZIT28jKdm8M1K1njMTzpwEpcidl1i15at_WHyMc-tHorhdcPmZiUweeMdMd04yYi85ldm5ojF-Je-I74mZ6vMfd3U2BTIY7mhCmlA9-6KeSOfk9Do8UumZmLO-8HAZqT6zzZo_yaK68nNJdGmztSKwLD-n2zyMLLZAleVz3hfyinVYr6H0cySfNWj09aGdKsKn0g1dhb2Azf5k1uqOO2jgtbQJu9k-sisKk3rXBiZ-eZZSTGw60NxY6JkzDP99EeG8BrOhw.jpg",
+      "author_photo_path": "channels/bbcpersian/media/0297ce266fff1c8109bd6453.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i> سرخط خبرهای دوشنبه ۲۵ خرداد ۱۴۰۵",
+      "plain_text": "⭕️ سرخط خبرهای دوشنبه ۲۵ خرداد ۱۴۰۵",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/283896",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/RbQATNpeCBKnRXu3VOTh1OuxHuQD6ndoAqrG3HOSow7ToelQGbYHuXq6IV8McqDbDb8m6QLAvGjHscZe7SDbb1u6ZCHrhqFaEj_eRCkbxGfLV_imUoSrJUNAQ_-YVvODLldK5Xys1Miejy_91XD7Pj4eRMgUui4nvAK0xoVRg6nnakJce5kypUiKJa6AudDoUBfUtQO5pPp34711AODycIEVqy_v-jWeGjmSOzr8Ylr8qoPnD3zCtP7ZmcuNVn9BagHJb_ivrETsycYpP_vysH45EvtWUXdzdO3wx-E49frhwwM7vRKv5W466MhQmq09oJdL5NXFZr-4vq--X6h4kQ",
+          "thumbnail_path": "channels/bbcpersian/media/0534bcf8a6c5b0792539f68e.jpg",
+          "thumbnail_sha256": "30f5bc07686834336601cb02f9e13851d6a2d7ccdd6a71513dee2b783a3dcfd1",
+          "duration_label": "0:28",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "1.67K",
+      "posted_at": "2026-06-15T13:39:17+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/283896",
+      "reply": null
+    },
+    {
       "id": "bbcpersian/283895",
       "author_name": "BBCPersian",
       "author_photo_url": "https://cdn4.telesco.pe/file/FgCyCRA9t_XolVbgci4t6xzLCZR9AJ-Hzlui9MCUkvD0BdwySxkwYy3tWEKQIgbkGLU0jzQjxFGj5r_ZIT28jKdm8M1K1njMTzpwEpcidl1i15at_WHyMc-tHorhdcPmZiUweeMdMd04yYi85ldm5ojF-Je-I74mZ6vMfd3U2BTIY7mhCmlA9-6KeSOfk9Do8UumZmLO-8HAZqT6zzZo_yaK68nNJdGmztSKwLD-n2zyMLLZAleVz3hfyinVYr6H0cySfNWj09aGdKsKn0g1dhb2Azf5k1uqOO2jgtbQJu9k-sisKk3rXBiZ-eZZSTGw60NxY6JkzDP99EeG8BrOhw.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "تازه‌ترین خبرهای جهان دوشنبه ۲۵ خرداد ۱۴۰۵ از رادیو بی‌بی‌سی در لندن\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "9.15K",
+      "views_label": "10.5K",
       "posted_at": "2026-06-15T13:08:49+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283895",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "18.9K",
+      "views_label": "19.9K",
       "posted_at": "2026-06-15T12:38:16+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283894",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "19.1K",
+      "views_label": "19.8K",
       "posted_at": "2026-06-15T12:30:15+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283893",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "21.5K",
+      "views_label": "22.2K",
       "posted_at": "2026-06-15T12:14:51+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283892",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "26.5K",
+      "views_label": "27.2K",
       "posted_at": "2026-06-15T11:47:37+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283891",
@@ -249,7 +277,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "27K",
+      "views_label": "27.3K",
       "posted_at": "2026-06-15T11:41:32+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283882",
@@ -265,7 +293,7 @@
       "plain_text": "🔻تمجید رئیس‌جمهور لبنان از تفاهم ایران و آمریکا\n\nرئیس‌جمهور لبنان ابراز امیدواری کرد که توافق واشنگتن و تهران برای پایان دادن به جنگ در خاورمیانه، به «پایان قطعی» درگیری اسرائیل و حزب‌الله منجر شود.\n\nدر بیانیه‌ دفتر جوزف عون آمده است که او از این تفاهم که «امنیت و ایمنی لبنان را بخشی جدایی‌ناپذیر از هر تلاشی برای تحکیم ثبات در منطقه» می‌داند، تمجید می‌کند.\n\nدر ادامه این بیانیه آمده است که مردم لبنان «امیدوارند این تفاهم به گام‌های عملی تبدیل شود و چرخه خشونت به پایانی قطعی برسد و پایه مرحله‌ای از ثبات، امنیت، بهبود و بازسازی گذاشته شود.»\n\nhttps://bbc.in/4viCUHy\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "33.7K",
+      "views_label": "34.1K",
       "posted_at": "2026-06-15T10:59:09+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283881",
@@ -293,7 +321,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "35.6K",
+      "views_label": "36K",
       "posted_at": "2026-06-15T10:48:10+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/283880",
@@ -387,7 +415,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "36.3K",
+      "views_label": "36.6K",
       "posted_at": "2026-06-15T10:24:09+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283873",
@@ -2760,34 +2788,6 @@
       "posted_at": "2026-06-14T00:36:12+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/283745",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/283744",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/gY7Fec7jnxFt-4gs5xSUhqMkCOlzeqIfZLh-WYeWfnjXy09rxb20YIl0ORM1qMiCZcfUPiVo64v_vdfbyvPWWCIt7sgxxlRO5Qu9fhXtTy-6Rcba07g6ZgM7UWTdrXw7CEJ_Nyiogxzecn_toHT5WQlCSaa1_icAbEijGy46UIPWYRYhXLFiTuRkhIyUoaxryP2-72EJxIdT27QsRNJlfm928iSq-rhrgTTjmkI520DJSwaPm0JEtzyaNndlQIjqFxVsfk9Vl5JvFYXPHYGosAGCGqKnZyc6T6qXtJC-7oPqpY0oRs5GG3nIJMjWNfw11Z4pIQYOTDJw7iRAoUIUSQ.jpg",
-      "author_photo_path": "channels/bbcpersian/media/4b752fbc26040d4846de2488.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>در حالی که قرار است امروز توافق پایان جنگ میان آمریکا و ایران امضا شود، برخی مخالفان این توافق که از «چهره‌های نزدیک به جبهه پایداری» ــ تشکلی اصولگرا و تندرو در ایران ــ توصیف شده‌اند، علیه عباس عراقچی و محمدباقر قالیباف شعار دادند.<br><br>این تجمع در میدان ابن‌سینای تهران برگزار شد و معترضان شعارهایی از جمله «عراقچی حیا کن، مملکت رو رها کن» و «قالیباف، عراقچی، پس خون رهبرم چی؟» سر دادند.<br><br>همزمان، ده‌ها نفر شامگاه گذشته مقابل ساختمان وزارت خارجه در مشهد در اعتراض به اظهارات عباس عراقچی درباره توافق احتمالی با آمریکا تجمع کردند.<br><br>بر اساس ویدئویی که خبرگزاری فارس منتشر کرده است، معترضان در مشهد نیز شعارهایی علیه آقای عراقچی سر دادند. مخالفان توافق معتقدند چنین توافقی به سود ایران نیست و اهرم فشار تهران در تنگه هرمز را تضعیف می‌کند.<br><br>آقای عراقچی در گفت‌وگویی تلویزیونی گفته بود که توافق مورد مذاکره شامل لغو محاصره دریایی بنادر ایران از سوی آمریکا خواهد بود. او همچنین تنگه هرمز را یکی از ابزارهای اصلی بازدارندگی ایران توصیف کرده بود.<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻در حالی که قرار است امروز توافق پایان جنگ میان آمریکا و ایران امضا شود، برخی مخالفان این توافق که از «چهره‌های نزدیک به جبهه پایداری» ــ تشکلی اصولگرا و تندرو در ایران ــ توصیف شده‌اند، علیه عباس عراقچی و محمدباقر قالیباف شعار دادند.\n\nاین تجمع در میدان ابن‌سینای تهران برگزار شد و معترضان شعارهایی از جمله «عراقچی حیا کن، مملکت رو رها کن» و «قالیباف، عراقچی، پس خون رهبرم چی؟» سر دادند.\n\nهمزمان، ده‌ها نفر شامگاه گذشته مقابل ساختمان وزارت خارجه در مشهد در اعتراض به اظهارات عباس عراقچی درباره توافق احتمالی با آمریکا تجمع کردند.\n\nبر اساس ویدئویی که خبرگزاری فارس منتشر کرده است، معترضان در مشهد نیز شعارهایی علیه آقای عراقچی سر دادند. مخالفان توافق معتقدند چنین توافقی به سود ایران نیست و اهرم فشار تهران در تنگه هرمز را تضعیف می‌کند.\n\nآقای عراقچی در گفت‌وگویی تلویزیونی گفته بود که توافق مورد مذاکره شامل لغو محاصره دریایی بنادر ایران از سوی آمریکا خواهد بود. او همچنین تنگه هرمز را یکی از ابزارهای اصلی بازدارندگی ایران توصیف کرده بود.\n\n@BBCPersian",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/bbcpersian/283744",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/nXbBnkijR8fl8py_p8l2iSfFH_Qydzd-M7V3ppoj-qXxFYsxQ02WffXB4CFvlo88_xAgzuVu2DXKP4mEaUTogAaj3NZNa-dYLyNaYWnLIyRn2b6D7KHTBTCpphyUJJ82jfwf1JO9ZDENQ8QjJ2n488kv_ALH0Ikc6EoAR_xUijYb6-Xp_iBGzdTQh6aRqkowr8sVQnFf5xfTzZkTO-m2WvGCmfbn0xahttnDrbY38HA83a3zkQ7q_eUl0cmMQLDYDJHD5yVamXwCoqowkei9ThnWXXU1bdpOoGg1wrQNz521H1glcKaZ16x5mtmxFLArXqzFe3WAGCKd3l07u1WsVg",
-          "thumbnail_path": "channels/bbcpersian/media/a2e09d6b59eb95098bf1223c.jpg",
-          "thumbnail_sha256": "b0d5fe62e5d71604359463c12b951dc03c7254eacc909394f85ada3a8a67d98f",
-          "duration_label": "1:00",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "32.9K",
-      "posted_at": "2026-06-14T00:01:18+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/283744",
       "reply": null
     }
   ]
