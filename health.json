@@ -1,6 +1,27 @@
 {
   "schema": 2,
-  "generated_at": "2026-06-16T17:38:06.124Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-06-16T17:41:57.074Z",
+  "succeeded": 18,
+  "failed": [
+    {
+      "username": "bidarzani",
+      "error": "fetch failed"
+    },
+    {
+      "username": "durov",
+      "error": "fetch failed"
+    },
+    {
+      "username": "persianvpnhub",
+      "error": "fetch failed"
+    },
+    {
+      "username": "radiofarda",
+      "error": "fetch failed"
+    },
+    {
+      "username": "whitedns",
+      "error": "fetch failed"
+    }
+  ]
 }
