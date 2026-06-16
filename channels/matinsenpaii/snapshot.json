@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-16T13:41:53.196Z",
+  "fetched_at": "2026-06-16T13:47:02.259Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,69 @@
     "subscriber_count": "162K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3902",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/RqMaorm3zKQiAfUDcJ_DcTuZSGPrkAOdChQOBZZ6YbLofkmLxDeMR2IQMUy8pUuZO8Zd9RUdhwEX7ZLvJ7_KqIwXldCmBK-CKSdwF08m8XSlm4vZwIzL_wIwJxxJNwhQzEOKUvagvWRUwBc-K6TWucE24MoMhb1PerkgqXPIHwZVVUf9CApyerYBy83QhfH346vSirWpsjLqKEC1g2YdkcNa721KMyV0uWeLMzTrQnz76oh34dOuFmL82nuNjHgmMbFy9oZiZDw5Sr96A7jliv2orRGuMOtb16R5qhFgM0vvQHcN5yChuPoBhMiUbyQBPXHeK4JWIrtTS4hqg-HCLA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/e992e3b095358ab03799838a.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "همون کانفیگ‌های json Normal BPB رو بدید بهش، خودش ایمپورت می‌کنه",
+      "plain_text": "همون کانفیگ‌های json Normal BPB رو بدید بهش، خودش ایمپورت می‌کنه",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "20"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.41K",
+      "posted_at": "2026-06-16T13:43:00+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3902",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3901",
+        "author_name": "Matin SenPai",
+        "preview_text": "توی NPV tunnel هیچکدوم از مشکلاتی که داخل MahsaNG داشتم رو ندارم. احتمالا به خاطر dns‌هاش هست اما خود V2rayNG و Mahsa و V2rayN خیلی اذیت کردن این چند وقت سر BPB خلاصه یه تست بکنید",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/3901"
+      }
+    },
+    {
+      "id": "MatinSenPaii/3901",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/RqMaorm3zKQiAfUDcJ_DcTuZSGPrkAOdChQOBZZ6YbLofkmLxDeMR2IQMUy8pUuZO8Zd9RUdhwEX7ZLvJ7_KqIwXldCmBK-CKSdwF08m8XSlm4vZwIzL_wIwJxxJNwhQzEOKUvagvWRUwBc-K6TWucE24MoMhb1PerkgqXPIHwZVVUf9CApyerYBy83QhfH346vSirWpsjLqKEC1g2YdkcNa721KMyV0uWeLMzTrQnz76oh34dOuFmL82nuNjHgmMbFy9oZiZDw5Sr96A7jliv2orRGuMOtb16R5qhFgM0vvQHcN5yChuPoBhMiUbyQBPXHeK4JWIrtTS4hqg-HCLA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/e992e3b095358ab03799838a.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "توی NPV tunnel هیچکدوم از مشکلاتی که داخل MahsaNG داشتم رو ندارم. احتمالا به خاطر dns‌هاش هست اما خود V2rayNG و Mahsa و V2rayN خیلی اذیت کردن این چند وقت سر BPB<br>خلاصه یه تست بکنید",
+      "plain_text": "توی NPV tunnel هیچکدوم از مشکلاتی که داخل MahsaNG داشتم رو ندارم. احتمالا به خاطر dns‌هاش هست اما خود V2rayNG و Mahsa و V2rayN خیلی اذیت کردن این چند وقت سر BPB\nخلاصه یه تست بکنید",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "35"
+        },
+        {
+          "emoji": "👍",
+          "count": "5"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.56K",
+      "posted_at": "2026-06-16T13:42:25+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3901",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/3900",
       "author_name": "Matin SenPai",
@@ -23,7 +86,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "745"
+          "count": "774"
         },
         {
           "emoji": "❤",
@@ -38,7 +101,7 @@
           "count": "7"
         }
       ],
-      "views_label": "16.5K",
+      "views_label": "17.6K",
       "posted_at": "2026-06-16T12:12:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3900",
@@ -103,11 +166,11 @@
         },
         {
           "emoji": "👍",
-          "count": "392"
+          "count": "395"
         },
         {
           "emoji": "😁",
-          "count": "108"
+          "count": "109"
         },
         {
           "emoji": "😭",
@@ -118,7 +181,7 @@
           "count": "24"
         }
       ],
-      "views_label": "27.2K",
+      "views_label": "27.8K",
       "posted_at": "2026-06-16T08:45:42+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3897",
@@ -174,7 +237,7 @@
         },
         {
           "emoji": "❤",
-          "count": "531"
+          "count": "533"
         },
         {
           "emoji": "🔥",
@@ -189,7 +252,7 @@
           "count": "14"
         }
       ],
-      "views_label": "29.5K",
+      "views_label": "29.9K",
       "posted_at": "2026-06-16T07:33:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3894",
@@ -220,11 +283,11 @@
         },
         {
           "emoji": "😭",
-          "count": "654"
+          "count": "655"
         },
         {
           "emoji": "👍",
-          "count": "111"
+          "count": "112"
         },
         {
           "emoji": "❤",
@@ -235,7 +298,7 @@
           "count": "7"
         }
       ],
-      "views_label": "31.9K",
+      "views_label": "32.2K",
       "posted_at": "2026-06-16T06:07:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3893",
@@ -268,7 +331,7 @@
           "count": "19"
         }
       ],
-      "views_label": "39.3K",
+      "views_label": "39.4K",
       "posted_at": "2026-06-15T13:05:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3892",
@@ -322,7 +385,7 @@
           "count": "7"
         }
       ],
-      "views_label": "36.1K",
+      "views_label": "36.2K",
       "posted_at": "2026-06-15T09:47:28+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3891",
@@ -423,7 +486,7 @@
           "count": "3"
         }
       ],
-      "views_label": "37.8K",
+      "views_label": "37.9K",
       "posted_at": "2026-06-15T07:05:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3888",
@@ -469,7 +532,7 @@
           "count": "4"
         }
       ],
-      "views_label": "34.8K",
+      "views_label": "34.9K",
       "posted_at": "2026-06-15T06:40:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3887",
@@ -502,7 +565,7 @@
           "count": "26"
         }
       ],
-      "views_label": "37K",
+      "views_label": "37.1K",
       "posted_at": "2026-06-15T05:46:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3886",
@@ -547,7 +610,7 @@
           "count": "6"
         }
       ],
-      "views_label": "40.9K",
+      "views_label": "41K",
       "posted_at": "2026-06-15T05:06:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3885",
@@ -584,7 +647,7 @@
           "count": "6"
         }
       ],
-      "views_label": "42.2K",
+      "views_label": "42.3K",
       "posted_at": "2026-06-14T18:17:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3884",
@@ -630,7 +693,7 @@
           "count": "10"
         }
       ],
-      "views_label": "43.3K",
+      "views_label": "43.4K",
       "posted_at": "2026-06-14T16:28:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3883",
@@ -4318,110 +4381,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3775",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3774",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/OoMsmD8IkY9p2q8rCWElSPq2zJV0Ua8Fhb3erlNPtyoTOLxGkuig4kq_FpPb_dzvCJWOaMVcOp5B5U5ha5oxaBNE_Gwc-ILYStZvY13UX2jEmzKethBIPlgUFQeP_cjxgsNtKcFi1uMo2CHlmw1tWB4vDI-L28ZvmRvvvrvyuM3M8s-_EwZzqWHPkXuE_WjEdw1doGme5cq8__3oJZpTnYCIkKz7sIn0PTNVttmuMZlHwJgSp9BIFFUsw4894I9R8BFK-BXZCQsKw5AfjUc1OrIODRny8vXyUCP7UJsMo8O_IIujy_i9WS12_Y8rqywkUz0wibnRPzUeHOe-rLPr0g.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/435071721a273a1ecebed939.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "کاملا درسته و حواستون به این نکته باشه. اگر می‌خواید آیپیتون ثابت باشه و برای کارای حساس استفاده کنید، اولا که ترجیحا خودتون VPS بگیرید و ستاپ کنید، دوما اگر می‌خواید از کانفیگای رایگان استفاده کنید یکی از کانفیگ‌ها رو انتخاب کنید و به هیچ وجه روی بالانسر هیدیفای یا Clash نباشید",
-      "plain_text": "کاملا درسته و حواستون به این نکته باشه. اگر می‌خواید آیپیتون ثابت باشه و برای کارای حساس استفاده کنید، اولا که ترجیحا خودتون VPS بگیرید و ستاپ کنید، دوما اگر می‌خواید از کانفیگای رایگان استفاده کنید یکی از کانفیگ‌ها رو انتخاب کنید و به هیچ وجه روی بالانسر هیدیفای یا Clash نباشید",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3774",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/X0T-4IfcedtgMZuGZDauflJ0SCymWnLAH9ZcsDRdIkMGTebGtpoWz0JK9aLqMBrBTqe91NJd1zZn15VwL01f5mJr_FOUb5bP350ObZDgQO7FT7t5YsLgal7O6t1ucqvq0ljwGod51gmk5VmpDmaoarRoZtOEig55NGKNWnsLMyER75ojt4zARvcHO6hF76-HygXI7JjQMsleVBMRlN_d9B8aSU9YeYqJYoj_aUy3mz730K-5p54_YLvYgtFQcfWeIlQMyNWOqR7Y73NNwdIq1uDqPQI9eco5CvfRGDXtt30cGLJriFxM2DMPn9Ms_8zpLl1-nrGQjDj1n1Gf1oIZ0g.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/e6ce33fa2ef5300d1f5ae1e6.jpg",
-          "thumbnail_sha256": "4b67c303af1f53ca35cbd9f742804a4360b68f03434d4c12423546697f17a665",
-          "duration_label": null,
-          "aspect_ratio": 1.82648401826484
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "267"
-        },
-        {
-          "emoji": "❤",
-          "count": "39"
-        },
-        {
-          "emoji": "😨",
-          "count": "7"
-        }
-      ],
-      "views_label": "44.9K",
-      "posted_at": "2026-06-10T12:39:20+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3774",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "3773",
-        "author_name": "Matin SenPai",
-        "preview_text": "من خودم با Hiddify راحتترم برای ساب، از اون استفاده میکنم کلا(با نت H+ الان دارم این پست رو می‌ذارم با همین ساب) اگر پینگ نداد، توی تنظیمات Tls Fragment رو روشن کنید",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/oe1JYU41Lm7AAZnbh1A3l5svMEWGpxtQrAteAnIRuhq_pewhHfJrrLicayeLFVuvH2vxSAx1WFCrtCXn17iXxW7n-duQ0R3wsrFjlWSv3PszSiBSmgy3PSqQ-2CtJVutRnJ8DvezgHYT4OEzJTz5nrcQ1M8We0NGz4GY3wx_THzToBT5uCKeRp5mrr8O-6Gn8LQqQ6mVH6svGf9odCoulh1zcOimAy56yObWz5rKhr9-n8DTtW5NQDzfp5XUAnAOl4_PyWbo_6KirNRFm5YhBlKEwTzt9ya26AKieRBJlQ_x114poAFZd5U8IFu-8Sn96vGIHAiItmxWcDlKYytVnQ.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/a254fdd6a11c6d02561d0f84.jpg",
-        "thumbnail_sha256": "5d14948eca54e6e76b7ac3d8f1998868009ba0520a09b10af39efa1f12cbcd41",
-        "permalink": "https://t.me/matinsenpaii/3773"
-      }
-    },
-    {
-      "id": "MatinSenPaii/3773",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/OoMsmD8IkY9p2q8rCWElSPq2zJV0Ua8Fhb3erlNPtyoTOLxGkuig4kq_FpPb_dzvCJWOaMVcOp5B5U5ha5oxaBNE_Gwc-ILYStZvY13UX2jEmzKethBIPlgUFQeP_cjxgsNtKcFi1uMo2CHlmw1tWB4vDI-L28ZvmRvvvrvyuM3M8s-_EwZzqWHPkXuE_WjEdw1doGme5cq8__3oJZpTnYCIkKz7sIn0PTNVttmuMZlHwJgSp9BIFFUsw4894I9R8BFK-BXZCQsKw5AfjUc1OrIODRny8vXyUCP7UJsMo8O_IIujy_i9WS12_Y8rqywkUz0wibnRPzUeHOe-rLPr0g.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/435071721a273a1ecebed939.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "من خودم با Hiddify راحتترم برای ساب، از اون استفاده میکنم کلا(با نت H+ الان دارم این پست رو می‌ذارم با همین ساب)<br>اگر پینگ نداد، توی تنظیمات Tls Fragment رو روشن کنید",
-      "plain_text": "من خودم با Hiddify راحتترم برای ساب، از اون استفاده میکنم کلا(با نت H+ الان دارم این پست رو می‌ذارم با همین ساب)\nاگر پینگ نداد، توی تنظیمات Tls Fragment رو روشن کنید",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3773",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/UrZp8bYVmGq1w8967aMcYZgLU6bExYDAF7Tree7slX7udFNzPMdbVSrQhYLfSPP-nL4rPqYXxhj-dU6cUszFfG-pVetGM2XjXotmktSsnoOs4aWD_ieuuEyP4ZaizecphwjjPzhoYADbkHMuc3-y9htiiY2tcIreN59_SBOgNt9gGbln_Jy8MXaetm6As72URXMZnNDGqaKqmtc_Q9_5MlZMBOlsg9P250QsbYZnQLP6aE04QSbj6qh9_hlp7d8R5BihAPu7J4KcEtKCZmO93TNQjEsMJ89wgZ_qocW8JibvqJxg6rGypdTM7Fd-gJ-62AFReBJ77nCMnM_m8KUsgg.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/13f71c512bdafc04e340976d.jpg",
-          "thumbnail_sha256": "b06e92e3d3f1090408c4dd3dc0bac5cf83cdabe7b6df6b8f769f74bc2087fcef",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "264"
-        },
-        {
-          "emoji": "👍",
-          "count": "23"
-        },
-        {
-          "emoji": "👎",
-          "count": "13"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        }
-      ],
-      "views_label": "46.7K",
-      "posted_at": "2026-06-10T11:19:02+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3773",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "3772",
-        "author_name": "Matin SenPai",
-        "preview_text": "این ساب‌ها رو می‌تونید توی هر کلاینت V2rayای که دارید وارد کنید و استفاده کنید ازشون",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/3772"
-      }
     }
   ]
 }
