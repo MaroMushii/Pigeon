@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-16T16:42:16.914Z",
+  "fetched_at": "2026-06-16T16:46:58.791Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,34 @@
     "subscriber_count": "130K"
   },
   "posts": [
+    {
+      "id": "farsivoa/220921",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Yf81QsC4_4kjZiYBHWuce_F6TVTfexQZqv9EGRaEz2LQMSBY0RbRSAA_obCsomqaWOEhivhurq_SV2RE-WowLk2xzEu5gkET4Uab9ZlRQI-NGnaWW5jutt9vaX1gc1svKcqI6owO6BdUHTa9sv18dMFcSJ3Lb4dvGwyJq7C886EeAWYVV-LZQYKAGDu5nYriJRP4senagrwDtCun2kW87WFCLKevf9kR_JpcdEcy5ImPsLTnqRxNk4K-0hE62pHGOp44D3_1FBfIRL9MgToXhrkVHoV57gANGy--34Hv34bdajP6Gncj_vyyvXSTT7Uqz_9hRxQnpHpHi0qBWNSPFw.jpg",
+      "author_photo_path": "channels/farsivoa/media/847f31e9ea303e7cc3ea88d5.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "ارتش اسرائیل اعلام کرد سکوی پرتاب موشک متعلق به حزب‌الله را که برای هدف‌گیری نیروهای اسرائیلی در جنوب لبنان استفاده شده بود منهدم کرده است.<br><br>بنابر بیانیه ارتش اسرائیل چند موشکی که امروز حزب‌الله به سمت محل فعالیت نیروهای اسرائیل شلیک کرده بود رهگیری و منهدم شدند. نیروی هوایی این ارتش کمی بعد سکوی پرتاب موشک‌ها را شناسایی و هدف‌گیری کرد.<br><br>ارتش اسرائیل همچنین اعلام کرد یک خودروی مشکوک در محدوده فعالیت نیروهای این ارتش بعد از شلیک هشدار، هدف‌گیری شد.",
+      "plain_text": "ارتش اسرائیل اعلام کرد سکوی پرتاب موشک متعلق به حزب‌الله را که برای هدف‌گیری نیروهای اسرائیلی در جنوب لبنان استفاده شده بود منهدم کرده است.\n\nبنابر بیانیه ارتش اسرائیل چند موشکی که امروز حزب‌الله به سمت محل فعالیت نیروهای اسرائیل شلیک کرده بود رهگیری و منهدم شدند. نیروی هوایی این ارتش کمی بعد سکوی پرتاب موشک‌ها را شناسایی و هدف‌گیری کرد.\n\nارتش اسرائیل همچنین اعلام کرد یک خودروی مشکوک در محدوده فعالیت نیروهای این ارتش بعد از شلیک هشدار، هدف‌گیری شد.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/220921",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/WMydAJOw2R8eIIgWABEN1EobOekOriXtj5ue-AWzlmSFHCwnoHwb9u20-s2nQxxGRdPPtP0HjF-riIt9cHnd6TI20JoenlP2mpe2c-7wRk3ttj9zFPEneCf4Umkbi7QBh_IRTCvFKIQVnc6NZCHztu8KTNM2svXIaK0iwp3LmXo_PS935VRurLlLujZJPFNow9KM6gZUC1JrtFfONzrLxkBTHE7qa3jvHftfmyXjvSjMagVdeigGAAXjYS2OJ92pRflSDzSZ5jI3jDVjONL0nfKqWrKdRWqeAQMHmK3uIstJT6LdO0sf2lgyq6hbbvG0gC42EQuVRtmc7OK_M1rW-g",
+          "thumbnail_path": "channels/farsivoa/media/d6cb681b856b11b5262b4754.jpg",
+          "thumbnail_sha256": "d06f7eece60479635bb1a436c294ebd546212cf69d198026709cfdbd2f1c5428",
+          "duration_label": "0:05",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "415",
+      "posted_at": "2026-06-16T16:43:12+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/220921",
+      "reply": null
+    },
     {
       "id": "farsivoa/220920",
       "author_name": "Farsi VOA",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.29K",
+      "views_label": "2.56K",
       "posted_at": "2026-06-16T15:25:36+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220920",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.35K",
+      "views_label": "2.56K",
       "posted_at": "2026-06-16T15:23:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220919",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.12K",
+      "views_label": "3.29K",
       "posted_at": "2026-06-16T14:47:55+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/220918",
@@ -105,7 +133,7 @@
       "plain_text": "🔺نتانیاهو: «با توافق یا بدون توافق» جمهوری اسلامی سلاح هسته‌ای نخواهد داشت\n\n▪️نتانیاهو در مورد توافق ایالات متحده و رژیم ایران گفت که رابطه‌اش با دونالد ترامپ، رئیس جمهور ایالات متحده، مبتنی بر همکاری است، اما تأکید کرد که او مسئولیت دفاع از منافع امنیتی اسرائیل را بر عهده دارد و «نبرد علیه جمهوری اسلامی تمام نشده است.»\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-israel-us-trump-lebanon-netanyahu-hezbollah-negotiations/8161452.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.28K",
+      "views_label": "3.45K",
       "posted_at": "2026-06-16T14:35:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220917",
@@ -121,7 +149,7 @@
       "plain_text": "🔺تساوی پرحاشیه تیم ملی ایران در بازی اول، از اعتراض‌های تماشاگران تا گلایه‌های بازیکنان و مربی\n\n▪️تیم فوتبال ایران در نخستین دیدار خود در جام جهانی ۲۰۲۶، در ورزشگاه سوفای لس‌آنجلس، برابر نیوزیلند به تساوی ۲-۲ رسید؛ نتیجه‌ای که از نظر فنی برای تیمی با جایگاه بالاتر در رده‌بندی فیفا چندان مناسب نبود، اما حاشیه‌های سیاسی و اجتماعی آن، از خود مسابقه پررنگ‌تر شد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/flags-overshadow-iran-world-cup-draw/8161443.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.96K",
+      "views_label": "3.04K",
       "posted_at": "2026-06-16T14:27:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220916",
@@ -137,7 +165,7 @@
       "plain_text": "🔺پرزیدنت ترامپ در دیدار با رئیس حکومت امارات: رژیم ایران هرگز سلاح هسته‌ای نخواهد داشت\n\n▪️دونالد ترامپ، رئیس جمهوری آمریکا، روز سه‌شنبه ۲۶ خرداد در دیدار با محمد بن زاید آل نهیان، رئیس حکومت امارات متحده عربی، در حاشیه نشست «گروه هفت» در فرانسه، بار دیگر بر توافق اخیر با حکومت ایران تأکید کرد و گفت جمهوری اسلامی هرگز سلاح هسته‌ای نخواهد داشت.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/meeting-uae-leader-president-trump-says-iran-will-never-have-nuclear-arms/8161456.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.78K",
+      "views_label": "2.86K",
       "posted_at": "2026-06-16T14:24:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220915",
@@ -165,7 +193,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.34K",
+      "views_label": "3.41K",
       "posted_at": "2026-06-16T13:59:33+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220914",
@@ -181,7 +209,7 @@
       "plain_text": "🔺اف‌بی‌آی: توطئه حمله پهپادی به «رویداد یو‌اف‌سی» در کاخ سفید را خنثی کردیم\n\n▪️مقامات آمریکایی روز سه‌شنبه ۲۶ خرداد اعلام کردند که اداره تحقیقات فدرال آمریکا، اف‌بی‌آی، توطئه‌ای برای حمله پهپادی به رویداد ورزش‌های رزمی ترکیبی «یو‌اف‌سی» را که به تازگی در کاخ سفید برگزار شد، خنثی کرده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/fbi-breaks-up-drone-attack-plot-targeting-white-house-ufc-event/8161442.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.25K",
+      "views_label": "3.32K",
       "posted_at": "2026-06-16T13:55:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220913",
@@ -209,7 +237,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.61K",
+      "views_label": "3.68K",
       "posted_at": "2026-06-16T13:43:26+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220912",
@@ -237,7 +265,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.43K",
+      "views_label": "4.49K",
       "posted_at": "2026-06-16T13:00:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220911",
@@ -265,7 +293,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "6.08K",
+      "views_label": "6.11K",
       "posted_at": "2026-06-16T11:45:44+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220910",
@@ -281,7 +309,7 @@
       "plain_text": "🔺ترامپ پس از دیدار با زلنسکی: روسیه باید با اوکراین به توافق صلح برسد\n\n▪️دونالد ترامپ اعلام کرد که روسیه باید با اوکراین به توافق صلح برسد.\n\n▪️رئیس‌جمهوری آمریکا افزود که پس از یک دیدار «بسیار خوب» میان ولودیمیر زلنسکی رئیس‌جمهور اوکراین و رهبران گروه هفت در فرانسه، هر کاری بتواند برای پایان دادن به جنگ انجام خواهد داد.\n\n▪️ترامپ از دیدار خود با زلنسکی و دیگر رهبران گروه هفت در یک جلسه غیرعلنی در روز سه‌شنبه ابراز رضایت کرد و افزود که بعداً به‌صورت دوجانبه با رهبر اوکراین دیدار خواهد کرد.\n\n▪️او گفت: «من هر کاری که بتوانم انجام می‌دهم» و افزود که روسیه باید به توافق برسد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8161432.html",
       "media": [],
       "reactions": [],
-      "views_label": "5.68K",
+      "views_label": "5.72K",
       "posted_at": "2026-06-16T11:38:10+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220909",
@@ -297,7 +325,7 @@
       "plain_text": "🔺ترامپ: بدون آمریکا و بدون من، اسرائیل وجود نداشت؛ به تغییر رژیم در ایران اعتقادی ندارم\n\n▪️دونالد ترامپ گفت اگر آمریکا و شخص او وارد عمل نشده بودند، اسرائیل «اکنون وجود نداشت» و هر فرد هوشمندی در اسرائیل این را می‌داند. او در عین حال گفت به تغییر رژیم در ایران اعتقادی ندارد و این موضوع هیچ‌گاه بخشی از هدف او نبوده است.\n\n▪️آقای ترامپ گفت با بنیامین نتانیاهو رابطه‌ای «باورنکردنی» دارد، اما اسرائیل باید در قبال لبنان مسئولانه‌تر رفتار کند. او گفت از نحوه رفتار اسرائیل با لبنان و حزب‌الله راضی نیست و اسرائیل باید می‌توانست این موضوع را بسیار سریع‌تر حل کند.\n\n▪️او گفت لبنان زمانی کشور بزرگی بود؛ کشوری با استادان، پزشکان، وکلا و چهره‌های فکری برجسته، اما اکنون وضعیت لبنان «وحشتناک» است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8161435.html",
       "media": [],
       "reactions": [],
-      "views_label": "5.08K",
+      "views_label": "5.1K",
       "posted_at": "2026-06-16T11:34:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220908",
@@ -325,7 +353,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.09K",
+      "views_label": "5.12K",
       "posted_at": "2026-06-16T10:56:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220907",
@@ -341,7 +369,7 @@
       "plain_text": "🔺ترامپ با اشاره به تفاهم با جمهوری اسلامی: ایران هرگز به سلاح هسته‌ای دست نخواهد یافت\n\n▪️دونالد ترامپ، رئیس‌جمهوری آمریکا، در جریان برگزاری نشست گروه هفت، درباره توافق با جمهوری اسلامی گفت که آمریکا هیچ سرمایه‌گذاری در ایران نخواهد کرد.\n\n▪️پرزیدنت ترامپ گفت: «ما فکر می‌کنیم این یک توافق منصفانه است». او افزود: «توافق با ایران وارد مرحله دوم می‌شود.»\n\n▪️رئیس‌جمهوری آمریکا تصریح کرد که جمهوری اسلامی «تحت این توافق هرگز به سلاح هسته‌ای دست نخواهد یافت». او هشدار داد: «اگر ایران تلاش کند به سلاح هسته‌ای دست پیدا کند، جهنم به پا خواهد شد.»\n\n▪️او همچنین جنگ لبنان را درگیری‌ای کوچک توصیف کرد و گفت که توافق با حکومت ایران می‌تواند پابرجا بماند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/trump-g7-remarks-on-iran-deal/8161426.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.88K",
+      "views_label": "4.9K",
       "posted_at": "2026-06-16T10:30:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220906",
@@ -424,7 +452,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.62K",
+      "views_label": "4.64K",
       "posted_at": "2026-06-16T10:19:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220900",
@@ -2585,22 +2613,6 @@
       "posted_at": "2026-06-15T13:18:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/220806",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/220805",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/K2qZwP39x34GVv2e8v3pf-8FNio8lJekyJwu4k8g786JTr-4brTzBaTNdpUm1iDo7FBHFfcBvLJwR_mlNl980PmjqQMblyRpnE7rllXaBFcQeOjmYXHoo9z2KeNtn4iUtyNHSbKBwHUZQC5zVnY2bIKQinrnZBEU1ZiGt3IpYUPgrCTr_Ywx79KZNuBfMjzFWgegMhNi_qk-kyuWc-Dorg_JVZCpp__TI-fOpNgVmB53ofo-KbNxuu9r7tbL2msBCtw8IKl2qVINNuBVNvlpAXEUPb6KdCC-U7A5kWT42-XlZEfRLC1JYbdPRrKyR8AAglo7L2K3MexVuk9JHiM3DQ.jpg",
-      "author_photo_path": "channels/farsivoa/media/78563a42137883fbdca11eae.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BA.png')\"><b>🔺</b></i>پرزیدنت ترامپ مقاله‌ای درباره توافق صلح با رژیم ایران را در تروت سوشال بازنشر کرد<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i>دونالد ترامپ، رئیس‌جمهوری آمریکا، روز دوشنبه ۲۵ خرداد مقاله‌ای از وب‌سایت «جاست د نیوز» را در شبکه اجتماعی تروت سوشال بازنشر کرد. این مقاله که توسط بن وِدون، خبرنگار و دبیر این رسانه، نوشته شده است، می‌گوید پرزیدنت ترامپ به توافقی برای پایان دادن به ۴۷ سال خصومت میان ایالات متحده و رژیم ایران دست یافته است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> بیشتر بخوانید:<br><br><a href=\"https://ir.voanews.com/a/president-trump-shares-just-the-news-article-on-iran-moi/8161025.html/?nocach=1\" target=\"_blank\" rel=\"noopener\">https://ir.voanews.com/a/president-trump-shares-just-the-news-article-on-iran-moi/8161025.html/?nocach=1</a>",
-      "plain_text": "🔺پرزیدنت ترامپ مقاله‌ای درباره توافق صلح با رژیم ایران را در تروت سوشال بازنشر کرد\n\n▪️دونالد ترامپ، رئیس‌جمهوری آمریکا، روز دوشنبه ۲۵ خرداد مقاله‌ای از وب‌سایت «جاست د نیوز» را در شبکه اجتماعی تروت سوشال بازنشر کرد. این مقاله که توسط بن وِدون، خبرنگار و دبیر این رسانه، نوشته شده است، می‌گوید پرزیدنت ترامپ به توافقی برای پایان دادن به ۴۷ سال خصومت میان ایالات متحده و رژیم ایران دست یافته است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/president-trump-shares-just-the-news-article-on-iran-moi/8161025.html/?nocach=1",
-      "media": [],
-      "reactions": [],
-      "views_label": "3.5K",
-      "posted_at": "2026-06-15T13:10:14+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/220805",
       "reply": null
     }
   ]
