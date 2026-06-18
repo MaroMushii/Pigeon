@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-18T14:31:26.152Z",
+  "fetched_at": "2026-06-18T14:36:12.718Z",
   "channel": {
     "username": "telegram",
     "title": "Telegram News",
@@ -12,6 +12,106 @@
   },
   "posts": [
     {
+      "id": "telegram/449",
+      "author_name": "Telegram News",
+      "author_photo_url": "https://cdn1.telesco.pe/file/u-Ucx3a2kLKFz2zIcB8yYnd3A_kXoI6JGh7aYxqf4CKxcMlgEaYjQJxv2WBBgFhAheTjIAUZGuomnSCJH8nIYTQX0ToW8s64PaxKugiXyZwpVfJ6glM7-jSsPJD9ciySt5nnbBIiTHkCOqKPX1SJ-CcM3coZ2tFiUCw-5zUk9z5J9xv9PmeGcNxO_vOz0zF5mUI9A8IJYPa87MzUGj_QPYB92ZC3xoKd8kmyY1Wt3LPhX9gDihZh9WruU98qjrqNy45bvxRBFTVfaLPW2VN1DvbfoqJ5xy9XsDZ_BQVZpDMVp3U6M1ZzFGfnVO-6D6XONqIhDxhO_rsvEodsIb1w8w.jpg",
+      "author_photo_path": "channels/telegram/media/fc355be3307ac7008a935321.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
+      "body_html": "For all the features from this update, like <b>links in poll options</b>, support for <b>.md files</b> and new <b>browser settings</b> –&nbsp;check out the full blog:<br><a href=\"https://telegram.org/blog/watch-apps-and-more\" target=\"_blank\" rel=\"noopener\">https://telegram.org/blog/watch-apps-and-more</a><br><br>June Features<br><a href=\"https://t.me/telegram/446\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> •&nbsp;<a href=\"https://t.me/telegram/447\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/448\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> • <b>More</b>",
+      "plain_text": "For all the features from this update, like links in poll options, support for .md files and new browser settings – check out the full blog:\nhttps://telegram.org/blog/watch-apps-and-more\n\nJune Features\n1 • 2 • 3 • More",
+      "media": [],
+      "reactions": [],
+      "views_label": "164",
+      "posted_at": "2026-06-18T14:36:06+00:00",
+      "edited": false,
+      "permalink": "https://t.me/telegram/449",
+      "reply": null
+    },
+    {
+      "id": "telegram/448",
+      "author_name": "Telegram News",
+      "author_photo_url": "https://cdn1.telesco.pe/file/u-Ucx3a2kLKFz2zIcB8yYnd3A_kXoI6JGh7aYxqf4CKxcMlgEaYjQJxv2WBBgFhAheTjIAUZGuomnSCJH8nIYTQX0ToW8s64PaxKugiXyZwpVfJ6glM7-jSsPJD9ciySt5nnbBIiTHkCOqKPX1SJ-CcM3coZ2tFiUCw-5zUk9z5J9xv9PmeGcNxO_vOz0zF5mUI9A8IJYPa87MzUGj_QPYB92ZC3xoKd8kmyY1Wt3LPhX9gDihZh9WruU98qjrqNy45bvxRBFTVfaLPW2VN1DvbfoqJ5xy9XsDZ_BQVZpDMVp3U6M1ZzFGfnVO-6D6XONqIhDxhO_rsvEodsIb1w8w.jpg",
+      "author_photo_path": "channels/telegram/media/fc355be3307ac7008a935321.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
+      "body_html": "<b>AI Admins for Groups.</b> Groups can now add AI bots as admins to <b>process join requests </b>with unique features like <b>captcha support</b>.<br><br>June Features<br><a href=\"https://t.me/telegram/446\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> •&nbsp;<a href=\"https://t.me/telegram/447\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<b>3</b> • <a href=\"https://t.me/telegram/449\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
+      "plain_text": "AI Admins for Groups. Groups can now add AI bots as admins to process join requests with unique features like captcha support.\n\nJune Features\n1 • 2 • 3 • More",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/telegram/448",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Bk39QDZUULUw2MZRCCnMNwV8dBQTOjo5b1-X7whYeLRzWHlcKRstXCFgGao_QLgNbVyZ8yZtDXSqw5KqVLdoyK9tteO8etjK3eBWyjN0hBQw50jgm_2qAOLYQw1ZQRNVvDeguPlnb6q72tldqlRkTKO_hK8v1HpujskizQi90pHW4KG53RdKDPhk3bcrU9VrI4gm_WbF5v2AiJfXI_jKTZKshP81vLGtD6yU-o9lFbu0upEVvfyNgI4B_qFMLBMaABe235JXLCPCPWAombmf5h-6UrWDaXeC0v5DmCq9K5GPHepMde8hEXFFPLEhSskQER722j9wZeEC0RmuukqG-Q",
+          "thumbnail_path": "channels/telegram/media/dbe1b6199aec44dbe41ae534.jpg",
+          "thumbnail_sha256": "a8c1a8637476b59ef96ec0944fb0a42bf523a802cab6bd7651026ac5e09df7ea",
+          "duration_label": "0:11",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "4.05K",
+      "posted_at": "2026-06-18T14:35:57+00:00",
+      "edited": false,
+      "permalink": "https://t.me/telegram/448",
+      "reply": null
+    },
+    {
+      "id": "telegram/447",
+      "author_name": "Telegram News",
+      "author_photo_url": "https://cdn1.telesco.pe/file/u-Ucx3a2kLKFz2zIcB8yYnd3A_kXoI6JGh7aYxqf4CKxcMlgEaYjQJxv2WBBgFhAheTjIAUZGuomnSCJH8nIYTQX0ToW8s64PaxKugiXyZwpVfJ6glM7-jSsPJD9ciySt5nnbBIiTHkCOqKPX1SJ-CcM3coZ2tFiUCw-5zUk9z5J9xv9PmeGcNxO_vOz0zF5mUI9A8IJYPa87MzUGj_QPYB92ZC3xoKd8kmyY1Wt3LPhX9gDihZh9WruU98qjrqNy45bvxRBFTVfaLPW2VN1DvbfoqJ5xy9XsDZ_BQVZpDMVp3U6M1ZzFGfnVO-6D6XONqIhDxhO_rsvEodsIb1w8w.jpg",
+      "author_photo_path": "channels/telegram/media/fc355be3307ac7008a935321.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
+      "body_html": "<b>Rich Text Formatting for Bots.</b> Telegram bots and AI agents now have access to <b>nearly 100 text formats</b> –&nbsp;like headers, tables, math or code formatting and more.<br><br>June Features<br><a href=\"https://t.me/telegram/446\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1</a> •&nbsp;<b>2</b> •&nbsp;<a href=\"https://t.me/telegram/448\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> • <a href=\"https://t.me/telegram/449\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
+      "plain_text": "Rich Text Formatting for Bots. Telegram bots and AI agents now have access to nearly 100 text formats – like headers, tables, math or code formatting and more.\n\nJune Features\n1 • 2 • 3 • More",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/telegram/447",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/KavvDV11Y1Go_txnvPc8-87Axf_h6MkGF7-oLkK5reLVWJkjMxD9fKAQ8AuLqTxMNwUIz8OqE9HXS7hpKkDqnQECz1D-SyMvolkkAR5IWR5qkEq8CrBHpZCn91LHglSUzZZoSrh56BL13Pgh8GmALtSK0VpMmwroP76LgDHz9DRzWw0MsL9mMT6KUHx3pr8w9QkfJf7CxuzYPa6OEJmzZfWH30MamCGYWC5G7lZztUbUiODxZxoSbuppnWzRONp8tJoQYD1mKOwbCDoee3qHtCGJgW2cwNCRZk-xAfCsRbObxUzwroa9MkQic19M7an-g5JZ4q29qmGXPOVFrKQ7cg",
+          "thumbnail_path": "channels/telegram/media/6176520bb71f1b025441a01e.jpg",
+          "thumbnail_sha256": "9121820b48961cf643ac9fad3670d62439ad51aa019234f0d0d3eef1573411a4",
+          "duration_label": "0:15",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "2",
+      "posted_at": "2026-06-18T14:35:36+00:00",
+      "edited": false,
+      "permalink": "https://t.me/telegram/447",
+      "reply": null
+    },
+    {
+      "id": "telegram/446",
+      "author_name": "Telegram News",
+      "author_photo_url": "https://cdn1.telesco.pe/file/u-Ucx3a2kLKFz2zIcB8yYnd3A_kXoI6JGh7aYxqf4CKxcMlgEaYjQJxv2WBBgFhAheTjIAUZGuomnSCJH8nIYTQX0ToW8s64PaxKugiXyZwpVfJ6glM7-jSsPJD9ciySt5nnbBIiTHkCOqKPX1SJ-CcM3coZ2tFiUCw-5zUk9z5J9xv9PmeGcNxO_vOz0zF5mUI9A8IJYPa87MzUGj_QPYB92ZC3xoKd8kmyY1Wt3LPhX9gDihZh9WruU98qjrqNy45bvxRBFTVfaLPW2VN1DvbfoqJ5xy9XsDZ_BQVZpDMVp3U6M1ZzFGfnVO-6D6XONqIhDxhO_rsvEodsIb1w8w.jpg",
+      "author_photo_path": "channels/telegram/media/fc355be3307ac7008a935321.jpg",
+      "author_photo_sha256": "baecc3508c6838397382402292fbe1331e2c405a6f5f71b17d03b1466aa7ce37",
+      "body_html": "<b>Watch Apps.</b> Telegram is now available on <b>Apple and Android smartwatches</b>.<br><br>Send messages, manage your chats and more <b>without your phone nearby</b>.<br><br>June Features<br><b>1</b> •&nbsp;<a href=\"https://t.me/telegram/447\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">2</a> •&nbsp;<a href=\"https://t.me/telegram/448\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">3</a> • <a href=\"https://t.me/telegram/449\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">More</a>",
+      "plain_text": "Watch Apps. Telegram is now available on Apple and Android smartwatches.\n\nSend messages, manage your chats and more without your phone nearby.\n\nJune Features\n1 • 2 • 3 • More",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/telegram/446",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/tZ2Ckz9JW3Q-pgF-m5np_5PwJtiDAdV3DwoZgFB-SBATVnn_57tChHod2TQMhPZWz1tOXC4JABqasHXWCWEAjnY7Os_S5enCvWnu5f9gJa9GGN-_nOGb63C55jbROJ3q6VuMOb_C-JYAE-fIQ632CUatjhG6NW0MASar8UBWgzrkon_TkYThUQvbIKoKmpq22p0idTOQFLm01kfYh8zVO47x6JzHxLtSaljbtsshONdvDgpMlWoizZ_hRg3N08-tAtUZC1VAg8Ovw4SrhQp2yBGC4amuMYmXZKByiU9xCBr9K-wwaMDGb63Hl9ca_RYFxlcmM1f-1fFc_Db6JbT4Gw",
+          "thumbnail_path": "channels/telegram/media/6f2bf59c83461db5c60312d2.jpg",
+          "thumbnail_sha256": "6da804ab8ebedbb4981af4d84d7d072304afebd9c966556943d081d41f6bd298",
+          "duration_label": "0:13",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "16.4K",
+      "posted_at": "2026-06-18T14:34:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/telegram/446",
+      "reply": null
+    },
+    {
       "id": "telegram/445",
       "author_name": "Telegram News",
       "author_photo_url": "https://cdn1.telesco.pe/file/u-Ucx3a2kLKFz2zIcB8yYnd3A_kXoI6JGh7aYxqf4CKxcMlgEaYjQJxv2WBBgFhAheTjIAUZGuomnSCJH8nIYTQX0ToW8s64PaxKugiXyZwpVfJ6glM7-jSsPJD9ciySt5nnbBIiTHkCOqKPX1SJ-CcM3coZ2tFiUCw-5zUk9z5J9xv9PmeGcNxO_vOz0zF5mUI9A8IJYPa87MzUGj_QPYB92ZC3xoKd8kmyY1Wt3LPhX9gDihZh9WruU98qjrqNy45bvxRBFTVfaLPW2VN1DvbfoqJ5xy9XsDZ_BQVZpDMVp3U6M1ZzFGfnVO-6D6XONqIhDxhO_rsvEodsIb1w8w.jpg",
@@ -21,7 +121,7 @@
       "plain_text": "For all the features from this update, like statistics and custom limits for polls, streaming text for bots, silent scheduled messages and more – check out the full blog:\nhttps://telegram.org/blog/ai-bot-revolution-11-new-features\n\nMay Features\n1 • 2 • 3 • 4 • 5 • More",
       "media": [],
       "reactions": [],
-      "views_label": "1.7M",
+      "views_label": "1.72M",
       "posted_at": "2026-05-14T16:09:50+00:00",
       "edited": false,
       "permalink": "https://t.me/telegram/445",
@@ -49,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.39M",
+      "views_label": "1.4M",
       "posted_at": "2026-05-14T16:09:39+00:00",
       "edited": false,
       "permalink": "https://t.me/telegram/444",
@@ -77,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "944K",
+      "views_label": "947K",
       "posted_at": "2026-05-14T16:09:19+00:00",
       "edited": false,
       "permalink": "https://t.me/telegram/443",
@@ -105,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "853K",
+      "views_label": "854K",
       "posted_at": "2026-05-14T16:08:52+00:00",
       "edited": false,
       "permalink": "https://t.me/telegram/442",
@@ -133,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "955K",
+      "views_label": "956K",
       "posted_at": "2026-05-14T16:08:31+00:00",
       "edited": false,
       "permalink": "https://t.me/telegram/441",
@@ -161,7 +261,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "924K",
+      "views_label": "925K",
       "posted_at": "2026-05-14T16:08:06+00:00",
       "edited": false,
       "permalink": "https://t.me/telegram/440",
@@ -177,7 +277,7 @@
       "plain_text": "For all the features from this update, like scanning documents on iOS, extra security alerts to protect user privacy, and even more options for polls – check out our blog:\nhttps://telegram.org/blog/ai-editor-mighty-polls-and-more\n\nMarch Features\n1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
       "media": [],
       "reactions": [],
-      "views_label": "2.3M",
+      "views_label": "2.31M",
       "posted_at": "2026-04-09T07:02:48+00:00",
       "edited": true,
       "permalink": "https://t.me/telegram/439",
@@ -417,7 +517,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.53M",
+      "views_label": "1.54M",
       "posted_at": "2026-03-02T17:33:34+00:00",
       "edited": true,
       "permalink": "https://t.me/telegram/429",
