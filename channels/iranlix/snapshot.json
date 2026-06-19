@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-19T12:46:03.653Z",
+  "fetched_at": "2026-06-19T12:51:07.327Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,45 @@
     "subscriber_count": "15.8K"
   },
   "posts": [
+    {
+      "id": "iranlix/8323",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/hh8oEHNHSUmdy0fGLIFq47PYisqJTE2jNXA1YX8St3lpVwXwOHrvdUkacsNDutZYsTkF2ptMSeth18h5XVCfQkDzc-dA7qw2cO3fcM1eobnRCqBCD9q_WRnCwzW44erRbdiIqHJoV2VkysCtvscStHtWofw2vTEQG1MFUib59rRhPijwW22GMHoGMKNwa7adTrXjEdoBJ--V_MORTG2ZkXk-uMiNC4QDbpmiVeiFSVK6gkH9RjEJYGhRW3W4ikQbn0XDqcGIqD_gc-SOkC8klHX11wFymlPXhgzAhY6M3WYWBl82ClFGfa0hgQz8RYIdEbXuCRQU3MNvOCzjWELRWw.jpg",
+      "author_photo_path": "channels/iranlix/media/8fa9c19d3a51058f0fa03115.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i><b>تصاویر منتشر شده توسط ارتش اسرائیل نشان میدهد&nbsp; که دو مقر حزب‌الله در منطقه بقاع لبنان دقایقی پیش مورد حمله قرار گرفته است</b>.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a></div>",
+      "plain_text": "💢💥تصاویر منتشر شده توسط ارتش اسرائیل نشان میدهد  که دو مقر حزب‌الله در منطقه بقاع لبنان دقایقی پیش مورد حمله قرار گرفته است.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/8323?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/fyjLEYQ5tjmozXRpubytENsNB-7AJk4EUUe9SIYauXBmRqmSbJLoEIb1IZPl29UXeLqgwzCckbn4207P8RTM6s2RzR02BWuoiUHRm2Cofw7HozF1l-UE9aLSCzffZMeIpbmvgYklohMe6EtjeEGsBsE61sMgwvrI7aMP5NfSltPX4eXZJ9gwrdF6Z9RrqsW8PK8ESnIpuB6vloiaNLtw0xSQDcnbgDhNGT__8gDLkdk46NiYaB2nQCvia_htpM8WOlxfB4rvpKZLMV-Plp7CuFXZrYDxgTv9MWMTa-tjG0NKqEvK0grZcV01RTw0vMzJL2FOxVc2EdyX6HffeLmE0A",
+          "thumbnail_path": "channels/iranlix/media/4c02ba15e0937f341adc9c1b.jpg",
+          "thumbnail_sha256": "ed17254649863516637181e109cc3907499f1ce83a318a11a07f5b74d54666cf",
+          "duration_label": "0:15",
+          "aspect_ratio": null
+        },
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/8324?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/WSAK0rRdhuAkhAJgNq-h7kmLgW8XmVdoMtEsoYQeoRgeDQ322cYkhgJnXF3zCN8aMb9WXTdycgnLlb9JZFrfJuwwXSd4nBsXv7IXbVZbECABnaX-KlupIPywEG86SW3ZsMMeDZ_Rio2S_ojLa7dUhgVwa_-AR-hMr0VLO5yw5JSU5pqQB_kLWjvtA2FuS_rlaT8NPbSErsgOgRH8JnI4KiNGbhMkv5HHAyUfTsXPEd-S-PUK7FtuWh1dMv81ChgA2IyEeXh6XGN3nSN6yKNbf7K-NEQRyZkx9WqhF1o8kxzwJAZ3CC5KEGlxJd9UixHVDbesN95JyqGczdptgDVFhA",
+          "thumbnail_path": "channels/iranlix/media/d8e9b5556565538393817477.jpg",
+          "thumbnail_sha256": "c8e9a5f369e9a89c8c81d12f833280d803d192d5b6b0a471eeaa1cdeb037a560",
+          "duration_label": "0:17",
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [],
+      "views_label": "35",
+      "posted_at": "2026-06-19T12:47:23+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/8323",
+      "reply": null
+    },
     {
       "id": "iranlix/8322",
       "author_name": "ایرانلیکس",
@@ -33,7 +72,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "316",
+      "views_label": "349",
       "posted_at": "2026-06-19T12:14:56+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8322",
@@ -61,7 +100,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "309",
+      "views_label": "371",
       "posted_at": "2026-06-19T12:14:02+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8320",
@@ -89,7 +128,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "391",
+      "views_label": "423",
       "posted_at": "2026-06-19T12:06:19+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8319",
@@ -117,7 +156,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "504",
+      "views_label": "536",
       "posted_at": "2026-06-19T11:50:09+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8318",
@@ -178,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "758",
+      "views_label": "760",
       "posted_at": "2026-06-19T11:03:59+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8314",
@@ -206,7 +245,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "823",
+      "views_label": "854",
       "posted_at": "2026-06-19T10:39:57+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8313",
@@ -234,7 +273,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "788",
+      "views_label": "819",
       "posted_at": "2026-06-19T10:36:43+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8312",
@@ -262,7 +301,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "808",
+      "views_label": "809",
       "posted_at": "2026-06-19T10:22:20+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8311",
@@ -290,7 +329,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "788",
+      "views_label": "819",
       "posted_at": "2026-06-19T10:15:50+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8310",
@@ -329,7 +368,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "817",
+      "views_label": "818",
       "posted_at": "2026-06-19T09:55:04+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8308",
@@ -3135,34 +3174,6 @@
       "posted_at": "2026-06-16T20:43:17+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8187",
-      "reply": null
-    },
-    {
-      "id": "iranlix/8186",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/dfUzxZLevoruAXUwtZ7SBoL7WiztDNRJUkYhsLaAjVwD1evbIYwji_6-1eAutkLczOmAoTxus816Sl_NQ78IKe9_uRd4mdQV4kMe6AVxeEyk4tgYTsJergtHOSLDVfGbgqRwZoMohMpFLq0qJfrtN5njSLH2tNnvYT0mCVJ-XkfgyfgSHfNuRN6P_Fy_IHv0dwkxUqLeZTCFkfTwIBiItylstYID2DGg2_qHiv6BMtQhm8ltXsqXYzJe6fd63wwZ1sxl65AtIWPzfCOrWbeqGjHww7X2GHqqCnFQhewJJz370lHjyRhPkxkqKyVT5jvXnY6bZ2RxoMovoD2-aZEznA.jpg",
-      "author_photo_path": "channels/iranlix/media/4c1b19ab7024b8900ca76dbe.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i>‏<b>ارزیابی اطلاعاتی در آمریکا: ج.ا ممکن است در پی حملات اسرائیل در لبنان، بدون هشدار قبلی اقدام به حمله غافلگیرانه علیه اسرائیل کند.</b><br><br><blockquote><b>چیزی بنام جرات لازمه. که ندارن</b></blockquote><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "💢‏ارزیابی اطلاعاتی در آمریکا: ج.ا ممکن است در پی حملات اسرائیل در لبنان، بدون هشدار قبلی اقدام به حمله غافلگیرانه علیه اسرائیل کند.\n\nچیزی بنام جرات لازمه. که ندارن\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/8186",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/bfSMcFHXuYEVr9w6GtiqoSBNolcxtM7GkXCzGxykfYYwnCuiUMEYnurDS8-KeHex27y9E47FG80ulxRrTQNCUebiqHCAUmjI3-TeHqg85YZgjPhnmAgn_aN_9KwRElgbhe8coPC7gah5KQR8PGZrENNsG5boCZGx2kSvPbFDx_wK3kFJS6wcabc4FLXqAHzONKYE5rKtCVP1KGGb0VlTNExmNCqh2W47BFNrZxEyVrfhXy4a6BUiLQjE-eKqusUoKjdFd6Nof96seUpdl6A6sZGdLOiBiN75c2FcvHzpx94X7TfYF1wYz8lP4t-q7NwXCQYZdnFiYuP7M6MYbyO90A.jpg",
-          "thumbnail_path": "channels/iranlix/media/bbabbcd063894764729e7673.jpg",
-          "thumbnail_sha256": "1baac6660529fb19bca38f43de27b4970dbf9e283742c94e5013f9e2fe942ed0",
-          "duration_label": null,
-          "aspect_ratio": 1.3305613305613306
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.69K",
-      "posted_at": "2026-06-16T20:37:49+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/8186",
       "reply": null
     }
   ]
