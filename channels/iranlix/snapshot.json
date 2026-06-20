@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-20T10:36:05.349Z",
+  "fetched_at": "2026-06-20T10:41:18.012Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,45 @@
     "subscriber_count": "15.8K"
   },
   "posts": [
+    {
+      "id": "iranlix/8377",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/RskGMpVRJoBe6p5f6F_M6Zy8WVxEv4mWbNpr2MAS6sPUG7_flJ8vatZofbpdIcY-1f8cNL5z7pxOYvCQE4FFwniYJsal4laxTDOfpTULqDwnlfJaPjsEdw2Ownyb-pnKBePqEhg-BImk0Tx4WMe2ZCmr2Ahs98DdtaBq1HeLvTS4pOlsKbvuKQ0GEyFfaTH-Vt3-fNn1EqDRHlISMklx7NxRfG61keLjh1dHsDBL_Z8DlURvNbhabZR908JL6KHGQR7xnI5rv4WAxaIT3YkGmgHTTNphGpG6hangqsMqGStEuf4KFjsLJX4scMB5C1mISck3UaiN4aGixZrEAe97rw.jpg",
+      "author_photo_path": "channels/iranlix/media/ae8537cb202ddc87466addee.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><b>ترامپ بعد از معامله با جاسوس آمریکا (شغال طرقبه) در رسانه های اجتماعی دستمایه تمسخر همگانی شده.</b></div>",
+      "plain_text": "ترامپ بعد از معامله با جاسوس آمریکا (شغال طرقبه) در رسانه های اجتماعی دستمایه تمسخر همگانی شده.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/8377?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/mj30TiZ5vnNuaHfOafeM1kJFpKzB7GNllerW5PbxizJiyc0RZ8jh102XDS6dpGy8hijQm8tN3Uk0PzvoA_mQA6TiMoS4TcFhDUVMGwRNXfokOiaxwvOxu488cmD9udMIDrtSZCvf2jZRltjtd0c39lexVqrOcV9UwlF5D-32Vpv2uK9_no2LHqZc48hJiwelFDxuJlLS0HBKjoNGWCjPhFimLvby95maFtinkpnw3oJWMk9VzfU6zuUBAavoE59g-PSV2Zjc2N8X9IswLdhmaG7Tj9YV4g3uynt8VpuxtO9AIib50AT-O79A5M_cVF_FmJakw6WtAztNuI2lgFeqSA",
+          "thumbnail_path": "channels/iranlix/media/598f48258cc53bfc2118a4b8.jpg",
+          "thumbnail_sha256": "c5a6c9dc1a16d71c8483a151ce92f444f8c1fe8621d570d3630a12538486e3fa",
+          "duration_label": "0:19",
+          "aspect_ratio": null
+        },
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/8378?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/QwmHb_sWBiCI5VFu0zLiatcEYWQH9pi9TsOyYpyOwqX5esMtuuFq8sCMs50oCzNpNELmzohs6U76ItPPlYUHnKmTnXpMTOSNq0Q1rl9V4j9QEZm2x-cI2gI6u2lpWaeR1GXb__9MflAJrjBY-TjphzywYV6TYVicCHjJJV9xz6zjOFWKLozWPqFkwYR9OnOZw5SBIOQXOrg0mEWrNaf2VRZIMLmCuWZk4Ozy-bE1EEi23irOU-BjopLdRVKrRBAhjIIJcM4DjKK-Jnh8PVLfvJxD12IdWpd7KWE0Ex2Ivs3K4sw2oR9yIEWVcvasLeCTiUnbAaI2lXnPgLabRYlfVg",
+          "thumbnail_path": "channels/iranlix/media/7dd83d038e2b80237e8c5ded.jpg",
+          "thumbnail_sha256": "e7b6f8cbd034ec44da1fcfa2c7b98b303fabf0f42b89589fcc71da35cab7bc22",
+          "duration_label": "0:12",
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-06-20T10:40:28+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/8377",
+      "reply": null
+    },
     {
       "id": "iranlix/8376",
       "author_name": "ایرانلیکس",
@@ -33,7 +72,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "219",
+      "views_label": "251",
       "posted_at": "2026-06-20T10:19:31+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8376",
@@ -72,7 +111,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "537",
+      "views_label": "592",
       "posted_at": "2026-06-20T09:37:40+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8374",
@@ -100,7 +139,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "621",
+      "views_label": "639",
       "posted_at": "2026-06-20T09:14:40+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8373",
@@ -172,7 +211,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "670",
+      "views_label": "687",
       "posted_at": "2026-06-20T09:00:21+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8368",
@@ -200,7 +239,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "635",
+      "views_label": "643",
       "posted_at": "2026-06-20T08:53:50+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8367",
@@ -272,7 +311,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "644",
+      "views_label": "651",
       "posted_at": "2026-06-20T08:46:29+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8362",
@@ -300,7 +339,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "645",
+      "views_label": "657",
       "posted_at": "2026-06-20T08:44:13+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8361",
@@ -350,7 +389,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "839",
+      "views_label": "845",
       "posted_at": "2026-06-20T07:44:15+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8358",
@@ -3290,34 +3329,6 @@
       "posted_at": "2026-06-17T18:46:50+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8227",
-      "reply": null
-    },
-    {
-      "id": "iranlix/8226",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/cu11SH6OwTQ5hexGDnL4Xw5hvuZt8bFmOZJV-fy7mDLWEAIDHdx1-72tOqTJwlkccWpkyNPb-srNyof-AQqCQBr8fAEOgaJGMtZ4BWE8KpkIS8-XwXzlqVBraNUXAnWWABPaurd5cPoaQRuTz8dkpIUzu3uz1zjOHVImTrVjxKM5dL9q3nemGXTOMrGqHcy9iS4Gk0bAWFZpYVwFHHEIzQE_o-WnOYung2cSvs8TbfpkELYp6j77M55Ms3qIFPCChdCPIZ3Rtmp-chIMkq-ew3sOL4m9R3UysKAMWj1zVYIyH2QXT_raVlITqXYbagH-yaDo0D2FBngUqfPSi7z4cg.jpg",
-      "author_photo_path": "channels/iranlix/media/f4d75d650e8d4c56af480275.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>صف شبانه روزی برای بنزین!</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i>چابهار (استان سیستان و بلوچستان): صف کیلومتری بنزین در برابر جایگاه سوخت؛ رانندگان خودروها ناچارند چندین ساعت حتی چند روز پیش در صف بایستند!<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "🔻صف شبانه روزی برای بنزین!\n\n💢چابهار (استان سیستان و بلوچستان): صف کیلومتری بنزین در برابر جایگاه سوخت؛ رانندگان خودروها ناچارند چندین ساعت حتی چند روز پیش در صف بایستند!\n\n@iranlix",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/iranlix/8226",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/If4OiRG6-4yQQXWVkl9ehN2l5dqEgOdLHc31u6r_tomHl8coY32-Jubt1YkNmfXifNfkLXjCDMNqmlnivfgtQdjqdHBxawT4CU1WQQBTQeA6DbCdrfxLzIh8IWholjKMzftGhKorFtxXrdwfXLmOA0sZfpqNPfuY1gV5kXn58A1y-mYTIa0pEbGZLqmVjSLGvX0U-OAFB0j17kRW2HYAqmzu2gm61pZQMsnFlos3vf7QO5Wi58GgljGy5T05EUiIQFZ3Y74GKAdrXASfFItgdKQoDjY2KfGFuSc5IXvcJO2HcrOK8IeqeUd1vo2irqJVblU0uDIG6230mFSY4Y5hsw",
-          "thumbnail_path": "channels/iranlix/media/5af6ff720dd36571a4387af6.jpg",
-          "thumbnail_sha256": "5d42d69bd6f47fa03e3a678b7acbe969468339ad592d28f41b12ef8a77f292fd",
-          "duration_label": "0:46",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.6K",
-      "posted_at": "2026-06-17T18:37:03+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/8226",
       "reply": null
     }
   ]
