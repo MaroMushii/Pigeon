@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-23T17:31:21.851Z",
+  "fetched_at": "2026-06-23T17:36:26.305Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,43 @@
     "subscriber_count": "15.7K"
   },
   "posts": [
+    {
+      "id": "iranlix/8562",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/LxpqcZu3My7SeJlkq_mw71SN3Hk3RGXHkEUwQGMttu7AVxUsCgmQHeF6xzxputknq4FgneeD_BRPeZE2HEgyewSbO4S_yybPyNOXfBUhN8WGrjG4NwwQteUcup5QzlOPsykR1FJcELf4MlS2WCmKUWweYfiOy9GENNScPYQGF0fUqpu7nQG6ogwscekNrTJSSC9F2OX7mYlpqoGMzgf6VyNpLoIUVJUSRFdUhUt3KxDXgNdq8PMTL5kaqIVQLilpHut5gr7cBrdOA5TLXhGwuflk7g-BTSrMvOK-QYhLTuSbqkmWraK5DpxlD2Jsm6gO1UhiVPoJrQ3VbUVjKx6HlA.jpg",
+      "author_photo_path": "channels/iranlix/media/5816242ed933b56224a5e927.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A6.png')\"><b>♦️</b></i><b>لیست بانک هایی که در حال حاضر با اختلالات گسترده در خدمات الکترونیکی مواجه هستند. <br></b><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "♦️لیست بانک هایی که در حال حاضر با اختلالات گسترده در خدمات الکترونیکی مواجه هستند.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/8562",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/JEuBEVV23wAGQsnTRvdTsSlwPpKXIprKURzlJRrofhs-Mw5oCFb3wt3OpdsZzBG6xWrR3AS52VR8_o0oMfyo7VcdZv2tDxbKcfceyAKsGhixptoSZ2ZJKaYzsgdwBZkJWSddb3p1jmRb2GhExOrYHLTrBJJnRkCs_ASZWwXVnvd1SUiFKlMAs7OhhHE_eA4Y5XsbLze8E54Gf5aL0SEBa7DAOM4iyYQwKrJ3IMQqD1cHHDY_-OzZywADXVZpPhqA0su35fny62bgM0wn-agY6dx-tZnKzeDDwthgXDlTyAqHsXPDtvCym5nPG0o4OqmOjQ0r7iJWVCAqI16D6bY3RA.jpg",
+          "thumbnail_path": "channels/iranlix/media/fac1b1241e4fe52bf93f8a16.jpg",
+          "thumbnail_sha256": "60db8029d40f05420d5780767535ad3777d9d90a3a13333255beb949103a6f87",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "68",
+      "posted_at": "2026-06-23T17:33:27+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/8562",
+      "reply": {
+        "channel_username": "iranlix",
+        "post_id": "8545",
+        "author_name": "ایرانلیکس",
+        "preview_text": "🔻حملات سایبری علیه سیستم بانکی ایران ادامه دارد ♦️بخش بزرگی از دستگاه‌های خودپرداز، اپلیکیشن‌های بانکداری اینترنتی و دستگاه‌های کارت خوان در سراسر ایران از دسترس خارج شده‌اند. @iranlix",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/oA14sgGlKUgJyv4ZCb-zRjG64YeIVt_GXnEwUfZNHvZifjZPiN4yNmBAseo-G-VXZ__8wcAH7ZwoeRj_Ox3nCZu9I2bXBKZ4bjlMmYC22LeXJOvrLz-OGVv8vpggJQuNXW_KBBkhD6jm2Rk6tyD7US-8OJXdkxaf_ihcBep8sdKbxNPl89pVZdAHJ_HKL6beqiYXuXDYMbq7eQUn-q6cpSr72YGCaRRzvQWYrtQKOtrRL5ioLCkKpvn-AjQZLcdw7cTa9h8fQ1TyY0Up6nB8KfhgUAb5b2HuM9cR46RRAdEjPmEZhNH3VHC8245A9mtJgZj9ed9Z1ni1fvEa5cmQ6A.jpg",
+        "thumbnail_path": "channels/iranlix/media/a12812bf7de6fd1bcccd501f.jpg",
+        "thumbnail_sha256": "2ab9b9f7cd6a44405ef7956eebd35af1e637e0c760fb41ccd156c2be8de143c5",
+        "permalink": "https://t.me/iranlix/8545"
+      }
+    },
     {
       "id": "iranlix/8561",
       "author_name": "ایرانلیکس",
@@ -33,7 +70,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "196",
+      "views_label": "247",
       "posted_at": "2026-06-23T17:11:13+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8561",
@@ -61,7 +98,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "411",
+      "views_label": "442",
       "posted_at": "2026-06-23T16:37:52+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8560",
@@ -89,7 +126,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "385",
+      "views_label": "410",
       "posted_at": "2026-06-23T16:37:10+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8559",
@@ -117,7 +154,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "409",
+      "views_label": "428",
       "posted_at": "2026-06-23T16:32:55+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8558",
@@ -145,7 +182,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "433",
+      "views_label": "449",
       "posted_at": "2026-06-23T16:24:51+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8557",
@@ -173,7 +210,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "655",
+      "views_label": "668",
       "posted_at": "2026-06-23T15:22:24+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8556",
@@ -201,7 +238,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "631",
+      "views_label": "641",
       "posted_at": "2026-06-23T15:15:38+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8555",
@@ -229,7 +266,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "666",
+      "views_label": "678",
       "posted_at": "2026-06-23T15:09:40+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8554",
@@ -257,7 +294,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "679",
+      "views_label": "689",
       "posted_at": "2026-06-23T14:48:31+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8553",
@@ -285,7 +322,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "701",
+      "views_label": "707",
       "posted_at": "2026-06-23T14:39:00+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8552",
@@ -313,7 +350,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "695",
+      "views_label": "701",
       "posted_at": "2026-06-23T14:32:11+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8551",
@@ -341,7 +378,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "780",
+      "views_label": "785",
       "posted_at": "2026-06-23T14:02:56+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8550",
@@ -369,7 +406,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "800",
+      "views_label": "806",
       "posted_at": "2026-06-23T13:59:09+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8549",
@@ -397,7 +434,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "832",
+      "views_label": "843",
       "posted_at": "2026-06-23T13:55:08+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8548",
@@ -434,7 +471,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "934",
+      "views_label": "940",
       "posted_at": "2026-06-23T13:16:30+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8547",
@@ -462,7 +499,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "902",
+      "views_label": "911",
       "posted_at": "2026-06-23T13:05:53+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8546",
@@ -490,7 +527,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "916",
+      "views_label": "923",
       "posted_at": "2026-06-23T12:47:52+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/8545",
@@ -527,7 +564,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "919",
+      "views_label": "927",
       "posted_at": "2026-06-23T12:43:46+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/8544",
@@ -2940,34 +2977,6 @@
         "thumbnail_sha256": "c267874bd458584933c4a20b205113424107db6e0bbb1fb041e4a1ef38042395",
         "permalink": "https://t.me/iranlix/8451"
       }
-    },
-    {
-      "id": "iranlix/8451",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/WJGWMY9GNdMK-TmftM2Cg2KhrKQr2rZ7n1B8f3bLJ0w4_VtyHJSUGq0PVqbd_Sdzn-hE8iwBEYKRBTwev-IVUgNV4DFKI2GC9A5tU0PJ5d0AoiVDqi53ztdHpk9Z5wgLZUJrkpf6T0yARIu1_OcJQhCkRJUJqEik3KQ3SMqantE6DdNUkSJQdH0PF29ZEGji9zu0Kia-aH0ml3rqBn3ztqVsGCk6epbE7wfgbZjJM3NiCqBoPI_lc9XePjm-7UyFhba4kAjmo_6h943TFqUn-WrIlAJm7-TqEKqkhUw3wViOZR0qAfxBvfHh4lwOkKvZQnBfyKWvclj6FY8IRbALFw.jpg",
-      "author_photo_path": "channels/iranlix/media/9c22ce4d12b16bc0b6e7df7f.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><b>خبرگذاری حکومتی:</b> <b>هیأت ج.ا پس از دیدار با هیأت قطری به‌عنوان یکی از طرف‌های میانجی، ساختمان محل مذاکرات را ترک کردند</b>.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "💢خبرگذاری حکومتی: هیأت ج.ا پس از دیدار با هیأت قطری به‌عنوان یکی از طرف‌های میانجی، ساختمان محل مذاکرات را ترک کردند.\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/8451",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/N1rNsjO257Dfh16_Bj0IqkduGk7lQ8-GOw3wDnzFGM-p6eS_iN6Ohie8O2MLI8lJAXvzHTTg_FaLeX_PQw-579ydI89U3QYhT3pzASzkTiGy5IVfAzx3Hh1LX3GuQ5O735q43Ior-ECf3nQ8jgGA-0ppHBiiGGVQSYUV84jJMk55Kdd6wjaJffpKD0faY3VW157TFk4jynFHoJsTcfGGr6jmx4TvpIwhrhyQLFRRlZP4uLU0wPOGe5GWxHA70NzT9RmbTtIYHg8r9bYdKErxhtbInQ6feKYWOgPsteTkWv_DHqkGrA2PkJanf9z74nDET-ZvrZwVGVrcgXL1d6jHQQ.jpg",
-          "thumbnail_path": "channels/iranlix/media/fdc157a62579aa9cc8bc9dcc.jpg",
-          "thumbnail_sha256": "44501f79237346d0328ac0903a8c24ea4d9ebd93d2b98e2b97e97b6ebc00b474",
-          "duration_label": null,
-          "aspect_ratio": 1.5717092337917484
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.43K",
-      "posted_at": "2026-06-21T17:16:22+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/8451",
-      "reply": null
     }
   ]
 }
