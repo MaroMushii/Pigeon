@@ -1,6 +1,27 @@
 {
   "schema": 2,
-  "generated_at": "2026-06-23T21:06:18.471Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-06-23T21:11:57.881Z",
+  "succeeded": 18,
+  "failed": [
+    {
+      "username": "bbcpersian",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "hranews",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "iranintltv",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "ircfspace",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "persianvpnhub",
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
 }
