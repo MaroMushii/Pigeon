@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-23T04:36:17.693Z",
+  "fetched_at": "2026-06-23T04:41:07.408Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -8,9 +8,42 @@
     "photo_url": "https://cdn1.telesco.pe/file/g2ORyTgtNPD2BfyCUxVatUcwWxbzEKavszDmZB0Ch32-W5WVbiY6IagYNbfv61xUJjXt_wNXGII2N19vLYzpGqqLMbmCRSAJVKWlwEKj2Qk4JtAqy1JvTybqkrfaABROQhO3s9yhwsCS1YfIWoFFDJXYhY44P8iPv6-KRmnadp19IWkcEGutArV2VTecz8UACSU3Bk6qGdKIPOyNOReTNKgkc5SGRqIkRYa5-IgoVtMwMcUZSht1uMeXp2zT-CO8eJ7UaS1-Ssrieupv5J4iJ0wRq3Pu_uUrUwaZ8xl1bmgOtnL8Ihi337Yur-LWx3WR7FOrV1fQJoTmXUr9--aAKg.jpg",
     "photo_path": "channels/ircfspace/media/b99a113bc03a8b351f344701.jpg",
     "photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-    "subscriber_count": "98.5K"
+    "subscriber_count": "98.4K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2447",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/g2ORyTgtNPD2BfyCUxVatUcwWxbzEKavszDmZB0Ch32-W5WVbiY6IagYNbfv61xUJjXt_wNXGII2N19vLYzpGqqLMbmCRSAJVKWlwEKj2Qk4JtAqy1JvTybqkrfaABROQhO3s9yhwsCS1YfIWoFFDJXYhY44P8iPv6-KRmnadp19IWkcEGutArV2VTecz8UACSU3Bk6qGdKIPOyNOReTNKgkc5SGRqIkRYa5-IgoVtMwMcUZSht1uMeXp2zT-CO8eJ7UaS1-Ssrieupv5J4iJ0wRq3Pu_uUrUwaZ8xl1bmgOtnL8Ihi337Yur-LWx3WR7FOrV1fQJoTmXUr9--aAKg.jpg",
+      "author_photo_path": "channels/ircfspace/media/b99a113bc03a8b351f344701.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "ابزار Config Converter یک وب‌اپلیکیشن متن‌باز هست، که ۳ ابزار پرکاربرد مبدل V2Ray، مبدل WireGuard و مبدل Clash/Sing-box رو در یک محیط یکپارچه گردآوری کرده. <br>این ابزار امکان دریافت مستقیم کانفیگ‌ها از لینک‌های سابسکریپشن رو فراهم می‌کنه و ورودی‌های Raw، Base64 و JSON رو با تشخیص خودکار فرمت، پشتیبانی کرده. همینطور کاربران میتونن بصورت گروهی آی‌پی، دامنه یا پورت تمامی کانفیگ‌هارو ویرایش بزنن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://darknessshade.github.io/Config-Converter\" target=\"_blank\" rel=\"noopener\">darknessshade.github.io/Config-Converter</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <a href=\"http://github.com/DarknessShade/Config-Converter\" target=\"_blank\" rel=\"noopener\">github.com/DarknessShade/Config-Converter</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "ابزار Config Converter یک وب‌اپلیکیشن متن‌باز هست، که ۳ ابزار پرکاربرد مبدل V2Ray، مبدل WireGuard و مبدل Clash/Sing-box رو در یک محیط یکپارچه گردآوری کرده.\nاین ابزار امکان دریافت مستقیم کانفیگ‌ها از لینک‌های سابسکریپشن رو فراهم می‌کنه و ورودی‌های Raw، Base64 و JSON رو با تشخیص خودکار فرمت، پشتیبانی کرده. همینطور کاربران میتونن بصورت گروهی آی‌پی، دامنه یا پورت تمامی کانفیگ‌هارو ویرایش بزنن.\n\n👉 darknessshade.github.io/Config-Converter\n💡 github.com/DarknessShade/Config-Converter\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2447",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/cD8aS7uOOJGbLO33_kYUH9EnmThrox3PszMqVU94v3RMKI-7IIG5zc6yNnB1Ech6gPvZrlpFvAeUJtVwTlqJVDFO83geUtRJgzsLzx7UA1sFCHllE9dqTPRV92RmfBI6vT38gO4nW0z09B2evWRWBLVvwOTif6Bky-QmOq-Mv8xhNKflK-cdwCwzhpn-1Wl05gOX0BnqjZSa54ab0g-Up8r_1nllHdYzQ1cGSJ8fe97nUA-kJqwQIOqisgBk53--FKOOwS_YrT3ISDZyC6LJ1i9h9e_zaFaklqQi1ZyAQbiU165DOOV9qggnKBcFcqURWjnw_DGPeyecYcxx4natUA.jpg",
+          "thumbnail_path": "channels/ircfspace/media/fde44a3290c3e58d2a9d79eb.jpg",
+          "thumbnail_sha256": "a1c8ed84ba32e3075473ab66713a138ea7441bcf43a9a592dcc5dbc1fd58647b",
+          "duration_label": null,
+          "aspect_ratio": 1.3333333333333333
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "🗿",
+          "count": "1"
+        }
+      ],
+      "views_label": "83",
+      "posted_at": "2026-06-23T04:40:26+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2447",
+      "reply": null
+    },
     {
       "id": "ircfspace/2446",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -78,7 +111,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.1K",
+      "views_label": "23.2K",
       "posted_at": "2026-06-21T14:42:50+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2446",
@@ -437,7 +470,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.2K",
+      "views_label": "30.3K",
       "posted_at": "2026-06-15T16:26:51+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2439",
@@ -5476,55 +5509,6 @@
       "posted_at": "2026-05-16T05:51:15+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2344",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2343",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/u0rmjxYir4BdcEtwPD4nJQuNuwCXCH-82oiTHJjWZQNJzz7gRPzhAE8hE19mjH0dBUPZZkjVUYd_ImfksojUwka0PGhXSIz0z3BbwwL_LSTQRskXWVcN84muJjeFSkCLaJ0oUTaTqAE0aFApkmpJ2E-w4xKJSf20g5PAULW9lhoR6Ub4B9FQtBiBXxnNCKP1uHUzgJdKHiuVK32AurhssExrck7RIS8Wwdoq7FZ3Qed8a8M9rY1xvV4T-BsZLcEn_fuW4ngKEAdu3bXhHDvRuMblhr66BB66T-pf3AzKbMqTT01cpLw_2Ym9mVqCZj8Vi-ZzrcdFeo0pCyEwpbxVrQ.jpg",
-      "author_photo_path": "channels/ircfspace/media/8e60dfffc278305bf04ea0b7.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "اپ متن‌باز و رایگان TunnelForge یک کلاینت L2TP برای اندروید هست، که از امکاناتی مثل حالت VPN برای کل دستگاه، حالت پروکسی با پشتیبانی از پروتکل‌های HTTP و SOCKS5، مسیریابی، پشتیبانی از چندین پروفایل همراه با ذخیره‌سازی اطلاعات لاگین، بررسی وضعیت اتصال، امکان استفاده از DNS سفارشی و تنظیم مقدار MTU برخورداره.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/evokelektrique/tunnel-forge/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/evokelektrique/tunnel-forge/releases/latest</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <a href=\"http://t.me/PersianGithubMirror/5008\" target=\"_blank\" rel=\"noopener\">t.me/PersianGithubMirror/5008</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "اپ متن‌باز و رایگان TunnelForge یک کلاینت L2TP برای اندروید هست، که از امکاناتی مثل حالت VPN برای کل دستگاه، حالت پروکسی با پشتیبانی از پروتکل‌های HTTP و SOCKS5، مسیریابی، پشتیبانی از چندین پروفایل همراه با ذخیره‌سازی اطلاعات لاگین، بررسی وضعیت اتصال، امکان استفاده از DNS سفارشی و تنظیم مقدار MTU برخورداره.\n\n👉 github.com/evokelektrique/tunnel-forge/releases/latest\n💡 t.me/PersianGithubMirror/5008\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2343",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/uDkt38UW1ApvmiefsybqjCUtDXL31BZmXyd07QFGs7Pljhttl9TQeDVit_6l03x9m8nqYQgyh0NWHsqYkQxBQJ8qc2wDhgODNRB64Rtxh81cvsdKL7Z8af7atbsfDJ4Gs4DgvI47PMeQuxVmzqlomuhafCcmJ8lCehEsuS8BAhqLCtU5i7K-aXhz9yHOozQ9WEfgbAdOnKm7UgYcr-65823jsErwxQ_dvUM7_ImCn-a7IXjFfVvvdKlEE5hgmIhGr1vexMEL2sx99PGu_WT2dCYdxzd_K_qzhaqemL3t_zFdmTRxSurL1gNawOHjRhlHzHm2uj4A6c6X2bN7ObGGtA.jpg",
-          "thumbnail_path": "channels/ircfspace/media/592162b5d885a445af70de97.jpg",
-          "thumbnail_sha256": "b768c8805ba4411991153ef2a9916643437917ae8162a31800109f61e3b9fa09",
-          "duration_label": null,
-          "aspect_ratio": 1.3333333333333333
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "91"
-        },
-        {
-          "emoji": "❤",
-          "count": "25"
-        },
-        {
-          "emoji": "🗿",
-          "count": "9"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "⚡",
-          "count": "1"
-        }
-      ],
-      "views_label": "32.4K",
-      "posted_at": "2026-05-16T05:41:15+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2343",
       "reply": null
     }
   ]
