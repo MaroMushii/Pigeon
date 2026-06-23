@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-23T05:26:13.019Z",
+  "fetched_at": "2026-06-23T05:31:15.879Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,34 @@
     "subscriber_count": "98.4K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2453",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/g2ORyTgtNPD2BfyCUxVatUcwWxbzEKavszDmZB0Ch32-W5WVbiY6IagYNbfv61xUJjXt_wNXGII2N19vLYzpGqqLMbmCRSAJVKWlwEKj2Qk4JtAqy1JvTybqkrfaABROQhO3s9yhwsCS1YfIWoFFDJXYhY44P8iPv6-KRmnadp19IWkcEGutArV2VTecz8UACSU3Bk6qGdKIPOyNOReTNKgkc5SGRqIkRYa5-IgoVtMwMcUZSht1uMeXp2zT-CO8eJ7UaS1-Ssrieupv5J4iJ0wRq3Pu_uUrUwaZ8xl1bmgOtnL8Ihi337Yur-LWx3WR7FOrV1fQJoTmXUr9--aAKg.jpg",
+      "author_photo_path": "channels/ircfspace/media/b99a113bc03a8b351f344701.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "یکی از کاربران ایرانی به نام MrArrow دو مشکل مرتبط با فرگمنت در v2rayNG رو برطرف کرده، که از نسخه ۲.۲.۵ به بعد این اپ اندروید در دسترس هستن.<br><br>این کاربر توضیح داده که \"چون تو شرایط فعلی اینترنت ایران Fragment نوع <code>tlshello</code> روی خیلی از اپراتورها دیگه مثل قبل جواب نمیده و بین حالت‌های مختلف، <code>1-1</code> معمولاً عملکرد بهتری داره و حتی با مقادیر پایین Length و Interval هم میتونه از فیلترینگ مبتنی بر SNI عبور کنه، یه سری مشکل در برنامه وجود داشت\".<br><br>مشکل اول این بود که با وجود اینکه هسته V2Ray از Fragment نوع <code>1-1</code> پشتیبانی می‌کرد، اصلاً گزینه‌ای برای انتخابش توی رابط کاربری v2rayNG وجود نداشت. مشکل دوم هم این بود که v2rayNG عملاً فقط <code>tlshello</code> رو استفاده می‌کرد. یعنی حتی اگر توی تنظیمات نوع دیگه‌ای از Fragment انتخاب میکردی، موقع اجرای کانفیگ دوباره مقدارش به <code>tlshello</code> تغییر می‌کرد و انتخاب کاربر نادیده گرفته میشد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/2dust/v2rayNG/releases\" target=\"_blank\" rel=\"noopener\">github.com/2dust/v2rayNG/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "یکی از کاربران ایرانی به نام MrArrow دو مشکل مرتبط با فرگمنت در v2rayNG رو برطرف کرده، که از نسخه ۲.۲.۵ به بعد این اپ اندروید در دسترس هستن.\n\nاین کاربر توضیح داده که \"چون تو شرایط فعلی اینترنت ایران Fragment نوع tlshello روی خیلی از اپراتورها دیگه مثل قبل جواب نمیده و بین حالت‌های مختلف، 1-1 معمولاً عملکرد بهتری داره و حتی با مقادیر پایین Length و Interval هم میتونه از فیلترینگ مبتنی بر SNI عبور کنه، یه سری مشکل در برنامه وجود داشت\".\n\nمشکل اول این بود که با وجود اینکه هسته V2Ray از Fragment نوع 1-1 پشتیبانی می‌کرد، اصلاً گزینه‌ای برای انتخابش توی رابط کاربری v2rayNG وجود نداشت. مشکل دوم هم این بود که v2rayNG عملاً فقط tlshello رو استفاده می‌کرد. یعنی حتی اگر توی تنظیمات نوع دیگه‌ای از Fragment انتخاب میکردی، موقع اجرای کانفیگ دوباره مقدارش به tlshello تغییر می‌کرد و انتخاب کاربر نادیده گرفته میشد.\n\n👉 github.com/2dust/v2rayNG/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2453",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/aL1aKJptCWbPYSPgJsjw5qOwHWYf-OQiA6qR-RaXQwb9fl3ue_LVK4-8Rx4Rqg-bQKaAcKqdWhnkECgOCbyDrstzO-k0vYlfiDMqDGQNou4Kv90xDUyWyjW_gainw1NUCn1iDBsEawwiMILZjJhDtRlRJQcedHPFHNrKv9av-IfkJfS4LubSwOqrAgd7YLhy2iyxUgoSuSs1QOGr4BNXb8FjYSezC5wSXUeuGq6QhUcMYZKAsBa-eoD7v1HxS0lnx0g6wvzDSDLd-1rdxij6BtNUltQe9Jm4e2hLrd4BHvgPgbOAVHHIYb_dmlf_3U1uVhyEzc6kSuPE69TH63USfg.jpg",
+          "thumbnail_path": "channels/ircfspace/media/3b21c715cc1b7433dbd02326.jpg",
+          "thumbnail_sha256": "bf21689ba40a599b4824980b7ae856596c26a75c43d18d184fef89d199c95007",
+          "duration_label": null,
+          "aspect_ratio": 2.1333333333333333
+        }
+      ],
+      "reactions": [],
+      "views_label": "102",
+      "posted_at": "2026-06-23T05:30:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/ircfspace/2453",
+      "reply": null
+    },
     {
       "id": "ircfspace/2452",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -35,18 +63,22 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "37"
+          "count": "60"
         },
         {
           "emoji": "❤",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "👎",
+          "count": "3"
+        },
+        {
+          "emoji": "🤬",
           "count": "2"
         }
       ],
-      "views_label": "1.27K",
+      "views_label": "1.84K",
       "posted_at": "2026-06-23T05:18:52+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2452",
@@ -64,19 +96,19 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "52"
+          "count": "60"
         },
         {
           "emoji": "👍",
-          "count": "10"
+          "count": "11"
+        },
+        {
+          "emoji": "👏",
+          "count": "3"
         },
         {
           "emoji": "😢",
           "count": "3"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
         },
         {
           "emoji": "❤",
@@ -87,7 +119,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.09K",
+      "views_label": "3.46K",
       "posted_at": "2026-06-23T05:05:18+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2451",
@@ -121,18 +153,18 @@
         },
         {
           "emoji": "👍",
-          "count": "127"
+          "count": "138"
         },
         {
           "emoji": "❤",
           "count": "6"
         },
         {
-          "emoji": "🤬",
-          "count": "3"
+          "emoji": "😢",
+          "count": "4"
         },
         {
-          "emoji": "😢",
+          "emoji": "🤬",
           "count": "3"
         },
         {
@@ -148,7 +180,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.58K",
+      "views_label": "3.99K",
       "posted_at": "2026-06-23T04:59:40+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2450",
@@ -166,14 +198,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "78"
+          "count": "82"
         },
         {
           "emoji": "😁",
-          "count": "22"
+          "count": "25"
         }
       ],
-      "views_label": "4.06K",
+      "views_label": "4.34K",
       "posted_at": "2026-06-23T04:53:26+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2449",
@@ -203,14 +235,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "22"
+          "count": "25"
         },
         {
           "emoji": "👍",
           "count": "5"
         }
       ],
-      "views_label": "4.25K",
+      "views_label": "4.54K",
       "posted_at": "2026-06-23T04:48:35+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2448",
@@ -244,11 +276,11 @@
         },
         {
           "emoji": "👍",
-          "count": "21"
+          "count": "24"
         },
         {
           "emoji": "❤",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "⚡",
@@ -263,7 +295,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.64K",
+      "views_label": "4.89K",
       "posted_at": "2026-06-23T04:40:26+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2447",
@@ -336,7 +368,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.6K",
+      "views_label": "24.7K",
       "posted_at": "2026-06-21T14:42:50+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2446",
@@ -438,7 +470,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.7K",
+      "views_label": "32.8K",
       "posted_at": "2026-06-17T05:17:25+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2444",
@@ -456,7 +488,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "675"
+          "count": "676"
         },
         {
           "emoji": "😁",
@@ -483,7 +515,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.9K",
+      "views_label": "32K",
       "posted_at": "2026-06-17T04:54:32+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2443",
@@ -505,7 +537,7 @@
         },
         {
           "emoji": "😁",
-          "count": "435"
+          "count": "436"
         },
         {
           "emoji": "👍",
@@ -593,7 +625,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.8K",
+      "views_label": "26.9K",
       "posted_at": "2026-06-17T04:42:27+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2441",
@@ -646,7 +678,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.8K",
+      "views_label": "30.9K",
       "posted_at": "2026-06-15T16:30:33+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2440",
@@ -695,7 +727,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.9K",
+      "views_label": "31K",
       "posted_at": "2026-06-15T16:26:51+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2439",
@@ -919,7 +951,7 @@
           "count": "1"
         }
       ],
-      "views_label": "49.8K",
+      "views_label": "49.9K",
       "posted_at": "2026-06-13T14:03:10+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2435",
@@ -5384,71 +5416,6 @@
       "posted_at": "2026-05-18T05:51:32+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2350",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2349",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/u0rmjxYir4BdcEtwPD4nJQuNuwCXCH-82oiTHJjWZQNJzz7gRPzhAE8hE19mjH0dBUPZZkjVUYd_ImfksojUwka0PGhXSIz0z3BbwwL_LSTQRskXWVcN84muJjeFSkCLaJ0oUTaTqAE0aFApkmpJ2E-w4xKJSf20g5PAULW9lhoR6Ub4B9FQtBiBXxnNCKP1uHUzgJdKHiuVK32AurhssExrck7RIS8Wwdoq7FZ3Qed8a8M9rY1xvV4T-BsZLcEn_fuW4ngKEAdu3bXhHDvRuMblhr66BB66T-pf3AzKbMqTT01cpLw_2Ym9mVqCZj8Vi-ZzrcdFeo0pCyEwpbxVrQ.jpg",
-      "author_photo_path": "channels/ircfspace/media/8e60dfffc278305bf04ea0b7.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "مسعود پزشکیان بعد از ۷۹ روز قطع سراسری اینترنت در ایران، روز جهانی ارتباطات رو تبریک گفت! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA4A1.png')\"><b>🤡</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "مسعود پزشکیان بعد از ۷۹ روز قطع سراسری اینترنت در ایران، روز جهانی ارتباطات رو تبریک گفت! 🤡\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2349",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/IkIpYZxMigukh6_gYgBqTBmu9gUmaSrySR08NFbrFNOG7nCUO0QrZ4iKWW1cCrNB7qpBvbVGjnyFvr6s-bQfFzjvazTn5umlFlTiwHS38gNsvUyNFY6ihfVZ0VCSaxoo5hUBcRqJ6Jv3DYolrrXmYvRSlpqMFCclDcPpZFDCvUQWTtgRTiiPwN_ynARXSlHhro4gENO2rzgTsm1RlPhfKD95hdxY2J5j5TVLey4kEPmSLOEnBOSjDi28IYiTbg72YxDLpbTr1Fx0ESc-sG8WuUhwBBBSj62rnyjLM8Sz2mOb5D-k-C_gezRdAqmnieBNOQksW35yJg6c5dJBXYXsBg.jpg",
-          "thumbnail_path": "channels/ircfspace/media/71c39ff83a70b0e72b0a3314.jpg",
-          "thumbnail_sha256": "f376c3c0baa31ad06ab66806e57473e578e5e5249f3b876f0569bb53171028b9",
-          "duration_label": null,
-          "aspect_ratio": 1.25
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "🤡",
-          "count": "841"
-        },
-        {
-          "emoji": "🤬",
-          "count": "194"
-        },
-        {
-          "emoji": "😁",
-          "count": "27"
-        },
-        {
-          "emoji": "❤",
-          "count": "14"
-        },
-        {
-          "emoji": "👎",
-          "count": "8"
-        },
-        {
-          "emoji": "😐",
-          "count": "8"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "🥴",
-          "count": "2"
-        },
-        {
-          "emoji": "🗿",
-          "count": "2"
-        }
-      ],
-      "views_label": "33.6K",
-      "posted_at": "2026-05-17T17:38:28+00:00",
-      "edited": false,
-      "permalink": "https://t.me/ircfspace/2349",
       "reply": null
     }
   ]
