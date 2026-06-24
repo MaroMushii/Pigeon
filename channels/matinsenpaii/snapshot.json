@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-24T12:06:49.406Z",
+  "fetched_at": "2026-06-24T12:11:56.539Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,48 @@
     "subscriber_count": "161K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/3994",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/aEC37PnoxOPuq-UUphTpSuVweXPHqUcNcC0I17bVu7-vyIV29edZ1KdCKR6hjULyW6ndciwCV1cj4Lid7J-_jCo9dskKc55U2-ebq1y8o2bJ189snVdEJkvnJhrr3yPyEraK2fSsL-lwg7Q2Zockn5UFY9oqELepvORGQwaca5jDFIxS7Fv9Cc6QrCejHDfhV0iq7RW6OBUi1Kef_HziElYlam-UG7ucCwuxldAvKZtYBQ-80L7gmIiKyOlM34_vAMR1VrnUY1ejgnu876LCk0677toznkpYXkoUV4ByLYTH7AWdNM1mFbc_yCQEjj_8hlyMRbnbuQqQNp598X5-kg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/2683044305496af7411fbec0.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "گویا دیروز خیلی ها به این مشکل خورده بودن و کلودفلر دامین‌ها رو بلاک کرده بود",
+      "plain_text": "گویا دیروز خیلی ها به این مشکل خورده بودن و کلودفلر دامین‌ها رو بلاک کرده بود",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
+          "emoji": "😭",
+          "count": "1"
+        },
+        {
+          "emoji": "😨",
+          "count": "1"
+        }
+      ],
+      "views_label": "14",
+      "posted_at": "2026-06-24T12:11:09+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/3994",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "3993",
+        "author_name": "Matin SenPai",
+        "preview_text": "یکی از دوستان، این رو گفت برای مشکل ابیوز کلودفلر: برای حل مشکل بلاک شدن دامنه‌تون تو کلادفلر این کاری که میگم رو انجام بدید. برید توی dns records و گزینه export رو بزنین. اینطوری تمامی رکورد‌های dns ای که ساختین رو خروجی میگیره ازش و دانلود میکنه براتون.…",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/3993"
+      }
+    },
     {
       "id": "MatinSenPaii/3993",
       "author_name": "Matin SenPai",
@@ -23,15 +65,15 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "20"
+          "count": "32"
         },
         {
           "emoji": "❤",
-          "count": "15"
+          "count": "19"
         },
         {
           "emoji": "👍",
-          "count": "1"
+          "count": "2"
         },
         {
           "emoji": "👎",
@@ -42,7 +84,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.9K",
+      "views_label": "3.79K",
       "posted_at": "2026-06-24T12:02:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3993",
@@ -60,7 +102,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "53"
+          "count": "56"
         },
         {
           "emoji": "👍",
@@ -75,7 +117,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.13K",
+      "views_label": "8.09K",
       "posted_at": "2026-06-24T11:42:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3992",
@@ -93,15 +135,15 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "140"
+          "count": "147"
         },
         {
           "emoji": "😁",
-          "count": "55"
+          "count": "58"
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👎",
@@ -110,9 +152,13 @@
         {
           "emoji": "🔥",
           "count": "2"
+        },
+        {
+          "emoji": "💔",
+          "count": "1"
         }
       ],
-      "views_label": "7.28K",
+      "views_label": "8.24K",
       "posted_at": "2026-06-24T11:41:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3991",
@@ -155,22 +201,22 @@
         },
         {
           "emoji": "❤",
-          "count": "196"
+          "count": "205"
         },
         {
           "emoji": "👎",
-          "count": "142"
+          "count": "188"
         },
         {
           "emoji": "👍",
-          "count": "28"
+          "count": "29"
         },
         {
           "emoji": "🔥",
           "count": "4"
         }
       ],
-      "views_label": "12.1K",
+      "views_label": "12.8K",
       "posted_at": "2026-06-24T11:10:28+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3990",
@@ -200,7 +246,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "338"
+          "count": "346"
         },
         {
           "emoji": "👍",
@@ -223,7 +269,7 @@
           "count": "2"
         }
       ],
-      "views_label": "14.3K",
+      "views_label": "15K",
       "posted_at": "2026-06-24T10:59:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3989",
@@ -262,7 +308,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "184"
+          "count": "188"
         },
         {
           "emoji": "👍",
@@ -289,7 +335,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.7K",
+      "views_label": "15K",
       "posted_at": "2026-06-24T10:55:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3988",
@@ -307,7 +353,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "592"
+          "count": "596"
         },
         {
           "emoji": "👍",
@@ -315,7 +361,7 @@
         },
         {
           "emoji": "❤",
-          "count": "13"
+          "count": "14"
         },
         {
           "emoji": "🎃",
@@ -334,7 +380,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.3K",
+      "views_label": "23.6K",
       "posted_at": "2026-06-24T09:37:01+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3987",
@@ -364,11 +410,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "470"
+          "count": "474"
         },
         {
           "emoji": "👍",
-          "count": "75"
+          "count": "76"
         },
         {
           "emoji": "😁",
@@ -391,7 +437,7 @@
           "count": "3"
         }
       ],
-      "views_label": "28.4K",
+      "views_label": "28.7K",
       "posted_at": "2026-06-24T07:35:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3986",
@@ -425,7 +471,7 @@
         },
         {
           "emoji": "👍",
-          "count": "116"
+          "count": "117"
         },
         {
           "emoji": "❤",
@@ -630,7 +676,7 @@
           "count": "2"
         }
       ],
-      "views_label": "33.9K",
+      "views_label": "34.2K",
       "posted_at": "2026-06-23T12:00:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3981",
@@ -784,7 +830,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "431"
+          "count": "432"
         },
         {
           "emoji": "👍",
@@ -821,7 +867,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "655"
+          "count": "657"
         },
         {
           "emoji": "😭",
@@ -844,7 +890,7 @@
           "count": "2"
         }
       ],
-      "views_label": "36.3K",
+      "views_label": "36.6K",
       "posted_at": "2026-06-23T10:40:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3974",
@@ -897,7 +943,7 @@
           "count": "2"
         }
       ],
-      "views_label": "38.4K",
+      "views_label": "38.5K",
       "posted_at": "2026-06-23T10:27:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3973",
@@ -946,7 +992,7 @@
           "count": "3"
         }
       ],
-      "views_label": "39.4K",
+      "views_label": "39.7K",
       "posted_at": "2026-06-23T08:21:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3972",
@@ -4729,39 +4775,6 @@
       "posted_at": "2026-06-14T07:19:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3868",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3867",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/BKXMByZNNbUVDjdNuubKRtn0i_bN50M1GODzzpGKDkEeIndb9zS0-N6hwFRF5oi4_b76ELouzHm2u7fWv9zVnpyw7gscNBqqxrSo7Ige2bEBaGMJkO4RdRLdkeEbI_R155y1TCZmnEakpkYXNuKjQzMjw2qowbTAS9FXEIB-YU28TQpbtS-NxR-o-L0K7a2tW0oQo0jxpEAI-ea-PF8trtH9Ro1l9EeX_zyO4L7vduQqtPttZQSzKEjc3BQP77cDTCETGAlRLsQ5GCdllQ2hf2CbBSIN1rqvn1oNJxM0dSDi-yZ0Wp4BnXGqvopfu7Z1sTraaIaEppcx1CYIm3gYqg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/4281a0c080a8a6afe3651e44.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "‏<b>بدافزارهایی که با ترساندن هوش مصنوعی پنهان می‌مانند!</b><br><br>تصور کنید یک سارق بعد از دزدی، یادداشتی آنقدر وحشتناک جلوی در خانه بگذارد که مامور پلیس بعد از خواندنش، با خود بگوید «بیخیال…» و اصلاً بازرسی را ادامه ندهد! پژوهشگران متوجه شده‌اند در موج تازه‌ای از حملات نرم‌افزاری، هکرها از ترفندی مشابه برای فریب دادن هوش مصنوعی استفاده می‌کنند؛ آن‌ها بدافزارهایی می‌سازند که بخشی از متن‌شان طوری نوشته شده که هوش مصنوعی از بررسی هرچه بیشتر صرف نظر می‌کند!<br><br><blockquote expandable=\"\">ابزارهای هوش مصنوعی کنونی، ترمزهایی از پیش تعریف‌شده دارند. برای مثال اگر از آن‌ها راجع به نحوه‌ی ساخت «بدافزار»، «تسلیحات شیمیایی» یا «تسلیحات اتمی» سوال کنید، فوراً ترمزشان کشیده می‌شود و از پاسخ دادن طفره می‌روند. حالا هکرها متوجه شده‌اند که با افزودن این نوع از متون ممنوعه به بدافزارها یا نرم‌افزارهای معتبری که آلوده شده‌اند، می‌توان فرایند بررسی امنیتی کدها از سوی هوش مصنوعی را هم مختل کرد.<br><br>به زبان ساده، مهاجم سعی دارد کاری کند که ابزار امنیتی وقتی به بدافزار می‌رسد، به‌جای بررسی دقیق کدها با خود بگوید: «من اصلاً اجازه ندارم این را تحلیل کنم» و از آن رد شود.<br></blockquote>﻿<br>این نوع حمله نشانه‌ای است از ورود به مرحله تازه‌ای در امنیت سایبری؛ مهاجمان دیگر فقط انسان‌ها را فریب نمی‌دهند، بلکه رفتار هوش مصنوعی هم هدف قرار می‌گیرد و ترفندها در گذر زمان فقط پیچیده‌تر و خلاقانه‌تر خواهند شد.<br><br><tg-emoji emoji-id=\"5470060791883374114\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <a href=\"https://x.com/i/status/2065763216446136381\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">NooshDaroo</a>",
-      "plain_text": "‏بدافزارهایی که با ترساندن هوش مصنوعی پنهان می‌مانند!\n\nتصور کنید یک سارق بعد از دزدی، یادداشتی آنقدر وحشتناک جلوی در خانه بگذارد که مامور پلیس بعد از خواندنش، با خود بگوید «بیخیال…» و اصلاً بازرسی را ادامه ندهد! پژوهشگران متوجه شده‌اند در موج تازه‌ای از حملات نرم‌افزاری، هکرها از ترفندی مشابه برای فریب دادن هوش مصنوعی استفاده می‌کنند؛ آن‌ها بدافزارهایی می‌سازند که بخشی از متن‌شان طوری نوشته شده که هوش مصنوعی از بررسی هرچه بیشتر صرف نظر می‌کند!\n\nابزارهای هوش مصنوعی کنونی، ترمزهایی از پیش تعریف‌شده دارند. برای مثال اگر از آن‌ها راجع به نحوه‌ی ساخت «بدافزار»، «تسلیحات شیمیایی» یا «تسلیحات اتمی» سوال کنید، فوراً ترمزشان کشیده می‌شود و از پاسخ دادن طفره می‌روند. حالا هکرها متوجه شده‌اند که با افزودن این نوع از متون ممنوعه به بدافزارها یا نرم‌افزارهای معتبری که آلوده شده‌اند، می‌توان فرایند بررسی امنیتی کدها از سوی هوش مصنوعی را هم مختل کرد.\n\nبه زبان ساده، مهاجم سعی دارد کاری کند که ابزار امنیتی وقتی به بدافزار می‌رسد، به‌جای بررسی دقیق کدها با خود بگوید: «من اصلاً اجازه ندارم این را تحلیل کنم» و از آن رد شود.\n﻿\nاین نوع حمله نشانه‌ای است از ورود به مرحله تازه‌ای در امنیت سایبری؛ مهاجمان دیگر فقط انسان‌ها را فریب نمی‌دهند، بلکه رفتار هوش مصنوعی هم هدف قرار می‌گیرد و ترفندها در گذر زمان فقط پیچیده‌تر و خلاقانه‌تر خواهند شد.\n\n✍️ NooshDaroo",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "424"
-        },
-        {
-          "emoji": "😁",
-          "count": "134"
-        },
-        {
-          "emoji": "👍",
-          "count": "47"
-        },
-        {
-          "emoji": "😭",
-          "count": "25"
-        }
-      ],
-      "views_label": "38.9K",
-      "posted_at": "2026-06-14T05:26:18+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3867",
       "reply": null
     }
   ]
