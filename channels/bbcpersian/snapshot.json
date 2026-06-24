@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-24T13:36:50.617Z",
+  "fetched_at": "2026-06-24T13:38:03.479Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -11,6 +11,50 @@
     "subscriber_count": "780K"
   },
   "posts": [
+    {
+      "id": "bbcpersian/284914",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/iZ35Gz0hmGh8B0SrTNXP-ozImK6H1tZWrUZkrnidFIicAFwcyTfPin8wE8_1n4-QEPA8zywYPJeqcRCajLeAzDGchn_7QbPJbKX8Hp82daN3dPi6RrvM8OE1D3R-HRD2-zfRHMP0kyAaWyblYzkjdjYXkiQi7kB0xAtc8Vi7OmkrSTlQU7tp_RzQezpAqgEyb3_raA-IidpwEyLY-Dbwni_Ap4NGAsH7NVONZjj1AeCZXb-NkfDHSrUYc3Xlxa927DYDJyAL033omNTiCSPfCvxxjIQiZ6rJx2Wx4UTChWDwVvp68o-U92q2_0hpQltfW7gUroXPsP86nqsFi7PYjw.jpg",
+      "author_photo_path": "channels/bbcpersian/media/d35f0eda7d04c50ddfa5081c.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>سرخط خبرها، چهارشنبه ۳ تیر ۱۴۰۵</b>",
+      "plain_text": "🔻سرخط خبرها، چهارشنبه ۳ تیر ۱۴۰۵",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/284914",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/n6wkJPaUninL3cDDFliAT7naLITUU2jIkX1DWvqNsDngjMZ9nnVwXGgnPqrZ0i7spa3TZMqMHIZ_zHDy96FKpOrpqSEhZWKJsvEuce4MoTVdJ4l3wsAM5PaNSxE7g1SLCgvdYx6zawBa5lMFB2AXAVmI_ogjwsSGSXAwxsqNAM01Fl1OoDQHj9nLxmhZ0_7lw13mR7JlNl_k-bioBhNhLc9Tuz9a4hgHpFwfKV2w3yvpV1HTbwSwiaQLL6Q3PFc6ChxcldpY_vfzzQN4jbKKom3O8anW_0RkV5yJ5knts_0ZBUlimVrADjl5mz9P4NxEz1FMnm-kNmL-E6DG53NrTQ",
+          "thumbnail_path": "channels/bbcpersian/media/b4ac1fa442b6c06a79704604.jpg",
+          "thumbnail_sha256": "6d157c3c31dc84e880a0d1211f5ef860ac9eade6851ee159d041abf072570f02",
+          "duration_label": "0:47",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "29",
+      "posted_at": "2026-06-24T13:37:33+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/284914",
+      "reply": null
+    },
+    {
+      "id": "bbcpersian/284913",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/iZ35Gz0hmGh8B0SrTNXP-ozImK6H1tZWrUZkrnidFIicAFwcyTfPin8wE8_1n4-QEPA8zywYPJeqcRCajLeAzDGchn_7QbPJbKX8Hp82daN3dPi6RrvM8OE1D3R-HRD2-zfRHMP0kyAaWyblYzkjdjYXkiQi7kB0xAtc8Vi7OmkrSTlQU7tp_RzQezpAqgEyb3_raA-IidpwEyLY-Dbwni_Ap4NGAsH7NVONZjj1AeCZXb-NkfDHSrUYc3Xlxa927DYDJyAL033omNTiCSPfCvxxjIQiZ6rJx2Wx4UTChWDwVvp68o-U92q2_0hpQltfW7gUroXPsP86nqsFi7PYjw.jpg",
+      "author_photo_path": "channels/bbcpersian/media/d35f0eda7d04c50ddfa5081c.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [],
+      "views_label": "5",
+      "posted_at": "2026-06-24T13:37:22+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/284913",
+      "reply": null
+    },
     {
       "id": "bbcpersian/284912",
       "author_name": "BBCPersian",
@@ -33,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.02K",
+      "views_label": "3K",
       "posted_at": "2026-06-24T13:32:49+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/284912",
@@ -61,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "12K",
+      "views_label": "12.6K",
       "posted_at": "2026-06-24T12:58:46+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/284911",
@@ -77,7 +121,7 @@
       "plain_text": "🔻وزیر دارایی آمریکا: نهادی در قطر برای نظارت بر پول‌های ایران تشکیل می‌شود\n\nوزیر دارایی آمریکا با تکرار سخنان دونالد ترامپ تاکید کرد که «درصد زیادی» از دارایی‌های مسدود شده ایران برای خرید مواد غذایی و دارویی از آمریکا استفاده خواهد شد، حتی اگرمقام‌های این کشور بگویند که خودشان محل مصرف هزینه‌ها را تعیین خواهد کرد.\n\nاسکات بسنت به شبکه سی‌ان‌بی‌سی گفت که وزارت دارایی ایالات متحده، نهادی عملیاتی در دوحه برای نظارت بر این وجوه خواهد داشت.\n\nدونالد ترامپ گفته است بخشی از پول‌های ایران «برای خرید ذرت، گندم، سویا و سایر محصولات از کشاورزان و دامداران خودمان آزاد خواهیم کرد.»به گفته آقای ترامپ: «ایران به‌شدت به مواد غذایی نیاز دارد و ما این مواد غذایی را منحصرا از ایالات متحده برایشان خواهیم خرید.»\n\nایران خرید محصولات کشاورزی و دارویی از آمریکا را تکذیب کرده است.\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "15K",
+      "views_label": "15.3K",
       "posted_at": "2026-06-24T12:45:20+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/284910",
@@ -93,7 +137,7 @@
       "plain_text": "در این برنامه:\nدر حالی که اظهارات متناقض مقام‌های ایران، آمریکا و کشورهای منطقه همچنان بر ابهام‌ها درباره آینده تفاهم‌نامه تهران و واشنگتن افزوده، نخست‌وزیر پاکستان سخنانش درباره برنامه موشکی ایران را پس گرفته و مسعود پزشکیان تأکید کرده که توان موشکی جمهوری اسلامی قابل مذاکره نیست. از یک تحلیلگر نزدیک به جمهوری‌خواهان می‌پرسیم این اختلاف‌ها چه تأثیری بر آینده توافق خواهد داشت.\n\nهمچنین نگاهی داریم به تحریم‌های ایران و این پرسش که با تفاهم‌نامه فعلی، کدام تحریم‌ها ممکن است برداشته شوند و رفع کامل آن‌ها تا چه اندازه امکان‌پذیر است.\n\nدر ادامه، از افزایش فشار تندروها بر مخالفان توافق در ایران، واکنش حکومت به این جریان، و همچنین دو برابر شدن قیمت نان و تأثیر آن بر معیشت خانواده‌های ایرانی خواهیم گفت.\nو در پایان، به جام جهانی فوتبال می‌رویم و گفت‌وگوی اختصاصی بی‌بی‌سی فارسی با حسین کلانی که معتقد است تیم ملی باید از سیاست دور بماند.\n@bbcpersian",
       "media": [],
       "reactions": [],
-      "views_label": "15K",
+      "views_label": "15.3K",
       "posted_at": "2026-06-24T12:41:45+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/284909",
@@ -121,7 +165,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "22K",
+      "views_label": "22.3K",
       "posted_at": "2026-06-24T12:10:10+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/284908",
@@ -149,7 +193,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "21.9K",
+      "views_label": "22.2K",
       "posted_at": "2026-06-24T12:02:48+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/284907",
@@ -225,7 +269,7 @@
       "plain_text": "🔻روبیو در امارات؛ اولین سفر یک مقام آمریکایی به منطقه پس از تفاهم ایران و آمریکا\n\nمارکو روبیو با محمد بن زاید آل نهیان، رئیس دولت امارات دیدار کرد.\n\nمارکو روبیو شامگاه سه‌شنبه وارد ابوظبی شد.\n\nاو پس از سفر به امارات به کویت و بحرین خواهد رفت و روز پنجشنبه در بحرین در نشست شورای همکاری خلیج فارس هم شرکت خواهد کرد.\n\nاین سفر به عنوان نشانه‌ای از همبستگی با سه کشوری تلقی می‌شود که ایران در جریان جنگ با به اهدافی در آنها حمله کرد. ایران می‌گوید صرفا پایگاه‌های آمریکا را در این کشورها هدف قرار داده است.\n\nاخیرا دونالد ترامپ هم گفته بود امارات مناطقی در ایران را هدف قرار داده است.\n\nآقای روبیو سه‌شنبه گفت قصد دارد درباره تفاهم آمریکا و ایران با رهبران کشورهای خلیج فارس گفت‌وگو کند.\n\nاو هنگام ورود به امارات هم گفت «این یک آبراه بین‌المللی است. هیچ کشوری اجازه ندارد بر آبراه بین‌المللی عوارض یا هزینه وضع کند. این بخشی از حقوق بین‌الملل موجود است.»\n\nایران می‌گوید تنگه هرمز آبراه بین‌المللی نیست و آب‌های سرزمینی ایران و عمان است.\n\nاین نخستین سفر یک مقام ارشد آمریکایی به خاورمیانه پس تفاهم ایران و آمریکا در هفته گذشته است.\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "37.9K",
+      "views_label": "38K",
       "posted_at": "2026-06-24T09:27:24+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/284903",
@@ -273,7 +317,7 @@
       "plain_text": "🔻«طرح آزمایشی» آمریکا و اسرائیل برای انتقال کنترل جنوب لبنان به ارتش این کشور\n\nخبرگزاری رویترز گزارش داد که اسرائیل و لبنان در حال بررسی یک پروژه آزمایشی با حمایت آمریکا است که نیروهای اسرائیلی کنترل بخشی از مناطق جنوب لبنان را به ارتش لبنان واگذار کنند.\n\nرویترز به نقل از سه مقام ارشد اسرائیلی نوشت نیروهای لبنانیِ درگیر در این طرح تحت آموزش و بررسی‌های امنیتی آمریکا قرار می‌گیرند تا اطمینان حاصل شود ارتباطی با حزب‌الله ندارند.\n\nبه گفته این منابع، تا زمان واگذاری امنیت مناطقی از جنوب لبنان به نیروهای لبنانی، اسرائیل در منطقه خواهد ماند.\n\nآمریکا و اسرائیل هنوز به طور رسمی این موضوع را تایید نکرده‌اند.\n\nگفته می‌شود دور تازه مذاکرات اسرائیل و لبنان امروز آغاز خواهد شد.\n\nموضوع عقب‌نشینی و توقف جنگ در تمام جبهه‌ها از جمله لبنان، بند نخست تفاهمنامه آمریکا و ایران با هدف خاتمه جنگ است.\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "41.4K",
+      "views_label": "41.5K",
       "posted_at": "2026-06-24T07:23:24+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/284900",
@@ -2912,150 +2956,6 @@
       "posted_at": "2026-06-22T13:34:09+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/284758",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/284749",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/MQ5yWU0apaUVd76Hqa7kWRYm2xnuEubuSY5-yvc6sj-hDiclKbJyiTBT-ns1adfCioTo6W3QK2TNoM8hCP5Bv1ra58oy1gob3yiAi2pXDy9TffyfE4-sy4yIY6WXPHUGWAl7BIoe72xnlV5LmSzyQ2ovp7OIsN3ocAP7uE99FL3s5-vvgIb_uR5GfnGPabWMB9NmEk3Z3ZuRWPMDWGOzm5uh97qu3CO0-58gGyI9JmEzN56BHKQVCa7VcHya2ITEGHaPd4Y-1yeggZL94nd2lWiRrL6qFpBIcx0B0ZUSCexNxUXaSY-Kj1IqjiuR8jQvurjC_8Z6ssZlRvNWi-MqjA.jpg",
-      "author_photo_path": "channels/bbcpersian/media/cf4f32cddcc4b9a5b433654f.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>کمتر از دو سال پس از آن‌که حزب کارگر یکی از بزرگ‌ترین پیروزی‌های انتخاباتی تاریخ بریتانیا را به دست آورد، کی‌یر استارمر، نخست‌وزیر این کشور، تحت فشار حزب از قدرت کناره‌گیری کرد.<br><br>او با وعده رهبری باثبات و مطمئن در دورانی به قدرت رسید که صحنه سیاست بریتانیا بیش از پیش آشفته و بی‌ثبات شده بود.<br><br>اما محبوبیت او به سرعت کاهش یافت و پس از نتایج ضعیف حزب کارگر در انتخابات ماه مه در انگلستان، اسکاتلند و ولز، فشارها برای کناره‌گیری او افزایش یافت.<br><br>آقای استارمر صبح روز دوشنبه ۲۲ ژوئن اعلام کرد که از رهبری حزب کارگر استعفا می‌دهد و جدول زمانی مشخصی را ارائه کرد تا رهبر جدید پیش از بازگشت پارلمان از تعطیلات تابستانی در ماه سپتامبر انتخاب شود.<br><br>کی‌یر استارمر پذیرفت که بسیاری در حزب کارگر تردید دارند که او بتواند حزب را تا انتخابات بعدی به درستی رهبری کند.<br><br>ادامه از:<br><a href=\"https://bbc.in/4eqerdm\" target=\"_blank\" rel=\"noopener\">https://bbc.in/4eqerdm</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B8.png')\"><b>📸</b></i>Getty/ EPA/Shutterstock/ Future Publishing via Getty/ AFP via Getty/ LightRocket via Getty/ United States District Court Southern District of New York<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a></div>",
-      "plain_text": "🔻کمتر از دو سال پس از آن‌که حزب کارگر یکی از بزرگ‌ترین پیروزی‌های انتخاباتی تاریخ بریتانیا را به دست آورد، کی‌یر استارمر، نخست‌وزیر این کشور، تحت فشار حزب از قدرت کناره‌گیری کرد.\n\nاو با وعده رهبری باثبات و مطمئن در دورانی به قدرت رسید که صحنه سیاست بریتانیا بیش از پیش آشفته و بی‌ثبات شده بود.\n\nاما محبوبیت او به سرعت کاهش یافت و پس از نتایج ضعیف حزب کارگر در انتخابات ماه مه در انگلستان، اسکاتلند و ولز، فشارها برای کناره‌گیری او افزایش یافت.\n\nآقای استارمر صبح روز دوشنبه ۲۲ ژوئن اعلام کرد که از رهبری حزب کارگر استعفا می‌دهد و جدول زمانی مشخصی را ارائه کرد تا رهبر جدید پیش از بازگشت پارلمان از تعطیلات تابستانی در ماه سپتامبر انتخاب شود.\n\nکی‌یر استارمر پذیرفت که بسیاری در حزب کارگر تردید دارند که او بتواند حزب را تا انتخابات بعدی به درستی رهبری کند.\n\nادامه از:\nhttps://bbc.in/4eqerdm\n📸Getty/ EPA/Shutterstock/ Future Publishing via Getty/ AFP via Getty/ LightRocket via Getty/ United States District Court Southern District of New York\n@BBCPersian",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/284749?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/nh1xFt7dvIT0ETQGrPk45Drc4gjxP6EppgUydekkNT6gGKrjS3Sha5QowYH7KwUe8imr4jWQBOym67Xg5bhGPdvrjy8eEjv4XoB_ldlRS7LUs90FFlYBye2JUfPO2ez-CJSc3r2Q9-q_vQpgbW4ZC2fX-9gChrWoGJAAaJoOtCmrNjj5SF4RrGVuq028irb-dbr-SMJNF4Dt6oIeu0yrL677ajOKIigT7eex2c7yo1_0AkUQ5fe5JKe1OUnQ8PHahkh4KnJqaw0LmCIkyKSxCRfWRqTy9pDKaMOIAoPxQoMascCXFog0b0Ju4qt0G2r8232fRkDhinsBpNA4zIXQ_Q.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/4c898f77ebfac9bc9c28d89c.jpg",
-          "thumbnail_sha256": "72b02fc9914390c2650dd4986996733dbd5eb805e65d34aa56ed68bc988f97b3",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/284750?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/DDPrvsJUZmF0x5iWprOwJQEB-vTluo1w9zMIe-qvNGM1LW0M9gSYohqUij76dD6Twfwz5VsKkD_B6Dmb6bXXHe215lW3y6ERLAIn-nQ06pMq_cVARQQQg45DHCw6Fv7JMBNqdt3VzC1Ao1dIbYbXvQBOpTxEnQbZvH6acQ4knMxfpTNN8oMXUzYw8VCymg8_pe2bjtRiRVwEe_9v62v9zt7TwLTncFbuj-IO0dtZs_34XX5ZUopFrozaS0YcbSgeEXPGhNXqhhn4uhSdBg7TxjYWQ9yRZKt2bwT55rhVA08cy_Ny-uB00M_-ChDCVTOkIDnccbliG9lPSp75Bf2C9g.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/f35c664157f7d9dbc822249f.jpg",
-          "thumbnail_sha256": "b3ca72fa92b76388b338bba594f8fadf99874e7d8f4b52b5c52776ab2d3fb88d",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/284751?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/kZ-V-t82pLm1C7FAzvBXqIgXiD5njBVeIQiEtOhmQ44UXMPMckLnJ9WbN5_RpEW1oT1sdc_lu2lz74o_cjYON036DHw0PTJ7mVk6xWx5TI1qnzxl1KHq6RSMH0LqVZKb8ek_xJHOj4-etdqmqdQQN8VlNx1NyVeNdHPEPTJIer5DQxxXlwtUcRTpVwNrLU4UG3CwuLXA1BNnjZoqbDsyWRX5TY5jfOESQkppywd19a9avKgQnaSSz4IeGQy65TimbpR-9uzcmVe1PosVJMdj0DyJfuRXl-ZFIxfgTY5TlFXbce5nYOt4XRz5siu3Sks-oRhOEv8YWWvkx1C5UsdJUg.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/5f985ef76dbc6f6ceb54bf8d.jpg",
-          "thumbnail_sha256": "dccc322afbccc8a31ed57147547769701111ff0389b72f5760d81c9d3e8751c3",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/284752?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/dwQvUHzopBpCcy3T92smoskFD9ooNxz_nplTg9YN6XOiol8At7bFW9OhG8QyJduIkIRlD8ZBmEPWbQZhjVXF0SyvfvPDDfV23sOoAdPZkzjlQ91ATSsP66Evg6w5JAocNTwxF--Uh0GpLBk37yZchOHpkfv5klIvq9IgesssHbnIB7CMNXhyqJN794IDYDmP3erYTFlRkI5sH-e3ba-fnI6lEDozBdZphyVHPK_w4kQclCC1ozIH1YdaAkVls7l4T3lAeXRPeRjhqAuLAi0YqEWrFIGUPkt0WtE6gFcStrao0waL1Y4cqMRKhKc2vaMpXKj0v47SSCcuaRKMCQdlzA.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/d9dc259f0d00cfd1f5c8889b.jpg",
-          "thumbnail_sha256": "0e7392578ed5a48d56723c68a119d69ce9e0b3c78fe1eda9683db01415877cf0",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/284753?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/R0j-rFsf6rDpneQ1drJC9jkpNkuLS7WMKbegJBEfxDkoHh8kq7lX3Ci8zNJNo52TMbyV8bW8y4PqXvG-CmgmAtsZIZD-6C04tAxi4fT4Ar43PR5XPmElBtKFS29T0i8tyoMBzIGF8ouWv3J4_0VZfgIhmZ0UApkbUKHmgk9ZZwGL2bhmx_cysAUnF1t6vsphmSva-08eSXFwaXuusmuRhGjZOngVpADahOIlb1ChD54QCmDEGFULfpbl7VyHelsJTvGMZyRAT1keO5D655wMmfEi_fJRzcLzZcnw0N3RQ9R61_f3G3pjNMwwUgy9hVOO6B7hybAk7B0QJJ2hh--weg.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/53947a517f66bcf22c4c8c27.jpg",
-          "thumbnail_sha256": "878de668f5190835d44390eed0fe30e1c251b15f19f8ff0e7fd3349a4f28ee29",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/284754?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/lhupcMej-DI8z5oI1Q9gjap9b4DZ4T8z-rW2Ptoo15muGqcQPKG5sWZUS2HD6SZa2JzHicnhpaOzUpe30YidRPqkm_5uClApBiTtL1qxqJ2V-nqE8eeFumyf92lw7ytmR267txHLtKRffe4Yfo1TiPI9z1QYRJ2hymZX0cW9BfzrxuUHyoyXPT5KPMc4kWYwtTB0sXVhpImYCJTPcH16WL-qJ2GQg-nXzM6ZwnlqP0xFYwBsLHNfBavTLY7ZQsXhk2nMJBOLUvAX_zwtYBfn_dLrIwkm5-yAy-5tebJthJtRmxwoNanDokYmIpN4rG6vG4wsmXNNJmOyBcwBGLi2Hw.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/122d0a4c1fa3123b0aabd718.jpg",
-          "thumbnail_sha256": "b5f93b84db17321a25eae7ed6b9a8c684478dc6e508ce8fa82d347e8f9595aa0",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/284755?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/FTPi4o1nj03JUSFgHx27JjKqB4hpvLiY8Se1KmMiNOG1H00RdStAjyD0gzbU-W9t-tzFBInbTYFHPh1S-rYfXLG5JVFzknR2L07ew0S7wy3BUJ8u-ddkSBCGQstcNaPM81EhKB8evY6sWVzYrVhEe0XXc0ELL5PjiAS0p8DAZ4iKb9iOlw6LVSBK51uq7bLGvbmMoH7lEDplbiHKMaB-pZ3TbG46Bs2CECINHghFlkUuf1WG2KzZdsS30A0SGZjgEpF6bQyFnMPL3tQNDPBE2li5XaqnsIbvbJQUg1AclDHwR4tqUBzho4o6i8bFnKxu6-ltKzpI-P-9LxJgVdOjng.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/1df03ff1f724d27efd2593e0.jpg",
-          "thumbnail_sha256": "26df59c1979842ae60e4f5addb175aaa3d32f84eed57b8922c7566fda6f70d8c",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/284756?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/Ammy9d_cuZoRLAi0oQZxNDOZ-V7aCOG_PsO5Rrl-sHUnewjZ3hlxYVJyrAJWrUdCckw-cdEEehdqxM0AHv7GxpGaEFPeiaj4B1lyEnCC4Yir8yPGRu-n9zXKfAxmUWfwBmg4nx-xvGjQM8-8xXBqD0z81dXmb5OjQkJM6xcKqdn2JBgcFRqGxC2JfymZCz6X8n6iBe4jefdb0JIFdx3CcmS1ASleqWXuMrihOao6emBLhZp8yjBBvGdzyX7X2UXjAgX773Ss4AEhc-JjOWJkqbnjO0qQD8bMc44cuhtq_ic2J48QeiwCmk-E05oKrtY1QbH1R0-Ap1tQflazgs0VUg.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/63b006151eb753b34817a20c.jpg",
-          "thumbnail_sha256": "304a87243f9c40958d56f92c0a6c3b832144b48d8e82226ed522439b20935f06",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/284757?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/gtLy_GV94ciuT6XqoKan7Czg_3uLaHJAScR78_ynQ-s4qV6G0VQs1YMiurswdaB0xLqUQnNmwx6CXMFNPEoGPTM-3CJlIDrctnhBPE1UuZa06koSsgYH20Jzx4bM9TUxNgmzzPoo56NgZLxZuqXidRWHtsbO3L9o2m9de4DMi0gdDasuR-2QofLH9qoGCOZvxF5ml_ppj9aJNxhvAtrRtk_wTH4XVwM3UfNAAQrLH3cM1Qn0MuIcvqm8VDU8ag5Pbvdspwo6964soxk7_PpMsblgAJQQYZzpWveS2cRF1-fQdFq9fMYD662o-uSCbqkZrvboK1KkgcmqshRekyHi7w.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/5add65b4dc2ebc91353620bb.jpg",
-          "thumbnail_sha256": "1d7a13f766572576eb99789cf834bad41eb5bf5431ad82a6c032fb2b9d25fdbe",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "20.4K",
-      "posted_at": "2026-06-22T13:14:04+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/284749",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/284748",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/t1_y0CZwvU_rAHf74MsQjX7MjFH1Nqz2E4K0hPU9D377cTEtqtKK4QpWDYAkjVMT3YO8jGboHzc5Ud066My-TeKdk7Z7hicdusKNh0X5o_xaLzajHhnDoSYC4o1_-CN3nh_S0C99uNocvgwyeus9tWFFtoPGKiSfhbV1w1zGpseSNdaa8t054QBGNKo_PhezP3wDN5xNyYITdoYz6oLY6ZvNJQUAJCwqh_7RA5mT3663YdmldIGt7eU-V9lY34sCJIGOfE6FNJmQBd5BzzMEiYUInbI9j-d9VNarz-PcRQoUsedp8gluYtUiFtaMAZZacHqcKkRzAqdI_uXScfN6JQ.jpg",
-      "author_photo_path": "channels/bbcpersian/media/119d5ae80f0ad42bf2b4871f.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>این ویدیو از درگیری بین مخالفان جمهوری اسلامی و کسانی که برای تشویق تیم ملی فوتبال ایران پرچم رسمی این کشور را به همراه آورده‌اند، در حاشیه بازی یکشنبه شب ایران و بلژیک در لس‌انجلس منتشر شده است.<br><br>تاکنون طی دو بازی تیم ملی ایران در جام جهانی فوتبال ۲۰۲۶، پیش از ورود به ورزشگاه بین مخالفان حکومت جمهوری اسلامی و کسانی که پرچم رسمی ایران را به همراه دارند بگومگوهای بسیاری روی می‌دهد. ناسزاگویی، عکاسی از طرف مقابل و تهدید به انتشار عکس در اینترنت بین طرفین زیاد روی می‌دهد. اما برخوردهای فیزیکی کمتر هستند.<br><br>نیروهای امنیتی پیاده یا سوار بر اسب در اطراف استادیوم لس‌آنجلس به چشم می‌آیند.<br><br>این ویدیو از درگیری در اطراف استادیوم سوفای را ببینید و گزارش سام فرزانه از احساسات متناقض تماشاگران ایرانی در سایت بی‌بی‌سی فارسی بخوانید.&nbsp;<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻این ویدیو از درگیری بین مخالفان جمهوری اسلامی و کسانی که برای تشویق تیم ملی فوتبال ایران پرچم رسمی این کشور را به همراه آورده‌اند، در حاشیه بازی یکشنبه شب ایران و بلژیک در لس‌انجلس منتشر شده است.\n\nتاکنون طی دو بازی تیم ملی ایران در جام جهانی فوتبال ۲۰۲۶، پیش از ورود به ورزشگاه بین مخالفان حکومت جمهوری اسلامی و کسانی که پرچم رسمی ایران را به همراه دارند بگومگوهای بسیاری روی می‌دهد. ناسزاگویی، عکاسی از طرف مقابل و تهدید به انتشار عکس در اینترنت بین طرفین زیاد روی می‌دهد. اما برخوردهای فیزیکی کمتر هستند.\n\nنیروهای امنیتی پیاده یا سوار بر اسب در اطراف استادیوم لس‌آنجلس به چشم می‌آیند.\n\nاین ویدیو از درگیری در اطراف استادیوم سوفای را ببینید و گزارش سام فرزانه از احساسات متناقض تماشاگران ایرانی در سایت بی‌بی‌سی فارسی بخوانید. \n\n@BBCPersian",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/bbcpersian/284748",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/B_3EyuoGVM8K0H8PnWPRkJnXnHXHHA2y0Qqj4lR1piM-JDY7I3mdHZCn0VkUERoI5rFB_uBqq3KChaI-0XdJps55vG5Fuojb8K46vcjE14_pL7agwMQY6fkdGSqq8Sh_0O13FnxcVMy1heq9ocIBNFVz_7YJrY8U8DI0GEsBKBrVrf1TbHwZR4N5M-ArS6wgJjP-FAjYv8Sad52AEWgvOiqZ884FzfsjSjcp7BrpgeO64j3CtguBv0M_Jb3U91Lwd7VMrAqpZ-2azv0taR1QJ5XTZDpeXBkVat8UU0355wc5afT3-3C8625NMqNHfYuEdj7c4xKNJCL_rpHWdojd4w",
-          "thumbnail_path": "channels/bbcpersian/media/0f1619e34a32e0f5060899d3.jpg",
-          "thumbnail_sha256": "543464b2ff9dc1cf4fd15be0a2cd80a0cf50dcbf338d560291cf69e8f05bea18",
-          "duration_label": "1:10",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "37.5K",
-      "posted_at": "2026-06-22T12:30:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/284748",
       "reply": null
     }
   ]
