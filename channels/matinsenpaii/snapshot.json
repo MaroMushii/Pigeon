@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-25T21:57:48.577Z",
+  "fetched_at": "2026-06-25T22:01:59.960Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,52 @@
     "subscriber_count": "160K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4039",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/c2hmYqtXQVfoAMMYEmpB5KeAwxLF-Bb2B14MTX4DZdJDIscPf9KIJHt2dhnrRMlPAxpt4v78sXC0MUJTeTX06hxnmhwaWF_LUut6OzFVg2qHT0H2v470SRWHRqWxxeh9s78vJI8KQ8kLgWozNnIuH8_Hfg5qa4ZL8VQM0kdNoOVO26cA3larJsEJvFmhmwCELibMGvVBz-Xa0Pb4XdQdWxLRJn0RA09L10g86AppqZ6r9pSqi7zCX-S3v7Y92fA_lVvedXuhANsxVdi2dXz8IzyJM5CWRdoPnVZ0ExRXZIZSZdzd-mQK1RF9hxeeilKjqiXRxj5DkBLbRkzkfv507g.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b55c4ccdc6ff4f91dd7dcc39.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "یکی از دوستان هم این رو گفتش",
+      "plain_text": "یکی از دوستان هم این رو گفتش",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4039",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/R4B76WvTVzd9NPKAbbU_oyhmyeeQJebQiX_YvngmD3oySlo990SHrXY60EsJF6Mzp2cVVZP591yO794j3eq6X0JOhBIkWyp-vcesDSsLvuo66-oTILh55dYPBTGhWw2bYidxjPIjcrFrqz6-g1I6wdiBtvorij8lAL8ZIzAxUySl85cRyX6tUyKUkOJui3DevyacAfF0ha3_KEoEz4NR0SUq4NB3XF0AuuT47rLg6rmMIgGvBU3zCFArF8etjEAMqZ7hpxbltOw7X49Cy6Qw0Pq_A1Dus-mxdpT6dhZRLI_XD5x7UXS3kSUUYTmQ34egURwfM-oFL3XZxf8liy3G9A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/6348a33346b7dc305e397111.jpg",
+          "thumbnail_sha256": "a205ab7ef9d0f41fcd4689890b146d381978e2c3554ac64e19b64e023ae4d86e",
+          "duration_label": null,
+          "aspect_ratio": 3.816901408450694
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "😨",
+          "count": "1"
+        }
+      ],
+      "views_label": "938",
+      "posted_at": "2026-06-25T22:00:38+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4039",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4037",
+        "author_name": "Matin SenPai",
+        "preview_text": "از GLM 5.2 استفاده کردم برای ساخت همین رباتی که توی این ویدئو ساختم با پرامپت یکسان، و نتیجه حقیقتا غافلگیرم کرد. عملکرد GLM 5.2 واقعا همونطوری که میگفتن، کاملا نزدیک به Opus 4.8 بود. برتر نبود، ضعیف‌‌تر هم نبود( api رایگان گرفتم 150 دلار اینجا هم گفتم چطوری:…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/YjQrqesgHszWHynhYTWzdACEyrnsAsBrHsWJImX4b2nKcpGb2Jn4-EBz8KvE3IqmwO1YRBNbQ1Zr6fW72PlVitlr87duFJywuQAmsbf8SMvzqL1lR8-pV03mkr5JwooDXE1fauyqd-bCVJGdMm0TPwIZys-dGf_rwWEegJe7tFzO3KZ2Zt44w9nRk_P59hsK1MBdcxxyd_0DGuqo-Ea8UKZINgXTZ9j6M00RNl4oQgQa905TwJ353mFmmI1qRggYu2as8egNRRVjJg6ebEVV9nr5ftcJ0gDNoV4T6Bv5DsksI86pj2F6lD8km8BlRe0zUC5bTG_T-eCjq9HJANvJwg.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/f7f3491a3fc3f2932239f460.jpg",
+        "thumbnail_sha256": "f28a2cc46ce51c378cdecabd52be8db81d667ea0d53cc74393b878cd7a58131f",
+        "permalink": "https://t.me/matinsenpaii/4037"
+      }
+    },
     {
       "id": "MatinSenPaii/4037",
       "author_name": "Matin SenPai",
@@ -35,11 +81,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "52"
+          "count": "57"
         },
         {
           "emoji": "👍",
-          "count": "18"
+          "count": "20"
         },
         {
           "emoji": "👎",
@@ -54,7 +100,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.02K",
+      "views_label": "6.64K",
       "posted_at": "2026-06-25T21:31:43+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4037",
@@ -88,14 +134,14 @@
         },
         {
           "emoji": "👍",
-          "count": "1"
+          "count": "2"
         },
         {
           "emoji": "😁",
           "count": "1"
         }
       ],
-      "views_label": "11.1K",
+      "views_label": "11.4K",
       "posted_at": "2026-06-25T21:06:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4036",
@@ -172,11 +218,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "67"
+          "count": "69"
         },
         {
           "emoji": "👍",
-          "count": "14"
+          "count": "15"
         },
         {
           "emoji": "👎",
@@ -191,7 +237,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.6K",
+      "views_label": "13.9K",
       "posted_at": "2026-06-25T20:50:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4034",
@@ -222,10 +268,10 @@
         },
         {
           "emoji": "👍",
-          "count": "3"
+          "count": "4"
         }
       ],
-      "views_label": "16.4K",
+      "views_label": "16.7K",
       "posted_at": "2026-06-25T20:20:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4033",
@@ -364,14 +410,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "104"
+          "count": "105"
         },
         {
           "emoji": "❤",
-          "count": "8"
+          "count": "9"
         }
       ],
-      "views_label": "17.7K",
+      "views_label": "18K",
       "posted_at": "2026-06-25T20:04:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4030",
@@ -389,11 +435,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "308"
+          "count": "311"
         },
         {
           "emoji": "👍",
-          "count": "30"
+          "count": "31"
         },
         {
           "emoji": "😁",
@@ -422,7 +468,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "204"
+          "count": "205"
         },
         {
           "emoji": "😁",
@@ -430,7 +476,7 @@
         },
         {
           "emoji": "❤",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "🎃",
@@ -528,11 +574,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "155"
+          "count": "156"
         },
         {
           "emoji": "❤",
-          "count": "60"
+          "count": "61"
         },
         {
           "emoji": "👎",
@@ -593,11 +639,11 @@
         },
         {
           "emoji": "❤",
-          "count": "171"
+          "count": "173"
         },
         {
           "emoji": "👍",
-          "count": "15"
+          "count": "16"
         },
         {
           "emoji": "🔥",
@@ -608,7 +654,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.3K",
+      "views_label": "22.6K",
       "posted_at": "2026-06-25T18:09:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4022",
@@ -638,18 +684,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "171"
+          "count": "173"
         },
         {
           "emoji": "👍",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "🔥",
           "count": "3"
         }
       ],
-      "views_label": "22.8K",
+      "views_label": "23.1K",
       "posted_at": "2026-06-25T18:06:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4021",
@@ -675,7 +721,7 @@
         },
         {
           "emoji": "❤",
-          "count": "15"
+          "count": "16"
         },
         {
           "emoji": "👎",
@@ -712,7 +758,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "297"
+          "count": "298"
         },
         {
           "emoji": "👍",
@@ -727,7 +773,7 @@
           "count": "6"
         }
       ],
-      "views_label": "27.7K",
+      "views_label": "28K",
       "posted_at": "2026-06-25T14:56:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4019",
@@ -753,7 +799,7 @@
         },
         {
           "emoji": "❤",
-          "count": "33"
+          "count": "34"
         },
         {
           "emoji": "👎",
@@ -768,7 +814,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.3K",
+      "views_label": "30.6K",
       "posted_at": "2026-06-25T13:23:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4018",
@@ -811,7 +857,7 @@
         },
         {
           "emoji": "❤",
-          "count": "360"
+          "count": "361"
         },
         {
           "emoji": "👍",
@@ -860,15 +906,15 @@
       "reactions": [
         {
           "emoji": "⭐",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "❤",
-          "count": "420"
+          "count": "421"
         },
         {
           "emoji": "👍",
-          "count": "37"
+          "count": "38"
         },
         {
           "emoji": "👎",
@@ -4822,60 +4868,6 @@
         "preview_text": "☠️ساخت VPN شخصی رایگان با پنل نهان + تنظیم لوکیشن دلخواه و آیپی تمیز ⚡️لینک سایت کلودفلر: https://dash.cloudflare.com/ لینک پروژه‌ی نهان: https://github.com/itsyebekhe/nahan لینک اسکنر: https://github.com/MatinSenPai/SenPaiScanner لینک ربات ProxyIP یـ‌بـ‌خـ:…",
         "thumbnail_url": "https://cdn1.telesco.pe/file/bRvrHY6Jtnhn6d-nntX6gz_s57EXlAWhnxWJ74OjNhl8b5Gdfwf9TdyFXVub_y-MjfYG70fB9J9zMgbzN_9CD5xVZ_i3s5RY4KbHN-EO2-dp7p-8QNa7NWeXPY3zVzjWhPxE2lFVQiaH1KPq3UdDdkoUuydqOhM1E62Zp6xbsxfR_fJ8tdSamEIOfqFjVRSVy4t6JkOrxTHOyh94hngaNQj8VFWwnuvejYn8Fig1lqbQXyHjzuvRy68jmovwO6U8vTqSTolyxegUOhuZnjNV75Jsb4Ua_It7m8Dk2z7Bg9F7tGDfySJsaKRzMKQs6xM9SOA1IoYYjR18DLYrr3Qvkw",
         "thumbnail_path": "channels/matinsenpaii/media/e6f5ba750066c0b33612cca4.jpg",
-        "thumbnail_sha256": "e65b6166bec109402e2f8224067358accbbc0092a8c649cbb4b4c2ba4df7b505",
-        "permalink": "https://t.me/matinsenpaii/3905"
-      }
-    },
-    {
-      "id": "MatinSenPaii/3914",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/RqMaorm3zKQiAfUDcJ_DcTuZSGPrkAOdChQOBZZ6YbLofkmLxDeMR2IQMUy8pUuZO8Zd9RUdhwEX7ZLvJ7_KqIwXldCmBK-CKSdwF08m8XSlm4vZwIzL_wIwJxxJNwhQzEOKUvagvWRUwBc-K6TWucE24MoMhb1PerkgqXPIHwZVVUf9CApyerYBy83QhfH346vSirWpsjLqKEC1g2YdkcNa721KMyV0uWeLMzTrQnz76oh34dOuFmL82nuNjHgmMbFy9oZiZDw5Sr96A7jliv2orRGuMOtb16R5qhFgM0vvQHcN5yChuPoBhMiUbyQBPXHeK4JWIrtTS4hqg-HCLA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/e992e3b095358ab03799838a.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "خیلی از دوستان این مشکل رو داشتن که تلگرام واسشون باز می‌شد، هیچی دیگه باز نمی‌شد.<br>یا یوتوب و ... باز نمی‌شد <br><br>مشکل احتمالا از کلاینتتونه و dns اش. باید تشریف ببرید توی تنظیمات v2rayng و dns رو(از <a href=\"http://1.1.1.1/\" target=\"_blank\" rel=\"noopener\">1.1.1.1</a>) به <a href=\"http://8.8.8.8/\" target=\"_blank\" rel=\"noopener\">8.8.8.8</a> تغییر بدید:",
-      "plain_text": "خیلی از دوستان این مشکل رو داشتن که تلگرام واسشون باز می‌شد، هیچی دیگه باز نمی‌شد.\nیا یوتوب و ... باز نمی‌شد\n\nمشکل احتمالا از کلاینتتونه و dns اش. باید تشریف ببرید توی تنظیمات v2rayng و dns رو(از 1.1.1.1) به 8.8.8.8 تغییر بدید:",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3914",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/MSpLTC-5SktnM-ucdJDFjbPmrwwC9iYEm2ykMKhPLNLHZd5Mc8aXZI5NgCgKKXYjfeNhBbtJfzFEvS3feEYLN5R7SsImyWZcdi4Bzv9geifrKX9fZaw1Ybl9c5TnneHuYMN7sXtxu81-IGhSIsfqxfQxq7GOz9QWRGlRcbfcpoZc-bHde5uG1YLcZ_mzTLopqDvI4oKxBFQxzOX_bQCbYT-asasMv68xRrWB1KuEn_GNwyf7tT9CCyrGLmyLxYb84AXEEy3kqjr04IBNspYo2mPKwxYexT2CMmkSRyq7tii9v76HMfIR1LoSTfv36sW0hieXSnCh7TL_Gt-worb8RQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/a44e2f39d2c739e024241a23.jpg",
-          "thumbnail_sha256": "747f70b291a40a6bea2af0b0720f6d169fbe9d1519cb252cba4a3a58fa6f618b",
-          "duration_label": null,
-          "aspect_ratio": 0.7799999999999891
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "6"
-        },
-        {
-          "emoji": "❤",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🎃",
-          "count": "1"
-        }
-      ],
-      "views_label": "262",
-      "posted_at": "2026-06-17T01:59:56+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3914",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "3905",
-        "author_name": "Matin SenPai",
-        "preview_text": "☠️ساخت VPN شخصی رایگان با پنل نهان + تنظیم لوکیشن دلخواه و آیپی تمیز ⚡️لینک سایت کلودفلر: https://dash.cloudflare.com/ لینک پروژه‌ی نهان: https://github.com/itsyebekhe/nahan لینک اسکنر: https://github.com/MatinSenPai/SenPaiScanner لینک ربات ProxyIP یـ‌بـ‌خـ:…",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/Hl2u9ADs3SIL0QWILjBQp8_r_zK7AhlnTWV5nT-6_iW7sx7b2r4C-5VL7GmNQui-RdqRV_vsLE3fxHB8iO2KV-egM3zfmaiHL2PCQHtW0zwH7qHTgNWqdKKFG6VUkk_qK9eBq4k34BdML8NE-wakv5GkX1dEvrkjl5q1egSaj0-FQy-kOfnGqSPLxP6crhekdz1KVKVV_jY06lVRR1qJxcltWjFLsPwyZuKV1i3xMml8b5ynaiYAcRmFgXlZmxSG0KFeUgtfAaZJQQ--9X9AUEBE3dmNSfosl8CzgnHam528WB5Eb6plxnalRgzaA26dun9HPbRJpDIrxQsE56GaAw",
-        "thumbnail_path": "channels/matinsenpaii/media/efe092a30ce62533a9c4ff4c.jpg",
         "thumbnail_sha256": "e65b6166bec109402e2f8224067358accbbc0092a8c649cbb4b4c2ba4df7b505",
         "permalink": "https://t.me/matinsenpaii/3905"
       }
