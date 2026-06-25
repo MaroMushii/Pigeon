@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-25T12:11:55.100Z",
+  "fetched_at": "2026-06-25T12:16:51.351Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,47 @@
     "subscriber_count": "160K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4016",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/c2hmYqtXQVfoAMMYEmpB5KeAwxLF-Bb2B14MTX4DZdJDIscPf9KIJHt2dhnrRMlPAxpt4v78sXC0MUJTeTX06hxnmhwaWF_LUut6OzFVg2qHT0H2v470SRWHRqWxxeh9s78vJI8KQ8kLgWozNnIuH8_Hfg5qa4ZL8VQM0kdNoOVO26cA3larJsEJvFmhmwCELibMGvVBz-Xa0Pb4XdQdWxLRJn0RA09L10g86AppqZ6r9pSqi7zCX-S3v7Y92fA_lVvedXuhANsxVdi2dXz8IzyJM5CWRdoPnVZ0ExRXZIZSZdzd-mQK1RF9hxeeilKjqiXRxj5DkBLbRkzkfv507g.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b55c4ccdc6ff4f91dd7dcc39.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>هرمس — ایجنتی که با خودمون رشد می‌کنه</b><tg-emoji emoji-id=\"5274090977584234781\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i></tg-emoji><br>این Hermes Agent که دیروز راجبش صحبت می‌کردم، یه ایجنت(دستیار؟) هوش مصنوعی اوپن سورس هست که اواخر بهمن امسال منتشر شد(که ما هم بعدش نتمون قطع شد و از دنیا عقب موندیم برای همین من تازه کشفش کردم) و توی کمتر از چهار ماه بیش از ۱۸۰ هزار star گیت‌هاب گرفت — یعنی سریع‌ترین رشد یه پروژه متن‌باز ایجنتی توی ۲۰۲۶. مجوزش هم MIT و کاملاً رایگانه.<br>تفاوتش با بقیه ایجنت‌ها اینه که نه صرفا یه دستیار کدنویسی تنهاست، نه یه wrapper ساده دور یه API. هرمس روی سرور/کامپیوتر تو زندگی می‌کنه، از هر تجربه‌ای یاد می‌گیره و هر روز کاربلدتر می‌شه.<br>مثلا دیشب که من بهش گفتم جدیدترین اخبار فیلم و سریال رو برام پیدا کن.<br>رفت که توی گوگل سرچ کنه، اما گوگل بلاکش کرد و نتونست. <br>به جاش از یه راه جایگزین استفاده کرد.<br>دفعه‌ی بعد، که اینجا پستش رو گذاشتم: <a href=\"https://t.me/MatinSenPaii/4014\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/4014</a><br>بهش گفتم که خب جدیدترین اخبار ai رو بیار<br>دیگه نرفت سراغ گوگل. چون یاد گرفته بود که گوگل روی آیپی من بلاک می‌کنه، برای همین مستقیم از ابزار جایگزینش استفاده کرد. که ما رو میرسونه به اولین و بهترین ویژگیش:<br><br><tg-emoji emoji-id=\"5472248119942979457\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA494.png')\"><b>🤔</b></i></tg-emoji> حلقه یادگیری بسته — قابلیت اصلی<br>این مهم‌ترین ویژگی هرمسه. بعد از هر اجرای task، هرمس یه لایه ارزیابی اضافه می‌کنه — نتیجه رو بررسی می‌کنه، الگوهای قابل استفاده رو استخراج می‌کنه و به صورت فایل‌های Skill ذخیره می‌کنه. دفعه بعد که مشکل مشابهی داشته باشی، به جای اینکه از صفر استدلال کنه، مستقیم از Skill آماده استفاده می‌کنه.<br>ادعای عملکردی‌شون هم اینه که ایجنت‌هایی با ۲۰+ Skill خودساخته، task‌های مشابه رو ۴۰٪ سریع‌تر (از نظر مصرف token و زمان) انجام می‌دن — که توسط TokenMix هم تایید شده.<br><br><tg-emoji emoji-id=\"5472386598278536459\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939A.png')\"><b>📚</b></i></tg-emoji> همه جا هست، با یه حافظه مشترک<br>تلگرام، دیسکورد، اسلک، واتساپ، سیگنال، ایمیل، CLI — یه ایجنت، یه حافظه، همه‌ی پلتفرم‌ها. به علاوه دو ماه پیش هم پشتیبانی از iMessage، WeChat و اندروید (از طریق Termux) اضافه شد.<br><br><tg-emoji emoji-id=\"5425094988260188065\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AA.png')\"><b>💪</b></i></tg-emoji> ابزارهای قدرتمند built-in<br>جستجوی وب، اتوماسیون مرورگر، vision، تولید تصویر، text-to-speech و استدلال چندمدله — همه از طریق یه اشتراک Nous Portal یا api ای که شما می‌دید بهش(اگر این قابلیبت‌ها رو داشته باشه مثلا جمنای) قابل دسترسه.<br>همینطور با Nous Portal، OpenRouter (بیش از ۲۰۰ مدل)، NovitaAI، NVIDIA NIM، Xiaomi MiMo، xAI/GLM، Kimi، OpenAI، Hugging Face یا endpoint شخصی خودت کار می‌کنه. با دستور hermes model بین مدل‌ها سوئیچ می‌کنی — بدون تغییر کد، بدون lock-in.<br><br>:<tg-emoji emoji-id=\"5472100751025118421\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9386.png')\"><b>📆</b></i></tg-emoji> زمان‌بندی طبیعی<br>زمان‌بندی با زبان طبیعی برای گزارش‌ها، بک‌آپ‌ها و briefingها — بدون نظارت، از طریق gateway اجرا می‌شه. یعنی می‌تونی بگی «هر صبح ساعت ۸ یه خلاصه از جدیدترین اخبار ai بفرست پیوی تلگرامم» و کار تمومه. مثل n8 n سر آدم کچل نمیشه.<br><br><tg-emoji emoji-id=\"5424767999515040992\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8F86.png')\"><b>🏆</b></i></tg-emoji> اپ دسکتاپ (تازه اومده)<br>بیست روز پیش، Hermes Desktop به صورت public preview با نصب‌کننده‌ی native برای ویندوز، مک و لینوکس منتشر شد. اپ دسکتاپ از همون core مشترکه — config، API key، session، Skill و حافظه رو با CLI و gateway به اشتراک می‌ذاره. یه fork جدید نیست، فقط یه رابط گرافیکی روی همون ایجنته.<br><br><tg-emoji emoji-id=\"5472279778146918060\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F988E.png')\"><b>😎</b></i></tg-emoji> حریم خصوصی و امنیت<br>تمام داده‌ها روی ماشین خودت می‌مونن. هیچ telemetry و trackingی نیست. از آپریل ۲۰۲۶ تا الان هیچ CVE عمومی‌ای برای هرمس گزارش نشده، و به صورت پیش‌فرض اسکن prompt injection و فیلتر credential هم داره.<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "هرمس — ایجنتی که با خودمون رشد می‌کنه🎨\nاین Hermes Agent که دیروز راجبش صحبت می‌کردم، یه ایجنت(دستیار؟) هوش مصنوعی اوپن سورس هست که اواخر بهمن امسال منتشر شد(که ما هم بعدش نتمون قطع شد و از دنیا عقب موندیم برای همین من تازه کشفش کردم) و توی کمتر از چهار ماه بیش از ۱۸۰ هزار star گیت‌هاب گرفت — یعنی سریع‌ترین رشد یه پروژه متن‌باز ایجنتی توی ۲۰۲۶. مجوزش هم MIT و کاملاً رایگانه.\nتفاوتش با بقیه ایجنت‌ها اینه که نه صرفا یه دستیار کدنویسی تنهاست، نه یه wrapper ساده دور یه API. هرمس روی سرور/کامپیوتر تو زندگی می‌کنه، از هر تجربه‌ای یاد می‌گیره و هر روز کاربلدتر می‌شه.\nمثلا دیشب که من بهش گفتم جدیدترین اخبار فیلم و سریال رو برام پیدا کن.\nرفت که توی گوگل سرچ کنه، اما گوگل بلاکش کرد و نتونست.\nبه جاش از یه راه جایگزین استفاده کرد.\nدفعه‌ی بعد، که اینجا پستش رو گذاشتم: https://t.me/MatinSenPaii/4014\nبهش گفتم که خب جدیدترین اخبار ai رو بیار\nدیگه نرفت سراغ گوگل. چون یاد گرفته بود که گوگل روی آیپی من بلاک می‌کنه، برای همین مستقیم از ابزار جایگزینش استفاده کرد. که ما رو میرسونه به اولین و بهترین ویژگیش:\n\n🤔 حلقه یادگیری بسته — قابلیت اصلی\nاین مهم‌ترین ویژگی هرمسه. بعد از هر اجرای task، هرمس یه لایه ارزیابی اضافه می‌کنه — نتیجه رو بررسی می‌کنه، الگوهای قابل استفاده رو استخراج می‌کنه و به صورت فایل‌های Skill ذخیره می‌کنه. دفعه بعد که مشکل مشابهی داشته باشی، به جای اینکه از صفر استدلال کنه، مستقیم از Skill آماده استفاده می‌کنه.\nادعای عملکردی‌شون هم اینه که ایجنت‌هایی با ۲۰+ Skill خودساخته، task‌های مشابه رو ۴۰٪ سریع‌تر (از نظر مصرف token و زمان) انجام می‌دن — که توسط TokenMix هم تایید شده.\n\n📚 همه جا هست، با یه حافظه مشترک\nتلگرام، دیسکورد، اسلک، واتساپ، سیگنال، ایمیل، CLI — یه ایجنت، یه حافظه، همه‌ی پلتفرم‌ها. به علاوه دو ماه پیش هم پشتیبانی از iMessage، WeChat و اندروید (از طریق Termux) اضافه شد.\n\n💪 ابزارهای قدرتمند built-in\nجستجوی وب، اتوماسیون مرورگر، vision، تولید تصویر، text-to-speech و استدلال چندمدله — همه از طریق یه اشتراک Nous Portal یا api ای که شما می‌دید بهش(اگر این قابلیبت‌ها رو داشته باشه مثلا جمنای) قابل دسترسه.\nهمینطور با Nous Portal، OpenRouter (بیش از ۲۰۰ مدل)، NovitaAI، NVIDIA NIM، Xiaomi MiMo، xAI/GLM، Kimi، OpenAI، Hugging Face یا endpoint شخصی خودت کار می‌کنه. با دستور hermes model بین مدل‌ها سوئیچ می‌کنی — بدون تغییر کد، بدون lock-in.\n\n:📆 زمان‌بندی طبیعی\nزمان‌بندی با زبان طبیعی برای گزارش‌ها، بک‌آپ‌ها و briefingها — بدون نظارت، از طریق gateway اجرا می‌شه. یعنی می‌تونی بگی «هر صبح ساعت ۸ یه خلاصه از جدیدترین اخبار ai بفرست پیوی تلگرامم» و کار تمومه. مثل n8 n سر آدم کچل نمیشه.\n\n🏆 اپ دسکتاپ (تازه اومده)\nبیست روز پیش، Hermes Desktop به صورت public preview با نصب‌کننده‌ی native برای ویندوز، مک و لینوکس منتشر شد. اپ دسکتاپ از همون core مشترکه — config، API key، session، Skill و حافظه رو با CLI و gateway به اشتراک می‌ذاره. یه fork جدید نیست، فقط یه رابط گرافیکی روی همون ایجنته.\n\n😎 حریم خصوصی و امنیت\nتمام داده‌ها روی ماشین خودت می‌مونن. هیچ telemetry و trackingی نیست. از آپریل ۲۰۲۶ تا الان هیچ CVE عمومی‌ای برای هرمس گزارش نشده، و به صورت پیش‌فرض اسکن prompt injection و فیلتر credential هم داره.\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4016",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ik2-si0XFuqOhb8XDa9rK-a2wgO2Lnf2ykk4748C9aqc75-CmShD1qlr4uBJ-O7gjD2dpmyLvhizvf_hdJPmSfKJdpj2bsHYcCSs2zJgcyg9qyvpFCKk8GjxChiDtYpLG-NMuWCqh4xKiU3RJhHuq3HcVYTxaufvq55zhnLOaX_Aj5RJ0e_R46n6GILmhWUHGloX5vAoiMAxsE9vhB5SLv4g6rs5Kj6EF3_hv4dZcX6ORR-6qjzOB-SA_E_dlKGtKXDheQ4C20XQ-nuXn_4X-QPATBf8L7LphgUmjgTWpy766BsVxWeH6P7fwIj5U4DFgqJNHtdqs-ys_qZB-MlYQQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/a5f1627b7c058631802d7f3c.jpg",
+          "thumbnail_sha256": "69ae8afd07f099134c1e49cdcb60bfd1e4f14bbeb11865bd1c4c3738ecc0b09e",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "13"
+        },
+        {
+          "emoji": "👎",
+          "count": "3"
+        },
+        {
+          "emoji": "🎃",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.1K",
+      "posted_at": "2026-06-25T12:14:28+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4016",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4015",
       "author_name": "Matin SenPai",
@@ -27,7 +68,7 @@
         },
         {
           "emoji": "❤",
-          "count": "245"
+          "count": "247"
         },
         {
           "emoji": "👍",
@@ -39,10 +80,10 @@
         },
         {
           "emoji": "👎",
-          "count": "5"
+          "count": "6"
         }
       ],
-      "views_label": "14.9K",
+      "views_label": "15.5K",
       "posted_at": "2026-06-25T09:21:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4015",
@@ -72,7 +113,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "249"
+          "count": "252"
         },
         {
           "emoji": "👍",
@@ -91,7 +132,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.1K",
+      "views_label": "26.3K",
       "posted_at": "2026-06-24T23:28:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4014",
@@ -137,7 +178,7 @@
           "count": "5"
         }
       ],
-      "views_label": "29.4K",
+      "views_label": "29.6K",
       "posted_at": "2026-06-24T21:21:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4013",
@@ -203,7 +244,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29K",
+      "views_label": "29.2K",
       "posted_at": "2026-06-24T21:19:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4012",
@@ -240,7 +281,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.1K",
+      "views_label": "26.3K",
       "posted_at": "2026-06-24T21:17:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4011",
@@ -282,7 +323,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.4K",
       "posted_at": "2026-06-24T21:15:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4010",
@@ -346,7 +387,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.4K",
+      "views_label": "27.5K",
       "posted_at": "2026-06-24T21:02:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4008",
@@ -364,7 +405,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "429"
+          "count": "430"
         },
         {
           "emoji": "💔",
@@ -391,7 +432,7 @@
           "count": "2"
         }
       ],
-      "views_label": "28.3K",
+      "views_label": "28.4K",
       "posted_at": "2026-06-24T18:38:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4007",
@@ -440,7 +481,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.2K",
+      "views_label": "29.3K",
       "posted_at": "2026-06-24T18:37:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4006",
@@ -485,7 +526,7 @@
           "count": "1"
         }
       ],
-      "views_label": "35.9K",
+      "views_label": "36.1K",
       "posted_at": "2026-06-24T17:40:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4003",
@@ -518,7 +559,7 @@
           "count": "3"
         }
       ],
-      "views_label": "31.7K",
+      "views_label": "31.8K",
       "posted_at": "2026-06-24T16:12:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4002",
@@ -536,7 +577,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "698"
+          "count": "700"
         },
         {
           "emoji": "💔",
@@ -555,7 +596,7 @@
           "count": "4"
         }
       ],
-      "views_label": "31.8K",
+      "views_label": "31.9K",
       "posted_at": "2026-06-24T16:11:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4001",
@@ -604,7 +645,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.3K",
+      "views_label": "32.4K",
       "posted_at": "2026-06-24T15:40:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4000",
@@ -4749,48 +4790,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3893",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3892",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/RqMaorm3zKQiAfUDcJ_DcTuZSGPrkAOdChQOBZZ6YbLofkmLxDeMR2IQMUy8pUuZO8Zd9RUdhwEX7ZLvJ7_KqIwXldCmBK-CKSdwF08m8XSlm4vZwIzL_wIwJxxJNwhQzEOKUvagvWRUwBc-K6TWucE24MoMhb1PerkgqXPIHwZVVUf9CApyerYBy83QhfH346vSirWpsjLqKEC1g2YdkcNa721KMyV0uWeLMzTrQnz76oh34dOuFmL82nuNjHgmMbFy9oZiZDw5Sr96A7jliv2orRGuMOtb16R5qhFgM0vvQHcN5yChuPoBhMiUbyQBPXHeK4JWIrtTS4hqg-HCLA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/e992e3b095358ab03799838a.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "اولیش رو من سفارش دادم<tg-emoji emoji-id=\"5472010685560921607\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i></tg-emoji> <br>(اسپانسر ویدئوی بعدی AI هستن ایشون)",
-      "plain_text": "اولیش رو من سفارش دادم🖥\n(اسپانسر ویدئوی بعدی AI هستن ایشون)",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "292"
-        },
-        {
-          "emoji": "❤",
-          "count": "102"
-        },
-        {
-          "emoji": "😨",
-          "count": "21"
-        },
-        {
-          "emoji": "👍",
-          "count": "19"
-        }
-      ],
-      "views_label": "42.6K",
-      "posted_at": "2026-06-15T13:05:26+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3892",
-      "reply": {
-        "channel_username": "liracandles",
-        "post_id": "45",
-        "author_name": "Lira.",
-        "preview_text": "شمع iced blueberry 🫐",
-        "thumbnail_url": "https://cdn4.telesco.pe/file/XqPLE5_chrl6B8DHwyxD5sHskXTB3b8l9Sl2_5ur3WFsEPZmJk4j3oHNYZffir_C5-F0wWgyrgUvflW4wFh91t0IoTl0x7HSEYU6wlYXCWCKgnmEIeNO-5FOg-fQ_GXZZnWHIgUuv6E5gVGK9BzBKZem4IuM2eewuVrizcW0TzJdq_ajQqFQCGYIYogjQBUnpVKkASlyaiTWmTr-pnp3k6BvqgX2LN6oS-IxAKWcKT4NOXYV6xxYV1BCEjFRTBWvZ4tVJaPY25qQz33qBDZBIwm0iL3cWgyG0HpIfX9Im8L00miQz9afKkfPTCSeYWqrVEhrnCJeg8wEsJ8x__wYAA.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/2295d9ae2770d61045c06c42.jpg",
-        "thumbnail_sha256": "90324fd55d41b9c72dc75bab9297075296c2e85533b1011366e72f5643dc9360",
-        "permalink": "https://t.me/liracandles/45"
-      }
     }
   ]
 }
