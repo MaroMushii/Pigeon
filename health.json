@@ -1,6 +1,55 @@
 {
   "schema": 2,
-  "generated_at": "2026-06-25T16:27:04.633Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-06-25T16:33:28.581Z",
+  "succeeded": 11,
+  "failed": [
+    {
+      "username": "bbcpersian",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "dwpersian",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "farsi_iranwire",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "farsivoa",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "filter_watch",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "hranews",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "iranintltv",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "ircfspace",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "matinsenpaii",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "no_itsmyturn",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "radiofarda",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "whitedns",
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
 }
