@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-26T22:26:47.186Z",
+  "fetched_at": "2026-06-26T22:31:55.561Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,72 @@
     "subscriber_count": "160K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4062",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/sF0G6QdBzfDdzcoy6UqOfW4eArxVU75kS-keBHOPNLujLpW9Ikc5CdIhLKcQ7pBZ3X0GUvAftpuH8w27F9nfQ2GSOLLWVBzZmdR1WgoFV9ECma67h7sWg6W7kvRFx_5vtY1qeYeddjrWvhUOHh2HcfO3rr6SXyCWO6xYfRFfnStELZJ46EbJVVP23M8P5k23Q3TgNgbqsyIrwStwEI9hxhwIfj78jJBLS-LDLyk2FR3ceuhFIxa2Cc0hA_o9hjjKbxDX4D_H57-cZRJew4U2Xh8xQ2kM4StVNmnnW2bCS1nkP3ZPiL1FNa5aE4u78G7lj1-H6Ws3DSnJk1xekiLyYg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/dde32632c3a600b61a39cbcd.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "خب، من با کمک Hermes و API رایگان MiMo Pro 2.5 و API رایگان جمنای، تونستم یه ربات باحال بنویسم! <br>توی لپ تاپم کلیک میکنم روی یه اسکریپت .bat ، و رباتی که با mimo نوشتم، فید چندتا سایت اخبار ai که به صلاح‌دید خودش معتبر بودن و زرد نبودن رو، می‌خونه، با Gemini 3.5 flash lite ترجمه‌ی روون می‌کنه به فارسی، و توی ربات تلگرامم می‌فرسته پیوی من. که خب کار ساده‌ایه و بهتون ایده میدم چه شکلی می‌تونید پیچیده‌ترش هم بکنید!<br>الان، شروع می‌کنم فرآیندی که این اسکریپت خیلی ساده رو ساختم، بهتون توضیح می‌دم.<br><br>1- اولین کار، گرفتن API ها بود. از Nara Router تونستم 7 میلیون توکن رایگان روزانه بگیرم که اینجا گفتم چه شکلی: <a href=\"https://t.me/MatinSenPaii/4061\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/4061</a><br>و همینطور از <a href=\"https://aistudio.google.com/\" target=\"_blank\" rel=\"noopener\">https://aistudio.google.com</a> هم یه api رایگان جمنای گرفتم. که مدلهای دیگه‌اش به درد نمیخورن از لحاظ لیمیت، ولی مدل Gemini 3.1 flash lite واقعا توی لیمیت‌ها خداست. 500 تا ریکوئست روزانه و 250 کا توکن که اصلا پر نمیشه. برای ترجمه عالیه. اما برای خود Hermes مناسب نیستش چون که TPM بالایی مصرف می‌کنه و Exceed میشه.<br><br>2- توی Hermes، از قسمت مدل‌ها،&nbsp; Nara رو اضافه کردم. خودش اتوماتیک تشخیص داد و گفت کدوم مدلش رو می‌خوای؟ گفتم mimo pro 2.5(که در حال حاضر رایگانه توی Nara اما خب واقعا توکن مصرفیش هم بد نبود برای تسک من).<br><br>3- وارد چت Hermes شدم، و چیزی که می‌خواستم رو بهش گفتم. گفتم که می‌خوام یه ربات تلگرام بنویسی که هر بار رانش می‌کنم، آخرین اخبار ai رو با api جمنای بگیره، و حتما از مدل gemini-3.1-flash-lite استفاده کنه و عینا همین.(اگر نگید دقیقا یهو میره مدل 2.0 رو میذاره بدبخت میشید) و برام بفرسته.<br><br>5- سری اول ربات رو ساخت، و بعدش بهش گفتم یه سری قابلیت اضافه کنه. مثلا زمانش رو بگه که چقدر وقت پیش بوده یا فرمت بندی رو درست کنه. همینطور گفتم که برام یه اسکریپت ویندوزی بنویسه که هر بار کلیک کردم روش، این رو ران کنه( این شکلی راحتترم خودم)<br><br>6- همونطور که توی تصویر می‌بینید، خیلی تمیز برداشت خبر GPT 5.6 که واقعا هم سه ساعت پیش اومده بود رو پوشش داد، همینطور خبر های دیگه که یکی از نیازهای روزمره‌ی من رو برطرف کرد تا حدی. که یه دید کلی نسبت به اخبار ai روز داشته باشم. سورس کدش رو هم براتون پست می‌کنم که اگر دوست داشتید، تست کنید. هرچند چیز خاصی نیست؛ خودتون می‌تونید بهترش رو بنویسید<br><br>7- چطوری می‌تونید بیشتر درگیرش بشید؟<br>بیاید با همین \"بات جمع‌آوری اخبار مربوط به ai\" مثال بزنم.<br>شما می‌تونید این رو روی یه سرور لینوکسی ران کنید که 24/7 ران باشه و هر خبر جدیدی اومد، درجا بفرسته واستون. یا حتی ببریدش روی worker کلودفلر. و هر یه ساعت یه بار چک کنه، اگر خبر جدیدی اومده باشه واستون بفرسته<br>همینطور می‌تونید یه سیستم پست‌ساز نیمه خودکار بسازید برای تلگرام و بدید که پست بسازه برای چنلتون(و این وسط توسط خودتون یا یه agent هوش مصنوعی دیگه review بشه!)<br>خلاصه که راه برای درگیر شدن باهاش زیاده:) کمی تایم بذارید، و کار با این ابزارهای جدید رو یاد بگیرید.<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "خب، من با کمک Hermes و API رایگان MiMo Pro 2.5 و API رایگان جمنای، تونستم یه ربات باحال بنویسم!\nتوی لپ تاپم کلیک میکنم روی یه اسکریپت .bat ، و رباتی که با mimo نوشتم، فید چندتا سایت اخبار ai که به صلاح‌دید خودش معتبر بودن و زرد نبودن رو، می‌خونه، با Gemini 3.5 flash lite ترجمه‌ی روون می‌کنه به فارسی، و توی ربات تلگرامم می‌فرسته پیوی من. که خب کار ساده‌ایه و بهتون ایده میدم چه شکلی می‌تونید پیچیده‌ترش هم بکنید!\nالان، شروع می‌کنم فرآیندی که این اسکریپت خیلی ساده رو ساختم، بهتون توضیح می‌دم.\n\n1- اولین کار، گرفتن API ها بود. از Nara Router تونستم 7 میلیون توکن رایگان روزانه بگیرم که اینجا گفتم چه شکلی: https://t.me/MatinSenPaii/4061\nو همینطور از https://aistudio.google.com هم یه api رایگان جمنای گرفتم. که مدلهای دیگه‌اش به درد نمیخورن از لحاظ لیمیت، ولی مدل Gemini 3.1 flash lite واقعا توی لیمیت‌ها خداست. 500 تا ریکوئست روزانه و 250 کا توکن که اصلا پر نمیشه. برای ترجمه عالیه. اما برای خود Hermes مناسب نیستش چون که TPM بالایی مصرف می‌کنه و Exceed میشه.\n\n2- توی Hermes، از قسمت مدل‌ها،  Nara رو اضافه کردم. خودش اتوماتیک تشخیص داد و گفت کدوم مدلش رو می‌خوای؟ گفتم mimo pro 2.5(که در حال حاضر رایگانه توی Nara اما خب واقعا توکن مصرفیش هم بد نبود برای تسک من).\n\n3- وارد چت Hermes شدم، و چیزی که می‌خواستم رو بهش گفتم. گفتم که می‌خوام یه ربات تلگرام بنویسی که هر بار رانش می‌کنم، آخرین اخبار ai رو با api جمنای بگیره، و حتما از مدل gemini-3.1-flash-lite استفاده کنه و عینا همین.(اگر نگید دقیقا یهو میره مدل 2.0 رو میذاره بدبخت میشید) و برام بفرسته.\n\n5- سری اول ربات رو ساخت، و بعدش بهش گفتم یه سری قابلیت اضافه کنه. مثلا زمانش رو بگه که چقدر وقت پیش بوده یا فرمت بندی رو درست کنه. همینطور گفتم که برام یه اسکریپت ویندوزی بنویسه که هر بار کلیک کردم روش، این رو ران کنه( این شکلی راحتترم خودم)\n\n6- همونطور که توی تصویر می‌بینید، خیلی تمیز برداشت خبر GPT 5.6 که واقعا هم سه ساعت پیش اومده بود رو پوشش داد، همینطور خبر های دیگه که یکی از نیازهای روزمره‌ی من رو برطرف کرد تا حدی. که یه دید کلی نسبت به اخبار ai روز داشته باشم. سورس کدش رو هم براتون پست می‌کنم که اگر دوست داشتید، تست کنید. هرچند چیز خاصی نیست؛ خودتون می‌تونید بهترش رو بنویسید\n\n7- چطوری می‌تونید بیشتر درگیرش بشید؟\nبیاید با همین \"بات جمع‌آوری اخبار مربوط به ai\" مثال بزنم.\nشما می‌تونید این رو روی یه سرور لینوکسی ران کنید که 24/7 ران باشه و هر خبر جدیدی اومد، درجا بفرسته واستون. یا حتی ببریدش روی worker کلودفلر. و هر یه ساعت یه بار چک کنه، اگر خبر جدیدی اومده باشه واستون بفرسته\nهمینطور می‌تونید یه سیستم پست‌ساز نیمه خودکار بسازید برای تلگرام و بدید که پست بسازه برای چنلتون(و این وسط توسط خودتون یا یه agent هوش مصنوعی دیگه review بشه!)\nخلاصه که راه برای درگیر شدن باهاش زیاده:) کمی تایم بذارید، و کار با این ابزارهای جدید رو یاد بگیرید.\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4062?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/boBM0zmZA8KeFTvY_VbQQoQE80s35Lzn-WmXUYTfvR7JxSG2NSX3J7lwNWVcy1hVb8Ogq-uwGHmBGmTY9D2HkfYIRa1NzHvU8j4rrH0HnHYWWvBUlUTLoEqt6pnFdq4OafZ7xVRKS9sAgnu3Ng2b1iCZe9lG6nhql-pOpEnYlgpAT25xP_rz40SN_DGXNlAvnWJsRm_LY0t6KLF78G0MK1hDOwXz9ImBLB_fsRFmkm8OUhoP9tTvNyA7QnJROy-Yy5cqCsJLYylaogabVKIDEWy-JlAz1g-gVK02M4LoFxDa3KwTMwBNaS61aSaRpYpwsg2p5bL3R2VqMshPVfWV0g.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/0550eae4bd3b47eca8b531de.jpg",
+          "thumbnail_sha256": "5eaf814b173197d17f63c8f1ae82723880184cf8ee438313c7dd079a3cbc0da0",
+          "duration_label": null,
+          "aspect_ratio": 1.0282776349614
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4063?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/XITxbi-NQD4ETx_iXINib1nPnRHe7DLF6Czo0PuTe2Axl-HJmJdMkk-tTgrSL8zX77noj6Pt_TELpVDSk4A9NiuZA8EgMRYimc03yLg131O1YQLq3g7vFYpSPrQxK_GxwcubJIvv5TdCuZVnwq8pKJSLmNEUzuLP5P1alZkTy5h9eeiH1OYebEMrSIdNKl5247nBOxvnm58RuDXmtAP1vY7LuUKqCvpT4eYamNyGa81gTChmkuWeUAruVp8XUrZeXBIoUwHG_8XN0BCZzz8TmykP1-BoV9Wcc5kt9hiFQXIDKuCAvXxQPdfpdULeeJ7WDPoDowDeDAbem2Fn4MaHgQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/bbfbfd4d2f1114fcc790ad7a.jpg",
+          "thumbnail_sha256": "ba73b4b0d3f658fd3cfab73528f5ae9aecf00c1b4a7cf2ad14b076f852e8df8d",
+          "duration_label": null,
+          "aspect_ratio": 1.1233766233766
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4064?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/oVlv2Za80VQ6Q2gN6F3SHGQT-1E-AvpztTWA9NE56tEjnPnscP-Lzi1IAFzUmJpWN-tpuXevOjBvQfaVy_EoN7o14Pf2312wcjySnApkHaDtKnCNu2Tjtu7caeA7xtIzrWJwgrbztthroIaL_r9j9oOlzp2v6LSjy9Z7LL-9FtI340-Gv_sjpyVNmYOqFR1RJvhDqXZQTwfaApj3009zSVrjV7_ruKU-Lafmo6dA2-CWSX_1KuoeDwSi3_SFqbQLdoNxspMH1Fsgxbf6JStDMZacMn-E5HeZhGlndJoeLV1E9v18njLaufjBKi17bB4e1HJsowdSKHvVpp2yI0Sfbw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/e1af1f462865e438def1c94b.jpg",
+          "thumbnail_sha256": "dcf6eaab5d2a7a4912399a8617c386eb733b6edcd7effee8caf925a5b4ed1715",
+          "duration_label": null,
+          "aspect_ratio": 1.8306636155606
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4065?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/NAk2B17YrqR1SWAhi1Zeo3XvRfxQMJo4IwUP6hXfXAOhkcVV6hLJhR7kAnsSRJxUoawOoCXrVCZySDXDjiWwpysWlMV3y-CLyR09Cw6n6GhzRAi4N7CeyqLeekJeLr4fBCNAvT5P0pKV1-o1FC6S_vd3q5pHjTPnHEVmeRSB6NiNKCK8LBuYuykJomPajz37ouPKK3KNMw3Rk4_KwILqyZ75PFmUGfspex9hMqoIl3tBtLYWTZR_J1SYT-7qCufq9hgC91SCzb9j9kQ7mhvWAfWAxqlBbY-ISFbC0Kty9PCIkSAsM_4U6KUpbtmDcY0FdObqEsm_KOS2aKpr7oQjsw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/54994a33c20ef20114376a42.jpg",
+          "thumbnail_sha256": "10275d7f03e2b9b72a54e847feffa3b48c34fe7b6ab9587411ad07e0ddd9ecb9",
+          "duration_label": null,
+          "aspect_ratio": 1.9233038348083
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "518",
+      "posted_at": "2026-06-26T22:30:55+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4062",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4061",
       "author_name": "Matin SenPai",
@@ -35,18 +101,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "46"
+          "count": "48"
         },
         {
           "emoji": "👍",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "😁",
           "count": "2"
         }
       ],
-      "views_label": "5.85K",
+      "views_label": "6.39K",
       "posted_at": "2026-06-26T21:50:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4061",
@@ -64,7 +130,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "140"
+          "count": "141"
         },
         {
           "emoji": "😁",
@@ -79,7 +145,7 @@
           "count": "9"
         }
       ],
-      "views_label": "16.1K",
+      "views_label": "16.4K",
       "posted_at": "2026-06-26T20:40:15+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4060",
@@ -106,7 +172,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "211"
+          "count": "212"
         },
         {
           "emoji": "👍",
@@ -121,7 +187,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.3K",
+      "views_label": "17.5K",
       "posted_at": "2026-06-26T20:31:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4059",
@@ -154,7 +220,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.8K",
+      "views_label": "22.9K",
       "posted_at": "2026-06-26T18:26:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4058",
@@ -183,7 +249,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.7K",
+      "views_label": "22.8K",
       "posted_at": "2026-06-26T18:24:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4057",
@@ -234,14 +300,14 @@
         },
         {
           "emoji": "🔥",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "😁",
           "count": "4"
         }
       ],
-      "views_label": "23.9K",
+      "views_label": "24K",
       "posted_at": "2026-06-26T18:23:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4056",
@@ -274,7 +340,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.8K",
+      "views_label": "24.9K",
       "posted_at": "2026-06-26T16:31:02+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4055",
@@ -433,7 +499,7 @@
         },
         {
           "emoji": "😁",
-          "count": "677"
+          "count": "678"
         },
         {
           "emoji": "😭",
@@ -494,7 +560,7 @@
         },
         {
           "emoji": "❤",
-          "count": "801"
+          "count": "802"
         },
         {
           "emoji": "💔",
@@ -631,7 +697,7 @@
           "count": "3"
         }
       ],
-      "views_label": "26.5K",
+      "views_label": "26.6K",
       "posted_at": "2026-06-26T10:57:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4047",
@@ -4729,74 +4795,6 @@
       "posted_at": "2026-06-19T08:44:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/3946",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3944",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/kYrBdKQ4uBjZvm2cDiCfW-mdVPrvjXRwVA1v-GYueodJLdU55MiSekJ1ZT5n7DogbttaonPj10GUDs9QTBWwdckRle5v0nEOqumfYx0UeQxOMYVQ4nwdS3XNrXcIBTj5n2Lb9Os0U1E2FpqkEXDjmlX6xxXYGPUvbp3ZJYRUnWs-jEUErtAu0RjY0hTWylap1LrRcL7zZCcWpsK61npbylRjavOUZKlZvayFDeH2gj42X8tDd-O2ucvXrl2VmlGFKUyjeWAtdzcEW1D8RTAN2vCrRXfJ-lSBqsBsHHp_8MbiHoz-DkcmDB3RB0BwZwiljMsOxcpgr82TOvlqKj9V0Q.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/13ccbe4e8ced2955ac05d15f.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">یکی از بچه‌ها اینو واسم فرستاد و گفت گویا V2box، به صورت آزمایشی SNI-Spoof آورده. یه تست بکنید ببینم داستان چیه:)</div>",
-      "plain_text": "یکی از بچه‌ها اینو واسم فرستاد و گفت گویا V2box، به صورت آزمایشی SNI-Spoof آورده. یه تست بکنید ببینم داستان چیه:)",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3944?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Fsq62HCVkbSQTYtVdgLNbjW9DmXo50dBTC1nNQDazljCJWXEGfvo_O70A4FCjNQonDuAxmhPyAcAmuiAEAcr0YYiMg71gKRTrIl_X_Qf_ddjS2BsmSGPZjuyFDB8vF0fPaaA9Rkf5qRmYtRBJmeMm9v8aPcmYDBj4yC-6s65jyCGyQwPwJ_FEesxGJHHveCfqh-IB-nGiyggvduaCrCyU3bv2-WLpEIDXZcVzUb_wrNF21TlRUfy5cO-wFXzgk0qGnI-J4yUkuNXUi9yrTP61xwNe4twCnwIQnnrAXSHSBhYv-ozTTGcJEzS9_YWo9yIlnTshg6IJ85izfLtXJHyrQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/30b8c4979cff21142804fce2.jpg",
-          "thumbnail_sha256": "bf3906bba47cbc71438551d00fd7fcae62b4210c6b2fd75baad3026717aad75f",
-          "duration_label": null,
-          "aspect_ratio": 0.45875
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3945?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ewz0xeskOM418mHuhRWiRNnUM4JOQqb5CrmJqUlIrUzkssoqaam0r2W8gwg6oUIIYptwU3PpfwQDvcloEkkAL8WZ9gBK46YROcfsYB6tnhDq3nIc_PlAj4V5Ooazpn5k95NncUgw6kpwZVx7ahJCZvWn2jjsL5lQRdJzYV41hqkc5qKZAszgM2HLkdCpGEajg_NukMgDuietw7beiB8u24KaW3fwaDXgKl9lAOi7asMewGTwnKqAvU3y6T9w5hKGw8u4j-uDjBhyTU2OerLomj0J1uZhF-UUuIUYAgvi10K3rJctJc8J4H6olHa1JJAZAlK5ju1x9e0W9JpGgkCaJw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/156eec32aa2be764375de9d1.jpg",
-          "thumbnail_sha256": "ce6c1bc25858f52bfa6a5b743d73229d4983793b673853c18d0aa2ff468cfd21",
-          "duration_label": null,
-          "aspect_ratio": 0.45875
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "675"
-        },
-        {
-          "emoji": "👎",
-          "count": "126"
-        },
-        {
-          "emoji": "😨",
-          "count": "74"
-        },
-        {
-          "emoji": "👍",
-          "count": "15"
-        },
-        {
-          "emoji": "🔥",
-          "count": "12"
-        },
-        {
-          "emoji": "😁",
-          "count": "8"
-        },
-        {
-          "emoji": "💔",
-          "count": "1"
-        }
-      ],
-      "views_label": "39.2K",
-      "posted_at": "2026-06-18T21:18:57+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3944",
       "reply": null
     }
   ]
