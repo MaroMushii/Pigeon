@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-26T13:26:59.894Z",
+  "fetched_at": "2026-06-26T13:32:00.752Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,93 @@
     "subscriber_count": "160K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4053",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/sF0G6QdBzfDdzcoy6UqOfW4eArxVU75kS-keBHOPNLujLpW9Ikc5CdIhLKcQ7pBZ3X0GUvAftpuH8w27F9nfQ2GSOLLWVBzZmdR1WgoFV9ECma67h7sWg6W7kvRFx_5vtY1qeYeddjrWvhUOHh2HcfO3rr6SXyCWO6xYfRFfnStELZJ46EbJVVP23M8P5k23Q3TgNgbqsyIrwStwEI9hxhwIfj78jJBLS-LDLyk2FR3ceuhFIxa2Cc0hA_o9hjjKbxDX4D_H57-cZRJew4U2Xh8xQ2kM4StVNmnnW2bCS1nkP3ZPiL1FNa5aE4u78G7lj1-H6Ws3DSnJk1xekiLyYg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/dde32632c3a600b61a39cbcd.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "",
+      "plain_text": "",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4053",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/HRhc1L7RmE9JqJuxV--H40_l8C5U8r256TnuIqbB5ED5vM0mBYoZYHVz83gfef6ZlsbM2TN7LfGLPOncSoEdIXCdNoHC670FrtJbumUfUVZvHa-toL887vQm7S0EIKBcbaHAnRoqWpTnbaVYu_F7e8GSzaBcMrDDsHZ7288gfra2dGq1zrAIzmWuD0OqpBC7YAYCIEHa80XommHFmM9onRo_VRY2vzpcGMk4GSFEA8kTGR9GlLEd-WaJICZLsH7-SxTZhSs6K78dA3tSf8DX7I0CH0Hnq93pAaN-BSkwMUnrYyNA9NeHmzfFFr02PmprD0BGegAKSHxCjC1dqz98dw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/c282a6bc85f0c1fbe3cfcb63.jpg",
+          "thumbnail_sha256": "3a30e1edcac7a3020f413db4b86cc26441ca2448e8afff5b91a7d3ffff1d04c8",
+          "duration_label": null,
+          "aspect_ratio": 1.3738019169329
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "😁",
+          "count": "12"
+        },
+        {
+          "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        },
+        {
+          "emoji": "🎃",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.17K",
+      "posted_at": "2026-06-26T13:28:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4053",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4052",
+        "author_name": "Matin SenPai",
+        "preview_text": "گویا Cloudflare هم روی Worker، توکن رایگان میده برای مدلهایی مثل GLM 5.2 و... اما الان که تست کردم مقدارش خیلی کم بود. شاید روی مدل‌های خیلی سبک خوب باشه. محدودیت کلا 10K \"نورون\" هست، من یه پرامپت دادم به GLM 5.2 و فقط همین پرامپت ورودیش یهو 49K مصرف کرد و…",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/4052"
+      }
+    },
+    {
+      "id": "MatinSenPaii/4052",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/sF0G6QdBzfDdzcoy6UqOfW4eArxVU75kS-keBHOPNLujLpW9Ikc5CdIhLKcQ7pBZ3X0GUvAftpuH8w27F9nfQ2GSOLLWVBzZmdR1WgoFV9ECma67h7sWg6W7kvRFx_5vtY1qeYeddjrWvhUOHh2HcfO3rr6SXyCWO6xYfRFfnStELZJ46EbJVVP23M8P5k23Q3TgNgbqsyIrwStwEI9hxhwIfj78jJBLS-LDLyk2FR3ceuhFIxa2Cc0hA_o9hjjKbxDX4D_H57-cZRJew4U2Xh8xQ2kM4StVNmnnW2bCS1nkP3ZPiL1FNa5aE4u78G7lj1-H6Ws3DSnJk1xekiLyYg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/dde32632c3a600b61a39cbcd.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "گویا Cloudflare هم روی Worker، توکن رایگان میده برای مدلهایی مثل GLM 5.2 و...<br>اما الان که تست کردم مقدارش خیلی کم بود. شاید روی مدل‌های خیلی سبک خوب باشه.<br>محدودیت کلا 10K \"نورون\" هست، من یه پرامپت دادم به GLM 5.2 و فقط همین پرامپت ورودیش یهو 49K مصرف کرد و متوقف شد<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i> اینم مثل ورکرها هر شب ساعت 3:30 ریست میشه<br>آموزش ساختش رو میدم بهتون. میتونید روی OpenCode استفاده کنید",
+      "plain_text": "گویا Cloudflare هم روی Worker، توکن رایگان میده برای مدلهایی مثل GLM 5.2 و...\nاما الان که تست کردم مقدارش خیلی کم بود. شاید روی مدل‌های خیلی سبک خوب باشه.\nمحدودیت کلا 10K \"نورون\" هست، من یه پرامپت دادم به GLM 5.2 و فقط همین پرامپت ورودیش یهو 49K مصرف کرد و متوقف شد😂 اینم مثل ورکرها هر شب ساعت 3:30 ریست میشه\nآموزش ساختش رو میدم بهتون. میتونید روی OpenCode استفاده کنید",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "22"
+        },
+        {
+          "emoji": "❤",
+          "count": "8"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.38K",
+      "posted_at": "2026-06-26T13:27:38+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4052",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4051",
       "author_name": "Matin SenPai",
@@ -23,11 +110,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "279"
+          "count": "306"
         },
         {
           "emoji": "😭",
-          "count": "21"
+          "count": "22"
         },
         {
           "emoji": "❤",
@@ -42,7 +129,7 @@
           "count": "2"
         }
       ],
-      "views_label": "6.99K",
+      "views_label": "8.04K",
       "posted_at": "2026-06-26T12:59:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4051",
@@ -64,7 +151,7 @@
         },
         {
           "emoji": "😁",
-          "count": "488"
+          "count": "499"
         },
         {
           "emoji": "😭",
@@ -72,7 +159,7 @@
         },
         {
           "emoji": "👍",
-          "count": "19"
+          "count": "20"
         },
         {
           "emoji": "💔",
@@ -85,9 +172,13 @@
         {
           "emoji": "👎",
           "count": "1"
+        },
+        {
+          "emoji": "😨",
+          "count": "1"
         }
       ],
-      "views_label": "14.3K",
+      "views_label": "15.1K",
       "posted_at": "2026-06-26T11:41:08+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4050",
@@ -116,12 +207,16 @@
       ],
       "reactions": [
         {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
           "emoji": "❤",
-          "count": "584"
+          "count": "597"
         },
         {
           "emoji": "💔",
-          "count": "191"
+          "count": "195"
         },
         {
           "emoji": "😨",
@@ -152,7 +247,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.8K",
+      "views_label": "20.7K",
       "posted_at": "2026-06-26T11:13:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4049",
@@ -186,7 +281,7 @@
         },
         {
           "emoji": "❤",
-          "count": "563"
+          "count": "566"
         },
         {
           "emoji": "👍",
@@ -201,7 +296,7 @@
           "count": "2"
         }
       ],
-      "views_label": "16.9K",
+      "views_label": "17.5K",
       "posted_at": "2026-06-26T11:01:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4048",
@@ -250,7 +345,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.2K",
+      "views_label": "17.7K",
       "posted_at": "2026-06-26T10:57:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4047",
@@ -272,7 +367,7 @@
         },
         {
           "emoji": "👍",
-          "count": "415"
+          "count": "418"
         },
         {
           "emoji": "😁",
@@ -299,7 +394,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.6K",
+      "views_label": "20.9K",
       "posted_at": "2026-06-26T10:15:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4046",
@@ -321,11 +416,11 @@
         },
         {
           "emoji": "❤",
-          "count": "560"
+          "count": "563"
         },
         {
           "emoji": "👍",
-          "count": "97"
+          "count": "99"
         },
         {
           "emoji": "👎",
@@ -344,7 +439,7 @@
           "count": "6"
         }
       ],
-      "views_label": "20.8K",
+      "views_label": "21K",
       "posted_at": "2026-06-26T10:04:02+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4045",
@@ -402,7 +497,7 @@
           "count": "5"
         }
       ],
-      "views_label": "22K",
+      "views_label": "22.3K",
       "posted_at": "2026-06-26T09:37:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4044",
@@ -435,7 +530,7 @@
           "count": "3"
         }
       ],
-      "views_label": "21.7K",
+      "views_label": "22K",
       "posted_at": "2026-06-26T09:32:15+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4043",
@@ -473,7 +568,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21.9K",
+      "views_label": "22K",
       "posted_at": "2026-06-26T09:18:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4042",
@@ -523,7 +618,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.2K",
+      "views_label": "18.6K",
       "posted_at": "2026-06-26T08:58:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4041",
@@ -581,7 +676,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.9K",
+      "views_label": "26.2K",
       "posted_at": "2026-06-26T04:24:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4040",
@@ -643,7 +738,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.4K",
+      "views_label": "30.6K",
       "posted_at": "2026-06-25T22:00:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4039",
@@ -705,7 +800,7 @@
           "count": "2"
         }
       ],
-      "views_label": "31.6K",
+      "views_label": "31.7K",
       "posted_at": "2026-06-25T21:31:43+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4037",
@@ -723,7 +818,7 @@
       "reactions": [
         {
           "emoji": "😭",
-          "count": "145"
+          "count": "146"
         },
         {
           "emoji": "❤",
@@ -746,7 +841,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.6K",
+      "views_label": "30.9K",
       "posted_at": "2026-06-25T21:06:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4036",
@@ -846,7 +941,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.8K",
+      "views_label": "32.1K",
       "posted_at": "2026-06-25T20:50:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4034",
@@ -884,7 +979,7 @@
           "count": "2"
         }
       ],
-      "views_label": "32.8K",
+      "views_label": "33.1K",
       "posted_at": "2026-06-25T20:20:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4033",
@@ -1034,7 +1129,7 @@
           "count": "2"
         }
       ],
-      "views_label": "32.5K",
+      "views_label": "32.8K",
       "posted_at": "2026-06-25T20:04:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4030",
@@ -4738,134 +4833,6 @@
         "thumbnail_sha256": "4760b4cdd458c2783bac6fa0aea591c506bcac2999f98c11212af654a950c316",
         "permalink": "https://t.me/matinsenpaii/3936"
       }
-    },
-    {
-      "id": "MatinSenPaii/3934",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Hz4oJlR8e3gmp7oYoJdjv-6DbveYqoewpENbCoNg4hevBWFrllOMR9NfVFJEC6eLPztRyTsrPLurr7cmHADis55CPSOgSjkrKCX4OlqzBjCMA_YnQVBq6w4mu0mA6WlgAdIVLY1kdSdDiBY2u_Xaj1E_knoCMPoiJMICsMisP-QnZHYn_eS6phbKMITtXckMYKYIceSWTiE1ACrIFBni3FxtNePDY-pSmWd59XUcjCPGXBmOFE7d3Oo52ymbXAsGQjZle7-UZW5FMLor_HAGVLKVVnqwEVC1RH7rEH-Hs3BYKmaAketkBFYz7nL9rvOmGh8Y9FAsKyDVIH4HKiyN5g.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/08a536f1cb2b1413c0203692.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">یه اپلیکیشن مسخره‌ی اندروید با AI گوگل نوشتم مجانی، توی بیست دقیقه<br>ویدئوش رو ضبط کردم که به شما هم یاد بدم. اصلا چیز خفنی نیست اما خب بامزست</div>",
-      "plain_text": "یه اپلیکیشن مسخره‌ی اندروید با AI گوگل نوشتم مجانی، توی بیست دقیقه\nویدئوش رو ضبط کردم که به شما هم یاد بدم. اصلا چیز خفنی نیست اما خب بامزست",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3934?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/J6ufsDENeHaD10C-jgmNCKgzGvaLSYCVGASmIpVJVZEFjno79Rnf8ozzhivmYDQYVeGNjXZAVVZn3EpR8QD8eXJe3GRkRclrsEv4E1-2nzGvIEAsaK_Hac4l-bjNqh1ioIriflJ8xkiPjuaUi4o2r5n1Zh3wAwzj2oNC1V9n3EQW28PmeYBmd3oOlfjcKmhoyy1VbsJdvcub-2m-o5AKAc0g8rgryZLqjPy7GHSAThNRVErB0cdMyaai6DUBycaTsWL1VrqcvrtfpRDkynzD571qGOmYOBL72nk-Ywt-18ygaenSfAyPpYiqEcAhsVXUn_RL_oLhCAd3zv3saOkfKw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/0b7521a36c87b1271742cc78.jpg",
-          "thumbnail_sha256": "0260e3b9f490039184b142774059667ae8e8fc401e9364f6489551c3553f483a",
-          "duration_label": null,
-          "aspect_ratio": 1
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3935?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/l8xdAhn-uUJXG2e4ggwVADNMETcTjX-c4BkKu71f5vk7z6YV7VNOvWkrrvGD3TsWbksXHF03S3KTPki_Z7wSHHa59Z1aoWBV9V6YTYo7ogfNqYhM4Oj6v6a0wlzcnCyLUxt4nbiiZ335_eqS0yBAnPkH5lajaOY2qeHvYJXtwwP-ITJJ3ylPjhQzmhciiRIIpTA6pk-2TM5ZixpXGDbz63v7UuFTE3_BnoZ1FMiBUPh5Anwaxyh70RFNMztETZZXXo67TCN-nx0tibvfAoW17njay8f3h7yTnV3RPXF9_q0-cYpPLDGTG2-BUrjNnFNzAomA4G6cun5Db1UZNcz2Mg.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/a4f40e469b5e58b3c2e0f870.jpg",
-          "thumbnail_sha256": "4ef8b070c466b9a91b5d533d4543afb486d067a2f283ab55bb5e6011cf3f9d27",
-          "duration_label": null,
-          "aspect_ratio": 0.8525
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3936?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/a_CkLxjN8Jmk_fZbi7xXy4yCptFXMBHDBkMpiKPaCkDNbe4eqnxZtFkZRtt8gqnC1bJb9R8NkXVoI87UhYDphWywEDNh3nvL0uZWR_Vnz3RJC7Q9rY2OBfK212BccocRFmxqqmjbCyYzmg7qa4xPLYp1b4xy1RthGR-DQGaZCketVCT_LVofgXj_9D2S8YEGt_Rt-bpWjcOvcp-ZGYTiZv3IKSFVkuGiHzM5TAr8fVx2AEJfM6qJH0o5D6Agn1PK3RsGZ_3umpuF34hXc_1yFnxYSIX-G8MJlX7jDqmW7RfZdddfcc16V-W3UsI_wldOkEEG6ktVXSNOsKagYcWP1g.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/922bc392c9fef66c5124026a.jpg",
-          "thumbnail_sha256": "ac3f029557a62ec34462ab4129e182aa66b231fda29710866cc9159b36b75769",
-          "duration_label": null,
-          "aspect_ratio": 0.47625
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "724"
-        },
-        {
-          "emoji": "😁",
-          "count": "169"
-        },
-        {
-          "emoji": "👎",
-          "count": "36"
-        },
-        {
-          "emoji": "👍",
-          "count": "28"
-        },
-        {
-          "emoji": "😭",
-          "count": "18"
-        },
-        {
-          "emoji": "🔥",
-          "count": "11"
-        },
-        {
-          "emoji": "🎃",
-          "count": "9"
-        },
-        {
-          "emoji": "😨",
-          "count": "4"
-        }
-      ],
-      "views_label": "39.1K",
-      "posted_at": "2026-06-17T19:30:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3934",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3933",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Hz4oJlR8e3gmp7oYoJdjv-6DbveYqoewpENbCoNg4hevBWFrllOMR9NfVFJEC6eLPztRyTsrPLurr7cmHADis55CPSOgSjkrKCX4OlqzBjCMA_YnQVBq6w4mu0mA6WlgAdIVLY1kdSdDiBY2u_Xaj1E_knoCMPoiJMICsMisP-QnZHYn_eS6phbKMITtXckMYKYIceSWTiE1ACrIFBni3FxtNePDY-pSmWd59XUcjCPGXBmOFE7d3Oo52ymbXAsGQjZle7-UZW5FMLor_HAGVLKVVnqwEVC1RH7rEH-Hs3BYKmaAketkBFYz7nL9rvOmGh8Y9FAsKyDVIH4HKiyN5g.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/08a536f1cb2b1413c0203692.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "میگن Cursor یه چیزی ساخته که SpaceX اومده 60 میلیارد دلار خریدتش<br>نمی‌دونم چقدر حقیقت داره این حرف اما سرمایه‌گذاری خوبی انجام داده. به زودی CLI کدنویسی grok رو شاهد باشیم احتمالا",
-      "plain_text": "میگن Cursor یه چیزی ساخته که SpaceX اومده 60 میلیارد دلار خریدتش\nنمی‌دونم چقدر حقیقت داره این حرف اما سرمایه‌گذاری خوبی انجام داده. به زودی CLI کدنویسی grok رو شاهد باشیم احتمالا",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "287"
-        },
-        {
-          "emoji": "❤",
-          "count": "30"
-        },
-        {
-          "emoji": "🔥",
-          "count": "17"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        },
-        {
-          "emoji": "😨",
-          "count": "4"
-        },
-        {
-          "emoji": "😁",
-          "count": "2"
-        },
-        {
-          "emoji": "🎃",
-          "count": "2"
-        }
-      ],
-      "views_label": "39.3K",
-      "posted_at": "2026-06-17T18:25:16+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3933",
-      "reply": null
     }
   ]
 }
