@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-26T09:17:02.420Z",
+  "fetched_at": "2026-06-26T09:22:12.691Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,36 @@
     "subscriber_count": "160K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4042",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/sF0G6QdBzfDdzcoy6UqOfW4eArxVU75kS-keBHOPNLujLpW9Ikc5CdIhLKcQ7pBZ3X0GUvAftpuH8w27F9nfQ2GSOLLWVBzZmdR1WgoFV9ECma67h7sWg6W7kvRFx_5vtY1qeYeddjrWvhUOHh2HcfO3rr6SXyCWO6xYfRFfnStELZJ46EbJVVP23M8P5k23Q3TgNgbqsyIrwStwEI9hxhwIfj78jJBLS-LDLyk2FR3ceuhFIxa2Cc0hA_o9hjjKbxDX4D_H57-cZRJew4U2Xh8xQ2kM4StVNmnnW2bCS1nkP3ZPiL1FNa5aE4u78G7lj1-H6Ws3DSnJk1xekiLyYg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/dde32632c3a600b61a39cbcd.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "چندتا نکته:<br>1- کاربرا توی ردیت گزارش دادن که برای استفاده از مدلهای anthropic زیاد به باگ می‌خورن و علت می‌تونه استفاده سایت از apiهای دزدی باشه. بهترین نتیجه رو با GLM میده<br>2- اگر از GLM استفاده می‌کنید هم، یا به ایجنت فول اکسس ندید(که .env) و اینهاتون رو نخونه، یا توی پروژه‌های حساس ازش استفاده نکنید",
+      "plain_text": "چندتا نکته:\n1- کاربرا توی ردیت گزارش دادن که برای استفاده از مدلهای anthropic زیاد به باگ می‌خورن و علت می‌تونه استفاده سایت از apiهای دزدی باشه. بهترین نتیجه رو با GLM میده\n2- اگر از GLM استفاده می‌کنید هم، یا به ایجنت فول اکسس ندید(که .env) و اینهاتون رو نخونه، یا توی پروژه‌های حساس ازش استفاده نکنید",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "10"
+        }
+      ],
+      "views_label": "1.72K",
+      "posted_at": "2026-06-26T09:18:54+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4042",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4027",
+        "author_name": "Matin SenPai",
+        "preview_text": "",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/Mqs1mL2cAdinXHId88aec_HKXVuqrw9VFig9zQoGzcp2LLNU7HMbC2lX3WTCHOlxLusrlaexgAc6U2rz1IU5gqjThkY8ygt0xBg65iuyTHABQmMgyiUDrSiWCkJGzM5o6YcpCb_LxPcGu4-rzxhZBy8sD3J1RsMaQSrhiipdqgSP-4coHXnETQZXx1mFOStkTYYv1N39c9s1SyUz66K1OKkQsUs6pgcnoCmuHlrMIZEfsMr19fjrfOLTRqwxka37XSkTv1YhBbY8W1qs_glKxrYPpOkHOjPgPRgUIjtCY5tpqUN4V015ohlgeKFVDzbeC6Ej4AH6xoVfsm5hKKXYhQ.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/7dec6432c7d3769eb8706753.jpg",
+        "thumbnail_sha256": "962ba60383f8da1689a3352ea50465890d146b1867b97f5bc4500f6ce1893de5",
+        "permalink": "https://t.me/matinsenpaii/4027"
+      }
+    },
     {
       "id": "MatinSenPaii/4041",
       "author_name": "Matin SenPai",
@@ -35,7 +65,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "59"
+          "count": "71"
         },
         {
           "emoji": "👍",
@@ -46,7 +76,7 @@
           "count": "2"
         }
       ],
-      "views_label": "3.4K",
+      "views_label": "4.34K",
       "posted_at": "2026-06-26T08:58:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4041",
@@ -85,7 +115,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "274"
+          "count": "277"
         },
         {
           "emoji": "😭",
@@ -101,10 +131,10 @@
         },
         {
           "emoji": "👍",
-          "count": "3"
+          "count": "4"
         }
       ],
-      "views_label": "16.6K",
+      "views_label": "17.1K",
       "posted_at": "2026-06-26T04:24:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4040",
@@ -166,7 +196,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.8K",
+      "views_label": "25.1K",
       "posted_at": "2026-06-25T22:00:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4039",
@@ -228,7 +258,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.5K",
       "posted_at": "2026-06-25T21:31:43+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4037",
@@ -269,7 +299,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.7K",
+      "views_label": "26.9K",
       "posted_at": "2026-06-25T21:06:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4036",
@@ -369,7 +399,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.8K",
+      "views_label": "28K",
       "posted_at": "2026-06-25T20:50:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4034",
@@ -407,7 +437,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29.1K",
+      "views_label": "29.3K",
       "posted_at": "2026-06-25T20:20:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4033",
@@ -557,7 +587,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29K",
+      "views_label": "29.2K",
       "posted_at": "2026-06-25T20:04:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4030",
@@ -575,7 +605,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "364"
+          "count": "365"
         },
         {
           "emoji": "👍",
@@ -590,7 +620,7 @@
           "count": "4"
         }
       ],
-      "views_label": "28.5K",
+      "views_label": "28.6K",
       "posted_at": "2026-06-25T19:06:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4029",
@@ -608,7 +638,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "245"
+          "count": "247"
         },
         {
           "emoji": "😁",
@@ -631,7 +661,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.8K",
+      "views_label": "28.9K",
       "posted_at": "2026-06-25T18:53:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4028",
@@ -652,8 +682,8 @@
       "author_photo_url": "https://cdn1.telesco.pe/file/sF0G6QdBzfDdzcoy6UqOfW4eArxVU75kS-keBHOPNLujLpW9Ikc5CdIhLKcQ7pBZ3X0GUvAftpuH8w27F9nfQ2GSOLLWVBzZmdR1WgoFV9ECma67h7sWg6W7kvRFx_5vtY1qeYeddjrWvhUOHh2HcfO3rr6SXyCWO6xYfRFfnStELZJ46EbJVVP23M8P5k23Q3TgNgbqsyIrwStwEI9hxhwIfj78jJBLS-LDLyk2FR3ceuhFIxa2Cc0hA_o9hjjKbxDX4D_H57-cZRJew4U2Xh8xQ2kM4StVNmnnW2bCS1nkP3ZPiL1FNa5aE4u78G7lj1-H6Ws3DSnJk1xekiLyYg.jpg",
       "author_photo_path": "channels/matinsenpaii/media/dde32632c3a600b61a39cbcd.jpg",
       "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">با این وبسایت، می‌تونید 150 دلار کردیت api برای مدل‌های <br>Claude Opus 4.8<br>Gpt 5.5<br>و غول چینی GLM 2.5<br>رو میده.<br>منم الان 150 دلار رو گرفتم. با گیتهاب ثبت نام کردم ثبت نام عادی disable شده بود توسط ادمین.<br>برای موجودی بخش wallet رو چک نکنید. از منوی همبرگری سمت چپ، account settings رو بزنید، درست میشه طبق تصویر.<br>با تشکر از <a href=\"https://x.com/i/status/2070116595976835584\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">شهریار</a> عزیز<br>فردا استفاده می‌کنم ببینم چطوره:) ایشالا که نبنده اکانت رو<br><br>من خودم با لینک رفرال ثبت نام کردم، فکر کنم ۱۰۰ دلار بیشتر بهتون میده(به جای ۵۰ دلار، ۱۵۰؟)؟ نمیدونم. این لینک رفرال منه اگه خواستید بزنید:<br><a href=\"https://agentrouter.org/register?aff=PvaZ\" target=\"_blank\" rel=\"noopener\">https://agentrouter.org/register?aff=PvaZ</a></div>",
-      "plain_text": "با این وبسایت، می‌تونید 150 دلار کردیت api برای مدل‌های\nClaude Opus 4.8\nGpt 5.5\nو غول چینی GLM 2.5\nرو میده.\nمنم الان 150 دلار رو گرفتم. با گیتهاب ثبت نام کردم ثبت نام عادی disable شده بود توسط ادمین.\nبرای موجودی بخش wallet رو چک نکنید. از منوی همبرگری سمت چپ، account settings رو بزنید، درست میشه طبق تصویر.\nبا تشکر از شهریار عزیز\nفردا استفاده می‌کنم ببینم چطوره:) ایشالا که نبنده اکانت رو\n\nمن خودم با لینک رفرال ثبت نام کردم، فکر کنم ۱۰۰ دلار بیشتر بهتون میده(به جای ۵۰ دلار، ۱۵۰؟)؟ نمیدونم. این لینک رفرال منه اگه خواستید بزنید:\nhttps://agentrouter.org/register?aff=PvaZ",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">با این وبسایت، می‌تونید 150 دلار کردیت api برای مدل‌های <br>Claude Opus 4.8<br>Gpt 5.5<br>و غول چینی GLM 2.5<br>رو میده.<br><br>مهم: به این نکات توجه داشته باشید <a href=\"https://t.me/MatinSenPaii/4042\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/4042</a><br><br>منم الان 150 دلار رو گرفتم. با گیتهاب ثبت نام کردم ثبت نام عادی disable شده بود توسط ادمین.<br>برای موجودی بخش wallet رو چک نکنید. از منوی همبرگری سمت چپ، account settings رو بزنید، درست میشه طبق تصویر.<br>با تشکر از <a href=\"https://x.com/i/status/2070116595976835584\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">شهریار</a> عزیز<br>فردا استفاده می‌کنم ببینم چطوره:) ایشالا که نبنده اکانت رو<br><br>من خودم با لینک رفرال ثبت نام کردم، فکر کنم ۱۰۰ دلار بیشتر بهتون میده(به جای ۵۰ دلار، ۱۵۰؟)؟ نمیدونم. این لینک رفرال منه اگه خواستید بزنید:<br><a href=\"https://agentrouter.org/register?aff=PvaZ\" target=\"_blank\" rel=\"noopener\">https://agentrouter.org/register?aff=PvaZ</a></div>",
+      "plain_text": "با این وبسایت، می‌تونید 150 دلار کردیت api برای مدل‌های\nClaude Opus 4.8\nGpt 5.5\nو غول چینی GLM 2.5\nرو میده.\n\nمهم: به این نکات توجه داشته باشید https://t.me/MatinSenPaii/4042\n\nمنم الان 150 دلار رو گرفتم. با گیتهاب ثبت نام کردم ثبت نام عادی disable شده بود توسط ادمین.\nبرای موجودی بخش wallet رو چک نکنید. از منوی همبرگری سمت چپ، account settings رو بزنید، درست میشه طبق تصویر.\nبا تشکر از شهریار عزیز\nفردا استفاده می‌کنم ببینم چطوره:) ایشالا که نبنده اکانت رو\n\nمن خودم با لینک رفرال ثبت نام کردم، فکر کنم ۱۰۰ دلار بیشتر بهتون میده(به جای ۵۰ دلار، ۱۵۰؟)؟ نمیدونم. این لینک رفرال منه اگه خواستید بزنید:\nhttps://agentrouter.org/register?aff=PvaZ",
       "media": [
         {
           "kind": "photo",
@@ -714,7 +744,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "207"
+          "count": "208"
         },
         {
           "emoji": "❤",
@@ -745,7 +775,7 @@
           "count": "2"
         }
       ],
-      "views_label": "30.1K",
+      "views_label": "30.2K",
       "posted_at": "2026-06-25T18:50:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4023",
@@ -794,7 +824,7 @@
           "count": "3"
         }
       ],
-      "views_label": "28.2K",
+      "views_label": "28.3K",
       "posted_at": "2026-06-25T18:09:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4022",
@@ -824,7 +854,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "218"
+          "count": "219"
         },
         {
           "emoji": "👍",
@@ -835,7 +865,7 @@
           "count": "7"
         }
       ],
-      "views_label": "29.4K",
+      "views_label": "29.5K",
       "posted_at": "2026-06-25T18:06:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4021",
@@ -857,7 +887,7 @@
         },
         {
           "emoji": "😁",
-          "count": "46"
+          "count": "47"
         },
         {
           "emoji": "❤",
@@ -880,7 +910,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.8K",
+      "views_label": "29.9K",
       "posted_at": "2026-06-25T16:53:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4020",
@@ -913,7 +943,7 @@
           "count": "7"
         }
       ],
-      "views_label": "31.8K",
+      "views_label": "31.9K",
       "posted_at": "2026-06-25T14:56:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4019",
@@ -4848,64 +4878,6 @@
         "thumbnail_path": "channels/matinsenpaii/media/befbc57eb0890173634b632a.jpg",
         "thumbnail_sha256": "6c10e279abc2b17f1eb4eb99f001c4111b6e1a66def56b5d0584f7648731028d",
         "permalink": "https://t.me/matinsenpaii/3917"
-      }
-    },
-    {
-      "id": "MatinSenPaii/3917",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/sCEp0nEzHmQ3vAqStqieHgam7b0BVpx84rh3DJ7w9zqWatj9stQCUNvgwzzSBrFGd6GE5Bo01ba1iaXJuIaHFW-0FzCNZZQXVEWL1IYbhIYth2mdGo6Z2KygUrEcNiPj1J2-TJ5Cc1IOzYyiM88Af9LpuSt1oTh9pCoCagKijcM-WFvNLOY-FYsdxR61XKJSkyVs1Z8mgfMYAERF4Yjg6Op1vQHxkQ1NdOyVi3uGLXMuFG-7oWEg8hf1BqYT0NfIMpJZ1j788RTJmgZVeH57ECX2dXIdEM22JrsI9WmCm3qE1adKu2w77cOqXQbV5aLv5t9b6O7Kr3AREE-Z3cUCJg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/7044610ad74cac126b5b0df6.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "پیدات کردم مهدی جان<tg-emoji emoji-id=\"5472069780015946935\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA5B3.png')\"><b>🥳</b></i></tg-emoji>",
-      "plain_text": "پیدات کردم مهدی جان🥳",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/3917",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/l8dnrY7J8g5JnmGPLOK9uSH8siXfZFa4kak9llyPtwrhCjDHIfFOi3K5yPdDLq6Ahq5Jv9RtbdVxaKJW8ZEX065aKkr-I0xBSt5QLSUX0ktY4TJyweNqYf1r2oamDjJZjHPMyWGsa3cOh0ft3HYaIMwzR4xgsX12u410PCLb9gBfRnVQ44kKh7yIy5mDVLvirq0OSmdGtJLUQhRjzpUHfk87kJ8_0DZlvxYK-ULYmX6R-ZDq4DtHr6aowS-qG2QDn9CV73bsM-GeAn7M8tOeiEBPfRI_3nyjSm8PyEa91OZQ6oQPEfdWgCg8fkN5PUSFNuyQfX4E37g7cHamCQZ0Jw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/6bcccda0b7239e19f51b4e8d.jpg",
-          "thumbnail_sha256": "f90c4fd63dc6a953dfd7af99db8a7ca6ca0907eff03d1551d99a3c4337c04a88",
-          "duration_label": null,
-          "aspect_ratio": 1.8132530120481785
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "670"
-        },
-        {
-          "emoji": "😭",
-          "count": "21"
-        },
-        {
-          "emoji": "❤",
-          "count": "16"
-        },
-        {
-          "emoji": "🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "😨",
-          "count": "1"
-        }
-      ],
-      "views_label": "33.8K",
-      "posted_at": "2026-06-17T10:29:42+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3917",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "3916",
-        "author_name": "Matin SenPai",
-        "preview_text": "چندتا از بچه‌ها تفریحشون اینه برن وارد پنلی که من توی هر ویدئو میسازم بشن و پسووردش رو عوض کنن و برای خودشون لینک ساب بسازن استفاده کنن😂",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/3916"
       }
     }
   ]
