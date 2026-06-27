@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-27T08:46:50.149Z",
+  "fetched_at": "2026-06-27T08:51:55.336Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,47 @@
     "subscriber_count": "160K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4071",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/en5oWwCKFx2Pct6_gLO88CvtPybsGMML3QdaNUcxDBe9jlmvMPh2jDczBhtwvozp0vVUT0nTmTkNanHP5zsguQgvfhkQHxgRZVMpEdR3XVuh8xiuIcLm1DG3JI7hVUrrx5VE-2NwabP4ip3Vq4HpDl0zNSaiN505NbiJ2aXE9xK4hkzvHhROgtxK-Fzc60l7miUI88VLPuTnScKKJSiksHAZykj0n5HXD0O_2916bhDtw-jpib6rwSFxEIwh292B1wwfoucgKMewDRN6efTvCz-5bJMk-x1uJrH_G9kSDSwtIb1fsvMETGFO-eiCmC7CV1n4GtBkER0AuB7fhHAs-w.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/66605392dff0e4fdfed844b5.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "هرمس دیگه منتظرت نمی‌مونه — خودش یاد می‌گیره!<tg-emoji emoji-id=\"5471960722206366390\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji><br>قابلیت جدیدی که Hermes Agent اخیرا اضافه کرده، دستور <br><blockquote>/learn</blockquote><br> هست.<br>به‌جای اینکه بشینید دستی یه <a href=\"http://SKILL.md/\" target=\"_blank\" rel=\"noopener\">SKILL.md</a> بنویسید، یا خودش صرفا کورکورانه بنویسه و شما ندونید چه خبره، حالا می‌تونید فقط منابع رو نشونش بدید و خودش بقیه‌ش رو انجام بده.<tg-emoji emoji-id=\"5472170432574528133\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9783.png')\"><b>🗃️</b></i></tg-emoji><br>وقتی دستور /learn رو می‌زنید، ایجنت با ابزارهای خودش (read_file، search_files، web_extract) منبع رو می‌خونه، یه skill استاندارد می‌سازه و ذخیره می‌کنه — و روی همه‌جا یکسان کار می‌کنه.<br>چند تا مثال که بهتر متوجه بشید:<br>۱- /learn the auth flow in ~/projects/backend<br> کل منطق احراز هویت پروژه‌تون رو یاد می‌گیره؛ دفعه‌ی بعد برای پروژه‌ی بعدی، فقط صداش می‌زنید.<tg-emoji emoji-id=\"5472201536727686043\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939E.png')\"><b>📞</b></i></tg-emoji><br><br>۲- /learn <a href=\"https://docs.someapi.com/\" target=\"_blank\" rel=\"noopener\">https://docs.someapi.com</a><br> مستندات یه API رو می‌بلعه و تبدیلش می‌کنه به یه مهارتِ آماده. مثلا من خودم سر API تلگرام و اینکه هی آپدیت میده و ai ها رسما نادون میشن سرش، این قضیه خیلی به دردم خورد<tg-emoji emoji-id=\"5339181821135431228\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i></tg-emoji><br><br>۳- /learn my writing style at <a href=\"https://example.blog.com/\" target=\"_blank\" rel=\"noopener\">https://example.blog.com</a><br> استایل نوشتن خودتون رو بهش یاد می‌دید که من روی این می‌خوام یه کم مانور بدم و قشنگ تستش کنم و نتیجه رو بهتون می‌گم:)<tg-emoji emoji-id=\"5388953246486269495\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939A.png')\"><b>📚</b></i></tg-emoji><br><br><tg-emoji emoji-id=\"5417875345804108985\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8D.png')\"><b>🌍</b></i></tg-emoji> نکته‌های باحالش:<br>• مهارت‌ها توی ~/.hermes/skills/ ذخیره و persistent می‌شن<br>• بارگذاری سه‌سطحیه؛ محتوای کامل skill فقط وقتی نیاز باشه لود می‌شه — توکن الکی نمی‌سوزه<br>• و اما مهم‌ترینش از نظر من: نمی‌خوای کورکورانه بنویسه؟ با write_approval: true توی تنظیماتش، هر skill رو قبل از ذخیره خودت تأیید کن! کنترل کامل=)<tg-emoji emoji-id=\"5472193350520021357\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i></tg-emoji><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "هرمس دیگه منتظرت نمی‌مونه — خودش یاد می‌گیره!📱\nقابلیت جدیدی که Hermes Agent اخیرا اضافه کرده، دستور\n/learn\nهست.\nبه‌جای اینکه بشینید دستی یه SKILL.md بنویسید، یا خودش صرفا کورکورانه بنویسه و شما ندونید چه خبره، حالا می‌تونید فقط منابع رو نشونش بدید و خودش بقیه‌ش رو انجام بده.🗃️\nوقتی دستور /learn رو می‌زنید، ایجنت با ابزارهای خودش (read_file، search_files، web_extract) منبع رو می‌خونه، یه skill استاندارد می‌سازه و ذخیره می‌کنه — و روی همه‌جا یکسان کار می‌کنه.\nچند تا مثال که بهتر متوجه بشید:\n۱- /learn the auth flow in ~/projects/backend\nکل منطق احراز هویت پروژه‌تون رو یاد می‌گیره؛ دفعه‌ی بعد برای پروژه‌ی بعدی، فقط صداش می‌زنید.📞\n\n۲- /learn https://docs.someapi.com\nمستندات یه API رو می‌بلعه و تبدیلش می‌کنه به یه مهارتِ آماده. مثلا من خودم سر API تلگرام و اینکه هی آپدیت میده و ai ها رسما نادون میشن سرش، این قضیه خیلی به دردم خورد💻\n\n۳- /learn my writing style at https://example.blog.com\nاستایل نوشتن خودتون رو بهش یاد می‌دید که من روی این می‌خوام یه کم مانور بدم و قشنگ تستش کنم و نتیجه رو بهتون می‌گم:)📚\n\n🌍 نکته‌های باحالش:\n• مهارت‌ها توی ~/.hermes/skills/ ذخیره و persistent می‌شن\n• بارگذاری سه‌سطحیه؛ محتوای کامل skill فقط وقتی نیاز باشه لود می‌شه — توکن الکی نمی‌سوزه\n• و اما مهم‌ترینش از نظر من: نمی‌خوای کورکورانه بنویسه؟ با write_approval: true توی تنظیماتش، هر skill رو قبل از ذخیره خودت تأیید کن! کنترل کامل=)🛡\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4071",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/HzVYyvSadG9EZX4x2diAVRquMDAe4cGXdHlZXyPrNDN7so5FgDCG5HPjQODb659YfTekGzcNhDJ0e8OneVJMTfmiKr9T1e_bLsCF2ZxuyLvIhpjKyN4b-5cGL31Cn4Du54dbpPCT-7RMCJJz-GM9qR12AxUT-gG2SHTVqb7GItRpJe-2Ilcsnx2XCnjLoSh7ZwuwHJNMtATEym8ev4Ni5e9YiEsjtp3eZ9wELmlbKpIG8juXxWgTLEFEPEGbHIZWz0GarjyoMEfFeane2PY-zAroTagwMQNvtsDsoZJtXAPI9nZZ0DJ73MO4KxYCoZxjXOtSn5QlshohsQUj3-XHAw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/16422921685df2240eac1ae1.jpg",
+          "thumbnail_sha256": "30b670a034c3228f0cc3d11ed5db8f20b926ccf941efdfceb3e9c0c7ccd114ad",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "9"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.32K",
+      "posted_at": "2026-06-27T08:49:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4071",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4070",
       "author_name": "Matin SenPai",
@@ -23,18 +64,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "74"
+          "count": "76"
         },
         {
           "emoji": "👎",
           "count": "3"
         },
         {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
           "emoji": "🔥",
           "count": "1"
         }
       ],
-      "views_label": "8.5K",
+      "views_label": "9.13K",
       "posted_at": "2026-06-27T07:02:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4070",
@@ -52,7 +97,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "117"
+          "count": "120"
         },
         {
           "emoji": "👎",
@@ -67,7 +112,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.97K",
+      "views_label": "6.48K",
       "posted_at": "2026-06-27T06:57:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4069",
@@ -85,7 +130,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "153"
+          "count": "155"
         },
         {
           "emoji": "👍",
@@ -96,7 +141,7 @@
           "count": "2"
         }
       ],
-      "views_label": "19K",
+      "views_label": "19.3K",
       "posted_at": "2026-06-27T00:27:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4068",
@@ -135,7 +180,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "116"
+          "count": "117"
         },
         {
           "emoji": "👍",
@@ -150,7 +195,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.1K",
+      "views_label": "20.3K",
       "posted_at": "2026-06-26T23:43:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4067",
@@ -179,7 +224,7 @@
           "count": "5"
         }
       ],
-      "views_label": "20.3K",
+      "views_label": "20.5K",
       "posted_at": "2026-06-26T22:40:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4066",
@@ -257,7 +302,7 @@
           "count": "3"
         }
       ],
-      "views_label": "19.8K",
+      "views_label": "20K",
       "posted_at": "2026-06-26T22:30:55+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4062",
@@ -298,7 +343,7 @@
           "count": "4"
         }
       ],
-      "views_label": "20.3K",
+      "views_label": "20.5K",
       "posted_at": "2026-06-26T21:50:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4061",
@@ -331,7 +376,7 @@
           "count": "12"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.4K",
       "posted_at": "2026-06-26T20:40:15+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4060",
@@ -362,7 +407,7 @@
         },
         {
           "emoji": "👍",
-          "count": "52"
+          "count": "53"
         },
         {
           "emoji": "😁",
@@ -373,7 +418,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.4K",
       "posted_at": "2026-06-26T20:31:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4059",
@@ -406,7 +451,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.9K",
+      "views_label": "28K",
       "posted_at": "2026-06-26T18:26:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4058",
@@ -435,7 +480,7 @@
           "count": "2"
         }
       ],
-      "views_label": "28K",
+      "views_label": "28.1K",
       "posted_at": "2026-06-26T18:24:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4057",
@@ -474,7 +519,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "333"
+          "count": "334"
         },
         {
           "emoji": "😨",
@@ -482,7 +527,7 @@
         },
         {
           "emoji": "👍",
-          "count": "21"
+          "count": "22"
         },
         {
           "emoji": "🔥",
@@ -497,7 +542,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.5K",
+      "views_label": "30.7K",
       "posted_at": "2026-06-26T18:23:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4056",
@@ -530,7 +575,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29.1K",
+      "views_label": "29.2K",
       "posted_at": "2026-06-26T16:31:02+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4055",
@@ -750,7 +795,7 @@
         },
         {
           "emoji": "❤",
-          "count": "840"
+          "count": "842"
         },
         {
           "emoji": "💔",
@@ -4742,39 +4787,6 @@
       "posted_at": "2026-06-19T14:33:27+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/3956",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/3950",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Gv6N6YehV8uG5cWun5O7dhCg9B1Rm5E6etFAfeu5Gi7FsQntx2yqJ_GTCWVN6piY0rBzZEF4NHh1cMWMYjAhn6FSryWdL0DvXgFmMackgXdLuy_GjpLfcgFg-yAWqdBe5QBVo6t3fx5LP4B9QFQMksxZ6A3UW4lsWBW4r56FsrwLSwZkIu1JwAZVTSxcqz92qZf7DItsQWL-VVkIUNNEZ1TzQU--DUJ5fxW1sd0QvxSbE0_f1Td6kMCbSiejF5MO8KkYzMXPWuZSX3vYb2_os3ZgXdVmaCa3PNE2eR2BiESPwhv8O5L72dmAFLzD9g-wNcCvUus8tBA0KX2xZzKmAg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/386a5ceb80322498f88b3328.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "148"
-        },
-        {
-          "emoji": "👍",
-          "count": "11"
-        },
-        {
-          "emoji": "👎",
-          "count": "4"
-        },
-        {
-          "emoji": "😁",
-          "count": "2"
-        }
-      ],
-      "views_label": "37.1K",
-      "posted_at": "2026-06-19T14:33:00+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3950",
       "reply": null
     }
   ]
