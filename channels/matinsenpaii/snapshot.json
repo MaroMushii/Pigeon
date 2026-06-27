@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-27T18:11:53.738Z",
+  "fetched_at": "2026-06-27T18:16:58.860Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,55 @@
     "subscriber_count": "160K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4078",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/en5oWwCKFx2Pct6_gLO88CvtPybsGMML3QdaNUcxDBe9jlmvMPh2jDczBhtwvozp0vVUT0nTmTkNanHP5zsguQgvfhkQHxgRZVMpEdR3XVuh8xiuIcLm1DG3JI7hVUrrx5VE-2NwabP4ip3Vq4HpDl0zNSaiN505NbiJ2aXE9xK4hkzvHhROgtxK-Fzc60l7miUI88VLPuTnScKKJSiksHAZykj0n5HXD0O_2916bhDtw-jpib6rwSFxEIwh292B1wwfoucgKMewDRN6efTvCz-5bJMk-x1uJrH_G9kSDSwtIb1fsvMETGFO-eiCmC7CV1n4GtBkER0AuB7fhHAs-w.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/66605392dff0e4fdfed844b5.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "یه نفر توی ردیت، مدل GLM 5.2 رو روی سیستم خودش راه انداخته با ۴ تا RTX 3090 و 192 گیگ رم<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><br><br>وزن Q2 مدل رو هم ران کرده که توضیح میدم چیه. همینطور با اینکه تقریبا از بیس‌ترینش استفاده کرده، گفته که GLM 5.2 داره کار کدنویسی و پلن و هرچی که نیاز دارم رو عالی انجام میده.<br><br>تأکید کرده که مدل توی کد زدن، پروسه‌نویسی و حتی کارهای طولانی و autonomous خیلی قوی عمل می‌کنه. و واقعا حس Frontier Model می‌ده.<br><br><blockquote expandable=\"\">حالا Q2 یعنی چی؟<br>حرف Q مخفف Quantization (کوانتایز) هست. یعنی وزن‌های مدل رو از دقت بالا (معمولاً ۱۶ بیت) به دقت خیلی پایین‌تر کاهش دادن تا:<br>حجم فایل خیلی کوچک‌تر بشه<br>حافظه (VRAM/RAM) خیلی کمتر مصرف کنه<br>سریع‌تر اجرا بشه<br>Q2 یعنی مدل به ۲ بیت کوانتایز شده.<br>این پایین‌ترین سطح کوانتایز رایج هست (از Q2 تا Q8 و حتی Q1 وجود داره).</blockquote><br><br>همینطور طبق گفته‌ی خودش برقش هم خورشیدیه و هزینه‌ی برق نمیده<tg-emoji emoji-id=\"5307843476296053924\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948B.png')\"><b>🔋</b></i></tg-emoji><br><br>مشخصات سیستمش هم اینه:<br>۴ تا RTX 3090 (هر کدوم ۲۴ گیگ) که میشه ۹۶ گیگ VRAM<br>سی‌پی‌یو هم Ryzen 9 9900X<br>۱۹۲ گیگ رم DDR5 (Overclock شده روی ۵۶۰۰ مگاهرتز)<br>مادربرد MSI 840B (هرچند بهش گفتن برای این ستاپ ایدئال نیست، ولی خودش جواب داده که فعلا داره جواب می‌ده<tg-emoji emoji-id=\"5472363852131736400\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i></tg-emoji>)<br><br>ایشالا قسمت ما هم بشه<br><br>پست اصلی: <a href=\"https://www.reddit.com/r/ZaiGLM/s/Ew9JHC2XIA\" target=\"_blank\" rel=\"noopener\">https://www.reddit.com/r/ZaiGLM/s/Ew9JHC2XIA</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "یه نفر توی ردیت، مدل GLM 5.2 رو روی سیستم خودش راه انداخته با ۴ تا RTX 3090 و 192 گیگ رم😂\n\nوزن Q2 مدل رو هم ران کرده که توضیح میدم چیه. همینطور با اینکه تقریبا از بیس‌ترینش استفاده کرده، گفته که GLM 5.2 داره کار کدنویسی و پلن و هرچی که نیاز دارم رو عالی انجام میده.\n\nتأکید کرده که مدل توی کد زدن، پروسه‌نویسی و حتی کارهای طولانی و autonomous خیلی قوی عمل می‌کنه. و واقعا حس Frontier Model می‌ده.\n\nحالا Q2 یعنی چی؟\nحرف Q مخفف Quantization (کوانتایز) هست. یعنی وزن‌های مدل رو از دقت بالا (معمولاً ۱۶ بیت) به دقت خیلی پایین‌تر کاهش دادن تا:\nحجم فایل خیلی کوچک‌تر بشه\nحافظه (VRAM/RAM) خیلی کمتر مصرف کنه\nسریع‌تر اجرا بشه\nQ2 یعنی مدل به ۲ بیت کوانتایز شده.\nاین پایین‌ترین سطح کوانتایز رایج هست (از Q2 تا Q8 و حتی Q1 وجود داره).\n\nهمینطور طبق گفته‌ی خودش برقش هم خورشیدیه و هزینه‌ی برق نمیده🔋\n\nمشخصات سیستمش هم اینه:\n۴ تا RTX 3090 (هر کدوم ۲۴ گیگ) که میشه ۹۶ گیگ VRAM\nسی‌پی‌یو هم Ryzen 9 9900X\n۱۹۲ گیگ رم DDR5 (Overclock شده روی ۵۶۰۰ مگاهرتز)\nمادربرد MSI 840B (هرچند بهش گفتن برای این ستاپ ایدئال نیست، ولی خودش جواب داده که فعلا داره جواب می‌ده😂)\n\nایشالا قسمت ما هم بشه\n\nپست اصلی: https://www.reddit.com/r/ZaiGLM/s/Ew9JHC2XIA\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4078",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ZnNHDYv5vkeqft7uElPEZp41DSwM8xHaqHSXi1HGzbHmnyW--VxpzLrDjhXm-GmGjmuNUfpqVm8y46aCLgceUFJEqXbS_4VKMV_fddB_zA75z07MA9zI9ZaC7RMi5Ajno_dLA8YvDHYGbm5YgsyO40TDh_oEfDwo5u5-d1dIlhcmW28R5P14vw4MHnPTcNWcrVB9RyEFmDfFdSjbJbhJFNGmqCndJ9Y_7YxTxX2-BJtWG1d7_6Ux2IFbV_l39CKYMYFjKIQzjKmuC2Ent1wqUcjkExohPmZkjSLwugIjtzv0XzrG6DfDwpx88eSd0_5WqG-4ze0x6AgbzrByF4N9kg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/89cb01c048e026949c18ec38.jpg",
+          "thumbnail_sha256": "c0ebd879568f0d0393432e6b4f9a047762c8c74f6f89f79e49bad789d9441988",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "😭",
+          "count": "28"
+        },
+        {
+          "emoji": "❤",
+          "count": "18"
+        },
+        {
+          "emoji": "👎",
+          "count": "4"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
+          "emoji": "😁",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.17K",
+      "posted_at": "2026-06-27T18:13:30+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4078",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4077",
       "author_name": "Matin SenPai",
@@ -35,7 +84,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "176"
+          "count": "178"
         },
         {
           "emoji": "😭",
@@ -58,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16K",
+      "views_label": "16.9K",
       "posted_at": "2026-06-27T15:29:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4077",
@@ -97,7 +146,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "260"
+          "count": "264"
         },
         {
           "emoji": "👎",
@@ -116,7 +165,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "25.2K",
       "posted_at": "2026-06-27T14:57:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4076",
@@ -138,7 +187,7 @@
         },
         {
           "emoji": "❤",
-          "count": "233"
+          "count": "235"
         },
         {
           "emoji": "😁",
@@ -169,7 +218,7 @@
           "count": "4"
         }
       ],
-      "views_label": "23.3K",
+      "views_label": "23.8K",
       "posted_at": "2026-06-27T13:11:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4075",
@@ -187,7 +236,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "453"
+          "count": "454"
         },
         {
           "emoji": "😁",
@@ -199,7 +248,7 @@
         },
         {
           "emoji": "👍",
-          "count": "14"
+          "count": "15"
         },
         {
           "emoji": "❤",
@@ -214,7 +263,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.3K",
+      "views_label": "23.7K",
       "posted_at": "2026-06-27T13:05:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4074",
@@ -247,7 +296,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.4K",
+      "views_label": "24.9K",
       "posted_at": "2026-06-27T12:36:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4073",
@@ -309,7 +358,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.7K",
+      "views_label": "28K",
       "posted_at": "2026-06-27T10:16:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4072",
@@ -375,7 +424,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.2K",
+      "views_label": "28.3K",
       "posted_at": "2026-06-27T08:49:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4071",
@@ -408,7 +457,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.8K",
       "posted_at": "2026-06-27T07:02:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4070",
@@ -441,7 +490,7 @@
           "count": "3"
         }
       ],
-      "views_label": "18.8K",
+      "views_label": "18.9K",
       "posted_at": "2026-06-27T06:57:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4069",
@@ -470,7 +519,7 @@
           "count": "2"
         }
       ],
-      "views_label": "28.8K",
+      "views_label": "28.9K",
       "posted_at": "2026-06-27T00:27:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4068",
@@ -524,7 +573,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.5K",
+      "views_label": "28.6K",
       "posted_at": "2026-06-26T23:43:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4067",
@@ -553,7 +602,7 @@
           "count": "5"
         }
       ],
-      "views_label": "26.9K",
+      "views_label": "27.1K",
       "posted_at": "2026-06-26T22:40:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4066",
@@ -635,7 +684,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.8K",
+      "views_label": "28K",
       "posted_at": "2026-06-26T22:30:55+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4062",
@@ -665,7 +714,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "155"
+          "count": "156"
         },
         {
           "emoji": "👍",
@@ -680,7 +729,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.5K",
+      "views_label": "27.6K",
       "posted_at": "2026-06-26T21:50:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4061",
@@ -717,7 +766,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.4K",
+      "views_label": "30.5K",
       "posted_at": "2026-06-26T20:40:15+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4060",
@@ -4818,43 +4867,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/3962"
       }
-    },
-    {
-      "id": "MatinSenPaii/3962",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Gv6N6YehV8uG5cWun5O7dhCg9B1Rm5E6etFAfeu5Gi7FsQntx2yqJ_GTCWVN6piY0rBzZEF4NHh1cMWMYjAhn6FSryWdL0DvXgFmMackgXdLuy_GjpLfcgFg-yAWqdBe5QBVo6t3fx5LP4B9QFQMksxZ6A3UW4lsWBW4r56FsrwLSwZkIu1JwAZVTSxcqz92qZf7DItsQWL-VVkIUNNEZ1TzQU--DUJ5fxW1sd0QvxSbE0_f1Td6kMCbSiejF5MO8KkYzMXPWuZSX3vYb2_os3ZgXdVmaCa3PNE2eR2BiESPwhv8O5L72dmAFLzD9g-wNcCvUus8tBA0KX2xZzKmAg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/386a5ceb80322498f88b3328.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "یه مصاحبه‌ی کوتاه 13 دقیقه‌ای جالب، با آندرس هلسبرگ، طراح و یکی از خالقین C# و Typescript، که هم در مورد برنامه‌نویسی و داستانِ ساختنِ این دو زبان صحبت کرد، هم راجب اینکه آیا AI قراره جای ما رو بگیره؟ و نظرش در مورد Vibe Coding و چیزای دیگه:<br><br><a href=\"https://youtu.be/CPrePbvbbic\" target=\"_blank\" rel=\"noopener\">https://youtu.be/CPrePbvbbic</a>",
-      "plain_text": "یه مصاحبه‌ی کوتاه 13 دقیقه‌ای جالب، با آندرس هلسبرگ، طراح و یکی از خالقین C# و Typescript، که هم در مورد برنامه‌نویسی و داستانِ ساختنِ این دو زبان صحبت کرد، هم راجب اینکه آیا AI قراره جای ما رو بگیره؟ و نظرش در مورد Vibe Coding و چیزای دیگه:\n\nhttps://youtu.be/CPrePbvbbic",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "184"
-        },
-        {
-          "emoji": "👍",
-          "count": "12"
-        },
-        {
-          "emoji": "👎",
-          "count": "4"
-        },
-        {
-          "emoji": "😭",
-          "count": "2"
-        },
-        {
-          "emoji": "😁",
-          "count": "1"
-        }
-      ],
-      "views_label": "44K",
-      "posted_at": "2026-06-20T17:10:44+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/3962",
-      "reply": null
     }
   ]
 }
