@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-28T12:51:56.938Z",
+  "fetched_at": "2026-06-28T12:56:54.175Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,34 @@
     "subscriber_count": "129K"
   },
   "posts": [
+    {
+      "id": "farsivoa/222110",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/UbscLgQYM7PboXj0SP2BXQUNA3iMkfIUxWFkpo-XzcBT48BdwyO0fvjpTlpNGN36gmp1czXUuNpPYk-hdoFkGNJXtbg-SvWUA7v_HUNPTsZpV_0y2nEKKEHff3s2nftsTh-tsFgeiuxtxzGxIdSDUZwleKb-SaAHPt890dPinYe5zl_3VEqjiUGHm06E7gMfyjqAhPdLW6PSJ2jJIT14pAOKN-yP7bsfKsDr63AMAjKsGN-YnZKxoFPd7HgLWLfUaw6mGsFDGWfAnF1OCApa-gmsyayrmgZPyveXRK8SF0qfBIiJq_xus4fyNj-SF_Ui9cZBZl1btRjZ_ctOHqWCZA.jpg",
+      "author_photo_path": "channels/farsivoa/media/b0937f5b52cd983661d6ece2.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "ارتش دفاعی اسرائیل و شاباک یکشنبه ۷ تیر با انتشار یک بیانیه مشترک اعلام کردند روز جمعه در مرکز نوار غزه منصور سامی محمود شحتوت، رئیس پلیس دریایی اردوگاه‌های مرکز در سازمان تروریستی حماس را از بین بردند.<br><br>بر اساس این گزارش، منصور شحتوت در دوره اخیر برای پیشبرد طرح‌های تروریستی علیه نیروهای ارتش اسرائیل فعالیت می‌کرد.<br><br>بنابر بیانیه ارتش اسرائیل دو فرمانده دیگر حماس نیز در این حمله کشته شدند؛ «شحتوت و دو تروریست دیگر، مسلح به سلاح‌های مختلف، با یک خودرو در حال حرکت بودند و تهدیدی برای نیروهای ارتش اسرائیل مستقر در نوار غزه به شمار می‌رفتند.»",
+      "plain_text": "ارتش دفاعی اسرائیل و شاباک یکشنبه ۷ تیر با انتشار یک بیانیه مشترک اعلام کردند روز جمعه در مرکز نوار غزه منصور سامی محمود شحتوت، رئیس پلیس دریایی اردوگاه‌های مرکز در سازمان تروریستی حماس را از بین بردند.\n\nبر اساس این گزارش، منصور شحتوت در دوره اخیر برای پیشبرد طرح‌های تروریستی علیه نیروهای ارتش اسرائیل فعالیت می‌کرد.\n\nبنابر بیانیه ارتش اسرائیل دو فرمانده دیگر حماس نیز در این حمله کشته شدند؛ «شحتوت و دو تروریست دیگر، مسلح به سلاح‌های مختلف، با یک خودرو در حال حرکت بودند و تهدیدی برای نیروهای ارتش اسرائیل مستقر در نوار غزه به شمار می‌رفتند.»",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/222110",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/Od6c5JXYAjtS4luwzs4c1YMHPjPBA3bQvoPa0vVUQACUiL8FN5Ta7R1xtgmIHUATPzK-PHbzgFDdmoQgwaRaR-JE1F_-Y9nq6iGZ2qqW9MtsSrS99UnnoPVe53m3UODBJYZWIcGFgYYoG0azTo8HO2pC6XSbCRakE6PzVNNb9PMPKChKmz8asBVEVumbV0DdxTEMOJth98HUsf6l6hFNg7Kyp5tbh438JgFGGknAVeTvX3FANPUc-f44kOBAX_cEDVDSstOX2W56HRyo_w3aU6JRiWy4VFv59UZFYvwXZWAnl_gxd835wyPLVjzyHwJXeQbrgXp1l6ehlX7i5Tu9yQ",
+          "thumbnail_path": "channels/farsivoa/media/f338e4df8abe26280926230d.jpg",
+          "thumbnail_sha256": "635f6d55839ff2626f2657e1f99ff795fc11e873162c4ecef5169adda8c87afb",
+          "duration_label": "0:10",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "130",
+      "posted_at": "2026-06-28T12:55:53+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/222110",
+      "reply": null
+    },
     {
       "id": "farsivoa/222109",
       "author_name": "Farsi VOA",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "582",
+      "views_label": "807",
       "posted_at": "2026-06-28T12:42:28+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/222109",
@@ -49,7 +77,7 @@
       "plain_text": "🔺ارتش اسرائیل از کشته‌ شدن تعدادی از فرماندهان حماس خبر داد\n\n◾️ارتش اسرائیل اعلام کرد رئیس پلیس دریایی اردوگاه‌های مرکز حماس و دو فرمانده دیگر این گروه را کشته است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/israeli-army-hamas-commander-killed/8165681.html",
       "media": [],
       "reactions": [],
-      "views_label": "842",
+      "views_label": "1.03K",
       "posted_at": "2026-06-28T12:37:44+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222108",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.55K",
+      "views_label": "1.67K",
       "posted_at": "2026-06-28T12:18:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222107",
@@ -93,7 +121,7 @@
       "plain_text": "🔺قیمت مسکن در ایران از زمان آغاز جنگ «۸۰ درصد» افزایش یافت\n\n▪️عضو هیئت مدیره اتحادیه مشاوران املاک می‌گوید قیمت مسکن از پیش از جنگ تاکنون حدود ۸۰ درصد افزایش یافته است.\n\n▪️تورج سرباز در ادامه گفت بانک‌ها با استفاده از نوسانات بازار، بخشی از نقدینگی موجود را از طریق واسطه‌ها و دلالان به بازار مسکن تزریق می‌کنند و این روند در نهایت موجب افزایش قیمت‌ها و رشد ارزش افزوده املاک می‌شود.\n\n▪️جهش ۸۰ درصدی قیمت مسکن طی چند ماه گذشته در حالی است که مرکز آمار ایران در گزارش جدید خود از تورم مدعی شده بود قیمت مسکن در خردادماه نسبت به خرداد پارسال تنها ۳۵ درصد افزایش یافته و قیمت اجاره بها نیز تقریبا به همین میزان رشد کرده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8165676.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.61K",
+      "views_label": "2.71K",
       "posted_at": "2026-06-28T11:39:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222106",
@@ -121,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.62K",
+      "views_label": "3.69K",
       "posted_at": "2026-06-28T10:56:10+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222105",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.82K",
+      "views_label": "3.86K",
       "posted_at": "2026-06-28T10:24:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222104",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.51K",
+      "views_label": "3.55K",
       "posted_at": "2026-06-28T10:18:58+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222103",
@@ -205,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.87K",
+      "views_label": "3.91K",
       "posted_at": "2026-06-28T09:55:15+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222102",
@@ -221,7 +249,7 @@
       "plain_text": "🔺پیشنهاد تخفیف جمهوری اسلامی به هند در میانه سقوط قیمت نفت\n\n▪️در حالی که قیمت نفت به سطح قبل از جنگ خاورمیانه سقوط کرده و چین، تنها مشتری نفتی ایران، واردات خود را به شدت کاهش داده، خبرگزاری رویترز از پیشنهاد تخفیف نفت جمهوری اسلامی به مشتریان هندی خبر داده است.\n\n▪️منابع آگاه به این خبرگزاری گفته‌اند که چندین «دلال» مستقر در دبی و سنگاپور به پالایشگاه‌های هندی پیشنهاد ۳ تا ۴ دلار تخفیف داده‌اند.\n\n▪️پیشنهاد تخفیف چشمگیر جمهوری اسلامی به هند در حالی است که ایالات متحده آمریکا در پی امضای توافق پایان جنگ، معافیتی ۶۰ روزه برای صادرات نفت ایران صادر کرده و جمهوری اسلامی اصولاً در فرصت یاد شده می‌تواند به هر کشوری آزادانه نفت بفروشد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/middlemen-offer-iranian-oil-to-indian-refiners-after-us-waiver-sources-say/8165673.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.05K",
+      "views_label": "4.08K",
       "posted_at": "2026-06-28T09:27:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222101",
@@ -249,7 +277,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.95K",
+      "views_label": "3.98K",
       "posted_at": "2026-06-28T09:11:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222100",
@@ -277,7 +305,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.98K",
+      "views_label": "4.01K",
       "posted_at": "2026-06-28T09:04:56+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222099",
@@ -333,7 +361,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.87K",
+      "views_label": "3.9K",
       "posted_at": "2026-06-28T08:30:02+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222097",
@@ -361,7 +389,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.7K",
+      "views_label": "3.74K",
       "posted_at": "2026-06-28T08:26:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222096",
@@ -389,7 +417,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.82K",
+      "views_label": "3.86K",
       "posted_at": "2026-06-28T08:14:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222095",
@@ -417,7 +445,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.84K",
+      "views_label": "3.88K",
       "posted_at": "2026-06-28T08:11:44+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222094",
@@ -461,7 +489,7 @@
       "plain_text": "🔺دلار در بازار آزاد تهران دوباره صعودی شد\n\n▪️بازار آزاد ارز در نخستین روزهای هفته، پس از چند روز تعطیلی، بار دیگر مسیر صعودی گرفت و نشان داد افت نرخ ارز پس از تفاهم ایران و آمریکا هنوز پایدار نشده است.\n\n▪️بررسی سایت‌ها و کانال‌های اطلاع رسانی طلا و ارز نشان می‌دهد بهای دلار آمریکا در نخستین ساعات معاملات امروز یکشنبه هفتم تیرماه به ۱۷۰ هزار تومان رسیده است.\n\n▪️روزنامه دنیای اقتصاد نیز روز شنبه گزارش داد قیمت دلار در بازار آزاد تهران با رشدی حدود ۹ هزار تومانی به محدوده ۱۶۵ هزار تومان رسیده است.\n\n▪️تجارت‌نیوز نیز همان روز نرخ دلار را با افزایشی بیش از ۵ هزار تومانی، ۱۶۶ هزار و ۷۱۵ تومان اعلام کرد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/dollar-rose-again-in-tehran-free-market/8165672.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.64K",
+      "views_label": "4.65K",
       "posted_at": "2026-06-28T07:26:32+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222092",
@@ -489,7 +517,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.6K",
+      "views_label": "4.63K",
       "posted_at": "2026-06-28T06:57:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222091",
@@ -2480,34 +2508,6 @@
       "posted_at": "2026-06-27T08:37:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222010",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/222009",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/pENYSwsacG7-3pACZmL_eySYfT05-50YQp-8LhyZYbaIqMDob2NYorLgvZQZ-fcwoF6QAO2c2-wAFsm7fNEYiFOnB4_cCOWa95ej9rjZLFNBxmEDSssyQq2Lj4F-w5-286TLi99xXcbEs1hcJnmKBUj6VZNi_iafdqt5yLQ-Eiggh8yjzouzBO_rCPuN7vjjVHHIOXnA97FixRxnDlCAkIGkmCxmgEPklSWyS_FWFABEsqjdFY7Wsy3raK6mlLu7Zjud1LE4Y73ydm_6URtcef_yUB_jH7eqj-AxzdZ_NSuu3bHCKHGNau5Y4x4VAtnUXo3m_wkPYftnXd7gC2o3xg.jpg",
-      "author_photo_path": "channels/farsivoa/media/4cf12560a7c340a6200b0f37.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "تیم ملی فوتبال ایران در سومین دیدار خود در مرحله گروهی جام جهانی، برابر مصر به تساوی یک بر یک رسید و امیدش را برای صعود زنده نگه داشت.<br><br>ایران با این نتیجه سه امتیازی شد و باید منتظر جدول تیم‌های سوم بماند؛ چون در فرمت ۴۸ تیمی جام جهانی، هشت تیم برترِ سوم نیز به مرحله حذفی صعود می‌کنند.<br><br>ایران در این مسابقه فرصت پیروزی را هم داشت؛ یک پنالتی را از دست داد و گل این تیم در دقیقه ۹۳ نیز به دلیل آفساید مردود اعلام شد.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "تیم ملی فوتبال ایران در سومین دیدار خود در مرحله گروهی جام جهانی، برابر مصر به تساوی یک بر یک رسید و امیدش را برای صعود زنده نگه داشت.\n\nایران با این نتیجه سه امتیازی شد و باید منتظر جدول تیم‌های سوم بماند؛ چون در فرمت ۴۸ تیمی جام جهانی، هشت تیم برترِ سوم نیز به مرحله حذفی صعود می‌کنند.\n\nایران در این مسابقه فرصت پیروزی را هم داشت؛ یک پنالتی را از دست داد و گل این تیم در دقیقه ۹۳ نیز به دلیل آفساید مردود اعلام شد.\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/222009",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/DmO0W84_4rhVTEy4Cd8_LSI3lgDrY8NTrmbthtuPmYs6OqQPYsMDhTDeL6tIM9hTbjgyLDLHy4G0gkx6iVc6b0JGf5KYgGv6w5iYavR-JNj_7lSZAX0HCzrJr2OEcfWRWwitDIlSKA3FUlSIX7xJia9Ei4sjuAczDLT8mCuG3wC_q0RL3G-1cFKe0CKyJSUz0OKzEhsyq2wGD1iq51eTqzy4It_XbN2m_BRlD4FAbDmyhkYlcNwVC2qgAFy0hDDDg7GhICpDKTwCdPGhfOoiUlDF6uJQjJkKYDjflB3J3UL7Q_FOgDcL63PcBFfMUuY7tQ0XqCndzMs-U0BjhEAbzQ.jpg",
-          "thumbnail_path": "channels/farsivoa/media/5c1b6ac4555b6e50c7e4fbd5.jpg",
-          "thumbnail_sha256": "85a3a5dd38bb160161e8dd05ba61613196e77f5338740cb5e44b8bae09ae1f56",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "5.36K",
-      "posted_at": "2026-06-27T08:09:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/222009",
       "reply": null
     }
   ]
