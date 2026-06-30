@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-30T14:42:05.637Z",
+  "fetched_at": "2026-06-30T14:47:35.772Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,36 @@
     "subscriber_count": "160K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4140",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/NTKk4VkrvHtQZgfU-5a_1KF6xG8ZDbRrirAsq4m-mjfG6Prj_0nX3hj6YHHyffE5Ie9DdGnnplHIWhL8vDe_hRqwG-yQKNbcSa8HLvbNg9cdVJ1Ch6yP-q6valPGr33oIq5ksHhLXXUyC5RbCGfDyy1q2rKuvIk0wIyZdREStg6pz822ybDNwMnKTnmCT7QO8UhkB8vswUfD4f9OzssQgoJPNBdggbRUVqqh2vVdMvo52IKf9-16fMjJEd3QQ-tIiowaGdMRmoF-gxOAq4lAHJ1Fsefgqpad-33FRxPtjjDz7FwqOqUiKFKT_SrUmaCUR-5LnTztbS2zX2cbivAYQw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/d4dd39d73be62c153b9e82e9.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "توی آموزش Hermes روی سرور هم میریم. 9Router رو دوباره اونجا هم می‌بینید. نگران نباشید",
+      "plain_text": "توی آموزش Hermes روی سرور هم میریم. 9Router رو دوباره اونجا هم می‌بینید. نگران نباشید",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "16"
+        }
+      ],
+      "views_label": "1.66K",
+      "posted_at": "2026-06-30T14:43:06+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4140",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4139",
+        "author_name": "Matin SenPai",
+        "preview_text": "برای نصب کردن 9Router روی سرور اوبونتو اول sudo apt update && sudo apt upgrade -y curl -fsSL https://get.docker.com | sh sudo systemctl enable --now docker و بعدش این دستور رو بزنید docker run -d \\ --name 9router \\ -p 20128:20128 \\ -v \"$HOME/.9router:/app/data\"…",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/4139"
+      }
+    },
     {
       "id": "MatinSenPaii/4139",
       "author_name": "Matin SenPai",
@@ -23,11 +53,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "41"
+          "count": "47"
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "😨",
@@ -35,10 +65,10 @@
         },
         {
           "emoji": "🔥",
-          "count": "1"
+          "count": "2"
         }
       ],
-      "views_label": "7.91K",
+      "views_label": "8.79K",
       "posted_at": "2026-06-30T13:38:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4139",
@@ -65,11 +95,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "329"
+          "count": "330"
         },
         {
           "emoji": "💔",
-          "count": "78"
+          "count": "80"
         },
         {
           "emoji": "👎",
@@ -85,14 +115,14 @@
         },
         {
           "emoji": "🔥",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "😁",
           "count": "3"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "16.1K",
       "posted_at": "2026-06-30T11:59:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4138",
@@ -110,7 +140,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "498"
+          "count": "502"
         },
         {
           "emoji": "👎",
@@ -122,14 +152,14 @@
         },
         {
           "emoji": "👍",
-          "count": "17"
+          "count": "18"
         },
         {
           "emoji": "🔥",
           "count": "1"
         }
       ],
-      "views_label": "18K",
+      "views_label": "18.4K",
       "posted_at": "2026-06-30T11:21:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4137",
@@ -159,7 +189,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "181"
+          "count": "182"
         },
         {
           "emoji": "👍",
@@ -170,7 +200,7 @@
           "count": "3"
         }
       ],
-      "views_label": "18.2K",
+      "views_label": "18.5K",
       "posted_at": "2026-06-30T11:17:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4136",
@@ -242,11 +272,11 @@
         },
         {
           "emoji": "❤",
-          "count": "359"
+          "count": "361"
         },
         {
           "emoji": "🔥",
-          "count": "32"
+          "count": "33"
         },
         {
           "emoji": "👍",
@@ -273,7 +303,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21.6K",
+      "views_label": "21.8K",
       "posted_at": "2026-06-30T09:40:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4132",
@@ -303,11 +333,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "150"
+          "count": "152"
         },
         {
           "emoji": "👍",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "👎",
@@ -315,10 +345,10 @@
         },
         {
           "emoji": "🔥",
-          "count": "2"
+          "count": "3"
         }
       ],
-      "views_label": "17.2K",
+      "views_label": "17.3K",
       "posted_at": "2026-06-30T05:12:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4130",
@@ -336,18 +366,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "183"
+          "count": "184"
         },
         {
           "emoji": "👍",
-          "count": "21"
+          "count": "22"
         },
         {
           "emoji": "👎",
           "count": "5"
         }
       ],
-      "views_label": "20K",
+      "views_label": "20.1K",
       "posted_at": "2026-06-30T05:12:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4131",
@@ -374,7 +404,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "320"
+          "count": "321"
         },
         {
           "emoji": "👍",
@@ -389,7 +419,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.5K",
       "posted_at": "2026-06-30T01:09:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4129",
@@ -407,7 +437,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "147"
+          "count": "148"
         },
         {
           "emoji": "👍",
@@ -422,7 +452,7 @@
           "count": "3"
         }
       ],
-      "views_label": "21.3K",
+      "views_label": "21.4K",
       "posted_at": "2026-06-30T00:14:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4128",
@@ -465,7 +495,7 @@
         },
         {
           "emoji": "❤",
-          "count": "316"
+          "count": "318"
         },
         {
           "emoji": "😁",
@@ -477,14 +507,14 @@
         },
         {
           "emoji": "🔥",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👎",
           "count": "2"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "23.8K",
       "posted_at": "2026-06-30T00:03:55+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4127",
@@ -502,7 +532,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "178"
+          "count": "179"
         },
         {
           "emoji": "👍",
@@ -513,7 +543,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.6K",
       "posted_at": "2026-06-29T21:58:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4126",
@@ -535,7 +565,7 @@
         },
         {
           "emoji": "❤",
-          "count": "702"
+          "count": "703"
         },
         {
           "emoji": "👍",
@@ -562,7 +592,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.9K",
+      "views_label": "27K",
       "posted_at": "2026-06-29T18:04:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4125",
@@ -4813,52 +4843,6 @@
         "preview_text": "ازش پرسیدم که تو می‌تونی چیکار کنی برای من؟ و این جوابیه که داد: سوال خوبیه! من یه AI agent خط فرمانی هستم که روی Hermes Agent اجرا می‌شم، و اینا کارهاییه که می‌تونم انجام بدم: 🔧 سیستم و اتوماسیون اجرای دستورات shell، اسکریپت‌ها و پردازش‌های پس‌زمینه برنامه‌ریزی…",
         "thumbnail_url": "https://cdn1.telesco.pe/file/P8y22Klp9TUE5gojLU2LFRgoC453hMQSD7iSOJw0SwIR2esE5AyOpUsTeon3mGMxqRcBNy2y1qjWHIsknXHinGrJPZDraum231BBIC7mNQuhVmf79uiQ40uWL5dLKFvy0A5keHDoHt1lRkz77JWMNbazwWATo_vNhbk9Gb9Sk9e2hL2-jCmyo3jXzXRyY9jzKWUyx9XfZC9E9WOkg5SfQC5-Y7zewlMOrVSF_qB1UiTLNriPNLJaxgGu_1hcdarnuhMVGI_HT9Sm7nOZoqopwc_Q2j3qxhYX0vcyLMgprzm1hlWJPS7Ka43REZODf4QRT_V1jhOygtL8MOv07uuC1w.jpg",
         "thumbnail_path": "channels/matinsenpaii/media/5896beb047e9f9bfc148cbff.jpg",
-        "thumbnail_sha256": "1954c12e4e496490fc9a6a912715220770a248b448548a3f6c9aca0499e56218",
-        "permalink": "https://t.me/matinsenpaii/4012"
-      }
-    },
-    {
-      "id": "MatinSenPaii/4013",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/c2hmYqtXQVfoAMMYEmpB5KeAwxLF-Bb2B14MTX4DZdJDIscPf9KIJHt2dhnrRMlPAxpt4v78sXC0MUJTeTX06hxnmhwaWF_LUut6OzFVg2qHT0H2v470SRWHRqWxxeh9s78vJI8KQ8kLgWozNnIuH8_Hfg5qa4ZL8VQM0kdNoOVO26cA3larJsEJvFmhmwCELibMGvVBz-Xa0Pb4XdQdWxLRJn0RA09L10g86AppqZ6r9pSqi7zCX-S3v7Y92fA_lVvedXuhANsxVdi2dXz8IzyJM5CWRdoPnVZ0ExRXZIZSZdzd-mQK1RF9hxeeilKjqiXRxj5DkBLbRkzkfv507g.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/b55c4ccdc6ff4f91dd7dcc39.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "دیدم اون وسط یواشکی ffmpeg نصب کرده ها:)) نگو برای این بوده",
-      "plain_text": "دیدم اون وسط یواشکی ffmpeg نصب کرده ها:)) نگو برای این بوده",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "203"
-        },
-        {
-          "emoji": "🔥",
-          "count": "15"
-        },
-        {
-          "emoji": "❤",
-          "count": "11"
-        },
-        {
-          "emoji": "👎",
-          "count": "7"
-        },
-        {
-          "emoji": "👍",
-          "count": "6"
-        }
-      ],
-      "views_label": "36K",
-      "posted_at": "2026-06-24T21:21:14+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4013",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4012",
-        "author_name": "Matin SenPai",
-        "preview_text": "خلاصه‌سازی ترانسکریپت YouTube",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/EF9IGPfe4MQ4DBv5sOk5gMkgcihJKfRYogFxUVPQjSRFGGjOCDPET6FJ0kDl6SnrqyNkR2chuhVrW-i1P8qI4S832REMY-tEkjveEe2dtJDAcq_Cc5uVMgzQpmT42SjyRrdsWc6Jwpn5s4pEEBcDSelQm-Px5a2O0fiRpyuKnb7MLeWzNIMeI8_Ts2ulJziiagIxmODTtv0nZPhiupZKmELlyw16lDzAH0YbB_U7_qhnAdGhLlPhKKZMIGBrYym1g18sKNbN5imw7fksWLNg4wlapvoMNAt6B3pHjetJWRBVTJ1cNb5avz4c_Pm_OMQWf_7Ek_q3_UYMcz8hu1xfMA.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/58a33335ef2dd3b27c13aab8.jpg",
         "thumbnail_sha256": "1954c12e4e496490fc9a6a912715220770a248b448548a3f6c9aca0499e56218",
         "permalink": "https://t.me/matinsenpaii/4012"
       }
