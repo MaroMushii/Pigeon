@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-30T14:31:45.752Z",
+  "fetched_at": "2026-06-30T14:37:09.486Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,56 @@
     "subscriber_count": "129K"
   },
   "posts": [
+    {
+      "id": "farsivoa/222305",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/JyKkaQJCQoT6h8G1oiatzK8f6okKlhLprdBcTKIxgvzkVByi5O6KcG8nJLpTGeu8sBpfbtQeSsLlnoRq54aWS2aTiEcfGTF4MfLDx3kGk7UozcgjS17WAKpOxxd5Y2rXlYnEK-yIyHmSAC2nXTaR33TbNK2JtN2v7wHfqfSIBXMVTZVdQHHNqPAJ34LGeFXFOtoWaTCVBDoMCClblarQfOk6eNCnd--LVWHQZeKnHnoeJTF-cvDPWtaSnB3auXQHt-35CfpqGBpphIrn4n0H8U2T-6okWHIQjEHNDfAdXfs6BNn3UQz-j17jWPTmlyjgPeGxkOTGfNr8RgbAWsBdvA.jpg",
+      "author_photo_path": "channels/farsivoa/media/81b3488648e868ff2a114737.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B7.png')\"><b>📷</b></i>ستاد فرماندهی مرکزی آمریکا،‌ سنتکام، تصاویری از نیروهای تفنگدار دریایی ایالات متحده در حال انجام تمرینات شبانه در خاورمیانه منتشر کرده است.</div>",
+      "plain_text": "📷ستاد فرماندهی مرکزی آمریکا،‌ سنتکام، تصاویری از نیروهای تفنگدار دریایی ایالات متحده در حال انجام تمرینات شبانه در خاورمیانه منتشر کرده است.",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/222305?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/heJn5PsDsxK5HLcU89o5YeHX__J8nKa8cmsvHpQ4ebUOJijDwCbgkBtWWuxlLnoURIgA8Jw7tREH2RaNkXknJE23r7pf32Zqse_hejLOkam1KsSZHmsEq8JCqmOFAKY-750h7HjvEwwcPgZc-y5-qcUS4SrPV55vOV7EsB5Njtsuck-aHWy2SWFZ7DzkPl5yQ-j3p80M9FJchlXuqfe12sQy7TXOk8LJVDxDRc2Q1COK9qsSf3X9QzE-soSKCVuHmxo6I3qedi0zM3Imuk_B0F8Mm12wBikYa9k9A7j64q4xorGosp6hp8fcRsrXu0uxZ03m_C4uWs7-mEIGaNuMOw.jpg",
+          "thumbnail_path": "channels/farsivoa/media/6d4712e1f03b62ec293ce069.jpg",
+          "thumbnail_sha256": "bced949db1185c974ba4e04375fe6fbb32a7f6a4260656899a2a585ba083def1",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/222306?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/egrSD9n1iekZvlo1oPWfK5hdfJH2Jwg0KGH_VZpWm-xWQAda0Q7FbiX65CoQl8mih4Ej_TFYvuwRKy4OUtefI96jv11mnQOeq2IR2JhehKN83_i5C3X5sG0FBBcp5tH_-D_hXQXU61ufl8IIXK0wOHBOxUc7qu2Imjatb9BOsIaNWKv7FOoe05LmCtQ7j6rE2DmnbeLX2-DLGev1nMPT9tQkMTEIYS4CVTfTBvoWzz9rzoP_QuHOfKlMxa9MIISyg8UBDPiHvbxAvriLkRGS8kIFK1hb6GAggkNzvZZeZdmXvZ4dPErYh0FGttpWZh0XktC75pQdgcHkJTJRVIugRQ.jpg",
+          "thumbnail_path": "channels/farsivoa/media/a27648aaba269f74f7986a1a.jpg",
+          "thumbnail_sha256": "3dec03b482a074655d326ee622e4c1263aa6132a9eae6569bb08cae283c07158",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/222307?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/eSrUujDZRe37ZSZLO8CnOMuDi9IyBuX6ze5rBtmUcfsoW11-zkxq44jGUW4zQTjhve-IrEfIIG2JWZ6e8C3SVv1rcOey5n1dz4DDc1V2e-W7L7idJ-_ofs08c0LYal568QIPo8wyUN4UUIpvnkCje3A3miqHQAaBtRWBS2IFzdU0wI0Y6_WdjCaPBoL32hltpgD2J1St1nh2N3Q-ZDZNpeAlbdQXcb-UpuBuydDmlpeVNp0NsF6TCeRVamDYunfwHRXW0m31xXXxee3UwjNFVlQ6QJjgSuJe2ehwo53JLdX4PwZYm-ISVfhzZYEdo0iWA3qLEE3QraZIYcV6ifa6Dg.jpg",
+          "thumbnail_path": "channels/farsivoa/media/c04d74474b4bef2c19802e9c.jpg",
+          "thumbnail_sha256": "ca6034da3a22b42c972dbadba6d4d94b7151b2e9d392d7adf0751cc866ad6213",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [],
+      "views_label": "234",
+      "posted_at": "2026-06-30T14:33:05+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/222305",
+      "reply": null
+    },
     {
       "id": "farsivoa/222304",
       "author_name": "Farsi VOA",
@@ -33,7 +83,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "295",
+      "views_label": "556",
       "posted_at": "2026-06-30T14:28:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222304",
@@ -49,7 +99,7 @@
       "plain_text": "🔺شب شگفتی‌ها در جام جهانی؛ برزیل نجات پیدا کرد، آلمان و هلند حذف شدند\n\n▪️مرحله حذفی جام جهانی ۲۰۲۶ دوشنبه شب با سه مسابقه پرتنش و نتایجی غیرمنتظره ادامه یافت؛ شبی که برزیل در واپسین دقایق از حذف گریخت، اما آلمان و هلند، دو قدرت سنتی فوتبال اروپا، در ضربات پنالتی برابر پاراگوئه و مراکش شکست خوردند و از رقابت‌ها کنار رفتند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/brazil-survives-as-europe-crashes/8166393.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "679",
+      "views_label": "905",
       "posted_at": "2026-06-30T14:21:54+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222303",
@@ -65,7 +115,7 @@
       "plain_text": "🔺اسرائیل از کشته شدن دو فرمانده که در حمله ۷ اکتبر و گروگانگیری مشارکت داشتند خبر داد\n\n▪️ارتش اسرائیل روز سه‌شنبه ۹ تیر از کشته شدن یکی از فرماندهان یگان «نخبه» و یک مقام دیگر سازمان تروریستی جهاد اسلامی که در حمله ۷ اکتبر و گروگانگیری مشارکت داشتند، خبر داد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/commander-of-palestinian-jihad-elite-squad-attack-killed-israeli-army/8166383.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "903",
+      "views_label": "1.1K",
       "posted_at": "2026-06-30T14:17:04+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222302",
@@ -93,7 +143,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.09K",
+      "views_label": "1.25K",
       "posted_at": "2026-06-30T14:10:34+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/222301",
@@ -121,7 +171,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.72K",
+      "views_label": "1.85K",
       "posted_at": "2026-06-30T13:49:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222300",
@@ -149,7 +199,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.16K",
+      "views_label": "2.29K",
       "posted_at": "2026-06-30T13:29:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222299",
@@ -177,7 +227,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.92K",
+      "views_label": "3.03K",
       "posted_at": "2026-06-30T12:59:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222298",
@@ -193,7 +243,7 @@
       "plain_text": "🔺قطر: نشست سطح عالی میان جمهوری اسلامی و آمریکا برگزار نمی‌شود؛ ۶ میلیارد دلار به تهران منتقل نشده است\n\n▪️سخنگوی وزارت خارجه قطر اعلام کرد نشست سطح عالی‌ میان ایالات متحده و جمهوری اسلامی در دوحه برگزار نخواهد شد و قطر نیز ۶ میلیارد دلار از دارایی‌های مسدودشده جمهوری اسلامی را به تهران منتقل نکرده است.\n\n▪️ماجد بن محمد الانصاری، سخنگوی وزارت خارجه قطر، در یک نشست خبری گفت استیو ویتکاف، فرستاده ویژه دونالد ترامپ، و جرد کوشنر، داماد رئیس‌جمهوری آمریکا، برای دیدار با میانجی‌ها و مقام‌های قطری در دوحه حضور دارند، اما برای مذاکره با مقام‌های جمهوری اسلامی به قطر نرفته‌اند.\n\n▪️اظهارات الانصاری پس از آن مطرح شد که رئیس دولت جمهوری اسلامی از آزادسازی بخشی از دارایی‌های مسدودشده خبر داده بود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8166372.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.25K",
+      "views_label": "4.32K",
       "posted_at": "2026-06-30T11:31:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222297",
@@ -221,7 +271,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.47K",
+      "views_label": "4.5K",
       "posted_at": "2026-06-30T10:58:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222296",
@@ -249,7 +299,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.83K",
+      "views_label": "3.89K",
       "posted_at": "2026-06-30T10:51:24+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/222295",
@@ -265,7 +315,7 @@
       "plain_text": "🔺توقیف میلیون‌ها دلار در پرونده معاون وزیر نفت عراق، مقام تحریم‌شده نزدیک به جمهوری اسلامی\n\n▪️شورای عالی قضایی عراق اعلام کرد تحقیقات اولیه از علی معارج البهادلی، معاون وزیر نفت در امور توزیع، به ضبط ۱۱ میلیون دلار، چهار میلیارد دینار عراق و شماری ملک منجر شده است.\n\n▪️بر اساس بیانیه دستگاه قضایی عراق، قاضی تحقیق دادگاه جنایی مبارزه با فساد مرکزی گفته تحقیقات با البهادلی همچنان ادامه دارد.\n\n▪️اهمیت این پرونده فقط به رقم پول توقیف‌شده محدود نیست. علی معارج ماه گذشته از سوی وزارت خزانه‌داری آمریکا تحریم شده بود؛ واشنگتن او را متهم کرده بود که از موقعیت دولتی خود برای انحراف نفت عراق به سود جمهوری اسلامی و گروه‌های شبه‌نظامی وابسته به حکومت ایران استفاده کرده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8166368.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.76K",
+      "views_label": "4.8K",
       "posted_at": "2026-06-30T09:55:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222294",
@@ -293,7 +343,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.79K",
+      "views_label": "4.82K",
       "posted_at": "2026-06-30T09:12:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222293",
@@ -321,7 +371,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.22K",
+      "views_label": "5.26K",
       "posted_at": "2026-06-30T08:09:43+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/222292",
@@ -349,7 +399,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.73K",
+      "views_label": "5.76K",
       "posted_at": "2026-06-30T06:42:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222291",
@@ -365,7 +415,7 @@
       "plain_text": "🔺کانورسیشن: جمهوری اسلامی نمی‌تواند از هرمز عوارض پایدار بگیرد\n\n▪️پایگاه تحلیلی کانورسیشن نوشت جمهوری اسلامی، با وجود تلاش برای تبدیل کنترل تنگه هرمز به یک ابزار دائمی، نه از نظر حقوقی و نه از نظر اجرایی قادر نیست از کشتی‌های عبوری عوارض پایدار بگیرد.\n\n▪️این تحلیل تأکید می‌کند که مقایسه هرمز با کانال سوئز یا پاناما دقیق نیست. کشتی‌ها در سوئز و پاناما از کانال‌هایی مصنوعی، محدود و کاملاً کنترل‌شده عبور می‌کنند؛ مسیرهایی که در قلمرو یک دولت قرار دارند و اداره آن‌ها مستلزم خدمات مشخص، راهبری و زیرساخت است.\n\n▪️اما تنگه هرمز یک آبراه بین‌المللی است. بخش‌هایی از آن در آب‌های ایران و عمان قرار دارد و مسیر اصلی جداسازی ترافیک دریایی در آب‌های عمان است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8166365.html",
       "media": [],
       "reactions": [],
-      "views_label": "5.36K",
+      "views_label": "5.37K",
       "posted_at": "2026-06-30T06:37:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222290",
@@ -393,7 +443,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.69K",
+      "views_label": "5.73K",
       "posted_at": "2026-06-30T05:51:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222289",
@@ -421,7 +471,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.21K",
+      "views_label": "5.24K",
       "posted_at": "2026-06-30T05:44:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222288",
@@ -2451,34 +2501,6 @@
       "posted_at": "2026-06-29T12:58:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222201",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/222200",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/I6Z8gu4a6y0NIsiSjWAEGkLZQ0iRM2HEsm7Js2MhPetGK3GZzLr1L1UZVQevt4XvOxoBTN3UXsEzYs0Y9EHTWeRIzjOEKMSNwB2GGgnZGb2lcu_8eELr6d0R07qi4ZFMTQTp2JadG8JEvqCo6vDvbaPJmXsgT_NlBofdTvs2v-SxxbngW7Rzu2dM7CH3mexk2FSfcNHbG-wCwL7FN8ZEhTSzPX1HyHakHFdjVoWXDwGXEGwzvizl6ApwZTNbNL2xyBuZMfflpbk-aHP2YBVvrKH04YB9RqKeyOz15M9CoIovpG10Tx5iNIDQOYIXShjApOzjgLCYeUBZcy0ByhZTSw.jpg",
-      "author_photo_path": "channels/farsivoa/media/932f8124d1723644b5d544f4.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "گروهی از بازنشستگان مخابرات در سنندج، روز دوشنبه، هشتم تیر ۱۴۰۵، با شعار «دولت بی‌لیاقت نمی‌خوایم» در اعتراض به رسیدگی نشدن به مطالباتشان و شرایط دشوار معیشتی تجمع کردند.",
-      "plain_text": "گروهی از بازنشستگان مخابرات در سنندج، روز دوشنبه، هشتم تیر ۱۴۰۵، با شعار «دولت بی‌لیاقت نمی‌خوایم» در اعتراض به رسیدگی نشدن به مطالباتشان و شرایط دشوار معیشتی تجمع کردند.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/222200",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/bMhy_nJdus6dovd_OlHf12-NXNSbB5omz8x6JWlBhZAKLrmJ92XGgIL12-h7CWnkFOktfmij76-bdp_oYjUWuph0umPIPYqeEKIU7i-pC0dNWZdCS_Fgf79kHUp8oHbNZNzyNppSQwX7kL8CuE-Z_MsNZ16yTW9mHAi5crwdp936qAa__z_o_J1dAF4WMk2OCa_D8sNMWqhMDZs2_flaml9ftbsHVe9mEPoUxjSVNvHqeu7p2bEp9yVRDaK_JfXkvv7KC0WGJiaQ7ICV5s8IhatXNAkakLCGnOPXpnVdEXxxJJ-1UVp3DyqArJv3ckDR7avQfGSo0K9uyXlGXMqjaA",
-          "thumbnail_path": "channels/farsivoa/media/e3b50690ee138c9da8f09a4a.jpg",
-          "thumbnail_sha256": "19de35933b53ff64ed4519b242040b8e18b3463f150eb5c8d92a36774f1d70be",
-          "duration_label": "0:18",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.73K",
-      "posted_at": "2026-06-29T12:58:34+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/222200",
       "reply": null
     }
   ]
