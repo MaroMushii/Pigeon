@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-06-30T13:36:58.170Z",
+  "fetched_at": "2026-06-30T13:41:46.197Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,44 @@
     "subscriber_count": "160K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4139",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/NTKk4VkrvHtQZgfU-5a_1KF6xG8ZDbRrirAsq4m-mjfG6Prj_0nX3hj6YHHyffE5Ie9DdGnnplHIWhL8vDe_hRqwG-yQKNbcSa8HLvbNg9cdVJ1Ch6yP-q6valPGr33oIq5ksHhLXXUyC5RbCGfDyy1q2rKuvIk0wIyZdREStg6pz822ybDNwMnKTnmCT7QO8UhkB8vswUfD4f9OzssQgoJPNBdggbRUVqqh2vVdMvo52IKf9-16fMjJEd3QQ-tIiowaGdMRmoF-gxOAq4lAHJ1Fsefgqpad-33FRxPtjjDz7FwqOqUiKFKT_SrUmaCUR-5LnTztbS2zX2cbivAYQw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/d4dd39d73be62c153b9e82e9.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "برای نصب کردن 9Router روی سرور اوبونتو<br>اول<br><pre>sudo apt update &amp;&amp; sudo apt upgrade -y<br>curl -fsSL https://get.docker.com | sh<br>sudo systemctl enable --now docker</pre><br>و بعدش این دستور رو بزنید<br><pre>docker run -d \\<br>  --name 9router \\<br>  -p 20128:20128 \\<br>  -v \"$HOME/.9router:/app/data\" \\<br>  -e DATA_DIR=/app/data \\<br>  -e JWT_SECRET=\"change-this-to-a-long-random-secret\" \\<br>  -e INITIAL_PASSWORD=\"your-strong-dashboard-password\" \\<br>  decolua/9router:latest</pre><br>بخش INITIAL_PASSWORD (پسوورد اولیه پنل) و JWT_SECRET  رو هم به دلخواه تغییر بدید.<br>اگر می‌خواید همزمان با Hermes بالا بیارید، ترجیحا رم‌اش 2 به بالا باشه تا اذیت نشید<br><br>بعدش هم با پورت 20128 و آیپی سرورتون می‌تونید بهش دسترسی داشته باشید. مثلا:<br><blockquote><a href=\"http://134.114.239.133:20128/\" target=\"_blank\" rel=\"noopener\">http://134.114.239.133:20128</a></blockquote>",
+      "plain_text": "برای نصب کردن 9Router روی سرور اوبونتو\nاول\nsudo apt update && sudo apt upgrade -y\ncurl -fsSL https://get.docker.com | sh\nsudo systemctl enable --now docker\nو بعدش این دستور رو بزنید\ndocker run -d \\\n--name 9router \\\n-p 20128:20128 \\\n-v \"$HOME/.9router:/app/data\" \\\n-e DATA_DIR=/app/data \\\n-e JWT_SECRET=\"change-this-to-a-long-random-secret\" \\\n-e INITIAL_PASSWORD=\"your-strong-dashboard-password\" \\\ndecolua/9router:latest\nبخش INITIAL_PASSWORD (پسوورد اولیه پنل) و JWT_SECRET رو هم به دلخواه تغییر بدید.\nاگر می‌خواید همزمان با Hermes بالا بیارید، ترجیحا رم‌اش 2 به بالا باشه تا اذیت نشید\n\nبعدش هم با پورت 20128 و آیپی سرورتون می‌تونید بهش دسترسی داشته باشید. مثلا:\nhttp://134.114.239.133:20128",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "11"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        },
+        {
+          "emoji": "😨",
+          "count": "2"
+        }
+      ],
+      "views_label": "1.55K",
+      "posted_at": "2026-06-30T13:38:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4139",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4127",
+        "author_name": "Matin SenPai",
+        "preview_text": "☠️این شکلی از هر API ای استفاده کن برای هوش مصنوعی🫪 ⚡️لینک سایت 9router: https://9router.com/ ⭐️ توی این ویدئو: 1- یاد میگیریم که چطوری از اینهمه API Key رایگان استفاده کنیم 2- ابزار 9Router رو نصب کنیم و این API ها رو اونجا جمع کنیم 3- کلی API رایگان…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/XgTtdEt7pLEuNjspx8GYhxZzcxU-vVtYqqF-SOYbyySKe4XuloaVfVcgUMurqKvSUSMJWNAncEkD8WYai8KCvyRy2wmOO6AAfEJYzAL_QZ8W_HB3xUB2rD4IZrgPhKoZES-97xtGXX1cYYsOTsYnLsXq5gCzKZ2hVn-pVTMYPVbQxGuD-nfswZLA5NUf4uPR6lD7q6n987OQ3cC90LFbuTWqLV4ImGIG8QYz_Tq8D5TZE8vZ6bsXFe2j-0qAEQHNPMGypcK9s2fw8cCk1wmSocwZxO_U7zYGubXN3L2kwt0RiOZvTgwD8yccilpMJSBZYi24ds3Q4BJ7PfzisDRu2A.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/a726335033611a41244753f5.jpg",
+        "thumbnail_sha256": "4f2ddbea0031c2e8835ff5f628eaab12ef75d9a404abdc1580f1d18dfc997bd8",
+        "permalink": "https://t.me/matinsenpaii/4127"
+      }
+    },
     {
       "id": "MatinSenPaii/4138",
       "author_name": "Matin SenPai",
@@ -23,11 +61,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "295"
+          "count": "306"
         },
         {
           "emoji": "💔",
-          "count": "70"
+          "count": "71"
         },
         {
           "emoji": "👎",
@@ -50,7 +88,7 @@
           "count": "3"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12.5K",
       "posted_at": "2026-06-30T11:59:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4138",
@@ -68,7 +106,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "450"
+          "count": "462"
         },
         {
           "emoji": "👎",
@@ -80,14 +118,14 @@
         },
         {
           "emoji": "👍",
-          "count": "15"
+          "count": "16"
         },
         {
           "emoji": "🔥",
           "count": "1"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.7K",
       "posted_at": "2026-06-30T11:21:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4137",
@@ -117,7 +155,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "162"
+          "count": "167"
         },
         {
           "emoji": "👍",
@@ -128,7 +166,7 @@
           "count": "3"
         }
       ],
-      "views_label": "15.7K",
+      "views_label": "16.1K",
       "posted_at": "2026-06-30T11:17:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4136",
@@ -200,11 +238,11 @@
         },
         {
           "emoji": "❤",
-          "count": "352"
+          "count": "356"
         },
         {
           "emoji": "🔥",
-          "count": "30"
+          "count": "31"
         },
         {
           "emoji": "👍",
@@ -231,7 +269,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20K",
+      "views_label": "20.3K",
       "posted_at": "2026-06-30T09:40:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4132",
@@ -261,7 +299,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "142"
+          "count": "145"
         },
         {
           "emoji": "👍",
@@ -276,7 +314,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.5K",
+      "views_label": "16.6K",
       "posted_at": "2026-06-30T05:12:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4130",
@@ -294,7 +332,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "178"
+          "count": "181"
         },
         {
           "emoji": "👍",
@@ -305,7 +343,7 @@
           "count": "5"
         }
       ],
-      "views_label": "19.2K",
+      "views_label": "19.3K",
       "posted_at": "2026-06-30T05:12:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4131",
@@ -347,7 +385,7 @@
           "count": "2"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.9K",
       "posted_at": "2026-06-30T01:09:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4129",
@@ -380,7 +418,7 @@
           "count": "3"
         }
       ],
-      "views_label": "20.5K",
+      "views_label": "20.7K",
       "posted_at": "2026-06-30T00:14:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4128",
@@ -423,7 +461,7 @@
         },
         {
           "emoji": "❤",
-          "count": "308"
+          "count": "310"
         },
         {
           "emoji": "😁",
@@ -442,7 +480,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.5K",
+      "views_label": "22.8K",
       "posted_at": "2026-06-30T00:03:55+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4127",
@@ -471,7 +509,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-06-29T21:58:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4126",
@@ -520,7 +558,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.4K",
+      "views_label": "26.5K",
       "posted_at": "2026-06-29T18:04:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4125",
@@ -553,7 +591,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.1K",
+      "views_label": "23.2K",
       "posted_at": "2026-06-29T14:48:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4120",
@@ -4820,63 +4858,6 @@
         "thumbnail_sha256": "1954c12e4e496490fc9a6a912715220770a248b448548a3f6c9aca0499e56218",
         "permalink": "https://t.me/matinsenpaii/4012"
       }
-    },
-    {
-      "id": "MatinSenPaii/4012",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/c2hmYqtXQVfoAMMYEmpB5KeAwxLF-Bb2B14MTX4DZdJDIscPf9KIJHt2dhnrRMlPAxpt4v78sXC0MUJTeTX06hxnmhwaWF_LUut6OzFVg2qHT0H2v470SRWHRqWxxeh9s78vJI8KQ8kLgWozNnIuH8_Hfg5qa4ZL8VQM0kdNoOVO26cA3larJsEJvFmhmwCELibMGvVBz-Xa0Pb4XdQdWxLRJn0RA09L10g86AppqZ6r9pSqi7zCX-S3v7Y92fA_lVvedXuhANsxVdi2dXz8IzyJM5CWRdoPnVZ0ExRXZIZSZdzd-mQK1RF9hxeeilKjqiXRxj5DkBLbRkzkfv507g.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/b55c4ccdc6ff4f91dd7dcc39.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "ازش پرسیدم که تو می‌تونی چیکار کنی برای من؟ و این جوابیه که داد:<br><br><blockquote><b>سوال خوبیه! من یه AI agent خط فرمانی هستم که روی Hermes Agent اجرا می‌شم، و اینا کارهاییه که می‌تونم انجام بدم:</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A7.png')\"><b>🔧</b></i> <b>سیستم و اتوماسیون</b><br>اجرای دستورات shell، اسکریپت‌ها و پردازش‌های پس‌زمینه<br>برنامه‌ریزی cron job برای وظایف تکراری<br>مدیریت فایل‌ها (خواندن، نوشتن، جستجو، ویرایش، patch)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> <b>توسعه نرم‌افزار</b><br>ساختاردهی کامل پروژه، کدنویسی و ریفکتور<br>گردش کار PR (branch، commit، open، review، merge)<br>توسعه مبتنی بر تست، دیباگ، بررسی کد<br>ساخت و اجرای پروژه‌ها (Python، Node.js و غیره)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> <b>وب و تحقیق</b><br>مرور وب، scrape صفحات و جستجو<br>فراخوانی API، تعامل با GitHub، Airtable، Notion، Google Workspace<br>جستجوی مقالات علمی در arXiv<br>مانیتور کردن وبلاگ‌ها و فیدهای RSS<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i> <b>خلاقیت و مدیا</b><br>تولید ASCII art، دیاگرام‌های معماری، اینفوگرافیک<br>ساخت پروتوتایپ HTML، انیمیشن‌های p5.js<br>تحلیل تصویر، تبدیل متن به گفتار<br>خلاصه‌سازی ترانسکریپت YouTube<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i> <b>Agent های خودمختار</b><br>تفویض زیروظایف به subagent های پس‌زمینه برای کار موازی<br>راه‌اندازی Codex/Claude Code برای وظایف تخصصی کدنویسی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i> <b>بهره‌وری</b><br>حافظه پایدار (یادآوری ترجیحات بین session ها)<br>سیستم Skill (ذخیره workflow های قابل استفاده مجدد)<br>یادداشت‌برداری با Obsidian<br>کنترل خانه هوشمند (Philips Hue)</blockquote>",
-      "plain_text": "ازش پرسیدم که تو می‌تونی چیکار کنی برای من؟ و این جوابیه که داد:\n\nسوال خوبیه! من یه AI agent خط فرمانی هستم که روی Hermes Agent اجرا می‌شم، و اینا کارهاییه که می‌تونم انجام بدم:\n🔧 سیستم و اتوماسیون\nاجرای دستورات shell، اسکریپت‌ها و پردازش‌های پس‌زمینه\nبرنامه‌ریزی cron job برای وظایف تکراری\nمدیریت فایل‌ها (خواندن، نوشتن، جستجو، ویرایش، patch)\n💻 توسعه نرم‌افزار\nساختاردهی کامل پروژه، کدنویسی و ریفکتور\nگردش کار PR (branch، commit، open، review، merge)\nتوسعه مبتنی بر تست، دیباگ، بررسی کد\nساخت و اجرای پروژه‌ها (Python، Node.js و غیره)\n🌐 وب و تحقیق\nمرور وب، scrape صفحات و جستجو\nفراخوانی API، تعامل با GitHub، Airtable، Notion، Google Workspace\nجستجوی مقالات علمی در arXiv\nمانیتور کردن وبلاگ‌ها و فیدهای RSS\n🎨 خلاقیت و مدیا\nتولید ASCII art، دیاگرام‌های معماری، اینفوگرافیک\nساخت پروتوتایپ HTML، انیمیشن‌های p5.js\nتحلیل تصویر، تبدیل متن به گفتار\nخلاصه‌سازی ترانسکریپت YouTube\n🤖 Agent های خودمختار\nتفویض زیروظایف به subagent های پس‌زمینه برای کار موازی\nراه‌اندازی Codex/Claude Code برای وظایف تخصصی کدنویسی\n📋 بهره‌وری\nحافظه پایدار (یادآوری ترجیحات بین session ها)\nسیستم Skill (ذخیره workflow های قابل استفاده مجدد)\nیادداشت‌برداری با Obsidian\nکنترل خانه هوشمند (Philips Hue)",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4012",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/QxG6nNZHIibIysY4nRgBHpC5XI-ftPOXTE1Eg0Xe7R4EXGa7PurKSHfu44Y-Wqs7E6n12TMMlSWwuw0qaRfiO_ys0r_GeRtyJ9qAY56KBlcIwCHSMBUkCWiooegcBp59EZ9Q2bWNV8KJeciuGb1YBR4xrO0s1fdoQEbQl7_Z2E1xzjVzHLMgbCzrrlbWKN4aKsT6OUKt_NKsdJ-SEoGugpzzGXbwN_veK04uMXwLrV0jRLck1Zgofvvm9X9bgOuegseFeCs9uE_NEc7lnNobiCZIUOiLw0Ynq-r-ffJiiSjeUPH2AmRJb_HfhAEyFC-gQU4RVWcDn8Ts0uTsRpCC8Q.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/cf0e182f04496e7b41c18578.jpg",
-          "thumbnail_sha256": "875c6c6bc5d92800041878ee8e51995405f109c103415b3226fe8b18863d1556",
-          "duration_label": null,
-          "aspect_ratio": 1.1730205278592376
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "🔥",
-          "count": "173"
-        },
-        {
-          "emoji": "❤",
-          "count": "46"
-        },
-        {
-          "emoji": "👍",
-          "count": "11"
-        },
-        {
-          "emoji": "👎",
-          "count": "7"
-        },
-        {
-          "emoji": "😨",
-          "count": "6"
-        },
-        {
-          "emoji": "😁",
-          "count": "2"
-        },
-        {
-          "emoji": "🎃",
-          "count": "1"
-        }
-      ],
-      "views_label": "35.5K",
-      "posted_at": "2026-06-24T21:19:38+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4012",
-      "reply": null
     }
   ]
 }
