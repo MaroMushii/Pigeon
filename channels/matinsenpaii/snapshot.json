@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-01T18:57:12.747Z",
+  "fetched_at": "2026-07-01T19:02:01.277Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "159K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4166",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/tB_alItS2tLJseLVTddZ08ZKndm4cI22vdVSOV9_LrjX5AhBRwrc1VEBdOglkxO8gJwTzOSMCvH8gkl-wab_dq7BLqA9-V_IrXuqZ9ljoQKTTeYzgScQBM1ogCqa2Wjw-PHscoe5J5gOAqqGIOfL3CFjckE3Q3ybnc0dr66WeUzTAt_csQvmk4XVL0ajJq0z05bLsW-Bhm2KA4gw6i7bPcQahwdI9bYjeqfKGv2c0Tm32YD8SIKSoFCVuXoSZ8vshBE35f9-hWYGpUF5Y-zvg1fVt_I73Jj23vTOmflHhMvFiLnthIG4ay9fthMDkpiNaiqtGmkOwPmcpPNPQfPAyA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/df8d82843ed1ad1d7cf9a7fe.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "این api هایی که Nvidia میده واقعا سخاوتمندانه‌ست. 40 ریکوئست در دقیقه<br>با 9router انداختم پشت هرمس، چه میکنه این Qwen و MiniMax3<br>توی ویدئو آموزشش رو میدم که چطوری بتونید وریفای بکنید و ProxyPool هم بزنید که روی سرور مشکلی نداشته باشه(مثلا با آیپی سرور من مشکل داشت انویدیا که با یه رله کلودفلر حلش کردم)",
+      "plain_text": "این api هایی که Nvidia میده واقعا سخاوتمندانه‌ست. 40 ریکوئست در دقیقه\nبا 9router انداختم پشت هرمس، چه میکنه این Qwen و MiniMax3\nتوی ویدئو آموزشش رو میدم که چطوری بتونید وریفای بکنید و ProxyPool هم بزنید که روی سرور مشکلی نداشته باشه(مثلا با آیپی سرور من مشکل داشت انویدیا که با یه رله کلودفلر حلش کردم)",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4166",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/XCuAj5ceaDHAq3S2agIGIAcZ9WcbbUpR0QhqSbe8-MqJ1j5qheUGTpcfSlIBxr9j_9K0UGP13DgRYxZv5BpJEnKw2B_3oQEVuic3rfJYMSQq6_R1qarXtH63_0SxqprpudsGChcvCszTj0LpBT4y48z6xr7WBaJgC4MCHaZ9v2xv4YvtqkWaeortD_xMPAlNsybzhPe_JbJp4A13pVL18Luo4_gkkVQ2oHDBYOl9aEecrEAoglvPFjkbcI5r_mg2JkXtJvfWm7gNXvZReGlWUJDuwhEIn3zhAhxTebt8QXdLTm2kfwgiSo4zGSWrKix-cpu25J5s40gb20yzLlMOfg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/bd03df3f338fa112b150955a.jpg",
+          "thumbnail_sha256": "92702695fe6e02f94797f50683ac4f0b7f7db80ea9a29dad9840d60fec966ee0",
+          "duration_label": null,
+          "aspect_ratio": 2.5157232704402515
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "27"
+        }
+      ],
+      "views_label": "1.27K",
+      "posted_at": "2026-07-01T18:59:46+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4166",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4165",
       "author_name": "Matin SenPai",
@@ -27,15 +60,19 @@
         },
         {
           "emoji": "❤",
-          "count": "94"
+          "count": "107"
         },
         {
           "emoji": "👍",
-          "count": "7"
+          "count": "8"
         },
         {
           "emoji": "👎",
-          "count": "1"
+          "count": "2"
+        },
+        {
+          "emoji": "💔",
+          "count": "2"
         },
         {
           "emoji": "🔥",
@@ -44,13 +81,9 @@
         {
           "emoji": "😁",
           "count": "1"
-        },
-        {
-          "emoji": "💔",
-          "count": "1"
         }
       ],
-      "views_label": "5.83K",
+      "views_label": "7.07K",
       "posted_at": "2026-07-01T18:41:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4165",
@@ -89,7 +122,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "74"
+          "count": "78"
         },
         {
           "emoji": "😨",
@@ -101,14 +134,14 @@
         },
         {
           "emoji": "🔥",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "🎃",
           "count": "4"
         }
       ],
-      "views_label": "7.23K",
+      "views_label": "8.47K",
       "posted_at": "2026-07-01T18:36:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4164",
@@ -126,11 +159,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "154"
+          "count": "158"
         },
         {
           "emoji": "👍",
-          "count": "37"
+          "count": "38"
         },
         {
           "emoji": "👎",
@@ -145,7 +178,7 @@
           "count": "2"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12.5K",
       "posted_at": "2026-07-01T18:06:57+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4163",
@@ -163,11 +196,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "452"
+          "count": "454"
         },
         {
           "emoji": "👍",
-          "count": "49"
+          "count": "50"
         },
         {
           "emoji": "😁",
@@ -187,10 +220,10 @@
         },
         {
           "emoji": "😨",
-          "count": "1"
+          "count": "3"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.9K",
       "posted_at": "2026-07-01T13:10:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4162",
@@ -229,7 +262,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "735"
+          "count": "738"
         },
         {
           "emoji": "🔥",
@@ -256,7 +289,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.8K",
+      "views_label": "23.1K",
       "posted_at": "2026-07-01T12:56:30+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4161",
@@ -287,7 +320,7 @@
         },
         {
           "emoji": "🔥",
-          "count": "318"
+          "count": "319"
         },
         {
           "emoji": "😁",
@@ -314,7 +347,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "24K",
       "posted_at": "2026-07-01T12:20:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4159",
@@ -363,7 +396,7 @@
           "count": "4"
         }
       ],
-      "views_label": "23.6K",
+      "views_label": "23.9K",
       "posted_at": "2026-07-01T12:19:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4158",
@@ -381,7 +414,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "324"
+          "count": "326"
         },
         {
           "emoji": "😭",
@@ -426,7 +459,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "244"
+          "count": "245"
         },
         {
           "emoji": "👎",
@@ -463,11 +496,11 @@
       "reactions": [
         {
           "emoji": "👎",
-          "count": "556"
+          "count": "557"
         },
         {
           "emoji": "😁",
-          "count": "111"
+          "count": "113"
         },
         {
           "emoji": "👍",
@@ -486,7 +519,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.4K",
+      "views_label": "25.7K",
       "posted_at": "2026-07-01T10:17:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4155",
@@ -529,7 +562,7 @@
         },
         {
           "emoji": "😁",
-          "count": "73"
+          "count": "74"
         },
         {
           "emoji": "🎃",
@@ -552,7 +585,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.9K",
+      "views_label": "27.2K",
       "posted_at": "2026-07-01T09:42:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4154",
@@ -582,7 +615,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "305"
+          "count": "307"
         },
         {
           "emoji": "👎",
@@ -597,7 +630,7 @@
           "count": "15"
         }
       ],
-      "views_label": "28.6K",
+      "views_label": "28.9K",
       "posted_at": "2026-07-01T07:29:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4153",
@@ -642,7 +675,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.2K",
+      "views_label": "28.5K",
       "posted_at": "2026-07-01T07:06:16+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4152",
@@ -4800,44 +4833,6 @@
         "preview_text": "",
         "thumbnail_url": "https://cdn1.telesco.pe/file/VSMWGTH7KfyekRtrp6fShhKfLhc656mb24RYJY9vZ2lHLutkq9w66Jm7kc10hsMRIBYuqG6RzBS0BcA_rM6SauPWV0-2oVgGyPKCR82CPfxTgteBvsN60Cf0BJ-uMjL68usPI1y2TpBxPDONSc8pElECyOUxfESkmFgekpUN_L_ELOs8v2tffGn5_oEiG_CPniyTOZVzb2DbYrNYsxy-tptNEuUZT1xrkEjfyxCSaYDUenF0uS911TS5h-2wDJnJznC6-f5ltGE8EvW0rqd4sdkB_0kNS18VeCJIDxzC8vsoIhRsUn79fvxoWeu0XnTJ2-dpMjWVnNEVEng6_LZNkA.jpg",
         "thumbnail_path": "channels/matinsenpaii/media/2bee83794224ea28adb61b3e.jpg",
-        "thumbnail_sha256": "962ba60383f8da1689a3352ea50465890d146b1867b97f5bc4500f6ce1893de5",
-        "permalink": "https://t.me/matinsenpaii/4027"
-      }
-    },
-    {
-      "id": "MatinSenPaii/4042",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/sF0G6QdBzfDdzcoy6UqOfW4eArxVU75kS-keBHOPNLujLpW9Ikc5CdIhLKcQ7pBZ3X0GUvAftpuH8w27F9nfQ2GSOLLWVBzZmdR1WgoFV9ECma67h7sWg6W7kvRFx_5vtY1qeYeddjrWvhUOHh2HcfO3rr6SXyCWO6xYfRFfnStELZJ46EbJVVP23M8P5k23Q3TgNgbqsyIrwStwEI9hxhwIfj78jJBLS-LDLyk2FR3ceuhFIxa2Cc0hA_o9hjjKbxDX4D_H57-cZRJew4U2Xh8xQ2kM4StVNmnnW2bCS1nkP3ZPiL1FNa5aE4u78G7lj1-H6Ws3DSnJk1xekiLyYg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/dde32632c3a600b61a39cbcd.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "چندتا نکته:<br>1- کاربرا توی ردیت گزارش دادن که برای استفاده از مدلهای anthropic زیاد به باگ می‌خورن و علت می‌تونه استفاده سایت از apiهای دزدی باشه. بهترین نتیجه رو با GLM میده<br>2- اگر از GLM استفاده می‌کنید هم، یا به ایجنت فول اکسس ندید(که .env) و اینهاتون رو نخونه، یا توی پروژه‌های حساس ازش استفاده نکنید",
-      "plain_text": "چندتا نکته:\n1- کاربرا توی ردیت گزارش دادن که برای استفاده از مدلهای anthropic زیاد به باگ می‌خورن و علت می‌تونه استفاده سایت از apiهای دزدی باشه. بهترین نتیجه رو با GLM میده\n2- اگر از GLM استفاده می‌کنید هم، یا به ایجنت فول اکسس ندید(که .env) و اینهاتون رو نخونه، یا توی پروژه‌های حساس ازش استفاده نکنید",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "116"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        },
-        {
-          "emoji": "😨",
-          "count": "3"
-        }
-      ],
-      "views_label": "28.1K",
-      "posted_at": "2026-06-26T09:18:54+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4042",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4027",
-        "author_name": "Matin SenPai",
-        "preview_text": "",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/Mqs1mL2cAdinXHId88aec_HKXVuqrw9VFig9zQoGzcp2LLNU7HMbC2lX3WTCHOlxLusrlaexgAc6U2rz1IU5gqjThkY8ygt0xBg65iuyTHABQmMgyiUDrSiWCkJGzM5o6YcpCb_LxPcGu4-rzxhZBy8sD3J1RsMaQSrhiipdqgSP-4coHXnETQZXx1mFOStkTYYv1N39c9s1SyUz66K1OKkQsUs6pgcnoCmuHlrMIZEfsMr19fjrfOLTRqwxka37XSkTv1YhBbY8W1qs_glKxrYPpOkHOjPgPRgUIjtCY5tpqUN4V015ohlgeKFVDzbeC6Ej4AH6xoVfsm5hKKXYhQ.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/7dec6432c7d3769eb8706753.jpg",
         "thumbnail_sha256": "962ba60383f8da1689a3352ea50465890d146b1867b97f5bc4500f6ce1893de5",
         "permalink": "https://t.me/matinsenpaii/4027"
       }
