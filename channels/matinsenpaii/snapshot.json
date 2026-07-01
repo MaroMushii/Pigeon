@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-01T18:36:55.177Z",
+  "fetched_at": "2026-07-01T18:42:02.679Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,31 @@
     "subscriber_count": "159K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4165",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/tB_alItS2tLJseLVTddZ08ZKndm4cI22vdVSOV9_LrjX5AhBRwrc1VEBdOglkxO8gJwTzOSMCvH8gkl-wab_dq7BLqA9-V_IrXuqZ9ljoQKTTeYzgScQBM1ogCqa2Wjw-PHscoe5J5gOAqqGIOfL3CFjckE3Q3ybnc0dr66WeUzTAt_csQvmk4XVL0ajJq0z05bLsW-Bhm2KA4gw6i7bPcQahwdI9bYjeqfKGv2c0Tm32YD8SIKSoFCVuXoSZ8vshBE35f9-hWYGpUF5Y-zvg1fVt_I73Jj23vTOmflHhMvFiLnthIG4ay9fthMDkpiNaiqtGmkOwPmcpPNPQfPAyA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/df8d82843ed1ad1d7cf9a7fe.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "یه خورده خبر گنگ بود. الان بهتون توضیح میدم که این به درد چه کسایی می‌خوره.<br><br><blockquote expandable=\"\"><b>مشکل چیه؟</b><br>تا الان منطق اقتصاد اینترنت این‌طوری کار می‌کرد: شما یه سایت/سرویس رایگان می‌دادی، در عوض به کاربر «تبلیغ» نشون می‌دادی یا ازش «حق اشتراک ماهانه» می‌گرفتی.<br>اما الان <b>هوش مصنوعی </b>داره جای آدم‌ها رو تو وب‌گردی می‌گیره! هوش مصنوعی تبلیغ نمی‌بینه و نمی‌تونه بره تو ۱۰۰ تا سایت اشتراک ماهانه بخره. فقط میاد دیتای شما رو می‌خونه (Scrape می‌کنه به اصطلاح)، جواب رو به کاربرش می‌ده و می‌ره. در نتیجه، صاحب محتوا یا API هیچ پولی درنمیاره!<br><br><b>راه حل Cloudflare چیه؟ (به درد کی می‌خوره؟)</b><br>کلودفلر میگه: «حالا که Agentها دارن از همه‌چیز استفاده می‌کنن، پس باید <b>بابت هر ریکوئست (درخواست) پول بدن</b>.» <br>این سیستم به درد افراد زیر می‌خوره:<br><br><b>۱. سازندگان API و برنامه‌نویس‌ها</b><br>فرض کن یه API ساختی که عکس رو پردازش می‌کنه یا دیتای هواشناسی میده. تا الان باید درگاه پرداخت می‌ذاشتی، سیستم لاگین و API Key می‌ساختی تا بتونی پول بگیری. <br>با Cloudflare Gateway، تو فقط تو پنل کلودفلر یه قانون (Rule) می‌نویسی: «هر کی به این api/premium/ ریکوئست GET زد، ۰.۰۱ دلار (یک سنت) ازش بگیر». <br>بدون اینکه کدِ پرداختی تو بک‌اندت بنویسی، کلودفلر خودش پول رو (با ارزهای دیجیتال/استیبل‌کوین مثل USDC) از اون ربات یا شخص می‌گیره و به کیف پول تو می‌ریزه.<br><br><b>۲. سازندگان ابزارهای هوش مصنوعی (MCP Tools)</b><br>اگه یه ابزار ساختی که به Claude یا ChatGPT وصل می‌شه (مثل همون ابزارهایی که تو معماری MCP به کار میرن)، می‌تونی به ازای هر بار که هوش مصنوعی از ابزار تو برای حل مشکل کاربرش استفاده می‌کنه، ازش یه پول خیلی ریز (Micropayment) بگیری.<br><br><b>۳. ناشران دیتا و محتوا (پژوهشگران و سایت‌ها)</b><br>اگر سایت یا دیتابیسی داری که مدل‌های هوش مصنوعی میان روش خزش (Crawl) می‌کنن تا خودشون رو آموزش بدن، می‌تونی بگی هر رباتی که خواست مقالات یا دیتای من رو بخونه، باید بابت هر صفحه مثلاً ۰.۰۰۱ دلار پول بده.<br><br><b>این سیستم چطور کار می‌کنه (x402)؟</b><br>کلودفلر از کدِ خطای معروف HTTP 402 (Payment Required - پرداخت نیاز است) استفاده می‌کنه. <br>1. ربات یه ریکوئست به سایت/API شما می‌زنه.<br>2. کلودفلر قبل از اینکه ریکوئست به سرور شما برسه جلوش رو می‌گیره و خطای 402 می‌ده و می‌گه «قیمت این ریکوئست ۱ سنته، به این ولت پرداخت کن».<br>3. ربات تو کمتر از ۱ ثانیه با استیبل‌کوین پول رو میده و ریکوئست رو دوباره (با اثباتِ پرداخت) می‌فرسته.<br>4. ریکوئست به سرور شما می‌رسه و شما جواب رو می‌دین.</blockquote><br><br><b>خلاصه</b><br>این تکنولوژی به درد کسی می‌خوره که می‌خواد <b>از هر ریکوئستی که به سرورش یا دیتابیسش میاد، پول دربیاره</b>؛ بدون اینکه درگیر ثبت‌نام کاربر، صدور API Key یا درگاه‌های پرداخت بانکیِ پیچیده و پردردسر بشه. اینطوری، هوش مصنوعی‌ها و Agentها تبدیل می‌شن به مشتری‌های مستقیمِ کدها/محتوای شما!",
+      "plain_text": "یه خورده خبر گنگ بود. الان بهتون توضیح میدم که این به درد چه کسایی می‌خوره.\n\nمشکل چیه؟\nتا الان منطق اقتصاد اینترنت این‌طوری کار می‌کرد: شما یه سایت/سرویس رایگان می‌دادی، در عوض به کاربر «تبلیغ» نشون می‌دادی یا ازش «حق اشتراک ماهانه» می‌گرفتی.\nاما الان هوش مصنوعی داره جای آدم‌ها رو تو وب‌گردی می‌گیره! هوش مصنوعی تبلیغ نمی‌بینه و نمی‌تونه بره تو ۱۰۰ تا سایت اشتراک ماهانه بخره. فقط میاد دیتای شما رو می‌خونه (Scrape می‌کنه به اصطلاح)، جواب رو به کاربرش می‌ده و می‌ره. در نتیجه، صاحب محتوا یا API هیچ پولی درنمیاره!\n\nراه حل Cloudflare چیه؟ (به درد کی می‌خوره؟)\nکلودفلر میگه: «حالا که Agentها دارن از همه‌چیز استفاده می‌کنن، پس باید بابت هر ریکوئست (درخواست) پول بدن.»\nاین سیستم به درد افراد زیر می‌خوره:\n\n۱. سازندگان API و برنامه‌نویس‌ها\nفرض کن یه API ساختی که عکس رو پردازش می‌کنه یا دیتای هواشناسی میده. تا الان باید درگاه پرداخت می‌ذاشتی، سیستم لاگین و API Key می‌ساختی تا بتونی پول بگیری.\nبا Cloudflare Gateway، تو فقط تو پنل کلودفلر یه قانون (Rule) می‌نویسی: «هر کی به این api/premium/ ریکوئست GET زد، ۰.۰۱ دلار (یک سنت) ازش بگیر».\nبدون اینکه کدِ پرداختی تو بک‌اندت بنویسی، کلودفلر خودش پول رو (با ارزهای دیجیتال/استیبل‌کوین مثل USDC) از اون ربات یا شخص می‌گیره و به کیف پول تو می‌ریزه.\n\n۲. سازندگان ابزارهای هوش مصنوعی (MCP Tools)\nاگه یه ابزار ساختی که به Claude یا ChatGPT وصل می‌شه (مثل همون ابزارهایی که تو معماری MCP به کار میرن)، می‌تونی به ازای هر بار که هوش مصنوعی از ابزار تو برای حل مشکل کاربرش استفاده می‌کنه، ازش یه پول خیلی ریز (Micropayment) بگیری.\n\n۳. ناشران دیتا و محتوا (پژوهشگران و سایت‌ها)\nاگر سایت یا دیتابیسی داری که مدل‌های هوش مصنوعی میان روش خزش (Crawl) می‌کنن تا خودشون رو آموزش بدن، می‌تونی بگی هر رباتی که خواست مقالات یا دیتای من رو بخونه، باید بابت هر صفحه مثلاً ۰.۰۰۱ دلار پول بده.\n\nاین سیستم چطور کار می‌کنه (x402)؟\nکلودفلر از کدِ خطای معروف HTTP 402 (Payment Required - پرداخت نیاز است) استفاده می‌کنه.\n1. ربات یه ریکوئست به سایت/API شما می‌زنه.\n2. کلودفلر قبل از اینکه ریکوئست به سرور شما برسه جلوش رو می‌گیره و خطای 402 می‌ده و می‌گه «قیمت این ریکوئست ۱ سنته، به این ولت پرداخت کن».\n3. ربات تو کمتر از ۱ ثانیه با استیبل‌کوین پول رو میده و ریکوئست رو دوباره (با اثباتِ پرداخت) می‌فرسته.\n4. ریکوئست به سرور شما می‌رسه و شما جواب رو می‌دین.\n\nخلاصه\nاین تکنولوژی به درد کسی می‌خوره که می‌خواد از هر ریکوئستی که به سرورش یا دیتابیسش میاد، پول دربیاره؛ بدون اینکه درگیر ثبت‌نام کاربر، صدور API Key یا درگاه‌های پرداخت بانکیِ پیچیده و پردردسر بشه. اینطوری، هوش مصنوعی‌ها و Agentها تبدیل می‌شن به مشتری‌های مستقیمِ کدها/محتوای شما!",
+      "media": [],
+      "reactions": [],
+      "views_label": "350",
+      "posted_at": "2026-07-01T18:41:40+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4165",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4164",
+        "author_name": "Matin SenPai",
+        "preview_text": "کلودفلر یه درگاه جدید معرفی کرده که اجازه می‌ده روی هر وب‌پیج، API، دیتاست یا ابزار MCP که پشت شبکه کلودفلر دارید، سیستم درآمدزایی پیاده کنید. تسویه‌حساب‌ها از طریق پروتکل باز x402 و با استیبل‌کوین انجام می‌شه؛ یعنی عملاً دیگه نیازی نیست درگیر ساخت و پیاده‌سازی…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/NWQgu8qbCy0qsAYmWzcS4cXEN3rEVHaQF3M0G6FxsAwdCeqVeoFmj1zGMn1_eZVloduZCT9_PDW-J5TyR-cBYeaqBvUoyXVfnDdHYTc8cGfT7mF0ALnntlIr_GBXm2Hv71TP0q8pbLZKiq6okRo0LIwnV0hyTIJGh81CybEaevdQHkd4mvZMwPCEFsXUtJ3VpbZ_Z_QipD8QedHEpH6cGYhXCFZ3qoXOUt5ub4hBhvIX2QCDbwPDfjD8rmMPM4UhTHjWaGEorw1IEzMqC-vzbba8i9LkeCqqerluzljeSRvTy6G-WLP78W3esHGbrn10iTs-5DfYCSdOceAuCwY6MQ.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/8e8d6b7a3070d335f650cf9a.jpg",
+        "thumbnail_sha256": "ab083023e646171664911c75ff702db6488aa459ed28b6a8cad48b50098d77bd",
+        "permalink": "https://t.me/matinsenpaii/4164"
+      }
+    },
     {
       "id": "MatinSenPaii/4164",
       "author_name": "Matin SenPai",
@@ -34,11 +59,27 @@
       ],
       "reactions": [
         {
+          "emoji": "❤",
+          "count": "32"
+        },
+        {
+          "emoji": "😨",
+          "count": "12"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "🔥",
+          "count": "4"
+        },
+        {
           "emoji": "🎃",
-          "count": "2"
+          "count": "4"
         }
       ],
-      "views_label": "183",
+      "views_label": "3K",
       "posted_at": "2026-07-01T18:36:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4164",
@@ -56,15 +97,15 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "128"
+          "count": "136"
         },
         {
           "emoji": "👍",
-          "count": "34"
+          "count": "36"
         },
         {
           "emoji": "👎",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "🔥",
@@ -75,7 +116,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.45K",
+      "views_label": "8.94K",
       "posted_at": "2026-07-01T18:06:57+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4163",
@@ -93,11 +134,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "437"
+          "count": "440"
         },
         {
           "emoji": "👍",
-          "count": "47"
+          "count": "48"
         },
         {
           "emoji": "😁",
@@ -120,7 +161,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.1K",
+      "views_label": "20.1K",
       "posted_at": "2026-07-01T13:10:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4162",
@@ -159,7 +200,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "704"
+          "count": "715"
         },
         {
           "emoji": "🔥",
@@ -186,7 +227,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.8K",
+      "views_label": "21.6K",
       "posted_at": "2026-07-01T12:56:30+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4161",
@@ -217,11 +258,11 @@
         },
         {
           "emoji": "🔥",
-          "count": "308"
+          "count": "309"
         },
         {
           "emoji": "😁",
-          "count": "72"
+          "count": "73"
         },
         {
           "emoji": "❤",
@@ -244,7 +285,7 @@
           "count": "3"
         }
       ],
-      "views_label": "22.4K",
+      "views_label": "23.1K",
       "posted_at": "2026-07-01T12:20:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4159",
@@ -274,26 +315,26 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "217"
+          "count": "218"
         },
         {
           "emoji": "❤",
-          "count": "18"
+          "count": "19"
         },
         {
           "emoji": "😨",
           "count": "7"
         },
         {
-          "emoji": "👎",
+          "emoji": "👍",
           "count": "4"
         },
         {
-          "emoji": "👍",
-          "count": "3"
+          "emoji": "👎",
+          "count": "4"
         }
       ],
-      "views_label": "22.3K",
+      "views_label": "23K",
       "posted_at": "2026-07-01T12:19:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4158",
@@ -311,7 +352,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "319"
+          "count": "321"
         },
         {
           "emoji": "😭",
@@ -338,7 +379,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24K",
+      "views_label": "24.3K",
       "posted_at": "2026-07-01T11:25:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4157",
@@ -356,7 +397,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "239"
+          "count": "241"
         },
         {
           "emoji": "👎",
@@ -367,15 +408,15 @@
           "count": "15"
         },
         {
-          "emoji": "🎃",
+          "emoji": "🔥",
           "count": "2"
         },
         {
-          "emoji": "🔥",
-          "count": "1"
+          "emoji": "🎃",
+          "count": "2"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.5K",
       "posted_at": "2026-07-01T10:22:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4156",
@@ -393,11 +434,11 @@
       "reactions": [
         {
           "emoji": "👎",
-          "count": "542"
+          "count": "546"
         },
         {
           "emoji": "😁",
-          "count": "109"
+          "count": "110"
         },
         {
           "emoji": "👍",
@@ -416,7 +457,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.8K",
+      "views_label": "25.3K",
       "posted_at": "2026-07-01T10:17:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4155",
@@ -455,11 +496,11 @@
       "reactions": [
         {
           "emoji": "👎",
-          "count": "1.36K"
+          "count": "1.37K"
         },
         {
           "emoji": "😁",
-          "count": "72"
+          "count": "73"
         },
         {
           "emoji": "🎃",
@@ -467,7 +508,7 @@
         },
         {
           "emoji": "❤",
-          "count": "7"
+          "count": "8"
         },
         {
           "emoji": "😨",
@@ -482,7 +523,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.4K",
+      "views_label": "26.8K",
       "posted_at": "2026-07-01T09:42:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4154",
@@ -512,7 +553,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "301"
+          "count": "303"
         },
         {
           "emoji": "👎",
@@ -527,7 +568,7 @@
           "count": "15"
         }
       ],
-      "views_label": "28.3K",
+      "views_label": "28.5K",
       "posted_at": "2026-07-01T07:29:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4153",
@@ -545,7 +586,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "333"
+          "count": "334"
         },
         {
           "emoji": "❤",
@@ -572,7 +613,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.9K",
+      "views_label": "28K",
       "posted_at": "2026-07-01T07:06:16+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4152",
@@ -629,7 +670,7 @@
           "count": "3"
         }
       ],
-      "views_label": "30.7K",
+      "views_label": "31K",
       "posted_at": "2026-06-30T22:17:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4151",
@@ -679,7 +720,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29.6K",
+      "views_label": "30K",
       "posted_at": "2026-06-30T22:15:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4150",
@@ -736,7 +777,7 @@
           "count": "2"
         }
       ],
-      "views_label": "30.4K",
+      "views_label": "30.8K",
       "posted_at": "2026-06-30T21:52:18+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4149",
@@ -785,7 +826,7 @@
           "count": "7"
         }
       ],
-      "views_label": "28.6K",
+      "views_label": "28.8K",
       "posted_at": "2026-06-30T21:31:44+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4148",
@@ -834,7 +875,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.7K",
+      "views_label": "27.9K",
       "posted_at": "2026-06-30T20:00:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4147",
@@ -879,7 +920,7 @@
           "count": "6"
         }
       ],
-      "views_label": "28K",
+      "views_label": "28.2K",
       "posted_at": "2026-06-30T19:57:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4146",
@@ -941,7 +982,7 @@
           "count": "3"
         }
       ],
-      "views_label": "27.6K",
+      "views_label": "27.8K",
       "posted_at": "2026-06-30T19:53:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4145",
@@ -4770,56 +4811,6 @@
         "thumbnail_path": "channels/matinsenpaii/media/7dec6432c7d3769eb8706753.jpg",
         "thumbnail_sha256": "962ba60383f8da1689a3352ea50465890d146b1867b97f5bc4500f6ce1893de5",
         "permalink": "https://t.me/matinsenpaii/4027"
-      }
-    },
-    {
-      "id": "MatinSenPaii/4041",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/sF0G6QdBzfDdzcoy6UqOfW4eArxVU75kS-keBHOPNLujLpW9Ikc5CdIhLKcQ7pBZ3X0GUvAftpuH8w27F9nfQ2GSOLLWVBzZmdR1WgoFV9ECma67h7sWg6W7kvRFx_5vtY1qeYeddjrWvhUOHh2HcfO3rr6SXyCWO6xYfRFfnStELZJ46EbJVVP23M8P5k23Q3TgNgbqsyIrwStwEI9hxhwIfj78jJBLS-LDLyk2FR3ceuhFIxa2Cc0hA_o9hjjKbxDX4D_H57-cZRJew4U2Xh8xQ2kM4StVNmnnW2bCS1nkP3ZPiL1FNa5aE4u78G7lj1-H6Ws3DSnJk1xekiLyYg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/dde32632c3a600b61a39cbcd.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<tg-emoji emoji-id=\"5812037770301938686\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8DB7.png')\"><b>🍷</b></i></tg-emoji>درود رفقا پیرو صحبت های (patterniha) میخوام در مورد این موضوع ip ها و فرگمنت bpb صحبت کنم.<br><br>طبق حرف های patterniha وجود ip هتی خاکستری در ایرانسل کاملا درسته و بر اساس منطقه و ساعت ip ها اکی میشن اما شما با در آوردن ip های حتی خاکستری میتونید داخل پنل bpb که وارد میکنید از سینگ باکس استفاده کنید و این محدودیت آپلود رو رفع کنید پیشنهاد من نسخه اخر sing box هست.<br><br>در مورد workerless هم همچنین میتونید با مقادیر زیر کانفیگ های فرگمنت رو زنده کنید و استفاده کنید:<br><br>Mode:Low<br><br>Length:100-200<br><br>Interval:1-1<br><br>Packets:1-1<br><br><tg-emoji emoji-id=\"5312536423851630001\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i></tg-emoji>نکته:همچنین پینشهاد میشه از نسخه اخر v2ray واسه فرگمنت استفاده کنید(حتما نسخه 2.2.3 باشه پنل) و برای بهینه سازی و سرعت بیشتر از dns زیر استفاده کنید:<br><br><a href=\"http://8.26.56.26/\" target=\"_blank\" rel=\"noopener\">8.26.56.26</a><br><a href=\"http://8.20.247.20/\" target=\"_blank\" rel=\"noopener\">8.20.247.20</a><br><br><br>از این ip تمیزها هم میتونید استفاده کنید:<br><pre>199.181.197.1<br> 103.160.204.34<br>185.193.30.94<br> 45.8.211.57<br> 159.112.235.52<br>170.114.45.239<br>188.42.88.24<br>88.216.67.230<br>45.130.125.75</pre><br><br>با سپاس از راهنمایی رفیقم bpb<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FABB0.png')\"><b>🫰</b></i><br><br><a href=\"https://t.me/xsfilterrnet\" target=\"_blank\">@xsfilterrnet</a> <tg-emoji emoji-id=\"5053169761232356354\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji>",
-      "plain_text": "🍷درود رفقا پیرو صحبت های (patterniha) میخوام در مورد این موضوع ip ها و فرگمنت bpb صحبت کنم.\n\nطبق حرف های patterniha وجود ip هتی خاکستری در ایرانسل کاملا درسته و بر اساس منطقه و ساعت ip ها اکی میشن اما شما با در آوردن ip های حتی خاکستری میتونید داخل پنل bpb که وارد میکنید از سینگ باکس استفاده کنید و این محدودیت آپلود رو رفع کنید پیشنهاد من نسخه اخر sing box هست.\n\nدر مورد workerless هم همچنین میتونید با مقادیر زیر کانفیگ های فرگمنت رو زنده کنید و استفاده کنید:\n\nMode:Low\n\nLength:100-200\n\nInterval:1-1\n\nPackets:1-1\n\n💡نکته:همچنین پینشهاد میشه از نسخه اخر v2ray واسه فرگمنت استفاده کنید(حتما نسخه 2.2.3 باشه پنل) و برای بهینه سازی و سرعت بیشتر از dns زیر استفاده کنید:\n\n8.26.56.26\n8.20.247.20\n\n\nاز این ip تمیزها هم میتونید استفاده کنید:\n199.181.197.1\n103.160.204.34\n185.193.30.94\n45.8.211.57\n159.112.235.52\n170.114.45.239\n188.42.88.24\n88.216.67.230\n45.130.125.75\n\nبا سپاس از راهنمایی رفیقم bpb🫰\n\n@xsfilterrnet 👑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4041",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/Fu-sT6demre1SeGIHehuaRMocUJcrjChB_Ehai2sgYXouibOPqpYQxlxWsnESF9m6Ae26Usy7RVIGEeiui5pBcmTicLhR25a84yNk81pk8wmp41uri04gqD6_ghZy8YsFHZ66DduJ-nx3mKsFlvC0ms_NHx0tt-OuTHTs2XEr3ctP3ZE0Eqx5-j-pun6Z_4M-5D75wddiLxThLfS7mh7qqqcYcbnN2Mao3SxR3_4Byhkme6q3OW-cwq8noiZn1HDg2eBDQAYnGuySOVL_U1SfupK0SMJn-Nyp2oNESnk7N7RJYKiIf2LL2aaltTpWNXO3o9xfSVFZ6aINCIQgTXeqw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/003ba1a0f2aa78d4f611920e.jpg",
-          "thumbnail_sha256": "782b30f78964679d0b168c6b74610ac2bf94122e28fed2e22b0b251068951b71",
-          "duration_label": null,
-          "aspect_ratio": 0.9125000000000034
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "192"
-        },
-        {
-          "emoji": "👍",
-          "count": "8"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        }
-      ],
-      "views_label": "23.9K",
-      "posted_at": "2026-06-26T08:58:54+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4041",
-      "reply": {
-        "channel_username": "patt_channel_x",
-        "post_id": "73",
-        "author_name": "Patt's Channel",
-        "preview_text": "ایپی 188.114.97.6 دیگه سفید مطلق نیست و با ایپی های دیگه کلودفلر فرقی نداره. /// البته رو بیشتر نت ها به غیر ایرانسل کانکشن خاکستری نداریم و به راحتی میشه به کانفیگ های پشت کلودفلر وصل شد. برای ایرانسل (و بعضی نتهای دیگر در برخی مناطق) هم با استفاده از فرگمنت…",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/patt_channel_x/73"
       }
     }
   ]
