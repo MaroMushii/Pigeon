@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-02T04:26:58.201Z",
+  "fetched_at": "2026-07-02T04:32:04.272Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,35 @@
     "subscriber_count": "98.3K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2471",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/B_71f_Ux1Y5oTcfvtOWhp_axf6VsYSJbbUlh_LzonUbWQ3p4HXjFUvOrlIxrL9x6OaaXXf9B4zBjBoIhgb3F0UbMlcwqdO27cr7lng7W9hXrVJdwr7qYVxAh0RGGActJKFWOgroDEqCrpaMgcexxRRb33N0PlDh9dfKkSXvy8eEiKmO78HZkuAdVK33WyVCdlRDkX2TDW2i00wpIIs0-lcPH5qI6izF6iR8xJ5JNOI3vCndcVqDXyTO-PY4dFTMydRkQQ_OGRW_SzOqhs-yEVOzkTCywecykoXIEiXphE0URA287ZJAYIWLZE5FZBR2ddXS9d2tNtisMxH8V9uUiLw.jpg",
+      "author_photo_path": "channels/ircfspace/media/6c4c54d245adcb52708877d7.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "نسخه ۱۷ از اپ <a href=\"?q=%23MahsaNG\">#MahsaNG</a> منتشر شد و توی این نسخه هسته سایفون بصورت ویژه برای شرایط اینترنت ایران بهینه شده. همینطور امکان ساخت، وارد کردن، خروجی گرفتن و اشتراک‌گذاری کانفیگ‌های <code>psiphon://</code> هم اضافه شده و یک اسکنر IP جدید برای CDN Fronting طراحی شده تا پیدا کردن آی‌پی‌های مناسب راحت‌تر انجام بشه.<br><br>امکانات جدیدی هم به خود برنامه اضافه شده؛ مثل دریافت کانفیگ‌های ایکس‌ری از طریق نوتیفیکیشن گوگل، قابلیت زنجیره کردن دو کانفیگ و حذف کانفیگ‌هایی که موقع تست پینگ توی ساب فعلی پاسخی دریافت نمی‌کنن. رابط کاربری بطور کامل بازطراحی شده و جابجایی بین ساب‌ها با کشیدن صفحه به چپ و راست انجام میشه، مدیریت ساب‌های بزرگ بهتر شده، شماره کانفیگ در حال تست نمایش داده میشه و از این به بعد خود اپ می‌تونه اعلان‌ها، اخبار و بروزرسانی‌های پروژه رو مستقیم به کاربر نمایش بده.<br><br>توی این نسخه مشکلات مربوط به اتصال مجدد و کرش سایفون، ایرادهای ویجت، باگ‌های CDN Fronting، کرش نسخه ARMv7، بازیابی نشدن رمز عبور HTTP، وارد کردن لینک ساب در بعضی شرایط و چندین مشکل دیگه هم برطرف شده، تا تجربه استفاده از این فیلترشکن پایدارتر و روان‌تر باشه.<br><br><a href=\"https://pbs.twimg.com/media/HMMh6l_WUAAm9lN?format=jpg&amp;amp;name=small\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i></a> <a href=\"http://github.com/GFW-knocker/MahsaNG/releases\" target=\"_blank\" rel=\"noopener\">github.com/GFW-knocker/MahsaNG/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "نسخه ۱۷ از اپ #MahsaNG منتشر شد و توی این نسخه هسته سایفون بصورت ویژه برای شرایط اینترنت ایران بهینه شده. همینطور امکان ساخت، وارد کردن، خروجی گرفتن و اشتراک‌گذاری کانفیگ‌های psiphon:// هم اضافه شده و یک اسکنر IP جدید برای CDN Fronting طراحی شده تا پیدا کردن آی‌پی‌های مناسب راحت‌تر انجام بشه.\n\nامکانات جدیدی هم به خود برنامه اضافه شده؛ مثل دریافت کانفیگ‌های ایکس‌ری از طریق نوتیفیکیشن گوگل، قابلیت زنجیره کردن دو کانفیگ و حذف کانفیگ‌هایی که موقع تست پینگ توی ساب فعلی پاسخی دریافت نمی‌کنن. رابط کاربری بطور کامل بازطراحی شده و جابجایی بین ساب‌ها با کشیدن صفحه به چپ و راست انجام میشه، مدیریت ساب‌های بزرگ بهتر شده، شماره کانفیگ در حال تست نمایش داده میشه و از این به بعد خود اپ می‌تونه اعلان‌ها، اخبار و بروزرسانی‌های پروژه رو مستقیم به کاربر نمایش بده.\n\nتوی این نسخه مشکلات مربوط به اتصال مجدد و کرش سایفون، ایرادهای ویجت، باگ‌های CDN Fronting، کرش نسخه ARMv7، بازیابی نشدن رمز عبور HTTP، وارد کردن لینک ساب در بعضی شرایط و چندین مشکل دیگه هم برطرف شده، تا تجربه استفاده از این فیلترشکن پایدارتر و روان‌تر باشه.\n\n👉 github.com/GFW-knocker/MahsaNG/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": "10"
+        },
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "330",
+      "posted_at": "2026-07-02T04:28:44+00:00",
+      "edited": false,
+      "permalink": "https://t.me/ircfspace/2471",
+      "reply": null
+    },
     {
       "id": "ircfspace/2470",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -58,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.5K",
       "posted_at": "2026-06-30T04:14:44+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2470",
@@ -107,7 +136,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.3K",
+      "views_label": "20.4K",
       "posted_at": "2026-06-30T04:06:28+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2469",
@@ -168,7 +197,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.8K",
       "posted_at": "2026-06-28T05:13:10+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2468",
@@ -221,7 +250,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.8K",
       "posted_at": "2026-06-28T05:01:00+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2467",
@@ -424,7 +453,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.3K",
+      "views_label": "24.4K",
       "posted_at": "2026-06-27T09:11:19+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2464",
@@ -477,7 +506,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "25.8K",
       "posted_at": "2026-06-27T04:29:10+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2463",
@@ -665,7 +694,7 @@
           "count": "6"
         }
       ],
-      "views_label": "39.9K",
+      "views_label": "40K",
       "posted_at": "2026-06-23T16:58:22+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2459",
@@ -954,7 +983,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.1K",
+      "views_label": "32.2K",
       "posted_at": "2026-06-23T05:30:45+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2453",
@@ -5500,63 +5529,6 @@
       "posted_at": "2026-05-21T16:39:26+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2368",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2367",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/QP_josu7GHfRWkPFXKHMopQvK7Egin5_5Y8p1dP_7X8UpJcJ6D885Ygw1AUr73MIJwgtsJCiEQA3AynR_ljnByl5tf09tP1dD7OwoAPwiqzx9rHCfKD56r-bFF8bmK09k7gbsiRi__FMfFUWEmp6GZ2bLpvQy4JzD_baxXuYK2k5oySak7xtFiqnXik0ZCHGqNE_f7V0pdq4JMt6N2YfUqMTKtSmyBYdSFlB9LN7S-2mPTveaxdXD8UJMBz6Bztait532t0b54dgo6UgtmpAv_Dp7nwXjFrpbcO2w3sWFFoenfb8ZN_UpDsyIRjYQySxpslXCzRlCpurVnIPljokLg.jpg",
-      "author_photo_path": "channels/ircfspace/media/e4a645ffb0cc850518f16003.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "زارع‌پور، وزیر قطع‌ارتباطات دولت قبل گفته \"جمع‌بندی رئیسی این بود که اینترنت به خاطر هیچ‌چیز نباید قطع بشه\"، ولی یادش رفته که رئیسی با ۶ کلاس سواد حتی جمع و تفریقشم افتضاح بود.<br><blockquote>جهت یادآوری واسه <a href=\"?q=%23%D9%82%D9%88%D9%87_%D8%B9%D8%A7%D9%82%D9%84%D9%87\">#قوه_عاقله</a>، اینستاگرام و واتس‌اپ توی دولت سیزدهم فیلتر شدن!</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "زارع‌پور، وزیر قطع‌ارتباطات دولت قبل گفته \"جمع‌بندی رئیسی این بود که اینترنت به خاطر هیچ‌چیز نباید قطع بشه\"، ولی یادش رفته که رئیسی با ۶ کلاس سواد حتی جمع و تفریقشم افتضاح بود.\nجهت یادآوری واسه #قوه_عاقله، اینستاگرام و واتس‌اپ توی دولت سیزدهم فیلتر شدن!\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2367",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/E8lwMgDV_lgZDZZkaFic_r_gkoNILD13EYeqJn7s3r5QMFGrBvbSJwqd1gSFllChF-ABnn4XyEaR-kYfuLTE22z2s4zzRkQyo7dVAORUv6ciXBgx7_4HiYqtqolTpgf6T9BCdPZKMXZX3g_5NRWaMQpk5XTZb-gjOQ_OXIjfyF926zKZ8XcwK_66sC133LgvQXi5iMR0IdFM4rQGTkHCLtL1A_yV8Wnldq9QkAT6RGsAG0e6UG8EcDWCb7QdMTZKD8BvgUIvmhIkHxK9rSDcXeoEExKwhIhDt3vlvwQgzN0LthHuZNXO74VrVz3ijFb3_R0QdPzP9yDduBge2LRbKA.jpg",
-          "thumbnail_path": "channels/ircfspace/media/a9807595d16d0860992158d4.jpg",
-          "thumbnail_sha256": "066d5cac53c1d3e059ab38b10479db1c441f15b30edb780e78a614a42e2ce7a8",
-          "duration_label": null,
-          "aspect_ratio": 1.5099999999999978
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "🤬",
-          "count": "349"
-        },
-        {
-          "emoji": "👍",
-          "count": "42"
-        },
-        {
-          "emoji": "😁",
-          "count": "27"
-        },
-        {
-          "emoji": "❤",
-          "count": "10"
-        },
-        {
-          "emoji": "👎",
-          "count": "4"
-        },
-        {
-          "emoji": "🤡",
-          "count": "3"
-        },
-        {
-          "emoji": "🗿",
-          "count": "1"
-        }
-      ],
-      "views_label": "27.8K",
-      "posted_at": "2026-05-21T16:34:37+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2367",
       "reply": null
     }
   ]
