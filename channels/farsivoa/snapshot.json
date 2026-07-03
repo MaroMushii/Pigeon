@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-03T16:41:28.449Z",
+  "fetched_at": "2026-07-03T16:46:30.292Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,62 @@
   },
   "posts": [
     {
+      "id": "farsivoa/222612",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/CcZPbs4tr6PiSJBrlvmKaqJIfsYiSxTZHCQwBT6G0K4y1w2P85MUwBGQNeeXAa2B0BM7dRBY0UByYBx8-OF7kV4jZZPeZVMFCAcuH6AISl3WtvmD4DUwluzIge740Dt57Qnf7bETI1Rop7I_8c7IIUjsLeWY7nYIXUDMoWvtdNLBM1fCtuEujjWysKKCvDAvAwe418vrCtY82nJ88bG4smWVpHKZGLNtMAbuC9lF2hvxPk5LXscgH8Qv3hVI7u79dsCWwhW4DD3fgW69J0R4pOpJ2Or2k0T27YwocVZh1AnODvctZWbKDYgooHEX3TQm4RCgtdQ-sblblXxFqrMd2w.jpg",
+      "author_photo_path": "channels/farsivoa/media/b8ca846938627fb1c9d8d441.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "ویدیویی از مراسم تشییع جنازه علی خامنه‌ای منتشر شده که در آن مسعود پزشکیان، محمدباقر قالیباف، غلامحسین محسنی اژه‌ای و محسن رضایی در حال اشک ریختن دیده می‌شوند.<br><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
+      "plain_text": "ویدیویی از مراسم تشییع جنازه علی خامنه‌ای منتشر شده که در آن مسعود پزشکیان، محمدباقر قالیباف، غلامحسین محسنی اژه‌ای و محسن رضایی در حال اشک ریختن دیده می‌شوند.\n\n@FarsiVOA",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/222612",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/a1xw236H_9Ddhuk6qiTicIFPWx3VCg7wgbngVjlZ9HyrB22plAk2h7oi80p-JphKt5nXX0Qys7pd6n02E55DP-cqfctVOIF3v2pGmz59gUQmzbassxZ7DZv7Ywy4xlYISmWA4kRlEAJ5vDgHnCjySzdj-mRca6UgnEnoYR6xc9KVA1Vy7J96pg9R1WB8l3k4SKru-DwwrHbncwFrtlR2U728-uuiMKePm6BWDCI2IezA5WbDaIfWKQb89pUr_5wo6ZnSc8cZDGgMTsFkjHl6xfKLDvFcLZ76ZYoGqabIIk1vsqt2JuUtJ7sMz7QsSrQA0olbyNofAp1AtttqZc1fow",
+          "thumbnail_path": "channels/farsivoa/media/84c8d3938d2f89204d72b5f8.jpg",
+          "thumbnail_sha256": "52a73148fd0a4f8c8c3c8c23ad16d6d610212d2d7f0317dcdb4ad8b025c3ef3d",
+          "duration_label": "1:17",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "326",
+      "posted_at": "2026-07-03T16:43:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/222612",
+      "reply": null
+    },
+    {
+      "id": "farsivoa/222611",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/CcZPbs4tr6PiSJBrlvmKaqJIfsYiSxTZHCQwBT6G0K4y1w2P85MUwBGQNeeXAa2B0BM7dRBY0UByYBx8-OF7kV4jZZPeZVMFCAcuH6AISl3WtvmD4DUwluzIge740Dt57Qnf7bETI1Rop7I_8c7IIUjsLeWY7nYIXUDMoWvtdNLBM1fCtuEujjWysKKCvDAvAwe418vrCtY82nJ88bG4smWVpHKZGLNtMAbuC9lF2hvxPk5LXscgH8Qv3hVI7u79dsCWwhW4DD3fgW69J0R4pOpJ2Or2k0T27YwocVZh1AnODvctZWbKDYgooHEX3TQm4RCgtdQ-sblblXxFqrMd2w.jpg",
+      "author_photo_path": "channels/farsivoa/media/b8ca846938627fb1c9d8d441.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "نگاهی به سخنرانی‌های مشهور روسای جمهوری در جشن استقلال آمریکا؛ از ریگان تا ترامپ<br><a href=\"?q=%23America250\">#America250</a>",
+      "plain_text": "نگاهی به سخنرانی‌های مشهور روسای جمهوری در جشن استقلال آمریکا؛ از ریگان تا ترامپ\n#America250",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/222611",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ueCbQuutYYS6UkJo5iugJmGA9clv6l2av7xxjG_pTmp8S2WFbp2gJ9Xyl3waQeN8kyw6u3tokmz8jiWVv-yJG2MH899-mPA7fAHgoFEP72Fs6tfaK448zgQxt4gjSugTxUGajZBkcIeura2G_eYwmEv-q6sgMKSgSdRZfUpAeC305EuK8Wqk7eHhYPmzHTLQXW2dW-M_d0Czqy0615q7Los2UNKwwFtT0W5rl4PMCMSen7BD00xywxkpUwDVhmqTP6JbqKjZ3T7FRrzdn5Gnmv9xN4fHcUfI4S4xwBVm32SVeVU0k8WDe_nwmhKyFJ7ZxsY7oyDB9QHEoBvSfl7XaQ",
+          "thumbnail_path": "channels/farsivoa/media/5a538f25c5a66fff4ed7f44b.jpg",
+          "thumbnail_sha256": "8a828b625423889f49b6f4277e90a9602b918fd5ac6c8ce72afa5854b21090a9",
+          "duration_label": "5:21",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "361",
+      "posted_at": "2026-07-03T16:42:38+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/222611",
+      "reply": null
+    },
+    {
       "id": "farsivoa/222610",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/CcZPbs4tr6PiSJBrlvmKaqJIfsYiSxTZHCQwBT6G0K4y1w2P85MUwBGQNeeXAa2B0BM7dRBY0UByYBx8-OF7kV4jZZPeZVMFCAcuH6AISl3WtvmD4DUwluzIge740Dt57Qnf7bETI1Rop7I_8c7IIUjsLeWY7nYIXUDMoWvtdNLBM1fCtuEujjWysKKCvDAvAwe418vrCtY82nJ88bG4smWVpHKZGLNtMAbuC9lF2hvxPk5LXscgH8Qv3hVI7u79dsCWwhW4DD3fgW69J0R4pOpJ2Or2k0T27YwocVZh1AnODvctZWbKDYgooHEX3TQm4RCgtdQ-sblblXxFqrMd2w.jpg",
@@ -21,7 +77,7 @@
       "plain_text": "🔺وحید خان‌صنمی، یکی دیگر از بازداشت‌شدگان اعتراضات دی، به اعدام محکوم شد\n\n▪️به گزارش رسانه‌های حقوق بشری وحید خان‌صنمی، از بازداشت‌شدگان اعتراضات سراسری دی‌۱۴۰۴ که در زندان تهران بزرگ محبوس است، با حکم قاضی صلواتی به اعدام محکوم شده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/execution-human-rights-death-sentence/8167691.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "358",
+      "views_label": "683",
       "posted_at": "2026-07-03T16:35:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222610",
@@ -49,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "552",
+      "views_label": "845",
       "posted_at": "2026-07-03T16:32:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222609",
@@ -77,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.07K",
+      "views_label": "1.29K",
       "posted_at": "2026-07-03T16:22:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222608",
@@ -93,7 +149,7 @@
       "plain_text": "🔺فولکر تورک درباره حملات تازه روسیه به کی‌یف: «هولناک» بود\n\n▪️فولکر تورک، کمیسر عالی حقوق بشر سازمان ملل متحد، روز جمعه ۱۲ تیر ۱۴۰۵ گفت حمله گسترده روسیه به کی‌یف در بامداد پنجشنبه ۱۱ تیر ۱۴۰۵ دست‌کم ۳۰ غیرنظامی را کشته و دست‌کم ۹۹ نفر را زخمی کرده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/deadly-russian-attack-rocks-kyiv/8167667.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.33K",
+      "views_label": "1.46K",
       "posted_at": "2026-07-03T16:15:46+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222607",
@@ -121,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.34K",
+      "views_label": "1.46K",
       "posted_at": "2026-07-03T16:11:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222606",
@@ -149,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.76K",
+      "views_label": "1.86K",
       "posted_at": "2026-07-03T15:56:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222605",
@@ -165,7 +221,7 @@
       "plain_text": "🔺منوچهر فرید، بازیگر موج نو سینمای ایران، در ۸۹ سالگی درگذشت\n\n▪️منوچهر فرید، بازیگر پیشکسوت سینما و تئاتر ایران و از چهره‌های شناخته‌شده موج نو سینمای ایران، در ۸۹ سالگی در ملبورن استرالیا درگذشت.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/manouchehr-farid-actor-iranian-cinema/8167639.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.99K",
+      "views_label": "2.12K",
       "posted_at": "2026-07-03T15:49:28+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222604",
@@ -193,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.18K",
+      "views_label": "2.25K",
       "posted_at": "2026-07-03T15:32:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222603",
@@ -209,7 +265,7 @@
       "plain_text": "🔺از باسکرویل تا ایرانیان آمریکا؛ پیوند دو ملت فراتر از سیاست\n\n▪️در روزهایی که ایالات متحده دویست‌وپنجاهمین سالگرد استقلال خود را جشن می‌گیرد، بازخوانی تاریخ رابطه مردم ایران و آمریکا می‌تواند تصویری متفاوت از آن چه معمولاً در خبرهای سیاسی دیده می‌شود، ارائه دهد؛ تاریخی که فقط از ۲۸ مرداد، انقلاب ۱۳۵۷، گروگان‌گیری، قطع روابط دیپلماتیک، تحریم و مناقشه‌های چند دهه اخیر تشکیل نشده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/baskerville-bridge-between-nations/8167653.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.53K",
+      "views_label": "2.63K",
       "posted_at": "2026-07-03T15:15:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222602",
@@ -237,7 +293,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.63K",
+      "views_label": "2.72K",
       "posted_at": "2026-07-03T15:03:46+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222601",
@@ -276,7 +332,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.6K",
+      "views_label": "2.66K",
       "posted_at": "2026-07-03T15:03:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222599",
@@ -304,7 +360,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.24K",
+      "views_label": "3.31K",
       "posted_at": "2026-07-03T14:27:33+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222598",
@@ -332,7 +388,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.5K",
+      "views_label": "3.57K",
       "posted_at": "2026-07-03T14:13:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222597",
@@ -360,7 +416,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.59K",
+      "views_label": "3.66K",
       "posted_at": "2026-07-03T14:08:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222596",
@@ -376,7 +432,7 @@
       "plain_text": "🔺غیبت سران جهان در تشییع خامنه‌ای؛ «نمایش بین‌المللی» حکومت به حضور متحدان منطقه‌ای محدود ماند\n\n▪️با وجود گذشت ۱۲۵ روز از کشته‌شدن علی خامنه‌ای تا آغاز مراسم تشییع در تهران، جمهوری اسلامی تنها از حضور هشت رئیس کشور یا دولت خبر داده است؛ رقمی که در مقایسه با مراسم رسمی رهبران شناخته‌شده جهان، از انزوای دیپلماتیک حکومت ایران حکایت دارد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/khamenei-funeral-exposes-iran-s-isolation/8167611.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.91K",
+      "views_label": "3.97K",
       "posted_at": "2026-07-03T13:54:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222595",
@@ -437,7 +493,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.58K",
+      "views_label": "3.61K",
       "posted_at": "2026-07-03T13:49:26+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222591",
@@ -2564,62 +2620,6 @@
       "posted_at": "2026-07-02T15:01:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/222504",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/222503",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/nBIgLDI51OitUjkXMwglJqAJxwtX64cIfx8cC5r_2ouMOoBe0gZ7Q9lhxHb4RomqgKBamTHbbSDSAO0oroBeYd60VH-QcEZHlFPEpjCcR4k9m44NAqIcE9qST6uUQR08_KN54j2QJoxBVwB1wZQRkaoLvwUJ9vJIXZbD6VyHJc7QYbZy7j12YbT4-jm3lC55xCp5uKQahiSiznvJYhCcNxKhnNw_jMQKCynV5qxhfOElwOaPNVoX9cbDGQokX9ZPCh2hkLj8CXaFfC1dnZiiHg8iBjF0rlOraZDF4Oto9JZ9FesaxqOb-2N0d8wPLF6T140jqzbGFwi2S7U6zCg-bA.jpg",
-      "author_photo_path": "channels/farsivoa/media/abec676b844d6ec9783178b4.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>شبکه فاکس‌ نیوز روز پنجشنبه ۱۱ تیر به نقل از میانجی‌گران حاضر در قطر گزارش داد مذاکرات فنی میان ایالات متحده و رژیم ایران، هم‌زمان با پیشرفت اجرای تفاهم‌نامه دو طرف، با نتایج مثبتی همراه بوده است.<br><br>بر اساس این گزارش، رژیم ایران اکنون با انجام بخشی از بازرسی‌های هسته‌ای موافقت کرده است؛ اقدامی که می‌تواند گامی مهم در روند اجرای توافق باشد.<br><br>فاکس‌ نیوز همچنین به نقل از مقام‌های آگاه گزارش داد گفت‌وگوها درباره کاهش تحریم‌ها و منابع مالی پیش‌بینی‌شده در چارچوب توافق ادامه دارد، و بخشی از این منابع برای تأمین کالاهای مورد نیاز مردم ایران اختصاص خواهد یافت.",
-      "plain_text": "⚡️شبکه فاکس‌ نیوز روز پنجشنبه ۱۱ تیر به نقل از میانجی‌گران حاضر در قطر گزارش داد مذاکرات فنی میان ایالات متحده و رژیم ایران، هم‌زمان با پیشرفت اجرای تفاهم‌نامه دو طرف، با نتایج مثبتی همراه بوده است.\n\nبر اساس این گزارش، رژیم ایران اکنون با انجام بخشی از بازرسی‌های هسته‌ای موافقت کرده است؛ اقدامی که می‌تواند گامی مهم در روند اجرای توافق باشد.\n\nفاکس‌ نیوز همچنین به نقل از مقام‌های آگاه گزارش داد گفت‌وگوها درباره کاهش تحریم‌ها و منابع مالی پیش‌بینی‌شده در چارچوب توافق ادامه دارد، و بخشی از این منابع برای تأمین کالاهای مورد نیاز مردم ایران اختصاص خواهد یافت.",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/222503",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Czup_njkobDYADL2qyrrsYiZLC79B25NinLDvXWkTlocbX3ahJTC7fCu7xoLyWfTypjBtM_OYlqlmENlCklDC9es4NpS4tP3MR4T9KW5V-bg5P-QIYKmpM0wUFieAtFVUqdb64gECxAbCyVc0TpCEw51oeZNfpmi9HYKgArzhwrvQzNMtdJp67e_visEdS76bN8iK_txbC1oilHNmYpLu0sM4XF88bWhH-EbVMNl1baCB3zPiQjZ8YMEzw5o6hnZs2zPeHgNK41F-N1UM-M6_zsnnqY2Xf6qD-FkNSzmAOuxJXX4FvRQ1VBaYajfhgcTTf4R-XqN9PXGB01yzMe5iw.jpg",
-          "thumbnail_path": "channels/farsivoa/media/5734f9669a53b2bbe3df4eca.jpg",
-          "thumbnail_sha256": "8038fa824e804e46111860dcdeb727a854d5a8db59bdaa171a66df17bf300fbe",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.33K",
-      "posted_at": "2026-07-02T14:57:57+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/222503",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/222502",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/nBIgLDI51OitUjkXMwglJqAJxwtX64cIfx8cC5r_2ouMOoBe0gZ7Q9lhxHb4RomqgKBamTHbbSDSAO0oroBeYd60VH-QcEZHlFPEpjCcR4k9m44NAqIcE9qST6uUQR08_KN54j2QJoxBVwB1wZQRkaoLvwUJ9vJIXZbD6VyHJc7QYbZy7j12YbT4-jm3lC55xCp5uKQahiSiznvJYhCcNxKhnNw_jMQKCynV5qxhfOElwOaPNVoX9cbDGQokX9ZPCh2hkLj8CXaFfC1dnZiiHg8iBjF0rlOraZDF4Oto9JZ9FesaxqOb-2N0d8wPLF6T140jqzbGFwi2S7U6zCg-bA.jpg",
-      "author_photo_path": "channels/farsivoa/media/abec676b844d6ec9783178b4.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "بازگشت سایه جنگ به اقلیم کردستان؛ حملات تازه و جان باختن ۱۱ عضو حزب دموکرات کردستان ایران",
-      "plain_text": "بازگشت سایه جنگ به اقلیم کردستان؛ حملات تازه و جان باختن ۱۱ عضو حزب دموکرات کردستان ایران",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/222502",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/jwfnV8QnVdpEVDDWnfpXam6JQ_aOG0BCl-RCrJay65VZ1UznFFnxQSZk2R8MlrjlaoDmbDkZprwVqVFze32qDxs_Z4uF38V8RdXlVzWOpkI326TtYV4CXSNN59DZ4_WASinkhgG7PN8RiOwFE_fpTOBXLUOU2arR_QR6xKal6OW_evYwXuCKeowwU_G1ppkkZWkAKB3xF8ALBGu5P-LBSeBiS9oMa8ussE00u5L7PJXUpAukL0GECT2ywwyYmbPhNNSg3-tfim3WwJHJRFamzztxXVzxCfu310TmHcwC8iFxh0Ha5DG7-ySPPolAEWiW7L5Zon19hfE1coXxAgUb_A",
-          "thumbnail_path": "channels/farsivoa/media/51a0c51ce0e69cb71536b8eb.jpg",
-          "thumbnail_sha256": "e1db808aa3c0949744e7ee48d9fafd31e1b45032b454f96293675a1578abe37b",
-          "duration_label": "4:43",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.17K",
-      "posted_at": "2026-07-02T14:52:39+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/222502",
       "reply": null
     }
   ]
