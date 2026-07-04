@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-04T17:21:29.638Z",
+  "fetched_at": "2026-07-04T17:26:25.725Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,40 @@
     "subscriber_count": "159K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4227",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/lFCukSmoru8oVbjNQSAw3dQmNClwDQdQdd_FAysDKaXzu7CITeZ2FoH5lK4XGIN7EvYLOseyNaUZA-Lk-4BukLZBUr9XVBeWtmBadtg_Apw1MmGmN9Xgkcsz7vHQEUAS_Z4qlDJRPVFezpepBscx8biszJtDhtRMUv-TzNWJR1f8Z5luDVViRZa4Gb9NHDjUq75vd4Ppv8_yHP2wlSi31WQmwbYqrkm4723SwpRyDa_hC4MbWVtwxCoPcggw8MQurTWcPb-N3HkiYi8iW3A_2fSPQkIoMDu77vIIV7QqjkogiRLSQYEhjxBwzCc5LmvKH9kjBoMYwpZPQUeZj1-8lg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/741850c3ff98b2b5a0fb945c.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "روی Cloudflare Workers <b>نمیشه</b> پروکسی MTProto معمولی تلگرام ران کرد، چون ورکر کلودفلر دسترسی مستقیم به TCP خام نداره.",
+      "plain_text": "روی Cloudflare Workers نمیشه پروکسی MTProto معمولی تلگرام ران کرد، چون ورکر کلودفلر دسترسی مستقیم به TCP خام نداره.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "💔",
+          "count": "10"
+        },
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "571",
+      "posted_at": "2026-07-04T17:24:41+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4227",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4226",
+        "author_name": "White DNS",
+        "preview_text": "🛡 آموزش کامل نصب و راه‌اندازی سرویس MTProto با ابزار MTProxy فیلترشکن قوی و پرسرعت برای تلگرام https://www.youtube.com/watch?v=pyvB6VSPhwg @WhiteDNS",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/4226"
+      }
+    },
     {
       "id": "MatinSenPaii/4226",
       "author_name": "Matin SenPai",
@@ -38,7 +72,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.4K",
+      "views_label": "4.97K",
       "posted_at": "2026-07-04T16:45:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4226",
@@ -123,7 +157,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "74"
+          "count": "75"
         },
         {
           "emoji": "😁",
@@ -142,7 +176,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.62K",
+      "views_label": "8K",
       "posted_at": "2026-07-04T16:32:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4220",
@@ -185,18 +219,18 @@
         },
         {
           "emoji": "👍",
-          "count": "88"
+          "count": "90"
         },
         {
           "emoji": "❤",
-          "count": "12"
+          "count": "13"
         },
         {
           "emoji": "😭",
           "count": "5"
         }
       ],
-      "views_label": "9.09K",
+      "views_label": "9.42K",
       "posted_at": "2026-07-04T16:17:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4219",
@@ -214,11 +248,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "112"
+          "count": "115"
         },
         {
           "emoji": "😭",
-          "count": "15"
+          "count": "16"
         },
         {
           "emoji": "👍",
@@ -229,7 +263,7 @@
           "count": "4"
         }
       ],
-      "views_label": "11.4K",
+      "views_label": "11.7K",
       "posted_at": "2026-07-04T15:46:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4218",
@@ -247,14 +281,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "88"
+          "count": "91"
         },
         {
           "emoji": "👍",
           "count": "8"
         }
       ],
-      "views_label": "13K",
+      "views_label": "13.2K",
       "posted_at": "2026-07-04T15:27:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4217",
@@ -297,7 +331,7 @@
         },
         {
           "emoji": "❤",
-          "count": "268"
+          "count": "272"
         },
         {
           "emoji": "👍",
@@ -312,7 +346,7 @@
           "count": "3"
         }
       ],
-      "views_label": "15.5K",
+      "views_label": "15.7K",
       "posted_at": "2026-07-04T14:58:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4216",
@@ -346,7 +380,7 @@
         },
         {
           "emoji": "❤",
-          "count": "467"
+          "count": "468"
         },
         {
           "emoji": "😁",
@@ -377,7 +411,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.8K",
+      "views_label": "19K",
       "posted_at": "2026-07-04T14:06:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4215",
@@ -399,7 +433,7 @@
         },
         {
           "emoji": "❤",
-          "count": "224"
+          "count": "225"
         },
         {
           "emoji": "👍",
@@ -414,7 +448,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21.3K",
+      "views_label": "21.5K",
       "posted_at": "2026-07-04T12:34:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4214",
@@ -436,7 +470,7 @@
         },
         {
           "emoji": "❤",
-          "count": "255"
+          "count": "256"
         },
         {
           "emoji": "👍",
@@ -451,7 +485,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21.3K",
+      "views_label": "21.4K",
       "posted_at": "2026-07-04T12:32:36+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4213",
@@ -488,7 +522,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.6K",
       "posted_at": "2026-07-04T09:20:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4212",
@@ -530,7 +564,7 @@
           "count": "7"
         }
       ],
-      "views_label": "25.1K",
+      "views_label": "25.2K",
       "posted_at": "2026-07-04T09:20:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4211",
@@ -658,7 +692,7 @@
           "count": "2"
         }
       ],
-      "views_label": "31.9K",
+      "views_label": "32K",
       "posted_at": "2026-07-03T21:33:28+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4207",
@@ -4785,52 +4819,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4102",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4101",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/PBR8H5M16ERMo2WctkxvkWLNc-ZjwXXHtfMD5IWphwszyal55kZNaYx6dWZT1SY5e990imYCzowOYHT5NfBYnw4OOdC4msWUf8c9-jbX4UHS7byaUzYxsg0iC_-Ly9PN7EV8YJmJQwrhcDNla76Gr3x3lFyirzOl0SDOPpTfzw4ReqrPujyxHlV8u3Z63KS225siIk2nFoniqNIj__l9geXea9ggwz0CMpnsqaAQ5lAmq48aBdjN6B9KYAOSqZTsOPDw99uNedyKFs9ByCRMygV7ODoQxiieLY6YFbJBP48XOIcR255GXxPl8skwKGZLfZ37kvXZUxSBWHg171pBKA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/7f74f043574e5fea5180540e.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "یه گزینه هم داره به اسم disable ai<br>هرچی فیچر ai هست رو غیرفعال می‌کنه توی کل برنامه<br>اینم برای عزیزان دل مخالف ai<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i>",
-      "plain_text": "یه گزینه هم داره به اسم disable ai\nهرچی فیچر ai هست رو غیرفعال می‌کنه توی کل برنامه\nاینم برای عزیزان دل مخالف ai😂",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "🎃",
-          "count": "148"
-        },
-        {
-          "emoji": "😁",
-          "count": "48"
-        },
-        {
-          "emoji": "❤",
-          "count": "8"
-        },
-        {
-          "emoji": "👍",
-          "count": "8"
-        },
-        {
-          "emoji": "👎",
-          "count": "3"
-        }
-      ],
-      "views_label": "30.7K",
-      "posted_at": "2026-06-28T12:50:35+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4101",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4100",
-        "author_name": "Matin SenPai",
-        "preview_text": "",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/Lx3nXHLxVZ2idQ4E6FwuPoE8e2o97bLxacIlAfx3yQpPeykRTHlechozDmWE_CMTkekHcVLiek5XVXhSPndB6SUw8Po66lc9pvxY2bqF0E0qo_kV_YLPH5NUtKF6ICzxFycJv6ps0FhofMMVj7UyjAnOd-RcSHxFgfde1xuuQ7DLa3rmAqlAuz26cCqNFwZpQAb9avg3QyNmO43t7ioeRVG-D0dWR1nxSS3B1ZO1gZB2UfLCAdFxFEGEfL2mDDcNMY5-89YiBmmZ6OEdWlvq9rdvpStgGpbYn2YcKfUhQeCbwKGM_Cc1_VOmQS08oWP7hWe3CidSwPlIn9acsad68g.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/3e221eb08de49ceca1c80471.jpg",
-        "thumbnail_sha256": "2b7d4eaccd787c2c9fb386e8e626ee8c834efa085e65cc2c9389dbd94978708d",
-        "permalink": "https://t.me/matinsenpaii/4100"
-      }
     }
   ]
 }
