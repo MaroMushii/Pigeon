@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-05T17:02:15.262Z",
+  "fetched_at": "2026-07-05T17:06:57.627Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,102 @@
     "subscriber_count": "159K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4243",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/ZeXry-49a_8b481VFgm2jv5OIaEh35a7LCeQiVPKKisVD3koZsqUQxBK0CnMIXVhmC_yqAhbKNqCGIcOC5kKJjA0M4BKzi2hlRkHvBwUp_UCh5qO8nq3bJ9WJ46Ty4y2d5gE5rq7HB1S3vSA_QY34OQN3rVpEJnXUITHPioMMMAUTsACq88n10fN1XhcW3VHMUUGxQgUjJ2nuOH87C3zuHqyZ-Z7BC-LvuXcmrxu3U5qEXiWpbADUc9G6XZfnhEdX_OLURnK28Ag9wdYxNQcZFPURLCfyvSl1HQXlK-vqXyuaAuFxXl8Sm8_m6SlSDVFw42DnivRVayREbhtqSFyfA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/363befbfee21e1942ffcabc7.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">تیم مهسا توی آپدیت جدید، یه صفای حسابی به UI دادن<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9881.png')\"><b>😁</b></i> اما UI کوچیکترین بخش اپ هست که عالی شده.<br>۱- هسته‌ی سایفون برای ایران بهینه شده و به راحتی تمام، وصل میشه(الان با همون پیام میدم)<br>۲- اسکنر قدرتمند اضافه شده برای اسکن آیپی cdn_fronting<br>۳- الان میتونید از سایفون+آیپی تمیزتون، کانفیگ بسازید. مثلا من اینو ساختم با لوکیشن آمریکا:<br><blockquote expandable=\"\">psiphon://?region=US&amp;protocol=cdn_fronting&amp;aggressive=ON&amp;cdn_type=any&amp;cdn_ips=<a href=\"http://104.16.73.68/\" target=\"_blank\" rel=\"noopener\">104.16.73.68</a>%2C104.18.180.6&amp;cdn_sni=<a href=\"http://pypi.org/\" target=\"_blank\" rel=\"noopener\">pypi.org</a>&amp;no_sni=false&amp;skip_cert=true&amp;proto_tls=true&amp;proto_http=true&amp;proto_quic=true&amp;builtin=true#psiphon+2026-07-05+20%3A26%3A39</blockquote><br>۴- یه منو کامل برای Chain کردن دوتا کانفیگ V2ray(مثلا یه کانفیگ آمریکا دارید که کار نمیکنه، یه کلودفلر دارید که کار میکنه. با کلودفلره وصل میشید به آمریکا و آمریکا VPN نهاییتون میشه)</div>",
+      "plain_text": "تیم مهسا توی آپدیت جدید، یه صفای حسابی به UI دادن😁 اما UI کوچیکترین بخش اپ هست که عالی شده.\n۱- هسته‌ی سایفون برای ایران بهینه شده و به راحتی تمام، وصل میشه(الان با همون پیام میدم)\n۲- اسکنر قدرتمند اضافه شده برای اسکن آیپی cdn_fronting\n۳- الان میتونید از سایفون+آیپی تمیزتون، کانفیگ بسازید. مثلا من اینو ساختم با لوکیشن آمریکا:\npsiphon://?region=US&protocol=cdn_fronting&aggressive=ON&cdn_type=any&cdn_ips=104.16.73.68%2C104.18.180.6&cdn_sni=pypi.org&no_sni=false&skip_cert=true&proto_tls=true&proto_http=true&proto_quic=true&builtin=true#psiphon+2026-07-05+20%3A26%3A39\n۴- یه منو کامل برای Chain کردن دوتا کانفیگ V2ray(مثلا یه کانفیگ آمریکا دارید که کار نمیکنه، یه کلودفلر دارید که کار میکنه. با کلودفلره وصل میشید به آمریکا و آمریکا VPN نهاییتون میشه)",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4243?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/BVDkHO_gTEwD7K-bX1R9rNhogVyIQRDnh4lHCzYHpS8jg5WxRnYMaF3Kw0b1MV4Z9mkH58NwsWYC4hxSX8clwrFO9H8oWiyOi9q_uRY3yt9GYx7InJT8TCsEkHDPOBWaeMtyifE-V6zP2vr0H_h9PG91OIAoay88YxSAXE1pszJEp6LeOHBSZEZVZILeFPFYb5Q7QYnfmIVYjTKBno4JtYtuIN-7fU0Nn5h7rtvoTrkvbaKlIDVX392nPVos5C6XaASsSu1ifSKu2AY5fH1qtM3FuE1JazrTkhcy2CymIJhg6tvwaC59aUopmvJHVbRqY6yV6yaAAcTkbQ4JSswjow.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/99cb1be89b46a947487f710d.jpg",
+          "thumbnail_sha256": "5106a894f78d15bc013a7b44038ae927832fcb4560aa8685b81042ac89eda70a",
+          "duration_label": null,
+          "aspect_ratio": 0.455
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4244?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/IgtKoMGq-IdrW2h4keKS8H5JUl-perj2B6DCi6tBEwOu7DUKSiw9GFGmiDK1nBkbnbjQ1PJcdHIhS1G--2Z-_en91rOX1rTI8JQJUbmX6pu4gU_Yqfnjl4hxvFcjtuhhtH80Wgu8o7VffTHzIcx3ekcLxschyxJe6DOxiCgF05c6dliaMOuGrF0wjjmGQrUe6LMnibAIMA45xn3XFzjCzrrEXRSnC8dnVCe3T33PE0z1aW3a7p2XMkPkhrl6jb1-oT1QOamjvTgpuJQzmqBl3Jx6r8iccs2rlb1jMrF8M7MQVQfQO1UsD9fbSWRAZoeSZq30XH5P_GtlrJw2NGO8Xw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/3bac92982672701790bb5197.jpg",
+          "thumbnail_sha256": "47e7cf43ab687bae8919e7685db40997e5343b1a3a389559c07e3947c9abb77c",
+          "duration_label": null,
+          "aspect_ratio": 0.455
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4245?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/RRCuSZ8S_uVdlqVuOYF5BLaETKN2xAwaC0iGf-mDqsRH7GQDoFOIlEnonZ9399CAz0SSkFLs0T3JhzfZ5LFNbYX67anHY64TvghZOYwJR4QUgc4ntlVSXPo2qFQSK4rm8QzdH6iDqaSTWieEMEr4pjwpRiM1EDcLKapebxYujFL8cqF5ZkPIgMXgDriuaxKX5m_05XlW5aiw5nXRK54UjWq9jvsdudwxO6Upn_j73CfhUW-SgiGS-hsGEVAUKZJNWMFwOlmGeubQWARjHp4Bqzpu0M6PAYlMSYQ0RLqE0fPMmrUtXxAnhx_gEx7-a-QtfSdISdTHRu_97uRSBylD0A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/47a867024381083de72bdc3a.jpg",
+          "thumbnail_sha256": "fe11df6c2c24f99e073f9c89dcf5fbaf1cde0858a8024aea3fb204c924795671",
+          "duration_label": null,
+          "aspect_ratio": 0.455
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4246?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/HIt0KUPKG0yrBjN9S8tkHdKtZsrCQqa80UqCs19-4eckSJYyEkxIn6izNPmBSNKlKAQwCQmct7Y2oVQ0fdH_1zZxvgbTMdS64gYDGeeOrgwPurxioNL-MlXcT49KfF4MWKwRm8ZezS9G2w3nRJHtlsOhHGg3C4XLl8ooGSpbymZaBwtEBxG065LzJ5vRoGJKCgc116OclIgttSJ65rFnWYrArDNWA0UbyAtTsufHmHWnLX7lfIG5gibm9NOMpmCncS6Gpo8q-ZekY5buz97g6LQBC6YXH6e_Mta15UxTj7-QW9e3iezhTBwwB1NgiEJbI6sN4ysf57UcnOimLDhBKg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/eb3e6d20e23aff8d37ee9943.jpg",
+          "thumbnail_sha256": "756182e5f85596fbdb908f08c38ae97c34f12c8f2a1ed07a82a8e2cd33118c59",
+          "duration_label": null,
+          "aspect_ratio": 0.455
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4247?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/RmmbEWzLJxZCxjgT_Z8tSM5Vus9Fko_z68Lu9I4WV0SilnpAcXkBIkfQupl81uDJw8pvoCzAoOvCR3Qg7MKrpVdBipRLDuHCdc1dVgaqaUl14eGPNST0WoJfz9OIikm3_4lHt9rUmvlLLIWaDwpusfSWUn5215Urn1dLSMJpLfjBoQ_vuMph2y_bcucsp0v1mHZxzJAm3GfcM_o_Bbpuhy3oTXJXxht_VaJcaENxpKwvQzCeKoFu15cmVNlKf_tJW_RPEX_eCqWzsTwpBSTLEI35_K4Gne1XK_te9LJYt-c1h7xWDcMv_tbTnrfPS4RJrJaL96tEHOUVj1tmM4xxQg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/d444bd4790be9c5b1e77aea8.jpg",
+          "thumbnail_sha256": "c669e2b96eba69f25d351209b343c62b0a0494cfb86cb728b6f640bf3347344e",
+          "duration_label": null,
+          "aspect_ratio": 0.455
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4248?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/LtOFf4sZZ3aQyjzskvK-fm4bJrvZC9zGBmqGLq50B-zHr3ARcTctGNGwJPniDUrvdWP3QMWDsje6RWp2-7CDAbsmfI-_-e2jnr_NBAYAw3e4Y5xOChyB42kb-qFrqrAJPy3GcA9EOqZ4X5_aWzHp8o3VlTPXmiRojVJLaCt1IOI_gTPIoIAZgWCdXxxUcPqMhx3aL4pmrjODbft6meACU3XiRpDuWQvuFVIXIn1h81ahDMl5tmFcTzU0B0h6Lpsmnw-uLIs3WoO1aO4TM0exzDwxs6CbLk8YjF3Ey8F-rUt1NhcHbky9Xu6Fpt-gI-6mU5LD5rJ_FlhmHGygMbu7Vg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/13a6a9cd0acf7f97d41edac0.jpg",
+          "thumbnail_sha256": "56015961c130b666b2982039f719704378f0727870f46666a7a84d8df35b0c5f",
+          "duration_label": null,
+          "aspect_ratio": 0.455
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "20"
+        },
+        {
+          "emoji": "❤",
+          "count": "5"
+        },
+        {
+          "emoji": "🎃",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.61K",
+      "posted_at": "2026-07-05T17:04:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4243",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4242",
       "author_name": "Matin SenPai",
@@ -23,11 +119,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "37"
+          "count": "40"
         },
         {
           "emoji": "❤",
-          "count": "22"
+          "count": "25"
         },
         {
           "emoji": "👎",
@@ -38,7 +134,7 @@
           "count": "2"
         }
       ],
-      "views_label": "4.19K",
+      "views_label": "5.41K",
       "posted_at": "2026-07-05T16:42:49+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4242",
@@ -56,11 +152,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "184"
+          "count": "190"
         },
         {
           "emoji": "😁",
-          "count": "47"
+          "count": "51"
         },
         {
           "emoji": "❤",
@@ -75,7 +171,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.07K",
+      "views_label": "8.98K",
       "posted_at": "2026-07-05T16:18:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4241",
@@ -93,7 +189,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "247"
+          "count": "249"
         },
         {
           "emoji": "🔥",
@@ -108,7 +204,7 @@
           "count": "4"
         }
       ],
-      "views_label": "13.7K",
+      "views_label": "14.3K",
       "posted_at": "2026-07-05T14:35:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4240",
@@ -138,7 +234,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "164"
+          "count": "165"
         },
         {
           "emoji": "🔥",
@@ -161,7 +257,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.3K",
+      "views_label": "15.8K",
       "posted_at": "2026-07-05T14:19:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4239",
@@ -206,7 +302,7 @@
         },
         {
           "emoji": "👎",
-          "count": "53"
+          "count": "54"
         },
         {
           "emoji": "❤",
@@ -217,7 +313,7 @@
           "count": "3"
         }
       ],
-      "views_label": "19.8K",
+      "views_label": "20.1K",
       "posted_at": "2026-07-05T11:31:42+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4237",
@@ -258,7 +354,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.5K",
+      "views_label": "23.6K",
       "posted_at": "2026-07-05T01:27:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4236",
@@ -311,7 +407,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23K",
+      "views_label": "23.1K",
       "posted_at": "2026-07-05T01:27:32+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4235",
@@ -333,7 +429,7 @@
         },
         {
           "emoji": "😁",
-          "count": "889"
+          "count": "892"
         },
         {
           "emoji": "👍",
@@ -360,7 +456,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "24.8K",
       "posted_at": "2026-07-04T22:41:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4234",
@@ -532,7 +628,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.9K",
+      "views_label": "26K",
       "posted_at": "2026-07-04T19:55:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4231",
@@ -598,7 +694,7 @@
           "count": "5"
         }
       ],
-      "views_label": "26.9K",
+      "views_label": "27K",
       "posted_at": "2026-07-04T18:33:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4230",
@@ -631,7 +727,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.9K",
+      "views_label": "26K",
       "posted_at": "2026-07-04T17:36:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4229",
@@ -4785,39 +4881,6 @@
       "posted_at": "2026-06-29T18:04:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4125",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4120",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/NTKk4VkrvHtQZgfU-5a_1KF6xG8ZDbRrirAsq4m-mjfG6Prj_0nX3hj6YHHyffE5Ie9DdGnnplHIWhL8vDe_hRqwG-yQKNbcSa8HLvbNg9cdVJ1Ch6yP-q6valPGr33oIq5ksHhLXXUyC5RbCGfDyy1q2rKuvIk0wIyZdREStg6pz822ybDNwMnKTnmCT7QO8UhkB8vswUfD4f9OzssQgoJPNBdggbRUVqqh2vVdMvo52IKf9-16fMjJEd3QQ-tIiowaGdMRmoF-gxOAq4lAHJ1Fsefgqpad-33FRxPtjjDz7FwqOqUiKFKT_SrUmaCUR-5LnTztbS2zX2cbivAYQw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/d4dd39d73be62c153b9e82e9.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<tg-emoji emoji-id=\"5267500801240092311\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐</b></i></tg-emoji><b> نسخه جدید WhiteDNS VPN 0.0.8 منتشر شد<br></b><br><blockquote><b>میدونم آپدیت کردن این سرعت یکم برای هم شما هم من سخته. اما تونستم دقیق مورد رو پیدا کنم و فیکسش کن</b>ی<b>م. </b></blockquote><b><br></b><br>ممنون از تمام دوستانی که نسخه‌های قبلی رو تست کردند و مشکلات رو گزارش دادند.<br><br><tg-emoji emoji-id=\"5197371802136892976\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29B8F.png')\"><b>⛏</b></i></tg-emoji> در این نسخه، مشکل لود شدن بعضی سرویس‌ها مثل یوتیوب و اینستاگرام برطرف شده و اتصال‌ها پایدارتر شده‌اند.<br><br><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <b>از همه شما بابت اختلال‌ها و مشکلاتی که در اتصال داشتیم صمیمانه عذرخواهی می‌کنیم. ممنون که همراه ما هستید و با گزارش‌هاتون کمک می‌کنید WhiteDNS بهتر بشه.<br></b><br>تیم <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "⭐ نسخه جدید WhiteDNS VPN 0.0.8 منتشر شد\n\nمیدونم آپدیت کردن این سرعت یکم برای هم شما هم من سخته. اما تونستم دقیق مورد رو پیدا کنم و فیکسش کنیم.\n\nممنون از تمام دوستانی که نسخه‌های قبلی رو تست کردند و مشکلات رو گزارش دادند.\n\n⛏ در این نسخه، مشکل لود شدن بعضی سرویس‌ها مثل یوتیوب و اینستاگرام برطرف شده و اتصال‌ها پایدارتر شده‌اند.\n\n✍️ از همه شما بابت اختلال‌ها و مشکلاتی که در اتصال داشتیم صمیمانه عذرخواهی می‌کنیم. ممنون که همراه ما هستید و با گزارش‌هاتون کمک می‌کنید WhiteDNS بهتر بشه.\n\nتیم @WhiteDNS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "259"
-        },
-        {
-          "emoji": "👍",
-          "count": "19"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        },
-        {
-          "emoji": "🔥",
-          "count": "2"
-        }
-      ],
-      "views_label": "24.9K",
-      "posted_at": "2026-06-29T14:48:24+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4120",
       "reply": null
     }
   ]
