@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-05T22:36:56.638Z",
+  "fetched_at": "2026-07-05T22:41:55.411Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,43 @@
     "subscriber_count": "17K"
   },
   "posts": [
+    {
+      "id": "iranlix/9195",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/TkvIz7eB35rb7fo0jbzzpJAR9fbNANAesRWj-7Nf_al66QNf1q8aM_b_PoulfNiLU-ogp-V_Lkr2ibAAmQj2lz2cAiM1WuvhZP5zK3f-4khmvVGaMy1Xqgeez6y9_U5mYXd0FDukT1Ba8_vJu2VDxRCDQJFDxL0p2PDH-RjMOPSxzOPHXXPiJ--Fg0ZrhUdFvEyil1X416eBj0_zsMTN_SdFMAyxdQ8r2wV-tSYPsDtQTQJwi-IVeV4H05KVXmcJbKiIWmdrifdBmL27ppNcBumLYyXE97z1qeDzslnRarymC1NkrYs7Rrt773q-vdvBReUm_02J7MXVjznt9sFIMQ.jpg",
+      "author_photo_path": "channels/iranlix/media/e711c37bfd0efc44c5eb417f.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>زوزه کشی خرزشیا همچنان ادامه داره</b> «<b>چطوری انتقام بگیریم ما</b>»<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "🔻زوزه کشی خرزشیا همچنان ادامه داره «چطوری انتقام بگیریم ما»\n\n@iranlix",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/9195",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/Oc558USz-lygXlMT46dS8UvVQVVVG3qGGC6abZqZy5K_XSl0lEEhaJBXbAtZ6EYROLEhQ4OgCQ77FmKgRguOVTGiXp7__Nf8epzL_LPs8g8zgODax_iyMhiYsLuEi0KAbbTnigyQ1xtBi1dQDahB-h6jqvTY9-OghZna1dqxb8zX44Q1l_iwkiFw9Z-8JlPegsJ9oSX6VVi8mz3rcffRGzssA3TU3EwJY_uGmtBMBStbsVOZ5P0k-PIJH7657GIFBgyZQlo-8HRyDK0afg4FnN0XwiStyvW7CxvsMmEmZ0BdY32sLV8Sbbfio8-QlXUOgCryiQ8acjPObw_yMm2guQ",
+          "thumbnail_path": "channels/iranlix/media/e8f97a360f9bebd6f3b1e31e.jpg",
+          "thumbnail_sha256": "bbe3a74bd3139d076726c2f7d015075dc46f12dca30b0edbedc3b50c04a5eee2",
+          "duration_label": "0:10",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "69",
+      "posted_at": "2026-07-05T22:37:14+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/9195",
+      "reply": {
+        "channel_username": "iranlix",
+        "post_id": "9182",
+        "author_name": "ایرانلیکس",
+        "preview_text": "♦️رقابت تنگاتنگ زوزه کشی بین عرزشیا، این صحنه خاله اکرم داره به تیم عذرا قرصی دیس میده @iranlix",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/KTqbmRzRlDYGwwQen6Rbnpsn3SlOn93GUepKzvCET08k515eoCFtoBAN-gKSpWSSADvHmKTNahsx9SAMe_Z0k4aetkwKbOSrH-UJnmLw94sF2F1eQXA-36U1ECzsU0eA1TmoaZSnANQCsq7zKHdVJXBw2mBx9vJ9IRPX3_7KiI41QiNSGJAQSWX_K0zuaOjnt5j1x4wGZOAzX45YwSbJ-z7ImrTi0V63YeLPldVb9s8aCJtCp9BLL5DXQQicLdv-op2G2z0aJZt2appIOiE49MeOZfSh6Gp_pWG8nPe8c8uFuFEPTUAylOlF39TM1kxtmf_q47NbQ3x5dVP32EARNw",
+        "thumbnail_path": "channels/iranlix/media/0d796a005329e984b602456d.jpg",
+        "thumbnail_sha256": "034cd1216ae840347b3c3baae51bd428060bd6e08631e77cc0b8ca028f26a734",
+        "permalink": "https://t.me/iranlix/9182"
+      }
+    },
     {
       "id": "iranlix/9193",
       "author_name": "ایرانلیکس",
@@ -33,7 +70,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "512",
+      "views_label": "555",
       "posted_at": "2026-07-05T21:14:36+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9193",
@@ -61,7 +98,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "678",
+      "views_label": "713",
       "posted_at": "2026-07-05T20:48:16+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9192",
@@ -89,7 +126,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "709",
+      "views_label": "738",
       "posted_at": "2026-07-05T20:33:36+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9191",
@@ -117,7 +154,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "756",
+      "views_label": "780",
       "posted_at": "2026-07-05T20:19:07+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9190",
@@ -145,7 +182,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "739",
+      "views_label": "764",
       "posted_at": "2026-07-05T20:15:43+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9189",
@@ -173,7 +210,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.02K",
+      "views_label": "1.03K",
       "posted_at": "2026-07-05T18:56:21+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9188",
@@ -201,7 +238,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.06K",
+      "views_label": "1.07K",
       "posted_at": "2026-07-05T18:35:28+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/9187",
@@ -240,7 +277,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.15K",
+      "views_label": "1.16K",
       "posted_at": "2026-07-05T17:39:09+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9185",
@@ -268,7 +305,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.12K",
+      "views_label": "1.13K",
       "posted_at": "2026-07-05T17:38:09+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9184",
@@ -296,7 +333,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.09K",
+      "views_label": "1.1K",
       "posted_at": "2026-07-05T17:33:32+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9183",
@@ -324,7 +361,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.25K",
+      "views_label": "1.26K",
       "posted_at": "2026-07-05T16:36:09+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/9182",
@@ -361,7 +398,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.16K",
+      "views_label": "1.17K",
       "posted_at": "2026-07-05T16:35:14+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9181",
@@ -411,7 +448,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.19K",
+      "views_label": "1.2K",
       "posted_at": "2026-07-05T15:51:14+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9178",
@@ -2890,34 +2927,6 @@
       "posted_at": "2026-07-03T16:54:39+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9086",
-      "reply": null
-    },
-    {
-      "id": "iranlix/9084",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/aPIT88QMsaMd_zhohEvZ2dpPgBxLU_nbfVLc0nEgGammV3cvmF7VNbYK_eqC4RtBxgousLOS-c5Uzx5-P3epZklPp4PuHU3vO_fI59doivuXYwIufjHzWxpQ1NwAzwuVRFc-bqxs-XRM0hMCiaNz7PndBjvwhOl6qIGHCBjONcTZ4-EwyPTxhfV0b7rzcSeBRLTgo9aQybslLi37mPSZaZWIgQLKepxL-QDGqzjrzw_k1tEFya5X3FNI6h-62SVGHtzV2khzeJ68eyOVNWFi532m-pgjOeE3F2MyxLHBtRJtjG8NeDbuq9CUEi-VhNVQGpKlXEBvcT17VTIN-UGD1w.jpg",
-      "author_photo_path": "channels/iranlix/media/e531f27ea2ad6ba576f3f57f.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<b>درخواست شناسایی و ارسال اطلاعات!</b><br>این تصویر متعلق به<b> «سید حسین مجید موسوی افتخاری» فرمانده نیروی هوافضای سپاه </b>و همسرش است.<br><br>هرگونه گزارش از زمان حضور، محل حضور،  یا برنامه رفت و آمد <b>از جمله عکس و فیلم در زمان حضور در مراسم</b> جلاد خامنه ای دارید <b>باقید اوکیشن برای «عدالت علی» ارسال کنید.<br><br>برای ارسال اطلاعات به «بات عدالت» به لینک زیر مراجعه کنید:<br></b><a href=\"http://t.me/EdaalateAli_bot\" target=\"_blank\" rel=\"noopener\"><b>t.me/EdaalateAli_bot</b></a>",
-      "plain_text": "درخواست شناسایی و ارسال اطلاعات!\nاین تصویر متعلق به «سید حسین مجید موسوی افتخاری» فرمانده نیروی هوافضای سپاه و همسرش است.\n\nهرگونه گزارش از زمان حضور، محل حضور، یا برنامه رفت و آمد از جمله عکس و فیلم در زمان حضور در مراسم جلاد خامنه ای دارید باقید اوکیشن برای «عدالت علی» ارسال کنید.\n\nبرای ارسال اطلاعات به «بات عدالت» به لینک زیر مراجعه کنید:\nt.me/EdaalateAli_bot",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/9084",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/jEjJz5EKkXqCYCLwhqzolC_q1_63P146ZJQAyXqvjxo4cd7BfcNb5ORA8jQXOU0EEGTYzsQenbuamrS2owZMmGxW2FZK0XZE3cAETSxt6pbHlP14etaxVdhb0pQ7d_Sejr79sRKYfpkyBF94XkHuORnxA5KVYmr_-uNTLVkvQajtM5m6dlTMgAphapPAIFkp6sKlymHnBbhcyYIMbIhF2L8EF5IrFwycnRn1eeK_dILLCVEv_cDxK9JIuF7ioH_f4ECL5Jxx312L1ktJvDh38yOrAmsFYWp391V3BsAkN6CwM6P0sRysg6lW16gr02sjCJpuYzc9pzCfuNLcR18Liw.jpg",
-          "thumbnail_path": "channels/iranlix/media/7a72c60e44abc7a5af3e58e1.jpg",
-          "thumbnail_sha256": "dbe81675cf9fb7e9aab6ecaaddcc102fdccb3a1d33605ee7c190582a08aa701e",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.14K",
-      "posted_at": "2026-07-03T16:54:38+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/9084",
       "reply": null
     }
   ]
