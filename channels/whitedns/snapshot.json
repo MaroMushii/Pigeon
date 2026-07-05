@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-05T16:52:08.153Z",
+  "fetched_at": "2026-07-05T16:57:02.659Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -33,13 +33,13 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/oXp1FGR-NHYaFhFn9ovPPZ_qzFnShZ4VuSa0CpWAfD7qbMKKGZfxBktMCPuLHoF-BxloiDWRwI74SSO0ABHGXS2nOUpT8rx5IBbvh5qwmSSMQz2e4G01kPzq_J0nm_94F7piltDcFNDRL1d121G6821ZuxmbLxMHOV-KD7Xx4mhYcmppdYWpQ7TACwghR6R98tktwR72pyewt6YctROc24uk658ulzlEpUqb6049_ItRFzIvGrqerlWWekQP_lLIH_KZWjYwlP36CjPMlMZYOw_8Jc1Itw2Ug4LOaWAqdj-DLtjRMwuI_igavUUqf54N1W_ryqUMravV_aNPBrq-og.jpg",
       "author_photo_path": "channels/whitedns/media/ff20705989fe76a15f21fcc2.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b>پروفایلر پروکسی WhiteDNS نسخه ۱.۰.۷</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i><br>پروفایلر پروکسی WhiteDNS یک ابزار تشخیصی برای ویندوز و اندروید است که بهترین ترکیب‌های پروتکل پروکسی/VPN را در یک شبکه پیدا می‌کند. این ابزار می‌تواند هم بررسی‌های محلی بدون VPS و هم تأییدات عمیق‌تر مبتنی بر VPS را اجرا کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i><br><b>ویژگی‌های اصلی</b><br><b>اسکن شبکه محلی:</b> آزمایش سریع بدون نیاز به اعتبارنامه‌های VPS. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8FA0.png')\"><b>🏠</b></i><br><b>اسکن VPS:</b> تأیید از راه دور عمیق‌تر با استفاده از اعتبارنامه‌های VPS شما. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i><br>تست پروتکل‌های VLESS، VMess، Trojan، Shadowsocks، WireGuard، Hysteria و HTTP. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i><br>پشتیبانی از انتقال‌های TCP/RAW، WebSocket، gRPC، XHTTP، HTTPUpgrade و mKCP. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i><br>پشتیبانی از ترکیب‌های TLS، REALITY و بدون امنیت (در صورت معتبر بودن). <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i><br>تشخیص دسترسی‌پذیری، فیلترینگ، پورت‌های مسدود شده، مشکلات SNI/TLS و رفتارهای شبیه DPI. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i><br>نمایش نتایج تشخیصی دقیق و اطمینان از شواهد محلی. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i><br>کمک به شناسایی ترکیب‌های ایمن‌تر پروتکل، پورت، انتقال و امنیت. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i><br><b>نحوه استفاده</b><br>برای یک آزمایش سریع بدون VPS، گزینه <b>اسکن شبکه محلی</b> را انتخاب کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i><br>از <b>تنظیمات پیشرفته</b> برای تست پروتکل‌ها، پورت‌ها، مقادیر SNI، انتقال‌ها و انواع امنیتی بیشتر استفاده کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i><br>وقتی به شواهد قوی‌تر سمت سرور نیاز دارید، گزینه <b>اسکن VPS</b> را انتخاب کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8D.png')\"><b>🌍</b></i><br>آی‌پی VPS، پورت SSH، نام کاربری و رمز عبور یا کلید SSH خود را وارد کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9491.png')\"><b>🔑</b></i><br>اسکن را شروع کنید و پروفایل پیشنهادی کارآمد یا نتایج تشخیصی را بررسی کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><b>نکته مهم</b><br>اسکن محلی نشان می‌دهد که شبکه فعلی شما به چه مواردی دسترسی دارد. اسکن VPS شواهد قوی‌تری ارائه می‌دهد زیرا هم سمت کلاینت و هم آنچه واقعاً به VPS می‌رسد را بررسی می‌کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA790.png')\"><b>🧐</b></i><br>نسخه: <b>۱.۰.۷</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8FB7.png')\"><b>🏷</b></i>",
-      "plain_text": "پروفایلر پروکسی WhiteDNS نسخه ۱.۰.۷ 🛠\nپروفایلر پروکسی WhiteDNS یک ابزار تشخیصی برای ویندوز و اندروید است که بهترین ترکیب‌های پروتکل پروکسی/VPN را در یک شبکه پیدا می‌کند. این ابزار می‌تواند هم بررسی‌های محلی بدون VPS و هم تأییدات عمیق‌تر مبتنی بر VPS را اجرا کند. 🌐\nویژگی‌های اصلی\nاسکن شبکه محلی: آزمایش سریع بدون نیاز به اعتبارنامه‌های VPS. 🏠\nاسکن VPS: تأیید از راه دور عمیق‌تر با استفاده از اعتبارنامه‌های VPS شما. 🖥\nتست پروتکل‌های VLESS، VMess، Trojan، Shadowsocks، WireGuard، Hysteria و HTTP. 🚀\nپشتیبانی از انتقال‌های TCP/RAW، WebSocket، gRPC، XHTTP، HTTPUpgrade و mKCP. 🔄\nپشتیبانی از ترکیب‌های TLS، REALITY و بدون امنیت (در صورت معتبر بودن). 🔒\nتشخیص دسترسی‌پذیری، فیلترینگ، پورت‌های مسدود شده، مشکلات SNI/TLS و رفتارهای شبیه DPI. 🔍\nنمایش نتایج تشخیصی دقیق و اطمینان از شواهد محلی. 📊\nکمک به شناسایی ترکیب‌های ایمن‌تر پروتکل، پورت، انتقال و امنیت. 🛡\nنحوه استفاده\nبرای یک آزمایش سریع بدون VPS، گزینه اسکن شبکه محلی را انتخاب کنید. ⚡️\nاز تنظیمات پیشرفته برای تست پروتکل‌ها، پورت‌ها، مقادیر SNI، انتقال‌ها و انواع امنیتی بیشتر استفاده کنید. ⚙️\nوقتی به شواهد قوی‌تر سمت سرور نیاز دارید، گزینه اسکن VPS را انتخاب کنید. 🌍\nآی‌پی VPS، پورت SSH، نام کاربری و رمز عبور یا کلید SSH خود را وارد کنید. 🔑\nاسکن را شروع کنید و پروفایل پیشنهادی کارآمد یا نتایج تشخیصی را بررسی کنید. ✅\nنکته مهم\nاسکن محلی نشان می‌دهد که شبکه فعلی شما به چه مواردی دسترسی دارد. اسکن VPS شواهد قوی‌تری ارائه می‌دهد زیرا هم سمت کلاینت و هم آنچه واقعاً به VPS می‌رسد را بررسی می‌کند. 🧐\nنسخه: ۱.۰.۷ 🏷",
+      "body_html": "<b>پروفایلر پروکسی WhiteDNS نسخه ۱.۰.۷</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i><br>پروفایلر پروکسی WhiteDNS یک ابزار تشخیصی برای ویندوز و اندروید است که بهترین ترکیب‌های پروتکل پروکسی/VPN را در یک شبکه پیدا می‌کند. این ابزار می‌تواند هم بررسی‌های محلی بدون VPS و هم تأییدات عمیق‌تر مبتنی بر VPS را اجرا کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i><br><b>ویژگی‌های اصلی</b><br><b>اسکن شبکه محلی:</b> آزمایش سریع بدون نیاز به اعتبارنامه‌های VPS. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8FA0.png')\"><b>🏠</b></i><br><b>اسکن VPS:</b> تأیید از راه دور عمیق‌تر با استفاده از اعتبارنامه‌های VPS شما. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i><br>تست پروتکل‌های VLESS، VMess، Trojan، Shadowsocks، WireGuard، Hysteria و HTTP. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i><br>پشتیبانی از انتقال‌های TCP/RAW، WebSocket، gRPC، XHTTP، HTTPUpgrade و mKCP. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i><br>پشتیبانی از ترکیب‌های TLS، REALITY و بدون امنیت (در صورت معتبر بودن). <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i><br>تشخیص دسترسی‌پذیری، فیلترینگ، پورت‌های مسدود شده، مشکلات SNI/TLS و رفتارهای شبیه DPI. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i><br>نمایش نتایج تشخیصی دقیق و اطمینان از شواهد محلی. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i><br>کمک به شناسایی ترکیب‌های ایمن‌تر پروتکل، پورت، انتقال و امنیت. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i><br><b>نحوه استفاده</b><br>برای یک آزمایش سریع بدون VPS، گزینه <b>اسکن شبکه محلی</b> را انتخاب کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i><br>از <b>تنظیمات پیشرفته</b> برای تست پروتکل‌ها، پورت‌ها، مقادیر SNI، انتقال‌ها و انواع امنیتی بیشتر استفاده کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i><br>وقتی به شواهد قوی‌تر سمت سرور نیاز دارید، گزینه <b>اسکن VPS</b> را انتخاب کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8D.png')\"><b>🌍</b></i><br>آی‌پی VPS، پورت SSH، نام کاربری و رمز عبور یا کلید SSH خود را وارد کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9491.png')\"><b>🔑</b></i><br>اسکن را شروع کنید و پروفایل پیشنهادی کارآمد یا نتایج تشخیصی را بررسی کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><b>نکته مهم</b><br>اسکن محلی نشان می‌دهد که شبکه فعلی شما به چه مواردی دسترسی دارد. اسکن VPS شواهد قوی‌تری ارائه می‌دهد زیرا هم سمت کلاینت و هم آنچه واقعاً به VPS می‌رسد را بررسی می‌کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA790.png')\"><b>🧐</b></i><br>نسخه: <b>۱.۰.۷</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8FB7.png')\"><b>🏷</b></i><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "پروفایلر پروکسی WhiteDNS نسخه ۱.۰.۷ 🛠\nپروفایلر پروکسی WhiteDNS یک ابزار تشخیصی برای ویندوز و اندروید است که بهترین ترکیب‌های پروتکل پروکسی/VPN را در یک شبکه پیدا می‌کند. این ابزار می‌تواند هم بررسی‌های محلی بدون VPS و هم تأییدات عمیق‌تر مبتنی بر VPS را اجرا کند. 🌐\nویژگی‌های اصلی\nاسکن شبکه محلی: آزمایش سریع بدون نیاز به اعتبارنامه‌های VPS. 🏠\nاسکن VPS: تأیید از راه دور عمیق‌تر با استفاده از اعتبارنامه‌های VPS شما. 🖥\nتست پروتکل‌های VLESS، VMess، Trojan، Shadowsocks، WireGuard، Hysteria و HTTP. 🚀\nپشتیبانی از انتقال‌های TCP/RAW، WebSocket، gRPC، XHTTP، HTTPUpgrade و mKCP. 🔄\nپشتیبانی از ترکیب‌های TLS، REALITY و بدون امنیت (در صورت معتبر بودن). 🔒\nتشخیص دسترسی‌پذیری، فیلترینگ، پورت‌های مسدود شده، مشکلات SNI/TLS و رفتارهای شبیه DPI. 🔍\nنمایش نتایج تشخیصی دقیق و اطمینان از شواهد محلی. 📊\nکمک به شناسایی ترکیب‌های ایمن‌تر پروتکل، پورت، انتقال و امنیت. 🛡\nنحوه استفاده\nبرای یک آزمایش سریع بدون VPS، گزینه اسکن شبکه محلی را انتخاب کنید. ⚡️\nاز تنظیمات پیشرفته برای تست پروتکل‌ها، پورت‌ها، مقادیر SNI، انتقال‌ها و انواع امنیتی بیشتر استفاده کنید. ⚙️\nوقتی به شواهد قوی‌تر سمت سرور نیاز دارید، گزینه اسکن VPS را انتخاب کنید. 🌍\nآی‌پی VPS، پورت SSH، نام کاربری و رمز عبور یا کلید SSH خود را وارد کنید. 🔑\nاسکن را شروع کنید و پروفایل پیشنهادی کارآمد یا نتایج تشخیصی را بررسی کنید. ✅\nنکته مهم\nاسکن محلی نشان می‌دهد که شبکه فعلی شما به چه مواردی دسترسی دارد. اسکن VPS شواهد قوی‌تری ارائه می‌دهد زیرا هم سمت کلاینت و هم آنچه واقعاً به VPS می‌رسد را بررسی می‌کند. 🧐\nنسخه: ۱.۰.۷ 🏷\n\n@WhiteDNS",
       "media": [],
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "41"
+          "count": "48"
         },
         {
           "emoji": "❤",
@@ -52,11 +52,15 @@
         {
           "emoji": "🍓",
           "count": "1"
+        },
+        {
+          "emoji": "💘",
+          "count": "1"
         }
       ],
-      "views_label": "2.98K",
+      "views_label": "3.26K",
       "posted_at": "2026-07-05T16:18:17+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1110",
       "reply": null
     },
@@ -91,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.5K",
+      "views_label": "6.63K",
       "posted_at": "2026-07-05T14:52:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1109",
@@ -152,7 +156,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.3K",
+      "views_label": "13.4K",
       "posted_at": "2026-07-05T00:50:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1108",
@@ -356,7 +360,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.7K",
+      "views_label": "16.8K",
       "posted_at": "2026-07-04T11:48:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1102",
