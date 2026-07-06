@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-06T17:31:52.882Z",
+  "fetched_at": "2026-07-06T17:37:05.766Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,34 @@
     "subscriber_count": "17K"
   },
   "posts": [
+    {
+      "id": "iranlix/9238",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/TkvIz7eB35rb7fo0jbzzpJAR9fbNANAesRWj-7Nf_al66QNf1q8aM_b_PoulfNiLU-ogp-V_Lkr2ibAAmQj2lz2cAiM1WuvhZP5zK3f-4khmvVGaMy1Xqgeez6y9_U5mYXd0FDukT1Ba8_vJu2VDxRCDQJFDxL0p2PDH-RjMOPSxzOPHXXPiJ--Fg0ZrhUdFvEyil1X416eBj0_zsMTN_SdFMAyxdQ8r2wV-tSYPsDtQTQJwi-IVeV4H05KVXmcJbKiIWmdrifdBmL27ppNcBumLYyXE97z1qeDzslnRarymC1NkrYs7Rrt773q-vdvBReUm_02J7MXVjznt9sFIMQ.jpg",
+      "author_photo_path": "channels/iranlix/media/e711c37bfd0efc44c5eb417f.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>اشک تمساح اژه ای در مراسم تدفین خامنه ای</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "🔻اشک تمساح اژه ای در مراسم تدفین خامنه ای\n\n@iranlix",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/9238",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/mAD8RThnHJlUo8HOrZlO9r0-A0ErOjxIf9Ir9h6GinDxnU_ozEKxqmlLWmljWCTREMQ3zZGoelEeNDb5DQ8KugFTKOXFFI60T-BFpNSJxh4CYvGN9exuKVuM_nrnLvOh5BJZbnpJe251eKrKcfdg5HGTMZpaw7U0DvWZcrjSrelPE8MARRiJJRYF4oyD2qr9dZYgIzPmgR7jaR1a6b1oP5mIg4YzBuoCBJHtmpOXrfnJUJS99ymlf4ZcnjXi1jOTCJ9B68utJlh_T5yRKWRTwDOKRBq-NulmI6eh5aycGGruh767PHLU9ZSYgLzmU5QbgAkaZ6xLgCoyF6eyG17L-A",
+          "thumbnail_path": "channels/iranlix/media/8b6148f3572d6ceefea8e654.jpg",
+          "thumbnail_sha256": "8e3172ba6440f872dedc4385bd6127d714724af259666602603ba7e8f7f2b433",
+          "duration_label": "0:38",
+          "aspect_ratio": 0.8571428571428327
+        }
+      ],
+      "reactions": [],
+      "views_label": "101",
+      "posted_at": "2026-07-06T17:32:17+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/9238",
+      "reply": null
+    },
     {
       "id": "iranlix/9237",
       "author_name": "ایرانلیکس",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "217",
+      "views_label": "284",
       "posted_at": "2026-07-06T17:06:40+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9237",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "344",
+      "views_label": "403",
       "posted_at": "2026-07-06T16:57:35+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9236",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "375",
+      "views_label": "421",
       "posted_at": "2026-07-06T16:45:14+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9235",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "415",
+      "views_label": "458",
       "posted_at": "2026-07-06T16:42:15+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9234",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "641",
+      "views_label": "674",
       "posted_at": "2026-07-06T15:55:15+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9233",
@@ -173,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "839",
+      "views_label": "859",
       "posted_at": "2026-07-06T14:42:18+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9232",
@@ -210,7 +238,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "853",
+      "views_label": "871",
       "posted_at": "2026-07-06T14:32:09+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9231",
@@ -238,7 +266,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "847",
+      "views_label": "864",
       "posted_at": "2026-07-06T14:28:11+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9230",
@@ -266,7 +294,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "919",
+      "views_label": "935",
       "posted_at": "2026-07-06T14:18:02+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9229",
@@ -294,7 +322,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "811",
+      "views_label": "828",
       "posted_at": "2026-07-06T14:16:29+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9228",
@@ -322,7 +350,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "907",
+      "views_label": "918",
       "posted_at": "2026-07-06T13:51:55+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9227",
@@ -350,7 +378,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "930",
+      "views_label": "944",
       "posted_at": "2026-07-06T13:44:59+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9226",
@@ -378,7 +406,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.11K",
+      "views_label": "1.12K",
       "posted_at": "2026-07-06T12:35:39+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9224",
@@ -406,7 +434,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.12K",
+      "views_label": "1.13K",
       "posted_at": "2026-07-06T12:35:39+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9225",
@@ -434,7 +462,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.2K",
+      "views_label": "1.21K",
       "posted_at": "2026-07-06T11:56:16+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9221",
@@ -462,7 +490,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.15K",
+      "views_label": "1.16K",
       "posted_at": "2026-07-06T11:56:16+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9222",
@@ -490,7 +518,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.18K",
+      "views_label": "1.19K",
       "posted_at": "2026-07-06T11:56:16+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9223",
@@ -540,7 +568,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.16K",
+      "views_label": "1.17K",
       "posted_at": "2026-07-06T11:46:23+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9218",
@@ -2937,34 +2965,6 @@
       "posted_at": "2026-07-04T14:42:19+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9126",
-      "reply": null
-    },
-    {
-      "id": "iranlix/9125",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/aPIT88QMsaMd_zhohEvZ2dpPgBxLU_nbfVLc0nEgGammV3cvmF7VNbYK_eqC4RtBxgousLOS-c5Uzx5-P3epZklPp4PuHU3vO_fI59doivuXYwIufjHzWxpQ1NwAzwuVRFc-bqxs-XRM0hMCiaNz7PndBjvwhOl6qIGHCBjONcTZ4-EwyPTxhfV0b7rzcSeBRLTgo9aQybslLi37mPSZaZWIgQLKepxL-QDGqzjrzw_k1tEFya5X3FNI6h-62SVGHtzV2khzeJ68eyOVNWFi532m-pgjOeE3F2MyxLHBtRJtjG8NeDbuq9CUEi-VhNVQGpKlXEBvcT17VTIN-UGD1w.jpg",
-      "author_photo_path": "channels/iranlix/media/e531f27ea2ad6ba576f3f57f.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>زارعی، عضو کمیسیون امنیت طویله مجلس:<br><br>مقامات اروپا را به مراسم پیش چال کنون لواطعلی خامنه‌ای راه ندادیم.</b><br><br><blockquote><b>کسی از اروپا اصلا قبول به حضور در مراسم دیکتاتور قاتل نبود.</b></blockquote><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "🔻زارعی، عضو کمیسیون امنیت طویله مجلس:\n\nمقامات اروپا را به مراسم پیش چال کنون لواطعلی خامنه‌ای راه ندادیم.\n\nکسی از اروپا اصلا قبول به حضور در مراسم دیکتاتور قاتل نبود.\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/9125",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/bWkHYZdbnnB9aLGrPtJTLKzpSV9aSx_OZMMFAFhWXINCBOUis2PfN5IojqtGZertEF_1BI-QTVP5v2hBv0GyAbkARTHkCqrb5aYFzoBkVhLx4AixCyyWH2Osj7mRivVaLfkLBMO7UOUsAoStmTN3aYd9lZKWzBNZWmdE8yB2vQsUw_2JgG04NzUtEqN3FZ3hcds6dquH4RqaAJhwtk52lrlKD1ol_OTDQ3cxpnjyBHyniiT7s923oW5picf6QPFQXd6zNSvjk9BwjTjyapaLSxZWnosdJ8HqftNBvklTtW3WgDk6zmqqvQ-jNUTLjsXe-NtIC71L_YGTQcAK4BByEw.jpg",
-          "thumbnail_path": "channels/iranlix/media/94e6f688bab9ac4a9d8c412f.jpg",
-          "thumbnail_sha256": "1c19a362b72b4e40c20da9a109c2154bf6d39e6b85a7c54a4e8db05996fabc1a",
-          "duration_label": null,
-          "aspect_ratio": 1.4986301369863009
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.1K",
-      "posted_at": "2026-07-04T14:41:26+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/9125",
       "reply": null
     }
   ]
