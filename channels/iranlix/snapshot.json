@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-07T21:06:59.673Z",
+  "fetched_at": "2026-07-07T21:12:13.795Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,59 @@
     "subscriber_count": "17K"
   },
   "posts": [
+    {
+      "id": "iranlix/9295",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/o5tRdro3voWP7YfORG6FCMqrbMz3zepkMmXPT7NbkBe3QksI5TZ19fXUdt5bgMjKNv1TYQXNNWuFFHj0ohIYLxa5IMQXmCg1pvrkyUHS1NN3ITiHKSmcfQWa_TBeq7a4EC1wREEzEt5eJAnNiS6PiyFqg0LWvTnHznjec1TKXB4e081tvzEv7D7N6zJ3ePR1XFTK1jlN7xZU6iftP3BVd3uKe1Q_5lIVB_mvQQMRKXmALyL2IGV4BurxyXNwhzRd-66G3FwlHERdhOZZBVlq4tWN_27jIOIo8iyGK1U7fFcNzyo2fuasAbOhq9fvvOZ1lZNUjnuztN3kTL8-rGOsvg.jpg",
+      "author_photo_path": "channels/iranlix/media/c7921b2411cb0be21e75b932.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><b>ده‌ها انفجار در جنوب کشور (هرمزگان، قشم، هنگام) شنیده شد.</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "💢ده‌ها انفجار در جنوب کشور (هرمزگان، قشم، هنگام) شنیده شد.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/9295",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/BgRLEThb59fk2M78YQlqsveuni8jOJRYW_cmF_pY_fGz8YwRPQaY6923yrgYlzZ7pk-rbCQu8_SPO35aT3rCOTs1BSYJ1z2KKUv5lFU7BqBmLqFmpHG20L_H_C4AcLNnwDWIuVYFLDKnUCnz_uROSvRmW4TONZ2gyNLOXMxlwZpK7iqpadZWOePPTKR4TIWE88gO3jgP5rDNOdt1kfuu6uG2zX5AkIsW5-nMSmF4m84AH6qVEWgrJ4B2bWX97QL6WJUogQnhWv7w-L5tWAOAeSiKg8026U0EQ67jcYiKOVIqctC8-AGPa55BKl-f6jjQeXLlHVRfFEH5fYczsYaiNg.jpg",
+          "thumbnail_path": "channels/iranlix/media/efac51d16ca11335f8c4c9f4.jpg",
+          "thumbnail_sha256": "1fc0a63d8999c458fd0890077956149f605764a08d61584b0112413102ecdd52",
+          "duration_label": null,
+          "aspect_ratio": 1.4999999999999925
+        }
+      ],
+      "reactions": [],
+      "views_label": "89",
+      "posted_at": "2026-07-07T21:10:59+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/9295",
+      "reply": null
+    },
+    {
+      "id": "iranlix/9294",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/o5tRdro3voWP7YfORG6FCMqrbMz3zepkMmXPT7NbkBe3QksI5TZ19fXUdt5bgMjKNv1TYQXNNWuFFHj0ohIYLxa5IMQXmCg1pvrkyUHS1NN3ITiHKSmcfQWa_TBeq7a4EC1wREEzEt5eJAnNiS6PiyFqg0LWvTnHznjec1TKXB4e081tvzEv7D7N6zJ3ePR1XFTK1jlN7xZU6iftP3BVd3uKe1Q_5lIVB_mvQQMRKXmALyL2IGV4BurxyXNwhzRd-66G3FwlHERdhOZZBVlq4tWN_27jIOIo8iyGK1U7fFcNzyo2fuasAbOhq9fvvOZ1lZNUjnuztN3kTL8-rGOsvg.jpg",
+      "author_photo_path": "channels/iranlix/media/c7921b2411cb0be21e75b932.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<b>گزارش‌ها از شنیده شدن حداقل صدای ۸ انفجار در سیریک خبر می‌دهند.</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "گزارش‌ها از شنیده شدن حداقل صدای ۸ انفجار در سیریک خبر می‌دهند.\n\n@iranlix",
+      "media": [],
+      "reactions": [],
+      "views_label": "183",
+      "posted_at": "2026-07-07T21:07:56+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/9294",
+      "reply": {
+        "channel_username": "iranlix",
+        "post_id": "9293",
+        "author_name": "ایرانلیکس",
+        "preview_text": "🚨گزارش های از صدای انفجار در قشم و سیریک @iranlix",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/b3Z5kIc8rIicpQj_u3vOLRjew9HVloGYgy-WxZ-EbY3Twk2CHD5DMQWfhOBkIH9ydFE8q8rVphpb91FoU-DA05D8MZ5iTCP3VrlF4zvWZ8csvUK5srz7b1oTtYF791dPa_vIP3sfTiojMi5boYKMVKbgS0IzJYKwk8ZDDeL3E6Np_2mjzmKGyKSce5xh8zobCmMK_DE0wkOYYBqlTYp1nu360GljmdRkLp9cJqgr3U1TI_R5v46tW1T-dB3cksxx6eQt-n5sdJpeFz7w3Nu0i9_tmvaSat6BeeduJCyjVvyq89qO2hf_qFRr8d00HTpLpOT23nV3lLC7Q1YlI93G4w.jpg",
+        "thumbnail_path": "channels/iranlix/media/20b4b6c25ca215279677ceaa.jpg",
+        "thumbnail_sha256": "67d93d59b46d5695687d758dc9492e41d88f19131ad6caade84bfa1206ce559a",
+        "permalink": "https://t.me/iranlix/9293"
+      }
+    },
     {
       "id": "iranlix/9293",
       "author_name": "ایرانلیکس",
@@ -33,7 +86,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "21",
+      "views_label": "202",
       "posted_at": "2026-07-07T21:06:44+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9293",
@@ -61,7 +114,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "66",
+      "views_label": "270",
       "posted_at": "2026-07-07T21:04:29+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9292",
@@ -89,7 +142,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "213",
+      "views_label": "350",
       "posted_at": "2026-07-07T20:57:44+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9291",
@@ -117,7 +170,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "493",
+      "views_label": "572",
       "posted_at": "2026-07-07T20:30:15+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9290",
@@ -145,7 +198,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "581",
+      "views_label": "634",
       "posted_at": "2026-07-07T20:22:05+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/9289",
@@ -182,7 +235,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "660",
+      "views_label": "690",
       "posted_at": "2026-07-07T20:03:09+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9288",
@@ -210,7 +263,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "899",
+      "views_label": "926",
       "posted_at": "2026-07-07T19:09:38+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9287",
@@ -238,7 +291,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "907",
+      "views_label": "935",
       "posted_at": "2026-07-07T18:59:26+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9286",
@@ -266,7 +319,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "936",
+      "views_label": "960",
       "posted_at": "2026-07-07T18:46:29+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9285",
@@ -294,7 +347,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.05K",
+      "views_label": "1.06K",
       "posted_at": "2026-07-07T18:19:36+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9284",
@@ -322,7 +375,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.1K",
+      "views_label": "1.12K",
       "posted_at": "2026-07-07T17:47:17+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9283",
@@ -350,7 +403,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.13K",
+      "views_label": "1.15K",
       "posted_at": "2026-07-07T17:17:39+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9282",
@@ -378,7 +431,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.14K",
+      "views_label": "1.16K",
       "posted_at": "2026-07-07T16:32:20+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9281",
@@ -406,7 +459,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.2K",
+      "views_label": "1.23K",
       "posted_at": "2026-07-07T16:02:43+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9280",
@@ -434,7 +487,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.17K",
+      "views_label": "1.19K",
       "posted_at": "2026-07-07T15:53:45+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9279",
@@ -462,7 +515,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.18K",
+      "views_label": "1.19K",
       "posted_at": "2026-07-07T15:38:57+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9278",
@@ -490,7 +543,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.17K",
+      "views_label": "1.19K",
       "posted_at": "2026-07-07T15:33:20+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9277",
@@ -518,7 +571,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.25K",
+      "views_label": "1.26K",
       "posted_at": "2026-07-07T14:43:38+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9276",
@@ -2906,62 +2959,6 @@
       "posted_at": "2026-07-05T17:39:09+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9185",
-      "reply": null
-    },
-    {
-      "id": "iranlix/9184",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/TkvIz7eB35rb7fo0jbzzpJAR9fbNANAesRWj-7Nf_al66QNf1q8aM_b_PoulfNiLU-ogp-V_Lkr2ibAAmQj2lz2cAiM1WuvhZP5zK3f-4khmvVGaMy1Xqgeez6y9_U5mYXd0FDukT1Ba8_vJu2VDxRCDQJFDxL0p2PDH-RjMOPSxzOPHXXPiJ--Fg0ZrhUdFvEyil1X416eBj0_zsMTN_SdFMAyxdQ8r2wV-tSYPsDtQTQJwi-IVeV4H05KVXmcJbKiIWmdrifdBmL27ppNcBumLYyXE97z1qeDzslnRarymC1NkrYs7Rrt773q-vdvBReUm_02J7MXVjznt9sFIMQ.jpg",
-      "author_photo_path": "channels/iranlix/media/e711c37bfd0efc44c5eb417f.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A6.png')\"><b>♦️</b></i><b>اژه‌ای با حکم منتسب به مجتبی خامنه‌ای در سمت ریاست قوه‌قضاییه باقی ماند</b>.<br><br><blockquote><b>خوبه . به عزرائیل نزدیکتر میشه هر روز</b></blockquote><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "♦️اژه‌ای با حکم منتسب به مجتبی خامنه‌ای در سمت ریاست قوه‌قضاییه باقی ماند.\n\nخوبه . به عزرائیل نزدیکتر میشه هر روز\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/9184",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/XdyG5vdLigyATYO9iWgDsdN6Nv7dKYzbzV8kBLf-2U8e0bFFRUPYEoGKvWJ9wWHQ-CWWolVJ-shBiLgM4R1B3mF3Rz9scEu9H19gYv5LNLBDOAEIzSofyydT29kf2w3A66yerszKy511zuH67_s4GxVxWNR97WvUhHxC79NFjaZFpijaac8h0cFL2WUvN74THosRoxg3Z8_COmr4gjfaDxtFqdV5gfWci6RmHfjUwKxzpZIMZJj7Por7iG0x0BUdXu6AoPQXbS4cINfFdeYG9ClR2gH4-PmleAynYwyj5HHPpmu7So4fMPSSf3UG5aRS-alk0b-heH6Yn97KyMFzgg.jpg",
-          "thumbnail_path": "channels/iranlix/media/bbd21215ade125e82608f75d.jpg",
-          "thumbnail_sha256": "93ccaeeb351b7f5e4378620912251cc1682068f0a80ac123647336250ed8da27",
-          "duration_label": null,
-          "aspect_ratio": 0.8425000000000294
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.48K",
-      "posted_at": "2026-07-05T17:38:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/9184",
-      "reply": null
-    },
-    {
-      "id": "iranlix/9183",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/TkvIz7eB35rb7fo0jbzzpJAR9fbNANAesRWj-7Nf_al66QNf1q8aM_b_PoulfNiLU-ogp-V_Lkr2ibAAmQj2lz2cAiM1WuvhZP5zK3f-4khmvVGaMy1Xqgeez6y9_U5mYXd0FDukT1Ba8_vJu2VDxRCDQJFDxL0p2PDH-RjMOPSxzOPHXXPiJ--Fg0ZrhUdFvEyil1X416eBj0_zsMTN_SdFMAyxdQ8r2wV-tSYPsDtQTQJwi-IVeV4H05KVXmcJbKiIWmdrifdBmL27ppNcBumLYyXE97z1qeDzslnRarymC1NkrYs7Rrt773q-vdvBReUm_02J7MXVjznt9sFIMQ.jpg",
-      "author_photo_path": "channels/iranlix/media/e711c37bfd0efc44c5eb417f.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A5.png')\"><b>💥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87AEF09F87B1.png')\"><b>🇮🇱</b></i><b>ارتش اسرائیل ویدیویی از هدف قرار دادن ۲ نیروی حزب‌الله که قصد داشتند مخفیانه به سمت نیرو های اسرائیل در شهر مجدل زون نزدیک شوند منتشر کرد</b>.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "💥🇮🇱ارتش اسرائیل ویدیویی از هدف قرار دادن ۲ نیروی حزب‌الله که قصد داشتند مخفیانه به سمت نیرو های اسرائیل در شهر مجدل زون نزدیک شوند منتشر کرد.\n\n@iranlix",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/iranlix/9183",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/lpAZUoz4YD1N02RnxFyhG2mEppfD8h9K57cGWZSqgYGfL8EmUk0VAUN-nTjVw-Pn0GUyAzQL70PnFxvUCsFIkvSYqiF0w1dTBbGt_9m1BRq5kuQU1sZBOasPCbsR6zgdGRooOMFEgcsRL98ma089pLfo7P46guOqUyYoYcrAvI5sxNxmgeYd4p5ex02WID1MqJkNh3nPoRhaKscGKWo162kDWFRoqqcU9LRi8XDGme8qUP2X0wj2JVGwA2DmN-8CcouCoMRligXUlO92VVJr35jXUXJylasWbU4fzpysueIV8YSFs96WUaDbHgVvsfo1o3sscfGNg41tAE2dFR__Gw",
-          "thumbnail_path": "channels/iranlix/media/4d1aeec47f82595ad783d9c5.jpg",
-          "thumbnail_sha256": "4f7bc9213013502f026a61725c27bfb7781dab425661a965e1c9387829335fde",
-          "duration_label": "0:13",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.39K",
-      "posted_at": "2026-07-05T17:33:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/9183",
       "reply": null
     }
   ]
