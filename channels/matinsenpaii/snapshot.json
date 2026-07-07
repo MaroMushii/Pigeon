@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-07T11:17:00.970Z",
+  "fetched_at": "2026-07-07T11:21:59.530Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,52 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4288",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Lk14xDE_mG5B31rut5w2PAVhJMMtqMJaanGw-KDZJVCLfYv6oMVp7ZmgA5zLMZNbRP7qCbve8GAUpIF1ob8vSupGmBezlK4Cw3dGdxjIFJDBUPzQ_bDWd_X2ob6ou3OUNfAWcebQn04Zz-1gIzdPU4fxILrNeD6qQymSnl5irHAzUMrNz3wH1oywSg3bfd3DV-DOTtesFzqyCyBbbo1LZ19ePni1pdNmZQOJKAOF1rnGzM7IAVKvVH-MMK9UyRteTEgA1CdGDTaYOxsyN31r-6xJ1iSvcbe5HSVw5goik7sgTEo2sUFzlOi3Heimf80ZOJ1TA-BPdTVDt1ITMCyhHw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/281c809afb2a2fe041e8d263.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "نتیجه‌ی زیبا:",
+      "plain_text": "نتیجه‌ی زیبا:",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4288",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/cIpELbjZ4s03UhcYQQ2i45-Mefcy-2Cler2JhXsB7bdJ7GBze1AUb8TaBvbIWYZkxtDuD615H3JOmvISG_jAr1cTvKfFlRJnJgyt8ladI6SPkLSAdKqTmWef5zA6nLuS7ELJc7R1hCY1hKRX8KL55GHGFmxc02XCBTTm1TktKQEdp4uRgLY6CPMC2adBCDZw6sbaR42J5jACiz71lfRWhK2kagp__Fwoe-bw_dpe5gFOm5UYQfLFkNvh9xTR9YpNAKn8XOVrxxVLejKI09sjFFUQnddpjTZyT70NUiEwsW3dgLX9tJaB2hVxJWClc4aJN2L4hP9Xez9KA_qkUPk8Kw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/84cbbe1b2b65ebf6d2fa4472.jpg",
+          "thumbnail_sha256": "0911aeb1bb3013558f0af899e7b3c4d395960f845224b59abd5d9a34e5f75d10",
+          "duration_label": null,
+          "aspect_ratio": 1.735357917570499
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "21"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        }
+      ],
+      "views_label": "2.19K",
+      "posted_at": "2026-07-07T11:17:06+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4288",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4286",
+        "author_name": "Matin SenPai",
+        "preview_text": "هرمس نتونست لینک مقاله‌ای که بهش دادم رو باز کنه به خاطر firewall امنیتی توییتر، خیلی راحت با قابلیت Browser که اینجا: https://youtu.be/_30_ng3Hyfs یاد دادم، روی دسکتاپ برام هم عکس‌هاش رو دانلود کرد هم مقاله رو کامل ترجمه کرد:)",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/ghANVMDWak_5utdESixMxpelYjGwKyCsVM4iVQqHJZvuBlhW-4wqarWXT9wUaA4vG7Mp0MCxi7qxhLeti807aPPvQqf5PgiH5HHFmas__X8YL_6t46s_rK1WNqTzQ8m-TKtzAskm8gGRhiZ1QK-tQ7DrUNYA-LA7-k6174UApLED0zyxpxSEZJ78gFCTZtA8TqNf0v-9HwYk_tGur9wYqal5haQ0CktUIuHaFLkD6wPSrjR-4YmH1zZB-qFfBKbT5thza7P0SnL_Ged8zar-ouLgq_oDLU4_3oSrmrE9FZo0asrxX2GDzwclrjJySCoIeqk_ZEQkV_-pQTjiXREhEQ.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/6085b9f56113e4085c72fdbf.jpg",
+        "thumbnail_sha256": "724ef98d1e5412bf9c55c869a8a624945388b2a3b8d851c94303173cd02665b1",
+        "permalink": "https://t.me/matinsenpaii/4286"
+      }
+    },
     {
       "id": "MatinSenPaii/4286",
       "author_name": "Matin SenPai",
@@ -46,7 +92,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "23"
+          "count": "31"
         },
         {
           "emoji": "👍",
@@ -57,7 +103,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.68K",
+      "views_label": "4.01K",
       "posted_at": "2026-07-07T11:08:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4286",
@@ -87,18 +133,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "33"
+          "count": "40"
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "💔",
           "count": "1"
         }
       ],
-      "views_label": "5.63K",
+      "views_label": "6.57K",
       "posted_at": "2026-07-07T10:53:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4285",
@@ -116,14 +162,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "69"
+          "count": "71"
         },
         {
           "emoji": "👍",
           "count": "6"
         }
       ],
-      "views_label": "10.7K",
+      "views_label": "11.1K",
       "posted_at": "2026-07-07T09:34:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4284",
@@ -150,7 +196,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "137"
+          "count": "138"
         },
         {
           "emoji": "💔",
@@ -165,7 +211,7 @@
           "count": "3"
         }
       ],
-      "views_label": "14.1K",
+      "views_label": "14.5K",
       "posted_at": "2026-07-07T08:31:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4283",
@@ -215,7 +261,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "202"
+          "count": "206"
         },
         {
           "emoji": "👍",
@@ -238,7 +284,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.4K",
+      "views_label": "15.7K",
       "posted_at": "2026-07-07T08:17:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4281",
@@ -271,7 +317,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.3K",
       "posted_at": "2026-07-07T08:08:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4280",
@@ -287,6 +333,10 @@
       "plain_text": "یه پروژه‌ی خیلی عجیب روی گیت‌هاب (با اسم Pon) منتشر شده به تازگی که تونسته پایتون ۳.۱۴ رو مستقیما به کد ماشین کامپایل کنه و دیگه نیازی به Interpreter و مفسر نداره. این برای پرفورمنس پروژه‌های پایتونی می‌تونه یه انقلاب باشه👍\nhttps://github.com/can1357/pon\n\n✉️ t.me/MatinSenPaii",
       "media": [],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "2"
+        },
         {
           "emoji": "🔥",
           "count": "215"
@@ -308,7 +358,7 @@
           "count": "6"
         }
       ],
-      "views_label": "17.4K",
+      "views_label": "17.7K",
       "posted_at": "2026-07-07T07:33:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4279",
@@ -413,7 +463,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "304"
+          "count": "305"
         },
         {
           "emoji": "❤",
@@ -4791,72 +4841,6 @@
         "thumbnail_path": "channels/matinsenpaii/media/3721913d94544dba29e22a4d.jpg",
         "thumbnail_sha256": "2a6277cfab1f00f4321b2088cd254244b4c92e94a9147976a90562695f897a1d",
         "permalink": "https://t.me/matinsenpaii/4161"
-      }
-    },
-    {
-      "id": "MatinSenPaii/4161",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/LT2f9SjUzaqJO7RWmztSs8Jr5M6gZzlxUGC9yDEp1ZYBUag3JR1kL_EPR74wh1FE5dehrxebKaLHMLEBjdxRFQWDqCvcI_B6YUBQdNQpglkRIGaFLC6i08bYLK0CAh3nrJkRAcbDKgKp9rXBRzHnBfegsQtJZ6x3PGZBz7K0bSP-6Vfzd6TvOOyeAXsU7_E_JVQOA1ujsERHgve-Jczf5UGMQCl3JxbISgI_3JAaZ2IO3b2wBWbXz1Cl6rP8cFr-ZAR2nalCs6J0DloniWUqwtxhp8eTappZVlUNzB01VUB2uXl_dlb0acxmb0aIDn8yX_SCQ6hsV-aeVfEV4ZpSpg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/bc53cca5aa88d2920f0f9f9d.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "تمام<br>رادار جنگ الان فعاله و AI هر نیم ساعت یه بار، خبرگزاری‌ها و پنج-شیش تا کانال تلگرامی رو چک می‌کنه و اگر جنگ شده باشه و اسرائیل و آمریکا به ایران، یا برعکس حمله کرده باشن، پیامک میده",
-      "plain_text": "تمام\nرادار جنگ الان فعاله و AI هر نیم ساعت یه بار، خبرگزاری‌ها و پنج-شیش تا کانال تلگرامی رو چک می‌کنه و اگر جنگ شده باشه و اسرائیل و آمریکا به ایران، یا برعکس حمله کرده باشن، پیامک میده",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4161",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/hNDHM3BCg-JopextW9SRkz9vEe-suhgKSL2U0NLQS6ZDZQn44q1SawcriE7p1EMmFMWZ1xmfT0WuXlRFSo3J006AfXdMcyZvhwt-zl0xwBtlu0nF9vXVHnaHRJbh13sFO5zhrbjeN_9CIMeCnff6y1PfWLYETwtfNqXkrUht1fiOwO5kkmXYBT-7ZZINWkBAGWAZ48buDusT-EGJz2M19mLDwUnCW59bFjYxKUf9iR4WIIdRMe9eB0tw7CSxn1OENAPNqZvlUe8tIVdde1H1-gAuYih2sfkIR6oi9_zdMZfZD_ObNxbyzXYTURrXcWotmIce7V-_bXaAWJw_31dQ2w.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/e4be77b03fa4efb2be6f28ca.jpg",
-          "thumbnail_sha256": "6a5ec06dcee7edb0bb4bd71f4b39da8167ca38cbcf39dbbabd619fd2b40563a2",
-          "duration_label": null,
-          "aspect_ratio": 1.4234875444839858
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "838"
-        },
-        {
-          "emoji": "🔥",
-          "count": "88"
-        },
-        {
-          "emoji": "❤",
-          "count": "36"
-        },
-        {
-          "emoji": "👍",
-          "count": "33"
-        },
-        {
-          "emoji": "👎",
-          "count": "11"
-        },
-        {
-          "emoji": "🎃",
-          "count": "7"
-        },
-        {
-          "emoji": "😨",
-          "count": "3"
-        }
-      ],
-      "views_label": "30.5K",
-      "posted_at": "2026-07-01T12:56:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4161",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4159",
-        "author_name": "Matin SenPai",
-        "preview_text": "می‌خوام باهاش یه رادار جنگ بنویسم",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/4159"
       }
     }
   ]
