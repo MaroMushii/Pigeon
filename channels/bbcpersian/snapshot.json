@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-07T13:31:53.353Z",
+  "fetched_at": "2026-07-07T13:34:05.755Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "bbcpersian/285945",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/HApgx9NGyRn6ML-zSJQzUFUmSuT7vZbpnC9NbCM2HdrMB4eq6g4jOoZBJVrnnf4vDP_DxeHhQ8TRgGBvcwLa1A-dEjEX9ZpquwW4NHN7Tj3wY-xEuspU595iu-nM5HsjypmlYZJP_6EmktXTWTIacBI1cgNbi2Gy83Ffwcx251x9YHCU7nLmC0_ATy2YVW0o2hbnfhF30qdh8TSc5o7u19LgqWi25h65DIrVkF8l4CsIEYNIYXAktON1c5aiIb2V8HyZb81uqKCSoJ_5lVpXixpPYQk1tAxyKqbFuCsk9HLA97iP4b9ypcQkQwe3PyjP1-qVoQe4wYArweZbHVRV9Q.jpg",
+      "author_photo_path": "channels/bbcpersian/media/c1bb3e87c3bb214d2d96ed7d.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>سرخط خبرها، سه‌شنبه ۱۶ تیر ۱۴۰۵</b><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "🔻سرخط خبرها، سه‌شنبه ۱۶ تیر ۱۴۰۵\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/285945",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/LrHpkHCmFCKPh-6dhfQQU90YKlpeTqxRJuLBQYW8TU5N_-rCF5vU65zKLaUh8fpcZaY8ec05l0McRoHpdjajODUuGQbnlvRJEmNa5aFyTXyGnY1tr9g-2mMVkhnFvg5Hx-wGULps0bCWuXfc2aJI_55IeB2DD6ujuaL4HLYT9nNDScANNtyLpM1ciVRH1IKscYqIY1NTk1-n-d0y7jgaIXFR5nCHKYE52Z_9D7w-kLIk4zO1pB0Q93w0AERaVwe77hWK-vp4Tj1k28zKKB0eqKYfX1Ehg03QDBllstZGkZa-armxV47ED8HIuNkj7zyff5-yXnofv3Uu2ivuU8B1TQ",
+          "thumbnail_path": "channels/bbcpersian/media/6e384828fa64fa55fc158788.jpg",
+          "thumbnail_sha256": "8cbefb4380d4aa872f2db824ddd196dd316c5ce786b2eb22a4a0f51230cfed66",
+          "duration_label": "0:55",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "16",
+      "posted_at": "2026-07-07T13:33:03+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/285945",
+      "reply": null
+    },
+    {
       "id": "bbcpersian/285944",
       "author_name": "BBCPersian",
       "author_photo_url": "https://cdn4.telesco.pe/file/HApgx9NGyRn6ML-zSJQzUFUmSuT7vZbpnC9NbCM2HdrMB4eq6g4jOoZBJVrnnf4vDP_DxeHhQ8TRgGBvcwLa1A-dEjEX9ZpquwW4NHN7Tj3wY-xEuspU595iu-nM5HsjypmlYZJP_6EmktXTWTIacBI1cgNbi2Gy83Ffwcx251x9YHCU7nLmC0_ATy2YVW0o2hbnfhF30qdh8TSc5o7u19LgqWi25h65DIrVkF8l4CsIEYNIYXAktON1c5aiIb2V8HyZb81uqKCSoJ_5lVpXixpPYQk1tAxyKqbFuCsk9HLA97iP4b9ypcQkQwe3PyjP1-qVoQe4wYArweZbHVRV9Q.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "تازه‌ترین خبرهای ایران و جهان، سه‌شنبه ۱۶ تیر ۱۴۰۵ از رادیو بی‌بی‌سی در لندن",
       "media": [],
       "reactions": [],
-      "views_label": "4.6K",
+      "views_label": "5.58K",
       "posted_at": "2026-07-07T13:19:42+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/285944",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "8.31K",
+      "views_label": "8.95K",
       "posted_at": "2026-07-07T13:10:35+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/285943",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "17.6K",
+      "views_label": "17.9K",
       "posted_at": "2026-07-07T12:43:45+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/285942",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "17.9K",
+      "views_label": "18.5K",
       "posted_at": "2026-07-07T12:39:14+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/285941",
@@ -121,7 +149,7 @@
       "plain_text": "🔻خارج‌سازی خدمه کشتی قطری که در تنگه هرمز هدف پرتابه ناشناس قرار گرفت\n\nسه منبع آگاه به رویترز گفته‌اند که خدمه کشتی حامل گاز مایع طبیعی (ال‌ان‌جی) قطر که در تنگه هرمز هدف اصابت پرتابه ناشناس قرار گرفته بود، از کشتی به بیرون منتقل شده‌اند.\n\nبه گفته این منابع، این کشتی پس از آنکه از سمت چپ بدنه هدف قرار گرفت، پیام کمک اضطراری ارسال کرد.\n\nاین منابع افزودند که کشتی آسیب قابل توجهی دیده است، اما هنوز وضعیت نهایی آن مشخص نیست.\n\nپیشتر گزارش داده بودیم که یک نفت‌کش در حین عبور از تنگه هرمز در سمت عمان، هدف اصابت یک پرتابه ناشناس قرار گرفته است.\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "24.4K",
+      "views_label": "24.7K",
       "posted_at": "2026-07-07T12:09:18+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/285940",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "29.7K",
+      "views_label": "30K",
       "posted_at": "2026-07-07T11:34:06+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/285939",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "34.1K",
+      "views_label": "34.5K",
       "posted_at": "2026-07-07T11:01:32+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/285938",
@@ -205,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "39.4K",
+      "views_label": "39.7K",
       "posted_at": "2026-07-07T10:24:10+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/285937",
@@ -221,7 +249,7 @@
       "plain_text": "🔻تابوت علی خامنه‌ای امروز پس از تشییع در قم به نجف منتقل می‌شود\n\nتابوت آیت‌الله علی خامنه‌ای امروز پس از تشییع در قم به نجف منتقل می‌شود.\n\nبه گزارش خبرگزاری مهر، مصطفی خامنه‌ای، فرزند بزرگ رهبر سابق جمهوری اسلامی، مسعود پزشکیان و محمدباقر قالیباف، رئیس‌جمهور و رئیس مجلس ایران، هم به نجف می‌روند و در مراسم تشییع در عراق حضور خواهند داشت.\n\nمراسم تشییع علی خامنه‌ای قرار است روز چهارشنبه در شهرهای کربلا و نجف در عراق برگزار شود.\n\nرهبر سابق جمهوری اسلامی پنجشنبه در حرم امام رضا در مشهد به خاک سپرده خواهد شد.\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "47.4K",
+      "views_label": "47.7K",
       "posted_at": "2026-07-07T09:24:13+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/285936",
@@ -3160,34 +3188,6 @@
       "posted_at": "2026-07-05T09:14:30+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/285775",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/285774",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/RJn1NYo18tfnL8J4pMUu_GGgtVk3em0YaOWco_TJNAqRCMXVcddrCx6jqE167El9n54vjuaVVJMfLT5f0KnarUy7BjwVw5woJ95Tnnamwz3wYBGVlZnSrjjAenocOcBr7zn1YGiDgLTIY00ajJ0va5D6_8hLTsio6j-N5pjaRba-Pp6jgVuIPewa364Ac2bctdBauUCdyx72VXUAJlUBrqSiyCeTMQSvCI84j-MFGq7KhvFJBae0mZFsLAiin5NdbrMrMyJCt7VFGJWf8LdhZiqQyijPJiV3TSNW_TNbwbtHzYr5Kcz1-7L2t4S7S1AOW13qbdUsM2DvXSf0QrqiAA.jpg",
-      "author_photo_path": "channels/bbcpersian/media/93e4bd354d76e26d81ba431e.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>میثم، مسعود و مصطفی خامنه‌ای، سه پسر آیت‌الله علی خامنه‌ای، در صف نخست مراسم نماز حاضر شدند. با این حال، مجتبی خامنه‌ای، رهبر فعلی حکومت در این مراسم حضور نیافت.  <br>جعفر سبحانی از مراجع تقلید، نماز میت آیت‌الله خامنه‌ای را در مصلی تهران خواند. در ویدیویی که خبرگزاری ایرنا منتشر کرده است، احمد وحیدی نیز در این مراسم حضور پیدا کرد، تصاویری از او در حال نماز خواندن با کلاهی که تا حدی صورت او را پوشانده است منتشر شده است. در همین حال محمدعلی ابطحی، مشاور محمد خاتمی، رئیس‌جمهور پیشین ایران از دعوت نشدن مقام‌های سابق به مراسم تشییع انتقاد کرد. قرار است مراسم تشییع و عزاداری علی خامنه‌ای طی شش روز در شهرهای مختلف ایران و عراق ادامه یابد و مراسم خاکسپاری او روز پنجشنبه در مشهد برگزار شود.<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻میثم، مسعود و مصطفی خامنه‌ای، سه پسر آیت‌الله علی خامنه‌ای، در صف نخست مراسم نماز حاضر شدند. با این حال، مجتبی خامنه‌ای، رهبر فعلی حکومت در این مراسم حضور نیافت.\nجعفر سبحانی از مراجع تقلید، نماز میت آیت‌الله خامنه‌ای را در مصلی تهران خواند. در ویدیویی که خبرگزاری ایرنا منتشر کرده است، احمد وحیدی نیز در این مراسم حضور پیدا کرد، تصاویری از او در حال نماز خواندن با کلاهی که تا حدی صورت او را پوشانده است منتشر شده است. در همین حال محمدعلی ابطحی، مشاور محمد خاتمی، رئیس‌جمهور پیشین ایران از دعوت نشدن مقام‌های سابق به مراسم تشییع انتقاد کرد. قرار است مراسم تشییع و عزاداری علی خامنه‌ای طی شش روز در شهرهای مختلف ایران و عراق ادامه یابد و مراسم خاکسپاری او روز پنجشنبه در مشهد برگزار شود.\n\n@BBCPersian",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/bbcpersian/285774",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/UHfW90pve1T4WlWl4a65pr6rzCbyGTJn5milqDAok1iALWU46O0Q9fTz2LmrsIdxa7KUOKSwjWDNGTK0uu5sdGfqyuw75LASA7AzA3ZIb56nQQcxJOx1oWKnjrNpo0DiEbFjEQGSJ5Cde-V1kPfVmIftjL-IARPLXxKbH_1IKGnOtfvbTEysvMOHb2rKSLq8siZu5V09SrxJfbLsqeCF-15Acki-b25m3yKbyEfqT95mPC12fFztfZtXYkMICSBewOmkNSQdfs2QBDbiZKpWCQaaresdx7yPHjkwrKSx7t7m1zyAy3Xbx0hxkI-AxRIN9ZlaxksvbgtP51t4gjc09Q",
-          "thumbnail_path": "channels/bbcpersian/media/a50fdb8c81768e7db7de82bf.jpg",
-          "thumbnail_sha256": "01d953cb48c475c389ed6f4f8ee11bc95b8b077d319bdf7086c2b0ffe416bbbe",
-          "duration_label": "0:24",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "55.6K",
-      "posted_at": "2026-07-05T08:29:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/285774",
       "reply": null
     }
   ]
