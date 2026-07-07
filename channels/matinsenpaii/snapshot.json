@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-07T15:02:07.700Z",
+  "fetched_at": "2026-07-07T15:07:02.703Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,51 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4293",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Lk14xDE_mG5B31rut5w2PAVhJMMtqMJaanGw-KDZJVCLfYv6oMVp7ZmgA5zLMZNbRP7qCbve8GAUpIF1ob8vSupGmBezlK4Cw3dGdxjIFJDBUPzQ_bDWd_X2ob6ou3OUNfAWcebQn04Zz-1gIzdPU4fxILrNeD6qQymSnl5irHAzUMrNz3wH1oywSg3bfd3DV-DOTtesFzqyCyBbbo1LZ19ePni1pdNmZQOJKAOF1rnGzM7IAVKvVH-MMK9UyRteTEgA1CdGDTaYOxsyN31r-6xJ1iSvcbe5HSVw5goik7sgTEo2sUFzlOi3Heimf80ZOJ1TA-BPdTVDt1ITMCyhHw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/281c809afb2a2fe041e8d263.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>زبان برنامه‌نویسی Cyrus(کوروش) چیست؟</b><br><br>سایروس یک زبان برنامه‌نویسی متن‌باز و جدید است که برای ساخت نرم‌افزارهای زیرساختی و سیستمی طراحی شده؛ یعنی همون نوع نرم‌افزارهایی که نزدیک به سخت‌افزار کار می‌کنن و به سرعت و کنترل دقیق نیاز دارن (مثل سیستم‌عامل، درایور، یا ابزارهای زیرساختی).<br>فلسفه اصلی سایروس این است: هیچ اتفاقی پشت پرده و بدون اطلاع برنامه‌نویس نیفتد. یعنی کد باید همیشه روشن و قابل پیش‌بینی باشد و برنامه‌نویس دقیقاً بداند هر خط کد چه کاری انجام می‌دهد، بدون رفتارهای پنهان یا پیچیدگی‌های اضافه.<br><br><b>چند ویژگی مهم سایروس:</b><br><b>بدون گاربیج کالکتور</b>: بر خلاف خیلی از زبان‌های مدرن (مثل پایتون یا جاوا) که حافظه رو خودکار مدیریت می‌کنن، سایروس این کار رو به خود برنامه‌نویس می‌سپارد. این یعنی کنترل کامل و دقیق‌تر روی مصرف حافظه، که برای نرم‌افزارهای سریع و حساس خیلی مهمه.<br><b>کامپایل مستقیم به کد ماشین</b>: سایروس از فناوری معروف و قدرتمند LLVM استفاده می‌کند تا کد رو قبل از اجرا به‌طور کامل به زبان ماشین تبدیل کند؛ نتیجه‌اش برنامه‌ای سریع و بدون واسطه است.<br><b>سازگاری استاندارد با سیستم‌عامل‌ها</b>: طوری طراحی شده که به‌راحتی با نحوه‌ی کار سیستم‌عامل‌های رایج هماهنگ باشد.<br><b>سینتکس ساده و مینیمال</b>: تلاش شده که نوشتن و خواندن کد تا حد امکان ساده و بدون ابهام باشد.<br><b>قابلیت‌های پیشرفته بدون هزینه اضافه</b>: مثل ژنریک‌ها (نوشتن کد قابل استفاده مجدد برای انواع مختلف داده) و چندریختی (Polymorphism)، بدون این‌که سرعت اجرای برنامه رو کند کنند.<br><b>ساخت افزایشی (Incremental Build)</b>: یعنی موقع تغییر کد، فقط بخش‌های تغییر‌کرده دوباره کامپایل می‌شوند، نه کل پروژه؛ این باعث سریع‌تر شدن فرآیند توسعه می‌شود.<br><br>هدف کلی سایروس این است که زبانی باشد نزدیک به سخت‌افزار و ماشین، اما بدون این‌که خوانایی و سادگی کد قربانی شود.<br><br>این پروژه هنوز در حال توسعه است و به‌تازگی نسخه بتا (Beta) آن منتشر شده. اگر دوست دارید بیشتر بدانید، امتحانش کنید، یا در توسعه‌اش مشارکت کنید:<br>مستندات: <a href=\"https://cyrus-lang.ir/en\" target=\"_blank\" rel=\"noopener\">https://cyrus-lang.ir/en</a><br>گیت‌هاب: <a href=\"https://github.com/cyrus-lang/Cyrus\" target=\"_blank\" rel=\"noopener\">https://github.com/cyrus-lang/Cyrus</a><br>کامیونیتی: <a href=\"https://t.me/cyrus_lang\" target=\"_blank\">@cyrus_lang</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "زبان برنامه‌نویسی Cyrus(کوروش) چیست؟\n\nسایروس یک زبان برنامه‌نویسی متن‌باز و جدید است که برای ساخت نرم‌افزارهای زیرساختی و سیستمی طراحی شده؛ یعنی همون نوع نرم‌افزارهایی که نزدیک به سخت‌افزار کار می‌کنن و به سرعت و کنترل دقیق نیاز دارن (مثل سیستم‌عامل، درایور، یا ابزارهای زیرساختی).\nفلسفه اصلی سایروس این است: هیچ اتفاقی پشت پرده و بدون اطلاع برنامه‌نویس نیفتد. یعنی کد باید همیشه روشن و قابل پیش‌بینی باشد و برنامه‌نویس دقیقاً بداند هر خط کد چه کاری انجام می‌دهد، بدون رفتارهای پنهان یا پیچیدگی‌های اضافه.\n\nچند ویژگی مهم سایروس:\nبدون گاربیج کالکتور: بر خلاف خیلی از زبان‌های مدرن (مثل پایتون یا جاوا) که حافظه رو خودکار مدیریت می‌کنن، سایروس این کار رو به خود برنامه‌نویس می‌سپارد. این یعنی کنترل کامل و دقیق‌تر روی مصرف حافظه، که برای نرم‌افزارهای سریع و حساس خیلی مهمه.\nکامپایل مستقیم به کد ماشین: سایروس از فناوری معروف و قدرتمند LLVM استفاده می‌کند تا کد رو قبل از اجرا به‌طور کامل به زبان ماشین تبدیل کند؛ نتیجه‌اش برنامه‌ای سریع و بدون واسطه است.\nسازگاری استاندارد با سیستم‌عامل‌ها: طوری طراحی شده که به‌راحتی با نحوه‌ی کار سیستم‌عامل‌های رایج هماهنگ باشد.\nسینتکس ساده و مینیمال: تلاش شده که نوشتن و خواندن کد تا حد امکان ساده و بدون ابهام باشد.\nقابلیت‌های پیشرفته بدون هزینه اضافه: مثل ژنریک‌ها (نوشتن کد قابل استفاده مجدد برای انواع مختلف داده) و چندریختی (Polymorphism)، بدون این‌که سرعت اجرای برنامه رو کند کنند.\nساخت افزایشی (Incremental Build): یعنی موقع تغییر کد، فقط بخش‌های تغییر‌کرده دوباره کامپایل می‌شوند، نه کل پروژه؛ این باعث سریع‌تر شدن فرآیند توسعه می‌شود.\n\nهدف کلی سایروس این است که زبانی باشد نزدیک به سخت‌افزار و ماشین، اما بدون این‌که خوانایی و سادگی کد قربانی شود.\n\nاین پروژه هنوز در حال توسعه است و به‌تازگی نسخه بتا (Beta) آن منتشر شده. اگر دوست دارید بیشتر بدانید، امتحانش کنید، یا در توسعه‌اش مشارکت کنید:\nمستندات: https://cyrus-lang.ir/en\nگیت‌هاب: https://github.com/cyrus-lang/Cyrus\nکامیونیتی: @cyrus_lang\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4293",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/DxxDcRKgv1oSd2d92WQbVewur_aEEceH_VbwgMdpCpcDitZI61lN2_Tm0IJ7CKSOwSmmG0audjwoRxuOL0P2aAZ9beKeHupQg01xfvkKMUOJxz0WuVScmpTHxfFWt9WCyH3EQrghMxyW80_JaBRezVpD7qDfvKv5lLI7JnMfp1VNqNH7OgeirDNRE0OtzigWBRFA1v6lOYCn5cyLpV8xBlxASayJR5vbWFW-NPk-3cNHvLgLWsnw59oX1K8jipddUbwLkRUEGSHSyDAizohn94vxPaxna1WYycN8_nbIDKoOyEcAgVbxv-e_kACbysGAXUmML2ulh9mzRQLCuOllFA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/a4bdb1387b6b6b012dd4adc8.jpg",
+          "thumbnail_sha256": "222c77f2663eff8218655bec1364a29994f980f4dbba6a2a47353d11961e0e54",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "13"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        },
+        {
+          "emoji": "🎃",
+          "count": "1"
+        }
+      ],
+      "views_label": "348",
+      "posted_at": "2026-07-07T15:05:58+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4293",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4292",
       "author_name": "Matin SenPai",
@@ -27,11 +72,11 @@
         },
         {
           "emoji": "👍",
-          "count": "251"
+          "count": "257"
         },
         {
           "emoji": "❤",
-          "count": "64"
+          "count": "66"
         },
         {
           "emoji": "😁",
@@ -50,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.83K",
+      "views_label": "10.1K",
       "posted_at": "2026-07-07T13:22:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4292",
@@ -77,7 +122,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "233"
+          "count": "238"
         },
         {
           "emoji": "💔",
@@ -96,7 +141,7 @@
           "count": "2"
         }
       ],
-      "views_label": "11.2K",
+      "views_label": "11.4K",
       "posted_at": "2026-07-07T13:08:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4291",
@@ -130,11 +175,11 @@
         },
         {
           "emoji": "👍",
-          "count": "209"
+          "count": "212"
         },
         {
           "emoji": "❤",
-          "count": "56"
+          "count": "57"
         },
         {
           "emoji": "😨",
@@ -157,7 +202,7 @@
           "count": "2"
         }
       ],
-      "views_label": "13.5K",
+      "views_label": "13.7K",
       "posted_at": "2026-07-07T12:46:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4290",
@@ -175,7 +220,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "487"
+          "count": "488"
         },
         {
           "emoji": "👍",
@@ -198,7 +243,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.4K",
       "posted_at": "2026-07-07T11:42:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4289",
@@ -228,7 +273,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "104"
+          "count": "105"
         },
         {
           "emoji": "👍",
@@ -239,7 +284,7 @@
           "count": "8"
         }
       ],
-      "views_label": "17K",
+      "views_label": "17.1K",
       "posted_at": "2026-07-07T11:17:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4288",
@@ -289,7 +334,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "88"
+          "count": "89"
         },
         {
           "emoji": "👍",
@@ -304,7 +349,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.1K",
+      "views_label": "17.2K",
       "posted_at": "2026-07-07T11:08:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4286",
@@ -334,7 +379,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "81"
+          "count": "82"
         },
         {
           "emoji": "👍",
@@ -345,7 +390,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17K",
+      "views_label": "17.1K",
       "posted_at": "2026-07-07T10:53:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4285",
@@ -367,7 +412,7 @@
         },
         {
           "emoji": "👍",
-          "count": "7"
+          "count": "8"
         }
       ],
       "views_label": "17.7K",
@@ -397,7 +442,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "154"
+          "count": "155"
         },
         {
           "emoji": "💔",
@@ -412,7 +457,7 @@
           "count": "4"
         }
       ],
-      "views_label": "19.2K",
+      "views_label": "19.3K",
       "posted_at": "2026-07-07T08:31:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4283",
@@ -466,18 +511,18 @@
         },
         {
           "emoji": "👍",
-          "count": "23"
+          "count": "24"
         },
         {
           "emoji": "💔",
           "count": "8"
         },
         {
-          "emoji": "😭",
-          "count": "4"
+          "emoji": "😨",
+          "count": "5"
         },
         {
-          "emoji": "😨",
+          "emoji": "😭",
           "count": "4"
         },
         {
@@ -485,7 +530,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.9K",
+      "views_label": "21K",
       "posted_at": "2026-07-07T08:17:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4281",
@@ -518,7 +563,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20K",
+      "views_label": "20.1K",
       "posted_at": "2026-07-07T08:08:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4280",
@@ -559,7 +604,7 @@
           "count": "6"
         }
       ],
-      "views_label": "22.1K",
+      "views_label": "22.2K",
       "posted_at": "2026-07-07T07:33:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4279",
@@ -664,7 +709,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "320"
+          "count": "321"
         },
         {
           "emoji": "❤",
@@ -777,7 +822,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.5K",
       "posted_at": "2026-07-06T19:15:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4274",
@@ -4791,51 +4836,6 @@
       "posted_at": "2026-07-01T19:22:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4167",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4166",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/LT2f9SjUzaqJO7RWmztSs8Jr5M6gZzlxUGC9yDEp1ZYBUag3JR1kL_EPR74wh1FE5dehrxebKaLHMLEBjdxRFQWDqCvcI_B6YUBQdNQpglkRIGaFLC6i08bYLK0CAh3nrJkRAcbDKgKp9rXBRzHnBfegsQtJZ6x3PGZBz7K0bSP-6Vfzd6TvOOyeAXsU7_E_JVQOA1ujsERHgve-Jczf5UGMQCl3JxbISgI_3JAaZ2IO3b2wBWbXz1Cl6rP8cFr-ZAR2nalCs6J0DloniWUqwtxhp8eTappZVlUNzB01VUB2uXl_dlb0acxmb0aIDn8yX_SCQ6hsV-aeVfEV4ZpSpg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/bc53cca5aa88d2920f0f9f9d.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "این api هایی که Nvidia میده واقعا سخاوتمندانه‌ست. 40 ریکوئست در دقیقه<br>با 9router انداختم پشت هرمس، چه میکنه این Qwen و MiniMax3<br>توی ویدئو آموزشش رو میدم که چطوری بتونید وریفای بکنید و ProxyPool هم بزنید که روی سرور مشکلی نداشته باشه(مثلا با آیپی سرور من مشکل داشت انویدیا که با یه رله کلودفلر حلش کردم)",
-      "plain_text": "این api هایی که Nvidia میده واقعا سخاوتمندانه‌ست. 40 ریکوئست در دقیقه\nبا 9router انداختم پشت هرمس، چه میکنه این Qwen و MiniMax3\nتوی ویدئو آموزشش رو میدم که چطوری بتونید وریفای بکنید و ProxyPool هم بزنید که روی سرور مشکلی نداشته باشه(مثلا با آیپی سرور من مشکل داشت انویدیا که با یه رله کلودفلر حلش کردم)",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4166",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/XCuAj5ceaDHAq3S2agIGIAcZ9WcbbUpR0QhqSbe8-MqJ1j5qheUGTpcfSlIBxr9j_9K0UGP13DgRYxZv5BpJEnKw2B_3oQEVuic3rfJYMSQq6_R1qarXtH63_0SxqprpudsGChcvCszTj0LpBT4y48z6xr7WBaJgC4MCHaZ9v2xv4YvtqkWaeortD_xMPAlNsybzhPe_JbJp4A13pVL18Luo4_gkkVQ2oHDBYOl9aEecrEAoglvPFjkbcI5r_mg2JkXtJvfWm7gNXvZReGlWUJDuwhEIn3zhAhxTebt8QXdLTm2kfwgiSo4zGSWrKix-cpu25J5s40gb20yzLlMOfg.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/bd03df3f338fa112b150955a.jpg",
-          "thumbnail_sha256": "92702695fe6e02f94797f50683ac4f0b7f7db80ea9a29dad9840d60fec966ee0",
-          "duration_label": null,
-          "aspect_ratio": 2.5157232704402515
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "243"
-        },
-        {
-          "emoji": "👍",
-          "count": "17"
-        },
-        {
-          "emoji": "🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        }
-      ],
-      "views_label": "24.5K",
-      "posted_at": "2026-07-01T18:59:46+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4166",
       "reply": null
     }
   ]
