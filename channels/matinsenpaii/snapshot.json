@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-08T15:31:51.364Z",
+  "fetched_at": "2026-07-08T15:36:38.250Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,27 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4331",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/NYgB6X0tp4dqLBWNwlgxq0zXDmBUQCz_yYU1GtiE_8r9YPo10idqRs_5_36DONmajCxw2Crjl1Q0go1F0o6YTHeFFIprGFuOhFHQ_SHJ2fGY7N_VReeEVFkba7ec_AWir3zAswy8DGG36JSicbVVqMQH8mmknQUsQi2fCnAtFQv6ZXYtOrH5oVFHCjJBkEiNRS9OfAJUoDw4lHB6tR-ugwiRU8A3gXnpkHP-dVm_2hzZ4_nCkwgCpfB4l30clg4B6OL7zkh9dRrNqWjph8BoLp5stwTNt-Ph1Nozpq8rcX5yw3rjIBoMKEo1AqlCm4ZoyBJ1G3zCxMOAwJWUz2UMog.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/777727e7267811dba947bfad.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>نشت مخفیانه‌ی دیتا از ریپازیتوری‌های پرایوت گیت‌هاب با یه ترفند ساده‌ی هوش مصنوعی</b><b><tg-emoji emoji-id=\"5388953246486269495\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939A.png')\"><b>📚</b></i></tg-emoji></b><b><br></b><br>فکر کنید یه نفر بدون هیچ پسورد و دسترسی‌ای، بتونه کدهای مخفیانه‌تون رو توی گیت‌هاب بخونه. چطوری؟ با گول زدن ایجنت هوش مصنوعیِ خود گیت‌هاب!<br><br>تیم Noma Labs یه آسیب‌پذیری خیلی خطرناک (به اسم GitLost) توی سیستم جدید Agentic Workflows گیت‌هاب پیدا کرده. داستان از این قراره که این ایجنت‌ها می‌تونن issueها رو بخونن و اتوماسیون انجام بدن. <br><br><tg-emoji emoji-id=\"5417843850808926945\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FABB5.png')\"><b>🫵</b></i></tg-emoji>حالا هکرها چیکار می‌تونن بکنن؟<br>هکر کافیه بیاد تو یکی از ریپازیتوری‌های پابلیک شما یه Issue باز کنه و توش یه سری دستور مخفیانه به زبان انگلیسی (Prompt Injection) قایم کنه. <br>ایجنت گیت‌هاب این متن رو می‌خونه، گول می‌خوره و به جای کار اصلیش، میره فایل‌ها و دیتای ریپازیتوری‌های پرایوتِ همون سازمان رو می‌خونه و برای هکر می‌فرسته!<br><br>نکته‌ی جالب اینجاست:<br>گیت‌هاب کلی گاردریل امنیتی چیده بود که دقیقاً جلوی همین اتفاق رو بگیره. اما محقق‌ها فهمیدن فقط با اضافه کردن کلمه‌ی \"Additionally\" (به‌علاوه/همچنین) توی پرامپت هک، مدل هوش مصنوعی کلا گیج می‌شه و به جای اینکه درخواست رو رد کنه، تمام محدودیت‌ها رو دور می‌زنه و دیتا رو لو میده.<br><br>این دقیقاً نشون میده که توی سیستم‌های جدید هوش مصنوعی، همون متنی که ایجنت می‌خونه همزمان می‌تونه پاشنه آشیل و نقطه حمله باشه. حملات Prompt Injection الان دقیقاً دارن همون بلایی رو سر AI میارن که قبلاً SQL Injection سر وب‌سایت‌ها میاورد.<br><br>البته این باگ به طور مسئولانه به گیت‌هاب گزارش شده، ولی حواستون به ایجنت‌هایی که به سورس‌کدهاتون دسترسی دارن باشه!<br><br>منبع: <a href=\"https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos\" target=\"_blank\" rel=\"noopener\">https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "نشت مخفیانه‌ی دیتا از ریپازیتوری‌های پرایوت گیت‌هاب با یه ترفند ساده‌ی هوش مصنوعی📚\n\nفکر کنید یه نفر بدون هیچ پسورد و دسترسی‌ای، بتونه کدهای مخفیانه‌تون رو توی گیت‌هاب بخونه. چطوری؟ با گول زدن ایجنت هوش مصنوعیِ خود گیت‌هاب!\n\nتیم Noma Labs یه آسیب‌پذیری خیلی خطرناک (به اسم GitLost) توی سیستم جدید Agentic Workflows گیت‌هاب پیدا کرده. داستان از این قراره که این ایجنت‌ها می‌تونن issueها رو بخونن و اتوماسیون انجام بدن.\n\n🫵حالا هکرها چیکار می‌تونن بکنن؟\nهکر کافیه بیاد تو یکی از ریپازیتوری‌های پابلیک شما یه Issue باز کنه و توش یه سری دستور مخفیانه به زبان انگلیسی (Prompt Injection) قایم کنه.\nایجنت گیت‌هاب این متن رو می‌خونه، گول می‌خوره و به جای کار اصلیش، میره فایل‌ها و دیتای ریپازیتوری‌های پرایوتِ همون سازمان رو می‌خونه و برای هکر می‌فرسته!\n\nنکته‌ی جالب اینجاست:\nگیت‌هاب کلی گاردریل امنیتی چیده بود که دقیقاً جلوی همین اتفاق رو بگیره. اما محقق‌ها فهمیدن فقط با اضافه کردن کلمه‌ی \"Additionally\" (به‌علاوه/همچنین) توی پرامپت هک، مدل هوش مصنوعی کلا گیج می‌شه و به جای اینکه درخواست رو رد کنه، تمام محدودیت‌ها رو دور می‌زنه و دیتا رو لو میده.\n\nاین دقیقاً نشون میده که توی سیستم‌های جدید هوش مصنوعی، همون متنی که ایجنت می‌خونه همزمان می‌تونه پاشنه آشیل و نقطه حمله باشه. حملات Prompt Injection الان دقیقاً دارن همون بلایی رو سر AI میارن که قبلاً SQL Injection سر وب‌سایت‌ها میاورد.\n\nالبته این باگ به طور مسئولانه به گیت‌هاب گزارش شده، ولی حواستون به ایجنت‌هایی که به سورس‌کدهاتون دسترسی دارن باشه!\n\nمنبع: https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos\n\n✉️ t.me/MatinSenPaii",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "160",
+      "posted_at": "2026-07-08T15:35:53+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4331",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4330",
       "author_name": "Matin SenPai",
@@ -27,15 +48,15 @@
         },
         {
           "emoji": "❤",
-          "count": "553"
+          "count": "566"
         },
         {
           "emoji": "👍",
-          "count": "76"
+          "count": "77"
         },
         {
           "emoji": "👎",
-          "count": "16"
+          "count": "17"
         },
         {
           "emoji": "😁",
@@ -46,7 +67,7 @@
           "count": "4"
         }
       ],
-      "views_label": "11.8K",
+      "views_label": "12K",
       "posted_at": "2026-07-08T13:26:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4330",
@@ -64,14 +85,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "141"
+          "count": "142"
         },
         {
           "emoji": "😁",
           "count": "9"
         }
       ],
-      "views_label": "15.8K",
+      "views_label": "15.9K",
       "posted_at": "2026-07-08T12:40:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4329",
@@ -110,14 +131,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "176"
+          "count": "177"
         },
         {
           "emoji": "👍",
           "count": "8"
         }
       ],
-      "views_label": "17.8K",
+      "views_label": "18K",
       "posted_at": "2026-07-08T12:06:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4328",
@@ -135,7 +156,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "64"
+          "count": "65"
         },
         {
           "emoji": "👎",
@@ -143,18 +164,18 @@
         },
         {
           "emoji": "🎃",
-          "count": "7"
+          "count": "8"
         },
         {
           "emoji": "👍",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "🔥",
-          "count": "2"
+          "count": "3"
         }
       ],
-      "views_label": "17.1K",
+      "views_label": "17.2K",
       "posted_at": "2026-07-08T12:04:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4327",
@@ -172,7 +193,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "399"
+          "count": "401"
         },
         {
           "emoji": "👎",
@@ -203,7 +224,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.6K",
+      "views_label": "22.7K",
       "posted_at": "2026-07-08T09:51:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4326",
@@ -249,7 +270,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "411"
+          "count": "412"
         },
         {
           "emoji": "🔥",
@@ -272,7 +293,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.9K",
+      "views_label": "24K",
       "posted_at": "2026-07-08T08:35:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4324",
@@ -290,7 +311,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "188"
+          "count": "189"
         },
         {
           "emoji": "😨",
@@ -305,7 +326,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-07-08T08:34:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4323",
@@ -323,7 +344,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "119"
+          "count": "120"
         },
         {
           "emoji": "👎",
@@ -334,7 +355,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.7K",
+      "views_label": "22.8K",
       "posted_at": "2026-07-08T08:33:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4322",
@@ -402,14 +423,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "65"
+          "count": "66"
         },
         {
           "emoji": "🎃",
           "count": "2"
         }
       ],
-      "views_label": "21.9K",
+      "views_label": "22K",
       "posted_at": "2026-07-08T08:07:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4320",
@@ -473,7 +494,7 @@
           "count": "53"
         }
       ],
-      "views_label": "18.5K",
+      "views_label": "18.6K",
       "posted_at": "2026-07-08T08:06:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4318",
@@ -506,7 +527,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.4K",
+      "views_label": "18.5K",
       "posted_at": "2026-07-08T08:00:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4312",
@@ -4590,48 +4611,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4196",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4195",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/lFCukSmoru8oVbjNQSAw3dQmNClwDQdQdd_FAysDKaXzu7CITeZ2FoH5lK4XGIN7EvYLOseyNaUZA-Lk-4BukLZBUr9XVBeWtmBadtg_Apw1MmGmN9Xgkcsz7vHQEUAS_Z4qlDJRPVFezpepBscx8biszJtDhtRMUv-TzNWJR1f8Z5luDVViRZa4Gb9NHDjUq75vd4Ppv8_yHP2wlSi31WQmwbYqrkm4723SwpRyDa_hC4MbWVtwxCoPcggw8MQurTWcPb-N3HkiYi8iW3A_2fSPQkIoMDu77vIIV7QqjkogiRLSQYEhjxBwzCc5LmvKH9kjBoMYwpZPQUeZj1-8lg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/741850c3ff98b2b5a0fb945c.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "چندتا نکته<br>۱- این Zcode پلنش محدوده و حدودا یه هفته‌ست<br>۲- به شدت کندی داره و وسطش قطع میشد برای من با اینکه با همون وی‌پی‌ان، کلاد داشت راحت کار میکرد<br>۳- به نظرم با این اوضاع، یا با همون api Nvidia که توی ویدئوی هرمس گفتم، یا کدکس با شماره مجازی پلن رایگانش، یا Mimo Code بهترین گزینه‌هان برای رایگان کد زدن",
-      "plain_text": "چندتا نکته\n۱- این Zcode پلنش محدوده و حدودا یه هفته‌ست\n۲- به شدت کندی داره و وسطش قطع میشد برای من با اینکه با همون وی‌پی‌ان، کلاد داشت راحت کار میکرد\n۳- به نظرم با این اوضاع، یا با همون api Nvidia که توی ویدئوی هرمس گفتم، یا کدکس با شماره مجازی پلن رایگانش، یا Mimo Code بهترین گزینه‌هان برای رایگان کد زدن",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "189"
-        },
-        {
-          "emoji": "👍",
-          "count": "31"
-        },
-        {
-          "emoji": "😁",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        }
-      ],
-      "views_label": "30.1K",
-      "posted_at": "2026-07-03T10:11:52+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4195",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4193",
-        "author_name": "Matin SenPai",
-        "preview_text": "اگر ZCode رو نصب کنید(با Zed Code فرق میکنه) می‌تونید روزانه 3 میلیون توکن رایگان GLM-5.2 و دو میلیون توکن GLM-5 Turbo بگیرید با یه محیط کدنویسی تمیز شبیه به Codex با هر ایمیل هم می‌تونید یه اکانت بسازید و... بله خلاصه🥰 اینم لینک نصبش: https://zcode.z.ai/en/docs/install",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/ERtiph0oe24YZvb82g5ASSCM8nVU15hi7SlnujtqetccscWSzt-i5A3n93VKza_euYAK6o8iR-X5_ceoqcKbUVfBsfR4F8SbDm_0xtrBRADHrq5TtgBje6gx_xXgtXbk_5rE4z25kb2rcjif-sCTtPpHBPN1WatWkz39XjC9r4EaIAv3OZWQV_TrrC-r41fEPg2OvkirFlWfRh518xIVF9oGE3ROi7MdOLa0CVqQmk7SdaAJ8DCaxzbTSdg7B4DNYcg84-EYqh1vMmxJnyuoWGruDT6Rb2ddUkUUeHy5p44GN3WqZ25_gub4Y5jKeYUA2hp_wqImehj3HuzQZWqVag.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/1bd65c1cc35f847a8e25cfe9.jpg",
-        "thumbnail_sha256": "db99519a0b7e28a44cc0a1f348ce8e367151334e551c56863b72366783e99cf2",
-        "permalink": "https://t.me/matinsenpaii/4193"
-      }
     }
   ]
 }
