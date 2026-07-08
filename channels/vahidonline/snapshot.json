@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-08T23:27:04.082Z",
+  "fetched_at": "2026-07-08T23:31:40.602Z",
   "channel": {
     "username": "vahidonline",
     "title": "Vahid Online وحید آنلاین",
@@ -12,13 +12,74 @@
   },
   "posts": [
     {
+      "id": "VahidOnline/76872",
+      "author_name": "Vahid Online وحید آنلاین",
+      "author_photo_url": "https://cdn1.telesco.pe/file/H0VksxhbMHXQMpAOO5cklaiF3fRUdiDpsO2yxvbqh9Btfol55AdLf9QlUT-rBo-CxD9q3y2BNiXPeYdqSY1t4d0vt2Qi9tHAXq74aBFt6ETSKpFUkRy7s_NKcHOwyhH3Y3uPQfrvY1vlD3vxPVxVDL9u-s6XzmhtezIwLZRsSiPzW5fLwK5jXZasVruwAVKV0Rv1Sfd6IXOPtJOMxdAEiRS3yFJ52UpN4m_s0BMDTf4ofYycJlk-iobqWCJivx7zz0mmcR_FecxjhfhjsTbg_5xjUJPpezAFzemnUKWEd68qdcUnUXU5bSMmN7QUe7gWSg4uWT4VDWTvcq1bB0dj6Q.jpg",
+      "author_photo_path": "channels/vahidonline/media/b07d526271c4f635837b6a7d.jpg",
+      "author_photo_sha256": "bee60885437a832f3ac114c2547b44918ce852f80d43a07bead701fc17ad1bc8",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">این تصاویر با شرح پل راه‌آهن در نزدیکی آق‌قلا در استان گلستان دارند دست به دست میشن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> <a href=\"https://t.me/VahidOnline\" target=\"_blank\">@VahidOnline</a></div>",
+      "plain_text": "این تصاویر با شرح پل راه‌آهن در نزدیکی آق‌قلا در استان گلستان دارند دست به دست میشن.\n\n📡 @VahidOnline",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/VahidOnline/76872?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/i_4tDcU_kXtTCKHui1wlRvmtRKXZ-POPmy1Ge9nVJgoUPexaNFQHmKlkjWVYuShzk9G4-Kr5Dmmi9JryuV_BQ5JA4x41sdLdJAiTOgc1qRSCuA9C6S1RGjqADINlyACH7D1xvmvxoQV40XkHPkC_v9H5hlQq7vtcdpEPfgQ3eDFHoWda4TOQh9dPAYNDEbeQ5znRBnMC8dnG078CYZRdLaTktnaFnbrC10ExIiAtUdQmUOfh8IWBZpQtkSltqrgKmXakTy_aNye17PWRo7J5muAqhNZg14bPamcAzAHThW4h8j7JheTITVHVT6AOVwhOjLIccHjSjMrlfCmZEuYP7g.jpg",
+          "thumbnail_path": "channels/vahidonline/media/72c94d166e5373ff16092df2.jpg",
+          "thumbnail_sha256": "d26267fef0218446bd195c965100f2cd14a0867cde16626ba938fa6734d11dc5",
+          "duration_label": null,
+          "aspect_ratio": 0.69375
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/VahidOnline/76874?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/S5qOw7NdufL6KmwTJ8F3X9R_lP7YpMlOcTxATqqzwXIGwxeySvDieLtcib3tYhJ-PyYKDi6Ectiq_iZx1pBEdib05KT1iJGKjR5oEFr1YdOoJIe6AT-IRaAu782pxW8iGfuXdk0g9yktsXhzsDqW6CUl7an-mnwka4XVKHf2HRxWo46W0Da7dPngP5ClwGJcbTTyu9o1LRDVI5EVUJbxN7I5Fjs_zY1zE7PtItvSmrkWT8-L4a0KxRNhmD--QhAVLXwtzCewIU3S5mXbZlDpts3E0xBJAeYBnyYXL2lLPKxnP3DWUQxINoAzC1uPKjfaSaZbxBpKFuCKjLG_5pmEnA.jpg",
+          "thumbnail_path": "channels/vahidonline/media/1c0406394d1017873efb3df3.jpg",
+          "thumbnail_sha256": "6790f96ec4af3cebe198eea818794056baf437b607ad0c7436ad8ea59dfa9daa",
+          "duration_label": null,
+          "aspect_ratio": 0.5625
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/VahidOnline/76875?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/pyo1QG8H79abIaJhYDj1kPvGQNpPhM0nvU6GJDdBFOYQgWev3r-Y0Zu5O2dOoQuOFUjFWAju134GQQbBbvURcE1SqAtIJW2xcqlAhU1F06GOP5x7elIV7hjRrQfQZSFYqjiZ3h0bPxAbDOkH4lJy_qN5oDXdur5GQeVhPW4ns91LsDShmGxRQHepGb4FmN2h8kFDF7vl1Ib2KHdtTe-3wLJXILZU0wohnjMRsTsaCRVn8O4h0VXGG5nY7mmhuMzPfR1J2TG1BUXCl3sQDCe9emdUBELwsMEgIJ8KxvpWLOc7coqJRY1pW70cQekL6Wd0aTwvvYrSdsr9p5Otg4PMrA.jpg",
+          "thumbnail_path": "channels/vahidonline/media/3cd3ecccb37a64320785d964.jpg",
+          "thumbnail_sha256": "80e6051cfa7bd666891c197f3ce57141e76b82b3c1869a46958df8640a96286d",
+          "duration_label": null,
+          "aspect_ratio": 2.1680216802168
+        },
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/VahidOnline/76873?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/f9ZH0jzG59kfqkSxwMROHeIGUqePkV8tNkvrUUSTyJl-3mVmI_b4yE3x5Krq7z6Sh_fUoRRgq-jCLxiKnRq0Csh0t0XgQl9nQ44kJAmWtv1kQV22zDaPMTUGL-GHWuS15iksb7oFwA0Nepj2pu4DAAmEQQIWnhhxIv4Acv7PM0yTWwKxR69Dmz6LJjtQb31mu5uHECS_YolYri8ft7Qj3JlZPkiEr3s24JANdpXH1Pdvb2t63o1367qT1LmwtlL4v7sOGdD8uBVovenKEtsV2LZWcTTdTmhDEoweXFWLLTnVcTrtl8zbjarCdv7Xg-D-cR9lzTYYt7eeQfDE7KMwRA",
+          "thumbnail_path": "channels/vahidonline/media/dbe528f8a2076468580320f9.jpg",
+          "thumbnail_sha256": "09742340e7102ecf8aa159a174c4bd44fa0c57246ed8e4c781249786337b0b2e",
+          "duration_label": "0:11",
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [],
+      "views_label": "13.6K",
+      "posted_at": "2026-07-08T23:28:20+00:00",
+      "edited": true,
+      "permalink": "https://t.me/VahidOnline/76872",
+      "reply": null
+    },
+    {
       "id": "VahidOnline/76871",
       "author_name": "Vahid Online وحید آنلاین",
       "author_photo_url": "https://cdn1.telesco.pe/file/H0VksxhbMHXQMpAOO5cklaiF3fRUdiDpsO2yxvbqh9Btfol55AdLf9QlUT-rBo-CxD9q3y2BNiXPeYdqSY1t4d0vt2Qi9tHAXq74aBFt6ETSKpFUkRy7s_NKcHOwyhH3Y3uPQfrvY1vlD3vxPVxVDL9u-s6XzmhtezIwLZRsSiPzW5fLwK5jXZasVruwAVKV0Rv1Sfd6IXOPtJOMxdAEiRS3yFJ52UpN4m_s0BMDTf4ofYycJlk-iobqWCJivx7zz0mmcR_FecxjhfhjsTbg_5xjUJPpezAFzemnUKWEd68qdcUnUXU5bSMmN7QUe7gWSg4uWT4VDWTvcq1bB0dj6Q.jpg",
       "author_photo_path": "channels/vahidonline/media/b07d526271c4f635837b6a7d.jpg",
       "author_photo_sha256": "bee60885437a832f3ac114c2547b44918ce852f80d43a07bead701fc17ad1bc8",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A6.png')\"><b>♦️</b></i>دونالد ترامپ، رئیس‌جمهوری آمریکا، در نخستین ساعات بامداد پنجشنبه گفت که حکومت ایران پس از حملات مکرر آمریکا در منطقه با او تماس گرفته و خواستار دستیابی به توافق شده است، اما او نمی‌داند آیا تهران «شایسته» توافق هست یا نه.<br>ترامپ در گفت‌وگو با خبرنگاران در هواپیمای ریاست‌جمهوری آمریکا، هنگام بازگشت از نشست ناتو در آنکارا، ترکیه، گفت: «آنها کمی پیش تماس گرفتند، آنها خیلی زیاد می‌خواهند توافق کنند. فقط نمی‌دانم آیا آنها شایسته توافق هستند یا نه.»<br>ترامپ پیش‌تر اعلام کرده بود که آتش‌بس «پایان یافته است»؛ این اظهارنظر پس از آن مطرح شد که ایران چندین شناور را در تنگه هرمز هدف قرار داد و آمریکا نیز در پاسخ، حملات تلافی‌جویانه انجام داد.<br>ترامپ گفت: «هر بار که آنها ما را هدف قرار می‌دهند، ما ۲۰ برابر پاسخ می‌دهیم.»<br>پس از آنکه فرماندهی مرکزی ارتش آمریکا (سنتکام) از انجام حملات تازه علیه مواضع جمهوری اسلامی خبر داد، ترامپ هشدار داد که اگر ایران حملات بیشتری انجام دهد، اقدامات نظامی آمریکا «بسیار شدیدتر» خواهد شد.<br>@<a href=\"https://t.me/VahidOOnLine/249135\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">VahidOOnLine</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> <a href=\"https://t.me/VahidOnline\" target=\"_blank\">@VahidOnline</a>",
-      "plain_text": "♦️دونالد ترامپ، رئیس‌جمهوری آمریکا، در نخستین ساعات بامداد پنجشنبه گفت که حکومت ایران پس از حملات مکرر آمریکا در منطقه با او تماس گرفته و خواستار دستیابی به توافق شده است، اما او نمی‌داند آیا تهران «شایسته» توافق هست یا نه.\nترامپ در گفت‌وگو با خبرنگاران در هواپیمای ریاست‌جمهوری آمریکا، هنگام بازگشت از نشست ناتو در آنکارا، ترکیه، گفت: «آنها کمی پیش تماس گرفتند، آنها خیلی زیاد می‌خواهند توافق کنند. فقط نمی‌دانم آیا آنها شایسته توافق هستند یا نه.»\nترامپ پیش‌تر اعلام کرده بود که آتش‌بس «پایان یافته است»؛ این اظهارنظر پس از آن مطرح شد که ایران چندین شناور را در تنگه هرمز هدف قرار داد و آمریکا نیز در پاسخ، حملات تلافی‌جویانه انجام داد.\nترامپ گفت: «هر بار که آنها ما را هدف قرار می‌دهند، ما ۲۰ برابر پاسخ می‌دهیم.»\nپس از آنکه فرماندهی مرکزی ارتش آمریکا (سنتکام) از انجام حملات تازه علیه مواضع جمهوری اسلامی خبر داد، ترامپ هشدار داد که اگر ایران حملات بیشتری انجام دهد، اقدامات نظامی آمریکا «بسیار شدیدتر» خواهد شد.\n@VahidOOnLine\n\n📡 @VahidOnline",
+      "body_html": "دونالد ترامپ، رئیس‌جمهوری آمریکا، در نخستین ساعات بامداد پنجشنبه گفت که حکومت ایران پس از حملات مکرر آمریکا در منطقه با او تماس گرفته و خواستار دستیابی به توافق شده است، اما او نمی‌داند آیا تهران «شایسته» توافق هست یا نه.<br><br>ترامپ در گفت‌وگو با خبرنگاران در هواپیمای ریاست‌جمهوری آمریکا، هنگام بازگشت از نشست ناتو در آنکارا، ترکیه، گفت: «آنها کمی پیش تماس گرفتند، آنها خیلی زیاد می‌خواهند توافق کنند. فقط نمی‌دانم آیا آنها شایسته توافق هستند یا نه.»<br><br>ترامپ گفت: «هر بار که آنها ما را هدف قرار می‌دهند، ما ۲۰ برابر پاسخ می‌دهیم.»<br>@<a href=\"https://t.me/VahidOOnLine/249135\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">VahidOOnLine</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> <a href=\"https://t.me/VahidOnline\" target=\"_blank\">@VahidOnline</a>",
+      "plain_text": "دونالد ترامپ، رئیس‌جمهوری آمریکا، در نخستین ساعات بامداد پنجشنبه گفت که حکومت ایران پس از حملات مکرر آمریکا در منطقه با او تماس گرفته و خواستار دستیابی به توافق شده است، اما او نمی‌داند آیا تهران «شایسته» توافق هست یا نه.\n\nترامپ در گفت‌وگو با خبرنگاران در هواپیمای ریاست‌جمهوری آمریکا، هنگام بازگشت از نشست ناتو در آنکارا، ترکیه، گفت: «آنها کمی پیش تماس گرفتند، آنها خیلی زیاد می‌خواهند توافق کنند. فقط نمی‌دانم آیا آنها شایسته توافق هستند یا نه.»\n\nترامپ گفت: «هر بار که آنها ما را هدف قرار می‌دهند، ما ۲۰ برابر پاسخ می‌دهیم.»\n@VahidOOnLine\n\n📡 @VahidOnline",
       "media": [
         {
           "kind": "photo",
@@ -33,9 +94,9 @@
         }
       ],
       "reactions": [],
-      "views_label": "17.1K",
+      "views_label": "31K",
       "posted_at": "2026-07-08T23:22:39+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/VahidOnline/76871",
       "reply": null
     },
@@ -49,7 +110,7 @@
       "plain_text": "پیام‌های دریافتی تاییدنشده:\n\nاستان گلستان آق قلا پنج شیش بار صدای انغجار و نور شنیده و دیده شد\n\nسلام وقت بخیر ، استان گلستان هم زدن ، بالای پنج بار صدای وحشتناکی اومد\n\nسپاه شهرستان آق قلا واقع در استان گلستان و حومه شهر گرگان رو هم زدن\n\nسلام وحید جان\n۵دقیقه میش گلستان رو زدن\n\nشهرستان اققلا بدجور لزرید\n۵بار لرزید ناجور\n\nسلام وحید جان\nشهرستان آق قلا بدجور زدن و مکانشو نمیدونم\nکل شهر ریختن بیرون\n\nسلام آق قلا صدای چند انفجار و نور رو ما هم شنیدیم ساعت تقریبا دو بامداد\n\n۲بامداد چهارتا انفجار پشت سرهم آق قلا استان گلستان اخری صداش و شدتش بلندتر بود نور یه لحظه دیدم ولی کجاخورد رو نمیدونم احساس میکنم دور بود سمت گمیشان رادار داشت قبلا\nشاید باز اونجارو زدن\n\n📡 @VahidOnline",
       "media": [],
       "reactions": [],
-      "views_label": "98.9K",
+      "views_label": "106K",
       "posted_at": "2026-07-08T22:44:19+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/76870",
@@ -88,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "115K",
+      "views_label": "122K",
       "posted_at": "2026-07-08T22:31:10+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/76868",
@@ -100,8 +161,8 @@
       "author_photo_url": "https://cdn1.telesco.pe/file/H0VksxhbMHXQMpAOO5cklaiF3fRUdiDpsO2yxvbqh9Btfol55AdLf9QlUT-rBo-CxD9q3y2BNiXPeYdqSY1t4d0vt2Qi9tHAXq74aBFt6ETSKpFUkRy7s_NKcHOwyhH3Y3uPQfrvY1vlD3vxPVxVDL9u-s6XzmhtezIwLZRsSiPzW5fLwK5jXZasVruwAVKV0Rv1Sfd6IXOPtJOMxdAEiRS3yFJ52UpN4m_s0BMDTf4ofYycJlk-iobqWCJivx7zz0mmcR_FecxjhfhjsTbg_5xjUJPpezAFzemnUKWEd68qdcUnUXU5bSMmN7QUe7gWSg4uWT4VDWTvcq1bB0dj6Q.jpg",
       "author_photo_path": "channels/vahidonline/media/b07d526271c4f635837b6a7d.jpg",
       "author_photo_sha256": "bee60885437a832f3ac114c2547b44918ce852f80d43a07bead701fc17ad1bc8",
-      "body_html": "ترامپ نوشته \"این در تلافی بمباران دیروز کشتی‌ها توسط ایران است. اگر دوباره اتفاق بیفتد، خیلی بدتر خواهد شد!\"<br><br>هر چی عکس و فیلم از حمله امشب منتشر شده بود رو داره پست می‌کنه. حتی اون‌هایی که بعضی منابع اشتباهی پخش کرده بودند: <a href=\"https://truthsocial.com/@realDonaldTrump\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">realDonaldTrump</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> <a href=\"https://t.me/VahidOnline\" target=\"_blank\">@VahidOnline</a>",
-      "plain_text": "ترامپ نوشته \"این در تلافی بمباران دیروز کشتی‌ها توسط ایران است. اگر دوباره اتفاق بیفتد، خیلی بدتر خواهد شد!\"\n\nهر چی عکس و فیلم از حمله امشب منتشر شده بود رو داره پست می‌کنه. حتی اون‌هایی که بعضی منابع اشتباهی پخش کرده بودند: realDonaldTrump\n\n📡 @VahidOnline",
+      "body_html": "ترامپ نوشته \"این در تلافی بمباران دیروز کشتی‌ها توسط ایران است. اگر دوباره اتفاق بیفتد، خیلی بدتر خواهد شد!\"<br><br>بیشتر از ده تا عکس و فیلم با شرح حمله امشب پست کرده. حتی اون‌هایی رو که بعضی منابع اشتباهی پخش کرده بودند: <a href=\"https://truthsocial.com/@realDonaldTrump\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">realDonaldTrump</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> <a href=\"https://t.me/VahidOnline\" target=\"_blank\">@VahidOnline</a>",
+      "plain_text": "ترامپ نوشته \"این در تلافی بمباران دیروز کشتی‌ها توسط ایران است. اگر دوباره اتفاق بیفتد، خیلی بدتر خواهد شد!\"\n\nبیشتر از ده تا عکس و فیلم با شرح حمله امشب پست کرده. حتی اون‌هایی رو که بعضی منابع اشتباهی پخش کرده بودند: realDonaldTrump\n\n📡 @VahidOnline",
       "media": [
         {
           "kind": "photo",
@@ -116,9 +177,9 @@
         }
       ],
       "reactions": [],
-      "views_label": "141K",
+      "views_label": "145K",
       "posted_at": "2026-07-08T22:13:13+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/VahidOnline/76867",
       "reply": null
     },
@@ -144,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "193K",
+      "views_label": "197K",
       "posted_at": "2026-07-08T21:39:29+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/76866",
@@ -210,7 +271,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "229K",
+      "views_label": "231K",
       "posted_at": "2026-07-08T21:22:05+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/76862",
@@ -249,7 +310,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "225K",
+      "views_label": "226K",
       "posted_at": "2026-07-08T21:17:58+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/76860",
@@ -265,7 +326,7 @@
       "plain_text": "پیام‌های دریافتی:\nچغادک بوشهر رو همین الان زدن چند تا انفجار خیلی شدید\n\nسلام ساعت 00:28 دقیقه چندین صدای انفجار در بوشهر شنیده شد\n\n00:30 هوا فضای چغادک 15 تا صدای انفجار\n\nهمین حالا بوشهر زدن\nحدود پنج تا شش بار خونه لرزید\n\n📡 @VahidOnline",
       "media": [],
       "reactions": [],
-      "views_label": "253K",
+      "views_label": "254K",
       "posted_at": "2026-07-08T21:01:51+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/76859",
@@ -304,7 +365,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "249K",
+      "views_label": "251K",
       "posted_at": "2026-07-08T21:00:59+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/76857",
@@ -320,7 +381,7 @@
       "plain_text": "پیام‌های دریافتی:\n\nهمین الان شش انفجار در بندر جاسک\nساعت ۰۰:۲۴\n\nسلام وحید جان جاسک رو زد دوبار\n\n📡 @VahidOnline",
       "media": [],
       "reactions": [],
-      "views_label": "239K",
+      "views_label": "240K",
       "posted_at": "2026-07-08T20:56:53+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/76856",
@@ -370,7 +431,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "245K",
+      "views_label": "246K",
       "posted_at": "2026-07-08T20:54:50+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/76853",
@@ -3172,34 +3233,6 @@
       "posted_at": "2026-06-28T14:06:17+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/76729",
-      "reply": null
-    },
-    {
-      "id": "VahidOnline/76728",
-      "author_name": "Vahid Online وحید آنلاین",
-      "author_photo_url": "https://cdn1.telesco.pe/file/iNJq6HRv1iSh9syM0L2i4vFiqmQcSCKhVWbtLGsijnwbmG_AjurnhsxAQAPlOBVZ2nhcrl153S3q5eKl3ERkqhEUs2ablaVfmcTW1KKMidqNIpFW-_69-ZPILirI2muPOagoT7p0lj-IGBVXv2l1Pyi-lhjf_a-OEla2KkqebA9IbsAFga4K2-fR_bwuujT8LManFk68jFJRsdDJmnC2oyuI0SvKNtvf5qpliBPMpcvtdLF6f1hGDG3xpbB_WNS_eGZDSsyu02qCJWL9A2vaIEcEsDO9Z2vRzG2D8yruYkdycTXqC7hiTq4111aTTpRBNaXnSg03TMNBCIUkq7mpgA.jpg",
-      "author_photo_path": "channels/vahidonline/media/bab5447bec7435cae46ca268.jpg",
-      "author_photo_sha256": "bee60885437a832f3ac114c2547b44918ce852f80d43a07bead701fc17ad1bc8",
-      "body_html": "مجتبی خامنه‌ای، سومین رهبر [اعلام شده] جمهوری اسلامی، در پیامی مکتوب به مناسبت هفته قوه قضاییه، از دستگاه قضایی خواست پرونده‌های مربوط به آنچه «جنایات آمریکا و اسرائیل» در جنگ‌های سال‌های ۱۴۰۴ و ۱۴۰۵ خواند را با جدیت در محاکم داخلی و بین‌المللی پیگیری کند.<br><br>او در این پیام که به مناسبت سالگرد هفتم تیر و هفته قوه قضاییه منتشر شد از قوه قضاییه خواست رسیدگی به پرونده‌های مربوط به جنگ را تا صدور و اجرای احکام ادامه دهد و مدعی شد چنین روندی می‌تواند از تکرار این‌گونه اقدامات جلوگیری کند.<br><br>مجتبی خامنه‌ای از زمان [اعلام] انتصاب به مقام رهبری جمهوری اسلامی تاکنون در هیچ مراسم عمومی، سخنرانی یا برنامه رسمی حاضر نشده [و صدا و تصویری هم از اون منتشر نشده] است. سایر مقام‌های حکومت تاکنون توضیحی درباره این موضوع ارائه نکرده‌اند.<br>@<a href=\"https://t.me/VahidHeadline/306820\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">VahidHeadline</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> <a href=\"https://t.me/VahidOnline\" target=\"_blank\">@VahidOnline</a>",
-      "plain_text": "مجتبی خامنه‌ای، سومین رهبر [اعلام شده] جمهوری اسلامی، در پیامی مکتوب به مناسبت هفته قوه قضاییه، از دستگاه قضایی خواست پرونده‌های مربوط به آنچه «جنایات آمریکا و اسرائیل» در جنگ‌های سال‌های ۱۴۰۴ و ۱۴۰۵ خواند را با جدیت در محاکم داخلی و بین‌المللی پیگیری کند.\n\nاو در این پیام که به مناسبت سالگرد هفتم تیر و هفته قوه قضاییه منتشر شد از قوه قضاییه خواست رسیدگی به پرونده‌های مربوط به جنگ را تا صدور و اجرای احکام ادامه دهد و مدعی شد چنین روندی می‌تواند از تکرار این‌گونه اقدامات جلوگیری کند.\n\nمجتبی خامنه‌ای از زمان [اعلام] انتصاب به مقام رهبری جمهوری اسلامی تاکنون در هیچ مراسم عمومی، سخنرانی یا برنامه رسمی حاضر نشده [و صدا و تصویری هم از اون منتشر نشده] است. سایر مقام‌های حکومت تاکنون توضیحی درباره این موضوع ارائه نکرده‌اند.\n@VahidHeadline\n\n📡 @VahidOnline",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/VahidOnline/76728",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/O2CZczy-NwFKU4i_v3yQGSjMexP3wlvYuA5b_iU0gE4vWIdpr1w4Hh9nEK02pEFbE6m4V53VOHef2CEp6gER0bQFnKOEDMS_ciP0vVTwffEPCeBWufW4AeSZRbPpqPT2DGfGeNDku5_8grHT1Lu6ZYqtniX5_l4DJA6mYEbQ2Ija-qMtDVRSOz-aKFdtWF-oBD41MMN_jZ7vhhLjA6GiBuCMGuKzIWogn4ogk6dL8Nyo0l9Qdn4ptFKuVoTb0nyFLEjeiovwKVvyGMGi4G8yNF0RD2D5lzM-zLDYF7gbKv2taREDxDu_U0CE6ICGRJ73ZvdQtzhswen20_iS5dB7CQ.jpg",
-          "thumbnail_path": "channels/vahidonline/media/52ae5ce133f89598bd4ad484.jpg",
-          "thumbnail_sha256": "245de77403d48a76f03c3da7a7c59f69c676f436b7dbe8550938ba5f28029416",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "286K",
-      "posted_at": "2026-06-28T14:05:53+00:00",
-      "edited": true,
-      "permalink": "https://t.me/VahidOnline/76728",
       "reply": null
     }
   ]
