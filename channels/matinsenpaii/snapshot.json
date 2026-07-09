@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-09T12:40:25.646Z",
+  "fetched_at": "2026-07-09T12:58:44.684Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,51 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4342",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/iJGRUo8UodtOG0uSs40uPHuuESwi33zZducNjZtmhHsZeV7V8AqbNHaxdsQ7S4AzGN1i5qeTsNPthZr0fgRUQQ40eYDibdRyKZ119s6kwX32hI6JZf7npxNI9k6tgXwC1SbwXlvb7fpDZ3rSLW36zPQUqirKi-95sFnqvr1J8_5r7U6t93-NZPVfyJFn56rV_NVMLHyZ233LBy8hlKDiJDmlpj6oCOgZr-PBcVtORHQ9YLigrYHCrXp6e_KEyZbfhGSL3r6iE2l2hGee0V8PVh3z_xYZnFbblAXwpdKz1AOt6JiGLuq30zj10rGIy9YoAd8xZOttxHRCnno364l9jw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a5822acc16e24dea19d8e0c3.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "یه مقدار زود شروع شد",
+      "plain_text": "یه مقدار زود شروع شد",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/4342",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/XSt2XAJ2ciRm3AVpA88Q5lrzPKlkFvce4jPHU-XluHizR1nkcJR3U8Smbh3teF-MnKCr0b2OxHIdLoZ5C9j8zdMgUz4oqwms3aWZOzD76bchNizVtrAhYZCXxWGBIkW8_PU-NAseI8uq08mpA6wJiO_qFbT_tMDqJ-05Qzu8jDB-86wQgxCJPiFfFMazFwVdAUHfrmIfiX59upYdoMHQ4zXwc4LGf5aPOiKPunpjM82pBW046kRpe44F-1naUiVZTcFlvSkxofVSDPAHfpiiSm3P5kaBxTJbKK2DieGccgAGpy37d367UyEEBFw5OGsib2VDFH4FOMRyrBdF91bTHQ",
+          "thumbnail_path": "channels/matinsenpaii/media/5d10054468a6353e26a987ce.jpg",
+          "thumbnail_sha256": "8c92e2f13a68d83dfbde3f8f4c4223a62671dc291caa09c3ba798ed4527db40c",
+          "duration_label": "0:15",
+          "aspect_ratio": 0.9000000000000089
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "😁",
+          "count": "98"
+        },
+        {
+          "emoji": "💔",
+          "count": "4"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "3.56K",
+      "posted_at": "2026-07-09T12:53:41+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4342",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4341",
       "author_name": "Matin SenPai",
@@ -35,30 +80,30 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "203"
+          "count": "246"
         },
         {
           "emoji": "💔",
-          "count": "56"
+          "count": "63"
+        },
+        {
+          "emoji": "❤",
+          "count": "8"
         },
         {
           "emoji": "👎",
           "count": "7"
         },
         {
-          "emoji": "❤",
-          "count": "6"
-        },
-        {
           "emoji": "😭",
-          "count": "3"
+          "count": "5"
         },
         {
           "emoji": "🔥",
           "count": "1"
         }
       ],
-      "views_label": "10.9K",
+      "views_label": "13.7K",
       "posted_at": "2026-07-09T11:52:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4341",
@@ -76,7 +121,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "194"
+          "count": "209"
         },
         {
           "emoji": "❤",
@@ -84,7 +129,7 @@
         },
         {
           "emoji": "😁",
-          "count": "8"
+          "count": "10"
         },
         {
           "emoji": "👎",
@@ -95,7 +140,7 @@
           "count": "5"
         }
       ],
-      "views_label": "14.4K",
+      "views_label": "16.6K",
       "posted_at": "2026-07-09T11:23:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4340",
@@ -140,11 +185,11 @@
         },
         {
           "emoji": "❤",
-          "count": "83"
+          "count": "85"
         },
         {
           "emoji": "👍",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "😁",
@@ -155,7 +200,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.5K",
+      "views_label": "20K",
       "posted_at": "2026-07-09T09:56:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4338",
@@ -194,7 +239,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "146"
+          "count": "153"
         },
         {
           "emoji": "😁",
@@ -217,7 +262,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.1K",
+      "views_label": "19.3K",
       "posted_at": "2026-07-09T09:49:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4337",
@@ -239,7 +284,7 @@
         },
         {
           "emoji": "😁",
-          "count": "145"
+          "count": "152"
         },
         {
           "emoji": "❤",
@@ -250,7 +295,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.1K",
+      "views_label": "18.9K",
       "posted_at": "2026-07-09T09:38:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4336",
@@ -281,14 +326,14 @@
         },
         {
           "emoji": "👍",
-          "count": "102"
+          "count": "106"
         },
         {
           "emoji": "❤",
           "count": "13"
         }
       ],
-      "views_label": "18.1K",
+      "views_label": "18.9K",
       "posted_at": "2026-07-09T09:38:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4335",
@@ -322,18 +367,18 @@
         },
         {
           "emoji": "❤",
-          "count": "94"
+          "count": "100"
         },
         {
           "emoji": "👍",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "👎",
-          "count": "2"
+          "count": "3"
         }
       ],
-      "views_label": "18.7K",
+      "views_label": "19.6K",
       "posted_at": "2026-07-09T09:37:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4334",
@@ -363,7 +408,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "471"
+          "count": "481"
         },
         {
           "emoji": "👎",
@@ -386,7 +431,7 @@
           "count": "4"
         }
       ],
-      "views_label": "19.8K",
+      "views_label": "20.6K",
       "posted_at": "2026-07-09T09:18:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4333",
@@ -404,7 +449,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "267"
+          "count": "268"
         },
         {
           "emoji": "❤",
@@ -423,7 +468,7 @@
           "count": "3"
         }
       ],
-      "views_label": "30.4K",
+      "views_label": "30.6K",
       "posted_at": "2026-07-08T18:04:55+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4332",
@@ -441,11 +486,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "150"
+          "count": "151"
         },
         {
           "emoji": "👍",
-          "count": "33"
+          "count": "34"
         },
         {
           "emoji": "😁",
@@ -464,7 +509,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.6K",
+      "views_label": "31.8K",
       "posted_at": "2026-07-08T15:35:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4331",
@@ -486,7 +531,7 @@
         },
         {
           "emoji": "❤",
-          "count": "834"
+          "count": "838"
         },
         {
           "emoji": "👍",
@@ -505,7 +550,7 @@
           "count": "5"
         }
       ],
-      "views_label": "30.7K",
+      "views_label": "31K",
       "posted_at": "2026-07-08T13:26:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4330",
@@ -523,7 +568,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "195"
+          "count": "196"
         },
         {
           "emoji": "😁",
@@ -538,7 +583,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.3K",
+      "views_label": "31.5K",
       "posted_at": "2026-07-08T12:40:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4329",
@@ -581,7 +626,7 @@
         },
         {
           "emoji": "❤",
-          "count": "221"
+          "count": "222"
         },
         {
           "emoji": "👍",
@@ -596,7 +641,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.3K",
+      "views_label": "32.5K",
       "posted_at": "2026-07-08T12:06:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4328",
@@ -618,7 +663,7 @@
         },
         {
           "emoji": "❤",
-          "count": "88"
+          "count": "89"
         },
         {
           "emoji": "👎",
@@ -637,7 +682,7 @@
           "count": "3"
         }
       ],
-      "views_label": "28.7K",
+      "views_label": "28.9K",
       "posted_at": "2026-07-08T12:04:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4327",
@@ -655,7 +700,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "430"
+          "count": "431"
         },
         {
           "emoji": "👎",
@@ -686,7 +731,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30K",
+      "views_label": "30.1K",
       "posted_at": "2026-07-08T09:51:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4326",
@@ -732,7 +777,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "458"
+          "count": "459"
         },
         {
           "emoji": "🔥",
@@ -755,7 +800,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.3K",
+      "views_label": "30.4K",
       "posted_at": "2026-07-08T08:35:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4324",
@@ -773,7 +818,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "212"
+          "count": "213"
         },
         {
           "emoji": "😨",
@@ -792,7 +837,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.6K",
+      "views_label": "29.7K",
       "posted_at": "2026-07-08T08:34:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4323",
@@ -4554,77 +4599,6 @@
       "posted_at": "2026-07-03T22:09:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4210",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4207",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/lFCukSmoru8oVbjNQSAw3dQmNClwDQdQdd_FAysDKaXzu7CITeZ2FoH5lK4XGIN7EvYLOseyNaUZA-Lk-4BukLZBUr9XVBeWtmBadtg_Apw1MmGmN9Xgkcsz7vHQEUAS_Z4qlDJRPVFezpepBscx8biszJtDhtRMUv-TzNWJR1f8Z5luDVViRZa4Gb9NHDjUq75vd4Ppv8_yHP2wlSi31WQmwbYqrkm4723SwpRyDa_hC4MbWVtwxCoPcggw8MQurTWcPb-N3HkiYi8iW3A_2fSPQkIoMDu77vIIV7QqjkogiRLSQYEhjxBwzCc5LmvKH9kjBoMYwpZPQUeZj1-8lg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/741850c3ff98b2b5a0fb945c.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "توی Hermes اگر از دستور Compress استفاده کنید، به صورت دستی زمینه گفتگو رو فشرده می‌کنه و چیزهای به درد نخور رو حذف می‌کنه. هرچند خودش وقتی توی هر Session به 50 درصد ظرفیت برسه این کار رو انجام میده، ولی تأثیرش روی توکن مصرفی خیلی زیاده! همونطور که توی عکس دوم می‌بینید<tg-emoji emoji-id=\"5472113631632038780\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AA.png')\"><b>💪</b></i></tg-emoji><br><br><blockquote><b>/compress</b> —&gt; فشرده‌سازی معمولی کل تاریخچه.</blockquote><br><br><blockquote><b>/compress here </b>[N] —&gt; فقط تا قبل از N پیام اخیر رو فشرده می‌کنه (N پیش‌فرض ۲). پیام‌های اخیر کاملاً دست‌نخورده می‌مونن (وقتی می‌خواید مرز فشرده‌سازی رو خودتون کنترل کنید).</blockquote><br><br><blockquote><b>/compress [موضوع خاص]</b> —&gt; مثلاً /compress database schema — خلاصه‌کننده اولویت رو می‌ده به موضوع خاص (مثل schema دیتابیس) و بقیه چیزها رو یه خورده شدیدتر خلاصه می‌کنه. و محوریت حافظه‌ی Session حول همون موضوعی که گفتید می‌چرخه.</blockquote><br><br>حالا شاید سؤال پیش بیاد، که متین آیا این قضیه، کاری به اون حافظه‌ی بلند مدت و حلقه‌ی یادگیری خود هرمس نداره؟<tg-emoji emoji-id=\"5474371208176737086\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji><br>باید بگم که اتفاقا چرا. هرمس قبل از فشرده‌سازی، memory flush انجام می‌ده تا اطلاعات مهم از دست نره و توی حافظه‌ی بلند مدتش ذخیره می‌کنه. و این شکلیه که چیزی از قلم نمیفته!",
-      "plain_text": "توی Hermes اگر از دستور Compress استفاده کنید، به صورت دستی زمینه گفتگو رو فشرده می‌کنه و چیزهای به درد نخور رو حذف می‌کنه. هرچند خودش وقتی توی هر Session به 50 درصد ظرفیت برسه این کار رو انجام میده، ولی تأثیرش روی توکن مصرفی خیلی زیاده! همونطور که توی عکس دوم می‌بینید💪\n\n/compress —> فشرده‌سازی معمولی کل تاریخچه.\n\n/compress here [N] —> فقط تا قبل از N پیام اخیر رو فشرده می‌کنه (N پیش‌فرض ۲). پیام‌های اخیر کاملاً دست‌نخورده می‌مونن (وقتی می‌خواید مرز فشرده‌سازی رو خودتون کنترل کنید).\n\n/compress [موضوع خاص] —> مثلاً /compress database schema — خلاصه‌کننده اولویت رو می‌ده به موضوع خاص (مثل schema دیتابیس) و بقیه چیزها رو یه خورده شدیدتر خلاصه می‌کنه. و محوریت حافظه‌ی Session حول همون موضوعی که گفتید می‌چرخه.\n\nحالا شاید سؤال پیش بیاد، که متین آیا این قضیه، کاری به اون حافظه‌ی بلند مدت و حلقه‌ی یادگیری خود هرمس نداره؟✉️\nباید بگم که اتفاقا چرا. هرمس قبل از فشرده‌سازی، memory flush انجام می‌ده تا اطلاعات مهم از دست نره و توی حافظه‌ی بلند مدتش ذخیره می‌کنه. و این شکلیه که چیزی از قلم نمیفته!",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4207?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/SytnTUGNOb-SZQ8TiQLvDl7uzdiP4ysm0EluZB6o2iVAby1Tl1DEQxAht2ZSV0RtatQVEDpBtKclVPBrERKO5_EiusqIXgVsGvOAjIF9YQ-N4KN7XiFAdmjptjpb1gceNRXIKhWtaDOsRq1nCOt_4UHoRWqxpkGQPd1BZXQznddlXUwMMrw9lTAHW2g3ia7CJl0NWU5p74Viox8aq-P9AI2wyvgbxkd9Lk2Zh5nLXQIUmZSSFZq1jbRZZsvaCSy_pvWYYDS3CQCvuGDOpfsUEiYAuK7s00RYzYvD4dEmjcRfUUIPRoWVBizg72p6OC1SS1h0ZVB-4W0c3vEjZNNI6w.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/92a0987faa5e36e07ba26409.jpg",
-          "thumbnail_sha256": "285edb7647789f90282b9fed30525bdb2f42b20392e283b987db0687489d70b8",
-          "duration_label": null,
-          "aspect_ratio": 2.2771739130435
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4208?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/EtPXhBswp_9-kcWXY7swRBaJzro-RU1jbx5OeM0vDRSbraDKcSomR6AZf0ufyRQw52AEMnes87s2l5bzisUJk2J-iVhmVEdzyLnCA-mDME4XpASMSWceOo1WSZxicBiMLNbR0-5mqrbmk10gC0vx5BCsekLy31r66Suhg7D0sqfoSgE2DdnjUhWMGRJ0ULTCoWYfpeBKdx4g6ZNpkd0wd8ueQK9CXO9Cc225ms7HlY6FBjTYAr5L_y9eVRkalRaRdhx93yIai73A0e8cH2Z229FJPaPVkLcDrFoyUeDAmTLpqi9lBpfvR3DJuN_Z2iH3UCBUOG_-4PuECY4yef12zQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/2a5eaadac0f5e96cd4556dec.jpg",
-          "thumbnail_sha256": "62130a39226ec9dcdfd0ee00bf3d778ba588b46acef1e939c701271d143c6f70",
-          "duration_label": null,
-          "aspect_ratio": 1.9424083769634
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4209?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/tUZ4nl8T2-tIHSgQa7LlKk06W5R3wVk2Z2SgvjsrKqHS5jBi1vIN98IdxDWiwq34H16orw3UNrvm3b7akDmNMOJkOLjwIHsN95b1CZaKsHkmEpMt4QSbpvOG6dTt-QMqMjoE2cDc-zLftKBrQ_eLr-T1aGK9-rS-XZK0MHTf9868HH6If8XTikdmnPHe0wSVu42_BEdTtdItZVGSOUJGUd8W2bTA9yJ7u42OLeDc6knfw2Dyk71TzE8pZUwoo860yj3dbyfQ0B2s8kGG6oxKZ4LvTFtnhN4b3PEgvQbn5SWccTmRVNg3mo4stN9vJ00P_Cz_eHV3QytQGfLDAQ8FEA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/55aba961ce6beec8d839423e.jpg",
-          "thumbnail_sha256": "f7f3debe1ffc9294a05a4424fe471a063c762e5db16fcb3093b39a41fe710f1d",
-          "duration_label": null,
-          "aspect_ratio": 3.3829787234043
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "134"
-        },
-        {
-          "emoji": "👍",
-          "count": "12"
-        },
-        {
-          "emoji": "🔥",
-          "count": "8"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        }
-      ],
-      "views_label": "32K",
-      "posted_at": "2026-07-03T21:33:28+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4207",
       "reply": null
     }
   ]
