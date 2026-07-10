@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-10T17:31:41.027Z",
+  "fetched_at": "2026-07-10T17:37:04.117Z",
   "channel": {
     "username": "mamlekate",
     "title": "مملکته",
@@ -81,7 +81,12 @@
           "aspect_ratio": 0.7500000000000188
         }
       ],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        }
+      ],
       "views_label": "129K",
       "posted_at": "2026-07-10T07:12:06+00:00",
       "edited": true,
@@ -463,7 +468,7 @@
           "count": "11"
         }
       ],
-      "views_label": "185K",
+      "views_label": "186K",
       "posted_at": "2026-07-08T12:27:57+00:00",
       "edited": false,
       "permalink": "https://t.me/mamlekate/103841",
