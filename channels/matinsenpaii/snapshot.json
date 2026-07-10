@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-10T07:01:36.078Z",
+  "fetched_at": "2026-07-10T07:06:43.489Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4356",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/LlczMynCndLhDTTR40SntC6uBQccZM5lnwc5IdanEb0ja7SBwphEtX_7fGUXD6pVnqPz4wjKFfSQ9cuS0kMjzWmZ1FVX5DgPFDh4TLuhcDs_7Wi9Ns6fIsnPnEpei84tsk-RXMkUyai6kkkeKuw99nsyHmoYX-jzf0c-LaO5-IAWWjC1ZnyDGIe3bqcSCS6RRALV93-sWThEFHgilEhVLSRIQnTC_MOX52UXb7EDXffoNzJmwBPg7LdrmZhjx0jYUE18-604ZXSNN-CwJBKSIB9l47CQRDD0k7Gg6gjiaLQgTMcT6iwl7AFb62hvCcKLamxFDgYLspPrt6K0-0yWvg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/cf4fa140602a33e50a6f1c9f.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "ابزار Kastra برای کنترل ایجنت‌های کدنویسی<br><br>اگه با ایجنت‌هایی مثل کلاد یا هرمس(روی Yolo) و یا هر ایجنت دیگه‌ای روی کدهای حساس کار می‌کنید، استفاده از سیستم‌های نظارتی دیگه یه آپشن نیست صرفا به نظرم، بلکه واجبه! <br><br><blockquote>توی Hacker News یه ابزار خیلی خفن و کاربردی به اسم Kastra معرفی شده که کارش اینه که به عنوان یه «لایه‌ی دسترسی و تایید» (Authorization Layer) برای هوش مصنوعی عمل می‌کنه. یعنی دقیقا روی فراخوانی toolها توسط ایجنت‌هایی مثل Cursor و Claude Code نظارت می‌کنه تا اونا سر خود کاری نکنن.</blockquote><br>چرا اصلاً به Kastra نیاز داریم؟<br>ایده‌ی ساخت این ابزار زمانی به ذهن تیم سازنده‌ش رسید که ایجنت خودشون نزدیک بود یه دیتابیس پروداکشن رو به کل پاک کنه! وقتی به مدل‌ها دسترسی کامل (مثل کار با ترمینال یا دیتابیس) می‌دید، هر لحظه ممکنه توهم (Hallucination) بزنن یا اشتباه کنن. Kastra اینجاست تا جلوی فاجعه رو بگیره.<br><br>ویژگی‌های اصلی:<br><blockquote expandable=\"\">- پشتیبانی کامل با mcp: تو کمتر از ۲ دقیقه می‌تونید با Cursor، Claude Code و پروتکل‌های MCP وصلش کنید.<br>- گاردریل‌های امنیتی: می‌تونید براش قانون بذارید که ایجنت برای کارهای خطرناک (مثل پاک کردن یا تغییر دیتابیس) اول از شما اجازه بگیره.<br>- مدیریت دسترسی: مشخص می‌کنید که ایجنت شما دقیقا به چه ابزارها و چه بخش‌هایی از سیستم دسترسی داشته باشه.</blockquote><br>لینک ابزار: <a href=\"https://kastra.ai/\" target=\"_blank\" rel=\"noopener\">https://kastra.ai/</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "ابزار Kastra برای کنترل ایجنت‌های کدنویسی\n\nاگه با ایجنت‌هایی مثل کلاد یا هرمس(روی Yolo) و یا هر ایجنت دیگه‌ای روی کدهای حساس کار می‌کنید، استفاده از سیستم‌های نظارتی دیگه یه آپشن نیست صرفا به نظرم، بلکه واجبه!\n\nتوی Hacker News یه ابزار خیلی خفن و کاربردی به اسم Kastra معرفی شده که کارش اینه که به عنوان یه «لایه‌ی دسترسی و تایید» (Authorization Layer) برای هوش مصنوعی عمل می‌کنه. یعنی دقیقا روی فراخوانی toolها توسط ایجنت‌هایی مثل Cursor و Claude Code نظارت می‌کنه تا اونا سر خود کاری نکنن.\nچرا اصلاً به Kastra نیاز داریم؟\nایده‌ی ساخت این ابزار زمانی به ذهن تیم سازنده‌ش رسید که ایجنت خودشون نزدیک بود یه دیتابیس پروداکشن رو به کل پاک کنه! وقتی به مدل‌ها دسترسی کامل (مثل کار با ترمینال یا دیتابیس) می‌دید، هر لحظه ممکنه توهم (Hallucination) بزنن یا اشتباه کنن. Kastra اینجاست تا جلوی فاجعه رو بگیره.\n\nویژگی‌های اصلی:\n- پشتیبانی کامل با mcp: تو کمتر از ۲ دقیقه می‌تونید با Cursor، Claude Code و پروتکل‌های MCP وصلش کنید.\n- گاردریل‌های امنیتی: می‌تونید براش قانون بذارید که ایجنت برای کارهای خطرناک (مثل پاک کردن یا تغییر دیتابیس) اول از شما اجازه بگیره.\n- مدیریت دسترسی: مشخص می‌کنید که ایجنت شما دقیقا به چه ابزارها و چه بخش‌هایی از سیستم دسترسی داشته باشه.\nلینک ابزار: https://kastra.ai/\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4356",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/OvkULflqH7YDugCvw6hdKiCxf0XSkSnzbraPjVStoVwaNFsHjBdcAv4Ume_BdJb7zLvecPSC-cmOR5M5S1fH_31zMbJYeH5x4HntWK8RXkskr0cczFMGRj8bX4aRxQaESj8KFj7U9DFT_JPEqV-pagS0rqFsahXfhFxx8deZmGovZxwPoGwS8EEmw_k30rSWX5kH2l8VZxTn08BKn5WeSuxS6uSy_dXrupJ2iCa1f86IBvr-dpmARBmVC3tHqrRzaScR8NM6djbOSR7zup63q5EJnJBug7jevUn-ruDKbMW2gyn3zF5-fnRcBlJScxolSCaOu9vVxrCw0Jp948yY_A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/a07ac094a18f1373b2c1ad58.jpg",
+          "thumbnail_sha256": "2f7fb3b3414b047777555cc24d327e789f772e65337db22a57b5d512ba7de7be",
+          "duration_label": null,
+          "aspect_ratio": 1.6194331983805668
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "9"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.02K",
+      "posted_at": "2026-07-10T07:03:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4356",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4355",
       "author_name": "Matin SenPai",
@@ -35,14 +72,14 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "53"
+          "count": "57"
         },
         {
           "emoji": "❤",
-          "count": "16"
+          "count": "17"
         }
       ],
-      "views_label": "11.7K",
+      "views_label": "12.2K",
       "posted_at": "2026-07-10T03:21:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4355",
@@ -69,11 +106,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "81"
+          "count": "83"
         },
         {
           "emoji": "❤",
-          "count": "18"
+          "count": "20"
         },
         {
           "emoji": "🔥",
@@ -84,7 +121,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "13K",
       "posted_at": "2026-07-10T02:27:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4354",
@@ -129,7 +166,7 @@
           "count": "2"
         }
       ],
-      "views_label": "17.6K",
+      "views_label": "17.8K",
       "posted_at": "2026-07-09T21:31:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4353",
@@ -166,7 +203,7 @@
           "count": "3"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.5K",
       "posted_at": "2026-07-09T21:19:59+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4352",
@@ -212,7 +249,7 @@
           "count": "4"
         }
       ],
-      "views_label": "22.4K",
+      "views_label": "22.6K",
       "posted_at": "2026-07-09T20:58:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4351",
@@ -249,7 +286,7 @@
           "count": "3"
         }
       ],
-      "views_label": "22.9K",
+      "views_label": "23K",
       "posted_at": "2026-07-09T20:54:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4350",
@@ -267,7 +304,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "251"
+          "count": "252"
         },
         {
           "emoji": "😁",
@@ -286,7 +323,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.4K",
       "posted_at": "2026-07-09T19:49:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4349",
@@ -325,7 +362,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "277"
+          "count": "278"
         },
         {
           "emoji": "🔥",
@@ -354,7 +391,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "258"
+          "count": "260"
         },
         {
           "emoji": "👍",
@@ -387,7 +424,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "373"
+          "count": "374"
         },
         {
           "emoji": "❤",
@@ -402,7 +439,7 @@
           "count": "6"
         }
       ],
-      "views_label": "25.9K",
+      "views_label": "26K",
       "posted_at": "2026-07-09T18:12:36+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4346",
@@ -509,7 +546,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21K",
+      "views_label": "21.1K",
       "posted_at": "2026-07-09T17:26:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4344",
@@ -611,7 +648,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.4K",
+      "views_label": "31.5K",
       "posted_at": "2026-07-09T12:53:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4342",
@@ -664,7 +701,7 @@
           "count": "2"
         }
       ],
-      "views_label": "31.5K",
+      "views_label": "31.6K",
       "posted_at": "2026-07-09T11:52:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4341",
@@ -4511,35 +4548,6 @@
       "posted_at": "2026-07-04T17:36:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4229",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4228",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/ZeXry-49a_8b481VFgm2jv5OIaEh35a7LCeQiVPKKisVD3koZsqUQxBK0CnMIXVhmC_yqAhbKNqCGIcOC5kKJjA0M4BKzi2hlRkHvBwUp_UCh5qO8nq3bJ9WJ46Ty4y2d5gE5rq7HB1S3vSA_QY34OQN3rVpEJnXUITHPioMMMAUTsACq88n10fN1XhcW3VHMUUGxQgUjJ2nuOH87C3zuHqyZ-Z7BC-LvuXcmrxu3U5qEXiWpbADUc9G6XZfnhEdX_OLURnK28Ag9wdYxNQcZFPURLCfyvSl1HQXlK-vqXyuaAuFxXl8Sm8_m6SlSDVFw42DnivRVayREbhtqSFyfA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/363befbfee21e1942ffcabc7.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "توی این ویدئو که دارم ادیتش میکنم، کلا با cli پیش رفتیم و از اپ دسکتاپ استفاده نکردم برای هرمس. علتش هم اینه که پروایدر شخصی اضافه کردن روش هنوز داستان داره و محیطش پر از باگه همچنان. با اینکه آپدیت هم کردم الان هنوز همونه",
-      "plain_text": "توی این ویدئو که دارم ادیتش میکنم، کلا با cli پیش رفتیم و از اپ دسکتاپ استفاده نکردم برای هرمس. علتش هم اینه که پروایدر شخصی اضافه کردن روش هنوز داستان داره و محیطش پر از باگه همچنان. با اینکه آپدیت هم کردم الان هنوز همونه",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "145"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "😭",
-          "count": "4"
-        }
-      ],
-      "views_label": "26.3K",
-      "posted_at": "2026-07-04T17:35:34+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4228",
       "reply": null
     }
   ]
