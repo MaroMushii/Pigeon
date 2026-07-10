@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-10T23:11:36.267Z",
+  "fetched_at": "2026-07-10T23:16:32.199Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "sahamnewsorg/144323",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/X_CULth2PBNcLCcq_vh5AItZfuN-SbXQ4hWyWjmaJiplWxxrrb3GegFL7MSz1Vd5JMUsALbaJfuuyXKffmQ2mTdET5rkOZbYSCpjNOg_Ow9lH4Xj8oNX8iYhJtwQjY1n1qX1DbMCMWOoOSrp6CXObI6Bwm1UnTAtK8oye30_J0ACb79dRfKEKVwXW3WPQgBF7BD-NQCKtlc8vKXNCz21p3UrE9lQl5FanD85vjqi0HjIRdmjAA42NC248lGBTeVhX5yvVWKINvKcexpRoLiEyY65J50eCIr0mrGazx3Sl1m112D4GZlFim_FWACgjhreYtBBNiXfUfwbPmDBwOHTYg.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/78023ee99ee3d3761b63d28e.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>ورزشگاه سانتیاگو برنابئو قابلیت این را دارد تا بهنگام برگزاری مراسم و کنسرتها، چمن زمین فوتبال را به زیر زمین برده تا هم چمن از صدمه دیدن مصون باشد و هم بتوانند محوطه را برای مراسم مورد نظر سریعتر آماده سازی کنند.<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅ورزشگاه سانتیاگو برنابئو قابلیت این را دارد تا بهنگام برگزاری مراسم و کنسرتها، چمن زمین فوتبال را به زیر زمین برده تا هم چمن از صدمه دیدن مصون باشد و هم بتوانند محوطه را برای مراسم مورد نظر سریعتر آماده سازی کنند.\n\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/144323",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/NlMz646htjgAs1b1ipRY2TKMvvT5We0C7rdRiATOhgpBDyaTypSykGNK2p-WrIrlJLDcqyqrpz_uX2J1oZXT9IbcAjQijlH7DuVAqQYbsAcU1qA_Ru8C4AwmRhSBEzjBdu4Z2NAQsnxatYz17BSewVE6xBDNrNo1fRl84B-cWaO_DTkVWo4CmBsTuLJCADA-UsuEF966QB0csLgJoxswzH7yb4vY06MJ-eW9I0QHi57STkqATju6pvblTJUxPCJ16TFU2MkZuW3hNWjtrXjd2ki8IN0WcKcA4mtlCSLrtdUvTRGVTEVi_o0BxuuwFgdUsz9QKiW3QljSObLLlS3C2g",
+          "thumbnail_path": "channels/sahamnewsorg/media/97bca1ea950c4c19ed25569e.jpg",
+          "thumbnail_sha256": "a64e869e56e207196a94bd0d75bf46af03463492592a820144451a43ab4cad04",
+          "duration_label": "0:39",
+          "aspect_ratio": 0.8354430379746814
+        }
+      ],
+      "reactions": [],
+      "views_label": "966",
+      "posted_at": "2026-07-10T23:12:09+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/144323",
+      "reply": null
+    },
+    {
       "id": "sahamnewsorg/144322",
       "author_name": "سهام نیوز",
       "author_photo_url": "https://cdn1.telesco.pe/file/X_CULth2PBNcLCcq_vh5AItZfuN-SbXQ4hWyWjmaJiplWxxrrb3GegFL7MSz1Vd5JMUsALbaJfuuyXKffmQ2mTdET5rkOZbYSCpjNOg_Ow9lH4Xj8oNX8iYhJtwQjY1n1qX1DbMCMWOoOSrp6CXObI6Bwm1UnTAtK8oye30_J0ACb79dRfKEKVwXW3WPQgBF7BD-NQCKtlc8vKXNCz21p3UrE9lQl5FanD85vjqi0HjIRdmjAA42NC248lGBTeVhX5yvVWKINvKcexpRoLiEyY65J50eCIr0mrGazx3Sl1m112D4GZlFim_FWACgjhreYtBBNiXfUfwbPmDBwOHTYg.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "✅سی‌ان‌ان: تصاویر ماهواره‌ای نشان می‌دهد که ایران در حال بازسازی تاسیسات هسته‌ای خود است.\n\n🔸این فعالیت‌ها در سایت‌های هسته‌ای ممکن است نقض تفاهم‌نامه با ایالات متحده باشد که حفظ وضع موجود هسته‌ای را تصریح کرده بود\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "1.27K",
+      "views_label": "2.22K",
       "posted_at": "2026-07-10T23:05:57+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/144322",
@@ -37,7 +65,7 @@
       "plain_text": "✅ادعای اکسیوس: ایالات متحده به‌زودی از ایران می‌خواهد که بیانیه‌ای صادر کند و اذعان کند که تنگه هرمز باز است و ایران به آتش‌بس مقابل کشتی‌های تجاری پایبند می‌ماند\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "3.16K",
+      "views_label": "3.81K",
       "posted_at": "2026-07-10T22:57:17+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/144321",
@@ -65,7 +93,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "6K",
+      "views_label": "6.64K",
       "posted_at": "2026-07-10T22:39:55+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/144320",
@@ -81,7 +109,7 @@
       "plain_text": "«آن مسئولی که بخوابد و در فکر انتقام رهبر شهید نباشد، باید به وجدان خودش شک کند.»\n‏علی خمینی\n\n‏و البته آن خطیبی که از خونخواهی رهبر بگوید اما در فکر استیفای حقوق ملت از جمله امنیت و تامین معیشت مردم نباشد، باید به وجدان خودش شک کند!/سید محمد صحفی\n\n🔻پ ن: خطیبی که وابستگی به امام خمینی دارد و فقط منافع خود را می بیند بداند حاکمیت از او استفاده ابزاری خواهد کرد. مواظب آبروی بیت امام باشید\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "9.14K",
+      "views_label": "9.76K",
       "posted_at": "2026-07-10T22:18:48+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/144319",
@@ -106,7 +134,7 @@
       "plain_text": "✅کاری که خمینی کرد\n\n‏✍️احمد زیدآبادی\nمرحوم آیت‌الله خمینی وقتی که به نتیجه رسید ادامهٔ جنگ هشت ساله به نفع کشور نیست، یک‌تنه وارد میدان شد و برغم اصرارهای قبلی‌اش مبنی بر تداوم جنگ تا سرنگونی صدام‌حسین، به تعبیر تلخ خودش \"جام زهر\" را خورد تا نوشدارویی برای کشور و مردم باشد.\n‏او پس از پذیرش قطعنامهٔ ۵۹۸ به هیچکدام از توصیه‌های مربوط به نادیده گرفتن مفاد آتش‌بس به دلیل ضعف عراق بر اثر فشارهای بین‌المللی، وقعی ننهاد و بر لزوم پایبندی کامل به آنچه متعهد شده بود، تأکید کرد.\n‏\nنوهٔ آن مرحوم اما امروز چیزهایی گفت که هم تناقض‌آلود بود و هم شرایط را برای تصمیم‌گیران کشور در این وضعیت وانفسا دشوارتر کرد.\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "13.2K",
+      "views_label": "13.5K",
       "posted_at": "2026-07-10T22:00:26+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/144318",
@@ -143,7 +171,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "16K",
+      "views_label": "16.3K",
       "posted_at": "2026-07-10T21:48:07+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/144317",
@@ -171,7 +199,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "22.5K",
+      "views_label": "22.8K",
       "posted_at": "2026-07-10T21:29:04+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/144316",
@@ -199,7 +227,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "26.1K",
+      "views_label": "26.5K",
       "posted_at": "2026-07-10T21:14:49+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/144315",
@@ -231,7 +259,7 @@
       "plain_text": "✅العربیه به نقل از یک منبع مطلع:\nتیم‌های فنی آمریکایی و ایرانی در تاریخ ۱۲ جولای (21 تیر ماه) جاری در پاکستان با یکدیگر دیدار خواهند کرد.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "29.8K",
+      "views_label": "30.1K",
       "posted_at": "2026-07-10T20:56:49+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/144313",
@@ -279,7 +307,7 @@
       "plain_text": "عزت ابراهیم‌نژاد کشته‌ی کوی دانشگاه ،\n\nخانواده‌ی عزت ابراهیم‌نژاد خطاب به مسعود ده‌نمکی:\n\n«در ۱۸ تیر ۱۳۷۸، عزت را شبانه و تک وتنها به گوشه‌ای کشاندی و با ضربات چاقو، زنجیر خودت و دوستانت، عزت را از پا درآوردی و در نهایت با تیر خلاص مهدی صفری تبار پسر امام جمعه اسلامشهر (فرمانده سپاه) که در شقیقه و چشم چپ عزت وارد کرد او را از پای در آوردید... هر چند که ما تک وتنها بودیم و هستیم و زورمان نرسید که شما را به پرونده دادگاه ۱۸ تیر بکشانیم ولی مطمئن باش خداوند، تو را به دادگاه خودش خواهد کشید و دیگر آنجا نه رهبری هست و نه سپاهی و نه دیگر کسی که تو را تبرئه کند.»\nعزت ابراهیم‌نژاد یکی از کشته‌شدگان حادثه‌ی دل‌خراش ۱۸ تیر ۱۳۷۸ است.\nعزت فارغ‌التحصیل رشته‌ی حقوق از دانشگاه چمران اهواز بود که توسط انصار حزب‌الله و نیروهای انتظامی در حمله به خوابگاه دانشجویان در کوی دانشگاه کشته شد.\nاز عزت ابراهیم‌نژاد مجموعه شعری نیز به جا مانده است که پس از قتلش منتشر شده است.\nقاتلان عزت هیچ‌گاه محاکمه نشدند اما او پس از مرگ توسط دادگاه انقلاب به اقدام علیه امنیت ملی متهم شد.\nمجموع شعر «به آسمان» با مقدمه‌ی سیدعلی صالحی نام کتاب شعری است که از زنده‌یاد عزت ابراهیم‌نژاد توسط نشر ثالث منتشر شد.\n\n🔻پ ن: علی خامنه ای در ۱۸ تیر سال ۱۳۷۸ دانشگاه را به خاک و خون کشید و در اتفاقی عجیب در ۱۸ تیر سال ۱۴۰۵ به خاک سپرده شد\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "55.3K",
+      "views_label": "55.4K",
       "posted_at": "2026-07-10T18:08:43+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/144310",
@@ -2380,34 +2408,6 @@
       "posted_at": "2026-07-08T22:18:02+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/144219",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/144218",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/JtY3yUXedmhyKfCJzU7oLNUmBBr-cCUsoipaLenHhnyT52njBf0A_Vhf-Skkqgaet-9tNZujTRpZPxMA5T2ZYZGvuDnY7fh9RnV0OumZ65xF3qy00DHE89Wwf9A2SUZW2VIUcuk9WYj3csGrw2avFjZV7_bPU_A_qpFhqaulDwAtMu-R4wFac6Zs1SNDSh8W4s9jVKMbcw1S4hEA-U7hRTRTdN6a4GhdjWGRTh7zszEouam6qulv3GCNd1WzRqILN6DUnFEKKix-BegkR_PucfjW3DQLfm_ADsa1o1xiTU1IEVBQ-2eWxG-Eq_an9BCKBBsxhx-BnRJwNCJAAD0mIA.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/b4b370b126a7fab65bc0327b.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>کشورهایی که با بسته بودن تنگه هرمز بیشترین ضرر مالی را داشتند.<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅کشورهایی که با بسته بودن تنگه هرمز بیشترین ضرر مالی را داشتند.\n\n@Sahamnewsorg",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/sahamnewsorg/144218",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/vmfnqFZlCl8Dhe040BJkeaWUv-5INX6NQIq7Sqin6w_RQuRal80CUEV-bnKoDFCFYKryuf0gSZ-lokQ3fzkPai62_5Q85sM6BO9Eq0KZZOBJOVy7fzqO8lijVXUeh6jvfLF5mZI6WFUZMtWS608mvfK1zmBpOMq-WxsTq4LkYMrtuNvyjeBT3xXeleuYpKhuaxhKnws2ANaXwx1Ad8wZ9p-NJqFUPIYZhHHFFg-2VZVUrERCFLcwzCPvTLCGuMwLHrk2Xy_2oZ_E-ju609Bb3hIUy5kuAur7AJz8Jm2zaSnRjDEaD001ImGYqsxZEvce4UhxVYPouR7nbCE8wkSYTQ.jpg",
-          "thumbnail_path": "channels/sahamnewsorg/media/b84727cac0a44dd7f84edf2a.jpg",
-          "thumbnail_sha256": "df0533a5b38c8a73fa270e94ce54943454b258570f61b60557d4ddacb5491100",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [],
-      "views_label": "60.6K",
-      "posted_at": "2026-07-08T22:14:18+00:00",
-      "edited": true,
-      "permalink": "https://t.me/sahamnewsorg/144218",
       "reply": null
     }
   ]
