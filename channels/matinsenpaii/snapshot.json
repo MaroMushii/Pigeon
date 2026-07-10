@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-10T11:01:42.746Z",
+  "fetched_at": "2026-07-10T11:06:40.669Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,51 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4359",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/LlczMynCndLhDTTR40SntC6uBQccZM5lnwc5IdanEb0ja7SBwphEtX_7fGUXD6pVnqPz4wjKFfSQ9cuS0kMjzWmZ1FVX5DgPFDh4TLuhcDs_7Wi9Ns6fIsnPnEpei84tsk-RXMkUyai6kkkeKuw99nsyHmoYX-jzf0c-LaO5-IAWWjC1ZnyDGIe3bqcSCS6RRALV93-sWThEFHgilEhVLSRIQnTC_MOX52UXb7EDXffoNzJmwBPg7LdrmZhjx0jYUE18-604ZXSNN-CwJBKSIB9l47CQRDD0k7Gg6gjiaLQgTMcT6iwl7AFb62hvCcKLamxFDgYLspPrt6K0-0yWvg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/cf4fa140602a33e50a6f1c9f.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "اگه با ایجنت‌های کدنویسی کار کرده باشید، می‌دونید که بزرگ‌ترین مشکلشون Over-engineering کردنه. یعنی مثلاً برای یه تقویم ساده که با یه تگ HTML حل می‌شه، میرن یه کامپوننت ۴۰۰ خطی با نصب کلی پکیج اضافه می‌نویسن<tg-emoji emoji-id=\"5472113318099427332\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F98B3.png')\"><b>😳</b></i></tg-emoji><br><br>ابزار <b>Ponytail</b> (که الان به شدت تو کامیونیتی وایرال شده) دقیقاً یه پلاگین برای حل همین مشکله. این ابزار باعث می‌شه ایجنتتون مثل همون برنامه‌نویس‌های سینیورِ تنبل شرکت که حوصله‌ی کدِ اضافه نوشتن ندارن، رفتار کنه<tg-emoji emoji-id=\"5472435535135907118\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9984.png')\"><b>🙄</b></i></tg-emoji><br><br>شعار این ابزار اینه:<br>«هیچی نمی‌گه. فقط یه خط کد می‌نویسه. همونم کار می‌کنه.»<br><br>چطور کار می‌کنه؟<br>قبل از اینکه ایجنت حتی یک خط کد بنویسه، مجبورش می‌کنه این نردبان رو تو ذهنش طی کنه:<br>- اصلاً این فیچر نیازه؟ (قانون YAGNI) اگه نه، بی‌خیالش شو.<br>- آیا توی کدهای فعلی پروژه قبلاً نوشته شده؟ اگه آره، همون رو ری‌یوز کن.<br>- کتابخونه‌های استاندارد خود زبان می‌تونن حلش کنن؟<br>- آیا مرورگر یا سیستم‌عامل خودش اینو داره؟ (مثل استفاده از <code>&lt;input type=\"date\"&gt;</code> به جای نصب پکیج).<br>- آیا پکیجی که از قبل تو پروژه نصبه این کارو می‌کنه؟<br>- می‌شه توی یه خط نوشتش؟<br>- فقط در نهایت: حداقل کد ممکن رو بنویس.<br><br>طبق بنچمارک‌ها، این ابزار حجم کدها رو ۵۴ تا ۹۴ درصد و مصرف توکن‌ها رو ۲۷٪ کاهش می‌ده. البته اینم بگم که تو مباحث امنیتی و Validate کردن اصلاً تنبلی نمی‌کنه و امنیتش ۱۰۰ درصده<tg-emoji emoji-id=\"5382355635553739365\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D8C.png')\"><b>❌</b></i></tg-emoji><br><br>آموزش نصب روی ابزارهای مختلف:<br><blockquote expandable=\"\"><b>توی Claude Code</b><br>کافیه دو تا دستور زیر رو جداگانه توی پرامپت بنویسید:<br>/plugin marketplace add DietrichGebert/ponytail<br>/plugin install ponytail@ponytail<br><br><b>توی هرمس (Hermes Agent)</b><br>hermes plugins install DietrichGebert/ponytail --enable<br>بعد از نصب می‌تونید با دستوراتی مثل /ponytail یا /ponytail-review کنترلش کنید.<br><br><b>توی Cursor، Cline و دیگر</b> ide ها<br>نیازی به پلاگین نیست. کافیه فایل رول‌ها (مثل .cursor/rules/<a href=\"http://ponytail.md/\" target=\"_blank\" rel=\"noopener\">ponytail.md</a>) رو از گیت‌هابش دانلود کنید و بندازید توی پوشه‌ی پروژه‌تون.<br><br><b>توی GitHub Copilot CLI</b><br>/plugin marketplace add DietrichGebert/ponytail<br>/plugin install ponytail@ponytail<br><br><b>توی Gemini CLI (Antigravity)</b><br>agy plugin install <a href=\"https://github.com/DietrichGebert/ponytail\" target=\"_blank\" rel=\"noopener\">https://github.com/DietrichGebert/ponytail</a></blockquote><br><br>لینک ابزار: <a href=\"https://ponytail.dev/\" target=\"_blank\" rel=\"noopener\">https://ponytail.dev/</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "اگه با ایجنت‌های کدنویسی کار کرده باشید، می‌دونید که بزرگ‌ترین مشکلشون Over-engineering کردنه. یعنی مثلاً برای یه تقویم ساده که با یه تگ HTML حل می‌شه، میرن یه کامپوننت ۴۰۰ خطی با نصب کلی پکیج اضافه می‌نویسن😳\n\nابزار Ponytail (که الان به شدت تو کامیونیتی وایرال شده) دقیقاً یه پلاگین برای حل همین مشکله. این ابزار باعث می‌شه ایجنتتون مثل همون برنامه‌نویس‌های سینیورِ تنبل شرکت که حوصله‌ی کدِ اضافه نوشتن ندارن، رفتار کنه🙄\n\nشعار این ابزار اینه:\n«هیچی نمی‌گه. فقط یه خط کد می‌نویسه. همونم کار می‌کنه.»\n\nچطور کار می‌کنه؟\nقبل از اینکه ایجنت حتی یک خط کد بنویسه، مجبورش می‌کنه این نردبان رو تو ذهنش طی کنه:\n- اصلاً این فیچر نیازه؟ (قانون YAGNI) اگه نه، بی‌خیالش شو.\n- آیا توی کدهای فعلی پروژه قبلاً نوشته شده؟ اگه آره، همون رو ری‌یوز کن.\n- کتابخونه‌های استاندارد خود زبان می‌تونن حلش کنن؟\n- آیا مرورگر یا سیستم‌عامل خودش اینو داره؟ (مثل استفاده از <input type=\"date\"> به جای نصب پکیج).\n- آیا پکیجی که از قبل تو پروژه نصبه این کارو می‌کنه؟\n- می‌شه توی یه خط نوشتش؟\n- فقط در نهایت: حداقل کد ممکن رو بنویس.\n\nطبق بنچمارک‌ها، این ابزار حجم کدها رو ۵۴ تا ۹۴ درصد و مصرف توکن‌ها رو ۲۷٪ کاهش می‌ده. البته اینم بگم که تو مباحث امنیتی و Validate کردن اصلاً تنبلی نمی‌کنه و امنیتش ۱۰۰ درصده❌\n\nآموزش نصب روی ابزارهای مختلف:\nتوی Claude Code\nکافیه دو تا دستور زیر رو جداگانه توی پرامپت بنویسید:\n/plugin marketplace add DietrichGebert/ponytail\n/plugin install ponytail@ponytail\n\nتوی هرمس (Hermes Agent)\nhermes plugins install DietrichGebert/ponytail --enable\nبعد از نصب می‌تونید با دستوراتی مثل /ponytail یا /ponytail-review کنترلش کنید.\n\nتوی Cursor، Cline و دیگر ide ها\nنیازی به پلاگین نیست. کافیه فایل رول‌ها (مثل .cursor/rules/ponytail.md) رو از گیت‌هابش دانلود کنید و بندازید توی پوشه‌ی پروژه‌تون.\n\nتوی GitHub Copilot CLI\n/plugin marketplace add DietrichGebert/ponytail\n/plugin install ponytail@ponytail\n\nتوی Gemini CLI (Antigravity)\nagy plugin install https://github.com/DietrichGebert/ponytail\n\nلینک ابزار: https://ponytail.dev/\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4359",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/AWy8_ig4PFTx7ENI_NEAn2bR5nD2DAxMNwc7Iex-2MPKjeRyc0tmsSV5scKbtpQK5LXo3-o_kRd5JxlKBA6G4gYZVbFWm5uoLdCWGNfghTAta-QgYlr3fGQmMmyH4soad70IqfWHp1NkSqlzuVghSrR5arFLYC6dkeXjEEzw-jTGokUB8o4hYOGaPSaaVFlSFJmVPsOzClmtpea7Vd9kqmTiSh-eCjk8YAUI9jO7J8nyINYh6fBiTmzJWssFcfdoOEOVsthzFhdjdtnmsq9pD0JL0h8Lir7mdOIKHukZJDazfEqEg_i4-H96QPLh-q3EzUcS1klZM21K1Z7zI8lMPA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/e9535bcb552e4fd05981bc79.jpg",
+          "thumbnail_sha256": "285fc94a551425f70b67770c0454676977d6f8f8199074f1a45f77a174519af2",
+          "duration_label": null,
+          "aspect_ratio": 2
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "19"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "😁",
+          "count": "2"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.49K",
+      "posted_at": "2026-07-10T11:03:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4359",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4358",
       "author_name": "Matin SenPai",
@@ -23,18 +68,22 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "108"
+          "count": "114"
         },
         {
           "emoji": "❤",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "👎",
           "count": "3"
+        },
+        {
+          "emoji": "🎃",
+          "count": "1"
         }
       ],
-      "views_label": "9.99K",
+      "views_label": "10.6K",
       "posted_at": "2026-07-10T09:29:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4358",
@@ -73,7 +122,7 @@
       "reactions": [
         {
           "emoji": "😨",
-          "count": "103"
+          "count": "112"
         },
         {
           "emoji": "❤",
@@ -96,7 +145,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.71K",
+      "views_label": "10.4K",
       "posted_at": "2026-07-10T09:28:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4357",
@@ -126,7 +175,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "98"
+          "count": "99"
         },
         {
           "emoji": "👍",
@@ -137,7 +186,7 @@
           "count": "4"
         }
       ],
-      "views_label": "15.1K",
+      "views_label": "15.6K",
       "posted_at": "2026-07-10T07:03:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4356",
@@ -174,7 +223,7 @@
           "count": "21"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.7K",
       "posted_at": "2026-07-10T03:21:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4355",
@@ -201,7 +250,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "123"
+          "count": "125"
         },
         {
           "emoji": "❤",
@@ -216,7 +265,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.6K",
+      "views_label": "20.9K",
       "posted_at": "2026-07-10T02:27:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4354",
@@ -246,7 +295,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "125"
+          "count": "127"
         },
         {
           "emoji": "👍",
@@ -265,7 +314,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.7K",
       "posted_at": "2026-07-09T21:31:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4353",
@@ -283,7 +332,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "128"
+          "count": "129"
         },
         {
           "emoji": "❤",
@@ -302,7 +351,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24K",
+      "views_label": "24.2K",
       "posted_at": "2026-07-09T21:19:59+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4352",
@@ -329,7 +378,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "169"
+          "count": "170"
         },
         {
           "emoji": "👍",
@@ -348,7 +397,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.7K",
       "posted_at": "2026-07-09T20:58:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4351",
@@ -385,7 +434,7 @@
           "count": "3"
         }
       ],
-      "views_label": "25.9K",
+      "views_label": "26K",
       "posted_at": "2026-07-09T20:54:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4350",
@@ -472,7 +521,7 @@
           "count": "26"
         }
       ],
-      "views_label": "29.2K",
+      "views_label": "29.3K",
       "posted_at": "2026-07-09T18:30:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4348",
@@ -505,7 +554,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27K",
+      "views_label": "27.1K",
       "posted_at": "2026-07-09T18:30:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4347",
@@ -523,7 +572,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "390"
+          "count": "391"
         },
         {
           "emoji": "❤",
@@ -538,7 +587,7 @@
           "count": "6"
         }
       ],
-      "views_label": "27.3K",
+      "views_label": "27.4K",
       "posted_at": "2026-07-09T18:12:36+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4346",
@@ -565,7 +614,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "462"
+          "count": "463"
         },
         {
           "emoji": "👍",
@@ -645,7 +694,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.5K",
+      "views_label": "22.6K",
       "posted_at": "2026-07-09T17:26:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4344",
@@ -694,7 +743,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.7K",
+      "views_label": "29.8K",
       "posted_at": "2026-07-09T13:04:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4343",
@@ -724,7 +773,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "449"
+          "count": "450"
         },
         {
           "emoji": "💔",
@@ -4492,72 +4541,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4232",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4231",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/ZeXry-49a_8b481VFgm2jv5OIaEh35a7LCeQiVPKKisVD3koZsqUQxBK0CnMIXVhmC_yqAhbKNqCGIcOC5kKJjA0M4BKzi2hlRkHvBwUp_UCh5qO8nq3bJ9WJ46Ty4y2d5gE5rq7HB1S3vSA_QY34OQN3rVpEJnXUITHPioMMMAUTsACq88n10fN1XhcW3VHMUUGxQgUjJ2nuOH87C3zuHqyZ-Z7BC-LvuXcmrxu3U5qEXiWpbADUc9G6XZfnhEdX_OLURnK28Ag9wdYxNQcZFPURLCfyvSl1HQXlK-vqXyuaAuFxXl8Sm8_m6SlSDVFw42DnivRVayREbhtqSFyfA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/363befbfee21e1942ffcabc7.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "رفقا من الان یه Atomic Mail جدید ساختم و وارد شدم، اوکی شده",
-      "plain_text": "رفقا من الان یه Atomic Mail جدید ساختم و وارد شدم، اوکی شده",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4231",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/sDrDjDZMcEHX14JoODM9-uPmNh9oR57WKbzD2eHEeSZ4lslcPoP7ph5G1bYZgn-nM_M3aYdvOVzaC_DmEybvNm5zHoDjSDAX9OAhD49w7dxePOPuvFjPSC5J06xU6jLgbajqRB_h9OmAhjMMAfiOS3b9_wvB7Prxij1uQ_KW5dB09U0yzvo5WDBpki5tB6YVZnctb3I1s33AP4_KGyDB1h0Nrh1iSUd0Vnqcy57-DkWHFMjHBXm8sltX0X7W4-K8llKQyA9PzeGhQ198UihZqNFUuesroTwN8Z99L5qlacfUc_Dq4uPOlGkM-bJYaB2dz9nUZmdVwVoDY5b1-UX3Lg.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/7005ba62c7c211ee3d06d56e.jpg",
-          "thumbnail_sha256": "4bd7d9f631b384da7ade9844f73b77599cc2260444aea1fe39ecf6ca9cdefb6c",
-          "duration_label": null,
-          "aspect_ratio": 1.1632653061224458
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "308"
-        },
-        {
-          "emoji": "😁",
-          "count": "28"
-        },
-        {
-          "emoji": "🔥",
-          "count": "18"
-        },
-        {
-          "emoji": "👎",
-          "count": "11"
-        },
-        {
-          "emoji": "👍",
-          "count": "10"
-        },
-        {
-          "emoji": "😭",
-          "count": "4"
-        },
-        {
-          "emoji": "🎃",
-          "count": "4"
-        }
-      ],
-      "views_label": "26.1K",
-      "posted_at": "2026-07-04T19:55:12+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4231",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4230",
-        "author_name": "Matin SenPai",
-        "preview_text": "کلودفلر، قابلیت Deploy کردن پروژه‌ی جدید رو برای اکانت‌هایی که با سرویس ایمیل‌هایی مثل Atomic mail ساخته شدن، غیرفعال کرده. با جیمیل اکانت بسازید موقتا. شاید پرووایدر دیگه‌ای تونستم پیدا کنم که راحت بشه ایمیل ساخت که کلودفلر گیر نده",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/kNlApayt3WB9YfY97f5RtVQZ9jkPZ56rqwBp4sHwbs_GrMXSRVQOUiwcfWVgAIG1P8WGKqVMOCqQWoRsXzEhdMw6lRNpcOG-mWCEuonpLpaR5ZfIe9C5TxmJerfmoNJXb5hIYaPvslV2kmIHvPMFnnjSMvWLUZCONFAGZ_KjS0M-KwdUTze5smU6B0QM22u0viurQkunbi-Nuxxn819OQVCHbYJwuozVEpFwk2XOkAnDT-N1Pfy07oERh1dVXvldoclPcldcgC2UOaaw6dp7nJMem8Pz470VNiAcWrdkU_OotvYXwI0SChUiEMN0OdVzRmSM0MgAlZLQAIIQ9sMCpA.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/2a991d735b99525a88855e38.jpg",
-        "thumbnail_sha256": "e697bf35bc71f943cd43fea97313541105736830e31e145224d719cad5706f5a",
-        "permalink": "https://t.me/matinsenpaii/4230"
-      }
     }
   ]
 }
