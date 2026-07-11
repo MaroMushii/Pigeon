@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-11T04:46:29.297Z",
+  "fetched_at": "2026-07-11T04:52:14.324Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,39 @@
     "subscriber_count": "97.8K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2483",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/VKXeykmHPY8go-TPnQgbmR_q8A8HG-AfeJgn0bRxRqTcnrCK42MRG2d6-nLUOJyR_XFn3ru-yOZJn07fpVTNJgzlaQLEoA-auqBz_mmCMc15Hm3ExIKzBnTKWCy8illGTVTQbc2Yr1tPQmB-6baFT3ZmJXH-yHkt8eDNPRdkXNM-VPmETekg0x-_okyFy5r3kqrOPeXBfOPN_A65OaJBXvbalgJrqaDzlz5ngL3StmVPyqSLV5uWgKXmNMt4F86Y1Kbu2_MHoXwJYuZDVRuCA75O-EvxByKVVfUBd-SRUEuuzus11BPp51oWS4BD41ujh4arBnQtLbyxngLPnqoisg.jpg",
+      "author_photo_path": "channels/ircfspace/media/029bab68fd57cc99c05cb423.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "مایکروسافت یک آسیب‌پذیری روز صفر در Microsoft Defender با نام RoguePlanet رو برطرف کرده که می‌تونست به مهاجم اجازه بده تا با سوءاستفاده از یک نقص Race Condition، سطح دسترسی خودش رو تا SYSTEM بالا ببره. این مشکل با شناسه CVE-2026-50656 ثبت شده بود و حتی روی ویندوز ۱۰ و ۱۱ کاملاً آپدیت‌شده هم قابل سوءاستفاده بود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> bleepingcomputer<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "مایکروسافت یک آسیب‌پذیری روز صفر در Microsoft Defender با نام RoguePlanet رو برطرف کرده که می‌تونست به مهاجم اجازه بده تا با سوءاستفاده از یک نقص Race Condition، سطح دسترسی خودش رو تا SYSTEM بالا ببره. این مشکل با شناسه CVE-2026-50656 ثبت شده بود و حتی روی ویندوز ۱۰ و ۱۱ کاملاً آپدیت‌شده هم قابل سوءاستفاده بود.\n\n© bleepingcomputer\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2483",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/WYonNLN07udsUBDaEcPCyh6mC5ZpHmOxKUx7zPjIDTKZS10-Q7G3qozmmdyLw-UMZIn8p80gdFb65I1Wwq2IMJ6a8dv3g1uOWxHUDSif4P_lO66WaIu7yDRKPdg-mSn2KylirCP1BqhwBYqNXlXUr9WZKoqhlsZLzYkJxZb9ouOZyIa4n0bvwgBEt0BbD0rSt7I7MEWIxbZW3PZRgCvX2NlWJyTXQKNtE91qordclFhIIIuNUJ-ftAmt86J_ez4nYU80RufrQKrf7rsHEJP92zJm4kd1iyyPVp3pwCFNXha3BxZ9LHgDUMwwOyA274YBISFfgZ_-6Q3c7z8ijl9sVQ.jpg",
+          "thumbnail_path": "channels/ircfspace/media/bfcfff535385596d0935c743.jpg",
+          "thumbnail_sha256": "3a29f917805b100ec1c48498bf7cf79eaeafc045566defc118e81a9c5a0629b6",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "😁",
+          "count": "2"
+        }
+      ],
+      "views_label": "416",
+      "posted_at": "2026-07-11T04:49:51+00:00",
+      "edited": false,
+      "permalink": "https://t.me/ircfspace/2483",
+      "reply": null
+    },
     {
       "id": "ircfspace/2482",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -34,15 +67,15 @@
       ],
       "reactions": [
         {
-          "emoji": "👍",
-          "count": "2"
+          "emoji": "❤",
+          "count": "8"
         },
         {
-          "emoji": "❤",
-          "count": "1"
+          "emoji": "👍",
+          "count": "3"
         }
       ],
-      "views_label": "349",
+      "views_label": "921",
       "posted_at": "2026-07-11T04:44:15+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2482",
@@ -72,7 +105,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "4"
+          "count": "10"
         },
         {
           "emoji": "⚡",
@@ -83,7 +116,7 @@
           "count": "1"
         }
       ],
-      "views_label": "859",
+      "views_label": "1.3K",
       "posted_at": "2026-07-11T04:38:07+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2481",
@@ -113,10 +146,14 @@
       "reactions": [
         {
           "emoji": "👏",
-          "count": "11"
+          "count": "14"
         },
         {
           "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "🔥",
           "count": "3"
         },
         {
@@ -124,11 +161,11 @@
           "count": "2"
         },
         {
-          "emoji": "🔥",
+          "emoji": "👎",
           "count": "1"
         }
       ],
-      "views_label": "1.53K",
+      "views_label": "1.9K",
       "posted_at": "2026-07-11T04:30:06+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2480",
@@ -158,14 +195,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "9"
+          "count": "12"
         },
         {
           "emoji": "❤",
-          "count": "1"
+          "count": "3"
         }
       ],
-      "views_label": "2.39K",
+      "views_label": "2.73K",
       "posted_at": "2026-07-11T04:19:54+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2479",
@@ -195,7 +232,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "22"
+          "count": "25"
         },
         {
           "emoji": "👍",
@@ -206,7 +243,7 @@
           "count": "2"
         }
       ],
-      "views_label": "2.76K",
+      "views_label": "3K",
       "posted_at": "2026-07-11T04:10:55+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2478",
@@ -236,18 +273,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "11"
+          "count": "13"
         },
         {
           "emoji": "👍",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "😱",
           "count": "5"
         }
       ],
-      "views_label": "3.36K",
+      "views_label": "3.64K",
       "posted_at": "2026-07-11T03:59:30+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2477",
@@ -281,7 +318,7 @@
         },
         {
           "emoji": "👍",
-          "count": "266"
+          "count": "267"
         },
         {
           "emoji": "❤",
@@ -312,7 +349,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.7K",
       "posted_at": "2026-07-07T04:18:19+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2476",
@@ -377,7 +414,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.2K",
+      "views_label": "25.4K",
       "posted_at": "2026-07-05T04:44:14+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2475",
@@ -410,7 +447,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-07-05T04:33:07+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2474",
@@ -467,7 +504,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.6K",
+      "views_label": "22.7K",
       "posted_at": "2026-07-05T04:26:12+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2473",
@@ -524,7 +561,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.3K",
+      "views_label": "22.4K",
       "posted_at": "2026-07-05T04:18:00+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2472",
@@ -577,7 +614,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.5K",
+      "views_label": "31.6K",
       "posted_at": "2026-07-02T04:28:44+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2471",
@@ -634,7 +671,7 @@
           "count": "1"
         }
       ],
-      "views_label": "39.9K",
+      "views_label": "40K",
       "posted_at": "2026-06-30T04:14:44+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2470",
@@ -683,7 +720,7 @@
           "count": "1"
         }
       ],
-      "views_label": "39.4K",
+      "views_label": "39.6K",
       "posted_at": "2026-06-30T04:06:28+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2469",
@@ -744,7 +781,7 @@
           "count": "1"
         }
       ],
-      "views_label": "43K",
+      "views_label": "43.1K",
       "posted_at": "2026-06-28T05:13:10+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2468",
@@ -797,7 +834,7 @@
           "count": "1"
         }
       ],
-      "views_label": "40.8K",
+      "views_label": "40.9K",
       "posted_at": "2026-06-28T05:01:00+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2467",
@@ -943,7 +980,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.9K",
+      "views_label": "30K",
       "posted_at": "2026-06-28T04:52:18+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2465",
@@ -5416,63 +5453,6 @@
       "posted_at": "2026-05-25T07:53:57+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2381",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2380",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Ox6xBodijzWgdZCfn2iiC8VfmUFiVhxoKp0s3JMTnOuA45yzAXtcUT-6SaVCrC2kkVwIIJFWBa3D8Yd9gkOObf6YH4iM-v6xbRt1J5VCasg3D3WerQ5jxC_LTyYIIXbHiAU7QgRF3D1zbBV77ukuq6HSYk1enLE61IDOowQRVwJ2UTJQ8U-5huHXr9TQmocvJ9S-0WR-g2bV2KGPvYBWd0BYwIbMUuTXDBh6Pz4wCrpGKMhvlin-k3SpPJ5v-IBuvrUJY-aYW_rdGhnAQUm5AmBcHCJinvx8WD08rETzg260nMnBUU4aezf9zMKQU8tyZptFnA3IPUMXAMVpdKEFpQ.jpg",
-      "author_photo_path": "channels/ircfspace/media/53f3e8ae522e3cefa2f9edc2.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "توی آپدیت جدید از اپ متن‌باز و رایگان <a href=\"?q=%23%D8%B4%DB%8C%D8%B1%D9%88%D8%AE%D9%88%D8%B1%D8%B4%DB%8C%D8%AF\">#شیروخورشید</a> کار خاصی نیاز نیست بکنید! حالت اتصال رو روی CDN FRONTING بذارید، اگر قبلا آی‌پی و SNI ست کرده بودین، پاک کنین؛ بعد روی اتصال بزنین و برای مدتی صبر کنید تا نرم‌افزار خودش آی‌پی تمیز پیدا کنه و وصلتون کنه!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/shirokhorshid/shirokhorshid-android/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/shirokhorshid/shirokhorshid-android/releases/latest</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <a href=\"http://t.me/PersianGithubMirror/5515\" target=\"_blank\" rel=\"noopener\">t.me/PersianGithubMirror/5515</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> yebekhe<br><br><blockquote>آیا این برنامه امنه؟ قبلا <a href=\"https://t.me/ircfspace/2345\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">اینجا</a> توضیح دادم.</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "توی آپدیت جدید از اپ متن‌باز و رایگان #شیروخورشید کار خاصی نیاز نیست بکنید! حالت اتصال رو روی CDN FRONTING بذارید، اگر قبلا آی‌پی و SNI ست کرده بودین، پاک کنین؛ بعد روی اتصال بزنین و برای مدتی صبر کنید تا نرم‌افزار خودش آی‌پی تمیز پیدا کنه و وصلتون کنه!\n\n👉 github.com/shirokhorshid/shirokhorshid-android/releases/latest\n💡 t.me/PersianGithubMirror/5515\n© yebekhe\n\nآیا این برنامه امنه؟ قبلا اینجا توضیح دادم.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2380",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/eONv_nPDg5hXjWijHOp3QP6mKJmZuKyxjZB-BjG0C39DuQr1sgZ9XAsgZxsUXsSA3m2kb-jafVHdiQOmhBMwapqiWZQL21B8mJdy00vDILxcntoqYaD1BKAOry64yr4eFsmNGqCOI8VdnluUvDcGpbb3nA_dFjftBkJIFzdXH_dxTpB2hmt5y29OjJX7XUXEqAor99lUjlawh3QRO_crWNagmgkT5iFq6yTmmX-n1_kR6HjAeFxerSMfysRANu8llAwYZK-gWrHU8VN9SvItPd9s1TpU1Hdt8P5z5szKMmvPJTSbiLaspgxt826DtsbCThxYaVIolYgEdXnCyhiY9A.jpg",
-          "thumbnail_path": "channels/ircfspace/media/636e574d52eed097a19dea13.jpg",
-          "thumbnail_sha256": "d8f73a9547f6deb34cb12989432c76f252f0b9f6eac1e3f4041a2ac89938c05f",
-          "duration_label": null,
-          "aspect_ratio": 0.9651474530831202
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "👍",
-          "count": "270"
-        },
-        {
-          "emoji": "👎",
-          "count": "73"
-        },
-        {
-          "emoji": "❤",
-          "count": "52"
-        },
-        {
-          "emoji": "🔥",
-          "count": "14"
-        },
-        {
-          "emoji": "😢",
-          "count": "8"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        }
-      ],
-      "views_label": "38.3K",
-      "posted_at": "2026-05-24T13:46:32+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2380",
       "reply": null
     }
   ]
