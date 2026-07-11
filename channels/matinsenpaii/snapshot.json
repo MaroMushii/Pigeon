@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-11T01:26:24.091Z",
+  "fetched_at": "2026-07-11T01:31:53.785Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,22 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4366",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Oqg-bDqvEI_1uxNp29-VWcccL-Ms9y0UkU-mxHv4cLdqd_WT5zhGwyKkS1-q3cCf6XRpbdPUEtRkSn0F6WgulRexFVpI9x1lZqLocRnTl1b8V44kbME-FRzwJyqj-8tZFUHFHFqNE2xPcrG6rIUxLL-Qye74rh_uGdbu1olB1y-BbmPjlm8nyBc_nzpYtQmSNClLNp2g2t05VvSasDUBbvLg68n4iK44iO46QNHFBeEVxZdIFQT9_BMvKknozIEQ22MzChycH0fxmhyiNDkeb3ZZxdQ38mWTrUARjkmtStHW23G1U1FSMxu36VYEIrF5KaCxD84B7c8zUm2iMhKdhg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/c61d63f9502a26fdb95d876d.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "فردا open design و claude design رو واستون یه مقایسه میکنم از اونجایی که روز آخر اشتراک کلاد 20 دلاریمه، آتیش بزنم به مال(توکن)ـم<br>ولی ویدئو فعلا ازش نمی‌گیرم. صرفا اینجا بهتون نشون میدم<br>چون هنوز به open design مسلط نیستم کامل<br>در عوض تمرکز می‌کنم روی ویدئوهای درس خوندن با ai و بالاتر بردن efficiency",
+      "plain_text": "فردا open design و claude design رو واستون یه مقایسه میکنم از اونجایی که روز آخر اشتراک کلاد 20 دلاریمه، آتیش بزنم به مال(توکن)ـم\nولی ویدئو فعلا ازش نمی‌گیرم. صرفا اینجا بهتون نشون میدم\nچون هنوز به open design مسلط نیستم کامل\nدر عوض تمرکز می‌کنم روی ویدئوهای درس خوندن با ai و بالاتر بردن efficiency",
+      "media": [],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-07-11T01:31:46+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4366",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4365",
       "author_name": "Matin SenPai",
@@ -43,7 +59,7 @@
         },
         {
           "emoji": "❤",
-          "count": "71"
+          "count": "73"
         },
         {
           "emoji": "😨",
@@ -260,7 +276,7 @@
           "count": "3"
         }
       ],
-      "views_label": "25.8K",
+      "views_label": "25.9K",
       "posted_at": "2026-07-10T12:00:28+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4360",
@@ -4445,59 +4461,6 @@
       "posted_at": "2026-07-05T14:35:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4240",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4239",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/ZeXry-49a_8b481VFgm2jv5OIaEh35a7LCeQiVPKKisVD3koZsqUQxBK0CnMIXVhmC_yqAhbKNqCGIcOC5kKJjA0M4BKzi2hlRkHvBwUp_UCh5qO8nq3bJ9WJ46Ty4y2d5gE5rq7HB1S3vSA_QY34OQN3rVpEJnXUITHPioMMMAUTsACq88n10fN1XhcW3VHMUUGxQgUjJ2nuOH87C3zuHqyZ-Z7BC-LvuXcmrxu3U5qEXiWpbADUc9G6XZfnhEdX_OLURnK28Ag9wdYxNQcZFPURLCfyvSl1HQXlK-vqXyuaAuFxXl8Sm8_m6SlSDVFw42DnivRVayREbhtqSFyfA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/363befbfee21e1942ffcabc7.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "امروز Hacker News رو چک کردم، یه سورس تو گیت‌هاب ترند شده که پرامپت‌ها و ساختار دقیقی که برای Design System با مدل Claude استفاده می‌شه رو افشا کرده. برای کسایی که می‌خوان از AI برای ساخت سریع UI کامپوننت‌های یکپارچه و سیستم‌دیزاین استفاده کنن، این ریپازیتوری عالیه. با دستور /learn بدیدش به هرمس و تمام.<br><br>گیتهاب پروژه: <a href=\"https://github.com/Trystan-SA/claude-design-system-prompt\" target=\"_blank\" rel=\"noopener\">https://github.com/Trystan-SA/claude-design-system-prompt</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "امروز Hacker News رو چک کردم، یه سورس تو گیت‌هاب ترند شده که پرامپت‌ها و ساختار دقیقی که برای Design System با مدل Claude استفاده می‌شه رو افشا کرده. برای کسایی که می‌خوان از AI برای ساخت سریع UI کامپوننت‌های یکپارچه و سیستم‌دیزاین استفاده کنن، این ریپازیتوری عالیه. با دستور /learn بدیدش به هرمس و تمام.\n\nگیتهاب پروژه: https://github.com/Trystan-SA/claude-design-system-prompt\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4239",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/vk_CkLElxwmVP5zCJIaqZEiFdL_61cGpyM6UTrDSwNtgj7_OCB7ZQVZVmBfztWVKzMrRWtgKOSUnO9N3ksSu83urZsKUxTrVnEKt7loK3cb0f_GiKg3eXaofEgdb_qcchOa1h092_xfNr1zq9Z4x-cre0lF37oiFZxblz30Jh8JHBDz6QkUtXO8oc35GfKFOP5k656gBpbic3XcGkilH5yCAUOsPF6_WMJieCIPPRYOyG-UpArixpGBHOQgLMroowLSj66DtuMkc9Vtdr5Eh0opG-q4NKYOoPb4vXZgMsF3Kz6aNzLgCnEeWAJoh_2dtUw7GEZ5WphevnAtvORGuiQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/2e74f931c9970e9fc2cf1e4c.jpg",
-          "thumbnail_sha256": "485b9d9a8c13419da510fd3db2f16dfcc26201d7144d9ba796d57c2f756850f7",
-          "duration_label": null,
-          "aspect_ratio": 1.782608695652166
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "187"
-        },
-        {
-          "emoji": "🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🎃",
-          "count": "3"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        },
-        {
-          "emoji": "👍",
-          "count": "1"
-        },
-        {
-          "emoji": "😁",
-          "count": "1"
-        }
-      ],
-      "views_label": "20.7K",
-      "posted_at": "2026-07-05T14:19:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4239",
       "reply": null
     }
   ]
