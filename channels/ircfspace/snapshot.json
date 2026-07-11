@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-11T04:27:20.583Z",
+  "fetched_at": "2026-07-11T04:31:21.392Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -12,13 +12,46 @@
   },
   "posts": [
     {
+      "id": "ircfspace/2480",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/VKXeykmHPY8go-TPnQgbmR_q8A8HG-AfeJgn0bRxRqTcnrCK42MRG2d6-nLUOJyR_XFn3ru-yOZJn07fpVTNJgzlaQLEoA-auqBz_mmCMc15Hm3ExIKzBnTKWCy8illGTVTQbc2Yr1tPQmB-6baFT3ZmJXH-yHkt8eDNPRdkXNM-VPmETekg0x-_okyFy5r3kqrOPeXBfOPN_A65OaJBXvbalgJrqaDzlz5ngL3StmVPyqSLV5uWgKXmNMt4F86Y1Kbu2_MHoXwJYuZDVRuCA75O-EvxByKVVfUBd-SRUEuuzus11BPp51oWS4BD41ujh4arBnQtLbyxngLPnqoisg.jpg",
+      "author_photo_path": "channels/ircfspace/media/029bab68fd57cc99c05cb423.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "کاوه یه ابزار برای اسکن، استخراج و اشتراک‌گذاری کانفیگ‌های فیلترشکن هست، که کار پیدا کردن کانفیگ‌های سالم و به‌روز رو راحت‌تر می‌کنه. این وب‌اپ میتونه چندین کانال تلگرام رو همزمان اسکن کنه، کانفیگ‌هارو بصورت خودکار استخراج کنه و در نهایت یه لینک سابسکریپشن بهتون بده تا مستقیم داخل کلاینت‌هایی مثل v2rayNG، v2rayN، Hiddify, Streisand, v2box و ... وارد کنین.<br>توی کاوه می‌تونین کانفیگ‌های خودتون رو با بقیه به اشتراک بذارین. علاوه بر این، حذف خودکار کانفیگ‌های منقضی و امکان رأی دادن به کانفیگ‌ها و منابع از جمله قابلیت‌های این ابزار رایگان هستن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://kaveh.yebekhe.workers.dev/\" target=\"_blank\" rel=\"noopener\">kaveh.yebekhe.workers.dev/</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "کاوه یه ابزار برای اسکن، استخراج و اشتراک‌گذاری کانفیگ‌های فیلترشکن هست، که کار پیدا کردن کانفیگ‌های سالم و به‌روز رو راحت‌تر می‌کنه. این وب‌اپ میتونه چندین کانال تلگرام رو همزمان اسکن کنه، کانفیگ‌هارو بصورت خودکار استخراج کنه و در نهایت یه لینک سابسکریپشن بهتون بده تا مستقیم داخل کلاینت‌هایی مثل v2rayNG، v2rayN، Hiddify, Streisand, v2box و ... وارد کنین.\nتوی کاوه می‌تونین کانفیگ‌های خودتون رو با بقیه به اشتراک بذارین. علاوه بر این، حذف خودکار کانفیگ‌های منقضی و امکان رأی دادن به کانفیگ‌ها و منابع از جمله قابلیت‌های این ابزار رایگان هستن.\n\n👉 kaveh.yebekhe.workers.dev/\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2480",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/G8XDv5nkZVG-fgieQdZ5uxTBxn0O9UFX6zaLP5VjwCpXNXpjAjuFo6ySe4rV22KBlexpcuVA8oY6yQ9nlAbpavnkdbXy6-jo4ZTAaM2od9xE4y_GmHOFmnO0BL_KmIeM-nywUwYliRQSC4EET_vWOgmzRqmm6CUZ_PrQommO9FzmrYiCraz1Ak5qoRNzZv3xXYudwScwkAhvlrXSM-NCkZXrDg6UNZT9E39HemfpjP6XUe_fCdCotEgrYthi5rHOqOkH4RfECAuPvypAOXY3xkJuNbbYutKIrV7q0nwYTeGZt73lgg1Rl3o5TV70L4Z5Z6R3ZG1yf7gjLqd4goBUZA.jpg",
+          "thumbnail_path": "channels/ircfspace/media/ed5815f5580c116aebdf51fa.jpg",
+          "thumbnail_sha256": "3c0031d51be3d60bd1917a46b7a80247ce565bc2846e22014a1cfbfb696ec4cc",
+          "duration_label": null,
+          "aspect_ratio": 1.3333333333333333
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": "3"
+        }
+      ],
+      "views_label": "226",
+      "posted_at": "2026-07-11T04:30:06+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2480",
+      "reply": null
+    },
+    {
       "id": "ircfspace/2479",
       "author_name": "IRCF | اینترنت آزاد برای همه",
       "author_photo_url": "https://cdn1.telesco.pe/file/VKXeykmHPY8go-TPnQgbmR_q8A8HG-AfeJgn0bRxRqTcnrCK42MRG2d6-nLUOJyR_XFn3ru-yOZJn07fpVTNJgzlaQLEoA-auqBz_mmCMc15Hm3ExIKzBnTKWCy8illGTVTQbc2Yr1tPQmB-6baFT3ZmJXH-yHkt8eDNPRdkXNM-VPmETekg0x-_okyFy5r3kqrOPeXBfOPN_A65OaJBXvbalgJrqaDzlz5ngL3StmVPyqSLV5uWgKXmNMt4F86Y1Kbu2_MHoXwJYuZDVRuCA75O-EvxByKVVfUBd-SRUEuuzus11BPp51oWS4BD41ujh4arBnQtLbyxngLPnqoisg.jpg",
       "author_photo_path": "channels/ircfspace/media/029bab68fd57cc99c05cb423.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "برای ابزار MTProxyMax آپدیت جدیدی منتشر شده که توی اون از بهینه‌سازی‌هایی مثل BBRv3 استفاده شده تا عملکرد سرورها بهتر بشه و مصرف حافظه هم روی VPSهای ضعیف‌تر کاهش پیدا کنه. همینطور در این ابزار که برای مدیریت پروکسی‌های MTProto تلگرام روی سرور شخصی هست، قابلیت‌های جدیدی برای مقابله با DPI و اسکنرهای شناسایی پروکسی اضافه کردن تا شناسایی و مسدود شدن سرورها سخت‌تر بشه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/SamNet-dev/MTProxyMax/releases\" target=\"_blank\" rel=\"noopener\">github.com/SamNet-dev/MTProxyMax/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> <a href=\"http://ircf.space/\" target=\"_blank\" rel=\"noopener\">ircf.space</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "برای ابزار MTProxyMax آپدیت جدیدی منتشر شده که توی اون از بهینه‌سازی‌هایی مثل BBRv3 استفاده شده تا عملکرد سرورها بهتر بشه و مصرف حافظه هم روی VPSهای ضعیف‌تر کاهش پیدا کنه. همینطور در این ابزار که برای مدیریت پروکسی‌های MTProto تلگرام روی سرور شخصی هست، قابلیت‌های جدیدی برای مقابله با DPI و اسکنرهای شناسایی پروکسی اضافه کردن تا شناسایی و مسدود شدن سرورها سخت‌تر بشه.\n\n👉 github.com/SamNet-dev/MTProxyMax/releases\n\n🔍 ircf.space\n@ircfspace",
+      "body_html": "برای ابزار MTProxyMax آپدیت جدیدی منتشر شده که توی اون از بهینه‌سازی‌هایی مثل BBRv3 استفاده شده تا عملکرد سرورها بهتر بشه و مصرف حافظه هم روی VPSهای ضعیف‌تر کاهش پیدا کنه. همینطور در این ابزار که برای مدیریت پروکسی‌های MTProto تلگرام روی سرور شخصی هست، قابلیت‌های جدیدی برای مقابله با DPI و اسکنرهای شناسایی پروکسی اضافه کردن تا شناسایی و مسدود شدن سرورها سخت‌تر بشه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/SamNet-dev/MTProxyMax/releases\" target=\"_blank\" rel=\"noopener\">github.com/SamNet-dev/MTProxyMax/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "برای ابزار MTProxyMax آپدیت جدیدی منتشر شده که توی اون از بهینه‌سازی‌هایی مثل BBRv3 استفاده شده تا عملکرد سرورها بهتر بشه و مصرف حافظه هم روی VPSهای ضعیف‌تر کاهش پیدا کنه. همینطور در این ابزار که برای مدیریت پروکسی‌های MTProto تلگرام روی سرور شخصی هست، قابلیت‌های جدیدی برای مقابله با DPI و اسکنرهای شناسایی پروکسی اضافه کردن تا شناسایی و مسدود شدن سرورها سخت‌تر بشه.\n\n👉 github.com/SamNet-dev/MTProxyMax/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
       "media": [
         {
           "kind": "photo",
@@ -35,12 +68,12 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "6"
         }
       ],
-      "views_label": "899",
+      "views_label": "1.22K",
       "posted_at": "2026-07-11T04:19:54+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/ircfspace/2479",
       "reply": null
     },
@@ -68,18 +101,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "14"
+          "count": "16"
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👎",
           "count": "1"
         }
       ],
-      "views_label": "1.49K",
+      "views_label": "1.84K",
       "posted_at": "2026-07-11T04:10:55+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2478",
@@ -109,7 +142,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "👍",
@@ -117,10 +150,10 @@
         },
         {
           "emoji": "😱",
-          "count": "3"
+          "count": "4"
         }
       ],
-      "views_label": "2.28K",
+      "views_label": "2.56K",
       "posted_at": "2026-07-11T03:59:30+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2477",
@@ -154,7 +187,7 @@
         },
         {
           "emoji": "👍",
-          "count": "265"
+          "count": "266"
         },
         {
           "emoji": "❤",
@@ -185,7 +218,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.7K",
+      "views_label": "20.9K",
       "posted_at": "2026-07-07T04:18:19+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2476",
@@ -250,7 +283,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.6K",
+      "views_label": "24.7K",
       "posted_at": "2026-07-05T04:44:14+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2475",
@@ -283,7 +316,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.3K",
+      "views_label": "23.4K",
       "posted_at": "2026-07-05T04:33:07+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2474",
@@ -340,7 +373,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.2K",
+      "views_label": "22.3K",
       "posted_at": "2026-07-05T04:26:12+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2473",
@@ -556,7 +589,7 @@
           "count": "1"
         }
       ],
-      "views_label": "39K",
+      "views_label": "39.1K",
       "posted_at": "2026-06-30T04:06:28+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2469",
@@ -816,7 +849,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.5K",
+      "views_label": "29.6K",
       "posted_at": "2026-06-28T04:52:18+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2465",
@@ -873,7 +906,7 @@
           "count": "1"
         }
       ],
-      "views_label": "36K",
+      "views_label": "36.1K",
       "posted_at": "2026-06-27T09:11:19+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2464",
@@ -5468,59 +5501,6 @@
       "posted_at": "2026-05-24T05:21:32+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2377",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2376",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/uhwZcofF1_ViVohlIQWSLp9M_DFdjJXei0vt8rXiCcmRn6iQo-KXkYntGh2F1yUxFWM0sYHblpSrSeLXRFNe-bT0vRHi-c2JI5fwEp6w0cQQ49uxbVKpU-qXTI4Gxt1QqE3UUaBSv1hH1VSdNPqMjNZZKCd67vg1QUdMU28OJG6wLbxXT1LgUnGK-v22aPl6sbmcJOQhkDBdxTfS-hSX4eW-457rIXCmlvo09CFmDxGsDxrGL6YMs21qRDcNrgZZbmyns9s2xvWTsSqsMy0-ui_o6NCoPPGOSJKaozpwfy6ZNRsaQVVsEzdCkZMThpCiA66Pnw4cKfGen2nZEDe7kA.jpg",
-      "author_photo_path": "channels/ircfspace/media/c1879f5a72fce8c5062701a7.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "بازم خداروشكر كه&nbsp;الحمدالله، وگرنه&nbsp;والا به خدا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA4A1.png')\"><b>🤡</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "بازم خداروشكر كه الحمدالله، وگرنه والا به خدا 🤡\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/ircfspace/2376",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/XUlQrFUajVnczz4i7C6Gcg0n5FCMgoGJKpzo6UxKz4PIUk3rLIc0RaKQ3ZeuI-Kduw3PS0tatarD8u5UfAP6M8UpP-6MoZmM0EgPgb45fOE0yPpmAGR0_1MrPZsrQx9mu_ITL2oNQzOAHjIqgegT9mklMO7p-B-1fvDNXJOxk9k89G4AEx3s6COHv9CbXKauytIfeoZjOK7pnsPrV3dq-NDQR3YrH6G97YTQKDlhTEZw2uUaTU-bihoGHKkaoB_lyOcxy74_yLvEEbMXg54ORfhnbuvjYX_R3VhT7ZFun6ACxps7O0DzILiLi6vc3Zl_tM2k2THPUJ5nz3hFX5xhLw",
-          "thumbnail_path": "channels/ircfspace/media/a8c8b233e6ea887293aa41e5.jpg",
-          "thumbnail_sha256": "2755e13fdb0f7cd780178f6d51a938d1677c9e5576c9f545fd150fc5f1647d48",
-          "duration_label": "0:07",
-          "aspect_ratio": 0.7511737089201878
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "🤬",
-          "count": "292"
-        },
-        {
-          "emoji": "🤡",
-          "count": "70"
-        },
-        {
-          "emoji": "😁",
-          "count": "24"
-        },
-        {
-          "emoji": "❤",
-          "count": "8"
-        },
-        {
-          "emoji": "😱",
-          "count": "1"
-        },
-        {
-          "emoji": "😢",
-          "count": "1"
-        }
-      ],
-      "views_label": "31.3K",
-      "posted_at": "2026-05-24T05:10:24+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2376",
       "reply": null
     }
   ]
