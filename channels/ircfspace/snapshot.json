@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-11T04:06:32.871Z",
+  "fetched_at": "2026-07-11T04:11:23.101Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,34 @@
     "subscriber_count": "97.8K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2478",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/VKXeykmHPY8go-TPnQgbmR_q8A8HG-AfeJgn0bRxRqTcnrCK42MRG2d6-nLUOJyR_XFn3ru-yOZJn07fpVTNJgzlaQLEoA-auqBz_mmCMc15Hm3ExIKzBnTKWCy8illGTVTQbc2Yr1tPQmB-6baFT3ZmJXH-yHkt8eDNPRdkXNM-VPmETekg0x-_okyFy5r3kqrOPeXBfOPN_A65OaJBXvbalgJrqaDzlz5ngL3StmVPyqSLV5uWgKXmNMt4F86Y1Kbu2_MHoXwJYuZDVRuCA75O-EvxByKVVfUBd-SRUEuuzus11BPp51oWS4BD41ujh4arBnQtLbyxngLPnqoisg.jpg",
+      "author_photo_path": "channels/ircfspace/media/029bab68fd57cc99c05cb423.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "اپ Intra با استفاده از فناوری DNS-over-HTTPS (DoH) درخواست‌های DNS رو رمزنگاری می‌کنه تا اپراتور اینترنت یا هر واسطه‌ای نتونه آدرس سایت‌هایی که باز می‌کنید رو دستکاری، مسدود یا به مسیر اشتباه هدایت کنه. <br>این برنامه فیلترشکن نیست و آیپی شما رو تغییر نمیده، اما چون جلوی سانسور و دستکاری DNS رو می‌گیره، در شبکه‌هایی که فیلترینگ از این روش استفاده می‌کنن می‌تونه باعث دسترسی به سایت‌های مسدودشده بشه. علاوه بر این، رمزنگاری درخواست‌های DNS تا حدی از کاربران در برابر حملات فیشینگ و برخی بدافزارها هم محافظت می‌کنه.<br><br>اینترا توسط Jigsaw، تیم نوآوری گوگل که روی فناوری‌های مرتبط با آزادی دسترسی به اینترنت و امنیت دیجیتال کار می‌کنه، توسعه داده میشه و کد منبع اون صورت متن‌باز روی گیت‌هاب منتشر شده. این اپ از طریق گوگل‌پلی در دسترسه و استفاده ازش هم خیلی ساده‌ست؛ فقط کافیه یک‌بار فعالش کنین تا در پس‌زمینه کار خودش رو انجام بده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://play.google.com/store/apps/details?id=app.intra\" target=\"_blank\" rel=\"noopener\">play.google.com/store/apps/details?id=app.intra</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <a href=\"http://github.com/Jigsaw-Code/Intra\" target=\"_blank\" rel=\"noopener\">github.com/Jigsaw-Code/Intra</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "اپ Intra با استفاده از فناوری DNS-over-HTTPS (DoH) درخواست‌های DNS رو رمزنگاری می‌کنه تا اپراتور اینترنت یا هر واسطه‌ای نتونه آدرس سایت‌هایی که باز می‌کنید رو دستکاری، مسدود یا به مسیر اشتباه هدایت کنه.\nاین برنامه فیلترشکن نیست و آیپی شما رو تغییر نمیده، اما چون جلوی سانسور و دستکاری DNS رو می‌گیره، در شبکه‌هایی که فیلترینگ از این روش استفاده می‌کنن می‌تونه باعث دسترسی به سایت‌های مسدودشده بشه. علاوه بر این، رمزنگاری درخواست‌های DNS تا حدی از کاربران در برابر حملات فیشینگ و برخی بدافزارها هم محافظت می‌کنه.\n\nاینترا توسط Jigsaw، تیم نوآوری گوگل که روی فناوری‌های مرتبط با آزادی دسترسی به اینترنت و امنیت دیجیتال کار می‌کنه، توسعه داده میشه و کد منبع اون صورت متن‌باز روی گیت‌هاب منتشر شده. این اپ از طریق گوگل‌پلی در دسترسه و استفاده ازش هم خیلی ساده‌ست؛ فقط کافیه یک‌بار فعالش کنین تا در پس‌زمینه کار خودش رو انجام بده.\n\n👉 play.google.com/store/apps/details?id=app.intra\n💡 github.com/Jigsaw-Code/Intra\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2478",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/eho2idPSgzwEzQPaxT6Ie19UBDlk8Yrs7Mw9qbIwxedeNDp8GTB4fpQZ4ekxnBvRwhJ1bLm2nhZMKShsUqYVdKuIe4oFOBCCYV0cE8Av-wxcgMU8S6fFu3w3OwghfEhbntzNgjRNfJ5G7ilW_sBl0gnGKKm7tHQ1Mr5WregCKTs_7fpT9VSIPTcJuCGweMXA2_iMeUXfguaezLvFiuwQFutbKEZjoG8ESjqHWq3P5dVUnjQfwaNgBeX6KUbq5NMbAnYR5qmdyO8x9dsOcOILrQfU-zRM147gBDT2hwrUIhAejXvhoI0EvO-c8xKTgDXlKa4SdFnT46vsl8qWAJUzPQ.jpg",
+          "thumbnail_path": "channels/ircfspace/media/80ee011be94d5a28f3126562.jpg",
+          "thumbnail_sha256": "adbeb789f63a3957628e53576029123efa6cac123ff71ffd4470306470ad3cf6",
+          "duration_label": null,
+          "aspect_ratio": 1.7057569296375266
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-07-11T04:10:55+00:00",
+      "edited": false,
+      "permalink": "https://t.me/ircfspace/2478",
+      "reply": null
+    },
     {
       "id": "ircfspace/2477",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -35,18 +63,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "5"
+          "count": "6"
+        },
+        {
+          "emoji": "😱",
+          "count": "2"
         },
         {
           "emoji": "👍",
           "count": "1"
-        },
-        {
-          "emoji": "😱",
-          "count": "1"
         }
       ],
-      "views_label": "828",
+      "views_label": "1.2K",
       "posted_at": "2026-07-11T03:59:30+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2477",
@@ -111,7 +139,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.5K",
+      "views_label": "19.8K",
       "posted_at": "2026-07-07T04:18:19+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2476",
@@ -176,7 +204,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.6K",
+      "views_label": "23.9K",
       "posted_at": "2026-07-05T04:44:14+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2475",
@@ -209,7 +237,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.5K",
+      "views_label": "22.7K",
       "posted_at": "2026-07-05T04:33:07+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2474",
@@ -266,7 +294,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.7K",
+      "views_label": "21.8K",
       "posted_at": "2026-07-05T04:26:12+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2473",
@@ -433,7 +461,7 @@
           "count": "1"
         }
       ],
-      "views_label": "39.1K",
+      "views_label": "39.3K",
       "posted_at": "2026-06-30T04:14:44+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2470",
@@ -482,7 +510,7 @@
           "count": "1"
         }
       ],
-      "views_label": "38.6K",
+      "views_label": "38.8K",
       "posted_at": "2026-06-30T04:06:28+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2469",
@@ -543,7 +571,7 @@
           "count": "1"
         }
       ],
-      "views_label": "42.6K",
+      "views_label": "42.7K",
       "posted_at": "2026-06-28T05:13:10+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2468",
@@ -742,7 +770,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.9K",
+      "views_label": "29.1K",
       "posted_at": "2026-06-28T04:52:18+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2465",
@@ -897,7 +925,7 @@
           "count": "2"
         }
       ],
-      "views_label": "30.4K",
+      "views_label": "30.5K",
       "posted_at": "2026-06-27T04:14:22+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2462",
@@ -1040,7 +1068,7 @@
           "count": "6"
         }
       ],
-      "views_label": "53.4K",
+      "views_label": "53.5K",
       "posted_at": "2026-06-23T16:58:22+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2459",
@@ -5480,79 +5508,6 @@
       "posted_at": "2026-05-24T05:06:55+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2375",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2374",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/hylYwaYYYqQtAtea3LvTYAShv1HcpB85ejGQwYo4KiqkQahNjLhK-2t_NbUW95Rks8K2kYiDK54gcurtrncE3aWlG6VIxqyKi1QOzoR6HUMvOGcLo13zfbARETkGPpjU5QZaeIV_N7XIcAXogqxZVNrD-M2SU8OBwqaDEWYb0Gmu3GbIoHWujWyaETDL-W8zSEB4X6oUbGTidQWIo23aXacPgYe4113UwBl_2sZYgJuvV1z9zBnZpLCSaTYxXnXSthlQcZ_rrhJcTIxVXWIizljOSxHiwmCjrxrByYGmrCmuLgdgbVQYu3be0ZBhYvyHR0cuuRE9BrhBZf1od8WI2A.jpg",
-      "author_photo_path": "channels/ircfspace/media/6c308b76d94e6bb17f53bf2d.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "<b>۸۵ روز از قطع سراسری اینترنت در ایران گذشت!</b><br><br>قطع اینترنت در ایران، یک پروژه چندوجهی است. قطع شده تا بین \"هواداران پهلوی\" و \"پهلوی\" فاصله ایجاد شود و همزمان عده‌ای بتوانند روایت جعلی بسازند.<br><br>صدبار دیگر ایران بمباران شود، نظام با بمباران تغییر نمی‌کند؛ چیزی که جمهوری اسلامی را ساقط می‌کند، آن مردمی هستند که شعار دادند \"این آخرین نبرده، پهلوی برمی‌گرده\" ...<br><br>با تمام دشمنی‌ها، سرنوشت محتوم ایران محقق خواهد شد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> AmirHadiAnvari<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "۸۵ روز از قطع سراسری اینترنت در ایران گذشت!\n\nقطع اینترنت در ایران، یک پروژه چندوجهی است. قطع شده تا بین \"هواداران پهلوی\" و \"پهلوی\" فاصله ایجاد شود و همزمان عده‌ای بتوانند روایت جعلی بسازند.\n\nصدبار دیگر ایران بمباران شود، نظام با بمباران تغییر نمی‌کند؛ چیزی که جمهوری اسلامی را ساقط می‌کند، آن مردمی هستند که شعار دادند \"این آخرین نبرده، پهلوی برمی‌گرده\" ...\n\nبا تمام دشمنی‌ها، سرنوشت محتوم ایران محقق خواهد شد.\n\n© AmirHadiAnvari\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2374",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/gY8w1mVp49c5_iGtIUMJAAlIdxms8N6pNX5mFgHYAXxa_kW3V7Zj0zCCHdx5mbj1bHYgLVFc-Gx1KsHRdGZQCmY83Hq5djZB621WFnmTfcfxOYzSNnOrWSVdvVjqwfMtjOkHZXPapFJPSKxCEQRujtDsm4lthXJNQUheflMWUK3a1BAdbKkJmFWwN9YmxufAskD1x1T4sjK1mK_OWkeTJI5rbxnwwqrNEuCxBrgka2ejVivUv1XYFy3WGoqUZmonGWpCghSxF7SmC96Ukk9fEGGgSVQ2I2EHMT-5TVu1h9BMCfneOytU5bnSdAvTsfsFy9CjLfvi0UZBTF6VS6w0Iw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/f9ae4c5422c88308ad962901.jpg",
-          "thumbnail_sha256": "2331292ceedd8768513a02f00be50d9a329adb3f6c91a4d326765870ce2068b6",
-          "duration_label": null,
-          "aspect_ratio": 1.0903954802259945
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "11"
-        },
-        {
-          "emoji": "❤",
-          "count": "514"
-        },
-        {
-          "emoji": "👎",
-          "count": "105"
-        },
-        {
-          "emoji": "👍",
-          "count": "67"
-        },
-        {
-          "emoji": "🤡",
-          "count": "34"
-        },
-        {
-          "emoji": "😁",
-          "count": "9"
-        },
-        {
-          "emoji": "🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "🤬",
-          "count": "5"
-        },
-        {
-          "emoji": "😢",
-          "count": "4"
-        },
-        {
-          "emoji": "🥴",
-          "count": "4"
-        },
-        {
-          "emoji": "😐",
-          "count": "4"
-        }
-      ],
-      "views_label": "30.8K",
-      "posted_at": "2026-05-23T05:08:17+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2374",
       "reply": null
     }
   ]
