@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-13T13:41:47.990Z",
+  "fetched_at": "2026-07-13T13:46:43.742Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "bbcpersian/286522",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/om1jJmILM4eFzr2des5dDo46ZDzYF_KBHLWK1mGgd33KCqOmjQUidiys51mVB9tKzr5hCAUhCNml68P_eRT6fVWq6iMPft6lV04MK-WzSSGkvyi_IHHuHj0U0KTIjbPcEfW8nfDPlsFmxMxONVbVMuf2n_n8y3rZqLGAOG99zdo2KkKgdFBleg3ogYlHlYllnQ_yK1xVm9bEtxPtgi-UWbTojQs3-jBDOZtP6bnnzdA4JDNP4q35g-CWMVgp2zdQ_yjKOJXe4h0gjZpHf1Rk_kxCHckMEDG6ckguLd7O07awsijg1IvLPQhT4q1zhxW98MNBlJhuBJlxErbl36imWg.jpg",
+      "author_photo_path": "channels/bbcpersian/media/aef8a9fab5ed4eed30a5a4c8.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "سرخط خبرها، روز دوشنبه ۲۲ تیر ماه ۱۴۰۵ از تلویزیون بی‌بی‌سی فارسی <br><br><a href=\"https://bbc.in/42XnQmy\" target=\"_blank\" rel=\"noopener\"><b>https://bbc.in/42XnQmy</b></a><br><a href=\"https://bbc.in/3WtLd3k\" target=\"_blank\" rel=\"noopener\"><b>https://bbc.in/3WtLd3k</b></a><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "سرخط خبرها، روز دوشنبه ۲۲ تیر ماه ۱۴۰۵ از تلویزیون بی‌بی‌سی فارسی\n\nhttps://bbc.in/42XnQmy\nhttps://bbc.in/3WtLd3k\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/286522",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/lzAp-hdJDiatpNfeoYkEBWSAkcz4N-8t2fOwrW3j40qphaWsa96uz_VfILpait-5ycP1CD2bZjkxMd8iRM3B1CbL0ZRd7ok5YYHozkVNE9ePPmHO3HLMohiyM0KhjnHcaNwwHzB69LobwHEmedVkPHrCYQjdtTsWI94t6akE9Ix--DyjM1NtWFEql6sl5wzqvN8mn3rTVdgiU0k5j4JfmSmnm71JebLSgrb9hBf1CpM-GwOYPlE95wQMsYNPuGjYMzirmDJmSRd1emT9gyXnM99c2iSj5IAjoqHoo0gRTfPxyTwi_NaAb91x-WBYi__L6a3D6U-jB3J7eNiZ4ADKJg",
+          "thumbnail_path": "channels/bbcpersian/media/9946666817b2aec52014bab9.jpg",
+          "thumbnail_sha256": "f256ccfed835d1c66f5001eb0d9f05a984025a7cd996a54482377eb429db9a27",
+          "duration_label": "0:53",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "1.08K",
+      "posted_at": "2026-07-13T13:43:59+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/286522",
+      "reply": null
+    },
+    {
       "id": "bbcpersian/286521",
       "author_name": "BBCPersian",
       "author_photo_url": "https://cdn4.telesco.pe/file/om1jJmILM4eFzr2des5dDo46ZDzYF_KBHLWK1mGgd33KCqOmjQUidiys51mVB9tKzr5hCAUhCNml68P_eRT6fVWq6iMPft6lV04MK-WzSSGkvyi_IHHuHj0U0KTIjbPcEfW8nfDPlsFmxMxONVbVMuf2n_n8y3rZqLGAOG99zdo2KkKgdFBleg3ogYlHlYllnQ_yK1xVm9bEtxPtgi-UWbTojQs3-jBDOZtP6bnnzdA4JDNP4q35g-CWMVgp2zdQ_yjKOJXe4h0gjZpHf1Rk_kxCHckMEDG6ckguLd7O07awsijg1IvLPQhT4q1zhxW98MNBlJhuBJlxErbl36imWg.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔻بحرین: ایران در حملات اخیر غیرنظامیان را هدف قرار داد\n\nارتش بحرین ایران را متهم کرد که در آخرین حملات «غیرنظامیان» را هدف قرار داده است.\n\nستاد فرماندهی ارتش بحرین در بیانیه‌ای گفت: «ایران همچنان به رویکرد خصمانه و سازمان‌یافته خود با حملات پهپادی و موشکی ادامه می‌دهد که غیرنظامیان را در پادشاهی بحرین هدف قرار می‌دهد.»\n\nدر ادامه بیانیه ارتش بحرین آمده که سامانه‌های پدافند هوایی صبح دوشنبه تعدادی از حملات ایران را رهگیری و منهدم کرده است.\n\nایران می‌گوید که پایگاه‌های نظامی آمریکا را در کشورهای منطقه از جمله بحرین هدف قرار داده است.\n\nمقر اصلی ناوگان پنجم نیروی دریایی آمریکا در بحرین قرار دارد.\nhttps://bbc.in/4ba076L\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "6.59K",
+      "views_label": "9.79K",
       "posted_at": "2026-07-13T13:31:11+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/286521",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "12.4K",
+      "views_label": "14.5K",
       "posted_at": "2026-07-13T13:21:42+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/286520",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "24K",
+      "views_label": "26.1K",
       "posted_at": "2026-07-13T12:41:35+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/286519",
@@ -89,8 +117,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/om1jJmILM4eFzr2des5dDo46ZDzYF_KBHLWK1mGgd33KCqOmjQUidiys51mVB9tKzr5hCAUhCNml68P_eRT6fVWq6iMPft6lV04MK-WzSSGkvyi_IHHuHj0U0KTIjbPcEfW8nfDPlsFmxMxONVbVMuf2n_n8y3rZqLGAOG99zdo2KkKgdFBleg3ogYlHlYllnQ_yK1xVm9bEtxPtgi-UWbTojQs3-jBDOZtP6bnnzdA4JDNP4q35g-CWMVgp2zdQ_yjKOJXe4h0gjZpHf1Rk_kxCHckMEDG6ckguLd7O07awsijg1IvLPQhT4q1zhxW98MNBlJhuBJlxErbl36imWg.jpg",
       "author_photo_path": "channels/bbcpersian/media/aef8a9fab5ed4eed30a5a4c8.jpg",
       "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>دولت بریتانیا اعلام کرد که سپاه پاسداران را در فهرست سازمان‌های ممنوعه قرار می‌دهد.<br>موضوع قرار دادن سپاه در فهرست سازمان‌های «تروریستی» از مدت‌ها پیش در بریتانیا مطرح بوده و برخی نمایندگان پارلمان و چهره‌های سیاسی بارها این درخواست کرده بودند.<br><br>پس از مجموعه‌ای از حملات به جامعه یهودیان در بریتانیا، همان‌گونه که کی‌یر استارمر وعده داده بود، لایحه تهدید دولت‌ها برای امنیت ملی را با روندی تسریع‌شده در دولت به تصویب رسید.<br><br>پیش از این قوانین برای ممنوع اعلام کردن «گروه‌های تروریستی» شامل گروه‌های مورد حمایت دولت‌ها نمی‌شد.<br><br>بر اساس این تصمیم، از این پس موارد زیر جرم کیفری محسوب می‌شود:<br><br><b>دعوت به حمایت از سپاه پاسداران یا ابراز نظر یا باوری که حامی این نهاد باشد</b><br><br><b>کمک به سپاه پاسداران برای انجام فعالیت‌های مرتبط با بریتانیا یا اقداماتی که احتمالاً به‌طور مؤثر به این نهاد کمک موثر کند</b><br><br><b>دریافت یا نگهداری هرگونه منفعت مادی از سپاه پاسداران یا به نمایندگی از آن</b><br><br>دولت بریتانیا هدف از این اقدام را «مختل کردن» فعالیت افرادی عنوان کرده است که «منافع و اهداف نهادهای تعیین‌شده را ترویج می‌کنند.»<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻دولت بریتانیا اعلام کرد که سپاه پاسداران را در فهرست سازمان‌های ممنوعه قرار می‌دهد.\nموضوع قرار دادن سپاه در فهرست سازمان‌های «تروریستی» از مدت‌ها پیش در بریتانیا مطرح بوده و برخی نمایندگان پارلمان و چهره‌های سیاسی بارها این درخواست کرده بودند.\n\nپس از مجموعه‌ای از حملات به جامعه یهودیان در بریتانیا، همان‌گونه که کی‌یر استارمر وعده داده بود، لایحه تهدید دولت‌ها برای امنیت ملی را با روندی تسریع‌شده در دولت به تصویب رسید.\n\nپیش از این قوانین برای ممنوع اعلام کردن «گروه‌های تروریستی» شامل گروه‌های مورد حمایت دولت‌ها نمی‌شد.\n\nبر اساس این تصمیم، از این پس موارد زیر جرم کیفری محسوب می‌شود:\n\nدعوت به حمایت از سپاه پاسداران یا ابراز نظر یا باوری که حامی این نهاد باشد\n\nکمک به سپاه پاسداران برای انجام فعالیت‌های مرتبط با بریتانیا یا اقداماتی که احتمالاً به‌طور مؤثر به این نهاد کمک موثر کند\n\nدریافت یا نگهداری هرگونه منفعت مادی از سپاه پاسداران یا به نمایندگی از آن\n\nدولت بریتانیا هدف از این اقدام را «مختل کردن» فعالیت افرادی عنوان کرده است که «منافع و اهداف نهادهای تعیین‌شده را ترویج می‌کنند.»\n\n@BBCPersian",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>دولت بریتانیا اعلام کرد که سپاه پاسداران را در فهرست سازمان‌های ممنوعه قرار می‌دهد<br>موضوع قرار دادن سپاه در فهرست سازمان‌های «تروریستی» از مدت‌ها پیش در بریتانیا مطرح بوده و برخی نمایندگان پارلمان و چهره‌های سیاسی بارها این درخواست کرده بودند.<br><br>پس از مجموعه‌ای از حملات به جامعه یهودیان در بریتانیا، همان‌گونه که کی‌یر استارمر وعده داده بود، لایحه تهدید دولت‌ها برای امنیت ملی را با روندی تسریع‌شده در دولت به تصویب رسید.<br><br>پیش از این قوانین برای ممنوع اعلام کردن «گروه‌های تروریستی» شامل گروه‌های مورد حمایت دولت‌ها نمی‌شد.<br><br>بر اساس این تصمیم، از این پس موارد زیر جرم کیفری محسوب می‌شود:<br><br><b>دعوت به حمایت از سپاه پاسداران یا ابراز نظر یا باوری که حامی این نهاد باشد</b><br><br><b>کمک به سپاه پاسداران برای انجام فعالیت‌های مرتبط با بریتانیا یا اقداماتی که احتمالاً به‌طور مؤثر به این نهاد کمک موثر کند</b><br><br><b>دریافت یا نگهداری هرگونه منفعت مادی از سپاه پاسداران یا به نمایندگی از آن</b><br><br>دولت بریتانیا هدف از این اقدام را «مختل کردن» فعالیت افرادی عنوان کرده است که «منافع و اهداف نهادهای تعیین‌شده را ترویج می‌کنند.»<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B8.png')\"><b>📸</b></i>NurPhoto via Getty<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "🔻دولت بریتانیا اعلام کرد که سپاه پاسداران را در فهرست سازمان‌های ممنوعه قرار می‌دهد\nموضوع قرار دادن سپاه در فهرست سازمان‌های «تروریستی» از مدت‌ها پیش در بریتانیا مطرح بوده و برخی نمایندگان پارلمان و چهره‌های سیاسی بارها این درخواست کرده بودند.\n\nپس از مجموعه‌ای از حملات به جامعه یهودیان در بریتانیا، همان‌گونه که کی‌یر استارمر وعده داده بود، لایحه تهدید دولت‌ها برای امنیت ملی را با روندی تسریع‌شده در دولت به تصویب رسید.\n\nپیش از این قوانین برای ممنوع اعلام کردن «گروه‌های تروریستی» شامل گروه‌های مورد حمایت دولت‌ها نمی‌شد.\n\nبر اساس این تصمیم، از این پس موارد زیر جرم کیفری محسوب می‌شود:\n\nدعوت به حمایت از سپاه پاسداران یا ابراز نظر یا باوری که حامی این نهاد باشد\n\nکمک به سپاه پاسداران برای انجام فعالیت‌های مرتبط با بریتانیا یا اقداماتی که احتمالاً به‌طور مؤثر به این نهاد کمک موثر کند\n\nدریافت یا نگهداری هرگونه منفعت مادی از سپاه پاسداران یا به نمایندگی از آن\n\nدولت بریتانیا هدف از این اقدام را «مختل کردن» فعالیت افرادی عنوان کرده است که «منافع و اهداف نهادهای تعیین‌شده را ترویج می‌کنند.»\n📸NurPhoto via Getty\n@BBCPersian",
       "media": [
         {
           "kind": "photo",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "31.9K",
+      "views_label": "33K",
       "posted_at": "2026-07-13T12:10:39+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/286518",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "30.5K",
+      "views_label": "31.5K",
       "posted_at": "2026-07-13T12:02:36+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/286517",
@@ -149,7 +177,7 @@
       "plain_text": "🔻🔻\nآقای فیدان در آن مصاحبه گفته بود: «اگر بتوانیم به یک توافق امنیتی جدید دست پیدا کنیم، توافقی که امنیت، ایمنی، حاکمیت سیاسی و تمامیت ارضی همه طرف‌های منطقه را تضمین کند، این پیام را به ایران می‌دهد که اکنون وقت آن است که همه طرف‌ها از تنش فاصله بگیرند و هر کدام به محدوده خود بازگردند.»\n\nسخنگوی وزارت خارجه ایران از مقام‌های ترکیه خواست که تحلیل‌هایشان را با «واقعیت‌های موجود منطبق کنند» و از تکرار موضوعاتی که توجیه سیاست‌های اسرائیل است خودداری کنند.\n\nهاکان فیدان یک هفته بعد از آتش‌بس ایران و آمریکا گفته بود که اسرائیل «نمی‌تواند بدون دشمن زندگی کند» و پس از ایران ترکیه دشمن بعدی اسرائیل است.\n\nرجب طیب اردوغان، رئیس‌جمهور ترکیه، و بنیامین نتانیاهو، نخست‌وزیر اسرائیل، هم به‌خصوص بعد از جنگ غزه بارها علنی و با شدیدترین لحن به یکدیگر حمله کرده‌اند.\n\nhttps://bbc.in/44VVrxA\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "33.7K",
+      "views_label": "34.8K",
       "posted_at": "2026-07-13T11:45:05+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/286516",
@@ -319,7 +347,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "40.2K",
+      "views_label": "41.2K",
       "posted_at": "2026-07-13T10:40:28+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/286506",
@@ -335,7 +363,7 @@
       "plain_text": "🔻بقایی: ما به هیچ کشور منطقه حمله نکرده‌ایم و نخواهیم کرد\n\nاسماعیل بقایی، سخنگوی وزارت خارجه، در نشست خبری خود گفت که ایران به هیچ کشور منطقه حمله نکرده است.\n\nاو حملات ایران به کشورهای منطقه را عملیاتی «دفاعی» توصیف کرد که «صرفاً علیه پایگاه‌ها، امکانات و مواضعی است که آمریکا برای حمله به ایران استفاده می‌کند.»\n\nآقای بقایی تاکید کرد که ایران بارها از کشورهای منطقه خواسته‌ که بر اساس تعهداتشان طبق حقوق بین‌الملل، اجازه ندهند آمریکا و اسرائیل از قلمرو، امکانات و خاک آنان برای طراحی، تدارک و عملیات علیه ایران استفاده کنند.\n\nوزارت خارجه ایران ساعاتی پیش کشورهای حوزه خلیج فارس را تهدید کرد که در صورت همکاری در «تجاوز نظامی علیه ایران» اهداف مشروع نیروهای مسلح ایران خواهند بود.\nhttps://bbc.in/3Tv0Mta\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "40.1K",
+      "views_label": "41.1K",
       "posted_at": "2026-07-13T10:34:37+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/286505",
@@ -351,7 +379,7 @@
       "plain_text": "🔻مارین ترافیک: از عصر دیروز هیچ کشتی‌ در حال عبور از تنگه هرمز ردیابی نشد\n\nطبق گزارش مارین ترافیک، وبسایت ردیابی کشتی‌ها، از عصر دیروز هیچ کشتی تجاری که موقعیت مکانی خود را اعلام کرده باشد، از تنگه هرمز عبور نکرده است.\n\nایران دیروز گفت که عبور از تنگه هرمز به دلیل «تحرکات غیرقانونی» نیروهای نظامی آمریکا «در حال حاضر امکان‌پذیر نیست.»\n\nآمریکا در واکنش گفت تنگه هرمز باز است و امنیت تردد در آن را تضمین می‌کند.\n\nبر اساس داده‌های شرکت اطلاعات دریایی کپلر، در کل روز یکشنبه هشت کشتی تجاری شامل تانکر، فله‌بر و باری از این تنگه عبور کردند که نسبت به ۲۱ کشتی در روز شنبه و ۱۴ کشتی در روز جمعه کاهش یافته است.\n\nاز هشت کشتی که دیروز عبور کردند، دو کشتی موقعیت خود را در طول عبور اعلام کردند و شش کشتی موقعیت خود را اعلام نکردند.\n\nhttps://bbc.in/3Tv0Mta\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "48.7K",
+      "views_label": "49.8K",
       "posted_at": "2026-07-13T09:34:39+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/286504",
@@ -2792,22 +2820,6 @@
       "posted_at": "2026-07-12T00:15:54+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/286368",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/286367",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/RvurRTJIu4QjAIG37xmTDrIP3vpPusAo-yY63WxztGoEtS4e-r_sRO6dBBxprx2taEko37fX_xzRBopY0l-DaxW3plfqZLOjH70U3PGP5N3rLO3tR6pOMDHL32LNVVUnwOJXganGqYEccyQUHuWQYHjHfEhuNAIuvst6rb1diNJ9f6ITodYHDw5hDpW0bUcyHdTy3siw6jfPczbmpvcql_OsWnG0hLAuAM74oqeejq1vvS9lGvumWpMp5FWfkT-yivJ4ltGAtNtUVYajAMUfdHHUhVibJrHoPFxYhwj-rezDPuTujx4dQuTBvvXtbaRJPVybRBRRyTneCyMiq4NXpg.jpg",
-      "author_photo_path": "channels/bbcpersian/media/b28ceb7303c0ab3364b3dc94.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>پیت هگست: ایران انتخاب بدی کرد، حالا تاوانش را می‌دهد<br><br>پیت هگست، وزیر دفاع آمریکا، با بازنشر بیانیه سنتکام درباره آغاز دور سوم حملات این هفته علیه ایران در شبکه اجتماعی ایکس نوشت: «ایران انتخاب بدی کرد؛ حالا تاوانش را می‌دهد.»<br><br>لحظاتی قبل فرماندهی مرکزی آمریکا، سنتکام، اعلام کرد که نیروهای آن کشور دور سوم حملات این هفته علیه ایران را آغاز کردند.<br><br>پیشتر نیروی دریایی سپاه پاسداران اعلام کرد که تنگه هرمز «تا اطلاع ثانوی و تا پایان مداخلات آمریکا» بسته خواهد ماند و هیچ شناوری اجازه عبور از این آبراه را نخواهد داشت.<br><br><a href=\"https://bbc.in/3RvWiSv\" target=\"_blank\" rel=\"noopener\">https://bbc.in/3RvWiSv</a><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻پیت هگست: ایران انتخاب بدی کرد، حالا تاوانش را می‌دهد\n\nپیت هگست، وزیر دفاع آمریکا، با بازنشر بیانیه سنتکام درباره آغاز دور سوم حملات این هفته علیه ایران در شبکه اجتماعی ایکس نوشت: «ایران انتخاب بدی کرد؛ حالا تاوانش را می‌دهد.»\n\nلحظاتی قبل فرماندهی مرکزی آمریکا، سنتکام، اعلام کرد که نیروهای آن کشور دور سوم حملات این هفته علیه ایران را آغاز کردند.\n\nپیشتر نیروی دریایی سپاه پاسداران اعلام کرد که تنگه هرمز «تا اطلاع ثانوی و تا پایان مداخلات آمریکا» بسته خواهد ماند و هیچ شناوری اجازه عبور از این آبراه را نخواهد داشت.\n\nhttps://bbc.in/3RvWiSv\n@BBCPersian",
-      "media": [],
-      "reactions": [],
-      "views_label": "27.1K",
-      "posted_at": "2026-07-12T00:06:06+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/286367",
       "reply": null
     }
   ]
