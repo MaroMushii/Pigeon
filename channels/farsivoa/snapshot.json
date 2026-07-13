@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-13T16:21:43.853Z",
+  "fetched_at": "2026-07-13T16:26:42.806Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/223706",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/fiDt75xK-cO2YV7XS9R06MVk_OY8zLueJhkUfBYEa7Ep4u0U0p78tzfDrXxJPdOzNulJFO8pgF8TGbL46LIObyZ2MUbUJuKzbryJtMF-bLiqgT9JfBQK4RgIU1RUj0qizlIkPjb4j6SKpBS9g-lWpdDxlOnoBzQbtAz6iQIpjJc5bEjisEOW52ZDfuQjIrauLFEte7Kpp_A4dXzozsjOlprm3zIpI7ds2uAZLSI-sjdVSiV1M7_ZCDKFJU5t1XfwBAnK81MgmYFywCjA-Mk6HjPYHY905Sh2XSXLnaCQk2D8BlnrtuQtho-1y9ibStCeFrxbcWUAjb0WKgSlJUwinQ.jpg",
+      "author_photo_path": "channels/farsivoa/media/7f195655d276893569097bc0.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "شاهین مدرس در برنامه میدان توافق نامه یا به قولی «یاداشت تفاهم» را از اساس ناپایدار می‌خواند. در مقابل محمد قائدی می‌گوید که هنوز وارد جنگ تمام عیار نشده‌ایم و دو طرف در تلاش‌اند از هم امتیاز بیشتری بگیرند",
+      "plain_text": "شاهین مدرس در برنامه میدان توافق نامه یا به قولی «یاداشت تفاهم» را از اساس ناپایدار می‌خواند. در مقابل محمد قائدی می‌گوید که هنوز وارد جنگ تمام عیار نشده‌ایم و دو طرف در تلاش‌اند از هم امتیاز بیشتری بگیرند",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/223706",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/M9d_BvoymbnxY7bgPisaqMnM1tnkq2UR8EWM8j7T1d-rQYLu4taDfXQ8g-1087GMe_6v_Hm-KDAOimvI6eL4wXtVp6PRr-h1S0aWMna6yS-V6Hjfpf3qc5fIoTrSo45bYo_0tFFtT9FE0atAenWuasjLJ6B9xeSp-6Fo2GrTeAbEsOA1Wkqn_OSr0ssIw0YFZv86vOVtWBGQuOz3_jdSRTBb45_8AKU3s7Q1mBgywtWv2nfDyHOORmFCPOOBDAdiQPy-Vc8TuWwqHJ10utvU29vTSvNbeWHayWU63ZP0uJqJZm0Gtusq3cnmlYVEMqYKCJXnFWt69F4jOPpJqFAfEQ",
+          "thumbnail_path": "channels/farsivoa/media/7753b98d292c64951cbe1f8b.jpg",
+          "thumbnail_sha256": "308bb9da020ae8bfddacf71fdf379e24b797ed00acb1ca83f636947e8d352473",
+          "duration_label": "2:47",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "125",
+      "posted_at": "2026-07-13T16:24:58+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/223706",
+      "reply": null
+    },
+    {
       "id": "farsivoa/223705",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/fiDt75xK-cO2YV7XS9R06MVk_OY8zLueJhkUfBYEa7Ep4u0U0p78tzfDrXxJPdOzNulJFO8pgF8TGbL46LIObyZ2MUbUJuKzbryJtMF-bLiqgT9JfBQK4RgIU1RUj0qizlIkPjb4j6SKpBS9g-lWpdDxlOnoBzQbtAz6iQIpjJc5bEjisEOW52ZDfuQjIrauLFEte7Kpp_A4dXzozsjOlprm3zIpI7ds2uAZLSI-sjdVSiV1M7_ZCDKFJU5t1XfwBAnK81MgmYFywCjA-Mk6HjPYHY905Sh2XSXLnaCQk2D8BlnrtuQtho-1y9ibStCeFrxbcWUAjb0WKgSlJUwinQ.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺گزارش | اعدام ابراهیم دولت‌آبادی‌ نژاد؛ معترضی که هزینه اعتراض را با جانش پرداخت\n\n◾️ابراهیم دولت‌آبادی‌ نژاد، از بازداشت‌شدگان اعتراضات دی ۱۴۰۴، تنها شش روز پس از صدور حکم اعدام، در اردیبهشت ۱۴۰۵ اعدام شد. مقام‌های جمهوری اسلامی خبر اجرای حکم را روز ۱۴ اردیبهشت اعلام کردند، اما منابع حقوق بشری می‌گویند او سحرگاه ۱۳ اردیبهشت به‌ صورت مخفیانه در زندان وکیل‌آباد مشهد اعدام شده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/executions-iran-humanrights-death-penalty/8171242.html",
       "media": [],
       "reactions": [],
-      "views_label": "674",
+      "views_label": "930",
       "posted_at": "2026-07-13T16:13:26+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223705",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.81K",
+      "views_label": "2.04K",
       "posted_at": "2026-07-13T15:50:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223704",
@@ -65,7 +93,7 @@
       "plain_text": "🔺مارکو روبیو: دولت ترامپ کارزاری جهانی برای برچیدن دیوان کیفری بین‌المللی آغاز کرده است\n\n◾️مارکو روبیو، وزیر امور خارجه ایالات متحده، در مقاله‌ای که روز دوشنبه ۲۲ تیر در روزنامه وال‌استریت ژورنال منتشر کرد، اعلام کرد دولت پرزیدنت دونالد ترامپ کارزاری دیپلماتیک برای مقابله با «دیوان کیفری بین‌المللی» (آی‌سی‌سی) آغاز کرده است، و هدف از این کارزار را «برچیدن» این نهاد بین‌المللی عنوان کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/rubio-explains-plan-to-dismantle-icc/8171259.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.24K",
+      "views_label": "2.4K",
       "posted_at": "2026-07-13T15:43:15+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223703",
@@ -93,7 +121,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.24K",
+      "views_label": "2.37K",
       "posted_at": "2026-07-13T15:38:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223702",
@@ -121,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.08K",
+      "views_label": "2.21K",
       "posted_at": "2026-07-13T15:38:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223701",
@@ -137,7 +165,7 @@
       "plain_text": "🔺آمریکا تسهیل‌کنندگان «حملات باج‌افزاری» را تحریم کرد\n\n▪️وزارت امور خارجه ایالات متحده روز دوشنبه ۲۲ تیر ۱۴۰۵ اعلام کرد که آمریکا در اقدامی هماهنگ با بریتانیا، یک شرکت و دو فرد را به‌دلیل ارائه خدمات و ابزارهای مورد نیاز گروه‌های باج‌افزاری تحریم کرده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/u-s-sanctions-ransomware-enablers/8171248.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.15K",
+      "views_label": "2.28K",
       "posted_at": "2026-07-13T15:33:16+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/223700",
@@ -165,7 +193,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.92K",
+      "views_label": "3.02K",
       "posted_at": "2026-07-13T15:06:10+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223699",
@@ -193,7 +221,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.67K",
+      "views_label": "2.76K",
       "posted_at": "2026-07-13T15:06:06+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223698",
@@ -209,7 +237,7 @@
       "plain_text": "🔺اهداف سفر علی الزیدی به آمریکا از زبان نخست‌وزیر عراق\n\n▪️علی الزیدی، نخست‌وزیر عراق، با انتشار مقاله‌ای در روزنامه واشنگتن‌ پست در روز دوشنبه ۲۲ تیر اهداف سفر خود به ایالات متحده را شرح داد. در این مقاله رئیس دولت عراق تأکید کرده است که می‌خواهد روابط دوجانبه آمریکا و عراق را از سطح «اداره بحران‌ها» به سطح «آفرینش فرصت‌ها» ارتقا دهد، به طوری که دستاوردهای اقتصادی ملموسی در پی داشته باشد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iraq-united-state-iran-proxy/8171234.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.96K",
+      "views_label": "3.02K",
       "posted_at": "2026-07-13T14:52:19+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223697",
@@ -237,7 +265,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.77K",
+      "views_label": "2.83K",
       "posted_at": "2026-07-13T14:50:32+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223696",
@@ -253,7 +281,7 @@
       "plain_text": "🔺پرزیدنت ترامپ: تنگه هرمز باز است و باز خواهد ماند؛ بازگشت محاصره دریایی جمهوری اسلامی\n\n▪️دونالد ترامپ، رئیس‌ جمهوری ایالات متحده، روز دوشنبه ۲۲ تیر ۱۴۰۵ اعلام کرد که تنگه هرمز «باز است و باز خواهد ماند» و آمریکا مسئولیت حفاظت از رفت‌وآمد دریایی در این آبراه راهبردی را بر عهده خواهد گرفت.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/trump-declares-hormuz-security-plan/8171235.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.74K",
+      "views_label": "2.8K",
       "posted_at": "2026-07-13T14:45:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223695",
@@ -269,7 +297,7 @@
       "plain_text": "🔺تشدید فشار بر بند زنان زندان اوین؛ از محرومیت از تماس و بحران درمان تا مشکلات تغذیه‌ای\n\n▪️گزارش‌های تازه از بند زنان زندان اوین از افزایش محدودیت‌ها، وخامت وضعیت درمانی برخی زندانیان، مشکلات تغذیه‌ای و ادامه محرومیت شماری از زندانیان سیاسی زن از تماس تلفنی با خانواده‌هایشان حکایت دارد. این شرایط نگرانی‌ها درباره وضعیت حقوق زندانیان سیاسی زن و نحوه نگهداری آنان در زندان اوین را افزایش داده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iran-humanrights-political-prisoners-evin-prison/8171231.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.93K",
+      "views_label": "2.99K",
       "posted_at": "2026-07-13T14:35:14+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223694",
@@ -297,7 +325,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.9K",
+      "views_label": "2.93K",
       "posted_at": "2026-07-13T14:32:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223693",
@@ -325,7 +353,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.91K",
+      "views_label": "2.94K",
       "posted_at": "2026-07-13T14:27:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223692",
@@ -341,7 +369,7 @@
       "plain_text": "🔺تشکیل پرونده برای ۳۰۰ شهروند به اتهام ادعایی «ارتباط» با رسانه‌های خارج از کشور\n\n▪️دادستان کل جمهوری اسلامی از صدور کیفرخواست علیه ۳۰۰ شهروند به اتهام آن چه «ارتباط با رسانه‌های خارج از کشور» خوانده، خبر داد. او مدعی شد این اقدام با هدف «صیانت از امنیت روانی جامعه و مقابله با فعالیت‌های ضدامنیتی» انجام شده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iran-human-rights-press-freedom-expression/8171225.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.27K",
+      "views_label": "3.3K",
       "posted_at": "2026-07-13T14:15:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223691",
@@ -369,7 +397,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.23K",
+      "views_label": "3.26K",
       "posted_at": "2026-07-13T14:09:45+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/223690",
@@ -397,7 +425,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.81K",
+      "views_label": "3.84K",
       "posted_at": "2026-07-13T13:42:06+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223689",
@@ -413,7 +441,7 @@
       "plain_text": "🔺درخواست سه معترض محکوم به اعدام از مردم: صدای ما باشید\n\n▪️گزارش‌های منتشرشده از سوی نهادهای حقوق بشری از افزایش صدور و اجرای احکام اعدام در ایران و قرار گرفتن شماری از معترضان جوان و زندانیان سیاسی در معرض مجازات مرگ حکایت دارد؛ روندی که فعالان حقوق بشر آن را تلاشی برای ایجاد رعب در جامعه و جلوگیری از شکل‌گیری اعتراضات تازه ارزیابی می‌کنند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iranian-protesters-face-execution/8171213.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "4.14K",
+      "views_label": "4.17K",
       "posted_at": "2026-07-13T13:30:51+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223688",
@@ -441,7 +469,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.5K",
+      "views_label": "3.53K",
       "posted_at": "2026-07-13T13:28:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223687",
@@ -2510,34 +2538,6 @@
       "posted_at": "2026-07-12T18:13:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/223599",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/223597",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/fiDt75xK-cO2YV7XS9R06MVk_OY8zLueJhkUfBYEa7Ep4u0U0p78tzfDrXxJPdOzNulJFO8pgF8TGbL46LIObyZ2MUbUJuKzbryJtMF-bLiqgT9JfBQK4RgIU1RUj0qizlIkPjb4j6SKpBS9g-lWpdDxlOnoBzQbtAz6iQIpjJc5bEjisEOW52ZDfuQjIrauLFEte7Kpp_A4dXzozsjOlprm3zIpI7ds2uAZLSI-sjdVSiV1M7_ZCDKFJU5t1XfwBAnK81MgmYFywCjA-Mk6HjPYHY905Sh2XSXLnaCQk2D8BlnrtuQtho-1y9ibStCeFrxbcWUAjb0WKgSlJUwinQ.jpg",
-      "author_photo_path": "channels/farsivoa/media/7f195655d276893569097bc0.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "ویدیوهای منتشر شده در شبکه‌های اجتماعی لحظه حملات هوایی اسرائیل به سایت تولید تسلیحات در غزه را از نماهای مختلف نشان می‌دهد. ساعتی پیش ارتش اسرائیل اعلام کرد یک سایت تولید تسلیحات متعلق به حماس را در شهر غزه منهدم کرد.",
-      "plain_text": "ویدیوهای منتشر شده در شبکه‌های اجتماعی لحظه حملات هوایی اسرائیل به سایت تولید تسلیحات در غزه را از نماهای مختلف نشان می‌دهد. ساعتی پیش ارتش اسرائیل اعلام کرد یک سایت تولید تسلیحات متعلق به حماس را در شهر غزه منهدم کرد.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/223597",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/rJsBkqdwHbovGJhvUp1VGeFYRU6Igf25SCGoqK2OjFzKpHW9ixB3un1am5NSpQBvXMlpbu1kgiaBmBwSGiL29QZBfl8iCn9jkGJkzEqRqY5foMQJSHdlrfUVXzdu1VJvpa2qGM55kY8jnvL8diwf5_DLraF3zbd9gp6psgpAhkk-3mR7jU6iz4s0rottlTNOp0-oVkSksAlfQwh1cZtxMzvCUx2HNaW7FKTsw9ELXDNe8_AX1TuBSPB4FUIGqazQ30qywEIKT3Jsj2UsUzo0Hx4ALBMworsig7IUfqQSQSZ7_91rimJbymob7LgMN-wBcQm4VjPIkRHbIXjkkigW9g",
-          "thumbnail_path": "channels/farsivoa/media/072abcee0c2119a37a36f817.jpg",
-          "thumbnail_sha256": "53719b2a0d72a5bd864babb6154e3fa76558584b113d6b17b5e2a3151720c7a3",
-          "duration_label": "0:21",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "5.75K",
-      "posted_at": "2026-07-12T18:11:43+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/223597",
       "reply": null
     }
   ]
