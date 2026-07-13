@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-13T17:37:39.041Z",
+  "fetched_at": "2026-07-13T17:41:41.520Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4422",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/DiHhnfwOMjwDfEI1nN_Pr_H9iaWpbhXx5CzXeGzRCZZs0Mf4IeW7GaZhGRMD5Gzh3yKDZNbSQ25e2Ee6a95ZdJVgeKnl1hpiWhY3WdbKELLIp1EdmhG9WJ1mjkX8N4VdHj1N89wMI2VyHVJkUYtqjGdSSTlMS-IqJSXEmNFzi9Wt99oGjKYyprBp_jM4hwa5OxjANUyjc5Umpyxx7u7Yg59W4NZi0TrH78FUkciZ2X8iWSLgcrssWlMxNRopA6QLg4gABNpyFK45tXm5FHHmxQ42d5LXwt548P9tuNeSXQ5JKJH3_GmWYXIXQOtwupR5KyhtggjLvKlqdrpATLuYkg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/ba015136a59af64eedbfa521.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "گویا روی grok cli می‌تونید با Context 500 هزارتایی به مدت محدود ولی به صورت رایگان از Grok-4.5 استفاده کنید(قدرتش هم سطح Opus-4.8 بوده توی بنچمارک‌ها)<br>نصب روی powershell ویندوز: <br><pre>irm https://x.ai/cli/install.ps1 | iex</pre><br>نصب روی سرور: <br><pre>curl -fsSL https://x.ai/cli/install.sh | bash</pre>",
+      "plain_text": "گویا روی grok cli می‌تونید با Context 500 هزارتایی به مدت محدود ولی به صورت رایگان از Grok-4.5 استفاده کنید(قدرتش هم سطح Opus-4.8 بوده توی بنچمارک‌ها)\nنصب روی powershell ویندوز:\nirm https://x.ai/cli/install.ps1 | iex\nنصب روی سرور:\ncurl -fsSL https://x.ai/cli/install.sh | bash",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4422",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/DwUGcSYZl5KWoWRVJ3Bj7iT8qM-_nNuk0aHnIHqGAFRA3UuUyw7UiBFCmVtY6iw4FD6BGxv6yU09oVFMB7gl9HFfV23ePpwdXM-lHolHAy3eQN3Au74xqJSMA68PB17jqE1ffOJnlAFNHoXLhToo53svRyi1YdWUNLuaKynrKjIf1ZAjZXknBLHEwLHp9-_xm32WYSbV9p4IuDF3IkYA9qwB8oQIcXPVL2izZwvToQrp1TJDWkD2YW0bFxwstyvBGOcCbTJRQaF9UcoU76tdMHDIvjHrTNvcrlKvnOKOh_LPkbAdA-xdM4u3JerwxgAGEnG1oBJ41OzG_b3F7Hm-2A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/fb71eeae1d1f7c806e530006.jpg",
+          "thumbnail_sha256": "6613643189c9dea99cfac9dcf0b0ad5c7ac450acd37226052fe78bf798b7a991",
+          "duration_label": null,
+          "aspect_ratio": 2.1220159151193636
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "15"
+        },
+        {
+          "emoji": "😭",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.24K",
+      "posted_at": "2026-07-13T17:39:35+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4422",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4420",
       "author_name": "Matin SenPai",
@@ -46,18 +83,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "25"
+          "count": "39"
         },
         {
           "emoji": "👍",
-          "count": "1"
+          "count": "2"
         },
         {
           "emoji": "😁",
-          "count": "1"
+          "count": "2"
         }
       ],
-      "views_label": "2.15K",
+      "views_label": "3.15K",
       "posted_at": "2026-07-13T17:32:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4420",
@@ -102,7 +139,7 @@
         },
         {
           "emoji": "😁",
-          "count": "1.01K"
+          "count": "1.02K"
         },
         {
           "emoji": "😭",
@@ -129,7 +166,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.1K",
+      "views_label": "22.5K",
       "posted_at": "2026-07-13T08:31:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4418",
@@ -159,7 +196,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "384"
+          "count": "387"
         },
         {
           "emoji": "😭",
@@ -179,14 +216,14 @@
         },
         {
           "emoji": "❤",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👍",
           "count": "1"
         }
       ],
-      "views_label": "22.8K",
+      "views_label": "22.9K",
       "posted_at": "2026-07-13T08:26:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4417",
@@ -204,7 +241,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "244"
+          "count": "246"
         },
         {
           "emoji": "❤",
@@ -311,7 +348,7 @@
         },
         {
           "emoji": "❤",
-          "count": "128"
+          "count": "129"
         },
         {
           "emoji": "👍",
@@ -360,7 +397,7 @@
           "count": "126"
         }
       ],
-      "views_label": "26.6K",
+      "views_label": "26.7K",
       "posted_at": "2026-07-12T20:06:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4413",
@@ -434,7 +471,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.6K",
+      "views_label": "23.7K",
       "posted_at": "2026-07-12T19:47:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4411",
@@ -493,7 +530,7 @@
         },
         {
           "emoji": "❤",
-          "count": "76"
+          "count": "77"
         },
         {
           "emoji": "👍",
@@ -565,7 +602,7 @@
         },
         {
           "emoji": "👍",
-          "count": "233"
+          "count": "234"
         },
         {
           "emoji": "❤",
@@ -4620,51 +4657,6 @@
       "posted_at": "2026-07-08T07:58:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4302",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4301",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/NYgB6X0tp4dqLBWNwlgxq0zXDmBUQCz_yYU1GtiE_8r9YPo10idqRs_5_36DONmajCxw2Crjl1Q0go1F0o6YTHeFFIprGFuOhFHQ_SHJ2fGY7N_VReeEVFkba7ec_AWir3zAswy8DGG36JSicbVVqMQH8mmknQUsQi2fCnAtFQv6ZXYtOrH5oVFHCjJBkEiNRS9OfAJUoDw4lHB6tR-ugwiRU8A3gXnpkHP-dVm_2hzZ4_nCkwgCpfB4l30clg4B6OL7zkh9dRrNqWjph8BoLp5stwTNt-Ph1Nozpq8rcX5yw3rjIBoMKEo1AqlCm4ZoyBJ1G3zCxMOAwJWUz2UMog.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/777727e7267811dba947bfad.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "اعصاب و روان نموند برامون. نمیدونیم درس بخونیم، کار کنیم، کارگری کنیم، لپ تاپو بفروشیم و دلال بشیم که بتونیم زندگی کنیم، چیکار کنیم",
-      "plain_text": "اعصاب و روان نموند برامون. نمیدونیم درس بخونیم، کار کنیم، کارگری کنیم، لپ تاپو بفروشیم و دلال بشیم که بتونیم زندگی کنیم، چیکار کنیم",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "💔",
-          "count": "393"
-        },
-        {
-          "emoji": "👍",
-          "count": "44"
-        },
-        {
-          "emoji": "😁",
-          "count": "15"
-        },
-        {
-          "emoji": "😭",
-          "count": "14"
-        },
-        {
-          "emoji": "🎃",
-          "count": "3"
-        },
-        {
-          "emoji": "❤",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        }
-      ],
-      "views_label": "8.91K",
-      "posted_at": "2026-07-08T07:38:14+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4301",
       "reply": null
     }
   ]
