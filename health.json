@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-13T21:26:37.456Z",
+  "generated_at": "2026-07-13T21:38:37.134Z",
   "succeeded": 0,
   "failed": [
     {
-      "username": "bbcpersian",
+      "username": "bidarzani",
       "error": "fetch failed"
     },
     {
-      "username": "bidarzani",
+      "username": "bbcpersian",
       "error": "fetch failed"
     },
     {
@@ -24,15 +24,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "farsivoa",
-      "error": "fetch failed"
-    },
-    {
       "username": "farsi_iranwire",
       "error": "fetch failed"
     },
     {
-      "username": "followupiran",
+      "username": "farsivoa",
       "error": "fetch failed"
     },
     {
@@ -40,15 +36,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "iranintltv",
-      "error": "fetch failed"
-    },
-    {
       "username": "hranews",
       "error": "fetch failed"
     },
     {
-      "username": "ircfspace",
+      "username": "followupiran",
+      "error": "fetch failed"
+    },
+    {
+      "username": "iranintltv",
       "error": "fetch failed"
     },
     {
@@ -56,7 +52,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "matinsenpaii",
+      "username": "ircfspace",
       "error": "fetch failed"
     },
     {
@@ -64,11 +60,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "no_itsmyturn",
+      "username": "matinsenpaii",
       "error": "fetch failed"
     },
     {
-      "username": "persianvpnhub",
+      "username": "no_itsmyturn",
       "error": "fetch failed"
     },
     {
@@ -76,15 +72,19 @@
       "error": "fetch failed"
     },
     {
+      "username": "persianvpnhub",
+      "error": "fetch failed"
+    },
+    {
       "username": "sahamnewsorg",
       "error": "fetch failed"
     },
     {
-      "username": "telegram",
+      "username": "tavaana_tavaanatech",
       "error": "fetch failed"
     },
     {
-      "username": "tavaana_tavaanatech",
+      "username": "telegram",
       "error": "fetch failed"
     },
     {
