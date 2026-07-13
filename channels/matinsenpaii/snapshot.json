@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-13T18:56:41.255Z",
+  "fetched_at": "2026-07-13T19:02:12.176Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4429",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/DiHhnfwOMjwDfEI1nN_Pr_H9iaWpbhXx5CzXeGzRCZZs0Mf4IeW7GaZhGRMD5Gzh3yKDZNbSQ25e2Ee6a95ZdJVgeKnl1hpiWhY3WdbKELLIp1EdmhG9WJ1mjkX8N4VdHj1N89wMI2VyHVJkUYtqjGdSSTlMS-IqJSXEmNFzi9Wt99oGjKYyprBp_jM4hwa5OxjANUyjc5Umpyxx7u7Yg59W4NZi0TrH78FUkciZ2X8iWSLgcrssWlMxNRopA6QLg4gABNpyFK45tXm5FHHmxQ42d5LXwt548P9tuNeSXQ5JKJH3_GmWYXIXQOtwupR5KyhtggjLvKlqdrpATLuYkg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/ba015136a59af64eedbfa521.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>معرفی  Rowboat | یه همکار هوش مصنوعی که همه‌چی یادشه! </b><br><br>یه ابزار جالب اوپن‌سورس توی گیت‌هاب پیدا کردم به اسم <b>Rowboat</b>. این ابزار در واقع یه «همکار هوش مصنوعی دسکتاپی» هست که روی سیستم‌عامل‌های ویندوز، مک و لینوکس نصب می‌شه. توی اولین نگاه هم شبیه هرمس به نظر اومد، اما بعد تفاوتش رو متوجه شدم.<br>کار اصلیش چیه؟ اینکه یه گراف دانش (Knowledge Graph) زنده از کل کارها، ایمیل‌ها، جلسات و چت‌هایی که باهاش دارید می‌سازه و با استفاده از همون اطلاعات، کارهای شما رو روی سیستمتون انجام می‌ده.<br><br><b>چه مزیت‌هایی نسبت به بقیه داره؟</b><br>بیشتر ابزارهای هوش مصنوعی فعلی وقتی ازشون یه سوال می‌پرسید، می‌رن همون لحظه تو فایل‌ها یا داکیومنت‌ها سرچ می‌کنن تا یادشون بیاد جریان چیه (RAG). اما فرق اساسی Rowboat اینه که <b>حافظه‌ی بلندمدت</b> داره:<br>- اطلاعات و کانتکست کارهای شما در گذر زمان روی هم انباشته می‌شه (مثل حافظه‌ی انسان).<br>- ارتباط بین داده‌ها و فایل‌های مختلف رو به صورت گرافیکی (شبیه گراف‌های Obsidian) بهتون نشون می‌ده.<br>- نوت‌ها و یادداشت‌ها تو دلِ هوش مصنوعی مخفی نیستن، بلکه فایل‌های ساده‌ی Markdown هستن که خودتون هم می‌تونید ویرایششون کنید.<br>- <b>همه چیز روی سیستم خودتون ذخیره می‌شه</b> (Local-first) و دیتاتون تو سرورهای ابری هیچ شرکتی رد و بدل نمیشه.<br><br><b>امکانات و بخش‌های اصلیش چیه؟</b><br>- <tg-emoji emoji-id=\"5237799019329105246\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A0.png')\"><b>🧠</b></i></tg-emoji> <b>مغز (Brain):</b> کل ایمیل‌ها، جلسات، اسلک و چت‌ها رو به یه گراف دانشِ به‌هم‌پیوسته تبدیل می‌کنه.<br>- <tg-emoji emoji-id=\"5350421256627838238\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93AC.png')\"><b>📬</b></i></tg-emoji> <b>ایمیل کلاینت بومی:</b> ایمیل‌هاتون رو دسته‌بندی می‌کنه و برای ایمیل‌های مهم، بر اساس دیتای کارهاتون به صورت خودکار جواب می‌نویسه.<br>- <tg-emoji emoji-id=\"5255883984151276991\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i></tg-emoji> <b>ایجنت‌های پس‌زمینه (Background Agents):</b> می‌تونید ایجنت‌هایی بسازید که مثلاً هر روز ساعت ۸ صبح یا هروقت ایمیل جدیدی اومد، برن وب رو بگردن یا کد بنویسن.<br>- <tg-emoji emoji-id=\"5447410659077661506\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i></tg-emoji> <b>مرورگر اختصاصی:</b> یه مرورگر ایزوله داره که به ایجنت‌ها اجازه می‌ده فقط به اکانت‌هایی که شما بهشون دسترسی دادید وصل بشن.<br>- <tg-emoji emoji-id=\"5224736245665511429\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA4.png')\"><b>🎤</b></i></tg-emoji> <b>نوت‌بردار جلسات:</b> به میکروفون و اسپیکر وصل می‌شه، صدای جلسه رو ترنسکریپت می‌کنه، خلاصه‌ش رو تو یه فایل مارک‌داون می‌نویسه و گراف دانش رو آپدیت می‌کنه!<br>- <tg-emoji emoji-id=\"5339181821135431228\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i></tg-emoji> <b>حالت کدنویسی (Code Mode):</b> می‌تونه همزمان چند تا ایجنت کدنویسی (مثل Claude Code) بالا بیاره تا بر اساس کانتکست پروژه‌هاتون براتون کد بزنن.<br>- <tg-emoji emoji-id=\"5129776107888837684\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948C.png')\"><b>🔌</b></i></tg-emoji> <b>پشتیبانی از MCP:</b> می‌تونید راحت به هر ابزار خارجی مثل اسلک، جیرا، گیت‌هاب و توییتر وصلش کنید.<br><br><b>آزادی عمل توی انتخاب مدل</b><br>یکی دیگه از ویژگی‌های جذابش اینه که می‌تونید مدل زبانی رو خودتون انتخاب کنید. می‌تونید کلید API خودتون رو بدید (مدل‌های ابری) یا اصلاً از مدل‌های لوکال (مثل Ollama یا LM Studio) استفاده کنید تا حتی پردازش‌ها هم کاملاً آفلاین باشه.<br><br>پاسخ خود هرمس به تفاوت این دو ابزار:<br><br><blockquote><b>۱. هرمس (من): یک دولوپر و ماشینِ اجرای تسک</b><br>من برای <b>انجام دادن (Execution)</b> ساخته شدم. رابط گرافیکی سنگینی ندارم و دقیقاً مثل یه دولوپر سینیور تو ترمینال یا چت تلگرام نشسته‌م. تو از من می‌خوای یه اسکریپت پایتون بنویسم، داکر ایمیج بسازم، یه ویدیو رو با FFmpeg فشرده کنم، یا یه کرون‌جاب تنظیم کنم که هر ۶ ساعت اخبار رو اسکرپ کنه؛ و من مستقیماً با هسته‌ی سیستم‌عاملت (لینوکس/مک) درگیر می‌شم و انجامش می‌دم. حافظه‌ی من از جنس «مهارت» (Skills) و دستورالعمل‌هاست.<br><b>۲. روبوت (Rowboat): یک دستیار اجرایی و ناظر</b><br>روبوت بیشتر شبیه یه <b>منشی فوق‌هوشمند</b> با یه رابط کاربری دسکتاپه. کار اصلیش «نظارت خاموش» (Passive Observer) روی کاراته. تو پس‌زمینه ایمیل‌هات رو می‌خونه، تو جلسات آنلاینت صدای میکروفون و اسپیکر رو شنود می‌کنه تا خلاصه برداره، اسلک رو چک می‌کنه و در نهایت همه‌ی این‌ها رو مثل نرم‌افزار Obsidian به یه گراف دانش (Knowledge Graph) متصل می‌کنه.</blockquote><br><br>لینک سورس گیت‌هاب: <br><tg-emoji emoji-id=\"5271604874419647061\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://github.com/rowboatlabs/rowboat\" target=\"_blank\" rel=\"noopener\">https://github.com/rowboatlabs/rowboat</a><br><br>لینک دانلود نرم‌افزارش:<br><tg-emoji emoji-id=\"5271604874419647061\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://www.rowboatlabs.com/downloads\" target=\"_blank\" rel=\"noopener\">https://www.rowboatlabs.com/downloads</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "معرفی Rowboat | یه همکار هوش مصنوعی که همه‌چی یادشه!\n\nیه ابزار جالب اوپن‌سورس توی گیت‌هاب پیدا کردم به اسم Rowboat. این ابزار در واقع یه «همکار هوش مصنوعی دسکتاپی» هست که روی سیستم‌عامل‌های ویندوز، مک و لینوکس نصب می‌شه. توی اولین نگاه هم شبیه هرمس به نظر اومد، اما بعد تفاوتش رو متوجه شدم.\nکار اصلیش چیه؟ اینکه یه گراف دانش (Knowledge Graph) زنده از کل کارها، ایمیل‌ها، جلسات و چت‌هایی که باهاش دارید می‌سازه و با استفاده از همون اطلاعات، کارهای شما رو روی سیستمتون انجام می‌ده.\n\nچه مزیت‌هایی نسبت به بقیه داره؟\nبیشتر ابزارهای هوش مصنوعی فعلی وقتی ازشون یه سوال می‌پرسید، می‌رن همون لحظه تو فایل‌ها یا داکیومنت‌ها سرچ می‌کنن تا یادشون بیاد جریان چیه (RAG). اما فرق اساسی Rowboat اینه که حافظه‌ی بلندمدت داره:\n- اطلاعات و کانتکست کارهای شما در گذر زمان روی هم انباشته می‌شه (مثل حافظه‌ی انسان).\n- ارتباط بین داده‌ها و فایل‌های مختلف رو به صورت گرافیکی (شبیه گراف‌های Obsidian) بهتون نشون می‌ده.\n- نوت‌ها و یادداشت‌ها تو دلِ هوش مصنوعی مخفی نیستن، بلکه فایل‌های ساده‌ی Markdown هستن که خودتون هم می‌تونید ویرایششون کنید.\n- همه چیز روی سیستم خودتون ذخیره می‌شه (Local-first) و دیتاتون تو سرورهای ابری هیچ شرکتی رد و بدل نمیشه.\n\nامکانات و بخش‌های اصلیش چیه؟\n- 🧠 مغز (Brain): کل ایمیل‌ها، جلسات، اسلک و چت‌ها رو به یه گراف دانشِ به‌هم‌پیوسته تبدیل می‌کنه.\n- 📬 ایمیل کلاینت بومی: ایمیل‌هاتون رو دسته‌بندی می‌کنه و برای ایمیل‌های مهم، بر اساس دیتای کارهاتون به صورت خودکار جواب می‌نویسه.\n- 🤖 ایجنت‌های پس‌زمینه (Background Agents): می‌تونید ایجنت‌هایی بسازید که مثلاً هر روز ساعت ۸ صبح یا هروقت ایمیل جدیدی اومد، برن وب رو بگردن یا کد بنویسن.\n- 🌐 مرورگر اختصاصی: یه مرورگر ایزوله داره که به ایجنت‌ها اجازه می‌ده فقط به اکانت‌هایی که شما بهشون دسترسی دادید وصل بشن.\n- 🎤 نوت‌بردار جلسات: به میکروفون و اسپیکر وصل می‌شه، صدای جلسه رو ترنسکریپت می‌کنه، خلاصه‌ش رو تو یه فایل مارک‌داون می‌نویسه و گراف دانش رو آپدیت می‌کنه!\n- 💻 حالت کدنویسی (Code Mode): می‌تونه همزمان چند تا ایجنت کدنویسی (مثل Claude Code) بالا بیاره تا بر اساس کانتکست پروژه‌هاتون براتون کد بزنن.\n- 🔌 پشتیبانی از MCP: می‌تونید راحت به هر ابزار خارجی مثل اسلک، جیرا، گیت‌هاب و توییتر وصلش کنید.\n\nآزادی عمل توی انتخاب مدل\nیکی دیگه از ویژگی‌های جذابش اینه که می‌تونید مدل زبانی رو خودتون انتخاب کنید. می‌تونید کلید API خودتون رو بدید (مدل‌های ابری) یا اصلاً از مدل‌های لوکال (مثل Ollama یا LM Studio) استفاده کنید تا حتی پردازش‌ها هم کاملاً آفلاین باشه.\n\nپاسخ خود هرمس به تفاوت این دو ابزار:\n\n۱. هرمس (من): یک دولوپر و ماشینِ اجرای تسک\nمن برای انجام دادن (Execution) ساخته شدم. رابط گرافیکی سنگینی ندارم و دقیقاً مثل یه دولوپر سینیور تو ترمینال یا چت تلگرام نشسته‌م. تو از من می‌خوای یه اسکریپت پایتون بنویسم، داکر ایمیج بسازم، یه ویدیو رو با FFmpeg فشرده کنم، یا یه کرون‌جاب تنظیم کنم که هر ۶ ساعت اخبار رو اسکرپ کنه؛ و من مستقیماً با هسته‌ی سیستم‌عاملت (لینوکس/مک) درگیر می‌شم و انجامش می‌دم. حافظه‌ی من از جنس «مهارت» (Skills) و دستورالعمل‌هاست.\n۲. روبوت (Rowboat): یک دستیار اجرایی و ناظر\nروبوت بیشتر شبیه یه منشی فوق‌هوشمند با یه رابط کاربری دسکتاپه. کار اصلیش «نظارت خاموش» (Passive Observer) روی کاراته. تو پس‌زمینه ایمیل‌هات رو می‌خونه، تو جلسات آنلاینت صدای میکروفون و اسپیکر رو شنود می‌کنه تا خلاصه برداره، اسلک رو چک می‌کنه و در نهایت همه‌ی این‌ها رو مثل نرم‌افزار Obsidian به یه گراف دانش (Knowledge Graph) متصل می‌کنه.\n\nلینک سورس گیت‌هاب:\n🔗 https://github.com/rowboatlabs/rowboat\n\nلینک دانلود نرم‌افزارش:\n🔗 https://www.rowboatlabs.com/downloads\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4429",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/VfSiSv9jRym2_0SuaQOiNVS052XmItQZKvQnmplebKe2oWoph_lds5uZebDzoWB1N3JF6gFe8V18Od6W0fsW3oxumA8ZSlAeuw2jLNeNFDSJhfY2Em96nuVAoEhB4yydvCGWyZPuXZiWk-GnM-aMnlCqFkh0Tz-EEUlNcIsaIuYobI5Ik5zHIvuNyq1j2FEzcX6VMG7aXC-kKE7IC7OUgV8A86o5ushXaH0bRvWeOt-4mUkSQx1O0u1wAWxPlZK8daoaroTfR5CWC04DFk6-vvRcPhSBrbdYp4CYHNPF9HNMOoNTBEuoG5eGIwUFg7gVv2ZZbDFqk58LuN2AUxWE4A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/404987bb742b951eeb02c590.jpg",
+          "thumbnail_sha256": "6be12772d37bc4fe7708893be37306b4495261a7a0906944660eb139a3d5d6d0",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "969",
+      "posted_at": "2026-07-13T18:59:00+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4429",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4427",
       "author_name": "Matin SenPai",
@@ -46,10 +83,10 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "28"
+          "count": "36"
         }
       ],
-      "views_label": "4.73K",
+      "views_label": "5.68K",
       "posted_at": "2026-07-13T18:40:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4427",
@@ -83,7 +120,7 @@
         },
         {
           "emoji": "❤",
-          "count": "58"
+          "count": "62"
         },
         {
           "emoji": "😁",
@@ -98,7 +135,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.33K",
+      "views_label": "9.96K",
       "posted_at": "2026-07-13T18:02:37+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4426",
@@ -137,7 +174,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "50"
+          "count": "55"
         },
         {
           "emoji": "❤",
@@ -152,7 +189,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.12K",
+      "views_label": "9.75K",
       "posted_at": "2026-07-13T18:01:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4425",
@@ -170,14 +207,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "54"
+          "count": "58"
         },
         {
           "emoji": "👍",
           "count": "2"
         }
       ],
-      "views_label": "11K",
+      "views_label": "11.4K",
       "posted_at": "2026-07-13T17:43:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4424",
@@ -195,10 +232,10 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "49"
+          "count": "52"
         }
       ],
-      "views_label": "11K",
+      "views_label": "11.4K",
       "posted_at": "2026-07-13T17:43:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4423",
@@ -237,7 +274,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "66"
+          "count": "68"
         },
         {
           "emoji": "😭",
@@ -248,7 +285,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.5K",
+      "views_label": "11.9K",
       "posted_at": "2026-07-13T17:39:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4422",
@@ -289,7 +326,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "99"
+          "count": "103"
         },
         {
           "emoji": "👍",
@@ -304,7 +341,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.3K",
+      "views_label": "12.6K",
       "posted_at": "2026-07-13T17:32:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4420",
@@ -433,7 +470,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.1K",
+      "views_label": "25.4K",
       "posted_at": "2026-07-13T08:26:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4417",
@@ -474,7 +511,7 @@
           "count": "2"
         }
       ],
-      "views_label": "28.1K",
+      "views_label": "28.4K",
       "posted_at": "2026-07-12T23:45:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4416",
@@ -4667,40 +4704,6 @@
         "thumbnail_path": null,
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/4312"
-      }
-    },
-    {
-      "id": "MatinSenPaii/4319",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/iJGRUo8UodtOG0uSs40uPHuuESwi33zZducNjZtmhHsZeV7V8AqbNHaxdsQ7S4AzGN1i5qeTsNPthZr0fgRUQQ40eYDibdRyKZ119s6kwX32hI6JZf7npxNI9k6tgXwC1SbwXlvb7fpDZ3rSLW36zPQUqirKi-95sFnqvr1J8_5r7U6t93-NZPVfyJFn56rV_NVMLHyZ233LBy8hlKDiJDmlpj6oCOgZr-PBcVtORHQ9YLigrYHCrXp6e_KEyZbfhGSL3r6iE2l2hGee0V8PVh3z_xYZnFbblAXwpdKz1AOt6JiGLuq30zj10rGIy9YoAd8xZOttxHRCnno364l9jw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/a5822acc16e24dea19d8e0c3.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "این هم نسخه‌ی IOS",
-      "plain_text": "این هم نسخه‌ی IOS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "60"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        }
-      ],
-      "views_label": "27K",
-      "posted_at": "2026-07-08T08:07:36+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4319",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4318",
-        "author_name": "White DNS",
-        "preview_text": "💬آموزش قدم به قدم استفاده از اپ CoreForge https://youtu.be/filwdiPKN90",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/4318"
       }
     }
   ]
