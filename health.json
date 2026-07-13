@@ -1,18 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-13T20:06:41.957Z",
+  "generated_at": "2026-07-13T20:11:39.757Z",
   "succeeded": 0,
   "failed": [
-    {
-      "username": "bidarzani",
-      "error": "fetch failed"
-    },
     {
       "username": "bbcpersian",
       "error": "fetch failed"
     },
     {
-      "username": "durov",
+      "username": "bidarzani",
       "error": "fetch failed"
     },
     {
@@ -20,11 +16,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "dwpersian",
+      "username": "durov",
       "error": "fetch failed"
     },
     {
       "username": "farsi_iranwire",
+      "error": "fetch failed"
+    },
+    {
+      "username": "dwpersian",
       "error": "fetch failed"
     },
     {
@@ -36,11 +36,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "followupiran",
+      "username": "hranews",
       "error": "fetch failed"
     },
     {
-      "username": "hranews",
+      "username": "followupiran",
       "error": "fetch failed"
     },
     {
@@ -52,15 +52,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "ircfspace",
-      "error": "fetch failed"
-    },
-    {
       "username": "mamlekate",
       "error": "fetch failed"
     },
     {
-      "username": "matinsenpaii",
+      "username": "ircfspace",
       "error": "fetch failed"
     },
     {
@@ -68,7 +64,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "radiofarda",
+      "username": "matinsenpaii",
       "error": "fetch failed"
     },
     {
@@ -76,11 +72,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "sahamnewsorg",
+      "username": "radiofarda",
       "error": "fetch failed"
     },
     {
       "username": "tavaana_tavaanatech",
+      "error": "fetch failed"
+    },
+    {
+      "username": "sahamnewsorg",
       "error": "fetch failed"
     },
     {
