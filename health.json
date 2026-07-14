@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T09:41:28.443Z",
+  "generated_at": "2026-07-14T09:46:27.405Z",
   "succeeded": 0,
   "failed": [
     {
-      "username": "bidarzani",
+      "username": "bbcpersian",
       "error": "fetch failed"
     },
     {
-      "username": "bbcpersian",
+      "username": "bidarzani",
       "error": "fetch failed"
     },
     {
@@ -24,15 +24,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "farsi_iranwire",
-      "error": "fetch failed"
-    },
-    {
       "username": "farsivoa",
       "error": "fetch failed"
     },
     {
-      "username": "filter_watch",
+      "username": "farsi_iranwire",
       "error": "fetch failed"
     },
     {
@@ -40,11 +36,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "hranews",
+      "username": "filter_watch",
       "error": "fetch failed"
     },
     {
-      "username": "iranlix",
+      "username": "hranews",
       "error": "fetch failed"
     },
     {
@@ -52,11 +48,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "mamlekate",
+      "username": "ircfspace",
       "error": "fetch failed"
     },
     {
-      "username": "ircfspace",
+      "username": "iranlix",
+      "error": "fetch failed"
+    },
+    {
+      "username": "mamlekate",
       "error": "fetch failed"
     },
     {
@@ -64,15 +64,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "no_itsmyturn",
-      "error": "fetch failed"
-    },
-    {
       "username": "persianvpnhub",
       "error": "fetch failed"
     },
     {
-      "username": "sahamnewsorg",
+      "username": "no_itsmyturn",
       "error": "fetch failed"
     },
     {
@@ -80,7 +76,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "telegram",
+      "username": "sahamnewsorg",
       "error": "fetch failed"
     },
     {
@@ -88,11 +84,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "vahidonline",
+      "username": "telegram",
       "error": "fetch failed"
     },
     {
       "username": "whitedns",
+      "error": "fetch failed"
+    },
+    {
+      "username": "vahidonline",
       "error": "fetch failed"
     }
   ]
