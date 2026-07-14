@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T02:01:27.163Z",
+  "generated_at": "2026-07-14T02:06:30.476Z",
   "succeeded": 0,
   "failed": [
     {
@@ -20,15 +20,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "farsi_iranwire",
-      "error": "fetch failed"
-    },
-    {
       "username": "dwpersian",
       "error": "fetch failed"
     },
     {
-      "username": "filter_watch",
+      "username": "farsi_iranwire",
       "error": "fetch failed"
     },
     {
@@ -36,7 +32,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "hranews",
+      "username": "filter_watch",
       "error": "fetch failed"
     },
     {
@@ -44,11 +40,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "iranintltv",
+      "username": "hranews",
       "error": "fetch failed"
     },
     {
       "username": "iranlix",
+      "error": "fetch failed"
+    },
+    {
+      "username": "iranintltv",
       "error": "fetch failed"
     },
     {
@@ -68,11 +68,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "radiofarda",
+      "username": "persianvpnhub",
       "error": "fetch failed"
     },
     {
-      "username": "persianvpnhub",
+      "username": "radiofarda",
       "error": "fetch failed"
     },
     {
