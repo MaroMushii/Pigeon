@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T07:46:24.218Z",
+  "generated_at": "2026-07-14T07:51:30.588Z",
   "succeeded": 0,
   "failed": [
     {
-      "username": "bbcpersian",
+      "username": "bidarzani",
       "error": "fetch failed"
     },
     {
-      "username": "bidarzani",
+      "username": "bbcpersian",
       "error": "fetch failed"
     },
     {
@@ -16,15 +16,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "durov",
-      "error": "fetch failed"
-    },
-    {
       "username": "dwpersian",
       "error": "fetch failed"
     },
     {
-      "username": "farsi_iranwire",
+      "username": "durov",
       "error": "fetch failed"
     },
     {
@@ -32,11 +28,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "filter_watch",
+      "username": "farsi_iranwire",
       "error": "fetch failed"
     },
     {
-      "username": "hranews",
+      "username": "filter_watch",
       "error": "fetch failed"
     },
     {
@@ -48,6 +44,10 @@
       "error": "fetch failed"
     },
     {
+      "username": "hranews",
+      "error": "fetch failed"
+    },
+    {
       "username": "iranlix",
       "error": "fetch failed"
     },
@@ -56,11 +56,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "mamlekate",
+      "username": "matinsenpaii",
       "error": "fetch failed"
     },
     {
-      "username": "matinsenpaii",
+      "username": "mamlekate",
       "error": "fetch failed"
     },
     {
@@ -72,11 +72,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "radiofarda",
+      "username": "sahamnewsorg",
       "error": "fetch failed"
     },
     {
-      "username": "sahamnewsorg",
+      "username": "radiofarda",
       "error": "fetch failed"
     },
     {
@@ -88,11 +88,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "whitedns",
+      "username": "vahidonline",
       "error": "fetch failed"
     },
     {
-      "username": "vahidonline",
+      "username": "whitedns",
       "error": "fetch failed"
     }
   ]
