@@ -1,18 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T04:56:49.210Z",
+  "generated_at": "2026-07-14T05:01:24.491Z",
   "succeeded": 0,
   "failed": [
-    {
-      "username": "bbcpersian",
-      "error": "fetch failed"
-    },
     {
       "username": "bidarzani",
       "error": "fetch failed"
     },
     {
-      "username": "durov",
+      "username": "bbcpersian",
       "error": "fetch failed"
     },
     {
@@ -20,7 +16,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "farsi_iranwire",
+      "username": "durov",
       "error": "fetch failed"
     },
     {
@@ -32,11 +28,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "filter_watch",
+      "username": "farsi_iranwire",
       "error": "fetch failed"
     },
     {
-      "username": "hranews",
+      "username": "filter_watch",
       "error": "fetch failed"
     },
     {
@@ -44,7 +40,15 @@
       "error": "fetch failed"
     },
     {
+      "username": "hranews",
+      "error": "fetch failed"
+    },
+    {
       "username": "iranintltv",
+      "error": "fetch failed"
+    },
+    {
+      "username": "ircfspace",
       "error": "fetch failed"
     },
     {
@@ -56,19 +60,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "ircfspace",
-      "error": "fetch failed"
-    },
-    {
-      "username": "no_itsmyturn",
-      "error": "fetch failed"
-    },
-    {
       "username": "matinsenpaii",
       "error": "fetch failed"
     },
     {
       "username": "persianvpnhub",
+      "error": "fetch failed"
+    },
+    {
+      "username": "no_itsmyturn",
       "error": "fetch failed"
     },
     {
@@ -80,19 +80,19 @@
       "error": "fetch failed"
     },
     {
-      "username": "tavaana_tavaanatech",
-      "error": "fetch failed"
-    },
-    {
       "username": "telegram",
       "error": "fetch failed"
     },
     {
-      "username": "vahidonline",
+      "username": "tavaana_tavaanatech",
       "error": "fetch failed"
     },
     {
       "username": "whitedns",
+      "error": "fetch failed"
+    },
+    {
+      "username": "vahidonline",
       "error": "fetch failed"
     }
   ]
