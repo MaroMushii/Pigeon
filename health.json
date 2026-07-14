@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T06:26:33.992Z",
+  "generated_at": "2026-07-14T06:29:56.501Z",
   "succeeded": 0,
   "failed": [
     {
@@ -20,19 +20,19 @@
       "error": "fetch failed"
     },
     {
-      "username": "farsi_iranwire",
-      "error": "fetch failed"
-    },
-    {
       "username": "dwpersian",
       "error": "fetch failed"
     },
     {
-      "username": "filter_watch",
+      "username": "farsi_iranwire",
       "error": "fetch failed"
     },
     {
       "username": "farsivoa",
+      "error": "fetch failed"
+    },
+    {
+      "username": "filter_watch",
       "error": "fetch failed"
     },
     {
