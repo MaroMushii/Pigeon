@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T07:16:44.368Z",
+  "generated_at": "2026-07-14T07:21:20.930Z",
   "succeeded": 0,
   "failed": [
     {
@@ -36,11 +36,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "followupiran",
+      "username": "hranews",
       "error": "fetch failed"
     },
     {
-      "username": "hranews",
+      "username": "followupiran",
       "error": "fetch failed"
     },
     {
@@ -48,19 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "iranlix",
-      "error": "fetch failed"
-    },
-    {
-      "username": "mamlekate",
-      "error": "fetch failed"
-    },
-    {
       "username": "ircfspace",
       "error": "fetch failed"
     },
     {
-      "username": "no_itsmyturn",
+      "username": "iranlix",
       "error": "fetch failed"
     },
     {
@@ -68,11 +60,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "persianvpnhub",
+      "username": "mamlekate",
       "error": "fetch failed"
     },
     {
-      "username": "radiofarda",
+      "username": "no_itsmyturn",
+      "error": "fetch failed"
+    },
+    {
+      "username": "persianvpnhub",
       "error": "fetch failed"
     },
     {
@@ -80,7 +76,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "tavaana_tavaanatech",
+      "username": "radiofarda",
       "error": "fetch failed"
     },
     {
@@ -88,11 +84,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "vahidonline",
+      "username": "tavaana_tavaanatech",
       "error": "fetch failed"
     },
     {
       "username": "whitedns",
+      "error": "fetch failed"
+    },
+    {
+      "username": "vahidonline",
       "error": "fetch failed"
     }
   ]
