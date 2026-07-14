@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T09:01:35.898Z",
+  "generated_at": "2026-07-14T09:06:25.645Z",
   "succeeded": 0,
   "failed": [
     {
@@ -16,11 +16,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "dwpersian",
+      "username": "durov",
       "error": "fetch failed"
     },
     {
-      "username": "durov",
+      "username": "dwpersian",
       "error": "fetch failed"
     },
     {
@@ -28,15 +28,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "farsivoa",
-      "error": "fetch failed"
-    },
-    {
       "username": "filter_watch",
       "error": "fetch failed"
     },
     {
-      "username": "hranews",
+      "username": "farsivoa",
       "error": "fetch failed"
     },
     {
@@ -44,7 +40,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "iranlix",
+      "username": "hranews",
       "error": "fetch failed"
     },
     {
@@ -52,11 +48,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "ircfspace",
+      "username": "iranlix",
       "error": "fetch failed"
     },
     {
       "username": "mamlekate",
+      "error": "fetch failed"
+    },
+    {
+      "username": "ircfspace",
       "error": "fetch failed"
     },
     {
@@ -76,11 +76,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "tavaana_tavaanatech",
+      "username": "sahamnewsorg",
       "error": "fetch failed"
     },
     {
-      "username": "sahamnewsorg",
+      "username": "tavaana_tavaanatech",
       "error": "fetch failed"
     },
     {
