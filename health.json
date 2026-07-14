@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T03:01:19.827Z",
+  "generated_at": "2026-07-14T03:06:23.997Z",
   "succeeded": 0,
   "failed": [
     {
-      "username": "bidarzani",
+      "username": "bbcpersian",
       "error": "fetch failed"
     },
     {
-      "username": "bbcpersian",
+      "username": "bidarzani",
       "error": "fetch failed"
     },
     {
@@ -16,11 +16,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "durov",
+      "username": "dwpersian",
       "error": "fetch failed"
     },
     {
-      "username": "dwpersian",
+      "username": "durov",
       "error": "fetch failed"
     },
     {
@@ -40,19 +40,19 @@
       "error": "fetch failed"
     },
     {
-      "username": "iranintltv",
-      "error": "fetch failed"
-    },
-    {
       "username": "hranews",
       "error": "fetch failed"
     },
     {
-      "username": "iranlix",
+      "username": "iranintltv",
       "error": "fetch failed"
     },
     {
       "username": "ircfspace",
+      "error": "fetch failed"
+    },
+    {
+      "username": "iranlix",
       "error": "fetch failed"
     },
     {
@@ -80,19 +80,19 @@
       "error": "fetch failed"
     },
     {
-      "username": "telegram",
-      "error": "fetch failed"
-    },
-    {
       "username": "tavaana_tavaanatech",
       "error": "fetch failed"
     },
     {
-      "username": "vahidonline",
+      "username": "telegram",
       "error": "fetch failed"
     },
     {
       "username": "whitedns",
+      "error": "fetch failed"
+    },
+    {
+      "username": "vahidonline",
       "error": "fetch failed"
     }
   ]
