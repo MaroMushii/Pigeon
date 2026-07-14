@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T00:06:28.676Z",
+  "generated_at": "2026-07-14T00:11:22.180Z",
   "succeeded": 0,
   "failed": [
     {
@@ -16,19 +16,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "durov",
-      "error": "fetch failed"
-    },
-    {
       "username": "dwpersian",
       "error": "fetch failed"
     },
     {
-      "username": "farsi_iranwire",
-      "error": "fetch failed"
-    },
-    {
-      "username": "filter_watch",
+      "username": "durov",
       "error": "fetch failed"
     },
     {
@@ -36,15 +28,23 @@
       "error": "fetch failed"
     },
     {
+      "username": "farsi_iranwire",
+      "error": "fetch failed"
+    },
+    {
       "username": "followupiran",
       "error": "fetch failed"
     },
     {
-      "username": "hranews",
+      "username": "filter_watch",
       "error": "fetch failed"
     },
     {
       "username": "iranintltv",
+      "error": "fetch failed"
+    },
+    {
+      "username": "hranews",
       "error": "fetch failed"
     },
     {
@@ -60,19 +60,19 @@
       "error": "fetch failed"
     },
     {
-      "username": "matinsenpaii",
-      "error": "fetch failed"
-    },
-    {
-      "username": "persianvpnhub",
-      "error": "fetch failed"
-    },
-    {
       "username": "no_itsmyturn",
       "error": "fetch failed"
     },
     {
+      "username": "matinsenpaii",
+      "error": "fetch failed"
+    },
+    {
       "username": "radiofarda",
+      "error": "fetch failed"
+    },
+    {
+      "username": "persianvpnhub",
       "error": "fetch failed"
     },
     {
@@ -84,15 +84,15 @@
       "error": "fetch failed"
     },
     {
+      "username": "vahidonline",
+      "error": "fetch failed"
+    },
+    {
       "username": "telegram",
       "error": "fetch failed"
     },
     {
       "username": "whitedns",
-      "error": "fetch failed"
-    },
-    {
-      "username": "vahidonline",
       "error": "fetch failed"
     }
   ]
