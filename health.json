@@ -1,22 +1,22 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T09:21:22.962Z",
+  "generated_at": "2026-07-14T09:23:12.842Z",
   "succeeded": 0,
   "failed": [
-    {
-      "username": "bbcpersian",
-      "error": "fetch failed"
-    },
     {
       "username": "bidarzani",
       "error": "fetch failed"
     },
     {
-      "username": "daadbaan2021",
+      "username": "bbcpersian",
       "error": "fetch failed"
     },
     {
       "username": "durov",
+      "error": "fetch failed"
+    },
+    {
+      "username": "daadbaan2021",
       "error": "fetch failed"
     },
     {
@@ -88,11 +88,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "vahidonline",
+      "username": "whitedns",
       "error": "fetch failed"
     },
     {
-      "username": "whitedns",
+      "username": "vahidonline",
       "error": "fetch failed"
     }
   ]
