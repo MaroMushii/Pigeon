@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T02:31:21.214Z",
+  "generated_at": "2026-07-14T02:36:19.889Z",
   "succeeded": 0,
   "failed": [
     {
-      "username": "bidarzani",
+      "username": "bbcpersian",
       "error": "fetch failed"
     },
     {
-      "username": "bbcpersian",
+      "username": "bidarzani",
       "error": "fetch failed"
     },
     {
@@ -20,15 +20,15 @@
       "error": "fetch failed"
     },
     {
+      "username": "farsi_iranwire",
+      "error": "fetch failed"
+    },
+    {
       "username": "dwpersian",
       "error": "fetch failed"
     },
     {
       "username": "farsivoa",
-      "error": "fetch failed"
-    },
-    {
-      "username": "farsi_iranwire",
       "error": "fetch failed"
     },
     {
@@ -52,15 +52,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "mamlekate",
-      "error": "fetch failed"
-    },
-    {
       "username": "ircfspace",
       "error": "fetch failed"
     },
     {
-      "username": "matinsenpaii",
+      "username": "mamlekate",
       "error": "fetch failed"
     },
     {
@@ -68,11 +64,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "persianvpnhub",
+      "username": "matinsenpaii",
       "error": "fetch failed"
     },
     {
       "username": "radiofarda",
+      "error": "fetch failed"
+    },
+    {
+      "username": "persianvpnhub",
       "error": "fetch failed"
     },
     {
