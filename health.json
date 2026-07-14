@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T05:56:23.446Z",
+  "generated_at": "2026-07-14T06:01:22.045Z",
   "succeeded": 0,
   "failed": [
     {
@@ -36,15 +36,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "followupiran",
-      "error": "fetch failed"
-    },
-    {
       "username": "hranews",
       "error": "fetch failed"
     },
     {
-      "username": "iranintltv",
+      "username": "followupiran",
       "error": "fetch failed"
     },
     {
@@ -52,11 +48,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "ircfspace",
+      "username": "iranintltv",
       "error": "fetch failed"
     },
     {
       "username": "mamlekate",
+      "error": "fetch failed"
+    },
+    {
+      "username": "ircfspace",
       "error": "fetch failed"
     },
     {
@@ -76,19 +76,19 @@
       "error": "fetch failed"
     },
     {
-      "username": "sahamnewsorg",
-      "error": "fetch failed"
-    },
-    {
       "username": "tavaana_tavaanatech",
       "error": "fetch failed"
     },
     {
-      "username": "telegram",
+      "username": "sahamnewsorg",
       "error": "fetch failed"
     },
     {
       "username": "vahidonline",
+      "error": "fetch failed"
+    },
+    {
+      "username": "telegram",
       "error": "fetch failed"
     },
     {
