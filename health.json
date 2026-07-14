@@ -1,18 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T12:06:29.314Z",
+  "generated_at": "2026-07-14T12:09:31.212Z",
   "succeeded": 0,
   "failed": [
-    {
-      "username": "bidarzani",
-      "error": "fetch failed"
-    },
     {
       "username": "bbcpersian",
       "error": "fetch failed"
     },
     {
-      "username": "durov",
+      "username": "bidarzani",
       "error": "fetch failed"
     },
     {
@@ -20,7 +16,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "farsi_iranwire",
+      "username": "durov",
       "error": "fetch failed"
     },
     {
@@ -28,7 +24,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "farsivoa",
+      "username": "farsi_iranwire",
       "error": "fetch failed"
     },
     {
@@ -36,11 +32,15 @@
       "error": "fetch failed"
     },
     {
-      "username": "followupiran",
+      "username": "farsivoa",
       "error": "fetch failed"
     },
     {
       "username": "hranews",
+      "error": "fetch failed"
+    },
+    {
+      "username": "followupiran",
       "error": "fetch failed"
     },
     {
@@ -60,11 +60,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "no_itsmyturn",
+      "username": "matinsenpaii",
       "error": "fetch failed"
     },
     {
-      "username": "matinsenpaii",
+      "username": "no_itsmyturn",
       "error": "fetch failed"
     },
     {
