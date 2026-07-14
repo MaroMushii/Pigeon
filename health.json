@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-14T12:09:31.212Z",
+  "generated_at": "2026-07-14T12:11:20.404Z",
   "succeeded": 0,
   "failed": [
     {
@@ -24,7 +24,15 @@
       "error": "fetch failed"
     },
     {
+      "username": "farsivoa",
+      "error": "fetch failed"
+    },
+    {
       "username": "farsi_iranwire",
+      "error": "fetch failed"
+    },
+    {
+      "username": "followupiran",
       "error": "fetch failed"
     },
     {
@@ -32,15 +40,7 @@
       "error": "fetch failed"
     },
     {
-      "username": "farsivoa",
-      "error": "fetch failed"
-    },
-    {
       "username": "hranews",
-      "error": "fetch failed"
-    },
-    {
-      "username": "followupiran",
       "error": "fetch failed"
     },
     {
@@ -60,11 +60,11 @@
       "error": "fetch failed"
     },
     {
-      "username": "matinsenpaii",
+      "username": "no_itsmyturn",
       "error": "fetch failed"
     },
     {
-      "username": "no_itsmyturn",
+      "username": "matinsenpaii",
       "error": "fetch failed"
     },
     {
