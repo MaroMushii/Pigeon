@@ -1,21 +1,54 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-15T09:26:17.697Z",
+  "fetched_at": "2026-07-15T10:58:26.714Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
     "description_html": "گروه : <br><a href=\"http://t.me/whitedns_group\" target=\"_blank\" rel=\"noopener\">t.me/whitedns_group</a><br><br>ادمين :<br><a href=\"https://t.me/WhiteDnsChatBot\" target=\"_blank\">@WhiteDnsChatBot</a>",
-    "photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-    "photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+    "photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+    "photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
     "photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
     "subscriber_count": "108K"
   },
   "posts": [
     {
+      "id": "whitedns/1170",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<b><tg-emoji emoji-id=\"5447246917744478110\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E298A0.png')\"><b>☠️</b></i></tg-emoji></b><b>اتصال رایگان و پرسرعت با پروژه Aether + پروتکل ویژه گیم Wireguard<br></b><br><tg-emoji emoji-id=\"5438571934210082705\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></tg-emoji>لینک پروژه‌ی اصلی: <a href=\"https://github.com/CluvexStudio/Aether\" target=\"_blank\" rel=\"noopener\">https://github.com/CluvexStudio/Aether</a><br>لینک پروژه GUI من: <a href=\"https://github.com/MatinSenPai/Aether-GUI\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Aether-GUI</a><br>دستور نصب از ترموکس: <br><pre>curl -fsSL https://raw.githubusercontent.com/CluvexStudio/aether/main/aether.sh -o aether.sh &amp;&amp; chmod +x aether.sh &amp;&amp; ./aether.sh install</pre><br>دستور غیرفعال کردن محدودیت مصرف CPU و باتری:<br><pre>termux-wake-lock</pre><br><br><tg-emoji emoji-id=\"5447644880824181073\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji> پیش‌نیازها و نکات مهم: <br><tg-emoji emoji-id=\"5794182096603847292\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i></tg-emoji>این ویدئو هیچ پیش‌نیاز فنی و نیاز به خرید سرور و... نداره. حتی نیاز به اکانت کلودفلر هم نداره<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><br><br><tg-emoji emoji-id=\"5071261477743100913\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B9.png')\"><b>📹</b></i></tg-emoji> <a href=\"https://youtu.be/2h6qlA1pJFw\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">تماشا در یوتوب</a><br><tg-emoji emoji-id=\"5069054607582298852\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B0.png')\"><b>💰</b></i></tg-emoji> <a href=\"https://matinsenpai.pages.dev/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دونیت</a>",
+      "plain_text": "☠️اتصال رایگان و پرسرعت با پروژه Aether + پروتکل ویژه گیم Wireguard\n\n⚡️لینک پروژه‌ی اصلی: https://github.com/CluvexStudio/Aether\nلینک پروژه GUI من: https://github.com/MatinSenPai/Aether-GUI\nدستور نصب از ترموکس:\ncurl -fsSL https://raw.githubusercontent.com/CluvexStudio/aether/main/aether.sh -o aether.sh && chmod +x aether.sh && ./aether.sh install\nدستور غیرفعال کردن محدودیت مصرف CPU و باتری:\ntermux-wake-lock\n\n⚠️ پیش‌نیازها و نکات مهم:\n1️⃣این ویدئو هیچ پیش‌نیاز فنی و نیاز به خرید سرور و... نداره. حتی نیاز به اکانت کلودفلر هم نداره😂\n\n📹 تماشا در یوتوب\n💰 دونیت",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1170",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/s0WoPALi9wMlRgoFJtRkOrhSYEHujGY9J7Jjjav_W9-fqkGegKdmpuZ2exmHtw6MZSlRu1YxIH5IqC3d2uZ0dHGWjho1rdHu6P7-Bp1vXHQAdiH1QLkBx2LZ-De4dsGJGsPELg8chXiofUzmGuenWZPPmLUogiOdVJHJyKIjwm3E_Hpoini5MYsBnyCrSJ2zDQ8N7tFDF1wjXwq7cHiWTerdrDenqLKcPF_G0mI329YXcV3xLTGVWfi7dgIJfntv4vfHn7J5ePoI_dJ8OBGI7QV9zEc-ckgn87KkA6-8lZZCLP1js9jJHDHFaxQRDwqkU6LslDQ-iav2FkKXslYv7g.jpg",
+          "thumbnail_path": "channels/whitedns/media/c25fa43577db9543871a5567.jpg",
+          "thumbnail_sha256": "8db8d9d21dfc6f7e974241b659fa83a5725b54deef162ad89af8864697ce063b",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "39"
+        }
+      ],
+      "views_label": "1.7K",
+      "posted_at": "2026-07-15T10:24:31+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1170",
+      "reply": null
+    },
+    {
       "id": "whitedns/1169",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "اگر برای استفاده از سرویس‌های هوش مصنوعی (AI) مشکل دارید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i> این پراکسی را چک کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i><br><br>برنامه یک اپلیکیشنِ نوار منو (Menu bar)  و یک داشبورد محیط ترمینال است که به عنوان یک <b>مرکز کنترل و مانیتورینگ برای ایجنت‌های Claude Code</b> عمل می‌کند.<br>به طور خلاصه، این ابزار کارهای زیر را انجام می‌دهد:<br><b>نظارت یکپارچه بر ایجنت‌ها:</b> وضعیت تمام ایجنت‌های در حال اجرای Claude Code را در یک نگاه نشان می‌دهد؛ بنابراین دقیقا می‌دانید کدام ایجنت در حال کار است، کدام متوقف شده (خطا داده) و کدام منتظر تایید شماست.<br><br><b>بررسی وضعیت اینترنت و سرور:</b> به صورت مداوم وضعیت اتصال اینترنت شما و سرورهای Anthropic را چک می‌کند تا در صورت توقف کار ایجنت، دلیل واقعی آن (مثلاً کندی اینترنت یا مشکل خودِ Anthropic) را به شما بگوید.<br><br><b>حفظ لوکیشن (Location Fencing):</b> ایجنت‌های شما را روی یک کشور خاص قفل می‌کند. اگر VPN شما قطع شود، به جای اینکه ایجنت‌ها با خطای دسترسی (مانند خطای 403) از کار بیفتند، درخواست‌های آن‌ها را موقتاً متوقف نگه می‌دارد تا دوباره به اینترنتِ همان کشور متصل شوید و کارشان را از سر بگیرند.<br><br><b>ردیابی مصرف (Usage Tracking):</b> میزان مصرف واقعیِ محدودیت‌های اکانت شما را (با خواندن دیتای خود Claude) به طور دقیق نمایش می‌دهد.<br><br><a href=\"https://ghhrmnzdh.github.io/tower/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://ghhrmnzdh.github.io/tower/</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a>",
       "plain_text": "اگر برای استفاده از سرویس‌های هوش مصنوعی (AI) مشکل دارید 🤖 این پراکسی را چک کنید 🔍\n\nبرنامه یک اپلیکیشنِ نوار منو (Menu bar) و یک داشبورد محیط ترمینال است که به عنوان یک مرکز کنترل و مانیتورینگ برای ایجنت‌های Claude Code عمل می‌کند.\nبه طور خلاصه، این ابزار کارهای زیر را انجام می‌دهد:\nنظارت یکپارچه بر ایجنت‌ها: وضعیت تمام ایجنت‌های در حال اجرای Claude Code را در یک نگاه نشان می‌دهد؛ بنابراین دقیقا می‌دانید کدام ایجنت در حال کار است، کدام متوقف شده (خطا داده) و کدام منتظر تایید شماست.\n\nبررسی وضعیت اینترنت و سرور: به صورت مداوم وضعیت اتصال اینترنت شما و سرورهای Anthropic را چک می‌کند تا در صورت توقف کار ایجنت، دلیل واقعی آن (مثلاً کندی اینترنت یا مشکل خودِ Anthropic) را به شما بگوید.\n\nحفظ لوکیشن (Location Fencing): ایجنت‌های شما را روی یک کشور خاص قفل می‌کند. اگر VPN شما قطع شود، به جای اینکه ایجنت‌ها با خطای دسترسی (مانند خطای 403) از کار بیفتند، درخواست‌های آن‌ها را موقتاً متوقف نگه می‌دارد تا دوباره به اینترنتِ همان کشور متصل شوید و کارشان را از سر بگیرند.\n\nردیابی مصرف (Usage Tracking): میزان مصرف واقعیِ محدودیت‌های اکانت شما را (با خواندن دیتای خود Claude) به طور دقیق نمایش می‌دهد.\n\nhttps://ghhrmnzdh.github.io/tower/ 🔗\n@whitedns",
@@ -35,18 +68,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "47"
+          "count": "54"
         },
         {
           "emoji": "🔥",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "2"
+          "count": "3"
         }
       ],
-      "views_label": "6.78K",
+      "views_label": "8.57K",
       "posted_at": "2026-07-15T06:05:59+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1169",
@@ -55,8 +88,8 @@
     {
       "id": "whitedns/1168",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -64,15 +97,15 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "62"
+          "count": "70"
         },
         {
           "emoji": "🔥",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "👎",
@@ -83,7 +116,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.23K",
+      "views_label": "8.64K",
       "posted_at": "2026-07-15T05:32:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1168",
@@ -92,8 +125,8 @@
     {
       "id": "whitedns/1167",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "15.7.2025 <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9385.png')\"><b>📅</b></i><br><br>فایل زیر را دانلود کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i><br><br>1. کانفیگ‌های داخل فایل را کپی و در برنامه v2ray وارد کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i><br>یا<br>2. خود فایل را از طریق گزینه import locally در برنامه v2ray وارد کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i>",
       "plain_text": "15.7.2025 📅\n\nفایل زیر را دانلود کنید ⬇️\n\n1. کانفیگ‌های داخل فایل را کپی و در برنامه v2ray وارد کنید 📋\nیا\n2. خود فایل را از طریق گزینه import locally در برنامه v2ray وارد کنید 📥\n\n@whitedns 🔗",
@@ -113,15 +146,15 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "49"
+          "count": "56"
         },
         {
           "emoji": "👍",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "🔥",
@@ -132,7 +165,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.97K",
+      "views_label": "8.33K",
       "posted_at": "2026-07-15T05:32:52+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1167",
@@ -141,8 +174,8 @@
     {
       "id": "whitedns/1166",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "سلام به همه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i><br><br>یک موضوع مهم که خیلی از کاربران VPN با آن آشنا نیستند، مسئله‌ی DNS Leak یا همان نشت DNS است.<br><br>شاید برای شما هم پیش آمده باشد که VPN روشن است و آی‌پی شما تغییر کرده، اما بعضی سایت‌ها یا سرویس‌ها همچنان شما را به‌عنوان کاربر ایرانی شناسایی می‌کنند یا دسترسی‌تان را محدود می‌کنند.<br><br>DNS نشت یعنی چه؟<br><br>وقتی وارد یک سایت می‌شوید، دستگاه شما ابتدا از یک سرویس DNS می‌پرسد آدرس واقعی آن سایت چیست. اگر این درخواست به‌جای عبور از داخل VPN، از طریق اینترنت اصلی یا شرکت ارائه‌دهنده اینترنت شما ارسال شود، به آن DNS Leak می‌گویند.<br><br>به زبان ساده، با اینکه VPN روشن است، بخشی از اطلاعات اتصال واقعی شما هنوز قابل مشاهده است.<br><br>چرا مهم است؟<br><br>DNS Leak ممکن است باعث شود:<br><br>• موقعیت یا کشور واقعی شما تشخیص داده شود<br>• بعضی سایت‌ها همچنان دسترسی شما را محدود کنند<br>• حریم خصوصی شما کاهش پیدا کند<br>• اتصال VPN شما آن‌طور که انتظار دارید کامل و امن نباشد<br><br>چطور تست کنیم؟<br><br>1. ابتدا VPN را روشن کنید<br>2. وارد سایت زیر شوید:<br>   <a href=\"https://ipleak.net/\" target=\"_blank\" rel=\"noopener\">https://ipleak.net</a><br>3. چند ثانیه صبر کنید تا نتیجه نمایش داده شود<br>4. بخش DNS Addresses را بررسی کنید<br><br>اگر در نتیجه نام شرکت اینترنت شما، کشور واقعی شما یا DNSهای مربوط به اینترنت اصلی‌تان نمایش داده شد، احتمالاً VPN شما DNS Leak دارد.<br><br>پیشنهاد می‌کنیم همیشه از VPNهایی استفاده کنید که نشت DNS ندارند تا هم حریم خصوصی بهتری داشته باشید و هم سرویس‌ها کمتر بتوانند موقعیت واقعی شما را تشخیص دهند.",
       "plain_text": "سلام به همه 👋\n\nیک موضوع مهم که خیلی از کاربران VPN با آن آشنا نیستند، مسئله‌ی DNS Leak یا همان نشت DNS است.\n\nشاید برای شما هم پیش آمده باشد که VPN روشن است و آی‌پی شما تغییر کرده، اما بعضی سایت‌ها یا سرویس‌ها همچنان شما را به‌عنوان کاربر ایرانی شناسایی می‌کنند یا دسترسی‌تان را محدود می‌کنند.\n\nDNS نشت یعنی چه؟\n\nوقتی وارد یک سایت می‌شوید، دستگاه شما ابتدا از یک سرویس DNS می‌پرسد آدرس واقعی آن سایت چیست. اگر این درخواست به‌جای عبور از داخل VPN، از طریق اینترنت اصلی یا شرکت ارائه‌دهنده اینترنت شما ارسال شود، به آن DNS Leak می‌گویند.\n\nبه زبان ساده، با اینکه VPN روشن است، بخشی از اطلاعات اتصال واقعی شما هنوز قابل مشاهده است.\n\nچرا مهم است؟\n\nDNS Leak ممکن است باعث شود:\n\n• موقعیت یا کشور واقعی شما تشخیص داده شود\n• بعضی سایت‌ها همچنان دسترسی شما را محدود کنند\n• حریم خصوصی شما کاهش پیدا کند\n• اتصال VPN شما آن‌طور که انتظار دارید کامل و امن نباشد\n\nچطور تست کنیم؟\n\n1. ابتدا VPN را روشن کنید\n2. وارد سایت زیر شوید:\nhttps://ipleak.net\n3. چند ثانیه صبر کنید تا نتیجه نمایش داده شود\n4. بخش DNS Addresses را بررسی کنید\n\nاگر در نتیجه نام شرکت اینترنت شما، کشور واقعی شما یا DNSهای مربوط به اینترنت اصلی‌تان نمایش داده شد، احتمالاً VPN شما DNS Leak دارد.\n\nپیشنهاد می‌کنیم همیشه از VPNهایی استفاده کنید که نشت DNS ندارند تا هم حریم خصوصی بهتری داشته باشید و هم سرویس‌ها کمتر بتوانند موقعیت واقعی شما را تشخیص دهند.",
@@ -150,7 +183,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "112"
+          "count": "124"
         },
         {
           "emoji": "👍",
@@ -173,7 +206,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.85K",
+      "views_label": "9.11K",
       "posted_at": "2026-07-15T04:34:49+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1166",
@@ -182,8 +215,8 @@
     {
       "id": "whitedns/1165",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -195,7 +228,7 @@
         },
         {
           "emoji": "❤",
-          "count": "89"
+          "count": "91"
         },
         {
           "emoji": "🔥",
@@ -218,7 +251,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.2K",
+      "views_label": "12.6K",
       "posted_at": "2026-07-14T14:49:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1165",
@@ -227,8 +260,8 @@
     {
       "id": "whitedns/1164",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "14.7.2026<br>فایل زیر را دانلود کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i><br><br>1. کانفیگ‌های داخل فایل را کپی و در برنامه v2ray وارد کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i><br>یا<br>2. خود فایل را از طریق گزینه import locally در برنامه v2ray وارد کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i>",
       "plain_text": "14.7.2026\nفایل زیر را دانلود کنید ⬇️\n\n1. کانفیگ‌های داخل فایل را کپی و در برنامه v2ray وارد کنید 📋\nیا\n2. خود فایل را از طریق گزینه import locally در برنامه v2ray وارد کنید 📥\n\n@whitedns 🔗",
@@ -267,7 +300,7 @@
           "count": "2"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12.2K",
       "posted_at": "2026-07-14T14:49:19+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1164",
@@ -276,8 +309,8 @@
     {
       "id": "whitedns/1163",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i> دستیار هوشمند کانال WhiteDNS<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"https://t.me/WhiteDnsResponder_bot\" target=\"_blank\">@WhiteDnsResponder_bot</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> جواب سریع | <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> ۲۴ ساعته | <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> رایگان<br><br>نحوه استفاده:<br>۱. روی لینک بزنید<br>۲. Start<br>۳. سوالتان را بنویسید<br><br>مثال: چطور فیلترشکن نصب کنم؟<br><br>/search عبارت — جستجوی مستقیم<br>/contact — ارتباط با ادمین<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> ربات WhiteDNS در چه زمینه‌هایی جواب می‌دهد:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> فیلترشکن و VPN<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> DNS و تنظیمات اینترنت<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> آموزش نصب اپلیکیشن‌های WhiteDNS<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> رفع مشکلات اتصال<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> Warp و Cloudflare<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> تنظیمات اندروید، آیفون، ویندوز، مک<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> سوالات مربوط به قطعی اینترنت<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D8C.png')\"><b>❌</b></i> ربات قادر به پاسخ‌گویی به سوالات غیرمرتبط با موضوعات کانال نیست.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> نکته: اگر جواب دقیق نگرفتید، سوالتان را طور دیگری بنویسید یا از دکمه جستجو استفاده کنید.",
       "plain_text": "🤖 دستیار هوشمند کانال WhiteDNS\n\n👉 @WhiteDnsResponder_bot\n\n✅ جواب سریع | ✅ ۲۴ ساعته | ✅ رایگان\n\nنحوه استفاده:\n۱. روی لینک بزنید\n۲. Start\n۳. سوالتان را بنویسید\n\nمثال: چطور فیلترشکن نصب کنم؟\n\n/search عبارت — جستجوی مستقیم\n/contact — ارتباط با ادمین\n\n⚠️ ربات WhiteDNS در چه زمینه‌هایی جواب می‌دهد:\n\n✅ فیلترشکن و VPN\n✅ DNS و تنظیمات اینترنت\n✅ آموزش نصب اپلیکیشن‌های WhiteDNS\n✅ رفع مشکلات اتصال\n✅ Warp و Cloudflare\n✅ تنظیمات اندروید، آیفون، ویندوز، مک\n✅ سوالات مربوط به قطعی اینترنت\n\n❌ ربات قادر به پاسخ‌گویی به سوالات غیرمرتبط با موضوعات کانال نیست.\n\n💡 نکته: اگر جواب دقیق نگرفتید، سوالتان را طور دیگری بنویسید یا از دکمه جستجو استفاده کنید.",
@@ -297,7 +330,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "50"
+          "count": "52"
         },
         {
           "emoji": "❤‍🔥",
@@ -312,7 +345,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12.2K",
       "posted_at": "2026-07-14T14:05:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1163",
@@ -321,8 +354,8 @@
     {
       "id": "whitedns/1162",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/whitedns\"><span dir=\"auto\">White DNS</span></a> pinned «<span class=\"tgme_widget_service_strong_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9186.png')\"><b>👆</b></i> <tg-emoji emoji-id=\"5949361713139683377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i></tg-emoji><tg-emoji emoji-id=\"5949361713139683377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i></tg-emoji><tg-emoji emoji-id=\"5949361713139683377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i></tg-emoji><tg-emoji emoji-id=\"5949361713139683377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i></tg-emoji> موقت :   پرونده اتصال سریع و اسان برای افرادی که دانش و امکان درست کردن کانفیگ ندارند با چند پست بالا بسته شد   این مدل اتصال در صورت قطعی  سراسری کار نخواهد کرد   <tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></span>»",
       "plain_text": "White DNS pinned «👆 ⭕️⭕️⭕️⭕️ موقت : پرونده اتصال سریع و اسان برای افرادی که دانش و امکان درست کردن کانفیگ ندارند با چند پست بالا بسته شد این مدل اتصال در صورت قطعی سراسری کار نخواهد کرد ⚠️⚠️⚠️⚠️⚠️⚠️⚠️»",
@@ -337,8 +370,8 @@
     {
       "id": "whitedns/1161",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9186.png')\"><b>👆</b></i><br><tg-emoji emoji-id=\"5949361713139683377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i></tg-emoji><tg-emoji emoji-id=\"5949361713139683377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i></tg-emoji><tg-emoji emoji-id=\"5949361713139683377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i></tg-emoji><tg-emoji emoji-id=\"5949361713139683377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i></tg-emoji><br>موقت : <br><br>پرونده اتصال سریع و اسان برای افرادی که دانش و امکان درست کردن کانفیگ ندارند با چند پست بالا بسته شد <br><br>این مدل اتصال در صورت قطعی  سراسری کار نخواهد کرد <br><br><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"6271786398404055377\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji>",
       "plain_text": "👆\n⭕️⭕️⭕️⭕️\nموقت :\n\nپرونده اتصال سریع و اسان برای افرادی که دانش و امکان درست کردن کانفیگ ندارند با چند پست بالا بسته شد\n\nاین مدل اتصال در صورت قطعی سراسری کار نخواهد کرد\n\n⚠️⚠️⚠️⚠️⚠️⚠️⚠️",
@@ -346,7 +379,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "68"
+          "count": "70"
         },
         {
           "emoji": "👍",
@@ -358,10 +391,10 @@
         },
         {
           "emoji": "🤔",
-          "count": "1"
+          "count": "2"
         }
       ],
-      "views_label": "9.84K",
+      "views_label": "10.1K",
       "posted_at": "2026-07-14T14:02:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1161",
@@ -370,8 +403,8 @@
     {
       "id": "whitedns/1156",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "اگر براتون سوال پیش اومده که لیست ipfronting ها را از کجا آوردیم . پاسخ خیلی ساده است <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F988A.png')\"><b>😊</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br>با استفاده از Whitedns Ip finder <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i><br><br><a href=\"https://github.com/WhiteDNS/WhiteDNS-cleanip-finder/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://github.com/WhiteDNS/WhiteDNS-cleanip-finder/releases</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9382.png')\"><b>📂</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i>",
       "plain_text": "اگر براتون سوال پیش اومده که لیست ipfronting ها را از کجا آوردیم . پاسخ خیلی ساده است 😊👇\n\nبا استفاده از Whitedns Ip finder 🛠\n\nhttps://github.com/WhiteDNS/WhiteDNS-cleanip-finder/releases 📂\n\n@whitedns 📱",
@@ -379,11 +412,11 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "76"
+          "count": "77"
         },
         {
           "emoji": "❤",
-          "count": "16"
+          "count": "17"
         },
         {
           "emoji": "👍",
@@ -398,7 +431,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.5K",
+      "views_label": "10.9K",
       "posted_at": "2026-07-14T13:59:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1156",
@@ -407,8 +440,8 @@
     {
       "id": "whitedns/1155",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -428,14 +461,14 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "35"
+          "count": "36"
         },
         {
           "emoji": "❤",
           "count": "4"
         }
       ],
-      "views_label": "9.55K",
+      "views_label": "9.92K",
       "posted_at": "2026-07-14T13:59:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1155",
@@ -444,8 +477,8 @@
     {
       "id": "whitedns/1154",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<blockquote>دوستان : <br>در صورتی که موفق نشدید با برنامه whitedns vpn وصل بشید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9984.png')\"><b>🙄</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948C.png')\"><b>🔌</b></i><br><br>وارد قسمت advanced بشید و ای پی های زیر را دونه دونه امتحان کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i></blockquote><br><blockquote><a href=\"http://2.189.86.45/\" target=\"_blank\" rel=\"noopener\">2.189.86.45</a><br><a href=\"http://2.189.86.102/\" target=\"_blank\" rel=\"noopener\">2.189.86.102</a><br><a href=\"http://2.189.86.42/\" target=\"_blank\" rel=\"noopener\">2.189.86.42</a><br><a href=\"http://2.189.86.46/\" target=\"_blank\" rel=\"noopener\">2.189.86.46</a><br><a href=\"http://2.189.86.41/\" target=\"_blank\" rel=\"noopener\">2.189.86.41</a><br><a href=\"http://185.8.173.179/\" target=\"_blank\" rel=\"noopener\">185.8.173.179</a><br><a href=\"http://2.189.86.44/\" target=\"_blank\" rel=\"noopener\">2.189.86.44</a><br><a href=\"http://45.149.77.160/\" target=\"_blank\" rel=\"noopener\">45.149.77.160</a><br><a href=\"http://194.62.43.166/\" target=\"_blank\" rel=\"noopener\">194.62.43.166</a><br><a href=\"http://94.101.184.211/\" target=\"_blank\" rel=\"noopener\">94.101.184.211</a><br><a href=\"http://37.152.185.169/\" target=\"_blank\" rel=\"noopener\">37.152.185.169</a><br><a href=\"http://37.152.182.54/\" target=\"_blank\" rel=\"noopener\">37.152.182.54</a><br><a href=\"http://185.226.118.234/\" target=\"_blank\" rel=\"noopener\">185.226.118.234</a><br><a href=\"http://185.231.182.55/\" target=\"_blank\" rel=\"noopener\">185.231.182.55</a><br><a href=\"http://185.226.118.234/\" target=\"_blank\" rel=\"noopener\">185.226.118.234</a><br><a href=\"http://185.231.182.55/\" target=\"_blank\" rel=\"noopener\">185.231.182.55</a><br><a href=\"http://185.226.117.67/\" target=\"_blank\" rel=\"noopener\">185.226.117.67</a><br><a href=\"http://185.228.236.4/\" target=\"_blank\" rel=\"noopener\">185.228.236.4</a><br><a href=\"http://2.189.86.43/\" target=\"_blank\" rel=\"noopener\">2.189.86.43</a><br><a href=\"http://2.144.21.79/\" target=\"_blank\" rel=\"noopener\">2.144.21.79</a><br><a href=\"http://2.144.21.120/\" target=\"_blank\" rel=\"noopener\">2.144.21.120</a><br><a href=\"http://2.144.21.79/\" target=\"_blank\" rel=\"noopener\">2.144.21.79</a><br><a href=\"http://2.144.23.129/\" target=\"_blank\" rel=\"noopener\">2.144.23.129</a><br><a href=\"http://2.144.21.120/\" target=\"_blank\" rel=\"noopener\">2.144.21.120</a></blockquote>",
       "plain_text": "دوستان :\nدر صورتی که موفق نشدید با برنامه whitedns vpn وصل بشید 🙄🔌\n\nوارد قسمت advanced بشید و ای پی های زیر را دونه دونه امتحان کنید 👇🛠\n2.189.86.45\n2.189.86.102\n2.189.86.42\n2.189.86.46\n2.189.86.41\n185.8.173.179\n2.189.86.44\n45.149.77.160\n194.62.43.166\n94.101.184.211\n37.152.185.169\n37.152.182.54\n185.226.118.234\n185.231.182.55\n185.226.118.234\n185.231.182.55\n185.226.117.67\n185.228.236.4\n2.189.86.43\n2.144.21.79\n2.144.21.120\n2.144.21.79\n2.144.23.129\n2.144.21.120",
@@ -469,7 +502,7 @@
         },
         {
           "emoji": "❤",
-          "count": "89"
+          "count": "91"
         },
         {
           "emoji": "❤‍🔥",
@@ -484,7 +517,7 @@
           "count": "3"
         }
       ],
-      "views_label": "9.74K",
+      "views_label": "10.1K",
       "posted_at": "2026-07-14T13:43:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1154",
@@ -493,8 +526,8 @@
     {
       "id": "whitedns/1152",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/whitedns\"><span dir=\"auto\">White DNS</span></a> pinned «<span class=\"tgme_widget_service_strong_text\" dir=\"auto\">دوستان : <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i>  یک مورد کوچیک در مورد whitedns VPN بگم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i>  این اپلیکیشن بر اساس کانفیگ های متناسب با هسته x-ray یا سینگ باکس هست ، به طور مثال vless ,vmess, Trojan ,.... <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i>  اگر وصل شد حتما اول با مرورگر یک تست بگیرید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> ، اگر هیچی باز نشد ، دکمه refresh را بزنید…</span>»",
       "plain_text": "White DNS pinned «دوستان : 👋 یک مورد کوچیک در مورد whitedns VPN بگم 📱 این اپلیکیشن بر اساس کانفیگ های متناسب با هسته x-ray یا سینگ باکس هست ، به طور مثال vless ,vmess, Trojan ,.... ⚙️ اگر وصل شد حتما اول با مرورگر یک تست بگیرید 🌐 ، اگر هیچی باز نشد ، دکمه refresh را بزنید…»",
@@ -509,8 +542,8 @@
     {
       "id": "whitedns/1151",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "دوستان : <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i><br><br>یک مورد کوچیک در مورد whitedns VPN بگم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i><br><br>این اپلیکیشن بر اساس کانفیگ های متناسب با هسته x-ray یا سینگ باکس هست ، به طور مثال vless ,vmess, Trojan ,.... <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i><br><br>اگر وصل شد حتما اول با مرورگر یک تست بگیرید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> ، اگر هیچی باز نشد ، دکمه refresh را بزنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i><br><br>اینقدر این کار را تکرار کنید تا یک کانکشن پایدار متناسب با وضعیت شما براتون پیدا بشه و هر بار تست کنید روی مرورگر <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><br>تیم whitedns <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91A5.png')\"><b>👥</b></i><br><a href=\"https://telegram.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A9.png')\"><b>📩</b></i>",
       "plain_text": "دوستان : 👋\n\nیک مورد کوچیک در مورد whitedns VPN بگم 📱\n\nاین اپلیکیشن بر اساس کانفیگ های متناسب با هسته x-ray یا سینگ باکس هست ، به طور مثال vless ,vmess, Trojan ,.... ⚙️\n\nاگر وصل شد حتما اول با مرورگر یک تست بگیرید 🌐 ، اگر هیچی باز نشد ، دکمه refresh را بزنید 🔄\n\nاینقدر این کار را تکرار کنید تا یک کانکشن پایدار متناسب با وضعیت شما براتون پیدا بشه و هر بار تست کنید روی مرورگر 🧪✅\n\nتیم whitedns 👥\n@whitedns 📩",
@@ -526,7 +559,7 @@
         },
         {
           "emoji": "❤‍🔥",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👍",
@@ -537,7 +570,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10K",
+      "views_label": "10.2K",
       "posted_at": "2026-07-14T13:14:42+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1151",
@@ -546,8 +579,8 @@
     {
       "id": "whitedns/1146",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
-      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/YlG2sO76_HUFt5GnPwJRZsFzY0Afvtpvl1rxxhQ439-Tv_f0HL-bBdMzGEhN_GUqtdT-k3rPALhrJAB8iRFYIpmBD7OwCdftr7Poxk6Ma4UiIw_AijY1HTjesugHxNFBw0X--n4OkiU8g6Bg2Dk0OpQGKb46WBRw2X6HTaDcqLySzmsQ24SV7QJQaxN86p92D5NlRzkzbwk_rvLdNQaLlHQPoNSMimnGs1r-3S2K1vQlPj_zTi4HLUv9EhLgx0lrFw1yl6ERNCnIyvfgw8h4EeCIEvqOacSL54EzuYg_WtRJcNBfep6Ga1ndxvl9bI4ZOzy-Wozgysu4UTQ2I9rFZw.jpg",
+      "author_photo_path": "channels/whitedns/media/d1e100eca097ba5e9065096a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "اپلیکیشن Whitedns vpn 0.0.8 <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i><br><br>یک برنامه بر پایه هسته‌های x-ray و singbox است که بدون نیاز به وارد کردن اطلاعات و تنها با فشردن دکمه‌های Connect یا Refresh، به راحتی یک اتصال اینترنت مناسب ایجاد می‌کند <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i>.<br><br>ٌ<a href=\"https://t.me/Whitedns\" target=\"_blank\">@Whitedns</a>",
       "plain_text": "اپلیکیشن Whitedns vpn 0.0.8 📱\n\nیک برنامه بر پایه هسته‌های x-ray و singbox است که بدون نیاز به وارد کردن اطلاعات و تنها با فشردن دکمه‌های Connect یا Refresh، به راحتی یک اتصال اینترنت مناسب ایجاد می‌کند 🚀🌐.\n\nٌ@Whitedns",
@@ -559,7 +592,7 @@
         },
         {
           "emoji": "❤",
-          "count": "82"
+          "count": "83"
         },
         {
           "emoji": "❤‍🔥",
@@ -574,7 +607,7 @@
           "count": "2"
         }
       ],
-      "views_label": "9.53K",
+      "views_label": "9.71K",
       "posted_at": "2026-07-14T13:14:16+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1146",
@@ -4450,68 +4483,6 @@
       "edited": false,
       "permalink": "https://t.me/whitedns/1029",
       "reply": null
-    },
-    {
-      "id": "whitedns/1027",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/gjr7zu-6Jyt4ZO7Woel6vr2R05PbYP7IgI4_91CH8ZZWD_76lo2bJt9OyTO9N7tThcMl2xlGd9OkvIij-1aZnBOjaM29Mpkhqzwv0FggnY0jW7_wX5UNRa1Zc2RwoZUUjMuQWG6hPSKCGhJ1ptZSstUBYTL5paoydUdj7Stznz9Bk_3A603QCyT-EZcGtw0Vsfv9domxvnlMmVMLI6RvpcLiNQq-qhqEt5-1cjyiOr15myNcnregkeLySaN2muczBYUGrhOdPE1QfyorgMOXSXAsYK9OOuDyyVo_Luv7L-sRJcfpaN5_7wlsDN7iqlP99CouKNCvE5A7vvphXSTFgw.jpg",
-      "author_photo_path": "channels/whitedns/media/5bfc4289a6cc448f65ab0940.jpg",
-      "author_photo_sha256": "1b6d2e079555862debb9ad17403f0116f9dbfa5162360e6f6082ed5f67864409",
-      "body_html": "<b><tg-emoji emoji-id=\"5303138782004924588\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji></b><b> ما براتون حدود ۵۰۰ آی پی تمیز پیدا کردیم و داخل اپ  گذاشتیم. اپ به طور هوشمند سعی میکنه به این آی پی ها وصل بشه. اما با توجه به محدودیتی که روی اپراتور شما اعمال شده امکان داره  باز هم کار نکنن. پس بهتره خودتون اسکن کنید و فقط ۱ آی پی تمیز پیدا کنید. <br></b><br><b><tg-emoji emoji-id=\"5303138782004924588\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji></b><b> اگر دیر وصل شد، اپ داره همه کانفیگ ها و تنظیمات رو امتحان میکنه. این یعنی روی شبکه شما محدودیت و فیلتر زیادی هستش. مشکل از اپ نیست. اپ فقط داره سعی میکنه شمارو هرطوری هست وصل کنه.</b>",
-      "plain_text": "💬 ما براتون حدود ۵۰۰ آی پی تمیز پیدا کردیم و داخل اپ گذاشتیم. اپ به طور هوشمند سعی میکنه به این آی پی ها وصل بشه. اما با توجه به محدودیتی که روی اپراتور شما اعمال شده امکان داره باز هم کار نکنن. پس بهتره خودتون اسکن کنید و فقط ۱ آی پی تمیز پیدا کنید.\n\n💬 اگر دیر وصل شد، اپ داره همه کانفیگ ها و تنظیمات رو امتحان میکنه. این یعنی روی شبکه شما محدودیت و فیلتر زیادی هستش. مشکل از اپ نیست. اپ فقط داره سعی میکنه شمارو هرطوری هست وصل کنه.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "462"
-        },
-        {
-          "emoji": "👍",
-          "count": "34"
-        },
-        {
-          "emoji": "🙏",
-          "count": "20"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "7"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        },
-        {
-          "emoji": "🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "74.1K",
-      "posted_at": "2026-06-19T12:03:54+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1027",
-      "reply": {
-        "channel_username": "whitedns",
-        "post_id": "1021",
-        "author_name": "White DNS",
-        "preview_text": "🌎 نسخه جدید WhiteDNS VPN V0.0.4 ⛏ در این نسخه • ظاهر اپلیکیشن تغییر کرده • امکان اضافه کردن آی پی تمیز خودتون اضافه شده تا اگر اسکن میکنید با آی پی های خودتون به کانفیگ ها وصل بشید. • پرچم کشوری که بهش وصل شدیدرو بهتون نشون میده. • با کمک یکی از بچه های…",
-        "thumbnail_url": "https://cdn4.telesco.pe/file/h7_LqKf78i2iELroo6J_6ambuXkFX_aKnOxiyQtU5V_1Xn4PCZ_pFUe5og89skKivlcv2NG_yArH-20XbZUwC5kufm-aH66dY94tzVVU_fTdSQrn7eJUqGP9cgYOOe7Pfmh9n3Qeg-5vAUYMnR-bWP7TkWfm1Jg_N9929sgifJWHRB_TYGMzGBwu_a_6BTbB3iIgizCW9-sX0hg9coWR4zREPyjOAoQ6_28sXlxEPdLs4FdktFxneqFaaduu6s32VF-UV7YBzWy2D81hwJbLDHO0cjQmfsmFd4SpQdIvIZhZ0R00B-HyYNlhq0b-bXhueLClNtWlfxb_gWt1izs3fg.jpg",
-        "thumbnail_path": "channels/whitedns/media/6d4b31c6e03413f0712b396b.jpg",
-        "thumbnail_sha256": "38d3cc22e48c7c428d3bc4ae6d1133f691b54b1950c5fc3fae2822d5117eeeab",
-        "permalink": "https://t.me/whitedns/1021"
-      }
     }
   ]
 }
