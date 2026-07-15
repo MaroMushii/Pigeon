@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-15T05:16:39.888Z",
+  "fetched_at": "2026-07-15T06:30:44.752Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,117 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1169",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
+      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "اگر برای استفاده از سرویس‌های هوش مصنوعی (AI) مشکل دارید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i> این پراکسی را چک کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i><br><br>برنامه یک اپلیکیشنِ نوار منو (Menu bar)  و یک داشبورد محیط ترمینال است که به عنوان یک <b>مرکز کنترل و مانیتورینگ برای ایجنت‌های Claude Code</b> عمل می‌کند.<br>به طور خلاصه، این ابزار کارهای زیر را انجام می‌دهد:<br><b>نظارت یکپارچه بر ایجنت‌ها:</b> وضعیت تمام ایجنت‌های در حال اجرای Claude Code را در یک نگاه نشان می‌دهد؛ بنابراین دقیقا می‌دانید کدام ایجنت در حال کار است، کدام متوقف شده (خطا داده) و کدام منتظر تایید شماست.<br><br><b>بررسی وضعیت اینترنت و سرور:</b> به صورت مداوم وضعیت اتصال اینترنت شما و سرورهای Anthropic را چک می‌کند تا در صورت توقف کار ایجنت، دلیل واقعی آن (مثلاً کندی اینترنت یا مشکل خودِ Anthropic) را به شما بگوید.<br><br><b>حفظ لوکیشن (Location Fencing):</b> ایجنت‌های شما را روی یک کشور خاص قفل می‌کند. اگر VPN شما قطع شود، به جای اینکه ایجنت‌ها با خطای دسترسی (مانند خطای 403) از کار بیفتند، درخواست‌های آن‌ها را موقتاً متوقف نگه می‌دارد تا دوباره به اینترنتِ همان کشور متصل شوید و کارشان را از سر بگیرند.<br><br><b>ردیابی مصرف (Usage Tracking):</b> میزان مصرف واقعیِ محدودیت‌های اکانت شما را (با خواندن دیتای خود Claude) به طور دقیق نمایش می‌دهد.<br><br><a href=\"https://ghhrmnzdh.github.io/tower/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://ghhrmnzdh.github.io/tower/</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a>",
+      "plain_text": "اگر برای استفاده از سرویس‌های هوش مصنوعی (AI) مشکل دارید 🤖 این پراکسی را چک کنید 🔍\n\nبرنامه یک اپلیکیشنِ نوار منو (Menu bar) و یک داشبورد محیط ترمینال است که به عنوان یک مرکز کنترل و مانیتورینگ برای ایجنت‌های Claude Code عمل می‌کند.\nبه طور خلاصه، این ابزار کارهای زیر را انجام می‌دهد:\nنظارت یکپارچه بر ایجنت‌ها: وضعیت تمام ایجنت‌های در حال اجرای Claude Code را در یک نگاه نشان می‌دهد؛ بنابراین دقیقا می‌دانید کدام ایجنت در حال کار است، کدام متوقف شده (خطا داده) و کدام منتظر تایید شماست.\n\nبررسی وضعیت اینترنت و سرور: به صورت مداوم وضعیت اتصال اینترنت شما و سرورهای Anthropic را چک می‌کند تا در صورت توقف کار ایجنت، دلیل واقعی آن (مثلاً کندی اینترنت یا مشکل خودِ Anthropic) را به شما بگوید.\n\nحفظ لوکیشن (Location Fencing): ایجنت‌های شما را روی یک کشور خاص قفل می‌کند. اگر VPN شما قطع شود، به جای اینکه ایجنت‌ها با خطای دسترسی (مانند خطای 403) از کار بیفتند، درخواست‌های آن‌ها را موقتاً متوقف نگه می‌دارد تا دوباره به اینترنتِ همان کشور متصل شوید و کارشان را از سر بگیرند.\n\nردیابی مصرف (Usage Tracking): میزان مصرف واقعیِ محدودیت‌های اکانت شما را (با خواندن دیتای خود Claude) به طور دقیق نمایش می‌دهد.\n\nhttps://ghhrmnzdh.github.io/tower/ 🔗\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1169",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/eE_H8rxIxUA8CHJry208JbOW_hUsqvnHoV3ysGXvFpPnW0suHp9F3xrLurI8Y_LO4fyuigwuu4UisrXvyMENj0d4HFInUSQZgGfRH9RRERtFLT4xs4swDJ0Y-wVYLKq76Rg8BqWNqYPRrKhFqz_iT0qDbLjhpEhb_GroPfTl8owwv3M06ZtqiwVtDuwNTAYnZRhNC8rWRnDde50kALT_X_gQCrwwwimRgEcE-DyZOSuNXcKcwj63B7GIhbXSbvwtgmYmlAjblpklzipbCNsI9sMaIGWdF8hjMbE25IF1JumyWim0KM0FDIdbMoFqWZ-09nONkVD2MsjDupp21hTGXw.jpg",
+          "thumbnail_path": "channels/whitedns/media/bb11b1b57d0bd75264e8558f.jpg",
+          "thumbnail_sha256": "b171b433a101e9fdb4334d348edfa1737b9f4034ea7d6019c36551ab669ff52e",
+          "duration_label": null,
+          "aspect_ratio": 1.195079086115997
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "15"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        }
+      ],
+      "views_label": "2.29K",
+      "posted_at": "2026-07-15T06:05:59+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1169",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1168",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
+      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "44"
+        },
+        {
+          "emoji": "🔥",
+          "count": "6"
+        },
+        {
+          "emoji": "👏",
+          "count": "1"
+        }
+      ],
+      "views_label": "3.68K",
+      "posted_at": "2026-07-15T05:32:53+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1168",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1167",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
+      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "15.7.2025 <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9385.png')\"><b>📅</b></i><br><br>فایل زیر را دانلود کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i><br><br>1. کانفیگ‌های داخل فایل را کپی و در برنامه v2ray وارد کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i><br>یا<br>2. خود فایل را از طریق گزینه import locally در برنامه v2ray وارد کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i>",
+      "plain_text": "15.7.2025 📅\n\nفایل زیر را دانلود کنید ⬇️\n\n1. کانفیگ‌های داخل فایل را کپی و در برنامه v2ray وارد کنید 📋\nیا\n2. خود فایل را از طریق گزینه import locally در برنامه v2ray وارد کنید 📥\n\n@whitedns 🔗",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1167",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/m7vIUVA-N2jk3rkfwo5CenMjRkpqapt0J63TD0-SJEyMblaJVNK7lQk_P5lECSj156gvnmgvunnR8n8ne3UxDpFUuOgqpr_mMybNgzJz8Un322JGW4wFzGBIByhAai-IiBM3ofBePHLE_mwPojmXNF1HRPttOpVMuk6mMhh8UDgS3p1VZ1u_9zc32EVSG7kC2R-yiralcXlh74Gec9uZfL4rfLOFJ_wdTfA2VFM3DYMeTxuYPu4FdHZ0rdMeWyW1BSER741ITYafpF9n1mp7LDhuXCvh6MzyNRyBTHcCi-PIlmq5LYaL1_rwRPmnwficSYNEyKpTHY1NhMRL1OV3DA.jpg",
+          "thumbnail_path": "channels/whitedns/media/ad71e6c3e0896cfd248ffd96.jpg",
+          "thumbnail_sha256": "7a9d2577f8960e011ab386432e1990a7d1fac7b39a52864dc8942d5b337d30cc",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "32"
+        },
+        {
+          "emoji": "👍",
+          "count": "7"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "👏",
+          "count": "1"
+        }
+      ],
+      "views_label": "3.62K",
+      "posted_at": "2026-07-15T05:32:52+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1167",
+      "reply": null
+    },
     {
       "id": "whitedns/1166",
       "author_name": "White DNS",
@@ -23,18 +134,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "54"
+          "count": "86"
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "12"
         },
         {
           "emoji": "👌",
+          "count": "4"
+        },
+        {
+          "emoji": "🔥",
           "count": "1"
         }
       ],
-      "views_label": "2.38K",
+      "views_label": "5.18K",
       "posted_at": "2026-07-15T04:34:49+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1166",
@@ -56,11 +171,11 @@
         },
         {
           "emoji": "❤",
-          "count": "83"
+          "count": "85"
         },
         {
           "emoji": "🔥",
-          "count": "11"
+          "count": "12"
         },
         {
           "emoji": "❤‍🔥",
@@ -79,7 +194,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.6K",
+      "views_label": "11.5K",
       "posted_at": "2026-07-14T14:49:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1165",
@@ -91,8 +206,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
       "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
+      "body_html": "14.7.2026<br>فایل زیر را دانلود کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i><br><br>1. کانفیگ‌های داخل فایل را کپی و در برنامه v2ray وارد کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i><br>یا<br>2. خود فایل را از طریق گزینه import locally در برنامه v2ray وارد کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i>",
+      "plain_text": "14.7.2026\nفایل زیر را دانلود کنید ⬇️\n\n1. کانفیگ‌های داخل فایل را کپی و در برنامه v2ray وارد کنید 📋\nیا\n2. خود فایل را از طریق گزینه import locally در برنامه v2ray وارد کنید 📥\n\n@whitedns 🔗",
       "media": [
         {
           "kind": "photo",
@@ -109,28 +224,28 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "58"
+          "count": "61"
+        },
+        {
+          "emoji": "🫡",
+          "count": "5"
         },
         {
           "emoji": "❤‍🔥",
           "count": "4"
         },
         {
-          "emoji": "🫡",
-          "count": "4"
+          "emoji": "🔥",
+          "count": "3"
         },
         {
           "emoji": "👍",
           "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "2"
         }
       ],
-      "views_label": "10.4K",
+      "views_label": "11.3K",
       "posted_at": "2026-07-14T14:49:19+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1164",
       "reply": null
     },
@@ -173,7 +288,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.7K",
+      "views_label": "11.4K",
       "posted_at": "2026-07-14T14:05:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1163",
@@ -207,11 +322,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "66"
+          "count": "67"
         },
         {
           "emoji": "👍",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "❤‍🔥",
@@ -222,7 +337,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.68K",
+      "views_label": "9.26K",
       "posted_at": "2026-07-14T14:02:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1161",
@@ -240,7 +355,7 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "72"
+          "count": "75"
         },
         {
           "emoji": "❤",
@@ -248,7 +363,7 @@
         },
         {
           "emoji": "👍",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "👎",
@@ -259,7 +374,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.07K",
+      "views_label": "9.76K",
       "posted_at": "2026-07-14T13:59:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1156",
@@ -289,14 +404,14 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "33"
+          "count": "34"
         },
         {
           "emoji": "❤",
           "count": "4"
         }
       ],
-      "views_label": "8.21K",
+      "views_label": "8.93K",
       "posted_at": "2026-07-14T13:59:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1155",
@@ -330,7 +445,7 @@
         },
         {
           "emoji": "❤",
-          "count": "86"
+          "count": "87"
         },
         {
           "emoji": "❤‍🔥",
@@ -338,14 +453,14 @@
         },
         {
           "emoji": "👍",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "🍓",
           "count": "3"
         }
       ],
-      "views_label": "8.44K",
+      "views_label": "9.09K",
       "posted_at": "2026-07-14T13:43:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1154",
@@ -379,11 +494,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "102"
+          "count": "105"
         },
         {
           "emoji": "🙏",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "❤‍🔥",
@@ -398,7 +513,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.27K",
+      "views_label": "9.65K",
       "posted_at": "2026-07-14T13:14:42+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1151",
@@ -420,7 +535,7 @@
         },
         {
           "emoji": "❤",
-          "count": "77"
+          "count": "79"
         },
         {
           "emoji": "❤‍🔥",
@@ -435,7 +550,7 @@
           "count": "2"
         }
       ],
-      "views_label": "8.82K",
+      "views_label": "9.17K",
       "posted_at": "2026-07-14T13:14:16+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1146",
@@ -4373,177 +4488,6 @@
         "thumbnail_sha256": "38d3cc22e48c7c428d3bc4ae6d1133f691b54b1950c5fc3fae2822d5117eeeab",
         "permalink": "https://t.me/whitedns/1021"
       }
-    },
-    {
-      "id": "whitedns/1022",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/gjr7zu-6Jyt4ZO7Woel6vr2R05PbYP7IgI4_91CH8ZZWD_76lo2bJt9OyTO9N7tThcMl2xlGd9OkvIij-1aZnBOjaM29Mpkhqzwv0FggnY0jW7_wX5UNRa1Zc2RwoZUUjMuQWG6hPSKCGhJ1ptZSstUBYTL5paoydUdj7Stznz9Bk_3A603QCyT-EZcGtw0Vsfv9domxvnlMmVMLI6RvpcLiNQq-qhqEt5-1cjyiOr15myNcnregkeLySaN2muczBYUGrhOdPE1QfyorgMOXSXAsYK9OOuDyyVo_Luv7L-sRJcfpaN5_7wlsDN7iqlP99CouKNCvE5A7vvphXSTFgw.jpg",
-      "author_photo_path": "channels/whitedns/media/5bfc4289a6cc448f65ab0940.jpg",
-      "author_photo_sha256": "1b6d2e079555862debb9ad17403f0116f9dbfa5162360e6f6082ed5f67864409",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "306"
-        },
-        {
-          "emoji": "👍",
-          "count": "16"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "7"
-        },
-        {
-          "emoji": "🥰",
-          "count": "7"
-        },
-        {
-          "emoji": "💩",
-          "count": "4"
-        },
-        {
-          "emoji": "🐳",
-          "count": "3"
-        },
-        {
-          "emoji": "🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        },
-        {
-          "emoji": "⚡",
-          "count": "1"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "82.6K",
-      "posted_at": "2026-06-19T11:58:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1022",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1021",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/RNAHD5NNWRDEHIQ5RNaZ4K7ErbQGxTkdX948_-S_kPXbH2ip005zOM6WnURl_ph2X26OQXYCxM_sxV-E45sLuwwBMQgHobC6MadaWHhm8pZWtv8xtulI6tX2gcSeLntocx8QTvPfDvV7epcFtjvhS0WKATR9I02Gpjp-stRqBwDV7lqlnn1HE-pqh1OWnqGl-5fJos5Pn0zOJ3Nmmd432A-E7EUJzv39x6JrpnBG7eJbtCE24Wx0uCEunMFOKzvTxHxEScy4WXLqprI2_29dGqPV41jcirMIFHgAIk4gLHTbdu5JCbhLVlalMFcy-2IKjW23yAQEN1JZhSMf8ODz4g.jpg",
-      "author_photo_path": "channels/whitedns/media/5fa959fb602a0037805e5deb.jpg",
-      "author_photo_sha256": "1b6d2e079555862debb9ad17403f0116f9dbfa5162360e6f6082ed5f67864409",
-      "body_html": "<tg-emoji emoji-id=\"5224450179368767019\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8E.png')\"><b>🌎</b></i></tg-emoji> <b>نسخه جدید WhiteDNS VPN V0.0.4</b><br><br><br><b><tg-emoji emoji-id=\"5197371802136892976\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29B8F.png')\"><b>⛏</b></i></tg-emoji></b><b> در این نسخه<br></b>• ظاهر اپلیکیشن تغییر کرده <br>• امکان اضافه کردن آی پی تمیز خودتون اضافه شده تا اگر اسکن میکنید با آی پی های خودتون به کانفیگ ها وصل بشید. <br>• پرچم کشوری که بهش وصل شدیدرو بهتون نشون میده. <br>• با کمک یکی از بچه های گروه، یکسری از مشکلات امنیتی اپلیکین رفع شده.<br><br><b><br></b><b><tg-emoji emoji-id=\"5303138782004924588\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji></b><b> اگر براتون وصل نمیشه، فقط و فقط مشکل از شبکه شما هستش. آی پی تمیز پیدا کنید و داخل فیلد IP Fronting قرار بدید و براتون کار میوفته.<br></b><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "🌎 نسخه جدید WhiteDNS VPN V0.0.4\n\n\n⛏ در این نسخه\n• ظاهر اپلیکیشن تغییر کرده\n• امکان اضافه کردن آی پی تمیز خودتون اضافه شده تا اگر اسکن میکنید با آی پی های خودتون به کانفیگ ها وصل بشید.\n• پرچم کشوری که بهش وصل شدیدرو بهتون نشون میده.\n• با کمک یکی از بچه های گروه، یکسری از مشکلات امنیتی اپلیکین رفع شده.\n\n\n💬 اگر براتون وصل نمیشه، فقط و فقط مشکل از شبکه شما هستش. آی پی تمیز پیدا کنید و داخل فیلد IP Fronting قرار بدید و براتون کار میوفته.\n\n\n@WhiteDNS",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1021",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/vIdmnYzTkjhCnfXjcJuwVOjH43x5IiQCZ5UckBMfb9w-IsI-Q1BI7uexAChPrKMiTTRBbz7gYyURhOJGMcVYX4URoWt0Ik_rQGiYgiHBy0v4KD_saJvb0oYTUU30ON2AkehulXBvpkNXsx5Ybo7yXo2HUCqnEBacRsDGHSHdPniAUUdbDMgAOvoJAYGmkYy2Clgnd_bD1CJxCEEMxm6WHbNgl-2ieGlHseirxqkY0x3ETfQsdP8WXApQ5iKlSEmyYszp-zjPaYCiWKOvr23FLEvEb1qrAGlyc4u-lOg1YMZdMFx6ntBRse-Zj_yD6tbALTZueAja143jQUU8fYvlhg.jpg",
-          "thumbnail_path": "channels/whitedns/media/36241b612fa8a6894ec1d979.jpg",
-          "thumbnail_sha256": "80467d4ec09ce25608a96146d337cff1181e9b20298d6395e5a0674feb11385e",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "305"
-        },
-        {
-          "emoji": "👍",
-          "count": "13"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "8"
-        },
-        {
-          "emoji": "🔥",
-          "count": "7"
-        },
-        {
-          "emoji": "💩",
-          "count": "4"
-        },
-        {
-          "emoji": "😎",
-          "count": "2"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "59.1K",
-      "posted_at": "2026-06-19T11:57:11+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1021",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1019",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/RNAHD5NNWRDEHIQ5RNaZ4K7ErbQGxTkdX948_-S_kPXbH2ip005zOM6WnURl_ph2X26OQXYCxM_sxV-E45sLuwwBMQgHobC6MadaWHhm8pZWtv8xtulI6tX2gcSeLntocx8QTvPfDvV7epcFtjvhS0WKATR9I02Gpjp-stRqBwDV7lqlnn1HE-pqh1OWnqGl-5fJos5Pn0zOJ3Nmmd432A-E7EUJzv39x6JrpnBG7eJbtCE24Wx0uCEunMFOKzvTxHxEScy4WXLqprI2_29dGqPV41jcirMIFHgAIk4gLHTbdu5JCbhLVlalMFcy-2IKjW23yAQEN1JZhSMf8ODz4g.jpg",
-      "author_photo_path": "channels/whitedns/media/5fa959fb602a0037805e5deb.jpg",
-      "author_photo_sha256": "1b6d2e079555862debb9ad17403f0116f9dbfa5162360e6f6082ed5f67864409",
-      "body_html": "یکی از contributerهای پروژه‌ی senpaiscanner، دوست عزیزمون hidden-node، نسخه‌ی اندروید اسکنر رو توسعه دادن. طرز کارکردش دقیقا شبیه به اسکنر دسکتاپه. نصب کنید و یه تست بکنید<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i>",
-      "plain_text": "یکی از contributerهای پروژه‌ی senpaiscanner، دوست عزیزمون hidden-node، نسخه‌ی اندروید اسکنر رو توسعه دادن. طرز کارکردش دقیقا شبیه به اسکنر دسکتاپه. نصب کنید و یه تست بکنید👇",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1019",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/DTQYb9RN6FshdRhxECW8quVjkEzp8BEChv2_PwNUDTzI76dIUdoS_P6wEotkBZcqJq-9nnQNuXnNLgXLsWeitiNRqslszCOG_fuxwsQ4KvWQo-oHzumEVha0lfurpbbt7_jtg6s8raT_oZDDthgsP0UWvd2Y-gqSrNXWir_SH7YJeRsaqacCRlH2LLhnXMT2ZphN9oxihS3G0hxNecBnM1Z18DcAlpHD0zoW87qjECCfZM410GiGiYL1IWRyI-asJjI88AXGdLMPUZeDdaSpBmNcGfn0GlUMBqjQ6V7c-c_2lndg1Qo9AYcPX-HtNjFnb1r6trEKkQoY88DWaKJBLQ.jpg",
-          "thumbnail_path": "channels/whitedns/media/76ec015256577036e15ade32.jpg",
-          "thumbnail_sha256": "9ab05b084502c549e441162e3b50a7843e9e41faccbbe2c768ddf3fc275a3967",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "162"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "20.4K",
-      "posted_at": "2026-06-19T11:09:03+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1019",
-      "reply": null
     }
   ]
 }
