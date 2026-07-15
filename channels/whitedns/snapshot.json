@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-15T04:12:49.308Z",
+  "fetched_at": "2026-07-15T05:16:39.888Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,35 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1166",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/F3hdHsdt1eVc5mfPngJxzKcuWmEgIbYaRu54HbV2EnwouIxJW2OL7P2bY_ZqZyXEp1tMDG-lgzGaJuR6pKboYnw8EcK9GYTUsgcIdmKIxHWx6eNJqaHnbCRhllVAP49z8Xv4bi2_zB43Hag1SIH3dqagSlxIaZGIwHHcb_KetBuuqNvssE0rmVpy4KFHVZC95IelroFadQVkvZvfAOh3Sg73Uqlf51uLgfRAyf5eT4n9U0TEpT8C2-g4gK5-P8cKe-eSEj6m7Vk-mW4QjGeh7xeK7UDrrsp3p4EGhLkuk-5p6rgDlXV26UjsLhDNEYqOWVXzzvz8CoNAt01ustrgQQ.jpg",
+      "author_photo_path": "channels/whitedns/media/43dff1dc33bdef504b0100a0.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "سلام به همه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i><br><br>یک موضوع مهم که خیلی از کاربران VPN با آن آشنا نیستند، مسئله‌ی DNS Leak یا همان نشت DNS است.<br><br>شاید برای شما هم پیش آمده باشد که VPN روشن است و آی‌پی شما تغییر کرده، اما بعضی سایت‌ها یا سرویس‌ها همچنان شما را به‌عنوان کاربر ایرانی شناسایی می‌کنند یا دسترسی‌تان را محدود می‌کنند.<br><br>DNS نشت یعنی چه؟<br><br>وقتی وارد یک سایت می‌شوید، دستگاه شما ابتدا از یک سرویس DNS می‌پرسد آدرس واقعی آن سایت چیست. اگر این درخواست به‌جای عبور از داخل VPN، از طریق اینترنت اصلی یا شرکت ارائه‌دهنده اینترنت شما ارسال شود، به آن DNS Leak می‌گویند.<br><br>به زبان ساده، با اینکه VPN روشن است، بخشی از اطلاعات اتصال واقعی شما هنوز قابل مشاهده است.<br><br>چرا مهم است؟<br><br>DNS Leak ممکن است باعث شود:<br><br>• موقعیت یا کشور واقعی شما تشخیص داده شود<br>• بعضی سایت‌ها همچنان دسترسی شما را محدود کنند<br>• حریم خصوصی شما کاهش پیدا کند<br>• اتصال VPN شما آن‌طور که انتظار دارید کامل و امن نباشد<br><br>چطور تست کنیم؟<br><br>1. ابتدا VPN را روشن کنید<br>2. وارد سایت زیر شوید:<br>   <a href=\"https://ipleak.net/\" target=\"_blank\" rel=\"noopener\">https://ipleak.net</a><br>3. چند ثانیه صبر کنید تا نتیجه نمایش داده شود<br>4. بخش DNS Addresses را بررسی کنید<br><br>اگر در نتیجه نام شرکت اینترنت شما، کشور واقعی شما یا DNSهای مربوط به اینترنت اصلی‌تان نمایش داده شد، احتمالاً VPN شما DNS Leak دارد.<br><br>پیشنهاد می‌کنیم همیشه از VPNهایی استفاده کنید که نشت DNS ندارند تا هم حریم خصوصی بهتری داشته باشید و هم سرویس‌ها کمتر بتوانند موقعیت واقعی شما را تشخیص دهند.",
+      "plain_text": "سلام به همه 👋\n\nیک موضوع مهم که خیلی از کاربران VPN با آن آشنا نیستند، مسئله‌ی DNS Leak یا همان نشت DNS است.\n\nشاید برای شما هم پیش آمده باشد که VPN روشن است و آی‌پی شما تغییر کرده، اما بعضی سایت‌ها یا سرویس‌ها همچنان شما را به‌عنوان کاربر ایرانی شناسایی می‌کنند یا دسترسی‌تان را محدود می‌کنند.\n\nDNS نشت یعنی چه؟\n\nوقتی وارد یک سایت می‌شوید، دستگاه شما ابتدا از یک سرویس DNS می‌پرسد آدرس واقعی آن سایت چیست. اگر این درخواست به‌جای عبور از داخل VPN، از طریق اینترنت اصلی یا شرکت ارائه‌دهنده اینترنت شما ارسال شود، به آن DNS Leak می‌گویند.\n\nبه زبان ساده، با اینکه VPN روشن است، بخشی از اطلاعات اتصال واقعی شما هنوز قابل مشاهده است.\n\nچرا مهم است؟\n\nDNS Leak ممکن است باعث شود:\n\n• موقعیت یا کشور واقعی شما تشخیص داده شود\n• بعضی سایت‌ها همچنان دسترسی شما را محدود کنند\n• حریم خصوصی شما کاهش پیدا کند\n• اتصال VPN شما آن‌طور که انتظار دارید کامل و امن نباشد\n\nچطور تست کنیم؟\n\n1. ابتدا VPN را روشن کنید\n2. وارد سایت زیر شوید:\nhttps://ipleak.net\n3. چند ثانیه صبر کنید تا نتیجه نمایش داده شود\n4. بخش DNS Addresses را بررسی کنید\n\nاگر در نتیجه نام شرکت اینترنت شما، کشور واقعی شما یا DNSهای مربوط به اینترنت اصلی‌تان نمایش داده شد، احتمالاً VPN شما DNS Leak دارد.\n\nپیشنهاد می‌کنیم همیشه از VPNهایی استفاده کنید که نشت DNS ندارند تا هم حریم خصوصی بهتری داشته باشید و هم سرویس‌ها کمتر بتوانند موقعیت واقعی شما را تشخیص دهند.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "54"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "👌",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.38K",
+      "posted_at": "2026-07-15T04:34:49+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1166",
+      "reply": null
+    },
     {
       "id": "whitedns/1165",
       "author_name": "White DNS",
@@ -27,26 +56,30 @@
         },
         {
           "emoji": "❤",
-          "count": "77"
+          "count": "83"
         },
         {
           "emoji": "🔥",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "🥰",
           "count": "2"
         },
         {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
           "emoji": "👎",
           "count": "1"
         }
       ],
-      "views_label": "9.78K",
+      "views_label": "10.6K",
       "posted_at": "2026-07-14T14:49:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1165",
@@ -76,22 +109,26 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "54"
+          "count": "58"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "4"
         },
         {
           "emoji": "🫡",
           "count": "4"
         },
         {
-          "emoji": "❤‍🔥",
-          "count": "3"
+          "emoji": "👍",
+          "count": "2"
         },
         {
           "emoji": "🔥",
           "count": "2"
         }
       ],
-      "views_label": "9.65K",
+      "views_label": "10.4K",
       "posted_at": "2026-07-14T14:49:19+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1164",
@@ -121,7 +158,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "47"
+          "count": "49"
         },
         {
           "emoji": "❤‍🔥",
@@ -136,7 +173,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.1K",
+      "views_label": "10.7K",
       "posted_at": "2026-07-14T14:05:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1163",
@@ -170,22 +207,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "62"
+          "count": "66"
         },
         {
           "emoji": "👍",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "🤔",
           "count": "1"
         }
       ],
-      "views_label": "8.27K",
+      "views_label": "8.68K",
       "posted_at": "2026-07-14T14:02:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1161",
@@ -203,11 +240,11 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "68"
+          "count": "72"
         },
         {
           "emoji": "❤",
-          "count": "14"
+          "count": "15"
         },
         {
           "emoji": "👍",
@@ -222,7 +259,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.6K",
+      "views_label": "9.07K",
       "posted_at": "2026-07-14T13:59:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1156",
@@ -252,14 +289,14 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "31"
+          "count": "33"
         },
         {
           "emoji": "❤",
           "count": "4"
         }
       ],
-      "views_label": "7.82K",
+      "views_label": "8.21K",
       "posted_at": "2026-07-14T13:59:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1155",
@@ -293,7 +330,7 @@
         },
         {
           "emoji": "❤",
-          "count": "83"
+          "count": "86"
         },
         {
           "emoji": "❤‍🔥",
@@ -301,14 +338,14 @@
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "🍓",
           "count": "3"
         }
       ],
-      "views_label": "7.99K",
+      "views_label": "8.44K",
       "posted_at": "2026-07-14T13:43:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1154",
@@ -342,7 +379,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "96"
+          "count": "102"
         },
         {
           "emoji": "🙏",
@@ -354,14 +391,14 @@
         },
         {
           "emoji": "👍",
-          "count": "1"
+          "count": "2"
         },
         {
           "emoji": "🤯",
           "count": "1"
         }
       ],
-      "views_label": "9.04K",
+      "views_label": "9.27K",
       "posted_at": "2026-07-14T13:14:42+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1151",
@@ -383,7 +420,7 @@
         },
         {
           "emoji": "❤",
-          "count": "73"
+          "count": "77"
         },
         {
           "emoji": "❤‍🔥",
@@ -398,7 +435,7 @@
           "count": "2"
         }
       ],
-      "views_label": "8.6K",
+      "views_label": "8.82K",
       "posted_at": "2026-07-14T13:14:16+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1146",
@@ -4506,43 +4543,6 @@
       "posted_at": "2026-06-19T11:09:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1019",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1020",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/RNAHD5NNWRDEHIQ5RNaZ4K7ErbQGxTkdX948_-S_kPXbH2ip005zOM6WnURl_ph2X26OQXYCxM_sxV-E45sLuwwBMQgHobC6MadaWHhm8pZWtv8xtulI6tX2gcSeLntocx8QTvPfDvV7epcFtjvhS0WKATR9I02Gpjp-stRqBwDV7lqlnn1HE-pqh1OWnqGl-5fJos5Pn0zOJ3Nmmd432A-E7EUJzv39x6JrpnBG7eJbtCE24Wx0uCEunMFOKzvTxHxEScy4WXLqprI2_29dGqPV41jcirMIFHgAIk4gLHTbdu5JCbhLVlalMFcy-2IKjW23yAQEN1JZhSMf8ODz4g.jpg",
-      "author_photo_path": "channels/whitedns/media/5fa959fb602a0037805e5deb.jpg",
-      "author_photo_sha256": "1b6d2e079555862debb9ad17403f0116f9dbfa5162360e6f6082ed5f67864409",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "126"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🤡",
-          "count": "4"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        }
-      ],
-      "views_label": "17.6K",
-      "posted_at": "2026-06-19T11:09:03+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1020",
       "reply": null
     }
   ]
