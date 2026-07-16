@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-16T11:26:55.635Z",
+  "fetched_at": "2026-07-16T11:32:00.579Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1176",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Tc9q0Ve8my5wiFMeo02u7E7Xk-sQtx-Ajw6zZ4BQKxvM0qe-3w-9zOBHxWmxuGhiyCS5ZQRs0uPYHeJThCZBGsr7lIE5NhnVpQ2aSxS4jVDQHWFWLumE72LvllFaXgzGu8nyYINwfjRbkDDAWwY8PQK5Ay_NSJUOrztBLe4WQuAPg_r3e6J817Vtwrbelb5GE4cQ1N19wdfDXtSQqGsAsi4fB1e9j-tGGbQ5XNZtM_GXQ7qtHdBBq_jKqd3yX0UxZsIaDME6U8sP6E_eNFmIGfRf5bdTgRy78PsJI6fhKjxaMoI5N3_CQy6riCocy-bHMrUUJnSVhhP2sij6mpBCOg.jpg",
+      "author_photo_path": "channels/whitedns/media/89365c7c7bbe25b28c6085db.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> OnionHop V3.7.2 - انتشار جدید: اتصال هوشمند و عیب‌یابی شفاف<br><br>آیا می‌خواهید ترافیک سیستم خود را بدون درگیری با تنظیمات پیچیده از شبکه Tor عبور دهید؟ OnionHop، ابزار متن‌باز، سبک و قدرتمند ویندوز، برای همین کار ساخته شده است. نسخه جدید 3.7.2 تمرکز ویژه‌ای بر پایداری در شبکه‌های سانسور شده و شفافیت عملکرد دارد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> امکانات و قابلیت‌های کلیدی:<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> حفاظت دوگانه:</b> انتخاب بین حالت <b>پراکسی</b> (سبک) و <b>VPN</b> (سیستمی).<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C89.png')\"><b>🌉</b></i> عبور از سانسور شدید:</b> پشتیبانی کامل از Bridgeهای Tor، شامل <code>obfs4</code>, <code>Snowflake</code>, <code>WebTunnel</code>, <code>meek</code>, and <code>dnstt</code>.<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8D.png')\"><b>🌍</b></i> انتخاب کشور خروجی:</b> امکان انتخاب دقیق کشور نود خروجی (Exit Node) برای تغییر موقعیت جغرافیایی.<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i> امنیت بالا:</b> شامل <b>Kill Switch</b> (قطع خودکار اینترنت در صورت قطعی Tor)، <b>DNS امن (DoH)</b> و پشتیبانی از <b>IPv6</b>.<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9AA6.png')\"><b>🚦</b></i> تونل‌بندی هوشمند (Split Tunneling):</b> انتخاب کنید کدام برنامه‌ها از Tor عبور کنند و کدام‌یک مستقیماً متصل شوند.<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i> اتصال هوشمند (Smart Connect):</b> قابلیت جدیدی که به طور خودکار بهترین استراتژی اتصال، موتور Tor و Bridge را برای شبکه شما انتخاب می‌کند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A2.png')\"><b>📢</b></i> مهم‌ترین تغییرات نسخه v3.7.2:<br>۱. تشخیص و تأیید ۱۰۰٪ پل‌های WebTunnel<br>در نسخه‌های قبلی، برنامه فقط آنلاین بودن CDN را بررسی می‌کرد. در نسخه ۳.۷.۲، OnionHop یک <b>اتصال آزمایشی واقعی (Handshake)</b> با خود پل برقرار می‌کند تا مطمئن شود که آیا واقعاً ترافیک را عبور می‌دهد یا خیر. این یعنی دیگر پل‌های خراب به اشتباه «سالم» نمایش داده نمی‌شوند و شما زمان را برای تست اتصال‌های مرده تلف نمی‌کنید.<br>۲. عیب‌یابی شفاف با لاگ‌های دقیق<br>اگر یک Pluggable Transport (مثل obfs4 یا Snowflake) به هر دلیلی اجرا نشود، دیگر با پیام‌های مبهم مثل \"status code 2\" مواجه نمی‌شوید. OnionHop قبل از اجرا همه‌چیز را بررسی می‌کند و دلیل دقیق خطا را در لاگ‌ها نشان می‌دهد؛ مثلاً: فایل اجرایی خراب است، نسخه اشتباه پردازنده است، یا مجوز دسترسی وجود ندارد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> راهنمای قدم‌به‌قدم اتصال (How-To Connect Guide)<br>براساس اطلاعات مخزن گیت‌هاب، نحوه اتصال بسیار ساده است:<br><b>نصب و اجرا:</b> فایل نصبی (.exe) را از لینک زیر دانلود کرده و اجرا کنید.<br><b>اولین اجرا (انتخاب حالت):</b><br><b>Proxy Mode (پیشنهادی):</b> اگر فقط برای مرورگر یا برنامه‌های خاصی به Tor نیاز دارید، این حالت را انتخاب کنید. نیازی به دسترسی Administrator ندارد. باید تنظیمات پراکسی برنامه خود را روی <code>SOCKS5 127.0.0.1:9050</code> قرار دهید.<br><b>TUN/VPN Mode (دسترسی ادمین):</b> اگر می‌خواهید <b>تمام ترافیک ویندوز</b> (کل سیستم) از Tor عبور کند، این حالت را انتخاب کنید. این کار با استفاده از Wintun و sing-box انجام می‌شود.<br><b>انتخاب پل (در شبکه‌های فیلتر شده):</b> به بخش <b>Scanner</b> بروید. اگر در شبکه‌ای با محدودیت هستید، <b>Bridges</b> را فعال کنید و روی <b>Scan</b> کلیک کنید تا برنامه‌ها پل‌های سالم را برای شما پیدا کنند.<br><b>اتصال:</b> روی دکمه بزرگ <b>Connect</b> کلیک کنید.<br><b>Smart Connect:</b> برای راحتی بیشتر، می‌توانید Smart Connect را در حالت خودکار قرار دهید تا برنامه خودش بهترین تنظیمات را اعمال کند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> لینک‌های رسمی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <b>متن‌باز و رایگان</b> <a href=\"?q=%23%D8%A7%D9%88%D9%BE%D9%86_%D8%B3%D9%88%D8%B1%D8%B3\">#اوپن_سورس</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>دانلود مستقیم نسخه V3.7.2:</b><br><a href=\"https://github.com/center2055/OnionHop/releases/tag/v3.7.2\" target=\"_blank\" rel=\"noopener\">https://github.com/center2055/OnionHop/releases/tag/v3.7.2</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> <b>وبسایت رسمی:</b><br><a href=\"https://www.onionhop.de/\" target=\"_blank\" rel=\"noopener\">https://www.onionhop.de</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "💻 OnionHop V3.7.2 - انتشار جدید: اتصال هوشمند و عیب‌یابی شفاف\n\nآیا می‌خواهید ترافیک سیستم خود را بدون درگیری با تنظیمات پیچیده از شبکه Tor عبور دهید؟ OnionHop، ابزار متن‌باز، سبک و قدرتمند ویندوز، برای همین کار ساخته شده است. نسخه جدید 3.7.2 تمرکز ویژه‌ای بر پایداری در شبکه‌های سانسور شده و شفافیت عملکرد دارد.\n✨ امکانات و قابلیت‌های کلیدی:\n🛡 حفاظت دوگانه: انتخاب بین حالت پراکسی (سبک) و VPN (سیستمی).\n🌉 عبور از سانسور شدید: پشتیبانی کامل از Bridgeهای Tor، شامل obfs4, Snowflake, WebTunnel, meek, and dnstt.\n🌍 انتخاب کشور خروجی: امکان انتخاب دقیق کشور نود خروجی (Exit Node) برای تغییر موقعیت جغرافیایی.\n🔒 امنیت بالا: شامل Kill Switch (قطع خودکار اینترنت در صورت قطعی Tor)، DNS امن (DoH) و پشتیبانی از IPv6.\n🚦 تونل‌بندی هوشمند (Split Tunneling): انتخاب کنید کدام برنامه‌ها از Tor عبور کنند و کدام‌یک مستقیماً متصل شوند.\n🤖 اتصال هوشمند (Smart Connect): قابلیت جدیدی که به طور خودکار بهترین استراتژی اتصال، موتور Tor و Bridge را برای شبکه شما انتخاب می‌کند.\n📢 مهم‌ترین تغییرات نسخه v3.7.2:\n۱. تشخیص و تأیید ۱۰۰٪ پل‌های WebTunnel\nدر نسخه‌های قبلی، برنامه فقط آنلاین بودن CDN را بررسی می‌کرد. در نسخه ۳.۷.۲، OnionHop یک اتصال آزمایشی واقعی (Handshake) با خود پل برقرار می‌کند تا مطمئن شود که آیا واقعاً ترافیک را عبور می‌دهد یا خیر. این یعنی دیگر پل‌های خراب به اشتباه «سالم» نمایش داده نمی‌شوند و شما زمان را برای تست اتصال‌های مرده تلف نمی‌کنید.\n۲. عیب‌یابی شفاف با لاگ‌های دقیق\nاگر یک Pluggable Transport (مثل obfs4 یا Snowflake) به هر دلیلی اجرا نشود، دیگر با پیام‌های مبهم مثل \"status code 2\" مواجه نمی‌شوید. OnionHop قبل از اجرا همه‌چیز را بررسی می‌کند و دلیل دقیق خطا را در لاگ‌ها نشان می‌دهد؛ مثلاً: فایل اجرایی خراب است، نسخه اشتباه پردازنده است، یا مجوز دسترسی وجود ندارد.\n🛠 راهنمای قدم‌به‌قدم اتصال (How-To Connect Guide)\nبراساس اطلاعات مخزن گیت‌هاب، نحوه اتصال بسیار ساده است:\nنصب و اجرا: فایل نصبی (.exe) را از لینک زیر دانلود کرده و اجرا کنید.\nاولین اجرا (انتخاب حالت):\nProxy Mode (پیشنهادی): اگر فقط برای مرورگر یا برنامه‌های خاصی به Tor نیاز دارید، این حالت را انتخاب کنید. نیازی به دسترسی Administrator ندارد. باید تنظیمات پراکسی برنامه خود را روی SOCKS5 127.0.0.1:9050 قرار دهید.\nTUN/VPN Mode (دسترسی ادمین): اگر می‌خواهید تمام ترافیک ویندوز (کل سیستم) از Tor عبور کند، این حالت را انتخاب کنید. این کار با استفاده از Wintun و sing-box انجام می‌شود.\nانتخاب پل (در شبکه‌های فیلتر شده): به بخش Scanner بروید. اگر در شبکه‌ای با محدودیت هستید، Bridges را فعال کنید و روی Scan کلیک کنید تا برنامه‌ها پل‌های سالم را برای شما پیدا کنند.\nاتصال: روی دکمه بزرگ Connect کلیک کنید.\nSmart Connect: برای راحتی بیشتر، می‌توانید Smart Connect را در حالت خودکار قرار دهید تا برنامه خودش بهترین تنظیمات را اعمال کند.\n🔗 لینک‌های رسمی\n🔗 متن‌باز و رایگان #اوپن_سورس\n\n🚀 دانلود مستقیم نسخه V3.7.2:\nhttps://github.com/center2055/OnionHop/releases/tag/v3.7.2\n\n🌐 وبسایت رسمی:\nhttps://www.onionhop.de\n\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1176",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/sTYk53-ofnE-itEeRFK_3Rpuwk8wM7IVIXrxl5Zjgadf79bZbaCc0BEayJvvxKFQWAmVJpWsU6oAeKSQZA_3HIpIrtSOGxbr_-gJDRZUNaM2RolIROHxyLls7-BV0haKtKqRCzfKM_0R9qR4VPzP6RRrI4m6pjVXRxOqRxeGdvw0xHKj-dZAfn0A2AB5-BpYNf9rSD0qZe_VGIIbWk2jVeiPih-xKlxLrXKWw-SYBnYhtu-rcEXZZRmDN4ugrTL9vxV6XhyMsdFTfXDoztJJTExszvL2e26fD8OqgRVHDRmPj2puQcrkxGzK0ySBHGOXciux99qEfE3M8ZhllCgCqw.jpg",
+          "thumbnail_path": "channels/whitedns/media/a7850cd9e45445a0e2e8b467.jpg",
+          "thumbnail_sha256": "714743055d25030dc5def35b2b67f58c761bd0a8a6fa6f1da7477b665154514c",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        }
+      ],
+      "views_label": "816",
+      "posted_at": "2026-07-16T11:27:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1176",
+      "reply": null
+    },
     {
       "id": "whitedns/1175",
       "author_name": "White DNS",
@@ -23,7 +60,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "54"
+          "count": "55"
         },
         {
           "emoji": "👎",
@@ -38,7 +75,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.11K",
+      "views_label": "6.43K",
       "posted_at": "2026-07-16T09:06:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1175",
@@ -68,7 +105,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "59"
+          "count": "60"
         },
         {
           "emoji": "❤‍🔥",
@@ -79,7 +116,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.11K",
+      "views_label": "6.46K",
       "posted_at": "2026-07-16T09:05:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1174",
@@ -148,7 +185,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.24K",
+      "views_label": "7.5K",
       "posted_at": "2026-07-16T08:09:40+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1172",
@@ -201,7 +238,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.6K",
+      "views_label": "9.75K",
       "posted_at": "2026-07-16T05:30:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1171",
@@ -246,7 +283,7 @@
           "count": "3"
         }
       ],
-      "views_label": "7.97K",
+      "views_label": "8K",
       "posted_at": "2026-07-15T10:24:31+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1170",
@@ -287,7 +324,7 @@
           "count": "5"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.3K",
       "posted_at": "2026-07-15T06:05:59+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1169",
@@ -610,7 +647,7 @@
           "count": "2"
         }
       ],
-      "views_label": "11.8K",
+      "views_label": "11.9K",
       "posted_at": "2026-07-14T14:02:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1161",
@@ -4405,59 +4442,6 @@
       "posted_at": "2026-06-24T05:58:03+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1039",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1034",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/WK0C0EFQ8fZcalcnWChku5M_F03Vk4MXuOL4llB8S8WagCXbUA2i8s6ZP5i-KV4WmYMnMe-NfzFhgMK7fV5C-FOzxc2pHPrMqLKVSRQTSgtADV_l9n_nFBUUOU6KLfyn6n_f-hpUZ626QPicAhJDIa1b6fjfQLyHmMOPyHFihtFMGJ5q6x0sJT8DdeqWIeZeiJ8NIHu-uheMqg6JuUrNMpyw2E_O0fetkkIx-BatFqgvFQsgSpW47h6ZJ10yGJEagj8s6KcBVjOqOp0i_uip7SOVT5dTQaQEmRJqcWjiyORxLmcDtC1tQeqdeikuOUEaG1f4GbxUCZZRtxEKl83-pA.jpg",
-      "author_photo_path": "channels/whitedns/media/d523b47309fecfce82715728.jpg",
-      "author_photo_sha256": "1b6d2e079555862debb9ad17403f0116f9dbfa5162360e6f6082ed5f67864409",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "479"
-        },
-        {
-          "emoji": "🔥",
-          "count": "21"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "13"
-        },
-        {
-          "emoji": "👎",
-          "count": "11"
-        },
-        {
-          "emoji": "👍",
-          "count": "10"
-        },
-        {
-          "emoji": "🤡",
-          "count": "4"
-        },
-        {
-          "emoji": "🍓",
-          "count": "4"
-        },
-        {
-          "emoji": "🤣",
-          "count": "2"
-        }
-      ],
-      "views_label": "39.6K",
-      "posted_at": "2026-06-24T05:13:33+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1034",
       "reply": null
     }
   ]
