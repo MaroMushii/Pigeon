@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-16T20:41:52.948Z",
+  "fetched_at": "2026-07-16T20:46:43.304Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,55 @@
     "subscriber_count": "11.6M"
   },
   "posts": [
+    {
+      "id": "durov/531",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/ArpaOk-zI6RtvZPtdw6dv3K1jPnFsuLA72SYE8lpg9iipF-T2Zat9qE-qrnjT_MX8uiyNPxDlowMiJAoctmxjalgVS2MUyLbNYPsDTreUWZIRIwFiatazhD8OshuweUyV9igYQ4w0ghkInM4Rr2SMls8NRwJt0CLkgWCjUQZx-TIB82eAkGNIak2Hs6OoBLav_yV4RvSWOQN-awfSCQ8qexUsGFi1L17T3JTZxmu4NZ2AmWoww3jyni74NnHSQbhcGhcJuWY40bMj3lXeaV3IR4hkFNzRsDL3gP9T73jAnB09phARQPGCe84MBkf1mVx65A5TAq4ieCTFv1_U8ydCw.jpg",
+      "author_photo_path": "channels/durov/media/e2ad336e050bc7cf97602164.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<tg-emoji emoji-id=\"5460865451586250451\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA9B5.png')\"><b>🩵</b></i></tg-emoji> Telegram now has a <b>Rich Text Editor</b>.<br><br>It supports tables, headings, inline media, lists, AI content, formulas, and more.<br><br><tg-emoji emoji-id=\"5357135183864667855\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9888.png')\"><b>😈</b></i></tg-emoji> Messaging apps will never be the same!",
+      "plain_text": "🩵 Telegram now has a Rich Text Editor.\n\nIt supports tables, headings, inline media, lists, AI content, formulas, and more.\n\n😈 Messaging apps will never be the same!",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/durov/531",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/fIZLhdr1uQEg1AzLvzZYoSZ_Dc7od49CdjH37mnuVa5NTMn2obqfkqz25Sij9rtyZv7u6VxZnkRCrG61ABZqXWRp8TotuI_0nznbDJ-ilxz9TcaGUUkA0NXyCN7aThoT10RGFReh7AeU1HDqp9g1k1DnFfv62cGkisMYNQYKCqOZA8_vUAACh0vDBjVzjSBORJxI-EpcWf4Vnvt9mRUXRmKlkqhkQikcXSgXcjJDONtG1MO56tgc6uXDgdxAasl3h2wcgSiaPJTKX8a8XVi-Ul7UcZcE2CIHDhuWjBOEq5w7U3CvIKURtOml7ShIdB9hVZkPOcZJjlVOTSUTb0TxMQ",
+          "thumbnail_path": "channels/durov/media/2ee60dc2128da4cf64996c0f.jpg",
+          "thumbnail_sha256": "fe424b2a3f4d198773cffa21292716982caeed71f87f55dc38d30724073bf12a",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "954"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.09K"
+        },
+        {
+          "emoji": "💎",
+          "count": "502"
+        },
+        {
+          "emoji": "💎",
+          "count": "431"
+        },
+        {
+          "emoji": "💎",
+          "count": "394"
+        }
+      ],
+      "views_label": "21.9K",
+      "posted_at": "2026-07-16T20:45:25+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/531",
+      "reply": null
+    },
     {
       "id": "durov/530",
       "author_name": "Pavel Durov",
@@ -64,7 +113,7 @@
         },
         {
           "emoji": "💎",
-          "count": "59.7K"
+          "count": "59.8K"
         },
         {
           "emoji": "💎",
@@ -79,7 +128,7 @@
           "count": "7.79K"
         }
       ],
-      "views_label": "5.31M",
+      "views_label": "5.34M",
       "posted_at": "2026-06-16T15:05:29+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/529",
@@ -896,7 +945,7 @@
           "count": "142"
         }
       ],
-      "views_label": "3.46M",
+      "views_label": "3.47M",
       "posted_at": "2026-05-12T17:28:39+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/510",
