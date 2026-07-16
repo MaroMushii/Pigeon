@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-16T19:02:04.923Z",
+  "fetched_at": "2026-07-16T19:06:55.810Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -12,13 +12,41 @@
   },
   "posts": [
     {
+      "id": "iranlix/10074",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/JD0qPJ4w21F90soFWK8Kaswng2w9YVni3f9wQYhflCdt6KBxkg7BC4mhHXrA5yqCcH0_XM-DaSHQUJpjLpYQLMlA-zQYD9L6SbEGKMDNag726ECZHE1jJ7x2MPKKaMwUpwDaedNroomuBfh6Vw4IB4Qv6gs1Thj9lw5YPJmS83LI-YxWPKaEYNYcpDis89MIETvXZvR3rmv4_VPdqfiumOiuk5kZwFui50w33RIJI6eWttFRErO6sc4dKvp8QxJkn85OsK9CK14YsjFukGEi0TECOAKBut3N8RV1LQ_CetssyYBfZvq6XYCQm-3KCmET34b9KHCxRzbaNQA2F6JyEw.jpg",
+      "author_photo_path": "channels/iranlix/media/261b0cc2057b21076312ec55.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9AA8.png')\"><b>🚨</b></i><b>گزارش شنیده شدن ۳ انفجار مهیب و سنگین در اهواز</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "🚨گزارش شنیده شدن ۳ انفجار مهیب و سنگین در اهواز\n\n@iranlix",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/10074",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/PLLhtRZJccPeL6U-se3L8Ib_B-Z_-9KTxB1ynQhqbXYzWK3F4-KiPa4B3pcXN02QketCsKRe7O8Bql1yZ2AMtF_OJS0Lr7xcJnevpIanEDKqG8pdD60BcoKJApcpI8--oHKaVPXh-tyFVF8ZcBfU6ELlxILs7-FMNq1u2MUndEd08KQtc8KXMisEdCHugz4hguJcndBVtFUg1No3l5xhYAHfYECNtW8zBUMJtfFguYbciyOarmRq7TMGL37odAPPKQVG9wh9NRDb1dOZFE0ZFXHWJw1LwkNrO5ShUQPATLP3-cFJ8DhCjy5HO6rAp017CHOZySBENApF47_LozapGg.jpg",
+          "thumbnail_path": "channels/iranlix/media/4a7ea0428b0e934d7a78ea1b.jpg",
+          "thumbnail_sha256": "0eaec776e719903ec969137541172ddd7ba0de9b0fe6ca84aecae9d219ebf24f",
+          "duration_label": null,
+          "aspect_ratio": 2
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-07-16T19:06:54+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/10074",
+      "reply": null
+    },
+    {
       "id": "iranlix/10073",
       "author_name": "ایرانلیکس",
       "author_photo_url": "https://cdn4.telesco.pe/file/JD0qPJ4w21F90soFWK8Kaswng2w9YVni3f9wQYhflCdt6KBxkg7BC4mhHXrA5yqCcH0_XM-DaSHQUJpjLpYQLMlA-zQYD9L6SbEGKMDNag726ECZHE1jJ7x2MPKKaMwUpwDaedNroomuBfh6Vw4IB4Qv6gs1Thj9lw5YPJmS83LI-YxWPKaEYNYcpDis89MIETvXZvR3rmv4_VPdqfiumOiuk5kZwFui50w33RIJI6eWttFRErO6sc4dKvp8QxJkn85OsK9CK14YsjFukGEi0TECOAKBut3N8RV1LQ_CetssyYBfZvq6XYCQm-3KCmET34b9KHCxRzbaNQA2F6JyEw.jpg",
       "author_photo_path": "channels/iranlix/media/261b0cc2057b21076312ec55.jpg",
       "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><b>کارولین لیویت سخنگوی کاخ سفید،بار دیگر بر التماس مذاکره کنندگان ایرانی به آمریکا تاکید کرد و گفت ایرانی‌ها بسیار مشتاق هستند که توافق امضا شود</b>.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "💢کارولین لیویت سخنگوی کاخ سفید،بار دیگر بر التماس مذاکره کنندگان ایرانی به آمریکا تاکید کرد و گفت ایرانی‌ها بسیار مشتاق هستند که توافق امضا شود.\n\n@iranlix",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><b>کارولین لیویت سخنگوی کاخ سفید،بار دیگر بر التماس مذاکره کنندگان ج.ا به آمریکا تاکید کرد و گفت ایرانی‌ها بسیار مشتاق هستند که توافق امضا شود</b>.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "💢کارولین لیویت سخنگوی کاخ سفید،بار دیگر بر التماس مذاکره کنندگان ج.ا به آمریکا تاکید کرد و گفت ایرانی‌ها بسیار مشتاق هستند که توافق امضا شود.\n\n@iranlix",
       "media": [
         {
           "kind": "photo",
@@ -33,9 +61,9 @@
         }
       ],
       "reactions": [],
-      "views_label": "185",
+      "views_label": "248",
       "posted_at": "2026-07-16T18:54:37+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/iranlix/10073",
       "reply": null
     },
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "279",
+      "views_label": "341",
       "posted_at": "2026-07-16T18:49:44+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10072",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "400",
+      "views_label": "462",
       "posted_at": "2026-07-16T18:43:07+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10071",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "529",
+      "views_label": "560",
       "posted_at": "2026-07-16T18:38:06+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10070",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "594",
+      "views_label": "626",
       "posted_at": "2026-07-16T18:29:28+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10069",
@@ -173,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "594",
+      "views_label": "656",
       "posted_at": "2026-07-16T18:28:19+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10068",
@@ -201,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "686",
+      "views_label": "719",
       "posted_at": "2026-07-16T18:18:52+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10067",
@@ -229,7 +257,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "748",
+      "views_label": "778",
       "posted_at": "2026-07-16T18:09:42+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10066",
@@ -257,7 +285,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "790",
+      "views_label": "821",
       "posted_at": "2026-07-16T18:02:21+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10065",
@@ -294,7 +322,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "895",
+      "views_label": "925",
       "posted_at": "2026-07-16T17:30:08+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10064",
@@ -322,7 +350,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "920",
+      "views_label": "921",
       "posted_at": "2026-07-16T17:28:34+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10063",
@@ -350,7 +378,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "910",
+      "views_label": "911",
       "posted_at": "2026-07-16T17:26:16+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10062",
@@ -378,7 +406,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "980",
+      "views_label": "1.01K",
       "posted_at": "2026-07-16T17:11:22+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/10061",
@@ -406,7 +434,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "979",
+      "views_label": "980",
       "posted_at": "2026-07-16T17:04:37+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10060",
@@ -518,7 +546,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.09K",
+      "views_label": "1.12K",
       "posted_at": "2026-07-16T16:10:55+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10056",
@@ -2928,34 +2956,6 @@
       "posted_at": "2026-07-15T14:23:23+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/9962",
-      "reply": null
-    },
-    {
-      "id": "iranlix/9961",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/aOGIoxmo8x8UxW2u5NQNa4LxNkdMZhrOXYY3r7MGdrJXBIJgmCfudB-J6q1cRYAjqWaAIgJ1K9mnID4ARuyao0T3zPis8TZ1UuX9ELbNvBopG0xQpxRtrT6WFQEHO1vIugV7iI0vJHxrM8NVzX3Qz__EU2TNDhReZ4rqEdC70BFTPy3Xmi9awOQtVpa1AyfzUvQgqVWvhHEj_YxL8h-AxbuHJ1dyw6gwWJcTGzWKbabZaCDy7_f5P-85JKdl-oYAKnAO5nFa0TdiZ9TzmN2OHqpodFh2mrt469BazdRyZFxEebWmaOmJTlq8dP_2dC_QgKSiGmKh2sru8zJZotpriA.jpg",
-      "author_photo_path": "channels/iranlix/media/404facd0ff09e0abcb158806.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><b>الحدث گزارش داد: عراق بر تمامی شرکت های مرتبط با حزب الله که تحت تحریم آمریکا هستند، محدودیت های بانکی برقرار کرد</b>.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "💢الحدث گزارش داد: عراق بر تمامی شرکت های مرتبط با حزب الله که تحت تحریم آمریکا هستند، محدودیت های بانکی برقرار کرد.\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/9961",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/LNUnW0CWMglPDjwvGeRdZcvfxJV3UTJji5iR1glmDoEJpJsGH0lR_cm4WB19hD5Tj7mUj-MIU1tpOcy76MV3R__Qm-XcrRyo9nNFyVQRtWhicwjJwGF8RRgWrq7tNMncOcY8zh-1Q1v6Dd4XumD0j1_GTiKg6C27Luqqw0yOKXqAuzVRU0Gf9IQqHxL1Y__z2HatdjDF7u0qHSFrnzK7HB6VkVpz3J8hNL8cbm9UzpoXNhAMf7f4MLG32yKM8ZVUDNMt53U1prwTeN6lC3wZZP3pnNkBwNuhVyfx6w0EWuI8rEwrStVAXWtaL5tFrtXx0uK0ZAx3HvTZy88Bt20WIA.jpg",
-          "thumbnail_path": "channels/iranlix/media/19b889bc4fadd59946f739ab.jpg",
-          "thumbnail_sha256": "31c413d54052da20847451e8c8070b8903ad08cf11da08f6be4f88472a0904e7",
-          "duration_label": null,
-          "aspect_ratio": 1.094517958412097
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.21K",
-      "posted_at": "2026-07-15T14:22:37+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/9961",
       "reply": null
     }
   ]
