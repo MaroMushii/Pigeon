@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-16T04:36:43.061Z",
+  "fetched_at": "2026-07-16T04:41:52.389Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4514",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/rzfVGsAXhW-vH51YcHLtw_FbRtFtfBh8vSfJFDbALTprWCYmQm3GILAQT5gmeWFn5kazpGqt-zokuuqwriykMi4qZHBxScwPOO-N-xCIuHIBnIXvY9jQVqQgFOd-87dYyLljbHc3TWYf5T9K80Sjmrk-XhJ7EqlvuoLx5g9dc41dazxVKASsjiA287aKYUM210VqU3kzk2A3Wqqzdr8T1sDqkB2wtlvIOXAv3IZHcvsp12VW-NKLYnVhjXT5JIXDfzvl9cGmwcNKVlWsi-9zfUr-2CIjfDe-anB7chzY254Yb99HVo3eU9osAWbq4O9T7O_2dnjIYO8nXgdm0IOApg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/968ca1a63e2268b8c8402115.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "ماجرای اوپن سورس شدن xAI Grok-Build<br><br>داستان یه مقدار خنده‌دار (و یه مقدار دارک) هستش. همونطور که می‌دونید Grok-Build همون ایجنت کدنویسی تحت ترمینال شرکت xAI (مال ایلان ماسک) هست که به‌تازگی توی گیت‌هاب اوپن‌سورس شده؛ اما پشت این اوپن‌سورس شدن یه رسوایی بزرگ خوابیده بود.<br><br>داستان از این قراره:<br><br>1- رسوایی سرقت کد (Spyware شدن ابزار): چند وقت پیش، یه سری از محقق‌های امنیتی و دولوپرها نشستن ریکوئست‌های شبکه‌ی Grok-Build رو مانیتور کردن. دیدن این ابزار وقتی روی سیستم کاربر اجرا می‌شه، فقط فایل‌هایی که بهش می‌گی رو نمی‌خونه؛ بلکه داره تو بک‌گراند کل هیستوری گیت، کل فایل‌های پروژه (حتی اونایی که بهش ربطی نداره)، کلیدهای SSH، پسوردها و Credentials رو زیپ می‌کنه و می‌فرسته روی سرورهای xAI!<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><br><br>2- مچ‌گیری و آبروریزی توی توییتر: وقتی این قضیه لو رفت، توییتر منفجر شد. همه شروع کردن به گفتن اینکه xAI داره دیتای خصوصیِ دولوپرها رو واسه Train کردن مدل‌هاش می‌دزده و اسم ابزار رو گذاشتن «جاسوس‌افزار (Spyware)». <br><br>3- ماله‌کشیِ سریع xAI: شرکت xAI وقتی دید مچش رو بدجور گرفتن، سریعا یه بیانیه داد و آپلود اتوماتیک دیتا رو قطع کرد. گفتن تمام دیتای قبلی رو پاک می‌کنیم و یه دستور /privacy هم اضافه کردن که کاربر بتونه کنترل کنه چه دیتایی بره به سرورا.<br><br>4- تیر آخر (اوپن‌سورس کردن اجباری): برای اینکه اعتماد از دست‌رفته رو برگردونن و بگن «ببینید ما هیچ کدی رو قایم نکردیم و چیزی نمی‌دزدیم»، مجبور شدن کُل پروژه‌ی ۸۰۰ هزار(<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F98AD.png')\"><b>😭</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F98AD.png')\"><b>😭</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F98AD.png')\"><b>😭</b></i>) خطی Grok-Build رو (که به زبان Rust نوشته شده) اوپن‌سورس کنن! الان سورس کدش به صورت کامل روی اکانت xai-org تو گیت‌هاب منتشر شده: <a href=\"https://github.com/xai-org/grok-build\" target=\"_blank\" rel=\"noopener\">https://github.com/xai-org/grok-build</a><br><br>خلاصه:<br>دلیل خنده‌ی ملت اینه که xAI از قصد نمی‌خواست این ابزار خفن رو اوپن‌سورس کنه، ولی چون دولوپرها مچشون رو سر «دزدی بی‌سروصدای کدها» گرفتن، واسه فرار از رسوایی و اعتمادسازی مجدد، مجبور شدن کل سورسش رو بریزن بیرون!<br><br><br>ولی خب، از هر زاویه‌ای نگاه کنیم، این رسوایی در نهایت به نفع ما دولوپرها تموم شد و الان یه ایجنت کدنویسی لوکال، قدرتمند و اوپن‌سورس داریم که می‌تونیم مستقیما رو سیستم خودمون (بدون فرستادن دیتا به سرورهای اونا) اجراش کنیم.<br>هرچند فعلا باید خودمون بیلد بگیریم با Rust<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "ماجرای اوپن سورس شدن xAI Grok-Build\n\nداستان یه مقدار خنده‌دار (و یه مقدار دارک) هستش. همونطور که می‌دونید Grok-Build همون ایجنت کدنویسی تحت ترمینال شرکت xAI (مال ایلان ماسک) هست که به‌تازگی توی گیت‌هاب اوپن‌سورس شده؛ اما پشت این اوپن‌سورس شدن یه رسوایی بزرگ خوابیده بود.\n\nداستان از این قراره:\n\n1- رسوایی سرقت کد (Spyware شدن ابزار): چند وقت پیش، یه سری از محقق‌های امنیتی و دولوپرها نشستن ریکوئست‌های شبکه‌ی Grok-Build رو مانیتور کردن. دیدن این ابزار وقتی روی سیستم کاربر اجرا می‌شه، فقط فایل‌هایی که بهش می‌گی رو نمی‌خونه؛ بلکه داره تو بک‌گراند کل هیستوری گیت، کل فایل‌های پروژه (حتی اونایی که بهش ربطی نداره)، کلیدهای SSH، پسوردها و Credentials رو زیپ می‌کنه و می‌فرسته روی سرورهای xAI!😂\n\n2- مچ‌گیری و آبروریزی توی توییتر: وقتی این قضیه لو رفت، توییتر منفجر شد. همه شروع کردن به گفتن اینکه xAI داره دیتای خصوصیِ دولوپرها رو واسه Train کردن مدل‌هاش می‌دزده و اسم ابزار رو گذاشتن «جاسوس‌افزار (Spyware)».\n\n3- ماله‌کشیِ سریع xAI: شرکت xAI وقتی دید مچش رو بدجور گرفتن، سریعا یه بیانیه داد و آپلود اتوماتیک دیتا رو قطع کرد. گفتن تمام دیتای قبلی رو پاک می‌کنیم و یه دستور /privacy هم اضافه کردن که کاربر بتونه کنترل کنه چه دیتایی بره به سرورا.\n\n4- تیر آخر (اوپن‌سورس کردن اجباری): برای اینکه اعتماد از دست‌رفته رو برگردونن و بگن «ببینید ما هیچ کدی رو قایم نکردیم و چیزی نمی‌دزدیم»، مجبور شدن کُل پروژه‌ی ۸۰۰ هزار(😭😭😭) خطی Grok-Build رو (که به زبان Rust نوشته شده) اوپن‌سورس کنن! الان سورس کدش به صورت کامل روی اکانت xai-org تو گیت‌هاب منتشر شده: https://github.com/xai-org/grok-build\n\nخلاصه:\nدلیل خنده‌ی ملت اینه که xAI از قصد نمی‌خواست این ابزار خفن رو اوپن‌سورس کنه، ولی چون دولوپرها مچشون رو سر «دزدی بی‌سروصدای کدها» گرفتن، واسه فرار از رسوایی و اعتمادسازی مجدد، مجبور شدن کل سورسش رو بریزن بیرون!\n\n\nولی خب، از هر زاویه‌ای نگاه کنیم، این رسوایی در نهایت به نفع ما دولوپرها تموم شد و الان یه ایجنت کدنویسی لوکال، قدرتمند و اوپن‌سورس داریم که می‌تونیم مستقیما رو سیستم خودمون (بدون فرستادن دیتا به سرورهای اونا) اجراش کنیم.\nهرچند فعلا باید خودمون بیلد بگیریم با Rust\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4514",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ZjgHlEm0K0ddiMvUeV_lchzOCOblhPtCYAWoVQt5B3nvLBApWvXBSkYuoLUAv6s65i-I25aG5TID4H5emKdqexVRHRVvqrw7xTMrxYmHeDfz1l_RfTF6X-f_548U16y124qDJ-kKcQX4NWsQ5FiIny4QUxxuIotghRl0DKexgDjun_7T8bpD-T50MTMfyLyq8Yj-twQTh9qRvqbX_BSeCnRr8c0SBozwIFdkP9vn7NC6RZxPQpOCUMiWSiiMbvqRIlA9WDBCIL19B7Cwolr1ojbQygEv1DaAMN24OX_ad9ZtIRwjG2CmM4TGI0U0VjkokLSV6ZIxywhyYrEKM1C3PQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/f3ee23833a3bfaa718ee1037.jpg",
+          "thumbnail_sha256": "626cf425a7623c08afdf1caaee139378a81647456ac8f8f206a0ded70bad3ea3",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "👍",
+          "count": "3"
+        }
+      ],
+      "views_label": "668",
+      "posted_at": "2026-07-16T04:37:25+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4514",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4513",
       "author_name": "Matin SenPai",
@@ -23,18 +60,18 @@
       "reactions": [
         {
           "emoji": "😭",
-          "count": "14"
+          "count": "17"
         },
         {
           "emoji": "👍",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "🎃",
           "count": "3"
         }
       ],
-      "views_label": "2.24K",
+      "views_label": "2.68K",
       "posted_at": "2026-07-16T04:18:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4513",
@@ -52,7 +89,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "25"
+          "count": "29"
         },
         {
           "emoji": "🎃",
@@ -67,7 +104,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.3K",
+      "views_label": "2.68K",
       "posted_at": "2026-07-16T04:17:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4512",
@@ -85,10 +122,10 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "9"
+          "count": "12"
         }
       ],
-      "views_label": "2.24K",
+      "views_label": "2.68K",
       "posted_at": "2026-07-16T04:17:43+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4511",
@@ -106,7 +143,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "23"
+          "count": "27"
         },
         {
           "emoji": "😭",
@@ -117,7 +154,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.31K",
+      "views_label": "2.72K",
       "posted_at": "2026-07-16T04:17:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4510",
@@ -135,7 +172,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "65"
+          "count": "69"
         },
         {
           "emoji": "👎",
@@ -150,7 +187,7 @@
           "count": "5"
         }
       ],
-      "views_label": "4.65K",
+      "views_label": "4.93K",
       "posted_at": "2026-07-16T03:46:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4509",
@@ -189,7 +226,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "26"
+          "count": "29"
         },
         {
           "emoji": "😭",
@@ -208,7 +245,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.68K",
+      "views_label": "4.94K",
       "posted_at": "2026-07-16T03:45:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4508",
@@ -226,7 +263,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "154"
+          "count": "156"
         },
         {
           "emoji": "👎",
@@ -237,7 +274,7 @@
           "count": "10"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "15.7K",
       "posted_at": "2026-07-15T21:29:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4507",
@@ -267,7 +304,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "154"
+          "count": "156"
         },
         {
           "emoji": "👍",
@@ -282,7 +319,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.4K",
+      "views_label": "16.5K",
       "posted_at": "2026-07-15T21:22:31+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4506",
@@ -312,7 +349,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "115"
+          "count": "117"
         },
         {
           "emoji": "👍",
@@ -335,7 +372,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.1K",
       "posted_at": "2026-07-15T20:01:30+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4505",
@@ -357,7 +394,7 @@
         },
         {
           "emoji": "👍",
-          "count": "40"
+          "count": "41"
         },
         {
           "emoji": "❤",
@@ -456,7 +493,7 @@
         },
         {
           "emoji": "❤",
-          "count": "181"
+          "count": "182"
         },
         {
           "emoji": "👎",
@@ -508,7 +545,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "25.8K",
       "posted_at": "2026-07-15T14:37:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4501",
@@ -568,7 +605,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "214"
+          "count": "215"
         },
         {
           "emoji": "👍",
@@ -609,7 +646,7 @@
         },
         {
           "emoji": "❤",
-          "count": "261"
+          "count": "262"
         },
         {
           "emoji": "👍",
@@ -650,7 +687,7 @@
         },
         {
           "emoji": "❤",
-          "count": "338"
+          "count": "339"
         },
         {
           "emoji": "😭",
@@ -711,7 +748,7 @@
         },
         {
           "emoji": "❤",
-          "count": "345"
+          "count": "346"
         },
         {
           "emoji": "👎",
@@ -738,7 +775,7 @@
           "count": "2"
         }
       ],
-      "views_label": "37.7K",
+      "views_label": "37.8K",
       "posted_at": "2026-07-15T07:55:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4496",
@@ -756,7 +793,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "134"
+          "count": "135"
         },
         {
           "emoji": "❤",
@@ -775,7 +812,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "24.8K",
       "posted_at": "2026-07-15T06:42:58+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4495",
@@ -4123,68 +4160,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4405",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4404",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DiHhnfwOMjwDfEI1nN_Pr_H9iaWpbhXx5CzXeGzRCZZs0Mf4IeW7GaZhGRMD5Gzh3yKDZNbSQ25e2Ee6a95ZdJVgeKnl1hpiWhY3WdbKELLIp1EdmhG9WJ1mjkX8N4VdHj1N89wMI2VyHVJkUYtqjGdSSTlMS-IqJSXEmNFzi9Wt99oGjKYyprBp_jM4hwa5OxjANUyjc5Umpyxx7u7Yg59W4NZi0TrH78FUkciZ2X8iWSLgcrssWlMxNRopA6QLg4gABNpyFK45tXm5FHHmxQ42d5LXwt548P9tuNeSXQ5JKJH3_GmWYXIXQOtwupR5KyhtggjLvKlqdrpATLuYkg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/ba015136a59af64eedbfa521.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<tg-emoji emoji-id=\"5812037770301938686\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8DB7.png')\"><b>🍷</b></i></tg-emoji>درود به همه رفقا...<br>داخل پنل bpb میتونید با doh ورکر خودتون که توسط پنل ساخته شده به کمک این اپ به سرویس های یوتوب(بدون تبلیغ) اینستاگرام و... دسترسی <a href=\"?q=%23%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86\">#رایگان</a> با همه نتا رو داشته باشید.<br><br>1-وارد پنل بشید قسمت که در عکس هست رو کپی کنید.<br><br>2-وارد اپ intra بشید <br><br>3-سه خط سمت چپ رو بزنید.<br><br>4-گزینه اول رو بزنید <br><br>5-در قسمت دوم لینکی که کپی کردید رو وارد کنید.<br><br><tg-emoji emoji-id=\"5312536423851630001\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i></tg-emoji>نکته:این روش روی همه نتا جواب هست فقط به این توجه کنید که یه سری سرویس هایی مثل تلگرام رو رفع فیلتر نمیکنه و این که ip واقعی نت خود شما رو نشون میده.<br><br><a href=\"https://play.google.com/store/apps/details?id=app.intra\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود اپ intra</a><br><a href=\"https://t.me/whitedns/1017\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش ساخت پنل با گوشی</a><br><a href=\"https://youtu.be/_aXy8wwyRG8\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش ساخت پنل(حرفه ای تر)</a><br><br><a href=\"https://t.me/xsfilterrnet\" target=\"_blank\">@xsfilterrnet</a> <tg-emoji emoji-id=\"5053169761232356354\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji>",
-      "plain_text": "🍷درود به همه رفقا...\nداخل پنل bpb میتونید با doh ورکر خودتون که توسط پنل ساخته شده به کمک این اپ به سرویس های یوتوب(بدون تبلیغ) اینستاگرام و... دسترسی #رایگان با همه نتا رو داشته باشید.\n\n1-وارد پنل بشید قسمت که در عکس هست رو کپی کنید.\n\n2-وارد اپ intra بشید\n\n3-سه خط سمت چپ رو بزنید.\n\n4-گزینه اول رو بزنید\n\n5-در قسمت دوم لینکی که کپی کردید رو وارد کنید.\n\n💡نکته:این روش روی همه نتا جواب هست فقط به این توجه کنید که یه سری سرویس هایی مثل تلگرام رو رفع فیلتر نمیکنه و این که ip واقعی نت خود شما رو نشون میده.\n\nدانلود اپ intra\nآموزش ساخت پنل با گوشی\nآموزش ساخت پنل(حرفه ای تر)\n\n@xsfilterrnet 👑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4404",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/PG_SaPaXHVyUZqpKo2OheE3SWU7x1c_f2LTy1qx4N4JYSv_PGok29jYSq973rVJBr9horJBnfm4tgwIkmR4E4WEDXMyJtZxTbPDfV9THCB3KkXKdZD76vUz25dx-9gsQYHeIXVpPDF8bdYhmshntv50K5O1ZAsP20_D8Vu3MzcqSur8xq9xUQfOrhFIJg_rsoT58AhC-oKAMwy9cjjRGEED36NkSXZWw2psd-ek_vTFxCFZWUsihYk8M-5hdo79HkHPy9QKi69E84gfoRvMVVoW8rEw-6aOrkiKJtcgMUiID5cs-JEojkYHlGP9zw4mtQubsdHLcpL9EMPifT6XNiA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/fce26d402eb8b870611b110a.jpg",
-          "thumbnail_sha256": "fa9722d785d79b8b41eddd40b3ade2e78fbce6c0cc3a6b6ae72650a457369e3c",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "127"
-        },
-        {
-          "emoji": "👍",
-          "count": "10"
-        },
-        {
-          "emoji": "🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "😁",
-          "count": "2"
-        },
-        {
-          "emoji": "💔",
-          "count": "1"
-        }
-      ],
-      "views_label": "19.6K",
-      "posted_at": "2026-07-12T17:47:22+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4404",
-      "reply": {
-        "channel_username": "ircfspace",
-        "post_id": "2478",
-        "author_name": "IRCF | اینترنت آزاد برای همه",
-        "preview_text": "اپ Intra با استفاده از فناوری DNS-over-HTTPS (DoH) درخواست‌های DNS رو رمزنگاری می‌کنه تا اپراتور اینترنت یا هر واسطه‌ای نتونه آدرس سایت‌هایی که باز می‌کنید رو دستکاری، مسدود یا به مسیر اشتباه هدایت کنه. این برنامه فیلترشکن نیست و آیپی شما رو تغییر نمیده،…",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/AwN8O2fbBS9IQmWgfUtbMgD6Wnhfjjb0_W_TqulF0WTh_kg2JmDZOQK4TgeS8zwEZYXmOdaemUdk83BJwqapLYgt0dgow67zliFEQ_xspH1IffUUI1eYodPzdqo2Bv_uTUn0ldyLrbdEvglg7qRVPjIim1K7dBMk9YEdEmjWQ8In0Zszse2PcEmqqdJQj0-1soMhdxeb5ZTIcXpPfsGPtvWbkxpxRpvFslRlE9Eo1E-GvEHOxrQNt-38wO6dathiKasEBads4mZDfQd8HFNDXgATkAmSKyxuqgAivgdFzNHIOJ1zMKrm8eVCwy_R4Ld8trx0mtTVxt71pB-25zBfCQ.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/93ccec90a88a2e8b2d6e1a7f.jpg",
-        "thumbnail_sha256": "26fcf99810e6a4fadae9af20a3bf4afe37bbc3af305edaa59559d82da647cbbb",
-        "permalink": "https://t.me/ircfspace/2478"
-      }
     }
   ]
 }
