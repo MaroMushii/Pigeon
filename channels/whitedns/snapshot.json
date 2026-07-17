@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-17T07:31:48.557Z",
+  "fetched_at": "2026-07-17T07:36:54.415Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,80 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1183",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Tc9q0Ve8my5wiFMeo02u7E7Xk-sQtx-Ajw6zZ4BQKxvM0qe-3w-9zOBHxWmxuGhiyCS5ZQRs0uPYHeJThCZBGsr7lIE5NhnVpQ2aSxS4jVDQHWFWLumE72LvllFaXgzGu8nyYINwfjRbkDDAWwY8PQK5Ay_NSJUOrztBLe4WQuAPg_r3e6J817Vtwrbelb5GE4cQ1N19wdfDXtSQqGsAsi4fB1e9j-tGGbQ5XNZtM_GXQ7qtHdBBq_jKqd3yX0UxZsIaDME6U8sP6E_eNFmIGfRf5bdTgRy78PsJI6fhKjxaMoI5N3_CQy6riCocy-bHMrUUJnSVhhP2sij6mpBCOg.jpg",
+      "author_photo_path": "channels/whitedns/media/89365c7c7bbe25b28c6085db.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "15"
+        },
+        {
+          "emoji": "👍",
+          "count": "3"
+        },
+        {
+          "emoji": "🍓",
+          "count": "1"
+        }
+      ],
+      "views_label": "757",
+      "posted_at": "2026-07-17T07:34:13+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1183",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1182",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Tc9q0Ve8my5wiFMeo02u7E7Xk-sQtx-Ajw6zZ4BQKxvM0qe-3w-9zOBHxWmxuGhiyCS5ZQRs0uPYHeJThCZBGsr7lIE5NhnVpQ2aSxS4jVDQHWFWLumE72LvllFaXgzGu8nyYINwfjRbkDDAWwY8PQK5Ay_NSJUOrztBLe4WQuAPg_r3e6J817Vtwrbelb5GE4cQ1N19wdfDXtSQqGsAsi4fB1e9j-tGGbQ5XNZtM_GXQ7qtHdBBq_jKqd3yX0UxZsIaDME6U8sP6E_eNFmIGfRf5bdTgRy78PsJI6fhKjxaMoI5N3_CQy6riCocy-bHMrUUJnSVhhP2sij6mpBCOg.jpg",
+      "author_photo_path": "channels/whitedns/media/89365c7c7bbe25b28c6085db.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> <b>نسخه 0.0.9 اپلیکیشن WhiteDNS VPN منتشر شد</b><br><br>در نسخه جدید، اپلیکیشن <b>WhiteDNS VPN به‌طور کامل فارسی‌سازی شده است</b> تا استفاده از بخش‌ها و تنظیمات مختلف آن برای کاربران ساده‌تر و قابل‌فهم‌تر باشد.<br><br>همچنین ظاهر اپلیکیشن به‌طور کامل به‌روزرسانی شده و قابلیت‌های جدیدی برای کنترل بهتر اتصال، DNS و کانفیگ‌های شخصی اضافه کرده‌ایم.<br><br>قابلیت‌های جدید:<br><br>• فارسی‌سازی کامل اپلیکیشن<br>• طراحی و ظاهر جدید اپلیکیشن<br>• امکان اضافه کردن DNS اختصاصی با پروتکل‌های <b>DoH</b> و <b>DoT</b><br>• امکان وارد کردن سابسکریپشن‌های شخصی با فرمت‌های <b>Mihomo، V2Ray و JSON</b><br>• امکان تعیین پورت دلخواه برای قابلیت <b>IP Fronting</b><br>• ارتقا و بهبود بخش <b>Connection</b> و فرایند اتصال<br>• اضافه شدن قابلیت <b>TLS Integrity Test</b><br><br>قابلیت <b>IP Fronting</b> به‌خصوص در دوران قطعی یا اختلالات شدید اینترنت می‌تواند بسیار کاربردی باشد. حتی در شرایط فعلی نیز کاربران می‌توانند با استفاده از IPهای تمیز Cloudflare، بعضی از کانکشن‌هایی را که به‌صورت عادی کار نمی‌کنند دوباره فعال کنند.<br><br>قابلیت <b>TLS Integrity Test</b> نیز برای کاربرانی اضافه شده که هنگام استفاده از بعضی کانفیگ‌ها، برای اتصال به سرویس‌هایی مانند <b>ChatGPT</b> با مشکل مواجه می‌شوند.<br><br>با فعال کردن این گزینه، اپلیکیشن پیش از اتصال، سلامت و یکپارچگی TLS را بررسی می‌کند. اگر TLS دست‌کاری یا جایگزین نشده باشد و تست با موفقیت انجام شود، اپلیکیشن به کانفیگ متصل خواهد شد.<br><br>در صورتی که یک کانفیگ این تست را با موفقیت پشت سر نگذارد، اپلیکیشن بررسی کانفیگ‌های دیگر را ادامه می‌دهد تا یک اتصال سالم و مناسب پیدا کند.<br><br>فعال کردن این قابلیت ممکن است زمان اتصال را کمی افزایش دهد، اما می‌تواند مشکل باز نشدن ChatGPT و سرویس‌های مشابه را برطرف کند.<br><br>پیشنهاد می‌کنیم همه کاربران از همین حالا اپلیکیشن را دانلود کرده و آن را به آخرین نسخه به‌روزرسانی کنند. این نسخه یکی از راهکارهایی است که برای شرایط قطعی و اختلالات شدید اینترنت روی آن کار کرده‌ایم و ممکن است در چنین شرایطی بتوانیم استفاده بسیار بیشتری از قابلیت‌های آن داشته باشیم.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> <b>WhiteDNS VPN v0.0.9</b>",
+      "plain_text": "🛡 نسخه 0.0.9 اپلیکیشن WhiteDNS VPN منتشر شد\n\nدر نسخه جدید، اپلیکیشن WhiteDNS VPN به‌طور کامل فارسی‌سازی شده است تا استفاده از بخش‌ها و تنظیمات مختلف آن برای کاربران ساده‌تر و قابل‌فهم‌تر باشد.\n\nهمچنین ظاهر اپلیکیشن به‌طور کامل به‌روزرسانی شده و قابلیت‌های جدیدی برای کنترل بهتر اتصال، DNS و کانفیگ‌های شخصی اضافه کرده‌ایم.\n\nقابلیت‌های جدید:\n\n• فارسی‌سازی کامل اپلیکیشن\n• طراحی و ظاهر جدید اپلیکیشن\n• امکان اضافه کردن DNS اختصاصی با پروتکل‌های DoH و DoT\n• امکان وارد کردن سابسکریپشن‌های شخصی با فرمت‌های Mihomo، V2Ray و JSON\n• امکان تعیین پورت دلخواه برای قابلیت IP Fronting\n• ارتقا و بهبود بخش Connection و فرایند اتصال\n• اضافه شدن قابلیت TLS Integrity Test\n\nقابلیت IP Fronting به‌خصوص در دوران قطعی یا اختلالات شدید اینترنت می‌تواند بسیار کاربردی باشد. حتی در شرایط فعلی نیز کاربران می‌توانند با استفاده از IPهای تمیز Cloudflare، بعضی از کانکشن‌هایی را که به‌صورت عادی کار نمی‌کنند دوباره فعال کنند.\n\nقابلیت TLS Integrity Test نیز برای کاربرانی اضافه شده که هنگام استفاده از بعضی کانفیگ‌ها، برای اتصال به سرویس‌هایی مانند ChatGPT با مشکل مواجه می‌شوند.\n\nبا فعال کردن این گزینه، اپلیکیشن پیش از اتصال، سلامت و یکپارچگی TLS را بررسی می‌کند. اگر TLS دست‌کاری یا جایگزین نشده باشد و تست با موفقیت انجام شود، اپلیکیشن به کانفیگ متصل خواهد شد.\n\nدر صورتی که یک کانفیگ این تست را با موفقیت پشت سر نگذارد، اپلیکیشن بررسی کانفیگ‌های دیگر را ادامه می‌دهد تا یک اتصال سالم و مناسب پیدا کند.\n\nفعال کردن این قابلیت ممکن است زمان اتصال را کمی افزایش دهد، اما می‌تواند مشکل باز نشدن ChatGPT و سرویس‌های مشابه را برطرف کند.\n\nپیشنهاد می‌کنیم همه کاربران از همین حالا اپلیکیشن را دانلود کرده و آن را به آخرین نسخه به‌روزرسانی کنند. این نسخه یکی از راهکارهایی است که برای شرایط قطعی و اختلالات شدید اینترنت روی آن کار کرده‌ایم و ممکن است در چنین شرایطی بتوانیم استفاده بسیار بیشتری از قابلیت‌های آن داشته باشیم.\n\n📱 WhiteDNS VPN v0.0.9",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1182",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/MGXnycNNSG2uXXN1r7YLxXkTORXK9JDsNOUFiWTae0TkBTVdMmj_L9bzuJGKWxptSRXay00xYuZBZtstxTCJSs0z5AFZC_808x1_2S-zbEqfw2Dn8V6O4o5ooTJVqttnH435Q8F8LiTYv8b_HTcRDw6zg2Axl_918V6YGMZtDFJGMmoqZMLCveowTRFND9d-R-jYTv_A8pR2ETS1lpzy_AdPnJdFp1f7eQSVHhf9ZZpBcsmS1VUWNAenR8GA3brpmU3voua6Sz4dhhcfXm3A8aLIg55xD-KpPBX7cZ9sRjd_QiFblztfZ9X3zFZuiTn-iH-PQLO4nlXgC1lHChwsOA.jpg",
+          "thumbnail_path": "channels/whitedns/media/dc0616774d015cd477864674.jpg",
+          "thumbnail_sha256": "f49b5200a0db2d7f7239c672a7c9767fa3a8e1439875b0f1f684827012988d64",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "🍓",
+          "count": "18"
+        },
+        {
+          "emoji": "❤",
+          "count": "11"
+        },
+        {
+          "emoji": "👏",
+          "count": "5"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "976",
+      "posted_at": "2026-07-17T07:32:10+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1182",
+      "reply": null
+    },
     {
       "id": "whitedns/1181",
       "author_name": "White DNS",
@@ -51,7 +125,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "97"
+          "count": "99"
         },
         {
           "emoji": "🔥",
@@ -66,7 +140,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.88K",
+      "views_label": "5.29K",
       "posted_at": "2026-07-17T05:29:39+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1180",
@@ -84,7 +158,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "354"
+          "count": "359"
         },
         {
           "emoji": "👏",
@@ -111,7 +185,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.91K",
+      "views_label": "9.2K",
       "posted_at": "2026-07-17T01:28:00+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1179",
@@ -156,7 +230,7 @@
           "count": "3"
         }
       ],
-      "views_label": "13.8K",
+      "views_label": "13.9K",
       "posted_at": "2026-07-16T13:32:28+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1177",
@@ -205,7 +279,7 @@
           "count": "2"
         }
       ],
-      "views_label": "14K",
+      "views_label": "14.1K",
       "posted_at": "2026-07-16T11:27:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1176",
@@ -238,7 +312,7 @@
           "count": "2"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "12.7K",
       "posted_at": "2026-07-16T09:06:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1175",
@@ -279,7 +353,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.4K",
+      "views_label": "12.5K",
       "posted_at": "2026-07-16T09:05:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1174",
@@ -329,7 +403,7 @@
         },
         {
           "emoji": "❤",
-          "count": "128"
+          "count": "129"
         },
         {
           "emoji": "❤‍🔥",
@@ -401,7 +475,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14K",
+      "views_label": "14.1K",
       "posted_at": "2026-07-16T05:30:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1171",
@@ -431,7 +505,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "168"
+          "count": "169"
         },
         {
           "emoji": "👍",
@@ -446,7 +520,7 @@
           "count": "3"
         }
       ],
-      "views_label": "9.1K",
+      "views_label": "9.13K",
       "posted_at": "2026-07-15T10:24:31+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1170",
@@ -487,7 +561,7 @@
           "count": "5"
         }
       ],
-      "views_label": "15.7K",
+      "views_label": "15.8K",
       "posted_at": "2026-07-15T06:05:59+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1169",
@@ -581,7 +655,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.7K",
+      "views_label": "13.8K",
       "posted_at": "2026-07-15T05:32:52+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1167",
@@ -4347,76 +4421,6 @@
       "posted_at": "2026-06-25T10:23:05+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1049",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1046",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/RNAHD5NNWRDEHIQ5RNaZ4K7ErbQGxTkdX948_-S_kPXbH2ip005zOM6WnURl_ph2X26OQXYCxM_sxV-E45sLuwwBMQgHobC6MadaWHhm8pZWtv8xtulI6tX2gcSeLntocx8QTvPfDvV7epcFtjvhS0WKATR9I02Gpjp-stRqBwDV7lqlnn1HE-pqh1OWnqGl-5fJos5Pn0zOJ3Nmmd432A-E7EUJzv39x6JrpnBG7eJbtCE24Wx0uCEunMFOKzvTxHxEScy4WXLqprI2_29dGqPV41jcirMIFHgAIk4gLHTbdu5JCbhLVlalMFcy-2IKjW23yAQEN1JZhSMf8ODz4g.jpg",
-      "author_photo_path": "channels/whitedns/media/5fa959fb602a0037805e5deb.jpg",
-      "author_photo_sha256": "1b6d2e079555862debb9ad17403f0116f9dbfa5162360e6f6082ed5f67864409",
-      "body_html": "رنج آی‌پی های آروان برای اسکن <br><br><br><pre><br>95.38.176.0/20<br>37.152.176.0/21<br>37.32.4.0/22<br>37.32.8.0/22<br>37.32.12.0/22<br>37.32.20.0/22<br>37.32.24.0/22<br>37.32.28.0/22<br>37.152.188.0/22<br>94.101.176.0/22<br>94.101.184.0/22<br>95.38.112.0/22<br>95.38.116.0/22<br>185.97.116.0/22<br>185.206.92.0/22<br>185.226.116.0/22<br>185.231.180.0/22<br>188.121.96.0/22<br>188.121.100.0/22<br>188.121.104.0/22<br>188.121.108.0/22<br>188.121.112.0/22<br>188.121.116.0/22<br>188.121.120.0/22<br>188.213.196.0/22<br>37.152.186.0/23<br>45.82.136.0/23<br>45.82.138.0/23<br>94.101.180.0/23<br>95.38.160.0/23<br>95.38.162.0/23<br>95.38.164.0/23<br>95.38.166.0/23<br>95.38.176.0/23<br>95.38.178.0/23<br>95.38.180.0/23<br>95.38.186.0/23<br>95.38.188.0/23<br>95.38.190.0/23<br>95.38.232.0/23<br>95.38.234.0/23<br>185.239.106.0/23<br>188.121.124.0/23<br>193.176.242.0/23<br>5.253.27.0/24<br>37.32.1.0/24<br>37.32.2.0/24<br>37.32.16.0/24<br>37.32.17.0/24<br>37.32.18.0/24<br>37.32.19.0/24<br>37.152.184.0/24<br>37.152.185.0/24<br>94.101.182.0/24<br>94.101.183.0/24<br>94.101.188.0/24<br>94.101.189.0/24<br>94.101.190.0/24<br>94.101.191.0/24<br>95.38.236.0/24<br>128.0.105.0/24<br>185.74.165.0/24<br>185.220.224.0/24<br>185.220.225.0/24<br>185.220.227.0/24<br>185.228.236.0/24<br>185.228.237.0/24<br>185.228.238.0/24<br>185.239.104.0/24<br>185.239.105.0/24<br>188.121.126.0/24<br>188.121.127.0/24</pre>",
-      "plain_text": "رنج آی‌پی های آروان برای اسکن\n\n\n95.38.176.0/20\n37.152.176.0/21\n37.32.4.0/22\n37.32.8.0/22\n37.32.12.0/22\n37.32.20.0/22\n37.32.24.0/22\n37.32.28.0/22\n37.152.188.0/22\n94.101.176.0/22\n94.101.184.0/22\n95.38.112.0/22\n95.38.116.0/22\n185.97.116.0/22\n185.206.92.0/22\n185.226.116.0/22\n185.231.180.0/22\n188.121.96.0/22\n188.121.100.0/22\n188.121.104.0/22\n188.121.108.0/22\n188.121.112.0/22\n188.121.116.0/22\n188.121.120.0/22\n188.213.196.0/22\n37.152.186.0/23\n45.82.136.0/23\n45.82.138.0/23\n94.101.180.0/23\n95.38.160.0/23\n95.38.162.0/23\n95.38.164.0/23\n95.38.166.0/23\n95.38.176.0/23\n95.38.178.0/23\n95.38.180.0/23\n95.38.186.0/23\n95.38.188.0/23\n95.38.190.0/23\n95.38.232.0/23\n95.38.234.0/23\n185.239.106.0/23\n188.121.124.0/23\n193.176.242.0/23\n5.253.27.0/24\n37.32.1.0/24\n37.32.2.0/24\n37.32.16.0/24\n37.32.17.0/24\n37.32.18.0/24\n37.32.19.0/24\n37.152.184.0/24\n37.152.185.0/24\n94.101.182.0/24\n94.101.183.0/24\n94.101.188.0/24\n94.101.189.0/24\n94.101.190.0/24\n94.101.191.0/24\n95.38.236.0/24\n128.0.105.0/24\n185.74.165.0/24\n185.220.224.0/24\n185.220.225.0/24\n185.220.227.0/24\n185.228.236.0/24\n185.228.237.0/24\n185.228.238.0/24\n185.239.104.0/24\n185.239.105.0/24\n188.121.126.0/24\n188.121.127.0/24",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "9"
-        }
-      ],
-      "views_label": "334",
-      "posted_at": "2026-06-25T05:03:46+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1046",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1043",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/WK0C0EFQ8fZcalcnWChku5M_F03Vk4MXuOL4llB8S8WagCXbUA2i8s6ZP5i-KV4WmYMnMe-NfzFhgMK7fV5C-FOzxc2pHPrMqLKVSRQTSgtADV_l9n_nFBUUOU6KLfyn6n_f-hpUZ626QPicAhJDIa1b6fjfQLyHmMOPyHFihtFMGJ5q6x0sJT8DdeqWIeZeiJ8NIHu-uheMqg6JuUrNMpyw2E_O0fetkkIx-BatFqgvFQsgSpW47h6ZJ10yGJEagj8s6KcBVjOqOp0i_uip7SOVT5dTQaQEmRJqcWjiyORxLmcDtC1tQeqdeikuOUEaG1f4GbxUCZZRtxEKl83-pA.jpg",
-      "author_photo_path": "channels/whitedns/media/d523b47309fecfce82715728.jpg",
-      "author_photo_sha256": "1b6d2e079555862debb9ad17403f0116f9dbfa5162360e6f6082ed5f67864409",
-      "body_html": "بیلد کامل اندروید SenPai Scanner، با تشکر از <a href=\"https://github.com/Hidden-Node\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Hidden-Node</a> عزیز",
-      "plain_text": "بیلد کامل اندروید SenPai Scanner، با تشکر از Hidden-Node عزیز",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "229"
-        },
-        {
-          "emoji": "👍",
-          "count": "29"
-        },
-        {
-          "emoji": "🤡",
-          "count": "5"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "🍓",
-          "count": "1"
-        }
-      ],
-      "views_label": "20.4K",
-      "posted_at": "2026-06-24T22:44:33+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1043",
       "reply": null
     }
   ]
