@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-17T19:06:49.402Z",
+  "fetched_at": "2026-07-17T19:11:57.495Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,60 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4551",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/PVk6wwkNVVhOfT3orK-AiZfew3ZEszWcAugJyFR3KLwCL3E2xOZQuqv1uP8uodetQuRYezL_KEE66O8l5DtSeGqREuHDdxgeQb8Lth-5MQU-rbZoSAU1bkXG2N-ennafvxONUMorEqQWvAU14aJlUd3qtvywHFVuoogxKgezLN1xK1IFbMIW28p2vw9YNtZkbZCx7-uNSnCOmAHUhV6X6hj5N2mIlQ0RdiLwbvdOR439RoPOtB_5fNeZ2cpom8BcF-t2BNShse-en6dnuFZNTgd3_4Lt4jgKTZRJzHb-KVfVQj1bRrh48YgrrrfJg1ByFwczPhaiEoyXvgapdwzQMA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a375e3143ff65c3629243987.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "به زودی به GUI هم اضافه‌ش میکنم",
+      "plain_text": "به زودی به GUI هم اضافه‌ش میکنم",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "24"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        },
+        {
+          "emoji": "💔",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.31K",
+      "posted_at": "2026-07-17T19:07:06+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4551",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/4550",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/PVk6wwkNVVhOfT3orK-AiZfew3ZEszWcAugJyFR3KLwCL3E2xOZQuqv1uP8uodetQuRYezL_KEE66O8l5DtSeGqREuHDdxgeQb8Lth-5MQU-rbZoSAU1bkXG2N-ennafvxONUMorEqQWvAU14aJlUd3qtvywHFVuoogxKgezLN1xK1IFbMIW28p2vw9YNtZkbZCx7-uNSnCOmAHUhV6X6hj5N2mIlQ0RdiLwbvdOR439RoPOtB_5fNeZ2cpom8BcF-t2BNShse-en6dnuFZNTgd3_4Lt4jgKTZRJzHb-KVfVQj1bRrh48YgrrrfJg1ByFwczPhaiEoyXvgapdwzQMA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a375e3143ff65c3629243987.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "آپدیت جدید Aether منتشر شد.<br><b>v1.2.0</b><br><br>چند تا مشکلی که گزارش کرده بودید توی این نسخه برطرف شده:<br><br>- مشکل اینکه بعضی وقتا تونل ظاهرا وصل میشد ولی هیچ سایتی باز نمیشد فیکس شد.<br>یعنی SOCKS5 فقط وقتی باز میشه که مطمئن باشه<br> تونل واقعا کار میکنه... :))<br><br>مشکل دیر reconnect شدن روی MASQUE HTTP/2 هم برطرف شد.<br>الان براش HTTP/2 PING اضافه کردم و خیلی سریع ‌تر تشخیص میده.<br><br>اسکنر MASQUE هم بهتر شده<br>چند تا رنج IP رسمی Cloudflare که برای MASQUE استفاده میشن به اسکنر اضافه کردم، همراه با پورت‌ های بیشتر<br>در نتیجه شانس پیدا کردن Gateway سالم بیشتر شده.<br><br>موقع اجرای MASQUE هم دیگه راحت میتونید بین <b>HTTP/3</b> و <b>HTTP/2</b> انتخاب کنید.<br>کنار هر گزینه هم یه توضیح کوتاه گذاشتم که بدونید کدوم برای چه شرایطی بهتره.<br>به طور خلاصه:<br><b>HTTP/3<br> برای شبکه‌های عادی و سالم<br><br>HTTP/2 <br>برای وقتی که UDP یا QUIC محدود شده</b><br>لینک پروژه هسته:<br><a href=\"https://github.com/CluvexStudio/Aether\" target=\"_blank\" rel=\"noopener\">https://github.com/CluvexStudio/Aether</a><br>اگه خوشتون اومد از این پروژه، میتونید Star بدید بهم :))<br>Readme<br> هم بخونید حتما!",
+      "plain_text": "آپدیت جدید Aether منتشر شد.\nv1.2.0\n\nچند تا مشکلی که گزارش کرده بودید توی این نسخه برطرف شده:\n\n- مشکل اینکه بعضی وقتا تونل ظاهرا وصل میشد ولی هیچ سایتی باز نمیشد فیکس شد.\nیعنی SOCKS5 فقط وقتی باز میشه که مطمئن باشه\nتونل واقعا کار میکنه... :))\n\nمشکل دیر reconnect شدن روی MASQUE HTTP/2 هم برطرف شد.\nالان براش HTTP/2 PING اضافه کردم و خیلی سریع ‌تر تشخیص میده.\n\nاسکنر MASQUE هم بهتر شده\nچند تا رنج IP رسمی Cloudflare که برای MASQUE استفاده میشن به اسکنر اضافه کردم، همراه با پورت‌ های بیشتر\nدر نتیجه شانس پیدا کردن Gateway سالم بیشتر شده.\n\nموقع اجرای MASQUE هم دیگه راحت میتونید بین HTTP/3 و HTTP/2 انتخاب کنید.\nکنار هر گزینه هم یه توضیح کوتاه گذاشتم که بدونید کدوم برای چه شرایطی بهتره.\nبه طور خلاصه:\nHTTP/3\nبرای شبکه‌های عادی و سالم\n\nHTTP/2\nبرای وقتی که UDP یا QUIC محدود شده\nلینک پروژه هسته:\nhttps://github.com/CluvexStudio/Aether\nاگه خوشتون اومد از این پروژه، میتونید Star بدید بهم :))\nReadme\nهم بخونید حتما!",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "28"
+        },
+        {
+          "emoji": "👎",
+          "count": "2"
+        }
+      ],
+      "views_label": "2.15K",
+      "posted_at": "2026-07-17T19:07:00+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4550",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4549",
       "author_name": "Matin SenPai",
@@ -23,11 +77,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "72"
+          "count": "73"
         },
         {
           "emoji": "❤",
-          "count": "23"
+          "count": "24"
         },
         {
           "emoji": "👎",
@@ -42,7 +96,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.12K",
+      "views_label": "8.68K",
       "posted_at": "2026-07-17T18:02:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4549",
@@ -60,7 +114,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "100"
+          "count": "102"
         },
         {
           "emoji": "😁",
@@ -83,7 +137,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.1K",
+      "views_label": "13.6K",
       "posted_at": "2026-07-17T17:44:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4548",
@@ -122,15 +176,15 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "188"
+          "count": "191"
         },
         {
           "emoji": "👎",
-          "count": "37"
+          "count": "39"
         },
         {
           "emoji": "👍",
-          "count": "35"
+          "count": "36"
         },
         {
           "emoji": "😁",
@@ -145,7 +199,7 @@
           "count": "3"
         }
       ],
-      "views_label": "15.3K",
+      "views_label": "15.7K",
       "posted_at": "2026-07-17T17:24:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4547",
@@ -175,7 +229,7 @@
       "reactions": [
         {
           "emoji": "👎",
-          "count": "196"
+          "count": "199"
         },
         {
           "emoji": "😁",
@@ -190,7 +244,7 @@
           "count": "4"
         }
       ],
-      "views_label": "14.8K",
+      "views_label": "15.1K",
       "posted_at": "2026-07-17T17:24:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4546",
@@ -220,7 +274,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "72"
+          "count": "74"
         },
         {
           "emoji": "👍",
@@ -235,7 +289,7 @@
           "count": "8"
         }
       ],
-      "views_label": "14.5K",
+      "views_label": "14.8K",
       "posted_at": "2026-07-17T17:24:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4545",
@@ -265,7 +319,7 @@
       "reactions": [
         {
           "emoji": "👎",
-          "count": "156"
+          "count": "158"
         },
         {
           "emoji": "😁",
@@ -280,7 +334,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14.3K",
       "posted_at": "2026-07-17T17:24:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4544",
@@ -302,7 +356,7 @@
         },
         {
           "emoji": "❤",
-          "count": "91"
+          "count": "93"
         },
         {
           "emoji": "👍",
@@ -321,7 +375,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.5K",
+      "views_label": "15.7K",
       "posted_at": "2026-07-17T17:09:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4543",
@@ -362,7 +416,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.6K",
+      "views_label": "24.7K",
       "posted_at": "2026-07-17T05:59:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4542",
@@ -395,12 +449,12 @@
           "count": "6"
         },
         {
-          "emoji": "👍",
+          "emoji": "❤",
           "count": "5"
         },
         {
-          "emoji": "❤",
-          "count": "4"
+          "emoji": "👍",
+          "count": "5"
         },
         {
           "emoji": "👎",
@@ -411,7 +465,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.9K",
+      "views_label": "24K",
       "posted_at": "2026-07-17T05:57:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4541",
@@ -448,7 +502,7 @@
           "count": "4"
         }
       ],
-      "views_label": "28.2K",
+      "views_label": "28.3K",
       "posted_at": "2026-07-16T21:55:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4540",
@@ -519,7 +573,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25K",
+      "views_label": "25.1K",
       "posted_at": "2026-07-16T21:55:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4537",
@@ -548,7 +602,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.3K",
       "posted_at": "2026-07-16T21:55:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4538",
@@ -582,7 +636,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.5K",
+      "views_label": "23.6K",
       "posted_at": "2026-07-16T21:55:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4532",
@@ -4061,84 +4115,6 @@
       "posted_at": "2026-07-13T19:10:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4436",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4435",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DiHhnfwOMjwDfEI1nN_Pr_H9iaWpbhXx5CzXeGzRCZZs0Mf4IeW7GaZhGRMD5Gzh3yKDZNbSQ25e2Ee6a95ZdJVgeKnl1hpiWhY3WdbKELLIp1EdmhG9WJ1mjkX8N4VdHj1N89wMI2VyHVJkUYtqjGdSSTlMS-IqJSXEmNFzi9Wt99oGjKYyprBp_jM4hwa5OxjANUyjc5Umpyxx7u7Yg59W4NZi0TrH78FUkciZ2X8iWSLgcrssWlMxNRopA6QLg4gABNpyFK45tXm5FHHmxQ42d5LXwt548P9tuNeSXQ5JKJH3_GmWYXIXQOtwupR5KyhtggjLvKlqdrpATLuYkg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/ba015136a59af64eedbfa521.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "4- بخش مرورگر اختصاصی:<br><br>یه مرورگر  Built-in داره که اجازه می‌ده شما و دستیار هوش مصنوعی روی تسک‌های وب با هم کار کنید. چون این مرورگر از مرورگر اصلیِ خودتون ایزوله‌ست، می‌تونید فقط تو اکانت‌هایی لاگین کنید که دوست دارید هوش مصنوعی بهشون دسترسی داشته باشه.",
-      "plain_text": "4- بخش مرورگر اختصاصی:\n\nیه مرورگر Built-in داره که اجازه می‌ده شما و دستیار هوش مصنوعی روی تسک‌های وب با هم کار کنید. چون این مرورگر از مرورگر اصلیِ خودتون ایزوله‌ست، می‌تونید فقط تو اکانت‌هایی لاگین کنید که دوست دارید هوش مصنوعی بهشون دسترسی داشته باشه.",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4435",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/KlTnY8WAYqngLYPrP2FqKe_IcqRV-NwoCOzpaufbIrhK7aphLT14jXLol7F8tQb4SFMaUzMzEyaTZxt7q7LtdK88H0Pw8sZqoH0-o1o827vC1dStCd7kNkrsiAzSg1haV49DRj-7wYWD94PO3vcUMhKL9BrTph4RHl5zeS01AM9dqBIluCwLUGIZzpz8h1cxyabch3embg-K4IHituJgkwKkIGcqWhCxjBQKzPdE7AWmeSmhHh7eXIcV2hkBgGhK0DbowxepYOqf89jHRlotXxBszhidjq3cBV9gVMzH-yHEH8cOr8c90gP1ODqIXbpBwD-jOGTvAMdgL-y2k96LEw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/db3ef53809913df6f3cf98e8.jpg",
-          "thumbnail_sha256": "d5341b1e8a58f022458f361ea035382bc1aa12422b3bbd4d1024988406f2cd46",
-          "duration_label": null,
-          "aspect_ratio": 1.596806387225549
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "28"
-        },
-        {
-          "emoji": "🎃",
-          "count": "2"
-        }
-      ],
-      "views_label": "5.5K",
-      "posted_at": "2026-07-13T19:09:16+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4435",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4434",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DiHhnfwOMjwDfEI1nN_Pr_H9iaWpbhXx5CzXeGzRCZZs0Mf4IeW7GaZhGRMD5Gzh3yKDZNbSQ25e2Ee6a95ZdJVgeKnl1hpiWhY3WdbKELLIp1EdmhG9WJ1mjkX8N4VdHj1N89wMI2VyHVJkUYtqjGdSSTlMS-IqJSXEmNFzi9Wt99oGjKYyprBp_jM4hwa5OxjANUyjc5Umpyxx7u7Yg59W4NZi0TrH78FUkciZ2X8iWSLgcrssWlMxNRopA6QLg4gABNpyFK45tXm5FHHmxQ42d5LXwt548P9tuNeSXQ5JKJH3_GmWYXIXQOtwupR5KyhtggjLvKlqdrpATLuYkg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/ba015136a59af64eedbfa521.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "3- بخش Background agents:<br><br>می‌تونید ایجنت‌هایی بسازید که بر اساس یه اتفاق (مثلاً دریافت ایمیل جدید) یا بر اساس زمان‌بندی (مثلاً هر روز ساعت ۸ صبح) اجرا بشن. این ایجنت‌ها می‌تونن به ابزارها وصل بشن، تو وب سرچ کنن، از مرورگر استفاده کنن و حتی با Claude Code یا Codex براتون کد بنویسن.",
-      "plain_text": "3- بخش Background agents:\n\nمی‌تونید ایجنت‌هایی بسازید که بر اساس یه اتفاق (مثلاً دریافت ایمیل جدید) یا بر اساس زمان‌بندی (مثلاً هر روز ساعت ۸ صبح) اجرا بشن. این ایجنت‌ها می‌تونن به ابزارها وصل بشن، تو وب سرچ کنن، از مرورگر استفاده کنن و حتی با Claude Code یا Codex براتون کد بنویسن.",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4434",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/VBgnNmVRRefEEREspYk7vbQSGm8OmMr-j-df7_u5UdctaG4L3jnPDCUKMc3aWLTXltJaoW0IxZr3m42dDdBTTdrs5cbAe_WkJEXOxujm4jl-63KPFXKPmenNOfuGDTBwQ_FHTwUvLnwSjTBB-I4l4HTgEffFC69ygO9Wtf0Ait6cTyy4jQr99SSTT7q2zuuCa8Pjea8Jn1MJRmhkLX_q_jA3PN4Q3YenZjVDWudtb_Gf4cSV53I3TT-4kF8UXf9sPVrehVj_Sa1Z7mlqLR6_OB_fNrT5C9aoA6yVoORrnhuNAxHi-S7aFJxppKr2Hy0g2HefX8AbJg5fI2UFRYxAoA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/0a192be4f007d7eaac7e2488.jpg",
-          "thumbnail_sha256": "d763decb7908b743d2a6bcc23a51c70980c12838610e6a86801adfb455430290",
-          "duration_label": null,
-          "aspect_ratio": 1.5904572564612327
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "35"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        }
-      ],
-      "views_label": "5.48K",
-      "posted_at": "2026-07-13T19:08:27+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4434",
       "reply": null
     }
   ]
