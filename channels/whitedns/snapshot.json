@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-17T01:26:54.089Z",
+  "fetched_at": "2026-07-17T01:31:52.575Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,31 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1179",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Tc9q0Ve8my5wiFMeo02u7E7Xk-sQtx-Ajw6zZ4BQKxvM0qe-3w-9zOBHxWmxuGhiyCS5ZQRs0uPYHeJThCZBGsr7lIE5NhnVpQ2aSxS4jVDQHWFWLumE72LvllFaXgzGu8nyYINwfjRbkDDAWwY8PQK5Ay_NSJUOrztBLe4WQuAPg_r3e6J817Vtwrbelb5GE4cQ1N19wdfDXtSQqGsAsi4fB1e9j-tGGbQ5XNZtM_GXQ7qtHdBBq_jKqd3yX0UxZsIaDME6U8sP6E_eNFmIGfRf5bdTgRy78PsJI6fhKjxaMoI5N3_CQy6riCocy-bHMrUUJnSVhhP2sij6mpBCOg.jpg",
+      "author_photo_path": "channels/whitedns/media/89365c7c7bbe25b28c6085db.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> در مدتی که اینترنت وصل بود، تیم ما تلاش کرد ابزارها و روش‌های جدیدی آماده کند تا در صورت بروز قطعی شدید، بتوانیم بهتر از شما پشتیبانی کنیم.<br><br>متأسفانه بسیاری از این ابزارها را تا امروز منتشر نکرده‌ایم که برای این تصمیم دلایل منطقی و امنیتی وجود دارد.<br><br>در صورت شروع محدودیت یا قطعی گسترده، تلاش می‌کنیم این روش‌ها را به‌تدریج معرفی و در اختیار شما قرار دهیم.<br><br>برای شروع، تعدادی سرور MasterDNS نیز منتشر خواهیم کرد. با این حال، پیشنهاد می‌کنیم در صورت امکان، یک سرور تهیه کنید و با استفاده از ربات زیر آن را به‌سادگی کانفیگ کنید:<br><br><a href=\"https://t.me/WhiteDNS_installer_bot\" target=\"_blank\">@WhiteDNS_installer_bot</a><br><br><br> <tg-emoji emoji-id=\"5267102644886853973\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i></tg-emoji> تیم <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "✍️ در مدتی که اینترنت وصل بود، تیم ما تلاش کرد ابزارها و روش‌های جدیدی آماده کند تا در صورت بروز قطعی شدید، بتوانیم بهتر از شما پشتیبانی کنیم.\n\nمتأسفانه بسیاری از این ابزارها را تا امروز منتشر نکرده‌ایم که برای این تصمیم دلایل منطقی و امنیتی وجود دارد.\n\nدر صورت شروع محدودیت یا قطعی گسترده، تلاش می‌کنیم این روش‌ها را به‌تدریج معرفی و در اختیار شما قرار دهیم.\n\nبرای شروع، تعدادی سرور MasterDNS نیز منتشر خواهیم کرد. با این حال، پیشنهاد می‌کنیم در صورت امکان، یک سرور تهیه کنید و با استفاده از ربات زیر آن را به‌سادگی کانفیگ کنید:\n\n@WhiteDNS_installer_bot\n\n\n❤️ تیم @WhiteDNS",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "12"
+        },
+        {
+          "emoji": "👏",
+          "count": "1"
+        }
+      ],
+      "views_label": "352",
+      "posted_at": "2026-07-17T01:28:00+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1179",
+      "reply": null
+    },
     {
       "id": "whitedns/1177",
       "author_name": "White DNS",
@@ -50,7 +75,7 @@
           "count": "3"
         }
       ],
-      "views_label": "9.61K",
+      "views_label": "9.83K",
       "posted_at": "2026-07-16T13:32:28+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1177",
@@ -99,7 +124,7 @@
           "count": "2"
         }
       ],
-      "views_label": "11K",
+      "views_label": "11.1K",
       "posted_at": "2026-07-16T11:27:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1176",
@@ -295,7 +320,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.9K",
+      "views_label": "13K",
       "posted_at": "2026-07-16T05:30:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1171",
@@ -4409,47 +4434,6 @@
       "posted_at": "2026-06-24T14:56:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1041",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1040",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/qrzQBs55jLfBZUEImYhepV_8rhAJWIptF7ML9ldJ621PoD0fuqV6UqadZVt2VGefbYpje5GkTGQoMm0b30Gry8vtcgf79Rt1pmXIdySMCaxXIKG2LduRFv76btPuQaS7OqC6vDQ7oh51MxYfPf9FWfqSh9xQJgwno6eQQHCSGeaJGk26MbMehnZsqtiK7nB50aWnTDtZcNPTX70RojWh_7mkCGtN3L78vNzLWAZGTV2vua6DljPUSyKjYGCLSfxgBIeRHUHlIbR08uBWNyzDkwnRxUV9ViohSoK6L1kaJmpK3qRqD3nyrLbIaOyZu5HD2b8dviZ6Ze65R74QAHknBQ.jpg",
-      "author_photo_path": "channels/whitedns/media/5c54185a4950702f9604f924.jpg",
-      "author_photo_sha256": "1b6d2e079555862debb9ad17403f0116f9dbfa5162360e6f6082ed5f67864409",
-      "body_html": "<tg-emoji emoji-id=\"5379999674193172777\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94AD.png')\"><b>🔭</b></i></tg-emoji> پست مارو در X ریپوست بکنید تا آدمای بیشتری با پروژه آشنا بشن  <br><br><a href=\"https://x.com/i/status/2069680019610485146\" target=\"_blank\" rel=\"noopener\">https://x.com/i/status/2069680019610485146</a>",
-      "plain_text": "🔭 پست مارو در X ریپوست بکنید تا آدمای بیشتری با پروژه آشنا بشن\n\nhttps://x.com/i/status/2069680019610485146",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "81"
-        },
-        {
-          "emoji": "👍",
-          "count": "15"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "🤝",
-          "count": "3"
-        },
-        {
-          "emoji": "🤔",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "3.8K",
-      "posted_at": "2026-06-24T08:07:49+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1040",
       "reply": null
     }
   ]
