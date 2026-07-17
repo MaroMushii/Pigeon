@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-17T17:06:56.738Z",
+  "fetched_at": "2026-07-17T17:11:44.271Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,35 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4543",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/PVk6wwkNVVhOfT3orK-AiZfew3ZEszWcAugJyFR3KLwCL3E2xOZQuqv1uP8uodetQuRYezL_KEE66O8l5DtSeGqREuHDdxgeQb8Lth-5MQU-rbZoSAU1bkXG2N-ennafvxONUMorEqQWvAU14aJlUd3qtvywHFVuoogxKgezLN1xK1IFbMIW28p2vw9YNtZkbZCx7-uNSnCOmAHUhV6X6hj5N2mIlQ0RdiLwbvdOR439RoPOtB_5fNeZ2cpom8BcF-t2BNShse-en6dnuFZNTgd3_4Lt4jgKTZRJzHb-KVfVQj1bRrh48YgrrrfJg1ByFwczPhaiEoyXvgapdwzQMA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a375e3143ff65c3629243987.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "یه آزمایش خیلی جالب توی وبلاگ TryAI انجام شده. اومدن یه محیط ایزوله ساختن و به دو تا از قوی‌ترین مدل‌های هوش مصنوعی یعنی Claude Fable 5 و GPT-5.6 Sol، یه آهنگ (Uptown Funk از برونو مارس)، یه متن از لیریکس آهنگ، یه سری ابزار (مثل سرچ وب، دسترسی به APIهای تولید ویدیو و ابزار تدوین ffmpeg) و یه بودجه مشخص دادن. <br><br>هدف این بود که مدل‌ها رو به حال خودشون رها کنن تا صفر تا صد یه موزیک ویدیو رو خودشون کارگردانی و تدوین کنن! هر مدل با دو تا بودجه‌ی ۲۵ دلاری و ۱۰۰ دلاری تست شد. نتایج و درس‌هایی که از این آزمایش گرفتن خیلی جالبه:<br><br>1- آزادی عمل تو انتخاب ابزار: هر مدل روش متفاوتی رو پیش گرفت. مثلاً کلاد تو هر دو حالت فقط رفت سراغ تبدیل «متن به ویدیو» (Text-to-Video). اما مدل Sol تو بودجه‌ی ۲۵ دلاری، اول عکس ساخت و بعد عکس‌ها رو متحرک کرد (Image-to-Video) و تو بودجه‌ی ۱۰۰ دلاری همزمان از ۳ تا مدل ویدیویی مختلف برای ساختن شات‌هاش استفاده کرد.<br><br>2- درک سطحی از شعر: هوش مصنوعی لیریکس رو خیلی لغوی و تحت‌الفظی می‌فهمه! مثلاً وقتی خواننده می‌خونه \"Make a dragon wanna retire\" (می‌خوام اژدها رو بازنشسته کنم)، هوش مصنوعی دقیقاً یه اژدهای واقعی میاره تو تصویر! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><br><br>3- مشکل در ریتم و تدوین: با اینکه مدل‌ها با ابزار ffmpeg بیت (Beat) آهنگ رو پیدا کردن و کات‌ها رو روی ضرب آهنگ زدن، اما حرکات داخل ویدیو (مثل رقصیدن یا حرکت دوربین) اصلاً با تمپوی آهنگ هم‌خونی نداشت و یه‌کم تو ذوق می‌زد.<br><br>4- کم‌کاری توی بازبینی: یکی از نقاط ضعف بزرگ مدل‌ها این بود که اصلاً خروجی کار خودشون رو نقد و اصلاح نمی‌کردن. یعنی وقتی یه شات رو تولید می‌کردن، همون رو می‌چسبوندن تو ویدیو و دیگه برنمی‌گشتن که افکت بهتری روش بندازن یا اگه بی‌کیفیت بود حذفش کنن. (به قول معروف چشم‌بسته تحویل می‌دادن).<br><br>5- بودجه‌ی اضافی کمکی نکرد: دادن ۱۰۰ دلار بودجه واقعاً زیاد بود! هیچ‌کدوم از مدل‌ها نتونستن از تمام این ظرفیت استفاده کنن (نهایتاً حول‌وحوش ۳۶ تا ۴۸ دلار خرج کردن). می‌تونستن با این پول کلی عکس ثابت از کاراکترها بسازن تا مشکل تغییر قیافه‌ها تو طول ویدیو حل بشه، ولی هیچ‌کدوم به این راهکار فکر نکردن.<br><br>6- هزینه‌های پنهان: با اینکه بودجه تولید ویدیو محدود بود، اما هزینه‌ی توکن‌های خود LLM برای کلاد به شدت گرون‌تر دراومد (حدود ۱۷ تا ۲۵ دلار فقط پول توکن)، در حالی که این هزینه برای مدل OpenAI زیر ۴ دلار بود. با این حال تیم سازنده به صورت سلیقه‌ای، خروجی ۱۰۰ دلاریِ کلاد رو بیشتر از بقیه پسندیدن.<br><br>حرف آخر:<br>هیچ‌کدوم از موزیک ویدیوهای نهایی شاهکار از آب درنیومدن و هنوز شکافِ بزرگی تو انسجام داستان، ثبات چهره‌ی کاراکترها و خلاقیت تدوین وجود داره. اما اینکه یه هوش مصنوعی خودش بره مدل ویدیویی انتخاب کنه، پرامپت بنویسه، ویدیو بسازه و با ابزارهای خط فرمان ادیتش کنه، یه کم ترسناک ولی باحاله! <br><br>لینک مقاله اصلی با ویدیوها: <a href=\"https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6\" target=\"_blank\" rel=\"noopener\">https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6</a><br>سورس کد این پلتفرم (اگه می‌خواید خودتون تست کنید): <a href=\"https://github.com/hershalb/music-video-arena\" target=\"_blank\" rel=\"noopener\">https://github.com/hershalb/music-video-arena</a><br><br>هر 4 تا ویدئوش رو آپلود می‌کنم ببینید<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "یه آزمایش خیلی جالب توی وبلاگ TryAI انجام شده. اومدن یه محیط ایزوله ساختن و به دو تا از قوی‌ترین مدل‌های هوش مصنوعی یعنی Claude Fable 5 و GPT-5.6 Sol، یه آهنگ (Uptown Funk از برونو مارس)، یه متن از لیریکس آهنگ، یه سری ابزار (مثل سرچ وب، دسترسی به APIهای تولید ویدیو و ابزار تدوین ffmpeg) و یه بودجه مشخص دادن.\n\nهدف این بود که مدل‌ها رو به حال خودشون رها کنن تا صفر تا صد یه موزیک ویدیو رو خودشون کارگردانی و تدوین کنن! هر مدل با دو تا بودجه‌ی ۲۵ دلاری و ۱۰۰ دلاری تست شد. نتایج و درس‌هایی که از این آزمایش گرفتن خیلی جالبه:\n\n1- آزادی عمل تو انتخاب ابزار: هر مدل روش متفاوتی رو پیش گرفت. مثلاً کلاد تو هر دو حالت فقط رفت سراغ تبدیل «متن به ویدیو» (Text-to-Video). اما مدل Sol تو بودجه‌ی ۲۵ دلاری، اول عکس ساخت و بعد عکس‌ها رو متحرک کرد (Image-to-Video) و تو بودجه‌ی ۱۰۰ دلاری همزمان از ۳ تا مدل ویدیویی مختلف برای ساختن شات‌هاش استفاده کرد.\n\n2- درک سطحی از شعر: هوش مصنوعی لیریکس رو خیلی لغوی و تحت‌الفظی می‌فهمه! مثلاً وقتی خواننده می‌خونه \"Make a dragon wanna retire\" (می‌خوام اژدها رو بازنشسته کنم)، هوش مصنوعی دقیقاً یه اژدهای واقعی میاره تو تصویر! 😂\n\n3- مشکل در ریتم و تدوین: با اینکه مدل‌ها با ابزار ffmpeg بیت (Beat) آهنگ رو پیدا کردن و کات‌ها رو روی ضرب آهنگ زدن، اما حرکات داخل ویدیو (مثل رقصیدن یا حرکت دوربین) اصلاً با تمپوی آهنگ هم‌خونی نداشت و یه‌کم تو ذوق می‌زد.\n\n4- کم‌کاری توی بازبینی: یکی از نقاط ضعف بزرگ مدل‌ها این بود که اصلاً خروجی کار خودشون رو نقد و اصلاح نمی‌کردن. یعنی وقتی یه شات رو تولید می‌کردن، همون رو می‌چسبوندن تو ویدیو و دیگه برنمی‌گشتن که افکت بهتری روش بندازن یا اگه بی‌کیفیت بود حذفش کنن. (به قول معروف چشم‌بسته تحویل می‌دادن).\n\n5- بودجه‌ی اضافی کمکی نکرد: دادن ۱۰۰ دلار بودجه واقعاً زیاد بود! هیچ‌کدوم از مدل‌ها نتونستن از تمام این ظرفیت استفاده کنن (نهایتاً حول‌وحوش ۳۶ تا ۴۸ دلار خرج کردن). می‌تونستن با این پول کلی عکس ثابت از کاراکترها بسازن تا مشکل تغییر قیافه‌ها تو طول ویدیو حل بشه، ولی هیچ‌کدوم به این راهکار فکر نکردن.\n\n6- هزینه‌های پنهان: با اینکه بودجه تولید ویدیو محدود بود، اما هزینه‌ی توکن‌های خود LLM برای کلاد به شدت گرون‌تر دراومد (حدود ۱۷ تا ۲۵ دلار فقط پول توکن)، در حالی که این هزینه برای مدل OpenAI زیر ۴ دلار بود. با این حال تیم سازنده به صورت سلیقه‌ای، خروجی ۱۰۰ دلاریِ کلاد رو بیشتر از بقیه پسندیدن.\n\nحرف آخر:\nهیچ‌کدوم از موزیک ویدیوهای نهایی شاهکار از آب درنیومدن و هنوز شکافِ بزرگی تو انسجام داستان، ثبات چهره‌ی کاراکترها و خلاقیت تدوین وجود داره. اما اینکه یه هوش مصنوعی خودش بره مدل ویدیویی انتخاب کنه، پرامپت بنویسه، ویدیو بسازه و با ابزارهای خط فرمان ادیتش کنه، یه کم ترسناک ولی باحاله!\n\nلینک مقاله اصلی با ویدیوها: https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6\nسورس کد این پلتفرم (اگه می‌خواید خودتون تست کنید): https://github.com/hershalb/music-video-arena\n\nهر 4 تا ویدئوش رو آپلود می‌کنم ببینید\n\n✉️ t.me/MatinSenPaii",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "count": "12"
+        },
+        {
+          "emoji": "😁",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.32K",
+      "posted_at": "2026-07-17T17:09:04+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4543",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4542",
       "author_name": "Matin SenPai",
@@ -46,7 +75,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.6K",
+      "views_label": "20K",
       "posted_at": "2026-07-17T05:59:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4542",
@@ -64,7 +93,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "312"
+          "count": "315"
         },
         {
           "emoji": "🎃",
@@ -88,14 +117,14 @@
         },
         {
           "emoji": "👍",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "😭",
           "count": "2"
         }
       ],
-      "views_label": "19.4K",
+      "views_label": "19.7K",
       "posted_at": "2026-07-17T05:57:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4541",
@@ -132,7 +161,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.8K",
       "posted_at": "2026-07-16T21:55:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4540",
@@ -157,7 +186,7 @@
           "count": "4"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.6K",
       "posted_at": "2026-07-16T21:55:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4539",
@@ -203,7 +232,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.2K",
+      "views_label": "22.4K",
       "posted_at": "2026-07-16T21:55:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4537",
@@ -232,7 +261,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.6K",
+      "views_label": "23.7K",
       "posted_at": "2026-07-16T21:55:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4538",
@@ -259,14 +288,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "47"
+          "count": "48"
         },
         {
           "emoji": "👎",
           "count": "2"
         }
       ],
-      "views_label": "20.5K",
+      "views_label": "20.7K",
       "posted_at": "2026-07-16T21:55:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4532",
@@ -295,7 +324,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.9K",
+      "views_label": "19.1K",
       "posted_at": "2026-07-16T21:55:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4531",
@@ -322,7 +351,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "43"
+          "count": "44"
         },
         {
           "emoji": "👍",
@@ -333,7 +362,7 @@
           "count": "2"
         }
       ],
-      "views_label": "19.6K",
+      "views_label": "19.8K",
       "posted_at": "2026-07-16T21:55:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4523",
@@ -4062,64 +4091,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4427",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4426",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DiHhnfwOMjwDfEI1nN_Pr_H9iaWpbhXx5CzXeGzRCZZs0Mf4IeW7GaZhGRMD5Gzh3yKDZNbSQ25e2Ee6a95ZdJVgeKnl1hpiWhY3WdbKELLIp1EdmhG9WJ1mjkX8N4VdHj1N89wMI2VyHVJkUYtqjGdSSTlMS-IqJSXEmNFzi9Wt99oGjKYyprBp_jM4hwa5OxjANUyjc5Umpyxx7u7Yg59W4NZi0TrH78FUkciZ2X8iWSLgcrssWlMxNRopA6QLg4gABNpyFK45tXm5FHHmxQ42d5LXwt548P9tuNeSXQ5JKJH3_GmWYXIXQOtwupR5KyhtggjLvKlqdrpATLuYkg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/ba015136a59af64eedbfa521.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "ناگفته نماند که روی 9Router هم میتونید وصل کنید. بدون نیاز به نصب روی سیستمتون/سرورتون",
-      "plain_text": "ناگفته نماند که روی 9Router هم میتونید وصل کنید. بدون نیاز به نصب روی سیستمتون/سرورتون",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4426",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/qFAC_MJWq-lGpz7_kjSL62R7r3nMzsuF-UW1E08t9bww-x0lWxHb_n4hkpDX_dLJ40lzNxsLLYWSxKcw22DEdhY4NFoY_LCtBdCNWODyVWMD-wpVShSVqRQOy-rnPN3yNCJo9nVi0PvMFVrR8WAi2qfJpZayXlUE6tDp3764r5h7-jMC3UfrYUU8bmJrFhr-6Hf2trxtb8E2R_0P3yBihndr_p-wlGk1DrLpFj8DpAGQgWSmCHOEv22st0YLrlk4gqviDpsbXk5nG8bJhuEKBAre9SaVhVbmRZ68OPxjAgeDxK2NH8wqyOsRWpfAJpra3Onnb8LJIlAIV0NwuUnNCQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/2a286d2bfa47cda3405c130f.jpg",
-          "thumbnail_sha256": "108f2b23cda9827686b74bf28a3aecd525d8789b0a966b610afa0d381d03f91f",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "73"
-        },
-        {
-          "emoji": "😁",
-          "count": "3"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        }
-      ],
-      "views_label": "12.7K",
-      "posted_at": "2026-07-13T18:02:37+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/4426",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4425",
-        "author_name": "Matin SenPai",
-        "preview_text": "با atomic mail یه اکانت ساختم بهش وصل کردم مجددا😁 روی سرور",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/fyCHP1n9B0HAiWW0HuvQqCECvbOCpExO6XB8ez7iaqr8ABOWh4Gk-9CsWLLmnOF-A1EoT8wQsuKuCSK3KNOwt0Ju3RZQxZuaXZjpGApnm_mFM5maYtzRqtltahptrV4R_fCoxZqcATJTwLFkryztRMlXTGR_g6PE-IMuZWwQ_JSEME1ajTjd2ko02IYc2VEpyiA0nPc1GV8LvODvlKl53pf6NqkqTSMWxmL6jqvr3yTh-HxoAq0Z9TyCK3-23dSTUvec8EoNXQ79hMMnLjWpC09DPRg3YY3s9ZRaOgRYDrPXa285pnSo62fxL_42kqqMbyoFdjQR1iEshl1VTuXN3A.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/d3d4bcc80a4cd749af01151c.jpg",
-        "thumbnail_sha256": "967f1e61b8498d016ef97944b40110e754df928eea3d3cc33c32c9d3f0c56e16",
-        "permalink": "https://t.me/matinsenpaii/4425"
-      }
     }
   ]
 }
