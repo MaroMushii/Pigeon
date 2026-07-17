@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-17T13:31:53.893Z",
+  "fetched_at": "2026-07-17T13:37:05.633Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -17,8 +17,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/jOvhtuR5YhD28bqmrv2kGVrAwsXBuwHnQpVbytyhnRE_TFYke8C3Lw0zd6gJw_cDkX2MqfdKcEPFr6JP5BlMUjOKlEEzCGa9zZRtK07B86A-_z7-ZFr1Z3lHkjAe7znQfsk7cEIQa9u5aRBiBxzzGGEKYTmW7c3VDtpmdAa7Sj0o1z1QRCpwHXGUjFK9PGCg4Bf43JKQK8mcwlSNIF0xynBictIhrFJT734AzC4c-yzUklabMgdIeS4e7F3UXmmovdgvoN4GUaFXJH-QyciRaD72bBZVCJ_nlgzVEpFkqwT8cGBTEhpBeX07DAaAL7qhq1McONdMTvEquz1vf6tTiA.jpg",
       "author_photo_path": "channels/whitedns/media/a5b55b84c94802b303be9aa7.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> راهنمای جامع تنظیمات APN اپراتورهای ایرانی (مخصوص کپی و ارسال)</b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> ۱. مراحل تنظیم در اندروید (Android):</b><br> 1. وارد <b>تنظیمات (Settings)</b> شوید.<br> 2. به بخش <b>اتصالات (Connections)</b> یا شبکه و اینترنت بروید.<br> 3. بخش <b>شبکه‌های موبایل (Mobile Networks)</b> را باز کنید.<br> 4. وارد گزینه <b>نام نقاط دسترسی (Access Point Names یا APN)</b> شوید.<br> 5. روی <b>افزودن (Add / +)</b> بزنید تا APN جدید ساخته شود.<br> 6. فیلدهای <b>Name</b> و <b>APN</b> را مطابق لیست زیر پر کنید (بقیه گزینه‌ها مثل پروکسی و پورت حتماً خالی باشند).<br> 7. از منوی سه نقطه بالا گزینه <b>Save (ذخیره)</b> را بزنید و آن را فعال کنید.<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8F.png')\"><b>🍏</b></i> ۲. مراحل تنظیم در آیفون (iOS):</b><br> 1. وارد <b>تنظیمات (Settings)</b> شوید.<br> 2. به بخش <b>Cellular (تلفن همراه)</b> بروید.<br> 3. گزینه <b>Cellular Data Network</b> را انتخاب کنید.<br> 4. در بخش <b>Cellular Data</b>، روبه‌روی گزینه <b>APN</b> مقدار مربوط به اپراتور خود را (از لیست زیر) وارد کنید.<br> 5. یک‌بار اینترنت گوشی یا حالت پرواز را خاموش و روشن کنید.<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i> لیست مقادیر APN اپراتورها (برای کپی آسان روی کلمه‌ها ضربه بزنید):</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>همراه اول (MCI)</b><br> * Name: MCCI Internet<br> * APN: mcinet<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>ایرانسل (Irancell)</b><br> * Name: Irancell-GPRS<br> * APN: mtnirancell<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>رایتل (RighTel)</b><br> * Name: RighTel<br> * APN: rightel<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>شاتل موبایل (Shatel Mobile)</b><br> * Name: Shatel Mobile<br> * APN: shatelmobile<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>سامانتل (Samantel)</b><br> * Name: Samantel<br> * APN: samantel<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>تالیه (Taliya)</b><br> * Name: Taliya GPRS<br> * APN: taliyagprs<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> نکته بسیار مهم:</b><br>اگر در فیلدهای <b>Proxy (پروکسی)</b> یا <b>Port (پورت)</b> در تنظیمات گوشی شما هرگونه عدد، آدرس یا کلمه‌ای وارد شده باشد، سرعت اینترنت شما به شدت افت خواهد کرد یا کاملاً قطع می‌شود. حتماً بررسی کنید که این دو بخش کاملاً <b>خالی</b> یا روی <b>Not set</b> باشند.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "📌 راهنمای جامع تنظیمات APN اپراتورهای ایرانی (مخصوص کپی و ارسال)\n📥 ۱. مراحل تنظیم در اندروید (Android):\n1. وارد تنظیمات (Settings) شوید.\n2. به بخش اتصالات (Connections) یا شبکه و اینترنت بروید.\n3. بخش شبکه‌های موبایل (Mobile Networks) را باز کنید.\n4. وارد گزینه نام نقاط دسترسی (Access Point Names یا APN) شوید.\n5. روی افزودن (Add / +) بزنید تا APN جدید ساخته شود.\n6. فیلدهای Name و APN را مطابق لیست زیر پر کنید (بقیه گزینه‌ها مثل پروکسی و پورت حتماً خالی باشند).\n7. از منوی سه نقطه بالا گزینه Save (ذخیره) را بزنید و آن را فعال کنید.\n🍏 ۲. مراحل تنظیم در آیفون (iOS):\n1. وارد تنظیمات (Settings) شوید.\n2. به بخش Cellular (تلفن همراه) بروید.\n3. گزینه Cellular Data Network را انتخاب کنید.\n4. در بخش Cellular Data، روبه‌روی گزینه APN مقدار مربوط به اپراتور خود را (از لیست زیر) وارد کنید.\n5. یک‌بار اینترنت گوشی یا حالت پرواز را خاموش و روشن کنید.\n📋 لیست مقادیر APN اپراتورها (برای کپی آسان روی کلمه‌ها ضربه بزنید):\n🔹 همراه اول (MCI)\n* Name: MCCI Internet\n* APN: mcinet\n🔹 ایرانسل (Irancell)\n* Name: Irancell-GPRS\n* APN: mtnirancell\n🔹 رایتل (RighTel)\n* Name: RighTel\n* APN: rightel\n🔹 شاتل موبایل (Shatel Mobile)\n* Name: Shatel Mobile\n* APN: shatelmobile\n🔹 سامانتل (Samantel)\n* Name: Samantel\n* APN: samantel\n🔹 تالیه (Taliya)\n* Name: Taliya GPRS\n* APN: taliyagprs\n⚠️ نکته بسیار مهم:\nاگر در فیلدهای Proxy (پروکسی) یا Port (پورت) در تنظیمات گوشی شما هرگونه عدد، آدرس یا کلمه‌ای وارد شده باشد، سرعت اینترنت شما به شدت افت خواهد کرد یا کاملاً قطع می‌شود. حتماً بررسی کنید که این دو بخش کاملاً خالی یا روی Not set باشند.\n\n@whitedns",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> راهنمای جامع تنظیمات APN اپراتورهای ایرانی <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> ۱. مراحل تنظیم در اندروید (Android):<br> 1. وارد <b>تنظیمات (Settings)</b> شوید.<br> 2. به بخش <b>اتصالات (Connections)</b> یا شبکه و اینترنت بروید.<br> 3. بخش <b>شبکه‌های موبایل (Mobile Networks)</b> را باز کنید.<br> 4. وارد گزینه <b>نام نقاط دسترسی (Access Point Names یا APN)</b> شوید.<br> 5. روی <b>افزودن (Add / +)</b> بزنید تا APN جدید ساخته شود.<br> 6. فیلدهای <b>Name</b> و <b>APN</b> را مطابق لیست زیر پر کنید (بقیه گزینه‌ها مثل پروکسی و پورت حتماً خالی باشند).<br> 7. از منوی سه نقطه بالا گزینه <b>Save (ذخیره)</b> را بزنید و آن را فعال کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8F.png')\"><b>🍏</b></i> ۲. مراحل تنظیم در آیفون (iOS):<br> 1. وارد <b>تنظیمات (Settings)</b> شوید.<br> 2. به بخش <b>Cellular (تلفن همراه)</b> بروید.<br> 3. گزینه <b>Cellular Data Network</b> را انتخاب کنید.<br> 4. در بخش <b>Cellular Data</b>، روبه‌روی گزینه <b>APN</b> مقدار مربوط به اپراتور خود را (از لیست زیر) وارد کنید.<br> 5. یک‌بار اینترنت گوشی یا حالت پرواز را خاموش و روشن کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i> لیست مقادیر APN اپراتورها (برای کپی آسان روی کلمه‌ها ضربه بزنید):<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>همراه اول (MCI)</b><br> * Name: MCCI Internet<br> * APN: mcinet<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>ایرانسل (Irancell)</b><br> * Name: Irancell-GPRS<br> * APN: mtnirancell<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>رایتل (RighTel)</b><br> * Name: RighTel<br> * APN: rightel<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>شاتل موبایل (Shatel Mobile)</b><br> * Name: Shatel Mobile<br> * APN: shatelmobile<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>سامانتل (Samantel)</b><br> * Name: Samantel<br> * APN: samantel<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>تالیه (Taliya)</b><br> * Name: Taliya GPRS<br> * APN: taliyagprs<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> نکته بسیار مهم:<br>اگر در فیلدهای <b>Proxy (پروکسی)</b> یا <b>Port (پورت)</b> در تنظیمات گوشی شما هرگونه عدد، آدرس یا کلمه‌ای وارد شده باشد، سرعت اینترنت شما به شدت افت خواهد کرد یا کاملاً قطع می‌شود. حتماً بررسی کنید که این دو بخش کاملاً <b>خالی</b> یا روی <b>Not set</b> باشند.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a>",
+      "plain_text": "📌 راهنمای جامع تنظیمات APN اپراتورهای ایرانی 📱\n📥 ۱. مراحل تنظیم در اندروید (Android):\n1. وارد تنظیمات (Settings) شوید.\n2. به بخش اتصالات (Connections) یا شبکه و اینترنت بروید.\n3. بخش شبکه‌های موبایل (Mobile Networks) را باز کنید.\n4. وارد گزینه نام نقاط دسترسی (Access Point Names یا APN) شوید.\n5. روی افزودن (Add / +) بزنید تا APN جدید ساخته شود.\n6. فیلدهای Name و APN را مطابق لیست زیر پر کنید (بقیه گزینه‌ها مثل پروکسی و پورت حتماً خالی باشند).\n7. از منوی سه نقطه بالا گزینه Save (ذخیره) را بزنید و آن را فعال کنید.\n🍏 ۲. مراحل تنظیم در آیفون (iOS):\n1. وارد تنظیمات (Settings) شوید.\n2. به بخش Cellular (تلفن همراه) بروید.\n3. گزینه Cellular Data Network را انتخاب کنید.\n4. در بخش Cellular Data، روبه‌روی گزینه APN مقدار مربوط به اپراتور خود را (از لیست زیر) وارد کنید.\n5. یک‌بار اینترنت گوشی یا حالت پرواز را خاموش و روشن کنید.\n📋 لیست مقادیر APN اپراتورها (برای کپی آسان روی کلمه‌ها ضربه بزنید):\n🔹 همراه اول (MCI)\n* Name: MCCI Internet\n* APN: mcinet\n🔹 ایرانسل (Irancell)\n* Name: Irancell-GPRS\n* APN: mtnirancell\n🔹 رایتل (RighTel)\n* Name: RighTel\n* APN: rightel\n🔹 شاتل موبایل (Shatel Mobile)\n* Name: Shatel Mobile\n* APN: shatelmobile\n🔹 سامانتل (Samantel)\n* Name: Samantel\n* APN: samantel\n🔹 تالیه (Taliya)\n* Name: Taliya GPRS\n* APN: taliyagprs\n⚠️ نکته بسیار مهم:\nاگر در فیلدهای Proxy (پروکسی) یا Port (پورت) در تنظیمات گوشی شما هرگونه عدد، آدرس یا کلمه‌ای وارد شده باشد، سرعت اینترنت شما به شدت افت خواهد کرد یا کاملاً قطع می‌شود. حتماً بررسی کنید که این دو بخش کاملاً خالی یا روی Not set باشند.\n\n@whitedns",
       "media": [
         {
           "kind": "photo",
@@ -35,24 +35,28 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "12"
+          "count": "21"
+        },
+        {
+          "emoji": "❤",
+          "count": "5"
+        },
+        {
+          "emoji": "🤡",
+          "count": "4"
         },
         {
           "emoji": "❤‍🔥",
           "count": "3"
         },
         {
-          "emoji": "🤡",
-          "count": "3"
-        },
-        {
-          "emoji": "❤",
-          "count": "2"
+          "emoji": "🔥",
+          "count": "1"
         }
       ],
-      "views_label": "1.02K",
+      "views_label": "1.68K",
       "posted_at": "2026-07-17T13:27:33+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1195",
       "reply": null
     },
@@ -121,7 +125,7 @@
         },
         {
           "emoji": "❤",
-          "count": "269"
+          "count": "270"
         },
         {
           "emoji": "👍",
@@ -129,7 +133,7 @@
         },
         {
           "emoji": "🙏",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "👏",
@@ -148,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.4K",
+      "views_label": "10.6K",
       "posted_at": "2026-07-17T08:45:52+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1192",
@@ -214,7 +218,7 @@
           "count": "9"
         }
       ],
-      "views_label": "10.2K",
+      "views_label": "10.4K",
       "posted_at": "2026-07-17T08:43:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1190",
@@ -236,7 +240,7 @@
         },
         {
           "emoji": "❤",
-          "count": "271"
+          "count": "272"
         },
         {
           "emoji": "👍",
@@ -275,7 +279,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.53K",
+      "views_label": "9.6K",
       "posted_at": "2026-07-17T07:46:19+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1188",
@@ -297,7 +301,7 @@
         },
         {
           "emoji": "❤",
-          "count": "275"
+          "count": "277"
         },
         {
           "emoji": "❤‍🔥",
@@ -336,7 +340,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.7K",
+      "views_label": "10.8K",
       "posted_at": "2026-07-17T07:34:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1183",
@@ -370,7 +374,7 @@
         },
         {
           "emoji": "🍓",
-          "count": "134"
+          "count": "136"
         },
         {
           "emoji": "❤",
@@ -443,7 +447,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "177"
+          "count": "178"
         },
         {
           "emoji": "🔥",
@@ -466,7 +470,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11K",
+      "views_label": "11.1K",
       "posted_at": "2026-07-17T05:29:39+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1180",
@@ -484,7 +488,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "428"
+          "count": "429"
         },
         {
           "emoji": "👏",
@@ -683,7 +687,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.5K",
+      "views_label": "13.6K",
       "posted_at": "2026-07-16T09:05:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1174",
