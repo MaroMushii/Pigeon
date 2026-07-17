@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-17T22:41:36.749Z",
+  "fetched_at": "2026-07-17T22:46:41.534Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,86 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4555",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/PVk6wwkNVVhOfT3orK-AiZfew3ZEszWcAugJyFR3KLwCL3E2xOZQuqv1uP8uodetQuRYezL_KEE66O8l5DtSeGqREuHDdxgeQb8Lth-5MQU-rbZoSAU1bkXG2N-ennafvxONUMorEqQWvAU14aJlUd3qtvywHFVuoogxKgezLN1xK1IFbMIW28p2vw9YNtZkbZCx7-uNSnCOmAHUhV6X6hj5N2mIlQ0RdiLwbvdOR439RoPOtB_5fNeZ2cpom8BcF-t2BNShse-en6dnuFZNTgd3_4Lt4jgKTZRJzHb-KVfVQj1bRrh48YgrrrfJg1ByFwczPhaiEoyXvgapdwzQMA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a375e3143ff65c3629243987.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "این هم از جناب آیپی",
+      "plain_text": "این هم از جناب آیپی",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4555",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/f2q70cri_JOgb3UBK23n_V2heoIOp7hdt-L8WnXfXQXmM1Aa019OR4Dxlbnx0r4i7X6v4F9hexgCOTsejVmbMrboMX-hSrjQVfEyBDUXDhtqwsdd5oRFWjEmiNC1m2kBghC5K6XHmOM3UlpIN9bP1hi6uEkxr-ASIRGxg022DTnK_FlR23vyzHfFh9n7hwoNIhzo80NcnHRCz31VCyRlN1PHO80U2gWmIGwQLztGa9t6vTsY8wpvYi93fkweSZeb79EyvrQiHYsTaAWP8t0jiiiOPsPO4iZqEP0BPjla-ctnXGG7BtV6uPQVMSdtVjuxVTo2TlXdM1EyG3cxlYbl3Q.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/3162f7b92aa957a67e64857b.jpg",
+          "thumbnail_sha256": "5df19688401200d79a204c58501faae5e5dadd144cbc65a41f53be70276b4dc9",
+          "duration_label": null,
+          "aspect_ratio": 2.8011363636363957
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "11"
+        },
+        {
+          "emoji": "👍",
+          "count": "3"
+        }
+      ],
+      "views_label": "951",
+      "posted_at": "2026-07-17T22:45:11+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4555",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4554",
+        "author_name": "Matin SenPai",
+        "preview_text": "کسایی که تا الان براشون کانکت نشده بود، یا کار نمیکرد، حدسم اینه به احتمال 90 درصد واستون کار کنه با تغییر پروتکل ارتباطی Masque به http2. من تا الان Masque روی نت مخابرات واسم کار نمیکرد، اما با این ورژن جدید دارم همین پیام رو میذارم با MASQUE+Turbo+Ipv4+Http2",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/4554"
+      }
+    },
+    {
+      "id": "MatinSenPaii/4554",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/PVk6wwkNVVhOfT3orK-AiZfew3ZEszWcAugJyFR3KLwCL3E2xOZQuqv1uP8uodetQuRYezL_KEE66O8l5DtSeGqREuHDdxgeQb8Lth-5MQU-rbZoSAU1bkXG2N-ennafvxONUMorEqQWvAU14aJlUd3qtvywHFVuoogxKgezLN1xK1IFbMIW28p2vw9YNtZkbZCx7-uNSnCOmAHUhV6X6hj5N2mIlQ0RdiLwbvdOR439RoPOtB_5fNeZ2cpom8BcF-t2BNShse-en6dnuFZNTgd3_4Lt4jgKTZRJzHb-KVfVQj1bRrh48YgrrrfJg1ByFwczPhaiEoyXvgapdwzQMA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a375e3143ff65c3629243987.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "کسایی که تا الان براشون کانکت نشده بود، یا کار نمیکرد، حدسم اینه به احتمال 90 درصد واستون کار کنه با تغییر پروتکل ارتباطی Masque به http2. من تا الان Masque روی نت مخابرات واسم کار نمیکرد، اما با این ورژن جدید دارم همین پیام رو میذارم با MASQUE+Turbo+Ipv4+Http2",
+      "plain_text": "کسایی که تا الان براشون کانکت نشده بود، یا کار نمیکرد، حدسم اینه به احتمال 90 درصد واستون کار کنه با تغییر پروتکل ارتباطی Masque به http2. من تا الان Masque روی نت مخابرات واسم کار نمیکرد، اما با این ورژن جدید دارم همین پیام رو میذارم با MASQUE+Turbo+Ipv4+Http2",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "15"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "1.27K",
+      "posted_at": "2026-07-17T22:44:07+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4554",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4552",
+        "author_name": "Matin SenPai",
+        "preview_text": "آپدیت جدید Aether-GUI (نسخه 0.4.0) با هسته‌ی جدید! نسخه‌ی جدید برنامه آماده‌ست. توی این آپدیت، هسته‌ی اصلی (Aether Core) به ورژن 1.2.0 ارتقا پیدا کرده و قابلیت‌های زیر به GUI اضافه شده: 🔵 رفع مشکل وضعیت Connected فیک: قبل از این، بخش Validation ابزار با پینگ…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/k1gMGiGpUx4p49ece0iBpT0PWER7IFIQEkoX_hNI7wpItBpRbjDi-GQu9E3NFMEUtCrwF-DAqX62h8ah4i-5NVfQaAm4b691ViQFVrd15d3SUcvf0h2UfYkI-6lsxKLPDWu3T0eNf4AvCmVrKCDF2yZzu9plRrgFrEtEs--i0EC2uhG-iVIi1aq2sUl2o3UXHvXxm2k-_zZTQHUlzRxaQH-FZ5vzA1nFxasa3QY1smd6yf2t0lyjyJIEqYRYQBKCT6IN08KV8oMOZPXB21DWUzUUp_1570uBd5Uz7QDESlBr1B6nGdUfJswehOZiOj0gBawaqbd6DAdJaGanSbwRNw.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/23ad7f2c127a649320e39d8a.jpg",
+        "thumbnail_sha256": "3c170205b00452c51ed7a30bbac150d1cbb25b4bde74a639e67ec4ae775b1afb",
+        "permalink": "https://t.me/matinsenpaii/4552"
+      }
+    },
     {
       "id": "MatinSenPaii/4552",
       "author_name": "Matin SenPai",
@@ -46,7 +126,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "43"
+          "count": "52"
         },
         {
           "emoji": "👎",
@@ -65,7 +145,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3K",
+      "views_label": "3.95K",
       "posted_at": "2026-07-17T22:25:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4552",
@@ -87,7 +167,7 @@
         },
         {
           "emoji": "❤",
-          "count": "183"
+          "count": "184"
         },
         {
           "emoji": "👍",
@@ -106,7 +186,7 @@
           "count": "4"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "15.9K",
       "posted_at": "2026-07-17T19:07:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4551",
@@ -124,7 +204,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "181"
+          "count": "182"
         },
         {
           "emoji": "👍",
@@ -132,14 +212,14 @@
         },
         {
           "emoji": "👎",
-          "count": "7"
+          "count": "8"
         },
         {
           "emoji": "😨",
           "count": "1"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.5K",
       "posted_at": "2026-07-17T19:07:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4550",
@@ -164,11 +244,11 @@
           "count": "33"
         },
         {
-          "emoji": "👎",
-          "count": "3"
+          "emoji": "🔥",
+          "count": "4"
         },
         {
-          "emoji": "🔥",
+          "emoji": "👎",
           "count": "3"
         },
         {
@@ -176,7 +256,7 @@
           "count": "2"
         }
       ],
-      "views_label": "14.6K",
+      "views_label": "14.9K",
       "posted_at": "2026-07-17T18:02:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4549",
@@ -194,7 +274,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "130"
+          "count": "131"
         },
         {
           "emoji": "😁",
@@ -217,7 +297,7 @@
           "count": "2"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "20K",
       "posted_at": "2026-07-17T17:44:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4548",
@@ -256,7 +336,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "226"
+          "count": "227"
         },
         {
           "emoji": "👎",
@@ -324,7 +404,7 @@
           "count": "5"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.8K",
       "posted_at": "2026-07-17T17:24:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4546",
@@ -399,7 +479,7 @@
       "reactions": [
         {
           "emoji": "👎",
-          "count": "188"
+          "count": "189"
         },
         {
           "emoji": "😁",
@@ -459,7 +539,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.7K",
       "posted_at": "2026-07-17T17:09:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4543",
@@ -518,7 +598,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "341"
+          "count": "342"
         },
         {
           "emoji": "🎃",
@@ -549,7 +629,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.6K",
       "posted_at": "2026-07-17T05:57:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4541",
@@ -4092,80 +4172,6 @@
       "posted_at": "2026-07-13T19:12:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4439",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4438",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DiHhnfwOMjwDfEI1nN_Pr_H9iaWpbhXx5CzXeGzRCZZs0Mf4IeW7GaZhGRMD5Gzh3yKDZNbSQ25e2Ee6a95ZdJVgeKnl1hpiWhY3WdbKELLIp1EdmhG9WJ1mjkX8N4VdHj1N89wMI2VyHVJkUYtqjGdSSTlMS-IqJSXEmNFzi9Wt99oGjKYyprBp_jM4hwa5OxjANUyjc5Umpyxx7u7Yg59W4NZi0TrH78FUkciZ2X8iWSLgcrssWlMxNRopA6QLg4gABNpyFK45tXm5FHHmxQ42d5LXwt548P9tuNeSXQ5JKJH3_GmWYXIXQOtwupR5KyhtggjLvKlqdrpATLuYkg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/ba015136a59af64eedbfa521.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "7- بخش Apps:<br><br>می‌تونید فضاهای کاری اختصاصیِ خودتون رو داخل Rowboat بسازید؛ این اپ‌ها به تمام ابزارها و اتصالات دسترسی دارن و حتی می‌تونید اون‌ها رو با بقیه به اشتراک بذارید.",
-      "plain_text": "7- بخش Apps:\n\nمی‌تونید فضاهای کاری اختصاصیِ خودتون رو داخل Rowboat بسازید؛ این اپ‌ها به تمام ابزارها و اتصالات دسترسی دارن و حتی می‌تونید اون‌ها رو با بقیه به اشتراک بذارید.",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4438",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Ab-gkFA1jDTMHEmf3RsGINZ6jTBcJa6Cafc6AxrVBMVRL-O6QlSbXeYQwjnXAfMpLq81-1VJGc9dKQ1RCBmM7kr2z5SoCsTwIdLqNrbtC3BfdmtC3F2HILmspVQT8cXJiyL8xfJyrIxUeqHCowFJ0j8vu7yhjCVYO-ZJCmIcUaJBk8COX_Xoymxnrxr2u4eb61TuXd24swaWKv70l4zViQbNlmWvZtIjEK3c2al78gyUYMuWrLZwqjB_UIN-CRVYhIM-tqv-RxKuA7s-t7nH7r5Go0AmitXewcMpCfuv7jt8lz28QvjGg-GgR-StshTyo3I1fgCtPh9EWt6NgD4K9w.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/37432a4633942ebcdddb3f08.jpg",
-          "thumbnail_sha256": "ee04b673f1cad463d6577bfc9798d87a1bbebbb7e6ffafc25f14fa8e62674713",
-          "duration_label": null,
-          "aspect_ratio": 1.6
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "30"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        }
-      ],
-      "views_label": "5.99K",
-      "posted_at": "2026-07-13T19:11:48+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4438",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4437",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DiHhnfwOMjwDfEI1nN_Pr_H9iaWpbhXx5CzXeGzRCZZs0Mf4IeW7GaZhGRMD5Gzh3yKDZNbSQ25e2Ee6a95ZdJVgeKnl1hpiWhY3WdbKELLIp1EdmhG9WJ1mjkX8N4VdHj1N89wMI2VyHVJkUYtqjGdSSTlMS-IqJSXEmNFzi9Wt99oGjKYyprBp_jM4hwa5OxjANUyjc5Umpyxx7u7Yg59W4NZi0TrH78FUkciZ2X8iWSLgcrssWlMxNRopA6QLg4gABNpyFK45tXm5FHHmxQ42d5LXwt548P9tuNeSXQ5JKJH3_GmWYXIXQOtwupR5KyhtggjLvKlqdrpATLuYkg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/ba015136a59af64eedbfa521.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "6- بخش Code Mode:<br><br>این بخش بهتون اجازه می‌ده همزمان چند تا ایجنت کدنویس (مثل Claude Code یا Codex) بالا بیارید تا Rowboat با استفاده از کانتکست پروژه‌هاتون، اون‌ها رو هدایت کنه و کارها رو پیش ببرن.",
-      "plain_text": "6- بخش Code Mode:\n\nاین بخش بهتون اجازه می‌ده همزمان چند تا ایجنت کدنویس (مثل Claude Code یا Codex) بالا بیارید تا Rowboat با استفاده از کانتکست پروژه‌هاتون، اون‌ها رو هدایت کنه و کارها رو پیش ببرن.",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4437",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ItGyun7qCyesoo6_VsGAEQbBqaFqmDDb1a8umkeFYSsHyW9Ez7_MPLNcFaqKG_TQyct5RZzzxp8AC_Sm3cxBoclP8FP7tEUDlmm5ejLAizuljXGYK8kVoQXnHPIhSLW9K0YHnxJDIR9cOQs2ITZk0BqTtdyXejlG_RQ36qXOin5NIxRd_BNrVmlpNBH0BHsd5hvMbcCpPPz2Ljt_rplCshzw1c2uWquGcqVUEbOktmUE0kTnvzBPx0iJNOpk8IvuTC5lZvfqVKV8Jl38xRlPUlXif8g2vKumLlruVSv96QQJ0BVXl3zLnoRp4blmTtPLON4vmmxtrsbnqBG_h30kEQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/983c13cc66fc2b433cdcec00.jpg",
-          "thumbnail_sha256": "e5fc67ee683fdc9a2d44400e0f8ff515bf003d9547f790e1c61524d146a5d763",
-          "duration_label": null,
-          "aspect_ratio": 1.593625498007968
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "30"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        }
-      ],
-      "views_label": "5.75K",
-      "posted_at": "2026-07-13T19:11:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4437",
       "reply": null
     }
   ]
