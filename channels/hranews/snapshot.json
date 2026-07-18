@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-18T11:51:33.781Z",
+  "fetched_at": "2026-07-18T11:56:53.408Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "27K"
   },
   "posts": [
+    {
+      "id": "hranews/114243",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/siWluoc_7FDsCV-MDeyVYxpE0naU6s6gwv5me1PO2Xgw5HrYAgUaMk-k2UCdLpw55I5GfRWWvYmoEZT2RWU_e-fqwQoDNEssH0ZcbqTGixoq-uaMO8Uvx2-fngzFyjhnBFY-I-EMD5Dea02GhNHa69JfF2GREWfyA8nh1qBe_VdK3OZxoNCz2PSOdZUAe9iiDESWd2ATc5oKx2Bv5v9ZZ0mc4qIRdd-_T6S6X_cDcjy-7HF97hsKaz_V_Nl9XkP2oZQLhBPHCEVT6fUjflMsHJK_lveMU1eONXYy9roWKku6iBD_Nbi3bgzPgzk6_Bi1W_iDxIS3EfhyeL9C4wlZ8Q.jpg",
+      "author_photo_path": "channels/hranews/media/3e88ff26bd54a7c56762761e.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "مدیرعامل شرکت آب و فاضلاب استان هرمزگان اعلام کرد که تأسیسات آب‌شیرین‌کن روستای بونجی واقع در غرب شهرستان جاسک در پی حملات بامداد امروز به طور کامل تخریب شده است. به گفته عبدالحمید حمزه‌پور، <a href=\"?q=%23%D8%AA%D8%A7%D9%85%DB%8C%D9%86_%D8%A2%D8%A8\">#تامین_آب</a> شرب ۲۰ روستای منطقه غرب شهرستان جاسک با جمعیتی حدود ۱۰ هزار نفر با اختلال مواجه شده است.<br><br><a href=\"?q=%23%D8%AD%D9%85%D9%84%D9%87_%D9%86%D8%B8%D8%A7%D9%85%DB%8C\">#حمله_نظامی</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -&nbsp; <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>&nbsp; کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "مدیرعامل شرکت آب و فاضلاب استان هرمزگان اعلام کرد که تأسیسات آب‌شیرین‌کن روستای بونجی واقع در غرب شهرستان جاسک در پی حملات بامداد امروز به طور کامل تخریب شده است. به گفته عبدالحمید حمزه‌پور، #تامین_آب شرب ۲۰ روستای منطقه غرب شهرستان جاسک با جمعیتی حدود ۱۰ هزار نفر با اختلال مواجه شده است.\n\n#حمله_نظامی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/hranews/114243",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/jmJgbBDajH_E68avcubOwnfic24ZH75Lvxro8ksrFONTsAs6X08GII7734iHgHD-vj7Dm2lZPHRjaT1kVTlR_JDoLSHjpwRBHhWsAGWy1TYRJFRdhNltmmR1QupkHyMwIYUqwwm9kfXA7UFS6dqogRea9S78TY1ArU8Pvu17hqKrbjSedaw7elkt7gAk8EsSH3Ed2FUDMPNCz6XkLOZf9MV5vpvucVMfygH4rBAwQmKIKthpBqlbDSbFtJn-iK2Lb75q3kI5r8C6ZRJr6WcaEy9t236cssjEP0WBG0soC24YTcVmjxYsfWme7qsYFc2nE5Eb7MZDd-vw6bE4hxBlcw.jpg",
+          "thumbnail_path": "channels/hranews/media/d9ff660376c404f63609fb2c.jpg",
+          "thumbnail_sha256": "892b7c0cb02cdf48dc23adb23204ca4398fc6c5d4a89d5286e4efd39dcdccd56",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "4",
+      "posted_at": "2026-07-18T11:56:12+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/114243",
+      "reply": null
+    },
     {
       "id": "hranews/114242",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "273",
+      "views_label": "294",
       "posted_at": "2026-07-18T11:09:07+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114242",
@@ -49,7 +77,7 @@
       "plain_text": "گزارشی از بازداشت و تشکیل پرونده قضایی برای یک شهروند در یاسوج\n\n❗️❗️❗️❗️❗️ – دادستان یاسوج از #بازداشت یک شهروند در این شهرستان و تشکیل پرونده قضایی برای وی به دلیل انتشار مطالبی توسط او در شبکه های اجتماعی، خبر داد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "484",
+      "views_label": "494",
       "posted_at": "2026-07-18T09:58:46+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114241",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "524",
+      "views_label": "536",
       "posted_at": "2026-07-18T09:40:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114240",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "722",
+      "views_label": "727",
       "posted_at": "2026-07-18T07:55:03+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114239",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "830",
+      "views_label": "835",
       "posted_at": "2026-07-18T07:22:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114238",
@@ -161,7 +189,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.23K",
+      "views_label": "1.24K",
       "posted_at": "2026-07-17T19:32:39+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114237",
@@ -277,7 +305,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "830",
+      "views_label": "832",
       "posted_at": "2026-07-17T17:06:07+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114232",
@@ -293,7 +321,7 @@
       "plain_text": "مردی در شیراز توسط همسر خود به قتل رسید\n\n❗️❗️❗️❗️❗️– فرمانده انتظامی شیراز از قتل یک مرد ۳۵ ساله توسط همسرش به دلیل اختلافات خانوادگی در این شهرستان خبر داد. به گفته وی متهم توسط پلیس بازداشت شده است.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "966",
+      "views_label": "967",
       "posted_at": "2026-07-17T16:29:39+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114231",
@@ -2409,34 +2437,6 @@
       "posted_at": "2026-07-13T12:55:07+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114144",
-      "reply": null
-    },
-    {
-      "id": "hranews/114143",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/RsKf4hxqyiLQszFvTwx9fK62m-JR3S6ScZ9-_coiN3zgj00IlameEl-eRzpcjjnju32C8PfuyDo1azMref70eqohvR6PNVeF-AGcmgUF6Af2cBTrakrms4qi6Ixkir1hIQcsFDRaBtRl836X6xcW2W6g2tTBn4jsfftIm_9tqgw5IsPgAUsvngTuunmniAMrWsBGSlSNxrEkrxk58kASaKZzzKqvqbh6-kgoqeePDDJitCK9KRio4oGxVJZfpWtPFf83pSAOhcyKues9C6PyzAumcfh6QvO184X9OHcnrGK_3VQGQFivlssT7KHGEr5Sz1saIjgGSHM4Qma4bw4GZQ.jpg",
-      "author_photo_path": "channels/hranews/media/0a27b733cd2a85112b28692c.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "روز جاری شماری از پرستاران و کارکنان کادر درمان، در مقابل ساختمان دانشگاه علوم پزشکی شیراز دست به تجمع اعتراضی زدند. این افراد نسبت به عدم پرداخت معوقات مزدی خود و نحوه تعیین دستمزدها اعتراض دارند.<br><a href=\"?q=%23%D9%BE%D8%B1%D8%B3%D8%AA%D8%A7%D8%B1%D8%A7%D9%86\">#پرستاران</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "روز جاری شماری از پرستاران و کارکنان کادر درمان، در مقابل ساختمان دانشگاه علوم پزشکی شیراز دست به تجمع اعتراضی زدند. این افراد نسبت به عدم پرداخت معوقات مزدی خود و نحوه تعیین دستمزدها اعتراض دارند.\n#پرستاران\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/hranews/114143",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/FKaQ9NcnSqhnFMmq8SdzW4ktLF7607UGUXAuPX9q8qReskjaqP_hZb62UFtttMzjE9LrLQAH7i-YVMqnFSeET9xd1Kis4Q3BaTmx-r63iar-adBwBwqWhmx-F-BywDOr6_FrTTRyzW_EErKINk0c6YcvjQy68EU-SrWCdLHCq3aPbX8sMYCcTym-_OfHVujrHHqfvL0BsWoOOyMC0oPF3QPS206tU0G6bIj6G4K9ozOPVmHr8ILaIyCj1eTffvLH3re-Sp9c9iZoPFW8tI28T_fSavYVwKrDgbwrL6HoQaERz6u7-sPKrPYo4Lg9jHlTQ2LU2XWlI_VVJbZUL632Zw",
-          "thumbnail_path": "channels/hranews/media/ae5e3dfd60d08b04b5ea75c8.jpg",
-          "thumbnail_sha256": "44d26f4e9488431b08e7177acbf876ae84f1eb952c1eb2a6b97ab774653b2558",
-          "duration_label": "0:07",
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [],
-      "views_label": "661",
-      "posted_at": "2026-07-13T12:45:38+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/114143",
       "reply": null
     }
   ]
