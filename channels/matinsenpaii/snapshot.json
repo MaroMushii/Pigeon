@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-20T05:31:54.089Z",
+  "fetched_at": "2026-07-20T05:37:01.126Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,27 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4579",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Y9zlHIxOiiwNvfMwAR-jO60FMuCUe-dS-kuxKiv5H6bcY6pbJTkD39tSV_eu9uWD6WTn-Lp6DC-sAZBHH0qIPuYgj41JulYyqA-4r1-vGSvD2IGAWiyFuS4OqhjJdi6UqjZu8vN2Q848ZgpJK5TJSLZG5rNAzRxLH3gEkgQuHj3AaDDvR4A-skiGiR9YPhd0AqWhkWBQcB5j3AY0gSImrwenyWOX7YrqAyuMKey3jLON-c8o1VYXHTMY5BrDMW_YmmFDPTCHE7m-Jha8Hd4DauIcoqWk9aYWuJh6zopEnph2v5K9qd0gGdyV09ZomsVzGII9ucDB8d9RlN8p1UDE8Q.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a5fc8cee1bfec389430e8221.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "آپدیت جدید Aether v1.3.0:<br><br><a href=\"https://github.com/CluvexStudio/Aether/releases/tag/v1.3.0\" target=\"_blank\" rel=\"noopener\">https://github.com/CluvexStudio/Aether/releases/tag/v1.3.0</a><br><br>توی این ورژن بیشتر روی اسکنر و پایداری اتصال کار کردم:<br><br>یه حالت اسکن جدید اضافه کردم به اسم Ironclad توی این حالت برای هر IP کاندید Aether یه تونل واقعی و کامل میسازه و یه درخواست HTTP واقعی از توش رد میکنه نه فقط یه پینگ ساده. :))<br>یعنی اگه یه Gateway رو با این حالت انتخاب کنه مطمئنید که واقعا کار میکنه نه فقط جواب پینگ داده. کندتر از بقیه حالت‌هاست چون کار بیشتری میکنه... ولی از نظر قطعیت بهترین گزینه‌ست و همینو پیشنهاد میکنم.<br><br>- ریکانکت سریع‌ تر بعد قطعی قبلا اگه تونل قطع میشد (چه MASQUE چه WireGuard) Aether مستقیم میرفت سراغ یه اسکن کامل از صفر که توی حالت‌های سنگین‌ تر مثل Ironclad میتونست چند دقیقه طول بکشه. الان اول همون Gateway قبلی که کار میکرد رو یه تست سریع میگیره<br> و فقط اگه اون دیگه جواب نداد میره سراغ اسکن کامل.<br><br>فیکس UDP روی SOCKS5 وقتی پروکسی رو روی شبکه لوکال باز میکردید اگه AETHER_SOCKS رو روی یه آی‌پی غیر از <a href=\"http://127.0.0.1/\" target=\"_blank\" rel=\"noopener\">127.0.0.1</a> ست میکردید تا از دستگاه‌های دیگه توی شبکه هم بشه وصل شد<br> بخش TCP درست کار میکرد ولی UDP هیچ‌ وقت رد نمیشد<br> فیکس کردم. (گزارش یکی بود issue )<br><br>پشتیبانی از OpenWrt یه بیلد استاتیک جدید اضافه شد (aether-linux-armv7-musl.tar.gz) که مخصوص روتر های OpenWrt و سیستم‌های مبتنی بر musl هست.<br>(یکم مشکل بود این قسمت، کلی وقت گرفت، یکم دیر شد سر این بود)<br><br>لینک اصلی پروژه: <a href=\"https://github.com/CluvexStudio/Aether\" target=\"_blank\" rel=\"noopener\">https://github.com/CluvexStudio/Aether</a>",
+      "plain_text": "آپدیت جدید Aether v1.3.0:\n\nhttps://github.com/CluvexStudio/Aether/releases/tag/v1.3.0\n\nتوی این ورژن بیشتر روی اسکنر و پایداری اتصال کار کردم:\n\nیه حالت اسکن جدید اضافه کردم به اسم Ironclad توی این حالت برای هر IP کاندید Aether یه تونل واقعی و کامل میسازه و یه درخواست HTTP واقعی از توش رد میکنه نه فقط یه پینگ ساده. :))\nیعنی اگه یه Gateway رو با این حالت انتخاب کنه مطمئنید که واقعا کار میکنه نه فقط جواب پینگ داده. کندتر از بقیه حالت‌هاست چون کار بیشتری میکنه... ولی از نظر قطعیت بهترین گزینه‌ست و همینو پیشنهاد میکنم.\n\n- ریکانکت سریع‌ تر بعد قطعی قبلا اگه تونل قطع میشد (چه MASQUE چه WireGuard) Aether مستقیم میرفت سراغ یه اسکن کامل از صفر که توی حالت‌های سنگین‌ تر مثل Ironclad میتونست چند دقیقه طول بکشه. الان اول همون Gateway قبلی که کار میکرد رو یه تست سریع میگیره\nو فقط اگه اون دیگه جواب نداد میره سراغ اسکن کامل.\n\nفیکس UDP روی SOCKS5 وقتی پروکسی رو روی شبکه لوکال باز میکردید اگه AETHER_SOCKS رو روی یه آی‌پی غیر از 127.0.0.1 ست میکردید تا از دستگاه‌های دیگه توی شبکه هم بشه وصل شد\nبخش TCP درست کار میکرد ولی UDP هیچ‌ وقت رد نمیشد\nفیکس کردم. (گزارش یکی بود issue )\n\nپشتیبانی از OpenWrt یه بیلد استاتیک جدید اضافه شد (aether-linux-armv7-musl.tar.gz) که مخصوص روتر های OpenWrt و سیستم‌های مبتنی بر musl هست.\n(یکم مشکل بود این قسمت، کلی وقت گرفت، یکم دیر شد سر این بود)\n\nلینک اصلی پروژه: https://github.com/CluvexStudio/Aether",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": "12"
+        }
+      ],
+      "views_label": "910",
+      "posted_at": "2026-07-20T05:32:13+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4579",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4578",
       "author_name": "Matin SenPai",
@@ -23,11 +44,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "197"
+          "count": "201"
         },
         {
           "emoji": "❤",
-          "count": "26"
+          "count": "27"
         },
         {
           "emoji": "😁",
@@ -42,7 +63,7 @@
           "count": "4"
         }
       ],
-      "views_label": "14.8K",
+      "views_label": "15.3K",
       "posted_at": "2026-07-19T22:44:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4578",
@@ -91,7 +112,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.6K",
+      "views_label": "22.8K",
       "posted_at": "2026-07-19T19:35:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4577",
@@ -132,7 +153,7 @@
           "count": "3"
         }
       ],
-      "views_label": "26.6K",
+      "views_label": "26.7K",
       "posted_at": "2026-07-19T17:25:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4576",
@@ -186,7 +207,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.8K",
       "posted_at": "2026-07-19T17:24:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4575",
@@ -243,7 +264,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.2K",
+      "views_label": "27.3K",
       "posted_at": "2026-07-19T17:08:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4574",
@@ -272,7 +293,7 @@
           "count": "7"
         }
       ],
-      "views_label": "27K",
+      "views_label": "27.1K",
       "posted_at": "2026-07-19T16:45:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4573",
@@ -438,7 +459,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.4K",
+      "views_label": "31.5K",
       "posted_at": "2026-07-19T10:47:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4569",
@@ -843,7 +864,7 @@
           "count": "9"
         }
       ],
-      "views_label": "36.9K",
+      "views_label": "37K",
       "posted_at": "2026-07-18T16:35:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4560",
@@ -4225,56 +4246,6 @@
         "thumbnail_path": null,
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/4465"
-      }
-    },
-    {
-      "id": "MatinSenPaii/4465",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/AhyDjRcMrJHi5PIDi85840oPbdXn-aCpMbQsU3yKK5WL0hJ5XnEtr4WFV36u6ARtQEBurSUMYjPftuyYMM5oyDlLjxwUCTzxnMuWZQd8LzKKICHs7TdcmDgkS1aUbqitt2W-7Fl1EyjHIHGofkYcCIoDaSpF6mvsjdw6UwToZWuPshrofECKY1SVYvMWUa98w3WXiO7QG2sJoFYcUntjkcBqxsvW9JPiAA71JnHjSNVS-4U-LdQNrR9ZhmnFoYpIAt2CD9Tphb_QkTPrMc2VsbqpZX6kXBxDavZ1yvP8Zr-Lc-8T7zZ0eYJAmICqkDuhCsPMnE1duqXc1GkdTUSbTw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/376dc6701f9d64173224fe14.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "برای خودم نگهش میداشتم<tg-emoji emoji-id=\"5472375242385005771\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918D.png')\"><b>👍</b></i></tg-emoji>",
-      "plain_text": "برای خودم نگهش میداشتم👍",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "155"
-        },
-        {
-          "emoji": "❤",
-          "count": "11"
-        },
-        {
-          "emoji": "👍",
-          "count": "9"
-        },
-        {
-          "emoji": "🎃",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "💔",
-          "count": "1"
-        }
-      ],
-      "views_label": "24.2K",
-      "posted_at": "2026-07-14T12:44:02+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4465",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4464",
-        "author_name": "Lira.",
-        "preview_text": "Lira’s first challenge 🌟 به اولین چالش لیرا خوش اومدید! 🤍 این چالش برای همه‌ست؛ فرقی نمی‌کنه تا حالا از لیرا خرید کرده باشید یا نه. فقط کافیه توی این سؤال با ما همراه بشید، چون باور داریم گاهی یک جواب ساده، می‌تونه پشت خودش یک داستان قشنگ داشته باشه. اگر…",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/4464"
       }
     }
   ]
