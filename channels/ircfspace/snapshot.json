@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-20T13:22:55.153Z",
+  "fetched_at": "2026-07-20T13:26:44.612Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,43 @@
     "subscriber_count": "98K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2507",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/e6X8qd9I-3ohqA6bBKZi9yeq6Qm71nrfpRTA_c8A7v3IKCc_OhUVj1exDfqpXYFyCK0BN2ErjKrspSTSeQSuFueDykvWCKsLdoRxcf4YEQgp5XfUlvv1PYO5PYg6I9NXXn9Ifv0MgQek1a1ugQdrTndcKH8x7ukvOVBuSbu2oD-skEFq9hrk59S2sUin8e5nEfHYcI4scBQgPjHV__lSzDraVagZKKoRfAR9oRmiv0KG-EJXwgzHrScPkgXJv5LUAqU3qoiWy44N1heyQP2iJHFQJz0bd93GdVBA2o0jihwMcWKtzqvOa_jTlwSCdCU6CmO8DXVrNjH5L0VS_Eiw-g.jpg",
+      "author_photo_path": "channels/ircfspace/media/6ee1aad7aa029b4cd4d64d98.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "نسخه ۱.۳ از پروژه متن‌باز و رایگان Aether منتشر شده و مهمترین تغییرش اضافه شدن حالت اسکن Ironclad هست. برخلاف حالت‌های قبلی که فقط بررسی می‌کردن یک اندپوینت در دسترسه یا نه، این حالت قبل از اینکه به یه سرور اعتماد کنه، یک تانل واقعی برقرار می‌کنه و یک درخواست HTTP از داخل اون عبور میده تا مطمئن بشه اتصال کار می‌کنه. البته این روش زمان بیشتری می‌بره، اما در عوض احتمال وصل شدن به اندپوینت‌های خراب یا ناپایدار رو تا حد زیادی از بین می‌بره.<br><br>توی این آپدیت روند اتصال مجدد هم هوشمندتر شده؛ اگر ارتباط MASQUE یا WireGuard قطع بشه، Aether دیگه برای دور زدن فیلترینگ مستقیم سراغ اسکن کامل همه اندپوینت‌ها نمیره. اول همون اندپوینتی که چند لحظه قبل روی اون متصل بوده رو دوباره امتحان می‌کنه و فقط اگر از دسترس خارج شده باشه، اسکن جدید رو شروع می‌کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/CluvexStudio/Aether/releases\" target=\"_blank\" rel=\"noopener\">github.com/CluvexStudio/Aether/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "نسخه ۱.۳ از پروژه متن‌باز و رایگان Aether منتشر شده و مهمترین تغییرش اضافه شدن حالت اسکن Ironclad هست. برخلاف حالت‌های قبلی که فقط بررسی می‌کردن یک اندپوینت در دسترسه یا نه، این حالت قبل از اینکه به یه سرور اعتماد کنه، یک تانل واقعی برقرار می‌کنه و یک درخواست HTTP از داخل اون عبور میده تا مطمئن بشه اتصال کار می‌کنه. البته این روش زمان بیشتری می‌بره، اما در عوض احتمال وصل شدن به اندپوینت‌های خراب یا ناپایدار رو تا حد زیادی از بین می‌بره.\n\nتوی این آپدیت روند اتصال مجدد هم هوشمندتر شده؛ اگر ارتباط MASQUE یا WireGuard قطع بشه، Aether دیگه برای دور زدن فیلترینگ مستقیم سراغ اسکن کامل همه اندپوینت‌ها نمیره. اول همون اندپوینتی که چند لحظه قبل روی اون متصل بوده رو دوباره امتحان می‌کنه و فقط اگر از دسترس خارج شده باشه، اسکن جدید رو شروع می‌کنه.\n\n👉 github.com/CluvexStudio/Aether/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2507",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/AWHquf786dMcwhrPMETuMjNTD8UjuFs6jYN7H8TqCdZSAgxRjvteRXf2TzDB-bcjBqd2l-o1BYuQytEdiLSobucT5WkGJSze1lOAADpF6hmK9vO-LJi4IqCpGN4QKn9F2lx-gdiHzXqPYL6rpu1W7i0YpWA6EbGPaERtrcwmLdzuUG_wH5l3BfeyHcxCYDMSfh2aV4frUFRdn0nwWSxmogLlD09Q1X9zd8ZCnUhpmz_LLACv67mOEqZjoGWQ6VqXFTsT4ZFK-ZeWuajI6K3aKxOUwsIJfZHgq7Tnx5qkCrfPJZP634OJfdwurGpCIAmb2TuAIkXN3H8DPzbsBfGZDg.jpg",
+          "thumbnail_path": "channels/ircfspace/media/648f359f7bc9475fd9562738.jpg",
+          "thumbnail_sha256": "5862f814833d046f1708564edf8dc04cfabe94d1631676ca85a7ccabb2cd98cb",
+          "duration_label": null,
+          "aspect_ratio": 1.2698412698412698
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "8"
+        },
+        {
+          "emoji": "👍",
+          "count": "3"
+        }
+      ],
+      "views_label": "1.14K",
+      "posted_at": "2026-07-20T13:23:21+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2507",
+      "reply": null
+    },
     {
       "id": "ircfspace/2506",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -23,7 +60,7 @@
       "reactions": [
         {
           "emoji": "😱",
-          "count": "11"
+          "count": "17"
         },
         {
           "emoji": "❤",
@@ -34,7 +71,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.44K",
+      "views_label": "2.46K",
       "posted_at": "2026-07-20T13:17:00+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2506",
@@ -52,7 +89,7 @@
       "reactions": [
         {
           "emoji": "🤡",
-          "count": "422"
+          "count": "423"
         },
         {
           "emoji": "👍",
@@ -79,7 +116,7 @@
           "count": "2"
         }
       ],
-      "views_label": "19.8K",
+      "views_label": "20.1K",
       "posted_at": "2026-07-18T15:39:11+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2505",
@@ -120,7 +157,7 @@
           "count": "3"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.6K",
       "posted_at": "2026-07-18T15:38:38+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2504",
@@ -165,7 +202,7 @@
           "count": "2"
         }
       ],
-      "views_label": "19.9K",
+      "views_label": "20K",
       "posted_at": "2026-07-18T15:27:34+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2503",
@@ -218,7 +255,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.6K",
+      "views_label": "20.8K",
       "posted_at": "2026-07-18T15:22:17+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2502",
@@ -240,7 +277,7 @@
         },
         {
           "emoji": "👍",
-          "count": "539"
+          "count": "540"
         },
         {
           "emoji": "😢",
@@ -275,7 +312,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-07-18T04:37:51+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2501",
@@ -309,7 +346,7 @@
         },
         {
           "emoji": "👍",
-          "count": "554"
+          "count": "555"
         },
         {
           "emoji": "👎",
@@ -340,7 +377,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.1K",
+      "views_label": "26.2K",
       "posted_at": "2026-07-18T04:27:17+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2500",
@@ -393,7 +430,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21K",
+      "views_label": "21.1K",
       "posted_at": "2026-07-18T04:13:57+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2499",
@@ -434,7 +471,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.2K",
+      "views_label": "24.3K",
       "posted_at": "2026-07-16T13:54:44+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2498",
@@ -487,7 +524,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25K",
+      "views_label": "25.1K",
       "posted_at": "2026-07-16T13:29:35+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2497",
@@ -597,7 +634,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.2K",
+      "views_label": "30.3K",
       "posted_at": "2026-07-15T04:44:57+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2495",
@@ -650,7 +687,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25K",
+      "views_label": "25.2K",
       "posted_at": "2026-07-15T04:04:57+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2494",
@@ -760,7 +797,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.3K",
+      "views_label": "26.4K",
       "posted_at": "2026-07-14T15:49:12+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2492",
@@ -805,7 +842,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.4K",
+      "views_label": "25.5K",
       "posted_at": "2026-07-14T15:46:30+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2491",
@@ -976,7 +1013,7 @@
           "count": "3"
         }
       ],
-      "views_label": "27.3K",
+      "views_label": "27.4K",
       "posted_at": "2026-07-14T04:19:21+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2488",
@@ -5352,83 +5389,6 @@
       "posted_at": "2026-05-31T08:31:11+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2406",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2405",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/vHEOm_vNEKC3BIsFoyGIunNrxJOrkZXp9cv-RLtg21rC53COKI31VsDVjji2XzaPmE2hEuu05YIVdChtfUswTOL8khOxeP0XBmSmEGeGEdcQAuu7oTr-XpzCW7emPHcakp8lBAN0r79fAmhNgXFmd8ZdxPpifKio1p-dKkd0Dho6JJeCu-MEXmuYgzVeScur4Cc4ppDpJWk0NMVPm8a_V81IhoImOn_UNFtnvFIt2O37VW2oBXHkvDKVIV8SGgEEDe7DMuPKklNLv9gycXexaNmIkdNcqegCq2Vlorcfcw6vLRCCcDq6yUyXV14W0TT3YuAzJNtwdQw-1mzuESscbg.jpg",
-      "author_photo_path": "channels/ircfspace/media/f4fd2034d8de32e600542664.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "اعتماد به نفس اگه اپلیکیشن بود<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> mansheyeh<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "اعتماد به نفس اگه اپلیکیشن بود\n\n© mansheyeh\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2405",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/THdSSZva6PqZGKqzenhCWK_NF6inRKNvNaHIpYDJiyzcKbnJsXYWje60cdqAsGeHSfp3xci-G1mhMlCMUMxQxSLdY4AsHFvL2rtMzGDyxlWjgeuO1nUwVLYxonMwhcV5GesARheQsQPzc5iUQW1rqLU5z5GEWtLIW8_z8_hLiRGUedbZ-Q9_kHFDyYCKj6UGfaOXDRfZd-VfZ-wd9S8D7woPFME-0ISAjzHHHEMM06PxgcxMrC37zYWB6kWMi4-s63eR9JHPcBfiHllwbByePVXz6vs9iG1tTHRr53gdQqAqFP1i3AnBb5ozFcBYiMlVEL92WhXwNABkntzwM3NvSA.jpg",
-          "thumbnail_path": "channels/ircfspace/media/228bd4a7f593d2c8e2cda3bd.jpg",
-          "thumbnail_sha256": "ab8d9efeb4f2ff9f65f27eaa848af5fcb1a68dc5e7c79073c4500699ff51c21d",
-          "duration_label": null,
-          "aspect_ratio": 0.7862500000000044
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "10"
-        },
-        {
-          "emoji": "😁",
-          "count": "873"
-        },
-        {
-          "emoji": "🤡",
-          "count": "206"
-        },
-        {
-          "emoji": "🥴",
-          "count": "27"
-        },
-        {
-          "emoji": "❤",
-          "count": "20"
-        },
-        {
-          "emoji": "🗿",
-          "count": "13"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "👎",
-          "count": "3"
-        },
-        {
-          "emoji": "🤬",
-          "count": "3"
-        },
-        {
-          "emoji": "🏆",
-          "count": "3"
-        },
-        {
-          "emoji": "😐",
-          "count": "2"
-        },
-        {
-          "emoji": "⚡",
-          "count": "1"
-        }
-      ],
-      "views_label": "43.5K",
-      "posted_at": "2026-05-31T07:01:56+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2405",
       "reply": null
     }
   ]
