@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-20T21:02:15.518Z",
+  "fetched_at": "2026-07-20T21:07:22.913Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4590",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Y9zlHIxOiiwNvfMwAR-jO60FMuCUe-dS-kuxKiv5H6bcY6pbJTkD39tSV_eu9uWD6WTn-Lp6DC-sAZBHH0qIPuYgj41JulYyqA-4r1-vGSvD2IGAWiyFuS4OqhjJdi6UqjZu8vN2Q848ZgpJK5TJSLZG5rNAzRxLH3gEkgQuHj3AaDDvR4A-skiGiR9YPhd0AqWhkWBQcB5j3AY0gSImrwenyWOX7YrqAyuMKey3jLON-c8o1VYXHTMY5BrDMW_YmmFDPTCHE7m-Jha8Hd4DauIcoqWk9aYWuJh6zopEnph2v5K9qd0gGdyV09ZomsVzGII9ucDB8d9RlN8p1UDE8Q.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a5fc8cee1bfec389430e8221.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>آپدیت جدید Aether-GUI v0.5.0 منتشر شد</b>(با پشتیبانی از MacOS و Linux)<br><br>توی این ورژن، هسته (Core) برنامه رو به آخرین نسخه یعنی v1.3.0 ارتقا دادم. که توی این نسخه تمرکز روی پایدار کردن اتصال و اسکنر بوده. یه سری ویژگی کاربردی هم به رابط کاربری اضافه شده.<br><br>تغییرات اصلی این نسخه:<br><br>1- <b>اسکنر قدرتمند Ironclad:</b> بقیه حالت‌های اسکن فقط چک می‌کردن که آیا Gateway پینگ می‌ده یا نه. اما Ironclad یه تونل کامل و واقعی می‌سازه و یه درخواست HTTP ازش رد می‌کنه تا صددرصد مطمئن بشه که کار می‌کنه. یکم کندتره، اما قطعی‌ترین حالت ممکنه <br><br>2- <b>اتصال مجدد (Reconnect) هوشمندتر:</b> قبلاً اگه اتصالتون قطع می‌شد، Aether می‌رفت از صفر کل آی‌پی‌ها رو اسکن می‌کرد (که تو حالت‌های سنگین ممکنه چند دقیقه طول بکشه). الان اول همون آی‌پی‌ای که تا دو ثانیه پیش کار می‌کرد رو دوباره چک می‌کنه؛ اگه واقعاً مرده بود تازه می‌ره سراغ اسکن کامل <br><br>3- <b>اضافه شدن بخش Obfuscation:</b> این قابلیت دستتون رو باز می‌ذاره تا شدت مخفی کردنِ هندشیک از سیستم‌های فیلترینگ (DPI) رو تنظیم کنید. پروفایل‌هاش با توجه به پروتکلی که انتخاب می‌کنید (MASQUE یا Wireguard) متفاوته. اگه دیدید رو حالت دیفالت وصل نمی‌شه، درجه‌ش رو ببرید بالا <br><br>4- <b>تغییر پورت و Bind Address:</b> الان می‌تونید پورت SOCKS5 رو به دلخواه تغییر بدید یا اینکه روی آی‌پی <code>0.0.0.0</code> ست کنید تا پروکسی رو به کل شبکه‌ی لوکال (مثلاً موبایل‌ها یا تلویزیون تو خونه) Share کنید. اون باگ کلافه‌کننده‌ی پروتکل UDP هم بالاخره تو هسته فیکس شده و الان بدون مشکل توی شبکه‌ی لوکال کار می‌کنه.<br><br>5- <b>پشتیبانی کامل از مک و لینوکس:</b> این اولین نسخه‌ایه که کاملاً مولتی‌پلتفرمه! فایل‌های نصب ویندوز (exe و msi)، فایل‌های مخصوص مک (برای چیپ‌های اینتل و اپل سیلیکون به صورت جداگانه)، و انواع پکیج‌های لینوکس (deb، rpm و AppImage) رو براتون گذاشتم <br><br>6- <b>رفتن به System Tray:</b> گزینه‌ای اضافه شده که وقتی برنامه رو می‌بندید، به جای خروج کامل، بره تو تسک‌بار پایین ویندوز و همونجا تو پس‌زمینه کارشو بکنه <br><br>ممنون از <a href=\"https://t.me/rqzbeh\" target=\"_blank\">@rqzbeh</a> عزیز بابت مشارکت‌هاش تو این آپدیت؛ و ممنون از <a href=\"https://t.me/CluvexStudio\" target=\"_blank\">@CluvexStudio</a> عزیز بابت زحماتش روی هسته‌ی برنامه<br><br>لینک گیت‌هاب برای دانلود نسخه‌های مختلف:<br><a href=\"https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.5.0\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.5.0</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "آپدیت جدید Aether-GUI v0.5.0 منتشر شد(با پشتیبانی از MacOS و Linux)\n\nتوی این ورژن، هسته (Core) برنامه رو به آخرین نسخه یعنی v1.3.0 ارتقا دادم. که توی این نسخه تمرکز روی پایدار کردن اتصال و اسکنر بوده. یه سری ویژگی کاربردی هم به رابط کاربری اضافه شده.\n\nتغییرات اصلی این نسخه:\n\n1- اسکنر قدرتمند Ironclad: بقیه حالت‌های اسکن فقط چک می‌کردن که آیا Gateway پینگ می‌ده یا نه. اما Ironclad یه تونل کامل و واقعی می‌سازه و یه درخواست HTTP ازش رد می‌کنه تا صددرصد مطمئن بشه که کار می‌کنه. یکم کندتره، اما قطعی‌ترین حالت ممکنه\n\n2- اتصال مجدد (Reconnect) هوشمندتر: قبلاً اگه اتصالتون قطع می‌شد، Aether می‌رفت از صفر کل آی‌پی‌ها رو اسکن می‌کرد (که تو حالت‌های سنگین ممکنه چند دقیقه طول بکشه). الان اول همون آی‌پی‌ای که تا دو ثانیه پیش کار می‌کرد رو دوباره چک می‌کنه؛ اگه واقعاً مرده بود تازه می‌ره سراغ اسکن کامل\n\n3- اضافه شدن بخش Obfuscation: این قابلیت دستتون رو باز می‌ذاره تا شدت مخفی کردنِ هندشیک از سیستم‌های فیلترینگ (DPI) رو تنظیم کنید. پروفایل‌هاش با توجه به پروتکلی که انتخاب می‌کنید (MASQUE یا Wireguard) متفاوته. اگه دیدید رو حالت دیفالت وصل نمی‌شه، درجه‌ش رو ببرید بالا\n\n4- تغییر پورت و Bind Address: الان می‌تونید پورت SOCKS5 رو به دلخواه تغییر بدید یا اینکه روی آی‌پی 0.0.0.0 ست کنید تا پروکسی رو به کل شبکه‌ی لوکال (مثلاً موبایل‌ها یا تلویزیون تو خونه) Share کنید. اون باگ کلافه‌کننده‌ی پروتکل UDP هم بالاخره تو هسته فیکس شده و الان بدون مشکل توی شبکه‌ی لوکال کار می‌کنه.\n\n5- پشتیبانی کامل از مک و لینوکس: این اولین نسخه‌ایه که کاملاً مولتی‌پلتفرمه! فایل‌های نصب ویندوز (exe و msi)، فایل‌های مخصوص مک (برای چیپ‌های اینتل و اپل سیلیکون به صورت جداگانه)، و انواع پکیج‌های لینوکس (deb، rpm و AppImage) رو براتون گذاشتم\n\n6- رفتن به System Tray: گزینه‌ای اضافه شده که وقتی برنامه رو می‌بندید، به جای خروج کامل، بره تو تسک‌بار پایین ویندوز و همونجا تو پس‌زمینه کارشو بکنه\n\nممنون از @rqzbeh عزیز بابت مشارکت‌هاش تو این آپدیت؛ و ممنون از @CluvexStudio عزیز بابت زحماتش روی هسته‌ی برنامه\n\nلینک گیت‌هاب برای دانلود نسخه‌های مختلف:\nhttps://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.5.0\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4590",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/OdGwOLtJsn3IMPT-50ZBDK71A2hkQ_yemMj_Qeceh2z2OuP5z_jdwvPgmFYs-ARIz0hLC8ig3lOV-qitrjoD3KyWoMPBAT0cSlVVhh9UuaQujXDm8h4Nf0vP-nY6x2R4dpnpsFWNZqal9905vSW6yfv5NZ13fyMmkurG22rfZjToaNCYuSf5mNcQdsRv20Rsx3mBpr3XYTbmE_yugRke__sBml8SWo9JNqXbu1UVpbjaYqjZWPvFwhc8TbU-ARcbzuuY5Ih_Vg6Hz6RWbJaFRkHKgyyw6FxWYjgXmV1jj3SngXainhntoVPD-7wAuEbOJnPlP50knQpLrPwQMfmyuw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/71b2a2802c7a0e1d0cfe4803.jpg",
+          "thumbnail_sha256": "34cd9d64d061872ef9a34f0e47d35cbca621bfc7adfbe534b73ee81f294b0c02",
+          "duration_label": null,
+          "aspect_ratio": 0.8312499999999948
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "19"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.57K",
+      "posted_at": "2026-07-20T21:03:54+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4590",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4589",
       "author_name": "Matin SenPai",
@@ -23,22 +60,22 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "65"
+          "count": "85"
         },
         {
           "emoji": "❤",
-          "count": "13"
+          "count": "16"
         },
         {
           "emoji": "😁",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "😭",
           "count": "2"
         }
       ],
-      "views_label": "3.36K",
+      "views_label": "4.93K",
       "posted_at": "2026-07-20T20:55:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4589",
@@ -56,18 +93,18 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "37"
+          "count": "48"
         },
         {
           "emoji": "😁",
-          "count": "11"
+          "count": "12"
         },
         {
           "emoji": "❤",
-          "count": "1"
+          "count": "3"
         }
       ],
-      "views_label": "3.53K",
+      "views_label": "5.09K",
       "posted_at": "2026-07-20T20:55:43+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4588",
@@ -94,11 +131,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "91"
+          "count": "102"
         },
         {
           "emoji": "😨",
-          "count": "23"
+          "count": "31"
         },
         {
           "emoji": "😭",
@@ -109,19 +146,19 @@
           "count": "4"
         },
         {
-          "emoji": "🎃",
+          "emoji": "❤",
           "count": "2"
         },
         {
-          "emoji": "❤",
-          "count": "1"
+          "emoji": "🎃",
+          "count": "2"
         },
         {
           "emoji": "💔",
           "count": "1"
         }
       ],
-      "views_label": "4.85K",
+      "views_label": "6.1K",
       "posted_at": "2026-07-20T20:52:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4587",
@@ -139,14 +176,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "72"
+          "count": "74"
         },
         {
           "emoji": "👍",
           "count": "9"
         }
       ],
-      "views_label": "10.5K",
+      "views_label": "11.5K",
       "posted_at": "2026-07-20T20:10:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4586",
@@ -164,7 +201,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "71"
+          "count": "73"
         },
         {
           "emoji": "👍",
@@ -175,7 +212,7 @@
           "count": "3"
         }
       ],
-      "views_label": "10.6K",
+      "views_label": "11.5K",
       "posted_at": "2026-07-20T20:10:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4585",
@@ -214,7 +251,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "189"
+          "count": "191"
         },
         {
           "emoji": "🔥",
@@ -237,7 +274,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.8K",
       "posted_at": "2026-07-20T19:32:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4584",
@@ -280,7 +317,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "628"
+          "count": "631"
         },
         {
           "emoji": "❤",
@@ -307,7 +344,7 @@
           "count": "6"
         }
       ],
-      "views_label": "23.1K",
+      "views_label": "23.4K",
       "posted_at": "2026-07-20T18:24:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4582",
@@ -490,7 +527,7 @@
         },
         {
           "emoji": "👍",
-          "count": "97"
+          "count": "98"
         },
         {
           "emoji": "❤",
@@ -4194,43 +4231,6 @@
       "posted_at": "2026-07-14T19:47:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4478",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4477",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/AhyDjRcMrJHi5PIDi85840oPbdXn-aCpMbQsU3yKK5WL0hJ5XnEtr4WFV36u6ARtQEBurSUMYjPftuyYMM5oyDlLjxwUCTzxnMuWZQd8LzKKICHs7TdcmDgkS1aUbqitt2W-7Fl1EyjHIHGofkYcCIoDaSpF6mvsjdw6UwToZWuPshrofECKY1SVYvMWUa98w3WXiO7QG2sJoFYcUntjkcBqxsvW9JPiAA71JnHjSNVS-4U-LdQNrR9ZhmnFoYpIAt2CD9Tphb_QkTPrMc2VsbqpZX6kXBxDavZ1yvP8Zr-Lc-8T7zZ0eYJAmICqkDuhCsPMnE1duqXc1GkdTUSbTw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/376dc6701f9d64173224fe14.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "به زودی آموزشش رو می‌ذارم. هم دسکتاپ هم اندروید",
-      "plain_text": "به زودی آموزشش رو می‌ذارم. هم دسکتاپ هم اندروید",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "182"
-        },
-        {
-          "emoji": "🔥",
-          "count": "19"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        },
-        {
-          "emoji": "🎃",
-          "count": "2"
-        }
-      ],
-      "views_label": "20.2K",
-      "posted_at": "2026-07-14T19:33:39+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4477",
       "reply": null
     }
   ]
