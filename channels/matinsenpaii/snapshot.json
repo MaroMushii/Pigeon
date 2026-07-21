@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-21T10:03:16.757Z",
+  "fetched_at": "2026-07-21T10:07:19.260Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4595",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/pFbsvqeHABWDoDcLqHG3zPCvT8xkgYoZUt7K8Wvh4reuzZzsRMeCiD56lbRyIwKjLbFMLTzN4W0UCHJodh714papYep309X0Ei6W_J1euxLYzBg42SfNJ4XzNoTwJbxkfEhnUHUfvDlqxwrbzr9funlq_S6rKCP8S6tj7h7lE3p6qi-NqjPSCpiB1UMQfKcSQkiBNkQH8mjkMIJyN0cYTA7awdRWuYp1ekPfTeHmRMPKv4nBvv7qy7rnHg5MeaBA6xIQoSkcZrT0MKhk0CAFmRQikP7fOD6B7k0cRmzzkM7RBIxr7H9mseXlnGPLVYhjLJAv0hG1V4qi8JOEROOktQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/10d089320120e476f802f454.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>آپدیت بزرگ و انقلابی BPB Worker Panel (نسل جدید - نسخه 5.1.1)</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E89.png')\"><b>🎉</b></i><br><br>نسخه جدید و کاملاً بازطراحی‌شده پنل BPB با امکانات بی‌نظیر و تغییرات ساختاری عظیم منتشر شد! در این آپدیت، مدیریت پنل و سرورها بسیار یکپارچه‌تر، امن‌تر و بی‌نیاز از درگیری با داشبورد کلودفلر شده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> <b>مهم‌ترین ویژگی‌ها و تغییرات این نسخه:</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>نصب سریع با One-Click Wizard:</b> دیپلوی پنل حالا فقط از طریق ویزارد آنلاین و اختصاصی انجام می‌شود و پس از نصب، یک لینک کاملاً پرایوت به شما می‌دهد (روش‌های نصب دستی روی این نسخه کار نمی‌کنند). <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>داشبورد مدیریت داخلی (Admin Dashboard):</b> امکان آپدیت پنل به نسخه‌های جدید، حذف کامل پنل، و ریست پسورد مستقیماً از داخل خود پنل اضافه شده است. <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>راه‌اندازی ربات تلگرام:</b> مدیریت کانفیگ‌های تکی، دریافت لینک‌های سابسکریپشن و مانیتورینگ مصرف (همراه با هشدار مصرف بالای ۸۰٪) از طریق ربات تلگرام. <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>حذف کامل Environment Variableها:</b> تمام متغیرهای ثابت (مثل VLESS UUID، Trojan Pass، Proxy IPs و...) از داشبورد کلودفلر حذف شده و مستقیماً داخل پنل قابل آپدیت و مدیریت هستند. <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>ارتقای چشمگیر امنیت:</b><br>لاگین به پنل حالا نیازمند ایمیل کلودفلر شماست.<br>مسیر ورود به پنل به یک آدرس تصادفی و امن (Secure Path) تغییر یافته (دیگر با زدن <code>/panel</code> وارد نخواهید شد). <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>تنظیم سریع Custom Domain:</b> دامنه‌های سفارشی خود را می‌توانید مستقیماً از بخش Common settings وارد کنید تا کانفیگ‌های مربوطه با تگ <code>D</code> به سابسکریپشن شما اضافه شوند. <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>قابلیت‌های جدید شبکه و پروکسی:</b> پشتیبانی از Xhttp و VLESS Encryption برای Chain Proxy در هسته‌های Xray و Clash. <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>انتقال آسان تنظیمات:</b> اضافه شدن قابلیت جذاب به‌روزرسانی و همگام‌سازی تنظیمات از یک پنل ریموت BPB دیگر.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>نکات بسیار مهم برای اتصال کلاینت‌ها:</b><br>حتماً کلاینت‌های خود را به آخرین نسخه آپدیت کنید (حداقل Sing-box نسخه 1.12.0 و v2rayNG نسخه 2.2.3 به بالا).<br>برای اتصال پایدار در v2rayNG، حتماً گزینه <b>Hev TUN</b> را فعال کنید.<br>در صورت مشکل با فرگمنت در برخی ISPها، حالت <code>Packet</code> را روی <code>1-1</code> تنظیم کنید.<br><a href=\"https://github.com/bia-pain-bache/BPB-Worker-Panel/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/bia-pain-bache/BPB-Worker-Panel/releases</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "آپدیت بزرگ و انقلابی BPB Worker Panel (نسل جدید - نسخه 5.1.1) 🎉\n\nنسخه جدید و کاملاً بازطراحی‌شده پنل BPB با امکانات بی‌نظیر و تغییرات ساختاری عظیم منتشر شد! در این آپدیت، مدیریت پنل و سرورها بسیار یکپارچه‌تر، امن‌تر و بی‌نیاز از درگیری با داشبورد کلودفلر شده است.\n✨ مهم‌ترین ویژگی‌ها و تغییرات این نسخه:\n\n🔹 نصب سریع با One-Click Wizard: دیپلوی پنل حالا فقط از طریق ویزارد آنلاین و اختصاصی انجام می‌شود و پس از نصب، یک لینک کاملاً پرایوت به شما می‌دهد (روش‌های نصب دستی روی این نسخه کار نمی‌کنند).\n\n🔹 داشبورد مدیریت داخلی (Admin Dashboard): امکان آپدیت پنل به نسخه‌های جدید، حذف کامل پنل، و ریست پسورد مستقیماً از داخل خود پنل اضافه شده است.\n\n🔹 راه‌اندازی ربات تلگرام: مدیریت کانفیگ‌های تکی، دریافت لینک‌های سابسکریپشن و مانیتورینگ مصرف (همراه با هشدار مصرف بالای ۸۰٪) از طریق ربات تلگرام.\n\n🔹 حذف کامل Environment Variableها: تمام متغیرهای ثابت (مثل VLESS UUID، Trojan Pass، Proxy IPs و...) از داشبورد کلودفلر حذف شده و مستقیماً داخل پنل قابل آپدیت و مدیریت هستند.\n\n🔹 ارتقای چشمگیر امنیت:\nلاگین به پنل حالا نیازمند ایمیل کلودفلر شماست.\nمسیر ورود به پنل به یک آدرس تصادفی و امن (Secure Path) تغییر یافته (دیگر با زدن /panel وارد نخواهید شد).\n🔹 تنظیم سریع Custom Domain: دامنه‌های سفارشی خود را می‌توانید مستقیماً از بخش Common settings وارد کنید تا کانفیگ‌های مربوطه با تگ D به سابسکریپشن شما اضافه شوند.\n🔹 قابلیت‌های جدید شبکه و پروکسی: پشتیبانی از Xhttp و VLESS Encryption برای Chain Proxy در هسته‌های Xray و Clash.\n🔹 انتقال آسان تنظیمات: اضافه شدن قابلیت جذاب به‌روزرسانی و همگام‌سازی تنظیمات از یک پنل ریموت BPB دیگر.\n⚠️ نکات بسیار مهم برای اتصال کلاینت‌ها:\nحتماً کلاینت‌های خود را به آخرین نسخه آپدیت کنید (حداقل Sing-box نسخه 1.12.0 و v2rayNG نسخه 2.2.3 به بالا).\nبرای اتصال پایدار در v2rayNG، حتماً گزینه Hev TUN را فعال کنید.\nدر صورت مشکل با فرگمنت در برخی ISPها، حالت Packet را روی 1-1 تنظیم کنید.\nhttps://github.com/bia-pain-bache/BPB-Worker-Panel/releases\n\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4595",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/bfbqjHunnvq2c8ubkiyEnVn0NiHQNbE0KEd2rgk2mtnrf4VngJ0HiEFWAqLhhDYhAEEnfyT_icfpWWcPLCHDzClyoAok4HC7ZgVP7GVpvhfnQidjX5HvRtSxCuy3DRtJtJFPuxFv4PrBOh1_RkFiGx07hb-KyIaTkIgjC7bQDjecplZ1hpnI6t2uUem2iFrS0xSlOEGkapdax7zO9wWOQFU3l275WbxACXnt33tLxqTQG1LMtTYwj7UYwTvg2-mgJac948-s443_oXElYBA3uVJSm4RhF6CAYtrYus4hnhJTCPHO3Bv6wMNsySrTxLQzlAxhYzU1gpprXom9GJjXXg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/7e5a7d2e9eb5187287f52ec7.jpg",
+          "thumbnail_sha256": "d5bf6331d69822ea108ae8ccf49e18173b478caee48c4a467529626796bf789f",
+          "duration_label": null,
+          "aspect_ratio": 1.9704433497536946
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "33",
+      "posted_at": "2026-07-21T10:07:06+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4595",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4593",
       "author_name": "Matin SenPai",
@@ -23,7 +60,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "68"
+          "count": "69"
         },
         {
           "emoji": "❤",
@@ -233,7 +270,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "237"
+          "count": "238"
         },
         {
           "emoji": "❤",
@@ -266,7 +303,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "123"
+          "count": "124"
         },
         {
           "emoji": "😁",
@@ -281,7 +318,7 @@
           "count": "4"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.5K",
       "posted_at": "2026-07-20T20:55:43+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4588",
@@ -308,7 +345,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "220"
+          "count": "221"
         },
         {
           "emoji": "😨",
@@ -357,7 +394,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "116"
+          "count": "117"
         },
         {
           "emoji": "👍",
@@ -382,7 +419,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "119"
+          "count": "120"
         },
         {
           "emoji": "👍",
@@ -432,7 +469,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "242"
+          "count": "243"
         },
         {
           "emoji": "🔥",
@@ -667,7 +704,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "297"
+          "count": "298"
         },
         {
           "emoji": "❤",
@@ -704,7 +741,7 @@
       "reactions": [
         {
           "emoji": "🎃",
-          "count": "252"
+          "count": "253"
         },
         {
           "emoji": "👍",
@@ -753,7 +790,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "260"
+          "count": "261"
         },
         {
           "emoji": "😁",
@@ -803,7 +840,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "159"
+          "count": "160"
         },
         {
           "emoji": "😁",
@@ -4234,48 +4271,6 @@
         "thumbnail_path": null,
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/4481"
-      }
-    },
-    {
-      "id": "MatinSenPaii/4481",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/AhyDjRcMrJHi5PIDi85840oPbdXn-aCpMbQsU3yKK5WL0hJ5XnEtr4WFV36u6ARtQEBurSUMYjPftuyYMM5oyDlLjxwUCTzxnMuWZQd8LzKKICHs7TdcmDgkS1aUbqitt2W-7Fl1EyjHIHGofkYcCIoDaSpF6mvsjdw6UwToZWuPshrofECKY1SVYvMWUa98w3WXiO7QG2sJoFYcUntjkcBqxsvW9JPiAA71JnHjSNVS-4U-LdQNrR9ZhmnFoYpIAt2CD9Tphb_QkTPrMc2VsbqpZX6kXBxDavZ1yvP8Zr-Lc-8T7zZ0eYJAmICqkDuhCsPMnE1duqXc1GkdTUSbTw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/376dc6701f9d64173224fe14.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "یه ‌GUI راحتتر واسش نوشتم روی ویندوز",
-      "plain_text": "یه ‌GUI راحتتر واسش نوشتم روی ویندوز",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "67"
-        },
-        {
-          "emoji": "❤",
-          "count": "26"
-        },
-        {
-          "emoji": "🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "👎",
-          "count": "3"
-        }
-      ],
-      "views_label": "17.5K",
-      "posted_at": "2026-07-15T04:15:18+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4481",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4479",
-        "author_name": "Matin SenPai",
-        "preview_text": "روی گوشی درست نمایش داده نمیشه",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/erXNdEuTuKnCFoWzfJllLdphuo1h0y9VTUqItXtE92s7uwnKwgd4AU_5fgD0zsLrv-OgK2_hoR8-SKOjfakElQegXlCTt5tDQEwqaFnX3sFH8aSHKpmllqsJrWBz-liurjA1oqVyQCDdBGhyXQNbqf2HfKuj00dkmHtdMPeuqlIgzB4iM-qhEGNHsdJXJrJcI0AeDKkGU_x94kXHxtDk_3cjtqTsVxXTltKyH-Rf2EYPFUQXcfSgecON3SbLl7SYZspdP5MmBtq_3zICK7sUWjNk2VT3_e9WzJCsjMTkCHA12jdmzQCGwpcEogUxuMzOjD7DhuG7y2iXytbxHK8IRg.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/2e8031c8753464d9b8327a2f.jpg",
-        "thumbnail_sha256": "3a411cb6ca51687d1b3e93afc629dd198087aee48f3d782eec97d78d4abbdd19",
-        "permalink": "https://t.me/matinsenpaii/4479"
       }
     }
   ]
