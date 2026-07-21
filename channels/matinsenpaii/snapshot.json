@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-21T21:22:29.055Z",
+  "fetched_at": "2026-07-21T21:27:25.928Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,35 @@
     "subscriber_count": "158K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4605",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/pFbsvqeHABWDoDcLqHG3zPCvT8xkgYoZUt7K8Wvh4reuzZzsRMeCiD56lbRyIwKjLbFMLTzN4W0UCHJodh714papYep309X0Ei6W_J1euxLYzBg42SfNJ4XzNoTwJbxkfEhnUHUfvDlqxwrbzr9funlq_S6rKCP8S6tj7h7lE3p6qi-NqjPSCpiB1UMQfKcSQkiBNkQH8mjkMIJyN0cYTA7awdRWuYp1ekPfTeHmRMPKv4nBvv7qy7rnHg5MeaBA6xIQoSkcZrT0MKhk0CAFmRQikP7fOD6B7k0cRmzzkM7RBIxr7H9mseXlnGPLVYhjLJAv0hG1V4qi8JOEROOktQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/10d089320120e476f802f454.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "یه مقاله توی <a href=\"http://exe.dev/\" target=\"_blank\" rel=\"noopener\">exe.dev</a> خوندم، راجب این بود که اوایل سال ۲۰۲۵ خیلی‌ها می‌گفتن هوش مصنوعی مثل یه «کامپایلر» جدید عمل می‌کنه؛ یعنی همون‌طور که کامپایلر زبان سطح پایین (مثل C++) رو به زبان ماشین تبدیل می‌کنه، هوش مصنوعی هم «زبان طبیعی» (مثلا فارسی) رو به «کد» تبدیل می‌کنه.<br><br>اما الان جواب فرق کرده: <b>نه، کلاد کامپایلر نیست؛ خیلی از اون بهتره!</b><br><br><b>چرا؟ فرقش چیه؟</b><br>توی دنیای واقعی، نرم‌افزار لایه‌لایه ساخته می‌شه.<br><blockquote>مدیرعامل استراتژی می‌ده <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9188.png')\"><b>👈</b></i> مدیر محصول فیچر تعریف می‌کنه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9188.png')\"><b>👈</b></i> آرشیتکت معماری می‌چینه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9188.png')\"><b>👈</b></i> برنامه‌نویس کد می‌زنه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9188.png')\"><b>👈</b></i> و در نهایت کامپایلر کد رو باینری می‌کنه. </blockquote><br>هرکدوم از این لایه‌ها دارن جزئیات رو مشخص‌تر می‌کنن و کلی <b>تصمیم‌گیری ا</b>نجام می‌دن. مشکل اینجاست که ارتباط بین این لایه‌ها پر از اصطکاک، و جلسات خسته‌کننده‌ست.<br><br>کار اصلی کلاد اینجاست: هوش مصنوعی می‌تونه <b>به‌صورت عمودی توی تمام این لایه‌ها حرکت کنه</b>. کلاد می‌تونه همزمان باهاتون درباره استراتژی محصول بحث کنه، معماری بچینه، کد بنویسه و بهینه‌سازی ماشین رو انجام بده؛ بدون اینکه نیاز باشه واسه هماهنگی اینا جلسه بذارید یا از کسی اجازه بگیرید.<br><br><b>یه مثال واقعی</b>:<br>نویسنده‌ی مقاله می‌گه برای سیستمشون نیاز به یه سرور DNS توزیع‌شده و سریع داشتن. به جای اینکه خودشون بشینن کد بزنن، اومدن چند تا ایجنت هوش مصنوعیِ موازی (کلاد و کدکس) بالا آوردن تا کل سیستم رو براشون بسازن.<br><br>نکته‌ی جالب ماجرا اینجا بود:<br>وقتی خروجیِ ایجنت‌های مختلف رو با هم مقایسه کردن، دیدن ایجنت‌ها کلی از مشکلات لبه (Edge cases - مثل وقتی که دیتابیس Rollback می‌شه) رو <b>خودشون متوجه شدن و بدون اینکه از برنامه‌نویس بپرسن، براش راه‌حل و منطقِ کدنویسی طراحی کردن</b>.<br><br>هرچند اگر نظر منِ متین رو بخواید، ai همچنان نیاز به یک متخصص خوب داره که بتونه دیتاش رو Validate کنه، پس به یادگیری ادامه بدید دوستان خوب من<tg-emoji emoji-id=\"5274117846899632751\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br><tg-emoji emoji-id=\"5956273741448089195\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji>منبع: <a href=\"https://blog.exe.dev/claude-is-not-a-compiler\" target=\"_blank\" rel=\"noopener\">https://blog.exe.dev/claude-is-not-a-compiler</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "یه مقاله توی exe.dev خوندم، راجب این بود که اوایل سال ۲۰۲۵ خیلی‌ها می‌گفتن هوش مصنوعی مثل یه «کامپایلر» جدید عمل می‌کنه؛ یعنی همون‌طور که کامپایلر زبان سطح پایین (مثل C++) رو به زبان ماشین تبدیل می‌کنه، هوش مصنوعی هم «زبان طبیعی» (مثلا فارسی) رو به «کد» تبدیل می‌کنه.\n\nاما الان جواب فرق کرده: نه، کلاد کامپایلر نیست؛ خیلی از اون بهتره!\n\nچرا؟ فرقش چیه؟\nتوی دنیای واقعی، نرم‌افزار لایه‌لایه ساخته می‌شه.\nمدیرعامل استراتژی می‌ده 👈 مدیر محصول فیچر تعریف می‌کنه 👈 آرشیتکت معماری می‌چینه 👈 برنامه‌نویس کد می‌زنه 👈 و در نهایت کامپایلر کد رو باینری می‌کنه.\nهرکدوم از این لایه‌ها دارن جزئیات رو مشخص‌تر می‌کنن و کلی تصمیم‌گیری انجام می‌دن. مشکل اینجاست که ارتباط بین این لایه‌ها پر از اصطکاک، و جلسات خسته‌کننده‌ست.\n\nکار اصلی کلاد اینجاست: هوش مصنوعی می‌تونه به‌صورت عمودی توی تمام این لایه‌ها حرکت کنه. کلاد می‌تونه همزمان باهاتون درباره استراتژی محصول بحث کنه، معماری بچینه، کد بنویسه و بهینه‌سازی ماشین رو انجام بده؛ بدون اینکه نیاز باشه واسه هماهنگی اینا جلسه بذارید یا از کسی اجازه بگیرید.\n\nیه مثال واقعی:\nنویسنده‌ی مقاله می‌گه برای سیستمشون نیاز به یه سرور DNS توزیع‌شده و سریع داشتن. به جای اینکه خودشون بشینن کد بزنن، اومدن چند تا ایجنت هوش مصنوعیِ موازی (کلاد و کدکس) بالا آوردن تا کل سیستم رو براشون بسازن.\n\nنکته‌ی جالب ماجرا اینجا بود:\nوقتی خروجیِ ایجنت‌های مختلف رو با هم مقایسه کردن، دیدن ایجنت‌ها کلی از مشکلات لبه (Edge cases - مثل وقتی که دیتابیس Rollback می‌شه) رو خودشون متوجه شدن و بدون اینکه از برنامه‌نویس بپرسن، براش راه‌حل و منطقِ کدنویسی طراحی کردن.\n\nهرچند اگر نظر منِ متین رو بخواید، ai همچنان نیاز به یک متخصص خوب داره که بتونه دیتاش رو Validate کنه، پس به یادگیری ادامه بدید دوستان خوب من🔥\n\n🔗منبع: https://blog.exe.dev/claude-is-not-a-compiler\n\n✉️ t.me/MatinSenPaii",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "10"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.58K",
+      "posted_at": "2026-07-21T21:23:49+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4605",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4600",
       "author_name": "Matin SenPai",
@@ -38,7 +67,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.7K",
+      "views_label": "11.2K",
       "posted_at": "2026-07-21T14:11:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4600",
@@ -83,7 +112,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.3K",
+      "views_label": "10.7K",
       "posted_at": "2026-07-21T14:11:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4599",
@@ -120,7 +149,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.5K",
+      "views_label": "17.7K",
       "posted_at": "2026-07-21T13:00:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4598",
@@ -190,7 +219,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "20K",
       "posted_at": "2026-07-21T12:18:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4597",
@@ -229,7 +258,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "207"
+          "count": "209"
         },
         {
           "emoji": "👍",
@@ -252,7 +281,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.9K",
+      "views_label": "21K",
       "posted_at": "2026-07-21T11:24:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4596",
@@ -313,7 +342,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.2K",
+      "views_label": "19.3K",
       "posted_at": "2026-07-21T10:07:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4595",
@@ -430,7 +459,7 @@
         },
         {
           "emoji": "❤",
-          "count": "27"
+          "count": "28"
         },
         {
           "emoji": "😭",
@@ -461,7 +490,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "25.8K",
       "posted_at": "2026-07-20T21:41:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4591",
@@ -470,8 +499,8 @@
         "post_id": "4590",
         "author_name": "Matin SenPai",
         "preview_text": "آپدیت جدید Aether-GUI v0.5.0 منتشر شد(با پشتیبانی از MacOS و Linux) توی این ورژن، هسته (Core) برنامه رو به آخرین نسخه یعنی v1.3.0 ارتقا دادم. که توی این نسخه تمرکز روی پایدار کردن اتصال و اسکنر بوده. یه سری ویژگی کاربردی هم به رابط کاربری اضافه شده. تغییرات…",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/EVUqiH8b-GtKo5IAce-tsT5FvJ1vNJNCBI4Unj3PmLhyFOWO5S9oQxuV6rjYDTEg7rVIHmHX0blQNA75EoR7rtb8dcEXZG8r-_Plk_lwrk8CiXg33wZyIYQxZX8Ln8O8ILjik1WK1jo6wabFRhe8Rnbro7DxFU2rI7B_j86DbWArHnzeqKBEtscrNz4e66D5f4arhRAcQU3IbVxn3V4K-zR8MyYC8ibj_vXl8Zlzk7xZiuVcab45km0yoJ_AyPady211mKiGjkDak1Bdn2Mf3L1FO24IcAyQnvCAnWJlVno15wCPTKbco1O0-6AIP3G8LhxWoWRb_ga10B0Y8GmFRg.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/55712b42b501e6639d834828.jpg",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/XDFgpwcgF-lioh27xaBFB1gycO5erFgjU_EqHK_SXFAME4EUOm92R_y8SfLFBgEXQQnxDRdgGGPgAeGk6GQzfMElFTCdVfG6LYX_YyZdc1K78dWC3dRS9eczfvRTbAmENUEftOgXJhjFGWg69AJPwGEROzTMSUYJzSeofTkGULtHvPfqmcdE4V1xT0ffimxBHGXnd_PlGqQf_LbZcIlKWzOPbjTVM3Hy4W32uikclCKpSZ3462Mpuh2nN0GqBJt0GlTaJ6H5ClgzGFjnTvA5CmFVYHK6q3x38UeQJrU_vD4FjMxiGmzg63fwv8Giz0tLXHiPX3aQr11XcxzNRth64A.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/39c9dcefee5f5c30e55f61d9.jpg",
         "thumbnail_sha256": "70c856c89e97b6e009dc2fec0f6a79c7a89a0ed0d5bf85edcec3ce1330384194",
         "permalink": "https://t.me/matinsenpaii/4590"
       }
@@ -523,7 +552,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.7K",
       "posted_at": "2026-07-20T21:03:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4590",
@@ -556,7 +585,7 @@
           "count": "4"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-07-20T20:55:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4589",
@@ -589,7 +618,7 @@
           "count": "5"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "24.8K",
       "posted_at": "2026-07-20T20:55:43+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4588",
@@ -616,7 +645,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "242"
+          "count": "243"
         },
         {
           "emoji": "😨",
@@ -701,7 +730,7 @@
           "count": "4"
         }
       ],
-      "views_label": "27.2K",
+      "views_label": "27.3K",
       "posted_at": "2026-07-20T20:10:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4585",
@@ -4330,39 +4359,6 @@
       "posted_at": "2026-07-15T04:50:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4488",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4487",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/AhyDjRcMrJHi5PIDi85840oPbdXn-aCpMbQsU3yKK5WL0hJ5XnEtr4WFV36u6ARtQEBurSUMYjPftuyYMM5oyDlLjxwUCTzxnMuWZQd8LzKKICHs7TdcmDgkS1aUbqitt2W-7Fl1EyjHIHGofkYcCIoDaSpF6mvsjdw6UwToZWuPshrofECKY1SVYvMWUa98w3WXiO7QG2sJoFYcUntjkcBqxsvW9JPiAA71JnHjSNVS-4U-LdQNrR9ZhmnFoYpIAt2CD9Tphb_QkTPrMc2VsbqpZX6kXBxDavZ1yvP8Zr-Lc-8T7zZ0eYJAmICqkDuhCsPMnE1duqXc1GkdTUSbTw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/376dc6701f9d64173224fe14.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "موقتا نیاز دارم بچه‌های گیمر سر این متد Aether بهم فیدبک بدن، ببینم تا چه حد پاسخگو بوده براشون هر پروتکل(یا اصلا نبوده)<br><a href=\"https://t.me/MatinSenPaii?direct\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii?direct</a>",
-      "plain_text": "موقتا نیاز دارم بچه‌های گیمر سر این متد Aether بهم فیدبک بدن، ببینم تا چه حد پاسخگو بوده براشون هر پروتکل(یا اصلا نبوده)\nhttps://t.me/MatinSenPaii?direct",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "108"
-        },
-        {
-          "emoji": "👎",
-          "count": "23"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "2"
-        }
-      ],
-      "views_label": "18.5K",
-      "posted_at": "2026-07-15T04:41:18+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4487",
       "reply": null
     }
   ]
