@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-21T09:27:24.223Z",
+  "fetched_at": "2026-07-21T09:32:28.993Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,51 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1244",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/DNj3XBsHigHFnfLQSgPVrjMcokfq9VFlEFVat61j7dZJ2thLKTbVLptydiB5RzZ2av_1Ej0-7Bgh1m75PEbgWwhwJbxMkomBNL5eEmHzdlZ0EohSfRSArAVvnNL5jKKqrdkeMsdOt1AgRH7ejxTocW6a4ld4FJ-IX59M6Kr7x-SnX7ifQ6wIpmtJgbGls67zjIySL7iKtohakLxUBV93eHiCSCm3YJJ7KpK1wcst7Nia2EXjKxtNJnw8k5-fgBuBatUKH0WYaP3OGdL5tIsg55g-XrKL-wo9-Egdsb3KXezE7-Z8ohGH0SOpkUauyoR-NmlR6qOrCIm5DKIUApMTSQ.jpg",
+      "author_photo_path": "channels/whitedns/media/0e56f6dd994f65a76fabffa4.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<b>آپدیت بزرگ و انقلابی BPB Worker Panel (نسل جدید - نسخه 5.1.1)</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E89.png')\"><b>🎉</b></i><br><br>نسخه جدید و کاملاً بازطراحی‌شده پنل BPB با امکانات بی‌نظیر و تغییرات ساختاری عظیم منتشر شد! در این آپدیت، مدیریت پنل و سرورها بسیار یکپارچه‌تر، امن‌تر و بی‌نیاز از درگیری با داشبورد کلودفلر شده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> <b>مهم‌ترین ویژگی‌ها و تغییرات این نسخه:</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>نصب سریع با One-Click Wizard:</b> دیپلوی پنل حالا فقط از طریق ویزارد آنلاین و اختصاصی انجام می‌شود و پس از نصب، یک لینک کاملاً پرایوت به شما می‌دهد (روش‌های نصب دستی روی این نسخه کار نمی‌کنند). <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>داشبورد مدیریت داخلی (Admin Dashboard):</b> امکان آپدیت پنل به نسخه‌های جدید، حذف کامل پنل، و ریست پسورد مستقیماً از داخل خود پنل اضافه شده است. <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>راه‌اندازی ربات تلگرام:</b> مدیریت کانفیگ‌های تکی، دریافت لینک‌های سابسکریپشن و مانیتورینگ مصرف (همراه با هشدار مصرف بالای ۸۰٪) از طریق ربات تلگرام. <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>حذف کامل Environment Variableها:</b> تمام متغیرهای ثابت (مثل VLESS UUID، Trojan Pass، Proxy IPs و...) از داشبورد کلودفلر حذف شده و مستقیماً داخل پنل قابل آپدیت و مدیریت هستند. <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>ارتقای چشمگیر امنیت:</b><br>لاگین به پنل حالا نیازمند ایمیل کلودفلر شماست.<br>مسیر ورود به پنل به یک آدرس تصادفی و امن (Secure Path) تغییر یافته (دیگر با زدن <code>/panel</code> وارد نخواهید شد). <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>تنظیم سریع Custom Domain:</b> دامنه‌های سفارشی خود را می‌توانید مستقیماً از بخش Common settings وارد کنید تا کانفیگ‌های مربوطه با تگ <code>D</code> به سابسکریپشن شما اضافه شوند. <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>قابلیت‌های جدید شبکه و پروکسی:</b> پشتیبانی از Xhttp و VLESS Encryption برای Chain Proxy در هسته‌های Xray و Clash. <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>انتقال آسان تنظیمات:</b> اضافه شدن قابلیت جذاب به‌روزرسانی و همگام‌سازی تنظیمات از یک پنل ریموت BPB دیگر.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>نکات بسیار مهم برای اتصال کلاینت‌ها:</b><br>حتماً کلاینت‌های خود را به آخرین نسخه آپدیت کنید (حداقل Sing-box نسخه 1.12.0 و v2rayNG نسخه 2.2.3 به بالا).<br>برای اتصال پایدار در v2rayNG، حتماً گزینه <b>Hev TUN</b> را فعال کنید.<br>در صورت مشکل با فرگمنت در برخی ISPها، حالت <code>Packet</code> را روی <code>1-1</code> تنظیم کنید.<br><a href=\"https://github.com/bia-pain-bache/BPB-Worker-Panel/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/bia-pain-bache/BPB-Worker-Panel/releases</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "آپدیت بزرگ و انقلابی BPB Worker Panel (نسل جدید - نسخه 5.1.1) 🎉\n\nنسخه جدید و کاملاً بازطراحی‌شده پنل BPB با امکانات بی‌نظیر و تغییرات ساختاری عظیم منتشر شد! در این آپدیت، مدیریت پنل و سرورها بسیار یکپارچه‌تر، امن‌تر و بی‌نیاز از درگیری با داشبورد کلودفلر شده است.\n✨ مهم‌ترین ویژگی‌ها و تغییرات این نسخه:\n\n🔹 نصب سریع با One-Click Wizard: دیپلوی پنل حالا فقط از طریق ویزارد آنلاین و اختصاصی انجام می‌شود و پس از نصب، یک لینک کاملاً پرایوت به شما می‌دهد (روش‌های نصب دستی روی این نسخه کار نمی‌کنند).\n\n🔹 داشبورد مدیریت داخلی (Admin Dashboard): امکان آپدیت پنل به نسخه‌های جدید، حذف کامل پنل، و ریست پسورد مستقیماً از داخل خود پنل اضافه شده است.\n\n🔹 راه‌اندازی ربات تلگرام: مدیریت کانفیگ‌های تکی، دریافت لینک‌های سابسکریپشن و مانیتورینگ مصرف (همراه با هشدار مصرف بالای ۸۰٪) از طریق ربات تلگرام.\n\n🔹 حذف کامل Environment Variableها: تمام متغیرهای ثابت (مثل VLESS UUID، Trojan Pass، Proxy IPs و...) از داشبورد کلودفلر حذف شده و مستقیماً داخل پنل قابل آپدیت و مدیریت هستند.\n\n🔹 ارتقای چشمگیر امنیت:\nلاگین به پنل حالا نیازمند ایمیل کلودفلر شماست.\nمسیر ورود به پنل به یک آدرس تصادفی و امن (Secure Path) تغییر یافته (دیگر با زدن /panel وارد نخواهید شد).\n🔹 تنظیم سریع Custom Domain: دامنه‌های سفارشی خود را می‌توانید مستقیماً از بخش Common settings وارد کنید تا کانفیگ‌های مربوطه با تگ D به سابسکریپشن شما اضافه شوند.\n🔹 قابلیت‌های جدید شبکه و پروکسی: پشتیبانی از Xhttp و VLESS Encryption برای Chain Proxy در هسته‌های Xray و Clash.\n🔹 انتقال آسان تنظیمات: اضافه شدن قابلیت جذاب به‌روزرسانی و همگام‌سازی تنظیمات از یک پنل ریموت BPB دیگر.\n⚠️ نکات بسیار مهم برای اتصال کلاینت‌ها:\nحتماً کلاینت‌های خود را به آخرین نسخه آپدیت کنید (حداقل Sing-box نسخه 1.12.0 و v2rayNG نسخه 2.2.3 به بالا).\nبرای اتصال پایدار در v2rayNG، حتماً گزینه Hev TUN را فعال کنید.\nدر صورت مشکل با فرگمنت در برخی ISPها، حالت Packet را روی 1-1 تنظیم کنید.\nhttps://github.com/bia-pain-bache/BPB-Worker-Panel/releases\n\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1244",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/g4g6KgTvtkEViTYkiEFri2M5M3eOrjpGuB29wst3O-q2E7HhPTx5bK4IjlubHI-412GMwIgw68SHCUcM-B-rYWF0-gQ0X1iDapuXMjAKfMSyC8dYqul1ilvt0ZkInUPNC4gTmkIHi17BySPYYxswyNAg_c8PL2zSB-BuqlaR7Oue8qlbYm2hbU8UV6Mo7hsql3PrxSAgCixcuG73jfBA12jWD9Tnje1RCPUF3rIP0vgOsCPoi-YbyUU099y4NnUuRk8TvEIyRIBcD241Tg9NA01sdXCursdeG4ZhU6yF7QWAU6cWxuGWnD8OQHt_jNNncpwa_OuW0jd1ThLszxIBNg.jpg",
+          "thumbnail_path": "channels/whitedns/media/e6f59bf6776f247e66aafbd2.jpg",
+          "thumbnail_sha256": "d5bf6331d69822ea108ae8ccf49e18173b478caee48c4a467529626796bf789f",
+          "duration_label": null,
+          "aspect_ratio": 1.9704433497536946
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "8"
+        },
+        {
+          "emoji": "🤣",
+          "count": "2"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        },
+        {
+          "emoji": "👀",
+          "count": "1"
+        }
+      ],
+      "views_label": "724",
+      "posted_at": "2026-07-21T09:29:41+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1244",
+      "reply": null
+    },
     {
       "id": "whitedns/1239",
       "author_name": "White DNS",
@@ -23,7 +68,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "21"
+          "count": "26"
         },
         {
           "emoji": "❤‍🔥",
@@ -34,7 +79,7 @@
           "count": "1"
         }
       ],
-      "views_label": "639",
+      "views_label": "894",
       "posted_at": "2026-07-21T09:13:43+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1239",
@@ -64,14 +109,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "18"
+          "count": "22"
         },
         {
           "emoji": "❤‍🔥",
           "count": "2"
         }
       ],
-      "views_label": "794",
+      "views_label": "1.02K",
       "posted_at": "2026-07-21T09:13:40+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1238",
@@ -89,7 +134,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "85"
+          "count": "86"
         },
         {
           "emoji": "👍",
@@ -116,7 +161,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.98K",
+      "views_label": "5.17K",
       "posted_at": "2026-07-21T08:10:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1235",
@@ -153,7 +198,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.4K",
+      "views_label": "5.59K",
       "posted_at": "2026-07-21T08:03:31+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1234",
@@ -207,7 +252,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.98K",
+      "views_label": "6.02K",
       "posted_at": "2026-07-21T02:21:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1233",
@@ -225,7 +270,7 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "101"
+          "count": "102"
         },
         {
           "emoji": "❤",
@@ -244,7 +289,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.88K",
+      "views_label": "9.97K",
       "posted_at": "2026-07-21T00:16:20+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1232",
@@ -277,7 +322,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.3K",
+      "views_label": "14.4K",
       "posted_at": "2026-07-20T13:58:34+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1231",
@@ -611,7 +656,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.67K",
+      "views_label": "6.7K",
       "posted_at": "2026-07-19T02:50:18+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1225",
@@ -4189,59 +4234,6 @@
       "posted_at": "2026-07-05T00:50:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1108",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1106",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/v2_cNugOIkCa2p6m5bkRrmBvgK7AVdNqmcdOA4z2zIr3lK6JXW4JVS_1B9zqp5izfyY2Yiuuqyfw47LW5h7YTUjwbBIE8XiRhAAe-Y9_OtqMQ-eCwAoKKQen0g0Bt7YBouYDuGd1NllmJq6yqGpL9IqfGYF1Tsxgk3iDHSjtMAN7UARFZ6iBJhOBG3VdeXFFrAYHld9RRAeEs5plKLbmt2ZUGkqPB3I-oe9JEHQorDaeohdHF5WufxDugelXfyAJWRYYX4P0fRkzyRxLDmDS_2wdFXMMCtIVUKxuNox6RZKXElUHTSL2doeJPEjXDyyhHOEgpv-3Abd_yKyMTB9-qA.jpg",
-      "author_photo_path": "channels/whitedns/media/8952fdba1c569978c2f1319a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b><tg-emoji emoji-id=\"5197288647275071607\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i></tg-emoji></b><b> آموزش کامل نصب و راه‌اندازی سرویس MTProto با ابزار MTProxy</b><br><b> فیلترشکن قوی و پرسرعت برای تلگرام</b> <b> <br></b><br><a href=\"https://www.youtube.com/watch?v=pyvB6VSPhwg\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=pyvB6VSPhwg</a><br><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "🛡 آموزش کامل نصب و راه‌اندازی سرویس MTProto با ابزار MTProxy\nفیلترشکن قوی و پرسرعت برای تلگرام\n\nhttps://www.youtube.com/watch?v=pyvB6VSPhwg\n\n\n@WhiteDNS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "180"
-        },
-        {
-          "emoji": "🙏",
-          "count": "9"
-        },
-        {
-          "emoji": "👍",
-          "count": "5"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "💩",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🍓",
-          "count": "1"
-        }
-      ],
-      "views_label": "54.2K",
-      "posted_at": "2026-07-04T15:48:01+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1106",
       "reply": null
     }
   ]
