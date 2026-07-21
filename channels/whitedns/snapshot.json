@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-21T09:12:44.322Z",
+  "fetched_at": "2026-07-21T09:17:33.129Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,68 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1239",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/DNj3XBsHigHFnfLQSgPVrjMcokfq9VFlEFVat61j7dZJ2thLKTbVLptydiB5RzZ2av_1Ej0-7Bgh1m75PEbgWwhwJbxMkomBNL5eEmHzdlZ0EohSfRSArAVvnNL5jKKqrdkeMsdOt1AgRH7ejxTocW6a4ld4FJ-IX59M6Kr7x-SnX7ifQ6wIpmtJgbGls67zjIySL7iKtohakLxUBV93eHiCSCm3YJJ7KpK1wcst7Nia2EXjKxtNJnw8k5-fgBuBatUKH0WYaP3OGdL5tIsg55g-XrKL-wo9-Egdsb3KXezE7-Z8ohGH0SOpkUauyoR-NmlR6qOrCIm5DKIUApMTSQ.jpg",
+      "author_photo_path": "channels/whitedns/media/0e56f6dd994f65a76fabffa4.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "9"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "2"
+        }
+      ],
+      "views_label": "253",
+      "posted_at": "2026-07-21T09:13:43+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1239",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1238",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/DNj3XBsHigHFnfLQSgPVrjMcokfq9VFlEFVat61j7dZJ2thLKTbVLptydiB5RzZ2av_1Ej0-7Bgh1m75PEbgWwhwJbxMkomBNL5eEmHzdlZ0EohSfRSArAVvnNL5jKKqrdkeMsdOt1AgRH7ejxTocW6a4ld4FJ-IX59M6Kr7x-SnX7ifQ6wIpmtJgbGls67zjIySL7iKtohakLxUBV93eHiCSCm3YJJ7KpK1wcst7Nia2EXjKxtNJnw8k5-fgBuBatUKH0WYaP3OGdL5tIsg55g-XrKL-wo9-Egdsb3KXezE7-Z8ohGH0SOpkUauyoR-NmlR6qOrCIm5DKIUApMTSQ.jpg",
+      "author_photo_path": "channels/whitedns/media/0e56f6dd994f65a76fabffa4.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> <b>نسخه 0.0.9 اپلیکیشن WhiteDNS VPN منتشر شد</b><br><br>در نسخه جدید، اپلیکیشن <b>WhiteDNS VPN به‌طور کامل فارسی‌سازی شده است</b> تا استفاده از بخش‌ها و تنظیمات مختلف آن برای کاربران ساده‌تر و قابل‌فهم‌تر باشد.<br><br>همچنین ظاهر اپلیکیشن به‌طور کامل به‌روزرسانی شده و قابلیت‌های جدیدی برای کنترل بهتر اتصال، DNS و کانفیگ‌های شخصی اضافه کرده‌ایم.<br><br>قابلیت‌های جدید:<br><br>• فارسی‌سازی کامل اپلیکیشن<br>• طراحی و ظاهر جدید اپلیکیشن<br>• امکان اضافه کردن DNS اختصاصی با پروتکل‌های <b>DoH</b> و <b>DoT</b><br>• امکان وارد کردن سابسکریپشن‌های شخصی با فرمت‌های <b>Mihomo، V2Ray و JSON</b><br>• امکان تعیین پورت دلخواه برای قابلیت <b>IP Fronting</b><br>• ارتقا و بهبود بخش <b>Connection</b> و فرایند اتصال<br>• اضافه شدن قابلیت <b>TLS Integrity Test</b><br><br>قابلیت <b>IP Fronting</b> به‌خصوص در دوران قطعی یا اختلالات شدید اینترنت می‌تواند بسیار کاربردی باشد. حتی در شرایط فعلی نیز کاربران می‌توانند با استفاده از IPهای تمیز Cloudflare، بعضی از کانکشن‌هایی را که به‌صورت عادی کار نمی‌کنند دوباره فعال کنند.<br><br>قابلیت <b>TLS Integrity Test</b> نیز برای کاربرانی اضافه شده که هنگام استفاده از بعضی کانفیگ‌ها، برای اتصال به سرویس‌هایی مانند <b>ChatGPT</b> با مشکل مواجه می‌شوند.<br><br>با فعال کردن این گزینه، اپلیکیشن پیش از اتصال، سلامت و یکپارچگی TLS را بررسی می‌کند. اگر TLS دست‌کاری یا جایگزین نشده باشد و تست با موفقیت انجام شود، اپلیکیشن به کانفیگ متصل خواهد شد.<br><br>در صورتی که یک کانفیگ این تست را با موفقیت پشت سر نگذارد، اپلیکیشن بررسی کانفیگ‌های دیگر را ادامه می‌دهد تا یک اتصال سالم و مناسب پیدا کند.<br><br>فعال کردن این قابلیت ممکن است زمان اتصال را کمی افزایش دهد، اما می‌تواند مشکل باز نشدن ChatGPT و سرویس‌های مشابه را برطرف کند.<br><br>پیشنهاد می‌کنیم همه کاربران از همین حالا اپلیکیشن را دانلود کرده و آن را به آخرین نسخه به‌روزرسانی کنند. این نسخه یکی از راهکارهایی است که برای شرایط قطعی و اختلالات شدید اینترنت روی آن کار کرده‌ایم و ممکن است در چنین شرایطی بتوانیم استفاده بسیار بیشتری از قابلیت‌های آن داشته باشیم.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> <b>WhiteDNS VPN v0.0.9</b>",
+      "plain_text": "🛡 نسخه 0.0.9 اپلیکیشن WhiteDNS VPN منتشر شد\n\nدر نسخه جدید، اپلیکیشن WhiteDNS VPN به‌طور کامل فارسی‌سازی شده است تا استفاده از بخش‌ها و تنظیمات مختلف آن برای کاربران ساده‌تر و قابل‌فهم‌تر باشد.\n\nهمچنین ظاهر اپلیکیشن به‌طور کامل به‌روزرسانی شده و قابلیت‌های جدیدی برای کنترل بهتر اتصال، DNS و کانفیگ‌های شخصی اضافه کرده‌ایم.\n\nقابلیت‌های جدید:\n\n• فارسی‌سازی کامل اپلیکیشن\n• طراحی و ظاهر جدید اپلیکیشن\n• امکان اضافه کردن DNS اختصاصی با پروتکل‌های DoH و DoT\n• امکان وارد کردن سابسکریپشن‌های شخصی با فرمت‌های Mihomo، V2Ray و JSON\n• امکان تعیین پورت دلخواه برای قابلیت IP Fronting\n• ارتقا و بهبود بخش Connection و فرایند اتصال\n• اضافه شدن قابلیت TLS Integrity Test\n\nقابلیت IP Fronting به‌خصوص در دوران قطعی یا اختلالات شدید اینترنت می‌تواند بسیار کاربردی باشد. حتی در شرایط فعلی نیز کاربران می‌توانند با استفاده از IPهای تمیز Cloudflare، بعضی از کانکشن‌هایی را که به‌صورت عادی کار نمی‌کنند دوباره فعال کنند.\n\nقابلیت TLS Integrity Test نیز برای کاربرانی اضافه شده که هنگام استفاده از بعضی کانفیگ‌ها، برای اتصال به سرویس‌هایی مانند ChatGPT با مشکل مواجه می‌شوند.\n\nبا فعال کردن این گزینه، اپلیکیشن پیش از اتصال، سلامت و یکپارچگی TLS را بررسی می‌کند. اگر TLS دست‌کاری یا جایگزین نشده باشد و تست با موفقیت انجام شود، اپلیکیشن به کانفیگ متصل خواهد شد.\n\nدر صورتی که یک کانفیگ این تست را با موفقیت پشت سر نگذارد، اپلیکیشن بررسی کانفیگ‌های دیگر را ادامه می‌دهد تا یک اتصال سالم و مناسب پیدا کند.\n\nفعال کردن این قابلیت ممکن است زمان اتصال را کمی افزایش دهد، اما می‌تواند مشکل باز نشدن ChatGPT و سرویس‌های مشابه را برطرف کند.\n\nپیشنهاد می‌کنیم همه کاربران از همین حالا اپلیکیشن را دانلود کرده و آن را به آخرین نسخه به‌روزرسانی کنند. این نسخه یکی از راهکارهایی است که برای شرایط قطعی و اختلالات شدید اینترنت روی آن کار کرده‌ایم و ممکن است در چنین شرایطی بتوانیم استفاده بسیار بیشتری از قابلیت‌های آن داشته باشیم.\n\n📱 WhiteDNS VPN v0.0.9",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1238",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/tW_StKeuWvnXBj0b8sfthTxy9WnecvgViVzGvagAfO9O-45WqGsU580icU1GYTu30SHcj4RhtJM-SMoBGu73WJ-MAJUB2wKEee7fkgoztnMzFNiRWJoWJzc4rYeiA4ljm955piAcV-2Ho9NYSC85UjrGNKkUHipIxGaVJOb_PWRV9IGRJjOiaWvR5HXajVM-hRiAwTV-4-jRAXFl4Hl4pCpYO38hHaHghg9Xbq9IiaZHJyaS1dv6kZuej3tg1wgd9zI4tSW351OYm1oFaQcZAgLEpWYlIJfND0cFU2DbcUckFWc0t7p8JNOaNzMgxNRJPq-7SaaXXcJuoZtZPBEGZA.jpg",
+          "thumbnail_path": "channels/whitedns/media/286f8a4dfae8b3f7590bf94a.jpg",
+          "thumbnail_sha256": "f49b5200a0db2d7f7239c672a7c9767fa3a8e1439875b0f1f684827012988d64",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "8"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "351",
+      "posted_at": "2026-07-21T09:13:40+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1238",
+      "reply": null
+    },
     {
       "id": "whitedns/1235",
       "author_name": "White DNS",
@@ -23,7 +85,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "78"
+          "count": "83"
         },
         {
           "emoji": "👍",
@@ -50,7 +112,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.34K",
+      "views_label": "4.63K",
       "posted_at": "2026-07-21T08:10:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1235",
@@ -68,7 +130,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "38"
+          "count": "41"
         },
         {
           "emoji": "👍",
@@ -87,7 +149,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.86K",
+      "views_label": "5.08K",
       "posted_at": "2026-07-21T08:03:31+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1234",
@@ -126,7 +188,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "70"
+          "count": "71"
         },
         {
           "emoji": "🗿",
@@ -141,7 +203,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.79K",
+      "views_label": "5.85K",
       "posted_at": "2026-07-21T02:21:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1233",
@@ -159,7 +221,7 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "98"
+          "count": "100"
         },
         {
           "emoji": "❤",
@@ -178,7 +240,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.63K",
+      "views_label": "9.72K",
       "posted_at": "2026-07-21T00:16:20+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1232",
@@ -211,7 +273,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.3K",
       "posted_at": "2026-07-20T13:58:34+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1231",
@@ -248,7 +310,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.9K",
+      "views_label": "16K",
       "posted_at": "2026-07-19T21:22:05+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1230",
@@ -545,7 +607,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.54K",
+      "views_label": "6.57K",
       "posted_at": "2026-07-19T02:50:18+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1225",
@@ -594,7 +656,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.59K",
+      "views_label": "5.62K",
       "posted_at": "2026-07-18T16:38:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1224",
@@ -4176,84 +4238,6 @@
       "posted_at": "2026-07-04T15:48:01+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1106",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1105",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/v2_cNugOIkCa2p6m5bkRrmBvgK7AVdNqmcdOA4z2zIr3lK6JXW4JVS_1B9zqp5izfyY2Yiuuqyfw47LW5h7YTUjwbBIE8XiRhAAe-Y9_OtqMQ-eCwAoKKQen0g0Bt7YBouYDuGd1NllmJq6yqGpL9IqfGYF1Tsxgk3iDHSjtMAN7UARFZ6iBJhOBG3VdeXFFrAYHld9RRAeEs5plKLbmt2ZUGkqPB3I-oe9JEHQorDaeohdHF5WufxDugelXfyAJWRYYX4P0fRkzyRxLDmDS_2wdFXMMCtIVUKxuNox6RZKXElUHTSL2doeJPEjXDyyhHOEgpv-3Abd_yKyMTB9-qA.jpg",
-      "author_photo_path": "channels/whitedns/media/8952fdba1c569978c2f1319a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5812037770301938686\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8DB7.png')\"><b>🍷</b></i></tg-emoji>درود رفقا یکی از بچها زحمت کشید یه ویدیو کوتاه واسه این ابزار درست کن با کمی بهینه و میانبر واسه دریافت توکن که میتونید ببینید و واسه خودتون و خانوادتون فیلترشکن رایگان بسازید<tg-emoji emoji-id=\"5978787831164704530\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji><br><br><br>ویدیو یوتیوب:<tg-emoji emoji-id=\"5771749860373962541\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B9.png')\"><b>📹</b></i></tg-emoji><br><br><a href=\"https://www.youtube.com/watch?v=e8FNffowfYo\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=e8FNffowfYo</a><br><br> بات دکی:<tg-emoji emoji-id=\"5050921560601265461\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji><br><a href=\"https://t.me/itsyebekhebot\" target=\"_blank\">@itsyebekhebot</a><br><br>نوا پروکسی دریافت توکن:<tg-emoji emoji-id=\"5978787831164704530\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji><br><br><a href=\"https://novaproxy.online/install\" target=\"_blank\" rel=\"noopener\">https://novaproxy.online/install</a><br><br>داشبورد کلودفلر:<tg-emoji emoji-id=\"5309958691854754293\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F928E.png')\"><b>💎</b></i></tg-emoji><br><br><a href=\"https://dash.cloudflare.com/\" target=\"_blank\" rel=\"noopener\">https://dash.cloudflare.com</a><br><br><br>ایمیل فیک:<tg-emoji emoji-id=\"5312016608254762256\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></tg-emoji><br><a href=\"https://t.me/TempMail_org_bot\" target=\"_blank\">@TempMail_org_bot</a><br><br><br>خلاصه: داخل ویدیو نحوه دریافت توکن آسون تر شده و این که یه سری بهینه سازی هم داخل ویدیو هست<tg-emoji emoji-id=\"5379748062124056162\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><br><br><a href=\"https://t.me/yebekhe\" target=\"_blank\">@yebekhe</a> <tg-emoji emoji-id=\"5050921560601265461\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji><br><a href=\"https://t.me/mehdisedighinasab\" target=\"_blank\">@mehdisedighinasab</a> <tg-emoji emoji-id=\"5309958691854754293\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F928E.png')\"><b>💎</b></i></tg-emoji><br><a href=\"https://t.me/xsfilterrnet\" target=\"_blank\">@xsfilterrnet</a> <tg-emoji emoji-id=\"5053169761232356354\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji>",
-      "plain_text": "🍷درود رفقا یکی از بچها زحمت کشید یه ویدیو کوتاه واسه این ابزار درست کن با کمی بهینه و میانبر واسه دریافت توکن که میتونید ببینید و واسه خودتون و خانوادتون فیلترشکن رایگان بسازید✅\n\n\nویدیو یوتیوب:📹\n\nhttps://www.youtube.com/watch?v=e8FNffowfYo\n\nبات دکی:👑\n@itsyebekhebot\n\nنوا پروکسی دریافت توکن:✅\n\nhttps://novaproxy.online/install\n\nداشبورد کلودفلر:💎\n\nhttps://dash.cloudflare.com\n\n\nایمیل فیک:⚡️\n@TempMail_org_bot\n\n\nخلاصه: داخل ویدیو نحوه دریافت توکن آسون تر شده و این که یه سری بهینه سازی هم داخل ویدیو هست❗️\n\n@yebekhe 👑\n@mehdisedighinasab 💎\n@xsfilterrnet 👑",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "139"
-        },
-        {
-          "emoji": "👍",
-          "count": "16"
-        },
-        {
-          "emoji": "🔥",
-          "count": "8"
-        },
-        {
-          "emoji": "🍓",
-          "count": "3"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "23.4K",
-      "posted_at": "2026-07-04T13:22:39+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1105",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1104",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/G7uCHOLlCKpmAN41z3bKimASOHVkTTagJKZ-vx3KMiL-8IgDDI9QpSpXdXPjZoOhej7qWmJVIQoxUF8SPi1N53ZX0VE3ZFnXpVHiOjzSvnejX17gZpIHV3HPwfgsgDu_4t9nDCheP7KEEGc-PJtaXXrnOrB_9DlVoOEbM9KLGXWk_HhcNVmKE36R9sD5YMhctMXS0AAlgTPJ7abGS4TIoxbb7vnFcVvklSyYztMEzldYbD5nP-yR8EclxhjLC1IZ9dggGN3roMR_pPGmKU58_t4N542nOXdiipn3gdwqfE663nN0S43kkB9yuIGme0xy3HkVxGAy-mQuz6Y8N3czyg.jpg",
-      "author_photo_path": "channels/whitedns/media/9830386e276222ecfa369c3f.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<a href=\"?q=%23%D9%85%D9%88%D9%82%D8%AA\">#موقت</a> <br><br><tg-emoji emoji-id=\"5267500801240092311\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i></tg-emoji><b>WhiteDNS Sponsored Proxy <br></b><br><a href=\"https://t.me/proxy?server=78.46.206.15&amp;port=443&amp;secret=ee6ca2b07dc2978ea9f61bd4e96e302b85636c6f7564666c6172652e636f6d\" target=\"_blank\" rel=\"noopener\">https://t.me/proxy?server=78.46.206.15&amp;port=443&amp;secret=ee6ca2b07dc2978ea9f61bd4e96e302b85636c6f7564666c6172652e636f6d</a>",
-      "plain_text": "#موقت\n\n⭐️WhiteDNS Sponsored Proxy\n\nhttps://t.me/proxy?server=78.46.206.15&port=443&secret=ee6ca2b07dc2978ea9f61bd4e96e302b85636c6f7564666c6172652e636f6d",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "24"
-        },
-        {
-          "emoji": "❤",
-          "count": "12"
-        },
-        {
-          "emoji": "👎",
-          "count": "7"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        }
-      ],
-      "views_label": "2.76K",
-      "posted_at": "2026-07-04T13:03:49+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1104",
       "reply": null
     }
   ]
