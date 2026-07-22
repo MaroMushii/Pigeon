@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-22T16:36:47.909Z",
+  "fetched_at": "2026-07-22T16:39:31.207Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "31.8K"
   },
   "posts": [
+    {
+      "id": "hranews/114348",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/omrO1MMhqeTQuWnWEFKwoEMseMgya_9LWxRKw_ZLqgKYsGSs28vy4W0i4QSZ70x7morXYPHplOl9BzLkDTVX-iQpBLv3rIJfpIT8f5EXo2xpI6sKAqA-j1SILitPep4uNiQn8CsAw0YE544P4u8H1zxWYg7exqbJVZV0ylKPkQs-bwQnht8ccwcZwhzW8FMsOzUcbeqI-LuviQqKgHwOhto8SC2GmwekHOckQpWzLc-bE3nB_S6y6SiFMfuigWmA_WuVqeksXWcfRGt0S3H-16VUA9lztq09_jLxfpnSkTRxXiUl64qK1HyBBZAqatZKSvdqrWODCmkNMVnMBus5gg.jpg",
+      "author_photo_path": "channels/hranews/media/d84dcd72242cf218acbf3cae.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "سه‌شنبه ۳۰ تیر ۱۴۰۵؛ ویدیوهای دیگری از زندانیان واحد دو زندان قزلحصار کرج در نهمین روز تحصن و اعتصاب در اعتراض به اجرای احکام اعدام.<br><br><a href=\"?q=%23%D8%B2%D9%86%D8%AF%D8%A7%D9%86_%D9%82%D8%B2%D9%84%D8%AD%D8%B5%D8%A7%D8%B1_%DA%A9%D8%B1%D8%AC\">#زندان_قزلحصار_کرج</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "سه‌شنبه ۳۰ تیر ۱۴۰۵؛ ویدیوهای دیگری از زندانیان واحد دو زندان قزلحصار کرج در نهمین روز تحصن و اعتصاب در اعتراض به اجرای احکام اعدام.\n\n#زندان_قزلحصار_کرج\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/114348",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/p9EOsmnQbDrUUZfpvV-fpU3KL4AHeIfzNxfzElsgRNfmQKFi7EIvfVQjgbUTylz_Yw16CI6cnP93GCLnnevW3keCU7Ky5uOiaDgAF2C43Sc2xQMlbAXnt7JDxJPms-I7rwZRo_JVEt3jp2xltxR5lBcrWT9_QpGiNfwkMukV_UPLbfeuxEKA2RQXjaBw6nE-yBWrm_sGlrOkr0lZBzaeyHOqRtKMRuv4LfN1dHmdtrRp-BM3iwvcXRRMgzD9oaZeNFeuu8RbFz8XzB1aLSUXENo7_kl83zQK_39vNa0ML-x6JOzVY1_5UiVGsqu5T1EgMPC-efvyxpLZdr1t52v9ZQ",
+          "thumbnail_path": "channels/hranews/media/fd5903dcf1512bc43d8d7933.jpg",
+          "thumbnail_sha256": "038e1c379bd7b97d14b66d4478fddf2818f5e56c47fd83975807624dd61b5aa7",
+          "duration_label": "1:24",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "27",
+      "posted_at": "2026-07-22T16:37:06+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/114348",
+      "reply": null
+    },
     {
       "id": "hranews/114347",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "256",
+      "views_label": "274",
       "posted_at": "2026-07-22T15:49:26+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114347",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "340",
+      "views_label": "346",
       "posted_at": "2026-07-22T15:23:06+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114346",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "587",
+      "views_label": "591",
       "posted_at": "2026-07-22T13:58:37+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114345",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "559",
+      "views_label": "563",
       "posted_at": "2026-07-22T13:47:58+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114344",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "507",
+      "views_label": "512",
       "posted_at": "2026-07-22T13:42:26+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114343",
@@ -173,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "653",
+      "views_label": "656",
       "posted_at": "2026-07-22T12:28:45+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114342",
@@ -201,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "869",
+      "views_label": "870",
       "posted_at": "2026-07-22T11:55:30+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114341",
@@ -217,7 +245,7 @@
       "plain_text": "اخراج یک دانشجو با حکم شورای انضباطی دانشگاه شهید بهشتی\n\n❗️❗️❗️❗️❗️– شورای انضباطی دانشگاه شهید بهشتی یک دانشجو را به دلیل آنچه «ایجاد اخلال در روند آموزشی» عنوان شده است، به اخراج از دانشگاه محکوم کرد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "763",
+      "views_label": "765",
       "posted_at": "2026-07-22T11:18:58+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114340",
@@ -277,7 +305,7 @@
       "plain_text": "شهرستان کمیجان؛ یک متهم به حیوان آزاری بازداشت شد\n\n❗️❗️❗️❗️❗️– فرمانده انتظامی شهرستان کمیجان با اشاره به انتشار ویدیو حیوان آزاری در شبکه های اجتماعی از بازداشت فرد حیوان آزار در این شهرستان خبر داد. به گفته وی، همچنین متهم دیگر این پرونده تحت پیگرد قانونی قرار گرفته است.\n\n#حیوان_آزاری\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "771",
+      "views_label": "772",
       "posted_at": "2026-07-22T10:04:27+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114337",
@@ -293,7 +321,7 @@
       "plain_text": "یک زندانی در زندان زاهدان اعدام شد\n\n❗️❗️❗️❗️❗️– امروز چهارشنبه ۳۱ تیرماه، حکم اعدام یک زندانی که پیش‌تر از بابت اتهام قتل به #اعدام محکوم شده بود، در زندان زاهدان شد.\n\n#یاسین_هاشمزهی #یاسین_ولانی\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "706",
+      "views_label": "708",
       "posted_at": "2026-07-22T09:57:00+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114336",
@@ -309,7 +337,7 @@
       "plain_text": "استان کرمان؛ ۹ شهروند بازداشت شدند\n\n❗️❗️❗️❗️❗️– جانشین فرمانده انتظامی استان کرمان از بازداشت ۹ شهروند در نقاط مختلف این استان به اتهام «تشویش اذهان عمومی در فضای مجازی» خبر داد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "693",
+      "views_label": "695",
       "posted_at": "2026-07-22T09:51:34+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114335",
@@ -365,7 +393,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "703",
+      "views_label": "704",
       "posted_at": "2026-07-22T09:22:05+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114333",
@@ -381,7 +409,7 @@
       "plain_text": "صفا رحمانی با تودیع وثیقه از زندان مهاباد آزاد شد\n\n❗️❗️❗️❗️❗️– روز چهارشنبه ۲۴ تیرماه، صفا رحمانی، شهروند اهل مهاباد با تودیع وثیقه از زندان این شهرستان آزاد شد.\n\n#صفا_رحمانی\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "699",
+      "views_label": "701",
       "posted_at": "2026-07-22T09:14:07+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114332",
@@ -465,7 +493,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "996",
+      "views_label": "997",
       "posted_at": "2026-07-22T07:52:30+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114329",
@@ -2340,34 +2368,6 @@
       "posted_at": "2026-07-18T18:05:27+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114249",
-      "reply": null
-    },
-    {
-      "id": "hranews/114248",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/kNRqx99Ii6t9hO1bW2_Pqb7w-eepN0O7sb9cPrvsGbeDAM6mWSiQEbXsdaQcHMVrf8foFGKCAw4N1atZ2KQ2oS9cSxDuEV4c_N9HtOOX7GohFsYj0Qj9XaVJu67XGk6UwLbgzBwXPrXbnIFoL3hRjMcG1fgq_WtKiFWsWNXl-3gHFmKvfOkKEuWv03Z_b9eYZb1IbXoltyTTb4pUN1fbobrgCw5T9SIOLhp2VRA5Cm6eRyd5oUQKG-9P6CUJb08BbkzwoxBTcORSl38sb50pz7FnDBUdneFfMWG5qYpCtAH2A3a2W7p4NwxtV9cLyKFgDa18OEDFXZ0kfQYEdnEpRg.jpg",
-      "author_photo_path": "channels/hranews/media/3da49dde23c266eb2a4a547e.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "زندان اراک؛ ابوالفضل خوران کماکان از رسیدگی پزشکی محروم است<br><br><tg-emoji emoji-id=\"4936376861581116178\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936234406105842841\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936202185261187827\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933936920725029797\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933769043338331221\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji>– ابوالفضل خوران، فعال صنفی معلمان محبوس در زندان اراک که به بیماری کلستئاتوم مبتلا است و به دلیل عوارض ناشی از آن نیاز به انجام عمل جراحی دارد، همچنان از دسترسی به خدمات درمانی تخصصی و اعزام به مراکز درمانی خارج از زندان محروم مانده است. همچنین، با وجود ثبت درخواست تجمیع احکام از سوی این زندانی، تاکنون اقدامی در این خصوص صورت نگرفته است.<br><br>به گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، ابوالفضل خوران دوران محکومیت خود را در زندان اراک سپری میکند.<br><br>یک منبع مطلع نزدیک به خانواده این زندانی، ضمن تایید این موضوع به هرانا گفت: آقای خوران در پی آسیب‌دیدگی از ناحیه گوش راست، به بیماری کلستئاتوم مبتلا شده و در نتیجه آن دچار کم‌شنوایی شده است. با توجه به تشخیص پزشکان مبنی بر ضرورت انجام عمل جراحی، مسئولان زندان تاکنون اقدامی برای اعزام وی به مراکز درمانی خارج از زندان انجام نداده‌اند. مسئولان بهداری زندان نیز صرفاً به تجویز داروهای مسکن اکتفا می‌کنند.<br><br><a href=\"?q=%23%D8%A7%D8%A8%D9%88%D8%A7%D9%84%D9%81%D8%B6%D9%84_%D8%AE%D9%88%D8%B1%D8%A7%D9%86\">#ابوالفضل_خوران</a><br><br><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-f27325d7/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ادامه مطلب</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "زندان اراک؛ ابوالفضل خوران کماکان از رسیدگی پزشکی محروم است\n\n❗️❗️❗️❗️❗️– ابوالفضل خوران، فعال صنفی معلمان محبوس در زندان اراک که به بیماری کلستئاتوم مبتلا است و به دلیل عوارض ناشی از آن نیاز به انجام عمل جراحی دارد، همچنان از دسترسی به خدمات درمانی تخصصی و اعزام به مراکز درمانی خارج از زندان محروم مانده است. همچنین، با وجود ثبت درخواست تجمیع احکام از سوی این زندانی، تاکنون اقدامی در این خصوص صورت نگرفته است.\n\nبه گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، ابوالفضل خوران دوران محکومیت خود را در زندان اراک سپری میکند.\n\nیک منبع مطلع نزدیک به خانواده این زندانی، ضمن تایید این موضوع به هرانا گفت: آقای خوران در پی آسیب‌دیدگی از ناحیه گوش راست، به بیماری کلستئاتوم مبتلا شده و در نتیجه آن دچار کم‌شنوایی شده است. با توجه به تشخیص پزشکان مبنی بر ضرورت انجام عمل جراحی، مسئولان زندان تاکنون اقدامی برای اعزام وی به مراکز درمانی خارج از زندان انجام نداده‌اند. مسئولان بهداری زندان نیز صرفاً به تجویز داروهای مسکن اکتفا می‌کنند.\n\n#ابوالفضل_خوران\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/hranews/114248",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/DOpc9ulE2ED9w6dx14w4hksptIuAyatnyRcNVJCMjcUvXzrApdJms5PCJYm3GC6KWxjVAuBRMearxarv50UhXKa05sHZTaHtCGYvuIr4psXOEuEnAtbydIUU-a7ZB3CHkiat1ceJUzRduFmUARKI4CNSYIYAXLtD1a3F4DJR6nIql0QJK3gMVXoJm4cSVVktUNrQ-vttELlS0F7St94PcOMgwH9He_sntZMK8Rx4ZqF7V-ykEE0z8TnVbgXTUgvOyo_m4xD6SeFjiMDZLXzRWt0Yr5TPsZi8G1I-z8O59H8f3tLD1uN65j0Evz05X54xo523NUkI1pfX-HQ-znuzsA.jpg",
-          "thumbnail_path": "channels/hranews/media/aa6311607e54a752ff0d2b93.jpg",
-          "thumbnail_sha256": "d9e8474da29bb389c948e6883ecfb4f20d34ffde781e852e63aeb63dde4a9cd9",
-          "duration_label": null,
-          "aspect_ratio": 1.5009380863039399
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.11K",
-      "posted_at": "2026-07-18T17:15:24+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/114248",
       "reply": null
     }
   ]
