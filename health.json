@@ -1,19 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-22T19:27:16.463Z",
-  "succeeded": 20,
-  "failed": [
-    {
-      "username": "matinsenpaii",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "telegram",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "whitedns",
-      "error": "The operation was aborted due to timeout"
-    }
-  ]
+  "generated_at": "2026-07-22T19:31:53.083Z",
+  "succeeded": 23,
+  "failed": []
 }
