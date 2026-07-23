@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-23T07:56:51.507Z",
+  "fetched_at": "2026-07-23T08:01:55.165Z",
   "channel": {
     "username": "mamlekate",
     "title": "مملکته",
@@ -21,7 +21,7 @@
       "plain_text": "📝 مدل‌های هوش مصنوعی اوپن‌ای‌آی در آزمایش از کنترل خارج شدند و به یک استارت‌آپ حمله کردند\n\nشرکت اوپن ای آی اعلام کرد که یک عامل خودمختار مبتنی بر مدل های پیشرفته هوش مصنوعی این شرکت، در جریان یک آزمایش امنیتی از کنترل خارج شد و با انجام یک حمله سایبری، زیرساخت های استارت آپ هوش مصنوعی هاگینگ فیس (Hugging Face) را که هفته گذشته هدف نفوذ قرار گرفته بود، به خطر انداخت.\n\n\n📺 خلاصه اتفاقی که OpenAI توی گزارش منتشر کرده:\n\n\nیه تست امنیت سایبری داخلی به وسیله OpenAI برگزار میشه و برای اینکه حداکثر توانایی مدل رو بسنجه، بعضی محدودیت‌های ایمنی رو موقتاً کم میکنه.\n\nمدل‌ها مأمور شدن چالش‌های پیشرفته ExploitGym رو حل کنن.\n\nتست داخل یه Sandbox بدون اینترنت مستقیم اجرا می‌شد.\n\nمدل‌ها یه آسیب‌پذیری Zero-Day توی زیرساخت Sandbox پیدا کردن.\n\nاز همون آسیب‌پذیری استفاده کردن تا از Sandbox خارج بشن و دسترسی بیشتری بگیرن.\n\nبعد با Privilege Escalation و Lateral Movement خودشون رو به سیستمی رسوندن که اینترنت داشت.\n\nمدل‌ها حدس زدن جواب‌های آزمون احتمالاً روی Hugging Face باشه.\n\nبعد با سوءاستفاده از چند آسیب‌پذیری و اطلاعات ورود، وارد زیرساخت Hugging Face شدن.\n\nآخر هم جواب‌های آزمون رو از دیتابیس برداشتن و به‌جای حل واقعی سؤال‌ها، از اون‌ها برای تقلب توی ارزیابی استفاده کردن.\n\nمن که پشمی برام نمونده! 😂\n\naleskxyz\n@mamlekate",
       "media": [],
       "reactions": [],
-      "views_label": "93.1K",
+      "views_label": "93.6K",
       "posted_at": "2026-07-22T22:32:21+00:00",
       "edited": true,
       "permalink": "https://t.me/mamlekate/103976",
@@ -42,7 +42,7 @@
           "count": "2"
         }
       ],
-      "views_label": "90.5K",
+      "views_label": "90.9K",
       "posted_at": "2026-07-22T22:28:28+00:00",
       "edited": true,
       "permalink": "https://t.me/mamlekate/103975",
@@ -54,11 +54,11 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/cb0vj-sBwvqL91R-hk280TGhi5VZ_QJni40qsC6m1jtWLjnLdtm1NHhLkMUj4P5tlPm43SUFNhRU8e-hiuqaywma5i4KhAEpVdybbz0q1Wj6jmFCaFaGfuqV2tAPAhkaglMTTjQSYV6qTLR9X8BoR5koG30z4OwmnBYwTjz5C-6YzdLzcKlytBAwcQw6BsM5oWqDpc91ZBkAgqm0KIyGic-XeKx2siBSOr-YnIMRxiye-O5_IgUbex-2QBViyQRTj668pafuow3N0bkNI6GeH6C55uwOcThkVO1dUwtEesjOqBjSzY7tggc4yqoxRprP5FqrfrG5DgOuL2NfAgpOtQ.jpg",
       "author_photo_path": "channels/mamlekate/media/65934cda4054a113cce8b52c.jpg",
       "author_photo_sha256": "4704d8c725f61e72c13a22534baf97aeb1dcb92719e7e97f71ac5e3828607310",
-      "body_html": "<tg-emoji emoji-id=\"5922360237297245792\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i></tg-emoji> سلام اهواز ساعت ۰۰:۰۸ دقیقه زدن ولی نسبتا صداش دور بود از منطقه گلستان که من هستم<br><br><tg-emoji emoji-id=\"5922360237297245792\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i></tg-emoji> بوشهر ۳ تا سنگین زدن ۱۲:۴۹<br>از دیشب بدتر<br><br><tg-emoji emoji-id=\"5940303146076086045\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i></tg-emoji> چابهارو از صبح انقد زده که از بعدازظهر نتا رو قطع کردن<br><br><tg-emoji emoji-id=\"5940303146076086045\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i></tg-emoji> سلام ساعت ۰۱:۰۷ دقیقه شهریار صدای پدافند میاد<br><br><a href=\"https://t.me/mamlekate_pm\" target=\"_blank\">@mamlekate_pm</a>",
-      "plain_text": "📝 سلام اهواز ساعت ۰۰:۰۸ دقیقه زدن ولی نسبتا صداش دور بود از منطقه گلستان که من هستم\n\n📝 بوشهر ۳ تا سنگین زدن ۱۲:۴۹\nاز دیشب بدتر\n\n📝 چابهارو از صبح انقد زده که از بعدازظهر نتا رو قطع کردن\n\n📝 سلام ساعت ۰۱:۰۷ دقیقه شهریار صدای پدافند میاد\n\n@mamlekate_pm",
+      "body_html": "<tg-emoji emoji-id=\"5922360237297245792\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i></tg-emoji> سلام اهواز ساعت ۰۰:۰۸ دقیقه زدن ولی نسبتا صداش دور بود از منطقه گلستان که من هستم<br><br><tg-emoji emoji-id=\"5922360237297245792\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i></tg-emoji> بوشهر ۳ تا سنگین زدن ۱۲:۴۹<br>از دیشب بدتر<br><br><tg-emoji emoji-id=\"5922360237297245792\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i></tg-emoji> بوشهر انفجار ساعت ۳:۵۹<br><br><br><tg-emoji emoji-id=\"5940303146076086045\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i></tg-emoji> چابهارو از صبح انقد زده که از بعدازظهر نتا رو قطع کردن<br><br><tg-emoji emoji-id=\"5940303146076086045\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i></tg-emoji> سلام ساعت ۰۱:۰۷ دقیقه شهریار صدای پدافند میاد<br><br><a href=\"https://t.me/mamlekate_pm\" target=\"_blank\">@mamlekate_pm</a>",
+      "plain_text": "📝 سلام اهواز ساعت ۰۰:۰۸ دقیقه زدن ولی نسبتا صداش دور بود از منطقه گلستان که من هستم\n\n📝 بوشهر ۳ تا سنگین زدن ۱۲:۴۹\nاز دیشب بدتر\n\n📝 بوشهر انفجار ساعت ۳:۵۹\n\n\n📝 چابهارو از صبح انقد زده که از بعدازظهر نتا رو قطع کردن\n\n📝 سلام ساعت ۰۱:۰۷ دقیقه شهریار صدای پدافند میاد\n\n@mamlekate_pm",
       "media": [],
       "reactions": [],
-      "views_label": "101K",
+      "views_label": "102K",
       "posted_at": "2026-07-22T21:32:52+00:00",
       "edited": true,
       "permalink": "https://t.me/mamlekate/103974",
@@ -356,8 +356,8 @@
           "asset_url": "https://t.me/mamlekate/103960",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/G3Nvm-kQ8itNB32KSjUT3rFufdqUatvoW0zbEfEydBDGI4tObuUsXHGxaWok_82WKejyheFTb79rsyvzFv4uYQJA-bKb0gtYwAGmjWBOjlhtzJbP0E061MNSuyHaU44D6eABA6fAQHLdhhmsEGrp_SZj6rgMf_EkRm0pwAUTVE10fu6KSFv51h7aERIeZqtv6obA_JnbXTKGx4irCZCyd4SbCnf30cZdjuYk8j4-Ill9XlX3pB4winJs5Urs97uMQxjaepPNn8vmYL6BDkEtpnkgD9xlUp8yu_XlKJRsBqPHdbLAY9Eh0q4jdUJIw1sUNTiQpGSgmsT3gKT0NX3BoQ.jpg",
-          "thumbnail_path": "channels/mamlekate/media/1b226afc79db63b198d35d75.jpg",
+          "thumbnail_url": "https://cdn4.telesco.pe/file/jlt4EvvroCcr8Q2Evj36tWA5eW4t56-IBAsyLKtN4DK0JElw-6xzi4m5enuWVWckhl_BELyF5EBxu4ODMIYEDxlTRJuTzabgKWylFLw5d8V9eUrb-4zUmiPG9QaU5o2CBZLT5jVx8_nL4qhzDu-B03UWBO2JUN9h-ICwf8Z3zhmPSlxogw3PPkrtUVQe0-wmDPfr17_lhGrOZEKZW-F-O7V9I4pqSpjlK9tu4-QyyxH3fpILugLXTahYv1ri_0tlF7w8b8QaZUCFpCjlgG-YBUXTq6y5uZQJPp0IWB2h28odbDP0em-Jep-eD3Cxfo70bUGZvBee3ZbdQi9gPiiz_g.jpg",
+          "thumbnail_path": "channels/mamlekate/media/fa7ce89d3e8b6e50a16203b7.jpg",
           "thumbnail_sha256": "ecaec1bac8feb2bbeb53d51f0166f67900d37cfc983c49ca9f7d159152cf66ef",
           "duration_label": null,
           "aspect_ratio": 0.9050000000000062
