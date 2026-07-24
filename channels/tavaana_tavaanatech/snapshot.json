@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-24T09:38:18.168Z",
+  "fetched_at": "2026-07-24T09:42:04.671Z",
   "channel": {
     "username": "tavaana_tavaanatech",
     "title": "آموزشکده توانا",
@@ -32,7 +32,12 @@
           "aspect_ratio": 0.8
         }
       ],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": "🕊",
+          "count": "1"
+        }
+      ],
       "views_label": "99",
       "posted_at": "2026-07-24T09:29:48+00:00",
       "edited": false,
@@ -66,7 +71,7 @@
           "count": "5"
         }
       ],
-      "views_label": "283",
+      "views_label": "284",
       "posted_at": "2026-07-24T09:14:32+00:00",
       "edited": false,
       "permalink": "https://t.me/Tavaana_TavaanaTech/105051",
