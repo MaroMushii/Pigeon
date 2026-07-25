@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-25T02:21:50.694Z",
+  "fetched_at": "2026-07-25T02:26:47.881Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,55 @@
     "subscriber_count": "157K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4656",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/v5pDBFvRflqgTit95iaNRfFBmFIrboRMXOZ_e87S51bzoOUY9uii4nxMxUE4Pa420fNSuAgymWbCA36f3xS4HgYGhggZcY9_iaKwKE3oLIpuSoaWpJ5-bCb4eVIOQgZtAXdFf57sJopsh_I2eczbfWFYYTskH1Hils_ryU8lYT8pmQheO4h4hsdgoVDz7-jIfROGvphlhUnv55To_0LGPABhDbItpXJhkk_mh6GeefN5PkVRJI5kUmDfuopXILzFsfvwVnfFhSCLAbr41f6ZOiXgloUMX-yviJD7ZCggzWQP2hNSoYILgWww4daAYDIq5qd93WYt3nnLUq5aPqs6rg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/5bded295ade41f44427f596d.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "تا اکانت گیتهاب سازنده‌ی Aethery اندروید درست میشه، به هیچ وجه از پروتکل MASQUE روی اپ اندروید استفاده نکنید.",
+      "plain_text": "تا اکانت گیتهاب سازنده‌ی Aethery اندروید درست میشه، به هیچ وجه از پروتکل MASQUE روی اپ اندروید استفاده نکنید.",
+      "media": [],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-07-25T02:26:32+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4656",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/4655",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/v5pDBFvRflqgTit95iaNRfFBmFIrboRMXOZ_e87S51bzoOUY9uii4nxMxUE4Pa420fNSuAgymWbCA36f3xS4HgYGhggZcY9_iaKwKE3oLIpuSoaWpJ5-bCb4eVIOQgZtAXdFf57sJopsh_I2eczbfWFYYTskH1Hils_ryU8lYT8pmQheO4h4hsdgoVDz7-jIfROGvphlhUnv55To_0LGPABhDbItpXJhkk_mh6GeefN5PkVRJI5kUmDfuopXILzFsfvwVnfFhSCLAbr41f6ZOiXgloUMX-yviJD7ZCggzWQP2hNSoYILgWww4daAYDIq5qd93WYt3nnLUq5aPqs6rg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/5bded295ade41f44427f596d.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>آپدیت جدید Aether-GUI v0.6.0 منتشر شد! </b><br><br>هسته‌ی برنامه رو به نسخه‌ی جدید v1.4.0 ارتقا دادم. تو این نسخه تمرکز اصلی سازنده روی تأمین امنیت MASQUE، فیکس کردن باگ‌های مموری و بالا بردن پایداری اتصالات WireGuard و Gool بوده.<br>منم یه مشارکت کوچولویی روی خود هسته داشتم.<br><br>تغییرات اصلی این آپدیت:<br><br>1- <b>امنیت در پروتکل MASQUE:</b> قبلاً وقتی وصل می‌شدید، کلاینت هیچ تاییدیه‌ای از سرور نمی‌گرفت و اگر کسی وسط راه سعی می‌کرد با یه سرتیفیکیت فیک گولتون بزنه، برنامه متوجه نمی‌شد. اما الان اتصالات MASQUE سرتیفیکیت سرورهای کلادفلر رو به صورت دقیق (از طریق هش‌های SPKI) بررسی می‌کنن تا دیگه کسی نتونه ترافیک رو شنود کنه.<br><br>2- <b>پایداری WireGuard و Gool:</b> قبلاً بعضی وقتا برنامه بهتون می‌گفت متصل شدید، در حالی که دیتا اصلاً ردوبدل نمی‌شد و فقط روی یه پروکسی SOCKS5 گیر کرده بود. اما الان یه سیستم بررسی سلامت (Health Check) مداوم داره که اگر دیتایی از سمت سرور برنگرده، خودش به صورت اتوماتیک اتصال رو قطع و دوباره وصل می‌کنه.<br><br>3- <b>اتصال مجدد خودکار در Gool:</b> تو نسخه‌های قبل اگه تونل بیرونی Gool قطع می‌شد، کل فرآیند کِرَش می‌کرد و خارج می‌شد. الان Gool هم مثل بقیه پروتکل‌ها خودش هوشمندانه دوباره ریکانکت می‌کنه.<br><br>4- <b>فیکس شدن نشت مموری (Memory Leak):</b> یه باگ رو اعصاب بود که وقتی اتصالتون زیاد قطع و وصل می‌شد، تسک‌های قدیمی تو بک‌گراند باز می‌موندن و آروم‌آروم رمِ سیستم پر می‌شد. این مشکل تو تمام پروتکل‌ها کامل برطرف شد.<br><br>5- <b>هوشمندی در مصرف منابع:</b> از این به بعد Aether همون اول کار، تعداد هسته‌های CPU و مقدار رم سیستمتون رو می‌خونه و میزان اسکن همزمان (Concurrency)، بافرهای شبکه و صف‌های داخلیش رو بر همون اساس تنظیم می‌کنه. این قابلیت برای کسایی که می‌خوان ابزار رو روی روترها و بردهای ضعیف‌تر بالا بیارن فوق‌العاده‌ست.<br><br>لینک گیت‌هاب برای دانلود(نسخه‌های مک، لینوکس و ویندوز):<br><a href=\"https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.6.0\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.6.0</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "آپدیت جدید Aether-GUI v0.6.0 منتشر شد!\n\nهسته‌ی برنامه رو به نسخه‌ی جدید v1.4.0 ارتقا دادم. تو این نسخه تمرکز اصلی سازنده روی تأمین امنیت MASQUE، فیکس کردن باگ‌های مموری و بالا بردن پایداری اتصالات WireGuard و Gool بوده.\nمنم یه مشارکت کوچولویی روی خود هسته داشتم.\n\nتغییرات اصلی این آپدیت:\n\n1- امنیت در پروتکل MASQUE: قبلاً وقتی وصل می‌شدید، کلاینت هیچ تاییدیه‌ای از سرور نمی‌گرفت و اگر کسی وسط راه سعی می‌کرد با یه سرتیفیکیت فیک گولتون بزنه، برنامه متوجه نمی‌شد. اما الان اتصالات MASQUE سرتیفیکیت سرورهای کلادفلر رو به صورت دقیق (از طریق هش‌های SPKI) بررسی می‌کنن تا دیگه کسی نتونه ترافیک رو شنود کنه.\n\n2- پایداری WireGuard و Gool: قبلاً بعضی وقتا برنامه بهتون می‌گفت متصل شدید، در حالی که دیتا اصلاً ردوبدل نمی‌شد و فقط روی یه پروکسی SOCKS5 گیر کرده بود. اما الان یه سیستم بررسی سلامت (Health Check) مداوم داره که اگر دیتایی از سمت سرور برنگرده، خودش به صورت اتوماتیک اتصال رو قطع و دوباره وصل می‌کنه.\n\n3- اتصال مجدد خودکار در Gool: تو نسخه‌های قبل اگه تونل بیرونی Gool قطع می‌شد، کل فرآیند کِرَش می‌کرد و خارج می‌شد. الان Gool هم مثل بقیه پروتکل‌ها خودش هوشمندانه دوباره ریکانکت می‌کنه.\n\n4- فیکس شدن نشت مموری (Memory Leak): یه باگ رو اعصاب بود که وقتی اتصالتون زیاد قطع و وصل می‌شد، تسک‌های قدیمی تو بک‌گراند باز می‌موندن و آروم‌آروم رمِ سیستم پر می‌شد. این مشکل تو تمام پروتکل‌ها کامل برطرف شد.\n\n5- هوشمندی در مصرف منابع: از این به بعد Aether همون اول کار، تعداد هسته‌های CPU و مقدار رم سیستمتون رو می‌خونه و میزان اسکن همزمان (Concurrency)، بافرهای شبکه و صف‌های داخلیش رو بر همون اساس تنظیم می‌کنه. این قابلیت برای کسایی که می‌خوان ابزار رو روی روترها و بردهای ضعیف‌تر بالا بیارن فوق‌العاده‌ست.\n\nلینک گیت‌هاب برای دانلود(نسخه‌های مک، لینوکس و ویندوز):\nhttps://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.6.0\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4655",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/VNBFHYYZgk3ypdeIlD4BDHkH0FoflulwK_OpEm1pbge5gHRWWtwUs0g7dUasjUwSSG-Rx6SngFZNQaKwAx33xYATpNPRBRIe6Xv_hukyziZib7bSwi9O5k4extk85fc6ONeHGNAqumQevfFaydkuOvB9AjgjV6tY3GKf0rbJc1XyxnbKG63oAaUOtaCAcyO0cm0r8cRSzSr5otnsORCqRm4ltpY2JUBqioEAnsMSht2adcuFsQgyhBXH0gdq1H5VRcYNYc3qqyxYRdSOr-Trw9wjLyOkFLd1f9vc1Da86-aulsDlSHYuvr3XE-NqInUKm6hyboXR6w-ZwPRreDwBpQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/fb29a65c9f28b1ab3b48f501.jpg",
+          "thumbnail_sha256": "46604cc6aa5bef5f570ba52966d2abce5941a39d503c1f72792358a0068ffc94",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "14"
+        }
+      ],
+      "views_label": "380",
+      "posted_at": "2026-07-25T02:23:24+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4655",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4654",
       "author_name": "Matin SenPai",
@@ -35,7 +84,7 @@
       "reactions": [
         {
           "emoji": "😨",
-          "count": "18"
+          "count": "20"
         },
         {
           "emoji": "🔥",
@@ -58,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.74K",
+      "views_label": "2.03K",
       "posted_at": "2026-07-25T02:01:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4654",
@@ -85,14 +134,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "16"
+          "count": "20"
         },
         {
           "emoji": "👍",
           "count": "2"
         }
       ],
-      "views_label": "2.98K",
+      "views_label": "3.17K",
       "posted_at": "2026-07-25T01:33:42+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4653",
@@ -119,14 +168,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "24"
+          "count": "26"
         },
         {
           "emoji": "👍",
           "count": "1"
         }
       ],
-      "views_label": "2.92K",
+      "views_label": "3.08K",
       "posted_at": "2026-07-25T01:23:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4652",
@@ -144,7 +193,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "160"
+          "count": "163"
         },
         {
           "emoji": "❤",
@@ -159,7 +208,7 @@
           "count": "3"
         }
       ],
-      "views_label": "12.1K",
+      "views_label": "12.3K",
       "posted_at": "2026-07-24T21:28:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4651",
@@ -189,7 +238,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "258"
+          "count": "259"
         },
         {
           "emoji": "👍",
@@ -642,7 +691,7 @@
           "count": "2"
         }
       ],
-      "views_label": "33.1K",
+      "views_label": "33.2K",
       "posted_at": "2026-07-23T14:14:20+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/4637",
@@ -4326,76 +4375,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/4523"
       }
-    },
-    {
-      "id": "MatinSenPaii/4523",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/PVk6wwkNVVhOfT3orK-AiZfew3ZEszWcAugJyFR3KLwCL3E2xOZQuqv1uP8uodetQuRYezL_KEE66O8l5DtSeGqREuHDdxgeQb8Lth-5MQU-rbZoSAU1bkXG2N-ennafvxONUMorEqQWvAU14aJlUd3qtvywHFVuoogxKgezLN1xK1IFbMIW28p2vw9YNtZkbZCx7-uNSnCOmAHUhV6X6hj5N2mIlQ0RdiLwbvdOR439RoPOtB_5fNeZ2cpom8BcF-t2BNShse-en6dnuFZNTgd3_4Lt4jgKTZRJzHb-KVfVQj1bRrh48YgrrrfJg1ByFwczPhaiEoyXvgapdwzQMA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/a375e3143ff65c3629243987.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<tg-emoji emoji-id=\"6008107257907122096\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90A7.png')\"><b>🐧</b></i></tg-emoji> نسخه لینوکس",
-      "plain_text": "🐧 نسخه لینوکس",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "46"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        }
-      ],
-      "views_label": "22.5K",
-      "posted_at": "2026-07-16T21:55:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4523",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4522",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/PVk6wwkNVVhOfT3orK-AiZfew3ZEszWcAugJyFR3KLwCL3E2xOZQuqv1uP8uodetQuRYezL_KEE66O8l5DtSeGqREuHDdxgeQb8Lth-5MQU-rbZoSAU1bkXG2N-ennafvxONUMorEqQWvAU14aJlUd3qtvywHFVuoogxKgezLN1xK1IFbMIW28p2vw9YNtZkbZCx7-uNSnCOmAHUhV6X6hj5N2mIlQ0RdiLwbvdOR439RoPOtB_5fNeZ2cpom8BcF-t2BNShse-en6dnuFZNTgd3_4Lt4jgKTZRJzHb-KVfVQj1bRrh48YgrrrfJg1ByFwczPhaiEoyXvgapdwzQMA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/a375e3143ff65c3629243987.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "طبق معمول، پیشنهاد میکنم WhiteDNS رو راه‌اندازی کنید برای خودتون و دوستانتون<br><br>آموزش: <a href=\"https://youtu.be/6Pm7kNQb3mo\" target=\"_blank\" rel=\"noopener\">https://youtu.be/6Pm7kNQb3mo</a>",
-      "plain_text": "طبق معمول، پیشنهاد میکنم WhiteDNS رو راه‌اندازی کنید برای خودتون و دوستانتون\n\nآموزش: https://youtu.be/6Pm7kNQb3mo",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4522",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ZPmicawf8SIGSjQ3eauMNBaV4Du8QvStkpZnImUnVsWF6Vyrcp5r9hiy2O68WCnH9XG9go-VqOItNGrbrWTNaXW047WF3HAHpTSzi_ydVsUK2JZbFb8bpIldK8MIwek3FDEYkEsGZuNnBHtjsuhRV725pcuArR_Qnk_cBbTwJ2eOevP-XX50RUBdatOGcixuwk6i3sXkG68L5Uy3dwDffd6B-x6DmffbMjdQ_z4eAaYGGtbhJzvsoSzAih0IsGrw5hjFTitYN4CjmeIM7sFz1gAkuq3kGDe06UCYDnAlzmBWW8e7YHBt0MH9rjbmU7iSf4oJ6OgMd9jm6QuITnDnwA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/b2fff3a7c586b8f066fab56b.jpg",
-          "thumbnail_sha256": "f85bf28395dae647dca96c11a974a33f5d07ffbe095abfb6fcd930540e1ae1a3",
-          "duration_label": null,
-          "aspect_ratio": 1.5594541910331383
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😭",
-          "count": "61"
-        },
-        {
-          "emoji": "❤",
-          "count": "21"
-        },
-        {
-          "emoji": "👎",
-          "count": "4"
-        }
-      ],
-      "views_label": "9.53K",
-      "posted_at": "2026-07-16T21:55:15+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4522",
-      "reply": null
     }
   ]
 }
