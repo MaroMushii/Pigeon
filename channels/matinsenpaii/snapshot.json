@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-26T12:22:16.873Z",
+  "fetched_at": "2026-07-26T12:27:16.975Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,34 @@
     "subscriber_count": "157K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4688",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/oADwrzzJIygYZdVaeAQqtqBvBxzXMgkSd8mOCtRnOpStjDCDH6ukLfvdZ-YShHHLmz8-6y4FrwG1ZEMEeus3jQp1GP1FKgiC1QwoZIJSouZILlv3xLaONV7GFZLQBHb3Wn-ynClsbGgVr-4Phyn73XRlIXDYCQDwmUtCmPnGKTrZbxtUahIbDEE2PrWq6yxDVuKoT3isB8h1wy-BfQ2bE6hdqkzOXrv9BUW6JPwNT2EH-zG7B30BhFamTu8NDP4NuAjofSlVUQCj1zxtGFxQXAW1n670K__wpt2--0gHLrhIGXkMh4Ss5AeEGk7o3x0-oTM9FoHQI0c4KBsTGLnOMg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b1467353e628e7f221f8d92a.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A2.png')\"><b>📢</b></i> تازه‌های نسخهٔ ۱.۲.۲ کلاینت موبایل Aether <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> یک به‌روزرسانی بزرگ و بنیادین با تمرکز بر امنیت حداکثری، کاهش شدید مصرف منابع سخت‌افزاری و ثبات اتصال منتشر شد! در ادامه خلاصه تغییرات این نسخه را برای شما آماده کرده‌ایم:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i> ۱. مدیریت خودکار و ارتقای هسته (Core) <br>ارتقا به نسخه پایدار ۱.۴: هسته تانل داخلی برنامه به آخرین نسخه پایدار ارتقا یافت. <br>خودکارسازی در CI/CD: فرآیند همگام‌سازی و اعمال پچ‌های اختصاصی اسکن رنج به صورت کاملاً خودکار و هوشمند در خط‌لوله بیلد گیت‌هاب پیاده‌سازی شد تا از بروز کوچک‌ترین ناسازگاری یا خرابی در فایل‌های نهایی جلوگیری شود.<br> <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9791.png')\"><b>🗑</b></i> ۲. حذف کامل سیستم به‌روزرسانی درون‌برنامه‌ای (ارتقای امنیت) <br>افزایش شفافیت و امنیت: بخش دانلود خودکار درون‌برنامه‌ای به همراه دسترسی‌های پرخطری مانند REQUEST_INSTALL_PACKAGES کاملاً حذف شد.  <br>دلیل فنی: برای اطمینان از اصالت کدها و عدم نصب ناخواسته فایل از منابع ناشناس، از این پس تمامی آپدیت‌ها صرفاً به صورت رسمی و امضاشده فقط از صفحه ریلیس گیت‌هاب پروژه قابل دریافت خواهند بود.<br> <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> ۳. حذف لوکیشن‌های فیک و واگذاری اتصال به هسته هوشمند <br>حذف منوی انتخاب کشور: از آنجا که شبکه WARP کلاودفلر از آدرس‌های Anycast استفاده می‌کند، انتخاب لوکیشن در کلاینت عملاً تزئینی بود.  <br>اتصال هوشمند واقعی: در این نسخه منوی لوکیشن حذف شده و وظیفه اسکن رنج‌ها و انتخاب بهترین و نزدیک‌ترین لبه ارتباطی (با کمترین پینگ و پایدارترین حالت) به صورت پویا به خود هسته برنامه واگذار شده است.<br> <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> ۴. کاهش مصرف رم، پردازنده و بهینه‌سازی رابط کاربری (UI) <br>کاهش مصرف CPU در حالت آماده‌باش (Idle): تغییر ساختار مانیتورینگ اتصال از حالت Polling به حالت Blocking روی پروسه هسته که باعث می‌شود پردازنده گوشی در زمان اتصال بدون ترافیک، به خواب عمیق برود. <br>حل نشت حافظه (Memory Leak): محدود شدن حجم لاگ‌های ارتباطی به یک بافر حلقوی ۸۰۰ خطی (حداکثر ۵۱۲ کیلوبایت) جهت جلوگیری از مصرف بی‌رویه رم در اتصال‌های طولانی. <br>رابط کاربری روان‌تر و سریع‌تر: حذف انیمیشن سنگین شفق قطبی (Aurora) در پس‌زمینه و جایگزینی با رنگ ساده ساکن که بار پردازش گرافیکی گوشی را به صفر می‌رساند. همچنین منوی تنظیمات پیشرفته اکنون بدون کوچک‌ترین لگی فوراً باز می‌شود.<br> <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948C.png')\"><b>🔌</b></i> ۵. رفع تداخل با v2rayNG و حل مشکل نصب (Over-Install) <br>تغییر پورت‌های پیش‌فرض: پورت‌های اشتراک‌گذاری شبکه محلی Aether به 10810/10811 تغییر یافت تا با پورت‌های پیش‌فرض v2rayNG تداخل نداشته باشند. همچنین سیستم شناسایی هوشمند ابزارهای موازی اضافه شده است. <br>حل دائمی مشکل امضای دیجیتال: گواهی امضای اندروید در بخش بیلد تثبیت شد؛ کاربران نسخه ۱.۲.۱ می‌توانند بدون نیاز به حذف برنامه قبلی، نسخه جدید ۱.۲.۲ را مستقیماً روی گوشی خود نصب کنند و تمام تنظیماتشان حفظ خواهد شد.<br> <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i> ۶. ممیزی امنیتی ۱۰۰ درصدی خط‌به‌خط <br>کد منبع برنامه تحت ممیزی سخت‌گیرانه قرار گرفت و از نظر مواردی همچون اطلاعات هاردکدشده، نشت DNS/IPv6، ذخیره‌سازی محلی ناامن و ترافیک رمزنگاری‌نشده کاملاً پاک‌سازی شد.<br> <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> هم‌اکنون نسخه ۱.۲.۲ را به صورت رسمی و امضاشده دانلود کنید:<br><br><a href=\"https://github.com/QW-AI-Code/Aether\" target=\"_blank\" rel=\"noopener\">https://github.com/QW-AI-Code/Aether</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "📢 تازه‌های نسخهٔ ۱.۲.۲ کلاینت موبایل Aether\n\n🚀 یک به‌روزرسانی بزرگ و بنیادین با تمرکز بر امنیت حداکثری، کاهش شدید مصرف منابع سخت‌افزاری و ثبات اتصال منتشر شد! در ادامه خلاصه تغییرات این نسخه را برای شما آماده کرده‌ایم:\n\n🔄 ۱. مدیریت خودکار و ارتقای هسته (Core)\nارتقا به نسخه پایدار ۱.۴: هسته تانل داخلی برنامه به آخرین نسخه پایدار ارتقا یافت.\nخودکارسازی در CI/CD: فرآیند همگام‌سازی و اعمال پچ‌های اختصاصی اسکن رنج به صورت کاملاً خودکار و هوشمند در خط‌لوله بیلد گیت‌هاب پیاده‌سازی شد تا از بروز کوچک‌ترین ناسازگاری یا خرابی در فایل‌های نهایی جلوگیری شود.\n\n🗑 ۲. حذف کامل سیستم به‌روزرسانی درون‌برنامه‌ای (ارتقای امنیت)\nافزایش شفافیت و امنیت: بخش دانلود خودکار درون‌برنامه‌ای به همراه دسترسی‌های پرخطری مانند REQUEST_INSTALL_PACKAGES کاملاً حذف شد.\nدلیل فنی: برای اطمینان از اصالت کدها و عدم نصب ناخواسته فایل از منابع ناشناس، از این پس تمامی آپدیت‌ها صرفاً به صورت رسمی و امضاشده فقط از صفحه ریلیس گیت‌هاب پروژه قابل دریافت خواهند بود.\n\n🌐 ۳. حذف لوکیشن‌های فیک و واگذاری اتصال به هسته هوشمند\nحذف منوی انتخاب کشور: از آنجا که شبکه WARP کلاودفلر از آدرس‌های Anycast استفاده می‌کند، انتخاب لوکیشن در کلاینت عملاً تزئینی بود.\nاتصال هوشمند واقعی: در این نسخه منوی لوکیشن حذف شده و وظیفه اسکن رنج‌ها و انتخاب بهترین و نزدیک‌ترین لبه ارتباطی (با کمترین پینگ و پایدارترین حالت) به صورت پویا به خود هسته برنامه واگذار شده است.\n\n⚡️ ۴. کاهش مصرف رم، پردازنده و بهینه‌سازی رابط کاربری (UI)\nکاهش مصرف CPU در حالت آماده‌باش (Idle): تغییر ساختار مانیتورینگ اتصال از حالت Polling به حالت Blocking روی پروسه هسته که باعث می‌شود پردازنده گوشی در زمان اتصال بدون ترافیک، به خواب عمیق برود.\nحل نشت حافظه (Memory Leak): محدود شدن حجم لاگ‌های ارتباطی به یک بافر حلقوی ۸۰۰ خطی (حداکثر ۵۱۲ کیلوبایت) جهت جلوگیری از مصرف بی‌رویه رم در اتصال‌های طولانی.\nرابط کاربری روان‌تر و سریع‌تر: حذف انیمیشن سنگین شفق قطبی (Aurora) در پس‌زمینه و جایگزینی با رنگ ساده ساکن که بار پردازش گرافیکی گوشی را به صفر می‌رساند. همچنین منوی تنظیمات پیشرفته اکنون بدون کوچک‌ترین لگی فوراً باز می‌شود.\n\n🔌 ۵. رفع تداخل با v2rayNG و حل مشکل نصب (Over-Install)\nتغییر پورت‌های پیش‌فرض: پورت‌های اشتراک‌گذاری شبکه محلی Aether به 10810/10811 تغییر یافت تا با پورت‌های پیش‌فرض v2rayNG تداخل نداشته باشند. همچنین سیستم شناسایی هوشمند ابزارهای موازی اضافه شده است.\nحل دائمی مشکل امضای دیجیتال: گواهی امضای اندروید در بخش بیلد تثبیت شد؛ کاربران نسخه ۱.۲.۱ می‌توانند بدون نیاز به حذف برنامه قبلی، نسخه جدید ۱.۲.۲ را مستقیماً روی گوشی خود نصب کنند و تمام تنظیماتشان حفظ خواهد شد.\n\n🔒 ۶. ممیزی امنیتی ۱۰۰ درصدی خط‌به‌خط\nکد منبع برنامه تحت ممیزی سخت‌گیرانه قرار گرفت و از نظر مواردی همچون اطلاعات هاردکدشده، نشت DNS/IPv6، ذخیره‌سازی محلی ناامن و ترافیک رمزنگاری‌نشده کاملاً پاک‌سازی شد.\n\n📥 هم‌اکنون نسخه ۱.۲.۲ را به صورت رسمی و امضاشده دانلود کنید:\n\nhttps://github.com/QW-AI-Code/Aether\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4688",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/L8FNu8eR75_gW2ruDp3jj5o-6cdqLTCWoJujR3KbiuFkZkau22pGyQkpl0gsttyevugWO21O0Vv_MBnkDNE6VE-PatIcQUhmk_2c5p3WHh-r4NmVBfKagmhjk1uGnS-R1nbhpXP_3voZMEE3Dgmu1jim-HNfpk4aFrdX7OZLFBzsIZWsZ7fenSDlemqOEgI7M7RgYunsEm2Vxyq5OPagiaE3liik-F6NdkT-qd5q8_2hiFNqJzQpW3-nrgaSXhT8HYDE3nZfUbs534uYsmSzESVa3OG8ybFRdn02ac4hsKPNsYOzvUAOYLIaBQZaXaZXZ_obCrs1el1W-rFOAdVe2w.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/0e03a05ed566b8d945bc7a17.jpg",
+          "thumbnail_sha256": "dedec2635798d35230ffed8aa5c486ee38131abfc612de08293806379421b870",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-07-26T12:27:16+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4688",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4687",
       "author_name": "Matin SenPai",
@@ -23,7 +51,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "57"
+          "count": "59"
         },
         {
           "emoji": "😭",
@@ -38,7 +66,7 @@
           "count": "2"
         }
       ],
-      "views_label": "4.59K",
+      "views_label": "4.87K",
       "posted_at": "2026-07-26T11:49:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4687",
@@ -60,7 +88,7 @@
         },
         {
           "emoji": "❤",
-          "count": "124"
+          "count": "127"
         },
         {
           "emoji": "👍",
@@ -71,7 +99,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.34K",
+      "views_label": "5.67K",
       "posted_at": "2026-07-26T11:45:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4686",
@@ -105,7 +133,7 @@
         },
         {
           "emoji": "❤",
-          "count": "168"
+          "count": "170"
         },
         {
           "emoji": "👍",
@@ -120,7 +148,7 @@
           "count": "3"
         }
       ],
-      "views_label": "16.6K",
+      "views_label": "16.7K",
       "posted_at": "2026-07-26T02:28:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4685",
@@ -138,7 +166,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "141"
+          "count": "142"
         },
         {
           "emoji": "😁",
@@ -157,7 +185,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.8K",
+      "views_label": "16.9K",
       "posted_at": "2026-07-26T01:12:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4684",
@@ -175,14 +203,14 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "94"
+          "count": "95"
         },
         {
           "emoji": "❤",
-          "count": "39"
+          "count": "40"
         }
       ],
-      "views_label": "21.7K",
+      "views_label": "21.8K",
       "posted_at": "2026-07-26T01:04:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4683",
@@ -216,7 +244,7 @@
         },
         {
           "emoji": "❤",
-          "count": "233"
+          "count": "234"
         },
         {
           "emoji": "🔥",
@@ -235,7 +263,7 @@
           "count": "3"
         }
       ],
-      "views_label": "22.1K",
+      "views_label": "22.2K",
       "posted_at": "2026-07-26T01:03:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4682",
@@ -257,7 +285,7 @@
         },
         {
           "emoji": "❤",
-          "count": "683"
+          "count": "685"
         },
         {
           "emoji": "😁",
@@ -288,7 +316,7 @@
           "count": "5"
         }
       ],
-      "views_label": "18.8K",
+      "views_label": "18.9K",
       "posted_at": "2026-07-25T21:35:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4681",
@@ -306,7 +334,7 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "165"
+          "count": "166"
         },
         {
           "emoji": "❤",
@@ -364,7 +392,7 @@
         },
         {
           "emoji": "❤",
-          "count": "227"
+          "count": "228"
         },
         {
           "emoji": "👍",
@@ -379,7 +407,7 @@
           "count": "3"
         }
       ],
-      "views_label": "18.6K",
+      "views_label": "18.7K",
       "posted_at": "2026-07-25T21:33:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4679",
@@ -625,7 +653,7 @@
           "count": "2"
         }
       ],
-      "views_label": "17.1K",
+      "views_label": "17.2K",
       "posted_at": "2026-07-25T21:29:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4673",
@@ -771,7 +799,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.4K",
+      "views_label": "15.5K",
       "posted_at": "2026-07-25T21:25:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4670",
@@ -808,7 +836,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.9K",
+      "views_label": "15K",
       "posted_at": "2026-07-25T21:22:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4669",
@@ -4320,55 +4348,6 @@
       "posted_at": "2026-07-19T09:48:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4568",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4567",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Y9zlHIxOiiwNvfMwAR-jO60FMuCUe-dS-kuxKiv5H6bcY6pbJTkD39tSV_eu9uWD6WTn-Lp6DC-sAZBHH0qIPuYgj41JulYyqA-4r1-vGSvD2IGAWiyFuS4OqhjJdi6UqjZu8vN2Q848ZgpJK5TJSLZG5rNAzRxLH3gEkgQuHj3AaDDvR4A-skiGiR9YPhd0AqWhkWBQcB5j3AY0gSImrwenyWOX7YrqAyuMKey3jLON-c8o1VYXHTMY5BrDMW_YmmFDPTCHE7m-Jha8Hd4DauIcoqWk9aYWuJh6zopEnph2v5K9qd0gGdyV09ZomsVzGII9ucDB8d9RlN8p1UDE8Q.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/a5fc8cee1bfec389430e8221.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "اطلاعیه:<br><br>سطح پهنای باند و کیفیت اتصال اینترنت در تمامی اپراتورها و دیتاسنترها به‌طور قابل‌توجهی کاهش یافته است. بررسی‌ها نشان می‌دهد ظرفیت پهنای باند نسبت به روز گذشته کاهش محسوسی داشته است.<br>همچنین برخی رسانه‌ها از اختلال یا قطعی در خطوط انتقال پهنای باند و زیرساخت شبکه در برخی مناطق کشور، به دلیل حملات منتسب به آمریکا، خبر داده‌اند. :))",
-      "plain_text": "اطلاعیه:\n\nسطح پهنای باند و کیفیت اتصال اینترنت در تمامی اپراتورها و دیتاسنترها به‌طور قابل‌توجهی کاهش یافته است. بررسی‌ها نشان می‌دهد ظرفیت پهنای باند نسبت به روز گذشته کاهش محسوسی داشته است.\nهمچنین برخی رسانه‌ها از اختلال یا قطعی در خطوط انتقال پهنای باند و زیرساخت شبکه در برخی مناطق کشور، به دلیل حملات منتسب به آمریکا، خبر داده‌اند. :))",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "475"
-        },
-        {
-          "emoji": "💔",
-          "count": "150"
-        },
-        {
-          "emoji": "👎",
-          "count": "59"
-        },
-        {
-          "emoji": "❤",
-          "count": "27"
-        },
-        {
-          "emoji": "😭",
-          "count": "21"
-        },
-        {
-          "emoji": "😁",
-          "count": "17"
-        },
-        {
-          "emoji": "😨",
-          "count": "14"
-        },
-        {
-          "emoji": "🎃",
-          "count": "3"
-        }
-      ],
-      "views_label": "38.3K",
-      "posted_at": "2026-07-18T20:45:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4567",
       "reply": null
     }
   ]
