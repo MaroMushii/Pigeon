@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-26T14:37:17.272Z",
+  "fetched_at": "2026-07-26T14:42:25.766Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,43 @@
     "subscriber_count": "97.8K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2516",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/TBuCxWdGCkXNcoFmkW-hDAMDTQ5WKrhh2ivERe4QjSekQFrXJ6-OJm2fBVQtwRyrEMyy40MGj03Pxa0NdtgEvjtbKEQu2Z-w5AGKCvtmj7ViqhqqZ0sL6o50MWKvgQdY7t5w7LA9f1SvEwrATyHPjZC-QDqLQsdgj2jDBG1SgQz4Xu4NAkuBkYkh-9xQJC9ZvMoKea0zLLbpv5qqZG11sFToVfSiNhag9B_3mlAiAB06D6Oa6NJxN-KdKAzVhB1t3nwOO-HMUfDqf8ztkutDCLnv04YRGA0A4Mk4v53IufVr2ggkpGO3fTllrWI69m1bbsuybkbh3rM5zomgqnV93Q.jpg",
+      "author_photo_path": "channels/ircfspace/media/4e2313689879e33a86f9f7c1.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "توی هسته ایکس‌ری از نسخه ۲۶.۱.۲۳ به بعد یه سری هشدار برای قابلیت‌های منسوخ‌شده اضافه شده، که شامل allowInsecure و Shadowsocks، VMess، Trojan و VLESS بدون Flow میشن. مثلاً برای Shadowsocks این پیام در لاگ نمایش داده میشه:<br><blockquote>\"The feature Shadowsocks (with no Forward Secrecy, etc.) is deprecated, not recommended for using and might be removed. Please migrate to VLESS Encryption as soon as possible\".</blockquote><br><br>اگر در حال ساخت یا انتشار کانفیگ‌های مبتنی بر Xray هستین، بهتره به جایگزین‌های پیشنهادی مثل VLESS Encryption مهاجرت کنین، تا بعداً با حذفش به مشکل نخورین.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "توی هسته ایکس‌ری از نسخه ۲۶.۱.۲۳ به بعد یه سری هشدار برای قابلیت‌های منسوخ‌شده اضافه شده، که شامل allowInsecure و Shadowsocks، VMess، Trojan و VLESS بدون Flow میشن. مثلاً برای Shadowsocks این پیام در لاگ نمایش داده میشه:\n\"The feature Shadowsocks (with no Forward Secrecy, etc.) is deprecated, not recommended for using and might be removed. Please migrate to VLESS Encryption as soon as possible\".\n\nاگر در حال ساخت یا انتشار کانفیگ‌های مبتنی بر Xray هستین، بهتره به جایگزین‌های پیشنهادی مثل VLESS Encryption مهاجرت کنین، تا بعداً با حذفش به مشکل نخورین.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2516",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/XW5UEp_ud7XhGMANQXFJfbaQcUtb8StLxw1G2QemyFQ9QSrI4Fj_WZnFjHAjYq5V-_O71A1Fw_IyR22ipDYS4GqHV3iL11wfuhWQW7jpblqzP8r1HgE65heFCPfc_hjOghLpGmmf18pi41WXA7aa0xCTMIPvV4XmNUkvDZfEbT4uDFRzlMmKg4WtUgd9w8FpbAZ6fabHtechCFK2MD2IGHPFs1yPVo5lLFNWLZ_-qmK8oBqoYlBJ2ASgVd5AGUaq5UH93AaFi4APmwOot-rCbYWnqYccvM6L1ufQ5C7aZzZkWiaKUMiuMHDlasQvVu2dvDTfVTNslj8EPHOoU-KysA.jpg",
+          "thumbnail_path": "channels/ircfspace/media/0e6979565ec19e1ca0c936da.jpg",
+          "thumbnail_sha256": "9c8f659e6b9a106bb85f86b3e3d1de52aec86e252976e6a337f9f53679409b46",
+          "duration_label": null,
+          "aspect_ratio": 2.2408963585434174
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "11"
+        },
+        {
+          "emoji": "❤",
+          "count": "5"
+        }
+      ],
+      "views_label": "1.19K",
+      "posted_at": "2026-07-26T14:38:37+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2516",
+      "reply": null
+    },
     {
       "id": "ircfspace/2515",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -35,11 +72,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "35"
+          "count": "44"
         },
         {
           "emoji": "😱",
-          "count": "12"
+          "count": "13"
         },
         {
           "emoji": "👍",
@@ -54,7 +91,7 @@
           "count": "2"
         }
       ],
-      "views_label": "2.63K",
+      "views_label": "3.52K",
       "posted_at": "2026-07-26T14:24:20+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2515",
@@ -84,7 +121,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "621"
+          "count": "623"
         },
         {
           "emoji": "👎",
@@ -115,7 +152,7 @@
           "count": "3"
         }
       ],
-      "views_label": "20.6K",
+      "views_label": "20.9K",
       "posted_at": "2026-07-23T15:30:39+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2514",
@@ -180,7 +217,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.1K",
+      "views_label": "25.6K",
       "posted_at": "2026-07-22T16:26:31+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2513",
@@ -245,7 +282,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.9K",
       "posted_at": "2026-07-22T15:33:03+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2512",
@@ -294,7 +331,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "24K",
       "posted_at": "2026-07-22T15:25:38+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2511",
@@ -351,7 +388,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.5K",
+      "views_label": "23.6K",
       "posted_at": "2026-07-22T14:51:30+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2510",
@@ -420,7 +457,7 @@
           "count": "2"
         }
       ],
-      "views_label": "33.4K",
+      "views_label": "33.6K",
       "posted_at": "2026-07-21T07:43:22+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2509",
@@ -473,7 +510,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.1K",
+      "views_label": "27.3K",
       "posted_at": "2026-07-20T13:31:01+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2508",
@@ -526,7 +563,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.8K",
+      "views_label": "25.9K",
       "posted_at": "2026-07-20T13:23:21+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2507",
@@ -653,7 +690,7 @@
           "count": "3"
         }
       ],
-      "views_label": "29.1K",
+      "views_label": "29.3K",
       "posted_at": "2026-07-18T15:38:38+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2504",
@@ -698,7 +735,7 @@
           "count": "2"
         }
       ],
-      "views_label": "31.3K",
+      "views_label": "31.6K",
       "posted_at": "2026-07-18T15:27:34+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2503",
@@ -751,7 +788,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.5K",
+      "views_label": "32.6K",
       "posted_at": "2026-07-18T15:22:17+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2502",
@@ -812,7 +849,7 @@
           "count": "1"
         }
       ],
-      "views_label": "37K",
+      "views_label": "37.1K",
       "posted_at": "2026-07-18T04:37:51+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2501",
@@ -846,7 +883,7 @@
         },
         {
           "emoji": "👍",
-          "count": "582"
+          "count": "583"
         },
         {
           "emoji": "👎",
@@ -975,7 +1012,7 @@
           "count": "1"
         }
       ],
-      "views_label": "34K",
+      "views_label": "34.1K",
       "posted_at": "2026-07-16T13:54:44+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2498",
@@ -5424,51 +5461,6 @@
       "posted_at": "2026-06-02T04:47:41+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2415",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2414",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/LjQxzzlxpiBDzGcc16kNYYMSVp8u6b41a8mMyCAZp-flbrDiVAOVnLMS6sFbuhBhijgoCvZvyXxEXBsHDA4tRibQV2mjDBr3x60RdEB10ZSkERjAfxqP7EvG_x68Dy9Tlz7Ht3ucdfIcxI-cQL3Q4cd0XGr455S_V2Usrun6yy3ttJI0zyQfDdaV-ZvuJujVVjYSyFk4NGnCIbvDg2E7UGqPmZ_w42VpGguNcr7kKWPrATjHkZA3dGPeN6r0SrmHD-F_r3xgu28XPOTsJR4jTYp545db-DaLDHSVlgCSLpxZrML4RjM0mzxH0oFIGw1fa3n9_l5G8fRxberHVzAWdg.jpg",
-      "author_photo_path": "channels/ircfspace/media/fb61cddc48e40ebd7b3a93c5.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "در نسخه ۳ از اپ متن‌باز و رایگان OnionHop که برای ویندوز، لینوکس و مک منتشر شده، موتور اتصال برنامه کاملاً بازنویسی شده و با قابلیت Smart Connect می‌تونه بصورت هوشمند بهترین روش اتصال رو با توجه به شرایط شبکه و میزان فیلترینگ انتخاب کنه.<br>این فیلترشکن از روش‌های مختلف دور زدن سانسور مثل Obfs4، Snowflake، WebTunnel، Conjure، Meek و DNSTT پشتیبانی می‌کنه و یه اسکنر داخلی هم داره که میتونه Bridgeهای سالم و قابل دسترس رو پیدا کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/center2055/OnionHop/releases\" target=\"_blank\" rel=\"noopener\">github.com/center2055/OnionHop/releases</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <a href=\"http://t.me/PersianGithubMirror/5793\" target=\"_blank\" rel=\"noopener\">t.me/PersianGithubMirror/5793</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "در نسخه ۳ از اپ متن‌باز و رایگان OnionHop که برای ویندوز، لینوکس و مک منتشر شده، موتور اتصال برنامه کاملاً بازنویسی شده و با قابلیت Smart Connect می‌تونه بصورت هوشمند بهترین روش اتصال رو با توجه به شرایط شبکه و میزان فیلترینگ انتخاب کنه.\nاین فیلترشکن از روش‌های مختلف دور زدن سانسور مثل Obfs4، Snowflake، WebTunnel، Conjure، Meek و DNSTT پشتیبانی می‌کنه و یه اسکنر داخلی هم داره که میتونه Bridgeهای سالم و قابل دسترس رو پیدا کنه.\n\n👉 github.com/center2055/OnionHop/releases\n💡 t.me/PersianGithubMirror/5793\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2414",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/alzvnVlLj2xD4qXv792mtpBExonimbQVuGo6FM3IRxLSdyxf98XGpSWOKDng_3Xu6667irueUcXXTfZtjR3gsUMysoeryuOHbLkfY2251FnrLP6IkzuAp5_ManLl8ZffxECOyu_2TE_9t_0aci-ntfvZjkkLEo3YW_i7pTJ46u5uhvDo3elcm1gGerhHEO7szX4D53nkZmlO9GKdqgYJ3Q2zI8FjyRM0UdWU5WF09uQhFLJFK3t8TfjBRhivv67xpsWe8IgtKMbJD1Q833GTrq-TF45Kjc4lxV9ucXyQW1uH1kcXmI9mmS3LYqTSAXxpaePnMqGvTgAVdJ2nU5jYCA.jpg",
-          "thumbnail_path": "channels/ircfspace/media/ad2eaae405d6e0c7af2c6f5d.jpg",
-          "thumbnail_sha256": "e548f577d5f2bab67249843e585db94e5831943834e3c370c7c4748948f1e2db",
-          "duration_label": null,
-          "aspect_ratio": 1.3333333333333333
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "152"
-        },
-        {
-          "emoji": "👍",
-          "count": "27"
-        },
-        {
-          "emoji": "🔥",
-          "count": "11"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        }
-      ],
-      "views_label": "46.5K",
-      "posted_at": "2026-06-02T04:37:33+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2414",
       "reply": null
     }
   ]
