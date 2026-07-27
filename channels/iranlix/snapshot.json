@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-27T14:46:44.016Z",
+  "fetched_at": "2026-07-27T14:51:40.647Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,45 @@
     "subscriber_count": "13.8K"
   },
   "posts": [
+    {
+      "id": "iranlix/10780",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/m1LAsSm7LwRr2ft_0ZMjhl3HXEstcfCMy2hLC5Crap5Jvt3nfC-w1LnXIz5sj1RS2uQPD9S_9FTBl7CxiF2R1sxgdXx-AtHbrSrVpPhfl30sxjOv7XY6UHR4E4mJn-6j-VNHGIuz0WDDhrBYOsuIo-XHNQNLo5wosp1KQXJp6tjS4tT_e7E6H7TluTBIIkmKN5fYEPc5aH3sDd0eAr5Wxp0_T0IKmrHcl-aaxhyizc-bTtuKTkya51vnlSVLupBEyzIQWIWHdyC6Vnj_EWfnq1Zxf-VyjxVr-SVYe8y2IJ91grR08fA53RjQJcURd42Zo1HCKz-RPei-G0X_u1IKqA.jpg",
+      "author_photo_path": "channels/iranlix/media/7103bc9e20f21b1027440730.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87AEF09F87B1.png')\"><b>🇮🇱</b></i> <b>یک تونل زیرزمینی متعلق به سازمان تروریستی حماس در شمال نوار غزه توسط ارتش اسرائیل منهدم شد</b>.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a></div>",
+      "plain_text": "🇮🇱 یک تونل زیرزمینی متعلق به سازمان تروریستی حماس در شمال نوار غزه توسط ارتش اسرائیل منهدم شد.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/10780?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/EIs7p2sbTdgi0j_-4e46nMDCBsswIqAA8mQPSDgX7AzfqBq6jO0Qn44yPsYN-UzeoVomjsVOARMp7V8w-BH4Dy7qPS2vaxMtTnsTPzD_to87UkaS1o_zC7eLdtoOABMt71rbLDcxssn3N306GpX6tfPknXngpwJoo-FaWZI2ZVKnQ2HfirBeKPSal7RRCyrN7GaR-BSrVyofCrfEmfonKL94u-y5Rvt2V3fzqGfRmE-MwH-NhVsLg5qgAEo4U1KyPwg5X85qSPCDbh9J4E4STu_uizuGUsiVPJ_JMH5Wjzy9ZiM-x6D7-2aksB9HjQW_THtCZDofD8HstYTiOkksmw",
+          "thumbnail_path": "channels/iranlix/media/1803b51bbf9a21bbe36fe4df.jpg",
+          "thumbnail_sha256": "3d88fda4f122bf19034b4050913429fcf75a17693ce60f05078c040a071d58b1",
+          "duration_label": "0:08",
+          "aspect_ratio": null
+        },
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/10781?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/vsE4_kXCudwr4Zq6PDIO7Q6J7CRwRBNhi7NpdpQyCnlqqtWCOVjI-uaqeDhxLldZKYry2m8cH11ZtT2gkJdt1Vvz_Sx6eVwo6ufcbA48ruc6hGRAbfGNQveItu81YSOoV40WUb6YFax4l_nYUyY8ckSD8uZRqHk4JfOGRiWHOaOxPl64GH7dBgAC3UdgxlyYMQo0VrJCWASKuKNJtKcgmgEIEINAwOWkjJKkARGiuZNT_RPvbKZOTrg3ANqQlEyA_Z4kkXKbwj56tabkfODXcuqchCQIglMTNi9IPK2TplAnXb-qI6NlXPLmMO7__0AUC7DMOc481pl30n0s1lZm8w",
+          "thumbnail_path": "channels/iranlix/media/d4a4cc8edcb5735bc7064d7d.jpg",
+          "thumbnail_sha256": "089e07832fe87863746588f2c1fe3bce227995fb396c8d656c8034ef95a4788d",
+          "duration_label": "0:31",
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [],
+      "views_label": "45",
+      "posted_at": "2026-07-27T14:48:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/10780",
+      "reply": null
+    },
     {
       "id": "iranlix/10779",
       "author_name": "ایرانلیکس",
@@ -33,7 +72,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "280",
+      "views_label": "317",
       "posted_at": "2026-07-27T14:14:36+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10779",
@@ -61,7 +100,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "554",
+      "views_label": "577",
       "posted_at": "2026-07-27T13:43:31+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10778",
@@ -89,7 +128,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "742",
+      "views_label": "758",
       "posted_at": "2026-07-27T13:10:47+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10777",
@@ -128,7 +167,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "927",
+      "views_label": "935",
       "posted_at": "2026-07-27T12:11:21+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10775",
@@ -156,7 +195,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.07K",
+      "views_label": "1.08K",
       "posted_at": "2026-07-27T11:48:03+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/10774",
@@ -184,7 +223,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.21K",
+      "views_label": "1.22K",
       "posted_at": "2026-07-27T10:27:28+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10773",
@@ -221,7 +260,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.22K",
+      "views_label": "1.23K",
       "posted_at": "2026-07-27T10:14:52+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10772",
@@ -249,7 +288,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.18K",
+      "views_label": "1.19K",
       "posted_at": "2026-07-27T10:13:06+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10771",
@@ -316,7 +355,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.17K",
+      "views_label": "1.18K",
       "posted_at": "2026-07-27T09:54:37+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10768",
@@ -353,7 +392,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.19K",
+      "views_label": "1.2K",
       "posted_at": "2026-07-27T09:48:03+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10767",
@@ -437,7 +476,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.29K",
+      "views_label": "1.3K",
       "posted_at": "2026-07-27T09:12:04+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/10764",
@@ -493,7 +532,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.4K",
+      "views_label": "1.41K",
       "posted_at": "2026-07-27T08:00:43+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10762",
@@ -2852,34 +2891,6 @@
       "posted_at": "2026-07-25T07:06:23+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/10675",
-      "reply": null
-    },
-    {
-      "id": "iranlix/10674",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/huNbJWTC_PQTDhUE1zwZ2eFPXf2iZ1ndbDt5p1tjyZVuwQ9Rv55DyZoIFy3ySZd9s3Aufe-5teJfUgJhniDij-mj7Y4PdxiiCvXh_TIS47vkLrnLutWxjVv9vTyvoO110usjIxaLbkNGBbIX6KnAS1n_r-qiXDACyFoPkR_D5JoAsarleE79wsyMEaU9tTOQN86wfm_ybqFoL51M-mulIzx6A_o06j7ZG1HotiJkhVZNky57jYFid3g8CAafmj2lDvvKf6-uYxKc7xq0TFm1KCbqQV4sM2awbFPHlFAk1LMja7xgQlzDCwy-w8KG3kaVg0NlSYA7iadp-_ievT_e5g.jpg",
-      "author_photo_path": "channels/iranlix/media/d3604ef275b0b1f615a4ceba.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>فروش نفت ج.ا به یک چهارم سطح ماه مارس سقوط کرد</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>داده‌های شرکت تحلیلی کپلر نشان می‌دهد تخلیه نفت ج.ا در بنادر چینی به یک چهارم سطح ماه مارس سقوط کرده است.پالایشگاه‌های چینی در ماه ژوئیه روزانه بطور متوسط ۴۵۴ هزار بشکه نفت از  ج.ا خریداری کرده‌اند. این رقم در اولین ماه جنگ حدود یک میلیون و ۷۱۶ هزار بشکه بود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>در همین زمینه کارشناس ارشد کپلر گفت ج.ا نفت خود را با تخفیف بالا و از طریق واسطه‌ها به پالایشگاه‌های کوچک و مستقل چینی می‌فروشد.او گفت ج.ا در فروش نفت دچار چالش شده است ج.ا حتی برای نفت مرغوب و سبک خود سه دلار و اکنون حدود ۵ دلار تخفیف می‌دهد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>اخیرا شرکت ملی بازرگانی نفت ج.ا در سایت رسمی خود تخفیف پیشنهادی برای انواع نفت در ماه آینده را نسبت به ماه جاری ۱۱ دلار افزایش داد.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "🔻فروش نفت ج.ا به یک چهارم سطح ماه مارس سقوط کرد\n\n🔹داده‌های شرکت تحلیلی کپلر نشان می‌دهد تخلیه نفت ج.ا در بنادر چینی به یک چهارم سطح ماه مارس سقوط کرده است.پالایشگاه‌های چینی در ماه ژوئیه روزانه بطور متوسط ۴۵۴ هزار بشکه نفت از ج.ا خریداری کرده‌اند. این رقم در اولین ماه جنگ حدود یک میلیون و ۷۱۶ هزار بشکه بود.\n\n🔹در همین زمینه کارشناس ارشد کپلر گفت ج.ا نفت خود را با تخفیف بالا و از طریق واسطه‌ها به پالایشگاه‌های کوچک و مستقل چینی می‌فروشد.او گفت ج.ا در فروش نفت دچار چالش شده است ج.ا حتی برای نفت مرغوب و سبک خود سه دلار و اکنون حدود ۵ دلار تخفیف می‌دهد.\n\n🔹اخیرا شرکت ملی بازرگانی نفت ج.ا در سایت رسمی خود تخفیف پیشنهادی برای انواع نفت در ماه آینده را نسبت به ماه جاری ۱۱ دلار افزایش داد.\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/10674",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/MWDgbvhOvlSvZT6o4JrTe7cJtemfJRKKi_7e4VM1hQOd9dHn1ZiYTy5UlWTYrSx3uScbltedjUZA8tsrsDpEV8ll-tcNoqlnlq3JtpJyP4WkIyTcIFYCVqESzRMmCFW4enFtZmNzGbnpWcxaaKuUI8HiiBXjipPPDFG7IdZEEqU5kpsr-QyMDs5Hrjj2U8EII66lhu21sy2GV4mYc9uWG4p7Xj7YNv8XblKiZa4ztcx3QeD5lOMfD-kDESz7ur4Ca9ejiHIox7-U28hsxQ8VSfydeP3PvjioEZEZabAzJrlA08L9BGKhNNZiumAkmrLIkClb4B5R9f_1EpoM6gvaeA.jpg",
-          "thumbnail_path": "channels/iranlix/media/812af0fbc3b2ae559c9754d0.jpg",
-          "thumbnail_sha256": "b625c36d6fa4e464f7af20f0885dfb553e1456df47948f0ceb15af9ba4a0b759",
-          "duration_label": null,
-          "aspect_ratio": 1.436265709156194
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.53K",
-      "posted_at": "2026-07-25T06:49:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/10674",
       "reply": null
     }
   ]
