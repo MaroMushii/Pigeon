@@ -1,36 +1,114 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-28T06:56:23.851Z",
+  "fetched_at": "2026-07-28T07:09:56.278Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
     "description_html": "گروه : <br><a href=\"http://t.me/whitedns_group\" target=\"_blank\" rel=\"noopener\">t.me/whitedns_group</a><br><br>ادمين :<br><a href=\"https://t.me/WhiteDnsChatBot\" target=\"_blank\">@WhiteDnsChatBot</a>",
-    "photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-    "photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+    "photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+    "photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
     "photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
     "subscriber_count": "109K"
   },
   "posts": [
     {
-      "id": "whitedns/1345",
+      "id": "whitedns/1347",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>معرفی پروژه CottenDNS</b><br><br><a href=\"https://github.com/WhiteDNS/CottenDNS\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://github.com/WhiteDNS/CottenDNS</a><br><br>نسخه پایدار CottenDNS با تمرکز بر اتصال بهتر و پایدارتر در شبکه‌های دارای فیلترینگ، اختلال DNS، پکت‌لاس و تأخیر بالا منتشر شد. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i><br><br>در معماری جدید، سرور به‌صورت پویا با تنظیمات هر کاربر هماهنگ می‌شود. یعنی کاربران می‌توانند بدون تغییر کانفیگ سرور، روش انتقال داده، نوع رمزنگاری، MTU، فشرده‌سازی و قابلیت‌های بازیابی بسته‌های ازدست‌رفته را متناسب با کیفیت اینترنت خود انتخاب کنند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠️</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i><br><br>### مهم‌ترین قابلیت‌ها <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C9F.png')\"><b>🌟</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>سازگاری با شرایط مختلف شبکه</b><br>اتصال می‌تواند از طریق UDP و TCP روی پورت 53 و همچنین DoT و DoH انجام شود. اگر یک مسیر مسدود یا دچار اختلال شود، کلاینت می‌تواند از مسیر جایگزین استفاده کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA3.png')\"><b>🛣️</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>مقاومت بیشتر در برابر پکت‌لاس</b><br>CottenDNS با استفاده از ارسال مجدد هوشمند بسته‌ها، Duplication و فناوری FEC تلاش می‌کند اطلاعات ازدست‌رفته را بازیابی کند. این قابلیت‌ها بر اساس وضعیت شبکه به‌صورت خودکار فعال یا غیرفعال می‌شوند تا سربار اضافی ایجاد نشود. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡️</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>مدیریت هوشمند Resolverها</b><br>Resolverها از نظر سرعت، تأخیر، پکت‌لاس و سلامت بررسی می‌شوند. Resolverهای خراب به‌صورت خودکار کنار گذاشته شده و پس از بهبود دوباره وارد چرخه می‌شوند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A0.png')\"><b>🧠</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>تنظیم خودکار MTU</b><br>کلاینت اندازه مناسب بسته‌ها را برای آپلود و دانلود پیدا می‌کند تا احتمال شکسته‌شدن یا ازدست‌رفتن بسته‌ها کاهش پیدا کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938F.png')\"><b>📏</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A96.png')\"><b>⚖️</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>مقابله با DNS Poisoning</b><br>با استفاده از روش‌هایی مانند Transaction ID تصادفی، EDNS Cookie، تغییر شکل درخواست‌های DNS و ارسال از چند دامنه مختلف، مقاومت اتصال در برابر پاسخ‌های جعلی و دست‌کاری‌شده افزایش یافته است. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9AAB.png')\"><b>🚫</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>انتقال داده با فرمت‌های مختلف DNS</b><br>داده‌ها می‌توانند با رکوردهای TXT، CNAME، A، NULL و HTTPS/SVCB منتقل شوند. کلاینت می‌تواند بسته به محدودیت شبکه بین این روش‌ها جابه‌جا شود. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A4.png')\"><b>📤</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>امنیت و رمزنگاری</b><br>روش‌های AES-GCM، ChaCha20، XOR و الگوریتم‌های قابل تنظیم پشتیبانی می‌شوند. نوع رمزنگاری هر کلاینت به‌صورت امن و مستقل شناسایی می‌شود. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9491.png')\"><b>🔑</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>سازگاری با نسخه‌های قبلی</b><br>کلاینت‌های جدید CottenDNS و کلاینت‌های قدیمی MasterDNS و StormDNS می‌توانند هم‌زمان به یک سرور متصل شوند. بنابراین کاربران قدیمی برای ادامه استفاده نیازی به تغییر فوری ندارند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA49D.png')\"><b>🤝</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i><br><br>در مجموع، سرور CottenDNS امکانات مختلف را فراهم می‌کند و هر کلاینت بر اساس شرایط اینترنت خود، بهترین ترکیب اتصال را انتخاب می‌کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@WhiteDNS</a>",
-      "plain_text": "🚀 معرفی پروژه CottenDNS\n\nhttps://github.com/WhiteDNS/CottenDNS\n\nنسخه پایدار CottenDNS با تمرکز بر اتصال بهتر و پایدارتر در شبکه‌های دارای فیلترینگ، اختلال DNS، پکت‌لاس و تأخیر بالا منتشر شد. 📡✨\n\nدر معماری جدید، سرور به‌صورت پویا با تنظیمات هر کاربر هماهنگ می‌شود. یعنی کاربران می‌توانند بدون تغییر کانفیگ سرور، روش انتقال داده، نوع رمزنگاری، MTU، فشرده‌سازی و قابلیت‌های بازیابی بسته‌های ازدست‌رفته را متناسب با کیفیت اینترنت خود انتخاب کنند. 🛠️⚙️\n\n### مهم‌ترین قابلیت‌ها 🌟\n\n🔹 سازگاری با شرایط مختلف شبکه\nاتصال می‌تواند از طریق UDP و TCP روی پورت 53 و همچنین DoT و DoH انجام شود. اگر یک مسیر مسدود یا دچار اختلال شود، کلاینت می‌تواند از مسیر جایگزین استفاده کند. 🔄🛣️\n\n🔹 مقاومت بیشتر در برابر پکت‌لاس\nCottenDNS با استفاده از ارسال مجدد هوشمند بسته‌ها، Duplication و فناوری FEC تلاش می‌کند اطلاعات ازدست‌رفته را بازیابی کند. این قابلیت‌ها بر اساس وضعیت شبکه به‌صورت خودکار فعال یا غیرفعال می‌شوند تا سربار اضافی ایجاد نشود. 🛡️📦\n\n🔹 مدیریت هوشمند Resolverها\nResolverها از نظر سرعت، تأخیر، پکت‌لاس و سلامت بررسی می‌شوند. Resolverهای خراب به‌صورت خودکار کنار گذاشته شده و پس از بهبود دوباره وارد چرخه می‌شوند. 🧠🔍\n\n🔹 تنظیم خودکار MTU\nکلاینت اندازه مناسب بسته‌ها را برای آپلود و دانلود پیدا می‌کند تا احتمال شکسته‌شدن یا ازدست‌رفتن بسته‌ها کاهش پیدا کند. 📏⚖️\n\n🔹 مقابله با DNS Poisoning\nبا استفاده از روش‌هایی مانند Transaction ID تصادفی، EDNS Cookie، تغییر شکل درخواست‌های DNS و ارسال از چند دامنه مختلف، مقاومت اتصال در برابر پاسخ‌های جعلی و دست‌کاری‌شده افزایش یافته است. 🔐🚫\n\n🔹 انتقال داده با فرمت‌های مختلف DNS\nداده‌ها می‌توانند با رکوردهای TXT، CNAME، A، NULL و HTTPS/SVCB منتقل شوند. کلاینت می‌تواند بسته به محدودیت شبکه بین این روش‌ها جابه‌جا شود. 📝📤\n\n🔹 امنیت و رمزنگاری\nروش‌های AES-GCM، ChaCha20، XOR و الگوریتم‌های قابل تنظیم پشتیبانی می‌شوند. نوع رمزنگاری هر کلاینت به‌صورت امن و مستقل شناسایی می‌شود. 🔑🔒\n\n🔹 سازگاری با نسخه‌های قبلی\nکلاینت‌های جدید CottenDNS و کلاینت‌های قدیمی MasterDNS و StormDNS می‌توانند هم‌زمان به یک سرور متصل شوند. بنابراین کاربران قدیمی برای ادامه استفاده نیازی به تغییر فوری ندارند. 🤝🔄\n\nدر مجموع، سرور CottenDNS امکانات مختلف را فراهم می‌کند و هر کلاینت بر اساس شرایط اینترنت خود، بهترین ترکیب اتصال را انتخاب می‌کند. 🌐✅\n\n@WhiteDNS",
-      "media": [],
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> انتشار WhiteDNS نسخه 1.6.0</b><br><br>در این نسخه، پشتیبانی رسمی از موتور <b>CottenDNS</b> به WhiteDNS اضافه شده است.<br><br>CottenDNS برای اتصال پایدارتر در شبکه‌های دارای فیلترینگ، پکت‌لاس، DNS Poisoning و اختلال شدید طراحی شده و در هر دو حالت <b>Proxy</b> و <b>Full VPN</b> قابل استفاده است.<br><br><b>مهم‌ترین تغییرات</b><br>* اضافه‌شدن موتور CottenDNS<br>* پشتیبانی از چند دامنه در هر پروفایل<br>* تنظیم مستقل MTU، FEC، Duplication، رمزنگاری و روش انتقال<br>* بهبود Import و Export پروفایل‌ها<br>* بهبود رابط کاربری و دسترس‌پذیری<br>* سازگاری بهتر با Android 15<br>* ادامه پشتیبانی از پروفایل‌های StormDNS و MasterDNS<br><br>این نسخه انتخاب و مدیریت روش اتصال را متناسب با شرایط مختلف شبکه ساده‌تر و انعطاف‌پذیرتر می‌کند.<br><br><b><tg-emoji emoji-id=\"5771777713236877062\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji></b><b>دانلود WhiteDNS ورژن ۱.۶.۰</b><br><a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.0</a><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "🚀 انتشار WhiteDNS نسخه 1.6.0\n\nدر این نسخه، پشتیبانی رسمی از موتور CottenDNS به WhiteDNS اضافه شده است.\n\nCottenDNS برای اتصال پایدارتر در شبکه‌های دارای فیلترینگ، پکت‌لاس، DNS Poisoning و اختلال شدید طراحی شده و در هر دو حالت Proxy و Full VPN قابل استفاده است.\n\nمهم‌ترین تغییرات\n* اضافه‌شدن موتور CottenDNS\n* پشتیبانی از چند دامنه در هر پروفایل\n* تنظیم مستقل MTU، FEC، Duplication، رمزنگاری و روش انتقال\n* بهبود Import و Export پروفایل‌ها\n* بهبود رابط کاربری و دسترس‌پذیری\n* سازگاری بهتر با Android 15\n* ادامه پشتیبانی از پروفایل‌های StormDNS و MasterDNS\n\nاین نسخه انتخاب و مدیریت روش اتصال را متناسب با شرایط مختلف شبکه ساده‌تر و انعطاف‌پذیرتر می‌کند.\n\n📱دانلود WhiteDNS ورژن ۱.۶.۰\nhttps://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.0\n\n@WhiteDNS",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1347",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/PvU2p5a5yPJlkPHLg34t280S9_i178atDJsj-_VLT7EbUQoud4yBTH5kvY9BcH3lcV-PqNL1frUZXlw0poqOPC6nEURhmbN80LL5ICwpeQGGomgq5SKjYVBu3SrtH0QyutNWhVo0zO6rfe09uCq-8OIpMPbIhpASJ2OHQQWX8iK-h_GIeks4O_pXLiWaonjUMty9sZjCNkusk0CI6Etu8-TpB42w_OMr4cc7SdKz_dzCii4jQjIGB5zTNf93IZubtUeE87IHTINqda-MPWfoZuNwVYDHpinXV4e6PODVTdXgQ_pK8lDkzyrgr3tVpy1J7PvieA4iOfGS85qMRmjYvg.jpg",
+          "thumbnail_path": "channels/whitedns/media/992930cb08527b8beb2fb368.jpg",
+          "thumbnail_sha256": "ac1d9b166bbf7d6382012ef35ecc426c4a9d80e2bb2eb317db25375c344e9e07",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
       "reactions": [
         {
           "emoji": "❤",
           "count": "5"
+        }
+      ],
+      "views_label": "1",
+      "posted_at": "2026-07-28T07:09:10+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1347",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1346",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<tg-emoji emoji-id=\"5224450179368767019\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8E.png')\"><b>🌎</b></i></tg-emoji> دوستانی که با جزئیات فنی پروژه آشنا نیستند، به زبان ساده <b>CottenDNS نسخه‌ای کامل‌تر و پیشرفته‌تر از پروژه‌های MasterDNS و StormDNS</b> است.<br><br>تیم ما طی چند ماه گذشته، با استفاده از تجربه‌هایی که از قطعی و اختلال گسترده اینترنت به دست آوردیم، روی توسعه و بهبود این پروژه کار کرده است تا اتصال پایدارتر و سازگاری بیشتری با شرایط مختلف شبکه داشته باشد.<br><br>نسخه جدید اپلیکیشن <b>WhiteDNS</b> که تا ساعاتی دیگر منتشر می‌شود، از سرورهای CottenDNS پشتیبانی خواهد کرد.<br><br>هم‌زمان با انتشار نسخه جدید، یک سرور عمومی CottenDNS نیز در اختیار شما قرار می‌دهیم تا بتوانید بدون نیاز به راه‌اندازی سرور شخصی از آن استفاده کنید.",
+      "plain_text": "🌎 دوستانی که با جزئیات فنی پروژه آشنا نیستند، به زبان ساده CottenDNS نسخه‌ای کامل‌تر و پیشرفته‌تر از پروژه‌های MasterDNS و StormDNS است.\n\nتیم ما طی چند ماه گذشته، با استفاده از تجربه‌هایی که از قطعی و اختلال گسترده اینترنت به دست آوردیم، روی توسعه و بهبود این پروژه کار کرده است تا اتصال پایدارتر و سازگاری بیشتری با شرایط مختلف شبکه داشته باشد.\n\nنسخه جدید اپلیکیشن WhiteDNS که تا ساعاتی دیگر منتشر می‌شود، از سرورهای CottenDNS پشتیبانی خواهد کرد.\n\nهم‌زمان با انتشار نسخه جدید، یک سرور عمومی CottenDNS نیز در اختیار شما قرار می‌دهیم تا بتوانید بدون نیاز به راه‌اندازی سرور شخصی از آن استفاده کنید.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "50"
         },
         {
           "emoji": "👍",
+          "count": "18"
+        },
+        {
+          "emoji": "🔥",
+          "count": "4"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "🙏",
+          "count": "2"
+        }
+      ],
+      "views_label": "1.4K",
+      "posted_at": "2026-07-28T06:56:28+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1346",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1345",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>معرفی پروژه CottenDNS</b><br><br><a href=\"https://github.com/WhiteDNS/CottenDNS\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://github.com/WhiteDNS/CottenDNS</a><br><br>نسخه پایدار CottenDNS با تمرکز بر اتصال بهتر و پایدارتر در شبکه‌های دارای فیلترینگ، اختلال DNS، پکت‌لاس و تأخیر بالا منتشر شد.<br><br>در معماری جدید، سرور به‌صورت پویا با تنظیمات هر کاربر هماهنگ می‌شود. یعنی کاربران می‌توانند بدون تغییر کانفیگ سرور، روش انتقال داده، نوع رمزنگاری، MTU، فشرده‌سازی و قابلیت‌های بازیابی بسته‌های ازدست‌رفته را متناسب با کیفیت اینترنت خود انتخاب کنند.<br><br><b> مهم‌ترین قابلیت‌ها<br></b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>سازگاری با شرایط مختلف شبکه</b><br>اتصال می‌تواند از طریق UDP و TCP روی پورت 53 و همچنین DoT و DoH انجام شود. اگر یک مسیر مسدود یا دچار اختلال شود، کلاینت می‌تواند از مسیر جایگزین استفاده کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>مقاومت بیشتر در برابر پکت‌لاس</b><br>CottenDNS با استفاده از ارسال مجدد هوشمند بسته‌ها، Duplication و فناوری FEC تلاش می‌کند اطلاعات ازدست‌رفته را بازیابی کند. این قابلیت‌ها بر اساس وضعیت شبکه به‌صورت خودکار فعال یا غیرفعال می‌شوند تا سربار اضافی ایجاد نشود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>مدیریت هوشمند Resolverها</b><br>Resolverها از نظر سرعت، تأخیر، پکت‌لاس و سلامت بررسی می‌شوند. Resolverهای خراب به‌صورت خودکار کنار گذاشته شده و پس از بهبود دوباره وارد چرخه می‌شوند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>تنظیم خودکار MTU</b><br>کلاینت اندازه مناسب بسته‌ها را برای آپلود و دانلود پیدا می‌کند تا احتمال شکسته‌شدن یا ازدست‌رفتن بسته‌ها کاهش پیدا کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>مقابله با DNS Poisoning</b><br>با استفاده از روش‌هایی مانند Transaction ID تصادفی، EDNS Cookie، تغییر شکل درخواست‌های DNS و ارسال از چند دامنه مختلف، مقاومت اتصال در برابر پاسخ‌های جعلی و دست‌کاری‌شده افزایش یافته است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>انتقال داده با فرمت‌های مختلف DNS</b><br>داده‌ها می‌توانند با رکوردهای TXT، CNAME، A، NULL و HTTPS/SVCB منتقل شوند. کلاینت می‌تواند بسته به محدودیت شبکه بین این روش‌ها جابه‌جا شود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>امنیت و رمزنگاری</b><br>روش‌های AES-GCM، ChaCha20، XOR و الگوریتم‌های قابل تنظیم پشتیبانی می‌شوند. نوع رمزنگاری هر کلاینت به‌صورت امن و مستقل شناسایی می‌شود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>سازگاری با نسخه‌های قبلی</b><br>کلاینت‌های جدید CottenDNS و کلاینت‌های قدیمی MasterDNS و StormDNS می‌توانند هم‌زمان به یک سرور متصل شوند. بنابراین کاربران قدیمی برای ادامه استفاده نیازی به تغییر فوری ندارند.<br><br>در مجموع، سرور CottenDNS امکانات مختلف را فراهم می‌کند و هر کلاینت بر اساس شرایط اینترنت خود، بهترین ترکیب اتصال را انتخاب می‌کند.<br><br><tg-emoji emoji-id=\"5267102644886853973\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i></tg-emoji>Thanks to <a href=\"https://t.me/masterdnsvpn\" target=\"_blank\">@masterdnsvpn</a><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@WhiteDNS</a>",
+      "plain_text": "🚀 معرفی پروژه CottenDNS\n\nhttps://github.com/WhiteDNS/CottenDNS\n\nنسخه پایدار CottenDNS با تمرکز بر اتصال بهتر و پایدارتر در شبکه‌های دارای فیلترینگ، اختلال DNS، پکت‌لاس و تأخیر بالا منتشر شد.\n\nدر معماری جدید، سرور به‌صورت پویا با تنظیمات هر کاربر هماهنگ می‌شود. یعنی کاربران می‌توانند بدون تغییر کانفیگ سرور، روش انتقال داده، نوع رمزنگاری، MTU، فشرده‌سازی و قابلیت‌های بازیابی بسته‌های ازدست‌رفته را متناسب با کیفیت اینترنت خود انتخاب کنند.\n\nمهم‌ترین قابلیت‌ها\n\n🔹 سازگاری با شرایط مختلف شبکه\nاتصال می‌تواند از طریق UDP و TCP روی پورت 53 و همچنین DoT و DoH انجام شود. اگر یک مسیر مسدود یا دچار اختلال شود، کلاینت می‌تواند از مسیر جایگزین استفاده کند.\n\n🔹 مقاومت بیشتر در برابر پکت‌لاس\nCottenDNS با استفاده از ارسال مجدد هوشمند بسته‌ها، Duplication و فناوری FEC تلاش می‌کند اطلاعات ازدست‌رفته را بازیابی کند. این قابلیت‌ها بر اساس وضعیت شبکه به‌صورت خودکار فعال یا غیرفعال می‌شوند تا سربار اضافی ایجاد نشود.\n\n🔹 مدیریت هوشمند Resolverها\nResolverها از نظر سرعت، تأخیر، پکت‌لاس و سلامت بررسی می‌شوند. Resolverهای خراب به‌صورت خودکار کنار گذاشته شده و پس از بهبود دوباره وارد چرخه می‌شوند.\n\n🔹 تنظیم خودکار MTU\nکلاینت اندازه مناسب بسته‌ها را برای آپلود و دانلود پیدا می‌کند تا احتمال شکسته‌شدن یا ازدست‌رفتن بسته‌ها کاهش پیدا کند.\n\n🔹 مقابله با DNS Poisoning\nبا استفاده از روش‌هایی مانند Transaction ID تصادفی، EDNS Cookie، تغییر شکل درخواست‌های DNS و ارسال از چند دامنه مختلف، مقاومت اتصال در برابر پاسخ‌های جعلی و دست‌کاری‌شده افزایش یافته است.\n\n🔹 انتقال داده با فرمت‌های مختلف DNS\nداده‌ها می‌توانند با رکوردهای TXT، CNAME، A، NULL و HTTPS/SVCB منتقل شوند. کلاینت می‌تواند بسته به محدودیت شبکه بین این روش‌ها جابه‌جا شود.\n\n🔹 امنیت و رمزنگاری\nروش‌های AES-GCM، ChaCha20، XOR و الگوریتم‌های قابل تنظیم پشتیبانی می‌شوند. نوع رمزنگاری هر کلاینت به‌صورت امن و مستقل شناسایی می‌شود.\n\n🔹 سازگاری با نسخه‌های قبلی\nکلاینت‌های جدید CottenDNS و کلاینت‌های قدیمی MasterDNS و StormDNS می‌توانند هم‌زمان به یک سرور متصل شوند. بنابراین کاربران قدیمی برای ادامه استفاده نیازی به تغییر فوری ندارند.\n\nدر مجموع، سرور CottenDNS امکانات مختلف را فراهم می‌کند و هر کلاینت بر اساس شرایط اینترنت خود، بهترین ترکیب اتصال را انتخاب می‌کند.\n\n❤️Thanks to @masterdnsvpn\n@WhiteDNS",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "27"
+        },
+        {
+          "emoji": "👍",
+          "count": "3"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "1"
+        },
+        {
+          "emoji": "🔥",
           "count": "1"
         }
       ],
-      "views_label": "382",
+      "views_label": "1.49K",
       "posted_at": "2026-07-28T06:53:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1345",
@@ -39,8 +117,8 @@
     {
       "id": "whitedns/1344",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<a href=\"https://t.me/+FE3VusXUmuE4Yjhk\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">عضویت</a> در گروه whitedns<br><br>در گروه اختصاصی ما عضو شوید لطفا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA49D.png')\"><b>🤝</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a>",
       "plain_text": "عضویت در گروه whitedns\n\nدر گروه اختصاصی ما عضو شوید لطفا 🤝\n\n@whitedns",
@@ -60,11 +138,11 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "28"
+          "count": "33"
         },
         {
           "emoji": "❤",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "👍",
@@ -75,7 +153,7 @@
           "count": "1"
         }
       ],
-      "views_label": "693",
+      "views_label": "825",
       "posted_at": "2026-07-28T06:04:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1344",
@@ -84,8 +162,8 @@
     {
       "id": "whitedns/1339",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -93,7 +171,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "39"
+          "count": "41"
         },
         {
           "emoji": "🙏",
@@ -112,7 +190,7 @@
           "count": "1"
         }
       ],
-      "views_label": "545",
+      "views_label": "626",
       "posted_at": "2026-07-28T06:00:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1339",
@@ -121,8 +199,8 @@
     {
       "id": "whitedns/1338",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "نسخه جدید WhiteVPN 1.1.0 منتشر شد!<br><br>در این نسخه چند قابلیت کاربردی اضافه کردیم تا اتصال راحت‌تر، سریع‌تر و امن‌تر باشه:<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> اتصال همیشگی VPN</b><br>می‌تونید WhiteVPN رو طوری تنظیم کنید که همیشه فعال بمونه و در صورت قطع شدن، دوباره متصل بشه.<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i>امکان Kill Switch<br></b>اگر VPN قطع بشه، اینترنت هم موقتاً متوقف می‌شه تا اطلاعات شما بدون محافظت منتقل نشه.<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>قابلیت Real Delay Test<br></b>حالا می‌تونید تأخیر اتصال‌ها رو بررسی کنید، نتیجه‌ها رو ببینید و سریع‌ترین گزینه رو راحت‌تر انتخاب کنید.<br> <br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> طراحی جدید صفحه اشتراک‌ها</b><br>صفحه اشتراک‌ها ساده‌تر، مرتب‌تر و خوش‌دست‌تر شده تا مدیریت و انتخاب اشتراک‌ها راحت‌تر باشه.<br><br>همین حالا WhiteVPN رو به نسخه 1.1.0 به‌روزرسانی کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA48D.png')\"><b>🤍</b></i>",
       "plain_text": "نسخه جدید WhiteVPN 1.1.0 منتشر شد!\n\nدر این نسخه چند قابلیت کاربردی اضافه کردیم تا اتصال راحت‌تر، سریع‌تر و امن‌تر باشه:\n\n🛡 اتصال همیشگی VPN\nمی‌تونید WhiteVPN رو طوری تنظیم کنید که همیشه فعال بمونه و در صورت قطع شدن، دوباره متصل بشه.\n\n🔒امکان Kill Switch\nاگر VPN قطع بشه، اینترنت هم موقتاً متوقف می‌شه تا اطلاعات شما بدون محافظت منتقل نشه.\n\n⚡️قابلیت Real Delay Test\nحالا می‌تونید تأخیر اتصال‌ها رو بررسی کنید، نتیجه‌ها رو ببینید و سریع‌ترین گزینه رو راحت‌تر انتخاب کنید.\n\n✨ طراحی جدید صفحه اشتراک‌ها\nصفحه اشتراک‌ها ساده‌تر، مرتب‌تر و خوش‌دست‌تر شده تا مدیریت و انتخاب اشتراک‌ها راحت‌تر باشه.\n\nهمین حالا WhiteVPN رو به نسخه 1.1.0 به‌روزرسانی کنید 🤍",
@@ -142,7 +220,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "41"
+          "count": "45"
         },
         {
           "emoji": "🔥",
@@ -165,7 +243,7 @@
           "count": "1"
         }
       ],
-      "views_label": "289",
+      "views_label": "352",
       "posted_at": "2026-07-28T06:00:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1338",
@@ -174,8 +252,8 @@
     {
       "id": "whitedns/1337",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "دوستان سلام <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i> : <br><br>حالا همیشه هم پست برنامه و توضیح نگذاریم، بعضی وقتها یکم حرف بزنیم با هم، اینجا همه با هم داریم کار را جلو می‌بریم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA49D.png')\"><b>🤝</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i><br><br>برای اینکه یک پروژه درست بشه ساعت‌ها وقت و هزینه صرف میشه تا به دست تو برسه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B8.png')\"><b>💸</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28FB3.png')\"><b>⏳</b></i>، وقت و هزینه‌ای که میشد گذاشته نشه، زمانی که میشد در کنار دوست و خانواده بود و یا اصلاً رفت عشق و حال کرد <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9894.png')\"><b>😔</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9294.png')\"><b>💔</b></i>. اغلب دولوپرهای این تیم کلاً نیازی به بودن اینجا ندارند، فقط احساس دین می‌کنند <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F998F.png')\"><b>🙏</b></i>.<br><br>شما میتونی با لایک <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918D.png')\"><b>👍</b></i> و دیس‌لایک <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918E.png')\"><b>👎</b></i>، پروژه را تایید کنید یا ردش کنی و یا با قلب <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i> حمایت کنی و ....<br><br>خطاب به اون چند نفر : <br>اینکه تو اینقدر بی‌شخصیت هستی که آیکن <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA4AE.png')\"><b>🤮</b></i> می‌گذاری این فقط یک چیز را می‌رسونه، تو لیاقت این را نداری که کوچکترین خدماتی حتی با دریافت هزینه بهت داده بشه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9AAB.png')\"><b>🚫</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠️</b></i>. تو همون کسی که اصلاً برات مهم نیست چی به مردمت می‌گذره، برات هیچی مهم نیست <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA4B7E2808DE29982.png')\"><b>🤷‍♂️</b></i>.<br><br>متاسفانه تو جرات نداری بیای توی گروه‌ها خودت را نشون بدی و بحث فنی کنی <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9B91.png')\"><b>🛑</b></i>، والا تکلیف مشخص میشه.<br><br>یک تعداد زیادی از شماها که همراه ما هستند یکی از یکی خوب‌تر و مایه انرژی ما و بقیه هستید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐</b></i>، دلیل اینکه ادامه می‌دیم شماها هستید، والا کار ما خیلی وقت هست که تمام شد <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8F81.png')\"><b>🏁</b></i>.<br><br>ارادتمند <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i><br>ویسپر <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA4.png')\"><b>🎤</b></i><br>تیم whitedns <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡️</b></i>",
       "plain_text": "دوستان سلام 👋 :\n\nحالا همیشه هم پست برنامه و توضیح نگذاریم، بعضی وقتها یکم حرف بزنیم با هم، اینجا همه با هم داریم کار را جلو می‌بریم 🤝✨\n\nبرای اینکه یک پروژه درست بشه ساعت‌ها وقت و هزینه صرف میشه تا به دست تو برسه 💸⏳، وقت و هزینه‌ای که میشد گذاشته نشه، زمانی که میشد در کنار دوست و خانواده بود و یا اصلاً رفت عشق و حال کرد 😔💔. اغلب دولوپرهای این تیم کلاً نیازی به بودن اینجا ندارند، فقط احساس دین می‌کنند 🙏.\n\nشما میتونی با لایک 👍 و دیس‌لایک 👎، پروژه را تایید کنید یا ردش کنی و یا با قلب ❤️ حمایت کنی و ....\n\nخطاب به اون چند نفر :\nاینکه تو اینقدر بی‌شخصیت هستی که آیکن 🤮 می‌گذاری این فقط یک چیز را می‌رسونه، تو لیاقت این را نداری که کوچکترین خدماتی حتی با دریافت هزینه بهت داده بشه 🚫🛠️. تو همون کسی که اصلاً برات مهم نیست چی به مردمت می‌گذره، برات هیچی مهم نیست 🤷‍♂️.\n\nمتاسفانه تو جرات نداری بیای توی گروه‌ها خودت را نشون بدی و بحث فنی کنی 💻🛑، والا تکلیف مشخص میشه.\n\nیک تعداد زیادی از شماها که همراه ما هستند یکی از یکی خوب‌تر و مایه انرژی ما و بقیه هستید 🔥⭐، دلیل اینکه ادامه می‌دیم شماها هستید، والا کار ما خیلی وقت هست که تمام شد 🏁.\n\nارادتمند 👋\nویسپر 🎤\nتیم whitedns 🛡️",
@@ -199,7 +277,7 @@
         },
         {
           "emoji": "❤",
-          "count": "436"
+          "count": "451"
         },
         {
           "emoji": "👍",
@@ -207,7 +285,7 @@
         },
         {
           "emoji": "❤‍🔥",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "👏",
@@ -218,11 +296,11 @@
           "count": "6"
         },
         {
-          "emoji": "🥰",
-          "count": "4"
+          "emoji": "🙏",
+          "count": "5"
         },
         {
-          "emoji": "🙏",
+          "emoji": "🥰",
           "count": "4"
         },
         {
@@ -242,7 +320,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.35K",
+      "views_label": "4.65K",
       "posted_at": "2026-07-28T04:55:10+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1337",
@@ -251,8 +329,8 @@
     {
       "id": "whitedns/1335",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> Aether Desktop اومد! — آزادی، با یک لمس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br>بالاخره نسخهٔ ویندوزی Aether رسید! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E89.png')\"><b>🎉</b></i> همون اپ محبوب اندرویدی، حالا روی ویندوز — با همون ظاهر، همون آیکون و همون هستهٔ قدرتمند. نسخهٔ 1.0.0 اولین انتشار دسکتاپه و هیچی از نسخهٔ اندروید کم نداره!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> چی داره؟<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948C.png')\"><b>🔌</b></i> اتصال قدرتمند:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> ۴ پروتکل: Smart (انتخاب خودکار) · MASQUE · WireGuard · WARP×2<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> ۵ حالت اسکن: از Turbo تا Ironclad<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> اتصال مجدد خودکار تا ۵ بار + انتخاب هوشمند پروتکل اگه یکی جواب نداد<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> پشتیبانی IPv4، IPv6 یا هر دو باهم<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نمایش زندهٔ سرعت، پینگ، سرور و IP با پرچم کشور <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8FB3.png')\"><b>🏳️</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i> رابط کاربری خیره کننده و زیبا :<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> کاملاً دوزبانه (فارسی و انگلیسی) با پشتیبانی کامل راست‌به‌چپ<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> تم تیره با طراحی دقیقاً مثل موبایل، بهینه برای مانیتورهای بزرگ<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نوار عنوان به سبک ویندوز ۱۱<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> تنظیمات پیشرفته:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نویز (از سبک تا تهاجمی و GFW) · MTU دلخواه · Fragment · ECH<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> تونل تفکیکی (Split Tunneling) — انتخاب کن کدوم برنامه‌ها از تونل رد بشن<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> اشتراک با بقیه دستگاه‌ها:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> SOCKS5 روی پورت 10810 و HTTP روی 10811<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> هر دو پورت خودکار پروتکل رو تشخیص می‌دن — هر کدومو هرجا بزنی کار می‌کنه!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> عیب‌یابی حرفه‌ای:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> تست زندهٔ اتصال + بررسی ۶ موردی محیط سیستم<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> کنسول لاگ زنده و رنگی با دکمهٔ کپی<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FAA9F.png')\"><b>🪟</b></i> مخصوص ویندوز:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> تونل واقعی سطح سیستم با درایور رسمی و امضاشدهٔ مایکروسافت (Wintun)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> پروکسی سیستمی خودکار تنظیم می‌شه و موقع قطع، برمی‌گرده سر جاش<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نیازی به Visual C++ نداره؛ WebView2 هم نبود، خودش نصبش می‌کنه<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> دانلود:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نصب‌کنندهٔ گرافیکی برای ویندوز ۶۴ و ۳۲ بیتی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نسخهٔ پرتابل بدون نصب — هیچ ردی روی سیستم نمی‌ذاره! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918C.png')\"><b>👌</b></i><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> فایل SHA256 برای راستی‌آزمایی سلامت فایل‌ها<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> ساخته‌شده با Rust + Tauri 2 — یعنی حجم نصب فقط چند مگابایته، نه ۱۰۰ مگ مثل اپ‌های Electron! کل بیلد و انتشار هم صددرصد خودکار با GitHub Actions انجام می‌شه، بدون هیچ دخالت دستی.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i> پیش‌نیاز: ویندوز ۱۰ (نسخهٔ ۱۸۰۹ به بالا) + دسترسی Administrator برای ساخت آداپتور شبکه<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9384.png')\"><b>📄</b></i> لایسنس: MIT — کاملاً متن‌باز و رایگان <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9299.png')\"><b>💙</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> همین الان از بخش Releases گیت‌هاب دانلود کن و آزادی رو با یک کلیک تجربه کن!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i>  دانلود مستقیم از گیت هاب<br><br><a href=\"https://github.com/QW-AI-Code/Aether_Desktop/releases/\" target=\"_blank\" rel=\"noopener\">https://github.com/QW-AI-Code/Aether_Desktop/releases/</a><br><br><blockquote expandable=\"\">سلام دوستان عزیز <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8B.png')\"><b>✋</b></i><br><br>یه یادآوری مهم که حتماً بخونیدش <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br>برای اینکه اپ (چه نسخه اندروید چه ویندوز) براتون وصل شه، این چند تا نکته رو رعایت کنید تا بهترین نتیجه رو بگیرید:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28FB3.png')\"><b>⏳</b></i> رو هر پروتکل ۱ تا ۳ دقیقه صبر کنید تا وصل شه. بسته به اپراتور و منطقه‌تون این زمان فرق می‌کنه، عجله نکنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i> پروتکل‌ها و تنظیمات مختلف رو تست کنید. چرا؟ چون DPI هر سیم‌کارت با سیم‌کارت دیگه، هر منطقه با منطقه دیگه و هر شهر با شهر دیگه فرق داره.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> اگه با موبایل وصل نشدید: چند بار گوشی رو ببرید رو حالت هواپیما و برگردونید تا رنج آی‌پی‌تون عوض شه، بعد دوباره پروتکل‌های مختلف رو تست کنید. خلاصه باید قلق DPI اپراتور و منطقه خودتون دستتون بیاد <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9889.png')\"><b>😉</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B6.png')\"><b>📶</b></i> اگه با وای‌فای هستید: مودم رو ۱ تا ۲ دقیقه خاموش کنید تا رنج آی‌پی عوض شه، بعد دوباره با پروتکل‌ها و تنظیمات مختلف امتحان کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D8C.png')\"><b>❌</b></i> اگه بازم وصل نشد، یعنی این وی‌پی‌ان با نت شما جواب نمی‌ده و باید برید سراغ وی‌پی‌انی که با نت شما سازگاره.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> و نکته آخر: بعضی از کاربرا میگن این اپ مشکل داره و واسشون کار نمیکنه.<br> اگه مشکل از خود اپ بود، نباید برای هیچ‌کس کار می‌کرد! همونطور که می‌دونید برای خیلی‌ها داره کار می‌کنه و هر کسی تجربه متفاوتی داره.<br> پس اگه برای شما وصل نمی‌شه، مشکل از Aether نیست؛ مشکل از DPIایه که رو اپراتور شماست و جلوی کار کردن اپ رو می‌گیره.</blockquote><br><a href=\"?q=%23VPN\">#VPN</a> <a href=\"?q=%23%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86\">#فیلترشکن</a> <a href=\"?q=%23Aether\">#Aether</a> <a href=\"?q=%23%D9%88%DB%8C%D9%86%D8%AF%D9%88%D8%B2\">#ویندوز</a> <a href=\"?q=%23%D9%85%D8%AA%D9%86_%D8%A8%D8%A7%D8%B2\">#متن_باز</a>",
       "plain_text": "🚀 Aether Desktop اومد! — آزادی، با یک لمس 🔥\n\nبالاخره نسخهٔ ویندوزی Aether رسید! 🎉 همون اپ محبوب اندرویدی، حالا روی ویندوز — با همون ظاهر، همون آیکون و همون هستهٔ قدرتمند. نسخهٔ 1.0.0 اولین انتشار دسکتاپه و هیچی از نسخهٔ اندروید کم نداره!\n\n✨ چی داره؟\n\n🔌 اتصال قدرتمند:\n▫️ ۴ پروتکل: Smart (انتخاب خودکار) · MASQUE · WireGuard · WARP×2\n▫️ ۵ حالت اسکن: از Turbo تا Ironclad\n▫️ اتصال مجدد خودکار تا ۵ بار + انتخاب هوشمند پروتکل اگه یکی جواب نداد\n▫️ پشتیبانی IPv4، IPv6 یا هر دو باهم\n▫️ نمایش زندهٔ سرعت، پینگ، سرور و IP با پرچم کشور 🏳️\n\n🎨 رابط کاربری خیره کننده و زیبا :\n▫️ کاملاً دوزبانه (فارسی و انگلیسی) با پشتیبانی کامل راست‌به‌چپ\n▫️ تم تیره با طراحی دقیقاً مثل موبایل، بهینه برای مانیتورهای بزرگ\n▫️ نوار عنوان به سبک ویندوز ۱۱\n\n⚙️ تنظیمات پیشرفته:\n▫️ نویز (از سبک تا تهاجمی و GFW) · MTU دلخواه · Fragment · ECH\n▫️ تونل تفکیکی (Split Tunneling) — انتخاب کن کدوم برنامه‌ها از تونل رد بشن\n\n📡 اشتراک با بقیه دستگاه‌ها:\n▫️ SOCKS5 روی پورت 10810 و HTTP روی 10811\n▫️ هر دو پورت خودکار پروتکل رو تشخیص می‌دن — هر کدومو هرجا بزنی کار می‌کنه!\n\n🛠 عیب‌یابی حرفه‌ای:\n▫️ تست زندهٔ اتصال + بررسی ۶ موردی محیط سیستم\n▫️ کنسول لاگ زنده و رنگی با دکمهٔ کپی\n\n🪟 مخصوص ویندوز:\n▫️ تونل واقعی سطح سیستم با درایور رسمی و امضاشدهٔ مایکروسافت (Wintun)\n▫️ پروکسی سیستمی خودکار تنظیم می‌شه و موقع قطع، برمی‌گرده سر جاش\n▫️ نیازی به Visual C++ نداره؛ WebView2 هم نبود، خودش نصبش می‌کنه\n\n📦 دانلود:\n▫️ نصب‌کنندهٔ گرافیکی برای ویندوز ۶۴ و ۳۲ بیتی\n▫️ نسخهٔ پرتابل بدون نصب — هیچ ردی روی سیستم نمی‌ذاره! 👌\n▫️ فایل SHA256 برای راستی‌آزمایی سلامت فایل‌ها\n\n⚡️ ساخته‌شده با Rust + Tauri 2 — یعنی حجم نصب فقط چند مگابایته، نه ۱۰۰ مگ مثل اپ‌های Electron! کل بیلد و انتشار هم صددرصد خودکار با GitHub Actions انجام می‌شه، بدون هیچ دخالت دستی.\n\n📋 پیش‌نیاز: ویندوز ۱۰ (نسخهٔ ۱۸۰۹ به بالا) + دسترسی Administrator برای ساخت آداپتور شبکه\n\n📄 لایسنس: MIT — کاملاً متن‌باز و رایگان 💙\n\n⬇️ همین الان از بخش Releases گیت‌هاب دانلود کن و آزادی رو با یک کلیک تجربه کن!\n\n📥 دانلود مستقیم از گیت هاب\n\nhttps://github.com/QW-AI-Code/Aether_Desktop/releases/\n\nسلام دوستان عزیز ✋\n\nیه یادآوری مهم که حتماً بخونیدش 👇\n\nبرای اینکه اپ (چه نسخه اندروید چه ویندوز) براتون وصل شه، این چند تا نکته رو رعایت کنید تا بهترین نتیجه رو بگیرید:\n\n⏳ رو هر پروتکل ۱ تا ۳ دقیقه صبر کنید تا وصل شه. بسته به اپراتور و منطقه‌تون این زمان فرق می‌کنه، عجله نکنید.\n\n🔄 پروتکل‌ها و تنظیمات مختلف رو تست کنید. چرا؟ چون DPI هر سیم‌کارت با سیم‌کارت دیگه، هر منطقه با منطقه دیگه و هر شهر با شهر دیگه فرق داره.\n\n📱 اگه با موبایل وصل نشدید: چند بار گوشی رو ببرید رو حالت هواپیما و برگردونید تا رنج آی‌پی‌تون عوض شه، بعد دوباره پروتکل‌های مختلف رو تست کنید. خلاصه باید قلق DPI اپراتور و منطقه خودتون دستتون بیاد 😉\n\n📶 اگه با وای‌فای هستید: مودم رو ۱ تا ۲ دقیقه خاموش کنید تا رنج آی‌پی عوض شه، بعد دوباره با پروتکل‌ها و تنظیمات مختلف امتحان کنید.\n\n❌ اگه بازم وصل نشد، یعنی این وی‌پی‌ان با نت شما جواب نمی‌ده و باید برید سراغ وی‌پی‌انی که با نت شما سازگاره.\n\n⚠️ و نکته آخر: بعضی از کاربرا میگن این اپ مشکل داره و واسشون کار نمیکنه.\nاگه مشکل از خود اپ بود، نباید برای هیچ‌کس کار می‌کرد! همونطور که می‌دونید برای خیلی‌ها داره کار می‌کنه و هر کسی تجربه متفاوتی داره.\nپس اگه برای شما وصل نمی‌شه، مشکل از Aether نیست؛ مشکل از DPIایه که رو اپراتور شماست و جلوی کار کردن اپ رو می‌گیره.\n#VPN #فیلترشکن #Aether #ویندوز #متن_باز",
@@ -276,7 +354,7 @@
         },
         {
           "emoji": "❤",
-          "count": "234"
+          "count": "235"
         },
         {
           "emoji": "👎",
@@ -311,7 +389,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.09K",
+      "views_label": "7.31K",
       "posted_at": "2026-07-28T00:43:03+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1335",
@@ -320,8 +398,8 @@
     {
       "id": "whitedns/1334",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "UAC SNI Spoofer Desktop<br>نسخه 1.0.6<br>━━━━━━━━━━━━━━━━━━<br>تغییرات جدید نسخه 1.0.6<br>• قابلیت Mobile Gateway اضافه شد. دستگاه‌های متصل به شبکه وای‌فای مشترک می‌توانند بدون تغییر تنظیمات Proxy، IP یا DHCP از VPN کامپیوتر استفاده کنند.<br>• امکان پینگ‌گرفتن از کانفیگ‌های موجود در تب Configs و مرتب‌سازی آن‌ها براساس کمترین پینگ یا کشور اضافه شد.<br>• باگ‌های جزئی بخش SNI Config Maker برطرف شدند. اکنون کانفیگ‌های بیشتری از مخازن شناسایی، دریافت و پردازش می‌شوند.<br>• مشکل فعال‌نشدن دستی کانفیگ‌ها، به‌خصوص هنگام استفاده از Auto Mode، برطرف شد.<br>━━━━━━━━━━━━━━━━━━<br>لینک دریافت نسخه 1.0.6:<br><a href=\"https://github.com/Floxu1/UAC-SNI-Spoofer-Windows/releases/tag/1.0.6\" target=\"_blank\" rel=\"noopener\">https://github.com/Floxu1/UAC-SNI-Spoofer-Windows/releases/tag/1.0.6</a><br><br>لینک گیت‌هاب پروژه:<br><a href=\"https://github.com/Floxu1/UAC-SNI-Spoofer-Windows\" target=\"_blank\" rel=\"noopener\">https://github.com/Floxu1/UAC-SNI-Spoofer-Windows</a><br><br><a href=\"http://t.me/UacSniSpoofer\" target=\"_blank\" rel=\"noopener\">t.me/UacSniSpoofer</a>",
       "plain_text": "UAC SNI Spoofer Desktop\nنسخه 1.0.6\n━━━━━━━━━━━━━━━━━━\nتغییرات جدید نسخه 1.0.6\n• قابلیت Mobile Gateway اضافه شد. دستگاه‌های متصل به شبکه وای‌فای مشترک می‌توانند بدون تغییر تنظیمات Proxy، IP یا DHCP از VPN کامپیوتر استفاده کنند.\n• امکان پینگ‌گرفتن از کانفیگ‌های موجود در تب Configs و مرتب‌سازی آن‌ها براساس کمترین پینگ یا کشور اضافه شد.\n• باگ‌های جزئی بخش SNI Config Maker برطرف شدند. اکنون کانفیگ‌های بیشتری از مخازن شناسایی، دریافت و پردازش می‌شوند.\n• مشکل فعال‌نشدن دستی کانفیگ‌ها، به‌خصوص هنگام استفاده از Auto Mode، برطرف شد.\n━━━━━━━━━━━━━━━━━━\nلینک دریافت نسخه 1.0.6:\nhttps://github.com/Floxu1/UAC-SNI-Spoofer-Windows/releases/tag/1.0.6\n\nلینک گیت‌هاب پروژه:\nhttps://github.com/Floxu1/UAC-SNI-Spoofer-Windows\n\nt.me/UacSniSpoofer",
@@ -360,7 +438,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.35K",
+      "views_label": "9.51K",
       "posted_at": "2026-07-27T20:33:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1334",
@@ -369,8 +447,8 @@
     {
       "id": "whitedns/1333",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<tg-emoji emoji-id=\"5224450179368767019\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8E.png')\"><b>🌎</b></i></tg-emoji> نسخه جدید WhiteVPN 1.1.0 منتشر شد!",
       "plain_text": "🌎 نسخه جدید WhiteVPN 1.1.0 منتشر شد!",
@@ -425,7 +503,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.7K",
+      "views_label": "11.8K",
       "posted_at": "2026-07-27T14:17:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1333",
@@ -434,8 +512,8 @@
     {
       "id": "whitedns/1328",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -490,7 +568,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.4K",
+      "views_label": "13.5K",
       "posted_at": "2026-07-27T14:17:43+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1328",
@@ -499,8 +577,8 @@
     {
       "id": "whitedns/1327",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
+      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "نسخه جدید WhiteVPN 1.1.0 منتشر شد!<br><br>در این نسخه چند قابلیت کاربردی اضافه کردیم تا اتصال راحت‌تر، سریع‌تر و امن‌تر باشه:<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> اتصال همیشگی VPN</b><br>می‌تونید WhiteVPN رو طوری تنظیم کنید که همیشه فعال بمونه و در صورت قطع شدن، دوباره متصل بشه.<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i>امکان Kill Switch<br></b>اگر VPN قطع بشه، اینترنت هم موقتاً متوقف می‌شه تا اطلاعات شما بدون محافظت منتقل نشه.<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>قابلیت Real Delay Test<br></b>حالا می‌تونید تأخیر اتصال‌ها رو بررسی کنید، نتیجه‌ها رو ببینید و سریع‌ترین گزینه رو راحت‌تر انتخاب کنید.<br> <br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> طراحی جدید صفحه اشتراک‌ها</b><br>صفحه اشتراک‌ها ساده‌تر، مرتب‌تر و خوش‌دست‌تر شده تا مدیریت و انتخاب اشتراک‌ها راحت‌تر باشه.<br><br>همین حالا WhiteVPN رو به نسخه 1.1.0 به‌روزرسانی کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA48D.png')\"><b>🤍</b></i>",
       "plain_text": "نسخه جدید WhiteVPN 1.1.0 منتشر شد!\n\nدر این نسخه چند قابلیت کاربردی اضافه کردیم تا اتصال راحت‌تر، سریع‌تر و امن‌تر باشه:\n\n🛡 اتصال همیشگی VPN\nمی‌تونید WhiteVPN رو طوری تنظیم کنید که همیشه فعال بمونه و در صورت قطع شدن، دوباره متصل بشه.\n\n🔒امکان Kill Switch\nاگر VPN قطع بشه، اینترنت هم موقتاً متوقف می‌شه تا اطلاعات شما بدون محافظت منتقل نشه.\n\n⚡️قابلیت Real Delay Test\nحالا می‌تونید تأخیر اتصال‌ها رو بررسی کنید، نتیجه‌ها رو ببینید و سریع‌ترین گزینه رو راحت‌تر انتخاب کنید.\n\n✨ طراحی جدید صفحه اشتراک‌ها\nصفحه اشتراک‌ها ساده‌تر، مرتب‌تر و خوش‌دست‌تر شده تا مدیریت و انتخاب اشتراک‌ها راحت‌تر باشه.\n\nهمین حالا WhiteVPN رو به نسخه 1.1.0 به‌روزرسانی کنید 🤍",
@@ -559,7 +637,7 @@
           "count": "2"
         }
       ],
-      "views_label": "14.1K",
+      "views_label": "14.3K",
       "posted_at": "2026-07-27T14:13:56+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1327",
@@ -4450,55 +4528,6 @@
       "posted_at": "2026-07-18T08:41:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1205",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1204",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/kpjQtVPilPeC1JLTGf6mxEfaA5jrblLc7Do0kHc2g5WhEiWLxYQZPmVZJYQx4ZzU4uSiTXRFMDU2QDTRTrV7MtpQd23el1uoD88DH_HyhfTm93UebpUmR4xxL5p25dczll8vh3zUz2Yf4VLj0o9jz7zpL4jnPiiE7LP5DFknC0kX5hEVA8HSSscsTkGb1KHagbKaegYj4vJQPf8kvmp7BY0WIigPJoETzEm3ioaln8OHE99UeX0HL2iU3Q40vWPmhyjiw-v6yGbc6M-NotPgReSwVzM32kKJVRmdl-sijGQ8Tm3FewkQO24SQz6AYpzMYwdm9AoltKvVElbVQVw1yw.jpg",
-      "author_photo_path": "channels/whitedns/media/6983fb6ba57977599abc52ee.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/whitedns\"><span dir=\"auto\">White DNS</span></a> pinned a photo",
-      "plain_text": "White DNS pinned a photo",
-      "media": [],
-      "reactions": [],
-      "views_label": null,
-      "posted_at": "2026-07-18T08:29:35+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1204",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1199",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/kpjQtVPilPeC1JLTGf6mxEfaA5jrblLc7Do0kHc2g5WhEiWLxYQZPmVZJYQx4ZzU4uSiTXRFMDU2QDTRTrV7MtpQd23el1uoD88DH_HyhfTm93UebpUmR4xxL5p25dczll8vh3zUz2Yf4VLj0o9jz7zpL4jnPiiE7LP5DFknC0kX5hEVA8HSSscsTkGb1KHagbKaegYj4vJQPf8kvmp7BY0WIigPJoETzEm3ioaln8OHE99UeX0HL2iU3Q40vWPmhyjiw-v6yGbc6M-NotPgReSwVzM32kKJVRmdl-sijGQ8Tm3FewkQO24SQz6AYpzMYwdm9AoltKvVElbVQVw1yw.jpg",
-      "author_photo_path": "channels/whitedns/media/6983fb6ba57977599abc52ee.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "64"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "🕊",
-          "count": "3"
-        }
-      ],
-      "views_label": "1.7K",
-      "posted_at": "2026-07-18T08:29:03+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1199",
       "reply": null
     }
   ]
