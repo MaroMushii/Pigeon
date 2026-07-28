@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-28T16:16:39.669Z",
+  "fetched_at": "2026-07-28T16:21:39.019Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "31.7K"
   },
   "posts": [
+    {
+      "id": "hranews/114496",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/rDLhsMWGnhLZt88Q54UpZOQR-V9Vr7Q2M2kLLpYL91YsBEDhwZ6B_EqtONaknWWPXPlJMRlM4SdRIG1sf4I4kIJUnZZVZk3b2GoessBhXGaXVvY7ZQmmVzqKIBhOHs-tdFrstxlrioyAY57cXMn7gGsq0Nx5pOL4_ygcTmgbxCqR55nXQEPLFxLU_Vl--52Jy_DP-0z4uxFjjUanw3GIj3hcmWjxNFyaHxJYMLWosbtt0NoZXqHguXBvSGMZWjViftIiJzfyunMMhdLjxc4_ERCq_aemW1uPwoKmyJztmjzx0XPmdeNFzMVUV1Ax6frWb61kmdnNT8DlUwJmZyZsow.jpg",
+      "author_photo_path": "channels/hranews/media/dd80ba2225fe596714ab2b27.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "محمد موحدی‌آزاد، دادستان کل کشور از شناسایی ۳۰۰ تن از ایرانیان ساکن خارج از کشور که «معاند خارج‌نشین» خواند، خبر داد و اعلام کرد که ضمن شناسایی اموال، یارانه نقدی این افراد پس از انجام مراحل قضایی، قطع شده است.<br><a href=\"?q=%23%D9%82%D8%B7%D8%B9_%DB%8C%D8%A7%D8%B1%D8%A7%D9%86%D9%87\">#قطع_یارانه</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "محمد موحدی‌آزاد، دادستان کل کشور از شناسایی ۳۰۰ تن از ایرانیان ساکن خارج از کشور که «معاند خارج‌نشین» خواند، خبر داد و اعلام کرد که ضمن شناسایی اموال، یارانه نقدی این افراد پس از انجام مراحل قضایی، قطع شده است.\n#قطع_یارانه\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/hranews/114496",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/EQzH5-phgB0FvqUewYWecaNO9Mm3wwdl59eNe4C2E--oWYOTkmPTfjszHh5qJlf5IluYuRFO18kLjLWlloprXVzx5WcrhrGYLLoERDBCYWDTIBcGCRt5Tf1cSHD0M-ePvAgwL5zWmaKPFhObk-no0Bk3yEFSVmE6zXcLU2943y2IQYWU_kbaprikA2kaqQh84rTE6kIIhPtgEXNTrEZ6_mozfeR1xM2NmdLbEjCHHscHTuDPeId9QXVNd_Pi0c53rptpYqJRAZM2hmuu2V3RNALdL2FzrLiHlfpS5MUjLgluT9bZjHOantgwXwzzvr8_3mFSE-Pe38lPwaPcKH1rMQ.jpg",
+          "thumbnail_path": "channels/hranews/media/561b039a5ca3b3efc79f93ea.jpg",
+          "thumbnail_sha256": "28e1512e8945b28568f26c61555cd5539651c4a9f174a74b8218ce6020a96229",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "59",
+      "posted_at": "2026-07-28T16:18:56+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/114496",
+      "reply": null
+    },
     {
       "id": "hranews/114495",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "254",
+      "views_label": "302",
       "posted_at": "2026-07-28T15:30:57+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114495",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "414",
+      "views_label": "436",
       "posted_at": "2026-07-28T15:10:05+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114494",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "493",
+      "views_label": "509",
       "posted_at": "2026-07-28T14:35:55+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114493",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "559",
+      "views_label": "569",
       "posted_at": "2026-07-28T14:12:25+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114492",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.06K",
+      "views_label": "4.18K",
       "posted_at": "2026-07-28T13:24:53+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114491",
@@ -161,7 +189,7 @@
       "plain_text": "دیواندره؛ آرمان فرجی با تودیع وثیقه آزاد شد\n\n❗️❗️❗️❗️❗️– آرمان فرجی، شهروند اهل دیواندره، روز گذشته با تودیع وثیقه از زندان آزاد شد.\n\nادامه مطلب\n\n#آرمان_فرجی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "712",
+      "views_label": "719",
       "posted_at": "2026-07-28T12:59:29+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114490",
@@ -189,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "887",
+      "views_label": "895",
       "posted_at": "2026-07-28T12:36:52+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114489",
@@ -226,7 +254,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "849",
+      "views_label": "858",
       "posted_at": "2026-07-28T12:08:23+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114488",
@@ -254,7 +282,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "895",
+      "views_label": "901",
       "posted_at": "2026-07-28T11:45:02+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114487",
@@ -291,7 +319,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "981",
+      "views_label": "989",
       "posted_at": "2026-07-28T11:21:33+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114486",
@@ -393,7 +421,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.61K",
+      "views_label": "1.62K",
       "posted_at": "2026-07-28T07:57:48+00:00",
       "edited": true,
       "permalink": "https://t.me/hranews/114483",
@@ -421,7 +449,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.94K",
+      "views_label": "1.95K",
       "posted_at": "2026-07-27T19:10:05+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114482",
@@ -2442,22 +2470,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/hranews/114391"
       }
-    },
-    {
-      "id": "hranews/114391",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/aFeq3UTeTHwMs3jqS6tC2Gzej7n6HZBDFJLMcriKNdx8fagPh5Ij3V4zKeRgCTWLg3tWkF9CalYOL1gKj4wZu1zj-Bms_nHVtwnGlYJOqkNxjypBd4_zXSlhiFRbkZF7LgWgFpt5AVs9MthoLISvOhhdtcABBxiNyictDHS-8EezjY7xPQooh9gAq4sQJH8KrVTolQ7lsYV8YjbZDrs8k8pZQfOittlorkqc2JkBoyul1o-RDtAo5oKFQXWAik2581_VrMAiYQOy0I2TOrg9IpoOzxOQT3JeEzlP5IccF5g0glQ1I5GXhTn_c8j9uRfqQ1sKcSb-qRm5nsUOJDjvNA.jpg",
-      "author_photo_path": "channels/hranews/media/5a72a09b3557539c3804e835.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "صدوهشتادوسومین شماره‌ی ماهنامه‌ی خط صلح منتشر شد<br><br><tg-emoji emoji-id=\"4947378647943087037\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i></tg-emoji><tg-emoji emoji-id=\"4947294110101799546\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i></tg-emoji><tg-emoji emoji-id=\"4947224978308203668\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i></tg-emoji><tg-emoji emoji-id=\"4947667054997013328\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i></tg-emoji><tg-emoji emoji-id=\"4945062526699176627\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i></tg-emoji>– صدوهشتادوسومین شماره از ماهنامه خط صلح به کوشش مدافعان حقوق بشر و جمعی از کنشگران مدنی منتشر شد.<br><br>زندانی‌شدن به معنای محروم‌شدن انسان از حقوق بشر نیست. فرد زندانی، با وجود سلب آزادی رفت‌وآمد، هم‌چنان از حقوق بنیادین خود، از جمله حق برخورداری از کرامت انسانی، منع شکنجه، دسترسی به خدمات درمانی و دادرسی عادلانه برخوردار است. بر همین اساس، اسناد و قواعد متعددی در حقوق بین‌الملل برای تعیین حداقل استانداردهای رفتار با زندانیان تدوین شده‌اند.<br><br>میثاق بین‌المللی حقوق مدنی و سیاسی، کنوانسیون منع شکنجه و سایر رفتارها یا مجازات‌های بی‌رحمانه، غیرانسانی یا تحقیرآمیز، قواعد ماندلا، قواعد بانکوک و پروتکل استانبول، از مهم‌ترین این اسناد هستند که بر حفظ کرامت انسانی و حمایت از حقوق افراد محروم از آزادی تأکید دارند.<br>با این حال، در ایران، آن‌چه در عمل جریان دارد، فاصله‌ی بسیاری با این استانداردها دارد. شرایط نامناسب زندان، استفاده‌ی گسترده از سلول‌‌های انفرادی طولانی مدت، محرومیت از دسترسی به وکیل تعیینی و ملاقات با خانواده، محرومیت از درمان مناسب، به بخشی از روند جاری تبدیل شده است؛ روندی که در سایه‌ی نبود نظارت مستقل، بی‌پاسخ‌ماندن ادعاهای شکنجه و ضعف استقلال قضایی تداوم یافته است.<br><br>در چنین شرایطی، ماهنامه‌ی «خط صلح» بر آن شده است تا در پرونده‌ی ویژه‌ی «استاندارد زندان»، این شکاف میان معیارهای بین‌المللی و واقعیت زندان‌های ایران را بررسی کند. بر همین مبنا، خط صلح در این شماره به سراغ دکتر علی نجفی‌توانا، استاد دانشگاه و رئیس پیشین کانون وکلای مرکز رفت تا در گفتگو با او در خصوص حداقل استانداردهایی که باید در زندان‌ها رعایت شود و نیز مقایسه‌ی این استانداردها با واقعیت‌های موجود در زندان‌های ایران بگوید و بشنود.<br><br>هم‌چنین خط صلح در گفتگوی دیگری با محمدحسین آقاسی، حقوق‌دان و وکیل دادگستری، به بررسی وضعیت زنان زندانی پرداخت. آقای آقاسی در این گفتگو از مسئولیت حقوقی مقامات زندان در موارد قصور درمانی، امکان مطالبه و اَرش و وضعیت مادران زندانی و دشواری های اثبات شکایت‌های مربوط به خشونت سخن گفت و بر اجرا نشدن مقررات و نبود رسیدگی موثر و تفاوت برخورد با زندانیان عادی و محکومان سیاسی و امنیتی تأکید کرد.<br><br>این شماره هم‌چنین همراه است با مطالب و اظهارنظراتی از: مجید شیعه‌علی، سینا یوسفی، مرضیه محبی، دیاکو مرادی، الهه امانی، لهراسب کوهستانی، سمیره حنائی، مینا جوانی، مریم عابدی، شبنم معینی‌پور، پردیس پارسا، هرمینه هورداد، علی کلائی، رها ثابت سروستانی و جمعی دیگر از فعالان حقوق بشر.<br><br><a href=\"https://www.peace-mark.org/wp-content/uploads/2026/07/183.pdf?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExTEJNenU2R1FMQUVPdzNHUnNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7p0m97fGMhgG79PhsGIelu-ZD6slbuWVOboCFBHXPDslnzlsmXEGI_q76pMg_aem_rYg8vxiaa_kxOyLgvva2pA\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> لینک دانلود مستقیم فایل پی.دی.اف ماهنامه‌ی خط صلح</a><br><br><a href=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.peace-mark.org%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExTEJNenU2R1FMQUVPdzNHUnNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4Kun-Dg-twWoKd0I3F7S0EIa6Ct_nWLwa0T8lKTwPw2mZh3cxTJjK_8zbb1g_aem_7v-PiQmbXwkXGB5wFknSGg&amp;amp;h=AUBDq_FXEOuE6XIGNNVbQ6XQrO8HU_pS8TrEyRYgVJ8boCwd5K2cyEINfHO7RSmAn_y8jX1GpTNi1g-Xc0RqY2oTkT2AkKYRmkt0a2NfDrJTqHatyfuA_2kRktJInuTCM-woSSCXuUoYQWLoXZCNQ1pGLHR2r0pk&amp;amp;__tn__=-UK-R&amp;amp;c[0]=AUBbuWGVbOL9920AjVGGrMX3PZoknbQfZovTcwXxGAX-1bA_98lGdMAm4XoELdYrwfYq4Hv3ICHUhiSnYzZI48mVsrQsFwy6BTo7G2zoLgPcbmbDVhsRvAnyBYycpr5x8FQ0D5MUzQkla0mza_WypQds4GbZ7qO3gqUg-56GvzMWxMh80DFlQdx3J1Fnh2E\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">وبسایت خط صلح</a><br><br>در این شماره می‌خوانید:<br><a href=\"https://www.peace-mark.org/conversation/183-16/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><br>ناکارآمدی زندان در کشور؛ گفتگو با دکتر نجفی توانا، رئیس پیشین کانون وکلای مرکز/ پدرام تحسینی</a><br><a href=\"https://www.peace-mark.org/conversation/183-14/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">بررسی وضعیت زنان زندانی در گفتگو با محمدحسین آقاسی، وکیل دادگستری/ علی کلائی</a><br><a href=\"https://www.peace-mark.org/articles/183-13/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">حقوق زندانیان در حقوق بین‌الملل؛ از استانداردهای جهانی تا واقعیت زندان‌های ایران/ سینا یوسفی</a><br><a href=\"https://www.peace-mark.org/articles/183-12/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">وکیل‌آباد، زندان فراموش شده/ مجید شیعه‌علی</a><br><a href=\"https://www.peace-mark.org/articles/183-11/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">سلول انفرادی؛ جایی برای شکستن انسان/ مرضیه محبی</a><br><a href=\"https://www.peace-mark.org/articles/183-7/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">قواعد بانکوک و زنان زندانی در ایران/ مریم عابدی</a><br><a href=\"https://www.peace-mark.org/articles/183-10/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دادرسی عادلانه از بازداشت تا محاکمه/ لهراسب کوهستانی</a><br><a href=\"https://www.peace-mark.org/articles/183-6/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">مرگ در بازداشت و مسئولیت دولت/ دیاکو مرادی</a><br><a href=\"https://www.peace-mark.org/articles/183-5/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">حقوق متهم در مرحله‌ی بازداشت/ رها ثابت سروستانی</a><br><a href=\"https://www.peace-mark.org/articles/183-9/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">قانون و خشونت پشت دیوارهای زندان/ مرتضی هامونیان</a><br><a href=\"https://www.peace-mark.org/articles/183-8/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">چرا نظارت مستقل، بخشی از حداقل استانداردهای رفتار با زندانیان است؟/ شبنم معینی‌پور</a><br><a href=\"https://www.peace-mark.org/articles/183-4/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">چرا هیچ دادگاهی نباید به اعتراف اجباری استناد کند/ هرمینه هورداد</a><br><a href=\"https://www.peace-mark.org/articles/183-3/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">جامعه و امنیت ملی: بازاندیشی در بنیان‌های اجتماعی امنیت در ایران/ مینا جوانی</a><br><a href=\"https://www.peace-mark.org/articles/183-14/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آیا می‌توان در جهانی ناعادلانه زندگی خوبی داشت؟/ سمیره حنائی</a><br><a href=\"https://www.peace-mark.org/articles/183-2/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">مادری زیر بار اوتیسم/ پردیس پارسا</a><br><a href=\"https://www.peace-mark.org/articles/183-1/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">چگونه زنان بیش‌ترین هزینه‌ی بحران اقتصادی و جنگ را می‌دهند؟/ الهه امانی</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "صدوهشتادوسومین شماره‌ی ماهنامه‌ی خط صلح منتشر شد\n\n📡📡📡📡📡– صدوهشتادوسومین شماره از ماهنامه خط صلح به کوشش مدافعان حقوق بشر و جمعی از کنشگران مدنی منتشر شد.\n\nزندانی‌شدن به معنای محروم‌شدن انسان از حقوق بشر نیست. فرد زندانی، با وجود سلب آزادی رفت‌وآمد، هم‌چنان از حقوق بنیادین خود، از جمله حق برخورداری از کرامت انسانی، منع شکنجه، دسترسی به خدمات درمانی و دادرسی عادلانه برخوردار است. بر همین اساس، اسناد و قواعد متعددی در حقوق بین‌الملل برای تعیین حداقل استانداردهای رفتار با زندانیان تدوین شده‌اند.\n\nمیثاق بین‌المللی حقوق مدنی و سیاسی، کنوانسیون منع شکنجه و سایر رفتارها یا مجازات‌های بی‌رحمانه، غیرانسانی یا تحقیرآمیز، قواعد ماندلا، قواعد بانکوک و پروتکل استانبول، از مهم‌ترین این اسناد هستند که بر حفظ کرامت انسانی و حمایت از حقوق افراد محروم از آزادی تأکید دارند.\nبا این حال، در ایران، آن‌چه در عمل جریان دارد، فاصله‌ی بسیاری با این استانداردها دارد. شرایط نامناسب زندان، استفاده‌ی گسترده از سلول‌‌های انفرادی طولانی مدت، محرومیت از دسترسی به وکیل تعیینی و ملاقات با خانواده، محرومیت از درمان مناسب، به بخشی از روند جاری تبدیل شده است؛ روندی که در سایه‌ی نبود نظارت مستقل، بی‌پاسخ‌ماندن ادعاهای شکنجه و ضعف استقلال قضایی تداوم یافته است.\n\nدر چنین شرایطی، ماهنامه‌ی «خط صلح» بر آن شده است تا در پرونده‌ی ویژه‌ی «استاندارد زندان»، این شکاف میان معیارهای بین‌المللی و واقعیت زندان‌های ایران را بررسی کند. بر همین مبنا، خط صلح در این شماره به سراغ دکتر علی نجفی‌توانا، استاد دانشگاه و رئیس پیشین کانون وکلای مرکز رفت تا در گفتگو با او در خصوص حداقل استانداردهایی که باید در زندان‌ها رعایت شود و نیز مقایسه‌ی این استانداردها با واقعیت‌های موجود در زندان‌های ایران بگوید و بشنود.\n\nهم‌چنین خط صلح در گفتگوی دیگری با محمدحسین آقاسی، حقوق‌دان و وکیل دادگستری، به بررسی وضعیت زنان زندانی پرداخت. آقای آقاسی در این گفتگو از مسئولیت حقوقی مقامات زندان در موارد قصور درمانی، امکان مطالبه و اَرش و وضعیت مادران زندانی و دشواری های اثبات شکایت‌های مربوط به خشونت سخن گفت و بر اجرا نشدن مقررات و نبود رسیدگی موثر و تفاوت برخورد با زندانیان عادی و محکومان سیاسی و امنیتی تأکید کرد.\n\nاین شماره هم‌چنین همراه است با مطالب و اظهارنظراتی از: مجید شیعه‌علی، سینا یوسفی، مرضیه محبی، دیاکو مرادی، الهه امانی، لهراسب کوهستانی، سمیره حنائی، مینا جوانی، مریم عابدی، شبنم معینی‌پور، پردیس پارسا، هرمینه هورداد، علی کلائی، رها ثابت سروستانی و جمعی دیگر از فعالان حقوق بشر.\n\nلینک دانلود مستقیم فایل پی.دی.اف ماهنامه‌ی خط صلح\n\nوبسایت خط صلح\n\nدر این شماره می‌خوانید:\n\nناکارآمدی زندان در کشور؛ گفتگو با دکتر نجفی توانا، رئیس پیشین کانون وکلای مرکز/ پدرام تحسینی\nبررسی وضعیت زنان زندانی در گفتگو با محمدحسین آقاسی، وکیل دادگستری/ علی کلائی\nحقوق زندانیان در حقوق بین‌الملل؛ از استانداردهای جهانی تا واقعیت زندان‌های ایران/ سینا یوسفی\nوکیل‌آباد، زندان فراموش شده/ مجید شیعه‌علی\nسلول انفرادی؛ جایی برای شکستن انسان/ مرضیه محبی\nقواعد بانکوک و زنان زندانی در ایران/ مریم عابدی\nدادرسی عادلانه از بازداشت تا محاکمه/ لهراسب کوهستانی\nمرگ در بازداشت و مسئولیت دولت/ دیاکو مرادی\nحقوق متهم در مرحله‌ی بازداشت/ رها ثابت سروستانی\nقانون و خشونت پشت دیوارهای زندان/ مرتضی هامونیان\nچرا نظارت مستقل، بخشی از حداقل استانداردهای رفتار با زندانیان است؟/ شبنم معینی‌پور\nچرا هیچ دادگاهی نباید به اعتراف اجباری استناد کند/ هرمینه هورداد\nجامعه و امنیت ملی: بازاندیشی در بنیان‌های اجتماعی امنیت در ایران/ مینا جوانی\nآیا می‌توان در جهانی ناعادلانه زندگی خوبی داشت؟/ سمیره حنائی\nمادری زیر بار اوتیسم/ پردیس پارسا\nچگونه زنان بیش‌ترین هزینه‌ی بحران اقتصادی و جنگ را می‌دهند؟/ الهه امانی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [],
-      "reactions": [],
-      "views_label": "1.13K",
-      "posted_at": "2026-07-23T20:00:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/114391",
-      "reply": null
     }
   ]
 }
