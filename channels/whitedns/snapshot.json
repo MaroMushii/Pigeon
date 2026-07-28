@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-28T06:51:37.959Z",
+  "fetched_at": "2026-07-28T06:56:23.851Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,31 @@
     "subscriber_count": "109K"
   },
   "posts": [
+    {
+      "id": "whitedns/1345",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
+      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>معرفی پروژه CottenDNS</b><br><br><a href=\"https://github.com/WhiteDNS/CottenDNS\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://github.com/WhiteDNS/CottenDNS</a><br><br>نسخه پایدار CottenDNS با تمرکز بر اتصال بهتر و پایدارتر در شبکه‌های دارای فیلترینگ، اختلال DNS، پکت‌لاس و تأخیر بالا منتشر شد. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i><br><br>در معماری جدید، سرور به‌صورت پویا با تنظیمات هر کاربر هماهنگ می‌شود. یعنی کاربران می‌توانند بدون تغییر کانفیگ سرور، روش انتقال داده، نوع رمزنگاری، MTU، فشرده‌سازی و قابلیت‌های بازیابی بسته‌های ازدست‌رفته را متناسب با کیفیت اینترنت خود انتخاب کنند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠️</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i><br><br>### مهم‌ترین قابلیت‌ها <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C9F.png')\"><b>🌟</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>سازگاری با شرایط مختلف شبکه</b><br>اتصال می‌تواند از طریق UDP و TCP روی پورت 53 و همچنین DoT و DoH انجام شود. اگر یک مسیر مسدود یا دچار اختلال شود، کلاینت می‌تواند از مسیر جایگزین استفاده کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA3.png')\"><b>🛣️</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>مقاومت بیشتر در برابر پکت‌لاس</b><br>CottenDNS با استفاده از ارسال مجدد هوشمند بسته‌ها، Duplication و فناوری FEC تلاش می‌کند اطلاعات ازدست‌رفته را بازیابی کند. این قابلیت‌ها بر اساس وضعیت شبکه به‌صورت خودکار فعال یا غیرفعال می‌شوند تا سربار اضافی ایجاد نشود. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡️</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>مدیریت هوشمند Resolverها</b><br>Resolverها از نظر سرعت، تأخیر، پکت‌لاس و سلامت بررسی می‌شوند. Resolverهای خراب به‌صورت خودکار کنار گذاشته شده و پس از بهبود دوباره وارد چرخه می‌شوند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A0.png')\"><b>🧠</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>تنظیم خودکار MTU</b><br>کلاینت اندازه مناسب بسته‌ها را برای آپلود و دانلود پیدا می‌کند تا احتمال شکسته‌شدن یا ازدست‌رفتن بسته‌ها کاهش پیدا کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938F.png')\"><b>📏</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A96.png')\"><b>⚖️</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>مقابله با DNS Poisoning</b><br>با استفاده از روش‌هایی مانند Transaction ID تصادفی، EDNS Cookie، تغییر شکل درخواست‌های DNS و ارسال از چند دامنه مختلف، مقاومت اتصال در برابر پاسخ‌های جعلی و دست‌کاری‌شده افزایش یافته است. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9AAB.png')\"><b>🚫</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>انتقال داده با فرمت‌های مختلف DNS</b><br>داده‌ها می‌توانند با رکوردهای TXT، CNAME، A، NULL و HTTPS/SVCB منتقل شوند. کلاینت می‌تواند بسته به محدودیت شبکه بین این روش‌ها جابه‌جا شود. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A4.png')\"><b>📤</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>امنیت و رمزنگاری</b><br>روش‌های AES-GCM، ChaCha20، XOR و الگوریتم‌های قابل تنظیم پشتیبانی می‌شوند. نوع رمزنگاری هر کلاینت به‌صورت امن و مستقل شناسایی می‌شود. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9491.png')\"><b>🔑</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>سازگاری با نسخه‌های قبلی</b><br>کلاینت‌های جدید CottenDNS و کلاینت‌های قدیمی MasterDNS و StormDNS می‌توانند هم‌زمان به یک سرور متصل شوند. بنابراین کاربران قدیمی برای ادامه استفاده نیازی به تغییر فوری ندارند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA49D.png')\"><b>🤝</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i><br><br>در مجموع، سرور CottenDNS امکانات مختلف را فراهم می‌کند و هر کلاینت بر اساس شرایط اینترنت خود، بهترین ترکیب اتصال را انتخاب می‌کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@WhiteDNS</a>",
+      "plain_text": "🚀 معرفی پروژه CottenDNS\n\nhttps://github.com/WhiteDNS/CottenDNS\n\nنسخه پایدار CottenDNS با تمرکز بر اتصال بهتر و پایدارتر در شبکه‌های دارای فیلترینگ، اختلال DNS، پکت‌لاس و تأخیر بالا منتشر شد. 📡✨\n\nدر معماری جدید، سرور به‌صورت پویا با تنظیمات هر کاربر هماهنگ می‌شود. یعنی کاربران می‌توانند بدون تغییر کانفیگ سرور، روش انتقال داده، نوع رمزنگاری، MTU، فشرده‌سازی و قابلیت‌های بازیابی بسته‌های ازدست‌رفته را متناسب با کیفیت اینترنت خود انتخاب کنند. 🛠️⚙️\n\n### مهم‌ترین قابلیت‌ها 🌟\n\n🔹 سازگاری با شرایط مختلف شبکه\nاتصال می‌تواند از طریق UDP و TCP روی پورت 53 و همچنین DoT و DoH انجام شود. اگر یک مسیر مسدود یا دچار اختلال شود، کلاینت می‌تواند از مسیر جایگزین استفاده کند. 🔄🛣️\n\n🔹 مقاومت بیشتر در برابر پکت‌لاس\nCottenDNS با استفاده از ارسال مجدد هوشمند بسته‌ها، Duplication و فناوری FEC تلاش می‌کند اطلاعات ازدست‌رفته را بازیابی کند. این قابلیت‌ها بر اساس وضعیت شبکه به‌صورت خودکار فعال یا غیرفعال می‌شوند تا سربار اضافی ایجاد نشود. 🛡️📦\n\n🔹 مدیریت هوشمند Resolverها\nResolverها از نظر سرعت، تأخیر، پکت‌لاس و سلامت بررسی می‌شوند. Resolverهای خراب به‌صورت خودکار کنار گذاشته شده و پس از بهبود دوباره وارد چرخه می‌شوند. 🧠🔍\n\n🔹 تنظیم خودکار MTU\nکلاینت اندازه مناسب بسته‌ها را برای آپلود و دانلود پیدا می‌کند تا احتمال شکسته‌شدن یا ازدست‌رفتن بسته‌ها کاهش پیدا کند. 📏⚖️\n\n🔹 مقابله با DNS Poisoning\nبا استفاده از روش‌هایی مانند Transaction ID تصادفی، EDNS Cookie، تغییر شکل درخواست‌های DNS و ارسال از چند دامنه مختلف، مقاومت اتصال در برابر پاسخ‌های جعلی و دست‌کاری‌شده افزایش یافته است. 🔐🚫\n\n🔹 انتقال داده با فرمت‌های مختلف DNS\nداده‌ها می‌توانند با رکوردهای TXT، CNAME، A، NULL و HTTPS/SVCB منتقل شوند. کلاینت می‌تواند بسته به محدودیت شبکه بین این روش‌ها جابه‌جا شود. 📝📤\n\n🔹 امنیت و رمزنگاری\nروش‌های AES-GCM، ChaCha20، XOR و الگوریتم‌های قابل تنظیم پشتیبانی می‌شوند. نوع رمزنگاری هر کلاینت به‌صورت امن و مستقل شناسایی می‌شود. 🔑🔒\n\n🔹 سازگاری با نسخه‌های قبلی\nکلاینت‌های جدید CottenDNS و کلاینت‌های قدیمی MasterDNS و StormDNS می‌توانند هم‌زمان به یک سرور متصل شوند. بنابراین کاربران قدیمی برای ادامه استفاده نیازی به تغییر فوری ندارند. 🤝🔄\n\nدر مجموع، سرور CottenDNS امکانات مختلف را فراهم می‌کند و هر کلاینت بر اساس شرایط اینترنت خود، بهترین ترکیب اتصال را انتخاب می‌کند. 🌐✅\n\n@WhiteDNS",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "5"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "382",
+      "posted_at": "2026-07-28T06:53:35+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1345",
+      "reply": null
+    },
     {
       "id": "whitedns/1344",
       "author_name": "White DNS",
@@ -35,18 +60,22 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "26"
+          "count": "28"
         },
         {
           "emoji": "❤",
           "count": "9"
         },
         {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
           "emoji": "🍓",
           "count": "1"
         }
       ],
-      "views_label": "628",
+      "views_label": "693",
       "posted_at": "2026-07-28T06:04:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1344",
@@ -68,7 +97,7 @@
         },
         {
           "emoji": "🙏",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👏",
@@ -83,7 +112,7 @@
           "count": "1"
         }
       ],
-      "views_label": "482",
+      "views_label": "545",
       "posted_at": "2026-07-28T06:00:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1339",
@@ -113,7 +142,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "40"
+          "count": "41"
         },
         {
           "emoji": "🔥",
@@ -136,7 +165,7 @@
           "count": "1"
         }
       ],
-      "views_label": "257",
+      "views_label": "289",
       "posted_at": "2026-07-28T06:00:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1338",
@@ -166,11 +195,11 @@
       "reactions": [
         {
           "emoji": "⭐",
-          "count": "23"
+          "count": "36"
         },
         {
           "emoji": "❤",
-          "count": "432"
+          "count": "436"
         },
         {
           "emoji": "👍",
@@ -213,7 +242,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.23K",
+      "views_label": "4.35K",
       "posted_at": "2026-07-28T04:55:10+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1337",
@@ -247,7 +276,7 @@
         },
         {
           "emoji": "❤",
-          "count": "231"
+          "count": "234"
         },
         {
           "emoji": "👎",
@@ -282,7 +311,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.02K",
+      "views_label": "7.09K",
       "posted_at": "2026-07-28T00:43:03+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1335",
@@ -331,7 +360,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.31K",
+      "views_label": "9.35K",
       "posted_at": "2026-07-27T20:33:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1334",
@@ -461,7 +490,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.3K",
+      "views_label": "13.4K",
       "posted_at": "2026-07-27T14:17:43+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1328",
@@ -4470,55 +4499,6 @@
       "posted_at": "2026-07-18T08:29:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1199",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1198",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/kpjQtVPilPeC1JLTGf6mxEfaA5jrblLc7Do0kHc2g5WhEiWLxYQZPmVZJYQx4ZzU4uSiTXRFMDU2QDTRTrV7MtpQd23el1uoD88DH_HyhfTm93UebpUmR4xxL5p25dczll8vh3zUz2Yf4VLj0o9jz7zpL4jnPiiE7LP5DFknC0kX5hEVA8HSSscsTkGb1KHagbKaegYj4vJQPf8kvmp7BY0WIigPJoETzEm3ioaln8OHE99UeX0HL2iU3Q40vWPmhyjiw-v6yGbc6M-NotPgReSwVzM32kKJVRmdl-sijGQ8Tm3FewkQO24SQz6AYpzMYwdm9AoltKvVElbVQVw1yw.jpg",
-      "author_photo_path": "channels/whitedns/media/6983fb6ba57977599abc52ee.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> <b>نسخه 0.0.9 اپلیکیشن WhiteDNS VPN منتشر شد</b><br><br>در نسخه جدید، اپلیکیشن <b>WhiteDNS VPN به‌طور کامل فارسی‌سازی شده است</b> تا استفاده از بخش‌ها و تنظیمات مختلف آن برای کاربران ساده‌تر و قابل‌فهم‌تر باشد.<br><br>همچنین ظاهر اپلیکیشن به‌طور کامل به‌روزرسانی شده و قابلیت‌های جدیدی برای کنترل بهتر اتصال، DNS و کانفیگ‌های شخصی اضافه کرده‌ایم.<br><br>قابلیت‌های جدید:<br><br>• فارسی‌سازی کامل اپلیکیشن<br>• طراحی و ظاهر جدید اپلیکیشن<br>• امکان اضافه کردن DNS اختصاصی با پروتکل‌های <b>DoH</b> و <b>DoT</b><br>• امکان وارد کردن سابسکریپشن‌های شخصی با فرمت‌های <b>Mihomo، V2Ray و JSON</b><br>• امکان تعیین پورت دلخواه برای قابلیت <b>IP Fronting</b><br>• ارتقا و بهبود بخش <b>Connection</b> و فرایند اتصال<br>• اضافه شدن قابلیت <b>TLS Integrity Test</b><br><br>قابلیت <b>IP Fronting</b> به‌خصوص در دوران قطعی یا اختلالات شدید اینترنت می‌تواند بسیار کاربردی باشد. حتی در شرایط فعلی نیز کاربران می‌توانند با استفاده از IPهای تمیز Cloudflare، بعضی از کانکشن‌هایی را که به‌صورت عادی کار نمی‌کنند دوباره فعال کنند.<br><br>قابلیت <b>TLS Integrity Test</b> نیز برای کاربرانی اضافه شده که هنگام استفاده از بعضی کانفیگ‌ها، برای اتصال به سرویس‌هایی مانند <b>ChatGPT</b> با مشکل مواجه می‌شوند.<br><br>با فعال کردن این گزینه، اپلیکیشن پیش از اتصال، سلامت و یکپارچگی TLS را بررسی می‌کند. اگر TLS دست‌کاری یا جایگزین نشده باشد و تست با موفقیت انجام شود، اپلیکیشن به کانفیگ متصل خواهد شد.<br><br>در صورتی که یک کانفیگ این تست را با موفقیت پشت سر نگذارد، اپلیکیشن بررسی کانفیگ‌های دیگر را ادامه می‌دهد تا یک اتصال سالم و مناسب پیدا کند.<br><br>فعال کردن این قابلیت ممکن است زمان اتصال را کمی افزایش دهد، اما می‌تواند مشکل باز نشدن ChatGPT و سرویس‌های مشابه را برطرف کند.<br><br>پیشنهاد می‌کنیم همه کاربران از همین حالا اپلیکیشن را دانلود کرده و آن را به آخرین نسخه به‌روزرسانی کنند. این نسخه یکی از راهکارهایی است که برای شرایط قطعی و اختلالات شدید اینترنت روی آن کار کرده‌ایم و ممکن است در چنین شرایطی بتوانیم استفاده بسیار بیشتری از قابلیت‌های آن داشته باشیم.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> <b>WhiteDNS VPN v0.0.9</b>",
-      "plain_text": "🛡 نسخه 0.0.9 اپلیکیشن WhiteDNS VPN منتشر شد\n\nدر نسخه جدید، اپلیکیشن WhiteDNS VPN به‌طور کامل فارسی‌سازی شده است تا استفاده از بخش‌ها و تنظیمات مختلف آن برای کاربران ساده‌تر و قابل‌فهم‌تر باشد.\n\nهمچنین ظاهر اپلیکیشن به‌طور کامل به‌روزرسانی شده و قابلیت‌های جدیدی برای کنترل بهتر اتصال، DNS و کانفیگ‌های شخصی اضافه کرده‌ایم.\n\nقابلیت‌های جدید:\n\n• فارسی‌سازی کامل اپلیکیشن\n• طراحی و ظاهر جدید اپلیکیشن\n• امکان اضافه کردن DNS اختصاصی با پروتکل‌های DoH و DoT\n• امکان وارد کردن سابسکریپشن‌های شخصی با فرمت‌های Mihomo، V2Ray و JSON\n• امکان تعیین پورت دلخواه برای قابلیت IP Fronting\n• ارتقا و بهبود بخش Connection و فرایند اتصال\n• اضافه شدن قابلیت TLS Integrity Test\n\nقابلیت IP Fronting به‌خصوص در دوران قطعی یا اختلالات شدید اینترنت می‌تواند بسیار کاربردی باشد. حتی در شرایط فعلی نیز کاربران می‌توانند با استفاده از IPهای تمیز Cloudflare، بعضی از کانکشن‌هایی را که به‌صورت عادی کار نمی‌کنند دوباره فعال کنند.\n\nقابلیت TLS Integrity Test نیز برای کاربرانی اضافه شده که هنگام استفاده از بعضی کانفیگ‌ها، برای اتصال به سرویس‌هایی مانند ChatGPT با مشکل مواجه می‌شوند.\n\nبا فعال کردن این گزینه، اپلیکیشن پیش از اتصال، سلامت و یکپارچگی TLS را بررسی می‌کند. اگر TLS دست‌کاری یا جایگزین نشده باشد و تست با موفقیت انجام شود، اپلیکیشن به کانفیگ متصل خواهد شد.\n\nدر صورتی که یک کانفیگ این تست را با موفقیت پشت سر نگذارد، اپلیکیشن بررسی کانفیگ‌های دیگر را ادامه می‌دهد تا یک اتصال سالم و مناسب پیدا کند.\n\nفعال کردن این قابلیت ممکن است زمان اتصال را کمی افزایش دهد، اما می‌تواند مشکل باز نشدن ChatGPT و سرویس‌های مشابه را برطرف کند.\n\nپیشنهاد می‌کنیم همه کاربران از همین حالا اپلیکیشن را دانلود کرده و آن را به آخرین نسخه به‌روزرسانی کنند. این نسخه یکی از راهکارهایی است که برای شرایط قطعی و اختلالات شدید اینترنت روی آن کار کرده‌ایم و ممکن است در چنین شرایطی بتوانیم استفاده بسیار بیشتری از قابلیت‌های آن داشته باشیم.\n\n📱 WhiteDNS VPN v0.0.9",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1198",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/Toqy_prG_NvAoze0NHJQywAY6sY4U3uzaxRWCkwqw0IOwDk6qxognV-hYmQ2pDV2aeIrnw_TS0CMZhr7K8q9cDhp3o_K0iD4cjfPKCuKMOKrv_rROz1M__2L8dKNIhEdi1QpP_9-CqbSLPIzhdHmecs7m-9FX4Sn8eFULG_DI_gKKjMz1N5iAIWyX_d2R-jO06YD2wnd31PF1JU6rXYVCLhE2CkdTRrpZ6FMAF-zNuFCfeqRyo4FPUaTH-hIL1QY57cQv0G0a0Uq0BrJM-4w-3eALRNdErcpxT9xRxyTId9n4gDcb_SnYpYTAnUf8IWDKC0u6yD-GK4_HjfzXzt2dg.jpg",
-          "thumbnail_path": "channels/whitedns/media/989523c4d8b18b4e1e657c98.jpg",
-          "thumbnail_sha256": "f49b5200a0db2d7f7239c672a7c9767fa3a8e1439875b0f1f684827012988d64",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "68"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "1.48K",
-      "posted_at": "2026-07-18T08:29:00+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1198",
       "reply": null
     }
   ]
