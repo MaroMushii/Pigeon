@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-30T14:58:47.272Z",
+  "fetched_at": "2026-07-30T15:01:35.560Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,47 @@
     "subscriber_count": "97.5K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2528",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/m3N26jRdNK7oYAJdpZfdVpPR0GC9giGnJVidlMLnfeLzgN0gR4Pfy6fsFqP0BFVH-EUZngp34CMa6KFL4MVN9CEGGHrsW9AsHtL1AkhGJzJ2PIQFGOoiXvkO4v7a2SjO1BPEAM7flYkga2zTNveCmDcZzJtKkigoJGDiYWpQ4hz6x0j0Exd4yix1iHp5TDftYK8Bsb0e4fSnkZBnnP0nf_ExRdFeMNliiGXB-FPGYVV49MbEAyW3w0qylwFv8KBZrlEPqgrGOYAG7TeJ1Anb1yWUO3fKuFFlMtC6HhBnorQQOQX5QnWMfyaf7f71K9vsz7hA2WorL4GlXgR_GggP-g.jpg",
+      "author_photo_path": "channels/ircfspace/media/2bae22931aad52199fd7f7eb.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "هسته Aether یه آپدیت جدید داده، که امکان پشتیبانی از Zero Trust و تعریف قوانین مسیریابی، مهمترین تغییراتش هستن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/CluvexStudio/Aether/releases\" target=\"_blank\" rel=\"noopener\">github.com/CluvexStudio/Aether/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "هسته Aether یه آپدیت جدید داده، که امکان پشتیبانی از Zero Trust و تعریف قوانین مسیریابی، مهمترین تغییراتش هستن.\n\n👉 github.com/CluvexStudio/Aether/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2528",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/bP2cKnx4n0kN8J7x5dbhwoPUoFxgBFJ9LrEeZhdL-knSGPMjhcvXtf5MuLdGKK5FgInfoiX1zuW4oTwhcifplbm-2QfCubLuAyb6ZavPqUqiZH-YU__Q5MEXyb7mB9MkAvYP8oo_MRc7lNBFsqiue6cNTIjFjYJnXg72dC8tfJUBlK0M0gu17m1Wi_PiWc6qr1CIOFyinNAHSe4I6F980Dwtt6NGTVsM2LN_9h5NaJf-zDHYbim2zAAGLBBTjH-qIIoYKicA2rrm3Gmp2yQ95UYbvUEtdPPwcz-NPxZcW3RIOWhDpEYIy_j1p_rTfF_qCxr1FkkBo71YMTc8xH2niA.jpg",
+          "thumbnail_path": "channels/ircfspace/media/e658c805b7f4df00bcfdad85.jpg",
+          "thumbnail_sha256": "ea3197c77eea68f481a47417fcebd847151169d6e1ad820fca06457a834947e4",
+          "duration_label": null,
+          "aspect_ratio": 1.6597510373443984
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "5"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        },
+        {
+          "emoji": "😢",
+          "count": "1"
+        }
+      ],
+      "views_label": "98",
+      "posted_at": "2026-07-30T15:00:48+00:00",
+      "edited": false,
+      "permalink": "https://t.me/ircfspace/2528",
+      "reply": null
+    },
     {
       "id": "ircfspace/2527",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -35,11 +76,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "19"
+          "count": "20"
         },
         {
           "emoji": "❤",
-          "count": "13"
+          "count": "15"
         },
         {
           "emoji": "🔥",
@@ -54,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.83K",
+      "views_label": "2.99K",
       "posted_at": "2026-07-30T14:41:52+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2527",
@@ -72,7 +113,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "694"
+          "count": "697"
         },
         {
           "emoji": "👍",
@@ -137,7 +178,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "419"
+          "count": "420"
         },
         {
           "emoji": "👍",
@@ -176,7 +217,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.6K",
+      "views_label": "27.7K",
       "posted_at": "2026-07-28T15:27:36+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2525",
@@ -286,7 +327,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.3K",
+      "views_label": "18.4K",
       "posted_at": "2026-07-28T14:58:36+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2523",
@@ -750,7 +791,7 @@
           "count": "1"
         }
       ],
-      "views_label": "35.8K",
+      "views_label": "35.9K",
       "posted_at": "2026-07-26T14:24:20+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2515",
@@ -5440,67 +5481,6 @@
       "posted_at": "2026-06-07T19:45:39+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2427",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2426",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/g2ORyTgtNPD2BfyCUxVatUcwWxbzEKavszDmZB0Ch32-W5WVbiY6IagYNbfv61xUJjXt_wNXGII2N19vLYzpGqqLMbmCRSAJVKWlwEKj2Qk4JtAqy1JvTybqkrfaABROQhO3s9yhwsCS1YfIWoFFDJXYhY44P8iPv6-KRmnadp19IWkcEGutArV2VTecz8UACSU3Bk6qGdKIPOyNOReTNKgkc5SGRqIkRYa5-IgoVtMwMcUZSht1uMeXp2zT-CO8eJ7UaS1-Ssrieupv5J4iJ0wRq3Pu_uUrUwaZ8xl1bmgOtnL8Ihi337Yur-LWx3WR7FOrV1fQJoTmXUr9--aAKg.jpg",
-      "author_photo_path": "channels/ircfspace/media/b99a113bc03a8b351f344701.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "بعد از ۸۸ روز قطع سراسری اینترنت و برگشتن دسترسی‌ها، هنوز اوضاع اینترنت به قبل از دی‌ماه برنگشته که دوباره دارن واسه همدیگه خط و نشون می‌کشن. انگار باید خودمون رو برای یه قطع سراسری دیگه آماده کنیم!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "بعد از ۸۸ روز قطع سراسری اینترنت و برگشتن دسترسی‌ها، هنوز اوضاع اینترنت به قبل از دی‌ماه برنگشته که دوباره دارن واسه همدیگه خط و نشون می‌کشن. انگار باید خودمون رو برای یه قطع سراسری دیگه آماده کنیم!\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "3"
-        },
-        {
-          "emoji": "🤬",
-          "count": "676"
-        },
-        {
-          "emoji": "👍",
-          "count": "108"
-        },
-        {
-          "emoji": "😢",
-          "count": "39"
-        },
-        {
-          "emoji": "😁",
-          "count": "12"
-        },
-        {
-          "emoji": "👎",
-          "count": "9"
-        },
-        {
-          "emoji": "😐",
-          "count": "9"
-        },
-        {
-          "emoji": "❤",
-          "count": "8"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "🗿",
-          "count": "3"
-        },
-        {
-          "emoji": "💯",
-          "count": "2"
-        }
-      ],
-      "views_label": "71K",
-      "posted_at": "2026-06-07T17:00:55+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2426",
       "reply": null
     }
   ]
