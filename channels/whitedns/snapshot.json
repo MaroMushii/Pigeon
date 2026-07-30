@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-30T02:01:34.649Z",
+  "fetched_at": "2026-07-30T02:06:20.390Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,97 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1367",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/bzJoFY1eX3WGBNne907e8Zj6-mXRDI10Vk9UCPW0LUCkaWxxMlu233jjCurAXFB51iw3jI0sIgjfyv0T_0T_y63Xt4FsrXgZof-j9wmSmDCmySLEEJIcW7ueEVllar_vthAGCUYcBhWsKkmrzBZqSXuLA3G8WwaLqgF2mKI7OVj3XMRzLm8SRwLsYNYbbdpISQyIo0QBmKm53DAUIVaSkmj1VRRdsX7Wg6c1HpaY57zf3rsko94RSiPw53YZa9_DAlf69wFDYjnmj-OARZC7heSqPWBE-X17eHZa3kMaTlZR_vYrxiQG0WYqOJ_Dy5BMqk3_pLWbkwzLnexzbfLKxA.jpg",
+      "author_photo_path": "channels/whitedns/media/d4b79b5707e2ba9952a38449.jpg",
+      "author_photo_sha256": "2b908da88243a67c7224f16c9a9e2a98354447e7b692c27e092f5aa437f1ce7e",
+      "body_html": "<b>آپدیت جدید Aether-GUI v0.6.0 منتشر شد! </b><br><br>هسته‌ی برنامه رو به نسخه‌ی جدید v1.4.0 ارتقا دادم. تو این نسخه تمرکز اصلی سازنده روی تأمین امنیت MASQUE، فیکس کردن باگ‌های مموری و بالا بردن پایداری اتصالات WireGuard و Gool بوده.<br>منم یه مشارکت کوچولویی روی خود هسته داشتم.<br><br>تغییرات اصلی این آپدیت:<br><br>1- <b>امنیت در پروتکل MASQUE:</b> قبلاً وقتی وصل می‌شدید، کلاینت هیچ تاییدیه‌ای از سرور نمی‌گرفت و اگر کسی وسط راه سعی می‌کرد با یه سرتیفیکیت فیک گولتون بزنه، برنامه متوجه نمی‌شد. اما الان اتصالات MASQUE سرتیفیکیت سرورهای کلادفلر رو به صورت دقیق (از طریق هش‌های SPKI) بررسی می‌کنن تا دیگه کسی نتونه ترافیک رو شنود کنه.<br><br>2- <b>پایداری WireGuard و Gool:</b> قبلاً بعضی وقتا برنامه بهتون می‌گفت متصل شدید، در حالی که دیتا اصلاً ردوبدل نمی‌شد و فقط روی یه پروکسی SOCKS5 گیر کرده بود. اما الان یه سیستم بررسی سلامت (Health Check) مداوم داره که اگر دیتایی از سمت سرور برنگرده، خودش به صورت اتوماتیک اتصال رو قطع و دوباره وصل می‌کنه.<br><br>3- <b>اتصال مجدد خودکار در Gool:</b> تو نسخه‌های قبل اگه تونل بیرونی Gool قطع می‌شد، کل فرآیند کِرَش می‌کرد و خارج می‌شد. الان Gool هم مثل بقیه پروتکل‌ها خودش هوشمندانه دوباره ریکانکت می‌کنه.<br><br>4- <b>فیکس شدن نشت مموری (Memory Leak):</b> یه باگ رو اعصاب بود که وقتی اتصالتون زیاد قطع و وصل می‌شد، تسک‌های قدیمی تو بک‌گراند باز می‌موندن و آروم‌آروم رمِ سیستم پر می‌شد. این مشکل تو تمام پروتکل‌ها کامل برطرف شد.<br><br>5- <b>هوشمندی در مصرف منابع:</b> از این به بعد Aether همون اول کار، تعداد هسته‌های CPU و مقدار رم سیستمتون رو می‌خونه و میزان اسکن همزمان (Concurrency)، بافرهای شبکه و صف‌های داخلیش رو بر همون اساس تنظیم می‌کنه. این قابلیت برای کسایی که می‌خوان ابزار رو روی روترها و بردهای ضعیف‌تر بالا بیارن فوق‌العاده‌ست.<br><br>لینک گیت‌هاب برای دانلود(نسخه‌های مک، لینوکس و ویندوز):<br><a href=\"https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.6.0\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.6.0</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "آپدیت جدید Aether-GUI v0.6.0 منتشر شد!\n\nهسته‌ی برنامه رو به نسخه‌ی جدید v1.4.0 ارتقا دادم. تو این نسخه تمرکز اصلی سازنده روی تأمین امنیت MASQUE، فیکس کردن باگ‌های مموری و بالا بردن پایداری اتصالات WireGuard و Gool بوده.\nمنم یه مشارکت کوچولویی روی خود هسته داشتم.\n\nتغییرات اصلی این آپدیت:\n\n1- امنیت در پروتکل MASQUE: قبلاً وقتی وصل می‌شدید، کلاینت هیچ تاییدیه‌ای از سرور نمی‌گرفت و اگر کسی وسط راه سعی می‌کرد با یه سرتیفیکیت فیک گولتون بزنه، برنامه متوجه نمی‌شد. اما الان اتصالات MASQUE سرتیفیکیت سرورهای کلادفلر رو به صورت دقیق (از طریق هش‌های SPKI) بررسی می‌کنن تا دیگه کسی نتونه ترافیک رو شنود کنه.\n\n2- پایداری WireGuard و Gool: قبلاً بعضی وقتا برنامه بهتون می‌گفت متصل شدید، در حالی که دیتا اصلاً ردوبدل نمی‌شد و فقط روی یه پروکسی SOCKS5 گیر کرده بود. اما الان یه سیستم بررسی سلامت (Health Check) مداوم داره که اگر دیتایی از سمت سرور برنگرده، خودش به صورت اتوماتیک اتصال رو قطع و دوباره وصل می‌کنه.\n\n3- اتصال مجدد خودکار در Gool: تو نسخه‌های قبل اگه تونل بیرونی Gool قطع می‌شد، کل فرآیند کِرَش می‌کرد و خارج می‌شد. الان Gool هم مثل بقیه پروتکل‌ها خودش هوشمندانه دوباره ریکانکت می‌کنه.\n\n4- فیکس شدن نشت مموری (Memory Leak): یه باگ رو اعصاب بود که وقتی اتصالتون زیاد قطع و وصل می‌شد، تسک‌های قدیمی تو بک‌گراند باز می‌موندن و آروم‌آروم رمِ سیستم پر می‌شد. این مشکل تو تمام پروتکل‌ها کامل برطرف شد.\n\n5- هوشمندی در مصرف منابع: از این به بعد Aether همون اول کار، تعداد هسته‌های CPU و مقدار رم سیستمتون رو می‌خونه و میزان اسکن همزمان (Concurrency)، بافرهای شبکه و صف‌های داخلیش رو بر همون اساس تنظیم می‌کنه. این قابلیت برای کسایی که می‌خوان ابزار رو روی روترها و بردهای ضعیف‌تر بالا بیارن فوق‌العاده‌ست.\n\nلینک گیت‌هاب برای دانلود(نسخه‌های مک، لینوکس و ویندوز):\nhttps://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.6.0\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1367",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/aiykBEzbWgmKCFA0B8_Z52Kw_Yicd4Ngy0i98rqDzCAe5ypasuO6yMYlVFRJjL7STK00lGZw5sato_6ADOGE5wwJpHIIVIFTQ-mM8gZ4WoZVp-TQ9mMrH9ZBgFHsVxx_8yysB-siwYphO1S5XgYI7SztwdylmR85OetwBauOQK-yckanZF8SZDSidrVvaU9AdntkBlgT9rh_Whp5hc4XteZLcUjUTOMejiz9oVBzXmQT_SNwPQP9Ua8iT-_kmOfDK8wnKlypV9QFZWQvayeKxSMXC9ewa89qvlOUIQdrzrz_h88ZbZrjmLc8TCRKbWnwJcnS70AkkY8q7Z70lJDKhQ.jpg",
+          "thumbnail_path": "channels/whitedns/media/5ab1b44ea510918fb2f8d4c1.jpg",
+          "thumbnail_sha256": "46604cc6aa5bef5f570ba52966d2abce5941a39d503c1f72792358a0068ffc94",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        }
+      ],
+      "views_label": "277",
+      "posted_at": "2026-07-30T02:02:34+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1367",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1362",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/bzJoFY1eX3WGBNne907e8Zj6-mXRDI10Vk9UCPW0LUCkaWxxMlu233jjCurAXFB51iw3jI0sIgjfyv0T_0T_y63Xt4FsrXgZof-j9wmSmDCmySLEEJIcW7ueEVllar_vthAGCUYcBhWsKkmrzBZqSXuLA3G8WwaLqgF2mKI7OVj3XMRzLm8SRwLsYNYbbdpISQyIo0QBmKm53DAUIVaSkmj1VRRdsX7Wg6c1HpaY57zf3rsko94RSiPw53YZa9_DAlf69wFDYjnmj-OARZC7heSqPWBE-X17eHZa3kMaTlZR_vYrxiQG0WYqOJ_Dy5BMqk3_pLWbkwzLnexzbfLKxA.jpg",
+      "author_photo_path": "channels/whitedns/media/d4b79b5707e2ba9952a38449.jpg",
+      "author_photo_sha256": "2b908da88243a67c7224f16c9a9e2a98354447e7b692c27e092f5aa437f1ce7e",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "4"
+        }
+      ],
+      "views_label": "85",
+      "posted_at": "2026-07-30T02:01:47+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1362",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1361",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/bzJoFY1eX3WGBNne907e8Zj6-mXRDI10Vk9UCPW0LUCkaWxxMlu233jjCurAXFB51iw3jI0sIgjfyv0T_0T_y63Xt4FsrXgZof-j9wmSmDCmySLEEJIcW7ueEVllar_vthAGCUYcBhWsKkmrzBZqSXuLA3G8WwaLqgF2mKI7OVj3XMRzLm8SRwLsYNYbbdpISQyIo0QBmKm53DAUIVaSkmj1VRRdsX7Wg6c1HpaY57zf3rsko94RSiPw53YZa9_DAlf69wFDYjnmj-OARZC7heSqPWBE-X17eHZa3kMaTlZR_vYrxiQG0WYqOJ_Dy5BMqk3_pLWbkwzLnexzbfLKxA.jpg",
+      "author_photo_path": "channels/whitedns/media/d4b79b5707e2ba9952a38449.jpg",
+      "author_photo_sha256": "2b908da88243a67c7224f16c9a9e2a98354447e7b692c27e092f5aa437f1ce7e",
+      "body_html": "نسخه جدید WhiteVPN 1.1.0 منتشر شد!<br><br>در این نسخه چند قابلیت کاربردی اضافه کردیم تا اتصال راحت‌تر، سریع‌تر و امن‌تر باشه:<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> اتصال همیشگی VPN</b><br>می‌تونید WhiteVPN رو طوری تنظیم کنید که همیشه فعال بمونه و در صورت قطع شدن، دوباره متصل بشه.<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i>امکان Kill Switch<br></b>اگر VPN قطع بشه، اینترنت هم موقتاً متوقف می‌شه تا اطلاعات شما بدون محافظت منتقل نشه.<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>قابلیت Real Delay Test<br></b>حالا می‌تونید تأخیر اتصال‌ها رو بررسی کنید، نتیجه‌ها رو ببینید و سریع‌ترین گزینه رو راحت‌تر انتخاب کنید.<br> <br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> طراحی جدید صفحه اشتراک‌ها</b><br>صفحه اشتراک‌ها ساده‌تر، مرتب‌تر و خوش‌دست‌تر شده تا مدیریت و انتخاب اشتراک‌ها راحت‌تر باشه.<br><br>همین حالا WhiteVPN رو به نسخه 1.1.0 به‌روزرسانی کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA48D.png')\"><b>🤍</b></i>",
+      "plain_text": "نسخه جدید WhiteVPN 1.1.0 منتشر شد!\n\nدر این نسخه چند قابلیت کاربردی اضافه کردیم تا اتصال راحت‌تر، سریع‌تر و امن‌تر باشه:\n\n🛡 اتصال همیشگی VPN\nمی‌تونید WhiteVPN رو طوری تنظیم کنید که همیشه فعال بمونه و در صورت قطع شدن، دوباره متصل بشه.\n\n🔒امکان Kill Switch\nاگر VPN قطع بشه، اینترنت هم موقتاً متوقف می‌شه تا اطلاعات شما بدون محافظت منتقل نشه.\n\n⚡️قابلیت Real Delay Test\nحالا می‌تونید تأخیر اتصال‌ها رو بررسی کنید، نتیجه‌ها رو ببینید و سریع‌ترین گزینه رو راحت‌تر انتخاب کنید.\n\n✨ طراحی جدید صفحه اشتراک‌ها\nصفحه اشتراک‌ها ساده‌تر، مرتب‌تر و خوش‌دست‌تر شده تا مدیریت و انتخاب اشتراک‌ها راحت‌تر باشه.\n\nهمین حالا WhiteVPN رو به نسخه 1.1.0 به‌روزرسانی کنید 🤍",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1361",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/LjcofbPNggxUMyLL2HBqDlCB6kfqhVDrZrsJM9k3sn3fbgOU9yFaOBGEKIGNOn-vNzg5w8J-84oZyIuUlZ8gwO8FqVf2f9EFKztaB0I7SB8cI6NubQiEM24zRoepwU2VVXggD0oX-J7YUmf1n-6nwKIsLvTxVMZkF8uWYiO3kOYtxKJUeb2YDR_3AsUgo7g67JbCY-OusQ4hLJNwC21iEgV5vuYYc9fIKvtlhX4AUiSZPbeE-dkpA_KZG-FwgPBFa1yDfVmhFEpwgL7NNdSpsyOZTAOFUDBKQxVGoaCCrVZ0LgCTQi7Y5P1GLPLcS4txOhz1yC881BMIyFABAZMAVw.jpg",
+          "thumbnail_path": "channels/whitedns/media/0da428c291aae4c01350226c.jpg",
+          "thumbnail_sha256": "52078c14af235201fb6c124936600d11aeb42dd0fdf400ee49fcc2032d5d57a7",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "5"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "45",
+      "posted_at": "2026-07-30T02:01:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1361",
+      "reply": null
+    },
     {
       "id": "whitedns/1360",
       "author_name": "White DNS",
@@ -35,7 +126,7 @@
       "reactions": [
         {
           "emoji": "🤔",
-          "count": "23"
+          "count": "24"
         },
         {
           "emoji": "👍",
@@ -62,7 +153,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.32K",
+      "views_label": "1.47K",
       "posted_at": "2026-07-30T01:22:17+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1360",
@@ -262,7 +353,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.3K",
       "posted_at": "2026-07-28T14:55:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1355",
@@ -4570,108 +4661,6 @@
       "posted_at": "2026-07-18T14:10:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1218",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1217",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/bx0Ki9asR4wxzLvZOStNcrwBDFRduX2bTYKAu1ibnWZayMI_7VbMmBWmfsVy6KbUqfY7JXLoGXB3ExbTGohln1SxsxWQsZFyamynIOizmliKsYyQUalBQymGSQwiEMQBStt7BWehNWa8Ra-_CARoUQrDtUOI380w7quL50oqFY28d4vJ4ip1jWJHpTsVLQmul_4g0U_a8H_ZQah2mXJXVkRlh1UU53IUSepsgFFE_tScohRVJ4HWvxWWktTzS8iDvyBwNA0qjQJpCuUIVFkcwkHFNceYlZbrHyG62or8-Z1N_H1jzzJjPorU7bJdwk5FmBB29Xfd2FAHqAo2avqLmA.jpg",
-      "author_photo_path": "channels/whitedns/media/8b68f37a984c796a9dc47734.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "154"
-        },
-        {
-          "emoji": "👍",
-          "count": "9"
-        },
-        {
-          "emoji": "🔥",
-          "count": "7"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "👌",
-          "count": "2"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "💅",
-          "count": "1"
-        }
-      ],
-      "views_label": "14.5K",
-      "posted_at": "2026-07-18T13:42:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1217",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1216",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/bx0Ki9asR4wxzLvZOStNcrwBDFRduX2bTYKAu1ibnWZayMI_7VbMmBWmfsVy6KbUqfY7JXLoGXB3ExbTGohln1SxsxWQsZFyamynIOizmliKsYyQUalBQymGSQwiEMQBStt7BWehNWa8Ra-_CARoUQrDtUOI380w7quL50oqFY28d4vJ4ip1jWJHpTsVLQmul_4g0U_a8H_ZQah2mXJXVkRlh1UU53IUSepsgFFE_tScohRVJ4HWvxWWktTzS8iDvyBwNA0qjQJpCuUIVFkcwkHFNceYlZbrHyG62or8-Z1N_H1jzzJjPorU7bJdwk5FmBB29Xfd2FAHqAo2avqLmA.jpg",
-      "author_photo_path": "channels/whitedns/media/8b68f37a984c796a9dc47734.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b> اطلاعیه مهم</b><br><br>با بالا گرفتن تنش‌ها و با توجه به تجربه‌ای که از قطعی سراسری اینترنت داشتیم، پیشنهاد می‌کنم دوستانی که تازه به جمع ما اضافه شده‌اند، مطالب زیر را با دقت مطالعه کنند.<br><br>در دوره‌ی قطعی اینترنت، تیم WhiteDNS چند اپلیکیشن برای دسترسی به اینترنت طراحی کرده که هدف آن‌ها این است در صورت تکرار قطعی سراسری، همچنان قابل استفاده باشند.<br>این اپ ها با WhiteDNS VPN کع این روز ها استفاده میکنید متفاوت هستند.<br><br>امیدواریم هیچ‌وقت دوباره چنین شرایطی پیش نیاید، اما بهتر است آماده باشیم. اگر قطعی سراسری اینترنت تکرار شد، هدف ما این است که شما بتوانید خودتان و عزیزانتان را تا حد ممکن به اینترنت وصل نگه دارید.<br><br><br><br><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <b>اگر هیچ اطلاعی از این اپ ها ندارید، و نمیدونید چطوری کار میکنند، پیشنهاد مطالب این تاپیک رو مطالعه کنید. <br></b><a href=\"https://t.me/whitedns_group/32380/38590\" target=\"_blank\" rel=\"noopener\">https://t.me/whitedns_group/32380/38590</a><br><br><br><b>WhiteDNS </b><br>یک اپلیکیشن بر پایه MasterDNS برای کانکت شده به اینترنت. <br><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <a href=\"https://t.me/whitedns_group/12/40\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>آموزش ویدیویی استفاده از اپ</b></a><br> <tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <a href=\"https://t.me/whitedns_group/49019/49039\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین نسخه<br></b></a><br><br><b>WhiteDNS Desktop </b><br>یک اپلیکیشن بر پایه MasterDNS برای کانکت شده به اینترنت برای ویندوز، مک و لینوکس. <br><b> </b><b><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji></b><a href=\"https://youtu.be/Mc--GlKw2wg\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b> آموزش ویدیویی استفاده از اپ<br></b></a><b> </b><b><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji></b><a href=\"https://t.me/whitedns_group/48806/77823\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b> دانلود آخرین نسخه</b></a><a href=\"https://t.me/whitedns_group/49019/49039\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><br></b></a><br><br><a href=\"https://t.me/WhiteDNS_Installer_Bot\" target=\"_blank\">@WhiteDNS_Installer_Bot</a> <br>اگر سرور شخصی دارید، میتونید سرور MasterDNS خودتون رو راه اندازی کنید. با کمک بات ما، اتوماتیک سرور مستر خودتون رو نصب و مدیریت کنید.<br> ما و تمام اهدا کننده هایی که همیشه همراه ما بودند سعی میکنیم سرور های عمومی جدید برای شما داخل چنل قرار دهیم.<br><br><br><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji> <b>باقی لینک های مفید <br></b><tg-emoji emoji-id=\"5453957997418004470\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91A5.png')\"><b>👥</b></i></tg-emoji>   <a href=\"https://t.me/whitedns_group\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>لینک گروه اصلی</b></a><br><tg-emoji emoji-id=\"5769571826623586404\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91BE.png')\"><b>👾</b></i></tg-emoji>   <a href=\"https://t.me/whitedns_group/49019/49039\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین نسخه اندروید</b></a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i>   </b><a href=\"https://t.me/whitedns_group/48806/48807\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین نسخه برای مک‌ و ویندوز</b></a><br><tg-emoji emoji-id=\"6017150732455646343\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji><a href=\"https://testflight.apple.com/join/CxTHFfrs\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>   تست فلایت آخرین نسخه آیفون</b></a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i>   <a href=\"https://t.me/whitedns_group/12/40\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>آموزش استفاده از نسخه موبایل</b></a><br><tg-emoji emoji-id=\"5470016867252855402\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i></tg-emoji>   <a href=\"https://t.me/whitedns_group/49333/57371\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>آموزش راه اندازی سرور شخصی</b></a><br><tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><a href=\"https://t.me/whitedns_group/12/40\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> </a>  <a href=\"https://t.me/whitedns_group/12/40\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>آموزش مفاهیم و اولین شروع استفاده از WhiteDNS</b></a><br><a href=\"https://t.me/whitedns/872\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i>   آموزش استفاده از نسخه ویندوز</b></a><br><tg-emoji emoji-id=\"6039823138961756935\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9491.png')\"><b>🔑</b></i></tg-emoji>   <a href=\"https://t.me/whitedns_group/21/60366\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>لیست سرور های رایگان برای V2Ray و MasterDNS</b></a><br><a href=\"https://t.me/WhiteDNS_installer_bot\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i>   ربات ساخت سرور و مدیریت MasterDNS</b></a><br><a href=\"https://t.me/WhiteDNS_installer_bot\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i>   ربات دریافت رایگان کانفیگ V2Ray</b></a><br><a href=\"https://t.me/WhiteDNS_installer_bot\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i></b></a> <b>  </b><a href=\"https://t.me/dns_resolvers_bot\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>ربات دریافت ریزالور</b></a>",
-      "plain_text": "⚠️⚠️⚠️⚠️ اطلاعیه مهم\n\nبا بالا گرفتن تنش‌ها و با توجه به تجربه‌ای که از قطعی سراسری اینترنت داشتیم، پیشنهاد می‌کنم دوستانی که تازه به جمع ما اضافه شده‌اند، مطالب زیر را با دقت مطالعه کنند.\n\nدر دوره‌ی قطعی اینترنت، تیم WhiteDNS چند اپلیکیشن برای دسترسی به اینترنت طراحی کرده که هدف آن‌ها این است در صورت تکرار قطعی سراسری، همچنان قابل استفاده باشند.\nاین اپ ها با WhiteDNS VPN کع این روز ها استفاده میکنید متفاوت هستند.\n\nامیدواریم هیچ‌وقت دوباره چنین شرایطی پیش نیاید، اما بهتر است آماده باشیم. اگر قطعی سراسری اینترنت تکرار شد، هدف ما این است که شما بتوانید خودتان و عزیزانتان را تا حد ممکن به اینترنت وصل نگه دارید.\n\n\n\n✍️ اگر هیچ اطلاعی از این اپ ها ندارید، و نمیدونید چطوری کار میکنند، پیشنهاد مطالب این تاپیک رو مطالعه کنید.\nhttps://t.me/whitedns_group/32380/38590\n\n\nWhiteDNS\nیک اپلیکیشن بر پایه MasterDNS برای کانکت شده به اینترنت.\n✍️ آموزش ویدیویی استفاده از اپ\n✍️ دانلود آخرین نسخه\n\n\nWhiteDNS Desktop\nیک اپلیکیشن بر پایه MasterDNS برای کانکت شده به اینترنت برای ویندوز، مک و لینوکس.\n✍️ آموزش ویدیویی استفاده از اپ\n✍️ دانلود آخرین نسخه\n\n\n@WhiteDNS_Installer_Bot\nاگر سرور شخصی دارید، میتونید سرور MasterDNS خودتون رو راه اندازی کنید. با کمک بات ما، اتوماتیک سرور مستر خودتون رو نصب و مدیریت کنید.\nما و تمام اهدا کننده هایی که همیشه همراه ما بودند سعی میکنیم سرور های عمومی جدید برای شما داخل چنل قرار دهیم.\n\n\n⚠️ باقی لینک های مفید\n👥 لینک گروه اصلی\n👾 دانلود آخرین نسخه اندروید\n💻 دانلود آخرین نسخه برای مک‌ و ویندوز\n📱 تست فلایت آخرین نسخه آیفون\n📱 آموزش استفاده از نسخه موبایل\n🌐 آموزش راه اندازی سرور شخصی\n🔥 آموزش مفاهیم و اولین شروع استفاده از WhiteDNS\n🖥 آموزش استفاده از نسخه ویندوز\n🔑 لیست سرور های رایگان برای V2Ray و MasterDNS\n🤖 ربات ساخت سرور و مدیریت MasterDNS\n🤖 ربات دریافت رایگان کانفیگ V2Ray\n🤖 ربات دریافت ریزالور",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "131"
-        },
-        {
-          "emoji": "👍",
-          "count": "39"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "14.3K",
-      "posted_at": "2026-07-18T11:24:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1216",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1215",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/bx0Ki9asR4wxzLvZOStNcrwBDFRduX2bTYKAu1ibnWZayMI_7VbMmBWmfsVy6KbUqfY7JXLoGXB3ExbTGohln1SxsxWQsZFyamynIOizmliKsYyQUalBQymGSQwiEMQBStt7BWehNWa8Ra-_CARoUQrDtUOI380w7quL50oqFY28d4vJ4ip1jWJHpTsVLQmul_4g0U_a8H_ZQah2mXJXVkRlh1UU53IUSepsgFFE_tScohRVJ4HWvxWWktTzS8iDvyBwNA0qjQJpCuUIVFkcwkHFNceYlZbrHyG62or8-Z1N_H1jzzJjPorU7bJdwk5FmBB29Xfd2FAHqAo2avqLmA.jpg",
-      "author_photo_path": "channels/whitedns/media/8b68f37a984c796a9dc47734.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/whitedns\"><span dir=\"auto\">White DNS</span></a> pinned «<span class=\"tgme_widget_service_strong_text\" dir=\"auto\">دوستان برای همه اینها اموزش هم گذاشتیم که الان لینک را اضافه کردیم .  لطفا بدون دیدن این اموزش ها سوال نکنید</span>»",
-      "plain_text": "White DNS pinned «دوستان برای همه اینها اموزش هم گذاشتیم که الان لینک را اضافه کردیم . لطفا بدون دیدن این اموزش ها سوال نکنید»",
-      "media": [],
-      "reactions": [],
-      "views_label": null,
-      "posted_at": "2026-07-18T10:24:38+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1215",
       "reply": null
     }
   ]
