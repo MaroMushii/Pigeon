@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-31T13:46:25.087Z",
+  "fetched_at": "2026-07-31T13:51:43.387Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "bbcpersian/288115",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/X-k4e5VAkZ5pqggv6FFZWOHJ-dDO_M2d7SIooE3ojO4aZKKVkmgWPE-4a_PqDhiNC1IbOGzSvdRt05jjDY-Ph7V1j2lqpRggcUzt0PaqpRr-1KrxdU2pb4Y6oke6qkr_JZWJk577jsZLbQu58-d5kG3HHd2k4_nN7qHxtNpNQ-pl7rXb07gGu28KVCAymsKOkxOpR2yrMiNFLP945qg14wRG0epw_qONU8Z7DeFgvnZ6wumKovDWax_JXjw-0pRu6GZl1IrhGMuYhjxf7ZHp0nErswEZ6scrSPVhXxAU4cSgAgNlMPoQSJpqS8jF6V6-v94D1pxsYgAcpYCAmBQMiQ.jpg",
+      "author_photo_path": "channels/bbcpersian/media/f416161eb101fa7d7795b1f3.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "سرخط خبرها، روز جمعه ۹ مرداد ماه ۱۴۰۵ از تلویزیون بی‌بی‌سی فارسی<br><br><a href=\"https://bbc.in/42XnQmy\" target=\"_blank\" rel=\"noopener\"><b>https://bbc.in/42XnQmy</b></a><br><a href=\"https://bbc.in/3WtLd3k\" target=\"_blank\" rel=\"noopener\"><b>https://bbc.in/3WtLd3k</b></a><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "سرخط خبرها، روز جمعه ۹ مرداد ماه ۱۴۰۵ از تلویزیون بی‌بی‌سی فارسی\n\nhttps://bbc.in/42XnQmy\nhttps://bbc.in/3WtLd3k\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/288115",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/fjF2odS77M1gaBXN-QTqG3An9P-DsBwz2UdQjyhmpIFyzogIXVg6b_IGejHzejWgG0eSApzmkvHeeSv8p145n19m8Uc2qfudZrmSap61KAMQBvC3KfBRxDYJtLU4goP-CgYRCX5GEYCK-0iczUs55nHoftvdK3TGh6DWAfMau6M271rXWY_ya4w9qeG7LMM5Hh8zweOqjJTReYAkGw9iSQMFJNQjiWLhaOBhUV767MQqFp-SkvQh15oihisqSt0vErS3J_uIElKnscJbtRKEpwuhODLhJpXGvUiT3Xg8T5Bf5SidQHwg3A_Um5njjuPRpJW5gZiB6BGZYz8smVIcZA",
+          "thumbnail_path": "channels/bbcpersian/media/23db1ebeb934dcff5b44c420.jpg",
+          "thumbnail_sha256": "4358784f75387f7b12f16554df7677ff69182fb396cc1fd6b38dae22213d61ae",
+          "duration_label": "0:39",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "703",
+      "posted_at": "2026-07-31T13:49:33+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/288115",
+      "reply": null
+    },
+    {
       "id": "bbcpersian/288114",
       "author_name": "BBCPersian",
       "author_photo_url": "https://cdn4.telesco.pe/file/X-k4e5VAkZ5pqggv6FFZWOHJ-dDO_M2d7SIooE3ojO4aZKKVkmgWPE-4a_PqDhiNC1IbOGzSvdRt05jjDY-Ph7V1j2lqpRggcUzt0PaqpRr-1KrxdU2pb4Y6oke6qkr_JZWJk577jsZLbQu58-d5kG3HHd2k4_nN7qHxtNpNQ-pl7rXb07gGu28KVCAymsKOkxOpR2yrMiNFLP945qg14wRG0epw_qONU8Z7DeFgvnZ6wumKovDWax_JXjw-0pRu6GZl1IrhGMuYhjxf7ZHp0nErswEZ6scrSPVhXxAU4cSgAgNlMPoQSJpqS8jF6V6-v94D1pxsYgAcpYCAmBQMiQ.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔻کویت: پهپادهای ایرانی هدف قرار گرفته و منهدم شدند\n\nارتش کویت اعلام کرد که صبح امروز، پهپادهایی را که وارد حریم هوایی این کشور شده بودند، منهدم کرده است.\n\nنیروهای مسلح کویت در شبکه اجتماعی ایکس اعلام کرد که سقوط بقایای این پهپادها باعث خسارت‌های مادی شده، اما کسی در این حادثه کشته یا زخمی نشده است.\n\nارتش کویت همچنین اعلام کرد که «تجاوز ایران» چندین تأسیسات مهم و نظامی را هدف قرار داده است.\n\nhttps://bbc.in/4wzWlw0\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "6.82K",
+      "views_label": "8.78K",
       "posted_at": "2026-07-31T13:30:45+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288114",
@@ -37,7 +65,7 @@
       "plain_text": "🔻اسرائیل تونل‌های نزدیک به قلعه تاریخی بوفورت در جنوب لبنان را منفجر کرد\n\nاسرائیل در نزدیکی قلعه تاریخی بوفورت در جنوب لبنان، انفجارهای شدیدی انجام داده است.\n\nبنیامین نتانیاهو، نخست‌وزیر اسرائیل، گفت که ارتش این کشور تونل‌هایی را که حزب‌الله از آن‌ها استفاده می‌کرد، با استفاده از حدود ۷۰۰ تن مواد منفجره منهدم کرده است.\n\nوزارت فرهنگ لبنان اعلام کرد که انفجارها در منطقه‌ای روبه‌روی قلعه رخ داده‌اند و هشدار داد که لرزش‌های ناشی از این انفجارها ممکن است به مناطق اطراف قلعه آسیب رسانده باشد.\n\nارتش اسرائیل دو ماه پیش کنترل قلعه بوفورت را به دست گرفت؛ قلعه‌ای که به دلیل قرار گرفتن در یک موقعیت راهبردی مهم، از اهمیت زیادی برخوردار است.\n\nقدمت این قلعه به دوران جنگ‌های صلیبی بازمی‌گردد و یونسکو هفته گذشته آن را در فهرست میراث جهانی در معرض خطر قرار داد.\n\nhttps://bbc.in/4wzWlw0\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "7.13K",
+      "views_label": "8.78K",
       "posted_at": "2026-07-31T13:30:10+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288113",
@@ -65,7 +93,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "27.1K",
+      "views_label": "28.1K",
       "posted_at": "2026-07-31T11:55:37+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288112",
@@ -81,7 +109,7 @@
       "plain_text": "🔻ایرنا می‌گوید دود مشاهده شده در شرق تهران «حریق ضایعات» است\n\nخبرگزاری دولتی ایرنا می‌گوید دودی که در شرق تهران مشاهده شده، ناشی از «حریق» است.\n\nسخنگوی آتش‌نشانی تهران به این خبرگزاری گفته: «دود مشاهده شده در آسمان شرق تهران، مربوط به حریق ضایعات و فضای سبز در محدوده جاجرود است.»\n\nاین گزارش می‌افزاید که این آتش‌سوزی «در دره» رخ داده و «آتش‌نشانان در حال اطفای آن هستند.»\n\nhttps://bbc.in/4wzWlw0\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "26K",
+      "views_label": "26.9K",
       "posted_at": "2026-07-31T11:53:24+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288111",
@@ -109,7 +137,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "24.7K",
+      "views_label": "25.4K",
       "posted_at": "2026-07-31T11:50:32+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288110",
@@ -137,7 +165,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "26.1K",
+      "views_label": "26.8K",
       "posted_at": "2026-07-31T11:41:31+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288109",
@@ -264,7 +292,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "28.2K",
+      "views_label": "29.2K",
       "posted_at": "2026-07-31T11:23:24+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288099",
@@ -303,7 +331,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "33.9K",
+      "views_label": "34.3K",
       "posted_at": "2026-07-31T10:38:35+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288097",
@@ -331,7 +359,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "32.4K",
+      "views_label": "33K",
       "posted_at": "2026-07-31T10:35:34+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288096",
@@ -2667,34 +2695,6 @@
       "posted_at": "2026-07-29T16:56:11+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/287975",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/287974",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/gtrGufkdy2inLIjnnzipkCEge-9xpfV5ioKid1zWx2d8f0a3wj168WujI3uhcVnr8ryM_Y7h5YkXnHcN1dWN-Mb9zb6sqm8Fp8Ym9H-VO0xa65NJI9ngu7v7qthQPeuuq4kfCU86WJ8P3sdVSL7zWZ2PKDl5r9DOpTVCitYMVcnSeGGD56bxjE0DMYg8GL0BeYjWTdwEIPvNCaeJAoGVTiArjEgU2dNRg3qvlPuitEmj4S8X0rtYH_Ye-_kF29CmMYEZUjjkqA26jgK8jn7H6ZDcrntcPoEUVk2GER9NswHg44KLGbpd_3h6jWY7V0Ye7guRdd7nlQEvICPT58d2HQ.jpg",
-      "author_photo_path": "channels/bbcpersian/media/55cef7a175ba3f1fb25afbff.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>پس از انجام موفقیت‌آمیز عمل پیوند قلب به یک پسر نوجوان در اوکراین، مادر او با مادر دختر اهداکننده قلب دیدار کرد؛ دیداری سرشار از احساس و امید. <br>یکی از این مادران به صدای قلب دختر درگذشته‌اش گوش می‌دهد که اکنون پس از پیوند، در سینه یک پسر نوجوان می‌تپد. <br> <br>نزار، پسر ۱۲ ساله دریافت‌کننده این قلب، طی سه سال گذشته با مشکلات جدی سلامتی دست‌وپنجه نرم کرده بود. او ابتدا به سرطان خون و سپس به ذات‌الریه شدید مبتلا شد و در ادامه نیز دچار نارسایی قلبی شد. اما به لطف تصمیم انسان‌دوستانه خانواده‌ای که دختر خود را از دست داده بودند، نزار توانست یک قلب سالم دریافت کند و فرصتی دوباره برای زندگی به دست آورد.<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻پس از انجام موفقیت‌آمیز عمل پیوند قلب به یک پسر نوجوان در اوکراین، مادر او با مادر دختر اهداکننده قلب دیدار کرد؛ دیداری سرشار از احساس و امید.\nیکی از این مادران به صدای قلب دختر درگذشته‌اش گوش می‌دهد که اکنون پس از پیوند، در سینه یک پسر نوجوان می‌تپد.\n\nنزار، پسر ۱۲ ساله دریافت‌کننده این قلب، طی سه سال گذشته با مشکلات جدی سلامتی دست‌وپنجه نرم کرده بود. او ابتدا به سرطان خون و سپس به ذات‌الریه شدید مبتلا شد و در ادامه نیز دچار نارسایی قلبی شد. اما به لطف تصمیم انسان‌دوستانه خانواده‌ای که دختر خود را از دست داده بودند، نزار توانست یک قلب سالم دریافت کند و فرصتی دوباره برای زندگی به دست آورد.\n\n@BBCPersian",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/bbcpersian/287974",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/SPJYBQFK0LsVySav4xasFUi8zYmyNIBH618pBkUm6p1T3_cHPqyw7Ph4BAtKmLsAbHGIIHzUr_l1n8XJz_EKn6xdrZPWniHCcWYkundsh9nvAeq7cwM8OT3TDW_juV_4h1zzU6UdvHwYz4raSk-8u7HOOVv-mAAkcakD3a2h_oHBBFR_69Tn9xQs_L0IrBMLEwB7S3Ox4d_-kIFcN6tjYjB_tVpemTIiEx8zeX78kvU0uwndUQd2GOvXT2FHrRM5FSpnkwCz4hygyTAeGa0Ds3-A5tLhlr7e96nkkdQTInpqLp_DX0sB6Le3xLtqMkIR6I7DBuCat_xXp8q45XsgVQ",
-          "thumbnail_path": "channels/bbcpersian/media/75442455bcba8dec2175781c.jpg",
-          "thumbnail_sha256": "a9c1a7d1c29dffcf21c6475813d755925697310fddf9a0c302adb6e23f12c9d6",
-          "duration_label": "0:36",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "64.9K",
-      "posted_at": "2026-07-29T16:27:58+00:00",
-      "edited": true,
-      "permalink": "https://t.me/bbcpersian/287974",
       "reply": null
     }
   ]
