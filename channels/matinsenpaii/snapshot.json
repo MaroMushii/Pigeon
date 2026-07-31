@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-31T21:26:44.663Z",
+  "fetched_at": "2026-07-31T21:31:41.907Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,52 @@
     "subscriber_count": "156K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4768",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/VavTg-LBNoSmfhFfSIFc1t-GO6H_AzgXNeHGXZPtinkt4xJibzR44igoyroiLrz9TsEjcOGFXgzLCFx7fdyxtNBKX6D-xk1tkcwbCL3B08hVMVzI83VUWmd1wilIswRrPZ4XExqdGMj2dsyBKmdeQAb1-X4yIFriKfcQVTCTiGSI2VFEP6cbckdTGiIC8vAPoZppoXCgQngdKlTgwS6on4IDxsc2Jixpw7J4_XtM0mEC0b94H_pP5EfqpdLJ3es50Jo4YPguvnIA71A-HfezoAgOYGcvOmhHpaS3PA_xzXDD8W35K84EXD9jrwq6F2gzruicquD0-07etXdCNETUnQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/6cd9438c0ebf29644d87254b.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "اصلا یه ویدئوی عجیبی شده",
+      "plain_text": "اصلا یه ویدئوی عجیبی شده",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4768",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Od2GvskgSlqeuBjfcDHCvPOTn6gUS9fRqX-GAGvf4VIJGGnpRPhAkNDCBn7LZoSke_hkPkACNXmAesL5Zik68zZrUwtU1zt7zUeETE1_rbHiyWytmwZOoEQAnYz1gVFO9zCtMBvTbi3fKTuSmrWEL7ecqziQi5oYmXA8z879U1uEBBp5_dQUgmKFQhUCm4Peap8UtAXwMibBgQEUieum931vG0PYL89ae1HWvG9HcG-PWS1m4VgDNdJy9evJmbTYDTSSFebY0jtx28s44etiboKaYvV0i8VKx_ZGdpSkB7h96p-Km7e__Vgk-6gNjGa81LdscpP72dt5GSjS-2ivnQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/7eebe4e9b620629ce702afd5.jpg",
+          "thumbnail_sha256": "002753fa06a6025f175f38e5044d5ac21de48eb1a28b3cd70cfac872d18bef39",
+          "duration_label": null,
+          "aspect_ratio": 1.6877637130801688
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "24"
+        },
+        {
+          "emoji": "🦄",
+          "count": "2"
+        }
+      ],
+      "views_label": "1.9K",
+      "posted_at": "2026-07-31T21:27:42+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4768",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4763",
+        "author_name": "Matin SenPai",
+        "preview_text": "این قراره اولین ویدئوی گیمینگ چنل باشه😂😂 (بازی سه بعدی توی یه فایل HTML که 15 دلار پول رفته سرش)",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/RgrhzMFhXbHyByq4R9FXSV9-fZXE4e4tFmyWqq2LfF3vlPuuAn_F-nuJhasXLZxUcY3mjKt2c0jv5PG4XN4s1eOc7hCNuagvs_56wN40wrCynQRHToNUrxrgCiTDDpjqaWzhCVPySrexHIzPIfVN3aM4xqXnj6Ii42NEuFZOg4BJjPU1I0Q6cu-h5T51z7Dna-M40Kuy1ED72NaSkGgtBaJHa39zZyh2vOBC0h4uu7TthDlMhcMMTMcDnrhHlrI9TdMTuEnd0G7Hz2tV6eHxEexzlc4kZVjNaWKWqpdxGxfZPnuFW0l0SYY9NUCPvWM9sGkP3LxQ2N4qUNPl5s70RA.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/60036cd3a66dd57952bb8766.jpg",
+        "thumbnail_sha256": "0c66fab37e2b473291b112e1a7dae91706cc7872a2af2410043fb44dab5d1423",
+        "permalink": "https://t.me/matinsenpaii/4763"
+      }
+    },
     {
       "id": "MatinSenPaii/4767",
       "author_name": "Matin SenPai",
@@ -23,14 +69,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "29"
+          "count": "37"
         },
         {
           "emoji": "❤",
-          "count": "7"
+          "count": "9"
         }
       ],
-      "views_label": "3.15K",
+      "views_label": "4.72K",
       "posted_at": "2026-07-31T21:16:30+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4767",
@@ -48,14 +94,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "26"
+          "count": "31"
         },
         {
           "emoji": "❤",
-          "count": "12"
+          "count": "14"
         }
       ],
-      "views_label": "3.15K",
+      "views_label": "4.72K",
       "posted_at": "2026-07-31T21:16:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4766",
@@ -82,7 +128,7 @@
       "reactions": [
         {
           "emoji": "🦄",
-          "count": "39"
+          "count": "44"
         },
         {
           "emoji": "💔",
@@ -97,7 +143,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.74K",
+      "views_label": "5.99K",
       "posted_at": "2026-07-31T21:10:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4765",
@@ -115,7 +161,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "133"
+          "count": "136"
         },
         {
           "emoji": "👍",
@@ -126,15 +172,15 @@
           "count": "5"
         },
         {
-          "emoji": "🦄",
+          "emoji": "💔",
           "count": "4"
         },
         {
-          "emoji": "💔",
-          "count": "3"
+          "emoji": "🦄",
+          "count": "4"
         }
       ],
-      "views_label": "8.59K",
+      "views_label": "9.53K",
       "posted_at": "2026-07-31T20:52:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4764",
@@ -164,7 +210,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "147"
+          "count": "153"
         },
         {
           "emoji": "👍",
@@ -187,7 +233,7 @@
           "count": "2"
         }
       ],
-      "views_label": "8.86K",
+      "views_label": "9.8K",
       "posted_at": "2026-07-31T20:50:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4763",
@@ -205,7 +251,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "159"
+          "count": "163"
         },
         {
           "emoji": "👍",
@@ -224,7 +270,7 @@
           "count": "2"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14.6K",
       "posted_at": "2026-07-31T19:55:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4762",
@@ -263,7 +309,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "163"
+          "count": "165"
         },
         {
           "emoji": "💔",
@@ -278,7 +324,7 @@
           "count": "3"
         }
       ],
-      "views_label": "14.1K",
+      "views_label": "14.4K",
       "posted_at": "2026-07-31T19:54:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4761",
@@ -331,7 +377,7 @@
           "count": "7"
         }
       ],
-      "views_label": "21.7K",
+      "views_label": "22.3K",
       "posted_at": "2026-07-31T14:56:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4760",
@@ -365,7 +411,7 @@
         },
         {
           "emoji": "❤",
-          "count": "145"
+          "count": "146"
         },
         {
           "emoji": "👍",
@@ -376,7 +422,7 @@
           "count": "9"
         }
       ],
-      "views_label": "22.1K",
+      "views_label": "22.5K",
       "posted_at": "2026-07-31T14:46:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4759",
@@ -459,7 +505,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21.6K",
+      "views_label": "21.9K",
       "posted_at": "2026-07-31T13:29:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4757",
@@ -493,7 +539,7 @@
         },
         {
           "emoji": "🆒",
-          "count": "78"
+          "count": "79"
         },
         {
           "emoji": "👍",
@@ -508,7 +554,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.6K",
+      "views_label": "21.9K",
       "posted_at": "2026-07-31T13:23:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4756",
@@ -549,7 +595,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.8K",
       "posted_at": "2026-07-31T13:16:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4755",
@@ -590,7 +636,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.4K",
       "posted_at": "2026-07-31T10:47:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4754",
@@ -716,7 +762,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "161"
+          "count": "162"
         },
         {
           "emoji": "👍",
@@ -764,7 +810,7 @@
           "count": "2"
         }
       ],
-      "views_label": "27.7K",
+      "views_label": "28K",
       "posted_at": "2026-07-31T04:27:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4750",
@@ -794,7 +840,7 @@
         },
         {
           "emoji": "💯",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "🆒",
@@ -4214,43 +4260,6 @@
       "posted_at": "2026-07-25T11:34:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4657",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4656",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/oADwrzzJIygYZdVaeAQqtqBvBxzXMgkSd8mOCtRnOpStjDCDH6ukLfvdZ-YShHHLmz8-6y4FrwG1ZEMEeus3jQp1GP1FKgiC1QwoZIJSouZILlv3xLaONV7GFZLQBHb3Wn-ynClsbGgVr-4Phyn73XRlIXDYCQDwmUtCmPnGKTrZbxtUahIbDEE2PrWq6yxDVuKoT3isB8h1wy-BfQ2bE6hdqkzOXrv9BUW6JPwNT2EH-zG7B30BhFamTu8NDP4NuAjofSlVUQCj1zxtGFxQXAW1n670K__wpt2--0gHLrhIGXkMh4Ss5AeEGk7o3x0-oTM9FoHQI0c4KBsTGLnOMg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/b1467353e628e7f221f8d92a.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "تا اکانت گیتهاب سازنده‌ی Aethery اندروید درست میشه، به هیچ وجه از پروتکل MASQUE روی اپ اندروید استفاده نکنید.",
-      "plain_text": "تا اکانت گیتهاب سازنده‌ی Aethery اندروید درست میشه، به هیچ وجه از پروتکل MASQUE روی اپ اندروید استفاده نکنید.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "130"
-        },
-        {
-          "emoji": "❤",
-          "count": "48"
-        },
-        {
-          "emoji": "👍",
-          "count": "21"
-        },
-        {
-          "emoji": "😨",
-          "count": "10"
-        },
-        {
-          "emoji": "👎",
-          "count": "6"
-        }
-      ],
-      "views_label": "28.5K",
-      "posted_at": "2026-07-25T02:26:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4656",
       "reply": null
     }
   ]
