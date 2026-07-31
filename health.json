@@ -1,10 +1,22 @@
 {
   "schema": 2,
-  "generated_at": "2026-07-31T00:42:10.651Z",
-  "succeeded": 22,
+  "generated_at": "2026-07-31T00:47:42.338Z",
+  "succeeded": 19,
   "failed": [
     {
-      "username": "radiofarda",
+      "username": "bidarzani",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "daadbaan2021",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "matinsenpaii",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "persianvpnhub",
       "error": "The operation was aborted due to timeout"
     }
   ]
