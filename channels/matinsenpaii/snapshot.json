@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-07-31T14:42:39.207Z",
+  "fetched_at": "2026-07-31T14:46:35.744Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,52 @@
     "subscriber_count": "156K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4759",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/piKRg-JRumOKG9OdjfaNLN_0Mzpn0VKkXqks6MnanZWjkhudmz4oNsdEaiX1kqIpKxXL_vNnIxevdRvZbdjQltdBhGjPuBYCXSZobk7HAf_PXIrHZjPqWbz7BxfdEH2txhXmiWFk7rZr9GM-tFuElUZ3QVvpX7isM2BWXSq18Yh28n7ivvxjyALakuYqK1FdDmuVZ5sPSmACErAx8CxxApMLaMRSLFgtA3MHZiyKSr9uyTG2_lw4LHzNKPwaE0FEprEbIDYvGoyaUAdkYXcxp7ullGsDpWAlvyVVYi4mi9RAAp6emqq93d2Mj88Wirsoi9iWZtfSVE7RNim2jKhhTw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/9cef90db16f301b90f1471c6.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>آپدیت جدید Aether-GUI v0.7.0 منتشر شد! </b><br><br><tg-emoji emoji-id=\"5305765300535311154\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji>هستهٔ Aether از 1.4.0 به 1.5.0 ارتقا یافت؛ شامل بهبودهای اتصال مجدد، اسکن، پایداری و امنیت SOCKS5.<br><tg-emoji emoji-id=\"5305765300535311154\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji>پشتیبانی کامل Zero Trust اضافه شد: Team، ورود با کد ایمیل، Service Token، Access Token و Gateway سازمانی.<br><tg-emoji emoji-id=\"5305765300535311154\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji>DNS سفارشی داخل تونل و قوانین Routing اضافه شدند: Block، Direct و فایل rules.<br><tg-emoji emoji-id=\"5305765300535311154\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji>کد ورود ایمیلی Zero Trust مستقیماً در GUI وارد می‌شود و برنامه دیگر روی prompt ترمینال نمی‌ماند.<br><tg-emoji emoji-id=\"5305765300535311154\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji>توکن‌ها، رمزها و credentialهای Zero Trust فقط در حافظه می‌مانند و در profile ذخیره نمی‌شوند.<br>فایل‌های macOS برای Apple Silicon و Intel جدا و با معماری درست ارائه شده‌اند.<br><br>دانلود از: <a href=\"https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.7.0\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.7.0</a>",
+      "plain_text": "آپدیت جدید Aether-GUI v0.7.0 منتشر شد!\n\n➖هستهٔ Aether از 1.4.0 به 1.5.0 ارتقا یافت؛ شامل بهبودهای اتصال مجدد، اسکن، پایداری و امنیت SOCKS5.\n➖پشتیبانی کامل Zero Trust اضافه شد: Team، ورود با کد ایمیل، Service Token، Access Token و Gateway سازمانی.\n➖DNS سفارشی داخل تونل و قوانین Routing اضافه شدند: Block، Direct و فایل rules.\n➖کد ورود ایمیلی Zero Trust مستقیماً در GUI وارد می‌شود و برنامه دیگر روی prompt ترمینال نمی‌ماند.\n➖توکن‌ها، رمزها و credentialهای Zero Trust فقط در حافظه می‌مانند و در profile ذخیره نمی‌شوند.\nفایل‌های macOS برای Apple Silicon و Intel جدا و با معماری درست ارائه شده‌اند.\n\nدانلود از: https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.7.0",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4759",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/G6IDtRUM7F6lKIYjDiG2dozUuGdL6P4jS02kqw7-iMTwsPg1GlmTSwsx-3h9piG26THvWuRU2DdWZhYx_TnzLhuiFJ44I5jqXawDIsvpF4-ZkPtLJRIz6HkJQRLP58soZZvfOgG8Rvoztx0wg3_Jpt6HerJh07WqdwCvk5iVpqGcC7HcpfgNoZu14jAYLSiLlp2WRdu_pMq9a6QC7k8pK0pnDUvvEpNkerTh6wm1UnFTfmGOwatpHJL8pq0F_Uw_yjxL3eiR4k7hF_4u_1QCemNvne8C7KkWBtGvUFmaIbS7oOQJY-Po3NE0RrPLOEdPTxfu6ZWxc-Nj43zrJfN8yQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/dbd76c008dedaf6e48bae30a.jpg",
+          "thumbnail_sha256": "af133a90505ef02e20ca7a778d94a61db7ad5e96c7ce5428c7f8c3af745191c7",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "💔",
+          "count": "1"
+        }
+      ],
+      "views_label": "160",
+      "posted_at": "2026-07-31T14:46:12+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4759",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4655",
+        "author_name": "Matin SenPai",
+        "preview_text": "آپدیت جدید Aether-GUI v0.6.0 منتشر شد! هسته‌ی برنامه رو به نسخه‌ی جدید v1.4.0 ارتقا دادم. تو این نسخه تمرکز اصلی سازنده روی تأمین امنیت MASQUE، فیکس کردن باگ‌های مموری و بالا بردن پایداری اتصالات WireGuard و Gool بوده. منم یه مشارکت کوچولویی روی خود هسته…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/afW5q3leNCu5P3oo8GobI0povMn4F4ybjFk-Pfg66PEkLrWQnrnSGgw-MREFRw3BZfh3ORKT0EnpW8x3neLdGfNOT3LqHjtR62VzADUtt3OdcGhPAkqT3BgN--svR248lM9LaIHMOLaoM1h6ZXXJ2Hf-FPDhjisKlayvqHjOfs_p9loDVllo3ynWRqnHzxZw_1YmXJlMAHCO9AlFt9PMh7658YrW-tJ1RkU568Y5_7YSIA-Rwh-WNboFeL0z1D-XIOL-3u7aaP1kHnx3uS91N0fHaVjYKawhc43MliD2rs8RC502OrdoTEqW3Z4cwkD8Rr3EoyyQlm-g2u91s_KtGw.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/e24cd95ff41dce8ac23b0c2c.jpg",
+        "thumbnail_sha256": "44a79f70b578d4d7a49d03f71e87a98ba42fe3a52b3c60517e3f9ff84c55f974",
+        "permalink": "https://t.me/matinsenpaii/4655"
+      }
+    },
     {
       "id": "MatinSenPaii/4758",
       "author_name": "Matin SenPai",
@@ -23,7 +69,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "120"
+          "count": "125"
         },
         {
           "emoji": "🆒",
@@ -38,7 +84,7 @@
           "count": "2"
         }
       ],
-      "views_label": "6.1K",
+      "views_label": "6.41K",
       "posted_at": "2026-07-31T14:00:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4758",
@@ -68,7 +114,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "145"
+          "count": "148"
         },
         {
           "emoji": "👍",
@@ -79,7 +125,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.77K",
+      "views_label": "8.99K",
       "posted_at": "2026-07-31T13:29:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4757",
@@ -109,7 +155,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "231"
+          "count": "234"
         },
         {
           "emoji": "🆒",
@@ -128,7 +174,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.49K",
+      "views_label": "9.68K",
       "posted_at": "2026-07-31T13:23:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4756",
@@ -146,7 +192,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "140"
+          "count": "142"
         },
         {
           "emoji": "❤",
@@ -169,7 +215,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.9K",
+      "views_label": "11.1K",
       "posted_at": "2026-07-31T13:16:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4755",
@@ -187,7 +233,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "300"
+          "count": "302"
         },
         {
           "emoji": "🆒",
@@ -210,7 +256,7 @@
           "count": "4"
         }
       ],
-      "views_label": "20.2K",
+      "views_label": "20.3K",
       "posted_at": "2026-07-31T10:47:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4754",
@@ -237,7 +283,7 @@
       "reactions": [
         {
           "emoji": "💯",
-          "count": "329"
+          "count": "330"
         },
         {
           "emoji": "🦄",
@@ -260,7 +306,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.5K",
+      "views_label": "20.6K",
       "posted_at": "2026-07-31T10:46:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4753",
@@ -318,7 +364,7 @@
           "count": "3"
         }
       ],
-      "views_label": "19.3K",
+      "views_label": "19.4K",
       "posted_at": "2026-07-31T10:46:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4752",
@@ -347,7 +393,7 @@
           "count": "4"
         }
       ],
-      "views_label": "17.1K",
+      "views_label": "17.2K",
       "posted_at": "2026-07-31T10:19:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4751",
@@ -443,7 +489,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "120"
+          "count": "121"
         },
         {
           "emoji": "❤",
@@ -497,7 +543,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "190"
+          "count": "191"
         },
         {
           "emoji": "👍",
@@ -557,7 +603,7 @@
           "count": "4"
         }
       ],
-      "views_label": "26.9K",
+      "views_label": "27K",
       "posted_at": "2026-07-30T21:22:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4746",
@@ -684,7 +730,7 @@
         },
         {
           "emoji": "❤",
-          "count": "197"
+          "count": "198"
         },
         {
           "emoji": "👍",
@@ -717,7 +763,7 @@
       "reactions": [
         {
           "emoji": "🦄",
-          "count": "84"
+          "count": "85"
         },
         {
           "emoji": "❤",
@@ -766,7 +812,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "188"
+          "count": "189"
         },
         {
           "emoji": "🦄",
@@ -4218,60 +4264,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4648",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4647",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/oADwrzzJIygYZdVaeAQqtqBvBxzXMgkSd8mOCtRnOpStjDCDH6ukLfvdZ-YShHHLmz8-6y4FrwG1ZEMEeus3jQp1GP1FKgiC1QwoZIJSouZILlv3xLaONV7GFZLQBHb3Wn-ynClsbGgVr-4Phyn73XRlIXDYCQDwmUtCmPnGKTrZbxtUahIbDEE2PrWq6yxDVuKoT3isB8h1wy-BfQ2bE6hdqkzOXrv9BUW6JPwNT2EH-zG7B30BhFamTu8NDP4NuAjofSlVUQCj1zxtGFxQXAW1n670K__wpt2--0gHLrhIGXkMh4Ss5AeEGk7o3x0-oTM9FoHQI0c4KBsTGLnOMg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/b1467353e628e7f221f8d92a.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "اگر نمیدونید معماری پردازنده‌تون چیه، این نسخه رو نصب کنید<br>Universal",
-      "plain_text": "اگر نمیدونید معماری پردازنده‌تون چیه، این نسخه رو نصب کنید\nUniversal",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "132"
-        },
-        {
-          "emoji": "😁",
-          "count": "5"
-        },
-        {
-          "emoji": "🎃",
-          "count": "3"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        },
-        {
-          "emoji": "😨",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        }
-      ],
-      "views_label": "31.8K",
-      "posted_at": "2026-07-24T10:51:46+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/4647",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4644",
-        "author_name": "White DNS",
-        "preview_text": "",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/4644"
-      }
     }
   ]
 }
