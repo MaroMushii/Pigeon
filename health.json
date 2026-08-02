@@ -1,6 +1,11 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-02T08:26:45.193Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-08-02T08:31:51.806Z",
+  "succeeded": 22,
+  "failed": [
+    {
+      "username": "followupiran",
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
 }
