@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-02T13:26:48.718Z",
+  "fetched_at": "2026-08-02T13:31:34.540Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/225951",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/HYtfxry48WTt6uWIk23wJCz6Y9YzYKr7koufO16GpF-SIDPHYhYt-rTqKwD93gfu5okbjFBug8doKyb4rBdeoNJqOvYRY3EoDF2X4xKwtpWAiyBoc_SacjzFLK7o_sQZWd4XuGcrHUymXZT7BxuNaM-xQ9B2iyzOxsskJCEILfmAPeEQKaCNs1Buky_3Civ1OkVwLUL2i0DzTbbXShrDSgBqtWmRnEP6n2r-mYHkapWNwy56VVV7V4FdX_hL7p-HWoRvdAxZ0V2zw5G5BILYUJCXDriOkl8YsRyihm4R3J1mLvGaJtiENoU8hFmMZuFQ8ZZp-hjHLBsFFZhlZKctAQ.jpg",
+      "author_photo_path": "channels/farsivoa/media/578faca940e7a7c254f536d8.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "یکشنبه ۱۱ مرداد ۱۴۰۵ گروهی از بازنشستگان و فعالان صنفی در رشت مقابل اداره کل تأمین اجتماعی استان گیلان تجمع کردند. در این تجمع بر مخالفت با اعدام، حمایت از کارگران، معلمان و معترضان زندانی تأکید شد. آنها از جمله خواستار آزادی زهرا طبری، هاشم خواستار، و مسعود فرهیخته هستند.",
+      "plain_text": "یکشنبه ۱۱ مرداد ۱۴۰۵ گروهی از بازنشستگان و فعالان صنفی در رشت مقابل اداره کل تأمین اجتماعی استان گیلان تجمع کردند. در این تجمع بر مخالفت با اعدام، حمایت از کارگران، معلمان و معترضان زندانی تأکید شد. آنها از جمله خواستار آزادی زهرا طبری، هاشم خواستار، و مسعود فرهیخته هستند.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/225951",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/az25HE0aXB61D80ub9CX9s_PKuDlcmt_wJPZlTWgyCWtpZMgoE8q0ZfafADZsNCAAKWiIUFte9KE3xBABR4eI7oE48kOLigYErm7g8cndpOqpwn-apdTDHHUbQMWG39NXoRHm0_6h_04gOtahhuNMATEMqCOuMgS7AW7lBQJjSPldFa1ceBhNBykYQHJSbv1uKQJjMduY-DT1dT-f3YPwqOJopLwZCuGxZ--PrDUtEEXKoAy0eHE8-j0-o740oqwgRE25fBB90OJOH01rO09IMffXLbd4kmlIcesjk2Mh1JbRZFpV_QMypMMXrRZNWo6K36bqvbp2xWIzMONN3ygPg",
+          "thumbnail_path": null,
+          "thumbnail_sha256": null,
+          "duration_label": "0:18",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "35",
+      "posted_at": "2026-08-02T13:30:55+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/225951",
+      "reply": null
+    },
+    {
       "id": "farsivoa/225950",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/HYtfxry48WTt6uWIk23wJCz6Y9YzYKr7koufO16GpF-SIDPHYhYt-rTqKwD93gfu5okbjFBug8doKyb4rBdeoNJqOvYRY3EoDF2X4xKwtpWAiyBoc_SacjzFLK7o_sQZWd4XuGcrHUymXZT7BxuNaM-xQ9B2iyzOxsskJCEILfmAPeEQKaCNs1Buky_3Civ1OkVwLUL2i0DzTbbXShrDSgBqtWmRnEP6n2r-mYHkapWNwy56VVV7V4FdX_hL7p-HWoRvdAxZ0V2zw5G5BILYUJCXDriOkl8YsRyihm4R3J1mLvGaJtiENoU8hFmMZuFQ8ZZp-hjHLBsFFZhlZKctAQ.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺نشست اضطراری امنیتی دولت عراق؛ اعلام آمادگی برای مقابله با حملات شبه‌نظامیان به کشورهای همسایه\n\n▪️در جریان یک نشست اضطراری امنیتی به ریاست علی الزیدی، نخست‌وزیر و فرمانده کل نیروهای مسلح عراق، که شامگاه شنبه ۱۰ مرداد در بغداد برگزار شد، تازه‌ترین تحولات منطقه و امور امنیتی مربوط به عراق و همسایگان عرب آن، مورد بررسی قرار گرفت.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iraq-iran-saudi-jordan-kuwait/8181736.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.08K",
+      "views_label": "1.2K",
       "posted_at": "2026-08-02T13:07:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225950",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.13K",
+      "views_label": "1.26K",
       "posted_at": "2026-08-02T13:04:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225949",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.33K",
+      "views_label": "1.46K",
       "posted_at": "2026-08-02T12:58:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225948",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.3K",
+      "views_label": "1.43K",
       "posted_at": "2026-08-02T12:55:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225946",
@@ -121,7 +149,7 @@
       "plain_text": "🔺ایجاد «مراکز نوآوری» توسط دولت آمریکا برای توسعه فناوری‌های جدید ویژه مقابله با تهدیدهای پهپادی\n\n▪️دونالد ترامپ، رئیس جمهوری آمریکا، یکشنبه ۱۱ مرداد در شبکه «تروت سوشال» مقاله‌ای با موضوع ایجاد «مراکز رشد» برای مقابله با حملات تروریستی پهپادی را بازنشر کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/trump-administration-creating-new-tech-incubators-counter-drone-terror-attacks/8181733.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.56K",
+      "views_label": "1.66K",
       "posted_at": "2026-08-02T12:48:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225945",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.76K",
+      "views_label": "1.85K",
       "posted_at": "2026-08-02T12:40:48+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225944",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.43K",
+      "views_label": "2.52K",
       "posted_at": "2026-08-02T12:19:32+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225943",
@@ -205,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.84K",
+      "views_label": "2.91K",
       "posted_at": "2026-08-02T12:08:36+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225942",
@@ -221,7 +249,7 @@
       "plain_text": "🔺عضو کمیسیون انرژی: رسوب «۹۴ میلیارد یورو» نزد تراستی‌ها «بسیار بودار» است\n\n▪️غلامرضا دهقان ناصرآبادی، عضو کمیسیون انرژی مجلس، گزارش رئیس سازمان بازرسی کل کشور از رسوب ۹۴ میلیارد یورو در دست تراستی‌ها را ناشی از «سوء مدیریت» دانست و گفت این موضوع «بسیار بودار» است.\n\n▪️اخیراً ذبیح‌الله خدائیان رئیس سازمان بازرسی کل کشور با اعلام عدم بازگشت تعهدات ارزی ۹۴ میلیارد یورویی تراستی‌ها، اعلام کرد «برخی تراستی‌ها خیانت کردند».\n\n▪️جمهوری اسلامی برای دور زدن تحریم‌های مالی آمریکا، خصوصاً تحریم‌های نفتی، شبکه‌ای از کارگزاران مالی ایجاد کرده تا پول محصولات صادراتی، از جمله نفت و محصولات نفتی کشور را از طریق آنها تسویه کند؛ شبکه‌ای که اصطلاحاً به آن تراستی گفته می‌شود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8181727.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.4K",
+      "views_label": "3.46K",
       "posted_at": "2026-08-02T11:38:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225941",
@@ -249,7 +277,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.23K",
+      "views_label": "3.3K",
       "posted_at": "2026-08-02T11:28:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225940",
@@ -265,7 +293,7 @@
       "plain_text": "🔺هشدار سوریه، اردن، عربستان، و کویت به عراق در مورد مهار حملات شبه‌نظامیان\n\n▪️چهار کشور همسایه عراق به بغداد هشدار دادند به هر حمله‌ای که شبه‌نظامیان مورد حمایت جمهوری اسلامی از خاک این کشور انجام دهند پاسخ خواهند داد. سوریه و اردن این هشدار را روز شنبه و عربستان سعودی و کویت دو روز پیش به مقام‌های عراقی منتقل کردند.\n\n▪️پیام عربستان و اردن مستقیم بود و کویت هشدار خود را از راه کانال‌های غیرمستقیم رساند. مقام‌های سوری نیز مستقیماً با همتایان عراقی تماس گرفتند. هر چهار کشور از بغداد خواستند اقدام پیشگیرانه برای مهار این گروه‌ها انجام دهد.\n\n▪️بغداد به کشورهای مربوط اعلام کرده در حال «کاهش تنش، درآوردن سلاح به کنترل دولت و اطمینان‌دادن به کشورهای نگران از حضور گروه‌های مسلح» است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8181726.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.58K",
+      "views_label": "3.64K",
       "posted_at": "2026-08-02T11:15:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225939",
@@ -293,7 +321,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.58K",
+      "views_label": "4.61K",
       "posted_at": "2026-08-02T10:31:34+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/225938",
@@ -321,7 +349,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.33K",
+      "views_label": "4.36K",
       "posted_at": "2026-08-02T10:24:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225937",
@@ -337,7 +365,7 @@
       "plain_text": "🔺بی‌بی‌سی از جذب نوجوانان در شبکه‌‌ای از قاتلان مرتبط با جمهوری اسلامی خبر داد\n\n▪️گزارش تحقیقی بی‌بی‌سی نشان می‌دهد یک شبکه جرایم سازمان‌یافته سوئدی که مظنون به ارتباط با جمهوری اسلامی است، نوجوانان را برای انجام قتل‌ و حملات در سراسر اروپا به کار گرفته است.\n\n▪️این گزارش با استناد به یوروپل، پلیس سوئد و دیمانت سالیو، روزنامه‌نگار تحقیقی تلویزیون سوئد، می‌گوید «شبکه فاکسترات» نوجوانان را از طریق شبکه‌های اجتماعی جذب کرده و سپس از طریق پیام‌رسان‌های رمزگذاری‌شده به آنها دستور عملیات می‌داده است.\n\n▪️مقام‌های سوئدی معتقدند روا مجید، رهبر فاکستروت، اکنون در تهران مستقر است و به گفته بازرسان، از آنجا حملاتی به نیابت از جمهوری اسلامی علیه اسرائیل، مخالفان و روزنامه‌نگاران انجام شده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8181723.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.84K",
+      "views_label": "4.87K",
       "posted_at": "2026-08-02T09:56:24+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225936",
@@ -365,7 +393,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.67K",
+      "views_label": "4.7K",
       "posted_at": "2026-08-02T09:44:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225935",
@@ -393,7 +421,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.57K",
+      "views_label": "4.6K",
       "posted_at": "2026-08-02T09:36:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225934",
@@ -421,7 +449,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.76K",
+      "views_label": "4.8K",
       "posted_at": "2026-08-02T09:12:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225933",
@@ -477,7 +505,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.61K",
+      "views_label": "4.64K",
       "posted_at": "2026-08-02T08:47:58+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/225931",
@@ -2419,34 +2447,6 @@
       "posted_at": "2026-08-01T08:43:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/225849",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/225848",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/JhuE2CK8B2TqPD17TBf_EUPDdqjl0Hwobok3DVcMpFPT-IgUROl7IJAniBDDJBfhlqaBF8_KyGpdgJyvVUx6HEt1M14H9xY7CtCWD4Ogk-VVBm9cR4uU4Bsz4W971sqk_hdSa023ieWOE7edeTSim7DSvoVsvKHHKgAPkZZmakKoE-i46OwO8rCnTXJqLu7eiayUmD3BIxwGp-O8Z_pBlfp841FFbrAnZlthfMCWW5oTdeLfsrcOR1MKOllHsLDohlvYT1CpkQIHKo-cpb-7jB1yFj472F81Vyrw_i0hkrE-lXkzJRnkAFkLjxUnytjLiWHEznv65P3QoD0Qgdthdw.jpg",
-      "author_photo_path": "channels/farsivoa/media/0662a9b3f65257cb2a521b63.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "کابینه دولت هند طرحی ۸.۸۱ میلیارد دلاری برای اکتشاف منابع نفت و گاز در بخش فراساحلی در راستای کاهش وابستگی به واردات انرژی تصویب کرد. هدف این طرح افزودن دست‌کم ۶۰۰ میلیون تن نفت و گاز به ذخایر تثبیت شده کشور است.<br><br>این تصمیم در پی اخلال گسترده جمهوری اسلامی در صادرات نفت کشورهای همسایه عربی از تنگه هرمز گرفته شده است. پارسال یک سوم واردات نفت هند از تنگه هرمز گذشته بود.<br><br>آمارهای رسمی هند نشان می‌دهد، در حال که مصرف روزانه نفت و محصولات نفتی کشور در سال گذشته نزدیک ۶ میلیون بشکه بود، تنها ۱۰ درصد آن از میادین داخلی تولید شده است.<br><br>از طرفی، اگرچه نیمی از گاز مصرفی هند از منابع داخلی تولید می‌شود، اما حجم مصرف بسیار اندک و در حدود ۶۶ میلیارد متر مکعب در سال است که نشان می‌دهد پاک‌ترین انرژی فسیلی، تنها سهمی شش درصدی در مصرف انرژی نهایی کشور دارد؛ در حالی که نزدیک ۶۰ درصد از انرژی کشور با سوخت بسیار آلاینده زغال‌سنگ تامین می‌شود.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "کابینه دولت هند طرحی ۸.۸۱ میلیارد دلاری برای اکتشاف منابع نفت و گاز در بخش فراساحلی در راستای کاهش وابستگی به واردات انرژی تصویب کرد. هدف این طرح افزودن دست‌کم ۶۰۰ میلیون تن نفت و گاز به ذخایر تثبیت شده کشور است.\n\nاین تصمیم در پی اخلال گسترده جمهوری اسلامی در صادرات نفت کشورهای همسایه عربی از تنگه هرمز گرفته شده است. پارسال یک سوم واردات نفت هند از تنگه هرمز گذشته بود.\n\nآمارهای رسمی هند نشان می‌دهد، در حال که مصرف روزانه نفت و محصولات نفتی کشور در سال گذشته نزدیک ۶ میلیون بشکه بود، تنها ۱۰ درصد آن از میادین داخلی تولید شده است.\n\nاز طرفی، اگرچه نیمی از گاز مصرفی هند از منابع داخلی تولید می‌شود، اما حجم مصرف بسیار اندک و در حدود ۶۶ میلیارد متر مکعب در سال است که نشان می‌دهد پاک‌ترین انرژی فسیلی، تنها سهمی شش درصدی در مصرف انرژی نهایی کشور دارد؛ در حالی که نزدیک ۶۰ درصد از انرژی کشور با سوخت بسیار آلاینده زغال‌سنگ تامین می‌شود.\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/225848",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/NGgDZN0lnGgiQe_6dd7gCEhUHCH7IUZkVZk6XBJ7h402HenVAUOP322uib9KJW7bettMjs0QRBJ04mGTXclL1lWc9RQLT-ppjzfQpI7QXwbS3VhXpAfyv_3zoWdIQNB7zYFxsQINIXkzXANQZ-6oxT40-r7RQGU6kVReTd-QA1zFjL1L_seWk-GzBxysrHDqgzKGoFGWazegPhlhfWkfofWF4EDMJEdunW_vs7kW0W9A2rKOnnVQDhebeIE-CZxlqQ7oU-BWD73BmpYyipL9i0T0otNi8zTuPL2PyIxRclXsY7Ctcvha1JPWVcGd0QWyhee00navw5FA2dWdZwi28Q.jpg",
-          "thumbnail_path": "channels/farsivoa/media/0111454f86a13378c5f7b72c.jpg",
-          "thumbnail_sha256": "01a25ea8b31c21d99b2e7c0c2b90f7bfad23a810049be7612e36f0708c5cdcf4",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "4.47K",
-      "posted_at": "2026-08-01T08:15:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/225848",
       "reply": null
     }
   ]
