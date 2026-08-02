@@ -1,19 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-02T08:02:25.245Z",
-  "succeeded": 20,
-  "failed": [
-    {
-      "username": "bbcpersian",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "persianvpnhub",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "radiofarda",
-      "error": "The operation was aborted due to timeout"
-    }
-  ]
+  "generated_at": "2026-08-02T08:06:42.545Z",
+  "succeeded": 23,
+  "failed": []
 }
