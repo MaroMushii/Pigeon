@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-02T14:16:51.357Z",
+  "fetched_at": "2026-08-02T14:21:56.579Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -17,22 +17,34 @@
       "author_photo_url": "https://cdn5.telesco.pe/file/DAsmPN7G7727QTccUwAYtmlMyViSfd9KS_-4Om2UeeRrIH4geHNeEllwl-6rkslabTd1sXNXKr8kzQvmbpe4XPMhIbmi9VDHZ9jkLgyaBSf2Vp8IaAhGXDp5ZSEhU9aJXtp-VNz4SMZnJFRhVZYNO7vW-ux05Lx3euBkvLrH9rM0qY7-gLMELNG_4fXCB6i3FClFzjAT83-hiHLISiLr3sDTogC5eTwRwdO9DIO5ggFRKeDWx5sn5gnvSuxrkOY9FcC0HGktfdS7QDSvIqXqAFC-oex95FJpxBcs2y7ODlwq57fPW3OXTuO9KZvt7at4bbCg6JKzuTsGp72QJ5wHyQ.jpg",
       "author_photo_path": "channels/whitedns/media/d52ba3c8f61ba92725ddb981.jpg",
       "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<tg-emoji emoji-id=\"5197371802136892976\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29B8F.png')\"><b>⛏</b></i></tg-emoji>  اگر در اتصال به WhiteVPN مشکل خوردید مراحل زیر را اجرا کنید <br><br>۱. به صفحه تنظیات برید <br>۲. از گرینه حریم خصوصی DNS گرینه DOH را انتخاب کنید <br>۳. مقدار زیر را جاگزین کنید <br><code>doh.whitedns.workers.dev</code>",
-      "plain_text": "⛏ اگر در اتصال به WhiteVPN مشکل خوردید مراحل زیر را اجرا کنید\n\n۱. به صفحه تنظیات برید\n۲. از گرینه حریم خصوصی DNS گرینه DOH را انتخاب کنید\n۳. مقدار زیر را جاگزین کنید\ndoh.whitedns.workers.dev",
+      "body_html": "<tg-emoji emoji-id=\"5197371802136892976\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29B8F.png')\"><b>⛏</b></i></tg-emoji>  اگر در اتصال به WhiteVPN مشکل خوردید مراحل زیر را اجرا کنید <br><br>۱. به صفحه تنظیات برید <br>۲. از گرینه حریم خصوصی DNS گرینه DOH را انتخاب کنید <br>۳. مقدار زیر را جاگزین کنید <br><code>https://doh.whitedns.workers.dev</code>",
+      "plain_text": "⛏ اگر در اتصال به WhiteVPN مشکل خوردید مراحل زیر را اجرا کنید\n\n۱. به صفحه تنظیات برید\n۲. از گرینه حریم خصوصی DNS گرینه DOH را انتخاب کنید\n۳. مقدار زیر را جاگزین کنید\nhttps://doh.whitedns.workers.dev",
       "media": [],
       "reactions": [
         {
           "emoji": "❤",
-          "count": "2"
+          "count": "13"
+        },
+        {
+          "emoji": "💩",
+          "count": "5"
         },
         {
           "emoji": "🤡",
+          "count": "3"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "1"
+        },
+        {
+          "emoji": "👍",
           "count": "1"
         }
       ],
-      "views_label": "163",
+      "views_label": "1K",
       "posted_at": "2026-08-02T14:16:05+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1386",
       "reply": null
     },
@@ -60,18 +72,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "7"
+          "count": "12"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "1"
+          "count": "4"
         },
         {
           "emoji": "🤡",
+          "count": "2"
+        },
+        {
+          "emoji": "💩",
           "count": "1"
         }
       ],
-      "views_label": "534",
+      "views_label": "906",
       "posted_at": "2026-08-02T14:12:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1380",
@@ -89,14 +105,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "6"
+          "count": "14"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "1"
+          "count": "3"
+        },
+        {
+          "emoji": "🤡",
+          "count": "3"
+        },
+        {
+          "emoji": "💩",
+          "count": "2"
         }
       ],
-      "views_label": "387",
+      "views_label": "606",
       "posted_at": "2026-08-02T14:12:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1381",
@@ -163,18 +187,18 @@
         },
         {
           "emoji": "❤‍🔥",
-          "count": "13"
+          "count": "14"
         },
         {
           "emoji": "👍",
           "count": "9"
         },
         {
-          "emoji": "👏",
-          "count": "5"
+          "emoji": "💩",
+          "count": "6"
         },
         {
-          "emoji": "💩",
+          "emoji": "👏",
           "count": "5"
         },
         {
@@ -190,7 +214,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.73K",
+      "views_label": "9.92K",
       "posted_at": "2026-08-01T07:55:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1378",
@@ -231,6 +255,10 @@
           "count": "6"
         },
         {
+          "emoji": "❤‍🔥",
+          "count": "2"
+        },
+        {
           "emoji": "🕊",
           "count": "2"
         },
@@ -239,11 +267,11 @@
           "count": "2"
         },
         {
-          "emoji": "❤‍🔥",
+          "emoji": "🔥",
           "count": "1"
         },
         {
-          "emoji": "🔥",
+          "emoji": "💩",
           "count": "1"
         },
         {
@@ -390,7 +418,7 @@
           "count": "2"
         }
       ],
-      "views_label": "17.9K",
+      "views_label": "18K",
       "posted_at": "2026-07-31T07:38:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1374",
@@ -490,7 +518,7 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "118"
+          "count": "119"
         },
         {
           "emoji": "❤",
@@ -506,7 +534,7 @@
         },
         {
           "emoji": "💩",
-          "count": "1"
+          "count": "2"
         },
         {
           "emoji": "💯",
@@ -639,7 +667,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.2K",
+      "views_label": "18.3K",
       "posted_at": "2026-07-30T02:26:47+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1368",
@@ -692,7 +720,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.1K",
+      "views_label": "16.2K",
       "posted_at": "2026-07-30T02:02:34+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1367",
@@ -729,7 +757,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.8K",
+      "views_label": "12K",
       "posted_at": "2026-07-30T02:01:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1362",
