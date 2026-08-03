@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-03T19:31:39.851Z",
+  "fetched_at": "2026-08-03T19:36:49.079Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "bbcpersian/288392",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/SFdjThxrFwB1KkKmt4sZVMUik3x2oekJ1LJsLesgtTSg_i6Z9CAvxIZ8lLCpSaIhSw66Q8PEoz45MSIAo22Q78-ByvAsGN6o0Eq1rGgag3AMTyZ-WVX5AIaDP2OQIIujcJGMsu650GzeUyAhoHXR9pMzwHQTcG43l8HQgvGyfmbRpBgSWmuQDoiPPUntyuHHhq_B42p6Y4Of-Qtj-feNZC-ncnf32Yfo680OLb-b7_-mdWpIlrSpqGG3sUykpLLGdMRprpuAaE8Z_n7co0qOqB2EdROKqOg7zPK7K435Fhzmv2CfU2iAxpstZqmLYoDmEAVWoBl-5toUvny253ybKQ.jpg",
+      "author_photo_path": "channels/bbcpersian/media/1db3ca64723ac8a3217730b9.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<b>آخرین خبرهای مهم روز دوشنبه ۱۲ مرداد ماه ۱۴۰۵ از تلویزیون بی‌بی‌سی فارسی<br><br></b><a href=\"https://bbc.in/42XnQmy\" target=\"_blank\" rel=\"noopener\"><b>https://bbc.in/42XnQmy</b></a><br><a href=\"https://bbc.in/3WtLd3k\" target=\"_blank\" rel=\"noopener\"><b>https://bbc.in/3WtLd3k</b></a><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "آخرین خبرهای مهم روز دوشنبه ۱۲ مرداد ماه ۱۴۰۵ از تلویزیون بی‌بی‌سی فارسی\n\nhttps://bbc.in/42XnQmy\nhttps://bbc.in/3WtLd3k\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/288392",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/CpNydH3g_U0Z9H2KAmK6ifBAZGt1iC3qBM2ZlKvrdeH7LnjIm5RCq0YblMGJA1CwY_SlB-4KIxUV-Nm6iBOgLuudUT0vgNpWSt00LjuzQPVQ_Uk3Jz9mpyWM8o8DF7kueOyKugxC75beScCz87Tc--v47YjA0E9E2rCzygmVO5MUw6bwS04E8CTnmh7EEGChHtLdOsVo-bV2u-T5SqUebtvhdMwAvsmq2oA7NGofUs5x7oBk2Rc-obBelmSkzXgFtCVY45DSZq1wuEWYu6gxdn597imBBqcG2pdNS1g2po4lXDWswMUqbfXQS30CjIjbBbh8xZEOnsbz6EoY8_Q1Dg",
+          "thumbnail_path": "channels/bbcpersian/media/72eee7397d1b73b3c46d4257.jpg",
+          "thumbnail_sha256": "ac84a6eb15d55e544c01e81e2ab062b3d30ebbb36d1ae20c0fc20d4100a3006f",
+          "duration_label": "0:54",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "319",
+      "posted_at": "2026-08-03T19:35:18+00:00",
+      "edited": true,
+      "permalink": "https://t.me/bbcpersian/288392",
+      "reply": null
+    },
+    {
       "id": "bbcpersian/288391",
       "author_name": "BBCPersian",
       "author_photo_url": "https://cdn4.telesco.pe/file/SFdjThxrFwB1KkKmt4sZVMUik3x2oekJ1LJsLesgtTSg_i6Z9CAvxIZ8lLCpSaIhSw66Q8PEoz45MSIAo22Q78-ByvAsGN6o0Eq1rGgag3AMTyZ-WVX5AIaDP2OQIIujcJGMsu650GzeUyAhoHXR9pMzwHQTcG43l8HQgvGyfmbRpBgSWmuQDoiPPUntyuHHhq_B42p6Y4Of-Qtj-feNZC-ncnf32Yfo680OLb-b7_-mdWpIlrSpqGG3sUykpLLGdMRprpuAaE8Z_n7co0qOqB2EdROKqOg7zPK7K435Fhzmv2CfU2iAxpstZqmLYoDmEAVWoBl-5toUvny253ybKQ.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔻گفتگوی تلفنی عراقچی با وزرای خارجه پاکستان و عمان\n\nبه گزارش رسانه‌های ایران، عباس عراقچی، وزیر خارجه ایران، دوشنبه عصر با وزرای خارجه پاکستان و عمان تلفنی گفتگو گرده است.\n\nجزئیاتی زیادی از این گفتگو منتشر نشده است.\n\nاین در حالیست که محمد اسحاق دار، معاون نخست‌وزیر و وزیر امور خارجه پاکستان، روز دوشنبه در گفت‌وگویی تلفنی با عباس عراقچی، وزیر امور خارجه ایران را به اسلام‌آباد دعوت کرد.\n\nعباس عراقچی، وزیر خارجه ایران، امروز به نجف، عراق سفر کرده است که هدف از این سفر شرکت در مراسم اربعین اعلام شده است.\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "7.12K",
+      "views_label": "8.43K",
       "posted_at": "2026-08-03T19:14:46+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288391",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "21K",
+      "views_label": "22.3K",
       "posted_at": "2026-08-03T18:22:26+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288390",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "20.2K",
+      "views_label": "21.2K",
       "posted_at": "2026-08-03T18:19:30+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288389",
@@ -193,7 +221,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "21.2K",
+      "views_label": "21.8K",
       "posted_at": "2026-08-03T18:02:36+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288380",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "22K",
+      "views_label": "22.7K",
       "posted_at": "2026-08-03T17:51:40+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288379",
@@ -237,7 +265,7 @@
       "plain_text": "📡📻پادکست برنامه جام جهان‌نما، دوشنبه ۱۲ مرداد ۱۴۰۵\nدر برنامه امروز:\n\nاظهارات متناقض تهران و واشنگتن درباره آغاز دور تازه گفت‌وگوها، بار دیگر چشم‌انداز مذاکرات را مبهم کرده است. دونالد ترامپ از آغاز مذاکرات و تمایل ایران به توافق سخن می‌گوید، اما تهران تأکید دارد که گفت‌وگویی با آمریکا در کار نیست و تنها با عمان درباره تنگه هرمز رایزنی می‌کند. در برنامه امروز می‌پرسیم پس از جنگ چهل‌روزه، توافق مطلوب آمریکا چه ویژگی‌هایی دارد و تهران تا چه اندازه تهدیدهای ترامپ را جدی می‌گیرد؟\nهمچنین به تازه‌ترین آمار جمعیتی ایران می‌پردازیم؛ آمارهایی که نشان می‌دهد نرخ زاد و ولد به پایین‌ترین سطح در هفت دهه گذشته رسیده است.\n\n@BBCPereian",
       "media": [],
       "reactions": [],
-      "views_label": "21.4K",
+      "views_label": "22K",
       "posted_at": "2026-08-03T17:48:32+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288377",
@@ -265,7 +293,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "30.5K",
+      "views_label": "31.1K",
       "posted_at": "2026-08-03T17:07:18+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288376",
@@ -281,7 +309,7 @@
       "plain_text": "🔻وزیر خارجه پاکستان عراقچی را به اسلام‌آباد دعوت کرد\n\nمحمد اسحاق دار، معاون نخست‌وزیر و وزیر امور خارجه پاکستان، روز دوشنبه در گفت‌وگویی تلفنی با عباس عراقچی، وزیر امور خارجه ایران را به اسلام‌آباد دعوت کرد.\n\nبر اساس بیانیه‌ای که وزارت امور خارجه پاکستان منتشر کرده است «دو طرف درباره تحولات منطقه‌ای و بین‌المللی، از جمله وخامت اوضاع در بیت‌المقدس شرقی اشغالی، گفت‌وگو کردند.»\n\nدر این بیانیه آمده است: «معاون نخست‌وزیر و وزیر امور خارجه پاکستان از وزیر امور خارجه عراقچی دعوت کرد که در اولین فرصت ممکن به پاکستان سفر کند.»\n\nآقای عراقچی در حال حاضر در نجف عراق است.\n\nپاکستان میانجی اصلی میان ایران و آمریکاست.\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "30.8K",
+      "views_label": "31.5K",
       "posted_at": "2026-08-03T16:50:59+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288375",
@@ -309,7 +337,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "35.3K",
+      "views_label": "35.7K",
       "posted_at": "2026-08-03T16:26:58+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288374",
@@ -337,7 +365,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "35.1K",
+      "views_label": "35.4K",
       "posted_at": "2026-08-03T16:16:26+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288373",
@@ -353,7 +381,7 @@
       "plain_text": "تازه‌ترین خبرهای جهان، دوشنبه ۱۲ مرداد ۱۴۰۵ از رادیو بی‌بی‌سی فارسی",
       "media": [],
       "reactions": [],
-      "views_label": "35.7K",
+      "views_label": "36K",
       "posted_at": "2026-08-03T15:31:42+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/288372",
@@ -3251,34 +3279,6 @@
       "posted_at": "2026-08-01T14:50:20+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288206",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/288205",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/rHTb3zHltToZ4UTxYOd3tZLNqS9TJ6smHLcdLK820qlb61TAIuA6yynKCpxd0nfdSpghTfooDK6GcSP6TOq_YR_Oi-PYs_FhM9XtrHP514kLZkCbVgrPBX36xnjrZKPQrWSqH53L3dyRtsII5VCAX3s1Xgpo0dmVpO3F82WCTuVoFNjhlM8wi5tUlYVEBiuUTyyT74d5CjqyavtDNvInjknOtrFR85vJPKbP2CQAlchfnzfBMhjmTeMm2vpyFrD1oT40b_50eolIY6XT4u1SHorIKMQIj63-OCegISnIX8k-YI6tCFT9Nz97Qgcnic8d5WeQsmXQKMicRffARYEIug.jpg",
-      "author_photo_path": "channels/bbcpersian/media/6786a01b1e41c4f320ef001e.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>سرخط خبرهای شنبه ۱۰ مرداد ۱۴۰۵<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻سرخط خبرهای شنبه ۱۰ مرداد ۱۴۰۵\n@BBCPersian",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/bbcpersian/288205",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/coMAL9LexshM7tP7l5Q7kW6CnsR29Kx_FMg9aGB3r5VFavuu8k6mebyV_-COjE-FjlkcLJA2dDITR09eqiojaYS40uJhIrELEyYHNSWJUvU1ZALeIj6kbrIBiPNXxlgdltZQrmeVUiQNuwQVbW87ErJRNfmMT1xknUNPcwpc0iUh2tCG0HLeGb6v6Fbqs1mW14EwTj0lYLZhvFcDJ-knZQySLG_NzjEorRnLfwjqXQde2o0TxSjpBXlqiSIx88f7J15p-eRRdkGb3BLLWbVC5PUaSkankpeJdVmWUEbp3z8YWQE93xlFXD6YxiVw8G0wQo7dbHR_22RpaQVAULGMbA",
-          "thumbnail_path": "channels/bbcpersian/media/c42dd9b2ab0dcb893aa37ec3.jpg",
-          "thumbnail_sha256": "98568613bdfc41510cfb105f6219382999270f6b550acd3141e063e010daa9fc",
-          "duration_label": "1:19",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "77.5K",
-      "posted_at": "2026-08-01T13:35:42+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/288205",
       "reply": null
     }
   ]
