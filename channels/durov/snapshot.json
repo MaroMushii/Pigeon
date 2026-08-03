@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-03T07:18:18.475Z",
+  "fetched_at": "2026-08-03T07:24:32.161Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,51 @@
     "subscriber_count": "11.4M"
   },
   "posts": [
+    {
+      "id": "durov/537",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/QWfpZvOZtMertr0KyyaXehtLC2VmG_E6RfqpeGsbxXZ8v1xiSByAUpTovSfozLTLHkhXUBG6jzUdvVWWAoBvKin4otYMmLEbbr1TIZlh2q6tKZ_eU18fhvxad8G_dhyf6r7_ocjnHqc_kVkSBJVu5wMDSF1RHTm4xtoNtvc8VbiyD3WwMCPRXTvqWGw_pUACtJukxQJjofmPoJyvWAB2r-LllFe4ss0xgSXpn028_V0XYndFaq4tqYEkwG7saV5TSzcEAtvNXdDhhnozmBV6YuILEFkKBo1sIa8rlNrlNp0jwkUU8hs2AlzPwrPaimw3hu1FRMqhfX0e9Q6gBl6VVA.jpg",
+      "author_photo_path": "channels/durov/media/0d866aaca5cb04a2a2ba0897.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<tg-emoji emoji-id=\"5927026418616636353\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A0.png')\"><b>🧠</b></i></tg-emoji> The 2026 International Olympiad in <b>Artificial Intelligence</b> starts today. <br><br>As a token of support for those who will reinvent our civilization, we'll issue <tg-emoji emoji-id=\"5409008750893734809\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8F86.png')\"><b>🏆</b></i></tg-emoji> <b>240</b> exclusive <b>Intelligence Cups</b> to the winners.<br><br><tg-emoji emoji-id=\"5409048419211682843\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B5.png')\"><b>💵</b></i></tg-emoji> We guarantee minimum buyback prices ($<b>1,000</b> per <b>Gold Cup</b>, etc.), but the cups' limited supply may make them worth much more on the secondary market.<br><br>Good luck, AI coders! <tg-emoji emoji-id=\"5406595657878220722\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D80.png')\"><b>🍀</b></i></tg-emoji>",
+      "plain_text": "🧠 The 2026 International Olympiad in Artificial Intelligence starts today.\n\nAs a token of support for those who will reinvent our civilization, we'll issue 🏆 240 exclusive Intelligence Cups to the winners.\n\n💵 We guarantee minimum buyback prices ($1,000 per Gold Cup, etc.), but the cups' limited supply may make them worth much more on the secondary market.\n\nGood luck, AI coders! 🍀",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/durov/537",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/OWSJ6RlrMUbQpusLZzga8xGfGlH_xq53G-Yg8xAg_d5Bt2YRKG_0jMS3APiS8WcrqtlRxXNoqUo6YGnTOCkPBysgcLwUMDBewgKzFQZKd9Ir4PdAWBbWpBCLre7t46I_kNcGuoqBqzH-tK9f8XhtRxUuVO6WBu-MGs8Coo9HCa0cJEICFFz-_ucVwXluXCdp8NfRPBVCTDXbdRL937ZbVEIIldAC7L6kB1IBuPDX-OmT9DwQOkjfkaXMe3g0ElaLOIRsVmTC-ezupzZ7ud9n-uGKPeYOD-fiVhVhz8PjgpD8Wewe97PkP4IE-exAi8vQ7pAHkJ1gnfT-6OiCYajDlw.jpg",
+          "thumbnail_path": "channels/durov/media/479d049b386156286704f518.jpg",
+          "thumbnail_sha256": "67c188c51ab01028c1970f03292f7da0230ba57a62358b4d60d272e6ab09d2de",
+          "duration_label": null,
+          "aspect_ratio": 1.8691588785046729
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "316"
+        },
+        {
+          "emoji": "💎",
+          "count": "2.71K"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.35K"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.19K"
+        }
+      ],
+      "views_label": "89.8K",
+      "posted_at": "2026-08-03T07:19:56+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/537",
+      "reply": null
+    },
     {
       "id": "durov/536",
       "author_name": "Pavel Durov",
@@ -39,18 +84,18 @@
         },
         {
           "emoji": "💎",
-          "count": "235K"
+          "count": "236K"
         },
         {
           "emoji": "💎",
-          "count": "62K"
+          "count": "62.2K"
         },
         {
           "emoji": "💎",
-          "count": "54.4K"
+          "count": "54.6K"
         }
       ],
-      "views_label": "2.78M",
+      "views_label": "2.84M",
       "posted_at": "2026-07-30T16:55:01+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/536",
@@ -72,18 +117,18 @@
         },
         {
           "emoji": "💎",
-          "count": "169K"
+          "count": "170K"
         },
         {
           "emoji": "💎",
-          "count": "46.2K"
+          "count": "46.3K"
         },
         {
           "emoji": "💎",
-          "count": "40.9K"
+          "count": "41K"
         }
       ],
-      "views_label": "2.77M",
+      "views_label": "2.8M",
       "posted_at": "2026-07-30T16:52:37+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/535",
@@ -105,7 +150,7 @@
         },
         {
           "emoji": "💎",
-          "count": "80.9K"
+          "count": "81K"
         },
         {
           "emoji": "💎",
@@ -116,7 +161,7 @@
           "count": "20.5K"
         }
       ],
-      "views_label": "4.07M",
+      "views_label": "4.1M",
       "posted_at": "2026-07-23T15:15:33+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/534",
@@ -149,7 +194,7 @@
           "count": "11.9K"
         }
       ],
-      "views_label": "4.45M",
+      "views_label": "4.46M",
       "posted_at": "2026-07-21T14:36:55+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/533",
@@ -247,7 +292,7 @@
           "count": "1.37K"
         }
       ],
-      "views_label": "4.33M",
+      "views_label": "4.34M",
       "posted_at": "2026-07-16T20:45:25+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/531",
@@ -322,10 +367,10 @@
         },
         {
           "emoji": "💎",
-          "count": "740"
+          "count": "741"
         }
       ],
-      "views_label": "8.3M",
+      "views_label": "8.31M",
       "posted_at": "2026-06-16T15:05:29+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/529",
@@ -363,7 +408,7 @@
         },
         {
           "emoji": "💎",
-          "count": "560"
+          "count": "562"
         }
       ],
       "views_label": "17.9M",
@@ -457,7 +502,7 @@
         },
         {
           "emoji": "💎",
-          "count": "248"
+          "count": "249"
         }
       ],
       "views_label": "22.3M",
@@ -551,7 +596,7 @@
         },
         {
           "emoji": "💎",
-          "count": "200"
+          "count": "201"
         }
       ],
       "views_label": "14.2M",
@@ -701,7 +746,7 @@
           "count": "108"
         }
       ],
-      "views_label": "6.32M",
+      "views_label": "6.33M",
       "posted_at": "2026-06-01T15:40:13+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/521",
