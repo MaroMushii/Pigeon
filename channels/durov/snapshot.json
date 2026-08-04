@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-04T17:22:17.554Z",
+  "fetched_at": "2026-08-04T17:26:45.721Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -17,8 +17,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/meMW9jJQ0LuKNJIQzSUR7W9o8pbWhTPmyipigj3VZNIt3X8iz0Q8M3McX1RWUSH0z-SngjxjtBBJVdkHj8MULNCsjPdmaahE2mtFHanO59Rz4ffJ0kPL3KEycdx7vEsamMppnRjvhbbW_4Cgqc1_Z0iyM-apAOPv0_drjfzl_UIx3YlPXLzmCljg5u_og5oQXTznffk8_-5JTKSCwN4LvHmc7USzzOyCOhKHHPtwPORj86H18U0eqYCLznyTFetVbAtax4FniEWIZ1feb6J-FY91XG1XYOfh3GhL8MnRQD_r-am_7WWFjw1pYdccmQ-0eVubSgKnnwc5r7I0coc9-w.jpg",
       "author_photo_path": "channels/durov/media/4537adb77c9852992d09fab3.jpg",
       "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
-      "body_html": "<tg-emoji emoji-id=\"5399841757380757151\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i></tg-emoji> Last night, Apple briefly removed Telegram from the App Store because a single user had planted illegal pornographic content in a public group chat.<br><br><tg-emoji emoji-id=\"5983279327574233274\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC85.png')\"><b>⬅️</b></i></tg-emoji> Telegram was restored within hours. But I want to explain what happened — to warn other app developers and help protect online communities from similar attacks.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7B9.png')\"><b>🧹</b></i>Because Telegram quickly removes illegal content from public groups using user reports, AI filters, content hashes, and other moderation tools, the attacker had to resort to a technical trick. He inserted AI-modified illegal content by editing an old message in an active group chat. As a result, the content was effectively hidden from the group’s members, preventing them from seeing and promptly reporting it.<br><br><tg-emoji emoji-id=\"5267239130357588007\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B0.png')\"><b>💰</b></i></tg-emoji>  The attacker was a takedown extortionist: someone who demands ransom from group owners in exchange for not targeting their communities. These extortionists use automated accounts  to plant illegal content in public groups and then report it directly to Apple, attempting to trigger the removal of legitimate communities whose owners refused to pay them.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA49D.png')\"><b>🤝</b></i> From a practical standpoint, illegal pornographic content in Telegram’s public groups is not a systemic problem. Our <a href=\"https://telegram.org/safety\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">moderation is effective</a>. The fact that attackers must resort to backdated, effectively invisible content and other technical tricks proves this.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> However, there are two important lessons here for app developers and online communities:<br><br>— <b>Extortionists have found a way to manipulate Apple into overreacting.</b> Apple removed Telegram from the App Store before contacting us. This creates a potential systemic risk for every mobile app that hosts user-generated content. If an app used by more than a billion people can be removed from the App Store without prior warning, any app can be.<br><br>— <b>The tactics used by takedown extortionists are evolving, putting communities across social platforms at risk.</b> Telegram has extensive experience identifying the tricks used by coordinated reporting gangs and protecting legitimate communities (even when doing so risks our own app being temporarily removed from the App Store). Other platforms may not be equally prepared.<br><br>Stay vigilant! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2989D.png')\"><b>☝️</b></i>",
-      "plain_text": "🍎 Last night, Apple briefly removed Telegram from the App Store because a single user had planted illegal pornographic content in a public group chat.\n\n⬅️ Telegram was restored within hours. But I want to explain what happened — to warn other app developers and help protect online communities from similar attacks.\n\n🧹Because Telegram quickly removes illegal content from public groups using user reports, AI filters, content hashes, and other moderation tools, the attacker had to resort to a technical trick. He inserted AI-modified illegal content by editing an old message in an active group chat. As a result, the content was effectively hidden from the group’s members, preventing them from seeing and promptly reporting it.\n\n💰 The attacker was a takedown extortionist: someone who demands ransom from group owners in exchange for not targeting their communities. These extortionists use automated accounts to plant illegal content in public groups and then report it directly to Apple, attempting to trigger the removal of legitimate communities whose owners refused to pay them.\n\n🤝 From a practical standpoint, illegal pornographic content in Telegram’s public groups is not a systemic problem. Our moderation is effective. The fact that attackers must resort to backdated, effectively invisible content and other technical tricks proves this.\n\n⚠️ However, there are two important lessons here for app developers and online communities:\n\n— Extortionists have found a way to manipulate Apple into overreacting. Apple removed Telegram from the App Store before contacting us. This creates a potential systemic risk for every mobile app that hosts user-generated content. If an app used by more than a billion people can be removed from the App Store without prior warning, any app can be.\n\n— The tactics used by takedown extortionists are evolving, putting communities across social platforms at risk. Telegram has extensive experience identifying the tricks used by coordinated reporting gangs and protecting legitimate communities (even when doing so risks our own app being temporarily removed from the App Store). Other platforms may not be equally prepared.\n\nStay vigilant! ☝️",
+      "body_html": "Last night, Apple briefly removed Telegram from the App Store because a single user had planted illegal pornographic content in a public group chat.<br><br><tg-emoji emoji-id=\"5983279327574233274\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC85.png')\"><b>⬅️</b></i></tg-emoji> Telegram was restored within hours. But I want to explain what happened — to warn other app developers and help protect online communities from similar attacks.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7B9.png')\"><b>🧹</b></i>Because Telegram quickly removes illegal content from public groups using <a href=\"https://telegram.org/safety\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">all kinds of moderation tools</a>, the attacker had to resort to a technical trick. He inserted AI-modified illegal content by editing an old message in an active group chat. As a result, the content was effectively hidden from the group’s members, preventing them from seeing and promptly reporting it.<br><br><tg-emoji emoji-id=\"5267239130357588007\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B0.png')\"><b>💰</b></i></tg-emoji>  The attacker was a takedown extortionist: someone who demands ransom from group owners in exchange for not targeting their communities. These extortionists use automated accounts  to plant illegal content in public groups and then report it directly to Apple, attempting to trigger the removal of legitimate communities whose owners refused to pay them.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA49D.png')\"><b>🤝</b></i> From a practical standpoint, illegal pornographic content in Telegram’s public groups is not a systemic problem. Our moderation is efefctive. The fact that attackers must resort to backdated, effectively invisible content and other technical tricks proves this.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> However, there are two important lessons here for app developers and online communities:<br><br>— <b>Extortionists have found a way to manipulate Apple into overreacting.</b> Apple removed Telegram from the App Store before contacting us. This creates a potential systemic risk for every mobile app that hosts user-generated content. If an app used by more than a billion people can be removed from the App Store without prior warning, any app can be.<br><br>— <b>The tactics used by takedown extortionists are evolving, putting communities across social platforms at risk.</b> Telegram has extensive experience identifying the tricks used by coordinated reporting gangs and protecting legitimate communities (even when doing so risks our own app being temporarily removed from the App Store). Other platforms may not be equally prepared.<br><br>Stay vigilant! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2989D.png')\"><b>☝️</b></i>",
+      "plain_text": "Last night, Apple briefly removed Telegram from the App Store because a single user had planted illegal pornographic content in a public group chat.\n\n⬅️ Telegram was restored within hours. But I want to explain what happened — to warn other app developers and help protect online communities from similar attacks.\n\n🧹Because Telegram quickly removes illegal content from public groups using all kinds of moderation tools, the attacker had to resort to a technical trick. He inserted AI-modified illegal content by editing an old message in an active group chat. As a result, the content was effectively hidden from the group’s members, preventing them from seeing and promptly reporting it.\n\n💰 The attacker was a takedown extortionist: someone who demands ransom from group owners in exchange for not targeting their communities. These extortionists use automated accounts to plant illegal content in public groups and then report it directly to Apple, attempting to trigger the removal of legitimate communities whose owners refused to pay them.\n\n🤝 From a practical standpoint, illegal pornographic content in Telegram’s public groups is not a systemic problem. Our moderation is efefctive. The fact that attackers must resort to backdated, effectively invisible content and other technical tricks proves this.\n\n⚠️ However, there are two important lessons here for app developers and online communities:\n\n— Extortionists have found a way to manipulate Apple into overreacting. Apple removed Telegram from the App Store before contacting us. This creates a potential systemic risk for every mobile app that hosts user-generated content. If an app used by more than a billion people can be removed from the App Store without prior warning, any app can be.\n\n— The tactics used by takedown extortionists are evolving, putting communities across social platforms at risk. Telegram has extensive experience identifying the tricks used by coordinated reporting gangs and protecting legitimate communities (even when doing so risks our own app being temporarily removed from the App Store). Other platforms may not be equally prepared.\n\nStay vigilant! ☝️",
       "media": [],
       "reactions": [
         {
@@ -27,18 +27,18 @@
         },
         {
           "emoji": "💎",
-          "count": "18.9K"
+          "count": "19.1K"
         },
         {
           "emoji": "💎",
-          "count": "7.87K"
+          "count": "7.94K"
         },
         {
           "emoji": "💎",
-          "count": "6.18K"
+          "count": "6.24K"
         }
       ],
-      "views_label": "575K",
+      "views_label": "582K",
       "posted_at": "2026-08-04T15:20:04+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/538",
@@ -76,7 +76,7 @@
         },
         {
           "emoji": "💎",
-          "count": "8.92K"
+          "count": "8.93K"
         },
         {
           "emoji": "💎",
@@ -325,7 +325,7 @@
           "count": "1.42K"
         }
       ],
-      "views_label": "4.55M",
+      "views_label": "4.56M",
       "posted_at": "2026-07-16T20:45:25+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/531",
@@ -629,7 +629,7 @@
         },
         {
           "emoji": "💎",
-          "count": "220"
+          "count": "221"
         }
       ],
       "views_label": "14.4M",
