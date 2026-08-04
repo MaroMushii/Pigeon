@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-04T06:56:52.661Z",
+  "fetched_at": "2026-08-04T07:01:48.738Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,31 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1400",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/tXH6l2pM0uaGkKY7ok6QRhKQmCElneGTb359CmV3FtAnAr3G4p85XVvBFtl-TxGyAJXL3IcghJ-MF_M0smaJBpAenUc1nijLTKTDCoKzK_muRUEyy-6HfMJM6mSxGvYdmIkKm2gMTpAPz4sA7WtCMO86TgGP9cqqeoCluwvUUQLQ7gTX4Wu91Cl5wlGqvN1CnvakaRK_TlvYd-ypCzIywCh_br0CBwS6naAFLmw7dDGprJJE7sI5O6O5SQfbnB1JSoeqCAye6SNCN-HOj4yYMXJAt-DlYjXVKcyjsg8mbcysRpIAcsiwCOX9FNgMyvvSb75knQSNw2evHSDBqK0a5Q.jpg",
+      "author_photo_path": "channels/whitedns/media/b7f199d06796a3fab2b796b3.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<a href=\"?q=%23%D9%85%D9%88%D9%82%D8%AA\">#موقت</a> <br><br><b>لطفا کانفیگ زیر رو امتحان کنید ببینید براتون کار میکنه یا نه</b><br> <br><code>vless://f0fbc0cb-9798-7423-c3c5-faba055f7205@x4g-production-f869.up.railway.app:443?encryption=none&amp;security=tls&amp;type=xhttp&amp;mode=auto&amp;host=x4g-production-f869.up.railway.app&amp;path=/xhttp-siz10/f0fbc0cb-9798-7423-c3c5-faba055f7205&amp;sni=x4g-production-f869.up.railway.app&amp;fp=chrome&amp;alpn=h2%2Chttp/1.1#X4G-%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D8%AC%D8%AF%DB%8C%D8%AF</code>",
+      "plain_text": "#موقت\n\nلطفا کانفیگ زیر رو امتحان کنید ببینید براتون کار میکنه یا نه\n\nvless://f0fbc0cb-9798-7423-c3c5-faba055f7205@x4g-production-f869.up.railway.app:443?encryption=none&security=tls&type=xhttp&mode=auto&host=x4g-production-f869.up.railway.app&path=/xhttp-siz10/f0fbc0cb-9798-7423-c3c5-faba055f7205&sni=x4g-production-f869.up.railway.app&fp=chrome&alpn=h2%2Chttp/1.1#X4G-%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D8%AC%D8%AF%DB%8C%D8%AF",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        }
+      ],
+      "views_label": "97",
+      "posted_at": "2026-08-04T07:01:24+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1400",
+      "reply": null
+    },
     {
       "id": "whitedns/1399",
       "author_name": "White DNS",
@@ -84,7 +109,7 @@
         },
         {
           "emoji": "❤",
-          "count": "578"
+          "count": "580"
         },
         {
           "emoji": "🔥",
@@ -188,7 +213,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.6K",
+      "views_label": "14.7K",
       "posted_at": "2026-08-03T07:58:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1397",
@@ -210,7 +235,7 @@
         },
         {
           "emoji": "❤",
-          "count": "569"
+          "count": "570"
         },
         {
           "emoji": "👍",
@@ -271,7 +296,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "141"
+          "count": "142"
         },
         {
           "emoji": "❤",
@@ -302,7 +327,7 @@
           "count": "1"
         }
       ],
-      "views_label": "33K",
+      "views_label": "33.1K",
       "posted_at": "2026-08-03T05:07:05+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1394",
@@ -385,7 +410,7 @@
         },
         {
           "emoji": "❤",
-          "count": "295"
+          "count": "296"
         },
         {
           "emoji": "❤‍🔥",
@@ -554,7 +579,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.1K",
+      "views_label": "16.2K",
       "posted_at": "2026-08-02T14:16:05+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1386",
@@ -1000,7 +1025,7 @@
           "count": "2"
         }
       ],
-      "views_label": "48.4K",
+      "views_label": "48.5K",
       "posted_at": "2026-07-31T06:22:03+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1373",
@@ -4778,51 +4803,6 @@
       "posted_at": "2026-07-22T10:31:44+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1251",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1250",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/KtxxHXWhLDcldvUmKUqkFBu-x3jUSU9b-gI-KkuFZcYM-RroXJUGsw0l4meoxW7M9toW0FXNTLNoEaVSe2uIA09UeRIZcQ7gVesZLS9R603j-mt4wVex8x1lfdcxGNnKakXqw_9vbJSyvYKIpTUkb0AoXGhO61llQqQ41oE305mn0-ZVVIc7jnDXbc-Zr5weSsAjqDBvztKarncdj4qA3xrLbBqpf5gdGVqCB53yVRcMbPeW3XFpCA8wMSBJdyDOkXDpOqhWW4LrkgqoZoB9UIUvzi3h5XMeT7u71OO5fE5yNpfHZ0VZ0HOs2508iwvIpEBIuHYK41ugSgajwdQe2Q.jpg",
-      "author_photo_path": "channels/whitedns/media/036e082bd9429651d43a916a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "آموزش آماده شد اما تا ادیت میکنیم، ورژن جدید WhiteVPN رو ریلیز کنیم چون آموزش رو با کمک اون ساختیم.",
-      "plain_text": "آموزش آماده شد اما تا ادیت میکنیم، ورژن جدید WhiteVPN رو ریلیز کنیم چون آموزش رو با کمک اون ساختیم.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "176"
-        },
-        {
-          "emoji": "🙏",
-          "count": "25"
-        },
-        {
-          "emoji": "👍",
-          "count": "8"
-        },
-        {
-          "emoji": "🥰",
-          "count": "3"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "😘",
-          "count": "2"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "1"
-        }
-      ],
-      "views_label": "12.2K",
-      "posted_at": "2026-07-22T09:50:59+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1250",
       "reply": null
     }
   ]
