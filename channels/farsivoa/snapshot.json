@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-05T15:08:55.635Z",
+  "fetched_at": "2026-08-05T15:12:07.092Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/226273",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/N6GawSeTu9ucN3PNzIWAd1ZYCwKoMTQ1QL_FgIbzxzxZ3mUKk4wUwDZgx0SBcsklbXh9qxOcqmtenrAYeDp27jQ-wlh5EQm690cK3fNHs83t7Fw-mSRP41dy6bWq-9NdBwXQhb_0yQ6pO1nrTvUd8lh9sWf-uALCm6w4Y8BhMOOoBkuOIg8ukdq3f3nl6Cy_xwgeJk045S95SYteP2haNGVj2xjEOyQGmeAd7cY_JFEc-jtvy6sfxEeICo-lR3kbplmch7tWu6VIF8c_ue0dAsQwEj8URgtpLYNJWwRRDbuScLVIckYMHUNO68K50_Zl2VvGeWpK-x8NTUlHj_Sy0Q.jpg",
+      "author_photo_path": "channels/farsivoa/media/31582ed07f2d9ac162e28abc.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "پسر افسانه رضویان، از کشته‌شدگان دی ماه ۱۴۰۴، ویدیویی از برگزاری تولد خود بر آرامگاه مادرش منتشر کرده است که در آن به یاد او شعری می‌خواند.<br><br>افسانه رضویان، ۱۸ دی با شلیک گلوله ماموران حکومتی مقابل کلانتری چالوس کشته شد.<br><br>نسخه اصلی این ویدیو با موسیقی متن منتشر شده است.",
+      "plain_text": "پسر افسانه رضویان، از کشته‌شدگان دی ماه ۱۴۰۴، ویدیویی از برگزاری تولد خود بر آرامگاه مادرش منتشر کرده است که در آن به یاد او شعری می‌خواند.\n\nافسانه رضویان، ۱۸ دی با شلیک گلوله ماموران حکومتی مقابل کلانتری چالوس کشته شد.\n\nنسخه اصلی این ویدیو با موسیقی متن منتشر شده است.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/226273",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/fx0uY1jQNc4Rz5UyiRJ3oYHfxf4v_V9Mo-WTjgFD3JtKL8WsyaP03ymjKeyqGerwEmojXeZqy0rNo2rGd7gHvKD-yd4KsOqQ7hlNmL6yBwTT6W1BnUQ3913uWi8oBM_9ApXmuhQ0V__QaiEx6PWMFDKqTpJcLtpuleXro0IMuxSZDfpTJ2qA10FFPj5a50zczSuZSVEyK9jiM2K6GORCPqtOz4-Fu5tcBDSGm0ysSvRpOU_cvpNopjfYkRNA5VrggBnxpBagh4R9frE7BTjz-JkmAFsa1LnDgG8nJGQ08RXwOqeo_GpKcfYfw_qnd-bwRt1i-ig4e9V3dvdzHtgMig",
+          "thumbnail_path": "channels/farsivoa/media/84c5151444673cd90bdb7b1e.jpg",
+          "thumbnail_sha256": "acadacd5f4fe0f61815ac236c3b35ec6791d74a3b11c94fe48b99a0f661fb134",
+          "duration_label": "0:38",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "110",
+      "posted_at": "2026-08-05T15:10:59+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/226273",
+      "reply": null
+    },
+    {
       "id": "farsivoa/226272",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/N6GawSeTu9ucN3PNzIWAd1ZYCwKoMTQ1QL_FgIbzxzxZ3mUKk4wUwDZgx0SBcsklbXh9qxOcqmtenrAYeDp27jQ-wlh5EQm690cK3fNHs83t7Fw-mSRP41dy6bWq-9NdBwXQhb_0yQ6pO1nrTvUd8lh9sWf-uALCm6w4Y8BhMOOoBkuOIg8ukdq3f3nl6Cy_xwgeJk045S95SYteP2haNGVj2xjEOyQGmeAd7cY_JFEc-jtvy6sfxEeICo-lR3kbplmch7tWu6VIF8c_ue0dAsQwEj8URgtpLYNJWwRRDbuScLVIckYMHUNO68K50_Zl2VvGeWpK-x8NTUlHj_Sy0Q.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺آمریکا تحریم‌های مرتبط با چند نهاد وابسته به سپاه پاسداران را لغو کرد\n\n◾️وزارت خزانه‌داری ایالات متحده روز چهارشنبه ۱۴ مرداد اعلام کرد نام چند نهاد و دارایی مرتبط با سپاه پاسداران انقلاب اسلامی را از فهرست «تحریم‌های مقابله با تروریسم» حذف کرده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/us-removes-sanctions-from-three-irgc-linked-entities/8183014.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "327",
+      "views_label": "495",
       "posted_at": "2026-08-05T15:04:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226272",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "425",
+      "views_label": "593",
       "posted_at": "2026-08-05T15:02:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226271",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "847",
+      "views_label": "950",
       "posted_at": "2026-08-05T14:56:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226270",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.73K",
+      "views_label": "1.8K",
       "posted_at": "2026-08-05T14:30:22+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/226269",
@@ -121,7 +149,7 @@
       "plain_text": "🔺سناتورهای آمریکایی خواستار برگزاری انتخابات در ونزوئلا شدند\n\n◾️گروهی از سناتورهای جمهوری‌خواه و دموکرات آمریکا با ارائه قطعنامه‌ای دوحزبی در سنا خواستار برگزاری انتخابات آزاد و عادلانه و شفاف در ونزوئلا شدند، و از دولت موقت این کشور خواستند تمامی زندانیان سیاسی را آزاد کرده و شرایط مشارکت همه جریان‌های سیاسی را فراهم کند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/us-senators-seek-venezuela-elections/8182997.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.88K",
+      "views_label": "1.96K",
       "posted_at": "2026-08-05T14:25:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226268",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.17K",
+      "views_label": "2.24K",
       "posted_at": "2026-08-05T14:07:14+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226267",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.26K",
+      "views_label": "2.33K",
       "posted_at": "2026-08-05T14:02:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226266",
@@ -205,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.14K",
+      "views_label": "2.24K",
       "posted_at": "2026-08-05T13:55:28+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226265",
@@ -221,7 +249,7 @@
       "plain_text": "🔺تایوان رزمایش گسترده سالانه خود را با تمرکز بر انعطاف فرماندهان و آمادگی در برابر چین آغاز کرد\n\n◾️تایوان روز چهارشنبه ۱۴ مرداد رزمایش سالانه «هان کوانگ» را آغاز کرد؛ مانوری ۱۰ روزه که با هدف افزایش آمادگی نیروهای مسلح این کشور برای مقابله با حمله احتمالی چین و آزمایش توان فرماندهان در تصمیم‌گیری سریع در شرایط پیش‌بینی‌نشده برگزار می‌شود.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/taiwan-launches-major-war-games-testing-command-flexibility/8182983.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.69K",
+      "views_label": "2.75K",
       "posted_at": "2026-08-05T13:32:24+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226264",
@@ -237,7 +265,7 @@
       "plain_text": "🔺اوکراین: روسیه در آستانه استفاده از یک واحد موشکی کره شمالی برای جنگ است\n\n◾️اوکراین اعلام کرد روسیه در آستانه استفاده از یک واحد موشکی کره شمالی در غرب این کشور است؛ اقدامی که در صورت تأیید می‌تواند مرحله تازه‌ای از همکاری‌های نظامی میان روسیه و کره شمالی را رقم بزند و تهدید حملات موشکی علیه اوکراین را افزایش دهد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/north-korean-missile-unit-deploys-in-russia-for-ukraine-war/8182977.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.53K",
+      "views_label": "2.59K",
       "posted_at": "2026-08-05T13:26:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226263",
@@ -265,7 +293,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.41K",
+      "views_label": "2.48K",
       "posted_at": "2026-08-05T13:19:31+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226262",
@@ -281,7 +309,7 @@
       "plain_text": "🔺پرزیدنت ترامپ: مذاکرات با رژیم ایران «بسیار خوب» پیش می‌رود؛ قطر خبر از میانجی‌گری داد\n\n◾️دونالد ترامپ، رئیس جمهوری آمریکا، اعلام کرد مذاکرات میان مقام‌های آمریکایی و جمهوری اسلامی «بسیار خوب» پیش می‌رود؛ اظهاراتی که امیدها به دستیابی قریب‌الوقوع به توافقی برای کاهش تنش‌ها و بازگشایی کامل تنگه هرمز را افزایش داده و موجب واکنش مثبت بازارهای جهانی شده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/president-trump-says-us-iran-having-very-good-discussions/8182982.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.69K",
+      "views_label": "2.73K",
       "posted_at": "2026-08-05T13:14:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226261",
@@ -309,7 +337,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.57K",
+      "views_label": "2.63K",
       "posted_at": "2026-08-05T13:10:37+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/226260",
@@ -325,7 +353,7 @@
       "plain_text": "🔺رئیس اف‌بی‌آی از گسترش همکاری‌های بی‌سابقه با چین و روسیه برای مقابله با جرایم فراملی خبر داد\n\n◾️کش پتل، رئیس اداره تحقیقات فدرال آمریکا «اف‌بی‌آی»، اعلام کرد این نهاد طی یک سال گذشته همکاری‌های جدید و بی‌سابقه‌ای را با نهادهای مجری قانون در چین و روسیه آغاز کرده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/patel-says-fbi-forges-unprecedented-law-enforcement-ties-with-china-russia/8182978.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.9K",
+      "views_label": "2.93K",
       "posted_at": "2026-08-05T12:46:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226259",
@@ -341,7 +369,7 @@
       "plain_text": "🔺تردد کشتی‌ها در تنگه هرمز و باب‌المندب بدون تغییر محسوس ادامه دارد؛ تاثیر مثبت مذاکرات بر بازار نفت\n\n◾️همزمان با ادامه تلاش‌های دیپلماتیک برای پایان دادن به درگیری میان ایالات متحده و جمهوری اسلامی، داده‌های رهگیری کشتی‌ها نشان می‌دهد که تردد دریایی در دو گذرگاه راهبردی تنگه هرمز و باب‌المندب در روز سه‌شنبه نسبت به روز قبل تغییر محسوسی نداشته است؛ هرچند حجم عبور و مرور همچنان بسیار پایین‌تر از سطح پیش از آغاز جنگ است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/gulf-shipping-traffic-steady-as-peace-talks-continue/8182975.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.05K",
+      "views_label": "3.08K",
       "posted_at": "2026-08-05T12:41:10+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226258",
@@ -385,7 +413,7 @@
       "plain_text": "🔺صداوسیمای جمهوری اسلامی باز شدن فوری تنگه هرمز را رد کرد\n\n◾️در حالی که مقامات آمریکایی از نزدیک شدن به توافق با جمهوری اسلامی برای باز شدن تنگه هرمز خبر داده‌اند، صداوسیما به نقل از یک «منبع مطلع» گزارش داد که توافق احتمالی ایران و عمان درباره ترتیبات عبور شناورها از تنگه هرمز هیچ ارتباطی با باز شدن فوری این تنگه ندارد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/8182968.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.56K",
+      "views_label": "3.59K",
       "posted_at": "2026-08-05T12:14:41+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/226256",
@@ -2497,34 +2525,6 @@
       "posted_at": "2026-08-04T17:07:26+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/226163",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/226162",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/nQMtL4bU9ifVhqGc8RnPgARHD5lY-hp6gPmFbtOorHKT2HI93bOAzLCMskTdl05C_d6O9Hx1cpa3i7b6o11t0Xcat3WzfpaaOwNkJS-axzvRcjxSQJrKr8wDGNfZhinYQegyz5Mgj9q6BHLGCv7uSLyAQnUEt1u-s-5lP2W0tHzngp3NZDRHy2DekEWjA5SABHedKM1JUlfa_pnLUIB-1usqPyeA8OfSTSZY1oIJyduS2PxxwV9GV5DCbEE8lzq1mCr_veHzHVqxb1pZjEek2tIqMCEe2KYbq4X8b7KJnQtdU3NVhDM2hqnpySmXy040MKo3ukoAKx1dxJ6kYm0ChQ.jpg",
-      "author_photo_path": "channels/farsivoa/media/eaa498d2cb3a2d4e22bd9d2d.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "امیرمحمد احمدی، زندانی سیاسی ۱۹ ساله، در پیامی از داخل زندان تهران بزرگ خطاب به مردم گفت: «صدای من و همه زندانیان سیاسی باشید. ما را از یاد نبرید. ما همیشه پشت مردم بودیم و خواهیم بود. شما هم پشت ما باشید.»<br><br> محکومیت امیرمحمد احمدی، از بازداشت‌شدگان دی‌ماه ۱۴۰۴، به رغم اعتراض، در دادگاه تجدیدنظر تایید شد. او در دادگاه انقلاب تهران به ریاست&nbsp;قاضی ایمان افشاری به پنج سال حبس، دو سال منع خروج از کشور و دو سال محرومیت از خدمات اجتماعی محکوم شده است.",
-      "plain_text": "امیرمحمد احمدی، زندانی سیاسی ۱۹ ساله، در پیامی از داخل زندان تهران بزرگ خطاب به مردم گفت: «صدای من و همه زندانیان سیاسی باشید. ما را از یاد نبرید. ما همیشه پشت مردم بودیم و خواهیم بود. شما هم پشت ما باشید.»\n\nمحکومیت امیرمحمد احمدی، از بازداشت‌شدگان دی‌ماه ۱۴۰۴، به رغم اعتراض، در دادگاه تجدیدنظر تایید شد. او در دادگاه انقلاب تهران به ریاست قاضی ایمان افشاری به پنج سال حبس، دو سال منع خروج از کشور و دو سال محرومیت از خدمات اجتماعی محکوم شده است.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/226162",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/VXT8HuoRIBsIoGzbI1UFG61EiORTiDweaQZlF8UxLYObsOlz2QZwaDdH4c5ljdXqNk11a_VsPWNHw0DpuIs89pKqxD4PAVwV_wUriqEr7A74Aiby-qhKrzkSrH8xEpL0EPOWlmBJb0e5E-XSWQngQmK2MWWayWX3GWN68nRG5ZtoFyz4p5sRv4_KbGy-KEXhmK0HRPWN0gcpeIMpPZvd2xG2eAWtGJjvBQhO67JrSyVtE1-RHD-AixG7E5DxrwzTVAgghX8gUvrkzoCD7cFw3QJKLFeFAN51BrPrwT_FPSjU0S6pDi097kRYZFlBtHzLBvGzJVey_LR83Or9B76qYg",
-          "thumbnail_path": "channels/farsivoa/media/33dd7c322eed51092eca3860.jpg",
-          "thumbnail_sha256": "07c549eb533aea5c698df6810e376daa4d9ae32608d49aabb093cc7e5dd4d4bf",
-          "duration_label": "1:27",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.75K",
-      "posted_at": "2026-08-04T16:47:20+00:00",
-      "edited": true,
-      "permalink": "https://t.me/farsivoa/226162",
       "reply": null
     }
   ]
