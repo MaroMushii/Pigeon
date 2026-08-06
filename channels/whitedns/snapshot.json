@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-06T15:42:35.331Z",
+  "fetched_at": "2026-08-06T16:51:07.044Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,55 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1416",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/tX9gtdiMND3kAPR8YaC7HI8i85F-mh5D-HCfZLXBbfowF8BZNfqcN48Og1lFnV8-9_luTCvL568O6urcR4CdaRiLHzirnhdWb5rDRquK4CAiYia0aNvFqMZiTyCAEXHqXRTkNE7WVEY7mWHZo5ZMXXdOvoFV7geYbwPT4q_xAoz7GKoeX3ezyY1GYVdd06AHgs066HAa1VT_Pp9lasiybEMecPHZrEYyhbCVvPo6wTa_AT2tFh265-0fkims6vq1Yyy8f7jwCrUOpWJafqdt_aap76OXrZ0FQCYQVZDQ7r_C8PxkbNQufBQlV-d5iItR3jgF5LzRLFGUx2iT0AkG4Q.jpg",
+      "author_photo_path": "channels/whitedns/media/df23742ceae9210fb45752de.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>WhiteVPN Desktop نسخهٔ ۱.۰.۳ منتشر شد</b><br><br><b>۱. اتصال خودکار از پایه بازنویسی شد</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><br>حالا دقیقاً مثل نسخهٔ اندروید کار می‌کند: اپ دیگر خودش نودها را یکی‌یکی امتحان نمی‌کند، بلکه انتخاب را به موتور می‌سپارد تا از بین صدها نود، بهترینِ در دسترس را بردارد — و اگر نودی از کار افتاد، خودش روی نود دیگر می‌رود.<br><br>نتیجه: اتصال در چند ثانیه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>، و خطای «could not connect» که خیلی‌ها می‌گرفتند برطرف شد.<br><br><b>۲. رفع مشکل حالت تونل (TUN)</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i><br><br>مشکلی که باعث می‌شد روی بعضی سیستم‌ها کانفیگ در حالت پراکسی وصل شود ولی در حالت تونل نه، پیدا و برطرف شد. کسانی هم که IPv6 سیستمشان را غیرفعال کرده‌اند دیگر با خطا مواجه نمی‌شوند.<br><br><b>۳. حذف و ویرایش کانفیگ در صفحهٔ Servers</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8F.png')\"><b>✏️</b></i><br><br>کانفیگ‌هایی که خودتان اضافه کرده‌اید حالا قابل ویرایش و حذف هستند. برای اصلاح یک کانفیگ دیگر لازم نیست همه را پاک کنید و از اول وارد کنید.<br><br><b>۴. پیام‌های خطای واضح‌تر</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A2.png')\"><b>📢</b></i><br><br>اگر اتصالی برقرار نشد، اپ دلیل واقعی را نشان می‌دهد نه فقط «ناموفق» — هم برای شما روشن‌تر است، هم گزارش مشکل را خیلی راحت‌تر می‌کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> دانلود برای ویندوز، مک و لینوکس:<br><a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.3\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.3</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a>",
+      "plain_text": "🚀 WhiteVPN Desktop نسخهٔ ۱.۰.۳ منتشر شد\n\n۱. اتصال خودکار از پایه بازنویسی شد ✅\n\nحالا دقیقاً مثل نسخهٔ اندروید کار می‌کند: اپ دیگر خودش نودها را یکی‌یکی امتحان نمی‌کند، بلکه انتخاب را به موتور می‌سپارد تا از بین صدها نود، بهترینِ در دسترس را بردارد — و اگر نودی از کار افتاد، خودش روی نود دیگر می‌رود.\n\nنتیجه: اتصال در چند ثانیه ⚡️، و خطای «could not connect» که خیلی‌ها می‌گرفتند برطرف شد.\n\n۲. رفع مشکل حالت تونل (TUN) 🛠\n\nمشکلی که باعث می‌شد روی بعضی سیستم‌ها کانفیگ در حالت پراکسی وصل شود ولی در حالت تونل نه، پیدا و برطرف شد. کسانی هم که IPv6 سیستمشان را غیرفعال کرده‌اند دیگر با خطا مواجه نمی‌شوند.\n\n۳. حذف و ویرایش کانفیگ در صفحهٔ Servers ✏️\n\nکانفیگ‌هایی که خودتان اضافه کرده‌اید حالا قابل ویرایش و حذف هستند. برای اصلاح یک کانفیگ دیگر لازم نیست همه را پاک کنید و از اول وارد کنید.\n\n۴. پیام‌های خطای واضح‌تر 📢\n\nاگر اتصالی برقرار نشد، اپ دلیل واقعی را نشان می‌دهد نه فقط «ناموفق» — هم برای شما روشن‌تر است، هم گزارش مشکل را خیلی راحت‌تر می‌کند.\n\n⬇️ دانلود برای ویندوز، مک و لینوکس:\nhttps://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.3\n@whitedns",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "21"
+        },
+        {
+          "emoji": "❤",
+          "count": "77"
+        },
+        {
+          "emoji": "👏",
+          "count": "7"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "💩",
+          "count": "1"
+        },
+        {
+          "emoji": "🤡",
+          "count": "1"
+        },
+        {
+          "emoji": "💯",
+          "count": "1"
+        },
+        {
+          "emoji": "🆒",
+          "count": "1"
+        }
+      ],
+      "views_label": "3.05K",
+      "posted_at": "2026-08-06T16:08:34+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1416",
+      "reply": null
+    },
     {
       "id": "whitedns/1415",
       "author_name": "White DNS",
@@ -39,27 +88,27 @@
         },
         {
           "emoji": "❤",
-          "count": "160"
+          "count": "174"
         },
         {
           "emoji": "👍",
-          "count": "14"
+          "count": "18"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "👎",
           "count": "3"
         },
         {
-          "emoji": "💩",
+          "emoji": "👏",
           "count": "2"
         },
         {
-          "emoji": "👏",
-          "count": "1"
+          "emoji": "💩",
+          "count": "2"
         },
         {
           "emoji": "🤡",
@@ -70,7 +119,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.16K",
+      "views_label": "8.34K",
       "posted_at": "2026-08-06T11:36:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1415",
@@ -92,19 +141,19 @@
         },
         {
           "emoji": "❤",
-          "count": "249"
+          "count": "256"
         },
         {
           "emoji": "🔥",
-          "count": "14"
+          "count": "15"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "10"
         },
         {
           "emoji": "💩",
           "count": "10"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "9"
         },
         {
           "emoji": "👍",
@@ -127,7 +176,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10K",
+      "views_label": "10.6K",
       "posted_at": "2026-08-06T07:38:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1414",
@@ -149,11 +198,11 @@
         },
         {
           "emoji": "❤",
-          "count": "195"
+          "count": "200"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "15"
+          "count": "16"
         },
         {
           "emoji": "👍",
@@ -165,7 +214,7 @@
         },
         {
           "emoji": "🔥",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "🤡",
@@ -176,7 +225,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.81K",
+      "views_label": "10.4K",
       "posted_at": "2026-08-06T07:34:35+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1413",
@@ -194,11 +243,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "328"
+          "count": "335"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "14"
+          "count": "15"
         },
         {
           "emoji": "🙏",
@@ -218,7 +267,7 @@
         },
         {
           "emoji": "🔥",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "👏",
@@ -237,7 +286,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.95K",
+      "views_label": "10.2K",
       "posted_at": "2026-08-06T05:43:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1412",
@@ -271,15 +320,15 @@
         },
         {
           "emoji": "❤",
-          "count": "372"
+          "count": "380"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "15"
         },
         {
           "emoji": "👍",
           "count": "15"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "14"
         },
         {
           "emoji": "💩",
@@ -294,6 +343,10 @@
           "count": "3"
         },
         {
+          "emoji": "🍓",
+          "count": "2"
+        },
+        {
           "emoji": "👏",
           "count": "1"
         },
@@ -304,13 +357,9 @@
         {
           "emoji": "🥴",
           "count": "1"
-        },
-        {
-          "emoji": "🍓",
-          "count": "1"
         }
       ],
-      "views_label": "10.5K",
+      "views_label": "11K",
       "posted_at": "2026-08-06T05:38:49+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1410",
@@ -328,11 +377,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "158"
+          "count": "162"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "15"
+          "count": "16"
         },
         {
           "emoji": "👍",
@@ -347,11 +396,11 @@
           "count": "3"
         },
         {
-          "emoji": "👎",
-          "count": "1"
+          "emoji": "🥰",
+          "count": "2"
         },
         {
-          "emoji": "🥰",
+          "emoji": "👎",
           "count": "1"
         },
         {
@@ -363,7 +412,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.4K",
+      "views_label": "11.7K",
       "posted_at": "2026-08-06T01:13:33+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1409",
@@ -409,15 +458,15 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "459"
+          "count": "463"
         },
         {
           "emoji": "🔥",
-          "count": "47"
+          "count": "48"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "26"
+          "count": "27"
         },
         {
           "emoji": "😁",
@@ -452,7 +501,7 @@
           "count": "2"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14.1K",
       "posted_at": "2026-08-05T15:38:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1407",
@@ -603,15 +652,15 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "205"
+          "count": "209"
         },
         {
           "emoji": "👍",
-          "count": "16"
+          "count": "17"
         },
         {
           "emoji": "🔥",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "👏",
@@ -646,7 +695,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.3K",
+      "views_label": "13.5K",
       "posted_at": "2026-08-05T12:17:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1403",
@@ -664,15 +713,15 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "519"
+          "count": "521"
         },
         {
           "emoji": "👏",
-          "count": "40"
+          "count": "41"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "19"
+          "count": "20"
         },
         {
           "emoji": "🔥",
@@ -707,7 +756,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "15.7K",
       "posted_at": "2026-08-05T11:36:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1402",
@@ -781,7 +830,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.2K",
+      "views_label": "18.3K",
       "posted_at": "2026-08-04T12:52:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1401",
@@ -928,7 +977,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.2K",
+      "views_label": "21.3K",
       "posted_at": "2026-08-03T09:06:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1398",
@@ -989,7 +1038,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.4K",
+      "views_label": "23.3K",
       "posted_at": "2026-08-03T07:58:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1397",
@@ -1054,7 +1103,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.3K",
+      "views_label": "22.6K",
       "posted_at": "2026-08-03T07:09:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1395",
@@ -1103,7 +1152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "43.6K",
+      "views_label": "43.8K",
       "posted_at": "2026-08-03T05:07:05+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1394",
@@ -1164,7 +1213,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.6K",
+      "views_label": "18.8K",
       "posted_at": "2026-08-03T04:15:42+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1393",
@@ -1229,7 +1278,7 @@
           "count": "1"
         }
       ],
-      "views_label": "47.9K",
+      "views_label": "48.3K",
       "posted_at": "2026-08-03T04:14:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1388",
@@ -4959,59 +5008,6 @@
       "posted_at": "2026-07-23T08:31:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1278",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1277",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/oaJR6_oARiZaEJdHttV3BWYUmvvnFFlDB2OM_BYpT7cJfnhu23F7FtHlSgjqxwawUbIHrUK0K_DS7GXgX08wPEw9IfebAwGeYpshxTaZAzIWXZdvNuCDXWrFTik1K-StRd4Qs3Zli9FnKvkaQH99sq1a1CsqxRlxQdmd_VTqb-t5hhUxTMJ-nPbzPdvwwtxt5gwng8w2yJDF0hkvClZj1ZX8jb70vjkwYh2UtzG4KnSqUGOakrCkRjkOkQZy0XQnTmRQLe_dwgy9VIQsy_zaC9h8f6BOkOb6y6cgCBvyJZPSaFLih14VkuSyqJKuB9qdwaIL8VDyu5JsS_wR_I1x6A.jpg",
-      "author_photo_path": "channels/whitedns/media/720fc2dc938adac69e562ef9.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>افزایش سرعت اتصال WhiteDNS</b><br><br>تنظیمات اختصاصی whitedns<br><br>یکی از مشکلاتی که بسیاری از کاربران با اون مواجه هستن، اتصال موفق <b>WhiteDNS</b> با سرعت پایین یا ناپایداره.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> یکی از مؤثرترین راه‌ها برای افزایش سرعت و پایداری اتصال، استفاده از تنظیمات بهینه میباشد (البته استفاده از سرور و کانفیگ اختصاصی هم تأثیر قابل توجهی روی کیفیت اتصال داره).<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> به همین منظور، ۳ تنظیمات پرسرعت برای <b>اندروید</b> و <b>ویندوز</b> آماده کردیم که می‌تونید از اون‌ها استفاده کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8F.png')\"><b>🍏</b></i> کاربران آیفون:<br>اپلیکیشن <b>CoreForge</b> به‌صورت پیش‌فرض تنظیمات بسیار مناسبی داره و در اکثر مواقع نیازی به استفاده از تنظیمات اضافی نخواهید داشت.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> نحوه استفاده:<br>• فایل تنظیمات رو مستقیماً داخل اپلیکیشن <b>Import</b> کنید.<br>• یا فایل رو باز کرده و محتوای اون رو <b>Copy/Paste</b> کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>توجه</b>:<br>این تنظیمات فقط <b>مخصوص اپلیکیشن WhiteDNS</b> (مناسب اینترنت ملی) هستن و به درد استفاده در <b>WhiteDNS VPN</b> نمیخورن ؛ لطفاً این دو مورد رو با هم اشتباه نگیرید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i><b> نکته مهم</b>:<br>ممکنه این تنظیمات باعث افزایش مصرف اینترنت بشن. بنابراین بعد از اضافه کردنشون ، مقادیر Download Dup و Upload Dup رو متناسب با نیاز خودتون تنظیم کنید:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> مقادیر <b>بالاتر</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9188.png')\"><b>👈</b></i> مصرف اینترنت بیشتر <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> اتصال پایدارتر<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> مقادیر <b>پایین‌تر</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9188.png')\"><b>👈</b></i> مصرف اینترنت کمتر <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> اتصال حساس‌تر و شکننده‌تر<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i> امیدواریم این تنظیمات تجربه‌ای سریع‌تر و پایدارتر از WhiteDNS براتون فراهم کنه.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🚀 افزایش سرعت اتصال WhiteDNS\n\nتنظیمات اختصاصی whitedns\n\nیکی از مشکلاتی که بسیاری از کاربران با اون مواجه هستن، اتصال موفق WhiteDNS با سرعت پایین یا ناپایداره.\n\n✅ یکی از مؤثرترین راه‌ها برای افزایش سرعت و پایداری اتصال، استفاده از تنظیمات بهینه میباشد (البته استفاده از سرور و کانفیگ اختصاصی هم تأثیر قابل توجهی روی کیفیت اتصال داره).\n\n📦 به همین منظور، ۳ تنظیمات پرسرعت برای اندروید و ویندوز آماده کردیم که می‌تونید از اون‌ها استفاده کنید.\n\n🍏 کاربران آیفون:\nاپلیکیشن CoreForge به‌صورت پیش‌فرض تنظیمات بسیار مناسبی داره و در اکثر مواقع نیازی به استفاده از تنظیمات اضافی نخواهید داشت.\n\n📥 نحوه استفاده:\n• فایل تنظیمات رو مستقیماً داخل اپلیکیشن Import کنید.\n• یا فایل رو باز کرده و محتوای اون رو Copy/Paste کنید.\n\n⚠️ توجه:\nاین تنظیمات فقط مخصوص اپلیکیشن WhiteDNS (مناسب اینترنت ملی) هستن و به درد استفاده در WhiteDNS VPN نمیخورن ؛ لطفاً این دو مورد رو با هم اشتباه نگیرید.\n\n💡 نکته مهم:\nممکنه این تنظیمات باعث افزایش مصرف اینترنت بشن. بنابراین بعد از اضافه کردنشون ، مقادیر Download Dup و Upload Dup رو متناسب با نیاز خودتون تنظیم کنید:\n\n🔹 مقادیر بالاتر 👈 مصرف اینترنت بیشتر ✅ اتصال پایدارتر\n🔹 مقادیر پایین‌تر 👈 مصرف اینترنت کمتر ✅ اتصال حساس‌تر و شکننده‌تر\n\n❤️ امیدواریم این تنظیمات تجربه‌ای سریع‌تر و پایدارتر از WhiteDNS براتون فراهم کنه.\n\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1277",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/H6f20pvXdOA1m_OtJZcxN3pFS9zhwuUMnOcNSZnf7FLxZHXtby13A-0ALPZ_qEl1ch8VNIO64ifAPpXdOKqLF7AP16Do-vlj8440qNyz1QL7f1qjHr7HwoCwfjrff7ALY2JuXrl92ity2Jn2b0G1QPVrXrX_khYQsry8jrIpnsXQ16v5jNjZTfzdZzBTzWJKGQA3Nfu7VPRtbBUObPh10L0Mo1HeBaDK4VR5dK9QgfCa8IRf4pM8FdSIg-rNMqSIccTkrr9VoVy9_y2BNWQ4nAL6m9ZOE29SZLbTv4ZrKj285IB_8G2qY28UvrMSiGHvfaTtTAfoRk6GelhyeMkO5w.jpg",
-          "thumbnail_path": "channels/whitedns/media/4014327a94824d11f6174b24.jpg",
-          "thumbnail_sha256": "c5156831706abaaadcbf94961a621e633165f597b88092fd20d29d4872774615",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "76"
-        },
-        {
-          "emoji": "👍",
-          "count": "10"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🥰",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "11.5K",
-      "posted_at": "2026-07-23T08:31:49+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1277",
       "reply": null
     }
   ]
