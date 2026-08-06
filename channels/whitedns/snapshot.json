@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-06T11:32:27.481Z",
+  "fetched_at": "2026-08-06T11:37:34.732Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,55 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1415",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/tX9gtdiMND3kAPR8YaC7HI8i85F-mh5D-HCfZLXBbfowF8BZNfqcN48Og1lFnV8-9_luTCvL568O6urcR4CdaRiLHzirnhdWb5rDRquK4CAiYia0aNvFqMZiTyCAEXHqXRTkNE7WVEY7mWHZo5ZMXXdOvoFV7geYbwPT4q_xAoz7GKoeX3ezyY1GYVdd06AHgs066HAa1VT_Pp9lasiybEMecPHZrEYyhbCVvPo6wTa_AT2tFh265-0fkims6vq1Yyy8f7jwCrUOpWJafqdt_aap76OXrZ0FQCYQVZDQ7r_C8PxkbNQufBQlV-d5iItR3jgF5LzRLFGUx2iT0AkG4Q.jpg",
+      "author_photo_path": "channels/whitedns/media/df23742ceae9210fb45752de.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<b>WhiteVPN</b> Desktop <br>نسخه 1.0.2 منتشر شد <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E89.png')\"><b>🎉</b></i><br><br>مهم‌ترین تغییر: حالا هر نوع لینک اشتراکی را می‌شناسد <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9493.png')\"><b>🔓</b></i><br><br>تا نسخهٔ قبل فقط لینک‌های اشتراک معمولی (vless، vmess، trojan و…) اضافه می‌شدند. اگر پنل شما خروجی Clash یا sing-box یا Xray می‌داد، برنامه خطا می‌داد <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D8C.png')\"><b>❌</b></i><br><br>از این نسخه این‌ها همه کار می‌کنند <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>:<br>- لینک‌های اشتراک معمولی و base64<br>- کانفیگ Clash / mihomo (چه YAML چه JSON)<br>- کانفیگ sing-box<br>- کانفیگ Xray و v2rayN<br>- و حالت base64 هر کدام از این‌ها<br><br>فرقی نمی‌کند پنل شما کدام قالب را بدهد <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939D.png')\"><b>📝</b></i>. سرورها مثل همیشه در صفحهٔ Servers می‌آیند و می‌توانید پینگ و سرعتشان را بگیرید <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B6.png')\"><b>📶</b></i>، مرتب کنید و یکی را انتخاب کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i>.<br><br>دانلود:<br><a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.2\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.2</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\">https://t.me/whitedns</a>",
+      "plain_text": "WhiteVPN Desktop\nنسخه 1.0.2 منتشر شد 🎉\n\nمهم‌ترین تغییر: حالا هر نوع لینک اشتراکی را می‌شناسد 🔓\n\nتا نسخهٔ قبل فقط لینک‌های اشتراک معمولی (vless، vmess، trojan و…) اضافه می‌شدند. اگر پنل شما خروجی Clash یا sing-box یا Xray می‌داد، برنامه خطا می‌داد ❌\n\nاز این نسخه این‌ها همه کار می‌کنند ✅:\n- لینک‌های اشتراک معمولی و base64\n- کانفیگ Clash / mihomo (چه YAML چه JSON)\n- کانفیگ sing-box\n- کانفیگ Xray و v2rayN\n- و حالت base64 هر کدام از این‌ها\n\nفرقی نمی‌کند پنل شما کدام قالب را بدهد\n\n📝. سرورها مثل همیشه در صفحهٔ Servers می‌آیند و می‌توانید پینگ و سرعتشان را بگیرید\n\n📶، مرتب کنید و یکی را انتخاب کنید 🚀.\n\nدانلود:\nhttps://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.2\n\nhttps://t.me/whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1415",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/J_fiKPxX4ZKLs7QTnvK3BoA6jl1atSpx_vtaO9ddUzpMKzab0DRj1nlKqWsyZdZ7cqH-cx56Q6_iqSN_pD98zMjZ0XsHo3N-TXhAnRq_jMwMXqNjryA29miItceAa9_RVgmS2GDZuAJl4BwcBAFkjYCu9xdhreEb0uBi4Tn8yQc6duMGVxMMgTIQASxmMG5C3vKXTAz83Y9-NCKolvN9zCYU0lOmsDpBxJh0CnKl8yTrzIb8A9s2MP0IA9Qm1eYHosZdxisSuxSUJ4WA3qO51ZuKrSmvna1PvNKxcCQv7tNatItnCNGEblGSQ4aOxxhV49M3rV1EU90u28Mj7RIAuA.jpg",
+          "thumbnail_path": "channels/whitedns/media/0c307bf0c7a8389932ee3cc7.jpg",
+          "thumbnail_sha256": "ba2bc69916d99b950d97183283818aef448afa5a53971f40abccf1f85dc298ac",
+          "duration_label": null,
+          "aspect_ratio": 1.873536299765808
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "👍",
+          "count": "3"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        },
+        {
+          "emoji": "🤡",
+          "count": "1"
+        }
+      ],
+      "views_label": "1",
+      "posted_at": "2026-08-06T11:36:38+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1415",
+      "reply": null
+    },
     {
       "id": "whitedns/1414",
       "author_name": "White DNS",
@@ -27,7 +76,7 @@
         },
         {
           "emoji": "❤",
-          "count": "215"
+          "count": "218"
         },
         {
           "emoji": "🔥",
@@ -58,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.2K",
+      "views_label": "7.29K",
       "posted_at": "2026-08-06T07:38:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1414",
@@ -80,7 +129,7 @@
         },
         {
           "emoji": "❤",
-          "count": "163"
+          "count": "165"
         },
         {
           "emoji": "❤‍🔥",
@@ -107,7 +156,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.16K",
+      "views_label": "7.27K",
       "posted_at": "2026-08-06T07:34:35+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1413",
@@ -125,7 +174,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "298"
+          "count": "300"
         },
         {
           "emoji": "🙏",
@@ -168,7 +217,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.3K",
+      "views_label": "8.34K",
       "posted_at": "2026-08-06T05:43:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1412",
@@ -202,7 +251,7 @@
         },
         {
           "emoji": "❤",
-          "count": "339"
+          "count": "341"
         },
         {
           "emoji": "❤‍🔥",
@@ -241,7 +290,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.75K",
+      "views_label": "8.82K",
       "posted_at": "2026-08-06T05:38:49+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1410",
@@ -294,7 +343,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.98K",
+      "views_label": "10K",
       "posted_at": "2026-08-06T01:13:33+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1409",
@@ -985,7 +1034,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.3K",
+      "views_label": "20.4K",
       "posted_at": "2026-08-03T07:09:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1395",
@@ -4944,44 +4993,6 @@
       "edited": false,
       "permalink": "https://t.me/whitedns/1277",
       "reply": null
-    },
-    {
-      "id": "whitedns/1276",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/oaJR6_oARiZaEJdHttV3BWYUmvvnFFlDB2OM_BYpT7cJfnhu23F7FtHlSgjqxwawUbIHrUK0K_DS7GXgX08wPEw9IfebAwGeYpshxTaZAzIWXZdvNuCDXWrFTik1K-StRd4Qs3Zli9FnKvkaQH99sq1a1CsqxRlxQdmd_VTqb-t5hhUxTMJ-nPbzPdvwwtxt5gwng8w2yJDF0hkvClZj1ZX8jb70vjkwYh2UtzG4KnSqUGOakrCkRjkOkQZy0XQnTmRQLe_dwgy9VIQsy_zaC9h8f6BOkOb6y6cgCBvyJZPSaFLih14VkuSyqJKuB9qdwaIL8VDyu5JsS_wR_I1x6A.jpg",
-      "author_photo_path": "channels/whitedns/media/720fc2dc938adac69e562ef9.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> <b>چند نکته مهم برای عملکرد درست برنامه‌:</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> <b>حتماً فایل PDF راهنما رو بخونید</b> تا برنامه بدون مشکل براتون کار کنه.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> وقتی متصل میشید، صبور باشید تا <b>آی‌پی و پرچم کشور</b> روی صفحه ظاهر بشه.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/33E283A3.png')\"><b>3️⃣</b></i> دوستانی که میگن آی‌پی ایران می‌گیرن و سایت‌های هوش مصنوعی باز نمیشه:<br>• یا چند بار قطع و وصل کنید تا آی‌پی غیرایران بیفته؛<br>• یا از قابلیت جدید <b>حالت پروکسی (Proxy Mode)</b> استفاده کنید و اون رو با سایفون ترکیب کنید. این‌طوری هم سرعتتون عالی میشه و هم مشکل هوش مصنوعی کلاً حل میشه.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> *نکته:* ترجیحاً نسخه <b>مودشده سایفون</b> رو نصب کنید تا محدودیت سرعت نداشته باشید.<br><a href=\"https://t.me/whitedns/1261\" target=\"_blank\" rel=\"noopener\">https://t.me/whitedns/1261</a>",
-      "plain_text": "📌 چند نکته مهم برای عملکرد درست برنامه‌:\n1️⃣ حتماً فایل PDF راهنما رو بخونید تا برنامه بدون مشکل براتون کار کنه.\n2️⃣ وقتی متصل میشید، صبور باشید تا آی‌پی و پرچم کشور روی صفحه ظاهر بشه.\n3️⃣ دوستانی که میگن آی‌پی ایران می‌گیرن و سایت‌های هوش مصنوعی باز نمیشه:\n• یا چند بار قطع و وصل کنید تا آی‌پی غیرایران بیفته؛\n• یا از قابلیت جدید حالت پروکسی (Proxy Mode) استفاده کنید و اون رو با سایفون ترکیب کنید. این‌طوری هم سرعتتون عالی میشه و هم مشکل هوش مصنوعی کلاً حل میشه.\n💡 *نکته:* ترجیحاً نسخه مودشده سایفون رو نصب کنید تا محدودیت سرعت نداشته باشید.\nhttps://t.me/whitedns/1261",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "82"
-        },
-        {
-          "emoji": "👍",
-          "count": "18"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "3"
-        }
-      ],
-      "views_label": "11.1K",
-      "posted_at": "2026-07-23T03:27:33+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1276",
-      "reply": {
-        "channel_username": "whitedns",
-        "post_id": "1264",
-        "author_name": "White DNS",
-        "preview_text": "",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/whitedns/1264"
-      }
     }
   ]
 }
