@@ -1,6 +1,11 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-06T13:47:38.543Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-08-06T13:52:25.791Z",
+  "succeeded": 22,
+  "failed": [
+    {
+      "username": "whitedns",
+      "error": "fetch failed"
+    }
+  ]
 }
