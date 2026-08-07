@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-07T16:02:51.342Z",
+  "fetched_at": "2026-08-07T16:17:54.631Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,59 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1423",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/m48RsnDgY_xezfYgDOA_BBHP5hCI9K21T48wAxq6P__4crrUuTCgVfJ_TbdbnX4pIBFpULLKTfv0nWiWK5mbe64Ejayp16hFMTRJ6c0pOBUHRQmeVUPo3jBUK9_yRJx_WB3by-zAeF-lJz5avu4B0FY5K5_GagHuTmFCkSA9e0qW3GHWACQJRhLFwuDukrwPKOABIrQz0eaqMyXBEltX5Hj7c4M4MqOPUffdfRnENNJW4OgE8Wij9ZOaBfk71Fzwst3nVATgfA6PPxYS0el04ZQpXzMSw9Zm92yFgYHU-t37cMdMC6cThwfJ59Gq8sLqbGkvvkNoT0o7DFc5HRjodw.jpg",
+      "author_photo_path": "channels/whitedns/media/3e3eafce9a247a1a5be72f42.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B5.png')\"><b>🔵</b></i> WhiteVPN Desktop — نسخه ۱.۰.۱۳<br>Stable<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAF.png')\"><b>🎯</b></i> حالت «فقط پراکسی» اضافه شد<br><br>تا حالا دو حالت بیشتر نبود و هر دو کل سیستم را از تونل رد می‌کردند. حالا سه حالت دارید:<br><br>• پراکسی سیستم — کل دستگاه (مثل قبل)<br>• فقط پراکسی — هیچ‌چیز روی سیستم شما تغییر نمی‌کند<br>• تونل TUN — کل دستگاه، حتی برنامه‌هایی که پراکسی را نادیده می‌گیرند<br><br>در حالت «فقط پراکسی» برنامه فقط گوش می‌دهد و شما خودتان تصمیم می‌گیرید چه چیزی از تونل رد شود. مثلاً فقط تلگرام، یا فقط یک افزونهٔ مرورگر — بقیهٔ سیستم دست‌نخورده و با سرعت عادی.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> چطور استفاده کنید<br>۱. تنظیمات ← اتصال ← «فقط پراکسی» را انتخاب کنید<br>۲. وصل شوید<br>۳. روی آدرس پراکسی در صفحهٔ اصلی کلیک کنید تا کپی شود<br>۴. همان را در تنظیمات پراکسی تلگرام وارد کنید<br><br>هم SOCKS5 و هم HTTP روی همان یک پورت کار می‌کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i> پورت دیگر عوض نمی‌شود<br>در این حالت پورت ثابت می‌ماند و خودتان می‌توانید تغییرش دهید. اگر برنامهٔ دیگری آن را گرفته باشد، همان موقع به شما می‌گوید — نه اینکه بی‌سروصدا پورت دیگری بگیرد و تنظیمات تلگرام شما یک روز بی‌دلیل از کار بیفتد.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> نکته برای کاربران فعلی<br>سوییچ TUN در تنظیمات جای خود را به یک منوی انتخابی داده. اگر قبلاً TUN را خاموش داشتید، روی «پراکسی سیستم» قرار می‌گیرید — یعنی دقیقاً همان رفتار قبلی. تا وقتی خودتان چیزی را عوض نکنید، هیچ فرقی نمی‌کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود:<br><a href=\"http://github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest</a>",
+      "plain_text": "🔵 WhiteVPN Desktop — نسخه ۱.۰.۱۳\nStable\n\n🎯 حالت «فقط پراکسی» اضافه شد\n\nتا حالا دو حالت بیشتر نبود و هر دو کل سیستم را از تونل رد می‌کردند. حالا سه حالت دارید:\n\n• پراکسی سیستم — کل دستگاه (مثل قبل)\n• فقط پراکسی — هیچ‌چیز روی سیستم شما تغییر نمی‌کند\n• تونل TUN — کل دستگاه، حتی برنامه‌هایی که پراکسی را نادیده می‌گیرند\n\nدر حالت «فقط پراکسی» برنامه فقط گوش می‌دهد و شما خودتان تصمیم می‌گیرید چه چیزی از تونل رد شود. مثلاً فقط تلگرام، یا فقط یک افزونهٔ مرورگر — بقیهٔ سیستم دست‌نخورده و با سرعت عادی.\n\n📌 چطور استفاده کنید\n۱. تنظیمات ← اتصال ← «فقط پراکسی» را انتخاب کنید\n۲. وصل شوید\n۳. روی آدرس پراکسی در صفحهٔ اصلی کلیک کنید تا کپی شود\n۴. همان را در تنظیمات پراکسی تلگرام وارد کنید\n\nهم SOCKS5 و هم HTTP روی همان یک پورت کار می‌کند.\n\n🔒 پورت دیگر عوض نمی‌شود\nدر این حالت پورت ثابت می‌ماند و خودتان می‌توانید تغییرش دهید. اگر برنامهٔ دیگری آن را گرفته باشد، همان موقع به شما می‌گوید — نه اینکه بی‌سروصدا پورت دیگری بگیرد و تنظیمات تلگرام شما یک روز بی‌دلیل از کار بیفتد.\n\n━━━━━━━━━━━━━━━\n\n⚠️ نکته برای کاربران فعلی\nسوییچ TUN در تنظیمات جای خود را به یک منوی انتخابی داده. اگر قبلاً TUN را خاموش داشتید، روی «پراکسی سیستم» قرار می‌گیرید — یعنی دقیقاً همان رفتار قبلی. تا وقتی خودتان چیزی را عوض نکنید، هیچ فرقی نمی‌کند.\n\n📥 دانلود:\ngithub.com/WhiteDNS/WhiteVPN-Desktop/releases/latest",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1423",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/lgSupHrcmEtTwFHTNUriV6qAnXAs0YnWrjivZunL5eA4zQllXhsPv5Fntm_3ao9sgswr7krGROO87IGGyAJJhOqjJIC86DIrsMOliOFFLLCwq2_IKCp3NfIgetGHP1luahdSrs0pZi5c2R8yoZ9oidMmvk45_jWJyxf8eJTa5IYL-J5h1Mf9OuB2Rgb0eUGHh-qx9Kb86e8N_6ZVNmGlvlwUc3tzOFaISXcDG4C4Bn3hrKTxT0prU7KDeOU6XTmZfRM6QChWAHxzHf62_jspKQwc0LeSmRiRGFu3LV1h-vQpqwSi1GhaIbPX0PGkLjxbSLn5cbN4oMeTlKQowxAAQw.jpg",
+          "thumbnail_path": "channels/whitedns/media/56b0dba608fc4d9855b7563b.jpg",
+          "thumbnail_sha256": "c96ac972bef777e95e7128439421ebad06aa5b81036821d8281146c36bb6e9ec",
+          "duration_label": null,
+          "aspect_ratio": 1.8648018648018647
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": "16"
+        },
+        {
+          "emoji": "❤",
+          "count": "5"
+        },
+        {
+          "emoji": "🤣",
+          "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
+          "emoji": "🤡",
+          "count": "1"
+        },
+        {
+          "emoji": "🥱",
+          "count": "1"
+        }
+      ],
+      "views_label": "876",
+      "posted_at": "2026-08-07T16:11:25+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1423",
+      "reply": null
+    },
     {
       "id": "whitedns/1422",
       "author_name": "White DNS",
@@ -23,7 +76,7 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "100"
+          "count": "104"
         },
         {
           "emoji": "❤",
@@ -42,11 +95,15 @@
           "count": "2"
         },
         {
+          "emoji": "🤡",
+          "count": "1"
+        },
+        {
           "emoji": "🥱",
           "count": "1"
         }
       ],
-      "views_label": "6.71K",
+      "views_label": "7.05K",
       "posted_at": "2026-08-07T11:15:29+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1422",
@@ -121,7 +178,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "97"
+          "count": "102"
         },
         {
           "emoji": "❤‍🔥",
@@ -140,11 +197,15 @@
           "count": "1"
         },
         {
+          "emoji": "🤡",
+          "count": "1"
+        },
+        {
           "emoji": "🍓",
           "count": "1"
         }
       ],
-      "views_label": "1.68K",
+      "views_label": "1.71K",
       "posted_at": "2026-08-07T08:23:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1420",
@@ -162,7 +223,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "199"
+          "count": "200"
         },
         {
           "emoji": "🔥",
@@ -197,7 +258,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.8K",
+      "views_label": "11.9K",
       "posted_at": "2026-08-07T02:27:41+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1419",
@@ -227,7 +288,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "148"
+          "count": "149"
         },
         {
           "emoji": "🕊",
@@ -266,7 +327,7 @@
           "count": "1"
         }
       ],
-      "views_label": "34.4K",
+      "views_label": "34.5K",
       "posted_at": "2026-08-06T22:24:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1418",
@@ -288,7 +349,7 @@
         },
         {
           "emoji": "❤",
-          "count": "217"
+          "count": "218"
         },
         {
           "emoji": "👏",
@@ -331,7 +392,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.1K",
       "posted_at": "2026-08-06T16:08:34+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1416",
@@ -469,7 +530,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14K",
       "posted_at": "2026-08-06T07:38:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1414",
@@ -491,7 +552,7 @@
         },
         {
           "emoji": "❤",
-          "count": "223"
+          "count": "224"
         },
         {
           "emoji": "❤‍🔥",
@@ -522,7 +583,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14K",
+      "views_label": "14.1K",
       "posted_at": "2026-08-06T07:34:35+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1413",
@@ -802,7 +863,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "15.7K",
       "posted_at": "2026-08-05T15:38:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1407",
@@ -996,7 +1057,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.1K",
+      "views_label": "15.2K",
       "posted_at": "2026-08-05T12:17:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1403",
@@ -1278,7 +1339,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.7K",
       "posted_at": "2026-08-03T09:06:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1398",
@@ -5083,27 +5144,6 @@
       "posted_at": "2026-07-23T12:04:55+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1285",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1284",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/RwFivA-nbxJ7GaliPqB94Z8MZEDNMaGRV8IMJOOLZXUGCRljIPGs2umpyy8z_kxkvmbKQbu2Wgo289uAcAWyMV0thVCaKoBKMADX9wDyCNdkTm-4jDM7rM82HWPR3T4bAd0nX4jYKeQRGzkJHnaUrMWYhCuOr7RZcVm5SyYcDVyW2q0WkWBeVAQqxxdmdRxACHPHJsbKQpN6jAt2iHD0cBo38nc0fnpkziMB8_YnQ2SXLxeAxr7U3fznEZofK593jKELFRIC-mUTmrngIS0MgZwYRtnx4AGrn1QQgFSI5tiK543LL6XKvbk6Omzbzo5XvXE-AAc-F-T3mKHbXwESXg.jpg",
-      "author_photo_path": "channels/whitedns/media/224b60c3d0bec1670d9b14f8.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "دوستانی که سوال دارند تشریف بیاورید لایو <br><br><a href=\"https://t.me/+e4MWZIWMwd5jMGQ0\" target=\"_blank\" rel=\"noopener\">https://t.me/+e4MWZIWMwd5jMGQ0</a>",
-      "plain_text": "دوستانی که سوال دارند تشریف بیاورید لایو\n\nhttps://t.me/+e4MWZIWMwd5jMGQ0",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "12"
-        }
-      ],
-      "views_label": "3.07K",
-      "posted_at": "2026-07-23T11:23:12+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1284",
       "reply": null
     }
   ]
