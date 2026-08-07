@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-07T14:52:50.195Z",
+  "fetched_at": "2026-08-07T14:57:25.169Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "sahamnewsorg/145696",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z3u4qW8rFkm34s5z87hnsXaRkWvox6_-gHppTGhWEghPUhZcSXOZx3Mj_Oj6KqvQx6qidMMgxyRSKS_20NSKxJh5Ih4DjQY9GYFCG2Yd6Nzy2K7uYCkU6VjpcJ8j6OcvGkf5QkZCIrFshB2-MdmXyGdgIoV0PVlfNDKmmnLGiw6T9RQZgSzTdsXe2IytBzt3IF-PSEox8LbUflVai1VSYiNoWic6YegkGS4xw3Og-PSqBGgLp-9-6uTdaH5WZfy-DCnHt4zJpyShxuILGOkLXtUvmnpp7hdPPh8nPhM4edHNBEM71anhhf8RyBax9zImdoRGPTCMJPWQl8_zX9f4jw.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/12b4d37a43ad0f4e40de4328.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>او الکلی است و زندگی خوبی ندارد <br><br>-صحبت‌های مجری و کارشناس صداوسیما درباره هگست، وزیر جنگ آمریکا<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅او الکلی است و زندگی خوبی ندارد\n\n-صحبت‌های مجری و کارشناس صداوسیما درباره هگست، وزیر جنگ آمریکا\n\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/145696",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/Jpm8eNKym5uEFUFwYmurKBEaY5QCKsOjJpDpB4Cw8SNQdQlwqsABC8lkrXJr9sgiGQbfdqwLudXM9ymAU7ebz4CbIKd15alLfOj0GkPSNYrm5CnGaUSgQZeeu3Y5FTR-uuuFyFc7pmUa-cwDqblWpznT0fKso2vLI5x75qIFiArqjyvumPZLcu9wuGQlfsZ4AlLJTO_agWKLMh3c9MZkfTKWYeObxc9th2kx_wIRHSA6R0n6XO_9qS35379pDy_JHJlXqc59jQGNcAq1r5obaDVMG9I44hVbTzSHhq0sj9FndVQY9c8soN4IEeM3FS6c1Tj7JZak0mvmBcWSw1xFnQ",
+          "thumbnail_path": "channels/sahamnewsorg/media/6e3b8ba87a6af1e31f2960ea.jpg",
+          "thumbnail_sha256": "4ea6fe3f4694ca9fb694e18f741684a5c3592c1951592e3b7323d206d9158cba",
+          "duration_label": "0:29",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "2.79K",
+      "posted_at": "2026-08-07T14:53:37+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/145696",
+      "reply": null
+    },
+    {
       "id": "sahamnewsorg/145695",
       "author_name": "سهام نیوز",
       "author_photo_url": "https://cdn1.telesco.pe/file/Z3u4qW8rFkm34s5z87hnsXaRkWvox6_-gHppTGhWEghPUhZcSXOZx3Mj_Oj6KqvQx6qidMMgxyRSKS_20NSKxJh5Ih4DjQY9GYFCG2Yd6Nzy2K7uYCkU6VjpcJ8j6OcvGkf5QkZCIrFshB2-MdmXyGdgIoV0PVlfNDKmmnLGiw6T9RQZgSzTdsXe2IytBzt3IF-PSEox8LbUflVai1VSYiNoWic6YegkGS4xw3Og-PSqBGgLp-9-6uTdaH5WZfy-DCnHt4zJpyShxuILGOkLXtUvmnpp7hdPPh8nPhM4edHNBEM71anhhf8RyBax9zImdoRGPTCMJPWQl8_zX9f4jw.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "✅صادرات نفت از خارک قطع شده و ۶۰درصد مخزن‌های نفتی پر شده‌اند- فایننشال‌تایمز خبر داده\n\nفایننشال تایمز، رسانه اقتصادی مشهور، گزارش داده به‌سبب محاصره دریایی علیه جمهوری اسلامی، یک هفته است صادرات نفت ایران متوقف شده و جزیره خارک زیر محاصره آمریکا بیکار مانده است‌.\n\nبنابر این گزارش، مخزن‌های نفت در خارک در حال پرشدن هستند؛ در محاصره اول، این مخزن‌ها تا ۹۰ درصد ظرفیت‌شان پُر شده و حالا بعد از کاهش به ۳۵ درصد در دوره اجرای تفاهم‌نامه، دوباره با آغاز محاصره دوم به ۶۰ درصد رسیده‌اند.\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "2.5K",
+      "views_label": "4.36K",
       "posted_at": "2026-08-07T14:49:25+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/145695",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "9.63K",
+      "views_label": "10.9K",
       "posted_at": "2026-08-07T14:29:46+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145694",
@@ -65,7 +93,7 @@
       "plain_text": "✅علی اکبری خطیب نماز جمعه تهران: افرادی برای حضور با پوشش‌های ناهنجار در عرصه اجتماعی، از خارج از کشور دلار و ارز دریافت می‌کنند\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "11.5K",
+      "views_label": "12.7K",
       "posted_at": "2026-08-07T14:23:45+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/145693",
@@ -93,7 +121,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "14K",
+      "views_label": "15.2K",
       "posted_at": "2026-08-07T14:15:04+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145692",
@@ -121,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "14.9K",
+      "views_label": "16.1K",
       "posted_at": "2026-08-07T14:12:14+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145691",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "17.4K",
+      "views_label": "18.7K",
       "posted_at": "2026-08-07T14:01:11+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145690",
@@ -165,7 +193,7 @@
       "plain_text": "✅علم‌الهدی: افرادی که می‌گویند جنگ را تمام کنید، بی‌عقل، مریض و منافق هستند\n\nامام جمعه مشهد: این آدم بی‌عقلی که می‌گوید آمریکا ۱۰ هزار دلار دارد و ما هزار دلار داریم، پس ما شکست خورده‌ایم، یا منافق است یا قلب مریضی دارد\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "19.3K",
+      "views_label": "20.2K",
       "posted_at": "2026-08-07T13:53:02+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/145689",
@@ -181,7 +209,7 @@
       "plain_text": "✅ترامپ: من نمی‌خواهم چین با استفاده از هوش مصنوعی پیروز شود.\n\nترامپ درباره هوش مصنوعی: این فناوری می‌تواند از نفت بزرگتر باشد.\n\nترامپ درباره هوش مصنوعی: هر کسی که در این زمینه پیروز شود، پیروز مطلق است.این آنقدر مهم است.\n\nترامپ: هوش مصنوعی \"بسیار بزرگتر از اینترنت\" است.\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "21.2K",
+      "views_label": "21.8K",
       "posted_at": "2026-08-07T13:44:37+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/145688",
@@ -197,7 +225,7 @@
       "plain_text": "✅حکومتی که به زیر زمین می‌خزد، فاصله چندانی با سقوط ندارد!\n\nزندگی در غار و تونل متعلق به گروههای چریکی است نه حکومت\n\n✍م. حسن زاده\nبزرگ‌ترین خطای یک  حکومت‌ِ اقتدارگرا، اشتباه گرفتن «بقا» با «اقتدار» است.\n\nمدت زمانی است ، مسئولین نظام جمهوری اسلامی با بافتن  آسمان، ریسمان درتلاشند  القا کنند  چون  رهبرانشان در اعماق زمین زنده هستند ،  حکومت نیز همچنان قدرتمند و برقرار است!\nدر حالی که این دو، هیچ ملازمه‌ای با یکدیگر ندارند.!\n\nاین ، سازمان ها وگروههای چریکی هستند که  برای زندگی در غار، تونل و مخفیگاهها ساخته شده اند ،\nدرحالیکه دولت ها،  اصولاًبرای حکمرانی بر روی زمین ساخته شده اند .\n\n. یک حکومت، با میلیونها شهروند  متشکل از شبکه‌ای عظیم از نهادهای سیاسی، اقتصادی ، بانکی ، اداری، امنیتی، اجتماعی و بهداشتی ودرمانی است،  که فلسفه وجودی آن، حضور آشکار و اعمال حاکمیت در برابر مردم و دشمن است؛ نه پنهان شدن در اعماق زمین.!\n\nآن روز که پناهگاه، جای کاخ ریاست، مرکز فرماندهی و نهادهای رسمی را بگیرد و رهبران یک کشور از بیم حمله، زندگی در تونل‌های بتنی را به حضور در صحنه حکمرانی ترجیح دهند، نمیتوان  این وضعیت را «استراتژی»یا دکترین امنیتی  نامید؛ این، اعلام ورشکستگی اقتدار وحکمرانی است.! پناهگاه، وسیله نجات جان است، نه ابزار اداره یک کشور.!\nهیچ دولت مقتدری با «فرهنگ اختفا»\nساخته نمی‌شود. دولتی که دیگر جرأت حضور در آسمان و زمین سرزمین خود را ندارد و بقای خود را در زیرِ چندین متر خاک وبتن جست‌وجو می‌کند، عملاً از جایگاه یک حکومت به سطح یک تشکیلات مخفی تنزل یافته است...\n\nتاریخ نیز بی‌رحمانه قضاوت می‌کند. تاریخ، عمق پناهگاه‌ها را ثبت نمی‌کند؛ عمق اقتدار واقعی و خدمات حکومت‌ها را ثبت می‌کند. هیچ ملتی به داشتن تونل‌های عمیق افتخار نمی‌کند؛ ملت‌ها به امنیت، آزادی، رفاه و توان دفاع از سرزمین خود افتخار می‌کنند.\nحکومتی که ناچار شود مرکز ثقل قدرت خود را از شهرها به تونل‌ها منتقل کند، شاید هنوز نفس بکشد، اما دیگر در قامت یک دولتِ ایستاده نیست.!\nاقتدار یعنی آن‌قدر بر آسمان و زمین سرزمین خود مسلط باشی که نیازی به پنهان شدن نداشته باشی.\nاگر روزی حاکمان، به جای ایستادن بر فراز سرزمین، از اعماق زمین فرمان صادر کنند، این نه تصویر قدرت، بلکه تصویر هراس است؛ نه نشانه اعتمادبه‌نفس، بلکه نشانه از دست رفتن ابتکار عمل است!\nو شاید تلخ‌ترین حقیقت این باشد: حکومتی که روی زمین دیگر احساس امنیت نمی‌کند، پیش از آنکه خاک سرزمینش را از دست بدهد، جایگاه سیاسی و روانی خود را باخته است.\nممکن است چنین حکومتی مدتی دیگر نیز به حیات خود ادامه دهد، اما آنچه ادامه یافته، «بقای فیزیکی» است، نه «اقتدار سیاسی».\nاز آن لحظه به بعد، هر متر که به عمق زمین فرو می‌رود، به همان اندازه از ارتفاع و هیبت سیاسی وسرمایه اجتماعی خود می‌کاهد و به سقوط نهایی خود نزدیک میشود:!!\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "40.2K",
+      "views_label": "40.8K",
       "posted_at": "2026-08-07T11:35:14+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145687",
@@ -213,7 +241,7 @@
       "plain_text": "✅العربیه:عربستان سعودی، ترکیه و پاکستان «توافق‌نامه دفاع مشترک مکه» را امضا کردند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "42.2K",
+      "views_label": "42.5K",
       "posted_at": "2026-08-07T10:46:26+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/145686",
@@ -238,7 +266,7 @@
       "plain_text": "✅مقام ارشد سعودی: سپاه، حوثی‌ها و شبه‌نظامیان عراقی در تدارک حمله به عربستان هستند\n\nیک منبع ارشد سعودی به «العربیه» گفته است چندین گزارش اطلاعاتی موثق از هماهنگی میان سپاه پاسداران، حوثی‌های یمن و شبه‌نظامیان نیابتی جمهوری اسلامی در عراق برای تدارک حملات علیه عربستان سعودی حکایت دارد.\n\nاین مقام سعودی این تحرکات را نشانه «تشدید خطرناک تنش‌ها» در منطقه توصیف کرده و گفته است چنین اقداماتی در شرایطی صورت می‌گیرد که کشورهای منطقه همچنان برای کاهش تنش و پیشبرد مسیرهای دیپلماتیک تلاش می‌کنند.\n\nبه گفته این منبع، ریاض همچنان از ابتکارهای کاهش تنش حمایت می‌کند و هم‌زمان نشانه‌های مثبتی نیز در روند مذاکرات مشاهده شده است؛ با این حال، گزارش‌های مربوط به هماهنگی سپاه و نیروهای نیابتی آن برای حمله به عربستان، نگرانی‌های امنیتی را به‌شدت افزایش داده است.\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "44.9K",
+      "views_label": "45.2K",
       "posted_at": "2026-08-07T10:17:19+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/145685",
@@ -266,7 +294,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "44.2K",
+      "views_label": "44.5K",
       "posted_at": "2026-08-07T10:11:59+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145684",
@@ -294,7 +322,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "44.7K",
+      "views_label": "45K",
       "posted_at": "2026-08-07T10:05:57+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145683",
@@ -310,7 +338,7 @@
       "plain_text": "✅جبهه اصلاحات خواستار بازنگری در اعلام جرم علیه منتقدان احکام اعدام شد\n\nجبهه اصلاحات ایران در نامه‌ای سرگشاده خطاب به رئیس قوه قضائیه، خواستار بازنگری در اطلاعیه دادستانی تهران درباره تعقیب منتقدان احکام اعدام و پرهیز از شتاب در اجرای مجازات‌های سالب حیات شد.\n\nدر این نامه تأکید شده است که نقد حقوقی و مدنی نباید با اقدام علیه امنیت کشور همسان تلقی شود و رعایت دادرسی عادلانه، برگزاری دادگاه علنی، دسترسی به وکیل مستقل و شفافیت در رسیدگی، لازمه تقویت اعتماد عمومی و انسجام ملی است.\n\nجبهه اصلاحات همچنین از قوه قضائیه خواسته است با احترام به حق نقد و دادخواهی و رعایت حقوق دفاعی متهمان، در جهت تقویت سرمایه اجتماعی و امنیت پایدار گام بردارد.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "44.7K",
+      "views_label": "45K",
       "posted_at": "2026-08-07T09:41:22+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/145682",
@@ -363,7 +391,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "54.1K",
+      "views_label": "54.4K",
       "posted_at": "2026-08-07T09:06:21+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145680",
@@ -391,7 +419,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "48.7K",
+      "views_label": "49K",
       "posted_at": "2026-08-07T08:49:45+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145679",
@@ -419,7 +447,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "47.4K",
+      "views_label": "47.7K",
       "posted_at": "2026-08-07T08:32:51+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145678",
@@ -447,7 +475,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "49.6K",
+      "views_label": "49.9K",
       "posted_at": "2026-08-07T08:04:13+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145677",
@@ -2354,22 +2382,6 @@
       "posted_at": "2026-08-05T08:57:07+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/145593",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/145592",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/YVbkIagSflXMuSrZrOONDahxVz-YIXg4fhGAZg8PvJCQND-jLu7v3iiLzXq0Xa6fqvHk8f3Ety7-8cNnAZzM-Z9TzIuS59vvNG5XOm8xS4OE3acKzGUAiPLUTxklsMq16l1bcAdeQB87PIYvvTQZ7ZSd14gYXlBeww4L3bjbAEjiDD1Z27DXFLyJmd8PknygMuZQ4dcQnpFFb0Qeo-MVUaBvrGxOHFfS3iP-B3u3TmJE5UeRCIwM3IYKYQ0fqmvBxuzfFM7qB1PwaTQtN-My0ozTEXlxRx4LUCQmezE9mG7l7XqYHfvJR1LK4rdF10v5fWUD8q-uDiMkyvUsgM4fKw.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/d6750f45c0dd1d7d7396e9de.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>حوثی‌ها: یک نفتکش سعودی را با موشک بالستیک در دریای سرخ هدف قرار دادیم</b><br><br>یحیی سریع، سخنگوی نیروهای مسلح یمن، مدعی شد نیروهای این کشور یک نفتکش سعودی به نام «وفا» را در شمال دریای سرخ و در نزدیکی منطقه ینبع هدف قرار داده‌اند.<br><br>او گفت این حمله با چند موشک بالستیک انجام شده و به گفته وی، موشک‌ها با دقت به هدف اصابت کرده‌اند.<br><br>سخنگوی حوثی‌ها همچنین ادعا کرد با این حمله، شمار نفتکش‌های سعودی هدف قرارگرفته از آغاز محاصره دریایی به ۸ فروند و تعداد نفتکش‌هایی که از تردد آن‌ها جلوگیری شده، به ۲۹ فروند رسیده است.<br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅حوثی‌ها: یک نفتکش سعودی را با موشک بالستیک در دریای سرخ هدف قرار دادیم\n\nیحیی سریع، سخنگوی نیروهای مسلح یمن، مدعی شد نیروهای این کشور یک نفتکش سعودی به نام «وفا» را در شمال دریای سرخ و در نزدیکی منطقه ینبع هدف قرار داده‌اند.\n\nاو گفت این حمله با چند موشک بالستیک انجام شده و به گفته وی، موشک‌ها با دقت به هدف اصابت کرده‌اند.\n\nسخنگوی حوثی‌ها همچنین ادعا کرد با این حمله، شمار نفتکش‌های سعودی هدف قرارگرفته از آغاز محاصره دریایی به ۸ فروند و تعداد نفتکش‌هایی که از تردد آن‌ها جلوگیری شده، به ۲۹ فروند رسیده است.\n@Sahamnewsorg",
-      "media": [],
-      "reactions": [],
-      "views_label": "47.5K",
-      "posted_at": "2026-08-05T08:29:12+00:00",
-      "edited": false,
-      "permalink": "https://t.me/sahamnewsorg/145592",
       "reply": null
     }
   ]
