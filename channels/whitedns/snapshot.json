@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-07T11:12:42.021Z",
+  "fetched_at": "2026-08-07T11:17:38.823Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,35 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1422",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/m48RsnDgY_xezfYgDOA_BBHP5hCI9K21T48wAxq6P__4crrUuTCgVfJ_TbdbnX4pIBFpULLKTfv0nWiWK5mbe64Ejayp16hFMTRJ6c0pOBUHRQmeVUPo3jBUK9_yRJx_WB3by-zAeF-lJz5avu4B0FY5K5_GagHuTmFCkSA9e0qW3GHWACQJRhLFwuDukrwPKOABIrQz0eaqMyXBEltX5Hj7c4M4MqOPUffdfRnENNJW4OgE8Wij9ZOaBfk71Fzwst3nVATgfA6PPxYS0el04ZQpXzMSw9Zm92yFgYHU-t37cMdMC6cThwfJ59Gq8sLqbGkvvkNoT0o7DFc5HRjodw.jpg",
+      "author_photo_path": "channels/whitedns/media/3e3eafce9a247a1a5be72f42.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B5.png')\"><b>🔵</b></i> WhiteVPN Desktop — نسخه ۱.۰.۱۲<br>      *stable *<br><br>از نسخه ۱.۰.۴ تا حالا تغییرات زیادی انجام  شده. <br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9493.png')\"><b>🔓</b></i> اشتراک‌هایی که باز نمی‌شدند، حالا باز می‌شوند<br><br>مهم‌ترین تغییر همین است. روی بعضی شبکه‌ها، اشتراک اصلاً دریافت نمی‌شد و خطای مبهمی دربارهٔ TLS می‌داد.<br><br>دلیلش این بود: نام سایت در اولین بستهٔ ارتباط بدون رمز فرستاده می‌شود. فیلترینگ همان یک بسته را می‌خواند و ارتباط را قطع می‌کند — قبل از اینکه اصلاً چیزی رد و بدل شود.<br><br>حالا آن اولین بسته به قطعه‌های کوچک شکسته می‌شود، طوری که هیچ قطعه‌ای نام کامل را در خود ندارد. سرور همان چیزی را دریافت می‌کند که همیشه، ولی دیگر چیزی برای تطبیق باقی نمی‌ماند.<br><br>این کار فقط وقتی انجام می‌شود که مسیر عادی شکست بخورد، پس روی شبکهٔ سالم هیچ کندی‌ای ندارید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i> اشتراک‌ها خودشان به‌روز می‌شوند<br>اگر اشتراکی روی شبکهٔ شما باز نشود، فقط وصل شوید — اپ خودش آن را از داخل تونل دوباره می‌گیرد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> گزینه برای اشتراک‌هایی که گواهی‌شان تأیید نمی‌شود<br>روی بعضی شبکه‌ها چیزی وسط راه گواهی خودش را جای گواهی سرور می‌دهد. برای این حالت گزینهٔ «دریافت بدون بررسی گواهی» اضافه شده — فقط برای همان یک اشتراک، و فقط وقتی نشان داده می‌شود که واقعاً به کار بیاید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> توضیحش را حتماً بخوانید: نشانی اشتراک کلید حساب شماست.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9494.png')\"><b>🔔</b></i> اطلاع از نسخه‌های جدید<br>اپ خودش بررسی می‌کند که نسخهٔ تازه‌تری منتشر شده یا نه و به شما اطلاع می‌دهد. دیگر لازم نیست دستی سر بزنید.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> تنظیماتی که حالا واقعاً کار می‌کنند<br><br>چند تنظیم بودند که ذخیره می‌شدند ولی هیچ اثری نداشتند. همه درست شدند:<br><br>• Split Tunneling — اپلیکیشنی که کنار می‌گذاشتید واقعاً از تونل خارج می‌شود<br>• بررسی سلامت TLS — اتصالی که در آن دخالت شده باشد رد می‌شود<br>• نویز اتصال (Amnezia) — روی اتصال‌های WireGuard اعمال می‌شود<br>• پراکسی سیستم روی لینوکس — روی GNOME و KDE تنظیم می‌شود<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> حریم خصوصی و امنیت<br><br>• نشانی اشتراک دیگر در پیام خطا نمایش داده نمی‌شود. قبلاً اگر از صفحهٔ خطا اسکرین‌شات می‌گرفتید، کلید حسابتان هم در آن بود.<br>• روی ویندوز دیگر دسترسی Administrator نمی‌خواهد، مگر برای حالت تونل.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i> رفع اشکال<br><br>• پنجرهٔ مشکی PowerShell که هنگام اتصال در حالت TUN باز و بسته می‌شد<br>• نشتی DNS در حالت TUN<br>• در نصب تازه، لیست سرورها خالی نمایش داده می‌شد<br>• گزینهٔ پاک کردن اطلاعات برنامه و بازگشت به حالت اولیه در تنظیمات<br>• پیام‌های خطا حالا می‌گویند دقیقاً چه کاری باید بکنید<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود برای ویندوز، مک و لینوکس:<br><a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.12\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.12</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🔵 WhiteVPN Desktop — نسخه ۱.۰.۱۲\n*stable *\n\nاز نسخه ۱.۰.۴ تا حالا تغییرات زیادی انجام شده.\n\n━━━━━━━━━━━━━━━\n\n🔓 اشتراک‌هایی که باز نمی‌شدند، حالا باز می‌شوند\n\nمهم‌ترین تغییر همین است. روی بعضی شبکه‌ها، اشتراک اصلاً دریافت نمی‌شد و خطای مبهمی دربارهٔ TLS می‌داد.\n\nدلیلش این بود: نام سایت در اولین بستهٔ ارتباط بدون رمز فرستاده می‌شود. فیلترینگ همان یک بسته را می‌خواند و ارتباط را قطع می‌کند — قبل از اینکه اصلاً چیزی رد و بدل شود.\n\nحالا آن اولین بسته به قطعه‌های کوچک شکسته می‌شود، طوری که هیچ قطعه‌ای نام کامل را در خود ندارد. سرور همان چیزی را دریافت می‌کند که همیشه، ولی دیگر چیزی برای تطبیق باقی نمی‌ماند.\n\nاین کار فقط وقتی انجام می‌شود که مسیر عادی شکست بخورد، پس روی شبکهٔ سالم هیچ کندی‌ای ندارید.\n\n🔄 اشتراک‌ها خودشان به‌روز می‌شوند\nاگر اشتراکی روی شبکهٔ شما باز نشود، فقط وصل شوید — اپ خودش آن را از داخل تونل دوباره می‌گیرد.\n\n🔐 گزینه برای اشتراک‌هایی که گواهی‌شان تأیید نمی‌شود\nروی بعضی شبکه‌ها چیزی وسط راه گواهی خودش را جای گواهی سرور می‌دهد. برای این حالت گزینهٔ «دریافت بدون بررسی گواهی» اضافه شده — فقط برای همان یک اشتراک، و فقط وقتی نشان داده می‌شود که واقعاً به کار بیاید.\n⚠️ توضیحش را حتماً بخوانید: نشانی اشتراک کلید حساب شماست.\n\n━━━━━━━━━━━━━━━\n\n🔔 اطلاع از نسخه‌های جدید\nاپ خودش بررسی می‌کند که نسخهٔ تازه‌تری منتشر شده یا نه و به شما اطلاع می‌دهد. دیگر لازم نیست دستی سر بزنید.\n\n━━━━━━━━━━━━━━━\n\n⚙️ تنظیماتی که حالا واقعاً کار می‌کنند\n\nچند تنظیم بودند که ذخیره می‌شدند ولی هیچ اثری نداشتند. همه درست شدند:\n\n• Split Tunneling — اپلیکیشنی که کنار می‌گذاشتید واقعاً از تونل خارج می‌شود\n• بررسی سلامت TLS — اتصالی که در آن دخالت شده باشد رد می‌شود\n• نویز اتصال (Amnezia) — روی اتصال‌های WireGuard اعمال می‌شود\n• پراکسی سیستم روی لینوکس — روی GNOME و KDE تنظیم می‌شود\n\n━━━━━━━━━━━━━━━\n\n🛡 حریم خصوصی و امنیت\n\n• نشانی اشتراک دیگر در پیام خطا نمایش داده نمی‌شود. قبلاً اگر از صفحهٔ خطا اسکرین‌شات می‌گرفتید، کلید حسابتان هم در آن بود.\n• روی ویندوز دیگر دسترسی Administrator نمی‌خواهد، مگر برای حالت تونل.\n\n━━━━━━━━━━━━━━━\n\n🐞 رفع اشکال\n\n• پنجرهٔ مشکی PowerShell که هنگام اتصال در حالت TUN باز و بسته می‌شد\n• نشتی DNS در حالت TUN\n• در نصب تازه، لیست سرورها خالی نمایش داده می‌شد\n• گزینهٔ پاک کردن اطلاعات برنامه و بازگشت به حالت اولیه در تنظیمات\n• پیام‌های خطا حالا می‌گویند دقیقاً چه کاری باید بکنید\n\n━━━━━━━━━━━━━━━\n\n📥 دانلود برای ویندوز، مک و لینوکس:\nhttps://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.12\n\n@whitedns",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤‍🔥",
+          "count": "7"
+        },
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "346",
+      "posted_at": "2026-08-07T11:15:29+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1422",
+      "reply": null
+    },
     {
       "id": "whitedns/1421",
       "author_name": "White DNS",
@@ -80,7 +109,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "78"
+          "count": "81"
         },
         {
           "emoji": "❤‍🔥",
@@ -99,7 +128,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.02K",
+      "views_label": "1.05K",
       "posted_at": "2026-08-07T08:23:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1420",
@@ -148,7 +177,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.98K",
+      "views_label": "10.1K",
       "posted_at": "2026-08-07T02:27:41+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1419",
@@ -213,7 +242,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30K",
+      "views_label": "30.3K",
       "posted_at": "2026-08-06T22:24:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1418",
@@ -278,7 +307,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.1K",
+      "views_label": "14.2K",
       "posted_at": "2026-08-06T16:08:34+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1416",
@@ -416,7 +445,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.5K",
+      "views_label": "13.6K",
       "posted_at": "2026-08-06T07:38:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1414",
@@ -469,7 +498,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.5K",
+      "views_label": "13.6K",
       "posted_at": "2026-08-06T07:34:35+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1413",
@@ -1078,7 +1107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.3K",
+      "views_label": "19.4K",
       "posted_at": "2026-08-04T12:52:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1401",
@@ -1225,7 +1254,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.1K",
+      "views_label": "25.2K",
       "posted_at": "2026-08-03T09:06:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1398",
@@ -1400,7 +1429,7 @@
           "count": "1"
         }
       ],
-      "views_label": "45.6K",
+      "views_label": "45.7K",
       "posted_at": "2026-08-03T05:07:05+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1394",
@@ -5051,39 +5080,6 @@
       "posted_at": "2026-07-23T11:23:12+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1284",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1283",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/CegKwSmdQGwMhFdnqdyuPRorwxAFhE8fx1aazz0gRLi3k-rWeYapnCCOivRfIUrb4gZnycMro1ptniHyWY2Efru6-G1VUOxOO2yZMs0J401DvdFe4RA7M2NoZcHntjD2ELPX7mOKL-o466QXKVC0W8sakLiWK_LB8MKsvXGb4w8hLnWH9FRAsfLGTZDQ98Fq1NL0GriDQ5Ys-UKp0CXMznrDxwbzyLQKaOnHWdZ7IKCseAEf7qZXQP2WZPkGWlJ5VUkIuWCMZe-WScJE9uO1tp9Yi5uT5P2N-7Cuddm2WlzZ8auSfdcoCEvNNLKcc0jWmqxfrB6fvozK2Oyiur-hJg.jpg",
-      "author_photo_path": "channels/whitedns/media/b6b7a8665ab448795ba7360f.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "یک ظرفیت جدید برای تست فلایت داریم که میتونید از لینک زیر استفاده کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i><br><br>اپ  CoreForge  یک فیلترشکن ساده و قدرتمند برای iOS / آیفون که مخصوص استفاده در شرایط سخت، اختلال شدید اینترنت، اینترنت ملی و حتی دوران قطعی کامل طراحی شده.<br><br><a href=\"https://testflight.apple.com/join/3htm1Whc\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://testflight.apple.com/join/3htm1Whc</a><br><br>آموزش <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA5.png')\"><b>🎥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B9.png')\"><b>📹</b></i>:<br><a href=\"https://www.youtube.com/watch?v=filwdiPKN90\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://www.youtube.com/watch?v=filwdiPKN90</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A2.png')\"><b>📢</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i>",
-      "plain_text": "یک ظرفیت جدید برای تست فلایت داریم که میتونید از لینک زیر استفاده کنید 🚀📱\n\nاپ CoreForge یک فیلترشکن ساده و قدرتمند برای iOS / آیفون که مخصوص استفاده در شرایط سخت، اختلال شدید اینترنت، اینترنت ملی و حتی دوران قطعی کامل طراحی شده.\n\nhttps://testflight.apple.com/join/3htm1Whc\n\nآموزش 🎥📹:\nhttps://www.youtube.com/watch?v=filwdiPKN90\n\n@whitedns 📢🔗",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "68"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "14.7K",
-      "posted_at": "2026-07-23T08:59:52+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1283",
       "reply": null
     }
   ]
