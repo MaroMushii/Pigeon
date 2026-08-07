@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-07T11:17:38.823Z",
+  "fetched_at": "2026-08-07T11:22:01.491Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -17,24 +17,24 @@
       "author_photo_url": "https://cdn5.telesco.pe/file/m48RsnDgY_xezfYgDOA_BBHP5hCI9K21T48wAxq6P__4crrUuTCgVfJ_TbdbnX4pIBFpULLKTfv0nWiWK5mbe64Ejayp16hFMTRJ6c0pOBUHRQmeVUPo3jBUK9_yRJx_WB3by-zAeF-lJz5avu4B0FY5K5_GagHuTmFCkSA9e0qW3GHWACQJRhLFwuDukrwPKOABIrQz0eaqMyXBEltX5Hj7c4M4MqOPUffdfRnENNJW4OgE8Wij9ZOaBfk71Fzwst3nVATgfA6PPxYS0el04ZQpXzMSw9Zm92yFgYHU-t37cMdMC6cThwfJ59Gq8sLqbGkvvkNoT0o7DFc5HRjodw.jpg",
       "author_photo_path": "channels/whitedns/media/3e3eafce9a247a1a5be72f42.jpg",
       "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B5.png')\"><b>🔵</b></i> WhiteVPN Desktop — نسخه ۱.۰.۱۲<br>      *stable *<br><br>از نسخه ۱.۰.۴ تا حالا تغییرات زیادی انجام  شده. <br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9493.png')\"><b>🔓</b></i> اشتراک‌هایی که باز نمی‌شدند، حالا باز می‌شوند<br><br>مهم‌ترین تغییر همین است. روی بعضی شبکه‌ها، اشتراک اصلاً دریافت نمی‌شد و خطای مبهمی دربارهٔ TLS می‌داد.<br><br>دلیلش این بود: نام سایت در اولین بستهٔ ارتباط بدون رمز فرستاده می‌شود. فیلترینگ همان یک بسته را می‌خواند و ارتباط را قطع می‌کند — قبل از اینکه اصلاً چیزی رد و بدل شود.<br><br>حالا آن اولین بسته به قطعه‌های کوچک شکسته می‌شود، طوری که هیچ قطعه‌ای نام کامل را در خود ندارد. سرور همان چیزی را دریافت می‌کند که همیشه، ولی دیگر چیزی برای تطبیق باقی نمی‌ماند.<br><br>این کار فقط وقتی انجام می‌شود که مسیر عادی شکست بخورد، پس روی شبکهٔ سالم هیچ کندی‌ای ندارید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i> اشتراک‌ها خودشان به‌روز می‌شوند<br>اگر اشتراکی روی شبکهٔ شما باز نشود، فقط وصل شوید — اپ خودش آن را از داخل تونل دوباره می‌گیرد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> گزینه برای اشتراک‌هایی که گواهی‌شان تأیید نمی‌شود<br>روی بعضی شبکه‌ها چیزی وسط راه گواهی خودش را جای گواهی سرور می‌دهد. برای این حالت گزینهٔ «دریافت بدون بررسی گواهی» اضافه شده — فقط برای همان یک اشتراک، و فقط وقتی نشان داده می‌شود که واقعاً به کار بیاید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> توضیحش را حتماً بخوانید: نشانی اشتراک کلید حساب شماست.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9494.png')\"><b>🔔</b></i> اطلاع از نسخه‌های جدید<br>اپ خودش بررسی می‌کند که نسخهٔ تازه‌تری منتشر شده یا نه و به شما اطلاع می‌دهد. دیگر لازم نیست دستی سر بزنید.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> تنظیماتی که حالا واقعاً کار می‌کنند<br><br>چند تنظیم بودند که ذخیره می‌شدند ولی هیچ اثری نداشتند. همه درست شدند:<br><br>• Split Tunneling — اپلیکیشنی که کنار می‌گذاشتید واقعاً از تونل خارج می‌شود<br>• بررسی سلامت TLS — اتصالی که در آن دخالت شده باشد رد می‌شود<br>• نویز اتصال (Amnezia) — روی اتصال‌های WireGuard اعمال می‌شود<br>• پراکسی سیستم روی لینوکس — روی GNOME و KDE تنظیم می‌شود<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> حریم خصوصی و امنیت<br><br>• نشانی اشتراک دیگر در پیام خطا نمایش داده نمی‌شود. قبلاً اگر از صفحهٔ خطا اسکرین‌شات می‌گرفتید، کلید حسابتان هم در آن بود.<br>• روی ویندوز دیگر دسترسی Administrator نمی‌خواهد، مگر برای حالت تونل.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i> رفع اشکال<br><br>• پنجرهٔ مشکی PowerShell که هنگام اتصال در حالت TUN باز و بسته می‌شد<br>• نشتی DNS در حالت TUN<br>• در نصب تازه، لیست سرورها خالی نمایش داده می‌شد<br>• گزینهٔ پاک کردن اطلاعات برنامه و بازگشت به حالت اولیه در تنظیمات<br>• پیام‌های خطا حالا می‌گویند دقیقاً چه کاری باید بکنید<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود برای ویندوز، مک و لینوکس:<br><a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.12\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.12</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🔵 WhiteVPN Desktop — نسخه ۱.۰.۱۲\n*stable *\n\nاز نسخه ۱.۰.۴ تا حالا تغییرات زیادی انجام شده.\n\n━━━━━━━━━━━━━━━\n\n🔓 اشتراک‌هایی که باز نمی‌شدند، حالا باز می‌شوند\n\nمهم‌ترین تغییر همین است. روی بعضی شبکه‌ها، اشتراک اصلاً دریافت نمی‌شد و خطای مبهمی دربارهٔ TLS می‌داد.\n\nدلیلش این بود: نام سایت در اولین بستهٔ ارتباط بدون رمز فرستاده می‌شود. فیلترینگ همان یک بسته را می‌خواند و ارتباط را قطع می‌کند — قبل از اینکه اصلاً چیزی رد و بدل شود.\n\nحالا آن اولین بسته به قطعه‌های کوچک شکسته می‌شود، طوری که هیچ قطعه‌ای نام کامل را در خود ندارد. سرور همان چیزی را دریافت می‌کند که همیشه، ولی دیگر چیزی برای تطبیق باقی نمی‌ماند.\n\nاین کار فقط وقتی انجام می‌شود که مسیر عادی شکست بخورد، پس روی شبکهٔ سالم هیچ کندی‌ای ندارید.\n\n🔄 اشتراک‌ها خودشان به‌روز می‌شوند\nاگر اشتراکی روی شبکهٔ شما باز نشود، فقط وصل شوید — اپ خودش آن را از داخل تونل دوباره می‌گیرد.\n\n🔐 گزینه برای اشتراک‌هایی که گواهی‌شان تأیید نمی‌شود\nروی بعضی شبکه‌ها چیزی وسط راه گواهی خودش را جای گواهی سرور می‌دهد. برای این حالت گزینهٔ «دریافت بدون بررسی گواهی» اضافه شده — فقط برای همان یک اشتراک، و فقط وقتی نشان داده می‌شود که واقعاً به کار بیاید.\n⚠️ توضیحش را حتماً بخوانید: نشانی اشتراک کلید حساب شماست.\n\n━━━━━━━━━━━━━━━\n\n🔔 اطلاع از نسخه‌های جدید\nاپ خودش بررسی می‌کند که نسخهٔ تازه‌تری منتشر شده یا نه و به شما اطلاع می‌دهد. دیگر لازم نیست دستی سر بزنید.\n\n━━━━━━━━━━━━━━━\n\n⚙️ تنظیماتی که حالا واقعاً کار می‌کنند\n\nچند تنظیم بودند که ذخیره می‌شدند ولی هیچ اثری نداشتند. همه درست شدند:\n\n• Split Tunneling — اپلیکیشنی که کنار می‌گذاشتید واقعاً از تونل خارج می‌شود\n• بررسی سلامت TLS — اتصالی که در آن دخالت شده باشد رد می‌شود\n• نویز اتصال (Amnezia) — روی اتصال‌های WireGuard اعمال می‌شود\n• پراکسی سیستم روی لینوکس — روی GNOME و KDE تنظیم می‌شود\n\n━━━━━━━━━━━━━━━\n\n🛡 حریم خصوصی و امنیت\n\n• نشانی اشتراک دیگر در پیام خطا نمایش داده نمی‌شود. قبلاً اگر از صفحهٔ خطا اسکرین‌شات می‌گرفتید، کلید حسابتان هم در آن بود.\n• روی ویندوز دیگر دسترسی Administrator نمی‌خواهد، مگر برای حالت تونل.\n\n━━━━━━━━━━━━━━━\n\n🐞 رفع اشکال\n\n• پنجرهٔ مشکی PowerShell که هنگام اتصال در حالت TUN باز و بسته می‌شد\n• نشتی DNS در حالت TUN\n• در نصب تازه، لیست سرورها خالی نمایش داده می‌شد\n• گزینهٔ پاک کردن اطلاعات برنامه و بازگشت به حالت اولیه در تنظیمات\n• پیام‌های خطا حالا می‌گویند دقیقاً چه کاری باید بکنید\n\n━━━━━━━━━━━━━━━\n\n📥 دانلود برای ویندوز، مک و لینوکس:\nhttps://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.12\n\n@whitedns",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B5.png')\"><b>🔵</b></i> WhiteVPN Desktop —نسخه 1.0.12<br>      *stable * <tg-emoji emoji-id=\"6017356590238143173\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948B.png')\"><b>🔋</b></i></tg-emoji><br><br>از نسخه ۱.۰.۴ تا حالا تغییرات زیادی انجام  شده. <br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9493.png')\"><b>🔓</b></i> اشتراک‌هایی که باز نمی‌شدند، حالا باز می‌شوند<br><br>مهم‌ترین تغییر همین است. روی بعضی شبکه‌ها، اشتراک اصلاً دریافت نمی‌شد و خطای مبهمی دربارهٔ TLS می‌داد.<br><br>دلیلش این بود: نام سایت در اولین بستهٔ ارتباط بدون رمز فرستاده می‌شود. فیلترینگ همان یک بسته را می‌خواند و ارتباط را قطع می‌کند — قبل از اینکه اصلاً چیزی رد و بدل شود.<br><br>حالا آن اولین بسته به قطعه‌های کوچک شکسته می‌شود، طوری که هیچ قطعه‌ای نام کامل را در خود ندارد. سرور همان چیزی را دریافت می‌کند که همیشه، ولی دیگر چیزی برای تطبیق باقی نمی‌ماند.<br><br>این کار فقط وقتی انجام می‌شود که مسیر عادی شکست بخورد، پس روی شبکهٔ سالم هیچ کندی‌ای ندارید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i> اشتراک‌ها خودشان به‌روز می‌شوند<br>اگر اشتراکی روی شبکهٔ شما باز نشود، فقط وصل شوید — اپ خودش آن را از داخل تونل دوباره می‌گیرد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> گزینه برای اشتراک‌هایی که گواهی‌شان تأیید نمی‌شود<br>روی بعضی شبکه‌ها چیزی وسط راه گواهی خودش را جای گواهی سرور می‌دهد. برای این حالت گزینهٔ «دریافت بدون بررسی گواهی» اضافه شده — فقط برای همان یک اشتراک، و فقط وقتی نشان داده می‌شود که واقعاً به کار بیاید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> توضیحش را حتماً بخوانید: نشانی اشتراک کلید حساب شماست.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9494.png')\"><b>🔔</b></i> اطلاع از نسخه‌های جدید<br>اپ خودش بررسی می‌کند که نسخهٔ تازه‌تری منتشر شده یا نه و به شما اطلاع می‌دهد. دیگر لازم نیست دستی سر بزنید.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> تنظیماتی که حالا واقعاً کار می‌کنند<br><br>چند تنظیم بودند که ذخیره می‌شدند ولی هیچ اثری نداشتند. همه درست شدند:<br><br>• Split Tunneling — <br>اپلیکیشنی که کنار می‌گذاشتید واقعاً از تونل خارج می‌شود<br><br>• بررسی سلامت TLS — اتصالی که در آن دخالت شده باشد رد می‌شود<br><br>• نویز اتصال (Amnezia) — روی اتصال‌های WireGuard اعمال می‌شود<br><br>• پراکسی سیستم روی لینوکس — روی GNOME و KDE تنظیم می‌شود<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> حریم خصوصی و امنیت<br><br>• نشانی اشتراک دیگر در پیام خطا نمایش داده نمی‌شود. قبلاً اگر از صفحهٔ خطا اسکرین‌شات می‌گرفتید، کلید حسابتان هم در آن بود.<br>• روی ویندوز دیگر دسترسی Administrator نمی‌خواهد، مگر برای حالت تونل.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i> رفع اشکال<br><br>• پنجرهٔ مشکی PowerShell که هنگام اتصال در حالت TUN باز و بسته می‌شد<br>• نشتی DNS در حالت TUN<br>• در نصب تازه، لیست سرورها خالی نمایش داده می‌شد<br>• گزینهٔ پاک کردن اطلاعات برنامه و بازگشت به حالت اولیه در تنظیمات<br>• پیام‌های خطا حالا می‌گویند دقیقاً چه کاری باید بکنید<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود برای ویندوز، مک و لینوکس:<br><a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.12\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.12</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🔵 WhiteVPN Desktop —نسخه 1.0.12\n*stable * 🔋\n\nاز نسخه ۱.۰.۴ تا حالا تغییرات زیادی انجام شده.\n\n━━━━━━━━━━━━━━━\n\n🔓 اشتراک‌هایی که باز نمی‌شدند، حالا باز می‌شوند\n\nمهم‌ترین تغییر همین است. روی بعضی شبکه‌ها، اشتراک اصلاً دریافت نمی‌شد و خطای مبهمی دربارهٔ TLS می‌داد.\n\nدلیلش این بود: نام سایت در اولین بستهٔ ارتباط بدون رمز فرستاده می‌شود. فیلترینگ همان یک بسته را می‌خواند و ارتباط را قطع می‌کند — قبل از اینکه اصلاً چیزی رد و بدل شود.\n\nحالا آن اولین بسته به قطعه‌های کوچک شکسته می‌شود، طوری که هیچ قطعه‌ای نام کامل را در خود ندارد. سرور همان چیزی را دریافت می‌کند که همیشه، ولی دیگر چیزی برای تطبیق باقی نمی‌ماند.\n\nاین کار فقط وقتی انجام می‌شود که مسیر عادی شکست بخورد، پس روی شبکهٔ سالم هیچ کندی‌ای ندارید.\n\n🔄 اشتراک‌ها خودشان به‌روز می‌شوند\nاگر اشتراکی روی شبکهٔ شما باز نشود، فقط وصل شوید — اپ خودش آن را از داخل تونل دوباره می‌گیرد.\n\n🔐 گزینه برای اشتراک‌هایی که گواهی‌شان تأیید نمی‌شود\nروی بعضی شبکه‌ها چیزی وسط راه گواهی خودش را جای گواهی سرور می‌دهد. برای این حالت گزینهٔ «دریافت بدون بررسی گواهی» اضافه شده — فقط برای همان یک اشتراک، و فقط وقتی نشان داده می‌شود که واقعاً به کار بیاید.\n⚠️ توضیحش را حتماً بخوانید: نشانی اشتراک کلید حساب شماست.\n\n━━━━━━━━━━━━━━━\n\n🔔 اطلاع از نسخه‌های جدید\nاپ خودش بررسی می‌کند که نسخهٔ تازه‌تری منتشر شده یا نه و به شما اطلاع می‌دهد. دیگر لازم نیست دستی سر بزنید.\n\n━━━━━━━━━━━━━━━\n\n⚙️ تنظیماتی که حالا واقعاً کار می‌کنند\n\nچند تنظیم بودند که ذخیره می‌شدند ولی هیچ اثری نداشتند. همه درست شدند:\n\n• Split Tunneling —\nاپلیکیشنی که کنار می‌گذاشتید واقعاً از تونل خارج می‌شود\n\n• بررسی سلامت TLS — اتصالی که در آن دخالت شده باشد رد می‌شود\n\n• نویز اتصال (Amnezia) — روی اتصال‌های WireGuard اعمال می‌شود\n\n• پراکسی سیستم روی لینوکس — روی GNOME و KDE تنظیم می‌شود\n\n━━━━━━━━━━━━━━━\n\n🛡 حریم خصوصی و امنیت\n\n• نشانی اشتراک دیگر در پیام خطا نمایش داده نمی‌شود. قبلاً اگر از صفحهٔ خطا اسکرین‌شات می‌گرفتید، کلید حسابتان هم در آن بود.\n• روی ویندوز دیگر دسترسی Administrator نمی‌خواهد، مگر برای حالت تونل.\n\n━━━━━━━━━━━━━━━\n\n🐞 رفع اشکال\n\n• پنجرهٔ مشکی PowerShell که هنگام اتصال در حالت TUN باز و بسته می‌شد\n• نشتی DNS در حالت TUN\n• در نصب تازه، لیست سرورها خالی نمایش داده می‌شد\n• گزینهٔ پاک کردن اطلاعات برنامه و بازگشت به حالت اولیه در تنظیمات\n• پیام‌های خطا حالا می‌گویند دقیقاً چه کاری باید بکنید\n\n━━━━━━━━━━━━━━━\n\n📥 دانلود برای ویندوز، مک و لینوکس:\nhttps://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.12\n\n@whitedns",
       "media": [],
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "7"
+          "count": "13"
         },
         {
           "emoji": "❤",
-          "count": "2"
+          "count": "4"
         },
         {
           "emoji": "👍",
-          "count": "2"
+          "count": "3"
         }
       ],
-      "views_label": "346",
+      "views_label": "872",
       "posted_at": "2026-08-07T11:15:29+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1422",
@@ -128,7 +128,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.05K",
+      "views_label": "1.12K",
       "posted_at": "2026-08-07T08:23:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1420",
@@ -177,7 +177,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.1K",
+      "views_label": "10.2K",
       "posted_at": "2026-08-07T02:27:41+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1419",
@@ -242,7 +242,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.3K",
+      "views_label": "30.5K",
       "posted_at": "2026-08-06T22:24:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1418",
@@ -327,8 +327,8 @@
           "asset_url": "https://t.me/whitedns/1415",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/J_fiKPxX4ZKLs7QTnvK3BoA6jl1atSpx_vtaO9ddUzpMKzab0DRj1nlKqWsyZdZ7cqH-cx56Q6_iqSN_pD98zMjZ0XsHo3N-TXhAnRq_jMwMXqNjryA29miItceAa9_RVgmS2GDZuAJl4BwcBAFkjYCu9xdhreEb0uBi4Tn8yQc6duMGVxMMgTIQASxmMG5C3vKXTAz83Y9-NCKolvN9zCYU0lOmsDpBxJh0CnKl8yTrzIb8A9s2MP0IA9Qm1eYHosZdxisSuxSUJ4WA3qO51ZuKrSmvna1PvNKxcCQv7tNatItnCNGEblGSQ4aOxxhV49M3rV1EU90u28Mj7RIAuA.jpg",
-          "thumbnail_path": "channels/whitedns/media/0c307bf0c7a8389932ee3cc7.jpg",
+          "thumbnail_url": "https://cdn5.telesco.pe/file/BKQ335SX7mJP6OuDKKn1X4_7KbhLE2wFiNuDxTBFjtWWg13L8Du73wvK4janMoodEBbeWQegvliCMBvRfBaYqj53juf588OCgpEwMvIX08VfRsxtRFCrVCSp74h6rL--yJliwdE_WCDqqAEpJXprmQ6Qtvnl4yEUHT3XHs5WKphp_hziDs3erCmLnlKXkTyJkL0PcCOAWuR5faOi8uIdZgws8WloXc_33WlfQisBBmyIzHJuiQ99OIvriVTxdKIgKd2F2GgPNniPHSlDB44oTwIWMQuvjA3-iCQNCeMc2bUNuyS3pq6TjOqaHhW9215RWnxUJrH3H-7AZVznwGWieA.jpg",
+          "thumbnail_path": "channels/whitedns/media/6e83bdab490c746224ccff67.jpg",
           "thumbnail_sha256": "ba2bc69916d99b950d97183283818aef448afa5a53971f40abccf1f85dc298ac",
           "duration_label": null,
           "aspect_ratio": 1.873536299765808
@@ -559,7 +559,7 @@
           "count": "2"
         }
       ],
-      "views_label": "12.3K",
+      "views_label": "12.4K",
       "posted_at": "2026-08-06T05:43:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1412",
@@ -593,7 +593,7 @@
         },
         {
           "emoji": "❤",
-          "count": "406"
+          "count": "407"
         },
         {
           "emoji": "❤‍🔥",
@@ -972,7 +972,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.7K",
+      "views_label": "14.8K",
       "posted_at": "2026-08-05T12:17:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1403",
@@ -1033,7 +1033,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17K",
+      "views_label": "17.1K",
       "posted_at": "2026-08-05T11:36:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1402",
@@ -1211,7 +1211,7 @@
         },
         {
           "emoji": "❤",
-          "count": "677"
+          "count": "678"
         },
         {
           "emoji": "🔥",
@@ -1380,7 +1380,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.2K",
+      "views_label": "24.3K",
       "posted_at": "2026-08-03T07:09:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1395",
