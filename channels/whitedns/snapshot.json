@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-07T02:27:28.247Z",
+  "fetched_at": "2026-08-07T02:32:16.934Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,27 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1419",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/m48RsnDgY_xezfYgDOA_BBHP5hCI9K21T48wAxq6P__4crrUuTCgVfJ_TbdbnX4pIBFpULLKTfv0nWiWK5mbe64Ejayp16hFMTRJ6c0pOBUHRQmeVUPo3jBUK9_yRJx_WB3by-zAeF-lJz5avu4B0FY5K5_GagHuTmFCkSA9e0qW3GHWACQJRhLFwuDukrwPKOABIrQz0eaqMyXBEltX5Hj7c4M4MqOPUffdfRnENNJW4OgE8Wij9ZOaBfk71Fzwst3nVATgfA6PPxYS0el04ZQpXzMSw9Zm92yFgYHU-t37cMdMC6cThwfJ59Gq8sLqbGkvvkNoT0o7DFc5HRjodw.jpg",
+      "author_photo_path": "channels/whitedns/media/3e3eafce9a247a1a5be72f42.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i> <b>WhiteVPN Desktop نسخهٔ ۱.۰.۴ منتشر شد</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i><br><br><b>۱. رفع نشتی DNS در حالت تونل — مهم‌ترین تغییر این نسخه</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i><br><br>در نسخه‌های قبلی، وقتی روی حالت <b>TUN</b> وصل می‌شدید، خودِ ترافیک از تونل عبور می‌کرد — ولی درخواست‌های <b>DNS</b> از تونل بیرون می‌رفتند و مستقیم به مودم یا سرویس‌دهندهٔ اینترنت شما می‌رسیدند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i><br><br>یعنی محتوای ارتباط شما محافظت می‌شد، اما <b>فهرست سایت‌هایی که باز می‌کردید برای ISP قابل دیدن بود</b>. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9180.png')\"><b>👀</b></i><br><br>علت پیدا و برطرف شد. حالت پراکسی هیچ‌وقت این مشکل را نداشت. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> اگر از حالت TUN استفاده می‌کنید، حتماً بروزرسانی کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i><br><br><b>۲. صفحهٔ Servers</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i><br><br>• <b>انتخاب همه</b> اضافه شد <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><br>• <b>کپی به کانفیگ‌های من</b> — یک سرور از ساب را به لیست خودتان کپی کنید و بعد آزادانه ویرایشش کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8F.png')\"><b>✏️</b></i><br><br>• <b>مخفی کردن</b> — سرورهایی را که نمی‌خواهید از لیست و از مسیر اتصال کنار بگذارید. بعد از بروزرسانی ساب هم مخفی می‌مانند، و هر وقت خواستید برمی‌گردانید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91BB.png')\"><b>👻</b></i><br><br>• رفع به‌هم‌ریختگی ستون عملیات <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> دانلود برای ویندوز، مک و لینوکس: <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90A7.png')\"><b>🐧</b></i><br><br><a href=\"http://github.com/WhiteDNS/WhiteVPN-Desktop/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.4</a><br><br><a href=\"https://t.me/whitevpn\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitevpn</a> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B2.png')\"><b>📲</b></i>",
+      "plain_text": "🔒 WhiteVPN Desktop نسخهٔ ۱.۰.۴ منتشر شد 🚀\n\n۱. رفع نشتی DNS در حالت تونل — مهم‌ترین تغییر این نسخه 🔒\n\nدر نسخه‌های قبلی، وقتی روی حالت TUN وصل می‌شدید، خودِ ترافیک از تونل عبور می‌کرد — ولی درخواست‌های DNS از تونل بیرون می‌رفتند و مستقیم به مودم یا سرویس‌دهندهٔ اینترنت شما می‌رسیدند. 🌐\n\nیعنی محتوای ارتباط شما محافظت می‌شد، اما فهرست سایت‌هایی که باز می‌کردید برای ISP قابل دیدن بود. 👀\n\nعلت پیدا و برطرف شد. حالت پراکسی هیچ‌وقت این مشکل را نداشت. ✅\n\n⚠️ اگر از حالت TUN استفاده می‌کنید، حتماً بروزرسانی کنید. 🔄\n\n۲. صفحهٔ Servers 🖥\n\n• انتخاب همه اضافه شد ✅\n\n• کپی به کانفیگ‌های من — یک سرور از ساب را به لیست خودتان کپی کنید و بعد آزادانه ویرایشش کنید ✏️\n\n• مخفی کردن — سرورهایی را که نمی‌خواهید از لیست و از مسیر اتصال کنار بگذارید. بعد از بروزرسانی ساب هم مخفی می‌مانند، و هر وقت خواستید برمی‌گردانید 👻\n\n• رفع به‌هم‌ریختگی ستون عملیات 🛠\n\n⬇️ دانلود برای ویندوز، مک و لینوکس: 💻🍎🐧\n\nhttps://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.4\n\n@whitevpn 📲",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "126",
+      "posted_at": "2026-08-07T02:27:41+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1419",
+      "reply": null
+    },
     {
       "id": "whitedns/1418",
       "author_name": "White DNS",
@@ -50,7 +71,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.8K",
+      "views_label": "11.9K",
       "posted_at": "2026-08-06T22:24:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1418",
@@ -192,7 +213,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12K",
       "posted_at": "2026-08-06T11:36:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1415",
@@ -1062,7 +1083,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23K",
+      "views_label": "23.1K",
       "posted_at": "2026-08-03T09:06:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1398",
@@ -5015,47 +5036,6 @@
       "posted_at": "2026-07-23T08:31:51+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1280",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1281",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/CegKwSmdQGwMhFdnqdyuPRorwxAFhE8fx1aazz0gRLi3k-rWeYapnCCOivRfIUrb4gZnycMro1ptniHyWY2Efru6-G1VUOxOO2yZMs0J401DvdFe4RA7M2NoZcHntjD2ELPX7mOKL-o466QXKVC0W8sakLiWK_LB8MKsvXGb4w8hLnWH9FRAsfLGTZDQ98Fq1NL0GriDQ5Ys-UKp0CXMznrDxwbzyLQKaOnHWdZ7IKCseAEf7qZXQP2WZPkGWlJ5VUkIuWCMZe-WScJE9uO1tp9Yi5uT5P2N-7Cuddm2WlzZ8auSfdcoCEvNNLKcc0jWmqxfrB6fvozK2Oyiur-hJg.jpg",
-      "author_photo_path": "channels/whitedns/media/b6b7a8665ab448795ba7360f.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "وارد کردن تنظیمات بهینه در whitedns android",
-      "plain_text": "وارد کردن تنظیمات بهینه در whitedns android",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1281",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/bXBVMg0pamN-JEDIejEaFDo_j6T8NnDIVSu-0sp3uL2YHrK9hKSCv5403Hk2rF3w5g_pi4YWm5ravSiAvmNpJyRfNN1PdC5DSXyunwdHFrBcWElVjbAPE1pypnwR8WKao8O4QGMTklTqGODEsKB3VGMboqt2VBw9zVQ_7DCZFth3-qba3NhZKFj_cS1foE37nvzvVt_MyUTLcM8ZrCduY1hvU5Ld_l3roexGWdxfZkw2t_-p-MrT5C0_JliRBN04oGiehZVgi2usPnPYtGV3jtC_H-9kO-KkbY9fba4y_DwuYYcO-NEyTyPrUBw6CAV_jnOt7Oll7YO1SG1eZZL0eg.jpg",
-          "thumbnail_path": "channels/whitedns/media/a3cb79388ed4820cffa55eaa.jpg",
-          "thumbnail_sha256": "f6de91b65e1ef79e128a313776badd18b094a45a8ec1a26331f50c90e50b0607",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "66"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "10.6K",
-      "posted_at": "2026-07-23T08:31:51+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1281",
       "reply": null
     }
   ]
