@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-08T10:07:28.406Z",
+  "fetched_at": "2026-08-08T10:12:45.913Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,43 @@
     "subscriber_count": "12.2K"
   },
   "posts": [
+    {
+      "id": "iranlix/11298",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/M_F2m6iU_6me5Nzx6OPOezEqaofBnNngKrN_8jFiIwL9qwPM2DYC-UJRGqgGjeleSg42DZG5Rfz9aaMJaVkTNWjkIH_oJPPhfn6uQ8WQfSWFIm0NtmF2C3VWGCSiA0qBC-rGjM0LL68iSs-HIp-rYfq07yQOkxQovZbo1J3GyYeSc94HLVg08Vy1SKMXZ0CgmeqV9LO7ToseMq2d751kLCXAyMjyijyuqZ6RdaXnv9MvvJb32TChBYWZnJldKjoUb0jYinmzGEu7e42nujh7EHP3KuJMrwgyTxptZuFqO3NnCKfvIzG8WADNcsQscH5TvZTKl5qt9tY3M1cvcHmmaw.jpg",
+      "author_photo_path": "channels/iranlix/media/85965e760f8927920f61d638.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A6.png')\"><b>♦️</b></i><b>سخنگوی قوه قضاییه:<br><br>«محمدباقر خرازی پس از اظهارات اخیرش، تحت تعقیب کیفری قرار گرفته</b> <b>است</b>.»<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "♦️سخنگوی قوه قضاییه:\n\n«محمدباقر خرازی پس از اظهارات اخیرش، تحت تعقیب کیفری قرار گرفته است.»\n\n@iranlix",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/11298",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/NG7ZgbVz608P07cxVOQFJ-pCu9VbvrtTUDztCnSu66nqS4lG2KfIiKxbGxB3Z1yJa-yGafe4NynTIa3LBc7KcHrtFvp5LtNar87sq0Ksiax6uJDWv0n0gGJ466NXManbB34L3eusu0MI0xV-xGVU_WtvTJraTLeSvXLIzvL6WcM4i-ZfFneEUkqPa-H9CoEC3uXALTdGmbcOi75Ha0wCO6t0BdURWQ9AAiyvKIrSP48S21jMIDGv1yUsJHXaWXHYvzw9-jQcaopfyg427uzAVQO0-aghlQYxTkJp3prh53Yq8-XuDZNXenh7Yhz68Nhc3nFH3G9R7qlPCdnwzYqRqg.jpg",
+          "thumbnail_path": "channels/iranlix/media/25cb7e0cd13a6d73d2767961.jpg",
+          "thumbnail_sha256": "ac3f1a262bbd9cb9a2b3c208bcb7158ba0d5b30ab344e07668c6b417d1c13757",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-08-08T10:12:34+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/11298",
+      "reply": {
+        "channel_username": "iranlix",
+        "post_id": "11208",
+        "author_name": "ایرانلیکس",
+        "preview_text": "♦️باقر خرازی: آقای حجازی، قائم مقام دفتر رهبر ۳ سال مجتبی خامنه ای را طرد کرده بود از افراد بیت،آقای حقانیان عضو سیا بود. @iranlix",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/JuMLH544aCaSCQLmuTGfioGN21lFPPyu-_XY3gVcSSSd4FQpGS9mLK2jp_53Ef4uwXF-Q9M0uE_kAgK1bw4sM5nTYYzdMKVz9JQcLQ0gCNwqSSKRHndkM3IcM9EzIQ57vVVBjqGqwczpmusQJbyM0pAZqMJ2MCMI6H4mNs84VTiBgUQhl4x34r8pQwRKCB-BsXMQFiqtUghzp4Pgo0btlrfUD3orf7ahPd8mPgicSIYSiBxSKiwWOTBmLrdcCF-xzqp2B4YqOtXjYaLCQet4TyhUDfMdMuFilW5IwW3O04JVN88YlLp7jqeGYPRg07QOUeWqILPnoFuhXEELvRiKqw",
+        "thumbnail_path": "channels/iranlix/media/0e2f4149f8d2b3112844c9b3.jpg",
+        "thumbnail_sha256": "522cd69c13498b6fcdee7590816d60a6137674e7c8ea311314f29f710349197f",
+        "permalink": "https://t.me/iranlix/11208"
+      }
+    },
     {
       "id": "iranlix/11297",
       "author_name": "ایرانلیکس",
@@ -33,7 +70,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "503",
+      "views_label": "527",
       "posted_at": "2026-08-08T09:11:16+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11297",
@@ -61,7 +98,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "527",
+      "views_label": "550",
       "posted_at": "2026-08-08T09:07:21+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11296",
@@ -89,7 +126,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "652",
+      "views_label": "675",
       "posted_at": "2026-08-08T08:35:21+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11295",
@@ -117,7 +154,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "750",
+      "views_label": "768",
       "posted_at": "2026-08-08T08:00:37+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11294",
@@ -145,7 +182,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "855",
+      "views_label": "871",
       "posted_at": "2026-08-08T07:28:40+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11293",
@@ -173,7 +210,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "912",
+      "views_label": "926",
       "posted_at": "2026-08-08T07:12:19+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11292",
@@ -201,7 +238,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "964",
+      "views_label": "974",
       "posted_at": "2026-08-08T06:33:32+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11291",
@@ -229,7 +266,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "994",
+      "views_label": "1K",
       "posted_at": "2026-08-08T06:24:07+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11290",
@@ -257,7 +294,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "991",
+      "views_label": "1K",
       "posted_at": "2026-08-08T06:17:50+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11289",
@@ -285,7 +322,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "999",
+      "views_label": "1.01K",
       "posted_at": "2026-08-08T06:17:49+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11288",
@@ -313,7 +350,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.58K",
+      "views_label": "1.59K",
       "posted_at": "2026-08-07T22:16:19+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11287",
@@ -369,7 +406,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.72K",
+      "views_label": "1.73K",
       "posted_at": "2026-08-07T20:27:39+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11285",
@@ -397,7 +434,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.72K",
+      "views_label": "1.73K",
       "posted_at": "2026-08-07T20:00:14+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11284",
@@ -2865,34 +2902,6 @@
       "posted_at": "2026-08-05T16:11:40+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11196",
-      "reply": null
-    },
-    {
-      "id": "iranlix/11195",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/XxT3XwV9z1u1JtdzqQl8dSzIwdVeJQonfkHiprPUm7ClugbSTSaZC2_cf3eNRBP3YpXQyWRG4urCS3G1yVuH1rHPgJ7NOh86P2YwD3FbOrkGc9v_7b3NjC9_LbworGsf0hEwhWrnZrQur85VgOKHdAdc3_bDXBaczUAl6UnVSKSX0aVYwmob-sYaDuHQoBrMVPnP2rSCY7JoQiNPmoqAnF6aX7KYvlxTLHrVM8kATH1dzv7w3mawD0t7zGPeB4wVnWCj5x6lnE--jow41ZvxHA3OWW73YzZMshv_gUWP_LI2n_eS8GF4NeKtSpNUtl5-XTyYU6xNbJgQtebnNp0VdQ.jpg",
-      "author_photo_path": "channels/iranlix/media/8082da999156b3edad41d546.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A6.png')\"><b>♦️</b></i><b>فاکس‌نیوز:</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i><b>آنچه لغو شده، تحریم‌ها علیه یک شرکت هواپیمایی عراقی</b> <b>است</b>.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i><b>وزارت خزانه‌داری آمریکا تأکید کرد حذف نام «فلای بغداد» از فهرست تحریم‌ها هیچ تغییری در سیاست واشینگتن درباره ج.ا و سپاه نیست و صرفا یک اقدام اداری بوده است.</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "♦️فاکس‌نیوز:\n\n🔹آنچه لغو شده، تحریم‌ها علیه یک شرکت هواپیمایی عراقی است.\n\n🔹وزارت خزانه‌داری آمریکا تأکید کرد حذف نام «فلای بغداد» از فهرست تحریم‌ها هیچ تغییری در سیاست واشینگتن درباره ج.ا و سپاه نیست و صرفا یک اقدام اداری بوده است.\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/11195",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/ZbHcu-YEFnNH9F93yEtYvQHVsjGFqGp1OgTdGE8Xmvncye21ViupOC0ND0l7oNR0ZLmIJPrIwkfVUvTX_kwy6Qr4Q27PrguRBEKz5EEqq00CXCC6nMsCZcsV-eNr29Rd9vTNKVgdDyut0yFvbrGKxMG7JTIZRAm6517Rr0snSrgTQo4UO1M5lt6yubjeg1zt-jxMsL6U-RkZjUhPkjTlnTBt4bPvlIxOElSa-TxYQHO9U9Xa3VDZALXtfg8dAqB0UsjDo7tE_aU5xWLZIJbe1GGpDm-Ukvs9-0hCvTLoQZaRXCagahkeZyUir9ExX8xsVF1qUrryvIOr1dyUBq3o9g.jpg",
-          "thumbnail_path": "channels/iranlix/media/c8c378d5dd77a6cb0e4fadfa.jpg",
-          "thumbnail_sha256": "abe71f327816cbf894daf3ea0002b52164f6df043f1a78fca62a380fdc2a8079",
-          "duration_label": null,
-          "aspect_ratio": 1.1412268188302426
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.32K",
-      "posted_at": "2026-08-05T16:11:00+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/11195",
       "reply": null
     }
   ]
