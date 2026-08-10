@@ -1,6 +1,11 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-10T17:58:55.529Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-08-10T18:02:39.322Z",
+  "succeeded": 22,
+  "failed": [
+    {
+      "username": "bbcpersian",
+      "error": "fetch failed"
+    }
+  ]
 }
