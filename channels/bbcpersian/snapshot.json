@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-11T19:46:55.622Z",
+  "fetched_at": "2026-08-11T19:53:51.706Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -12,6 +12,62 @@
   },
   "posts": [
     {
+      "id": "bbcpersian/289048",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/LgXVyhTxHQpTS5CE-CCKACdONZaSJLwcBk2s3uI8a5QOyunlNE2BlBV05o2gELvqTi8gNfEdWMD3lf3ynx3RGggVPnP3GrHuW0MPVhSS4RXhnLUm-DpA6VOYbCv1XYnLbfeLEZvmMkJTsNwMfVmF34Xig-W8TzltgTkghixuLFQ643HDSKI4v1Up69bmmCTYX_HVKtAUiZab9YwMRTB2qPzvJnASQxNsCOUMvItHhd_R_KX3UELfjjLn5LBHVMDv7P6IHITV0elIFd4jVmPi1P6Zpn0yYZsTqEguMcaNf1b_-bZanKfzFyBbnsCtmPFpDOy-VsGmVNyzf1L7KYSeBA.jpg",
+      "author_photo_path": "channels/bbcpersian/media/619100694e7cd39fb1780ac4.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>آخرین خبرهای مهم روز سه‌شنبه ۲۰ مرداد ۱۴۰۵<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "🔻آخرین خبرهای مهم روز سه‌شنبه ۲۰ مرداد ۱۴۰۵\n\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/289048",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/YA6hQSl0XEJQC8MmJrbMTHRLq5CEDZ65HxQlawYqkevBOOcBhFRD897-563KgVNKQwGdevcydMLpT2EGSXeY9TBuOPlg6P6sJbm-fumLpdKE13USQvFFWZSgSCNlamQFzVMiWrSu3I0VjcVzZ75LcGexRvxp6gioKUGwXiUMOZdJ-ZrazPeeQfFKWV7rstxBpiwoOblbg5F4lZH1X32MosMpTzRkwFTdUDTAkJFdzTPik9-HweW4OMmmucWD1fjkKVgfBI3s5Qv_g8ixMrOLY6BgqV06OQIEHShJPojqUf8RvzbkAep3mPmudaDE5SYcZe4rNalt_SpvJsMai6lENg",
+          "thumbnail_path": "channels/bbcpersian/media/58896f289fbe42e170c719d1.jpg",
+          "thumbnail_sha256": "bd6038569fae88670122642b972dc0d95b0a054c0087445cf1b803d34b75079e",
+          "duration_label": "0:59",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "1.9K",
+      "posted_at": "2026-08-11T19:50:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/289048",
+      "reply": null
+    },
+    {
+      "id": "bbcpersian/289047",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/LgXVyhTxHQpTS5CE-CCKACdONZaSJLwcBk2s3uI8a5QOyunlNE2BlBV05o2gELvqTi8gNfEdWMD3lf3ynx3RGggVPnP3GrHuW0MPVhSS4RXhnLUm-DpA6VOYbCv1XYnLbfeLEZvmMkJTsNwMfVmF34Xig-W8TzltgTkghixuLFQ643HDSKI4v1Up69bmmCTYX_HVKtAUiZab9YwMRTB2qPzvJnASQxNsCOUMvItHhd_R_KX3UELfjjLn5LBHVMDv7P6IHITV0elIFd4jVmPi1P6Zpn0yYZsTqEguMcaNf1b_-bZanKfzFyBbnsCtmPFpDOy-VsGmVNyzf1L7KYSeBA.jpg",
+      "author_photo_path": "channels/bbcpersian/media/619100694e7cd39fb1780ac4.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>در حالی که رئیس‌ جمهوری آمریکا می‌گوید ارتش این کشور تنگه هرمز را مین‌زدایی کرده و کنترل آن را کاملا به دست گرفته، ایران دوباره تأکید کرده که تا وقتی واشنگتن شرط‌هایش را نپذیرد این آبراه حیاتی بسته می‌ماند. در همین حال، گزارش‌ها از شلیک بالگرد ارتش آمریکا به یک کشتی باری در دریای عمان منتشر شده که پرچم پاناما داشت و می‌خواست از محاصره دریایی بنادر ایران عبور کند. همزمان، گزارش شده که در حمله انصارالله یمن به یک کشتی باری در تنگه باب المندب، چهار نفر کشته شدند.<br><br>گفت‌وگو با مهرزاد بروجردی، استاد علوم سیاسی در دانشگاه علم و فناوری میزوری<br><br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "🔻در حالی که رئیس‌ جمهوری آمریکا می‌گوید ارتش این کشور تنگه هرمز را مین‌زدایی کرده و کنترل آن را کاملا به دست گرفته، ایران دوباره تأکید کرده که تا وقتی واشنگتن شرط‌هایش را نپذیرد این آبراه حیاتی بسته می‌ماند. در همین حال، گزارش‌ها از شلیک بالگرد ارتش آمریکا به یک کشتی باری در دریای عمان منتشر شده که پرچم پاناما داشت و می‌خواست از محاصره دریایی بنادر ایران عبور کند. همزمان، گزارش شده که در حمله انصارالله یمن به یک کشتی باری در تنگه باب المندب، چهار نفر کشته شدند.\n\nگفت‌وگو با مهرزاد بروجردی، استاد علوم سیاسی در دانشگاه علم و فناوری میزوری\n\n\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/289047",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/GJCxUO4F5AoAGhasrwLqi9fqAayIWE7l4jkXIohVtpbqUQtxI2KGtEqGaXOFHrB5gtgmeylSbHwuKT1m-uy2ZyE8gst5GLDbT7eJdBOp6yj-hIl-FLf3nqaQML_mAqFrv0CWcSf-QYK0nYHvfd6M52owu3gN82gaJCc5E-FxrwN3FLS0dASB3tqZA_ZDqHbiHSIPpts5vj4Q7_bFzL2nTWUW6A8UZhGUnfuFJnI_3Az8ZKIGelPsgATpHSPhN5YqL50FsmX9N2YZ7ayioSXB5BJk4AfC6CbsT3701pUMXtcq7ar_MaFZ-P5KAzt132DkxaOuBtCML_uu0lxvqJdEEA",
+          "thumbnail_path": "channels/bbcpersian/media/eb1980e1bea840208f885a16.jpg",
+          "thumbnail_sha256": "ff271aa9851e84a2efa35d103e69a537550deb618a783d759983a410d9931d1f",
+          "duration_label": "4:41",
+          "aspect_ratio": 1.8275862068965676
+        }
+      ],
+      "reactions": [],
+      "views_label": "1.85K",
+      "posted_at": "2026-08-11T19:50:17+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/289047",
+      "reply": null
+    },
+    {
       "id": "bbcpersian/289046",
       "author_name": "BBCPersian",
       "author_photo_url": "https://cdn4.telesco.pe/file/LgXVyhTxHQpTS5CE-CCKACdONZaSJLwcBk2s3uI8a5QOyunlNE2BlBV05o2gELvqTi8gNfEdWMD3lf3ynx3RGggVPnP3GrHuW0MPVhSS4RXhnLUm-DpA6VOYbCv1XYnLbfeLEZvmMkJTsNwMfVmF34Xig-W8TzltgTkghixuLFQ643HDSKI4v1Up69bmmCTYX_HVKtAUiZab9YwMRTB2qPzvJnASQxNsCOUMvItHhd_R_KX3UELfjjLn5LBHVMDv7P6IHITV0elIFd4jVmPi1P6Zpn0yYZsTqEguMcaNf1b_-bZanKfzFyBbnsCtmPFpDOy-VsGmVNyzf1L7KYSeBA.jpg",
@@ -21,7 +77,7 @@
       "plain_text": "🔻رضایی: توافق با عمان بر سر هرمز، موضوعی جدا از انسداد تنگه خواهد بود\n\nدبیر جدید شورای عالی امنیت ملی ایران گفته است «اگر بین ایران و عمان توافقی بر سر مسیر عبور و مرور در تنگه هرمز شود، این توافق موضوعی جدا از انسداد تنگه هرمز خواهد بود.»\n\nمحسن رضایی با سفیر چین در تهران دیدار کرده و گفته است «تا زمانی که آمریکا رفتار خود را تغییر ندهد و شروط ایران را نپذیرد تنگه هرمز باز نخواهد شد.»\n\nسرلشکر رضایی گفته است: «آمریکا باید جنگ را پایان دهد، پول‌های مسدود شده ایران را بپردازد و در کل منطقه از جمله لبنان و غزه جنگ باید پایان یابد» و خبر داده که «شروطی دیگر از طریق واسطه‌ها» به ایالات متحده منتقل شده است.\n\nhttps://bbc.in/4bJwzwY\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "9.78K",
+      "views_label": "11.9K",
       "posted_at": "2026-08-11T19:23:19+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289046",
@@ -37,7 +93,7 @@
       "plain_text": "🔻گارد ساحلی یمن: شش نفر در حمله حوثی‌ها به کشتی باری در تنگه باب‌المندب کشته شدند\n\nگارد ساحلی یمن اعلام کرده است که در حملات منتسب به حوثی‌های مورد حمایت ایران به یک کشتی باری، در نزدیکی تنگه باب‌المندب دستکم شش نفر را کشته شدند.\n\nاین حملات تازه‌ترین مورد از مجموعه عملیات مرگبار علیه کشتی‌های تجاری در ورودی دریای سرخ از زمان اعلام محاصره دریایی عربستان سعودی از سوی حوثی‌ها است.\n\nگارد ساحلی وابسته به دولت یمن که از سوی جامعه بین‌المللی به‌رسمیت شناخته می‌شود، اعلام کرد چهار ملوان کشتی باری در میان کشته‌شدگان هستند.\n\nبر اساس این گزارش دو نفر از نیروهایی که برای انجام عملیات نجات و تخلیه کشتی اعزام شده بودند هم کشته شدند.\n\nhttps://bbc.in/45qygMa\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "9.05K",
+      "views_label": "11.6K",
       "posted_at": "2026-08-11T19:22:06+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289045",
@@ -53,7 +109,7 @@
       "plain_text": "🔻وزیر کشور پاکستان پس از ورود به تهران با عراقچی دیدار کرد\n\nپیشتر گزارش داده بودیم که محسن نقوی، وزیر کشور پاکستان که کشورش واسطه رسمی بین ایران و آمریکاست، عازم تهران شده است.\n\nاینک گزارش شده است که آقای نقوی با استقبال اسکندر مومنی، وزیر کشور ایران وارد پایتخت این کشور شده و سپس با عباس عراقچی، وزیر خارجه ایران ملاقات کرده است.\n\nهنوز جزئیاتی از این دیدارها منتشر نشده است.\n\nپس از این دیدار وزیر کشور پاکستان با محسن پاک‌نژاد وزیر نفت ایران ملاقات کرده است.\n\nوزیر نفت ایران گفته است زمینه‌های مختلفی بین دو کشور در حوزه تجارت نفت و فراورده‌های نفتی و صدور خدمات فنی و مهندسی به‌ویژه در زمینه پالایشگاهی وجود دارد.\n\nhttps://bbc.in/4wkA44g\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "8.32K",
+      "views_label": "10.5K",
       "posted_at": "2026-08-11T19:21:00+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289044",
@@ -69,7 +125,7 @@
       "plain_text": "🔻ولایتی یمن را «رکن جنوبی جبهه مقاومت» خواند و از عربستان خواست به حوثی‌ها «فشار» وارد نکند\n\nمشاور امور بین‌المللی رهبر جمهوری اسلامی ایران گفته است که یمن «رکن جنوبی جبهه مقاومت» است و از عربستان سعودی خواسته است که به حوثی‌ها «فشار» وارد نکند.\n\nعلی‌اکبر ولایتی خطاب به مقام‌های سعودی گفته است «به جای ادامه فشار بر یمن، از فلسطین و آرمان مقدس دفاع کند و از سیاست‌های پرهزینه و غیرعاقلانه آمریکا بگیرد.»\n\nآقای ولایتی گفته است که آسیب به انصارالله یمن یا حوثی‌ها «آسیب به امت اسلامی است.»\n\nبر اساس گزارش‌ها، حوثی‌های یمن در هفته‌های اخیر برخی از حملات نظامی در داخل یمن و همچنین علیه کشتی‌ها در دریای سرخ را از سرگرفتند.\n\nآتش‌بس چندساله در جنگ داخلی یمن میان حوثی‌ها و دولت به‌ رسمیت‌ شناخته‌‌شده یمن از سوی جامعه بین‌المللی، اخیرا و همزمان با تشدید درگیری‌ها میان ایران و آمریکا، فروپاشید.\n\nhttps://bbc.in/4wo904b\n~BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "8.95K",
+      "views_label": "10.5K",
       "posted_at": "2026-08-11T19:19:24+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289043",
@@ -85,7 +141,7 @@
       "plain_text": "🔻کومله زحمتکشان از حمله موشکی ایران به مقرش خبر داد\n\nکومله زحمتکشان می‌گوید حکومت ایران با سه موشک به یکی از مقرهای این گروه در اقلیم کردستان عراق حمله کرده است.\n\nگزارش‌هایی از زخمی شدن چند عضو این گروه منتشر شده است.\n\nاز زمان آغاز حمله آمریکا و اسرائیل، حکومت ایران بارها مقر احزاب کرد ایرانی در عراق را هدف قرار داده است.\n\nحملات ایران به گروه‌های مخالف کرد در اقلیم کردستان عراق حتی پس از اعلام آتش‌بس ایران و آمریکا در فروردین هم ادامه داشته است.\n\nhttps://bbc.in/4q8u790\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "9.23K",
+      "views_label": "11.2K",
       "posted_at": "2026-08-11T19:17:06+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289042",
@@ -113,7 +169,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "28.2K",
+      "views_label": "29.8K",
       "posted_at": "2026-08-11T17:32:12+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289041",
@@ -129,7 +185,7 @@
       "plain_text": "پادکست برنامه جام جهان‌نما، سه‌شنبه ۲۰ مرداد ۱۴۰۵\n\nاین برنامه رادیویی را می‌توانید هر شب ساعت ۲۰ به وقت ایران، روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۹۴۶۵ کیلوهرتز بشنوید.\nتکرار برنامه را هم می‌توانید ساعت ۲۱:۳۰ روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۵۳۹۵ کیلوهرتز گوش کنید.\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "30.1K",
+      "views_label": "31.1K",
       "posted_at": "2026-08-11T17:08:55+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289040",
@@ -157,7 +213,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "34.4K",
+      "views_label": "35.3K",
       "posted_at": "2026-08-11T16:24:43+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289039",
@@ -185,7 +241,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "35.7K",
+      "views_label": "36.9K",
       "posted_at": "2026-08-11T15:46:03+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289038",
@@ -213,7 +269,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "39K",
+      "views_label": "39.8K",
       "posted_at": "2026-08-11T15:07:03+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289037",
@@ -229,7 +285,7 @@
       "plain_text": "🔻ترور فرمانده اطلاعات ارتش لیبی در بمب‌گذاری خودرو\n\nارتش لیبی روز سه‌شنبه در بیانیه‌ای اعلام کرد که رئیس اطلاعات نظامی ارتش ملی لیبی که شرق و بخش‌هایی از جنوب لیبی را کنترل می‌کند، در یک حادثه بمب‌گذاری خودرو کشته شده است.\n\nبه گزارش خبرگزاری دولتی فرانسه، در این بیانیه آمده که فوزی منصوری، روز دوشنبه در پی انفجار یک بمب چسبیده به خودرویش هنگام خروج شبانه از یک مسجد محلی ترور شد.\n\nاین حادثه در شهر بنغازی در شرق لیبی رخ داده است.\n\nلیبی از زمان سقوط معمر قذافی، رهبر سابق این کشور در سال ۲۰۱۱، شاهد جنگ داخلی و بی‌ثباتی اجتماعی بوده است.\n\nدر حال حاضر دو دولت برای کنترل لیبی در حال رقابت هستند: دولت مورد تایید سازمان ملل در طرابلس به رهبری عبدالحمید ضیبه و خلیفه حفتر، فرمانده ارتش ملی لیبی در بنغازی.\n\nارتش ملی لیبی در بیانیه‌ای ترور آقای منصوری را «عملی بزدلانه و جنایتکارانه» توصیف کرده و بر ادامه «مبارزه با تروریسم و تلاش برای ثبات و امنیت لیبی» تاکید کرده است.\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "40.9K",
+      "views_label": "41.5K",
       "posted_at": "2026-08-11T14:30:38+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289036",
@@ -245,7 +301,7 @@
       "plain_text": "🔻وال‌استریت ژورنال: آمریکا پس از بی‌توجهی یک کشتی باری به محاصره دریایی ایران، به آن حمله کرد\n\nپبشتر موسسه ونگارد گزارش داده بود که یک کشتی باری با پرچم پاناما، در حالی که در مسیر غرب به شرق از دریای عمان در حال تردد بوده و مجاور سواحل پاکستان، هدف یک موشک که از یک هلی‌کوپتر شلیک شده، قرار گرفته است.\n\nاینک روزنامه وال‌استریت ژورنال نقل از یک مقام آمریکایی گفته است که یک هلی‌کوپترنظامی آمریکا پس از آنکه خدمه این کشتی باری به هشدارها درباره خودداری از نقض محاصره دریایی بنادر ایران توجه نکردند، به سکان کشتی شلیک کرد.\n\nسکان کشتی یک تیغه عمودی است که در قسمت زیرین انتهای کشتی در آب قرار دارد و برای هدایت آن به کار می‌رود.\n\nاین گزارش می‌گوید به نظر می‌رسد کشتی پس از آنکه هدف حمله قرار گرفت، تلاش کرده است خدمه خود را به یک کشتی غیرنظامی دیگر منتقل کند.\nhttps://bbc.in/4fZIpEo\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "38.6K",
+      "views_label": "39.4K",
       "posted_at": "2026-08-11T14:29:41+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289035",
@@ -273,7 +329,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "42.9K",
+      "views_label": "43.2K",
       "posted_at": "2026-08-11T13:19:41+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289034",
@@ -289,7 +345,7 @@
       "plain_text": "تازه‌ترین خبرهای ایران و جهان، سه‌شنبه ۲۰ مرداد ۱۴۰۵ از رادیو بی‌بی‌سی در لندن\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "40.6K",
+      "views_label": "41.8K",
       "posted_at": "2026-08-11T12:52:52+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289033",
@@ -317,7 +373,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "40.4K",
+      "views_label": "41.7K",
       "posted_at": "2026-08-11T12:51:00+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289032",
@@ -345,7 +401,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "36.7K",
+      "views_label": "37.9K",
       "posted_at": "2026-08-11T12:45:13+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289031",
@@ -373,7 +429,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "39.4K",
+      "views_label": "39.7K",
       "posted_at": "2026-08-11T12:23:28+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289030",
@@ -401,7 +457,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "37.7K",
+      "views_label": "38.8K",
       "posted_at": "2026-08-11T12:16:59+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289029",
@@ -3027,50 +3083,6 @@
       "posted_at": "2026-08-09T17:08:26+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/288866",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/288865",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/DDu3nAhzwhqFy-OxXUA20gaInbqXQP1QiMITO_Z3R6QFSW1WZKOLj0kPMqqLzsl7knlUge_744YAMXtVd96BNEjar0FzviPHq9douJYCTSsYQw17gWH17jvzy54hhx2jZuJnIJmMhpLQQoOM6RvE931RCR4CT90DL_XW4RLpdDHOHn82LvIHS6stQBJHt4wCFhXZb8BNFgxDVqD53tQlv7GNz848RntWLI-I0PnpDtrmxyXo6TMtL8lnxF7bhVdhDeeWRu25cb2WwdkMykqvSpbIQyxGq1UNwfj4cp-UhRcVeNKudVBNrkoQzFwqUq0y9KIctxCJuUoacvgrrORDlw.jpg",
-      "author_photo_path": "channels/bbcpersian/media/f997b208f965e73628cc39d2.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>در حملات حوثی‌ها به متحدان عربستان در یمن دست‌کم ۱۱ نفر کشته شدند</b><br><b><br></b>حوثی‌ها که متحد ایران هستند می‌گویند که حملاتشان به عربستان و متحدانش در یمن ادامه یافته است.<br><br>به گزارش خبرگزاری فرانسه، حملات روز یکشنبه دست‌کم ۱۱ کشته بر جای گذاشت.<br><br>یک منبع پزشکی در بندر مُخا در یمن به این خبرگزاری گفت که این حملات ساعاتی پس از حمله پهپادها یک پالایشگاه نفت عربستان سعودی در سواحل دریای سرخ انجام شد.<br><br>یک منبع پزشکی در مُخا، که تحت کنترل َ«شورای رهبری ریاست جمهوری» یمن است، گفت که در حملات حوثی‌ها سه غیرنظامی و هشت نیروی نظامی کشته شده‌اند.<br><br>جامعه بین‌المللی این شورا به‌عنوان دولت یمن می‌شناسد که مقرش در عدن است. عربستان و متحدانش از این شورا حمایت می‌کند که با حوثی‌ها در جنگند.<br><br>این منبع پزشکی همچنین گفت که ۳۲ نفر هم زخمی شده‌اند که شش <br>نفرشان غیرنظامی بوده‌اند.<br><br><a href=\"https://bbc.in/4xPowHF\" target=\"_blank\" rel=\"noopener\">https://bbc.in/4xPowHF</a><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻در حملات حوثی‌ها به متحدان عربستان در یمن دست‌کم ۱۱ نفر کشته شدند\n\nحوثی‌ها که متحد ایران هستند می‌گویند که حملاتشان به عربستان و متحدانش در یمن ادامه یافته است.\n\nبه گزارش خبرگزاری فرانسه، حملات روز یکشنبه دست‌کم ۱۱ کشته بر جای گذاشت.\n\nیک منبع پزشکی در بندر مُخا در یمن به این خبرگزاری گفت که این حملات ساعاتی پس از حمله پهپادها یک پالایشگاه نفت عربستان سعودی در سواحل دریای سرخ انجام شد.\n\nیک منبع پزشکی در مُخا، که تحت کنترل َ«شورای رهبری ریاست جمهوری» یمن است، گفت که در حملات حوثی‌ها سه غیرنظامی و هشت نیروی نظامی کشته شده‌اند.\n\nجامعه بین‌المللی این شورا به‌عنوان دولت یمن می‌شناسد که مقرش در عدن است. عربستان و متحدانش از این شورا حمایت می‌کند که با حوثی‌ها در جنگند.\n\nاین منبع پزشکی همچنین گفت که ۳۲ نفر هم زخمی شده‌اند که شش\nنفرشان غیرنظامی بوده‌اند.\n\nhttps://bbc.in/4xPowHF\n@BBCPersian",
-      "media": [],
-      "reactions": [],
-      "views_label": "47.9K",
-      "posted_at": "2026-08-09T16:45:28+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/288865",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/288864",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/DDu3nAhzwhqFy-OxXUA20gaInbqXQP1QiMITO_Z3R6QFSW1WZKOLj0kPMqqLzsl7knlUge_744YAMXtVd96BNEjar0FzviPHq9douJYCTSsYQw17gWH17jvzy54hhx2jZuJnIJmMhpLQQoOM6RvE931RCR4CT90DL_XW4RLpdDHOHn82LvIHS6stQBJHt4wCFhXZb8BNFgxDVqD53tQlv7GNz848RntWLI-I0PnpDtrmxyXo6TMtL8lnxF7bhVdhDeeWRu25cb2WwdkMykqvSpbIQyxGq1UNwfj4cp-UhRcVeNKudVBNrkoQzFwqUq0y9KIctxCJuUoacvgrrORDlw.jpg",
-      "author_photo_path": "channels/bbcpersian/media/f997b208f965e73628cc39d2.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>در ادامه تحقیقات مقامات قضائی و انتظامی ایران در مورد پرونده قتل حمید رجب‌زاده، رئیس دادسرای جنایی تهران از کشف جسد او در اطراف پایتخت خبر داد. از دیروز که رسانه‌های ایران از «ربایش» و قتل این «مداح» خبر دادند، تحولات سریعی در این پرونده صورت گرفته است.<br>محمد شهریاری، رئیس دادسرای جنایی تهران، عصر یکشنبه به خبرگزاری ایرنا گفت که جنازه حمید رجب‌زاده «ساعتی پیش» در اطراف تهران پیدا شد:<br>«با حضور بازپرس جنایی‌ و تیم تشخیص هویت جنازه وی شناسایی و پس از نمونه برداری برای ادامه تحقیقات علمی به پزشکی قانونی ارسال شد.»<br>آقای شهریاری گفت: «جنازه توسط عوامل‌ ارتکاب به قتل سوخته است.»<br>پیشتر پلیس ایران اعلام کرد که چهار مرد و یک زن در ارتباط با پرونده قتل حمیدرضا رجب‌زاده بازداشت شده‌اند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B8.png')\"><b>📸</b></i>Tasnim<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻در ادامه تحقیقات مقامات قضائی و انتظامی ایران در مورد پرونده قتل حمید رجب‌زاده، رئیس دادسرای جنایی تهران از کشف جسد او در اطراف پایتخت خبر داد. از دیروز که رسانه‌های ایران از «ربایش» و قتل این «مداح» خبر دادند، تحولات سریعی در این پرونده صورت گرفته است.\nمحمد شهریاری، رئیس دادسرای جنایی تهران، عصر یکشنبه به خبرگزاری ایرنا گفت که جنازه حمید رجب‌زاده «ساعتی پیش» در اطراف تهران پیدا شد:\n«با حضور بازپرس جنایی‌ و تیم تشخیص هویت جنازه وی شناسایی و پس از نمونه برداری برای ادامه تحقیقات علمی به پزشکی قانونی ارسال شد.»\nآقای شهریاری گفت: «جنازه توسط عوامل‌ ارتکاب به قتل سوخته است.»\nپیشتر پلیس ایران اعلام کرد که چهار مرد و یک زن در ارتباط با پرونده قتل حمیدرضا رجب‌زاده بازداشت شده‌اند.\n\n📸Tasnim\n@BBCPersian",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/288864",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/R-xAOtYc-70wCiLA0cmaINLgSRCxF-bvWGMJCkAfxB6DFpzSfbP27OEaW4JYTMzwZMXgwBiBTIV3VpGqoElvcqNDYZ1WE3KpXxiLb7G6AsduEThoDz7ndN9m6ronvDItfaHfifwge6DiWF8g6YSAbCLbtQ35_RCYB5ovdYRJV5eg0h755LxxQdwKpIejpEPe2Rk2HBBWdwhQsA6LStANI4S-QuKWEvyhLDLWB0Qcf7hDeAPKP_Bo-R6cX3H2s8pjFoj_poxq-WUj4v8TlVtmjXA-xanJk_s20JQgwk6x-YhmgoanMHklv50_4EWKN7doDT9WEPPMpLnn2pnd-jFFBg.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/aea01a509398aa6d9073755c.jpg",
-          "thumbnail_sha256": "77b9f0841085a653e294251262c5532be8176523c9e50e5c061f1900b13661ae",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "43.4K",
-      "posted_at": "2026-08-09T16:37:04+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/288864",
       "reply": null
     }
   ]
