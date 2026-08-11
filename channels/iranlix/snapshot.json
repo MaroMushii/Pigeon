@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-11T13:32:15.636Z",
+  "fetched_at": "2026-08-11T13:37:42.707Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,45 @@
     "subscriber_count": "12.2K"
   },
   "posts": [
+    {
+      "id": "iranlix/11425",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/vWl9lt6j95TsKIRNltj_8ZL00Bf_KivQKXHGM1v28Xt2MHWdD84FkwLEUXwwsp22xRHbXUbgHvYR7jWxCBq7WIE2cmWJc_TWAnwwSyRHpJ4oRjTjjc7Wgm5gnKSlImOoGGE1J5jsRpyYTQTrAXf4TKwJBJUeYXlS1_PotVyE94HO8hS4_EJzQ-sBiDgCvAML4FWdYY9sSLLZkxz0pL8oimM5KUbZE41KDu2llBRfxdpeMKPfgTsfq8Vq5nxhNrNMr5Jn-DUnA5wCN1swHTQS1NAS4HXC1PzunnbAlAk9OSB7tvGUQYfFhnfDeyTQcfHwJzgRd1E79f53iyEXRgjHtA.jpg",
+      "author_photo_path": "channels/iranlix/media/b9df3a54fa68c6788f49c59f.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><b>دومینیک تارچینسکی، سیاستمدار لهستانی و عضوپارلمان اروپا، با انتشار این ویدیو از جنگنده‌ ها تو ایکس نوشت:صبح‌بخیر ایرانِ عزیز.</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a></div>",
+      "plain_text": "💢دومینیک تارچینسکی، سیاستمدار لهستانی و عضوپارلمان اروپا، با انتشار این ویدیو از جنگنده‌ ها تو ایکس نوشت:صبح‌بخیر ایرانِ عزیز.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/iranlix/11425?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/J6QVxsN0mEYfFsiUGVbrGnHuAxJ4H8jM7rxBpKVMySGQREqTf72XcVumgC2PCqUrcDpvRJYOGAvKpa8YsFVrm4ShqQg2bXjIt9XTBRIeKIOpomaEdRlAm9VdTafhodLBVbcO4OkeBBIo4Tt9calrpenbV98nfdG6uHAM9OdT6vT2yrGCDcRyidNfUBOw9p_YJMVG5Vk_Ek8i6LQ1GWCIKTQBs4pyKh4CmK6qAHFEtxn4UyOxE7SQzmIi3N6scSgt2UA7S839GfCxvJ2YduUqA_AAQm8DzpIyCBt_TYyI0LRHpdIuqQHY4U1GcAk4-HTZ9IA7yCj249cRmSFPz9xUBQ.jpg",
+          "thumbnail_path": "channels/iranlix/media/0f4c4043ceaede38e163e529.jpg",
+          "thumbnail_sha256": "d2065b3c2ed4c0b69990a824dcf6eee75497b9cc3ff85fa2ea2cea515192ec5e",
+          "duration_label": null,
+          "aspect_ratio": 0.5675
+        },
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/11426?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/BiP1ecOj5paIl723rEpqalA-RTaUQ_Z-M9GT4O3crIM2rKs81Gks_rNJp3p2LJ7k2zyEnvCzDU7Mz8VhKY57oof8aSDgeXN36fpnGUArqPn9URVh6WMjJRXKayJDW-aJc0WMvtQN0kUIxTs4d-msynQlhIQbp85469D5ak56I9ANf-LR8f5aQfWDWaT_LNwkmBn_Zo9Ua6Ji4H3wVH9NItJFMpIR3eDBFwi5_5TkKMa99Kas9XfAvWnVi6Kkf6viPlXPdhgrULR0BfkvRYww1FKVu-KMpCWg5AaJoB9GiccUDsbgpgzLJtdGbfAPapzE7csZ8BE0MmAUK1auUmTzMQ",
+          "thumbnail_path": "channels/iranlix/media/0fc14e3e633eaf8f7bcd37dd.jpg",
+          "thumbnail_sha256": "dc266b850906204cf501154301676d52ea3e8fa67617d4a308ef16d6f3ec5793",
+          "duration_label": "0:35",
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [],
+      "views_label": "33",
+      "posted_at": "2026-08-11T13:35:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/11425",
+      "reply": null
+    },
     {
       "id": "iranlix/11424",
       "author_name": "ایرانلیکس",
@@ -33,7 +72,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "178",
+      "views_label": "213",
       "posted_at": "2026-08-11T13:14:36+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/11424",
@@ -61,7 +100,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "283",
+      "views_label": "317",
       "posted_at": "2026-08-11T13:01:06+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11423",
@@ -89,7 +128,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "275",
+      "views_label": "309",
       "posted_at": "2026-08-11T12:59:42+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11422",
@@ -117,7 +156,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "364",
+      "views_label": "397",
       "posted_at": "2026-08-11T12:43:04+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11421",
@@ -145,7 +184,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "375",
+      "views_label": "408",
       "posted_at": "2026-08-11T12:34:31+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11420",
@@ -173,7 +212,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "428",
+      "views_label": "462",
       "posted_at": "2026-08-11T12:24:17+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11419",
@@ -201,7 +240,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "645",
+      "views_label": "646",
       "posted_at": "2026-08-11T11:30:27+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11418",
@@ -378,7 +417,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "841",
+      "views_label": "871",
       "posted_at": "2026-08-11T09:32:13+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11412",
@@ -434,7 +473,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "862",
+      "views_label": "892",
       "posted_at": "2026-08-11T08:59:50+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11410",
@@ -462,7 +501,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "913",
+      "views_label": "943",
       "posted_at": "2026-08-11T08:48:53+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11409",
@@ -2821,34 +2860,6 @@
       "posted_at": "2026-08-08T20:54:02+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11323",
-      "reply": null
-    },
-    {
-      "id": "iranlix/11322",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/B4xMfks4UZzWQfWzh2NIAU8JXVdeav3ZBFrTV_VNHRaCKy83eICGxhA93Rjn4S08Y2hw7sWGxQJ0UMlsFsc3-mC1M3UJqafgy3B0xHntj7myuCd8c6avrlF51Fk0d3iGOiqdmSQxizGJdgePIsPAfojM7gkc3YYHfWNX6vr9r0vLSkSx7uehRo4DuVSkFrlsE6k5GWHm31W77ybqW1_3ELa0RYRlBfamjL2R3VS6RqneZzCgy76RFf-McCPID7YCB1zLk39ocfK-ICRLSWWIzvLkQ7RtB-qjiJVJGO1QVXMAEX2m4TDrCfnp2eCtmZWecYSdi69IseFfhFczH8czag.jpg",
-      "author_photo_path": "channels/iranlix/media/865da79c970c314ac6aa1d98.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>«<b>تانکرترکرز» مدعی شد همین حالا ۵۶ نفتکش در تاریکی دیجیتال در کریدور عمانی تنگه هرمز فعالیت می‌کنند و جریان نفت کشورهای عربی را زنده نگه داشتند</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "🔹«تانکرترکرز» مدعی شد همین حالا ۵۶ نفتکش در تاریکی دیجیتال در کریدور عمانی تنگه هرمز فعالیت می‌کنند و جریان نفت کشورهای عربی را زنده نگه داشتند\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/11322",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/EdfFKB_DQGqmDjzffXbWkgloWHLhG_ddoWQV2s0qV9LCFEFO1hpY44awx85CVWxAJqu-jfFvp1_Z7n0p_7XMwJciDdTK-HDxMD4ECjlXc-svWB0kBwC3DxP2l6eFMd6qe5R_LW0om_k2IXm6T0M836RiG646KuHLY6AifkQnn3fb9hep5hiKU2t-1d9gDO8YoBl_7FOUJg67t_3SqvXEBLhz8EhQLL7ZVKlmlxb3gUTWt3yq3F5ZYcXPwD5uTeN8v17vgo3kZmgwkalR7aQ57xp-EICIFiVS9H3M_pjdd2ouFTpgoQn0J34GXKd4WwlUIQ54g-ktL1LGZdb0kyjSig.jpg",
-          "thumbnail_path": "channels/iranlix/media/169965e57c88f09adfd8fb7d.jpg",
-          "thumbnail_sha256": "2893ed27d3b7439157e3df89a3570d03204914e5ee029bba62486385331f4542",
-          "duration_label": null,
-          "aspect_ratio": 0.7596153846154029
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.7K",
-      "posted_at": "2026-08-08T20:35:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/11322",
       "reply": null
     }
   ]
