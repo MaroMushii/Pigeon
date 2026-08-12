@@ -1,10 +1,18 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-12T23:43:52.009Z",
-  "succeeded": 22,
+  "generated_at": "2026-08-12T23:48:01.904Z",
+  "succeeded": 20,
   "failed": [
     {
-      "username": "daadbaan2021",
+      "username": "farsi_iranwire",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "radiofarda",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "sahamnewsorg",
       "error": "The operation was aborted due to timeout"
     }
   ]
