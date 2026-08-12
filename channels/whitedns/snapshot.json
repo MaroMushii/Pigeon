@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-12T13:22:26.085Z",
+  "fetched_at": "2026-08-12T13:27:13.482Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,27 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1443",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/lOmmVvMlylhhkIm1cOX9HX9ecx939QtqV-HVO-8ZBVzrQYNMQcEhWVStN9cS51WTu1FAfldV7sNTtVAl1Ca8XWqKH6bFTRTHLSoSZd39xlAsNlHsFFiB9U09vYsoGG8pgpwd0wR0d5ym2rackT0yplg4W84lyrGxvmYNXCCGknTBTeUgzcVzCwdJGqC3_d6TVjOOTSlaETk9A3l9gQUuG-NqcKidLjqaGc71yywY-HaSv27SuMGnVlCS5pZtLyp7xTqCRDKthz2XK1CE2tEMVLv94g-_0Ly8gyFfNkrADGhVohi0NbFnoWMYBBEVlNfXlARmHw_N-tlbUpISkHOIVg.jpg",
+      "author_photo_path": "channels/whitedns/media/427015f6d1d47f46590ee856.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<blockquote>Whitevpn dekstop v1.0.16 </blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90A7.png')\"><b>🐧</b></i> راهنمای استفاده روی مک و لینوکس<br><br>حالت TUN فعلاً فقط روی ویندوز کار می‌کند. روی مک و لینوکس دو حالت دیگر هست که برای اکثر کارها کافی‌اند.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i> روی مک — ساده‌ترین حالت<br><br>تنظیمات ← اتصال ← «پراکسی سیستم» را انتخاب کنید و وصل شوید. تمام.<br><br>مک تنظیم پراکسی را در سطح سیستم اعمال می‌کند، پس تقریباً همهٔ برنامه‌ها (سافاری، کروم، فایرفاکس و بیشتر اپ‌ها) خودکار از تونل رد می‌شوند.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90A7.png')\"><b>🐧</b></i> روی لینوکس — یک نکتهٔ مهم<br><br>«پراکسی سیستم» روی لینوکس تنظیمات گنوم و KDE را عوض می‌کند. ولی این یک ترجیح است، نه اجبار: برنامه‌هایی که این تنظیم را می‌خوانند رد می‌شوند، و برنامه‌هایی که نمی‌خوانند نه.<br><br>معمولاً کار می‌کند: کروم، کرومیوم، فایرفاکس<br>معمولاً کار نمی‌کند: تلگرام دسکتاپ، ابزارهای ترمینال<br><br>برای آن‌هایی که کار نمی‌کنند، سراغ بخش بعدی بروید.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAF.png')\"><b>🎯</b></i> وصل کردن یک برنامهٔ خاص (روی هر دو سیستم)<br><br>اگر می‌خواهید فقط یک برنامه از تونل رد شود — یا برنامه‌ای پراکسی سیستم را نادیده می‌گیرد — این راه مطمئن‌ترین است.<br><br>آدرس پراکسی، بعد از وصل شدن، در صفحهٔ اصلی نشان داده می‌شود. روی آن کلیک کنید تا کپی شود. معمولاً:<br><br><a href=\"http://127.0.0.1:2080/\" target=\"_blank\" rel=\"noopener\">127.0.0.1:2080</a><br><br>این آدرس هم SOCKS5 و هم HTTP را می‌پذیرد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> تلگرام دسکتاپ<br>Settings ← Advanced ← Connection type ← Use custom proxy<br>نوع: SOCKS5 — آدرس: <a href=\"http://127.0.0.1/\" target=\"_blank\" rel=\"noopener\">127.0.0.1</a> — پورت: 2080<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA68A.png')\"><b>🦊</b></i> فایرفاکس<br>Settings ← Network Settings ← Manual proxy configuration<br>SOCKS Host: <a href=\"http://127.0.0.1/\" target=\"_blank\" rel=\"noopener\">127.0.0.1</a> — Port: 2080 — گزینهٔ SOCKS v5<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28CA8.png')\"><b>⌨️</b></i> ترمینال (curl، git، npm و…)<br>این‌ها هیچ‌وقت از تنظیمات گرافیکی پیروی نمی‌کنند و باید دستی بهشان گفت:<br><br>export http_proxy=<a href=\"http://127.0.0.1:2080/\" target=\"_blank\" rel=\"noopener\">http://127.0.0.1:2080</a><br>export https_proxy=<a href=\"http://127.0.0.1:2080/\" target=\"_blank\" rel=\"noopener\">http://127.0.0.1:2080</a><br><br>(فقط برای همان پنجرهٔ ترمینال اعمال می‌شود)<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> اگر نمی‌خواهید کل سیستم پراکسی شود<br><br>تنظیمات ← اتصال ← «فقط پراکسی» را انتخاب کنید. در این حالت هیچ چیزی روی سیستم شما تغییر نمی‌کند و فقط همان برنامه‌هایی که خودتان تنظیم کرده‌اید از تونل رد می‌شوند.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود:<br><a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.16\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.16</a>",
+      "plain_text": "Whitevpn dekstop v1.0.16\n\n🍎🐧 راهنمای استفاده روی مک و لینوکس\n\nحالت TUN فعلاً فقط روی ویندوز کار می‌کند. روی مک و لینوکس دو حالت دیگر هست که برای اکثر کارها کافی‌اند.\n\n━━━━━━━━━━━━━━━\n\n🖥 روی مک — ساده‌ترین حالت\n\nتنظیمات ← اتصال ← «پراکسی سیستم» را انتخاب کنید و وصل شوید. تمام.\n\nمک تنظیم پراکسی را در سطح سیستم اعمال می‌کند، پس تقریباً همهٔ برنامه‌ها (سافاری، کروم، فایرفاکس و بیشتر اپ‌ها) خودکار از تونل رد می‌شوند.\n\n━━━━━━━━━━━━━━━\n\n🐧 روی لینوکس — یک نکتهٔ مهم\n\n«پراکسی سیستم» روی لینوکس تنظیمات گنوم و KDE را عوض می‌کند. ولی این یک ترجیح است، نه اجبار: برنامه‌هایی که این تنظیم را می‌خوانند رد می‌شوند، و برنامه‌هایی که نمی‌خوانند نه.\n\nمعمولاً کار می‌کند: کروم، کرومیوم، فایرفاکس\nمعمولاً کار نمی‌کند: تلگرام دسکتاپ، ابزارهای ترمینال\n\nبرای آن‌هایی که کار نمی‌کنند، سراغ بخش بعدی بروید.\n\n━━━━━━━━━━━━━━━\n\n🎯 وصل کردن یک برنامهٔ خاص (روی هر دو سیستم)\n\nاگر می‌خواهید فقط یک برنامه از تونل رد شود — یا برنامه‌ای پراکسی سیستم را نادیده می‌گیرد — این راه مطمئن‌ترین است.\n\nآدرس پراکسی، بعد از وصل شدن، در صفحهٔ اصلی نشان داده می‌شود. روی آن کلیک کنید تا کپی شود. معمولاً:\n\n127.0.0.1:2080\n\nاین آدرس هم SOCKS5 و هم HTTP را می‌پذیرد.\n\n📱 تلگرام دسکتاپ\nSettings ← Advanced ← Connection type ← Use custom proxy\nنوع: SOCKS5 — آدرس: 127.0.0.1 — پورت: 2080\n\n🦊 فایرفاکس\nSettings ← Network Settings ← Manual proxy configuration\nSOCKS Host: 127.0.0.1 — Port: 2080 — گزینهٔ SOCKS v5\n\n⌨️ ترمینال (curl، git، npm و…)\nاین‌ها هیچ‌وقت از تنظیمات گرافیکی پیروی نمی‌کنند و باید دستی بهشان گفت:\n\nexport http_proxy=http://127.0.0.1:2080\nexport https_proxy=http://127.0.0.1:2080\n\n(فقط برای همان پنجرهٔ ترمینال اعمال می‌شود)\n\n━━━━━━━━━━━━━━━\n\n💡 اگر نمی‌خواهید کل سیستم پراکسی شود\n\nتنظیمات ← اتصال ← «فقط پراکسی» را انتخاب کنید. در این حالت هیچ چیزی روی سیستم شما تغییر نمی‌کند و فقط همان برنامه‌هایی که خودتان تنظیم کرده‌اید از تونل رد می‌شوند.\n\n━━━━━━━━━━━━━━━\n\n📥 دانلود:\nhttps://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.16",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "149",
+      "posted_at": "2026-08-12T13:26:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1443",
+      "reply": null
+    },
     {
       "id": "whitedns/1442",
       "author_name": "White DNS",
@@ -111,7 +132,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.81K",
+      "views_label": "6.94K",
       "posted_at": "2026-08-12T09:53:02+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1440",
@@ -145,7 +166,7 @@
       "reactions": [
         {
           "emoji": "👏",
-          "count": "52"
+          "count": "53"
         },
         {
           "emoji": "❤",
@@ -168,7 +189,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.42K",
+      "views_label": "7.55K",
       "posted_at": "2026-08-12T09:21:18+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1438",
@@ -186,7 +207,7 @@
       "reactions": [
         {
           "emoji": "🍓",
-          "count": "51"
+          "count": "52"
         },
         {
           "emoji": "👎",
@@ -217,7 +238,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.45K",
+      "views_label": "8.55K",
       "posted_at": "2026-08-12T08:26:55+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1437",
@@ -1105,7 +1126,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.14K",
+      "views_label": "4.15K",
       "posted_at": "2026-08-07T08:23:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1420",
@@ -5257,55 +5278,6 @@
       "posted_at": "2026-07-25T20:07:53+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1312",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1311",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b>10 سرور اهدایی و فعال WhiteDNS داشته باشید برای زمان قطعی (کلیک کنید روش کپی میشه)</b><br><br><br><br><blockquote>Server #1 thx to Coreforge<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i></blockquote><br><blockquote>Location: Turkey <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B9F09F87B7.png')\"><b>🇹🇷</b></i> </blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7nwn4e3ICAgdGh4IHRvIENvcmVmb3JnZSIsInNlcnZlciI6eyJkb21haW4iOiJ2LmFub255bW91cy5vYnNlcnZlciIsImVuY3J5cHRpb25fa2V5IjoiYjI3NTAzOTE5OWIxYzhjOSIsImVuY3J5cHRpb25fbWV0aG9kIjozfX19</code><br><br><br><br><blockquote>Server #2 thx to Araskhatare <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i> </blockquote><br><blockquote>Location: Germany <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87A9F09F87AA.png')\"><b>🇩🇪</b></i></blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6nwn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiI5ZGIxNjYwMmM4Yzc3NjcxOWJhZDE3ZWZjOWQxM2E0NCIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19</code><br><br><br><blockquote>Server #3 thx to Araskhatare <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i> </blockquote><br><blockquote>Location: USA <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87B8.png')\"><b>🇺🇸</b></i></blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7rwn4e4ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6ImVkMGNlZjE2YjcxNTNiOGQ4MzVhMzI3ODYxNTk3YzY0IiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0</code><br><br><br><br><blockquote>Server #4 thx to Araskhatare <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i> </blockquote><br><blockquote>Location: France <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87ABF09F87B7.png')\"><b>🇫🇷</b></i></blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6vwn4e3ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImIuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiIyZjAyZTNiN2NiNTg3ZjM4M2U0MWM0MmU4ZWYzYWY2MSIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19</code><br><br><br><br><blockquote>Server #5 thx to Araskhatare<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i></blockquote><br><blockquote>Location: UK <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87ACF09F87A7.png')\"><b>🇬🇧</b></i> </blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6zwn4enICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImMuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiJkYmYwMmYyYWVmZmQzM2QyNDY0M2ViODM4OGY2N2Y0ZCIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19</code><br><br><br><br><blockquote>Server #6 thx to Araskhatare<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i></blockquote><br><blockquote>Location: Ireland <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87AEF09F87AA.png')\"><b>🇮🇪</b></i> </blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh67wn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImkuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6IjY0MTVlYjhmOTBmMWQ0NjY1N2JjZTljYjc5MTg2NDY2IiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0</code><br><br><br><br><blockquote>Server #7 thx to Araskhatare<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i></blockquote><br><blockquote>Location: Sweden <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B8F09F87AA.png')\"><b>🇸🇪</b></i></blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7jwn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InEuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6IjFkYjFiMWIyNGM2N2IxNzYwOTAzMmNjNDdhZmRhMzZlIiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0</code><br><br><br><br><blockquote>Server #8 thx to Araskhatare<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i></blockquote><br><blockquote>Location: Spain <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87AAF09F87B8.png')\"><b>🇪🇸</b></i> </blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6rwn4e4ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6Im4uYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6IjU4MTcyOTA4ZGFhNTAxZTk0MjUzNWU2NTY3NzkwM2ZkIiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0</code><br><br><br><br><blockquote>Server #9 thx to Araskhatare<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i></blockquote><br><blockquote>Location: Italy <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87AEF09F87B9.png')\"><b>🇮🇹</b></i></blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh67wn4e5ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6Imx5LmFyYXNraGF0YXJlLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiJkMzM4NmM1MzkxZmRmOTJjMmNkODM3YmFkZTBhNGVjYyIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19</code><br><br><br><br><blockquote>Server #10 thx to Araskhatare<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i></blockquote><br><blockquote>Location: Brazil <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87A7F09F87B7.png')\"><b>🇧🇷</b></i></blockquote><br><br><code>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6fwn4e3ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImlsLmFyYXNraGF0YXJlLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiJmNzk4MDAyYzlkMTkxMTg4M2MzOTE2YTQ4ZTkzNTVkMiIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19</code><br><br><br><br><br><blockquote>آموزش استفاده از برنامه اندروید<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i></blockquote><br><blockquote><a href=\"https://www.youtube.com/watch?v=tz8cj7HzHVI\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=tz8cj7HzHVI</a></blockquote><br><br><blockquote>آموزش استفاده از برنامه ios<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i></blockquote><br><blockquote><a href=\"https://www.youtube.com/watch?v=filwdiPKN90\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=filwdiPKN90</a></blockquote><br><br><blockquote>آموزش استفاده از برنامه ویندوز<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i></blockquote><br><blockquote><a href=\"https://youtu.be/Mc--GlKw2wg\" target=\"_blank\" rel=\"noopener\">https://youtu.be/Mc--GlKw2wg</a></blockquote><br><br><br><blockquote><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a></blockquote>",
-      "plain_text": "10 سرور اهدایی و فعال WhiteDNS داشته باشید برای زمان قطعی (کلیک کنید روش کپی میشه)\n\n\n\nServer #1 thx to Coreforge♥️\nLocation: Turkey 🇹🇷\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7nwn4e3ICAgdGh4IHRvIENvcmVmb3JnZSIsInNlcnZlciI6eyJkb21haW4iOiJ2LmFub255bW91cy5vYnNlcnZlciIsImVuY3J5cHRpb25fa2V5IjoiYjI3NTAzOTE5OWIxYzhjOSIsImVuY3J5cHRpb25fbWV0aG9kIjozfX19\n\n\n\nServer #2 thx to Araskhatare ♥️\nLocation: Germany 🇩🇪\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6nwn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiI5ZGIxNjYwMmM4Yzc3NjcxOWJhZDE3ZWZjOWQxM2E0NCIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19\n\n\nServer #3 thx to Araskhatare ♥️\nLocation: USA 🇺🇸\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7rwn4e4ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6ImVkMGNlZjE2YjcxNTNiOGQ4MzVhMzI3ODYxNTk3YzY0IiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0\n\n\n\nServer #4 thx to Araskhatare ♥️\nLocation: France 🇫🇷\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6vwn4e3ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImIuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiIyZjAyZTNiN2NiNTg3ZjM4M2U0MWM0MmU4ZWYzYWY2MSIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19\n\n\n\nServer #5 thx to Araskhatare♥️\nLocation: UK 🇬🇧\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6zwn4enICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImMuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiJkYmYwMmYyYWVmZmQzM2QyNDY0M2ViODM4OGY2N2Y0ZCIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19\n\n\n\nServer #6 thx to Araskhatare♥️\nLocation: Ireland 🇮🇪\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh67wn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImkuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6IjY0MTVlYjhmOTBmMWQ0NjY1N2JjZTljYjc5MTg2NDY2IiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0\n\n\n\nServer #7 thx to Araskhatare♥️\nLocation: Sweden 🇸🇪\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7jwn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InEuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6IjFkYjFiMWIyNGM2N2IxNzYwOTAzMmNjNDdhZmRhMzZlIiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0\n\n\n\nServer #8 thx to Araskhatare♥️\nLocation: Spain 🇪🇸\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6rwn4e4ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6Im4uYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6IjU4MTcyOTA4ZGFhNTAxZTk0MjUzNWU2NTY3NzkwM2ZkIiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0\n\n\n\nServer #9 thx to Araskhatare♥️\nLocation: Italy 🇮🇹\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh67wn4e5ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6Imx5LmFyYXNraGF0YXJlLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiJkMzM4NmM1MzkxZmRmOTJjMmNkODM3YmFkZTBhNGVjYyIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19\n\n\n\nServer #10 thx to Araskhatare♥️\nLocation: Brazil 🇧🇷\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6fwn4e3ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImlsLmFyYXNraGF0YXJlLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiJmNzk4MDAyYzlkMTkxMTg4M2MzOTE2YTQ4ZTkzNTVkMiIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19\n\n\n\n\nآموزش استفاده از برنامه اندروید👇\nhttps://www.youtube.com/watch?v=tz8cj7HzHVI\n\nآموزش استفاده از برنامه ios👇\nhttps://www.youtube.com/watch?v=filwdiPKN90\n\nآموزش استفاده از برنامه ویندوز👇\nhttps://youtu.be/Mc--GlKw2wg\n\n\n@whitedns",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "146"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "7"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "💩",
-          "count": "3"
-        },
-        {
-          "emoji": "🤡",
-          "count": "3"
-        },
-        {
-          "emoji": "🍓",
-          "count": "3"
-        },
-        {
-          "emoji": "🥰",
-          "count": "1"
-        },
-        {
-          "emoji": "🫡",
-          "count": "1"
-        }
-      ],
-      "views_label": "13.3K",
-      "posted_at": "2026-07-25T19:18:01+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1311",
       "reply": null
     }
   ]
