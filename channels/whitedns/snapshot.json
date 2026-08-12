@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-12T09:17:15.347Z",
+  "fetched_at": "2026-08-12T09:22:12.714Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,47 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1439",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/lOmmVvMlylhhkIm1cOX9HX9ecx939QtqV-HVO-8ZBVzrQYNMQcEhWVStN9cS51WTu1FAfldV7sNTtVAl1Ca8XWqKH6bFTRTHLSoSZd39xlAsNlHsFFiB9U09vYsoGG8pgpwd0wR0d5ym2rackT0yplg4W84lyrGxvmYNXCCGknTBTeUgzcVzCwdJGqC3_d6TVjOOTSlaETk9A3l9gQUuG-NqcKidLjqaGc71yywY-HaSv27SuMGnVlCS5pZtLyp7xTqCRDKthz2XK1CE2tEMVLv94g-_0Ly8gyFfNkrADGhVohi0NbFnoWMYBBEVlNfXlARmHw_N-tlbUpISkHOIVg.jpg",
+      "author_photo_path": "channels/whitedns/media/427015f6d1d47f46590ee856.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/whitedns\"><span dir=\"auto\">White DNS</span></a> pinned «<span class=\"tgme_widget_service_strong_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B5.png')\"><b>🔵</b></i> WhiteVPN Desktop — نسخه ۱.۰.۱۵  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90A7.png')\"><b>🐧</b></i> رفع یک اشکال مهم روی لینوکس  روی لینوکس، بستن پنجره باعث می‌شد برنامه ناپدید شود اما در پس‌زمینه اجرا بماند — بدون هیچ آیکونی برای برگرداندنش. تنها راه بستنش، kill کردن از ترمینال بود.  دلیلش این بود: برنامه فرض می‌کرد آیکون…</span>»",
+      "plain_text": "White DNS pinned «🔵 WhiteVPN Desktop — نسخه ۱.۰.۱۵ 🐧 رفع یک اشکال مهم روی لینوکس روی لینوکس، بستن پنجره باعث می‌شد برنامه ناپدید شود اما در پس‌زمینه اجرا بماند — بدون هیچ آیکونی برای برگرداندنش. تنها راه بستنش، kill کردن از ترمینال بود. دلیلش این بود: برنامه فرض می‌کرد آیکون…»",
+      "media": [],
+      "reactions": [],
+      "views_label": null,
+      "posted_at": "2026-08-12T09:21:27+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1439",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1438",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/lOmmVvMlylhhkIm1cOX9HX9ecx939QtqV-HVO-8ZBVzrQYNMQcEhWVStN9cS51WTu1FAfldV7sNTtVAl1Ca8XWqKH6bFTRTHLSoSZd39xlAsNlHsFFiB9U09vYsoGG8pgpwd0wR0d5ym2rackT0yplg4W84lyrGxvmYNXCCGknTBTeUgzcVzCwdJGqC3_d6TVjOOTSlaETk9A3l9gQUuG-NqcKidLjqaGc71yywY-HaSv27SuMGnVlCS5pZtLyp7xTqCRDKthz2XK1CE2tEMVLv94g-_0Ly8gyFfNkrADGhVohi0NbFnoWMYBBEVlNfXlARmHw_N-tlbUpISkHOIVg.jpg",
+      "author_photo_path": "channels/whitedns/media/427015f6d1d47f46590ee856.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B5.png')\"><b>🔵</b></i> WhiteVPN Desktop — نسخه ۱.۰.۱۵<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90A7.png')\"><b>🐧</b></i> رفع یک اشکال مهم روی لینوکس<br><br>روی لینوکس، بستن پنجره باعث می‌شد برنامه ناپدید شود اما در پس‌زمینه اجرا بماند — بدون هیچ آیکونی برای برگرداندنش. تنها راه بستنش، kill کردن از ترمینال بود.<br><br>دلیلش این بود: برنامه فرض می‌کرد آیکون نوار وظیفه ساخته شده، در حالی که خیلی از محیط‌های دسکتاپ (از جمله گنوم بدون افزونهٔ AppIndicator) اصلاً چنین آیکونی نشان نمی‌دهند.<br><br>حالا برنامه واقعاً بررسی می‌کند که آیا آیکونی نمایش داده می‌شود یا نه. اگر نه، بستن پنجره یعنی بستن برنامه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> اشتراک اتصال روی شبکهٔ محلی<br><br>حالا می‌توانید اتصال این دستگاه را با دستگاه‌های دیگر روی همان شبکه به اشتراک بگذارید — گوشی، تلویزیون، یا هر چیزی که روی همان وای‌فای یا هات‌اسپات است.<br><br>تنظیمات ← اتصال ← «اشتراک روی شبکهٔ محلی» را روشن کنید. بعد از اتصال، آدرسی که در صفحهٔ اصلی نشان داده می‌شود را در دستگاه دیگر وارد کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> توجه کنید: هر کسی که روی آن شبکه باشد می‌تواند از این اتصال استفاده کند و از کسی رمز پرسیده نمی‌شود. این را برای هات‌اسپات خودتان یا شبکهٔ خانگی روشن کنید، نه روی وای‌فای عمومی.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A4.png')\"><b>📤</b></i> خروجی گرفتن دسته‌جمعی از کانفیگ‌ها<br><br>اگر کانفیگ‌های خودتان را وارد اپ می‌کنید و تستشان می‌گیرید، حالا می‌توانید آن‌هایی که تست را پاس کرده‌اند یکجا خروجی بگیرید — به‌جای اینکه یکی‌یکی share بزنید.<br><br>تست بگیرید ← موارد سالم را انتخاب کنید ← «خروجی انتخاب‌شده‌ها»<br><br>خروجی را می‌توانید کپی کنید یا در یک فایل ذخیره کنید تا به گوشی یا تلویزیون منتقل کنید. حالت Base64 هم موجود است، چون بعضی کلاینت‌ها همان را می‌پذیرند.<br><br>━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> اگر نسخهٔ ۱.۰.۱۴ نسخهٔ مک (Intel) را دانلود کرده‌اید<br><br>فایل آن نسخه ناقص ساخته شده بود و احتمالاً درست کار نمی‌کند. لطفاً نسخهٔ جدید را دانلود کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود:<br><a href=\"http://github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest</a>",
+      "plain_text": "🔵 WhiteVPN Desktop — نسخه ۱.۰.۱۵\n\n🐧 رفع یک اشکال مهم روی لینوکس\n\nروی لینوکس، بستن پنجره باعث می‌شد برنامه ناپدید شود اما در پس‌زمینه اجرا بماند — بدون هیچ آیکونی برای برگرداندنش. تنها راه بستنش، kill کردن از ترمینال بود.\n\nدلیلش این بود: برنامه فرض می‌کرد آیکون نوار وظیفه ساخته شده، در حالی که خیلی از محیط‌های دسکتاپ (از جمله گنوم بدون افزونهٔ AppIndicator) اصلاً چنین آیکونی نشان نمی‌دهند.\n\nحالا برنامه واقعاً بررسی می‌کند که آیا آیکونی نمایش داده می‌شود یا نه. اگر نه، بستن پنجره یعنی بستن برنامه.\n\n📡 اشتراک اتصال روی شبکهٔ محلی\n\nحالا می‌توانید اتصال این دستگاه را با دستگاه‌های دیگر روی همان شبکه به اشتراک بگذارید — گوشی، تلویزیون، یا هر چیزی که روی همان وای‌فای یا هات‌اسپات است.\n\nتنظیمات ← اتصال ← «اشتراک روی شبکهٔ محلی» را روشن کنید. بعد از اتصال، آدرسی که در صفحهٔ اصلی نشان داده می‌شود را در دستگاه دیگر وارد کنید.\n\n⚠️ توجه کنید: هر کسی که روی آن شبکه باشد می‌تواند از این اتصال استفاده کند و از کسی رمز پرسیده نمی‌شود. این را برای هات‌اسپات خودتان یا شبکهٔ خانگی روشن کنید، نه روی وای‌فای عمومی.\n\n📤 خروجی گرفتن دسته‌جمعی از کانفیگ‌ها\n\nاگر کانفیگ‌های خودتان را وارد اپ می‌کنید و تستشان می‌گیرید، حالا می‌توانید آن‌هایی که تست را پاس کرده‌اند یکجا خروجی بگیرید — به‌جای اینکه یکی‌یکی share بزنید.\n\nتست بگیرید ← موارد سالم را انتخاب کنید ← «خروجی انتخاب‌شده‌ها»\n\nخروجی را می‌توانید کپی کنید یا در یک فایل ذخیره کنید تا به گوشی یا تلویزیون منتقل کنید. حالت Base64 هم موجود است، چون بعضی کلاینت‌ها همان را می‌پذیرند.\n\n━━━━━━━━━━━━━━━\n\n⚠️ اگر نسخهٔ ۱.۰.۱۴ نسخهٔ مک (Intel) را دانلود کرده‌اید\n\nفایل آن نسخه ناقص ساخته شده بود و احتمالاً درست کار نمی‌کند. لطفاً نسخهٔ جدید را دانلود کنید.\n\n📥 دانلود:\ngithub.com/WhiteDNS/WhiteVPN-Desktop/releases/latest",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": "2"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "127",
+      "posted_at": "2026-08-12T09:21:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1438",
+      "reply": null
+    },
     {
       "id": "whitedns/1437",
       "author_name": "White DNS",
@@ -27,7 +68,7 @@
         },
         {
           "emoji": "👎",
-          "count": "15"
+          "count": "16"
         },
         {
           "emoji": "👍",
@@ -35,7 +76,7 @@
         },
         {
           "emoji": "❤",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "🥴",
@@ -46,7 +87,7 @@
           "count": "2"
         }
       ],
-      "views_label": "3.2K",
+      "views_label": "3.4K",
       "posted_at": "2026-08-12T08:26:55+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1437",
@@ -68,11 +109,11 @@
         },
         {
           "emoji": "❤",
-          "count": "140"
+          "count": "141"
         },
         {
           "emoji": "👏",
-          "count": "14"
+          "count": "15"
         },
         {
           "emoji": "❤‍🔥",
@@ -353,7 +394,7 @@
           "count": "1"
         }
       ],
-      "views_label": "42.7K",
+      "views_label": "42.8K",
       "posted_at": "2026-08-09T13:21:44+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1431",
@@ -694,7 +735,7 @@
           "count": "1"
         }
       ],
-      "views_label": "43.2K",
+      "views_label": "43.3K",
       "posted_at": "2026-08-08T06:54:29+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1424",
@@ -5254,100 +5295,6 @@
       "posted_at": "2026-07-25T04:14:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1307",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1304",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/W-1dH2sdPfGWPqhu62r3E2xsAgGcnRsBn-rmS1KsXtSt54n4k_b99c1U9lRLgdH30bPnVG7YL4HF8XvHuGH5Y8BltRTwhaCyMiSOMRjBIcvLmunxtdFXdmDUPaWFE58T7bKEOOsSAdwQ9sTroSeXnfAJLUlQrEEPh6sFPf2mN2Vz7hcSEnHV1I1mVycQjmkCnNx5yq0nM5VtGZH2RWbaQ3-rZYWPc_b-y0IpsEXP8ILLRoNPeA63ruaEDCF1LkozMUyon-ut9L9ktHMLBnt9sxg20LV9AQMKa59irGuWB7J3w5OtWqiGRdHm9BFsTCNCLYwGNBZ8We6lx4unVYuf5A.jpg",
-      "author_photo_path": "channels/whitedns/media/dd6a5bd6ea927f5cf17d9811.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b>آپدیت جدید Aether-GUI v0.6.0 منتشر شد! </b><br><br>هسته‌ی برنامه رو به نسخه‌ی جدید v1.4.0 ارتقا دادم. تو این نسخه تمرکز اصلی سازنده روی تأمین امنیت MASQUE، فیکس کردن باگ‌های مموری و بالا بردن پایداری اتصالات WireGuard و Gool بوده.<br>منم یه مشارکت کوچولویی روی خود هسته داشتم.<br><br>تغییرات اصلی این آپدیت:<br><br>1- <b>امنیت در پروتکل MASQUE:</b> قبلاً وقتی وصل می‌شدید، کلاینت هیچ تاییدیه‌ای از سرور نمی‌گرفت و اگر کسی وسط راه سعی می‌کرد با یه سرتیفیکیت فیک گولتون بزنه، برنامه متوجه نمی‌شد. اما الان اتصالات MASQUE سرتیفیکیت سرورهای کلادفلر رو به صورت دقیق (از طریق هش‌های SPKI) بررسی می‌کنن تا دیگه کسی نتونه ترافیک رو شنود کنه.<br><br>2- <b>پایداری WireGuard و Gool:</b> قبلاً بعضی وقتا برنامه بهتون می‌گفت متصل شدید، در حالی که دیتا اصلاً ردوبدل نمی‌شد و فقط روی یه پروکسی SOCKS5 گیر کرده بود. اما الان یه سیستم بررسی سلامت (Health Check) مداوم داره که اگر دیتایی از سمت سرور برنگرده، خودش به صورت اتوماتیک اتصال رو قطع و دوباره وصل می‌کنه.<br><br>3- <b>اتصال مجدد خودکار در Gool:</b> تو نسخه‌های قبل اگه تونل بیرونی Gool قطع می‌شد، کل فرآیند کِرَش می‌کرد و خارج می‌شد. الان Gool هم مثل بقیه پروتکل‌ها خودش هوشمندانه دوباره ریکانکت می‌کنه.<br><br>4- <b>فیکس شدن نشت مموری (Memory Leak):</b> یه باگ رو اعصاب بود که وقتی اتصالتون زیاد قطع و وصل می‌شد، تسک‌های قدیمی تو بک‌گراند باز می‌موندن و آروم‌آروم رمِ سیستم پر می‌شد. این مشکل تو تمام پروتکل‌ها کامل برطرف شد.<br><br>5- <b>هوشمندی در مصرف منابع:</b> از این به بعد Aether همون اول کار، تعداد هسته‌های CPU و مقدار رم سیستمتون رو می‌خونه و میزان اسکن همزمان (Concurrency)، بافرهای شبکه و صف‌های داخلیش رو بر همون اساس تنظیم می‌کنه. این قابلیت برای کسایی که می‌خوان ابزار رو روی روترها و بردهای ضعیف‌تر بالا بیارن فوق‌العاده‌ست.<br><br>لینک گیت‌هاب برای دانلود(نسخه‌های مک، لینوکس و ویندوز):<br><a href=\"https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.6.0\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.6.0</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "آپدیت جدید Aether-GUI v0.6.0 منتشر شد!\n\nهسته‌ی برنامه رو به نسخه‌ی جدید v1.4.0 ارتقا دادم. تو این نسخه تمرکز اصلی سازنده روی تأمین امنیت MASQUE، فیکس کردن باگ‌های مموری و بالا بردن پایداری اتصالات WireGuard و Gool بوده.\nمنم یه مشارکت کوچولویی روی خود هسته داشتم.\n\nتغییرات اصلی این آپدیت:\n\n1- امنیت در پروتکل MASQUE: قبلاً وقتی وصل می‌شدید، کلاینت هیچ تاییدیه‌ای از سرور نمی‌گرفت و اگر کسی وسط راه سعی می‌کرد با یه سرتیفیکیت فیک گولتون بزنه، برنامه متوجه نمی‌شد. اما الان اتصالات MASQUE سرتیفیکیت سرورهای کلادفلر رو به صورت دقیق (از طریق هش‌های SPKI) بررسی می‌کنن تا دیگه کسی نتونه ترافیک رو شنود کنه.\n\n2- پایداری WireGuard و Gool: قبلاً بعضی وقتا برنامه بهتون می‌گفت متصل شدید، در حالی که دیتا اصلاً ردوبدل نمی‌شد و فقط روی یه پروکسی SOCKS5 گیر کرده بود. اما الان یه سیستم بررسی سلامت (Health Check) مداوم داره که اگر دیتایی از سمت سرور برنگرده، خودش به صورت اتوماتیک اتصال رو قطع و دوباره وصل می‌کنه.\n\n3- اتصال مجدد خودکار در Gool: تو نسخه‌های قبل اگه تونل بیرونی Gool قطع می‌شد، کل فرآیند کِرَش می‌کرد و خارج می‌شد. الان Gool هم مثل بقیه پروتکل‌ها خودش هوشمندانه دوباره ریکانکت می‌کنه.\n\n4- فیکس شدن نشت مموری (Memory Leak): یه باگ رو اعصاب بود که وقتی اتصالتون زیاد قطع و وصل می‌شد، تسک‌های قدیمی تو بک‌گراند باز می‌موندن و آروم‌آروم رمِ سیستم پر می‌شد. این مشکل تو تمام پروتکل‌ها کامل برطرف شد.\n\n5- هوشمندی در مصرف منابع: از این به بعد Aether همون اول کار، تعداد هسته‌های CPU و مقدار رم سیستمتون رو می‌خونه و میزان اسکن همزمان (Concurrency)، بافرهای شبکه و صف‌های داخلیش رو بر همون اساس تنظیم می‌کنه. این قابلیت برای کسایی که می‌خوان ابزار رو روی روترها و بردهای ضعیف‌تر بالا بیارن فوق‌العاده‌ست.\n\nلینک گیت‌هاب برای دانلود(نسخه‌های مک، لینوکس و ویندوز):\nhttps://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.6.0\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1304",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/OnmyfdB1yf3j-PSOt2qjHG6s7l-kpxWX0CFiWhQygGhBrapUHOfjKCALys_Bm7-6-2yesl8cHBTLJEmgaL7QtWLDMwAhy54IyjchuBgjJ92JF3hJqQSY935F98UWZm6Cx2jr1HDel3HBBuQ5-mQaKcG87X5jq1CiWHQzBaXupWEm353wJG1MUxbRsRSVkZNDDKWmYDD1ul0DvYu7Nx445ARJqLXLQe4txD1RpRbU0Jnvv_GBYoG3XgOHZ5SLdzA9unschyDoVd3bhEQX3HZBjVOBOSTrYl-KUvzuxxOxVQwRLhmpgj9Lr450cJLWhjFmph0KFClZXg4UT66_6Gkm7g.jpg",
-          "thumbnail_path": "channels/whitedns/media/76c9436f4d5d019db7aa434f.jpg",
-          "thumbnail_sha256": "46604cc6aa5bef5f570ba52966d2abce5941a39d503c1f72792358a0068ffc94",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "120"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "9"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "👍",
-          "count": "1"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🥰",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "10.5K",
-      "posted_at": "2026-07-25T02:25:55+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1304",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1303",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/CegKwSmdQGwMhFdnqdyuPRorwxAFhE8fx1aazz0gRLi3k-rWeYapnCCOivRfIUrb4gZnycMro1ptniHyWY2Efru6-G1VUOxOO2yZMs0J401DvdFe4RA7M2NoZcHntjD2ELPX7mOKL-o466QXKVC0W8sakLiWK_LB8MKsvXGb4w8hLnWH9FRAsfLGTZDQ98Fq1NL0GriDQ5Ys-UKp0CXMznrDxwbzyLQKaOnHWdZ7IKCseAEf7qZXQP2WZPkGWlJ5VUkIuWCMZe-WScJE9uO1tp9Yi5uT5P2N-7Cuddm2WlzZ8auSfdcoCEvNNLKcc0jWmqxfrB6fvozK2Oyiur-hJg.jpg",
-      "author_photo_path": "channels/whitedns/media/b6b7a8665ab448795ba7360f.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b>پنج سرور اهدایی و فعال WhiteDNS داشته باشید برای زمان قطعی (کلیک کنید روش کپی میشه)</b><br><br><br><blockquote>Server #1 thx to Rasul <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i> </blockquote><br><blockquote>Location: Turkey <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87B9F09F87B7.png')\"><b>🇹🇷</b></i> </blockquote><br><br><blockquote>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7nwn4e3ICAgdGh4IHRvIFJhc3VsIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYW5vbnltb3VzLm9ic2VydmVyIiwiZW5jcnlwdGlvbl9rZXkiOiJiMjc1MDM5MTk5YjFjOGM5IiwiZW5jcnlwdGlvbl9tZXRob2QiOjN9fX0</blockquote><br><br><br><br><blockquote>Server #2 thx to Araskhatare <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i> </blockquote><br><blockquote>Location: Germany <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87A9F09F87AA.png')\"><b>🇩🇪</b></i></blockquote><br><br><blockquote>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6nwn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiI5ZGIxNjYwMmM4Yzc3NjcxOWJhZDE3ZWZjOWQxM2E0NCIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19</blockquote><br><br><br><blockquote>Server #3 thx to Araskhatare <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i> </blockquote><br><blockquote>Location: USA <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87B8.png')\"><b>🇺🇸</b></i></blockquote><br><br><blockquote>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7rwn4e4ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6ImVkMGNlZjE2YjcxNTNiOGQ4MzVhMzI3ODYxNTk3YzY0IiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0</blockquote><br><br><br><br><blockquote>Server #4 thx to Araskhatare <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i> </blockquote><br><blockquote>Location: France <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87ABF09F87B7.png')\"><b>🇫🇷</b></i> </blockquote><br><br><blockquote>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6vwn4e3ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImIuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiIyZjAyZTNiN2NiNTg3ZjM4M2U0MWM0MmU4ZWYzYWY2MSIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19</blockquote><br><br><br><br><blockquote>Server #5 thx to Araskhatare <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i> </blockquote><br><blockquote>Location: UK <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87ACF09F87A7.png')\"><b>🇬🇧</b></i></blockquote><br><br><blockquote>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6zwn4enICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImMuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiJkYmYwMmYyYWVmZmQzM2QyNDY0M2ViODM4OGY2N2Y0ZCIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19</blockquote><br><br><br><br><blockquote>Server #6 thx to Araskhatare <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299A5.png')\"><b>♥️</b></i> </blockquote><br><blockquote>Location: Ireland <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87AEF09F87AA.png')\"><b>🇮🇪</b></i> </blockquote><br><br><blockquote>stormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh67wn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImkuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6IjY0MTVlYjhmOTBmMWQ0NjY1N2JjZTljYjc5MTg2NDY2IiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0</blockquote><br><br><br><br><blockquote>آموزش استفاده از برنامه اندروید<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i></blockquote><br><blockquote><a href=\"https://www.youtube.com/watch?v=tz8cj7HzHVI\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=tz8cj7HzHVI</a></blockquote><br><br><blockquote>آموزش استفاده از برنامه ios<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i></blockquote><br><blockquote><a href=\"https://www.youtube.com/watch?v=filwdiPKN90\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=filwdiPKN90</a></blockquote><br><br><blockquote>آموزش استفاده از برنامه ویندوز<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i></blockquote><br><blockquote><a href=\"https://youtu.be/Mc--GlKw2wg\" target=\"_blank\" rel=\"noopener\">https://youtu.be/Mc--GlKw2wg</a></blockquote><br><br><br><blockquote><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a></blockquote>",
-      "plain_text": "پنج سرور اهدایی و فعال WhiteDNS داشته باشید برای زمان قطعی (کلیک کنید روش کپی میشه)\n\n\nServer #1 thx to Rasul ♥️\nLocation: Turkey 🇹🇷\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7nwn4e3ICAgdGh4IHRvIFJhc3VsIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYW5vbnltb3VzLm9ic2VydmVyIiwiZW5jcnlwdGlvbl9rZXkiOiJiMjc1MDM5MTk5YjFjOGM5IiwiZW5jcnlwdGlvbl9tZXRob2QiOjN9fX0\n\n\n\nServer #2 thx to Araskhatare ♥️\nLocation: Germany 🇩🇪\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6nwn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiI5ZGIxNjYwMmM4Yzc3NjcxOWJhZDE3ZWZjOWQxM2E0NCIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19\n\n\nServer #3 thx to Araskhatare ♥️\nLocation: USA 🇺🇸\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh7rwn4e4ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6InYuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6ImVkMGNlZjE2YjcxNTNiOGQ4MzVhMzI3ODYxNTk3YzY0IiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0\n\n\n\nServer #4 thx to Araskhatare ♥️\nLocation: France 🇫🇷\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6vwn4e3ICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImIuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiIyZjAyZTNiN2NiNTg3ZjM4M2U0MWM0MmU4ZWYzYWY2MSIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19\n\n\n\nServer #5 thx to Araskhatare ♥️\nLocation: UK 🇬🇧\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh6zwn4enICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImMuYXJhc2toYXRhcmUxLmdnZmYubmV0IiwiZW5jcnlwdGlvbl9rZXkiOiJkYmYwMmYyYWVmZmQzM2QyNDY0M2ViODM4OGY2N2Y0ZCIsImVuY3J5cHRpb25fbWV0aG9kIjoxfX19\n\n\n\nServer #6 thx to Araskhatare ♥️\nLocation: Ireland 🇮🇪\n\nstormdns://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoidC5tZVwvV2hpdGVETlMgIPCfh67wn4eqICAgdGh4IHRvIEFyYXNraGF0YXJlIiwic2VydmVyIjp7ImRvbWFpbiI6ImkuYXJhc2toYXRhcmUuZ2dmZi5uZXQiLCJlbmNyeXB0aW9uX2tleSI6IjY0MTVlYjhmOTBmMWQ0NjY1N2JjZTljYjc5MTg2NDY2IiwiZW5jcnlwdGlvbl9tZXRob2QiOjF9fX0\n\n\n\nآموزش استفاده از برنامه اندروید👇\nhttps://www.youtube.com/watch?v=tz8cj7HzHVI\n\nآموزش استفاده از برنامه ios👇\nhttps://www.youtube.com/watch?v=filwdiPKN90\n\nآموزش استفاده از برنامه ویندوز👇\nhttps://youtu.be/Mc--GlKw2wg\n\n\n@whitedns",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "125"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "9"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        }
-      ],
-      "views_label": "8.68K",
-      "posted_at": "2026-07-25T02:03:35+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1303",
       "reply": null
     }
   ]
