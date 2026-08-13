@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-13T09:52:04.664Z",
+  "fetched_at": "2026-08-13T09:57:14.204Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,44 @@
     "subscriber_count": "156K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4907",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/JSgLurnfwWgMTDsQgym1T6rFQ51Xq2d9h5TQ0vzrR9fWfjWFH6AHI_kiTVm6fg6Mp1MEx5VCmhnBR3xVl1YYAWyJOa4V3Vutyf37yHdwEA9a359ZUyrH4FjOPIkWKSgWImQtjQ7DBpIg_0RJtWT8Ysj7SSs_Qoey_S7yFbChCrzQ2vBl_gXWjVfmXDaL29glj5x8EkphNUtKFvpS5d1_zAcyQB01WjEjMwIHeAGsvGO69QrBvCza2pKpnlKCXXJcojMJK0pnyl9-Xm4AI1GmvKufMJfLISFCybU5YEMmUY4DFHlT0sK3XtrJQqmm-8oVwuvhLw19BKJaPyWiapqiZw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/32dda7377f75e28706306e88.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "گویا به آیپی‌های کلودفلر حساس شده<br>کانفیگ‌های کلودفلر رو با آیپی‌های دیگه chain proxy کنید باید درست بشه",
+      "plain_text": "گویا به آیپی‌های کلودفلر حساس شده\nکانفیگ‌های کلودفلر رو با آیپی‌های دیگه chain proxy کنید باید درست بشه",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "14"
+        },
+        {
+          "emoji": "🆒",
+          "count": "6"
+        },
+        {
+          "emoji": "💔",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.2K",
+      "posted_at": "2026-08-13T09:52:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4907",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4906",
+        "author_name": "Matin SenPai",
+        "preview_text": "دیپ سیک و میمو کلا روی 9Router+Opencode به مشکل خورده و فقط روی خود OpenCode در دسترسه واسه‌ی خودم احتمالا کلا محدود کردن دسترسی از api های غیررسمی رو",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/4906"
+      }
+    },
     {
       "id": "MatinSenPaii/4906",
       "author_name": "Matin SenPai",
@@ -23,7 +61,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "324"
+          "count": "327"
         },
         {
           "emoji": "👍",
@@ -46,7 +84,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.6K",
+      "views_label": "19.6K",
       "posted_at": "2026-08-12T19:36:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4906",
@@ -64,7 +102,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "380"
+          "count": "382"
         },
         {
           "emoji": "💔",
@@ -87,7 +125,7 @@
           "count": "4"
         }
       ],
-      "views_label": "21.4K",
+      "views_label": "22.1K",
       "posted_at": "2026-08-12T18:52:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4905",
@@ -128,7 +166,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.2K",
+      "views_label": "24.7K",
       "posted_at": "2026-08-12T17:25:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4904",
@@ -167,7 +205,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "270"
+          "count": "271"
         },
         {
           "emoji": "😁",
@@ -186,7 +224,7 @@
           "count": "5"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "26K",
       "posted_at": "2026-08-12T17:13:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4903",
@@ -223,7 +261,7 @@
           "count": "3"
         }
       ],
-      "views_label": "28.2K",
+      "views_label": "28.5K",
       "posted_at": "2026-08-12T12:02:42+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4902",
@@ -284,7 +322,7 @@
           "count": "13"
         }
       ],
-      "views_label": "37.2K",
+      "views_label": "37.5K",
       "posted_at": "2026-08-11T20:30:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4901",
@@ -325,7 +363,7 @@
           "count": "1"
         }
       ],
-      "views_label": "36.3K",
+      "views_label": "36.4K",
       "posted_at": "2026-08-11T18:38:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4900",
@@ -374,7 +412,7 @@
           "count": "1"
         }
       ],
-      "views_label": "36.5K",
+      "views_label": "36.6K",
       "posted_at": "2026-08-11T13:41:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4899",
@@ -432,7 +470,7 @@
           "count": "1"
         }
       ],
-      "views_label": "37K",
+      "views_label": "37.1K",
       "posted_at": "2026-08-11T09:46:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4898",
@@ -572,7 +610,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.9K",
+      "views_label": "30.1K",
       "posted_at": "2026-08-10T21:49:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4895",
@@ -716,7 +754,7 @@
           "count": "3"
         }
       ],
-      "views_label": "31.7K",
+      "views_label": "31.8K",
       "posted_at": "2026-08-10T20:02:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4891",
@@ -769,7 +807,7 @@
           "count": "2"
         }
       ],
-      "views_label": "30.1K",
+      "views_label": "30.2K",
       "posted_at": "2026-08-10T17:29:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4890",
@@ -791,7 +829,7 @@
         },
         {
           "emoji": "❤",
-          "count": "370"
+          "count": "371"
         },
         {
           "emoji": "👍",
@@ -836,7 +874,7 @@
         },
         {
           "emoji": "❤",
-          "count": "46"
+          "count": "47"
         },
         {
           "emoji": "😁",
@@ -4561,48 +4599,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4794",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4793",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/acn1yKUn9-mWn7q_5SV0YkGza0r2z8nQpN4nTTwBxhl9ULHCwVvtz0XQ3vfBBKX8d4WG-C1DavZSq_d60XOXm3UFZ6-cp9WyB5ef6o4DHxGk_gWLyT4vvPHSGXIAtt6n3ORnoBLDUuQ_UaofCqEMOhYr148yehUj7zGpH6-Ts_wn1Z8AZ7zIAxux4XaMVu9y7EYXU-JO1W5pLDxrgkMz0k7M4-UYSSuYRRkGGI9dFsnIBbJvyx0suElmP103mp-a7MlTZZ_ynIJd8oNVloLzPmEEXOEuez6S4hacARoMFrENuiq8XK4DyNwG2d6H73HXLW1Qbe5trwvVIeNrZftSxg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/41699457eb6cf0231c58323d.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "154"
-        },
-        {
-          "emoji": "👍",
-          "count": "5"
-        },
-        {
-          "emoji": "❤",
-          "count": "2"
-        },
-        {
-          "emoji": "💔",
-          "count": "2"
-        }
-      ],
-      "views_label": "21.5K",
-      "posted_at": "2026-08-02T21:21:54+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4793",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4792",
-        "author_name": "iran internet monitor",
-        "preview_text": "+000000000 😔 شرکت PCCW Global",
-        "thumbnail_url": "https://cdn4.telesco.pe/file/BOE5RvHCh9GrxWKPQjNKHBG0F1pmf7mDXXM1-O7iDNoxDQPq_uAeqK1DMt4J50fx8KFx-23iC18HYrKHUtp23hqTwK9sG9UAbP5bwxfzs817NC2sheanbRzTxfI26TenCCxaeDhsKCpY1T-KVTzKLDdxF5Iru9ErfhzIK95qNLJql6yKS2-7oO80rJkl3DOIIMYLkwXqHrcKaMPMfmX0UhDal892h1ozCDL5zZmltXHgh-_ho3J_QdWO5D2MODcxIVZJ-w0jO8GKxET2WTNqWQWZD06Co2vSvrGjIRLpiWbBEinAYlL8TAnfrBLw9Snw06p9sP7G8JXVp4cWVokcIQ.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/106c61957a51960d90fa0d6f.jpg",
-        "thumbnail_sha256": "ee955ee88ee4b0085b80099b4c66de803b3c781cc2afd494cecb92ab3ba4a86b",
-        "permalink": "https://t.me/matinsenpaii/4792"
-      }
     }
   ]
 }
