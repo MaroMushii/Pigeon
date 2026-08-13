@@ -1,6 +1,27 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-13T03:16:03.979Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-08-13T03:18:52.654Z",
+  "succeeded": 18,
+  "failed": [
+    {
+      "username": "bidarzani",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "farsi_iranwire",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "filter_watch",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "hranews",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "iranintltv",
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
 }
