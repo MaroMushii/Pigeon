@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-14T17:32:29.038Z",
+  "fetched_at": "2026-08-14T17:35:40.947Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,48 @@
     "subscriber_count": "156K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4934",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/qMzAWoUUxrpB7f0tHMj4z3wZ22YfSv__GjHBcj7jVBwYUI7tTTvEvzspa0YsUZZyJ6SajzuA8CxZ1bLNIS6Ib7lrOQMYCt5n9qBoFfts8WY5PL5HaxkL0VsDCA68neHlfeW0tdfnozkkctmasElkp6GnIW_H4eBeSyT3KqfC5vRpOZTYM7tWj9e5hD0shN-RXMk8Z6NGm6_ibDmlfLpvN9wSCq6rN94br4wgJpOxCyrGTJ43RQFvxyORN6WeFfxlajQYL3sudvkTiiamRZlTw_AcajyC_QWD1ynSaE5PrCczS8ILJgqwWMtA8rZbpW5EH-Mjr7MVL1db9JMPT1xjkw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/31708af1b79e3fa26960b984.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "یه خورده هنوز امکاناتش کمه همونطور که گفتم<br>اما واقعا compatibility بالایی داره با خود مدلهای چینی",
+      "plain_text": "یه خورده هنوز امکاناتش کمه همونطور که گفتم\nاما واقعا compatibility بالایی داره با خود مدلهای چینی",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4934",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ZyQWF_n0JhEtaHjDKT1bj41pQuNiF-vcAhAu_6_o1MIYte_Zez3AgWq9MYKB7Oxq0xsheEewlQr7EgYyEUujAEXjUE-Ay66QFCfvU-divTA99e9D3WR4c-k5V735wa5vbrQ-D92V6yEVqpJVAWHQC5nnqyfoTrTe97FFXY_EYfQxofR6w70kMvIjC64LquC00hrszGw2DVddrPfIZPuizt0YD4eClp0mPvRFzuT2MiUGoQzESq-GXwCTAHg08cftyqu6DzWx49MES4aN59vW0v9MFpvEM5lTqwWyr8_EFrnbjJpHkvsX62gmwFmk13GoTV3rDeCoqydz6qLQg7gA0A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/2244d9b0b1d5519d9e5fd437.jpg",
+          "thumbnail_sha256": "64dd96a79e41fc2295f14d0da99b94ad3c1409cf52e742b2220baf468cc7e4d5",
+          "duration_label": null,
+          "aspect_ratio": 2.030456852791878
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "8"
+        }
+      ],
+      "views_label": "918",
+      "posted_at": "2026-08-14T17:33:58+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4934",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "4932",
+        "author_name": "Matin SenPai",
+        "preview_text": "دیپ سیک هارنس رو دارم تست می‌کنم، خیلی باحاله محیط UI اش سبکه، و کاربرا هم توی ردیت خیلی گفتن که Caching اش عالیه. یه بنده خدایی قسم میخورد 4 ساعت باهاش کار کردم با deepseek pro فقط 60 سنت مصرف شده بود. باحالترین قابلیتش اینه که میشه Mode شخصی ساخت. و از معایبش…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/lvDYyytuES0tigwt_7wNGay07Nvk0CRcc52NJgthW6PtdAldfq3rYilu9qB8sdj6VrFBXnlkWWA93-oCD3hmWAzVTHT9lb3cm1pAi-3c-kBfF0rTst8-uoOZGPQvEHX4v4RbfOXUaoQoMePmng_48Amfj5AFHGz7KZXPCEgdrEAXWXMxp9IcfCwn7tnTknPjYCBt5cjiVQd0lr735ENscVwL6X2XdTWP1WG4sQqJsCqxQMQ1CR96M5Pa1ggfc41LB0t4Fm8tBKUM24xAU4IXoLvZdHp0H1FDqjJuGUtyLqbuR3HnC7TDzT2JNWMowEwQycz3J1rhQk00ciID8vB38g.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/d8f309d5b955695088015691.jpg",
+        "thumbnail_sha256": "ab104f514bb692a2542f16ac02cf5e236575450271af8b9c7bf0858255bb64aa",
+        "permalink": "https://t.me/matinsenpaii/4932"
+      }
+    },
     {
       "id": "MatinSenPaii/4933",
       "author_name": "Matin SenPai",
@@ -35,7 +77,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "25"
+          "count": "31"
         },
         {
           "emoji": "🆒",
@@ -43,10 +85,10 @@
         },
         {
           "emoji": "❤",
-          "count": "3"
+          "count": "4"
         }
       ],
-      "views_label": "2.96K",
+      "views_label": "3.72K",
       "posted_at": "2026-08-14T17:20:43+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4933",
@@ -85,7 +127,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "42"
+          "count": "46"
         },
         {
           "emoji": "❤",
@@ -96,7 +138,7 @@
           "count": "2"
         }
       ],
-      "views_label": "4.12K",
+      "views_label": "4.69K",
       "posted_at": "2026-08-14T17:16:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4932",
@@ -126,7 +168,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "527"
+          "count": "531"
         },
         {
           "emoji": "👍",
@@ -145,7 +187,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.3K",
       "posted_at": "2026-08-14T14:59:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4931",
@@ -167,7 +209,7 @@
         },
         {
           "emoji": "👍",
-          "count": "202"
+          "count": "205"
         },
         {
           "emoji": "❤",
@@ -178,7 +220,7 @@
           "count": "8"
         }
       ],
-      "views_label": "16K",
+      "views_label": "16.2K",
       "posted_at": "2026-08-14T14:42:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4930",
@@ -221,7 +263,7 @@
         },
         {
           "emoji": "❤",
-          "count": "88"
+          "count": "90"
         },
         {
           "emoji": "👍",
@@ -232,7 +274,7 @@
           "count": "3"
         }
       ],
-      "views_label": "15.3K",
+      "views_label": "15.5K",
       "posted_at": "2026-08-14T14:41:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4929",
@@ -269,7 +311,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21K",
+      "views_label": "21.1K",
       "posted_at": "2026-08-14T09:11:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4928",
@@ -400,7 +442,7 @@
           "count": "3"
         }
       ],
-      "views_label": "22.3K",
+      "views_label": "22.4K",
       "posted_at": "2026-08-14T08:36:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4924",
@@ -458,7 +500,7 @@
           "count": "5"
         }
       ],
-      "views_label": "23.1K",
+      "views_label": "23.2K",
       "posted_at": "2026-08-14T07:12:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4923",
@@ -516,7 +558,7 @@
           "count": "3"
         }
       ],
-      "views_label": "26K",
+      "views_label": "26.1K",
       "posted_at": "2026-08-13T17:12:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4922",
@@ -604,7 +646,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24.2K",
+      "views_label": "24.3K",
       "posted_at": "2026-08-13T16:45:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4920",
@@ -665,7 +707,7 @@
           "count": "4"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "23.8K",
       "posted_at": "2026-08-13T16:29:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4918",
@@ -840,7 +882,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.3K",
+      "views_label": "21.4K",
       "posted_at": "2026-08-13T16:12:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4913",
@@ -4615,59 +4657,6 @@
       "posted_at": "2026-08-04T10:36:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4824",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4823",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DN6k2gkvMnR3qnBOZ3VWZZaaIIVeBq7LYHzfFXv-XXd8da5FWv4Xds_rmzW4j5esXZc0Hr90sBGaKoeFsChkvJFVc0HfC-TL_4iS3yGUqblesv0-sm_pxDQ5eN2vtKhssp50Ml8B3cy5ABBe3zGivsHQytabYI6UnjksEQrT46XaYvfSmT07Om02Y0YrSBH6qLm1R_e8ui6HJfkbSBLCXamHpAlmYkCPwk7oAcyeJkXsHVyF70jLuPHrmKuaDFx7uCjMZJFpEnltUHDfThj1WKKGUwX76VW0P01DVuWdH56rlLADn6r1eGlEGrjtycHKjBc7Qfj_ixH9MgY29iAATg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/b2e37dc8332d305cfb79eefc.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<tg-emoji emoji-id=\"5330280024673101519\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8DB7.png')\"><b>🍷</b></i></tg-emoji>درود به همه رفقا...<br>آموزش <b>سا</b>خت کانفیگ Amnezia VPN(وارپ)<br><br><blockquote>• صبرکنید ای پی ها رو لود کنه<br><br>• بعد یکی انتخاب کنید<br><br>• تیک فعال سازی پارامترهای امنزیا 1.5 حتما بزنید<br><br>• بزنید روی ساخت کانفیگ Amneziawg<br><br>• دانلود کنید وارد کنید داخل Amnezia VPN<br><br>• میتونیدم کانفیگو کپی کنید + بزنید بعد insert بزنید کانفیگ اضافه بشه<br></blockquote> <br><tg-emoji emoji-id=\"5312536423851630001\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i></tg-emoji>نکته:روی تمام اپراتور ها متصله هست.<br><br>لینک ابزار(ساخت کانفیگ):<tg-emoji emoji-id=\"5470177992950946662\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i></tg-emoji><br><br><blockquote><a href=\"https://darknessshade.github.io/Amnezia-VPN-Config/\" target=\"_blank\" rel=\"noopener\">https://darknessshade.github.io/Amnezia-VPN-Config/</a></blockquote><br><br><a href=\"https://apps.apple.com/us/app/amneziavpn/id1600529900\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود اپلیکیشن ios</a><br><a href=\"https://play.google.com/store/apps/details?id=org.amnezia.vpn\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود اپلیکیشن اندروید</a><br><br><a href=\"https://t.me/xsfilterrnet\" target=\"_blank\">@xsfilterrnet</a>  <tg-emoji emoji-id=\"5053169761232356354\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji><br><a href=\"https://t.me/ConfigWireguard\" target=\"_blank\">@ConfigWireguard</a> <tg-emoji emoji-id=\"6100433275061276851\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji>",
-      "plain_text": "🍷درود به همه رفقا...\nآموزش ساخت کانفیگ Amnezia VPN(وارپ)\n\n• صبرکنید ای پی ها رو لود کنه\n\n• بعد یکی انتخاب کنید\n\n• تیک فعال سازی پارامترهای امنزیا 1.5 حتما بزنید\n\n• بزنید روی ساخت کانفیگ Amneziawg\n\n• دانلود کنید وارد کنید داخل Amnezia VPN\n\n• میتونیدم کانفیگو کپی کنید + بزنید بعد insert بزنید کانفیگ اضافه بشه\n\n💡نکته:روی تمام اپراتور ها متصله هست.\n\nلینک ابزار(ساخت کانفیگ):👇\n\nhttps://darknessshade.github.io/Amnezia-VPN-Config/\n\nدانلود اپلیکیشن ios\nدانلود اپلیکیشن اندروید\n\n@xsfilterrnet 👑\n@ConfigWireguard ✅",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/MatinSenPaii/4823",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/QsA4xJOVmxZQvwZTS6SpnEWgnmK8Sv1C1KjWYruyNeEOihM8ipuez6UZXV5HnCIAfeNQ5HPrQ7SjfedZYEUrbRSYcu6mgi9YUQOghbl1BEewvKrqkQqoTCspyfCYsGoW6c7ozH14-BwD7ohJejiP2AkOK4t68rvWVm6nk8P-o2qECQq0IFQi2KwrAnRCO7n7SPahJyKWTZGpcbPb14tW84G-tKfP6I2Iy1UmD_SkH4TC3GrRsMgKt578fu4-ZbfiQV-CDaZu9BG_VLmFSFOEpxsTCNAhyRRYf3jLZqtyv6Ldbgf_X1wfMDlCqsyfo7cnxRr3qqwDclngQOiFkhjreA",
-          "thumbnail_path": "channels/matinsenpaii/media/1a2a192921e144f9f94f0eef.jpg",
-          "thumbnail_sha256": "d8b0c3e605a0b100aa33bd26a5ed2c5b9c417dec0606e5ccdedf2320849a5a41",
-          "duration_label": "0:49",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "176"
-        },
-        {
-          "emoji": "👍",
-          "count": "13"
-        },
-        {
-          "emoji": "💔",
-          "count": "3"
-        },
-        {
-          "emoji": "🆒",
-          "count": "3"
-        },
-        {
-          "emoji": "😁",
-          "count": "2"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        }
-      ],
-      "views_label": "21.8K",
-      "posted_at": "2026-08-04T04:33:15+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4823",
       "reply": null
     }
   ]
