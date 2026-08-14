@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-14T11:57:35.939Z",
+  "fetched_at": "2026-08-14T12:02:47.760Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,27 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1470",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/EjTpxFDFyq8wxKjTHvtYNFCZzMXRTgBqRT2-2q4gHmeH832a4qtfRiwb4j4TG8jcL0ZZROEpYMVgus5-rZJCJPYo86_auHRcdte0AuEdSmHetr4OJZJI8iPQveSIFJ-XSxk5x6MnQpYMlZO_dUdg5Rir2RITOVsFnvG9rxY_xhtP1FKQp_H3bes1Qv1Rg2DQP_GSFbjUVjCdfZCuTH1P7PwM_uBqft6KMZs7BqkhCxO-V9voaVMLRdTmCFE756LIYQYYQd86IlZNzC-f80Hpm10v0WS5vODoeXCaamj0FBoRf3Y7emvPvWJDwYJNlh5HMgHA35ie6WOnIeUbd8NDAA.jpg",
+      "author_photo_path": "channels/whitedns/media/6d3284d0ab940e39f656df82.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> نسخه‌ی 2.0.1 اپلیکیشن UAC SNI Spoofer برای اندروید منتشر شد<br><br>در نسخه‌ی 2.0.1 تمرکز اصلی روی این بوده که برنامه در شبکه‌ها، اپراتورها و مناطق مختلف، مسیرهای سالم‌تر و سریع‌تر رو پیدا کنه و در صورت افت کیفیت یا از دست رفتن مسیر فعلی، بتونه مسیر مناسب‌تری رو جایگزین کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> یکی از مهم‌ترین قابلیت‌های این نسخه، تلاش برای زنده‌کردن کانفیگ‌هایی هست که در حالت عادی دیگه قابل استفاده نیستن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>اگر کانفیگی دارید که IP سرورش روی اپراتور یا شبکه شما بلاک شده<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> مطمئن هستید کانفیگ سالمه ولی در برنامه‌هایی مثل v2rayNG متصل نمی‌شه<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> کانفیگ فقط روی یک اپراتور خاص کار می‌کنه و روی اپراتورهای دیگه از دسترس خارج شده<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> کانفیگ قبلاً کار می‌کرده ولی به‌دلیل تغییر محدودیت‌های شبکه دیگه متصل نمی‌شه<br><br>UAC SNI Spoofer می‌تونه با بررسی ترکیب‌های مختلف مسیر، DNS، Edge، Fragment، MTU و سایر پارامترهای اتصال، برای پیدا کردن یک مسیر قابل استفاده تلاش کنه.<br><br>در تست‌های انجام‌شده، برنامه تونسته بخش بسیار زیادی از کانفیگ‌های سالم ولی محدودشده رو دوباره قابل استفاده کنه و در بعضی شرایط میزان موفقیت تا حدود 98٪ هم رسیده.<br><br>البته نتیجه نهایی به نوع فیلترینگ، اپراتور، منطقه، وضعیت سرور و کیفیت اینترنت شما بستگی داره.<br><br>تغییرات نسخه 2.0.1:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> برنامه برای هر شبکه یک اثرانگشت جداگانه ایجاد می‌کنه و تنظیمات موفق همون شبکه رو ذخیره می‌کنه تا دفعات بعد سریع‌تر به مسیر مناسب برسه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> بخش Route Speed Test حالا می‌تونه ترکیب‌های مختلف Edge، DNS، Fragment و MTU رو بررسی کنه و بهترین مسیر فقط براساس Ping انتخاب نمی‌شه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> مسیرها در چند مرحله از نظر اتصال، سرعت، پایداری، نوسان و میزان موفقیت بررسی می‌شن و بهترین نتایج بالای لیست قرار می‌گیرن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> امکان توقف Route Speed Test و ادامه‌دادن اون در زمان دیگه اضافه شده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> می‌تونید هر زمان که خواستید مسیرهای سالم پیدا شده رو به مرحله بعد بفرستید و لازم نیست منتظر پایان کامل تست بمونید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> برای هر کانفیگ و هر شبکه، یک مسیر اصلی و یک مسیر پشتیبان ذخیره می‌شه تا اتصال سریع‌تر انجام بشه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> اگر شبکه تغییر کنه یا کیفیت مسیر فعلی افت کنه، برنامه می‌تونه سراغ مسیر پشتیبان بره و برای بازیابی اتصال تلاش کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> سرویس‌های مختلف DNS مثل Cloudflare، Google، Quad9، AdGuard و OpenDNS در دسترس هستند و همراه مسیرهای مختلف قابل تست هستن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> بخش Config Maker دارای دو حالت Quick Scan و Deep Adaptive Test شده؛ یکی برای بررسی سریع و دیگری برای تست دقیق‌تر و گسترده‌تر مسیرها.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> امکان وارد کردن کانفیگ از متن، Clipboard، فایل و Subscription Link وجود داره.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> لینک‌های جدید بدون حذف نتایج قبلی به لیست اضافه می‌شن و کانفیگ‌های تکراری به‌صورت خودکار حذف می‌شن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> کانفیگ‌های VLESS، VMess و Trojan پشتیبانی می‌شن و مشخصات اصلی کانفیگ تا جای ممکن بدون تغییر باقی می‌مونه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> برای برنامه‌های گوشی سه حالت Routing در دسترسه: عبور همه برنامه‌ها از VPN، خارج‌کردن برنامه‌های انتخابی از VPN یا استفاده از VPN فقط برای برنامه‌های انتخابی.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> حالت Tunnel و پروکسی محلی SOCKS در دسترس هست و تنظیماتی مثل Fragment، FinalMask، MTU، Mux، Keepalive و کنترل QUIC هم قابل تغییر هستن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> Ping، میزان دانلود و آپلود، کشور، IP خروجی و اطلاعات فنی اتصال به‌صورت زنده نمایش داده می‌شن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> بعد از اضافه‌کردن برنامه به Quick Settings اندروید، می‌تونید بدون بازکردن برنامه VPN رو مستقیماً روشن یا خاموش کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> نکته مهم:<br><br>محدودیت‌های فیلترینگ در هر منطقه، اپراتور و حتی در زمان‌های مختلف می‌تونه متفاوت باشه. به همین دلیل ممکنه کانفیگ داخلی برنامه برای بعضی کاربران متصل نشه یا روی بعضی شبکه‌ها کیفیت متفاوتی داشته باشه.<br><br>در حال بررسی مسیرها و محدودیت‌های شبکه‌های مختلف هستم تا روش‌های بیشتری شناسایی بشن و برنامه بتونه در مناطق و اپراتورهای بیشتری محدودیت‌ها رو دور بزنه.<br><br>همچنین حتماً مطمئن بشید اینترنت اصلی شما سرعت دانلود و آپلود قابل قبولی داره. VPN نمی‌تونه ضعف شدید یا ناپایداری اینترنت پایه رو جبران کنه و کیفیت اتصال نهایی به کیفیت شبکه شما هم وابسته است.<br><br>━━━━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دریافت نسخه 2.0.1:<br><a href=\"https://github.com/Floxu1/UAC-SNI-Spoofer-Android/releases/tag/2.0.1\" target=\"_blank\" rel=\"noopener\">https://github.com/Floxu1/UAC-SNI-Spoofer-Android/releases/tag/2.0.1</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> گیت‌هاب پروژه:<br><a href=\"https://github.com/Floxu1/UAC-SNI-Spoofer-Android/tree/main\" target=\"_blank\" rel=\"noopener\">https://github.com/Floxu1/UAC-SNI-Spoofer-Android/tree/main</a><br><br>جهت حمایت از من اگر دوست داشتین وارد لینک رفرال من در NotHolidaySeasonBot بشین <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i> :<br><br><a href=\"https://t.me/NotHolidaySeasonBot/app?startapp=tr_aFLKAgxVq8ezM310c0sS\" target=\"_blank\" rel=\"noopener\">https://t.me/NotHolidaySeasonBot/app?startapp=tr_aFLKAgxVq8ezM310c0sS</a><br><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A2.png')\"><b>📢</b></i> کانال:<br><br><a href=\"http://t.me/UacSniSpoofer\" target=\"_blank\" rel=\"noopener\">t.me/UacSniSpoofer</a>",
+      "plain_text": "🛡 نسخه‌ی 2.0.1 اپلیکیشن UAC SNI Spoofer برای اندروید منتشر شد\n\nدر نسخه‌ی 2.0.1 تمرکز اصلی روی این بوده که برنامه در شبکه‌ها، اپراتورها و مناطق مختلف، مسیرهای سالم‌تر و سریع‌تر رو پیدا کنه و در صورت افت کیفیت یا از دست رفتن مسیر فعلی، بتونه مسیر مناسب‌تری رو جایگزین کنه.\n\n⚡️ یکی از مهم‌ترین قابلیت‌های این نسخه، تلاش برای زنده‌کردن کانفیگ‌هایی هست که در حالت عادی دیگه قابل استفاده نیستن.\n\n🔹اگر کانفیگی دارید که IP سرورش روی اپراتور یا شبکه شما بلاک شده\n\n🔹 مطمئن هستید کانفیگ سالمه ولی در برنامه‌هایی مثل v2rayNG متصل نمی‌شه\n\n🔹 کانفیگ فقط روی یک اپراتور خاص کار می‌کنه و روی اپراتورهای دیگه از دسترس خارج شده\n\n🔹 کانفیگ قبلاً کار می‌کرده ولی به‌دلیل تغییر محدودیت‌های شبکه دیگه متصل نمی‌شه\n\nUAC SNI Spoofer می‌تونه با بررسی ترکیب‌های مختلف مسیر، DNS، Edge، Fragment، MTU و سایر پارامترهای اتصال، برای پیدا کردن یک مسیر قابل استفاده تلاش کنه.\n\nدر تست‌های انجام‌شده، برنامه تونسته بخش بسیار زیادی از کانفیگ‌های سالم ولی محدودشده رو دوباره قابل استفاده کنه و در بعضی شرایط میزان موفقیت تا حدود 98٪ هم رسیده.\n\nالبته نتیجه نهایی به نوع فیلترینگ، اپراتور، منطقه، وضعیت سرور و کیفیت اینترنت شما بستگی داره.\n\nتغییرات نسخه 2.0.1:\n\n🔹 برنامه برای هر شبکه یک اثرانگشت جداگانه ایجاد می‌کنه و تنظیمات موفق همون شبکه رو ذخیره می‌کنه تا دفعات بعد سریع‌تر به مسیر مناسب برسه.\n\n🔹 بخش Route Speed Test حالا می‌تونه ترکیب‌های مختلف Edge، DNS، Fragment و MTU رو بررسی کنه و بهترین مسیر فقط براساس Ping انتخاب نمی‌شه.\n\n🔹 مسیرها در چند مرحله از نظر اتصال، سرعت، پایداری، نوسان و میزان موفقیت بررسی می‌شن و بهترین نتایج بالای لیست قرار می‌گیرن.\n\n🔹 امکان توقف Route Speed Test و ادامه‌دادن اون در زمان دیگه اضافه شده.\n\n🔹 می‌تونید هر زمان که خواستید مسیرهای سالم پیدا شده رو به مرحله بعد بفرستید و لازم نیست منتظر پایان کامل تست بمونید.\n\n🔹 برای هر کانفیگ و هر شبکه، یک مسیر اصلی و یک مسیر پشتیبان ذخیره می‌شه تا اتصال سریع‌تر انجام بشه.\n\n🔹 اگر شبکه تغییر کنه یا کیفیت مسیر فعلی افت کنه، برنامه می‌تونه سراغ مسیر پشتیبان بره و برای بازیابی اتصال تلاش کنه.\n\n🔹 سرویس‌های مختلف DNS مثل Cloudflare، Google، Quad9، AdGuard و OpenDNS در دسترس هستند و همراه مسیرهای مختلف قابل تست هستن.\n\n🔹 بخش Config Maker دارای دو حالت Quick Scan و Deep Adaptive Test شده؛ یکی برای بررسی سریع و دیگری برای تست دقیق‌تر و گسترده‌تر مسیرها.\n\n🔹 امکان وارد کردن کانفیگ از متن، Clipboard، فایل و Subscription Link وجود داره.\n\n🔹 لینک‌های جدید بدون حذف نتایج قبلی به لیست اضافه می‌شن و کانفیگ‌های تکراری به‌صورت خودکار حذف می‌شن.\n\n🔹 کانفیگ‌های VLESS، VMess و Trojan پشتیبانی می‌شن و مشخصات اصلی کانفیگ تا جای ممکن بدون تغییر باقی می‌مونه.\n\n🔹 برای برنامه‌های گوشی سه حالت Routing در دسترسه: عبور همه برنامه‌ها از VPN، خارج‌کردن برنامه‌های انتخابی از VPN یا استفاده از VPN فقط برای برنامه‌های انتخابی.\n\n🔹 حالت Tunnel و پروکسی محلی SOCKS در دسترس هست و تنظیماتی مثل Fragment، FinalMask، MTU، Mux، Keepalive و کنترل QUIC هم قابل تغییر هستن.\n\n🔹 Ping، میزان دانلود و آپلود، کشور، IP خروجی و اطلاعات فنی اتصال به‌صورت زنده نمایش داده می‌شن.\n\n🔹 بعد از اضافه‌کردن برنامه به Quick Settings اندروید، می‌تونید بدون بازکردن برنامه VPN رو مستقیماً روشن یا خاموش کنید.\n\n⚠️ نکته مهم:\n\nمحدودیت‌های فیلترینگ در هر منطقه، اپراتور و حتی در زمان‌های مختلف می‌تونه متفاوت باشه. به همین دلیل ممکنه کانفیگ داخلی برنامه برای بعضی کاربران متصل نشه یا روی بعضی شبکه‌ها کیفیت متفاوتی داشته باشه.\n\nدر حال بررسی مسیرها و محدودیت‌های شبکه‌های مختلف هستم تا روش‌های بیشتری شناسایی بشن و برنامه بتونه در مناطق و اپراتورهای بیشتری محدودیت‌ها رو دور بزنه.\n\nهمچنین حتماً مطمئن بشید اینترنت اصلی شما سرعت دانلود و آپلود قابل قبولی داره. VPN نمی‌تونه ضعف شدید یا ناپایداری اینترنت پایه رو جبران کنه و کیفیت اتصال نهایی به کیفیت شبکه شما هم وابسته است.\n\n━━━━━━━━━━━━━━━━━━\n\n📥 دریافت نسخه 2.0.1:\nhttps://github.com/Floxu1/UAC-SNI-Spoofer-Android/releases/tag/2.0.1\n\n💻 گیت‌هاب پروژه:\nhttps://github.com/Floxu1/UAC-SNI-Spoofer-Android/tree/main\n\nجهت حمایت از من اگر دوست داشتین وارد لینک رفرال من در NotHolidaySeasonBot بشین ❤️ :\n\nhttps://t.me/NotHolidaySeasonBot/app?startapp=tr_aFLKAgxVq8ezM310c0sS\n\n\n📢 کانال:\n\nt.me/UacSniSpoofer",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "38",
+      "posted_at": "2026-08-14T12:02:23+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1470",
+      "reply": null
+    },
     {
       "id": "whitedns/1468",
       "author_name": "White DNS",
@@ -62,7 +83,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.3K",
+      "views_label": "5.33K",
       "posted_at": "2026-08-14T08:02:16+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1468",
@@ -135,7 +156,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.6K",
+      "views_label": "6.63K",
       "posted_at": "2026-08-14T06:27:02+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1467",
@@ -196,7 +217,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.62K",
+      "views_label": "6.64K",
       "posted_at": "2026-08-14T06:08:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1466",
@@ -270,7 +291,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.1K",
+      "views_label": "7.12K",
       "posted_at": "2026-08-14T05:28:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1464",
@@ -315,7 +336,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.92K",
+      "views_label": "6.93K",
       "posted_at": "2026-08-14T05:28:00+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1459",
@@ -384,7 +405,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.4K",
+      "views_label": "7.44K",
       "posted_at": "2026-08-14T05:25:43+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1458",
@@ -5360,71 +5381,6 @@
       "posted_at": "2026-07-27T20:33:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1334",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1333",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
-      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5224450179368767019\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8E.png')\"><b>🌎</b></i></tg-emoji> نسخه جدید WhiteVPN 1.1.0 منتشر شد!",
-      "plain_text": "🌎 نسخه جدید WhiteVPN 1.1.0 منتشر شد!",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "373"
-        },
-        {
-          "emoji": "👍",
-          "count": "30"
-        },
-        {
-          "emoji": "💩",
-          "count": "24"
-        },
-        {
-          "emoji": "👎",
-          "count": "8"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "🕊",
-          "count": "5"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "😭",
-          "count": "1"
-        },
-        {
-          "emoji": "🫡",
-          "count": "1"
-        },
-        {
-          "emoji": "🆒",
-          "count": "1"
-        }
-      ],
-      "views_label": "12.1K",
-      "posted_at": "2026-07-27T14:17:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1333",
       "reply": null
     }
   ]
