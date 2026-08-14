@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-14T17:12:08.322Z",
+  "fetched_at": "2026-08-14T17:17:34.589Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "156K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/4932",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/qMzAWoUUxrpB7f0tHMj4z3wZ22YfSv__GjHBcj7jVBwYUI7tTTvEvzspa0YsUZZyJ6SajzuA8CxZ1bLNIS6Ib7lrOQMYCt5n9qBoFfts8WY5PL5HaxkL0VsDCA68neHlfeW0tdfnozkkctmasElkp6GnIW_H4eBeSyT3KqfC5vRpOZTYM7tWj9e5hD0shN-RXMk8Z6NGm6_ibDmlfLpvN9wSCq6rN94br4wgJpOxCyrGTJ43RQFvxyORN6WeFfxlajQYL3sudvkTiiamRZlTw_AcajyC_QWD1ynSaE5PrCczS8ILJgqwWMtA8rZbpW5EH-Mjr7MVL1db9JMPT1xjkw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/31708af1b79e3fa26960b984.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "دیپ سیک هارنس رو دارم تست می‌کنم، خیلی باحاله<br>محیط UI اش سبکه، و کاربرا هم توی ردیت خیلی گفتن که Caching اش عالیه. یه بنده خدایی قسم میخورد 4 ساعت باهاش کار کردم با deepseek pro فقط 60 سنت مصرف شده بود.<br>باحالترین قابلیتش اینه که میشه Mode شخصی ساخت.<br>و از معایبش هم که بگم، درسته UI سبکه اما کاربر عادی ممکنه یه کم گیج بشه<br>و همینطور فعلا توی فاز تست هستش<br>و ساب ایجنت‌هاش هم مشکل دارن<br>پیشنهاد می‌کنم ستاپ فعلیتون رو ول نکنید بچسبید بهش، صرفا در حد تست<br>مدل سفارشی هم که می‌تونید اد کنید طبیعتا. من الان OpenCode Go اضافه کردم",
+      "plain_text": "دیپ سیک هارنس رو دارم تست می‌کنم، خیلی باحاله\nمحیط UI اش سبکه، و کاربرا هم توی ردیت خیلی گفتن که Caching اش عالیه. یه بنده خدایی قسم میخورد 4 ساعت باهاش کار کردم با deepseek pro فقط 60 سنت مصرف شده بود.\nباحالترین قابلیتش اینه که میشه Mode شخصی ساخت.\nو از معایبش هم که بگم، درسته UI سبکه اما کاربر عادی ممکنه یه کم گیج بشه\nو همینطور فعلا توی فاز تست هستش\nو ساب ایجنت‌هاش هم مشکل دارن\nپیشنهاد می‌کنم ستاپ فعلیتون رو ول نکنید بچسبید بهش، صرفا در حد تست\nمدل سفارشی هم که می‌تونید اد کنید طبیعتا. من الان OpenCode Go اضافه کردم",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/4932",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/eZY8r5PseT6vCRi0Ovio0ZOvsdQNDHG1UHyG0InRkkt5kd0qmAaIGrBcFTn7XHN4aZJ6isEzDcj2IUlDhrraSqzWQV3UmvbC7N00SqYNFoL5ajAZyKYAeadcDBOLGt5NFAa46KKqSf4xWkU78YI4gL3qoT77xIG8XgTYXZZpciadBT6VMGEunRaUxz3CAQ6qHVa21tjoq0vE5m3yA4mDqPLCkBNz0fvqN-rA_Tx-Den46aOSSvAMeeM0zjg5EXLC6QrajTPIdK4Se5uFez8gGXei3DSM_PkwvOB-mSi0RILHA6rtsvY5BOQ2AJBiLiPDaqS68WX13m9AjD6pRbqUFg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/3d12836784e1d66b92fd7639.jpg",
+          "thumbnail_sha256": "e90ab8307d5f7c854fd9b080ffdc9a5ebf011d5616b6b94a6fce8f2b3fd3c0cf",
+          "duration_label": null,
+          "aspect_ratio": 2.2857142857142856
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "🆒",
+          "count": "1"
+        }
+      ],
+      "views_label": "1",
+      "posted_at": "2026-08-14T17:16:40+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/4932",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4931",
       "author_name": "Matin SenPai",
@@ -35,7 +72,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "478"
+          "count": "490"
         },
         {
           "emoji": "👍",
@@ -54,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.4K",
+      "views_label": "13.6K",
       "posted_at": "2026-08-14T14:59:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4931",
@@ -76,7 +113,7 @@
         },
         {
           "emoji": "👍",
-          "count": "183"
+          "count": "190"
         },
         {
           "emoji": "❤",
@@ -87,7 +124,7 @@
           "count": "8"
         }
       ],
-      "views_label": "14.7K",
+      "views_label": "14.9K",
       "posted_at": "2026-08-14T14:42:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4930",
@@ -130,7 +167,7 @@
         },
         {
           "emoji": "❤",
-          "count": "80"
+          "count": "83"
         },
         {
           "emoji": "👍",
@@ -138,10 +175,10 @@
         },
         {
           "emoji": "🆒",
-          "count": "2"
+          "count": "3"
         }
       ],
-      "views_label": "14K",
+      "views_label": "14.3K",
       "posted_at": "2026-08-14T14:41:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4929",
@@ -159,7 +196,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "124"
+          "count": "125"
         },
         {
           "emoji": "💔",
@@ -178,7 +215,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.6K",
       "posted_at": "2026-08-14T09:11:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4928",
@@ -208,7 +245,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "168"
+          "count": "169"
         },
         {
           "emoji": "👍",
@@ -231,7 +268,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.5K",
+      "views_label": "20.6K",
       "posted_at": "2026-08-14T09:10:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4927",
@@ -286,7 +323,7 @@
         },
         {
           "emoji": "❤",
-          "count": "463"
+          "count": "464"
         },
         {
           "emoji": "👍",
@@ -309,7 +346,7 @@
           "count": "3"
         }
       ],
-      "views_label": "21.8K",
+      "views_label": "21.9K",
       "posted_at": "2026-08-14T08:36:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4924",
@@ -352,7 +389,7 @@
         },
         {
           "emoji": "❤",
-          "count": "204"
+          "count": "205"
         },
         {
           "emoji": "👍",
@@ -574,7 +611,7 @@
           "count": "4"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-08-13T16:29:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4918",
@@ -703,7 +740,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21.7K",
+      "views_label": "21.8K",
       "posted_at": "2026-08-13T16:14:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4914",
@@ -786,7 +823,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.6K",
       "posted_at": "2026-08-13T16:10:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4912",
@@ -4632,59 +4669,6 @@
         "thumbnail_sha256": "54fb90eb8bb8e29d69a55d7310409d771c473b2b63ddda7dd3f391917c0d1442",
         "permalink": "https://t.me/matinsenpaii/4821"
       }
-    },
-    {
-      "id": "MatinSenPaii/4821",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DN6k2gkvMnR3qnBOZ3VWZZaaIIVeBq7LYHzfFXv-XXd8da5FWv4Xds_rmzW4j5esXZc0Hr90sBGaKoeFsChkvJFVc0HfC-TL_4iS3yGUqblesv0-sm_pxDQ5eN2vtKhssp50Ml8B3cy5ABBe3zGivsHQytabYI6UnjksEQrT46XaYvfSmT07Om02Y0YrSBH6qLm1R_e8ui6HJfkbSBLCXamHpAlmYkCPwk7oAcyeJkXsHVyF70jLuPHrmKuaDFx7uCjMZJFpEnltUHDfThj1WKKGUwX76VW0P01DVuWdH56rlLADn6r1eGlEGrjtycHKjBc7Qfj_ixH9MgY29iAATg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/b2e37dc8332d305cfb79eefc.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "ورژن دهم و استیبل SenPai Scanner 1.0.0 منتشر شد!(اندروید و دسکتاپ + GUI)<br><br>بعد از تغییرات گسترده نسبت به 0.7.1، این نسخه رو با رابط کاربری گرافیکی، موتور اسکن بهبودیافته و پشتیبانی کامل از دسکتاپ، اندروید و CLI منتشر کردم.<br><br>مهم‌ترین تغییرات:<br><br><tg-emoji emoji-id=\"5472010685560921607\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i></tg-emoji> یک GUI کامل دسکتاپ برای Windows، Linux و macOS<br><tg-emoji emoji-id=\"5471960722206366390\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji> اندروید از نو بازطراحی شده؛ Kotlin + Jetpack Compose + Material 3، پشتیبانی از اندروید 7 به بالا، APK جدا برای ARM64/ARM32/Universal<br><tg-emoji emoji-id=\"5456140674028019486\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></tg-emoji> دیگه لازم نیست منتظر پایان اسکن بمونید — هر وقت IP سبز کافی پیدا شد، متوقفش کنید و فقط از همون‌ها تست سرعت بگیرید!<br><tg-emoji emoji-id=\"5926764846518376076\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i></tg-emoji> امکان کپی نتایج (همه IPهای سبز، ۲۰ تای برتر یا یک endpoint خاص) حتی وقتی اسکن هنوز در حال اجراست<br><tg-emoji emoji-id=\"5188311512791393083\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948E.png')\"><b>🔎</b></i></tg-emoji> اسکن همسایه (Neighbor Scan) دیگه اختیاریه و به‌صورت پیش‌فرض خاموشه<br><tg-emoji emoji-id=\"5388658581664993142\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i></tg-emoji> تشخیص ISP و ASN چندمرحله‌ای با چند منبع (Cloudflare، IPWhois، IPinfo، Team Cymru + دیتابیس داخلی رنج‌های ایران)<br><tg-emoji emoji-id=\"5472193350520021357\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i></tg-emoji> اعتبارسنجی واقعی کانفیگ‌ها با هسته Xray؛ پشتیبانی از VLESS، Trojan و VMess<br><tg-emoji emoji-id=\"6003502687893593168\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i></tg-emoji> خروجی مستقیم به IP:Port خام، Share URL، Base64 Subscription، Sing-box JSON و Clash YAML<br><tg-emoji emoji-id=\"5447595110743168717\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A0.png')\"><b>🧠</b></i></tg-emoji> موتور اسکن بهتر: الگوریتم weighted-random برای رنج‌های Cloudflare، جلوگیری از IP تکراری، پشتیبانی چندپورتی، خواندن ورودی از IP/CSV/CIDR<br><br>جزئیات کامل و دانلود: <a href=\"https://github.com/MatinSenPai/SenPaiScanner/releases/tag/v1.0.0\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/SenPaiScanner/releases/tag/v1.0.0</a>",
-      "plain_text": "ورژن دهم و استیبل SenPai Scanner 1.0.0 منتشر شد!(اندروید و دسکتاپ + GUI)\n\nبعد از تغییرات گسترده نسبت به 0.7.1، این نسخه رو با رابط کاربری گرافیکی، موتور اسکن بهبودیافته و پشتیبانی کامل از دسکتاپ، اندروید و CLI منتشر کردم.\n\nمهم‌ترین تغییرات:\n\n🖥 یک GUI کامل دسکتاپ برای Windows، Linux و macOS\n📱 اندروید از نو بازطراحی شده؛ Kotlin + Jetpack Compose + Material 3، پشتیبانی از اندروید 7 به بالا، APK جدا برای ARM64/ARM32/Universal\n⚡️ دیگه لازم نیست منتظر پایان اسکن بمونید — هر وقت IP سبز کافی پیدا شد، متوقفش کنید و فقط از همون‌ها تست سرعت بگیرید!\n📋 امکان کپی نتایج (همه IPهای سبز، ۲۰ تای برتر یا یک endpoint خاص) حتی وقتی اسکن هنوز در حال اجراست\n🔎 اسکن همسایه (Neighbor Scan) دیگه اختیاریه و به‌صورت پیش‌فرض خاموشه\n🌐 تشخیص ISP و ASN چندمرحله‌ای با چند منبع (Cloudflare، IPWhois، IPinfo، Team Cymru + دیتابیس داخلی رنج‌های ایران)\n🛡 اعتبارسنجی واقعی کانفیگ‌ها با هسته Xray؛ پشتیبانی از VLESS، Trojan و VMess\n📦 خروجی مستقیم به IP:Port خام، Share URL، Base64 Subscription، Sing-box JSON و Clash YAML\n🧠 موتور اسکن بهتر: الگوریتم weighted-random برای رنج‌های Cloudflare، جلوگیری از IP تکراری، پشتیبانی چندپورتی، خواندن ورودی از IP/CSV/CIDR\n\nجزئیات کامل و دانلود: https://github.com/MatinSenPai/SenPaiScanner/releases/tag/v1.0.0",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4821",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ggolC_2BAFg7xzCaORfCvA70Dj6zemxUmuDVkRQ59QXcPWuUG3wDvu4Slgk-4GDFm2oP9Xt9tBG7AR1KQOsS69Xl7dFbbo4blDWj6cC4aQyZqifHOoYvzJwqtP02ELV3JWzublvsY9PzYCUKt15jm-RqUyt_170YhCXoTly_Mcne5VawGkjGKy9YmUuS8GpGxLl2_5c6rWe6u0MOEDth0lC0gYt6BlI8m6R1QuCR8Q5PYbjIZHOyJ4hPPiS4Wt4mlZEalFqokhJsq9i7AVrw1AFi4NdRmnHdwZ7uJECE1iVV_0RNu5fSbF1JZ8I1WJDesRDqdgEAxGkKB6G_V0OmSg.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/f5f35035e22f6b524984ba1b.jpg",
-          "thumbnail_sha256": "4504da40c723ca01485b77ea6e1d85db3fa873e4ea0179d58b35d8d7e075b456",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "5"
-        },
-        {
-          "emoji": "❤",
-          "count": "285"
-        },
-        {
-          "emoji": "👍",
-          "count": "17"
-        },
-        {
-          "emoji": "😁",
-          "count": "8"
-        },
-        {
-          "emoji": "🆒",
-          "count": "5"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "29.4K",
-      "posted_at": "2026-08-03T23:25:45+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/4821",
-      "reply": null
     }
   ]
 }
