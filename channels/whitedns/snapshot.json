@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-15T18:32:51.812Z",
+  "fetched_at": "2026-08-15T18:37:49.501Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,47 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1490",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/HV1s3RHBBjA1r87LHU3HYsSwDBBP2hSuLwLaflRoPR3qzwL50tuN0rPhKLS2SGdrZKSuhv63gEb0kKe9w6RoZ7SsoprNCSeBovrE0AcB7t_2iZNkNjh5g0Lm5ZfnaX2bFdYBSuQcgHEGiEvdDioqXkIbOJfipus9yYavLEVAXel4iwfqoGKKbx03COKf6tPxvVOhjqUOIe9ZlQ37-fmIi8EKdqhvecjkfZC68FOfoCzyhY2juzVKtfKjK_mqWxjdXQ2VnwzdrQ1nYYeMyFb9e4PYaptt84yLa8H3Zj3lWCOTFOvOi-Vrp6gf4ivX7vZRBkT7umBp3CZ_fzI1SdeIkA.jpg",
+      "author_photo_path": "channels/whitedns/media/c322205d09ec0c9d46485ec5.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "حل مشکل اتصال به کانفیگ‌های BPB و تمام پنل‌های Worker کلودفلر:<br><br>1- آخرین نسخه‌ی Pre-Release نرم‌افزار V2rayNG رو نصب کنید(۲.۳.۴): <a href=\"https://github.com/2dust/v2rayNG/releases/tag/2.3.4\" target=\"_blank\" rel=\"noopener\">https://github.com/2dust/v2rayNG/releases/tag/2.3.4</a><br>یا V2rayN نسخه‌ی 7.24.7 رو از گیتهاب بگیرید<br>برای آیفون هم Sterisand آخرین نسخه کار می‌کنه<br><br>2- <a href=\"https://github.com/Hidden-Node/proxy-builder\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">این پروژه</a> از دوست عزیزمون Hidden-Node با الهام گرفتن از نکته‌ای که Patterniha <a href=\"https://t.me/patt_channel_x/91\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">اینجا</a> گفته بود، نوشته شده و اوپن سورسه و کانفیگتون هم جایی ذخیره نمیشه: <a href=\"http://hidden-node.github.io/proxy-builder\" target=\"_blank\" rel=\"noopener\">http://hidden-node.github.io/proxy-builder</a><br><br>3- وارد سایت بالا که شدید، روی بخش Fragment + Fingerprint کلیک کنید<br><br>4- کانفیگتون رو کپی، و اینجا Paste کنید<br><br>5- پایین، روی Enhance بزنید و بعدش کانفیگ جدید رو کپی و توی<br>v2rayNG&nbsp; 2.3.4&nbsp;<br>v2rayN&nbsp; &nbsp;7.24.7&nbsp;<br>برای آیفون هم Sterisand نسخه آخر<br><br>پیست کنید و به راحتی کار می‌کنه<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "حل مشکل اتصال به کانفیگ‌های BPB و تمام پنل‌های Worker کلودفلر:\n\n1- آخرین نسخه‌ی Pre-Release نرم‌افزار V2rayNG رو نصب کنید(۲.۳.۴): https://github.com/2dust/v2rayNG/releases/tag/2.3.4\nیا V2rayN نسخه‌ی 7.24.7 رو از گیتهاب بگیرید\nبرای آیفون هم Sterisand آخرین نسخه کار می‌کنه\n\n2- این پروژه از دوست عزیزمون Hidden-Node با الهام گرفتن از نکته‌ای که Patterniha اینجا گفته بود، نوشته شده و اوپن سورسه و کانفیگتون هم جایی ذخیره نمیشه: http://hidden-node.github.io/proxy-builder\n\n3- وارد سایت بالا که شدید، روی بخش Fragment + Fingerprint کلیک کنید\n\n4- کانفیگتون رو کپی، و اینجا Paste کنید\n\n5- پایین، روی Enhance بزنید و بعدش کانفیگ جدید رو کپی و توی\nv2rayNG  2.3.4 \nv2rayN   7.24.7 \nبرای آیفون هم Sterisand نسخه آخر\n\nپیست کنید و به راحتی کار می‌کنه\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1490",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/MMbKsf4dUK_ORfrZWH2fYt-SL2nQJ4kWithQuc4k1Dgt7ZmNKZ3INJzqtL1d-UQhMjvo-e1eyJXRf_aGj5hBbBrxYkXiZnwetb5eVl7a-gt_kHT2BNRc9VF16eB_IsQZlZLdzcdlAUkIjrfWM3T_cHnUtL6__9gSuhoKqPBOdD1VQ7Hj5-sPf_Y4XwNmiXqunwv0ynEhKGteNAey9pZuFvWTjzMv_k_l8hBPrYU2mo7aWe8AqprsQv6qCjenN0fwmDwnmt5eHClPUHxYqjykBtxMYN9HmnMJod1_4xvUBvmcqA9gzVTs1NBjg1Dx7gh08mT6SZnX0DSGkDW5ThajlQ.jpg",
+          "thumbnail_path": "channels/whitedns/media/2c0897e26c8263934ce34328.jpg",
+          "thumbnail_sha256": "77526c1a6ed6821c483835d613e4beb1558f7659fc59bf754b21438ea964e333",
+          "duration_label": null,
+          "aspect_ratio": 0.9200000000000257
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "count": "13"
+        },
+        {
+          "emoji": "🫡",
+          "count": "1"
+        }
+      ],
+      "views_label": "255",
+      "posted_at": "2026-08-15T18:35:56+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1490",
+      "reply": null
+    },
     {
       "id": "whitedns/1489",
       "author_name": "White DNS",
@@ -35,11 +76,15 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "52"
+          "count": "57"
         },
         {
           "emoji": "❤",
           "count": "19"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "1"
         },
         {
           "emoji": "👎",
@@ -54,7 +99,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.92K",
+      "views_label": "5.17K",
       "posted_at": "2026-08-15T17:32:00+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1489",
@@ -93,7 +138,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "94"
+          "count": "98"
         },
         {
           "emoji": "👍",
@@ -116,7 +161,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.6K",
+      "views_label": "15.1K",
       "posted_at": "2026-08-15T17:12:38+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1488",
@@ -146,7 +191,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "117"
+          "count": "120"
         },
         {
           "emoji": "👍",
@@ -185,7 +230,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.3K",
+      "views_label": "16.6K",
       "posted_at": "2026-08-15T16:14:33+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1487",
@@ -203,7 +248,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "130"
+          "count": "132"
         },
         {
           "emoji": "👍",
@@ -242,7 +287,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.3K",
+      "views_label": "7.4K",
       "posted_at": "2026-08-15T16:06:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1486",
@@ -264,7 +309,7 @@
         },
         {
           "emoji": "❤",
-          "count": "142"
+          "count": "143"
         },
         {
           "emoji": "🔥",
@@ -303,7 +348,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.3K",
+      "views_label": "15.6K",
       "posted_at": "2026-08-15T16:05:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1481",
@@ -333,7 +378,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "119"
+          "count": "120"
         },
         {
           "emoji": "🤩",
@@ -364,7 +409,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.2K",
       "posted_at": "2026-08-15T16:04:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1480",
@@ -410,7 +455,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "107"
+          "count": "108"
         },
         {
           "emoji": "❤‍🔥",
@@ -437,7 +482,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.06K",
+      "views_label": "8.12K",
       "posted_at": "2026-08-15T15:01:57+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1478",
@@ -455,7 +500,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "132"
+          "count": "133"
         },
         {
           "emoji": "❤",
@@ -490,7 +535,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.3K",
+      "views_label": "11.4K",
       "posted_at": "2026-08-15T13:22:08+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1477",
@@ -563,7 +608,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.44K",
+      "views_label": "3.47K",
       "posted_at": "2026-08-15T10:00:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1476",
@@ -5460,63 +5505,6 @@
       "posted_at": "2026-07-29T05:11:09+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1358",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1357",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/hI-ClJudhbEA7Y2RBNzViAGjmGFSIHq3eWx-ERdetCdJYlVB3PRAp6YWX8IHDoXMXkZJEt7VNiwvxrB3PvBD5r-M56MbJICaPwUZZLhZf7oeYingtP2SDfQHGNyXWprVpebEtfFGpvahmJu-DTDFklV8nbhMz8ezof8MgqGL9Q8zJhB6BKnbHA1m2T0S4s0dwLW70bkgtYglz7PV3ehD0b1pHSNT5C1s5HPij-ZSzDHKcvAfwOimv3bS7pnsSmzSxU6x-SUZWT9btO_jXhfrjt-uvHvPQTxK58OEVbVnr4-sJMOXL6V5zCMEdpR9iYJrhTgrS6FDSA7Q-tqIyfyIxQ.jpg",
-      "author_photo_path": "channels/whitedns/media/b90bb67d1c58df3400fc3b9d.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<b>معرفی کانال یوتوب WhiteDNS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i></b><br><br>اگر به دنبال آموزش‌های تخصصی و کاربردی برای دور زدن فیلترینگ، پیدا کردن آی‌پی‌های تمیز و ساخت سرورهای شخصی هستید، این کانال یکی از بهترین مراجع آموزشی است! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E93.png')\"><b>🎓</b></i><br><br>در این کانال می‌آموزید: <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>آموزش صفر تا صد V2Ray</b> و راه‌اندازی پنل‌های ثنایی (3x-ui) <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> پیدا کردن آی‌پی تمیز با <b>WhiteDNS Scanner</b> <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> راه‌اندازی <b>پروکسی MTProto</b> برای اتصال بدون قطعی تلگرام <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> معرفی ابزارها و کلاینت‌های مختلف (مثل CoreForge برای iOS و FlClash برای اندروید) <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> راهکارهای ارتباطی برای زمان قطعی کامل اینترنت <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i><br>       و ................................. <br><br>برای یادگیری ساخت فیلترشکن‌های امن و پرسرعت، همین الان به این کانال سر بزنید و سابسکرایب کنید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i><a href=\"https://www.youtube.com/@WhiteDNS\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/@WhiteDNS</a>",
-      "plain_text": "معرفی کانال یوتوب WhiteDNS 🌐\n\nاگر به دنبال آموزش‌های تخصصی و کاربردی برای دور زدن فیلترینگ، پیدا کردن آی‌پی‌های تمیز و ساخت سرورهای شخصی هستید، این کانال یکی از بهترین مراجع آموزشی است! 🎓\n\nدر این کانال می‌آموزید:\n🔹 آموزش صفر تا صد V2Ray و راه‌اندازی پنل‌های ثنایی (3x-ui)\n🔹 پیدا کردن آی‌پی تمیز با WhiteDNS Scanner\n🔹 راه‌اندازی پروکسی MTProto برای اتصال بدون قطعی تلگرام\n🔹 معرفی ابزارها و کلاینت‌های مختلف (مثل CoreForge برای iOS و FlClash برای اندروید)\n🔹 راهکارهای ارتباطی برای زمان قطعی کامل اینترنت 📡\nو .................................\n\nبرای یادگیری ساخت فیلترشکن‌های امن و پرسرعت، همین الان به این کانال سر بزنید و سابسکرایب کنید. 👇\n🔗https://www.youtube.com/@WhiteDNS",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1357",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/uSo_qNxzSiB3pxVqsDcSJCt-H4rSUU5jf88yFwcoWPU9ce5TUFMToLu6jN-KIpQQlNmAbrCiA47_QxQSDo_sxeH0N1a75J3AR5dNKuyKSXpL1KSvfFgvt7EOQ0VFizmpNMcCE-oE54zJHwIpm3hkOLzHRpVAryfKrL82kwjcva3io0_YKJ0YUAuXeaiMw-0pgnYZRcrv3Y2kejHgYNqMk-RvUTzMWECPLXL3ONgWQYhwb8xmxhdxM7Zd89Kg_ekMQv7iDnYH6xzQm75Gd5EbNvjcjgjxuL8zGAatojhx1itJPcFtA4UXTD7OwtR6N9Bw8ka7PMwLpVvM5c6xjdifbA.jpg",
-          "thumbnail_path": "channels/whitedns/media/3c5adb9af0bfafa1fa459589.jpg",
-          "thumbnail_sha256": "1916b34e5ea1e286d7e6d96216119ef708aafb453d9a48d3eca682c0ee92fe34",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "190"
-        },
-        {
-          "emoji": "🕊",
-          "count": "9"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "19.2K",
-      "posted_at": "2026-07-29T01:02:00+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1357",
       "reply": null
     }
   ]
