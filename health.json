@@ -1,14 +1,10 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-15T11:31:21.107Z",
-  "succeeded": 21,
+  "generated_at": "2026-08-15T11:33:38.928Z",
+  "succeeded": 22,
   "failed": [
     {
-      "username": "bbcpersian",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "ircfspace",
+      "username": "persianvpnhub",
       "error": "The operation was aborted due to timeout"
     }
   ]
