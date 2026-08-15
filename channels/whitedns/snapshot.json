@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-15T15:03:25.225Z",
+  "fetched_at": "2026-08-15T15:07:12.090Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -33,8 +33,8 @@
       "author_photo_url": "https://cdn5.telesco.pe/file/HV1s3RHBBjA1r87LHU3HYsSwDBBP2hSuLwLaflRoPR3qzwL50tuN0rPhKLS2SGdrZKSuhv63gEb0kKe9w6RoZ7SsoprNCSeBovrE0AcB7t_2iZNkNjh5g0Lm5ZfnaX2bFdYBSuQcgHEGiEvdDioqXkIbOJfipus9yYavLEVAXel4iwfqoGKKbx03COKf6tPxvVOhjqUOIe9ZlQ37-fmIi8EKdqhvecjkfZC68FOfoCzyhY2juzVKtfKjK_mqWxjdXQ2VnwzdrQ1nYYeMyFb9e4PYaptt84yLa8H3Zj3lWCOTFOvOi-Vrp6gf4ivX7vZRBkT7umBp3CZ_fzI1SdeIkA.jpg",
       "author_photo_path": "channels/whitedns/media/c322205d09ec0c9d46485ec5.jpg",
       "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> وایت‌استر  — <b>نسخه‌ی دسکتاپ بتا </b><br>WhiteAesther V1.3.1<br><br>یه کلاینت رایگان و متن‌باز برای عبور از فیلترینگ، ساخته‌شده روی هسته‌ی Aether (همون هسته‌ای که تو اپ اندرویدش هم استفاده می‌شه). برای ویندوز، مک و لینوکس؛ کاملاً رایگان و بدون نیاز به کانفیگ دستی.<br><br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> امکانات:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948E.png')\"><b>🔎</b></i> جست‌وجوی خودکار مسیر — به‌جای اینکه شما دنبال کانفیگ سالم بگردید، خود برنامه بهترین دروازه رو پیدا می‌کنه (با MASQUE H2/H3، WireGuard و WARP-in-WARP)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i> نمودار سرعت و تأخیر زنده — تست سرعت واقعی داخل خود برنامه + نمودار پینگ لحظه‌ای<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i> دو حالت اتصال — «فقط این برنامه» (پراکسی محلی) یا «کل سیستم» (همه‌ی اپ‌ها از تونل رد بشن)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> کلید قطع اضطراری — اگه تونل قطع بشه، ترافیک رمزنشده لو نمی‌ره<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> جست‌وجوی تنظیمات با Ctrl+K — هر تنظیمی رو در چند ثانیه پیدا کنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A9.png')\"><b>🧩</b></i> چندپلتفرمه — ویندوز، مک (اینتل و اپل‌سیلیکون) و لینوکس، هم x86_64 هم arm64<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> متن‌باز، برای همیشه — کد کامل زیر مجوز AGPL-3.0 روی گیت‌هاب<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> نحوه‌ی استفاده:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> از لینک زیر، نسخه‌ی مخصوص سیستم‌عاملتون رو دانلود کنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> نصب کنید و برنامه رو باز کنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/33E283A3.png')\"><b>3️⃣</b></i> دکمه‌ی Connect رو بزنید و چند لحظه صبر کنید تا مسیر سالم پیدا بشه<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/34E283A3.png')\"><b>4️⃣</b></i> اگه خواستید کل سیستم از تونل رد بشه، پایین صفحه گزینه‌ی «Whole machine» رو بزنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/35E283A3.png')\"><b>5️⃣</b></i> برای تنظیمات پیشرفته (پروتکل، DNS، حالت جست‌وجو…) روی Advanced بزنید یا Ctrl+K رو بزنید و اسم تنظیم موردنظرتون رو تایپ کنید</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود:<br><a href=\"http://github.com/WhiteDNS/WhiteAesther/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/WhiteDNS/WhiteAesther/releases/latest</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i> نکته: چون برنامه امضای اپل/مایکروسافت نداره، ممکنه هنگام باز کردن هشدار «ناشر ناشناس» ببینید؛ کافیه روی فایل راست‌کلیک کنید و Open رو بزنید (تو مک هم از System Settings اجازه‌ی اجرا بدید).<br><br><a href=\"?q=%23%D9%88%D8%A7%DB%8C%D8%AA%D8%A7%D8%B3%D8%AA%D8%B1\">#وایتاستر</a> <a href=\"?q=%23%D8%B6%D8%AF%D9%81%DB%8C%D9%84%D8%AA%D8%B1\">#ضدفیلتر</a> <a href=\"?q=%23%D9%85%D8%AA%D9%86%D8%A8%D8%A7%D8%B2\">#متنباز</a><br><br>نکته مهم : <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br>گزینه whole machine همان system proxy هست - این گزینه فقط اپلیکیشن هایی مثل گوگل کروم که امکان ان را دارند پراکسی میکند - برای همین ممکن هست بعضی از اپ های شما پراکسی نشود <br>تلاش خواهیم کرد در روزهای اینده امکان TUN را اضافه کنیم <br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🌐 وایت‌استر — نسخه‌ی دسکتاپ بتا\nWhiteAesther V1.3.1\n\nیه کلاینت رایگان و متن‌باز برای عبور از فیلترینگ، ساخته‌شده روی هسته‌ی Aether (همون هسته‌ای که تو اپ اندرویدش هم استفاده می‌شه). برای ویندوز، مک و لینوکس؛ کاملاً رایگان و بدون نیاز به کانفیگ دستی.\n\n✨ امکانات:\n🔎 جست‌وجوی خودکار مسیر — به‌جای اینکه شما دنبال کانفیگ سالم بگردید، خود برنامه بهترین دروازه رو پیدا می‌کنه (با MASQUE H2/H3، WireGuard و WARP-in-WARP)\n📊 نمودار سرعت و تأخیر زنده — تست سرعت واقعی داخل خود برنامه + نمودار پینگ لحظه‌ای\n🖥 دو حالت اتصال — «فقط این برنامه» (پراکسی محلی) یا «کل سیستم» (همه‌ی اپ‌ها از تونل رد بشن)\n🛡 کلید قطع اضطراری — اگه تونل قطع بشه، ترافیک رمزنشده لو نمی‌ره\n🔍 جست‌وجوی تنظیمات با Ctrl+K — هر تنظیمی رو در چند ثانیه پیدا کنید\n🧩 چندپلتفرمه — ویندوز، مک (اینتل و اپل‌سیلیکون) و لینوکس، هم x86_64 هم arm64\n📖 متن‌باز، برای همیشه — کد کامل زیر مجوز AGPL-3.0 روی گیت‌هاب\n\n⚙️ نحوه‌ی استفاده:\n1️⃣ از لینک زیر، نسخه‌ی مخصوص سیستم‌عاملتون رو دانلود کنید\n2️⃣ نصب کنید و برنامه رو باز کنید\n3️⃣ دکمه‌ی Connect رو بزنید و چند لحظه صبر کنید تا مسیر سالم پیدا بشه\n4️⃣ اگه خواستید کل سیستم از تونل رد بشه، پایین صفحه گزینه‌ی «Whole machine» رو بزنید\n5️⃣ برای تنظیمات پیشرفته (پروتکل، DNS، حالت جست‌وجو…) روی Advanced بزنید یا Ctrl+K رو بزنید و اسم تنظیم موردنظرتون رو تایپ کنید\n\n📥 دانلود:\ngithub.com/WhiteDNS/WhiteAesther/releases/latest\n\n💬 نکته: چون برنامه امضای اپل/مایکروسافت نداره، ممکنه هنگام باز کردن هشدار «ناشر ناشناس» ببینید؛ کافیه روی فایل راست‌کلیک کنید و Open رو بزنید (تو مک هم از System Settings اجازه‌ی اجرا بدید).\n\n#وایتاستر #ضدفیلتر #متنباز\n\nنکته مهم : ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️\nگزینه whole machine همان system proxy هست - این گزینه فقط اپلیکیشن هایی مثل گوگل کروم که امکان ان را دارند پراکسی میکند - برای همین ممکن هست بعضی از اپ های شما پراکسی نشود\nتلاش خواهیم کرد در روزهای اینده امکان TUN را اضافه کنیم\n\n@whitedns",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> وایت‌استر  — <b>نسخه‌ی دسکتاپ بتا </b><br>WhiteAesther Desktop V1.3.1<br><br>یه کلاینت رایگان و متن‌باز برای عبور از فیلترینگ، ساخته‌شده روی هسته‌ی Aether (همون هسته‌ای که تو اپ اندرویدش هم استفاده می‌شه). برای ویندوز، مک و لینوکس؛ کاملاً رایگان و بدون نیاز به کانفیگ دستی.<br><br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> امکانات:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948E.png')\"><b>🔎</b></i> جست‌وجوی خودکار مسیر — به‌جای اینکه شما دنبال کانفیگ سالم بگردید، خود برنامه بهترین دروازه رو پیدا می‌کنه (با MASQUE H2/H3، WireGuard و WARP-in-WARP)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i> نمودار سرعت و تأخیر زنده — تست سرعت واقعی داخل خود برنامه + نمودار پینگ لحظه‌ای<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i> دو حالت اتصال — «فقط این برنامه» (پراکسی محلی) یا «کل سیستم» (همه‌ی اپ‌ها از تونل رد بشن)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> کلید قطع اضطراری — اگه تونل قطع بشه، ترافیک رمزنشده لو نمی‌ره<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> جست‌وجوی تنظیمات با Ctrl+K — هر تنظیمی رو در چند ثانیه پیدا کنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A9.png')\"><b>🧩</b></i> چندپلتفرمه — ویندوز، مک (اینتل و اپل‌سیلیکون) و لینوکس، هم x86_64 هم arm64<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> متن‌باز، برای همیشه — کد کامل زیر مجوز AGPL-3.0 روی گیت‌هاب<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> نحوه‌ی استفاده:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> از لینک زیر، نسخه‌ی مخصوص سیستم‌عاملتون رو دانلود کنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> نصب کنید و برنامه رو باز کنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/33E283A3.png')\"><b>3️⃣</b></i> دکمه‌ی Connect رو بزنید و چند لحظه صبر کنید تا مسیر سالم پیدا بشه<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/34E283A3.png')\"><b>4️⃣</b></i> اگه خواستید کل سیستم از تونل رد بشه، پایین صفحه گزینه‌ی «Whole machine» رو بزنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/35E283A3.png')\"><b>5️⃣</b></i> برای تنظیمات پیشرفته (پروتکل، DNS، حالت جست‌وجو…) روی Advanced بزنید یا Ctrl+K رو بزنید و اسم تنظیم موردنظرتون رو تایپ کنید</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود:<br><a href=\"http://github.com/WhiteDNS/WhiteAesther/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/WhiteDNS/WhiteAesther/releases/latest</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i> نکته: چون برنامه امضای اپل/مایکروسافت نداره، ممکنه هنگام باز کردن هشدار «ناشر ناشناس» ببینید؛ کافیه روی فایل راست‌کلیک کنید و Open رو بزنید (تو مک هم از System Settings اجازه‌ی اجرا بدید).<br><br><a href=\"?q=%23%D9%88%D8%A7%DB%8C%D8%AA%D8%A7%D8%B3%D8%AA%D8%B1\">#وایتاستر</a> <a href=\"?q=%23%D8%B6%D8%AF%D9%81%DB%8C%D9%84%D8%AA%D8%B1\">#ضدفیلتر</a> <a href=\"?q=%23%D9%85%D8%AA%D9%86%D8%A8%D8%A7%D8%B2\">#متنباز</a><br><br>نکته مهم : <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br>گزینه whole machine همان system proxy هست - این گزینه فقط اپلیکیشن هایی مثل گوگل کروم که امکان ان را دارند پراکسی میکند - برای همین ممکن هست بعضی از اپ های شما پراکسی نشود <br>تلاش خواهیم کرد در روزهای اینده امکان TUN را اضافه کنیم <br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🌐 وایت‌استر — نسخه‌ی دسکتاپ بتا\nWhiteAesther Desktop V1.3.1\n\nیه کلاینت رایگان و متن‌باز برای عبور از فیلترینگ، ساخته‌شده روی هسته‌ی Aether (همون هسته‌ای که تو اپ اندرویدش هم استفاده می‌شه). برای ویندوز، مک و لینوکس؛ کاملاً رایگان و بدون نیاز به کانفیگ دستی.\n\n✨ امکانات:\n🔎 جست‌وجوی خودکار مسیر — به‌جای اینکه شما دنبال کانفیگ سالم بگردید، خود برنامه بهترین دروازه رو پیدا می‌کنه (با MASQUE H2/H3، WireGuard و WARP-in-WARP)\n📊 نمودار سرعت و تأخیر زنده — تست سرعت واقعی داخل خود برنامه + نمودار پینگ لحظه‌ای\n🖥 دو حالت اتصال — «فقط این برنامه» (پراکسی محلی) یا «کل سیستم» (همه‌ی اپ‌ها از تونل رد بشن)\n🛡 کلید قطع اضطراری — اگه تونل قطع بشه، ترافیک رمزنشده لو نمی‌ره\n🔍 جست‌وجوی تنظیمات با Ctrl+K — هر تنظیمی رو در چند ثانیه پیدا کنید\n🧩 چندپلتفرمه — ویندوز، مک (اینتل و اپل‌سیلیکون) و لینوکس، هم x86_64 هم arm64\n📖 متن‌باز، برای همیشه — کد کامل زیر مجوز AGPL-3.0 روی گیت‌هاب\n\n⚙️ نحوه‌ی استفاده:\n1️⃣ از لینک زیر، نسخه‌ی مخصوص سیستم‌عاملتون رو دانلود کنید\n2️⃣ نصب کنید و برنامه رو باز کنید\n3️⃣ دکمه‌ی Connect رو بزنید و چند لحظه صبر کنید تا مسیر سالم پیدا بشه\n4️⃣ اگه خواستید کل سیستم از تونل رد بشه، پایین صفحه گزینه‌ی «Whole machine» رو بزنید\n5️⃣ برای تنظیمات پیشرفته (پروتکل، DNS، حالت جست‌وجو…) روی Advanced بزنید یا Ctrl+K رو بزنید و اسم تنظیم موردنظرتون رو تایپ کنید\n\n📥 دانلود:\ngithub.com/WhiteDNS/WhiteAesther/releases/latest\n\n💬 نکته: چون برنامه امضای اپل/مایکروسافت نداره، ممکنه هنگام باز کردن هشدار «ناشر ناشناس» ببینید؛ کافیه روی فایل راست‌کلیک کنید و Open رو بزنید (تو مک هم از System Settings اجازه‌ی اجرا بدید).\n\n#وایتاستر #ضدفیلتر #متنباز\n\nنکته مهم : ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️\nگزینه whole machine همان system proxy هست - این گزینه فقط اپلیکیشن هایی مثل گوگل کروم که امکان ان را دارند پراکسی میکند - برای همین ممکن هست بعضی از اپ های شما پراکسی نشود\nتلاش خواهیم کرد در روزهای اینده امکان TUN را اضافه کنیم\n\n@whitedns",
       "media": [
         {
           "kind": "photo",
@@ -51,16 +51,16 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "2"
+          "count": "16"
         },
         {
           "emoji": "👏",
-          "count": "2"
+          "count": "3"
         }
       ],
-      "views_label": "415",
+      "views_label": "916",
       "posted_at": "2026-08-15T15:01:57+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1478",
       "reply": null
     },
@@ -76,7 +76,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "98"
+          "count": "100"
         },
         {
           "emoji": "❤",
@@ -107,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.75K",
+      "views_label": "7K",
       "posted_at": "2026-08-15T13:22:08+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1477",
@@ -137,7 +137,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "145"
+          "count": "146"
         },
         {
           "emoji": "👍",
@@ -180,7 +180,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.47K",
+      "views_label": "2.53K",
       "posted_at": "2026-08-15T10:00:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1476",
@@ -253,7 +253,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12K",
+      "views_label": "12.1K",
       "posted_at": "2026-08-14T23:19:08+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1474",
@@ -330,7 +330,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.7K",
+      "views_label": "12.8K",
       "posted_at": "2026-08-14T18:23:44+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1473",
@@ -1149,7 +1149,7 @@
           "count": "2"
         }
       ],
-      "views_label": "16.7K",
+      "views_label": "16.8K",
       "posted_at": "2026-08-13T08:29:01+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1449",
@@ -1214,7 +1214,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7K",
+      "views_label": "7.03K",
       "posted_at": "2026-08-13T08:03:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1448",
