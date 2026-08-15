@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-15T18:37:49.501Z",
+  "fetched_at": "2026-08-15T18:42:38.679Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,27 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1491",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/HV1s3RHBBjA1r87LHU3HYsSwDBBP2hSuLwLaflRoPR3qzwL50tuN0rPhKLS2SGdrZKSuhv63gEb0kKe9w6RoZ7SsoprNCSeBovrE0AcB7t_2iZNkNjh5g0Lm5ZfnaX2bFdYBSuQcgHEGiEvdDioqXkIbOJfipus9yYavLEVAXel4iwfqoGKKbx03COKf6tPxvVOhjqUOIe9ZlQ37-fmIi8EKdqhvecjkfZC68FOfoCzyhY2juzVKtfKjK_mqWxjdXQ2VnwzdrQ1nYYeMyFb9e4PYaptt84yLa8H3Zj3lWCOTFOvOi-Vrp6gf4ivX7vZRBkT7umBp3CZ_fzI1SdeIkA.jpg",
+      "author_photo_path": "channels/whitedns/media/c322205d09ec0c9d46485ec5.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<tg-emoji emoji-id=\"5330280024673101519\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8DB7.png')\"><b>🍷</b></i></tg-emoji>درود به همه رفقا...<br>تمام <a href=\"?q=%23%D9%86%DA%A9%D8%A7%D8%AA\">#نکات</a> واسه مشکل فیلتر شدن worker رو داخل این پست میگم:<br><br><tg-emoji emoji-id=\"6048857619848761040\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91BD.png')\"><b>👽</b></i></tg-emoji><tg-emoji emoji-id=\"5771557274040410197\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i></tg-emoji>طبق آموزش هایی که قبلا دادم با اپلیکیشن pattng و همچنین v2rayn در ویندوز میتونید مشکل فیلترشدن ورکر رو حل کنید و کانفیگ های -1 رو مجدد متصل کنید.<br>آموزش مروبطه:<tg-emoji emoji-id=\"5470177992950946662\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i></tg-emoji><br><br><a href=\"https://t.me/xsfilterrnet/3642\" target=\"_blank\" rel=\"noopener\">https://t.me/xsfilterrnet/3642</a><br><br><tg-emoji emoji-id=\"6019267111950488810\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji>داخل ios هم طبق تنظیمات یه ip تمیز پیدا کنید داخل کلاینت incy یا hiddify بزنید و فرگمنت رو روشن کنید متصل میشه.<br><br>یه روش دیگه بعد از بالا اومدن پنل استفاده از کانفیگ های فرگمنت برای bpb هست که با مقادیر low (1-1) رو متصل کنید<tg-emoji emoji-id=\"6100568059724960300\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br><tg-emoji emoji-id=\"6100657257605763582\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji>در مورد لینک ساب های raw هم به گفته خود bpb:<br>بچه‌ها اگر ساب Raw و کانفیگ TLS استفاده میکنید از این روش در v2rayNG/pattngاستفاده کنید، معلوم نیست تا کی کار کنه، اگر پایدار بود پنلو تغییر میدم.<br>این رو دو جا وارد کنید:<br><a href=\"https://8.8.8.8/dns-query\" target=\"_blank\" rel=\"noopener\">https://8.8.8.8/dns-query</a><br><br>۱. قسمت Remote DNS تنظیمات برنامه. <br>۲. ویرایش کانفیگ قسمت echConfigList.<br><br>با Mux خاموش<br><br>یه نکته دیگه از بچها اینترنت آزاد که جواب داده:<br>با ECH و استفاده از آدرس udp://1.1.1.1 میتونید فیلترینگ <a href=\"http://pages.dev/\" target=\"_blank\" rel=\"noopener\">pages.dev</a> و <a href=\"http://workers.dev/\" target=\"_blank\" rel=\"noopener\">workers.dev</a> رو دور بزنید.<br><br><tg-emoji emoji-id=\"5449455694870748968\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9293.png')\"><b>💓</b></i></tg-emoji>نکته ای هم که متین سنپای گفته:(همراه با ابزار جدید)<br><br><a href=\"https://t.me/MatinSenPaii/4960\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/4960</a><br><br><br><a href=\"https://t.me/xsfilterrnet\" target=\"_blank\">@xsfilterrnet</a> <tg-emoji emoji-id=\"5053169761232356354\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji>",
+      "plain_text": "🍷درود به همه رفقا...\nتمام #نکات واسه مشکل فیلتر شدن worker رو داخل این پست میگم:\n\n👽💻طبق آموزش هایی که قبلا دادم با اپلیکیشن pattng و همچنین v2rayn در ویندوز میتونید مشکل فیلترشدن ورکر رو حل کنید و کانفیگ های -1 رو مجدد متصل کنید.\nآموزش مروبطه:👇\n\nhttps://t.me/xsfilterrnet/3642\n\n📱داخل ios هم طبق تنظیمات یه ip تمیز پیدا کنید داخل کلاینت incy یا hiddify بزنید و فرگمنت رو روشن کنید متصل میشه.\n\nیه روش دیگه بعد از بالا اومدن پنل استفاده از کانفیگ های فرگمنت برای bpb هست که با مقادیر low (1-1) رو متصل کنید🔥\n\n🔗در مورد لینک ساب های raw هم به گفته خود bpb:\nبچه‌ها اگر ساب Raw و کانفیگ TLS استفاده میکنید از این روش در v2rayNG/pattngاستفاده کنید، معلوم نیست تا کی کار کنه، اگر پایدار بود پنلو تغییر میدم.\nاین رو دو جا وارد کنید:\nhttps://8.8.8.8/dns-query\n\n۱. قسمت Remote DNS تنظیمات برنامه.\n۲. ویرایش کانفیگ قسمت echConfigList.\n\nبا Mux خاموش\n\nیه نکته دیگه از بچها اینترنت آزاد که جواب داده:\nبا ECH و استفاده از آدرس udp://1.1.1.1 میتونید فیلترینگ pages.dev و workers.dev رو دور بزنید.\n\n💓نکته ای هم که متین سنپای گفته:(همراه با ابزار جدید)\n\nhttps://t.me/MatinSenPaii/4960\n\n\n@xsfilterrnet 👑",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "3",
+      "posted_at": "2026-08-15T18:41:47+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1491",
+      "reply": null
+    },
     {
       "id": "whitedns/1490",
       "author_name": "White DNS",
@@ -76,11 +97,11 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "57"
+          "count": "59"
         },
         {
           "emoji": "❤",
-          "count": "19"
+          "count": "20"
         },
         {
           "emoji": "❤‍🔥",
@@ -99,7 +120,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.17K",
+      "views_label": "5.5K",
       "posted_at": "2026-08-15T17:32:00+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1489",
@@ -138,7 +159,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "98"
+          "count": "101"
         },
         {
           "emoji": "👍",
@@ -161,7 +182,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.1K",
+      "views_label": "15.6K",
       "posted_at": "2026-08-15T17:12:38+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1488",
@@ -191,7 +212,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "120"
+          "count": "122"
         },
         {
           "emoji": "👍",
@@ -230,7 +251,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.6K",
+      "views_label": "17K",
       "posted_at": "2026-08-15T16:14:33+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1487",
@@ -248,7 +269,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "132"
+          "count": "134"
         },
         {
           "emoji": "👍",
@@ -287,7 +308,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.4K",
+      "views_label": "7.52K",
       "posted_at": "2026-08-15T16:06:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1486",
@@ -309,7 +330,7 @@
         },
         {
           "emoji": "❤",
-          "count": "143"
+          "count": "144"
         },
         {
           "emoji": "🔥",
@@ -317,15 +338,15 @@
         },
         {
           "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "❤‍🔥",
           "count": "3"
         },
         {
           "emoji": "💩",
           "count": "3"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "2"
         },
         {
           "emoji": "🤩",
@@ -348,7 +369,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "16K",
       "posted_at": "2026-08-15T16:05:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1481",
@@ -378,7 +399,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "120"
+          "count": "121"
         },
         {
           "emoji": "🤩",
@@ -409,7 +430,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.6K",
       "posted_at": "2026-08-15T16:04:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1480",
@@ -455,7 +476,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "108"
+          "count": "110"
         },
         {
           "emoji": "❤‍🔥",
@@ -482,7 +503,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.12K",
+      "views_label": "8.25K",
       "posted_at": "2026-08-15T15:01:57+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1478",
@@ -608,7 +629,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.47K",
+      "views_label": "3.51K",
       "posted_at": "2026-08-15T10:00:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1476",
@@ -909,7 +930,7 @@
           "count": "1"
         }
       ],
-      "views_label": "37.9K",
+      "views_label": "38K",
       "posted_at": "2026-08-14T14:48:40+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1471",
@@ -5468,43 +5489,6 @@
       "posted_at": "2026-07-29T06:33:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1359",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1358",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/jOvxlopzgeiq7bNOXxckQFV_h5ziF14FNC5aROcJ1AFUewLvhK7iAfnDoO2X_DtGXOuv5i7y0e57s77e6ljNPP6H1aasB8CnJK3jW9UuVKZr-pkU9ZwBXxabDIG70w-Sbw9XDezKAGMHPKVhZjJMF3brBQiAsBDeKk8eH0dmW2_RIoYyXzntjoIkuXwVyxGdU70FHf-s3-CW4Hf6Q01M-5WPfqiXppBu5DAvtlrNruM4cAZAo-iNi3xTDC9-sEhm2Q5YZNjPfeoooNcrZL27L0vL9zyjG5XriE4uxJjHB2lOkfZtAEFcLrQnMTsAA6j7eudEiWuXxxFt9iMHrwWvJw.jpg",
-      "author_photo_path": "channels/whitedns/media/c92a6d44bb824f8a16350efc.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "اولین سرور اختصاصی برای اپ WhiteDNS <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> Tunnel domain: <code>v.anonymous.observer</code><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i> IP: <code>78.135.93.50</code><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> Encryption method: 3<br>روش رمزنگاری را روی AES-128-GCM تنظیم کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9491.png')\"><b>🔑</b></i> Encryption key: <code>b275039199b1c8c9</code><br><br><tg-emoji emoji-id=\"5453872905525947942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji><tg-emoji emoji-id=\"5453872905525947942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji><tg-emoji emoji-id=\"5453872905525947942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji><tg-emoji emoji-id=\"5453872905525947942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji><tg-emoji emoji-id=\"5453872905525947942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E96.png')\"><b>➖</b></i></tg-emoji><br>در دوره‌ی قطعی اینترنت، تیم WhiteDNS چند اپلیکیشن برای دسترسی به اینترنت طراحی کرده که هدف آن‌ها این است در صورت تکرار قطعی سراسری، همچنان قابل استفاده باشند.<br>این اپ ها با WhiteDNS VPN کع این روز ها استفاده میکنید متفاوت هستند.<br><br>امیدواریم هیچ‌وقت دوباره چنین شرایطی پیش نیاید، اما بهتر است آماده باشیم. اگر قطعی سراسری اینترنت تکرار شد، هدف ما این است که شما بتوانید خودتان و عزیزانتان را تا حد ممکن به اینترنت وصل نگه دارید.<br><br><br><br><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji><b>اگر هیچ اطلاعی از این اپ ها ندارید، و نمیدونید چطوری کار میکنند، پیشنهاد مطالب این تاپیک رو مطالعه کنید. <br></b><a href=\"https://t.me/whitedns_group/32380/38590\" target=\"_blank\" rel=\"noopener\">https://t.me/whitedns_group/32380/38590</a><br><br><br><b>WhiteDNS </b><br>یک اپلیکیشن بر پایه MasterDNS برای کانکت شده به اینترنت. <br><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji><a href=\"https://t.me/whitedns_group/12/40\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>آموزش ویدیویی استفاده از اپ</b></a><br><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji><a href=\"https://t.me/whitedns_group/49019/49039\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین نسخه<br></b></a><br><br><b>WhiteDNS Desktop </b><br>یک اپلیکیشن بر پایه MasterDNS برای کانکت شده به اینترنت برای ویندوز، مک و لینوکس. <br><b> </b><b><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji></b><a href=\"https://youtu.be/Mc--GlKw2wg\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b> آموزش ویدیویی استفاده از اپ<br></b></a><b> </b><b><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji></b><a href=\"https://t.me/whitedns_group/48806/77823\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b> دانلود آخرین نسخه</b></a><a href=\"https://t.me/whitedns_group/49019/49039\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><br></b></a><br><br><a href=\"https://t.me/WhiteDNS_Installer_Bot\" target=\"_blank\">@WhiteDNS_Installer_Bot</a> <br>اگر سرور شخصی دارید، میتونید سرور MasterDNS خودتون رو راه اندازی کنید. با کمک بات ما، اتوماتیک سرور مستر خودتون رو نصب و مدیریت کنید.<br> ما و تمام اهدا کننده هایی که همیشه همراه ما بودند سعی میکنیم سرور های عمومی جدید برای شما داخل چنل قرار دهیم.<br><br><br><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><b>باقی لینک های مفید <br></b><tg-emoji emoji-id=\"5453957997418004470\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91A5.png')\"><b>👥</b></i></tg-emoji>&nbsp;&nbsp; <a href=\"https://t.me/whitedns_group\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>لینک گروه اصلی</b></a><br><tg-emoji emoji-id=\"5769571826623586404\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91BE.png')\"><b>👾</b></i></tg-emoji>&nbsp;&nbsp; <a href=\"https://t.me/whitedns_group/49019/49039\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین نسخه اندروید</b></a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i>&nbsp;&nbsp; </b><a href=\"https://t.me/whitedns_group/48806/48807\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین نسخه برای مک‌ و ویندوز</b></a><br><tg-emoji emoji-id=\"6017150732455646343\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji><a href=\"https://testflight.apple.com/join/CxTHFfrs\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>&nbsp;&nbsp; تست فلایت آخرین نسخه آیفون</b></a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i>&nbsp;&nbsp; <a href=\"https://t.me/whitedns_group/12/40\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>آموزش استفاده از نسخه موبایل</b></a><br><tg-emoji emoji-id=\"5470016867252855402\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i></tg-emoji>&nbsp;&nbsp; <a href=\"https://t.me/whitedns_group/49333/57371\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>آموزش راه اندازی سرور شخصی</b></a><br><tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><a href=\"https://t.me/whitedns_group/12/40\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> </a>&nbsp; <a href=\"https://t.me/whitedns_group/12/40\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>آموزش مفاهیم و اولین شروع استفاده از WhiteDNS</b></a><br><a href=\"https://t.me/whitedns/872\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i>&nbsp;&nbsp; آموزش استفاده از نسخه ویندوز</b></a><br><tg-emoji emoji-id=\"6039823138961756935\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9491.png')\"><b>🔑</b></i></tg-emoji>&nbsp;&nbsp; <a href=\"https://t.me/whitedns_group/21/60366\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>لیست سرور های رایگان برای V2Ray و MasterDNS</b></a><br><a href=\"https://t.me/WhiteDNS_installer_bot\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i>&nbsp;&nbsp; ربات ساخت سرور و مدیریت MasterDNS</b></a><br><a href=\"https://t.me/WhiteDNS_installer_bot\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i>&nbsp;&nbsp; ربات دریافت رایگان کانفیگ V2Ray</b></a><br><a href=\"https://t.me/WhiteDNS_installer_bot\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i></b></a><b>&nbsp; </b><a href=\"https://t.me/dns_resolvers_bot\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>ربات دریافت ریزالور</b></a>",
-      "plain_text": "اولین سرور اختصاصی برای اپ WhiteDNS\n\n🌐 Tunnel domain: v.anonymous.observer\n🖥 IP: 78.135.93.50\n🔐 Encryption method: 3\nروش رمزنگاری را روی AES-128-GCM تنظیم کنید.\n🔑 Encryption key: b275039199b1c8c9\n\n➖➖➖➖➖\nدر دوره‌ی قطعی اینترنت، تیم WhiteDNS چند اپلیکیشن برای دسترسی به اینترنت طراحی کرده که هدف آن‌ها این است در صورت تکرار قطعی سراسری، همچنان قابل استفاده باشند.\nاین اپ ها با WhiteDNS VPN کع این روز ها استفاده میکنید متفاوت هستند.\n\nامیدواریم هیچ‌وقت دوباره چنین شرایطی پیش نیاید، اما بهتر است آماده باشیم. اگر قطعی سراسری اینترنت تکرار شد، هدف ما این است که شما بتوانید خودتان و عزیزانتان را تا حد ممکن به اینترنت وصل نگه دارید.\n\n\n\n✍️اگر هیچ اطلاعی از این اپ ها ندارید، و نمیدونید چطوری کار میکنند، پیشنهاد مطالب این تاپیک رو مطالعه کنید.\nhttps://t.me/whitedns_group/32380/38590\n\n\nWhiteDNS\nیک اپلیکیشن بر پایه MasterDNS برای کانکت شده به اینترنت.\n✍️آموزش ویدیویی استفاده از اپ\n✍️دانلود آخرین نسخه\n\n\nWhiteDNS Desktop\nیک اپلیکیشن بر پایه MasterDNS برای کانکت شده به اینترنت برای ویندوز، مک و لینوکس.\n✍️ آموزش ویدیویی استفاده از اپ\n✍️ دانلود آخرین نسخه\n\n\n@WhiteDNS_Installer_Bot\nاگر سرور شخصی دارید، میتونید سرور MasterDNS خودتون رو راه اندازی کنید. با کمک بات ما، اتوماتیک سرور مستر خودتون رو نصب و مدیریت کنید.\nما و تمام اهدا کننده هایی که همیشه همراه ما بودند سعی میکنیم سرور های عمومی جدید برای شما داخل چنل قرار دهیم.\n\n\n⚠️باقی لینک های مفید\n👥   لینک گروه اصلی\n👾   دانلود آخرین نسخه اندروید\n💻   دانلود آخرین نسخه برای مک‌ و ویندوز\n📱   تست فلایت آخرین نسخه آیفون\n📱   آموزش استفاده از نسخه موبایل\n🌐   آموزش راه اندازی سرور شخصی\n🔥   آموزش مفاهیم و اولین شروع استفاده از WhiteDNS\n🖥   آموزش استفاده از نسخه ویندوز\n🔑   لیست سرور های رایگان برای V2Ray و MasterDNS\n🤖   ربات ساخت سرور و مدیریت MasterDNS\n🤖   ربات دریافت رایگان کانفیگ V2Ray\n🤖  ربات دریافت ریزالور",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1358",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/p-CmdkCNZAfuEhYz-a1Ars0EM4yRwZdIVkajlYT0JG_wwr3CUGShUjrojalKZr1Vdm_Y6L5oTBQCR6AkOpRjfN-Bkv6Y2ujqSNbnHi9wxl1vNpJTpwfgHnOcowDjzXxhr3O6LGHExqiWPTB1DkhRN5QTEiGvb7emvujORM10DbMVtCxDF6sDTnqdETo-jlIueTltz3Wee5KaRTULNWiNlbRtGTIodwYoBuoQLRi45LMejlDxCZ3yDBmxTjgc4EN6fNa2_ODkdwa2yrzvlRYRFVGwgFyplUFtC4bqEYjyuNNHwgaykSU0c9DUxlntqS2xjAP1LV1SdfT_SMxeO4kHLQ.jpg",
-          "thumbnail_path": "channels/whitedns/media/c3c3d152ff5f21f8cf2a8f6c.jpg",
-          "thumbnail_sha256": "04c8e7999537b3428d75590c89495288cc66f989fe2cfb8921b0fa3167b2b165",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤‍🔥",
-          "count": "9"
-        },
-        {
-          "emoji": "❤",
-          "count": "7"
-        }
-      ],
-      "views_label": "643",
-      "posted_at": "2026-07-29T05:11:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1358",
       "reply": null
     }
   ]
