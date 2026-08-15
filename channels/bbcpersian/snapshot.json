@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-15T19:31:14.107Z",
+  "fetched_at": "2026-08-15T19:33:21.185Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -11,6 +11,50 @@
     "subscriber_count": "778K"
   },
   "posts": [
+    {
+      "id": "bbcpersian/289448",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/RGLBhhgfP2rlxqnXhewT-EBJAbFpp3OO7Fsn6MPd27vev9f95HxVOqSTA7rBYi5JWRXzXpbbfdPwRbI54sSW-ivpJhJTZMsCRkCmcduaP8KhEfWln36LLkiBdfNev3VYmIEqAsy1rUCoN3ItJOvo-bokIapOCbYq2d4hFc49mrn8u4CX98d0UFHUy4TAEJdyF3yYaSp4FQlT1KgCDTGXrRFHN-BxnhVaIqpaR6XPZj0b0-nN7ggjoZ665Yj1k_Eg6apFaB5apOEnDFCC3pZsalx9OZ4rImsJXeQTPsCbqNpdDC_D3m1AEruHnutI1wRqNenkiEXwdhAw_vcWbI0mZA.jpg",
+      "author_photo_path": "channels/bbcpersian/media/a9739a9b40388fa97e809e0e.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>آخرین خبرهای مهم شنبه ۲۴ مرداد ۱۴۰۵<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "🔻آخرین خبرهای مهم شنبه ۲۴ مرداد ۱۴۰۵\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/289448",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/vcGof2NS-EeZF5NvUW2vzWzOPIZ-7_GhemdMZCtOSDxdOY3XqeusIWC1CoWHIrhE7eDX8Wviip1VHB7odDLzzT-W9ZwCbupAbGrSM8zqjaH70SkD8qpG_7HkSLgtkWzajeYq_158DXb-iRiz-j3mDHLvbP40T2iz2v5exFRtQzheDVAvKX7ZiqKA2lYx9htGUoLCfRd9_zLdevEsM7mUguP723ndYDr7uu7mMwHsSd3K5_T7uxD4FWT9c24WIH928AFkRsDRO34ad-5dsxxzTU3Jdo4CC-sCDYHKe6uHyCMniRBe3eG0UTy5BQbQSMIurgKl7Afm7REV-PK-kmpFnA",
+          "thumbnail_path": "channels/bbcpersian/media/22e13bbf9ad8cf1ad13d39c0.jpg",
+          "thumbnail_sha256": "a4b86b059b1072bf4bf7e0e8d55225c160fc558040267a7dd117f9ca9383e3eb",
+          "duration_label": "0:51",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "9",
+      "posted_at": "2026-08-15T19:33:05+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/289448",
+      "reply": null
+    },
+    {
+      "id": "bbcpersian/289447",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/RGLBhhgfP2rlxqnXhewT-EBJAbFpp3OO7Fsn6MPd27vev9f95HxVOqSTA7rBYi5JWRXzXpbbfdPwRbI54sSW-ivpJhJTZMsCRkCmcduaP8KhEfWln36LLkiBdfNev3VYmIEqAsy1rUCoN3ItJOvo-bokIapOCbYq2d4hFc49mrn8u4CX98d0UFHUy4TAEJdyF3yYaSp4FQlT1KgCDTGXrRFHN-BxnhVaIqpaR6XPZj0b0-nN7ggjoZ665Yj1k_Eg6apFaB5apOEnDFCC3pZsalx9OZ4rImsJXeQTPsCbqNpdDC_D3m1AEruHnutI1wRqNenkiEXwdhAw_vcWbI0mZA.jpg",
+      "author_photo_path": "channels/bbcpersian/media/a9739a9b40388fa97e809e0e.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [],
+      "views_label": "13",
+      "posted_at": "2026-08-15T19:32:56+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/289447",
+      "reply": null
+    },
     {
       "id": "bbcpersian/289446",
       "author_name": "BBCPersian",
@@ -33,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "12.8K",
+      "views_label": "13.5K",
       "posted_at": "2026-08-15T18:53:55+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289446",
@@ -61,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "16K",
+      "views_label": "16.4K",
       "posted_at": "2026-08-15T18:43:44+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289445",
@@ -89,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "15K",
+      "views_label": "15.4K",
       "posted_at": "2026-08-15T18:41:27+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289444",
@@ -101,11 +145,11 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/RGLBhhgfP2rlxqnXhewT-EBJAbFpp3OO7Fsn6MPd27vev9f95HxVOqSTA7rBYi5JWRXzXpbbfdPwRbI54sSW-ivpJhJTZMsCRkCmcduaP8KhEfWln36LLkiBdfNev3VYmIEqAsy1rUCoN3ItJOvo-bokIapOCbYq2d4hFc49mrn8u4CX98d0UFHUy4TAEJdyF3yYaSp4FQlT1KgCDTGXrRFHN-BxnhVaIqpaR6XPZj0b0-nN7ggjoZ665Yj1k_Eg6apFaB5apOEnDFCC3pZsalx9OZ4rImsJXeQTPsCbqNpdDC_D3m1AEruHnutI1wRqNenkiEXwdhAw_vcWbI0mZA.jpg",
       "author_photo_path": "channels/bbcpersian/media/a9739a9b40388fa97e809e0e.jpg",
       "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BB.png')\"><b>📻</b></i>پادکست برنامه جام جهان‌نما، <br>شنبه ۲۴ مرداد ۱۴۰۵&nbsp;<br><br>این برنامه رادیویی را می‌توانید هر شب ساعت ۲۰ به وقت ایران، روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۹۴۶۵ کیلوهرتز بشنوید.<br>تکرار برنامه را هم می‌توانید ساعت ۲۱:۳۰ روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۵۳۹۵ کیلوهرتز گوش کنید.<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "📻پادکست برنامه جام جهان‌نما،\nشنبه ۲۴ مرداد ۱۴۰۵ \n\nاین برنامه رادیویی را می‌توانید هر شب ساعت ۲۰ به وقت ایران، روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۹۴۶۵ کیلوهرتز بشنوید.\nتکرار برنامه را هم می‌توانید ساعت ۲۱:۳۰ روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۵۳۹۵ کیلوهرتز گوش کنید.\n\n@BBCPersian",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BB.png')\"><b>📻</b></i>پادکست برنامه جام جهان‌نما، <br>شنبه ۲۴ مرداد ۱۴۰۵&nbsp;<br><br>این برنامه رادیویی را می‌توانید هر شب ساعت ۲۰ به وقت ایران، روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۹۴۶۵ کیلوهرتز بشنوید. تکرار برنامه را هم می‌توانید ساعت ۲۱:۳۰ روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۵۳۹۵ کیلوهرتز گوش کنید.<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "📻پادکست برنامه جام جهان‌نما،\nشنبه ۲۴ مرداد ۱۴۰۵ \n\nاین برنامه رادیویی را می‌توانید هر شب ساعت ۲۰ به وقت ایران، روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۹۴۶۵ کیلوهرتز بشنوید. تکرار برنامه را هم می‌توانید ساعت ۲۱:۳۰ روی موج متوسط ۷۰۲ کیلوهرتز و موج کوتاه ۵۳۹۵ کیلوهرتز گوش کنید.\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "18.1K",
+      "views_label": "18.4K",
       "posted_at": "2026-08-15T18:14:25+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289443",
@@ -121,7 +165,7 @@
       "plain_text": "🔻 فعالیت‌های بندر مخا در پی حملات حوثی‌ها متوقف شد\n\nرئیس بندر مخا در یمن امروز اعلام کرد که عملیات تجاری و دریایی این بندر پس از اصابت بیش از ۲۵ موشک حوثی‌ها در روزهای اخیر، متوقف شده است.\n\nبه گزارش خبرگزاری رویترز، عبدالملک الشرابی در نشست خبری در این بندر دریای سرخ گفت این حملات منجر به کشته شدن هفت نفر، چهار نیروی امنیتی و سه تن از کارکنان بندر، شده و حدود ۱۶ میلیون دلار خسارت بر جای گذاشته است.\n\nبه گفته او توقف عملیات بندر، ۱۳۰۰ کارگر را از منبع امرار معاش خود محروم کرده است.\n\nآتش‌بس چهارساله در جنگ داخلی یمن که عربستان سعودی بیش از یک دهه پیش وارد آن شد، ماه پیش فروپاشید. حوثی‌ها به تلافی محاصره عربستان سعودی اعلام محاصره متقابل کردند و به نفتکش‌های عربستان در دریای سرخ حمله کردند.\n\nحوثی‌ها کنترل بخش‌های گسترده‌ای از یمن از جمله صنعا، پایتخت، و مناطقی در امتداد مرز با استان‌های ساحلی عربستان در دریای سرخ را در اختیار دارند.\n\nhttps://bbc.in/4wOZOWZ\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "25.9K",
+      "views_label": "26.2K",
       "posted_at": "2026-08-15T17:28:32+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289442",
@@ -137,7 +181,7 @@
       "plain_text": "🔻 حزب‌الله می‌گوید که پاسخی «مناسب» به حملات هوایی امروز اسرائیل به لبنان خواهد داد\n\nحزب‌الله گفت پاسخی «مناسب» به حملات هوایی امروز اسرائیل به لبنان می‌دهد.\n\nاین حملات اسرائیل که اوایل روز شنبه انجام شد، انتقاد گسترده مقامات لبنانی از طیف‌های مختلف سیاسی را برانگیخت.\n\nبه گفته وزارت بهداشت لبنان شمار کشته‌شدگان حملات اسرائیل به دو نقطه در جنوب لبنان، دیر الزهرانی در شهرستان نبطیه و روستای انصار، به ۱۱ نفر رسیده است و ۱۹ نفر مجروح شده‌اند.\n\nدور بعدی مذاکرات دولت لبنان با اسرائیل با میانجی‌گری آمریکا اوایل ماه آینده میلادی (سپتامبر) در رم برگزار می‌شود.\n\nحزب‌الله بار دیگر بر درخواست خود برای توقف این مذاکرات تأکید کرد و آن را «مسیری تحقیرآمیز» خواند که «امتیازهای رایگان به دشمن تقدیم می‌کند.»\n\nارتش اسرائیل پیش از این گفته بود که این حملات را با هدف قرار دادن «زیرساخت‌های حزب‌الله» در نبطیه و انصار در جنوب لبنان انجام داده است اما نواف سلام، نخست‌وزیر لبنان، گفت: «شهدای حمله اسرائیل به روستای انصار، \"زیرساخت نظامی\" محسوب نمی‌شوند و زنان و کودکانی که جان باختند، اهداف نظامی نیستند.»\n\nاو تأکید کرد که این بمباران «بسیار خطرناک است و تلاش‌ها برای تحکیم ثبات در جنوب را تضعیف می‌کند.»\n\nنبیه بری، رئیس مجلس لبنان هم این حملات را «کشتار» خواند و در بیانیه‌ای گفت که هدف این حملات «نابودی» جنوب لبنان است.\n\nوی افزود که اسرائیل نه به توافق‌های آتش‌بس نه به قوانین پایبند است و نه برای تلاش‌های دیپلماتیک برای پایان دادن به جنگ در لبنان و منطقه اهمیتی قائل می‌شود.\n\nhttps://bbc.in/45OcC4R\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "23K",
+      "views_label": "23.3K",
       "posted_at": "2026-08-15T17:26:53+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289441",
@@ -153,7 +197,7 @@
       "plain_text": "🔻 امارات ایران را برای حمله به نفتکشش در تنگه هرمز محکوم کرد\n\nامارات متحده عربی ایران را برای حمله به شناور شرکت ملی نفتش محکوم کرد.\n\nاین حمله جمعه هنگام عبور این نفتکش از تنگه هرمز رخ داد.\n\nبه گزارش خبرگزاری دولتی امارات، شرکت نفت ابوظبی اعلام کرد که این حمله هیچ‌ کشته یا مجروحی نداشته و وضعیت اکنون تحت کنترل است.\n\nوزارت خارجه امارات در بیانیه‌ای که در شبکه اجتماعی ایکس منتشر شد، هدف قرار دادن کشتی‌های تجاری و استفاده از تنگه هرمز را برای «اعمال فشار یا باج‌خواهی اقتصادی» مصداق «دزدی دریایی سپاه پاسداران» خواند.\n\nاین وزارتخانه از ایران خواست به این حملات پایان دهد و خواستار «بازگشایی کامل و بی‌قید و شرط تنگه هرمز» شد.\n\nبر اساس گزارش رسانه‌های اماراتی، برای دو شناور دیگر شرکت نفت ابوظبی که شامگاه پنجشنبه از این آبراه عبور می‌کردند، حادثه رخ داده بود.\n\nhttps://bbc.in/4qh3mzk\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "21.4K",
+      "views_label": "21.7K",
       "posted_at": "2026-08-15T17:25:43+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289440",
@@ -169,7 +213,7 @@
       "plain_text": "🔻 ۱۲ کیلومتر از خط ساحلی عمان به نفت آلوده شده است\n\nخبرگزاری دولتی عمان اعلام کرده است که حدود ۱۲ کیلومتر از خط ساحلی‌اش دچار آلودگی نفتی شده است.\n\nاین گزارش می‌گوید این آلودگی نفتی در نزدیکی رأس مدرکه در سواحل غربی عمان در جنوب تنگه هرمز است.\n\nنشت نفت از یک نفتکش آسیب دیده پس از آنکه هفته‌ها در دریا پخش بود، از اواسط هفته پیش به سواحل عمان رسید.\n\nبه گفته اداره محیط‌ زیست عمان عملیات مقابله با این آلودگی در حال انجام است و لکه نفتی در حال حرکت به سمت آب‌های آزاد است.\n\nدر روزهای اخیر یک آلودگی نفتی هم در سواحل قشم در شمال تنگه هرمز گزارش و دیده شده است.\n\nhttps://bbc.in/4qjq4Xv\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "21.1K",
+      "views_label": "21.4K",
       "posted_at": "2026-08-15T17:24:48+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289439",
@@ -197,7 +241,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "24.4K",
+      "views_label": "24.7K",
       "posted_at": "2026-08-15T17:10:42+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289438",
@@ -225,7 +269,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "34K",
+      "views_label": "34.3K",
       "posted_at": "2026-08-15T15:40:31+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289437",
@@ -253,7 +297,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "36.4K",
+      "views_label": "36.7K",
       "posted_at": "2026-08-15T14:52:14+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289436",
@@ -425,7 +469,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "36.1K",
+      "views_label": "36.4K",
       "posted_at": "2026-08-15T13:14:44+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289429",
@@ -3129,62 +3173,6 @@
       "posted_at": "2026-08-13T19:57:22+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289278",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/289277",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/JvUXngAmrgn7EWVhxk-fflRDIJkptfuO3DCfSVyNg4UCwjskStUGzsbC082_8JirghhrbW_k9BRYRG9NKkVAG9xtXpMq8hq8tL0NMGdtsM7MzVzs6q3SNhUkmz8WfoEm5vOQDX9wG2ifGV81cnhm3Zw5QHTICWsAl2SmtaoL6VX5VQqTn8hf1DqL_AxImfkBMlL8OLW9xQso6nbyoU9qjRuBHkzzXKjfjQsuv9nfGP1XpRMpcT5L326ekbSZeEf2wUj3qgAWrsl4QloDWNasLa3KfYGuyjrD1pujuu5VD9jlTXyN3ThoxHlkt0HixLAYv7ceLH5tfLI-b8jkNlrEcw.jpg",
-      "author_photo_path": "channels/bbcpersian/media/aeaee6042a50038be700467b.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>اسرائيل کاتس، وزیر دفاع اسرائيل، می‌گوید به ارتش این کشور دستور داده تا برای «حضور طولانی» در جنوب لبنان آماده شوند.<br><br>آقای کاتس همچنین پیشتر گفته بود: «تا زمانی که حزب‌الله خلع سلاح نشود، اسرائيل از جنوب لبنان عقب‌نشینی نخواهد کرد.»<br><br>این در حالی است که اظهارات روز گذشته وزیر دفاع اسرائيل مبنی بر اینکه نیروهایش جنوب لبنان را به طور نامحدود اشغال خواهند کرد، انتقاد آمریکا را برانگیخت.<br>حزب‌الله، بارها خلع سلاح نیروهای خود، پیش از خروج اسرائيل از لبنان را رد کرده است.<br><br>اسرائیل در جریان جنگ با حزب‌الله در اوایل امسال، بخشی از جنوب لبنان را تصرف کرد و می‌گوید نیروهای خود را در آنجا نگه خواهد داشت تا از شمال اسرائیل در برابر حمله حزب‌الله، محافظت کند.<br><br>دو روز پس از جنگ آمریکا و اسرائیل علیه ایران، حزب‌الله در حمایت از ایران حملاتی علیه اسرائیل انجام داد.<br><br>از آن زمان، حملات اسرائیل به جنوب لبنان باعث آوارگی صدها هزار لبنانی از جنوب این کشور که ساکنان آن غالبا شیعه هستند، شده است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B7.png')\"><b>📷</b></i>Reuters<br><a href=\"https://bbc.in/4bQreUF\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://bbc.in/4bQreUF</a><br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻اسرائيل کاتس، وزیر دفاع اسرائيل، می‌گوید به ارتش این کشور دستور داده تا برای «حضور طولانی» در جنوب لبنان آماده شوند.\n\nآقای کاتس همچنین پیشتر گفته بود: «تا زمانی که حزب‌الله خلع سلاح نشود، اسرائيل از جنوب لبنان عقب‌نشینی نخواهد کرد.»\n\nاین در حالی است که اظهارات روز گذشته وزیر دفاع اسرائيل مبنی بر اینکه نیروهایش جنوب لبنان را به طور نامحدود اشغال خواهند کرد، انتقاد آمریکا را برانگیخت.\nحزب‌الله، بارها خلع سلاح نیروهای خود، پیش از خروج اسرائيل از لبنان را رد کرده است.\n\nاسرائیل در جریان جنگ با حزب‌الله در اوایل امسال، بخشی از جنوب لبنان را تصرف کرد و می‌گوید نیروهای خود را در آنجا نگه خواهد داشت تا از شمال اسرائیل در برابر حمله حزب‌الله، محافظت کند.\n\nدو روز پس از جنگ آمریکا و اسرائیل علیه ایران، حزب‌الله در حمایت از ایران حملاتی علیه اسرائیل انجام داد.\n\nاز آن زمان، حملات اسرائیل به جنوب لبنان باعث آوارگی صدها هزار لبنانی از جنوب این کشور که ساکنان آن غالبا شیعه هستند، شده است.\n\n📷Reuters\nhttps://bbc.in/4bQreUF\n\n@BBCPersian",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/289277",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/qPJOGGK0ZCHMfNBsly-19d2eLCD_QZTlVJxUWJ1Y-fob39q1e1j0lP0mJYPn9mp9QAD2PXT8phEfewSnEjcbZNHihlNplVS8TlwDFuGwqiP84c-QCQ97zbmqxeEVUKAAMcV7HXGtkhvNHJW3UJrqUygbVo_pvqh5X6tjMvR6F8OVOJ3BeZrmek1p3kQbSkO8nCgwhyPObA0SGNZuUvmbymYnvpGdA6tIagMXh1qfK1gZ_5IxYhCRiIgFR-jW2L2c7UW2ZJpqBaV2KJss_CnIWHpwJA0Ft8pNAU5pxkiJrPaj2e3JrBnqAWmBfcW6CDXO-0yk30rwBMBHN3twdvVwWA.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/beea3edb4a6131094cdffddc.jpg",
-          "thumbnail_sha256": "7d4d9176b2ed297bd034783e4e81b59521a8aa3033bafd54617e1e944558598e",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "32.3K",
-      "posted_at": "2026-08-13T19:26:14+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/289277",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/289276",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/JvUXngAmrgn7EWVhxk-fflRDIJkptfuO3DCfSVyNg4UCwjskStUGzsbC082_8JirghhrbW_k9BRYRG9NKkVAG9xtXpMq8hq8tL0NMGdtsM7MzVzs6q3SNhUkmz8WfoEm5vOQDX9wG2ifGV81cnhm3Zw5QHTICWsAl2SmtaoL6VX5VQqTn8hf1DqL_AxImfkBMlL8OLW9xQso6nbyoU9qjRuBHkzzXKjfjQsuv9nfGP1XpRMpcT5L326ekbSZeEf2wUj3qgAWrsl4QloDWNasLa3KfYGuyjrD1pujuu5VD9jlTXyN3ThoxHlkt0HixLAYv7ceLH5tfLI-b8jkNlrEcw.jpg",
-      "author_photo_path": "channels/bbcpersian/media/aeaee6042a50038be700467b.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>یک قطار مسافربری در جنوب انگلستان از ریل خارج و واژگون شد.<br><br>پلیس حمل و نقل بریتانیا این سانحه را «یک حادثه بزرگ» اعلام کرد. <br><br>بر اساس گزارش مقام‌ها، دو نفر به شدت مجروح شدند و تعدادی از مسافران چندین ساعت در قطار گیر افتاده‌ بودند.<br><br>سخنگوی سرویس آمبولانس ساحل جنوب شرقی انگلستان می‌گوید این قطار در زمان حادثه حدود ۱۵۰ مسافر داشت. او افزود: «دو بیمار جراحات جدی و ۹ بیمار دیگر جراحات کمتری متحمل شده‌اند.» <br><br>بر اساس گزارش‌ها بسیاری از مسافران در محل حادثه معاینه و درمان شده‌اند و برخی برای درمان و مراقبت بیشتر به بیمارستان‌های محلی منتقل شده‌اند.<br>هنوز جزئیاتی از علل این حادثه منتشر نشده است.<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻یک قطار مسافربری در جنوب انگلستان از ریل خارج و واژگون شد.\n\nپلیس حمل و نقل بریتانیا این سانحه را «یک حادثه بزرگ» اعلام کرد.\n\nبر اساس گزارش مقام‌ها، دو نفر به شدت مجروح شدند و تعدادی از مسافران چندین ساعت در قطار گیر افتاده‌ بودند.\n\nسخنگوی سرویس آمبولانس ساحل جنوب شرقی انگلستان می‌گوید این قطار در زمان حادثه حدود ۱۵۰ مسافر داشت. او افزود: «دو بیمار جراحات جدی و ۹ بیمار دیگر جراحات کمتری متحمل شده‌اند.»\n\nبر اساس گزارش‌ها بسیاری از مسافران در محل حادثه معاینه و درمان شده‌اند و برخی برای درمان و مراقبت بیشتر به بیمارستان‌های محلی منتقل شده‌اند.\nهنوز جزئیاتی از علل این حادثه منتشر نشده است.\n@BBCPersian",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/bbcpersian/289276",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/fSoPYE1bxRTWUcZpX4qeBBKl4K2fCHG8rhj39QMliZDOkeS8_Btdj5J-_C76n1a4UDhUoAlC8IH73cEojoPGDS_K6TNSn6lmnHlVTqWjqhT_ak-WHJ1uJeTqtz7xvL6rK8Ifmnknpd-oST78yw7X3VBfQgBw78wPZ-U8JHHpQ9gK9II2hOKnIt76CD3j6A1x49zI1JYC_RFbhLgfBgINUAR_jGYMo0Lfw-0LyNKklW9m6I-rOqGQkgvH54lo_WkUr_zmFsUaRg1LXohxut0JCuCfczzS3H3xkuyRDliriZWn4-O0Mi6LDAgK9ivEtskfLy0UjKh_u82ex2k5-0fi-g",
-          "thumbnail_path": "channels/bbcpersian/media/909df06d880548e5516accbd.jpg",
-          "thumbnail_sha256": "7b6c9fc0d24e81c58506b26c604838c19c13dbc9e066ff5518eb40588c056087",
-          "duration_label": "0:32",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "33.6K",
-      "posted_at": "2026-08-13T19:02:44+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/289276",
       "reply": null
     }
   ]
