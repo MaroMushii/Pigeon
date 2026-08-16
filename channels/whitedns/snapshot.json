@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-16T12:00:13.067Z",
+  "fetched_at": "2026-08-16T12:02:38.493Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1501",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/OAxTyiHN6sKTwToIxIwrZbD1lvMktJOo22y8pyLOwWD6iWTTho8Gpt0I6apwGLaYmU51R24dCoCzuYFM3aEX-lwCOuH0tkQ5fMOey-tgcFK7Dzexu7unDH4KhgtEBiBqR3j3XVL5X9JToGguQj2aTk-VCo6XroyiFc93kCL2FBtBgY4daXMSuYNEiMxUlJbpyca7izHr_cKut2ZzNRQ5i4wy9ZTO7-zxc6xDmvagtfOKNKrPm3emlP5r0iU5rrQq1qkHstxcDS9B4TgtDF-QS0gqUR7fDrfsfeMNbQA4CQLAFyurvUJoBFRQTvXvmdJ9Vi4HW5n1H2Qvbm2LzNlJsw.jpg",
+      "author_photo_path": "channels/whitedns/media/5fd03985805cc383ae3e45e5.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9AAB.png')\"><b>🚫</b></i> <b>چرا موقع ورود به Gemini با ارور ۴۰۳ مواجه می‌شویم و چطور حلش کنیم؟</b><br><br><br>خیلی از کاربران هنگام باز کردن <code>gemini.google.com</code> با خطای معروف زیر روبه‌رو می‌شوند:<br><code>403. That’s an error. Your client does not have permission to get URL / from this server.</code><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> <b>دلیل این ارور چیست؟</b> <br>سرویس‌های هوش مصنوعی مثل Gemini دسترسی کاربران برخی مناطق را به دلیل محدودیت‌های منطقه‌ای و حقوقی مسدود (Geo-block) می‌کنند. اما اگر از ابزارهای تغییر آی‌پی استفاده می‌کنید و باز هم این ارور را می‌بینید، علت معمولاً یکی از موارد زیر است:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> <b>نشت موقعیت (DNS یا WebRTC Leak):</b> با اینکه کانکشن شما وصل است، مرورگر از طریق درخواست‌های DNS یا قابلیت WebRTC، آی‌پی واقعی شما را لو می‌دهد. <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> <b>شناسایی آی‌پی دیتاسنتر (Datacenter IP):</b> گوگل بازه‌های زیادی از سرورهای عمومی و تجاری را شناسایی کرده و مستقیماً مسدود می‌کند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/33E283A3.png')\"><b>3️⃣</b></i> <b>کش و کوکی‌های ذخیره‌شده:</b> مرورگر موقعیت قبلی شما را در کوکی‌ها نگه داشته است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> <b>راهکارهای سریع برای رفع مشکل:</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>تست نشت آی‌پی (Leak Test):</b> ابتدا وارد سایتی مثل <a href=\"http://ipleak.net/\" target=\"_blank\" rel=\"noopener\">ipleak.net</a> یا <a href=\"http://browserleaks.com/ip\" target=\"_blank\" rel=\"noopener\">browserleaks.com/ip</a> شوید و مطمئن شوید در بخش‌های WebRTC و DNS هیچ نشانی از آی‌پی واقعی یا DNS داخلی وجود ندارد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>استفاده از حالت ناشناس (Incognito):</b> یک پنجره Incognito / Private باز کنید یا کش و کوکی‌های مربوط به دامنه‌های <code>google.com</code> را پاک کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>فعال‌سازی حالت TUN Mode / روتینگ کامل:</b> مطمئن شوید کلاینت شما تمام ترافیک و به خصوص درخواست‌های DNS را هدایت می‌کند و ترافیک دامنه‌های گوگل به صورت Direct رد نمی‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>تغییر نود یا کشور سرور:</b> اگر آی‌پی سرور فعلی توسط گوگل فلگ شده باشد، با جابه‌جایی نود یا تغییر لوکیشن معمولاً دسترسی بلافاصله باز می‌شود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <i>اشتراک‌گذاری برای دوستانی که با دسترسی به جمینای مشکل دارند.</i><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🚫 چرا موقع ورود به Gemini با ارور ۴۰۳ مواجه می‌شویم و چطور حلش کنیم؟\n\n\nخیلی از کاربران هنگام باز کردن gemini.google.com با خطای معروف زیر روبه‌رو می‌شوند:\n403. That’s an error. Your client does not have permission to get URL / from this server.\n\n🔍 دلیل این ارور چیست؟\nسرویس‌های هوش مصنوعی مثل Gemini دسترسی کاربران برخی مناطق را به دلیل محدودیت‌های منطقه‌ای و حقوقی مسدود (Geo-block) می‌کنند. اما اگر از ابزارهای تغییر آی‌پی استفاده می‌کنید و باز هم این ارور را می‌بینید، علت معمولاً یکی از موارد زیر است:\n1️⃣ نشت موقعیت (DNS یا WebRTC Leak): با اینکه کانکشن شما وصل است، مرورگر از طریق درخواست‌های DNS یا قابلیت WebRTC، آی‌پی واقعی شما را لو می‌دهد.\n2️⃣ شناسایی آی‌پی دیتاسنتر (Datacenter IP): گوگل بازه‌های زیادی از سرورهای عمومی و تجاری را شناسایی کرده و مستقیماً مسدود می‌کند. 3️⃣ کش و کوکی‌های ذخیره‌شده: مرورگر موقعیت قبلی شما را در کوکی‌ها نگه داشته است.\n\n🛠 راهکارهای سریع برای رفع مشکل:\n🔹 تست نشت آی‌پی (Leak Test): ابتدا وارد سایتی مثل ipleak.net یا browserleaks.com/ip شوید و مطمئن شوید در بخش‌های WebRTC و DNS هیچ نشانی از آی‌پی واقعی یا DNS داخلی وجود ندارد.\n🔹 استفاده از حالت ناشناس (Incognito): یک پنجره Incognito / Private باز کنید یا کش و کوکی‌های مربوط به دامنه‌های google.com را پاک کنید.\n🔹 فعال‌سازی حالت TUN Mode / روتینگ کامل: مطمئن شوید کلاینت شما تمام ترافیک و به خصوص درخواست‌های DNS را هدایت می‌کند و ترافیک دامنه‌های گوگل به صورت Direct رد نمی‌شود.\n🔹 تغییر نود یا کشور سرور: اگر آی‌پی سرور فعلی توسط گوگل فلگ شده باشد، با جابه‌جایی نود یا تغییر لوکیشن معمولاً دسترسی بلافاصله باز می‌شود.\n\n💡 اشتراک‌گذاری برای دوستانی که با دسترسی به جمینای مشکل دارند.\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1501",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/lJHibDHBLIHxgMBa2LtAZ51lW3rk4yld4NOK6PpvUMInCw2Kv2ZASEd1KMB6mrIsLiiVGI7Rz53Od1eoJiXLxox5cSFrSNaIR1geYxRru73O-QjPQtvth1559IQL6PaGsHFIy4OI-iTq4QSFtQ8OSqAQW06N5oLlpaZhRGobcj36tKn6COSIoteCBotN8uTp9qjJCMkStgh4tfLo-gyEOB5Y5B3h169YfrFXsjszxcBho6QSfvOxV_hmWf8_MBMCnwC4ypbn1ph9Omq3O5zLtZeenvSbiSepJ5TH5p9NJFLdk9dkgFSP2-38USN3-iA_yqnPzawMu3_EXXLenwtUnA.jpg",
+          "thumbnail_path": "channels/whitedns/media/ce7c50778869ba07f2e036ed.jpg",
+          "thumbnail_sha256": "4c16603cc8e3db80dd817c650dbe3b201dd9975e14d5204ca0d2a4dfe78e3f06",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "378",
+      "posted_at": "2026-08-16T12:01:41+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1501",
+      "reply": null
+    },
     {
       "id": "whitedns/1500",
       "author_name": "White DNS",
@@ -92,7 +125,7 @@
         },
         {
           "emoji": "❤",
-          "count": "163"
+          "count": "164"
         },
         {
           "emoji": "👍",
@@ -131,7 +164,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.6K",
+      "views_label": "21.9K",
       "posted_at": "2026-08-16T03:42:34+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1496",
@@ -161,7 +194,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "100"
+          "count": "101"
         },
         {
           "emoji": "❤‍🔥",
@@ -196,7 +229,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.27K",
+      "views_label": "8.3K",
       "posted_at": "2026-08-16T03:42:31+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1495",
@@ -242,7 +275,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "103"
+          "count": "106"
         },
         {
           "emoji": "❤‍🔥",
@@ -269,7 +302,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.38K",
+      "views_label": "8.48K",
       "posted_at": "2026-08-16T02:29:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1493",
@@ -363,7 +396,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.52K",
+      "views_label": "9.55K",
       "posted_at": "2026-08-15T18:41:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1491",
@@ -628,7 +661,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29K",
+      "views_label": "29.1K",
       "posted_at": "2026-08-15T16:14:33+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1487",
@@ -754,7 +787,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28K",
+      "views_label": "28.1K",
       "posted_at": "2026-08-15T16:05:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1481",
@@ -827,7 +860,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.3K",
+      "views_label": "28.4K",
       "posted_at": "2026-08-15T16:04:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1480",
@@ -5556,71 +5589,6 @@
       "posted_at": "2026-07-30T19:58:57+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1371",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1370",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/UCVNOCCBLzz5qelc4na3bhB3PB3A--WLzFMfqDQsLX_wxdkAF-8-u7c1i09WoUzfVuVTzlx2PTIte6v5LQ6XHRCvhSaUojAGCzGKf4pahCWVa_1yPf2su92T2kYyA_tIbb5WXGYRrZlJCN7HjT5VZJO4amNG9jQVUNNPpfZ8NCsxDBkwW4t9Jx3tz8ngCHMPULPOKLMxMwisOBGhBN1ys4tFs0l0j_9YC9fuHXFEcIurI8L3WPrGYsBIjYWTp9vLDklIHanaFp5ragc8H-Or5hdZeJalRIKENEToZumiNQ7u2Jar4kZAiOCfgoUa1ksua4CSf1Rni_Kh3r0_Iq0bfA.jpg",
-      "author_photo_path": "channels/whitedns/media/3df158ca744fa41df4e6813f.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<b>اطلاعیه مهم درباره وضعیت ممیزی امنیتی پروژه‌ها </b><br><br><blockquote>از این پس، هر پروژه‌ای که از برنامه ممیزی امنیتی <b>WhiteDNS Security</b> خارج شود، دیگر تحت نظارت امنیتی ما نخواهد بود.<br>این موضوع به این معناست که:<br>آخرین نتیجه ممیزی تنها مربوط به نسخه‌ای است که در زمان ارزیابی بررسی شده است.<br>هرگونه تغییر در کد، تنظیمات، زیرساخت، وابستگی‌ها یا به‌روزرسانی‌های بعدی می‌تواند وضعیت امنیتی پروژه را تغییر دهد.<br>پس از خروج پروژه از فرآیند ممیزی، WhiteDNS هیچ تضمین، تأیید یا مسئولیتی نسبت به امنیت نسخه‌های جدید یا وضعیت فعلی آن پروژه نخواهد داشت.<br>ادامه استفاده از پروژه، صرفاً بر عهده توسعه‌دهندگان و کاربران آن است.<br>در صورت بازگشت پروژه به برنامه ممیزی و انجام ارزیابی مجدد، نتیجه جدید به‌صورت رسمی اعلام خواهد شد.<br><br><b>آخرین وضعیت معتبر هر پروژه، تنها از طریق اطلاعیه‌های رسمی WhiteDNS قابل استناد است.</b></blockquote><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "اطلاعیه مهم درباره وضعیت ممیزی امنیتی پروژه‌ها\n\nاز این پس، هر پروژه‌ای که از برنامه ممیزی امنیتی WhiteDNS Security خارج شود، دیگر تحت نظارت امنیتی ما نخواهد بود.\nاین موضوع به این معناست که:\nآخرین نتیجه ممیزی تنها مربوط به نسخه‌ای است که در زمان ارزیابی بررسی شده است.\nهرگونه تغییر در کد، تنظیمات، زیرساخت، وابستگی‌ها یا به‌روزرسانی‌های بعدی می‌تواند وضعیت امنیتی پروژه را تغییر دهد.\nپس از خروج پروژه از فرآیند ممیزی، WhiteDNS هیچ تضمین، تأیید یا مسئولیتی نسبت به امنیت نسخه‌های جدید یا وضعیت فعلی آن پروژه نخواهد داشت.\nادامه استفاده از پروژه، صرفاً بر عهده توسعه‌دهندگان و کاربران آن است.\nدر صورت بازگشت پروژه به برنامه ممیزی و انجام ارزیابی مجدد، نتیجه جدید به‌صورت رسمی اعلام خواهد شد.\n\nآخرین وضعیت معتبر هر پروژه، تنها از طریق اطلاعیه‌های رسمی WhiteDNS قابل استناد است.\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1370",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/Yh6si5oCUAki9ALvSbaE43WLvCMOJBOD3275PNs9uDeie6WextghJyyHtuDjY2GdRBNozpfziWDW42PB0WXK2IlfUA7U6Ac2pZ2qGsVmxJPA-UV47FNnmacPfhgmDyUerTTq_DfKLTC2uc788gSqPFE61BbFuRyZUymRjpTvyX2uOKJiqlMuRvF0dyOWRmhD-ogKqQBcn4_VRL6FRx8ZEM1A2ICHFGqkuMl4UIyYtOhI2_sixYxbpACB-NT7WtX-XHMf_6fbInd6JzJMki9KYNOjWd96LYskGn_CpsyGiSCt9VsZEJghTORgr-COIWWJkBTfGH5hUbrXRDCIgF4V4Q.jpg",
-          "thumbnail_path": "channels/whitedns/media/ef06e10019405aa10713db98.jpg",
-          "thumbnail_sha256": "f738f69ee99cfc2180778b46f8ceb91f5a545addd0e3fa73a884605e35f11a65",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "🔥",
-          "count": "211"
-        },
-        {
-          "emoji": "👍",
-          "count": "67"
-        },
-        {
-          "emoji": "❤",
-          "count": "38"
-        },
-        {
-          "emoji": "🤣",
-          "count": "32"
-        },
-        {
-          "emoji": "🤔",
-          "count": "12"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "😢",
-          "count": "2"
-        }
-      ],
-      "views_label": "22.2K",
-      "posted_at": "2026-07-30T07:54:22+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1370",
       "reply": null
     }
   ]
