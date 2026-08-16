@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-16T19:45:01.567Z",
+  "fetched_at": "2026-08-16T19:47:47.525Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/227420",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/bDbiN0zfzczxI-IJS3Fr_cjSp4pStYrVUy6M6VeJFNDHNaOudS8IsgTl9Am1iM8hFYQfd4cVq47voRSNWZMx2TquoHfZkrlhJa2cnEMPv4W_n1DkvVSZxSWeEjAJN_sZbpsiLDJNsn3CyEYsbU99mDWv1xBn0xb3iFKgPK6_s5fGV8uf4dRW2ZS25L-7FwdjQsms98DERj_uqbpc7RF4maz7va6KeKMt4Myl6WSkUBYoXmnSKXLR0lmIzxuZF8MxyATD2g5hy7oc0ulVGmNB-tvp6VcPjTgvy5bcv0X6jdXjf8_30Vb9OIZS7tB3522QmANyLfkhdgwxNBykO22ORA.jpg",
+      "author_photo_path": "channels/farsivoa/media/2708fb0526b9ebb7aebe4ce4.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "شهره آغداشلو، بازیگر سینمای جهان در گفت‌وگوی اختصاصی با فهیمه خضر حیدری در «عمق میدان» درباره ادعاهای آزارگری جنسی علیه همسر سابقش، آیدین آغداشلو سخن می‌گوید.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
+      "plain_text": "شهره آغداشلو، بازیگر سینمای جهان در گفت‌وگوی اختصاصی با فهیمه خضر حیدری در «عمق میدان» درباره ادعاهای آزارگری جنسی علیه همسر سابقش، آیدین آغداشلو سخن می‌گوید.\n@FarsiVOA",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/227420",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/N10TOL9yO5qK_lQJQWHU1cV23CgPlIMOpHBVrSvz6DCg65Sm6AicRlnN7_HffxsXniSZnMwwlNnuyygb9-G_50bX8q96nRGgfRNgyVlzy--qokqI2jzkSXqIWH4RvSZDsL7HmXUUbKbfv7QKlccNx6eEWWLNu7x0D5cS0FoJDANoFx0RC_zpnliDAFPJ0jJGT-sPxA5e7FjggoEgY-MABI0T5rtJETo1tGYaolIhCR7STTaZkOJ2m4N1H3cwVWKyKPpkk4HzF5FOHOWQk-nSmLAxRnNmK7AI0T1LCsyxQJF_Ro0I3JTWzLykenRS1Sh_hHuge0YalEdAp9UmoVUavA",
+          "thumbnail_path": "channels/farsivoa/media/b602652953f052b9665af198.jpg",
+          "thumbnail_sha256": "48d1d04ecc8c31bc78ca8c6cd82ce8421acca91bc47c332474e28c49c9ff2073",
+          "duration_label": "1:49",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "164",
+      "posted_at": "2026-08-16T19:46:08+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/227420",
+      "reply": null
+    },
+    {
       "id": "farsivoa/227419",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/bDbiN0zfzczxI-IJS3Fr_cjSp4pStYrVUy6M6VeJFNDHNaOudS8IsgTl9Am1iM8hFYQfd4cVq47voRSNWZMx2TquoHfZkrlhJa2cnEMPv4W_n1DkvVSZxSWeEjAJN_sZbpsiLDJNsn3CyEYsbU99mDWv1xBn0xb3iFKgPK6_s5fGV8uf4dRW2ZS25L-7FwdjQsms98DERj_uqbpc7RF4maz7va6KeKMt4Myl6WSkUBYoXmnSKXLR0lmIzxuZF8MxyATD2g5hy7oc0ulVGmNB-tvp6VcPjTgvy5bcv0X6jdXjf8_30Vb9OIZS7tB3522QmANyLfkhdgwxNBykO22ORA.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺فرمانده سنتکام: ناو آبراهام لینکلن پایین‌ترین آمار مشکلات سلامت روان را دارد\n\n▪️دریاسالار برد کوپر، فرمانده فرماندهی مرکزی ایالات متحده «سنتکام»، پس از بازدید از ناو هواپیمابر «یواس‌اس آبراهام لینکلن»، عملکرد خدمه این ناو را ستود و اعلام کرد این ناو در مقایسه با دیگر ناوهای هواپیمابر فعال نیروی دریایی آمریکا، پایین‌ترین آمار موارد مرتبط با سلامت روان را دارد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/admiral-brad-cooper-mental-health-uss-lincoln-centcom/8186964.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "666",
+      "views_label": "860",
       "posted_at": "2026-08-16T19:34:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227419",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.82K",
+      "views_label": "1.95K",
       "posted_at": "2026-08-16T19:01:32+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227418",
@@ -65,7 +93,7 @@
       "plain_text": "🔺صدور احکام سنگین حبس برای شهروندانی از مهاباد و سرایان؛ بازداشت یک فعال کارگری در رشت\n\n▪️منابع حقوق بشری روز یکشنبه ۲۵ مرداد از صدور احکام سنگین حبس برای چند شهروند اهل مهاباد و یک شهروند اهل سرایان خبر دادند، و اعلام کردند یک فعال کارگری و زندانی سیاسی سابق در تجمع بازنشستگان شهر رشت بازداشت شده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-human-rights-political-prisoners-sentence-protests/8186961.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.83K",
+      "views_label": "1.96K",
       "posted_at": "2026-08-16T18:59:28+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227417",
@@ -93,7 +121,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.95K",
+      "views_label": "2.01K",
       "posted_at": "2026-08-16T18:47:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227416",
@@ -121,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.2K",
+      "views_label": "2.24K",
       "posted_at": "2026-08-16T18:36:51+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227415",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.34K",
+      "views_label": "2.4K",
       "posted_at": "2026-08-16T18:27:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227414",
@@ -165,7 +193,7 @@
       "plain_text": "🔺نیویورکر درباره اودیسه نولان: اقتباس سینمایی خوب لزوما عکس‌برگردان ادبیات نیست\n\n▪️ریچارد برودی، منتقد سینمایی مجله «نیویورکر»، با بررسی فیلم «اودیسه» ساخته کریستوفر نولان، بحث قدیمی درباره نسبت سینما و ادبیات و معنای «وفاداری» در اقتباس سینمایی را مطرح کرده است، و می‌گوید ارزش یک اقتباس را نمی‌توان صرفاً با میزان پایبندی آن به متن اصلی سنجید.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/what-makes-an-adaptation-good/8186953.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.41K",
+      "views_label": "2.47K",
       "posted_at": "2026-08-16T18:21:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227413",
@@ -193,7 +221,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.32K",
+      "views_label": "2.35K",
       "posted_at": "2026-08-16T18:16:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227412",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.69K",
+      "views_label": "2.72K",
       "posted_at": "2026-08-16T18:03:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227411",
@@ -249,7 +277,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.78K",
+      "views_label": "2.82K",
       "posted_at": "2026-08-16T17:52:01+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227410",
@@ -321,7 +349,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.73K",
+      "views_label": "2.79K",
       "posted_at": "2026-08-16T17:34:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227407",
@@ -377,7 +405,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.88K",
+      "views_label": "2.92K",
       "posted_at": "2026-08-16T17:16:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227405",
@@ -393,7 +421,7 @@
       "plain_text": "🔴📢‌ پادکست تفسیر خبر - یکشنبه ۲۵ مرداد\n\n🛜در صورتی که با مشکل اینترنت مواجه هستید میتوانید اخبار صدای آمریکا را از\nنسخه‌های پادکست خبری ما به صورت صوتی دنبال کنید و یا اخبار را از نسخه\nسبک وب‌سایت ما پیگیر باشید:\nhttps://ir.voanews.com/lite\n\n📡بروزترین فرکانسهای ماهواره‌ای را نیز میتوانید از صفحه زیر پیگیری کنید:\nhttps://ir.voanews.com/satellite\n\n🔔دیگر شبکه‌های اجتماعی ما را هم دنبال کنید:\nhttps://linktr.ee/voafarsi\n\n\nبا دوستانتان به اشتراک بگذارید\n@farsivoa",
       "media": [],
       "reactions": [],
-      "views_label": "3.03K",
+      "views_label": "3.07K",
       "posted_at": "2026-08-16T17:09:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227404",
@@ -437,7 +465,7 @@
       "plain_text": "🔺گزارش | جدال قطر و جمهوری اسلامی بر سر خلبانان مفقود ایرانی\n\n▪️یک مقام ارشد ستاد کل نیروهای مسلح جمهوری اسلامی روز شنبه ۲۴ مرداد، ادعا کرد؛ سه خلبان ایرانی که در اثر سرنگونی دو فروند سوخو-۲۴ در قطر مفقود شده بودند، زنده‌اند و حدود شش ماه است که در اختیار نیروهای قطری قرار دارند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-internet-disruptions-worsen/8186949.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.08K",
+      "views_label": "3.12K",
       "posted_at": "2026-08-16T16:51:56+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/227402",
@@ -465,7 +493,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.81K",
+      "views_label": "2.84K",
       "posted_at": "2026-08-16T16:49:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227401",
@@ -2486,34 +2514,6 @@
       "posted_at": "2026-08-15T18:42:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227314",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/227313",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/jMnr0fnlTibRFOcd6rlZ5wGwYl51cOSC1cy0w6O4mjU6MpO1acAxUldbiQlDO0KW36Gi1LAlOGw-lriDMTv_u8ciQUgt9qymFQkZ0AStT4Gpzr92pneiu799zsh9RxVbSLnXSTNgZ2Yv5CnQzuf1cmmp29qm1IfNmgz99fTNFN10YOmeAB_j7ZmTv5P94cimllCMdysHnJoCuhgN_oekO2GkdBkLB5mpGYGc1qsZQH9tt1nOwf-kXkRlDvtsFidQvfP_EhXNK0QquqVU6JmRXeJURfFeK1y18UavtcRkg_bQuFiIxpKGPdLheYT2tPU88P-GMhjtQq7JLL_FCgh4ow.jpg",
-      "author_photo_path": "channels/farsivoa/media/c445f85aa3bac6884dfe54a2.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "در گفت‌وگو با حسن هاشمیان از گسترش نقش عربستان سعودی در عراق و رقابت منطقه‌ای با جمهوری اسلامی گفتیم. هاشمیان می‌گوید آن چه امروز به عربستان در عراق قدرت می‌دهد، متغیرهای کلان اقتصادی و سیاسی است که حتی بخش‌هایی از چارچوب هماهنگی شیعیان نیز به آن گرایش پیدا کرده‌اند.",
-      "plain_text": "در گفت‌وگو با حسن هاشمیان از گسترش نقش عربستان سعودی در عراق و رقابت منطقه‌ای با جمهوری اسلامی گفتیم. هاشمیان می‌گوید آن چه امروز به عربستان در عراق قدرت می‌دهد، متغیرهای کلان اقتصادی و سیاسی است که حتی بخش‌هایی از چارچوب هماهنگی شیعیان نیز به آن گرایش پیدا کرده‌اند.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/227313",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Xh_-UJh2H2qJi0bdCPvhrJ6vCfpBChfqRCzyYuMUu_4OekLVxpvjemoGZQKSEjU9bkj3ZiMEjF9-ton1-yGSOKd2QWar7pielAg1OtogZh9jJPWgDW1jVZ57Dn4E9PHXll1t_BvCZndb-dNX30VPuLwAn2U48TocZA7aSoWBpv_wN0MLCzpmAK8sGJfLgoic1bd4OPX1rdVtj9okzD60wrYFebsr_glANgCMzUhC3vBKHFyg221FuSGVrr4-KSjDop-vSE8zca_KqJk4qc5Lov_8ncjPtKWDJ3-VqetEMy8185DYTjSjzV9nQgQ9pEVWkF5BNE0hXgQLkSSdJAFv9A",
-          "thumbnail_path": "channels/farsivoa/media/41f0e7928ccefc09f34aae35.jpg",
-          "thumbnail_sha256": "16b66d14c87baf21febba3f9747cb3f153bcf8f79e304e5088530f7ba0f4d924",
-          "duration_label": "3:42",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.16K",
-      "posted_at": "2026-08-15T18:33:52+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/227313",
       "reply": null
     }
   ]
