@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-16T13:32:01.903Z",
+  "fetched_at": "2026-08-16T13:37:32.966Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -12,18 +12,46 @@
   },
   "posts": [
     {
+      "id": "bbcpersian/289517",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/n8mfjgtxaHzCshd--W7D0KnR4kk6nPqVG1xf1nZFcwbD6iKQu4n4CFr6Y87QlWgO8md39phhbAeV_sgZci9nzwq_BHkM1wXcNNjBLfV8zSN3YdKv1O4B7IfcwB9kSDS9MsNKK42T2Lll_T4rzh9HusjsBKlncqt_-XuEZkweVIufg7jpv8IcS6JyaLD_Ayq4mA129H4XVcsTS5UYykImE2bTUSzGVHpAtdPuacGgP-6LnEqcQ3FtRO-ndlpP74rTBTGowiGKAmVn7z4ABlegoaA-LsscmqLf2A27IMQWkEf_fMBZW3EMoGxe5ytC3JRIbr8Vmut5-YhTFTeByAhyxQ.jpg",
+      "author_photo_path": "channels/bbcpersian/media/33a9d1abcfbf5c203fbb7757.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i>سرخط خبرهای یکشنبه ۲۵ مرداد ۱۴۰۵<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "⭕️سرخط خبرهای یکشنبه ۲۵ مرداد ۱۴۰۵\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/289517",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/KjD6OWBKw3xKgp4YXBDaSV526BGSx60-KQceLZPfEYULi0emzeeFJkPPdd9vHHSa8iQ6EP9TsjnemOGFhch_GXclPyvqkxzTPg710SWnVx-TsHr53NMKQC67ZymRUhG_IcC1P5ym2urPVtkw9_Xamn2VN8ThmR7DMvqkaIkKPVTnD1KCI5R9P8CdfW4C0s3OFz7Zh5Rf59Gzdw-4vqSMdrrVPrEWKiLuSt_FUBKmj9GG5TrLVto94SQChD2JwN0_5phuT4omyNJHOAzxL1cSU1MmKn5lmIbuVdh1j-iVT-MuLYMUMMUdchyNqLaFBvmVZq00cY2RJlC61O6LYD3O_Q",
+          "thumbnail_path": "channels/bbcpersian/media/58979d23bbd40e771bd51d80.jpg",
+          "thumbnail_sha256": "c5139cc03ff39dad232cbe57010d144c5cdeea220d0e81a3eb3ce4bac3edd320",
+          "duration_label": "0:50",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-08-16T13:36:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/289517",
+      "reply": null
+    },
+    {
       "id": "bbcpersian/289515",
       "author_name": "BBCPersian",
       "author_photo_url": "https://cdn4.telesco.pe/file/n8mfjgtxaHzCshd--W7D0KnR4kk6nPqVG1xf1nZFcwbD6iKQu4n4CFr6Y87QlWgO8md39phhbAeV_sgZci9nzwq_BHkM1wXcNNjBLfV8zSN3YdKv1O4B7IfcwB9kSDS9MsNKK42T2Lll_T4rzh9HusjsBKlncqt_-XuEZkweVIufg7jpv8IcS6JyaLD_Ayq4mA129H4XVcsTS5UYykImE2bTUSzGVHpAtdPuacGgP-6LnEqcQ3FtRO-ndlpP74rTBTGowiGKAmVn7z4ABlegoaA-LsscmqLf2A27IMQWkEf_fMBZW3EMoGxe5ytC3JRIbr8Vmut5-YhTFTeByAhyxQ.jpg",
       "author_photo_path": "channels/bbcpersian/media/33a9d1abcfbf5c203fbb7757.jpg",
       "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "",
-      "plain_text": "",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BB.png')\"><b>📻</b></i>تازه‌ترین خبرهای جهان یکشنبه ۲۵ مرداد ۱۴۰۵ از رادیو بی‌بی‌سی در لندن<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "📻تازه‌ترین خبرهای جهان یکشنبه ۲۵ مرداد ۱۴۰۵ از رادیو بی‌بی‌سی در لندن\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "1",
+      "views_label": "2.3K",
       "posted_at": "2026-08-16T13:31:43+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/bbcpersian/289515",
       "reply": null
     },
@@ -37,7 +65,7 @@
       "plain_text": "🔻اسرائیل: در صورت تهدید از سوی حزب‌الله بار دیگر به این گروه حمله خواهیم کرد\n\nاسرائیل گفته است که در صورت احساس تهدید از سوی حزب‌الله، بار دیگر به این گروه حمله خواهد کرد. هم‌زمان، ارتش اسرائیل یکی از فرماندهان حزب‌الله را که به گفته این کشور در حملات دیروز کشته شده است، شناسایی کرد.\n\nاسرائیل گفت که ابوحسن علاء، از فرماندهان ارشد «یگان بدر» حزب‌الله، در حملات روز گذشته کشته شده است.\n\nحملات دیروز اسرائیل در جنوب لبنان، بنا بر اعلام مقام‌های لبنانی، «۱۱ کشته» بر جای گذاشت و مرگبارترین حملات از زمان توافق ماه ژوئن برای پایان دادن به درگیری‌ها بود.\n\nاسرائیل اعلام کرد این حملات در پاسخ به اقدام حزب‌الله در به‌کارگیری پهپادهای حامل مواد منفجره در منطقه‌ای موسوم به«منطقه امنیتی» در جنوب لبنان انجام شده است؛ حمله‌ای که به‌شدت سه نظامی اسرائیلی، از جمله یک افسر، را زخمی کرد.\n\nاسرائيل کاتس، وزیر دفاع اسرائیل، در شبکه اجتماعی ایکس نوشت: «هیچ حساب تسویه‌نشده‌ای باقی نخواهد ماند. ما با تمام قدرت از سربازان و غیرنظامیان خود دفاع خواهیم کرد.»\n\n\nhttps://bbc.in/4bOpsTZ\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "3.61K",
+      "views_label": "4.92K",
       "posted_at": "2026-08-16T13:23:43+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289514",
@@ -65,7 +93,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "7.87K",
+      "views_label": "8.9K",
       "posted_at": "2026-08-16T13:05:55+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289513",
@@ -81,7 +109,7 @@
       "plain_text": "🔻محمدجعفر قائم‌پناه، معاون اجرایی رئیس‌جمهور ایران در گفتگو با ایسنا گفت فروش فیلتر شکن بین ۷ تا ۱۲ همت سود دارد که برای ما مشخص نیست به جیب چه کسی می‌رود، اما می‌دانیم عواید آن به وزات ارتباطات یا اپرتورها نمی‌رسد.\n\nاو در ادامه گفت: کسانی که فیلترشکن را می‌فروشند دنبال منفعت شخصی هستند یا نفوذی دارند و نمی‌گذارند تصمیمی برای برداشتن فیلترشکن‌ها گرفته شود.\n\nآقای قائم‌پناه گفت براساس نظرسنجی‌های انجام شده دولت، در استان‌های مختلف «بین ۶۰ تا ۷۵ درصد از مردم» مخالف استفاده از فیلترشکن هستند.\n\nاو گفت در جهان امروز با این شیوه (فیلتر کردن) نمی‌توان مانع کشف حقیقت توسط مردم شد. آقای قائم‌پناه با اشاره به استفاده اکثر مسئولین کشور، از جمله دفتر رهبر پیشین و رهبر جدید جمهوری اسلامی از ایکس و اینستاگرام گفت: «از این ابزار باید به نحو احسن استفاده کرد، چه با فیلترشکن چه به صورت آزاد که هزینه فیلترشکن را مردم باید بدهند.»\n\nفیلترینگ اینترنت در ایران و استفاده از فیلترشکن برای استفاده از پلتفرم‌های بین‌المللی سال‌هاست بخشی از مشکلات روزمره زندگی مردم شده است.\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "17.4K",
+      "views_label": "18.4K",
       "posted_at": "2026-08-16T12:14:29+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289512",
@@ -97,7 +125,7 @@
       "plain_text": "🔻مجلس ایران کلیات طرح «مقابله با نفوذ بیگانگان» را تصویب کرد\n\nعباس گودرزی، سخنگوی هیئت رئیسه مجلس، از تصویب کلیات طرح «مقابله با نفوذ سرویس‌های اطلاعاتی، دولت‌ها یا نهادهای بیگانه» در کشور خبر داد.\n\nاو گفت که این طرح با هدف مقابله با نفوذ سرویس‌های اطلاعاتی، دولت‌ها و نهادهای بیگانه در کشور در دستور کار مجلس قرار گرفت.\n\nاین طرح در تیر ماه سال گذشته (۱۴۰۴) در صحن علنی مجلس اعلام وصول شد و کلیات آن در مهرماه همان سال با اکثریت قاطع آرا به تصویب اعضای کمیسیون امنیت ملی و سیاست خارجی مجلس رسید.\n\nابراهیم رضایی، سخنگوی این کمیسیون، در آن زمان گفته بود که این طرح با هدف «تقویت مصونیت کشور در برابر نفوذ سیاسی، فرهنگی و امنیتی بیگانگان» تدوین شده است.\n\nمقام‌های جمهوری اسلامی در سال‌های اخیر بارها از آنچه «نفوذ» و تلاش سرویس‌های اطلاعاتی خارجی برای تأثیرگذاری بر ساختارهای سیاسی، اجتماعی و امنیتی کشور می‌خوانند، ابراز نگرانی کرده‌اند.\n\nhttps://bbc.in/4cLAB8n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "19K",
+      "views_label": "19.7K",
       "posted_at": "2026-08-16T11:59:38+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289511",
@@ -125,7 +153,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "24.6K",
+      "views_label": "25.3K",
       "posted_at": "2026-08-16T11:03:28+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289510",
@@ -153,7 +181,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "26.5K",
+      "views_label": "26.8K",
       "posted_at": "2026-08-16T10:28:48+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289508",
@@ -181,7 +209,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "29.3K",
+      "views_label": "29.7K",
       "posted_at": "2026-08-16T09:57:48+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289507",
@@ -209,7 +237,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "31K",
+      "views_label": "31.3K",
       "posted_at": "2026-08-16T09:13:48+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289506",
@@ -325,7 +353,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "36.3K",
+      "views_label": "36.6K",
       "posted_at": "2026-08-16T07:15:05+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289497",
@@ -3101,22 +3129,6 @@
       "posted_at": "2026-08-14T13:33:51+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289349",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/289348",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/KQDJvboMCJHW3GlqByMwOUjxxJDrVnRRaYRmtEvlA59YR5RsByrlQbpfrYZKvMRwMUYoreuD0NErPMjnrNAJfwP6ltd6lhCMAoWGi5UMzHLUxNsSSj59dPBdn9lj7MVPJIXp8XC-Ij-ZB7uQj4UmQKg8D_6_b9Bz52_UBIVX4aCVi5i4zpcOKTJtYQ6wsNUd-0tZT-I_P7jVz70_Pv_CfDTcmhBqm-pkre4kVNIZbdlzfyCHq4sa-x9-DcQ5I8qsQxzUtBXN3xzbNaaw22E2yisjifcL_PFlVzpMR0vCXMyT3V7HoOX5ZRQobgUXmR5F-RBxxmpGSdVxWANwoF775g.jpg",
-      "author_photo_path": "channels/bbcpersian/media/8010b2d3566e2b349637240f.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>تلاش فعالان برای کمک به فلسطینیانی که در محاصره شهرک‌نشینان اسرائیلی گرفتار شده‌اند</b><br><br>گروهی از فعالان تلاش کرده‌اند به فلسطینی‌هایی که نزدیک به یک هفته است در خانه‌های خود در کرانه باختری اشغالی، در محاصره شهرک‌نشینان اسرائیلی گرفتار شده‌اند، آب و مواد غذایی برسانند.<br><br>این گروه از فعالان در روستای قصره، مقداری آب و خوراکی در نزدیکی یکی از خانه‌ها قرار داده‌اند؛ جایی که دو خانواده فلسطینی عملاً در محاصره قرار گرفته‌اند.<br><br>پیش‌تر شمار محدودی از شهرک‌نشینان بار دیگر به این منطقه بازگشتند و چادری در نزدیکی خانه‌های فلسطینیان برپا کردند که بعداً جمع‌آوری شد.<br><br>ارتش اسرائیل و پلیس مرزی هم دیروز عملیاتی را برای متفرق کردن شهرک‌نشینان از این منطقه انجام دادند.<br><a href=\"https://bbc.in/4huuj0c\" target=\"_blank\" rel=\"noopener\">https://bbc.in/4huuj0c</a><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻تلاش فعالان برای کمک به فلسطینیانی که در محاصره شهرک‌نشینان اسرائیلی گرفتار شده‌اند\n\nگروهی از فعالان تلاش کرده‌اند به فلسطینی‌هایی که نزدیک به یک هفته است در خانه‌های خود در کرانه باختری اشغالی، در محاصره شهرک‌نشینان اسرائیلی گرفتار شده‌اند، آب و مواد غذایی برسانند.\n\nاین گروه از فعالان در روستای قصره، مقداری آب و خوراکی در نزدیکی یکی از خانه‌ها قرار داده‌اند؛ جایی که دو خانواده فلسطینی عملاً در محاصره قرار گرفته‌اند.\n\nپیش‌تر شمار محدودی از شهرک‌نشینان بار دیگر به این منطقه بازگشتند و چادری در نزدیکی خانه‌های فلسطینیان برپا کردند که بعداً جمع‌آوری شد.\n\nارتش اسرائیل و پلیس مرزی هم دیروز عملیاتی را برای متفرق کردن شهرک‌نشینان از این منطقه انجام دادند.\nhttps://bbc.in/4huuj0c\n@BBCPersian",
-      "media": [],
-      "reactions": [],
-      "views_label": "46.2K",
-      "posted_at": "2026-08-14T13:28:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/289348",
       "reply": null
     }
   ]
