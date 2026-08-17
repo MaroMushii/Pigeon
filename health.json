@@ -1,30 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-17T04:58:04.249Z",
-  "succeeded": 17,
+  "generated_at": "2026-08-17T05:00:32.395Z",
+  "succeeded": 21,
   "failed": [
     {
-      "username": "bbcpersian",
+      "username": "vahidonline",
       "error": "The operation was aborted due to timeout"
     },
     {
-      "username": "bidarzani",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "ircfspace",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "matinsenpaii",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "radiofarda",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "tavaana_tavaanatech",
+      "username": "whitedns",
       "error": "The operation was aborted due to timeout"
     }
   ]
