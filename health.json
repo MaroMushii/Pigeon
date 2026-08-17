@@ -1,15 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-17T05:00:32.395Z",
-  "succeeded": 21,
-  "failed": [
-    {
-      "username": "vahidonline",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "username": "whitedns",
-      "error": "The operation was aborted due to timeout"
-    }
-  ]
+  "generated_at": "2026-08-17T05:02:48.652Z",
+  "succeeded": 23,
+  "failed": []
 }
