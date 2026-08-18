@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-18T12:19:32.946Z",
+  "fetched_at": "2026-08-18T12:22:36.300Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "31.1K"
   },
   "posts": [
+    {
+      "id": "hranews/114980",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/rDO3J0nt1dG_Wv_nROgPJHxEXdMwvTmAbAcUKVErfzWTp5dwMDr2awC4AUkHNfByiW4NwJroPKlDBB-P29Bc0athE9w7mfM-sIsjr3-ENxnvOjjgq7cy_L3tjZJaSZNo9s8SahzHeZ0g87NA1AQWVOnkHm2v2-j7Vj3nT2b5PM-zAC6Fga_w-anpffRW9JRJuJ07u-5BD7e3XlmS1UpeZtfEhUmC6-AeCdUUM2sEQ1bmWm5BXKUMf6LZS7oWRKN-mnKvxbG5_LLih0FyD0hObkk3vvkoT3dxc5QLGTtBdeBt9XnPLSp82z5bm9z_vjvv8mJ7w7bPe13LFZPVnMFeNQ.jpg",
+      "author_photo_path": "channels/hranews/media/90ae4bf450661e33c087824f.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "روز جاری، شماری از بازنشستگان صنایع فولاد در اعتراض به وضعیت معیشتی نامطلوب، مشکلات بیمه درمانی و عدم رسیدگی به دیگر مطالبات خود، در مقابل استانداری اصفهان دست به تجمع زدند.<br><br><a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9_%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%DB%8C\">#تجمع_اعتراضی</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "روز جاری، شماری از بازنشستگان صنایع فولاد در اعتراض به وضعیت معیشتی نامطلوب، مشکلات بیمه درمانی و عدم رسیدگی به دیگر مطالبات خود، در مقابل استانداری اصفهان دست به تجمع زدند.\n\n#تجمع_اعتراضی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/114980",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/UMtFRMpz8k3YRQqvpqqNygOnBeRHoz8UjIZW34afIqm1rgnn7TNzZN7BUEuU8awCGEl7CUEvsh88rewefvT44Wu8l5JrHV0xdT79qF_3fHrpZ4S2V03iBP8IoytCurS8KcBQeM5gxcNGN4fPbyBfoVtms6bg4Hd6OF5CvYK_LhMh7HKFnk6rOTlf7kPx0Pq510AHawGppMNPxerKt6Y_mW9WcPH2gGSJTwXjLfhHfp-1hDZnnQEnbVq6Euk0TeumRMie113ZUxwLqScI32ZyE1x2kx-mnEa_gf6mAtgHzg5siJLB5fHP7yEH1sH3jmg_9BETHmSxomvK0B5yLTpQyg",
+          "thumbnail_path": "channels/hranews/media/c2e57cb07265a62f55835439.jpg",
+          "thumbnail_sha256": "563bd116a4350b7f28f1d2b6d5421e8016d3266a4b6f20892b926d303256ee3d",
+          "duration_label": "0:24",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "21",
+      "posted_at": "2026-08-18T12:19:51+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/114980",
+      "reply": null
+    },
     {
       "id": "hranews/114979",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "103",
+      "views_label": "118",
       "posted_at": "2026-08-18T12:02:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114979",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "227",
+      "views_label": "235",
       "posted_at": "2026-08-18T11:33:54+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114978",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "262",
+      "views_label": "268",
       "posted_at": "2026-08-18T11:15:30+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114977",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "287",
+      "views_label": "290",
       "posted_at": "2026-08-18T11:03:32+00:00",
       "edited": true,
       "permalink": "https://t.me/hranews/114976",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "270",
+      "views_label": "275",
       "posted_at": "2026-08-18T10:58:43+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114975",
@@ -161,7 +189,7 @@
       "plain_text": "تداوم بازداشت و بلاتکلیفی بهزاد بزرگزاده در زندان زاهدان\n\n❗️❗️❗️❗️❗️– بهزاد بزرگزاده، شهروند ساکن چابهار، علیرغم گذشت بیش از دو ماه از زمان بازداشت، همچنان به‌صورت بلاتکلیف در زندان زاهدان نگهداری می شود.\n\nادامه مطلب\n\n#بهزاد_بزرگزاده\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "281",
+      "views_label": "284",
       "posted_at": "2026-08-18T10:53:23+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114974",
@@ -189,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "308",
+      "views_label": "311",
       "posted_at": "2026-08-18T10:47:19+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114973",
@@ -205,7 +233,7 @@
       "plain_text": "یک واحد صنفی به دلیل طرح‌های روی تی‌شرت‌ها پلمب شد\n\n❗️❗️❗️❗️❗️– یک واحد صنفی در اصفهان به دلیل عرضه تی‌شرت‌هایی با تصاویر و طرح‌هایی که توسط پلیس «مغایر با ضوابط و مقررات صنفی» عنوان شده، #پلمب شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "411",
+      "views_label": "413",
       "posted_at": "2026-08-18T10:12:16+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114972",
@@ -233,7 +261,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "400",
+      "views_label": "401",
       "posted_at": "2026-08-18T10:02:52+00:00",
       "edited": true,
       "permalink": "https://t.me/hranews/114971",
@@ -249,7 +277,7 @@
       "plain_text": "هیمن منیجه در بوکان بازداشت شد\n\n❗️❗️❗️❗️❗️– روز دوشنبه ۲۶ مردادماه، هیمن منیجه، شهروند اهل شهرستان بوکان توسط نیروهای امنیتی در این شهرستان بازداشت و به مکان نامعلومی منتقل شد.\n\nادامه مطلب\n\n#هیمن_منیجه\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "417",
+      "views_label": "418",
       "posted_at": "2026-08-18T09:44:51+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114970",
@@ -265,7 +293,7 @@
       "plain_text": "جلسه بازپرسی شیوا زارعی در دادسرای بوئین‌زهرا برگزار شد\n\n❗️❗️❗️❗️❗️– جلسه بازپرسی شیوا زارعی، شهروند ساکن بوئین‌زهرا در شعبه اول بازپرسی دادسرای عمومی و انقلاب این شهرستان برگزار شد. وی در پایان این جلسه با تودیع وثیقه آزاد شد.\n\nادامه مطلب\n\n#شیوا_زارعی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "418",
+      "views_label": "419",
       "posted_at": "2026-08-18T09:35:01+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114969",
@@ -421,7 +449,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "676",
+      "views_label": "677",
       "posted_at": "2026-08-18T06:50:28+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114963",
@@ -2262,22 +2290,6 @@
       "posted_at": "2026-08-15T12:45:11+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/114880",
-      "reply": null
-    },
-    {
-      "id": "hranews/114879",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/cKEOa7Zx76QGIYu7M99z5xgljJdeqC8Vzhc2cdh0WBolJuZTKwGkeYT12Ocge0IfUU_jbtWWH5c6rj2qQoHKyctOY30ECNdi3Q0ezPM8tF812bZ9hH_4jCO6qA9Y0RFbyhbf7f3PNA5wPXLLUQKceQY-xQTqbRNfRwW55kBTR03smhN6ldJRTbvSOjh8ImeqOyDIUhIkeDEm2RCuVLvByleFdKTkWpdYKY1wpiHXZuZDPocZReqbfd5bXQrpt6VRTGi_LfE1eG3ZlouLvFQ7IGLI1vH4vFpUHZav3CzZiaUB84m7Awu9k57i5Mhs1zJunBl9BzrFLH7-MR_6gf-uQg.jpg",
-      "author_photo_path": "channels/hranews/media/49b8130d19f7be09fad830e6.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "پلمب چند مرکز تتو و بازداشت تعدادی از متصدیان در اردبیل<br><br><tg-emoji emoji-id=\"4936376861581116178\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936234406105842841\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936202185261187827\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933936920725029797\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933769043338331221\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji>– چند مرکز ارائه خدمات تتو در اردبیل با دستور دادستان مرکز این استان <a href=\"?q=%23%D9%BE%D9%84%D9%85%D8%A8\">#پلمب</a> و چند نفر در ارتباط با فعالیت این مراکز بازداشت شدند. ارائه خدمات تتو به زنان و مردان و انتشار تصاویر مربوط به فعالیت این مراکز در فضای مجازی، از جمله دلایل برخورد با آنها عنوان شده است.<br><br><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-30911262/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ادامه مطلب</a><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-ceb23f98/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><br></a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -&nbsp; <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>&nbsp; کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "پلمب چند مرکز تتو و بازداشت تعدادی از متصدیان در اردبیل\n\n❗️❗️❗️❗️❗️– چند مرکز ارائه خدمات تتو در اردبیل با دستور دادستان مرکز این استان #پلمب و چند نفر در ارتباط با فعالیت این مراکز بازداشت شدند. ارائه خدمات تتو به زنان و مردان و انتشار تصاویر مربوط به فعالیت این مراکز در فضای مجازی، از جمله دلایل برخورد با آنها عنوان شده است.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
-      "media": [],
-      "reactions": [],
-      "views_label": "892",
-      "posted_at": "2026-08-15T11:45:06+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/114879",
       "reply": null
     }
   ]
