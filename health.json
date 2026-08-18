@@ -1,6 +1,23 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-18T09:58:11.215Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-08-18T10:02:35.763Z",
+  "succeeded": 19,
+  "failed": [
+    {
+      "username": "bidarzani",
+      "error": "fetch failed"
+    },
+    {
+      "username": "durov",
+      "error": "fetch failed"
+    },
+    {
+      "username": "farsi_iranwire",
+      "error": "fetch failed"
+    },
+    {
+      "username": "followupiran",
+      "error": "fetch failed"
+    }
+  ]
 }
