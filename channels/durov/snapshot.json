@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-18T17:36:35.407Z",
+  "fetched_at": "2026-08-18T17:38:27.109Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,39 @@
     "subscriber_count": "11.2M"
   },
   "posts": [
+    {
+      "id": "durov/543",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/uE8VYqdQjfG9R1A6ET4DAdDlv33zqFgf2tLPl3FAzDzaglhkWxjGshInAv67CruTBnbbK1kMHyUk9Te0XBol9OlBJFAxkw2y4eG_5vDsS45TzpNP_NY3zEsjBedDLdee5MbHLf8S_dUvNYeeiABdfWz709K3FvObvkoLfLLerkpnPqvHw3xMA84lNGgC9tWiwyk_BU-m24H4jK-LY7sLLkXkv-P-dogUoAgF2tx0V4MXw7qWTMgZ4bfnNLfIzGmJDEej094WlIPGKmDVmLWHLaAP3YqHEduvE9zM0VOwX-KtX07H_lJuGh91jUsV0sVgPhGtoTbzLZ0TKvUX98hPyQ.jpg",
+      "author_photo_path": "channels/durov/media/5ac97cd4293584a57af77550.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<tg-emoji emoji-id=\"5296419911260742000\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F928E.png')\"><b>💎</b></i></tg-emoji> Telegram has applied for the <b>.gram</b> domain zone.<br><br>If the application is approved by ICANN, a billion Telegram users could get their own second-level domains.<br><br><tg-emoji emoji-id=\"5282843764451195532\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i></tg-emoji> For example, <a href=\"https://t.me/durov\" target=\"_blank\">@durov</a> would get <b>durov.gram</b>, and <a href=\"https://t.me/monk\" target=\"_blank\">@monk</a> would get  <b>monk.gram</b>. <br><br>Users would be able to set up their interactive websites hosted by Telegram — just by typing one prompt <tg-emoji emoji-id=\"5325547803936572038\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i></tg-emoji>",
+      "plain_text": "💎 Telegram has applied for the .gram domain zone.\n\nIf the application is approved by ICANN, a billion Telegram users could get their own second-level domains.\n\n🖥 For example, @durov would get durov.gram, and @monk would get monk.gram.\n\nUsers would be able to set up their interactive websites hosted by Telegram — just by typing one prompt ✨",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "9"
+        },
+        {
+          "emoji": "💎",
+          "count": "100"
+        },
+        {
+          "emoji": "💎",
+          "count": "5"
+        },
+        {
+          "emoji": "💎",
+          "count": "2"
+        }
+      ],
+      "views_label": "4.82K",
+      "posted_at": "2026-08-18T17:37:31+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/543",
+      "reply": null
+    },
     {
       "id": "durov/542",
       "author_name": "Pavel Durov",
@@ -35,10 +68,10 @@
         },
         {
           "emoji": "💎",
-          "count": "8.78K"
+          "count": "8.79K"
         }
       ],
-      "views_label": "1.05M",
+      "views_label": "1.07M",
       "posted_at": "2026-08-15T13:29:20+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/542",
@@ -305,7 +338,7 @@
           "count": "44.7K"
         }
       ],
-      "views_label": "4.69M",
+      "views_label": "4.7M",
       "posted_at": "2026-07-30T16:52:37+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/535",
