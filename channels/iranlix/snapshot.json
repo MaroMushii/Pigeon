@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-19T18:32:38.317Z",
+  "fetched_at": "2026-08-19T18:44:20.422Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -11,6 +11,62 @@
     "subscriber_count": "17.4K"
   },
   "posts": [
+    {
+      "id": "iranlix/11801",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/nriZuUem5nGv1oLwDiRLkD4wNP3Xol86bcGhAHRErGw1ir3vjf7Va6X40dqsvrNL-qBIiQmxAACDBjCpqW6PwDyxHjT6731Zp2X0mlyIvmMVxYJEjUToIdF1ys8h_6bS28Pw28GMPMNUj4dUrMqvL7qXH3I-2XyFsPj9RemNI-FfgRw8jK8581IjsvBgpfqfxod6yho_Hj0fRJlp7_IkN2-qZth6ro4FII6l8qlDAnqwm8Mie8SmNFJd9MNHId9A2XOaX0njpPmIgeaxFSKylckqt_58JS5QsNzjxPFOrai5NRiGDIe2l4e3Baz86aeVyH8kxqn3hNkUO1y2glVE9w.jpg",
+      "author_photo_path": "channels/iranlix/media/4cd9304cd0e62f43ef6482fd.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i><b>اوکراین، پالایشگاه نفتی \"اوفا\" متعلق به روسیه را مورد حمله قرار داد</b>.<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "🔹اوکراین، پالایشگاه نفتی \"اوفا\" متعلق به روسیه را مورد حمله قرار داد.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/11801",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/va_ETB6RMFNA1CSG1Kap-FibGjp24K77G9HpXeyEPqAGp8v0ijkyBJewcYAYfhekDLJOKHnzJ3vNqEm9Ngt68tb1CsDRTnnGuXp_X8WKqBDo53Jg1hLaMgjoMkOP9ZQkTMUSxw21IUdyhaU7nQuEt964cZFWgoTxyhmmO5DdiM1mfey1QY6m2NxNwJ4sMETi1dOxTgwassyl6V6h4fga0pFc-xQYp_4oSLlq_mp5_OKne02HRdbx2tj5FjvAAhdW_HtQGFe1M9OX3du5v0Y1Y0V41z3fMpQ1w_Tsb3ftZAZTOG1o49adP6xduWG3KFSI4KZkBd_VZ0yMb0CN8_KuBA",
+          "thumbnail_path": "channels/iranlix/media/299069e24690128220f91ba5.jpg",
+          "thumbnail_sha256": "f12f109d92764ebe69135b58d9efe9be8396566fe724b3ed258e591b4aceef1a",
+          "duration_label": "0:03",
+          "aspect_ratio": 0.851063829787234
+        }
+      ],
+      "reactions": [],
+      "views_label": "101",
+      "posted_at": "2026-08-19T18:35:57+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/11801",
+      "reply": null
+    },
+    {
+      "id": "iranlix/11800",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/nriZuUem5nGv1oLwDiRLkD4wNP3Xol86bcGhAHRErGw1ir3vjf7Va6X40dqsvrNL-qBIiQmxAACDBjCpqW6PwDyxHjT6731Zp2X0mlyIvmMVxYJEjUToIdF1ys8h_6bS28Pw28GMPMNUj4dUrMqvL7qXH3I-2XyFsPj9RemNI-FfgRw8jK8581IjsvBgpfqfxod6yho_Hj0fRJlp7_IkN2-qZth6ro4FII6l8qlDAnqwm8Mie8SmNFJd9MNHId9A2XOaX0njpPmIgeaxFSKylckqt_58JS5QsNzjxPFOrai5NRiGDIe2l4e3Baz86aeVyH8kxqn3hNkUO1y2glVE9w.jpg",
+      "author_photo_path": "channels/iranlix/media/4cd9304cd0e62f43ef6482fd.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><b>بنیامین نتانیاهو: «اسرائیل استقرار نظامی ترکیه در سوریه و گسترش آن به سمت جنوب را تحمل نخواهد کرد و ما این پیام را به وضوح بیان کردیم: «این کار را نکن».ترکیه قصد داشته در یک پایگاه هوایی نزدیک حلب مستقر شود و اسرائیل ابتدا هشدار داده، اما چون پیام شنیده نشد، تل‌آویو کاری کرده که طرف مقابل آن را بهتر درک کند.</b>»<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "💢بنیامین نتانیاهو: «اسرائیل استقرار نظامی ترکیه در سوریه و گسترش آن به سمت جنوب را تحمل نخواهد کرد و ما این پیام را به وضوح بیان کردیم: «این کار را نکن».ترکیه قصد داشته در یک پایگاه هوایی نزدیک حلب مستقر شود و اسرائیل ابتدا هشدار داده، اما چون پیام شنیده نشد، تل‌آویو کاری کرده که طرف مقابل آن را بهتر درک کند.»\n\n@iranlix",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/11800",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/mM_CPVh7WppE872FriZt91ORxYngmEJw_IpzpoiI0EUGU4NCAglpErCD0F4Tu3vUpzh5NniPRIlkyGuHnr54xj0j0FhbgexehEygrCczK6gqjbN_KOFboG5bmmVnQHV1GR0k1Q_w9Is0IFfHt0uLHgnI12DtlTfS16BHZNd2k3jVL6_1fqqByBCXGUV2pjxs83nPG6lFmddHpJmwImBDlOJCF_OyJumWzQJD1xDz8aMLoW05TLkZpfNEWjP1HkwSeUON0Q4nNCYNsRFNRGJNVl98SsnVcRVpjcv1L_dNK2QHIZ3ZY9XvbutJ3n2oblF6EY2PbjzB8CkyCHvKwLhfhw",
+          "thumbnail_path": "channels/iranlix/media/e8cdd04a755867189ffdcb37.jpg",
+          "thumbnail_sha256": "bbe0993a89c675f7df4fc2024360e967c0e841597dde4e597452f315f0d58c83",
+          "duration_label": "0:28",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "134",
+      "posted_at": "2026-08-19T18:32:41+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/11800",
+      "reply": null
+    },
     {
       "id": "iranlix/11799",
       "author_name": "ایرانلیکس",
@@ -33,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "137",
+      "views_label": "221",
       "posted_at": "2026-08-19T18:21:51+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11799",
@@ -61,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "415",
+      "views_label": "487",
       "posted_at": "2026-08-19T17:35:39+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11798",
@@ -89,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "421",
+      "views_label": "488",
       "posted_at": "2026-08-19T17:35:20+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11797",
@@ -117,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "504",
+      "views_label": "548",
       "posted_at": "2026-08-19T16:58:52+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11796",
@@ -145,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "648",
+      "views_label": "667",
       "posted_at": "2026-08-19T16:19:15+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/11795",
@@ -173,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "620",
+      "views_label": "636",
       "posted_at": "2026-08-19T16:18:23+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11794",
@@ -201,7 +257,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "684",
+      "views_label": "702",
       "posted_at": "2026-08-19T15:57:42+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11793",
@@ -229,7 +285,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "683",
+      "views_label": "705",
       "posted_at": "2026-08-19T15:51:18+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11792",
@@ -257,7 +313,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "654",
+      "views_label": "672",
       "posted_at": "2026-08-19T15:42:47+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11791",
@@ -285,7 +341,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "707",
+      "views_label": "724",
       "posted_at": "2026-08-19T15:13:22+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11790",
@@ -313,7 +369,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "740",
+      "views_label": "756",
       "posted_at": "2026-08-19T14:44:20+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11789",
@@ -341,7 +397,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "743",
+      "views_label": "760",
       "posted_at": "2026-08-19T14:34:09+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11788",
@@ -357,7 +413,7 @@
       "plain_text": "برای تکمیل شدت طوفانی که در انتظار پایان آرامش است «عدالت علی» از دوستانی که در مناطق و گروه های زیر رفت و آمد دارند تقاضا دارد ازنقاط مختلف برای ما عکس و لوکیشن ارسال کنند.\nلطفا همراه هر تصویر توضیحی درباره ویژگی آن مکان و استفاده و کاربرد آن نیز ارائه دهید.\nهمچنین اگر درباره این مناطق اطلاعات تکمیلی، جزئیات ویژه، اطلاعات مرتبط با فرماندهان یا هر نکته قابل توجه دیگری در اختیار دارید برای ما ارسال کنید.\nهر مورد معتبر و قابل تایید شامل پاداش ۱۰۰ دلار برای فرستنده خواهد بود\n۱. ۵ رعد\n۲. ۱۵قائم\n۳. عسگریه\n۴. ۲۳توحید\n۵. گروه بقیه الله\n\nجهت ارسال اطلاعات به لینک زیر مراجعه کرده و آن ها را از طریق بات «عدالت علی» ارسال کنید\nt.me/EdaalateAli_bot",
       "media": [],
       "reactions": [],
-      "views_label": "713",
+      "views_label": "734",
       "posted_at": "2026-08-19T14:33:47+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11787",
@@ -385,7 +441,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "797",
+      "views_label": "808",
       "posted_at": "2026-08-19T13:41:23+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11786",
@@ -413,7 +469,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "870",
+      "views_label": "885",
       "posted_at": "2026-08-19T13:23:01+00:00",
       "edited": true,
       "permalink": "https://t.me/iranlix/11785",
@@ -441,7 +497,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "879",
+      "views_label": "887",
       "posted_at": "2026-08-19T12:52:44+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11784",
@@ -469,7 +525,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "899",
+      "views_label": "907",
       "posted_at": "2026-08-19T12:26:49+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11783",
@@ -497,7 +553,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "882",
+      "views_label": "889",
       "posted_at": "2026-08-19T12:15:53+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/11781",
@@ -2866,62 +2922,6 @@
         "thumbnail_sha256": "3656faeac6770cdc87bb4c9621b9ab45f40ce1380049ebf85a7763b4a653fe01",
         "permalink": "https://t.me/iranlix/11688"
       }
-    },
-    {
-      "id": "iranlix/11691",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/vQSehHFWRoNooVswTmcQpqaHKnmBMI04Bs9AT1YfbDiRDqfqhUtYVV4Yo4fq8YWLuL5EfhObCBS_m-Yx4PSLaGwe00TmQjfREmxZPlaRDTLsFtF3bTZhviYtL_hvu3BpaRfpmpcHfIWTnlCB3IgZUgQhn1wrzt1yiKWhXG3zUabsjqMk7j3jA9eYGq17CYz3BPZH1YYhlNM1eKvEa2BEXb38RWskZKNcW2rreS60bOxArZcB1LZFvhaEcW-LF8hLYn3Rdohl0cyuz45JI9QOTaFCkk9TRhdUPUjByAFseHsuCd8DqK03ZjepA-igvnnVmyZnmLQ74xXX02SpZut0mw.jpg",
-      "author_photo_path": "channels/iranlix/media/ad3cb47ec83d096d63f5e150.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87B8.png')\"><b>🇺🇸</b></i><b>سنتکام با انتشار این تصویر نوشت:<br><br>«یک هلیکوپتر MH-60 Sea Hawk نیروی دریایی ایالات متحده بر فراز عرشه پروازی ناو یو‌اس‌اس میسون در حال هاور است، در حالی که این ناو در حال اجرای محاصره دیوار فولادی آمریکا علیه ج.ا است. تا ۱۷ اوت، نیروهای سنتکام ۶۴ کشتی تجاری را منحرف کرده‌اند، ۳ کشتی را غیرفعال کرده‌اند و ۲ کشتی را برای اطمینان از رعایت مقررات بازرسی کرده اند.</b>»<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "🇺🇸سنتکام با انتشار این تصویر نوشت:\n\n«یک هلیکوپتر MH-60 Sea Hawk نیروی دریایی ایالات متحده بر فراز عرشه پروازی ناو یو‌اس‌اس میسون در حال هاور است، در حالی که این ناو در حال اجرای محاصره دیوار فولادی آمریکا علیه ج.ا است. تا ۱۷ اوت، نیروهای سنتکام ۶۴ کشتی تجاری را منحرف کرده‌اند، ۳ کشتی را غیرفعال کرده‌اند و ۲ کشتی را برای اطمینان از رعایت مقررات بازرسی کرده اند.»\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/11691",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/A6Bvn2iXGDoVbbgZ4LgJ0NcaOmNy4qmpWOuxKGwgZwmjlC4SLpSrkARSEyos6DpCiBP8KP8Ry7BaQmPkIiZj9ZjgMEwTAZ_gsOBAbpenTfZCDgK4c-yMD8xRfYST6P8WbcdSpEqQv-2x5PPo3SoT7_m652TvUsDsJgTHHrMPijpeJNcmuwaz1gFrrrUnlsuIYi7S6iKxc-Y-krAGKfqwjb9CfHhvv0GdaHsNh1AARUfqzjQJruA7PdbrgO1YB-p5UDgPPMlaKk54ur9gwVq-HBpBqH7PwXQZPQN3eDBH6jJmeUmgwLBTjBqmEGi9OWqYkerOQtDCX5_m32vaXRHfyQ.jpg",
-          "thumbnail_path": "channels/iranlix/media/a53466092f1b02f0c64b83d6.jpg",
-          "thumbnail_sha256": "95b6954d166a9461da0606666c7dee3d1c61175f5df0e3214824a15ee2a33e5a",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.12K",
-      "posted_at": "2026-08-17T17:41:12+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/11691",
-      "reply": null
-    },
-    {
-      "id": "iranlix/11690",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/vQSehHFWRoNooVswTmcQpqaHKnmBMI04Bs9AT1YfbDiRDqfqhUtYVV4Yo4fq8YWLuL5EfhObCBS_m-Yx4PSLaGwe00TmQjfREmxZPlaRDTLsFtF3bTZhviYtL_hvu3BpaRfpmpcHfIWTnlCB3IgZUgQhn1wrzt1yiKWhXG3zUabsjqMk7j3jA9eYGq17CYz3BPZH1YYhlNM1eKvEa2BEXb38RWskZKNcW2rreS60bOxArZcB1LZFvhaEcW-LF8hLYn3Rdohl0cyuz45JI9QOTaFCkk9TRhdUPUjByAFseHsuCd8DqK03ZjepA-igvnnVmyZnmLQ74xXX02SpZut0mw.jpg",
-      "author_photo_path": "channels/iranlix/media/ad3cb47ec83d096d63f5e150.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A2.png')\"><b>💢</b></i><b>الجزیره: «رفت‌وآمد کشتی‌ها از تنگه هرمز برای سومین روز متوالی به پایین‌ترین سطح خود کاهش یافته است‌.روز شنبه تنها ۳ کشتی، روز یکشنبه ۲ کشتی و امروز دوشنبه ۱۷ اوت نیز ۴ کشتی از تنگه عبور کرده‌اند.</b>»<br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "💢الجزیره: «رفت‌وآمد کشتی‌ها از تنگه هرمز برای سومین روز متوالی به پایین‌ترین سطح خود کاهش یافته است‌.روز شنبه تنها ۳ کشتی، روز یکشنبه ۲ کشتی و امروز دوشنبه ۱۷ اوت نیز ۴ کشتی از تنگه عبور کرده‌اند.»\n\n@iranlix",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/iranlix/11690",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/nLlPITrmsjMP2kBDBfjGkB_HnWLu_gDmhqMHZCVvNKpg0nI4uKLJi-osga7Uh8FDEcsSrnsdJAsLCNwM7a40c-kGYCxAyHctEfei5fQ8qC2-eNrwDQFshCfY6hnMg8ZCqPU9V4yWrVUFQiS7CeV51KEzHudeYMm8PEceJC4dVKbXMKOmyTmiMof_bVt_sCjnONRjg1u1tK7AvacPMAo55IAOV_B1ynqantfdWcD-Qx87YYcBUG6ywq4dE5SNCh0jyQsBNA8gSPw16YMbfZraF1brl5cvR6pu4cV5b6988eIexieDgDfJ2_xN6GUGvxAFsn__cNYeDVZCkJHw1MCJlw.jpg",
-          "thumbnail_path": "channels/iranlix/media/b164b11eda0888f1fb7e3740.jpg",
-          "thumbnail_sha256": "6f75f6b99c8c1e7639eae05271c0fae232aa1ea31e8b3b7067f20adc2cf83d9f",
-          "duration_label": null,
-          "aspect_ratio": 1.7791044776119458
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.04K",
-      "posted_at": "2026-08-17T17:28:24+00:00",
-      "edited": false,
-      "permalink": "https://t.me/iranlix/11690",
-      "reply": null
     }
   ]
 }
