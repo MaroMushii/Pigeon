@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-19T23:47:28.794Z",
+  "fetched_at": "2026-08-19T23:51:23.182Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,22 @@
     "subscriber_count": "156K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5000",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/jhALuPeBAmSaRj9yrKs4fg3BBItuHOGwaCWF7No3lMH7uQDXqYDXbwNJBOfkQ95TW3NB6ChdSMRRaMfAzk9OUYNOZeZdIrLV42yPzTyrYdCIeLpit_rex87y4g_eqneW2XAymGBKczCqBnuhHj7d5_ALKea_DUbMZPch_QasQYQqU0vE9hsOQ6qEm27TSEI4aeiGVeMSnlllJPpRmDnur4WuiJS4CnRrbNh_9x9k46H-QK4oKeZ6iaKLFFDrK66FvoB73tMb717Wh2i8egh9Zipu8l5ryh3Wa-2Iplm8nGFWDvjfg_feZvvOD0Yi_iy1KXO-AvEul3Eb3iXfKg9aKA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/cf9ccf2666b25122440c495a.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "آپدیت جدید Aether:<br>توی این آپدیت روی مسیریابی (روتینگ) و اتصال از پشت پروکسی کار شده <br><br>پروکسی بالادست :)) یا همون upstream اضافه شد<br>اگه یه پروکسی دیگه روی سیستمتون اجراست میتونی Aether رو پشتش chain کنی:<br><br><code>aether --upstream socks5://127.0.0.1:1080</code><br>با رمز:&nbsp;<code>socks5://user:pass@127.0.0.1:1080</code><br>روی هر سه حالت کار میکنه: مسک H3، مسک H2، وارپ و gool<br><br>یه نکته بگم: H3 و وارپ و gool روی UDP هستن پس SOCKS5 لازم دارن که UDP associate داشته باشه (بیشتر کلاینت‌ها دارن)<br><br> اگه پروکسیت HTTP هست فقط H2 جواب میده پس اینجوری بزنید:<br><code>aether --masque --h2 --upstream http://proxy.example:8080</code> <br>//<br>قواعد مسیریابی توی حالت تانل مود درست شد<br>قبلا اگه از tun استفاده میکردی (مثل کلاینتای موبایل و دسکتاپ) قواعد دامنه‌ ای اعمال نمیشدن. چون tun اسم رو خودش resolve میکرد و به هسته فقط یه ایپی میرسید<br>الان اسم رو از SNI توی TLS یا هدر Host میخونه و تصمیم رو با اون میگیره (برای کلاینت ها این رو بهبود دادم) <br>یعنی &nbsp;<code>--route-block</code>&nbsp;و&nbsp;<code>--route-direct</code>&nbsp;روی دامنه توی tun هم کار میکنن<br><br>باگ gool هم فیکس کردم<br>هر دو لایه warp-in-warp گاهی اوقات به&nbsp;یک ایپی&nbsp;وصل میشدن. الان دو edge متفاوت انتخاب میشه بدون اینکه اسکن دوباره لازم باشه.<br><br>هویت باطل شده خودشو نشون میده<br>این مهم‌ترین بخشه. (خیلیا اگه متصل نمیشدن و اسکن کار نمیکرد سر این بود)<br> اگه فایل کلید&nbsp;<code>aether.toml</code>&nbsp;قدیمی و کلودفلر دیگه قبولش نکنه لاگ میده و یه کلید جدید میگیره <br>و خودش یه دستگاه جدید ثبت میکنه. اگه نمیخوای خودکار عوض شه:&nbsp;<code>AETHER_REPROVISION=0</code><br>داکیومنت‌ها هم آپدیت شدن با نحوه استفاده از پروکسی upstream  و قواعد جدید.<br><b><br>ممنون از همه کسایی که issue دادن و PR فرستادن :))<br></b>لینک پروژه:&nbsp;<a href=\"https://github.com/CluvexStudio/Aether\" target=\"_blank\" rel=\"noopener\">https://github.com/CluvexStudio/Aether</a><br>و ریلیز جدید: <a href=\"https://github.com/CluvexStudio/Aether/releases/tag/v1.7.0\" target=\"_blank\" rel=\"noopener\">https://github.com/CluvexStudio/Aether/releases/tag/v1.7.0</a><br><br>اگه پروژه بدردتون خورد حمایت کنید. :))<br><br><blockquote>حمایت از پروژه توسط: Dazai AI Accounts<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> خرید اکانت هوش مصنوعی: <a href=\"https://t.me/Chatgpt_storebot\" target=\"_blank\">@Chatgpt_storebot</a><br></blockquote>کد تخفیف:<br><code>CLUVEXSTUDIO</code>",
+      "plain_text": "آپدیت جدید Aether:\nتوی این آپدیت روی مسیریابی (روتینگ) و اتصال از پشت پروکسی کار شده\n\nپروکسی بالادست :)) یا همون upstream اضافه شد\nاگه یه پروکسی دیگه روی سیستمتون اجراست میتونی Aether رو پشتش chain کنی:\n\naether --upstream socks5://127.0.0.1:1080\nبا رمز: socks5://user:pass@127.0.0.1:1080\nروی هر سه حالت کار میکنه: مسک H3، مسک H2، وارپ و gool\n\nیه نکته بگم: H3 و وارپ و gool روی UDP هستن پس SOCKS5 لازم دارن که UDP associate داشته باشه (بیشتر کلاینت‌ها دارن)\n\nاگه پروکسیت HTTP هست فقط H2 جواب میده پس اینجوری بزنید:\naether --masque --h2 --upstream http://proxy.example:8080\n//\nقواعد مسیریابی توی حالت تانل مود درست شد\nقبلا اگه از tun استفاده میکردی (مثل کلاینتای موبایل و دسکتاپ) قواعد دامنه‌ ای اعمال نمیشدن. چون tun اسم رو خودش resolve میکرد و به هسته فقط یه ایپی میرسید\nالان اسم رو از SNI توی TLS یا هدر Host میخونه و تصمیم رو با اون میگیره (برای کلاینت ها این رو بهبود دادم)\nیعنی  --route-block و --route-direct روی دامنه توی tun هم کار میکنن\n\nباگ gool هم فیکس کردم\nهر دو لایه warp-in-warp گاهی اوقات به یک ایپی وصل میشدن. الان دو edge متفاوت انتخاب میشه بدون اینکه اسکن دوباره لازم باشه.\n\nهویت باطل شده خودشو نشون میده\nاین مهم‌ترین بخشه. (خیلیا اگه متصل نمیشدن و اسکن کار نمیکرد سر این بود)\nاگه فایل کلید aether.toml قدیمی و کلودفلر دیگه قبولش نکنه لاگ میده و یه کلید جدید میگیره\nو خودش یه دستگاه جدید ثبت میکنه. اگه نمیخوای خودکار عوض شه: AETHER_REPROVISION=0\nداکیومنت‌ها هم آپدیت شدن با نحوه استفاده از پروکسی upstream و قواعد جدید.\n\nممنون از همه کسایی که issue دادن و PR فرستادن :))\nلینک پروژه: https://github.com/CluvexStudio/Aether\nو ریلیز جدید: https://github.com/CluvexStudio/Aether/releases/tag/v1.7.0\n\nاگه پروژه بدردتون خورد حمایت کنید. :))\n\nحمایت از پروژه توسط: Dazai AI Accounts\n🔗 خرید اکانت هوش مصنوعی: @Chatgpt_storebot\nکد تخفیف:\nCLUVEXSTUDIO",
+      "media": [],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-08-19T23:51:17+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5000",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/4999",
       "author_name": "Matin SenPai",
@@ -46,7 +62,7 @@
           "count": "3"
         }
       ],
-      "views_label": "12.9K",
+      "views_label": "13K",
       "posted_at": "2026-08-19T18:15:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4999",
@@ -110,7 +126,7 @@
         },
         {
           "emoji": "❤",
-          "count": "306"
+          "count": "307"
         },
         {
           "emoji": "😁",
@@ -230,7 +246,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.4K",
+      "views_label": "22.5K",
       "posted_at": "2026-08-19T12:12:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4994",
@@ -4597,56 +4613,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4886",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4885",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/JSgLurnfwWgMTDsQgym1T6rFQ51Xq2d9h5TQ0vzrR9fWfjWFH6AHI_kiTVm6fg6Mp1MEx5VCmhnBR3xVl1YYAWyJOa4V3Vutyf37yHdwEA9a359ZUyrH4FjOPIkWKSgWImQtjQ7DBpIg_0RJtWT8Ysj7SSs_Qoey_S7yFbChCrzQ2vBl_gXWjVfmXDaL29glj5x8EkphNUtKFvpS5d1_zAcyQB01WjEjMwIHeAGsvGO69QrBvCza2pKpnlKCXXJcojMJK0pnyl9-Xm4AI1GmvKufMJfLISFCybU5YEMmUY4DFHlT0sK3XtrJQqmm-8oVwuvhLw19BKJaPyWiapqiZw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/32dda7377f75e28706306e88.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "رفیق من سایت زده داره روش کار میکنه برا خودش هنوز عمومی هم نکرده، هیچ چیز خلاف  قانونی هم نداره یه چیزی شبیه کتاب خونی آنلاینه. زدن فیلترش کردن<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i> اونم دامنه ir. خب این چه وضعیتیه",
-      "plain_text": "رفیق من سایت زده داره روش کار میکنه برا خودش هنوز عمومی هم نکرده، هیچ چیز خلاف قانونی هم نداره یه چیزی شبیه کتاب خونی آنلاینه. زدن فیلترش کردن😂😂😂 اونم دامنه ir. خب این چه وضعیتیه",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "383"
-        },
-        {
-          "emoji": "💔",
-          "count": "82"
-        },
-        {
-          "emoji": "🦄",
-          "count": "16"
-        },
-        {
-          "emoji": "❤",
-          "count": "7"
-        },
-        {
-          "emoji": "👍",
-          "count": "6"
-        },
-        {
-          "emoji": "💯",
-          "count": "2"
-        }
-      ],
-      "views_label": "31.3K",
-      "posted_at": "2026-08-10T12:41:42+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4885",
-      "reply": {
-        "channel_username": "iseqaro",
-        "post_id": "1851",
-        "author_name": "Segaro",
-        "preview_text": "با ابلاغ مصوبه جدید هیئت دولت، مسدودسازی و اعمال محدودیت برای پلتفرم‌های آنلاین از سوی دستگاه‌های اجرایی ممنوع شد. از این پس، تعلیق فعالیت سکوهای مجازی تنها با تأیید رئیس‌جمهور امکان‌پذیر است و مسئولانی که خارج از این چارچوب عمل کنند، ملزم به جبران خسارت‌های مالی وارده خواهند بود.",
-        "thumbnail_url": "https://cdn4.telesco.pe/file/dJ3snEE2vEbLmj3Jm1jhrqKv_YaUB7cxIyx3WR-ZBhkG5_1qsAIc2AOZcVALN6170ZPmZ7yLcakXszkjhIKpCJDKcgWJ-gBPVZxCx218zjVpjKJwq_Zj96Qle0sdKsEA6VczGrnh6syuz_5sh9j6xQLlGibDzvsnf3_qaD4kP6NZDHw5tyanVbIyEUBYaDeO4b_9pp2O7spgCt1Kto-9KIFTiixlkFoMrzWgSh9tUiYeY2NanaYz4EF2McnBOkDupgr77_4OVRzmx4Cl9dvHApEycLrEgEf1OR-J15izZ6sNQW_5ZMd0qeNcrFl7t79CFsbLCZRAx_2HwcpV-TL3dA.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/f4f8c82f6126dd332d942294.jpg",
-        "thumbnail_sha256": "a8ddd1a36c32026d3d1bcb74df6a729a71ca57a91710e6c96e1a3893783549aa",
-        "permalink": "https://t.me/iseqaro/1851"
-      }
     }
   ]
 }
