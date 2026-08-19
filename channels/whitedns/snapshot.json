@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-19T14:27:35.656Z",
+  "fetched_at": "2026-08-19T14:29:40.793Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -23,7 +23,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "24"
+          "count": "29"
         },
         {
           "emoji": "👎",
@@ -38,7 +38,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.1K",
+      "views_label": "1.28K",
       "posted_at": "2026-08-19T14:17:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1528",
@@ -50,13 +50,13 @@
       "author_photo_url": "https://cdn5.telesco.pe/file/t0_MR6ijhYrBFEcrt-FSWe_y9-c9apgqFwsLIO-PcTWL8T59ehh7qJbWkYMbIAVZSYKsjbvNHdQeexIwDzWTEsUdPtxl2MoNtjJXW-JPHpVxbZEcEjSwyxQdW1q2pZzhyI2_ePWrqHrP7_MxeZbiJe-wEF6ElMZM31RxOyA7uPUmv7gZLvxmivK_uu2kzkI5EWG8rseRKdOT4j0BEEhot_faHi-pVWTSOa_0-JMRhccerVuObdzuPatX0zxGO4BgHyyrawTfAA_hLSAG5nKmdV8TVlSEvM_W7FGcLkFUQ7LBPHZUGmtt7euA7luJHBJTS5LAdwYEuoKfV1lj4iOeUA.jpg",
       "author_photo_path": "channels/whitedns/media/681b4c82c56448935e8c1a42.jpg",
       "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<b>WhiteAesther android V1.0.1</b><b><tg-emoji emoji-id=\"5389038097860144794\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5389038097860144794\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5389038097860144794\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5389038097860144794\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5389038097860144794\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5389038097860144794\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji></b><b>  </b><br><br> قابلیت Exit Chain<br><br>از این نسخه می‌تونی بعد از تونل، یک ایستگاه دوم اضافه کنی.<br><br>یعنی چی؟ تا الان ترافیک تو از سرورهای Cloudflare بیرون می‌رفت و سایت‌ها آی‌پی Cloudflare رو می‌دیدن. حالا می‌تونی سرور شخصی خودت (یا سابسکریپشنی که داری) رو آخر مسیر بذاری، و سایت‌ها آی‌پی اون سرور رو ببینن.<br><br>مسیر ترافیک این شکلی می‌شه:<br><br>گوشی ← تونل رمزنگاری‌شده ← سرور خودت ← اینترنت<br><br>به چه دردی می‌خوره؟<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> سایت‌هایی که آی‌پی‌های Cloudflare رو بلاک کردن (بانک‌ها، بعضی سرویس‌های خارجی، بعضی بازی‌ها)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> وقتی به آی‌پی یک کشور مشخص احتیاج داری<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> و مهم‌تر از همه: اگه شبکه‌ات اصلاً تونل رو بلاک کرده، می‌تونی تونل رو دور بزنی و مستقیم از سرور خودت استفاده کنی<br><br>پروتکل‌های پشتیبانی‌شده: vless vmess trojan shadowsocks hysteria2 و بقیه — چه لینک سابسکریپشن، چه کانفیگ تکی که دستی می‌چسبونی.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> آموزش — ۵ قدم<br><br>۱) اپ رو به نسخه ۱.۱.۰ آپدیت کن.<br>۲) برو به تب Routes ← گزینه Exit chain.<br>۳) کلید Exit chain رو روشن کن.<br>۴) توی کادر Add a subscription لینک سابسکریپشنت رو بذار و Add رو بزن. اگه فقط چند کانفیگ تکی داری، از Paste nodes by hand استفاده کن — هر کانفیگ توی یک خط.<br>۵) برگرد به Home و وصل شو. تمام.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> سه نکته که حتماً باید بدونی<br><br>۱. لیست سرورها فقط بعد از وصل شدن میاد<br><br>قبل از اتصال قسمت Nodes خالیه و این ایراد نیست. سابسکریپشن تو از داخل تونل دانلود می‌شه تا شبکه‌ات نفهمه داری چی می‌گیری. پس اول وصل شو، بعد برگرد به Routes ← Exit chain تا لیست سرورها رو با پینگ‌شون ببینی.<br><br>انتخاب سرور قطع و وصل نمی‌خواد — روی همون اتصال جابه‌جا می‌شه.<br><br>۲. گزینه Dial nodes through the tunnel<br><br>پیش‌فرض روشنه و بهتره روشن بمونه: شبکه/اپراتور تو هیچ‌وقت آدرس سرورت رو نمی‌بینه، و سرورت هم آدرس واقعی تو رو نمی‌بینه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i> ولی اگه اپ اصلاً وصل نمی‌شه یا خیلی طول می‌کشه، این گزینه رو خاموش کن. اون‌وقت WhiteAesther تونل رو کامل رد می‌کنه و مستقیم به سرور خودت وصل می‌شه — دقیقاً برای شبکه‌هایی مثل همراه اول که تونل رو می‌بندن، همین حالت جواب می‌ده و خیلی سریع‌تر هم وصل می‌شه.<br><br>۳. Coverage باید روی Whole device باشه<br><br>توی تب Traffic. اگه روی Proxy only باشه، Exit chain کار نمی‌کنه و اپ بهت تذکر می‌ده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BE.png')\"><b>💾</b></i> حجم اپ بیشتر شده<br><br>از حدود ۸ مگابایت رسیده به ۴۷ تا ۵۷ مگابایت. دلیلش موتور جدیدیه که این قابلیت رو اجرا می‌کنه. اگه Exit chain رو روشن نکنی، اپ دقیقاً مثل قبل کار می‌کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> arm64-v8a — تقریباً همه گوشی‌های ۲۰۱۷ به بعد. از این شروع کن<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> armeabi-v7a — گوشی‌های قدیمی‌تر و اقتصادی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> universal — اگه مطمئن نیستی (حجمش سه برابره)<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> <a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><br>اگه مشکلی خوردی، از Settings ← Diagnostics گزارش بگیر و بفرست — از این نسخه لاگ موتور Exit chain هم داخلشه.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "body_html": "<b>WhiteAesther</b> android V1.0.1<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i>  <br><br> قابلیت Exit Chain<br><br>از این نسخه می‌تونی بعد از تونل، یک ایستگاه دوم اضافه کنی.<br><br>یعنی چی؟ تا الان ترافیک تو از سرورهای Cloudflare بیرون می‌رفت و سایت‌ها آی‌پی Cloudflare رو می‌دیدن. حالا می‌تونی سرور شخصی خودت (یا سابسکریپشنی که داری) رو آخر مسیر بذاری، و سایت‌ها آی‌پی اون سرور رو ببینن.<br><br>مسیر ترافیک این شکلی می‌شه:<br><br>گوشی ← تونل رمزنگاری‌شده ← سرور خودت ← اینترنت<br><br>به چه دردی می‌خوره؟<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> سایت‌هایی که آی‌پی‌های Cloudflare رو بلاک کردن (بانک‌ها، بعضی سرویس‌های خارجی، بعضی بازی‌ها)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> وقتی به آی‌پی یک کشور مشخص احتیاج داری<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> و مهم‌تر از همه: اگه شبکه‌ات اصلاً تونل رو بلاک کرده، می‌تونی تونل رو دور بزنی و مستقیم از سرور خودت استفاده کنی<br><br>پروتکل‌های پشتیبانی‌شده: vless vmess trojan shadowsocks hysteria2 و بقیه — چه لینک سابسکریپشن، چه کانفیگ تکی که دستی می‌چسبونی.<br><br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> آموزش — ۵ قدم<br><br>۱) اپ رو به نسخه ۱.۱.۰ آپدیت کن.<br>۲) برو به تب Routes ← گزینه Exit chain.<br>۳) کلید Exit chain رو روشن کن.<br>۴) توی کادر Add a subscription لینک سابسکریپشنت رو بذار و Add رو بزن. اگه فقط چند کانفیگ تکی داری، از Paste nodes by hand استفاده کن — هر کانفیگ توی یک خط.<br>۵) برگرد به Home و وصل شو. تمام.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> سه نکته که حتماً باید بدونی<br><br>۱. لیست سرورها فقط بعد از وصل شدن میاد<br><br>قبل از اتصال قسمت Nodes خالیه و این ایراد نیست. سابسکریپشن تو از داخل تونل دانلود می‌شه تا شبکه‌ات نفهمه داری چی می‌گیری. پس اول وصل شو، بعد برگرد به Routes ← Exit chain تا لیست سرورها رو با پینگ‌شون ببینی.<br><br>انتخاب سرور قطع و وصل نمی‌خواد — روی همون اتصال جابه‌جا می‌شه.<br><br>۲. گزینه Dial nodes through the tunnel<br><br>پیش‌فرض روشنه و بهتره روشن بمونه: شبکه/اپراتور تو هیچ‌وقت آدرس سرورت رو نمی‌بینه، و سرورت هم آدرس واقعی تو رو نمی‌بینه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i> ولی اگه اپ اصلاً وصل نمی‌شه یا خیلی طول می‌کشه، این گزینه رو خاموش کن. اون‌وقت WhiteAesther تونل رو کامل رد می‌کنه و مستقیم به سرور خودت وصل می‌شه — دقیقاً برای شبکه‌هایی مثل همراه اول که تونل رو می‌بندن، همین حالت جواب می‌ده و خیلی سریع‌تر هم وصل می‌شه.<br><br>۳. Coverage باید روی Whole device باشه<br><br>توی تب Traffic. اگه روی Proxy only باشه، Exit chain کار نمی‌کنه و اپ بهت تذکر می‌ده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BE.png')\"><b>💾</b></i> حجم اپ بیشتر شده<br><br>از حدود ۸ مگابایت رسیده به ۴۷ تا ۵۷ مگابایت. دلیلش موتور جدیدیه که این قابلیت رو اجرا می‌کنه. اگه Exit chain رو روشن نکنی، اپ دقیقاً مثل قبل کار می‌کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> arm64-v8a — تقریباً همه گوشی‌های ۲۰۱۷ به بعد. از این شروع کن<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> armeabi-v7a — گوشی‌های قدیمی‌تر و اقتصادی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> universal — اگه مطمئن نیستی (حجمش سه برابره)</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> <a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><br>اگه مشکلی خوردی، از Settings ← Diagnostics گزارش بگیر و بفرست — از این نسخه لاگ موتور Exit chain هم داخلشه.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
       "plain_text": "WhiteAesther android V1.0.1🔥🔥🔥🔥🔥🔥\n\nقابلیت Exit Chain\n\nاز این نسخه می‌تونی بعد از تونل، یک ایستگاه دوم اضافه کنی.\n\nیعنی چی؟ تا الان ترافیک تو از سرورهای Cloudflare بیرون می‌رفت و سایت‌ها آی‌پی Cloudflare رو می‌دیدن. حالا می‌تونی سرور شخصی خودت (یا سابسکریپشنی که داری) رو آخر مسیر بذاری، و سایت‌ها آی‌پی اون سرور رو ببینن.\n\nمسیر ترافیک این شکلی می‌شه:\n\nگوشی ← تونل رمزنگاری‌شده ← سرور خودت ← اینترنت\n\nبه چه دردی می‌خوره؟\n▫️ سایت‌هایی که آی‌پی‌های Cloudflare رو بلاک کردن (بانک‌ها، بعضی سرویس‌های خارجی، بعضی بازی‌ها)\n▫️ وقتی به آی‌پی یک کشور مشخص احتیاج داری\n▫️ و مهم‌تر از همه: اگه شبکه‌ات اصلاً تونل رو بلاک کرده، می‌تونی تونل رو دور بزنی و مستقیم از سرور خودت استفاده کنی\n\nپروتکل‌های پشتیبانی‌شده: vless vmess trojan shadowsocks hysteria2 و بقیه — چه لینک سابسکریپشن، چه کانفیگ تکی که دستی می‌چسبونی.\n\n📌 آموزش — ۵ قدم\n\n۱) اپ رو به نسخه ۱.۱.۰ آپدیت کن.\n۲) برو به تب Routes ← گزینه Exit chain.\n۳) کلید Exit chain رو روشن کن.\n۴) توی کادر Add a subscription لینک سابسکریپشنت رو بذار و Add رو بزن. اگه فقط چند کانفیگ تکی داری، از Paste nodes by hand استفاده کن — هر کانفیگ توی یک خط.\n۵) برگرد به Home و وصل شو. تمام.\n\n⚠️ سه نکته که حتماً باید بدونی\n\n۱. لیست سرورها فقط بعد از وصل شدن میاد\n\nقبل از اتصال قسمت Nodes خالیه و این ایراد نیست. سابسکریپشن تو از داخل تونل دانلود می‌شه تا شبکه‌ات نفهمه داری چی می‌گیری. پس اول وصل شو، بعد برگرد به Routes ← Exit chain تا لیست سرورها رو با پینگ‌شون ببینی.\n\nانتخاب سرور قطع و وصل نمی‌خواد — روی همون اتصال جابه‌جا می‌شه.\n\n۲. گزینه Dial nodes through the tunnel\n\nپیش‌فرض روشنه و بهتره روشن بمونه: شبکه/اپراتور تو هیچ‌وقت آدرس سرورت رو نمی‌بینه، و سرورت هم آدرس واقعی تو رو نمی‌بینه.\n\n🔸 ولی اگه اپ اصلاً وصل نمی‌شه یا خیلی طول می‌کشه، این گزینه رو خاموش کن. اون‌وقت WhiteAesther تونل رو کامل رد می‌کنه و مستقیم به سرور خودت وصل می‌شه — دقیقاً برای شبکه‌هایی مثل همراه اول که تونل رو می‌بندن، همین حالت جواب می‌ده و خیلی سریع‌تر هم وصل می‌شه.\n\n۳. Coverage باید روی Whole device باشه\n\nتوی تب Traffic. اگه روی Proxy only باشه، Exit chain کار نمی‌کنه و اپ بهت تذکر می‌ده.\n\n💾 حجم اپ بیشتر شده\n\nاز حدود ۸ مگابایت رسیده به ۴۷ تا ۵۷ مگابایت. دلیلش موتور جدیدیه که این قابلیت رو اجرا می‌کنه. اگه Exit chain رو روشن نکنی، اپ دقیقاً مثل قبل کار می‌کنه.\n\n▫️ arm64-v8a — تقریباً همه گوشی‌های ۲۰۱۷ به بعد. از این شروع کن\n▫️ armeabi-v7a — گوشی‌های قدیمی‌تر و اقتصادی\n▫️ universal — اگه مطمئن نیستی (حجمش سه برابره)\n\n⬇️ https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\n\nاگه مشکلی خوردی، از Settings ← Diagnostics گزارش بگیر و بفرست — از این نسخه لاگ موتور Exit chain هم داخلشه.\n\n@whitedns",
       "media": [],
       "reactions": [
         {
           "emoji": "❤",
-          "count": "29"
+          "count": "30"
         },
         {
           "emoji": "😁",
@@ -71,9 +71,9 @@
           "count": "1"
         }
       ],
-      "views_label": "1.28K",
+      "views_label": "1.38K",
       "posted_at": "2026-08-19T14:15:00+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1527",
       "reply": null
     },
@@ -89,15 +89,15 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "64"
+          "count": "65"
         },
         {
           "emoji": "👍",
-          "count": "26"
+          "count": "27"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "18"
+          "count": "19"
         },
         {
           "emoji": "🔥",
@@ -116,7 +116,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.31K",
+      "views_label": "2.4K",
       "posted_at": "2026-08-19T14:04:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1526",
@@ -153,7 +153,7 @@
           "count": "2"
         }
       ],
-      "views_label": "4.04K",
+      "views_label": "4.11K",
       "posted_at": "2026-08-19T13:24:03+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1525",
@@ -165,7 +165,7 @@
       "author_photo_url": "https://cdn5.telesco.pe/file/t0_MR6ijhYrBFEcrt-FSWe_y9-c9apgqFwsLIO-PcTWL8T59ehh7qJbWkYMbIAVZSYKsjbvNHdQeexIwDzWTEsUdPtxl2MoNtjJXW-JPHpVxbZEcEjSwyxQdW1q2pZzhyI2_ePWrqHrP7_MxeZbiJe-wEF6ElMZM31RxOyA7uPUmv7gZLvxmivK_uu2kzkI5EWG8rseRKdOT4j0BEEhot_faHi-pVWTSOa_0-JMRhccerVuObdzuPatX0zxGO4BgHyyrawTfAA_hLSAG5nKmdV8TVlSEvM_W7FGcLkFUQ7LBPHZUGmtt7euA7luJHBJTS5LAdwYEuoKfV1lj4iOeUA.jpg",
       "author_photo_path": "channels/whitedns/media/681b4c82c56448935e8c1a42.jpg",
       "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<b>whiteAesther V1.5.2 desktop </b><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <b>قابلیت جدید: Exit chain (زنجیره‌ی خروج)</b><tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br>تا حالا وقتی وصل می‌شدید، ترافیک‌تان امن و رمزنگاری‌شده بود — ولی آدرسی که سایت‌ها می‌دیدند همچنان نزدیک خودتان بود. این ایراد ما نبود: WARP کلادفلر عمداً کشور شما را عوض نمی‌کند، از نزدیک‌ترین نقطه خارج می‌شود و همان‌جا را هم geolocate می‌کند. برای همین خیلی‌ها بعد از اتصال موفق، باز هم به سرویس‌های خارجی دسترسی نداشتند.<br><br>Exit chain یک هاپ دوم اضافه می‌کند. ترافیک اول از تونل رد می‌شود، بعد از داخل تونل به نود خودتان می‌رسد و از آنجا وارد اینترنت می‌شود. آدرسی که سایت‌ها می‌بینند، آدرس نود شماست.<br><br>دو نکته‌ی مهم در طراحی:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نود از داخل تونل شماره‌گیری می‌شود — یعنی شبکه‌ی محلی شما فقط یک اتصال عادی به کلادفلر می‌بیند، نه آدرس نود و نه SNI آن.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> به همین دلیل، نودی که از ایران فیلتر شده باز هم کار می‌کند — چون از شبکه‌ی کلادفلر به آن وصل می‌شویم، نه از اینجا.<br><br>━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9398.png')\"><b>📘</b></i> آموزش<br><br>۱. بالای پنجره روی Advanced بزنید، از منوی سمت چپ Exit chain را انتخاب کنید.<br><br>۲. دو کلید را روشن کنید:<br>• Route through a second hop — خود قابلیت<br>• Dial nodes through the tunnel — پیش‌فرض روشن است، همین‌طور بگذاریدش<br><br>۳. نودتان را اضافه کنید، به یکی از دو روش:<br>• Subscriptions — لینک ساب را بگذارید و Add بزنید (خودش به‌روز می‌ماند)<br>• Configs pasted by hand — کانفیگ‌ها را خطی یکی paste کنید و Apply بزنید<br><br>vless · vmess · trojan · ss · hysteria2 · tuic همه مستقیم پشتیبانی می‌شوند؛ لازم نیست چیزی را تبدیل کنید.<br><br>۴. پایین صفحه در بخش Nodes نودها ظاهر می‌شوند با پینگ واقعی‌شان از پشت تونل. با Test هر کدام را بسنجید و با Use یکی را انتخاب کنید.<br><br>۵. بالا سمت راست Save profile را بزنید تا دفعه‌ی بعد هم فعال باشد.<br><br>━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> کدام حالت را انتخاب کنم؟<br><br>• Whole machine — کاری لازم نیست، پروکسی سیستم خودکار روی زنجیره تنظیم می‌شود. برای اکثر کاربران همین درست است.<br>• This app only — مرورگر یا برنامه‌تان را روی آدرسی که در همان کارت نوشته شده تنظیم کنید (معمولاً <a href=\"http://127.0.0.1:1820/\" target=\"_blank\" rel=\"noopener\">127.0.0.1:1820</a>).<br><br>برای اطمینان، کارت What websites see در صفحه‌ی اصلی آدرس واقعی خروجی‌تان را نشان می‌دهد. اگر برچسب Through your node را دید، زنجیره برقرار است.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a><br><br><a href=\"https://github.com/WhiteDNS/WhiteAesther\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAesther</a>",
+      "body_html": "<b>whiteAesther</b> V1.5.2 desktop <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> قابلیت جدید: Exit chain (زنجیره‌ی خروج)<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br>تا حالا وقتی وصل می‌شدید، ترافیک‌تان امن و رمزنگاری‌شده بود — ولی آدرسی که سایت‌ها می‌دیدند همچنان نزدیک خودتان بود. این ایراد ما نبود: WARP کلادفلر عمداً کشور شما را عوض نمی‌کند، از نزدیک‌ترین نقطه خارج می‌شود و همان‌جا را هم geolocate می‌کند. برای همین خیلی‌ها بعد از اتصال موفق، باز هم به سرویس‌های خارجی دسترسی نداشتند.<br><br>Exit chain یک هاپ دوم اضافه می‌کند. ترافیک اول از تونل رد می‌شود، بعد از داخل تونل به نود خودتان می‌رسد و از آنجا وارد اینترنت می‌شود. آدرسی که سایت‌ها می‌بینند، آدرس نود شماست.<br><br>دو نکته‌ی مهم در طراحی:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نود از داخل تونل شماره‌گیری می‌شود — یعنی شبکه‌ی محلی شما فقط یک اتصال عادی به کلادفلر می‌بیند، نه آدرس نود و نه SNI آن.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> به همین دلیل، نودی که از ایران فیلتر شده باز هم کار می‌کند — چون از شبکه‌ی کلادفلر به آن وصل می‌شویم، نه از اینجا.<br><br>━━━━━━━━━━━━━━<br><br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9398.png')\"><b>📘</b></i> آموزش<br><br>۱. بالای پنجره روی Advanced بزنید، از منوی سمت چپ Exit chain را انتخاب کنید.<br><br>۲. دو کلید را روشن کنید:<br>• Route through a second hop — خود قابلیت<br>• Dial nodes through the tunnel — پیش‌فرض روشن است، همین‌طور بگذاریدش<br><br>۳. نودتان را اضافه کنید، به یکی از دو روش:<br>• Subscriptions — لینک ساب را بگذارید و Add بزنید (خودش به‌روز می‌ماند)<br>• Configs pasted by hand — کانفیگ‌ها را خطی یکی paste کنید و Apply بزنید<br><br>vless · vmess · trojan · ss · hysteria2 · tuic همه مستقیم پشتیبانی می‌شوند؛ لازم نیست چیزی را تبدیل کنید.<br><br>۴. پایین صفحه در بخش Nodes نودها ظاهر می‌شوند با پینگ واقعی‌شان از پشت تونل. با Test هر کدام را بسنجید و با Use یکی را انتخاب کنید.<br><br>۵. بالا سمت راست Save profile را بزنید تا دفعه‌ی بعد هم فعال باشد.<br><br>━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> کدام حالت را انتخاب کنم؟<br><br>• Whole machine — کاری لازم نیست، پروکسی سیستم خودکار روی زنجیره تنظیم می‌شود. برای اکثر کاربران همین درست است.<br>• This app only — مرورگر یا برنامه‌تان را روی آدرسی که در همان کارت نوشته شده تنظیم کنید (معمولاً <a href=\"http://127.0.0.1:1820/\" target=\"_blank\" rel=\"noopener\">127.0.0.1:1820</a>).<br><br>برای اطمینان، کارت What websites see در صفحه‌ی اصلی آدرس واقعی خروجی‌تان را نشان می‌دهد. اگر برچسب Through your node را دید، زنجیره برقرار است.</blockquote><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a><br><br><a href=\"https://github.com/WhiteDNS/WhiteAesther\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAesther</a>",
       "plain_text": "whiteAesther V1.5.2 desktop 🔥🔥🔥🔥🔥🔥\n\n🔗 قابلیت جدید: Exit chain (زنجیره‌ی خروج)🔥🔥🔥\n\nتا حالا وقتی وصل می‌شدید، ترافیک‌تان امن و رمزنگاری‌شده بود — ولی آدرسی که سایت‌ها می‌دیدند همچنان نزدیک خودتان بود. این ایراد ما نبود: WARP کلادفلر عمداً کشور شما را عوض نمی‌کند، از نزدیک‌ترین نقطه خارج می‌شود و همان‌جا را هم geolocate می‌کند. برای همین خیلی‌ها بعد از اتصال موفق، باز هم به سرویس‌های خارجی دسترسی نداشتند.\n\nExit chain یک هاپ دوم اضافه می‌کند. ترافیک اول از تونل رد می‌شود، بعد از داخل تونل به نود خودتان می‌رسد و از آنجا وارد اینترنت می‌شود. آدرسی که سایت‌ها می‌بینند، آدرس نود شماست.\n\nدو نکته‌ی مهم در طراحی:\n\n▫️ نود از داخل تونل شماره‌گیری می‌شود — یعنی شبکه‌ی محلی شما فقط یک اتصال عادی به کلادفلر می‌بیند، نه آدرس نود و نه SNI آن.\n▫️ به همین دلیل، نودی که از ایران فیلتر شده باز هم کار می‌کند — چون از شبکه‌ی کلادفلر به آن وصل می‌شویم، نه از اینجا.\n\n━━━━━━━━━━━━━━\n\n📘 آموزش\n\n۱. بالای پنجره روی Advanced بزنید، از منوی سمت چپ Exit chain را انتخاب کنید.\n\n۲. دو کلید را روشن کنید:\n• Route through a second hop — خود قابلیت\n• Dial nodes through the tunnel — پیش‌فرض روشن است، همین‌طور بگذاریدش\n\n۳. نودتان را اضافه کنید، به یکی از دو روش:\n• Subscriptions — لینک ساب را بگذارید و Add بزنید (خودش به‌روز می‌ماند)\n• Configs pasted by hand — کانفیگ‌ها را خطی یکی paste کنید و Apply بزنید\n\nvless · vmess · trojan · ss · hysteria2 · tuic همه مستقیم پشتیبانی می‌شوند؛ لازم نیست چیزی را تبدیل کنید.\n\n۴. پایین صفحه در بخش Nodes نودها ظاهر می‌شوند با پینگ واقعی‌شان از پشت تونل. با Test هر کدام را بسنجید و با Use یکی را انتخاب کنید.\n\n۵. بالا سمت راست Save profile را بزنید تا دفعه‌ی بعد هم فعال باشد.\n\n━━━━━━━━━━━━━━\n\n⚙️ کدام حالت را انتخاب کنم؟\n\n• Whole machine — کاری لازم نیست، پروکسی سیستم خودکار روی زنجیره تنظیم می‌شود. برای اکثر کاربران همین درست است.\n• This app only — مرورگر یا برنامه‌تان را روی آدرسی که در همان کارت نوشته شده تنظیم کنید (معمولاً 127.0.0.1:1820).\n\nبرای اطمینان، کارت What websites see در صفحه‌ی اصلی آدرس واقعی خروجی‌تان را نشان می‌دهد. اگر برچسب Through your node را دید، زنجیره برقرار است.\n\n@whitedns\n\nhttps://github.com/WhiteDNS/WhiteAesther",
       "media": [],
       "reactions": [
@@ -194,7 +194,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.95K",
+      "views_label": "3.98K",
       "posted_at": "2026-08-19T13:21:20+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1524",
@@ -224,7 +224,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "54"
+          "count": "55"
         },
         {
           "emoji": "👍",
@@ -243,7 +243,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.28K",
+      "views_label": "3.31K",
       "posted_at": "2026-08-19T13:08:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1523",
@@ -273,7 +273,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "52"
+          "count": "53"
         },
         {
           "emoji": "👍",
@@ -292,7 +292,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.41K",
+      "views_label": "3.44K",
       "posted_at": "2026-08-19T13:08:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1522",
@@ -322,7 +322,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "162"
+          "count": "163"
         },
         {
           "emoji": "🤩",
@@ -365,7 +365,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14K",
       "posted_at": "2026-08-18T14:45:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1521",
