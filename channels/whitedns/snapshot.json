@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-19T13:19:19.669Z",
+  "fetched_at": "2026-08-19T13:22:44.600Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,31 @@
     "subscriber_count": "109K"
   },
   "posts": [
+    {
+      "id": "whitedns/1524",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/t0_MR6ijhYrBFEcrt-FSWe_y9-c9apgqFwsLIO-PcTWL8T59ehh7qJbWkYMbIAVZSYKsjbvNHdQeexIwDzWTEsUdPtxl2MoNtjJXW-JPHpVxbZEcEjSwyxQdW1q2pZzhyI2_ePWrqHrP7_MxeZbiJe-wEF6ElMZM31RxOyA7uPUmv7gZLvxmivK_uu2kzkI5EWG8rseRKdOT4j0BEEhot_faHi-pVWTSOa_0-JMRhccerVuObdzuPatX0zxGO4BgHyyrawTfAA_hLSAG5nKmdV8TVlSEvM_W7FGcLkFUQ7LBPHZUGmtt7euA7luJHBJTS5LAdwYEuoKfV1lj4iOeUA.jpg",
+      "author_photo_path": "channels/whitedns/media/681b4c82c56448935e8c1a42.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<b>whiteAesther V1.5.1 desktop </b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <b>قابلیت جدید: Exit chain (زنجیره‌ی خروج)</b><tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br>تا حالا وقتی وصل می‌شدید، ترافیک‌تان امن و رمزنگاری‌شده بود — ولی آدرسی که سایت‌ها می‌دیدند همچنان نزدیک خودتان بود. این ایراد ما نبود: WARP کلادفلر عمداً کشور شما را عوض نمی‌کند، از نزدیک‌ترین نقطه خارج می‌شود و همان‌جا را هم geolocate می‌کند. برای همین خیلی‌ها بعد از اتصال موفق، باز هم به سرویس‌های خارجی دسترسی نداشتند.<br><br>Exit chain یک هاپ دوم اضافه می‌کند. ترافیک اول از تونل رد می‌شود، بعد از داخل تونل به نود خودتان می‌رسد و از آنجا وارد اینترنت می‌شود. آدرسی که سایت‌ها می‌بینند، آدرس نود شماست.<br><br>دو نکته‌ی مهم در طراحی:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نود از داخل تونل شماره‌گیری می‌شود — یعنی شبکه‌ی محلی شما فقط یک اتصال عادی به کلادفلر می‌بیند، نه آدرس نود و نه SNI آن.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> به همین دلیل، نودی که از ایران فیلتر شده باز هم کار می‌کند — چون از شبکه‌ی کلادفلر به آن وصل می‌شویم، نه از اینجا.<br><br>━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9398.png')\"><b>📘</b></i> آموزش<br><br>۱. بالای پنجره روی Advanced بزنید، از منوی سمت چپ Exit chain را انتخاب کنید.<br><br>۲. دو کلید را روشن کنید:<br>• Route through a second hop — خود قابلیت<br>• Dial nodes through the tunnel — پیش‌فرض روشن است، همین‌طور بگذاریدش<br><br>۳. نودتان را اضافه کنید، به یکی از دو روش:<br>• Subscriptions — لینک ساب را بگذارید و Add بزنید (خودش به‌روز می‌ماند)<br>• Configs pasted by hand — کانفیگ‌ها را خطی یکی paste کنید و Apply بزنید<br><br>vless · vmess · trojan · ss · hysteria2 · tuic همه مستقیم پشتیبانی می‌شوند؛ لازم نیست چیزی را تبدیل کنید.<br><br>۴. پایین صفحه در بخش Nodes نودها ظاهر می‌شوند با پینگ واقعی‌شان از پشت تونل. با Test هر کدام را بسنجید و با Use یکی را انتخاب کنید.<br><br>۵. بالا سمت راست Save profile را بزنید تا دفعه‌ی بعد هم فعال باشد.<br><br>━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> کدام حالت را انتخاب کنم؟<br><br>• Whole machine — کاری لازم نیست، پروکسی سیستم خودکار روی زنجیره تنظیم می‌شود. برای اکثر کاربران همین درست است.<br>• This app only — مرورگر یا برنامه‌تان را روی آدرسی که در همان کارت نوشته شده تنظیم کنید (معمولاً <a href=\"http://127.0.0.1:1820/\" target=\"_blank\" rel=\"noopener\">127.0.0.1:1820</a>).<br><br>برای اطمینان، کارت What websites see در صفحه‌ی اصلی آدرس واقعی خروجی‌تان را نشان می‌دهد. اگر برچسب Through your node را دید، زنجیره برقرار است.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a><br><br><a href=\"https://github.com/WhiteDNS/WhiteAesther\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAesther</a>",
+      "plain_text": "whiteAesther V1.5.1 desktop\n\n🔗 قابلیت جدید: Exit chain (زنجیره‌ی خروج)🔥🔥🔥\n\nتا حالا وقتی وصل می‌شدید، ترافیک‌تان امن و رمزنگاری‌شده بود — ولی آدرسی که سایت‌ها می‌دیدند همچنان نزدیک خودتان بود. این ایراد ما نبود: WARP کلادفلر عمداً کشور شما را عوض نمی‌کند، از نزدیک‌ترین نقطه خارج می‌شود و همان‌جا را هم geolocate می‌کند. برای همین خیلی‌ها بعد از اتصال موفق، باز هم به سرویس‌های خارجی دسترسی نداشتند.\n\nExit chain یک هاپ دوم اضافه می‌کند. ترافیک اول از تونل رد می‌شود، بعد از داخل تونل به نود خودتان می‌رسد و از آنجا وارد اینترنت می‌شود. آدرسی که سایت‌ها می‌بینند، آدرس نود شماست.\n\nدو نکته‌ی مهم در طراحی:\n\n▫️ نود از داخل تونل شماره‌گیری می‌شود — یعنی شبکه‌ی محلی شما فقط یک اتصال عادی به کلادفلر می‌بیند، نه آدرس نود و نه SNI آن.\n▫️ به همین دلیل، نودی که از ایران فیلتر شده باز هم کار می‌کند — چون از شبکه‌ی کلادفلر به آن وصل می‌شویم، نه از اینجا.\n\n━━━━━━━━━━━━━━\n\n📘 آموزش\n\n۱. بالای پنجره روی Advanced بزنید، از منوی سمت چپ Exit chain را انتخاب کنید.\n\n۲. دو کلید را روشن کنید:\n• Route through a second hop — خود قابلیت\n• Dial nodes through the tunnel — پیش‌فرض روشن است، همین‌طور بگذاریدش\n\n۳. نودتان را اضافه کنید، به یکی از دو روش:\n• Subscriptions — لینک ساب را بگذارید و Add بزنید (خودش به‌روز می‌ماند)\n• Configs pasted by hand — کانفیگ‌ها را خطی یکی paste کنید و Apply بزنید\n\nvless · vmess · trojan · ss · hysteria2 · tuic همه مستقیم پشتیبانی می‌شوند؛ لازم نیست چیزی را تبدیل کنید.\n\n۴. پایین صفحه در بخش Nodes نودها ظاهر می‌شوند با پینگ واقعی‌شان از پشت تونل. با Test هر کدام را بسنجید و با Use یکی را انتخاب کنید.\n\n۵. بالا سمت راست Save profile را بزنید تا دفعه‌ی بعد هم فعال باشد.\n\n━━━━━━━━━━━━━━\n\n⚙️ کدام حالت را انتخاب کنم؟\n\n• Whole machine — کاری لازم نیست، پروکسی سیستم خودکار روی زنجیره تنظیم می‌شود. برای اکثر کاربران همین درست است.\n• This app only — مرورگر یا برنامه‌تان را روی آدرسی که در همان کارت نوشته شده تنظیم کنید (معمولاً 127.0.0.1:1820).\n\nبرای اطمینان، کارت What websites see در صفحه‌ی اصلی آدرس واقعی خروجی‌تان را نشان می‌دهد. اگر برچسب Through your node را دید، زنجیره برقرار است.\n\n@whitedns\n\nhttps://github.com/WhiteDNS/WhiteAesther",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "😍",
+          "count": "2"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "66",
+      "posted_at": "2026-08-19T13:21:20+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1524",
+      "reply": null
+    },
     {
       "id": "whitedns/1523",
       "author_name": "White DNS",
@@ -35,11 +60,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "23"
+          "count": "24"
         },
         {
           "emoji": "👎",
-          "count": "2"
+          "count": "4"
         },
         {
           "emoji": "👍",
@@ -54,7 +79,7 @@
           "count": "1"
         }
       ],
-      "views_label": "923",
+      "views_label": "1.15K",
       "posted_at": "2026-08-19T13:08:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1523",
@@ -84,7 +109,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "24"
+          "count": "27"
         },
         {
           "emoji": "👍",
@@ -99,7 +124,7 @@
           "count": "1"
         }
       ],
-      "views_label": "891",
+      "views_label": "1.05K",
       "posted_at": "2026-08-19T13:08:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1522",
@@ -172,7 +197,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13K",
+      "views_label": "13.1K",
       "posted_at": "2026-08-18T14:45:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1521",
@@ -1105,7 +1130,7 @@
           "count": "1"
         }
       ],
-      "views_label": "44.3K",
+      "views_label": "44.5K",
       "posted_at": "2026-08-16T03:42:34+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1496",
@@ -5770,55 +5795,6 @@
       "posted_at": "2026-08-03T07:09:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1395",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1394",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/C0UlBY8I-5xA3avRlYNvizTpPTKEl1KbYUETXAdFCEOzKklJt4FTVhPEscWTpjpkmcJySQulwyxJrsl-Qorw0IVYSeNaKl5CjPK0OlyDbb-oCX69ko9c3Lj6_TcTCGn3FOZNDJ0WtHHwX-oqhnRSDcB9Ie63oqQTC1P-3dOm2vGKUv1zR_y4eiPy32ReRqgGUbkHgm2C-tT_kxuzRbpVKa66L5AwxeXxRuLM7vheNVuCxuuoTFgDlBfXwzs6cCuwf5jjJMO3Adkwn-ryGtKtSucs3Oft4Vp-R3aDHY1UvpZI1MRBVLs8iXzQ_v9X7mk2SDm9gJEWv7kLbihnKUYarw.jpg",
-      "author_photo_path": "channels/whitedns/media/93b2891d4ff032da07480741.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<tg-emoji emoji-id=\"5197371802136892976\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29B8F.png')\"><b>⛏</b></i></tg-emoji> <b>۲ نکته برای بهبود سرعت WhiteVPN<br></b><br>۱. بعد از اتصال روی دکم<b>ه اتصال مجدد</b> کلیک کنید تا به سرور جدید وصل بشید. <br><br>۲. همچنین میتونید به صورت دستی تمام سرور هارو پینگ بگیرید و به بهترین سور به انتخاب خودتون وصل بشید.<br><br><a href=\"https://t.me/whitedns_group/12/124367\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>آموزش تصویری</b></a>",
-      "plain_text": "⛏ ۲ نکته برای بهبود سرعت WhiteVPN\n\n۱. بعد از اتصال روی دکمه اتصال مجدد کلیک کنید تا به سرور جدید وصل بشید.\n\n۲. همچنین میتونید به صورت دستی تمام سرور هارو پینگ بگیرید و به بهترین سور به انتخاب خودتون وصل بشید.\n\nآموزش تصویری",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "156"
-        },
-        {
-          "emoji": "❤",
-          "count": "83"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "10"
-        },
-        {
-          "emoji": "💩",
-          "count": "7"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🤩",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        },
-        {
-          "emoji": "💋",
-          "count": "1"
-        }
-      ],
-      "views_label": "46.7K",
-      "posted_at": "2026-08-03T05:07:05+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1394",
       "reply": null
     }
   ]
