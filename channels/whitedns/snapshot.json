@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-20T11:37:50.032Z",
+  "fetched_at": "2026-08-20T11:39:38.563Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -20,8 +20,21 @@
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>CoreForge Build آپدیت جدید منتشر شد  </b><br><br><a href=\"https://testflight.apple.com/join/DRkT6zny\" target=\"_blank\" rel=\"noopener\">https://testflight.apple.com/join/DRkT6zny</a><br><br>این نسخه یکی از بزرگ‌ترین آپدیت‌های CoreForge تا امروز محسوب میشه.<br><br>از Build 90 تا Build 100 طی حدود ۲۰ روز:<br><br>• 214 Commit<br>• بیش از 411 فایل تغییر کرده<br>• بیش از 86,000 خط کد جدید اضافه شده<br>• چند Engine و Protocol جدید از پایه اضافه شده<br>• بخش بزرگی از سیستم Connection، Routing، Failover و Config Management بازطراحی شده<br><br>### <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A9.png')\"><b>🧩</b></i> پروتکل‌ها و Engineهای جدید<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>OpenVPN</b><br><br>* پشتیبانی مستقیم از فایل‌های .ovpn<br>* UDP و TCP<br>* AES-GCM / AEAD<br>* AES-CBC برای بعضی سرویس‌های قدیمی‌تر<br>* TLS-Crypt<br>* Multi-Remote / Multi-Address<br>* Username / Password<br>* Client Certificate<br>* OpenVPN Subscription<br>* پشتیبانی بهتر از ProtonVPN، VPNGate، SoftEther و کانفیگ‌های مشابه<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>Tailscale</b><br><br>* اتصال مستقیم به Tailnet<br>* انتخاب Exit Node<br>* MagicDNS<br>* مدیریت Account داخل CoreForge<br>* امکان اتصال به Exit Node حتی بدون انتخاب Config معمولی<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>Cloudflare WARP / MASQUE</b><br><br>* WARP به‌عنوان یک Outbound واقعی<br>* MASQUE روی HTTP/2 و HTTP/3<br>* امکان استفاده داخل Chain<br>* WARP Endpoint Scanner برای پیدا کردن Endpoint بهتر<br>* تست Endpoint با handshake واقعی MASQUE، نه فقط TCP Ping<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>mKCP</b><br><br>* پشتیبانی از mKCP مربوط به Xray<br>* همه Header Typeهای اصلی<br>* قابل استفاده با VLESS و Trojan<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>ECH</b><br>Encrypted ClientHello حالا به صورت واقعی داخل CoreForge اجرا میشه و برای بعضی Transportها از جمله Hysteria2 هم اضافه شده.<br><br>### <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡</b></i> Load Balancer و Failover<br><br>Load Balancer فقط اسم نیست و حالا Connectionها واقعاً بین Nodeهای انتخاب‌شده مدیریت میشن.<br><br>همچنین:<br><br>* Config فعال داخل برنامه نمایش داده میشه<br>* Exit IP بعد از تغییر Node آپدیت میشه<br>* Dead Server Detection سریع‌تر شده<br>* Backup Node از قبل آماده نگه داشته میشه<br>* اگر Config فعلی از کار بیفته، CoreForge می‌تونه بدون Disconnect کامل به Backup منتقل بشه<br>* Backup Pool بعد از Failover دوباره پر میشه<br><br>### <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> Routing<br><br>سیستم Routing هم تغییر زیادی کرده:<br><br>* Routing Profile شبیه Shadowrocket<br>* Rule Actions<br>* Iran Direct Preset<br>* Iran 2026 Rules<br>* category-ir<br>* Import کردن Routing Rules از فایل<br>* Fragment به‌عنوان Routing Target<br><br>### <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9382.png')\"><b>📂</b></i> Configs و Subscriptionها<br><br>مدیریت Configها تقریباً کامل بازطراحی شده:<br><br>* Swipe برای Ping / Edit / Share / Delete<br>* Drag &amp; Drop برای مرتب کردن Sectionها<br>* Groupهای Local<br>* Bulk Actions<br>* forge:// Chain Links<br>* Tap-to-Ping-and-Connect<br>* Import QR Code از داخل عکس<br>* Subscription Folder<br>* Rename / Reorder / Export<br>* Auto Update جداگانه برای هر Subscription<br>* Plan Status<br>* تقویم شمسی<br><br>مشکل فایل‌های OpenVPN بزرگ هم برطرف شده؛ برای مثال اگر یک فایل شامل ده‌ها یا صدها Profile باشه، دیگه همه‌ی اون‌ها به‌عنوان یک Config خراب Import نمیشن و Profileها جدا میشن.<br><br>### <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A7.png')\"><b>🔧</b></i> Fixهای مهم<br><br>در این نسخه تعداد زیادی Bug مهم هم برطرف شده، از جمله:<br><br>* Crash روی تعداد زیاد Config<br>* مشکل Import بعضی لینک‌های VMessAEAD<br>* مشکل gRPC پشت Cloudflare<br>* مشکل XHTTP که Connect می‌شد ولی Traffic عبور نمی‌کرد<br>* مشکل REALITY و extra<br>* اصلاح UUIDهای VLESS<br>* Lag شدید Config List<br>* Writeهای اضافی Keychain<br>* آپدیت نشدن Connection Details بعد از Failover<br>* UDP برای VMess، Shadowsocks و SOCKS<br>* UDP Associate برای Trojan<br>* gRPC MultiMode<br>* pinnedPeerCertSha256<br>* PattNG Fragment / Cipher Suite / Unsafe Fingerprint<br><br>### <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> iPad و UI<br><br>* پشتیبانی بهتر از Stage Manager<br>* Split View<br>* Resizable Window<br>* تغییرات Liquid Glass<br>* اصلاح Light Mode<br>* بهبود Tab Bar و Headerها<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>نکته مهم درباره Build</b><br><br>این نسخه تغییرات خیلی زیادی داشته و طبیعتاً <b>۱۰۰٪ تضمین نمی‌کنیم که تمام قابلیت‌های جدید روی تمام Serverها، ISPها و Configها بدون مشکل کار کنند.</b><br><br>بعضی قابلیت‌ها هنوز در مرحله‌ی تست واقعی توسط کاربران هستن و ممکنه روی یک Server عالی کار کنن ولی روی Server یا Network دیگه Fail بشن.<br><br>به‌خصوص قابلیت‌های جدیدی مثل:<br><br>Tailscale / WARP / OpenVPN / ECH / Chainهای پیچیده / بعضی حالت‌های VLESS و REALITY<br><br>هنوز نیاز به تست گسترده روی Serverها و اینترنت‌های مختلف دارن.<br><br>پس اگر چیزی Connect نشد یا Connect شد ولی Traffic نداشت، حتماً گزارش کنید و در صورت امکان Config، Log و نوع اینترنت رو هم بفرستید.<br><br>Build بیشتر از اینکه «نسخه نهایی بدون باگ» باشه، یک جهش بزرگ برای CoreForge ـه و Feedback شما مستقیم روی Fixهای نسخه‌های بعدی تأثیر می‌ذاره. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠️</b></i><br><br><b>CoreForge Build <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A92.png')\"><b>⚒️</b></i></b>",
       "plain_text": "🚀 CoreForge Build آپدیت جدید منتشر شد\n\nhttps://testflight.apple.com/join/DRkT6zny\n\nاین نسخه یکی از بزرگ‌ترین آپدیت‌های CoreForge تا امروز محسوب میشه.\n\nاز Build 90 تا Build 100 طی حدود ۲۰ روز:\n\n• 214 Commit\n• بیش از 411 فایل تغییر کرده\n• بیش از 86,000 خط کد جدید اضافه شده\n• چند Engine و Protocol جدید از پایه اضافه شده\n• بخش بزرگی از سیستم Connection، Routing، Failover و Config Management بازطراحی شده\n\n### 🧩 پروتکل‌ها و Engineهای جدید\n\n🔹 OpenVPN\n\n* پشتیبانی مستقیم از فایل‌های .ovpn\n* UDP و TCP\n* AES-GCM / AEAD\n* AES-CBC برای بعضی سرویس‌های قدیمی‌تر\n* TLS-Crypt\n* Multi-Remote / Multi-Address\n* Username / Password\n* Client Certificate\n* OpenVPN Subscription\n* پشتیبانی بهتر از ProtonVPN، VPNGate، SoftEther و کانفیگ‌های مشابه\n\n🔹 Tailscale\n\n* اتصال مستقیم به Tailnet\n* انتخاب Exit Node\n* MagicDNS\n* مدیریت Account داخل CoreForge\n* امکان اتصال به Exit Node حتی بدون انتخاب Config معمولی\n\n🔹 Cloudflare WARP / MASQUE\n\n* WARP به‌عنوان یک Outbound واقعی\n* MASQUE روی HTTP/2 و HTTP/3\n* امکان استفاده داخل Chain\n* WARP Endpoint Scanner برای پیدا کردن Endpoint بهتر\n* تست Endpoint با handshake واقعی MASQUE، نه فقط TCP Ping\n\n🔹 mKCP\n\n* پشتیبانی از mKCP مربوط به Xray\n* همه Header Typeهای اصلی\n* قابل استفاده با VLESS و Trojan\n\n🔹 ECH\nEncrypted ClientHello حالا به صورت واقعی داخل CoreForge اجرا میشه و برای بعضی Transportها از جمله Hysteria2 هم اضافه شده.\n\n### ⚡ Load Balancer و Failover\n\nLoad Balancer فقط اسم نیست و حالا Connectionها واقعاً بین Nodeهای انتخاب‌شده مدیریت میشن.\n\nهمچنین:\n\n* Config فعال داخل برنامه نمایش داده میشه\n* Exit IP بعد از تغییر Node آپدیت میشه\n* Dead Server Detection سریع‌تر شده\n* Backup Node از قبل آماده نگه داشته میشه\n* اگر Config فعلی از کار بیفته، CoreForge می‌تونه بدون Disconnect کامل به Backup منتقل بشه\n* Backup Pool بعد از Failover دوباره پر میشه\n\n### 🌐 Routing\n\nسیستم Routing هم تغییر زیادی کرده:\n\n* Routing Profile شبیه Shadowrocket\n* Rule Actions\n* Iran Direct Preset\n* Iran 2026 Rules\n* category-ir\n* Import کردن Routing Rules از فایل\n* Fragment به‌عنوان Routing Target\n\n### 📂 Configs و Subscriptionها\n\nمدیریت Configها تقریباً کامل بازطراحی شده:\n\n* Swipe برای Ping / Edit / Share / Delete\n* Drag & Drop برای مرتب کردن Sectionها\n* Groupهای Local\n* Bulk Actions\n* forge:// Chain Links\n* Tap-to-Ping-and-Connect\n* Import QR Code از داخل عکس\n* Subscription Folder\n* Rename / Reorder / Export\n* Auto Update جداگانه برای هر Subscription\n* Plan Status\n* تقویم شمسی\n\nمشکل فایل‌های OpenVPN بزرگ هم برطرف شده؛ برای مثال اگر یک فایل شامل ده‌ها یا صدها Profile باشه، دیگه همه‌ی اون‌ها به‌عنوان یک Config خراب Import نمیشن و Profileها جدا میشن.\n\n### 🔧 Fixهای مهم\n\nدر این نسخه تعداد زیادی Bug مهم هم برطرف شده، از جمله:\n\n* Crash روی تعداد زیاد Config\n* مشکل Import بعضی لینک‌های VMessAEAD\n* مشکل gRPC پشت Cloudflare\n* مشکل XHTTP که Connect می‌شد ولی Traffic عبور نمی‌کرد\n* مشکل REALITY و extra\n* اصلاح UUIDهای VLESS\n* Lag شدید Config List\n* Writeهای اضافی Keychain\n* آپدیت نشدن Connection Details بعد از Failover\n* UDP برای VMess، Shadowsocks و SOCKS\n* UDP Associate برای Trojan\n* gRPC MultiMode\n* pinnedPeerCertSha256\n* PattNG Fragment / Cipher Suite / Unsafe Fingerprint\n\n### 📱 iPad و UI\n\n* پشتیبانی بهتر از Stage Manager\n* Split View\n* Resizable Window\n* تغییرات Liquid Glass\n* اصلاح Light Mode\n* بهبود Tab Bar و Headerها\n\n---\n\n⚠️ نکته مهم درباره Build\n\nاین نسخه تغییرات خیلی زیادی داشته و طبیعتاً ۱۰۰٪ تضمین نمی‌کنیم که تمام قابلیت‌های جدید روی تمام Serverها، ISPها و Configها بدون مشکل کار کنند.\n\nبعضی قابلیت‌ها هنوز در مرحله‌ی تست واقعی توسط کاربران هستن و ممکنه روی یک Server عالی کار کنن ولی روی Server یا Network دیگه Fail بشن.\n\nبه‌خصوص قابلیت‌های جدیدی مثل:\n\nTailscale / WARP / OpenVPN / ECH / Chainهای پیچیده / بعضی حالت‌های VLESS و REALITY\n\nهنوز نیاز به تست گسترده روی Serverها و اینترنت‌های مختلف دارن.\n\nپس اگر چیزی Connect نشد یا Connect شد ولی Traffic نداشت، حتماً گزارش کنید و در صورت امکان Config، Log و نوع اینترنت رو هم بفرستید.\n\nBuild بیشتر از اینکه «نسخه نهایی بدون باگ» باشه، یک جهش بزرگ برای CoreForge ـه و Feedback شما مستقیم روی Fixهای نسخه‌های بعدی تأثیر می‌ذاره. 🛠️\n\nCoreForge Build ⚒️",
       "media": [],
-      "reactions": [],
-      "views_label": "121",
+      "reactions": [
+        {
+          "emoji": "😍",
+          "count": "2"
+        },
+        {
+          "emoji": "👏",
+          "count": "1"
+        },
+        {
+          "emoji": "🍓",
+          "count": "1"
+        }
+      ],
+      "views_label": "330",
       "posted_at": "2026-08-20T11:37:22+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1548",
@@ -51,7 +64,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "99"
+          "count": "100"
         },
         {
           "emoji": "👍",
@@ -74,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.02K",
+      "views_label": "5.13K",
       "posted_at": "2026-08-20T09:01:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1545",
@@ -223,7 +236,7 @@
         },
         {
           "emoji": "🔥",
-          "count": "200"
+          "count": "201"
         },
         {
           "emoji": "❤",
@@ -254,7 +267,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.62K",
+      "views_label": "9.68K",
       "posted_at": "2026-08-20T05:36:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1535",
@@ -276,7 +289,7 @@
         },
         {
           "emoji": "❤",
-          "count": "369"
+          "count": "370"
         },
         {
           "emoji": "🔥",
@@ -319,7 +332,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.94K",
+      "views_label": "9.01K",
       "posted_at": "2026-08-20T04:19:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1534",
@@ -429,7 +442,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.5K",
+      "views_label": "11.6K",
       "posted_at": "2026-08-19T14:17:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1528",
@@ -482,7 +495,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.6K",
+      "views_label": "10.7K",
       "posted_at": "2026-08-19T14:15:00+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1527",
@@ -543,7 +556,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.88K",
+      "views_label": "8.94K",
       "posted_at": "2026-08-19T14:04:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1526",
@@ -584,7 +597,7 @@
           "count": "2"
         }
       ],
-      "views_label": "9.62K",
+      "views_label": "9.64K",
       "posted_at": "2026-08-19T13:24:03+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1525",
@@ -629,7 +642,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.83K",
+      "views_label": "9.85K",
       "posted_at": "2026-08-19T13:21:20+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1524",
@@ -755,7 +768,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.35K",
+      "views_label": "8.36K",
       "posted_at": "2026-08-19T13:08:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1522",
@@ -950,7 +963,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.3K",
       "posted_at": "2026-08-18T11:11:59+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1518",
@@ -1131,7 +1144,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.8K",
+      "views_label": "14.9K",
       "posted_at": "2026-08-18T04:38:56+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1515",
