@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-21T01:54:58.762Z",
+  "fetched_at": "2026-08-21T01:57:51.454Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,45 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1550",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/tEAzyQR48ihPgOOPPnzlESWm9BZ1HSPyeYTBzpTug1uxceeMubGVVxBWhd8aSQfOkvDmnXCMk0v3ZuyyGxFmdYOmaZnR8l7XCqHFaIKvb4LMmp-hjOM_3aXVk0Agxwy-WfXvNwVm24NoSDuYL_Ti9cmipQrPcjromXfEtnGgajXLoREOivpREHq9g5I1jTLsEozBGboH4frihQz_dWt2UZK_p78d9WpZjuK8RjF5o-DCVo7YM9BywfJjFMKHE7xrCCFzW47Yv7b7DtEVC0Zw5VmyBqKu9HiasAvlZ6_4Nu6r5l0ByBQvKIX6GIn2wy0mrvkLJ5yoRxebzMNtSSV-yw.jpg",
+      "author_photo_path": "channels/whitedns/media/a660f49e70af1489fe55d94e.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">دوستان عزیز <br>لینک ساب رو باید بعد از کلیک کردن روی دکمه Raw مشابه به عکسی که گذاشتیم کپی کنید. <br><br><br>لینک<b> صحیح WhiteDNS Sub </b><br><br><code>https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml</code></div>",
+      "plain_text": "دوستان عزیز\nلینک ساب رو باید بعد از کلیک کردن روی دکمه Raw مشابه به عکسی که گذاشتیم کپی کنید.\n\n\nلینک صحیح WhiteDNS Sub\n\nhttps://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1550?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/V4I9zL9rUJqU_4cX8zsBftziNkQ1UltBgiZrDleJy7-H0gup_YbQOMUul2_q6ULef9YT97XTZUcFSkoS1Cd2h1rCLXj0g9WMy6cbO5ciFlVsQV3PLYZJ0UkLWsIOIofNBVrhs0MjRb2oOyvosn5nlK-emeXqeM9gEYm5JcNIHgFZh-m1nibfjGQl6sX5tluSdCDQDfAjl1VsrUtH5dE4vKSXubr_hi-ZShGKPHqDa3A3XqISOQBJKtIh15zh5WgZCJ_xIdCaQbYG7f7lHqOB-iy7iT0T3QvR2dEdsXMXpT1sFN2nFGR30mmc-iDkjE_9NAL78_N8rPn4hKgotjC0lw.jpg",
+          "thumbnail_path": "channels/whitedns/media/c5e58a854306acc74971e2f1.jpg",
+          "thumbnail_sha256": "3a6d799836d5f49b3f0f6065b186b5360e1033cf5f85df51e6ed866413ee820b",
+          "duration_label": null,
+          "aspect_ratio": 1.9417475728155
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1551?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/OL1U9xGItM3oSBrE2GB84SH_zd7Oy8f7kdjJToIWwcVBQWGDfesOxTrpMcaKKLcCLtY3lVIYQX2xEcsoJfzsLMQ4BngcyfshJ44I0u3zXc9fdqZDrLQQd9GYTKRF5J3B-EwQ6INTnuE6OS2Ym8EfCjkqeQbBirCIwK9kBRlxPwQJENrae6djfZkMxfLIaGOIueeP1ESP6ggO5o_ayTkvgNiOxllYmsPedz8VPIZXLi470KGIbvYULqIXvg7kUDIKm4shgDzl-CgnSnWurn73Uj0ndlg0QyAxbh6-kSsPnhNk26C20UfGRgjM2J8IXaSv3EGXKTLlKK61-VTnZs4Gjw.jpg",
+          "thumbnail_path": "channels/whitedns/media/652fe796197dd982d65d6c4d.jpg",
+          "thumbnail_sha256": "0b53a07a41dec0a53e0a920148071c2355ceb4ccd36acb793aab687f1fdc34b2",
+          "duration_label": null,
+          "aspect_ratio": 2.247191011236
+        }
+      ],
+      "reactions": [],
+      "views_label": "24",
+      "posted_at": "2026-08-21T01:56:27+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1550",
+      "reply": null
+    },
     {
       "id": "whitedns/1549",
       "author_name": "White DNS",
@@ -68,7 +107,7 @@
         },
         {
           "emoji": "❤",
-          "count": "53"
+          "count": "54"
         },
         {
           "emoji": "👍",
@@ -107,7 +146,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.85K",
+      "views_label": "8.87K",
       "posted_at": "2026-08-20T11:37:22+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1548",
@@ -176,7 +215,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.93K",
+      "views_label": "9.94K",
       "posted_at": "2026-08-20T09:01:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1545",
@@ -5755,79 +5794,6 @@
       "posted_at": "2026-08-06T05:43:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1412",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1410",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/DJAH_xUr64MHQm3yEJvuQmsjR88OUq5IVOQRKRCKrhsA4AFfCnZSC6LI6rmy-VTl_ccyE-zwzfZdVZ0KW3EmBJNd-ORG2-YsJssqnWrJBlH0dvnm-lcOWEJIs97rbKdPABvdVyJD10WIsJS2AVIwuGz8d5wYChAltpFM76qRKrEsQ7rmeR3S8BA2dB-eYUEcdd2W1Jf8SUt5l8nee5biRbFMKwcaP0mpuNQYKbhp3pUXKTvQPBnFDDpRZh3DJbTRboAs1oGkU6ecwxlZta2rlS-nvV6B4O7eJh9_r2gVCk3SdhGw9CSoGltoTOdczheTjwaga_yGpGbhiw089_Yi3w.jpg",
-      "author_photo_path": "channels/whitedns/media/9dbb2b756c5f61c878858ab9.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E89.png')\"><b>🎉</b></i> نسخه‌ی دسکتاپ WhiteVPN منتشر شد!<br></b><br>  اگر می‌خواهید روی کامپیوتر بدون درگیری با تنظیمات پیچیده به VPN وصل شوید، WhiteVPN Desktop برای شما ساخته شده است.<br><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> قابل استفاده روی:<br></b><br>  • ویندوز<br>  • مک، هم Apple Silicon و هم Intel<br>  • لینوکس با بسته‌های AppImage، DEB و RPM<br><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> اتصال ساده و سریع<br></b><br>  • اتصال با اشتراک آماده WhiteVPN<br>  • اضافه‌کردن اشتراک شخصی<br>  • انتخاب خودکار بهترین سرور<br>  • انتخاب دستی کشور، نوع اتصال یا سرور دلخواه<br>  • نمایش IP و کشور واقعی اتصال<br>  • بررسی خودکار سلامت اتصال و جایگزینی سرور خراب<br><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> واردکردن کانفیگ شخصی<br></b><br>  • پشتیبانی از VLESS، VMess، Trojan، Shadowsocks، Hysteria2 و WireGuard<br>  • امکان واردکردن یک یا چند کانفیگ به‌صورت هم‌زمان<br>  • فقط کانفیگ را کپی کنید و Ctrl+V یا در مک Cmd+V بزنید<br>  • کانفیگ‌های شخصی در بخش Manual و بالای لیست قرار می‌گیرند<br><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> تست کامل سرورها<br></b><br>  • بررسی سالم بودن سرور<br>  • تست پینگ واقعی<br>  • تست سرعت دانلود<br>  • مرتب‌سازی بر اساس کشور، پینگ، سرعت و نوع کانفیگ<br>  • تست‌ها بدون قطع‌کردن اتصال فعلی انجام می‌شوند<br><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> تنظیمات حرفه‌ای، با ظاهر ساده<br></b><br>  • حالت Proxy برای ویندوز، مک و لینوکس<br>  • حالت TUN برای اتصال کامل ویندوز<br>  • تنظیم DNS و حریم خصوصی DNS<br>  • Split Tunneling برای مدیریت مسیر برنامه‌ها<br>  • تنظیم IP Fronting به‌صورت خودکار یا دستی<br>  • مشاهده گزارش‌ها برای پیدا کردن سریع مشکلات اتصال<br><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7B0.png')\"><b>🧰</b></i> ابزارهای کاربردی<br></b><br>  • White IP Generator: ساخت کانفیگ با White IP و اضافه‌کردن مستقیم به برنامه<br>  • Validator: بررسی تعداد زیادی IP یا آدرس و ذخیره نتیجه‌ها<br>  • Full Backup: پشتیبان‌گیری کامل از تنظیمات، اشتراک‌ها و کانفیگ‌ها و بازیابی آن‌ها<br><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8D.png')\"><b>🌍</b></i> رابط کاربری کامل فارسی و انگلیسی<br></b><br>  • نمایش صحیح راست‌به‌چپ<br>  • فونت فارسی Vazir<br>  • محیط ساده و مدرن<br>  • ادامه اتصال در System Tray حتی بعد از بستن پنجره<br><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> چند نکته درباره نسخه اول<br></b><br>  • حالت TUN فعلاً فقط روی ویندوز فعال است<br>  • در لینوکس ممکن است لازم باشد Proxy سیستم را دستی تنظیم کنید<br>  • برنامه هنوز امضای دیجیتال ندارد؛ بنابراین ویندوز یا مک ممکن است هنگام اجرای اول هشدار نمایش دهد<br><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9493.png')\"><b>🔓</b></i> WhiteVPN Desktop متن‌باز است و تحت مجوز GPL-3.0 منتشر می‌شود.<br></b><br><b>  <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> دانلود آخرین نسخه:<br></b><br>  <a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest</a><br><br>  اگر برنامه برایتان مفید بود، لینک آن را برای دوستانتان هم بفرستید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i>",
-      "plain_text": "🎉 نسخه‌ی دسکتاپ WhiteVPN منتشر شد!\n\nاگر می‌خواهید روی کامپیوتر بدون درگیری با تنظیمات پیچیده به VPN وصل شوید، WhiteVPN Desktop برای شما ساخته شده است.\n\n💻 قابل استفاده روی:\n\n• ویندوز\n• مک، هم Apple Silicon و هم Intel\n• لینوکس با بسته‌های AppImage، DEB و RPM\n\n⚡️ اتصال ساده و سریع\n\n• اتصال با اشتراک آماده WhiteVPN\n• اضافه‌کردن اشتراک شخصی\n• انتخاب خودکار بهترین سرور\n• انتخاب دستی کشور، نوع اتصال یا سرور دلخواه\n• نمایش IP و کشور واقعی اتصال\n• بررسی خودکار سلامت اتصال و جایگزینی سرور خراب\n\n📥 واردکردن کانفیگ شخصی\n\n• پشتیبانی از VLESS، VMess، Trojan، Shadowsocks، Hysteria2 و WireGuard\n• امکان واردکردن یک یا چند کانفیگ به‌صورت هم‌زمان\n• فقط کانفیگ را کپی کنید و Ctrl+V یا در مک Cmd+V بزنید\n• کانفیگ‌های شخصی در بخش Manual و بالای لیست قرار می‌گیرند\n\n🚀 تست کامل سرورها\n\n• بررسی سالم بودن سرور\n• تست پینگ واقعی\n• تست سرعت دانلود\n• مرتب‌سازی بر اساس کشور، پینگ، سرعت و نوع کانفیگ\n• تست‌ها بدون قطع‌کردن اتصال فعلی انجام می‌شوند\n\n🛡 تنظیمات حرفه‌ای، با ظاهر ساده\n\n• حالت Proxy برای ویندوز، مک و لینوکس\n• حالت TUN برای اتصال کامل ویندوز\n• تنظیم DNS و حریم خصوصی DNS\n• Split Tunneling برای مدیریت مسیر برنامه‌ها\n• تنظیم IP Fronting به‌صورت خودکار یا دستی\n• مشاهده گزارش‌ها برای پیدا کردن سریع مشکلات اتصال\n\n🧰 ابزارهای کاربردی\n\n• White IP Generator: ساخت کانفیگ با White IP و اضافه‌کردن مستقیم به برنامه\n• Validator: بررسی تعداد زیادی IP یا آدرس و ذخیره نتیجه‌ها\n• Full Backup: پشتیبان‌گیری کامل از تنظیمات، اشتراک‌ها و کانفیگ‌ها و بازیابی آن‌ها\n\n🌍 رابط کاربری کامل فارسی و انگلیسی\n\n• نمایش صحیح راست‌به‌چپ\n• فونت فارسی Vazir\n• محیط ساده و مدرن\n• ادامه اتصال در System Tray حتی بعد از بستن پنجره\n\n📌 چند نکته درباره نسخه اول\n\n• حالت TUN فعلاً فقط روی ویندوز فعال است\n• در لینوکس ممکن است لازم باشد Proxy سیستم را دستی تنظیم کنید\n• برنامه هنوز امضای دیجیتال ندارد؛ بنابراین ویندوز یا مک ممکن است هنگام اجرای اول هشدار نمایش دهد\n\n🔓 WhiteVPN Desktop متن‌باز است و تحت مجوز GPL-3.0 منتشر می‌شود.\n\n⬇️ دانلود آخرین نسخه:\n\nhttps://github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest\n\nاگر برنامه برایتان مفید بود، لینک آن را برای دوستانتان هم بفرستید ❤️",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1410",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/htnJY8MGxMbLlzOBiIEKbADYIg5nWxWG3fc_oLqPnlGy0OmWnrBCZJlM_FM0f0dYe8kFE33QDCZl2yEsqbeRa7M7lNkT4dTrrragXInPjN5lt8AbmlVtzaToHntbwP8ZzsIHoga_OdEop0_LAfCVbZ3Ab9NvaJN4JXv8ft_Mtb7saRjDdBKcZ7BBdoDxnfUv8OYWZAQkZEHyOcmvPLkxPX3jC4fvr7NZi0fbLYK4XWsDHy9wZAUFcu1tJWWviQmLcxLsEqdbaP6X-LyqECeTikJf3ISK0oNEVXt1Qvm8FvOyiitXXNFn-YhZeJBhHJhXp3XsOreyf6MciJQ7PjKh_g.jpg",
-          "thumbnail_path": "channels/whitedns/media/a0aabb5fc6e02cfbf2a6c421.jpg",
-          "thumbnail_sha256": "cb563bb16aa31752588be2e0f570b9427222375136fbb34800e6f5d6717896ff",
-          "duration_label": null,
-          "aspect_ratio": 1.5779092702169626
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "6"
-        },
-        {
-          "emoji": "❤",
-          "count": "418"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "16"
-        },
-        {
-          "emoji": "👍",
-          "count": "15"
-        },
-        {
-          "emoji": "💩",
-          "count": "8"
-        },
-        {
-          "emoji": "🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "🤡",
-          "count": "3"
-        },
-        {
-          "emoji": "🥴",
-          "count": "3"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "18.4K",
-      "posted_at": "2026-08-06T05:38:49+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1410",
       "reply": null
     }
   ]
