@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-21T18:06:53.823Z",
+  "fetched_at": "2026-08-21T18:12:39.745Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,51 @@
     "subscriber_count": "156K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5010",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/r3yWu6DQG9awkllRYuiXa4ojWKuuoq0A1GZ4PH1hlyglz1WjxiThVhCwMLc3riAEjAmfwmHvmOlesb6pJRcfDWb3shP31qVSTMy0lt3EZ6RH1OKrCWaFDdzs2KmhDfN5h3fbgTXpLiRaedoPwim-zmhEqcDxIXukpc-6p21Zy4pIISi22oaTTncl5Sdsdp7jucYgaHCci5HPSM90SIZAKhMVpshqdGutrxTR_HPy7crvBgdR74Fi0KvOgFDMgCQolJ6XJoyDlPmWn9Le5AidOCw05hrfQTZWt1236UMuPMz8i1-7Y3fTYpDXF3mvhONS9eoHfK-lfc6QtqGjY_fgqA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/9cdd3365b39bb59758512fba.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<tg-emoji emoji-id=\"5271604874419647061\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji>&nbsp; WhiteAesther Android ورژن جدید <tg-emoji emoji-id=\"5402406965252989103\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5402406965252989103\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5402406965252989103\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5402406965252989103\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5402406965252989103\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br>نسخه ۱.۲.۱ — رفع سه مشکل اتصال<br><br>این نسخه قابلیت بزرگ جدیدی نداره؛ سه تا مشکل رو رفع می‌کنه که باعث می‌شد اپ روی خیلی از گوشی‌ها اصلاً وصل نشه. اگه ۱.۲.۰ داری&nbsp;حتماً آپدیت کن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i>&nbsp;چی رفع شد<br>1<b>.پروتکل های wireguard و warp in warp برای خیلی از دوستان اصلاً وصل نمی‌شدن</b><br><br>توی ۱.۲.۰ «ثبت‌نام مشترک بین پروتکل‌ها» رو به‌عنوان یک بهبود اعلام کردیم. اون کار اشتباه بود: وقتی MASQUE هویت رو ثبت می‌کرد، کلید WireGuard روی سرور Cloudflare&nbsp;پاک می‌شد. بعدش هیچ اندپوینتی جواب نمی‌داد و اپ می‌گفت شبکه بسته‌ست — در حالی که مشکل از هویت بود، نه از شبکه.<br>حالا هر پروتکل هویت خودش رو داره. اگه از ۱.۲.۰ آپدیت کنی حسابت از دست نمی‌ره.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> در عوض، اون کاهش سه‌برابری احتمال rate limit هم برگشت. اگه زیاد نصب و حذف می‌کنی، حتماً از&nbsp;<code>Settings ← Identity &amp; access</code>&nbsp;یک بار&nbsp;بکاپ هویت&nbsp;بگیر.<br><br>۲<b>. عوض کردن پروتکل وسط اتصال، همه‌چیز رو خراب می‌کرد</b><br>اگه بدون قطع کردن اتصال پروتکل رو عوض می‌کردی، جستجوی اندپوینت از داخل همون تونل قبلی رد می‌شد — یعنی هزاران درخواست دقیقاً به جایی می‌رفت که قرار بود جایگزینش کنه. نتیجه: هیچی وصل نمی‌شد.<br><br>۳<b>. گیر کردن روی پروتکلی که شبکه‌ات بسته</b><br>پیش‌فرض قبلی H3 بود که روی UDP کار می‌کنه. اگه شبکه UDP رو بسته بود تلاش اول شکست می‌خورد و اپ&nbsp;دوباره همون رو امتحان می‌کرد. تا نوبت MASQUE H2 برسه چهار دقیقه و نیم گذشته بود، و عملاً هیچ‌کس این‌قدر صبر نمی‌کنه.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i><b>&nbsp;چی جدیده</b><br>حالت Automatic&nbsp;— از&nbsp;<code>Routes ← Manual ← Protocol</code>&nbsp;گزینه اول حالا&nbsp;Automatic&nbsp;هست و پیش‌فرض هم شده. خودش سریع امتحان می‌کنه ببینه شبکه‌ات چی رو اجازه می‌ده، از H2 شروع می‌کنه (چون TCP روی پورت ۴۴۳ هست و شبیه HTTPS معمولی دیده می‌شه)، و هرچی جواب داد رو&nbsp;یادش می‌مونه&nbsp;تا دفعه بعد از همون شروع کنه.<br>روی نصب تازه:&nbsp;۱۴ ثانیه&nbsp;تا اتصال، جایی که قبلاً چند دقیقه طول می‌کشید.<br>گزارش خطای واقعی&nbsp;— قبلاً اگه جستجو نتیجه نمی‌داد فقط می‌نوشت «اندپوینتی پیدا نشد». حالا می‌گه چرا: بسته‌ها از گوشی خارج شدن و جوابی نیومد (مشکل از شبکه‌ست)، یا اصلاً خارج نشدن (مشکل از مسیریابی خود گوشیه). لاگ خود موتور تونل هم از این نسخه داخل&nbsp;<code>Settings ← Diagnostics</code>&nbsp;هست — اگه مشکلی خوردی همون گزارش رو بفرست.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i>&nbsp;دانلود&nbsp;<a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a>",
+      "plain_text": "🔗  WhiteAesther Android ورژن جدید 🔥🔥🔥🔥🔥\n\nنسخه ۱.۲.۱ — رفع سه مشکل اتصال\n\nاین نسخه قابلیت بزرگ جدیدی نداره؛ سه تا مشکل رو رفع می‌کنه که باعث می‌شد اپ روی خیلی از گوشی‌ها اصلاً وصل نشه. اگه ۱.۲.۰ داری حتماً آپدیت کن.\n\n🛠 چی رفع شد\n1.پروتکل های wireguard و warp in warp برای خیلی از دوستان اصلاً وصل نمی‌شدن\n\nتوی ۱.۲.۰ «ثبت‌نام مشترک بین پروتکل‌ها» رو به‌عنوان یک بهبود اعلام کردیم. اون کار اشتباه بود: وقتی MASQUE هویت رو ثبت می‌کرد، کلید WireGuard روی سرور Cloudflare پاک می‌شد. بعدش هیچ اندپوینتی جواب نمی‌داد و اپ می‌گفت شبکه بسته‌ست — در حالی که مشکل از هویت بود، نه از شبکه.\nحالا هر پروتکل هویت خودش رو داره. اگه از ۱.۲.۰ آپدیت کنی حسابت از دست نمی‌ره.\n⚠️ در عوض، اون کاهش سه‌برابری احتمال rate limit هم برگشت. اگه زیاد نصب و حذف می‌کنی، حتماً از Settings ← Identity & access یک بار بکاپ هویت بگیر.\n\n۲. عوض کردن پروتکل وسط اتصال، همه‌چیز رو خراب می‌کرد\nاگه بدون قطع کردن اتصال پروتکل رو عوض می‌کردی، جستجوی اندپوینت از داخل همون تونل قبلی رد می‌شد — یعنی هزاران درخواست دقیقاً به جایی می‌رفت که قرار بود جایگزینش کنه. نتیجه: هیچی وصل نمی‌شد.\n\n۳. گیر کردن روی پروتکلی که شبکه‌ات بسته\nپیش‌فرض قبلی H3 بود که روی UDP کار می‌کنه. اگه شبکه UDP رو بسته بود تلاش اول شکست می‌خورد و اپ دوباره همون رو امتحان می‌کرد. تا نوبت MASQUE H2 برسه چهار دقیقه و نیم گذشته بود، و عملاً هیچ‌کس این‌قدر صبر نمی‌کنه.\n✨ چی جدیده\nحالت Automatic — از Routes ← Manual ← Protocol گزینه اول حالا Automatic هست و پیش‌فرض هم شده. خودش سریع امتحان می‌کنه ببینه شبکه‌ات چی رو اجازه می‌ده، از H2 شروع می‌کنه (چون TCP روی پورت ۴۴۳ هست و شبیه HTTPS معمولی دیده می‌شه)، و هرچی جواب داد رو یادش می‌مونه تا دفعه بعد از همون شروع کنه.\nروی نصب تازه: ۱۴ ثانیه تا اتصال، جایی که قبلاً چند دقیقه طول می‌کشید.\nگزارش خطای واقعی — قبلاً اگه جستجو نتیجه نمی‌داد فقط می‌نوشت «اندپوینتی پیدا نشد». حالا می‌گه چرا: بسته‌ها از گوشی خارج شدن و جوابی نیومد (مشکل از شبکه‌ست)، یا اصلاً خارج نشدن (مشکل از مسیریابی خود گوشیه). لاگ خود موتور تونل هم از این نسخه داخل Settings ← Diagnostics هست — اگه مشکلی خوردی همون گزارش رو بفرست.\n\n⬇️ دانلود https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5010",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/poQ71z99zHIvOsFwZOxCGX-UOLzL8qGtrO1B9A1fb139pMyWlUWKGw2_dO2fcimm5eHebiI-75yzwHASIpJiWYzaKvCcYbhjcOrQhHpF5h_C-eil1xtokFcdbI9txOTfAblrwQBwF_sXnoPjmUE1rc7Ce7WqbPK7BkXRYbrzaN0dB6k9VvFUsTTwu9jhzNwC4otYKUQlOgTkWjVgB0D_5TcGRk_2WmW4rKtZ6nug-q6TlgnCtr3jrZ0oOdHeRNG9IE5dFMNdCQVpgWfVo5n11X2EJmxZ3RSncM5-BDVvHlhDBlG7kxRq72o8ogkztdSgSqiBS08JrMfGjB3GCad2Ug.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/8883fd888b2b3d7f94f07f27.jpg",
+          "thumbnail_sha256": "5670e49eefd096d63be3e5b9c092d42e38437da1989b9b13d140f03a66e361f8",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "😁",
+          "count": "1"
+        },
+        {
+          "emoji": "🦄",
+          "count": "1"
+        }
+      ],
+      "views_label": "871",
+      "posted_at": "2026-08-21T18:08:59+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5010",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5008",
       "author_name": "Matin SenPai",
@@ -46,15 +91,15 @@
       "reactions": [
         {
           "emoji": "🆒",
-          "count": "152"
+          "count": "153"
         },
         {
           "emoji": "❤",
-          "count": "65"
+          "count": "66"
         },
         {
           "emoji": "👍",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "💔",
@@ -62,7 +107,7 @@
         },
         {
           "emoji": "😁",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "💯",
@@ -73,7 +118,7 @@
           "count": "2"
         }
       ],
-      "views_label": "14.9K",
+      "views_label": "15.3K",
       "posted_at": "2026-08-21T11:41:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5008",
@@ -100,7 +145,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "158"
+          "count": "161"
         },
         {
           "emoji": "👍",
@@ -112,10 +157,10 @@
         },
         {
           "emoji": "😁",
-          "count": "1"
+          "count": "2"
         }
       ],
-      "views_label": "10.3K",
+      "views_label": "10.5K",
       "posted_at": "2026-08-21T11:39:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5007",
@@ -168,7 +213,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.5K",
+      "views_label": "23.6K",
       "posted_at": "2026-08-20T23:49:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5006",
@@ -201,7 +246,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-08-20T23:47:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5005",
@@ -238,7 +283,7 @@
           "count": "2"
         }
       ],
-      "views_label": "27.3K",
+      "views_label": "27.4K",
       "posted_at": "2026-08-20T17:30:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5004",
@@ -329,7 +374,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.6K",
+      "views_label": "28.7K",
       "posted_at": "2026-08-20T15:35:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5002",
@@ -568,7 +613,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31K",
+      "views_label": "31.1K",
       "posted_at": "2026-08-19T17:12:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4996",
@@ -632,7 +677,7 @@
           "count": "3"
         }
       ],
-      "views_label": "30.1K",
+      "views_label": "30.2K",
       "posted_at": "2026-08-19T12:12:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4994",
@@ -4600,55 +4645,6 @@
       "posted_at": "2026-08-10T21:50:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4896",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4895",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/B7OufTAJOzZrQUbONepr9u_0ZC-ShZy0_rYgDBk6e9LsAPQ08xvEwALBc6HGYOTjuT6cSYVs7x9JaECebvQsj1jZY9fTJL7nPQBomb9jnWsrLrocRjjRsA9II6ZjJDIySlqWRJkGyfYClnTsYPjdLa3bAfSRHRDLlIjo8dG40DE9S1yciQ_JkgDMb8aHo_vizU4GOhW8oH2SvEeBD79RneI65l4Hy8ULD9n8r_RSDkO6d7DHdHSKQH8ms90plCaNsZb8tqeRut4qnnPtjI7rqWc-O4bULeOKxKaklPoqbk0i2QA0ME07ZbzBj6cpKy-8wu5ThIbDDfU01o71nNZmuw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/e8bd8674bf5f79170294125c.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "مهم <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>WhiteVpn Desktop <br><br><b>دوستانی که میپرسند اگر ما کانفیگ های ساب خود whitedns را تست میگیریم و بهترین را پیدا میکنیم . چطور ذخیره کنیم که همیشه داشته باشیم . ؟</b><br><br>شما با این روشی که من توی ویدیو نشون میدم میتونید راحت این کارو بکنید. , و همیشه اون کانفیگ را دارید <br><br>یادتون باشه که توی subscription باید حتما manual را انتخاب کنید تا ببینید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "مهم ⚠️\n\nWhiteVpn Desktop\n\nدوستانی که میپرسند اگر ما کانفیگ های ساب خود whitedns را تست میگیریم و بهترین را پیدا میکنیم . چطور ذخیره کنیم که همیشه داشته باشیم . ؟\n\nشما با این روشی که من توی ویدیو نشون میدم میتونید راحت این کارو بکنید. , و همیشه اون کانفیگ را دارید\n\nیادتون باشه که توی subscription باید حتما manual را انتخاب کنید تا ببینید 🔥\n\n@whitedns",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/MatinSenPaii/4895",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/TkBJnhxELwMFVsH02LkXoiPTXkCsxORYLsJKqIe2Ojm7KqEpA6P-pRbP_YlHYeeTVTf4aNf-sfx_7Ps3y_h23-MkZ0igermSZ_17lTkgFEcYT6xf1liqlOVqqS4aOUNdXjrYsaSLefRq4ww4eXsJBtj3-3Xp2F4uqzT8Z-SX73bKkne-mLl7VpsZribtz0-C_5cKnfZ6_h8H-I9qDF1-YOURHnGuOPspKw_OFJoeGxaWyECdKVHMRu0DKf3cJcHM7y9TE0AKKk3zxCrvPDfGrtlbFCxPIJ-RCW1y9tM7XQ2lHp9GWerqWlrjSlzlRGWhfwxYnfCIRsWltF3OrfFJ3w",
-          "thumbnail_path": "channels/matinsenpaii/media/f6e60c0eef5527f826efc7a2.jpg",
-          "thumbnail_sha256": "431001489ce5554d8bd84c1d6e03a9bc109e353eff7e6d47e99e5847c97a900b",
-          "duration_label": "0:47",
-          "aspect_ratio": 1.8654970760233984
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "134"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "😁",
-          "count": "1"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        },
-        {
-          "emoji": "🆒",
-          "count": "1"
-        }
-      ],
-      "views_label": "32.7K",
-      "posted_at": "2026-08-10T21:49:25+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4895",
       "reply": null
     }
   ]
