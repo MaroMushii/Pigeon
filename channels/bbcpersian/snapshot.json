@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-21T14:47:07.424Z",
+  "fetched_at": "2026-08-21T14:51:40.836Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -11,6 +11,34 @@
     "subscriber_count": "776K"
   },
   "posts": [
+    {
+      "id": "bbcpersian/289895",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/P0FtHT8_xkB2E1YozCmkudqitAEoCmefNGWMR2jOT8dXcYZKLeBlhpCkZG866jrcoG_T7WlPnLjsEZtUPJtxnn4QawmLHifNjreKG768x1odpruotqUvDKMakPoUmuV1hgxrEt7BIBKGPQTSOvHx1HYhQVpBDImm4dnI2-y0JInbhPl9WF5K-AnWrtW_DOGo1uWiYJBSbn0hjmwb5POir1I7_T5uDHy-m_txGUr2npMuIK5uToJC62qMfEE12FO224DrQJIFBtac4sG2clSw_Os8zo41K-94IQCKI5_zSzIaZ6jqj9TnbAIxg7qIv5gzlCWFfq-8CbMI9_zE7b1CTw.jpg",
+      "author_photo_path": "channels/bbcpersian/media/a65e7de2ec86f2b63ca78df1.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>سرخط خبرها، جمعه ۳۰ مرداد ۱۴۰۵<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "🔻سرخط خبرها، جمعه ۳۰ مرداد ۱۴۰۵\n\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/289895",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/YwNoXpZz-JQhG5t8LPcgRpp6VVasxtVMWjFySYyfIuZOn-dC1kXMXwMjFCfNAlb3N0ga3_v3Vgp6UHcCpx3x8ZhsyMfihkt_x2nzdaK1sV10HDFaqJVnBGBiFLgqVfQUX49tIx_Ltom3ViS25vos7a866KlgOw6OPJdzTukbBAlKkb5aA05ToJ_Ym9cwa8WRg2zaUsX3F7TDP32ySBkvSTy8csMddMsGvWc3_9zz1RvXP78slm9wy5pO5nuMS8NI4_kqpojrDRiUgn3lrORO1zCHqHzC87fY_m1r52MYe-rk8Cf273uNhlXF0GhjYuh4xvzsP4KDSY8ZZSYgdsJAtw",
+          "thumbnail_path": "channels/bbcpersian/media/d0e53345c87f65b9e1f7565d.jpg",
+          "thumbnail_sha256": "aca086f4c8e1229dad3c91a3d9578087d97c085f5d18c6da25ed9f3d6a9c0745",
+          "duration_label": "1:14",
+          "aspect_ratio": 1.7791666666666741
+        }
+      ],
+      "reactions": [],
+      "views_label": "639",
+      "posted_at": "2026-08-21T14:49:44+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/289895",
+      "reply": null
+    },
     {
       "id": "bbcpersian/289894",
       "author_name": "BBCPersian",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "9.74K",
+      "views_label": "10.4K",
       "posted_at": "2026-08-21T14:09:21+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289894",
@@ -49,7 +77,7 @@
       "plain_text": "📻تازه‌ترین خبرهای جهان، جمعه، ۳۰ مرداد ۱۴۰۵ از رادیو بی‌بی‌سی در لندن\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "10.8K",
+      "views_label": "11.4K",
       "posted_at": "2026-08-21T14:01:55+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289893",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "20.7K",
+      "views_label": "21.4K",
       "posted_at": "2026-08-21T13:03:27+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289892",
@@ -93,7 +121,7 @@
       "plain_text": "آقای پزشکیان در عین حال تاکید کرد که اظهاراتش به معنای تسلیم شدن در برابر تعرض احتمالی نیست: «ما به هیچ عنوان در برابر قلدری سر خم نخواهیم کرد و هیچ تردیدی در آن وجود ندارد. تا آخرین نفس مقابل آنها خواهیم ایستاد و پاسخ کوبنده به آنها خواهیم داد.»\n\nاظهارات رئیس‌جمهور ایران در حالی است که به نظر می‌رسد مقام‌های آمریکایی تمرکز اقدامات خود علیه ایران را از عملیات نظامی به فشار اقتصادی تغییر داده‌اند‌.\n\nاسکات بسنت، وزیر دارایی آمریکا، گفته است که تحریم‌های تازه واشنگتن علیه ایران «بزرگ‌ترین مورد انزوای اقتصادی هماهنگ‌شده در تاریخ جهان» خواهد بود و «رژیم ایران را به فروپاشی» خواهد کشاند.\n\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "26K",
+      "views_label": "26.6K",
       "posted_at": "2026-08-21T12:25:42+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289891",
@@ -130,7 +158,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "25K",
+      "views_label": "25.3K",
       "posted_at": "2026-08-21T12:24:55+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289890",
@@ -158,7 +186,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "23.5K",
+      "views_label": "23.9K",
       "posted_at": "2026-08-21T12:19:05+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289889",
@@ -197,7 +225,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "29K",
+      "views_label": "29.4K",
       "posted_at": "2026-08-21T11:17:38+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289887",
@@ -213,7 +241,7 @@
       "plain_text": "🔻 «کاهش» عرضه نفت ایران به خریداران چینی\n\nهمزمان با تهدید آمریکا به تشدید تحریم‌ها علیه تهران، خبرگزاری رویترز از قول منابع تجاری خود از کاهش پیشنهادهای فروش نفت خام ایران به مشتریان چینی خبر داده است.\n\nرویترز به نقل از چهار منبع تجاری گزارش داده است که تعداد پیشنهادهای فروش محموله‌های نفت ایران به چین برای تحویل در ماه‌های سپتامبر و اکتبر، در مقایسه با محموله‌های مربوط به ژوئیه و اوت کاهش و قیمت نفت موجود هم بالاتر رفته است. به گفته این منابع دلیل این کاهش عرضه، فروش رفتن نفتی است که قبلا به نفتکش‌ها منتقل شده و روی آب شناور بوده است.\n\nسه منبع تجاری به رویترز گفتند که همزمان با کاهش عرضه، محموله‌های نفت ایران که معمولا با تخفیف ارائه می‌شد حالا با قیمتی بالاتر عرضه می‌شود. به گفته یک منبع هر بشکه نفت ایران اکنون ۲ دلار گرانتر شده است.\n\nپیش از این مسعود پزشکیان، رئیس جمهور و عبدالناصر همتی، رئیس کل بانک مرکزی ایران گفته بودند که صادرات نفت ایران به دلیل محاصره دریایی از سوی ایالات متحده، متوقف شده است.\n\nاین محدودیت عرضه، منابع پالایشگاه‌های مستقل چین، معروف به «تی‌پات»، را با تهدید مواجه کرده است. این پالایشگاه‌ها که عمدتاً در استان شرقی شاندونگ قرار دارند، حدود یک‌پنجم ظرفیت پالایش نفت چین را در اختیار دارند و بزرگ‌ترین خریداران نفت تحریم‌شده محسوب می‌شوند.\n\nhttps://bbc.in/3U48HOF\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "33.8K",
+      "views_label": "34.1K",
       "posted_at": "2026-08-21T10:21:01+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/289886",
@@ -241,7 +269,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "32K",
+      "views_label": "32.3K",
       "posted_at": "2026-08-21T10:14:45+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289885",
@@ -269,7 +297,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "30.8K",
+      "views_label": "30.9K",
       "posted_at": "2026-08-21T10:11:04+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289884",
@@ -297,7 +325,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "35.2K",
+      "views_label": "35.5K",
       "posted_at": "2026-08-21T09:24:29+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289883",
@@ -341,7 +369,7 @@
       "plain_text": "🔻 اسرائیل دو منطقه در جنوب لبنان را گلوله‌باران کرد\n\nخبرگزاری دولتی لبنان می‌گوید صبح امروز حملات توپخانه‌ای پراکنده اسرائیل، حومه شهرک میفدون در نزدیکی زوطر الشرقیه در جنوب لبنان را هدف قرار داده است.\n\nپیش از این، خبرگزاری ملی لبنان گزارش داده بود که جنگنده‌های اسرائیلی شب گذشته حملات هوایی علیه شهرک منصوری در جنوب لبنان انجام داده‌اند.\n\nhttps://bbc.in/4cMCDoH\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "37.1K",
+      "views_label": "37.2K",
       "posted_at": "2026-08-21T08:08:30+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289881",
@@ -385,7 +413,7 @@
       "plain_text": "🔻 ادامه حملات هوایی اسرائیل و انفجارها در جنوب لبنان\n\nخبرگزاری دولتی لبنان گزارش کرده است که جنگنده‌های اسرائیلی در طول شب گذشته حملات هوایی را علیه شهرک المنصوری در جنوب این کشور انجام داده‌اند.\n\nاین خبرگزاری گفته است که این شهرک همچنین شاهد وقوع یک‌سری انفجارهای مهیب بوده که صدای آن در روستاها و شهرک‌های جنوبی طنین‌انداز شده است.\n\nعلاوه بر این، نیروهای اسرائیلی در شهرک‌های حدثا و الطیری در منطقه بنت‌جبیل نیز دست به انجام انفجار زده‌اند.\n\nhttps://bbc.in/4gIBfpx\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "36.5K",
+      "views_label": "36.8K",
       "posted_at": "2026-08-21T06:46:59+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289879",
@@ -413,7 +441,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "35.1K",
+      "views_label": "35.4K",
       "posted_at": "2026-08-21T06:32:01+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289878",
@@ -2742,34 +2770,6 @@
       "posted_at": "2026-08-19T16:53:06+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/289754",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/289753",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/eI6272v4b5ikYfQOwJdNEwSjPy3S9fSlhbyXjKfZUyMtrnf2k6kR8DTEUvyNrNkHi2UKCuRMK2qr-At8acRaDNFbB5_Yau0jln5Ct0RWgal2srdql6k01bkqUKARveLP3inPNExEiuGe9mz2DLgUpPcR4okhtNRn31CArijwH5ju5bSmUlB3elixus2nCTX3E9J6QoewAnTlgKVzkPzP714yS0TlOT0Epcm9qd0iekOIiA3mh7RM32ngSCrFBMCwtuUaIyfFqtoRYWquOyDWCFmkuEk0Mc3mV_tA7ekwZ5qKAi9sZN3LriJpqg3NQd8xCJWuJDoksPAI2ROqRbhapg.jpg",
-      "author_photo_path": "channels/bbcpersian/media/146dbfc74291ebbf953cae26.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>دونالد ترامپ، رئیس‌جمهور آمریکا در تازه‌ترین اظهارنظر خود در مورد مذاکرات با ایران گفته است «شاید در مقطعی مذاکرات با ایران انجام شود»، اما در حال حاضر وضعیت «خیلی خوب» است. او تاکید کرد که گفت‌وگو با ایران مشروط به این است که این کشور «به طور کامل» از دستیابی به سلاح هسته‌ای صرف‌نظر کند.<br><br>او گفت اجازه نخواهد داد که ایران به سلاح هسته‌ای دست یابد، «چون از آن استفاده خواهد کرد.»<br><br>رئیس جمهور آمریکا بار دیگر تکرار کرد نیروهای این کشور «کنترل کامل» تنگه هرمز را در اختیار دارند و شب گذشته نیز کشتی‌های زیادی از این تنگه عبور کرده‌اند. او گفت هرچند حملات پراکنده پهپادی همچنان ادامه دارد، اما این حملات بیشتر جنبه «مزاحمت» دارند و مانع عبور بخش قابل توجهی از کشتی‌ها نشده‌اند.<br><br>دونالد ترامپ ادامه داد که «قیمت نفت در حال حاضر ۸۳، ۸۴ یا ۸۵ دلار است و وقتی این وضعیت تمام شود، بسیار پایین‌تر خواهد رفت.»<br><br>او درباره کنترل آمریکا بر تنگه هرمز گفت «نفت فراوان است و یکی از دلایلی که قیمت‌ها هیچ‌وقت به ۳۰۰ یا ۳۵۰ دلار نرسید این است که نفت زیادی وارد می‌شود.»<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B7.png')\"><b>📷</b></i> Alex Wong/Getty Images<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻دونالد ترامپ، رئیس‌جمهور آمریکا در تازه‌ترین اظهارنظر خود در مورد مذاکرات با ایران گفته است «شاید در مقطعی مذاکرات با ایران انجام شود»، اما در حال حاضر وضعیت «خیلی خوب» است. او تاکید کرد که گفت‌وگو با ایران مشروط به این است که این کشور «به طور کامل» از دستیابی به سلاح هسته‌ای صرف‌نظر کند.\n\nاو گفت اجازه نخواهد داد که ایران به سلاح هسته‌ای دست یابد، «چون از آن استفاده خواهد کرد.»\n\nرئیس جمهور آمریکا بار دیگر تکرار کرد نیروهای این کشور «کنترل کامل» تنگه هرمز را در اختیار دارند و شب گذشته نیز کشتی‌های زیادی از این تنگه عبور کرده‌اند. او گفت هرچند حملات پراکنده پهپادی همچنان ادامه دارد، اما این حملات بیشتر جنبه «مزاحمت» دارند و مانع عبور بخش قابل توجهی از کشتی‌ها نشده‌اند.\n\nدونالد ترامپ ادامه داد که «قیمت نفت در حال حاضر ۸۳، ۸۴ یا ۸۵ دلار است و وقتی این وضعیت تمام شود، بسیار پایین‌تر خواهد رفت.»\n\nاو درباره کنترل آمریکا بر تنگه هرمز گفت «نفت فراوان است و یکی از دلایلی که قیمت‌ها هیچ‌وقت به ۳۰۰ یا ۳۵۰ دلار نرسید این است که نفت زیادی وارد می‌شود.»\n\n📷 Alex Wong/Getty Images\n@BBCPersian",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/289753",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/FGFOAHd2RKU4diFKlYiEj8x9LEFFXUCXOsMss80cf-y9V-4vbIoZqeovRav9P4btT8EJQxZO6yECfpw2SyyxcOSB-iqoJlPtlQOawuWeFEs5BvqYyr_7U1YmyvoYR7Lsp4NV9NIls34dy6ggon01TeK323L6tzwetDWUa9P-slW6ZT18ObG4UPx6WMWU6kMlkHgkd5yuhC2w_ZN0SUy5VCyJlS3pHCYOhCAkipp80OhCzvrhiDvoxtLsBZOvNpXHA029kevQgkOVdaonwmKvDLCjB6ueJyT0ftbCPYzjhN1UHWtIM23HsKUcrevi6W1qa-865u-6q8F5SB_YD3jyOA.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/0b35120e2403fffcfbe2e39e.jpg",
-          "thumbnail_sha256": "197b964207ba87a5490532da9a655a9f5cf85cc1a400b6d9bd188e40e4d3cce0",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "39.1K",
-      "posted_at": "2026-08-19T16:42:07+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/289753",
       "reply": null
     }
   ]
