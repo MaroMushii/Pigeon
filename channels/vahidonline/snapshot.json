@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-22T02:06:51.235Z",
+  "fetched_at": "2026-08-22T02:11:47.744Z",
   "channel": {
     "username": "vahidonline",
     "title": "Vahid Online وحید آنلاین",
@@ -36,17 +36,6 @@
           "asset_url": "https://t.me/VahidOnline/77994?single",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/jVOHX5V8qnj7PK6CzVdRbHuYLT2biB1YmiaEYF04rJLlU8YsedujRssyQoI6YPaTa7-bud3Y_b6ogyDg_nCpcJpazLQ1Urrt7q3ILCo-ZJs2Ua5Yzl4_cUcpD2pdAGSt-yJYS27N90DHbYEIepkVs32bLiYGDljWV-pdvmwYTXzarBAfn9HajMaZobdUKGct8SxoLrQBlhwGMkQMx5QpdB6EGSAHqyXxGcCvtrwmlahfx2Fj4My08Y3yGSbujq7yzqmcu1o9nLPyBQVRj1sx1IYNzSaBx-zuUX7BOHDc5ue_GKkv-0cJzDebnWCMUY8CGpPnBmzNRBrGouStc1fbag.jpg",
-          "thumbnail_path": "channels/vahidonline/media/5b7459b2ca4ada33ac532df5.jpg",
-          "thumbnail_sha256": "e498d317f4869bd78146024ed4b6d936b7596e91f22557955e82d9555f776c5a",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/VahidOnline/77995?single",
-          "asset_path": null,
-          "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/W4aFU6DBlbT7iXx9aR0LS3IxR4HH_WqwGzMd0hjWEjM9zPlzV93-k9cr5EnrD8YryfVL3JK2j7XtCQgHHsbUiUfVxIvesHQ0AguYaecfEiEZ346CWQPqcrdb7XzPDEfByxxdxVK6Y_bcssLCAC17EzbfV7H6YBrOwZMyRE9V-Roq9fMi1oudxGr0HSpXLpb3zJeVPvtaqLENOOryJD8hd5sKJ931dUZLW_8iyXyqtySml7qCA6KFmyRNgLitYUtdgTqmXfpMwJAszvToMLPr-z6m3TVeT8qtQToCoGROUIaRMrfpt65EER-TsrqNdlFnQZl92_m7DutlbWwdZRWIbw.jpg",
           "thumbnail_path": "channels/vahidonline/media/e68c6ae9e780dcd02758d98b.jpg",
           "thumbnail_sha256": "d1fc02572cacf3ef81eafeddbcf21d9a00b92f73bc288b9618b4f8b794efb194",
@@ -55,12 +44,23 @@
         },
         {
           "kind": "photo",
-          "asset_url": "https://t.me/VahidOnline/77996?single",
+          "asset_url": "https://t.me/VahidOnline/77995?single",
           "asset_path": null,
           "asset_sha256": null,
           "thumbnail_url": "https://cdn1.telesco.pe/file/ODEwCz63ALnmBx74qqUiIO_miiMyPG1p_1MXwVorodsaijJxjBdoHWKmy-nxjfCQlY6cs8HoNhd5bi07O6OaoGVUne9Iv8Umv4D-8xJdTqswi8U-1dpcLW5PA8ViZaIkRwyEqsyy6_AJvns4qIsJZEAabdFsoazdrn3Qg5JDUftsejT5lWdydfMTBWKEg7isuOTDJnCHC2Wm98B7RioahzZevxew7C8holqRsqNhSa3SONlb9FHgpbO6DGWb7tR73bV52STXYHXbSLqZ0EiHrjJsAVZDHOBaAwGBTZLrpdPG6cCRge23l9n_sBkUizk6sFmPRwG9i0yTtZ0bdGNZHw.jpg",
           "thumbnail_path": "channels/vahidonline/media/17eea488af841475fb363fe1.jpg",
           "thumbnail_sha256": "8e290f1baed42253136a68d3414ca4a2c39259a932dc4816a484c726bbf60ace",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/VahidOnline/77996?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/jVOHX5V8qnj7PK6CzVdRbHuYLT2biB1YmiaEYF04rJLlU8YsedujRssyQoI6YPaTa7-bud3Y_b6ogyDg_nCpcJpazLQ1Urrt7q3ILCo-ZJs2Ua5Yzl4_cUcpD2pdAGSt-yJYS27N90DHbYEIepkVs32bLiYGDljWV-pdvmwYTXzarBAfn9HajMaZobdUKGct8SxoLrQBlhwGMkQMx5QpdB6EGSAHqyXxGcCvtrwmlahfx2Fj4My08Y3yGSbujq7yzqmcu1o9nLPyBQVRj1sx1IYNzSaBx-zuUX7BOHDc5ue_GKkv-0cJzDebnWCMUY8CGpPnBmzNRBrGouStc1fbag.jpg",
+          "thumbnail_path": "channels/vahidonline/media/5b7459b2ca4ada33ac532df5.jpg",
+          "thumbnail_sha256": "e498d317f4869bd78146024ed4b6d936b7596e91f22557955e82d9555f776c5a",
           "duration_label": null,
           "aspect_ratio": 0.8
         },
@@ -77,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "10.4K",
+      "views_label": "13K",
       "posted_at": "2026-08-22T01:49:46+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/77993",
@@ -105,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "114K",
+      "views_label": "115K",
       "posted_at": "2026-08-21T21:32:35+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/77992",
@@ -121,7 +121,7 @@
       "plain_text": "بنا بر پیام‌های دریافتی حوالی یوسف‌آباد و امیرآباد و فاطمی و... صدای شلیک پدافند شنیده شده.\nساعت ۲۳:۰۸\n\n🔄 پیام‌ها همچنان ادامه دارند.\nکسانی هم معتقدند تیراندازیه ولی خیلی‌ها هم پیام دادند که صدای آتش‌بازی و ترقه‌بازی این وقت شب در کشور جنگ‌زده مربوط به یک مناسبت تازه‌ساز و \"عید\" جدیده!\nدو روز پیش:\nاجتماع \"عید بیعت با امام زمان(عج) \" برگزار می‌شود\n\nبه گزارش ایسنا، این مراسم با هدف تجدید پیمان با امام زمان(عج) و همچنین تجدید بیعت با مقام معظم رهبری، حضرت آیت‌الله سید مجتبی خامنه‌ای، از ساعت ۲۰:۳۰ تا ۲۳:۰۰ در میدان ولیعصر(عج) تهران برگزار می‌شود.\nدر این اجتماع علی‌اکبر رائفی‌پور و شیخ اسماعیل رمضانی به ایراد سخنرانی خواهند پرداخت. \"\nisna\n\n📡 @VahidOnline",
       "media": [],
       "reactions": [],
-      "views_label": "217K",
+      "views_label": "218K",
       "posted_at": "2026-08-21T19:43:00+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/77991",
@@ -193,7 +193,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "269K",
+      "views_label": "270K",
       "posted_at": "2026-08-21T15:35:27+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/77988",
@@ -411,7 +411,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "172K",
+      "views_label": "173K",
       "posted_at": "2026-08-21T14:23:45+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/77979",
@@ -439,7 +439,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "191K",
+      "views_label": "192K",
       "posted_at": "2026-08-21T14:22:02+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/77978",
