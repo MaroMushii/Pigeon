@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-22T15:42:23.798Z",
+  "fetched_at": "2026-08-22T15:47:04.857Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/228000",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/UOSMrezQssFKMMNpfxao-7ycOYQKsoZqSYBx0o1_W5yhpbNcIkCTSSfVPuVYLP64e10hTO8SO6av3KSx5Vb60M24MxdXdI0NwLcfu7fg6n8GMdTy0jbT1-fhbbouPrvrkxAv6mUcjLoGZ9etx4wFqkADXLUM3pPZXeIaI6DnbLPHenXEuuUhutMsvhnSSCG5qN3OUvX4p6-dazdUKUs50u7mt2G9gswWeXoo7RQLXeM1UW1QKXVQiXaorFx_ctrbuxip1soCBmBTFkB6dq8IqhJUi-jLmt8hqCfK6oF-1pdSxxErUokfEzZuQQktM9Q6BDA34uTnoTlSvcUAOd5_nw.jpg",
+      "author_photo_path": "channels/farsivoa/media/06019c78f502401d74029684.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "ویدیویی منتشرشده در شبکه‌های اجتماعی، قطع شمار زیادی از درختان در ورودی شهر پره‌سر در استان گیلان را نشان می‌دهد.<br><br>انتشار این تصاویر واکنش‌هایی را درباره قطع درختان و وضعیت جنگل‌های این منطقه در شبکه‌های اجتماعی به همراه داشته است.<br><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
+      "plain_text": "ویدیویی منتشرشده در شبکه‌های اجتماعی، قطع شمار زیادی از درختان در ورودی شهر پره‌سر در استان گیلان را نشان می‌دهد.\n\nانتشار این تصاویر واکنش‌هایی را درباره قطع درختان و وضعیت جنگل‌های این منطقه در شبکه‌های اجتماعی به همراه داشته است.\n\n@FarsiVOA",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/228000",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/sGOFlRcJQOgu7PY-nQaBkbdlbPWXKMWTYUPGIlYCDgl-JcMEKH-Gymixdr4fSofIs_pUSyBnb5lZ1wD4UzlHkoDDCR9UJ-uDTxJ_DtddMAhFssjHtqMFiBLOzc2tWsKo0dEoVAIWeb3oUMavKP0FHZ1v_xk4STDZr-FoVgOlWlP0XkeC0_EDrjGossmP5eRKfQnY0CQILqw556ot-WXz52m5Z29EhSe5IBt7PAXvyemlpx_7mlxpkh2P0YnyEO0d_vuhWA45djCzTK_raL89FGKrscw8zjWG7jF9D8a456O62epYtWlA6PPNx_QnOTnLUdh1oZYPB0maROONMYtqXQ",
+          "thumbnail_path": "channels/farsivoa/media/227984f676fddef71fd1d6d3.jpg",
+          "thumbnail_sha256": "fd3fc0a06fc5d625b668fcd87420c1681964cdd8d56bce7886f064b396ae4b9c",
+          "duration_label": "0:23",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "65",
+      "posted_at": "2026-08-22T15:46:13+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/228000",
+      "reply": null
+    },
+    {
       "id": "farsivoa/227999",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/UOSMrezQssFKMMNpfxao-7ycOYQKsoZqSYBx0o1_W5yhpbNcIkCTSSfVPuVYLP64e10hTO8SO6av3KSx5Vb60M24MxdXdI0NwLcfu7fg6n8GMdTy0jbT1-fhbbouPrvrkxAv6mUcjLoGZ9etx4wFqkADXLUM3pPZXeIaI6DnbLPHenXEuuUhutMsvhnSSCG5qN3OUvX4p6-dazdUKUs50u7mt2G9gswWeXoo7RQLXeM1UW1QKXVQiXaorFx_ctrbuxip1soCBmBTFkB6dq8IqhJUi-jLmt8hqCfK6oF-1pdSxxErUokfEzZuQQktM9Q6BDA34uTnoTlSvcUAOd5_nw.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺وال‌استریت جورنال: پزشکیان و قالیباف خواستار تمرکز بر پایان جنگ و احیای اقتصاد ایران شدند\n\n▪️روزنامه وال‌استریت جورنال گزارش داده است که مسعود پزشکیان و محمدباقر قالیباف، رئیس جمهوری و رئیس مجلس شورای اسلامی رژیم ایران، در اظهاراتی کم‌سابقه بر ضرورت پایان دادن به جنگ و رسیدگی به بحران اقتصادی ایران تاکید کرده‌اند؛ مواضعی که به نوشته این روزنامه در برابر رویکرد تندروهایی قرار می‌گیرد که خواهان ادامه سیاستی سرسختانه‌تر در این درگیری شش‌ماهه هستند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-leaders-urge-peace/8189202.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "533",
+      "views_label": "632",
       "posted_at": "2026-08-22T15:29:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227999",
@@ -37,7 +65,7 @@
       "plain_text": "🔺پایان قریب‌الوقوع اعتبار روادید سفیر جمهوری اسلامی در لبنان؛ بیروت: شیبانی «عنصر نامطلوب» است\n\n▪️به گزارش رسانه‌‍‌های منطقه روادید محمدرضا شیبانی، سفیر جمهوری اسلامی در بیروت، روز دوشنبه دوم شهریور به پایان می‌رسد. وزارت‌ امور خارجه لبنان پیشتر روز ۴ فروردین این مقام ارشد دیپلماتیک رژیم ایران را «عنصری نامطلوب» تشخیص داد و از او خواست که تا ۹ فروردین ۱۴۰۵ خاک لبنان را ترک کند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/lebanon-iran-relations-hezbollah-proxy/8189206.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "884",
+      "views_label": "1.05K",
       "posted_at": "2026-08-22T15:19:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227998",
@@ -65,7 +93,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.36K",
+      "views_label": "1.43K",
       "posted_at": "2026-08-22T14:55:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227997",
@@ -93,7 +121,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.72K",
+      "views_label": "1.78K",
       "posted_at": "2026-08-22T14:34:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227996",
@@ -109,7 +137,7 @@
       "plain_text": "🔺گزارش‌ها از مرگ یک زندانی در عادل‌آباد شیراز پس از بروز عارضه قلبی\n\n▪️رسانه‌های حقوق بشری از جان باختن یک زندانی در زندان عادل‌آباد شیراز پس از بروز عارضه قلبی خبر داده و اعلام کرده‌اند که تأخیر در ارائه خدمات پزشکی در مرگ او نقش داشته است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/prisoner-dies-in-shiraz/8189207.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.62K",
+      "views_label": "1.69K",
       "posted_at": "2026-08-22T14:31:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227995",
@@ -125,7 +153,7 @@
       "plain_text": "🔺زلنسکی: فرانسه تحویل تجهیزات و موشک به اوکراین را تسریع می‌کند\n\n▪️ولودیمیر زلنسکی، رئیس‌جمهوری اوکراین، روز شنبه ۳۱ مرداد در حساب کاربری خود در شبکه اجتماعی ایکس اعلام کرد که در گفت‌وگویی حدودا دو ساعته با امانوئل مکرون، رئیس‌جمهوری فرانسه، دو طرف درباره تقویت پدافند هوایی اوکراین و تسریع در تحویل تجهیزات و موشک‌های فرانسوی توافق کرده‌اند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/ukraine-france-air-defense/8189212.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.56K",
+      "views_label": "1.65K",
       "posted_at": "2026-08-22T14:28:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227994",
@@ -153,7 +181,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.44K",
+      "views_label": "1.47K",
       "posted_at": "2026-08-22T14:26:02+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227993",
@@ -181,7 +209,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.75K",
+      "views_label": "1.81K",
       "posted_at": "2026-08-22T14:01:53+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/227992",
@@ -197,7 +225,7 @@
       "plain_text": "🔺ترس جمهوری اسلامی از دانشگاه‌ها؛ ۴۰ دانشجو به کمیته‌ انضباطی احضار شدند\n\n▪️مراکز خبری دانشجویی از آغاز موج تازه احضار دانشجویان دانشگاه خواجه‌نصیر و بازخواست ۴۰ دانشجو در کمیته انضباطی این دانشگاه خبر داده‌اند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-student-protests-students/8188986.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.99K",
+      "views_label": "2.02K",
       "posted_at": "2026-08-22T13:54:42+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227991",
@@ -225,7 +253,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.87K",
+      "views_label": "1.9K",
       "posted_at": "2026-08-22T13:52:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227990",
@@ -253,7 +281,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.95K",
+      "views_label": "2.98K",
       "posted_at": "2026-08-22T12:56:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227989",
@@ -281,7 +309,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.12K",
+      "views_label": "3.15K",
       "posted_at": "2026-08-22T12:24:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227988",
@@ -309,7 +337,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.11K",
+      "views_label": "3.14K",
       "posted_at": "2026-08-22T12:08:06+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227987",
@@ -337,7 +365,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.13K",
+      "views_label": "3.16K",
       "posted_at": "2026-08-22T12:02:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227986",
@@ -365,7 +393,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.83K",
+      "views_label": "2.87K",
       "posted_at": "2026-08-22T11:56:17+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227985",
@@ -381,7 +409,7 @@
       "plain_text": "🔺مقام نفتی به اختلاط متانول با بنزین برای جبران کسری سوخت اذعان کرد\n\n▪️مدیرعامل شرکت نفت ستاره خلیج فارس می‌گوید با اجرای طرح اختلاط متانول با بنزین، میزان تولید بنزین این پالایشگاه به ۴۹ میلیون لیتر در روز رسیده است.\n\n▪️وحید قانعی‌فرد در ادامه گفت محموله‌ای به میزان ۳۳ هزار تن متانول از پتروشیمی زاگرس تأمین و وارد پالایشگاه ستاره خلیج فارس شده است.\n\n▪️طبق بررسی مجمع تولیدکنندگان خودرو اروپا، اختلاط متانول با بنزین به خودرو آسیب وارد می‌کند و تنها چند کشور انگشت‌شمار در جهان به بنزین متانول اضافه می‌کنند.\n\n▪️جمهوری اسلامی با کسری فزاینده بنزین مواجه است و برای جبران آن حجم عظیمی از مواد شیمیایی و پتروشیمی غیراستاندارد را با بنزین مخلوط می‌کند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8189196.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.8K",
+      "views_label": "2.83K",
       "posted_at": "2026-08-22T11:50:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227984",
@@ -397,7 +425,7 @@
       "plain_text": "🔺فرستاده آمریکا: طعمه‌گذاری اسرائیل برای ترکیه «بازی بسیار خطرناکی است»\n\n▪️فرستاده ویژه دونالد ترامپ، رئیس‌جمهوری آمریکا، در امور سوریه و عراق هشدار داد حمله اسرائیل به پایگاه نظامی ابوالظهور در نزدیکی مرز ترکیه می‌تواند تلاشی برای طعمه گذاشتن آنکارا بوده باشد.\n\n▪️تام باراک که همزمان سفیر آمریکا در ترکیه است، آن حمله را «بازی بسیار خطرناک» خواند. او گفت: «اگر به یاد داشته باشید، ترک‌ها در همین‌گونه شرایط یک جنگنده روسی را ساقط کردند. مستقر کردن جنگنده‌ها در مرز بدون اطلاع‌رسانی و بدون توافق، بازی بسیار خطرناکی است.»\n\n▪️باراک این احتمال را به سیاست داخلی اسرائیل نیز گره زد و گفت آن حمله ممکن است «مفهومی بسیار تهاجمی اما شاید خوش‌استقبال پیش از انتخابات» بوده باشد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8189194.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.93K",
+      "views_label": "2.96K",
       "posted_at": "2026-08-22T11:29:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227983",
@@ -429,7 +457,7 @@
       "plain_text": "🔺رئیس‌جمهوری عراق: با جمهوری اسلامی درباره هرمز مذاکره می‌کنیم\n\n▪️نزار آمیدی، رئیس‌جمهوری عراق، گفت بغداد همچنان با جمهوری اسلامی درباره آنچه او «مشکلات پیچیده» در تنگه هرمز خواند مذاکره می‌کند.\n\n▪️او روز شنبه در دومین روز هشتمین کنفرانس گفت‌وگوی بغداد گفت این تنگه «نه‌تنها عراق، بلکه تمام جهان را تحت تأثیر قرار می‌دهد». آمیدی افزود عبور چند کشتی حامل نفت عراق از تنگه هرمز تسهیل می‌شود.\n\n▪️اظهارات او همزمان با گزارش خبرگزاری ایرنا مطرح شد که اعلام کرد جمهوری اسلامی پس از درخواست‌های مکرر بغداد از راه‌های گوناگون، اجازه عبور شماری از نفتکش‌های نفتی عراق از تنگه هرمز را صادر کرده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8189192.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.13K",
+      "views_label": "3.17K",
       "posted_at": "2026-08-22T11:00:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227981",
@@ -2568,34 +2596,6 @@
       "posted_at": "2026-08-21T10:44:01+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/227892",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/227891",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/sVazz2GGAl_n6KvWoow9nGwYc4pnMSlxqc3bUwal3jMe9SGulY7jmkL2IbfiL1jhJqJzC3y6KOLrA4edfKH0BtEhwT1GUImsJf8_b55WwUyZCAiR8_Dg5bFL-2YOz01P6rEsYWX8DAxnwgWKChGAS9YBif0xj87saHzWhAhWcrOYCDcvtOI1clAaWQpoDnVwtCW1qBrz4-V7ST6dPOOAnUqtNMWTxMcwRjrO-P59OvY2VeqWsVhhek3QrQOarlsU2ukk5tQzUXd9mxu01J-I5HYgbgT44LlcY7-1emOKvZd_Oq2l_z0Odiu8Q1QmfWtMLUcSAn-MdnuaISynz7h6qA.jpg",
-      "author_photo_path": "channels/farsivoa/media/499415141a1eb167fa70a12a.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "استیو اسکالیس، رهبر اکثریت جمهوری‌خواه مجلس نمایندگان آمریکا، به بانک‌ها و شرکت‌های کشتیرانی هشدار داد که در چارچوب کارزار جدید افزایش فشار اقتصادی آمریکا علیه جمهوری اسلامی، هرگونه تسهیل تجارت با حکومت ایران می‌تواند پیامدهای اقتصادی گسترده‌ای برای آنها به همراه داشته باشد.<br><br>اسکالیس در مصاحبه‌ای با فاکس‌نیوز گفت دونالد ترامپ در ارتباط با آتش‌بس ۶۰ روزه با جمهوری اسلامی صبر زیادی از خود نشان داده، اما اقداماتی که از سوی حکومت ایران مشاهده شده، همه ناقض مفاد این آتش‌بس بوده است.<br><br>او گفت پیام کارزار جدید افزایش فشار اقتصادی دولت دونالد ترامپ این است که جمهوری اسلامی نباید صبر آمریکا را به‌عنوان نشانه ضعف تلقی کند.<br><br>اسکالیس همچنین تصریح کرد که در نتیجه اقدامات دونالد ترامپ، برنامه هسته‌ای، توان نظامی و اقتصاد ایران نابود شده ‌است.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "استیو اسکالیس، رهبر اکثریت جمهوری‌خواه مجلس نمایندگان آمریکا، به بانک‌ها و شرکت‌های کشتیرانی هشدار داد که در چارچوب کارزار جدید افزایش فشار اقتصادی آمریکا علیه جمهوری اسلامی، هرگونه تسهیل تجارت با حکومت ایران می‌تواند پیامدهای اقتصادی گسترده‌ای برای آنها به همراه داشته باشد.\n\nاسکالیس در مصاحبه‌ای با فاکس‌نیوز گفت دونالد ترامپ در ارتباط با آتش‌بس ۶۰ روزه با جمهوری اسلامی صبر زیادی از خود نشان داده، اما اقداماتی که از سوی حکومت ایران مشاهده شده، همه ناقض مفاد این آتش‌بس بوده است.\n\nاو گفت پیام کارزار جدید افزایش فشار اقتصادی دولت دونالد ترامپ این است که جمهوری اسلامی نباید صبر آمریکا را به‌عنوان نشانه ضعف تلقی کند.\n\nاسکالیس همچنین تصریح کرد که در نتیجه اقدامات دونالد ترامپ، برنامه هسته‌ای، توان نظامی و اقتصاد ایران نابود شده ‌است.\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/227891",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/oOBqgJtf2NhfePoGQG-4rX4CHRe0aUklqVg85IrUi21Etb8CXMO694r6lgYp6Zqd4pTk_pPzSmZuff_6jlB6WD673bTRRSwITktmCS8JtihYdWQpBaMlTZBy8X7Q-vTYLKXOq-pty9ro0QyobYlDS_Tvm8TBDcxxh0IrCWYyp_mq2naeZPgMmKcyP4GklFsJBefe5LU4upM9DuuFMIFDxYUOR72S500vD69QZxh6bYibV-5U6ODYPmgUjvPZJG1SSEU7157LOxgsKI3epU0UMVvXCZGN2p3ETFYbxW84IS0zJTOMZsc5soFHFzQg4qTtDrNN6qW70FSqnTiXGyCSSA.jpg",
-          "thumbnail_path": "channels/farsivoa/media/646398d1c1cb8532d88e48cd.jpg",
-          "thumbnail_sha256": "d725634b1791a22186743b4887e6e6411f75934a3d31d55e7c32fcebc74e6105",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.99K",
-      "posted_at": "2026-08-21T09:45:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/227891",
       "reply": null
     }
   ]
