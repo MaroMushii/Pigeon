@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-23T00:21:42.003Z",
+  "fetched_at": "2026-08-23T00:26:40.858Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,31 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1567",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/c3b0jHIeAU0DaEERVuMN4z4ywGQaRg64NVQ4uSWiHMDs6vctNeNTjuKsgQiIFIvwCos_ANMwBimYIeolcnozh2_pOwq8IQYORifS0m6Z-PdkJkXxgbdkod0PjTsT3nknFV4RV6hhTX_ItoYLyQlDO_KArvAaNHUhZFQuyG1LR_Cev4aAq8RtlVSMG2tRxHNcFbyJr9wVbzoMpPZY5xiReaxdJt_-iyl1qej9ngRtfvYYZeTrhimG4HjYCyIWCWYkZIuTzgWXSrc99T9lPHhaqMrTlOYOv8GEIjqlTBH9VxF7Xn-AVlR-ZcOs5np_lF1F1UDH2R7pwtqQW5HTsQKhbg.jpg",
+      "author_photo_path": "channels/whitedns/media/fe5e0a71a474f171f5380c7c.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "اگه حوصله خوندن توضیحات رو ندارید، فقط ساب زیر را وارد <a href=\"https://github.com/patterniha/PattNG\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">PattNG</a>/<a href=\"https://github.com/patterniha/PattN\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">PattN</a> کرده و لذت ببرید !<br><br><code>https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt</code><br><br>ساب هر ۲۴ ساعت آپدیت میشود.<br>///<br><b>توضیحات:</b><br><br>چند تا از پروژه های عالی که کانفیگهای رایگان را جمع‌آوری و تست میکنند و سپس کانفیگهای سالم را فیلتر و در اختیار قرار میدهند پروژه‌ها‌ی <a href=\"https://github.com/0xRadikal/Free-v2ray-Configs\" target=\"_blank\" rel=\"noopener\">https://github.com/0xRadikal/Free-v2ray-Configs</a> و <a href=\"https://github.com/itsyebekhe/PSG\" target=\"_blank\" rel=\"noopener\">https://github.com/itsyebekhe/PSG</a> و <a href=\"https://github.com/Delta-Kronecker/V2ray-Config\" target=\"_blank\" rel=\"noopener\">https://github.com/Delta-Kronecker/V2ray-Config</a> هستند.<br>اما این پروژه‌ها دو مشکل اساسی دارند، اول اینکه تست کانفیگها باید از طریق اینترنت و فایروال ایران انجام شود ولی در حال حاضر تست کانفیگها در این پروژه‌ها از طریق گیتهاب انجام میشود، دوم اینکه روی نت‌های آپلود محدود (ایرانسل و ...) عملا اکثر کانفیگهای این پروژه‌ها آپلود محدود هستند و کیفیت بسیار پایینی دارند.<br><br>از آنجا که با روشهای زیادی میتوان محدودیت آپلود را روی کلودفلر دور زد، من در پروژه‌ی خودم اومدم کانفیگهای کلودفلر سالم را از پروژه‌ها‌ی اصلی جدا کردم و تغییراتی را برای دور زدن محدودیت آپلود (و همچنین دور زدن فیلتر دامنه) اعمال کردم (در حال حاضر متد fragment+fingerprint اعمال شده). بنابراین کانفیگهای نهایی سالم و با حداکثر سرعت در تمامی نتها قابل استفاده هستند.<br><br>برای دور زدن محدودیت آپلود در نتهای آپلود محدود در حال حاضر فقط باید از کلاینت <a href=\"https://github.com/patterniha/PattNG\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">PattNG</a>/<a href=\"https://github.com/patterniha/PattN\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">PattN</a> استفاده کنید، بزودی در سایر کلاینتها نیز این مورد پشتیبانی میشود.<br><br><a href=\"https://github.com/patterniha/Free-Configs\" target=\"_blank\" rel=\"noopener\">https://github.com/patterniha/Free-Configs</a>",
+      "plain_text": "اگه حوصله خوندن توضیحات رو ندارید، فقط ساب زیر را وارد PattNG/PattN کرده و لذت ببرید !\n\nhttps://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt\n\nساب هر ۲۴ ساعت آپدیت میشود.\n///\nتوضیحات:\n\nچند تا از پروژه های عالی که کانفیگهای رایگان را جمع‌آوری و تست میکنند و سپس کانفیگهای سالم را فیلتر و در اختیار قرار میدهند پروژه‌ها‌ی https://github.com/0xRadikal/Free-v2ray-Configs و https://github.com/itsyebekhe/PSG و https://github.com/Delta-Kronecker/V2ray-Config هستند.\nاما این پروژه‌ها دو مشکل اساسی دارند، اول اینکه تست کانفیگها باید از طریق اینترنت و فایروال ایران انجام شود ولی در حال حاضر تست کانفیگها در این پروژه‌ها از طریق گیتهاب انجام میشود، دوم اینکه روی نت‌های آپلود محدود (ایرانسل و ...) عملا اکثر کانفیگهای این پروژه‌ها آپلود محدود هستند و کیفیت بسیار پایینی دارند.\n\nاز آنجا که با روشهای زیادی میتوان محدودیت آپلود را روی کلودفلر دور زد، من در پروژه‌ی خودم اومدم کانفیگهای کلودفلر سالم را از پروژه‌ها‌ی اصلی جدا کردم و تغییراتی را برای دور زدن محدودیت آپلود (و همچنین دور زدن فیلتر دامنه) اعمال کردم (در حال حاضر متد fragment+fingerprint اعمال شده). بنابراین کانفیگهای نهایی سالم و با حداکثر سرعت در تمامی نتها قابل استفاده هستند.\n\nبرای دور زدن محدودیت آپلود در نتهای آپلود محدود در حال حاضر فقط باید از کلاینت PattNG/PattN استفاده کنید، بزودی در سایر کلاینتها نیز این مورد پشتیبانی میشود.\n\nhttps://github.com/patterniha/Free-Configs",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "37",
+      "posted_at": "2026-08-23T00:25:27+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1567",
+      "reply": null
+    },
     {
       "id": "whitedns/1566",
       "author_name": "White DNS",
@@ -33,10 +58,6 @@
         }
       ],
       "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "6"
-        },
         {
           "emoji": "❤",
           "count": "398"
@@ -82,7 +103,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.32K",
+      "views_label": "2.34K",
       "posted_at": "2026-08-22T15:18:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1566",
@@ -155,7 +176,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.38K",
+      "views_label": "8.39K",
       "posted_at": "2026-08-22T14:11:16+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1564",
@@ -257,10 +278,6 @@
         }
       ],
       "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
         {
           "emoji": "❤",
           "count": "106"
@@ -578,7 +595,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.34K",
+      "views_label": "3.35K",
       "posted_at": "2026-08-21T10:35:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1557",
@@ -5750,79 +5767,6 @@
       "posted_at": "2026-08-09T09:14:00+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1427",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1426",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/EjTpxFDFyq8wxKjTHvtYNFCZzMXRTgBqRT2-2q4gHmeH832a4qtfRiwb4j4TG8jcL0ZZROEpYMVgus5-rZJCJPYo86_auHRcdte0AuEdSmHetr4OJZJI8iPQveSIFJ-XSxk5x6MnQpYMlZO_dUdg5Rir2RITOVsFnvG9rxY_xhtP1FKQp_H3bes1Qv1Rg2DQP_GSFbjUVjCdfZCuTH1P7PwM_uBqft6KMZs7BqkhCxO-V9voaVMLRdTmCFE756LIYQYYQd86IlZNzC-f80Hpm10v0WS5vODoeXCaamj0FBoRf3Y7emvPvWJDwYJNlh5HMgHA35ie6WOnIeUbd8NDAA.jpg",
-      "author_photo_path": "channels/whitedns/media/6d3284d0ab940e39f656df82.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939A.png')\"><b>📚</b></i> آموزش اسکن Resolver و استفاده در WhiteDNS (cottendns)</b><br><b><br>اگه دنبال یه Resolver مناسب و پایدار برای راه‌اندازی WhiteDNS هستی، توی این آموزش قدم‌به‌قدم نحوه اسکن و پیدا کردن IPهای مناسب با Clean IP Finder و استفاده از اون‌ها در CottonDNS رو توضیح دادیم. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></b><br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> کاربردها:</b><br><br>• اسکن و پیدا کردن ریزالور های مناسب<br>• بررسی پایداری و سرعت Resolverها<br>• استفاده در WhiteDNS<br>• بهبود کیفیت و پایداری اتصال<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود ابزارها:</b><br><br><blockquote><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>Clean IP Finder v1.3.6</b><br><a href=\"https://github.com/WhiteDNS/WhiteDNS-cleanip-finder/releases/tag/1.3.6\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteDNS-cleanip-finder/releases/tag/1.3.6</a></blockquote><br><br><blockquote><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>WhiteDNS v1.6.0</b><br><a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.0</a></blockquote><br><b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> ابزارها رو دانلود کن و طبق آموزش پیش برو.</b><br><b><br>·:¨༺ </b><a href=\"https://t.me/BlueKnight_Net\" target=\"_blank\"><b>@BlueKnight_Net</b></a><b> ༻¨:·</b>",
-      "plain_text": "📚 آموزش اسکن Resolver و استفاده در WhiteDNS (cottendns)\n\nاگه دنبال یه Resolver مناسب و پایدار برای راه‌اندازی WhiteDNS هستی، توی این آموزش قدم‌به‌قدم نحوه اسکن و پیدا کردن IPهای مناسب با Clean IP Finder و استفاده از اون‌ها در CottonDNS رو توضیح دادیم. ⚡️\n\n🔍 کاربردها:\n\n• اسکن و پیدا کردن ریزالور های مناسب\n• بررسی پایداری و سرعت Resolverها\n• استفاده در WhiteDNS\n• بهبود کیفیت و پایداری اتصال\n\n📥 دانلود ابزارها:\n\n🔹 Clean IP Finder v1.3.6\nhttps://github.com/WhiteDNS/WhiteDNS-cleanip-finder/releases/tag/1.3.6\n\n🔹 WhiteDNS v1.6.0\nhttps://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.0\n\n⚡️ ابزارها رو دانلود کن و طبق آموزش پیش برو.\n\n·:¨༺ @BlueKnight_Net ༻¨:·",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/whitedns/1426",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/sVaaoVo1RXGdgkkqD1XQcM2i_vYRzlHltRkcMMpCMpjd9hKxjzBeevA-KakigtIUZH_m2ti97cOuLq-vjlDa-nZuUI8RZRafiX27OdnS0BxvHiQ3OZFXjJaEc8OqrG16SELabfA--EsrA8IsjFFwN1YgYuLn-bk_mQkOdf4OFWlyBwearmuwsSwsitdVt0BI0wx_USuX0Q0u2Em2D_a9MqKkTnaIPFRVl-mVCS-RykzPkFAPuiieljtdHbaYu3f0tehfF7Vp_v9RbG9Nj3E7sDlE3lNl7TyudX40WxFVyTvd7C7elx4NI02_BUXNsY24Jlj2715Nyf5N2q1BOdwHrw",
-          "thumbnail_path": "channels/whitedns/media/c8bd91f3be3416741f367d61.jpg",
-          "thumbnail_sha256": "4d60c3ddd0b40f0d85cc4495f875ec3cce045df891800b7f23ac055e49b44454",
-          "duration_label": "3:38",
-          "aspect_ratio": 1.7769516728624555
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "164"
-        },
-        {
-          "emoji": "👍",
-          "count": "17"
-        },
-        {
-          "emoji": "🙏",
-          "count": "5"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "💩",
-          "count": "4"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        },
-        {
-          "emoji": "🍓",
-          "count": "1"
-        },
-        {
-          "emoji": "🖕",
-          "count": "1"
-        }
-      ],
-      "views_label": "18.1K",
-      "posted_at": "2026-08-09T04:35:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1426",
       "reply": null
     }
   ]
