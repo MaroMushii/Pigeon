@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-23T11:36:53.098Z",
+  "fetched_at": "2026-08-23T11:46:52.667Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,35 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1576",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/c3b0jHIeAU0DaEERVuMN4z4ywGQaRg64NVQ4uSWiHMDs6vctNeNTjuKsgQiIFIvwCos_ANMwBimYIeolcnozh2_pOwq8IQYORifS0m6Z-PdkJkXxgbdkod0PjTsT3nknFV4RV6hhTX_ItoYLyQlDO_KArvAaNHUhZFQuyG1LR_Cev4aAq8RtlVSMG2tRxHNcFbyJr9wVbzoMpPZY5xiReaxdJt_-iyl1qej9ngRtfvYYZeTrhimG4HjYCyIWCWYkZIuTzgWXSrc99T9lPHhaqMrTlOYOv8GEIjqlTBH9VxF7Xn-AVlR-ZcOs5np_lF1F1UDH2R7pwtqQW5HTsQKhbg.jpg",
+      "author_photo_path": "channels/whitedns/media/fe5e0a71a474f171f5380c7c.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> بالاخره ‎CottenRouter‎ منتشر شد!</b><br><blockquote>چیزی که خیلی‌هاتون بارها درخواست کرده بودید، بالاخره آماده شد. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br>اگه روی یک ‎VPS‎ چند ‎DNS Tunnel‎ دارید، دیگه لازم نیست برای ‎Port 53‎ بین سرویس‌ها درگیر باشید.<br>‎CottenRouter‎ امکان اجرای چند ‎Tunnel‎ روی <b>یک ‎IP‎ و یک ‎Port 53‎</b> رو فراهم می‌کنه و هر ‎Domain‎ رو به ‎Backend‎ مربوط به خودش هدایت می‌کنه.</blockquote><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></b><code> پشتیبانی از:</code><br><b>‎CottenDNS‎</b><br><b>‎MasterDnsVPN‎</b><br><b>‎StormDNS‎</b><br><b>‎thefeed‎</b><br><b>‎SlipGate‎</b><br><code><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> امکانات:</code><br>• ‎UDP / TCP‎<br>• ‎Multi-Domain‎ و ‎Multi-Backend‎<br>• ‎Port 53‎ بین چند ‎Tunnel‎<br>• ‎DoT‎، ‎DoH‎ و ‎HTTPS‎ بر اساس ‎SNI‎<br>• ‎TUI‎ و ‎Control Deck‎ برای مدیریت و مانیتورینگ<br>• نصب مستقیم روی ‎Linux‎<br>• پشتیبانی از ‎Docker‎<br>• ‎AMD64‎ و ‎ARM64‎<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> بدون دستکاری ترافیک ‎Tunnel‎</b><br><blockquote>‎CottenRouter‎ چیزی به پکت ها و تانل اضافه نمیکنه</blockquote><br><blockquote>بنابراین قابلیت‌هایی مثل ‎ARQ‎، ‎FEC‎، ‎Compression‎، ‎MTU Discovery‎، ‎Record Channels‎، ‎SOCKS‎ و ‎TCP Forwarding‎ بدون تغییر باقی می‌مونن.</blockquote><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i> خلاصه:</b><br><blockquote>یک ‎IP‎ + یک ‎Port 53‎ + چند ‎DNS Tunnel‎</blockquote><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <b>‎GitHub‎:</b><br><a href=\"https://github.com/TaJirax/CottenRouter\" target=\"_blank\" rel=\"noopener\">https://github.com/TaJirax/CottenRouter</a>",
+      "plain_text": "🚀 بالاخره ‎CottenRouter‎ منتشر شد!\nچیزی که خیلی‌هاتون بارها درخواست کرده بودید، بالاخره آماده شد. 🔥\nاگه روی یک ‎VPS‎ چند ‎DNS Tunnel‎ دارید، دیگه لازم نیست برای ‎Port 53‎ بین سرویس‌ها درگیر باشید.\n‎CottenRouter‎ امکان اجرای چند ‎Tunnel‎ روی یک ‎IP‎ و یک ‎Port 53‎ رو فراهم می‌کنه و هر ‎Domain‎ رو به ‎Backend‎ مربوط به خودش هدایت می‌کنه.\n⚡️ پشتیبانی از:\n‎CottenDNS‎\n‎MasterDnsVPN‎\n‎StormDNS‎\n‎thefeed‎\n‎SlipGate‎\n🛠 امکانات:\n• ‎UDP / TCP‎\n• ‎Multi-Domain‎ و ‎Multi-Backend‎\n• ‎Port 53‎ بین چند ‎Tunnel‎\n• ‎DoT‎، ‎DoH‎ و ‎HTTPS‎ بر اساس ‎SNI‎\n• ‎TUI‎ و ‎Control Deck‎ برای مدیریت و مانیتورینگ\n• نصب مستقیم روی ‎Linux‎\n• پشتیبانی از ‎Docker‎\n• ‎AMD64‎ و ‎ARM64‎\n🛡 بدون دستکاری ترافیک ‎Tunnel‎\n‎CottenRouter‎ چیزی به پکت ها و تانل اضافه نمیکنه\nبنابراین قابلیت‌هایی مثل ‎ARQ‎، ‎FEC‎، ‎Compression‎، ‎MTU Discovery‎، ‎Record Channels‎، ‎SOCKS‎ و ‎TCP Forwarding‎ بدون تغییر باقی می‌مونن.\n🔥 خلاصه:\nیک ‎IP‎ + یک ‎Port 53‎ + چند ‎DNS Tunnel‎\n🔗 ‎GitHub‎:\nhttps://github.com/TaJirax/CottenRouter",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "count": "9"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "664",
+      "posted_at": "2026-08-23T11:43:21+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1576",
+      "reply": null
+    },
     {
       "id": "whitedns/1572",
       "author_name": "White DNS",
@@ -35,11 +64,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "120"
+          "count": "124"
         },
         {
           "emoji": "❤",
-          "count": "34"
+          "count": "36"
         },
         {
           "emoji": "😁",
@@ -47,6 +76,10 @@
         },
         {
           "emoji": "❤‍🔥",
+          "count": "4"
+        },
+        {
+          "emoji": "👏",
           "count": "3"
         },
         {
@@ -55,10 +88,6 @@
         },
         {
           "emoji": "🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
           "count": "2"
         },
         {
@@ -74,7 +103,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.31K",
+      "views_label": "5.7K",
       "posted_at": "2026-08-23T09:51:43+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1572",
@@ -108,7 +137,7 @@
         },
         {
           "emoji": "❤",
-          "count": "332"
+          "count": "334"
         },
         {
           "emoji": "🙏",
@@ -147,7 +176,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.1K",
+      "views_label": "10.2K",
       "posted_at": "2026-08-23T03:28:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1571",
@@ -181,7 +210,7 @@
         },
         {
           "emoji": "❤",
-          "count": "880"
+          "count": "888"
         },
         {
           "emoji": "👍",
@@ -224,7 +253,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.09K",
+      "views_label": "9.21K",
       "posted_at": "2026-08-23T03:06:07+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1570",
@@ -258,11 +287,11 @@
         },
         {
           "emoji": "❤",
-          "count": "418"
+          "count": "422"
         },
         {
           "emoji": "👍",
-          "count": "27"
+          "count": "28"
         },
         {
           "emoji": "🔥",
@@ -270,7 +299,7 @@
         },
         {
           "emoji": "❤‍🔥",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "🍓",
@@ -289,7 +318,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.5K",
+      "views_label": "9.62K",
       "posted_at": "2026-08-23T02:28:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1568",
@@ -307,11 +336,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "220"
+          "count": "221"
         },
         {
           "emoji": "👍",
-          "count": "19"
+          "count": "20"
         },
         {
           "emoji": "❤‍🔥",
@@ -342,7 +371,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.39K",
+      "views_label": "3.43K",
       "posted_at": "2026-08-23T00:25:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1567",
@@ -419,7 +448,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.77K",
+      "views_label": "3.79K",
       "posted_at": "2026-08-22T15:18:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1566",
@@ -496,7 +525,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.7K",
+      "views_label": "10.8K",
       "posted_at": "2026-08-22T14:11:16+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1564",
@@ -850,7 +879,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.52K",
+      "views_label": "3.64K",
       "posted_at": "2026-08-21T10:35:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1556",
@@ -919,7 +948,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.66K",
+      "views_label": "4.67K",
       "posted_at": "2026-08-21T10:35:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1557",
@@ -1057,7 +1086,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.1K",
+      "views_label": "11.2K",
       "posted_at": "2026-08-21T05:45:51+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1553",
@@ -1402,7 +1431,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.7K",
+      "views_label": "13.8K",
       "posted_at": "2026-08-20T09:01:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1545",
@@ -5868,75 +5897,6 @@
       "posted_at": "2026-08-09T16:19:48+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1432",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1431",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/EjTpxFDFyq8wxKjTHvtYNFCZzMXRTgBqRT2-2q4gHmeH832a4qtfRiwb4j4TG8jcL0ZZROEpYMVgus5-rZJCJPYo86_auHRcdte0AuEdSmHetr4OJZJI8iPQveSIFJ-XSxk5x6MnQpYMlZO_dUdg5Rir2RITOVsFnvG9rxY_xhtP1FKQp_H3bes1Qv1Rg2DQP_GSFbjUVjCdfZCuTH1P7PwM_uBqft6KMZs7BqkhCxO-V9voaVMLRdTmCFE756LIYQYYQd86IlZNzC-f80Hpm10v0WS5vODoeXCaamj0FBoRf3Y7emvPvWJDwYJNlh5HMgHA35ie6WOnIeUbd8NDAA.jpg",
-      "author_photo_path": "channels/whitedns/media/6d3284d0ab940e39f656df82.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "مهم <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>WhiteVpn Desktop <br><br><b>دوستانی که میپرسند اگر ما کانفیگ های ساب خود whitedns را تست میگیریم و بهترین را پیدا میکنیم . چطور ذخیره کنیم که همیشه داشته باشیم . ؟</b><br><br>شما با این روشی که من توی ویدیو نشون میدم میتونید راحت این کارو بکنید. , و همیشه اون کانفیگ را دارید <br><br>یادتون باشه که توی subscription باید حتما manual را انتخاب کنید تا ببینید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "مهم ⚠️\n\nWhiteVpn Desktop\n\nدوستانی که میپرسند اگر ما کانفیگ های ساب خود whitedns را تست میگیریم و بهترین را پیدا میکنیم . چطور ذخیره کنیم که همیشه داشته باشیم . ؟\n\nشما با این روشی که من توی ویدیو نشون میدم میتونید راحت این کارو بکنید. , و همیشه اون کانفیگ را دارید\n\nیادتون باشه که توی subscription باید حتما manual را انتخاب کنید تا ببینید 🔥\n\n@whitedns",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/whitedns/1431",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/OaukDZd3uAg-Maqwo6VXamKsCjogd7EDKdOxiRTBacXZhu4WhHBu9EWhW02bt0Dfh5cUVxJv2_4wy8qFChns_gfJfCkYMo4oxT7P2-jD4PvL5LYwizrpyLEjPTPqHFjTn5oEJ8px8L9wdsiqIp8CKiB6JTEPFDnvydgcqDkw_TEju_SLjdTf0z1uDKAOMQV7oddzWMzcbniq3gc443nBZobZIl-d4WRY8n6_O_1fAYyLmPGhPucp99YBMmZw2_XYZgHUy5n57L1EyYcW9IklpyZvn19sOSOPtypV7CFBZdgclrj0bJRBucu8gaMqdlgZtdHljTx1OtlIRGUffy5h4g",
-          "thumbnail_path": "channels/whitedns/media/6f4910e7dfdd02537efc7d8c.jpg",
-          "thumbnail_sha256": "431001489ce5554d8bd84c1d6e03a9bc109e353eff7e6d47e99e5847c97a900b",
-          "duration_label": "0:47",
-          "aspect_ratio": 1.8654970760233984
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "192"
-        },
-        {
-          "emoji": "👍",
-          "count": "16"
-        },
-        {
-          "emoji": "🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🤝",
-          "count": "3"
-        },
-        {
-          "emoji": "🙏",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "💩",
-          "count": "1"
-        },
-        {
-          "emoji": "👌",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "54.5K",
-      "posted_at": "2026-08-09T13:21:44+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1431",
       "reply": null
     }
   ]
