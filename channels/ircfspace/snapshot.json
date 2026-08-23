@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-23T15:51:35.785Z",
+  "fetched_at": "2026-08-23T15:55:09.622Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,51 @@
     "subscriber_count": "96.8K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2565",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Xc4b0Rd8NQl4QnYm4K_i0LPvF2pu_qOiXRVrIYvQHsOEnSrmEEfygK3LcdT890YksKlnrRC01Xm5A0EUa3veAnHaWTkjpz1xiD66D59AWZ-SqzQHY4qb_LIgV0BpscJdyCRG3t2lh6TiXCxNT_pFzztyUk0RvBjGaWmuX2M2ocaF30PRO9MEwDoLuX1fyC1HtNpfUjee11cIyGsZELlxBWU7cSoFAxyFdPttn5tiZZjLD9hcEqMgmcwAurLX7evoAyFdzu-ih42lrPOprOAfjBn41S8wG9EDJQsuhlF8W2e5zGD3tG3AEQ1pFn_AUC7B71IKtlCR7uobKWruP8-ETg.jpg",
+      "author_photo_path": "channels/ircfspace/media/9ca1e0b37bec970e5455fe6d.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "تلگرام داره روی یک نوع WEB Proxy جدید کار می‌کنه که ترافیک معمول MTProxy رو از طریق یک WebView داخلی و روی HTTPS یا WebSocket منتقل می‌کنه. در سمت سرور هم این ارتباط‌ها دوباره از هم جدا میشن و هرکدوم به یک MTProxy معمولی وصل میشن.<br><br>این روش به سیستم‌عامل خاصی وابسته نیست و نکته جالب اینه که دامنه این WEB Proxy مثل یه سایت HTTPS معمولی دیده میشه و فقط درخواست‌هایی که اطلاعات مخصوص پروکسی رو داشته باشن، صفحه واسط (Bridge Page) مربوط به پروکسی رو دریافت می‌کنن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/telegramdesktop/tproxy-server\" target=\"_blank\" rel=\"noopener\">github.com/telegramdesktop/tproxy-server</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "تلگرام داره روی یک نوع WEB Proxy جدید کار می‌کنه که ترافیک معمول MTProxy رو از طریق یک WebView داخلی و روی HTTPS یا WebSocket منتقل می‌کنه. در سمت سرور هم این ارتباط‌ها دوباره از هم جدا میشن و هرکدوم به یک MTProxy معمولی وصل میشن.\n\nاین روش به سیستم‌عامل خاصی وابسته نیست و نکته جالب اینه که دامنه این WEB Proxy مثل یه سایت HTTPS معمولی دیده میشه و فقط درخواست‌هایی که اطلاعات مخصوص پروکسی رو داشته باشن، صفحه واسط (Bridge Page) مربوط به پروکسی رو دریافت می‌کنن.\n\n👉 github.com/telegramdesktop/tproxy-server\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2565",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/UZSCLfKPbv4mUr52NhIdJgUUiOMZKNueL7k-5vLT8fSNwu31t1XyGpow0zlVIP7pCoep1D_t-OIRkUJpWSuc66cQNVbTgAPPvP48ZgZdbGZ1P7GHrKMtgcJgB0DPjQMEVSXnU-vcLYxuJns3hEUpOy158B6gslgusXEgcWyDMUGhR7qgIfbpHUWxwcO3zK9jvvEJyrysUasq0WW9ns4KQc7cNAB7hbmxcqoalg2p02DP3t-wqc0ralLtrUBJxgqujMLrj0rhwV-xXBRE4q0oFMwqAeGY8UYH8rFR3E7fBCht-Z7qbjYjR4JODHL59BTuukN_hileXCRAWS4_9DQwAg.jpg",
+          "thumbnail_path": "channels/ircfspace/media/df7b999a35891e6b0ef92710.jpg",
+          "thumbnail_sha256": "942b7318f37c12a1af6bc10520b2eee230206bc8b8888fa0cd221f3841b08130",
+          "duration_label": null,
+          "aspect_ratio": 1.9629629629629668
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "5"
+        },
+        {
+          "emoji": "👍",
+          "count": "3"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "🗿",
+          "count": "1"
+        }
+      ],
+      "views_label": "162",
+      "posted_at": "2026-08-23T15:54:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/ircfspace/2565",
+      "reply": null
+    },
     {
       "id": "ircfspace/2564",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -39,7 +84,7 @@
         },
         {
           "emoji": "👍",
-          "count": "219"
+          "count": "220"
         },
         {
           "emoji": "👏",
@@ -62,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.4K",
+      "views_label": "12.5K",
       "posted_at": "2026-08-23T04:34:05+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2564",
@@ -92,7 +137,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "109"
+          "count": "110"
         },
         {
           "emoji": "❤",
@@ -145,7 +190,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "108"
+          "count": "109"
         },
         {
           "emoji": "👍",
@@ -168,7 +213,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.4K",
+      "views_label": "12.5K",
       "posted_at": "2026-08-23T04:09:55+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2562",
@@ -351,7 +396,7 @@
           "count": "1"
         }
       ],
-      "views_label": "35.6K",
+      "views_label": "35.7K",
       "posted_at": "2026-08-16T12:46:06+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2559",
@@ -729,7 +774,7 @@
           "count": "3"
         }
       ],
-      "views_label": "42.5K",
+      "views_label": "42.7K",
       "posted_at": "2026-08-12T06:45:38+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2553",
@@ -965,7 +1010,7 @@
           "count": "2"
         }
       ],
-      "views_label": "27.8K",
+      "views_label": "27.9K",
       "posted_at": "2026-08-12T06:15:29+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2548",
@@ -5580,63 +5625,6 @@
       "posted_at": "2026-06-28T04:52:18+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2465",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2464",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/VKXeykmHPY8go-TPnQgbmR_q8A8HG-AfeJgn0bRxRqTcnrCK42MRG2d6-nLUOJyR_XFn3ru-yOZJn07fpVTNJgzlaQLEoA-auqBz_mmCMc15Hm3ExIKzBnTKWCy8illGTVTQbc2Yr1tPQmB-6baFT3ZmJXH-yHkt8eDNPRdkXNM-VPmETekg0x-_okyFy5r3kqrOPeXBfOPN_A65OaJBXvbalgJrqaDzlz5ngL3StmVPyqSLV5uWgKXmNMt4F86Y1Kbu2_MHoXwJYuZDVRuCA75O-EvxByKVVfUBd-SRUEuuzus11BPp51oWS4BD41ujh4arBnQtLbyxngLPnqoisg.jpg",
-      "author_photo_path": "channels/ircfspace/media/029bab68fd57cc99c05cb423.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "اگر از <a href=\"?q=%23%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3\">#لینوکس</a> استفاده می‌کنین، فیلترشکن دیفیکس در جدیدترین بروزرسانی خودش پشتیبانی از این سیستم‌عامل رو اضافه کرده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/UnboundTechCo/defyxVPN/releases\" target=\"_blank\" rel=\"noopener\">github.com/UnboundTechCo/defyxVPN/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "اگر از #لینوکس استفاده می‌کنین، فیلترشکن دیفیکس در جدیدترین بروزرسانی خودش پشتیبانی از این سیستم‌عامل رو اضافه کرده.\n\n👉 github.com/UnboundTechCo/defyxVPN/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2464",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/kr3FJX5QTDH442AlmC7V7XLxvqki4KcHEvkFdlrda9Elrzw0oBtKnDe0HvtEIvsOjM0orRHAH3Me-l1We4Ea3hv1eP1srKyJhJoGf_nvZm-FSAld7Uou652JAlytVLtxyp6SAG3t6-OvoB_m81I7bhu1ionxck3gwB9YRNIxVy-ZWUWZRH1oQ35y6-iMUh150j1rAC0G1J6OMX7HCzo462q3yO-FomGoEEqk122b4XBoGC2sRKC7nZ41oNXDhTuFcOrXn9BqScBGGLgSiAtRl1pB4Ows-QcmyBylBGy6308uEYvr1LkD0tEEAWG1Yc2hbC_MTTdKjVg7pLn3SI5Fow.jpg",
-          "thumbnail_path": "channels/ircfspace/media/a60845b261268381d1a512c4.jpg",
-          "thumbnail_sha256": "2568866355c004de038882e4f3a171ed0ddcf335dbb42961d86b99873ff2f089",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "268"
-        },
-        {
-          "emoji": "👎",
-          "count": "29"
-        },
-        {
-          "emoji": "👍",
-          "count": "19"
-        },
-        {
-          "emoji": "👏",
-          "count": "11"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        },
-        {
-          "emoji": "🏆",
-          "count": "1"
-        }
-      ],
-      "views_label": "36.2K",
-      "posted_at": "2026-06-27T09:11:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/ircfspace/2464",
       "reply": null
     }
   ]
