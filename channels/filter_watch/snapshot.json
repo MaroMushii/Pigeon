@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-24T14:28:55.502Z",
+  "fetched_at": "2026-08-24T14:31:47.117Z",
   "channel": {
     "username": "filter_watch",
     "title": "فیلتربان",
@@ -8,7 +8,7 @@
     "photo_url": "https://cdn4.telesco.pe/file/p3b6PGFNmveIDfp5pnW7i-uGQN6r8XWcJn9rLiJ4ntHI-NsJeCAnEdKV4Wacp_w3NTJ6CcDGzrWKW1SyRR6vMbP1ZYvwRWkniA7mUzMXUXYKhNg3cloALWW7eHIU8-UN3sRtoLPHKgikoIPFQv1zi-H6MD5Jx6H5ITR74Lb6XhEQ-WaNcpOmvn1Vs5tsXJlHnBXiIwRjh4L_4BKhdKQQkZeG-Q08RSng6Syk4CR3sqbqzi5Iw7YKMgG2lm0jxqGlWv8V18SxBvTpKK2S6F5cL7F6zrg7VUH2Lui8-kSdCAd0H9xeW4sp0zuJSr7T2rI2vXb1YPKamJ6F2OY7Xdy0kg.jpg",
     "photo_path": "channels/filter_watch/media/5ee1b695097677da68d89f04.jpg",
     "photo_sha256": "cd3199b83b628a7af9b1f6046dae013bfe54dcd70050858c440fb57ddc2d776f",
-    "subscriber_count": "2.99K"
+    "subscriber_count": "3K"
   },
   "posts": [
     {
@@ -32,8 +32,13 @@
           "aspect_ratio": 0.8
         }
       ],
-      "reactions": [],
-      "views_label": "70",
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "74",
       "posted_at": "2026-08-24T13:49:27+00:00",
       "edited": false,
       "permalink": "https://t.me/filter_watch/1888",
@@ -63,7 +68,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "❤",
@@ -74,7 +79,7 @@
           "count": "1"
         }
       ],
-      "views_label": "394",
+      "views_label": "395",
       "posted_at": "2026-08-21T16:02:29+00:00",
       "edited": false,
       "permalink": "https://t.me/filter_watch/1887",
@@ -95,7 +100,7 @@
           "count": "2"
         }
       ],
-      "views_label": "529",
+      "views_label": "532",
       "posted_at": "2026-08-19T16:12:01+00:00",
       "edited": false,
       "permalink": "https://t.me/filter_watch/1886",
@@ -194,7 +199,7 @@
           "count": "1"
         }
       ],
-      "views_label": "961",
+      "views_label": "962",
       "posted_at": "2026-08-12T13:20:45+00:00",
       "edited": false,
       "permalink": "https://t.me/filter_watch/1883",
@@ -429,7 +434,7 @@
           "count": "4"
         }
       ],
-      "views_label": "1.37K",
+      "views_label": "1.38K",
       "posted_at": "2026-07-16T08:10:59+00:00",
       "edited": false,
       "permalink": "https://t.me/filter_watch/1871",
