@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-24T15:05:05.937Z",
+  "fetched_at": "2026-08-24T15:08:27.720Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -27,7 +27,7 @@
         },
         {
           "emoji": "❤",
-          "count": "355"
+          "count": "358"
         },
         {
           "emoji": "🔥",
@@ -66,7 +66,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.14K",
+      "views_label": "6.16K",
       "posted_at": "2026-08-24T11:12:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1594",
@@ -88,7 +88,7 @@
         },
         {
           "emoji": "❤",
-          "count": "162"
+          "count": "164"
         },
         {
           "emoji": "🙏",
@@ -107,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.41K",
+      "views_label": "6.43K",
       "posted_at": "2026-08-24T11:06:42+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1593",
@@ -125,7 +125,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "141"
+          "count": "143"
         },
         {
           "emoji": "❤‍🔥",
@@ -144,7 +144,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.45K",
+      "views_label": "6.48K",
       "posted_at": "2026-08-24T11:06:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1589",
@@ -174,7 +174,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "136"
+          "count": "140"
         },
         {
           "emoji": "❤‍🔥",
@@ -193,7 +193,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.91K",
+      "views_label": "5.93K",
       "posted_at": "2026-08-24T11:04:51+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1588",
@@ -211,7 +211,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "186"
+          "count": "187"
         },
         {
           "emoji": "❤‍🔥",
@@ -238,7 +238,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.22K",
+      "views_label": "7.23K",
       "posted_at": "2026-08-24T09:48:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1587",
@@ -277,7 +277,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "101"
+          "count": "102"
         },
         {
           "emoji": "👍",
@@ -322,7 +322,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "220"
+          "count": "221"
         },
         {
           "emoji": "🙏",
@@ -395,7 +395,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "128"
+          "count": "129"
         },
         {
           "emoji": "❤‍🔥",
@@ -448,7 +448,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "121"
+          "count": "122"
         },
         {
           "emoji": "❤‍🔥",
@@ -501,7 +501,7 @@
         },
         {
           "emoji": "❤",
-          "count": "159"
+          "count": "160"
         },
         {
           "emoji": "👍",
@@ -595,7 +595,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "134"
+          "count": "135"
         },
         {
           "emoji": "❤‍🔥",
@@ -638,10 +638,6 @@
       "plain_text": "🚀 بالاخره ‎CottenRouter‎ منتشر شد!\nچیزی که خیلی‌هاتون بارها درخواست کرده بودید، بالاخره آماده شد. 🔥\nاگه روی یک ‎VPS‎ چند ‎DNS Tunnel‎ دارید، دیگه لازم نیست برای ‎Port 53‎ بین سرویس‌ها درگیر باشید.\n‎CottenRouter‎ امکان اجرای چند ‎Tunnel‎ روی یک ‎IP‎ و یک ‎Port 53‎ رو فراهم می‌کنه و هر ‎Domain‎ رو به ‎Backend‎ مربوط به خودش هدایت می‌کنه.\n⚡️ پشتیبانی از:\n‎CottenDNS‎\n‎MasterDnsVPN‎\n‎StormDNS‎\n‎thefeed‎\n‎SlipGate‎\n🛠 امکانات:\n• ‎UDP / TCP‎\n• ‎Multi-Domain‎ و ‎Multi-Backend‎\n• ‎Port 53‎ بین چند ‎Tunnel‎\n• ‎DoT‎، ‎DoH‎ و ‎HTTPS‎ بر اساس ‎SNI‎\n• ‎TUI‎ و ‎Control Deck‎ برای مدیریت و مانیتورینگ\n• نصب مستقیم روی ‎Linux‎\n• پشتیبانی از ‎Docker‎\n• ‎AMD64‎ و ‎ARM64‎\n🛡 بدون دستکاری ترافیک ‎Tunnel‎\n‎CottenRouter‎ چیزی به پکت ها و تانل اضافه نمیکنه\nبنابراین قابلیت‌هایی مثل ‎ARQ‎، ‎FEC‎، ‎Compression‎، ‎MTU Discovery‎، ‎Record Channels‎، ‎SOCKS‎ و ‎TCP Forwarding‎ بدون تغییر باقی می‌مونن.\n🔥 خلاصه:\nیک ‎IP‎ + یک ‎Port 53‎ + چند ‎DNS Tunnel‎\n🔗 ‎GitHub‎:\nhttps://github.com/TaJirax/CottenRouter",
       "media": [],
       "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
         {
           "emoji": "❤",
           "count": "193"
@@ -1028,7 +1024,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.74K",
+      "views_label": "5.75K",
       "posted_at": "2026-08-23T00:25:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1567",
