@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-24T10:01:14.291Z",
+  "fetched_at": "2026-08-24T10:02:45.735Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -23,7 +23,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "53"
+          "count": "58"
         },
         {
           "emoji": "🥰",
@@ -38,7 +38,7 @@
           "count": "2"
         }
       ],
-      "views_label": "1.6K",
+      "views_label": "1.67K",
       "posted_at": "2026-08-24T09:48:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1587",
@@ -161,7 +161,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.14K",
+      "views_label": "8.17K",
       "posted_at": "2026-08-24T03:39:49+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1582",
@@ -430,10 +430,6 @@
       "plain_text": "🚀 بالاخره ‎CottenRouter‎ منتشر شد!\nچیزی که خیلی‌هاتون بارها درخواست کرده بودید، بالاخره آماده شد. 🔥\nاگه روی یک ‎VPS‎ چند ‎DNS Tunnel‎ دارید، دیگه لازم نیست برای ‎Port 53‎ بین سرویس‌ها درگیر باشید.\n‎CottenRouter‎ امکان اجرای چند ‎Tunnel‎ روی یک ‎IP‎ و یک ‎Port 53‎ رو فراهم می‌کنه و هر ‎Domain‎ رو به ‎Backend‎ مربوط به خودش هدایت می‌کنه.\n⚡️ پشتیبانی از:\n‎CottenDNS‎\n‎MasterDnsVPN‎\n‎StormDNS‎\n‎thefeed‎\n‎SlipGate‎\n🛠 امکانات:\n• ‎UDP / TCP‎\n• ‎Multi-Domain‎ و ‎Multi-Backend‎\n• ‎Port 53‎ بین چند ‎Tunnel‎\n• ‎DoT‎، ‎DoH‎ و ‎HTTPS‎ بر اساس ‎SNI‎\n• ‎TUI‎ و ‎Control Deck‎ برای مدیریت و مانیتورینگ\n• نصب مستقیم روی ‎Linux‎\n• پشتیبانی از ‎Docker‎\n• ‎AMD64‎ و ‎ARM64‎\n🛡 بدون دستکاری ترافیک ‎Tunnel‎\n‎CottenRouter‎ چیزی به پکت ها و تانل اضافه نمیکنه\nبنابراین قابلیت‌هایی مثل ‎ARQ‎، ‎FEC‎، ‎Compression‎، ‎MTU Discovery‎، ‎Record Channels‎، ‎SOCKS‎ و ‎TCP Forwarding‎ بدون تغییر باقی می‌مونن.\n🔥 خلاصه:\nیک ‎IP‎ + یک ‎Port 53‎ + چند ‎DNS Tunnel‎\n🔗 ‎GitHub‎:\nhttps://github.com/TaJirax/CottenRouter",
       "media": [],
       "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
         {
           "emoji": "❤",
           "count": "187"
@@ -848,6 +844,10 @@
         }
       ],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "6"
+        },
         {
           "emoji": "❤",
           "count": "523"
