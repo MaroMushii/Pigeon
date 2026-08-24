@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-24T16:41:59.050Z",
+  "fetched_at": "2026-08-24T16:46:43.159Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -27,11 +27,11 @@
         },
         {
           "emoji": "❤",
-          "count": "400"
+          "count": "401"
         },
         {
           "emoji": "👍",
-          "count": "13"
+          "count": "14"
         },
         {
           "emoji": "🔥",
@@ -42,15 +42,15 @@
           "count": "6"
         },
         {
+          "emoji": "🙏",
+          "count": "4"
+        },
+        {
           "emoji": "😨",
           "count": "4"
         },
         {
           "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "🙏",
           "count": "3"
         },
         {
@@ -70,7 +70,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.9K",
+      "views_label": "6.95K",
       "posted_at": "2026-08-24T11:12:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1594",
@@ -92,7 +92,7 @@
         },
         {
           "emoji": "❤",
-          "count": "180"
+          "count": "181"
         },
         {
           "emoji": "🙏",
@@ -115,7 +115,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.12K",
+      "views_label": "7.17K",
       "posted_at": "2026-08-24T11:06:42+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1593",
@@ -133,7 +133,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "154"
+          "count": "155"
         },
         {
           "emoji": "❤‍🔥",
@@ -156,7 +156,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.22K",
+      "views_label": "7.24K",
       "posted_at": "2026-08-24T11:06:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1589",
@@ -186,7 +186,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "147"
+          "count": "148"
         },
         {
           "emoji": "❤‍🔥",
@@ -209,7 +209,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.58K",
+      "views_label": "6.6K",
       "posted_at": "2026-08-24T11:04:51+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1588",
@@ -227,7 +227,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "192"
+          "count": "193"
         },
         {
           "emoji": "❤‍🔥",
@@ -258,7 +258,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.63K",
+      "views_label": "7.64K",
       "posted_at": "2026-08-24T09:48:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1587",
@@ -297,7 +297,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "104"
+          "count": "105"
         },
         {
           "emoji": "👍",
@@ -662,6 +662,10 @@
       "plain_text": "🚀 بالاخره ‎CottenRouter‎ منتشر شد!\nچیزی که خیلی‌هاتون بارها درخواست کرده بودید، بالاخره آماده شد. 🔥\nاگه روی یک ‎VPS‎ چند ‎DNS Tunnel‎ دارید، دیگه لازم نیست برای ‎Port 53‎ بین سرویس‌ها درگیر باشید.\n‎CottenRouter‎ امکان اجرای چند ‎Tunnel‎ روی یک ‎IP‎ و یک ‎Port 53‎ رو فراهم می‌کنه و هر ‎Domain‎ رو به ‎Backend‎ مربوط به خودش هدایت می‌کنه.\n⚡️ پشتیبانی از:\n‎CottenDNS‎\n‎MasterDnsVPN‎\n‎StormDNS‎\n‎thefeed‎\n‎SlipGate‎\n🛠 امکانات:\n• ‎UDP / TCP‎\n• ‎Multi-Domain‎ و ‎Multi-Backend‎\n• ‎Port 53‎ بین چند ‎Tunnel‎\n• ‎DoT‎، ‎DoH‎ و ‎HTTPS‎ بر اساس ‎SNI‎\n• ‎TUI‎ و ‎Control Deck‎ برای مدیریت و مانیتورینگ\n• نصب مستقیم روی ‎Linux‎\n• پشتیبانی از ‎Docker‎\n• ‎AMD64‎ و ‎ARM64‎\n🛡 بدون دستکاری ترافیک ‎Tunnel‎\n‎CottenRouter‎ چیزی به پکت ها و تانل اضافه نمیکنه\nبنابراین قابلیت‌هایی مثل ‎ARQ‎، ‎FEC‎، ‎Compression‎، ‎MTU Discovery‎، ‎Record Channels‎، ‎SOCKS‎ و ‎TCP Forwarding‎ بدون تغییر باقی می‌مونن.\n🔥 خلاصه:\nیک ‎IP‎ + یک ‎Port 53‎ + چند ‎DNS Tunnel‎\n🔗 ‎GitHub‎:\nhttps://github.com/TaJirax/CottenRouter",
       "media": [],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "❤",
           "count": "193"
