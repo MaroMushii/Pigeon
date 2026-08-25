@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-25T06:22:34.629Z",
+  "fetched_at": "2026-08-25T06:27:07.222Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,27 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1598",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Lcgc6QdRLRHWF85r-E64jye55UBVmr4XWEPlH0iYI4GA8KbB0MxBKOmTIUKiNS17xRYtObvrPKpnKOaJ2Lh8fP3k1lSZn_SI76ZbbY9HzSxdeUMFOjXH1VUp2_QRW_BorIzCnMfkdnrrwhela8X8DUw2RW-aoPM8RegJZyUfTy1_DgZDd3mM_k-rMUhiFCdqe-Yfx_2ysDLh51qfmMF5Vwbc9FgsdrUuolva90z2h8P-VLaK4NNR8rg_ChLf1jeAeMP9rQttXfN5sekalPjHWMeP_gNSuv8lvRhMN6YGMet1qczXL4yfrG3ieCOLq0D5NnqaH9ivpvB-UkMlZHcVKg.jpg",
+      "author_photo_path": "channels/whitedns/media/939536a792807d77fec128a2.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<tg-emoji emoji-id=\"5440431182602842059\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i></tg-emoji> درود،<br><tg-emoji emoji-id=\"5863870410587641121\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji> یک پروژه هست، دوستان معرفی کردن، من تایید یا رد نمیکنم، فقط منتشر میکنم، خوب بودن و نبودنش با خودتون، من خیلی چک نکردم.<br><br><tg-emoji emoji-id=\"5438447569137056749\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29780.png')\"><b>◀️</b></i></tg-emoji> پروژه واسه جمع کردن کانفیگ های v2ray هست.<br><tg-emoji emoji-id=\"5276527873308499560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91A9E2808DF09F92BB.png')\"><b>👩‍💻</b></i></tg-emoji>  <a href=\"https://github.com/0xRadikal/Free-v2ray-Configs\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">0xRadikal/Free-v2ray-Configs</a><br><br><tg-emoji emoji-id=\"5438447569137056749\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29780.png')\"><b>◀️</b></i></tg-emoji> تفاوت اصلی پروژه با بقیه ریپوهای کانفیگ رایگان اینه که صرفاً کانفیگ‌ها رو از منابع مختلف جمع نمی‌کنه. کانفیگ‌ها وارد یک pipeline چندمرحله‌ای می‌شن، duplicateها حذف می‌شن، ساختار و endpoint بررسی می‌شه، اتصال TCP تست می‌شه و در نهایت کانفیگ با یک درخواست HTTP واقعی از طریق proxy در ۳ دور مستقل تست می‌شه.<br><tg-emoji emoji-id=\"5438447569137056749\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29780.png')\"><b>◀️</b></i></tg-emoji> در حال حاضر پروژه از ۲۱ منبع تغذیه می‌شه و در آخرین اجرای ثبت‌شده:<br><tg-emoji emoji-id=\"4992590304084231644\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B4.png')\"><b>🔴</b></i></tg-emoji> ۱۱٬۴۱۵ کانفیگ یکتا جمع‌آوری شده<br><tg-emoji emoji-id=\"4992590304084231644\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B4.png')\"><b>🔴</b></i></tg-emoji> ۲٬۴۰۳ کانفیگ در هر ۳ دور تست موفق بودن و وارد بخش <code>verified</code> شدن<br><tg-emoji emoji-id=\"4992590304084231644\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B4.png')\"><b>🔴</b></i></tg-emoji> خروجی‌های <code>verified</code>، <code>fast</code>، <code>secure</code> و <code>top100</code> تولید می‌شه<br><tg-emoji emoji-id=\"4992590304084231644\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B4.png')\"><b>🔴</b></i></tg-emoji> خروجی برای V2Ray/Xray، Clash و sing-box ارائه می‌شه<br><tg-emoji emoji-id=\"4992590304084231644\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B4.png')\"><b>🔴</b></i></tg-emoji> کل سیستم هر ۱۵ دقیقه به‌صورت خودکار به‌روزرسانی می‌شه<br><br><tg-emoji emoji-id=\"5980930633298350051\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i></tg-emoji> به گفته ناشر: هدف پروژه اینه که این پروژه تبدیل به یک منبع متن‌باز و قابل‌اعتماد برای کانفیگ‌های رایگان بشه، مخصوصاً برای کاربران ایرانی.<br><br><tg-emoji emoji-id=\"4990428853202584657\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B4.png')\"><b>🔴</b></i></tg-emoji> نمونه همینکار رو هم WhiteDns انجام داده، اینجا میتونین ببینین:<br><tg-emoji emoji-id=\"5276527873308499560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91A9E2808DF09F92BB.png')\"><b>👩‍💻</b></i></tg-emoji>  <a href=\"https://github.com/WhiteDNS/subs-check\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">WhiteDNS/subs-check</a><br><br><tg-emoji emoji-id=\"4990428853202584657\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B4.png')\"><b>🔴</b></i></tg-emoji> اگر از این پروژه خوشتون اومد میتونین با <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i> دادن داخل گیت هاب از ناشر این برنامه حمایت کنین.<br><br><tg-emoji emoji-id=\"5863870410587641121\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji> نکته تکمیلی از سمت خودم: اگر از Vless/Vmess و هر فیلترشکن رایگانی استفاده میکنین، اگر امنیت اطلاعاتتون مهمه، حتما از حالت Chain و ... استفاده کنین، یعنی به وسیله اون VPN به یه VPN دیگه به سرور خودتون وصل بشید و Vmess/Vless سرور خودتون رو داشته باشید، از سرورهای رایگان برای فیلتر نشدن و ... استفاده کنین (البته که من کلا پیشنهاد میدم، VPN رایگان تا حد امکان استفاده نکنین و سرور خودتون رو راه اندازی کنین، اما این سرویس ها ممکنه، برای بعضی ها کاربردی باشه)، اما برای امنیت بیشتر اینکار رو انجام بدید.<br><br><tg-emoji emoji-id=\"5859481946148574805\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i></tg-emoji> پیروز و سربلند باشید.<br><tg-emoji emoji-id=\"6041634326670480784\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA4A8.png')\"><b>🤨</b></i></tg-emoji> با تشکر فراوان، <a href=\"https://www.instagram.com/masterking32\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">امین محمودی</a> <br><tg-emoji emoji-id=\"5274055917766202507\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9793.png')\"><b>🗓</b></i></tg-emoji> 1 شهریور ماه 1405<br><br><blockquote><tg-emoji emoji-id=\"5197288647275071607\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i></tg-emoji> کانال: <a href=\"https://t.me/MasterDnsVPN\" target=\"_blank\">@MasterDnsVPN</a><br><tg-emoji emoji-id=\"5303138782004924588\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji> گروه: <a href=\"https://t.me/MasterDnsVPNGroup\" target=\"_blank\">@MasterDnsVPNGroup</a></blockquote><br><br><a href=\"?q=%23v2ray\">#v2ray</a> <a href=\"?q=%23%D9%85%D8%B9%D8%B1%D9%81%DB%8C_%D9%BE%D8%B1%D9%88%DA%98%D9%87\">#معرفی_پروژه</a> <a href=\"?q=%23%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA_%D8%A2%D8%B2%D8%A7%D8%AF\">#اینترنت_آزاد</a> <a href=\"?q=%23%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86\">#فیلترشکن</a> <a href=\"?q=%23vless\">#vless</a> <a href=\"?q=%23vmess\">#vmess</a>",
+      "plain_text": "👋 درود،\n⚠️ یک پروژه هست، دوستان معرفی کردن، من تایید یا رد نمیکنم، فقط منتشر میکنم، خوب بودن و نبودنش با خودتون، من خیلی چک نکردم.\n\n◀️ پروژه واسه جمع کردن کانفیگ های v2ray هست.\n👩‍💻 0xRadikal/Free-v2ray-Configs\n\n◀️ تفاوت اصلی پروژه با بقیه ریپوهای کانفیگ رایگان اینه که صرفاً کانفیگ‌ها رو از منابع مختلف جمع نمی‌کنه. کانفیگ‌ها وارد یک pipeline چندمرحله‌ای می‌شن، duplicateها حذف می‌شن، ساختار و endpoint بررسی می‌شه، اتصال TCP تست می‌شه و در نهایت کانفیگ با یک درخواست HTTP واقعی از طریق proxy در ۳ دور مستقل تست می‌شه.\n◀️ در حال حاضر پروژه از ۲۱ منبع تغذیه می‌شه و در آخرین اجرای ثبت‌شده:\n🔴 ۱۱٬۴۱۵ کانفیگ یکتا جمع‌آوری شده\n🔴 ۲٬۴۰۳ کانفیگ در هر ۳ دور تست موفق بودن و وارد بخش verified شدن\n🔴 خروجی‌های verified، fast، secure و top100 تولید می‌شه\n🔴 خروجی برای V2Ray/Xray، Clash و sing-box ارائه می‌شه\n🔴 کل سیستم هر ۱۵ دقیقه به‌صورت خودکار به‌روزرسانی می‌شه\n\n✅ به گفته ناشر: هدف پروژه اینه که این پروژه تبدیل به یک منبع متن‌باز و قابل‌اعتماد برای کانفیگ‌های رایگان بشه، مخصوصاً برای کاربران ایرانی.\n\n🔴 نمونه همینکار رو هم WhiteDns انجام داده، اینجا میتونین ببینین:\n👩‍💻 WhiteDNS/subs-check\n\n🔴 اگر از این پروژه خوشتون اومد میتونین با ⭐️ دادن داخل گیت هاب از ناشر این برنامه حمایت کنین.\n\n⚠️ نکته تکمیلی از سمت خودم: اگر از Vless/Vmess و هر فیلترشکن رایگانی استفاده میکنین، اگر امنیت اطلاعاتتون مهمه، حتما از حالت Chain و ... استفاده کنین، یعنی به وسیله اون VPN به یه VPN دیگه به سرور خودتون وصل بشید و Vmess/Vless سرور خودتون رو داشته باشید، از سرورهای رایگان برای فیلتر نشدن و ... استفاده کنین (البته که من کلا پیشنهاد میدم، VPN رایگان تا حد امکان استفاده نکنین و سرور خودتون رو راه اندازی کنین، اما این سرویس ها ممکنه، برای بعضی ها کاربردی باشه)، اما برای امنیت بیشتر اینکار رو انجام بدید.\n\n❤️ پیروز و سربلند باشید.\n🤨 با تشکر فراوان، امین محمودی\n🗓 1 شهریور ماه 1405\n\n🛡 کانال: @MasterDnsVPN\n💬 گروه: @MasterDnsVPNGroup\n\n#v2ray #معرفی_پروژه #اینترنت_آزاد #فیلترشکن #vless #vmess",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "63",
+      "posted_at": "2026-08-25T06:25:54+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1598",
+      "reply": null
+    },
     {
       "id": "whitedns/1597",
       "author_name": "White DNS",
@@ -35,7 +56,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "47"
+          "count": "50"
         },
         {
           "emoji": "🔥",
@@ -44,6 +65,10 @@
         {
           "emoji": "😨",
           "count": "3"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
         },
         {
           "emoji": "👏",
@@ -58,7 +83,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.65K",
+      "views_label": "3.84K",
       "posted_at": "2026-08-25T04:30:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1597",
@@ -80,7 +105,7 @@
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👏",
@@ -107,7 +132,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.65K",
+      "views_label": "6.75K",
       "posted_at": "2026-08-24T22:10:12+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1596",
@@ -129,7 +154,7 @@
         },
         {
           "emoji": "❤",
-          "count": "542"
+          "count": "543"
         },
         {
           "emoji": "👍",
@@ -172,7 +197,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.9K",
+      "views_label": "11K",
       "posted_at": "2026-08-24T11:12:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1594",
@@ -262,7 +287,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.8K",
+      "views_label": "10.9K",
       "posted_at": "2026-08-24T11:06:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1589",
@@ -315,7 +340,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.85K",
+      "views_label": "9.88K",
       "posted_at": "2026-08-24T11:04:51+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1588",
@@ -364,7 +389,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.49K",
+      "views_label": "9.52K",
       "posted_at": "2026-08-24T09:48:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1587",
@@ -597,7 +622,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.1K",
+      "views_label": "5.13K",
       "posted_at": "2026-08-24T03:18:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1580",
@@ -5958,79 +5983,6 @@
       "posted_at": "2026-08-13T08:03:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1448",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1447",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/HV1s3RHBBjA1r87LHU3HYsSwDBBP2hSuLwLaflRoPR3qzwL50tuN0rPhKLS2SGdrZKSuhv63gEb0kKe9w6RoZ7SsoprNCSeBovrE0AcB7t_2iZNkNjh5g0Lm5ZfnaX2bFdYBSuQcgHEGiEvdDioqXkIbOJfipus9yYavLEVAXel4iwfqoGKKbx03COKf6tPxvVOhjqUOIe9ZlQ37-fmIi8EKdqhvecjkfZC68FOfoCzyhY2juzVKtfKjK_mqWxjdXQ2VnwzdrQ1nYYeMyFb9e4PYaptt84yLa8H3Zj3lWCOTFOvOi-Vrp6gf4ivX7vZRBkT7umBp3CZ_fzI1SdeIkA.jpg",
-      "author_photo_path": "channels/whitedns/media/c322205d09ec0c9d46485ec5.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "•  <a href=\"https://t.me/whitedns/1388\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین ورژن WhiteVPN اندروید</b></a><br><a href=\"https://t.me/whitedns/1438\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>•   دانلود آخرین ورژن WhiteVPN دستکتاپ<br></b></a><br>•  <a href=\"https://t.me/whitedns/1377\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین ورژن WhiteDNS اندروید<br></b></a><b>•  </b><a href=\"https://t.me/whitedns/1413\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین ورژن WhiteDNS اندروید<br></b></a><br><b>•</b><a href=\"https://testflight.apple.com/join/3htm1Whc\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b> دانلود آخرین نسخه CoreForge برای آیفون</b></a>",
-      "plain_text": "• دانلود آخرین ورژن WhiteVPN اندروید\n• دانلود آخرین ورژن WhiteVPN دستکتاپ\n\n• دانلود آخرین ورژن WhiteDNS اندروید\n• دانلود آخرین ورژن WhiteDNS اندروید\n\n• دانلود آخرین نسخه CoreForge برای آیفون",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1447",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/LeUYH2UebyeJLYjRnkwvOh63tWxSvUuG-EsC-fno0DcbZc4nie-9kJgGfcYq1SX7SexQV44Vet5_l-etA3ZVppkcSyqkndEk9Ce0BvZOxCLDdP15fr2KLNHXOFBtuXXOw_YzEkB_-zMeQ-izgo4mKbNA-kCphuo_nJRuFR4LA5Rk3l715NY4dzM1dd46oz2Q_qJL4unWY1IIhWxF_mREN7bV8XDQKAjvCivdhh5He4RELDIodxxFovttAD4mCEi6t__ckIJ_6-NhgMHalPuQuOLdMXqLMKWgLVBbNrfOgDkuFwjBA8xtGPTnZ-4qgX3S67OHczf3dNztWTbmmUMSOQ.jpg",
-          "thumbnail_path": "channels/whitedns/media/527a423b3db9c7ea4d095284.jpg",
-          "thumbnail_sha256": "77d30791c1a17a1323b8ed2b28e3ad67bd95a2ca42be3ee012d74b1a9775153e",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "166"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "🙏",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🎉",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        },
-        {
-          "emoji": "🍾",
-          "count": "1"
-        },
-        {
-          "emoji": "🤝",
-          "count": "1"
-        }
-      ],
-      "views_label": "13.5K",
-      "posted_at": "2026-08-13T06:16:34+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1447",
       "reply": null
     }
   ]
