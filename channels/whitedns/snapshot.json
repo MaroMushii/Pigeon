@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-26T04:26:54.954Z",
+  "fetched_at": "2026-08-26T04:31:44.834Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1605",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/EgSuAuL0l5I0OQ_-6s2RWfsD4IJ7MM_ME2ioUIVOJDJMN2TI1QgiF0oB2dfmhrG5SeVBo1qk_4uAI_KZmvai-34dgwyBVW7CeaslXlarIuV74OaKoJrl0JNTthLQv-t7YQeBgKMxZ2cU7J8S9oOaHQW8PpOBnaXtxRLsLgdU1NRkDVABDkGzzgbJPqw9r9Reffk0k4LItpi3upOmK2uL1oxL5kY7VWbWAAk_bqK2nr33j69G_Yk9hjOT_DwSqnZVUe20wTL9yPPjWm96f7rKeYYD2EbC8_n6Ibd-pSVIkWoUvRVCNy0jFMr0Cxlc4UzIgUIFBejBpeNdzudhBPkbtg.jpg",
+      "author_photo_path": "channels/whitedns/media/95340b9493033adf15e8b079.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <b>WhiteAesther نسخه ۱.۲.۲ — موتور جدید و چند قابلیت</b><br><br>این آپدیت موتور تونل رو عوض می‌کنه و چند چیزی که کاربرها خواسته بودن اضافه می‌شه.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> <b>موتور جدید (Aether 1.7.0)</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>مصرف حافظه محدود شد</b> — قبلاً هرچی اتصال طولانی‌تر می‌شد، حافظه‌ای که اپ می‌گرفت بیشتر می‌شد تا جایی که تونل می‌افتاد. حالا سقف داره.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>WARP in WARP وقتی یک طرفش قطع بشه دوباره وصل می‌شه</b> به‌جای اینکه کلاً بمیره.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>پیام خطای واقعی از Cloudflare</b> — اگه ثبت‌نام رد بشه، حالا می‌گه دلیلش چیه: آی‌پی علامت‌خورده، یا ثبت‌نام زیاد از این آدرس. قبلاً فقط می‌گفت شبکه مشکل داره.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>نودهای hysteria2 و tuic توی Exit chain کار می‌کنن</b><br><br>اگه توی ساب‌تون نود hysteria2 یا tuic دارین و تا حالا هیچ‌وقت بالا نمی‌اومدن، دلیلش پیدا شد و درست شد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>ولی یک شرط داره:</b> باید پروتکل رو روی <b>WireGuard</b> بذارین (از <code>Routes ← Manual ← Protocol</code>).<br><br>روی MASQUE همچنان کار نمی‌کنه و این دست ما نیست — محدودیت خود Cloudflareست. اپ هم اگه ببینه روی MASQUE هستین بهتون می‌گه.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8FB7.png')\"><b>🏷</b></i> <b>نودهای REALITY حالا مشخص می‌شن</b><br><br>اگه توی ساب‌تون نود REALITY دارین، قبلاً یا اصلاً نمی‌اومد یا می‌اومد و وصل نمی‌شد و معلوم نبود چرا. حالا با برچسب نارنجی <b>not supported</b> نشون داده می‌شه و قابل انتخاب نیست.<br><br>نود سالمه — موتور فعلی هنوز نمی‌تونه باهاش احراز هویت کنه. وقتی بتونه، خودبه‌خود دوباره کار می‌کنه.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> <b>اشتراک تونل با شبکه (LAN sharing)</b><br><br>می‌تونین تونل گوشی رو با بقیه دستگاه‌های همون وای‌فای به اشتراک بذارین — مثلاً لپ‌تاپ یا تلویزیون.<br><br>از <code>Traffic</code> حالت رو روی <b>Proxy</b> بذارین، بعد بخش Advanced رو باز کنین و <b>Share with this network</b> رو روشن کنین. اپ آدرسی که باید توی دستگاه دوم بزنین رو بهتون نشون می‌ده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>رمز اختیاریه ولی حواستون باشه:</b> بدون رمز، هرکی روی اون وای‌فای باشه می‌تونه از تونل شما استفاده کنه و ترافیکش با هویت شما بیرون می‌ره. روی شبکه خونه خودتون مشکلی نیست؛ توی کافه و هتل و خوابگاه حتماً رمز بذارین.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i> <b>صفحه اول: آی‌پی و مصرف</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>آی‌پی قبل و بعد از تونل</b> — که ببینین واقعاً عوض شده<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>سرعت لحظه‌ای دانلود و آپلود</b> و مجموع مصرف هر نشست<br><br>نکته: آی‌پی «بدون تونل» فقط وقتی خونده می‌شه که اپ باز باشه و وصل <b>نباشین</b>. اگه مستقیم بزنین connect، اون خونه خالی می‌مونه — این عمدیه، چون خوندنش وسط اتصال یعنی فرستادن آدرس واقعی‌تون از کنار همون تونلی که قراره مخفی‌ش کنه.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E9B.png')\"><b>🎛</b></i> <b>کلید روشن/خاموش توی پنل سریع</b><br><br>از <code>Settings</code> دکمه <b>Add a quick settings tile</b> رو بزنین. بعدش از پنل بالای گوشی بدون باز کردن اپ وصل و قطع می‌شین.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948B.png')\"><b>🔋</b></i> <b>مشکل «Allow background running» که نمی‌رفت</b><br><br>روی بعضی گوشی‌ها (مخصوصاً شیائومی) هرچی اجازه می‌دادین، اون کارت باز هم می‌موند. دلیلش این بود که این گوشی‌ها تنظیم باتری خودشون رو دارن و اجازه رو فقط اونجا ثبت می‌کنن، ولی جواب استاندارد اندروید همچنان «نه» می‌مونه.<br><br>حالا اپ خودش می‌فهمه این اتفاق افتاده، شما رو می‌فرسته به تنظیمات درست گوشی، و یک دکمه <b>I've done this</b> داره که کارت رو ببنده.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> <b>دانلود</b><br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>arm64-v8a</b> (۵۴ مگ) — تقریباً همه گوشی‌های ۲۰۱۷ به بعد. از این شروع کنین<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>armeabi-v7a</b> (۴۸ مگ) — گوشی‌های قدیمی‌تر<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>universal</b> (۱۵۷ مگ) — اگه مطمئن نیستین<br><br>اگه مشکلی خوردین، از <code>Settings ← Diagnostics</code> گزارش بگیرین و بفرستین.<br><br>تیم وایت<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🔗 WhiteAesther نسخه ۱.۲.۲ — موتور جدید و چند قابلیت\n\nاین آپدیت موتور تونل رو عوض می‌کنه و چند چیزی که کاربرها خواسته بودن اضافه می‌شه.\n\n---\n\n⚡️ موتور جدید (Aether 1.7.0)\n\n▫️ مصرف حافظه محدود شد — قبلاً هرچی اتصال طولانی‌تر می‌شد، حافظه‌ای که اپ می‌گرفت بیشتر می‌شد تا جایی که تونل می‌افتاد. حالا سقف داره.\n▫️ WARP in WARP وقتی یک طرفش قطع بشه دوباره وصل می‌شه به‌جای اینکه کلاً بمیره.\n▫️ پیام خطای واقعی از Cloudflare — اگه ثبت‌نام رد بشه، حالا می‌گه دلیلش چیه: آی‌پی علامت‌خورده، یا ثبت‌نام زیاد از این آدرس. قبلاً فقط می‌گفت شبکه مشکل داره.\n\n---\n\n🚀 نودهای hysteria2 و tuic توی Exit chain کار می‌کنن\n\nاگه توی ساب‌تون نود hysteria2 یا tuic دارین و تا حالا هیچ‌وقت بالا نمی‌اومدن، دلیلش پیدا شد و درست شد.\n\n⚠️ ولی یک شرط داره: باید پروتکل رو روی WireGuard بذارین (از Routes ← Manual ← Protocol).\n\nروی MASQUE همچنان کار نمی‌کنه و این دست ما نیست — محدودیت خود Cloudflareست. اپ هم اگه ببینه روی MASQUE هستین بهتون می‌گه.\n\n---\n\n🏷 نودهای REALITY حالا مشخص می‌شن\n\nاگه توی ساب‌تون نود REALITY دارین، قبلاً یا اصلاً نمی‌اومد یا می‌اومد و وصل نمی‌شد و معلوم نبود چرا. حالا با برچسب نارنجی not supported نشون داده می‌شه و قابل انتخاب نیست.\n\nنود سالمه — موتور فعلی هنوز نمی‌تونه باهاش احراز هویت کنه. وقتی بتونه، خودبه‌خود دوباره کار می‌کنه.\n\n---\n\n📡 اشتراک تونل با شبکه (LAN sharing)\n\nمی‌تونین تونل گوشی رو با بقیه دستگاه‌های همون وای‌فای به اشتراک بذارین — مثلاً لپ‌تاپ یا تلویزیون.\n\nاز Traffic حالت رو روی Proxy بذارین، بعد بخش Advanced رو باز کنین و Share with this network رو روشن کنین. اپ آدرسی که باید توی دستگاه دوم بزنین رو بهتون نشون می‌ده.\n\n⚠️ رمز اختیاریه ولی حواستون باشه: بدون رمز، هرکی روی اون وای‌فای باشه می‌تونه از تونل شما استفاده کنه و ترافیکش با هویت شما بیرون می‌ره. روی شبکه خونه خودتون مشکلی نیست؛ توی کافه و هتل و خوابگاه حتماً رمز بذارین.\n\n---\n\n📊 صفحه اول: آی‌پی و مصرف\n\n▫️ آی‌پی قبل و بعد از تونل — که ببینین واقعاً عوض شده\n▫️ سرعت لحظه‌ای دانلود و آپلود و مجموع مصرف هر نشست\n\nنکته: آی‌پی «بدون تونل» فقط وقتی خونده می‌شه که اپ باز باشه و وصل نباشین. اگه مستقیم بزنین connect، اون خونه خالی می‌مونه — این عمدیه، چون خوندنش وسط اتصال یعنی فرستادن آدرس واقعی‌تون از کنار همون تونلی که قراره مخفی‌ش کنه.\n\n---\n\n🎛 کلید روشن/خاموش توی پنل سریع\n\nاز Settings دکمه Add a quick settings tile رو بزنین. بعدش از پنل بالای گوشی بدون باز کردن اپ وصل و قطع می‌شین.\n\n---\n\n🔋 مشکل «Allow background running» که نمی‌رفت\n\nروی بعضی گوشی‌ها (مخصوصاً شیائومی) هرچی اجازه می‌دادین، اون کارت باز هم می‌موند. دلیلش این بود که این گوشی‌ها تنظیم باتری خودشون رو دارن و اجازه رو فقط اونجا ثبت می‌کنن، ولی جواب استاندارد اندروید همچنان «نه» می‌مونه.\n\nحالا اپ خودش می‌فهمه این اتفاق افتاده، شما رو می‌فرسته به تنظیمات درست گوشی، و یک دکمه I've done this داره که کارت رو ببنده.\n\n---\n\n⬇️ دانلود\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\n\n▫️ arm64-v8a (۵۴ مگ) — تقریباً همه گوشی‌های ۲۰۱۷ به بعد. از این شروع کنین\n▫️ armeabi-v7a (۴۸ مگ) — گوشی‌های قدیمی‌تر\n▫️ universal (۱۵۷ مگ) — اگه مطمئن نیستین\n\nاگه مشکلی خوردین، از Settings ← Diagnostics گزارش بگیرین و بفرستین.\n\nتیم وایت\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1605",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/lK2lbglEGDzmlapbDbh_WGrrQyw8CyRKi5XGd9SbULhLA3uwO8BDk5u-SHWnjuf-vw_bZFsZsnX63JFylnY6cHzBpIDi4620dPpouOms3Z9nT_QxO0Hy2y8tp4MH6_UKZUQ0dWDJQgBncAgcdz35x9qjnjOgXyn_SqLUUpt5cE7TsBmSjon9mn4McmRWQ_8HF1ko_eUirbsRtpF_6NtkfiS2J6zH4bBPpDyHNYy0gB387Io7EMb4KgIL55ARn-JYqtZcoxnnRDPUzmz1v4M7ClhlfqTeWkST7HvS0lTWOu5WMkse62U3iQh5ddUZjILNQwPYYHV5dyBggZtlTyploA.jpg",
+          "thumbnail_path": "channels/whitedns/media/6d1089846cad7e44d1f5c02a.jpg",
+          "thumbnail_sha256": "c490099373421996d0e1be8f181e89768a3f0313912c7e46f4226f6bb8474cc6",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "3",
+      "posted_at": "2026-08-26T04:31:05+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1605",
+      "reply": null
+    },
     {
       "id": "whitedns/1603",
       "author_name": "White DNS",
@@ -35,18 +68,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "32"
+          "count": "34"
+        },
+        {
+          "emoji": "👏",
+          "count": "2"
         },
         {
           "emoji": "👍",
           "count": "1"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
         }
       ],
-      "views_label": "1.54K",
+      "views_label": "1.66K",
       "posted_at": "2026-08-26T03:41:27+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1603",
@@ -107,7 +140,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.4K",
+      "views_label": "8.47K",
       "posted_at": "2026-08-25T16:21:43+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1602",
@@ -160,7 +193,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.77K",
+      "views_label": "1.8K",
       "posted_at": "2026-08-25T13:45:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1601",
@@ -209,7 +242,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.48K",
+      "views_label": "2.51K",
       "posted_at": "2026-08-25T13:44:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1600",
@@ -254,7 +287,7 @@
           "count": "2"
         }
       ],
-      "views_label": "8.16K",
+      "views_label": "8.19K",
       "posted_at": "2026-08-25T12:33:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1599",
@@ -299,7 +332,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.59K",
+      "views_label": "9.62K",
       "posted_at": "2026-08-25T06:25:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1598",
@@ -372,7 +405,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.1K",
+      "views_label": "11.2K",
       "posted_at": "2026-08-25T04:30:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1597",
@@ -5994,83 +6027,6 @@
       "posted_at": "2026-08-14T05:28:00+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1459",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1458",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/HV1s3RHBBjA1r87LHU3HYsSwDBBP2hSuLwLaflRoPR3qzwL50tuN0rPhKLS2SGdrZKSuhv63gEb0kKe9w6RoZ7SsoprNCSeBovrE0AcB7t_2iZNkNjh5g0Lm5ZfnaX2bFdYBSuQcgHEGiEvdDioqXkIbOJfipus9yYavLEVAXel4iwfqoGKKbx03COKf6tPxvVOhjqUOIe9ZlQ37-fmIi8EKdqhvecjkfZC68FOfoCzyhY2juzVKtfKjK_mqWxjdXQ2VnwzdrQ1nYYeMyFb9e4PYaptt84yLa8H3Zj3lWCOTFOvOi-Vrp6gf4ivX7vZRBkT7umBp3CZ_fzI1SdeIkA.jpg",
-      "author_photo_path": "channels/whitedns/media/c322205d09ec0c9d46485ec5.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<b><tg-emoji emoji-id=\"5224450179368767019\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8E.png')\"><b>🌎</b></i></tg-emoji></b><b> پروژه WhiteVPN رو اوپن‌سورس کردیم و در گیتهاب میتونید بهش دسترسی داشته باشید. </b><br><br><a href=\"https://github.com/WhiteDNS/WhiteVPN\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN</a><br><br><b>همراه با پابلیک شدن پروژه، نسخه ۱.</b>۳<b>.</b>۱<b> هم ریلیز کردیم </b><br><br><tg-emoji emoji-id=\"5197371802136892976\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29B8F.png')\"><b>⛏</b></i></tg-emoji> <b>در این نسخه امکان</b><br>• آپدیت اتوماتیک اپ  بعد از یک ورژن جدید<br>• امکان routing برای سایت ها و آی‌پی های ایرانی به تنظیمات اضافه شده تا دیگه نیاز نباشه اتصال رو برای سایت های داخلی قطع کنید.<b> <br></b>• اشتراک گذاری WhiteVPN در شبکه اضافه شده.<br>• حالا میتونید اپ پروکسی اپ در داخل اپ های دیگه مثل سایفون استفاده کنید.<br>• تست سرعت به سابسکریپشن اضافه شده<br><br><br><b>دانلود نسخه جدید از گیت‌هاب </b><br><a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.3.1\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.3.1</a>",
-      "plain_text": "🌎 پروژه WhiteVPN رو اوپن‌سورس کردیم و در گیتهاب میتونید بهش دسترسی داشته باشید.\n\nhttps://github.com/WhiteDNS/WhiteVPN\n\nهمراه با پابلیک شدن پروژه، نسخه ۱.۳.۱ هم ریلیز کردیم\n\n⛏ در این نسخه امکان\n• آپدیت اتوماتیک اپ بعد از یک ورژن جدید\n• امکان routing برای سایت ها و آی‌پی های ایرانی به تنظیمات اضافه شده تا دیگه نیاز نباشه اتصال رو برای سایت های داخلی قطع کنید.\n• اشتراک گذاری WhiteVPN در شبکه اضافه شده.\n• حالا میتونید اپ پروکسی اپ در داخل اپ های دیگه مثل سایفون استفاده کنید.\n• تست سرعت به سابسکریپشن اضافه شده\n\n\nدانلود نسخه جدید از گیت‌هاب\nhttps://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.3.1",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1458",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/dugzNeWu1tOLoha0NigXPfPRb5bEOsDqe0RaNU-vRisxZskST4WKOHhVJ8kj3nFlSe4zmPVHyL05Dy-sjxzmYC0XAxjnuwHZgRgT51w7IJ_gtxSvaAUvt5z9uWrxEtFRDZED_ktVKYqXnAZQKDOf1tMuCQLPO28i8PZc5D6blV0hF20U8ee6XhuFvTupFNTNUQla1djDWK1vjEI2eC-VcO_5SnNC-216TNO6UnCxKyCpvRU-6P7Fo0U6OuPaWNTjAkhVMy45oQ3EVKU4Fnfp6CjgWNng7TnbxPiE31K1uTNlIpNqH-gnI6kTw57W0K_Uc2nV4Xaf0EnnMvczTcYiKQ.jpg",
-          "thumbnail_path": "channels/whitedns/media/dcd5e80674c817e8dc71cff3.jpg",
-          "thumbnail_sha256": "e6bb930c67f891732c9bbaf5dbe6f1de9254c5917a81cefc7e9e7b27203c5cd2",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "15"
-        },
-        {
-          "emoji": "❤",
-          "count": "244"
-        },
-        {
-          "emoji": "👍",
-          "count": "17"
-        },
-        {
-          "emoji": "👏",
-          "count": "5"
-        },
-        {
-          "emoji": "🎉",
-          "count": "5"
-        },
-        {
-          "emoji": "🙏",
-          "count": "4"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🤩",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        },
-        {
-          "emoji": "🍾",
-          "count": "1"
-        }
-      ],
-      "views_label": "12.9K",
-      "posted_at": "2026-08-14T05:25:43+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1458",
       "reply": null
     }
   ]
