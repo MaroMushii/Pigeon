@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-26T17:42:38.919Z",
+  "fetched_at": "2026-08-26T17:46:49.032Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,48 @@
     "subscriber_count": "156K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5063",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/MqI-JbcdN6D_CdSN1wDy5si3Nd0kxvXqf2hX8iT40ztxxjCZrvMfyRNJEKtVnxZp9pi5Eg4KSAzvpCjnTlKS1FgICI3bIYrypCmK-cvY2z12GqUiCTRviP0CuB4-D0b_yQEzv1ZyO4yqYe5ug0F49N4KHz7CQss62AHI25NODTFQF7x_jbEVq0bGVV1BNV58V01s0lTPTMdEvv3zHmbUUPQxktE6piFdGA32QnaXRo4uyD2WASgr4uZCG--jKqXqcwS9DAg5kt4ItECKXeLx-dozpV6fOM38IENOdknfeZNRhP-xiURPTKjqZBaMHuuWZhihmh7oL9EUKYRVf6uZCA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/edf77e4896fea8ae8b067bd6.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "پس خودم این کار رو کردم<br>مقایسه‌ی GLM 5.3 و نسخه‌ی Flashاش که همون Ox Alpha مرموز بود<br><br>- معماری جدید<br>- پشتیبانی از تصویر و ویدئو<br>- هزینه ده برابر کمتر<br>- همون 1M کانتکستی",
+      "plain_text": "پس خودم این کار رو کردم\nمقایسه‌ی GLM 5.3 و نسخه‌ی Flashاش که همون Ox Alpha مرموز بود\n\n- معماری جدید\n- پشتیبانی از تصویر و ویدئو\n- هزینه ده برابر کمتر\n- همون 1M کانتکستی",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5063",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/bcWdIfFaEgXJ6QSuBgHHTkYGbG90SEQ3JykcRQIohayzQXk56Wy8yLBT8-SGkhZH4uZRqlutylEjy9WSd0JATpw_7B-GCF8RJR0BQOKKxYY_QKbqO-xCJ35Xac7OtP4Fjr9Euc2_3-xz9uY2gEGlQCV6cWPLP9XiWN-IUZOwxx_rxkptzLGfqZ6xrhx_aOLKCcoLqgSSH0CWcmw47bgM8tNTwqzpOCJQcH07nceDoSLTQ4DhSqk57ClB-ReUpEw6tkmUWOyzXfPrCYpRsP3M-FywbtlVmVB4EhP_okt7iCn5MkfZZkbcH_zJ97a41fkbWL9YMIsIQeL0GeYIUkXngQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/3e4740ea3978890b9aa62bab.jpg",
+          "thumbnail_sha256": "0adbdf09ba2fb4b260ca40c67195dd986483f88e549cae0399793980cd1c4d7b",
+          "duration_label": null,
+          "aspect_ratio": 0.8050000000000133
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "446",
+      "posted_at": "2026-08-26T17:46:09+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5063",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "5062",
+        "author_name": "Matin SenPai",
+        "preview_text": "توی این بنچمارکا همه‌اش GLM 5.3-Flash رو با GLM 5.2 مقایسه میکنن سؤالم اینه که چرا با خود GLM 5.3 مقایسه نمی‌کنن؟",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/5062"
+      }
+    },
     {
       "id": "MatinSenPaii/5062",
       "author_name": "Matin SenPai",
@@ -23,18 +65,26 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "16"
+          "count": "40"
         },
         {
           "emoji": "😁",
-          "count": "6"
+          "count": "11"
+        },
+        {
+          "emoji": "❤",
+          "count": "2"
         },
         {
           "emoji": "💯",
           "count": "1"
+        },
+        {
+          "emoji": "💔",
+          "count": "1"
         }
       ],
-      "views_label": "786",
+      "views_label": "1.94K",
       "posted_at": "2026-08-26T17:41:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5062",
@@ -97,11 +147,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "176"
+          "count": "180"
         },
         {
           "emoji": "👍",
-          "count": "30"
+          "count": "33"
         },
         {
           "emoji": "😁",
@@ -124,7 +174,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.49K",
+      "views_label": "9.97K",
       "posted_at": "2026-08-26T15:24:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5058",
@@ -180,7 +230,7 @@
         },
         {
           "emoji": "❤",
-          "count": "123"
+          "count": "124"
         },
         {
           "emoji": "😁",
@@ -203,7 +253,7 @@
           "count": "3"
         }
       ],
-      "views_label": "10.3K",
+      "views_label": "10.7K",
       "posted_at": "2026-08-26T15:10:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5055",
@@ -225,7 +275,7 @@
         },
         {
           "emoji": "💔",
-          "count": "147"
+          "count": "148"
         },
         {
           "emoji": "❤",
@@ -244,7 +294,7 @@
           "count": "4"
         }
       ],
-      "views_label": "11.1K",
+      "views_label": "11.4K",
       "posted_at": "2026-08-26T15:02:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5054",
@@ -274,7 +324,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "179"
+          "count": "181"
         },
         {
           "emoji": "😁",
@@ -289,7 +339,7 @@
           "count": "2"
         }
       ],
-      "views_label": "11.3K",
+      "views_label": "11.6K",
       "posted_at": "2026-08-26T15:00:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5053",
@@ -322,7 +372,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.4K",
+      "views_label": "19.5K",
       "posted_at": "2026-08-26T06:50:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5052",
@@ -392,7 +442,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.6K",
       "posted_at": "2026-08-26T02:29:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5051",
@@ -437,7 +487,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.2K",
+      "views_label": "23.3K",
       "posted_at": "2026-08-25T21:59:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5050",
@@ -499,7 +549,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.7K",
       "posted_at": "2026-08-25T20:32:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5049",
@@ -544,7 +594,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.5K",
+      "views_label": "27.6K",
       "posted_at": "2026-08-25T18:51:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5048",
@@ -589,7 +639,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.8K",
+      "views_label": "29.9K",
       "posted_at": "2026-08-25T07:55:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5047",
@@ -679,7 +729,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29.5K",
+      "views_label": "29.6K",
       "posted_at": "2026-08-25T07:51:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5045",
@@ -4723,39 +4773,6 @@
       "posted_at": "2026-08-15T14:00:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4946",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4945",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/FxwLM6eYhhkPQFnDVH3_dtQ_vCTW_0F3onQPDSP9SwEApUdvYcgefvU6vfVB3ZfDsDHgh-zqgH44ozl7iDV-YFqsNUQhNq7TYXZ7VcLp22pIW0vrLB7z7Kn_nod6yRlY16C2NAd7kNbc1dQ54-vQjBO1zAKd_LbngNh7cHlLjTztfFv0aqehTIzqA-wYYJ0rAY-4h0XsBTUZ-sC-Hx466YXSTYLpyRkDFYyvcuUU2zh840EbebwhgQdGKVAG_ix2-TKGGxrhPgmMi9B6coAGwlGDNPirnk9j_Cze-bz_KIobgiB5BKhryirtKP2vQ3gX6E1imeR2_iBigeTCjY2-jg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/197de3848273366d02a4ebef.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "من خودم به لپ تاپم دسترسی ندارم الان. اما Sni Spoof باید جوابگو باشه قاعدتا. اما اون متد تغییر دامین رو هم الان چک کردم و بستن",
-      "plain_text": "من خودم به لپ تاپم دسترسی ندارم الان. اما Sni Spoof باید جوابگو باشه قاعدتا. اما اون متد تغییر دامین رو هم الان چک کردم و بستن",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "💔",
-          "count": "214"
-        },
-        {
-          "emoji": "👍",
-          "count": "13"
-        },
-        {
-          "emoji": "❤",
-          "count": "4"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        }
-      ],
-      "views_label": "20.1K",
-      "posted_at": "2026-08-15T13:59:59+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4945",
       "reply": null
     }
   ]
