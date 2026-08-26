@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-26T03:32:12.518Z",
+  "fetched_at": "2026-08-26T03:41:55.874Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1603",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/EgSuAuL0l5I0OQ_-6s2RWfsD4IJ7MM_ME2ioUIVOJDJMN2TI1QgiF0oB2dfmhrG5SeVBo1qk_4uAI_KZmvai-34dgwyBVW7CeaslXlarIuV74OaKoJrl0JNTthLQv-t7YQeBgKMxZ2cU7J8S9oOaHQW8PpOBnaXtxRLsLgdU1NRkDVABDkGzzgbJPqw9r9Reffk0k4LItpi3upOmK2uL1oxL5kY7VWbWAAk_bqK2nr33j69G_Yk9hjOT_DwSqnZVUe20wTL9yPPjWm96f7rKeYYD2EbC8_n6Ibd-pSVIkWoUvRVCNy0jFMr0Cxlc4UzIgUIFBejBpeNdzudhBPkbtg.jpg",
+      "author_photo_path": "channels/whitedns/media/95340b9493033adf15e8b079.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <b>آپدیت جدید وایت‌استر (WhiteAesther) منتشر شد!</b>&nbsp;نسخه:&nbsp;<b>v1.5.4</b><br><br>در این نسخه تغییرات بسیار جذاب و کاربردی برای راحتی بیشتر شما به برنامه اضافه شده است.<br><br><br><tg-emoji emoji-id=\"5379999674193172777\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94AD.png')\"><b>🔭</b></i></tg-emoji>&nbsp;<b>تغییرات این نسخه:</b><br><br><b><tg-emoji emoji-id=\"5863885503102718533\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji></b>&nbsp;<b>اشتراک‌گذاری اتصال در شبکه داخلی (LAN Share) </b>&nbsp;از این پس می‌توانید اتصال VPN فعال روی سیستم خود را به راحتی با سایر دستگاه‌های متصل به مودم یا شبکه (مثل گوشی موبایل، تلویزیون هوشمند یا لپ‌تاپ‌های دیگر) به اشتراک بگذارید!<br><b><tg-emoji emoji-id=\"5863885503102718533\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji></b>&nbsp;<b>نمایش هوشمند وضعیت گره‌ها (پشتیبانی بهتر از Node ها) </b>&nbsp;مشکل عدم نمایش وضعیت یا کار نکردن بی‌دلیل گره‌ها برطرف شد. حالا گره‌هایی که برنامه به هر دلیلی نمی‌تواند از آن‌ها استفاده کند (مثلاً نیاز به WireGuard دارند یا از پروتکل REALITY پشتیبانی نمی‌کنند) با&nbsp;<b>رنگ نارنجی</b>&nbsp;مشخص می‌شوند. با نگه‌داشتن نشانگر موس روی آن‌ها، می‌توانید دلیل دقیق عدم پشتیبانی را ببینید.<br><b><tg-emoji emoji-id=\"5863885503102718533\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji></b>&nbsp;<b>بهبود مسیریابی کل سیستم (Whole Machine) </b>&nbsp;<i>(تغییرات نسخه 1.5.3)</i>&nbsp;حالت System Proxy حالا به درستی ترافیک کل سیستم را از طریق مسیر زنجیره‌ای فعال (Active Chain) شما عبور می‌دهد.<br><br><br><br><br><tg-emoji emoji-id=\"5379999674193172777\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94AD.png')\"><b>🔭</b></i></tg-emoji>&nbsp;<b>راهنمای استفاده از قابلیت LAN Share (اشتراک اینترنت با گوشی و </b><br><b>تلویزیون):</b><br><br>۱. در برنامه به بخش&nbsp;<b>Settings</b>&nbsp;(تنظیمات) بروید و تب&nbsp;<b>Traffic &amp; DNS</b>&nbsp;را باز کنید.<br> <br>۲. گزینه&nbsp;<b>\"Share this connection on my network\"</b>&nbsp;را فعال کنید. <br>۳. برنامه به شما یک&nbsp;<b>آدرس (IP)</b>&nbsp;و یک&nbsp;<b>پورت</b>&nbsp;(مثلاً 1080) نمایش می‌دهد.<br> <br>۴.&nbsp;<b>امنیت اتصال:</b>&nbsp;در همین بخش می‌توانید یک&nbsp;<b>نام کاربری (Username)</b>&nbsp;و&nbsp;<b>رمز عبور (Password)</b>&nbsp;تعیین کنید تا فقط خودتان بتوانید به آن وصل شوید.&nbsp;<i>(<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> توجه: اگر این دو کادر را خالی بگذارید، هر دستگاهی در شبکه وای‌فای شما می‌تواند بدون رمز از اینترنت آزاد سیستم شما استفاده کند).</i>&nbsp;<br><br>۴. حالا وارد تنظیمات پروکسی (HTTP یا SOCKS5) در گوشی، تلگرام یا تلویزیون خود شوید، آی‌پی و پورت نمایش داده شده را وارد کنید و روی اتصال ضربه بزنید.<br><br><i>(نکته: در اولین استفاده از این قابلیت، فایروال ویندوز از شما یک تاییدیه می‌خواهد که باید روی گزینه&nbsp;<b>Allow Access</b>&nbsp;کلیک کنید تا پورت شبکه باز شود).</i><br><br><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> هم‌اکنون می‌توانید برنامه خود را به آخرین نسخه به‌روزرسانی کنید.<br><br><a href=\"?q=%23%D8%A2%D9%BE%D8%AF%DB%8C%D8%AA\">#آپدیت</a> <a href=\"?q=%23%D9%88%D8%A7%DB%8C%D8%AA_%D8%A7%D8%B3%D8%AA%D8%B1\">#وایت_استر</a> <a href=\"?q=%23WhiteAesther\">#WhiteAesther</a> <a href=\"?q=%23%D9%BE%D8%B1%D9%88%DA%A9%D8%B3%DB%8C\">#پروکسی</a> <a href=\"?q=%23%D8%AA%D9%88%D9%86%D9%84\">#تونل</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "✍️ آپدیت جدید وایت‌استر (WhiteAesther) منتشر شد! نسخه: v1.5.4\n\nدر این نسخه تغییرات بسیار جذاب و کاربردی برای راحتی بیشتر شما به برنامه اضافه شده است.\n\n\n🔭 تغییرات این نسخه:\n\n🟢 اشتراک‌گذاری اتصال در شبکه داخلی (LAN Share)  از این پس می‌توانید اتصال VPN فعال روی سیستم خود را به راحتی با سایر دستگاه‌های متصل به مودم یا شبکه (مثل گوشی موبایل، تلویزیون هوشمند یا لپ‌تاپ‌های دیگر) به اشتراک بگذارید!\n🟢 نمایش هوشمند وضعیت گره‌ها (پشتیبانی بهتر از Node ها)  مشکل عدم نمایش وضعیت یا کار نکردن بی‌دلیل گره‌ها برطرف شد. حالا گره‌هایی که برنامه به هر دلیلی نمی‌تواند از آن‌ها استفاده کند (مثلاً نیاز به WireGuard دارند یا از پروتکل REALITY پشتیبانی نمی‌کنند) با رنگ نارنجی مشخص می‌شوند. با نگه‌داشتن نشانگر موس روی آن‌ها، می‌توانید دلیل دقیق عدم پشتیبانی را ببینید.\n🟢 بهبود مسیریابی کل سیستم (Whole Machine)  (تغییرات نسخه 1.5.3) حالت System Proxy حالا به درستی ترافیک کل سیستم را از طریق مسیر زنجیره‌ای فعال (Active Chain) شما عبور می‌دهد.\n\n\n\n\n🔭 راهنمای استفاده از قابلیت LAN Share (اشتراک اینترنت با گوشی و\nتلویزیون):\n\n۱. در برنامه به بخش Settings (تنظیمات) بروید و تب Traffic & DNS را باز کنید.\n\n۲. گزینه \"Share this connection on my network\" را فعال کنید.\n۳. برنامه به شما یک آدرس (IP) و یک پورت (مثلاً 1080) نمایش می‌دهد.\n\n۴. امنیت اتصال: در همین بخش می‌توانید یک نام کاربری (Username) و رمز عبور (Password) تعیین کنید تا فقط خودتان بتوانید به آن وصل شوید. (⚠️ توجه: اگر این دو کادر را خالی بگذارید، هر دستگاهی در شبکه وای‌فای شما می‌تواند بدون رمز از اینترنت آزاد سیستم شما استفاده کند). \n\n۴. حالا وارد تنظیمات پروکسی (HTTP یا SOCKS5) در گوشی، تلگرام یا تلویزیون خود شوید، آی‌پی و پورت نمایش داده شده را وارد کنید و روی اتصال ضربه بزنید.\n\n(نکته: در اولین استفاده از این قابلیت، فایروال ویندوز از شما یک تاییدیه می‌خواهد که باید روی گزینه Allow Access کلیک کنید تا پورت شبکه باز شود).\n\n✍️ هم‌اکنون می‌توانید برنامه خود را به آخرین نسخه به‌روزرسانی کنید.\n\n#آپدیت #وایت_استر #WhiteAesther #پروکسی #تونل\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1603",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/L4FVD0omrZ9z7oo1zRvnL2SCthQ8TS3NSq464pEjXl5NH3I_1rXTK3b_2sUOyEm72K6ORcn1uS6XSSQIb7ElZJO2CbHMHRfYWzD2alqHoig2ajoOxEqcfXSXLbfbOGHxjyjKvgBObirxRfvZCgY416FU5o8lUE1AvPsIxrCJRvbDrciDCkXnewXITre2TUzgt-agwbDKmLBhJb-1e7wi-9I5P98MQ6B2Rinrc95cblD4aG1Ep3C75Q3sHWPLIZlhYsydVXy7mqdwxwRyNy1RoHggIhQmtKnCcBr0gw8aULbtcgETs-zYoqAgqnUpSZHeGZZB-VPTvDYwlMpwmxBPpw.jpg",
+          "thumbnail_path": "channels/whitedns/media/acf30221ed210c1a74b2d2f9.jpg",
+          "thumbnail_sha256": "10bac1c777103ccbc490053b0950578c6ac9edf782803cf3456f2a3e4deeda1c",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "28",
+      "posted_at": "2026-08-26T03:41:27+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1603",
+      "reply": null
+    },
     {
       "id": "whitedns/1602",
       "author_name": "White DNS",
@@ -35,7 +68,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "244"
+          "count": "245"
         },
         {
           "emoji": "👍",
@@ -60,9 +93,13 @@
         {
           "emoji": "🕊",
           "count": "1"
+        },
+        {
+          "emoji": "😨",
+          "count": "1"
         }
       ],
-      "views_label": "7.89K",
+      "views_label": "7.92K",
       "posted_at": "2026-08-25T16:21:43+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1602",
@@ -164,7 +201,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.08K",
+      "views_label": "2.09K",
       "posted_at": "2026-08-25T13:44:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1600",
@@ -209,7 +246,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.92K",
+      "views_label": "7.93K",
       "posted_at": "2026-08-25T12:33:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1599",
@@ -254,7 +291,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.46K",
+      "views_label": "9.47K",
       "posted_at": "2026-08-25T06:25:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1598",
@@ -873,7 +910,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.41K",
+      "views_label": "6.42K",
       "posted_at": "2026-08-24T03:18:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1581",
@@ -6026,43 +6063,6 @@
       "posted_at": "2026-08-14T05:25:43+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1458",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1457",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/EjTpxFDFyq8wxKjTHvtYNFCZzMXRTgBqRT2-2q4gHmeH832a4qtfRiwb4j4TG8jcL0ZZROEpYMVgus5-rZJCJPYo86_auHRcdte0AuEdSmHetr4OJZJI8iPQveSIFJ-XSxk5x6MnQpYMlZO_dUdg5Rir2RITOVsFnvG9rxY_xhtP1FKQp_H3bes1Qv1Rg2DQP_GSFbjUVjCdfZCuTH1P7PwM_uBqft6KMZs7BqkhCxO-V9voaVMLRdTmCFE756LIYQYYQd86IlZNzC-f80Hpm10v0WS5vODoeXCaamj0FBoRf3Y7emvPvWJDwYJNlh5HMgHA35ie6WOnIeUbd8NDAA.jpg",
-      "author_photo_path": "channels/whitedns/media/6d3284d0ab940e39f656df82.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<b><tg-emoji emoji-id=\"5224450179368767019\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8E.png')\"><b>🌎</b></i></tg-emoji></b><b> نسخه جدید WhiteVPN 1.3.0</b>",
-      "plain_text": "🌎 نسخه جدید WhiteVPN 1.3.0",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "45"
-        },
-        {
-          "emoji": "❤",
-          "count": "20"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "😍",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "1.65K",
-      "posted_at": "2026-08-14T04:15:52+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1457",
       "reply": null
     }
   ]
