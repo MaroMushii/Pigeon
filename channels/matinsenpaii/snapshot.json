@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-26T15:13:55.317Z",
+  "fetched_at": "2026-08-26T15:50:07.307Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,84 @@
     "subscriber_count": "156K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5058",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/MqI-JbcdN6D_CdSN1wDy5si3Nd0kxvXqf2hX8iT40ztxxjCZrvMfyRNJEKtVnxZp9pi5Eg4KSAzvpCjnTlKS1FgICI3bIYrypCmK-cvY2z12GqUiCTRviP0CuB4-D0b_yQEzv1ZyO4yqYe5ug0F49N4KHz7CQss62AHI25NODTFQF7x_jbEVq0bGVV1BNV58V01s0lTPTMdEvv3zHmbUUPQxktE6piFdGA32QnaXRo4uyD2WASgr4uZCG--jKqXqcwS9DAg5kt4ItECKXeLx-dozpV6fOM38IENOdknfeZNRhP-xiURPTKjqZBaMHuuWZhihmh7oL9EUKYRVf6uZCA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/edf77e4896fea8ae8b067bd6.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><b>معرفی GLM-5.3-Flash و ماجرای Ox Alpha</b><br><br>شرکت چینی <a href=\"http://Z.ai/\" target=\"_blank\" rel=\"noopener\">Z.ai</a> بالاخره مدل GLM-5.3-Flash را رسماً معرفی کرد؛ مدلی با ۳۲۰ میلیارد پارامتر (معماری ۳۲۰B-A18B)، لایسنس کاملا متن‌باز MIT، کانتکست یک میلیون توکنی و قابلیت چندوجهی (multimodal)، که به‌طور کامل روی تراشه‌های هوش مصنوعی داخلی چین اجرا می‌شود.<br><br>نکته جالب ماجرا، پیشینه‌ی این مدل است. حدود یک هفته قبل از رونمایی رسمی، یک مدل ناشناس با نام Ox Alpha به‌صورت رایگان روی پلتفرم‌هایی مثل OpenRouter ظاهر شد و به‌سرعت بین توسعه‌دهندگان وایرال شد؛ در عرض چند روز، حجم مصرف توکن آن به رقم نجومی ۴۲ تریلیون توکن در شش روز رسید و صدر جدول‌های استفاده را قبضه کرد. جامعه‌ی فنی با تحلیل نشانه‌های تکنیکال (مثل نوع توکنایزر و کدهای خطای مشخص API) به این نتیجه رسیدند که Ox Alpha احتمالاً نسخه‌ی آزمایشی همین مدل GLM است، تا اینکه بلومبرگ گزارش داد <a href=\"http://Z.ai/\" target=\"_blank\" rel=\"noopener\">Z.ai</a> این حدس را تأیید کرده و وعده‌ی انتشار رسمی وزن‌های مدل را داد. جالب است که Ox Alpha پنجمین مدل ناشناسی بود که طی شش ماه اخیر همین الگو را تکرار کرد (قبلاً Pony Alpha از GLM-5 و Hunter Alpha از Xiaomi هم به همین شکل رونمایی شده بودند).<br><br>از نظر قیمت، GLM-5.3-Flash بسیار رقابتی است: ۰.۱۵ دلار برای هر یک‌میلیون توکن ورودی، ۰.۵۰ دلار برای خروجی و ۰.۰۳ دلار برای ورودی کش‌شده. روی بنچمارک کدنویسی واقعی (Code Bench) در همه‌ی سطوح تلاش از نسخه‌ی قبلی (GLM-5.2) بهتر عمل کرده و با Claude Opus 4.8 برابری می‌کند!<br><br>از نظر معماری هم ترکیبی از MoE، Sparse Attention، Linear Attention و لایه MTP به‌کار رفته که باعث شده حافظه KV-Cache به ازای هر لایه حدود ۴.۴۴ برابر و محاسبات attention به ازای هر توکن حدود ۳ برابر کاهش پیدا کند؛<br><br>خلاصه: هوش وحشتناک بیشتر با محاسبات بسیار کمتر.</div>",
+      "plain_text": "معرفی GLM-5.3-Flash و ماجرای Ox Alpha\n\nشرکت چینی Z.ai بالاخره مدل GLM-5.3-Flash را رسماً معرفی کرد؛ مدلی با ۳۲۰ میلیارد پارامتر (معماری ۳۲۰B-A18B)، لایسنس کاملا متن‌باز MIT، کانتکست یک میلیون توکنی و قابلیت چندوجهی (multimodal)، که به‌طور کامل روی تراشه‌های هوش مصنوعی داخلی چین اجرا می‌شود.\n\nنکته جالب ماجرا، پیشینه‌ی این مدل است. حدود یک هفته قبل از رونمایی رسمی، یک مدل ناشناس با نام Ox Alpha به‌صورت رایگان روی پلتفرم‌هایی مثل OpenRouter ظاهر شد و به‌سرعت بین توسعه‌دهندگان وایرال شد؛ در عرض چند روز، حجم مصرف توکن آن به رقم نجومی ۴۲ تریلیون توکن در شش روز رسید و صدر جدول‌های استفاده را قبضه کرد. جامعه‌ی فنی با تحلیل نشانه‌های تکنیکال (مثل نوع توکنایزر و کدهای خطای مشخص API) به این نتیجه رسیدند که Ox Alpha احتمالاً نسخه‌ی آزمایشی همین مدل GLM است، تا اینکه بلومبرگ گزارش داد Z.ai این حدس را تأیید کرده و وعده‌ی انتشار رسمی وزن‌های مدل را داد. جالب است که Ox Alpha پنجمین مدل ناشناسی بود که طی شش ماه اخیر همین الگو را تکرار کرد (قبلاً Pony Alpha از GLM-5 و Hunter Alpha از Xiaomi هم به همین شکل رونمایی شده بودند).\n\nاز نظر قیمت، GLM-5.3-Flash بسیار رقابتی است: ۰.۱۵ دلار برای هر یک‌میلیون توکن ورودی، ۰.۵۰ دلار برای خروجی و ۰.۰۳ دلار برای ورودی کش‌شده. روی بنچمارک کدنویسی واقعی (Code Bench) در همه‌ی سطوح تلاش از نسخه‌ی قبلی (GLM-5.2) بهتر عمل کرده و با Claude Opus 4.8 برابری می‌کند!\n\nاز نظر معماری هم ترکیبی از MoE، Sparse Attention، Linear Attention و لایه MTP به‌کار رفته که باعث شده حافظه KV-Cache به ازای هر لایه حدود ۴.۴۴ برابر و محاسبات attention به ازای هر توکن حدود ۳ برابر کاهش پیدا کند؛\n\nخلاصه: هوش وحشتناک بیشتر با محاسبات بسیار کمتر.",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5058?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/eIAZRv_v1tM7G7WnudTA2casskdyw2exG4aubhOIhwgMwzejHkucV0wJJHfUZsKBrdl8BAObNGmQquDf8Gbhvf28mlwrmUd4c10Jek5Hy7aA31I5abCOEPPqnH_0JCCuz3uRAsE4lN9Utn5CdtIBRCRYIdiXG5rtMBwBXsbOCfebW1Ow_zso6kJeSYjjiPllkftUTmZ-id14DWWIUyU4REHZLJ1E3nsBD7BQFRg55l0oPjqMDHyTMTCqCHLpnuAhkgEbdhw77BOFzV1YRAAiwwz_0tDfyKAR9bc9O26nYRqtamLdu8t5DdEK4JfQsdRufk13blDiXeN9xHozDBX1Og.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/4ddeb8ea8e35d4f680a1b0b8.jpg",
+          "thumbnail_sha256": "d8d2285d7dcbcee422008cd60bc02a87d9c4c9705978a6ec902c8c733af932df",
+          "duration_label": null,
+          "aspect_ratio": 1.4986301369863
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5059?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/QWriThsldVPxzqWVqvLznCOebUBoHZXJGJO-BRIDIDSEMTslVuPHOTDw21SCAVTJssF6ldwJBCVy9YWxz2_BtDCqjDlpOze9QXAS1T4nU7m-W84W-pgyKdn3aPA7tQH7OjmXn8uRG9j1MYpqylHWG259PuUwqWsO4-i0At4FV5yP7qKzP47XXgd12GZpY6FxEaeIzVoKwPFPgZugjI7El7NHHXhEGXFWXt4yliQIoGmj1Y2shbxmpXB-x_E0FfbWTch6YtE4vQ2QZMQ8ND63WVZ3ZxTlvOIgoMfppuYz3fMeFkDnFnsXpq5pBcApjJh3zPtWA257H2JMMr7aJhoGjg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/6398c0b0879a96109f7c8fff.jpg",
+          "thumbnail_sha256": "24f06315106c8aba223242b3e36e474a81a839dedd1ac1c1c3f38ce60d7a3a45",
+          "duration_label": null,
+          "aspect_ratio": 1.6032064128257
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5060?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/QG9dlcvsca1KI8Bu_dlvh9co31pQsJkQy8M1R39gSQFj4IOPt66UPcSIJlT2bVa8vdXTXZ211886scsH8th9K9TBytM7d08_Zq5_LMIocoj6BfvtH5s8EPPDaUt6yHjQKAnE0LV3bK5iy1OjlujK_JkkM-VFnuBcoyLDYXp-SjNwmixMNFuPn-4Bfr9kUkjHkZLiydXZHIz1tWHz8-88t2WSuw_o6M-R-IKYr4fT0JGQjWd2uePgOjfXV1dcKP9q7Ihuyk47RAwrJNisj-Eb3wWSRjIVWfU9W9ZEl6dbWVfBhxQVXv6RQnQEHbv2Rumazx_yzgTDqbAG5UpNGdDldw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/45b51c6caccfa2c33b095e28.jpg",
+          "thumbnail_sha256": "175ab90df88417534b9614eede452a78ce347d157d0d38815e633f29012c3637",
+          "duration_label": null,
+          "aspect_ratio": 1.4059753954306
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5061?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/jCrDHWZ1eJaCHC2YhGLT59HF8rDF7Hw25s3-3vH4SEyqQEKAUUgekrOVfR45AbYIb7WqidQTKfmI5AFCFoPjMvTlpzpbW-wIrPwwWXDHHLQPMuvCAQkJ-0I-GTmeHT0PO8aPCcxtxHvCBny9SUW1o5Twe39QR-NKviaj-iswQ79DCBQNh1TFpdNQhIe9PslP9SxTB0QtUksVmw8jBv_viiU9cjOgAAepPOLbPZE-IUkH7hmRlk9fC6S8PFadRD_XFfv27wczR6hSl6Pe2MEucnr16RHi8YDI4zXHmBxvQ0xwQq5SHVzjpfmPaSzOj-CivCrYiiVWOC1TXCXLx-DrBw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/32fc3331cfe3bbe569f6681a.jpg",
+          "thumbnail_sha256": "4bdd8e9d6dda35d830e63e20456172a251f67c12dc575eedadbb131d9e5283f1",
+          "duration_label": null,
+          "aspect_ratio": 1.8823529411765
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "87"
+        },
+        {
+          "emoji": "👍",
+          "count": "16"
+        },
+        {
+          "emoji": "🆒",
+          "count": "2"
+        },
+        {
+          "emoji": "💯",
+          "count": "1"
+        }
+      ],
+      "views_label": "4.08K",
+      "posted_at": "2026-08-26T15:24:52+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5058",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5055",
       "author_name": "Matin SenPai",
@@ -61,22 +139,30 @@
         },
         {
           "emoji": "❤",
-          "count": "23"
-        },
-        {
-          "emoji": "🦄",
-          "count": "5"
+          "count": "84"
         },
         {
           "emoji": "😁",
-          "count": "1"
+          "count": "9"
+        },
+        {
+          "emoji": "🦄",
+          "count": "8"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
         },
         {
           "emoji": "🆒",
-          "count": "1"
+          "count": "3"
+        },
+        {
+          "emoji": "💔",
+          "count": "2"
         }
       ],
-      "views_label": "1.27K",
+      "views_label": "5.99K",
       "posted_at": "2026-08-26T15:10:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5055",
@@ -98,26 +184,26 @@
         },
         {
           "emoji": "💔",
-          "count": "54"
+          "count": "103"
         },
         {
           "emoji": "❤",
-          "count": "27"
+          "count": "32"
         },
         {
           "emoji": "😁",
-          "count": "14"
+          "count": "16"
         },
         {
           "emoji": "👍",
-          "count": "6"
+          "count": "11"
         },
         {
           "emoji": "🦄",
           "count": "2"
         }
       ],
-      "views_label": "3.18K",
+      "views_label": "7.24K",
       "posted_at": "2026-08-26T15:02:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5054",
@@ -147,18 +233,22 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "99"
+          "count": "136"
         },
         {
           "emoji": "😁",
-          "count": "11"
+          "count": "14"
         },
         {
           "emoji": "❤",
-          "count": "5"
+          "count": "8"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
         }
       ],
-      "views_label": "3.86K",
+      "views_label": "7.61K",
       "posted_at": "2026-08-26T15:00:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5053",
@@ -176,7 +266,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "108"
+          "count": "114"
         },
         {
           "emoji": "👍",
@@ -191,7 +281,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.9K",
+      "views_label": "18.1K",
       "posted_at": "2026-08-26T06:50:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5052",
@@ -234,11 +324,11 @@
         },
         {
           "emoji": "👍",
-          "count": "175"
+          "count": "177"
         },
         {
           "emoji": "❤",
-          "count": "69"
+          "count": "70"
         },
         {
           "emoji": "😁",
@@ -261,7 +351,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.5K",
+      "views_label": "20.4K",
       "posted_at": "2026-08-26T02:29:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5051",
@@ -283,7 +373,7 @@
         },
         {
           "emoji": "❤",
-          "count": "429"
+          "count": "436"
         },
         {
           "emoji": "👍",
@@ -306,7 +396,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22K",
+      "views_label": "22.3K",
       "posted_at": "2026-08-25T21:59:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5050",
@@ -349,7 +439,7 @@
         },
         {
           "emoji": "❤",
-          "count": "273"
+          "count": "275"
         },
         {
           "emoji": "👍",
@@ -368,7 +458,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.4K",
+      "views_label": "25K",
       "posted_at": "2026-08-25T20:32:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5049",
@@ -390,11 +480,11 @@
         },
         {
           "emoji": "😁",
-          "count": "678"
+          "count": "679"
         },
         {
           "emoji": "❤",
-          "count": "492"
+          "count": "493"
         },
         {
           "emoji": "💔",
@@ -413,7 +503,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.7K",
+      "views_label": "27K",
       "posted_at": "2026-08-25T18:51:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5048",
@@ -435,7 +525,7 @@
         },
         {
           "emoji": "👍",
-          "count": "290"
+          "count": "292"
         },
         {
           "emoji": "❤",
@@ -458,7 +548,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.3K",
+      "views_label": "29.6K",
       "posted_at": "2026-08-25T07:55:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5047",
@@ -476,7 +566,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "267"
+          "count": "269"
         },
         {
           "emoji": "❤",
@@ -495,7 +585,7 @@
           "count": "3"
         }
       ],
-      "views_label": "28.7K",
+      "views_label": "29K",
       "posted_at": "2026-08-25T07:53:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5046",
@@ -525,11 +615,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "204"
+          "count": "205"
         },
         {
           "emoji": "👍",
-          "count": "70"
+          "count": "71"
         },
         {
           "emoji": "❤",
@@ -548,7 +638,7 @@
           "count": "2"
         }
       ],
-      "views_label": "28.9K",
+      "views_label": "29.2K",
       "posted_at": "2026-08-25T07:51:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5045",
@@ -570,7 +660,7 @@
         },
         {
           "emoji": "👍",
-          "count": "489"
+          "count": "491"
         },
         {
           "emoji": "🆒",
@@ -660,7 +750,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "230"
+          "count": "231"
         },
         {
           "emoji": "💔",
@@ -4698,52 +4788,6 @@
         "thumbnail_path": null,
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/4942"
-      }
-    },
-    {
-      "id": "MatinSenPaii/4942",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/FxwLM6eYhhkPQFnDVH3_dtQ_vCTW_0F3onQPDSP9SwEApUdvYcgefvU6vfVB3ZfDsDHgh-zqgH44ozl7iDV-YFqsNUQhNq7TYXZ7VcLp22pIW0vrLB7z7Kn_nod6yRlY16C2NAd7kNbc1dQ54-vQjBO1zAKd_LbngNh7cHlLjTztfFv0aqehTIzqA-wYYJ0rAY-4h0XsBTUZ-sC-Hx466YXSTYLpyRkDFYyvcuUU2zh840EbebwhgQdGKVAG_ix2-TKGGxrhPgmMi9B6coAGwlGDNPirnk9j_Cze-bz_KIobgiB5BKhryirtKP2vQ3gX6E1imeR2_iBigeTCjY2-jg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/197de3848273366d02a4ebef.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "از صبح داشتم پیاماشو میگرفتم. الان برای خودم و دوستام هم قطع شد<br>فکر کنم که ساب‌دامین‌های *.<a href=\"http://Workers.dev/\" target=\"_blank\" rel=\"noopener\">Workers.dev</a> فیلتر شده باز. بررسی می‌کنم",
-      "plain_text": "از صبح داشتم پیاماشو میگرفتم. الان برای خودم و دوستام هم قطع شد\nفکر کنم که ساب‌دامین‌های *.Workers.dev فیلتر شده باز. بررسی می‌کنم",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "273"
-        },
-        {
-          "emoji": "💔",
-          "count": "58"
-        },
-        {
-          "emoji": "❤",
-          "count": "20"
-        },
-        {
-          "emoji": "😁",
-          "count": "3"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "19.5K",
-      "posted_at": "2026-08-15T13:46:07+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/4942",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "4941",
-        "author_name": "Matin SenPai",
-        "preview_text": "",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/4941"
       }
     }
   ]
