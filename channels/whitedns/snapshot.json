@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-27T15:42:13.974Z",
+  "fetched_at": "2026-08-27T15:47:24.652Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,35 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1634",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/O1zsqJ255LgT5Ukaqz2IiLG9dLLRVkK-wHpqoR5pDCXa-2jggB5HlxRacDti_5DVcFGFthg1zS-lmH-0G8IoXA4_Nlqllx_Nd-NK7vO2l2PwN-pjDuzq1huhgFKavqLAv8Jnw5Gh4pZbIn5OjFdxyqSj5Q2EVokhCMsjR8P6feDQaaWE1nLJ1agdMZK8WmBwLHCTJSiYth59eTAWYVtrSIvtJzp3pabqKxL_sMi3j5X3tFIcWabnkn15COdkzGaWIpqag2iN9EA6S8kkKagGF869jr_0KfLgA8fZcqKneap8KFTmbKLSvTDMx2pNN12Z8VgsxAcVOsgAwyl87ksrnw.jpg",
+      "author_photo_path": "channels/whitedns/media/e949376a516faa9033438252.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> نسخه ۱.۲.۳ اندروید WhiteAesther منتشر</b> شد ......!<br><br>در نسخه جدید سه بخش مهم اضافه شده:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> قفل ایمنی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AD.png')\"><b>🧭</b></i> قواعد مسیریابی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> چند تنظیم جدید برای موتور اتصال<br>پایین، همه موارد را همراه با آموزش توضیح داده‌ایم.<br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> ۱. قفل ایمنی — Kill Switch<br><b>چه مشکلی را حل می‌کند؟</b><br>تا الان اگر تونل بعد از چند بار تلاش وصل نمی‌شد، برنامه تسلیم می‌شد و گوشی بی‌صدا به اینترنت معمولی برمی‌گشت.<br>حالا می‌توانید مشخص کنید که در چنین شرایطی، به‌جای برگشت به اینترنت عادی، <b>تمام ترافیک اینترنت مسدود شود.</b><br>آموزش<br>۱) وارد بخش Traffic شوید.<br>۲) بخش Advanced را باز کنید.<br>۳) گزینه زیر را روشن کنید:<br>Block traffic if the tunnel fails<br>تمام! از این به بعد اگر تونل از کار بیفتد، هیچ ترافیکی از گوشی خارج نمی‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i> حالت سخت‌گیرانه‌تر<br>بعد از فعال کردن گزینه بالا، گزینه دیگری ظاهر می‌شود:<br>Keep blocking after you disconnect<br>اگر این گزینه را روشن کنید، <b>حتی زمانی که خودتان اتصال را دستی قطع می‌کنید، اینترنت همچنان مسدود می‌ماند</b> تا خودتان آن را آزاد کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>توجه:</b> در این حالت گوشی واقعاً اینترنت نخواهد داشت. اگر فراموش کنید این گزینه فعال است، ممکن است فکر کنید اینترنت یا شبکه مشکل دارد.<br>برای برداشتن قفل دو راه دارید:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> از نوتیفیکیشن Traffic is blocked<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> یا از صفحه اصلی برنامه و دکمه Lift the block<br>اگر دوباره به تونل متصل شوید، قفل به‌صورت خودکار برداشته می‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AD.png')\"><b>🧭</b></i> ۲. قواعد مسیریابی — Routing Rules<br><b>چه مشکلی را حل می‌کند؟</b><br>بعضی سایت‌ها و اپلیکیشن‌ها با IP خارجی درست کار نمی‌کنند؛ مثل بعضی بانک‌ها، اپ‌های داخلی یا سرویس‌های ایرانی.<br>قبلاً برای استفاده از آنها مجبور بودید VPN را کاملاً خاموش کنید.<br>حالا می‌توانید مشخص کنید که <b>فقط بعضی سایت‌ها یا سرویس‌ها از تونل عبور نکنند</b> و بقیه ترافیک همچنان از تونل استفاده کند.<br>آموزش<br>۱) وارد بخش Routes شوید.<br>۲) در کارت اول، گزینه Routing rules را که زیر Exit chain قرار دارد انتخاب کنید.<br>۳) دو کادر خواهید دید:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>کادر </b>Never connect<br>هر چیزی که اینجا قرار بگیرد، اصلاً اجازه اتصال نخواهد داشت.<br>مناسب برای مسدود کردن تبلیغات، ردیاب‌ها و دامنه‌های ناخواسته.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>کادر </b>Skip the tunnel<br>هر چیزی که اینجا قرار بگیرد، <b>بدون تونل و با IP واقعی شما</b> باز می‌شود.<br>مناسب برای بانک‌ها، سایت‌ها و اپلیکیشن‌های داخلی.<br>هر قانون را در یک خط جداگانه بنویسید.<br>مثال:<br><a href=\"http://bank.example.ir/\" target=\"_blank\" rel=\"noopener\">bank.example.ir</a><br><a href=\"http://digikala.com/\" target=\"_blank\" rel=\"noopener\">digikala.com</a><br><a href=\"http://snapp.ir/\" target=\"_blank\" rel=\"noopener\">snapp.ir</a><br>نوشتن یک دامنه، زیرمجموعه‌های آن را هم شامل می‌شود.<br>برای مثال:<br><a href=\"http://digikala.com/\" target=\"_blank\" rel=\"noopener\">digikala.com</a><br>شامل این مورد هم خواهد شد:<br><a href=\"http://www.digikala.com/\" target=\"_blank\" rel=\"noopener\">www.digikala.com</a><br>حالت‌های پیشرفته<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> فقط همان دامنه دقیق:<br>full:<a href=\"http://example.com/\" target=\"_blank\" rel=\"noopener\">example.com</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> هر آدرسی که یک کلمه خاص داخل آن باشد:<br>keyword:tracker<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> یک محدوده IP:<br>cidr:<a href=\"http://10.0.0.0/8\" target=\"_blank\" rel=\"noopener\">10.0.0.0/8</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> یک پورت مشخص:<br>port:25<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> کل شبکه محلی:<br>private<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> هر خطی که با # شروع شود، به‌عنوان توضیح در نظر گرفته شده و اجرا نمی‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>مهم:</b> هر چیزی که داخل Skip the tunnel قرار دهید، با <b>IP واقعی شما</b> به اینترنت متصل می‌شود. بنابراین این لیست را فقط برای موارد ضروری استفاده کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i> نکته مهم درباره دامنه‌ها<br>در مسیر زیر:<br>Traffic ← Advanced<br>گزینه‌ای وجود دارد با نام:<br>Match rules on domain names<br>این گزینه به‌صورت پیش‌فرض روشن است و بهتر است روشن بماند.<br>اگر آن را خاموش کنید، قوانینی که با نام دامنه نوشته شده‌اند ممکن است کار نکنند؛ چون برنامه در اندروید معمولاً ترافیک را در سطح IP دریافت می‌کند.<br>در صورت خاموش بودن این گزینه، خود صفحه Routing rules نیز هشدار خواهد داد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> ۳. تنظیمات جدید موتور<br>تمام این تنظیمات در مسیر زیر قرار دارند:<br>Traffic ← Advanced<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> تنظیم DNS داخل تونل<br>گزینه:<br>DNS inside the tunnel<br>می‌توانید DNS دلخواه خودتان را وارد کنید.<br>مثال:<br><a href=\"http://8.8.8.8/\" target=\"_blank\" rel=\"noopener\">8.8.8.8</a>,<a href=\"http://1.1.1.1/\" target=\"_blank\" rel=\"noopener\">1.1.1.1</a><br>اگر خالی بگذارید، DNS پیش‌فرض موتور استفاده می‌شود.<br>آدرس‌های نامعتبر نیز به‌صورت خودکار نادیده گرفته می‌شوند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> اتصال تونل از طریق یک پروکسی دیگر<br>گزینه:<br>Dial out through a proxy<br>این قابلیت یکی از مواردی بود که کاربران زیادی درخواست کرده بودند.<br>اگر ابزار دیگری روی گوشی شما در حالت پروکسی فعال است، مثلاً <b>Psiphon</b>، می‌توانید اتصال WhiteAesther را از داخل آن عبور دهید.<br>مسیر اتصال به این شکل می‌شود:<br><b>گوشی ← WhiteAesther ← Psiphon ← اینترنت</b><br>برای مثال اگر پروکسی SOCKS روی پورت ۱۰۸۰ فعال باشد، وارد کنید:<br>socks5://127.0.0.1:1080<br>پورت را باید با پورت واقعی برنامه پروکسی خودتان جایگزین کنید.<br>پروکسی HTTP نیز پشتیبانی می‌شود:<br><a href=\"http://127.0.0.1:8080/\" target=\"_blank\" rel=\"noopener\">http://127.0.0.1:8080</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> تنظیم WireGuard Keepalive<br>این گزینه می‌تواند روی مصرف باتری تأثیر داشته باشد.<br>سه مقدار قابل انتخاب است:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> ۵ ثانیه<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> ۱۵ ثانیه<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> ۲۵ ثانیه<br>مقدار پیش‌فرض در نسخه جدید <b>۲۵ ثانیه</b> است. در نسخه‌های قبلی مقدار پیش‌فرض ۵ ثانیه بود.<br>هر بار که این زمان می‌گذرد، گوشی یک بسته کوچک ارسال می‌کند تا اتصال فعال بماند.<br>در حالت ۵ ثانیه، این کار بسیار بیشتر انجام می‌شود و مخصوصاً روی اینترنت موبایل می‌تواند باعث مصرف بیشتر باتری شود.<br>مقدار ۲۵ ثانیه نیز مقدار رایج استاندارد WireGuard است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> اگر بعد از آپدیت متوجه شدید اتصال WireGuard بعد از چند دقیقه بی‌کاری قطع می‌شود، مقدار را دوباره روی <b>۵ ثانیه</b> قرار دهید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> جایگزینی هویت ردشده<br>گزینه:<br>Replace a refused identity<br>این گزینه به‌صورت پیش‌فرض روشن است.<br>اگر Cloudflare هویت ذخیره‌شده روی گوشی را دیگر قبول نکند، برنامه به‌صورت خودکار یک هویت جدید دریافت می‌کند.<br>بدون این قابلیت ممکن است تونل ظاهراً متصل شود، اما هیچ ترافیکی از آن عبور نکند.</blockquote><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> خلاصه محل تنظیمات<br>بخش <code>Routes</code><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Protocol</code> — مثل قبل<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Endpoint</code> — مثل قبل<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Exit chain</code> — مثل قبل<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Routing rules</code> — <b>جدید</b><br>بخش <code>Traffic ← Advanced</code><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Obfuscation</code> — مثل قبل<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Local proxy port</code> — مثل قبل<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Share with this network</code> — مثل قبل<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>DNS inside the tunnel</code> — <b>جدید</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Dial out through a proxy</code> — <b>جدید</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>WireGuard keepalive</code> — <b>جدید</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Block traffic if the tunnel fails</code> — <b>جدید</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Match rules on domain names</code> — <b>جدید</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>Replace a refused identity</code> — <b>جدید</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> <b>دانلود آخرین نسخه</b><br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>arm64-v8a</code> — مناسب تقریباً همه گوشی‌های سال ۲۰۱۷ به بعد؛ <b>اول این نسخه را امتحان کنید.</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>armeabi-v7a</code> — مخصوص گوشی‌های قدیمی‌تر<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <code>universal</code> — اگر مطمئن نیستید؛ حجم این نسخه تقریباً سه برابر است.<br>اگر با مشکلی مواجه شدید، از مسیر زیر گزارش بگیرید:<br><code>Settings ← Diagnostics</code><br>و برای ما ارسال کنید.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\"><b>@whitedns</b></a>",
+      "plain_text": "🔗 نسخه ۱.۲.۳ اندروید WhiteAesther منتشر شد ......!\n\nدر نسخه جدید سه بخش مهم اضافه شده:\n🛡 قفل ایمنی\n🧭 قواعد مسیریابی\n⚙️ چند تنظیم جدید برای موتور اتصال\nپایین، همه موارد را همراه با آموزش توضیح داده‌ایم.\n🛡 ۱. قفل ایمنی — Kill Switch\nچه مشکلی را حل می‌کند؟\nتا الان اگر تونل بعد از چند بار تلاش وصل نمی‌شد، برنامه تسلیم می‌شد و گوشی بی‌صدا به اینترنت معمولی برمی‌گشت.\nحالا می‌توانید مشخص کنید که در چنین شرایطی، به‌جای برگشت به اینترنت عادی، تمام ترافیک اینترنت مسدود شود.\nآموزش\n۱) وارد بخش Traffic شوید.\n۲) بخش Advanced را باز کنید.\n۳) گزینه زیر را روشن کنید:\nBlock traffic if the tunnel fails\nتمام! از این به بعد اگر تونل از کار بیفتد، هیچ ترافیکی از گوشی خارج نمی‌شود.\n🔸 حالت سخت‌گیرانه‌تر\nبعد از فعال کردن گزینه بالا، گزینه دیگری ظاهر می‌شود:\nKeep blocking after you disconnect\nاگر این گزینه را روشن کنید، حتی زمانی که خودتان اتصال را دستی قطع می‌کنید، اینترنت همچنان مسدود می‌ماند تا خودتان آن را آزاد کنید.\n⚠️ توجه: در این حالت گوشی واقعاً اینترنت نخواهد داشت. اگر فراموش کنید این گزینه فعال است، ممکن است فکر کنید اینترنت یا شبکه مشکل دارد.\nبرای برداشتن قفل دو راه دارید:\n▫️ از نوتیفیکیشن Traffic is blocked\n▫️ یا از صفحه اصلی برنامه و دکمه Lift the block\nاگر دوباره به تونل متصل شوید، قفل به‌صورت خودکار برداشته می‌شود.\n🧭 ۲. قواعد مسیریابی — Routing Rules\nچه مشکلی را حل می‌کند؟\nبعضی سایت‌ها و اپلیکیشن‌ها با IP خارجی درست کار نمی‌کنند؛ مثل بعضی بانک‌ها، اپ‌های داخلی یا سرویس‌های ایرانی.\nقبلاً برای استفاده از آنها مجبور بودید VPN را کاملاً خاموش کنید.\nحالا می‌توانید مشخص کنید که فقط بعضی سایت‌ها یا سرویس‌ها از تونل عبور نکنند و بقیه ترافیک همچنان از تونل استفاده کند.\nآموزش\n۱) وارد بخش Routes شوید.\n۲) در کارت اول، گزینه Routing rules را که زیر Exit chain قرار دارد انتخاب کنید.\n۳) دو کادر خواهید دید:\n🔹 کادر Never connect\nهر چیزی که اینجا قرار بگیرد، اصلاً اجازه اتصال نخواهد داشت.\nمناسب برای مسدود کردن تبلیغات، ردیاب‌ها و دامنه‌های ناخواسته.\n🔹 کادر Skip the tunnel\nهر چیزی که اینجا قرار بگیرد، بدون تونل و با IP واقعی شما باز می‌شود.\nمناسب برای بانک‌ها، سایت‌ها و اپلیکیشن‌های داخلی.\nهر قانون را در یک خط جداگانه بنویسید.\nمثال:\nbank.example.ir\ndigikala.com\nsnapp.ir\nنوشتن یک دامنه، زیرمجموعه‌های آن را هم شامل می‌شود.\nبرای مثال:\ndigikala.com\nشامل این مورد هم خواهد شد:\nwww.digikala.com\nحالت‌های پیشرفته\n▫️ فقط همان دامنه دقیق:\nfull:example.com\n▫️ هر آدرسی که یک کلمه خاص داخل آن باشد:\nkeyword:tracker\n▫️ یک محدوده IP:\ncidr:10.0.0.0/8\n▫️ یک پورت مشخص:\nport:25\n▫️ کل شبکه محلی:\nprivate\n▫️ هر خطی که با # شروع شود، به‌عنوان توضیح در نظر گرفته شده و اجرا نمی‌شود.\n⚠️ مهم: هر چیزی که داخل Skip the tunnel قرار دهید، با IP واقعی شما به اینترنت متصل می‌شود. بنابراین این لیست را فقط برای موارد ضروری استفاده کنید.\n🔸 نکته مهم درباره دامنه‌ها\nدر مسیر زیر:\nTraffic ← Advanced\nگزینه‌ای وجود دارد با نام:\nMatch rules on domain names\nاین گزینه به‌صورت پیش‌فرض روشن است و بهتر است روشن بماند.\nاگر آن را خاموش کنید، قوانینی که با نام دامنه نوشته شده‌اند ممکن است کار نکنند؛ چون برنامه در اندروید معمولاً ترافیک را در سطح IP دریافت می‌کند.\nدر صورت خاموش بودن این گزینه، خود صفحه Routing rules نیز هشدار خواهد داد.\n⚙️ ۳. تنظیمات جدید موتور\nتمام این تنظیمات در مسیر زیر قرار دارند:\nTraffic ← Advanced\n🔹 تنظیم DNS داخل تونل\nگزینه:\nDNS inside the tunnel\nمی‌توانید DNS دلخواه خودتان را وارد کنید.\nمثال:\n8.8.8.8,1.1.1.1\nاگر خالی بگذارید، DNS پیش‌فرض موتور استفاده می‌شود.\nآدرس‌های نامعتبر نیز به‌صورت خودکار نادیده گرفته می‌شوند.\n🔹 اتصال تونل از طریق یک پروکسی دیگر\nگزینه:\nDial out through a proxy\nاین قابلیت یکی از مواردی بود که کاربران زیادی درخواست کرده بودند.\nاگر ابزار دیگری روی گوشی شما در حالت پروکسی فعال است، مثلاً Psiphon، می‌توانید اتصال WhiteAesther را از داخل آن عبور دهید.\nمسیر اتصال به این شکل می‌شود:\nگوشی ← WhiteAesther ← Psiphon ← اینترنت\nبرای مثال اگر پروکسی SOCKS روی پورت ۱۰۸۰ فعال باشد، وارد کنید:\nsocks5://127.0.0.1:1080\nپورت را باید با پورت واقعی برنامه پروکسی خودتان جایگزین کنید.\nپروکسی HTTP نیز پشتیبانی می‌شود:\nhttp://127.0.0.1:8080\n🔹 تنظیم WireGuard Keepalive\nاین گزینه می‌تواند روی مصرف باتری تأثیر داشته باشد.\nسه مقدار قابل انتخاب است:\n▫️ ۵ ثانیه\n▫️ ۱۵ ثانیه\n▫️ ۲۵ ثانیه\nمقدار پیش‌فرض در نسخه جدید ۲۵ ثانیه است. در نسخه‌های قبلی مقدار پیش‌فرض ۵ ثانیه بود.\nهر بار که این زمان می‌گذرد، گوشی یک بسته کوچک ارسال می‌کند تا اتصال فعال بماند.\nدر حالت ۵ ثانیه، این کار بسیار بیشتر انجام می‌شود و مخصوصاً روی اینترنت موبایل می‌تواند باعث مصرف بیشتر باتری شود.\nمقدار ۲۵ ثانیه نیز مقدار رایج استاندارد WireGuard است.\n⚠️ اگر بعد از آپدیت متوجه شدید اتصال WireGuard بعد از چند دقیقه بی‌کاری قطع می‌شود، مقدار را دوباره روی ۵ ثانیه قرار دهید.\n🔹 جایگزینی هویت ردشده\nگزینه:\nReplace a refused identity\nاین گزینه به‌صورت پیش‌فرض روشن است.\nاگر Cloudflare هویت ذخیره‌شده روی گوشی را دیگر قبول نکند، برنامه به‌صورت خودکار یک هویت جدید دریافت می‌کند.\nبدون این قابلیت ممکن است تونل ظاهراً متصل شود، اما هیچ ترافیکی از آن عبور نکند.\n📌 خلاصه محل تنظیمات\nبخش Routes\n▫️ Protocol — مثل قبل\n▫️ Endpoint — مثل قبل\n▫️ Exit chain — مثل قبل\n▫️ Routing rules — جدید\nبخش Traffic ← Advanced\n▫️ Obfuscation — مثل قبل\n▫️ Local proxy port — مثل قبل\n▫️ Share with this network — مثل قبل\n▫️ DNS inside the tunnel — جدید\n▫️ Dial out through a proxy — جدید\n▫️ WireGuard keepalive — جدید\n▫️ Block traffic if the tunnel fails — جدید\n▫️ Match rules on domain names — جدید\n▫️ Replace a refused identity — جدید\n⬇️ دانلود آخرین نسخه\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\n▫️ arm64-v8a — مناسب تقریباً همه گوشی‌های سال ۲۰۱۷ به بعد؛ اول این نسخه را امتحان کنید.\n▫️ armeabi-v7a — مخصوص گوشی‌های قدیمی‌تر\n▫️ universal — اگر مطمئن نیستید؛ حجم این نسخه تقریباً سه برابر است.\nاگر با مشکلی مواجه شدید، از مسیر زیر گزارش بگیرید:\nSettings ← Diagnostics\nو برای ما ارسال کنید.\n\n@whitedns",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
+          "emoji": "🙏",
+          "count": "1"
+        }
+      ],
+      "views_label": "502",
+      "posted_at": "2026-08-27T15:43:36+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1634",
+      "reply": null
+    },
     {
       "id": "whitedns/1633",
       "author_name": "White DNS",
@@ -80,7 +109,7 @@
         },
         {
           "emoji": "❤‍🔥",
-          "count": "142"
+          "count": "143"
         },
         {
           "emoji": "❤",
@@ -88,7 +117,7 @@
         },
         {
           "emoji": "👍",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "💘",
@@ -115,7 +144,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.36K",
+      "views_label": "5.52K",
       "posted_at": "2026-08-27T12:42:09+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1632",
@@ -148,11 +177,11 @@
           "count": "127"
         },
         {
-          "emoji": "👍",
-          "count": "5"
+          "emoji": "👏",
+          "count": "6"
         },
         {
-          "emoji": "👏",
+          "emoji": "👍",
           "count": "5"
         },
         {
@@ -168,7 +197,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.38K",
+      "views_label": "6.44K",
       "posted_at": "2026-08-27T07:07:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1631",
@@ -198,7 +227,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "120"
+          "count": "121"
         },
         {
           "emoji": "👍",
@@ -213,7 +242,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.86K",
+      "views_label": "5.92K",
       "posted_at": "2026-08-27T07:07:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1630",
@@ -704,7 +733,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.9K",
+      "views_label": "13K",
       "posted_at": "2026-08-26T08:22:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1616",
@@ -775,7 +804,7 @@
         },
         {
           "emoji": "❤",
-          "count": "103"
+          "count": "104"
         },
         {
           "emoji": "👍",
@@ -865,7 +894,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "187"
+          "count": "188"
         },
         {
           "emoji": "👍",
@@ -938,7 +967,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "143"
+          "count": "144"
         },
         {
           "emoji": "👍",
@@ -1095,7 +1124,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.87K",
+      "views_label": "3.9K",
       "posted_at": "2026-08-25T13:45:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1601",
@@ -1148,7 +1177,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.67K",
+      "views_label": "7.68K",
       "posted_at": "2026-08-25T13:44:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1600",
@@ -1197,7 +1226,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11K",
+      "views_label": "11.1K",
       "posted_at": "2026-08-25T12:33:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1599",
@@ -5534,47 +5563,6 @@
       "posted_at": "2026-08-15T18:41:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1491",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1490",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/HV1s3RHBBjA1r87LHU3HYsSwDBBP2hSuLwLaflRoPR3qzwL50tuN0rPhKLS2SGdrZKSuhv63gEb0kKe9w6RoZ7SsoprNCSeBovrE0AcB7t_2iZNkNjh5g0Lm5ZfnaX2bFdYBSuQcgHEGiEvdDioqXkIbOJfipus9yYavLEVAXel4iwfqoGKKbx03COKf6tPxvVOhjqUOIe9ZlQ37-fmIi8EKdqhvecjkfZC68FOfoCzyhY2juzVKtfKjK_mqWxjdXQ2VnwzdrQ1nYYeMyFb9e4PYaptt84yLa8H3Zj3lWCOTFOvOi-Vrp6gf4ivX7vZRBkT7umBp3CZ_fzI1SdeIkA.jpg",
-      "author_photo_path": "channels/whitedns/media/c322205d09ec0c9d46485ec5.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "حل مشکل اتصال به کانفیگ‌های BPB و تمام پنل‌های Worker کلودفلر:<br><br>1- آخرین نسخه‌ی Pre-Release نرم‌افزار V2rayNG رو نصب کنید(۲.۳.۴): <a href=\"https://github.com/2dust/v2rayNG/releases/tag/2.3.4\" target=\"_blank\" rel=\"noopener\">https://github.com/2dust/v2rayNG/releases/tag/2.3.4</a><br>یا V2rayN نسخه‌ی 7.24.7 رو از گیتهاب بگیرید<br>برای آیفون هم Sterisand آخرین نسخه کار می‌کنه<br><br>2- <a href=\"https://github.com/Hidden-Node/proxy-builder\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">این پروژه</a> از دوست عزیزمون Hidden-Node با الهام گرفتن از نکته‌ای که Patterniha <a href=\"https://t.me/patt_channel_x/91\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">اینجا</a> گفته بود، نوشته شده و اوپن سورسه و کانفیگتون هم جایی ذخیره نمیشه: <a href=\"http://hidden-node.github.io/proxy-builder\" target=\"_blank\" rel=\"noopener\">http://hidden-node.github.io/proxy-builder</a><br><br>3- وارد سایت بالا که شدید، روی بخش Fragment + Fingerprint کلیک کنید<br><br>4- کانفیگتون رو کپی، و اینجا Paste کنید<br><br>5- پایین، روی Enhance بزنید و بعدش کانفیگ جدید رو کپی و توی<br>v2rayNG&nbsp; 2.3.4&nbsp;<br>v2rayN&nbsp; &nbsp;7.24.7&nbsp;<br>برای آیفون هم Sterisand نسخه آخر<br><br>پیست کنید و به راحتی کار می‌کنه<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "حل مشکل اتصال به کانفیگ‌های BPB و تمام پنل‌های Worker کلودفلر:\n\n1- آخرین نسخه‌ی Pre-Release نرم‌افزار V2rayNG رو نصب کنید(۲.۳.۴): https://github.com/2dust/v2rayNG/releases/tag/2.3.4\nیا V2rayN نسخه‌ی 7.24.7 رو از گیتهاب بگیرید\nبرای آیفون هم Sterisand آخرین نسخه کار می‌کنه\n\n2- این پروژه از دوست عزیزمون Hidden-Node با الهام گرفتن از نکته‌ای که Patterniha اینجا گفته بود، نوشته شده و اوپن سورسه و کانفیگتون هم جایی ذخیره نمیشه: http://hidden-node.github.io/proxy-builder\n\n3- وارد سایت بالا که شدید، روی بخش Fragment + Fingerprint کلیک کنید\n\n4- کانفیگتون رو کپی، و اینجا Paste کنید\n\n5- پایین، روی Enhance بزنید و بعدش کانفیگ جدید رو کپی و توی\nv2rayNG  2.3.4 \nv2rayN   7.24.7 \nبرای آیفون هم Sterisand نسخه آخر\n\nپیست کنید و به راحتی کار می‌کنه\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1490",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/MMbKsf4dUK_ORfrZWH2fYt-SL2nQJ4kWithQuc4k1Dgt7ZmNKZ3INJzqtL1d-UQhMjvo-e1eyJXRf_aGj5hBbBrxYkXiZnwetb5eVl7a-gt_kHT2BNRc9VF16eB_IsQZlZLdzcdlAUkIjrfWM3T_cHnUtL6__9gSuhoKqPBOdD1VQ7Hj5-sPf_Y4XwNmiXqunwv0ynEhKGteNAey9pZuFvWTjzMv_k_l8hBPrYU2mo7aWe8AqprsQv6qCjenN0fwmDwnmt5eHClPUHxYqjykBtxMYN9HmnMJod1_4xvUBvmcqA9gzVTs1NBjg1Dx7gh08mT6SZnX0DSGkDW5ThajlQ.jpg",
-          "thumbnail_path": "channels/whitedns/media/2c0897e26c8263934ce34328.jpg",
-          "thumbnail_sha256": "77526c1a6ed6821c483835d613e4beb1558f7659fc59bf754b21438ea964e333",
-          "duration_label": null,
-          "aspect_ratio": 0.9200000000000257
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "13"
-        },
-        {
-          "emoji": "🫡",
-          "count": "1"
-        }
-      ],
-      "views_label": "255",
-      "posted_at": "2026-08-15T18:35:56+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1490",
       "reply": null
     }
   ]
