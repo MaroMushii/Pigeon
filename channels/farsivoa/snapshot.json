@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-27T19:31:51.065Z",
+  "fetched_at": "2026-08-27T19:37:13.541Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/228589",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/LWUphtZJLtWCBfY_dsaNvvky7sQ7fAFux_n_CNr7vuxRKt5o4ngoKDaPv0EAKYeCLgBang0bHhvsaVH96nHznvTXKAhnTPyhznqK01Q6ayT6C9uET0uGwK-UcvaWt06wWidMnggkdgelS3VMTMsrkyXDFr36aRP__B-Enaum-oBLb6Yml-YWw9Pr1v-SZ_T0avUqxfGHRCnB5Cg5eCUmy2iLJSzMwRN0SyrbYwfD26279ivJ6FVWi2SgjyQjVoJYsj4jY_irw2XByGMTzlCRscGWquF04nHFu7aPFRMyPH5NRRAIVyxcMikZVw-gz68yzGMUiBuOA47yjWIs17zJ_A.jpg",
+      "author_photo_path": "channels/farsivoa/media/a5fe2db18382ca3e37bcc43a.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "دونالد ترامپ، رییس‌جمهوری آمریکا، پنجشنبه، پنجم شهریور، در کاخ سفید به خبرنگاران گفت که تنگه هرمز باز است. او افزود: حکومت ایران ورشکسته شده است. بخشی از پوشش ویژه صدای آمریکا با ترجمه همزمان مهرناز صمیمی.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
+      "plain_text": "دونالد ترامپ، رییس‌جمهوری آمریکا، پنجشنبه، پنجم شهریور، در کاخ سفید به خبرنگاران گفت که تنگه هرمز باز است. او افزود: حکومت ایران ورشکسته شده است. بخشی از پوشش ویژه صدای آمریکا با ترجمه همزمان مهرناز صمیمی.\n@FarsiVOA",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/228589",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/p3RGrgf8jYTdYWxb1TCVAya6AxanhSboL1KbgitPQ5tvBmu1Kz7U1AindjODCtl6TekkAkJVtG2Jo7RFvPgRCkXeU9kG7x89lhcSs2MEtM7BulMwx1sF_mHW8z5oAU8ukQSmfShh6_QNkL5DpkBRFzbRWhYUh5CK2PGCkdU2rF2_JXmdurWERXdfxamjEvmNFRfBqXCVnfV94WwUR8SerVIfD_yL0uwK_iYrPwLlE8xm9bHdZe1VbiwgtLHNBWKBw49WtA95yLAVeSs8AWce4bV-vq7JMElp6x2tNmUCEKysTdZ-zCswpcWPC-Wekz0xK2GVxGWdzU9AsRrJu2qJzw",
+          "thumbnail_path": "channels/farsivoa/media/1e6dbfaeab6914032586f163.jpg",
+          "thumbnail_sha256": "7ed82120ae29b39aba808a8e134c14893554e9091080ba911f2a435f9ab2351c",
+          "duration_label": "2:15",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "283",
+      "posted_at": "2026-08-27T19:33:43+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/228589",
+      "reply": null
+    },
+    {
       "id": "farsivoa/228588",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/LWUphtZJLtWCBfY_dsaNvvky7sQ7fAFux_n_CNr7vuxRKt5o4ngoKDaPv0EAKYeCLgBang0bHhvsaVH96nHznvTXKAhnTPyhznqK01Q6ayT6C9uET0uGwK-UcvaWt06wWidMnggkdgelS3VMTMsrkyXDFr36aRP__B-Enaum-oBLb6Yml-YWw9Pr1v-SZ_T0avUqxfGHRCnB5Cg5eCUmy2iLJSzMwRN0SyrbYwfD26279ivJ6FVWi2SgjyQjVoJYsj4jY_irw2XByGMTzlCRscGWquF04nHFu7aPFRMyPH5NRRAIVyxcMikZVw-gz68yzGMUiBuOA47yjWIs17zJ_A.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺هکرهای روسی‌زبان با استفاده از هوش مصنوعی به دست‌کم ۷ شرکت نفوذ کردند\n\n◾️گروهی از مجرمان سایبری روسی‌زبان با استفاده از دستیار برنامه‌نویسی مبتنی بر هوش مصنوعی «کرسر» موفق شدند به شبکه‌های دست‌کم ۷ شرکت در کشورهای مختلف نفوذ کنند؛ رخدادی که نشان‌دهنده افزایش استفاده هکرها از ابزارهای تجاری هوش مصنوعی برای تسریع حملات سایبری است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/russian-speaking-cybercriminals-used-spacex-ai-tool-for-hacking/8191164.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "64",
+      "views_label": "413",
       "posted_at": "2026-08-27T19:31:04+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228588",
@@ -37,7 +65,7 @@
       "plain_text": "🔺پرزیدنت ترامپ: تنگه هرمز باز است و رژیم ایران تحت محاصره دریایی آمریکا قرار دارد\n\n◾️دونالد ترامپ، رئیس‌ جمهوری آمریکا، پنجشنبه ۵ شهریور گفت جمهوری اسلامی با «مشکلات عمیقی» روبه‌رو است، و ایالات متحده ضمن تضعیف بیشتر توان دریایی آن، ایران را تحت محاصره دریایی قرار داده است، و عبور نفت از تنگه هرمز همچنان ادامه دارد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/president-trump-says-iran-under-us-naval-blockade/8191146.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "251",
+      "views_label": "510",
       "posted_at": "2026-08-27T19:28:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228587",
@@ -53,7 +81,7 @@
       "plain_text": "🔺تداوم دشمنی جمهوری اسلامی با زنان؛ پرونده‌سازی برای یک دختر ۲۳ ساله و بازداشت دو زن بهائی در اصفهان\n\n◾️منابع حقوق بشری روز پنجشنبه ۵ شهریور در گزارش‌هایی از تداوم حرکت ماشین سرکوب جمهوری اسلامی، اعلام کردند قوه قضائیه این رژیم یک دختر دانشجوی ۲۳ را با اتهام تازه «سب‌النبی» روبرو و دو زن بهائی را در اصفهان بازداشت کرده است. برای چند معترض دیگر هم احکام حبس و محدودیت‌های دیگر صادر شده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/imprisonment-of-protesters-in-iran/8191165.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "481",
+      "views_label": "642",
       "posted_at": "2026-08-27T19:24:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228586",
@@ -69,7 +97,7 @@
       "plain_text": "🔺پرزیدنت ترامپ با امضای فرمانی اجرایی نام «دریاچه انتاریو» را به «دریاچه آمریکا» تغییر داد\n\n◾️دونالد ترامپ، رئیس‌ جمهوری آمریکا، روز پنجشنبه ۵ شهریور با امضای یک فرمان اجرایی در کاخ سفید، نام «دریاچه انتاریو» را به «دریاچه آمریکا» تغییر داد و گفت این تصمیم بلافاصله اجرایی می‌شود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/president-trump-renames-lake-ontario-lake-america/8191147.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "643",
+      "views_label": "772",
       "posted_at": "2026-08-27T19:20:49+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/228585",
@@ -85,7 +113,7 @@
       "plain_text": "🔺پیتر کالن، صداپیشه محبوب فیلم و کارتون، در ۸۵ سالگی درگذشت\n\n◾️پیتر کالن، صداپیشه سرشناس کانادایی که بیش از چهار دهه صدای شخصیت «اپتیموس پرایم» در مجموعه «ترنسفورمرز» بود و با صدای خود به شماری از به‌یادماندنی‌ترین شخصیت‌های فیلم و کارتون جان بخشید، روز چهارشنبه در ۸۵ سالگی درگذشت.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/legendary-voice-actor-peter-cullen-dies-eighty-five/8191100.html?withmediaplayer=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.3K",
+      "views_label": "1.4K",
       "posted_at": "2026-08-27T18:57:46+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228584",
@@ -113,7 +141,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.31K",
+      "views_label": "1.4K",
       "posted_at": "2026-08-27T18:53:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228583",
@@ -129,7 +157,7 @@
       "plain_text": "🔺رئیس پیشین موساد: ترکیبی از فشار اقتصادی، عملیات، و اعتراضات مردمی سقوط رژیم ایران را رقم خواهد زد\n\n◾️دیوید بارنیا، رئیس پیشین سازمان اطلاعات خارجی اسرائیل «موساد»، می‌گوید جمهوری اسلامی در نهایت در اثر ترکیبی از فشارهای اقتصادی، عملیات علیه حکومت، و اعتراضات مردم ایران سقوط خواهد کرد، و تحریم‌ها به تنهایی برای رسیدن به این هدف کافی نیستند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/ex-mossad-chief-says-iran-regime-will-fall-through-mix-of-operations/8191132.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.63K",
+      "views_label": "1.72K",
       "posted_at": "2026-08-27T18:40:51+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/228582",
@@ -157,7 +185,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.74K",
+      "views_label": "1.81K",
       "posted_at": "2026-08-27T18:28:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228581",
@@ -173,7 +201,7 @@
       "plain_text": "🔺مرگ مشکوک یک زندانی سیاسی در زندان دستگرد اصفهان؛ تزریق آمپول یا فراگیری بیماری‌های عفونی\n\n◾️کانون حقوق بشر ایران روز پنجشنبه ۵ مرداد از مرگ مشکوک علی هاشمی، زندانی محبوس در زندان دستگرد اصفهان، خبر داد و اعلام کرد بیماری‌های کشنده عفونی در این زندان گسترش پیدا کرده‌اند. علاوه بر این، پیش از مرگ هاشمی آمپولی به او تزریق شده بود.\n\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-human-rights-isfahan-prison/8191128.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.8K",
+      "views_label": "1.9K",
       "posted_at": "2026-08-27T18:25:19+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/228580",
@@ -201,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.07K",
+      "views_label": "2.13K",
       "posted_at": "2026-08-27T18:09:06+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228579",
@@ -229,7 +257,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2K",
+      "views_label": "2.06K",
       "posted_at": "2026-08-27T18:06:04+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228578",
@@ -257,7 +285,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.1K",
+      "views_label": "2.19K",
       "posted_at": "2026-08-27T17:59:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228577",
@@ -285,7 +313,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.32K",
+      "views_label": "2.42K",
       "posted_at": "2026-08-27T17:42:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228576",
@@ -313,7 +341,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.52K",
+      "views_label": "2.59K",
       "posted_at": "2026-08-27T17:32:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228575",
@@ -329,7 +357,7 @@
       "plain_text": "🔺یوفا در تدارک شکایت کیفری علیه رئیس فیفا؛ درخواست دریافت اسناد از آمریکا\n\n◾️اتحادیه فوتبال اروپا «یوفا» از یک دادگاه فدرال آمریکا خواسته است اجازه دسترسی به اسناد و شهادت‌هایی مرتبط با «فیفا» را صادر کند تا از آنها در یک شکایت کیفری احتمالی در سوئیس علیه جانی اینفانتینو، رئیس فدراسیون جهانی فوتبال، استفاده کند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/uefa-asks-us-court-for-fifa-documents-against-infantino/8191111.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.59K",
+      "views_label": "2.65K",
       "posted_at": "2026-08-27T17:26:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228574",
@@ -357,7 +385,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.3K",
+      "views_label": "2.33K",
       "posted_at": "2026-08-27T17:20:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228573",
@@ -385,7 +413,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.46K",
+      "views_label": "2.49K",
       "posted_at": "2026-08-27T17:09:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228572",
@@ -413,7 +441,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.21K",
+      "views_label": "2.24K",
       "posted_at": "2026-08-27T17:07:17+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228571",
@@ -429,7 +457,7 @@
       "plain_text": "🔴📢‌ پادکست تفسیر خبر- پنجشنبه ۵ شهریور\n\n🛜در صورتی که با مشکل اینترنت مواجه هستید میتوانید اخبار صدای آمریکا را از نسخه‌های پادکست خبری ما به صورت صوتی دنبال کنید و یا اخبار را از نسخه سبک وب‌سایت ما پیگیر باشید:\nhttps://ir.voanews.com/lite\n\n📡بروزترین فرکانسهای ماهواره‌ای را نیز میتوانید از صفحه زیر پیگیری کنید:\nhttps://ir.voanews.com/satellite\n\n🔔دیگر شبکه‌های اجتماعی ما را هم دنبال کنید:\nhttps://linktr.ee/voafarsi\n\nبا دوستانتان به اشتراک بگذارید\n@farsivoa",
       "media": [],
       "reactions": [],
-      "views_label": "2.3K",
+      "views_label": "2.34K",
       "posted_at": "2026-08-27T17:06:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228570",
@@ -2421,34 +2449,6 @@
       "posted_at": "2026-08-26T20:21:51+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228490",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/228489",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/LWUphtZJLtWCBfY_dsaNvvky7sQ7fAFux_n_CNr7vuxRKt5o4ngoKDaPv0EAKYeCLgBang0bHhvsaVH96nHznvTXKAhnTPyhznqK01Q6ayT6C9uET0uGwK-UcvaWt06wWidMnggkdgelS3VMTMsrkyXDFr36aRP__B-Enaum-oBLb6Yml-YWw9Pr1v-SZ_T0avUqxfGHRCnB5Cg5eCUmy2iLJSzMwRN0SyrbYwfD26279ivJ6FVWi2SgjyQjVoJYsj4jY_irw2XByGMTzlCRscGWquF04nHFu7aPFRMyPH5NRRAIVyxcMikZVw-gz68yzGMUiBuOA47yjWIs17zJ_A.jpg",
-      "author_photo_path": "channels/farsivoa/media/a5fe2db18382ca3e37bcc43a.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "مهدی قدسی در برنامه تفسیر خبر: جمهوری اسلامی یک نظام فساد خیز است<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "مهدی قدسی در برنامه تفسیر خبر: جمهوری اسلامی یک نظام فساد خیز است\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/228489",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/U5kZE7oWiR529bRUeg0_NCxTYLOQkEfiWzUArpUfZrYmK4ZmbpICF5G-ngqCuSbPmDgITgsxVdpwVMK8JWibhojoXZ2zV2Knh-CTXAoq-pERY4ZCWPvxRe2HmG7I1RcPmdWff3lC8un5q8fQoaQ8_VJDtz0ueZXt_fkS9NvuI_jxfhEjG6pLHerW0oDE7Cb3oFwL8xkAslecyR2sRN_7XUYK-brRWvJ3S0w1KKUh935z6ZuC5vvnQPOsRUnk5YE0GvVWgQfiPLATJ9eVq8sfoKHkpQQtpCPAU_ERc29ycs_INhzgwnAKZ8anJRoKJfP4EPL4NwFeAxvQR6phRnBtZg",
-          "thumbnail_path": "channels/farsivoa/media/f086996952bbe80663d593c7.jpg",
-          "thumbnail_sha256": "7ce71af3cc71808d96fdbb9a342f9caf0af89516e37a0de9c4cbc7bea3150673",
-          "duration_label": "0:39",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.36K",
-      "posted_at": "2026-08-26T20:19:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/228489",
       "reply": null
     }
   ]
