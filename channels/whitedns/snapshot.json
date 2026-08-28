@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-28T02:11:49.046Z",
+  "fetched_at": "2026-08-28T02:16:45.604Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,60 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1641",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/O1zsqJ255LgT5Ukaqz2IiLG9dLLRVkK-wHpqoR5pDCXa-2jggB5HlxRacDti_5DVcFGFthg1zS-lmH-0G8IoXA4_Nlqllx_Nd-NK7vO2l2PwN-pjDuzq1huhgFKavqLAv8Jnw5Gh4pZbIn5OjFdxyqSj5Q2EVokhCMsjR8P6feDQaaWE1nLJ1agdMZK8WmBwLHCTJSiYth59eTAWYVtrSIvtJzp3pabqKxL_sMi3j5X3tFIcWabnkn15COdkzGaWIpqag2iN9EA6S8kkKagGF869jr_0KfLgA8fZcqKneap8KFTmbKLSvTDMx2pNN12Z8VgsxAcVOsgAwyl87ksrnw.jpg",
+      "author_photo_path": "channels/whitedns/media/e949376a516faa9033438252.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "مطالب اموزشی نسخه 1.6.0 دسکتاپ whiteaesther <tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5256047523620995497\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br>خلاصه : <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A7.png')\"><b>🔧</b></i> <b>تغییرات و قابلیت‌های جدید</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>حالت </b><code>Full Tunnel</code><br>یک کارت شبکهٔ مجازی ایجاد می‌کند تا تمام ترافیک سیستم از تونل عبور کند؛ حتی برنامه‌هایی که تنظیمات Proxy را نادیده می‌گیرند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>خروج سایت‌های ایرانی از تونل</b><br>شامل ۲۹۰۶ رنج IP و ۴۱٬۷۲۹ دامنه ایرانی است که مستقیماً داخل خود برنامه قرار گرفته‌اند و نیازی به دانلود جداگانه ندارند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>دریافت خودکار دسترسی Administrator</b><br>هر زمان دسترسی ادمین لازم باشد، برنامه خودش پیام تأیید ویندوز را نمایش می‌دهد و با سطح دسترسی لازم دوباره اجرا می‌شود. دیگر نیازی به راست‌کلیک و انتخاب <code>Run as administrator</code> نیست.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>اطلاع‌رسانی نسخه‌های جدید</b><br>در صورت انتشار نسخه جدید، یک نوار اطلاع‌رسانی بالای برنامه ظاهر می‌شود که با یک کلیک شما را به صفحه دانلود می‌برد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>چهار تنظیم جدید موتور</b><br>تنظیمات بیشتری برای موارد زیر اضافه شده است:<br><code>Local Proxy</code><br><code>Domain Sniffing</code><br><code>Identity Re-registration</code><br><code>Keepalive</code><br>مقدار پیش‌فرض <code>Keepalive</code> نیز از ۵ ثانیه به ۲۵ ثانیه تغییر کرده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>عبور مستقیم ترافیک شبکه محلی</b><br>ترافیک دستگاه‌های داخل شبکه مثل Printer، Router و NAS دیگر به نود خروجی فرستاده نمی‌شود و مستقیماً در شبکه محلی باقی می‌ماند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>رفع مشکل آیکون‌های مرده در Taskbar</b><br>حالا در تمام حالت‌های خروج از برنامه، آیکون آن به‌درستی از Taskbar و System Tray حذف می‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>حذف اتصال خودکار</b><br>برنامه دیگر بدون اجازه کاربر به‌صورت خودکار متصل نمی‌شود. زمان اتصال کاملاً در اختیار شماست.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>باز شدن صحیح پنجره با کلیک روی آیکون برنامه</b><br>مشکلی که در حالت اجرای برنامه با دسترسی Administrator باعث می‌شد ویندوز فرمان باز شدن پنجره را مسدود کند، برطرف شده است.<br><br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> <b>۱. حالت Full Tunnel — جلوگیری کامل از DNS Leak</b><br>تا الان دو حالت داشتیم:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> فقط همین برنامه<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> کل دستگاه<br>مشکل حالت دوم این بود که فقط برنامه‌هایی را پوشش می‌داد که از تنظیمات Proxy ویندوز استفاده می‌کنند.<br>خیلی از برنامه‌ها این تنظیمات را نادیده می‌گیرند و مستقیماً به اینترنت یا DNS وصل می‌شوند. در نتیجه ممکن بود بخشی از ترافیک خارج از تونل عبور کند.<br>حالت جدید <b>Full Tunnel</b> یک کارت شبکه مجازی ایجاد می‌کند و <b>تمام ترافیک سیستم</b> را از تونل عبور می‌دهد؛ حتی برنامه‌هایی که Proxy سیستم را نادیده می‌گیرند.<br>این حالت بهترین گزینه برای جلوگیری از DNS Leak است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>روش فعال‌سازی</b><br>۱. برنامه را باز کنید و متصل شوید.<br>۲. پایین صفحه اصلی سه حالت وجود دارد.<br>۳. گزینه سوم یعنی Full Tunnel را انتخاب کنید.<br>۴. ویندوز برای دسترسی لازم از شما اجازه می‌خواهد. گزینه Yes را بزنید.<br>۵. برنامه به‌صورت خودکار بسته و دوباره با دسترسی لازم اجرا می‌شود.<br>دیگر لازم نیست روی برنامه راست‌کلیک کرده و Run as administrator را انتخاب کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> <b>برای تست</b><br>بعد از اتصال، سایت زیر را باز کنید:<br><a href=\"http://dnsleaktest.com/\" target=\"_blank\" rel=\"noopener\">dnsleaktest.com</a><br>سپس گزینه Extended Test را اجرا کنید.<br>سرورهای نمایش‌داده‌شده باید مربوط به کشور نودی باشند که به آن متصل شده‌اید.<br>━━━━━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87AEF09F87B7.png')\"><b>🇮🇷</b></i> <b>۲. خروج خودکار سایت‌های ایرانی از تونل</b><br>دیگر لازم نیست برای باز کردن بانک‌ها، دیجی‌کالا، آپارات و سرویس‌های داخلی، هر بار VPN را خاموش کنید.<br>سایت‌های داخلی معمولاً نیازی به عبور از تونل ندارند. عبور آنها از تونل فقط می‌تواند سرعت را کاهش دهد و پهنای باند نود را مصرف کند.<br>حالا می‌توانید کاری کنید که:<br><b>سایت‌های ایرانی مستقیم باز شوند و بقیه ترافیک از تونل عبور کند.</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>روش فعال‌سازی</b><br>به مسیر زیر بروید:<br>Advanced → Traffic &amp; DNS → Routing Rules<br>سپس گزینه زیر را روشن کنید:<br>Iranian sites bypass the tunnel<br>لیست موردنیاز داخل خود برنامه قرار دارد و شامل:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> ۲۹۰۶ رنج IP ایران<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> ۴۱٬۷۲۹ دامنه<br>است.<br>هیچ فایلی هنگام اتصال دانلود نمی‌شود؛ بنابراین این قابلیت حتی زمانی که دسترسی آزاد به اینترنت ندارید نیز قابل استفاده است.<br>━━━━━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> <b>۳. اشتراک اینترنت با گوشی، تلویزیون و دستگاه‌های دیگر</b><br>حالا می‌توانید کامپیوتر خود را به یک Proxy Server تبدیل کنید و دستگاه‌های دیگر را از طریق آن به اینترنت متصل کنید.<br>بدون نیاز به نصب WhiteAesther روی گوشی.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>روش فعال‌سازی</b><br>به مسیر زیر بروید:<br>Advanced → Traffic &amp; DNS<br>در بخش:<br>Share with other devices<br>گزینه اشتراک‌گذاری را روشن کنید.<br>برنامه یک آدرس مشابه این نمایش می‌دهد:<br><a href=\"http://192.168.1.24:1080/\" target=\"_blank\" rel=\"noopener\">192.168.1.24:1080</a><br>بار اول ویندوز ممکن است از شما اجازه Firewall بخواهد.<br>گزینه:<br>Allow access<br>را انتخاب کنید.<br>اگر اجازه ندهید، Proxy فقط روی همان کامپیوتر قابل استفاده خواهد بود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> <b>در Android</b><br>وارد تنظیمات Wi-Fi شوید.<br>شبکه متصل را باز کنید و به بخش تنظیمات Proxy بروید.<br>حالت Proxy را روی Manual قرار دهید.<br>برای مثال:<br>Hostname: <a href=\"http://192.168.1.24/\" target=\"_blank\" rel=\"noopener\">192.168.1.24</a><br>Port: 1080<br>همان IP و پورتی را وارد کنید که WhiteAesther نمایش داده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> <b>در iPhone</b><br>به مسیر زیر بروید:<br>Settings → Wi-Fi<br>روی علامت (i) کنار شبکه بزنید.<br>سپس:<br>Configure Proxy → Manual<br>را انتخاب کرده و IP و Port نمایش‌داده‌شده در WhiteAesther را وارد کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> <b>نکته امنیتی مهم</b><br>اگر Username و Password تعیین نکنید، <b>هر دستگاهی که به همان شبکه Wi-Fi متصل باشد می‌تواند از Proxy شما استفاده کند.</b><br>در شبکه خانگی شاید این موضوع مهم نباشد، اما در محل کار، دانشگاه، هتل یا کافه حتماً هر دو فیلد زیر را پر کنید:<br>Username<br>Password<br>خود برنامه نیز در صورت خالی بودن آنها با یک هشدار زرد به شما اطلاع می‌دهد.<br>یک Port برای هر دو پروتکل استفاده می‌شود:<br>HTTP<br>و<br>SOCKS5<br>بنابراین همان شماره Port را برای هرکدام که دستگاه شما پشتیبانی می‌کند وارد کنید.<br>━━━━━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> <b>۴. پشتیبانی بهتر از Hysteria2 و TUIC</b><br>اگر در Subscription شما نودهای Hysteria2 وجود داشتند و همیشه علامت — نمایش داده می‌شد، این مشکل اکنون برطرف شده است.<br>مشکل از اندازه Packet بود.<br>این پروتکل‌ها Packetهایی با اندازه حدود ۱۲۸۰ بایت ارسال می‌کنند، در حالی که تونل قبلی فقط ۱۲۵۲ بایت ظرفیت داشت.<br>در نتیجه حدود <b>۲۸ بایت کمبود ظرفیت</b> باعث می‌شد Packet قبل از ارسال حذف شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>روش استفاده</b><br>به مسیر زیر بروید:<br>Advanced → Routes &amp; Transports<br>سپس Protocol را روی:<br>WireGuard<br>قرار دهید.<br>برای این نودها از MASQUE استفاده نکنید.<br>در حالت MASQUE این محدودیت از سمت Cloudflare وجود دارد و برنامه نیز کنار نود توضیح می‌دهد که چرا قابل استفاده نیست.<br>━━━━━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9494.png')\"><b>🔔</b></i> <b>۵. اطلاع‌رسانی نسخه‌های جدید</b><br>از این نسخه به بعد، وقتی نسخه جدید WhiteAesther منتشر شود، خود برنامه به شما اطلاع می‌دهد.<br>یک نوار اطلاع‌رسانی در بالای برنامه نمایش داده می‌شود.<br>با زدن گزینه:<br>Get it<br>مستقیماً وارد صفحه دانلود نسخه جدید خواهید شد.<br>━━━━━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A7.png')\"><b>🔧</b></i> <b>سایر تغییرات</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> نودهای REALITY حالا با برچسب Not Supported مشخص می‌شوند.<br>موتور فعلی از آنها پشتیبانی نمی‌کند، بنابراین بهتر است وضعیت آنها واضح باشد تا اینکه نودی نمایش داده شود که هیچ‌وقت متصل نمی‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> Subscriptionها کامل‌تر پردازش می‌شوند و مشکل جا افتادن بعضی نودها برطرف شده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> مشکل باقی ماندن آیکون‌های قدیمی برنامه در Taskbar برطرف شده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> برنامه دیگر به‌صورت خودکار متصل نمی‌شود. تصمیم برای اتصال کاملاً با کاربر است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> تنظیمات بیشتری برای Local Proxy، Keepalive و گزینه‌های پیشرفته اضافه شده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> موتور برنامه به نسخه زیر ارتقا پیدا کرده است:<br>Aether 1.7.0</blockquote><br><a href=\"https://t.me/WhiteDNS_Laurie\" target=\"_blank\">@WhiteDNS_Laurie</a>",
+      "plain_text": "مطالب اموزشی نسخه 1.6.0 دسکتاپ whiteaesther 🔥🔥\n\nخلاصه :\n🔧 تغییرات و قابلیت‌های جدید\n▫️ حالت Full Tunnel\nیک کارت شبکهٔ مجازی ایجاد می‌کند تا تمام ترافیک سیستم از تونل عبور کند؛ حتی برنامه‌هایی که تنظیمات Proxy را نادیده می‌گیرند.\n▫️ خروج سایت‌های ایرانی از تونل\nشامل ۲۹۰۶ رنج IP و ۴۱٬۷۲۹ دامنه ایرانی است که مستقیماً داخل خود برنامه قرار گرفته‌اند و نیازی به دانلود جداگانه ندارند.\n▫️ دریافت خودکار دسترسی Administrator\nهر زمان دسترسی ادمین لازم باشد، برنامه خودش پیام تأیید ویندوز را نمایش می‌دهد و با سطح دسترسی لازم دوباره اجرا می‌شود. دیگر نیازی به راست‌کلیک و انتخاب Run as administrator نیست.\n▫️ اطلاع‌رسانی نسخه‌های جدید\nدر صورت انتشار نسخه جدید، یک نوار اطلاع‌رسانی بالای برنامه ظاهر می‌شود که با یک کلیک شما را به صفحه دانلود می‌برد.\n▫️ چهار تنظیم جدید موتور\nتنظیمات بیشتری برای موارد زیر اضافه شده است:\nLocal Proxy\nDomain Sniffing\nIdentity Re-registration\nKeepalive\nمقدار پیش‌فرض Keepalive نیز از ۵ ثانیه به ۲۵ ثانیه تغییر کرده است.\n▫️ عبور مستقیم ترافیک شبکه محلی\nترافیک دستگاه‌های داخل شبکه مثل Printer، Router و NAS دیگر به نود خروجی فرستاده نمی‌شود و مستقیماً در شبکه محلی باقی می‌ماند.\n▫️ رفع مشکل آیکون‌های مرده در Taskbar\nحالا در تمام حالت‌های خروج از برنامه، آیکون آن به‌درستی از Taskbar و System Tray حذف می‌شود.\n▫️ حذف اتصال خودکار\nبرنامه دیگر بدون اجازه کاربر به‌صورت خودکار متصل نمی‌شود. زمان اتصال کاملاً در اختیار شماست.\n▫️ باز شدن صحیح پنجره با کلیک روی آیکون برنامه\nمشکلی که در حالت اجرای برنامه با دسترسی Administrator باعث می‌شد ویندوز فرمان باز شدن پنجره را مسدود کند، برطرف شده است.\n\n🛡 ۱. حالت Full Tunnel — جلوگیری کامل از DNS Leak\nتا الان دو حالت داشتیم:\n▫️ فقط همین برنامه\n▫️ کل دستگاه\nمشکل حالت دوم این بود که فقط برنامه‌هایی را پوشش می‌داد که از تنظیمات Proxy ویندوز استفاده می‌کنند.\nخیلی از برنامه‌ها این تنظیمات را نادیده می‌گیرند و مستقیماً به اینترنت یا DNS وصل می‌شوند. در نتیجه ممکن بود بخشی از ترافیک خارج از تونل عبور کند.\nحالت جدید Full Tunnel یک کارت شبکه مجازی ایجاد می‌کند و تمام ترافیک سیستم را از تونل عبور می‌دهد؛ حتی برنامه‌هایی که Proxy سیستم را نادیده می‌گیرند.\nاین حالت بهترین گزینه برای جلوگیری از DNS Leak است.\n🔹 روش فعال‌سازی\n۱. برنامه را باز کنید و متصل شوید.\n۲. پایین صفحه اصلی سه حالت وجود دارد.\n۳. گزینه سوم یعنی Full Tunnel را انتخاب کنید.\n۴. ویندوز برای دسترسی لازم از شما اجازه می‌خواهد. گزینه Yes را بزنید.\n۵. برنامه به‌صورت خودکار بسته و دوباره با دسترسی لازم اجرا می‌شود.\nدیگر لازم نیست روی برنامه راست‌کلیک کرده و Run as administrator را انتخاب کنید.\n✅ برای تست\nبعد از اتصال، سایت زیر را باز کنید:\ndnsleaktest.com\nسپس گزینه Extended Test را اجرا کنید.\nسرورهای نمایش‌داده‌شده باید مربوط به کشور نودی باشند که به آن متصل شده‌اید.\n━━━━━━━━━━━━━━━━━━\n🇮🇷 ۲. خروج خودکار سایت‌های ایرانی از تونل\nدیگر لازم نیست برای باز کردن بانک‌ها، دیجی‌کالا، آپارات و سرویس‌های داخلی، هر بار VPN را خاموش کنید.\nسایت‌های داخلی معمولاً نیازی به عبور از تونل ندارند. عبور آنها از تونل فقط می‌تواند سرعت را کاهش دهد و پهنای باند نود را مصرف کند.\nحالا می‌توانید کاری کنید که:\nسایت‌های ایرانی مستقیم باز شوند و بقیه ترافیک از تونل عبور کند.\n🔹 روش فعال‌سازی\nبه مسیر زیر بروید:\nAdvanced → Traffic & DNS → Routing Rules\nسپس گزینه زیر را روشن کنید:\nIranian sites bypass the tunnel\nلیست موردنیاز داخل خود برنامه قرار دارد و شامل:\n▫️ ۲۹۰۶ رنج IP ایران\n▫️ ۴۱٬۷۲۹ دامنه\nاست.\nهیچ فایلی هنگام اتصال دانلود نمی‌شود؛ بنابراین این قابلیت حتی زمانی که دسترسی آزاد به اینترنت ندارید نیز قابل استفاده است.\n━━━━━━━━━━━━━━━━━━\n📱 ۳. اشتراک اینترنت با گوشی، تلویزیون و دستگاه‌های دیگر\nحالا می‌توانید کامپیوتر خود را به یک Proxy Server تبدیل کنید و دستگاه‌های دیگر را از طریق آن به اینترنت متصل کنید.\nبدون نیاز به نصب WhiteAesther روی گوشی.\n🔹 روش فعال‌سازی\nبه مسیر زیر بروید:\nAdvanced → Traffic & DNS\nدر بخش:\nShare with other devices\nگزینه اشتراک‌گذاری را روشن کنید.\nبرنامه یک آدرس مشابه این نمایش می‌دهد:\n192.168.1.24:1080\nبار اول ویندوز ممکن است از شما اجازه Firewall بخواهد.\nگزینه:\nAllow access\nرا انتخاب کنید.\nاگر اجازه ندهید، Proxy فقط روی همان کامپیوتر قابل استفاده خواهد بود.\n📱 در Android\nوارد تنظیمات Wi-Fi شوید.\nشبکه متصل را باز کنید و به بخش تنظیمات Proxy بروید.\nحالت Proxy را روی Manual قرار دهید.\nبرای مثال:\nHostname: 192.168.1.24\nPort: 1080\nهمان IP و پورتی را وارد کنید که WhiteAesther نمایش داده است.\n🍎 در iPhone\nبه مسیر زیر بروید:\nSettings → Wi-Fi\nروی علامت (i) کنار شبکه بزنید.\nسپس:\nConfigure Proxy → Manual\nرا انتخاب کرده و IP و Port نمایش‌داده‌شده در WhiteAesther را وارد کنید.\n🔐 نکته امنیتی مهم\nاگر Username و Password تعیین نکنید، هر دستگاهی که به همان شبکه Wi-Fi متصل باشد می‌تواند از Proxy شما استفاده کند.\nدر شبکه خانگی شاید این موضوع مهم نباشد، اما در محل کار، دانشگاه، هتل یا کافه حتماً هر دو فیلد زیر را پر کنید:\nUsername\nPassword\nخود برنامه نیز در صورت خالی بودن آنها با یک هشدار زرد به شما اطلاع می‌دهد.\nیک Port برای هر دو پروتکل استفاده می‌شود:\nHTTP\nو\nSOCKS5\nبنابراین همان شماره Port را برای هرکدام که دستگاه شما پشتیبانی می‌کند وارد کنید.\n━━━━━━━━━━━━━━━━━━\n⚡️ ۴. پشتیبانی بهتر از Hysteria2 و TUIC\nاگر در Subscription شما نودهای Hysteria2 وجود داشتند و همیشه علامت — نمایش داده می‌شد، این مشکل اکنون برطرف شده است.\nمشکل از اندازه Packet بود.\nاین پروتکل‌ها Packetهایی با اندازه حدود ۱۲۸۰ بایت ارسال می‌کنند، در حالی که تونل قبلی فقط ۱۲۵۲ بایت ظرفیت داشت.\nدر نتیجه حدود ۲۸ بایت کمبود ظرفیت باعث می‌شد Packet قبل از ارسال حذف شود.\n🔹 روش استفاده\nبه مسیر زیر بروید:\nAdvanced → Routes & Transports\nسپس Protocol را روی:\nWireGuard\nقرار دهید.\nبرای این نودها از MASQUE استفاده نکنید.\nدر حالت MASQUE این محدودیت از سمت Cloudflare وجود دارد و برنامه نیز کنار نود توضیح می‌دهد که چرا قابل استفاده نیست.\n━━━━━━━━━━━━━━━━━━\n🔔 ۵. اطلاع‌رسانی نسخه‌های جدید\nاز این نسخه به بعد، وقتی نسخه جدید WhiteAesther منتشر شود، خود برنامه به شما اطلاع می‌دهد.\nیک نوار اطلاع‌رسانی در بالای برنامه نمایش داده می‌شود.\nبا زدن گزینه:\nGet it\nمستقیماً وارد صفحه دانلود نسخه جدید خواهید شد.\n━━━━━━━━━━━━━━━━━━\n🔧 سایر تغییرات\n▫️ نودهای REALITY حالا با برچسب Not Supported مشخص می‌شوند.\nموتور فعلی از آنها پشتیبانی نمی‌کند، بنابراین بهتر است وضعیت آنها واضح باشد تا اینکه نودی نمایش داده شود که هیچ‌وقت متصل نمی‌شود.\n▫️ Subscriptionها کامل‌تر پردازش می‌شوند و مشکل جا افتادن بعضی نودها برطرف شده است.\n▫️ مشکل باقی ماندن آیکون‌های قدیمی برنامه در Taskbar برطرف شده است.\n▫️ برنامه دیگر به‌صورت خودکار متصل نمی‌شود. تصمیم برای اتصال کاملاً با کاربر است.\n▫️ تنظیمات بیشتری برای Local Proxy، Keepalive و گزینه‌های پیشرفته اضافه شده است.\n▫️ موتور برنامه به نسخه زیر ارتقا پیدا کرده است:\nAether 1.7.0\n@WhiteDNS_Laurie",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        }
+      ],
+      "views_label": "63",
+      "posted_at": "2026-08-28T02:14:38+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1641",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1640",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/O1zsqJ255LgT5Ukaqz2IiLG9dLLRVkK-wHpqoR5pDCXa-2jggB5HlxRacDti_5DVcFGFthg1zS-lmH-0G8IoXA4_Nlqllx_Nd-NK7vO2l2PwN-pjDuzq1huhgFKavqLAv8Jnw5Gh4pZbIn5OjFdxyqSj5Q2EVokhCMsjR8P6feDQaaWE1nLJ1agdMZK8WmBwLHCTJSiYth59eTAWYVtrSIvtJzp3pabqKxL_sMi3j5X3tFIcWabnkn15COdkzGaWIpqag2iN9EA6S8kkKagGF869jr_0KfLgA8fZcqKneap8KFTmbKLSvTDMx2pNN12Z8VgsxAcVOsgAwyl87ksrnw.jpg",
+      "author_photo_path": "channels/whitedns/media/e949376a516faa9033438252.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>نسخه 1.6.0 دسکتاپ  WhiteAesther منتشر شد</b><br><br>بزرگ‌ترین آپدیت WhiteAesther تا امروز.<br>حالا می‌توانید:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> کل کامپیوتر را تونل کنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> سایت‌های ایرانی را از تونل خارج نگه دارید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> اینترنت را با گوشی، تلویزیون و دستگاه‌های دیگر به اشتراک بگذارید<br>━━━━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <b>دانلود</b><br><code>github.com/WhiteDNS/WhiteAesther/releases</code><br>نسخه‌های موجود:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> Windows<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> Linux — <code>deb / rpm / AppImage</code><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> macOS Intel<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> macOS Apple Silicon<br>━━━━━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>نکته مهم قبل از تست</b><br>اگر برنامه رسمی <code>Cloudflare WARP</code> روی سیستم شما نصب است، قبل از استفاده از WhiteAesther حتماً آن را کاملاً <code>Disconnect</code> کنید.<br>اجرای همزمان دو VPN روی مسیر شبکه می‌تواند باعث تداخل، قطع اتصال یا نتایج گیج‌کننده شود.<br>━━━━━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i> اگر سؤال یا مشکلی داشتید، همین‌جا مطرح کنید.<br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "🚀 نسخه 1.6.0 دسکتاپ WhiteAesther منتشر شد\n\nبزرگ‌ترین آپدیت WhiteAesther تا امروز.\nحالا می‌توانید:\n▫️ کل کامپیوتر را تونل کنید\n▫️ سایت‌های ایرانی را از تونل خارج نگه دارید\n▫️ اینترنت را با گوشی، تلویزیون و دستگاه‌های دیگر به اشتراک بگذارید\n━━━━━━━━━━━━━━━━━\n📥 دانلود\ngithub.com/WhiteDNS/WhiteAesther/releases\nنسخه‌های موجود:\n▫️ Windows\n▫️ Linux — deb / rpm / AppImage\n▫️ macOS Intel\n▫️ macOS Apple Silicon\n━━━━━━━━━━━━━━━━━━\n⚠️ نکته مهم قبل از تست\nاگر برنامه رسمی Cloudflare WARP روی سیستم شما نصب است، قبل از استفاده از WhiteAesther حتماً آن را کاملاً Disconnect کنید.\nاجرای همزمان دو VPN روی مسیر شبکه می‌تواند باعث تداخل، قطع اتصال یا نتایج گیج‌کننده شود.\n━━━━━━━━━━━━━━━━━━\n💬 اگر سؤال یا مشکلی داشتید، همین‌جا مطرح کنید.\n@WhiteDNS",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1640",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/iV_2MSd9kQVIsD0M4vtLV6FkujhgMuthZG_rQovUqXD9chszbE0OUIDC54BBd_M7WuUuTi6oTEYwSwgrDCnqfCAtZ32jt6WKIuuW3AiwmAMORLM5w0A21CAm03i1GspMe1amk0BPeaEZUlFj3TKjDld4-OAU0-hK_x63zEq2PawThAcQ8kcEwuvl5F5AoEdMKN--xC7lnXLhQvP32ScaFdR3vxoSfnuW4jRkmCKid_4X87CFLTidLfQgPvJw1rSRbcZNr5ABKWk31YimYC29JcUnSp5PX3m4aGUj9ctC83551I-oB10ZVtaXXuyw3CSSnOOxNPPIqmuJy_kfocB-aA.jpg",
+          "thumbnail_path": "channels/whitedns/media/10703282415f1eda45bcaa86.jpg",
+          "thumbnail_sha256": "b3319ea1221eb665ead62deca53119085224747db4f74d34f4da0f6ea1057a3f",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "64",
+      "posted_at": "2026-08-28T02:13:05+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1640",
+      "reply": null
+    },
     {
       "id": "whitedns/1638",
       "author_name": "White DNS",
@@ -50,7 +104,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.27K",
+      "views_label": "2.33K",
       "posted_at": "2026-08-27T23:31:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1636",
@@ -107,7 +161,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.04K",
+      "views_label": "8.07K",
       "posted_at": "2026-08-27T15:43:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1634",
@@ -1315,7 +1369,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.3K",
+      "views_label": "11.4K",
       "posted_at": "2026-08-25T12:33:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1599",
@@ -5469,87 +5523,6 @@
       "posted_at": "2026-08-16T03:42:31+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1495",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1494",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/OAxTyiHN6sKTwToIxIwrZbD1lvMktJOo22y8pyLOwWD6iWTTho8Gpt0I6apwGLaYmU51R24dCoCzuYFM3aEX-lwCOuH0tkQ5fMOey-tgcFK7Dzexu7unDH4KhgtEBiBqR3j3XVL5X9JToGguQj2aTk-VCo6XroyiFc93kCL2FBtBgY4daXMSuYNEiMxUlJbpyca7izHr_cKut2ZzNRQ5i4wy9ZTO7-zxc6xDmvagtfOKNKrPm3emlP5r0iU5rrQq1qkHstxcDS9B4TgtDF-QS0gqUR7fDrfsfeMNbQA4CQLAFyurvUJoBFRQTvXvmdJ9Vi4HW5n1H2Qvbm2LzNlJsw.jpg",
-      "author_photo_path": "channels/whitedns/media/5fd03985805cc383ae3e45e5.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/whitedns\"><span dir=\"auto\">White DNS</span></a> pinned a photo",
-      "plain_text": "White DNS pinned a photo",
-      "media": [],
-      "reactions": [],
-      "views_label": null,
-      "posted_at": "2026-08-16T02:29:42+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1494",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1493",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/t0_MR6ijhYrBFEcrt-FSWe_y9-c9apgqFwsLIO-PcTWL8T59ehh7qJbWkYMbIAVZSYKsjbvNHdQeexIwDzWTEsUdPtxl2MoNtjJXW-JPHpVxbZEcEjSwyxQdW1q2pZzhyI2_ePWrqHrP7_MxeZbiJe-wEF6ElMZM31RxOyA7uPUmv7gZLvxmivK_uu2kzkI5EWG8rseRKdOT4j0BEEhot_faHi-pVWTSOa_0-JMRhccerVuObdzuPatX0zxGO4BgHyyrawTfAA_hLSAG5nKmdV8TVlSEvM_W7FGcLkFUQ7LBPHZUGmtt7euA7luJHBJTS5LAdwYEuoKfV1lj4iOeUA.jpg",
-      "author_photo_path": "channels/whitedns/media/681b4c82c56448935e8c1a42.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "دوستان سلام : <br><br>برای حل این مشکل توی ورژن دسکتاپ و مبایل whitevpn لطفا ساب زیر را دستی وارد کنید <br>اگر به هر دلیلی ساب برای شما اپدیت نمیشه اول یک فیلترشکن روشن کنید که ساب را بتونید بگیرید و اپدیت کنید بعد استفاده کنید <br><br><a href=\"https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml\" target=\"_blank\" rel=\"noopener\">https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "دوستان سلام :\n\nبرای حل این مشکل توی ورژن دسکتاپ و مبایل whitevpn لطفا ساب زیر را دستی وارد کنید\nاگر به هر دلیلی ساب برای شما اپدیت نمیشه اول یک فیلترشکن روشن کنید که ساب را بتونید بگیرید و اپدیت کنید بعد استفاده کنید\n\nhttps://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml\n\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1493",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/ORY7tOFtM2pb8nkMfJBmG_TTK3IOugttLYHracNxojTwukUjgncV_8pskM0Obf8-Y23F_3KadjnaICirUVaTUVKwwYVNLF6x2ypZLbhcHCrqmkuMR7XTQHAZy_DUOZvEFD8QE1f2BFIqk1UXFo66nLNoScIjUNXE-v8ExeBBruIfjCQRNDQLgih5f80_vt3WonTFkdlrmFF0lGudF_fmtDtrEISB5V68y61SNctmEL2MwuxgMNFb6gRfB4cpyiOb8yvo4AaDqnF2DkUKSILAonVT6kpZyzL_Ln1lfgmTQTC6vi6EAqBXu1GV_4JSVWp4Pyr6Kgviv0T-3QSpJVcweA.jpg",
-          "thumbnail_path": "channels/whitedns/media/9c2c5310eed671cb9ac99e04.jpg",
-          "thumbnail_sha256": "e819281c4ed144efb77e5753677e9faa377cfc449d4821eb93685596d50ecb9a",
-          "duration_label": null,
-          "aspect_ratio": 1.75054704595186
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "146"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "7"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "🎉",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        },
-        {
-          "emoji": "🍾",
-          "count": "1"
-        }
-      ],
-      "views_label": "15.6K",
-      "posted_at": "2026-08-16T02:29:35+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1493",
       "reply": null
     }
   ]
