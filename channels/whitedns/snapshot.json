@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-28T11:42:52.950Z",
+  "fetched_at": "2026-08-28T11:47:13.583Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,69 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1645",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/SA7fYRQsPz39lfrTZpoZeyHA3GWzq6dvw3qBpMSbOW9WCirTf-Bgj1yn0lsiaQloJBcmNbmhNiOm0Td8anJIkcl1o2M59Qar3A-cYy0qvwDue8maFgGk-Ji9rg_Tbk1PK35MjxzJOkPi_rB7sROfyPqxE75lRKF0fwuTkJQHU0ELt7HRi5IyAuSL6Y9NwCQ9vPSBVXjPZUzkL_PY2zT6-dljLwjrnRcxNATI-dHmmnJUfz0LZy7TXP26woupi0GxFKbHZvlHfsl2wk_2B2PaeuOgwXIDMPdOj5pYzIZp3md9pF4E2lvzF0wSuSLWGEmxShsnHulNmMsKrCvuu0b9gw.jpg",
+      "author_photo_path": "channels/whitedns/media/c47de1cc7301809dab62f1e8.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<b>راهنمای زنجیر کردن با Psiphon</b> با whiteaesther <tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br>اول Psiphon را وصل کنید.<br><br>در تنظیمات Psiphon proxy محلی را پیدا کنید. و یکی از پورت های زیر را وارد کنید . توصیه میشود از ساکس استفاده کنید <br><code>SOCKS5:1080</code><br> <code>HTTP:8080</code><br>WhiteAesther را باز کنید.<br>بروید به:<br><code>Advanced</code> → <code>Routes &amp; transports</code> → <code>Anti-blocking</code><br>در فیلد <code>Dial through a local proxy</code> یکی از این‌ها را وارد کنید:<br><pre>socks5://127.0.0.1:1080</pre><br>یا:<br><pre>http://127.0.0.1:8080</pre><br>بعد <code>Save profile</code> را بزنید.<br>حالا Connect کنید. مسیر  می‌شود:<br><pre>App traffic -&gt; WhiteAesther local SOCKS -&gt; Aether/WARP -&gt; Psiphon local upstream -&gt; Internet</pre><br>اگر میخواهید که whiteaesther سیستم شما را تانل کند روی Full tunnel و اگر نه از پراکسی whiteaesther برای نرم افزارهای خاص خودتون استفاده کنید <br><br>نکته : قابلیت exit chain را توی تنظیمات خاموش کنید <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>تیم وایت <br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "راهنمای زنجیر کردن با Psiphon با whiteaesther 🔥🔥\n\nاول Psiphon را وصل کنید.\n\nدر تنظیمات Psiphon proxy محلی را پیدا کنید. و یکی از پورت های زیر را وارد کنید . توصیه میشود از ساکس استفاده کنید\nSOCKS5:1080\nHTTP:8080\nWhiteAesther را باز کنید.\nبروید به:\nAdvanced → Routes & transports → Anti-blocking\nدر فیلد Dial through a local proxy یکی از این‌ها را وارد کنید:\nsocks5://127.0.0.1:1080\nیا:\nhttp://127.0.0.1:8080\nبعد Save profile را بزنید.\nحالا Connect کنید. مسیر می‌شود:\nApp traffic -> WhiteAesther local SOCKS -> Aether/WARP -> Psiphon local upstream -> Internet\nاگر میخواهید که whiteaesther سیستم شما را تانل کند روی Full tunnel و اگر نه از پراکسی whiteaesther برای نرم افزارهای خاص خودتون استفاده کنید\n\nنکته : قابلیت exit chain را توی تنظیمات خاموش کنید ⚠️⚠️\n\nتیم وایت\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1645?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/nn5z2QRtZ7welE2-AGR06GQ3CjAkDrzZ3uy3HkQFqDTdba1pdHhRXM5txYlk-zwi1ijlB3sLp0cHVkL9xdxw5CDts7m9p4iq0J-p0AJOF5iUd0i0va0FgRqTHeOBLrQy7G4-C9JgJQR0eWRn30VjISTQEd7_ErWsut4OFuc_DNDs_RsIvQyAtiuq_7YzwxHG0MhhfR9Di2lYsKxD4Z_hxjjwg1dL8nN9JVt7y5z2ZG6161cFpCv432ouFxZ6en3Zw9OuIuHMvqq_cRBr-qjKZNywJY-Ji6qnBXw8V8PQOAAoziFKzovMixmpBul6ykE_fTFnUcGXyqlUB6btPNoU0w.jpg",
+          "thumbnail_path": "channels/whitedns/media/b618b03d12310a8ff5354797.jpg",
+          "thumbnail_sha256": "9b575ff32033999f93442359a2fec792b8a72823babc94dac0dfaf92b242a7ff",
+          "duration_label": null,
+          "aspect_ratio": 1.8561484918794
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1646?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/cQzEOZPUpbe30eKrKGm6QVdYU91PqLziAD1GR4BcCqDzFXfwzIhXfBSx-yp6a4EtefLyhURxLKosmqJBE1RP6ItacRUyFWz7xLM98EURjKgS7TRpFenDMpKfnE8b5R6-N41vh_uLaG_GALE7I9WOZFY5hRlMWfmmqUV8_5R6EqR8mMPjIRi0Hpa6gVh-KX7f519_kmwkOLmsx9JteDr1y4ZDATsJnME_m20L3XK70jQ69h9wotbcXcqLi23XlldsRQQfp5VVEH4ZilT4Q_eZE6OW6RRWPYKkGFX6w2em1cO8XFpYsapzB9DiVN2Uu5euQQbpIBJhZKJs3_TZkEsNXA.jpg",
+          "thumbnail_path": "channels/whitedns/media/7d5f176cc747a24214cc2198.jpg",
+          "thumbnail_sha256": "fef4d78841418688550922be1847bd7cb5b8f9e483583050b560088769aafb5c",
+          "duration_label": null,
+          "aspect_ratio": 1.2658227848101
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1647?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/pdomDNtZ-7d9BLs_vRy-CQRzmYgEw71-3AsrpewjbaDJE_fNDl9KaPLcSvEp-ROnPPVJ_ckD-42uza8nNsNUTuaKcB2xT1nn0GGDad6w2BZQrIh8puBPMnyw-qaVnvaPRRrjtxtraQ7JkTAcWJJIEio6c_w7otWX_CnA7cDnhJF_2CssOp5tzC58KAUiu3nBDs2LnoccQW-JfQRFPC9QE-GfWAwn7QMKjXtKPJaws1LJHzzMZF8RKh-BM3apf0holT74UdWYcBSjIRk-9HjMzSVrrs4LwJKbSnmBqWlNHnMsp1FfA-3rRHseBDhNrXYVAZvBLyO99u2iZpvbvcEnTw.jpg",
+          "thumbnail_path": "channels/whitedns/media/e07d4bd44bf3ff1f2f57eae7.jpg",
+          "thumbnail_sha256": "03848678d0ff0b479efe67371f214d5c0ff5a9ceb520085ce6c74757dd458c98",
+          "duration_label": null,
+          "aspect_ratio": 1.8648018648019
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        },
+        {
+          "emoji": "🦄",
+          "count": "1"
+        }
+      ],
+      "views_label": "510",
+      "posted_at": "2026-08-28T11:43:53+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1645",
+      "reply": null
+    },
     {
       "id": "whitedns/1644",
       "author_name": "White DNS",
@@ -44,9 +107,13 @@
         {
           "emoji": "👎",
           "count": "1"
+        },
+        {
+          "emoji": "🦄",
+          "count": "1"
         }
       ],
-      "views_label": "5.37K",
+      "views_label": "5.47K",
       "posted_at": "2026-08-28T02:46:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1644",
@@ -73,7 +140,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "113"
+          "count": "114"
         },
         {
           "emoji": "❤‍🔥",
@@ -94,9 +161,13 @@
         {
           "emoji": "😍",
           "count": "1"
+        },
+        {
+          "emoji": "🦄",
+          "count": "1"
         }
       ],
-      "views_label": "6.78K",
+      "views_label": "6.91K",
       "posted_at": "2026-08-28T02:14:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1641",
@@ -126,7 +197,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "119"
+          "count": "120"
         },
         {
           "emoji": "❤‍🔥",
@@ -147,9 +218,13 @@
         {
           "emoji": "👎",
           "count": "1"
+        },
+        {
+          "emoji": "🦄",
+          "count": "1"
         }
       ],
-      "views_label": "6.12K",
+      "views_label": "6.24K",
       "posted_at": "2026-08-28T02:13:05+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1640",
@@ -192,9 +267,13 @@
         {
           "emoji": "🤣",
           "count": "2"
+        },
+        {
+          "emoji": "🦄",
+          "count": "1"
         }
       ],
-      "views_label": "7.48K",
+      "views_label": "7.54K",
       "posted_at": "2026-08-27T23:31:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1636",
@@ -251,7 +330,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.99K",
+      "views_label": "10K",
       "posted_at": "2026-08-27T15:43:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1634",
@@ -365,7 +444,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.5K",
+      "views_label": "10.6K",
       "posted_at": "2026-08-27T12:42:09+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1632",
@@ -426,7 +505,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.25K",
+      "views_label": "9.28K",
       "posted_at": "2026-08-27T07:07:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1631",
@@ -456,7 +535,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "146"
+          "count": "147"
         },
         {
           "emoji": "👍",
@@ -475,7 +554,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.54K",
+      "views_label": "8.57K",
       "posted_at": "2026-08-27T07:07:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1630",
@@ -1015,7 +1094,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12K",
       "posted_at": "2026-08-26T07:33:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1610",
@@ -1300,7 +1379,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.7K",
+      "views_label": "12.8K",
       "posted_at": "2026-08-25T16:21:43+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1602",
@@ -5463,83 +5542,6 @@
       "posted_at": "2026-08-16T05:36:05+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1500",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1496",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/t0_MR6ijhYrBFEcrt-FSWe_y9-c9apgqFwsLIO-PcTWL8T59ehh7qJbWkYMbIAVZSYKsjbvNHdQeexIwDzWTEsUdPtxl2MoNtjJXW-JPHpVxbZEcEjSwyxQdW1q2pZzhyI2_ePWrqHrP7_MxeZbiJe-wEF6ElMZM31RxOyA7uPUmv7gZLvxmivK_uu2kzkI5EWG8rseRKdOT4j0BEEhot_faHi-pVWTSOa_0-JMRhccerVuObdzuPatX0zxGO4BgHyyrawTfAA_hLSAG5nKmdV8TVlSEvM_W7FGcLkFUQ7LBPHZUGmtt7euA7luJHBJTS5LAdwYEuoKfV1lj4iOeUA.jpg",
-      "author_photo_path": "channels/whitedns/media/681b4c82c56448935e8c1a42.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i>  کلاینت WhiteAesther <br><br>(دانلود همزمان برای اندروید و ویندوز / دسکتاپ)<br><br>اگر به دنبال یک اتصال فوق‌العاده پایدار، سریع و امن با پروتکل نوین MASQUE H2 هستید، نرم‌افزار WhiteAesther در دو نسخه دسکتاپ و موبایل در دسترس شماست.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> قابلیت‌ها و ویژگی‌های کلیدی:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> مبتنی بر پروتکل پرسرعت و مدرن MASQUE H2<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> اتصال سریع با یک کلیک (Zero-Config)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> پایداری بالا و پینگ عالی مناسب وب‌گردی، گیمینگ و استریم<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> سیستم محافظت از کل ترافیک دستگاه (IPv4 + IPv6)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> قابلیت Reconnect خودکار و Killswitch داخلی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> رابط کاربری بسیار روان، تاریک (Dark Mode) و مدرن<br><br>━━━━━━━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> لینک‌های دانلود مستقیم آخرین نسخه از گیت‌هاب:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> دانلود نسخه اندروید (Android APK):<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> دانلود نسخه دسکتاپ (Windows / PC):<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://github.com/WhiteDNS/WhiteAesther/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAesther/releases/latest</a><br>━━━━━━━━━━━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> پیشنهاد: این پست را برای دسترسی سریع به هر دو نسخه ذخیره (Save) یا پین کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8694.png')\"><b>🆔</b></i> <a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🌐 کلاینت WhiteAesther\n\n(دانلود همزمان برای اندروید و ویندوز / دسکتاپ)\n\nاگر به دنبال یک اتصال فوق‌العاده پایدار، سریع و امن با پروتکل نوین MASQUE H2 هستید، نرم‌افزار WhiteAesther در دو نسخه دسکتاپ و موبایل در دسترس شماست.\n\n✨ قابلیت‌ها و ویژگی‌های کلیدی:\n🔹 مبتنی بر پروتکل پرسرعت و مدرن MASQUE H2\n🔹 اتصال سریع با یک کلیک (Zero-Config)\n🔹 پایداری بالا و پینگ عالی مناسب وب‌گردی، گیمینگ و استریم\n🔹 سیستم محافظت از کل ترافیک دستگاه (IPv4 + IPv6)\n🔹 قابلیت Reconnect خودکار و Killswitch داخلی\n🔹 رابط کاربری بسیار روان، تاریک (Dark Mode) و مدرن\n\n━━━━━━━━━━━━━━━━━━━━\n📥 لینک‌های دانلود مستقیم آخرین نسخه از گیت‌هاب:\n\n📱 دانلود نسخه اندروید (Android APK):\n🔗 https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\n\n💻 دانلود نسخه دسکتاپ (Windows / PC):\n🔗 https://github.com/WhiteDNS/WhiteAesther/releases/latest\n━━━━━━━━━━━━━━━━━━━━\n\n💡 پیشنهاد: این پست را برای دسترسی سریع به هر دو نسخه ذخیره (Save) یا پین کنید.\n\n🆔 @whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1496",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/sGWjuC6A2U_9-mc98vpbmtaxNsiWiCqJCxtjdxeVOQ9XpL3gh6JCNCdZhQWKdG3c38_zkAPj6JNk_elArEZH7DgLz-18bD7tQwxX85fSJERtjG13CVn75atXpA4n2n0kgy9fdeL4Yghdii0PIILy_Q9kbEHC8vu3dpu_y2mK8t-CBRcURgbTmFEZeFRA_Y2qn5onaycAJpQrOSzBXSYtKbn8y0DEsde68FzZLWBClzN6grbIu9n7JqJVmT3jWRX3R4Fd8YxsgBSYP9AxKvO51q3qxZYPhE4LjGMNANobIShmx_Rlhf_2ExprYmQ5GYlOW3L0JXX7yS4xNiz7VzSpHA.jpg",
-          "thumbnail_path": "channels/whitedns/media/88686d17a05d01e79d4982ad.jpg",
-          "thumbnail_sha256": "20f7fd328e0563afb0d4eb669c44615ea1284dacf55bd7f85acb7965fe184326",
-          "duration_label": null,
-          "aspect_ratio": 1.6161616161616161
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "238"
-        },
-        {
-          "emoji": "👍",
-          "count": "24"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "13"
-        },
-        {
-          "emoji": "👎",
-          "count": "8"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "🍾",
-          "count": "2"
-        },
-        {
-          "emoji": "🥰",
-          "count": "1"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "44.5K",
-      "posted_at": "2026-08-16T03:42:34+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1496",
       "reply": null
     }
   ]
