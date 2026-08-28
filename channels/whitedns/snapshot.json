@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-28T11:51:47.786Z",
+  "fetched_at": "2026-08-28T11:56:40.699Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -17,8 +17,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/SA7fYRQsPz39lfrTZpoZeyHA3GWzq6dvw3qBpMSbOW9WCirTf-Bgj1yn0lsiaQloJBcmNbmhNiOm0Td8anJIkcl1o2M59Qar3A-cYy0qvwDue8maFgGk-Ji9rg_Tbk1PK35MjxzJOkPi_rB7sROfyPqxE75lRKF0fwuTkJQHU0ELt7HRi5IyAuSL6Y9NwCQ9vPSBVXjPZUzkL_PY2zT6-dljLwjrnRcxNATI-dHmmnJUfz0LZy7TXP26woupi0GxFKbHZvlHfsl2wk_2B2PaeuOgwXIDMPdOj5pYzIZp3md9pF4E2lvzF0wSuSLWGEmxShsnHulNmMsKrCvuu0b9gw.jpg",
       "author_photo_path": "channels/whitedns/media/c47de1cc7301809dab62f1e8.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b>راهنمای زنجیر کردن با Psiphon</b> با whiteaesther <tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br>اول Psiphon را وصل کنید.<br><br>در تنظیمات Psiphon proxy محلی را پیدا کنید. و یکی از پورت های زیر را وارد کنید . توصیه میشود از ساکس استفاده کنید <br><code>SOCKS5:1080</code><br> <code>HTTP:8080</code><br>WhiteAesther را باز کنید.<br>بروید به:<br><code>Advanced</code> → <code>Routes &amp; transports</code> → <code>Anti-blocking</code><br>در فیلد <code>Dial through a local proxy</code> یکی از این‌ها را وارد کنید:<br><pre>socks5://127.0.0.1:1080</pre><br>یا:<br><pre>http://127.0.0.1:8080</pre><br>بعد <code>Save profile</code> را بزنید.<br>حالا Connect کنید. مسیر  می‌شود:<br><pre>App traffic -&gt; WhiteAesther local SOCKS -&gt; Aether/WARP -&gt; Psiphon local upstream -&gt; Internet</pre><br>اگر میخواهید که whiteaesther سیستم شما را تانل کند روی Full tunnel و اگر نه از پراکسی whiteaesther برای نرم افزارهای خاص خودتون استفاده کنید <br><br>نکته : قابلیت exit chain را توی تنظیمات خاموش کنید <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>تیم وایت <br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "راهنمای زنجیر کردن با Psiphon با whiteaesther 🔥🔥\n\nاول Psiphon را وصل کنید.\n\nدر تنظیمات Psiphon proxy محلی را پیدا کنید. و یکی از پورت های زیر را وارد کنید . توصیه میشود از ساکس استفاده کنید\nSOCKS5:1080\nHTTP:8080\nWhiteAesther را باز کنید.\nبروید به:\nAdvanced → Routes & transports → Anti-blocking\nدر فیلد Dial through a local proxy یکی از این‌ها را وارد کنید:\nsocks5://127.0.0.1:1080\nیا:\nhttp://127.0.0.1:8080\nبعد Save profile را بزنید.\nحالا Connect کنید. مسیر می‌شود:\nApp traffic -> WhiteAesther local SOCKS -> Aether/WARP -> Psiphon local upstream -> Internet\nاگر میخواهید که whiteaesther سیستم شما را تانل کند روی Full tunnel و اگر نه از پراکسی whiteaesther برای نرم افزارهای خاص خودتون استفاده کنید\n\nنکته : قابلیت exit chain را توی تنظیمات خاموش کنید ⚠️⚠️\n\nتیم وایت\n@whitedns",
+      "body_html": "<b>راهنمای زنجیر کردن  Psiphon</b> با <b>whiteaesther</b> <tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br>اول Psiphon را وصل کنید.<br><br>در تنظیمات Psiphon proxy محلی را پیدا کنید. و یکی از پورت های زیر را وارد کنید . توصیه میشود از ساکس استفاده کنید <br><code>SOCKS5:1080</code><br> <code>HTTP:8080</code><br>WhiteAesther را باز کنید.<br>بروید به:<br><code>Advanced</code> → <code>Routes &amp; transports</code> → <code>Anti-blocking</code><br>در فیلد <code>Dial through a local proxy</code> یکی از این‌ها را وارد کنید:<br><pre>socks5://127.0.0.1:1080</pre><br>یا:<br><pre>http://127.0.0.1:8080</pre><br>بعد <code>Save profile</code> را بزنید.<br>حالا Connect کنید. مسیر  می‌شود:<br><pre>App traffic -&gt; WhiteAesther local SOCKS -&gt; Aether/WARP -&gt; Psiphon local upstream -&gt; Internet</pre><br>اگر میخواهید که whiteaesther سیستم شما را تانل کند روی Full tunnel و اگر نه از پراکسی whiteaesther برای نرم افزارهای خاص خودتون استفاده کنید <br><br>نکته : قابلیت exit chain را توی تنظیمات خاموش کنید <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>تیم وایت <br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "راهنمای زنجیر کردن Psiphon با whiteaesther 🔥🔥\n\nاول Psiphon را وصل کنید.\n\nدر تنظیمات Psiphon proxy محلی را پیدا کنید. و یکی از پورت های زیر را وارد کنید . توصیه میشود از ساکس استفاده کنید\nSOCKS5:1080\nHTTP:8080\nWhiteAesther را باز کنید.\nبروید به:\nAdvanced → Routes & transports → Anti-blocking\nدر فیلد Dial through a local proxy یکی از این‌ها را وارد کنید:\nsocks5://127.0.0.1:1080\nیا:\nhttp://127.0.0.1:8080\nبعد Save profile را بزنید.\nحالا Connect کنید. مسیر می‌شود:\nApp traffic -> WhiteAesther local SOCKS -> Aether/WARP -> Psiphon local upstream -> Internet\nاگر میخواهید که whiteaesther سیستم شما را تانل کند روی Full tunnel و اگر نه از پراکسی whiteaesther برای نرم افزارهای خاص خودتون استفاده کنید\n\nنکته : قابلیت exit chain را توی تنظیمات خاموش کنید ⚠️⚠️\n\nتیم وایت\n@whitedns",
       "media": [
         {
           "kind": "photo",
@@ -57,7 +57,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "15"
+          "count": "19"
         },
         {
           "emoji": "🔥",
@@ -72,7 +72,7 @@
           "count": "1"
         }
       ],
-      "views_label": "862",
+      "views_label": "1.27K",
       "posted_at": "2026-08-28T11:43:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1645",
@@ -94,11 +94,11 @@
         },
         {
           "emoji": "❤",
-          "count": "158"
+          "count": "160"
         },
         {
           "emoji": "👍",
-          "count": "15"
+          "count": "16"
         },
         {
           "emoji": "❤‍🔥",
@@ -121,7 +121,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.57K",
+      "views_label": "5.63K",
       "posted_at": "2026-08-28T02:46:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1644",
@@ -148,7 +148,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "116"
+          "count": "118"
         },
         {
           "emoji": "❤‍🔥",
@@ -179,7 +179,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.97K",
+      "views_label": "7.06K",
       "posted_at": "2026-08-28T02:14:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1641",
@@ -240,7 +240,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.31K",
+      "views_label": "6.4K",
       "posted_at": "2026-08-28T02:13:05+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1640",
@@ -289,7 +289,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.61K",
+      "views_label": "7.67K",
       "posted_at": "2026-08-27T23:31:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1636",
@@ -521,7 +521,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.28K",
+      "views_label": "9.31K",
       "posted_at": "2026-08-27T07:07:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1631",
