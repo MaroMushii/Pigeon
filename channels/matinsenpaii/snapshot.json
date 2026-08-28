@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-28T10:16:33.185Z",
+  "fetched_at": "2026-08-28T10:21:48.379Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "155K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5074",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/d5dwh2Vl6g_D2RrA7DLMvaWSntG1vCE93d4Kr7zN3m44lQuOWf5cvaOWjf-MuHN7TzKYgpAOlk-YsSKssBdj7gSEameCi-FAlTDMlgyjA0xx5E9yWA3OLU8DtEHhTdha-Bdb4LNZr0FQsCVoNRq7uvn-eoXvgbhVVq2g5FbNYQ0rL0Bg0VyWrmijq1L8IiuGQV7JGjQhovEHdkRPxUkDh8E5QGPyg9Hkuv3i6HnwvMDxdlVH6-NzXYOS9EvSK3cPP8XMRp9ERoqZTynA1B6RpAqq7xdFzL_YyYECywEQ8KpTcJy12e-l8ZJo_Y4EJUy2bHdLGy8cazcEiU8303ikDg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/73686cc004a4f7546ff94edd.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "شرکت <b>Tencent مدل Hy4-preview رو منتشر کرد</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i><br><br>مدل: Hy4-preview — 770B پارامتر MoE با 49B فعال، کانتکست ۱ میلیون توکنی، لایسنس Apache 2.0<br><br><b>مشخصات کلیدی:</b><br><br>1-مقدار <b>۷۷۰B پارامتر کل</b> ولی فقط <b>۴۹B</b> برای هر توکن فعال میشه — یعنی قدرت مدل‌های فلگشیپ با هزینه‌ی خیلی کمتر<br><br>2- روی بنچمارک <b>DeepSWE</b> از ۲۸ (Hy3) رفته روی <b>۶۴.۳</b> — تقریباً دو برابر<br>3- بنچمارک <b>Terminal-Bench 2.1</b>: نمره <b>۸۵.۴</b> — هم‌تراز GLM-5.3 و Claude Opus<br><br>4- بنچمارک <b>Code Arena WebDev</b>: رتبه <b>#5</b> با ۱۶۳۳ امتیاز — بین مدل‌های متن‌باز <b>#3</b><br><br>5- ارزیابی داخلی با <b>۱۶۳ متخصص</b>: Hy4 با <b>۲.۹۹/۴</b> بالاتر از Kimi K3 و GLM-5.3<br><br><b>قیمت API (خیلی رقابتی):</b><br>- Input: <b>$0.83</b> به ازای هر ۱ میلیون توکن<br>- Output: <b>$2.50</b><br>- Cached input: <b>$0.04</b> — یعنی تقریباً<br><br><br>اما هنوز، رقابت رو به GLM 5.3 Flash باخته به نظرم",
+      "plain_text": "شرکت Tencent مدل Hy4-preview رو منتشر کرد 🚀\n\nمدل: Hy4-preview — 770B پارامتر MoE با 49B فعال، کانتکست ۱ میلیون توکنی، لایسنس Apache 2.0\n\nمشخصات کلیدی:\n\n1-مقدار ۷۷۰B پارامتر کل ولی فقط ۴۹B برای هر توکن فعال میشه — یعنی قدرت مدل‌های فلگشیپ با هزینه‌ی خیلی کمتر\n\n2- روی بنچمارک DeepSWE از ۲۸ (Hy3) رفته روی ۶۴.۳ — تقریباً دو برابر\n3- بنچمارک Terminal-Bench 2.1: نمره ۸۵.۴ — هم‌تراز GLM-5.3 و Claude Opus\n\n4- بنچمارک Code Arena WebDev: رتبه #5 با ۱۶۳۳ امتیاز — بین مدل‌های متن‌باز #3\n\n5- ارزیابی داخلی با ۱۶۳ متخصص: Hy4 با ۲.۹۹/۴ بالاتر از Kimi K3 و GLM-5.3\n\nقیمت API (خیلی رقابتی):\n- Input: $0.83 به ازای هر ۱ میلیون توکن\n- Output: $2.50\n- Cached input: $0.04 — یعنی تقریباً\n\n\nاما هنوز، رقابت رو به GLM 5.3 Flash باخته به نظرم",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5074",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/JVpXEFq093jp29dH55p-sAckmC3E6uCzw2BYDW4Rk-ZIF2lmDcxPjDb78cyYiX2cCqnAdvFWMkOFgJbVYmpgFpyWhLRK1zGf-BLhyKf0DA6GkyMZ963uu4qnDZ5XN6fK_qy1TXBoX4CyV1DVyQytXL6P8VZp9bS2iXzZT5K5gGZx5JJXxLLEOky9NlE0amZDTgfl1lISGhxGfFR4DkgBx8HK6b9WkQlWecDeseY4qZvL_S6w3cZy8hfQ4BXRTQjSXyipl8it5iBKgiCdZD6TQxjH8YsEsQSMG3h9i-bGD9frsHMozdrycXMJfS1g72xdSeHWAFzoVq43IEv2FU8jgA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/11d94f16073aa5283871383f.jpg",
+          "thumbnail_sha256": "38e92b6016cb3572e40e2b0845bcea8c55b56b94481f222b415cd4a673b4307a",
+          "duration_label": null,
+          "aspect_ratio": 1.7937219730941705
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "6"
+        }
+      ],
+      "views_label": "376",
+      "posted_at": "2026-08-28T10:20:59+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5074",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5073",
       "author_name": "Matin SenPai",
@@ -39,7 +72,7 @@
         },
         {
           "emoji": "❤",
-          "count": "75"
+          "count": "80"
         },
         {
           "emoji": "👍",
@@ -54,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.64K",
+      "views_label": "5.03K",
       "posted_at": "2026-08-28T09:42:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5073",
@@ -93,15 +126,15 @@
       "reactions": [
         {
           "emoji": "🆒",
-          "count": "144"
+          "count": "147"
         },
         {
           "emoji": "❤",
-          "count": "42"
+          "count": "43"
         },
         {
           "emoji": "😁",
-          "count": "13"
+          "count": "14"
         },
         {
           "emoji": "💔",
@@ -116,7 +149,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.56K",
+      "views_label": "9.82K",
       "posted_at": "2026-08-28T08:33:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5072",
@@ -146,7 +179,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "180"
+          "count": "181"
         },
         {
           "emoji": "👍",
@@ -161,7 +194,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.3K",
+      "views_label": "18.5K",
       "posted_at": "2026-08-27T14:55:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5071",
@@ -202,7 +235,7 @@
           "count": "7"
         }
       ],
-      "views_label": "22.6K",
+      "views_label": "22.7K",
       "posted_at": "2026-08-27T10:19:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5070",
@@ -288,7 +321,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22K",
+      "views_label": "22.1K",
       "posted_at": "2026-08-27T10:15:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5068",
@@ -667,7 +700,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25K",
+      "views_label": "25.1K",
       "posted_at": "2026-08-26T15:24:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5058",
@@ -4798,59 +4831,6 @@
         "thumbnail_sha256": "8be6d24b53280e9ad2d988041de4b22c9bb0b8d5f86d74b6bb1dd3e5d2ec1cfa",
         "permalink": "https://t.me/matinsenpaii/4960"
       }
-    },
-    {
-      "id": "MatinSenPaii/4960",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/bPR7OHYvHtgDquQjmRLYE2HVkSWTyGtgM61BXzLkIZiX7vlzL4aq1rZBiy5pewhcUyf-2GSGev-Ret1qs78mvy_vuImB_Xf3gbtVUhbV2edhvnPs3sMyJCn0Es9kXziU16GiiQcRhCpgwHp7qu_jahTAeoY9pONjfJtgL6_WOP6ITJk8-RgXKHRhAAMTDiazPoCCWjVxzpnXkgRo0vgGAFXvUmZrnVQl0Z6Beh_lFRm-UpRuqZeGmZLw54-DZcTn0RKoqa1k5mjRIf-kiOq9P9LFZGXU26bKLwcSZoCpbTaVcuLhDPS8vcU0vZG6tO73BErqqhkCLM18k6DTayT2Aw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/467318e5180285e6ddce8d91.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "حل مشکل اتصال به کانفیگ‌های BPB و تمام پنل‌های Worker کلودفلر:<br><br>1- آخرین نسخه‌ی Pre-Release نرم‌افزار V2rayNG رو نصب کنید(۲.۳.۴): <a href=\"https://github.com/2dust/v2rayNG/releases/tag/2.3.4\" target=\"_blank\" rel=\"noopener\">https://github.com/2dust/v2rayNG/releases/tag/2.3.4</a><br>یا V2rayN نسخه‌ی 7.24.7 رو از گیتهاب بگیرید<br>برای آیفون هم Sterisand آخرین نسخه کار می‌کنه<br><br>2- <a href=\"https://github.com/Hidden-Node/proxy-builder\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">این پروژه</a> از دوست عزیزمون Hidden-Node با الهام گرفتن از نکته‌ای که Patterniha <a href=\"https://t.me/patt_channel_x/91\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">اینجا</a> گفته بود، نوشته شده و اوپن سورسه و کانفیگتون هم جایی ذخیره نمیشه: <a href=\"http://hidden-node.github.io/proxy-builder\" target=\"_blank\" rel=\"noopener\">http://hidden-node.github.io/proxy-builder</a><br><br>3- وارد سایت بالا که شدید، روی بخش Fragment + Fingerprint کلیک کنید<br><br>4- کانفیگتون رو کپی، و اینجا Paste کنید<br><br>5- پایین، روی Enhance بزنید و بعدش کانفیگ جدید رو کپی و توی<br>v2rayNG&nbsp; 2.3.4&nbsp;<br>v2rayN&nbsp; &nbsp;7.24.7&nbsp;<br>برای آیفون هم Sterisand نسخه آخر<br><br>پیست کنید و به راحتی کار می‌کنه<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "حل مشکل اتصال به کانفیگ‌های BPB و تمام پنل‌های Worker کلودفلر:\n\n1- آخرین نسخه‌ی Pre-Release نرم‌افزار V2rayNG رو نصب کنید(۲.۳.۴): https://github.com/2dust/v2rayNG/releases/tag/2.3.4\nیا V2rayN نسخه‌ی 7.24.7 رو از گیتهاب بگیرید\nبرای آیفون هم Sterisand آخرین نسخه کار می‌کنه\n\n2- این پروژه از دوست عزیزمون Hidden-Node با الهام گرفتن از نکته‌ای که Patterniha اینجا گفته بود، نوشته شده و اوپن سورسه و کانفیگتون هم جایی ذخیره نمیشه: http://hidden-node.github.io/proxy-builder\n\n3- وارد سایت بالا که شدید، روی بخش Fragment + Fingerprint کلیک کنید\n\n4- کانفیگتون رو کپی، و اینجا Paste کنید\n\n5- پایین، روی Enhance بزنید و بعدش کانفیگ جدید رو کپی و توی\nv2rayNG  2.3.4 \nv2rayN   7.24.7 \nبرای آیفون هم Sterisand نسخه آخر\n\nپیست کنید و به راحتی کار می‌کنه\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/4960",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/gEUhO-3euqnRLfYkNS02ZGcHdf0aj_WHe_7HUpuCnoMLwfeWBqHJm6lENeN91_H08dYJcf_EgAwyXPMWpkcRvh5uSoze4MGrg5J9tYS4JN0Aig8tTZv4Op7OwJiur5JJSlH_m-wJY-PDyy4djlCQ6JNWO4LQOE6psQ_zxFjykyWqqfwIkhp-D8BqlnAZM2cNVBJLaofdHuAX-goSehGWt5fFQTMuzAIKbRPwxrvNF4PvtmgmIHFCiFezhe_gO8RzMbbOQadSgYg4cZhmSTrsDZw9a4VrRZZ1XoHla5plrLYfC1VEah-0Yfsav1t4YnhJDkK6EXzMJuGdJWg1hyyZcA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/bacb1bcafdde7b1dde836c54.jpg",
-          "thumbnail_sha256": "77526c1a6ed6821c483835d613e4beb1558f7659fc59bf754b21438ea964e333",
-          "duration_label": null,
-          "aspect_ratio": 0.9200000000000257
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "390"
-        },
-        {
-          "emoji": "💔",
-          "count": "43"
-        },
-        {
-          "emoji": "👍",
-          "count": "9"
-        },
-        {
-          "emoji": "💯",
-          "count": "5"
-        },
-        {
-          "emoji": "😁",
-          "count": "4"
-        }
-      ],
-      "views_label": "35.1K",
-      "posted_at": "2026-08-15T18:22:20+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/4960",
-      "reply": null
     }
   ]
 }
