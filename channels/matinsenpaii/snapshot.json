@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-28T16:11:37.295Z",
+  "fetched_at": "2026-08-28T16:16:48.526Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,65 @@
     "subscriber_count": "155K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5080",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/t-_niAPOhw4vAk3euT3W57xgJE1ELhNAEYz7TXZUvnoy_lAJV4xOZLXbo9KxGgNCsqnL0TZvC67e-QLmenkVwdKdB931aGYy5LnxpIyUlg3N8c89-qugFqap_QaKFejN5X4NSblSbYVXmBhNRiTfswwGNXyn_dthRZUQMxiD34jbQAsczKbNo4BNHX9RBoJbMBgkO2loVN4JlEQ2Y8sUQ1xwiHIbrjRkrPHXckkFYff7Bra1988QqLiI3Sha4ldY0ugYiAlrjQ8ypSms5ozZJ5Hk6KT5GTOh62-ej-fUF59y7PIeDaFjXbnlltg7blkcj02701EAiYMqapSm1PzkSg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/6fd6c023a860057bf7962ec9.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>راهنمای زنجیر کردن  Psiphon Desktop</b> با <b>whiteaesther</b> Desktop <tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br>اول Psiphon را وصل کنید.<br><br>در تنظیمات Psiphon proxy محلی را پیدا کنید. و یکی از پورت های زیر را وارد کنید . توصیه میشود از ساکس استفاده کنید <br><code>SOCKS5:1080</code><br> <code>HTTP:8080</code><br>WhiteAesther را باز کنید.<br>بروید به:<br><code>Advanced</code> → <code>Routes &amp; transports</code> → <code>Anti-blocking</code><br>در فیلد <code>Dial through a local proxy</code> یکی از این‌ها را وارد کنید:<br><pre>socks5://127.0.0.1:1080</pre><br>یا:<br><pre>http://127.0.0.1:8080</pre><br>بعد <code>Save profile</code> را بزنید.<br>حالا Connect کنید. مسیر  می‌شود:<br><pre>App traffic -&gt; WhiteAesther local SOCKS -&gt; Aether/WARP -&gt; Psiphon local upstream -&gt; Internet</pre><br>اگر میخواهید که whiteaesther سیستم شما را تانل کند روی Full tunnel و اگر نه از پراکسی whiteaesther برای نرم افزارهای خاص خودتون استفاده کنید <br><br>نکته : قابلیت exit chain را توی تنظیمات خاموش کنید <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>تیم وایت <br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "راهنمای زنجیر کردن Psiphon Desktop با whiteaesther Desktop 🔥🔥\n\nاول Psiphon را وصل کنید.\n\nدر تنظیمات Psiphon proxy محلی را پیدا کنید. و یکی از پورت های زیر را وارد کنید . توصیه میشود از ساکس استفاده کنید\nSOCKS5:1080\nHTTP:8080\nWhiteAesther را باز کنید.\nبروید به:\nAdvanced → Routes & transports → Anti-blocking\nدر فیلد Dial through a local proxy یکی از این‌ها را وارد کنید:\nsocks5://127.0.0.1:1080\nیا:\nhttp://127.0.0.1:8080\nبعد Save profile را بزنید.\nحالا Connect کنید. مسیر می‌شود:\nApp traffic -> WhiteAesther local SOCKS -> Aether/WARP -> Psiphon local upstream -> Internet\nاگر میخواهید که whiteaesther سیستم شما را تانل کند روی Full tunnel و اگر نه از پراکسی whiteaesther برای نرم افزارهای خاص خودتون استفاده کنید\n\nنکته : قابلیت exit chain را توی تنظیمات خاموش کنید ⚠️⚠️\n\nتیم وایت\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5080?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/WUM8PCrBmIxBS0Ck3mcMQmZNr6ZA7q_z85Gtd2nueEcKk42JCWbWg5ru67JC4475dU_Dp9PcL2LKmsN-91xeAfHCjb4lGB93hB7XTZCArSbmZnlHbhGJDGHsf7GKMkGmn42uq6qjbc1vDxcSpS21mdFSZgBHHQfMScYCG2BtL2uVCSPzZpgF1WGs61rmBX1hF4xHg0FPJ0Hr8mYtI7z304d7qkemZ3JZMgaCYjjEOdOzFczyErQbJZ_41XvmAe8m5TomxnqJSZQEpI7fkgPDykJjlcqHJLSQFGGGM6KhFJ68MkjAyqn-mAVDz9zdKXb_iuwo9oTKIdVnXgwVZE1IqA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/5ced67777783a7a25bef7759.jpg",
+          "thumbnail_sha256": "9b575ff32033999f93442359a2fec792b8a72823babc94dac0dfaf92b242a7ff",
+          "duration_label": null,
+          "aspect_ratio": 1.8561484918794
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5081?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/Yzly-PDVcn6X75a60sPCmg1JTMSMnSooT_79vTHwP7KztPiaP9RP-uKfu52184ID2AWHia9W6QQ8JsL6Z2c-uPEY6xGPfgPNJ0roIMIexzi_vX-WzvDW3d1fiaGbOY8PK1wZ_uAOF-C0scNsVNesaV90K0V5rQCdNNFTkfkB9dZqAoQpMEf0S_i2r18fE9vMKfggiO3bUkWd77VlctBTtKJR4LcnJ1Lkjw7CgJvWe1KxkEtlj3-3-e7UnWF5fkS75ATws9xSa59YkGrB8LU_oPPUNqs3BSwB3ZPx_eN-zzi0BqFZOdwoBdvfkBp422Q2KfAiIeVMgtlnnpYJK_6DwQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/bade96ca938735ade611b15f.jpg",
+          "thumbnail_sha256": "fef4d78841418688550922be1847bd7cb5b8f9e483583050b560088769aafb5c",
+          "duration_label": null,
+          "aspect_ratio": 1.2658227848101
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5082?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/Owigalt8pmhYruHOKOWVaRF96iAEiY7FwUEXl5-KTeDBCcsEEkt0R0KrQ_JMNkFpxmLbLqY2ZG7utb88pMnJ2tj5ufxI-10fSpejdGHkGfnhD9PpuPgRiqIEZZI2Ml2q0OHfG3VzCJFgEaxTe5579OunbEbzPTh-waZWC6ih1R2BE6z8R_nynHpmIdNI4whBTvtG58iZGkQsLp6c9O9o2FNi33VWGECy5_Y4bgMqz8LQ6Ay6yzSqsUNGQQ4mZi_dH1kgWC9mhdo89MxPH3xVEHhhn3AeJSLoTNRGIA4JZuyheVTgTFAO6zHXv1j6vnb7yH1yKL0MOITka_ZPyNmf9w.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/440caeb873d02a8ed492fb71.jpg",
+          "thumbnail_sha256": "03848678d0ff0b479efe67371f214d5c0ff5a9ceb520085ce6c74757dd458c98",
+          "duration_label": null,
+          "aspect_ratio": 1.8648018648019
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "11"
+        },
+        {
+          "emoji": "😁",
+          "count": "2"
+        }
+      ],
+      "views_label": "908",
+      "posted_at": "2026-08-28T16:13:43+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5080",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5079",
       "author_name": "Matin SenPai",
@@ -23,7 +82,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "100"
+          "count": "102"
         },
         {
           "emoji": "💔",
@@ -42,7 +101,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12K",
+      "views_label": "12.3K",
       "posted_at": "2026-08-28T11:46:30+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5079",
@@ -100,7 +159,7 @@
           "count": "2"
         }
       ],
-      "views_label": "12.5K",
+      "views_label": "12.8K",
       "posted_at": "2026-08-28T11:42:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5078",
@@ -129,7 +188,7 @@
           "count": "3"
         }
       ],
-      "views_label": "12.7K",
+      "views_label": "12.9K",
       "posted_at": "2026-08-28T11:38:30+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5077",
@@ -174,7 +233,7 @@
           "count": "4"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "12.8K",
       "posted_at": "2026-08-28T11:35:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5076",
@@ -224,7 +283,7 @@
           "count": "16"
         }
       ],
-      "views_label": "13.3K",
+      "views_label": "13.5K",
       "posted_at": "2026-08-28T11:05:36+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5075",
@@ -258,14 +317,14 @@
         },
         {
           "emoji": "❤",
-          "count": "23"
+          "count": "24"
         },
         {
           "emoji": "💔",
           "count": "3"
         }
       ],
-      "views_label": "14.8K",
+      "views_label": "14.9K",
       "posted_at": "2026-08-28T10:20:59+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5074",
@@ -314,7 +373,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.3K",
       "posted_at": "2026-08-28T09:42:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5073",
@@ -357,7 +416,7 @@
         },
         {
           "emoji": "❤",
-          "count": "59"
+          "count": "60"
         },
         {
           "emoji": "😁",
@@ -380,7 +439,7 @@
           "count": "2"
         }
       ],
-      "views_label": "17.8K",
+      "views_label": "17.9K",
       "posted_at": "2026-08-28T08:33:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5072",
@@ -466,7 +525,7 @@
           "count": "7"
         }
       ],
-      "views_label": "24.4K",
+      "views_label": "24.5K",
       "posted_at": "2026-08-27T10:19:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5070",
@@ -688,7 +747,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.8K",
+      "views_label": "24.9K",
       "posted_at": "2026-08-27T08:58:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5065",
@@ -4827,35 +4886,6 @@
       "posted_at": "2026-08-16T04:15:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4967",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4965",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/bPR7OHYvHtgDquQjmRLYE2HVkSWTyGtgM61BXzLkIZiX7vlzL4aq1rZBiy5pewhcUyf-2GSGev-Ret1qs78mvy_vuImB_Xf3gbtVUhbV2edhvnPs3sMyJCn0Es9kXziU16GiiQcRhCpgwHp7qu_jahTAeoY9pONjfJtgL6_WOP6ITJk8-RgXKHRhAAMTDiazPoCCWjVxzpnXkgRo0vgGAFXvUmZrnVQl0Z6Beh_lFRm-UpRuqZeGmZLw54-DZcTn0RKoqa1k5mjRIf-kiOq9P9LFZGXU26bKLwcSZoCpbTaVcuLhDPS8vcU0vZG6tO73BErqqhkCLM18k6DTayT2Aw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/467318e5180285e6ddce8d91.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>آموزش fragment+fingerprint برای رفع فیلتر دامنه و رفع محدودیت آپلود بر روی کلودفلر (ورکر/cdn) حتی روی نت‌های محدود:</b><br><br><b>Android</b>: <a href=\"https://t.me/patt_channel_x/91?single\" target=\"_blank\" rel=\"noopener\">https://t.me/patt_channel_x/91?single</a><br><br><b>Windows</b>: <a href=\"https://t.me/patt_channel_x/101?single\" target=\"_blank\" rel=\"noopener\">https://t.me/patt_channel_x/101?single</a><br><br><b>Android/Windows/Mac/iOS/Linux</b>: Use Xray-core custom-json-config and change/add --&gt; address, finalMask, fingerprint, cipherSuites",
-      "plain_text": "آموزش fragment+fingerprint برای رفع فیلتر دامنه و رفع محدودیت آپلود بر روی کلودفلر (ورکر/cdn) حتی روی نت‌های محدود:\n\nAndroid: https://t.me/patt_channel_x/91?single\n\nWindows: https://t.me/patt_channel_x/101?single\n\nAndroid/Windows/Mac/iOS/Linux: Use Xray-core custom-json-config and change/add --> address, finalMask, fingerprint, cipherSuites",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "127"
-        },
-        {
-          "emoji": "😁",
-          "count": "3"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        }
-      ],
-      "views_label": "22.6K",
-      "posted_at": "2026-08-16T01:44:02+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4965",
       "reply": null
     }
   ]
