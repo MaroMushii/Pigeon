@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-30T14:01:42.693Z",
+  "fetched_at": "2026-08-30T14:06:42.258Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/228822",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/nra8Ww_jcLSwWPE6MNu86Zlu-VPomK7SQ4kQ-SIgQvYG7mJaEUNW77OK00idlxLDo9xJgjsqzYeuRFG-v3VkcAdLQBEV4W9Wp5la3-ut9HEl8Y23Mcnw_OzZkVox6rqOuxeC1Sst0YP0r4RhXs-CSHTT-ZHmjwJQkN-FNXBxYkwAWO5r5g1S_tOOV5o9Rw7Yfl3XDh919lPGBOe5v0d7-pG_iXIFPR_DcHng47zwNBiMidDLaTgOlGveM0G_Q9UFIkmFa2M4ulpg60UbPdjhPaex_CjTY5efiV9K2wBHt8kTFbDPPVyTMBmnLwA12RY2EFIjvqN8KvdD7YJDBzXULg.jpg",
+      "author_photo_path": "channels/farsivoa/media/47a84eb81eb734cc01842faa.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "نیروی دریایی بریتانیا می‌گوید در یک عملیات ۷۲ ساعته، چهار شناور روسی را از دریای شمال تا کانال مانش زیر نظر گرفته است. مأموریت‌های رصد فعالیت روسیه در هشت ماه نخست امسال ۲۵ درصد افزایش داشته است.",
+      "plain_text": "نیروی دریایی بریتانیا می‌گوید در یک عملیات ۷۲ ساعته، چهار شناور روسی را از دریای شمال تا کانال مانش زیر نظر گرفته است. مأموریت‌های رصد فعالیت روسیه در هشت ماه نخست امسال ۲۵ درصد افزایش داشته است.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/228822",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/D3H-Ysl9bwik-Qz9JLPD3vEGUsrbZbbf6iAhrdZjwFcQq0_YxHVnp-yEV0RjGcarfefQotLupLpFSm7O8YCE52812nCR_x0uPvYPfU1nHLazAK0tJ2XtjnN3SJcLSOW61zha-ta4jCC1Ey2tB225UDfjoV7gnriYcII-mnmf7AAUngidbMU8npzFvI1TnZjmnUHFk_DrXnXt882TZ1F7oZd5vxd4g3NHw0av4Zo2R8ADP3ui2bV2BNE0hH64l8IxGedJ9LyVce3B0sD-Dfy9CNdUaD3Xsm69mP1ZHS2yfmD0Fi9ixjz-oOhjGt7D6KDUKFLqZJo9wcpawxCQUJwbig",
+          "thumbnail_path": "channels/farsivoa/media/76d95530f2a46739536d1cea.jpg",
+          "thumbnail_sha256": "c99c141d853d255d3124dd4b08e60f977160509e7722c03f79269b2086481c69",
+          "duration_label": "3:51",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "225",
+      "posted_at": "2026-08-30T14:02:14+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/228822",
+      "reply": null
+    },
+    {
       "id": "farsivoa/228821",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/nra8Ww_jcLSwWPE6MNu86Zlu-VPomK7SQ4kQ-SIgQvYG7mJaEUNW77OK00idlxLDo9xJgjsqzYeuRFG-v3VkcAdLQBEV4W9Wp5la3-ut9HEl8Y23Mcnw_OzZkVox6rqOuxeC1Sst0YP0r4RhXs-CSHTT-ZHmjwJQkN-FNXBxYkwAWO5r5g1S_tOOV5o9Rw7Yfl3XDh919lPGBOe5v0d7-pG_iXIFPR_DcHng47zwNBiMidDLaTgOlGveM0G_Q9UFIkmFa2M4ulpg60UbPdjhPaex_CjTY5efiV9K2wBHt8kTFbDPPVyTMBmnLwA12RY2EFIjvqN8KvdD7YJDBzXULg.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺گزارش‌ها از صدور حکم اعدام علیه ۱۰ معترض در اصفهان توسط جمهوری اسلامی\n\n▪️گزارش‌ها حاکی از آن است که شعبه اول دادگاه انقلاب اصفهان ۱۰ نفر از ۱۶ متهم پرونده موسوم به «میدان شهدای اصفهان» را در مرحله بدوی به اعدام محکوم کرده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-isfahan-revolutionary-court-martyrs/8192051.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "264",
+      "views_label": "456",
       "posted_at": "2026-08-30T13:56:50+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/228821",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.08K",
+      "views_label": "1.24K",
       "posted_at": "2026-08-30T13:24:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228820",
@@ -65,7 +93,7 @@
       "plain_text": "🔺تایید احکام ۲۹ شهروند در رابطه با «رقص کُردی و نمادگرایی» در مراسم عروسی\n\n▪️بنا بر گزارش‌ها دادگاه تجدیدنظر ارومیه حکم حبس یا جریمه نقدی ۲۹ تن از ۵۸ شهروند را که در ارتباط با حضور در یک مراسم عروسی در پیرانشهر برای آنها پرونده تشکیل شده بود، عینا تأیید کرده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-dance-wedding-human-rights/8192056.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.34K",
+      "views_label": "1.44K",
       "posted_at": "2026-08-30T13:15:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228819",
@@ -93,7 +121,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.44K",
+      "views_label": "1.51K",
       "posted_at": "2026-08-30T13:04:46+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228818",
@@ -109,7 +137,7 @@
       "plain_text": "🔺تلسکوپ فضایی رومن ناسا با موشک فالکون هوی پرتاب شد\n\n▪️تلسکوپ فضایی نانسی گریس رومن، تازه‌ترین رصدخانه پرچمدار ناسا، روز یکشنبه از مرکز فضایی کندی در فلوریدا پرتاب شد.\n\n▪️این پرتاب از سکوی ۳۹ای و با موشک فالکون هوی شرکت اسپیس‌ایکس انجام شد.\n\n▪️فالکون هوی با ارتفاع نزدیک به ۷۰ متر، ۲۷ موتور مرلین دارد که میان هسته مرکزی و دو بوستر جانبی تقسیم شده‌اند. بر پایه گزارش نشریه تک‌تایمز، دو بوستر جانبی پس از جدا شدن به زمین بازمی‌گردند و در محوطه فرود شماره ۲ و ۴۰ در پایگاه نیروی فضایی کیپ کاناورال می‌نشینند.\n\n▪️مقصد این تلسکوپ نقطه لاگرانژ دوم منظومه خورشید و زمین، در فاصله حدود یک میلیون و ۵۰۰ هزار کیلومتری زمین است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8192049.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.33K",
+      "views_label": "2.39K",
       "posted_at": "2026-08-30T12:00:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228817",
@@ -137,7 +165,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.07K",
+      "views_label": "2.13K",
       "posted_at": "2026-08-30T11:58:02+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228816",
@@ -165,7 +193,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.03K",
+      "views_label": "2.06K",
       "posted_at": "2026-08-30T11:48:00+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/228815",
@@ -181,7 +209,7 @@
       "plain_text": "🔺شمار کشته‌های انفجار انبار مهمات در اوکراین به ۳۸ نفر رسید\n\n▪️ولودیمیر زلنسکی، رئیس‌جمهوری اوکراین، روز یکشنبه اعلام کرد شمار کشته‌شدگان حمله هوایی روسیه به یک انبار مهمات در استان کی‌یف به ۳۸ نفر افزایش یافته است. جست‌وجو برای یافتن چهار نفر که همچنان مفقودند ادامه دارد.\n\n▪️مرگبارترین حمله روسیه در استان کی‌یف در سال جاری، اواخر روز جمعه رخ داد؛ زمانی که مسکو حملات شدید خود را علیه پایتخت اوکراین آغاز کرد و در طول آخر هفته ادامه داد.\n\n▪️انفجار روز جمعه تأسیساتی نظامی را هدف قرار داد که محل نگهداری گلوله توپخانه، مین، پهپاد و دیگر مهمات بود.\n\n▪️زلنسکی در تلگرام گفت امدادگران توانسته‌اند بیشتر آتش‌سوزی‌ها را خاموش کنند، اما میزان آلودگی در منطقه چشمگیر است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8192045.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.01K",
+      "views_label": "2.05K",
       "posted_at": "2026-08-30T11:42:06+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228814",
@@ -209,7 +237,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.19K",
+      "views_label": "2.23K",
       "posted_at": "2026-08-30T11:28:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228813",
@@ -237,7 +265,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.74K",
+      "views_label": "2.78K",
       "posted_at": "2026-08-30T11:15:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228812",
@@ -265,7 +293,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.7K",
+      "views_label": "2.77K",
       "posted_at": "2026-08-30T11:04:31+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228811",
@@ -293,7 +321,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.57K",
+      "views_label": "2.61K",
       "posted_at": "2026-08-30T10:56:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228810",
@@ -321,7 +349,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.74K",
+      "views_label": "2.78K",
       "posted_at": "2026-08-30T10:37:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228809",
@@ -377,7 +405,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.88K",
+      "views_label": "2.89K",
       "posted_at": "2026-08-30T09:58:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228807",
@@ -405,7 +433,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.02K",
+      "views_label": "3.06K",
       "posted_at": "2026-08-30T09:32:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228806",
@@ -421,7 +449,7 @@
       "plain_text": "🔺دوئولینگو آزمون زبان خود را برای ایرانیان متوقف کرد\n\n▪️آزمون زبان انگلیسی دوئولینگو از ۱۰ شهریور نه‌تنها در ایران، بلکه برای همه دارندگان مدارک هویتی ایرانی در سراسر جهان متوقف می‌شود.\n\n▪️بر پایه اطلاعیه رسمی این مجموعه، محدودیت تازه فراتر از مسدودسازی موقعیت جغرافیایی است و همه متقاضیانی را که با گذرنامه یا اسناد هویتی صادرشده از ایران قصد احراز هویت دارند در بر می‌گیرد؛ حتی اگر بیرون از کشور زندگی کنند.\n\n▪️بر این اساس، «آزمون زبان انگلیسی دوئولینگو از اول سپتامبر در ایران در دسترس نخواهد بود.»\n\n▪️سیاست تازه دوئولینگو بر پایه «هویت کاربر» بنا شده، نه موقعیت مکانی و استفاده از ابزارهای تغییر نشانی اینترنتی یا حتی حضور فیزیکی در خارج از کشور راهگشا نخواهد بود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8192044.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.98K",
+      "views_label": "3.02K",
       "posted_at": "2026-08-30T09:22:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228805",
@@ -449,7 +477,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.91K",
+      "views_label": "2.94K",
       "posted_at": "2026-08-30T09:07:14+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228804",
@@ -465,7 +493,7 @@
       "plain_text": "🔺عضو کمیسیون اقتصادی مجلس: موج تورمی شدیدتری در راه است\n\n▪️عضو کمیسیون اقتصادی مجلس می‌گوید هنوز اقتصاد ایران متاثر از نرخ ارز ۱۸۰ هزار تومان یکی، دو ماه گذشته نشده و باید انتظار موج تورمی شدیدتری هم داشته باشیم و این «فاجعه‌» در اقتصاد ما در حال شکل‌گیری است.\n\n▪️حسین صمصامی گفت با توجه به اینکه بانک مرکزی اجازه داده صادرکننده و واردکننده با هم توافق کنند، لذا نرخ ۲۰۴ الی ۲۰۵ هزار تومانی دلار آمریکا در سفره مردم قرار می‌گیرد و بعد این نرخ بالاتر می‌رود و این تورم در سفره مردم دائمی می‌شود.\n\n▪️نرخ دلار در لحظه تنظیم این گزارش در صبح روز یکشنبه بالای ۲۰۶ هزار تومان است که نسبت به شهریور پارسال دو برابر شده و نسبت به ابتدای جنگ نیز ۲۵ درصد رشد نشان می‌دهد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8192041.html",
       "media": [],
       "reactions": [],
-      "views_label": "3K",
+      "views_label": "3.03K",
       "posted_at": "2026-08-30T08:50:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228803",
@@ -2454,34 +2482,6 @@
       "posted_at": "2026-08-29T10:12:11+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/228720",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/228719",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/QJAJ9TgbTYG2gxNDHey9AezprvcaYNCjvifCTytT9xT-FFjoNpYQnjtswVRgjE5SaxerVLbvTLSsGW28F0a-glYvBuYDYfNUKxcKRZNSlQLN-FOAJrZoE3BqgRxv5UhB4mbqUNRsmndCfi87IOxktom6o_48lpnXBsXyzPzjNTOeu6SF6FdDhijEWSOmrF5OxwUlXPLxnp0S4_jz7DO3tReL1O3_FbDmYs9TeHi0Lgy0tUhIRfKOAq0Rzt5ZFmm7TKvPFfC1KqSijPSi6C2BFY12sG5qeaxsJQcT4W6DZjfXiqwzEdz6qG0O_MDoCQxKxJnj7ka_cB3z6j114JIpPQ.jpg",
-      "author_photo_path": "channels/farsivoa/media/61372959c3638a12f3ce2df7.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "رسانه‌های لبنانی از حمله پهپادی اسرائیل به شهرک نبطیه فوقا در جنوب لبنان خبر دادند.<br><br>اسرائیل در روزهای اخیر حملات خود به حزب‌الله در جنوب لبنان را افزایش داده است؛ به‌ویژه در منطقه نبطیه که ارتفاعات راهبردی علی‌الطاهر در آن قرار دارد. حزب‌الله نیز نیروهای اسرائیلی مستقر در همان منطقه را هدف گرفته است.<br><br>بر پایه گزارش روزنامه نشنال، ارتش اسرائیل برای حمله گسترده به این ارتفاعات علی‌الطاهر آماده شده، اما تاکنون آن را انجام نداده است.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "رسانه‌های لبنانی از حمله پهپادی اسرائیل به شهرک نبطیه فوقا در جنوب لبنان خبر دادند.\n\nاسرائیل در روزهای اخیر حملات خود به حزب‌الله در جنوب لبنان را افزایش داده است؛ به‌ویژه در منطقه نبطیه که ارتفاعات راهبردی علی‌الطاهر در آن قرار دارد. حزب‌الله نیز نیروهای اسرائیلی مستقر در همان منطقه را هدف گرفته است.\n\nبر پایه گزارش روزنامه نشنال، ارتش اسرائیل برای حمله گسترده به این ارتفاعات علی‌الطاهر آماده شده، اما تاکنون آن را انجام نداده است.\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/228719",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/Ob89ExFQnnx-od3Qp9gZpk5hazAepLHFTtLtc_E8Yd59Y9Ayimm3xaCIVbsDuHMO0vhPb4f535ylNCl_7hshKPKuf1LH49Afo8W4sc4WUBqnhA9cJRbt9esDFh5-0RNtB3DoAKjg5ufCv7Vl3T3PDxZLPA_JCwKIijqcYX2Xo49caovAWFF-V2MSz0Bdgh8GpdMoNv4UcXPEn3C-iNyq3rj_JWDkvpdzfj_pIAyoFZFPjMugHeE8wQYTSp_vMkAN96AXqRX-Iy6RF6_wqbkbu-WlA5WUCzklTTBgOorpnVPBlKJKchQjpN2scm4hpeuOI20BJep_bVzN3EtmB05nEQ.jpg",
-          "thumbnail_path": "channels/farsivoa/media/1cddc448822344cb7525b74d.jpg",
-          "thumbnail_sha256": "facb1869b8ccdd89243741d35744505f6fe16fec860c5534d0079df7527acd3c",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.79K",
-      "posted_at": "2026-08-29T10:01:56+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/228719",
       "reply": null
     }
   ]
