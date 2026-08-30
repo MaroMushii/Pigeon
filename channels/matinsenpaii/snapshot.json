@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-30T11:36:45.819Z",
+  "fetched_at": "2026-08-30T11:41:53.183Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,40 @@
     "subscriber_count": "155K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5103",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/tvgg9PMB6BsXOejtfe5ONZI2UMBDF80KP-xNM-EbE8hkWfzMuroHZU6MJuM7i8QYJ6LRV3qzmOOjxGWsur1ZjYtl-S5iIOzT1T_f7VgRSMlg0UlNgN66SUXzZR4jiSjMyzalH3khiOOi7IT32nr_TyoX4hBVeZYoNexIbvOE0q0LedOpVKaFvRwAKOrMeU_bArLzgl1MLJ-k1r3LC5zl9qDFV8BuqlzbRMkpP9Gs1o9FynHALF5NtlwfuYKB1As95s-ICrTEsCwJz1qzyvfu-0YtHSR9oTHLcMAdTmRlz7obfX1GkJ__NShfNpd7-tQTb90gRftvVG94_xfzE2ma5w.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/31758b04be7da96ea35fbaf1.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "یکی از بچه‌های خوب کانال(Ali Rajabian) به من یه ایمیل زد، و توضیحات خیلی خوبی راجب Mpay و گرفتن Trial رایگان از پلتفرم‌های مختلف رو گفت:<br><br><blockquote>سلام متین، امیدوارم حالت عالی باشه.<br><br>می‌خواستم پیرو ویدیوها و آموزش‌هات، چند نکته و تجربه شخصی رو در رابطه با کارت‌های MPay، دریافت کردیت‌های رایگان کلود ها و وضعیت سرورهای مجازی باهات به اشتراک بذارم تا در صورت نیاز به بچه‌ها منتقل کنی:<br><br>۱. فعال‌سازی تریال اسپاتیفای و تشخیص ریجن کارت‌های MPay:<br>برای فعال‌سازی تریال اسپاتیفای، لزوماً نیازی به گوگل پی یا گوگل والت نیست و با وارد کردن مستقیم اطلاعات کارت هم انجام می‌شه. نکته کلیدی اینه که ریجن اکانت اسپاتیفای دقیقا با کشور صادرکننده کارت یکی باشه.<br>برای این که بچه‌ها بفهمن کارت MPay که گرفتن مال چه کشوریه، کافیه ۶ رقم اول شماره کارت (BIN) رو در&nbsp;<a href=\"https://binchecker.pro/#bin_header\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">یه سایت BIN Checker</a>&nbsp;وارد کنن. مثلاً کارت من با بین ۴۵۶۵۹۹ صادرشده که مال کشور سنگاپور بود و تونستم با ست کردن ریجن سنگاپور تو اسپاتیفای، مستقیماً تریالش رو بدون مشکل فعال کنم.<br><br>۲. دریافت سرور مجازی و کردیت‌های رایگان از کلودها:<br>با همین کارت‌ها می‌شه کردیت‌های بسیار خوبی از ارائه‌دهنده‌های مطرح کلود گرفت:<br>* سرویس AWS: در حالت عادی با ثبت ایمیل و کارت، ۱۰۰ دلار کردیت اولیه میده. علاوه بر این، با انجام ۵ تسک ساده که در&nbsp;<a href=\"https://docs.aws.amazon.com/accounts/latest/reference/bcm-lite-free-tier-credits.html\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">مستندات کردیت AWS</a>&nbsp;توضیح داده شده، برای هر تسک ۲۰ دلار و در مجموع ۲۰۰ دلار کردیت ۶ ماهه دریافت می‌شه که برای راه‌اندازی سرورهای بسیار خوب با مشخصات مناسب (تا ۸ گیگ رم و ۳۰ گیگ استوریج) برا چند ماه کافیه. جزئیات بیشتر و مشخصات هم در&nbsp;<a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-free-tier-usage.html#ec2-free-tier-comparison\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای استفاده از EC2 Free Tier</a>&nbsp;در دسترسه. (جایی هم دیدم که امکان استفاده از این کردیت‌ها در ایجنت kiro ai که مال خود آمازونه و مدل‌های پیشرفته مثل Opus 5 وجود داره که خودم البته چک نکردم).<br><br>جا های دیگه ای هم که از این دست سرویس ها میدن: سرویس Akamai (لینود) ۱۰۰ دلار کردیت ثبت‌نام میده. و همچنین اوراکل که پلن Always Free (با ۴ هسته ARM و ۲۴ گیگ رم)، که البته به دلیل چک کردن دقیق سیستم AVS و عدم ثبت آدرس در کارت‌های مجازی MPay من نتونستم فعالش کنم. گوگل کلاد هم ۳۰۰ دلار کردیت میده که البته نیاز به یه پرداخت اولیه ی ۳۰ دلاری داره.<br><br>۳. تجربه مسدودسازی آی‌پی در هاستینگ‌های داخلی در مقایسه با خارجی:<br>من حدود ۲ - ۳ ساله که برای استفاده شخصی سرور مجازی تهیه می‌کنم و تانل می‌زنم. قبلاً از سرویس‌دهنده‌های ایرانی (مشخصاً پارس وی‌دی‌اس و پارس پک) سرور تهیه می‌کردم، اما بعد از دی ماه مرتباً بعد از حدود ۱۰ تا ۱۵ روز آی‌پی سرورها مسدود می‌شد. در مقابل، از حدود یک ماه و نیم پیش بر اساس معرفی خودت از سایت HostVDS سرور گرفتم و با همان کانفیگ‌ها و الگوهای قبلی، تا الان هیچ قطعی یا مسدودی آی‌پی نداشتم.<br>هرچند این بازه زمانی برای نتیجه‌گیری قطعی کمه، اما این فرضیه رو تقویت می‌کنه که شاید بعضی از دیتاسنترها و ارائه‌دهنده‌های واسط داخلی ممکن است ترافیک‌های متقارن، مصرف پهنای باند یا ابزارهای تانل را بر اساس قوانین خودشون مانیتور کنند و با تغییر دادن سریع وضعیت یا بلاک شدن آی‌پی، هزینه تعویض آی‌پی دریافت کنند.<br><br>امید وارم این نکات مفید بوده باشه.<br><br>ارادتمند،<br>علی</blockquote>",
+      "plain_text": "یکی از بچه‌های خوب کانال(Ali Rajabian) به من یه ایمیل زد، و توضیحات خیلی خوبی راجب Mpay و گرفتن Trial رایگان از پلتفرم‌های مختلف رو گفت:\n\nسلام متین، امیدوارم حالت عالی باشه.\n\nمی‌خواستم پیرو ویدیوها و آموزش‌هات، چند نکته و تجربه شخصی رو در رابطه با کارت‌های MPay، دریافت کردیت‌های رایگان کلود ها و وضعیت سرورهای مجازی باهات به اشتراک بذارم تا در صورت نیاز به بچه‌ها منتقل کنی:\n\n۱. فعال‌سازی تریال اسپاتیفای و تشخیص ریجن کارت‌های MPay:\nبرای فعال‌سازی تریال اسپاتیفای، لزوماً نیازی به گوگل پی یا گوگل والت نیست و با وارد کردن مستقیم اطلاعات کارت هم انجام می‌شه. نکته کلیدی اینه که ریجن اکانت اسپاتیفای دقیقا با کشور صادرکننده کارت یکی باشه.\nبرای این که بچه‌ها بفهمن کارت MPay که گرفتن مال چه کشوریه، کافیه ۶ رقم اول شماره کارت (BIN) رو در یه سایت BIN Checker وارد کنن. مثلاً کارت من با بین ۴۵۶۵۹۹ صادرشده که مال کشور سنگاپور بود و تونستم با ست کردن ریجن سنگاپور تو اسپاتیفای، مستقیماً تریالش رو بدون مشکل فعال کنم.\n\n۲. دریافت سرور مجازی و کردیت‌های رایگان از کلودها:\nبا همین کارت‌ها می‌شه کردیت‌های بسیار خوبی از ارائه‌دهنده‌های مطرح کلود گرفت:\n* سرویس AWS: در حالت عادی با ثبت ایمیل و کارت، ۱۰۰ دلار کردیت اولیه میده. علاوه بر این، با انجام ۵ تسک ساده که در مستندات کردیت AWS توضیح داده شده، برای هر تسک ۲۰ دلار و در مجموع ۲۰۰ دلار کردیت ۶ ماهه دریافت می‌شه که برای راه‌اندازی سرورهای بسیار خوب با مشخصات مناسب (تا ۸ گیگ رم و ۳۰ گیگ استوریج) برا چند ماه کافیه. جزئیات بیشتر و مشخصات هم در راهنمای استفاده از EC2 Free Tier در دسترسه. (جایی هم دیدم که امکان استفاده از این کردیت‌ها در ایجنت kiro ai که مال خود آمازونه و مدل‌های پیشرفته مثل Opus 5 وجود داره که خودم البته چک نکردم).\n\nجا های دیگه ای هم که از این دست سرویس ها میدن: سرویس Akamai (لینود) ۱۰۰ دلار کردیت ثبت‌نام میده. و همچنین اوراکل که پلن Always Free (با ۴ هسته ARM و ۲۴ گیگ رم)، که البته به دلیل چک کردن دقیق سیستم AVS و عدم ثبت آدرس در کارت‌های مجازی MPay من نتونستم فعالش کنم. گوگل کلاد هم ۳۰۰ دلار کردیت میده که البته نیاز به یه پرداخت اولیه ی ۳۰ دلاری داره.\n\n۳. تجربه مسدودسازی آی‌پی در هاستینگ‌های داخلی در مقایسه با خارجی:\nمن حدود ۲ - ۳ ساله که برای استفاده شخصی سرور مجازی تهیه می‌کنم و تانل می‌زنم. قبلاً از سرویس‌دهنده‌های ایرانی (مشخصاً پارس وی‌دی‌اس و پارس پک) سرور تهیه می‌کردم، اما بعد از دی ماه مرتباً بعد از حدود ۱۰ تا ۱۵ روز آی‌پی سرورها مسدود می‌شد. در مقابل، از حدود یک ماه و نیم پیش بر اساس معرفی خودت از سایت HostVDS سرور گرفتم و با همان کانفیگ‌ها و الگوهای قبلی، تا الان هیچ قطعی یا مسدودی آی‌پی نداشتم.\nهرچند این بازه زمانی برای نتیجه‌گیری قطعی کمه، اما این فرضیه رو تقویت می‌کنه که شاید بعضی از دیتاسنترها و ارائه‌دهنده‌های واسط داخلی ممکن است ترافیک‌های متقارن، مصرف پهنای باند یا ابزارهای تانل را بر اساس قوانین خودشون مانیتور کنند و با تغییر دادن سریع وضعیت یا بلاک شدن آی‌پی، هزینه تعویض آی‌پی دریافت کنند.\n\nامید وارم این نکات مفید بوده باشه.\n\nارادتمند،\nعلی",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "15"
+        },
+        {
+          "emoji": "😁",
+          "count": "1"
+        }
+      ],
+      "views_label": "647",
+      "posted_at": "2026-08-30T11:39:47+00:00",
+      "edited": true,
+      "permalink": "https://t.me/MatinSenPaii/5103",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "5091",
+        "author_name": "Matin SenPai",
+        "preview_text": "☠️ خرید اشتراک‌های دلاری با Visa کارت شخصی و کریپتو ⚡️ثبت نام توی Mpay برای ویزا کارت: https://app.mpay.cards?startapp=ref_S4FPMh ثبت نام توی سواپ ولت با 5 درصد کارمزد دائمی کمتر: https://t.me/swapwalletbot/app?startapp=invite-515916 🔴نکات مهم در مورد پرداخت…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/mjvvmLOibIwvo92Ztmg6a9h2FkLSqDVuNvrIlRFucv5-pocafYlU-bLApCjyxwLIubeUxWyZPvFkhOK5tMDbK0PFhyJeDWri1aXNsl41KG8tmO8ySbGEw-3QIGsb92epVKle3dr_-u0b-KAIVsfh76aiSr6Ef5pyQiRGzZn6FLWkB1qfcBGB2RU-EoG2zFGBdMLN3SiixwyYeKnwiyHq8D3IqVUj4iYQwEDXuo6v-Fxggla5Rm-m_ml3decDEbMwoNKyVqEyY31VNn_2k4fZEwmAWH6wDvQORAmNrHkUJIoZeU-FIsoBwzNmCIk6IU0Omo3CScXPPB4F2r7aLHFMWA.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/3aba2bba74bd60c9354944b2.jpg",
+        "thumbnail_sha256": "77543f7d063fe028b8b7d3c11a8b2e5a6f8c6f17923882b4971892e617cea427",
+        "permalink": "https://t.me/matinsenpaii/5091"
+      }
+    },
     {
       "id": "MatinSenPaii/5102",
       "author_name": "Matin SenPai",
@@ -23,11 +57,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "71"
+          "count": "78"
         },
         {
           "emoji": "💔",
-          "count": "13"
+          "count": "14"
         },
         {
           "emoji": "🆒",
@@ -38,7 +72,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.71K",
+      "views_label": "5.64K",
       "posted_at": "2026-08-30T11:11:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5102",
@@ -72,7 +106,7 @@
         },
         {
           "emoji": "❤",
-          "count": "55"
+          "count": "60"
         },
         {
           "emoji": "😁",
@@ -80,14 +114,14 @@
         },
         {
           "emoji": "👍",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "💯",
           "count": "1"
         }
       ],
-      "views_label": "5.8K",
+      "views_label": "6.43K",
       "posted_at": "2026-08-30T11:07:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5101",
@@ -141,14 +175,14 @@
         },
         {
           "emoji": "❤",
-          "count": "98"
+          "count": "103"
         },
         {
           "emoji": "👍",
           "count": "17"
         }
       ],
-      "views_label": "7.87K",
+      "views_label": "8.5K",
       "posted_at": "2026-08-30T10:51:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5099",
@@ -178,7 +212,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "331"
+          "count": "342"
         },
         {
           "emoji": "❤",
@@ -186,18 +220,18 @@
         },
         {
           "emoji": "🦄",
-          "count": "4"
+          "count": "5"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
         },
         {
           "emoji": "🆒",
           "count": "2"
-        },
-        {
-          "emoji": "👍",
-          "count": "1"
         }
       ],
-      "views_label": "10.3K",
+      "views_label": "10.6K",
       "posted_at": "2026-08-30T10:27:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5098",
@@ -235,7 +269,7 @@
           "count": "7"
         }
       ],
-      "views_label": "20.9K",
+      "views_label": "21.2K",
       "posted_at": "2026-08-29T21:14:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5097",
@@ -284,7 +318,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23K",
+      "views_label": "23.3K",
       "posted_at": "2026-08-29T19:46:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5096",
@@ -314,7 +348,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "402"
+          "count": "403"
         },
         {
           "emoji": "❤",
@@ -333,7 +367,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.9K",
+      "views_label": "23.2K",
       "posted_at": "2026-08-29T19:45:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5095",
@@ -351,7 +385,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "467"
+          "count": "469"
         },
         {
           "emoji": "👍",
@@ -493,7 +527,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24.6K",
+      "views_label": "24.9K",
       "posted_at": "2026-08-29T19:24:22+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5091",
@@ -527,7 +561,7 @@
         },
         {
           "emoji": "😁",
-          "count": "623"
+          "count": "624"
         },
         {
           "emoji": "👍",
@@ -573,7 +607,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "363"
+          "count": "364"
         },
         {
           "emoji": "👍",
@@ -618,7 +652,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "774"
+          "count": "775"
         },
         {
           "emoji": "👍",
@@ -663,7 +697,7 @@
         },
         {
           "emoji": "😁",
-          "count": "46"
+          "count": "47"
         },
         {
           "emoji": "🦄",
@@ -705,11 +739,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "532"
+          "count": "533"
         },
         {
           "emoji": "👍",
-          "count": "44"
+          "count": "45"
         },
         {
           "emoji": "❤",
@@ -742,7 +776,7 @@
         },
         {
           "emoji": "😁",
-          "count": "99"
+          "count": "100"
         },
         {
           "emoji": "❤",
@@ -775,7 +809,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "383"
+          "count": "384"
         },
         {
           "emoji": "❤",
@@ -4819,43 +4853,6 @@
       "posted_at": "2026-08-18T19:54:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/4991",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/4990",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/r3yWu6DQG9awkllRYuiXa4ojWKuuoq0A1GZ4PH1hlyglz1WjxiThVhCwMLc3riAEjAmfwmHvmOlesb6pJRcfDWb3shP31qVSTMy0lt3EZ6RH1OKrCWaFDdzs2KmhDfN5h3fbgTXpLiRaedoPwim-zmhEqcDxIXukpc-6p21Zy4pIISi22oaTTncl5Sdsdp7jucYgaHCci5HPSM90SIZAKhMVpshqdGutrxTR_HPy7crvBgdR74Fi0KvOgFDMgCQolJ6XJoyDlPmWn9Le5AidOCw05hrfQTZWt1236UMuPMz8i1-7Y3fTYpDXF3mvhONS9eoHfK-lfc6QtqGjY_fgqA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/9cdd3365b39bb59758512fba.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "لینک داشبورد کلودفلر: <a href=\"http://dash.cloudflare.com/\" target=\"_blank\" rel=\"noopener\">dash.cloudflare.com</a><br>لینک ویزارد تحت وب BPB جهت راه‌اندازی: <a href=\"https://wizard.bpb-panel.workers.dev/\" target=\"_blank\" rel=\"noopener\">https://wizard.bpb-panel.workers.dev/</a>",
-      "plain_text": "لینک داشبورد کلودفلر: dash.cloudflare.com\nلینک ویزارد تحت وب BPB جهت راه‌اندازی: https://wizard.bpb-panel.workers.dev/",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "215"
-        },
-        {
-          "emoji": "👍",
-          "count": "11"
-        },
-        {
-          "emoji": "😁",
-          "count": "7"
-        },
-        {
-          "emoji": "🆒",
-          "count": "4"
-        }
-      ],
-      "views_label": "34.3K",
-      "posted_at": "2026-08-18T17:20:23+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/4990",
       "reply": null
     }
   ]
