@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-08-31T16:27:08.078Z",
+  "fetched_at": "2026-08-31T16:32:19.467Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,51 @@
     "subscriber_count": "11M"
   },
   "posts": [
+    {
+      "id": "durov/546",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/o7a_2zRb3oAQekFtRO2XaQOQ_BUGbgT1M8_1V-ugEsPzTBKbwXWPImZKYF3xWnnNsL1jAaToa_SktCzu9pAShTx1N0D2kiVn7bbzsPcz-NZhTCgjlKaUjRyjI0i2Ye1cdvDgQSWBmcSo-v09bhvTDpvIagOgXEef9Wu9SDlEPOw3fPP80fsmOC-E-zUMGynIBstav6M0T6C-M_WBfxou1T6XPjdf3MUawnsFAJ1ClAW_9DN4efUlkJYZPm9PzkaEbGCfP6aAjWngCK4WdNx2bfX_73mRovaG5e6hok0uo4UOGPbbdesHbBckUgDKxpOzrSR8TAGz_9XJN1Y2x8LDow.jpg",
+      "author_photo_path": "channels/durov/media/5030480b070efcd8ba5df6a5.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<tg-emoji emoji-id=\"5296258338886035861\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8FB3.png')\"><b>🏳️</b></i></tg-emoji> Gram Wallet in Telegram is ready and is now accessible to a select group of users.<br><br><tg-emoji emoji-id=\"5316927710084226227\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA4A9.png')\"><b>🤩</b></i></tg-emoji> We'll be gradually rolling it out to our billion+ users over the next couple of weeks.<br><br><tg-emoji emoji-id=\"5431449001532594346\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i></tg-emoji> Thanks to the validators who approved the smart contract that powers it, future upgrades of the wallet won't require painful migrations.<br><br>This is just one of the innovations we've built to make non-custodial wallets usable <tg-emoji emoji-id=\"5472164874886846699\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i></tg-emoji>",
+      "plain_text": "🏳️ Gram Wallet in Telegram is ready and is now accessible to a select group of users.\n\n🤩 We'll be gradually rolling it out to our billion+ users over the next couple of weeks.\n\n⚡️ Thanks to the validators who approved the smart contract that powers it, future upgrades of the wallet won't require painful migrations.\n\nThis is just one of the innovations we've built to make non-custodial wallets usable ✨",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/durov/546",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/qN10SrqU1KInxcMqwhbklUtq7w0hwG9GG2Vr-GT4aoI_hj7HN05I9ufM8NOQh_h2yfz-d2YK1SvBbJmn1mWxAOzV0chYa_qMkAqudNVLSprttZohYogSQnrID_h2o-liG2xk8kZ17Jhww2JBov7KidwtrykjqQ1iyKyfgGWomjPoPIroL_diFiX-hasojJ8A3ZIpdDihQhYyIeZxX4mnJIlZHPGbc0onyP_898O1yhBk08N3bpizWm1jtrYjxoB3ogmZ2J1b5cDdPVWjFiYcjFuQtUlSRe752SU0QIMlx0FXIFNIHYo7c4iD8f6KxMMi0N_QzOX9Rvy3sR3dEy41fw",
+          "thumbnail_path": "channels/durov/media/97fe8b7d67f91fa832426f70.jpg",
+          "thumbnail_sha256": "0187ef05f3ff0849870ad55201f0a5616934e88724835d0a80fd22168c34654d",
+          "duration_label": "0:20",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "237"
+        },
+        {
+          "emoji": "💎",
+          "count": "698"
+        },
+        {
+          "emoji": "💎",
+          "count": "517"
+        },
+        {
+          "emoji": "💎",
+          "count": "469"
+        }
+      ],
+      "views_label": "44.6K",
+      "posted_at": "2026-08-31T16:30:15+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/546",
+      "reply": null
+    },
     {
       "id": "durov/545",
       "author_name": "Pavel Durov",
@@ -31,14 +76,14 @@
         },
         {
           "emoji": "💎",
-          "count": "9.96K"
+          "count": "9.97K"
         },
         {
           "emoji": "💎",
           "count": "7.94K"
         }
       ],
-      "views_label": "860K",
+      "views_label": "870K",
       "posted_at": "2026-08-30T09:10:19+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/545",
@@ -89,7 +134,7 @@
       "reactions": [
         {
           "emoji": "⭐",
-          "count": "17.1K"
+          "count": "17.2K"
         },
         {
           "emoji": "💎",
@@ -137,7 +182,7 @@
           "count": "11.1K"
         }
       ],
-      "views_label": "3.29M",
+      "views_label": "3.3M",
       "posted_at": "2026-08-15T13:29:20+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/542",
@@ -159,7 +204,7 @@
         },
         {
           "emoji": "💎",
-          "count": "135K"
+          "count": "136K"
         },
         {
           "emoji": "💎",
@@ -215,7 +260,7 @@
           "count": "9.8K"
         }
       ],
-      "views_label": "3.85M",
+      "views_label": "3.86M",
       "posted_at": "2026-08-10T09:29:58+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/540",
