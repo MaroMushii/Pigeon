@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-01T19:02:16.329Z",
+  "fetched_at": "2026-09-01T19:08:09.864Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -17,22 +17,34 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/PMHLqhP-1rMBlJnYMTDkSrqiViLT8LN0oJfx12vENAzcaI2NWWsgr-1RnglAaa72sdZt3ORpyGIS_9aPqv5V5zd721wJvd6NY0BPMGwmrdzdOmhjGZp1Nm53ATOfgSlD-sZQldbOwFNol31xCerZ6n6xJJm5GHfJizIc6bpeZr92yrbfw4HcfZsnIB7-BCOvhxsWnjoN3qgc9YNKjEMLZhymANkgft2uy2Lts9h1C1IKM3tQuVaX24-URgLeDhxYQPAAhmsMqQM5JIITIWV8FoQvaUWuwCq68I3g1v7rEHXrbrDE0f6GYBON4J22xC2R4qtTgVG3q3oFDm2ePek7tw.jpg",
       "author_photo_path": "channels/whitedns/media/f1df6451159c4a0c0e52bf41.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i>&nbsp;اصلاحیه — نسخهٔ ۱٫۲٫۷ منتشر شد<br>اگر نسخهٔ ۱٫۲٫۶ را نصب کرده‌اید، لطفاً به‌روزرسانی کنید.<br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i>&nbsp;مشکل چه بود<br>در نسخهٔ ۱٫۲٫۶، اگر پروتکل را روی وارپ‌در‌وارپ می‌گذاشتید و دکمهٔ اتصال را می‌زدید،&nbsp;برنامه بسته می‌شد.<br>بقیهٔ پروتکل‌ها سالم بودند. فقط وارپ‌در‌وارپ.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A7.png')\"><b>🔧</b></i>&nbsp;چرا این اتفاق افتاد<br>در نسخهٔ ۱٫۲٫۶ یک باگ قدیمی را رفع کردیم که باعث می‌شد روی وارپ‌در‌وارپ مرورگرها باز نشوند. برای آن رفع، اندازهٔ بسته‌ها را به عددی تغییر دادیم که این تونل واقعاً می‌تواند حمل کند.<br>ولی آن عدد از حداقلی که پروتکل&nbsp;IPv6&nbsp;لازم دارد کمتر بود، و اندروید این حداقل را اجباری می‌کند. نتیجه‌اش این شد که ساختن تونل رد می‌شد و برنامه بسته می‌شد.<br>یعنی رفع ما مشکل بدتری ساخت: قبلش وصل می‌شد و مرورگر کار نمی‌کرد، بعدش اصلاً وصل نمی‌شد.<br>بابت این اشتباه عذرخواهی می‌کنیم.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>&nbsp;در نسخهٔ ۱٫۲٫۷<br>حالا وقتی تونل نتواند&nbsp;IPv6&nbsp;را حمل کند، برنامه آن را روشن نمی‌کند به‌جای اینکه بسته شود.<br>نتیجهٔ عملی:&nbsp;وارپ‌در‌وارپ فقط با&nbsp;IPv4&nbsp;کار می‌کند. این محدودیت واقعی این تونل است، نه چیزی که بشود دورش زد.<br>هم اتصال درست کار می‌کند و هم مرورگرها باز می‌شوند.<br>به‌جز این، هیچ چیز دیگری نسبت به ۱٫۲٫۶ عوض نشده. تمام قابلیت‌هایی که در پست قبلی گفتیم سر جایشان هستند.</blockquote><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i>&nbsp;دانلود<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;<code>arm64-v8a</code>&nbsp;— تقریباً همهٔ گوشی‌های ۲۰۱۷ به بعد <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;<code>armeabi-v7a</code>&nbsp;— گوشی‌های قدیمی‌تر <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;<code>universal</code>&nbsp;— اگر مطمئن نیستید<br>نیازی به حذف برنامه نیست؛ روی نسخهٔ قبلی نصب می‌شود و تنظیماتتان می‌ماند.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "⚠️ اصلاحیه — نسخهٔ ۱٫۲٫۷ منتشر شد\nاگر نسخهٔ ۱٫۲٫۶ را نصب کرده‌اید، لطفاً به‌روزرسانی کنید.\n🐞 مشکل چه بود\nدر نسخهٔ ۱٫۲٫۶، اگر پروتکل را روی وارپ‌در‌وارپ می‌گذاشتید و دکمهٔ اتصال را می‌زدید، برنامه بسته می‌شد.\nبقیهٔ پروتکل‌ها سالم بودند. فقط وارپ‌در‌وارپ.\n🔧 چرا این اتفاق افتاد\nدر نسخهٔ ۱٫۲٫۶ یک باگ قدیمی را رفع کردیم که باعث می‌شد روی وارپ‌در‌وارپ مرورگرها باز نشوند. برای آن رفع، اندازهٔ بسته‌ها را به عددی تغییر دادیم که این تونل واقعاً می‌تواند حمل کند.\nولی آن عدد از حداقلی که پروتکل IPv6 لازم دارد کمتر بود، و اندروید این حداقل را اجباری می‌کند. نتیجه‌اش این شد که ساختن تونل رد می‌شد و برنامه بسته می‌شد.\nیعنی رفع ما مشکل بدتری ساخت: قبلش وصل می‌شد و مرورگر کار نمی‌کرد، بعدش اصلاً وصل نمی‌شد.\nبابت این اشتباه عذرخواهی می‌کنیم.\n✅ در نسخهٔ ۱٫۲٫۷\nحالا وقتی تونل نتواند IPv6 را حمل کند، برنامه آن را روشن نمی‌کند به‌جای اینکه بسته شود.\nنتیجهٔ عملی: وارپ‌در‌وارپ فقط با IPv4 کار می‌کند. این محدودیت واقعی این تونل است، نه چیزی که بشود دورش زد.\nهم اتصال درست کار می‌کند و هم مرورگرها باز می‌شوند.\nبه‌جز این، هیچ چیز دیگری نسبت به ۱٫۲٫۶ عوض نشده. تمام قابلیت‌هایی که در پست قبلی گفتیم سر جایشان هستند.\n⬇️ دانلود\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\n\n▫️ arm64-v8a — تقریباً همهٔ گوشی‌های ۲۰۱۷ به بعد\n▫️ armeabi-v7a — گوشی‌های قدیمی‌تر\n▫️ universal — اگر مطمئن نیستید\nنیازی به حذف برنامه نیست؛ روی نسخهٔ قبلی نصب می‌شود و تنظیماتتان می‌ماند.\n@whitedns",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i>&nbsp;اصلاحیه <br><br> نسخهٔ ۱.۲.۷ منتشر شد<br>اگر نسخهٔ ۱.۲.۶ را نصب کرده‌اید، لطفاً به‌روزرسانی کنید.<br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i>&nbsp;مشکل چه بود<br>در نسخهٔ ۱٫۲٫۶، اگر پروتکل را روی وارپ‌در‌وارپ می‌گذاشتید و دکمهٔ اتصال را می‌زدید،&nbsp;برنامه بسته می‌شد.<br>بقیهٔ پروتکل‌ها سالم بودند. فقط وارپ‌در‌وارپ.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A7.png')\"><b>🔧</b></i>&nbsp;چرا این اتفاق افتاد<br>در نسخهٔ ۱٫۲٫۶ یک باگ قدیمی را رفع کردیم که باعث می‌شد روی وارپ‌در‌وارپ مرورگرها باز نشوند. برای آن رفع، اندازهٔ بسته‌ها را به عددی تغییر دادیم که این تونل واقعاً می‌تواند حمل کند.<br>ولی آن عدد از حداقلی که پروتکل&nbsp;IPv6&nbsp;لازم دارد کمتر بود، و اندروید این حداقل را اجباری می‌کند. نتیجه‌اش این شد که ساختن تونل رد می‌شد و برنامه بسته می‌شد.<br>یعنی رفع ما مشکل بدتری ساخت: قبلش وصل می‌شد و مرورگر کار نمی‌کرد، بعدش اصلاً وصل نمی‌شد.<br>بابت این اشتباه عذرخواهی می‌کنیم.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>&nbsp;در نسخهٔ ۱٫۲٫۷<br>حالا وقتی تونل نتواند&nbsp;IPv6&nbsp;را حمل کند، برنامه آن را روشن نمی‌کند به‌جای اینکه بسته شود.<br>نتیجهٔ عملی:&nbsp;وارپ‌در‌وارپ فقط با&nbsp;IPv4&nbsp;کار می‌کند. این محدودیت واقعی این تونل است، نه چیزی که بشود دورش زد.<br>هم اتصال درست کار می‌کند و هم مرورگرها باز می‌شوند.<br>به‌جز این، هیچ چیز دیگری نسبت به ۱٫۲٫۶ عوض نشده. تمام قابلیت‌هایی که در پست قبلی گفتیم سر جایشان هستند.<br></blockquote><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i>&nbsp;دانلود<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;<code>arm64-v8a</code>&nbsp;— تقریباً همهٔ گوشی‌های ۲۰۱۷ به بعد <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;<code>armeabi-v7a</code>&nbsp;— گوشی‌های قدیمی‌تر <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;<code>universal</code>&nbsp;— اگر مطمئن نیستید<br>نیازی به حذف برنامه نیست؛ روی نسخهٔ قبلی نصب می‌شود و تنظیماتتان می‌ماند.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "⚠️ اصلاحیه\n\nنسخهٔ ۱.۲.۷ منتشر شد\nاگر نسخهٔ ۱.۲.۶ را نصب کرده‌اید، لطفاً به‌روزرسانی کنید.\n🐞 مشکل چه بود\nدر نسخهٔ ۱٫۲٫۶، اگر پروتکل را روی وارپ‌در‌وارپ می‌گذاشتید و دکمهٔ اتصال را می‌زدید، برنامه بسته می‌شد.\nبقیهٔ پروتکل‌ها سالم بودند. فقط وارپ‌در‌وارپ.\n🔧 چرا این اتفاق افتاد\nدر نسخهٔ ۱٫۲٫۶ یک باگ قدیمی را رفع کردیم که باعث می‌شد روی وارپ‌در‌وارپ مرورگرها باز نشوند. برای آن رفع، اندازهٔ بسته‌ها را به عددی تغییر دادیم که این تونل واقعاً می‌تواند حمل کند.\nولی آن عدد از حداقلی که پروتکل IPv6 لازم دارد کمتر بود، و اندروید این حداقل را اجباری می‌کند. نتیجه‌اش این شد که ساختن تونل رد می‌شد و برنامه بسته می‌شد.\nیعنی رفع ما مشکل بدتری ساخت: قبلش وصل می‌شد و مرورگر کار نمی‌کرد، بعدش اصلاً وصل نمی‌شد.\nبابت این اشتباه عذرخواهی می‌کنیم.\n✅ در نسخهٔ ۱٫۲٫۷\nحالا وقتی تونل نتواند IPv6 را حمل کند، برنامه آن را روشن نمی‌کند به‌جای اینکه بسته شود.\nنتیجهٔ عملی: وارپ‌در‌وارپ فقط با IPv4 کار می‌کند. این محدودیت واقعی این تونل است، نه چیزی که بشود دورش زد.\nهم اتصال درست کار می‌کند و هم مرورگرها باز می‌شوند.\nبه‌جز این، هیچ چیز دیگری نسبت به ۱٫۲٫۶ عوض نشده. تمام قابلیت‌هایی که در پست قبلی گفتیم سر جایشان هستند.\n⬇️ دانلود\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\n\n▫️ arm64-v8a — تقریباً همهٔ گوشی‌های ۲۰۱۷ به بعد\n▫️ armeabi-v7a — گوشی‌های قدیمی‌تر\n▫️ universal — اگر مطمئن نیستید\nنیازی به حذف برنامه نیست؛ روی نسخهٔ قبلی نصب می‌شود و تنظیماتتان می‌ماند.\n@whitedns",
       "media": [],
       "reactions": [
         {
           "emoji": "❤",
-          "count": "1"
+          "count": "13"
         },
         {
           "emoji": "💊",
+          "count": "5"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "😍",
+          "count": "1"
+        },
+        {
+          "emoji": "🍓",
           "count": "1"
         }
       ],
-      "views_label": "173",
+      "views_label": "1.39K",
       "posted_at": "2026-09-01T19:01:45+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1689",
       "reply": null
     },
@@ -48,19 +60,19 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "46"
+          "count": "49"
         },
         {
           "emoji": "❤‍🔥",
           "count": "7"
         },
         {
-          "emoji": "🍓",
+          "emoji": "👍",
           "count": "2"
         },
         {
-          "emoji": "👍",
-          "count": "1"
+          "emoji": "🍓",
+          "count": "2"
         },
         {
           "emoji": "😍",
@@ -79,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.35K",
+      "views_label": "4.03K",
       "posted_at": "2026-09-01T18:14:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1687",
@@ -97,7 +109,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "65"
+          "count": "68"
         },
         {
           "emoji": "❤‍🔥",
@@ -109,7 +121,7 @@
         },
         {
           "emoji": "👍",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "😍",
@@ -128,7 +140,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.61K",
+      "views_label": "5.08K",
       "posted_at": "2026-09-01T17:47:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1683",
@@ -226,7 +238,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.7K",
+      "views_label": "9.98K",
       "posted_at": "2026-09-01T06:06:04+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1680",
@@ -260,11 +272,11 @@
         },
         {
           "emoji": "❤",
-          "count": "30"
+          "count": "31"
         },
         {
           "emoji": "👍",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "🍾",
@@ -275,7 +287,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.68K",
+      "views_label": "8.84K",
       "posted_at": "2026-09-01T06:04:37+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1679",
@@ -409,7 +421,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.9K",
+      "views_label": "13K",
       "posted_at": "2026-08-31T07:16:32+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1676",
@@ -527,7 +539,7 @@
           "count": "1"
         }
       ],
-      "views_label": "33.6K",
+      "views_label": "33.7K",
       "posted_at": "2026-08-31T05:38:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1670",
@@ -679,7 +691,7 @@
         },
         {
           "emoji": "❤",
-          "count": "530"
+          "count": "531"
         },
         {
           "emoji": "👍",
@@ -783,7 +795,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.7K",
+      "views_label": "12.8K",
       "posted_at": "2026-08-31T02:26:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1663",
@@ -962,7 +974,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.3K",
       "posted_at": "2026-08-30T10:16:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1658",
@@ -1234,7 +1246,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.68K",
+      "views_label": "9.71K",
       "posted_at": "2026-08-30T01:35:44+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1652",
