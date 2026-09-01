@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-01T21:12:05.308Z",
+  "fetched_at": "2026-09-01T21:17:23.248Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -12,6 +12,43 @@
   },
   "posts": [
     {
+      "id": "sahamnewsorg/146876",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Xs1IJgT3NW2cr7LUsxFTQJqy4sjvYwtILgl_HMe23hpTaxmzpBEa4Fv0m08gGqDqtC7Hol0f6Cu-CX49U77eR4_Scol3jFnFn__BQXN8jO7wj2H4tufODrKUL8oZ_36Czk0BFyIP3GfMWpDjdursO2--W7QTlgjgrTv4SiMP3Ss_TBKHMFGyqwPv6dbf3QIRMEZ7sf141_HZJpjO3UJLxO8lfSh0B7lhLBFYt0UT3cRyhbVuXXqQqYXSA2OsAO1BU8mCpVcpowB-HwUMEk23QKj8b7rELqMJF82MSo5v68IGNfRMsKIHxiLLF6GmBHCSbVQppy-9DZ1rK5e0SzhCbw.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/9a20417279f0ceffa86bf90c.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>نیروهای امنیتی اسراییل (موساد و شاباک) <br>با ورود به نوار غزه، رئیس دستگاه اطلاعاتی و امنیتی حماس را ربودند و با خود بردند.",
+      "plain_text": "✅نیروهای امنیتی اسراییل (موساد و شاباک)\nبا ورود به نوار غزه، رئیس دستگاه اطلاعاتی و امنیتی حماس را ربودند و با خود بردند.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/146876",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/eGOVLiNl_eDPrZ8shyhRP8GL7JcFthcACYg-phyGcGYrQZsGjVguwd09xKuJE3bJQn5jX534l_pRvdXs7jY0MEJdlv4CSlsGWXy0PLO4ChGueLPvoaTKO2jsOShzjpquoocnCV3X5CRjRy6j59e-97W_lmWIwXK9g0Sn_COOFOcKxcgUo3aMVSG9prJdJWK3_tLa_2Xx-7jypYVAr54507vNq2sSYWS6P7F1WRqc0o8cXaaSc5_4OAFINggRA7oM7nhwTISvzHUamX8kJI819YVx94h2Y2k4RulIUrJXsouHrCSL61fh-b-VpfCO0lcu-J_a7mQtD-Z-RfmUpqNi3A",
+          "thumbnail_path": "channels/sahamnewsorg/media/ca910396e026a1d1b96078a3.jpg",
+          "thumbnail_sha256": "b8d2ad565cdceffd32393bcc677d73e41aa205062cfc8691d0da57a0d9fbe508",
+          "duration_label": "0:54",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "3.11K",
+      "posted_at": "2026-09-01T21:13:41+00:00",
+      "edited": false,
+      "permalink": "https://t.me/sahamnewsorg/146876",
+      "reply": {
+        "channel_username": "sahamnewsorg",
+        "post_id": "146839",
+        "author_name": "سهام نیوز",
+        "preview_text": "✅گالانت وزیر جنگ اسرائیل : یک فرمانده ارشد حماس لحظاتی پیش در نوار غزه دستگیر شد @Sahamnewsorg",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/sahamnewsorg/146839"
+      }
+    },
+    {
       "id": "sahamnewsorg/146875",
       "author_name": "سهام نیوز",
       "author_photo_url": "https://cdn1.telesco.pe/file/Xs1IJgT3NW2cr7LUsxFTQJqy4sjvYwtILgl_HMe23hpTaxmzpBEa4Fv0m08gGqDqtC7Hol0f6Cu-CX49U77eR4_Scol3jFnFn__BQXN8jO7wj2H4tufODrKUL8oZ_36Czk0BFyIP3GfMWpDjdursO2--W7QTlgjgrTv4SiMP3Ss_TBKHMFGyqwPv6dbf3QIRMEZ7sf141_HZJpjO3UJLxO8lfSh0B7lhLBFYt0UT3cRyhbVuXXqQqYXSA2OsAO1BU8mCpVcpowB-HwUMEk23QKj8b7rELqMJF82MSo5v68IGNfRMsKIHxiLLF6GmBHCSbVQppy-9DZ1rK5e0SzhCbw.jpg",
@@ -21,7 +58,7 @@
       "plain_text": "✅دستور پوتین برای حمله به تأسیسات انرژی اوکراین\n\nرئیس‌جمهور روسیه گفت که دستور حملات گسترده به زیرساخت‌ های انرژی اوکراین، در واکنش به حملات این کشور را صادر کرده است.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "7.25K",
+      "views_label": "10.4K",
       "posted_at": "2026-09-01T21:02:23+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146875",
@@ -37,7 +74,7 @@
       "plain_text": "✅چرا ترامپ گفت ایران ۵۱ سال است قلدری می‌کند، نه ۴۷ سال؟!\n\n✍️آرش رئیسی‌نژاد\nاندکی پیش ترامپ درباره ایران گفت: «ایران ۵۱ سال است که قلدری می‌کند.» او حتی تأکید کرد که پیش‌تر به اشتباه گفته بود ۴۷ سال، در حالی که رقم درست، ۵۱ سال است.\n\nاین اشاره، اگر جدی گرفته شود، نکته تاریخی مهمی را پیش روی ما می‌گذارد: آیا ریشه نخستین تنش ایران و آمریکا را باید نه در انقلاب ۱۳۵۷، بلکه در سال ۱۳۵۴ و قرارداد الجزایر جست‌وجو کرد؟\n\nدر اسفند ۱۳۵۳، شاه با استفاده هوشمندانه از میدان و دیپلماسی توانست عراق را وادار به عقب‌نشینی و امتیازدهی در اروند رود کند. حمایت استراتژیک از کردهای عراق در کنار ترفندهای دیپلماتیک دو بازوی ایران پهلوی علیه عراق بعث بود که هر دو بازو با نظارت مستقیم شاه بکار گرفته می‌شد. قرارداد الجزایر را می‌توان یکی از بزرگ‌ترین پیروزی‌های دیپلماتیک ایران در صد سال اخیر دانست؛ پیروزی‌ای که موازنه قدرت در خلیج فارس و خاورمیانه را به شکل محسوسی به نفع تهران تغییر داد.\n\nقدرت‌یابی ایران اما با خواست واشنگتن و به‌ویژه اسرائیل برای حفظ موازنه منطقه‌ای مطلوب خود کاملاً همسو نبود. تهران بیش از پیش در حال تبدیل شدن به یک قدرت مستقل و اثرگذار در خاورمیانه شده بود.\n\nنکته اینکه، قرارداد الجزایر همزمان شد با مجموعه‌ای از تحولات مهم دیگر: جاه‌طلبی‌های هسته‌ای شاه، نقش فزاینده ایران در اوپک و سیاست نفتی همراه با جهش قیمت نفت، افزایش قدرت اقتصادی کشور، حضور نظامی در وزای مرزها (به ویژه ظفار) و تلاش برای تبدیل ایران به قدرت برتر منطقه.\n\nبدین ترتیب، از اواسط دهه ۱۳۵۰، تصویری نوین از ایران شکل گرفت: ایران همچو رهبر منطقه، و نه صرفا یک قدرت منطقه‌ای، که می‌توانست با استفاده از منابع، جغرافیا و دیپلماسی، معادلات خاورمیانه را تغییر دهد و بر چیدمان قدرت منطقه‌ای تاثیر گذارد.\n\nشگفت اینکه، انقلاب ۱۳۵۷ این تنش را از میان نبرد؛ بلکه آن را وارد مرحله‌ای بسیار شدیدتر و ایدئولوژیک‌تر کرد و تنش را تبدیل به دشمنی و خصومت ژرف نمود. از آن زمان تاکنون، مسئله اصلی در روابط ایران و آمریکا نه اختلاف بر سر یک موضوع مشخص (همچو برنامه هسته‌ای)؛ بلکه تا حد زیادی به رقابت بر سر جایگاه ایران و نظم قدرت در خاورمیانه مربوط بوده است.\n\nاز این رو، استفاده ترامپ از «۵۱ سال» چه بسا ما را به پرسشی مهم‌تر برگرداند: آیا آبشخور تنش ایران و آمریکا واقعاً از ۱۳۵۷ آغاز شد، یا ریشه‌های آن را باید در ایرانِ پیش از انقلاب و در سال ۱۳۵۴ جست‌وجو کرد؟\n\n🔻بسیاری از این نکات را در کتابم «شاه و شطرنج قدرت در خاورمیانه» آورده‌ام.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "9.33K",
+      "views_label": "12.4K",
       "posted_at": "2026-09-01T20:59:01+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/146874",
@@ -53,7 +90,7 @@
       "plain_text": "✅ادعای سپاه: پادگان تفنگداران آمریکایی در اردن موسوم به کمپ تبتین هدف موشک های بالستیک قرار گرفت؛ تعداد زیادی از نیروهای آمریکایی به درک واصل شدند\n\nدر بیانیه سپاه آمده است در پاسخ به این شرارت سبعانه، رزمندگان دلیر نیروی هوافضای سپاه در موج دوم عملیات تنبیه متجاوز \"با رمز مقدس یا رسول الله (ص)\" با حمله سنگین موشک های بالستیک به پادگان تفنگداران آمریکایی در اردن موسوم به کمپ تیتین، واقع در سواحل خلیج عقبه، تعداد زیادی از نیروهای آمریکایی را به درک واصل کرده و چند تاسیسات مهم و بالگردهای هجومی دشمن را منهدم نمودند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "15.5K",
+      "views_label": "17.6K",
       "posted_at": "2026-09-01T20:47:20+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146873",
@@ -81,7 +118,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "24.8K",
+      "views_label": "26.9K",
       "posted_at": "2026-09-01T20:27:09+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/146872",
@@ -109,7 +146,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "25.8K",
+      "views_label": "26.9K",
       "posted_at": "2026-09-01T20:20:57+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/146871",
@@ -125,7 +162,7 @@
       "plain_text": "✅فرماندار عسلویه: اصابت به یک مقر نظامی در اطراف عسلویه خسارتی نداشت\n\n🔹خوشبختانه این حادثه خسارتی در پی نداشته و گزارشی از خسارت دریافت نشده است./ ایسنا\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "27.9K",
+      "views_label": "28.9K",
       "posted_at": "2026-09-01T20:15:34+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146870",
@@ -141,7 +178,7 @@
       "plain_text": "✅شنیده شدن صدای انفجار در ایلات\n\n🔹شبکه ۱۲ تلویزیون اسرائیل گزارش داد که شهرک نشینان «ایلات» صدای انفجارهای مهیبی را شنیده‌اند که به دنبال شلیک موشک از ایران به سمت اردن رخ داده است.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "32K",
+      "views_label": "33K",
       "posted_at": "2026-09-01T20:05:05+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146869",
@@ -157,7 +194,7 @@
       "plain_text": "✅مدیرعامل هلال احمر هرمزگان: شهدای حمله آمریکا به مراسم عروسی در کوهستک سیریک به ۴ شهید از جمله یک کودک رسید\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "32K",
+      "views_label": "33K",
       "posted_at": "2026-09-01T20:02:56+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146868",
@@ -196,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "33K",
+      "views_label": "34.1K",
       "posted_at": "2026-09-01T19:59:57+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146866",
@@ -212,7 +249,7 @@
       "plain_text": "✅پایگاه هوایی موفق‌السلطی در اردن هدف حمله موشکی قرار گرفت\n\nگزارش‌ها از وقوع حمله سنگین و اصابت موشک‌های بالستیک به پایگاه هوایی «موفق‌السلطی» در اردن حکایت دارد./تسنیم\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "34K",
+      "views_label": "35K",
       "posted_at": "2026-09-01T19:53:58+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146865",
@@ -228,7 +265,7 @@
       "plain_text": "✅صداوسیما: در حمله ارتش آمریکا به مراسم عروسی در سیریک، ۲۸ نفر مجروح شدند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "36.1K",
+      "views_label": "37.1K",
       "posted_at": "2026-09-01T19:46:56+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146864",
@@ -260,7 +297,7 @@
       "plain_text": "✅ترامپ به شبکه فاکس نیوز:\nتوافق با ایران ارزش کاغذی که روی آن امضا شده را هم ندارد. من به ایران فرصت‌های زیادی دادم.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "40.2K",
+      "views_label": "41.2K",
       "posted_at": "2026-09-01T19:29:48+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146862",
@@ -292,7 +329,7 @@
       "plain_text": "✅مرندی فرزند پزشک مخصوص خامنه ای:\n\nرژیم‌های خانوادگی عرب از جنگ پیش‌رو جان سالم به در نمی‌برند!!\n\n🔸با توجه به اظهارات ترامپ و بسنت، به نظر می‌رسد که روزهای رژیم‌های خانوادگی عرب در خلیج فارس به شماره افتاده است. آن‌ها نمی‌توانند از جنگ پیشِ رو جان سالم به در ببرند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "41.2K",
+      "views_label": "42.2K",
       "posted_at": "2026-09-01T19:26:45+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/146860",
@@ -2156,34 +2193,6 @@
       "posted_at": "2026-08-31T07:57:29+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/146776",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/146775",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/p3PhUv1Tfi1V-cFh3FMBKUGKDg1Zm2fjRaAhsOkyITdKSqsId230je85sHBuBdcSP5H-Vzxw1GxBHo17WmCyp81Erymt44DmjBofaixaHB0n8LlQPF7UT4xBaVGzq_o-jr2wHAQmet3oB0UU62gWu9MHiGTLuYfrbmd9HXQpdncSGqQJUrYvOQS2DLC1WCQ3RUJjjIJZvsq4aAOSjo2T4RFP_OlgW4UGOYyEgH58ccq85IIIxm7g2T3kaKVSzSkXgdbPGL3fvlG_RNVMmPAn7euSJZtqsGUafH_YzuxECLv-P7A4FbnDf0ETL2biXecGX4rWqwbKSHfOSNnjxTtNOg.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/2e47cef5d535e6d46676128e.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>ادای احترام مسولان مراغه به علی و مجتبی خامنه ای هنگام افتتاح طرح فاضلاب!<br><br>مسئولان در مراسم افتتاح یکی از طرح‌های فاضلاب در مراغه، به علی خامنه‌ای، و پسرش مجتبی خامنه‌ای، ادای احترام کردند. به گزارش ایرنا این مراسم در آذربایجان شرقی، روز یکشنبه، در چارچوب افتتاح هفت طرح آب و فاضلاب با بودجه بیش از ۱۳۰ میلیارد تومان برگزار شد.<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅ادای احترام مسولان مراغه به علی و مجتبی خامنه ای هنگام افتتاح طرح فاضلاب!\n\nمسئولان در مراسم افتتاح یکی از طرح‌های فاضلاب در مراغه، به علی خامنه‌ای، و پسرش مجتبی خامنه‌ای، ادای احترام کردند. به گزارش ایرنا این مراسم در آذربایجان شرقی، روز یکشنبه، در چارچوب افتتاح هفت طرح آب و فاضلاب با بودجه بیش از ۱۳۰ میلیارد تومان برگزار شد.\n\n@Sahamnewsorg",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/sahamnewsorg/146775",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/f0W42z14FxSwcCO47dAlpPI1VHuUknnqeAbaMO5gvBNquJUKwUKHKM6BfRp4N-9Y63_nvKdkCW6zNcDZK5RZkCxYJlU-MSlSsVryjFX7ShoD1fLEz6xNGu6aAZGOBEAZQUeINe-BzbxlEjwvMwuAYOcQtbeg8TpLdAqdmWgNwLpD5sQiyKgSYT4-VKXj6Dz3wx0Z6GkIL87nzR60xNUMzIIqQzwl5oNU5KH8U5L6n4RbdHzVcZOx4oGLiA63bXDtIuI_XKbd8kBX-j2yUmp3tZUgsRz23-fg_onE85ElnOUIW_OHEta9951UO-bgME6tQGFlzR1Tcgcbd4VWGxpztg",
-          "thumbnail_path": "channels/sahamnewsorg/media/ce9a5d7396d25c377e686c4b.jpg",
-          "thumbnail_sha256": "eecd9fd53c9a12408c9381327860b485551c7006ac46eb41f74dddf3edbcba74",
-          "duration_label": "0:16",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "40.2K",
-      "posted_at": "2026-08-31T07:30:58+00:00",
-      "edited": true,
-      "permalink": "https://t.me/sahamnewsorg/146775",
       "reply": null
     }
   ]
