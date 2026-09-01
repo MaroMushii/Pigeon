@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-01T18:12:21.564Z",
+  "fetched_at": "2026-09-01T18:17:14.319Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,51 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1687",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/PMHLqhP-1rMBlJnYMTDkSrqiViLT8LN0oJfx12vENAzcaI2NWWsgr-1RnglAaa72sdZt3ORpyGIS_9aPqv5V5zd721wJvd6NY0BPMGwmrdzdOmhjGZp1Nm53ATOfgSlD-sZQldbOwFNol31xCerZ6n6xJJm5GHfJizIc6bpeZr92yrbfw4HcfZsnIB7-BCOvhxsWnjoN3qgc9YNKjEMLZhymANkgft2uy2Lts9h1C1IKM3tQuVaX24-URgLeDhxYQPAAhmsMqQM5JIITIWV8FoQvaUWuwCq68I3g1v7rEHXrbrDE0f6GYBON4J22xC2R4qtTgVG3q3oFDm2ePek7tw.jpg",
+      "author_photo_path": "channels/whitedns/media/f1df6451159c4a0c0e52bf41.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i><b>&nbsp;نسخه جدید اندروید whiteaesther منتشر شد -  </b><b><tg-emoji emoji-id=\"5424972470023104089\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji></b><b>1.2.6</b><br><br>این نسخه یک باگ مهم را رفع می‌کند و بخش زنجیرهٔ خروج را برای فهرست‌های بزرگ بهینه می‌کند.<br><br><blockquote expandable=\"\">پایین همه‌چیز با آموزش آمده.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i>&nbsp;<b>رفع باگ: مرورگرها روی حالت وارپ‌در‌وارپ باز نمی‌شدند</b><br>اگر روی پروتکل وارپ‌در‌وارپ وصل می‌شدید و همه‌چیز درست به نظر می‌رسید ولی هیچ سایتی بالا نمی‌آمد، این همان مشکل بود.<br>چه اتفاقی می‌افتاد:&nbsp;اپ به گوشی می‌گفت بسته‌های بزرگ‌تری بفرست از آن‌چه این تونل می‌توانست حمل کند. درخواست‌های کوچک رد می‌شدند و هر چیز بزرگ‌تر بی‌صدا می‌افتاد.<br>برای همین بعضی برنامه‌ها مثل تست سرعت کار می‌کردند ولی مرورگرها نه — مرورگر بسته‌های بزرگ می‌فرستد.<br>این باگ از نسخهٔ ۱٫۲٫۲ بود و حالا رفع شده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>&nbsp;<b>زنجیرهٔ خروج برای اشتراک‌های بزرگ</b><br>اگر اشتراک شما صدها یا هزاران کانفیگ دارد، این بخش عملاً غیرقابل استفاده بود. چهار مشکل داشت که همه رفع شدند.<br>۱) باز شدن صفحه گوشی را قفل می‌کرد<br>اپ همهٔ ردیف‌ها را یک‌جا می‌ساخت، حتی آن‌هایی که روی صفحه دیده نمی‌شدند. حالا فقط همان‌هایی ساخته می‌شوند که می‌بینید.<br>۲) دکمهٔ تست همه تمام نمی‌شد<br>روی هزار کانفیگ حدود شانزده دقیقه طول می‌کشید و هیچ نشانه‌ای از پیشرفت نمی‌داد. حالا دکمه می‌گوید چند تا تمام شده، و همان دکمه متوقفش می‌کند.<br>۳) فقط چند تای اول پینگ می‌گرفتند<br>همهٔ تست‌ها یک‌جا فرستاده می‌شدند، یعنی صدها درخواست هم‌زمان از یک تونل. تونل اشباع می‌شد و بقیه به نتیجه نمی‌رسیدند. حالا دسته‌دسته فرستاده می‌شوند.<br>۴) اتصال، لحظه‌ای گوشی را قفل می‌کرد<br>اپ کار سنگینی را روی رشتهٔ اصلی انجام می‌داد، دقیقاً وقتی تونل بالا می‌آمد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8695.png')\"><b>🆕</b></i>&nbsp;قابلیت‌های جدید در زنجیرهٔ خروج<br>مسیر: تب&nbsp;Routes&nbsp;← گزینهٔ&nbsp;Exit chain<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> جست‌وجوی کانفیگ</b><br>بالای فهرست یک کادر جست‌وجو هست. بخشی از نام را بنویسید تا فیلتر شود. روی فهرست هزارتایی، این تنها راه پیدا کردن یک کانفیگ خاص است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> انتخاب چندتایی<br>کنار هر کانفیگ یک تیک هست. چند تا را انتخاب کنید تا روی همه‌شان کار کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> تیک با انتخاب کانفیگ فعال فرق دارد. برای عوض کردن کانفیگی که ترافیک از آن می‌رود، روی خودِ ردیف بزنید نه روی تیک.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9791.png')\"><b>🗑</b></i> حذف از فهرست<br>بعد از تیک زدن، دکمهٔ حذف ظاهر می‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> نکتهٔ مهم: کانفیگ‌های اشتراک واقعاً پاک نمی‌شوند، چون اپ دفعهٔ بعد دوباره اشتراک را می‌گیرد. اپ فقط آن‌ها را از فهرست کنار می‌گذارد.<br>اپ تعدادشان را نشان می‌دهد و یک دکمهٔ بازگردانی دارد، تا کانفیگی که ناپدید شده با اشتراک خراب اشتباه نشود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8F93.png')\"><b>🏓</b></i> دو نوع تست<br>هر دو دکمه حالا بالای فهرست هستند، نه پایین آن.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;Test all&nbsp;— همه را امتحان می‌کند. روی فهرست بزرگ چند دقیقه طول می‌کشد. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;Test selected&nbsp;— فقط آن‌هایی که تیک زده‌اید.<br>راه عملی برای فهرست بزرگ:&nbsp;با جست‌وجو چند تا را پیدا کنید، تیک بزنید، و دومی را بزنید. خیلی سریع‌تر از امتحان کردن هزار تا.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B6.png')\"><b>📶</b></i> مرتب‌سازی خودکار<br>فهرست خودش مرتب می‌شود: سریع‌ترین‌ها اول، بعد آن‌هایی که هنوز تست نشده‌اند، و آخر آن‌هایی که این نسخه نمی‌تواند به آن‌ها وصل شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BA.png')\"><b>📺</b></i>&nbsp;اندروید تی‌وی<br>تیک‌های جدید با کنترل تلویزیون و دستهٔ بازی هم کار می‌کنند و حلقهٔ فوکوس دارند.</blockquote><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i>&nbsp;دانلود<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;<code>arm64-v8a</code>&nbsp;— تقریباً همهٔ گوشی‌های ۲۰۱۷ به بعد. از این شروع کنید <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;<code>armeabi-v7a</code>&nbsp;— گوشی‌های قدیمی‌تر <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i>&nbsp;<code>universal</code>&nbsp;— اگر مطمئن نیستید<br>اگر مشکلی داشتید، از مسیر<br>&nbsp;<br><code>Settings</code>&nbsp;←&nbsp;<code>Diagnostics</code>&nbsp;<br>گزارش بگیرید و بفرستید.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🔗 نسخه جدید اندروید whiteaesther منتشر شد - 🔥1.2.6\n\nاین نسخه یک باگ مهم را رفع می‌کند و بخش زنجیرهٔ خروج را برای فهرست‌های بزرگ بهینه می‌کند.\n\nپایین همه‌چیز با آموزش آمده.\n🐞 رفع باگ: مرورگرها روی حالت وارپ‌در‌وارپ باز نمی‌شدند\nاگر روی پروتکل وارپ‌در‌وارپ وصل می‌شدید و همه‌چیز درست به نظر می‌رسید ولی هیچ سایتی بالا نمی‌آمد، این همان مشکل بود.\nچه اتفاقی می‌افتاد: اپ به گوشی می‌گفت بسته‌های بزرگ‌تری بفرست از آن‌چه این تونل می‌توانست حمل کند. درخواست‌های کوچک رد می‌شدند و هر چیز بزرگ‌تر بی‌صدا می‌افتاد.\nبرای همین بعضی برنامه‌ها مثل تست سرعت کار می‌کردند ولی مرورگرها نه — مرورگر بسته‌های بزرگ می‌فرستد.\nاین باگ از نسخهٔ ۱٫۲٫۲ بود و حالا رفع شده.\n\n⚡️ زنجیرهٔ خروج برای اشتراک‌های بزرگ\nاگر اشتراک شما صدها یا هزاران کانفیگ دارد، این بخش عملاً غیرقابل استفاده بود. چهار مشکل داشت که همه رفع شدند.\n۱) باز شدن صفحه گوشی را قفل می‌کرد\nاپ همهٔ ردیف‌ها را یک‌جا می‌ساخت، حتی آن‌هایی که روی صفحه دیده نمی‌شدند. حالا فقط همان‌هایی ساخته می‌شوند که می‌بینید.\n۲) دکمهٔ تست همه تمام نمی‌شد\nروی هزار کانفیگ حدود شانزده دقیقه طول می‌کشید و هیچ نشانه‌ای از پیشرفت نمی‌داد. حالا دکمه می‌گوید چند تا تمام شده، و همان دکمه متوقفش می‌کند.\n۳) فقط چند تای اول پینگ می‌گرفتند\nهمهٔ تست‌ها یک‌جا فرستاده می‌شدند، یعنی صدها درخواست هم‌زمان از یک تونل. تونل اشباع می‌شد و بقیه به نتیجه نمی‌رسیدند. حالا دسته‌دسته فرستاده می‌شوند.\n۴) اتصال، لحظه‌ای گوشی را قفل می‌کرد\nاپ کار سنگینی را روی رشتهٔ اصلی انجام می‌داد، دقیقاً وقتی تونل بالا می‌آمد.\n🆕 قابلیت‌های جدید در زنجیرهٔ خروج\nمسیر: تب Routes ← گزینهٔ Exit chain\n🔍 جست‌وجوی کانفیگ\nبالای فهرست یک کادر جست‌وجو هست. بخشی از نام را بنویسید تا فیلتر شود. روی فهرست هزارتایی، این تنها راه پیدا کردن یک کانفیگ خاص است.\n✅ انتخاب چندتایی\nکنار هر کانفیگ یک تیک هست. چند تا را انتخاب کنید تا روی همه‌شان کار کنید.\n⚠️ تیک با انتخاب کانفیگ فعال فرق دارد. برای عوض کردن کانفیگی که ترافیک از آن می‌رود، روی خودِ ردیف بزنید نه روی تیک.\n🗑 حذف از فهرست\nبعد از تیک زدن، دکمهٔ حذف ظاهر می‌شود.\n⚠️ نکتهٔ مهم: کانفیگ‌های اشتراک واقعاً پاک نمی‌شوند، چون اپ دفعهٔ بعد دوباره اشتراک را می‌گیرد. اپ فقط آن‌ها را از فهرست کنار می‌گذارد.\nاپ تعدادشان را نشان می‌دهد و یک دکمهٔ بازگردانی دارد، تا کانفیگی که ناپدید شده با اشتراک خراب اشتباه نشود.\n🏓 دو نوع تست\nهر دو دکمه حالا بالای فهرست هستند، نه پایین آن.\n▫️ Test all — همه را امتحان می‌کند. روی فهرست بزرگ چند دقیقه طول می‌کشد. ▫️ Test selected — فقط آن‌هایی که تیک زده‌اید.\nراه عملی برای فهرست بزرگ: با جست‌وجو چند تا را پیدا کنید، تیک بزنید، و دومی را بزنید. خیلی سریع‌تر از امتحان کردن هزار تا.\n📶 مرتب‌سازی خودکار\nفهرست خودش مرتب می‌شود: سریع‌ترین‌ها اول، بعد آن‌هایی که هنوز تست نشده‌اند، و آخر آن‌هایی که این نسخه نمی‌تواند به آن‌ها وصل شود.\n📺 اندروید تی‌وی\nتیک‌های جدید با کنترل تلویزیون و دستهٔ بازی هم کار می‌کنند و حلقهٔ فوکوس دارند.\n⬇️ دانلود\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\n\n▫️ arm64-v8a — تقریباً همهٔ گوشی‌های ۲۰۱۷ به بعد. از این شروع کنید\n▫️ armeabi-v7a — گوشی‌های قدیمی‌تر\n▫️ universal — اگر مطمئن نیستید\nاگر مشکلی داشتید، از مسیر\n \nSettings ← Diagnostics \nگزارش بگیرید و بفرستید.\n\n@whitedns",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "4"
+        },
+        {
+          "emoji": "🍓",
+          "count": "2"
+        },
+        {
+          "emoji": "😍",
+          "count": "1"
+        },
+        {
+          "emoji": "🤝",
+          "count": "1"
+        },
+        {
+          "emoji": "💘",
+          "count": "1"
+        },
+        {
+          "emoji": "💊",
+          "count": "1"
+        }
+      ],
+      "views_label": "577",
+      "posted_at": "2026-09-01T18:14:29+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1687",
+      "reply": null
+    },
     {
       "id": "whitedns/1683",
       "author_name": "White DNS",
@@ -23,7 +68,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "37"
+          "count": "47"
         },
         {
           "emoji": "❤‍🔥",
@@ -48,9 +93,13 @@
         {
           "emoji": "💘",
           "count": "1"
+        },
+        {
+          "emoji": "💊",
+          "count": "1"
         }
       ],
-      "views_label": "2.42K",
+      "views_label": "2.77K",
       "posted_at": "2026-09-01T17:47:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1683",
@@ -148,7 +197,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.09K",
+      "views_label": "9.21K",
       "posted_at": "2026-09-01T06:06:04+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1680",
@@ -197,7 +246,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.13K",
+      "views_label": "8.22K",
       "posted_at": "2026-09-01T06:04:37+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1679",
@@ -449,7 +498,7 @@
           "count": "1"
         }
       ],
-      "views_label": "33.4K",
+      "views_label": "33.5K",
       "posted_at": "2026-08-31T05:38:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1670",
@@ -510,7 +559,7 @@
           "count": "2"
         }
       ],
-      "views_label": "32.2K",
+      "views_label": "32.3K",
       "posted_at": "2026-08-31T05:33:57+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1669",
@@ -949,7 +998,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.3K",
+      "views_label": "14.4K",
       "posted_at": "2026-08-30T05:51:09+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1656",
@@ -1156,7 +1205,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.64K",
+      "views_label": "9.65K",
       "posted_at": "2026-08-30T01:35:44+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1652",
@@ -5614,71 +5663,6 @@
       "posted_at": "2026-08-20T05:36:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1535",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1534",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/c3b0jHIeAU0DaEERVuMN4z4ywGQaRg64NVQ4uSWiHMDs6vctNeNTjuKsgQiIFIvwCos_ANMwBimYIeolcnozh2_pOwq8IQYORifS0m6Z-PdkJkXxgbdkod0PjTsT3nknFV4RV6hhTX_ItoYLyQlDO_KArvAaNHUhZFQuyG1LR_Cev4aAq8RtlVSMG2tRxHNcFbyJr9wVbzoMpPZY5xiReaxdJt_-iyl1qej9ngRtfvYYZeTrhimG4HjYCyIWCWYkZIuTzgWXSrc99T9lPHhaqMrTlOYOv8GEIjqlTBH9VxF7Xn-AVlR-ZcOs5np_lF1F1UDH2R7pwtqQW5HTsQKhbg.jpg",
-      "author_photo_path": "channels/whitedns/media/fe5e0a71a474f171f5380c7c.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "از این به بعد کانفیگ های بیشتری داخل ساب ما خواهد بود.<br><br>هر ۳۰ دقیقه بیشتر از ۲۲۰هزار کانفیگ جدید تست میشن و خروجی اونها بین ۲۰۰۰ تا ۳۰۰۰ کانفیگ با کیفیت و سریع خواهد بود.<br><br><b>تعداد کانفیگ های حاضر: ۳۳۵۳</b><br><br>تیم WhiteDNS",
-      "plain_text": "از این به بعد کانفیگ های بیشتری داخل ساب ما خواهد بود.\n\nهر ۳۰ دقیقه بیشتر از ۲۲۰هزار کانفیگ جدید تست میشن و خروجی اونها بین ۲۰۰۰ تا ۳۰۰۰ کانفیگ با کیفیت و سریع خواهد بود.\n\nتعداد کانفیگ های حاضر: ۳۳۵۳\n\nتیم WhiteDNS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "10"
-        },
-        {
-          "emoji": "❤",
-          "count": "448"
-        },
-        {
-          "emoji": "🔥",
-          "count": "19"
-        },
-        {
-          "emoji": "👍",
-          "count": "11"
-        },
-        {
-          "emoji": "🗿",
-          "count": "6"
-        },
-        {
-          "emoji": "👏",
-          "count": "5"
-        },
-        {
-          "emoji": "😡",
-          "count": "4"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        },
-        {
-          "emoji": "🏆",
-          "count": "2"
-        },
-        {
-          "emoji": "😁",
-          "count": "1"
-        },
-        {
-          "emoji": "🤣",
-          "count": "1"
-        }
-      ],
-      "views_label": "13.7K",
-      "posted_at": "2026-08-20T04:19:28+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1534",
       "reply": null
     }
   ]
