@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-01T10:32:10.578Z",
+  "fetched_at": "2026-09-01T10:36:59.837Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "29.4K"
   },
   "posts": [
+    {
+      "id": "hranews/115321",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/hu1DiLA77d9BhecnglkkZhPTmj96_ReQw5DVvst5qhuRlN25-OMwbsW6yyTGylWhxScSYQv4jbJ3FnzlPyeGEd3Bw5mUDud8gS8G-fiGQVfwGJnKBaE5HDU2B6joC17VlX1yz0MlHrc6fsN6A_k-Upo5Rr5R0febCUmWPAd2Qo3wIBSglBV70x_qYuYGEutTlD20x59PPdtwKEqHK9QJqJGbKUh2l7xYRRp-DXtD34JSL2kHhKr9Fs3fw8oRS_1Pey_7JliUMed5nE6gcKkVpFhqj7LhvgbZ2yhNB6mSD1upCsUKnraYAj1Ur_EXiZJmUZ-_Yl7hJui0i8S_EKgqcA.jpg",
+      "author_photo_path": "channels/hranews/media/0b7f278a4d4b51b1c3381714.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "شماری از سهامداران شرکت جهاد نصر، روز گذشته در مقابل استانداری کرمانشاه تجمع اعتراضی برگزار کردند. این افراد اعلام کردند نسبت به تخلفات مالی صورت گرفته در این شرکت اعتراض دارند و خواستار رسیدگی به این موضوع هستند. معترضان همچنین می‌گویند که تعهدات این شرکت همچون پرداخت حقوق و حق بیمه پرسنل، با وقفه مواجه شده است.<br><br><a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9_%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%DB%8C\">#تجمع_اعتراضی</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "شماری از سهامداران شرکت جهاد نصر، روز گذشته در مقابل استانداری کرمانشاه تجمع اعتراضی برگزار کردند. این افراد اعلام کردند نسبت به تخلفات مالی صورت گرفته در این شرکت اعتراض دارند و خواستار رسیدگی به این موضوع هستند. معترضان همچنین می‌گویند که تعهدات این شرکت همچون پرداخت حقوق و حق بیمه پرسنل، با وقفه مواجه شده است.\n\n#تجمع_اعتراضی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/115321",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/dmIZ0NTFx8JlcEn-GrSW_qjskY0WCK-mGtnCbgGnWER9ivXd-9cCOZtWzLwnyxw4hqwNrrJffYSQiiGZYOVEe2-V2P0UY6H09bL-ez_41vkygSLp5wqOhLzcuq-Jj5CddrXuvMOV5q9apqhaivrKtT44o94EVYJvyVb8ZXYis7Ihv0b4m-WVORowygGgbgICIW3yhNE6eAUD-XzdaaHjvqrGeeI59ELiA39ZlyjZsK0cM4FGEqsW6RIn4xc6GCX4NRT8DpahLDqzG34va_GQdUcxiYEMYa8CN_veSOVLRabaV2GQ7RFCCw9qRiYoIkzPmZh4Xk2wbMLTGdpAF4q2_w",
+          "thumbnail_path": "channels/hranews/media/d67526d001a9b727004f91d0.jpg",
+          "thumbnail_sha256": "d1740719ec34e0644f09b65fbe79cf3a8817fa4627ff88bbc570869233bdaa4c",
+          "duration_label": "0:22",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "34",
+      "posted_at": "2026-09-01T10:33:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/115321",
+      "reply": null
+    },
     {
       "id": "hranews/115320",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "283",
+      "views_label": "306",
       "posted_at": "2026-09-01T09:54:17+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115320",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "350",
+      "views_label": "366",
       "posted_at": "2026-09-01T09:22:13+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115319",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "361",
+      "views_label": "376",
       "posted_at": "2026-09-01T09:13:43+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115318",
@@ -105,7 +133,7 @@
       "plain_text": "گزارشی از بازداشت هادی ربوسه در مریوان\n\n❗️❗️❗️❗️❗️– هادی ربوسه (هادی چناره‌ای)، شهروند و فعال محیط‌زیست اهل مریوان، روز جمعه ۶ شهریورماه، توسط ماموران اداره اطلاعات بازداشت و به بازداشتگاه این نهاد در سنندج منتقل شد.\n\nادامه مطلب\n\n#هادی_ربوسه (#هادی_چناره‌ای)\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "360",
+      "views_label": "370",
       "posted_at": "2026-09-01T09:02:55+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115317",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "424",
+      "views_label": "432",
       "posted_at": "2026-09-01T08:22:04+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115316",
@@ -161,7 +189,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "471",
+      "views_label": "479",
       "posted_at": "2026-09-01T07:55:00+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115315",
@@ -189,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "490",
+      "views_label": "498",
       "posted_at": "2026-09-01T07:47:30+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115314",
@@ -261,7 +289,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.11K",
+      "views_label": "1.12K",
       "posted_at": "2026-08-31T19:25:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115311",
@@ -293,7 +321,7 @@
       "plain_text": "مرگ و مصدومیت ۳ کارگر در سایه فقدان ایمنی‌کار\n\n❗️❗️❗️❗️❗️– در سایه فقدان ایمنی محیط و شرایط نامناسب کار، سه #کارگر در تهران، سبزوار و نقده حین انجام کار دچار حادثه شدند. در این حوادث دو کارگر جان خود را از دست دادند و یک کارگر مصدوم شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "936",
+      "views_label": "937",
       "posted_at": "2026-08-31T18:02:30+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115309",
@@ -309,7 +337,7 @@
       "plain_text": "گزارشی از معوقات مزدی و بیمه‌ای کارگران در ۴ واحد مختلف\n\n❗️❗️❗️❗️❗️– #کارگران شاغل در شرکت کیش چوب، واحد نگهداری خط و ابنیه فنی راه‌آهن ناحیه دورود و شرکت سیمای چابهار، از عدم پرداخت مطالبات مزدی و بیمه‌ای خود خبر دادند. همچنین نیروهای سلامتیار مرکز بهداشت و سلامت قصرقند از عدم پرداخت عیدی و تأخیر در پرداخت کارانه خود ابراز نارضایتی کردند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "859",
+      "views_label": "862",
       "posted_at": "2026-08-31T17:35:38+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115308",
@@ -325,7 +353,7 @@
       "plain_text": "دستکم ۱۰ تجمع اعتراضی برگزار شد\n\n❗️❗️❗️❗️❗️– امروز دوشنبه ۹ شهریورماه، جمعی از شهروندان جویای کار در گچساران دست به #تجمع اعتراضی زدند. تجمع این شهروندان با تیراندازی نیروهای انتظامی به خشونت کشیده شد. همچنین روز جاری، شماری از بازنشستگان تامین اجتماعی در شوش، جمعی از کارکنان شرکت آریان‌فولاد در قزوین، تعدادی از جوانان جویای کار در شهرستان اهواز و گروهی از بازنشستگان مخابرات در شهرهای سنندج، اصفهان، تهران، همدان، اراک و شیراز تجمعات اعتراضی برگزار کردند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "839",
+      "views_label": "842",
       "posted_at": "2026-08-31T17:15:41+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115307",
@@ -381,7 +409,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "841",
+      "views_label": "842",
       "posted_at": "2026-08-31T16:08:06+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115305",
@@ -481,7 +509,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "845",
+      "views_label": "846",
       "posted_at": "2026-08-31T14:16:25+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115301",
@@ -2253,34 +2281,6 @@
       "posted_at": "2026-08-27T14:02:32+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115222",
-      "reply": null
-    },
-    {
-      "id": "hranews/115221",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/AkDLdpYfwSM7gGwArYann3Q2N8LVr52k0-f7KCNkVLwr9WKj0OC7umMbSEl-UWFiU6NraVdkNSEQcI2Md5h7D3ldfAGRoqPDa1W24NLXT-Vddu14X61Lvx8_f6-TNRngWfyVOS0M_PpRDv2gOtfNbEu95oS0ECPgpoVRfLVmtSucFaQQIEmq3g8OGETvwzWyktzlinHJvTsawkiOm8Y6JtZ_scHl1GeB46mUl6bXBC9IbjW7W_l3cR0D3-oW4sby0MVDcYTEpXS0mLp-JcfQ-wcDibOwPd-tQRHuQOUvHB6fCrWcDvaQCl15xpoxtYSDQd0GzTyEs8EpcNGQQON-sg.jpg",
-      "author_photo_path": "channels/hranews/media/20a16cd98a10e1f10ca859b6.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "مدیرکل بهبود محیط زیست شهری شهرداری مشهد از ممنوعیت سگ‌گردانی در بوستان‌های این شهر خبر داد. به گفته وی، این دستورالعمل به مناطق ۱۳ گانه شهرداری ابلاغ شده و تاکنون بیش از ۲۰۰ تابلوی اطلاع‌رسانی درباره این ممنوعیت در بوستان‌های مشهد نصب شده است.<br><br><a href=\"?q=%23%D9%85%D9%85%D9%86%D9%88%D8%B9%DB%8C%D8%AA_%D8%B3%DA%AF%E2%80%8C%DA%AF%D8%B1%D8%AF%D8%A7%D9%86%DB%8C\">#ممنوعیت_سگ‌گردانی</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "مدیرکل بهبود محیط زیست شهری شهرداری مشهد از ممنوعیت سگ‌گردانی در بوستان‌های این شهر خبر داد. به گفته وی، این دستورالعمل به مناطق ۱۳ گانه شهرداری ابلاغ شده و تاکنون بیش از ۲۰۰ تابلوی اطلاع‌رسانی درباره این ممنوعیت در بوستان‌های مشهد نصب شده است.\n\n#ممنوعیت_سگ‌گردانی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/hranews/115221",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/JX9NFCROnue1FehTPr6ymx4zIcoiqjoKlMqZ9ozZBeUAVFMNxCSenvljvn9yOZT2HWK2Slo9xfFjKwB3-vSIjVYJIjpRkKh8cwrkdSDpGX1I3iENK2RTipykhp4YIgBcnWnJQy2qwDVZbxQVj5oC4fgl-SyQ6lEdDclSXcqWOLhJSk_o9yu2DVbAuqvy4FcxAwLKqSeOVYNtcU75MW65TQYfzmo_h0ik7ku7j8l3NBG8s9rIxTuVjbssTMSAy6__ayQrTBoFCWIAk_BKVR12liUF4s3iAPekVQxDV6skfAFO4DUHkjLNJyHMaN7idqSkpLTjCz7TNZnC17DEX8lZGw.jpg",
-          "thumbnail_path": "channels/hranews/media/ace541759a0c1817bcebb142.jpg",
-          "thumbnail_sha256": "9f00604d95659edc540da5f5997104df59c4f40b0d5b8aef2ab1693985f37807",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [],
-      "views_label": "754",
-      "posted_at": "2026-08-27T13:32:33+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/115221",
       "reply": null
     }
   ]
