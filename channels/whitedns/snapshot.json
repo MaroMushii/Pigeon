@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-02T14:57:17.379Z",
+  "fetched_at": "2026-09-02T15:03:23.275Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/1697",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/G-y1mCkhfkTRIECPsKbABDt6atu9i6uuqCtOYUCtbkbGIJqH7rkRGfqaQw5vyiHwidBHPU_C6L-zfBKWT8Rm3TwsfuXh4UyJxFwWBBDFGvaqo3RJlJqnzqBAnjqXE0Xq8-HEr6aKxWcE5JP3YTOmdEdIq7Xw_edWHEpL9uW9YRGXGhBsSzOwFm4jUp5MsCJyRAlARD-6K9PY8__WNvBBP__VkgQBwTrTOQMigxvAwS-AENhyj-PaFLZni9FpfA504wNBMOR-Hog1IjuY71EcB5UuPDYqkPyWhsjgkSSe0qwkrmKyNVSi_z762YTIV1p1B9cMxkjfQiTsOR6lIP7_qQ.jpg",
+      "author_photo_path": "channels/whitedns/media/da934410d1c3472f6c81fb27.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<tg-emoji emoji-id=\"5379999674193172777\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94AD.png')\"><b>🔭</b></i></tg-emoji> اگر نمی‌دونید Connection Chain چیه و چطور باید در WhiteVPN ازش استفاده کنید، توی این ویدیوی کوتاه قدم‌به‌قدم با هم یک زنجیره اتصال می‌سازیم.<br><br><tg-emoji emoji-id=\"5933540612694347912\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji>  <a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.6.5\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین نسخه از گیتهاب</b></a>",
+      "plain_text": "🔭 اگر نمی‌دونید Connection Chain چیه و چطور باید در WhiteVPN ازش استفاده کنید، توی این ویدیوی کوتاه قدم‌به‌قدم با هم یک زنجیره اتصال می‌سازیم.\n\n📱 دانلود آخرین نسخه از گیتهاب",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/whitedns/1697",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/f6JXaQUKVlo_hK8SNXH8BFT_sdX7Kf1qAg4TvF4G-PR3oDhW1Bp9ShDwxnfCjA8eclT4eS2i5wCHPJTjbubjGqnpzJ-96HyrlweLYR3U9ZwwJOwh2B92zhDpjl-arL0QSvTuZCLIOGvKYTE38xlQ18cp0bKoRS1p218lVPMS5ELsuchE2zX95I11KDHL87kzMeOLARcbNhSUuORLT7aI0juzWyvTU1rVaFVn_zqRxZEvzLNQxqiucdflX0EPHVk_Z9UU5GCG441Fm7pt8GhTwjNh55L9mxjlL_hY3SnusRnH8lIBW_tJQ5uWpG0-v8zfycm9FxdmCRRoRhM-OedDRg",
+          "thumbnail_path": "channels/whitedns/media/51354a547c3b4a9dee1b24c0.jpg",
+          "thumbnail_sha256": "a46631fd91b4c7f7e046b0f634a29dc2147954494f5c6f7d448a4aa11f823274",
+          "duration_label": "2:18",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        }
+      ],
+      "views_label": "291",
+      "posted_at": "2026-09-02T15:01:38+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1697",
+      "reply": null
+    },
     {
       "id": "whitedns/1695",
       "author_name": "White DNS",
@@ -23,15 +56,19 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "82"
+          "count": "84"
         },
         {
           "emoji": "👏",
-          "count": "23"
+          "count": "24"
         },
         {
           "emoji": "❤‍🔥",
           "count": "3"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
         },
         {
           "emoji": "🍓",
@@ -46,7 +83,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.75K",
+      "views_label": "4K",
       "posted_at": "2026-09-02T13:32:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1695",
@@ -95,7 +132,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.25K",
+      "views_label": "6.37K",
       "posted_at": "2026-09-02T11:44:08+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1694",
@@ -164,7 +201,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.98K",
+      "views_label": "9.04K",
       "posted_at": "2026-09-02T08:14:03+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1693",
@@ -221,7 +258,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.65K",
+      "views_label": "6.68K",
       "posted_at": "2026-09-02T07:52:09+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1690",
@@ -1039,7 +1076,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14K",
       "posted_at": "2026-08-31T02:26:35+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1663",
@@ -5679,83 +5716,6 @@
       "posted_at": "2026-08-20T11:37:22+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1548",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1545",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/mejFrMee1cFoTzHQ5DgIGeXhhxSK0sjY29p_22rgmR92DwEsjnHqjrpaWPE6MdN5_H3_vwk3t75R6x-qFKh6EsbpHKFtVSfI74XVqemKKO7R10hOaQ3mLKOEjmNMsEAv0f6asWESiN1zc7fBC_l2VajYNueYPicpyV6bpFtFP54Ua5hmNtMqrJbujsPGKBLaDDu5Za8pmbfGpw6b52KFUiPPfB6nYikSZjEXn7HXziSrtd1lSieg6gdI3Bs9Wdfh53OuNrZbAtLzYrH7Un3cTvzIoo3R3KKtnZoepCuVVyQIy0s6Fq4iPvdF26W7l6h-15Zy3SX0DSWdYoQ9uahZ4Q.jpg",
-      "author_photo_path": "channels/whitedns/media/90c263d6e99a82c3bde4efa8.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<b>WhiteAesther</b> V1.2.0  <br><br>دو پروتکل جدید، رفع مشکل قطعی، و مسیریابی اپ به اپ<br><br>از این آپدیت سه تا قابلیت جدید اضافه شده و سه تا مشکل قدیمی رفع شده. همه‌شون رو اینجا خلاصه کردم.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> چی اضافه شد<br><br>۱. دو پروتکل جدید: WireGuard و WARP in WARP<br><br>تا الان فقط MASQUE (روی H3 یا H2) داشتیم. حالا از Routes ← Manual ← Protocol می‌تونی این دو تا رو هم انتخاب کنی:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> WireGuard —<br> سریع‌تره، ولی روی UDP کار می‌کنه<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> WARP in WARP —<br> یک تونل داخل تونل دیگه، کندتر ولی شناسایی‌ش سخت‌تره<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> هر دوی این‌ها UDP هستن. اگه شبکه‌ات UDP رو کامل بسته باشه (مثل همراه اول این چند وقت اخیر) اصلاً وصل نمی‌شن — اونجا MASQUE H2 که روی TCP کار می‌کنه انتخاب درسته.<br><br>۲. بکاپ هویت — راه‌حل قطعی مشکل «چند بار نصب کردم دیگه وصل نمی‌شه»<br><br>دلیل اون مشکل این بود که هر نصب، یک هویت تازه از Cloudflare می‌گرفت، و بعد از چند بار ثبت‌نام از یک آی‌پی، دیگه هویت جدید نمی‌داد. حالا می‌تونی هویتت رو قبل از حذف اپ ذخیره کنی و بعد از نصب مجدد برگردونی.<br><br>۳. Split tunnel — انتخاب اینکه کدوم اپ‌ها از تونل رد بشن<br><br>از Traffic ← Apps: همه اپ‌ها، فقط چندتا اپ خاص، یا همه به‌جز چندتا اپ خاص (مثلاً بانک یا اپ‌های داخلی).<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> چی رفع شد<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> ثبت‌نام مشترک بین پروتکل‌ها — امتحان کردن هر سه پروتکل قبلاً ۳ بار ثبت‌نام می‌خرید. حالا یکی مشترکه.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> WireGuard و WARP in WARP دیگه روی \"trying\" گیر نمی‌کنن — از تا ۹ دقیقه بی‌نتیجه، به معمولاً چند ثانیه.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> باگ ساب عوض‌شده که نودهای قدیمی رو نشون می‌داد — درست شد.<br><br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> آموزش: Split tunnel<br><br>۱) Traffic ← Apps<br>۲) یکی از سه حالت: All apps / Only these apps / All except these<br>۳) با سرچ اپ‌های موردنظر رو پیدا کن و سوییچشون رو بزن<br><br>برای بانک یا اپ داخلی: All except these بزن و همون یکی دو تا رو انتخاب کن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> آموزش: بکاپ هویت<br><br>Settings ← Identity &amp; access → Save a backup (قبل از حذف اپ) / Restore from a backup (بعد از نصب مجدد)<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> این فایل مثل رمز عبوره، رمزگذاری نشده — جایی نگهش دار که رمز عبور نگه می‌داری.</blockquote><br><br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "WhiteAesther V1.2.0\n\nدو پروتکل جدید، رفع مشکل قطعی، و مسیریابی اپ به اپ\n\nاز این آپدیت سه تا قابلیت جدید اضافه شده و سه تا مشکل قدیمی رفع شده. همه‌شون رو اینجا خلاصه کردم.\n\n✅ چی اضافه شد\n\n۱. دو پروتکل جدید: WireGuard و WARP in WARP\n\nتا الان فقط MASQUE (روی H3 یا H2) داشتیم. حالا از Routes ← Manual ← Protocol می‌تونی این دو تا رو هم انتخاب کنی:\n\n▫️ WireGuard —\nسریع‌تره، ولی روی UDP کار می‌کنه\n▫️ WARP in WARP —\nیک تونل داخل تونل دیگه، کندتر ولی شناسایی‌ش سخت‌تره\n\n⚠️ هر دوی این‌ها UDP هستن. اگه شبکه‌ات UDP رو کامل بسته باشه (مثل همراه اول این چند وقت اخیر) اصلاً وصل نمی‌شن — اونجا MASQUE H2 که روی TCP کار می‌کنه انتخاب درسته.\n\n۲. بکاپ هویت — راه‌حل قطعی مشکل «چند بار نصب کردم دیگه وصل نمی‌شه»\n\nدلیل اون مشکل این بود که هر نصب، یک هویت تازه از Cloudflare می‌گرفت، و بعد از چند بار ثبت‌نام از یک آی‌پی، دیگه هویت جدید نمی‌داد. حالا می‌تونی هویتت رو قبل از حذف اپ ذخیره کنی و بعد از نصب مجدد برگردونی.\n\n۳. Split tunnel — انتخاب اینکه کدوم اپ‌ها از تونل رد بشن\n\nاز Traffic ← Apps: همه اپ‌ها، فقط چندتا اپ خاص، یا همه به‌جز چندتا اپ خاص (مثلاً بانک یا اپ‌های داخلی).\n\n🛠 چی رفع شد\n\n▫️ ثبت‌نام مشترک بین پروتکل‌ها — امتحان کردن هر سه پروتکل قبلاً ۳ بار ثبت‌نام می‌خرید. حالا یکی مشترکه.\n▫️ WireGuard و WARP in WARP دیگه روی \"trying\" گیر نمی‌کنن — از تا ۹ دقیقه بی‌نتیجه، به معمولاً چند ثانیه.\n▫️ باگ ساب عوض‌شده که نودهای قدیمی رو نشون می‌داد — درست شد.\n\n📌 آموزش: Split tunnel\n\n۱) Traffic ← Apps\n۲) یکی از سه حالت: All apps / Only these apps / All except these\n۳) با سرچ اپ‌های موردنظر رو پیدا کن و سوییچشون رو بزن\n\nبرای بانک یا اپ داخلی: All except these بزن و همون یکی دو تا رو انتخاب کن.\n\n📌 آموزش: بکاپ هویت\n\nSettings ← Identity & access → Save a backup (قبل از حذف اپ) / Restore from a backup (بعد از نصب مجدد)\n\n⚠️ این فایل مثل رمز عبوره، رمزگذاری نشده — جایی نگهش دار که رمز عبور نگه می‌داری.\n\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\n\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1545",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/m0sy6xOEdTfqCWHAk7wi8_S3oGhURS7BuSu3UWwOQYXOAlO2iZ4-imaJoeU0zzWtwHa7IYlYOzxHlhd5yZCHCbniSgCjJcfgqY-XA9WgTuSATZVyfFcD1jIBhHu9hNj3w5SqEO21Qpou45kmfuLlnMNtg7hmcqth1yytNqQOj86QONhJDA8ny-YnDQtMTjocR3Q40d0BQUc3rJuIdBElYr7VxfMoMnwlmTp0Xh_UuGzdIZwQV9qwlKuvXwIna_kaVBHJow9s2JRfyaZ3m-WIUJvbQZghKHAXBrNQU_tdDAihI37TpWZ7GsLkvx8KhV55WelgaOizcv0ZgEDOmaDRWg.jpg",
-          "thumbnail_path": "channels/whitedns/media/d565158feac00aa631f18045.jpg",
-          "thumbnail_sha256": "5670e49eefd096d63be3e5b9c092d42e38437da1989b9b13d140f03a66e361f8",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "10"
-        },
-        {
-          "emoji": "❤",
-          "count": "170"
-        },
-        {
-          "emoji": "👍",
-          "count": "22"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🤣",
-          "count": "3"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🍾",
-          "count": "1"
-        },
-        {
-          "emoji": "🤝",
-          "count": "1"
-        }
-      ],
-      "views_label": "14.2K",
-      "posted_at": "2026-08-20T09:01:35+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1545",
       "reply": null
     }
   ]
