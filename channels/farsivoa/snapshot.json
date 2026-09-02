@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-02T12:52:09.758Z",
+  "fetched_at": "2026-09-02T12:57:20.517Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,34 @@
     "subscriber_count": "132K"
   },
   "posts": [
+    {
+      "id": "farsivoa/229217",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/s1L5ya4Y7Djr6Wgkkjg2WpjDpuSoeIHODo0s2jP3lo1Ad5nQAg4SMPwMJmzwpQsDUF5H3PHLFIyvO-2mYhF-Ssg1anhIHcDJusZQD1zrN3LY-YT-mLYfnVk1fe_8pUY1ti4eFINY-gaHwmqe_Ja8JYuGaA9wNQTDKfPnYLoJ5n7vUsgN7_4Nv9YmTfsa6kY3NqkyAx6RS1RZF2d15952CgeixQNMQEQ9e-nm6sRTMgS1yNG-syoehAzQwmz_qzwhrwg6gq-SDXsVebCMbsI3p50Pf-jQaxoY0bjH1DYzzBqV0VRLSxQDMpCjB1PSQ6dj6ZL2kHS1--EaCxvjrCGTiw.jpg",
+      "author_photo_path": "channels/farsivoa/media/0f040b01e91629f3250156fb.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i>سفارت ایالات متحده در عربستان سعودی، با صدور اطلاعیه‌ای، به شهروندان آمریکایی ساکن خاورمیانه هشدار داد تا اقدامات احتیاطی را رعایت کنند.<br><br>این سفارتخانه، با اشاره به تشدید درگیری‌ها میان آمریکا و جمهوری اسلامی، به شهروندان آمریکایی اعلام کرد که وضعیت امنیتی همچنان پیچیده است و احتمال تشدید پیش‌بینی‌نشده تنش‌ها وجود دارد.<br><br>سفارت ایالات متحده در عربستان توصیه کرد: شهروندان آمریکا که در حال حاضر در خاورمیانه حضور دارند، باید هوشیار بوده و نسبت به احتمال لغو پروازها، بسته شدن حریم‌های هوایی و اختلال در سفرها آگاه باشند.",
+      "plain_text": "⚡️سفارت ایالات متحده در عربستان سعودی، با صدور اطلاعیه‌ای، به شهروندان آمریکایی ساکن خاورمیانه هشدار داد تا اقدامات احتیاطی را رعایت کنند.\n\nاین سفارتخانه، با اشاره به تشدید درگیری‌ها میان آمریکا و جمهوری اسلامی، به شهروندان آمریکایی اعلام کرد که وضعیت امنیتی همچنان پیچیده است و احتمال تشدید پیش‌بینی‌نشده تنش‌ها وجود دارد.\n\nسفارت ایالات متحده در عربستان توصیه کرد: شهروندان آمریکا که در حال حاضر در خاورمیانه حضور دارند، باید هوشیار بوده و نسبت به احتمال لغو پروازها، بسته شدن حریم‌های هوایی و اختلال در سفرها آگاه باشند.",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/229217",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/MQfmiFgJq2ovpcTv5MkKLdJ5e1Y56pDo0acBmTaOhx6dx2MDRU4VPzxSrP0x_RZL7XaJgg5LSDFvVmjUop57CSSXLCEiLrt942KzoLAOzjcM0_l4Cn_r7uXjtszJnybYLqNwpMfGB_B_WtaF4dSKx_AgHYCEVJhLkZWPo1iHjpwpMHs4E__rYZuHdiAERp5KaJ5DS9YLmpAvl9hylVJo0QoRHj0-XhCG2kkRgRvBdyDxA6tKp76it37OeEyazk1C1Pccqpx36urJ-2NfNLax9vShsCubfoLhUTd2dFibnArj5zHFewsvVC3wH-TTtQ19I00DzobuZken5PmLRUMRwA.jpg",
+          "thumbnail_path": "channels/farsivoa/media/d738bece7ec69980a0c0c18d.jpg",
+          "thumbnail_sha256": "a175ca398f0d77249e066880f246ab4e1bd5a84c0651c4d0ee47e1852e50d59d",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [],
+      "views_label": "132",
+      "posted_at": "2026-09-02T12:55:59+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/229217",
+      "reply": null
+    },
     {
       "id": "farsivoa/229216",
       "author_name": "Farsi VOA",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "227",
+      "views_label": "492",
       "posted_at": "2026-09-02T12:47:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229216",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "639",
+      "views_label": "769",
       "posted_at": "2026-09-02T12:39:10+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229215",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "893",
+      "views_label": "1.02K",
       "posted_at": "2026-09-02T12:29:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229214",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.26K",
+      "views_label": "1.36K",
       "posted_at": "2026-09-02T12:13:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229213",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.23K",
+      "views_label": "1.3K",
       "posted_at": "2026-09-02T12:10:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229212",
@@ -173,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.27K",
+      "views_label": "1.36K",
       "posted_at": "2026-09-02T12:04:31+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229211",
@@ -201,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.22K",
+      "views_label": "1.33K",
       "posted_at": "2026-09-02T12:03:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229210",
@@ -229,7 +257,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.32K",
+      "views_label": "1.39K",
       "posted_at": "2026-09-02T11:58:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229209",
@@ -257,7 +285,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.41K",
+      "views_label": "1.49K",
       "posted_at": "2026-09-02T11:54:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229208",
@@ -285,7 +313,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.45K",
+      "views_label": "1.52K",
       "posted_at": "2026-09-02T11:50:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229207",
@@ -313,7 +341,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.51K",
+      "views_label": "1.58K",
       "posted_at": "2026-09-02T11:47:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229206",
@@ -341,7 +369,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.49K",
+      "views_label": "1.56K",
       "posted_at": "2026-09-02T11:43:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229205",
@@ -369,7 +397,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.58K",
+      "views_label": "1.65K",
       "posted_at": "2026-09-02T11:38:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229204",
@@ -397,7 +425,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.62K",
+      "views_label": "1.66K",
       "posted_at": "2026-09-02T11:34:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229203",
@@ -413,7 +441,7 @@
       "plain_text": "🔺آمریکا ۵۶۰ هزار دلار کمک رمزارزی در راه حماس را ضبط کرد\n\n◾️وزارت دادگستری آمریکا اعلام کرد بیش از ۵۶۰ هزار دلار کمک‌های رمزارزی در راه حماس را ضبط کرده است.\n\n◾️بر پایه بیانیه این وزارتخانه، پلتفرم‌ها و پایگاه‌های اینترنتی جذب کمک مالی و عضوگیری حماس نیز از کار انداخته شد.\n\n◾️بر پایه احکامی که از حالت محرمانه خارج شده، بازرسان با استفاده از اطلاعات منابع انسانی متعدد، حدود ۵۶۰ هزار دلار رمزارز را شناسایی، ردیابی و ضبط کردند. عملیات‌ها در روزهای فروردین، تیر ماه و مهرماه ۱۴۰۴ انجام شد.\n\n◾️اداره تحقیقات فدرال آمریکا اطلاعات هزاران نفر را به دست آورد که به‌صورت آنلاین با حماس تماس گرفته بودند. این افراد کوشیده بودند با رمزارز یا شیوه‌های سنتی به این گروه کمک کنند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8193283.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.77K",
+      "views_label": "1.81K",
       "posted_at": "2026-09-02T11:29:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229202",
@@ -441,7 +469,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.99K",
+      "views_label": "2.03K",
       "posted_at": "2026-09-02T11:22:48+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229201",
@@ -469,7 +497,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.03K",
+      "views_label": "2.07K",
       "posted_at": "2026-09-02T11:18:30+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229200",
@@ -497,7 +525,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.13K",
+      "views_label": "2.17K",
       "posted_at": "2026-09-02T11:14:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229199",
@@ -513,7 +541,7 @@
       "plain_text": "🔺آکسیوس: آمریکا سیاست تازه «نفتکش در برابر نفتکش» را اجرا کرد\n\n◾️ارتش آمریکا در جریان حملات روز سه‌شنبه دو نفتکش متعلق به دولت جمهوری اسلامی را هدف قرار داد.\n\n◾️مقام‌های آمریکایی به پایگاه خبری آکسیوس گفتند این اقدام بخشی از سیاست تازه‌ای به نام «نفتکش در برابر نفتکش» است که دونالد ترامپ، رئیس‌جمهوری آمریکا، آن را تصویب کرده است.\n\n◾️این نخستین بار است که ارتش آمریکا نفتکش‌های ایرانی را، نه برای جلوگیری از نقض محاصره دریایی، بلکه در تلافی حملات جمهوری اسلامی به شناورها در تنگه هرمز می‌زند.\n\n◾️بر پایه گفته مقام‌های آمریکایی، نفتکش‌های دولتی جمهوری اسلامی در آب‌های ساحلی ایران و در شمال خط محاصره دریایی آمریکا لنگر انداخته بودند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8193280.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.1K",
+      "views_label": "2.14K",
       "posted_at": "2026-09-02T11:09:30+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229198",
@@ -2421,34 +2449,6 @@
       "posted_at": "2026-09-01T17:56:54+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229117",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/229116",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DJRfWZ_y7I8P-fzvsCjOGWGf9BlDy7rTh50ZsyOhKMdPXQchdQuyTrKTVCYuitl5Y3IUwm0AFipeiUlsARqvIjpfAncBjuZ0nGC8PLGYl9zf9PUgPAbgRhjxGQSy2dRnRM6unAgRGdQDx-gdlvP7y6esdW1W68vxiVM3lT0HP3rKO73IHHsEydlrdNp49GWVoTcGheKEeEVlmZEXts4BB5x9DBNQHH4CC_xV5BJ_IxOdvGbK21J6W7x6HkHXij39cUm1HQ4YO4-lmFhBz_nLPZVkntiTexoRUNKBPsj1thUhiotqBttykDSeo7MLGWYQuqxyRzT7yU6gNx6oWGGcZw.jpg",
-      "author_photo_path": "channels/farsivoa/media/47e70d4b1fc893ee2d89b905.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "جمشید اسدی: چاپ پول فقط تورم را افزایش می‌دهد و نمی تواند جمهوری اسلامی را نجات دهد<br><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "جمشید اسدی: چاپ پول فقط تورم را افزایش می‌دهد و نمی تواند جمهوری اسلامی را نجات دهد\n\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/229116",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/QbxCoUyrPpI-sLQJ__1QaKgTvhH2ecC0f-115QnIALHnzdfIFgotP3U7HuyMeTE86lDiNTYqrDhA0JjhH3dzx49CPUxi-6x0LbaljzTjgBZZe-cYHYd0aeQgRP6l9nGkmRMfI9-nZAHoBShRSta5skjWAHysrtsHx2WOvfvjLHmPJa0tlx-a7HxwNN3XTdasthKSki9jQa0yPhXO2tfPzEUZTrLNMa497RFePOqLgqgyOEsu3EETyTzJqD28yojM1r_2op1UhVql6kJNevQcIj-OQUWMNi7yomw_RIUIGyuvT5o1-Y24Jgmwsn7egV23zVaFvTZ5mvLHWaHRu5dQew",
-          "thumbnail_path": "channels/farsivoa/media/1973a5defd46df9d65debd9e.jpg",
-          "thumbnail_sha256": "44e9d286e657f61054ff8a3bb00c69c4eb6fac7f205767c9ea1b90a4bc90a3c5",
-          "duration_label": "2:07",
-          "aspect_ratio": 1.7750000000000026
-        }
-      ],
-      "reactions": [],
-      "views_label": "5.51K",
-      "posted_at": "2026-09-01T17:46:37+00:00",
-      "edited": true,
-      "permalink": "https://t.me/farsivoa/229116",
       "reply": null
     }
   ]
