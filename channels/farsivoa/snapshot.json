@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-02T13:19:18.646Z",
+  "fetched_at": "2026-09-02T13:22:14.689Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,34 @@
     "subscriber_count": "132K"
   },
   "posts": [
+    {
+      "id": "farsivoa/229220",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/s1L5ya4Y7Djr6Wgkkjg2WpjDpuSoeIHODo0s2jP3lo1Ad5nQAg4SMPwMJmzwpQsDUF5H3PHLFIyvO-2mYhF-Ssg1anhIHcDJusZQD1zrN3LY-YT-mLYfnVk1fe_8pUY1ti4eFINY-gaHwmqe_Ja8JYuGaA9wNQTDKfPnYLoJ5n7vUsgN7_4Nv9YmTfsa6kY3NqkyAx6RS1RZF2d15952CgeixQNMQEQ9e-nm6sRTMgS1yNG-syoehAzQwmz_qzwhrwg6gq-SDXsVebCMbsI3p50Pf-jQaxoY0bjH1DYzzBqV0VRLSxQDMpCjB1PSQ6dj6ZL2kHS1--EaCxvjrCGTiw.jpg",
+      "author_photo_path": "channels/farsivoa/media/0f040b01e91629f3250156fb.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "ویدیوهای منتشر شده در شبکه‌های اجتماعی دقایقی بعد از برخورد خودرو با تجمع شبانه حامیان جمهوری اسلامی را در شامگاه سه‌شنبه ۱۰ شهریور در بلوار وکیل‌آباد مشهد نشان می‌دهد. در این برخورد دست‌کم ۴ نفر کشته و بیش از ۱۰ نفر زخمی شدند.<br><br>خبرگزاری فارس، وابسته به سپاه پاسداران، گزارش داد خودروی هیوندای در مسیر غرب به شرق بلوار وکیل‌آباد با «سرعت نسبتا بالا و غیرمطمئن» در حرکت بود، ابتدا با یک دستگاه خودروی چانگان که در مسیر موازی در حال تردد بود برخورد کرد، و در پی این تصادف، راننده هیوندای کنترل خودرو را از دست داد و مسیر حرکت آن تغییر کرد.",
+      "plain_text": "ویدیوهای منتشر شده در شبکه‌های اجتماعی دقایقی بعد از برخورد خودرو با تجمع شبانه حامیان جمهوری اسلامی را در شامگاه سه‌شنبه ۱۰ شهریور در بلوار وکیل‌آباد مشهد نشان می‌دهد. در این برخورد دست‌کم ۴ نفر کشته و بیش از ۱۰ نفر زخمی شدند.\n\nخبرگزاری فارس، وابسته به سپاه پاسداران، گزارش داد خودروی هیوندای در مسیر غرب به شرق بلوار وکیل‌آباد با «سرعت نسبتا بالا و غیرمطمئن» در حرکت بود، ابتدا با یک دستگاه خودروی چانگان که در مسیر موازی در حال تردد بود برخورد کرد، و در پی این تصادف، راننده هیوندای کنترل خودرو را از دست داد و مسیر حرکت آن تغییر کرد.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/229220",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/NjiTi6wgDcCzUdXZtaCfDheJl7baS_sNuk3FyqPhdKEkYRM9qMrrP2ugJAhDCsqWkj-q_4ocIinc2UFriDD3dZSLS920WiqH118iP8zWw13lfqHYESAoaangOWRTid_AoNB9q1SFAlEVVj_5P6C9atuwMiDzCqgk9SbNeolUjvtgLdf89JVdkIVFO7nRSsZ2WsbfOiCztgproE-aIGSe1Gsc4FDWnEIxVcjhMSPjri7230IA-I9DCxXscYHO3P4muWJIG-VJNjfLsP_Jjj-mLKYTvtnnSrs9gt1b7ua6Gri-NSgVvvxKxTNd3WYxRT5VfxlM_g5h1YHqRU39q2wYZg",
+          "thumbnail_path": "channels/farsivoa/media/d5c281e64be296f36fd165c8.jpg",
+          "thumbnail_sha256": "2424ec1eb7c76e80bd243cc147da54302a3e9d5a73701477c920760915df2b4b",
+          "duration_label": "0:30",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "94",
+      "posted_at": "2026-09-02T13:20:30+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/229220",
+      "reply": null
+    },
     {
       "id": "farsivoa/229219",
       "author_name": "Farsi VOA",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "419",
+      "views_label": "547",
       "posted_at": "2026-09-02T13:10:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229219",
@@ -49,7 +77,7 @@
       "plain_text": "🔺بسنت: شرکت‌‌های هواپیمایی و رمزارزها ممکن است اهداف بعدی فشار اقتصادی بر رژیم ایران باشند\n\n▪️وزیر خزانه‌داری آمریکا می‌گوید که در ادامه تلاش‌های برنامه‌ریزی‌شده دولت پرزیدنت ترامپ برای افزایش فشار بر اقتصاد جمهوری اسلامی، شرکت‌های هواپیمایی، صنعت کشتیرانی، و دارایی‌های دیجیتال می‌توانند از اهداف احتمالی اقدامات آمریکا باشند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/sec-bessent-says-us-eyes-airlines-digital-assets-iran-related-targets/8193296.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "843",
+      "views_label": "909",
       "posted_at": "2026-09-02T13:00:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229218",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "977",
+      "views_label": "1.01K",
       "posted_at": "2026-09-02T12:55:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229217",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.14K",
+      "views_label": "1.2K",
       "posted_at": "2026-09-02T12:47:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229216",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.29K",
+      "views_label": "1.36K",
       "posted_at": "2026-09-02T12:39:10+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229215",
@@ -161,7 +189,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.43K",
+      "views_label": "1.46K",
       "posted_at": "2026-09-02T12:29:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229214",
@@ -189,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.69K",
+      "views_label": "1.72K",
       "posted_at": "2026-09-02T12:13:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229213",
@@ -217,7 +245,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.6K",
+      "views_label": "1.66K",
       "posted_at": "2026-09-02T12:10:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229212",
@@ -245,7 +273,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.63K",
+      "views_label": "1.66K",
       "posted_at": "2026-09-02T12:04:31+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229211",
@@ -301,7 +329,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.62K",
+      "views_label": "1.65K",
       "posted_at": "2026-09-02T11:58:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229209",
@@ -329,7 +357,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.71K",
+      "views_label": "1.74K",
       "posted_at": "2026-09-02T11:54:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229208",
@@ -357,7 +385,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.78K",
+      "views_label": "1.81K",
       "posted_at": "2026-09-02T11:50:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229207",
@@ -413,7 +441,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.78K",
+      "views_label": "1.82K",
       "posted_at": "2026-09-02T11:43:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229205",
@@ -441,7 +469,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.84K",
+      "views_label": "1.87K",
       "posted_at": "2026-09-02T11:38:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229204",
@@ -469,7 +497,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.85K",
+      "views_label": "1.88K",
       "posted_at": "2026-09-02T11:34:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229203",
@@ -513,7 +541,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.19K",
+      "views_label": "2.23K",
       "posted_at": "2026-09-02T11:22:48+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229201",
@@ -2409,34 +2437,6 @@
       "posted_at": "2026-09-01T18:28:10+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229120",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/229119",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/s1L5ya4Y7Djr6Wgkkjg2WpjDpuSoeIHODo0s2jP3lo1Ad5nQAg4SMPwMJmzwpQsDUF5H3PHLFIyvO-2mYhF-Ssg1anhIHcDJusZQD1zrN3LY-YT-mLYfnVk1fe_8pUY1ti4eFINY-gaHwmqe_Ja8JYuGaA9wNQTDKfPnYLoJ5n7vUsgN7_4Nv9YmTfsa6kY3NqkyAx6RS1RZF2d15952CgeixQNMQEQ9e-nm6sRTMgS1yNG-syoehAzQwmz_qzwhrwg6gq-SDXsVebCMbsI3p50Pf-jQaxoY0bjH1DYzzBqV0VRLSxQDMpCjB1PSQ6dj6ZL2kHS1--EaCxvjrCGTiw.jpg",
-      "author_photo_path": "channels/farsivoa/media/0f040b01e91629f3250156fb.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "کانال «وحید آنلاین» ویدیوهایی منتسب به پرتاب ناموفق موشک از خمین، حدود ساعت ۲۱:۲۵، سه‌شنبه ۱۰ شهریور، منتشر کرده است.<br><br>هم‌زمان با گزارش‌های مردمی متعدد از وقوع انفجارهای شدید و پیاپی در چند شهر در جنوب ایران، از جمله بندرعباس و قشم، سنتکام، روز سه‌شنبه ۱۰ شهریور ۱۴۰۵ اعلام کرد نیروهای آمریکایی حمله به اهداف سپاه پاسداران انقلاب اسلامی در ایران را آغاز کرده‌اند.",
-      "plain_text": "کانال «وحید آنلاین» ویدیوهایی منتسب به پرتاب ناموفق موشک از خمین، حدود ساعت ۲۱:۲۵، سه‌شنبه ۱۰ شهریور، منتشر کرده است.\n\nهم‌زمان با گزارش‌های مردمی متعدد از وقوع انفجارهای شدید و پیاپی در چند شهر در جنوب ایران، از جمله بندرعباس و قشم، سنتکام، روز سه‌شنبه ۱۰ شهریور ۱۴۰۵ اعلام کرد نیروهای آمریکایی حمله به اهداف سپاه پاسداران انقلاب اسلامی در ایران را آغاز کرده‌اند.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/229119",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/IR3QMyTbTBBA11W5gz6ngX8-oqcmzf23uDBCiIzmiY_ZxPNNtuo2jVgfyeYF6aGH_FaLp8nEApAhYPeWj1kAGsPXsdmtk6RGio21s2dnN_kmsosDBtPauuzsL29Zsw9H31OEsi2bYAZYu83IglauEniIGwfS09T_RYGp_TCHNQflO9CEWgkKewWTgdJLIOHIiSCmnUDVyNE5TMtkHfCZKKzqsY53Xi8-kvnt9s4S6Y4EktOLAbEjNfNe_4vSZZaODINWxf2P4A8h0tFWDI7DbxAnmH9ApjqaxB0NXFdBAS5Gbk_ZyGwi6Tdlka2mracpdR4prZPfTNfKhM-GlGGVLw",
-          "thumbnail_path": "channels/farsivoa/media/704ef24121757e65324ddd39.jpg",
-          "thumbnail_sha256": "21137498fce914e16ff842725eba5be81fb1afa22dbab7b5320e40abb5ec16a7",
-          "duration_label": "0:59",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "5.27K",
-      "posted_at": "2026-09-01T18:18:57+00:00",
-      "edited": true,
-      "permalink": "https://t.me/farsivoa/229119",
       "reply": null
     }
   ]
