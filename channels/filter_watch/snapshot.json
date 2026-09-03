@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-03T16:52:03.405Z",
+  "fetched_at": "2026-09-03T16:57:07.573Z",
   "channel": {
     "username": "filter_watch",
     "title": "فیلتربان",
@@ -32,8 +32,13 @@
           "aspect_ratio": 0.7500000000000188
         }
       ],
-      "reactions": [],
-      "views_label": "89",
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "91",
       "posted_at": "2026-09-03T15:38:25+00:00",
       "edited": false,
       "permalink": "https://t.me/filter_watch/1899",
@@ -51,10 +56,10 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "5"
+          "count": "6"
         }
       ],
-      "views_label": "205",
+      "views_label": "210",
       "posted_at": "2026-09-03T14:29:14+00:00",
       "edited": true,
       "permalink": "https://t.me/filter_watch/1898",
@@ -293,7 +298,7 @@
           "count": "1"
         }
       ],
-      "views_label": "710",
+      "views_label": "712",
       "posted_at": "2026-08-25T15:19:20+00:00",
       "edited": false,
       "permalink": "https://t.me/filter_watch/1890",
