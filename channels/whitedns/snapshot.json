@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-03T01:17:21.778Z",
+  "fetched_at": "2026-09-03T01:22:20.309Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -12,6 +12,31 @@
   },
   "posts": [
     {
+      "id": "whitedns/1699",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/G-y1mCkhfkTRIECPsKbABDt6atu9i6uuqCtOYUCtbkbGIJqH7rkRGfqaQw5vyiHwidBHPU_C6L-zfBKWT8Rm3TwsfuXh4UyJxFwWBBDFGvaqo3RJlJqnzqBAnjqXE0Xq8-HEr6aKxWcE5JP3YTOmdEdIq7Xw_edWHEpL9uW9YRGXGhBsSzOwFm4jUp5MsCJyRAlARD-6K9PY8__WNvBBP__VkgQBwTrTOQMigxvAwS-AENhyj-PaFLZni9FpfA504wNBMOR-Hog1IjuY71EcB5UuPDYqkPyWhsjgkSSe0qwkrmKyNVSi_z762YTIV1p1B9cMxkjfQiTsOR6lIP7_qQ.jpg",
+      "author_photo_path": "channels/whitedns/media/da934410d1c3472f6c81fb27.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "پست موقت <br><br>لطفا با آخرین نسخه های اپلیکیشن Amnezia تست کنید و نتیجه رو بگید. <br><br>ممنون",
+      "plain_text": "پست موقت\n\nلطفا با آخرین نسخه های اپلیکیشن Amnezia تست کنید و نتیجه رو بگید.\n\nممنون",
+      "media": [],
+      "reactions": [],
+      "views_label": "184",
+      "posted_at": "2026-09-03T01:17:48+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1699",
+      "reply": {
+        "channel_username": "whitedns",
+        "post_id": "1698",
+        "author_name": "White DNS",
+        "preview_text": "my_phone (1).conf",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/whitedns/1698"
+      }
+    },
+    {
       "id": "whitedns/1698",
       "author_name": "White DNS",
       "author_photo_url": "https://cdn4.telesco.pe/file/G-y1mCkhfkTRIECPsKbABDt6atu9i6uuqCtOYUCtbkbGIJqH7rkRGfqaQw5vyiHwidBHPU_C6L-zfBKWT8Rm3TwsfuXh4UyJxFwWBBDFGvaqo3RJlJqnzqBAnjqXE0Xq8-HEr6aKxWcE5JP3YTOmdEdIq7Xw_edWHEpL9uW9YRGXGhBsSzOwFm4jUp5MsCJyRAlARD-6K9PY8__WNvBBP__VkgQBwTrTOQMigxvAwS-AENhyj-PaFLZni9FpfA504wNBMOR-Hog1IjuY71EcB5UuPDYqkPyWhsjgkSSe0qwkrmKyNVSi_z762YTIV1p1B9cMxkjfQiTsOR6lIP7_qQ.jpg",
@@ -21,7 +46,7 @@
       "plain_text": "دوستان این کانفیگ امنزیا را با اپ امنزیا تست کنید\n\n\nکلاینتی که امنزیا ۳ رو ساپورت کنه\n\nhttps://github.com/amnezia-vpn/amnezia-client/releases/download/5.0.2.0/AmneziaVPN_5.0.2.0_android11+_arm64-v8a.apk",
       "media": [],
       "reactions": [],
-      "views_label": "1",
+      "views_label": "198",
       "posted_at": "2026-09-03T01:17:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1698",
@@ -51,7 +76,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "120"
+          "count": "121"
         },
         {
           "emoji": "👍",
@@ -70,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.4K",
+      "views_label": "19.5K",
       "posted_at": "2026-09-02T15:01:38+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1697",
@@ -88,7 +113,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "140"
+          "count": "142"
         },
         {
           "emoji": "👏",
@@ -119,7 +144,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.64K",
+      "views_label": "8.71K",
       "posted_at": "2026-09-02T13:32:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1695",
@@ -176,7 +201,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.46K",
+      "views_label": "9.56K",
       "posted_at": "2026-09-02T11:44:08+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1694",
@@ -245,7 +270,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11K",
+      "views_label": "11.1K",
       "posted_at": "2026-09-02T08:14:03+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1693",
@@ -302,7 +327,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.2K",
+      "views_label": "8.23K",
       "posted_at": "2026-09-02T07:52:09+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1690",
@@ -355,7 +380,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.2K",
+      "views_label": "13.3K",
       "posted_at": "2026-09-01T19:01:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1689",
@@ -860,7 +885,7 @@
           "count": "1"
         }
       ],
-      "views_label": "38.9K",
+      "views_label": "39K",
       "posted_at": "2026-08-31T05:38:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1670",
@@ -5658,43 +5683,6 @@
       "posted_at": "2026-08-21T01:56:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1550",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1549",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn5.telesco.pe/file/tEAzyQR48ihPgOOPPnzlESWm9BZ1HSPyeYTBzpTug1uxceeMubGVVxBWhd8aSQfOkvDmnXCMk0v3ZuyyGxFmdYOmaZnR8l7XCqHFaIKvb4LMmp-hjOM_3aXVk0Agxwy-WfXvNwVm24NoSDuYL_Ti9cmipQrPcjromXfEtnGgajXLoREOivpREHq9g5I1jTLsEozBGboH4frihQz_dWt2UZK_p78d9WpZjuK8RjF5o-DCVo7YM9BywfJjFMKHE7xrCCFzW47Yv7b7DtEVC0Zw5VmyBqKu9HiasAvlZ6_4Nu6r5l0ByBQvKIX6GIn2wy0mrvkLJ5yoRxebzMNtSSV-yw.jpg",
-      "author_photo_path": "channels/whitedns/media/a660f49e70af1489fe55d94e.jpg",
-      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "کسی هست بیدار باشه و از WhiteVPN armeabi-v7a استفاده کنه و اپ براش کار نکنه؟ <br><br>میخوام باهم تست کنیم",
-      "plain_text": "کسی هست بیدار باشه و از WhiteVPN armeabi-v7a استفاده کنه و اپ براش کار نکنه؟\n\nمیخوام باهم تست کنیم",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👎",
-          "count": "14"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "❤",
-          "count": "2"
-        },
-        {
-          "emoji": "🥰",
-          "count": "2"
-        },
-        {
-          "emoji": "😁",
-          "count": "1"
-        }
-      ],
-      "views_label": "604",
-      "posted_at": "2026-08-21T00:39:43+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1549",
       "reply": null
     }
   ]
