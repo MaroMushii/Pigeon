@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-04T10:07:08.444Z",
+  "fetched_at": "2026-09-04T10:12:04.106Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/229416",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/em3c43X_W9F3YNcnIYvy9kDE81gq0OT8Rw7wnp3qSCXviE_LSfONAFe8mtiL7H3LebVTcbF08o0H3EgdQkxcKkoubeR5URgLBfeaxikjPYalnnGhlgMI8wb8BWFzz03i87Y4ri0HhQjUfVT-jjnfBwts7pntSgBS7E9_wzmylCTzQVndJA6tRsZkmCegolIBlWKbQncuw3uWYNlUM47M5Z5uNFhHYpJE3XMRQ5h3Xcf8UXYRo3TU24wYB6IGoTwdgGp7EttEFdmZaDfE2quo5BczND7YDz9slnsy75FJ5CQQEYRzTaNZ8pGvn7A0eKNZpzQNf1hhgEujimc_f_OLXw.jpg",
+      "author_photo_path": "channels/farsivoa/media/7d964b827698b90bb68bbd03.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "کنایه یک شهروند به تغییر قیمت لحظه‌ای در رستوران‌های ایران؛<br><br>یک شهروند با کنایه به تغییر قیمت افسارگسیخته در رستوران‌ها می‌گوید: «ده دقیقه دیرتر سفارش بدی، همون بندری شده ۴۰۰ تومن!»<br><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
+      "plain_text": "کنایه یک شهروند به تغییر قیمت لحظه‌ای در رستوران‌های ایران؛\n\nیک شهروند با کنایه به تغییر قیمت افسارگسیخته در رستوران‌ها می‌گوید: «ده دقیقه دیرتر سفارش بدی، همون بندری شده ۴۰۰ تومن!»\n\n@FarsiVOA",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/229416",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/ZCKxE6Lig4mnGHRtygQ2FgBvArd9eQDO0gUmRpdXY_LAEnb_6eNqnn7KswwPwSu39QvJOYq05BYtVZxtL4hDN3WTJkrHqd_qWwskM_4Ip0bS0SDCwosvncpZJxF3WlwZ0T4BO8MW4F98mrMhqKTonqcbdfIIRo9nAtrnbi5Sc4LrNqTQMQPUelX33qwXmxGiDs0tF-q0Ob0LgMQJHBnGYUUJLHWokVwzWX0XKK6H5QJpOewy_oaKcnm0laiBoFxGkvv47ZdgLBIZp9OKbyQFf2ttr_tnSmEksO3kHmc0jbE1QjeE369o4tyqjeDMueAcee-A8DUpXza4b_n8VnIwmA",
+          "thumbnail_path": "channels/farsivoa/media/5bba8403a87069f08c89ddcc.jpg",
+          "thumbnail_sha256": "f700533df69b3d4c984dd3eca1275bec4b1ddcfd37ecaa8213e6b84409ff856d",
+          "duration_label": "0:09",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "34",
+      "posted_at": "2026-09-04T10:10:52+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/229416",
+      "reply": null
+    },
+    {
       "id": "farsivoa/229415",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/em3c43X_W9F3YNcnIYvy9kDE81gq0OT8Rw7wnp3qSCXviE_LSfONAFe8mtiL7H3LebVTcbF08o0H3EgdQkxcKkoubeR5URgLBfeaxikjPYalnnGhlgMI8wb8BWFzz03i87Y4ri0HhQjUfVT-jjnfBwts7pntSgBS7E9_wzmylCTzQVndJA6tRsZkmCegolIBlWKbQncuw3uWYNlUM47M5Z5uNFhHYpJE3XMRQ5h3Xcf8UXYRo3TU24wYB6IGoTwdgGp7EttEFdmZaDfE2quo5BczND7YDz9slnsy75FJ5CQQEYRzTaNZ8pGvn7A0eKNZpzQNf1hhgEujimc_f_OLXw.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺کاتز: اسرائيل تا خلع سلاح حزب‌الله از جنوب لبنان عقب‌نشینی نخواهد کرد\n\n▪️وزیر دفاع اسرائیل عملیات اخیر برای تصرف ارتفاعات علی الطاهر، در جنوب لبنان را گامی مهم در جهت تثبیت حضور ارتش اسرائیل دانست و تاکید کرد که ارتش تا زمانی که حزب‌الله به ‌طور کامل خلع سلاح نشود، از «منطقه امنیتی» عقب‌نشینی نخواهد کرد.\n\n▪️یسرائیل کاتز با صدور بیانیه‌ای اعلام کرد: «من و نخست‌وزیر [بنیامین نتانیاهو]، سیاستی روشن و سازش‌ناپذیر را هدایت می‌کنیم که ارتش اسرائیل هر روز آن را تقویت می‌کند.»\n\n▪️او تاکید کرد اسرائیل تا زمانی که حزب‌الله در سراسر لبنان خلع سلاح نشده و تهدیدها علیه ساکنان الجلیل برطرف نشود، از منطقه امنیتی در لبنان عقب‌نشینی نخواهد کرد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8194153.html",
       "media": [],
       "reactions": [],
-      "views_label": "285",
+      "views_label": "538",
       "posted_at": "2026-09-04T10:02:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229415",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "758",
+      "views_label": "979",
       "posted_at": "2026-09-04T09:48:02+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229414",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.26K",
+      "views_label": "1.39K",
       "posted_at": "2026-09-04T09:27:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229413",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.77K",
+      "views_label": "1.86K",
       "posted_at": "2026-09-04T09:05:48+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229412",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.22K",
+      "views_label": "2.29K",
       "posted_at": "2026-09-04T08:35:55+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/229411",
@@ -161,7 +189,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.02K",
+      "views_label": "3.08K",
       "posted_at": "2026-09-04T07:42:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229410",
@@ -189,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.12K",
+      "views_label": "3.16K",
       "posted_at": "2026-09-04T07:25:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229409",
@@ -217,7 +245,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.29K",
+      "views_label": "3.32K",
       "posted_at": "2026-09-04T07:01:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229408",
@@ -277,7 +305,7 @@
       "plain_text": "🔺آمریکا: سوریه در برچیدن برنامه تسلیحات شیمیایی رژیم اسد «پیشرفت چشمگیری» داشته است\n\n▪️تمی بروس، معاون نماینده آمریکا در سازمان ملل متحد، روز پنجشنبه ۱۲ شهریور اعلام کرد سوریه در از میان بردن بقایای برنامه تسلیحات شیمیایی رژیم بشار اسد «پیشرفت چشمگیری» داشته است؛ و ایالات متحده در کنار تلاش برای نابودی کامل این برنامه، بر پاسخگو کردن عاملان استفاده از سلاح‌های شیمیایی تاکید دارد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/us-says-syria-made-remarkable-progress-dismantling-assads-chemical-arsenal/8194148.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.24K",
+      "views_label": "3.28K",
       "posted_at": "2026-09-04T06:07:30+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229405",
@@ -305,7 +333,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.33K",
+      "views_label": "3.37K",
       "posted_at": "2026-09-04T05:53:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229404",
@@ -333,7 +361,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.74K",
+      "views_label": "3.77K",
       "posted_at": "2026-09-04T05:38:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229403",
@@ -349,7 +377,7 @@
       "plain_text": "🔺وزیر انرژی پیشین آمریکا: تشدید فشارهای اقتصادی موجب فروپاشی رژیم ایران خواهد شد\n\n▪️دن برویلت، وزیر پیشین انرژی آمریکا، می‌گوید افزایش جریان نفت از تنگه هرمز به ثبات بازارهای جهانی کمک کرده است، و ادامه محاصره اقتصادی جمهوری اسلامی و اقدامات دولت پرزیدنت ترامپ سرانجام می‌تواند به فروپاشی حکومت ایران و بازگشت کامل آزادی کشتیرانی به این آبراه منجر شود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/former-energy-secretary-predicts-iranian-regimes-collapse/8194147.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "5.03K",
+      "views_label": "5.06K",
       "posted_at": "2026-09-04T02:53:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229402",
@@ -393,7 +421,7 @@
       "plain_text": "🔺معاون رئیس جمهوری آمریکا: توافق نفتی با ونزوئلا ذخیره‌ای ۶۵ میلیارد بشکه‌ای برای ما ایجاد می‌کند\n\n▪️جی‌دی ونس، معاون رئیس جمهوری آمریکا، روز پنجشنبه ۱۲ شهریور گفت دولت پرزیدنت ترامپ با استفاده از توافق نفتی تازه با ونزوئلا، عملا در حال ایجاد ذخیره‌ای معادل ۶۵ میلیارد بشکه نفت برای ایالات متحده است؛ اقدامی که به گفته او امنیت انرژی آمریکا را به میزان چشمگیری افزایش خواهد داد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/vance-says-us-creating-sixty-five-billion-barrel-oil-reserve/8194146.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "4.43K",
+      "views_label": "4.46K",
       "posted_at": "2026-09-04T02:32:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229400",
@@ -421,7 +449,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.88K",
+      "views_label": "3.91K",
       "posted_at": "2026-09-04T02:28:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229399",
@@ -465,7 +493,7 @@
       "plain_text": "🔺آمریکا نوه رائول کاسترو و شبکه مالی حکومت کمونیستی را تحریم کرد؛ روبیو: کوبا آزاد خواهد شد\n\n▪️مارکو روبیو، وزیر امور خارجه آمریکا، روز پنجشنبه ۱۲ شهریور از اعمال تحریم‌های تازه علیه یک عضو خانواده کاسترو، یک بانک، و چهار نهاد کوبایی خبر داد و تاکید کرد دولت پرزیدنت ترامپ در تعهد خود برای دستیابی مردم کوبا به آزادی «تزلزل‌ناپذیر» است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/us-designates-castros-grandson/8194145.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "3.88K",
+      "views_label": "3.91K",
       "posted_at": "2026-09-04T01:59:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229397",
@@ -2445,34 +2473,6 @@
       "posted_at": "2026-09-03T07:40:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/229315",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/229314",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/CxBCW_KSeovLP0Oxi1z5cUjwd1ulcoCTAEa07BGb7pRRpiPggxon7JDUKVi1Ny8eqn7mAbZg7MbCLET3M-Vxu_8UvWFvX-TNeneqF9cmsoGszoK-661aer8MG5j9zzpOTSXvz_vwkT3wuEGB0UyHIc3aACRgpwuiS0qlYdmL85hJulDDQcrMcxST7b_99SYfuxzPXB6wDRMAdefcRiUOM8j6AMR7YYxFA88Big5mKXfjORPlqSEOw8EtDQlKj5sC_pNiquCgvwQehtDVsb3B-jOJLaMx7ze4LRUh4M21kZew5r1UPE1h53XOsLSyxOD7RRXhM89rasxcE7JptwbYiw.jpg",
-      "author_photo_path": "channels/farsivoa/media/f2fe6f2554a9e0d50abafd22.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "خبرگزاری رسمی امارات از برقراری تماس تلفنی دونالد ترامپ، رئیس جمهوری ایالات متحده و شیخ محمد بن زاید آل نهیان، رئیس امارات متحده عربی خبر داد.<br><br>در این گفت‌وگو که بامداد پنجشنبه ۱۲ شهریورماه انجام شد، دو طرف درباره ابعاد مختلف همکاری و اقدامات مشترک و راه‌های تقویت این همکاری‌ها در راستای تأمین منافع متقابل دو کشور بحث و تبادل نظر کردند.<br><br>دو طرف همچنین درباره مسائل مورد علاقه مشترک، به ‌ویژه تحولات جاری در منطقه خاورمیانه و تلاش‌های انجام‌شده در این زمینه، دیدگاه‌های خود را با یکدیگر در میان گذاشتند.<br><br>پیشتر آکسیوس اعلام کرده بود که استیو ویتکاف، فرستاده کاخ سفید، آخر هفته گذشته با شیخ طحنون بن زاید آل نهیان، مشاور امنیت ملی امارات متحده عربی، دیدار و درباره گام‌های بعدی در قبال رژیم ایران گفت‌وگو کرده‌اند.<br><br>اکسیوس به نقل از دو منبع مطلع گزارش داد این دیدار که کاخ سفید آن را اعلام نکرده است، در جزیره ساردینیا در دریای مدیترانه برگزار شد.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "خبرگزاری رسمی امارات از برقراری تماس تلفنی دونالد ترامپ، رئیس جمهوری ایالات متحده و شیخ محمد بن زاید آل نهیان، رئیس امارات متحده عربی خبر داد.\n\nدر این گفت‌وگو که بامداد پنجشنبه ۱۲ شهریورماه انجام شد، دو طرف درباره ابعاد مختلف همکاری و اقدامات مشترک و راه‌های تقویت این همکاری‌ها در راستای تأمین منافع متقابل دو کشور بحث و تبادل نظر کردند.\n\nدو طرف همچنین درباره مسائل مورد علاقه مشترک، به ‌ویژه تحولات جاری در منطقه خاورمیانه و تلاش‌های انجام‌شده در این زمینه، دیدگاه‌های خود را با یکدیگر در میان گذاشتند.\n\nپیشتر آکسیوس اعلام کرده بود که استیو ویتکاف، فرستاده کاخ سفید، آخر هفته گذشته با شیخ طحنون بن زاید آل نهیان، مشاور امنیت ملی امارات متحده عربی، دیدار و درباره گام‌های بعدی در قبال رژیم ایران گفت‌وگو کرده‌اند.\n\nاکسیوس به نقل از دو منبع مطلع گزارش داد این دیدار که کاخ سفید آن را اعلام نکرده است، در جزیره ساردینیا در دریای مدیترانه برگزار شد.\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/229314",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/AF4IJSZoit2lGVQBUNB8fpAJseZPxlebb0FuQy-RCruD1vNqxhkUil8yFI4BOlBcrKX_uXZCXEoWzwQqjZZdhnTkzbE0qVyTq1dGv4flO9FsUfAN9qX7obZssJSTQVj3796AEhTNR2ZQfjv4iQApinPzXCNOfUY1FAHNE8RxRvCYb70Kk4jwziOYvJLAR0Lm3nHwtxVHjaMvfK-4urgEuYnFUiFpW8E2qDdfog_p4YNZKlsS9T-JM6-2lHcYlULsDYU7gaT2mJe5OlDAQ-JX9SbDZsiZpjICpejFKnf7Odj2uvD7uQ9hShdWfwXm2eUPF7p30K4vcrdXHCKf0o1ZJg.jpg",
-          "thumbnail_path": "channels/farsivoa/media/c945c0fbd5e8f93af4ccab29.jpg",
-          "thumbnail_sha256": "dfa0bb6e455ecf09d2474debfd426df8b8f8e3b8e0265fa79312a9ef93044328",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.77K",
-      "posted_at": "2026-09-03T07:29:17+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/229314",
       "reply": null
     }
   ]
