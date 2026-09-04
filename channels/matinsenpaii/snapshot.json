@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-04T17:12:14.882Z",
+  "fetched_at": "2026-09-04T17:13:55.660Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,67 @@
     "subscriber_count": "155K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5179",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/tcKSGmeFex1wtc5tUrxkfmlQTfJ4d588Vzm7CxJGLhdnkTn94yZegkigMrphtloa0R3b8MI3t_IKtX8lGorAwK-FrBIdLQIQQQvyzBBcSrquvcN6ECVO8DnHpaHrj7cCcfK2nB3NOsySJwNLSskNtEpCOAi0_RSSnhpxp5gCKSF7VPCm1ma8u3AMfCriOkeTYJemkeCJf0PdH9AaXExzYabOu_LwUUISEKgLoPH_RQ47ahe6Fyb25qrESFPRmMw6vPa4mtmX30oCU2P9GlacavHSSBsj-Ucd7bZaOX8hKV3ayc59DuQcyVwmzTMrYVs0se2q0uOqcQomGLc_g8rZ4Q.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/add7e7255fe8fa8545ec6340.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "مدل <b>GPT</b>-6 Astra بالاخره اومد <tg-emoji emoji-id=\"5460681588331260715\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i></tg-emoji><br><br>بعد از چند هفته شایعه‌های مختلف، OpenAI دیشب مدل جدیدش رو با اسم Astra رونمایی کرد. گرگ براکمن رسماً گفته «فکر می‌کنم رسیدیم به AGI» و که خب فکر کنم بیشتر منظورش AGI ِتنظیم بازار بوده<tg-emoji emoji-id=\"5370953476635368811\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i></tg-emoji><br><br>1- چی فرق کرده؟ برخلاف نسل‌های قبل که بیشتر یه چت‌بات باهوش بودن، تمرکز اصلی Astra روی کار کردن مستقیم با کامپیوترته: پر کردن فرم، کار با اکسل، رزرو نوبت، جست‌وجوی شغل، حتی دموی ساخت یه صحنه توی Blender و بردنش به Unreal Engine. توی بنچمارک OSWorld 2.0 حدود ۷۲.۶٪ گرفته (Sol حدود ۶۵.۷٪ بود) و کارها رو تقریباً با نصف زمان قبل انجام می‌ده(حالا اینکه هزینه‌اش 2-3 برابر شده رو کاری نداریم مثلا)<tg-emoji emoji-id=\"5371039809772985021\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9891.png')\"><b>😑</b></i></tg-emoji><br><br>2- کجاها واقعاً می‌درخشه؟ توی کدنویسی و کارهای عاملی طولانی، ریاضی و علم (توی FrontierMath Tier 4 حدود ۹۸٪!) و امنیت سایبری که توی ExploitBench صد از صد شده. برای همین OpenAI قابلیت‌های تهاجمیش مثل ساخت اکسپلویت رو برای کاربر عادی قفل کرده و فقط توی برنامه‌ی Daybreak بازه(فکر کنم همین بود که رفته بود Hugging face رو هک کرده بود)<br><br>3- داستان اون ۹۹.۹٪ چیه؟ OpenAI گفته Astra توی ARC-AGI-3 نمره‌ی ۹۹.۹٪ گرفته که واقعاً وحشتناکه. ولی وقتی خود سازمان ARC Prize با harness استاندارد خودش و API خام تستش کرد، نمره افتاد روی ۶۲.۷٪. اون ۹۹.۹٪ فقط با یه harness اختصاصی خود OpenAI به دست اومده که حافظه‌ی استدلال مدل رو بین مرحله‌ها نگه می‌داره، و هزینه‌ی تستش هم حدود ۱۹ هزار دلار(4 میلیارد تومن) بوده. پس این عدد رو نمیشه مستقیم با بقیه‌ی مدل‌ها مقایسه کرد.<br><br>4- توی مقایسه با Claude چطوره؟ این‌جا قضیه واقعی‌تر می‌شه. توی بنچمارک‌های خود OpenAI (کار با کامپیوتر، ریاضی سخت و...) Astra جلوتره. ولی توی Artificial Analysis Intelligence Index که میانگین چندتا بنچمارک مستقله، Astra نمره‌ی ۶۱ گرفته؛ دقیقاً هم‌سطح Sol<tg-emoji emoji-id=\"5312015805095896450\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i></tg-emoji><tg-emoji emoji-id=\"5312015805095896450\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i></tg-emoji>، و پشت Claude Fable 5.1 که ۶۶ گرفته. توی Coding Agent Index هم ۶۷ در برابر ۷۰ برای Fable 5.1. یعنی توی خیلی از تسک‌های واقعی استدلال و کدنویسی، فعلاً کلاد جلوتره؛ عوضش Astra توکن کمتری مصرف می‌کنه و برای خیلی کارها ارزون‌تر تموم می‌شه. (حالا اینکه Input Cache اش چهار برابر Fable هزینش هست رو کاری نداریم)<br><br>5- قیمت و مشخصات؟ هر میلیون توکن ورودی ۱۰ دلار، خروجی ۵۰ دلار، کش ورودی هم 1 دلار و کش Writing هم 12.5 دلار؛ تقریباً هم‌قیمت Fable 5.1(به جز Cache که فیبل 0.25 دلاره) ولی ۲.۵ برابر گرون‌تر از Sol. پنجره‌ی زمینه حدود ۱.۰۵ میلیون توکن، خروجی حداکثر ۱۲۸ هزار، دانشش تا ۳۰ آوریل ۲۰۲۶ آپدیته. توی ChatGPT هم گفته می‌شه سهمیه‌ی پیام Astra روی پلن‌های پولی کمتر از Sol هست طبیعتا(بله AGI تنظیم بازار)<br><br>6- دسترسی؟ فعلاً فقط سازمان‌های محدود (برنامه‌ی Daybreak) بهش دسترسی دارن(مثلا ادای Mythos رو در میارن). توی روزهای آینده میاد روی ChatGPT Plus و Pro و Business و Enterprise، از طریق API با شناسه‌ی gpt-6-astra، و روی Azure و Bedrock هم در دسترس قرار میگیره که برای ما ایرانیا زیاد اهمیتی نداره. ما اونقدری پول نداریم که پول api بدیم خوشبختانه<br><br>حرف آخر: روی هوش عمومی و استدلال سخت هنوز از Fable 5.1 عقبه. گویا توی طراحی Front و سه بعدی خیلی بهتر عمل کرده اما خب، متأسفانه اون هم نمیشه اعتماد کرد. سر Kimi3 و Fable 5 هم همچین مقایسه‌هایی میکردن تهش گندش از آب در اومد که اینا پول گرفته بودن الکی قدرت Kimi رو خوب نشون بدن و خلاصه تا خودتون تست نکردید، یا عمومی نشده 7 سپتامبر، اعتماد نکنید.<br>منم هیتر GPT نیستم؛ صرفا واقع‌بینانه مقایسه میکنم. وگرنه همین الان اشتراک GPT رو دارم خودم و میدونم اگر روی هارنس درستی باشه، توانا هست اما خب، چه فایده وقتی Ox Alpha انقدر قوی‌تر بود ازش:) متأسفانه <br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "مدل GPT-6 Astra بالاخره اومد 💻\n\nبعد از چند هفته شایعه‌های مختلف، OpenAI دیشب مدل جدیدش رو با اسم Astra رونمایی کرد. گرگ براکمن رسماً گفته «فکر می‌کنم رسیدیم به AGI» و که خب فکر کنم بیشتر منظورش AGI ِتنظیم بازار بوده😂\n\n1- چی فرق کرده؟ برخلاف نسل‌های قبل که بیشتر یه چت‌بات باهوش بودن، تمرکز اصلی Astra روی کار کردن مستقیم با کامپیوترته: پر کردن فرم، کار با اکسل، رزرو نوبت، جست‌وجوی شغل، حتی دموی ساخت یه صحنه توی Blender و بردنش به Unreal Engine. توی بنچمارک OSWorld 2.0 حدود ۷۲.۶٪ گرفته (Sol حدود ۶۵.۷٪ بود) و کارها رو تقریباً با نصف زمان قبل انجام می‌ده(حالا اینکه هزینه‌اش 2-3 برابر شده رو کاری نداریم مثلا)😑\n\n2- کجاها واقعاً می‌درخشه؟ توی کدنویسی و کارهای عاملی طولانی، ریاضی و علم (توی FrontierMath Tier 4 حدود ۹۸٪!) و امنیت سایبری که توی ExploitBench صد از صد شده. برای همین OpenAI قابلیت‌های تهاجمیش مثل ساخت اکسپلویت رو برای کاربر عادی قفل کرده و فقط توی برنامه‌ی Daybreak بازه(فکر کنم همین بود که رفته بود Hugging face رو هک کرده بود)\n\n3- داستان اون ۹۹.۹٪ چیه؟ OpenAI گفته Astra توی ARC-AGI-3 نمره‌ی ۹۹.۹٪ گرفته که واقعاً وحشتناکه. ولی وقتی خود سازمان ARC Prize با harness استاندارد خودش و API خام تستش کرد، نمره افتاد روی ۶۲.۷٪. اون ۹۹.۹٪ فقط با یه harness اختصاصی خود OpenAI به دست اومده که حافظه‌ی استدلال مدل رو بین مرحله‌ها نگه می‌داره، و هزینه‌ی تستش هم حدود ۱۹ هزار دلار(4 میلیارد تومن) بوده. پس این عدد رو نمیشه مستقیم با بقیه‌ی مدل‌ها مقایسه کرد.\n\n4- توی مقایسه با Claude چطوره؟ این‌جا قضیه واقعی‌تر می‌شه. توی بنچمارک‌های خود OpenAI (کار با کامپیوتر، ریاضی سخت و...) Astra جلوتره. ولی توی Artificial Analysis Intelligence Index که میانگین چندتا بنچمارک مستقله، Astra نمره‌ی ۶۱ گرفته؛ دقیقاً هم‌سطح Sol😂😂، و پشت Claude Fable 5.1 که ۶۶ گرفته. توی Coding Agent Index هم ۶۷ در برابر ۷۰ برای Fable 5.1. یعنی توی خیلی از تسک‌های واقعی استدلال و کدنویسی، فعلاً کلاد جلوتره؛ عوضش Astra توکن کمتری مصرف می‌کنه و برای خیلی کارها ارزون‌تر تموم می‌شه. (حالا اینکه Input Cache اش چهار برابر Fable هزینش هست رو کاری نداریم)\n\n5- قیمت و مشخصات؟ هر میلیون توکن ورودی ۱۰ دلار، خروجی ۵۰ دلار، کش ورودی هم 1 دلار و کش Writing هم 12.5 دلار؛ تقریباً هم‌قیمت Fable 5.1(به جز Cache که فیبل 0.25 دلاره) ولی ۲.۵ برابر گرون‌تر از Sol. پنجره‌ی زمینه حدود ۱.۰۵ میلیون توکن، خروجی حداکثر ۱۲۸ هزار، دانشش تا ۳۰ آوریل ۲۰۲۶ آپدیته. توی ChatGPT هم گفته می‌شه سهمیه‌ی پیام Astra روی پلن‌های پولی کمتر از Sol هست طبیعتا(بله AGI تنظیم بازار)\n\n6- دسترسی؟ فعلاً فقط سازمان‌های محدود (برنامه‌ی Daybreak) بهش دسترسی دارن(مثلا ادای Mythos رو در میارن). توی روزهای آینده میاد روی ChatGPT Plus و Pro و Business و Enterprise، از طریق API با شناسه‌ی gpt-6-astra، و روی Azure و Bedrock هم در دسترس قرار میگیره که برای ما ایرانیا زیاد اهمیتی نداره. ما اونقدری پول نداریم که پول api بدیم خوشبختانه\n\nحرف آخر: روی هوش عمومی و استدلال سخت هنوز از Fable 5.1 عقبه. گویا توی طراحی Front و سه بعدی خیلی بهتر عمل کرده اما خب، متأسفانه اون هم نمیشه اعتماد کرد. سر Kimi3 و Fable 5 هم همچین مقایسه‌هایی میکردن تهش گندش از آب در اومد که اینا پول گرفته بودن الکی قدرت Kimi رو خوب نشون بدن و خلاصه تا خودتون تست نکردید، یا عمومی نشده 7 سپتامبر، اعتماد نکنید.\nمنم هیتر GPT نیستم؛ صرفا واقع‌بینانه مقایسه میکنم. وگرنه همین الان اشتراک GPT رو دارم خودم و میدونم اگر روی هارنس درستی باشه، توانا هست اما خب، چه فایده وقتی Ox Alpha انقدر قوی‌تر بود ازش:) متأسفانه\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/5179?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/aaot6o1JDZb-RJBtgBhJCKZIdzNJMX2UzQgaGi1cVT5ObsQl7U01ypmy9lDlC7LMNKCLrHZvtkzyV5TtydiOC4aiMQjSD-jLpSvO6UXSfhyZBy_a10GstbXnUx93EXNEofB3h2k1f_Z6SewMz5sVuft_nVGHNR3uMWfR8zEGaZ88Y-RqXf4CTJkp_P32abeWxgRoS0j2IPJ5HssixU_I0BwzNCMa5_FDsr-LlcTaFasqVBhzIgIhHS_7hHHmAF6esMxjMkTg7HMmwitixYCGsNa2OLbFHm2uXBcWAe0UJH6ihvXQnnXH-71P1DOiJdvXf1Ne8Z5yW8Vm4fFCVNvRew",
+          "thumbnail_path": "channels/matinsenpaii/media/b6c60b2f49830936973c80dd.jpg",
+          "thumbnail_sha256": "9df4f6310e4655f5c66cc9941aee7f3e88da0cf21a6eda87ff3f8bab3587dc62",
+          "duration_label": "2:43",
+          "aspect_ratio": null
+        },
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/5180?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/U1T2fYJ1xQYnEotKKvbjgmRc6YrYYuL28eED1y6Q_gklhlFzqGHQfHKkrzzVZFl56kL32C4qarGkg6-7S608N4WIuGRFNzBEaXZA_8jEhgYt_T8p-4XWS-SUjeRlEB4fSOykZlb6Agf9BiWn_swYgDbalgf5ZUwYuoq8oU5pgl9S9akCBRWGD1coj75jnpzWoUYFgU41C8OXWgPb4DW2BHBp0SjYE6SmttRKEczRAW6jFljhzU41kS8RxfSq4unS59h7ywR8GGcZkPIRisOi9oWJPoaHPaXJUbm_FVdztsPiV8GFG8pZHNlWsaZvGDZ3thZZPsUk2AkepMaqaRtacQ",
+          "thumbnail_path": "channels/matinsenpaii/media/d14f8370c857e1d0fd0b44d5.jpg",
+          "thumbnail_sha256": "ad128403ce844d21f17dfd36cf4d8a0494323caca09184be2da8d0a003e7fb33",
+          "duration_label": "0:20",
+          "aspect_ratio": null
+        },
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/5181?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/jTzz4isxYhkqho1HNCMGMcI1-e3jO5YvhPRatVnws34gjogsOq8Iyex4SqPKPEEnvSEjEvRBIJrWs2SWr8O3THFhehp1_mnxkQ_dtpeVtpB_69e_GTUDp9z6yf60ZNpF1Uq9rP1o3XeeQZyCEX6ps1-HDnuNH_L24CtvEiD2Bay0TXrCot18p-uvGi9hFTSWCovPnjZHlezEu2L1_EahLiBaJA6oDM3H4d46jxF0XkvZDN_Zh9X81f4xpZhZxOowI90hPi22IT0NeUnqeDBx3UOPNh_EwCVTtTbVvk9Ft_meJTIdUNiMlzifuD6297t8pjFhtmpjX23VboZaEp8HMA",
+          "thumbnail_path": "channels/matinsenpaii/media/325863c8d106d7c4cfe1c492.jpg",
+          "thumbnail_sha256": "55d1b2ed1d4aaea28a29d3033a9981e7dcaf518281282839aa0162780f158a29",
+          "duration_label": "0:30",
+          "aspect_ratio": null
+        },
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/5182?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/JYll3NlqKr6d-b_ZNzpyMZCjXkIE_dWkhnF6MBP3GrqsOZtMsnxhQiO174Xjrxuc4pw90qwgnb_MZ41YvoePzgH1r_BYpn14tXw0yh69Abb0urXl1EYAih2J-KEcir0lyPhmAd2W7nTtgbDBh6WZ8a9xumIJQ2Oc6hmlm2DdPMn742xE43Vl_EphUp09lt85GHlzH7unYR9wJu61jo5XAzAhFC98vKXirxo88cJFMEXx7R4VxdtOK0OzruoZ5CIdxf60C2PQ9APyvR88rBQ56pvmygPjdcRxxV6l_TQT0sQzgKLoL5Vs6QcEgXRbTU4Kw_RSSQKjLuN2bQCpoG5kWw",
+          "thumbnail_path": "channels/matinsenpaii/media/79bf7d582d2825abe0d06575.jpg",
+          "thumbnail_sha256": "2d02b66533da6edfff73de8e68e5d1903eefc91597483dd89037e1ee307127fc",
+          "duration_label": "0:29",
+          "aspect_ratio": null
+        }
+      ],
+      "reactions": [],
+      "views_label": "296",
+      "posted_at": "2026-09-04T17:13:20+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5179",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5178",
       "author_name": "Matin SenPai",
@@ -23,7 +84,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "325"
+          "count": "327"
         },
         {
           "emoji": "👍",
@@ -76,7 +137,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "532"
+          "count": "533"
         },
         {
           "emoji": "😁",
@@ -95,7 +156,7 @@
           "count": "7"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.8K",
       "posted_at": "2026-09-04T10:34:48+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5176",
@@ -4784,47 +4845,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/5062"
       }
-    },
-    {
-      "id": "MatinSenPaii/5062",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/t-_niAPOhw4vAk3euT3W57xgJE1ELhNAEYz7TXZUvnoy_lAJV4xOZLXbo9KxGgNCsqnL0TZvC67e-QLmenkVwdKdB931aGYy5LnxpIyUlg3N8c89-qugFqap_QaKFejN5X4NSblSbYVXmBhNRiTfswwGNXyn_dthRZUQMxiD34jbQAsczKbNo4BNHX9RBoJbMBgkO2loVN4JlEQ2Y8sUQ1xwiHIbrjRkrPHXckkFYff7Bra1988QqLiI3Sha4ldY0ugYiAlrjQ8ypSms5ozZJ5Hk6KT5GTOh62-ej-fUF59y7PIeDaFjXbnlltg7blkcj02701EAiYMqapSm1PzkSg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/6fd6c023a860057bf7962ec9.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "توی این بنچمارکا همه‌اش GLM 5.3-Flash رو با GLM 5.2 مقایسه میکنن<br>سؤالم اینه که چرا با خود GLM 5.3 مقایسه نمی‌کنن؟",
-      "plain_text": "توی این بنچمارکا همه‌اش GLM 5.3-Flash رو با GLM 5.2 مقایسه میکنن\nسؤالم اینه که چرا با خود GLM 5.3 مقایسه نمی‌کنن؟",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "182"
-        },
-        {
-          "emoji": "😁",
-          "count": "23"
-        },
-        {
-          "emoji": "❤",
-          "count": "11"
-        },
-        {
-          "emoji": "💔",
-          "count": "2"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "23.9K",
-      "posted_at": "2026-08-26T17:41:13+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5062",
-      "reply": null
     }
   ]
 }
