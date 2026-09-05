@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-05T15:22:12.927Z",
+  "fetched_at": "2026-09-05T15:27:10.702Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "155K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5200",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Ix4OHHSshHtlkUS_UYAGO6Ue6hotTxe52n163ulAUUDqpJ0KNqnBQjlzOM_oF0ddp0pVSNNqvnYOG_MFnJNjcOJC19s53bOg0bHBiVqopyikZom1frYaO9CltdjF6mcPzm2vUpv9lQJ2hhqYN9Dx1ZvLLj4kTXgtXrgEy89Kf3GVV1IeLTS5U7_e53kg54Vz0t_5bAXsA9I698XTqEkD4hGuyw701WLO3lhkCRd6YxYoOrgJerD9TFKFmbvJxIFxLgVbJ_3J_3sGBdqFvd-SCFA2XOubWV8MHoqiVa235ua0bBh1bazsf9FY1oCoL5XJkUhhKQxTe0-gifJ7PVYTyg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a67edbdcad627885e6136a1b.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<tg-emoji emoji-id=\"5332724926216428039\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9387.png')\"><b>📇</b></i></tg-emoji> <b>یکی از ابزارهایی که باید توی هر پروژه‌ای استفاده بشه، Codebase Memory هست.</b><br><br><a href=\"https://deusdata.github.io/codebase-memory-mcp/\" target=\"_blank\" rel=\"noopener\">https://deusdata.github.io/codebase-memory-mcp/</a><br><br><tg-emoji emoji-id=\"5863885503102718533\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>کاری که می‌کنه در ظاهر ساده‌ست: کل Codebase شما رو index می‌کنه و از ارتباط بین بخش‌های مختلف کد یک Knowledge Graph می‌سازه؛ از function و class و interface گرفته تا call chainها، dependencyها، routeها و حتی جریان داده بین functionها.<br><br>نتیجه اینه که Agent برای جواب دادن به سؤال‌هایی مثل:<br>«این function کجاها استفاده شده؟»<br>«اگه اینو تغییر بدم چه چیزهایی ممکنه بشکنه؟»<br>«این request از کجا وارد سیستم می‌شه و تا کجا می‌ره؟»<br>دیگه مجبور نیست هی grep بزنه، فایل باز کنه، دوباره سرچ کنه و نصف context window رو صرف پیدا کردن کدی کنه که اصلاً دنبالشه.<br>به‌جاش از طریق MCP مستقیماً روی گراف Codebase query می‌زنه.<br><br> <tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji><b>تفاوتش هم فقط تئوری نیست.</b><br> توی مقاله‌ای که روی ۳۱ پروژه‌ی واقعی تستش کرده، Codebase Memory با حدود ۱۰ برابر توکن کمتر و ۲.۱ برابر tool call کمتر به 83٪ کیفیت پاسخ رسیده؛ در مقایسه با 92٪ برای Agentی که کدها رو به روش معمول file-by-file می‌خونه.<br><br><tg-emoji emoji-id=\"5429651785352501917\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28697.png')\"><b>↗️</b></i></tg-emoji> <b>خود پروژه هم برای ۵ تا structural query مشخص benchmark گرفته: حدود ۳,۴۰۰ توکن با graph در مقابل ۴۱۲,۰۰۰ توکن با روش file-by-file. یعنی توی اون تست خاص چیزی حدود 120x مصرف توکن کمتر.</b><br><br><br><tg-emoji emoji-id=\"5379999674193172777\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94AD.png')\"><b>🔭</b></i></tg-emoji> ایجنت از اول یک دید ساختاری نسبت به پروژه داره. می‌تونه call chain رو دنبال کنه، impact یک تغییر رو پیدا کنه، dead code رو تشخیص بده، architecture پروژه رو دربیاره و حتی ارتباط بین چند service رو دنبال کنه.<br><br>امکان Semantic Search هم داره؛ یعنی لازم نیست حتماً اسم دقیق function رو بدونید. مثلاً دنبال مفهوم send بگردید، می‌تونه چیزهایی مثل publish یا dispatch رو هم پیدا کنه.<br><br>ضمن اینکه همه‌ی indexing و queryها لوکال انجام می‌شن و کدتون برای ساخت این graph جایی آپلود نمی‌شه.<br><br>خلاصه اینکه به‌جای اینکه Agent هر بار پروژه رو از صفر «کشف» کنه، یک نقشه‌ی قابل سرچ از Codebase جلوش می‌ذارید.<br><br>مخصوصاً روی پروژه‌های بزرگ، تفاوتش خیلی محسوس‌تر می‌شه.<br>و بالاخره کمتر شاهد Agentی هستیم که برای پیدا کردن یک function شروع می‌کنه با grep و find و jq کل repository رو شخم زدن <tg-emoji emoji-id=\"5350708280702281097\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA4A2.png')\"><b>🤢</b></i></tg-emoji>",
+      "plain_text": "📇 یکی از ابزارهایی که باید توی هر پروژه‌ای استفاده بشه، Codebase Memory هست.\n\nhttps://deusdata.github.io/codebase-memory-mcp/\n\n🟢کاری که می‌کنه در ظاهر ساده‌ست: کل Codebase شما رو index می‌کنه و از ارتباط بین بخش‌های مختلف کد یک Knowledge Graph می‌سازه؛ از function و class و interface گرفته تا call chainها، dependencyها، routeها و حتی جریان داده بین functionها.\n\nنتیجه اینه که Agent برای جواب دادن به سؤال‌هایی مثل:\n«این function کجاها استفاده شده؟»\n«اگه اینو تغییر بدم چه چیزهایی ممکنه بشکنه؟»\n«این request از کجا وارد سیستم می‌شه و تا کجا می‌ره؟»\nدیگه مجبور نیست هی grep بزنه، فایل باز کنه، دوباره سرچ کنه و نصف context window رو صرف پیدا کردن کدی کنه که اصلاً دنبالشه.\nبه‌جاش از طریق MCP مستقیماً روی گراف Codebase query می‌زنه.\n\n✍️تفاوتش هم فقط تئوری نیست.\nتوی مقاله‌ای که روی ۳۱ پروژه‌ی واقعی تستش کرده، Codebase Memory با حدود ۱۰ برابر توکن کمتر و ۲.۱ برابر tool call کمتر به 83٪ کیفیت پاسخ رسیده؛ در مقایسه با 92٪ برای Agentی که کدها رو به روش معمول file-by-file می‌خونه.\n\n↗️ خود پروژه هم برای ۵ تا structural query مشخص benchmark گرفته: حدود ۳,۴۰۰ توکن با graph در مقابل ۴۱۲,۰۰۰ توکن با روش file-by-file. یعنی توی اون تست خاص چیزی حدود 120x مصرف توکن کمتر.\n\n\n🔭 ایجنت از اول یک دید ساختاری نسبت به پروژه داره. می‌تونه call chain رو دنبال کنه، impact یک تغییر رو پیدا کنه، dead code رو تشخیص بده، architecture پروژه رو دربیاره و حتی ارتباط بین چند service رو دنبال کنه.\n\nامکان Semantic Search هم داره؛ یعنی لازم نیست حتماً اسم دقیق function رو بدونید. مثلاً دنبال مفهوم send بگردید، می‌تونه چیزهایی مثل publish یا dispatch رو هم پیدا کنه.\n\nضمن اینکه همه‌ی indexing و queryها لوکال انجام می‌شن و کدتون برای ساخت این graph جایی آپلود نمی‌شه.\n\nخلاصه اینکه به‌جای اینکه Agent هر بار پروژه رو از صفر «کشف» کنه، یک نقشه‌ی قابل سرچ از Codebase جلوش می‌ذارید.\n\nمخصوصاً روی پروژه‌های بزرگ، تفاوتش خیلی محسوس‌تر می‌شه.\nو بالاخره کمتر شاهد Agentی هستیم که برای پیدا کردن یک function شروع می‌کنه با grep و find و jq کل repository رو شخم زدن 🤢",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5200",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/IF5W6bsqeEdd56Xy80L2DSXtOpBgPpKvIamIIVxLDnoYp3vB39FegHJ7d3GtymXylTU_F3n9Svr2eAncY0q9xjChltku0Rhwn0CsouWHTalgdi0BCIZLslBmUOGYwIUQopl_co5VSYnnzOyBJPC6YsPtqq48qbw_Az2YGrx8CLjykX04YPgvWNI7YudDDU9i4zqFOI0rmD-raelFTLstd72Xwni6ZIVHMhq05MVv2CZLT5CrZnTH9Q8RagwTaewRUjByOCbmzw99IiODYFpW1HQDnI66DLYYfV6JbAaeTR7iHjGw4JZdqMd5DmloTjdC2W9QgWon8DTZYrqSfK6iMw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/d4b0ea54ca32d7afd2fe9c47.jpg",
+          "thumbnail_sha256": "17841054b39fcf418b166b77b252a768b7ffe88053aadc96173fd24a48625312",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "count": "14"
+        }
+      ],
+      "views_label": "1.35K",
+      "posted_at": "2026-09-05T15:22:32+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5200",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5199",
       "author_name": "Matin SenPai",
@@ -23,7 +60,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "257"
+          "count": "260"
         },
         {
           "emoji": "😁",
@@ -38,7 +75,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.5K",
+      "views_label": "13.9K",
       "posted_at": "2026-09-05T12:48:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5199",
@@ -65,11 +102,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "198"
+          "count": "200"
         },
         {
           "emoji": "💔",
-          "count": "53"
+          "count": "54"
         },
         {
           "emoji": "👍",
@@ -84,7 +121,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.7K",
+      "views_label": "14.2K",
       "posted_at": "2026-09-05T12:46:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5198",
@@ -113,7 +150,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15.3K",
+      "views_label": "15.7K",
       "posted_at": "2026-09-05T12:28:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5197",
@@ -152,7 +189,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "136"
+          "count": "139"
         },
         {
           "emoji": "🦄",
@@ -171,7 +208,7 @@
           "count": "3"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "16K",
       "posted_at": "2026-09-05T12:24:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5196",
@@ -208,7 +245,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "25.8K",
       "posted_at": "2026-09-04T23:35:25+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5194",
@@ -258,7 +295,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.4K",
+      "views_label": "25.5K",
       "posted_at": "2026-09-04T23:31:53+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5193",
@@ -303,7 +340,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.4K",
       "posted_at": "2026-09-04T22:00:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5192",
@@ -361,7 +398,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.2K",
+      "views_label": "23.3K",
       "posted_at": "2026-09-04T21:52:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5191",
@@ -415,7 +452,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-09-04T21:13:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5190",
@@ -473,7 +510,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.1K",
+      "views_label": "25.2K",
       "posted_at": "2026-09-04T20:04:36+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5189",
@@ -531,7 +568,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.2K",
+      "views_label": "25.3K",
       "posted_at": "2026-09-04T19:43:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5188",
@@ -602,7 +639,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.3K",
       "posted_at": "2026-09-04T18:49:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5185",
@@ -4826,35 +4863,6 @@
       "posted_at": "2026-08-28T11:42:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5078",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5077",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/tvgg9PMB6BsXOejtfe5ONZI2UMBDF80KP-xNM-EbE8hkWfzMuroHZU6MJuM7i8QYJ6LRV3qzmOOjxGWsur1ZjYtl-S5iIOzT1T_f7VgRSMlg0UlNgN66SUXzZR4jiSjMyzalH3khiOOi7IT32nr_TyoX4hBVeZYoNexIbvOE0q0LedOpVKaFvRwAKOrMeU_bArLzgl1MLJ-k1r3LC5zl9qDFV8BuqlzbRMkpP9Gs1o9FynHALF5NtlwfuYKB1As95s-ICrTEsCwJz1qzyvfu-0YtHSR9oTHLcMAdTmRlz7obfX1GkJ__NShfNpd7-tQTb90gRftvVG94_xfzE2ma5w.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/31758b04be7da96ea35fbaf1.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "این سیستم Re-Stream همراه با بکاپ استریم رو ابتدا با GPT 5.6 Sol و GLM 5.3 در تلاش بودم که بنویسم<br>اما چون نسبتا پیچیده بود و تانل هم داشت و سر اینترنت ایران یهو پکت‌ها غیب می‌شدن،<br>می‌خواستم Claude Opus 5 رو بندازم به جونش<br>تا اینکه Ox Alpha اومد<br>دادم و کلی از جاهاش رو کامل کرد، جوری که واقعا Glm و Gpt نتونسته بودن انجامش بدن<br><br>و در نهایت هم خودش، اما نسخه ریویل شده‌اش(GLM 5.3 Flash) اومد و کاملش کرد و فرغونی که از Gpt و Glm 5.3 تحویل گرفته بود رو تبدیل کرد به بوگاتی عملا",
-      "plain_text": "این سیستم Re-Stream همراه با بکاپ استریم رو ابتدا با GPT 5.6 Sol و GLM 5.3 در تلاش بودم که بنویسم\nاما چون نسبتا پیچیده بود و تانل هم داشت و سر اینترنت ایران یهو پکت‌ها غیب می‌شدن،\nمی‌خواستم Claude Opus 5 رو بندازم به جونش\nتا اینکه Ox Alpha اومد\nدادم و کلی از جاهاش رو کامل کرد، جوری که واقعا Glm و Gpt نتونسته بودن انجامش بدن\n\nو در نهایت هم خودش، اما نسخه ریویل شده‌اش(GLM 5.3 Flash) اومد و کاملش کرد و فرغونی که از Gpt و Glm 5.3 تحویل گرفته بود رو تبدیل کرد به بوگاتی عملا",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "129"
-        },
-        {
-          "emoji": "❤",
-          "count": "23"
-        },
-        {
-          "emoji": "😁",
-          "count": "6"
-        }
-      ],
-      "views_label": "24.6K",
-      "posted_at": "2026-08-28T11:38:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5077",
       "reply": null
     }
   ]
