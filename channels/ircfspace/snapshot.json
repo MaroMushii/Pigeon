@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-05T06:22:25.521Z",
+  "fetched_at": "2026-09-05T06:27:32.412Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,34 @@
     "subscriber_count": "96.4K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2578",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/GWBdriJHlNJWL9irtjG6cd1oTKd85SHuLdLEK03twVBME3rtRrn9UboeZsLHCxcubm9S6BwTqOwW2ENGeUAXzRfBMNA7NlbUknO1XqBdpb8pA1HIrE10G4WW3DMQmzzqa-GxmHPTAb1dlgZUjNXE4vadZmGiBoqqzczRDRI8baTyu7W17BCw_SrpHuFxzIjWkNH6j6oUwIC241cKqhuodbkEs1326dVWiF9NT96dDOACqEG_nUTEenBuHzKhUto5GkmDI3Hdri366ncN4dAfNhjc1rEYSwUEk6veZZ-i3IUepDeZSnuKTuTa7p9b6DPcBDwPlDGOd-Z-MxHmG5nWgA.jpg",
+      "author_photo_path": "channels/ircfspace/media/e7e1abc96eb3cf59d1cc2cc0.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "نسخه جدید از هسته متن‌باز و رایگان Aether با تمرکز روی بهبود سرعت و عملکرد منتشر شده و مهمترین تغییر، فیکس شدن مشکل سرعت MASQUE روی HTTP/2 هست، که حالا با اصلاح پنجره Flow Control، مسیر ارسال، فریم‌بندی پکت‌ها و MTU داخلی، باید در شرایط مختلف اتصال عملکرد خیلی بهتری داشته باشه.<br>از طرف دیگه، محدودیتی که بخاطر بافر دریافت TCP در Netstack روی همه ترنسپورت‌ها وجود داشت برطرف شده و این بافر حالا بزرگتره. ضمن اینکه می‌تونین مقدار بافر دریافت و ارسال رو بصورت دستی تنظیم کنین. البته برای WARP-in-WARP چندین دستور جدید هم اضافه شده، که اجازه میده اندپوینت‌های مختلف رو بصورت دستی مشخص کنین.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/CluvexStudio/Aether/releases\" target=\"_blank\" rel=\"noopener\">github.com/CluvexStudio/Aether/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "نسخه جدید از هسته متن‌باز و رایگان Aether با تمرکز روی بهبود سرعت و عملکرد منتشر شده و مهمترین تغییر، فیکس شدن مشکل سرعت MASQUE روی HTTP/2 هست، که حالا با اصلاح پنجره Flow Control، مسیر ارسال، فریم‌بندی پکت‌ها و MTU داخلی، باید در شرایط مختلف اتصال عملکرد خیلی بهتری داشته باشه.\nاز طرف دیگه، محدودیتی که بخاطر بافر دریافت TCP در Netstack روی همه ترنسپورت‌ها وجود داشت برطرف شده و این بافر حالا بزرگتره. ضمن اینکه می‌تونین مقدار بافر دریافت و ارسال رو بصورت دستی تنظیم کنین. البته برای WARP-in-WARP چندین دستور جدید هم اضافه شده، که اجازه میده اندپوینت‌های مختلف رو بصورت دستی مشخص کنین.\n\n👉 github.com/CluvexStudio/Aether/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2578",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/VJkgGKydP43D2StRwhmBOaugMa0EI6Uccg9lUtnG6oPeWAGVxyQDPrM-4Odrluu7WulOmWLlNTZvP2jvtrhn9KVpZJejqRYtFZU7dH823_bvfUz30zz30HA1ozfjLymEFLaNLRvHGSO45cgKH79GNGTriMbb9OgPjUrKM-W6PgEaB25m3bK0qkiDgEk-0Q3xWLmsCMGq1Suv6ePIIa5quZ_tVsl1FUZEj6K9KT63bBHnZQ7yJ0DqUF1DrzkDVPkm8WTU5XJwfj0vHfQnibqGxM9inSLZIe1uhtkY9RYikaYn6qiiqr69ZqiBg1EfkOmh9ONxuh55Be0BoPQ4WsEMmA.jpg",
+          "thumbnail_path": "channels/ircfspace/media/216d63b801a664a3e51c2871.jpg",
+          "thumbnail_sha256": "48779a6e87431c423c890ea3c1555a34130f9ea769c0bfae23fbc111a9eea9e3",
+          "duration_label": null,
+          "aspect_ratio": 1.2698412698412698
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-09-05T06:27:21+00:00",
+      "edited": false,
+      "permalink": "https://t.me/ircfspace/2578",
+      "reply": null
+    },
     {
       "id": "ircfspace/2577",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -302,7 +330,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.9K",
+      "views_label": "28K",
       "posted_at": "2026-08-30T08:14:25+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2573",
@@ -5612,59 +5640,6 @@
       "posted_at": "2026-07-11T04:10:55+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2478",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2477",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/dsbZ20LS5o8O_I1egKXHqwXr3LSmueDJH72raozXmyjCrUwtkzHFp1N1qroxj1lWzlyUcIA_KhUxSiu1MrI2rK9tGJAx78vjtC8dIjjCh7TLa7QOiVtG0dbot3sNrk6sOEBDEX6z_XlP1GxRLkCriAI97IKIPaej3VafWGelV7QuWhSCvD_PsG7oZizCmGeFhAyBMvbMGtXQhXWPmZ93X-b4YrBB2JqWkGeZyNvl3hvSuizHAMhuuLOJpJ_zUFidPAxXTfIvvl56yFJSP783jHNjIU2XuNBFWlXzpvftSAQfjQE10r0_woqg4MFwlNtflYZ8zxvQhH9RpQu3Z0aO8Q.jpg",
-      "author_photo_path": "channels/ircfspace/media/50e652ce991fff406011fb9f.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "محققان Datadog میگن مهاجمان با استفاده از بیش از ۵۰ حساب قدیمی و غیرفعال گیت‌هاب و توکن‌های دسترسی (PAT) افشاشده، از طریق API گیت‌هاب در حال جمع‌آوری اطلاعات سازمان‌ها هستن تا برای حملات بعدی آماده بشن و ساختار داخلی، اعضا و ریپازیتوری‌های اونهارو شناسایی کنن.<br>توی بعضی موارد هم تونستن ریپازیتوری‌های خصوصی رو کلون کنن. به گفته Datadog، چون این کارها با حساب‌های واقعی و API رسمی گیت‌هاب انجام میشه، تشخیصش از فعالیت عادی توسعه‌دهنده‌ها کار راحتی نیست.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> thehackernews<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "محققان Datadog میگن مهاجمان با استفاده از بیش از ۵۰ حساب قدیمی و غیرفعال گیت‌هاب و توکن‌های دسترسی (PAT) افشاشده، از طریق API گیت‌هاب در حال جمع‌آوری اطلاعات سازمان‌ها هستن تا برای حملات بعدی آماده بشن و ساختار داخلی، اعضا و ریپازیتوری‌های اونهارو شناسایی کنن.\nتوی بعضی موارد هم تونستن ریپازیتوری‌های خصوصی رو کلون کنن. به گفته Datadog، چون این کارها با حساب‌های واقعی و API رسمی گیت‌هاب انجام میشه، تشخیصش از فعالیت عادی توسعه‌دهنده‌ها کار راحتی نیست.\n\n© thehackernews\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2477",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Xlj3l_J3qdLqtBfm1vDMbzXD1st-9HQdWNxmQKJHzbU1IHsB8cbDfyQvEsBi9Dl8_UMdmosGzZv-2u8KQ6myUyoPu-H8_JnIZxrC3yQUlzfY8C4Hgm_NOufinSZxhGFbBpLh_bQ-d9INlG6PNkq05bS1gpyf4Oxh370XBXTfRLOxuZTskK0rJlF1lMkX0KE2IDhpjHTqt-dfpAu7lc1w5ZUCqrqWs0uffVV0bRR4BRhv6oeBl9mv_x6sBb4hKMZtGk0GU2hXp1GZkmmGfaNaslxt6hRE5RWMNOwgym2EH-99FmGTDpUFzMEg1rAeaOljaOsNsaz2cwX3WptXV6I1QA.jpg",
-          "thumbnail_path": "channels/ircfspace/media/40ae5f0a0f670b5cc12f7cb2.jpg",
-          "thumbnail_sha256": "d7b57a2bc0a9dd141d9b4f3e43818d8d867e87f8189239b8053d437e8299faa0",
-          "duration_label": null,
-          "aspect_ratio": 1.9138755980861244
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "47"
-        },
-        {
-          "emoji": "👍",
-          "count": "19"
-        },
-        {
-          "emoji": "😱",
-          "count": "16"
-        },
-        {
-          "emoji": "😐",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        }
-      ],
-      "views_label": "21.8K",
-      "posted_at": "2026-07-11T03:59:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/ircfspace/2477",
       "reply": null
     }
   ]
