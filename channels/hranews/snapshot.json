@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-06T11:27:21.106Z",
+  "fetched_at": "2026-09-06T11:32:14.184Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "hranews/115431",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/PRWg4sI99bWdJWxYOJOxcC0suFyfOOCr8ghHR8BLosWGsLKNWyPv49u2WQEOecCgUokv4Hs-6Z75M4ycDPsxD7zf6W6utXCZDlFGZAbTZI6Tv5Wvg9Vlok-4RfsGaJ66Atyt1h_mCREANbl8zTK2qAhm53eLR82BT1Sson-uR7M28SWB_pqOS0l7rCkcrjH2UCC_gA3ed5rVNYUv0QpUGcyxoDwQMr3-LAUGG4_BtRJDwM2ThUeEwu7xXCNmNyYBqbcWtnR-vQuIRvdSj0mwIwWVTDBgGpzsWH3rR0TTYWoPZvDQj7p6HD8OOB7KCPs_49cOIhjz7uRDFuFlt52yKg.jpg",
+      "author_photo_path": "channels/hranews/media/550b221295ccd3e478d3cad0.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "امروز، در ادامه تجمعات بازنشستگان تامین اجتماعی؛ تعدادی از این بازنشستگان در شوش نیز با برگزاری <a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9\">#تجمع</a> اعتراضی خواستار رسیدگی به مطالبات خود شدند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -&nbsp; <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>&nbsp; کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "امروز، در ادامه تجمعات بازنشستگان تامین اجتماعی؛ تعدادی از این بازنشستگان در شوش نیز با برگزاری #تجمع اعتراضی خواستار رسیدگی به مطالبات خود شدند.\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/115431",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/JW5MXEnklCL9_fnX-Ra1xfVwEuW3ozwowMXCtezFdC722vAsAqRlwhlRwNrNWgQnR_EI87bN7YXWeob47wGcAnMIcH4nUc45oOnf39KSCfPqB6vJKvXedqRbkvoNMNZNsVB5TyMlvAyvvSMO7zFsQqXc72T-tWiugAEtSOPG7pxKr-DpY3rVAnj-FHAKaahwVaz91z_OutrPngeeDdhQPUOg_zl9L3etX-Jco5IDhthFUCMYO04bO-e58WHyTSluE5ZdDdFrSFTgkAnA-9zgkquIHoNr15STqMStXSTNO_xBgvO08TQrpOw0772bI6QaFkmAH4h-bQ78LDjnAJmpnA",
+          "thumbnail_path": "channels/hranews/media/6e7319f34978ff34faddbeb6.jpg",
+          "thumbnail_sha256": "2b88bedfec756b06ab73c4fd4d1f289372f8a418bb658a1035cbe8a236abfad3",
+          "duration_label": "1:01",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "30",
+      "posted_at": "2026-09-06T11:28:26+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/115431",
+      "reply": null
+    },
+    {
       "id": "hranews/115430",
       "author_name": "خبرگزاری هرانا",
       "author_photo_url": "https://cdn1.telesco.pe/file/PRWg4sI99bWdJWxYOJOxcC0suFyfOOCr8ghHR8BLosWGsLKNWyPv49u2WQEOecCgUokv4Hs-6Z75M4ycDPsxD7zf6W6utXCZDlFGZAbTZI6Tv5Wvg9Vlok-4RfsGaJ66Atyt1h_mCREANbl8zTK2qAhm53eLR82BT1Sson-uR7M28SWB_pqOS0l7rCkcrjH2UCC_gA3ed5rVNYUv0QpUGcyxoDwQMr3-LAUGG4_BtRJDwM2ThUeEwu7xXCNmNyYBqbcWtnR-vQuIRvdSj0mwIwWVTDBgGpzsWH3rR0TTYWoPZvDQj7p6HD8OOB7KCPs_49cOIhjz7uRDFuFlt52yKg.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "اهواز؛ اقدام به خودسوزی یک کارگر در پی معوقات مزدی و اخراج از محل کار\n\n❗️❗️❗️❗️❗️ – صبح امروز یکشنبه ۱۵ شهریورماه، یک #کارگر شاغل در پروژه قطار شهری اهواز، در پی پنج ماه معوقات مزدی و اخراج از محل کار، مقابل ساختمان شهرداری این شهر اقدام به خودسوزی کرد. وی با مداخله کارگران حاضر در محل نجات پیدا کرد و به دلیل سوختگی به بیمارستان منتقل شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "179",
+      "views_label": "196",
       "posted_at": "2026-09-06T11:01:08+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115430",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "254",
+      "views_label": "266",
       "posted_at": "2026-09-06T10:41:25+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115429",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "352",
+      "views_label": "365",
       "posted_at": "2026-09-06T10:02:34+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115428",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "432",
+      "views_label": "440",
       "posted_at": "2026-09-06T09:29:40+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115427",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "392",
+      "views_label": "397",
       "posted_at": "2026-09-06T09:13:07+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115426",
@@ -149,7 +177,7 @@
       "plain_text": "تعدادی از شهروندان در کرج بازداشت شدند\n\n❗️❗️❗️❗️❗️ – چند شهروند به دلیل حمایت از یکی از گروه‌های مخالف نظام، توسط نیروهای امنیتی #بازداشت شدند. بازداشت این افراد پس از انتشار ویدیویی در فضای مجازی از حرکت گروهی آنان با موتورسیکلت و خودرو در حوالی کرج صورت گرفته است.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "516",
+      "views_label": "520",
       "posted_at": "2026-09-06T08:27:36+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115425",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "622",
+      "views_label": "628",
       "posted_at": "2026-09-06T07:54:56+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115424",
@@ -193,7 +221,7 @@
       "plain_text": "تداوم بازداشت و بلاتکلیفی محمد معین‌پور در زندان بوکان\n\n❗️❗️❗️❗️❗️ – محمد معین‌پور، شهروند اهل بوکان، بیش از ۲۰ روز است که توسط نیروهای امنیتی #بازداشت شده و همچنان به صورت بلاتکلیف در زندان این شهرستان نگهداری می‌شود.\n\nادامه مطلب\n\n#محمد_معین‌پور\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "572",
+      "views_label": "579",
       "posted_at": "2026-09-06T07:20:00+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115423",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "958",
+      "views_label": "963",
       "posted_at": "2026-09-05T19:19:20+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115422",
@@ -237,7 +265,7 @@
       "plain_text": "تجمع اعتراضی پرستاران و کادر سلامت در فسا\n\n❗️❗️❗️❗️❗️– در روز جاری، جمعی از #پرستاران و کادر سلامت در فسا، در اعتراض به عدم پرداخت هشت ماه معوقات مزدی خود دست به #تجمع اعتراضی زدند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "922",
+      "views_label": "925",
       "posted_at": "2026-09-05T19:02:16+00:00",
       "edited": true,
       "permalink": "https://t.me/hranews/115421",
@@ -265,7 +293,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "833",
+      "views_label": "836",
       "posted_at": "2026-09-05T18:40:24+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115420",
@@ -281,7 +309,7 @@
       "plain_text": "فقدان ایمنی کار؛ مرگ ۲ کارگر از جمله یک کودک کار\n\n❗️❗️❗️❗️❗️– در سایه فقدان ایمنی محیط و شرایط نامناسب کار، دو #کارگر از جمله یک کودک کار در شهرستان‌های خوی و سرپل ذهاب، حین انجام کار طی حوادثی جان خود را از دست دادند.\n\nادامه مطلب\n\n#میثم_جاسمیان\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "738",
+      "views_label": "743",
       "posted_at": "2026-09-05T18:33:00+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115419",
@@ -297,7 +325,7 @@
       "plain_text": "گزارشی از اعدام ۲ زندانی در زندان رفسنجان/ صدور حکم اعدام برای یک متهم و رهایی ۳ تن از چوبه‌دار\n\n❗️❗️❗️❗️❗️– حکم دو زندانی از جمله یک تبعه کشور افغانستان که پیشتر در پرونده‌های جداگانه از بابت اتهام قتل به #اعدام محکوم شده بودند، در زندان رفسنجان اجرا شد. همچنین، یک متهم به قتل در تهران توسط شعبه دهم دادگاه کیفری یک این استان به اعدام محکوم شد. از سوی دیگر، سه زندانی در کرمان با اعلام رضایت اولیای دم از چوبه‌دار رهایی یافتند.\n\nادامه مطلب\n\n#ولی‌جان_نورزای #یدالله_شمسی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "797",
+      "views_label": "799",
       "posted_at": "2026-09-05T18:04:14+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115418",
@@ -313,7 +341,7 @@
       "plain_text": "گزارشی از معوقات مزدی و بیمه‌ای در ۴ واحد مختلف\n\n❗️❗️❗️❗️❗️– شماری از کارکنان روزمزد بخش خدمات شاغل در نیروگاه بخار ایرانشهر، گروهی از #کارگران پیمانکاری ابنیه فنی راه‌آهن لرستان، جمعی از نیروهای شرکتی یگان حفاظت منابع طبیعی و آبخیزداری سیستان‌ و بلوچستان و تعدادی از کارگران تعدیل‌شده‌ شرکت خدمات هوایی سامان از معوقات مزدی و بیمه‌ای خود خبر دادند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "792",
+      "views_label": "794",
       "posted_at": "2026-09-05T17:30:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115417",
@@ -329,7 +357,7 @@
       "plain_text": "مرد متهم به قتل نیلوفر مجاور بازداشت شد\n\n❗️❗️❗️❗️❗️– رئیس‌ کل دادگستری آذربایجان غربی از بازداشت مرد متهم به قتل نیلوفر مجاور، زن اهل پیرانشهر که بر اثر خشونت‌های جسمی و جنسی و محرومیت از آب و غذا جان خود را از دست داده بود، خبر داد.\n\nادامه مطلب\n\n#نیلوفر_مجاور\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "953",
+      "views_label": "954",
       "posted_at": "2026-09-05T17:01:17+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115416",
@@ -357,7 +385,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "914",
+      "views_label": "915",
       "posted_at": "2026-09-05T15:51:32+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115415",
@@ -385,7 +413,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "924",
+      "views_label": "925",
       "posted_at": "2026-09-05T14:56:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115414",
@@ -433,8 +461,8 @@
           "asset_url": "https://t.me/hranews/115412",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/g0CtHtGp-xjT9y2puj25DKlS8R6bAbWkshMAsoQh_wYWQVy_lTxE1h1v3p3y65VcRtDnzvTTrY5n4VFQ_SpNr3S-o3wPUKVVPa7JX-sX_iCwza6E0l6iihm8V3SRQqEAPCc9ePbKBnUmD2ivylFoCPoqCCerY72agfSNu-I-8BjyqWqLE6wzeHPyNV_cPLB53fdMk5diGla3HjYYdhu0qbmJvtx5j_flBFYhGLFOyLLi9s7TeNsbaNHdm6ukFKtHwfiDQ9M3ETOMDXy6Wjj7DSL-Pg6uNROI1axPCAu6VF3Jnws9KiH7HZdKkoOd89DOKFtlcFvEzb5sYtPBqHB1Zg.jpg",
-          "thumbnail_path": "channels/hranews/media/8bc20f3bbc0916e4e46f1c47.jpg",
+          "thumbnail_url": "https://cdn4.telesco.pe/file/Kxj6onlakEdF-3TNGiHRio8jBT-QDYhadnO_PLefhnJX02wCZ0czgh8hOnD0vHdpnsmq7ZayFWix2lcLjYtBkxCxKYOrfr0W6khDUbbP0lv5WDzI_c9pIeAkOqpOH5oKzXyM7yEnrfTzVR3Lfv5eSrwg3mNj2TP3lLwlUnC8tJboqu7jhc2sANATW6LLyQgkZQ8DFeLkL0ViI8-Scc5wc-YRKMo0WVx9VwcOCblNUnto-gtfItoxHPSOzXDCvsFAqKM42mHUw7ojR_WrpkYZdQxg4_70AEAYhuCFb1jwCvuewuRop1NOp964jx8cPLk8TnX3wsnL2YDSe8Et3BhM2A.jpg",
+          "thumbnail_path": "channels/hranews/media/bf075e73c5c9d3e79e6f36c2.jpg",
           "thumbnail_sha256": "28e0fd71bd31e22b8ba984b16ae844e23d4c762f489117c8eab9b78f1674cdf2",
           "duration_label": null,
           "aspect_ratio": 1
@@ -2225,34 +2253,6 @@
       "posted_at": "2026-09-01T14:41:28+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115328",
-      "reply": null
-    },
-    {
-      "id": "hranews/115327",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/XDbX279QjspsuupVOMgWXOQ6JaetlZyWxuNUH-No9e56_Im832M1YYC0Lw8h8Dk4HnEgA1K8wruwg9L_KhqIdwdY29qrrMamcx76WctFjAnPnEY0WfWFK0mdKqyFVd-rh3Qe5HLzvR3I7JXaqWJVM-spF_OMLBV_VfW93wa54-9ZzMRw-kbgb_TL17oVOGD4uZCu2CqlzFA5uGgJUqxSxMUe-Kn3R76sujTqEJ5Pv9YTUUnA3EFsyuc8QzO8jL1tjsXnCRWg_rNY5sewoJd_W2XrYWU74w7ANnoNqx-ql84nzyY4_RjZqSkdB4hzc6Y8__fktt8mSSWmpk1CbK-1eQ.jpg",
-      "author_photo_path": "channels/hranews/media/9b751741467750447c19b210.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "پروین میرآسان از زندان اوین آزاد شد <br><br><tg-emoji emoji-id=\"4936376861581116178\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936234406105842841\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936202185261187827\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933936920725029797\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933769043338331221\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji>– روز گذشته، پروین میرآسان، زندانی سیاسی ۶۹ ساله، با پایان دوران محکومیت خود از زندان اوین آزاد شد.<br><br>به گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، پروین میرآسان از زندان آزاد شد.<br><br>بر اساس اطلاعات دریافتی هرانا، آزادی خانم میرآسان روز دوشنبه ۹ شهریورماه، با پایان دوران محکومیت خود، از زندان اوین صورت گرفته است.<br><br><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-fee30284/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ادامه مطلب</a><br><br><a href=\"?q=%23%D9%BE%D8%B1%D9%88%DB%8C%D9%86_%D9%85%DB%8C%D8%B1%D8%A2%D8%B3%D8%A7%D9%86\">#پروین_میرآسان</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "پروین میرآسان از زندان اوین آزاد شد\n\n❗️❗️❗️❗️❗️– روز گذشته، پروین میرآسان، زندانی سیاسی ۶۹ ساله، با پایان دوران محکومیت خود از زندان اوین آزاد شد.\n\nبه گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، پروین میرآسان از زندان آزاد شد.\n\nبر اساس اطلاعات دریافتی هرانا، آزادی خانم میرآسان روز دوشنبه ۹ شهریورماه، با پایان دوران محکومیت خود، از زندان اوین صورت گرفته است.\n\nادامه مطلب\n\n#پروین_میرآسان\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/hranews/115327",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/VEgmaU-mNqEY-ExeAFpJ7E97RgfWwjFRI4NXFDBnTarQKr93kmBGiGfrAOWRCKD_wGGxjW_Ja_dYjlhjmumncWC4ieyzoH8xh_WxBPkjTZDUWp8pt9gVdyKX09nj_UMJ_DWSF41PajnVH5HNpxbwvCJF8B0jisY2kkRmrbFiuArQ2PJyD83nGn3ISACzm84dzIILtcxcvx8lIRTZmFPVCrvG56PCPFlp-NVDqPPA8iE372USY_n4HWuOzgqZNbwN3pJFyaM9h0NIrzAcFU5eUXIt0rVYLD1ShjP1nn4ogo2OPDZ6e4fjfuZ8uHyWDXjLz_S-zTG0iHJGdYjSDZpbbQ.jpg",
-          "thumbnail_path": "channels/hranews/media/0a9f84643edf899a104736e5.jpg",
-          "thumbnail_sha256": "2070e9d14cb75c3bd61b9e1607ec1774188b804ce29e53afd43f7f4d707b78e0",
-          "duration_label": null,
-          "aspect_ratio": 1.5009380863039399
-        }
-      ],
-      "reactions": [],
-      "views_label": "785",
-      "posted_at": "2026-09-01T14:05:15+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/115327",
       "reply": null
     }
   ]
