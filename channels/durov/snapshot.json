@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-06T17:37:08.536Z",
+  "fetched_at": "2026-09-06T17:42:16.278Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,39 @@
     "subscriber_count": "10.9M"
   },
   "posts": [
+    {
+      "id": "durov/547",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/bohrbtPNy3xdftemdSh9294JgBgL-mPSjpDTX6cKSXLJJ_mE1IPZRus6Me0I0LB5cTjpFzvIBVP2INDrkIAhhQx8t3gto4thje0Nwmn710vfoPwA4G6yTFmr5uZh9f_ofgWPsCmQGBOKNjsKqahDbEJGYaLPBXOYe5bRGOJPbWzXQ1KVIZ3Ce08VhPCSrKquHxLdAfdUtEmOhWpuGolrS2NST6wxUILd894FQRNA4YXK93O_36FlrqBikgDdS9loqEFXMFSeBbHdZ89D2bwyXwz-p_b5Q15lU0KnpJYbYm-E4Gx8ljUK_sn-s2CoQiaD6U9UZN000zMoVBsTQFQ-Ig.jpg",
+      "author_photo_path": "channels/durov/media/f7a4c3ec6a75e36cfc23ca4e.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<tg-emoji emoji-id=\"5447458260200214425\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B8.png')\"><b>💸</b></i></tg-emoji> In just one month, Telegram has awarded over <b>$2,222,000</b> to some of the brightest minds on our planet.<br><br><tg-emoji emoji-id=\"5431456208487716895\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i></tg-emoji> This week alone we distributed <b>$222,000 </b>among the winners of our two latest competitions — the <a href=\"https://t.me/contest/460\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Design Contest</a> and the <a href=\"https://t.me/contest/462\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Digital Freedom Contest</a>.<br><br>On top of that, over the past month we awarded prizes <a href=\"https://t.me/transferintelligencecups/688\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">worth more</a> than <b>$2 million</b> to the winners of the 2026 International Olympiads in <a href=\"https://t.me/durov/542\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Informatics</a> and <a href=\"https://t.me/durov/537\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">AI</a>.<br><br>We're proud to support the best! <tg-emoji emoji-id=\"5467403804855016559\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')\"><b>🎁</b></i></tg-emoji>",
+      "plain_text": "💸 In just one month, Telegram has awarded over $2,222,000 to some of the brightest minds on our planet.\n\n🎨 This week alone we distributed $222,000 among the winners of our two latest competitions — the Design Contest and the Digital Freedom Contest.\n\nOn top of that, over the past month we awarded prizes worth more than $2 million to the winners of the 2026 International Olympiads in Informatics and AI.\n\nWe're proud to support the best! 🎁",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "261"
+        },
+        {
+          "emoji": "💎",
+          "count": "959"
+        },
+        {
+          "emoji": "💎",
+          "count": "790"
+        },
+        {
+          "emoji": "💎",
+          "count": "464"
+        }
+      ],
+      "views_label": "28.4K",
+      "posted_at": "2026-09-06T17:40:39+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/547",
+      "reply": null
+    },
     {
       "id": "durov/546",
       "author_name": "Pavel Durov",
@@ -43,14 +76,14 @@
         },
         {
           "emoji": "💎",
-          "count": "7.11K"
+          "count": "7.13K"
         },
         {
           "emoji": "💎",
-          "count": "5.81K"
+          "count": "5.82K"
         }
       ],
-      "views_label": "1.21M",
+      "views_label": "1.24M",
       "posted_at": "2026-08-31T16:30:15+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/546",
@@ -83,7 +116,7 @@
           "count": "8.92K"
         }
       ],
-      "views_label": "1.38M",
+      "views_label": "1.4M",
       "posted_at": "2026-08-30T09:10:19+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/545",
@@ -116,7 +149,7 @@
           "count": "10.5K"
         }
       ],
-      "views_label": "2.51M",
+      "views_label": "2.52M",
       "posted_at": "2026-08-24T21:21:51+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/544",
@@ -182,7 +215,7 @@
           "count": "11.2K"
         }
       ],
-      "views_label": "3.49M",
+      "views_label": "3.5M",
       "posted_at": "2026-08-15T13:29:20+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/542",
@@ -449,7 +482,7 @@
           "count": "45.1K"
         }
       ],
-      "views_label": "5.21M",
+      "views_label": "5.22M",
       "posted_at": "2026-07-30T16:52:37+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/535",
@@ -482,7 +515,7 @@
           "count": "21.5K"
         }
       ],
-      "views_label": "6.12M",
+      "views_label": "6.13M",
       "posted_at": "2026-07-23T15:15:33+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/534",
@@ -560,7 +593,7 @@
           "count": "8.94K"
         }
       ],
-      "views_label": "6.15M",
+      "views_label": "6.16M",
       "posted_at": "2026-07-19T21:45:01+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/532",
