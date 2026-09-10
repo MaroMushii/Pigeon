@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-10T17:47:38.343Z",
+  "fetched_at": "2026-09-10T17:52:42.065Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,34 @@
     "subscriber_count": "133K"
   },
   "posts": [
+    {
+      "id": "farsivoa/230111",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/TDaXzD1SqP9xTStg_G7suA7hMViJjPqVwnwwTLB_DUGQC4NC7-w5Wkwmk8gDPuAQByx0poZj8S94eoRffmHeRT9xrcGPzWu7C0ZMDau7-qcaqBWq40PRp5WjKogQsNBDZgrsGt_Ga26l0r3qqQ_yjcUiyBiP3YfLQ0a3HSBOFP7tHYTn8zp6o6L0n-5FRDcf0yBsa-sXpdSaMW5dbmZ7VUJUET5rQgZDA0jF59JPxCtDBv293jMYV7TZtxqTClTcuEc9cEhhDdSAYJALkWzllcM_PdRn8aHMK28mulEjt9zDtHt6hUIn5HC55jszDZm5-oSBSiobQTMHWfcmcwf0rw.jpg",
+      "author_photo_path": "channels/farsivoa/media/64e7ce62c0394704c02414ea.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "شورای حکام آژانس بین‌المللی انرژی اتمی با تصویب قطعنامه‌ای، پرونده هسته‌ای جمهوری اسلامی را به شورای امنیت سازمان ملل گزارش داد. این قطعنامه با ۲۳ رأی موافق تصویب شد و اتحادیه اروپا و شماری از کشورهای همسو نیز از آن حمایت کردند.",
+      "plain_text": "شورای حکام آژانس بین‌المللی انرژی اتمی با تصویب قطعنامه‌ای، پرونده هسته‌ای جمهوری اسلامی را به شورای امنیت سازمان ملل گزارش داد. این قطعنامه با ۲۳ رأی موافق تصویب شد و اتحادیه اروپا و شماری از کشورهای همسو نیز از آن حمایت کردند.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/230111",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/D0_hdJ-xGgE-F-JTCl_wgeMAcEt6Lip8AcUvfjNQRmiaZli2EbjfVTgwqafHi2w8O1tBvG181t5uMfYzfoyTbqN-DpOqR-YPaM2dHirSj2by6Vab4vH3ITViwSO4vpkzfo6SwahlBAUsU9xPkN4W7sJK2l8QaVV75c_QZJO5oNXCIAur90t88xgBtL1rzGHjG2kQ8V690EJapgfXIa8YWI4B5_MTvzi_YcRPpjTA1c5StPLRx_ZMqZljGIdex05EVl3cr1dgEMAFnaLWw-6Pv_NlPP5G3yIJzoU4s7RN3seV923HzDMq22yWmwzgkvOlZdMiLdD2WFXQCwD-dsq0VQ",
+          "thumbnail_path": "channels/farsivoa/media/e0fc8fcf3fc17062950bdd54.jpg",
+          "thumbnail_sha256": "04fb003a2054b84797236ca6781a5f2d532c5858d60cf2bfffe3ba5516ca3bf3",
+          "duration_label": "3:05",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "421",
+      "posted_at": "2026-09-10T17:47:47+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/230111",
+      "reply": null
+    },
     {
       "id": "farsivoa/230110",
       "author_name": "Farsi VOA",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "453",
+      "views_label": "744",
       "posted_at": "2026-09-10T17:40:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230110",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "961",
+      "views_label": "1.16K",
       "posted_at": "2026-09-10T17:32:41+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230109",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.34K",
+      "views_label": "1.57K",
       "posted_at": "2026-09-10T17:24:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230108",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.56K",
+      "views_label": "1.76K",
       "posted_at": "2026-09-10T17:16:41+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230107",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.88K",
+      "views_label": "2.01K",
       "posted_at": "2026-09-10T17:05:15+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230106",
@@ -161,7 +189,7 @@
       "plain_text": "🔺شورای امنیت به درخواست آمریکا و با حمایت بریتانیا تحریم‌های جمهوری اسلامی را در دستور کار قرار داد\n\n▪️شورای امنیت سازمان ملل متحد روز پنجشنبه ۱۹ شهریور با ۱۱ رای موافق در برابر دو رای مخالف روسیه و چین، دستور کار نشست مربوط به تحریم‌های جمهوری اسلامی را تصویب کرد؛ اقدامی که پس از درخواست روسیه برای رای‌گیری رویه‌ای با هدف جلوگیری از برگزاری نشست انجام شد. پاکستان و سومالی نیز رای ممتنع دادند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/un-security-council-iran-sanctions-agenda-russia-china/8196515.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.95K",
+      "views_label": "2.07K",
       "posted_at": "2026-09-10T17:01:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230105",
@@ -177,7 +205,7 @@
       "plain_text": "🔺سنتکام: آمریکا تاکنون ۹۶ کشتی تجاری را برای اجرای کامل محاصره دریایی جمهوری اسلامی تغییر مسیر داده است\n\n▪️فرماندهی مرکزی ایالات متحده «سنتکام» روز پنجشنبه ۱۹ شهریور اعلام کرد نیروهای آمریکایی تاکنون ۹۶ کشتی تجاری را برای تضمین اجرای کامل محاصره دریایی جمهوری اسلامی تغییر مسیر داده‌اند و همزمان اجازه عبور بیش از ۵۰ کشتی حامل کمک‌های بشردوستانه را داده‌اند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/centcom-iran-naval-blockade-ninety-six-commercial-ships/8196514.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.79K",
+      "views_label": "1.92K",
       "posted_at": "2026-09-10T16:57:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230104",
@@ -205,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.75K",
+      "views_label": "1.85K",
       "posted_at": "2026-09-10T16:52:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230103",
@@ -233,7 +261,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.21K",
+      "views_label": "2.27K",
       "posted_at": "2026-09-10T16:34:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230102",
@@ -261,7 +289,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.01K",
+      "views_label": "2.1K",
       "posted_at": "2026-09-10T16:30:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230101",
@@ -289,7 +317,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.17K",
+      "views_label": "2.27K",
       "posted_at": "2026-09-10T16:25:37+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230100",
@@ -317,7 +345,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.09K",
+      "views_label": "2.15K",
       "posted_at": "2026-09-10T16:18:11+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230099",
@@ -333,7 +361,7 @@
       "plain_text": "🔺مقام سازمان ملل: گرمای جهنمی تابستان فشار تورم در اروپا را تشدید کرده است\n\n▪️سیمون استیل، دبیر اجرایی کنوانسیون تغییرات اقلیمی سازمان ملل متحد، می‌گوید موج‌های گرمای شدید تابستان امسال فشار تورم در اروپا را افزایش داده است، و وابستگی این قاره به سوخت‌های فسیلی می‌تواند آن را در زمستان پیش رو با بحران دیگری در زمینه هزینه انرژی روبه‌رو کند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/europe-extreme-heat-inflation-winter-energy-crisis/8196498.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.42K",
+      "views_label": "2.48K",
       "posted_at": "2026-09-10T16:07:01+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230098",
@@ -361,7 +389,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.54K",
+      "views_label": "2.6K",
       "posted_at": "2026-09-10T15:52:15+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230097",
@@ -377,7 +405,7 @@
       "plain_text": "🔺آمریکا، بریتانیا و نروژ عملیات مخفی روسیه برای اخلال در کابل‌های زیردریایی را خنثی کردند\n\n▪️آمریکا، بریتانیا و نروژ در یک عملیات مشترک، فعالیت مخفیانه زیردریایی‌های روسیه در نزدیکی مجمع‌الجزایر سوالبارد در قطب شمال را شناسایی و متوقف کردند. به گفته مقام‌های غربی، این عملیات روسیه برای آزمایش فناوری جدیدی با هدف از کار انداختن کابل‌های حیاتی زیردریایی در صورت درگیری با ناتو طراحی شده بود.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/us-nato-russia-subsea-cable-sabotage-svalbard/8196489.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.71K",
+      "views_label": "2.77K",
       "posted_at": "2026-09-10T15:49:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230096",
@@ -405,7 +433,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.9K",
+      "views_label": "2.93K",
       "posted_at": "2026-09-10T15:29:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230095",
@@ -433,7 +461,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.12K",
+      "views_label": "3.19K",
       "posted_at": "2026-09-10T15:17:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230094",
@@ -461,7 +489,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.3K",
+      "views_label": "3.33K",
       "posted_at": "2026-09-10T15:01:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230093",
@@ -477,7 +505,7 @@
       "plain_text": "🔺سنگاپور درباره افزایش تهدیدهای مرتبط با سپاه پاسداران و شبکه نیروهای نیابتی جمهوری اسلامی هشدار داد\n\n▪️اداره امنیت داخلی سنگاپور در تازه‌ترین ارزیابی خود از تهدیدهای تروریستی هشدار داد فعالیت‌های سپاه پاسداران و شبکه گروه‌های نیابتی جمهوری اسلامی، خطر حملات را فراتر از خاورمیانه افزایش داده است، و منافع آمریکا و اسرائیل در سنگاپور نیز می‌تواند در معرض تهدید قرار گیرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-irgc-proxies-us-interests-singapore-terror-threat/8196461.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.05K",
+      "views_label": "3.08K",
       "posted_at": "2026-09-10T14:52:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230092",
@@ -2496,34 +2524,6 @@
       "posted_at": "2026-09-09T16:56:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230005",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/230004",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/L5ltz0skwQftoRk-JMy8BVd_StCQ-8yol6ejnoK008qNldFTJa1kHhbxnD15uFn-hUKhBDMY04S87_zVA5fMXsHj_TRCTKj5ebFpMDm8htOpUVfyKS6TwHsSa2Tjot1qWDrI3ffl_by8tYzAtf-s3r-nmRoS8JHPBvwQOlrxMT3fhxAozP3_v0d7Dc5lQlcUD35zK1o7UEXCzup3cyj6F9ZkuOL_ZNfPZ-m_m1-Il2DUb7nZxuEo_2DDqtFOZuQ9KD8C1C_XR9gU_d8iwmpVdR4TxGF6s-H_UDhFPzTFxoZRsjVslbZm6gwJVAQLu19sW5g-qd8iqjLXfzwx94dKNA.jpg",
-      "author_photo_path": "channels/farsivoa/media/c9173d3e4bb8c93e15b166a2.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<b>هشدار: حاوی محتوای مربوط به خودکشی<br><br>هیچ‌چیز مهم‌تر از جان انسان نیست. اگر به خودکشی فکر می‌کنید، برای کمک‌گرفتن با این شماره‌های ویژه تماس بگیرید:<br><br>در ایران: اورژانس اجتماعی ۱۲۳، صدای مشاور ۱۴۸۰، یا اورژانس روان‌پزشکی تهران ۴۴۵۰۸۲۰۰<br><br>در آمریکا: مرکز پیشگیری از خودکشی ۱۸۰۰۲۷۳۸۲۵۵، یا خط ملی پیشگیری از بحران و خودکشی ۹۸۸<br><br>در کانادا: شماره‌ ۹۱۱ یا ۱۸۳۳۴۵۶۴۵۶۶<br><br>در بریتانیا: ۱۱۶۱۲</b><br><br><b>و در افغانستان: ۱۱۹</b><br><br>کاملیا سجادیان، مادر دادخواه محمدحسین ترکمان، از کشته‌شدگان اعتراضات ۱۴۰۱، پیامی ویدیویی در حمایت از خانواده‌های دادخواه منتشر کرد و گفت: «رسالت ما بازماندگان، زنده نگه داشتن نام و یاد جاویدنامان است. نباید اجازه بدهیم دشمن از نبود ما خوشحال شود.»<br><br>براساس خبرهای منتشر شده دانیال کریمی، پدر دادخواه امیرمحمد کریمی، ۱۵ شهریور و آیدا حیدری، دختر ۲۵ ساله و نامزد ابوالفضل سلیمانی الموتی، از جان‌باختگان اعتراضات دی‌ ۱۴۰۴، ۱۲ شهریور به زندگی خود پایان دادند.",
-      "plain_text": "هشدار: حاوی محتوای مربوط به خودکشی\n\nهیچ‌چیز مهم‌تر از جان انسان نیست. اگر به خودکشی فکر می‌کنید، برای کمک‌گرفتن با این شماره‌های ویژه تماس بگیرید:\n\nدر ایران: اورژانس اجتماعی ۱۲۳، صدای مشاور ۱۴۸۰، یا اورژانس روان‌پزشکی تهران ۴۴۵۰۸۲۰۰\n\nدر آمریکا: مرکز پیشگیری از خودکشی ۱۸۰۰۲۷۳۸۲۵۵، یا خط ملی پیشگیری از بحران و خودکشی ۹۸۸\n\nدر کانادا: شماره‌ ۹۱۱ یا ۱۸۳۳۴۵۶۴۵۶۶\n\nدر بریتانیا: ۱۱۶۱۲\n\nو در افغانستان: ۱۱۹\n\nکاملیا سجادیان، مادر دادخواه محمدحسین ترکمان، از کشته‌شدگان اعتراضات ۱۴۰۱، پیامی ویدیویی در حمایت از خانواده‌های دادخواه منتشر کرد و گفت: «رسالت ما بازماندگان، زنده نگه داشتن نام و یاد جاویدنامان است. نباید اجازه بدهیم دشمن از نبود ما خوشحال شود.»\n\nبراساس خبرهای منتشر شده دانیال کریمی، پدر دادخواه امیرمحمد کریمی، ۱۵ شهریور و آیدا حیدری، دختر ۲۵ ساله و نامزد ابوالفضل سلیمانی الموتی، از جان‌باختگان اعتراضات دی‌ ۱۴۰۴، ۱۲ شهریور به زندگی خود پایان دادند.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/230004",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/ZKztaWiKMkTJU1gqExA3VQP2XKb_VJeg9eiHuuJuAoV73LmWxvY0AfdIBbrapSO_4KOc5qEEC_I8f_wKQifa-J5QWzXUia2ipytqKf8hUPoSjbSTQLj9y_yyRcxH3tEorn0epYx98Bgh5EFI5WRN4ZlP5_pBFUr_yV_XRbGxahmsPWBztXxEoMthLLYtSfYeQ3KFM6yQuH0MrOH9JQcugRKTAWoDy4nh3LCVDqPOaRI5lhsnWWpNOOJ3fuPNJM_7z2yE5ti6YBDovFlG72tBsmiRIEgatpt5XBDUUlThBwwwMKl871liPrYABobPNyjSusksEJi_mci1Pes8U0_kzg",
-          "thumbnail_path": "channels/farsivoa/media/0278969f80350ae0e3261fbf.jpg",
-          "thumbnail_sha256": "23129ca09de56464d939fb0b42ffb5956f28de6441a2e315c1b4425bb4001def",
-          "duration_label": "2:42",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.27K",
-      "posted_at": "2026-09-09T16:54:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/230004",
       "reply": null
     }
   ]
