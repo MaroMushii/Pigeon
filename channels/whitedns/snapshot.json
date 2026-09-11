@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-11T09:02:30.955Z",
+  "fetched_at": "2026-09-11T09:07:26.360Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -12,18 +12,63 @@
   },
   "posts": [
     {
+      "id": "whitedns/1765",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Eb5PBVsYTb8LzkWifHviKjeSafdq2HM1HZQ4DzvxbFK6HRywNjlYjCyldBUqKVmK3u6TQP0qI8HYF-zQ30FCD1ObOpY8miuedrq-bZTLNyaU3ytnly_mP5NUIb6Q2O6AQPZN3m3behGqIy0oI5qfeAfNnpT_4NiRrOF1bzyGBtWceIOh27mUZX_MVMEaH9EZM4lDp75JQ93Y9il0I_lk6ZGcGNgcR9kVOb-3TRdZo2KlZgPJGs6rvSS2C-tgVASn4daW7LnSIeQ4244ezAoI6jbwcnhMbKDmRVP1I8M2Ro9oQiSIM-7HDcCvu1ZsMcgXjuPq9qwy28-6bnvXzZ9h2A.jpg",
+      "author_photo_path": "channels/whitedns/media/eea73b2e8ecc71e69af38215.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "بالاخره تصمیم گرفتیم برای WhiteDNS یه Patreon راه بندازم.<br><br>حدود ۷ ماهه که این پروژه رو با هزینهٔ شخصی جلو می‌بریم. توی این مدت بیش از ۱۰۰ سرور ساختیم و هزینه‌شون رو خودمون دادیم. از Conduit و DNSTT شروع کردیم، WhiteDNS رو ساختیم و در روزهای قطعی اینترنت هم با MasterDNS سرورهای بیشتری بالا آوردیم.<br><br>این هزینه‌ها صرفا جنبه مالی ندارند. مهمتر اینکه با استفاده از همین زیرساخت‌، سرویس‌های رایگان و با کیفیت بهتری برای افراد بیشتری ایجاد کردیم.<br><br>امروز WhiteDNS حدود ۱۰ هزار کاربر فعال روزانه داره که در مجموع، هر ماه نزدیک ۱ میلیون اتصال به سرویس‌هامون ثبت می‌کنن. همه سرویس‌ها کاملاً رایگان‌اند.<br><br>بعد از راه‌اندازی سرورهای اختصاصی داخل اپ، فهمیدیم وقتی زیرساخت دست خودمون باشه، می‌تونیم کیفیت سرویس رو خیلی بهتر کنیم. الان حدود ۱۵ سرور رو هر چهار ساعت یک‌بار روتیت می‌کنیم تا احتمال فیلترشدن کمتر و اتصال‌ها پایدارتر بشن.<br><br>این مسیر با کمک تیم ما در ایران جلو رفته؛ از تست و پیدا کردن مشکل تا پشتیبانی از کاربران.<br><br>برای ما Patreon کمک می‌کنه این کار رو پایدارتر ادامه بدیم: سرورهای بیشتری داشته باشیم، کاربران بیشتری رو پوشش بدیم و روی WhiteDNS و محصولات بعدی‌مون وقت بیشتری بذاریم.<br><br>اگر دوست دارید از اینترنت آزاد حمایت کنید، خوشحال می‌شیم کنارمون باشید:<br><a href=\"https://www.patreon.com/cw/WhiteDNS\" target=\"_blank\" rel=\"noopener\">https://www.patreon.com/cw/WhiteDNS</a>",
+      "plain_text": "بالاخره تصمیم گرفتیم برای WhiteDNS یه Patreon راه بندازم.\n\nحدود ۷ ماهه که این پروژه رو با هزینهٔ شخصی جلو می‌بریم. توی این مدت بیش از ۱۰۰ سرور ساختیم و هزینه‌شون رو خودمون دادیم. از Conduit و DNSTT شروع کردیم، WhiteDNS رو ساختیم و در روزهای قطعی اینترنت هم با MasterDNS سرورهای بیشتری بالا آوردیم.\n\nاین هزینه‌ها صرفا جنبه مالی ندارند. مهمتر اینکه با استفاده از همین زیرساخت‌، سرویس‌های رایگان و با کیفیت بهتری برای افراد بیشتری ایجاد کردیم.\n\nامروز WhiteDNS حدود ۱۰ هزار کاربر فعال روزانه داره که در مجموع، هر ماه نزدیک ۱ میلیون اتصال به سرویس‌هامون ثبت می‌کنن. همه سرویس‌ها کاملاً رایگان‌اند.\n\nبعد از راه‌اندازی سرورهای اختصاصی داخل اپ، فهمیدیم وقتی زیرساخت دست خودمون باشه، می‌تونیم کیفیت سرویس رو خیلی بهتر کنیم. الان حدود ۱۵ سرور رو هر چهار ساعت یک‌بار روتیت می‌کنیم تا احتمال فیلترشدن کمتر و اتصال‌ها پایدارتر بشن.\n\nاین مسیر با کمک تیم ما در ایران جلو رفته؛ از تست و پیدا کردن مشکل تا پشتیبانی از کاربران.\n\nبرای ما Patreon کمک می‌کنه این کار رو پایدارتر ادامه بدیم: سرورهای بیشتری داشته باشیم، کاربران بیشتری رو پوشش بدیم و روی WhiteDNS و محصولات بعدی‌مون وقت بیشتری بذاریم.\n\nاگر دوست دارید از اینترنت آزاد حمایت کنید، خوشحال می‌شیم کنارمون باشید:\nhttps://www.patreon.com/cw/WhiteDNS",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1765",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/ZPiQiJX6XYspvLqZSk1LwdFhSDWAdiVnojXwq_w-6HuB1c18jBF-fFdpksiqleOM1GQogeEoTG4rWSpEptwmr-p8-jrr675dK-AyYmVbIEsa5kAkNUDz1zhRstsXC5jzlYyGJtddyP9TQixeniaTArhZ-H1DiNLuq7vifo4T6y5M5uCqHPF7DFpMGzt_W7uMd8bgi91quCtJpEQ9uwBgmn5sutG1vRK51YrVATDfHWqeCJ2_4KV95hlhmKQrZ2C6n28rykX87g3359pkOpPmdezFmXbJMjX9tz6CLa92NCu5Z2tztnT2I0wHnAdoRdIb9eZ_80F_-lyWQrvphhzL2g.jpg",
+          "thumbnail_path": "channels/whitedns/media/6e8d46a8bcba0ddba44cf575.jpg",
+          "thumbnail_sha256": "cbe1502867bb73de5d813f6eb3076a40190da482db3274e2ff204e83fb00d61f",
+          "duration_label": null,
+          "aspect_ratio": 2.5
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "33"
+        },
+        {
+          "emoji": "🔥",
+          "count": "5"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "3"
+        },
+        {
+          "emoji": "👏",
+          "count": "2"
+        }
+      ],
+      "views_label": "660",
+      "posted_at": "2026-09-11T09:03:04+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1765",
+      "reply": null
+    },
+    {
       "id": "whitedns/1762",
       "author_name": "White DNS",
       "author_photo_url": "https://cdn4.telesco.pe/file/Eb5PBVsYTb8LzkWifHviKjeSafdq2HM1HZQ4DzvxbFK6HRywNjlYjCyldBUqKVmK3u6TQP0qI8HYF-zQ30FCD1ObOpY8miuedrq-bZTLNyaU3ytnly_mP5NUIb6Q2O6AQPZN3m3behGqIy0oI5qfeAfNnpT_4NiRrOF1bzyGBtWceIOh27mUZX_MVMEaH9EZM4lDp75JQ93Y9il0I_lk6ZGcGNgcR9kVOb-3TRdZo2KlZgPJGs6rvSS2C-tgVASn4daW7LnSIeQ4244ezAoI6jbwcnhMbKDmRVP1I8M2Ro9oQiSIM-7HDcCvu1ZsMcgXjuPq9qwy28-6bnvXzZ9h2A.jpg",
       "author_photo_path": "channels/whitedns/media/eea73b2e8ecc71e69af38215.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> نسخهٔ آزمایشی <b>WhiteAesther mobile 1.5.0 </b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><b> این یک نسخهٔ آزمایشی است و ممکن است باگ داشته باشد. برای همین داخل برنامه اعلان به‌روزرسانی برایش نمی‌آید و فقط از لینک پایین نصب می‌شود. اگر به اتصال پایدار نیاز دارید، فعلاً روی نسخهٔ فعلی بمانید.</b><br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> چه چیزی جدید است؟<br><br>۱. زنجیره کردن دو حامل<br>حالا می‌توانید دو حامل از بین اتر، سایفون و تور را پشت سر هم وصل کنید، به هر ترتیبی که بخواهید. حامل اول چیزی است که شبکهٔ شما (اپراتور) می‌بیند و حامل دوم چیزی است که سایت‌ها و اینترنت می‌بینند.<br><br>۲. سایفون بهتر<br>سایفون حالا به سرورهای بیشتری دسترسی دارد (از جمله سرورهای داوطلبانهٔ Conduit) و زمان بیشتری برای پیدا کردن راه خروج می‌گذارد؛ پس روی شبکه‌هایی که قبلاً وصل نمی‌شد شانس بیشتری دارد.<br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> چطور استفاده کنم؟<br><br>۱<br><blockquote expandable=\"\">. به تب «مسیرها» بروید و در صفحهٔ «چطور وصل می‌شود» پایین بیایید تا به کارت «حامل» برسید.<br>۲. در بخش «اول — چیزی که شبکه شما می‌بیند» حامل اول را انتخاب کنید.<br>۳. در بخش «بعد — چیزی که اینترنت می‌بیند» حامل دوم را انتخاب کنید. اگر فقط یک حامل می‌خواهید، «هیچ‌چیز دیگر» را بزنید.<br>۴. با دکمهٔ «ترتیب را جابه‌جا کن» جای دو حامل با یک لمس عوض می‌شود.<br>۵. «پوشش» باید روی «کل دستگاه» باشد؛ سایفون و تور در حالت «فقط پروکسی» اجرا نمی‌شوند.<br>۶. به «خانه» برگردید و وصل شوید. آنجا مسیر کامل نوشته می‌شود، مثلاً «متصل از طریق سایفون، بعد اتر»، و وضعیت هر حامل جداگانه نشان داده می‌شود.<br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9480.png')\"><b>🔀</b></i> کدام ترکیب برای چه کاری؟<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> اتر ← سایفون<br>اتر وصل می‌شود ولی می‌خواهید سایت‌ها آی‌پی خارجی سایفون را ببینند، نه کلودفلر. کشور خروجی را هم می‌توانید در کارت «کشور خروجی» انتخاب کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> اتر ← تور<br>بیشترین حریم خصوصی، ولی کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> سایفون ← اتر<br>وقتی اتر روی شبکهٔ شما مستقیم وصل نمی‌شود: سایفون راه را باز می‌کند و اتر از داخل آن بیرون می‌رود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> سایفون ← تور<br>وقتی تور مستقیم بسته است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> تور ← اتر / تور ← سایفون<br>برای شبکه‌هایی که فقط تور (با پل) از آن‌ها بیرون می‌رود. این دو ترکیب کمتر از بقیه آزمایش شده‌اند و نتیجهٔ شما برای ما خیلی ارزشمند است.<br><br>اگر یک ترتیب وصل نشد، «ترتیب را جابه‌جا کن» را بزنید و دوباره امتحان کنید. اینکه کدام ترتیب جواب بدهد به شبکهٔ شما بستگی دارد.<br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> نکته‌ها<br><br>• زنجیره از یک حامل تنها کندتر است. اگر یک حامل به‌تنهایی برایتان کار می‌کند، همان را نگه دارید.<br>• وقتی اتر حامل دوم است، خودکار از H2 استفاده می‌کند و انتخاب پروتکل اثری ندارد.<br>• وقتی تور حامل دوم است، اسنوفلیک کار نمی‌کند؛ تور مستقیم، با پل obfs4 یا با پل‌هایی که به شما داده شده وصل می‌شود.<br>• اولین اتصال سایفون ممکن است چند دقیقه طول بکشد؛ صبر کنید.<br>• اگر برای سایفون کشوری انتخاب کرده‌اید و وصل نمی‌شود، «بهترین گزینهٔ موجود» را انتخاب کنید.<br>• اگر در تنظیمات اندروید «VPN همیشه روشن» همراه با «مسدود کردن اتصال‌های بدون VPN» روشن است، ممکن است سایفون و تور وصل نشوند؛ خاموشش کنید.</blockquote><br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i> گزارش باگ<br><br>اگر به مشکلی خوردید: تنظیمات ← تشخیص ← «ارسال برای توسعه‌دهنده». لطفاً بنویسید کدام ترکیب را امتحان کردید و روی چه اینترنتی بودید (همراه اول، ایرانسل، وای‌فای خانگی و…).<br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> دانلود<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.5.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.5.0</a><br><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji>در صورت امکان ورژن قبلی را کاملا uninstall کنید و ورژن جدید را نصب کنید تا کاملا بروز شود <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>• بیشتر گوشی‌ها: WhiteAestherMobile-1.5.0-arm64-v8a.apk<br>• اگر مطمئن نیستید: WhiteAestherMobile-1.5.0-universal.apk<br><br>روی نسخهٔ قبلی نصب می‌شود و تنظیماتتان حفظ می‌شود. برای برگشتن به نسخهٔ پایدار (1.4.2) باید اول این نسخه را حذف کنید.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🧪 نسخهٔ آزمایشی WhiteAesther mobile 1.5.0\n\n⚠️⚠️⚠️⚠️ این یک نسخهٔ آزمایشی است و ممکن است باگ داشته باشد. برای همین داخل برنامه اعلان به‌روزرسانی برایش نمی‌آید و فقط از لینک پایین نصب می‌شود. اگر به اتصال پایدار نیاز دارید، فعلاً روی نسخهٔ فعلی بمانید.\n\n━━━━━━━━━━\n✨ چه چیزی جدید است؟\n\n۱. زنجیره کردن دو حامل\nحالا می‌توانید دو حامل از بین اتر، سایفون و تور را پشت سر هم وصل کنید، به هر ترتیبی که بخواهید. حامل اول چیزی است که شبکهٔ شما (اپراتور) می‌بیند و حامل دوم چیزی است که سایت‌ها و اینترنت می‌بینند.\n\n۲. سایفون بهتر\nسایفون حالا به سرورهای بیشتری دسترسی دارد (از جمله سرورهای داوطلبانهٔ Conduit) و زمان بیشتری برای پیدا کردن راه خروج می‌گذارد؛ پس روی شبکه‌هایی که قبلاً وصل نمی‌شد شانس بیشتری دارد.\n\n━━━━━━━━━━\n📱 چطور استفاده کنم؟\n\n۱\n. به تب «مسیرها» بروید و در صفحهٔ «چطور وصل می‌شود» پایین بیایید تا به کارت «حامل» برسید.\n۲. در بخش «اول — چیزی که شبکه شما می‌بیند» حامل اول را انتخاب کنید.\n۳. در بخش «بعد — چیزی که اینترنت می‌بیند» حامل دوم را انتخاب کنید. اگر فقط یک حامل می‌خواهید، «هیچ‌چیز دیگر» را بزنید.\n۴. با دکمهٔ «ترتیب را جابه‌جا کن» جای دو حامل با یک لمس عوض می‌شود.\n۵. «پوشش» باید روی «کل دستگاه» باشد؛ سایفون و تور در حالت «فقط پروکسی» اجرا نمی‌شوند.\n۶. به «خانه» برگردید و وصل شوید. آنجا مسیر کامل نوشته می‌شود، مثلاً «متصل از طریق سایفون، بعد اتر»، و وضعیت هر حامل جداگانه نشان داده می‌شود.\n\n━━━━━━━━━━\n🔀 کدام ترکیب برای چه کاری؟\n\n🔹 اتر ← سایفون\nاتر وصل می‌شود ولی می‌خواهید سایت‌ها آی‌پی خارجی سایفون را ببینند، نه کلودفلر. کشور خروجی را هم می‌توانید در کارت «کشور خروجی» انتخاب کنید.\n\n🔹 اتر ← تور\nبیشترین حریم خصوصی، ولی کند.\n\n🔹 سایفون ← اتر\nوقتی اتر روی شبکهٔ شما مستقیم وصل نمی‌شود: سایفون راه را باز می‌کند و اتر از داخل آن بیرون می‌رود.\n\n🔹 سایفون ← تور\nوقتی تور مستقیم بسته است.\n\n🔹 تور ← اتر / تور ← سایفون\nبرای شبکه‌هایی که فقط تور (با پل) از آن‌ها بیرون می‌رود. این دو ترکیب کمتر از بقیه آزمایش شده‌اند و نتیجهٔ شما برای ما خیلی ارزشمند است.\n\nاگر یک ترتیب وصل نشد، «ترتیب را جابه‌جا کن» را بزنید و دوباره امتحان کنید. اینکه کدام ترتیب جواب بدهد به شبکهٔ شما بستگی دارد.\n\n━━━━━━━━━━\n💡 نکته‌ها\n\n• زنجیره از یک حامل تنها کندتر است. اگر یک حامل به‌تنهایی برایتان کار می‌کند، همان را نگه دارید.\n• وقتی اتر حامل دوم است، خودکار از H2 استفاده می‌کند و انتخاب پروتکل اثری ندارد.\n• وقتی تور حامل دوم است، اسنوفلیک کار نمی‌کند؛ تور مستقیم، با پل obfs4 یا با پل‌هایی که به شما داده شده وصل می‌شود.\n• اولین اتصال سایفون ممکن است چند دقیقه طول بکشد؛ صبر کنید.\n• اگر برای سایفون کشوری انتخاب کرده‌اید و وصل نمی‌شود، «بهترین گزینهٔ موجود» را انتخاب کنید.\n• اگر در تنظیمات اندروید «VPN همیشه روشن» همراه با «مسدود کردن اتصال‌های بدون VPN» روشن است، ممکن است سایفون و تور وصل نشوند؛ خاموشش کنید.\n\n━━━━━━━━━━\n🐞 گزارش باگ\n\nاگر به مشکلی خوردید: تنظیمات ← تشخیص ← «ارسال برای توسعه‌دهنده». لطفاً بنویسید کدام ترکیب را امتحان کردید و روی چه اینترنتی بودید (همراه اول، ایرانسل، وای‌فای خانگی و…).\n\n━━━━━━━━━━\n⬇️ دانلود\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.5.0\n⚠️در صورت امکان ورژن قبلی را کاملا uninstall کنید و ورژن جدید را نصب کنید تا کاملا بروز شود ⚠️\n\n• بیشتر گوشی‌ها: WhiteAestherMobile-1.5.0-arm64-v8a.apk\n• اگر مطمئن نیستید: WhiteAestherMobile-1.5.0-universal.apk\n\nروی نسخهٔ قبلی نصب می‌شود و تنظیماتتان حفظ می‌شود. برای برگشتن به نسخهٔ پایدار (1.4.2) باید اول این نسخه را حذف کنید.\n@whitedns",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> نسخهٔ آزمایشی <b>WhiteAesther mobile 1.5.0 </b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><b> این یک نسخهٔ آزمایشی است و ممکن است باگ داشته باشد. برای همین داخل برنامه اعلان به‌روزرسانی برایش نمی‌آید و فقط از لینک پایین نصب می‌شود. اگر به اتصال پایدار نیاز دارید، فعلاً روی نسخهٔ فعلی بمانید.</b><br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> چه چیزی جدید است؟<br><br>۱<br><blockquote expandable=\"\">. زنجیره کردن دو حامل<br>حالا می‌توانید دو حامل از بین اتر، سایفون و تور را پشت سر هم وصل کنید، به هر ترتیبی که بخواهید. حامل اول چیزی است که شبکهٔ شما (اپراتور) می‌بیند و حامل دوم چیزی است که سایت‌ها و اینترنت می‌بینند.<br><br>۲. سایفون بهتر<br>سایفون حالا به سرورهای بیشتری دسترسی دارد (از جمله سرورهای داوطلبانهٔ Conduit) و زمان بیشتری برای پیدا کردن راه خروج می‌گذارد؛ پس روی شبکه‌هایی که قبلاً وصل نمی‌شد شانس بیشتری دارد.</blockquote><br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> چطور استفاده کنم؟<br><br>۱<br><blockquote expandable=\"\">. به تب «مسیرها» بروید و در صفحهٔ «چطور وصل می‌شود» پایین بیایید تا به کارت «حامل» برسید.<br>۲. در بخش «اول — چیزی که شبکه شما می‌بیند» حامل اول را انتخاب کنید.<br>۳. در بخش «بعد — چیزی که اینترنت می‌بیند» حامل دوم را انتخاب کنید. اگر فقط یک حامل می‌خواهید، «هیچ‌چیز دیگر» را بزنید.<br>۴. با دکمهٔ «ترتیب را جابه‌جا کن» جای دو حامل با یک لمس عوض می‌شود.<br>۵. «پوشش» باید روی «کل دستگاه» باشد؛ سایفون و تور در حالت «فقط پروکسی» اجرا نمی‌شوند.<br>۶. به «خانه» برگردید و وصل شوید. آنجا مسیر کامل نوشته می‌شود، مثلاً «متصل از طریق سایفون، بعد اتر»، و وضعیت هر حامل جداگانه نشان داده می‌شود.<br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9480.png')\"><b>🔀</b></i> کدام ترکیب برای چه کاری؟<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> اتر ← سایفون<br>اتر وصل می‌شود ولی می‌خواهید سایت‌ها آی‌پی خارجی سایفون را ببینند، نه کلودفلر. کشور خروجی را هم می‌توانید در کارت «کشور خروجی» انتخاب کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> اتر ← تور<br>بیشترین حریم خصوصی، ولی کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> سایفون ← اتر<br>وقتی اتر روی شبکهٔ شما مستقیم وصل نمی‌شود: سایفون راه را باز می‌کند و اتر از داخل آن بیرون می‌رود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> سایفون ← تور<br>وقتی تور مستقیم بسته است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> تور ← اتر / تور ← سایفون<br>برای شبکه‌هایی که فقط تور (با پل) از آن‌ها بیرون می‌رود. این دو ترکیب کمتر از بقیه آزمایش شده‌اند و نتیجهٔ شما برای ما خیلی ارزشمند است.<br><br>اگر یک ترتیب وصل نشد، «ترتیب را جابه‌جا کن» را بزنید و دوباره امتحان کنید. اینکه کدام ترتیب جواب بدهد به شبکهٔ شما بستگی دارد.<br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> نکته‌ها<br><br>• زنجیره از یک حامل تنها کندتر است. اگر یک حامل به‌تنهایی برایتان کار می‌کند، همان را نگه دارید.<br>• وقتی اتر حامل دوم است، خودکار از H2 استفاده می‌کند و انتخاب پروتکل اثری ندارد.<br>• وقتی تور حامل دوم است، اسنوفلیک کار نمی‌کند؛ تور مستقیم، با پل obfs4 یا با پل‌هایی که به شما داده شده وصل می‌شود.<br>• اولین اتصال سایفون ممکن است چند دقیقه طول بکشد؛ صبر کنید.<br>• اگر برای سایفون کشوری انتخاب کرده‌اید و وصل نمی‌شود، «بهترین گزینهٔ موجود» را انتخاب کنید.<br>• اگر در تنظیمات اندروید «VPN همیشه روشن» همراه با «مسدود کردن اتصال‌های بدون VPN» روشن است، ممکن است سایفون و تور وصل نشوند؛ خاموشش کنید.</blockquote><br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i> گزارش باگ<br><br>اگر به مشکلی خوردید: تنظیمات ← تشخیص ← «ارسال برای توسعه‌دهنده». لطفاً بنویسید کدام ترکیب را امتحان کردید و روی چه اینترنتی بودید (همراه اول، ایرانسل، وای‌فای خانگی و…).<br><br>━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> دانلود<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.5.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.5.0</a><br><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji>در صورت امکان ورژن قبلی را کاملا uninstall کنید و ورژن جدید را نصب کنید تا کاملا بروز شود <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>• بیشتر گوشی‌ها: WhiteAestherMobile-1.5.0-arm64-v8a.apk<br>• اگر مطمئن نیستید: WhiteAestherMobile-1.5.0-universal.apk<br><br>روی نسخهٔ قبلی نصب می‌شود و تنظیماتتان حفظ می‌شود. برای برگشتن به نسخهٔ پایدار (1.4.2) باید اول این نسخه را حذف کنید.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🧪 نسخهٔ آزمایشی WhiteAesther mobile 1.5.0\n\n⚠️⚠️⚠️⚠️ این یک نسخهٔ آزمایشی است و ممکن است باگ داشته باشد. برای همین داخل برنامه اعلان به‌روزرسانی برایش نمی‌آید و فقط از لینک پایین نصب می‌شود. اگر به اتصال پایدار نیاز دارید، فعلاً روی نسخهٔ فعلی بمانید.\n\n━━━━━━━━━━\n✨ چه چیزی جدید است؟\n\n۱\n. زنجیره کردن دو حامل\nحالا می‌توانید دو حامل از بین اتر، سایفون و تور را پشت سر هم وصل کنید، به هر ترتیبی که بخواهید. حامل اول چیزی است که شبکهٔ شما (اپراتور) می‌بیند و حامل دوم چیزی است که سایت‌ها و اینترنت می‌بینند.\n\n۲. سایفون بهتر\nسایفون حالا به سرورهای بیشتری دسترسی دارد (از جمله سرورهای داوطلبانهٔ Conduit) و زمان بیشتری برای پیدا کردن راه خروج می‌گذارد؛ پس روی شبکه‌هایی که قبلاً وصل نمی‌شد شانس بیشتری دارد.\n\n━━━━━━━━━━\n📱 چطور استفاده کنم؟\n\n۱\n. به تب «مسیرها» بروید و در صفحهٔ «چطور وصل می‌شود» پایین بیایید تا به کارت «حامل» برسید.\n۲. در بخش «اول — چیزی که شبکه شما می‌بیند» حامل اول را انتخاب کنید.\n۳. در بخش «بعد — چیزی که اینترنت می‌بیند» حامل دوم را انتخاب کنید. اگر فقط یک حامل می‌خواهید، «هیچ‌چیز دیگر» را بزنید.\n۴. با دکمهٔ «ترتیب را جابه‌جا کن» جای دو حامل با یک لمس عوض می‌شود.\n۵. «پوشش» باید روی «کل دستگاه» باشد؛ سایفون و تور در حالت «فقط پروکسی» اجرا نمی‌شوند.\n۶. به «خانه» برگردید و وصل شوید. آنجا مسیر کامل نوشته می‌شود، مثلاً «متصل از طریق سایفون، بعد اتر»، و وضعیت هر حامل جداگانه نشان داده می‌شود.\n\n━━━━━━━━━━\n🔀 کدام ترکیب برای چه کاری؟\n\n🔹 اتر ← سایفون\nاتر وصل می‌شود ولی می‌خواهید سایت‌ها آی‌پی خارجی سایفون را ببینند، نه کلودفلر. کشور خروجی را هم می‌توانید در کارت «کشور خروجی» انتخاب کنید.\n\n🔹 اتر ← تور\nبیشترین حریم خصوصی، ولی کند.\n\n🔹 سایفون ← اتر\nوقتی اتر روی شبکهٔ شما مستقیم وصل نمی‌شود: سایفون راه را باز می‌کند و اتر از داخل آن بیرون می‌رود.\n\n🔹 سایفون ← تور\nوقتی تور مستقیم بسته است.\n\n🔹 تور ← اتر / تور ← سایفون\nبرای شبکه‌هایی که فقط تور (با پل) از آن‌ها بیرون می‌رود. این دو ترکیب کمتر از بقیه آزمایش شده‌اند و نتیجهٔ شما برای ما خیلی ارزشمند است.\n\nاگر یک ترتیب وصل نشد، «ترتیب را جابه‌جا کن» را بزنید و دوباره امتحان کنید. اینکه کدام ترتیب جواب بدهد به شبکهٔ شما بستگی دارد.\n\n━━━━━━━━━━\n💡 نکته‌ها\n\n• زنجیره از یک حامل تنها کندتر است. اگر یک حامل به‌تنهایی برایتان کار می‌کند، همان را نگه دارید.\n• وقتی اتر حامل دوم است، خودکار از H2 استفاده می‌کند و انتخاب پروتکل اثری ندارد.\n• وقتی تور حامل دوم است، اسنوفلیک کار نمی‌کند؛ تور مستقیم، با پل obfs4 یا با پل‌هایی که به شما داده شده وصل می‌شود.\n• اولین اتصال سایفون ممکن است چند دقیقه طول بکشد؛ صبر کنید.\n• اگر برای سایفون کشوری انتخاب کرده‌اید و وصل نمی‌شود، «بهترین گزینهٔ موجود» را انتخاب کنید.\n• اگر در تنظیمات اندروید «VPN همیشه روشن» همراه با «مسدود کردن اتصال‌های بدون VPN» روشن است، ممکن است سایفون و تور وصل نشوند؛ خاموشش کنید.\n\n━━━━━━━━━━\n🐞 گزارش باگ\n\nاگر به مشکلی خوردید: تنظیمات ← تشخیص ← «ارسال برای توسعه‌دهنده». لطفاً بنویسید کدام ترکیب را امتحان کردید و روی چه اینترنتی بودید (همراه اول، ایرانسل، وای‌فای خانگی و…).\n\n━━━━━━━━━━\n⬇️ دانلود\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.5.0\n⚠️در صورت امکان ورژن قبلی را کاملا uninstall کنید و ورژن جدید را نصب کنید تا کاملا بروز شود ⚠️\n\n• بیشتر گوشی‌ها: WhiteAestherMobile-1.5.0-arm64-v8a.apk\n• اگر مطمئن نیستید: WhiteAestherMobile-1.5.0-universal.apk\n\nروی نسخهٔ قبلی نصب می‌شود و تنظیماتتان حفظ می‌شود. برای برگشتن به نسخهٔ پایدار (1.4.2) باید اول این نسخه را حذف کنید.\n@whitedns",
       "media": [],
       "reactions": [
         {
           "emoji": "😍",
-          "count": "27"
+          "count": "29"
         },
         {
           "emoji": "❤",
@@ -38,7 +83,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.88K",
+      "views_label": "3.16K",
       "posted_at": "2026-09-11T07:58:33+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1762",
@@ -56,7 +101,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "29"
+          "count": "30"
         },
         {
           "emoji": "😍",
@@ -79,7 +124,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.68K",
+      "views_label": "2.99K",
       "posted_at": "2026-09-11T07:58:12+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1761",
@@ -181,7 +226,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.03K",
+      "views_label": "9.09K",
       "posted_at": "2026-09-10T12:14:27+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1759",
@@ -220,7 +265,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "199"
+          "count": "200"
         },
         {
           "emoji": "❤‍🔥",
@@ -281,7 +326,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "348"
+          "count": "349"
         },
         {
           "emoji": "🔥",
@@ -324,7 +369,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.91K",
+      "views_label": "9.94K",
       "posted_at": "2026-09-10T06:57:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1757",
@@ -491,7 +536,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.2K",
+      "views_label": "10.3K",
       "posted_at": "2026-09-10T06:42:00+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1750",
@@ -556,7 +601,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.62K",
+      "views_label": "8.65K",
       "posted_at": "2026-09-10T06:12:07+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1749",
@@ -715,7 +760,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10K",
+      "views_label": "10.1K",
       "posted_at": "2026-09-10T03:15:48+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1746",
@@ -786,7 +831,7 @@
         },
         {
           "emoji": "👍",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "🤩",
@@ -821,7 +866,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12K",
       "posted_at": "2026-09-09T16:01:47+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1743",
@@ -5432,79 +5477,6 @@
       "posted_at": "2026-08-26T13:07:48+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1619",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1618",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/mld5vSyExBo2-_aJrD8h4t0OyMT0ai8Nrgdv2v2syXs2tyc0xfz88pMpYIvA3tVfLwWSJ8rCBoNITsMklI8X2YiG3Bcjs472dVYVH7t8JRgAazZmvmJV5qsfn9v2Po6T-KBLiInAP1lRT0nRCiGzbVMvRgq4oRiik6c5JHF_9DRG-ndRbQ8CpmL4b5uwPkagkie6R2QjlWzpy8x11cgZqL4HQpuX6I7zrMh63e1eVvrwB9Jr4LTT4A3UKAHPqueJJ_dphUGAbUbSKmuO3_GW4fAeGdv2MKCq0fi1UyOYhUiP8BDAUBL6c74suk0sJwsOwALuv-A94PsxSyPH0-W8Mw.jpg",
-      "author_photo_path": "channels/whitedns/media/b43b68916949387f0e8b0158.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5866210429029585675\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji> <b>یک پورت برای حکومت بر همه! <br>آموزش نصب و راه‌اندازی CottenRouter</b><br><br><tg-emoji emoji-id=\"5237952444150849560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87A6.png')\"><b>🇺🇦</b></i></tg-emoji> <b>تماشا در یوتیوب</b>  <a href=\"https://youtu.be/N725_-A_-B8\" target=\"_blank\" rel=\"noopener\">https://youtu.be/N725_-A_-B8</a><br><br>اگر روی یک سرور چند DNS Tunnel مختلف داشته باشید، خیلی زود به یک مشکل می‌خورید: همه‌شون پورت عمومی 53 رو می‌خوان.<br><br> سرویس CottenRouter دقیقاً برای حل همین مشکل ساخته شده. جلوی تمام سرویس‌ها قرار می‌گیره، دامنه هر درخواست رو تشخیص می‌ده و بدون دست‌کاری Packet، اون رو به Backend درست می‌فرسته.<br><br>یعنی می‌تونید CottenDNS، MasterDnsVPN، StormDNS، thefeed و سرویس‌های مدیریت‌شده با SlipGate رو هم‌زمان روی یک سرور و یک IP اجرا کنید؛ بدون جنگ بر سر پورت 53.<br><br><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <b>توی این ویدیو می‌بینیم:</b><br>• سرویس CottenRouter دقیقاً چه مشکلی رو حل می‌کنه<br>• مسیریابی درخواست‌ها بر اساس Domain چطور انجام می‌شه<br>• چطور چند DNS Tunnel روی یک IP اجرا می‌شن<br>• پشتیبانی از DNS، DoT و HTTPS<br>• تفاوت نصب مستقیم با Docker<br>• پنل مانیتورینگ، محدودسازی ترافیک و قابلیت‌های امنیتی<br>• نحوه نصب و اتصال Backendها<br><br>سرویس CottenRouter هیچ Label یا داده اضافه‌ای وارد Packet نمی‌کنه؛ پس فضای قابل استفاده Tunnel و MTU رو هم کاهش نمی‌ده.<br><br><tg-emoji emoji-id=\"5237952444150849560\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87A6.png')\"><b>🇺🇦</b></i></tg-emoji> <b>تماشا در یوتیوب</b>  <a href=\"https://youtu.be/N725_-A_-B8\" target=\"_blank\" rel=\"noopener\">https://youtu.be/N725_-A_-B8</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> سورس‌کد و راهنمای نصب:<br><a href=\"https://github.com/TaJirax/CottenRouter\" target=\"_blank\" rel=\"noopener\">https://github.com/TaJirax/CottenRouter</a><br><br>اگر با DNS Tunnelها کار می‌کنید، این پروژه احتمالاً کلی دردسر از مدیریت سرورتون کم می‌کنه.",
-      "plain_text": "👑 یک پورت برای حکومت بر همه!\nآموزش نصب و راه‌اندازی CottenRouter\n\n🇺🇦 تماشا در یوتیوب https://youtu.be/N725_-A_-B8\n\nاگر روی یک سرور چند DNS Tunnel مختلف داشته باشید، خیلی زود به یک مشکل می‌خورید: همه‌شون پورت عمومی 53 رو می‌خوان.\n\nسرویس CottenRouter دقیقاً برای حل همین مشکل ساخته شده. جلوی تمام سرویس‌ها قرار می‌گیره، دامنه هر درخواست رو تشخیص می‌ده و بدون دست‌کاری Packet، اون رو به Backend درست می‌فرسته.\n\nیعنی می‌تونید CottenDNS، MasterDnsVPN، StormDNS، thefeed و سرویس‌های مدیریت‌شده با SlipGate رو هم‌زمان روی یک سرور و یک IP اجرا کنید؛ بدون جنگ بر سر پورت 53.\n\n✍️ توی این ویدیو می‌بینیم:\n• سرویس CottenRouter دقیقاً چه مشکلی رو حل می‌کنه\n• مسیریابی درخواست‌ها بر اساس Domain چطور انجام می‌شه\n• چطور چند DNS Tunnel روی یک IP اجرا می‌شن\n• پشتیبانی از DNS، DoT و HTTPS\n• تفاوت نصب مستقیم با Docker\n• پنل مانیتورینگ، محدودسازی ترافیک و قابلیت‌های امنیتی\n• نحوه نصب و اتصال Backendها\n\nسرویس CottenRouter هیچ Label یا داده اضافه‌ای وارد Packet نمی‌کنه؛ پس فضای قابل استفاده Tunnel و MTU رو هم کاهش نمی‌ده.\n\n🇺🇦 تماشا در یوتیوب https://youtu.be/N725_-A_-B8\n\n🔗 سورس‌کد و راهنمای نصب:\nhttps://github.com/TaJirax/CottenRouter\n\nاگر با DNS Tunnelها کار می‌کنید، این پروژه احتمالاً کلی دردسر از مدیریت سرورتون کم می‌کنه.",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1618",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/HLsLIwtE5CSm-A4VqD4tqVdXoz-CtXDL6E-1XntZZV6ZXveBnE6xyyKeWxS_R4uIu6OjKFp9dCPZT2wSc2lhTgYJYKiIeg06mzsNJghSizfT4UJslkEAYJcto866fAi-7fCthYRgCsuqUx5M-wmwqkII04GVTlFdA6-_VgOHzdZFCBDhsrSIXx0oM4LpVIDltb_0lkT3umLhbMZdMpWVg4Kz_RqhuOqhADw9Uj5EAEEvHXiVFGY-JB_MMXsef2S4Al8SQZ34OJEWxwop_xUp2-LpSuCQHW4xAhBHLLx7hmoj_ODrvua-jMAUoQ6Cpxw99YPplUiLi6qU-X7jjhpXBA.jpg",
-          "thumbnail_path": "channels/whitedns/media/eb9c254b9fdd3421dcebce0c.jpg",
-          "thumbnail_sha256": "2e637d2f5040ca1a367177777daf9dce40fa9da2b90b4725344720ea49cdd9e7",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "181"
-        },
-        {
-          "emoji": "👍",
-          "count": "20"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🥰",
-          "count": "3"
-        },
-        {
-          "emoji": "🍾",
-          "count": "3"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "💊",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        }
-      ],
-      "views_label": "20.1K",
-      "posted_at": "2026-08-26T11:43:28+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1618",
       "reply": null
     }
   ]
