@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-13T19:37:23.604Z",
+  "fetched_at": "2026-09-13T19:42:44.239Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "155K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5242",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/v8LX2QMm5Fi7Oj--OGhQEGuqiwwVy93VF0_CJqCZRWmr2hz87wCnRT6J-KFwXhndnrjY278LmAxMMbOpvYbz4YWs-gUsxjQK98t3lf6rc7eEG6_eFPivkjfbCP7rvrFZ1yrhT-L22oVhPp08nGrR34Z9d09ipJs48GRlmnJuxM3Tzw_KystcxQw-0HHOjyixrsMU3flVtu7F-L4VnkMJKwJENEl5zkocenKhdFxUSgKJZcCm_XLetGPomyUdTy3HKzqXenJnd_UfiZ45ZlqVilhGg3_46XfPRoxAxSB4AHJkZ0mV0TVZONpntK9dLvZ3XCbnnbgOVI12sDMzTChR1g.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/96dfe14f55a1c26e5204c82a.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>آموزش Spec-Driven Development با GitHub Spec Kit</b><br><br><tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> توی این ویدیو باهم یک پروژه رو دو بار می‌سازیم؛ یک‌بار با یه پرامپت ساده و کلی جزئیات ناگفته که تصمیم‌گیری درباره‌شون رو به AI می‌سپاریم، و یک‌بار با GitHub Spec Kit. بعد هم روند ساخت و خروجی هر دو رو کنار هم مقایسه می‌کنیم.<br><br>منظور از «توسعه مبتنی بر مشخصات» اینه که قبل از پیاده‌سازی، روشن کنیم دقیقاً چی می‌خوایم بسازیم، چرا و چه انتظاری ازش داریم. ابزار Spec Kit گیت‌هاب کمک می‌کنه این مشخصات رو تدوین کنیم، براشون برنامه‌ی فنی بچینیم و کار رو به تسک‌های قابل‌اجرا تقسیم کنیم؛ بعد کدنویسی رو بر اساس همین مسیر پیش ببریم.<br><br>برای من، بخش مهم این روش فقط کد نوشتن نیست؛ اینه که بیشتر به داستان محصول فکر کنیم: کاربر چه مشکلی داره؟ قراره چه مسیری رو توی محصول طی کنه؟ از کجا بفهمیم چیزی که ساختیم، واقعاً نیازش رو برطرف می‌کنه؟<br><br><br><tg-emoji emoji-id=\"5303138782004924588\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji> حتی اگه برنامه‌نویس نیستید، ولی با کمک AI ایده‌هاتون رو می‌سازید، پیشنهاد می‌کنم یه نگاهی به این ویدیو بندازید. با یک مثال عملی بررسی می‌کنیم که وقت گذاشتن برای روشن کردن خواسته‌ها، چه تفاوتی با شروع مستقیم از «کد بزن» داره.<br><br><tg-emoji emoji-id=\"5159261427743064961\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28FAF.png')\"><b>⏯️</b></i></tg-emoji> <a href=\"https://youtu.be/Rs4qTGEjIbk\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>تماشا ویدیو در یوتیوب</b></a>",
+      "plain_text": "آموزش Spec-Driven Development با GitHub Spec Kit\n\n✍️ توی این ویدیو باهم یک پروژه رو دو بار می‌سازیم؛ یک‌بار با یه پرامپت ساده و کلی جزئیات ناگفته که تصمیم‌گیری درباره‌شون رو به AI می‌سپاریم، و یک‌بار با GitHub Spec Kit. بعد هم روند ساخت و خروجی هر دو رو کنار هم مقایسه می‌کنیم.\n\nمنظور از «توسعه مبتنی بر مشخصات» اینه که قبل از پیاده‌سازی، روشن کنیم دقیقاً چی می‌خوایم بسازیم، چرا و چه انتظاری ازش داریم. ابزار Spec Kit گیت‌هاب کمک می‌کنه این مشخصات رو تدوین کنیم، براشون برنامه‌ی فنی بچینیم و کار رو به تسک‌های قابل‌اجرا تقسیم کنیم؛ بعد کدنویسی رو بر اساس همین مسیر پیش ببریم.\n\nبرای من، بخش مهم این روش فقط کد نوشتن نیست؛ اینه که بیشتر به داستان محصول فکر کنیم: کاربر چه مشکلی داره؟ قراره چه مسیری رو توی محصول طی کنه؟ از کجا بفهمیم چیزی که ساختیم، واقعاً نیازش رو برطرف می‌کنه؟\n\n\n💬 حتی اگه برنامه‌نویس نیستید، ولی با کمک AI ایده‌هاتون رو می‌سازید، پیشنهاد می‌کنم یه نگاهی به این ویدیو بندازید. با یک مثال عملی بررسی می‌کنیم که وقت گذاشتن برای روشن کردن خواسته‌ها، چه تفاوتی با شروع مستقیم از «کد بزن» داره.\n\n⏯️ تماشا ویدیو در یوتیوب",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5242",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/oIqLx3xKMgFtHcuICPnNCAXZJGxMsfPn0CL-5vVs7G7ee7Z0j6xMN88oqEaYZK9J07OMRiv_SQTj6r6hwhNWgFYum_GrgoQS_cc7zLHJwRECQeEkaUegMqJhuDJi81w6x_SeS3jRd3ORjD5ZTa1TJ7eeRSJZdGKmhcpOSXTkYldinvkYwwm7sf60jgq17e0cGKEJg5-kFKyVjQ-Kty-qIBtu5xyGZNsSIIW9GYPQIcxZvDtqXpiA5CxEkuIeArHgj6UyXx6niwGRua9ZG1tbPp7gdQ79M_EeNf8eSZ_5cG3XhQI0CwHMdGHzvbBUY8OQMuyMUBsmt3LC3g13H-7Zrw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/c62d9fabe916dfb1f4c9558a.jpg",
+          "thumbnail_sha256": "735613e401e0223be276c2b1dd379d1ac14ab7feef158501cb319679a52e46cf",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "8"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "984",
+      "posted_at": "2026-09-13T19:40:08+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5242",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5241",
       "author_name": "Matin SenPai",
@@ -23,7 +60,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "206"
+          "count": "220"
         },
         {
           "emoji": "😁",
@@ -31,18 +68,18 @@
         },
         {
           "emoji": "💔",
-          "count": "27"
+          "count": "29"
         },
         {
           "emoji": "🦄",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "👍",
           "count": "1"
         }
       ],
-      "views_label": "6.63K",
+      "views_label": "7.44K",
       "posted_at": "2026-09-13T19:02:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5241",
@@ -73,7 +110,7 @@
         },
         {
           "emoji": "❤",
-          "count": "459"
+          "count": "487"
         },
         {
           "emoji": "👍",
@@ -96,7 +133,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.38K",
+      "views_label": "8.15K",
       "posted_at": "2026-09-13T19:00:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5240",
@@ -145,7 +182,7 @@
           "count": "6"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.7K",
       "posted_at": "2026-09-12T21:02:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5239",
@@ -198,7 +235,7 @@
           "count": "6"
         }
       ],
-      "views_label": "26.1K",
+      "views_label": "26.2K",
       "posted_at": "2026-09-12T20:57:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5238",
@@ -228,7 +265,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "617"
+          "count": "618"
         },
         {
           "emoji": "❤",
@@ -251,7 +288,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.1K",
+      "views_label": "27.3K",
       "posted_at": "2026-09-12T20:34:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5237",
@@ -296,7 +333,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.1K",
+      "views_label": "32.2K",
       "posted_at": "2026-09-12T10:55:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5236",
@@ -362,7 +399,7 @@
           "count": "1"
         }
       ],
-      "views_label": "36K",
+      "views_label": "36.1K",
       "posted_at": "2026-09-12T09:27:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5235",
@@ -415,7 +452,7 @@
           "count": "2"
         }
       ],
-      "views_label": "34.9K",
+      "views_label": "35K",
       "posted_at": "2026-09-11T21:28:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5234",
@@ -563,7 +600,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29K",
+      "views_label": "29.1K",
       "posted_at": "2026-09-11T20:42:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5231",
@@ -629,7 +666,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.3K",
+      "views_label": "28.4K",
       "posted_at": "2026-09-11T20:21:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5230",
@@ -5080,59 +5117,6 @@
       "posted_at": "2026-08-31T07:45:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5121",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5120",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/kgYyxjPkQQP0bZCGAF5-lFj9EW2zi5_x0LwTdpEu04BmXpbijoqgA7naC8c1ER2OP9bQWhMe6OooblGmuuedIahHOCDSj-Zni7Zd0rb8m7kvH0sV0GtvxvvqxC_S90e68yKSuFEamDpIyXXiDUC5b85nf-GrpIwX5FX5fVv6Fyv15WOZDOEgt8R8Sg3ZacwEw-tTAOlNy6J5JPCZA8yFM13qgt6ICx0Dfe0mKqK6MjCLpGPQN-Rn1xRcs8-WyfargxFBIi4IBg8yzjP-zaQ0WtWRir7ASc-iCQwHvC3eClHlWXM32449nveeadCcC0NuAX3hjVKl4BCPtig3sX8NHw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/a1084315357fbd093baff829.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b><tg-emoji emoji-id=\"5303138782004924588\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji></b><b> ورژن جدید WhiteVPN  1.6.4 برای گوشی های اندرویدی <br></b><br><b>تغییرات در این نسخه:</b><br><tg-emoji emoji-id=\"5310278924616356636\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAF.png')\"><b>🎯</b></i></tg-emoji> اتصال و قطع اتصال پایدارتر. رفع مشکل قطع اتصال.<br><tg-emoji emoji-id=\"5296369303661067030\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i></tg-emoji> بهبود امنیت با رفع مشکل لیک با IP V6 <br><tg-emoji emoji-id=\"5379999674193172777\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94AD.png')\"><b>🔭</b></i></tg-emoji> افزودن کانفیگ با QR Code یا Clipboard  <br><tg-emoji emoji-id=\"5220195193923328112\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i></tg-emoji> نمایش واضح‌تر وضعیت اتصال و بهبود ظاهر برنامه  <br><br><br><tg-emoji emoji-id=\"5933540612694347912\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji>  <a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b>دانلود آخرین نسخه از گیتهاب</b></a><br><br><b>نکته: <br></b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji> در صورت دانلود نشدن از گیت هاب مرورگر خود را به فایرفاکس تغییر دهید",
-      "plain_text": "💬 ورژن جدید WhiteVPN 1.6.4 برای گوشی های اندرویدی\n\nتغییرات در این نسخه:\n🎯 اتصال و قطع اتصال پایدارتر. رفع مشکل قطع اتصال.\n🔒 بهبود امنیت با رفع مشکل لیک با IP V6\n🔭 افزودن کانفیگ با QR Code یا Clipboard\n🎨 نمایش واضح‌تر وضعیت اتصال و بهبود ظاهر برنامه\n\n\n📱 دانلود آخرین نسخه از گیتهاب\n\nنکته:\n⚠️ در صورت دانلود نشدن از گیت هاب مرورگر خود را به فایرفاکس تغییر دهید",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5120",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/uGL5qn7MQLo7THDqS0HY-4DTU5WHfNlwKoxdcq7FRxXt6E8r1sCzoRFA0mLdMKNfKdzzVYn6RPpRf-IDWtOSXhEK0p_3ZhSaDNvaoi335OoBrQGB7BzZ0a_6oyGEuWJRLD-jkd4wtcfJYnVNraKF9RsH7P6X-W6D0lmpK3Cpg_DLEz5-GtSvwD8Gc25353plqafUYMcamQsQ7IondNIPRAppdE0nud8fPfCP9uONkJVcwVabVEXF03IGElkW9YaSm7rMyZvGXySw3TKs03KUHYo7zfJfcadqe9mNyBLv0X6o8qKBPUzNlD8rSbFg41pJVERp7zqqQwTw6Yb-yTCpPg.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/fe64d63c3e2a52efba815e7a.jpg",
-          "thumbnail_sha256": "5ad50d22e5411a0f268cb951308db8ace3f68f1d9ebf88f4f22b35a17f674c3f",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "104"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        },
-        {
-          "emoji": "💔",
-          "count": "2"
-        },
-        {
-          "emoji": "😁",
-          "count": "1"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "21.6K",
-      "posted_at": "2026-08-31T07:45:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5120",
       "reply": null
     }
   ]
