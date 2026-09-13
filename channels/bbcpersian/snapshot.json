@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-13T14:17:10.559Z",
+  "fetched_at": "2026-09-13T14:22:09.923Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -11,6 +11,34 @@
     "subscriber_count": "773K"
   },
   "posts": [
+    {
+      "id": "bbcpersian/291375",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/SFf4qO0G0pVLC8r89LZlqGVfvARRlEVzErxxiwnKS6y2ezMPq57YdCKB7a7ulMwh2yHNH4IsHUWv0uTO-8yiZnW4_5eCx94f2wYWCgTXsc5JS3SzfyU5NRkKkoqu_9kioNen7HrtnYtOk3EHTiITztLGTiwhV8ah1Pz0WTeoNgR2GmZBCuKLqLG54-rjOoaDuFuGn2XGpQB9R5hdQP1XFe672EiKRvIgFGkD4Y5TRV12M8jRouBn-pRyLJx2Z0Wul2EKblleTzFFVjKYAjxPXPTYe3vQv1SYcNCFA-vom8hLJIFwGkXP_H82_JJnwE-9t0zskS_tuoYp2mVhRCZ66Q.jpg",
+      "author_photo_path": "channels/bbcpersian/media/3cb3d65e7dc04afecc72108f.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD95.png')\"><b>⭕️</b></i>سرخط خبرهای یکشنبه ۲۲ شهریور ۱۴۰۵</b><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "⭕️سرخط خبرهای یکشنبه ۲۲ شهریور ۱۴۰۵\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/291375",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/iuUGZhNs9RqVb9MG1TEaUtYUYgsoBS9LxC1urLGworZr2EiqjzghqglKb-e2vrfA5UeAJPZhf_S4MKM0X7bxs3GEWjGpMJoOOaUHGN1JCqBw1HZn_FxER-oPucLR4lPBicpft8OSN-P5zC84ErNLQpDOcpfYpNbckjbC4WzWs2fMiNWS2pT2vL06zhaKVKVB5SOcJtdAXNg4hPd3Oei9VnbrjLGlZRgFOkDTIt8rdqvGPOu4u5NuYdhOLMm1M-Ckluu_KouQWzxGLs4fnQpGI6Sa3oeD1CoE-lpn4VRuDDPAoMtgqDXyjpsVg6S0SvhNYvAoIy6WMB8MVG2PZ5zpRg",
+          "thumbnail_path": "channels/bbcpersian/media/11eef86f34475ed67ab2f85b.jpg",
+          "thumbnail_sha256": "214dd3d73dad9be0177c799970411ba2f19696c00cf18e2e077b5884aa3b558d",
+          "duration_label": "0:55",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "669",
+      "posted_at": "2026-09-13T14:20:39+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/291375",
+      "reply": null
+    },
     {
       "id": "bbcpersian/291374",
       "author_name": "BBCPersian",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.57K",
+      "views_label": "6.88K",
       "posted_at": "2026-09-13T14:05:39+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/291374",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "6.56K",
+      "views_label": "7.55K",
       "posted_at": "2026-09-13T14:01:20+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291373",
@@ -77,7 +105,7 @@
       "plain_text": "📻 تازه‌ترین خبرهای ایران و جهان، یکشنبه ۲۲ شهریور ۱۴۰۵، از رادیو بی‌بی‌سی در لندن\n\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "8.92K",
+      "views_label": "9.9K",
       "posted_at": "2026-09-13T13:47:34+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291372",
@@ -93,7 +121,7 @@
       "plain_text": "🔻افزایش حملات ایران و آمریکا؛ آیا محاسبات دو طرف تغییر کرده است؟\n\n🖊سعید جعفری، روزنامه‌نگار\n\nیک روز حمله، یک روز آرامش؛ چرخه‌ای که در ماه‌های پس از تفاهم اسلام‌آباد، بارها در تنش میان ایران و آمریکا تکرار شده است.\n\nارتش آمریکا در هفته‌های اخیر چندین نفتکش ایرانی را هدف قرار داد، حملاتی که سنتکام می‌گوید در پاسخ به شلیک موشک‌های سپاه به سوی ناوهای آمریکایی انجام شده است. سپاه نیز از حملات متقابل به شناورهای آمریکایی و پایگاه نیروهای این کشور در اردن خبر داد.\n\nhttps://bbc.in/4yAw5Cm\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "19.4K",
+      "views_label": "20.4K",
       "posted_at": "2026-09-13T13:05:00+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/291371",
@@ -121,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "20.3K",
+      "views_label": "21K",
       "posted_at": "2026-09-13T12:57:07+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/291370",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "20.7K",
+      "views_label": "21.4K",
       "posted_at": "2026-09-13T12:44:35+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291369",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "26.5K",
+      "views_label": "26.9K",
       "posted_at": "2026-09-13T12:04:05+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291368",
@@ -205,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "31.2K",
+      "views_label": "31.5K",
       "posted_at": "2026-09-13T11:19:10+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291367",
@@ -233,7 +261,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "32.8K",
+      "views_label": "33.1K",
       "posted_at": "2026-09-13T10:55:35+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291366",
@@ -261,7 +289,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "39K",
+      "views_label": "39.3K",
       "posted_at": "2026-09-13T09:51:26+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/291365",
@@ -277,7 +305,7 @@
       "plain_text": "🔻دیدار پزشکیان و رئیس‌جمهور آفریقای جنوبی در هند\n\nمسعود پزشکیان، رئیس‌جمهور ایران، در حاشیه اجلاس بریکس در هند با سیریل راماپوسا، رئیس‌جمهور آفریقای جنوبی، دیدار کرد.\n\nآقای پزشکیان از روز جمعه برای شرکت در هجدهمین اجلاس سران کشورهای عضو بریکس به هند رفته و در آنجا با سران کشورهای مختلف دیدار کرده است از جمله با نارندرا مودی، نخست‌وزیر هند و خالد بن محمد آل نهیان ولیعهد امارات متحده عربی.\n\nعباس عراقچی وزیر خارجه در این سفر رئیس‌جمهور ایران را همراهی می‌کند.\n\nاجلاس دو روزه بریکس امروز به پایان می‌رسد.\n\nشی جین‌پینگ و ولادیمیر پوتین، روسای جمهور چین و روسیه دهلی نو را ترک کرده‌اند اما آنتونیو گوترش، دبیر کل سازمان ملل، و فیصل بن فرحان، وزیر خارجه عربستان، امروز وارد هند شدند.\n\nhttps://bbc.in/4j2uvV3\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "37.5K",
+      "views_label": "37.8K",
       "posted_at": "2026-09-13T09:35:00+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291364",
@@ -293,7 +321,7 @@
       "plain_text": "🔻خدمه از کشتی‌ای که در تنگه هرمز هدف قرار گرفت «خارج» شدند\n\nسازمان عملیات تجارت دریایی بریتانیا می‌گوید که خدمه کشتی‌ای که شب گذشته هنگام عبور از تنگه هرمز هدف قرار گرفته بود، از آن خارج شده‌اند.\n\nاین سازمان در به‌روزرسانی وضعیت این کشتی گفت که مقامات محلی اکنون در محل حضور دارند و خدمه کشتی را ترک کرده‌اند.\n\nشب گذشته سازمان عملیات تجارت دریایی بریتانیا از حمله با پرتابه ناشناس به یک کشتی در تنگه هرمز خبر داد که باعث آتش‌‌سوزی شد اما گفت که میزان خسارات مشخص نیست.\n\nhttps://bbc.in/4gLVTW0\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "37.9K",
+      "views_label": "38.2K",
       "posted_at": "2026-09-13T09:14:08+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291363",
@@ -309,7 +337,7 @@
       "plain_text": "🔻چرا کشورهای اروپایی طلای خود را از آمریکا خارج می‌کنند؟\n\nزمانی که بانک مرکزی هلند تایید کرد چندین تن از ذخایر طلای این کشور را از آمریکای شمالی خارج کرده است، گفت این انتقال هلند را برای رویارویی با «بحران‌های شدید» آماده‌تر می‌کند.\n\nاز مجموع حدود ۳۱۳ تن طلای هلند که در آمریکا و کانادا نگهداری می‌شد، ۸۶ تن با توجه به «افزایش ناآرامی‌های ژئوپولیتیکی» به لندن منتقل شده است تا این فلز گران‌بها در صورت بروز بحران «به‌سرعت در دسترس و قابل استفاده» باشد.\n\nhttps://bbc.in/3Vbj57z\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "38K",
+      "views_label": "38.4K",
       "posted_at": "2026-09-13T09:00:53+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291362",
@@ -325,7 +353,7 @@
       "plain_text": "🔻عراق گذرگاه‌های مرزی با ایران را باز می‌کند\n\nخبرگزاری دولتی عراق گزارش کرد که تردد در سه گذرگاه مرزی با ایران که پس از حمله پهپادی به خط لوله نفت شرق-غرب عربستان سعودی بسته شدند، از سر گرفته می‌شود.\n\nبراساس این گزارش تردد مسافران امروز در گذرگاه الشیب در استان میسان که در ایران به آن گذرگاه چذابه گفته می‌شود و همچنین گذرگاه شلمچه در استان بصره از سر گرفته می‌شود و فعالیت‌های تجاری نیز در اواخر همین هفته برقرار خواهد شد.\n\nدر گذرگاه مندلی در استان دیاله که در ایران پایانه مرزی سومار نامیده می‌شود از روز سه‌شنبه فعالیت‌ تجاری از سر گرفته خواهد شد.\n\nدولت عراق دیروز، شنبه، پس از شناسایی محل‌ پرتاب پهپاد از خاکش به عربستان، گذرگاه‌های مرزی با ایران را موقتا بست.\n\nhttps://bbc.in/4hqmyaY\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "38.6K",
+      "views_label": "38.9K",
       "posted_at": "2026-09-13T08:46:08+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291361",
@@ -341,7 +369,7 @@
       "plain_text": "🔻عراق می‌گوید سکوی پرتاب پهپاد به خط لوله نفت عربستان را توقیف کرده است\n\nرئیس مرکز اطلاع‌رسانی ارتش عراق گفت تجهیزات پرتاب پهپادی را که عربستان می‌گوید از عراق شلیک شده شناسایی و توقیف کرده است.\n\nاین حمله که دو روز پیش انجام شد باعث تعطیلی موقت خط لوله نفت شرق-غرب عربستان سعودی شده است.\n\nسعد معن گفت دولت عراق برای تبادل اطلاعات با مقامات سعودی در ارتباط مستقیم است.\n\nبه گزارش خبرگزاری دولتی عراق یک کارگروه اطلاعاتی و امنیتی، تجهیزات پرتاب را ردیابی و ضبط کرده است.\n\nآقای معن همچنین گفت که «عراق حاکمیت پیشگیرانه را در پیش گرفته است» و «نه‌فقط از حمله به خاک خود جلوگیری می‌کند بلکه اجازه نمی‌دهد سرزمینش سکوی حمله به کشور دیگری شود یا عراق بخشی از یک جنگ نیابتی باشد.»\n\nhttps://bbc.in/3VsPd6I\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "40.9K",
+      "views_label": "41.2K",
       "posted_at": "2026-09-13T08:13:39+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291360",
@@ -417,7 +445,7 @@
       "plain_text": "🔻آیا پیمان مکه، ترکیه را به جنگ یمن می‌کشاند؟\n\nبا پیشروی نیروهای حوثی‌ در یمن و حملات این گروه به عربستان، این پرسش مطرح شده است که آیا ترکیه به عنوان یکی از امضاکنندگان «پیمان مکه» ناچار خواهد شد در کنار ریاض قرار بگیرد.\n\nهرچند این پیمان دارای بند دفاع مشترک است، اما واکنش محتاطانه دولت ترکیه و تردیدهای گسترده در رسانه‌ها و میان تحلیلگران این کشور نشان می‌دهد که آنکارا فعلا تمایلی به ورود مستقیم به جنگ یمن ندارد و از کشیده شدن به آنچه برخی آن را «باتلاق یمن» می‌خوانند، نگران است.\n\nhttps://bbc.in/4h211nB\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "43.8K",
+      "views_label": "44.1K",
       "posted_at": "2026-09-13T06:38:18+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291356",
@@ -2124,34 +2152,6 @@
       "posted_at": "2026-09-11T16:57:33+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291271",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/291270",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/dhSox6NDCR4rJ2BNEcxqITHnUbooWBeSU_6oCVBbXUH0s-A7KzKfzaO2TLPn_ccC8xEKaXsFkjGynaGMgpsMGm9sMI6PRObMyPCUa8FgCiJbljmzOdTfAQTpyWq50Hp5GT_zRAwQ-UTRbaaIEtGs4sS0rtZaqt-B0Oi-fh-LLc3JTLYJtg5qjhP7a3XGvSsVjX6Gb7c_7aiDxaIBxLY4PnakOMnmjlv0rQijyS9LAKkmV1uXqKCudkG9oRI9K-jOiybSRw2m3QVAHEFoVaUEqhFYbVbNkzjmS1SwrlLdOMYBlJOahthfgGxHjpdX1Od_2X_5Dv5o-FwxMBm8DWNgjw.jpg",
-      "author_photo_path": "channels/bbcpersian/media/9b7c2a93428a4228644d06a0.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>علی زارعی، زندانی سیاسی و از آسیب‌دیدگان چشمی اعتراضات ۱۴۰۱، در پیامی صوتی گفته است که حکم اعدامش در دادگاه تایید شده و از مردم و گروه‌های حقوق بشری خواسته است که نگذارند اعدام شود.<br><br>آقای زارعی در این پیام گفته است که در سال ۱۴۰۲ به مدت شصت روز در زندان انفرادی بازداشت بوده و با گذاشتن وثیقه ای پنج میلیارد تومانی آزاد شده است.<br><br>او پس از آزادی برای درمان چشمش به آلمان رفت اما اردیبهشت امسال، پس از بازگشت به ایران، بازداشت شد.<br><br>قوه قضائیه ایران او را به اتهام فساد فی‌الارض به اعدام محکوم کرده است.<br><br>او از حق داشتن وکیل هم محروم بوده است.<br><br>آقای زارعی در این فایل صوتی از زندان قزل‌حصار تاکید کرده که همواره به مردم ایران وفادار بوده، و هیچ فعالیت تروریستی و خشونت‌باری علیه مردم نداشته است.<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻علی زارعی، زندانی سیاسی و از آسیب‌دیدگان چشمی اعتراضات ۱۴۰۱، در پیامی صوتی گفته است که حکم اعدامش در دادگاه تایید شده و از مردم و گروه‌های حقوق بشری خواسته است که نگذارند اعدام شود.\n\nآقای زارعی در این پیام گفته است که در سال ۱۴۰۲ به مدت شصت روز در زندان انفرادی بازداشت بوده و با گذاشتن وثیقه ای پنج میلیارد تومانی آزاد شده است.\n\nاو پس از آزادی برای درمان چشمش به آلمان رفت اما اردیبهشت امسال، پس از بازگشت به ایران، بازداشت شد.\n\nقوه قضائیه ایران او را به اتهام فساد فی‌الارض به اعدام محکوم کرده است.\n\nاو از حق داشتن وکیل هم محروم بوده است.\n\nآقای زارعی در این فایل صوتی از زندان قزل‌حصار تاکید کرده که همواره به مردم ایران وفادار بوده، و هیچ فعالیت تروریستی و خشونت‌باری علیه مردم نداشته است.\n@BBCPersian",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/291270",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/B8K5r0GjE52lSjX79OTXUNATXwgv_Imp2Jybygjf07-MNRLhtrogJLaILYzmlpwOKNA-npMivM5wCvE7bFUeIeHWigEYM7w2zGzZuViShtTu1v4VSYqmcnmUNNf2J2b9M4WkWPPlQp23sKTnzaVV808ijJa4dG-uPu_WxIPYG3GxPFnouDgXi5rjVZwVH0ZaI6MaGukJbjJ9PevWgatkxVZNklKPg4mJaQCbrPpPgv0C2raKTwjwdJ4ZeRbRZYkh0-Huwy-3pYGPP11WF8S8ARKGmDUtOW_6zVU823qgtkkcgY7zhUgzl3NFPjiY-rXjw1bgpOwjG9O_eS_AI9-eFQ.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/e86e5cf5db8042751811cbfa.jpg",
-          "thumbnail_sha256": "af1248011ec1d21ca2988f2a4f35ade174a7b5363bf8ff9c31720e41e11d2488",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "44.8K",
-      "posted_at": "2026-09-11T16:48:41+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/291270",
       "reply": null
     }
   ]
