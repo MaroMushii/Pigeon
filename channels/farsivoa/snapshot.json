@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-15T15:42:29.431Z",
+  "fetched_at": "2026-09-15T15:47:25.448Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/230623",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/MIHnmMWY6t9OPGQ5xzV76NnzhUT-RUVe6xTBVgJgG2GBouDTKPM6zHrvwmFKXJx-eZpyEyVzPpGmQOrLAVTrpSZt9fiJLfEPyvCi_Jg6XOScwGmHYp1N9GRMsFvSwdMrtZ6l3q4pZBaorbT2N_peB3mvG_9gHKSMKXGN7H6dpyfGBFYBbtcF6BHnGI3Jf4PuhScCeR2MKGsv1NgZJ7YL9nogZOjOnLPZ7aIi1pjeh51d1sUNrHN_OW0MFZc_pgfWBSxCh3tCkbQeAwNvVJYHcJUn6IM4JptmU7nokM3nhIdrXaM988ljcAsBMLYdlZjqlCklSwHPOdyqurTR1KeguA.jpg",
+      "author_photo_path": "channels/farsivoa/media/105db6ff3b938192011ceee3.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "خانواده حدیث نجفی، از کشته‌شدگان در اعتراضات ۱۴۰۱، در همراهی با پویش «یک شمع، یک نام، یک یاد» به یاد جاویدنامان شمعی روشن کردند.<br><br>حدیث نجفی، ۲۳ ساله‌، ۳۰ شهریور ۱۴۰۱ با شلیک گلوله ماموران حکومتی در کرج کشته شد.",
+      "plain_text": "خانواده حدیث نجفی، از کشته‌شدگان در اعتراضات ۱۴۰۱، در همراهی با پویش «یک شمع، یک نام، یک یاد» به یاد جاویدنامان شمعی روشن کردند.\n\nحدیث نجفی، ۲۳ ساله‌، ۳۰ شهریور ۱۴۰۱ با شلیک گلوله ماموران حکومتی در کرج کشته شد.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/230623",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/WkwcmuDWqwmHGbgcyst1hHur0H-uKBLPHefZr2AiJC-3DHByTArZk_JE1avfuiwNTrse0AZjpXIKhCQuK63DJ7p01AIy2Ou9PZvzWLUjZQWV43v3tEUK4PzlPohKqbgBcYV77nAHDqVRRy1WSuGryPW0LTX9tD24gSvZiGNf2hGKjyKmayihj2ruMpXU72ZDh3tDWFOC3j3hqGoRzpU8GhYDoJTKm5pf_ngtBGfm6RynXLTn-zm7Ww4Y-6TJj_VEMGbdkQri2g3yVZFPQ1a1BDvIGKo33DWvKsvpe1UXV5xXrpj41rkiHhMzV3wpz9BDhh0vaIbDy2mtXQoDwXenDw",
+          "thumbnail_path": "channels/farsivoa/media/e22c2a3d16ded4008251da09.jpg",
+          "thumbnail_sha256": "3debbcfe494e57d239b0f0e494b7ccc279b78c4fc5c68065299ef483a8555394",
+          "duration_label": "0:17",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "224",
+      "posted_at": "2026-09-15T15:44:08+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/230623",
+      "reply": null
+    },
+    {
       "id": "farsivoa/230622",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/MIHnmMWY6t9OPGQ5xzV76NnzhUT-RUVe6xTBVgJgG2GBouDTKPM6zHrvwmFKXJx-eZpyEyVzPpGmQOrLAVTrpSZt9fiJLfEPyvCi_Jg6XOScwGmHYp1N9GRMsFvSwdMrtZ6l3q4pZBaorbT2N_peB3mvG_9gHKSMKXGN7H6dpyfGBFYBbtcF6BHnGI3Jf4PuhScCeR2MKGsv1NgZJ7YL9nogZOjOnLPZ7aIi1pjeh51d1sUNrHN_OW0MFZc_pgfWBSxCh3tCkbQeAwNvVJYHcJUn6IM4JptmU7nokM3nhIdrXaM988ljcAsBMLYdlZjqlCklSwHPOdyqurTR1KeguA.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺بسنت در کنگره: آمریکا در حال پایان دادن به تهدید جمهوری اسلامی است\n\n▪️اسکات بسنت، وزیر خزانه‌داری ایالات متحده، روز سه‌شنبه گفت قدرت اقتصادی آمریکا این کشور را قادر ساخته است «بزرگ‌ترین کارزار انزوای اقتصادی در تاریخ جهان» را علیه جمهوری اسلامی و حامیان و تسهیل‌کنندگان آن به اجرا بگذارد و تأکید کرد که دولت پرزیدنت ترامپ دیگر در پی «مدیریت» تهدید حکومت ایران نیست، بلکه در حال «پایان دادن» به آن است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/bessent-targets-iran-finance/8200172.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "720",
+      "views_label": "944",
       "posted_at": "2026-09-15T15:23:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230622",
@@ -37,7 +65,7 @@
       "plain_text": "🔺یورش ماموران حکومت به خانه‌های بهائیان در شیراز؛ سه جوان بازداشت و به مکانی نامعلوم منتقل شدند\n\n◾️منابع حقوق بشری روز سه‌شنبه ۲۴ شهریور از یورش ماموران حکومتی به منازل چند خانواده بهائی ساکن شیراز خبر دادند و اعلام کردند طی این تهاجم، سه جوان بازداشت و به مکانی نامعلوم منتقل شدند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-bahai-property-seizure-human-rights-arrest/8200140.html",
       "media": [],
       "reactions": [],
-      "views_label": "849",
+      "views_label": "1.01K",
       "posted_at": "2026-09-15T15:19:04+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230621",
@@ -53,7 +81,7 @@
       "plain_text": "🔺دستگیری مرد اهل پنسیلوانیا در ارتباط با توطئه مسلحانه الهام‌گرفته از داعش\n\n▪️وزارت دادگستری ایالات متحده اعلام کرد یک مرد ۲۱ ساله اهل پنسیلوانیا در ارتباط با توطئه‌ای مسلحانه با الهام از داعش دستگیر شده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/pennsylvania-man-isis-armed-conspiracy/8199614.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.57K",
+      "views_label": "1.66K",
       "posted_at": "2026-09-15T14:44:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230620",
@@ -81,7 +109,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.66K",
+      "views_label": "1.75K",
       "posted_at": "2026-09-15T14:36:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230619",
@@ -109,7 +137,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.63K",
+      "views_label": "1.69K",
       "posted_at": "2026-09-15T14:34:01+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230618",
@@ -137,7 +165,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.67K",
+      "views_label": "1.73K",
       "posted_at": "2026-09-15T14:28:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230617",
@@ -153,7 +181,7 @@
       "plain_text": "🔺رئیس پارلمان اروپا خواستار آزادی فوری ترانه و رومینا رحیمی شد؛ متسولا به مردم ایران: شما تنها نیستید\n\n▪️روبرتا متسولا، رئیس پارلمان اروپا، با برجسته کردن پرونده ترانه و رومینا رحیمی، خواهران دوقلوی زندانی در ایران، خواستار آزادی آنها و دیگر افرادی شد که به دلیل اعتراض به جمهوری اسلامی زندانی شده‌اند و گفت پارلمان اروپا در برابر سرکوب معترضان سکوت نخواهد کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/eu-parliament-backs-iranian-twins/8199541.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.86K",
+      "views_label": "1.92K",
       "posted_at": "2026-09-15T14:14:49+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230616",
@@ -181,7 +209,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.73K",
+      "views_label": "1.79K",
       "posted_at": "2026-09-15T14:08:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230615",
@@ -209,7 +237,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.83K",
+      "views_label": "1.89K",
       "posted_at": "2026-09-15T13:58:19+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230614",
@@ -225,7 +253,7 @@
       "plain_text": "🔺گزارش رسمی آمریکا: عملیات «خشم حماسی» ۱۳ هزار و ۵۰۰ هدف نظامی جمهوری اسلامی را مورد حمله قرار داد\n\n▪️نخستین گزارش فصلی بازرس کل ارشد آمریکا درباره عملیات «خشم حماسی» می‌گوید نیروهای ایالات متحده در جریان کارزار نظامی علیه جمهوری اسلامی، هزاران هدف نظامی را مورد حمله قرار داده و حضور گسترده‌ای در منطقه ایجاد کردند، و همزمان برای حفاظت از نیروهای آمریکایی، شرکای منطقه‌ای، و کشتیرانی تجاری در تنگه هرمز اقدام کردند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/operation-epic-fury-report/8199071.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.08K",
+      "views_label": "2.14K",
       "posted_at": "2026-09-15T13:47:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230613",
@@ -278,7 +306,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.9K",
+      "views_label": "1.93K",
       "posted_at": "2026-09-15T13:45:33+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230611",
@@ -294,7 +322,7 @@
       "plain_text": "🔺سفیر آمریکا در بحرین در ششمین سالگرد «پیمان ابراهیم»: این توافق فصل جدیدی از همکاری‌های منطقه‌ای آغاز کرد\n\n▪️استفانی هالت، سفیر ایالات متحده در بحرین، روز سه‌شنبه ۲۴ شهریور، همزمان با ششمین سالگرد امضای «پیمان ابراهیم»، این توافق را «دستاوردی تاریخی» توصیف کرد که فصل جدیدی از همگرایی، همکاری، و فرصت‌های منطقه‌ای را آغاز کرده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/us-bahrain-sixth-anniversary-abraham-accords/8199069.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.25K",
+      "views_label": "2.31K",
       "posted_at": "2026-09-15T13:19:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230610",
@@ -310,7 +338,7 @@
       "plain_text": "🔺حمله نیروهای مسلح یمن به انبارهای تسلیحاتی حوثی‌ها در مأرب\n\n▪️نیروهای مسلح دولت قانونی یمن که در سطح بین‌المللی به رسمیت شناخته شده است، از حملات هوایی به انبارهای تسلیحاتی متعلق به شبه‌نظامیان حوثی‌ وابسته به جمهوری اسلامی‌ در استان مرکزی مأرب خبر دادند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/airstrikes-target-houthi-weapons-depots-marib/8199061.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.54K",
+      "views_label": "2.57K",
       "posted_at": "2026-09-15T12:59:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230609",
@@ -338,7 +366,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.46K",
+      "views_label": "2.49K",
       "posted_at": "2026-09-15T12:50:56+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230608",
@@ -366,7 +394,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.59K",
+      "views_label": "2.62K",
       "posted_at": "2026-09-15T12:43:41+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230607",
@@ -394,7 +422,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.56K",
+      "views_label": "2.59K",
       "posted_at": "2026-09-15T12:38:32+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230606",
@@ -450,7 +478,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.4K",
+      "views_label": "2.43K",
       "posted_at": "2026-09-15T12:26:49+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230604",
@@ -478,7 +506,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.33K",
+      "views_label": "2.36K",
       "posted_at": "2026-09-15T12:19:01+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230603",
@@ -2406,34 +2434,6 @@
       "posted_at": "2026-09-14T18:04:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230524",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/230523",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/MIHnmMWY6t9OPGQ5xzV76NnzhUT-RUVe6xTBVgJgG2GBouDTKPM6zHrvwmFKXJx-eZpyEyVzPpGmQOrLAVTrpSZt9fiJLfEPyvCi_Jg6XOScwGmHYp1N9GRMsFvSwdMrtZ6l3q4pZBaorbT2N_peB3mvG_9gHKSMKXGN7H6dpyfGBFYBbtcF6BHnGI3Jf4PuhScCeR2MKGsv1NgZJ7YL9nogZOjOnLPZ7aIi1pjeh51d1sUNrHN_OW0MFZc_pgfWBSxCh3tCkbQeAwNvVJYHcJUn6IM4JptmU7nokM3nhIdrXaM988ljcAsBMLYdlZjqlCklSwHPOdyqurTR1KeguA.jpg",
-      "author_photo_path": "channels/farsivoa/media/105db6ff3b938192011ceee3.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "رهبران احزاب ملی‌گرای ولز، اسکاتلند و ایرلند شمالی در نشست کاردیف، توافقی برای همکاری در مسیر تعیین سرنوشت امضا کردند و از دولت بریتانیا خواستند برای تغییرات احتمالی در ساختار پادشاهی متحد آماده شود. این توافق الزام حقوقی ندارد و هنوز هیچ همه‌پرسی‌ قطعی یا زمان‌بندی نشده است",
-      "plain_text": "رهبران احزاب ملی‌گرای ولز، اسکاتلند و ایرلند شمالی در نشست کاردیف، توافقی برای همکاری در مسیر تعیین سرنوشت امضا کردند و از دولت بریتانیا خواستند برای تغییرات احتمالی در ساختار پادشاهی متحد آماده شود. این توافق الزام حقوقی ندارد و هنوز هیچ همه‌پرسی‌ قطعی یا زمان‌بندی نشده است",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/230523",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/RlW1eVaajk7qBs0-HxeKs09-QQhMh3ReoPXwFFu0hBYmh_WPttD0eSXaphiAVXFiq0pCydN9l2XRWLRUXfDxQHNp506JuSfqLehIngdNlTmCyF3JLIGCZEWREkHvxlqTmK6Ms31xjqGY9N7nOWFo49_Ie9zVcUjH4rizh763eAjmDYaerv9-9XKO2KusrQOxptajw-xq4yHtfHGGXLqEPEjLbqDQpHmA2xstchCjFrTcm8tBlOdcBPZ8PL6Ydc3vCPZKXh3YVUiVKqhL5G3T6JOm8GTxU7cSSzSLyShXt2gAOOSfKPhraqZxyLcJS0_P3_TcKILeLkWC7ogYH41dGQ",
-          "thumbnail_path": "channels/farsivoa/media/82abba40547b71eec9e71047.jpg",
-          "thumbnail_sha256": "8be6a12bf39b8a432344bdba22871a6c93d17631fe160845702aebacfc104e61",
-          "duration_label": "3:37",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.73K",
-      "posted_at": "2026-09-14T17:50:16+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/230523",
       "reply": null
     }
   ]
