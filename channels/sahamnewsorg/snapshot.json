@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-15T21:07:30.688Z",
+  "fetched_at": "2026-09-15T21:12:39.879Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "sahamnewsorg/147531",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/grqjBtFfrDDz8LnKI2hcRH9A80j_Wi2OlFv4q9BhaD21zRMeQHrHLZEX7ElMlVCxSLMGOiWmIldKy47zujBynNL82kKVKfqnzA5PQWOAcMQ2e7b8oi4lb12-3c1D9fhB1eCicl09Cvk0NuoMhQSPhISui-Rxjw2dYfFDTe2CqnWl7dOCnCF8vAisEbdBcc91yErrZ8uwY-PIUZPw7tTcx934vopHIa5rdrkZwprM2PFDBQwhQmVu5KoO5-DZ-0M1y1b1nZpqq-V0sZgoTUldScffmbnayh_T70ozLsadpjxZqBysLmEcnAa-qGuDhKuTs0FpO5e-ET2ReQHWD5z2zA.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/37209ae4643c0f43a42e2851.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>فیلم سخنان محمدپارسا گلچین، دانشجوی دانشگاه تهران در مقابل سعید جلیلی که فروردین امسال بازداشت و اخیرا به اتهام بغی محاکمه شده است. <br><br>او برنده‌ی مدال طلای المپیاد ادبیات است.<br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅فیلم سخنان محمدپارسا گلچین، دانشجوی دانشگاه تهران در مقابل سعید جلیلی که فروردین امسال بازداشت و اخیرا به اتهام بغی محاکمه شده است.\n\nاو برنده‌ی مدال طلای المپیاد ادبیات است.\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/147531",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/spt1STbRPjYRwBMeOvLt8yrPvChIWqVhOm5MGfXQevUcg3SjVlEWObrw5mpUIfyrAWaZzH4ghvcieuLsZQhqlNP45_-7nIcH-QYq2ni5EGfhOU9aAw95eoZhRQYc56My81c_jC3doeTCcXNDuoWQ1tRgfUEHspGB6fMfvqWh8uGrvNgb-X_1lBZuu-xgrdub36XFcfS2diiRnV22GxeCPbO_SLwmoMP_TMVywDTA8gQa8u5taiknj7TG0Tq63ho4QN5deZ7JKqCdczGLo2uizibkXWPkdHtGPo7E_67HsDnPBuN1hcfaS837W1qYyaNK36-X0CIR38ay_s6PCI5shQ",
+          "thumbnail_path": "channels/sahamnewsorg/media/8cf78bf65a01a050590d8788.jpg",
+          "thumbnail_sha256": "ff1c2aeaf3e7263e783fdda0dd50b003dda2b78b6621ec88157b86bac3a9687f",
+          "duration_label": "1:43",
+          "aspect_ratio": 0.8662420382165473
+        }
+      ],
+      "reactions": [],
+      "views_label": "39",
+      "posted_at": "2026-09-15T21:10:59+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/147531",
+      "reply": null
+    },
+    {
       "id": "sahamnewsorg/147530",
       "author_name": "سهام نیوز",
       "author_photo_url": "https://cdn1.telesco.pe/file/grqjBtFfrDDz8LnKI2hcRH9A80j_Wi2OlFv4q9BhaD21zRMeQHrHLZEX7ElMlVCxSLMGOiWmIldKy47zujBynNL82kKVKfqnzA5PQWOAcMQ2e7b8oi4lb12-3c1D9fhB1eCicl09Cvk0NuoMhQSPhISui-Rxjw2dYfFDTe2CqnWl7dOCnCF8vAisEbdBcc91yErrZ8uwY-PIUZPw7tTcx934vopHIa5rdrkZwprM2PFDBQwhQmVu5KoO5-DZ-0M1y1b1nZpqq-V0sZgoTUldScffmbnayh_T70ozLsadpjxZqBysLmEcnAa-qGuDhKuTs0FpO5e-ET2ReQHWD5z2zA.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "✅قیمت بنزین دیزل در ایالات متحده رسماً به یک رکورد جدید، یعنی 6.26 دلار به ازای هر گالن، افزایش یافت و در 9 ماه گذشته بیش از 80 درصد افزایش داشته است.\n\n🔹رانندگان کامیون اکنون تقریباً 3 دلار بیشتر به ازای هر گالن برای بنزین دیزل پرداخت می‌کنند، در مقایسه با قیمت‌ها در ماه ژانویه.\n\n🔹این افزایش قیمت، میانگین قیمت بنزین را در کالیفرنیا، یکی از گران‌ترین ایالت‌ها از نظر قیمت بنزین، از 6 دلار به ازای هر گالن فراتر برده است.\n🔹در همین راستا، انتظارات مربوط به افزایش نرخ بهره در فردا به بالاترین حد خود رسیده است.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "4.17K",
+      "views_label": "5.23K",
       "posted_at": "2026-09-15T20:58:53+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147530",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "6.15K",
+      "views_label": "8.2K",
       "posted_at": "2026-09-15T20:51:58+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147529",
@@ -65,7 +93,7 @@
       "plain_text": "✅اسکات بسنت، وزیر خرانه داری آمریکا\n\nآمریکا دیگر تهدید جمهوری اسلامی رو مدیریت نمی‌کنه. ما اون رو به پایان میرسونیم.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "7.99K",
+      "views_label": "9.03K",
       "posted_at": "2026-09-15T20:49:27+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147528",
@@ -81,7 +109,7 @@
       "plain_text": "✅ونس، معاون اول ترامپ:\nجنگ چند ماه دیگر وارد مرحله‌ای کاملاً متفاوت خواهد شد\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "8.51K",
+      "views_label": "9.56K",
       "posted_at": "2026-09-15T20:46:36+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147527",
@@ -118,7 +146,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "14.9K",
+      "views_label": "15.9K",
       "posted_at": "2026-09-15T20:28:52+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147526",
@@ -162,7 +190,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "17.6K",
+      "views_label": "18.6K",
       "posted_at": "2026-09-15T20:17:27+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147524",
@@ -234,7 +262,7 @@
       "plain_text": "✅کانال 13 اسرائیل گفته آمریکا و اسرائیل تو تدارک حمله سنگین به ایرانن!\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "33.1K",
+      "views_label": "34.1K",
       "posted_at": "2026-09-15T19:12:26+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147521",
@@ -262,7 +290,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "35.3K",
+      "views_label": "36.3K",
       "posted_at": "2026-09-15T19:05:24+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147520",
@@ -439,7 +467,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "46.6K",
+      "views_label": "47.6K",
       "posted_at": "2026-09-15T16:44:54+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147514",
@@ -467,7 +495,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "49.4K",
+      "views_label": "49.5K",
       "posted_at": "2026-09-15T16:13:53+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147513",
@@ -495,7 +523,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "48K",
+      "views_label": "49K",
       "posted_at": "2026-09-15T15:27:24+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147512",
@@ -2372,22 +2400,6 @@
       "posted_at": "2026-09-13T14:37:35+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147431",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/147430",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/eM9pjLQk3qmtEMBGDSLYh5Hf19k3sE3GKN1Qhs7ItWK_FOOhCwaB9m7FOwyFVnJMQ13lK1aw1xx5xJO_58c_XF7HS59LYX5f8TOGULbx5sXVDw9EKab-wBtFgOEGMuxvnxMMUni4Jrz7aFRumjknSm_PHaMS7F6OovKC9NQQeQnU3f1v-tMA-NH9n7XLGpQ5pAVX85B8paMbhb0zNrQaItxmafmA1SxFVhSFLpIidlueKlN-Kaq-9SOX7tlhtJGRkP_A61zU7BNzDfpw98d8K0o5SZYsNnKG8rBQvWJxDGOY6gw9UXrVHHp5jYspKrbZp77xXsU_SSesG8L8XyiwMQ.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/efd53fe972d45589873cdd3f.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>مدیر سامانه هوشمند سوخت: <br><br>خودروهای بالای یک میلیارد تومان مشمول سهمیه نرخ یک و دو نمی‌شوند و تنها ۱۱۰ لیتر بنزین ماهانه با نرخ سوم (۱۰ هزار تومانی) در کارت هوشمند سوختشان شارژ می‌شود<br><br>هر راننده فقط می‌توانند ۱۸۰ لیتر بنزین در کارت سوخت خود ذخیره کند.<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅مدیر سامانه هوشمند سوخت:\n\nخودروهای بالای یک میلیارد تومان مشمول سهمیه نرخ یک و دو نمی‌شوند و تنها ۱۱۰ لیتر بنزین ماهانه با نرخ سوم (۱۰ هزار تومانی) در کارت هوشمند سوختشان شارژ می‌شود\n\nهر راننده فقط می‌توانند ۱۸۰ لیتر بنزین در کارت سوخت خود ذخیره کند.\n\n@Sahamnewsorg",
-      "media": [],
-      "reactions": [],
-      "views_label": "54.6K",
-      "posted_at": "2026-09-13T14:19:31+00:00",
-      "edited": false,
-      "permalink": "https://t.me/sahamnewsorg/147430",
       "reply": null
     }
   ]
