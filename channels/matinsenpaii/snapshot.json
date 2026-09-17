@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-17T20:27:45.983Z",
+  "fetched_at": "2026-09-17T20:32:21.753Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5261",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/ZOnJauZn71VPrriNT3adYTCHiguEOvSE48Vw2ND3VkK4fsTnFbs-Xid4RhK4XUoB3ql6cUUeRYArbnguwVZS4n1cNwU0PuxMD2cErX-_GLFujWsuVvhXOistw3zaq6S3oPxS_A3Cjt2b2u78ZcgaUveD83WgCqDEc87gPFXFIeLqLBmKCZ1_WkFhnADEwbLTeyVa_KVSUd-D-9pf7G-H4vQLRvapZJJrX1BMaW-dNsPm5u7Qy2S8h-J0tjU540VvMTdd_T2_k-BPt3QYAKc_zA9ncLEnADO_ze-L66CpuvGjoWLeYj4wq6KOXKHr7XR0Js-fMaf62Rq4Fk3Hup_wVQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a02c0ffb4d626b6135c020c9.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i>;کاتن روتر<b> چیست؟</b><br>کاتن روتر یک ابزار سبک برای مدیریت چند سرویس DNS Tunnel روی یک سرور است.<br><blockquote expandable=\"\"><b>خیلی ساده بخواهیم بگوییم:<br>فرض کنید چند سرویس مختلف دارید، اما فقط یک سرور و یک IP در اختیار دارید. CottenRouter درخواست‌ها را دریافت می‌کند و بر اساس دامنه، هر درخواست را به سرویس مربوطه می‌فرستد.<br>یعنی چند سرویس می‌توانند از یک IP و پورت عمومی ۵۳ استفاده کنند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> توجه: CottenRouter خودش VPN یا تونل ایجاد نمی‌کند؛ بلکه سرویس‌های تونلی موجود مانند CottenDNS، MasterDnsVPN، StormDNS و SlipGate را مدیریت و مسیریابی می‌کند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> لینک پروژه:<br></b><a href=\"https://github.com/TaJirax/CottenRouter\" target=\"_blank\" rel=\"noopener\"><b>https://github.com/TaJirax/CottenRouter</b></a><b><br>پیش‌نیازها<br>برای نصب به این موارد نیاز دارید:<br>یک سرور Linux با IP عمومی<br>دسترسی SSH و root یا sudo<br>دامنه یا زیردامنه<br>سیستم‌عامل پیشنهادی: Ubuntu 20.04 به بالا یا Debian 11 به بالا<br>روی ویندوز مستقیماً نصب نمی‌شود؛ باید روی سرور Linux نصب شود.<br>نصب آسان<br>ابتدا با SSH به سرور وصل شوید:<br></b>ssh root@IP-SERVER<b><br>سپس دستور زیر را اجرا کنید:<br></b>curl -fsSL <a href=\"https://raw.githubusercontent.com/TaJirax/CottenRouter/main/scripts/install.sh\" target=\"_blank\" rel=\"noopener\">https://raw.githubusercontent.com/TaJirax/CottenRouter/main/scripts/install.sh</a> | sudo bash<b><br>بعد از نصب، پنل مدیریت را باز کنید:<br></b>sudo cottenrouter tui<b><br>استفاده خیلی ساده<br>در پنل بازشده:<br>با کلید Space سرویس موردنظر را انتخاب کنید.<br>با کلید i نصب هدایت‌شده را شروع کنید.<br>با کلیدهای Enter یا e دامنه و پورت سرویس را تنظیم کنید.<br>با کلید s یک سرویس را Restart کنید.<br>با کلید v اطلاعات اتصال و مسیر رمزها را ببینید.<br>با کلید x یک سرویس را حذف کنید.<br>تنظیم دامنه<br>برای هر سرویس یک زیردامنه جدا بسازید و همه را به IP سرور متصل کنید:<br></b><a href=\"http://cotten.example.com/\" target=\"_blank\" rel=\"noopener\"><b>cotten.example.com</b></a><b>  → CottenDNS<br></b><a href=\"http://master.example.com/\" target=\"_blank\" rel=\"noopener\"><b>master.example.com</b></a><b>  → MasterDnsVPN<br></b><a href=\"http://storm.example.com/\" target=\"_blank\" rel=\"noopener\"><b>storm.example.com</b></a><b>   → StormDNS<br></b><a href=\"http://feed.example.com/\" target=\"_blank\" rel=\"noopener\"><b>feed.example.com</b></a><b>    → thefeed<br>در پنل، همین دامنه‌ها را برای سرویس‌های مربوطه وارد کنید.<br>بررسی وضعیت سرویس<br>برای دیدن وضعیت CottenRouter:<br></b>sudo systemctl status cottenrouter<b><br>برای بررسی سلامت:<br></b>sudo cottenrouter healthz -config /etc/cottenrouter/config.json<b><br>برای دیدن لاگ‌ها:<br></b>sudo journalctl -u cottenrouter -f<b><br>به‌روزرسانی<br>برای نصب آخرین نسخه، همان دستور نصب را دوباره اجرا کنید:<br></b>curl -fsSL <a href=\"https://raw.githubusercontent.com/TaJirax/CottenRouter/main/scripts/install.sh\" target=\"_blank\" rel=\"noopener\">https://raw.githubusercontent.com/TaJirax/CottenRouter/main/scripts/install.sh</a> | sudo bash<b><br>نصاب تنظیمات قبلی را نگه می‌دارد و در صورت بروز خطا امکان بازگشت خودکار دارد.</b></blockquote><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> برای اطلاعات کامل‌تر، راهنمای فارسی پروژه را ببینید:<br><a href=\"https://github.com/TaJirax/CottenRouter/blob/main/README.fa.md\" target=\"_blank\" rel=\"noopener\">https://github.com/TaJirax/CottenRouter/blob/main/README.fa.md</a><br>اطلاعات این متن بر اساس راهنمای فعلی مخزن نوشته شده است.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🚀;کاتن روتر چیست؟\nکاتن روتر یک ابزار سبک برای مدیریت چند سرویس DNS Tunnel روی یک سرور است.\nخیلی ساده بخواهیم بگوییم:\nفرض کنید چند سرویس مختلف دارید، اما فقط یک سرور و یک IP در اختیار دارید. CottenRouter درخواست‌ها را دریافت می‌کند و بر اساس دامنه، هر درخواست را به سرویس مربوطه می‌فرستد.\nیعنی چند سرویس می‌توانند از یک IP و پورت عمومی ۵۳ استفاده کنند.\n⚠️ توجه: CottenRouter خودش VPN یا تونل ایجاد نمی‌کند؛ بلکه سرویس‌های تونلی موجود مانند CottenDNS، MasterDnsVPN، StormDNS و SlipGate را مدیریت و مسیریابی می‌کند.\n🔗 لینک پروژه:\nhttps://github.com/TaJirax/CottenRouter\nپیش‌نیازها\nبرای نصب به این موارد نیاز دارید:\nیک سرور Linux با IP عمومی\nدسترسی SSH و root یا sudo\nدامنه یا زیردامنه\nسیستم‌عامل پیشنهادی: Ubuntu 20.04 به بالا یا Debian 11 به بالا\nروی ویندوز مستقیماً نصب نمی‌شود؛ باید روی سرور Linux نصب شود.\nنصب آسان\nابتدا با SSH به سرور وصل شوید:\nssh root@IP-SERVER\nسپس دستور زیر را اجرا کنید:\ncurl -fsSL https://raw.githubusercontent.com/TaJirax/CottenRouter/main/scripts/install.sh | sudo bash\nبعد از نصب، پنل مدیریت را باز کنید:\nsudo cottenrouter tui\nاستفاده خیلی ساده\nدر پنل بازشده:\nبا کلید Space سرویس موردنظر را انتخاب کنید.\nبا کلید i نصب هدایت‌شده را شروع کنید.\nبا کلیدهای Enter یا e دامنه و پورت سرویس را تنظیم کنید.\nبا کلید s یک سرویس را Restart کنید.\nبا کلید v اطلاعات اتصال و مسیر رمزها را ببینید.\nبا کلید x یک سرویس را حذف کنید.\nتنظیم دامنه\nبرای هر سرویس یک زیردامنه جدا بسازید و همه را به IP سرور متصل کنید:\ncotten.example.com → CottenDNS\nmaster.example.com → MasterDnsVPN\nstorm.example.com → StormDNS\nfeed.example.com → thefeed\nدر پنل، همین دامنه‌ها را برای سرویس‌های مربوطه وارد کنید.\nبررسی وضعیت سرویس\nبرای دیدن وضعیت CottenRouter:\nsudo systemctl status cottenrouter\nبرای بررسی سلامت:\nsudo cottenrouter healthz -config /etc/cottenrouter/config.json\nبرای دیدن لاگ‌ها:\nsudo journalctl -u cottenrouter -f\nبه‌روزرسانی\nبرای نصب آخرین نسخه، همان دستور نصب را دوباره اجرا کنید:\ncurl -fsSL https://raw.githubusercontent.com/TaJirax/CottenRouter/main/scripts/install.sh | sudo bash\nنصاب تنظیمات قبلی را نگه می‌دارد و در صورت بروز خطا امکان بازگشت خودکار دارد.\n📌 برای اطلاعات کامل‌تر، راهنمای فارسی پروژه را ببینید:\nhttps://github.com/TaJirax/CottenRouter/blob/main/README.fa.md\nاطلاعات این متن بر اساس راهنمای فعلی مخزن نوشته شده است.\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5261",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/XWbHWcEMKqno0B1K15Es3YKOrA_UgAHAPfkAEKPsQHCQsCd5FogYv6S6XEwpME6pFFaOi0vkUowV1prECuO1q8uyO_h3S93rcUH-daH0iLMqeFyNjGq6e1hY9KtFXycwnQGMY9aSxphDM5eRppo-4AfMpMJsmSGMd5n0uqJOAVSy75U9m2Vci3tQ86TOY3Iy2Iz6ssPJ6KMgrPKMxhJ7i0ai9V16PpsX1kzA5NkFKAl-Eg4HL1N_AptuI5w7gITPetPiMBZXK8g8a-Cf6GY8PHrFP-Tq8_9p3y6o6f7Oedx2Z1LyIfhCGlJOVxKpkatFfZzQi-Km9qhKr4jdRu_ElQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/520cb6a6abfff1438d2c7df8.jpg",
+          "thumbnail_sha256": "d08a0be4de4de8a1569197efa2cbc239f5a98bbf012414dffe9b4d2c252c450d",
+          "duration_label": null,
+          "aspect_ratio": 2
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "10"
+        }
+      ],
+      "views_label": "980",
+      "posted_at": "2026-09-17T20:29:09+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5261",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5260",
       "author_name": "Matin SenPai",
@@ -23,10 +56,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "10"
+          "count": "27"
         },
         {
           "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "💔",
           "count": "4"
         },
         {
@@ -34,15 +71,11 @@
           "count": "1"
         },
         {
-          "emoji": "💔",
-          "count": "1"
-        },
-        {
           "emoji": "🦄",
           "count": "1"
         }
       ],
-      "views_label": "250",
+      "views_label": "2.81K",
       "posted_at": "2026-09-17T20:26:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5260",
@@ -73,11 +106,11 @@
         },
         {
           "emoji": "❤",
-          "count": "509"
+          "count": "518"
         },
         {
           "emoji": "😁",
-          "count": "56"
+          "count": "57"
         },
         {
           "emoji": "👍",
@@ -96,7 +129,7 @@
           "count": "6"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "21.4K",
       "posted_at": "2026-09-16T17:52:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5259",
@@ -133,7 +166,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.5K",
+      "views_label": "27.1K",
       "posted_at": "2026-09-15T13:42:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5258",
@@ -172,7 +205,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "130"
+          "count": "131"
         },
         {
           "emoji": "❤",
@@ -191,7 +224,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.9K",
+      "views_label": "26.3K",
       "posted_at": "2026-09-15T13:42:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5257",
@@ -240,7 +273,7 @@
           "count": "3"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "26.2K",
       "posted_at": "2026-09-15T08:05:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5256",
@@ -289,7 +322,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "24K",
       "posted_at": "2026-09-15T05:56:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5255",
@@ -326,7 +359,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.7K",
       "posted_at": "2026-09-14T20:47:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5254",
@@ -359,7 +392,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.6K",
       "posted_at": "2026-09-14T20:07:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5253",
@@ -409,7 +442,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.8K",
+      "views_label": "26.2K",
       "posted_at": "2026-09-14T18:52:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5252",
@@ -459,7 +492,7 @@
           "count": "5"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "25.8K",
       "posted_at": "2026-09-14T17:49:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5251",
@@ -517,7 +550,7 @@
           "count": "5"
         }
       ],
-      "views_label": "26.5K",
+      "views_label": "26.7K",
       "posted_at": "2026-09-14T17:12:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5250",
@@ -558,7 +591,7 @@
           "count": "6"
         }
       ],
-      "views_label": "26.9K",
+      "views_label": "27.2K",
       "posted_at": "2026-09-14T14:11:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5249",
@@ -608,7 +641,7 @@
           "count": "2"
         }
       ],
-      "views_label": "27.9K",
+      "views_label": "28.7K",
       "posted_at": "2026-09-14T14:02:13+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5248",
@@ -638,7 +671,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "484"
+          "count": "485"
         },
         {
           "emoji": "💔",
@@ -661,7 +694,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.6K",
+      "views_label": "30.9K",
       "posted_at": "2026-09-14T13:45:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5247",
@@ -698,7 +731,7 @@
           "count": "5"
         }
       ],
-      "views_label": "29.6K",
+      "views_label": "29.7K",
       "posted_at": "2026-09-14T13:07:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5246",
@@ -735,7 +768,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.5K",
+      "views_label": "30.6K",
       "posted_at": "2026-09-14T11:49:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5245",
@@ -797,7 +830,7 @@
           "count": "2"
         }
       ],
-      "views_label": "33.9K",
+      "views_label": "34.1K",
       "posted_at": "2026-09-13T20:28:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5244",
@@ -843,7 +876,7 @@
           "count": "3"
         }
       ],
-      "views_label": "32.2K",
+      "views_label": "32.3K",
       "posted_at": "2026-09-13T19:49:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5243",
@@ -901,7 +934,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.7K",
+      "views_label": "32.8K",
       "posted_at": "2026-09-13T19:40:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5242",
@@ -5083,47 +5116,6 @@
       "posted_at": "2026-09-02T09:52:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5147",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5146",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/pINAfCe3NJcSmRidlr5iBT3tJ1zi0E-RB9SCQRQcITzTzddPoDh1ZRodv_RQR_dnrH84ZqnBZpd7BVEoa-Qpewjtv6Uhdcpt27jgHlEN1a_5a2Hcm9r_1aZbLl-4sGybDO0h1rXNeu2kWJ2tKkV1ngMIuMrzk_Az7MO-obVLQhH68S2XKOVMohSSN1TlI4XTIThcbFJ7Zj-2d40-rsJwP18PMFQ0OSVCkkCnn1mc8A9tSR88UZaTOmSnF7Gf3RRpLw8CNXpBJ4c4YfoSOasz7tBaZHQzkcyjN8e3nWVGpkziRsBiPxoLVPzLF5widU6nWD8A_GGYFvHl69oT0G8M3w.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/b48f81f989b910188a77ba81.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "یکی از بچه‌ها هم تونسته بود با گوگل پی+اندروید<br>اشتراک Claudeاش رو تمدید کنه با <a href=\"https://t.me/MatinSenPaii/4917?single\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Mpay</a>",
-      "plain_text": "یکی از بچه‌ها هم تونسته بود با گوگل پی+اندروید\nاشتراک Claudeاش رو تمدید کنه با Mpay",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5146",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/oTFDZBIYBVVe5SVMkT3gvcOY1j3IYY2N7rgPEXqoiRU5B69lF19--J-a1kseL_e6xuPpZimnY4WuereH_eoJaaoU1-qzqMuT-RqfZPwA7MGNcJ5rxpKHhE_sCIJlqqg_LrfvS-5uJf1ni8KcuLxFiHEcOZdPVoXGkTHQik08rlG49Clg4ZXLxCuwDNzaR8IdBQFAiF5XgXlD6RlvZ9tjzQzMg7WtBL-J1bPicKMiurGn6DMhklAeu5BfM8-tG4Hl_tYdOHI9SDE7amvc0lzb8ADvt7-rO7mToNxF0jFUYbwJP3rQ2ScBYtCd1Lonu3zuQYDHV-1LSB7XwN3tT3KS3Q.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/45ab0ebd267415e30c73525a.jpg",
-          "thumbnail_sha256": "62fd827899350bf607abd8293b012e06ee18ad6bb9fc97a72f5a3ca50e38b977",
-          "duration_label": null,
-          "aspect_ratio": 2.2792022792022792
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "135"
-        },
-        {
-          "emoji": "👍",
-          "count": "13"
-        },
-        {
-          "emoji": "😁",
-          "count": "3"
-        }
-      ],
-      "views_label": "27.8K",
-      "posted_at": "2026-09-02T09:51:35+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5146",
       "reply": null
     }
   ]
