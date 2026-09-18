@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-18T11:12:34.850Z",
+  "fetched_at": "2026-09-18T11:17:26.655Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -12,13 +12,46 @@
   },
   "posts": [
     {
+      "id": "whitedns/1823",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/hNbnge03M_oKQV-8zZCnIWI7-Jl_xrmQniJvYdvEvOaVc_CNt80_nbnwEOBuD3vdGAsvMa1nsIXNEMGksUHRzE7ox3PG-w2AqRUIftI1J0-RCopjx-DzeknSko2FNO3602zRAOavMfM17CS6FcYdV46V-uaCefr4331dZvDDVwzXkn3dajkciT1cybZ22V4b6bO38uICnRtzvDdk0OHA1VGAFFhMaO5KkDaDMVFLrQeq8yeRGzRuc9V16LdZ_7tCXZUpICpMsWjLYfPefko5-bHTIH5SSFmC56u4RPRxHCvuDSTVK4EEczes6OY7AthsxP4Y99utRHusCfMXFIc0AQ.jpg",
+      "author_photo_path": "channels/whitedns/media/658b6c6eb02d57530fba9129.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "🥰",
+          "count": "4"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        },
+        {
+          "emoji": "🍓",
+          "count": "2"
+        }
+      ],
+      "views_label": "648",
+      "posted_at": "2026-09-18T11:13:06+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1823",
+      "reply": null
+    },
+    {
       "id": "whitedns/1822",
       "author_name": "White DNS",
       "author_photo_url": "https://cdn4.telesco.pe/file/hNbnge03M_oKQV-8zZCnIWI7-Jl_xrmQniJvYdvEvOaVc_CNt80_nbnwEOBuD3vdGAsvMa1nsIXNEMGksUHRzE7ox3PG-w2AqRUIftI1J0-RCopjx-DzeknSko2FNO3602zRAOavMfM17CS6FcYdV46V-uaCefr4331dZvDDVwzXkn3dajkciT1cybZ22V4b6bO38uICnRtzvDdk0OHA1VGAFFhMaO5KkDaDMVFLrQeq8yeRGzRuc9V16LdZ_7tCXZUpICpMsWjLYfPefko5-bHTIH5SSFmC56u4RPRxHCvuDSTVK4EEczes6OY7AthsxP4Y99utRHusCfMXFIc0AQ.jpg",
       "author_photo_path": "channels/whitedns/media/658b6c6eb02d57530fba9129.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b>WhiteAesther</b> Mobile 1.9.3 — نسخه پایدار<br>نسخه پایدار 1.9.3 منتشر شد. برای به‌روزرسانی می‌توانید از قابلیت جدید داخل اپ استفاده کنید یا فایل را مستقیماً روی نسخه فعلی نصب کنید.<br>برنامه را حذف نکنید تا هویت و تنظیماتتان حفظ شوند.<br><blockquote expandable=\"\">قابلیت‌های جدید<br>آپدیت مستقیم از داخل اپ<br>کارت «نسخه جدید منتشر شده» حالا می‌تواند فایل به‌روزرسانی را دانلود و نصب کند.<br>این قابلیت فقط زمانی فعال است که:<br>پوشش اتصال روی «کل دستگاه» باشد.<br>فایل با همان کلید نسخه نصب‌شده امضا شده باشد.<br>ابزارک صفحه اصلی<br>بدون باز کردن برنامه، اتصال را برقرار یا قطع کنید. برای افزودن ابزارک، در Settings دکمه Add را بزنید.<br>هنگام جست‌وجوی مسیر نیز دکمه قطع اتصال در دسترس خواهد بود.<br>مشکلات رفع‌شده<br>مشکل نسخه 1.8.0 که ممکن بود برای یک هویت دو رکورد نگه دارد، برطرف شده است. اگر نصب شما در این وضعیت گیر کرده باشد، با اولین اتصال خودکار اصلاح می‌شود.<br>جست‌وجوی طولانی finding a working route اکنون محدودیت زمانی دارد. این فرایند قبلاً روی شبکه‌های دشوار ممکن بود تا ۲۷ دقیقه طول بکشد.<br>هنگام جابه‌جایی بین وای‌فای و دیتای موبایل، تونل تا جای ممکن به شبکه جدید منتقل می‌شود و از ابتدا ساخته نخواهد شد.<br>اتصال MASQUE in MASQUE اصلاح شده است. اگر روش اول برای هاپ داخلی پاسخ ندهد، روش دوم نیز آزمایش می‌شود.<br>تمام اصلاح‌های نسخه 1.8.1 نیز در این نسخه قرار دارند.</blockquote><br>روش نصب دستی<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.9.3\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.9.3</a><br>فایل مناسب معماری گوشی را دانلود کنید. اگر نمی‌دانید کدام فایل مناسب است، نسخه universal را بگیرید و آن را روی نسخه فعلی نصب کنید.<br>در صورت مشاهده مشکل، از مسیر Settings ← Diagnostics گزینه Send diagnostics را بزنید و گزارش را ارسال کنید.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "WhiteAesther Mobile 1.9.3 — نسخه پایدار\nنسخه پایدار 1.9.3 منتشر شد. برای به‌روزرسانی می‌توانید از قابلیت جدید داخل اپ استفاده کنید یا فایل را مستقیماً روی نسخه فعلی نصب کنید.\nبرنامه را حذف نکنید تا هویت و تنظیماتتان حفظ شوند.\nقابلیت‌های جدید\nآپدیت مستقیم از داخل اپ\nکارت «نسخه جدید منتشر شده» حالا می‌تواند فایل به‌روزرسانی را دانلود و نصب کند.\nاین قابلیت فقط زمانی فعال است که:\nپوشش اتصال روی «کل دستگاه» باشد.\nفایل با همان کلید نسخه نصب‌شده امضا شده باشد.\nابزارک صفحه اصلی\nبدون باز کردن برنامه، اتصال را برقرار یا قطع کنید. برای افزودن ابزارک، در Settings دکمه Add را بزنید.\nهنگام جست‌وجوی مسیر نیز دکمه قطع اتصال در دسترس خواهد بود.\nمشکلات رفع‌شده\nمشکل نسخه 1.8.0 که ممکن بود برای یک هویت دو رکورد نگه دارد، برطرف شده است. اگر نصب شما در این وضعیت گیر کرده باشد، با اولین اتصال خودکار اصلاح می‌شود.\nجست‌وجوی طولانی finding a working route اکنون محدودیت زمانی دارد. این فرایند قبلاً روی شبکه‌های دشوار ممکن بود تا ۲۷ دقیقه طول بکشد.\nهنگام جابه‌جایی بین وای‌فای و دیتای موبایل، تونل تا جای ممکن به شبکه جدید منتقل می‌شود و از ابتدا ساخته نخواهد شد.\nاتصال MASQUE in MASQUE اصلاح شده است. اگر روش اول برای هاپ داخلی پاسخ ندهد، روش دوم نیز آزمایش می‌شود.\nتمام اصلاح‌های نسخه 1.8.1 نیز در این نسخه قرار دارند.\nروش نصب دستی\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.9.3\nفایل مناسب معماری گوشی را دانلود کنید. اگر نمی‌دانید کدام فایل مناسب است، نسخه universal را بگیرید و آن را روی نسخه فعلی نصب کنید.\nدر صورت مشاهده مشکل، از مسیر Settings ← Diagnostics گزینه Send diagnostics را بزنید و گزارش را ارسال کنید.\n\n@whitedns",
+      "body_html": "<b>WhiteAesther</b> Mobile 1.9.3 — نسخه پایدار<br>نسخه پایدار 1.9.3 منتشر شد. برای به‌روزرسانی می‌توانید از قابلیت جدید داخل اپ استفاده کنید یا فایل را مستقیماً روی نسخه فعلی نصب کنید.<br>برنامه را حذف نکنید تا هویت و تنظیماتتان حفظ شوند.<br><blockquote expandable=\"\">قابلیت‌های جدید<br>آپدیت مستقیم از داخل اپ<br>کارت «نسخه جدید منتشر شده» حالا می‌تواند فایل به‌روزرسانی را دانلود و نصب کند.<br>این قابلیت فقط زمانی فعال است که:<br>پوشش اتصال روی «کل دستگاه» باشد.<br>فایل با همان کلید نسخه نصب‌شده امضا شده باشد.<br>ابزارک صفحه اصلی<br>بدون باز کردن برنامه، اتصال را برقرار یا قطع کنید. برای افزودن ابزارک، در Settings دکمه Add را بزنید.<br>هنگام جست‌وجوی مسیر نیز دکمه قطع اتصال در دسترس خواهد بود.<br>مشکلات رفع‌شده<br>مشکل نسخه 1.8.0 که ممکن بود برای یک هویت دو رکورد نگه دارد، برطرف شده است. اگر نصب شما در این وضعیت گیر کرده باشد، با اولین اتصال خودکار اصلاح می‌شود.<br>جست‌وجوی طولانی finding a working route اکنون محدودیت زمانی دارد. این فرایند قبلاً روی شبکه‌های دشوار ممکن بود تا ۲۷ دقیقه طول بکشد.<br>هنگام جابه‌جایی بین وای‌فای و دیتای موبایل، تونل تا جای ممکن به شبکه جدید منتقل می‌شود و از ابتدا ساخته نخواهد شد.<br>اتصال MASQUE in MASQUE اصلاح شده است. اگر روش اول برای هاپ داخلی پاسخ ندهد، روش دوم نیز آزمایش می‌شود.<br>تمام اصلاح‌های نسخه 1.8.1 نیز در این نسخه قرار دارند.</blockquote><br>روش نصب دستی<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.9.3\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.9.3</a><br>فایل مناسب معماری گوشی را دانلود کنید. <br>اگر نمی‌دانید کدام فایل مناسب است، نسخه universal را بگیرید و آن را روی نسخه فعلی نصب کنید.<br><br>در صورت مشاهده مشکل، از مسیر Settings ← Diagnostics گزینه Send diagnostics را بزنید و گزارش را ارسال کنید.<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "WhiteAesther Mobile 1.9.3 — نسخه پایدار\nنسخه پایدار 1.9.3 منتشر شد. برای به‌روزرسانی می‌توانید از قابلیت جدید داخل اپ استفاده کنید یا فایل را مستقیماً روی نسخه فعلی نصب کنید.\nبرنامه را حذف نکنید تا هویت و تنظیماتتان حفظ شوند.\nقابلیت‌های جدید\nآپدیت مستقیم از داخل اپ\nکارت «نسخه جدید منتشر شده» حالا می‌تواند فایل به‌روزرسانی را دانلود و نصب کند.\nاین قابلیت فقط زمانی فعال است که:\nپوشش اتصال روی «کل دستگاه» باشد.\nفایل با همان کلید نسخه نصب‌شده امضا شده باشد.\nابزارک صفحه اصلی\nبدون باز کردن برنامه، اتصال را برقرار یا قطع کنید. برای افزودن ابزارک، در Settings دکمه Add را بزنید.\nهنگام جست‌وجوی مسیر نیز دکمه قطع اتصال در دسترس خواهد بود.\nمشکلات رفع‌شده\nمشکل نسخه 1.8.0 که ممکن بود برای یک هویت دو رکورد نگه دارد، برطرف شده است. اگر نصب شما در این وضعیت گیر کرده باشد، با اولین اتصال خودکار اصلاح می‌شود.\nجست‌وجوی طولانی finding a working route اکنون محدودیت زمانی دارد. این فرایند قبلاً روی شبکه‌های دشوار ممکن بود تا ۲۷ دقیقه طول بکشد.\nهنگام جابه‌جایی بین وای‌فای و دیتای موبایل، تونل تا جای ممکن به شبکه جدید منتقل می‌شود و از ابتدا ساخته نخواهد شد.\nاتصال MASQUE in MASQUE اصلاح شده است. اگر روش اول برای هاپ داخلی پاسخ ندهد، روش دوم نیز آزمایش می‌شود.\nتمام اصلاح‌های نسخه 1.8.1 نیز در این نسخه قرار دارند.\nروش نصب دستی\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.9.3\nفایل مناسب معماری گوشی را دانلود کنید.\nاگر نمی‌دانید کدام فایل مناسب است، نسخه universal را بگیرید و آن را روی نسخه فعلی نصب کنید.\n\nدر صورت مشاهده مشکل، از مسیر Settings ← Diagnostics گزینه Send diagnostics را بزنید و گزارش را ارسال کنید.⚠️\n\n@whitedns",
       "media": [
         {
           "kind": "photo",
@@ -35,12 +68,24 @@
       "reactions": [
         {
           "emoji": "❤",
+          "count": "9"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "🥰",
+          "count": "1"
+        },
+        {
+          "emoji": "💅",
           "count": "1"
         }
       ],
-      "views_label": "30",
+      "views_label": "783",
       "posted_at": "2026-09-18T11:11:37+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1822",
       "reply": null
     },
@@ -68,7 +113,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "94"
+          "count": "95"
         },
         {
           "emoji": "👏",
@@ -103,7 +148,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.8K",
+      "views_label": "21K",
       "posted_at": "2026-09-17T14:29:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1821",
@@ -164,7 +209,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.54K",
+      "views_label": "9.7K",
       "posted_at": "2026-09-17T13:02:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1820",
@@ -194,7 +239,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "148"
+          "count": "150"
         },
         {
           "emoji": "👍",
@@ -233,7 +278,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.2K",
+      "views_label": "10.3K",
       "posted_at": "2026-09-17T09:12:15+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1819",
@@ -251,7 +296,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "275"
+          "count": "276"
         },
         {
           "emoji": "👍",
@@ -473,7 +518,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.1K",
+      "views_label": "14.2K",
       "posted_at": "2026-09-16T19:17:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1815",
@@ -1322,7 +1367,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.3K",
+      "views_label": "19.6K",
       "posted_at": "2026-09-14T06:24:06+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1793",
@@ -5493,59 +5538,6 @@
       "posted_at": "2026-09-01T18:14:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1687",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1683",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/rS6RCEFuW1PXZWmyxL9LH4hksFuaqOEuDnCepdXgfMWm9oz3hmJLMzANIv_2zc1rPhXKBzaHdgikO5rClYjZvSxa6qEjavuy6H7cW8_rO4iHZZKaI2amn_SzCn6ktmwEwIdn2s_vN7sbDuv6Ttv5afB_MFRq8Y6IEF_2U3m7HlJdCo83ORjf-iIhrc_e9MkGFrgf68Wwtn-ERGNZ1-rlOgBZlN4v4hVkK8yE3mo_L8d34EG6S_2RGpY1TdM2CMOcYvDTCKs4-aThPObG5EEexm66nVyh9zr00A5R7x8GJQ_6qkL3x1X3CZ2noPTmgKSEyWwlULSLsF5p5gQoDSNaCw.jpg",
-      "author_photo_path": "channels/whitedns/media/3b073c05507a38416f82d77c.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "نسخه جدید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAF.png')\"><b>🎯</b></i> WhiteVPN Desktop  منتشر شد -v1.0.20<br><br>این نسخه بیشترین تغییرات کاربری چند وقت اخیر را دارد.<br><br> <br><blockquote expandable=\"\">سایت‌های ایرانی دیگر از تونل رد نمی‌شوند<br><br>بزرگ‌ترین درخواست شما بود: لازم نباشد برای باز کردن بانک یا سامانه‌های دولتی، وی‌پی‌ان را قطع کنید و بعد یادتان برود دوباره روشنش کنید.<br><br>مسیر: تنظیمات ← سایت‌هایی که از تونل رد نمی‌شوند<br><br>سایت‌های انتخابی مستقیم از خود دستگاه شما خارج می‌شوند. سریع‌تر باز می‌شوند، و آن‌هایی که آدرس خارجی را قبول نمی‌کنند درست کار می‌کنند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i> فهرست از قبل پر است. اولین مورد، کل دامنهٔ کشوری ایران را یکجا می‌گیرد<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i> دیجی‌کالا، آپارات، ورزش سه، دیوار، اسنپ و شاپرک هم در فهرست هستند<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i> هر کدام را می‌توانید حذف کنید و هرچه خواستید اضافه کنید<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i> محدودهٔ آی‌پی هم می‌شود اضافه کرد، مثلاً برای شبکهٔ محل کار<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i> چسباندن آدرس کامل اشکالی ندارد و بخش‌های اضافه خودکار حذف می‌شوند<br><br>پیش‌فرض خاموش است. آپدیت نباید بدون انتخاب خودتان مسیر ترافیکتان را عوض کند، پس اول سوئیچ بالای همان صفحه را روشن کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> هر چیزی که در این فهرست باشد با آدرس واقعی شما خارج می‌شود، دقیقاً مثل وقتی که وی‌پی‌ان خاموش است. هدف همین است، ولی یعنی هرچه نمی‌خواهید دیده شود جایش در این فهرست نیست.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FAA9F.png')\"><b>🪟</b></i> یک پنجره، هرچند بار که کلیک کنید<br><br>تا حالا هر بار اجرای برنامه یک آیکون تازه در نوار وظیفه می‌ساخت. دو بار، سه بار، و هر کدام یک موتور جداگانه که سر پورت با بقیه درگیر می‌شد.<br><br>حالا اجرای دوباره فقط همان پنجرهٔ موجود را جلو می‌آورد. مخصوصاً وقتی پنجره را بسته‌اید و برنامه کنار ساعت است، که از بیرون شبیه خاموش بودن به نظر می‌رسد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90A7.png')\"><b>🐧</b></i> حالت تونل روی لینوکس<br><br>تا حالا فقط روی ویندوز کار می‌کرد. حالا روی لینوکس هم هست و رمز را از طریق پولکیت می‌پرسد. اگر پولکیت نصب نباشد، گزینه اصلاً نشان داده نمی‌شود، به‌جای اینکه باشد و همیشه شکست بخورد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i> رنگ آیکون کنار ساعت<br><br>حالا وضعیت اتصال را از رنگ آیکون می‌فهمید، بدون باز کردن پنجره:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> متصل<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA0.png')\"><b>🟠</b></i> در حال اتصال<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B4.png')\"><b>🔴</b></i> ناموفق<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AAA.png')\"><b>⚪️</b></i> قطع<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948C.png')\"><b>🔌</b></i> پورت اشتراک‌گذاری روی شبکه<br><br>وقتی اتصال را با گوشی یا تلویزیون به اشتراک می‌گذارید، حالا پورت را خودتان تعیین می‌کنید. قبلاً اگر پورت اشغال بود، برنامه بی‌صدا پورت دیگری برمی‌داشت و دستگاهی که تنظیمش کرده بودید به جای خالی وصل می‌ماند.<br><br>هر دو پروتکل روی همان یک پورت کار می‌کنند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> تست همهٔ اشتراک‌ها در یک اجرا</blockquote><br><br>دانلود<br><br>ویندوز، مک و لینوکس، همه از این نشانی:<br><br><a href=\"http://github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "نسخه جدید 🎯 WhiteVPN Desktop منتشر شد -v1.0.20\n\nاین نسخه بیشترین تغییرات کاربری چند وقت اخیر را دارد.\n\n\nسایت‌های ایرانی دیگر از تونل رد نمی‌شوند\n\nبزرگ‌ترین درخواست شما بود: لازم نباشد برای باز کردن بانک یا سامانه‌های دولتی، وی‌پی‌ان را قطع کنید و بعد یادتان برود دوباره روشنش کنید.\n\nمسیر: تنظیمات ← سایت‌هایی که از تونل رد نمی‌شوند\n\nسایت‌های انتخابی مستقیم از خود دستگاه شما خارج می‌شوند. سریع‌تر باز می‌شوند، و آن‌هایی که آدرس خارجی را قبول نمی‌کنند درست کار می‌کنند.\n\n▪️ فهرست از قبل پر است. اولین مورد، کل دامنهٔ کشوری ایران را یکجا می‌گیرد\n▪️ دیجی‌کالا، آپارات، ورزش سه، دیوار، اسنپ و شاپرک هم در فهرست هستند\n▪️ هر کدام را می‌توانید حذف کنید و هرچه خواستید اضافه کنید\n▪️ محدودهٔ آی‌پی هم می‌شود اضافه کرد، مثلاً برای شبکهٔ محل کار\n▪️ چسباندن آدرس کامل اشکالی ندارد و بخش‌های اضافه خودکار حذف می‌شوند\n\nپیش‌فرض خاموش است. آپدیت نباید بدون انتخاب خودتان مسیر ترافیکتان را عوض کند، پس اول سوئیچ بالای همان صفحه را روشن کنید.\n\n⚠️ هر چیزی که در این فهرست باشد با آدرس واقعی شما خارج می‌شود، دقیقاً مثل وقتی که وی‌پی‌ان خاموش است. هدف همین است، ولی یعنی هرچه نمی‌خواهید دیده شود جایش در این فهرست نیست.\n\n🪟 یک پنجره، هرچند بار که کلیک کنید\n\nتا حالا هر بار اجرای برنامه یک آیکون تازه در نوار وظیفه می‌ساخت. دو بار، سه بار، و هر کدام یک موتور جداگانه که سر پورت با بقیه درگیر می‌شد.\n\nحالا اجرای دوباره فقط همان پنجرهٔ موجود را جلو می‌آورد. مخصوصاً وقتی پنجره را بسته‌اید و برنامه کنار ساعت است، که از بیرون شبیه خاموش بودن به نظر می‌رسد.\n\n🐧 حالت تونل روی لینوکس\n\nتا حالا فقط روی ویندوز کار می‌کرد. حالا روی لینوکس هم هست و رمز را از طریق پولکیت می‌پرسد. اگر پولکیت نصب نباشد، گزینه اصلاً نشان داده نمی‌شود، به‌جای اینکه باشد و همیشه شکست بخورد.\n\n🎨 رنگ آیکون کنار ساعت\n\nحالا وضعیت اتصال را از رنگ آیکون می‌فهمید، بدون باز کردن پنجره:\n\n🟢 متصل\n🟠 در حال اتصال\n🔴 ناموفق\n⚪️ قطع\n\n🔌 پورت اشتراک‌گذاری روی شبکه\n\nوقتی اتصال را با گوشی یا تلویزیون به اشتراک می‌گذارید، حالا پورت را خودتان تعیین می‌کنید. قبلاً اگر پورت اشغال بود، برنامه بی‌صدا پورت دیگری برمی‌داشت و دستگاهی که تنظیمش کرده بودید به جای خالی وصل می‌ماند.\n\nهر دو پروتکل روی همان یک پورت کار می‌کنند.\n\n🧪 تست همهٔ اشتراک‌ها در یک اجرا\n\nدانلود\n\nویندوز، مک و لینوکس، همه از این نشانی:\n\ngithub.com/WhiteDNS/WhiteVPN-Desktop/releases/latest\n\n@whitedns",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "143"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "11"
-        },
-        {
-          "emoji": "👍",
-          "count": "8"
-        },
-        {
-          "emoji": "🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "😍",
-          "count": "1"
-        },
-        {
-          "emoji": "🍓",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        },
-        {
-          "emoji": "💊",
-          "count": "1"
-        }
-      ],
-      "views_label": "15.3K",
-      "posted_at": "2026-09-01T17:47:04+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1683",
       "reply": null
     }
   ]
