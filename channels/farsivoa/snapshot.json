@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-18T18:04:40.041Z",
+  "fetched_at": "2026-09-18T18:06:36.317Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,67 @@
     "subscriber_count": "133K"
   },
   "posts": [
+    {
+      "id": "farsivoa/230944",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/qxydXYMeJMdisgQBwrpqQsToVozxGk23Oz4ENlV110A1cJoQ0nF5oRvUPwh3G_wNq1rBh0a_gBfwSMlgjrGp5GmaB1hHRymYdVVuaFql4qEaqGQt2Cw15u-4O35pKqj7-hkFdpqZEtlExc9H7yhCZvdUPFRvomx9FrK6ofRnR6B0Ejax8OjgAPf0S-n4WdodO0cbppa0hY30i1hRhBxU3KkrUA2vb5ot_pZieDU5s7YaGZ872a1OvUUMU-1cEIHY4pT_6iWv4_Y064rOzXtE30EZIplk5Cx0IoqMD99gplbg-zD38ekY3-OnjNaYNZJ-tXov5rnbkslCOWm4uJHTBA.jpg",
+      "author_photo_path": "channels/farsivoa/media/7d595faab2d6be7e441c4970.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">وزارت جنگ آمریکا تصاویری از پرواز جنگنده‌های ایالات متحده منتشر کرد و نوشت: «پروازها تا زمانی که روحیه بهتر شود، ادامه خواهند داشت.»<br><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a></div>",
+      "plain_text": "وزارت جنگ آمریکا تصاویری از پرواز جنگنده‌های ایالات متحده منتشر کرد و نوشت: «پروازها تا زمانی که روحیه بهتر شود، ادامه خواهند داشت.»\n\n@FarsiVOA",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/230944?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/n5rNBc81clDNlbnQ5osZtJ2QKBWXPgcGrYFmapHPVZiDftrzWAI0p49R73IDFzUf7yqwaChWwgwU6tt0FRnRmEcRBubwjJxMkkPJgPOm7FaWkGarz80U7yXHBd4EhkF5DLxAYKV2oLcr_nYSHZawSiOAxOjsLtkxJMHoN3u4R9LU6zCeRSfeXL9LgIAQc6rJl68sydOETlQ0s_shgwiN_IJ2rTg1NsXhfh-nJ6oJcAMg9fqNOr6QFQKtM2KgOFGVQw8Eq4KjP_5w-R1JIbgpt3oOETyJEImpk4DABw6syqQk0RfzeH2oVqBT63_aMDMy19OykYzsJJhm-totLvuypg.jpg",
+          "thumbnail_path": "channels/farsivoa/media/53e650ecd888975fa7e1c6c7.jpg",
+          "thumbnail_sha256": "a20d87d0aa934863a85fafb04ec1e2fbcd739b9e40d59206883d36c0ef123505",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/230945?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Ov9f2YqftckLMel5GgGc2zkHt6_M5rgeyIiUVuhYvcgdSmVRcU1zE6Evq2qD470BVcsCdq4V1bu-IRJbjz0wAbIldef1zxQaG3unc_lvYvbkS55zugtnqgppbI29o_3humKRq2Eaju_f7KM9qYIR1rcFbLgCmamEviuVC_ieZkFiQOcqUqlO1YHX4euTJqe6HvM4B3NRU8Z7B2Z3P72iPrEiaLQ54tiFdn85AYZuZGkXNz4r7423hgBCcEVR1ui8eDoszs1O_GxR-gP0_KiSAe2_9Yy7oN8KaoAgN4cwNlLe_fK4DTsmyUds9YUWmigPo4kdES6ZJDIBJLngOwmlGg.jpg",
+          "thumbnail_path": "channels/farsivoa/media/e0882639d4f1ba199b1f5f64.jpg",
+          "thumbnail_sha256": "761e86b7db080cd9f47e517e01fec0a873600f09e4694fd19307fd3d578c5113",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/230946?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/S0XFoJEP4wQchhwZzRLldMzNjeDjurZ8TMEznNGvz9QEveP9IRcm1JeA17TijWtS-O5UGoL6wvxLm77Q3PIL2Qy0Wbigc0zqgddAPpWZVNwKbqk_tDhZXoxdUJmb9ccw88gjgwPc4kzctKRxjSRkKlXWQ1tVCpqzqQlcbCzxJyIXYn3A_c9HVzqQPqaRMS8RueSbg9F2H9o6Y3z-aLPAh9hnu1hJDEkW61_u9pcFE0lLBQuuypW4cBaArpRPq0gQDyJokN3NWemODzLrvrrxuIQ76uoDNY2Hot5SdFaPOeckU1FStBv9YVuOkMfeFZh5CXv7TWXZ_svmMho8vklvQw.jpg",
+          "thumbnail_path": "channels/farsivoa/media/b54f87dcb2a8771397c6fa6c.jpg",
+          "thumbnail_sha256": "00a14fc33899f535e7cd4b19bbadd58df7564282e7dc4e4cf15f2619bb211100",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/farsivoa/230947?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/vOX9wnLM7AUTAP-mBj9Yg7b6YvWERHSCgEm3gcZ7INBt2vRFWufanM5_GUmrKsNcTnyEeP9XcSWg_DdyV7kgyNbGvoY3Jrh5vKgpgWOK5uEydXMX5jrJ1hnPnNJdEHzoqqC9TZMG8YYWIfe0ZuyQgxAdm7u3hP-aORS9ziUxMSOoDvhCGTFCu4NnXDZb5HzqQhPZ_h1_3neCs9FNTLGLXr6DyJ11SIvIaObNVAPj3_y6jbrEHcO5nqvt7f3jg5vrx22OiViNgqBys9WKv96AbXlDeUunA0GkmtKDc3aJjvxg02-BF4EZjRK92gcnFgwcOI6hwcDAYJBK5hPIrBAFrw.jpg",
+          "thumbnail_path": "channels/farsivoa/media/6f878d4145dc2a6bab59f4ca.jpg",
+          "thumbnail_sha256": "46094a61e4b92e8d3d6c70e73fa72395971b9b74c2b405d636f38c2eb15d42d6",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-09-18T18:06:27+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/230944",
+      "reply": null
+    },
     {
       "id": "farsivoa/230943",
       "author_name": "Farsi VOA",
@@ -33,7 +94,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "96",
+      "views_label": "318",
       "posted_at": "2026-09-18T18:02:41+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230943",
@@ -61,7 +122,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "644",
+      "views_label": "741",
       "posted_at": "2026-09-18T17:53:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230942",
@@ -77,7 +138,7 @@
       "plain_text": "🔺حکم ۶۰ سال زندان برای یک مقام امنیتی دوران بشار اسد توسط دادگاهی در آمریکا\n\n▪️دادستان‌های فدرال آمریکا اعلام کردند یک مقام رژیم سابق سوریه را که ریاست زندان مرکزی دمشق در زمان بشار اسد، رئیس جمهوری سابق این کشور، بر عهده داشت و توسط یک هیئت منصفه فدرال ایالات متحده در رابطه با ارتکاب شکنجه مجرم شناخته شده بود، در دادگاهی در آمریکا به ۶۰ سال زندان محکوم شد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/syria-bashar-al-assad-iran-proxy/8201541.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.34K",
+      "views_label": "1.41K",
       "posted_at": "2026-09-18T17:37:24+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230941",
@@ -105,7 +166,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.41K",
+      "views_label": "1.45K",
       "posted_at": "2026-09-18T17:31:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230940",
@@ -133,7 +194,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.9K",
+      "views_label": "1.93K",
       "posted_at": "2026-09-18T17:14:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230939",
@@ -205,7 +266,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.93K",
+      "views_label": "1.96K",
       "posted_at": "2026-09-18T17:07:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230934",
@@ -237,7 +298,7 @@
       "plain_text": "🔴📢‌ پادکست تفسیر خبر - جمعه ۲۷ شهریور\n\n🛜در صورتی که با مشکل اینترنت مواجه هستید میتوانید اخبار صدای آمریکا را از نسخه‌های پادکست خبری ما به صورت صوتی دنبال کنید و یا اخبار را از نسخه سبک وب‌سایت ما پیگیر باشید:\nhttps://ir.voanews.com/lite\n\n📡بروزترین فرکانسهای ماهواره‌ای را نیز میتوانید از صفحه زیر پیگیری کنید:\nhttps://ir.voanews.com/satellite\n\n🔔دیگر شبکه‌های اجتماعی ما را هم دنبال کنید:\nhttps://linktr.ee/voafarsi\n\n\nبا دوستانتان به اشتراک بگذارید\n@farsivoa",
       "media": [],
       "reactions": [],
-      "views_label": "1.94K",
+      "views_label": "1.97K",
       "posted_at": "2026-09-18T17:01:02+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230932",
@@ -253,7 +314,7 @@
       "plain_text": "🔺هگست با تشریح جزئیات عملیات نجات خلبانان آمریکایی در خاک ایران: هیچ‌کس را پشت سر جا نمی‌گذاریم\n\n▪️پیت هگست، وزیر جنگ ایالات متحده، روز جمعه ۲۷ شهریور در مراسم گرامی‌داشت آمریکایی‌های اسیر و ناپدیدشده جنگی، جزئیاتی از عملیات نجات دو نیروی آمریکایی را جنگنده آنها در جریان عملیات نظامی علیه جمهوری اسلامی هدف قرار گرفته بود، تشریح کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/us-military-pow-mia-iran/8201524.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.09K",
+      "views_label": "2.15K",
       "posted_at": "2026-09-18T16:55:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230931",
@@ -325,7 +386,7 @@
       "plain_text": "🔺لغو محدودیت استفاده غیرنظامی از حریم هوایی غرب عراق\n\n▪️وزارت حمل‌ونقل عراق اعلام کرد محدودیت استفاده غیرنظامی از بخش‌هایی از حریم هوایی غرب این کشور که از سال‌ها پیش برای عملیات نظامی در نظر گرفته شده بود، لغو شده است؛ اقدامی که به گفته این وزارتخانه بخشی از روند مرتبط با خروج نیروهای باقی‌مانده ائتلاف بین‌المللی به رهبری آمریکا است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iraq-reopens-western-airspace/8201498.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.32K",
+      "views_label": "3.33K",
       "posted_at": "2026-09-18T15:30:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230928",
@@ -2441,34 +2502,6 @@
       "posted_at": "2026-09-17T16:04:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230840",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/230839",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/L4oxa7UruzGxmfXc3RLIoJPqa96zbjmqnJlW89KNb9GCZiY1FJMXjPV5zwqTYLlw68ub81rz6z1gltt6Sa7zVlAoQVnVmGfHHXB7el2V_fcMz3vjM9PBGW12NBdVQQ3ptaL4lkkOB_u-H9ij8GgkcD4e6CZr5_9r64CbWteXQn-9HM_ZgTJyPneVn0CGWmO1V_w4269ilffXlYyCIBpmvdUomPbHVaiWueoRT3e566fG8IzKm0K_zR130refFPKE_6kki5N-m76hcsK4sA6VmJ4sW-m1H0CVIcwnR2WgNmgttjb8WZfz0K0JHeB4B-z-5pN5VLORzRypTGT_ju4Teg.jpg",
-      "author_photo_path": "channels/farsivoa/media/ae85998f857b90e85ac53917.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "هادی قائمی، بنيانگذار و مدير كمپين حقوق بشر در میدان: جمهوری اسلامی از هر شیوه‌ای برای سرکوب معترضان استفاده می‌کند و هر روز میزان این سرکوب‌ها را بیشتر می‌کند.",
-      "plain_text": "هادی قائمی، بنيانگذار و مدير كمپين حقوق بشر در میدان: جمهوری اسلامی از هر شیوه‌ای برای سرکوب معترضان استفاده می‌کند و هر روز میزان این سرکوب‌ها را بیشتر می‌کند.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/230839",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/B7sD1GxSA8Lgy1yzJrQNTU9TWAStBMaXZRWhC2Nr8p2pg859EWvef7w4gZY8w2s_Hzlrt1PopaMfXVYVmS2-8DUlAKOdrOr9X9RiXhhmquStStDsfZCz8Wet4zRuXGkmICB5EL_thMcXX8UIqbqNN4iX-4SW1RHck3AjSbbloJe4dyxe3HEVTIgzQD4e0vALJsq2kSFOgN_9wdBrKuIae1ZBzvc9L1ick7q9rv378kYAY12BXfQIBq8gfWeInQPZV5YxrRXAEx5eL23l4LNtl8doT2vXmj2E96MUdtl_69MGcMRRZHP_oFrnsWVUtYg7HGpATgW5-4RX3BfN9S9m0g",
-          "thumbnail_path": "channels/farsivoa/media/e5c38e1ef645a195d6a85c66.jpg",
-          "thumbnail_sha256": "80ecedf84319a50f28a143db40f2083277d44411fdd443ed1987892392b4ca49",
-          "duration_label": "2:09",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.65K",
-      "posted_at": "2026-09-17T15:54:53+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/230839",
       "reply": null
     }
   ]
