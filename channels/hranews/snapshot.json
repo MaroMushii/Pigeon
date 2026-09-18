@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-18T15:02:11.834Z",
+  "fetched_at": "2026-09-18T15:04:29.777Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "31.4K"
   },
   "posts": [
+    {
+      "id": "hranews/115741",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/mewRUyxdrsWf9NkIG8xM2bhoo5hvleLM7ZJkC6EFLMsH12syeOsPo89GV8xBId9KHv6ZJn1g2OwPHDo4PiGUPj3G8ouhCafB4NtCovl2nQHX886lvbWOOSzhx3bQs9djwbV9oWvSm-IY_1yvFSnNoQzaveTo6vEXs3UYxxZqp7dtwR-M6icnZqi7IY-gn93fDU9p_ojYEHUvMN2Bds9miUUaFhTiOhUufEF1qD9s2ZRmhkSvvzYLfqTr60Wl6BJJlaEjsHAkiMQCJoaJNj--OgTkmYKWv10hpI_KWLu8_zsTQzcBSwy8pwM7kIH07enNM-WN0vOY86Z2R1x6UyBbnA.jpg",
+      "author_photo_path": "channels/hranews/media/723a078c059cd90581e805c1.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "امروز جمعه ۲۷ شهریورماه، گروهی از شهروندان جویای کار شهر میانرود در مقابل درب ورودی شرکت کشت و صنعت «شهید بهشتی» در شهرستان دزفول دست به تجمع زدند. شهروندان معترض خواستار توجه مسئولان استانی و مدیران این شرکت جهت استخدام نیروهای بومی در این واحد صنعتی هستند.<br><br><a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9\">#تجمع</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "امروز جمعه ۲۷ شهریورماه، گروهی از شهروندان جویای کار شهر میانرود در مقابل درب ورودی شرکت کشت و صنعت «شهید بهشتی» در شهرستان دزفول دست به تجمع زدند. شهروندان معترض خواستار توجه مسئولان استانی و مدیران این شرکت جهت استخدام نیروهای بومی در این واحد صنعتی هستند.\n\n#تجمع\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/115741",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/J0syOA4TnEr_LUgnWN6A3LSxSMgdQtNb8yifYXJkQA__ZI0kAas9sJBrTE4Abo6zhOTMeGlAf2ziH-Q7sPU80uqnHq52Gd-_LJtyFSEEvnKSxDG2E_JJVo8c-IG8yP78CGF9esA0dcRba5TtG4SoesZzAtdbgCFz77pD58SOv5PH89Ox4DS7Dm6gmGnI3tiVL_une8OOEyXjhzV_JVrk1Kuz_r3weWYmgZEVJfon5c4Vpw6ez71D8O1sqKsyCpNtCHHGi0EoK8jw7aALAmrrlaRKYEFh6xMNWqTJfMbPavYJx8GrO_aKSaChtbJ_RDaFOmaX6E81nvUPYvjKtT1z2g",
+          "thumbnail_path": "channels/hranews/media/7d48822ff5d26908e321b124.jpg",
+          "thumbnail_sha256": "2712f9feef5d5b8e7dd4f4b3abfc2069f6ab3504e2f1689ac7e010e6fe3920a2",
+          "duration_label": "1:05",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "38",
+      "posted_at": "2026-09-18T15:02:17+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/115741",
+      "reply": null
+    },
     {
       "id": "hranews/115740",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "90",
+      "views_label": "111",
       "posted_at": "2026-09-18T14:50:46+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115740",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "332",
+      "views_label": "339",
       "posted_at": "2026-09-18T13:22:23+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115739",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "410",
+      "views_label": "416",
       "posted_at": "2026-09-18T12:43:43+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115738",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "541",
+      "views_label": "544",
       "posted_at": "2026-09-18T10:52:41+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115737",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "597",
+      "views_label": "601",
       "posted_at": "2026-09-18T09:22:07+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115736",
@@ -161,7 +189,7 @@
       "plain_text": "یاسر حسینی و محسن اسدی در کامیاران بازداشت شدند\n\n❗️❗️❗️❗️❗️– روز گذشته، یاسر حسینی و محسن اسدی، شهروندان اهل کامیاران، توسط نیروهای امنیتی در این شهرستان بازداشت و به مکان نامعلومی منتقل شدند.\n\n#یاسر_حسینی #محسن_اسدی\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "665",
+      "views_label": "667",
       "posted_at": "2026-09-18T08:39:18+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115735",
@@ -189,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "623",
+      "views_label": "625",
       "posted_at": "2026-09-18T08:05:52+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115734",
@@ -214,7 +242,7 @@
       "plain_text": "احضار و بازجویی مام عزیز قادری در پیرانشهر\n\n❗️❗️❗️❗️❗️– روز گذشته، مام عزیز قادری، شهروند اهل پسوه از توابع پیرانشهر، پس از احضار توسط اطلاعات سپاه مورد بازجویی قرار گرفت و سپس آزاد شد. همزمان، منزل وی نیز توسط نیروهای امنیتی مورد تفتیش قرار گرفت.\n\n#مام_عزیز_قادری\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "904",
+      "views_label": "908",
       "posted_at": "2026-09-18T07:34:03+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115733",
@@ -230,7 +258,7 @@
       "plain_text": "گزارش تکمیلی؛ شمار بازداشت‌شدگان در ارومیه به ۵ تن افزایش یافت\n\n❗️❗️❗️❗️❗️– با احتساب بازداشت مجید ابتهاج، واحد شعبانی، بهدار اسدی و صالح دربوبه‌چیچک، شهروندان اهل ارومیه شمار بازداشت شدگان روز چهارشنبه ۲۵ شهریورماه، در این شهرستان به پنج تن افزایش یافت. روز گذشته بازداشت فرهنگ دهقان گزارش شده بود.\n\n#مجید_ابتهاج #واحد_شعبانی #بهدار_اسدی #صالح_دربوبه‌چیچک #فرهنگ_دهقان\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "721",
+      "views_label": "723",
       "posted_at": "2026-09-18T07:07:38+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115732",
@@ -302,7 +330,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "927",
+      "views_label": "928",
       "posted_at": "2026-09-17T18:20:09+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115729",
@@ -318,7 +346,7 @@
       "plain_text": "معوقات مزدی کارگران فضای سبز شهرداری دورود\n\n❗️❗️❗️❗️❗️– شماری از #کارگران فصلی فضای سبز شهرداری دورود از عدم دریافت حقوق چهارماهه خود خبر دادند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "838",
+      "views_label": "839",
       "posted_at": "2026-09-17T17:52:07+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115728",
@@ -334,7 +362,7 @@
       "plain_text": "در سایه فقدان ایمنی کار؛ مرگ و مصدومیت ۴ کارگر\n\n❗️❗️❗️❗️❗️– در سایه فقدان ایمنی محیط و شرایط نامناسب کار، چهار کارگر در خرم‌آباد، زهک و خوانسار دچار حادثه شدند. در این حوادث، سه #کارگر جان خود را از دست دادند و یک تن دیگر مصدوم شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "818",
+      "views_label": "819",
       "posted_at": "2026-09-17T17:28:08+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115727",
@@ -362,7 +390,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "999",
+      "views_label": "1K",
       "posted_at": "2026-09-17T16:30:32+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115726",
@@ -378,7 +406,7 @@
       "plain_text": "احمد حاجی‌پور در اشنویه بازداشت شد\n\n❗️❗️❗️❗️❗️– روز چهارشنبه ۲۵ شهریورماه، احمد حاجی‌پور، شهروند اهل اشنویه، توسط ماموران اطلاعات سپاه، بازداشت و به مکان نامعلومی منتقل شدند.\n\nادامه مطلب\n\n#احمد_حاجی‌پور\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "860",
+      "views_label": "861",
       "posted_at": "2026-09-17T15:50:47+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115725",
@@ -434,7 +462,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.08K",
+      "views_label": "1.09K",
       "posted_at": "2026-09-17T14:17:40+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115723",
@@ -450,7 +478,7 @@
       "plain_text": "یک مجتمع تفریحی در زابل پلمب شد\n\n❗️❗️❗️❗️❗️– فرمانده انتظامی زابل از #پلمب یک مجتمع تفریحی در این شهر به دلیل آنچه «عدم رعایت شئونات اسلامی و بی حجابی» عنوان کرده است، خبر داد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "859",
+      "views_label": "861",
       "posted_at": "2026-09-17T13:44:19+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115722",
@@ -2250,22 +2278,6 @@
       "posted_at": "2026-09-14T17:32:28+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115642",
-      "reply": null
-    },
-    {
-      "id": "hranews/115641",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/byq0BV4I1_E798Mho_q9wMmxsex2DaIkDjuYaVnUNftFF5D3TbGQsnK_bTdVSlIwe4RppF84K_uL_CiuyDpj7B9xqwe2ZNhzGOIAEB_IrJFBd0kIRCRU2UL_htXL_uhebJ7cSbOBfjXZmiXrSKgM6HLuw2gU6I4pcgPlx-kTyQWCtBX5FRSlnCh-LV_8amC7LRGbsVnedfdkxZwPDHrPOgJaL6aXK11lBZ5kveY15Ph9unBKqQwyxKYYwo8IoPfotNMWScIrm2kjoNiTDzoINm5FQPfoXE93jVBaVS9KFYE23SPEeu6DhIiat9cv85jtFy5wcyEFtTQ-lV6aXpsjxQ.jpg",
-      "author_photo_path": "channels/hranews/media/501b127908206c303ed7876f.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "دانشگاه صنعتی امیرکبیر؛ صدور احکام اخراج و محرومیت از تحصیل برای ۱۸ دانشجو<br><br><tg-emoji emoji-id=\"4936376861581116178\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936234406105842841\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936202185261187827\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933936920725029797\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933769043338331221\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji>– کمیته انضباطی دانشگاه صنعتی امیرکبیر برای ۱۸ دانشجو در ارتباط با اعتراضات اسفندماه سال گذشته، احکام انضباطی صادر کرد. برای دو تن از این دانشجویان به دلیل آنچه «هتاکی به پرچم» عنوان شده، حکم اخراج صادر شد و سایر این دانشجویان، به تعلیق و محرومیت از تحصیل برای یک تا سه ترم محکوم شده‌اند.<br><br><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-1f2ef04e/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ادامه مطلب</a><br><br><a href=\"?q=%23%D8%A7%D8%AE%D8%B1%D8%A7%D8%AC_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88\">#اخراج_دانشجو</a> <a href=\"?q=%23%D9%85%D8%AD%D8%B1%D9%88%D9%85%DB%8C%D8%AA_%D8%A7%D8%B2_%D8%AA%D8%AD%D8%B5%DB%8C%D9%84\">#محرومیت_از_تحصیل</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "دانشگاه صنعتی امیرکبیر؛ صدور احکام اخراج و محرومیت از تحصیل برای ۱۸ دانشجو\n\n❗️❗️❗️❗️❗️– کمیته انضباطی دانشگاه صنعتی امیرکبیر برای ۱۸ دانشجو در ارتباط با اعتراضات اسفندماه سال گذشته، احکام انضباطی صادر کرد. برای دو تن از این دانشجویان به دلیل آنچه «هتاکی به پرچم» عنوان شده، حکم اخراج صادر شد و سایر این دانشجویان، به تعلیق و محرومیت از تحصیل برای یک تا سه ترم محکوم شده‌اند.\n\nادامه مطلب\n\n#اخراج_دانشجو #محرومیت_از_تحصیل\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [],
-      "reactions": [],
-      "views_label": "637",
-      "posted_at": "2026-09-14T17:04:56+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/115641",
       "reply": null
     }
   ]
