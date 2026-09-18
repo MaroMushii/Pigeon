@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-18T17:52:22.782Z",
+  "fetched_at": "2026-09-18T17:57:26.950Z",
   "channel": {
     "username": "iranlix",
     "title": "ایرانلیکس",
@@ -8,9 +8,37 @@
     "photo_url": "https://cdn4.telesco.pe/file/CdAT6apQVUPm87k-bVBzfl9dnoagNXk5icVDOins7k0bVOZLRe09N-44rX66Jok-jv7Mh90uxR93nQg_PE-YedFr8anMBv4ebk9BdO80RDgXwvv-lekg8SKPkB29SYp7KsSAz73WlQ6ZTte-hHK2BE8i_erjka6Fh4JQERguWHb2gM3plLAYz2vqKxmixpKoxDW_WAjyva8rukIkT2HkArIBYwczvk18ZwejeVT9l8CplFopDUziXjKMLdIZXMDUeJaSDCzeLzmH0oBLK2C2sEydS4WkutcW-DDsBAxLrDdJAZGkb8MtuT5YrR6oXI2NfDAube7x2QjUglcM3bw5Nw.jpg",
     "photo_path": "channels/iranlix/media/67e30ce23644cd6bd8bcddea.jpg",
     "photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-    "subscriber_count": "15.6K"
+    "subscriber_count": "15.5K"
   },
   "posts": [
+    {
+      "id": "iranlix/13277",
+      "author_name": "ایرانلیکس",
+      "author_photo_url": "https://cdn4.telesco.pe/file/CdAT6apQVUPm87k-bVBzfl9dnoagNXk5icVDOins7k0bVOZLRe09N-44rX66Jok-jv7Mh90uxR93nQg_PE-YedFr8anMBv4ebk9BdO80RDgXwvv-lekg8SKPkB29SYp7KsSAz73WlQ6ZTte-hHK2BE8i_erjka6Fh4JQERguWHb2gM3plLAYz2vqKxmixpKoxDW_WAjyva8rukIkT2HkArIBYwczvk18ZwejeVT9l8CplFopDUziXjKMLdIZXMDUeJaSDCzeLzmH0oBLK2C2sEydS4WkutcW-DDsBAxLrDdJAZGkb8MtuT5YrR6oXI2NfDAube7x2QjUglcM3bw5Nw.jpg",
+      "author_photo_path": "channels/iranlix/media/67e30ce23644cd6bd8bcddea.jpg",
+      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87B8.png')\"><b>🇺🇸</b></i><b>فرماندهی مرکزی ایالات متحده (سنتکام) اعلام کرد که نیروهای آمریکایی، به عنوان بخشی از محاصره اعمال شده بر بنادر ایران، مسیر حرکت 105 کشتی تجاری را تغییر داده‌اند.این تعداد 2 کشتی بیشتر از آمار منتشر شده روز سه‌شنبه است.</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
+      "plain_text": "🇺🇸فرماندهی مرکزی ایالات متحده (سنتکام) اعلام کرد که نیروهای آمریکایی، به عنوان بخشی از محاصره اعمال شده بر بنادر ایران، مسیر حرکت 105 کشتی تجاری را تغییر داده‌اند.این تعداد 2 کشتی بیشتر از آمار منتشر شده روز سه‌شنبه است.\n\n@iranlix",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/iranlix/13277",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/j6F1dPGps3KQtPwgAVG77yuNlQh-GoH2iIyN5f3qAslrRoyCrdIWweePtUQQPOh4nCRtdMxpDGoFYfDOjfINNp8SHwuwY0fk5u7aGZ9mr2l-uLSPekBLB9bYXhSUha2sUfdn8FJc7oz6IRXGneIbGDyuVlSSF2j2cRoLQpEeojdrHJGZXjwFDgZIT5NAhVuRgpIoIOKu_g4sPhs_x0P10o2em0V93-5AJ2BmbFEZjYEgh5OYQ_kL8YezijbSZh7uhZNJ41S6Wsv1YDAVKibU3OTvsMfDkDlSHzR-AscPLkuzkPYJLOUznC_qDsYQmpyAZYNzxP5b8eB-S_iOGqe-Ng",
+          "thumbnail_path": "channels/iranlix/media/99379853863f5c0f51c6c18f.jpg",
+          "thumbnail_sha256": "0e6111f359d06e320abf0d2e62884bc83db25c908d37bd7d4e70aceb2ac72a75",
+          "duration_label": "0:37",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "30",
+      "posted_at": "2026-09-18T17:55:31+00:00",
+      "edited": false,
+      "permalink": "https://t.me/iranlix/13277",
+      "reply": null
+    },
     {
       "id": "iranlix/13276",
       "author_name": "ایرانلیکس",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "338",
+      "views_label": "363",
       "posted_at": "2026-09-18T17:04:51+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13276",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "522",
+      "views_label": "538",
       "posted_at": "2026-09-18T16:21:20+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13275",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "616",
+      "views_label": "629",
       "posted_at": "2026-09-18T15:48:49+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13274",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "596",
+      "views_label": "610",
       "posted_at": "2026-09-18T15:48:05+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13273",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "586",
+      "views_label": "596",
       "posted_at": "2026-09-18T15:47:40+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13272",
@@ -173,7 +201,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "696",
+      "views_label": "706",
       "posted_at": "2026-09-18T14:46:21+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13271",
@@ -201,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "754",
+      "views_label": "764",
       "posted_at": "2026-09-18T14:16:16+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13270",
@@ -240,7 +268,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "836",
+      "views_label": "844",
       "posted_at": "2026-09-18T13:38:50+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13268",
@@ -268,7 +296,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "764",
+      "views_label": "772",
       "posted_at": "2026-09-18T13:38:36+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13267",
@@ -296,7 +324,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "736",
+      "views_label": "744",
       "posted_at": "2026-09-18T13:37:31+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13266",
@@ -324,7 +352,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "710",
+      "views_label": "717",
       "posted_at": "2026-09-18T13:37:03+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13265",
@@ -352,7 +380,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "774",
+      "views_label": "780",
       "posted_at": "2026-09-18T13:23:27+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13264",
@@ -380,7 +408,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "719",
+      "views_label": "725",
       "posted_at": "2026-09-18T13:21:12+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13263",
@@ -408,7 +436,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "829",
+      "views_label": "833",
       "posted_at": "2026-09-18T11:59:05+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13262",
@@ -436,7 +464,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "806",
+      "views_label": "809",
       "posted_at": "2026-09-18T11:58:55+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13261",
@@ -464,7 +492,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "849",
+      "views_label": "852",
       "posted_at": "2026-09-18T11:58:40+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13260",
@@ -492,7 +520,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "821",
+      "views_label": "825",
       "posted_at": "2026-09-18T11:32:18+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13259",
@@ -520,7 +548,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "888",
+      "views_label": "890",
       "posted_at": "2026-09-18T10:56:37+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13258",
@@ -2912,34 +2940,6 @@
       "posted_at": "2026-09-17T05:42:01+00:00",
       "edited": false,
       "permalink": "https://t.me/iranlix/13171",
-      "reply": null
-    },
-    {
-      "id": "iranlix/13170",
-      "author_name": "ایرانلیکس",
-      "author_photo_url": "https://cdn4.telesco.pe/file/dqALVMTN8j734_wqNDbOfPVXIv2FRLaR9E61cw0S1Xgy8KvAnjCAIMSGaCe2Ey7AllxlMv-JvlG4BUuYShMoUO3dAnxt-AZ1Lhbt-mLZiIqHb0zELs2jWGKrbjpzN92UCiYzVfYAzHeSqTH6jhNx1vxO_y4sBnvnnvBKD9GUmMyUGGO0LWk6GEmyGQLDuJK_3A9fGvumGgvPWGwAzcWLoFg3Ohz1xxyaEHrB7PqS3UuKHBkBiFhygOy61rVjD0Oub2H2rMw58FT_2Q4-rCXKs-tAn4B1PLOPtEqyiRcACgbMiB5p8ON6c1TBewc3Xtuis-Bt6iqk4eDKksz_VyG5nw.jpg",
-      "author_photo_path": "channels/iranlix/media/aa014b2a4d7e7667dda8f1d2.jpg",
-      "author_photo_sha256": "58714d71e5de463d1a08fb82318ed762817a3e589383c47d5438217ba2f7fa60",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i><b>مجلس نمایندگان آمریکا با رأی ۲۶۲ به ۱۵۹ به تصویب «قانون تحریم روسیه و ج.ا لیندسی او. گراهام ۲۰۲۶» رأی داد و این طرح برای امضای رئیس‌جمهور دونالد ترامپ به کاخ سفید ارسال شد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>این قانون ناوگان سایه روسیه را هدف تحریم قرار می‌دهد و به رئیس‌جمهور اجازه می‌دهد علیه پنج خریدار بزرگ محصولات انرژی روسیه، تا ۱۰۰ درصد تعرفه اعمال کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>این قانون همچنین قانون تحریم‌های ج.ا در سال ۱۹۹۶ را تمدید کرده و اقدامات تحریمی دیگری علیه روسیه و ج.ا در نظر می‌گیرد.</b><br><br><a href=\"https://t.me/iranlix\" target=\"_blank\">@iranlix</a>",
-      "plain_text": "🔹مجلس نمایندگان آمریکا با رأی ۲۶۲ به ۱۵۹ به تصویب «قانون تحریم روسیه و ج.ا لیندسی او. گراهام ۲۰۲۶» رأی داد و این طرح برای امضای رئیس‌جمهور دونالد ترامپ به کاخ سفید ارسال شد.\n\n🔹این قانون ناوگان سایه روسیه را هدف تحریم قرار می‌دهد و به رئیس‌جمهور اجازه می‌دهد علیه پنج خریدار بزرگ محصولات انرژی روسیه، تا ۱۰۰ درصد تعرفه اعمال کند.\n\n🔹این قانون همچنین قانون تحریم‌های ج.ا در سال ۱۹۹۶ را تمدید کرده و اقدامات تحریمی دیگری علیه روسیه و ج.ا در نظر می‌گیرد.\n\n@iranlix",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/iranlix/13170",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/ABXo4pbwTH2I4XTiUOsC9czoWfhi_rGFotDRqAQ1ihXsd9nF3WHwVEZCAQJUaEB4JAquaEtRzN55Bf0Y02AnvWipFzBkU7HY2-_NS8jA52lhcnbxpYB1vW3R2TX-cVO68i7rOEeJk415FeUtId65S5FXeubz4PuOVsZjk82BiyLZBdeUJS8oE9fZ5fe8NExPMEGRidxekIq2N_ICejA60VbCzsHDBdcR6Uh62SVIElJCoZtbwYypV9poRY43Mez5lF_lIccCayX8UmM75v-I1OT0Utr1Z4XotZrxs9nKT5myPmi4xR3fjOYzpG0ZlA_RQ89e8pYcfpb2dMohGHnfwg",
-          "thumbnail_path": "channels/iranlix/media/c7fd3840ce7e5cd0f1b51f48.jpg",
-          "thumbnail_sha256": "92f078c543a27feec4a752d1023d85fb69574bddfb45b4528df5dccedc02e6c1",
-          "duration_label": "0:15",
-          "aspect_ratio": 1.7750000000000026
-        }
-      ],
-      "reactions": [],
-      "views_label": "835",
-      "posted_at": "2026-09-17T05:38:05+00:00",
-      "edited": true,
-      "permalink": "https://t.me/iranlix/13170",
       "reply": null
     }
   ]
