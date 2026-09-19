@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-19T16:46:58.243Z",
+  "fetched_at": "2026-09-19T16:52:15.397Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -11,6 +11,34 @@
     "subscriber_count": "772K"
   },
   "posts": [
+    {
+      "id": "bbcpersian/291731",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/mcd2Xc_PbRL37iDN-DEni78ouBS68TPbSSuj63fIiaLt3tArGOlI3ZTJFQvnzg052o80YMNh-NVKAtk2EfXUwJnUAKrBYiWSklSgKlWs-hf2DGZHeQh5dgkOk3V82SBuXr6D8F1vNNixx2Dpn6RlfhjBcwfSFk4sKiQg5AI-QWSlG4GDroyC7exMwEIVwkEDov6JINhO9kly9Ieup8L9yBsPyY4NVqwHkLeMUHC1jgAj6sQV8pSFcglSgDw-3pKrQq2rPvxdxEJDZPxjHUu2eSE3_fPWXKRVVINxu7ddvz15EAXCbb109IrK7KHuZm-4d0Kpk9lyL8LYYKER0HKNwg.jpg",
+      "author_photo_path": "channels/bbcpersian/media/33299e5bfa5876a64e994820.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>عباس پوریانی، رئیس کل دادگستری چالوس، گفت «عوامل درگیری و قدرت‌نمایی خیابانی» بازداشت شده‌اند. <br><br>در پی انتشار ویدئویی از دو موتورسوار که در چالوس با یک خودرو درگیر می‌شوند، آقای پوریانی گفت افراد دخیل در این «نزاع» تحت تعقیب قضایی قرار گرفته و با قرار بازداشت موقت «روانه بازداشتگاه» شدند. <br><br>او گفت انتشار ویدئوی درگیری «امنیت عمومی و روانی شهروندان» را خدشه‌دار کرده بود. <br><br>زمان یا مکان دقیق این ویدئو معلوم نیست. اما دادگستری چالوس شنبه ۲۸ شهریور از بازداشت این افراد خبر داده است. <br><br><br><a href=\"https://t.me/BBCPresian\" target=\"_blank\">@BBCPresian</a>",
+      "plain_text": "🔻عباس پوریانی، رئیس کل دادگستری چالوس، گفت «عوامل درگیری و قدرت‌نمایی خیابانی» بازداشت شده‌اند.\n\nدر پی انتشار ویدئویی از دو موتورسوار که در چالوس با یک خودرو درگیر می‌شوند، آقای پوریانی گفت افراد دخیل در این «نزاع» تحت تعقیب قضایی قرار گرفته و با قرار بازداشت موقت «روانه بازداشتگاه» شدند.\n\nاو گفت انتشار ویدئوی درگیری «امنیت عمومی و روانی شهروندان» را خدشه‌دار کرده بود.\n\nزمان یا مکان دقیق این ویدئو معلوم نیست. اما دادگستری چالوس شنبه ۲۸ شهریور از بازداشت این افراد خبر داده است.\n\n\n@BBCPresian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/291731",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/f58_PoxriLlvou8ZN1Y-gRZ6MgSiubHCIsjIpTYFqqqMpba-FMm9bbh_csmsGVNNFqzycEGUe1v-FXJhMRtXlwqBFYnhcoaX5IoDzmIfG5CKAsTL2xfXo5NQxjtjJtZ5u8MS6UkayEQgX55qwFd9lX-BuO3wqV-knud6US-fv0ihg0h6JtmJe0I0Lyozequpixay3u7D3XqYi9kUvJliOv1orEos-DnOWk3ua9bTgDkRl4kLnYBqYkhg3NQ4qTM5gm6Bce7jyY5URENyp6RDCC_TgmV9HnGF5py1WYCCfBcbzY-Oxeyr_czOtFLXGXfNSmRtep-aVu-6VzZNT_1Z5w",
+          "thumbnail_path": "channels/bbcpersian/media/7822363461594fb9a2a0446d.jpg",
+          "thumbnail_sha256": "79ae1058401aa11daf5a677cbe4971c492f928ca0bb041af557b6c451075b2b2",
+          "duration_label": "0:38",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-09-19T16:50:42+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/291731",
+      "reply": null
+    },
     {
       "id": "bbcpersian/291730",
       "author_name": "BBCPersian",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.55K",
+      "views_label": "4.99K",
       "posted_at": "2026-09-19T16:38:37+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/291730",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.9K",
+      "views_label": "6.03K",
       "posted_at": "2026-09-19T16:32:56+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291721",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "7.24K",
+      "views_label": "8.34K",
       "posted_at": "2026-09-19T16:23:49+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291720",
@@ -205,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "14.8K",
+      "views_label": "15.8K",
       "posted_at": "2026-09-19T15:57:52+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291719",
@@ -349,7 +377,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "24.3K",
+      "views_label": "24.4K",
       "posted_at": "2026-09-19T14:37:09+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/291709",
@@ -2663,34 +2691,6 @@
       "posted_at": "2026-09-17T13:59:45+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/291594",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/291593",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/LDLEdDQ_2NIGZ0-fa-zAFMbTKTDQGyRsaqMgseHBfRkvWdZNQRpK4RmSJHpvfJ9Kreo1vduYiABC2aDx8YSnZ8_bJuwr5Nrt8Q1pd4AsX7zr-do8OtTGcmGTgwtQQ3Rk2GbISdYarsR_HZGuw_SlkoKsYPFBIC8GuNTKZyKmCzNCO_SuEoBa4iwLKYk0oginuE83dea7Kttf7B51oMrVFJVYCC5MXWNPwDJoxFEhGdLNRCDjlkFOHj59w0JCT0Pt8npflpUZLIElGvq8IIkT05bQJz89U1Rc78EkVJt5TFcMDqIK2G53PjMYyvTn2Jk34u68sh_DqYgwq-vom7qfNA.jpg",
-      "author_photo_path": "channels/bbcpersian/media/b4f52744844945ffdc4bde63.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>وزارت خارجه ایران با انتشار بیانیه‌ای اخراج یکی از دیپلمات‌هایش از سوئد را محکوم کرد و گفت که به سفیر سوئد در تهران اطلاع داده که یکی از دیپلمات‌های این کشور باید ظرف ۴۸ ساعت ایران را ترک کند.</b><br><br>پیشتر وزارت خارجه سوئد گفته بود که سفیر ایران را احضار کرده و از یکی از مقام‌های سفارت ایران در استکهلم خواسته است این کشور را ترک کند. استکهلم دلیل این تصمیم را انجام فعالیتی «ناسازگار با کنوانسیون وین درباره روابط دیپلماتیک» اعلام کرد، اما توضیح بیشتری درباره ماهیت این فعالیت نداد.<br><br><br>برای خواندن مطلب کامل به لینک زیر مراجعه کنید:<br><a href=\"https://bbc.in/4ApO9kn\" target=\"_blank\" rel=\"noopener\">https://bbc.in/4ApO9kn</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B7.png')\"><b>📷</b></i>Getty Images<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻وزارت خارجه ایران با انتشار بیانیه‌ای اخراج یکی از دیپلمات‌هایش از سوئد را محکوم کرد و گفت که به سفیر سوئد در تهران اطلاع داده که یکی از دیپلمات‌های این کشور باید ظرف ۴۸ ساعت ایران را ترک کند.\n\nپیشتر وزارت خارجه سوئد گفته بود که سفیر ایران را احضار کرده و از یکی از مقام‌های سفارت ایران در استکهلم خواسته است این کشور را ترک کند. استکهلم دلیل این تصمیم را انجام فعالیتی «ناسازگار با کنوانسیون وین درباره روابط دیپلماتیک» اعلام کرد، اما توضیح بیشتری درباره ماهیت این فعالیت نداد.\n\n\nبرای خواندن مطلب کامل به لینک زیر مراجعه کنید:\nhttps://bbc.in/4ApO9kn\n📷Getty Images\n@BBCPersian",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/291593",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/Jmp8KBJdfQBugWyaOKbnj7WUJr5xS2-uxPK8uk_4H2CU-8vTzROdLNNIvUHuVwNM-hWsAvAqGfx8vg_tZt-oPwJ1PcdWSsj6_x1o7CuuC81Ot2efsillN2o9vLrSpsWBrNrNn6knKQEupSog4a2IoZz4m6q4jwbRpXezBwElGIvXyeUeMRP6h_hVPFby_Q_IHpqqBcezvY9CrLEIU9PdXLDHuvsNv3TMqzrY70DSANdtjXWuvZwtY46tnuyvDuweVkvLGr__NJY5DzImRSoENG7ocxnkVxXLgV55XvvK6HOTWpJ04AdBO_byKGIW_9Bn7Go6PWAHRKWp1AxDb2_BxQ.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/79a391657f60bff058ed5246.jpg",
-          "thumbnail_sha256": "8c8086768914ae4ad1e9f2b3048fa7c99204effb389c6365295849109332d503",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "28K",
-      "posted_at": "2026-09-17T13:51:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/291593",
       "reply": null
     }
   ]
