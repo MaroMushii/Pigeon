@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-19T18:36:58.909Z",
+  "fetched_at": "2026-09-19T18:40:02.049Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/231040",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/W1RO7JIMWz42fCpjnan3Ra3xJDxllp-1WGc6-PqdiIH73brG9i_CEZJVbD2paENaiBZ3ym69N3i8jQXIOU2i8xdnppc13-xzPIjatl8XtPcFbQBr79xiWznaZ30du6dsZT4IhTYypZ_xXD5kp9Ftk80jUO51VhUYexilho5RhisTEsk9sqvYzrJ1NkvWqBlW3org1e6c7hpVw-ipPTzc_hDpUQnBr_yeX68xYSk9iM4ZhmR2EwowZGjIYfAMQprBgPdPJ96ezY-dM6wp_XNZJJiPDo0Rq1SOvmuJqkafK68mr9l8JzDs6DInZzv8mIytnCOCPQ50ekP9DDnTlPNo1Q.jpg",
+      "author_photo_path": "channels/farsivoa/media/8771485a8c566029f7dda38d.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "معصومه طاهرخانی، تحلیل‌گر اقتصادی، می‌گوید تأکید مقامات جمهوری اسلامی بر پر بودن انبارها و موجودی کالا در فروشگاه‌ها در واقع تلاشی برای جلوگیری از هجوم مردم به بازار است، اما همزمان اعتراف به وجود رکود تورمی در اقتصاد ایران نیز محسوب می‌شود.",
+      "plain_text": "معصومه طاهرخانی، تحلیل‌گر اقتصادی، می‌گوید تأکید مقامات جمهوری اسلامی بر پر بودن انبارها و موجودی کالا در فروشگاه‌ها در واقع تلاشی برای جلوگیری از هجوم مردم به بازار است، اما همزمان اعتراف به وجود رکود تورمی در اقتصاد ایران نیز محسوب می‌شود.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/231040",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/KEIZTCXHsOCPqaxR81oBZSJqiEd6F_8kqeZTh47s0iDTO0f3jJU3buwTcdum667LfV-PCkwuyYmFqfeocvHNrXaHP7Xsca_jWbUK5hWJYCUDgzp9KAwRg8dw7Ovx3Z0TiTB8RuUv_3BmziMohkZtt5z0AnDyhHeEy-UFUWTRx6nrEOGLF256PsC3-iccHx-bbRzvcgKTpXTFvmkKJTumr3GRzEioSJghLyFibG0AetL47flioL3bfK1hUF0yxRbDLSuoyy2JzEnZdSb6pQChkdgAsDk454BvVTYpJKNItKZN-UQBy83jIcIx8RUjdh44sbfAeFlFqwVSbnvkoBb-fA",
+          "thumbnail_path": "channels/farsivoa/media/3fa90fb2918446438d34e375.jpg",
+          "thumbnail_sha256": "9065d2a2c6221366603633aef3958580b07de292bbeda2103fc34da784ee291e",
+          "duration_label": "2:21",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "33",
+      "posted_at": "2026-09-19T18:39:21+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/231040",
+      "reply": null
+    },
+    {
       "id": "farsivoa/231039",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/W1RO7JIMWz42fCpjnan3Ra3xJDxllp-1WGc6-PqdiIH73brG9i_CEZJVbD2paENaiBZ3ym69N3i8jQXIOU2i8xdnppc13-xzPIjatl8XtPcFbQBr79xiWznaZ30du6dsZT4IhTYypZ_xXD5kp9Ftk80jUO51VhUYexilho5RhisTEsk9sqvYzrJ1NkvWqBlW3org1e6c7hpVw-ipPTzc_hDpUQnBr_yeX68xYSk9iM4ZhmR2EwowZGjIYfAMQprBgPdPJ96ezY-dM6wp_XNZJJiPDo0Rq1SOvmuJqkafK68mr9l8JzDs6DInZzv8mIytnCOCPQ50ekP9DDnTlPNo1Q.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺تایید حکم اخراج سه دانشجوی معترض توسط وزارت علوم جمهوری اسلامی\n\n▪️کمیته مرکزی انضباطی وزارت علوم جمهوری اسلامی احکام اخراج و محرومیت از تحصیل سه دانشجوی معترض دانشگاه‌های بهشتی و صنعتی شریف را تأیید و به آنان ابلاغ کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-expels-three-students/8201843.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "357",
+      "views_label": "485",
       "posted_at": "2026-09-19T18:31:31+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231039",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "480",
+      "views_label": "604",
       "posted_at": "2026-09-19T18:28:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231038",
@@ -65,7 +93,7 @@
       "plain_text": "🔺آغاز بیستمین دوره بازی‌های آسیایی؛ ایران با ۳۰۵ ورزشکار در آیچی-ناگویا\n\n▪️بیستمین دوره بازی‌های آسیایی روز شنبه ۲۸ شهریور به طور رسمی در منطقه آیچی–ناگویا در ژاپن آغاز شد. رقابت‌هایی که ایران در هفدهمین حضور خود در تاریخ این بازی‌ها، با ۳۰۵ ورزشکار در ۳۸ رشته در آن شرکت کرده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-enters-asian-games/8201849.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "762",
+      "views_label": "886",
       "posted_at": "2026-09-19T18:21:02+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231037",
@@ -93,7 +121,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.33K",
+      "views_label": "1.4K",
       "posted_at": "2026-09-19T18:03:14+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/231036",
@@ -121,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.4K",
+      "views_label": "1.46K",
       "posted_at": "2026-09-19T17:59:48+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231035",
@@ -137,7 +165,7 @@
       "plain_text": "🔺هگست: رویارویی با نیروهای مسلح آمریکا به شکست دشمنان منجر خواهد شد\n\n▪️پیت هگست، وزیر جنگ ایالات متحده، در سخنانی در دانشگاه تگزاس ای‌اند‌ام گفت متحدان آمریکا باید بدانند که واشنگتن «محکم و استوار» ایستاده است و به دشمنان آمریکا هشدار داد که مقابله با نیروهای مسلح ایالات متحده به شکست آنها منجر خواهد شد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/us-military-department-war-trump/8201840.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.62K",
+      "views_label": "1.66K",
       "posted_at": "2026-09-19T17:53:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231034",
@@ -165,7 +193,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.47K",
+      "views_label": "1.53K",
       "posted_at": "2026-09-19T17:50:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231033",
@@ -181,7 +209,7 @@
       "plain_text": "🔺کشف یک شبکه مرتبط با حزب‌الله؛ مقام لبنانی: هدف‌شان اقدامات «تروریستی و خرابکارانه» در سوریه بود\n\n▪️یک مقام دولتی لبنان بعد از یک هفته بررسی‌های اولیه ۱۴ فرد لبنانی و سوری را به تشکیل شبکه‌ای از افراد شرور برای انجام عملیات تروریستی و خرابکارانه در شهرهای ساحلی سوریه، آموزش کار با مواد منفجره به آنها، و اعزام آنها به سوریه متهم کرده است. پنج تن از این افراد در بازداشت به سر می‌برند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/hezbollah-syria-terrorism-iran-proxy/8201835.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.17K",
+      "views_label": "2.21K",
       "posted_at": "2026-09-19T17:24:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231032",
@@ -241,7 +269,7 @@
       "plain_text": "🔴📢‌ پادکست تفسیر خبر - شنبه ۲۸ شهریور\n\n🛜در صورتی که با مشکل اینترنت مواجه هستید میتوانید اخبار صدای آمریکا را از نسخه‌های پادکست خبری ما به صورت صوتی دنبال کنید و یا اخبار را از نسخه سبک وب‌سایت ما پیگیر باشید:\nhttps://ir.voanews.com/lite\n\n📡بروزترین فرکانسهای ماهواره‌ای را نیز میتوانید از صفحه زیر پیگیری کنید:\nhttps://ir.voanews.com/satellite\n\n🔔دیگر شبکه‌های اجتماعی ما را هم دنبال کنید:\nhttps://linktr.ee/voafarsi\n\n\nبا دوستانتان به اشتراک بگذارید\n@farsivoa",
       "media": [],
       "reactions": [],
-      "views_label": "2.49K",
+      "views_label": "2.53K",
       "posted_at": "2026-09-19T16:57:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231029",
@@ -269,7 +297,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.5K",
+      "views_label": "2.51K",
       "posted_at": "2026-09-19T16:50:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231028",
@@ -297,7 +325,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.47K",
+      "views_label": "2.48K",
       "posted_at": "2026-09-19T16:44:28+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231027",
@@ -313,7 +341,7 @@
       "plain_text": "🔺پیوستن زندان بندرعباس به کارزار «سه‌شنبه‌های نه به اعدام»؛ شمار زندان‌ها به ۶۳ رسید\n\n▪️زندانیان زندان بندرعباس در استان هرمزگان اعلام کرده‌اند به کارزار «سه‌شنبه‌های نه به اعدام» می‌پیوندند و از سه‌شنبه ۳۱ شهریور در اعتراض به صدور و اجرای احکام اعدام، اعتصاب غذای هفتگی برگزار خواهند کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-bandar-abbas-prison-executions-death-penalty/8201820.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.13K",
+      "views_label": "3.16K",
       "posted_at": "2026-09-19T16:04:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231026",
@@ -341,7 +369,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.75K",
+      "views_label": "2.78K",
       "posted_at": "2026-09-19T16:03:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231025",
@@ -369,7 +397,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.71K",
+      "views_label": "2.74K",
       "posted_at": "2026-09-19T15:58:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231024",
@@ -397,7 +425,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.83K",
+      "views_label": "2.87K",
       "posted_at": "2026-09-19T15:51:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231023",
@@ -425,7 +453,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.09K",
+      "views_label": "3.12K",
       "posted_at": "2026-09-19T15:22:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231022",
@@ -2486,22 +2514,6 @@
       "posted_at": "2026-09-18T17:07:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/230934",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/230933",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/qxydXYMeJMdisgQBwrpqQsToVozxGk23Oz4ENlV110A1cJoQ0nF5oRvUPwh3G_wNq1rBh0a_gBfwSMlgjrGp5GmaB1hHRymYdVVuaFql4qEaqGQt2Cw15u-4O35pKqj7-hkFdpqZEtlExc9H7yhCZvdUPFRvomx9FrK6ofRnR6B0Ejax8OjgAPf0S-n4WdodO0cbppa0hY30i1hRhBxU3KkrUA2vb5ot_pZieDU5s7YaGZ872a1OvUUMU-1cEIHY4pT_6iWv4_Y064rOzXtE30EZIplk5Cx0IoqMD99gplbg-zD38ekY3-OnjNaYNZJ-tXov5rnbkslCOWm4uJHTBA.jpg",
-      "author_photo_path": "channels/farsivoa/media/7d595faab2d6be7e441c4970.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/farsivoa\"><span dir=\"auto\">Farsi VOA</span></a> pinned an audio file",
-      "plain_text": "Farsi VOA pinned an audio file",
-      "media": [],
-      "reactions": [],
-      "views_label": null,
-      "posted_at": "2026-09-18T17:01:28+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/230933",
       "reply": null
     }
   ]
