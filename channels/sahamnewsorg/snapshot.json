@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-20T10:07:17.092Z",
+  "fetched_at": "2026-09-20T10:12:06.416Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -11,6 +11,43 @@
     "subscriber_count": "218K"
   },
   "posts": [
+    {
+      "id": "sahamnewsorg/147747",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/sSHT63cwIcPnsnRQkq0Yd2YIbT_UZwS7WnFJHf7rksOXMiHJXhUaTHLBBKI1qdWXwn8eicke7Gbku2hiDg5COcSddwtjh03fjw96UOmsyGgo9Lqo7YubOBg0hxtJsu3xOAy5GWM6fxH2yMiM5DQn7cZdS5eTFRl2lkthqb8JDArkAwWeGA4u_SPYv979p2uKCs7DCBa5x7Sbt9TctdLs5oE9FVWztp38ubnDBtECOpbWawByZPp4k98LqGOxpOzQ4R6exkZg358YXewRFlA2IiXUrDTsK4VaiJbK0nUfVplZjZGqkC68LKIq1LVDfGPXdc7zvNCay5TSI0EVaEogcQ.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/84e8bc3a0ea4632afebfe391.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>نمایش تبلیغاتی مضحک وزیر نفت برای مترو سوار شدن ،فیلمبرداری در حد فیلم سینمایی!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>به جای هنرپیشه شدن به فکر فروش نفت باش که ۱۰۰ میلیون بشکه رو چند تا بچه غارت نکنن<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅نمایش تبلیغاتی مضحک وزیر نفت برای مترو سوار شدن ،فیلمبرداری در حد فیلم سینمایی!\n\n🔻به جای هنرپیشه شدن به فکر فروش نفت باش که ۱۰۰ میلیون بشکه رو چند تا بچه غارت نکنن\n\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/147747",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/Pd0Pr8EFlf9Hrmy5KjlG8Qc0wuWtMH9QBCObDpNSBgrQhMgD5L6jAR4dDNdq-fre2Zk5iV7War56vMw2ITcht8cDjEkekOTiJzYJwvXuW4lYmtv7nEdgsfKdZGpRx1zBq8P4yQigzxg7rQ9VCinz50tmehWk-At3eKlH1KUDxklW9YXEYWLpuCf1NqJyv9TDrFGSJ5Y-wcs3eXe5V2w_mfCrBGfTEmfy39IXoUr2aYsocy0J3rpmm5Aofdqz_6thvmvjEC9Rt6rgaIFB-s47cBZQLR7nHNy2S7lWSElNELzH6YH7CR3VFKvhPvrazgir-ZnIA40kwfvqe3GlJdMExA",
+          "thumbnail_path": "channels/sahamnewsorg/media/ea0ea2844a1c907c4d509593.jpg",
+          "thumbnail_sha256": "f02d8e9761a698a5830f4663b0b8fdf6b6548e7d59979d597f991cd5f9bcdfcd",
+          "duration_label": "0:42",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "928",
+      "posted_at": "2026-09-20T10:10:30+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/147747",
+      "reply": {
+        "channel_username": "sahamnewsorg",
+        "post_id": "147648",
+        "author_name": "سهام نیوز",
+        "preview_text": "✅افشاگری بزرگ یاشار سلطانی از فساد جوجه امنیتی ها تا حسین شمخانی و روح الله رضوی در نفت کشور بی صاحب شده خاک بر سر وزیر نفت تنها کاری که نمی کنه فروش نفته کجای دنیا نفت در اختیار امنیتی ها قرار می گیرد؟ فروش نفت در اختیار چند تا جوجه اطلاعاتی قرار گرفته…",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/sahamnewsorg/147648"
+      }
+    },
     {
       "id": "sahamnewsorg/147746",
       "author_name": "سهام نیوز",
@@ -33,7 +70,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "8.58K",
+      "views_label": "9.81K",
       "posted_at": "2026-09-20T09:43:14+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147746",
@@ -61,7 +98,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "10.4K",
+      "views_label": "12K",
       "posted_at": "2026-09-20T09:37:47+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147745",
@@ -77,7 +114,7 @@
       "plain_text": "✅بازار دعا در فضای مجازی؛ از دلار و یورو تا یک میلیون تومان برای حل گرفتاری‌ها\n\n🔹روزنامه همشهری در گزارشی به فعالیت فردی با عناوین «حضرت استاد» و «حاج فردوسی» پرداخته که در سایت و صفحات مجازی خود مدعی است با دعاخوانی می‌تواند برخی بیماری‌ها و گرفتاری‌های افراد را برطرف کند.\n\n🔹براساس گزارش همشهری، برای خدمات ادعایی او تعرفه‌های مشخصی تعیین شده است؛ دعای آمرزش گناهان و محافظت دوماهه یک میلیون تومان و دعا برای یافتن شغل، پیدا شدن گمشده، وصول طلب و ایجاد عشق و محبت ۲ میلیون تومان هزینه دارد.\n\n🔹دعای افزایش رزق، قبولی در آزمون و ازدواج موفق ۳ میلیون تومان و دعای شفای بیماری یا سربه‌راه شدن همسر و فرزند ۴ میلیون تومان قیمت‌گذاری شده است.\n\n🔹بالاترین تعرفه نیز ۷ میلیون تومان است که برای دعاهایی مانند فرزنددار شدن، عاقبت‌به‌خیری و پیدا شدن «جفت روحی» دریافت می‌شود. برای متقاضیان خارج از ایران نیز مبالغ به دلار یا یورو محاسبه می‌شود.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "13.2K",
+      "views_label": "14.1K",
       "posted_at": "2026-09-20T09:27:53+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147744",
@@ -105,7 +142,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "15.7K",
+      "views_label": "16.6K",
       "posted_at": "2026-09-20T09:18:45+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147743",
@@ -133,7 +170,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "17.5K",
+      "views_label": "18.4K",
       "posted_at": "2026-09-20T09:10:14+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147742",
@@ -161,7 +198,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "19.3K",
+      "views_label": "20.3K",
       "posted_at": "2026-09-20T09:04:35+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147741",
@@ -177,7 +214,7 @@
       "plain_text": "✅روزنامه کوریره دلا سرا: ایتالیا آماده اعزام ۴ کشتی جنگی به تنگه باب المندب است\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "21.8K",
+      "views_label": "22.4K",
       "posted_at": "2026-09-20T08:46:16+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147740",
@@ -193,7 +230,7 @@
       "plain_text": "✅کشف بزرگترین مزرعهٔ ماینر در البرز\n\n🔹شرکت برق البرز: در یک مزرعهٔ استخراج رمزارز که در پوشش صنعت فعالیت می‌کرد، ۳۶۲ ماینر کشف شد.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "22.4K",
+      "views_label": "23K",
       "posted_at": "2026-09-20T08:43:32+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147739",
@@ -209,7 +246,7 @@
       "plain_text": "✅دراپ سایت : بازگشت زودتر از موعد ترامپ از کمپ دیوید، ویدیوهایی از برخاستن بمب‌افکن‌های B-1 از بریتانیا و هشدار امنیتی آمریکا به شهروندان این کشور در خاورمیانه، نگرانی‌ها درباره احتمال آغاز دور جدیدی از تشدید تنش علیه ایران را افزایش داده\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "24K",
+      "views_label": "24.6K",
       "posted_at": "2026-09-20T08:35:44+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147738",
@@ -225,7 +262,7 @@
       "plain_text": "✅وزارت خارجه آمریکا ویزای تیم رسانه ای پزشکیان به نیویورک رو صادر نکرد\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "25.2K",
+      "views_label": "25.8K",
       "posted_at": "2026-09-20T08:28:45+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147737",
@@ -241,7 +278,7 @@
       "plain_text": "✅یمن در آستانهٔ جنگی بی‌سابقه\n\n✍️احمد زید آبادی\nبه نظر می‌رسد آمریکا و عموم متحدانش خود را برای حمله‌ای سخت و گسترده علیه حوثی‌های يمن آماده می‌کنند.\nاحتمال ورود نیروهای زمینی برخی کشورهای منطقه به خاک یمن به قصد تصرف پایگاه‌های حوثی‌ها هم دور از انتظار نیست.\nنتیجه چه خواهد شد؟\nبهتر است صبر کنیم و شاهد باشیم.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "28K",
+      "views_label": "28.6K",
       "posted_at": "2026-09-20T08:14:53+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147736",
@@ -269,7 +306,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "29.1K",
+      "views_label": "29.7K",
       "posted_at": "2026-09-20T08:03:34+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147735",
@@ -325,7 +362,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "55.8K",
+      "views_label": "56.1K",
       "posted_at": "2026-09-19T22:19:31+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147733",
@@ -341,7 +378,7 @@
       "plain_text": "✅خبری در راه است؟\nسفارت آمریکا در بغداد، عربستان، امارات ،لبنان، بحرین، اردن،اسرائیل، عمان و قطر اخطاری امنیتی برای شهروندان آمریکایی صادر کرده است و از احتمال بسته شدن فضای هوایی به دلیل تحولات منطقه خبر داده است.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "57.3K",
+      "views_label": "57.6K",
       "posted_at": "2026-09-19T22:13:51+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147732",
@@ -357,7 +394,7 @@
       "plain_text": "✅متوحشی در لباس روحانیت\n\n✍ مجید مرادی\nمتوحشی در لباس روحانیت خواستار آزادی تجاوز در مقابل آزادی پوشش زنان شده است.\nاین متوحش حجاب اختیاری را که در همه عالم به جز افغانستان در محدوده عرف و طبق معمول، آزاد است به منزله تجاوز به ناموس امثال خود دیده و می گوید اگر نوع پوشش آزاد است پس تجاوز هم آزاد است.\nاین حد از ناموس‌نشناسی و هتک شرف و بی منطقی در جهان کم سابقه است. شریرترین و پست‌ترین جانیان هم از گفتن چنین عبارتی شرم دارند.\n\nاگر قانون و وجدان انسانی‌ای باقی مانده باشد باید عمامه از سر او بردارند و به سبب تشویش اذهان عمومی و تاثیرات ویران‌گر بر امنیت جامعه، کیفری سزاوارش دهند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "55.9K",
+      "views_label": "56.2K",
       "posted_at": "2026-09-19T22:06:05+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/147731",
@@ -2412,31 +2449,6 @@
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/147644",
       "reply": null
-    },
-    {
-      "id": "sahamnewsorg/147643",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SfKSL_8ykfOdQ1ba67ymQYmq5gTON3G6uR-h7XGmYrwLMM0yM_uRd1PJMtTLxFAR9oRo9knBhbfKd5qxJJWn4rHxXcKBrnz9JWIZun8HWPDmQ816FCo5cpFq5NJBCq-QaJz19iMeXzy9c4U6awZG5fqRiJjquHTqridbdAt-_URhXEAbl9uPZ7psKrmBCAjcnu799cnbJBTs5ixnVEXJCUrGqkfp1V3qI1ro9J3L2pnhMtQGE-DRaQjPbDjGAhNQ-uXWlAlYCCNXtF0gHU5z7wCoQSOrzvvVpVDSWn-3UrtvvlWUCosT8u426Q8MNq3JIjIHreqMZb9oOsNVD1gXAQ.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/69d126747844cbfad785fdc0.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>پیگوت، سخنگوی وزارت خارجه آمریکا:<br><br>اجازه نمیدیم مقامات جمهوری اسلامی در نیویورک با پول مردم خرید تجملاتی کنند.<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅پیگوت، سخنگوی وزارت خارجه آمریکا:\n\nاجازه نمیدیم مقامات جمهوری اسلامی در نیویورک با پول مردم خرید تجملاتی کنند.\n\n@Sahamnewsorg",
-      "media": [],
-      "reactions": [],
-      "views_label": "45.9K",
-      "posted_at": "2026-09-18T07:36:15+00:00",
-      "edited": false,
-      "permalink": "https://t.me/sahamnewsorg/147643",
-      "reply": {
-        "channel_username": "sahamnewsorg",
-        "post_id": "147632",
-        "author_name": "سهام نیوز",
-        "preview_text": "✅آسوشیتدپرس: واشنگتن با صدور روادید برای مقامات ارشد ایرانی جهت شرکت در مجمع عمومی سازمان ملل موافقت کرد. @Sahamnewsorg",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/sahamnewsorg/147632"
-      }
     }
   ]
 }
