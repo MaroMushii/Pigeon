@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-20T07:21:58.885Z",
+  "fetched_at": "2026-09-20T07:27:01.109Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5280",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/r5JY-bxviiDqCLefuxeCHBCiu8NUUkDwm_OuKq8iV-KRy0Ho_DIB7KA52Dub72jl_fZ9W-b1y4qJbGD0xvoehGUie_2kIho9Cdiw_BKl1S3J5JZks0vNVqR00CY5hGGl4cRqGa1Xkl7pYCCmIzLh93wRt6qxwW6PevltGnbbShVDucrVqqKwad6NU1RQCF6Kaz8eN6z8MeEL5vZsUbV0sySKurvVpR5ePYMT8QoXU3v86OY-hHWCwnZC3bMVXs06dc90mQfAcLLLyXGPoxrpmY0NKWrdAbdyUL2hJplUqAHZDL_sXex7TAKPlMMYXW-9gFOyhuDAeKCMyjeSMgTO7g.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/446731f42d3056a4f00e6efa.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "ویدئو درباره‌ی تفاوت اصلی بین LLMها و Jev هست.<br><br>خلاصه‌ی توییت این دوستمون:<br><br>- یه LLM معمولی، متن یا JSON رو توکن‌به‌توکن تولید می‌کنه.<br>- هر توکن به توکن قبلی وابسته‌س؛ بنابراین مدل باید برای تولید جواب، چندین مرحله‌ی پشت‌سرهم انجام بده.<br>- اما Jev اصلاً متن تولید نمی‌کنه.<br>- Jev به‌جای تولید توکن، مستقیماً از ورودی به یه ساختار یا خروجی مشخص می‌رسه.<br>- به‌همین دلیل، سرعت Jev فقط به این دلیل نیست که «سریع‌تر متن تولید می‌کنه»؛ بلکه اساساً فرایند تولید ترتیبی متن رو حذف می‌کنه.<br>- نتیجه می‌تونه پاسخ‌دهی سریع‌تر و مناسب‌تر برای کارهایی مثل خروجی JSON، ابزارها، ایجنت‌ها و پردازش‌های ساختاریافته باشه.<br><br>به‌عبارت ساده:<br><br> LLM مثل نویسنده‌ایه که جواب رو حرف‌به‌حرف می‌نویسه؛ Jev بیشتر شبیه سیستمیه که مستقیماً ساختار نهایی جواب رو می‌سازه.<br><br>البته این به‌معنی بهتر بودن Jev برای همه‌چیز نیست. LLMهای معمولی برای مکالمه، توضیح‌دادن و تولید متن آزاد انعطاف‌پذیرترن؛ اما Jev برای خروجی‌های مشخص و قابل‌ساختار، می‌تونه سریع‌تر و کارآمدتر باشه.<br><br><tg-emoji emoji-id=\"5470060791883374114\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> ترجمه و خلاصه از <a href=\"https://x.com/akshay_pachaar/status/2101309986156712025\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">akshay_pachaar</a>",
+      "plain_text": "ویدئو درباره‌ی تفاوت اصلی بین LLMها و Jev هست.\n\nخلاصه‌ی توییت این دوستمون:\n\n- یه LLM معمولی، متن یا JSON رو توکن‌به‌توکن تولید می‌کنه.\n- هر توکن به توکن قبلی وابسته‌س؛ بنابراین مدل باید برای تولید جواب، چندین مرحله‌ی پشت‌سرهم انجام بده.\n- اما Jev اصلاً متن تولید نمی‌کنه.\n- Jev به‌جای تولید توکن، مستقیماً از ورودی به یه ساختار یا خروجی مشخص می‌رسه.\n- به‌همین دلیل، سرعت Jev فقط به این دلیل نیست که «سریع‌تر متن تولید می‌کنه»؛ بلکه اساساً فرایند تولید ترتیبی متن رو حذف می‌کنه.\n- نتیجه می‌تونه پاسخ‌دهی سریع‌تر و مناسب‌تر برای کارهایی مثل خروجی JSON، ابزارها، ایجنت‌ها و پردازش‌های ساختاریافته باشه.\n\nبه‌عبارت ساده:\n\nLLM مثل نویسنده‌ایه که جواب رو حرف‌به‌حرف می‌نویسه؛ Jev بیشتر شبیه سیستمیه که مستقیماً ساختار نهایی جواب رو می‌سازه.\n\nالبته این به‌معنی بهتر بودن Jev برای همه‌چیز نیست. LLMهای معمولی برای مکالمه، توضیح‌دادن و تولید متن آزاد انعطاف‌پذیرترن؛ اما Jev برای خروجی‌های مشخص و قابل‌ساختار، می‌تونه سریع‌تر و کارآمدتر باشه.\n\n✍️ ترجمه و خلاصه از akshay_pachaar",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/5280",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/HB3omuVRZZzuq53U4oBcqLqGiPeQqA7OdYpkgBW5nNXlGtHzshSwmqNqnOYupWkP75zEDhyntv7TNrToumo9a2gccx2YRf4pblrAm2_al7h3gwaRy90jvnrrf2UCAxzokYIZggIbKSIsqU_cXviY81OxryoPML31SNbxBO9bBJFRymI9tNlbwyBtTgT9H1t_mo9eu6STAmCLT2ONvKYyhf7w5hl_Gic5pqHUb4SHDCC5JyVry7Wmf4M0vFXzcWE1gl-M6SiHY4-aNUY8FVgBDfkFLndZ7fnvHeIlNipdmed5pqV_hiAc8hFJj2HAkjKQ_rnjwj1sp7uc86lXIS-Sug",
+          "thumbnail_path": "channels/matinsenpaii/media/d78250dace83a4c1e46f8311.jpg",
+          "thumbnail_sha256": "7e61ef46272e867a100686b7f431de7fc5c2aa88dc5c0fc0a5036aad70d83d4c",
+          "duration_label": "0:03",
+          "aspect_ratio": 1.3500000000000012
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "13"
+        }
+      ],
+      "views_label": "974",
+      "posted_at": "2026-09-20T07:24:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5280",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5279",
       "author_name": "Matin SenPai",
@@ -35,7 +68,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "71"
+          "count": "87"
         },
         {
           "emoji": "❤",
@@ -46,7 +79,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.38K",
+      "views_label": "4.27K",
       "posted_at": "2026-09-20T07:07:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5279",
@@ -85,7 +118,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "124"
+          "count": "127"
         },
         {
           "emoji": "❤",
@@ -100,7 +133,7 @@
           "count": "2"
         }
       ],
-      "views_label": "17.4K",
+      "views_label": "17.6K",
       "posted_at": "2026-09-19T20:18:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5278",
@@ -118,7 +151,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "222"
+          "count": "223"
         },
         {
           "emoji": "👍",
@@ -141,7 +174,7 @@
           "count": "3"
         }
       ],
-      "views_label": "20.6K",
+      "views_label": "20.7K",
       "posted_at": "2026-09-19T17:43:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5277",
@@ -163,7 +196,7 @@
         },
         {
           "emoji": "😁",
-          "count": "411"
+          "count": "412"
         },
         {
           "emoji": "❤",
@@ -178,7 +211,7 @@
           "count": "12"
         }
       ],
-      "views_label": "21.4K",
+      "views_label": "21.5K",
       "posted_at": "2026-09-19T17:23:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5276",
@@ -209,7 +242,7 @@
         },
         {
           "emoji": "😁",
-          "count": "807"
+          "count": "812"
         },
         {
           "emoji": "❤",
@@ -228,7 +261,7 @@
           "count": "7"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.7K",
       "posted_at": "2026-09-19T17:14:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5275",
@@ -269,7 +302,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.2K",
+      "views_label": "23.3K",
       "posted_at": "2026-09-19T15:37:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5274",
@@ -315,7 +348,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.8K",
+      "views_label": "22.9K",
       "posted_at": "2026-09-19T15:30:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5273",
@@ -357,7 +390,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.7K",
+      "views_label": "22.8K",
       "posted_at": "2026-09-19T14:29:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5272",
@@ -440,7 +473,7 @@
         },
         {
           "emoji": "❤",
-          "count": "262"
+          "count": "263"
         },
         {
           "emoji": "😁",
@@ -459,7 +492,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.7K",
+      "views_label": "22.8K",
       "posted_at": "2026-09-19T12:34:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5269",
@@ -489,7 +522,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "296"
+          "count": "297"
         },
         {
           "emoji": "👍",
@@ -554,7 +587,7 @@
         },
         {
           "emoji": "❤",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "💔",
@@ -610,7 +643,7 @@
         },
         {
           "emoji": "👍",
-          "count": "153"
+          "count": "154"
         },
         {
           "emoji": "❤",
@@ -672,7 +705,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "262"
+          "count": "263"
         },
         {
           "emoji": "👍",
@@ -695,7 +728,7 @@
           "count": "7"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.6K",
       "posted_at": "2026-09-18T17:04:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5264",
@@ -713,7 +746,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "89"
+          "count": "90"
         },
         {
           "emoji": "❤",
@@ -732,7 +765,7 @@
           "count": "4"
         }
       ],
-      "views_label": "26.8K",
+      "views_label": "26.9K",
       "posted_at": "2026-09-18T16:52:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5263",
@@ -766,7 +799,7 @@
         },
         {
           "emoji": "❤",
-          "count": "610"
+          "count": "611"
         },
         {
           "emoji": "😁",
@@ -5057,60 +5090,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5169",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5168",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/tcKSGmeFex1wtc5tUrxkfmlQTfJ4d588Vzm7CxJGLhdnkTn94yZegkigMrphtloa0R3b8MI3t_IKtX8lGorAwK-FrBIdLQIQQQvyzBBcSrquvcN6ECVO8DnHpaHrj7cCcfK2nB3NOsySJwNLSskNtEpCOAi0_RSSnhpxp5gCKSF7VPCm1ma8u3AMfCriOkeTYJemkeCJf0PdH9AaXExzYabOu_LwUUISEKgLoPH_RQ47ahe6Fyb25qrESFPRmMw6vPa4mtmX30oCU2P9GlacavHSSBsj-Ucd7bZaOX8hKV3ayc59DuQcyVwmzTMrYVs0se2q0uOqcQomGLc_g8rZ4Q.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/add7e7255fe8fa8545ec6340.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "دارم با همین Nara و مدل Muse Spark 1.3 یه سری تسک سرچ متوسط انجام میدم(سه تا ساب‌ایجنت ران کرده که قیمت اجاره و... رو توی سه تا شهر مختلف برام در بیاره و اونایی که ارزش بیشتری دارن رو از دیوار و شیپور و اینها لیست کنه) با هرمس، چیزی که چشممو گرفته سرعتشه که تقریبا اندازه‌ی دیپ‌سیک فلش V4 هست و خیلی خوبه. هوشش هم خوبه و می‌بینید جوابم واسش کامل نبود و مجددا ازم پرسید",
-      "plain_text": "دارم با همین Nara و مدل Muse Spark 1.3 یه سری تسک سرچ متوسط انجام میدم(سه تا ساب‌ایجنت ران کرده که قیمت اجاره و... رو توی سه تا شهر مختلف برام در بیاره و اونایی که ارزش بیشتری دارن رو از دیوار و شیپور و اینها لیست کنه) با هرمس، چیزی که چشممو گرفته سرعتشه که تقریبا اندازه‌ی دیپ‌سیک فلش V4 هست و خیلی خوبه. هوشش هم خوبه و می‌بینید جوابم واسش کامل نبود و مجددا ازم پرسید",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5168",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/hDETvYwlpy2NohN0mCkFUt7OvAB-SyQOxc-IvUTb0NYrcVfkgtKQIFfn88z6Ngd1ITfF6pHJbsIZzpOcNJgCpwWKkHE6DCV0wtHEBwhEI6Ri5wr5bwcuaEcgGtt3nmb_wZ_U-J40ohS40G8WNqLvqKddg01Fqcor-bpWbyYJ4ZzBD3bO_MY9rKTQJY48udfeA4-3QwNUzZwKXIpDo6GCnCkwRlpGzlBcYYKh5gR3wAdvFbfTDRak2wG3ZfHK_eUaxHDiiiYxeCB-IQibWs4Sr-rIH_6FCUsfTzdwtp7Uv3r9N4lsVE6hWDucYoezW2iY1BbCOBz9tLA1orbmXSpAcA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/e99cfd1747818eb838441c97.jpg",
-          "thumbnail_sha256": "15d118043c10de7b082d4fd3bbdf448d007be21d82adc2545be4e8edc0594f30",
-          "duration_label": null,
-          "aspect_ratio": 2
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "108"
-        },
-        {
-          "emoji": "👍",
-          "count": "13"
-        },
-        {
-          "emoji": "🆒",
-          "count": "6"
-        },
-        {
-          "emoji": "💯",
-          "count": "4"
-        }
-      ],
-      "views_label": "23.4K",
-      "posted_at": "2026-09-03T18:31:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5168",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5164",
-        "author_name": "Matin SenPai",
-        "preview_text": "دوستان با این سایت Nara که قبلا معرفی کرده بودم(https://t.me/MatinSenPaii/4061)، اگر که داخلش اکانت تلگرامتون رو وصل کنید به رباتش و توی کانالشون جوین بشید، می‌تونید نامحدود از مدل muse-spark-1.2-contributor-free متا استفاده کنید؛ بدون محدودیت ریجن و... مینویسه…",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/dmTgaJb9CcQpmljbRECUa1YDR4CDpuKJ1fq4_vVeAyhYpUzkQ3gx0cqwQsB-77SmjSDtfv0foviEU1YdPlLk2c0-ePJC_ZA2k-WedqgIvl7PXhvEyxwjnaJk7o_pcpUbsOyXgB1KDabz5uzogNKLkwGQRFag3_hpAC3QUtU72DbBBzmQauHRtujnw4CD33tyyXed-uQLOhfMbMzpqYuTjgrYIGecK5dizDvnzXZ0_AP5ibwENuekkBkHKtAK2e7dwBAlSxqz6CyPKPmZobms8NaVVwl47MVed6i4TdExlZY1k-2NBwEu5YdsjrQb8IZ9oa5nas2CMig2zaJpfM1HmA.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/cd4e6dd3df108e399ee52428.jpg",
-        "thumbnail_sha256": "0266235fbbf20b5cb5fc5c2b9d048da2f58b7fcad7fbd94968006087e8ea786b",
-        "permalink": "https://t.me/matinsenpaii/5164"
-      }
     }
   ]
 }
