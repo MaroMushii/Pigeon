@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-20T12:38:03.849Z",
+  "fetched_at": "2026-09-20T12:41:59.283Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5281",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/r5JY-bxviiDqCLefuxeCHBCiu8NUUkDwm_OuKq8iV-KRy0Ho_DIB7KA52Dub72jl_fZ9W-b1y4qJbGD0xvoehGUie_2kIho9Cdiw_BKl1S3J5JZks0vNVqR00CY5hGGl4cRqGa1Xkl7pYCCmIzLh93wRt6qxwW6PevltGnbbShVDucrVqqKwad6NU1RQCF6Kaz8eN6z8MeEL5vZsUbV0sySKurvVpR5ePYMT8QoXU3v86OY-hHWCwnZC3bMVXs06dc90mQfAcLLLyXGPoxrpmY0NKWrdAbdyUL2hJplUqAHZDL_sXex7TAKPlMMYXW-9gFOyhuDAeKCMyjeSMgTO7g.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/446731f42d3056a4f00e6efa.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "این ویدئو که دیشب گفتم واستون می‌ذارمش، توضیح می‌ده که می‌شه حل‌کردن مکعب روبیک رو با <b>نظریه‌ی گراف</b> مدل‌سازی کرد.<br><br>- هر حالت ممکن مکعب روبیک رو به‌عنوان یه <b>نقطه یا رأس گراف</b> در نظر می‌گیریم.<br>- هر حرکت قانونی، مثل چرخوندن یه وجه، بین دو حالت یه \"<b>یال</b>\" ایجاد می‌کنه.<br>- مکعب به‌هم‌ریخته، نقطه‌ی شروعه.<br>- مکعب حل‌شده، نقطه‌ی هدفه.<br>- حل‌کردن مکعب یعنی پیدا کردن مسیر از حالت به‌هم‌ریخته تا حالت حل‌شده.<br><br>توی ویدئو، سمت چپ یه مکعب روبیکِ به‌هم‌ریخته دیده می‌شه و سمت راست، شبکه‌ای از نقاط رنگی و خطوط مختلف. این شبکه درواقع فضای تمام حالت‌هایی رو نمایش می‌ده که مکعب می‌تونه با حرکت‌های مختلف بهشون برسه.<br><br>نکته‌ی جالب اینه که مکعب روبیک فقط حدود ۲۰ ساله که اختراع شده، اما تعداد حالت‌های ممکنش فوق‌العاده زیاده:<br><br><b>۴۳٬۲۵۲٬۰۰۳٬۲۷۴٬۴۸۹٬۸۵۶٬۰۰۰ حالت</b><br><br>یعنی بیشتر از ۴۳ کوینتیلیون حالت مختلف.<br><br>با این اوصاف، شاید جالب باشه بهتون بگم که برای هر حالت مکعب(هررر حالت) راه‌حلی با حداکثر <b>۲۰ حرکت</b> وجود داره. به این عدد معروف، <b>God’s Number</b> یا «عدد خدا» می‌گن؛ چون از هر وضعیت ممکن، یه حل‌کننده‌ی کامل می‌تونه توی ۲۰ حرکت(حداکثر) یا کمتر به جواب برسه.<br><br>پس حرف اصلی ویدئو اینه:<br><br><blockquote> حل‌کردن مکعب روبیک یعنی پیدا کردن کوتاه‌ترین مسیر بین دو نقطه توی یک گراف فوق‌العاده عظیم.<br></blockquote><br>این نگاه ریاضی کمک می‌کنه بفهمیم الگوریتم‌های حل مکعب چطور کار می‌کنن و چرا پیدا کردن راه‌حل، بیشتر از اینکه فقط به حفظ‌کردن حرکات مربوط باشه، به <b>جست‌وجو توی فضای حالت‌ها</b> مربوطه.",
+      "plain_text": "این ویدئو که دیشب گفتم واستون می‌ذارمش، توضیح می‌ده که می‌شه حل‌کردن مکعب روبیک رو با نظریه‌ی گراف مدل‌سازی کرد.\n\n- هر حالت ممکن مکعب روبیک رو به‌عنوان یه نقطه یا رأس گراف در نظر می‌گیریم.\n- هر حرکت قانونی، مثل چرخوندن یه وجه، بین دو حالت یه \"یال\" ایجاد می‌کنه.\n- مکعب به‌هم‌ریخته، نقطه‌ی شروعه.\n- مکعب حل‌شده، نقطه‌ی هدفه.\n- حل‌کردن مکعب یعنی پیدا کردن مسیر از حالت به‌هم‌ریخته تا حالت حل‌شده.\n\nتوی ویدئو، سمت چپ یه مکعب روبیکِ به‌هم‌ریخته دیده می‌شه و سمت راست، شبکه‌ای از نقاط رنگی و خطوط مختلف. این شبکه درواقع فضای تمام حالت‌هایی رو نمایش می‌ده که مکعب می‌تونه با حرکت‌های مختلف بهشون برسه.\n\nنکته‌ی جالب اینه که مکعب روبیک فقط حدود ۲۰ ساله که اختراع شده، اما تعداد حالت‌های ممکنش فوق‌العاده زیاده:\n\n۴۳٬۲۵۲٬۰۰۳٬۲۷۴٬۴۸۹٬۸۵۶٬۰۰۰ حالت\n\nیعنی بیشتر از ۴۳ کوینتیلیون حالت مختلف.\n\nبا این اوصاف، شاید جالب باشه بهتون بگم که برای هر حالت مکعب(هررر حالت) راه‌حلی با حداکثر ۲۰ حرکت وجود داره. به این عدد معروف، God’s Number یا «عدد خدا» می‌گن؛ چون از هر وضعیت ممکن، یه حل‌کننده‌ی کامل می‌تونه توی ۲۰ حرکت(حداکثر) یا کمتر به جواب برسه.\n\nپس حرف اصلی ویدئو اینه:\n\nحل‌کردن مکعب روبیک یعنی پیدا کردن کوتاه‌ترین مسیر بین دو نقطه توی یک گراف فوق‌العاده عظیم.\n\nاین نگاه ریاضی کمک می‌کنه بفهمیم الگوریتم‌های حل مکعب چطور کار می‌کنن و چرا پیدا کردن راه‌حل، بیشتر از اینکه فقط به حفظ‌کردن حرکات مربوط باشه، به جست‌وجو توی فضای حالت‌ها مربوطه.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/5281",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/OzqcHhjBDp2YjeSqvM4SlQL2WI3l4WP0pXPYhCQvzZIjcbRR4PTThu887YDbjF44Hw9gEHGz6pOqU2ZY6lDNq_ZhiT3Uz57n6jNtJxpqWp-Oj2PS_sjx0Y727CblBn-Ya5Cc2vxS7gAfMmZX-cBV92YA2lfLCOz3ncocEx9r_Vbb7Fmc6mcUIS6xMFKvK7Qv-5fLtdLLycMCYPb5CsjTyVy97bMR3Q9enRQg1D-BOdfPYbf_kqqVnVO4G796VacG6hejfKpc9beLLGqIVdO6ZRSxKDI0XoCS3-TU2Y2wnZ8Abx24hIcTcch8fifN0lo3QS8RxqbJdyzl2S56pT7GrQ",
+          "thumbnail_path": "channels/matinsenpaii/media/5704c7ba27a2f1905bbca63f.jpg",
+          "thumbnail_sha256": "50c166ae07bff0886d3e4df32d6eaccc38e2d5300d367317346a9032fb4bf506",
+          "duration_label": "0:15",
+          "aspect_ratio": 1.4555256064689965
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "13"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.14K",
+      "posted_at": "2026-09-20T12:39:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5281",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5280",
       "author_name": "Matin SenPai",
@@ -54,7 +91,7 @@
           "count": "2"
         }
       ],
-      "views_label": "12.5K",
+      "views_label": "12.9K",
       "posted_at": "2026-09-20T07:24:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5280",
@@ -99,7 +136,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.8K",
+      "views_label": "14.2K",
       "posted_at": "2026-09-20T07:07:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5279",
@@ -138,7 +175,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "143"
+          "count": "144"
         },
         {
           "emoji": "❤",
@@ -153,7 +190,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21.1K",
+      "views_label": "21.2K",
       "posted_at": "2026-09-19T20:18:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5278",
@@ -194,7 +231,7 @@
           "count": "3"
         }
       ],
-      "views_label": "22.9K",
+      "views_label": "23K",
       "posted_at": "2026-09-19T17:43:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5277",
@@ -231,7 +268,7 @@
           "count": "12"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-09-19T17:23:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5276",
@@ -262,7 +299,7 @@
         },
         {
           "emoji": "😁",
-          "count": "850"
+          "count": "851"
         },
         {
           "emoji": "❤",
@@ -281,7 +318,7 @@
           "count": "8"
         }
       ],
-      "views_label": "23.6K",
+      "views_label": "23.7K",
       "posted_at": "2026-09-19T17:14:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5275",
@@ -322,7 +359,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24.6K",
+      "views_label": "24.8K",
       "posted_at": "2026-09-19T15:37:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5274",
@@ -368,7 +405,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.2K",
+      "views_label": "24.3K",
       "posted_at": "2026-09-19T15:30:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5273",
@@ -410,7 +447,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.1K",
+      "views_label": "24.2K",
       "posted_at": "2026-09-19T14:29:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5272",
@@ -448,7 +485,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.4K",
+      "views_label": "22.5K",
       "posted_at": "2026-09-19T14:27:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5271",
@@ -618,7 +655,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.6K",
+      "views_label": "25.7K",
       "posted_at": "2026-09-18T18:09:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5267",
@@ -686,7 +723,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.2K",
+      "views_label": "25.3K",
       "posted_at": "2026-09-18T17:54:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5265",
@@ -725,7 +762,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "267"
+          "count": "268"
         },
         {
           "emoji": "👍",
@@ -770,7 +807,7 @@
         },
         {
           "emoji": "❤",
-          "count": "12"
+          "count": "13"
         },
         {
           "emoji": "😁",
@@ -785,7 +822,7 @@
           "count": "5"
         }
       ],
-      "views_label": "27.3K",
+      "views_label": "27.4K",
       "posted_at": "2026-09-18T16:52:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5263",
@@ -819,7 +856,7 @@
         },
         {
           "emoji": "❤",
-          "count": "618"
+          "count": "619"
         },
         {
           "emoji": "😁",
@@ -5065,55 +5102,6 @@
         "thumbnail_sha256": "5e0bb18b928672d663033fd014c08ac492eabd3551e3c262f4c04791d6a23301",
         "permalink": "https://t.me/matinsenpaii/5168"
       }
-    },
-    {
-      "id": "MatinSenPaii/5169",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/tcKSGmeFex1wtc5tUrxkfmlQTfJ4d588Vzm7CxJGLhdnkTn94yZegkigMrphtloa0R3b8MI3t_IKtX8lGorAwK-FrBIdLQIQQQvyzBBcSrquvcN6ECVO8DnHpaHrj7cCcfK2nB3NOsySJwNLSskNtEpCOAi0_RSSnhpxp5gCKSF7VPCm1ma8u3AMfCriOkeTYJemkeCJf0PdH9AaXExzYabOu_LwUUISEKgLoPH_RQ47ahe6Fyb25qrESFPRmMw6vPa4mtmX30oCU2P9GlacavHSSBsj-Ucd7bZaOX8hKV3ayc59DuQcyVwmzTMrYVs0se2q0uOqcQomGLc_g8rZ4Q.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/add7e7255fe8fa8545ec6340.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "جمنای هم تخفیف زده روی پلن‌هاش<br>می‌تونید خریداری کنید ولی حتما از اندروید + این متد که اینجا توضیح دادم: <a href=\"https://t.me/MatinSenPaii/5092\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/5092</a> استفاده کنید سر Google Pay",
-      "plain_text": "جمنای هم تخفیف زده روی پلن‌هاش\nمی‌تونید خریداری کنید ولی حتما از اندروید + این متد که اینجا توضیح دادم: https://t.me/MatinSenPaii/5092 استفاده کنید سر Google Pay",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5169",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/jClAMUkZnOsuhT0l_pwQdXOivlJ0wwGiXo3cHQGwl4HUx-Qy5txzxaKZiydelzuoFSrEmpGa4bkr_GHS7n0VrFBgRxi-qUHVwWCUixcad7jauX8cM8jAP3yIOOp2nFYyPqkPZTXHPUqXR9fnhBTwkH23A54HdAA2Xx6nqryxmxyQvFWxe4E_OHbDsWTbTNSghj-AnjjB-Yrnlp8TnnKkyAx1P_sNp_CLVh6DkhSivwQ1AxGa47GeJ4H_gxi3IAptaphJ17sT0F4jtuw4c6sp8F9UJoVl46OR31uuF98LBm5d5Ke9mdYnxlTs9vvuSTSkQsaN8_EoIBGIMwCKtnNH9A.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/a38c7d9277363f80adde62aa.jpg",
-          "thumbnail_sha256": "3b8db049f6101e35722ab5b1f8d6bfdf8e4606078210b8f61b12d860688679fb",
-          "duration_label": null,
-          "aspect_ratio": 2.0460358056265986
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "🆒",
-          "count": "81"
-        },
-        {
-          "emoji": "❤",
-          "count": "23"
-        },
-        {
-          "emoji": "👍",
-          "count": "10"
-        },
-        {
-          "emoji": "😁",
-          "count": "7"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        }
-      ],
-      "views_label": "25.2K",
-      "posted_at": "2026-09-03T19:11:10+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5169",
-      "reply": null
     }
   ]
 }
