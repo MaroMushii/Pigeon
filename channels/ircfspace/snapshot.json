@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-20T04:26:49.968Z",
+  "fetched_at": "2026-09-20T04:32:01.839Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,43 @@
     "subscriber_count": "96.1K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2609",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/A8gFWqWXmC59N3RmjNQrrlMRaNNiR-vMXxxqgrNfGAw6qK4J5KAEO73zF7LqcuTWdUuHHvQ0sG78ETiqWSzcfzKOy5GWwo9-CfnVkP52n2Y8A-VEebVw-lIBbXwsUqo8Di_kcOC5f89-uFx4G0Pk8pBe9howwRlMTQsbz67R7YbZ0tq-o7yQjDYCdJ4XjBJsbgvKH-Ds0nwTVwJTIxLVOOAkVwDBZonMLqbVwsh6-c-aHzHqGkGKzNPuaGze0vJg1eeoJblvt6qhpK7QWZAyYmHKuEfdOUs7UmHU3LVpT0SwTsJ5NGg-D0s14Am_SQwL-DFRpB1Sw5oA0OxuKJcp1A.jpg",
+      "author_photo_path": "channels/ircfspace/media/c3c5f1dc73989d5875dd2194.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "اسکریپت Google Flow Helper برای اجرا از طریق افزونه مرورگر Tampermonkey ساخته شده و کمک می‌کنه محدودیت‌های دسترسی به Google Flow برای کاربران ایرانی دور زده بشه.<br>این اسکریپت درخواست‌های داخلی Google Flow رو زیر نظر می‌گیره و وقتی به پاسخ مربوط به تنظیمات و محدودیت‌های سرویس میرسه، یه فلگ مشخص رو پیدا می‌کنه و مقدارش رو از false به true تغییر میده. بعد پاسخ اصلاح‌شده رو به خود رابط Flow تحویل میده؛ در نتیجه فرانت‌اند تصور می‌کنه اون قابلیت برای کاربر فعال شده و محدودیت مربوطه رو اعمال نمی‌کنه.<br>این ابزار VPN یا فیلترشکن نیست و خودش محدودیت شبکه یا فیلترینگ اینترنت ایران رو دور نمیزنه. آدرس <code>flow.google.com</code> باید از اینترنت شما قابل دسترس باشه. این اسکریپت بیشتر برای مرحله بعده؛ یعنی وقتی به Google Flow دسترسی دارید اما خود سرویس بخاطر محدودیت منطقه‌ای یا تنظیمات سمت کلاینت اجازه استفاده از سرویس رو نمیده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/maanimeisam/Google-Flow-Helper\" target=\"_blank\" rel=\"noopener\">github.com/maanimeisam/Google-Flow-Helper</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> <a href=\"http://telegra.ph/Google-Flow-Helper-09-20\" target=\"_blank\" rel=\"noopener\">telegra.ph/Google-Flow-Helper-09-20</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "اسکریپت Google Flow Helper برای اجرا از طریق افزونه مرورگر Tampermonkey ساخته شده و کمک می‌کنه محدودیت‌های دسترسی به Google Flow برای کاربران ایرانی دور زده بشه.\nاین اسکریپت درخواست‌های داخلی Google Flow رو زیر نظر می‌گیره و وقتی به پاسخ مربوط به تنظیمات و محدودیت‌های سرویس میرسه، یه فلگ مشخص رو پیدا می‌کنه و مقدارش رو از false به true تغییر میده. بعد پاسخ اصلاح‌شده رو به خود رابط Flow تحویل میده؛ در نتیجه فرانت‌اند تصور می‌کنه اون قابلیت برای کاربر فعال شده و محدودیت مربوطه رو اعمال نمی‌کنه.\nاین ابزار VPN یا فیلترشکن نیست و خودش محدودیت شبکه یا فیلترینگ اینترنت ایران رو دور نمیزنه. آدرس flow.google.com باید از اینترنت شما قابل دسترس باشه. این اسکریپت بیشتر برای مرحله بعده؛ یعنی وقتی به Google Flow دسترسی دارید اما خود سرویس بخاطر محدودیت منطقه‌ای یا تنظیمات سمت کلاینت اجازه استفاده از سرویس رو نمیده.\n\n👉 github.com/maanimeisam/Google-Flow-Helper\n💡 telegra.ph/Google-Flow-Helper-09-20\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2609",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ZhvEBRfvIWD08Xd7hiDRjI1DHdD-vt3TsvDYxNPr8KNclx2x1PJ_yI0xrHLImOx8JnhHv4qdxnYJKKlDR10wJ9Dl3ZdCwijqJ7iIdqVRMlt3GPHU-l1clKKbAx0kS_p5iODjumF4Jah7rmhXDEA6BrfX5DPYK0N54-VOMl5BMQ7qo6U6HovgMtKRe5i0QAOiS5D33y--Uz08Cuakgqy7qy9sb5s8ybZZMEuQXXqMFadf4v85RrYNmQgAlsmknEp4EeN7NtvwzPV-X_g3gShMswkcpP2JSnTYtvB1Zz8AM86hNCvrn1bigZBTE0wgcjk6pPpnR9wcAeBQujy-4S4A9g.jpg",
+          "thumbnail_path": "channels/ircfspace/media/8a0870cedc0e14d5e39a0931.jpg",
+          "thumbnail_sha256": "8db6dd10230e9a8b0d733afd5bdd7083e895a85f955c01e51c1d2029de96d6e6",
+          "duration_label": null,
+          "aspect_ratio": 1.8181818181818181
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "3"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "285",
+      "posted_at": "2026-09-20T04:29:38+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2609",
+      "reply": null
+    },
     {
       "id": "ircfspace/2608",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -50,7 +87,7 @@
           "count": "2"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.3K",
       "posted_at": "2026-09-17T14:05:14+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2608",
@@ -84,7 +121,7 @@
         },
         {
           "emoji": "😁",
-          "count": "271"
+          "count": "273"
         },
         {
           "emoji": "❤",
@@ -115,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14K",
+      "views_label": "14.1K",
       "posted_at": "2026-09-17T14:00:14+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2607",
@@ -206,7 +243,7 @@
         },
         {
           "emoji": "😁",
-          "count": "641"
+          "count": "643"
         },
         {
           "emoji": "🥴",
@@ -255,7 +292,7 @@
         },
         {
           "emoji": "😢",
-          "count": "216"
+          "count": "219"
         },
         {
           "emoji": "😁",
@@ -294,7 +331,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14K",
+      "views_label": "14.1K",
       "posted_at": "2026-09-17T13:37:00+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2604",
@@ -328,11 +365,11 @@
         },
         {
           "emoji": "😐",
-          "count": "145"
+          "count": "146"
         },
         {
           "emoji": "😁",
-          "count": "45"
+          "count": "46"
         },
         {
           "emoji": "👍",
@@ -351,7 +388,7 @@
           "count": "2"
         }
       ],
-      "views_label": "14.7K",
+      "views_label": "14.8K",
       "posted_at": "2026-09-17T13:21:14+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2603",
@@ -424,7 +461,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.8K",
+      "views_label": "28.9K",
       "posted_at": "2026-09-14T04:47:21+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2601",
@@ -1208,7 +1245,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.4K",
+      "views_label": "26.5K",
       "posted_at": "2026-09-08T14:24:46+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2589",
@@ -5892,59 +5929,6 @@
       "posted_at": "2026-07-20T13:31:01+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2508",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2507",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/m3N26jRdNK7oYAJdpZfdVpPR0GC9giGnJVidlMLnfeLzgN0gR4Pfy6fsFqP0BFVH-EUZngp34CMa6KFL4MVN9CEGGHrsW9AsHtL1AkhGJzJ2PIQFGOoiXvkO4v7a2SjO1BPEAM7flYkga2zTNveCmDcZzJtKkigoJGDiYWpQ4hz6x0j0Exd4yix1iHp5TDftYK8Bsb0e4fSnkZBnnP0nf_ExRdFeMNliiGXB-FPGYVV49MbEAyW3w0qylwFv8KBZrlEPqgrGOYAG7TeJ1Anb1yWUO3fKuFFlMtC6HhBnorQQOQX5QnWMfyaf7f71K9vsz7hA2WorL4GlXgR_GggP-g.jpg",
-      "author_photo_path": "channels/ircfspace/media/2bae22931aad52199fd7f7eb.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "نسخه ۱.۳ از پروژه متن‌باز و رایگان Aether منتشر شده و مهمترین تغییرش اضافه شدن حالت اسکن Ironclad هست. برخلاف حالت‌های قبلی که فقط بررسی می‌کردن یک اندپوینت در دسترسه یا نه، این حالت قبل از اینکه به یه سرور اعتماد کنه، یک تانل واقعی برقرار می‌کنه و یک درخواست HTTP از داخل اون عبور میده تا مطمئن بشه اتصال کار می‌کنه. البته این روش زمان بیشتری می‌بره، اما در عوض احتمال وصل شدن به اندپوینت‌های خراب یا ناپایدار رو تا حد زیادی از بین می‌بره.<br><br>توی این آپدیت روند اتصال مجدد هم هوشمندتر شده؛ اگر ارتباط MASQUE یا WireGuard قطع بشه، Aether دیگه برای دور زدن فیلترینگ مستقیم سراغ اسکن کامل همه اندپوینت‌ها نمیره. اول همون اندپوینتی که چند لحظه قبل روی اون متصل بوده رو دوباره امتحان می‌کنه و فقط اگر از دسترس خارج شده باشه، اسکن جدید رو شروع می‌کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/CluvexStudio/Aether/releases\" target=\"_blank\" rel=\"noopener\">github.com/CluvexStudio/Aether/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "نسخه ۱.۳ از پروژه متن‌باز و رایگان Aether منتشر شده و مهمترین تغییرش اضافه شدن حالت اسکن Ironclad هست. برخلاف حالت‌های قبلی که فقط بررسی می‌کردن یک اندپوینت در دسترسه یا نه، این حالت قبل از اینکه به یه سرور اعتماد کنه، یک تانل واقعی برقرار می‌کنه و یک درخواست HTTP از داخل اون عبور میده تا مطمئن بشه اتصال کار می‌کنه. البته این روش زمان بیشتری می‌بره، اما در عوض احتمال وصل شدن به اندپوینت‌های خراب یا ناپایدار رو تا حد زیادی از بین می‌بره.\n\nتوی این آپدیت روند اتصال مجدد هم هوشمندتر شده؛ اگر ارتباط MASQUE یا WireGuard قطع بشه، Aether دیگه برای دور زدن فیلترینگ مستقیم سراغ اسکن کامل همه اندپوینت‌ها نمیره. اول همون اندپوینتی که چند لحظه قبل روی اون متصل بوده رو دوباره امتحان می‌کنه و فقط اگر از دسترس خارج شده باشه، اسکن جدید رو شروع می‌کنه.\n\n👉 github.com/CluvexStudio/Aether/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2507",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/gDU4xASFtqHA3uFnoogueAV7omyFOGDWS6gO_7Rq-ORgFwpN_uZEkReJUtmmtEmvyaSc2qkBsFfiUtyaWEbkyVfj86VgtIu4exbrf6jV1XEwKzksuXcuEG1KYkmACiD8_Hu9hzy5d7Ysy-TMcGI5WKxlznLIMPSJosSQY2y2J_7KsIJ_2kzsUg1fqU4H-kPowFK9kXNN7LJx48kK5vLyJMZOJye4r1AIoLVvljX1UTl7tglUomidRmNeGI7ovdzNTurULx5NxOjN5rgYhWnqE6WNBEZVsX99-jnvc3ioZEWVkx02ly2261BFvZA9rKyBi-fxlk2NracMcrjZOHb3tg.jpg",
-          "thumbnail_path": "channels/ircfspace/media/deca6b5fb3e9ac00a3e3558d.jpg",
-          "thumbnail_sha256": "5862f814833d046f1708564edf8dc04cfabe94d1631676ca85a7ccabb2cd98cb",
-          "duration_label": null,
-          "aspect_ratio": 1.2698412698412698
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "125"
-        },
-        {
-          "emoji": "👍",
-          "count": "27"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        },
-        {
-          "emoji": "🤡",
-          "count": "5"
-        },
-        {
-          "emoji": "⚡",
-          "count": "1"
-        },
-        {
-          "emoji": "🤩",
-          "count": "1"
-        }
-      ],
-      "views_label": "34K",
-      "posted_at": "2026-07-20T13:23:21+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2507",
       "reply": null
     }
   ]
