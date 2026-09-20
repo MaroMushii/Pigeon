@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-20T04:46:55.050Z",
+  "fetched_at": "2026-09-20T04:51:55.950Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,34 @@
     "subscriber_count": "96.1K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2611",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/A8gFWqWXmC59N3RmjNQrrlMRaNNiR-vMXxxqgrNfGAw6qK4J5KAEO73zF7LqcuTWdUuHHvQ0sG78ETiqWSzcfzKOy5GWwo9-CfnVkP52n2Y8A-VEebVw-lIBbXwsUqo8Di_kcOC5f89-uFx4G0Pk8pBe9howwRlMTQsbz67R7YbZ0tq-o7yQjDYCdJ4XjBJsbgvKH-Ds0nwTVwJTIxLVOOAkVwDBZonMLqbVwsh6-c-aHzHqGkGKzNPuaGze0vJg1eeoJblvt6qhpK7QWZAyYmHKuEfdOUs7UmHU3LVpT0SwTsJ5NGg-D0s14Am_SQwL-DFRpB1Sw5oA0OxuKJcp1A.jpg",
+      "author_photo_path": "channels/ircfspace/media/c3c5f1dc73989d5875dd2194.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "زپتون یه موتور شبکه‌ی جدید، متن‌باز و بدون وابستگیه که با Zig نوشته شده و برای کار با رابط‌های TUN طراحی شده. ایده‌اش اینه که ترافیکی رو که سیستم‌عامل وارد TUN می‌کنه، مدیریت کنه و اون رو به ارتباط‌های TCP، UDP و ICMP تبدیل کنه؛ بعد هم ترافیک رو مستقیم یا از طریق SOCKS5 در اختیار برنامه‌ی دیگه‌ای قرار بده.<br><br>پروژه Zeptun امکاناتی مثل پشتیبانی همزمان از IPv4 و IPv6، NAT، مدیریت DNS، مسیریابی خودکار، فوروارد ICMP و پردازش چندصفی TUN رو داره و برای Linux، Android، Windows، macOS، iOS و FreeBSD ساخته شده. طبق بنچمارکی که روی یک رانر گیت‌هاب گرفته شده، زپتون عملکرد بهتری نسبت به Sing-box، Hev و Tun2socks داشته.<br><br>این مدل هسته‌های مستقل، می‌تونه برای پروژه‌هایی که نمیخوان تمام شبکه و TUN خودشون رو به هسته‌هایی مثل سینگ‌باکس وابسته کنن جالب باشه؛ مخصوصاً با توجه به اینکه استفاده و توزیع کدهای پروژه‌های دیگه می‌تونه الزامات لایسنس و کپی‌رایت خودش رو برای توسعه‌دهندگان داشته باشه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/Noisemux/zeptun\" target=\"_blank\" rel=\"noopener\">github.com/Noisemux/zeptun</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "زپتون یه موتور شبکه‌ی جدید، متن‌باز و بدون وابستگیه که با Zig نوشته شده و برای کار با رابط‌های TUN طراحی شده. ایده‌اش اینه که ترافیکی رو که سیستم‌عامل وارد TUN می‌کنه، مدیریت کنه و اون رو به ارتباط‌های TCP، UDP و ICMP تبدیل کنه؛ بعد هم ترافیک رو مستقیم یا از طریق SOCKS5 در اختیار برنامه‌ی دیگه‌ای قرار بده.\n\nپروژه Zeptun امکاناتی مثل پشتیبانی همزمان از IPv4 و IPv6، NAT، مدیریت DNS، مسیریابی خودکار، فوروارد ICMP و پردازش چندصفی TUN رو داره و برای Linux، Android، Windows، macOS، iOS و FreeBSD ساخته شده. طبق بنچمارکی که روی یک رانر گیت‌هاب گرفته شده، زپتون عملکرد بهتری نسبت به Sing-box، Hev و Tun2socks داشته.\n\nاین مدل هسته‌های مستقل، می‌تونه برای پروژه‌هایی که نمیخوان تمام شبکه و TUN خودشون رو به هسته‌هایی مثل سینگ‌باکس وابسته کنن جالب باشه؛ مخصوصاً با توجه به اینکه استفاده و توزیع کدهای پروژه‌های دیگه می‌تونه الزامات لایسنس و کپی‌رایت خودش رو برای توسعه‌دهندگان داشته باشه.\n\n👉 github.com/Noisemux/zeptun\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2611",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/O2Ir2Mu8NNtExxQNmkIhMfV7vDjorDzjS78luKw1Cy-Rsx8GTWt_AWBgb7xtC-mmD3crKNwxKx9jJ9db29LTl2OQPSHba5EUrbZtpSkLdJIR4vgKBXoY7fvw8h-uVuN8kGQkeo8NvYObwro5cLletWGW53uh18R0c5v5CUZtqKNhICAYm95vASjebHDnCPw2Lb22_qzIFNaRzraaKDDr15SGRFPtLmxJqzagmfayl-Dg_XhKwhaQnstAeuoTl206JAo6-U2zwUJ2hXRdklHSQMWHpLJFk5JTRHcpbph6HiY_f0GUj7EgvivAPz84dU_Y9xXyrQ00Nwu4P1p-_iMjpg.jpg",
+          "thumbnail_path": "channels/ircfspace/media/a7acfab20fb974390d201f8b.jpg",
+          "thumbnail_sha256": "ddd9084378900ff61126e472830d6f0e2870ad2e490fcfe69274102d45c1bc8b",
+          "duration_label": null,
+          "aspect_ratio": 1.869565217391313
+        }
+      ],
+      "reactions": [],
+      "views_label": "224",
+      "posted_at": "2026-09-20T04:50:56+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2611",
+      "reply": null
+    },
     {
       "id": "ircfspace/2610",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -35,18 +63,18 @@
       "reactions": [
         {
           "emoji": "🤡",
-          "count": "15"
+          "count": "44"
         },
         {
           "emoji": "👍",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "😁",
-          "count": "1"
+          "count": "4"
         }
       ],
-      "views_label": "794",
+      "views_label": "1.21K",
       "posted_at": "2026-09-20T04:41:49+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2610",
@@ -76,7 +104,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "14"
+          "count": "19"
         },
         {
           "emoji": "👍",
@@ -84,14 +112,18 @@
         },
         {
           "emoji": "🥴",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "😁",
           "count": "1"
+        },
+        {
+          "emoji": "😢",
+          "count": "1"
         }
       ],
-      "views_label": "1.56K",
+      "views_label": "1.98K",
       "posted_at": "2026-09-20T04:29:38+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2609",
@@ -121,7 +153,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "161"
+          "count": "163"
         },
         {
           "emoji": "❤",
@@ -136,7 +168,7 @@
           "count": "2"
         }
       ],
-      "views_label": "14.7K",
+      "views_label": "14.9K",
       "posted_at": "2026-09-17T14:05:14+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2608",
@@ -170,7 +202,7 @@
         },
         {
           "emoji": "😁",
-          "count": "278"
+          "count": "281"
         },
         {
           "emoji": "❤",
@@ -178,7 +210,7 @@
         },
         {
           "emoji": "👍",
-          "count": "15"
+          "count": "16"
         },
         {
           "emoji": "🔥",
@@ -201,7 +233,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.4K",
+      "views_label": "14.6K",
       "posted_at": "2026-09-17T14:00:14+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2607",
@@ -235,7 +267,7 @@
         },
         {
           "emoji": "🔥",
-          "count": "165"
+          "count": "168"
         },
         {
           "emoji": "❤",
@@ -258,7 +290,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.5K",
+      "views_label": "13.6K",
       "posted_at": "2026-09-17T13:42:35+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2606",
@@ -292,7 +324,7 @@
         },
         {
           "emoji": "😁",
-          "count": "652"
+          "count": "654"
         },
         {
           "emoji": "🥴",
@@ -319,7 +351,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.3K",
+      "views_label": "15.4K",
       "posted_at": "2026-09-17T13:38:43+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2605",
@@ -341,7 +373,7 @@
         },
         {
           "emoji": "😢",
-          "count": "220"
+          "count": "222"
         },
         {
           "emoji": "😁",
@@ -357,7 +389,7 @@
         },
         {
           "emoji": "❤",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "🔥",
@@ -380,7 +412,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.3K",
+      "views_label": "14.4K",
       "posted_at": "2026-09-17T13:37:00+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2604",
@@ -414,7 +446,7 @@
         },
         {
           "emoji": "😐",
-          "count": "148"
+          "count": "149"
         },
         {
           "emoji": "😁",
@@ -437,7 +469,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.1K",
       "posted_at": "2026-09-17T13:21:14+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2603",
@@ -510,7 +542,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.1K",
+      "views_label": "29.2K",
       "posted_at": "2026-09-14T04:47:21+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2601",
@@ -701,7 +733,7 @@
           "count": "3"
         }
       ],
-      "views_label": "31.2K",
+      "views_label": "31.3K",
       "posted_at": "2026-09-11T07:45:37+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2598",
@@ -774,7 +806,7 @@
           "count": "3"
         }
       ],
-      "views_label": "32.2K",
+      "views_label": "32.3K",
       "posted_at": "2026-09-10T04:30:32+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2597",
@@ -851,7 +883,7 @@
           "count": "1"
         }
       ],
-      "views_label": "67.9K",
+      "views_label": "68K",
       "posted_at": "2026-09-09T04:44:21+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2596",
@@ -5856,75 +5888,6 @@
       "posted_at": "2026-07-22T14:51:30+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2510",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2509",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SPePwCox26isFX1qi2RklJ-q9WKUStNAAy2z11wFyYTOVM61p9C0Kcn75qU9t-CJ4SOzFZb70kbcCibgNE5TK5-bx7RO51pHlG8C5CHaQBGBbuC3ul_YfVKHtuBbBQXN-jVJIlerQ6ef9OFk575FI2R_K7u6sBWtb5qIaU2y5GHPjogTZzWCuwMg-Yn5cxkgCelBsNQshTITDt48i6wjyyuRPAjq_WtwR6AL_1VVV2WjFUxk3jHfJEO-zlW0dU8K-bjkJ6MD-jICBgNU_zrs2gSdo1KniEcuH295f05s29vXPl6sDVwpXqd7B_D-BnT3pn-k7XHj3UiWRtIY-8iFjQ.jpg",
-      "author_photo_path": "channels/ircfspace/media/08da6734c9615444688d2dbd.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "سایت فوتبال ۳۶۰ عادل فردوسی‌پور توسط قوه عاقله فیلتر و دیشب چند دقیقه قبل از شروع برنامه زنده از دسترس خارج شد. <br><br>هنوز علتش بطور رسمی اعلام نشده، اما این اتفاق پس از درخواست سرمربی پرافتخار(!) تیم فوتبال جمهوری اسلامی برای برخورد با این برنامه و یک روز پس از جوابیه به امیر قلعه‌نویی صورت گرفته!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "سایت فوتبال ۳۶۰ عادل فردوسی‌پور توسط قوه عاقله فیلتر و دیشب چند دقیقه قبل از شروع برنامه زنده از دسترس خارج شد.\n\nهنوز علتش بطور رسمی اعلام نشده، اما این اتفاق پس از درخواست سرمربی پرافتخار(!) تیم فوتبال جمهوری اسلامی برای برخورد با این برنامه و یک روز پس از جوابیه به امیر قلعه‌نویی صورت گرفته!\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2509",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/M_cPmZ3XpmvALwIjc2mXZMrhcDZePSzW5fo9b79tMZzyNeuHvl4-qvF_7x1mLvhQQsH3oT-PHqLnIZK4UK0rfoAFSffWHtyyHx1LHHqyoGhB0RVdCDw3PuQDyRYkNkaw3X7RDY4uVtubopgs6iTrvcl22e6DGytVQH1F_aZOpdJRR3_JeonNouh9PqkggjzWvLj65GJhxgsHqz9-f2yAnjZ7Dfw3RuF2k-lGX2GKuT-1aRqezWyheiLADcr6c16GhlTFEirbjcxWxLU5MNyDOT7pgT4jI3d4AKDhZf_Fwmt2h5EqpEA_oog1IEiWSXTCZfVbRD1h7op5oiwlRgVaIw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/b9e94f27587cadcca3e43d55.jpg",
-          "thumbnail_sha256": "03678875a191000e7e3518a28e9303617bda9ee62c8fd3959668320ab262840b",
-          "duration_label": null,
-          "aspect_ratio": 1.2679900744416803
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "🤬",
-          "count": "1.01K"
-        },
-        {
-          "emoji": "🤡",
-          "count": "127"
-        },
-        {
-          "emoji": "😁",
-          "count": "96"
-        },
-        {
-          "emoji": "👍",
-          "count": "35"
-        },
-        {
-          "emoji": "❤",
-          "count": "23"
-        },
-        {
-          "emoji": "👎",
-          "count": "9"
-        },
-        {
-          "emoji": "😢",
-          "count": "6"
-        },
-        {
-          "emoji": "👏",
-          "count": "5"
-        },
-        {
-          "emoji": "😐",
-          "count": "3"
-        },
-        {
-          "emoji": "🔥",
-          "count": "2"
-        }
-      ],
-      "views_label": "44.3K",
-      "posted_at": "2026-07-21T07:43:22+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2509",
       "reply": null
     }
   ]
