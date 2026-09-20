@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-20T14:37:03.153Z",
+  "fetched_at": "2026-09-20T14:42:06.709Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,40 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5282",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/r5JY-bxviiDqCLefuxeCHBCiu8NUUkDwm_OuKq8iV-KRy0Ho_DIB7KA52Dub72jl_fZ9W-b1y4qJbGD0xvoehGUie_2kIho9Cdiw_BKl1S3J5JZks0vNVqR00CY5hGGl4cRqGa1Xkl7pYCCmIzLh93wRt6qxwW6PevltGnbbShVDucrVqqKwad6NU1RQCF6Kaz8eN6z8MeEL5vZsUbV0sySKurvVpR5ePYMT8QoXU3v86OY-hHWCwnZC3bMVXs06dc90mQfAcLLLyXGPoxrpmY0NKWrdAbdyUL2hJplUqAHZDL_sXex7TAKPlMMYXW-9gFOyhuDAeKCMyjeSMgTO7g.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/446731f42d3056a4f00e6efa.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "خلاصه و سرگذشت Union Alpha این بود:<br><br>این داداش گلمون Union Alpha یه مدل مستقل و جدید نبود؛ بلکه یه سیستم ترکیبی و روترِ چندمدلی بود که بعدا با اسم<br>unbiased/pareto روی OpenRouter دیده شد.<br><br>این سیستم می‌تونست برای هر درخواست، مدل‌های مختلفی رو انتخاب، و پاسخ اونا رو ترکیب کنه؛ به‌همین‌دلیل بعضی کاربرا(از جمله خودم) خروجی‌اش رو در حد مدل‌های Frontier می‌دیدن و بقیه هم ممکن بود با پاسخ‌های معمولی یا ناپایدار مواجه بشن.<br><br>مشخصات Pareto شامل کانتکست ۲۶۲ هزار توکن، ورودی تصویر، tool calling و قیمت ۲.۵ دلار برای ورودی و ۷.۵ دلار برای خروجی به‌ازای هر میلیون توکن هست(که اصلا نمی‌صرفه).<br><br>مشکل اصلی این بود که کاربرا فکر کردن یه مدل ناشناس و قدرتمندِ رایگان پیدا کردن درحالی‌که با یه سرویس ترکیبی و نسبتا مبهم روبه‌رو بودن. و خودِ رایگان‌بودن، باعث هجوم کاربرا، کندی و ناپایداری شد و بعد هم خیلی زود تموم شد(دوره‌ی رایگان مدل تموم شد به جای یه هفته توی دو سه روز).<br><br>ادعاهایی مثل امتیاز ۷۳ تا ۷۴ درصد در DeepSWE یا عملکرد نزدیک به GPT-6 Astra و Opus 5 هنوز منبع رسمی و قابل‌تکراری ندارن ضمن اینکه معلوم نیست چنین نتایجی اصلا مربوط به خود Pareto بوده یا یکی از مدل‌هایی که پشتش استفاده شده.<br><br>و خلاصه Union Alpha احتمالا کلاهبرداری یا مدل ضعیفی نبود، اما هایپش بر پایه‌ی سوءتفاهم شکل گرفت. صرفا یه سیستم ترکیبی قدرتمند بود که به‌خاطر ناشناس‌بودن، رایگان‌بودن و خروجی‌های گاهی عالی، شبیه یه مدل مخفی و انقلابی به‌نظر میرسید؛ ولی بعد از پولی‌شدن و مشخص‌شدن ماهیتش، جذابیت و ارزش اقتصادی‌ش خیلی کمتر شد.",
+      "plain_text": "خلاصه و سرگذشت Union Alpha این بود:\n\nاین داداش گلمون Union Alpha یه مدل مستقل و جدید نبود؛ بلکه یه سیستم ترکیبی و روترِ چندمدلی بود که بعدا با اسم\nunbiased/pareto روی OpenRouter دیده شد.\n\nاین سیستم می‌تونست برای هر درخواست، مدل‌های مختلفی رو انتخاب، و پاسخ اونا رو ترکیب کنه؛ به‌همین‌دلیل بعضی کاربرا(از جمله خودم) خروجی‌اش رو در حد مدل‌های Frontier می‌دیدن و بقیه هم ممکن بود با پاسخ‌های معمولی یا ناپایدار مواجه بشن.\n\nمشخصات Pareto شامل کانتکست ۲۶۲ هزار توکن، ورودی تصویر، tool calling و قیمت ۲.۵ دلار برای ورودی و ۷.۵ دلار برای خروجی به‌ازای هر میلیون توکن هست(که اصلا نمی‌صرفه).\n\nمشکل اصلی این بود که کاربرا فکر کردن یه مدل ناشناس و قدرتمندِ رایگان پیدا کردن درحالی‌که با یه سرویس ترکیبی و نسبتا مبهم روبه‌رو بودن. و خودِ رایگان‌بودن، باعث هجوم کاربرا، کندی و ناپایداری شد و بعد هم خیلی زود تموم شد(دوره‌ی رایگان مدل تموم شد به جای یه هفته توی دو سه روز).\n\nادعاهایی مثل امتیاز ۷۳ تا ۷۴ درصد در DeepSWE یا عملکرد نزدیک به GPT-6 Astra و Opus 5 هنوز منبع رسمی و قابل‌تکراری ندارن ضمن اینکه معلوم نیست چنین نتایجی اصلا مربوط به خود Pareto بوده یا یکی از مدل‌هایی که پشتش استفاده شده.\n\nو خلاصه Union Alpha احتمالا کلاهبرداری یا مدل ضعیفی نبود، اما هایپش بر پایه‌ی سوءتفاهم شکل گرفت. صرفا یه سیستم ترکیبی قدرتمند بود که به‌خاطر ناشناس‌بودن، رایگان‌بودن و خروجی‌های گاهی عالی، شبیه یه مدل مخفی و انقلابی به‌نظر میرسید؛ ولی بعد از پولی‌شدن و مشخص‌شدن ماهیتش، جذابیت و ارزش اقتصادی‌ش خیلی کمتر شد.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "9"
+        },
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "1.51K",
+      "posted_at": "2026-09-20T14:38:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5282",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "5259",
+        "author_name": "Matin SenPai",
+        "preview_text": "گویا روی Open Code یه مدل جدید Stealth ناشناس به صورت رایگان اومده به اسم Union Alpha 1- خیلی‌ها قدرتش رو در حد Opus 5 و مدلهای Frontier گزارش کردن 2- گفتن که سرعتش وحشتناک بالاست(الان به خاطر استفاده سنگین مردم یه کم کند شده) 3- و گفتن تا می‌تونید توکن بسوزونید🙏🔥",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/5259"
+      }
+    },
     {
       "id": "MatinSenPaii/5281",
       "author_name": "Matin SenPai",
@@ -35,7 +69,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "125"
+          "count": "127"
         },
         {
           "emoji": "👍",
@@ -43,7 +77,7 @@
         },
         {
           "emoji": "🆒",
-          "count": "4"
+          "count": "6"
         },
         {
           "emoji": "💯",
@@ -58,7 +92,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.44K",
+      "views_label": "9.97K",
       "posted_at": "2026-09-20T12:39:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5281",
@@ -88,7 +122,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "130"
+          "count": "131"
         },
         {
           "emoji": "💯",
@@ -107,7 +141,7 @@
           "count": "2"
         }
       ],
-      "views_label": "16.1K",
+      "views_label": "16.4K",
       "posted_at": "2026-09-20T07:24:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5280",
@@ -137,7 +171,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "243"
+          "count": "246"
         },
         {
           "emoji": "❤",
@@ -152,7 +186,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.8K",
+      "views_label": "17K",
       "posted_at": "2026-09-20T07:07:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5279",
@@ -206,7 +240,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.5K",
+      "views_label": "22.6K",
       "posted_at": "2026-09-19T20:18:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5278",
@@ -247,7 +281,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.9K",
+      "views_label": "24K",
       "posted_at": "2026-09-19T17:43:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5277",
@@ -284,7 +318,7 @@
           "count": "12"
         }
       ],
-      "views_label": "24.4K",
+      "views_label": "24.5K",
       "posted_at": "2026-09-19T17:23:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5276",
@@ -315,7 +349,7 @@
         },
         {
           "emoji": "😁",
-          "count": "869"
+          "count": "870"
         },
         {
           "emoji": "❤",
@@ -375,7 +409,7 @@
           "count": "3"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.4K",
       "posted_at": "2026-09-19T15:37:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5274",
@@ -463,7 +497,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "24.8K",
       "posted_at": "2026-09-19T14:29:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5272",
@@ -739,7 +773,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.6K",
       "posted_at": "2026-09-18T17:54:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5265",
@@ -5072,52 +5106,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5171",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5170",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/tcKSGmeFex1wtc5tUrxkfmlQTfJ4d588Vzm7CxJGLhdnkTn94yZegkigMrphtloa0R3b8MI3t_IKtX8lGorAwK-FrBIdLQIQQQvyzBBcSrquvcN6ECVO8DnHpaHrj7cCcfK2nB3NOsySJwNLSskNtEpCOAi0_RSSnhpxp5gCKSF7VPCm1ma8u3AMfCriOkeTYJemkeCJf0PdH9AaXExzYabOu_LwUUISEKgLoPH_RQ47ahe6Fyb25qrESFPRmMw6vPa4mtmX30oCU2P9GlacavHSSBsj-Ucd7bZaOX8hKV3ayc59DuQcyVwmzTMrYVs0se2q0uOqcQomGLc_g8rZ4Q.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/add7e7255fe8fa8545ec6340.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "این هم یکی از بنچمارک‌هاش<br>اگر خواستید کامل مطالعه کنید، از اینجا میتونید: <a href=\"https://artificialanalysis.ai/articles/muse-spark-1-3\" target=\"_blank\" rel=\"noopener\">https://artificialanalysis.ai/articles/muse-spark-1-3</a>",
-      "plain_text": "این هم یکی از بنچمارک‌هاش\nاگر خواستید کامل مطالعه کنید، از اینجا میتونید: https://artificialanalysis.ai/articles/muse-spark-1-3",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5170",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/CPcX4W5983bZduV3ubcDcKgzV-PujdnILqjh0BwS-yvZywFlG0GUhLRT5kjjNru2fj6YI448n6cZW_mwWqGPXi5Ow40jSjQTwcUHSqf93OCnC1isG2KLz3aoP97hXh0OMBo0Hc1Mg9PYR080qsJVeingVpO7AHZfkSI-lKoMdbBryLIbk3KyZ7xu8kUuYJcwEIr59DAz9Ol-oKNLzO51P9vlZLj23MssaaGK6mhFPXMbYrZ0dU1JC-w6KVDmYv7pwsT9SXvI3aGzQO243JBkHgr6S0wAu0zxbOmlDbm5CrltwfXqIXZIkVqhFJLilpzsprdyOhQW3iKTwYnTR9j2Qw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/5c3af69efff6cd87dd27aacf.jpg",
-          "thumbnail_sha256": "67456ef1ce62b1bfcee7985dcfbb227252d5bbb59c6ad10176ef95973161be95",
-          "duration_label": null,
-          "aspect_ratio": 2.2857142857142856
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "73"
-        },
-        {
-          "emoji": "👍",
-          "count": "9"
-        }
-      ],
-      "views_label": "26.6K",
-      "posted_at": "2026-09-03T19:37:14+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5170",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5168",
-        "author_name": "Matin SenPai",
-        "preview_text": "دارم با همین Nara و مدل Muse Spark 1.3 یه سری تسک سرچ متوسط انجام میدم(سه تا ساب‌ایجنت ران کرده که قیمت اجاره و... رو توی سه تا شهر مختلف برام در بیاره و اونایی که ارزش بیشتری دارن رو از دیوار و شیپور و اینها لیست کنه) با هرمس، چیزی که چشممو گرفته سرعتشه که…",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/sSCk1w7Yye7MpOUtIqGUmFnV4OOEh7J_iaWDMhr__sMw4ugf6iEonXPbsznVpL0nQFdI7LjAmYpyt1NwGzXqzl1Yo0LFEJbtCFREE0ANotq8qrDUlDXWumruaPkSzHXtLmdq7OXL8OUtmHFryO4M4ngJcxME_34YPNpxtII3aylju1u9ZigXsTH9JQe36tZgRcD_QaA55dqkou8Mxp16S3YwKEgiPts3fi6ctVZ_jZUoa5LQ9ec6iKTxxxnFwdDK7I4ngPWxud3KXOx5dGs2kAKtqpyWQsYJCW81E4lDXDtvYxFtoKtbuaiVt15ONHZUgkpiUSkWmQT0zUdEglo-mA.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/b27ca398e4a7520913f2582c.jpg",
-        "thumbnail_sha256": "5e0bb18b928672d663033fd014c08ac492eabd3551e3c262f4c04791d6a23301",
-        "permalink": "https://t.me/matinsenpaii/5168"
-      }
     }
   ]
 }
