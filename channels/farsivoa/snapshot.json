@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-21T15:27:12.746Z",
+  "fetched_at": "2026-09-21T15:31:56.579Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/231218",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/P_MFcJJ7kRvGxyKee8b5-M1MHbMN2B3XPE1ehKbdQlReJiKDyUBfjJM0HFHo0nc8vLSiAZSA5wgcNoUmHF1g-Skr66S4xkjkan5fI8kIEyF0Czt-R0ByeW8NUIibXxKMz2wrzFtWpVLFbAScMThHeqXKTmP-1nPx7mzvgHScA3GFwkGoXBTK3pZipvf2Y1vov1vfz1vaEnXzCHMAK_ip-ZRNq9KlTpmTiQNEFMAHXgR4HwmyoXCQp5w1AgyHXWTBiqm1ZeThtCNbK06dGWKartAMt0XLiZWJyzyisCPKCBmWBgL-rcBcHUtFWSUoIGhDe0YdOyEX-DLw9SJJDD9Jlw.jpg",
+      "author_photo_path": "channels/farsivoa/media/e75b6de56aa03d94d7b329b4.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "دوشنبه ۳۰ شهریور ۱۴۰۵، گروهی از بازنشستگان مخابرات در همدان تجمع کرده و خواستار اجرای کامل آیین‌نامه استخدامی و رفاهی سال ۱۳۸۹، رسیدگی به وضعیت بیمه درمانی، اجرای متناسب‌سازی حقوق و پرداخت مطالبات و مزایای معوق خود شدند.",
+      "plain_text": "دوشنبه ۳۰ شهریور ۱۴۰۵، گروهی از بازنشستگان مخابرات در همدان تجمع کرده و خواستار اجرای کامل آیین‌نامه استخدامی و رفاهی سال ۱۳۸۹، رسیدگی به وضعیت بیمه درمانی، اجرای متناسب‌سازی حقوق و پرداخت مطالبات و مزایای معوق خود شدند.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/231218",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/tAQ-TkDHSvLh_x3H8xnAKQfy-BjfAJBDJ6g9-lQQRXPJSP-w1Kbg5IJjw3m8NiWXIbY6gNDLnDfqIe_OG2PhEBaYUcQvZ_9y3mN9wDQuXvGPbipSbXT84sphS2rDVQ3y0RvAeTYxtfsBWYujrrrp5ItnbEiL3GCCd3VZYojK4hGGZkgHxfB0mSKe9XqDOu9vixB-dUjhW1u4MZdRHyduICBkELTX0qjcEANXOt1MJ4-ZWCco0dWddw5hFF3fOAmGmZgExC1EIK1bMpuxZmvW0vPAz3ZjGcrfQFHpOQZfPuFhdNBM62kI9_eJnu4IOkWOXB7DHA6naBr8lKP6NhdwRg",
+          "thumbnail_path": "channels/farsivoa/media/96a2f3ac823922e3b1e810ca.jpg",
+          "thumbnail_sha256": "c56d2a05ad63c11e9f6941fc400d2f27cc61061d5c7128a104f72bc539502f75",
+          "duration_label": "0:59",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "221",
+      "posted_at": "2026-09-21T15:27:36+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/231218",
+      "reply": null
+    },
+    {
       "id": "farsivoa/231217",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/P_MFcJJ7kRvGxyKee8b5-M1MHbMN2B3XPE1ehKbdQlReJiKDyUBfjJM0HFHo0nc8vLSiAZSA5wgcNoUmHF1g-Skr66S4xkjkan5fI8kIEyF0Czt-R0ByeW8NUIibXxKMz2wrzFtWpVLFbAScMThHeqXKTmP-1nPx7mzvgHScA3GFwkGoXBTK3pZipvf2Y1vov1vfz1vaEnXzCHMAK_ip-ZRNq9KlTpmTiQNEFMAHXgR4HwmyoXCQp5w1AgyHXWTBiqm1ZeThtCNbK06dGWKartAMt0XLiZWJyzyisCPKCBmWBgL-rcBcHUtFWSUoIGhDe0YdOyEX-DLw9SJJDD9Jlw.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺بسنت: تمام خطوط هوایی جمهوری اسلامی از اول مهر تعطیل می‌شوند؛ چین در مذاکرات درباره ایران حضور فعال دارد\n\n▪️اسکات بسنت، وزیر خزانه‌داری آمریکا، روز دوشنبه ۳۰ شهریور اعلام کرد تمام خطوط هوایی جمهوری اسلامی از اول مهر تعطیل می‌شوند، و گفت ارائه خدمات به آنها مشمول خطر تحریم‌های ثانویه آمریکا خواهد شد، و شرکت‌هایی که به آنها سوخت، خدمات فرودگاهی یا فروش بلیت ارائه کنند، ممکن است دسترسی خود به نظام مالی دلاری را از دست بدهند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/us-bessent-iran-airlines-secondary-sanctions-china-economic-pressure/8202341.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "293",
+      "views_label": "514",
       "posted_at": "2026-09-21T15:22:14+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231217",
@@ -37,7 +65,7 @@
       "plain_text": "🔺دیدار پرزیدنت ترامپ و رئیس جمهوری چین؛ تجارت، تایوان و فشار بر رژیم ایران در دستور کار آمریکا\n\n▪️پرزیدنت ترامپ روز پنجشنبه ۲ مهر در واشنگتن میزبان شی جین‌پینگ، رئیس جمهوری چین، خواهد بود؛ نشستی که دولت آمریکا امیدوار است در آن ضمن تثبیت آتش‌بس تجاری میان دو اقتصاد بزرگ جهان، درباره موضوعاتی از تجارت و مواد معدنی حیاتی تا تایوان و درگیری نظامی با جمهوری اسلامی پیشرفت حاصل شود. وزارت امور خارجه چین اعلام کرده است شی از ۱ تا ۳ مهر به دعوت پرزیدنت ترامپ به آمریکا سفر خواهد کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/president-trump-xi-china-summit-trade-taiwan-iran/8202367.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "485",
+      "views_label": "641",
       "posted_at": "2026-09-21T15:18:11+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231216",
@@ -53,7 +81,7 @@
       "plain_text": "🔺کاوه مدنی در فهرست «۱۰۰ چهره اقلیمی» ایندیپندنت قرار گرفت\n\n▪️دانشگاه سازمان ملل متحد اعلام کرد کاوه مدنی، مدیر مؤسسه آب، محیط‌ زیست و سلامت این دانشگاه، در فهرست «۱۰۰ چهره اقلیمی سال ۲۰۲۶» روزنامه بریتانیایی ایندیپندنت قرار گرفته است. این فهرست چهره‌ها و نهادهای تأثیرگذار در مقابله با چالش‌های اقلیمی و زیست‌محیطی را معرفی می‌کند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/kaveh-madani-makes-climate-one-hundred/8202369.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "587",
+      "views_label": "682",
       "posted_at": "2026-09-21T15:14:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231215",
@@ -81,7 +109,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.06K",
+      "views_label": "1.12K",
       "posted_at": "2026-09-21T14:55:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231214",
@@ -109,7 +137,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.19K",
+      "views_label": "1.28K",
       "posted_at": "2026-09-21T14:50:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231213",
@@ -125,7 +153,7 @@
       "plain_text": "🔺انتقاد شدید وزیر خارجه لبنان از نیروی نیابتی رژیم ایران: «راه حل نظامی» حزب‌الله علیه اسرائیل جنوب کشور را ویران کرد\n\n▪️یوسف رجّی، وزیر امور خارجه لبنان، با انتقاد از رویکرد نظامی حزب‌الله گفت این مسیر جنوب لبنان را ویران و ساکنان آن را آواره کرده است؛ و تاکید کرد خلع سلاح حزب‌الله و انحصار سلاح در دست دولت خواسته‌ای ملی و مستقل از مذاکرات با اسرائیل است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/lebanon-foreign-minister-hezbollah-disarmament-us-israel-talks/8202337.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.62K",
+      "views_label": "1.68K",
       "posted_at": "2026-09-21T14:33:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231212",
@@ -153,7 +181,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.47K",
+      "views_label": "1.54K",
       "posted_at": "2026-09-21T14:31:28+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231211",
@@ -181,7 +209,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.73K",
+      "views_label": "1.79K",
       "posted_at": "2026-09-21T14:18:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231210",
@@ -197,7 +225,7 @@
       "plain_text": "🔺طرح رزمایش حکومتی «گردان‌های جان‌فدای ایران» در سیستان و بلوچستان همزمان با حضور نیروهای فاطمیون و زینبیون\n\n▪️استانداری سیستان و بلوچستان از برنامه‌ریزی برای برگزاری رزمایش «گردان‌های جان‌فدای ایران» با حضور ۱۰۰ هزار نفر در این استان خبر داده است. همزمان گزارش‌های تازه‌ای درباره حضور و فعالیت مسلحانه نیروهای وابسته به فاطمیون و زینبیون در نقاط مختلف استان منتشر شده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/janfadaye-iran-basij-fatemiyoun-zainabiyoun-irgc-military-exercise/8202343.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.96K",
+      "views_label": "2.02K",
       "posted_at": "2026-09-21T14:03:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231209",
@@ -225,7 +253,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.78K",
+      "views_label": "1.84K",
       "posted_at": "2026-09-21T14:01:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231208",
@@ -241,7 +269,7 @@
       "plain_text": "🔺فرانسه حمله نیروهای امنیتی رژیم ایران به مرکز آموزش زبان فرانسوی را به شدت محکوم کرد\n\n▪️سفارت فرانسه در تهران اعلام کرد این کشور به شدیدترین نحو ورود نیروهای امنیتی جمهوری اسلامی به مرکز آموزش زبان فرانسه و اعلام تعطیلی این مرکز از سوی مقامات ایرانی را محکوم می‌کند، و در واکنش به این اقدام سفیر جمهوری اسلامی در فرانسه را احضار خواهد کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/france-condemns-iran-security-forces-french-language-center-tehran/8202348.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.94K",
+      "views_label": "1.97K",
       "posted_at": "2026-09-21T13:54:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231207",
@@ -269,7 +297,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.96K",
+      "views_label": "1.99K",
       "posted_at": "2026-09-21T13:44:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231206",
@@ -297,7 +325,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.99K",
+      "views_label": "2.05K",
       "posted_at": "2026-09-21T13:39:36+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231205",
@@ -325,7 +353,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.42K",
+      "views_label": "2.45K",
       "posted_at": "2026-09-21T13:20:11+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231204",
@@ -353,7 +381,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.13K",
+      "views_label": "2.16K",
       "posted_at": "2026-09-21T13:16:56+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231203",
@@ -385,7 +413,7 @@
       "plain_text": "🔺آمریکا و چین درباره سازوکار هشدار هوش مصنوعی و کاهش تعرفه‌ها مذاکره کردند\n\n▪️اسکات بسنت، وزیر خزانه‌داری آمریکا، و هه لی‌فنگ، معاون نخست‌ وزیر چین، روز یکشنبه ۲۹ شهریور مذاکرات خود در نیویورک را با تمرکز بر هوش مصنوعی، تجارت و مواد معدنی حیاتی به پایان رساندند. این مذاکرات زمینه را برای دیدار پرزیدنت ترامپ و شی جین‌پینگ، رئیس جمهوری چین، در واشنگتن فراهم می‌کند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/us-china-ai-trade-critical-minerals-bessent-he-lifeng/8202331.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.27K",
+      "views_label": "2.3K",
       "posted_at": "2026-09-21T13:00:26+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231201",
@@ -413,7 +441,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.19K",
+      "views_label": "2.23K",
       "posted_at": "2026-09-21T12:53:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231200",
@@ -429,7 +457,7 @@
       "plain_text": "🔺رویترز: دولت پرزیدنت ترامپ قصد دارد کل دیوان کیفری بین‌المللی را تحریم کند\n\n▪️رویترز به نقل از دو منبع آگاه گزارش داد که دولت پرزیدنت ترامپ تحریم‌هایی علیه کل دیوان کیفری بین‌المللی آماده کرده است و قصد دارد به‌ زودی آنها را اعلام کند؛ اقدامی که فشار آمریکا بر این نهاد مستقر در لاهه را به سطحی فراتر از تحریم شماری از قضات و دادستان‌های آن خواهد رساند. زمان دقیق اعلام تحریم‌ها هنوز مشخص نیست.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/president-trump-us-sanctions-international-criminal-court/8202325.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.38K",
+      "views_label": "2.41K",
       "posted_at": "2026-09-21T12:47:36+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231199",
@@ -2457,22 +2485,6 @@
       "posted_at": "2026-09-20T16:19:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231117",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/231116",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/P_MFcJJ7kRvGxyKee8b5-M1MHbMN2B3XPE1ehKbdQlReJiKDyUBfjJM0HFHo0nc8vLSiAZSA5wgcNoUmHF1g-Skr66S4xkjkan5fI8kIEyF0Czt-R0ByeW8NUIibXxKMz2wrzFtWpVLFbAScMThHeqXKTmP-1nPx7mzvgHScA3GFwkGoXBTK3pZipvf2Y1vov1vfz1vaEnXzCHMAK_ip-ZRNq9KlTpmTiQNEFMAHXgR4HwmyoXCQp5w1AgyHXWTBiqm1ZeThtCNbK06dGWKartAMt0XLiZWJyzyisCPKCBmWBgL-rcBcHUtFWSUoIGhDe0YdOyEX-DLw9SJJDD9Jlw.jpg",
-      "author_photo_path": "channels/farsivoa/media/e75b6de56aa03d94d7b329b4.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BA.png')\"><b>🔺</b></i>پرزیدنت ترامپ: در حال تصمیم‌گیری درباره جمهوری اسلامی هستم؛ اتفاقات بسیار بزرگی در راه است<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i>دونالد ترامپ، رئیس جمهوری آمریکا، روز یکشنبه ۲۹ شهریور در گفت‌وگو با تری ینگست، خبرنگار ارشد فاکس نیوز، گفت درباره گام بعدی آمریکا در قبال جمهوری اسلامی در «مرحله تصمیم‌گیری» قرار دارد، و تاکید کرد «اتفاقات بسیار بزرگی در آینده نه‌چندان دور رخ خواهد داد.» این اظهارات در آستانه آغاز نشست‌های سطح بالای مجمع عمومی سازمان ملل متحد در نیویورک بیان شد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> بیشتر بخوانید:<br><br><a href=\"https://ir.voanews.com/a/president-trump-iran-decision-military-action-pezeshkian-meeting/8202054.html/?nocach=1\" target=\"_blank\" rel=\"noopener\">https://ir.voanews.com/a/president-trump-iran-decision-military-action-pezeshkian-meeting/8202054.html/?nocach=1</a>",
-      "plain_text": "🔺پرزیدنت ترامپ: در حال تصمیم‌گیری درباره جمهوری اسلامی هستم؛ اتفاقات بسیار بزرگی در راه است\n\n▪️دونالد ترامپ، رئیس جمهوری آمریکا، روز یکشنبه ۲۹ شهریور در گفت‌وگو با تری ینگست، خبرنگار ارشد فاکس نیوز، گفت درباره گام بعدی آمریکا در قبال جمهوری اسلامی در «مرحله تصمیم‌گیری» قرار دارد، و تاکید کرد «اتفاقات بسیار بزرگی در آینده نه‌چندان دور رخ خواهد داد.» این اظهارات در آستانه آغاز نشست‌های سطح بالای مجمع عمومی سازمان ملل متحد در نیویورک بیان شد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/president-trump-iran-decision-military-action-pezeshkian-meeting/8202054.html/?nocach=1",
-      "media": [],
-      "reactions": [],
-      "views_label": "3.39K",
-      "posted_at": "2026-09-20T16:06:23+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/231116",
       "reply": null
     }
   ]
