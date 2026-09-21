@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-21T13:46:56.778Z",
+  "fetched_at": "2026-09-21T13:51:56.290Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "31K"
   },
   "posts": [
+    {
+      "id": "hranews/115817",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/OWQV8P9AmCWBhT2IHqA1IQxuVj9lhK4RSJd1jU0XYhbOZQClej_kDt14wCsE2Cl1VEUapABesywi4gcSVpwHDmX8w3FwZ2s5Bocp6KBKw3r2uviiLQ1zQ_OzGdnTAy1dH6W3bRXSilSw02ZNG7hkFVg7YQ5lDby4HQLqOExA8IsHe8Rz5ByGaitTPAOb-IjZuVvZd3L_ff4lXnr_ed-TvbAqMINdTFhmTMnrCV4tM0N7CZKRUB7XLjd8DcaHLQa2hemYZXDC5MBkBJET0ucGYTSPf259fd-VnFLOvN_igS08Qk41HaU01yFl2IgczDmU0rLzxJWarK5DFOvxM8_lSg.jpg",
+      "author_photo_path": "channels/hranews/media/2991480afcd525c9a1d6c5eb.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "جمعی از بازنشستگان و پیشکسوتان مخابرات استان همدان، روز دوشنبه ۳۰ شهریورماه، در همدان <a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9_%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%DB%8C\">#تجمع_اعتراضی</a> برگزار کردند.<br><br>معترضان نسبت به عدم اجرای آیین‌نامه ۸۹/۲۴ شرکت مخابرات و تداوم تصمیماتی که به گفته‌ی آنان به تضییع حقوق شاغلین و بازنشستگان این شرکت انجامیده، اعتراض داشتند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -&nbsp; <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>&nbsp; کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "جمعی از بازنشستگان و پیشکسوتان مخابرات استان همدان، روز دوشنبه ۳۰ شهریورماه، در همدان #تجمع_اعتراضی برگزار کردند.\n\nمعترضان نسبت به عدم اجرای آیین‌نامه ۸۹/۲۴ شرکت مخابرات و تداوم تصمیماتی که به گفته‌ی آنان به تضییع حقوق شاغلین و بازنشستگان این شرکت انجامیده، اعتراض داشتند.\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/115817",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/VZtbCJAv_jzUe-St-MTA7-q1Evl7pvI7k4x611JMJEluWqXC2O0bhbAWJ-my2U7sFYPv5SIchdFeZ8qEf1yIQCz4uO_v7HIPXDPQIqeKIU0aA9niimw-YysWhBUuO9Sv95Rpjj8dfVm_WymHuI2zEoeOogz_CLfhfB8XCe7c5iZyHW0gZBs-ZgF91bLjbQ0k4nklZ7cIOXSUFb-rVL7PKI3M8bT6Gus9qf2EMgImRnzZajVUL9jAlFtxwB61FmcNxbFn5NLWpECCg4CCuc2TGLmr7MSO_PInhH3HzALxsq8e3j8dB2De_fq86IyeLOwvixtgemuUbs2Ped_HoYdgoA",
+          "thumbnail_path": "channels/hranews/media/6e41008c39b6d045c6f7494d.jpg",
+          "thumbnail_sha256": "f0ef127b7da26bd2945f545935228a16229c81d6935b95d521c97f0060a957f5",
+          "duration_label": "2:08",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "18",
+      "posted_at": "2026-09-21T13:49:51+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/115817",
+      "reply": null
+    },
     {
       "id": "hranews/115816",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "83",
+      "views_label": "105",
       "posted_at": "2026-09-21T13:35:25+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115816",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "92",
+      "views_label": "108",
       "posted_at": "2026-09-21T13:32:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115815",
@@ -77,7 +105,7 @@
       "plain_text": "شناسایی بیش از ۱۴۰ هزار کودک بازمانده از تحصیل در کشور طی سال گذشته/ ۸۶ مورد کودک‌همسری\n\n❗️❗️❗️❗️❗️– معاون آموزش ابتدایی وزارت آموزش و پرورش اعلام کرد که طی سال گذشته ۱۴۰ هزار و ۵۶۲ #کودک بازمانده از تحصیل در مقطع ابتدایی در کشور شناسایی شدند. به گفته وی، ۵۵.۴۵ درصد از این کودکان پسر و ۴۴.۵۵ درصد نیز دختر بوده‌اند که ۸۶ مورد کودک‌همسری در میان موارد شناسایی‌شده، ثبت شده است.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "124",
+      "views_label": "138",
       "posted_at": "2026-09-21T13:27:49+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115814",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "185",
+      "views_label": "194",
       "posted_at": "2026-09-21T13:11:32+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115813",
@@ -121,7 +149,7 @@
       "plain_text": "محمدباقر خرازی آزاد شد\n\n❗️❗️❗️❗️❗️– محمدباقر خرازی، روحانی و فعال سیاسی که پیشتر با حکم دادسرای ویژه روحانیت قم بازداشت شده بود، با قرار تامین کیفری آزاد شده است.\n\nادامه مطلب\n\n#محمدباقر_خرازی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "235",
+      "views_label": "242",
       "posted_at": "2026-09-21T13:02:48+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115812",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "231",
+      "views_label": "239",
       "posted_at": "2026-09-21T12:53:54+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115811",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "242",
+      "views_label": "249",
       "posted_at": "2026-09-21T12:49:23+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115810",
@@ -205,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "375",
+      "views_label": "380",
       "posted_at": "2026-09-21T11:49:35+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115809",
@@ -233,7 +261,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "376",
+      "views_label": "379",
       "posted_at": "2026-09-21T11:44:05+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115808",
@@ -261,7 +289,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "469",
+      "views_label": "471",
       "posted_at": "2026-09-21T11:02:23+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115807",
@@ -289,7 +317,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "674",
+      "views_label": "677",
       "posted_at": "2026-09-21T09:39:05+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115806",
@@ -305,7 +333,7 @@
       "plain_text": "سقز؛ مرگ یک کارگر زن و مصدومیت ۵ تن دیگر بر اثر واژگونی خودرو حامل کارگران\n\n❗️❗️❗️❗️❗️– روز گذشته، یک #کارگر زن که بر اثر سانحه واژگونی خودرو حامل کارگران فصلی کشاورزی در محور سقز به بوکان مصدوم شده بود، در بیمارستان جان باخت. در این حادثه که شامگاه جمعه ۲۷ شهریورماه به وقوع پیوست، پنج کارگر دیگر نیز مصدوم شده‌اند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "727",
+      "views_label": "729",
       "posted_at": "2026-09-21T08:28:12+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115805",
@@ -437,7 +465,7 @@
       "plain_text": "صدور یک حکم مرگ همزمان با تایید حکم اعدام یک زن در دیوان عالی کشور/ رهایی ۱۹ زندانی از مجازات مرگ\n\n❗️❗️❗️❗️❗️– حکم یک زن متهم به قتل که پیشتر توسط دادگاه کیفری استان سمنان به اعدام محکوم شده بود، توسط دیوان عالی کشور تایید شد. همچنین، یک مرد در پرونده‌ای مرتبط با رابطه با یک زن متاهل، توسط دستگاه قضایی به اعدام محکوم شد. از سوی دیگر، ۱۸ زندانی در استان تهران و شهرستان بهار که پیشتر از بابت اتهام قتل به #اعدام محکوم شده بودند، با اعلام رضایت اولیای دم از مجازات مرگ رهایی یافتند. افزون بر این، یک زندانی محکوم به اعدام در رشت پس از ۱۵ سال تحمل حبس با جلب رضایت اولیای دم از اعدام رهایی یافت.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "666",
+      "views_label": "667",
       "posted_at": "2026-09-20T19:09:37+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115799",
@@ -2262,34 +2290,6 @@
       "posted_at": "2026-09-17T10:11:11+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115717",
-      "reply": null
-    },
-    {
-      "id": "hranews/115716",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/mewRUyxdrsWf9NkIG8xM2bhoo5hvleLM7ZJkC6EFLMsH12syeOsPo89GV8xBId9KHv6ZJn1g2OwPHDo4PiGUPj3G8ouhCafB4NtCovl2nQHX886lvbWOOSzhx3bQs9djwbV9oWvSm-IY_1yvFSnNoQzaveTo6vEXs3UYxxZqp7dtwR-M6icnZqi7IY-gn93fDU9p_ojYEHUvMN2Bds9miUUaFhTiOhUufEF1qD9s2ZRmhkSvvzYLfqTr60Wl6BJJlaEjsHAkiMQCJoaJNj--OgTkmYKWv10hpI_KWLu8_zsTQzcBSwy8pwM7kIH07enNM-WN0vOY86Z2R1x6UyBbnA.jpg",
-      "author_photo_path": "channels/hranews/media/723a078c059cd90581e805c1.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "گزارشی از تفتیش منزل سعید عظیمی، شهروند بهائی در اصفهان<br><br><tg-emoji emoji-id=\"4936376861581116178\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936234406105842841\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936202185261187827\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933936920725029797\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933769043338331221\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji>– روز یکشنبه ۱۵ شهریورماه، منزل سعید عظیمی، شهروند بهائی ساکن اصفهان توسط ماموران اداره اطلاعات تفتیش شد. ماموران در جریان این اقدام شماری از وسایل الکترونیکی و شخصی وی را ضبط کردند.<br><br>یه گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، روز یکشنبه ۱۵ شهریور ۱۴۰۵، منزل سعید عظیمی، شهروند بهائی ساکن اصفهان، توسط ماموران اداره اطلاعات مورد تفتیش قرار گرفت.<br><br>بر اساس اطلاعات دریافتی هرانا، ماموران امنیتی پس از ورود به منزل آقای عظیمی، شماری از وسایل الکترونیکی و شخصی وی از جمله لپ‌تاپ، تلویزیون و سازهای موسیقی را ضبط کردند.<br><br><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-30213c98/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ادامه مطلب</a><br><br><a href=\"?q=%23%D8%B3%D8%B9%DB%8C%D8%AF_%D8%B9%D8%B8%DB%8C%D9%85%DB%8C\">#سعید_عظیمی</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "گزارشی از تفتیش منزل سعید عظیمی، شهروند بهائی در اصفهان\n\n❗️❗️❗️❗️❗️– روز یکشنبه ۱۵ شهریورماه، منزل سعید عظیمی، شهروند بهائی ساکن اصفهان توسط ماموران اداره اطلاعات تفتیش شد. ماموران در جریان این اقدام شماری از وسایل الکترونیکی و شخصی وی را ضبط کردند.\n\nیه گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، روز یکشنبه ۱۵ شهریور ۱۴۰۵، منزل سعید عظیمی، شهروند بهائی ساکن اصفهان، توسط ماموران اداره اطلاعات مورد تفتیش قرار گرفت.\n\nبر اساس اطلاعات دریافتی هرانا، ماموران امنیتی پس از ورود به منزل آقای عظیمی، شماری از وسایل الکترونیکی و شخصی وی از جمله لپ‌تاپ، تلویزیون و سازهای موسیقی را ضبط کردند.\n\nادامه مطلب\n\n#سعید_عظیمی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/hranews/115716",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/BCzaXu94OOMaPnszkS2L88eeRi0uTqH5HsmOknAG8RN1B9ZD_G_QsJx6yROdlEhZzL02xIdjPIEU7BbixCIIngtD0PS7IpCnbl2SADYoNejfNLFYq0bKNg7ncYw7xqWUrpZe2VuNmMs7KY-ADvX3NWxaU82f9RizTMHGIufcRTYioodXacXjZEq5HR7IHH7KvierRUYwoFgNsj4-Mg9pmp1BppwcAeUUpX1IXHmO3vvdHKPC2OzyR1bPyrdAJLONzCE5adZ4wzziQiHmTgzUcblAg_L-ItyqBtmFlcojKK2AF_6cIZesH2uuTRvbstIIbxPap-XHEybTKjPS_QC1BQ.jpg",
-          "thumbnail_path": "channels/hranews/media/ab462e482adc52099db3a68d.jpg",
-          "thumbnail_sha256": "29a1ab466cea840dc915d32411e86b34e875a0d901b0b35555b0237ede97244e",
-          "duration_label": null,
-          "aspect_ratio": 1.5009380863039399
-        }
-      ],
-      "reactions": [],
-      "views_label": "1.06K",
-      "posted_at": "2026-09-17T09:52:52+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/115716",
       "reply": null
     }
   ]
