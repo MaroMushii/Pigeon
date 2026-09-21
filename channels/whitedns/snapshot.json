@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-21T02:47:16.369Z",
+  "fetched_at": "2026-09-21T02:52:11.059Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1835",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/KtIKZrmbFw1ZqLhJAAePhPRAbixnEUE_fy10cbedgIlcAyAcs_-BJpOmcsPSATGInbxmuv2z6mD7G-nWiBLdr8DP5nuHud2hw0LFOYM88baIEr44kqmokybDNCLCByVrnrA1WtdTdovmCT1ebq1tcPKwREv2M2kOO_6FPlokCsQQwZxEwRjW0TRcJs62E6b75UFeoFYjRFw0tagdD92YqWR6w3qTFsAjg6xnQh5ULrO8ApxX-aNNPTcSr0Gjvt7S9holyQfxBVZo4lEMd3vwEWbyHwJFFy1KPQAqPqoAOgBgVVII5TO5pXvhFWiooi2XmWle8BQ2pDnNqDOLtw9guQ.jpg",
+      "author_photo_path": "channels/whitedns/media/da6ede2048e1a2af52784584.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<tg-emoji emoji-id=\"5361741454685256344\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAE.png')\"><b>🎮</b></i></tg-emoji> <b>معرفی اپلیکیشن WhiteGame | پینگ و آنالیز سرورهای گیمینگ در یک بستر </b><br><br><tg-emoji emoji-id=\"5188481279963715781\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i></tg-emoji> برنامه <b>WhiteGame</b> یک ابزار کارآمد آنالیز و ارزیابی کیفیت اتصال گیمینگ (Network Pr MA) برای سیستم‌عامل اندروید است (که به‌زودی برای سایر پلتفرم‌ها نیز منتشر می‌شود) <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i>. این برنامه به‌طور ویژه برای بهینه‌سازی پینگ، سنجش کیفیت اتصال (QoS) و رفع چالش‌ها و محدودیت‌های ارتباط با سرورهای بازی طراحی شده است.<br><br><tg-emoji emoji-id=\"5203993413346680064\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i></tg-emoji> این ابزار با شبیه‌سازی پروپ‌های شبکه‌ای و سنجش شاخص‌های کلیدی و نوسانات پکت‌ها تحت وب، به گیمرها این امکان را می‌دهد که وضعیت زیرساخت اتصال خود را پیش از ورود به بازی ارزیابی کنند. جای دارد گفته شود که تمرکز ما روی <b>UDP</b> است، همچنین قابلیت <b>Test Real Path</b> در اپلیکیشن، پینگ واقعی و دقیق شما را در زمان Matchmaking و InGame نمایش می‌دهد .<br><br><tg-emoji emoji-id=\"5197288647275071607\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i></tg-emoji> <b>پروتکل‌های پشتیبانی‌شده: </b><br>Warp | WireGuard | Amnezia | Xray<br><br><tg-emoji emoji-id=\"5325547803936572038\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i></tg-emoji> <b>ویژگی‌های برجسته: </b><br>• Packet Loss Injector<br>• Jitter Plus<br>• Gaming DNS Spy<br>• Optimizer Warp و WireGuard<br><br><tg-emoji emoji-id=\"5868721481659192246\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i></tg-emoji> علاوه بر این، ابزارهایی برای ساخت و مدیریت کانفیگ در اختیار شماست؛ با استفاده از بخش Generation برنامه، تنها کافی است Public Key سرور خود را قرار دهید تا خروجی موردنظر به‌صورت خودکار تولید شود .<br><br><tg-emoji emoji-id=\"5246762912428603768\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9389.png')\"><b>📉</b></i></tg-emoji> همچنین در مرحله تست آزمایشی (Beta)، حدود ۳۰۰ نفر از کاربران با استفاده از ترکیب Warp و پنل BpB توانستند میزان Packet Loss خود را در شرایط ناپایدار کنونی به نزدیک ۰٪ برسانند.<br><tg-emoji emoji-id=\"5395732581780040886\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA49D.png')\"><b>🤝</b></i></tg-emoji> امیدواریم با بازخوردها و پیشنهادات شما، این پروژه را روزبه‌روز بهبود ببخشیم.<br><br><a href=\"https://github.com/TaJirax/WhiteGame\" target=\"_blank\" rel=\"noopener\">https://github.com/TaJirax/WhiteGame</a><br><a href=\"https://t.me/Whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@Whitedns</a>",
+      "plain_text": "🎮 معرفی اپلیکیشن WhiteGame | پینگ و آنالیز سرورهای گیمینگ در یک بستر\n\n🚀 برنامه WhiteGame یک ابزار کارآمد آنالیز و ارزیابی کیفیت اتصال گیمینگ (Network Pr MA) برای سیستم‌عامل اندروید است (که به‌زودی برای سایر پلتفرم‌ها نیز منتشر می‌شود) 📱. این برنامه به‌طور ویژه برای بهینه‌سازی پینگ، سنجش کیفیت اتصال (QoS) و رفع چالش‌ها و محدودیت‌های ارتباط با سرورهای بازی طراحی شده است.\n\n📊 این ابزار با شبیه‌سازی پروپ‌های شبکه‌ای و سنجش شاخص‌های کلیدی و نوسانات پکت‌ها تحت وب، به گیمرها این امکان را می‌دهد که وضعیت زیرساخت اتصال خود را پیش از ورود به بازی ارزیابی کنند. جای دارد گفته شود که تمرکز ما روی UDP است، همچنین قابلیت Test Real Path در اپلیکیشن، پینگ واقعی و دقیق شما را در زمان Matchmaking و InGame نمایش می‌دهد .\n\n🔐 پروتکل‌های پشتیبانی‌شده:\nWarp | WireGuard | Amnezia | Xray\n\n✨ ویژگی‌های برجسته:\n• Packet Loss Injector\n• Jitter Plus\n• Gaming DNS Spy\n• Optimizer Warp و WireGuard\n\n⚙️ علاوه بر این، ابزارهایی برای ساخت و مدیریت کانفیگ در اختیار شماست؛ با استفاده از بخش Generation برنامه، تنها کافی است Public Key سرور خود را قرار دهید تا خروجی موردنظر به‌صورت خودکار تولید شود .\n\n📉 همچنین در مرحله تست آزمایشی (Beta)، حدود ۳۰۰ نفر از کاربران با استفاده از ترکیب Warp و پنل BpB توانستند میزان Packet Loss خود را در شرایط ناپایدار کنونی به نزدیک ۰٪ برسانند.\n🤝 امیدواریم با بازخوردها و پیشنهادات شما، این پروژه را روزبه‌روز بهبود ببخشیم.\n\nhttps://github.com/TaJirax/WhiteGame\n@Whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1835",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/TPK_P5SRXAeH6BRBk5QC2lLKPXnnS7F2Z-DbWR7D71bPZsfUdIarzYiFr2M4ou0vHmxxhOVLAO_BWF6_BWeMTfQpIUJv1eFXXNJgIukNyaG3-WQ6ovtwtIqOzC4f65lyaX1SV0zpKRlXyi_HRvZ2hiPGe39cGMZ7U_HACBV0R4Vxm5c6efA9ZwP6-ibCTP8kv2bsYYs6CfCNz9I6iSdPf918UKwWXpOYrxT_2MHhUmCqWHf2qTzRYVSdYdc5VdzOLygUQM29WtYg_VgzSA3AOW5rFm9DFYKOj3yMAf8R6h6MfabIvdof5s7SInQFYczYDTf8tBiJYY6ZuDOsXYFTvg.jpg",
+          "thumbnail_path": "channels/whitedns/media/f21d9ab3c4d4ea2dc35ffd3d.jpg",
+          "thumbnail_sha256": "a0b88f0086a8a592685dbe86600b53485acfe2b0d6e684b5a0f3a860142e5245",
+          "duration_label": null,
+          "aspect_ratio": 2
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "108",
+      "posted_at": "2026-09-21T02:49:29+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1835",
+      "reply": null
+    },
     {
       "id": "whitedns/1834",
       "author_name": "White DNS",
@@ -70,7 +103,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.91K",
+      "views_label": "6.95K",
       "posted_at": "2026-09-20T16:46:36+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1834",
@@ -98,10 +131,6 @@
         }
       ],
       "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
         {
           "emoji": "❤",
           "count": "132"
@@ -143,7 +172,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.11K",
+      "views_label": "7.13K",
       "posted_at": "2026-09-20T13:39:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1833",
@@ -452,7 +481,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14K",
       "posted_at": "2026-09-18T11:11:37+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1822",
@@ -5561,59 +5590,6 @@
       "posted_at": "2026-09-02T15:01:38+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1697",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1695",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/rS6RCEFuW1PXZWmyxL9LH4hksFuaqOEuDnCepdXgfMWm9oz3hmJLMzANIv_2zc1rPhXKBzaHdgikO5rClYjZvSxa6qEjavuy6H7cW8_rO4iHZZKaI2amn_SzCn6ktmwEwIdn2s_vN7sbDuv6Ttv5afB_MFRq8Y6IEF_2U3m7HlJdCo83ORjf-iIhrc_e9MkGFrgf68Wwtn-ERGNZ1-rlOgBZlN4v4hVkK8yE3mo_L8d34EG6S_2RGpY1TdM2CMOcYvDTCKs4-aThPObG5EEexm66nVyh9zr00A5R7x8GJQ_6qkL3x1X3CZ2noPTmgKSEyWwlULSLsF5p5gQoDSNaCw.jpg",
-      "author_photo_path": "channels/whitedns/media/3b073c05507a38416f82d77c.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "خرید و فروش کانفیگ در کل گروه های whitedns ممنوع است <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i><br><br>بلافاصله بدون اخطار = ban",
-      "plain_text": "خرید و فروش کانفیگ در کل گروه های whitedns ممنوع است ⚠️\n\nبلافاصله بدون اخطار = ban",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "189"
-        },
-        {
-          "emoji": "👏",
-          "count": "40"
-        },
-        {
-          "emoji": "👍",
-          "count": "5"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        },
-        {
-          "emoji": "💊",
-          "count": "2"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        },
-        {
-          "emoji": "🤝",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        }
-      ],
-      "views_label": "16.7K",
-      "posted_at": "2026-09-02T13:32:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1695",
       "reply": null
     }
   ]
