@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-22T12:07:23.139Z",
+  "fetched_at": "2026-09-22T12:12:04.760Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1838",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/LHIz5cvMnd0rK-aQO3ZWCkSO4767ngvSISm9n90fi_LZ5TBA0c-QkB7UHgvRKhSavpus3dshChLMAj4TzaU1dHo-e77u2K495za9O4S-idTPGvgmpV9HnQ51pX3kPLOJ8QmnJgp5_ZfXxWZcDRm-d-bQFrDjVmj_BYydQ5wUgn3tWepMCkABB2-8AfQEdly6u73V4NKrYtlM5wUZXAcCBN_D1vw5UT8bNoNGkCpgh5YpaSALbZHSRSFehgdaYOuoScAssWlstZ08ZMUzuWpeZqncLzyVWAA2M9jw5V4Zn4auBkIVxWv8OGlm4MFLdD37vhElzGNdtGQRaQgALHwVzg.jpg",
+      "author_photo_path": "channels/whitedns/media/1f35b18d469e6e41559bc103.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <b>WhiteAesther mobile V1.9.4</b> <b>pre-release</b><br><br>الان DNS inside the tunnel روی همه حالت ها اعمال میشود - قبلا این امکان فقط برای حالت proxy بود. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i><br><br><b>چی درست شد</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>فیلد «DNS inside the tunnel» بالاخره کار می‌کند.</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> تا حالا هر چی وارد می‌کردید نادیده گرفته می‌شد و همیشه از <a href=\"http://1.1.1.1/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1.1.1.1</a> استفاده می‌شد. اگه با سایت‌های تست DNS چک کرده بودید و جواب عوض نمی‌شد، دلیلش همین بود.<br>اگه خالی بگذارید مثل قبل <a href=\"http://1.1.1.1/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">1.1.1.1</a> می‌ماند. در حالت chain اعمال نمی‌شود، چون آنجا نام‌ها رمزگذاری‌شده و از سمت خروجی پرسیده می‌شوند. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i><br><br>و بهینه سازی موتور و routing , ...................... <br><br><b>نصب:</b> <br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.9.4\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.9.4</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">@whitedns</a>",
+      "plain_text": "🔗 WhiteAesther mobile V1.9.4 pre-release\n\nالان DNS inside the tunnel روی همه حالت ها اعمال میشود - قبلا این امکان فقط برای حالت proxy بود. 🌐\n\nچی درست شد\n\n▫️ فیلد «DNS inside the tunnel» بالاخره کار می‌کند. ✅ تا حالا هر چی وارد می‌کردید نادیده گرفته می‌شد و همیشه از 1.1.1.1 استفاده می‌شد. اگه با سایت‌های تست DNS چک کرده بودید و جواب عوض نمی‌شد، دلیلش همین بود.\nاگه خالی بگذارید مثل قبل 1.1.1.1 می‌ماند. در حالت chain اعمال نمی‌شود، چون آنجا نام‌ها رمزگذاری‌شده و از سمت خروجی پرسیده می‌شوند. 🔒\n\nو بهینه سازی موتور و routing , ......................\n\nنصب:\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.9.4\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1838",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/jA4On24v6LkFFMg29dp0HUhiLuVRWx92Hr2GhiebYiZftfz9EMrnqbdpf3ISlnIQzwjspFrYyhSjfLmKScQkn9PYukQxqSONPaOcbw91iCba3iyByUWkxrWf1caH_rsUB9dqkPB-SKmpa3krBKoA1RKC8sTVTou7eEqjamXimGyC9wZVO3euBPWj1Xi9ODgLqzO85JWQS_ooDU5zT7C2I6p-U4e8JwTp0eGULFz0giU6U697l8-icjZKrKvwvENgM4vy-0QNcL9ctjxhL97qUaLT6g3OnACWHqEXm18YOMMfZCibHyMrDgAlTpMmqhAAHpjn0ZVkP5WTEK0IFyioDg.jpg",
+          "thumbnail_path": "channels/whitedns/media/7752cc6743dc1bacfd89fd11.jpg",
+          "thumbnail_sha256": "f624fd68c5e8575a464a9843aab7df53ab9c3d9fd968df1553f0ac2b88d1d392",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "203",
+      "posted_at": "2026-09-22T12:10:42+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1838",
+      "reply": null
+    },
     {
       "id": "whitedns/1837",
       "author_name": "White DNS",
@@ -35,7 +68,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "40"
+          "count": "43"
         },
         {
           "emoji": "😍",
@@ -54,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.7K",
+      "views_label": "2.82K",
       "posted_at": "2026-09-22T11:16:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1837",
@@ -72,7 +105,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "371"
+          "count": "373"
         },
         {
           "emoji": "👏",
@@ -111,7 +144,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.1K",
+      "views_label": "11.2K",
       "posted_at": "2026-09-21T05:51:07+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1836",
@@ -154,7 +187,7 @@
         },
         {
           "emoji": "❤",
-          "count": "379"
+          "count": "381"
         },
         {
           "emoji": "😍",
@@ -197,7 +230,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12K",
       "posted_at": "2026-09-21T02:49:29+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1835",
@@ -298,6 +331,10 @@
         }
       ],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "❤",
           "count": "166"
@@ -725,7 +762,7 @@
           "count": "1"
         }
       ],
-      "views_label": "43.8K",
+      "views_label": "43.9K",
       "posted_at": "2026-09-17T14:29:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1821",
@@ -794,7 +831,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.9K",
+      "views_label": "16K",
       "posted_at": "2026-09-17T13:02:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1820",
@@ -5650,36 +5687,6 @@
       "edited": false,
       "permalink": "https://t.me/whitedns/1700",
       "reply": null
-    },
-    {
-      "id": "whitedns/1699",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/G-y1mCkhfkTRIECPsKbABDt6atu9i6uuqCtOYUCtbkbGIJqH7rkRGfqaQw5vyiHwidBHPU_C6L-zfBKWT8Rm3TwsfuXh4UyJxFwWBBDFGvaqo3RJlJqnzqBAnjqXE0Xq8-HEr6aKxWcE5JP3YTOmdEdIq7Xw_edWHEpL9uW9YRGXGhBsSzOwFm4jUp5MsCJyRAlARD-6K9PY8__WNvBBP__VkgQBwTrTOQMigxvAwS-AENhyj-PaFLZni9FpfA504wNBMOR-Hog1IjuY71EcB5UuPDYqkPyWhsjgkSSe0qwkrmKyNVSi_z762YTIV1p1B9cMxkjfQiTsOR6lIP7_qQ.jpg",
-      "author_photo_path": "channels/whitedns/media/da934410d1c3472f6c81fb27.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "پست موقت <br><br>لطفا با آخرین نسخه های اپلیکیشن Amnezia تست کنید و نتیجه رو بگید. <br><br>ممنون",
-      "plain_text": "پست موقت\n\nلطفا با آخرین نسخه های اپلیکیشن Amnezia تست کنید و نتیجه رو بگید.\n\nممنون",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "1"
-        }
-      ],
-      "views_label": "378",
-      "posted_at": "2026-09-03T01:17:48+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1699",
-      "reply": {
-        "channel_username": "whitedns",
-        "post_id": "1698",
-        "author_name": "White DNS",
-        "preview_text": "my_phone (1).conf",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/whitedns/1698"
-      }
     }
   ]
 }
