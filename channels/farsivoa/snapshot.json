@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-22T12:58:02.238Z",
+  "fetched_at": "2026-09-22T13:02:12.639Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/231323",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/naHPOxrQzBPR5zM2FDMXGGne-ZrFvye2DHGHsgQ8nmi4F7sjR-8bxxueEXKwEdJ2ozoVO90P8Ai3HQk6-kZwS3n_zI2nlaQQIXn4aMGzPrnswJCq-9lVapM1OsPI1OIl8PIuGZkivuJAwJ0_qIHzEc7fYyf96Ku4rbh0BwMlq-qwM08CqeY501TwA9qsb7EYe4D1PT9Kk4HfGhrt95ZVmQ8mH9V-ewIX-qowGS3XV8w0-3N3CCKMDHyDQbrGpuXZCJCYfth4AYUGNhURyboER9xndfnzvPe9_H0h5kI_abJCU388Ax_mfVtu4u-5HF-AVb1rnHmytvQoEGyjwITeBg.jpg",
+      "author_photo_path": "channels/farsivoa/media/3c432c4bba294935869dd244.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "ویدیوی منتشر شده در شبکه‌های اجتماعی مراسم چهارمین سالگرد عرفان خزایی، از کشته‌شدگان اعتراضات ۱۴۰۱، را با حضور جمعی از خانواده‌های دادخواه نشان می‌دهد. پدر عرفان در این مراسم می‌گوید: «امید به روز عدالت ما را سر پا نگه داشته است.»",
+      "plain_text": "ویدیوی منتشر شده در شبکه‌های اجتماعی مراسم چهارمین سالگرد عرفان خزایی، از کشته‌شدگان اعتراضات ۱۴۰۱، را با حضور جمعی از خانواده‌های دادخواه نشان می‌دهد. پدر عرفان در این مراسم می‌گوید: «امید به روز عدالت ما را سر پا نگه داشته است.»",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/231323",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/gkCgIA8Yldz-ba7FuYk413zvvIkc5NNW-SBzE1amHcdfeNOCO63wvuL_Yq85FEPDBJPiIJhkeCe3HhK2-FhNzu4EB24nMCSGAL4P213_kwFJSI1UzYVihgYYP0MnjcxoTdnLluOvcpvJvPlGKeiMjqAmjbsDmfokI8NoS5e9RC986yt_koHh0KE_t6zLsrNKfj75Rkz6O4OHKy61ha7T7Z9Z-qBfmdRaEjr66wdrWNH2-ld5EiCUISRvtZ5a375LK3FCrMiHYnT8MtWFs2BBu02BWElpOZOe4fqq4eYRo3kCi-j0yiR71sncHinyj2NDl0BLSdgohdzKygswMUvpvA",
+          "thumbnail_path": "channels/farsivoa/media/c209fef3c2ae51511c2a9726.jpg",
+          "thumbnail_sha256": "5a7c7fa487c5a7f400146f10e3b86af18ee03ecb138c0b5402f3489c24c2cd3e",
+          "duration_label": "1:40",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "193",
+      "posted_at": "2026-09-22T12:59:08+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/231323",
+      "reply": null
+    },
+    {
       "id": "farsivoa/231322",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/naHPOxrQzBPR5zM2FDMXGGne-ZrFvye2DHGHsgQ8nmi4F7sjR-8bxxueEXKwEdJ2ozoVO90P8Ai3HQk6-kZwS3n_zI2nlaQQIXn4aMGzPrnswJCq-9lVapM1OsPI1OIl8PIuGZkivuJAwJ0_qIHzEc7fYyf96Ku4rbh0BwMlq-qwM08CqeY501TwA9qsb7EYe4D1PT9Kk4HfGhrt95ZVmQ8mH9V-ewIX-qowGS3XV8w0-3N3CCKMDHyDQbrGpuXZCJCYfth4AYUGNhURyboER9xndfnzvPe9_H0h5kI_abJCU388Ax_mfVtu4u-5HF-AVb1rnHmytvQoEGyjwITeBg.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺پرزیدنت ترامپ گزارش‌ها درباره کمبود مهمات آمریکا را رد کرد و گفت تولید در سطوح بی‌سابقه افزایش یافته است\n\n▪️پرزیدنت ترامپ روز سه‌شنبه ۳۱ شهریور گزارش‌ها درباره کاهش شدید ذخایر مهمات ارتش آمریکا را رد کرد و گفت ایالات متحده بیش از میزان مورد نیاز خود مهمات در اختیار دارد، و همزمان تولید تسلیحات را به سطحی افزایش داده که سابقه نداشته است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/president-trump-us-munitions-stockpiles-weapons-production/8202758.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "587",
+      "views_label": "717",
       "posted_at": "2026-09-22T12:45:26+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231322",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "776",
+      "views_label": "906",
       "posted_at": "2026-09-22T12:38:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231321",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "906",
+      "views_label": "1.04K",
       "posted_at": "2026-09-22T12:32:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231320",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "915",
+      "views_label": "1.01K",
       "posted_at": "2026-09-22T12:29:26+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231319",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.25K",
+      "views_label": "1.32K",
       "posted_at": "2026-09-22T12:16:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231318",
@@ -161,7 +189,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.35K",
+      "views_label": "1.42K",
       "posted_at": "2026-09-22T12:07:13+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231317",
@@ -189,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.36K",
+      "views_label": "1.39K",
       "posted_at": "2026-09-22T11:58:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231316",
@@ -217,7 +245,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.46K",
+      "views_label": "1.49K",
       "posted_at": "2026-09-22T11:47:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231315",
@@ -245,7 +273,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.46K",
+      "views_label": "1.5K",
       "posted_at": "2026-09-22T11:40:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231314",
@@ -273,7 +301,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.6K",
+      "views_label": "1.66K",
       "posted_at": "2026-09-22T11:31:19+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231313",
@@ -301,7 +329,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.86K",
+      "views_label": "1.89K",
       "posted_at": "2026-09-22T11:20:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231312",
@@ -329,7 +357,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.92K",
+      "views_label": "1.98K",
       "posted_at": "2026-09-22T11:12:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231311",
@@ -357,7 +385,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.05K",
+      "views_label": "2.08K",
       "posted_at": "2026-09-22T11:01:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231310",
@@ -385,7 +413,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.13K",
+      "views_label": "2.16K",
       "posted_at": "2026-09-22T10:52:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231309",
@@ -413,7 +441,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.28K",
+      "views_label": "2.31K",
       "posted_at": "2026-09-22T10:39:02+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231308",
@@ -441,7 +469,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.34K",
+      "views_label": "2.37K",
       "posted_at": "2026-09-22T10:30:01+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231307",
@@ -469,7 +497,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.41K",
+      "views_label": "2.44K",
       "posted_at": "2026-09-22T10:19:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231306",
@@ -497,7 +525,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.58K",
+      "views_label": "2.61K",
       "posted_at": "2026-09-22T10:00:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231305",
@@ -525,7 +553,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.57K",
+      "views_label": "2.61K",
       "posted_at": "2026-09-22T09:49:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231304",
@@ -2514,34 +2542,6 @@
       "posted_at": "2026-09-21T15:45:01+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/231220",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/231219",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/naHPOxrQzBPR5zM2FDMXGGne-ZrFvye2DHGHsgQ8nmi4F7sjR-8bxxueEXKwEdJ2ozoVO90P8Ai3HQk6-kZwS3n_zI2nlaQQIXn4aMGzPrnswJCq-9lVapM1OsPI1OIl8PIuGZkivuJAwJ0_qIHzEc7fYyf96Ku4rbh0BwMlq-qwM08CqeY501TwA9qsb7EYe4D1PT9Kk4HfGhrt95ZVmQ8mH9V-ewIX-qowGS3XV8w0-3N3CCKMDHyDQbrGpuXZCJCYfth4AYUGNhURyboER9xndfnzvPe9_H0h5kI_abJCU388Ax_mfVtu4u-5HF-AVb1rnHmytvQoEGyjwITeBg.jpg",
-      "author_photo_path": "channels/farsivoa/media/3c432c4bba294935869dd244.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "جسیکا میر، فضانورد ناسا، تصاویری از نمای کهکشان راه شیری در نیمکره جنوبی از ایستگاه فضایی بین‌المللی منتشر کرد.<br><br>این تصاویر با نوردهی سه‌ثانیه‌ای ثبت شده‌اند و نور قایق‌های ماهیگیری در آب‌های نزدیک چین، تایلند و هند نیز در آنها دیده می‌شود.<br><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "جسیکا میر، فضانورد ناسا، تصاویری از نمای کهکشان راه شیری در نیمکره جنوبی از ایستگاه فضایی بین‌المللی منتشر کرد.\n\nاین تصاویر با نوردهی سه‌ثانیه‌ای ثبت شده‌اند و نور قایق‌های ماهیگیری در آب‌های نزدیک چین، تایلند و هند نیز در آنها دیده می‌شود.\n\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/231219",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/LyDZQ4dDOSoQNKS7dyOf3JQTJbIggIJ3Q2IiJoZ3uaDUldmKt-iEVo1VR6YrGTpWWXT35voBLk39Lm7ua-531ehtF6i13iCWqLva5xh3OwUAKdWcU0MRvBiTSXeV3EB_UJ3trJ-9n-gVaVGceb9KEJreel2YRUVPIeIJevVvoKTqzoAmiKHI1j8cSN8n3VEniLufkiIYYdVDjeUVczhy3P0jrdL2unxpDaCO-A2viTy-Gc000KvKtLmr6l2xy-hNlU_GWLqsbiXy4QjW97aoD39fK4R0LJNRJb-NVCQ8vI1Iw0NxTwVW0SBJHOX5upj1YiPpgaqVq0rE617qkIsKdg",
-          "thumbnail_path": "channels/farsivoa/media/411d325885acb8ce9692ff59.jpg",
-          "thumbnail_sha256": "577ac77485b46a416966b4b8f1427fd585bbad1dcc2211f30b2034698ced2eee",
-          "duration_label": "0:07",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.24K",
-      "posted_at": "2026-09-21T15:38:33+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/231219",
       "reply": null
     }
   ]
