@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-22T10:44:45.759Z",
+  "fetched_at": "2026-09-22T10:47:54.286Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5305",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/c1oOebAvLuD8-5kEHUwOmRq5vOZRkGsJuPnkmUiEo4NK_9ZocEzCzrU87JY_yCwZzfDWZcgbGxDJ68spyJvzVvqIcToeQxrTk7qORMf5wsIGh4HRkdyvSVFWu9NRekXOJUiHpiIHp9ABS_7kEynyu_po1BuE29EyeDFMsKpKd8w9-i8IdhQFZttCum5WThuGostFMyyHTJ0y3KEE68Lr2082166Co3vyg9_H_RfhvCdVvV8gkLryV4W1gzPeoLEd8iVvm90DcelqchQk98MOW1nzS8NDHTjYn8KtiIkfVA8ZrkSJbeXH5XFViePfxul7cO-hp_NcHZ546DgGeg2twA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/6a9ca34ec168aa02c9de0388.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "اگر روی 9Router ارور <br><code>HTTP 403: [403]: {\"type\":\"error\",\"error\":{\"type\":\"FreeTierError\",\"message\":\"Error from provider (Console): OpenCode's free tier can only be used from within OpenCode\"}}</code><br>می‌گیرید از اوپن کد، علتش آپدیت نبودن 9Routerتون هست.<br><br>برای آپدیت کسایی که با npm نصب کردن، از دستور<br><pre>npm i -g 9router@latest --prefer-online</pre><br>استفاده کنن، و کسایی هم که با داکر نصب کردن از<br><pre>docker pull decolua/9router:latest<br><br>docker rm -f 9router<br><br>docker run -d \\<br>  --name 9router \\<br>  -p 20128:20128 \\<br>  -v \"$HOME/.9router:/app/data\" \\<br>  -e DATA_DIR=/app/data \\<br>  -e JWT_SECRET=\"change-this-to-a-long-random-secret\" \\<br>  -e INITIAL_PASSWORD=\"your-strong-dashboard-password\" \\<br>  decolua/9router:latest</pre><br>استفاده کنن(با پسوورد و JWT دلخواه برای JWT_SECRET و INITIAL_PASSWORD)",
+      "plain_text": "اگر روی 9Router ارور\nHTTP 403: [403]: {\"type\":\"error\",\"error\":{\"type\":\"FreeTierError\",\"message\":\"Error from provider (Console): OpenCode's free tier can only be used from within OpenCode\"}}\nمی‌گیرید از اوپن کد، علتش آپدیت نبودن 9Routerتون هست.\n\nبرای آپدیت کسایی که با npm نصب کردن، از دستور\nnpm i -g 9router@latest --prefer-online\nاستفاده کنن، و کسایی هم که با داکر نصب کردن از\ndocker pull decolua/9router:latest\n\ndocker rm -f 9router\n\ndocker run -d \\\n--name 9router \\\n-p 20128:20128 \\\n-v \"$HOME/.9router:/app/data\" \\\n-e DATA_DIR=/app/data \\\n-e JWT_SECRET=\"change-this-to-a-long-random-secret\" \\\n-e INITIAL_PASSWORD=\"your-strong-dashboard-password\" \\\ndecolua/9router:latest\nاستفاده کنن(با پسوورد و JWT دلخواه برای JWT_SECRET و INITIAL_PASSWORD)",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5305",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/kHPn_kIYEdmiPGH8g-teAM5Eo8-L_mcaS51pgufzBSy2USjulHeC8MVLFhFM--IHbKy0GZAk8BCndD_deKmUz2rgsJ1lfUqrfZtyGUDHYrFZatIfX3oiGbp9igi_ANtU6RG8qVShqALrWlEefUh63vlysSTNMN1YxxDGITtoqhuup0pBJ1rzpMLtfbh1GKCcW6cCFNXCuyl1BBMl4V9VSflOyNHo6Q2RV5c2MbqKO8cG-QN9AqBVYFtcN7Hs5IEwaK2RI5qHwfO1o8YY5auydwmx7M23l7hWE4U5tNXB2ERiEVH9-yYfIDk3_rK4kJoGzKWqd1BiS1IkuMiv9DEBww.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/4fc03493ba838a4ce2f82ae0.jpg",
+          "thumbnail_sha256": "5164f69b6cef6d6b56968bae6e10d5478a056637f338d635988bb09ce1fea061",
+          "duration_label": null,
+          "aspect_ratio": 1.6326530612244898
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "926",
+      "posted_at": "2026-09-22T10:44:48+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5305",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5304",
       "author_name": "Matin SenPai",
@@ -30,7 +67,7 @@
           "count": "4"
         }
       ],
-      "views_label": "7.7K",
+      "views_label": "8.21K",
       "posted_at": "2026-09-22T09:10:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5304",
@@ -69,7 +106,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "350"
+          "count": "353"
         },
         {
           "emoji": "❤",
@@ -84,7 +121,7 @@
           "count": "2"
         }
       ],
-      "views_label": "12.8K",
+      "views_label": "13K",
       "posted_at": "2026-09-22T08:04:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5303",
@@ -114,7 +151,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "109"
+          "count": "110"
         },
         {
           "emoji": "👍",
@@ -133,7 +170,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14.2K",
       "posted_at": "2026-09-22T07:54:23+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5302",
@@ -151,7 +188,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "86"
+          "count": "87"
         },
         {
           "emoji": "❤",
@@ -170,7 +207,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.4K",
       "posted_at": "2026-09-22T07:19:05+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5301",
@@ -223,7 +260,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.9K",
+      "views_label": "20K",
       "posted_at": "2026-09-21T20:59:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5300",
@@ -300,7 +337,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.5K",
+      "views_label": "20.6K",
       "posted_at": "2026-09-21T20:23:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5298",
@@ -337,7 +374,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.6K",
       "posted_at": "2026-09-21T19:19:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5297",
@@ -395,7 +432,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.7K",
+      "views_label": "21.8K",
       "posted_at": "2026-09-21T19:12:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5296",
@@ -429,7 +466,7 @@
         },
         {
           "emoji": "❤",
-          "count": "70"
+          "count": "71"
         },
         {
           "emoji": "💔",
@@ -452,7 +489,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.6K",
       "posted_at": "2026-09-21T15:24:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5295",
@@ -489,7 +526,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.5K",
+      "views_label": "26.6K",
       "posted_at": "2026-09-21T11:14:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5294",
@@ -564,7 +601,7 @@
           "count": "5"
         }
       ],
-      "views_label": "26.7K",
+      "views_label": "26.8K",
       "posted_at": "2026-09-21T09:55:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5292",
@@ -727,7 +764,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "603"
+          "count": "604"
         },
         {
           "emoji": "❤",
@@ -4977,52 +5014,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5200",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5199",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/saKyz1vZE3_BN26axOTIYuC6kgbJog57axlfZSc3lb15_Cp5tkmC6RgJ3D3mbiY9NkZuw3i8CiClAx_N0cuo1cAph8B4ckHQ2_CTi5PBAfCfPWPelMVy_LwUskoMeueRquGesvytGf4OgrTWw-ZE4M4qBd6hZqm2sQfOLiOd3JhrCqMMnO1uFOUuvwRIZFpdXZWp9K3sgc3b1FbhzpKIS33zf_qqZ70aJSj39j7Tfdws71edf3hfjMvE4TRCPvhZ0KBLCrGmuq-Sv-4z8fXRnu7ZvCMVu9u0i3Ni2dj9DifReMeaU19M6Itwx9kt4hVC_mXvnzEMVg5MysjBQ-m0LQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/8a5b5702ef2c8dba59995c51.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "ببخشید خواب بودم قیمت جدید رو چک نکردم",
-      "plain_text": "ببخشید خواب بودم قیمت جدید رو چک نکردم",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "💔",
-          "count": "358"
-        },
-        {
-          "emoji": "😁",
-          "count": "29"
-        },
-        {
-          "emoji": "👍",
-          "count": "6"
-        },
-        {
-          "emoji": "❤",
-          "count": "4"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "36.3K",
-      "posted_at": "2026-09-05T12:48:10+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5199",
-      "reply": {
-        "channel_username": "do_l4",
-        "post_id": "50858",
-        "author_name": "قیمت‌‌‌لحظه‌ای دلار طلا خودرو و سکه",
-        "preview_text": "تهران 💵 228,‌000",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/do_l4/50858"
-      }
     }
   ]
 }
