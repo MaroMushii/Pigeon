@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-23T07:42:26.304Z",
+  "fetched_at": "2026-09-23T07:47:15.738Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,34 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5310",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/CjuJa9ibHKnfijx7V32D2mHz2eGo_Qy9O6NMniELssZYsjKIl4DIai_4eW2cEZo0DwWBHvYoxVHwM8ERTJQHegRQ1IsBNd8iZylvv0lmP39aGyk2IJbJOg4ROzK8MIKOjQ1T8kPk0y_VJFsFkWeyZrTLAcIgpysoh6Ng-dhrfn1LBJmCdmu0MBqmU6Uoe_TgCAb-b8oT0UstjkmiYYc6yZp2dUkLtGFCCu5T7tb4mgCvDRhtP6dTu3a-wO3bTbNJ7VVu-BM0b9F65-DAk5oVQIlNsQZQCedbIwY0cE6MFe7JRrKooAvcnrTepEzF31424xdH1ofkIXmLozU6iLfvGA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/8e97e71fcefc179395224956.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>کد Rust سریع‌تر از کتابخونه‌های روز، فقط با «سریع‌ترش کن!»</b><br><br>نویسنده‌ی بلاگ minimaxir ماه‌هاست به ایجنت کدنویسیش یه دستور ساده می‌ده: «این کد رو سریع‌تر کن» و بعد بنچمارک می‌گیره. نتیجه‌اش کدهای Rustـی شده که ۲ تا ۲۰ برابر از کتابخونه‌های state-of-the-art سریع‌ترن. حرف جالبش اینه که بهینه‌سازی سرعت توی RLHF این مدل‌ها جای اصلی نداشته و با guardrail و حلقه‌ی تکرار باید تکونشون بدی؛ پرامپت‌ها و خروجی بنچمارک‌ها رو هم کامل منتشر کرده تا کسی ادعاش رو بی‌اساس نبینه.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://minimaxir.com/2026/09/agentic-iteration/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "کد Rust سریع‌تر از کتابخونه‌های روز، فقط با «سریع‌ترش کن!»\n\nنویسنده‌ی بلاگ minimaxir ماه‌هاست به ایجنت کدنویسیش یه دستور ساده می‌ده: «این کد رو سریع‌تر کن» و بعد بنچمارک می‌گیره. نتیجه‌اش کدهای Rustـی شده که ۲ تا ۲۰ برابر از کتابخونه‌های state-of-the-art سریع‌ترن. حرف جالبش اینه که بهینه‌سازی سرعت توی RLHF این مدل‌ها جای اصلی نداشته و با guardrail و حلقه‌ی تکرار باید تکونشون بدی؛ پرامپت‌ها و خروجی بنچمارک‌ها رو هم کامل منتشر کرده تا کسی ادعاش رو بی‌اساس نبینه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5310",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Xw-KsWruSaAqQCJ_RJ-XXkmgobW_MdrSZbh0nBpLpBlvId8fO1HtdUXWy1umfAcU_s8jSr-Bf_F5GpKX45jA-lFPoQ3NTDvFQCm3xxZEl9wzXftRzBbRKtFK7Ks_iYWG6HSXTEPo7qxEbPvoPXeI9unF5dsatDrRv_mQk5UrhWptPheBHR2Tl2X0qcqdED9_MqKgWIYt8N2suOm2p-TPaIBG0riIHsJ5X1bzGyHuz71C3Gtypf6rUoWczJK8dydkRnlexfZLF8B69nvgnU08oM8fX2sHmQ7Lg3jo3iPMNcGr6EY9BG9LrrPXYXAM6kPhkpO8ou-w09TAFSXgLUqdOQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/acb4f0228e7c618b1954e535.jpg",
+          "thumbnail_sha256": "bba0c5feb4f8b272821726cee9c784fb7778f420c6300b91b3ac14247669a1e9",
+          "duration_label": null,
+          "aspect_ratio": 1.5009380863039399
+        }
+      ],
+      "reactions": [],
+      "views_label": "127",
+      "posted_at": "2026-09-23T07:46:46+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5310",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5309",
       "author_name": "Matin SenPai",
@@ -77,7 +105,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "512"
+          "count": "515"
         },
         {
           "emoji": "👍",
@@ -96,7 +124,7 @@
           "count": "3"
         }
       ],
-      "views_label": "19.2K",
+      "views_label": "19.3K",
       "posted_at": "2026-09-22T18:16:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5308",
@@ -148,7 +176,7 @@
           "count": "10"
         }
       ],
-      "views_label": "19.3K",
+      "views_label": "19.4K",
       "posted_at": "2026-09-22T18:16:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5306",
@@ -419,7 +447,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.9K",
+      "views_label": "24K",
       "posted_at": "2026-09-21T20:59:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5300",
@@ -4968,59 +4996,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/bazchishod/17882"
       }
-    },
-    {
-      "id": "MatinSenPaii/5203",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/saKyz1vZE3_BN26axOTIYuC6kgbJog57axlfZSc3lb15_Cp5tkmC6RgJ3D3mbiY9NkZuw3i8CiClAx_N0cuo1cAph8B4ckHQ2_CTi5PBAfCfPWPelMVy_LwUskoMeueRquGesvytGf4OgrTWw-ZE4M4qBd6hZqm2sQfOLiOd3JhrCqMMnO1uFOUuvwRIZFpdXZWp9K3sgc3b1FbhzpKIS33zf_qqZ70aJSj39j7Tfdws71edf3hfjMvE4TRCPvhZ0KBLCrGmuq-Sv-4z8fXRnu7ZvCMVu9u0i3Ni2dj9DifReMeaU19M6Itwx9kt4hVC_mXvnzEMVg5MysjBQ-m0LQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/8a5b5702ef2c8dba59995c51.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "از اونجایی که کلاد و جی‌پی‌تی مدل جدید دادن... به زودی باید شاهد دستاوردهای برادران چینی باشیم",
-      "plain_text": "از اونجایی که کلاد و جی‌پی‌تی مدل جدید دادن... به زودی باید شاهد دستاوردهای برادران چینی باشیم",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5203",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ELEPJBsu4F1rnNRMMdqSt9ZOVDxuyUjxsB2vNl3OSOUDlcd6aAcA-D_Q6c3Iw28ZGu-B_MWbcl5E5XB6gVZMNvjOYXbZm2iyN8tMKD238G44OdDftF_qERRgr-wl5hypF00cXd74l7F54wkZNIzOWM69Up_1Gfbl1pZOXkw8pV1UqAX110GZUx2LL0DXA0JNt5Vggs5dvpTYRtrG3_wipbs3rhp_TaiV6NnU2ijD8WPUIvJEAiy80JUvefs2WkdWAYu5UKnPlNuH6beWkd_Lj98VT4IxOp51xpP9yACwF0DhpJLdhnW5Yn5-o-ohiKllFRkweT8nRmAeK764FBkeEA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/34b210aaf1c1ae7106eb5882.jpg",
-          "thumbnail_sha256": "936ee66acd1cb0b350c0b78e57fbcfa68dc88c281d90d9efdfd6e1c7c920e433",
-          "duration_label": null,
-          "aspect_ratio": 1.0256410256410255
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "920"
-        },
-        {
-          "emoji": "👍",
-          "count": "62"
-        },
-        {
-          "emoji": "❤",
-          "count": "33"
-        },
-        {
-          "emoji": "🦄",
-          "count": "7"
-        },
-        {
-          "emoji": "🆒",
-          "count": "4"
-        },
-        {
-          "emoji": "💔",
-          "count": "2"
-        }
-      ],
-      "views_label": "42.1K",
-      "posted_at": "2026-09-05T17:19:14+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5203",
-      "reply": null
     }
   ]
 }
