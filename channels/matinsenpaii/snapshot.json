@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-25T15:32:03.805Z",
+  "fetched_at": "2026-09-25T15:36:47.238Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,44 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5352",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/k0dHcBPMtvASzaU7B7UQ6C2XdtY6hK9eBWyZc6j5kcKrDZMb3wMPgldK4hBVtGIMum30yLyb_96fp5jMSC4IRbgY0QIZuyQa8WR8VQARQOWjQ2XgofQsFCaYfooHpUr0fs-_yG7IJOSZ-MOEeUNUTp19TbBdO1F1d8HvNrAnKZ7XstZNKle3_mZSkLJH8GcrOVmBdgYxv-KsFJdkoZbTvV37cJXUwTHpeyezakQ1L3KUu2mBzqMcKiWZBFiWz4yaPxuJ0pY8b1GgozUpn-1_ZOJl34pGHPFEwuJH2OnUh1l6FdOQhSIV0x6hxIClGyzQLsoMrFqDv7cK_3onDB_SUw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/0f2da01b4af7fcf7b62bcd01.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "چون خیلی‌ها پرسیدن، اینم کل ستاپ:<br>— خود Claude Code بدون هیچ تغییری، Opus 5.5 با سطح reasoning Max و حافظه‌ی خاموش. همون پرامپتی که توی پست بود، یک‌ضرب (one-shot)، بدون هیچ ویرایشی<br>— و Codex / Astra: همون پرامپت، همون سیستم، بیشترین سطح reasoning، حافظه خاموش<br>— روی سیستم محیط رندر خودم نصبه: یه کتابخونه‌ی سمپل (909/808 + چندتا پک رایگان)، Surge XT، چندتا افکت VST و یه Blender MCP. به هیچ‌کدوم از مدل‌ها نگفتم از اینا استفاده کنن<br>— اما Opus خودش تصمیم گرفت یه بخش سه‌بعدی توی Blender بسازه. Astra هم همین دسترسی رو داشت ولی این کارو نکرد:)<br>— تک‌تک فریم‌ها با کد ساخته شدن: بخش دوبعدی با skia-python، بخش سه‌بعدی با یه اسکریپت Blender، و صدا هم یه اسکریپت پایتونه که سمپل‌ها رو روی گرید بیت می‌چینه و میکس می‌کنه<br>— زمان بدون احتساب رندر: Codex حدود ۳۵ دقیقه، Claude Code حدود ۱.۵ ساعت<br><br><tg-emoji emoji-id=\"5470060791883374114\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji><a href=\"https://x.com/shneural/status/2103151003272962130\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">shneural</a>",
+      "plain_text": "چون خیلی‌ها پرسیدن، اینم کل ستاپ:\n— خود Claude Code بدون هیچ تغییری، Opus 5.5 با سطح reasoning Max و حافظه‌ی خاموش. همون پرامپتی که توی پست بود، یک‌ضرب (one-shot)، بدون هیچ ویرایشی\n— و Codex / Astra: همون پرامپت، همون سیستم، بیشترین سطح reasoning، حافظه خاموش\n— روی سیستم محیط رندر خودم نصبه: یه کتابخونه‌ی سمپل (909/808 + چندتا پک رایگان)، Surge XT، چندتا افکت VST و یه Blender MCP. به هیچ‌کدوم از مدل‌ها نگفتم از اینا استفاده کنن\n— اما Opus خودش تصمیم گرفت یه بخش سه‌بعدی توی Blender بسازه. Astra هم همین دسترسی رو داشت ولی این کارو نکرد:)\n— تک‌تک فریم‌ها با کد ساخته شدن: بخش دوبعدی با skia-python، بخش سه‌بعدی با یه اسکریپت Blender، و صدا هم یه اسکریپت پایتونه که سمپل‌ها رو روی گرید بیت می‌چینه و میکس می‌کنه\n— زمان بدون احتساب رندر: Codex حدود ۳۵ دقیقه، Claude Code حدود ۱.۵ ساعت\n\n✍️shneural",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "10"
+        },
+        {
+          "emoji": "🆒",
+          "count": "3"
+        },
+        {
+          "emoji": "❤",
+          "count": "2"
+        }
+      ],
+      "views_label": "1.88K",
+      "posted_at": "2026-09-25T15:32:06+00:00",
+      "edited": true,
+      "permalink": "https://t.me/MatinSenPaii/5352",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "5351",
+        "author_name": "Matin SenPai",
+        "preview_text": "بعد از Opus 5.5 واقعا دردناکه به هر چیزی که GPT 6 Astra طراحی می‌کنه نگاه کنی. به هر دو مدل دقیقاً همون پرامپت رو دادم: \"make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé.…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/H4GgrjlVIX1q6EQipUx9_tycPsRVT2LMmJRxqyxg18HaOJlodSfXAeydTpW32yrI4sGyBuQkOMEDLOJUlnE7V04c10rxQdV-fFviS9gkjsrojfaF06jR-NPy-NdzUjIgY_ITrj59lmkxDI72Gim_YgNG_FUziQCkVSVi-x4vSj4BUvfdWeyRT608AVhEIDSErN7lR-t-oscX3bNVqb1ZwTylO5bY03I2Xsd3xtR8-dZ2EXDCCgPPVqZA3L4kv87KiZ85PlRm9OsfZPNaWze-9byIYYKcAXXT0F68Z3LFnWQ6dXEh-VFitvVeQ-5rk_Y2cUuXCLAKxxB8BlNFot8wRA",
+        "thumbnail_path": "channels/matinsenpaii/media/843e5cdd3ba002db2a8e0b17.jpg",
+        "thumbnail_sha256": "8f933d4f987d0e02e08b10d606cfe0f5bb32a29050fb6fc5dad958a57f08932c",
+        "permalink": "https://t.me/matinsenpaii/5351"
+      }
+    },
     {
       "id": "MatinSenPaii/5351",
       "author_name": "Matin SenPai",
@@ -35,11 +73,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "253"
+          "count": "259"
         },
         {
           "emoji": "❤",
-          "count": "41"
+          "count": "42"
         },
         {
           "emoji": "🦄",
@@ -62,7 +100,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.8K",
+      "views_label": "11.4K",
       "posted_at": "2026-09-25T13:01:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5351",
@@ -107,7 +145,7 @@
           "count": "4"
         }
       ],
-      "views_label": "12.9K",
+      "views_label": "13.4K",
       "posted_at": "2026-09-25T12:03:01+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5350",
@@ -156,7 +194,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15.3K",
+      "views_label": "15.6K",
       "posted_at": "2026-09-25T10:49:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5349",
@@ -195,7 +233,7 @@
       "reactions": [
         {
           "emoji": "🆒",
-          "count": "68"
+          "count": "69"
         },
         {
           "emoji": "❤",
@@ -210,7 +248,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.7K",
+      "views_label": "16.9K",
       "posted_at": "2026-09-25T09:44:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5348",
@@ -239,7 +277,7 @@
           "count": "3"
         }
       ],
-      "views_label": "17.3K",
+      "views_label": "17.5K",
       "posted_at": "2026-09-25T08:40:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5347",
@@ -276,7 +314,7 @@
           "count": "2"
         }
       ],
-      "views_label": "17.9K",
+      "views_label": "18.1K",
       "posted_at": "2026-09-25T08:08:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5346",
@@ -325,7 +363,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.3K",
+      "views_label": "20.4K",
       "posted_at": "2026-09-25T03:59:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5345",
@@ -358,7 +396,7 @@
           "count": "4"
         }
       ],
-      "views_label": "22.6K",
+      "views_label": "22.7K",
       "posted_at": "2026-09-24T20:56:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5344",
@@ -554,7 +592,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.1K",
+      "views_label": "24.2K",
       "posted_at": "2026-09-24T14:40:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5340",
@@ -807,7 +845,7 @@
         },
         {
           "emoji": "👍",
-          "count": "628"
+          "count": "629"
         },
         {
           "emoji": "❤",
@@ -864,7 +902,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "202"
+          "count": "203"
         },
         {
           "emoji": "👍",
@@ -4764,60 +4802,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5237",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5236",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/FKQbNYoaA5Y_AStYhdvBaL0dsvPC8hyH15S5p2H6a5lCB2E5CtdUacvk-KP4fErhuRcCKExRVlSqRVAdan1U6YHyism_RrF0daJ8TIscNzhfbZ-9hdKK8RMYIpIHLYIdQIOPkWnwbTkcwMOArj4hYL8gmSjt5HLfxC_0o_ewsk4O-KDhBMOAr94_zFgR1P95mF-HBl_x1dEZdAKbGK5LWLPdBQ5zeHQjF0g5HHQWZ81SdpBbKb7Ax60R6wOOOTDi3kq7EB8i5M2k5TGjYK34P7oENpt6nJZ_61cWnkSZUrcG_QKhNLzL7zLb2KvqZj6XA0E-dqmiG2Y4in5o_1vPqQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/4319821195075276e63ad97c.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "دو سال پیش اگه پرایدتونو میفروختین، می‌تونستین امسال 32 گیگ رم بخرین",
-      "plain_text": "دو سال پیش اگه پرایدتونو میفروختین، می‌تونستین امسال 32 گیگ رم بخرین",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "💔",
-          "count": "761"
-        },
-        {
-          "emoji": "😁",
-          "count": "79"
-        },
-        {
-          "emoji": "👍",
-          "count": "11"
-        },
-        {
-          "emoji": "💯",
-          "count": "4"
-        },
-        {
-          "emoji": "🦄",
-          "count": "4"
-        },
-        {
-          "emoji": "❤",
-          "count": "2"
-        },
-        {
-          "emoji": "🆒",
-          "count": "1"
-        }
-      ],
-      "views_label": "37.2K",
-      "posted_at": "2026-09-12T10:55:54+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5236",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5235",
-        "author_name": "Matin SenPai",
-        "preview_text": "این دیگه اسمش زندگی نیست... تقریبا دیگه نمیشه سیستم خرید. این قسمت پلن های امسال هم ضربدر خورد. فقط تلاش کنیم زنده بمونیم. ✍️ 0xKaveh",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/NtWr4ZpORqjI0GLCtsgmPtJFudwOVQ_Gpxda3SJqZTs2KoQxqmoXHcleytVcv-Jc5TJU7Fwf9f_Jir0Z4Axbob9ImOpwD3DJKh6Kh0_7mDBkSg1t_Vwt5CFQmGqlaVkMZbAeSPFqMZCES2oRpAaCf7Lc6fneAOpe5fO6Q-RqJIZwenauinOZW-7_6uu-yeY74ixzKi1WykFgaOlsBa_DXv8rWMaOrTlHQWNbkKMqCs_GPOS1LaUo9DfpLHR2bx2JpisroJS8SZ6l8JC4yRls6OT0sNjfoFeV2faR778fIH0JyqOhbfxqVTygYH43MF9TZ0vEP99vl-IeVcSTXhorww.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/cac771d7f568d31fd5ea24f6.jpg",
-        "thumbnail_sha256": "0d4f2866a4098488fa4339d9c49f21c152f4a2a1df96a69dd35b1da24d03066e",
-        "permalink": "https://t.me/matinsenpaii/5235"
-      }
     }
   ]
 }
