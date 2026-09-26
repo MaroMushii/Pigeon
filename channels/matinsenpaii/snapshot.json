@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-26T13:32:13.306Z",
+  "fetched_at": "2026-09-26T13:37:27.993Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,31 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5365",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/huHc2qn_DiZxymcBZFFofOwUaXJWkrkssmXCWt-O1uEiceDEeoNgEXuFBu_qd4eUYWF0meipk_KSKar1X9lEWD9D9DPUhPmGLIK2TrQiR79i0yWhiqO4dgdhrcqfVtOQ5ttLUMdwmMNwkgvN-UdjICm4FcYy8x-zwMEaGbJhzxQJKsdjbCb_iipsPS_zTjFV1b0obK0J7ljpOijE1PSAkMkrW43adCtbxEfACQHbV3mvYS62tfR7AzsHpRImeGitvUv18T8HIkkIPdeBVUi8Wsix9oOvcuL__DfYjhiCTmq_jMcLNLHVlMdfNfeVZIISTN83d52Xilby9lMGtnxKyg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/ce42c2e144e9944198ebb091.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "تیم Tokio نسخه‌ی ۰.۹ فریم‌ورک Topcoat (یه فریم‌ورک فول استک برای Rust) رو منتشر کرده که می‌خواد ساختن اپ وب با Rust رو به اندازه‌ی Ruby on Rails راحت کنه.<br>توی این نسخه ری‌اکتیوی سمت کلاینت جدی‌تر شده: توی macro مربوط به view سیگنال‌ها و عبارت‌های تایپ‌چک‌شده می‌نویسید که به جاوااسکریپت ترنسپایل می‌شن و توی مرورگر اجرا می‌شن، ولی بقیه‌ی رندر و منطق می‌مونه سمت سرور. نکته‌ی جالب‌تر اینکه نویسنده میگه راست بهترین زبان general-purpose برای دنیای توسعه‌ی مبتنی بر AI هست، چون قراردادهای مشخص به مدل کمک می‌کنه با توکن و خطای کمتری کار کنه.<br><br><a href=\"https://tokio.rs/blog/2026-09-24-topcoat-server-applications\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "تیم Tokio نسخه‌ی ۰.۹ فریم‌ورک Topcoat (یه فریم‌ورک فول استک برای Rust) رو منتشر کرده که می‌خواد ساختن اپ وب با Rust رو به اندازه‌ی Ruby on Rails راحت کنه.\nتوی این نسخه ری‌اکتیوی سمت کلاینت جدی‌تر شده: توی macro مربوط به view سیگنال‌ها و عبارت‌های تایپ‌چک‌شده می‌نویسید که به جاوااسکریپت ترنسپایل می‌شن و توی مرورگر اجرا می‌شن، ولی بقیه‌ی رندر و منطق می‌مونه سمت سرور. نکته‌ی جالب‌تر اینکه نویسنده میگه راست بهترین زبان general-purpose برای دنیای توسعه‌ی مبتنی بر AI هست، چون قراردادهای مشخص به مدل کمک می‌کنه با توکن و خطای کمتری کار کنه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        },
+        {
+          "emoji": "😁",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.1K",
+      "posted_at": "2026-09-26T13:33:50+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5365",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5364",
       "author_name": "Matin SenPai",
@@ -35,22 +60,22 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "137"
+          "count": "140"
         },
         {
           "emoji": "😁",
-          "count": "19"
+          "count": "20"
         },
         {
           "emoji": "❤",
-          "count": "12"
+          "count": "13"
         },
         {
           "emoji": "💯",
           "count": "1"
         }
       ],
-      "views_label": "12.8K",
+      "views_label": "13.1K",
       "posted_at": "2026-09-26T09:58:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5364",
@@ -80,7 +105,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "132"
+          "count": "135"
         },
         {
           "emoji": "👍",
@@ -95,7 +120,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.6K",
+      "views_label": "13.8K",
       "posted_at": "2026-09-26T09:43:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5363",
@@ -145,7 +170,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.2K",
       "posted_at": "2026-09-26T08:31:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5362",
@@ -163,7 +188,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "122"
+          "count": "123"
         },
         {
           "emoji": "❤",
@@ -178,7 +203,7 @@
           "count": "3"
         }
       ],
-      "views_label": "16K",
+      "views_label": "16.1K",
       "posted_at": "2026-09-26T07:07:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5361",
@@ -223,7 +248,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.5K",
+      "views_label": "19.6K",
       "posted_at": "2026-09-26T03:52:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5360",
@@ -260,7 +285,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.2K",
+      "views_label": "23.3K",
       "posted_at": "2026-09-25T19:55:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5359",
@@ -287,7 +312,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "139"
+          "count": "140"
         },
         {
           "emoji": "👍",
@@ -302,7 +327,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "23.8K",
       "posted_at": "2026-09-25T19:14:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5358",
@@ -344,7 +369,7 @@
           "count": "8"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "23.8K",
       "posted_at": "2026-09-25T19:04:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5357",
@@ -410,7 +435,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.9K",
+      "views_label": "24K",
       "posted_at": "2026-09-25T19:01:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5356",
@@ -472,7 +497,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24.3K",
+      "views_label": "24.4K",
       "posted_at": "2026-09-25T17:58:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5355",
@@ -596,7 +621,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.2K",
+      "views_label": "23.3K",
       "posted_at": "2026-09-25T15:32:06+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5352",
@@ -4734,56 +4759,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5250",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5249",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/f2-cPe6gRJAy8VjabVf1BNRDNRgcwXbT9UJWzv4jpTNa66ARVhdUvcojSYrtQePDtH1SJCt7shY_3S4vA6z33-3tfWdoVHRVQDbcF1yeJ2CGxPbNDbeLxrzvgiXlZ03Py25GYR2jDRukaXdjO1RwooXnybYusq93GvIRkKXnqR5fI_IYcWcANtqbgnxrXnmDWpzlIVRV-bBIHuEutby2nlL6d0vw82gzFBZri-MqVjPl7ZV1lhz2vBTgICYwj9y34efQ_0r5MG45rvk1n371yRtk6Qgu3nJ4IvjRh6PIaHy9ZWVDP15jE-3TJhdWIRBULEbm1YdLz7xHbsP7SBp8gg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/4df82d6c8c3620acec010af3.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "به قول یکی دیگه از دوستانِ توییتر<br>اگر چیزی رایگانه، بدونید که «محصول» خود شما هستید.<br>اما اینجا یه بحث مهم پیش میاد.<br>یه وقتی هست که من اطلاعات حساسی استفاده می‌کنم و برام مهمه که جایی درز نکنه.<br>یه وقتی هم هست که من آگاهم که خودم و دیتای من محصول هست. اما تصمیم میگیرم باز هم استفاده کنم. به هر دلیلی. چه پروژه تفریحیه، چه کارم روزمره‌ست، چه دیتام مهم نیست و..<br><br>آگاهیه هست که مهمه. اینکه «آگاه» باشید و استفاده کنید، یا «آگاه» باشید و استفاده نکنید.",
-      "plain_text": "به قول یکی دیگه از دوستانِ توییتر\nاگر چیزی رایگانه، بدونید که «محصول» خود شما هستید.\nاما اینجا یه بحث مهم پیش میاد.\nیه وقتی هست که من اطلاعات حساسی استفاده می‌کنم و برام مهمه که جایی درز نکنه.\nیه وقتی هم هست که من آگاهم که خودم و دیتای من محصول هست. اما تصمیم میگیرم باز هم استفاده کنم. به هر دلیلی. چه پروژه تفریحیه، چه کارم روزمره‌ست، چه دیتام مهم نیست و..\n\nآگاهیه هست که مهمه. اینکه «آگاه» باشید و استفاده کنید، یا «آگاه» باشید و استفاده نکنید.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "264"
-        },
-        {
-          "emoji": "👍",
-          "count": "92"
-        },
-        {
-          "emoji": "😁",
-          "count": "7"
-        },
-        {
-          "emoji": "🦄",
-          "count": "7"
-        },
-        {
-          "emoji": "💯",
-          "count": "6"
-        }
-      ],
-      "views_label": "30.6K",
-      "posted_at": "2026-09-14T14:11:35+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5249",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5248",
-        "author_name": "Matin SenPai",
-        "preview_text": "شرایط اقتصادی رو درک میکنم ولی دنبال توکن مفت و ارزون می‌گردین خیلی حواستون باشه. بالای ۹۰ درصد سرویس‌هایی که توکن مجانی یا ارزون میدن و اتفاقاً مصرف بالایی هم دارند شدیداً مشکوکن. یادتون باشه دارین محیط اجرای ایجنت‌تون رو به این ارائه‌دهنده‌های inference…",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/5248"
-      }
     }
   ]
 }
