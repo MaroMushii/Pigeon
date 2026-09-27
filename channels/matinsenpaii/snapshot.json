@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-27T12:02:01.325Z",
+  "fetched_at": "2026-09-27T12:07:50.805Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5388",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Kc0_gko5moHzS2wj6oJY0CeAihOCgsE0LUqAIdl4ERnK7K1lk0R648gTy91u5P0G1d5JyPWl6a9E8bituAwNXFUi5MnA0Iu4INeuk7Gf8K_uNYECHLYIN87G6caBZWYrteMWbMKA7jOaVN0QP0eSpuQ6rOZSw3LwCcV1nEsyOQDJzDBvNn-tdF5T33UOGftCdlx16VrpQ7ewkmP0HKKfMPrO9s2Y6AB1hZK01zD0wb6_QqULbRGRFEB6Z_KWyxLWSGTdMlhk26MTO26mGQbadkC1-JMcBfs4Wl4tClcoGvUOy0oxsx6Of7LS2xNXkGeK1MhdSu6-giphs3tBMhBEBA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/a204d4b290a73815c666fd9f.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>کلودفلر بلاگش رو از WordPress کوچ داد به EmDash</b><br><br>کلودفلر جزئیات کوچ دادن بلاگ اصلی‌ش از WordPress به EmDash — سیستم مدیریت محتوای متن‌بازی که خودش داخلی ساخته — رو منتشر کرده. EmDash با TypeScript نوشته شده، روی Worker خود کلودفلر اجرا می‌شه و تا ۷۰۰۰ درخواست در ثانیه تست شده، در حالی که بلاگ معمولا ۷۵ درخواست در ثانیه داره.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://www.infoq.com/news/2026/09/cloudflare-emdash-migration/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "کلودفلر بلاگش رو از WordPress کوچ داد به EmDash\n\nکلودفلر جزئیات کوچ دادن بلاگ اصلی‌ش از WordPress به EmDash — سیستم مدیریت محتوای متن‌بازی که خودش داخلی ساخته — رو منتشر کرده. EmDash با TypeScript نوشته شده، روی Worker خود کلودفلر اجرا می‌شه و تا ۷۰۰۰ درخواست در ثانیه تست شده، در حالی که بلاگ معمولا ۷۵ درخواست در ثانیه داره.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5388",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/UUZBDvoFdXEvW2kiXUxN_Vjfx0Sue80srTZVW_EaNugU-U4N5ZccocKhKCgxNyuxjzJQ82M_S0ZiST91DBtSt0CJkJF-vSu8PH46pwTVtDO6fjqEkuTZciSxPCzVFczjFu1fBC5jnumx9Itg67IDtEOdlBT1Ikr5bkBAxUVaVbUrydmtD2jWLwzuRmmDb11l_bTZXbtsMK8_B7Rsi_tLUecdii0PL0_FuFWwkzXhBMtK8LrK97ufl_a2RUqYLOhyugMh611mILd5ynWE1R39v5TxEG0WKBtFa-Th5511s5musFZhLI08tfJQ1z2I5duvgD57T86WSPDp8cYvuWc5EA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/7bf954fa2e6658608b26a173.jpg",
+          "thumbnail_sha256": "427ea9292268a49384a0cfa442ac0fe5c0b272763bad7c95b298aa531889f56c",
+          "duration_label": null,
+          "aspect_ratio": 1.9047619047619047
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "65",
+      "posted_at": "2026-09-27T12:07:31+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5388",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5387",
       "author_name": "Matin SenPai",
@@ -35,11 +68,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "136"
+          "count": "139"
         },
         {
           "emoji": "👍",
-          "count": "55"
+          "count": "59"
         },
         {
           "emoji": "😁",
@@ -50,7 +83,7 @@
           "count": "2"
         }
       ],
-      "views_label": "8.26K",
+      "views_label": "8.51K",
       "posted_at": "2026-09-27T10:50:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5387",
@@ -99,7 +132,7 @@
           "count": "4"
         }
       ],
-      "views_label": "14.3K",
+      "views_label": "14.5K",
       "posted_at": "2026-09-27T07:37:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5386",
@@ -148,7 +181,7 @@
           "count": "3"
         }
       ],
-      "views_label": "16.1K",
+      "views_label": "16.2K",
       "posted_at": "2026-09-27T06:29:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5385",
@@ -187,7 +220,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "437"
+          "count": "439"
         },
         {
           "emoji": "❤",
@@ -247,7 +280,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.4K",
+      "views_label": "18.5K",
       "posted_at": "2026-09-27T03:55:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5383",
@@ -277,7 +310,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "703"
+          "count": "705"
         },
         {
           "emoji": "👍",
@@ -300,7 +333,7 @@
           "count": "5"
         }
       ],
-      "views_label": "37.7K",
+      "views_label": "37.8K",
       "posted_at": "2026-09-26T21:18:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5382",
@@ -318,7 +351,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "171"
+          "count": "172"
         },
         {
           "emoji": "👍",
@@ -378,7 +411,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.4K",
+      "views_label": "24.5K",
       "posted_at": "2026-09-26T20:42:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5380",
@@ -503,7 +536,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "130"
+          "count": "131"
         },
         {
           "emoji": "👍",
@@ -4736,63 +4769,6 @@
       "posted_at": "2026-09-19T12:34:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5269",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5268",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/ThMm7mV2Z_JSD2afdUqOSZa_CY9PqEl7FAKX8LaOP1Gvyp2dXAqZsfqJIez1qUswGMC-Uefh4t22gAlZJP00fFxqvVNGeHPlj8ySTfPIEtgphsyaR6fgwf2OHAdj-WrgWLB_a8Rekiek3D77dHQoL3_rxbERTT85EViJbb1VFl0wmS0pkMwZKbjor6u2cShUE-PctwhPN1jZuraBZWY4j7j6YPZyNvX5IWmJ9bqJXUFAw2ILZUg2SzIyY6jEqoaAmJczejkUQTiQMQl95USLF-zpIOfUCBrcDjXtqkXuBI-JwwnPKM2GvR2wuqL_e_nbC7Kl3KSPr39FtbAXPanxlg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/dbe281b42c8f219c7e6952e7.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "شرکت <a href=\"https://t.co/psBEb1pmJZ\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Z.ai</a> مدل GLM-5.3 FlashX رو عرضه کرد؛ نسخه فوق‌سریع 5.3 Flash با سرعت 200tok/s!<br>​• کانتکست: 1M<br>• مالتی‌مدال نیتیو<br>• اجرا روی بیش از ۱۰۰ هزار تراشه چینی ​انتخابی ایده‌آل برای ایجنت‌های کدنویسی و تسک‌های بلادرنگ.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i> <a href=\"https://x.com/callitVer1/status/2100854671904849947\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">callitVer1</a>",
-      "plain_text": "شرکت Z.ai مدل GLM-5.3 FlashX رو عرضه کرد؛ نسخه فوق‌سریع 5.3 Flash با سرعت 200tok/s!\n​• کانتکست: 1M\n• مالتی‌مدال نیتیو\n• اجرا روی بیش از ۱۰۰ هزار تراشه چینی ​انتخابی ایده‌آل برای ایجنت‌های کدنویسی و تسک‌های بلادرنگ.\n\n✍️ callitVer1",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5268",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/dEvK7BOl7T6CHEuYbGSZiuo-WWdS_Wd-WnAgExX8HlMQ2CBomanjAHf1SvHmH0J2b55SPZvqST4r-02lq-V-WYBDNJ43R6bfd0BX-q4iFmpQUeJV1DtiK7vHOI_9cosUzalmAPv4SkkJnrQ8CYd40yAkmQFKJKBcU5TPrIe26_-C9deFCRLcr0ppAmux4hBlpxQmI7U6YjE35nQfBgB-JE77InF4L91Qe72M5a3hGTr6UeLHzUVzQOSQ8ucnAePjIBsRQPIUZg14QlADxWohpkWRhz7oOwOne8XFxDzm3He6etRcbHWkzIBIPsIOBlHIQJj9FuzZ1wLguPpNTarf_Q.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/c29fdec8471290dab3f5985f.jpg",
-          "thumbnail_sha256": "588334560f1832e810e6d0db78ad28cf507c8f640b0062ab2cdb19f238a80378",
-          "duration_label": null,
-          "aspect_ratio": 1.5414258188824663
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "309"
-        },
-        {
-          "emoji": "👍",
-          "count": "34"
-        },
-        {
-          "emoji": "😁",
-          "count": "9"
-        },
-        {
-          "emoji": "💯",
-          "count": "8"
-        },
-        {
-          "emoji": "💔",
-          "count": "3"
-        },
-        {
-          "emoji": "🆒",
-          "count": "2"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        }
-      ],
-      "views_label": "28.8K",
-      "posted_at": "2026-09-18T18:12:22+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5268",
       "reply": null
     }
   ]
