@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-27T19:07:10.844Z",
+  "fetched_at": "2026-09-27T19:10:03.089Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,22 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5390",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/LwlM1CKz1pbO6rPiW6KUfoSh0t8Hp4f7RSR212ONpZGWlaxybiADK5IFzIQxwhcUKsaPiTZ4Wu83NVSGO2O8iRZIKDhAVdDT9Ni-esKw4iMOHfqHpSgLWg4BHBLiSM3ivPWlZtdbzClm2LLTItHLw0WNbrSmwzDfHgWzS2CERAcfy6vdAgdgA4iIqQGv6SAD_3znhp27eAS5ImVVYFpAR8kbgfvVOjBu1Ojac61ur87U51BMq8DHRWnEIDzvs1OGNAnG2jcIScCxuYdmnXdTJH9W0NNdIuXxUjjwvMGiXpOHW1Lq1Bi2ktzRQDMdZMI5Oa-tqpLNKvW0yx31eGwwpQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/907ab05308ac8eecfee588a9.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>سندباکس‌های ابری Docker برای ایجنت‌های کدنویس</b><br><br>داکر سرویس Cloud Sandboxes رو منتشر کرده: محیط‌های اجرای امن و میزبانی‌شده روی زیرساخت خودش، با ایزوله‌سازی microVM توی سطح سخت‌افزار. با یه دستور میشه سندباکس رو بین لپ‌تاپ و سرور جابه‌جا کنیم طوری که فایل‌سیستمش هم منتقل بشه؛ یعنی کار رو محلی شروع کنیم و قبل از خاموش کردن لپ‌تاپ بسپاریمش به کلود. هدف، ایجنت‌هاییه که ساعت‌ها کار می‌کنن و می‌خوایم چندتاشون موازی پیش برن. <br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://www.infoq.com/news/2026/09/docker-cloud-sandboxes/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "سندباکس‌های ابری Docker برای ایجنت‌های کدنویس\n\nداکر سرویس Cloud Sandboxes رو منتشر کرده: محیط‌های اجرای امن و میزبانی‌شده روی زیرساخت خودش، با ایزوله‌سازی microVM توی سطح سخت‌افزار. با یه دستور میشه سندباکس رو بین لپ‌تاپ و سرور جابه‌جا کنیم طوری که فایل‌سیستمش هم منتقل بشه؛ یعنی کار رو محلی شروع کنیم و قبل از خاموش کردن لپ‌تاپ بسپاریمش به کلود. هدف، ایجنت‌هاییه که ساعت‌ها کار می‌کنن و می‌خوایم چندتاشون موازی پیش برن.\n\n🔗منبع\n✉️ t.me/MatinSenPaii",
+      "media": [],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-09-27T19:09:46+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5390",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5389",
       "author_name": "Matin SenPai",
@@ -23,7 +39,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "244"
+          "count": "246"
         },
         {
           "emoji": "👍",
@@ -100,7 +116,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.1K",
+      "views_label": "19.2K",
       "posted_at": "2026-09-27T12:07:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5388",
@@ -145,7 +161,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21K",
+      "views_label": "21.1K",
       "posted_at": "2026-09-27T10:50:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5387",
@@ -194,7 +210,7 @@
           "count": "4"
         }
       ],
-      "views_label": "21.4K",
+      "views_label": "21.5K",
       "posted_at": "2026-09-27T07:37:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5386",
@@ -4743,35 +4759,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/5271"
       }
-    },
-    {
-      "id": "MatinSenPaii/5271",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/ThMm7mV2Z_JSD2afdUqOSZa_CY9PqEl7FAKX8LaOP1Gvyp2dXAqZsfqJIez1qUswGMC-Uefh4t22gAlZJP00fFxqvVNGeHPlj8ySTfPIEtgphsyaR6fgwf2OHAdj-WrgWLB_a8Rekiek3D77dHQoL3_rxbERTT85EViJbb1VFl0wmS0pkMwZKbjor6u2cShUE-PctwhPN1jZuraBZWY4j7j6YPZyNvX5IWmJ9bqJXUFAw2ILZUg2SzIyY6jEqoaAmJczejkUQTiQMQl95USLF-zpIOfUCBrcDjXtqkXuBI-JwwnPKM2GvR2wuqL_e_nbC7Kl3KSPr39FtbAXPanxlg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/dbe281b42c8f219c7e6952e7.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "مدل Jev واقعا چیز جذابیه!<br>به زودی راجب این دوستمون هم ویدئو داریم. تا اون موقع می‌تونید این ویدئو رو ببینید:<br><a href=\"https://youtu.be/2z-7pIj57f8\" target=\"_blank\" rel=\"noopener\">https://youtu.be/2z-7pIj57f8</a>",
-      "plain_text": "مدل Jev واقعا چیز جذابیه!\nبه زودی راجب این دوستمون هم ویدئو داریم. تا اون موقع می‌تونید این ویدئو رو ببینید:\nhttps://youtu.be/2z-7pIj57f8",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "85"
-        },
-        {
-          "emoji": "👍",
-          "count": "9"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        }
-      ],
-      "views_label": "25.7K",
-      "posted_at": "2026-09-19T14:27:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5271",
-      "reply": null
     }
   ]
 }
