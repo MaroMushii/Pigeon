@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-27T13:22:58.196Z",
+  "fetched_at": "2026-09-27T13:27:01.189Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "hranews/115974",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/F-7jiLZtYo8eljhbpVFzQnl9rdMVh2247JMmuQ-XVQKNHM9mHxy9oycO5tYuIZ7YSgVQboo22Mrh18yZDROayEgG-MBmV9-6-K_e1MxS1IJY4gK-9QI6FooDlCLk2wfp4gjffCn351WANJa8k5ELUHcEAmkXCRCjaP894wJGMksTHDA-k--Kcg7p0VZcRmPUgzVwXNLW754RLLS238vhRtGVKmAxwguvhLvIknBape1OTdy_3JM8Sy6bfPMsVIDbvcnl5sbg-EmSUg8awfRSjROyaPmlXm-KnIUZfjPBnqOuPL_996wSNyZQwawR-K9B2c8orrFBsx0hKPN571uF0w.jpg",
+      "author_photo_path": "channels/hranews/media/a9c82ab9935cd2b6edfd3861.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "روز جاری و در ادامه تجمعات بازنشستگان تامین اجتماعی؛ گروهی از این بازنشستگان در اهواز نیز با برگزاری <a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9\">#تجمع</a> اعتراضی خواستار رسیدگی به مطالبات خود شدند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -&nbsp; <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>&nbsp; کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "روز جاری و در ادامه تجمعات بازنشستگان تامین اجتماعی؛ گروهی از این بازنشستگان در اهواز نیز با برگزاری #تجمع اعتراضی خواستار رسیدگی به مطالبات خود شدند.\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/115974",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/QiYWYvdGQAK4-8oz_cpXYkrWJ0nZJFldGexvbKTyn7P2ehr1VVxRo0mk5MgjYOFQP09BIBoZ5Eahg-sQHGMi6mcnY1VtUS8fACqg6JwhIuhW1DgpMDMmS5UX9hWNZvJMccRgC_r1gqUrFh0BaZVYLhyk6XuepsmSIcemRg3aMq-UWTFmhURlFe14_OpUHj_VF8UTCYF9Loxev3kgH_g-kUHvD96bbouTtAsMglnwqAMq0AK5CD_IS_VNTvMuUkkc1CPi31s4PYFvgNPeehhhuWhgs5PYxpudhFjK71nwlt5qzPATgGNhOq1DmGVhSoTnSLufy_yNTZd_8syyx6aqpA",
+          "thumbnail_path": "channels/hranews/media/90dae3fe52aee9dab2ce19eb.jpg",
+          "thumbnail_sha256": "141f6a037b67de78789ad8f91866708ca61deeddc1e076fb91d77ee375d62e33",
+          "duration_label": "0:26",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-09-27T13:27:00+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/115974",
+      "reply": null
+    },
+    {
       "id": "hranews/115973",
       "author_name": "خبرگزاری هرانا",
       "author_photo_url": "https://cdn1.telesco.pe/file/F-7jiLZtYo8eljhbpVFzQnl9rdMVh2247JMmuQ-XVQKNHM9mHxy9oycO5tYuIZ7YSgVQboo22Mrh18yZDROayEgG-MBmV9-6-K_e1MxS1IJY4gK-9QI6FooDlCLk2wfp4gjffCn351WANJa8k5ELUHcEAmkXCRCjaP894wJGMksTHDA-k--Kcg7p0VZcRmPUgzVwXNLW754RLLS238vhRtGVKmAxwguvhLvIknBape1OTdy_3JM8Sy6bfPMsVIDbvcnl5sbg-EmSUg8awfRSjROyaPmlXm-KnIUZfjPBnqOuPL_996wSNyZQwawR-K9B2c8orrFBsx0hKPN571uF0w.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "مرگ یک کارگر ۱۸ ساله و مصدومیت کارگری دیگر در معدن مس سونگون\n\n❗️❗️❗️❗️❗️– روز شنبه ۴ مهرماه، در پی ریزش خاک در محل فعالیت یکی از شرکت‌های پیمانکار مستقر در معدن مس سونگون ورزقان، یک کارگر ۱۸ ساله جان خود را از دست داد و یک #کارگر دیگر مصدوم شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "30",
+      "views_label": "60",
       "posted_at": "2026-09-27T13:20:49+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115973",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "183",
+      "views_label": "201",
       "posted_at": "2026-09-27T12:48:20+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115972",
@@ -65,7 +93,7 @@
       "plain_text": "یک زن توسط همسرش به قتل رسید\n\n❗️❗️❗️❗️❗️– یک زن در پی اختلافات خانوادگی توسط همسرش به #قتل رسید. متهم پس از گذشت ۱۸ ماه در تهران به این اقدام اعتراف کرد و بازداشت شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "256",
+      "views_label": "269",
       "posted_at": "2026-09-27T12:35:56+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115971",
@@ -81,7 +109,7 @@
       "plain_text": "حشمت‌الله فلاحت‌پیشه به یک سال حبس محکوم شد\n\n❗️❗️❗️❗️❗️– حشمت‌الله فلاحت‌پیشه در پی انتشار مطالبی در فضای مجازی، توسط دادگاه تجدیدنظر به یک سال حبس محکوم شد. اجرای این حکم برای مدت پنج سال به حالت تعلیق درآمده است.\n\nادامه مطلب\n\n#حشمت‌الله_فلاحت‌پیشه\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "342",
+      "views_label": "353",
       "posted_at": "2026-09-27T12:00:33+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115970",
@@ -109,7 +137,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "395",
+      "views_label": "403",
       "posted_at": "2026-09-27T11:50:37+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115969",
@@ -137,7 +165,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "337",
+      "views_label": "342",
       "posted_at": "2026-09-27T11:36:36+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115968",
@@ -165,7 +193,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "375",
+      "views_label": "382",
       "posted_at": "2026-09-27T11:17:41+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115967",
@@ -181,7 +209,7 @@
       "plain_text": "علی علیرضایی، دانشجوی دانشگاه صنعتی شریف به ۴ سال حبس محکوم شد\n\n❗️❗️❗️❗️❗️– علی علیرضایی، دانشجوی مقطع کارشناسی دانشگاه صنعتی شریف، توسط مرجع قضایی به چهار سال حبس تعزیری محکوم شد. وی پیشتر توسط کمیته انضباطی این دانشگاه نیز به اخراج و محرومیت از تحصیل محکوم شده بود.\n\nادامه مطلب\n\n#علی_علیرضایی\n#دانشگاه_صنعتی_شریف\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "428",
+      "views_label": "431",
       "posted_at": "2026-09-27T10:45:17+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115966",
@@ -209,7 +237,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "460",
+      "views_label": "462",
       "posted_at": "2026-09-27T10:33:59+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115965",
@@ -225,7 +253,7 @@
       "plain_text": "عباس عبدی به حبس و روزنامه اعتماد به منع فعالیت موقت محکوم شدند\n\n❗️❗️❗️❗️❗️– عباس عبدی، فعال سیاسی و روزنامه‌نگار توسط دادگاه کیفری یک استان تهران به یک سال حبس تعزیری محکوم شد. در ارتباط با این پرونده، روزنامه اعتماد نیز به توقف فعالیت به مدت دو ماه محکوم شده است.\n\nادامه مطلب\n\n#عباس_عبدی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "542",
+      "views_label": "545",
       "posted_at": "2026-09-27T10:16:39+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115964",
@@ -253,7 +281,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "468",
+      "views_label": "471",
       "posted_at": "2026-09-27T09:42:17+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115963",
@@ -269,7 +297,7 @@
       "plain_text": "سیامک رحمانی به پرداخت جزای نقدی محکوم شد\n\n❗️❗️❗️❗️❗️– سیامک رحمانی، روزنامه‌نگار، در پرونده‌ای با اتهام «فعالیت تبلیغی علیه نظام» به پرداخت ۸۰ میلیون تومان جزای نقدی محکوم شد.\n\nادامه مطلب\n\n#سیامک_رحمانی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "471",
+      "views_label": "472",
       "posted_at": "2026-09-27T09:33:38+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115962",
@@ -297,7 +325,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "448",
+      "views_label": "452",
       "posted_at": "2026-09-27T09:24:41+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115961",
@@ -325,7 +353,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "508",
+      "views_label": "509",
       "posted_at": "2026-09-27T09:15:24+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115960",
@@ -341,7 +369,7 @@
       "plain_text": "حکم حبس و منع فعالیت رسانه‌ای صادق زیباکلام تایید شد\n\n❗️❗️❗️❗️❗️– حکم حبس و منع فعالیت رسانه‌ای صادق زیباکلام، تحلیل‌گر سیاسی توسط مرجع قضایی تایید شد. آقای زیباکلام در مرحله بدوی دادگاه به یک سال حبس و منع فعالیت رسانه‌ای به مدت دو سال محکوم شده بود. همچنین، حکم حبس صادره به مدت سه سال تعلیق شده است.\n\nادامه مطلب\n\n#صادق_زیباکلام\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "470",
+      "views_label": "471",
       "posted_at": "2026-09-27T09:07:51+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115959",
@@ -369,7 +397,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "481",
+      "views_label": "482",
       "posted_at": "2026-09-27T08:45:31+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115958",
@@ -397,7 +425,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "618",
+      "views_label": "620",
       "posted_at": "2026-09-27T07:37:01+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115957",
@@ -413,7 +441,7 @@
       "plain_text": "رسول بداقی و غفار دیندار، دو فعال صنفی فرهنگیان بازداشت شدند\n\n❗️❗️❗️❗️❗️– رسول بداقی و غفار دیندار، دو فعال صنفی کانون فرهنگیان اسلامشهر، روز گذشته توسط نیروهای اطلاعات سپاه در نورآباد ممسنی، بازداشت و به زندان این شهرستان منتقل شدند.\n\n#رسول_بداقی #غفار_دیندار\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "1.19K",
+      "views_label": "1.2K",
       "posted_at": "2026-09-26T19:32:48+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115956",
@@ -441,7 +469,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "865",
+      "views_label": "867",
       "posted_at": "2026-09-26T19:24:14+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115955",
@@ -2313,34 +2341,6 @@
       "posted_at": "2026-09-23T14:02:23+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/115874",
-      "reply": null
-    },
-    {
-      "id": "hranews/115873",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/jeVjDfqy0rQ8_PgZ99BbXeyOigaL5AlPRKx-rdwRA6xzCD9Z9UACL3QpKPCz1fvLBPQjI0x6S5P5-mDj6NjJqr787xemkibu590_KfHpJPL_jh-p1qhEcyjhcn28AQtgh2tLpcQ_P6Vn08nMEaerdV90iwpZOXVilbcraDvObGOYep2JzAepq2RtIN6rfdoO0YYb49L1ChIr4uDtcMVxGF2MgHfta4Lle0h5wUB7Huv5BhkeaHvNBVDZBwOVuOJlbHaw6nAgAciJfgsxXoamo6ZEz1PRjAlqO7jhyHuYn3mPOM4Zr5iq27FipeabWQfTzjxtREWwZoBZt3kJa2RtWA.jpg",
-      "author_photo_path": "channels/hranews/media/b269d21ac7a985aca93cd341.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "عباس شاوردی، نوجوان ۱۷ ساله در شادگان بازداشت شد<br><br><tg-emoji emoji-id=\"4936376861581116178\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936234406105842841\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936202185261187827\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933936920725029797\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933769043338331221\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji>– عباس شاوردی، نوجوان ۱۷ ساله ساکن شادگان، مورخ ۲۷ شهریورماه توسط نیروهای امنیتی در این شهرستان بازداشت و به مکان نامعلومی منتقل شد.<br><br>به گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، عباس شاوردی، نوجوان ۱۷ ساله، در شادگان بازداشت شد.<br><br>بر اساس اطلاعات دریافتی هرانا، بازداشت این نوجوان روز جمعه ۲۷ شهریورماه ۱۴۰۵، توسط نیروهای امنیتی در منزل وی در شادگان صورت گرفته است.<br><br><a href=\"?q=%23%D8%B9%D8%A8%D8%A7%D8%B3_%D8%B4%D8%A7%D9%88%D8%B1%D8%AF%DB%8C\">#عباس_شاوردی</a><br><br><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-fe8e912c/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ادامه مطلب</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "عباس شاوردی، نوجوان ۱۷ ساله در شادگان بازداشت شد\n\n❗️❗️❗️❗️❗️– عباس شاوردی، نوجوان ۱۷ ساله ساکن شادگان، مورخ ۲۷ شهریورماه توسط نیروهای امنیتی در این شهرستان بازداشت و به مکان نامعلومی منتقل شد.\n\nبه گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، عباس شاوردی، نوجوان ۱۷ ساله، در شادگان بازداشت شد.\n\nبر اساس اطلاعات دریافتی هرانا، بازداشت این نوجوان روز جمعه ۲۷ شهریورماه ۱۴۰۵، توسط نیروهای امنیتی در منزل وی در شادگان صورت گرفته است.\n\n#عباس_شاوردی\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/hranews/115873",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/ofkyrwedBeigSq8v50CSwvt-jjPRtAe8UHmzDnPiG2m5Cch2LejelcZz0CdNb5XpoO7igI0FEOpqpwuC--FN3avrSuf_EEZUc5y67HxwuM4AW-_BZ9UeC00AMJUPpIzOI0fuP6pA-XIkFeoBPE9ImDFL9IrkJ6BoA8rjq0y9bEevkDTKVFcUhHPKJyd6aZUe1bk4HXLFz8Js7QE9ln9RoobGwYN_OvSKGXFVZkPOy12-8ZSxUyoz_oJ1H_JObOAUbR7lVMmnY5YVHv2nrGDbLtQLCrsRJFgonZIkz3yk7w5gZs3Sg8cUpUtETT-W7oGwutbf9pwhbKbpvDAVjX5zmA.jpg",
-          "thumbnail_path": "channels/hranews/media/d146d1261620bf64b06fb41b.jpg",
-          "thumbnail_sha256": "fa2539769ad50493d4095e5b9c87b060ec26d350c1df4fb7005f450fd8f5364c",
-          "duration_label": null,
-          "aspect_ratio": 1.5009380863039399
-        }
-      ],
-      "reactions": [],
-      "views_label": "640",
-      "posted_at": "2026-09-23T13:25:45+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/115873",
       "reply": null
     }
   ]
