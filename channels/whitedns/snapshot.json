@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-09-30T09:42:12.837Z",
+  "fetched_at": "2026-09-30T09:47:52.748Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,31 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1883",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/nAcdoUmnrPYFMvlJWY4hQsktTUl4BP0zf7lNFEr82r4VzGNXlUHvvRe8R-4g2BYDwdVF8W-2FJcVYhEw3qkzN11hKaB_nZLPO_qadJUzKKGujskBL9GyVr0LdJ3EJyfnJlRo9pedtD2v5WSNFfBGffWt2qK7HHPMEHKIhAXWSLgNaDUYEE_OEZXTaRM8-eQ6VarUENRjAEVaIDV9StU8086GB_75Q3xiavET6Mir8-1sj7ZV8QVGgZItMI0JvkW4ATctewUs_lIVhqL9GkzEiL8tgYAT_jHAwrVSMo0lGkh9DlTYvGMsDDCzXbgNP9zOExk_xv335YdEklGijx6HWw.jpg",
+      "author_photo_path": "channels/whitedns/media/675e3e4a6bd8a392e5778f4e.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<tg-emoji emoji-id=\"5330280024673101519\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8DB7.png')\"><b>🍷</b></i></tg-emoji>درود به همه رفقا...<br><br>معرفی دو اپلیکیشن خوب برای استفاده خواهشا این بحث بروز بودن اپلیکیشن هایی که استفاده میکنید برای کانفیگ رو جدی بگیرید از هر نوعی چه از <a href=\"?q=%23%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86\">#رایگان</a> ها (bpb) چه از سرور شخصی ها اگر براتون مصرف باطری و بهینه بودن اتصال و مشکلات کندی قطعی مهمه<tg-emoji emoji-id=\"5979041951494705951\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F988D.png')\"><b>😍</b></i></tg-emoji><br><br><tg-emoji emoji-id=\"5929253286145166951\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji>اپلیکیشن اول اندروید از سازنده aether:<br>اپلیکیشن ZedSecure یه <a href=\"?q=%23%D8%A7%D9%BE%D9%84%DB%8C%DA%A9%DB%8C%D8%B4%D9%86\">#اپلیکیشن</a> تکمیل از نظر ui و حتی هوش مصنوعی برای استفاده پشتیبانی از تمام پروتوکل های زیر:<br><br><blockquote> - Xray<br> - Sing-Box (Snell,AnyTLS,ovpn)<br>- OpenConnect (سیسکو)<br>- Tor<br>- Psiphon <br>- MasterDNS - DNSTT - VayDNS<br>- Sni-Spoof (روت)<br>- IKEv2<br>- SSH</blockquote><br><br><br>مصرف <a href=\"?q=%23%D8%A8%D8%A7%D8%B7%D8%B1%DB%8C\">#باطری</a> و بروز بودن هسته xray و همچنین هسته خود سازنده aether این کلاینت رو تکمیل میکنه.<br><br><tg-emoji emoji-id=\"5931594395508805861\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9B92.png')\"><b>🛒</b></i></tg-emoji>لینک دانلود اپ از پلی استور:<br><br><a href=\"https://play.google.com/store/apps/details?id=com.zedsecure.vpn\" target=\"_blank\" rel=\"noopener\">https://play.google.com/store/apps/details?id=com.zedsecure.vpn</a><br><br><tg-emoji emoji-id=\"6005916300600152073\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i></tg-emoji><tg-emoji emoji-id=\"5933540612694347912\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji>کلاینت بعدی برای ویندوز:<br><br><a href=\"https://github.com/yastorovsky/MehrON\" target=\"_blank\" rel=\"noopener\">https://github.com/yastorovsky/MehrON</a><br><br>کلاینت سبک و بروز برای شرایط عادی و <a href=\"?q=%23%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C\">#اضطراری</a> با بروز بودن هسته و بهینه سازی برای ویندوز هسته های به کار رفته در برنامه:<br><br><blockquote>SNI Spoofing(patterniha)<br>MHR <br>MHR-CFW<br>Aether(وارپ)<br>Double Tunneling<br>CF IP Scanner<br>Mitm fronting(شیر و خورشید)</blockquote><br><br><tg-emoji emoji-id=\"5312536423851630001\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i></tg-emoji>خلاصه:برای استفاده بهینه از هر نوع کانفیگی که دارید از اپ های بروزی مثل pattn و pattng و ZedSecure استفاده کنید در اندروید و ios هم همچنین v2box الی streisand تا زمانی که اپ های بچها در ios منتشر شه.<br><br><br><tg-emoji emoji-id=\"5449455694870748968\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9293.png')\"><b>💓</b></i></tg-emoji>با تشکر از سازنده های محترم:<br><br><a href=\"https://t.me/yastorovsky\" target=\"_blank\" rel=\"noopener\">https://t.me/yastorovsky</a><br><a href=\"https://t.me/CluvexStudio\" target=\"_blank\" rel=\"noopener\">https://t.me/CluvexStudio</a><br><br><br><a href=\"https://t.me/xsfilterrnet\" target=\"_blank\">@xsfilterrnet</a> <tg-emoji emoji-id=\"5053169761232356354\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji>",
+      "plain_text": "🍷درود به همه رفقا...\n\nمعرفی دو اپلیکیشن خوب برای استفاده خواهشا این بحث بروز بودن اپلیکیشن هایی که استفاده میکنید برای کانفیگ رو جدی بگیرید از هر نوعی چه از #رایگان ها (bpb) چه از سرور شخصی ها اگر براتون مصرف باطری و بهینه بودن اتصال و مشکلات کندی قطعی مهمه😍\n\n📱اپلیکیشن اول اندروید از سازنده aether:\nاپلیکیشن ZedSecure یه #اپلیکیشن تکمیل از نظر ui و حتی هوش مصنوعی برای استفاده پشتیبانی از تمام پروتوکل های زیر:\n\n- Xray\n- Sing-Box (Snell,AnyTLS,ovpn)\n- OpenConnect (سیسکو)\n- Tor\n- Psiphon\n- MasterDNS - DNSTT - VayDNS\n- Sni-Spoof (روت)\n- IKEv2\n- SSH\n\n\nمصرف #باطری و بروز بودن هسته xray و همچنین هسته خود سازنده aether این کلاینت رو تکمیل میکنه.\n\n🛒لینک دانلود اپ از پلی استور:\n\nhttps://play.google.com/store/apps/details?id=com.zedsecure.vpn\n\n💻📱کلاینت بعدی برای ویندوز:\n\nhttps://github.com/yastorovsky/MehrON\n\nکلاینت سبک و بروز برای شرایط عادی و #اضطراری با بروز بودن هسته و بهینه سازی برای ویندوز هسته های به کار رفته در برنامه:\n\nSNI Spoofing(patterniha)\nMHR\nMHR-CFW\nAether(وارپ)\nDouble Tunneling\nCF IP Scanner\nMitm fronting(شیر و خورشید)\n\n💡خلاصه:برای استفاده بهینه از هر نوع کانفیگی که دارید از اپ های بروزی مثل pattn و pattng و ZedSecure استفاده کنید در اندروید و ios هم همچنین v2box الی streisand تا زمانی که اپ های بچها در ios منتشر شه.\n\n\n💓با تشکر از سازنده های محترم:\n\nhttps://t.me/yastorovsky\nhttps://t.me/CluvexStudio\n\n\n@xsfilterrnet 👑",
+      "media": [],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-09-30T09:47:46+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1883",
+      "reply": {
+        "channel_username": "cluvexstudio",
+        "post_id": "328",
+        "author_name": "CluvexStudio",
+        "preview_text": "بعد از ماه‌ها که برای کلاینتم آپدیتی ندادم این مدت روش کار کردم و کاملا بهینه و بهبود یافته. UI/UX کاملا بازنویسی شده با متریال گوگل. و خیلی فیچر های شخصی سازی داره بخش \"رابط کاربری\" از تمام هسته های حال حاضر پشتیبانی می‌کنه راحت میتونید کانفیگ هاشو اد کنید،…",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/IZh2f73D77BlGFitsPFoeLT_oPfieRGL2RZrqIjZDwWjjUiv7KkOtkJ7_om3dK0qltrQr00DOSZlgc0WrRhm289zLOhdBtWg3RcWVKxBZOMETNnXjJsc9w2kTy3sPr2M32QlttATEJQzz--dhYPZqYN_qDxkYC2lZ9SM3M_CUVaiZ38-0F7KDDpp_UxxBBgQAyKR7z_J98oiB8M_eGazyQSsDmG8xU9yE-HCdlLCh2H3v7xunIjzEx_J1iK2cvLTjufNGDgzVjRGayeVAev977i0QOiZ-mr50f4b2J2rZW50Mw-1gCJsVd3Gs_1espfnsT5KpGsrzr8mp9atPxFGZA.jpg",
+        "thumbnail_path": "channels/whitedns/media/107fc4d683e3ba2c2a62d024.jpg",
+        "thumbnail_sha256": "6658073e0f5943e01f388d8292b00bfdc83cdaea724ad9354bb52587293fce69",
+        "permalink": "https://t.me/cluvexstudio/328"
+      }
+    },
     {
       "id": "whitedns/1881",
       "author_name": "White DNS",
@@ -66,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.53K",
+      "views_label": "8.54K",
       "posted_at": "2026-09-29T16:39:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1881",
@@ -103,7 +128,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.53K",
+      "views_label": "8.54K",
       "posted_at": "2026-09-29T16:39:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1882",
@@ -5758,51 +5783,6 @@
       "posted_at": "2026-09-10T03:15:48+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1746",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1745",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/Eb5PBVsYTb8LzkWifHviKjeSafdq2HM1HZQ4DzvxbFK6HRywNjlYjCyldBUqKVmK3u6TQP0qI8HYF-zQ30FCD1ObOpY8miuedrq-bZTLNyaU3ytnly_mP5NUIb6Q2O6AQPZN3m3behGqIy0oI5qfeAfNnpT_4NiRrOF1bzyGBtWceIOh27mUZX_MVMEaH9EZM4lDp75JQ93Y9il0I_lk6ZGcGNgcR9kVOb-3TRdZo2KlZgPJGs6rvSS2C-tgVASn4daW7LnSIeQ4244ezAoI6jbwcnhMbKDmRVP1I8M2Ro9oQiSIM-7HDcCvu1ZsMcgXjuPq9qwy28-6bnvXzZ9h2A.jpg",
-      "author_photo_path": "channels/whitedns/media/eea73b2e8ecc71e69af38215.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "با WhiteAesther به Tor و Psiphon وصل شو! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><a href=\"https://youtu.be/WiybhJ7ylps\" target=\"_blank\" rel=\"noopener\">https://youtu.be/WiybhJ7ylps</a><br><br>آخرین نسخه WhiteAesther <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA68B.png')\"><b>🦋</b></i><br><br><a href=\"https://github.com/WhiteDNS/WhiteAesther\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">WhiteAesther Windows</a><br><br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">WhiteAesther Android</a>",
-      "plain_text": "با WhiteAesther به Tor و Psiphon وصل شو! 🔥\n\nhttps://youtu.be/WiybhJ7ylps\n\nآخرین نسخه WhiteAesther 🦋\n\nWhiteAesther Windows\n\nWhiteAesther Android",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "156"
-        },
-        {
-          "emoji": "👎",
-          "count": "8"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "😍",
-          "count": "1"
-        }
-      ],
-      "views_label": "10.9K",
-      "posted_at": "2026-09-09T22:50:06+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1745",
       "reply": null
     }
   ]
