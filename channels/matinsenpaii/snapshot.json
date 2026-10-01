@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-01T17:54:13.233Z",
+  "fetched_at": "2026-10-01T17:56:39.727Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -17,8 +17,8 @@
       "author_photo_url": "https://cdn1.telesco.pe/file/UXHvCyYVEqK9w1B_QInm_AHQqv0RboWYqord_kjszSu_RjiweDqCOK5ZbeErM_KxRxPOkx-2EFbsruk8wFFcxo9a6PRlzsrM9mJzlDBlaSKH7shBxvDqNhUcnl_905b8DkDPYt1iIc6uSWD1pC5nW2Y-ASjE9LkhtfY8YnI6UTtzkItA911IuH5_ojD_ncX5zD_ISEawl3_x0EdX0zqFN6GZWyMFMJ0Ck1f662dQlULjEtiARfK1S1lZQeG5eyqBsrho9dZdBDiIs_PqckHfhGd3MFHZKzNaR7S0DoMVT0iuS7jhiSFIrHGOmsIVerqQNHEpL2-RoAGFAR4uQxxsgA.jpg",
       "author_photo_path": "channels/matinsenpaii/media/fda00cd35ef5d0ce51fcdec6.jpg",
       "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>آموزش دور زدن فیلترینگ کانفیگ‌های کلودفلر با (نسخه آپدیت شده)</b><br><br>1- ابتدا اپلیکیشن PattNG(برای اندروید از اینجا <a href=\"https://github.com/patterniha/PattNG/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/patterniha/PattNG/releases</a>)<br>یا نرم‌افزار PattN(برای ویندوز از اینجا <a href=\"https://github.com/patterniha/PattN/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/patterniha/PattN/releases</a>)<br>دانلود کنید.<br><br>2- کانفیگ V2ray خودتون که با Worker کلودفلر ساختید(آموزش ساخت کانفیگ رایگانش اینجاست: <a href=\"https://youtu.be/iAbYpjXyLpY\" target=\"_blank\" rel=\"noopener\">https://youtu.be/iAbYpjXyLpY</a>) رو وارد اپلیکیشن(PattNG یا PattN) کنید<br><br>3- توی اپلیکیشن اندروید، روی مداد سمت راست کانفیگ و توی اپلیکیشن ویندوز، دوبار روی کانفیگِ وارد شده کلیک کنید تا پنجره‌ی تغییر تنظیماتش باز بشه<br><br>4- توی بخش Finalmask raw json، این مقدار رو وارد کنید:<br><blockquote expandable=\"\">{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}</blockquote><br><br>5- توی بخش Fingerprint، مقدار رو روی <code>Unsafe</code> تنظیم کنید.<br><br>6- مقدار Alpn رو روی http/1.1 تنظیم کنید<br><br>7- توی بخش Cipher Suits، این مقدار رو کپی پیست کنید:<br><blockquote expandable=\"\">TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256<br></blockquote>8- کانفیگ رو ذخیره کنید و پینگ بگیرید. دقت کنید تمام موارد رو انجام بدید. آیپی تمیز <a href=\"http://188.114.97.6/\" target=\"_blank\" rel=\"noopener\">188.114.97.6</a> عموما کار می‌کنه. اگر کار نکرد، از اسکنر <a href=\"https://github.com/MatinSenPai/SenPaiScanner/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/SenPaiScanner/releases</a> که هم نسخه اندروید داره هم ویندوز و مک و لینوکس، استفاده کنید و آیپی تمیز پیدا کنید.<br><br>مقادیر ممکنه عوض بشن، مقادیر جدید رو می‌ذارم خدمتتون.<br>موفق باشید<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "آموزش دور زدن فیلترینگ کانفیگ‌های کلودفلر با (نسخه آپدیت شده)\n\n1- ابتدا اپلیکیشن PattNG(برای اندروید از اینجا https://github.com/patterniha/PattNG/releases)\nیا نرم‌افزار PattN(برای ویندوز از اینجا https://github.com/patterniha/PattN/releases)\nدانلود کنید.\n\n2- کانفیگ V2ray خودتون که با Worker کلودفلر ساختید(آموزش ساخت کانفیگ رایگانش اینجاست: https://youtu.be/iAbYpjXyLpY) رو وارد اپلیکیشن(PattNG یا PattN) کنید\n\n3- توی اپلیکیشن اندروید، روی مداد سمت راست کانفیگ و توی اپلیکیشن ویندوز، دوبار روی کانفیگِ وارد شده کلیک کنید تا پنجره‌ی تغییر تنظیماتش باز بشه\n\n4- توی بخش Finalmask raw json، این مقدار رو وارد کنید:\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}\n\n5- توی بخش Fingerprint، مقدار رو روی Unsafe تنظیم کنید.\n\n6- مقدار Alpn رو روی http/1.1 تنظیم کنید\n\n7- توی بخش Cipher Suits، این مقدار رو کپی پیست کنید:\nTLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256\n8- کانفیگ رو ذخیره کنید و پینگ بگیرید. دقت کنید تمام موارد رو انجام بدید. آیپی تمیز 188.114.97.6 عموما کار می‌کنه. اگر کار نکرد، از اسکنر https://github.com/MatinSenPai/SenPaiScanner/releases که هم نسخه اندروید داره هم ویندوز و مک و لینوکس، استفاده کنید و آیپی تمیز پیدا کنید.\n\nمقادیر ممکنه عوض بشن، مقادیر جدید رو می‌ذارم خدمتتون.\nموفق باشید\n\n✉️ t.me/MatinSenPaii",
+      "body_html": "<b>آموزش دور زدن فیلترینگ کانفیگ‌های کلودفلر با PattN و PattNG (نسخه آپدیت شده)</b><br><br>1- ابتدا اپلیکیشن PattNG(برای اندروید از اینجا <a href=\"https://github.com/patterniha/PattNG/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/patterniha/PattNG/releases</a>)<br>یا نرم‌افزار PattN(برای ویندوز از اینجا <a href=\"https://github.com/patterniha/PattN/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/patterniha/PattN/releases</a>)<br>دانلود کنید.<br><br>2- کانفیگ V2ray خودتون که با Worker کلودفلر ساختید(آموزش ساخت کانفیگ رایگانش اینجاست: <a href=\"https://youtu.be/iAbYpjXyLpY\" target=\"_blank\" rel=\"noopener\">https://youtu.be/iAbYpjXyLpY</a>) رو وارد اپلیکیشن(PattNG یا PattN) کنید<br><br>3- توی اپلیکیشن اندروید، روی مداد سمت راست کانفیگ و توی اپلیکیشن ویندوز، دوبار روی کانفیگِ وارد شده کلیک کنید تا پنجره‌ی تغییر تنظیماتش باز بشه<br><br>4- توی بخش Finalmask raw json، این مقدار رو وارد کنید:<br><blockquote expandable=\"\">{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}</blockquote><br><br>5- توی بخش Fingerprint، مقدار رو روی <code>Unsafe</code> تنظیم کنید.<br><br>6- مقدار Alpn رو روی http/1.1 تنظیم کنید<br><br>7- توی بخش Cipher Suits، این مقدار رو کپی پیست کنید:<br><blockquote expandable=\"\">TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256<br></blockquote>8- کانفیگ رو ذخیره کنید و پینگ بگیرید. دقت کنید تمام موارد رو انجام بدید. آیپی تمیز <a href=\"http://188.114.97.6/\" target=\"_blank\" rel=\"noopener\">188.114.97.6</a> عموما کار می‌کنه. اگر کار نکرد، از اسکنر <a href=\"https://github.com/MatinSenPai/SenPaiScanner/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/SenPaiScanner/releases</a> که هم نسخه اندروید داره هم ویندوز و مک و لینوکس، استفاده کنید و آیپی تمیز پیدا کنید.<br><br>مقادیر ممکنه عوض بشن، مقادیر جدید رو می‌ذارم خدمتتون.<br>موفق باشید<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "آموزش دور زدن فیلترینگ کانفیگ‌های کلودفلر با PattN و PattNG (نسخه آپدیت شده)\n\n1- ابتدا اپلیکیشن PattNG(برای اندروید از اینجا https://github.com/patterniha/PattNG/releases)\nیا نرم‌افزار PattN(برای ویندوز از اینجا https://github.com/patterniha/PattN/releases)\nدانلود کنید.\n\n2- کانفیگ V2ray خودتون که با Worker کلودفلر ساختید(آموزش ساخت کانفیگ رایگانش اینجاست: https://youtu.be/iAbYpjXyLpY) رو وارد اپلیکیشن(PattNG یا PattN) کنید\n\n3- توی اپلیکیشن اندروید، روی مداد سمت راست کانفیگ و توی اپلیکیشن ویندوز، دوبار روی کانفیگِ وارد شده کلیک کنید تا پنجره‌ی تغییر تنظیماتش باز بشه\n\n4- توی بخش Finalmask raw json، این مقدار رو وارد کنید:\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}\n\n5- توی بخش Fingerprint، مقدار رو روی Unsafe تنظیم کنید.\n\n6- مقدار Alpn رو روی http/1.1 تنظیم کنید\n\n7- توی بخش Cipher Suits، این مقدار رو کپی پیست کنید:\nTLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256\n8- کانفیگ رو ذخیره کنید و پینگ بگیرید. دقت کنید تمام موارد رو انجام بدید. آیپی تمیز 188.114.97.6 عموما کار می‌کنه. اگر کار نکرد، از اسکنر https://github.com/MatinSenPai/SenPaiScanner/releases که هم نسخه اندروید داره هم ویندوز و مک و لینوکس، استفاده کنید و آیپی تمیز پیدا کنید.\n\nمقادیر ممکنه عوض بشن، مقادیر جدید رو می‌ذارم خدمتتون.\nموفق باشید\n\n✉️ t.me/MatinSenPaii",
       "media": [
         {
           "kind": "photo",
@@ -35,12 +35,12 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "37"
+          "count": "44"
         }
       ],
-      "views_label": "2.1K",
+      "views_label": "2.72K",
       "posted_at": "2026-10-01T17:47:52+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5469",
       "reply": null
     },
@@ -68,11 +68,11 @@
       "reactions": [
         {
           "emoji": "🦄",
-          "count": "48"
+          "count": "49"
         },
         {
           "emoji": "👍",
-          "count": "21"
+          "count": "22"
         },
         {
           "emoji": "❤",
@@ -87,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.56K",
+      "views_label": "7.87K",
       "posted_at": "2026-10-01T16:50:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5468",
@@ -112,7 +112,7 @@
           "count": "31"
         }
       ],
-      "views_label": "10.7K",
+      "views_label": "11K",
       "posted_at": "2026-10-01T15:52:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5467",
@@ -254,7 +254,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "429"
+          "count": "431"
         },
         {
           "emoji": "👍",
@@ -299,7 +299,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "184"
+          "count": "185"
         },
         {
           "emoji": "👍",
@@ -314,7 +314,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14K",
       "posted_at": "2026-10-01T14:48:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5462",
@@ -357,7 +357,7 @@
         },
         {
           "emoji": "❤",
-          "count": "22"
+          "count": "23"
         },
         {
           "emoji": "👍",
@@ -398,7 +398,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "265"
+          "count": "266"
         },
         {
           "emoji": "❤",
@@ -451,7 +451,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "669"
+          "count": "670"
         },
         {
           "emoji": "❤",
@@ -549,7 +549,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "155"
+          "count": "156"
         },
         {
           "emoji": "👍",
