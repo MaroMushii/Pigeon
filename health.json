@@ -1,6 +1,11 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-01T19:04:40.557Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-10-01T19:07:36.183Z",
+  "succeeded": 22,
+  "failed": [
+    {
+      "username": "persianvpnhub",
+      "error": "fetch failed"
+    }
+  ]
 }
