@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-02T12:37:17.868Z",
+  "fetched_at": "2026-10-02T12:42:38.644Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5476",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/UXHvCyYVEqK9w1B_QInm_AHQqv0RboWYqord_kjszSu_RjiweDqCOK5ZbeErM_KxRxPOkx-2EFbsruk8wFFcxo9a6PRlzsrM9mJzlDBlaSKH7shBxvDqNhUcnl_905b8DkDPYt1iIc6uSWD1pC5nW2Y-ASjE9LkhtfY8YnI6UTtzkItA911IuH5_ojD_ncX5zD_ISEawl3_x0EdX0zqFN6GZWyMFMJ0Ck1f662dQlULjEtiARfK1S1lZQeG5eyqBsrho9dZdBDiIs_PqckHfhGd3MFHZKzNaR7S0DoMVT0iuS7jhiSFIrHGOmsIVerqQNHEpL2-RoAGFAR4uQxxsgA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/fda00cd35ef5d0ce51fcdec6.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>به جای توضیح دادن «اون دکمه رو می‌گم»، روش کلیک کن <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9180.png')\"><b>👀</b></i></b><br><br>اگه با Codex یا Claude Code رابط کاربری می‌سازین، احتمالا پیش اومده نصف پرامپتتون صرف توضیح دادن این بشه که دقیقا کدوم قسمت صفحه باید تغییر کنه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9885.png')\"><b>😅</b></i><br><br>ابزار Agentation یه نوار ابزار به پروژه اضافه می‌کنه؛ روی المان موردنظر کلیک می‌کنین و می‌نویسین چه تغییری می‌خواین.<br><br>مثلا:<br>«فاصله این دکمه از عنوان، ۱۶ پیکسل باشه و توی حالت loading عرضش تغییر نکنه.»<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i> نکته کاربردیش اینه که بازخورد رو همراه selector و اطلاعات المان به agent می‌رسونه. می‌تونین خروجی Markdown رو کپی کنین یا با تنظیم MCP، کامنت‌ها رو مستقیم در اختیار agent بذارین.<br><br>برای Claude Code یه skill راه‌اندازی هم داره:<br>npx skills add benjitaylor/agentation<br><br>بعد داخل Claude Code دستور /agentation رو اجرا می‌کنین.<br><br>فعلا به React 18+ و مرورگر دسکتاپ نیاز داره و بهتره فقط توی محیط توسعه فعال باشه. تغییر کد رو agent انجام می‌ده؛ نتیجه رو هم همچنان باید بررسی کنین.<br><br>برای رفت‌وبرگشت‌های ریز طراحی، ایده کاربردی‌ایه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><a href=\"https://www.agentation.com/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">معرفی و دمو</a> · <a href=\"https://www.agentation.com/install\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای نصب</a>",
+      "plain_text": "به جای توضیح دادن «اون دکمه رو می‌گم»، روش کلیک کن 👀\n\nاگه با Codex یا Claude Code رابط کاربری می‌سازین، احتمالا پیش اومده نصف پرامپتتون صرف توضیح دادن این بشه که دقیقا کدوم قسمت صفحه باید تغییر کنه 😅\n\nابزار Agentation یه نوار ابزار به پروژه اضافه می‌کنه؛ روی المان موردنظر کلیک می‌کنین و می‌نویسین چه تغییری می‌خواین.\n\nمثلا:\n«فاصله این دکمه از عنوان، ۱۶ پیکسل باشه و توی حالت loading عرضش تغییر نکنه.»\n\n⭐️ نکته کاربردیش اینه که بازخورد رو همراه selector و اطلاعات المان به agent می‌رسونه. می‌تونین خروجی Markdown رو کپی کنین یا با تنظیم MCP، کامنت‌ها رو مستقیم در اختیار agent بذارین.\n\nبرای Claude Code یه skill راه‌اندازی هم داره:\nnpx skills add benjitaylor/agentation\n\nبعد داخل Claude Code دستور /agentation رو اجرا می‌کنین.\n\nفعلا به React 18+ و مرورگر دسکتاپ نیاز داره و بهتره فقط توی محیط توسعه فعال باشه. تغییر کد رو agent انجام می‌ده؛ نتیجه رو هم همچنان باید بررسی کنین.\n\nبرای رفت‌وبرگشت‌های ریز طراحی، ایده کاربردی‌ایه 🔥\n\nمعرفی و دمو · راهنمای نصب",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5476",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/akN3pz-z6yGbIJzWTPZJHVUKDLBm2hSQFVwTD5hQLa2sPi4VLMkijeCpOjGbrs20Y6bfB_efXDMuc9dhM1v7hanOCOnNKkHDSPimiEYfabG--zOp4oIA1UM-CAIpetskzcN7Ci38U89WrVLVw5m0R66xCP3uMT5Zna9e__bBGnfTnAGK5BMF9qvb4TMh9Z1VQexq6APuF6zDEQtKJRqHOxFrL4TTGiEiu6_2QqLRomEm-pNebyEQGozsRe9edcbZZbejLp1ce_GWItYUge_ytEvorXZhhorq46kn9FKZqIWwUkVsDbE-shXiEGUDgTRmt6dnQ-ia6D7xyX0XrptfBg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/04b7a111a54be7acdab38151.jpg",
+          "thumbnail_sha256": "f60c5c5672bfc5aa416515a07e40cbcdc3c0efd67f45d11b7e8459716a969c59",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "11"
+        },
+        {
+          "emoji": "🆒",
+          "count": "1"
+        }
+      ],
+      "views_label": "829",
+      "posted_at": "2026-10-02T12:40:13+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5476",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5475",
       "author_name": "Matin SenPai",
@@ -23,7 +60,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "140"
+          "count": "144"
         },
         {
           "emoji": "❤",
@@ -34,7 +71,7 @@
           "count": "6"
         }
       ],
-      "views_label": "11.2K",
+      "views_label": "11.6K",
       "posted_at": "2026-10-02T09:48:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5475",
@@ -52,22 +89,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "124"
+          "count": "125"
         },
         {
           "emoji": "💔",
-          "count": "7"
+          "count": "8"
         },
         {
           "emoji": "👍",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "🦄",
           "count": "3"
         }
       ],
-      "views_label": "16.9K",
+      "views_label": "17.2K",
       "posted_at": "2026-10-02T07:23:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5474",
@@ -109,7 +146,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.9K",
+      "views_label": "19.1K",
       "posted_at": "2026-10-02T05:38:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5473",
@@ -127,7 +164,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "212"
+          "count": "213"
         },
         {
           "emoji": "❤",
@@ -146,7 +183,7 @@
           "count": "3"
         }
       ],
-      "views_label": "21.4K",
+      "views_label": "21.6K",
       "posted_at": "2026-10-01T21:36:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5472",
@@ -184,7 +221,7 @@
         },
         {
           "emoji": "👍",
-          "count": "11"
+          "count": "12"
         },
         {
           "emoji": "😁",
@@ -195,7 +232,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.7K",
+      "views_label": "22.8K",
       "posted_at": "2026-10-01T19:34:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5470",
@@ -229,15 +266,15 @@
         },
         {
           "emoji": "❤",
-          "count": "309"
+          "count": "308"
         },
         {
           "emoji": "👍",
-          "count": "28"
+          "count": "29"
         },
         {
           "emoji": "💔",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "😁",
@@ -256,7 +293,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-10-01T17:47:52+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5469",
@@ -425,7 +462,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.6K",
+      "views_label": "22.7K",
       "posted_at": "2026-10-01T15:08:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5465",
@@ -443,7 +480,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "155"
+          "count": "156"
         },
         {
           "emoji": "😁",
@@ -458,7 +495,7 @@
           "count": "5"
         }
       ],
-      "views_label": "21.4K",
+      "views_label": "21.5K",
       "posted_at": "2026-10-01T14:52:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5464",
@@ -476,7 +513,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "568"
+          "count": "570"
         },
         {
           "emoji": "👍",
@@ -521,7 +558,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "263"
+          "count": "264"
         },
         {
           "emoji": "👍",
@@ -620,7 +657,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "289"
+          "count": "291"
         },
         {
           "emoji": "❤",
@@ -790,7 +827,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.7K",
+      "views_label": "26.8K",
       "posted_at": "2026-10-01T08:05:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5457",
@@ -4475,51 +4512,6 @@
       "posted_at": "2026-09-26T07:07:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5361",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5360",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Kc0_gko5moHzS2wj6oJY0CeAihOCgsE0LUqAIdl4ERnK7K1lk0R648gTy91u5P0G1d5JyPWl6a9E8bituAwNXFUi5MnA0Iu4INeuk7Gf8K_uNYECHLYIN87G6caBZWYrteMWbMKA7jOaVN0QP0eSpuQ6rOZSw3LwCcV1nEsyOQDJzDBvNn-tdF5T33UOGftCdlx16VrpQ7ewkmP0HKKfMPrO9s2Y6AB1hZK01zD0wb6_QqULbRGRFEB6Z_KWyxLWSGTdMlhk26MTO26mGQbadkC1-JMcBfs4Wl4tClcoGvUOy0oxsx6Of7LS2xNXkGeK1MhdSu6-giphs3tBMhBEBA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/a204d4b290a73815c666fd9f.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>کلودفلر وارد بازی میشه تا ایجنت‌ها امنیت سایت‌ها رو به درستی تأمین کنن</b><br>مشکلی که کلودفلر دیده اینه: خیلی‌ها ویجت Turnstile رو نصب می‌کنن ولی اعتبارسنجیِ سمت سرور رو جا می‌اندازن و عملا سایتشون برای بات‌ها باز می‌مونه. Turnstile Spin یه جریان کامله که به ایجنتِ کدنویسیِ شما اجازه میده هر دو طرف ماجرا (ویجت و فراخوانی Siteverify) رو پیدا کنه، برنامه‌ش رو بده، منتظر تأییدتون بمونه و بعد انجامشون بده. از داشبورد، Wrangler یا یه URL مهارت شروع می‌شه و اتصال‌های ناقص قبلی رو هم تعمیر می‌کنه.<br><br><a href=\"https://blog.cloudflare.com/turnstile-spin/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "کلودفلر وارد بازی میشه تا ایجنت‌ها امنیت سایت‌ها رو به درستی تأمین کنن\nمشکلی که کلودفلر دیده اینه: خیلی‌ها ویجت Turnstile رو نصب می‌کنن ولی اعتبارسنجیِ سمت سرور رو جا می‌اندازن و عملا سایتشون برای بات‌ها باز می‌مونه. Turnstile Spin یه جریان کامله که به ایجنتِ کدنویسیِ شما اجازه میده هر دو طرف ماجرا (ویجت و فراخوانی Siteverify) رو پیدا کنه، برنامه‌ش رو بده، منتظر تأییدتون بمونه و بعد انجامشون بده. از داشبورد، Wrangler یا یه URL مهارت شروع می‌شه و اتصال‌های ناقص قبلی رو هم تعمیر می‌کنه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5360",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/PCj3AxdYH4lGPZbs1VTrz-XKMjWyovPeOxTypdh_QuTaIfuqzKPwN9RApxUi13CHpk2r-43KQ7Jg-O2QyJH0B8ECp9VwRoiqH4tofZe1hY5fp68XOCjW7Ki87542dskV1gJvoUX9uCaVj2XTJfr0gRU76C8rrRtJGBz3uLUN_lthQTVXNPHRr1xtDaLMcbhMVKBqUP06M-YcZobH727TFvTy0B48XcIu9yHCET6naHefyqnP0adLmWr2dIYN2TuqkFOF9BIryWdjtDY9WG9lbf1hDhgLG4NkEO1w1PRn1kF2PYrqq0QwMpy6PRBlCTNoeEukWq_j0z8NuykA72hhxg.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/d46b2b523b2c4b3a06d10a5e.jpg",
-          "thumbnail_sha256": "e06b352e0f5a9c9bfa955a199df24d131261cec5d85bdc539efc468fe80d5316",
-          "duration_label": null,
-          "aspect_ratio": 1.909307875894988
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "106"
-        },
-        {
-          "emoji": "👍",
-          "count": "15"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        },
-        {
-          "emoji": "😁",
-          "count": "1"
-        }
-      ],
-      "views_label": "23.4K",
-      "posted_at": "2026-09-26T03:52:01+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5360",
       "reply": null
     }
   ]
