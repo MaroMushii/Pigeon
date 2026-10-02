@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-02T16:17:35.801Z",
+  "fetched_at": "2026-10-02T16:22:37.621Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1896",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Rji-R79DuVbL6sPCwcDAcSGz0KB6oIlZl2rK-ztXAPefwzPsiOMXsxeXC3VUDK5DDQIkECm-o-eEuBBBASA6mFjt6D-4b6-_PSzyokh8IfkzLnlvSw2oHPQHITYRnZS65XCtSp_asOEwfERrTradleQORv-GSlyy_iZbG1nI5u6bUsRGYvsPmPC-TOA_5EyA4_c-BvhDbTXUvmwdCrF4GMQIrwVi1sJR9kxqr-q2ojJHeLZ5VFDJLJMWk3ZQsMg0NMp_HtU4-fCSEbjKwfZvN9sUrluQJR7qt2fWlJlN2Wcc9uW33ngrxEbwONqZ3u2oUq0KIgOz6YVwoajwKqgDgA.jpg",
+      "author_photo_path": "channels/whitedns/media/23be8a1f79a24e994b6ea700.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> عزیزانی که با WhiteAether سخت وصل میشن یا مدام قطع و وصل دارید، این روش رو حتماً تست کنید.<br><br>به‌دلیل اختلالات شبکه، ممکنه Endpoint انتخاب‌شده مرتب قطع بشه و Fallback به‌صورت خودکار Endpoint دیگه‌ای رو انتخاب کنه؛ همین سوییچ‌ها می‌تونه باعث کندی و ناپایداری اتصال بشه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> برای رفع این موضوع :<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> وارد بخش Routes بشید و از پایین صفحه وارد Endpoint بشید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> اسکن Endpoint رو انجام بدید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/33E283A3.png')\"><b>3️⃣</b></i> بهترین Endpoint از نظر Ping رو انتخاب کنید و روی اون بزنید تا Pin بشه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/34E283A3.png')\"><b>4️⃣</b></i> گزینه Fallback رو خاموش کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> حالا دوباره Connect کنید و نتیجه رو تست کنید.<br><br>چند نفر با همین تغییر مشکلشون برطرف شده؛ ممکنه برای شما هم در شرایط فعلی شبکه بهتر جواب بده.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "⚠️ عزیزانی که با WhiteAether سخت وصل میشن یا مدام قطع و وصل دارید، این روش رو حتماً تست کنید.\n\nبه‌دلیل اختلالات شبکه، ممکنه Endpoint انتخاب‌شده مرتب قطع بشه و Fallback به‌صورت خودکار Endpoint دیگه‌ای رو انتخاب کنه؛ همین سوییچ‌ها می‌تونه باعث کندی و ناپایداری اتصال بشه.\n\n🛠 برای رفع این موضوع :\n\n1️⃣ وارد بخش Routes بشید و از پایین صفحه وارد Endpoint بشید.\n\n2️⃣ اسکن Endpoint رو انجام بدید.\n\n3️⃣ بهترین Endpoint از نظر Ping رو انتخاب کنید و روی اون بزنید تا Pin بشه.\n\n4️⃣ گزینه Fallback رو خاموش کنید.\n\n🚀 حالا دوباره Connect کنید و نتیجه رو تست کنید.\n\nچند نفر با همین تغییر مشکلشون برطرف شده؛ ممکنه برای شما هم در شرایط فعلی شبکه بهتر جواب بده.\n\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1896",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/MyIYK6ZjoTlwoAPLzdxy7wk1Pl9eq6Ckkr9HyE_kkyoJwqYB3Adb4XBA1dhnuC5gWZ8Gg52IJFP3D9Zk_WP6qhY_V8D4_8ypyv_xBLspbkZ1hl28vh10UITop2SZr3eWI4ASRVkgtQeJ-m_fbL2ad-3MPIzDIteDKD35okEh3oGMrcRyiVjZ1qrJLracZKiFS0IdAES8Pd_-wgjH99IqDQ4Mz2sf-BvwnJlhZ2CEA8mmdtm1dD33Wu3iUAD40hAfj-VbjZRLPpWJkvHvIsKuoUhYXpYTTosntCfnvP06XIFooBVGZCCa7ErvhHCfVyj9EmLqm-_u301ZJbGNL9zg4g.jpg",
+          "thumbnail_path": "channels/whitedns/media/7e4499660367f147ae1cf1b2.jpg",
+          "thumbnail_sha256": "eb4b313bf815b0b80e671261f1f2c39b0bbe1be8bea056f8dd5ed0799b0ed89b",
+          "duration_label": null,
+          "aspect_ratio": 1.0869565217391304
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "192",
+      "posted_at": "2026-10-02T16:21:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1896",
+      "reply": null
+    },
     {
       "id": "whitedns/1895",
       "author_name": "White DNS",
@@ -35,7 +72,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "48"
+          "count": "51"
         },
         {
           "emoji": "💘",
@@ -50,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.61K",
+      "views_label": "2.8K",
       "posted_at": "2026-10-02T15:27:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1895",
@@ -80,7 +117,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "53"
+          "count": "54"
         },
         {
           "emoji": "👍",
@@ -99,7 +136,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.95K",
+      "views_label": "3.05K",
       "posted_at": "2026-10-02T14:24:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1894",
@@ -129,11 +166,11 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "52"
+          "count": "53"
         },
         {
           "emoji": "❤",
-          "count": "18"
+          "count": "19"
         },
         {
           "emoji": "🍓",
@@ -152,7 +189,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.74K",
+      "views_label": "4.83K",
       "posted_at": "2026-10-02T14:10:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1893",
@@ -185,7 +222,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.68K",
+      "views_label": "8.74K",
       "posted_at": "2026-10-02T06:28:37+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1892",
@@ -299,7 +336,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.7K",
+      "views_label": "12.8K",
       "posted_at": "2026-10-01T12:27:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1889",
@@ -458,7 +495,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13K",
+      "views_label": "13.1K",
       "posted_at": "2026-10-01T10:18:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1886",
@@ -745,7 +782,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.3K",
+      "views_label": "16.4K",
       "posted_at": "2026-09-29T08:21:51+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1880",
@@ -790,7 +827,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.5K",
+      "views_label": "16.6K",
       "posted_at": "2026-09-29T07:46:28+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1879",
@@ -5650,51 +5687,6 @@
       "posted_at": "2026-09-11T07:58:33+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1762",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1761",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/YJJX1JXd3Ippwz0p02Ukmycko_qarmit7hVc8QidQF10W8PNC4fSyQ9gYK36d812HAAHH5DqrlFDfc1ewiNP3IalyjzldPzXMWVhoNGpRcVFJFZHOsx_FpQ5sQN1nE0kVjf2geb9lxAbMUXCurNZVrgs7_p4pG5NdWLmkOUqXk_YitnT9TxYJU4789ZfTIrzskAZ1pjFylBEfPyo8lJRw8V14U6XWdwhLbsWhmj22YXFvhcd7fcpTkNNUg_KqoDo2td3tjeA2v4vWxhEUArq-UXCk11ockZtXLKH1ap-IuHAvcKlFiW3FM_nwlwlMth53bFupIO6ZilRNL22Q5XIvQ.jpg",
-      "author_photo_path": "channels/whitedns/media/c026d206890e5c9da1d6cd8a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> نسخهٔ آزمایشی <b>WhiteAesther desktop 1.9.0</b><br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> </b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b>این نسخه «آزمایشی» (Pre-release) است و ممکن است باگ داشته باشد. بنا به درخواست تعداد زیادی از شما، آن را زودتر در اختیارتان می‌گذاریم.<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> اگر نسخهٔ فعلی برایتان بدون مشکل کار می‌کند، فعلاً نیازی به به‌روزرسانی ندارید.<br></b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> چه چیزهایی جدید است؟<br><br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> زنجیر کردن دو راه خروج<br>حالا می‌توانید Aether، سایفون و تور را دوتادوتا و به هر ترتیبی پشت هم بگذارید. اولی شما را از شبکهٔ فیلترشده بیرون می‌برد، دومی تعیین می‌کند با چه IP و از چه کشوری دیده شوید.<br>مثلاً Aether ← سایفون: سرعت Aether برای بیرون رفتن، و کشور خروجِ سایفون.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> دکمهٔ «یکی که کار می‌کند را پیدا کن»<br>اگر نمی‌دانید روی شبکهٔ شما کدام راه جواب می‌دهد، اپ خودش همه را یکی‌یکی امتحان می‌کند و اولی را که وصل شد نگه می‌دارد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> سایفون خیلی بهتر وصل می‌شود<br>خیلی‌ها گفته بودند با اپ خود سایفون وصل می‌شوند ولی با حالت سایفونِ ما نه. علتش را پیدا کردیم: سایفونِ ما نمی‌توانست از پروکسی‌های داوطلبانهٔ خود سایفون (in-proxy) استفاده کند، یعنی همان راهی که در ایران بیشتر از همه جواب می‌دهد. فهرست سرورهایش هم به‌روز نمی‌شد. هر دو مشکل برطرف شد و سایفون حالا برای وصل شدن تا ۵ دقیقه صبر می‌کند (قبلاً ۲ دقیقه بود).</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود:<br><a href=\"https://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.9.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.9.0</a><br><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji>دوستان حتما  delete cache/data را بزنید تا کاملا بروز از برنامه استفاده کنید <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FAA9F.png')\"><b>🪟</b></i> ویندوز: WhiteAesther_1.9.0_windows_x86_64.exe<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> مک با چیپ M1 و جدیدتر: WhiteAesther_1.9.0_macos_arm64.dmg<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> مک اینتل: WhiteAesther_1.9.0_macos_x86_64.dmg<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90A7.png')\"><b>🐧</b></i> لینوکس: فایل AppImage یا deb یا rpm (نسخهٔ x86_64 یا arm64)<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i> اگر به مشکلی خوردید:<br>دکمهٔ Advanced ← عیب‌یابی ← در بخش «گزارش»، دکمهٔ «ذخیرهٔ گزارش» یا «کپی» را بزنید و برای ما بفرستید. آدرس‌های IP به‌طور پیش‌فرض در گزارش پنهان می‌شوند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9398.png')\"><b>📘</b></i> آموزش نسخهٔ 1.9.0<br><br><blockquote expandable=\"\">١) کجاست؟<br>بالای برنامه دکمهٔ Advanced را بزنید ← از منوی کنار، «مسیرها و پروتکل‌ها» ← کارت «راه خروج».<br><br>٢) یک راه خروج (مثل قبل)<br>در ردیف «خروج از این شبکه با» یکی را انتخاب کنید (Aether، سایفون یا تور) و ردیف «و سپس خروج از» را روی «هیچ‌چیز دیگر» بگذارید.<br><br>٣) زنجیر کردن دو راه خروج<br>در ردیف اول چیزی را بزنید که شما را از شبکه بیرون می‌برد، و در ردیف دوم چیزی که می‌خواهید IP و کشورِ خروجتان مالِ آن باشد. زیر این دو ردیف یک کادر دقیقاً می‌گوید این ترکیب چه چیزی به شما می‌دهد و چه چیزی نه.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BE.png')\"><b>💾</b></i> برای اینکه انتخابتان بعد از بستن برنامه هم بماند، «ذخیرهٔ پروفایل» را بالای صفحه بزنید.<br><br>چند ترکیب کاربردی:<br>• Aether ← سایفون: وقتی Aether وصل می‌شود ولی IP از کشور دیگری می‌خواهید. کشور را از «کشور خروج» انتخاب کنید (فهرست کشورها بعد از اولین اتصال سایفون ظاهر می‌شود).<br>• سایفون ← Aether: وقتی Aether به‌تنهایی وصل نمی‌شود ولی سایفون می‌شود. خروجتان همچنان نزدیک خودتان است و کشورتان عوض نمی‌شود. شرطش این است که قبلاً حداقل یک بار با خود Aether (بدون زنجیره) وصل شده باشید.<br>• تور ← سایفون: وقتی نه Aether و نه سایفون به‌تنهایی وصل نمی‌شوند. کندتر است، ولی یک راه دیگر است.<br><br>نکته: وقتی تور نفر دوم زنجیره است، از «پل‌ها» استفاده نمی‌کند؛ کارِ بیرون رفتن را نفر اول انجام داده.<br>نکته: زنجیره‌ای که سایفون یا تور در آن باشد UDP را عبور نمی‌دهد. سایت‌ها و بیشتر برنامه‌ها عادی کار می‌کنند، ولی بعضی تماس‌های صوتی و تصویری یا بازی‌های آنلاین ممکن است کار نکنند.<br><br>٤) پیدا کردن خودکار<br>در همان صفحه، کادر سبز «نمی‌دانید کدام کار می‌کند؟» را پیدا کنید و «یکی که کار می‌کند را پیدا کن» را بزنید.<br>اپ اول تک‌ها را امتحان می‌کند (Aether، سایفون، تور) و فقط اگر هیچ‌کدام وصل نشد سراغ ترکیب‌ها می‌رود. به هرکدام تا ۹۰ ثانیه فرصت می‌دهد و نتیجهٔ هر تلاش را همان‌جا نشان می‌دهد. هر وقت خواستید، «توقف جستجو» را بزنید.<br><br>٥) درباره سایفون<br>اولین اتصال سایفون ممکن است چند دقیقه طول بکشد، مخصوصاً وقتی از طریق پروکسی‌های داوطلبانه وصل می‌شود. عجله نکنید؛ تا ۵ دقیقه صبر می‌کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> مشکلات شناخته‌شده<br>• زنجیره‌هایی که به Aether ختم می‌شوند (مثل سایفون ← Aether) ممکن است بعد از چند ثانیه قطع و دوباره وصل شوند (وضعیت reconnecting). روی رفعش کار می‌کنیم.<br>• ترکیب سایفون ← تور، و قابلیت Kill switch (قطع ترافیک هنگام افتادن تونل) در حالت زنجیره، هنوز کمتر آزمایش شده‌اند.</blockquote><br><br>ممنون که با ما هستید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA48D.png')\"><b>🤍</b></i><br>گزارش‌های شما مستقیم به بهتر شدن نسخهٔ پایدار کمک می‌کند.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🧪 نسخهٔ آزمایشی WhiteAesther desktop 1.9.0\n\n⚠️ ⚠️⚠️⚠️⚠️⚠️این نسخه «آزمایشی» (Pre-release) است و ممکن است باگ داشته باشد. بنا به درخواست تعداد زیادی از شما، آن را زودتر در اختیارتان می‌گذاریم.✅ اگر نسخهٔ فعلی برایتان بدون مشکل کار می‌کند، فعلاً نیازی به به‌روزرسانی ندارید.\n\n✨ چه چیزهایی جدید است؟\n\n🔗 زنجیر کردن دو راه خروج\nحالا می‌توانید Aether، سایفون و تور را دوتادوتا و به هر ترتیبی پشت هم بگذارید. اولی شما را از شبکهٔ فیلترشده بیرون می‌برد، دومی تعیین می‌کند با چه IP و از چه کشوری دیده شوید.\nمثلاً Aether ← سایفون: سرعت Aether برای بیرون رفتن، و کشور خروجِ سایفون.\n\n🔍 دکمهٔ «یکی که کار می‌کند را پیدا کن»\nاگر نمی‌دانید روی شبکهٔ شما کدام راه جواب می‌دهد، اپ خودش همه را یکی‌یکی امتحان می‌کند و اولی را که وصل شد نگه می‌دارد.\n\n🟢 سایفون خیلی بهتر وصل می‌شود\nخیلی‌ها گفته بودند با اپ خود سایفون وصل می‌شوند ولی با حالت سایفونِ ما نه. علتش را پیدا کردیم: سایفونِ ما نمی‌توانست از پروکسی‌های داوطلبانهٔ خود سایفون (in-proxy) استفاده کند، یعنی همان راهی که در ایران بیشتر از همه جواب می‌دهد. فهرست سرورهایش هم به‌روز نمی‌شد. هر دو مشکل برطرف شد و سایفون حالا برای وصل شدن تا ۵ دقیقه صبر می‌کند (قبلاً ۲ دقیقه بود).\n\n📥 دانلود:\nhttps://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.9.0\n⚠️دوستان حتما delete cache/data را بزنید تا کاملا بروز از برنامه استفاده کنید ⚠️\n🪟 ویندوز: WhiteAesther_1.9.0_windows_x86_64.exe\n🍎 مک با چیپ M1 و جدیدتر: WhiteAesther_1.9.0_macos_arm64.dmg\n🍎 مک اینتل: WhiteAesther_1.9.0_macos_x86_64.dmg\n🐧 لینوکس: فایل AppImage یا deb یا rpm (نسخهٔ x86_64 یا arm64)\n\n🐞 اگر به مشکلی خوردید:\nدکمهٔ Advanced ← عیب‌یابی ← در بخش «گزارش»، دکمهٔ «ذخیرهٔ گزارش» یا «کپی» را بزنید و برای ما بفرستید. آدرس‌های IP به‌طور پیش‌فرض در گزارش پنهان می‌شوند.\n\n📘 آموزش نسخهٔ 1.9.0\n\n١) کجاست؟\nبالای برنامه دکمهٔ Advanced را بزنید ← از منوی کنار، «مسیرها و پروتکل‌ها» ← کارت «راه خروج».\n\n٢) یک راه خروج (مثل قبل)\nدر ردیف «خروج از این شبکه با» یکی را انتخاب کنید (Aether، سایفون یا تور) و ردیف «و سپس خروج از» را روی «هیچ‌چیز دیگر» بگذارید.\n\n٣) زنجیر کردن دو راه خروج\nدر ردیف اول چیزی را بزنید که شما را از شبکه بیرون می‌برد، و در ردیف دوم چیزی که می‌خواهید IP و کشورِ خروجتان مالِ آن باشد. زیر این دو ردیف یک کادر دقیقاً می‌گوید این ترکیب چه چیزی به شما می‌دهد و چه چیزی نه.\n💾 برای اینکه انتخابتان بعد از بستن برنامه هم بماند، «ذخیرهٔ پروفایل» را بالای صفحه بزنید.\n\nچند ترکیب کاربردی:\n• Aether ← سایفون: وقتی Aether وصل می‌شود ولی IP از کشور دیگری می‌خواهید. کشور را از «کشور خروج» انتخاب کنید (فهرست کشورها بعد از اولین اتصال سایفون ظاهر می‌شود).\n• سایفون ← Aether: وقتی Aether به‌تنهایی وصل نمی‌شود ولی سایفون می‌شود. خروجتان همچنان نزدیک خودتان است و کشورتان عوض نمی‌شود. شرطش این است که قبلاً حداقل یک بار با خود Aether (بدون زنجیره) وصل شده باشید.\n• تور ← سایفون: وقتی نه Aether و نه سایفون به‌تنهایی وصل نمی‌شوند. کندتر است، ولی یک راه دیگر است.\n\nنکته: وقتی تور نفر دوم زنجیره است، از «پل‌ها» استفاده نمی‌کند؛ کارِ بیرون رفتن را نفر اول انجام داده.\nنکته: زنجیره‌ای که سایفون یا تور در آن باشد UDP را عبور نمی‌دهد. سایت‌ها و بیشتر برنامه‌ها عادی کار می‌کنند، ولی بعضی تماس‌های صوتی و تصویری یا بازی‌های آنلاین ممکن است کار نکنند.\n\n٤) پیدا کردن خودکار\nدر همان صفحه، کادر سبز «نمی‌دانید کدام کار می‌کند؟» را پیدا کنید و «یکی که کار می‌کند را پیدا کن» را بزنید.\nاپ اول تک‌ها را امتحان می‌کند (Aether، سایفون، تور) و فقط اگر هیچ‌کدام وصل نشد سراغ ترکیب‌ها می‌رود. به هرکدام تا ۹۰ ثانیه فرصت می‌دهد و نتیجهٔ هر تلاش را همان‌جا نشان می‌دهد. هر وقت خواستید، «توقف جستجو» را بزنید.\n\n٥) درباره سایفون\nاولین اتصال سایفون ممکن است چند دقیقه طول بکشد، مخصوصاً وقتی از طریق پروکسی‌های داوطلبانه وصل می‌شود. عجله نکنید؛ تا ۵ دقیقه صبر می‌کند.\n\n⚠️ مشکلات شناخته‌شده\n• زنجیره‌هایی که به Aether ختم می‌شوند (مثل سایفون ← Aether) ممکن است بعد از چند ثانیه قطع و دوباره وصل شوند (وضعیت reconnecting). روی رفعش کار می‌کنیم.\n• ترکیب سایفون ← تور، و قابلیت Kill switch (قطع ترافیک هنگام افتادن تونل) در حالت زنجیره، هنوز کمتر آزمایش شده‌اند.\n\nممنون که با ما هستید 🤍\nگزارش‌های شما مستقیم به بهتر شدن نسخهٔ پایدار کمک می‌کند.\n\n@whitedns",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "110"
-        },
-        {
-          "emoji": "👍",
-          "count": "6"
-        },
-        {
-          "emoji": "😍",
-          "count": "5"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🥴",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        }
-      ],
-      "views_label": "11.7K",
-      "posted_at": "2026-09-11T07:58:12+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1761",
       "reply": null
     }
   ]
