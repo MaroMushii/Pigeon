@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-02T14:24:01.092Z",
+  "fetched_at": "2026-10-02T14:27:11.867Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,47 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1894",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Rji-R79DuVbL6sPCwcDAcSGz0KB6oIlZl2rK-ztXAPefwzPsiOMXsxeXC3VUDK5DDQIkECm-o-eEuBBBASA6mFjt6D-4b6-_PSzyokh8IfkzLnlvSw2oHPQHITYRnZS65XCtSp_asOEwfERrTradleQORv-GSlyy_iZbG1nI5u6bUsRGYvsPmPC-TOA_5EyA4_c-BvhDbTXUvmwdCrF4GMQIrwVi1sJR9kxqr-q2ojJHeLZ5VFDJLJMWk3ZQsMg0NMp_HtU4-fCSEbjKwfZvN9sUrluQJR7qt2fWlJlN2Wcc9uW33ngrxEbwONqZ3u2oUq0KIgOz6YVwoajwKqgDgA.jpg",
+      "author_photo_path": "channels/whitedns/media/23be8a1f79a24e994b6ea700.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<b>به جای توضیح دادن «اون دکمه رو می‌گم»، روش کلیک کن <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9180.png')\"><b>👀</b></i></b><br><br>اگه با Codex یا Claude Code رابط کاربری می‌سازین، احتمالا پیش اومده نصف پرامپتتون صرف توضیح دادن این بشه که دقیقا کدوم قسمت صفحه باید تغییر کنه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9885.png')\"><b>😅</b></i><br><br>ابزار Agentation یه نوار ابزار به پروژه اضافه می‌کنه؛ روی المان موردنظر کلیک می‌کنین و می‌نویسین چه تغییری می‌خواین.<br><br>مثلا:<br>«فاصله این دکمه از عنوان، ۱۶ پیکسل باشه و توی حالت loading عرضش تغییر نکنه.»<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i> نکته کاربردیش اینه که بازخورد رو همراه selector و اطلاعات المان به agent می‌رسونه. می‌تونین خروجی Markdown رو کپی کنین یا با تنظیم MCP، کامنت‌ها رو مستقیم در اختیار agent بذارین.<br><br>برای Claude Code یه skill راه‌اندازی هم داره:<br>npx skills add benjitaylor/agentation<br><br>بعد داخل Claude Code دستور /agentation رو اجرا می‌کنین.<br><br>فعلا به React 18+ و مرورگر دسکتاپ نیاز داره و بهتره فقط توی محیط توسعه فعال باشه. تغییر کد رو agent انجام می‌ده؛ نتیجه رو هم همچنان باید بررسی کنین.<br><br>برای رفت‌وبرگشت‌های ریز طراحی، ایده کاربردی‌ایه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><a href=\"https://www.agentation.com/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">معرفی و دمو</a> · <a href=\"https://www.agentation.com/install\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای نصب</a>",
+      "plain_text": "به جای توضیح دادن «اون دکمه رو می‌گم»، روش کلیک کن 👀\n\nاگه با Codex یا Claude Code رابط کاربری می‌سازین، احتمالا پیش اومده نصف پرامپتتون صرف توضیح دادن این بشه که دقیقا کدوم قسمت صفحه باید تغییر کنه 😅\n\nابزار Agentation یه نوار ابزار به پروژه اضافه می‌کنه؛ روی المان موردنظر کلیک می‌کنین و می‌نویسین چه تغییری می‌خواین.\n\nمثلا:\n«فاصله این دکمه از عنوان، ۱۶ پیکسل باشه و توی حالت loading عرضش تغییر نکنه.»\n\n⭐️ نکته کاربردیش اینه که بازخورد رو همراه selector و اطلاعات المان به agent می‌رسونه. می‌تونین خروجی Markdown رو کپی کنین یا با تنظیم MCP، کامنت‌ها رو مستقیم در اختیار agent بذارین.\n\nبرای Claude Code یه skill راه‌اندازی هم داره:\nnpx skills add benjitaylor/agentation\n\nبعد داخل Claude Code دستور /agentation رو اجرا می‌کنین.\n\nفعلا به React 18+ و مرورگر دسکتاپ نیاز داره و بهتره فقط توی محیط توسعه فعال باشه. تغییر کد رو agent انجام می‌ده؛ نتیجه رو هم همچنان باید بررسی کنین.\n\nبرای رفت‌وبرگشت‌های ریز طراحی، ایده کاربردی‌ایه 🔥\n\nمعرفی و دمو · راهنمای نصب",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1894",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/LG1NIjKvmHGb3MedptkzN_ivYtmSgbcG0P1wm8quaCg1I9QMotksBBJTH6IMdlKbHbZsoUbusGm3lo9bTGfPdsro1-mQZWEhy7mjMsWSCxQ0Sy7DFNnaO8yukdjzAiVTnJ5SaM8PmRhO0wy3aSfNtA0eUz4jMM6yp5d8uXQ0DMSyjADhnQPfWCdhN7ILB9zTCN7il6COtvKmwcPTKhh2TzDdoClJU7HAb48o_6EV-j6ww38I9McaDqy0nGwKTYfFMBnujnA0xbxgaagW33lA5RL53bdau0xeTQBxoJsB_vOy-Or0-tf2YzYQq2dzADSzGl6PyukOvCLf-kkDqfPT_Q.jpg",
+          "thumbnail_path": "channels/whitedns/media/dcd5468acacec52b6a3f6855.jpg",
+          "thumbnail_sha256": "f60c5c5672bfc5aa416515a07e40cbcdc3c0efd67f45d11b7e8459716a969c59",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "345",
+      "posted_at": "2026-10-02T14:24:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1894",
+      "reply": null
+    },
     {
       "id": "whitedns/1893",
       "author_name": "White DNS",
@@ -35,7 +76,7 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "15"
+          "count": "18"
         },
         {
           "emoji": "🍓",
@@ -50,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.3K",
+      "views_label": "1.58K",
       "posted_at": "2026-10-02T14:10:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1893",
@@ -72,7 +113,7 @@
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "🔥",
@@ -83,7 +124,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.38K",
+      "views_label": "7.51K",
       "posted_at": "2026-10-02T06:28:37+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1892",
@@ -113,7 +154,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "183"
+          "count": "184"
         },
         {
           "emoji": "👍",
@@ -148,7 +189,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.6K",
+      "views_label": "10.7K",
       "posted_at": "2026-10-01T16:19:05+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1891",
@@ -197,7 +238,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.2K",
+      "views_label": "12.3K",
       "posted_at": "2026-10-01T12:27:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1889",
@@ -254,7 +295,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.7K",
+      "views_label": "12.8K",
       "posted_at": "2026-10-01T10:22:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1888",
@@ -303,7 +344,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.7K",
+      "views_label": "12.8K",
       "posted_at": "2026-10-01T10:20:42+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1887",
@@ -356,7 +397,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "12.7K",
       "posted_at": "2026-10-01T10:18:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1886",
@@ -432,7 +473,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "219"
+          "count": "220"
         },
         {
           "emoji": "👍",
@@ -471,7 +512,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.5K",
+      "views_label": "11.6K",
       "posted_at": "2026-09-30T09:47:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1883",
@@ -508,6 +549,10 @@
         }
       ],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "❤",
           "count": "164"
@@ -578,7 +623,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.7K",
+      "views_label": "14.8K",
       "posted_at": "2026-09-29T16:39:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1882",
@@ -684,7 +729,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.9K",
+      "views_label": "16K",
       "posted_at": "2026-09-29T07:46:28+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1879",
@@ -741,7 +786,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.8K",
+      "views_label": "16.9K",
       "posted_at": "2026-09-29T04:10:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1878",
@@ -794,7 +839,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.6K",
+      "views_label": "18.7K",
       "posted_at": "2026-09-28T23:30:12+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1877",
@@ -843,7 +888,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21K",
+      "views_label": "21.1K",
       "posted_at": "2026-09-28T13:50:32+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1875",
@@ -5639,72 +5684,6 @@
       "edited": false,
       "permalink": "https://t.me/whitedns/1760",
       "reply": null
-    },
-    {
-      "id": "whitedns/1759",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/YJJX1JXd3Ippwz0p02Ukmycko_qarmit7hVc8QidQF10W8PNC4fSyQ9gYK36d812HAAHH5DqrlFDfc1ewiNP3IalyjzldPzXMWVhoNGpRcVFJFZHOsx_FpQ5sQN1nE0kVjf2geb9lxAbMUXCurNZVrgs7_p4pG5NdWLmkOUqXk_YitnT9TxYJU4789ZfTIrzskAZ1pjFylBEfPyo8lJRw8V14U6XWdwhLbsWhmj22YXFvhcd7fcpTkNNUg_KqoDo2td3tjeA2v4vWxhEUArq-UXCk11ockZtXLKH1ap-IuHAvcKlFiW3FM_nwlwlMth53bFupIO6ZilRNL22Q5XIvQ.jpg",
-      "author_photo_path": "channels/whitedns/media/c026d206890e5c9da1d6cd8a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b><tg-emoji emoji-id=\"5267102644886853973\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i></tg-emoji></b><b> سرور های اختصاصی آپدیت شدند. ساب اختصاصی رو تازه‌سازی کنید.</b>",
-      "plain_text": "❤️ سرور های اختصاصی آپدیت شدند. ساب اختصاصی رو تازه‌سازی کنید.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "186"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "24"
-        },
-        {
-          "emoji": "🍾",
-          "count": "3"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "💅",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        }
-      ],
-      "views_label": "12.4K",
-      "posted_at": "2026-09-10T12:14:27+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1759",
-      "reply": {
-        "channel_username": "whitedns",
-        "post_id": "1757",
-        "author_name": "White DNS",
-        "preview_text": "💬 ما قرار داریم روزی ۴ بار سرور های اختصاصی رو عوض کنیم تا همیشه وصل بمونید و سرور ها فیلتر نشن. ✍️ اگر یکدفع دیدید که سرور اختصاصی قطع شد، برید با قسمت ساسکریپشن، بزنید روی ۳نقطه کنار سرور اختصاصی و تازه سازی رو بزنید. بعدش دوباره وصل بشید. خود اپ هم…",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/whitedns/1757"
-      }
     }
   ]
 }
