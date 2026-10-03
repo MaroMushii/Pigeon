@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-03T10:44:28.563Z",
+  "fetched_at": "2026-10-03T10:47:20.459Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1901",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
+      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "برای دسترسی به امکانات جدید میتونید با مراجعه به تب \"پروفایل\" - \"افزودن\" آنها را مشاهده کنید<br><a href=\"https://t.me/whitevpn\" target=\"_blank\">@whitevpn</a>",
+      "plain_text": "برای دسترسی به امکانات جدید میتونید با مراجعه به تب \"پروفایل\" - \"افزودن\" آنها را مشاهده کنید\n@whitevpn",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1901",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/RcvwgkqZ8tV7HgMpa4P2uJs0UkX0L_uVJ-j3diBKOyn1ps2I7mK2bT8SIwwRuP7va7lb9VkQ2b1J0P41EDSdaqBLjg3pMaY9YEsdeeHyJmn2T1yYTbTZrbBZlyPCV6mOLW48Zorv1-PPeOmSkPYi8hsk_6itUE3Y1Kr7KprZPvauHeH6NQaAlx5o95vmlvt275a_PkzaOCP28W5BIdRlKTc1sncP246dYnPygnvGGwsYWz-7ETIoZpPKDW2yh1X8c6y20iNPuDs2SIot3AnP2r64H1rMWd82rOtt--sLEB8WwYctAAO4M2jJmIkrfbGS45YOb5DlFuGaLQZwJAjwQg.jpg",
+          "thumbnail_path": "channels/whitedns/media/2f7fb4b553cf82b09564506c.jpg",
+          "thumbnail_sha256": "ec280b62d34c6c0e2328a79ab0ee6d05633aa252b8826ffcf6d8c72e35d5fa5f",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "1",
+      "posted_at": "2026-10-03T10:46:17+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1901",
+      "reply": null
+    },
     {
       "id": "whitedns/1898",
       "author_name": "White DNS",
@@ -23,10 +56,10 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "6"
+          "count": "20"
         }
       ],
-      "views_label": "555",
+      "views_label": "773",
       "posted_at": "2026-10-03T10:41:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1898",
@@ -38,8 +71,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
       "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> <b>نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 منتشر شد!</b> <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br>در این نسخه، شش موتور اتصال در دسترس هستند:<br><b>Psiphon، Tor، SSH، DNS Tunnels، IKEv2 و AmneziaWG</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> تغییرات اصلی:<br><br>• صفحهٔ یکپارچهٔ «پروفایل‌ها» برای مدیریت اشتراک‌ها و اتصال‌ها<br>• واردکردن کانفیگ AmneziaWG از فایل یا لینک <code>vpn://</code><br>• انتخاب کشور سایفون از فهرست<br>• هماهنگ‌سازی فرم‌های فارسی و انگلیسی و اصلاح نمایش گذرواژه‌های طولانی<br>• بهبود پایداری اتصال و قطع سایفون و نمایش ترافیک<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> این نسخه <b>آزمایشی</b> است؛ بررسی کامل همهٔ موتورها روی دستگاه‌های مختلف هنوز ادامه دارد. برخی موتورها به سرور و کانفیگ سازگار نیاز دارند. نسخهٔ پایدار <b>1.6.10</b> همچنان در دسترس است.<tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.7.0-beta.1\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ آزمایشی</a><br><br>اگر مشکلی دیدید، همراه با نام موتور، مدل گوشی و نسخهٔ اندروید گزارش کنید.",
-      "plain_text": "🧪 نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 منتشر شد! ⚠️🔥\n\nدر این نسخه، شش موتور اتصال در دسترس هستند:\nPsiphon، Tor، SSH، DNS Tunnels، IKEv2 و AmneziaWG\n\n✨ تغییرات اصلی:\n\n• صفحهٔ یکپارچهٔ «پروفایل‌ها» برای مدیریت اشتراک‌ها و اتصال‌ها\n• واردکردن کانفیگ AmneziaWG از فایل یا لینک vpn://\n• انتخاب کشور سایفون از فهرست\n• هماهنگ‌سازی فرم‌های فارسی و انگلیسی و اصلاح نمایش گذرواژه‌های طولانی\n• بهبود پایداری اتصال و قطع سایفون و نمایش ترافیک\n\n⚠️ این نسخه آزمایشی است؛ بررسی کامل همهٔ موتورها روی دستگاه‌های مختلف هنوز ادامه دارد. برخی موتورها به سرور و کانفیگ سازگار نیاز دارند. نسخهٔ پایدار 1.6.10 همچنان در دسترس است.⚠️\n\n📥 دانلود نسخهٔ آزمایشی\n\nاگر مشکلی دیدید، همراه با نام موتور، مدل گوشی و نسخهٔ اندروید گزارش کنید.",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> <b>نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 منتشر شد!</b> <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br>در این نسخه، شش موتور اتصال در دسترس هستند:<br><b>Psiphon، Tor، SSH، DNS Tunnels، IKEv2 و AmneziaWG</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> تغییرات اصلی:<br><br>• صفحهٔ یکپارچهٔ «پروفایل‌ها» برای مدیریت اشتراک‌ها و اتصال‌ها<br>• واردکردن کانفیگ AmneziaWG از فایل یا لینک <code>vpn://</code><br>• انتخاب کشور سایفون از فهرست<br>• هماهنگ‌سازی فرم‌های فارسی و انگلیسی و اصلاح نمایش گذرواژه‌های طولانی<br>• بهبود پایداری اتصال و قطع سایفون و نمایش ترافیک<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> این نسخه <b>آزمایشی</b> است؛ بررسی کامل همهٔ موتورها روی دستگاه‌های مختلف هنوز ادامه دارد. برخی موتورها به سرور و کانفیگ سازگار نیاز دارند. نسخهٔ پایدار <b>1.6.10</b> همچنان در دسترس است.<tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.7.0-beta.1\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ آزمایشی</a><br><br>اگر مشکلی دیدید، همراه با نام موتور، مدل گوشی و نسخهٔ اندروید گزارش کنید.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🧪 نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 منتشر شد! ⚠️🔥\n\nدر این نسخه، شش موتور اتصال در دسترس هستند:\nPsiphon، Tor، SSH، DNS Tunnels، IKEv2 و AmneziaWG\n\n✨ تغییرات اصلی:\n\n• صفحهٔ یکپارچهٔ «پروفایل‌ها» برای مدیریت اشتراک‌ها و اتصال‌ها\n• واردکردن کانفیگ AmneziaWG از فایل یا لینک vpn://\n• انتخاب کشور سایفون از فهرست\n• هماهنگ‌سازی فرم‌های فارسی و انگلیسی و اصلاح نمایش گذرواژه‌های طولانی\n• بهبود پایداری اتصال و قطع سایفون و نمایش ترافیک\n\n⚠️ این نسخه آزمایشی است؛ بررسی کامل همهٔ موتورها روی دستگاه‌های مختلف هنوز ادامه دارد. برخی موتورها به سرور و کانفیگ سازگار نیاز دارند. نسخهٔ پایدار 1.6.10 همچنان در دسترس است.⚠️\n\n📥 دانلود نسخهٔ آزمایشی\n\nاگر مشکلی دیدید، همراه با نام موتور، مدل گوشی و نسخهٔ اندروید گزارش کنید.\n@whitedns",
       "media": [
         {
           "kind": "photo",
@@ -56,12 +89,12 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "9"
+          "count": "20"
         }
       ],
-      "views_label": "524",
+      "views_label": "835",
       "posted_at": "2026-10-03T10:41:09+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1897",
       "reply": null
     },
@@ -116,7 +149,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.2K",
+      "views_label": "21.4K",
       "posted_at": "2026-10-02T16:21:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1896",
@@ -165,7 +198,7 @@
           "count": "2"
         }
       ],
-      "views_label": "9.18K",
+      "views_label": "9.21K",
       "posted_at": "2026-10-02T15:27:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1895",
@@ -275,7 +308,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.77K",
+      "views_label": "8.8K",
       "posted_at": "2026-10-02T14:10:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1893",
@@ -373,7 +406,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.5K",
+      "views_label": "12.6K",
       "posted_at": "2026-10-01T16:19:05+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1891",
@@ -440,7 +473,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "223"
+          "count": "224"
         },
         {
           "emoji": "❤‍🔥",
@@ -479,7 +512,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.3K",
       "posted_at": "2026-10-01T10:22:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1888",
@@ -497,7 +530,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "209"
+          "count": "210"
         },
         {
           "emoji": "👍",
@@ -546,7 +579,7 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "212"
+          "count": "213"
         },
         {
           "emoji": "❤",
@@ -770,7 +803,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.3K",
+      "views_label": "16.4K",
       "posted_at": "2026-09-29T16:39:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1881",
@@ -807,7 +840,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.7K",
+      "views_label": "15.8K",
       "posted_at": "2026-09-29T16:39:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1882",
@@ -5630,51 +5663,6 @@
       "posted_at": "2026-09-11T11:15:44+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1767",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1766",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/m_0GeLDpgtRXbn6dxbAeRVzv8rkaKduraT8CW8Kfyf9T8MVAnSBu9iSq-dIh9FZKtW9vX4yChOWobtHzzZ69DBJrAmH93G3XuImf3hOLWGfmrd_8smjCq500rIhWZ3FDjuQAdqen35a6sGhlv7OM7OgKintiezgCofuOOokvWqpHRR9YfKwEy7Syu2uzrUYTwVkrhNKZK3GJPGcN5frZc8UEMRC2avktLBNp3uJBfNDYMGMtlCaAo8IQ7eK0FwNwXh2mt7QkmO0qR7kIDgGUOD-iq9wOnmale6oP-kd48b-mKbPGogxB1O1b-uD6VpQz8tCAU5tjHoMhOAr-jLcL6Q.jpg",
-      "author_photo_path": "channels/whitedns/media/0d12fa6631d573e00642aca8.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "92"
-        },
-        {
-          "emoji": "🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "🥴",
-          "count": "2"
-        },
-        {
-          "emoji": "💅",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        }
-      ],
-      "views_label": "13K",
-      "posted_at": "2026-09-11T10:43:41+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1766",
       "reply": null
     }
   ]
