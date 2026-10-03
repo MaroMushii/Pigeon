@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-03T19:22:16.656Z",
+  "fetched_at": "2026-10-03T19:27:05.546Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,47 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5495",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Wd2Ej-hwZEaZVZD1ZqCbQLy6xIRjKUk4378MwiF23eZDfGIBn93emmE4E0htqYSZMaOCGHaMsRWwzKiPL2l-o2c2zy6t5mEZGLg3fEC-thO6O5-ye5_spgEndsz5mQHp_va0ewvh9Z5bXjejuPo81ppDNzGRSlzIOOYhe_9p5SX71uhKlKwEZRrwSZRg5DWxPQh79Bk8zbL5Jh3NHpVKsthwFOpyMYRgDeHlqQxkpgzPf8119cfh5RpPEne155o8rlfVDHGrQnXFPzd1ntpLf57_DgDRGn6HQurqVLPeUPDalFapVRHOXtPUrmHNWpzA0aYgl-vEdFVGI0co5k5_UQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/0b5b13c54b7eccd81be4f3a2.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>اسکنر زنجیره‌ای کانفیگ برای Google AI Studio، Gemini و Antigravity</b><br><a href=\"https://github.com/MatinSenPai/Gemini-Config-Checker\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Gemini-Config-Checker</a><br><br>\" دقت کنید قبل از استفاده از این ابزار، طبق این آموزش حتما باید ریجن اکانتتون رو تغییر بدید: <a href=\"https://t.me/MatinSenPaii/2881\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/2881</a> \"<br><br>کانفیگ‌های رایگان زیاد هست، ولی کدومشون واقعا Gemini و AI Studio رو برای جیمیل خودت باز می‌کنه؟<br>این ابزار هر کانفیگ رو همون‌طوری تست می‌کنه که یه آدم استفاده می‌کنه: با حساب Google واقعی خودت، توی مرورگر خودت، از مسیری که واقعاً ازش وصل می‌شی. چون Google ریجن رو فقط برای حساب واردشده و بعد از لود شدن صفحه تعیین می‌کنه، تست‌های ساده‌ی «پینگ و API» همیشه همه‌چیز رو سالم نشون می‌دن و دروغ می‌گن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> دو حالت ساده و پیشرفته برای انواع شرایط<br>• ساده: کانفیگ‌های خودت یا لیست کانفیگ‌های رایگان (لینک، ساب، base64) مستقیم و بدون زنجیره تست می‌شن<br>• پیشرفته: کانفیگ‌های رایگان از پشت کانفیگ پایه‌ی خودت تست می‌شن (تو ← کانفیگ پایه ← کانفیگ رایگان ← Google)<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> تست واقعی ریجن<br>• ورود با حساب Google کاملاً لوکال، با Chrome / Edge / Brave خودت؛ نشست فقط داخل حافظه‌ی برنامه می‌مونه، چیزی جایی ارسال نمی‌شه<br>• AI Studio و Gemini جدا بررسی می‌شن و می‌تونی انتخاب کنی «سالم» یعنی کدوم‌ها<br>• اول اتصال سنجیده می‌شه تا کانفیگ‌های مرده زود حذف بشن، بعد فقط بقیه به مرورگر می‌رسن<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> پروفایل ضد فیلتر<br>• Finalmask (fragment)، Fingerprint، ALPN، Cipher suites و IP تمیز<br>• مقدارها رو از خود کانفیگ یا لینک می‌خونه؛ کپی‌پیست کن و تمام<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> خروجی<br>• «کپی با Chain»: کانفیگ کامل و مستقل، آماده‌ی PattN / v2rayN و Xray استاندارد<br>• خروجی لینک، JSON، و ذخیره در فایل<br>• انتخاب کانفیگ‌ها، مرتب‌سازی بر اساس تأخیر، و چک‌کردن دوباره<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> همه‌جا اجرا می‌شه<br>• ویندوز، مک، لینوکس: اپ دسکتاپ و نسخه‌ی وب (برای سرور)<br>• اندروید (APK): فقط تست اتصال؛ اندروید اجازه نمی‌ده برنامه مرورگر رو کنترل کنه، پس بررسی ریجن واقعی رو روی کامپیوتر انجام بده<br>• رابط فارسی با تم تیره و روشن<br>• متن‌باز، با موتور Xray-core داخل خود برنامه<br><br> این پروژه، به لطف این پروژه‌ها و آدم‌ها ساخته شد (حتما اگر دوست داشتید استار بدید):<br><br><a href=\"https://github.com/patterniha\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">• patterniha: PattN / PattNG و مقدارهای ضد فیلتر (Finalmask)</a><br> <a href=\"https://github.com/0xRadikal/Free-v2ray-Configs\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">• 0xRadikal/Free-v2ray-Configs: لیست‌های کانفیگ رایگان</a> <br><a href=\"https://github.com/bia-pain-bache/BPB-Worker-Panel\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">• bia-pain-bache/BPB-Worker-Panel</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود و راهنمای کامل (فارسی و انگلیسی):<br><a href=\"https://github.com/MatinSenPai/Gemini-Config-Checker\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Gemini-Config-Checker</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "اسکنر زنجیره‌ای کانفیگ برای Google AI Studio، Gemini و Antigravity\nhttps://github.com/MatinSenPai/Gemini-Config-Checker\n\n\" دقت کنید قبل از استفاده از این ابزار، طبق این آموزش حتما باید ریجن اکانتتون رو تغییر بدید: https://t.me/MatinSenPaii/2881 \"\n\nکانفیگ‌های رایگان زیاد هست، ولی کدومشون واقعا Gemini و AI Studio رو برای جیمیل خودت باز می‌کنه؟\nاین ابزار هر کانفیگ رو همون‌طوری تست می‌کنه که یه آدم استفاده می‌کنه: با حساب Google واقعی خودت، توی مرورگر خودت، از مسیری که واقعاً ازش وصل می‌شی. چون Google ریجن رو فقط برای حساب واردشده و بعد از لود شدن صفحه تعیین می‌کنه، تست‌های ساده‌ی «پینگ و API» همیشه همه‌چیز رو سالم نشون می‌دن و دروغ می‌گن.\n\n🔹 دو حالت ساده و پیشرفته برای انواع شرایط\n• ساده: کانفیگ‌های خودت یا لیست کانفیگ‌های رایگان (لینک، ساب، base64) مستقیم و بدون زنجیره تست می‌شن\n• پیشرفته: کانفیگ‌های رایگان از پشت کانفیگ پایه‌ی خودت تست می‌شن (تو ← کانفیگ پایه ← کانفیگ رایگان ← Google)\n\n🔹 تست واقعی ریجن\n• ورود با حساب Google کاملاً لوکال، با Chrome / Edge / Brave خودت؛ نشست فقط داخل حافظه‌ی برنامه می‌مونه، چیزی جایی ارسال نمی‌شه\n• AI Studio و Gemini جدا بررسی می‌شن و می‌تونی انتخاب کنی «سالم» یعنی کدوم‌ها\n• اول اتصال سنجیده می‌شه تا کانفیگ‌های مرده زود حذف بشن، بعد فقط بقیه به مرورگر می‌رسن\n\n🔹 پروفایل ضد فیلتر\n• Finalmask (fragment)، Fingerprint، ALPN، Cipher suites و IP تمیز\n• مقدارها رو از خود کانفیگ یا لینک می‌خونه؛ کپی‌پیست کن و تمام\n\n🔹 خروجی\n• «کپی با Chain»: کانفیگ کامل و مستقل، آماده‌ی PattN / v2rayN و Xray استاندارد\n• خروجی لینک، JSON، و ذخیره در فایل\n• انتخاب کانفیگ‌ها، مرتب‌سازی بر اساس تأخیر، و چک‌کردن دوباره\n\n🔹 همه‌جا اجرا می‌شه\n• ویندوز، مک، لینوکس: اپ دسکتاپ و نسخه‌ی وب (برای سرور)\n• اندروید (APK): فقط تست اتصال؛ اندروید اجازه نمی‌ده برنامه مرورگر رو کنترل کنه، پس بررسی ریجن واقعی رو روی کامپیوتر انجام بده\n• رابط فارسی با تم تیره و روشن\n• متن‌باز، با موتور Xray-core داخل خود برنامه\n\nاین پروژه، به لطف این پروژه‌ها و آدم‌ها ساخته شد (حتما اگر دوست داشتید استار بدید):\n\n• patterniha: PattN / PattNG و مقدارهای ضد فیلتر (Finalmask)\n• 0xRadikal/Free-v2ray-Configs: لیست‌های کانفیگ رایگان\n• bia-pain-bache/BPB-Worker-Panel\n\n📥 دانلود و راهنمای کامل (فارسی و انگلیسی):\nhttps://github.com/MatinSenPai/Gemini-Config-Checker\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5495",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Cfp2UmGrBrEzae8qNAviwDQ0w_1UJepJS6eF25N4vsArGogeAv1301aYInj53SgXaenyP4wulXp6JJkls-ZSshDW3CVcRV3fIQzazv4Sv0Qdvn52yk60hhz9KREB392_net4eVIX6zuyS5kaFqAuhVOfwOExI83OMYdHbnXbC-UMfQFVYj8SJv4j2jPcYZ3zi0UxJ5RnkYKwBHrDzEK2AAJelbE4xyTXq_vzpLfexY-SIDWQntWVFPtOF1gIqQUZGo0czpY5w-v0d6H_tI28xp0W9RjYtEi0p2Vl77--Q5W5TO5b8RQJUnTKNi_vwLsQUXCVS4ACVzfiqW7LG77a4w.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/9ec44ad50892f38b94aa0840.jpg",
+          "thumbnail_sha256": "8e128a0895b0061a2b3478599707855dcecfd1e452efe5f87519ade26de258a5",
+          "duration_label": null,
+          "aspect_ratio": 2
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "11"
+        },
+        {
+          "emoji": "❤",
+          "count": "10"
+        },
+        {
+          "emoji": "🦄",
+          "count": "3"
+        }
+      ],
+      "views_label": "950",
+      "posted_at": "2026-10-03T19:25:08+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5495",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5494",
       "author_name": "Matin SenPai",
@@ -23,11 +64,11 @@
       "reactions": [
         {
           "emoji": "⭐",
-          "count": "1"
+          "count": "2"
         },
         {
           "emoji": "❤",
-          "count": "69"
+          "count": "79"
         },
         {
           "emoji": "👍",
@@ -46,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.92K",
+      "views_label": "5.8K",
       "posted_at": "2026-10-03T19:03:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5494",
@@ -85,11 +126,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "274"
+          "count": "287"
         },
         {
           "emoji": "👍",
-          "count": "27"
+          "count": "28"
         },
         {
           "emoji": "❤",
@@ -97,7 +138,7 @@
         },
         {
           "emoji": "💯",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "💔",
@@ -108,7 +149,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.27K",
+      "views_label": "7.75K",
       "posted_at": "2026-10-03T18:45:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5493",
@@ -142,7 +183,7 @@
         },
         {
           "emoji": "❤",
-          "count": "119"
+          "count": "120"
         },
         {
           "emoji": "👍",
@@ -157,7 +198,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.5K",
       "posted_at": "2026-10-03T16:21:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5492",
@@ -191,7 +232,7 @@
         },
         {
           "emoji": "❤",
-          "count": "215"
+          "count": "216"
         },
         {
           "emoji": "🆒",
@@ -210,7 +251,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.9K",
+      "views_label": "16.2K",
       "posted_at": "2026-10-03T15:41:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5491",
@@ -268,7 +309,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.3K",
+      "views_label": "15.4K",
       "posted_at": "2026-10-03T14:50:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5490",
@@ -328,7 +369,7 @@
           "count": "4"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.9K",
       "posted_at": "2026-10-03T12:48:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5488",
@@ -390,7 +431,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.9K",
+      "views_label": "21K",
       "posted_at": "2026-10-03T11:08:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5487",
@@ -562,7 +603,7 @@
           "count": "4"
         }
       ],
-      "views_label": "19.6K",
+      "views_label": "19.7K",
       "posted_at": "2026-10-03T07:18:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5483",
@@ -615,7 +656,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "23.8K",
       "posted_at": "2026-10-03T06:25:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5482",
@@ -824,7 +865,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.8K",
+      "views_label": "26.9K",
       "posted_at": "2026-10-02T14:25:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5477",
@@ -886,7 +927,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-10-02T12:40:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5476",
@@ -915,7 +956,7 @@
           "count": "6"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "23.8K",
       "posted_at": "2026-10-02T09:48:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5475",
@@ -4527,59 +4568,6 @@
       "posted_at": "2026-09-27T03:55:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5383",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5382",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/LwlM1CKz1pbO6rPiW6KUfoSh0t8Hp4f7RSR212ONpZGWlaxybiADK5IFzIQxwhcUKsaPiTZ4Wu83NVSGO2O8iRZIKDhAVdDT9Ni-esKw4iMOHfqHpSgLWg4BHBLiSM3ivPWlZtdbzClm2LLTItHLw0WNbrSmwzDfHgWzS2CERAcfy6vdAgdgA4iIqQGv6SAD_3znhp27eAS5ImVVYFpAR8kbgfvVOjBu1Ojac61ur87U51BMq8DHRWnEIDzvs1OGNAnG2jcIScCxuYdmnXdTJH9W0NNdIuXxUjjwvMGiXpOHW1Lq1Bi2ktzRQDMdZMI5Oa-tqpLNKvW0yx31eGwwpQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/907ab05308ac8eecfee588a9.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "این خبر فیک هست دوستان.<br>گوگل یهو ایران رو تحریم نکرد. سالهاست ما تحریمیم<br><br><s>گوگل امروز صرفا ۶۰ تا اکانت مرتبط با صداوسیما رو به دلیل فعالیت‌های فیشینگ سیاسی و پنهان کردن هویت مسدود کرده</s><br>این خبر هم اشتباهه<br><br>می‌تونید ایمیل بسازید همین الان با گوشیتون و نگران نباشید",
-      "plain_text": "این خبر فیک هست دوستان.\nگوگل یهو ایران رو تحریم نکرد. سالهاست ما تحریمیم\n\nگوگل امروز صرفا ۶۰ تا اکانت مرتبط با صداوسیما رو به دلیل فعالیت‌های فیشینگ سیاسی و پنهان کردن هویت مسدود کرده\nاین خبر هم اشتباهه\n\nمی‌تونید ایمیل بسازید همین الان با گوشیتون و نگران نباشید",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5382",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/YCdde2Ia6XvCfjGUgPOXvybKiHWz5HhOCbbj6RJaBFQ6hH6Rrs0BRZJRsow05ROwe2izgYTQXJeLoooisaWo2kNOfr5LZAbTuCIYJkiFpHX6TODxnyE772FJg_1r7MFjnJoA3AnUm7ue74I7pSfeSn2uQsIOZ64mM1ar63xSLXxbjuBxT5WUI6vPorkUa9VajvZ6MUOsJo3iPmDfQRJMBAVtlqFEeKUJzbW2HmH2bHDrHvNYjQ_gdm4PYx1uTyzu9oSeKPUOPOf27oE8oDl3ovvWDjLXrzovUr5JPJxj25gQWIGwUY1l-2-in0HfZtI7HYyZl_iPlIxM3i8Iof3mzw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/938f488d2d356f489f99a16e.jpg",
-          "thumbnail_sha256": "eaadc857d026e66cbd5d01630b1ea1a2c6c7b62d5a5eb66040a538c0275e742f",
-          "duration_label": null,
-          "aspect_ratio": 0.9924670433145251
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "758"
-        },
-        {
-          "emoji": "👍",
-          "count": "188"
-        },
-        {
-          "emoji": "😁",
-          "count": "18"
-        },
-        {
-          "emoji": "💔",
-          "count": "15"
-        },
-        {
-          "emoji": "🆒",
-          "count": "6"
-        },
-        {
-          "emoji": "🦄",
-          "count": "6"
-        }
-      ],
-      "views_label": "47.1K",
-      "posted_at": "2026-09-26T21:18:13+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/5382",
       "reply": null
     }
   ]
