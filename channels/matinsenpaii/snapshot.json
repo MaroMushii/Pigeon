@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-04T09:57:08.260Z",
+  "fetched_at": "2026-10-04T10:02:06.740Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5500",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Wd2Ej-hwZEaZVZD1ZqCbQLy6xIRjKUk4378MwiF23eZDfGIBn93emmE4E0htqYSZMaOCGHaMsRWwzKiPL2l-o2c2zy6t5mEZGLg3fEC-thO6O5-ye5_spgEndsz5mQHp_va0ewvh9Z5bXjejuPo81ppDNzGRSlzIOOYhe_9p5SX71uhKlKwEZRrwSZRg5DWxPQh79Bk8zbL5Jh3NHpVKsthwFOpyMYRgDeHlqQxkpgzPf8119cfh5RpPEne155o8rlfVDHGrQnXFPzd1ntpLf57_DgDRGn6HQurqVLPeUPDalFapVRHOXtPUrmHNWpzA0aYgl-vEdFVGI0co5k5_UQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/0b5b13c54b7eccd81be4f3a2.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>نسخه 0.8.0 از Aether-GUI منتشر شد</b><b><tg-emoji emoji-id=\"5472235990955334730\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i></tg-emoji></b><br><br>- آپدیت هسته‌ی Aether به آخرین نسخه<br>- اضافه شدن شبکه‌های Psiphon و Tor<br>- اضافه شدن MASQUE-in-MASQUE<br>- افزوده شدن HTTP proxy، upstream proxy و exit-country<br><br><tg-emoji emoji-id=\"5294334197832362643\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F90B1.png')\"><b>🐱</b></i></tg-emoji> دانلود از گیتهاب: <a href=\"https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.8.0\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.8.0</a>",
+      "plain_text": "نسخه 0.8.0 از Aether-GUI منتشر شد👋\n\n- آپدیت هسته‌ی Aether به آخرین نسخه\n- اضافه شدن شبکه‌های Psiphon و Tor\n- اضافه شدن MASQUE-in-MASQUE\n- افزوده شدن HTTP proxy، upstream proxy و exit-country\n\n🐱 دانلود از گیتهاب: https://github.com/MatinSenPai/Aether-GUI/releases/tag/v0.8.0",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5500",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/FwVqWoJ5uOZzp5J5tfCZLV699dXQc2xQ6m-iRRmllo9NxJ5wDybX0fAjFAI14NTGQnnia8_CYtKIzEd5xoR13zM6625xUgjNAfPqyxbp5qP_VJZXVd76_f6r0zGrK0qym1YiqgHRJCLjyfJb2UaU43-sQDU4kEc1HuzQDYYuVn3iXvSoCUvVJpru2IW62Ay2uxgYVl8xu4GN7ex1leRI0vqFSlcZ1RvZnx75j-mI8byFTUuL7_dN7nY9nTYFmQTAR_dVxZBuqHqxd8I5MwgnvSwI28iz-wdKMDlXobdwLoy9SjnWakcaXwgd9oFi2xepBok6hmGrKshlpDoIuxbgzw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/b07fb8c3b7d6a1b22a8269b7.jpg",
+          "thumbnail_sha256": "85f071676d766b2fc4812bce3a1964692299fa57f9747eb6e97723115d977a03",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "🆒",
+          "count": "2"
+        }
+      ],
+      "views_label": "64",
+      "posted_at": "2026-10-04T10:01:55+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5500",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5499",
       "author_name": "Matin SenPai",
@@ -35,14 +68,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "4"
+          "count": "14"
         },
         {
           "emoji": "👍",
           "count": "2"
         }
       ],
-      "views_label": "698",
+      "views_label": "2.23K",
       "posted_at": "2026-10-04T09:55:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5499",
@@ -76,11 +109,11 @@
         },
         {
           "emoji": "❤",
-          "count": "131"
+          "count": "137"
         },
         {
           "emoji": "💯",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👍",
@@ -88,14 +121,14 @@
         },
         {
           "emoji": "💔",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "🦄",
           "count": "2"
         }
       ],
-      "views_label": "6.79K",
+      "views_label": "7.64K",
       "posted_at": "2026-10-04T09:01:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5498",
@@ -129,7 +162,7 @@
         },
         {
           "emoji": "👍",
-          "count": "66"
+          "count": "67"
         },
         {
           "emoji": "❤",
@@ -140,7 +173,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.2K",
+      "views_label": "10.7K",
       "posted_at": "2026-10-04T08:16:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5497",
@@ -173,7 +206,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.1K",
+      "views_label": "19.3K",
       "posted_at": "2026-10-03T20:05:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5496",
@@ -216,11 +249,11 @@
         },
         {
           "emoji": "❤",
-          "count": "203"
+          "count": "204"
         },
         {
           "emoji": "👍",
-          "count": "18"
+          "count": "19"
         },
         {
           "emoji": "🦄",
@@ -235,7 +268,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "24.9K",
       "posted_at": "2026-10-03T19:25:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5495",
@@ -257,7 +290,7 @@
         },
         {
           "emoji": "❤",
-          "count": "148"
+          "count": "149"
         },
         {
           "emoji": "👍",
@@ -265,7 +298,7 @@
         },
         {
           "emoji": "😁",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "💯",
@@ -276,7 +309,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19K",
+      "views_label": "19.2K",
       "posted_at": "2026-10-03T19:03:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5494",
@@ -315,7 +348,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "516"
+          "count": "517"
         },
         {
           "emoji": "👍",
@@ -338,7 +371,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.7K",
+      "views_label": "18.8K",
       "posted_at": "2026-10-03T18:45:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5493",
@@ -391,7 +424,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22K",
+      "views_label": "22.2K",
       "posted_at": "2026-10-03T16:21:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5492",
@@ -448,7 +481,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22K",
+      "views_label": "22.1K",
       "posted_at": "2026-10-03T15:41:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5491",
@@ -487,7 +520,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "158"
+          "count": "159"
         },
         {
           "emoji": "❤",
@@ -566,7 +599,7 @@
           "count": "4"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-10-03T12:48:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5488",
@@ -853,7 +886,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.8K",
+      "views_label": "25.9K",
       "posted_at": "2026-10-03T06:25:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5482",
@@ -910,7 +943,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.6K",
+      "views_label": "28.7K",
       "posted_at": "2026-10-02T15:22:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5481",
@@ -960,7 +993,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "312"
+          "count": "313"
         },
         {
           "emoji": "❤",
@@ -4527,51 +4560,6 @@
       "posted_at": "2026-09-27T12:07:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5388",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5387",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/E2K-c0os9-UHJpv4ynaJUeSZ36tCo_BzDR_FNVfkgyJR_psJr8o3ldBo5ZGZ6fNV5gtzY_EOrY0v5COI0qDUnnKwPeMlP9lreuHlNmO1Yl3BaSIDTgNX5TG1WosxzbSY1kDTPcuTjWOKRlnbMPqW0M-LFv-yh5WFxX_yXuJhRLHj2xw_WSjJseGnHZSwWGw6NpzgWFxtESQU7xxfQMrSmAJoBv3GMZ4smhPgXEcanys843W4j7I62D7ADNn8ydEiUKbnAnKStbr8FtBIJLCuFJgCq0auv9zfNOTDg5GKGK3pdx2dq5cYcg2eh3XYY9_wLQtOwVvUFyaBorMK8xpQWA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/d1f749370dc90c58e9c0bbb2.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "چرا حس می‌کنیم هر مدل جدیدی که میاد، انقدر از مدل‌های قدیمی قدرتمندتره؟<br>باید بگم که این بیشتر از منطقی بودن، «کلک» شرکت‌هاست برای مارکتینگ<br><br>اگه یادتون باشه، 2 هفته پیش همه‌ی این بنچمارک‌ها(خصوصا سه بعدی) جوری از GPT Astra تعریف می‌کردن و چیزای خفن می‌ساختن که انگار خدای همه‌ی مدل‌هاست.<br>بعد که Claude Opus 5.5 اومد، خروجی‌هاش رو جوری نشون دادن انگار اون مقابلش پیامبره.<br>حالا این قضیه برای هر دوی اونا در مورد Gemini 4 Pro داره تکرار می‌شه<br><br>به این کار اکانت‌های بنچمارک و Ai Enthusiast ، قضیه‌ی Strawman Fallacy می‌گن. یعنی مغالطه‌ی آدمکِ پوشالی<br><br>توی فلسفه، Strawman fallacy یعنی از رقیب قدرتمندت، یه فرض پوشالی بسازی جلوی مخاطب، شکستش بدی، و بعد خودت رو پیروز جلوه بدی<br><br>هم خود کمپانی‌ها، هزینه می‌کنن که اکانت‌های توییتری/ردیتی این کار رو انجام بدن؛ هم خود آدما خیلی وقتا این کارو سر هایپ و ... انجام می‌دن.<br>چه شکلی انجام می‌شه؟<br><br>1- مدل رقیب با پرامپت ساده یا بد تست می‌شه، ولی مدل خودشون با پرامپت بهینه‌شده.<br>2- قابلیت‌های رقیب مثل reasoning، ابزارها یا context بلند خاموش می‌شه.<br>3- هایپرپارامترهای رقیب به درستی تنظیم نمی‌شه ولی مال خودشون با دقت tune می‌شه.<br><br>این شکلیه که می‌گم هیچوقت به بنچمارک‌های این شکلی توییتری، نمی‌شه اعتماد کرد.<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "چرا حس می‌کنیم هر مدل جدیدی که میاد، انقدر از مدل‌های قدیمی قدرتمندتره؟\nباید بگم که این بیشتر از منطقی بودن، «کلک» شرکت‌هاست برای مارکتینگ\n\nاگه یادتون باشه، 2 هفته پیش همه‌ی این بنچمارک‌ها(خصوصا سه بعدی) جوری از GPT Astra تعریف می‌کردن و چیزای خفن می‌ساختن که انگار خدای همه‌ی مدل‌هاست.\nبعد که Claude Opus 5.5 اومد، خروجی‌هاش رو جوری نشون دادن انگار اون مقابلش پیامبره.\nحالا این قضیه برای هر دوی اونا در مورد Gemini 4 Pro داره تکرار می‌شه\n\nبه این کار اکانت‌های بنچمارک و Ai Enthusiast ، قضیه‌ی Strawman Fallacy می‌گن. یعنی مغالطه‌ی آدمکِ پوشالی\n\nتوی فلسفه، Strawman fallacy یعنی از رقیب قدرتمندت، یه فرض پوشالی بسازی جلوی مخاطب، شکستش بدی، و بعد خودت رو پیروز جلوه بدی\n\nهم خود کمپانی‌ها، هزینه می‌کنن که اکانت‌های توییتری/ردیتی این کار رو انجام بدن؛ هم خود آدما خیلی وقتا این کارو سر هایپ و ... انجام می‌دن.\nچه شکلی انجام می‌شه؟\n\n1- مدل رقیب با پرامپت ساده یا بد تست می‌شه، ولی مدل خودشون با پرامپت بهینه‌شده.\n2- قابلیت‌های رقیب مثل reasoning، ابزارها یا context بلند خاموش می‌شه.\n3- هایپرپارامترهای رقیب به درستی تنظیم نمی‌شه ولی مال خودشون با دقت tune می‌شه.\n\nاین شکلیه که می‌گم هیچوقت به بنچمارک‌های این شکلی توییتری، نمی‌شه اعتماد کرد.\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5387",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/kUsBrATmuhsnDikJvOyEfUu6De_TUDynRV-MuAAoqPcQK2GaFOh3unMmC89Ln6RrK1eHr0XOYE9be74pnhnySKT7MbPZPfM89HD-7wx-zwr_goRt4kJKfv4u-UeeE0ntMS3PrGLapOHP1DDfxeKGIFsa_q7Komp8I7a4xBXZScm14c-ck5q0Gm8yGHZgwaUZD77bHmFwdM4vF0CnNi_zQLmGLYxofHLA9mVKhnVC2DtdgVF4fAbxMWJIiABEeCO1esxpPlgLoX1Gd9YJODMgUMgI5IsmoIUvc9gpVu7wgHXs4KssADPbqAV-IQQpvKNwPt5lqIJkO-yu5wpl8GpFhA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/b9d3215d7e04ce1719fc8813.jpg",
-          "thumbnail_sha256": "0fee956df8d6b4c27c1f04813765809e3aad7806016d6d876b184cc3f7cd214e",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "248"
-        },
-        {
-          "emoji": "👍",
-          "count": "103"
-        },
-        {
-          "emoji": "😁",
-          "count": "18"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        }
-      ],
-      "views_label": "28.5K",
-      "posted_at": "2026-09-27T10:50:57+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5387",
       "reply": null
     }
   ]
