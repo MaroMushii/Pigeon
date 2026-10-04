@@ -1,12 +1,12 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-04T01:27:12.343Z",
+  "fetched_at": "2026-10-04T01:32:18.464Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
     "description_html": "گروه : <br><a href=\"http://t.me/whitedns_group\" target=\"_blank\" rel=\"noopener\">t.me/whitedns_group</a><br><br>ادمين :<br><a href=\"https://t.me/WhiteDnsChatBot\" target=\"_blank\">@WhiteDnsChatBot</a>",
-    "photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-    "photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+    "photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+    "photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
     "photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
     "subscriber_count": "107K"
   },
@@ -14,8 +14,8 @@
     {
       "id": "whitedns/1915",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<a href=\"https://github.com/patterniha/PattNG\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">PattNG v2.3.10-P59</a><br><br>منتشر شد.<br><br><b>امکانات اضافه شده</b>:<br><br>۱. مقادیر متد فرگمنت+فینگرپرینت اکنون به صورت آپشن تو خود اپ اضافه شده، بنابراین برای اجرای متد فرگمنت+فینگرپرینت کافیست:<br><br>address: <code>188.114.97.6</code> (or any clean ip)<br>finalMask: tlshello-0-len<br>fingerprint: unsafe<br>cipherSuites: semi-python<br><br>را انتخاب کنید، و دیگر نیاز به کپی پیست ندارید.<br><br>برای اجرای این متد روی کانفیگ‌های اتر نیز کافیست:<br><br>finalMask: tlshello-0-len<br>fingerprint: semi-python<br><br>را قرار دهید.<br><br>۲. اکنون امکان chain کردن کانفیگ‌های psiphon/tor/warp با هر کانفیگ دلخواهی به صورت <b>دو طرفه</b> برقرار شده.<br><br>به طور مثال برای chain کردن سایفون با یک کانفیگ دلخواه ابتدا باید یک کانفیگ psiphon-only بسازید و سپس از قسمت Add Proxy chain میتوانید آن را با هر کانفیگ دلخواهی به صورت <b>دو طرفه</b> chain کنید.<br><br>همچنان برای chain کردن سایفون با خود warp باید از همان منوی aether اقدام کنید (warp -&gt; psiphon/psiphon -&gt; warp)<br><br>۳. با توجه به فیلتر شدن دامنه دریافت کلید وارپ، اکنون میتوانید از طریق متد فرگمنت+فینگرپرینت (finalMask+semi-python) و یا حتی ech این محدودیت را دور بزنید و بدون نیاز به فیلترشکن مجزا کلید وارپ را دریافت کنید.<br><br>۴. به طور مشابه با توجه به فیلتر شدن دامنه masque-h2, اکنون میتوانید از طریق متد فرگمنت+فینگرپرینت (finalMask+semi-python) این محدودیت را دور بزنید و به پروتکل masque-h2 نیز متصل شوید.<br><br><br><b>امیدوارم حمایت فراموش نشه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F998F.png')\"><b>🙏</b></i></b>",
       "plain_text": "PattNG v2.3.10-P59\n\nمنتشر شد.\n\nامکانات اضافه شده:\n\n۱. مقادیر متد فرگمنت+فینگرپرینت اکنون به صورت آپشن تو خود اپ اضافه شده، بنابراین برای اجرای متد فرگمنت+فینگرپرینت کافیست:\n\naddress: 188.114.97.6 (or any clean ip)\nfinalMask: tlshello-0-len\nfingerprint: unsafe\ncipherSuites: semi-python\n\nرا انتخاب کنید، و دیگر نیاز به کپی پیست ندارید.\n\nبرای اجرای این متد روی کانفیگ‌های اتر نیز کافیست:\n\nfinalMask: tlshello-0-len\nfingerprint: semi-python\n\nرا قرار دهید.\n\n۲. اکنون امکان chain کردن کانفیگ‌های psiphon/tor/warp با هر کانفیگ دلخواهی به صورت دو طرفه برقرار شده.\n\nبه طور مثال برای chain کردن سایفون با یک کانفیگ دلخواه ابتدا باید یک کانفیگ psiphon-only بسازید و سپس از قسمت Add Proxy chain میتوانید آن را با هر کانفیگ دلخواهی به صورت دو طرفه chain کنید.\n\nهمچنان برای chain کردن سایفون با خود warp باید از همان منوی aether اقدام کنید (warp -> psiphon/psiphon -> warp)\n\n۳. با توجه به فیلتر شدن دامنه دریافت کلید وارپ، اکنون میتوانید از طریق متد فرگمنت+فینگرپرینت (finalMask+semi-python) و یا حتی ech این محدودیت را دور بزنید و بدون نیاز به فیلترشکن مجزا کلید وارپ را دریافت کنید.\n\n۴. به طور مشابه با توجه به فیلتر شدن دامنه masque-h2, اکنون میتوانید از طریق متد فرگمنت+فینگرپرینت (finalMask+semi-python) این محدودیت را دور بزنید و به پروتکل masque-h2 نیز متصل شوید.\n\n\nامیدوارم حمایت فراموش نشه 🙏",
@@ -23,7 +23,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "❤",
@@ -34,7 +34,7 @@
           "count": "1"
         }
       ],
-      "views_label": "247",
+      "views_label": "311",
       "posted_at": "2026-10-04T01:00:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1915",
@@ -43,8 +43,8 @@
     {
       "id": "whitedns/1914",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<b>اسکنر زنجیره‌ای کانفیگ برای Google AI Studio، Gemini و Antigravity</b><br><a href=\"https://github.com/MatinSenPai/Gemini-Config-Checker\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Gemini-Config-Checker</a><br><br>\" دقت کنید قبل از استفاده از این ابزار، طبق این آموزش حتما باید ریجن اکانتتون رو تغییر بدید: <a href=\"https://t.me/MatinSenPaii/2881\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/2881</a> \"<br><br>کانفیگ‌های رایگان زیاد هست، ولی کدومشون واقعا Gemini و AI Studio رو برای جیمیل خودت باز می‌کنه؟<br>این ابزار هر کانفیگ رو همون‌طوری تست می‌کنه که یه آدم استفاده می‌کنه: با حساب Google واقعی خودت، توی مرورگر خودت، از مسیری که واقعاً ازش وصل می‌شی. چون Google ریجن رو فقط برای حساب واردشده و بعد از لود شدن صفحه تعیین می‌کنه، تست‌های ساده‌ی «پینگ و API» همیشه همه‌چیز رو سالم نشون می‌دن و دروغ می‌گن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> دو حالت ساده و پیشرفته برای انواع شرایط<br>• ساده: کانفیگ‌های خودت یا لیست کانفیگ‌های رایگان (لینک، ساب، base64) مستقیم و بدون زنجیره تست می‌شن<br>• پیشرفته: کانفیگ‌های رایگان از پشت کانفیگ پایه‌ی خودت تست می‌شن (تو ← کانفیگ پایه ← کانفیگ رایگان ← Google)<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> تست واقعی ریجن<br>• ورود با حساب Google کاملاً لوکال، با Chrome / Edge / Brave خودت؛ نشست فقط داخل حافظه‌ی برنامه می‌مونه، چیزی جایی ارسال نمی‌شه<br>• AI Studio و Gemini جدا بررسی می‌شن و می‌تونی انتخاب کنی «سالم» یعنی کدوم‌ها<br>• اول اتصال سنجیده می‌شه تا کانفیگ‌های مرده زود حذف بشن، بعد فقط بقیه به مرورگر می‌رسن<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> پروفایل ضد فیلتر<br>• Finalmask (fragment)، Fingerprint، ALPN، Cipher suites و IP تمیز<br>• مقدارها رو از خود کانفیگ یا لینک می‌خونه؛ کپی‌پیست کن و تمام<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> خروجی<br>• «کپی با Chain»: کانفیگ کامل و مستقل، آماده‌ی PattN / v2rayN و Xray استاندارد<br>• خروجی لینک، JSON، و ذخیره در فایل<br>• انتخاب کانفیگ‌ها، مرتب‌سازی بر اساس تأخیر، و چک‌کردن دوباره<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> همه‌جا اجرا می‌شه<br>• ویندوز، مک، لینوکس: اپ دسکتاپ و نسخه‌ی وب (برای سرور)<br>• اندروید (APK): فقط تست اتصال؛ اندروید اجازه نمی‌ده برنامه مرورگر رو کنترل کنه، پس بررسی ریجن واقعی رو روی کامپیوتر انجام بده<br>• رابط فارسی با تم تیره و روشن<br>• متن‌باز، با موتور Xray-core داخل خود برنامه<br><br> این پروژه، به لطف این پروژه‌ها و آدم‌ها ساخته شد (حتما اگر دوست داشتید استار بدید):<br><br><a href=\"https://github.com/patterniha\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">• patterniha: PattN / PattNG و مقدارهای ضد فیلتر (Finalmask)</a><br> <a href=\"https://github.com/0xRadikal/Free-v2ray-Configs\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">• 0xRadikal/Free-v2ray-Configs: لیست‌های کانفیگ رایگان</a> <br><a href=\"https://github.com/bia-pain-bache/BPB-Worker-Panel\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">• bia-pain-bache/BPB-Worker-Panel</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود و راهنمای کامل (فارسی و انگلیسی):<br><a href=\"https://github.com/MatinSenPai/Gemini-Config-Checker\" target=\"_blank\" rel=\"noopener\">https://github.com/MatinSenPai/Gemini-Config-Checker</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
       "plain_text": "اسکنر زنجیره‌ای کانفیگ برای Google AI Studio، Gemini و Antigravity\nhttps://github.com/MatinSenPai/Gemini-Config-Checker\n\n\" دقت کنید قبل از استفاده از این ابزار، طبق این آموزش حتما باید ریجن اکانتتون رو تغییر بدید: https://t.me/MatinSenPaii/2881 \"\n\nکانفیگ‌های رایگان زیاد هست، ولی کدومشون واقعا Gemini و AI Studio رو برای جیمیل خودت باز می‌کنه؟\nاین ابزار هر کانفیگ رو همون‌طوری تست می‌کنه که یه آدم استفاده می‌کنه: با حساب Google واقعی خودت، توی مرورگر خودت، از مسیری که واقعاً ازش وصل می‌شی. چون Google ریجن رو فقط برای حساب واردشده و بعد از لود شدن صفحه تعیین می‌کنه، تست‌های ساده‌ی «پینگ و API» همیشه همه‌چیز رو سالم نشون می‌دن و دروغ می‌گن.\n\n🔹 دو حالت ساده و پیشرفته برای انواع شرایط\n• ساده: کانفیگ‌های خودت یا لیست کانفیگ‌های رایگان (لینک، ساب، base64) مستقیم و بدون زنجیره تست می‌شن\n• پیشرفته: کانفیگ‌های رایگان از پشت کانفیگ پایه‌ی خودت تست می‌شن (تو ← کانفیگ پایه ← کانفیگ رایگان ← Google)\n\n🔹 تست واقعی ریجن\n• ورود با حساب Google کاملاً لوکال، با Chrome / Edge / Brave خودت؛ نشست فقط داخل حافظه‌ی برنامه می‌مونه، چیزی جایی ارسال نمی‌شه\n• AI Studio و Gemini جدا بررسی می‌شن و می‌تونی انتخاب کنی «سالم» یعنی کدوم‌ها\n• اول اتصال سنجیده می‌شه تا کانفیگ‌های مرده زود حذف بشن، بعد فقط بقیه به مرورگر می‌رسن\n\n🔹 پروفایل ضد فیلتر\n• Finalmask (fragment)، Fingerprint، ALPN، Cipher suites و IP تمیز\n• مقدارها رو از خود کانفیگ یا لینک می‌خونه؛ کپی‌پیست کن و تمام\n\n🔹 خروجی\n• «کپی با Chain»: کانفیگ کامل و مستقل، آماده‌ی PattN / v2rayN و Xray استاندارد\n• خروجی لینک، JSON، و ذخیره در فایل\n• انتخاب کانفیگ‌ها، مرتب‌سازی بر اساس تأخیر، و چک‌کردن دوباره\n\n🔹 همه‌جا اجرا می‌شه\n• ویندوز، مک، لینوکس: اپ دسکتاپ و نسخه‌ی وب (برای سرور)\n• اندروید (APK): فقط تست اتصال؛ اندروید اجازه نمی‌ده برنامه مرورگر رو کنترل کنه، پس بررسی ریجن واقعی رو روی کامپیوتر انجام بده\n• رابط فارسی با تم تیره و روشن\n• متن‌باز، با موتور Xray-core داخل خود برنامه\n\nاین پروژه، به لطف این پروژه‌ها و آدم‌ها ساخته شد (حتما اگر دوست داشتید استار بدید):\n\n• patterniha: PattN / PattNG و مقدارهای ضد فیلتر (Finalmask)\n• 0xRadikal/Free-v2ray-Configs: لیست‌های کانفیگ رایگان\n• bia-pain-bache/BPB-Worker-Panel\n\n📥 دانلود و راهنمای کامل (فارسی و انگلیسی):\nhttps://github.com/MatinSenPai/Gemini-Config-Checker\n\n✉️ t.me/MatinSenPaii",
@@ -64,7 +64,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "18"
+          "count": "19"
         },
         {
           "emoji": "❤",
@@ -83,7 +83,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.62K",
+      "views_label": "1.66K",
       "posted_at": "2026-10-03T22:01:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1914",
@@ -92,8 +92,8 @@
     {
       "id": "whitedns/1913",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9186.png')\"><b>👆</b></i>این کانفیگ ها را هم برای amneziawg روی آپ whitevpn امتحان کنید <br>یکی از دوستان خوب زحمت کشیدند این کانفیگ ها را بازنویسی کردند <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i>",
       "plain_text": "👆این کانفیگ ها را هم برای amneziawg روی آپ whitevpn امتحان کنید\nیکی از دوستان خوب زحمت کشیدند این کانفیگ ها را بازنویسی کردند\n❤️",
@@ -120,7 +120,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.08K",
+      "views_label": "7.12K",
       "posted_at": "2026-10-03T16:24:38+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1913",
@@ -129,8 +129,8 @@
     {
       "id": "whitedns/1908",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -158,8 +158,8 @@
     {
       "id": "whitedns/1907",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "دوستان عزیز:<br><br>به جز خود سرورهای whitevpn , الان ۶ موتور اضافه شده است که هر کدوم روی یک نوع اپراتور و یا منطقه کار میده <br><br>شما باید خودتون موردی که الان کار میده را پیدا کنید . <br><br>فیلترینگ مثل سالهای گذشته یک الگوی ثابت نداره و نمیشه یک نوع خاص از فیلترشکن را به شما داد که روی همه چیز کار کنه <br><br>ارادتمند <br>تیم وایت <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i>",
       "plain_text": "دوستان عزیز:\n\nبه جز خود سرورهای whitevpn , الان ۶ موتور اضافه شده است که هر کدوم روی یک نوع اپراتور و یا منطقه کار میده\n\nشما باید خودتون موردی که الان کار میده را پیدا کنید .\n\nفیلترینگ مثل سالهای گذشته یک الگوی ثابت نداره و نمیشه یک نوع خاص از فیلترشکن را به شما داد که روی همه چیز کار کنه\n\nارادتمند\nتیم وایت ❤️",
@@ -167,7 +167,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "170"
+          "count": "171"
         },
         {
           "emoji": "👍",
@@ -195,8 +195,8 @@
     {
       "id": "whitedns/1906",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -204,7 +204,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "60"
+          "count": "61"
         },
         {
           "emoji": "👎",
@@ -220,8 +220,8 @@
     {
       "id": "whitedns/1905",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -229,14 +229,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "60"
+          "count": "61"
         },
         {
           "emoji": "👎",
           "count": "4"
         }
       ],
-      "views_label": "7.45K",
+      "views_label": "7.48K",
       "posted_at": "2026-10-03T15:40:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1905",
@@ -245,8 +245,8 @@
     {
       "id": "whitedns/1904",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -254,7 +254,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "63"
+          "count": "64"
         },
         {
           "emoji": "👎",
@@ -270,8 +270,8 @@
     {
       "id": "whitedns/1903",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -279,7 +279,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "46"
+          "count": "47"
         },
         {
           "emoji": "😢",
@@ -299,8 +299,8 @@
     {
       "id": "whitedns/1902",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "",
       "plain_text": "",
@@ -308,7 +308,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "82"
+          "count": "83"
         },
         {
           "emoji": "❤‍🔥",
@@ -332,8 +332,8 @@
     {
       "id": "whitedns/1901",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "برای دسترسی به امکانات جدید نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 میتونید با مراجعه به تب \"پروفایل\" - \"افزودن\" آنها را مشاهده کنید<br><a href=\"https://t.me/whitevpn\" target=\"_blank\">@whitevpn</a>",
       "plain_text": "برای دسترسی به امکانات جدید نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 میتونید با مراجعه به تب \"پروفایل\" - \"افزودن\" آنها را مشاهده کنید\n@whitevpn",
@@ -353,7 +353,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "87"
+          "count": "88"
         },
         {
           "emoji": "❤‍🔥",
@@ -372,7 +372,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.28K",
+      "views_label": "9.31K",
       "posted_at": "2026-10-03T10:46:17+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1901",
@@ -381,8 +381,8 @@
     {
       "id": "whitedns/1898",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> <b>نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 منتشر شد!</b>",
       "plain_text": "🧪 نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 منتشر شد!",
@@ -394,7 +394,7 @@
         },
         {
           "emoji": "❤",
-          "count": "112"
+          "count": "113"
         },
         {
           "emoji": "❤‍🔥",
@@ -430,8 +430,8 @@
     {
       "id": "whitedns/1897",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> <b>نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 منتشر شد!</b> <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br>در این نسخه، شش موتور اتصال در دسترس هستند:<br><b>Psiphon، Tor، SSH، DNS Tunnels، IKEv2 و AmneziaWG</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> تغییرات اصلی:<br><br>• صفحهٔ یکپارچهٔ «پروفایل‌ها» برای مدیریت اشتراک‌ها و اتصال‌ها<br>• واردکردن کانفیگ AmneziaWG از فایل یا لینک <code>vpn://</code><br>• انتخاب کشور سایفون از فهرست<br>• هماهنگ‌سازی فرم‌های فارسی و انگلیسی و اصلاح نمایش گذرواژه‌های طولانی<br>• بهبود پایداری اتصال و قطع سایفون و نمایش ترافیک<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> این نسخه <b>آزمایشی</b> است؛ بررسی کامل همهٔ موتورها روی دستگاه‌های مختلف هنوز ادامه دارد. برخی موتورها به سرور و کانفیگ سازگار نیاز دارند. نسخهٔ پایدار <b>1.6.10</b> همچنان در دسترس است.<tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.7.0-beta.1\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ آزمایشی</a><br><br>اگر مشکلی دیدید، همراه با نام موتور، مدل گوشی و نسخهٔ اندروید گزارش کنید.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
       "plain_text": "🧪 نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 منتشر شد! ⚠️🔥\n\nدر این نسخه، شش موتور اتصال در دسترس هستند:\nPsiphon، Tor، SSH، DNS Tunnels، IKEv2 و AmneziaWG\n\n✨ تغییرات اصلی:\n\n• صفحهٔ یکپارچهٔ «پروفایل‌ها» برای مدیریت اشتراک‌ها و اتصال‌ها\n• واردکردن کانفیگ AmneziaWG از فایل یا لینک vpn://\n• انتخاب کشور سایفون از فهرست\n• هماهنگ‌سازی فرم‌های فارسی و انگلیسی و اصلاح نمایش گذرواژه‌های طولانی\n• بهبود پایداری اتصال و قطع سایفون و نمایش ترافیک\n\n⚠️ این نسخه آزمایشی است؛ بررسی کامل همهٔ موتورها روی دستگاه‌های مختلف هنوز ادامه دارد. برخی موتورها به سرور و کانفیگ سازگار نیاز دارند. نسخهٔ پایدار 1.6.10 همچنان در دسترس است.⚠️\n\n📥 دانلود نسخهٔ آزمایشی\n\nاگر مشکلی دیدید، همراه با نام موتور، مدل گوشی و نسخهٔ اندروید گزارش کنید.\n@whitedns",
@@ -451,7 +451,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "119"
+          "count": "120"
         },
         {
           "emoji": "👍",
@@ -479,8 +479,8 @@
     {
       "id": "whitedns/1896",
       "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
       "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> عزیزانی که با WhiteAether سخت وصل میشن یا مدام قطع و وصل دارید، این روش رو حتماً تست کنید.<br><br>به‌دلیل اختلالات شبکه، ممکنه Endpoint انتخاب‌شده مرتب قطع بشه و Fallback به‌صورت خودکار Endpoint دیگه‌ای رو انتخاب کنه؛ همین سوییچ‌ها می‌تونه باعث کندی و ناپایداری اتصال بشه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> برای رفع این موضوع :<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> وارد بخش Routes بشید و از پایین صفحه وارد Endpoint بشید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> اسکن Endpoint رو انجام بدید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/33E283A3.png')\"><b>3️⃣</b></i> بهترین Endpoint از نظر Ping رو انتخاب کنید و روی اون بزنید تا Pin بشه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/34E283A3.png')\"><b>4️⃣</b></i> گزینه Fallback رو خاموش کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> حالا دوباره Connect کنید و نتیجه رو تست کنید.<br><br>چند نفر با همین تغییر مشکلشون برطرف شده؛ ممکنه برای شما هم در شرایط فعلی شبکه بهتر جواب بده.<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
       "plain_text": "⚠️ عزیزانی که با WhiteAether سخت وصل میشن یا مدام قطع و وصل دارید، این روش رو حتماً تست کنید.\n\nبه‌دلیل اختلالات شبکه، ممکنه Endpoint انتخاب‌شده مرتب قطع بشه و Fallback به‌صورت خودکار Endpoint دیگه‌ای رو انتخاب کنه؛ همین سوییچ‌ها می‌تونه باعث کندی و ناپایداری اتصال بشه.\n\n🛠 برای رفع این موضوع :\n\n1️⃣ وارد بخش Routes بشید و از پایین صفحه وارد Endpoint بشید.\n\n2️⃣ اسکن Endpoint رو انجام بدید.\n\n3️⃣ بهترین Endpoint از نظر Ping رو انتخاب کنید و روی اون بزنید تا Pin بشه.\n\n4️⃣ گزینه Fallback رو خاموش کنید.\n\n🚀 حالا دوباره Connect کنید و نتیجه رو تست کنید.\n\nچند نفر با همین تغییر مشکلشون برطرف شده؛ ممکنه برای شما هم در شرایط فعلی شبکه بهتر جواب بده.\n\n@whitedns",
