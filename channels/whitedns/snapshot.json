@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-04T05:53:55.270Z",
+  "fetched_at": "2026-10-04T05:57:07.548Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1917",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> <b>اگر WARP محدود شد، چطور از WhiteAesther استفاده کنیم؟</b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><br><br>طبق گزارش‌های دریافتی، ارتباط UDP با IPهای کلودفلر روی همراه اول محدود شده است. احتمال گسترش این محدودیت به اپراتورهای دیگر وجود دارد، اما هنوز نمی‌توان آن را قطعی دانست.<br>این محدودیت می‌تواند اتصال <b>WireGuard و MASQUE H3</b> را مختل کند؛ با این حال، WhiteAesther مسیرهای دیگری هم دارد.<br><br><b>۱️⃣ ابتدا حالت خودکار را امتحان کنید</b><br>در تنظیمات برنامه:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>Traffic → Coverage:</b> گزینهٔ «کل دستگاه»<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>Routes → Carrier:</b> گزینهٔ «خودکار»<br>در نسخه‌های دارای این قابلیت، برنامه مسیرهای Aether، Psiphon و Tor را بررسی می‌کند. اولین اتصال روی شبکهٔ محدود ممکن است چند دقیقه زمان ببرد.<br><br><b>۲️⃣ برای اتصال مستقیم، MASQUE H2 را امتحان کنید</b><br>از مسیر زیر پروتکل را تغییر دهید:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>Routes → Advanced → Preferred transport → MASQUE H2</b><br>H2 روی <b>TCP</b> کار می‌کند؛ بنابراین بسته‌شدن UDP به‌تنهایی آن را از کار نمی‌اندازد. البته اگر مسیر TCP هم فیلتر باشد، اتصال برقرار نمی‌شود.<br><br><b>۳️⃣ امکان استفاده از IPv6 را حفظ کنید</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>Traffic → Addresses → IPv4 + IPv6</b><br>اگر IPv6 روی اینترنت شما قابل‌دسترسی باشد، ممکن است مسیر اتصال باقی مانده باشد. انتخاب این گزینه داخل برنامه، به‌تنهایی روی خط فاقد IPv6 دسترسی ایجاد نمی‌کند.<br><br><b>۴️⃣ تکه‌تکه‌کردن دست‌دهی TLS را امتحان کنید</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>Traffic → Advanced → Split the TLS handshake → روشن</b><br>این گزینه ممکن است در برابر بعضی روش‌های فیلترینگ کمک کند، اما مسدودشدن کامل IP یا TCP را برطرف نمی‌کند.<br><br><b>۵️⃣ اگر اتصال مستقیم جواب نداد، حامل را تغییر دهید</b><br>در <b>Routes → Carrier</b> حالت دستی را انتخاب کرده و <b>Psiphon</b> را امتحان کنید. گزینهٔ دیگر، <b>Tor با پل خصوصی obfs4</b> است؛ معمولاً کندتر است و ترافیک UDP را حمل نمی‌کند.<br>نام و محل گزینه‌ها ممکن است در نسخه‌های مختلف متفاوت باشد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> هیچ‌کدام از این روش‌ها اتصال را تضمین نمی‌کند. بسته‌شدن WARP لزوماً به معنی ازکارافتادن کل WhiteAesther نیست؛ نتیجه به مسیرهای باز روی اینترنت شما بستگی دارد.<br><br>تشکر ویژه از <a href=\"https://t.me/patt_channel_x\" target=\"_blank\">@patt_channel_x</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "📌 اگر WARP محدود شد، چطور از WhiteAesther استفاده کنیم؟⚠️\n\nطبق گزارش‌های دریافتی، ارتباط UDP با IPهای کلودفلر روی همراه اول محدود شده است. احتمال گسترش این محدودیت به اپراتورهای دیگر وجود دارد، اما هنوز نمی‌توان آن را قطعی دانست.\nاین محدودیت می‌تواند اتصال WireGuard و MASQUE H3 را مختل کند؛ با این حال، WhiteAesther مسیرهای دیگری هم دارد.\n\n۱️⃣ ابتدا حالت خودکار را امتحان کنید\nدر تنظیمات برنامه:\n🔹 Traffic → Coverage: گزینهٔ «کل دستگاه»\n🔹 Routes → Carrier: گزینهٔ «خودکار»\nدر نسخه‌های دارای این قابلیت، برنامه مسیرهای Aether، Psiphon و Tor را بررسی می‌کند. اولین اتصال روی شبکهٔ محدود ممکن است چند دقیقه زمان ببرد.\n\n۲️⃣ برای اتصال مستقیم، MASQUE H2 را امتحان کنید\nاز مسیر زیر پروتکل را تغییر دهید:\n🔹 Routes → Advanced → Preferred transport → MASQUE H2\nH2 روی TCP کار می‌کند؛ بنابراین بسته‌شدن UDP به‌تنهایی آن را از کار نمی‌اندازد. البته اگر مسیر TCP هم فیلتر باشد، اتصال برقرار نمی‌شود.\n\n۳️⃣ امکان استفاده از IPv6 را حفظ کنید\n🔹 Traffic → Addresses → IPv4 + IPv6\nاگر IPv6 روی اینترنت شما قابل‌دسترسی باشد، ممکن است مسیر اتصال باقی مانده باشد. انتخاب این گزینه داخل برنامه، به‌تنهایی روی خط فاقد IPv6 دسترسی ایجاد نمی‌کند.\n\n۴️⃣ تکه‌تکه‌کردن دست‌دهی TLS را امتحان کنید\n🔹 Traffic → Advanced → Split the TLS handshake → روشن\nاین گزینه ممکن است در برابر بعضی روش‌های فیلترینگ کمک کند، اما مسدودشدن کامل IP یا TCP را برطرف نمی‌کند.\n\n۵️⃣ اگر اتصال مستقیم جواب نداد، حامل را تغییر دهید\nدر Routes → Carrier حالت دستی را انتخاب کرده و Psiphon را امتحان کنید. گزینهٔ دیگر، Tor با پل خصوصی obfs4 است؛ معمولاً کندتر است و ترافیک UDP را حمل نمی‌کند.\nنام و محل گزینه‌ها ممکن است در نسخه‌های مختلف متفاوت باشد.\n⚠️ هیچ‌کدام از این روش‌ها اتصال را تضمین نمی‌کند. بسته‌شدن WARP لزوماً به معنی ازکارافتادن کل WhiteAesther نیست؛ نتیجه به مسیرهای باز روی اینترنت شما بستگی دارد.\n\nتشکر ویژه از @patt_channel_x\n\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1917",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/pT9HZ05XC7vEYdVAUmPcC713YNI2ettaFaKDKYm1uPVwG0RiNrCHWXMoMVqeXzWzRJ1W84DD1zJbtPYyM4Ba-wXc96BWWZN-yLkSYN7Z23zPaOqg0IZpNnj7dRv3NxoJFRBAUKavgmKhrKYWO9CyjOr3204ad-Xr83FPoI-IV8Kskj_BBowOkDfAgPEA_sIgtxelmxJ25sx5r-MRoHzm6LO3OErH94FGVmnQJzBFxRk4c-w9NNrVDGPC_rSw4R4QhHtYXusUcZ-QS7KNUQyrBtAMy-mGp5l0QYx65YSEiR1ySRk_OPOuovrUn_qiUTKBCoVAuCzOO1JRwfipk2rzsg.jpg",
+          "thumbnail_path": "channels/whitedns/media/4bc5639461863cfdffd8ece4.jpg",
+          "thumbnail_sha256": "dd701a487d0d846afd3e454ec6fdcafe6ec508cfed1a5fd0b57bcf65c0d5d4cc",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": "4"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "289",
+      "posted_at": "2026-10-04T05:54:47+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1917",
+      "reply": null
+    },
     {
       "id": "whitedns/1916",
       "author_name": "White DNS",
@@ -27,18 +64,18 @@
         },
         {
           "emoji": "💔",
-          "count": "28"
+          "count": "36"
         },
         {
           "emoji": "🤬",
-          "count": "6"
+          "count": "8"
         },
         {
           "emoji": "🙏",
           "count": "1"
         }
       ],
-      "views_label": "637",
+      "views_label": "797",
       "posted_at": "2026-10-04T05:45:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1916",
@@ -56,11 +93,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "74"
+          "count": "76"
         },
         {
           "emoji": "❤",
-          "count": "54"
+          "count": "55"
         },
         {
           "emoji": "🔥",
@@ -75,7 +112,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.76K",
+      "views_label": "3.88K",
       "posted_at": "2026-10-04T01:00:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1915",
@@ -128,7 +165,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.27K",
+      "views_label": "4.37K",
       "posted_at": "2026-10-03T22:01:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1914",
@@ -173,7 +210,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.47K",
+      "views_label": "8.5K",
       "posted_at": "2026-10-03T16:24:38+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1913",
@@ -206,7 +243,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.36K",
+      "views_label": "8.43K",
       "posted_at": "2026-10-03T16:23:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1908",
@@ -247,7 +284,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.59K",
+      "views_label": "8.62K",
       "posted_at": "2026-10-03T16:16:32+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1907",
@@ -276,7 +313,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.36K",
+      "views_label": "8.4K",
       "posted_at": "2026-10-03T15:46:19+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1906",
@@ -305,7 +342,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.6K",
+      "views_label": "8.63K",
       "posted_at": "2026-10-03T15:40:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1905",
@@ -334,7 +371,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.63K",
+      "views_label": "8.69K",
       "posted_at": "2026-10-03T15:40:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1904",
@@ -371,7 +408,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.73K",
+      "views_label": "8.79K",
       "posted_at": "2026-10-03T15:40:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1903",
@@ -453,7 +490,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.72K",
+      "views_label": "9.75K",
       "posted_at": "2026-10-03T10:46:17+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1901",
@@ -502,7 +539,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.05K",
+      "views_label": "9.08K",
       "posted_at": "2026-10-03T10:41:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1898",
@@ -5366,71 +5403,6 @@
       "posted_at": "2026-09-12T15:59:55+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1787",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1785",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/hNbnge03M_oKQV-8zZCnIWI7-Jl_xrmQniJvYdvEvOaVc_CNt80_nbnwEOBuD3vdGAsvMa1nsIXNEMGksUHRzE7ox3PG-w2AqRUIftI1J0-RCopjx-DzeknSko2FNO3602zRAOavMfM17CS6FcYdV46V-uaCefr4331dZvDDVwzXkn3dajkciT1cybZ22V4b6bO38uICnRtzvDdk0OHA1VGAFFhMaO5KkDaDMVFLrQeq8yeRGzRuc9V16LdZ_7tCXZUpICpMsWjLYfPefko5-bHTIH5SSFmC56u4RPRxHCvuDSTVK4EEczes6OY7AthsxP4Y99utRHusCfMXFIc0AQ.jpg",
-      "author_photo_path": "channels/whitedns/media/658b6c6eb02d57530fba9129.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "229"
-        },
-        {
-          "emoji": "👍",
-          "count": "22"
-        },
-        {
-          "emoji": "👎",
-          "count": "11"
-        },
-        {
-          "emoji": "🕊",
-          "count": "9"
-        },
-        {
-          "emoji": "😍",
-          "count": "4"
-        },
-        {
-          "emoji": "🥱",
-          "count": "3"
-        },
-        {
-          "emoji": "🤣",
-          "count": "2"
-        },
-        {
-          "emoji": "😴",
-          "count": "2"
-        },
-        {
-          "emoji": "🤪",
-          "count": "2"
-        },
-        {
-          "emoji": "🥴",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        }
-      ],
-      "views_label": "21.1K",
-      "posted_at": "2026-09-12T11:05:34+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1785",
       "reply": null
     }
   ]
