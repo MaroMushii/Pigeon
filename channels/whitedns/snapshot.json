@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-04T11:36:41.016Z",
+  "fetched_at": "2026-10-04T11:38:26.964Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -30,7 +30,7 @@
           "count": "2"
         }
       ],
-      "views_label": "4.22K",
+      "views_label": "4.26K",
       "posted_at": "2026-10-04T10:11:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1921",
@@ -112,7 +112,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "65"
+          "count": "66"
         },
         {
           "emoji": "🥰",
@@ -135,7 +135,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.92K",
+      "views_label": "4.95K",
       "posted_at": "2026-10-04T09:43:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1918",
@@ -165,7 +165,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "92"
+          "count": "93"
         },
         {
           "emoji": "👏",
@@ -208,10 +208,6 @@
       "plain_text": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)\n\nدر نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.\n\nبرای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.\n\nروشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.\n\nحمایت فراموش نشه 🙏",
       "media": [],
       "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
         {
           "emoji": "💔",
           "count": "117"
@@ -282,7 +278,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.55K",
+      "views_label": "6.56K",
       "posted_at": "2026-10-04T01:00:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1915",
@@ -413,7 +409,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.82K",
+      "views_label": "9.85K",
       "posted_at": "2026-10-03T16:23:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1908",
@@ -512,7 +508,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.95K",
+      "views_label": "9.98K",
       "posted_at": "2026-10-03T15:40:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1905",
