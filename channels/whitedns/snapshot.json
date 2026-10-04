@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-04T05:42:06.409Z",
+  "fetched_at": "2026-10-04T05:47:11.823Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,31 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1916",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
+      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)<br><br>در نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.<br><br>برای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.<br><br>روشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.<br><br>حمایت فراموش نشه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F998F.png')\"><b>🙏</b></i>",
+      "plain_text": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)\n\nدر نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.\n\nبرای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.\n\nروشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.\n\nحمایت فراموش نشه 🙏",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "💔",
+          "count": "4"
+        },
+        {
+          "emoji": "🤬",
+          "count": "1"
+        }
+      ],
+      "views_label": "132",
+      "posted_at": "2026-10-04T05:45:56+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1916",
+      "reply": null
+    },
     {
       "id": "whitedns/1915",
       "author_name": "White DNS",
@@ -23,7 +48,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "72"
+          "count": "73"
         },
         {
           "emoji": "❤",
@@ -36,9 +61,13 @@
         {
           "emoji": "👎",
           "count": "1"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "3.38K",
+      "views_label": "3.51K",
       "posted_at": "2026-10-04T01:00:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1915",
@@ -85,9 +114,13 @@
         {
           "emoji": "🙏",
           "count": "1"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "3.99K",
+      "views_label": "4.05K",
       "posted_at": "2026-10-03T22:01:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1914",
@@ -126,9 +159,13 @@
         {
           "emoji": "🔥",
           "count": "1"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "8.34K",
+      "views_label": "8.41K",
       "posted_at": "2026-10-03T16:24:38+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1913",
@@ -155,9 +192,13 @@
         {
           "emoji": "👎",
           "count": "5"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "8.24K",
+      "views_label": "8.27K",
       "posted_at": "2026-10-03T16:23:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1908",
@@ -192,9 +233,13 @@
         {
           "emoji": "😢",
           "count": "1"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "8.47K",
+      "views_label": "8.5K",
       "posted_at": "2026-10-03T16:16:32+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1907",
@@ -217,9 +262,13 @@
         {
           "emoji": "👎",
           "count": "5"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "8.24K",
+      "views_label": "8.27K",
       "posted_at": "2026-10-03T15:46:19+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1906",
@@ -242,9 +291,13 @@
         {
           "emoji": "👎",
           "count": "4"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "8.47K",
+      "views_label": "8.51K",
       "posted_at": "2026-10-03T15:40:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1905",
@@ -267,9 +320,13 @@
         {
           "emoji": "👎",
           "count": "4"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "8.5K",
+      "views_label": "8.53K",
       "posted_at": "2026-10-03T15:40:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1904",
@@ -300,9 +357,13 @@
         {
           "emoji": "👎",
           "count": "1"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "8.57K",
+      "views_label": "8.6K",
       "posted_at": "2026-10-03T15:40:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1903",
@@ -5362,75 +5423,6 @@
       "posted_at": "2026-09-12T11:05:34+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1785",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1784",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/hNbnge03M_oKQV-8zZCnIWI7-Jl_xrmQniJvYdvEvOaVc_CNt80_nbnwEOBuD3vdGAsvMa1nsIXNEMGksUHRzE7ox3PG-w2AqRUIftI1J0-RCopjx-DzeknSko2FNO3602zRAOavMfM17CS6FcYdV46V-uaCefr4331dZvDDVwzXkn3dajkciT1cybZ22V4b6bO38uICnRtzvDdk0OHA1VGAFFhMaO5KkDaDMVFLrQeq8yeRGzRuc9V16LdZ_7tCXZUpICpMsWjLYfPefko5-bHTIH5SSFmC56u4RPRxHCvuDSTVK4EEczes6OY7AthsxP4Y99utRHusCfMXFIc0AQ.jpg",
-      "author_photo_path": "channels/whitedns/media/658b6c6eb02d57530fba9129.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5379999674193172777\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94AD.png')\"><b>🔭</b></i></tg-emoji><b> دانلود ابزارهای WhiteDNS<br></b><br><br><b><tg-emoji emoji-id=\"5197371802136892976\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29B8F.png')\"><b>⛏</b></i></tg-emoji></b><b> اپلیکیشن ها</b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> WhiteAesther<br></b><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود موبایل</a> • <a href=\"https://github.com/WhiteDNS/WhiteAesther/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود دسکتاپ</a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> WhiteVPN<br></b><a href=\"https://github.com/WhiteDNS/WhiteVPN/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود موبایل</a> • <a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود دسکتاپ</a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> WhiteDNS</b> مناسب دوران قطعی<br><a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود اندروید</a> • <a href=\"https://github.com/WhiteDNS/WhiteDNS-Desktop/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود دسکتاپ</a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948E.png')\"><b>🔎</b></i> WhiteDNS Clean IP + Resolver Finder<br></b><a href=\"https://github.com/WhiteDNS/WhiteDNS-cleanip-finder/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود برای موبایل و دسکتاپ</a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> CoreForge VPN + DNS<br></b><a href=\"https://testflight.apple.com/join/DRkT6zny\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دریافت نسخه iOS از TestFlight</a><br><br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i> ربات‌های WhiteDNS</b><br><tg-emoji emoji-id=\"5864010533895672931\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji> Support Bot: <a href=\"https://t.me/WhiteDnsResponder_bot\" target=\"_blank\">@WhiteDnsResponder_bot</a><br><tg-emoji emoji-id=\"5271604874419647061\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><b> WhiteDnsChain</b> <a href=\"https://t.me/WhiteDnsChainbot\" target=\"_blank\">@WhiteDnsChainbot</a><br><br><br><tg-emoji emoji-id=\"5291873250291229791\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E93.png')\"><b>🎓</b></i></tg-emoji><b> آموزش‌ها و راهنماها</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://youtu.be/yx-jFqv9pYM\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش Exit Chain برای WhiteAesther و WhiteVP</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> <a href=\"https://www.youtube.com/watch?v=tm0ls3r4ppw\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل WhiteVPN</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> <a href=\"https://www.youtube.com/watch?v=cRfqxbDY1Dg&amp;amp;t=1s\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل WhiteAesther</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> <a href=\"https://www.youtube.com/watch?v=tz8cj7HzHVI\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل WhiteDNS</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> <a href=\"https://www.youtube.com/watch?v=filwdiPKN90\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل CoreForge</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948E.png')\"><b>🔎</b></i> <a href=\"https://www.youtube.com/watch?v=N5hKuWXp37w\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل اسکنر WhiteDNS</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://t.me/whitedns/1711\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای کامل ربات WhiteDnsChain</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i> <a href=\"https://t.me/whitedns/1712\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای استفاده از ربات WhiteDNS</a><br><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🔭 دانلود ابزارهای WhiteDNS\n\n\n⛏ اپلیکیشن ها\n📱 WhiteAesther\nدانلود موبایل • دانلود دسکتاپ\n🛡 WhiteVPN\nدانلود موبایل • دانلود دسکتاپ\n🌐 WhiteDNS مناسب دوران قطعی\nدانلود اندروید • دانلود دسکتاپ\n🔎 WhiteDNS Clean IP + Resolver Finder\nدانلود برای موبایل و دسکتاپ\n🍎 CoreForge VPN + DNS\nدریافت نسخه iOS از TestFlight\n\n\n🤖 ربات‌های WhiteDNS\n💬 Support Bot: @WhiteDnsResponder_bot\n🔗 WhiteDnsChain @WhiteDnsChainbot\n\n\n🎓 آموزش‌ها و راهنماها\n🔗 آموزش Exit Chain برای WhiteAesther و WhiteVP\n🛡 آموزش کامل WhiteVPN\n📱 آموزش کامل WhiteAesther\n🌐 آموزش کامل WhiteDNS\n🍎 آموزش کامل CoreForge\n🔎 آموزش کامل اسکنر WhiteDNS\n🔗 راهنمای کامل ربات WhiteDnsChain\n💬 راهنمای استفاده از ربات WhiteDNS\n\n\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1784",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/jZ-c3a2ZUj-g5JfH41EhdkvPWwlEkvqDvFx2YPSc2VCJCo9u18hW3vQMxuQTbSMhMnNrZrwYJ2mpZNTFO2R0Ipe0WSLUaj8P0rGqO7rvfqOb0eqRCDypzBKsARQ1xELRaI6ufWoMqWoONjTJePferi1wOofztHeWMyKLLll3wFShJo_1nFCTuj_eMRIW_BoKLSH7NMPCmRwi3iLh__yTMFv4Us5P1a0NFHqrCiFxzAGDJxMkUq4e63VljXSNpPG4xSbkIAKeh91sfDTDBN3D7QgEpMmnnzbREawcTXfo4QgQRukpUJWV6vYvivkgYDs7Pr_lqoFjlr_ZkZU406zc3g.jpg",
-          "thumbnail_path": "channels/whitedns/media/0b90916947b5fd1de963df1d.jpg",
-          "thumbnail_sha256": "6140b01108e6e140cd671a4067f95ec3a570965fcfbb1598a209a2d9eda1613a",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "204"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "12"
-        },
-        {
-          "emoji": "👍",
-          "count": "5"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "😍",
-          "count": "1"
-        },
-        {
-          "emoji": "👻",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "23.1K",
-      "posted_at": "2026-09-12T11:03:29+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1784",
       "reply": null
     }
   ]
