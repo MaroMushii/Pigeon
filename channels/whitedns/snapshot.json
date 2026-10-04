@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-04T17:07:10.391Z",
+  "fetched_at": "2026-10-04T17:12:21.895Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -23,7 +23,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "69"
+          "count": "71"
         },
         {
           "emoji": "👎",
@@ -42,7 +42,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.91K",
+      "views_label": "7.94K",
       "posted_at": "2026-10-04T10:11:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1921",
@@ -72,7 +72,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "85"
+          "count": "87"
         },
         {
           "emoji": "👍",
@@ -95,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.84K",
+      "views_label": "5.87K",
       "posted_at": "2026-10-04T10:05:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1920",
@@ -163,7 +163,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.75K",
+      "views_label": "7.78K",
       "posted_at": "2026-10-04T09:43:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1918",
@@ -220,7 +220,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.1K",
+      "views_label": "10.2K",
       "posted_at": "2026-10-04T05:54:47+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1917",
@@ -236,6 +236,10 @@
       "plain_text": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)\n\nدر نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.\n\nبرای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.\n\nروشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.\n\nحمایت فراموش نشه 🙏",
       "media": [],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "💔",
           "count": "132"
@@ -269,7 +273,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.78K",
+      "views_label": "5.79K",
       "posted_at": "2026-10-04T05:45:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1916",
@@ -310,7 +314,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.26K",
+      "views_label": "7.27K",
       "posted_at": "2026-10-04T01:00:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1915",
@@ -363,7 +367,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.77K",
+      "views_label": "6.78K",
       "posted_at": "2026-10-03T22:01:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1914",
