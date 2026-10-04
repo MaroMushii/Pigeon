@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-04T04:47:25.721Z",
+  "fetched_at": "2026-10-04T04:52:25.379Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,34 @@
     "subscriber_count": "95.8K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2639",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/J-k30NQq2igtmc5N-XPWwloqHI1sJiH_WrDoUSiQUC9pZI3KfHYtcNuKbstpUBvYLb15PyKDrQAOATGrRUV_FOWiGv6NzDx8zjNfcL73P3d3bVKyGxUjF6TNccR-xKXpADIz7rJlgJedKKPwebz6Stv-tLs-6sLVvIIyVFrPA5Avgr4LGYGioJvt3i6MPLBGroPQrfiHAgKyhSqHVtMfzsgvm1dtOQNNi0czCNxmhH_a5GA9jiS8rujWnKR_b8JzDJLw0WigiY3ULf-jQLGITm9JVCWfkcJXgckV01MgsEKVySr0vVZlCIe-kmMX8j-L8LvZU3ANvVtCLxMrnfXdQA.jpg",
+      "author_photo_path": "channels/ircfspace/media/fccd8181f7e2e10cffeb714a.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "نسخه ۱۸ فیلترشکن اندرویدی MahsaNG منتشر شده و توی این نسخه هسته Xray مهسا آپدیت شده و پشتیبانی از پروتکل MASQUE هم اضافه کردن.<br>برای WireGuard و MASQUE حالا یک اسکنر IP اختصاصی در دسترسه که از نویز و پورت پشتیبانی می‌کنه و میشه کانفیگ‌های این دو پروتکل رو با کلید Auto ساخت. امکان بکاپ از کانفیگ‌های شخصی، صفحه پروکسی تلگرام برای کپی و تست سریع پروکسی‌ها و بهبود Fragment و حالت Auto هم اضافه شدن.<br>چند نویز جدید برای عبور از فیلترینگ UDP، کانفیگ‌های جدید یوتیوب و پشتیبانی از Cipher Suite برای افزایش سرعت آپلود در متدهای پترنیها به این نسخه اضافه شده. FinalMask حالا روی پروتکل‌های جدید MASQUE و Hysteria در دسترسه و علاوه بر رفع یک سری از مشکلات، ابزار زنجیره‌ساز کانفیگ هم از Fragment، Hysteria و MASQUE پشتیبانی می‌کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/GFW-knocker/MahsaNG/releases\" target=\"_blank\" rel=\"noopener\">github.com/GFW-knocker/MahsaNG/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "نسخه ۱۸ فیلترشکن اندرویدی MahsaNG منتشر شده و توی این نسخه هسته Xray مهسا آپدیت شده و پشتیبانی از پروتکل MASQUE هم اضافه کردن.\nبرای WireGuard و MASQUE حالا یک اسکنر IP اختصاصی در دسترسه که از نویز و پورت پشتیبانی می‌کنه و میشه کانفیگ‌های این دو پروتکل رو با کلید Auto ساخت. امکان بکاپ از کانفیگ‌های شخصی، صفحه پروکسی تلگرام برای کپی و تست سریع پروکسی‌ها و بهبود Fragment و حالت Auto هم اضافه شدن.\nچند نویز جدید برای عبور از فیلترینگ UDP، کانفیگ‌های جدید یوتیوب و پشتیبانی از Cipher Suite برای افزایش سرعت آپلود در متدهای پترنیها به این نسخه اضافه شده. FinalMask حالا روی پروتکل‌های جدید MASQUE و Hysteria در دسترسه و علاوه بر رفع یک سری از مشکلات، ابزار زنجیره‌ساز کانفیگ هم از Fragment، Hysteria و MASQUE پشتیبانی می‌کنه.\n\n👉 github.com/GFW-knocker/MahsaNG/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2639",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/YXPZn5p0yDoM9OYzfZn9zKPMz9FLlpE1FQGyTWFki6hqI1O1BaFDNLdJvVCLNm02zUWGH-jHFWjmIIpy3SWDga31qUKOH5Oz5dybCSssrl4WIo_8Trui9YawAJvSSKbKHmDTygPThtZ9dEw1W1_uog_35u7-cC6LNun0evDo2R9GhcNYmHhpDn00WYwmIysjNwLM_a0MycypFu09oqsPbP47wanunuiAFK_WJOW2Xoggq9X4RcbZVZ0cXyPjvEojqFgpT9A5HH9MzWkC497qrNHw4oILNJRCyY_vzZXdiALp-NxJEPwZZppsR4f41QDTexubgt_VoxavkK2uN95KVw.jpg",
+          "thumbnail_path": "channels/ircfspace/media/a8f6b9b3dc8d4cedbd286ea8.jpg",
+          "thumbnail_sha256": "1b04e2a35267425e47f708a494cbdb26db11b271937fe41c01f412dad1687132",
+          "duration_label": null,
+          "aspect_ratio": 1.647482014388486
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-10-04T04:52:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/ircfspace/2639",
+      "reply": null
+    },
     {
       "id": "ircfspace/2638",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -5944,67 +5972,6 @@
       "posted_at": "2026-08-02T16:44:30+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2536",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2535",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/owzh1-RYE3910EXidIUh2-9TTE0vRgjOh1ttAmVnHUtVAkvvvtVC815l6SLY1K--dRW8nczfGmTjH25V2akMMAArruA3la0KhwyjlS3PoKlTwLNV4fV3A-myITQM-4PD5zLz46QK5AGs-1Bbn5t3YjnpySlBmpYSgpU3D1yXOyrBpmwOdQSbOTWIkvdt3njvVKE0O_CXze0HGFgsGr3FiDdUrGZzsZ4XGn2FAPM75LxdZ_nHXknZUMKH4iOzavXUE0AZOxgC0AhEVJzvaBjEE2WQ8cs38c7srhj24jIHl1faQRC8L4Za9i4GWp8Holp_2P2ZaRd7CpTamyYjeqKLAg.jpg",
-      "author_photo_path": "channels/ircfspace/media/5b49a85caa0da92f3c27be60.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "یکی از راه‌ها مخفی‌کردن صورت مسئله، اینه که چندهفته پیام خطا نمایش بدی!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> AmirMahdi<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "یکی از راه‌ها مخفی‌کردن صورت مسئله، اینه که چندهفته پیام خطا نمایش بدی!\n\n© AmirMahdi\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2535",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/KRl-VyxG9S-mmAYQEvfHj61WJ7xt1Ci4Lfz6JCsReZ-TpJ8aaciLijOCMsKZDK0lOgBWYghRtdKWWR8k3-6JjTrVfqtX1WAPr7ey3aVqzZ-l6Efb8pN6yNvyFh8Yw6d02RDgPGRMaWMmUZmH9ryGcViuXW0unHt6dKsZQJVx-v4Eme0Qfm3sqhI2fx3bq-N2r4Nfc4pq7uoSXq9QjniaOgpGh2TIwTdCCF6kqThs3wWczhit8ZyMLzJbAi9ehTL65e45u_w-So7pVFB4XBiNI0pXwoSG4ZwgipziLeFGUr-sQlDsPEhjHwbIDJAbcCHJb7ky_R8I9i70paSxLVfBVw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/5a8043357956029901523a95.jpg",
-          "thumbnail_sha256": "7c055c224dbf4b5ba938b3d04c9338e5d26e4adc2165f39b848f143815505238",
-          "duration_label": null,
-          "aspect_ratio": 1.0217113665389528
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "383"
-        },
-        {
-          "emoji": "🤬",
-          "count": "194"
-        },
-        {
-          "emoji": "😐",
-          "count": "10"
-        },
-        {
-          "emoji": "😁",
-          "count": "4"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "❤",
-          "count": "1"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🏆",
-          "count": "1"
-        }
-      ],
-      "views_label": "30.6K",
-      "posted_at": "2026-08-02T16:33:27+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2535",
       "reply": null
     }
   ]
