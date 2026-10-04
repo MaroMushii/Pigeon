@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-04T21:42:14.293Z",
+  "fetched_at": "2026-10-04T21:47:20.922Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -42,7 +42,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.37K",
+      "views_label": "9.38K",
       "posted_at": "2026-10-04T10:11:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1921",
@@ -99,7 +99,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.86K",
+      "views_label": "6.87K",
       "posted_at": "2026-10-04T10:05:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1920",
@@ -167,7 +167,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.86K",
+      "views_label": "8.87K",
       "posted_at": "2026-10-04T09:43:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1918",
@@ -240,6 +240,10 @@
       "plain_text": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)\n\nدر نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.\n\nبرای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.\n\nروشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.\n\nحمایت فراموش نشه 🙏",
       "media": [],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "💔",
           "count": "136"
@@ -334,8 +338,8 @@
           "asset_url": "https://t.me/whitedns/1914",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/HH5eWC0Amo0ykBy2OmfMIX3yWCfthSdgVOyLFFhvbrSLltLQg5tn2WRhJ5V3uCfIQh0_hSUlzmiKc04joIwZysbJrtc6KRG3zVP9UTnkXjsy1y3Fw6Csu7qurusKltAIZz2Qs9kIXLtJ1Qrfps_1GWquuEDe5sSxHv6ynU1mARF_m_XoMdn2lo3Kdp8WeNWdFLEK2BFtTVYS-OzmmxwVmVkQC3TUge4CasVdGbmgJa_W-au_PPx6pJt3xgbn8J4Pel2AWzM9rRPjCWicoTkbOmyWLfXygyl_ll4xFhP0A7OcpOQQR7CeHwC7prw_k8fFhJBmGdBKWlp8ciU8krnfDA.jpg",
-          "thumbnail_path": "channels/whitedns/media/b3be2c99d5e7273108004d82.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/FBNZMmRxub1xA7WE-7oIURmBPwU-6cH4iwxZP4zIpwO40iiEau0_1JXNjzRqevooRrDGfOXbP5rWDvPfneT4bepoMeH5p3EJTWIPqV0PheWDG4BMUr0H5HLIlTeasSqS768zH6V0ZwBOzC7M2719myR65kKMDNEhkj8VtOoda-9D5XX-fZdfl-HmrjNO8WqlnFxWpDQQxlq6AjYlRQ6GUIhFuuNuV6Alwh36rvB7bRhVZgNqMi9HnXZQlKYe9IH-vgnOfjm8CfI6jj7VZ_b6CFijreFg1k6tuxDddeKaDwbrgJDEooTDQdwRht_pRIZrBAEHNfUYQvt8hvRFOmuDzg.jpg",
+          "thumbnail_path": "channels/whitedns/media/73cf727646b7fc3515c69b3b.jpg",
           "thumbnail_sha256": "8e128a0895b0061a2b3478599707855dcecfd1e452efe5f87519ade26de258a5",
           "duration_label": null,
           "aspect_ratio": 2
