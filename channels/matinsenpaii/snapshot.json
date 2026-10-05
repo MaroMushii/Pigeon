@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-05T18:33:34.642Z",
+  "fetched_at": "2026-10-05T18:37:15.157Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,27 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5521",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/lFeoT09pnOBJHJOonf5e-tp6dBhjxgx6XUvJ8G0qAl1xEGiDsUFulGRZbDukptJzrYFJg80LVXAQNV0RF19IziyNzeV61WSIjdmjoJk5NdQu9yk3ioXJAkAxavA-ZL57r3ZjpqNSPh7ZMt4rqXvUYjFLaamdsxI2UbkeHT5ydnP2mcGqQGqpg3BwcP8E-3_GbUszkdpIKxfwZlkbAbx5KqGVKinxF-dT6Vo2k-uPw86U5RbvUxU_kWBZddsbcnqUtC8mvfVp1szgA7YSBuQq5kXzsrL3ZMy-h2-y8OqVllukngc2fWGN6YJIZth-3-YLm75uV8iQUvXDAiCDi70lwA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/d863ccbd17646d361c9b640e.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>جمع بندی راه‌های کنونی اتصال به کلودفلر بر روی فایروال همراه اول:</b><br><br>1. CDN/WORKER with ECH<br><br>برای اتصال به یک کانفیگ cdn/worker از طریق ECH باید ابتدا از یک آدرس مناسب به طور مثال <a href=\"http://188.114.97.6/\" target=\"_blank\" rel=\"noopener\">188.114.97.6</a> استفاده کنید، finalMask و cipherSuites را پاک کنید، فینگرپرینت را روی chrome قرار دهید و در قسمت echConfigList به طور مثال مقدار:<br><a href=\"http://cloudflare-ech.com/\" target=\"_blank\" rel=\"noopener\">cloudflare-ech.com</a>+udp://1.1.1.1<br>را وارد کنید.<br><br>2. CDN/WORKER with IPv6<br><br>ابتدا echConfigList و cipherSuites را پاک کنید، فینگرپرینت را روی chrome قرار دهید و سپس از یک آدرس IPv6 به طور مثال 2a06:98c1:3121::7 استفاده کنید.<br>سپس در صورتی که دامنه‌ی شما فیلتر نیست، finalMask را خالی بزارید، در غیر این صورت finalMask را باید tlshello-0-len (همان مقدار متد f&amp;f) قرار دهید.<br><br>3. WARP with IPv6<br><br>از قسمت add aether ابتدا پروتوکل را روی wireguard/warp-in-warp قرار دهید، نوع آیپی را IPv6 انتخاب کنید، اسکن کنید، بعد از پیدا شدن آیپی اسم انتخاب کنید و سیو کنید.<br><br>////////////////////<br><br><b>جمع بندی راه‌های کنونی اتصال به کلودفلر بر روی فایروال ایرانسل:</b><br><br>1. CDN/WORKER with F&amp;F method<br><br>ابتدا echConfigList را پاک کنید، از یک آدرس مناسب به طور مثال <a href=\"http://188.114.97.6/\" target=\"_blank\" rel=\"noopener\">188.114.97.6</a> استفاده کنید، finalMask را tlshello-0-len (همان مقدار متد F&amp;F) قرار دهید و برای فایروال ایرانسل حتما باید cipherSuites را روی semi-python (همان مقدار متد F&amp;F) و فینگرپرینت را روی unsafe قرار دهید، همچنین دقت کنید که مقدار ALPN را درست انتخاب کرده باشید (http/1.1 برای ws و h2,http/1.1 برای XHTTP)<br><br>2. WARP <br><br>همان مراحل فایروال همراه اول، منتها روی فایروال ایرانسل میتوانید از هر نوع IPی استفاده کنید.<br><br>3. MASQUE/H2 <br><br>از قسمت add aether ابتدا پروتوکل را روی MASQUE-HTTP/2 قرار دهید، فینگرپرینت را روی semi-python و finalMask را روی tlshello-0-len قرار دهید سپس اسکن کنید، و بعد از پیدا شدن آیپی اسم انتخاب کنید و سیو کنید.<br><br>////////////////////<br><br><b>دقت کنید در برخی مناطق سیم کارتتون میتونه همراه اول باشه ولی فایروالتون ایرانسل باشه و بالعکس سیم کارتتون میتونه ایرانسل باشه ولی فایروالتون همراه اول باشه.</b><br><br>سایر نت ها هم معمولا از یکی از این دو فایروال استفاده میکنند.",
+      "plain_text": "جمع بندی راه‌های کنونی اتصال به کلودفلر بر روی فایروال همراه اول:\n\n1. CDN/WORKER with ECH\n\nبرای اتصال به یک کانفیگ cdn/worker از طریق ECH باید ابتدا از یک آدرس مناسب به طور مثال 188.114.97.6 استفاده کنید، finalMask و cipherSuites را پاک کنید، فینگرپرینت را روی chrome قرار دهید و در قسمت echConfigList به طور مثال مقدار:\ncloudflare-ech.com+udp://1.1.1.1\nرا وارد کنید.\n\n2. CDN/WORKER with IPv6\n\nابتدا echConfigList و cipherSuites را پاک کنید، فینگرپرینت را روی chrome قرار دهید و سپس از یک آدرس IPv6 به طور مثال 2a06:98c1:3121::7 استفاده کنید.\nسپس در صورتی که دامنه‌ی شما فیلتر نیست، finalMask را خالی بزارید، در غیر این صورت finalMask را باید tlshello-0-len (همان مقدار متد f&f) قرار دهید.\n\n3. WARP with IPv6\n\nاز قسمت add aether ابتدا پروتوکل را روی wireguard/warp-in-warp قرار دهید، نوع آیپی را IPv6 انتخاب کنید، اسکن کنید، بعد از پیدا شدن آیپی اسم انتخاب کنید و سیو کنید.\n\n////////////////////\n\nجمع بندی راه‌های کنونی اتصال به کلودفلر بر روی فایروال ایرانسل:\n\n1. CDN/WORKER with F&F method\n\nابتدا echConfigList را پاک کنید، از یک آدرس مناسب به طور مثال 188.114.97.6 استفاده کنید، finalMask را tlshello-0-len (همان مقدار متد F&F) قرار دهید و برای فایروال ایرانسل حتما باید cipherSuites را روی semi-python (همان مقدار متد F&F) و فینگرپرینت را روی unsafe قرار دهید، همچنین دقت کنید که مقدار ALPN را درست انتخاب کرده باشید (http/1.1 برای ws و h2,http/1.1 برای XHTTP)\n\n2. WARP\n\nهمان مراحل فایروال همراه اول، منتها روی فایروال ایرانسل میتوانید از هر نوع IPی استفاده کنید.\n\n3. MASQUE/H2\n\nاز قسمت add aether ابتدا پروتوکل را روی MASQUE-HTTP/2 قرار دهید، فینگرپرینت را روی semi-python و finalMask را روی tlshello-0-len قرار دهید سپس اسکن کنید، و بعد از پیدا شدن آیپی اسم انتخاب کنید و سیو کنید.\n\n////////////////////\n\nدقت کنید در برخی مناطق سیم کارتتون میتونه همراه اول باشه ولی فایروالتون ایرانسل باشه و بالعکس سیم کارتتون میتونه ایرانسل باشه ولی فایروالتون همراه اول باشه.\n\nسایر نت ها هم معمولا از یکی از این دو فایروال استفاده میکنند.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "1",
+      "posted_at": "2026-10-05T18:36:57+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5521",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5520",
       "author_name": "Matin SenPai",
@@ -46,7 +67,7 @@
           "count": "3"
         }
       ],
-      "views_label": "7.21K",
+      "views_label": "7.37K",
       "posted_at": "2026-10-05T17:38:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5520",
@@ -64,7 +85,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "137"
+          "count": "139"
         },
         {
           "emoji": "🦄",
@@ -91,7 +112,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.6K",
+      "views_label": "14.7K",
       "posted_at": "2026-10-05T13:51:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5519",
@@ -128,7 +149,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.4K",
       "posted_at": "2026-10-05T13:47:30+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5518",
@@ -167,7 +188,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "196"
+          "count": "197"
         },
         {
           "emoji": "💔",
@@ -190,7 +211,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18K",
+      "views_label": "18.1K",
       "posted_at": "2026-10-05T13:04:54+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5517",
@@ -220,7 +241,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "102"
+          "count": "103"
         },
         {
           "emoji": "❤",
@@ -235,7 +256,7 @@
           "count": "4"
         }
       ],
-      "views_label": "18.2K",
+      "views_label": "18.3K",
       "posted_at": "2026-10-05T13:01:35+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5516",
@@ -338,7 +359,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.5K",
+      "views_label": "22.6K",
       "posted_at": "2026-10-05T11:14:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5514",
@@ -380,7 +401,7 @@
           "count": "4"
         }
       ],
-      "views_label": "23.1K",
+      "views_label": "23.2K",
       "posted_at": "2026-10-05T11:01:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5513",
@@ -425,7 +446,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.6K",
+      "views_label": "28.7K",
       "posted_at": "2026-10-05T09:09:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5512",
@@ -507,7 +528,7 @@
           "count": "2"
         }
       ],
-      "views_label": "27.2K",
+      "views_label": "27.3K",
       "posted_at": "2026-10-05T04:53:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5510",
@@ -593,7 +614,7 @@
           "count": "4"
         }
       ],
-      "views_label": "34.8K",
+      "views_label": "34.9K",
       "posted_at": "2026-10-04T21:19:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5508",
@@ -672,7 +693,7 @@
           "count": "3"
         }
       ],
-      "views_label": "35.5K",
+      "views_label": "35.6K",
       "posted_at": "2026-10-04T17:20:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5506",
@@ -4522,72 +4543,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5411",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5410",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/bFAY_kp8dqGUputKJ9y6sBAK-D93MXqt5reeLeGXXrKQii0k5vhQ2GaHWXA7XFXJFBF5uLCn20R53qDMbrWQXZXxz4ML8FmbhaILgrn_VFTv8Yb4Rer0MLeTvp5WfDYuahdhAxSrZ1q1B4WDVqZJMc_wLMx7-21u8bVdbVIVRDy7s8N0LvZEPMgkvROV6amx0W6bwzinZSGEYA8cuHWHu5Yk8OUCl9yUHOBpLtxRwYUyubRbAxbToIuZtqAZT_MG9en_l9yzQ2SgF9l7psVSEL7uC44RqQzQuxpKOwt2yux0iojicGqUhQFN91UlEYgGRHLfTinF6we8Z0MYmulQ-A.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/8274e85a032e43d8a29ddd30.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "مشتی هر کجا هستی ترمز کن<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F98AD.png')\"><b>😭</b></i>",
-      "plain_text": "مشتی هر کجا هستی ترمز کن😭",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5410",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/pEIj7u4_eN8Rdk4ReW5z_DSD3a-7ALm1zbfdy8bzhT5YsWQQv6SCCHsNNiQG6zzy0KSGBCYzyGVyzodmu7YWgN1KmtqjevMK0XKygWHrMcwnO7n0KL_vTvYPd95eL-fpGaScZ1mQ-BRV0UQx7M1RoMw89p2iqI4pEG3g_YkKlThxpZOyfLFidiIawWxhefHEYPb9F0iJKQLSs0FapzZjBAR5TNxV8iNIx8HQWJOtxIGZWpfwSUhhwlCCMdFdwJWRNFtYAn81gqQ67F4KlHGqZPzIJ_o_u0UyksAXkgap89v1yVa9Sx41CwcezvFQhX4J_SUQN0ke41B5FErmdzgZsw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/3038286f1c457e6b1a798ae4.jpg",
-          "thumbnail_sha256": "240538c9b77183926b0d3fe546c5ce040a1d7265793f689dae6fb23b5ffd7523",
-          "duration_label": null,
-          "aspect_ratio": 7.604938271604736
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "167"
-        },
-        {
-          "emoji": "❤",
-          "count": "11"
-        },
-        {
-          "emoji": "🆒",
-          "count": "5"
-        },
-        {
-          "emoji": "💔",
-          "count": "4"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "23K",
-      "posted_at": "2026-09-28T23:47:10+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5410",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5409",
-        "author_name": "Matin SenPai",
-        "preview_text": "این قسمت ویم واقعا بامزست https://v1m.ir/compare",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/PBuxNJbHdfgzkL4aKsG24CDG6nxxmTCxCmH_MHD1_TxGF_hdosFJmS6wYrdBBSKSm4KJw5w1-MF9Vsm97Omp7nuN42zfk2XJRMEHWPtgVLlAUJ4w2LX8jQQKdovrw22YUTJDMzcxdMBaUUNFpjGt0cP2ErNt2kJ6aBWvSOQorTxpOv-gCK1gZ3noqqm6PRBuOlXFg54eAPU2O3EjZuz2w4y0Gv8duiQ9RjdQUqd-pgFl-cvaqfx3hVdz7vKKV9nHVjwUjbWxD7Wplx0XrRu6N-9EFYslexPKD_MCySiYrTrCHZo3c1kIqMekZSh98Q_LHAEdlIAQ6Pp7lzjLbpdofA.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/7039fd8b97ac13edacb612cd.jpg",
-        "thumbnail_sha256": "702bc3206da1fefaa66cdc21427748bbdb993d302352252cbed4fea00f61ee86",
-        "permalink": "https://t.me/matinsenpaii/5409"
-      }
     }
   ]
 }
