@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-05T19:32:50.741Z",
+  "fetched_at": "2026-10-05T20:36:29.396Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -8,9 +8,103 @@
     "photo_url": "https://cdn1.telesco.pe/file/gF1sNwP0A5nzVO6lA5LZJ9k04-GhdP_t4zquSOBE2SaMZLjcqWWRLObKZtqZCJQMMME-KdZlIOKVCFusBwuoDbyPYybTqRQWH-R8Lv55X0vZBJaPzbHabiONC97s7dJXiNCqVjq4hrVHgoSrtDvavFS4DQNHRwj2a5clvofPvQw8QwOR2uXXrg_j46evyj3tx76B1nPdwgclYdj2bXMLcBtAXgnLoYw1IroTS4u_5mmswxcjEWpvpDhgNvtafP7Z_2RTjubZpLXGTBEs4a57lE3boDcTIqY4_qmJqC6KkuXHisGlH4J9USMCvB1LTdTSR7aFTvHboD2Jvb6GfyzTxw.jpg",
     "photo_path": "channels/ircfspace/media/a811646b71dda4a2dc874d11.jpg",
     "photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-    "subscriber_count": "96.5K"
+    "subscriber_count": "96.6K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2652",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/gF1sNwP0A5nzVO6lA5LZJ9k04-GhdP_t4zquSOBE2SaMZLjcqWWRLObKZtqZCJQMMME-KdZlIOKVCFusBwuoDbyPYybTqRQWH-R8Lv55X0vZBJaPzbHabiONC97s7dJXiNCqVjq4hrVHgoSrtDvavFS4DQNHRwj2a5clvofPvQw8QwOR2uXXrg_j46evyj3tx76B1nPdwgclYdj2bXMLcBtAXgnLoYw1IroTS4u_5mmswxcjEWpvpDhgNvtafP7Z_2RTjubZpLXGTBEs4a57lE3boDcTIqY4_qmJqC6KkuXHisGlH4J9USMCvB1LTdTSR7aFTvHboD2Jvb6GfyzTxw.jpg",
+      "author_photo_path": "channels/ircfspace/media/a811646b71dda4a2dc874d11.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "پترنیها در تحلیل وضعیت فیلترینگ ایران، جمع‌بندی روش‌های فعلی اتصال به اینترنت آزاد از طریق کلودفلر روی فایروال همراه اول و ایرانسل رو منتشر کرده.<br>بر اساس این جمع‌بندی، روی فایروال همراه اول میشه برای اتصال به CDN یا Worker از روش ECH با یک IP مناسب استفاده کرد. استفاده از IPv6 هم یکی دیگه از روش‌های فعلیه که بسته به فیلتر بودن یا نبودن دامنه، تنظیمات متفاوتی برای finalMask داره. برای WARP هم میشه از متد WARP-in-WARP در اتر روی IPv6 استفاده کرد و با اسکن، IP مناسب رو پیدا کرد.<br>روی فایروال ایرانسل، برای CDN و Worker میشه از متد F&amp;F استفاده کرد که نیاز به تنظیمات مشخصی برای finalMask، cipherSuites و فینگرپرینت داره. WARP هم روی این فایروال قابل استفاده هست و محدودیتی برای نوع IP وجود نداره. علاوه بر این، روش MASQUE/H2 با اسکن IP و تنظیمات مشخصی برای فینگرپرینت و finalMask می‌تونه برای اتصال به کلودفلر از طریق هسته اتر مورد استفاده قرار بگیره.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "پترنیها در تحلیل وضعیت فیلترینگ ایران، جمع‌بندی روش‌های فعلی اتصال به اینترنت آزاد از طریق کلودفلر روی فایروال همراه اول و ایرانسل رو منتشر کرده.\nبر اساس این جمع‌بندی، روی فایروال همراه اول میشه برای اتصال به CDN یا Worker از روش ECH با یک IP مناسب استفاده کرد. استفاده از IPv6 هم یکی دیگه از روش‌های فعلیه که بسته به فیلتر بودن یا نبودن دامنه، تنظیمات متفاوتی برای finalMask داره. برای WARP هم میشه از متد WARP-in-WARP در اتر روی IPv6 استفاده کرد و با اسکن، IP مناسب رو پیدا کرد.\nروی فایروال ایرانسل، برای CDN و Worker میشه از متد F&F استفاده کرد که نیاز به تنظیمات مشخصی برای finalMask، cipherSuites و فینگرپرینت داره. WARP هم روی این فایروال قابل استفاده هست و محدودیتی برای نوع IP وجود نداره. علاوه بر این، روش MASQUE/H2 با اسکن IP و تنظیمات مشخصی برای فینگرپرینت و finalMask می‌تونه برای اتصال به کلودفلر از طریق هسته اتر مورد استفاده قرار بگیره.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2652",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/dyg1GOIO4tTIISX2pVBJbHiA-ujU0Bniuo1qzLmgUnzZeODwLDzbCf3oolEY7Xbp-cI2q2KWtApLOmVJ4bf0t5PHHMvwPdAx-Hv4eLR6ox8nbPA1mHGi3n1AThulfc4qLbJujKntm0-kNpOyQIOB5wpZYNyZNhjE75D8hv1Y15C8feZShtiaPnMPkzJVuYLOzQCX0uS1OxCxdynLagEEzwT73fuH6jR7YcTLVfWxDsB2dUAiAFsNoBFvZnLqF4ZNwbuDjKFjhSr50UtEQSkIBdv8FFC7sAdwD6Fav9iHocGozhgXP08JtaO7E7Mjr8ay-oZuNQafu3HSyxWzVMBxiw.jpg",
+          "thumbnail_path": "channels/ircfspace/media/21d18cc29316c4f72c5556ff.jpg",
+          "thumbnail_sha256": "b1c9f34bc3bc927adea02627f8b310dfd88a958d896834ab296da5c966a5088d",
+          "duration_label": null,
+          "aspect_ratio": 1.7716346153846032
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "33"
+        },
+        {
+          "emoji": "❤",
+          "count": "12"
+        },
+        {
+          "emoji": "💯",
+          "count": "2"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        },
+        {
+          "emoji": "🤬",
+          "count": "1"
+        }
+      ],
+      "views_label": "2.48K",
+      "posted_at": "2026-10-05T20:27:12+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2652",
+      "reply": null
+    },
+    {
+      "id": "ircfspace/2651",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/gF1sNwP0A5nzVO6lA5LZJ9k04-GhdP_t4zquSOBE2SaMZLjcqWWRLObKZtqZCJQMMME-KdZlIOKVCFusBwuoDbyPYybTqRQWH-R8Lv55X0vZBJaPzbHabiONC97s7dJXiNCqVjq4hrVHgoSrtDvavFS4DQNHRwj2a5clvofPvQw8QwOR2uXXrg_j46evyj3tx76B1nPdwgclYdj2bXMLcBtAXgnLoYw1IroTS4u_5mmswxcjEWpvpDhgNvtafP7Z_2RTjubZpLXGTBEs4a57lE3boDcTIqY4_qmJqC6KkuXHisGlH4J9USMCvB1LTdTSR7aFTvHboD2Jvb6GfyzTxw.jpg",
+      "author_photo_path": "channels/ircfspace/media/a811646b71dda4a2dc874d11.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "فیلترشکن دیفیکس توی جدیدترین بروزرسانی خودش قابلیت تانل‌کردن کل سیستم رو بصورت آزمایشی برای ویندوز و لینوکس اضافه کرده.<br>در این بروزرسانی عملکرد کلی تانل بهبود پیدا کرده، مشکل نمایش پرچم کشور محل اتصال رفع شده و چند ایراد جزئی برطرف شدن. این نسخه درحال حاضر روی گیت‌هاب و گوگل‌پلی منتشر شده و بروزرسانی مایکروسافت‌استور و اپل‌استور هم بعد از تکمیل ریویو، در دسترس عموم قرار می‌گیرن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://defyxvpn.com/download\" target=\"_blank\" rel=\"noopener\">defyxvpn.com/download</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "فیلترشکن دیفیکس توی جدیدترین بروزرسانی خودش قابلیت تانل‌کردن کل سیستم رو بصورت آزمایشی برای ویندوز و لینوکس اضافه کرده.\nدر این بروزرسانی عملکرد کلی تانل بهبود پیدا کرده، مشکل نمایش پرچم کشور محل اتصال رفع شده و چند ایراد جزئی برطرف شدن. این نسخه درحال حاضر روی گیت‌هاب و گوگل‌پلی منتشر شده و بروزرسانی مایکروسافت‌استور و اپل‌استور هم بعد از تکمیل ریویو، در دسترس عموم قرار می‌گیرن.\n\n👉 defyxvpn.com/download\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2651",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ieaEOUj_zZNW0VEO8wHc6RloEtjSCXK3iIgUrbvyvKpEtbzckjB3Wuo6cchpzo3A16zPd5-44laUk4flqbTXxyZXQk5V4B15buhP6J8p4JDeiFdC2mkjU4AYMshHnWtxwex73NF2sxpOQh8oUuY7p3DzICu4ESr6PHLNGZZZY2Cx1YzUxD-EssTMvvkvJGNMpPAM_ixNXFDo_XDhjBP16ZkR9zJJZ59IzdVu2gMNEmrGf2h2GXsvzA_flRfEARqp--GJvh8EOWf9HobhZBshZsvAIBCYOHeDPz8jb8KkABSxJuE74YZ2UrVW0Wx42aK2fBt-6pQhJptb3NdMDVPVAg.jpg",
+          "thumbnail_path": "channels/ircfspace/media/16b9a1a5f9defd0a811f0a69.jpg",
+          "thumbnail_sha256": "25eda69cf1e6b7429f59f581523b17605dc6dc53d97d8ac1a3cc533de78cfb29",
+          "duration_label": null,
+          "aspect_ratio": 1.6014851485148618
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "52"
+        },
+        {
+          "emoji": "👍",
+          "count": "7"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        },
+        {
+          "emoji": "🗿",
+          "count": "1"
+        }
+      ],
+      "views_label": "5.11K",
+      "posted_at": "2026-10-05T20:04:17+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2651",
+      "reply": null
+    },
     {
       "id": "ircfspace/2650",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -35,30 +129,30 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "373"
+          "count": "411"
         },
         {
           "emoji": "😁",
-          "count": "59"
+          "count": "62"
         },
         {
           "emoji": "🤡",
-          "count": "29"
+          "count": "32"
         },
         {
           "emoji": "👎",
-          "count": "5"
+          "count": "7"
+        },
+        {
+          "emoji": "❤",
+          "count": "4"
         },
         {
           "emoji": "🗿",
           "count": "4"
-        },
-        {
-          "emoji": "❤",
-          "count": "3"
         }
       ],
-      "views_label": "12K",
+      "views_label": "14.3K",
       "posted_at": "2026-10-05T14:32:51+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2650",
@@ -88,30 +182,30 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "367"
+          "count": "391"
         },
         {
           "emoji": "😁",
-          "count": "32"
+          "count": "36"
         },
         {
           "emoji": "❤",
-          "count": "25"
+          "count": "27"
+        },
+        {
+          "emoji": "👎",
+          "count": "4"
         },
         {
           "emoji": "🔥",
           "count": "4"
         },
         {
-          "emoji": "👎",
-          "count": "3"
-        },
-        {
           "emoji": "🎉",
           "count": "3"
         }
       ],
-      "views_label": "12.9K",
+      "views_label": "14.8K",
       "posted_at": "2026-10-05T14:23:09+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2649",
@@ -141,11 +235,11 @@
       "reactions": [
         {
           "emoji": "🤡",
-          "count": "354"
+          "count": "379"
         },
         {
           "emoji": "🤬",
-          "count": "36"
+          "count": "37"
         },
         {
           "emoji": "😁",
@@ -164,7 +258,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12K",
+      "views_label": "13.7K",
       "posted_at": "2026-10-05T14:15:55+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2648",
@@ -194,11 +288,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "93"
+          "count": "102"
         },
         {
           "emoji": "👍",
-          "count": "7"
+          "count": "9"
         },
         {
           "emoji": "👎",
@@ -217,7 +311,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "13.3K",
       "posted_at": "2026-10-05T14:11:02+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2647",
@@ -247,15 +341,15 @@
       "reactions": [
         {
           "emoji": "🤡",
-          "count": "442"
+          "count": "473"
         },
         {
           "emoji": "😁",
-          "count": "41"
+          "count": "42"
         },
         {
           "emoji": "🤬",
-          "count": "24"
+          "count": "26"
         },
         {
           "emoji": "🔥",
@@ -290,7 +384,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.5K",
+      "views_label": "12.7K",
       "posted_at": "2026-10-05T14:05:13+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2646",
@@ -320,11 +414,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "172"
+          "count": "181"
         },
         {
           "emoji": "❤",
-          "count": "16"
+          "count": "18"
         },
         {
           "emoji": "😢",
@@ -335,7 +429,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.3K",
+      "views_label": "14.7K",
       "posted_at": "2026-10-05T13:58:32+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2645",
@@ -355,8 +449,8 @@
           "asset_url": "https://t.me/ircfspace/2644",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/iRNMis6MwNjJOeIwf_n6XfeErJecTC_kI3-p-1IMCk1Ce18QItaxbg2ijTLkHPFOl-6sqUrl91y9YqsjbLRMujWD8IkqXSSWdZ-fHwNtYwN1mMPLLr7uY8vENk_II2Z9EKln9R10wtVQklT5-vp3CLhXcp2S37AbA3oA0s11ckIgu_2GJ70HdCeS0ll9Y1u84rEWjFUHXhIBknISNMwZWEWj2xYCclYjwQ7fLOsp8Wmo2UZWXC_K7qehFfmWle6eTI-qm3TZdIfedieM5S2N-FLWZDqmycX-rG-lp34TumhpLKWfW2UUmY3oMcNPXZzWlmIU3akIvpNCrWMzPpzJiQ.jpg",
-          "thumbnail_path": "channels/ircfspace/media/708e7ce9bb8d992f3288c075.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ORnksidqJ-APN29a8ccIOFWb7Q1WcMpWnZ6t_MyCHZkS3V6F3mLWgPZFxe5u-oMaSzPDY7RvEb9fZft6XnxIHh42Y0sBFmCbTiYDGffgPqHLnYgjB4Nbmr1ESMuVgCLE1yf2zAGrXbw9SSMe8f3M7HOrjj05cdQUsogNBE9ru5t8JG3ggDFLyEBolUPOF06ixkeA71G_xxkTrpT3m6B9d-P7_kctZZrU_j_5aNHdKbQJSvY0nnqoKWeXWJWJZ5xiG3OTUWLLciRz6_cm1lXeMBHZ1P0ESr5zbOjg7CndpWwdQWS0otvRc7q2JPYGTW14zmiO5Xm-jalGKU2FMLxtsQ.jpg",
+          "thumbnail_path": "channels/ircfspace/media/484772813b35205b993f89bb.jpg",
           "thumbnail_sha256": "cb74f408f1e9523478e0c0cc71c06c2a53834e373cc0f6da9e0714a96a8fec9b",
           "duration_label": null,
           "aspect_ratio": 1.4471243042671635
@@ -369,7 +463,7 @@
         },
         {
           "emoji": "❤",
-          "count": "141"
+          "count": "144"
         },
         {
           "emoji": "👍",
@@ -377,7 +471,7 @@
         },
         {
           "emoji": "👎",
-          "count": "23"
+          "count": "24"
         },
         {
           "emoji": "😁",
@@ -396,7 +490,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.3K",
+      "views_label": "19.8K",
       "posted_at": "2026-10-04T20:08:08+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2644",
@@ -416,8 +510,8 @@
           "asset_url": "https://t.me/ircfspace/2643",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/liMxvMn2OO-3Le5_zs_H0chLRPRbhzBeqBL_EcR7dPgsR0g7xz6JAx4NW5mFjdntI_Hr-G6rzERNfV6C0F2MRF3Qg2wARCbRuZSlHaD-SPupl27T2bhcksNlMYebTvHxro5S73gHTfmnH8WtdBgvPzIa6Q_dnREcpvjQmrQjqag-WyMSui_yrCzgCfu6SDioJ00gT8wUEJNtp-y7YcUgl0TcsH5TWcP3phbiuhw881X4MVUhXepWdTmpG-0t4F_LE8w7hEE8HRj6xP_9uxJKQvpdo37PFHhUON3PlRmzLqFtVJslb6sT9XVsJ8icgPgB0cFwnusAiTO7Eoq7f4HQ1g.jpg",
-          "thumbnail_path": "channels/ircfspace/media/ff102b2b5ffb58915753b4b7.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Fdx1VMeSUn1rc9YrB8tBWQM-n_dASEuR9HSCkse7vjS0wsPMzPtT4SU6HAAeuse8522OXaYwoG5QPZuKwHsBfE1aluT6VifIQRXn2CGACjufZjVrqYLeG4sAb_TIMRUrfjI6nIKqaXNrV3q6lKJltITBBVgm8eg1wb7vOJ0JJEoiZbS_O33lnHHvZC_kxYMEUVQGe0X8KJFn6WXCuqiVCd_yauglK4H826225tTnJ7TiqKlEiSiBZpF83wW1moCvpPK_sUf7JeJuhT6XLYUMbqMn8gpZTmn7jlSZwaKdhLautQq8iNZGaUMOsRWXCI3CrVmkwhzkqpQTowyvARSXOg.jpg",
+          "thumbnail_path": "channels/ircfspace/media/004c13aa328b983b6bb6eeaa.jpg",
           "thumbnail_sha256": "5667889e21d34ab723c9a8fe1f6892c0d263387af7ba6e36060203f66bc2a56d",
           "duration_label": null,
           "aspect_ratio": 3.1372549019607843
@@ -426,11 +520,11 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "358"
+          "count": "361"
         },
         {
           "emoji": "😢",
-          "count": "26"
+          "count": "27"
         },
         {
           "emoji": "❤",
@@ -457,7 +551,7 @@
           "count": "2"
         }
       ],
-      "views_label": "52.6K",
+      "views_label": "53.8K",
       "posted_at": "2026-10-04T20:01:32+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2643",
@@ -477,8 +571,8 @@
           "asset_url": "https://t.me/ircfspace/2642",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/U4FW7cVK4Si8dNvIZYomQYbZWHuXbJxN5JBMECnw5XHm-Ayq_bGPKH9zODdmtMD7_L43Dj67ab3SIXzVvmHocFeKs8Zgyko_vJboLbbQrzFWR9orsHWYulYCvw_0qjtwyAPWYm1G6bSc7igHFmyrv2dhJJFpqG4kDuaLyquVHMEZ2U6CbIfFlM1m72kgb4zR353N7uV7yCoMh059BE_W5BrrZozMav7OLUYONfoIMbTj6vHcV43kxtyEOv0D0p3UfD0wDs3mSS9cLqhUVPp_oliqfHdX1lG5aZ_ynj_JdWFwnjNRQWGf1ogTk22zmOzZ2elg2k3TVXJXux_py441Cg.jpg",
-          "thumbnail_path": "channels/ircfspace/media/adab1cd7f1b14fad7a156e05.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/lXd8pDiVWP9kiJgfBwx-lIm_r6tdBFCLYBDMWcIth2kJaW7zUmo3I2jncTO5o1JY5RQsikjepYdHSgtbbrTJNBDCqDOPKZfaoOukYSp8eMGE9V4oJHFDi31xPF7LdRpNi4CYV-4_zs6D2R_53CmlQwbwDp5Zuix7hk1rj3admzfHJBO1a1SRKtWz9_GRLyuvH_Xu-8FInIa1LckMkAkWlbrO79O-6MYcR3mZaX3zEbq-T3ngaObI9GznyL5-WgexAjTBTipIVZqryi-nwJzcFBqhCMgBqFTu-n2-Ov5ldwsDDUL7CoeqjtpSuXcUY7yJaYXaWlkn0xcthEPg7D9rng.jpg",
+          "thumbnail_path": "channels/ircfspace/media/e21a788d75c6f7eb8ed1d17e.jpg",
           "thumbnail_sha256": "9a2638d0e194b9489161800c73103dd3e668295ef70f14fc42c0e87b5e65c59d",
           "duration_label": null,
           "aspect_ratio": 1.7777777777777777
@@ -491,7 +585,7 @@
         },
         {
           "emoji": "❤",
-          "count": "149"
+          "count": "151"
         },
         {
           "emoji": "👏",
@@ -510,7 +604,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.3K",
+      "views_label": "18.7K",
       "posted_at": "2026-10-04T19:49:31+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2642",
@@ -563,7 +657,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.2K",
+      "views_label": "18.6K",
       "posted_at": "2026-10-04T19:35:05+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2640",
@@ -597,7 +691,7 @@
         },
         {
           "emoji": "👍",
-          "count": "213"
+          "count": "214"
         },
         {
           "emoji": "❤",
@@ -640,7 +734,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.8K",
       "posted_at": "2026-10-04T04:52:18+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2639",
@@ -709,7 +803,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.2K",
+      "views_label": "26.3K",
       "posted_at": "2026-10-02T16:12:34+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2638",
@@ -746,7 +840,7 @@
           "count": "6"
         }
       ],
-      "views_label": "24.6K",
+      "views_label": "24.8K",
       "posted_at": "2026-10-02T15:56:29+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2637",
@@ -807,7 +901,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.6K",
       "posted_at": "2026-10-02T15:39:07+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2635",
@@ -852,7 +946,7 @@
           "count": "5"
         }
       ],
-      "views_label": "43.6K",
+      "views_label": "43.9K",
       "posted_at": "2026-10-02T15:27:59+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2634",
@@ -905,7 +999,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "25.9K",
       "posted_at": "2026-10-01T15:33:23+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2633",
@@ -935,7 +1029,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "414"
+          "count": "415"
         },
         {
           "emoji": "🤬",
@@ -970,7 +1064,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.3K",
       "posted_at": "2026-10-01T15:26:59+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2632",
@@ -1019,7 +1113,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.9K",
+      "views_label": "26.4K",
       "posted_at": "2026-10-01T15:21:49+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2631",
@@ -5855,132 +5949,6 @@
       "posted_at": "2026-08-12T06:15:29+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2548",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2547",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/g2UosGblRzEnnRTiUVVxC_u_TlZB8mVBbYE7RqC1dUqALspYotsJOmcI15gYSDYDkgGLZQey30AZdW9TxcsH-4knggg0EUyfXUmfyccPT13xK_G958iJskWxjRCZIJtWWTO2KhTndDcjlCoj3vbHcY-F5Yz2wZ7V6dF0MV8_PeCM2nEJQV0nqLFNQqj2w2t7XpqaeJv8c9NNeVSo9_0eQtiKkxMNXgHhn6ATFpCtHxABkiZFQRLaT1pQgye72bblcFPes79etwxUfM5ZAFDmHcq1xzzJitLiAXNo9ZtXiIHSasgSTxH78ui_ww6-qy6k-In0uvMDRG7JoL9lyELgdw.jpg",
-      "author_photo_path": "channels/ircfspace/media/368e0c23b4e7e50279046fb3.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "همزمان با قطع سراسری اینترنت و نابودی هزاران شغل، هزار میلیارد تومان به پیامرسان‌های رانتی کمک کرده بودن! همون پیامرسان‌ها در عین دریافت پول بیت‌المال، اختلال داشتن، ثبت‌نام جدید نمی‌گرفتن، محدودیت‌های تازه گذاشته بودن و چشم‌وچار مارو با تبلیغات کور میکردن!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "همزمان با قطع سراسری اینترنت و نابودی هزاران شغل، هزار میلیارد تومان به پیامرسان‌های رانتی کمک کرده بودن! همون پیامرسان‌ها در عین دریافت پول بیت‌المال، اختلال داشتن، ثبت‌نام جدید نمی‌گرفتن، محدودیت‌های تازه گذاشته بودن و چشم‌وچار مارو با تبلیغات کور میکردن!\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2547",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Vlj94TcIiwuN1BYQp8fqFM_H8FdbkZvr-fdsHyzXPK8Kb-5kMlQJdGLiMhUecj2FV88qaSGwojCTrKeiMgD7bOChQNReL2o12zGM2zVSymkFazQ93hge3vVeXhWwkCzYHoOEBxg-MsozlaCSFpL-_Sh13-2Q8kSMycsKjvGSraGhvtpYxuSB--wTu6tUnUvG0YIaopTVYb8GGTVh7ag9iZ-m2pWESQAo7TMCGMtNJMShV_YiLKUoLzmVsuan6_EnGh6ryDCCSZg3vteukcFbsZ8bnBGiMfQk09J7wovBhyH4rTSL6nBGu-WIonhwonWKg-byBI0QTF4de74xz8SaFw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/960c58b0496a8fabc4df1661.jpg",
-          "thumbnail_sha256": "eddeed9dacc105ad20ee3125e91df212d2d06ad896f6703161c8c430a1e5c119",
-          "duration_label": null,
-          "aspect_ratio": 1.6467532467532517
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "🤬",
-          "count": "536"
-        },
-        {
-          "emoji": "👍",
-          "count": "31"
-        },
-        {
-          "emoji": "🤡",
-          "count": "20"
-        },
-        {
-          "emoji": "❤",
-          "count": "11"
-        },
-        {
-          "emoji": "🥴",
-          "count": "1"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        }
-      ],
-      "views_label": "32.2K",
-      "posted_at": "2026-08-12T06:06:18+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2547",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2546",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Xc4b0Rd8NQl4QnYm4K_i0LPvF2pu_qOiXRVrIYvQHsOEnSrmEEfygK3LcdT890YksKlnrRC01Xm5A0EUa3veAnHaWTkjpz1xiD66D59AWZ-SqzQHY4qb_LIgV0BpscJdyCRG3t2lh6TiXCxNT_pFzztyUk0RvBjGaWmuX2M2ocaF30PRO9MEwDoLuX1fyC1HtNpfUjee11cIyGsZELlxBWU7cSoFAxyFdPttn5tiZZjLD9hcEqMgmcwAurLX7evoAyFdzu-ih42lrPOprOAfjBn41S8wG9EDJQsuhlF8W2e5zGD3tG3AEQ1pFn_AUC7B71IKtlCR7uobKWruP8-ETg.jpg",
-      "author_photo_path": "channels/ircfspace/media/9ca1e0b37bec970e5455fe6d.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "متاسفانه عده‌ای از عناصر فرصت‌طلب سودجو عنوان می‌کنن اینترنت قوی و زیبای ما گران شده است. برای شفاف سازی میگم بسته‌ای که شش ماه پیش خریدم 1,348,000 تومان، الان شده 3,870,000 تومان. قیمت فقط ۳ برابر شده، گران نشده. <br>بنده هم با ارائه سند میگم اینترنت گران نشده، فقط ۳ برابر شده!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> mrweb24<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "متاسفانه عده‌ای از عناصر فرصت‌طلب سودجو عنوان می‌کنن اینترنت قوی و زیبای ما گران شده است. برای شفاف سازی میگم بسته‌ای که شش ماه پیش خریدم 1,348,000 تومان، الان شده 3,870,000 تومان. قیمت فقط ۳ برابر شده، گران نشده.\nبنده هم با ارائه سند میگم اینترنت گران نشده، فقط ۳ برابر شده!\n\n© mrweb24\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2546",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/S2cYjBzDzB6PMPFneFz0oyYKyMMeCUGCGHP_TmEPT8UQRKQvIPshwoI5LNrtIswCtXFrUwAaigdVsFhLewCAiJW8lDBx0edhZ1MHhttYFCE_jWw1uX90X2N42hHXmF3ZletOPNQBIbacIf5QFqaZ4DP4KI2Q7hIgroH08EMizz0iJh5bShQulkaVtr__YBnAWH7vraUUvdYrSFvPLgq2IWUPgidt4-cQWhhhi7Tt0ZJpz2yIAWPChUZWIk6T08arV4GVXop0bI0WflY2scA_mkgzk9vVe7YoA3WYD9YZjRJeHKRjc1O8Hsw-b9P8c56_6jdIGAjSAj-wVG2kfOpiyw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/85cc62d349c6a05605e04ae5.jpg",
-          "thumbnail_sha256": "83e8a26a9e4dd2c49e291702a7518226f98ac6232547adb1471d89d1fff6a89c",
-          "duration_label": null,
-          "aspect_ratio": 1.095890410958904
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "👍",
-          "count": "492"
-        },
-        {
-          "emoji": "🤬",
-          "count": "281"
-        },
-        {
-          "emoji": "😐",
-          "count": "24"
-        },
-        {
-          "emoji": "❤",
-          "count": "21"
-        },
-        {
-          "emoji": "😁",
-          "count": "17"
-        },
-        {
-          "emoji": "😢",
-          "count": "8"
-        },
-        {
-          "emoji": "🤡",
-          "count": "6"
-        },
-        {
-          "emoji": "🗿",
-          "count": "6"
-        },
-        {
-          "emoji": "😱",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        }
-      ],
-      "views_label": "40K",
-      "posted_at": "2026-08-09T16:21:35+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2546",
       "reply": null
     }
   ]
