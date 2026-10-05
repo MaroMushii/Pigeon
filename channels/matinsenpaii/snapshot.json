@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-05T12:57:30.898Z",
+  "fetched_at": "2026-10-05T13:02:34.844Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,51 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5516",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/uAj2DTXDjAe4pRFL24yBkLMkxRmUc2UWoYthDhPYXSFTZcAJTe3Zb1HcmiLJHYAkIJLXZxRCpL0u0oLzeAdfi6iJ-vrnfB6atwwWWwI5A0c2wda5HqcEPcCa8VPqgrzirRZQL4CS7fwjTm3C9f_2DeR7Fp7BZbRJJVEG6CgUlEoEg0QGnbbL2CiwAEYJ2916EdZ2RqRM2L0mNzw5X83ExOKqSSNJ-uk09hnrUpm9TruHAtDQBc6EpRFhl5BwxHUD2bFXAknvgsilxJ1ryZ_c45TDVa9_TMts_V1TqUFudfhmdFvCb6tZd9IHFJMtVcx2YbierMI6Nj_htRbkF80Jfw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/ffec9d859c75faf6e4fe0412.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "خدا رو شکر اوکی شد<br>مشکل اینجا بود که سرور ایران، دیتای اتصال‌هایی که از خارج شروع نمی‌شن رو نمی‌پذیرفت. و با همون قضیه ssh هم میشد فهمید<br>و حتی تانل هم \"اتصال\" رو نشون میداد که به خاطر هندشیک کوچولویی بود که رد میشد<br>و الان اتصال از خود ایران به خارج شروع میشه و همه چیز اوکیه فعلا<br>این روش فقط mux و reconnect نداره اما چون فورواردش توی کرنله، چیزی برای قطع شدن نداره عملا.",
+      "plain_text": "خدا رو شکر اوکی شد\nمشکل اینجا بود که سرور ایران، دیتای اتصال‌هایی که از خارج شروع نمی‌شن رو نمی‌پذیرفت. و با همون قضیه ssh هم میشد فهمید\nو حتی تانل هم \"اتصال\" رو نشون میداد که به خاطر هندشیک کوچولویی بود که رد میشد\nو الان اتصال از خود ایران به خارج شروع میشه و همه چیز اوکیه فعلا\nاین روش فقط mux و reconnect نداره اما چون فورواردش توی کرنله، چیزی برای قطع شدن نداره عملا.",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5516",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/QjwaQfD4oA_Vo7worOjv1jCDm8a1mQrxDLj3BTZbMHGpAGcSXU7gqD1aFqJ1rpCDlXDCHAyH_RJdVgssxPON9tpSAgJ9fT3uoh_ALXJc3mLSVtYVWPOPx0ZVeQCjjbGUGk0s6Ky9lCPZPWIJpf16PqU2QtC0dIGKoD78GUZL-z6q1En_0wvSnKL7i8-p03J8lnc4NQFcE0Nxgi4CVlgMcWG3DdRaOs8bXr0OaMPnbMaBWn9ejuaYPuHYVu87Q2DbAuqcT9W25SReKE2s3lo3gcKnPNCrROdFuTfdfvj5rpH0ff1ZOsTc7Sr2p8OrA1s8D1oRQ8QhfTEIM1oYp3E-sw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/ade21d8f230bcc3cfa5a20fe.jpg",
+          "thumbnail_sha256": "b9e79c0d64a33f410b8e724b2d914b9fdbdb7771fcda95ea2563620c121afe6f",
+          "duration_label": null,
+          "aspect_ratio": 1.7500000000000044
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "😁",
+          "count": "7"
+        },
+        {
+          "emoji": "👍",
+          "count": "5"
+        },
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "💔",
+          "count": "1"
+        }
+      ],
+      "views_label": "650",
+      "posted_at": "2026-10-05T13:01:35+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5516",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5515",
       "author_name": "Matin SenPai",
@@ -34,15 +79,23 @@
       ],
       "reactions": [
         {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
           "emoji": "💔",
-          "count": "28"
+          "count": "96"
         },
         {
           "emoji": "👍",
-          "count": "16"
+          "count": "26"
         },
         {
           "emoji": "😁",
+          "count": "10"
+        },
+        {
+          "emoji": "🆒",
           "count": "4"
         },
         {
@@ -52,13 +105,9 @@
         {
           "emoji": "💯",
           "count": "1"
-        },
-        {
-          "emoji": "🆒",
-          "count": "1"
         }
       ],
-      "views_label": "945",
+      "views_label": "3.61K",
       "posted_at": "2026-10-05T12:56:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5515",
@@ -85,7 +134,7 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "105"
+          "count": "114"
         },
         {
           "emoji": "👍",
@@ -93,7 +142,7 @@
         },
         {
           "emoji": "😁",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "❤",
@@ -104,7 +153,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.8K",
+      "views_label": "13.1K",
       "posted_at": "2026-10-05T11:14:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5514",
@@ -131,22 +180,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "159"
+          "count": "168"
         },
         {
           "emoji": "👍",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "😁",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "🦄",
           "count": "2"
         }
       ],
-      "views_label": "13.6K",
+      "views_label": "14.4K",
       "posted_at": "2026-10-05T11:01:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5513",
@@ -164,11 +213,11 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "1.34K"
+          "count": "1.36K"
         },
         {
           "emoji": "😁",
-          "count": "60"
+          "count": "61"
         },
         {
           "emoji": "❤",
@@ -191,7 +240,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.9K",
+      "views_label": "22.6K",
       "posted_at": "2026-10-05T09:09:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5512",
@@ -209,14 +258,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "82"
+          "count": "85"
         },
         {
           "emoji": "❤",
           "count": "3"
         }
       ],
-      "views_label": "21.6K",
+      "views_label": "22.3K",
       "posted_at": "2026-10-05T09:00:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5511",
@@ -246,11 +295,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "298"
+          "count": "301"
         },
         {
           "emoji": "💔",
-          "count": "190"
+          "count": "191"
         },
         {
           "emoji": "❤",
@@ -273,7 +322,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.6K",
+      "views_label": "23.9K",
       "posted_at": "2026-10-05T04:53:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5510",
@@ -318,7 +367,7 @@
           "count": "2"
         }
       ],
-      "views_label": "33.3K",
+      "views_label": "33.6K",
       "posted_at": "2026-10-04T21:59:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5509",
@@ -340,7 +389,7 @@
         },
         {
           "emoji": "💔",
-          "count": "670"
+          "count": "673"
         },
         {
           "emoji": "👍",
@@ -359,7 +408,7 @@
           "count": "4"
         }
       ],
-      "views_label": "32.3K",
+      "views_label": "32.5K",
       "posted_at": "2026-10-04T21:19:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5508",
@@ -388,7 +437,7 @@
           "count": "15"
         }
       ],
-      "views_label": "33.8K",
+      "views_label": "33.9K",
       "posted_at": "2026-10-04T17:23:16+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5507",
@@ -438,7 +487,7 @@
           "count": "3"
         }
       ],
-      "views_label": "33.6K",
+      "views_label": "33.8K",
       "posted_at": "2026-10-04T17:20:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5506",
@@ -465,7 +514,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "137"
+          "count": "139"
         },
         {
           "emoji": "😁",
@@ -480,7 +529,7 @@
           "count": "4"
         }
       ],
-      "views_label": "34.1K",
+      "views_label": "34.2K",
       "posted_at": "2026-10-04T14:42:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5505",
@@ -519,7 +568,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "164"
+          "count": "165"
         },
         {
           "emoji": "❤",
@@ -538,7 +587,7 @@
           "count": "5"
         }
       ],
-      "views_label": "33.6K",
+      "views_label": "33.7K",
       "posted_at": "2026-10-04T13:29:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5504",
@@ -571,7 +620,7 @@
           "count": "5"
         }
       ],
-      "views_label": "31.8K",
+      "views_label": "31.9K",
       "posted_at": "2026-10-04T12:56:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5503",
@@ -625,7 +674,7 @@
           "count": "1"
         }
       ],
-      "views_label": "33.7K",
+      "views_label": "33.8K",
       "posted_at": "2026-10-04T12:08:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5502",
@@ -658,7 +707,7 @@
           "count": "5"
         }
       ],
-      "views_label": "28K",
+      "views_label": "28.1K",
       "posted_at": "2026-10-04T10:20:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5501",
@@ -688,7 +737,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "209"
+          "count": "210"
         },
         {
           "emoji": "👍",
@@ -707,7 +756,7 @@
           "count": "5"
         }
       ],
-      "views_label": "34.9K",
+      "views_label": "35K",
       "posted_at": "2026-10-04T10:01:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5500",
@@ -744,7 +793,7 @@
           "count": "12"
         }
       ],
-      "views_label": "26.4K",
+      "views_label": "26.5K",
       "posted_at": "2026-10-04T09:55:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5499",
@@ -797,7 +846,7 @@
           "count": "3"
         }
       ],
-      "views_label": "28.8K",
+      "views_label": "28.9K",
       "posted_at": "2026-10-04T09:01:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5498",
@@ -4542,48 +4591,6 @@
         "thumbnail_path": null,
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/5396"
-      }
-    },
-    {
-      "id": "MatinSenPaii/5404",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/E2K-c0os9-UHJpv4ynaJUeSZ36tCo_BzDR_FNVfkgyJR_psJr8o3ldBo5ZGZ6fNV5gtzY_EOrY0v5COI0qDUnnKwPeMlP9lreuHlNmO1Yl3BaSIDTgNX5TG1WosxzbSY1kDTPcuTjWOKRlnbMPqW0M-LFv-yh5WFxX_yXuJhRLHj2xw_WSjJseGnHZSwWGw6NpzgWFxtESQU7xxfQMrSmAJoBv3GMZ4smhPgXEcanys843W4j7I62D7ADNn8ydEiUKbnAnKStbr8FtBIJLCuFJgCq0auv9zfNOTDg5GKGK3pdx2dq5cYcg2eh3XYY9_wLQtOwVvUFyaBorMK8xpQWA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/d1f749370dc90c58e9c0bbb2.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "سعی کنید هیچوقت پرامپت کپی نکنید برای هیچ چیزی. بخونید، تغییر بدید، بپرسید و بفهمید پس‌زمینه چه کاری داره انجام میشه.",
-      "plain_text": "سعی کنید هیچوقت پرامپت کپی نکنید برای هیچ چیزی. بخونید، تغییر بدید، بپرسید و بفهمید پس‌زمینه چه کاری داره انجام میشه.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "217"
-        },
-        {
-          "emoji": "❤",
-          "count": "28"
-        },
-        {
-          "emoji": "😁",
-          "count": "7"
-        },
-        {
-          "emoji": "🦄",
-          "count": "4"
-        }
-      ],
-      "views_label": "24.1K",
-      "posted_at": "2026-09-28T18:00:08+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5404",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5403",
-        "author_name": "Matin SenPai",
-        "preview_text": "389 تا ویدئوی ساخته‌شده با Opus 5.5 از موشن‌گرافیک و ویدیوهای توضیحی گرفته تا صحنه‌های ۳D و بازی. هم ویدیو اصلی و هم ریمیک رو می‌تونید کنار هم ببینید، پرامپت‌ها رو هم مستقیم کپی کنید. https://skillry.dev/ai-videos/opus-5-5 ✍️ai_ba_reza",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/NDdBITWS_9YIINKu9EQ98MRuo6xsQgvpXwadYZTBqP8cE6pl8JImm3Dh4f-y_cbSm_0M-yoVqmAGixyp9xsgd5ahUtdo6amd5T8WPr7iM6g1mYcUcbeaU2Sukb2JjgKyiJpo1V5u1SUYOHCfrdFW54AlSP154QCRLfiM2y8kF6GjRCdd0t8f02Vl1sQ0GTYfVD2De9vHxMKRYdhfBLUe0Gy18Se1QfNt4jvARvT5EbcNfMpR90B-LRQ9V7Hsq6z8u8RF6_gWfGT8-BSCpWkz5jEt_Jlip6V8RM_1b1tC5IobJpNNIiIU2Yg0wNgVSDnP7FLk5PHBid9JbDofHMEQ1w",
-        "thumbnail_path": "channels/matinsenpaii/media/83de88e8d5b09cce0378fd32.jpg",
-        "thumbnail_sha256": "f35ce0c7456edec613a7b37b9ebbcce928632d2d180c0b412ec1d7328b1994c3",
-        "permalink": "https://t.me/matinsenpaii/5403"
       }
     }
   ]
