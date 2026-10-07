@@ -1,6 +1,99 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-07T04:02:42.247Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-10-07T04:08:16.935Z",
+  "succeeded": 0,
+  "failed": [
+    {
+      "username": "bbcpersian",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "bidarzani",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "daadbaan2021",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "dwpersian",
+      "error": "fetch failed"
+    },
+    {
+      "username": "farsi_iranwire",
+      "error": "fetch failed"
+    },
+    {
+      "username": "farsivoa",
+      "error": "t.me farsivoa: HTTP 502"
+    },
+    {
+      "username": "followupiran",
+      "error": "fetch failed"
+    },
+    {
+      "username": "durov",
+      "error": "t.me durov: HTTP 502"
+    },
+    {
+      "username": "iranintltv",
+      "error": "fetch failed"
+    },
+    {
+      "username": "iranlix",
+      "error": "fetch failed"
+    },
+    {
+      "username": "ircfspace",
+      "error": "t.me ircfspace: HTTP 502"
+    },
+    {
+      "username": "mamlekate",
+      "error": "fetch failed"
+    },
+    {
+      "username": "matinsenpaii",
+      "error": "t.me matinsenpaii: HTTP 502"
+    },
+    {
+      "username": "hranews",
+      "error": "fetch failed"
+    },
+    {
+      "username": "filter_watch",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "radiofarda",
+      "error": "t.me radiofarda: HTTP 502"
+    },
+    {
+      "username": "no_itsmyturn",
+      "error": "fetch failed"
+    },
+    {
+      "username": "sahamnewsorg",
+      "error": "t.me sahamnewsorg: HTTP 502"
+    },
+    {
+      "username": "persianvpnhub",
+      "error": "fetch failed"
+    },
+    {
+      "username": "tavaana_tavaanatech",
+      "error": "fetch failed"
+    },
+    {
+      "username": "telegram",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "vahidonline",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "username": "whitedns",
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
 }
