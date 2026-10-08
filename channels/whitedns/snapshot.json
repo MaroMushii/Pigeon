@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-08T08:12:20.783Z",
+  "fetched_at": "2026-10-08T08:17:52.297Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -23,14 +23,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "42"
+          "count": "43"
         },
         {
           "emoji": "👍",
           "count": "12"
         }
       ],
-      "views_label": "5.08K",
+      "views_label": "5.17K",
       "posted_at": "2026-10-08T05:11:42+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1929",
@@ -91,7 +91,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "84"
+          "count": "85"
         },
         {
           "emoji": "🙏",
@@ -102,7 +102,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.93K",
+      "views_label": "5.97K",
       "posted_at": "2026-10-07T21:26:17+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1926",
@@ -147,7 +147,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.3K",
+      "views_label": "4.32K",
       "posted_at": "2026-10-07T21:24:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1925",
@@ -512,10 +512,6 @@
       "plain_text": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)\n\nدر نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.\n\nبرای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.\n\nروشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.\n\nحمایت فراموش نشه 🙏",
       "media": [],
       "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
         {
           "emoji": "💔",
           "count": "158"
