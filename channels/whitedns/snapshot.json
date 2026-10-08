@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-08T16:17:24.879Z",
+  "fetched_at": "2026-10-08T16:22:21.914Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -57,7 +57,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.39K",
+      "views_label": "5.48K",
       "posted_at": "2026-10-08T14:10:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1931",
@@ -106,7 +106,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.32K",
+      "views_label": "5.41K",
       "posted_at": "2026-10-08T14:10:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1930",
@@ -124,7 +124,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "80"
+          "count": "81"
         },
         {
           "emoji": "👍",
@@ -231,7 +231,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.96K",
+      "views_label": "7.97K",
       "posted_at": "2026-10-07T21:26:17+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1926",
@@ -284,7 +284,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.68K",
+      "views_label": "5.69K",
       "posted_at": "2026-10-07T21:24:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1925",
@@ -504,7 +504,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.1K",
       "posted_at": "2026-10-04T10:05:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1920",
@@ -649,10 +649,6 @@
       "plain_text": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)\n\nدر نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.\n\nبرای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.\n\nروشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.\n\nحمایت فراموش نشه 🙏",
       "media": [],
       "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
         {
           "emoji": "💔",
           "count": "158"
