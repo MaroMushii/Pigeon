@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-09T15:33:46.806Z",
+  "fetched_at": "2026-10-09T15:38:06.342Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -35,10 +35,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "37"
+          "count": "41"
         },
         {
           "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "🤨",
           "count": "1"
         },
         {
@@ -46,7 +50,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.19K",
+      "views_label": "2.38K",
       "posted_at": "2026-10-09T15:07:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1936",
@@ -91,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.71K",
+      "views_label": "7.8K",
       "posted_at": "2026-10-09T11:20:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1935",
@@ -132,7 +136,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.92K",
+      "views_label": "7.95K",
       "posted_at": "2026-10-09T00:47:40+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1934",
@@ -181,7 +185,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.29K",
+      "views_label": "7.32K",
       "posted_at": "2026-10-09T00:47:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1933",
@@ -245,7 +249,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.8K",
+      "views_label": "12.9K",
       "posted_at": "2026-10-08T14:10:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1931",
@@ -853,6 +857,10 @@
       "plain_text": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)\n\nدر نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.\n\nبرای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.\n\nروشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.\n\nحمایت فراموش نشه 🙏",
       "media": [],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "💔",
           "count": "159"
