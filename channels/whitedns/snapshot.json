@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-09T00:42:37.426Z",
+  "fetched_at": "2026-10-09T00:47:55.132Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,38 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1934",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/rhoWiHMht30ahx5HEXiP5uxmubGRIbglKgm3mnyN1Y5S7kRS8bLfLPRdwLvzgQvYSLguewlpqTQj4b05VGbnbO62dMwWYzJcNpUN3XGcq6DQGOhQe_DxtAcewRjvOTE7AYZCZFc551vMLFc2Pu_Qy3j3UCNzO1fdd37Zr1Kc4Foi5l1WkApRK7aKTjxvXqSCimIMeiX_tigXVGqSRF5w3Be5VlVqjZKREziPRaNjC6sSm7-E8gaCxWSOjBeMdH52NlKiZ3MCNQBQTrlzoParRHhNVV2zZPy28Y3E6gg9xlbhoFL26gmb_PYgAOfbu5xPxC8X805KCrL8YUSd2B2R6g.jpg",
+      "author_photo_path": "channels/whitedns/media/ed79162dabfce0501ff17470.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-10-09T00:47:40+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1934",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1933",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/rhoWiHMht30ahx5HEXiP5uxmubGRIbglKgm3mnyN1Y5S7kRS8bLfLPRdwLvzgQvYSLguewlpqTQj4b05VGbnbO62dMwWYzJcNpUN3XGcq6DQGOhQe_DxtAcewRjvOTE7AYZCZFc551vMLFc2Pu_Qy3j3UCNzO1fdd37Zr1Kc4Foi5l1WkApRK7aKTjxvXqSCimIMeiX_tigXVGqSRF5w3Be5VlVqjZKREziPRaNjC6sSm7-E8gaCxWSOjBeMdH52NlKiZ3MCNQBQTrlzoParRHhNVV2zZPy28Y3E6gg9xlbhoFL26gmb_PYgAOfbu5xPxC8X805KCrL8YUSd2B2R6g.jpg",
+      "author_photo_path": "channels/whitedns/media/ed79162dabfce0501ff17470.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<a href=\"https://github.com/patterniha/PattNG\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">PattNG v2.3.10-P63</a><br><br>منتشر شد.<br><br><b>تغییرات اصلی</b>:<br><br>۱. با تغییرات انجام شده امکان اتصال به پروتکل MASQUE-HTTP/2 روی اکثر نت‌ها امکان پذیر شد.<br><br>همچنین پروتوکل جدید<br> Wireguard-Over-Masque (new gool) <br>اضافه شده، اتصال به این پروتوکل به شما ipی غیر ایران میده، در نتیجه برای دور زدن تحریم‌ها نیاز به چین کردن آن با سایفون و یا سایر کانفیگها ندارید (نوع HTTP/2ش رو اکثر نت‌ها وصل میشه).<br><br>۲. کانفیگ‌های اتر (warp/psiphon/tor) را اکنون میتوانید به سادگی از طریق exit-node با هر کانفیگ دلخواهی از همان منوی اتر چین کنید:<br>selected-config -&gt; warp/psiphon/tor<br><br>(برای برعکسش همچنان باید از قسمت add proxy chain اقدام کنید)<br><br>///<br><br>فرگمنت به طور کامل روی فایروال همراه اول حتی روی IPv6 هم بسته شد، در نتیجه فعلا تا انتشار متد جدید امکان استفاده از Serverless-for-Iran رو اکثر نت‌ها مقدور نیست (همچنان برای دسترسی مستقیم به یوتویوب برای سرعت و حذف تبلیغاتش میتونید از Mitm-DomainFronting استفاده کنید)<br><br>///<br><br>با توجه موارد بالا پست<br> <a href=\"https://t.me/patt_channel_x/166\" target=\"_blank\" rel=\"noopener\">https://t.me/patt_channel_x/166</a><br>هم آپدیت شد.",
+      "plain_text": "PattNG v2.3.10-P63\n\nمنتشر شد.\n\nتغییرات اصلی:\n\n۱. با تغییرات انجام شده امکان اتصال به پروتکل MASQUE-HTTP/2 روی اکثر نت‌ها امکان پذیر شد.\n\nهمچنین پروتوکل جدید\nWireguard-Over-Masque (new gool)\nاضافه شده، اتصال به این پروتوکل به شما ipی غیر ایران میده، در نتیجه برای دور زدن تحریم‌ها نیاز به چین کردن آن با سایفون و یا سایر کانفیگها ندارید (نوع HTTP/2ش رو اکثر نت‌ها وصل میشه).\n\n۲. کانفیگ‌های اتر (warp/psiphon/tor) را اکنون میتوانید به سادگی از طریق exit-node با هر کانفیگ دلخواهی از همان منوی اتر چین کنید:\nselected-config -> warp/psiphon/tor\n\n(برای برعکسش همچنان باید از قسمت add proxy chain اقدام کنید)\n\n///\n\nفرگمنت به طور کامل روی فایروال همراه اول حتی روی IPv6 هم بسته شد، در نتیجه فعلا تا انتشار متد جدید امکان استفاده از Serverless-for-Iran رو اکثر نت‌ها مقدور نیست (همچنان برای دسترسی مستقیم به یوتویوب برای سرعت و حذف تبلیغاتش میتونید از Mitm-DomainFronting استفاده کنید)\n\n///\n\nبا توجه موارد بالا پست\nhttps://t.me/patt_channel_x/166\nهم آپدیت شد.",
+      "media": [],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-10-09T00:47:39+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1933",
+      "reply": null
+    },
     {
       "id": "whitedns/1931",
       "author_name": "White DNS",
@@ -61,7 +93,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.04K",
+      "views_label": "9.05K",
       "posted_at": "2026-10-08T14:10:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1931",
@@ -110,7 +142,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.95K",
+      "views_label": "8.96K",
       "posted_at": "2026-10-08T14:10:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1930",
@@ -288,7 +320,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.3K",
+      "views_label": "6.31K",
       "posted_at": "2026-10-07T21:24:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1925",
@@ -5444,38 +5476,6 @@
       "posted_at": "2026-09-14T16:32:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1803",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1802",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/YJJX1JXd3Ippwz0p02Ukmycko_qarmit7hVc8QidQF10W8PNC4fSyQ9gYK36d812HAAHH5DqrlFDfc1ewiNP3IalyjzldPzXMWVhoNGpRcVFJFZHOsx_FpQ5sQN1nE0kVjf2geb9lxAbMUXCurNZVrgs7_p4pG5NdWLmkOUqXk_YitnT9TxYJU4789ZfTIrzskAZ1pjFylBEfPyo8lJRw8V14U6XWdwhLbsWhmj22YXFvhcd7fcpTkNNUg_KqoDo2td3tjeA2v4vWxhEUArq-UXCk11ockZtXLKH1ap-IuHAvcKlFiW3FM_nwlwlMth53bFupIO6ZilRNL22Q5XIvQ.jpg",
-      "author_photo_path": "channels/whitedns/media/c026d206890e5c9da1d6cd8a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "Live stream finished (57 seconds)",
-      "plain_text": "Live stream finished (57 seconds)",
-      "media": [],
-      "reactions": [],
-      "views_label": null,
-      "posted_at": "2026-09-14T16:31:48+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1802",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1801",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/YJJX1JXd3Ippwz0p02Ukmycko_qarmit7hVc8QidQF10W8PNC4fSyQ9gYK36d812HAAHH5DqrlFDfc1ewiNP3IalyjzldPzXMWVhoNGpRcVFJFZHOsx_FpQ5sQN1nE0kVjf2geb9lxAbMUXCurNZVrgs7_p4pG5NdWLmkOUqXk_YitnT9TxYJU4789ZfTIrzskAZ1pjFylBEfPyo8lJRw8V14U6XWdwhLbsWhmj22YXFvhcd7fcpTkNNUg_KqoDo2td3tjeA2v4vWxhEUArq-UXCk11ockZtXLKH1ap-IuHAvcKlFiW3FM_nwlwlMth53bFupIO6ZilRNL22Q5XIvQ.jpg",
-      "author_photo_path": "channels/whitedns/media/c026d206890e5c9da1d6cd8a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "Live stream started",
-      "plain_text": "Live stream started",
-      "media": [],
-      "reactions": [],
-      "views_label": null,
-      "posted_at": "2026-09-14T16:30:52+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1801",
       "reply": null
     }
   ]
