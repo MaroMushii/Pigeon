@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-09T17:38:02.276Z",
+  "fetched_at": "2026-10-09T17:42:53.424Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -35,7 +35,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "89"
+          "count": "90"
         },
         {
           "emoji": "🔥",
@@ -62,7 +62,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.36K",
+      "views_label": "5.42K",
       "posted_at": "2026-10-09T15:07:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1936",
@@ -92,7 +92,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "94"
+          "count": "95"
         },
         {
           "emoji": "👍",
@@ -111,7 +111,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.42K",
+      "views_label": "9.5K",
       "posted_at": "2026-10-09T11:20:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1935",
@@ -152,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.41K",
+      "views_label": "8.42K",
       "posted_at": "2026-10-09T00:47:40+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1934",
@@ -201,7 +201,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.76K",
+      "views_label": "7.78K",
       "posted_at": "2026-10-09T00:47:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1933",
@@ -561,7 +561,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16K",
+      "views_label": "16.1K",
       "posted_at": "2026-10-06T11:13:43+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1924",
@@ -583,7 +583,7 @@
         },
         {
           "emoji": "❤",
-          "count": "647"
+          "count": "648"
         },
         {
           "emoji": "💔",
@@ -873,10 +873,6 @@
       "plain_text": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)\n\nدر نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.\n\nبرای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.\n\nروشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.\n\nحمایت فراموش نشه 🙏",
       "media": [],
       "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
         {
           "emoji": "💔",
           "count": "159"
