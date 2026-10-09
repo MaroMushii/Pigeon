@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-09T10:53:27.922Z",
+  "fetched_at": "2026-10-09T10:58:06.778Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -23,7 +23,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "99"
+          "count": "100"
         },
         {
           "emoji": "👍",
@@ -46,7 +46,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.88K",
+      "views_label": "5.93K",
       "posted_at": "2026-10-09T00:47:40+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1934",
@@ -64,7 +64,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "130"
+          "count": "131"
         },
         {
           "emoji": "👍",
@@ -91,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.43K",
+      "views_label": "5.48K",
       "posted_at": "2026-10-09T00:47:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1933",
@@ -132,7 +132,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "156"
+          "count": "157"
         },
         {
           "emoji": "🍓",
@@ -151,7 +151,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.7K",
+      "views_label": "11.8K",
       "posted_at": "2026-10-08T14:10:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1931",
@@ -169,7 +169,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "146"
+          "count": "147"
         },
         {
           "emoji": "🍓",
@@ -218,7 +218,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "97"
+          "count": "98"
         },
         {
           "emoji": "👍",
@@ -306,7 +306,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "109"
+          "count": "110"
         },
         {
           "emoji": "🙏",
@@ -329,7 +329,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.43K",
+      "views_label": "9.44K",
       "posted_at": "2026-10-07T21:26:17+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1926",
@@ -386,7 +386,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.92K",
+      "views_label": "6.93K",
       "posted_at": "2026-10-07T21:24:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1925",
@@ -759,6 +759,10 @@
       "plain_text": "پروتوکل UDP هم به طور کامل روی ip های کلودفلر بسته شد (فعلا فقط روی فایروال همراه اول)\n\nدر نتیجه امکان اتصال به warp از طریق پروتوکل wireguard و یا masque-h3 دیگر امکان پذیر نمیباشد.\n\nبرای پروتوکل masque-h2 نیز، امکان استفاده از ECH از سمت خود کلودفلر بسته است، بنابراین در حال حاضر فقط با استفاده از IPv6 میتوان از این پروتوکل استفاده کرد.\n\nروشهای جدیدی که بزودی منتشر خواهد شد امکان اتصال کانکشنهای TCP را به کلودفلر فراهم میکنند، در نتیجه، میتوان از آنها برای masque-h2، کانفیگهای ورکر، cdn و به طور کلی تمام اتصالات TCP روی کلودفلر استفاده کرد.\n\nحمایت فراموش نشه 🙏",
       "media": [],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "💔",
           "count": "159"
