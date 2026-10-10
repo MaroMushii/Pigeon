@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-10T01:26:56.275Z",
+  "fetched_at": "2026-10-10T01:32:12.940Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,27 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1937",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/h0wcZnbxD3Pz8KZRBXzA35V2Mld5HzdKGYGgjDZ4t9900dW9bz2l_jmEbp2irXRNnti4NvQjLu0HYTkbygS3rPj5wiG8PeageXJlelOtgquKmFXvkRF4tPSNfrWuZbObWF-i_ow86cfXBgYqraP0SROkdlWCETErceawpwzHManRFVfvueTXNl3irC48zVR75KHnaumn6xHWNAuSC_RNE4rTNSqjDzMsQGAJ51lt8thr5A-2zOdkA7lybkzfkAbloLSPc_tnPJrB7ygR41awJXo_qCMl-9Xx6DcC2N8nbYJPyulTQvAhNdfWCAbeg8UguM3BdObaRxyEKvH3Aiz4rA.jpg",
+      "author_photo_path": "channels/whitedns/media/6f0c3df55fe07a01cbea9e9c.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "سلام به همهٔ همراهان عزیز <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i><br>امیدوارم این روزها با وجود همهٔ فراز و نشیب‌ها، حال دلتون خوب باشه و اینترنتتون هم روان و بی‌دردسر <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F929A.png')\"><b>💚</b></i><br><br>از وقتی فیلترچی‌های عزیز محبتشون رو بیشتر کردن، دیگه هر روز باید یه راه تازه پیدا کنیم. این روش رو اول کانال پترنی‌ها (<a href=\"https://t.me/patt_channel_x\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://t.me/patt_channel_x</a>) با کلی آموزش مفصل معرفی کردن؛ من فقط یه بخشش رو برداشتم و یه تغییر کوچیک روش دادم که جوابش واقعاً عالی درومد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> نکتهٔ مهم: توی منطقهٔ من این روش فقط روی رایتل و همراه اول جواب داد. برای ایرانسل هم پایین‌تر آموزش جدا گذاشتم.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> <b>روش اول — مخصوص رایتل و همراه اول</b><br><br><b>۱) کانفیگ رو وارد کن</b><br>هر کانفیگی که دوست داری از هر پنلی بردار و توی PattNG بازش کن.<br><br><b>۲) آی‌پی رو عوض کن</b><br>برو توی بخش ویرایش، یکی از این آی‌پی‌ها رو کپی کن و توی «نشانی» (Address) بذار:<br><br><b>۱۸۸.114.97.1</b><br><pre>188.114.97.1</pre><br><b>۱۸۸.114.97.2</b><br><pre>188.114.97.2</pre><br><b>۱۸۸.114.97.3</b><br><pre>188.114.97.3</pre><br><b>۱۸۸.114.97.4</b><br><pre>188.114.97.4</pre><br><b>۱۸۸.114.97.5</b><br><pre>188.114.97.5</pre><br><b>۱۸۸.114.97.7</b><br><pre>188.114.97.7</pre><br><b>۱۸۸.114.97.8</b><br><pre>188.114.97.8</pre><br><b>۳) اثر انگشت</b><br>همون‌جا پایین برو و گزینهٔ «اثر انگشت» (Fingerprint) رو روی Chrome بذار.<br><br><b>۴) echConfigList</b><br>باز پایین‌تر برو و یکی از این‌ها رو توی بخش echConfigList بذار:<br><br><b>ECH ۱</b><br><pre>cloudflare-ech.com+udp://1.1.1.1</pre><br><b>ECH ۲</b><br><pre>cloudflare-ech.com+udp://9.9.9.9</pre><br><b>ECH ۳</b><br><pre>cloudflare-ech.com+udp://208.67.222.222</pre><br><b>ECH ۴</b><br><pre>cloudflare-ech.com+udp://8.8.8.8</pre><br><b>ECH ۵</b><br><pre>cloudflare-ech.com+udp://1.0.0.1</pre><br><b>ECH ۶</b><br><pre>cloudflare-ech.com+udp://8.8.4.4</pre><br><b>ECH ۷</b><br><pre>cloudflare-ech.com+udp://149.112.112.112</pre><br><b>ECH ۸</b><br><pre>cloudflare-ech.com+udp://208.67.220.220</pre><br><b>ECH ۹</b><br><pre>cloudflare-ech.com+udp://76.76.19.19</pre><br><b>ECH ۱۰</b><br><pre>cloudflare-ech.com+udp://76.76.2.0</pre><br><b>ECH ۱۱</b><br><pre>cloudflare-ech.com+udp://94.140.14.14</pre><br><b>ECH ۱۲</b><br><pre>cloudflare-ech.com+udp://94.140.15.15</pre><br><b>ECH ۱۳</b><br><pre>cloudflare-ech.com+udp://64.6.64.6</pre><br><b>ECH ۱۴</b><br><pre>cloudflare-ech.com+udp://64.6.65.6</pre><br><b>ECH ۱۵</b><br><pre>cloudflare-ech.com+udp://45.90.28.0</pre><br><b>ECH ۱۶</b><br><pre>cloudflare-ech.com+udp://45.90.30.0</pre><br><b>ECH ۱۷</b><br><pre>cloudflare-ech.com+udp://185.228.168.9</pre><br><b>ECH ۱۸</b><br><pre>cloudflare-ech.com+udp://185.228.169.9</pre><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> نکته: این عبارت‌های ECH ممکنه منطقه به منطقه فرق کنن؛ پس همه رو تست کن تا بهترینش رو پیدا کنی.<br><br><b>۵) ذخیره و وصل شو</b><br>روی تیک بالای کانفیگ بزن که ذخیره بشه و تموم — راحت وصل می‌شی. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> <b>روش دوم — مخصوص ایرانسل</b><br><br>بازم ممنون از پترنی‌های عزیز که روش فایروال ایرانسل رو هم گذاشتن. من یه تغییر کوچیک روش دادم که به نظرم سرعتش خیلی بهتر شد. اینجوری:<br><br><b>۱) آی‌پی</b><br>کانفیگ رو توی PattNG باز کن، برو بخش ویرایش و یکی از این‌ها رو توی «نشانی» بذار:<br><br><b>۱۸۸.114.97.1</b><br><pre>188.114.97.1</pre><br><b>۱۸۸.114.97.2</b><br><pre>188.114.97.2</pre><br><b>۱۸۸.114.97.3</b><br><pre>188.114.97.3</pre><br><b>۱۸۸.114.97.4</b><br><pre>188.114.97.4</pre><br><b>۱۸۸.114.97.5</b><br><pre>188.114.97.5</pre><br><b>۱۸۸.114.97.7</b><br><pre>188.114.97.7</pre><br><b>۱۸۸.114.97.8</b><br><pre>188.114.97.8</pre><br><b>۲) finalMask</b><br>یه کمی پایین‌تر توی finalMask گزینهٔ tlshello-0-len رو انتخاب کن.<br><br><b>۳) اثر انگشت</b><br>باز پایین‌تر توی «اثر انگشت» گزینهٔ unsafe رو بزن.<br><br><b>۴) مجموعه رمزنگاری</b><br>باز هم پایین‌تر توی «مجموعه رمزنگاری» (Cipher Suites) گزینهٔ real_firefox_cipherSuites رو انتخاب کن.<br><br><b>۵) ذخیره</b><br>توی پایان روی دکمهٔ ذخیره/سیو بزن تا اعمال بشه.<br><br>---<br><br>امیدوارم این راهکار به دردتون بخوره. موفق و پایدار باشید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8CB9.png')\"><b>🌹</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>یادآوری آخر:</b> توی بعضی مناطق سیم‌کارتت ممکنه همراه اول باشه ولی فایروالت ایرانسل، و برعکس؛ سیم ایرانسل ولی فایروال همراه اول. بقیهٔ اپراتورها هم معمولاً از یکی از همین دو فایروال استفاده می‌کنن. پس یه زحمت بکش و هر دو روش رو روی اینترنت خودت تست کن <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i>",
+      "plain_text": "سلام به همهٔ همراهان عزیز 👋\nامیدوارم این روزها با وجود همهٔ فراز و نشیب‌ها، حال دلتون خوب باشه و اینترنتتون هم روان و بی‌دردسر 💚\n\nاز وقتی فیلترچی‌های عزیز محبتشون رو بیشتر کردن، دیگه هر روز باید یه راه تازه پیدا کنیم. این روش رو اول کانال پترنی‌ها (https://t.me/patt_channel_x) با کلی آموزش مفصل معرفی کردن؛ من فقط یه بخشش رو برداشتم و یه تغییر کوچیک روش دادم که جوابش واقعاً عالی درومد.\n\n📌 نکتهٔ مهم: توی منطقهٔ من این روش فقط روی رایتل و همراه اول جواب داد. برای ایرانسل هم پایین‌تر آموزش جدا گذاشتم.\n\n---\n\n🟢 روش اول — مخصوص رایتل و همراه اول\n\n۱) کانفیگ رو وارد کن\nهر کانفیگی که دوست داری از هر پنلی بردار و توی PattNG بازش کن.\n\n۲) آی‌پی رو عوض کن\nبرو توی بخش ویرایش، یکی از این آی‌پی‌ها رو کپی کن و توی «نشانی» (Address) بذار:\n\n۱۸۸.114.97.1\n188.114.97.1\n۱۸۸.114.97.2\n188.114.97.2\n۱۸۸.114.97.3\n188.114.97.3\n۱۸۸.114.97.4\n188.114.97.4\n۱۸۸.114.97.5\n188.114.97.5\n۱۸۸.114.97.7\n188.114.97.7\n۱۸۸.114.97.8\n188.114.97.8\n۳) اثر انگشت\nهمون‌جا پایین برو و گزینهٔ «اثر انگشت» (Fingerprint) رو روی Chrome بذار.\n\n۴) echConfigList\nباز پایین‌تر برو و یکی از این‌ها رو توی بخش echConfigList بذار:\n\nECH ۱\ncloudflare-ech.com+udp://1.1.1.1\nECH ۲\ncloudflare-ech.com+udp://9.9.9.9\nECH ۳\ncloudflare-ech.com+udp://208.67.222.222\nECH ۴\ncloudflare-ech.com+udp://8.8.8.8\nECH ۵\ncloudflare-ech.com+udp://1.0.0.1\nECH ۶\ncloudflare-ech.com+udp://8.8.4.4\nECH ۷\ncloudflare-ech.com+udp://149.112.112.112\nECH ۸\ncloudflare-ech.com+udp://208.67.220.220\nECH ۹\ncloudflare-ech.com+udp://76.76.19.19\nECH ۱۰\ncloudflare-ech.com+udp://76.76.2.0\nECH ۱۱\ncloudflare-ech.com+udp://94.140.14.14\nECH ۱۲\ncloudflare-ech.com+udp://94.140.15.15\nECH ۱۳\ncloudflare-ech.com+udp://64.6.64.6\nECH ۱۴\ncloudflare-ech.com+udp://64.6.65.6\nECH ۱۵\ncloudflare-ech.com+udp://45.90.28.0\nECH ۱۶\ncloudflare-ech.com+udp://45.90.30.0\nECH ۱۷\ncloudflare-ech.com+udp://185.228.168.9\nECH ۱۸\ncloudflare-ech.com+udp://185.228.169.9\n⚠️ نکته: این عبارت‌های ECH ممکنه منطقه به منطقه فرق کنن؛ پس همه رو تست کن تا بهترینش رو پیدا کنی.\n\n۵) ذخیره و وصل شو\nروی تیک بالای کانفیگ بزن که ذخیره بشه و تموم — راحت وصل می‌شی. ✅\n\n---\n\n🟢 روش دوم — مخصوص ایرانسل\n\nبازم ممنون از پترنی‌های عزیز که روش فایروال ایرانسل رو هم گذاشتن. من یه تغییر کوچیک روش دادم که به نظرم سرعتش خیلی بهتر شد. اینجوری:\n\n۱) آی‌پی\nکانفیگ رو توی PattNG باز کن، برو بخش ویرایش و یکی از این‌ها رو توی «نشانی» بذار:\n\n۱۸۸.114.97.1\n188.114.97.1\n۱۸۸.114.97.2\n188.114.97.2\n۱۸۸.114.97.3\n188.114.97.3\n۱۸۸.114.97.4\n188.114.97.4\n۱۸۸.114.97.5\n188.114.97.5\n۱۸۸.114.97.7\n188.114.97.7\n۱۸۸.114.97.8\n188.114.97.8\n۲) finalMask\nیه کمی پایین‌تر توی finalMask گزینهٔ tlshello-0-len رو انتخاب کن.\n\n۳) اثر انگشت\nباز پایین‌تر توی «اثر انگشت» گزینهٔ unsafe رو بزن.\n\n۴) مجموعه رمزنگاری\nباز هم پایین‌تر توی «مجموعه رمزنگاری» (Cipher Suites) گزینهٔ real_firefox_cipherSuites رو انتخاب کن.\n\n۵) ذخیره\nتوی پایان روی دکمهٔ ذخیره/سیو بزن تا اعمال بشه.\n\n---\n\nامیدوارم این راهکار به دردتون بخوره. موفق و پایدار باشید 🌹🚀\n\n⚠️ یادآوری آخر: توی بعضی مناطق سیم‌کارتت ممکنه همراه اول باشه ولی فایروالت ایرانسل، و برعکس؛ سیم ایرانسل ولی فایروال همراه اول. بقیهٔ اپراتورها هم معمولاً از یکی از همین دو فایروال استفاده می‌کنن. پس یه زحمت بکش و هر دو روش رو روی اینترنت خودت تست کن ❤️",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "70",
+      "posted_at": "2026-10-10T01:30:42+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1937",
+      "reply": null
+    },
     {
       "id": "whitedns/1936",
       "author_name": "White DNS",
@@ -62,7 +83,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.09K",
+      "views_label": "8.1K",
       "posted_at": "2026-10-09T15:07:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1936",
@@ -201,7 +222,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.51K",
+      "views_label": "8.52K",
       "posted_at": "2026-10-09T00:47:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1933",
@@ -5542,55 +5563,6 @@
       "posted_at": "2026-09-15T05:53:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1807",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1806",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/gHoHyDsH2Tf6nOlfJeisZV3hkcKNqyxgxdgxTiqbsuDFzAcA6iE0zBtdVNu7md2SQgN3C21elLqsCpBmEDRCw9iIA17g9Qc_pXq5-CH9Lr3rdh9ICX3KGSihSc4RiZYwa6vp7Ply0r0PyVF9BoYCXhkE4C3UcA_qV2lILjcsl7m6rfq-mZ3MavUZRRVyK9KPafZSApH1g3LiZvryRUBcpz9m-t3k-qxwD9Yl87m8AzMVM5v0_Jr7W_iB-57cU0nw8v4ho1TELy3Dh0f7kkwZRZUzztQ6r1c20Br-mo88fAG53bur8XSpjMO9YLl2hmyM6gQv7W-9nl8aMwbiUbJmlg.jpg",
-      "author_photo_path": "channels/whitedns/media/38584bce4f422305e5e946ec.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "موقت : <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br>تا الان نزدیک 1150 نفر از طریق ربات کانفیگ برای کلاینت  <a href=\"https://t.me/whitedns/1793\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">whitedns  </a> دریافت کردن از این تعداد فقط 5 نفر از این کانفیگ ها استفاده کردند <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F988F.png')\"><b>😏</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9895.png')\"><b>😕</b></i> دوستان خواهش میکنیم خودتون هوای خودتون را داشته باشید و از امکاناتی که با تحمل هزینه و وقت بچه های تیم در اختیار شما گذاشته میشه درست استفاده  کنید <br>دوستان ما عرض کردیم اگر واقعا نیاز دارید و میدونید چطور کار میکنه درخواست بدید ولی متاسفانه ظاهرا .......! <br>از امروز به بعد زمانیکه که درخواست کانفیگ میکنید باید کاملا توضیح بدید دلیل درخواست شما چی هست و چطور میخواید از این کانفیگ استفاده کنید تا بچه های تیم بررسی کنند و درخواست شما را تایید کنند <br><br>تیم وایت",
-      "plain_text": "موقت : ⚠️\nتا الان نزدیک 1150 نفر از طریق ربات کانفیگ برای کلاینت whitedns دریافت کردن از این تعداد فقط 5 نفر از این کانفیگ ها استفاده کردند 😏😕 دوستان خواهش میکنیم خودتون هوای خودتون را داشته باشید و از امکاناتی که با تحمل هزینه و وقت بچه های تیم در اختیار شما گذاشته میشه درست استفاده کنید\nدوستان ما عرض کردیم اگر واقعا نیاز دارید و میدونید چطور کار میکنه درخواست بدید ولی متاسفانه ظاهرا .......!\nاز امروز به بعد زمانیکه که درخواست کانفیگ میکنید باید کاملا توضیح بدید دلیل درخواست شما چی هست و چطور میخواید از این کانفیگ استفاده کنید تا بچه های تیم بررسی کنند و درخواست شما را تایید کنند\n\nتیم وایت",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "227"
-        },
-        {
-          "emoji": "👍",
-          "count": "49"
-        },
-        {
-          "emoji": "😨",
-          "count": "12"
-        },
-        {
-          "emoji": "🤣",
-          "count": "6"
-        },
-        {
-          "emoji": "💔",
-          "count": "3"
-        },
-        {
-          "emoji": "💘",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "9.16K",
-      "posted_at": "2026-09-15T03:49:11+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1806",
       "reply": null
     }
   ]
