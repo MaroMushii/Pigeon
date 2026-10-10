@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-10T19:01:55.642Z",
+  "fetched_at": "2026-10-10T19:07:10.528Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,59 @@
     "subscriber_count": "97K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2665",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Cc9yR4o4Y3p1KHmSb6wEEWWwCNxrHzJRxVH-J2bc5-z6LWo3BHYWotUabgovLZyxZBRysM6BetHu06bJS3OCHcJHlouyf7kNfl2wsxqvKat0OnRaaLdrqHP-Jadd6fC7RN5gfLJArpUzkKHuW6mO-L0KNAysvNTRpFXpWnmHN_LNYUr7tpmvh6swyT17JgpFusfVlnnCcpZ4KrsTciySW9RgbbHqmRLykWK8xlXUmpU0Lo6fPQgBIL2NLv_h6K_Li8QDkhHEM2LUS849RBsGfCOl5mcL9CEfhCa8Fspy0iWg_KtN5_bbJ7wW0ljtexG4LW8_lv3U3uoQ0FoJsZLd8w.jpg",
+      "author_photo_path": "channels/ircfspace/media/862a3ed66f0d9dc4cc3d86e1.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "تانل WatTunnel یه اسکریپت متن‌باز و رایگانه که برای انتقال ترافیک بین سرور ایران و خارج طراحی شده. باهاش می‌تونین پورت‌های TCP و UDP رو از طریق یه تانل رمزنگاری‌شده منتقل کنین و اگر این پورت‌ها مختل شدن، ترافیک رو از طریق ICMP عبور میده.<br>این اسکریپت از روش‌های مختلفی مثل ICMP، TCP، UDP، TLS، WebSocket و gRPC پشتیبانی می‌کنه، امکان استفاده از کلودفلر رو در اختیارتون میذاره و مدیریت همزمان چند تانل، تغییر پورت بدون قطع اتصال، پشتیبانی از ICMP معکوس و داشبورد مانیتورینگ از قابلیت‌های دیگه‌ش هست.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/JohnWatsoon/WatTunnel/releases\" target=\"_blank\" rel=\"noopener\">github.com/JohnWatsoon/WatTunnel/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "تانل WatTunnel یه اسکریپت متن‌باز و رایگانه که برای انتقال ترافیک بین سرور ایران و خارج طراحی شده. باهاش می‌تونین پورت‌های TCP و UDP رو از طریق یه تانل رمزنگاری‌شده منتقل کنین و اگر این پورت‌ها مختل شدن، ترافیک رو از طریق ICMP عبور میده.\nاین اسکریپت از روش‌های مختلفی مثل ICMP، TCP، UDP، TLS، WebSocket و gRPC پشتیبانی می‌کنه، امکان استفاده از کلودفلر رو در اختیارتون میذاره و مدیریت همزمان چند تانل، تغییر پورت بدون قطع اتصال، پشتیبانی از ICMP معکوس و داشبورد مانیتورینگ از قابلیت‌های دیگه‌ش هست.\n\n👉 github.com/JohnWatsoon/WatTunnel/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2665",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/J8Qwtt3gxNWeZJExHZ8vDKKmdN4Eu0gHpmcHgcPiPT5uaztUEQSIN6jOgfVqc601dTAzPWANon1tJX-Nh2ksPlECvgtcGlExycRMfX0s3i2rE00tsvpNgQnuBIkJsP4FdKeAkB6LbuDrwyOCAtw34-BRCiIwf4zXNM5g0Dhyp_70GCrmCoEXyw8KKTuGKzg0BUtFdB0nFhMDgSDcn1aCEqLViphd04VB2-hL0iKHySzBf-hHqPyuh4KtOt1cPrdjRQwQf5Y2c1TZbmPON4uMjEz6IHfHKQbdwQ4qxFzX8eZwS3HiSjc3-uf5siFzp2nMijR1a9Ui0koc8j0T-BnQ9Q.jpg",
+          "thumbnail_path": "channels/ircfspace/media/5d561e528071a9dd7acabd12.jpg",
+          "thumbnail_sha256": "56432f7483b53f4d9d74284167cd758ca8f73582c659c5ff8b53b931b85e8c55",
+          "duration_label": null,
+          "aspect_ratio": 1.5009380863039399
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "11"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "👎",
+          "count": "4"
+        },
+        {
+          "emoji": "😢",
+          "count": "2"
+        },
+        {
+          "emoji": "🥴",
+          "count": "1"
+        },
+        {
+          "emoji": "😐",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.19K",
+      "posted_at": "2026-10-10T19:03:22+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2665",
+      "reply": null
+    },
     {
       "id": "ircfspace/2664",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -35,11 +88,11 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "163"
+          "count": "188"
         },
         {
           "emoji": "🤡",
-          "count": "22"
+          "count": "26"
         },
         {
           "emoji": "😁",
@@ -54,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.62K",
+      "views_label": "4.63K",
       "posted_at": "2026-10-10T18:44:58+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2664",
@@ -84,14 +137,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "26"
-        },
-        {
-          "emoji": "👍",
-          "count": "12"
+          "count": "35"
         },
         {
           "emoji": "😱",
+          "count": "13"
+        },
+        {
+          "emoji": "👍",
           "count": "12"
         },
         {
@@ -99,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.75K",
+      "views_label": "5.54K",
       "posted_at": "2026-10-10T18:38:29+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2663",
@@ -133,7 +186,7 @@
         },
         {
           "emoji": "❤",
-          "count": "124"
+          "count": "125"
         },
         {
           "emoji": "👍",
@@ -152,7 +205,7 @@
           "count": "3"
         }
       ],
-      "views_label": "14.8K",
+      "views_label": "15K",
       "posted_at": "2026-10-09T11:46:35+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2662",
@@ -182,11 +235,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "195"
+          "count": "196"
         },
         {
           "emoji": "🤬",
-          "count": "24"
+          "count": "25"
         },
         {
           "emoji": "❤",
@@ -205,7 +258,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.5K",
+      "views_label": "27.7K",
       "posted_at": "2026-10-09T11:33:33+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2660",
@@ -235,15 +288,15 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "227"
+          "count": "229"
         },
         {
           "emoji": "🤬",
-          "count": "59"
+          "count": "60"
         },
         {
           "emoji": "😐",
-          "count": "24"
+          "count": "25"
         },
         {
           "emoji": "🤡",
@@ -266,7 +319,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.9K",
+      "views_label": "15.1K",
       "posted_at": "2026-10-09T11:26:26+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2659",
@@ -296,7 +349,7 @@
       "reactions": [
         {
           "emoji": "😢",
-          "count": "399"
+          "count": "400"
         },
         {
           "emoji": "🤬",
@@ -339,7 +392,7 @@
           "count": "1"
         }
       ],
-      "views_label": "55.6K",
+      "views_label": "55.7K",
       "posted_at": "2026-10-08T04:21:02+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2658",
@@ -385,7 +438,7 @@
         },
         {
           "emoji": "👎",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👏",
@@ -400,7 +453,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.5K",
+      "views_label": "23.6K",
       "posted_at": "2026-10-06T16:43:23+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2657",
@@ -461,7 +514,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.1K",
+      "views_label": "24.2K",
       "posted_at": "2026-10-06T16:33:55+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2656",
@@ -526,7 +579,7 @@
           "count": "5"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.6K",
       "posted_at": "2026-10-06T16:25:23+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2655",
@@ -595,7 +648,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.8K",
       "posted_at": "2026-10-06T16:15:15+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2654",
@@ -644,7 +697,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.6K",
+      "views_label": "19.7K",
       "posted_at": "2026-10-06T16:08:21+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2653",
@@ -713,7 +766,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.5K",
+      "views_label": "25.8K",
       "posted_at": "2026-10-05T20:27:12+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2652",
@@ -743,7 +796,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "179"
+          "count": "180"
         },
         {
           "emoji": "👍",
@@ -766,7 +819,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "23.8K",
       "posted_at": "2026-10-05T20:04:17+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2651",
@@ -819,7 +872,7 @@
           "count": "5"
         }
       ],
-      "views_label": "24.7K",
+      "views_label": "24.9K",
       "posted_at": "2026-10-05T14:32:51+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2650",
@@ -872,7 +925,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24.6K",
+      "views_label": "24.7K",
       "posted_at": "2026-10-05T14:23:09+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2649",
@@ -929,7 +982,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.8K",
+      "views_label": "21.9K",
       "posted_at": "2026-10-05T14:15:55+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2648",
@@ -982,7 +1035,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.9K",
+      "views_label": "24K",
       "posted_at": "2026-10-05T14:11:02+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2647",
@@ -1108,7 +1161,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.8K",
+      "views_label": "22.9K",
       "posted_at": "2026-10-05T13:58:32+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2645",
@@ -5900,59 +5953,6 @@
       "posted_at": "2026-08-19T13:28:45+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2561",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2560",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Cdx7Huf1Oejw0MW40M60qTRjVSp1zd3-EiwrSEVIkxdJcUlbjQcliHbml3Cwtq3gCjCMdQhu3mj_FbozNINhJcT1Z4D-bUowGb6MEbRrEymS5ma9Q2B5uW8UeBnGbjKcgdVKanqfCmktq0XLtwXFzUVa8wkXUS80FiUGYwubfrgCqqayTcGZHPSw353MhNdGgiq9ODxHhvTXtvFOI-PuRBnIKWdtGEARvTjJL_6O1GABTu5E4UPswQnCWNe_CgdGdVaI5JsWEB7By9zfNQdJdPeIX9M7JroZxxamJsYbjwMyZPvjXtA71c6SDfRHfWY9NW1D2fe_QbM7_Wc_5WAaGA.jpg",
-      "author_photo_path": "channels/ircfspace/media/d282331a879112188d76fb7f.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "ایرانسل و همراه‌اول فکر کنم یه بسته رو به چند نفر میفروشن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> ali__m___i<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "ایرانسل و همراه‌اول فکر کنم یه بسته رو به چند نفر میفروشن.\n\n© ali__m___i\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "564"
-        },
-        {
-          "emoji": "👍",
-          "count": "152"
-        },
-        {
-          "emoji": "🤬",
-          "count": "54"
-        },
-        {
-          "emoji": "❤",
-          "count": "9"
-        },
-        {
-          "emoji": "🤡",
-          "count": "5"
-        },
-        {
-          "emoji": "😢",
-          "count": "4"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "😐",
-          "count": "2"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        }
-      ],
-      "views_label": "34.8K",
-      "posted_at": "2026-08-19T13:17:37+00:00",
-      "edited": false,
-      "permalink": "https://t.me/ircfspace/2560",
       "reply": null
     }
   ]
