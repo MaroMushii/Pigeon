@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-10T15:51:50.635Z",
+  "fetched_at": "2026-10-10T15:56:51.001Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,76 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1943",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/h0wcZnbxD3Pz8KZRBXzA35V2Mld5HzdKGYGgjDZ4t9900dW9bz2l_jmEbp2irXRNnti4NvQjLu0HYTkbygS3rPj5wiG8PeageXJlelOtgquKmFXvkRF4tPSNfrWuZbObWF-i_ow86cfXBgYqraP0SROkdlWCETErceawpwzHManRFVfvueTXNl3irC48zVR75KHnaumn6xHWNAuSC_RNE4rTNSqjDzMsQGAJ51lt8thr5A-2zOdkA7lybkzfkAbloLSPc_tnPJrB7ygR41awJXo_qCMl-9Xx6DcC2N8nbYJPyulTQvAhNdfWCAbeg8UguM3BdObaRxyEKvH3Aiz4rA.jpg",
+      "author_photo_path": "channels/whitedns/media/6f0c3df55fe07a01cbea9e9c.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>نسخهٔ 1.11.0 Whiteaesther mobileمنتشر شد</b>",
+      "plain_text": "🚀 نسخهٔ 1.11.0 Whiteaesther mobileمنتشر شد",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "13"
+        },
+        {
+          "emoji": "👏",
+          "count": "4"
+        },
+        {
+          "emoji": "🍓",
+          "count": "1"
+        }
+      ],
+      "views_label": "648",
+      "posted_at": "2026-10-10T15:52:13+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1943",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1942",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/h0wcZnbxD3Pz8KZRBXzA35V2Mld5HzdKGYGgjDZ4t9900dW9bz2l_jmEbp2irXRNnti4NvQjLu0HYTkbygS3rPj5wiG8PeageXJlelOtgquKmFXvkRF4tPSNfrWuZbObWF-i_ow86cfXBgYqraP0SROkdlWCETErceawpwzHManRFVfvueTXNl3irC48zVR75KHnaumn6xHWNAuSC_RNE4rTNSqjDzMsQGAJ51lt8thr5A-2zOdkA7lybkzfkAbloLSPc_tnPJrB7ygR41awJXo_qCMl-9Xx6DcC2N8nbYJPyulTQvAhNdfWCAbeg8UguM3BdObaRxyEKvH3Aiz4rA.jpg",
+      "author_photo_path": "channels/whitedns/media/6f0c3df55fe07a01cbea9e9c.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> نسخهٔ 1.11.0 Whiteaesther mobile منتشر شد<br><br>این نسخه روی اتصال‌های ناموفق، انتظار طولانی و گیرکردن VPN تمرکز دارد:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> پروتکل جدید WARP WireGuard over MASQUE<br>وایرگاردِ خودِ WARP داخل یک تونل MASQUE روی H2/TCP حمل می‌شود. این مسیر، وقتی ارتباط مستقیم وایرگارد با UDP مشکل دارد، یک گزینهٔ دیگر برای اتصال فراهم می‌کند. سرور وایرگارد شخصی لازم نیست و می‌توانید آن را به‌عنوان مسیر Aether در ترکیب Aether + Psiphon هم استفاده کنید. قبل از نمایش «متصل»، عبور داده از هر دو تونل بررسی می‌شود.<br><br>برای انتخاب دستی: در «مسیرها»، «خودم انتخاب می‌کنم» را بزنید، Aether یا Aether + Psiphon را انتخاب کنید و در «پیشرفته ← پروتکل»، «وایرگارد روی MASQUE» را بگذارید. حالت خودکار خودش مسیرهای جایگزین را انتخاب می‌کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> اتصال خودکار بهتر<br>حالت خودکار زودتر سراغ مسیرهای جایگزین می‌رود؛ روش‌های مختلف دست‌دهی H2، تکه‌تکه‌کردن TLS، IPv6 در صورت فعال‌بودن و WireGuard over MASQUE را بررسی می‌کند. مسیر موفق برای همان شبکه ذخیره می‌شود تا اتصال بعدی از آن شروع شود. آدرس ذخیره‌شدهٔ WARP هم پیش از انتظار برای دریافت دوباره از API امتحان می‌شود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> تنظیم دستی کنار حالت خودکار<br>در «ترافیک ← پیشرفته»:<br>• «تکه‌تکه کردن دست‌دهی TLS»: پیام آغاز اتصال را به قطعات کوچک‌تر تقسیم می‌کند. حالت خودکار، Records، Compact یا تنظیم سفارشی دارد. در حالت سفارشی اندازهٔ قطعه، تأخیر و تقسیم نام سرور را تعیین کنید؛ مثلاً اندازهٔ 16-32 بایت و تأخیر 0-1 میلی‌ثانیه. این اعداد فقط نمونهٔ ورودی هستند.<br>• «سلام اولیهٔ رمزگذاری‌شده / ECH»: نام سرور را در بخش رمزگذاری‌شدهٔ ClientHello قرار می‌دهد. دریافت خودکار یا واردکردن ECHConfigList با فرمت Base64 در دسترس است؛ این مقدار، نام دامنه یا SNI نیست.<br><br>تقسیم TLS روی H2، از جمله تونل بیرونی WOM، اعمال می‌شود؛ ECH فعلاً مخصوص H3 است. تنظیمات سفارشی در تلاش‌های بازیابی حفظ می‌شوند و تغییرشان با اتصال بعدی اعمال می‌شود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> رفع باگ‌های اتصال و تغییر پروفایل<br>تونلِ در حال آماده‌سازی پس از شکست یا لغو اتصال بسته می‌شود. هنگام تغییر پروفایل، موتور قبلی کامل متوقف می‌شود تا پاک‌سازی آن اتصال جدید را خراب نکند. خطای تنظیمات ناقص هم پیش از روشن‌شدن VPN بررسی می‌شود.<br><br>اگر در Aether + Psiphon پیام «اشتراک یا نود اضافه کنید» می‌دید، در «مسیرها» گزینهٔ «فقط مسیرهای انتخاب‌شده / Use carriers only» را بزنید. این گزینه زنجیرهٔ خروجِ بدون نود را خاموش می‌کند و ترکیب انتخاب‌شدهٔ شما را نگه می‌دارد؛ خودِ Aether + Psiphon به اشتراک نود نیاز ندارد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود نسخهٔ جدید:<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.11.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.11.0</a><br>اگر معماری دستگاه را نمی‌دانید، APK نسخهٔ universal را انتخاب کنید.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🚀 نسخهٔ 1.11.0 Whiteaesther mobile منتشر شد\n\nاین نسخه روی اتصال‌های ناموفق، انتظار طولانی و گیرکردن VPN تمرکز دارد:\n\n🔹 پروتکل جدید WARP WireGuard over MASQUE\nوایرگاردِ خودِ WARP داخل یک تونل MASQUE روی H2/TCP حمل می‌شود. این مسیر، وقتی ارتباط مستقیم وایرگارد با UDP مشکل دارد، یک گزینهٔ دیگر برای اتصال فراهم می‌کند. سرور وایرگارد شخصی لازم نیست و می‌توانید آن را به‌عنوان مسیر Aether در ترکیب Aether + Psiphon هم استفاده کنید. قبل از نمایش «متصل»، عبور داده از هر دو تونل بررسی می‌شود.\n\nبرای انتخاب دستی: در «مسیرها»، «خودم انتخاب می‌کنم» را بزنید، Aether یا Aether + Psiphon را انتخاب کنید و در «پیشرفته ← پروتکل»، «وایرگارد روی MASQUE» را بگذارید. حالت خودکار خودش مسیرهای جایگزین را انتخاب می‌کند.\n\n🔹 اتصال خودکار بهتر\nحالت خودکار زودتر سراغ مسیرهای جایگزین می‌رود؛ روش‌های مختلف دست‌دهی H2، تکه‌تکه‌کردن TLS، IPv6 در صورت فعال‌بودن و WireGuard over MASQUE را بررسی می‌کند. مسیر موفق برای همان شبکه ذخیره می‌شود تا اتصال بعدی از آن شروع شود. آدرس ذخیره‌شدهٔ WARP هم پیش از انتظار برای دریافت دوباره از API امتحان می‌شود.\n\n🔹 تنظیم دستی کنار حالت خودکار\nدر «ترافیک ← پیشرفته»:\n• «تکه‌تکه کردن دست‌دهی TLS»: پیام آغاز اتصال را به قطعات کوچک‌تر تقسیم می‌کند. حالت خودکار، Records، Compact یا تنظیم سفارشی دارد. در حالت سفارشی اندازهٔ قطعه، تأخیر و تقسیم نام سرور را تعیین کنید؛ مثلاً اندازهٔ 16-32 بایت و تأخیر 0-1 میلی‌ثانیه. این اعداد فقط نمونهٔ ورودی هستند.\n• «سلام اولیهٔ رمزگذاری‌شده / ECH»: نام سرور را در بخش رمزگذاری‌شدهٔ ClientHello قرار می‌دهد. دریافت خودکار یا واردکردن ECHConfigList با فرمت Base64 در دسترس است؛ این مقدار، نام دامنه یا SNI نیست.\n\nتقسیم TLS روی H2، از جمله تونل بیرونی WOM، اعمال می‌شود؛ ECH فعلاً مخصوص H3 است. تنظیمات سفارشی در تلاش‌های بازیابی حفظ می‌شوند و تغییرشان با اتصال بعدی اعمال می‌شود.\n\n🔹 رفع باگ‌های اتصال و تغییر پروفایل\nتونلِ در حال آماده‌سازی پس از شکست یا لغو اتصال بسته می‌شود. هنگام تغییر پروفایل، موتور قبلی کامل متوقف می‌شود تا پاک‌سازی آن اتصال جدید را خراب نکند. خطای تنظیمات ناقص هم پیش از روشن‌شدن VPN بررسی می‌شود.\n\nاگر در Aether + Psiphon پیام «اشتراک یا نود اضافه کنید» می‌دید، در «مسیرها» گزینهٔ «فقط مسیرهای انتخاب‌شده / Use carriers only» را بزنید. این گزینه زنجیرهٔ خروجِ بدون نود را خاموش می‌کند و ترکیب انتخاب‌شدهٔ شما را نگه می‌دارد؛ خودِ Aether + Psiphon به اشتراک نود نیاز ندارد.\n\n📥 دانلود نسخهٔ جدید:\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.11.0\nاگر معماری دستگاه را نمی‌دانید، APK نسخهٔ universal را انتخاب کنید.\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1942",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/Az_dYODop6PoOZwkecRUS7SKSsGRRGIwVb0Auiwbh952Zw8TvUy-uRwB0fSwdtTSGeKqzHJnxsqAOYW4sQAx4eYDwdL2WuxbJAaoj3XkhWw91lry7Z6npPJoMPUQuBbcZiTe0IBQqA_B5C4KF2k3jpFhLU5uSFabfckNvsXhrgW4Sk9yc9WeDUNI1IIYyi6erp8rP8cK6APkx99WpaabZOPXp2Q0LliDUSJcvt97VW0DXWElX8nS9CUcHjrWJkgWq79_6mwMtXKMlGBu4kFitcApC9MLGaBlLdcQTNrHUGR-wYO6CwCKUjO4p0fPJYNMvsf7-14mDqGY08UTERWYyA.jpg",
+          "thumbnail_path": "channels/whitedns/media/53b2226a5e285d4347fe41c8.jpg",
+          "thumbnail_sha256": "5ccb2d71d4b93554b0b4dffd02d85ebe1202906bec7262c400ae8b54df7bcead",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "14"
+        },
+        {
+          "emoji": "🍓",
+          "count": "2"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "608",
+      "posted_at": "2026-10-10T15:52:09+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1942",
+      "reply": null
+    },
     {
       "id": "whitedns/1941",
       "author_name": "White DNS",
@@ -39,7 +109,7 @@
         },
         {
           "emoji": "❤",
-          "count": "27"
+          "count": "28"
         },
         {
           "emoji": "🕊",
@@ -54,7 +124,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.28K",
+      "views_label": "6.44K",
       "posted_at": "2026-10-10T09:24:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1941",
@@ -72,7 +142,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "92"
+          "count": "93"
         },
         {
           "emoji": "🍓",
@@ -95,7 +165,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.7K",
+      "views_label": "6.83K",
       "posted_at": "2026-10-10T09:14:31+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1940",
@@ -197,7 +267,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.82K",
+      "views_label": "9.85K",
       "posted_at": "2026-10-10T01:36:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1938",
@@ -219,7 +289,7 @@
         },
         {
           "emoji": "❤",
-          "count": "232"
+          "count": "233"
         },
         {
           "emoji": "👍",
@@ -242,7 +312,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.22K",
+      "views_label": "9.29K",
       "posted_at": "2026-10-10T01:30:42+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1937",
@@ -303,7 +373,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.1K",
+      "views_label": "11.2K",
       "posted_at": "2026-10-09T15:07:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1936",
@@ -352,7 +422,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.8K",
+      "views_label": "13.9K",
       "posted_at": "2026-10-09T11:20:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1935",
@@ -393,7 +463,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.97K",
+      "views_label": "10K",
       "posted_at": "2026-10-09T00:47:40+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1934",
@@ -442,7 +512,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.53K",
+      "views_label": "9.54K",
       "posted_at": "2026-10-09T00:47:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1933",
@@ -741,7 +811,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.93K",
+      "views_label": "7.94K",
       "posted_at": "2026-10-07T21:24:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1925",
@@ -5377,136 +5447,6 @@
       "posted_at": "2026-09-16T19:17:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1815",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1812",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/LHIz5cvMnd0rK-aQO3ZWCkSO4767ngvSISm9n90fi_LZ5TBA0c-QkB7UHgvRKhSavpus3dshChLMAj4TzaU1dHo-e77u2K495za9O4S-idTPGvgmpV9HnQ51pX3kPLOJ8QmnJgp5_ZfXxWZcDRm-d-bQFrDjVmj_BYydQ5wUgn3tWepMCkABB2-8AfQEdly6u73V4NKrYtlM5wUZXAcCBN_D1vw5UT8bNoNGkCpgh5YpaSALbZHSRSFehgdaYOuoScAssWlstZ08ZMUzuWpeZqncLzyVWAA2M9jw5V4Zn4auBkIVxWv8OGlm4MFLdD37vhElzGNdtGQRaQgALHwVzg.jpg",
-      "author_photo_path": "channels/whitedns/media/1f35b18d469e6e41559bc103.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5197269100878907942\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji><b>موقت</b><br>دوستان هم نسخه مبایل و هم دسکتاپ برای کارایی بهتر اول ورژن قدیمی را uninstall کنید و بعد نسخه جدید را نصب کنید <br>در نسخه ویندوز موقع uninstall کردن حتما گزینه delete app data را بزنید  <br>ممنون",
-      "plain_text": "✍️موقت\nدوستان هم نسخه مبایل و هم دسکتاپ برای کارایی بهتر اول ورژن قدیمی را uninstall کنید و بعد نسخه جدید را نصب کنید\nدر نسخه ویندوز موقع uninstall کردن حتما گزینه delete app data را بزنید\nممنون",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "221"
-        },
-        {
-          "emoji": "👍",
-          "count": "25"
-        },
-        {
-          "emoji": "🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        },
-        {
-          "emoji": "🥰",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "💘",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🗿",
-          "count": "1"
-        }
-      ],
-      "views_label": "20K",
-      "posted_at": "2026-09-16T13:26:48+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1812",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1811",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/LHIz5cvMnd0rK-aQO3ZWCkSO4767ngvSISm9n90fi_LZ5TBA0c-QkB7UHgvRKhSavpus3dshChLMAj4TzaU1dHo-e77u2K495za9O4S-idTPGvgmpV9HnQ51pX3kPLOJ8QmnJgp5_ZfXxWZcDRm-d-bQFrDjVmj_BYydQ5wUgn3tWepMCkABB2-8AfQEdly6u73V4NKrYtlM5wUZXAcCBN_D1vw5UT8bNoNGkCpgh5YpaSALbZHSRSFehgdaYOuoScAssWlstZ08ZMUzuWpeZqncLzyVWAA2M9jw5V4Zn4auBkIVxWv8OGlm4MFLdD37vhElzGNdtGQRaQgALHwVzg.jpg",
-      "author_photo_path": "channels/whitedns/media/1f35b18d469e6e41559bc103.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E89.png')\"><b>🎉</b></i> WhiteAesther Mobile ۱.۸.۰ نسخهٔ پایدار<br><br><blockquote expandable=\"\">این نسخه دو کار را با هم می‌آورد: هرچه در نسخهٔ آزمایشی ۱.۷.۰ بود، به‌علاوهٔ یک راه خروج تازه. اگر روی ۱.۶.۱ هستید، هر دو را یک‌جا می‌گیرید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> اتصال روی شبکه‌هایی که تا حالا جواب نمی‌دادند<br><br>حالت خودکار حالا واقعاً خودکار است. از همان لحظهٔ زدن دکمه، اتر و سایفون و تور را هم‌زمان می‌فرستد و هرکدام زودتر ترافیک را رد کرد همان می‌ماند. تشخیص اینکه کدام مسیر واقعاً کار می‌کند هم دقیق‌تر شده — دیگر یک مسیر سالم را به اشتباه کنار نمی‌گذارد.<br><br>این حالت از این نسخه پیش‌فرض روشن است. اگر خودتان قبلاً حاملی انتخاب کرده‌اید، انتخابتان دست‌نخورده می‌ماند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA785.png')\"><b>🧅</b></i> ماسک در ماسک — راه تازه<br><br>یک پروتکل جدید برای شبکه‌ای که یاد گرفته یک تونل ماسک تنها را بشناسد. دو پرش تودرتو: پرش داخلی از دل بیرونی دست می‌دهد، پس چیزی که شبکه می‌بیند یک تونل است که محتوای مبهم حمل می‌کند، نه الگویی که آموزش دیده دنبالش بگردد.<br><br>هم در فهرست پروتکل‌ها هست، هم آخرین چیزی که حالت خودکار امتحان می‌کند — و بخش دوم مهم‌تر است: شبکه‌ای که این برایش ساخته شده همان جایی است که بقیهٔ راه‌ها شکست خورده‌اند، و کسی سراغ تنظیمات پیشرفته نمی‌رود. پس خودکار خودش به آن می‌رسد، بعد از اینکه راه‌های سریع‌تر نوبتشان را گرفتند.<br><br>از یک پرش کندتر است و عمداً آخر است. جایی که یک پرش کار می‌کند، چیزی برای شما عوض نمی‌شود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A0.png')\"><b>🧠</b></i> موتور اتر ۲.۰<br><br>هستهٔ برنامه یک نسخهٔ کامل جلو رفت: سرعت عبور ترافیک روی تونل‌های TCP بیشتر شده، یک لایهٔ تازهٔ دور زدن تشخیص پیش از دست‌دهی اضافه شده، و پایداری تونل‌های تودرتو بهتر شده است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8D.png')\"><b>🌍</b></i> کشور خروج روان‌تر<br><br>فهرست کشورها بلافاصله به‌روز می‌شود، «بهترین گزینهٔ موجود» همیشه در دسترس است، و اگر کشوری که انتخاب کرده‌اید در دسترس نباشد برنامه صریح می‌گوید به‌جای اینکه بی‌صدا تلاش کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> پایدارتر<br><br>اتصال مجدد بعد از قطعی، حفظ تنظیمات محافظتی پس از راه‌اندازی دوبارهٔ سیستم، و رفتار دقیق‌تر هنگام جابه‌جایی بین وای‌فای و دیتا.</blockquote><br><br>━━━━━━━━━━<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دریافت<br><br>برنامه خودش این نسخه را به شما پیشنهاد می‌دهد. اگر می‌خواهید همین حالا بگیرید:<br><br>برای تقریباً همهٔ گوشی‌های امروزی:<br>WhiteAestherMobile-1.8.0-arm64-v8a.apk (۴۵ مگابایت)<br><br>اگر نصب نشد، فایل universal را بگیرید — روی هر گوشی کار می‌کند ولی حجمش بیشتر است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"http://github.com/WhiteDNS/WhiteAestherMobile/releases/latest\" target=\"_blank\" rel=\"noopener\">github.com/WhiteDNS/WhiteAestherMobile/releases/latest</a><br><br>روی نسخهٔ فعلی نصب می‌شود و تنظیماتتان می‌ماند.<br><br><br><br><a href=\"?q=%23WhiteAesther\">#WhiteAesther</a> <a href=\"?q=%23v1_8_0\">#v1_8_0</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🎉 WhiteAesther Mobile ۱.۸.۰ نسخهٔ پایدار\n\nاین نسخه دو کار را با هم می‌آورد: هرچه در نسخهٔ آزمایشی ۱.۷.۰ بود، به‌علاوهٔ یک راه خروج تازه. اگر روی ۱.۶.۱ هستید، هر دو را یک‌جا می‌گیرید.\n\n⚡️ اتصال روی شبکه‌هایی که تا حالا جواب نمی‌دادند\n\nحالت خودکار حالا واقعاً خودکار است. از همان لحظهٔ زدن دکمه، اتر و سایفون و تور را هم‌زمان می‌فرستد و هرکدام زودتر ترافیک را رد کرد همان می‌ماند. تشخیص اینکه کدام مسیر واقعاً کار می‌کند هم دقیق‌تر شده — دیگر یک مسیر سالم را به اشتباه کنار نمی‌گذارد.\n\nاین حالت از این نسخه پیش‌فرض روشن است. اگر خودتان قبلاً حاملی انتخاب کرده‌اید، انتخابتان دست‌نخورده می‌ماند.\n\n🧅 ماسک در ماسک — راه تازه\n\nیک پروتکل جدید برای شبکه‌ای که یاد گرفته یک تونل ماسک تنها را بشناسد. دو پرش تودرتو: پرش داخلی از دل بیرونی دست می‌دهد، پس چیزی که شبکه می‌بیند یک تونل است که محتوای مبهم حمل می‌کند، نه الگویی که آموزش دیده دنبالش بگردد.\n\nهم در فهرست پروتکل‌ها هست، هم آخرین چیزی که حالت خودکار امتحان می‌کند — و بخش دوم مهم‌تر است: شبکه‌ای که این برایش ساخته شده همان جایی است که بقیهٔ راه‌ها شکست خورده‌اند، و کسی سراغ تنظیمات پیشرفته نمی‌رود. پس خودکار خودش به آن می‌رسد، بعد از اینکه راه‌های سریع‌تر نوبتشان را گرفتند.\n\nاز یک پرش کندتر است و عمداً آخر است. جایی که یک پرش کار می‌کند، چیزی برای شما عوض نمی‌شود.\n\n🧠 موتور اتر ۲.۰\n\nهستهٔ برنامه یک نسخهٔ کامل جلو رفت: سرعت عبور ترافیک روی تونل‌های TCP بیشتر شده، یک لایهٔ تازهٔ دور زدن تشخیص پیش از دست‌دهی اضافه شده، و پایداری تونل‌های تودرتو بهتر شده است.\n\n🌍 کشور خروج روان‌تر\n\nفهرست کشورها بلافاصله به‌روز می‌شود، «بهترین گزینهٔ موجود» همیشه در دسترس است، و اگر کشوری که انتخاب کرده‌اید در دسترس نباشد برنامه صریح می‌گوید به‌جای اینکه بی‌صدا تلاش کند.\n\n🛡 پایدارتر\n\nاتصال مجدد بعد از قطعی، حفظ تنظیمات محافظتی پس از راه‌اندازی دوبارهٔ سیستم، و رفتار دقیق‌تر هنگام جابه‌جایی بین وای‌فای و دیتا.\n\n━━━━━━━━━━\n\n📥 دریافت\n\nبرنامه خودش این نسخه را به شما پیشنهاد می‌دهد. اگر می‌خواهید همین حالا بگیرید:\n\nبرای تقریباً همهٔ گوشی‌های امروزی:\nWhiteAestherMobile-1.8.0-arm64-v8a.apk (۴۵ مگابایت)\n\nاگر نصب نشد، فایل universal را بگیرید — روی هر گوشی کار می‌کند ولی حجمش بیشتر است.\n\n🔗 github.com/WhiteDNS/WhiteAestherMobile/releases/latest\n\nروی نسخهٔ فعلی نصب می‌شود و تنظیماتتان می‌ماند.\n\n\n\n#WhiteAesther #v1_8_0\n\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1811",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/Rq4tpMid1ZIMUYZ4doHKCVFF7-JKvc5HIvXAKSlFqEmjNWrz8iSCcHM7pHcSka5gyynG8VZtpH7LS5GwZDLdCXJIFHvq754VR6_HR84D_QuZVQY7itH3EZf0uPR5rx4hskkRN1X8Yx9VsWiQ-SHm5lCNFNN66FbUXbBBepcMG6dz6tR9WEM6JYiqYiQcflUECR7gwaLtiPvkRC3fy7Sr9GFXDnAziqAbQ_X7o-M9gNqqciW5icPZXe4zcTtkkoGKfbtnU4zdZA0QStBjaRyatwaPvOk0SqkcZMfZ9Rg_K_xw8h0N_AnarHjfXi42eDwua_iVbdfenZrb5DDpCdlUdA.jpg",
-          "thumbnail_path": "channels/whitedns/media/b10c780786eb0b791473df8f.jpg",
-          "thumbnail_sha256": "4a625683bbb78ffb087ecc253f779e7e2f926ceea7b8aa776cce2f6f43329f88",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "205"
-        },
-        {
-          "emoji": "👍",
-          "count": "14"
-        },
-        {
-          "emoji": "🤩",
-          "count": "6"
-        },
-        {
-          "emoji": "👎",
-          "count": "3"
-        },
-        {
-          "emoji": "😍",
-          "count": "3"
-        },
-        {
-          "emoji": "💘",
-          "count": "3"
-        },
-        {
-          "emoji": "🥰",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        },
-        {
-          "emoji": "🍾",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "19.9K",
-      "posted_at": "2026-09-16T13:24:11+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1811",
       "reply": null
     }
   ]
