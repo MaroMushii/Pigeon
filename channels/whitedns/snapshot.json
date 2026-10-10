@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-10T16:07:02.453Z",
+  "fetched_at": "2026-10-10T16:12:08.408Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1946",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/h0wcZnbxD3Pz8KZRBXzA35V2Mld5HzdKGYGgjDZ4t9900dW9bz2l_jmEbp2irXRNnti4NvQjLu0HYTkbygS3rPj5wiG8PeageXJlelOtgquKmFXvkRF4tPSNfrWuZbObWF-i_ow86cfXBgYqraP0SROkdlWCETErceawpwzHManRFVfvueTXNl3irC48zVR75KHnaumn6xHWNAuSC_RNE4rTNSqjDzMsQGAJ51lt8thr5A-2zOdkA7lybkzfkAbloLSPc_tnPJrB7ygR41awJXo_qCMl-9Xx6DcC2N8nbYJPyulTQvAhNdfWCAbeg8UguM3BdObaRxyEKvH3Aiz4rA.jpg",
+      "author_photo_path": "channels/whitedns/media/6f0c3df55fe07a01cbea9e9c.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9398.png')\"><b>📘</b></i> <b>آموزش سادهٔ TLS Split و ECH در WhiteAesther 1.11.0</b><br><br><blockquote expandable=\"\">این دو قابلیت به اتصال <b>Aether</b> کمک می‌کنند:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>TLS Split</b> پیام آغاز اتصال را به قطعات کوچک‌تر تقسیم می‌کند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>ECH</b> بخش داخلی همان پیام، از جمله نام سرور، را رمزگذاری می‌کند؛ سرور باید پشتیبانی کند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> <b>برای کاربران معمولی: حالت خودکار</b><br>۱. اتصال را قطع کنید.<br>۲. در <b>مسیرها / Routes</b>، انتخاب مسیر را روی <b>خودکار</b> بگذارید.<br>۳. وارد <b>ترافیک / Traffic ← پیشرفته / Advanced</b> شوید.<br>۴. <b>Split the TLS handshake</b> را روشن و گزینهٔ <b>خودکار</b> زیر آن را انتخاب کنید.<br>۵. برای ECH نیز <b>Encrypted Client Hello</b> را روشن و زیر آن <b>خودکار</b> را انتخاب کنید.<br>۶. به خانه برگردید و وصل شوید. هیچ کادر سفارشی را پر نکنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>هر قابلیت کجا کار می‌کند؟</b><br>• تقسیم TLS: روی <b>MASQUE H2</b> و تونل بیرونی <b>WireGuard over MASQUE / WOM</b>.<br>• ECH: فعلاً فقط روی <b>MASQUE H3</b>.<br>• این گزینه‌ها تنظیمات داخلی Psiphon یا Tor را تغییر نمی‌دهند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> <b>تنظیم دستی تقسیم TLS</b><br>در <b>ترافیک ← پیشرفته</b>، تقسیم TLS را روشن کنید:<br>• <b>Records / پیش‌تنظیم رکوردهای TLS:</b> الگوی آماده؛ عدد لازم ندارد.<br>• <b>Compact / پیش‌تنظیم فشرده:</b> الگوی آمادهٔ دیگری است.<br>• <b>Custom / سفارشی:</b> مقدارها را خودتان وارد می‌کنید.<br>مقدارهای پیش‌فرض بخش سفارشی:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>اندازهٔ قطعه:</b> 16-32<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>تأخیر:</b> 2-10<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> <b>تقسیم در محل نام سرور:</b> روشن<br>16-32 یعنی اندازه از بازهٔ ۱۶ تا ۳۲ بایت انتخاب شود. 2-10 یعنی تأخیر بین قطعات از بازهٔ ۲ تا ۱۰ میلی‌ثانیه انتخاب شود.<br>اندازهٔ مجاز: <b>1 تا 16384</b><br>تأخیر مجاز: <b>0 تا 100</b><br>فقط عدد یا بازه را با اعداد انگلیسی وارد کنید. این مقدارها تضمین اتصال نیستند؛ قطعات خیلی کوچک یا تأخیر زیاد می‌توانند اتصال را کند کنند.<br>برای انتخاب مشخصِ H2 یا WOM، در <b>مسیرها ← خودم انتخاب می‌کنم</b>، مسیر شامل Aether را انتخاب کنید؛ سپس در <b>پیشرفته ← پروتکل</b>، H2 یا WOM را بگذارید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> <b>تنظیم ECH</b><br>برای بیشتر کاربران، <b>خودکار</b> کافی است؛ برنامه تلاش می‌کند تنظیمات لازم را دریافت کند.<br><b>سفارشی / Custom</b> را فقط وقتی انتخاب کنید که یک <b>ECHConfigList معتبر و سازگار با سرور، با فرمت Base64</b> از پشتیبانی دریافت کرده‌اید. خود رشته را بدون عنوان ech= یا کوتیشن در کادر بچسبانید.<br>آدرس IP، نام دامنه و کلید وایرگارد برای این کادر کاربرد ندارند. اگر رشته را ندارید، حالت <b>خودکار</b> را انتخاب کنید.<br>برای انتخاب دستی H3:<br><b>مسیرها ← خودم انتخاب می‌کنم ← مسیر شامل Aether ← پیشرفته ← پروتکل ← MASQUE H3</b><br>H3 به عبور UDP نیاز دارد؛ ECH به‌تنهایی مسدودبودن UDP را حل نمی‌کند. همچنین روشن‌بودن گزینهٔ ECH، فعال‌شدن موفق آن را تضمین نمی‌کند؛ دریافت خودکار ممکن است ناموفق باشد و تلاش اتصال بدون ECH ادامه پیدا کند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BE.png')\"><b>💾</b></i> تنظیمات خودکار ذخیره می‌شوند. پس از تغییر مقدارهای دستی، <b>قطع و دوباره وصل شوید</b>. اگر ورودی خطا دارد یا اتصال بعد از تغییر ناموفق شد، تنظیم مربوط را به <b>خودکار</b> برگردانید.</blockquote><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "📘 آموزش سادهٔ TLS Split و ECH در WhiteAesther 1.11.0\n\nاین دو قابلیت به اتصال Aether کمک می‌کنند:\n🔹 TLS Split پیام آغاز اتصال را به قطعات کوچک‌تر تقسیم می‌کند.\n🔹 ECH بخش داخلی همان پیام، از جمله نام سرور، را رمزگذاری می‌کند؛ سرور باید پشتیبانی کند.\n✅ برای کاربران معمولی: حالت خودکار\n۱. اتصال را قطع کنید.\n۲. در مسیرها / Routes، انتخاب مسیر را روی خودکار بگذارید.\n۳. وارد ترافیک / Traffic ← پیشرفته / Advanced شوید.\n۴. Split the TLS handshake را روشن و گزینهٔ خودکار زیر آن را انتخاب کنید.\n۵. برای ECH نیز Encrypted Client Hello را روشن و زیر آن خودکار را انتخاب کنید.\n۶. به خانه برگردید و وصل شوید. هیچ کادر سفارشی را پر نکنید.\n⚠️ هر قابلیت کجا کار می‌کند؟\n• تقسیم TLS: روی MASQUE H2 و تونل بیرونی WireGuard over MASQUE / WOM.\n• ECH: فعلاً فقط روی MASQUE H3.\n• این گزینه‌ها تنظیمات داخلی Psiphon یا Tor را تغییر نمی‌دهند.\n🛠 تنظیم دستی تقسیم TLS\nدر ترافیک ← پیشرفته، تقسیم TLS را روشن کنید:\n• Records / پیش‌تنظیم رکوردهای TLS: الگوی آماده؛ عدد لازم ندارد.\n• Compact / پیش‌تنظیم فشرده: الگوی آمادهٔ دیگری است.\n• Custom / سفارشی: مقدارها را خودتان وارد می‌کنید.\nمقدارهای پیش‌فرض بخش سفارشی:\n▫️ اندازهٔ قطعه: 16-32\n▫️ تأخیر: 2-10\n▫️ تقسیم در محل نام سرور: روشن\n16-32 یعنی اندازه از بازهٔ ۱۶ تا ۳۲ بایت انتخاب شود. 2-10 یعنی تأخیر بین قطعات از بازهٔ ۲ تا ۱۰ میلی‌ثانیه انتخاب شود.\nاندازهٔ مجاز: 1 تا 16384\nتأخیر مجاز: 0 تا 100\nفقط عدد یا بازه را با اعداد انگلیسی وارد کنید. این مقدارها تضمین اتصال نیستند؛ قطعات خیلی کوچک یا تأخیر زیاد می‌توانند اتصال را کند کنند.\nبرای انتخاب مشخصِ H2 یا WOM، در مسیرها ← خودم انتخاب می‌کنم، مسیر شامل Aether را انتخاب کنید؛ سپس در پیشرفته ← پروتکل، H2 یا WOM را بگذارید.\n🔐 تنظیم ECH\nبرای بیشتر کاربران، خودکار کافی است؛ برنامه تلاش می‌کند تنظیمات لازم را دریافت کند.\nسفارشی / Custom را فقط وقتی انتخاب کنید که یک ECHConfigList معتبر و سازگار با سرور، با فرمت Base64 از پشتیبانی دریافت کرده‌اید. خود رشته را بدون عنوان ech= یا کوتیشن در کادر بچسبانید.\nآدرس IP، نام دامنه و کلید وایرگارد برای این کادر کاربرد ندارند. اگر رشته را ندارید، حالت خودکار را انتخاب کنید.\nبرای انتخاب دستی H3:\nمسیرها ← خودم انتخاب می‌کنم ← مسیر شامل Aether ← پیشرفته ← پروتکل ← MASQUE H3\nH3 به عبور UDP نیاز دارد؛ ECH به‌تنهایی مسدودبودن UDP را حل نمی‌کند. همچنین روشن‌بودن گزینهٔ ECH، فعال‌شدن موفق آن را تضمین نمی‌کند؛ دریافت خودکار ممکن است ناموفق باشد و تلاش اتصال بدون ECH ادامه پیدا کند.\n💾 تنظیمات خودکار ذخیره می‌شوند. پس از تغییر مقدارهای دستی، قطع و دوباره وصل شوید. اگر ورودی خطا دارد یا اتصال بعد از تغییر ناموفق شد، تنظیم مربوط را به خودکار برگردانید.\n\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1946",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/bK8QRkfUcxI4CvJzXX8d8CKwxmDG9xQsQnAMd4XC_Yt3tV2UE_gQbdOkcc3vkWGu0wSWXjZoh90POYDUgSUBw_IFvIxSHd7CO1EJGA8zaH440uIJpfvrUj8KqiGzNu1XsJEh0do3IRT1tcMm4qnAXatrGRFVJ5y-x6W5sWsN0vafFGADmXJO_v2z_Bb-SaCqGNcM9ar1-XlyEJ_U0VKkxhw60r0OGBc-x0pLH8GKqB_TdyizzXYmhpHfDF8TXGi8lSXE_R4y5pd8wWhzk2vyt2stnR_1_6W4eNasI1HSwwhDCcV-L647IdI0ux4NfRopd4ovJbhpxHKtdq6H_YyN1g.jpg",
+          "thumbnail_path": "channels/whitedns/media/9201b88341085747011f6fcb.jpg",
+          "thumbnail_sha256": "1feaa51c089b037b98f7cd2b2494e253d2536aa1e1685bab1663e47f3cbe68c7",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "9"
+        }
+      ],
+      "views_label": "592",
+      "posted_at": "2026-10-10T16:09:11+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1946",
+      "reply": null
+    },
     {
       "id": "whitedns/1943",
       "author_name": "White DNS",
@@ -23,7 +56,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "26"
+          "count": "34"
         },
         {
           "emoji": "👏",
@@ -31,10 +64,14 @@
         },
         {
           "emoji": "🍓",
+          "count": "2"
+        },
+        {
+          "emoji": "😍",
           "count": "1"
         }
       ],
-      "views_label": "1.52K",
+      "views_label": "1.92K",
       "posted_at": "2026-10-10T15:52:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1943",
@@ -64,18 +101,22 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "23"
+          "count": "26"
         },
         {
           "emoji": "❤",
-          "count": "5"
+          "count": "9"
         },
         {
           "emoji": "🍓",
-          "count": "2"
+          "count": "3"
+        },
+        {
+          "emoji": "😍",
+          "count": "1"
         }
       ],
-      "views_label": "1.35K",
+      "views_label": "1.73K",
       "posted_at": "2026-10-10T15:52:09+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1942",
@@ -105,7 +146,7 @@
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "73"
+          "count": "75"
         },
         {
           "emoji": "❤",
@@ -124,7 +165,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.63K",
+      "views_label": "6.76K",
       "posted_at": "2026-10-10T09:24:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1941",
@@ -142,7 +183,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "93"
+          "count": "95"
         },
         {
           "emoji": "🍓",
@@ -165,7 +206,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.02K",
+      "views_label": "7.11K",
       "posted_at": "2026-10-10T09:14:31+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1940",
@@ -195,7 +236,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "87"
+          "count": "88"
         },
         {
           "emoji": "❤",
@@ -244,7 +285,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "135"
+          "count": "136"
         },
         {
           "emoji": "👍",
@@ -267,7 +308,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.91K",
+      "views_label": "9.94K",
       "posted_at": "2026-10-10T01:36:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1938",
@@ -312,7 +353,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.35K",
+      "views_label": "9.41K",
       "posted_at": "2026-10-10T01:30:42+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1937",
@@ -512,7 +553,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.54K",
+      "views_label": "9.57K",
       "posted_at": "2026-10-09T00:47:39+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1933",
@@ -5398,55 +5439,6 @@
       "posted_at": "2026-09-17T03:46:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1816",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1815",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/LHIz5cvMnd0rK-aQO3ZWCkSO4767ngvSISm9n90fi_LZ5TBA0c-QkB7UHgvRKhSavpus3dshChLMAj4TzaU1dHo-e77u2K495za9O4S-idTPGvgmpV9HnQ51pX3kPLOJ8QmnJgp5_ZfXxWZcDRm-d-bQFrDjVmj_BYydQ5wUgn3tWepMCkABB2-8AfQEdly6u73V4NKrYtlM5wUZXAcCBN_D1vw5UT8bNoNGkCpgh5YpaSALbZHSRSFehgdaYOuoScAssWlstZ08ZMUzuWpeZqncLzyVWAA2M9jw5V4Zn4auBkIVxWv8OGlm4MFLdD37vhElzGNdtGQRaQgALHwVzg.jpg",
-      "author_photo_path": "channels/whitedns/media/1f35b18d469e6e41559bc103.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5438496463044752972\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AD90.png')\"><b>⭐️</b></i></tg-emoji><b>چطور API رایگان DeepSeek V4.1 Flash بگیریم؟</b><br><br>توی این ویدیو، قدم‌به‌قدم نشون می‌دم چطور به API این مدل دسترسی رایگان بگیرید؛ <br><br>اگه با API آشنا نیستید، خیلی ساده یعنی به‌جای اینکه فقط توی سایت با هوش مصنوعی چت کنید، بتونید ازش داخل برنامه‌ها و ابزارهای خودتون استفاده کنید.<br><br>چه بخواید ایده‌ای رو تست کنید، چه روی یک پروژهٔ شخصی کار کنید یا تازه کار با API رو یاد بگیرید، این آموزش می‌تونه نقطهٔ شروع خوبی باشه. <br><br><tg-emoji emoji-id=\"5934029049260150525\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B9.png')\"><b>📹</b></i></tg-emoji> <a href=\"https://www.youtube.com/watch?v=IC0_hgmvgC4\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">تماشا ویدیو در یوتیوب</a>",
-      "plain_text": "⭐️چطور API رایگان DeepSeek V4.1 Flash بگیریم؟\n\nتوی این ویدیو، قدم‌به‌قدم نشون می‌دم چطور به API این مدل دسترسی رایگان بگیرید؛\n\nاگه با API آشنا نیستید، خیلی ساده یعنی به‌جای اینکه فقط توی سایت با هوش مصنوعی چت کنید، بتونید ازش داخل برنامه‌ها و ابزارهای خودتون استفاده کنید.\n\nچه بخواید ایده‌ای رو تست کنید، چه روی یک پروژهٔ شخصی کار کنید یا تازه کار با API رو یاد بگیرید، این آموزش می‌تونه نقطهٔ شروع خوبی باشه.\n\n📹 تماشا ویدیو در یوتیوب",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "190"
-        },
-        {
-          "emoji": "👍",
-          "count": "23"
-        },
-        {
-          "emoji": "🍓",
-          "count": "14"
-        },
-        {
-          "emoji": "🤣",
-          "count": "6"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🍾",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        }
-      ],
-      "views_label": "17.6K",
-      "posted_at": "2026-09-16T19:17:28+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1815",
       "reply": null
     }
   ]
