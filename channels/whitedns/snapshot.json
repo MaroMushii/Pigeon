@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-10T09:12:02.155Z",
+  "fetched_at": "2026-10-10T09:17:00.096Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,35 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1940",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/h0wcZnbxD3Pz8KZRBXzA35V2Mld5HzdKGYGgjDZ4t9900dW9bz2l_jmEbp2irXRNnti4NvQjLu0HYTkbygS3rPj5wiG8PeageXJlelOtgquKmFXvkRF4tPSNfrWuZbObWF-i_ow86cfXBgYqraP0SROkdlWCETErceawpwzHManRFVfvueTXNl3irC48zVR75KHnaumn6xHWNAuSC_RNE4rTNSqjDzMsQGAJ51lt8thr5A-2zOdkA7lybkzfkAbloLSPc_tnPJrB7ygR41awJXo_qCMl-9Xx6DcC2N8nbYJPyulTQvAhNdfWCAbeg8UguM3BdObaRxyEKvH3Aiz4rA.jpg",
+      "author_photo_path": "channels/whitedns/media/6f0c3df55fe07a01cbea9e9c.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "Fragment + Fingerprint <tg-emoji emoji-id=\"5771648061059112216\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji><br><b>روی بعضی از اپراتورها</b> میتونید با اعمال کردن مقادیر زیر در pttn/pttng روی کانفیگ های BPB دوباره متصل بشید . <br><tg-emoji emoji-id=\"5402260378019182812\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i></tg-emoji><a href=\"https://github.com/patterniha/PattNG/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/patterniha/PattNG/releases</a>   / windows ,linux . mac<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i><a href=\"https://github.com/patterniha/PattN/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/patterniha/PattN/releases</a>     / android <br><br>در قسمت finalMask کل عبارت زیر را وارد کنید:<br><pre>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}</pre><br><br>در قسمت cipherSuites کل عبارت زیر را وارد کنید:<br><pre>TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256</pre><br> <br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "Fragment + Fingerprint 📱\nروی بعضی از اپراتورها میتونید با اعمال کردن مقادیر زیر در pttn/pttng روی کانفیگ های BPB دوباره متصل بشید .\n💻https://github.com/patterniha/PattNG/releases / windows ,linux . mac\n📱https://github.com/patterniha/PattN/releases / android\n\nدر قسمت finalMask کل عبارت زیر را وارد کنید:\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}\n\nدر قسمت cipherSuites کل عبارت زیر را وارد کنید:\nTLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256\n\n@whitedns",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "🍓",
+          "count": "4"
+        },
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "💋",
+          "count": "1"
+        }
+      ],
+      "views_label": "446",
+      "posted_at": "2026-10-10T09:14:31+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1940",
+      "reply": null
+    },
     {
       "id": "whitedns/1939",
       "author_name": "White DNS",
@@ -35,7 +64,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "76"
+          "count": "77"
         },
         {
           "emoji": "❤",
@@ -54,7 +83,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.82K",
+      "views_label": "7.95K",
       "posted_at": "2026-10-10T01:37:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1939",
@@ -84,7 +113,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "110"
+          "count": "112"
         },
         {
           "emoji": "👍",
@@ -107,7 +136,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.74K",
+      "views_label": "7.9K",
       "posted_at": "2026-10-10T01:36:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1938",
@@ -129,7 +158,7 @@
         },
         {
           "emoji": "❤",
-          "count": "185"
+          "count": "186"
         },
         {
           "emoji": "👍",
@@ -152,7 +181,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.92K",
+      "views_label": "7.05K",
       "posted_at": "2026-10-10T01:30:42+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1937",
@@ -182,7 +211,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "161"
+          "count": "162"
         },
         {
           "emoji": "❤‍🔥",
@@ -321,7 +350,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "170"
+          "count": "171"
         },
         {
           "emoji": "👍",
@@ -5490,71 +5519,6 @@
       "posted_at": "2026-09-16T13:21:01+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1810",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1809",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/m_0GeLDpgtRXbn6dxbAeRVzv8rkaKduraT8CW8Kfyf9T8MVAnSBu9iSq-dIh9FZKtW9vX4yChOWobtHzzZ69DBJrAmH93G3XuImf3hOLWGfmrd_8smjCq500rIhWZ3FDjuQAdqen35a6sGhlv7OM7OgKintiezgCofuOOokvWqpHRR9YfKwEy7Syu2uzrUYTwVkrhNKZK3GJPGcN5frZc8UEMRC2avktLBNp3uJBfNDYMGMtlCaAo8IQ7eK0FwNwXh2mt7QkmO0qR7kIDgGUOD-iq9wOnmale6oP-kd48b-mKbPGogxB1O1b-uD6VpQz8tCAU5tjHoMhOAr-jLcL6Q.jpg",
-      "author_photo_path": "channels/whitedns/media/0d12fa6631d573e00642aca8.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> نسخهٔ آزمایشی Whiteaesther desktop 1.9.2 <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br><b>دوستانی که از نسخه های قبلی استفاده میکنند و مشکلی ندارند فعلا نیاز نیست اپدیت کنند </b><br><br><b>این نسخه یک تغییر بزرگ دارد.دیگر لازم نیست بدانید کدام راه کار می‌کند</b><br><br><blockquote expandable=\"\">تا امروز اگر Aether روی شبکهٔ شما بیرون نمی‌رفت، باید خودتان می‌رفتید در تنظیمات پیشرفته و سایفون یا تور را انتخاب می‌کردید — و بیشتر مردم اصلاً نمی‌دانستند این گزینه‌ها وجود دارند.<br><br>حالا فقط اتصال را بزنید. برنامه هر چهار راه خروج را هم‌زمان امتحان می‌کند — Aether روی H2، Aether روی H3، سایفون، و تور — و اولی که واقعاً ترافیک حمل کند نگه می‌دارد.<br><br>قبلاً یکی‌یکی امتحان می‌شدند: اگر Aether بیرون نمی‌رفت، باید سه دقیقه صبر می‌کردید تا نوبت سایفون برسد. حالا همه با هم شروع می‌شوند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i> و یک بررسی که قبلاً نبود<br><br>برنامه قبلاً یک مسیر را «کارکن» حساب می‌کرد اگر چیزی از آن برمی‌گشت. ولی روی شبکه‌ای که ترافیک را شنود می‌کند، خودِ شنودکننده هم جواب می‌دهد — یعنی ممکن بود برنامه دقیقاً همان مسیری را انتخاب کند که در حال خوانده شدن است.</blockquote><br><br>حالا از سایتی که به آن وصل می‌شود می‌خواهد هویتش را با گواهی ثابت کند؛ چیزی که فقط سایت واقعی می‌تواند ارائه دهد.<br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> این نسخه آزمایشی است</b><br><br>در فهرست دانلودها به‌عنوان آخرین نسخه نشان داده نمی‌شود و برنامه هم خودکار پیشنهادش نمی‌دهد. این عمدی است — با لینک مستقیم زیر بگیریدش.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود<br><a href=\"http://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.9.2\" target=\"_blank\" rel=\"noopener\">github.com/WhiteDNS/WhiteAesther/releases/tag/v1.9.2</a><br><br>ویندوز → .exe · <br>مک (اپل سیلیکون) → macos_arm64.dmg · <br>مک (اینتل) → macos_x86_64.dmg <br>· لینوکس → .AppImage یا .deb / .rpm<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i> چه چیزی به ما بگویید<br><br>• فقط دکمهٔ اتصال را زدید؟ وصل شد؟ چقدر طول کشید؟<br>• اگر وصل نشد: عیب‌یابی ← ساخت گزارش ← ذخیره کنید و فایل را بفرستید. آن فایل می‌گوید هر چهار راه دقیقاً چه کردند و چرا رد شدند.<br>• هر چیزی که عجیب بود.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🧪 نسخهٔ آزمایشی Whiteaesther desktop 1.9.2 ⚠️⚠️⚠️\n\nدوستانی که از نسخه های قبلی استفاده میکنند و مشکلی ندارند فعلا نیاز نیست اپدیت کنند\n\nاین نسخه یک تغییر بزرگ دارد.دیگر لازم نیست بدانید کدام راه کار می‌کند\n\nتا امروز اگر Aether روی شبکهٔ شما بیرون نمی‌رفت، باید خودتان می‌رفتید در تنظیمات پیشرفته و سایفون یا تور را انتخاب می‌کردید — و بیشتر مردم اصلاً نمی‌دانستند این گزینه‌ها وجود دارند.\n\nحالا فقط اتصال را بزنید. برنامه هر چهار راه خروج را هم‌زمان امتحان می‌کند — Aether روی H2، Aether روی H3، سایفون، و تور — و اولی که واقعاً ترافیک حمل کند نگه می‌دارد.\n\nقبلاً یکی‌یکی امتحان می‌شدند: اگر Aether بیرون نمی‌رفت، باید سه دقیقه صبر می‌کردید تا نوبت سایفون برسد. حالا همه با هم شروع می‌شوند.\n\n🔒 و یک بررسی که قبلاً نبود\n\nبرنامه قبلاً یک مسیر را «کارکن» حساب می‌کرد اگر چیزی از آن برمی‌گشت. ولی روی شبکه‌ای که ترافیک را شنود می‌کند، خودِ شنودکننده هم جواب می‌دهد — یعنی ممکن بود برنامه دقیقاً همان مسیری را انتخاب کند که در حال خوانده شدن است.\n\nحالا از سایتی که به آن وصل می‌شود می‌خواهد هویتش را با گواهی ثابت کند؛ چیزی که فقط سایت واقعی می‌تواند ارائه دهد.\n\n⚠️ این نسخه آزمایشی است\n\nدر فهرست دانلودها به‌عنوان آخرین نسخه نشان داده نمی‌شود و برنامه هم خودکار پیشنهادش نمی‌دهد. این عمدی است — با لینک مستقیم زیر بگیریدش.\n\n📥 دانلود\ngithub.com/WhiteDNS/WhiteAesther/releases/tag/v1.9.2\n\nویندوز → .exe ·\nمک (اپل سیلیکون) → macos_arm64.dmg ·\nمک (اینتل) → macos_x86_64.dmg\n· لینوکس → .AppImage یا .deb / .rpm\n\n💬 چه چیزی به ما بگویید\n\n• فقط دکمهٔ اتصال را زدید؟ وصل شد؟ چقدر طول کشید؟\n• اگر وصل نشد: عیب‌یابی ← ساخت گزارش ← ذخیره کنید و فایل را بفرستید. آن فایل می‌گوید هر چهار راه دقیقاً چه کردند و چرا رد شدند.\n• هر چیزی که عجیب بود.\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1809",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/CXPe2BlPJfbkPxofr9FCvAJTg8iwP7GfqHFuatAsaU-540DFZTz8CYqv7d_Yxxg_3aB4JN20EJWmmO62s4EcfVKI7KLbxWqrWp1g7tH49lsDo3W8TMvQL9g6GQDThkl_A1rRGEZ2M0gNsa7Sl2N_ma-dljLKDeaQ1MWhuwoiKFaq31YK6xI4-25i4T-LVUew5w9lW-_07BaNENjfw-Ui5ZIUhhMD11Up4Xanx9xf1ftLc3VmaroYBASP_t-31l2iZZkFWPWcYVEC6Gdshb8D7Ogdw3SQj2gwsadtNgqzy3kqSgm9xYfY4kO_mPXvQ-4iVhDoMYfEtIDbMlZ2FykR8A.jpg",
-          "thumbnail_path": "channels/whitedns/media/adccdca8f5a5616a44f052c4.jpg",
-          "thumbnail_sha256": "7a1a5a4e4c59a0239beb9bd8b3cb5d4b5fdc9b3833156a6568d1e7a781590369",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "99"
-        },
-        {
-          "emoji": "🤩",
-          "count": "14"
-        },
-        {
-          "emoji": "👍",
-          "count": "8"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        },
-        {
-          "emoji": "🥰",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🥱",
-          "count": "1"
-        },
-        {
-          "emoji": "🥴",
-          "count": "1"
-        },
-        {
-          "emoji": "💅",
-          "count": "1"
-        }
-      ],
-      "views_label": "7.12K",
-      "posted_at": "2026-09-16T04:52:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1809",
       "reply": null
     }
   ]
