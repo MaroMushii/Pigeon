@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-11T12:22:00.273Z",
+  "fetched_at": "2026-10-11T12:27:24.291Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,31 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5556",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/rAFzer4CSwPf-QO-xfIq6wcqXh5-e_s5-MpdhfeGp_g55gwzs6Lh4Wc_6iwfh53m3eQwBMplb0lcRVWsiFLVMe0900E066Ua0u68-Qe6kzAl9yavl6I_-uZ1kZfqk-KUvv-YJrIuV3Slbom3GvadXny8cHC_e700ok_T-sTvKzpPo4-GWfQjsM4WqLyyZzkBKsQ07UBaYo8cxoRNiDBWWBBwqGjz_ZBsBr76HL-7IIEtccLdtMl18llZ9QNgMJS891As9lv-PTkc-TAXXafdUSkXdk4Kxz35NTZr-olkG2bIH9JZ4Nw5uFLPGwBVySUkOkq69D2cpq2VMHv5-QnYRg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/4e5d74e6b64bfc470e78b2bb.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>تیکه گمشده‌ی ارور هندلینگ توی Rust</b><br><br>یه رایت‌آپ خوب که می‌گه درد Rust انتخاب بین تایپ دقیق پر از بایلرپولیت مبهمه؛ راه‌حلش کتابخونه eros با «مجموعه خطا» هست: به‌جای تعریف enum تازه، می‌نویسیم (io::Error, ParseIntError) و کامپایلر چک می‌کنه خطای اضافه propagate نشه. با widen هم ترکیب می‌شن و کانتکست می‌گیرن.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://mcmah309.github.io/posts/the-missing-piece-in-rust-error-handling/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "تیکه گمشده‌ی ارور هندلینگ توی Rust\n\nیه رایت‌آپ خوب که می‌گه درد Rust انتخاب بین تایپ دقیق پر از بایلرپولیت مبهمه؛ راه‌حلش کتابخونه eros با «مجموعه خطا» هست: به‌جای تعریف enum تازه، می‌نویسیم (io::Error, ParseIntError) و کامپایلر چک می‌کنه خطای اضافه propagate نشه. با widen هم ترکیب می‌شن و کانتکست می‌گیرن.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "🦄",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.3K",
+      "posted_at": "2026-10-11T12:24:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5556",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5555",
       "author_name": "Matin SenPai",
@@ -35,14 +60,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "44"
+          "count": "45"
         },
         {
           "emoji": "❤",
-          "count": "22"
+          "count": "25"
         }
       ],
-      "views_label": "9.39K",
+      "views_label": "10.1K",
       "posted_at": "2026-10-11T10:22:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5555",
@@ -72,7 +97,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "47"
+          "count": "48"
         },
         {
           "emoji": "❤",
@@ -83,7 +108,7 @@
           "count": "2"
         }
       ],
-      "views_label": "13.8K",
+      "views_label": "14.2K",
       "posted_at": "2026-10-11T08:18:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5554",
@@ -101,7 +126,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "113"
+          "count": "115"
         },
         {
           "emoji": "😁",
@@ -128,7 +153,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.3K",
+      "views_label": "17.6K",
       "posted_at": "2026-10-11T07:17:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5553",
@@ -165,7 +190,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.7K",
+      "views_label": "18.9K",
       "posted_at": "2026-10-11T05:46:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5552",
@@ -210,7 +235,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.8K",
       "posted_at": "2026-10-11T05:10:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5551",
@@ -247,7 +272,7 @@
           "count": "2"
         }
       ],
-      "views_label": "19.4K",
+      "views_label": "19.6K",
       "posted_at": "2026-10-11T04:58:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5550",
@@ -288,7 +313,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.4K",
+      "views_label": "19.6K",
       "posted_at": "2026-10-11T04:56:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5549",
@@ -329,7 +354,7 @@
           "count": "4"
         }
       ],
-      "views_label": "30.4K",
+      "views_label": "30.6K",
       "posted_at": "2026-10-08T10:14:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5548",
@@ -372,7 +397,7 @@
         },
         {
           "emoji": "❤",
-          "count": "534"
+          "count": "535"
         },
         {
           "emoji": "👍",
@@ -399,7 +424,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.5K",
+      "views_label": "32.6K",
       "posted_at": "2026-10-08T09:39:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5547",
@@ -433,7 +458,7 @@
         },
         {
           "emoji": "👍",
-          "count": "241"
+          "count": "242"
         },
         {
           "emoji": "❤",
@@ -441,7 +466,7 @@
         },
         {
           "emoji": "😁",
-          "count": "22"
+          "count": "23"
         },
         {
           "emoji": "💔",
@@ -452,7 +477,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.1K",
+      "views_label": "32.2K",
       "posted_at": "2026-10-08T05:53:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5546",
@@ -485,7 +510,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.2K",
+      "views_label": "30.3K",
       "posted_at": "2026-10-08T05:28:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5545",
@@ -543,7 +568,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.4K",
+      "views_label": "30.7K",
       "posted_at": "2026-10-08T05:01:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5544",
@@ -592,7 +617,7 @@
           "count": "9"
         }
       ],
-      "views_label": "30.4K",
+      "views_label": "30.6K",
       "posted_at": "2026-10-07T19:17:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5542",
@@ -637,7 +662,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24.4K",
+      "views_label": "24.5K",
       "posted_at": "2026-10-07T19:08:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5541",
@@ -670,7 +695,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29.4K",
+      "views_label": "29.5K",
       "posted_at": "2026-10-07T12:11:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5540",
@@ -707,7 +732,7 @@
           "count": "4"
         }
       ],
-      "views_label": "31K",
+      "views_label": "31.1K",
       "posted_at": "2026-10-07T12:06:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5539",
@@ -787,7 +812,7 @@
           "count": "1"
         }
       ],
-      "views_label": "35.2K",
+      "views_label": "35.3K",
       "posted_at": "2026-10-07T11:10:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5537",
@@ -4404,101 +4429,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5455",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5451",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/UXHvCyYVEqK9w1B_QInm_AHQqv0RboWYqord_kjszSu_RjiweDqCOK5ZbeErM_KxRxPOkx-2EFbsruk8wFFcxo9a6PRlzsrM9mJzlDBlaSKH7shBxvDqNhUcnl_905b8DkDPYt1iIc6uSWD1pC5nW2Y-ASjE9LkhtfY8YnI6UTtzkItA911IuH5_ojD_ncX5zD_ISEawl3_x0EdX0zqFN6GZWyMFMJ0Ck1f662dQlULjEtiARfK1S1lZQeG5eyqBsrho9dZdBDiIs_PqckHfhGd3MFHZKzNaR7S0DoMVT0iuS7jhiSFIrHGOmsIVerqQNHEpL2-RoAGFAR4uQxxsgA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/fda00cd35ef5d0ce51fcdec6.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">بنچمارک‌های Gemini 4</div>",
-      "plain_text": "بنچمارک‌های Gemini 4",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5451?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/rQVGxr2y0jSAOlwHSeu-MbhwzZJtSvR6Y95kqtPbdu-LHhYHDvtvNSzf9v8oO_fReEwr0sk9yjlJm0YKbp9zYkkaHdB54ylaw-eHDaokXNYXT9rwhvc5cRSOyfHWeEeP9k-7aNMaN7dOY5YcHKdSdvSyrJR94tgttc74DD1XZlO7JTpNK9I0YyWyVE_xUzTm5eadSHT-0fDfT1WDAzvaA6cjH6DhLVD3JQ5lRmipU9acnQ83bumiwhvd2fQq4_gL1h5qD4fXtliCZo8VpzdV6N5cTXX9a5ovt2sLoYx37o5ESvJa_ObZozFWu7Jzr7wOcGCuxP4tx9DU7MGIBZj-VA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/c1034f884a6fecb52ec83800.jpg",
-          "thumbnail_sha256": "4a7efe86dd69297db4fe32d4f0a5b8e6a5e6b8d656b1aea3af102bbb0aecf50e",
-          "duration_label": null,
-          "aspect_ratio": 0.9975
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5452?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/THy5ADHb1_ZcbUi_2PZbHOabq0RhU4DeHtja9lwrXlHEbdpZ5sCbssl0EkXXqWQwGCiUijz0p3ycaWDUUbu5wGsrvpLvDkz9H7Gh0ouLDDcDGG6fD9VSrdLd5F9ZQ5_FIYSngswbZRb9ppX0kaT7P1cGOJ5peFhwS7VQ3Y09vNeV7Z9b43vC9cQz-VTCFTHpK4B2UlygxQK4CqjwnWawqasQzVRjY6aJ6zd39ZXbK1eXuH0FTrdYuoVWK-wbWrbAr9h-ZXE9ysTsD6KRENix72I5Xu9M8ThINLqLjSwMwsZ7W7kYZNr8UTBJkIbQJj0OofyjmbgdHE8Ent9L-pLMkQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/626af9e88ac76f35aab70cec.jpg",
-          "thumbnail_sha256": "6f26ffabed308807435f978baf1df62ef0ec6ed519b77e84eb7315ce2926b988",
-          "duration_label": null,
-          "aspect_ratio": 1.1299435028249
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5453?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Q7BpARCsn-iN68M7QINKxjBnzjQWq4msg-GYAEX9lrKDfiKsDy77tJH2RWdTpBnW7WBjcJdyYHjvQGHBKCp0Lmi2yIXSHSK9ahSCB8Jr2HuN4Hwe-g1zGRiWuYZtG9nPrAVFSmlhvp7QOxgT4vOJ0P9Hu4pIDoB0I3fVpEm5o7N3_445PIaP1wEBbw8KDEFTuRrY1ruFm60TVyySONI1MwiKwXgOhVFhdMef59E62VvVTmUmSLAj543Sj_zkioOZGuMYaSaplDoEIXNYeZIDQID-RYdOG5pphGlM9DdzYGI6GHyaAzN7zvGUdU7RVfoAk-gFbvaObD0kgqAYJxFS2Q.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/b10d932dc22ae42cf1e22139.jpg",
-          "thumbnail_sha256": "998f689a69b112e655ca6c0b103869c199bf83593f5301abb1a2c9589df35dfe",
-          "duration_label": null,
-          "aspect_ratio": 1
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5454?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/u1Q9qJ1AQtKoSCrPahnkOca4EsFu9_6Y7QwOhMe4Z4-h8B9WHxM8xY0ammotSbLKD3h3AbR3skQIMiFEg1kKyLdTxcegr4Eo1sRfn_wM0uFdlBn6uo1e0WAn_w8e8fU_ZkB3kNb-ebo_bw0zWRJC8AYcqRXeL1Q19GNJkGG-dm69mekBCbG6NOOgTd7aIlkjrVeIhQeNyLYem4szrPtUJKI_dhhfqBWfMNxRplZT48lr8x7Ss_kKVwhW9oAt4FsuB4kOzYXrWVAQluzaASwDENUKXXCI-sI1BDHY6CXTgV2fmfc_gnMO_u8VWOyoy4ohrZJM-VZFoL6eR9oMorRLww.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/4ac9ccee8aed022136de24d3.jpg",
-          "thumbnail_sha256": "7419adf827b62a2ee7be74b97489f4b3f6af9bb0a680b4f045e9bb9699b68f21",
-          "duration_label": null,
-          "aspect_ratio": 1.2326656394453
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "246"
-        },
-        {
-          "emoji": "💯",
-          "count": "25"
-        },
-        {
-          "emoji": "👍",
-          "count": "16"
-        },
-        {
-          "emoji": "😁",
-          "count": "14"
-        },
-        {
-          "emoji": "🦄",
-          "count": "5"
-        },
-        {
-          "emoji": "🆒",
-          "count": "2"
-        }
-      ],
-      "views_label": "27.8K",
-      "posted_at": "2026-09-30T21:55:45+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5451",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5449",
-        "author_name": "Matin SenPai",
-        "preview_text": "گوگل از Gemini 4 Argon رونمایی کرد: تمرکز ویژه روی مهندسی نرم‌افزار و امنیت سایبری گوگل دیپ‌مایند نسل جدید مدل‌های پیشروی خودش رو با نام Gemini 4 Argon معرفی کرد. این مدل خروجی وحشتناک تا سقف ۱ میلیون توکن(پنجره Context نه ها. Outputای که همیشه 128K بود برای…",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/jHoatbVrGap3NKQwEn0qx4G1VNYjQh9ROPxSFnrhN3yaYzQRCHlH7NU-nQ5ojbEoiRVS50fgRnmMGnsqNFREPJzKGwcPvJABWz78st_4mTzCSLethL6EYpHAtw4hbcy2_EmRgkiJ13g25fEyqs1vnnn6BoUFBcmaoF78gN3TpwcZPW5mPmQU5FfNXAQ5VO3hfpVMv6S5_QQYtEOnfC3ISNhsOkZH4bWdBfkz8irKz7UbjoDJI5IA3TiUihl-ISTSMhXkG83Ol_r3jRLXpIuOi3O13QsM9vhTmnGBpt-UXTK206BwQaxOdb2fJMUdArO0IHGBjWaWJXvMGqW51VDE6A.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/e4e146b500e28b5c67033627.jpg",
-        "thumbnail_sha256": "79000c64abfc0eb145a344512e032533b09c665a8db1a62a8d53bd715317d319",
-        "permalink": "https://t.me/matinsenpaii/5449"
-      }
     }
   ]
 }
