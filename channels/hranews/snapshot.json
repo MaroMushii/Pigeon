@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-11T10:11:52.766Z",
+  "fetched_at": "2026-10-11T10:19:03.322Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "28.9K"
   },
   "posts": [
+    {
+      "id": "hranews/116290",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/TSvBNHpmdfCRDlmIGEaZyCc9Aa3OA9PpGgHKBxour0j2C5fHCkx_VCKq3k_ObhvRZJbY5VdrrhO-sMU8a1me994q6UoqTKgv1lVkZvWw2kv3YZNz5On13wP2SV7FFb_lT0_mZJo_FI3wIWoEfPY_V0dREBfroCcVfZxa25Vbpigt3l_eTcaDwoCpMPQ2iBdKhlLzP4dKW5NiNXVqdKZEaeD9oXp7vufWsQQlWKJQhsVpj4r_SbsyDM8oNfmOPGfz2TjyhetK_ZliQHZOlqUYyNWxpSMbiNNegVRg5YSkH1dwtl1l1vYj5ahB8KR7kipeQn8wCbOuyKTUaJhcjaGBJQ.jpg",
+      "author_photo_path": "channels/hranews/media/f8f035c1e4209d5a8ee2c500.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "روز جاری، بازنشستگان صندوق بازنشستگی فولاد با برگزاری راهپیمایی از دروازه دولت به سمت ساختمان استانداری اصفهان، دست به <a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9\">#تجمع</a> اعتراضی زدند.<br><br>معترضان نسبت به عملکرد شرکت بیمه «دانا» و نبود پوشش مناسب هزینه‌های درمانی اعتراض کردند. آن‌ها همچنین خواستار اجرای کامل طرح متناسب‌سازی حقوق تا سطح ۹۰ درصد شدند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -&nbsp; <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>&nbsp; کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "روز جاری، بازنشستگان صندوق بازنشستگی فولاد با برگزاری راهپیمایی از دروازه دولت به سمت ساختمان استانداری اصفهان، دست به #تجمع اعتراضی زدند.\n\nمعترضان نسبت به عملکرد شرکت بیمه «دانا» و نبود پوشش مناسب هزینه‌های درمانی اعتراض کردند. آن‌ها همچنین خواستار اجرای کامل طرح متناسب‌سازی حقوق تا سطح ۹۰ درصد شدند.\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/116290",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/aqD7ydBzgXfRN-6jwaXQoTyMLNzmnbgrU6YFZbWeIJNgx9bgETJtBRQ66nj1ENjQtXyWHshSd1ShbGF056NMSRBQe8IAyY2whO4KY1fcuFbpy7zNRlMn0SXcRrYPfNYzAdaJKZ71_YHZWyO0LoDwIqlbbAFVAamYnsMLsyDSw4-z4QZcNXgia_WL6amW4EG06CkWLKxGyghlFtf5f1UkgccysMuh5ZDERzYdOcdgq0YuIkeOPQp2GuJ7HlQ8dh5w__nn-Z001ZLJGd05uP_oNhneihQf-bv92PidKG7D4ThISTsvAHw6RJ8EbpKLnB_K1gyluEowhxeyHeFWcxFJ3g",
+          "thumbnail_path": "channels/hranews/media/ab958595f334bb17ff7ee58b.jpg",
+          "thumbnail_sha256": "2d9002de2b2deb6f220d48c10d1fc4f091bf491ae53b9f5f088f1a387e1f7b9d",
+          "duration_label": "0:49",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "52",
+      "posted_at": "2026-10-11T10:13:44+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/116290",
+      "reply": null
+    },
     {
       "id": "hranews/116289",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "101",
+      "views_label": "141",
       "posted_at": "2026-10-11T09:57:29+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116289",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "199",
+      "views_label": "235",
       "posted_at": "2026-10-11T09:37:28+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116288",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "264",
+      "views_label": "285",
       "posted_at": "2026-10-11T09:14:54+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116287",
@@ -105,7 +133,7 @@
       "plain_text": "یک کارگر شاغل در معدن طلای زرمهر جان خود را از دست داد\n\n❗️❗️❗️❗️❗️ – امروز یکشنبه ۱۹ مهرماه، یک #کارگر شاغل در #معدن طلای زرمهر استان خراسان رضوی، بر اثر سقوط به مخزن آب آلوده به مواد شیمیایی در این معدن جان خود را از دست داد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "379",
+      "views_label": "395",
       "posted_at": "2026-10-11T08:18:19+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116286",
@@ -121,7 +149,7 @@
       "plain_text": "یک شکارچی متخلف در کاشمر به مجازات جایگزین حبس محکوم شد\n\n❗️❗️❗️❗️❗️– رئیس اداره حفاظت محیط‌ زیست شهرستان کاشمر از صدور حکم #جایگزین_حبس برای یک شکارچی متخلف خبر داد. این متهم به پرداخت جزای نقدی، تامین آب و آذوقه حیات‌وحش و احداث و مرمت سه آبشخور در حوزه محیط زیست این شهرستان، بدل از شش ماه مجازات حبس محکوم شده است.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "393",
+      "views_label": "406",
       "posted_at": "2026-10-11T08:00:31+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116285",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "421",
+      "views_label": "437",
       "posted_at": "2026-10-11T07:31:44+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116284",
@@ -165,7 +193,7 @@
       "plain_text": "استان هرمزگان؛ یک متهم به قتل مامور نیروی انتظامی اعدام شد\n\n❗️❗️❗️❗️❗️ – امروز یکشنبه ۱۹ مهرماه، مرکز رسانه قوه قضاییه از اجرای حکم یک زندانی که پیشتر از بابت اتهام قتل یک مامور یگان امداد فراجا در بندرعباس به #اعدام محکوم شده بود، خبر داد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "468",
+      "views_label": "481",
       "posted_at": "2026-10-11T07:18:59+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116283",
@@ -181,7 +209,7 @@
       "plain_text": "رضایت اولیای دم؛ رهایی ۲ زندانی از چوبه‌دار\n\n❗️❗️❗️❗️❗️– دو زندانی در شهرستان‌های ورامین و بابل که پیشتر از بابت اتهام قتل به #اعدام محکوم شده بودند، با اعلام رضایت اولیای دم از مجازات مرگ رهایی یافتند.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "915",
+      "views_label": "920",
       "posted_at": "2026-10-10T18:44:53+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116282",
@@ -197,7 +225,7 @@
       "plain_text": "مرگ سه کارگر در پیرانشهر، دکل حفاری و مامونیه\n\n❗️❗️❗️❗️❗️– سه کارگر در حوادث جداگانه در پیرانشهر، دکل حفاری ۹۳ فتح و یک کارگاه چوب‌بری در مامونیه جان باختند. دو تن از جان‌باختگان کارگر فصلی و پیمانکاری بودند.\n\nادامه مطلب\n\n#کارگران\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "888",
+      "views_label": "890",
       "posted_at": "2026-10-10T18:18:37+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116281",
@@ -225,7 +253,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "820",
+      "views_label": "822",
       "posted_at": "2026-10-10T17:37:25+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116280",
@@ -241,7 +269,7 @@
       "plain_text": "یک شهروند در شهرستان دیواندره بازداشت شد\n\n❗️❗️❗️❗️❗️– فرشاد رضایی، شهروند اهل دیواندره، روز سه‌شنبه ۱۴ مهرماه، توسط نیروهای امنیتی بازداشت و به یکی از بازداشتگاه‌های سنندج منتقل شده است.\n\nادامه مطلب\n\n#فرشاد_رضایی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "904",
+      "views_label": "906",
       "posted_at": "2026-10-10T15:16:30+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116279",
@@ -313,7 +341,7 @@
       "plain_text": "متهم به قتل یک مامور انتظامی در دامغان اعدام شد\n\n❗️❗️❗️❗️❗️– حکم #اعدام متهم به قتل یک مامور انتظامی، سحرگاه امروز شنبه ۱۸ مهرماه در شهرستان دامغان اجرا شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "956",
+      "views_label": "959",
       "posted_at": "2026-10-10T13:13:10+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116276",
@@ -373,7 +401,7 @@
       "plain_text": "لیدا الکسانی، شهروند مسیحی جهت اجرای حکم حبس احضار شد\n\n❗️❗️❗️❗️❗️– لیدا آلکسانی، شهروند مسیحی ساکن تهران، روز پنج‌شنبه ۱۶ مهر با دریافت ابلاغیه‌ای جهت اجرای حکم هشت سال حبس خود به شعبه اجرای احکام دادسرای عمومی و انقلاب این شهر احضار شد.\n\nادامه مطلب\n\n#لیدا_آلکسانی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "994",
+      "views_label": "997",
       "posted_at": "2026-10-10T08:25:19+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116273",
@@ -389,7 +417,7 @@
       "plain_text": "سقز؛ عبدالله امینی و رحیم حق‌پرست آزاد شدند\n\n❗️❗️❗️❗️❗️– عبدالله امینی و رحیم حق‌پرست شهروندان اهل سقز با قرار تامین کیفری آزاد شدند. این افراد پیشتر به همراه پنج شهروند دیگر به نام‌های سید محمدصالح حسینی، محمد حکیم‌پور، مصطفی قادری، خالد رحیمی و حسین عبداللهی توسط نیروهای امنیتی در سقز بازداشت شده بودند.\n\nادامه مطلب\n\n#عبدالله_امینی #رحیم_حق‌پرست\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "945",
+      "views_label": "947",
       "posted_at": "2026-10-10T07:31:58+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116271",
@@ -2193,22 +2221,6 @@
       "posted_at": "2026-10-06T12:19:59+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116187",
-      "reply": null
-    },
-    {
-      "id": "hranews/116186",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/snmQBtvdGCWIyaKu-UMQC1csh1quNH4hKM5E9oRJ8zCxeiY6Cn47tp6rjgbbn3fvOP67N2Ir7yeTtEyjhP31Jx5ScKyh0xE0aamo4hLNwZGCWNpvjMNaej6KoyF3riPYS-TIF613lajsNt2Mk-ADkvbO7K1XM-OSLpcu0gtsSikfk59sDZHyAJXLDcC7RXadFi0Exv1T5BmvEAYoV_M9bHRO5GV44uqb6_uBSj2SQygQLnlVpOE81o5dFZnkqwlVLEbi1hNnLSJ4SPBJJkGQNgQYorfTulxfCblR_VlKVp_bli-SdpIYqJTfKOE5P_sqYgw9LpDgF141w8gKQ6O-kw.jpg",
-      "author_photo_path": "channels/hranews/media/c4a9713eefec114bf973d53d.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "بازداشت یک زن در فسا به دلیل ارسال تصاویر به یک رسانه خارج از کشور<br><br><tg-emoji emoji-id=\"4936376861581116178\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936234406105842841\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936202185261187827\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933936920725029797\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933769043338331221\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji>– یک زن در شهرستان فسا به دلیل فیلمبرداری از یک رژه و ارسال تصاویر آن برای یکی از رسانه های خارجی، توسط نیروهای امنیتی <a href=\"?q=%23%D8%A8%D8%A7%D8%B2%D8%AF%D8%A7%D8%B4%D8%AA\">#بازداشت</a> شد.<br><br><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-a5c9ec15/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ادامه مطلب</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "بازداشت یک زن در فسا به دلیل ارسال تصاویر به یک رسانه خارج از کشور\n\n❗️❗️❗️❗️❗️– یک زن در شهرستان فسا به دلیل فیلمبرداری از یک رژه و ارسال تصاویر آن برای یکی از رسانه های خارجی، توسط نیروهای امنیتی #بازداشت شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [],
-      "reactions": [],
-      "views_label": "849",
-      "posted_at": "2026-10-06T11:58:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/116186",
       "reply": null
     }
   ]
