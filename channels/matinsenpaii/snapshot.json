@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-11T05:07:46.328Z",
+  "fetched_at": "2026-10-11T05:11:47.416Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,47 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5551",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/rAFzer4CSwPf-QO-xfIq6wcqXh5-e_s5-MpdhfeGp_g55gwzs6Lh4Wc_6iwfh53m3eQwBMplb0lcRVWsiFLVMe0900E066Ua0u68-Qe6kzAl9yavl6I_-uZ1kZfqk-KUvv-YJrIuV3Slbom3GvadXny8cHC_e700ok_T-sTvKzpPo4-GWfQjsM4WqLyyZzkBKsQ07UBaYo8cxoRNiDBWWBBwqGjz_ZBsBr76HL-7IIEtccLdtMl18llZ9QNgMJS891As9lv-PTkc-TAXXafdUSkXdk4Kxz35NTZr-olkG2bIH9JZ4Nw5uFLPGwBVySUkOkq69D2cpq2VMHv5-QnYRg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/4e5d74e6b64bfc470e78b2bb.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>آفیس اوپن‌سورس با Rust؛ کدنویسی با Claude</b><br><br>استارتاپ ArtCraft نسخه‌های مشابه Word و Excel و PowerPoint رو به لاین‌آپ اوپن‌سورسش اضافه کرده؛ یه جور بازنویسی آفیس مایکروسافت با Rust که بخش زیادی از کدنویسیش رو Claude انجام داده. هنوز برای پروداکشن آماده نیست(که نکته‌ی مهمیه و توی اون اپ‌های جایگزین فوتوشاپ هم دیدیم که به نظرم به زودی آماده‌ی پروداکشن میشن).<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://www.theregister.com/software/2026/10/08/rust-upstart-reveals-reimplementation-of-microsoft-office-with-claude-on-coding-duty/5301952\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "آفیس اوپن‌سورس با Rust؛ کدنویسی با Claude\n\nاستارتاپ ArtCraft نسخه‌های مشابه Word و Excel و PowerPoint رو به لاین‌آپ اوپن‌سورسش اضافه کرده؛ یه جور بازنویسی آفیس مایکروسافت با Rust که بخش زیادی از کدنویسیش رو Claude انجام داده. هنوز برای پروداکشن آماده نیست(که نکته‌ی مهمیه و توی اون اپ‌های جایگزین فوتوشاپ هم دیدیم که به نظرم به زودی آماده‌ی پروداکشن میشن).\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5551",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/YKVJNVsB-AskMVhesVObOOUJbvD3sjyBeFyUKrnXG-XRPtxu4sik8KCaC-hqWJUW83VFRJxnXM5hh60hIovJ9NynE_pS7SxERbFX8zlRTMGE0uJJOFpJ3EmqwSmTDJ8_I82p1PKFIiHkJkh0wGVk5JFOdtJNcu4CXzJ69M7K0s2f9nE0PkyKN-ArwTBs03Op72dILXyNskwDMbS7P4lJguyfuPV__6YeRcqnjTRuycuIWFjOpSQQG4phK1VKkNxfINGToZ5u7ONT5lyLT-N3B33M92beabudpVkNaZgFrpPMlAvGWgcb1Fvx1cJP3AblvYDfAP2SPCJIG5W8zja-ww.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/0c6cc968f0d0bb8021d944d1.jpg",
+          "thumbnail_sha256": "7fb0068bed5ca2918095235a35fff85a912a8491155b74b014734a978feee746",
+          "duration_label": null,
+          "aspect_ratio": 1.5594541910331383
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "3"
+        },
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "💔",
+          "count": "1"
+        }
+      ],
+      "views_label": "285",
+      "posted_at": "2026-10-11T05:10:13+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5551",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5550",
       "author_name": "Matin SenPai",
@@ -23,11 +64,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "43"
+          "count": "49"
         },
         {
           "emoji": "👍",
-          "count": "6"
+          "count": "8"
         },
         {
           "emoji": "🦄",
@@ -36,9 +77,13 @@
         {
           "emoji": "😁",
           "count": "1"
+        },
+        {
+          "emoji": "💔",
+          "count": "1"
         }
       ],
-      "views_label": "1.58K",
+      "views_label": "2.22K",
       "posted_at": "2026-10-11T04:58:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5550",
@@ -56,11 +101,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "82"
+          "count": "90"
         },
         {
           "emoji": "🦄",
-          "count": "16"
+          "count": "18"
         },
         {
           "emoji": "💯",
@@ -68,14 +113,14 @@
         },
         {
           "emoji": "💔",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "🆒",
           "count": "2"
         }
       ],
-      "views_label": "2K",
+      "views_label": "2.47K",
       "posted_at": "2026-10-11T04:56:50+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5549",
@@ -97,7 +142,7 @@
         },
         {
           "emoji": "❤",
-          "count": "528"
+          "count": "532"
         },
         {
           "emoji": "😁",
@@ -116,7 +161,7 @@
           "count": "3"
         }
       ],
-      "views_label": "24.1K",
+      "views_label": "24.3K",
       "posted_at": "2026-10-08T10:14:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5548",
@@ -159,11 +204,11 @@
         },
         {
           "emoji": "❤",
-          "count": "513"
+          "count": "516"
         },
         {
           "emoji": "👍",
-          "count": "28"
+          "count": "29"
         },
         {
           "emoji": "🆒",
@@ -186,7 +231,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.5K",
+      "views_label": "26.6K",
       "posted_at": "2026-10-08T09:39:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5547",
@@ -206,8 +251,8 @@
           "asset_url": "https://t.me/MatinSenPaii/5546",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Oali2aCqu-Jyuicye60Qu25OOXFiztppeNkm35HVKr37m6icpwNMpBY_zCbDSQ_i9yinU_2FqnM9orrGqpT07qW8XslkxLPZvKQrM5aAFmOMHpr14jLuljLsZQ2-ugQjsYU2kG7COubAvoTW3se65SsnYNsyUMUlos_N7iokdx4K6cubHCdc_xPICmdv68YpinFKPAiihoaS74Gbs9v-gpyEoxkkPvJiKBpHzjcX4Vh2puHiQ2otYjSthCsw9L7RGk6iayXe14n5AKRHUCJOAYJR8Qop3yQ-B3HPBY1hRRPidAyOW0nxa89dAwUaC6-PFwwAa6DRQazDj2amNf25Cg.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/de7eb531ebd1e7b00d585484.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/l8UC61IYfLyUUhL_IFCJG0b988TqzKk-VEb9QGvbPwhtkdq4IYAV9J2UBEBoJrtdHDpp7bU3FMe2srPYkUgga0r2bNg1i7zv1yVJ8u-v1u54zrD0N-F3UH5o4VqAE4sC8_LcFjfA0tDeQHKunIasc1m5ua308C5aI1XluvevK190Fqv8bGLOW4Wvwy1G4qi3_LNID_0Dy6A_CCL5VOCAw_Q3NmegrKvHZNFxRvTfIR6ZeqsVRcpTowMkyTaeRs8R3yLQXAVZPV9h9B4fhDUhdTnDDPT-Lag_CePrGh6mMvA9RfPxYjFG3w9cAdLIxcJkh5luROTGFtUVkBT_bDHHfw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/600163c42620da9818cd360f.jpg",
           "thumbnail_sha256": "0dc75e76472638111b7e3041a98c162ddf1966b490c73f58b88bd4499d569b7a",
           "duration_label": null,
           "aspect_ratio": 1.1347517730496455
@@ -220,7 +265,7 @@
         },
         {
           "emoji": "👍",
-          "count": "234"
+          "count": "235"
         },
         {
           "emoji": "❤",
@@ -239,7 +284,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.7K",
+      "views_label": "26.8K",
       "posted_at": "2026-10-08T05:53:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5546",
@@ -272,7 +317,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.5K",
+      "views_label": "26.6K",
       "posted_at": "2026-10-08T05:28:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5545",
@@ -330,7 +375,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.7K",
+      "views_label": "26.8K",
       "posted_at": "2026-10-08T05:01:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5544",
@@ -379,7 +424,7 @@
           "count": "9"
         }
       ],
-      "views_label": "24.3K",
+      "views_label": "24.4K",
       "posted_at": "2026-10-07T19:17:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5542",
@@ -424,7 +469,7 @@
           "count": "3"
         }
       ],
-      "views_label": "20K",
+      "views_label": "20.1K",
       "posted_at": "2026-10-07T19:08:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5541",
@@ -574,7 +619,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.7K",
+      "views_label": "28.9K",
       "posted_at": "2026-10-07T11:10:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5537",
@@ -603,7 +648,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.9K",
+      "views_label": "30.1K",
       "posted_at": "2026-10-07T07:40:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5536",
@@ -665,7 +710,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29.9K",
+      "views_label": "30K",
       "posted_at": "2026-10-07T07:39:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5535",
@@ -702,7 +747,7 @@
           "count": "4"
         }
       ],
-      "views_label": "31K",
+      "views_label": "31.1K",
       "posted_at": "2026-10-06T21:16:03+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5534",
@@ -751,7 +796,7 @@
           "count": "2"
         }
       ],
-      "views_label": "32.2K",
+      "views_label": "32.3K",
       "posted_at": "2026-10-06T19:56:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5533",
@@ -4469,51 +4514,6 @@
       "posted_at": "2026-09-30T19:47:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5447",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5446",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/nAtot4PDcDskHZi0ptuWYzZwG-qiRrg2zDXzYRSQfiW40T_u4hhLtFa2PMEIpGRG0dtNj7XAX792yF0c27x7UfWLiekg__YN1UamBSBoBmGFQbbGPu3PfdLZ0QwkNvjdV-Ng-h5HAdxp7LQdBdwe3MSL1iOwbuUoOdO_ZzyJZCHSZkEves2FZLqtzeohOzdQ4uXWe2dPPYCpgTWCLibRsG-TEMYLpAA_bIcg1D5pWfN9mNRHt0uVMBWcbgfC3Rrrfrqo0k3T-y5jWytmVhjmLJOir6liE76EKSv1bqEXO7eo-V9Eib9hbTMqljeSc-vC3SLincaJ8ldVas1Vq8zf1A.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/87cccb3937d68a0a586945ef.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "من معتقدم با مدلهای رایگان، مدلهای چینی و ابزارهای رایگان هم میشه به خوبی کد نوشت و ابزار ساخت<br>و به زودی برای اثباتش، یه سری کار انجام میدم<br>چون میبینم دور و اطرافم کسایی رو که هیچ کاری نمی‌کنن، تلاشی نمی‌کنن، به بهونه‌ی اینکه من اشتراک Claude یا GPT plus ندارم و...<br>و این کارو انجام خواهم داد که شاید انگیزه‌ای بشه، و شاید ترغیب بشن یه سری افراد که شروع کنن ایده‌هاشون رو بسازن",
-      "plain_text": "من معتقدم با مدلهای رایگان، مدلهای چینی و ابزارهای رایگان هم میشه به خوبی کد نوشت و ابزار ساخت\nو به زودی برای اثباتش، یه سری کار انجام میدم\nچون میبینم دور و اطرافم کسایی رو که هیچ کاری نمی‌کنن، تلاشی نمی‌کنن، به بهونه‌ی اینکه من اشتراک Claude یا GPT plus ندارم و...\nو این کارو انجام خواهم داد که شاید انگیزه‌ای بشه، و شاید ترغیب بشن یه سری افراد که شروع کنن ایده‌هاشون رو بسازن",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "3"
-        },
-        {
-          "emoji": "❤",
-          "count": "589"
-        },
-        {
-          "emoji": "👍",
-          "count": "126"
-        },
-        {
-          "emoji": "💯",
-          "count": "17"
-        },
-        {
-          "emoji": "🦄",
-          "count": "5"
-        },
-        {
-          "emoji": "😁",
-          "count": "4"
-        },
-        {
-          "emoji": "💔",
-          "count": "3"
-        }
-      ],
-      "views_label": "24.8K",
-      "posted_at": "2026-09-30T17:40:13+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5446",
       "reply": null
     }
   ]
