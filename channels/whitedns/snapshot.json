@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-12T02:49:12.943Z",
+  "fetched_at": "2026-10-12T02:51:55.217Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,92 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1951",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/DGuhxVirR09gct6qBGTOsCeXuAilawx3JaUu5G0k26HU0-6yMtO9X0fTDtdjgePvoNQTJmLJAbwW3i5gtQ57SfVk-yJZWrsXRqi_DvuUFjCkX4BZKdSIRAYOsLsUNQ07Ffv1HJgpNLI05YcDjckuMLMfvAHcEAneR9kHzqnk685R498PeJzcOpA1FR9jfqDJZxkESfLUw7rQ4v-XCa4B8lyOL2k-Pk6GvshwyXYARhcEAYSEihkEWhXmlyX5oN6q04CVodGjWcEoYWqMZw9AJD6UofmBSu8cxyWW8Zs5l_T-wjM4E3p8Vpz5WyPAGqokllCqfuXSs8GqeMq8DjPIPQ.jpg",
+      "author_photo_path": "channels/whitedns/media/3956e77cf6a8896e73cd6625.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/whitedns\"><span dir=\"auto\">White DNS</span></a> pinned a photo",
+      "plain_text": "White DNS pinned a photo",
+      "media": [],
+      "reactions": [],
+      "views_label": null,
+      "posted_at": "2026-10-12T02:51:54+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1951",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1950",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/DGuhxVirR09gct6qBGTOsCeXuAilawx3JaUu5G0k26HU0-6yMtO9X0fTDtdjgePvoNQTJmLJAbwW3i5gtQ57SfVk-yJZWrsXRqi_DvuUFjCkX4BZKdSIRAYOsLsUNQ07Ffv1HJgpNLI05YcDjckuMLMfvAHcEAneR9kHzqnk685R498PeJzcOpA1FR9jfqDJZxkESfLUw7rQ4v-XCa4B8lyOL2k-Pk6GvshwyXYARhcEAYSEihkEWhXmlyX5oN6q04CVodGjWcEoYWqMZw9AJD6UofmBSu8cxyWW8Zs5l_T-wjM4E3p8Vpz5WyPAGqokllCqfuXSs8GqeMq8DjPIPQ.jpg",
+      "author_photo_path": "channels/whitedns/media/3956e77cf6a8896e73cd6625.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "بالاخره تصمیم گرفتیم برای WhiteDNS یه Patreon راه بندازم.<br><br>حدود 9 ماهه که این پروژه رو با هزینهٔ شخصی جلو می‌بریم. توی این مدت بیش از ۱۰۰ سرور ساختیم و هزینه‌شون رو خودمون دادیم. از Conduit و DNSTT شروع کردیم، WhiteDNS رو ساختیم و در روزهای قطعی اینترنت هم با MasterDNS سرورهای بیشتری بالا آوردیم.<br><br>این هزینه‌ها صرفا جنبه مالی ندارند. مهمتر اینکه با استفاده از همین زیرساخت‌، سرویس‌های رایگان و با کیفیت بهتری برای افراد بیشتری ایجاد کردیم.<br><br>امروز WhiteDNS حدود ۱5 هزار کاربر فعال روزانه داره که در مجموع، هر ماه نزدیک ۱ میلیون اتصال به سرویس‌هامون ثبت می‌کنن. همه سرویس‌ها کاملاً رایگان‌اند.<br><br>بعد از راه‌اندازی سرورهای اختصاصی داخل اپ، فهمیدیم وقتی زیرساخت دست خودمون باشه، می‌تونیم کیفیت سرویس رو خیلی بهتر کنیم. الان حدود ۱۵ سرور رو هر چهار ساعت یک‌بار روتیت می‌کنیم تا احتمال فیلترشدن کمتر و اتصال‌ها پایدارتر بشن.<br><br>این مسیر با کمک تیم ما در ایران جلو رفته؛ از تست و پیدا کردن مشکل تا پشتیبانی از کاربران.<br><br>برای ما Patreon کمک می‌کنه این کار رو پایدارتر ادامه بدیم: سرورهای بیشتری داشته باشیم، کاربران بیشتری رو پوشش بدیم و روی WhiteDNS و محصولات بعدی‌مون وقت بیشتری بذاریم.<br><br>اگر دوست دارید از اینترنت آزاد حمایت کنید، خوشحال می‌شیم کنارمون باشید:<br><a href=\"https://www.patreon.com/cw/WhiteDNS\" target=\"_blank\" rel=\"noopener\">https://www.patreon.com/cw/WhiteDNS</a>",
+      "plain_text": "بالاخره تصمیم گرفتیم برای WhiteDNS یه Patreon راه بندازم.\n\nحدود 9 ماهه که این پروژه رو با هزینهٔ شخصی جلو می‌بریم. توی این مدت بیش از ۱۰۰ سرور ساختیم و هزینه‌شون رو خودمون دادیم. از Conduit و DNSTT شروع کردیم، WhiteDNS رو ساختیم و در روزهای قطعی اینترنت هم با MasterDNS سرورهای بیشتری بالا آوردیم.\n\nاین هزینه‌ها صرفا جنبه مالی ندارند. مهمتر اینکه با استفاده از همین زیرساخت‌، سرویس‌های رایگان و با کیفیت بهتری برای افراد بیشتری ایجاد کردیم.\n\nامروز WhiteDNS حدود ۱5 هزار کاربر فعال روزانه داره که در مجموع، هر ماه نزدیک ۱ میلیون اتصال به سرویس‌هامون ثبت می‌کنن. همه سرویس‌ها کاملاً رایگان‌اند.\n\nبعد از راه‌اندازی سرورهای اختصاصی داخل اپ، فهمیدیم وقتی زیرساخت دست خودمون باشه، می‌تونیم کیفیت سرویس رو خیلی بهتر کنیم. الان حدود ۱۵ سرور رو هر چهار ساعت یک‌بار روتیت می‌کنیم تا احتمال فیلترشدن کمتر و اتصال‌ها پایدارتر بشن.\n\nاین مسیر با کمک تیم ما در ایران جلو رفته؛ از تست و پیدا کردن مشکل تا پشتیبانی از کاربران.\n\nبرای ما Patreon کمک می‌کنه این کار رو پایدارتر ادامه بدیم: سرورهای بیشتری داشته باشیم، کاربران بیشتری رو پوشش بدیم و روی WhiteDNS و محصولات بعدی‌مون وقت بیشتری بذاریم.\n\nاگر دوست دارید از اینترنت آزاد حمایت کنید، خوشحال می‌شیم کنارمون باشید:\nhttps://www.patreon.com/cw/WhiteDNS",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1950",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/vZFjaZMl8xXYzEXNCPEeJlcE6HPmAL4E14dNZXyObhd2gmYtQCCuV6bwYPjb-dOfOivuPPmSbynML6nlyXKA3o28GpoZmIO0zukN4xxGMkBSUIqQrtu-YvC6fgEc7-glc81uC0iwF9mEzKCVy6NBmSsc9Abhlt2idLKqFL-5voIu3YQhhT6_MsuWsl00J7qT1np2MOoOEuovHHVZTV0AvTexdwd4V3qAQZ8Kn2LYa2UwoCGl-5rCbgy6COgv41IVtOo1QWC5aazJsrtMie_QucfgpNlxymD51dKCmXvmKl3WKNLFjgDl2altop0mgMHq4RbomJCfWboUP6gezNhMKg.jpg",
+          "thumbnail_path": "channels/whitedns/media/fe0786b2b0ffc7ae3c07f281.jpg",
+          "thumbnail_sha256": "cbe1502867bb73de5d813f6eb3076a40190da482db3274e2ff204e83fb00d61f",
+          "duration_label": null,
+          "aspect_ratio": 2.5
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "18",
+      "posted_at": "2026-10-12T02:51:08+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1950",
+      "reply": null
+    },
+    {
+      "id": "whitedns/1948",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/DGuhxVirR09gct6qBGTOsCeXuAilawx3JaUu5G0k26HU0-6yMtO9X0fTDtdjgePvoNQTJmLJAbwW3i5gtQ57SfVk-yJZWrsXRqi_DvuUFjCkX4BZKdSIRAYOsLsUNQ07Ffv1HJgpNLI05YcDjckuMLMfvAHcEAneR9kHzqnk685R498PeJzcOpA1FR9jfqDJZxkESfLUw7rQ4v-XCa4B8lyOL2k-Pk6GvshwyXYARhcEAYSEihkEWhXmlyX5oN6q04CVodGjWcEoYWqMZw9AJD6UofmBSu8cxyWW8Zs5l_T-wjM4E3p8Vpz5WyPAGqokllCqfuXSs8GqeMq8DjPIPQ.jpg",
+      "author_photo_path": "channels/whitedns/media/3956e77cf6a8896e73cd6625.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B4.png')\"><b>🔴</b></i> <b>WhiteDNS<br> مسیری که قبل از روزهای قطعی اینترنت شروع شد</b><br><br><br>تیم WhiteDNS از مدت‌ها قبل از قطعی‌ها و محدودیت‌های گسترده اینترنت فعالیت می‌کرد. از همان ابتدا تلاش کردیم ابزارها، سرویس‌ها و آموزش‌هایی بسازیم که رایگان و در دسترس همه باشند. <br><br>در این مدت افراد زیادی به این جمع پیوستند؛ بعضی ماندند و بعضی مسیرشان جدا شد، اما چیزی که ما را کنار هم آورد همچنان پابرجاست: <b>حرکتی جمعی برای دسترسی آزادتر به اینترنت.</b><br><br>تیم WhiteDNS تا امروز کاملاً مستقل و بدون هیچ منبع درآمدی اداره شده و تمام هزینه‌ها را خودمان پرداخت کرده‌ایم. با این حال، این مسیر را ادامه می‌دهیم و همچنان ابزارها و سرویس‌های رایگان بیشتری را با کمک همین جامعه خواهیم ساخت.<br><br>حالا تنها مسیر درآمدی ما کانال یوتیوب WhiteDNS است. اگر می‌خواهید از این حرکت حمایت کنید، کانال را سابسکرایب کنید و ویدیوها را ببینید. همین همراهی کمک می‌کند WhiteDNS مستقل، فعال و جامعه‌محور باقی بماند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BA.png')\"><b>📺</b></i> <a href=\"https://www.youtube.com/@WhiteDNS\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/@WhiteDNS</a><br><br>ممنون که بخشی از این مسیر هستید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i><br><b>تیم WhiteDNS</b>",
+      "plain_text": "🔴 WhiteDNS\nمسیری که قبل از روزهای قطعی اینترنت شروع شد\n\n\nتیم WhiteDNS از مدت‌ها قبل از قطعی‌ها و محدودیت‌های گسترده اینترنت فعالیت می‌کرد. از همان ابتدا تلاش کردیم ابزارها، سرویس‌ها و آموزش‌هایی بسازیم که رایگان و در دسترس همه باشند.\n\nدر این مدت افراد زیادی به این جمع پیوستند؛ بعضی ماندند و بعضی مسیرشان جدا شد، اما چیزی که ما را کنار هم آورد همچنان پابرجاست: حرکتی جمعی برای دسترسی آزادتر به اینترنت.\n\nتیم WhiteDNS تا امروز کاملاً مستقل و بدون هیچ منبع درآمدی اداره شده و تمام هزینه‌ها را خودمان پرداخت کرده‌ایم. با این حال، این مسیر را ادامه می‌دهیم و همچنان ابزارها و سرویس‌های رایگان بیشتری را با کمک همین جامعه خواهیم ساخت.\n\nحالا تنها مسیر درآمدی ما کانال یوتیوب WhiteDNS است. اگر می‌خواهید از این حرکت حمایت کنید، کانال را سابسکرایب کنید و ویدیوها را ببینید. همین همراهی کمک می‌کند WhiteDNS مستقل، فعال و جامعه‌محور باقی بماند.\n\n📺 https://www.youtube.com/@WhiteDNS\n\nممنون که بخشی از این مسیر هستید ❤️\nتیم WhiteDNS",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1948",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/pqSSx3Fwwaii-Jtklui-4LCYHXYYo_KSJT87j2MrgWOtY0pi2CRCyyF1levTP_6njEnY-_utT7uMiFyT5hdxZC6zLK00-a0-MlcT8ZUfOPLABGO5-dU0k7tymKcNtdw0FzZRWOMVTNC04lNi0_4jm4Xh84vHjnB2yma5ic5ex2jqz3CnJQR1ZRRcQzvpmivVcxM9aPQwzMHj7cD7PnFmVBaPB_la4iD1tgbyhafFaNbNaPPndNTL5oXy8xje1FqgcodRZSmvw06p2MGDVkjOFKSAeMF-RQ1Cz2jXDD__pYgaMXuE8n1jFH4NKEWkoNERMv5UgRQVoJAQYot74dHekg.jpg",
+          "thumbnail_path": "channels/whitedns/media/94d3e63dd0c51df11745604b.jpg",
+          "thumbnail_sha256": "45cdc8af5e5c46030eb852c3bcbd62a4bd23ec7478af258b8426959854c2bc37",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "11"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "5"
+        }
+      ],
+      "views_label": "129",
+      "posted_at": "2026-10-12T02:49:26+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1948",
+      "reply": null
+    },
     {
       "id": "whitedns/1947",
       "author_name": "White DNS",
@@ -66,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.79K",
+      "views_label": "5.82K",
       "posted_at": "2026-10-11T14:46:12+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1947",
@@ -213,7 +299,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.99K",
+      "views_label": "10K",
       "posted_at": "2026-10-10T15:52:09+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1942",
@@ -262,7 +348,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.1K",
+      "views_label": "10.2K",
       "posted_at": "2026-10-10T09:24:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1941",
@@ -5276,217 +5362,6 @@
       "posted_at": "2026-09-17T13:02:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1820",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1819",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/Vl3YQYgBCilo2oZMZuFJOlIQuyPj9QbPzEN5W18M2Bv4BW8sXLKM9EErPQW1Fq_TUT1lH80FpqUFx_bQwiA-oaMbv176tb1tLh8xtiKhhh6jnTnzrs2H746o4bDVQ--lq23nXfk0x4Z2wwEv0n1VLJg4uXmRAmd_1umsk_zQWGYWgOx36wpod1oMydIUEdxK5fvYM104wuE5hWTo4UfubQ2yByaxXekghZcipvEfRv2rJSwShvRjbbBimpuEHTtN6nZJHTMQ9MHYGpYL6kdqYknpfSVfUA7HpNezmo7HAD6WHkq9BpMUcfWzqH5HxZgJCcYhkzyzIN71z8yZiF2DEQ.jpg",
-      "author_photo_path": "channels/whitedns/media/c512159701a2eb71eb75417b.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b>Whiteaesther moblie pre-release 1.8.1 </b> <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>این نسخه برای کاربرانی هست که توی چند روز گذشته اختلال شدید گزارش کردند و نسخه آخر هم مشکل انها را حل نکرد <br><br>برخلاف باور غلط عمومی ورژن ها در حال بدتر شدن نیستند بلکه امکانات بیشتری در حال اضافه شدن است - اما به دلیل گستردگی کاربران ما مجبوریم حداکثر بومی سازی را انجام بدهیم که این کار گاها زمان بر خواهد بود . <br><br><b>اگر روی ورژن قبلی مشکلی ندارید فعلا اپدیت نکنید !!!!</b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><br><br><blockquote expandable=\"\">دو اصلاح، هر دو روی حساب زنده اندازه‌گیری شده:<br><br>MASQUE دیگر دنبال آدرس نمی‌گردد. Cloudflare در هر پاسخ ثبت‌نام آدرس اختصاصی دستگاه را می‌دهد و موتور نادیده‌اش می‌گرفت <br>ثبت‌نام‌های Cloudflare دیگر دور ریخته نمی‌شوند. هویت بلافاصله پس از ثبت‌نام و پیش از هر کار دیگری ذخیره می‌شود؛ مسیر مستقیم یک بار امتحان می‌شود نه پنج بار؛ و نصبی که enrolment مربوط به MASQUE کلید WireGuard‌</blockquote><br>اش را باطل کرده بود، در اولین اتصال خودش را تعمیر می‌کند.<br><br>این نسخه به‌صورت خودکار به کسی پیشنهاد نمی‌شود.<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.8.1\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.8.1</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "Whiteaesther moblie pre-release 1.8.1 ⚠️\n\nاین نسخه برای کاربرانی هست که توی چند روز گذشته اختلال شدید گزارش کردند و نسخه آخر هم مشکل انها را حل نکرد\n\nبرخلاف باور غلط عمومی ورژن ها در حال بدتر شدن نیستند بلکه امکانات بیشتری در حال اضافه شدن است - اما به دلیل گستردگی کاربران ما مجبوریم حداکثر بومی سازی را انجام بدهیم که این کار گاها زمان بر خواهد بود .\n\nاگر روی ورژن قبلی مشکلی ندارید فعلا اپدیت نکنید !!!!⚠️⚠️⚠️\n\nدو اصلاح، هر دو روی حساب زنده اندازه‌گیری شده:\n\nMASQUE دیگر دنبال آدرس نمی‌گردد. Cloudflare در هر پاسخ ثبت‌نام آدرس اختصاصی دستگاه را می‌دهد و موتور نادیده‌اش می‌گرفت\nثبت‌نام‌های Cloudflare دیگر دور ریخته نمی‌شوند. هویت بلافاصله پس از ثبت‌نام و پیش از هر کار دیگری ذخیره می‌شود؛ مسیر مستقیم یک بار امتحان می‌شود نه پنج بار؛ و نصبی که enrolment مربوط به MASQUE کلید WireGuard‌\nاش را باطل کرده بود، در اولین اتصال خودش را تعمیر می‌کند.\n\nاین نسخه به‌صورت خودکار به کسی پیشنهاد نمی‌شود.\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.8.1\n\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1819",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/vFOrRbaabsjTwgNEU_gTA0u-_4rkLRuTDA_TUZ83tIwm7gHgBb2GrP3HLpsJVB6HRPaObpFEswQkCAxrxrBeyCXlQTf8_hE4bdRgck9LBvhEV3J-asnw0A-0YfmKRvhFgCvd8Nj5L0vkr9Ya1zmGmRxzRTNS7o7jggnvYiX3tjIQoT6ZdH7Vd2bG4Q305VEfh9_CSGwsvMwjUxdDri25pNqpp9vcgvPpVKed15gUunscXJq4peJtTFqYExCVXmP2gGgF8nl4HDkYqxXrkAbSwXI1TZmQd1xpULPXDdq076MkVolNeYF9970V1BQ4CPEWdRffc7RqcF_x93F3C8aTig.jpg",
-          "thumbnail_path": "channels/whitedns/media/3432270768f6860a3ff2efd4.jpg",
-          "thumbnail_sha256": "0a44abe71827e8e88bc9713c49d6960933f1e5859391099317cf1abf7ecb12af",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "179"
-        },
-        {
-          "emoji": "👍",
-          "count": "17"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "💘",
-          "count": "2"
-        },
-        {
-          "emoji": "🤩",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        },
-        {
-          "emoji": "🏆",
-          "count": "1"
-        },
-        {
-          "emoji": "🍾",
-          "count": "1"
-        },
-        {
-          "emoji": "💋",
-          "count": "1"
-        },
-        {
-          "emoji": "💅",
-          "count": "1"
-        }
-      ],
-      "views_label": "17.1K",
-      "posted_at": "2026-09-17T09:12:15+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1819",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1818",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/Vl3YQYgBCilo2oZMZuFJOlIQuyPj9QbPzEN5W18M2Bv4BW8sXLKM9EErPQW1Fq_TUT1lH80FpqUFx_bQwiA-oaMbv176tb1tLh8xtiKhhh6jnTnzrs2H746o4bDVQ--lq23nXfk0x4Z2wwEv0n1VLJg4uXmRAmd_1umsk_zQWGYWgOx36wpod1oMydIUEdxK5fvYM104wuE5hWTo4UfubQ2yByaxXekghZcipvEfRv2rJSwShvRjbbBimpuEHTtN6nZJHTMQ9MHYGpYL6kdqYknpfSVfUA7HpNezmo7HAD6WHkq9BpMUcfWzqH5HxZgJCcYhkzyzIN71z8yZiF2DEQ.jpg",
-      "author_photo_path": "channels/whitedns/media/c512159701a2eb71eb75417b.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5431766464040283359\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F988E.png')\"><b>😎</b></i></tg-emoji> دیگه لازم نیست برای آپدیت از اپ خارج بشید.<br>اپ اتوماتیک ورژن جدید رو دانلود و نصب میکنه.<br> این به کسایی که اطلاعات فنی هم ندارن کمک میکنه.",
-      "plain_text": "😎 دیگه لازم نیست برای آپدیت از اپ خارج بشید.\nاپ اتوماتیک ورژن جدید رو دانلود و نصب میکنه.\nاین به کسایی که اطلاعات فنی هم ندارن کمک میکنه.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "310"
-        },
-        {
-          "emoji": "👍",
-          "count": "36"
-        },
-        {
-          "emoji": "💯",
-          "count": "8"
-        },
-        {
-          "emoji": "🍓",
-          "count": "4"
-        },
-        {
-          "emoji": "🍾",
-          "count": "4"
-        },
-        {
-          "emoji": "👎",
-          "count": "3"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "💅",
-          "count": "2"
-        },
-        {
-          "emoji": "💘",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        }
-      ],
-      "views_label": "15.1K",
-      "posted_at": "2026-09-17T07:53:35+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1818",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1817",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/Vl3YQYgBCilo2oZMZuFJOlIQuyPj9QbPzEN5W18M2Bv4BW8sXLKM9EErPQW1Fq_TUT1lH80FpqUFx_bQwiA-oaMbv176tb1tLh8xtiKhhh6jnTnzrs2H746o4bDVQ--lq23nXfk0x4Z2wwEv0n1VLJg4uXmRAmd_1umsk_zQWGYWgOx36wpod1oMydIUEdxK5fvYM104wuE5hWTo4UfubQ2yByaxXekghZcipvEfRv2rJSwShvRjbbBimpuEHTtN6nZJHTMQ9MHYGpYL6kdqYknpfSVfUA7HpNezmo7HAD6WHkq9BpMUcfWzqH5HxZgJCcYhkzyzIN71z8yZiF2DEQ.jpg",
-      "author_photo_path": "channels/whitedns/media/c512159701a2eb71eb75417b.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b><tg-emoji emoji-id=\"5197288647275071607\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i></tg-emoji></b><b> انتشار نسخه جدید WhiteVPN 1.6.8</b><br><br><b>تغییرات نسخه جدید:</b><br><tg-emoji emoji-id=\"5863885503102718533\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>  ویجت صفحهٔ اصلی برای اتصال، قطع اتصال و نمایش وضعیت VPN<br><tg-emoji emoji-id=\"5863885503102718533\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji> به‌روزرسانی از داخل برنامه، با نمایش پیشرفت دانلود، امکان رد کردن یک نسخه و بررسی صحت فایل و امضا پیش از نصب<br><tg-emoji emoji-id=\"5863885503102718533\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji> اجرای Real Delay Test و تست سرعت در پس‌زمینه و هنگام خاموش بودن صفحه<br><br><br><tg-emoji emoji-id=\"5346181118884331907\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji> <a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.6.8\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود از گیتهاب</a>",
-      "plain_text": "🛡 انتشار نسخه جدید WhiteVPN 1.6.8\n\nتغییرات نسخه جدید:\n🟢 ویجت صفحهٔ اصلی برای اتصال، قطع اتصال و نمایش وضعیت VPN\n🟢 به‌روزرسانی از داخل برنامه، با نمایش پیشرفت دانلود، امکان رد کردن یک نسخه و بررسی صحت فایل و امضا پیش از نصب\n🟢 اجرای Real Delay Test و تست سرعت در پس‌زمینه و هنگام خاموش بودن صفحه\n\n\n📱 دانلود از گیتهاب",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1817",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/LDzcNq-WuziH17gsLQWzFdLsyDVo39V_J9tu6XDNi94_c8zg8XucdktHEgV-WkFwfdzuKBKVdoWzoy2aYqcCqOxM5w9h3gp0vGX4jMeH1mhnMxxCi_PVANUT2tPMycZ0KzsOH95iP3mWSs6AN1nwUUEOy6dcYNk38niFIhOouvqeHMPxS3ERowNIP1oGfAhxQnEqrpAUWEoILtf3KFmS1CoADdpB4HgcEaZMk94VkjZQUuurvjnJRfc4ui1OpvoGzRA_AcgZbSkmDLtDQ8vxdoc2McKyti9LPATIYRmHumPOqIg8D-IyQiRDXPC45BlYBPsZBJzRLxNWi84gZR1_OA.jpg",
-          "thumbnail_path": "channels/whitedns/media/d364c6a64248fe03187531b6.jpg",
-          "thumbnail_sha256": "ce1f89d37ce9b431863cfdbd90e035a267819317c8aca9305326a9d19246bf8b",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "11"
-        },
-        {
-          "emoji": "❤",
-          "count": "271"
-        },
-        {
-          "emoji": "👏",
-          "count": "12"
-        },
-        {
-          "emoji": "🔥",
-          "count": "11"
-        },
-        {
-          "emoji": "😍",
-          "count": "8"
-        },
-        {
-          "emoji": "👍",
-          "count": "6"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        },
-        {
-          "emoji": "💅",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "💋",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        }
-      ],
-      "views_label": "18.4K",
-      "posted_at": "2026-09-17T07:30:18+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1817",
       "reply": null
     }
   ]
