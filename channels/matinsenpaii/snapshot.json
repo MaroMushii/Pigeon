@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-12T15:14:17.622Z",
+  "fetched_at": "2026-10-12T15:17:05.431Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,34 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5570",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/vXFwaRNxbrNyCTGOzni-avSrnhs83nc0fRZJU9fVX0wkqySa8pia_vHj91MzUFqEYApNSBT1uEMcPHy2bnVlTlONxr28L2tMZFr99JGc6IYCIYhrnmBJs0-DhQnEyRiob8dVZ7THtabzbhLtXRspcZaVgzg0kI5h5Hgdne4AreJ7aAUbvSZC43DdA_liRUYxxxSv_T340KSm6X3nDgKxfC9q8h0FkAf7LrtWS3J14K87pJ233ljFlZqF3CyrrpIKjCl8As1PXXbPP4gIsQMHysmwQ8WI48wOrIBkOB13l3WP7hDGUB4z8SVV8YxSsW1EZtX4YtCveRcBHRR5hVxv6w.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b66f6a562f5e930e1b70f423.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>آموزش راه‌اندازی Muse؛ ایجنتی برای روزمرگی</b><br><br>اول بهتون بگم که Muse چیه از دیدگاه خودم(یه آدم با استفاده معمولی):<br><blockquote expandable=\"\">هرمس ایجنت رو در نظر بگیرید. اما:<br>سریعتر، راحتتر، بدون ارور، بدون ارور، بدون ارور، و بدون نیاز به ست کردن  API Key، یه سرور رایگان که این ایجنت داره روش اجرا میشه؛ با راحتیِ وصل کردن هر پلتفرمی بهش که فکرشو بکنید.<br>صرفا... با سطح کنترل کمتر توی مسائلی مثل محیط اجرا یا خود API. که شاید نیاز معدود افرادی باشه توی این کانال<br><br>حدودا یک هفته‌ست که دارم با این ایجنت کار می‌کنم و واقعا عالیه! <br>مدل پشتش Muse Spark 1.3 هست.<br>ایمیل‌هام رو جواب میده، واسه‌ام برنامه‌ریزی می‌کنه، چیزایی که می‌خوام رو توی Google Sheets ام وارد میکنه، جزوه‌های دانشگاه و Rustام رو خلاصه برداری میکنه و قسط‌هام رو یادآوری می‌کنه(<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i>).<br>یهویی مثل هرمس \"سکوت\" نمیکنه که وقتی بهش گفتم خب چی شد و چرا یادآوری نکردی بهم، بگه \"اوه شرمنده داداش! اون لحظه api key یا سرورم قطع بود(دفعات زیادی این اتفاق افتاده توی چیزای مختلف اما هنوز، هرمس عالیه. برای کارهای مختلف. خوب بودن Muse دلیل نمیشه هرمس بد باشه)\"<br><br>شما نمی‌تونید روی Muse، پنل VPN و DNS و... نصب کنید. لااقل من که نتونستم و اصلا آیپی عمومی نداره و فقط دسترسی HTTPS میده. 9Router و... هم نتونستم طبیعتا. هرچند به نظر یه کم Tricky میاد و باید باهاش کار کرد هنوز شاید قانع شد<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><br>در مورد 8 گیگ رم و 2 هسته CPU هم بگم که این منابع اشتراکیه و متا هم سر گنج قارون ننشسته.<br>سرعتش هم یه وقتایی میاد پایین اما خوبیش اینه که شما با هیچ اروری سر و کله نمی‌زنید! و یه دوری بزنید و برگردید همه چیز اوکی شده.<br>و میتونه براتون تصویر و ویدئو هم درست کنه(ویدئوی فریم به فریم کوتاه و..)<br>که متن فارسی هم داخلش خوب میفته.</blockquote><br>آموزش راه‌اندازی:<br>*نکته: اگر که هر چیزی شنیدید(ریجن ایمیل و تایم ساختن اکانت و آیپی تمیز و...) اشتباهه. میوز فقط و فقط به آیپی حساسه. و تنها آیپی‌ای که باهاش تونستم وارد شم، آیپی آمریکای گوگل بود(که صد درصد یعنی با آمازون هم میشه)<br><br>1- با این روش یه VM آمازون بسازید با لوکیشن آمریکا(200 دلار کردیت رایگان):<br><a href=\"https://t.me/MatinSenPaii/5130\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/5130</a><br>یا با این روش یه VM گوگل بسازید با لوکیشن آمریکا(300 دلار کردیت رایگان اما 10 دلار اولیه باید بدید):<br><a href=\"https://t.me/MatinSenPaii/5149\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/5149</a><br>که گوگل خوبیش اینه که سرور Always free میده و منم از همون استفاده میکنم. یعنی مهلت اعتبارش هم تموم بشه، اوکیه.<br><br>2- پنل سنایی یا پاسارگارد و هر پنل دیگه‌ای رو روش نصب کنید(توی آمازون نیازه پورت‌ها رو Allow کنید از توی پنل مدیریت سرور روی سایت(به Grok بگید راهنمایی میکنه))<br><br>3- یه کانفیگ Vless معمولی Raw بسازید(مهم نیست که مستقیم کار نکنه. گوگل که اصلا امکان نداره مستقیم کار کنه)<br><br>4- اپلیکیشن PattN و PattNG رو نصب کنید(یا هر کلاینت V2ray که از قابلیت Chain proxy پشتیبانی کنه)<br><br>5- یه کانفیگ که واستون کار می‌کنه رو اد کنید، کانفیگی که از سرورهای گوگل یا آمازون ساختید رو هم اد کنید، و بعدش این دوتا رو با همدیگه Proxy Chain کنید. و VPN رو متصل کنید و پینگ بگیرید.<br><br>6- بعدش وارد اپلیکیشن Muse روی گوشی موبایلتون بشید و با یه ایمیل که تا به حال روی سرویس‌های متا ثبتش نکردید، وارد بشید و ثبت نام کنید. به همین راحتی<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "آموزش راه‌اندازی Muse؛ ایجنتی برای روزمرگی\n\nاول بهتون بگم که Muse چیه از دیدگاه خودم(یه آدم با استفاده معمولی):\nهرمس ایجنت رو در نظر بگیرید. اما:\nسریعتر، راحتتر، بدون ارور، بدون ارور، بدون ارور، و بدون نیاز به ست کردن API Key، یه سرور رایگان که این ایجنت داره روش اجرا میشه؛ با راحتیِ وصل کردن هر پلتفرمی بهش که فکرشو بکنید.\nصرفا... با سطح کنترل کمتر توی مسائلی مثل محیط اجرا یا خود API. که شاید نیاز معدود افرادی باشه توی این کانال\n\nحدودا یک هفته‌ست که دارم با این ایجنت کار می‌کنم و واقعا عالیه!\nمدل پشتش Muse Spark 1.3 هست.\nایمیل‌هام رو جواب میده، واسه‌ام برنامه‌ریزی می‌کنه، چیزایی که می‌خوام رو توی Google Sheets ام وارد میکنه، جزوه‌های دانشگاه و Rustام رو خلاصه برداری میکنه و قسط‌هام رو یادآوری می‌کنه(😂).\nیهویی مثل هرمس \"سکوت\" نمیکنه که وقتی بهش گفتم خب چی شد و چرا یادآوری نکردی بهم، بگه \"اوه شرمنده داداش! اون لحظه api key یا سرورم قطع بود(دفعات زیادی این اتفاق افتاده توی چیزای مختلف اما هنوز، هرمس عالیه. برای کارهای مختلف. خوب بودن Muse دلیل نمیشه هرمس بد باشه)\"\n\nشما نمی‌تونید روی Muse، پنل VPN و DNS و... نصب کنید. لااقل من که نتونستم و اصلا آیپی عمومی نداره و فقط دسترسی HTTPS میده. 9Router و... هم نتونستم طبیعتا. هرچند به نظر یه کم Tricky میاد و باید باهاش کار کرد هنوز شاید قانع شد😂\nدر مورد 8 گیگ رم و 2 هسته CPU هم بگم که این منابع اشتراکیه و متا هم سر گنج قارون ننشسته.\nسرعتش هم یه وقتایی میاد پایین اما خوبیش اینه که شما با هیچ اروری سر و کله نمی‌زنید! و یه دوری بزنید و برگردید همه چیز اوکی شده.\nو میتونه براتون تصویر و ویدئو هم درست کنه(ویدئوی فریم به فریم کوتاه و..)\nکه متن فارسی هم داخلش خوب میفته.\nآموزش راه‌اندازی:\n*نکته: اگر که هر چیزی شنیدید(ریجن ایمیل و تایم ساختن اکانت و آیپی تمیز و...) اشتباهه. میوز فقط و فقط به آیپی حساسه. و تنها آیپی‌ای که باهاش تونستم وارد شم، آیپی آمریکای گوگل بود(که صد درصد یعنی با آمازون هم میشه)\n\n1- با این روش یه VM آمازون بسازید با لوکیشن آمریکا(200 دلار کردیت رایگان):\nhttps://t.me/MatinSenPaii/5130\nیا با این روش یه VM گوگل بسازید با لوکیشن آمریکا(300 دلار کردیت رایگان اما 10 دلار اولیه باید بدید):\nhttps://t.me/MatinSenPaii/5149\nکه گوگل خوبیش اینه که سرور Always free میده و منم از همون استفاده میکنم. یعنی مهلت اعتبارش هم تموم بشه، اوکیه.\n\n2- پنل سنایی یا پاسارگارد و هر پنل دیگه‌ای رو روش نصب کنید(توی آمازون نیازه پورت‌ها رو Allow کنید از توی پنل مدیریت سرور روی سایت(به Grok بگید راهنمایی میکنه))\n\n3- یه کانفیگ Vless معمولی Raw بسازید(مهم نیست که مستقیم کار نکنه. گوگل که اصلا امکان نداره مستقیم کار کنه)\n\n4- اپلیکیشن PattN و PattNG رو نصب کنید(یا هر کلاینت V2ray که از قابلیت Chain proxy پشتیبانی کنه)\n\n5- یه کانفیگ که واستون کار می‌کنه رو اد کنید، کانفیگی که از سرورهای گوگل یا آمازون ساختید رو هم اد کنید، و بعدش این دوتا رو با همدیگه Proxy Chain کنید. و VPN رو متصل کنید و پینگ بگیرید.\n\n6- بعدش وارد اپلیکیشن Muse روی گوشی موبایلتون بشید و با یه ایمیل که تا به حال روی سرویس‌های متا ثبتش نکردید، وارد بشید و ثبت نام کنید. به همین راحتی\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5570",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/o3eSQOANFlw7YbpfR9ja2cXCn_lQeXwpjR56yFg8Mq38IBZf7zLr0OwJ_cilyfdNhgmofvVVO7vMPP1sXkNHCB2zTtzffYq7qBsmhGPnAxV8VPD6N_jdcONijutYncyL4_D4RkqxHwJxyNgZPRiJke-tSCCW9wUda4LNI5geRC7lhV-EBm6-z7VfidrH5bs8Tk7OKWxqGhfHTOYurOB1eiV4tX4QwBFuhe9DXx1P1SjQXndY8g2oc-31doYhC-Jv2JLxi8MgtLnvXPxoRkfqHdwiEprXEjkeykiIqPOWiGNY91fDZEmHLOwZ0psLkBjeUSnNLHAY99qQAqDGaikr4Q.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/aabc7954c61000b422a6c49f.jpg",
+          "thumbnail_sha256": "7554741d39c507ff813b0ebdd88cf64a3c94fe80f536fa53f148caef2bc5843b",
+          "duration_label": null,
+          "aspect_ratio": 1.6721698113207542
+        }
+      ],
+      "reactions": [],
+      "views_label": "148",
+      "posted_at": "2026-10-12T15:16:33+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5570",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5569",
       "author_name": "Matin SenPai",
@@ -39,7 +67,7 @@
         },
         {
           "emoji": "❤",
-          "count": "146"
+          "count": "148"
         },
         {
           "emoji": "👍",
@@ -54,7 +82,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.9K",
+      "views_label": "11K",
       "posted_at": "2026-10-12T11:55:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5569",
@@ -84,14 +112,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "55"
+          "count": "56"
         },
         {
           "emoji": "👍",
           "count": "9"
         }
       ],
-      "views_label": "11.3K",
+      "views_label": "11.4K",
       "posted_at": "2026-10-12T11:50:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5568",
@@ -121,7 +149,7 @@
       "reactions": [
         {
           "emoji": "🦄",
-          "count": "58"
+          "count": "59"
         },
         {
           "emoji": "👍",
@@ -140,7 +168,7 @@
           "count": "3"
         }
       ],
-      "views_label": "14.6K",
+      "views_label": "14.7K",
       "posted_at": "2026-10-12T10:14:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5567",
@@ -158,7 +186,7 @@
       "reactions": [
         {
           "emoji": "🆒",
-          "count": "65"
+          "count": "66"
         },
         {
           "emoji": "❤",
@@ -208,7 +236,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "115"
+          "count": "116"
         },
         {
           "emoji": "💔",
@@ -231,7 +259,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.7K",
+      "views_label": "18.8K",
       "posted_at": "2026-10-12T06:48:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5565",
@@ -265,7 +293,7 @@
         },
         {
           "emoji": "😁",
-          "count": "188"
+          "count": "189"
         },
         {
           "emoji": "❤",
@@ -755,7 +783,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.1K",
+      "views_label": "27.2K",
       "posted_at": "2026-10-11T07:17:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5553",
@@ -4422,55 +4450,6 @@
       "posted_at": "2026-10-01T17:47:52+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5469",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5468",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/nH-tqYKKMcRwPcEk4ndra9ZxDPmNuSaN8scUIoIDDbR3_5D6df29T8sgmTbnglAY3rnKHzavQAhWeQnovWuM27EbPMY8lB5pUL6yeGygtBj2_NvMiJHyGuk5sJqmGDKljsgEHoxxmN7PSc4AXSxnmLMpzObmUkTRGoXQC7Bv1JWtJ_-eWcaHnKngHpQ2IToVvRpQF7WQUxZcpLtMPkzqitI_ZAGaoj-rM1ox6UkHhaP1eKAhb3Kfjo0_DUGnm8M84WCSN2q94-o9CW2sB6kHvde5PpW7xCIAKH286yptJ1BZ88YZeYwq-bjGH_RvDe_aUGLpauaBdyQV0m95GtoWZw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/4a28392da71fc7f206c51537.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>مدیرعامل Airbnb: ایجنت‌های هوش مصنوعی به سیستم‌عامل اختصاصی نیاز دارن</b><br><br>برایان چسکی، مدیرعامل Airbnb، توی گفتگوی جدیدش تأکید کرده که <b>پارادایم اپلیکیشن‌های فعلی پاسخگوی نیاز ایجنت‌های خودمختار نیست و دنیای هوش مصنوعی نیازمند سیستم‌عاملی مستقل و AI-Native هست تا هماهنگی بین ایجنت‌ها و خدمات به شکلی پایدار صورت بگیره.</b><br><br>خب مشتی یه کاری بکن. ما هم میدونیم<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i> طرح نیاز که خیلی وقته شده <br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "مدیرعامل Airbnb: ایجنت‌های هوش مصنوعی به سیستم‌عامل اختصاصی نیاز دارن\n\nبرایان چسکی، مدیرعامل Airbnb، توی گفتگوی جدیدش تأکید کرده که پارادایم اپلیکیشن‌های فعلی پاسخگوی نیاز ایجنت‌های خودمختار نیست و دنیای هوش مصنوعی نیازمند سیستم‌عاملی مستقل و AI-Native هست تا هماهنگی بین ایجنت‌ها و خدمات به شکلی پایدار صورت بگیره.\n\nخب مشتی یه کاری بکن. ما هم میدونیم😂 طرح نیاز که خیلی وقته شده\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5468",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/ILjrPx8Lq9tp9QONJw4ln-RgDchEkH1oUpWOLV_a3k-rhXFDr6wknqHUyeNypbwF9gV4caDNQMawBQaMYKBlCa2vOiCHWsVXhOJidvFHw2acnzH8FjM-CK7Hlt5uvnZFbmAzWZN6RmoQWYnyEtoFwOYI2PkK0lvH2ewVY0COhrqD0x_y9hkj6_dpN68o7BmVf0_mrW5tKk0k6zcHWTculWpVVZbfiDjvquBjFzmGJWz8_IEuWO8gTood0wcPAh716WfXj_pRhm8QqlZhJm1Ip3D_RzhhCVhhVTgcY-7N5T3Hz-88iZuHyeUQ9TWFvcFxRRt8Ttc1q_cOi6ouafZi0g.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/124af8ee7473783831bf0136.jpg",
-          "thumbnail_sha256": "0d0fa37b6827de1cea89f17225e61729afdcfa89df4dd999e6a6e3fb19fc0899",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "🦄",
-          "count": "100"
-        },
-        {
-          "emoji": "👍",
-          "count": "41"
-        },
-        {
-          "emoji": "❤",
-          "count": "20"
-        },
-        {
-          "emoji": "😁",
-          "count": "10"
-        },
-        {
-          "emoji": "🆒",
-          "count": "1"
-        }
-      ],
-      "views_label": "25.5K",
-      "posted_at": "2026-10-01T16:50:17+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5468",
       "reply": null
     }
   ]
