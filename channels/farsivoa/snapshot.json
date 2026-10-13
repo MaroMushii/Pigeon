@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-13T22:59:10.040Z",
+  "fetched_at": "2026-10-13T23:12:08.691Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/233671",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/XaIIBxIqAA4H7ndKjn84pQM1BAUAk-3QPKjE9_5pzgOB5MQgVmHDZpm42qUKvbpWtzVWG7T1c2bGi2nJl-Ru06MAumZq-nRTpxcM4JHRIb11uMVpDDRRS1awha74zwes7GkuGwfWW3aXrvrshVB507HLB2SKeuZ1I4LMqToFTShvG3tv35cucubFsJLjV4VCPtxcIHYp2Ke_aKf_n4Z9fmhKOIWqEABokNbbaFdTzKBskRq3rJjdjAMOOXl0oAKTJ1O8Rx_HhRzXVQ4rH52oPKRfmvIEKOfMmQNusHjoJlk7DFwJWBBA6R6KmApgif6kL5uCrT7E_YQnatZL19rxQw.jpg",
+      "author_photo_path": "channels/farsivoa/media/fbf26ed07233b4c24b9fa0bb.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "پیوستن گزارشگر ویژه سازمان ملل به کارزار «سه‌شنبه‌های نه به اعدام»؛ گفت‌و‌گو با شیوا محبوبی،‌ سخنگوی کمیته مبارزه برای آزادی زندانیان سیاسی<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
+      "plain_text": "پیوستن گزارشگر ویژه سازمان ملل به کارزار «سه‌شنبه‌های نه به اعدام»؛ گفت‌و‌گو با شیوا محبوبی،‌ سخنگوی کمیته مبارزه برای آزادی زندانیان سیاسی\n@FarsiVOA",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/233671",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/kijgEcJJEO5f-Et1J3QTWfxyjANbbYyYAEg4rQTebw3KZSxRoDCSWj02Var8Coaaf0_0_tUSnrk8X1YX9j4hSphpfwV7jKQG3c5uh-w5OEf0RrhFh9qqW4ayUGEO8ebtRlZ-fZWAm00A35P2P7LeYeyuDkTvnUmDc_mRzHrwd3YtYh6wQUS9G6PX1wdAMg3hQBFeS1Ag1xRPFh5lMbfTFJDG37VvF2gAlMBd1k9OGqnTJ98aYv-k8Esd4WJDCwoCidnyw8fWdF3mA5om49_hwUg-dVHntt4Vl38uCJeRL7vbtwPjVSK1Dl7ruGSz6EPgWUK-jPHfZ9-I_HDrjPcIiQ",
+          "thumbnail_path": "channels/farsivoa/media/254e124847d40da1f07a199a.jpg",
+          "thumbnail_sha256": "94cd79cc2ec3db0ba6aae827b7dd6ebfafb888db2ca79e771318b2a0f5e9fcad",
+          "duration_label": "3:05",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "4",
+      "posted_at": "2026-10-13T23:10:43+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/233671",
+      "reply": null
+    },
+    {
       "id": "farsivoa/233670",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/XaIIBxIqAA4H7ndKjn84pQM1BAUAk-3QPKjE9_5pzgOB5MQgVmHDZpm42qUKvbpWtzVWG7T1c2bGi2nJl-Ru06MAumZq-nRTpxcM4JHRIb11uMVpDDRRS1awha74zwes7GkuGwfWW3aXrvrshVB507HLB2SKeuZ1I4LMqToFTShvG3tv35cucubFsJLjV4VCPtxcIHYp2Ke_aKf_n4Z9fmhKOIWqEABokNbbaFdTzKBskRq3rJjdjAMOOXl0oAKTJ1O8Rx_HhRzXVQ4rH52oPKRfmvIEKOfMmQNusHjoJlk7DFwJWBBA6R6KmApgif6kL5uCrT7E_YQnatZL19rxQw.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺جریمه میلیاردی دومین بانک بزرگ آمریکایی به دلیل نقض مقررات پول‌شویی و تحریمی؛ پای رژیم ایران هم در میان است\n\n▪️وزارت خزانه‌داری ایالات متحده اعلام کرد موسسه مالی عظیم «بانک آمریکا» (بنک آو آمریکا) به دلیل ضعف گسترده در مقابله با پول‌شویی و نقض تحریم‌های آمریکا، از جمله تحریم‌های اعمال‌شده علیه رژیم ایران، با جریمه‌ای به مبلغ بیش از یک میلیارد و ۲۱۰ میلیون دلار روبه‌رو شده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/us-bank-of-america-fined-billions-over-money-laundering-sanctions-violations-iran-russia/8210934.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "103",
+      "views_label": "266",
       "posted_at": "2026-10-13T22:54:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233670",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "181",
+      "views_label": "341",
       "posted_at": "2026-10-13T22:50:46+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233669",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "447",
+      "views_label": "545",
       "posted_at": "2026-10-13T22:32:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233668",
@@ -93,7 +121,7 @@
       "plain_text": "🔺حملات تازه حوثی‌ها به عربستان سعودی؛ زخمی شدن ۴ نفر در ریاض و آتش‌سوزی در ساختمان آرامکو\n\n▪️مقام‌های عربستان سعودی از حملات موشکی تازه حوثی‌های مورد حمایت جمهوری اسلامی به این کشور خبر دادند که بر اثر آنها چهار نفر در ریاض زخمی شدند و یکی از ساختمان‌های اداری شرکت نفتی آرامکو در شهر ظهران هدف قرار گرفت.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/houthi-attacks-injure-four-in-riyadh-ignite-aramco-fire/8210931.html\n@FardsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "531",
+      "views_label": "660",
       "posted_at": "2026-10-13T22:27:56+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233667",
@@ -121,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "693",
+      "views_label": "761",
       "posted_at": "2026-10-13T22:10:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233666",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "980",
+      "views_label": "1.05K",
       "posted_at": "2026-10-13T21:50:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233665",
@@ -165,7 +193,7 @@
       "plain_text": "🔺کارشناسان به صدای آمریکا: اهداف جاه‌طلبانه شورشیان حوثی مورد حمایت رژیم ایران منحصر به یمن نیست\n\n▪️کارشناسان می‌گویند که اهداف حوثی‌ها، که یک گروه تروریستی مورد حمایت رژیم ایران است، از مرزهای این کشور فراتر می رود و آنها به دنبال تسلط بر دریای سرخ و دسترسی به دریای عرب و اقیانوس هند، هستند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iran-yemen-saudi-arabia-houthi-us/8210792.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "1.09K",
+      "views_label": "1.15K",
       "posted_at": "2026-10-13T21:47:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233664",
@@ -193,7 +221,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.19K",
+      "views_label": "1.26K",
       "posted_at": "2026-10-13T21:32:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233663",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.63K",
+      "views_label": "1.7K",
       "posted_at": "2026-10-13T21:10:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233662",
@@ -249,7 +277,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.02K",
+      "views_label": "2.05K",
       "posted_at": "2026-10-13T20:50:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233661",
@@ -293,7 +321,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.26K",
+      "views_label": "2.3K",
       "posted_at": "2026-10-13T20:32:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233659",
@@ -341,7 +369,7 @@
       "plain_text": "🔴📢‌ پادکست میدان - سه شنبه ۲۱ مهر\n\n🛜در صورتی که با مشکل اینترنت مواجه هستید میتوانید اخبار صدای آمریکا را از\nنسخه‌های پادکست خبری ما به صورت صوتی دنبال کنید و یا اخبار را از نسخه\nسبک وب‌سایت ما پیگیر باشید:\nhttps://ir.voanews.com/lite\n\n📡بروزترین فرکانسهای ماهواره‌ای را نیز میتوانید از صفحه زیر پیگیری کنید:\nhttps://ir.voanews.com/satellite\n\n🔔دیگر شبکه‌های اجتماعی ما را هم دنبال کنید:\nhttps://linktr.ee/voafarsi\n\n\nبا دوستانتان به اشتراک بگذارید\n@farsivoa",
       "media": [],
       "reactions": [],
-      "views_label": "2.61K",
+      "views_label": "2.64K",
       "posted_at": "2026-10-13T20:13:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233656",
@@ -369,7 +397,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.31K",
+      "views_label": "2.35K",
       "posted_at": "2026-10-13T20:10:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233655",
@@ -397,7 +425,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.9K",
+      "views_label": "2.93K",
       "posted_at": "2026-10-13T19:44:15+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233654",
@@ -413,7 +441,7 @@
       "plain_text": "🔺گزارش| اعدام بابک شهبازی؛ مردی که نوشت «برای جنگ با روسیه آماده است» و جمهوری اسلامی او را به جاسوسی برای اسرائیل متهم کرد\n\n▪️بابک شهبازی از زندانیان سیاسی بود که پس از پایان جنگ ۱۲ روزه ایران و اسرائیل اعدام شد. او که به «جاسوسی برای اسرائیل» متهم شده بود، ۲۶ شهریور ۱۴۰۴ حکم اعدامش در زندان قزلحصار کرج اجرا شد. شهبازی همواره اتهام جاسوسی را رد کرد و در نامه‌هایی که از زندان نوشت، از شکنجه خود خبر داد. او در جریان رسیدگی به پرونده با نقض حقوق اولیه خود، از جمله حق برخورداری از وکیل در مراحل بازجویی، روبه‌رو بود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iran-israel-babak-shahbazi-execution-spy-/8210869.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "3.42K",
+      "views_label": "3.45K",
       "posted_at": "2026-10-13T19:22:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233653",
@@ -429,7 +457,7 @@
       "plain_text": "🔺راه‌اندازی «چالش ابرهوش ریاست‌جمهوری» از سوی بانوی اول آمریکا\n\n▪️ملانیا ترامپ، بانوی اول آمریکا با راه‌اندازی «چالش ابرهوش ریاست‌جمهوری ۲۰۲۷» و بنیان نهادن نشان جدید «آمادگی برای ابرهوش بانوی اول» خواستار مشارکت دانش‌آموزان از مقطع مهدکودک تا پایان دبیرستان، مربیان و مدارس سراسر آمریکا در اجرای این طرح ملی شد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/melania-trump-abrhosh-challenge-schools-sign/8210854.html\n@FarsiVOA",
       "media": [],
       "reactions": [],
-      "views_label": "3.26K",
+      "views_label": "3.29K",
       "posted_at": "2026-10-13T19:09:31+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233652",
@@ -2397,22 +2425,6 @@
       "posted_at": "2026-10-12T23:02:15+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/233571",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/233570",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/cmHDVorPVsUEgNWnhtqq8ClTmu3f67rJ4E0iDqsMproDb7pm3aA45WqauAiXij5p4_o_X6-oQaqmHThEm7EPBsRE3HOTcbR3mSAr6RCV1Bgp4XOY1VqZaA0L5c6en-kSsAyfDvPlHcf1QdYr21WdaJ39SWDnMpTTIz_qiwgdhH0E-GGewASvEReEAyO6ebwQIeoRhvdOFH1Cd5y5vbvoP1mHR3VokKFxGZ3DHSl6XTspsXLyLE-SZMMRydiJLmKYuFcpH-yXUiYdtFX7lnMADd5vxnaovyoQ38E1Qv-7eM2MXziG8ytczbCm4zWLsgsZDsGu_FeLZY34eMKS0-3RIw.jpg",
-      "author_photo_path": "channels/farsivoa/media/02687bfbe17dbd44203736b2.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BA.png')\"><b>🔺</b></i>واکنش دونالد ترامپ به انتقادات از توافق گازوئیل با روسیه و جستجوی خانه ایلهان عمر<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i>دونالد ترامپ، رئیس‌جمهوری آمریکا، روز دوشنبه ۲۰ مهر، در پاسخ به پرسش خبرنگاران درباره انتقادهای شماری از قانون‌گذاران جمهوری‌خواه از توافق گازوئیل با روسیه، گفت که این توافق به نفع دیگر کشورهای جهان است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> بیشتر بخوانید:<br><a href=\"https://ir.voanews.com/a/8210541.html\" target=\"_blank\" rel=\"noopener\">https://ir.voanews.com/a/8210541.html</a><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "🔺واکنش دونالد ترامپ به انتقادات از توافق گازوئیل با روسیه و جستجوی خانه ایلهان عمر\n\n▪️دونالد ترامپ، رئیس‌جمهوری آمریکا، روز دوشنبه ۲۰ مهر، در پاسخ به پرسش خبرنگاران درباره انتقادهای شماری از قانون‌گذاران جمهوری‌خواه از توافق گازوئیل با روسیه، گفت که این توافق به نفع دیگر کشورهای جهان است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8210541.html\n@FarsiVOA",
-      "media": [],
-      "reactions": [],
-      "views_label": "2.6K",
-      "posted_at": "2026-10-12T22:50:31+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/233570",
       "reply": null
     }
   ]
