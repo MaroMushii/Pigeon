@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-14T04:12:21.137Z",
+  "fetched_at": "2026-10-14T04:17:17.594Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,55 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1957",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/X8_YRHetvm-zgeeNh8mVx4Xa8YZufAvKE2ENa9TDZFw67-8AP4L08vaHAfMjplg8x_ktmStQgUyC_oxOFPFMvskOMXY_cI5oFw5-lm7HLlImmRtCrjTRs6C_K1ZyLRT_JgBmUW-FBVpGiOOUSxgZg84hEz9EUdmJmb5-v47aTLwk4iEHsDwQkE3q_ebAWXUQU0zaVTffH8ugcclaJuikrp9r3nt_5IUtamd05vaRtLQMn7oemn67_UWrTm9wlM1DoBbMI-xkuRqEG8kpV5BSmHDJS32ekhVJtGf_rlSunnkAlpzAqXeR56JHkpBxlrJN4h-uUjyI-BswAJNYg6CwwA.jpg",
+      "author_photo_path": "channels/whitedns/media/7cf131d988b97e7190d9e4a7.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "نسخه جدید whiteaesther mobile منتشر شد ! <tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> راهنمای تنظیمات جدید WhiteAesther 1.12.0<br><br>با ارتقای هسته به Aether 2.3.0، تنظیمات TLS و ECH کامل‌تر شده‌اند. سه گزینهٔ زیر در Traffic → Advanced قرار دارند. اگر اتصال خوب کار می‌کند، دو کادر را خالی بگذار و Disable GREASE را تیک نزن؛ موتور از تنظیمات پیش‌فرض استفاده می‌کند.<br><br>۱️⃣<br><blockquote>ا- TLS 1.2 cipher suites <br>فهرست الگوریتم‌های TLS 1.2 را مشخص می‌کند و می‌تواند شکل پیام آغاز اتصال را تغییر بدهد. برای شروع خالی بگذار.<br><br>نمونهٔ قالب برای آزمایش:<br>ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256<br><br>نام‌ها با دونقطهٔ انگلیسی : جدا می‌شوند. این نمونه نسخهٔ پیشنهادی برای همهٔ شبکه‌ها نیست؛ محدود کردن فهرست ممکن است سازگاری را کمتر کند. این کادر رمزهای TLS 1.3 و تونل H3 را تغییر نمی‌دهد، ولی می‌تواند روی ارتباط HTTPS ثبت‌نام یا دریافت کلید ECH اثر بگذارد.<br><br>TLS key exchange groups<br>گروه‌هایی را تعیین می‌کند که برای ساخت کلید مشترک TLS پیشنهاد می‌شوند. ترتیبشان هم اهمیت دارد. برای استفادهٔ معمول خالی بگذار.<br><br>نمونهٔ قالب برای آزمایش:<br>X25519:P-256:P-384<br><br>این تنظیم می‌تواند روی H2، H3، ثبت‌نام WARP و دریافت کلید ECH از طریق HTTPS اثر داشته باشد. نام‌ها را با حروف و علائم انگلیسی وارد کن.<br><br> Disable GREASE<br>GREASE مقادیر رزروشده‌ای را در پیام TLS می‌فرستد تا سازگاری با توسعهٔ پروتکل حفظ شود. برای امتحان یک مشکل دست‌دادن TLS می‌توانی این گزینه را جداگانه تغییر بدهی:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> بدون تیک: GREASE فعال است؛ پیش‌فرض موتور.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i> با تیک: GREASE غیرفعال می‌شود.<br>اگر نتیجه بهتر نشد، تیک را بردار. این گزینه رمزگذاری یا بررسی گواهی سرور را خاموش نمی‌کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29E95.png')\"><b>➕</b></i> WARP registration address<br>کادر پایین این سه گزینه، مقصد درخواست‌های ثبت‌نام و مدیریت حساب WARP را تغییر می‌دهد. معمولاً خالی بماند. فقط آدرس سازگار و آزموده‌شدهٔ سرویس ثبت‌نام را با قالب IP:port یا host:port وارد کن؛ بدون پورت یعنی 443. این کادر با Endpoint تونل فرق دارد. لینک اشتراک، کانفیگ نود، https:// یا مسیر سایت در آن وارد نکن. اگر ثبت‌نام بعد از تغییر شکست خورد، کادر را خالی کن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> چطور درست آزمایش کنیم؟<br>• در Routes → Carrier، حالت Manual و سپس Aether را انتخاب کن؛ TLS داخلی سایفون و تور با این کادرها تغییر نمی‌کند.<br>• برای مقایسه روی یک روش مشخص، در Routes → Advanced → Protocol، H2 یا H3 را انتخاب کن.<br>• هر بار فقط یک گزینه را تغییر بده، قطع و دوباره وصل شو. Check the connection works روشن بماند.<br>• اگر خطای --tls-ciphers، --tls-groups یا --enroll-address دیدی، کادر همان گزینه را خالی کن و دوباره امتحان کن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> چه چیزهای دیگری تازه شده؟<br>الان ECH روی H2 هم کار می‌کند و در اتصال خودکار هم امتحان می‌شود. با روشن کردن Encrypted ClientHello، کادرهای ECH resolver و ECH key domain را می‌بینی؛ ابتدا هر دو را خالی بگذار. پیش‌فرض اندروید برای دریافت کلید، <a href=\"https://1.1.1.1/dns-query\" target=\"_blank\" rel=\"noopener\">https://1.1.1.1/dns-query</a> و دامنهٔ پیش‌فرض <a href=\"http://cloudflare-ech.com/\" target=\"_blank\" rel=\"noopener\">cloudflare-ech.com</a> است. این resolver فقط کلید ECH را می‌گیرد؛ DNS ترافیک اپ‌ها را عوض نمی‌کند. تلاش دارای ECH بدون کلید قابل استفاده ادامه پیدا نمی‌کند؛ حالت Automatic برنامه ممکن است روش دیگری را امتحان کند.<br><br>حالت Verified edges هم در Routes → Advanced → Discovery depth اضافه شده است؛ گیت‌وی‌های شناخته‌شده را در اولویت می‌گذارد و همچنان مسیر را آزمایش می‌کند. هشت سابقهٔ گیت‌وی موفق و انتخاب بهتر بین IPv4/IPv6 هم به بازیابی اتصال کمک می‌کنند.<br><br>مشکل تایپ در کادرهای تازه و خطای نبودن libc++_shared.so هم در نسخهٔ جدید اصلاح شده‌اند.</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دریافت نسخهٔ 1.12.0:<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.12.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.12.0</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> آموزش کامل و روش برگشت به تنظیمات قبلی:<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/blob/main/docs/GUIDE.fa.md#aether-23\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/blob/main/docs/GUIDE.fa.md#aether-23</a><br><br><a href=\"?q=%23WhiteAesther\">#WhiteAesther</a> <a href=\"?q=%23WhiteDNS\">#WhiteDNS</a> <a href=\"?q=%23Aether\">#Aether</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "نسخه جدید whiteaesther mobile منتشر شد ! 🔥🔥\n\n\n🛠 راهنمای تنظیمات جدید WhiteAesther 1.12.0\n\nبا ارتقای هسته به Aether 2.3.0، تنظیمات TLS و ECH کامل‌تر شده‌اند. سه گزینهٔ زیر در Traffic → Advanced قرار دارند. اگر اتصال خوب کار می‌کند، دو کادر را خالی بگذار و Disable GREASE را تیک نزن؛ موتور از تنظیمات پیش‌فرض استفاده می‌کند.\n\n۱️⃣\nا- TLS 1.2 cipher suites\nفهرست الگوریتم‌های TLS 1.2 را مشخص می‌کند و می‌تواند شکل پیام آغاز اتصال را تغییر بدهد. برای شروع خالی بگذار.\n\nنمونهٔ قالب برای آزمایش:\nECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256\n\nنام‌ها با دونقطهٔ انگلیسی : جدا می‌شوند. این نمونه نسخهٔ پیشنهادی برای همهٔ شبکه‌ها نیست؛ محدود کردن فهرست ممکن است سازگاری را کمتر کند. این کادر رمزهای TLS 1.3 و تونل H3 را تغییر نمی‌دهد، ولی می‌تواند روی ارتباط HTTPS ثبت‌نام یا دریافت کلید ECH اثر بگذارد.\n\nTLS key exchange groups\nگروه‌هایی را تعیین می‌کند که برای ساخت کلید مشترک TLS پیشنهاد می‌شوند. ترتیبشان هم اهمیت دارد. برای استفادهٔ معمول خالی بگذار.\n\nنمونهٔ قالب برای آزمایش:\nX25519:P-256:P-384\n\nاین تنظیم می‌تواند روی H2، H3، ثبت‌نام WARP و دریافت کلید ECH از طریق HTTPS اثر داشته باشد. نام‌ها را با حروف و علائم انگلیسی وارد کن.\n\nDisable GREASE\nGREASE مقادیر رزروشده‌ای را در پیام TLS می‌فرستد تا سازگاری با توسعهٔ پروتکل حفظ شود. برای امتحان یک مشکل دست‌دادن TLS می‌توانی این گزینه را جداگانه تغییر بدهی:\n▫️ بدون تیک: GREASE فعال است؛ پیش‌فرض موتور.\n▫️ با تیک: GREASE غیرفعال می‌شود.\nاگر نتیجه بهتر نشد، تیک را بردار. این گزینه رمزگذاری یا بررسی گواهی سرور را خاموش نمی‌کند.\n\n➕ WARP registration address\nکادر پایین این سه گزینه، مقصد درخواست‌های ثبت‌نام و مدیریت حساب WARP را تغییر می‌دهد. معمولاً خالی بماند. فقط آدرس سازگار و آزموده‌شدهٔ سرویس ثبت‌نام را با قالب IP:port یا host:port وارد کن؛ بدون پورت یعنی 443. این کادر با Endpoint تونل فرق دارد. لینک اشتراک، کانفیگ نود، https:// یا مسیر سایت در آن وارد نکن. اگر ثبت‌نام بعد از تغییر شکست خورد، کادر را خالی کن.\n\n🧪 چطور درست آزمایش کنیم؟\n• در Routes → Carrier، حالت Manual و سپس Aether را انتخاب کن؛ TLS داخلی سایفون و تور با این کادرها تغییر نمی‌کند.\n• برای مقایسه روی یک روش مشخص، در Routes → Advanced → Protocol، H2 یا H3 را انتخاب کن.\n• هر بار فقط یک گزینه را تغییر بده، قطع و دوباره وصل شو. Check the connection works روشن بماند.\n• اگر خطای --tls-ciphers، --tls-groups یا --enroll-address دیدی، کادر همان گزینه را خالی کن و دوباره امتحان کن.\n\n✨ چه چیزهای دیگری تازه شده؟\nالان ECH روی H2 هم کار می‌کند و در اتصال خودکار هم امتحان می‌شود. با روشن کردن Encrypted ClientHello، کادرهای ECH resolver و ECH key domain را می‌بینی؛ ابتدا هر دو را خالی بگذار. پیش‌فرض اندروید برای دریافت کلید، https://1.1.1.1/dns-query و دامنهٔ پیش‌فرض cloudflare-ech.com است. این resolver فقط کلید ECH را می‌گیرد؛ DNS ترافیک اپ‌ها را عوض نمی‌کند. تلاش دارای ECH بدون کلید قابل استفاده ادامه پیدا نمی‌کند؛ حالت Automatic برنامه ممکن است روش دیگری را امتحان کند.\n\nحالت Verified edges هم در Routes → Advanced → Discovery depth اضافه شده است؛ گیت‌وی‌های شناخته‌شده را در اولویت می‌گذارد و همچنان مسیر را آزمایش می‌کند. هشت سابقهٔ گیت‌وی موفق و انتخاب بهتر بین IPv4/IPv6 هم به بازیابی اتصال کمک می‌کنند.\n\nمشکل تایپ در کادرهای تازه و خطای نبودن libc++_shared.so هم در نسخهٔ جدید اصلاح شده‌اند.\n\n📥 دریافت نسخهٔ 1.12.0:\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.12.0\n\n📖 آموزش کامل و روش برگشت به تنظیمات قبلی:\nhttps://github.com/WhiteDNS/WhiteAestherMobile/blob/main/docs/GUIDE.fa.md#aether-23\n\n#WhiteAesther #WhiteDNS #Aether\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1957",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/c06rNM7R7zj4R1YXlyfL_oP8ZxouXlsNogn7DFdhozxd8A2SEXrW_FAE5NXzUWUqMY0gXteA2CexBmuIQvDgXOgszCJlxRoDMinG_ffZAOiA09kpGJrvuBULIFG14MQEQADnNWNQ8qTrKE_Uvj0TJOfqv7Zkva74uNvDLimOLaJw6JNDJDjaIcXNJfi9JA6jqDOqsqPkOvjpVxiu6YyDzV-vqYSoI7m8QFYMphxZ-jlj9fCFBsYl3PgLZ8qclVHVbnsOqCeD3_jb89C5BcO3hiKKCOriamRbIA5nEA_UZGGTXANnferoqJxACzn7SMN7eqhQVioaSx-RW-XeonlNZQ.jpg",
+          "thumbnail_path": "channels/whitedns/media/a206befacd7a6fe1560948fe.jpg",
+          "thumbnail_sha256": "ca8c0b9e5b49fadd633bf03e0c48da584397b5e7ad8464a23816aa782404f372",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "1"
+        },
+        {
+          "emoji": "🤩",
+          "count": "1"
+        },
+        {
+          "emoji": "😍",
+          "count": "1"
+        },
+        {
+          "emoji": "🍓",
+          "count": "1"
+        }
+      ],
+      "views_label": "272",
+      "posted_at": "2026-10-14T04:13:07+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/1957",
+      "reply": null
+    },
     {
       "id": "whitedns/1956",
       "author_name": "White DNS",
@@ -38,7 +87,7 @@
           "count": "2"
         }
       ],
-      "views_label": "1.97K",
+      "views_label": "2.11K",
       "posted_at": "2026-10-14T02:51:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1956",
@@ -56,11 +105,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "41"
+          "count": "42"
         },
         {
           "emoji": "👍",
-          "count": "7"
+          "count": "8"
         },
         {
           "emoji": "🤷‍♀",
@@ -71,7 +120,7 @@
           "count": "2"
         }
       ],
-      "views_label": "2.14K",
+      "views_label": "2.28K",
       "posted_at": "2026-10-14T02:44:09+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1955",
@@ -136,7 +185,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.36K",
+      "views_label": "9.41K",
       "posted_at": "2026-10-13T09:41:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1954",
@@ -164,6 +213,10 @@
         }
       ],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "❤",
           "count": "87"
@@ -193,7 +246,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.86K",
+      "views_label": "5.91K",
       "posted_at": "2026-10-13T09:38:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1953",
@@ -473,7 +526,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.73K",
+      "views_label": "9.74K",
       "posted_at": "2026-10-11T14:46:12+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1947",
@@ -575,7 +628,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.4K",
+      "views_label": "13.5K",
       "posted_at": "2026-10-10T15:52:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1943",
@@ -640,7 +693,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.5K",
+      "views_label": "12.6K",
       "posted_at": "2026-10-10T15:52:09+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1942",
@@ -693,7 +746,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.6K",
+      "views_label": "11.7K",
       "posted_at": "2026-10-10T09:24:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1941",
@@ -5305,75 +5358,6 @@
       "posted_at": "2026-09-20T13:32:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1831",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1829",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/FpjGTtexvEK86QjCgJp1IAWJyG2_bsZDvhNJWpbdvRaY0ON8hh25vuAg4ibjUuFGEWPibbH2Jsggh6CFd7x53L7c9YtfRfot0xOohrGG5E5kiRCsLVhLaPrJlO1yn739NTBkRPkOhBpXpzGdnO0rT2j19vWBMePNTX0Y8udHA6C6HYWVcgURJDHtDy54thXkRiOK0drU5mOxH0qNNen7RM8JA6hUPRcq8L4y49udkGr1f2SDWThAsXIzoaxr4T6wM2TVUvogySZb9XADRS71XWhy-hfPdMiBhQ3UmmMwlN99nKDONBjR7XctPhXkCE3VWB661BHKVdZXCtuPu27X9A.jpg",
-      "author_photo_path": "channels/whitedns/media/e9911294397474c9834585a7.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D93.png')\"><b>🍓</b></i> بچه‌هااا یه آموزش جدید آپلود کردم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA5B9.png')\"><b>🥹</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i><br><br>اگه Gemini خطای 403 میده یا Google Flow براتون باز نمیشه، این ویدیو رو از دست ندین <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9180.png')\"><b>👀</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9297.png')\"><b>💗</b></i><br><br></b><blockquote><b>توی ویدیو از صفر Blue Knight Panel رو می‌سازیم و آخرش با کانفیگ‌هاش Gemini و Google Flow رو تست می‌کنیم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F98AD.png')\"><b>😭</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></b></blockquote><b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E80.png')\"><b>🎀</b></i> تماشای ویدیو:<br></b><a href=\"https://youtu.be/GK2PGDzkbh4\" target=\"_blank\" rel=\"noopener\"><b>https://youtu.be/GK2PGDzkbh4</b></a>",
-      "plain_text": "🍓 بچه‌هااا یه آموزش جدید آپلود کردم 🥹✨\n\nاگه Gemini خطای 403 میده یا Google Flow براتون باز نمیشه، این ویدیو رو از دست ندین 👀💗\n\nتوی ویدیو از صفر Blue Knight Panel رو می‌سازیم و آخرش با کانفیگ‌هاش Gemini و Google Flow رو تست می‌کنیم 😭🔥\n\n🎀 تماشای ویدیو:\nhttps://youtu.be/GK2PGDzkbh4",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1829",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/TCjZxeeUVmwhVOtx7KZ_653Tlvyw4Q7VoupOydJLf98FEy5B-lx9dWowaIICs09KSC_ZtM6_aKWn1wlqcaAfa6rcHYreKAlCb4G6n9IflLyXVgDjIUAk_kfLqptXA9rKbh_9sSL5mKkzWRxebMyKppC8OMA0YePPRuK6_jOpS-rGjEDJEMewsNiqT9d_eaSaYgnXBMt470D2biaivzoPJClIXbxcsCuPEmw2Dm4I963JSTfG6dIJJJGqqGMcTvDP-u2TsISzpCdwx9ZyvhLybVmuTgXCxRsTetoe-sx1rZHwEKuJJFNv45Ywjf7OxnFH4K7-sscjqaO7olQtCNe2OA.jpg",
-          "thumbnail_path": "channels/whitedns/media/4a556090fcc97c341931f5a3.jpg",
-          "thumbnail_sha256": "1e7cb0dfbb4fbb8228027f1ebe8634fb99bf85f57580d704decd1c570dddfb94",
-          "duration_label": null,
-          "aspect_ratio": 1.7738359201773837
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "179"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "15"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "🤷‍♀",
-          "count": "1"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🍾",
-          "count": "1"
-        },
-        {
-          "emoji": "🤝",
-          "count": "1"
-        },
-        {
-          "emoji": "💊",
-          "count": "1"
-        }
-      ],
-      "views_label": "15.3K",
-      "posted_at": "2026-09-19T23:29:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1829",
       "reply": null
     }
   ]
