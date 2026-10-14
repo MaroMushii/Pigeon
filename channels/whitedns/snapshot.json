@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-14T09:34:54.502Z",
+  "fetched_at": "2026-10-14T09:37:48.003Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -17,8 +17,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/X8_YRHetvm-zgeeNh8mVx4Xa8YZufAvKE2ENa9TDZFw67-8AP4L08vaHAfMjplg8x_ktmStQgUyC_oxOFPFMvskOMXY_cI5oFw5-lm7HLlImmRtCrjTRs6C_K1ZyLRT_JgBmUW-FBVpGiOOUSxgZg84hEz9EUdmJmb5-v47aTLwk4iEHsDwQkE3q_ebAWXUQU0zaVTffH8ugcclaJuikrp9r3nt_5IUtamd05vaRtLQMn7oemn67_UWrTm9wlM1DoBbMI-xkuRqEG8kpV5BSmHDJS32ekhVJtGf_rlSunnkAlpzAqXeR56JHkpBxlrJN4h-uUjyI-BswAJNYg6CwwA.jpg",
       "author_photo_path": "channels/whitedns/media/7cf131d988b97e7190d9e4a7.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i>  نسخه <b>WhiteAesther Desktop v1.10.0 منتشر شد</b><br><br>هستهٔ برنامه به <b>Aether 2.3</b> ارتقا پیدا کرده و تنظیمات بیشتری برای آزمایش اتصال در شبکه‌های محدود در اختیار شماست.<br><br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> <b>تغییرات مهم</b><br>• پشتیبانی ECH روی MASQUE H2 و H3<br>• اضافه شدن <b>WireGuard over MASQUE</b><br>• تنظیم cipherهای TLS 1.2، گروه‌های تبادل کلید و GREASE<br>• تنظیم آدرس ثبت‌نام WARP و resolver/domain کلید ECH<br>• اضافه شدن <b>Verified edges</b> به جست‌وجوی گیت‌وی‌ها<br>• اصلاح Save دیرهنگام؛ ویرایش تازهٔ شما هنگام ذخیره بازنویسی نمی‌شود<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> <b>آموزش انتخاب پروتکل دلخواه</b><br>اگر با انتخاب H3 یا WireGuard باز هم برنامه روی H2 وصل می‌شود، احتمالاً انتخاب خودکار مسیر فعال است.<br>۱. اتصال را قطع کنید.<br>۲. وارد <b>Advanced → Routes &amp; transports</b> شوید.<br>۳. گزینهٔ <b>«راه خروج را برایم پیدا کن»</b> را خاموش کنید.<br>۴. carrier را روی <b>Aether</b> و مرحلهٔ دوم را روی <b>Nothing further</b> بگذارید.<br>۵. در <b>Protocol</b> روش دلخواه را انتخاب و دوباره وصل شوید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> در حالت Automatic، برنامه چند روش را امتحان می‌کند و مسیر برنده را انتخاب می‌کند. انتخاب Protocol در این حالت، برنامه را به همان روش محدود نمی‌کند.<br>برای ثابت ماندن H2 یا H3 حتی پس از شکست اتصال، <b>اتصال مجدد خودکار</b> را هم خاموش کنید؛ retryهای MASQUE می‌توانند بین این دو جابه‌جا شوند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> <b>آموزش تنظیم TLS و ECH</b><br>در همان صفحه، بخش <b>TLS and ECH</b> را باز کنید:<br>• <b>Encrypted Client Hello:</b> برای دریافت خودکار کلید، auto وارد کنید. خالی یا off یعنی خاموش.<br>• <b>ECH resolver:</b> خالی بگذارید تا هنگام ECH فعال، از DoH پیش‌فرض <a href=\"https://1.1.1.1/dns-query\" target=\"_blank\" rel=\"noopener\">https://1.1.1.1/dns-query</a> استفاده شود.<br>• <b>ECH key domain:</b> خالی یعنی پیش‌فرض <a href=\"http://cloudflare-ech.com/\" target=\"_blank\" rel=\"noopener\">cloudflare-ech.com</a>.<br>• <b>TLS groups:</b> نام گروه‌ها را با : جدا کنید؛ نمونه: X25519:P-256:P-384<br>• <b>TLS 1.2 cipher suites:</b> نمونهٔ معتبر: ECDHE-RSA-AES128-GCM-SHA256؛ این گزینه cipherهای TLS 1.3 را تعیین نمی‌کند.<br>• <b>Disable GREASE:</b> پیش‌فرض خاموش است؛ برای آزمایش سازگاری تغییرش دهید.<br>هر بار فقط یک گزینه را تغییر دهید، <b>Save profile</b> بزنید و دوباره اتصال را آزمایش کنید. خالی بودن فیلدهای TLS یعنی استفاده از پیش‌فرض هسته.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AD.png')\"><b>🧭</b></i> <b>Verified edges</b> گیت‌وی‌های شناخته‌شده را در اولویت می‌گذارد و مسیر را بررسی می‌کند؛ تضمین اتصال نیست.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> این نسخه <b>prerelease</b> است. بسته‌های پنج پلتفرم ساخته و هستهٔ داخل هر ۱۰ نصب‌کننده بررسی شده است.<br>پیش از حذف یا نصب مجدد، از <b>Identity → Save a backup</b> بکاپ بگیرید. اگر <b>Core executable</b> به هستهٔ قدیمی اشاره می‌کند، آن را خالی کنید تا هستهٔ همراه برنامه اجرا شود.</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> <a href=\"https://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.10.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ جدید</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939A.png')\"><b>📚</b></i> <a href=\"https://github.com/WhiteDNS/WhiteAesther/blob/v1.10.0/docs/AETHER-2.3.fa.md\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای کامل فارسی</a>",
-      "plain_text": "🚀 نسخه WhiteAesther Desktop v1.10.0 منتشر شد\n\nهستهٔ برنامه به Aether 2.3 ارتقا پیدا کرده و تنظیمات بیشتری برای آزمایش اتصال در شبکه‌های محدود در اختیار شماست.\n\n✨ تغییرات مهم\n• پشتیبانی ECH روی MASQUE H2 و H3\n• اضافه شدن WireGuard over MASQUE\n• تنظیم cipherهای TLS 1.2، گروه‌های تبادل کلید و GREASE\n• تنظیم آدرس ثبت‌نام WARP و resolver/domain کلید ECH\n• اضافه شدن Verified edges به جست‌وجوی گیت‌وی‌ها\n• اصلاح Save دیرهنگام؛ ویرایش تازهٔ شما هنگام ذخیره بازنویسی نمی‌شود\n📖 آموزش انتخاب پروتکل دلخواه\nاگر با انتخاب H3 یا WireGuard باز هم برنامه روی H2 وصل می‌شود، احتمالاً انتخاب خودکار مسیر فعال است.\n۱. اتصال را قطع کنید.\n۲. وارد Advanced → Routes & transports شوید.\n۳. گزینهٔ «راه خروج را برایم پیدا کن» را خاموش کنید.\n۴. carrier را روی Aether و مرحلهٔ دوم را روی Nothing further بگذارید.\n۵. در Protocol روش دلخواه را انتخاب و دوباره وصل شوید.\n💡 در حالت Automatic، برنامه چند روش را امتحان می‌کند و مسیر برنده را انتخاب می‌کند. انتخاب Protocol در این حالت، برنامه را به همان روش محدود نمی‌کند.\nبرای ثابت ماندن H2 یا H3 حتی پس از شکست اتصال، اتصال مجدد خودکار را هم خاموش کنید؛ retryهای MASQUE می‌توانند بین این دو جابه‌جا شوند.\n🔐 آموزش تنظیم TLS و ECH\nدر همان صفحه، بخش TLS and ECH را باز کنید:\n• Encrypted Client Hello: برای دریافت خودکار کلید، auto وارد کنید. خالی یا off یعنی خاموش.\n• ECH resolver: خالی بگذارید تا هنگام ECH فعال، از DoH پیش‌فرض https://1.1.1.1/dns-query استفاده شود.\n• ECH key domain: خالی یعنی پیش‌فرض cloudflare-ech.com.\n• TLS groups: نام گروه‌ها را با : جدا کنید؛ نمونه: X25519:P-256:P-384\n• TLS 1.2 cipher suites: نمونهٔ معتبر: ECDHE-RSA-AES128-GCM-SHA256؛ این گزینه cipherهای TLS 1.3 را تعیین نمی‌کند.\n• Disable GREASE: پیش‌فرض خاموش است؛ برای آزمایش سازگاری تغییرش دهید.\nهر بار فقط یک گزینه را تغییر دهید، Save profile بزنید و دوباره اتصال را آزمایش کنید. خالی بودن فیلدهای TLS یعنی استفاده از پیش‌فرض هسته.\n🧭 Verified edges گیت‌وی‌های شناخته‌شده را در اولویت می‌گذارد و مسیر را بررسی می‌کند؛ تضمین اتصال نیست.\n📦 این نسخه prerelease است. بسته‌های پنج پلتفرم ساخته و هستهٔ داخل هر ۱۰ نصب‌کننده بررسی شده است.\nپیش از حذف یا نصب مجدد، از Identity → Save a backup بکاپ بگیرید. اگر Core executable به هستهٔ قدیمی اشاره می‌کند، آن را خالی کنید تا هستهٔ همراه برنامه اجرا شود.\n\n⬇️ دانلود نسخهٔ جدید\n📚 راهنمای کامل فارسی",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i>  نسخه ازمایشی <b>WhiteAesther Desktop v1.10.0 منتشر شد</b><br><br>اگر ورژن قبلی برای شما کار میکند و مشکلی ندارید اپدیت نکنید <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br>هستهٔ برنامه به <b>Aether 2.3</b> ارتقا پیدا کرده و تنظیمات بیشتری برای آزمایش اتصال در شبکه‌های محدود در اختیار شماست.<br><br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> <b>تغییرات مهم</b><br>• پشتیبانی ECH روی MASQUE H2 و H3<br>• اضافه شدن <b>WireGuard over MASQUE</b><br>• تنظیم cipherهای TLS 1.2، گروه‌های تبادل کلید و GREASE<br>• تنظیم آدرس ثبت‌نام WARP و resolver/domain کلید ECH<br>• اضافه شدن <b>Verified edges</b> به جست‌وجوی گیت‌وی‌ها<br>• اصلاح Save دیرهنگام؛ ویرایش تازهٔ شما هنگام ذخیره بازنویسی نمی‌شود<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> <b>آموزش انتخاب پروتکل دلخواه</b><br>اگر با انتخاب H3 یا WireGuard باز هم برنامه روی H2 وصل می‌شود، احتمالاً انتخاب خودکار مسیر فعال است.<br>۱. اتصال را قطع کنید.<br>۲. وارد <b>Advanced → Routes &amp; transports</b> شوید.<br>۳. گزینهٔ <b>«راه خروج را برایم پیدا کن»</b> را خاموش کنید.<br>۴. carrier را روی <b>Aether</b> و مرحلهٔ دوم را روی <b>Nothing further</b> بگذارید.<br>۵. در <b>Protocol</b> روش دلخواه را انتخاب و دوباره وصل شوید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> در حالت Automatic، برنامه چند روش را امتحان می‌کند و مسیر برنده را انتخاب می‌کند. انتخاب Protocol در این حالت، برنامه را به همان روش محدود نمی‌کند.<br>برای ثابت ماندن H2 یا H3 حتی پس از شکست اتصال، <b>اتصال مجدد خودکار</b> را هم خاموش کنید؛ retryهای MASQUE می‌توانند بین این دو جابه‌جا شوند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> <b>آموزش تنظیم TLS و ECH</b><br>در همان صفحه، بخش <b>TLS and ECH</b> را باز کنید:<br>• <b>Encrypted Client Hello:</b> برای دریافت خودکار کلید، auto وارد کنید. خالی یا off یعنی خاموش.<br>• <b>ECH resolver:</b> خالی بگذارید تا هنگام ECH فعال، از DoH پیش‌فرض <a href=\"https://1.1.1.1/dns-query\" target=\"_blank\" rel=\"noopener\">https://1.1.1.1/dns-query</a> استفاده شود.<br>• <b>ECH key domain:</b> خالی یعنی پیش‌فرض <a href=\"http://cloudflare-ech.com/\" target=\"_blank\" rel=\"noopener\">cloudflare-ech.com</a>.<br>• <b>TLS groups:</b> نام گروه‌ها را با : جدا کنید؛ نمونه: X25519:P-256:P-384<br>• <b>TLS 1.2 cipher suites:</b> نمونهٔ معتبر: ECDHE-RSA-AES128-GCM-SHA256؛ این گزینه cipherهای TLS 1.3 را تعیین نمی‌کند.<br>• <b>Disable GREASE:</b> پیش‌فرض خاموش است؛ برای آزمایش سازگاری تغییرش دهید.<br>هر بار فقط یک گزینه را تغییر دهید، <b>Save profile</b> بزنید و دوباره اتصال را آزمایش کنید. خالی بودن فیلدهای TLS یعنی استفاده از پیش‌فرض هسته.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AD.png')\"><b>🧭</b></i> <b>Verified edges</b> گیت‌وی‌های شناخته‌شده را در اولویت می‌گذارد و مسیر را بررسی می‌کند؛ تضمین اتصال نیست.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> این نسخه <b>prerelease</b> است. بسته‌های پنج پلتفرم ساخته و هستهٔ داخل هر ۱۰ نصب‌کننده بررسی شده است.<br>پیش از حذف یا نصب مجدد، از <b>Identity → Save a backup</b> بکاپ بگیرید. اگر <b>Core executable</b> به هستهٔ قدیمی اشاره می‌کند، آن را خالی کنید تا هستهٔ همراه برنامه اجرا شود.</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> <a href=\"https://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.10.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ جدید</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939A.png')\"><b>📚</b></i> <a href=\"https://github.com/WhiteDNS/WhiteAesther/blob/v1.10.0/docs/AETHER-2.3.fa.md\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای کامل فارسی</a>",
+      "plain_text": "🚀 نسخه ازمایشی WhiteAesther Desktop v1.10.0 منتشر شد\n\nاگر ورژن قبلی برای شما کار میکند و مشکلی ندارید اپدیت نکنید ⚠️⚠️\n\nهستهٔ برنامه به Aether 2.3 ارتقا پیدا کرده و تنظیمات بیشتری برای آزمایش اتصال در شبکه‌های محدود در اختیار شماست.\n\n✨ تغییرات مهم\n• پشتیبانی ECH روی MASQUE H2 و H3\n• اضافه شدن WireGuard over MASQUE\n• تنظیم cipherهای TLS 1.2، گروه‌های تبادل کلید و GREASE\n• تنظیم آدرس ثبت‌نام WARP و resolver/domain کلید ECH\n• اضافه شدن Verified edges به جست‌وجوی گیت‌وی‌ها\n• اصلاح Save دیرهنگام؛ ویرایش تازهٔ شما هنگام ذخیره بازنویسی نمی‌شود\n📖 آموزش انتخاب پروتکل دلخواه\nاگر با انتخاب H3 یا WireGuard باز هم برنامه روی H2 وصل می‌شود، احتمالاً انتخاب خودکار مسیر فعال است.\n۱. اتصال را قطع کنید.\n۲. وارد Advanced → Routes & transports شوید.\n۳. گزینهٔ «راه خروج را برایم پیدا کن» را خاموش کنید.\n۴. carrier را روی Aether و مرحلهٔ دوم را روی Nothing further بگذارید.\n۵. در Protocol روش دلخواه را انتخاب و دوباره وصل شوید.\n💡 در حالت Automatic، برنامه چند روش را امتحان می‌کند و مسیر برنده را انتخاب می‌کند. انتخاب Protocol در این حالت، برنامه را به همان روش محدود نمی‌کند.\nبرای ثابت ماندن H2 یا H3 حتی پس از شکست اتصال، اتصال مجدد خودکار را هم خاموش کنید؛ retryهای MASQUE می‌توانند بین این دو جابه‌جا شوند.\n🔐 آموزش تنظیم TLS و ECH\nدر همان صفحه، بخش TLS and ECH را باز کنید:\n• Encrypted Client Hello: برای دریافت خودکار کلید، auto وارد کنید. خالی یا off یعنی خاموش.\n• ECH resolver: خالی بگذارید تا هنگام ECH فعال، از DoH پیش‌فرض https://1.1.1.1/dns-query استفاده شود.\n• ECH key domain: خالی یعنی پیش‌فرض cloudflare-ech.com.\n• TLS groups: نام گروه‌ها را با : جدا کنید؛ نمونه: X25519:P-256:P-384\n• TLS 1.2 cipher suites: نمونهٔ معتبر: ECDHE-RSA-AES128-GCM-SHA256؛ این گزینه cipherهای TLS 1.3 را تعیین نمی‌کند.\n• Disable GREASE: پیش‌فرض خاموش است؛ برای آزمایش سازگاری تغییرش دهید.\nهر بار فقط یک گزینه را تغییر دهید، Save profile بزنید و دوباره اتصال را آزمایش کنید. خالی بودن فیلدهای TLS یعنی استفاده از پیش‌فرض هسته.\n🧭 Verified edges گیت‌وی‌های شناخته‌شده را در اولویت می‌گذارد و مسیر را بررسی می‌کند؛ تضمین اتصال نیست.\n📦 این نسخه prerelease است. بسته‌های پنج پلتفرم ساخته و هستهٔ داخل هر ۱۰ نصب‌کننده بررسی شده است.\nپیش از حذف یا نصب مجدد، از Identity → Save a backup بکاپ بگیرید. اگر Core executable به هستهٔ قدیمی اشاره می‌کند، آن را خالی کنید تا هستهٔ همراه برنامه اجرا شود.\n\n⬇️ دانلود نسخهٔ جدید\n📚 راهنمای کامل فارسی",
       "media": [
         {
           "kind": "photo",
@@ -35,7 +35,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "9"
+          "count": "13"
         },
         {
           "emoji": "👏",
@@ -46,9 +46,9 @@
           "count": "1"
         }
       ],
-      "views_label": "685",
+      "views_label": "863",
       "posted_at": "2026-10-14T09:28:12+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/1962",
       "reply": null
     },
@@ -68,7 +68,7 @@
         },
         {
           "emoji": "❤",
-          "count": "104"
+          "count": "106"
         },
         {
           "emoji": "💯",
@@ -95,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.66K",
+      "views_label": "5.72K",
       "posted_at": "2026-10-14T04:21:19+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1959",
@@ -125,7 +125,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "100"
+          "count": "103"
         },
         {
           "emoji": "🍓",
@@ -164,7 +164,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.63K",
+      "views_label": "5.7K",
       "posted_at": "2026-10-14T04:13:07+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1957",
@@ -186,11 +186,11 @@
         },
         {
           "emoji": "❤",
-          "count": "140"
+          "count": "141"
         },
         {
           "emoji": "👍",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "😁",
@@ -213,7 +213,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.69K",
+      "views_label": "5.75K",
       "posted_at": "2026-10-14T02:51:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1956",
@@ -264,9 +264,13 @@
         {
           "emoji": "🕊",
           "count": "1"
+        },
+        {
+          "emoji": "🦄",
+          "count": "1"
         }
       ],
-      "views_label": "6.14K",
+      "views_label": "6.17K",
       "posted_at": "2026-10-14T02:44:09+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1955",
@@ -392,7 +396,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.83K",
+      "views_label": "6.84K",
       "posted_at": "2026-10-13T09:38:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1953",
@@ -672,7 +676,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.96K",
+      "views_label": "9.98K",
       "posted_at": "2026-10-11T14:46:12+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1947",
@@ -892,7 +896,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.2K",
+      "views_label": "12.3K",
       "posted_at": "2026-10-10T09:24:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1941",
