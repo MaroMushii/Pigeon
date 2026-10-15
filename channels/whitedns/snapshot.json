@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-15T23:02:41.559Z",
+  "fetched_at": "2026-10-15T23:07:39.021Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -20,8 +20,13 @@
       "body_html": "<a href=\"https://t.me/whitedns/1985\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">طبق این ویدیو</a> وارد WhiteVPN بشید، برید به قسمت تنظیمات، قسمت و بخش اتصال ها و سپس گزینه Fragment(تکه‌تکه سازی) رو فعال کنید<br><br>در بخش FinalMask مقادیر زیر رو تست کنید<br><br><blockquote expandable=\"\">#1 <br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"10-15\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"6-12\"], \"delays\": [\"1\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><blockquote expandable=\"\">#2 <br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"12-24\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"8-16\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><blockquote expandable=\"\">#3<br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"18-33\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-3\", \"lengths\": [\"9-16\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><blockquote expandable=\"\">#4 <br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"16-32\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-6\", \"lengths\": [\"4-8\"], \"delays\": [\"2-4\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><blockquote expandable=\"\">#5<br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"15-30\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"10-20\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><br>سپس دکمه اتصال رو بزنید و یکم صبر کنید<br><br><a href=\"https://t.me/LabAlan\" target=\"_blank\">@LabAlan</a>",
       "plain_text": "طبق این ویدیو وارد WhiteVPN بشید، برید به قسمت تنظیمات، قسمت و بخش اتصال ها و سپس گزینه Fragment(تکه‌تکه سازی) رو فعال کنید\n\nدر بخش FinalMask مقادیر زیر رو تست کنید\n\n#1\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"10-15\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"6-12\"], \"delays\": [\"1\"], \"maxSplit\": \"0\"}}]}\n\n#2\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"12-24\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"8-16\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}\n\n#3\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"18-33\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-3\", \"lengths\": [\"9-16\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}\n\n#4\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"16-32\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-6\", \"lengths\": [\"4-8\"], \"delays\": [\"2-4\"], \"maxSplit\": \"0\"}}]}\n\n#5\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"15-30\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"10-20\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}\n\n\nسپس دکمه اتصال رو بزنید و یکم صبر کنید\n\n@LabAlan",
       "media": [],
-      "reactions": [],
-      "views_label": "4",
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "9"
+        }
+      ],
+      "views_label": "373",
       "posted_at": "2026-10-15T23:01:59+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2000",
@@ -39,7 +44,7 @@
       "reactions": [
         {
           "emoji": "🤣",
-          "count": "543"
+          "count": "546"
         },
         {
           "emoji": "😁",
@@ -82,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.77K",
+      "views_label": "7.91K",
       "posted_at": "2026-10-15T15:57:08+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1999",
@@ -111,7 +116,7 @@
           "count": "4"
         }
       ],
-      "views_label": "7.85K",
+      "views_label": "7.97K",
       "posted_at": "2026-10-15T15:54:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1998",
@@ -152,7 +157,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.78K",
+      "views_label": "7.88K",
       "posted_at": "2026-10-15T15:51:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1996",
@@ -213,7 +218,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.07K",
+      "views_label": "7.16K",
       "posted_at": "2026-10-15T15:51:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1995",
@@ -270,7 +275,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.45K",
+      "views_label": "6.53K",
       "posted_at": "2026-10-15T14:42:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1994",
@@ -311,7 +316,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.11K",
+      "views_label": "7.19K",
       "posted_at": "2026-10-15T14:30:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1993",
@@ -344,7 +349,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.92K",
+      "views_label": "6.96K",
       "posted_at": "2026-10-15T14:26:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1992",
@@ -405,7 +410,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.46K",
+      "views_label": "7.5K",
       "posted_at": "2026-10-15T14:26:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1991",
@@ -450,7 +455,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.41K",
+      "views_label": "6.46K",
       "posted_at": "2026-10-15T14:23:31+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1988",
@@ -484,7 +489,7 @@
         },
         {
           "emoji": "❤",
-          "count": "145"
+          "count": "146"
         },
         {
           "emoji": "🍓",
@@ -507,7 +512,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.43K",
+      "views_label": "7.49K",
       "posted_at": "2026-10-15T14:21:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1987",
@@ -560,7 +565,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.44K",
+      "views_label": "9.46K",
       "posted_at": "2026-10-15T10:57:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1986",
@@ -682,7 +687,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.75K",
+      "views_label": "9.77K",
       "posted_at": "2026-10-15T07:20:53+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1980",
