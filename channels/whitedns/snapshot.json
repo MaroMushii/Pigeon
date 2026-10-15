@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-15T07:17:25.181Z",
+  "fetched_at": "2026-10-15T07:22:23.118Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -12,13 +12,47 @@
   },
   "posts": [
     {
+      "id": "whitedns/1980",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/DeuqcAdKuwQcgYrP8EGjfokTNaAvieasux392FhRHGCg3IIgJ0T57kN50rzIp3w211xRLKb6uj9KF87u5zPWrhJ2BUdQGZgxLl8OHu4-ZO4xlw0-874xk1tpBcPl-dcsSp6gYoOLC5hGqDpVMB5bsLPIWYfh06RccesrorOeVXfCDGX0_nMv0QUhJkhocBYHzRn_H6lpSvl3WoTwAFmUgArhY88je0zbSZCUqfl3nKev-XeX03-2S4gGvhoyxHnF4jOgnkQ1YJKFiIbpR26tI5F3hQ_JpxYA8u0w3YvpXQSQ-c0HUrVoeUULAA5te6dD7H-MIEaHLHxgUangyovMpQ.jpg",
+      "author_photo_path": "channels/whitedns/media/7fe5c6c4e17d93a319565cc7.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "",
+      "plain_text": "",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "🤩",
+          "count": "1"
+        }
+      ],
+      "views_label": "133",
+      "posted_at": "2026-10-15T07:20:53+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1980",
+      "reply": {
+        "channel_username": "whitedns",
+        "post_id": "1979",
+        "author_name": "White DNS",
+        "preview_text": "🌎 آپدیت مهم WhiteVPN 1.7.0 💬 قابلیت «Fragment» با الهام از پروژه‌ی Patterniha به صفحه‌ی اصلی اضافه شده. تنظیمات Fragment معرفی‌شده در این پروژه با WhiteVPN هم سازگاره و می‌تونید خیلی راحت یکی از پیشنهادها رو انتخاب و فعال کنید. برای تغییر تنظیمات هم کافیه…",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/s598MwXZorMO3_LuZ4l_gv9fDYXFHzEsxsUqACLq-imNowWs9f9XHuAC1S643ZKZiMKlGyUbFObsw9FHieRA9gm5iriGFHeSmE1Tt3wHiwNvqOAixu4OMYJKgxtOoC_dBLF7ltvbpNuC12GtR0Fss6SccZFZZwM0bmNp68WEj5xyMefqO8nHBYcOUzkbsvDCpcp9JfT7FmrsiVRT3oN5Fo9jnyQwW8aJcPl-UCbjfmWgbZ-YQN2BAL7_SDj5aQ3so8MIwYVkHlKQ0pw8dZ4n18zUhHI9-fh6Qn5KAAGEprtMMGgdv5LkEVa5ADAc3W2QKUYSs78vLnI9j6mIlVrugw.jpg",
+        "thumbnail_path": "channels/whitedns/media/d78ca0bed72826e1094044fa.jpg",
+        "thumbnail_sha256": "d6e6468f90c934cefa67513ce0a838cfb64262fabab6bd7c7670548399d75b9a",
+        "permalink": "https://t.me/whitedns/1979"
+      }
+    },
+    {
       "id": "whitedns/1979",
       "author_name": "White DNS",
       "author_photo_url": "https://cdn4.telesco.pe/file/DeuqcAdKuwQcgYrP8EGjfokTNaAvieasux392FhRHGCg3IIgJ0T57kN50rzIp3w211xRLKb6uj9KF87u5zPWrhJ2BUdQGZgxLl8OHu4-ZO4xlw0-874xk1tpBcPl-dcsSp6gYoOLC5hGqDpVMB5bsLPIWYfh06RccesrorOeVXfCDGX0_nMv0QUhJkhocBYHzRn_H6lpSvl3WoTwAFmUgArhY88je0zbSZCUqfl3nKev-XeX03-2S4gGvhoyxHnF4jOgnkQ1YJKFiIbpR26tI5F3hQ_JpxYA8u0w3YvpXQSQ-c0HUrVoeUULAA5te6dD7H-MIEaHLHxgUangyovMpQ.jpg",
       "author_photo_path": "channels/whitedns/media/7fe5c6c4e17d93a319565cc7.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5224450179368767019\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8E.png')\"><b>🌎</b></i></tg-emoji> <b>آپدیت مهم WhiteDNS 1.7.0</b><br><br><br><tg-emoji emoji-id=\"5443038326535759644\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji> قابلیت «Fragment» با الهام از پروژه‌ی Patterniha به صفحه‌ی اصلی اضافه شده. تنظیمات Fragment معرفی‌شده در این پروژه با WhiteVPN هم سازگاره و می‌تونید خیلی راحت یکی از پیشنهادها رو انتخاب و فعال کنید.<br><br><br>برای تغییر تنظیمات هم کافیه روی گزینه‌ی Fragment بزنید.<br><br><br>باید مشکل اتصال روی اپراتور همراه اول با یکی از تنظیمات فرگمنت براتون حل بشه. <br><br>کانال Patterniha: <a href=\"https://t.me/patt_channel_x\" target=\"_blank\">@patt_channel_x</a><br><br><b>اپ رو به‌روز کنید و نتیجه رو بهمون بگید.</b><br><br><br><a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.7.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.7.0</a>",
-      "plain_text": "🌎 آپدیت مهم WhiteDNS 1.7.0\n\n\n💬 قابلیت «Fragment» با الهام از پروژه‌ی Patterniha به صفحه‌ی اصلی اضافه شده. تنظیمات Fragment معرفی‌شده در این پروژه با WhiteVPN هم سازگاره و می‌تونید خیلی راحت یکی از پیشنهادها رو انتخاب و فعال کنید.\n\n\nبرای تغییر تنظیمات هم کافیه روی گزینه‌ی Fragment بزنید.\n\n\nباید مشکل اتصال روی اپراتور همراه اول با یکی از تنظیمات فرگمنت براتون حل بشه.\n\nکانال Patterniha: @patt_channel_x\n\nاپ رو به‌روز کنید و نتیجه رو بهمون بگید.\n\n\nhttps://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.7.0",
+      "body_html": "<tg-emoji emoji-id=\"5224450179368767019\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8E.png')\"><b>🌎</b></i></tg-emoji> <b>آپدیت مهم WhiteVPN 1.7.0</b><br><br><br><tg-emoji emoji-id=\"5443038326535759644\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji> قابلیت «Fragment» با الهام از پروژه‌ی Patterniha به صفحه‌ی اصلی اضافه شده. تنظیمات Fragment معرفی‌شده در این پروژه با WhiteVPN هم سازگاره و می‌تونید خیلی راحت یکی از پیشنهادها رو انتخاب و فعال کنید.<br><br><br>برای تغییر تنظیمات هم کافیه روی گزینه‌ی Fragment بزنید.<br><br><br>باید مشکل اتصال روی اپراتور همراه اول با یکی از تنظیمات فرگمنت براتون حل بشه. <br><br>کانال Patterniha: <a href=\"https://t.me/patt_channel_x\" target=\"_blank\">@patt_channel_x</a><br><br><b>اپ رو به‌روز کنید و نتیجه رو بهمون بگید.</b><br><br><br><a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.7.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.7.0</a>",
+      "plain_text": "🌎 آپدیت مهم WhiteVPN 1.7.0\n\n\n💬 قابلیت «Fragment» با الهام از پروژه‌ی Patterniha به صفحه‌ی اصلی اضافه شده. تنظیمات Fragment معرفی‌شده در این پروژه با WhiteVPN هم سازگاره و می‌تونید خیلی راحت یکی از پیشنهادها رو انتخاب و فعال کنید.\n\n\nبرای تغییر تنظیمات هم کافیه روی گزینه‌ی Fragment بزنید.\n\n\nباید مشکل اتصال روی اپراتور همراه اول با یکی از تنظیمات فرگمنت براتون حل بشه.\n\nکانال Patterniha: @patt_channel_x\n\nاپ رو به‌روز کنید و نتیجه رو بهمون بگید.\n\n\nhttps://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.7.0",
       "media": [
         {
           "kind": "photo",
@@ -35,14 +69,26 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "19"
+          "count": "32"
+        },
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
         },
         {
           "emoji": "👎",
           "count": "1"
         },
         {
-          "emoji": "🔥",
+          "emoji": "👏",
+          "count": "1"
+        },
+        {
+          "emoji": "🕊",
           "count": "1"
         },
         {
@@ -50,7 +96,7 @@
           "count": "1"
         }
       ],
-      "views_label": "723",
+      "views_label": "1.01K",
       "posted_at": "2026-10-15T07:10:40+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1979",
@@ -72,7 +118,7 @@
         },
         {
           "emoji": "❤",
-          "count": "237"
+          "count": "238"
         },
         {
           "emoji": "👏",
@@ -91,6 +137,10 @@
           "count": "1"
         },
         {
+          "emoji": "🕊",
+          "count": "1"
+        },
+        {
           "emoji": "🍓",
           "count": "1"
         },
@@ -103,7 +153,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.56K",
+      "views_label": "5.7K",
       "posted_at": "2026-10-15T02:03:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1978",
@@ -134,9 +184,13 @@
         {
           "emoji": "❤‍🔥",
           "count": "1"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "7.42K",
+      "views_label": "7.52K",
       "posted_at": "2026-10-14T21:09:18+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1977",
@@ -177,11 +231,15 @@
           "count": "1"
         },
         {
+          "emoji": "🕊",
+          "count": "1"
+        },
+        {
           "emoji": "😈",
           "count": "1"
         }
       ],
-      "views_label": "9.09K",
+      "views_label": "9.13K",
       "posted_at": "2026-10-14T17:18:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1976",
@@ -252,7 +310,7 @@
         },
         {
           "emoji": "👎",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "👏",
@@ -269,9 +327,13 @@
         {
           "emoji": "🔥",
           "count": "1"
+        },
+        {
+          "emoji": "🕊",
+          "count": "1"
         }
       ],
-      "views_label": "9.04K",
+      "views_label": "9.08K",
       "posted_at": "2026-10-14T17:16:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1972",
@@ -312,7 +374,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.81K",
+      "views_label": "8.85K",
       "posted_at": "2026-10-14T17:07:09+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1971",
@@ -345,7 +407,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.53K",
+      "views_label": "8.57K",
       "posted_at": "2026-10-14T16:37:09+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1970",
@@ -382,7 +444,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.4K",
+      "views_label": "8.45K",
       "posted_at": "2026-10-14T16:35:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1967",
@@ -427,7 +489,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.24K",
+      "views_label": "8.29K",
       "posted_at": "2026-10-14T16:35:07+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1966",
@@ -537,7 +599,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.37K",
+      "views_label": "9.39K",
       "posted_at": "2026-10-14T14:10:36+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1963",
@@ -5186,71 +5248,6 @@
       "posted_at": "2026-09-23T08:47:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1848",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1847",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/RBVZYLTafXcPRuu23QHSEMLaFPxVGu44ApcjTm-i1znrXF-1I6xmA-Q2Orw-eSu7cNwvyWWlEmaX_Wovcz4TBgyAa9HN1RqiyfkXWwMFyWjukyxD_kLXvGSI0LAuVkvYyvTq9TZa3zLS-ektJzIxV3w-BPc-lHfEjhGl0e-9LV3Jm8F25gZRNm-ODQotIMRqN8G1J9XEqQJKa4_cW-tHOEOWI0yzAVOIMbku9umxgBvjuBJv1Smx15Xz2gIL5UqIn32ENCpjImQMEY2ngwszomPZGKjqPtRDwvbBc1Cu4iqp6qV2QEE8M7r_hmrd8eIfouIvsOdvAoDZAoyID7xOMA.jpg",
-      "author_photo_path": "channels/whitedns/media/6fc266ca46b050a4ee2d5944.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7AA.png')\"><b>🧪</b></i> نسخهٔ آزمایشی whiteaesther desktop 1.9.7 pre-release <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> اتصال باید خیلی سریع‌تر شود<br><br><blockquote expandable=\"\">کلادفلر در همان جواب ثبت‌نام، آدرس دقیقی را که به دستگاه شما داده اعلام می‌کند. موتور آن را می‌خواند، ذخیره می‌کرد، و بعد نادیده می‌گرفت — و به‌جایش حدود ۲۵۰۰ آدرس را یکی‌یکی امتحان می‌کرد تا یکی جواب بدهد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9491.png')\"><b>🔑</b></i> و مشکل «دیگر نمی‌توانم ثبت‌نام کنم»<br><br>اگر تا حالا پیش آمده که بعد از چند بار نصب مجدد یا اتصال ناموفق، برنامه اصلاً نتوانسته شناسه بگیرد — این همان بود.<br><br>ثبت‌نام همان لحظه‌ای که سرور جواب می‌داد خرج می‌شد، ولی تا چند مرحله بعد روی دیسک ذخیره نمی‌شد. اگر وسطش چیزی قطع می‌شد، ثبت‌نام رفته بود ولی شمرده شده بود. و چون سهمیهٔ کلادفلر روی آی‌پی است، همین می‌توانست گوشی روی همان وای‌فای را هم از کار بیندازد.<br><br>حالا اول ذخیره می‌شود، بعد بقیهٔ کارها.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> و یک حالت خراب که دیگر ممکن نیست<br><br>قبلاً اگر با وایرگارد وصل بودید و MASQUE را امتحان می‌کردید، هیچ‌کدام دیگر کار نمی‌کرد. ساختار جدید طوری است که این وضعیت اصلاً قابل ساختن نیست.</blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود<br><a href=\"http://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.9.7\" target=\"_blank\" rel=\"noopener\">github.com/WhiteDNS/WhiteAesther/releases/tag/v1.9.7</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> نسخهٔ آزمایشی است — در فهرست به‌عنوان آخرین نسخه نشان داده نمی‌شود و برنامه خودکار پیشنهادش نمی‌دهد.<br><br>شناسهٔ فعلی‌تان خودش منتقل می‌شود؛ کاری لازم نیست بکنید و چیزی پاک نمی‌شود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i> اگر اتصال سریع‌تر نشد، یا هر چیز عجیبی دیدید، بگویید.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🧪 نسخهٔ آزمایشی whiteaesther desktop 1.9.7 pre-release\n\n⚡️ اتصال باید خیلی سریع‌تر شود\n\nکلادفلر در همان جواب ثبت‌نام، آدرس دقیقی را که به دستگاه شما داده اعلام می‌کند. موتور آن را می‌خواند، ذخیره می‌کرد، و بعد نادیده می‌گرفت — و به‌جایش حدود ۲۵۰۰ آدرس را یکی‌یکی امتحان می‌کرد تا یکی جواب بدهد.\n\n🔑 و مشکل «دیگر نمی‌توانم ثبت‌نام کنم»\n\nاگر تا حالا پیش آمده که بعد از چند بار نصب مجدد یا اتصال ناموفق، برنامه اصلاً نتوانسته شناسه بگیرد — این همان بود.\n\nثبت‌نام همان لحظه‌ای که سرور جواب می‌داد خرج می‌شد، ولی تا چند مرحله بعد روی دیسک ذخیره نمی‌شد. اگر وسطش چیزی قطع می‌شد، ثبت‌نام رفته بود ولی شمرده شده بود. و چون سهمیهٔ کلادفلر روی آی‌پی است، همین می‌توانست گوشی روی همان وای‌فای را هم از کار بیندازد.\n\nحالا اول ذخیره می‌شود، بعد بقیهٔ کارها.\n\n🛡 و یک حالت خراب که دیگر ممکن نیست\n\nقبلاً اگر با وایرگارد وصل بودید و MASQUE را امتحان می‌کردید، هیچ‌کدام دیگر کار نمی‌کرد. ساختار جدید طوری است که این وضعیت اصلاً قابل ساختن نیست.\n\n📥 دانلود\ngithub.com/WhiteDNS/WhiteAesther/releases/tag/v1.9.7\n\n⚠️ نسخهٔ آزمایشی است — در فهرست به‌عنوان آخرین نسخه نشان داده نمی‌شود و برنامه خودکار پیشنهادش نمی‌دهد.\n\nشناسهٔ فعلی‌تان خودش منتقل می‌شود؛ کاری لازم نیست بکنید و چیزی پاک نمی‌شود.\n\n💬 اگر اتصال سریع‌تر نشد، یا هر چیز عجیبی دیدید، بگویید.\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1847",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/M2mxgeOcIPiKTgvj2KMRqbBMVpPgEc2OEVtI1m3q_89WQc-ap9Fk9aToTMucOC8PLqJf35f94SAG2pjomFuxaNZtTiy2CsR5PorhhGnhlooKT0PovFaYWZ8IQ9SPEJ_D8aTz6pzidHNBRxf_x5D79qlWTfYJd8N8Sjstposnhnz00vboM2orTmxU7uZHlUIn4AjfW0s2kXyOIPaYDH1JyO6-YFjbHc9Yy5HRreh6zoYh6MrJgMjU6M0ZtvM-stAND7gfjTNrXXerMr_0uJ11JuvuwKnfxHWxJw1Gdd0YmZ--g-wDLAXKREEgXQ_48NIgmcGaAbB6FSO2cFxZZMKj0g.jpg",
-          "thumbnail_path": "channels/whitedns/media/98ac45a9fa3f28f5bd3ecbb3.jpg",
-          "thumbnail_sha256": "5abb1d0307f1a650fee584ffe52c2310391a6aede2fcb2aee57bb347940fe2e0",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "119"
-        },
-        {
-          "emoji": "👍",
-          "count": "9"
-        },
-        {
-          "emoji": "😍",
-          "count": "3"
-        },
-        {
-          "emoji": "🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🥱",
-          "count": "1"
-        },
-        {
-          "emoji": "🥴",
-          "count": "1"
-        },
-        {
-          "emoji": "💘",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "12.1K",
-      "posted_at": "2026-09-23T08:35:06+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1847",
       "reply": null
     }
   ]
