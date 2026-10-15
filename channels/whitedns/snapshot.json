@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-15T22:57:48.076Z",
+  "fetched_at": "2026-10-15T23:02:41.559Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,22 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/2000",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Tg1WXW_5jOqvFhvqiBInOl0qf3yoEbeDz4Jw5jH-jhgQzZpb1u2ipk8X7LcbkGRaKeUobLiSDiMno7MxrByaVA68YBxFR_nkukrlqVTVyrr5RnObVZ46Bc2yQOSA59iG3BDBm5whnm-ZbrdrtjbyuXoMsONb_RvI-9J3akjQOvs1npt7olzFJHqklGOY9Sono3neHQuH2adjbb-NjhxnSsDseCxawiu0pETUSN5-aMh7TikYruULRsCUiXcSS5Aw7Xfz7hzatakL7DsktKd2frWa1ZSHvqoknGl-esO0REvx8MxtCUFg_V8loONMrW-p3xrZYEKLNkRWhUZoqauegQ.jpg",
+      "author_photo_path": "channels/whitedns/media/7bd962eed66a5241e59d7b52.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<a href=\"https://t.me/whitedns/1985\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">طبق این ویدیو</a> وارد WhiteVPN بشید، برید به قسمت تنظیمات، قسمت و بخش اتصال ها و سپس گزینه Fragment(تکه‌تکه سازی) رو فعال کنید<br><br>در بخش FinalMask مقادیر زیر رو تست کنید<br><br><blockquote expandable=\"\">#1 <br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"10-15\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"6-12\"], \"delays\": [\"1\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><blockquote expandable=\"\">#2 <br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"12-24\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"8-16\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><blockquote expandable=\"\">#3<br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"18-33\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-3\", \"lengths\": [\"9-16\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><blockquote expandable=\"\">#4 <br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"16-32\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-6\", \"lengths\": [\"4-8\"], \"delays\": [\"2-4\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><blockquote expandable=\"\">#5<br><br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"15-30\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"10-20\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}</code></blockquote><br><br><br>سپس دکمه اتصال رو بزنید و یکم صبر کنید<br><br><a href=\"https://t.me/LabAlan\" target=\"_blank\">@LabAlan</a>",
+      "plain_text": "طبق این ویدیو وارد WhiteVPN بشید، برید به قسمت تنظیمات، قسمت و بخش اتصال ها و سپس گزینه Fragment(تکه‌تکه سازی) رو فعال کنید\n\nدر بخش FinalMask مقادیر زیر رو تست کنید\n\n#1\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"10-15\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"6-12\"], \"delays\": [\"1\"], \"maxSplit\": \"0\"}}]}\n\n#2\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"12-24\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"8-16\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}\n\n#3\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"18-33\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-3\", \"lengths\": [\"9-16\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}\n\n#4\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"16-32\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-6\", \"lengths\": [\"4-8\"], \"delays\": [\"2-4\"], \"maxSplit\": \"0\"}}]}\n\n#5\n\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"15-30\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-2\", \"lengths\": [\"10-20\"], \"delays\": [\"1-2\"], \"maxSplit\": \"0\"}}]}\n\n\nسپس دکمه اتصال رو بزنید و یکم صبر کنید\n\n@LabAlan",
+      "media": [],
+      "reactions": [],
+      "views_label": "4",
+      "posted_at": "2026-10-15T23:01:59+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2000",
+      "reply": null
+    },
     {
       "id": "whitedns/1999",
       "author_name": "White DNS",
@@ -23,7 +39,7 @@
       "reactions": [
         {
           "emoji": "🤣",
-          "count": "541"
+          "count": "543"
         },
         {
           "emoji": "😁",
@@ -66,7 +82,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.74K",
+      "views_label": "7.77K",
       "posted_at": "2026-10-15T15:57:08+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1999",
@@ -95,7 +111,7 @@
           "count": "4"
         }
       ],
-      "views_label": "7.82K",
+      "views_label": "7.85K",
       "posted_at": "2026-10-15T15:54:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1998",
@@ -136,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.77K",
+      "views_label": "7.78K",
       "posted_at": "2026-10-15T15:51:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1996",
@@ -197,7 +213,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.05K",
+      "views_label": "7.07K",
       "posted_at": "2026-10-15T15:51:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1995",
@@ -254,7 +270,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.44K",
+      "views_label": "6.45K",
       "posted_at": "2026-10-15T14:42:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1994",
@@ -272,7 +288,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "68"
+          "count": "69"
         },
         {
           "emoji": "🔥",
@@ -295,7 +311,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.1K",
+      "views_label": "7.11K",
       "posted_at": "2026-10-15T14:30:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1993",
@@ -328,7 +344,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.91K",
+      "views_label": "6.92K",
       "posted_at": "2026-10-15T14:26:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1992",
@@ -389,7 +405,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.45K",
+      "views_label": "7.46K",
       "posted_at": "2026-10-15T14:26:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1991",
@@ -434,7 +450,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.4K",
+      "views_label": "6.41K",
       "posted_at": "2026-10-15T14:23:31+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1988",
@@ -491,7 +507,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.42K",
+      "views_label": "7.43K",
       "posted_at": "2026-10-15T14:21:36+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1987",
@@ -544,7 +560,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.43K",
+      "views_label": "9.44K",
       "posted_at": "2026-10-15T10:57:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1986",
@@ -5086,79 +5102,6 @@
       "posted_at": "2026-09-27T11:26:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1870",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1869",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/Rji-R79DuVbL6sPCwcDAcSGz0KB6oIlZl2rK-ztXAPefwzPsiOMXsxeXC3VUDK5DDQIkECm-o-eEuBBBASA6mFjt6D-4b6-_PSzyokh8IfkzLnlvSw2oHPQHITYRnZS65XCtSp_asOEwfERrTradleQORv-GSlyy_iZbG1nI5u6bUsRGYvsPmPC-TOA_5EyA4_c-BvhDbTXUvmwdCrF4GMQIrwVi1sJR9kxqr-q2ojJHeLZ5VFDJLJMWk3ZQsMg0NMp_HtU4-fCSEbjKwfZvN9sUrluQJR7qt2fWlJlN2Wcc9uW33ngrxEbwONqZ3u2oUq0KIgOz6YVwoajwKqgDgA.jpg",
-      "author_photo_path": "channels/whitedns/media/23be8a1f79a24e994b6ea700.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A2.png')\"><b>📢</b></i> اطلاعیه پایان فعالیت ربات <a href=\"https://t.me/WhiteDnsResponder_bot\" target=\"_blank\">@WhiteDnsResponder_bot</a><br><br>کاربران و همراهان عزیز،<br><br>به اطلاع می‌رسانیم که فعالیت این ربات و خدمات مرتبط با آن از امروز به‌طور کامل متوقف می‌شود و پس از این، هیچ‌گونه سرویس، پاسخ‌گویی یا پشتیبانی از طریق این ربات ارائه نخواهد شد.<br><br>از اعتماد، همراهی و بازخوردهای ارزشمند شما در تمام این مدت صمیمانه سپاسگزاریم. حضور شما نقش مهمی در مسیر فعالیت این پروژه داشت.<br><br>با آرزوی بهترین‌ها برای همه شما <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8CB9.png')\"><b>🌹</b></i><br><br>تیم WhiteDNS<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "📢 اطلاعیه پایان فعالیت ربات @WhiteDnsResponder_bot\n\nکاربران و همراهان عزیز،\n\nبه اطلاع می‌رسانیم که فعالیت این ربات و خدمات مرتبط با آن از امروز به‌طور کامل متوقف می‌شود و پس از این، هیچ‌گونه سرویس، پاسخ‌گویی یا پشتیبانی از طریق این ربات ارائه نخواهد شد.\n\nاز اعتماد، همراهی و بازخوردهای ارزشمند شما در تمام این مدت صمیمانه سپاسگزاریم. حضور شما نقش مهمی در مسیر فعالیت این پروژه داشت.\n\nبا آرزوی بهترین‌ها برای همه شما 🌹\n\nتیم WhiteDNS\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1869",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/AmKF2INEXr2ZyWUJESE0Ck09LG_udroLNFprqRvE-gOD_XqFzqXmhYfifvX9yoZlXh9MiJCMsguWYWfQn7gE4vtKvao7mXqxf0mdRyqJ7tDXI4ggqGYKhqgu1bt54iTZnKRXwmZX8n1WRIwMWIxg4Lh9dudhmR7tDkd5iRbQ05ddZ1LeR2SEVm_PAoJhaf0bgrlYc56OuMsIt5rCcGKu25pQG3h-Ug1bE7jJIs-Bna7E2HoarVsieHW23XEBl0WmEtEB3kiF09C1WL-RMlyDMLKfeGtOeXpLbPEnTutvvRXUpuQAWzXoWq4YYgEXUWfPcGanPSwiwv8AtZ5Z4xLGUQ.jpg",
-          "thumbnail_path": "channels/whitedns/media/d7062341edee70342b380e80.jpg",
-          "thumbnail_sha256": "58c95aa0562e965a5aa0daf19b61a9d6e573d206da5ba026d379d469b796c274",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "411"
-        },
-        {
-          "emoji": "💔",
-          "count": "82"
-        },
-        {
-          "emoji": "👍",
-          "count": "15"
-        },
-        {
-          "emoji": "🤣",
-          "count": "14"
-        },
-        {
-          "emoji": "🙏",
-          "count": "13"
-        },
-        {
-          "emoji": "😢",
-          "count": "11"
-        },
-        {
-          "emoji": "🕊",
-          "count": "5"
-        },
-        {
-          "emoji": "🆒",
-          "count": "3"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        },
-        {
-          "emoji": "🤝",
-          "count": "2"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "1"
-        }
-      ],
-      "views_label": "21.3K",
-      "posted_at": "2026-09-26T15:46:07+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1869",
       "reply": null
     }
   ]
