@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-15T14:18:03.559Z",
+  "fetched_at": "2026-10-15T14:22:43.364Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/1987",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/DeuqcAdKuwQcgYrP8EGjfokTNaAvieasux392FhRHGCg3IIgJ0T57kN50rzIp3w211xRLKb6uj9KF87u5zPWrhJ2BUdQGZgxLl8OHu4-ZO4xlw0-874xk1tpBcPl-dcsSp6gYoOLC5hGqDpVMB5bsLPIWYfh06RccesrorOeVXfCDGX0_nMv0QUhJkhocBYHzRn_H6lpSvl3WoTwAFmUgArhY88je0zbSZCUqfl3nKev-XeX03-2S4gGvhoyxHnF4jOgnkQ1YJKFiIbpR26tI5F3hQ_JpxYA8u0w3YvpXQSQ-c0HUrVoeUULAA5te6dD7H-MIEaHLHxgUangyovMpQ.jpg",
+      "author_photo_path": "channels/whitedns/media/7fe5c6c4e17d93a319565cc7.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<b>تغییرات نسخه 2.0.8</b> ,UAC SNI Spoofer <br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> موتور ۱: Xray</b><br><b>اتصال با یک دکمه، بدون نیاز به کانفیگ:</b> برنامه اپراتورت رو تشخیص می‌ده (همراه اول، ایرانسل یا رایتل)، هر روز جدیدترین کانفیگ‌ها رو می‌گیره، ده‌ها کانفیگ رو در چند ثانیه تست می‌کنه و به سریع‌ترینش وصل می‌شه<br><b>پشتیبانی از ECH و جابه‌جایی خودکار:</b> اگه کانفیگ فعلی از کار بیفته، بی‌صدا به کانفیگ بعدی وصل می‌شه<br><b>افزایش سرعت وب‌گردی:</b> سایت‌های ایرانی مستقیم، کش هوشمند DNS، TCP Fast Open، بافر بزرگ‌تر برای ویدیو و آماده‌سازی اتصال با روشن شدن صفحه<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA785.png')\"><b>🧅</b></i> موتور ۲: Tor</b><br><b>عبور از فیلتر با پل‌های WebTunnel</b><br><b>خروجی هوشمند:</b> اتصال خودکار به نزدیک‌ترین و سریع‌ترین کشورهای اروپایی<br><b>پایداری بیشتر:</b> دیگه بی‌دلیل مسیر عوض نمی‌شه و سرعت بالاتره<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> موتور ۳: UAC PoW</b><br><b>هسته‌ی اختصاصی Aether:</b> نوشته‌شده با Rust برای عبور از DPI<br><b>WARP روی MASQUE HTTP/2 و Psiphon:</b> یه IP تمیز با کشور دلخواه، تا سایت‌ها بلاکت نکنن<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F97BA.png')\"><b>🗺</b></i> مسیر زنده (Live Route)</b><br>کل مسیر اتصال رو لحظه‌به‌لحظه ببین: هر مرحله، هر قابلیتی که روشنه، سرور، پینگ، کشور خروجی و مشخصات کامل کانفیگ<br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> تنظیمات (Settings)</b><br><b>تنظیمات اختصاصی هر موتور:</b> صفحه‌ی مرتب و دسته‌بندی‌شده، فقط با گزینه‌های کاربردی و توضیح ساده برای همه<br><b>تنظیمات کلی:</b> بین هر سه موتور مشترکه<br><br><a href=\"https://github.com/Floxu1/UAC-SNI-Spoofer-Android/releases\" target=\"_blank\" rel=\"noopener\">https://github.com/Floxu1/UAC-SNI-Spoofer-Android/releases</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "تغییرات نسخه 2.0.8 ,UAC SNI Spoofer\n⚡️ موتور ۱: Xray\nاتصال با یک دکمه، بدون نیاز به کانفیگ: برنامه اپراتورت رو تشخیص می‌ده (همراه اول، ایرانسل یا رایتل)، هر روز جدیدترین کانفیگ‌ها رو می‌گیره، ده‌ها کانفیگ رو در چند ثانیه تست می‌کنه و به سریع‌ترینش وصل می‌شه\nپشتیبانی از ECH و جابه‌جایی خودکار: اگه کانفیگ فعلی از کار بیفته، بی‌صدا به کانفیگ بعدی وصل می‌شه\nافزایش سرعت وب‌گردی: سایت‌های ایرانی مستقیم، کش هوشمند DNS، TCP Fast Open، بافر بزرگ‌تر برای ویدیو و آماده‌سازی اتصال با روشن شدن صفحه\n🧅 موتور ۲: Tor\nعبور از فیلتر با پل‌های WebTunnel\nخروجی هوشمند: اتصال خودکار به نزدیک‌ترین و سریع‌ترین کشورهای اروپایی\nپایداری بیشتر: دیگه بی‌دلیل مسیر عوض نمی‌شه و سرعت بالاتره\n🛡 موتور ۳: UAC PoW\nهسته‌ی اختصاصی Aether: نوشته‌شده با Rust برای عبور از DPI\nWARP روی MASQUE HTTP/2 و Psiphon: یه IP تمیز با کشور دلخواه، تا سایت‌ها بلاکت نکنن\n🗺 مسیر زنده (Live Route)\nکل مسیر اتصال رو لحظه‌به‌لحظه ببین: هر مرحله، هر قابلیتی که روشنه، سرور، پینگ، کشور خروجی و مشخصات کامل کانفیگ\n⚙️ تنظیمات (Settings)\nتنظیمات اختصاصی هر موتور: صفحه‌ی مرتب و دسته‌بندی‌شده، فقط با گزینه‌های کاربردی و توضیح ساده برای همه\nتنظیمات کلی: بین هر سه موتور مشترکه\n\nhttps://github.com/Floxu1/UAC-SNI-Spoofer-Android/releases\n\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/1987",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/SFSou74nMsLMi23suLUDWGBbZ2miunsoWplCGQI6qhGPwR9sc5iUukj91aPmB_81OxYRxXgUpnp1tIDNhOJLd2psbL5f3-aGenNog7swOrLaBLpnb69VHyn43eKQkJc906ri3j8ki6qrtnt2xZzee-Ic3voslsxYlK8ZmxXgVYPy_gRFViT2li1OghoNjhPR16Fx6aOSoAXR4DLoA2FH2Pp7KngEQbFSqL7dy2jfx-mWZR-2Z6vuSTcsMagA1sOVoE4-ouc5v_KGMZetNEeGRLvj9xu-2zMDR-m1othVCiz8f7Ha6UqZzmc0bobTI6NfDlhxvpIwajwidWXhSePPaw.jpg",
+          "thumbnail_path": "channels/whitedns/media/4532f723804ed2946a473018.jpg",
+          "thumbnail_sha256": "ff6f59f186a9156b39e41ae2d0aa126e3cfd77c8be592bd48b17da5fc28ead1d",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "🍓",
+          "count": "1"
+        }
+      ],
+      "views_label": "1",
+      "posted_at": "2026-10-15T14:21:36+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/1987",
+      "reply": null
+    },
     {
       "id": "whitedns/1986",
       "author_name": "White DNS",
@@ -35,11 +72,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "95"
+          "count": "97"
         },
         {
           "emoji": "❤",
-          "count": "27"
+          "count": "28"
         },
         {
           "emoji": "🙏",
@@ -58,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.49K",
+      "views_label": "6.62K",
       "posted_at": "2026-10-15T10:57:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1986",
@@ -127,7 +164,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.54K",
+      "views_label": "8.63K",
       "posted_at": "2026-10-15T07:24:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1985",
@@ -180,7 +217,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.86K",
+      "views_label": "7.94K",
       "posted_at": "2026-10-15T07:20:53+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1980",
@@ -258,7 +295,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.68K",
+      "views_label": "7.72K",
       "posted_at": "2026-10-15T07:10:40+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1979",
@@ -323,7 +360,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.77K",
+      "views_label": "8.79K",
       "posted_at": "2026-10-15T02:03:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1978",
@@ -364,7 +401,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.74K",
+      "views_label": "9.75K",
       "posted_at": "2026-10-14T21:09:18+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1977",
@@ -581,7 +618,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.47K",
+      "views_label": "9.48K",
       "posted_at": "2026-10-14T16:37:09+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1970",
@@ -618,7 +655,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.7K",
+      "views_label": "9.71K",
       "posted_at": "2026-10-14T16:35:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1967",
@@ -5222,67 +5259,6 @@
       "posted_at": "2026-09-24T14:56:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1852",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1851",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/RBVZYLTafXcPRuu23QHSEMLaFPxVGu44ApcjTm-i1znrXF-1I6xmA-Q2Orw-eSu7cNwvyWWlEmaX_Wovcz4TBgyAa9HN1RqiyfkXWwMFyWjukyxD_kLXvGSI0LAuVkvYyvTq9TZa3zLS-ektJzIxV3w-BPc-lHfEjhGl0e-9LV3Jm8F25gZRNm-ODQotIMRqN8G1J9XEqQJKa4_cW-tHOEOWI0yzAVOIMbku9umxgBvjuBJv1Smx15Xz2gIL5UqIn32ENCpjImQMEY2ngwszomPZGKjqPtRDwvbBc1Cu4iqp6qV2QEE8M7r_hmrd8eIfouIvsOdvAoDZAoyID7xOMA.jpg",
-      "author_photo_path": "channels/whitedns/media/6fc266ca46b050a4ee2d5944.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "آمار اتصال ها داره برمیگرده به حالت عادی <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i>",
-      "plain_text": "آمار اتصال ها داره برمیگرده به حالت عادی ❤️",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "451"
-        },
-        {
-          "emoji": "👍",
-          "count": "20"
-        },
-        {
-          "emoji": "🍓",
-          "count": "17"
-        },
-        {
-          "emoji": "👎",
-          "count": "13"
-        },
-        {
-          "emoji": "🔥",
-          "count": "13"
-        },
-        {
-          "emoji": "👏",
-          "count": "4"
-        },
-        {
-          "emoji": "🕊",
-          "count": "3"
-        },
-        {
-          "emoji": "🍾",
-          "count": "3"
-        },
-        {
-          "emoji": "😍",
-          "count": "2"
-        },
-        {
-          "emoji": "💘",
-          "count": "2"
-        },
-        {
-          "emoji": "🤩",
-          "count": "1"
-        }
-      ],
-      "views_label": "18.3K",
-      "posted_at": "2026-09-23T10:00:50+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1851",
       "reply": null
     }
   ]
