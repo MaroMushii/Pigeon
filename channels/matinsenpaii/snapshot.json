@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-16T20:52:23.510Z",
+  "fetched_at": "2026-10-16T20:56:27.426Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5594",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/sxMUg81LaUpy0vs8Iy7OPl0o_huOe1WH22WHw_tXFUI2upO99pWz6SXsscNmOLvLqerSvEBFy7wTjWTI8ZFspPYWuo4VZPYoJQzD_i9F_wvxt9GnCUjRxfh0sQzogDbIC9YXKF2TIe-DMGHaGGAGNbrfb7ooMyu3b52HNDmC3MAf1cziS0ZHFwMHAbCMOKhbPWEXhm8HHegWPiD3Ls3pdt89kQku8Lz_9UJZtFnjskkqz25BhvrO9EinKvlFogYu6vSiJ5Y1uAobF0zzWz5sGnotQ5sV1vo9cbz1Bsqb3wVP-AJs9cVzsD4h-9OjOA89lxf7dblchct1ugxhJ_Mn5A.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/78da8759f7c823053c80ce13.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "اگر روی 9Router ارور <br><code>HTTP 403: [403]: {\"type\":\"error\",\"error\":{\"type\":\"FreeTierError\",\"message\":\"Error from provider (Console): OpenCode's free tier can only be used from within OpenCode\"}}</code><br>می‌گیرید از اوپن کد، علتش آپدیت نبودن 9Routerتون هست.<br><br>برای آپدیت کسایی که با npm نصب کردن، از دستور<br><pre>npm i -g 9router@latest --prefer-online</pre><br>استفاده کنن، و کسایی هم که با داکر نصب کردن از<br><pre>docker pull decolua/9router:latest<br><br>docker rm -f 9router<br><br>docker run -d \\<br>  --name 9router \\<br>  -p 20128:20128 \\<br>  -v \"$HOME/.9router:/app/data\" \\<br>  -e DATA_DIR=/app/data \\<br>  -e JWT_SECRET=\"change-this-to-a-long-random-secret\" \\<br>  -e INITIAL_PASSWORD=\"your-strong-dashboard-password\" \\<br>  decolua/9router:latest</pre><br>استفاده کنن(با پسوورد و JWT دلخواه برای JWT_SECRET و INITIAL_PASSWORD)",
+      "plain_text": "اگر روی 9Router ارور\nHTTP 403: [403]: {\"type\":\"error\",\"error\":{\"type\":\"FreeTierError\",\"message\":\"Error from provider (Console): OpenCode's free tier can only be used from within OpenCode\"}}\nمی‌گیرید از اوپن کد، علتش آپدیت نبودن 9Routerتون هست.\n\nبرای آپدیت کسایی که با npm نصب کردن، از دستور\nnpm i -g 9router@latest --prefer-online\nاستفاده کنن، و کسایی هم که با داکر نصب کردن از\ndocker pull decolua/9router:latest\n\ndocker rm -f 9router\n\ndocker run -d \\\n--name 9router \\\n-p 20128:20128 \\\n-v \"$HOME/.9router:/app/data\" \\\n-e DATA_DIR=/app/data \\\n-e JWT_SECRET=\"change-this-to-a-long-random-secret\" \\\n-e INITIAL_PASSWORD=\"your-strong-dashboard-password\" \\\ndecolua/9router:latest\nاستفاده کنن(با پسوورد و JWT دلخواه برای JWT_SECRET و INITIAL_PASSWORD)",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5594",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/kiu-6OxH_XWQyPG03mVq8TO0ipGfPFhKu75IQ9VlKrXYAr5qj3X7FQ9_6A6SO4GWULe7qzC2-7jTTMlO8qDrddsqNdRO8UUUuueNW8gdPn928mJsnlMPSJtAzepD-b1DXu_i-O_JX-yUNgQgpqH_yfEodsqJlVoOkhE5yuf_KX8kDuubmx5MdQ_w_DAT88l4Y5jiHfvaGrW_CJOfoqqQVbs-G4QYLLpC36Tf7JsaIukZ2QvwzsTegsJIOz9ik2nlSD1OrvUxybN7Za5sKAXwa7RoHc3970evaC06VmO1BMlwNxHXI3sWkpAH88xuZCyVUyTzUOZco9rTgW5v8FAPeA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/9923b2d49238227af53679ff.jpg",
+          "thumbnail_sha256": "5164f69b6cef6d6b56968bae6e10d5478a056637f338d635988bb09ce1fea061",
+          "duration_label": null,
+          "aspect_ratio": 1.6326530612244898
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "541",
+      "posted_at": "2026-10-16T20:55:35+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5594",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5592",
       "author_name": "Matin SenPai",
@@ -50,7 +83,7 @@
         },
         {
           "emoji": "❤",
-          "count": "166"
+          "count": "170"
         },
         {
           "emoji": "💔",
@@ -69,7 +102,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.3K",
+      "views_label": "13.4K",
       "posted_at": "2026-10-16T17:41:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5592",
@@ -108,7 +141,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "168"
+          "count": "169"
         },
         {
           "emoji": "💔",
@@ -121,9 +154,13 @@
         {
           "emoji": "😁",
           "count": "3"
+        },
+        {
+          "emoji": "💯",
+          "count": "1"
         }
       ],
-      "views_label": "16.5K",
+      "views_label": "16.6K",
       "posted_at": "2026-10-16T16:32:34+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5591",
@@ -156,7 +193,7 @@
           "count": "4"
         }
       ],
-      "views_label": "22.6K",
+      "views_label": "22.7K",
       "posted_at": "2026-10-16T10:44:48+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5590",
@@ -306,7 +343,7 @@
           "count": "4"
         }
       ],
-      "views_label": "22.8K",
+      "views_label": "22.9K",
       "posted_at": "2026-10-16T06:50:45+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5586",
@@ -331,7 +368,7 @@
           "count": "16"
         }
       ],
-      "views_label": "23.2K",
+      "views_label": "23.3K",
       "posted_at": "2026-10-16T06:48:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5585",
@@ -434,7 +471,7 @@
           "count": "2"
         }
       ],
-      "views_label": "27.9K",
+      "views_label": "28K",
       "posted_at": "2026-10-15T18:59:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5583",
@@ -487,7 +524,7 @@
           "count": "2"
         }
       ],
-      "views_label": "32.5K",
+      "views_label": "32.6K",
       "posted_at": "2026-10-14T19:00:43+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5582",
@@ -547,7 +584,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "290"
+          "count": "291"
         },
         {
           "emoji": "💔",
@@ -597,7 +634,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "545"
+          "count": "546"
         },
         {
           "emoji": "😁",
@@ -620,7 +657,7 @@
           "count": "1"
         }
       ],
-      "views_label": "38.9K",
+      "views_label": "39K",
       "posted_at": "2026-10-14T10:14:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5579",
@@ -670,7 +707,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "617"
+          "count": "618"
         },
         {
           "emoji": "👍",
@@ -4418,59 +4455,6 @@
       "posted_at": "2026-10-03T18:45:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5493",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5492",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/uAj2DTXDjAe4pRFL24yBkLMkxRmUc2UWoYthDhPYXSFTZcAJTe3Zb1HcmiLJHYAkIJLXZxRCpL0u0oLzeAdfi6iJ-vrnfB6atwwWWwI5A0c2wda5HqcEPcCa8VPqgrzirRZQL4CS7fwjTm3C9f_2DeR7Fp7BZbRJJVEG6CgUlEoEg0QGnbbL2CiwAEYJ2916EdZ2RqRM2L0mNzw5X83ExOKqSSNJ-uk09hnrUpm9TruHAtDQBc6EpRFhl5BwxHUD2bFXAknvgsilxJ1ryZ_c45TDVa9_TMts_V1TqUFudfhmdFvCb6tZd9IHFJMtVcx2YbierMI6Nj_htRbkF80Jfw.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/ffec9d859c75faf6e4fe0412.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "نسخه دسکتاپ Cline برای لینوکس، منتشر شد<br>روی Cline می‌تونید از مدلهایی نظیر <br>Muse spark 1.3<br>Deepseek 4.1 flash<br>Mimo 2.6 flash<br>به رایگان برای کدنویسی استفاده کنید<br><a href=\"https://cline.bot/desktop\" target=\"_blank\" rel=\"noopener\">https://cline.bot/desktop</a><br>ویندوز، مک و لینوکس<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "نسخه دسکتاپ Cline برای لینوکس، منتشر شد\nروی Cline می‌تونید از مدلهایی نظیر\nMuse spark 1.3\nDeepseek 4.1 flash\nMimo 2.6 flash\nبه رایگان برای کدنویسی استفاده کنید\nhttps://cline.bot/desktop\nویندوز، مک و لینوکس\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5492",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/exSOSKOqie6fSaCdhgcWZPyp_linVUmVCACLDmEs4XrFQKEbryJJAGUEfBcwwhDAmJL28fy_Rxt7MkoRPauiozb5fM2OjKZpJjCy1BgnPHASu6O3bP8ERynczqkm2Gm3AzIqBDcOOIoHkPBvYTSS6wi1SujPq3smhFBN7ops68nChhT_SXJ9XLhqfWv_v-ePn-7dr6Vk2PcAhmFJSZ91AFSJoSOzyB2MT-MHFJXUO_TyIKjTQAJljC_VW7-knB0Qdx1MinJwyzRtYq0Yww6cHP2WXlBAjam5lvx6RhVlEel4jZraWyPDGxvjve3paOxMdaUPRbXMKbzyuDt7NQz3Zw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/3f6fa1cd40b0fb9899b482f1.jpg",
-          "thumbnail_sha256": "387fbb80750ed601e8923b7994c0418383b211b8a2385419dc2a0bd64dad336a",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "170"
-        },
-        {
-          "emoji": "👍",
-          "count": "22"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        },
-        {
-          "emoji": "🆒",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "26.7K",
-      "posted_at": "2026-10-03T16:21:01+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5492",
       "reply": null
     }
   ]
