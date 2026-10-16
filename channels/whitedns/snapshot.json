@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-16T09:32:25.091Z",
+  "fetched_at": "2026-10-16T09:37:26.804Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,72 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/2005",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Tg1WXW_5jOqvFhvqiBInOl0qf3yoEbeDz4Jw5jH-jhgQzZpb1u2ipk8X7LcbkGRaKeUobLiSDiMno7MxrByaVA68YBxFR_nkukrlqVTVyrr5RnObVZ46Bc2yQOSA59iG3BDBm5whnm-ZbrdrtjbyuXoMsONb_RvI-9J3akjQOvs1npt7olzFJHqklGOY9Sono3neHQuH2adjbb-NjhxnSsDseCxawiu0pETUSN5-aMh7TikYruULRsCUiXcSS5Aw7Xfz7hzatakL7DsktKd2frWa1ZSHvqoknGl-esO0REvx8MxtCUFg_V8loONMrW-p3xrZYEKLNkRWhUZoqauegQ.jpg",
+      "author_photo_path": "channels/whitedns/media/7bd962eed66a5241e59d7b52.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "WhiteAesther mobile v1.13.0",
+      "plain_text": "WhiteAesther mobile v1.13.0",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": "4"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "123",
+      "posted_at": "2026-10-16T09:36:07+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2005",
+      "reply": null
+    },
+    {
+      "id": "whitedns/2004",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/Tg1WXW_5jOqvFhvqiBInOl0qf3yoEbeDz4Jw5jH-jhgQzZpb1u2ipk8X7LcbkGRaKeUobLiSDiMno7MxrByaVA68YBxFR_nkukrlqVTVyrr5RnObVZ46Bc2yQOSA59iG3BDBm5whnm-ZbrdrtjbyuXoMsONb_RvI-9J3akjQOvs1npt7olzFJHqklGOY9Sono3neHQuH2adjbb-NjhxnSsDseCxawiu0pETUSN5-aMh7TikYruULRsCUiXcSS5Aw7Xfz7hzatakL7DsktKd2frWa1ZSHvqoknGl-esO0REvx8MxtCUFg_V8loONMrW-p3xrZYEKLNkRWhUZoqauegQ.jpg",
+      "author_photo_path": "channels/whitedns/media/7bd962eed66a5241e59d7b52.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i>  ورژن <b>WhiteAesther mobile v1.13.0 منتشر شد؛ <br><br>با اسکنر جدید اندپوینت و بهبود دریافت Identity</b><br><br>اندپوینت همان آدرس سروری است که برنامه از طریق آن تونل ارتباطی می‌سازد. اسکنر کمک می‌کند آدرس و تنظیمات مناسبِ اینترنت شما پیدا شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i> <b>اسکنر چطور کار می‌کند؟</b><br>• مسیرهای H2 و H3 را بررسی می‌کند و در صورت نیاز، تنظیمات کمکی مثل تقسیم پیام TLS و ECH را هم امتحان می‌کند.<br>• برای بررسی مسیر، تونل می‌سازد و درخواست واقعی اینترنت را از داخل آن عبور می‌دهد؛ دو آزمون مستقل، کیفیت نتیجه را می‌سنجند.<br>• مسیرهای موفق را برای همان شبکه ذخیره می‌کند و در استفادهٔ بعدی دوباره بررسی می‌کند.<br>• با انتخاب یک نتیجه، آدرس و تنظیماتی که با آن موفق بوده‌اند، با هم اعمال می‌شوند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> <b>برای اتصال معمولی چه کنیم؟</b><br>حالت اتصال را روی <b>Automatic / خودکار</b> بگذارید و اتصال را بزنید. جست‌وجوی اندپوینت اکنون در روند اتصال خودکار و اتصال مجدد Aether هم استفاده می‌شود؛ لازم نیست هر بار دستی اسکن کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> <b>اگر می‌خواهید دستی جست‌وجو کنید:</b><br>۱. به <b>Routes → Endpoint / مسیرها → نقطهٔ پایانی</b> بروید.<br>۲. روی <b>Find endpoints / یافتن نقاط پایانی</b> بزنید.<br>۳. تا پایان اسکن صبر کنید؛ جست‌وجو ممکن است چند دقیقه طول بکشد.<br>۴. نتیجه‌ای را انتخاب کنید که آزمون اینترنت آن موفق بوده؛ نتیجهٔ <b>۲ از ۲</b> اطمینان بیشتری می‌دهد.<br>۵. به صفحهٔ اصلی برگردید و اتصال را بزنید.<br>برای انتخاب نتیجه پیش از پایان اسکن، ابتدا <b>Stop / توقف</b> را بزنید. برای جست‌وجوی تازه هم گزینهٔ <b>فراموش کردن این نقطهٔ پایانی و جست‌وجوی دوباره</b> در دسترس است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A7.png')\"><b>🔧</b></i> دریافت و نگهداری Identity هم اصلاح شده تا ثبت‌نام یا ثبت کلید نیمه‌تمام، بهتر پس از توقف و اجرای دوباره ادامه پیدا کند.<br>نتیجهٔ اسکن به شرایط شبکه بستگی دارد؛ موفقیت آزمون، اتصال دائمی روی همهٔ اپراتورها را تضمین نمی‌کند.<br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.13.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.13.0</a>",
+      "plain_text": "🚀 ورژن WhiteAesther mobile v1.13.0 منتشر شد؛\n\nبا اسکنر جدید اندپوینت و بهبود دریافت Identity\n\nاندپوینت همان آدرس سروری است که برنامه از طریق آن تونل ارتباطی می‌سازد. اسکنر کمک می‌کند آدرس و تنظیمات مناسبِ اینترنت شما پیدا شود.\n🔍 اسکنر چطور کار می‌کند؟\n• مسیرهای H2 و H3 را بررسی می‌کند و در صورت نیاز، تنظیمات کمکی مثل تقسیم پیام TLS و ECH را هم امتحان می‌کند.\n• برای بررسی مسیر، تونل می‌سازد و درخواست واقعی اینترنت را از داخل آن عبور می‌دهد؛ دو آزمون مستقل، کیفیت نتیجه را می‌سنجند.\n• مسیرهای موفق را برای همان شبکه ذخیره می‌کند و در استفادهٔ بعدی دوباره بررسی می‌کند.\n• با انتخاب یک نتیجه، آدرس و تنظیماتی که با آن موفق بوده‌اند، با هم اعمال می‌شوند.\n⚡️ برای اتصال معمولی چه کنیم؟\nحالت اتصال را روی Automatic / خودکار بگذارید و اتصال را بزنید. جست‌وجوی اندپوینت اکنون در روند اتصال خودکار و اتصال مجدد Aether هم استفاده می‌شود؛ لازم نیست هر بار دستی اسکن کنید.\n🛠 اگر می‌خواهید دستی جست‌وجو کنید:\n۱. به Routes → Endpoint / مسیرها → نقطهٔ پایانی بروید.\n۲. روی Find endpoints / یافتن نقاط پایانی بزنید.\n۳. تا پایان اسکن صبر کنید؛ جست‌وجو ممکن است چند دقیقه طول بکشد.\n۴. نتیجه‌ای را انتخاب کنید که آزمون اینترنت آن موفق بوده؛ نتیجهٔ ۲ از ۲ اطمینان بیشتری می‌دهد.\n۵. به صفحهٔ اصلی برگردید و اتصال را بزنید.\nبرای انتخاب نتیجه پیش از پایان اسکن، ابتدا Stop / توقف را بزنید. برای جست‌وجوی تازه هم گزینهٔ فراموش کردن این نقطهٔ پایانی و جست‌وجوی دوباره در دسترس است.\n🔧 دریافت و نگهداری Identity هم اصلاح شده تا ثبت‌نام یا ثبت کلید نیمه‌تمام، بهتر پس از توقف و اجرای دوباره ادامه پیدا کند.\nنتیجهٔ اسکن به شرایط شبکه بستگی دارد؛ موفقیت آزمون، اتصال دائمی روی همهٔ اپراتورها را تضمین نمی‌کند.\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.13.0",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2004",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/Pwmef3qNIAMLJaQV0YsTp91Ei2TZEUTUw3VWreRLFDPxPanB6KkCgSdbshPwDJweU_udvQI9EY5i8kEyr8LzHDwGD4Z74YZJKLAbb-EnfEQHCNNUv7DNj0DHQMi8tiwFVlOVR6NRUbcTrebaODjvEq0WS0Jqdj7cPDEMKHy0lHp6pO4xeF0tgG9EmCmpG5r_sCX1qhrDX8I7Ers7cyjHIBclQgIoiSIGFCCG5NYCER06nB2CDkHdu1SgLQlSSwwMQCUDgnDp_mhhJvo7Aq6ABcClNxUE0yX1WbO1ADyrWavQRcVW3Jn3Bwjn5mEbnMAwYOdsFbp0AUviIeUCMQQ5HA.jpg",
+          "thumbnail_path": "channels/whitedns/media/7c3e7fe50711b3790f422492.jpg",
+          "thumbnail_sha256": "1bb00916e0713dbdbf9ce9f74bda914ef091a3fb8d4a588e09f8f503a6e50d0a",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": "2"
+        },
+        {
+          "emoji": "🤩",
+          "count": "2"
+        },
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "438",
+      "posted_at": "2026-10-16T09:34:37+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/2004",
+      "reply": null
+    },
     {
       "id": "whitedns/2003",
       "author_name": "White DNS",
@@ -42,12 +108,12 @@
           "count": "5"
         },
         {
-          "emoji": "🕊",
+          "emoji": "👍",
           "count": "3"
         },
         {
-          "emoji": "👍",
-          "count": "2"
+          "emoji": "🕊",
+          "count": "3"
         },
         {
           "emoji": "🙏",
@@ -58,7 +124,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.42K",
+      "views_label": "5.54K",
       "posted_at": "2026-10-16T06:08:52+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2003",
@@ -99,7 +165,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.85K",
+      "views_label": "6.95K",
       "posted_at": "2026-10-16T02:11:54+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2002",
@@ -129,7 +195,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "77"
+          "count": "79"
         },
         {
           "emoji": "❤‍🔥",
@@ -148,7 +214,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.64K",
+      "views_label": "6.74K",
       "posted_at": "2026-10-16T01:37:14+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2001",
@@ -189,7 +255,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.58K",
+      "views_label": "7.62K",
       "posted_at": "2026-10-15T23:01:59+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2000",
@@ -279,7 +345,7 @@
           "count": "6"
         }
       ],
-      "views_label": "9.99K",
+      "views_label": "10K",
       "posted_at": "2026-10-15T15:54:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1998",
@@ -320,7 +386,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.71K",
+      "views_label": "9.74K",
       "posted_at": "2026-10-15T15:51:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1996",
@@ -438,7 +504,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.68K",
+      "views_label": "7.71K",
       "posted_at": "2026-10-15T14:42:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1994",
@@ -479,7 +545,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.46K",
+      "views_label": "8.47K",
       "posted_at": "2026-10-15T14:30:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1993",
@@ -512,7 +578,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.3K",
+      "views_label": "8.36K",
       "posted_at": "2026-10-15T14:26:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1992",
@@ -573,7 +639,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.02K",
+      "views_label": "9.05K",
       "posted_at": "2026-10-15T14:26:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1991",
@@ -618,7 +684,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.38K",
+      "views_label": "8.41K",
       "posted_at": "2026-10-15T14:23:31+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1988",
@@ -5017,112 +5083,6 @@
       "posted_at": "2026-09-28T13:50:32+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1875",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1874",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "محدودیت آپلود <b>۶</b> پکت رو دوباره دارن اعمال میکنن.<br><br>از چند روز پیش برخی سرورهای شخصی دچار این محدودیت شدن.<br><br>از دیشب وبسوکتِ (alpn/1.1) کلودفلر هم برای برخی دامنه ها مثل <a href=\"http://workers.dev/\" target=\"_blank\" rel=\"noopener\">workers.dev</a>.* دچار همین محدودیت ۶ پکت شده.<br><br>در نتیجه کانفیگ‌های ورکر کلودفلر به صورت عادی در دسترس نیستند.<br><br>با ech ,<a href=\"https://t.me/patt_channel_x/94?single\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">fragment+fingerprint</a> و چندین روش دیگه میشه این محدودیت رو بر روی کلودفلر دور زد.<br><br>فعلا تغییری در وضعیت warp هم مشاهده نشده.",
-      "plain_text": "محدودیت آپلود ۶ پکت رو دوباره دارن اعمال میکنن.\n\nاز چند روز پیش برخی سرورهای شخصی دچار این محدودیت شدن.\n\nاز دیشب وبسوکتِ (alpn/1.1) کلودفلر هم برای برخی دامنه ها مثل workers.dev.* دچار همین محدودیت ۶ پکت شده.\n\nدر نتیجه کانفیگ‌های ورکر کلودفلر به صورت عادی در دسترس نیستند.\n\nبا ech ,fragment+fingerprint و چندین روش دیگه میشه این محدودیت رو بر روی کلودفلر دور زد.\n\nفعلا تغییری در وضعیت warp هم مشاهده نشده.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "148"
-        },
-        {
-          "emoji": "❤",
-          "count": "63"
-        },
-        {
-          "emoji": "😢",
-          "count": "14"
-        },
-        {
-          "emoji": "😡",
-          "count": "10"
-        },
-        {
-          "emoji": "🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "🗿",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "13.8K",
-      "posted_at": "2026-09-28T09:59:33+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1874",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1873",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5303138782004924588\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i></tg-emoji> با از کار افتادن سرویس های BPB فشار بیشتری روی سرور های اختصاصی هستش (شاید براتون کار کنه و شاید درست بشه).<br><br>ما سعی میکنیم کیفیت سرویس های عمومی رو بیشتر مدیریت کنیم و از شما هم میخوام اگر مایل هستید به ما کمک کنید. <br><br><tg-emoji emoji-id=\"5267102644886853973\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i></tg-emoji> تنها راه کمک به ما سرویس Patreon هستش و فقط برای ساکنین خارج از ایران قابل دسترسی هستش. <br><br><tg-emoji emoji-id=\"5330320040883411678\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F97BA.png')\"><b>🗺</b></i></tg-emoji> امروز به ما ماهی ۲۲دلار بهمون کمک میشه اما ماه ها بوده که هزینه های ما بیشتر از ۱۰برابر این هستشو همش از هزینه شخصی پرداخت شده و تا جایی که بتونیم ادامه میدیم.<br><br><a href=\"https://www.patreon.com/cw/WhiteDNS\" target=\"_blank\" rel=\"noopener\">https://www.patreon.com/cw/WhiteDNS</a><br><br>یک سرور آمریکا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F87BAF09F87B2.png')\"><b>🇺🇲</b></i> جدید اضافه کردیم و سرور هایی که براتون کار نمیکرد رو حذف کردیم. <br><br>برای دسترسی به سرور جدید، به بخش سابسکریپشن برید و ساب اختصاصی رو بروزرسانس کنید.",
-      "plain_text": "💬 با از کار افتادن سرویس های BPB فشار بیشتری روی سرور های اختصاصی هستش (شاید براتون کار کنه و شاید درست بشه).\n\nما سعی میکنیم کیفیت سرویس های عمومی رو بیشتر مدیریت کنیم و از شما هم میخوام اگر مایل هستید به ما کمک کنید.\n\n❤️ تنها راه کمک به ما سرویس Patreon هستش و فقط برای ساکنین خارج از ایران قابل دسترسی هستش.\n\n🗺 امروز به ما ماهی ۲۲دلار بهمون کمک میشه اما ماه ها بوده که هزینه های ما بیشتر از ۱۰برابر این هستشو همش از هزینه شخصی پرداخت شده و تا جایی که بتونیم ادامه میدیم.\n\nhttps://www.patreon.com/cw/WhiteDNS\n\nیک سرور آمریکا 🇺🇲 جدید اضافه کردیم و سرور هایی که براتون کار نمیکرد رو حذف کردیم.\n\nبرای دسترسی به سرور جدید، به بخش سابسکریپشن برید و ساب اختصاصی رو بروزرسانس کنید.",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "4"
-        },
-        {
-          "emoji": "❤",
-          "count": "340"
-        },
-        {
-          "emoji": "😢",
-          "count": "36"
-        },
-        {
-          "emoji": "🔥",
-          "count": "7"
-        },
-        {
-          "emoji": "👍",
-          "count": "5"
-        },
-        {
-          "emoji": "🤗",
-          "count": "5"
-        },
-        {
-          "emoji": "🍓",
-          "count": "3"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "18.3K",
-      "posted_at": "2026-09-28T09:47:43+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1873",
       "reply": null
     }
   ]
