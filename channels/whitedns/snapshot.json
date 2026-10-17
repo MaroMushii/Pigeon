@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-17T07:52:02.208Z",
+  "fetched_at": "2026-10-17T07:57:48.830Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/2017",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/T7qaLwJMsPH9sIMrya2NBcDS9-YNpw8fcngwNOItIy6FSncpXQqW4P6jMlp5TgK3udGYE3v8T5m4sLPtTMUD5RbidWYgb8SeVha_1IJqKTsjC99PENTYZj6rGeTQoEL9dE3ghnHm2vQhnA7vUytnWUAakSZ11XU4zsX2mEs4HQ5eRfsJru-sKIvJaowjEjYvhNDLdTZ2W-FFJfHnwBdv7jthe6TStEkTlmzuK9Qf96Mr61RrAwggSkvllofYRJ-gpLACc5LLAjXV1ohr_rG4F98I85_7O1E-T-bSY7it4DYi-i3yz0cFoj_FAN3IGj8igAWWrN2thyZht18eiMCxVQ.jpg",
+      "author_photo_path": "channels/whitedns/media/5ab072941e5986b1a9cbbdb7.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "تقریبا هر روز کامنت‌هایی شبیه این می‌بینم؛ هم درباره ابزارهای WhiteDNS و هم درباره پروژه‌هایی که بقیه دارن روشون کار می‌کنن.<br><br>می‌خوام یه موضوع رو خیلی شفاف و قاطع بگم:<br><br>بله، ما بخش زیادی از کد ابزارهای WhiteDNS رو با کمک هوش مصنوعی می‌نویسیم. نه از گفتنش خجالت می‌کشیم، نه دلیلی برای پنهان کردنش داریم.<br><br>اما پشت این ابزارها فقط چند تا پرامپت و خروجی هوش مصنوعی نیست.<br><br>پشتش سال‌ها تجربه مهندسی نرم‌افزار، دانش شبکه، ساعت‌ها تحقیق، آزمون و خطا، رفع باگ و تست با کمک آدم‌های مختلفه.<br><br>هوش مصنوعی می‌تونه کد بنویسه، اما قرار نیست به‌جای ما تصمیم‌های فنی بگیره، مشکلات شبکه رو درک کنه یا مسئولیت نتیجه نهایی رو بپذیره. این مسئولیت با ماست.<br><br>و حتی اگر تمام این کدها با هوش مصنوعی نوشته شده بودن، باز هم یه واقعیت تغییر نمی‌کرد:<br><br><tg-emoji emoji-id=\"5440660757194744323\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E280BC.png')\"><b>‼️</b></i></tg-emoji><b>این ابزارها دارن مشکل واقعی آدم‌های واقعی رو حل می‌کنن.</b><br><br>ما هیچ‌وقت ادعا نکردیم بهترین برنامه‌نویس‌های دنیا هستیم یا ابزارهایی که می‌سازیم بی‌نقصن. اتفاقا همیشه جا برای بهتر شدن هست.<br><br>نقد فنی، گزارش باگ و پیشنهاد برای بهبود رو با آغوش باز می‌پذیریم. اما اینکه تنها معیار قضاوت درباره یه محصول این باشه که «با هوش مصنوعی ساخته شده»، نه نقد فنیه و نه نگاه درستی به نرم‌افزار.<br><br>ارزش یه ابزار رو کیفیت، کارایی و مشکلی که حل می‌کنه مشخص می‌کنه؛ نه اینکه چند درصد کدش رو انسان تایپ کرده.<br><br>از روز اول هدف ما توی WhiteDNS کمک کردن بوده و هنوز هم همینه. نه دنبال اثبات خودمون به کسی هستیم، نه دنبال گرفتن تایید از همه.<br><br>تا وقتی این ابزارها به درد مردم می‌خورن، به توسعه و بهتر کردنشون ادامه می‌دیم.<br><br>آخرش چیزی که برای ما اهمیت داره، نتیجه‌ایه که به دست مردم می‌رسه، نه قضاوت درباره ابزاری که باهاش اون نتیجه رو ساختیم.",
+      "plain_text": "تقریبا هر روز کامنت‌هایی شبیه این می‌بینم؛ هم درباره ابزارهای WhiteDNS و هم درباره پروژه‌هایی که بقیه دارن روشون کار می‌کنن.\n\nمی‌خوام یه موضوع رو خیلی شفاف و قاطع بگم:\n\nبله، ما بخش زیادی از کد ابزارهای WhiteDNS رو با کمک هوش مصنوعی می‌نویسیم. نه از گفتنش خجالت می‌کشیم، نه دلیلی برای پنهان کردنش داریم.\n\nاما پشت این ابزارها فقط چند تا پرامپت و خروجی هوش مصنوعی نیست.\n\nپشتش سال‌ها تجربه مهندسی نرم‌افزار، دانش شبکه، ساعت‌ها تحقیق، آزمون و خطا، رفع باگ و تست با کمک آدم‌های مختلفه.\n\nهوش مصنوعی می‌تونه کد بنویسه، اما قرار نیست به‌جای ما تصمیم‌های فنی بگیره، مشکلات شبکه رو درک کنه یا مسئولیت نتیجه نهایی رو بپذیره. این مسئولیت با ماست.\n\nو حتی اگر تمام این کدها با هوش مصنوعی نوشته شده بودن، باز هم یه واقعیت تغییر نمی‌کرد:\n\n‼️این ابزارها دارن مشکل واقعی آدم‌های واقعی رو حل می‌کنن.\n\nما هیچ‌وقت ادعا نکردیم بهترین برنامه‌نویس‌های دنیا هستیم یا ابزارهایی که می‌سازیم بی‌نقصن. اتفاقا همیشه جا برای بهتر شدن هست.\n\nنقد فنی، گزارش باگ و پیشنهاد برای بهبود رو با آغوش باز می‌پذیریم. اما اینکه تنها معیار قضاوت درباره یه محصول این باشه که «با هوش مصنوعی ساخته شده»، نه نقد فنیه و نه نگاه درستی به نرم‌افزار.\n\nارزش یه ابزار رو کیفیت، کارایی و مشکلی که حل می‌کنه مشخص می‌کنه؛ نه اینکه چند درصد کدش رو انسان تایپ کرده.\n\nاز روز اول هدف ما توی WhiteDNS کمک کردن بوده و هنوز هم همینه. نه دنبال اثبات خودمون به کسی هستیم، نه دنبال گرفتن تایید از همه.\n\nتا وقتی این ابزارها به درد مردم می‌خورن، به توسعه و بهتر کردنشون ادامه می‌دیم.\n\nآخرش چیزی که برای ما اهمیت داره، نتیجه‌ایه که به دست مردم می‌رسه، نه قضاوت درباره ابزاری که باهاش اون نتیجه رو ساختیم.",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2017",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/m4z7piXKQmjbwbbvhoCi3cPEkN9LImf8dF-dgFDVhI7BdZUdFr8WqWZpquK-HXm6ywqRn-4n3sheJQkRSNfEX2ZhdKFH220g3evhFZOPDiqsq0PdydoyEXtiQmzZkFC6TulwOREw0KW5qhGgJgpbrnlFF28JoeBivA4XwRq8TfaMqg5V5xNc8E3kO41qVBzCu2q8VcKZoJ9QqOkAMX_qyun73T6Ct6ppE6r1gBaYmFNHPoBewYnROJJQzT_uRp41y3seNdSt5sk4o38Mw3cXSSTAe4buOqrMicCGVX9LVtPsmKEfd_l4ToseQNUJ1_8h576_78znd2V5k9_fJH_lWA.jpg",
+          "thumbnail_path": "channels/whitedns/media/fc1f6c6c13bad53abd72ca3d.jpg",
+          "thumbnail_sha256": "f80a2acee2f1f9dfa433a0a64f54b872def0eb5ae3548bad1037aa76348032d6",
+          "duration_label": null,
+          "aspect_ratio": 1.9656019656019657
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "11"
+        },
+        {
+          "emoji": "👏",
+          "count": "1"
+        }
+      ],
+      "views_label": "11",
+      "posted_at": "2026-10-17T07:56:24+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2017",
+      "reply": null
+    },
     {
       "id": "whitedns/2016",
       "author_name": "White DNS",
@@ -66,7 +103,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.01K",
+      "views_label": "4.08K",
       "posted_at": "2026-10-17T05:05:43+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2016",
@@ -111,7 +148,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.87K",
+      "views_label": "8.89K",
       "posted_at": "2026-10-16T18:36:22+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2015",
@@ -176,7 +213,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.76K",
+      "views_label": "8.8K",
       "posted_at": "2026-10-16T18:34:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2014",
@@ -358,7 +395,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.01K",
+      "views_label": "9.02K",
       "posted_at": "2026-10-16T10:15:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2009",
@@ -448,7 +485,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.91K",
+      "views_label": "9.92K",
       "posted_at": "2026-10-16T09:36:07+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2005",
@@ -570,7 +607,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.99K",
+      "views_label": "10K",
       "posted_at": "2026-10-16T06:08:52+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2003",
@@ -5133,72 +5170,6 @@
       "edited": false,
       "permalink": "https://t.me/whitedns/1884",
       "reply": null
-    },
-    {
-      "id": "whitedns/1883",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5330280024673101519\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8DB7.png')\"><b>🍷</b></i></tg-emoji>درود به همه رفقا...<br><br>معرفی دو اپلیکیشن خوب برای استفاده خواهشا این بحث بروز بودن اپلیکیشن هایی که استفاده میکنید برای کانفیگ رو جدی بگیرید از هر نوعی چه از <a href=\"?q=%23%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86\">#رایگان</a> ها (bpb) چه از سرور شخصی ها اگر براتون مصرف باطری و بهینه بودن اتصال و مشکلات کندی قطعی مهمه<tg-emoji emoji-id=\"5979041951494705951\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F988D.png')\"><b>😍</b></i></tg-emoji><br><br><tg-emoji emoji-id=\"5929253286145166951\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji>اپلیکیشن اول اندروید از سازنده aether:<br>اپلیکیشن ZedSecure یه <a href=\"?q=%23%D8%A7%D9%BE%D9%84%DB%8C%DA%A9%DB%8C%D8%B4%D9%86\">#اپلیکیشن</a> تکمیل از نظر ui و حتی هوش مصنوعی برای استفاده پشتیبانی از تمام پروتوکل های زیر:<br><br><blockquote> - Xray<br> - Sing-Box (Snell,AnyTLS,ovpn)<br>- OpenConnect (سیسکو)<br>- Tor<br>- Psiphon <br>- MasterDNS - DNSTT - VayDNS<br>- Sni-Spoof (روت)<br>- IKEv2<br>- SSH</blockquote><br><br><br>مصرف <a href=\"?q=%23%D8%A8%D8%A7%D8%B7%D8%B1%DB%8C\">#باطری</a> و بروز بودن هسته xray و همچنین هسته خود سازنده aether این کلاینت رو تکمیل میکنه.<br><br><tg-emoji emoji-id=\"5931594395508805861\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9B92.png')\"><b>🛒</b></i></tg-emoji>لینک دانلود اپ از پلی استور:<br><br><a href=\"https://play.google.com/store/apps/details?id=com.zedsecure.vpn\" target=\"_blank\" rel=\"noopener\">https://play.google.com/store/apps/details?id=com.zedsecure.vpn</a><br><br><tg-emoji emoji-id=\"6005916300600152073\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i></tg-emoji><tg-emoji emoji-id=\"5933540612694347912\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i></tg-emoji>کلاینت بعدی برای ویندوز:<br><br><a href=\"https://github.com/yastorovsky/MehrON\" target=\"_blank\" rel=\"noopener\">https://github.com/yastorovsky/MehrON</a><br><br>کلاینت سبک و بروز برای شرایط عادی و <a href=\"?q=%23%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C\">#اضطراری</a> با بروز بودن هسته و بهینه سازی برای ویندوز هسته های به کار رفته در برنامه:<br><br><blockquote>SNI Spoofing(patterniha)<br>MHR <br>MHR-CFW<br>Aether(وارپ)<br>Double Tunneling<br>CF IP Scanner<br>Mitm fronting(شیر و خورشید)</blockquote><br><br><tg-emoji emoji-id=\"5312536423851630001\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i></tg-emoji>خلاصه:برای استفاده بهینه از هر نوع کانفیگی که دارید از اپ های بروزی مثل pattn و pattng و ZedSecure استفاده کنید در اندروید و ios هم همچنین v2box الی streisand تا زمانی که اپ های بچها در ios منتشر شه.<br><br><br><tg-emoji emoji-id=\"5449455694870748968\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9293.png')\"><b>💓</b></i></tg-emoji>با تشکر از سازنده های محترم:<br><br><a href=\"https://t.me/yastorovsky\" target=\"_blank\" rel=\"noopener\">https://t.me/yastorovsky</a><br><a href=\"https://t.me/CluvexStudio\" target=\"_blank\" rel=\"noopener\">https://t.me/CluvexStudio</a><br><br><br><a href=\"https://t.me/xsfilterrnet\" target=\"_blank\">@xsfilterrnet</a> <tg-emoji emoji-id=\"5053169761232356354\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9191.png')\"><b>👑</b></i></tg-emoji>",
-      "plain_text": "🍷درود به همه رفقا...\n\nمعرفی دو اپلیکیشن خوب برای استفاده خواهشا این بحث بروز بودن اپلیکیشن هایی که استفاده میکنید برای کانفیگ رو جدی بگیرید از هر نوعی چه از #رایگان ها (bpb) چه از سرور شخصی ها اگر براتون مصرف باطری و بهینه بودن اتصال و مشکلات کندی قطعی مهمه😍\n\n📱اپلیکیشن اول اندروید از سازنده aether:\nاپلیکیشن ZedSecure یه #اپلیکیشن تکمیل از نظر ui و حتی هوش مصنوعی برای استفاده پشتیبانی از تمام پروتوکل های زیر:\n\n- Xray\n- Sing-Box (Snell,AnyTLS,ovpn)\n- OpenConnect (سیسکو)\n- Tor\n- Psiphon\n- MasterDNS - DNSTT - VayDNS\n- Sni-Spoof (روت)\n- IKEv2\n- SSH\n\n\nمصرف #باطری و بروز بودن هسته xray و همچنین هسته خود سازنده aether این کلاینت رو تکمیل میکنه.\n\n🛒لینک دانلود اپ از پلی استور:\n\nhttps://play.google.com/store/apps/details?id=com.zedsecure.vpn\n\n💻📱کلاینت بعدی برای ویندوز:\n\nhttps://github.com/yastorovsky/MehrON\n\nکلاینت سبک و بروز برای شرایط عادی و #اضطراری با بروز بودن هسته و بهینه سازی برای ویندوز هسته های به کار رفته در برنامه:\n\nSNI Spoofing(patterniha)\nMHR\nMHR-CFW\nAether(وارپ)\nDouble Tunneling\nCF IP Scanner\nMitm fronting(شیر و خورشید)\n\n💡خلاصه:برای استفاده بهینه از هر نوع کانفیگی که دارید از اپ های بروزی مثل pattn و pattng و ZedSecure استفاده کنید در اندروید و ios هم همچنین v2box الی streisand تا زمانی که اپ های بچها در ios منتشر شه.\n\n\n💓با تشکر از سازنده های محترم:\n\nhttps://t.me/yastorovsky\nhttps://t.me/CluvexStudio\n\n\n@xsfilterrnet 👑",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "224"
-        },
-        {
-          "emoji": "👍",
-          "count": "10"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        },
-        {
-          "emoji": "🙏",
-          "count": "4"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "😍",
-          "count": "3"
-        },
-        {
-          "emoji": "🍓",
-          "count": "3"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "💊",
-          "count": "1"
-        }
-      ],
-      "views_label": "13.7K",
-      "posted_at": "2026-09-30T09:47:46+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1883",
-      "reply": {
-        "channel_username": "cluvexstudio",
-        "post_id": "328",
-        "author_name": "CluvexStudio",
-        "preview_text": "بعد از ماه‌ها که برای کلاینتم آپدیتی ندادم این مدت روش کار کردم و کاملا بهینه و بهبود یافته. UI/UX کاملا بازنویسی شده با متریال گوگل. و خیلی فیچر های شخصی سازی داره بخش \"رابط کاربری\" از تمام هسته های حال حاضر پشتیبانی می‌کنه راحت میتونید کانفیگ هاشو اد کنید،…",
-        "thumbnail_url": "https://cdn4.telesco.pe/file/VskGGsgl4gVascq8OvzXJsNoa0MGG-bs2_HZUa4DI757Rqxflw2QxzRuefTRjSB22eJrXcqfHiL6ZkineXmvWaMksMijpgb7OaIpaf92SN_tRB3hry92PSbUC9Wetd7Ma10_LgH-Oq-PNLluHpZClGp0o_ZtcYEScqHO94G2nr0Phj7JJKvuYXYjAvbNducpy_4RXkBQnKav1rIltacH_adaqHVv1JoJKakUCpY2q1I8UNGm9e5x1-HaEptCm0b6VyrGwB6k93Kd2dPHPug3lILbwRXE1bMJwO4Zi8sA4IBnYbo83S0WbeNPb4co38RpcX-IB2knOBdVDQZXFE87iQ.jpg",
-        "thumbnail_path": "channels/whitedns/media/621bb465dd67926b7db86150.jpg",
-        "thumbnail_sha256": "6658073e0f5943e01f388d8292b00bfdc83cdaea724ad9354bb52587293fce69",
-        "permalink": "https://t.me/cluvexstudio/328"
-      }
     }
   ]
 }
