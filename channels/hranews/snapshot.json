@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-18T12:01:57.673Z",
+  "fetched_at": "2026-10-18T12:07:12.066Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "30.6K"
   },
   "posts": [
+    {
+      "id": "hranews/116446",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/c8F56CBroX_8YXkYiNkaE9btN5lFuTYrm3JxSYXHhJJcFEVUI44DjhBz7czNawpRh5H6WiucRBZpN-4Eet2yrl6mwVIfHRb3j9riuSDhhgh7zt8FbQh5sxOCXPXArdn7aDLf8ZLikFmq7igOmNHseDrHdu-sTfwSzFjnk5kcCAZU6rjZTFlW9c_2uHXS7ct5sZg3qaCFbUth65xk4b9Ic9guprBZlcl7f7_cGY16U6gNNAJbKYxIEjlvK2_WAs97Fk-cknTBob-s76Bfe2maavSrZSvcLHLlQNSiRhsuN83KS7cCNtVkaOfTDypYhQv3nyQRyOQ_lmyIHSBG1B5YHQ.jpg",
+      "author_photo_path": "channels/hranews/media/9674442be4544cf2ac3ef409.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "امروز یکشنبه و در ادامه تجمعات بازنشستگان تامین اجتماعی؛ گروهی از این بازنشستگان در شهرهای رشت و اهواز نیز دست به <a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9\">#تجمع</a> اعتراضی زدند.<br><br>بازنشستگان مذکور خواستار رسیدگی به مطالبات خود از جمله رسیدگی به مشکلات درمانی و معیشتی هستند. همچنین این شهروندان در اهواز با سردادن شعارهای اعتراضی نسبت به احکام اعدام نیز اعتراض کردند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -&nbsp; <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>&nbsp; کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "امروز یکشنبه و در ادامه تجمعات بازنشستگان تامین اجتماعی؛ گروهی از این بازنشستگان در شهرهای رشت و اهواز نیز دست به #تجمع اعتراضی زدند.\n\nبازنشستگان مذکور خواستار رسیدگی به مطالبات خود از جمله رسیدگی به مشکلات درمانی و معیشتی هستند. همچنین این شهروندان در اهواز با سردادن شعارهای اعتراضی نسبت به احکام اعدام نیز اعتراض کردند.\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/116446",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/DsYfeHJ-x9l5aJir9DX2w8oeI4XwNEr-VBgZvoMo6uvQ1InkF-7sU2_ggqRT30JmhfVwx4gZRt71Cs6eoPBnAvKNC6KeoO9UA2ZQRvxKMR_BJs0VYs6Yu6vt0Niqkq4SE5VXSOpNYY-bC-o5suI249vXLHv2Zt83pJlfcZn-Osk_UBcO7aUbarREd7ws1_DGK9nReSTUuUcs6CbWdyrFBI-qnUDV2qtqGTiSjuosFTYyx9oxDApeMh4DcWqrN-OtcJ92mHiFD8HN2BYdSWetwsxI5SWU0gNgxtXArtilmzhKnufzrDH17nuSZyNZSt13GwlmOwMdm-Je2eGPzpLXvA",
+          "thumbnail_path": "channels/hranews/media/077915470dd5d69673e2a639.jpg",
+          "thumbnail_sha256": "b8094211d73f861eae40b644c77c28135ab66eae9dc1f0c8a6bc9d0332dd5b7b",
+          "duration_label": "0:21",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-10-18T12:06:22+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/116446",
+      "reply": null
+    },
     {
       "id": "hranews/116445",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "163",
+      "views_label": "181",
       "posted_at": "2026-10-18T11:19:57+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116445",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "290",
+      "views_label": "305",
       "posted_at": "2026-10-18T10:49:11+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116444",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "261",
+      "views_label": "269",
       "posted_at": "2026-10-18T10:36:25+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116443",
@@ -117,7 +145,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "365",
+      "views_label": "371",
       "posted_at": "2026-10-18T09:55:30+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116442",
@@ -145,7 +173,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "394",
+      "views_label": "398",
       "posted_at": "2026-10-18T09:37:12+00:00",
       "edited": true,
       "permalink": "https://t.me/hranews/116441",
@@ -161,7 +189,7 @@
       "plain_text": "در شهرستان قدس مردی به اتهام تجاوز به یک زن جوان بازداشت شد\n\n❗️❗️❗️❗️❗️ – مردی که متهم است یک زن ۳۳ ساله را با خوراندن نوشیدنی مسموم بیهوش کرده و مورد #تجاوز_جنسی قرار داده، توسط ماموران پلیس در شهرستان قدس بازداشت شد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "530",
+      "views_label": "533",
       "posted_at": "2026-10-18T08:54:35+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116440",
@@ -177,7 +205,7 @@
       "plain_text": "اجرای حکم حبس؛ ناصر همتی به زندان دره‌شهر منتقل شد\n\n❗️❗️❗️❗️❗️ – روز گذشته، ناصر همتی، شهروند اهل آبدانان جهت اجرای محکومیت #حبس خود بازداشت و به زندان ماه‌پاره دره‌شهر منتقل شد.\n\nادامه مطلب\n\n#ناصر_همتی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "654",
+      "views_label": "661",
       "posted_at": "2026-10-18T07:38:56+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116439",
@@ -225,7 +253,7 @@
       "plain_text": "اعدام یک زندانی در اراک؛ صدور اعدام برای یک متهم و سازش در دو پرونده قتل\n\n❗️❗️❗️❗️❗️– یک زندانی در زندان اراک #اعدام شد. همچنین یک متهم از بابت اتهام قتل توسط دادگاه کیفری یک استان تهران به اعدام محکوم شد. از سوی دیگر، دو پرونده قتل در شادگان به سازش رسید. در گزارشی جداگانه نیز از رهایی ۱۲ محکوم به اعدام در خراسان رضوی طی سال جاری خبر داده شد.\n\nادامه مطلب\n\n#میلاد_درویشی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "874",
+      "views_label": "875",
       "posted_at": "2026-10-17T18:30:00+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116436",
@@ -2181,34 +2209,6 @@
       "posted_at": "2026-10-13T07:29:26+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116347",
-      "reply": null
-    },
-    {
-      "id": "hranews/116346",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/lAzk29NNo4IiBAld1-qHtx0TvvIJyfdMXh6rrNXCiSY-h_nsDnhpkp6Ayyh1oxF_HIyujJyKXw238bvs031FV5SgH0K637faBLDen4egGYoKwSIPKPh0DNDHoYXgIwJiyJc0swH8kmKIfzmNiomOYLJ-cY3FAyZ0LVyZh6C72GCl6aXnocY7hA0uyHcZIm3gK1s3CCikYT8qEUqfFqu2jkcbsieC4_kFtka-lKNL3URjFFBTYwwnWqw4ALK51NNZn-JxtmfU2mw_Z6go2gYujk4rw9qzfAKDDQy8Qgtl2C-UBuF2eKEkwt9zVMsZoHGErcFbUsaCmdzWL-eMhib3AQ.jpg",
-      "author_photo_path": "channels/hranews/media/e97c6c5bcd1c0feed0f368bc.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "شهرام جمالی از زندان آمل به مرخصی اعزام شد<br><br><tg-emoji emoji-id=\"4936376861581116178\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936234406105842841\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4936202185261187827\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933936920725029797\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><tg-emoji emoji-id=\"4933769043338331221\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji>– روز یکشنبه ۱۹ مهرماه، شهرام جمالی، که دوران محکومیت خود را در زندان آمل سپری میکند، از این زندان به مرخصی اعزام شد.<br><br>به گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، شهرام جمالی به مرخصی اعزام شد.<br><br>اعزام به مرخصی آقای جمالی روز یکشنبه ۱۹ مهرماه، به مدت یک هفته با تامین فیش حقوقی از زندان آمل صورت گرفته است.<br><br><a href=\"https://t.me/iv?url=https://www.hra-news.org/2026/hranews/a-101e12d0/&amp;amp;rhash=22a41dd9689763\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ادامه مطلب</a><br><br><a href=\"?q=%23%D8%B4%D9%87%D8%B1%D8%A7%D9%85_%D8%AC%D9%85%D8%A7%D9%84%DB%8C\">#شهرام_جمالی</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "شهرام جمالی از زندان آمل به مرخصی اعزام شد\n\n❗️❗️❗️❗️❗️– روز یکشنبه ۱۹ مهرماه، شهرام جمالی، که دوران محکومیت خود را در زندان آمل سپری میکند، از این زندان به مرخصی اعزام شد.\n\nبه گزارش خبرگزاری هرانا، ارگان خبری مجموعه فعالان حقوق بشر در ایران، شهرام جمالی به مرخصی اعزام شد.\n\nاعزام به مرخصی آقای جمالی روز یکشنبه ۱۹ مهرماه، به مدت یک هفته با تامین فیش حقوقی از زندان آمل صورت گرفته است.\n\nادامه مطلب\n\n#شهرام_جمالی\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/hranews/116346",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ocG_qUNl82gHOwZwkSegFJ-qkgT5ZciBBbqsIyWMtFp4M4Arj5_KE64OCp_9GOYF5lkiigUiJH6yJUQKC5YAy7DqLMz92g5yUZYmk6AxDo5a6qmUnepOSUGk9LKsC0ImZ7dJREKWIIErt90pWO7xBaD3orR_sLpPp2LhY5QHbOIJoCjodUE-zcF4RicSqZM5laUFBHoEXukAIyEpMNXXxXqtqYDRC7KjXRAKzP_cyq3dLq1_hm61TVe0H4EU_TBblf3DSmh1udXO67aC3ip0C6pWYgDPUSP2Z0N5pWqqG8shQIkQgx5uF_sx_V7QJO4lHImPT5RXVVjBqKUhFDGRFw.jpg",
-          "thumbnail_path": "channels/hranews/media/85a2a8662e5fb13f126a7928.jpg",
-          "thumbnail_sha256": "3eeb5477cc7ff9f1071f6c3d149ee6d5303de82645ecae922c33d6fa0bebcee9",
-          "duration_label": null,
-          "aspect_ratio": 1.5009380863039399
-        }
-      ],
-      "reactions": [],
-      "views_label": "912",
-      "posted_at": "2026-10-13T07:09:16+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/116346",
       "reply": null
     }
   ]
