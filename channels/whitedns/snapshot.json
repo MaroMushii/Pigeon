@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-18T11:27:09.078Z",
+  "fetched_at": "2026-10-18T11:32:30.681Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,117 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/2026",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/opmk3GUDqaXBEfUaPrdA4zGBmvSMmSuHTAozRJ8l7HQOm4ggzSyxjFZHRD571ccaJZZnEgkiqTFCkstVI2f3_ivtICT39ZewbnyhM-voIa6hvxzt9EiNgh8PqpeF-1nb09aHv9KRnjCCDiP86e_5zJflwS0czyDUJpXyibXk8yyZ2n8QIAfjfTnk0aQwQu8aGPoXRwFHEgMTDvtgLPtQAId-BsxYm6ZG7qdvDCzbwCSzPKMNgoh6W2lOhxi72Ycsm8TOh7xfIUrvbV9qgT-2dDpjvDPwNTBvPVvB9SpGfe_nCwlvxq3I6D9dI3gLUYb9r0P5EAcKFZHctg0zRnyoKg.jpg",
+      "author_photo_path": "channels/whitedns/media/08d530e98d677083ce48fadc.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "",
+      "plain_text": "",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/whitedns/2026",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/plKOxRyFz1KFjyYoXlEh8RrRj_6W4BqWX0idkz9tuX2b86vQzTtGTdxkoN9MgAkFj_swq3ZzPfo4sNgDwxN7CGyQuq5YAojFzePFzWqg1LU-Yzjy_dQSBYe4GWBfCwsd6Cg30o9zYLfkf_kHdGHX1dcBSXmtIh84NbPVplNr9MSOH2vg405qLEgqaEn3Wn1slxebNxjoKvFNF18LVGWpcmskg4FJuWhcbNFAW7adt-ZibB4A0HzbfIEkWpAlByhXTfIkJx292WK4HXLzB7GuXDOX5PFElRB6zlKcv6OsMUz0rRpVUlOhfZQpa5fBR5at_0PaNWoMwWWbPOQvwFFGrg",
+          "thumbnail_path": "channels/whitedns/media/0795e03a3f034e52c94c13bf.jpg",
+          "thumbnail_sha256": "fc96fe7963cdd701e4c1af415295d489ec71048636c8ea097fcdb77313e1c012",
+          "duration_label": null,
+          "aspect_ratio": 1.3333333333333333
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "⚡",
+          "count": "11"
+        },
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        }
+      ],
+      "views_label": "509",
+      "posted_at": "2026-10-18T11:28:54+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2026",
+      "reply": null
+    },
+    {
+      "id": "whitedns/2025",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/opmk3GUDqaXBEfUaPrdA4zGBmvSMmSuHTAozRJ8l7HQOm4ggzSyxjFZHRD571ccaJZZnEgkiqTFCkstVI2f3_ivtICT39ZewbnyhM-voIa6hvxzt9EiNgh8PqpeF-1nb09aHv9KRnjCCDiP86e_5zJflwS0czyDUJpXyibXk8yyZ2n8QIAfjfTnk0aQwQu8aGPoXRwFHEgMTDvtgLPtQAId-BsxYm6ZG7qdvDCzbwCSzPKMNgoh6W2lOhxi72Ycsm8TOh7xfIUrvbV9qgT-2dDpjvDPwNTBvPVvB9SpGfe_nCwlvxq3I6D9dI3gLUYb9r0P5EAcKFZHctg0zRnyoKg.jpg",
+      "author_photo_path": "channels/whitedns/media/08d530e98d677083ce48fadc.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> نسخه <b>WhiteDNS 1.6.7  منتشر شد!</b><tg-emoji emoji-id=\"5809820317341721130\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i></tg-emoji><br><br>موتور <b>Soar</b> به WhiteDNS اضافه شد؛ حالا در کنار StormDNS و CottenDNS، یک گزینهٔ تازه برای اتصال دارید.<br>تغییرات این نسخه:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> پشتیبانی از Soar در حالت VPN و Proxy<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> کشف ریزالور با تنظیم IR / GLOBAL و DNS شبکهٔ گوشی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> حالت Conservative برای محدودیت بسته‌های DNS<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> ورود و انتخاب ریزالورهای همراه کانفیگ Soar<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> اسکن ریزالور Soar با آزمون HTTPS<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> رفع مشکل انتخاب کانفیگ قبلی پس از افزودن کانفیگ جدید<br>برای تغییر کانفیگ، روی کارت آن بزنید یا از منوی سه‌نقطه <b>Use profile</b> را انتخاب کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.7\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ رسمی</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> <a href=\"https://github.com/WhiteDNS/WhiteDNS-Android\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ریپوی پروژه</a><br>این نسخه با امضای رسمی قبلی منتشر شده است. عملکرد Soar داخل ایران هنوز به تست میدانی نیاز دارد.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "📱 نسخه WhiteDNS 1.6.7 منتشر شد!🔥\n\nموتور Soar به WhiteDNS اضافه شد؛ حالا در کنار StormDNS و CottenDNS، یک گزینهٔ تازه برای اتصال دارید.\nتغییرات این نسخه:\n✅ پشتیبانی از Soar در حالت VPN و Proxy\n✅ کشف ریزالور با تنظیم IR / GLOBAL و DNS شبکهٔ گوشی\n✅ حالت Conservative برای محدودیت بسته‌های DNS\n✅ ورود و انتخاب ریزالورهای همراه کانفیگ Soar\n✅ اسکن ریزالور Soar با آزمون HTTPS\n✅ رفع مشکل انتخاب کانفیگ قبلی پس از افزودن کانفیگ جدید\nبرای تغییر کانفیگ، روی کارت آن بزنید یا از منوی سه‌نقطه Use profile را انتخاب کنید.\n📥 دانلود نسخهٔ رسمی\n💻 ریپوی پروژه\nاین نسخه با امضای رسمی قبلی منتشر شده است. عملکرد Soar داخل ایران هنوز به تست میدانی نیاز دارد.\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2025",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/mMgsz_tGH9en5XOTzLdLhj_JE3dVolLn-n48NJ7ilBCW-PYnf95YoZxsk2JwejpX7gNGZDkjH76rVTXmq7ZoSEan0709VvbutpTKVDODxRUYlCRTgBWkWR4M0EnT3fGRSg1v9lW_XQm5wgJmA73fET1nQyAgKYDT1S39r7gfaV0vp6wlbxuSTI31xcRvHFUZWbWET2GGVfcXVE6TaVD7LlVYrR0hqjosBDB1lRXFq2UzADtChz_Ymom5sIfFPN1XPdXIWBdUbeG31-q5mAvPylTJkeYpuL1YxVc1bWnX-98HRLBMl1BIUpFdsbO43VaUac1nRFsG4xd7n3LI1cfnFw.jpg",
+          "thumbnail_path": "channels/whitedns/media/6615195cd8c97621c620db04.jpg",
+          "thumbnail_sha256": "d07cb866df24cf513447518346f2f272e58d9e54f786f4783c38ecda99980daf",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "17"
+        }
+      ],
+      "views_label": "697",
+      "posted_at": "2026-10-18T11:27:21+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/2025",
+      "reply": null
+    },
+    {
+      "id": "whitedns/2024",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/opmk3GUDqaXBEfUaPrdA4zGBmvSMmSuHTAozRJ8l7HQOm4ggzSyxjFZHRD571ccaJZZnEgkiqTFCkstVI2f3_ivtICT39ZewbnyhM-voIa6hvxzt9EiNgh8PqpeF-1nb09aHv9KRnjCCDiP86e_5zJflwS0czyDUJpXyibXk8yyZ2n8QIAfjfTnk0aQwQu8aGPoXRwFHEgMTDvtgLPtQAId-BsxYm6ZG7qdvDCzbwCSzPKMNgoh6W2lOhxi72Ycsm8TOh7xfIUrvbV9qgT-2dDpjvDPwNTBvPVvB9SpGfe_nCwlvxq3I6D9dI3gLUYb9r0P5EAcKFZHctg0zRnyoKg.jpg",
+      "author_photo_path": "channels/whitedns/media/08d530e98d677083ce48fadc.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>معرفی Soar؛ انتقال ارتباط TCP روی DNS</b><br><br><b>موتور Soar  ساختهٔ تیم Lantern / GetLantern است. ما در WhiteDNS نصب‌کنندهٔ مرحله‌به‌مرحله و ابزار مدیریت سرور آن را آماده کرده‌ایم.</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> نصب روی Ubuntu 24.04 با معماری amd64<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> راهنمای فارسی و توضیح مراحل در ترمینال<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> تولید لینک کانفیگ WhiteDNS با انتخاب IR یا GLOBAL<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> تست اتصال، به‌روزرسانی و بازگشت به نسخهٔ قبل<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> پنل مدیریت <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ریپو و راهنمای نصب</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> پس از ورود با SSH به سرور:<br><pre>bash &lt;(curl -fsSL https://raw.githubusercontent.com/WhiteDNS/Soar-Server/main/setup.sh)</pre><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948E.png')\"><b>🔎</b></i> <a href=\"https://github.com/getlantern/soar\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">پروژهٔ اصلی Lantern</a><br>موفقیت اتصال به شرایط شبکه و ریزالورها بستگی دارد؛ عملکرد داخل ایران هنوز به تست میدانی نیاز دارد.<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🚀 معرفی Soar؛ انتقال ارتباط TCP روی DNS\n\nموتور Soar ساختهٔ تیم Lantern / GetLantern است. ما در WhiteDNS نصب‌کنندهٔ مرحله‌به‌مرحله و ابزار مدیریت سرور آن را آماده کرده‌ایم.\n\n✅ نصب روی Ubuntu 24.04 با معماری amd64\n✅ راهنمای فارسی و توضیح مراحل در ترمینال\n✅ تولید لینک کانفیگ WhiteDNS با انتخاب IR یا GLOBAL\n✅ تست اتصال، به‌روزرسانی و بازگشت به نسخهٔ قبل\n✅ پنل مدیریت\n📦 ریپو و راهنمای نصب\n🛠 پس از ورود با SSH به سرور:\nbash <(curl -fsSL https://raw.githubusercontent.com/WhiteDNS/Soar-Server/main/setup.sh)\n🔎 پروژهٔ اصلی Lantern\nموفقیت اتصال به شرایط شبکه و ریزالورها بستگی دارد؛ عملکرد داخل ایران هنوز به تست میدانی نیاز دارد.\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2024",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/ayUB4YG1BqaY3Frzn56OF5X7uTQkyqdvUmnh9JH9GjwJ3rnLCT4NUJHaQKIGFyK3DP9RkZlN4ph8w-kZOrVL71Ht3iFkvmH4wmtNRny7691cveKXb_wOOF_LcFpFB-Y7yzsltk6ev2Ekm136qTrIzGWolBzALgzqLdrP1nTVmQds0tjA3pTDL7Iq8_GGn5wvmkEtghI98mZZhPCiFJXLw1ipmnDzDtdLIojhsrTJA1VgloHgRSk2YdcXgV1xL36ecxZ9S-nJU3z97IIn5SGiz-4NCMX1vBwpY_9HgopRJpfI_qEmCNu_3xEr1VhtntVvIC02-rFsOESRCpvb9oba8g.jpg",
+          "thumbnail_path": "channels/whitedns/media/1f253c55ad7007fe69d6447a.jpg",
+          "thumbnail_sha256": "56effbca55f40de18ce17388fc4781b66a311ba848db93ed9669ae1e170a2685",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "8"
+        }
+      ],
+      "views_label": "569",
+      "posted_at": "2026-10-18T11:27:17+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/2024",
+      "reply": null
+    },
     {
       "id": "whitedns/2021",
       "author_name": "White DNS",
@@ -39,7 +150,7 @@
         },
         {
           "emoji": "❤",
-          "count": "309"
+          "count": "310"
         },
         {
           "emoji": "🫡",
@@ -82,7 +193,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.8K",
+      "views_label": "10.9K",
       "posted_at": "2026-10-17T09:26:13+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2021",
@@ -112,7 +223,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "364"
+          "count": "365"
         },
         {
           "emoji": "🫡",
@@ -155,7 +266,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11K",
+      "views_label": "11.1K",
       "posted_at": "2026-10-17T09:16:38+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2020",
@@ -177,7 +288,7 @@
         },
         {
           "emoji": "❤",
-          "count": "615"
+          "count": "616"
         },
         {
           "emoji": "👍",
@@ -263,7 +374,7 @@
         },
         {
           "emoji": "❤",
-          "count": "808"
+          "count": "810"
         },
         {
           "emoji": "👏",
@@ -271,7 +382,7 @@
         },
         {
           "emoji": "👍",
-          "count": "41"
+          "count": "42"
         },
         {
           "emoji": "❤‍🔥",
@@ -306,7 +417,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.5K",
+      "views_label": "10.6K",
       "posted_at": "2026-10-17T07:56:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2017",
@@ -340,7 +451,7 @@
         },
         {
           "emoji": "❤",
-          "count": "116"
+          "count": "117"
         },
         {
           "emoji": "🤩",
@@ -397,7 +508,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "193"
+          "count": "194"
         },
         {
           "emoji": "🍓",
@@ -761,7 +872,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.5K",
+      "views_label": "11.6K",
       "posted_at": "2026-10-16T09:36:07+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2005",
@@ -5179,161 +5290,6 @@
       "posted_at": "2026-10-01T16:19:05+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1891",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1889",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "دوست عزیز : <br><br>خرید ، فروش ، درخواست خرید ، آگهی فروش هر چیزی که توش پول رد و بدل بشه ممنوعه <tg-emoji emoji-id=\"5462882007451185227\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9AAB.png')\"><b>🚫</b></i></tg-emoji><br><br>بلافاصله بن میشید",
-      "plain_text": "دوست عزیز :\n\nخرید ، فروش ، درخواست خرید ، آگهی فروش هر چیزی که توش پول رد و بدل بشه ممنوعه 🚫\n\nبلافاصله بن میشید",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "219"
-        },
-        {
-          "emoji": "👍",
-          "count": "36"
-        },
-        {
-          "emoji": "🤝",
-          "count": "13"
-        },
-        {
-          "emoji": "⚡",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "14.4K",
-      "posted_at": "2026-10-01T12:27:39+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1889",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1888",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "224"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "17"
-        },
-        {
-          "emoji": "👍",
-          "count": "11"
-        },
-        {
-          "emoji": "🥰",
-          "count": "3"
-        },
-        {
-          "emoji": "💘",
-          "count": "3"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        },
-        {
-          "emoji": "🏆",
-          "count": "1"
-        },
-        {
-          "emoji": "🍓",
-          "count": "1"
-        },
-        {
-          "emoji": "🤝",
-          "count": "1"
-        }
-      ],
-      "views_label": "14.8K",
-      "posted_at": "2026-10-01T10:22:46+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1888",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1887",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/p239DwNpcTcGzpdBSXp1yRCSPBfRN-p8C80eRpceDoiCYp__Lr5Y9t5s2_GcyEFN0bU5w5gVfZ5lbROSEJsyeW5EsCLm3L1WyL-Hz9gCV925Sy7WU7ytDlOdTjcJ_jbvt2638cMJUAooe5o-FAOJIqLogGCYnUXrv3dLKJY1dElYYN2Yl8AQfexaFroOjgpPmKqNZGWq1YsTXAFHtxKmXLlrO2v9uDsRUu8siN9YCGppgcQksf1Wrr_BSo2GlyqLFmxX0ORfIjQgtrbOea95LymdxEB2obLI8wUW19j8jUFraj2qeWxmnU_B48M2H2YUvMQl-tbHUzT-ePgHpGZudg.jpg",
-      "author_photo_path": "channels/whitedns/media/ff18d5645dec8857d29c908a.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "210"
-        },
-        {
-          "emoji": "👍",
-          "count": "15"
-        },
-        {
-          "emoji": "💯",
-          "count": "5"
-        },
-        {
-          "emoji": "💘",
-          "count": "4"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🏆",
-          "count": "1"
-        },
-        {
-          "emoji": "🍓",
-          "count": "1"
-        },
-        {
-          "emoji": "🤝",
-          "count": "1"
-        }
-      ],
-      "views_label": "14.7K",
-      "posted_at": "2026-10-01T10:20:42+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1887",
       "reply": null
     }
   ]
