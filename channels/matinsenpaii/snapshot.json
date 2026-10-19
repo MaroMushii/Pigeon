@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-19T05:57:03.254Z",
+  "fetched_at": "2026-10-19T06:02:10.795Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5615",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/g5kO8FBwEkSv9mWjFR6FYwMu4ZnooKjQDFgwpVD4Fj-VpXQQboIkX4Hiq2Sw-BLn6zQV26SRExuqnVOHpgifnx7sE8pknXdFoa0SIIxO3ioJwSQGfAGmV57r2GlVWBpz3Bo9xMRZ6slYesWOx0U2yc9TIDVkVN7NbmCkX9X7rkUo3NHAZWAHnxzqK5h_GRm3n6CGVNK3ZFEqaySsGf0cwW6OZ9Zzl68pdsAxtBNhQMun0UcFoXaPdf3Bm43G7T9_zg4fLYiwQCF-c5Wu9M8vklpnwVKRFsnSbnwrmxth1ayJH6MT1__jGCxe7EJh92KcfpJS2Tl3Q4lRJTVadSrLtA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/78b43fb78aae974ba1669e0a.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>تصاحب استارتاپ داک‌دی‌بی توسط آمازون و ادغام DuckDB در سرویس Aurora</b><br><br>شرکت آمازون رسما خرید استارتاپ هلندی DuckLabs (تیم توسعه‌دهنده دیتابیس تحلیلی DuckDB) را نهایی کرد. هانس مولایزن و مارک راسولدت، هم‌بنیان‌گذاران داک‌دی‌بی، همچنان رهبری فنی این پروژه را تحت نظارت AWS ادامه می‌دهند و پروژه به‌صورت متن‌باز با لایسنس MIT و تحت نظارت بنیاد مستقل DuckDB حفظ خواهد شد.<br><br>به‌گفته مدیران AWS، سرعت و بهینگی پردازش داک‌دی‌بی برای بیش از ۹۰ درصد کوئری‌های تحلیلی روزمره (کمتر از ۱ ترابایت) حیاتی است؛ به‌ویژه در پردازش‌های ایجنتیک هوش مصنوعی که ایجنت‌ها قبل از تصمیم‌گیری نیاز به بازرسی سریع داده‌ها دارند. هم‌زمان سرویس Aurora PostgreSQL نیز نخستین قابلیت نیتیو مجهز به DuckDB را برای تحلیل مستقیم داده‌ها روی آمازون S3 بدون نیاز به پایپ‌لاین‌های پیچیده ETL دریافت کرد.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&amp;amp;utm_source=infoq&amp;amp;utm_medium=feed&amp;amp;utm_term=global\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "تصاحب استارتاپ داک‌دی‌بی توسط آمازون و ادغام DuckDB در سرویس Aurora\n\nشرکت آمازون رسما خرید استارتاپ هلندی DuckLabs (تیم توسعه‌دهنده دیتابیس تحلیلی DuckDB) را نهایی کرد. هانس مولایزن و مارک راسولدت، هم‌بنیان‌گذاران داک‌دی‌بی، همچنان رهبری فنی این پروژه را تحت نظارت AWS ادامه می‌دهند و پروژه به‌صورت متن‌باز با لایسنس MIT و تحت نظارت بنیاد مستقل DuckDB حفظ خواهد شد.\n\nبه‌گفته مدیران AWS، سرعت و بهینگی پردازش داک‌دی‌بی برای بیش از ۹۰ درصد کوئری‌های تحلیلی روزمره (کمتر از ۱ ترابایت) حیاتی است؛ به‌ویژه در پردازش‌های ایجنتیک هوش مصنوعی که ایجنت‌ها قبل از تصمیم‌گیری نیاز به بازرسی سریع داده‌ها دارند. هم‌زمان سرویس Aurora PostgreSQL نیز نخستین قابلیت نیتیو مجهز به DuckDB را برای تحلیل مستقیم داده‌ها روی آمازون S3 بدون نیاز به پایپ‌لاین‌های پیچیده ETL دریافت کرد.\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5615",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/EUK30KY1Nd83QPUyzMyCQtaAeV0pdKv3FOT6lf0AoX7b4_bQBYTpAbqhq2VFlGABmKTi2yvme_zup33pcZlRJnqLMNREjFxAsyb5pKRp4MIuarjE6TN1f1fEg-oTzS9s0PkMP0NLECfHsqcjNr34R1syx_4oW312-mzocquhD0CYu80OrmpIsuFSLCZAryKGkR6qOwQ3fZ-yFc09lNLRcij8gt5LSqDFqSEafDhbUpgQyyVpHcF6Jx5UmwHWrzBEETMGHDbsIprkO53I9UNMi8FZPZYF0mJHkfq9rzTFkBIfYMBRd8X70ZHKyomQSFvsxWvmXZr3G8DSIf45B-DU9A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/750f5842bc1832a59a6116cf.jpg",
+          "thumbnail_sha256": "4eb7861f7d90d4ccbaaa1dab4ccc870661134ade19d7043a24077a095675dc32",
+          "duration_label": null,
+          "aspect_ratio": 1.909307875894988
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "1.07K",
+      "posted_at": "2026-10-19T05:57:23+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5615",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5614",
       "author_name": "Matin SenPai",
@@ -35,7 +68,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "90"
+          "count": "92"
         },
         {
           "emoji": "👍",
@@ -58,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.22K",
+      "views_label": "5.56K",
       "posted_at": "2026-10-19T03:45:28+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5614",
@@ -80,7 +113,7 @@
         },
         {
           "emoji": "❤",
-          "count": "49"
+          "count": "50"
         },
         {
           "emoji": "👍",
@@ -91,7 +124,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.4K",
+      "views_label": "12.7K",
       "posted_at": "2026-10-18T21:55:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5613",
@@ -120,7 +153,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.6K",
+      "views_label": "15.8K",
       "posted_at": "2026-10-18T20:45:26+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5612",
@@ -138,14 +171,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "108"
+          "count": "109"
         },
         {
           "emoji": "👍",
           "count": "6"
         }
       ],
-      "views_label": "16.7K",
+      "views_label": "17K",
       "posted_at": "2026-10-18T20:35:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5611",
@@ -195,7 +228,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "93"
+          "count": "94"
         },
         {
           "emoji": "👍",
@@ -210,7 +243,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.2K",
+      "views_label": "19.4K",
       "posted_at": "2026-10-18T19:16:16+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5609",
@@ -249,7 +282,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "174"
+          "count": "176"
         },
         {
           "emoji": "💯",
@@ -272,7 +305,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.1K",
+      "views_label": "19.2K",
       "posted_at": "2026-10-18T19:11:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5608",
@@ -301,7 +334,7 @@
           "count": "5"
         }
       ],
-      "views_label": "18.3K",
+      "views_label": "18.4K",
       "posted_at": "2026-10-18T18:50:06+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5607",
@@ -359,7 +392,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.2K",
+      "views_label": "18.3K",
       "posted_at": "2026-10-18T18:47:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5606",
@@ -434,7 +467,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.3K",
+      "views_label": "19.4K",
       "posted_at": "2026-10-18T18:35:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5603",
@@ -484,7 +517,7 @@
           "count": "5"
         }
       ],
-      "views_label": "19.8K",
+      "views_label": "19.9K",
       "posted_at": "2026-10-18T18:13:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5602",
@@ -577,7 +610,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "331"
+          "count": "332"
         },
         {
           "emoji": "❤",
@@ -600,7 +633,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "25.8K",
       "posted_at": "2026-10-18T11:41:36+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5600",
@@ -703,7 +736,7 @@
           "count": "3"
         }
       ],
-      "views_label": "33.6K",
+      "views_label": "33.7K",
       "posted_at": "2026-10-17T16:12:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5598",
@@ -4508,63 +4541,6 @@
       "posted_at": "2026-10-05T09:00:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5511",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5510",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/lFeoT09pnOBJHJOonf5e-tp6dBhjxgx6XUvJ8G0qAl1xEGiDsUFulGRZbDukptJzrYFJg80LVXAQNV0RF19IziyNzeV61WSIjdmjoJk5NdQu9yk3ioXJAkAxavA-ZL57r3ZjpqNSPh7ZMt4rqXvUYjFLaamdsxI2UbkeHT5ydnP2mcGqQGqpg3BwcP8E-3_GbUszkdpIKxfwZlkbAbx5KqGVKinxF-dT6Vo2k-uPw86U5RbvUxU_kWBZddsbcnqUtC8mvfVp1szgA7YSBuQq5kXzsrL3ZMy-h2-y8OqVllukngc2fWGN6YJIZth-3-YLm75uV8iQUvXDAiCDi70lwA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/d863ccbd17646d361c9b640e.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "طبق آمار رادار کلودفلر، از ۲ روز گذشته ترافیک ایران به کلودفلر به شدت کمتر شده. اکثر کانفیگ‌ها و اتصالات به کلودفلر مثل وبسوکت و xHttp مختل شدن، فرگمنت روی همراه اول و مخابرات بسته شده و روی ایرانسل ضعیف کار میکنه؛ همینطور پروتکل UDP به سمت کلودفلر کلاً بلاک شده و اکثر رنج آیپی‌های هتزنر و OVH از بیخ بلاک شدن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> mahsanet<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "طبق آمار رادار کلودفلر، از ۲ روز گذشته ترافیک ایران به کلودفلر به شدت کمتر شده. اکثر کانفیگ‌ها و اتصالات به کلودفلر مثل وبسوکت و xHttp مختل شدن، فرگمنت روی همراه اول و مخابرات بسته شده و روی ایرانسل ضعیف کار میکنه؛ همینطور پروتکل UDP به سمت کلودفلر کلاً بلاک شده و اکثر رنج آیپی‌های هتزنر و OVH از بیخ بلاک شدن.\n\n© mahsanet\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5510",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Z_rPabP-EHdTQfbRL8YmHjMbWNfStiv0BBCcDha4JKf4Lmyk2Njc7YqhECllUq0W552q19JY-llrMxWVK0fkJTCmdDXQ2IsVTCcAMporJ4hyJ8_mTuWJDODRTc0_zYfw7GQPcDWbpaSMH1NujtMTd0AzvxQienem4CK51hlclw932RSToRV9YQDjnQ9xOGmQiYMT0r6Bz_7I5NqeE5XDfl4AMmspoJAl_xTPV3Vy5_a42aHkGmn53_G46nQbPsNZXD34JAvr9aoWqPrKq_erv8iAwrhuaerk9ePLISRvjTNqAN9m0dMvVqlpsMmU1zIo16IlOpcPL8615NGCMn6hoA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/11c7208a569ee62c0e8fd35b.jpg",
-          "thumbnail_sha256": "5667889e21d34ab723c9a8fe1f6892c0d263387af7ba6e36060203f66bc2a56d",
-          "duration_label": null,
-          "aspect_ratio": 3.1372549019607843
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "322"
-        },
-        {
-          "emoji": "💔",
-          "count": "204"
-        },
-        {
-          "emoji": "❤",
-          "count": "28"
-        },
-        {
-          "emoji": "😁",
-          "count": "7"
-        },
-        {
-          "emoji": "💯",
-          "count": "5"
-        },
-        {
-          "emoji": "🆒",
-          "count": "2"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        }
-      ],
-      "views_label": "31.1K",
-      "posted_at": "2026-10-05T04:53:01+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5510",
       "reply": null
     }
   ]
