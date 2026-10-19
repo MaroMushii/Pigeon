@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-19T10:12:14.114Z",
+  "fetched_at": "2026-10-19T10:17:23.405Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,52 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/2035",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/rx8da1vqTriwbqQXZKYyp0EtRPOGnkaC8e6lx8tZ7zFRSpqD-fCUJy1vS2ITs3qv4yK7fl3VL7q5IvkTORMMEAY7rL8HyX_kzWVKf9wZrAyb1BwuIap3qOsU9ByqD5BenWWe7vqxTy9SORKOha34dZD6-IT_aHLffJ_LIgzHHKs1xJthktPHK3i3z1vE0UlBed_iBE98hdkCd85mpgWvv2SFbbx3quU77NKiASHUaPQNgWN4_81h9oIEdeJ0dvtR3C_UYI8apvPKFesfJFpAUDvG3R_6ij7yiDDPfh4up1INM0mkCFwjulI8Tl0Fi_YksCm0gzumVQqiGor0BreYfA.jpg",
+      "author_photo_path": "channels/whitedns/media/b4c89e29d525aae2486e3a49.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "لیست گلچین آی‌پی‌ها و دامنه‌های تمیز (تاییدشده با هندشیک فرگمنت):<br><blockquote expandable=\"\"><code>172.64.155.209</code><br><code>104.17.147.16</code><br><code>141.101.120.89</code><br><code>141.101.120.172</code><br><code>141.101.120.117</code><br><code>162.159.135.9</code><br><code>172.64.155.117</code><br><code>188.114.99.30</code><br><a href=\"http://104.16.142.190/\" target=\"_blank\" rel=\"noopener\">104.16.142.190</a><br><code>162.159.133.82</code><br><code>192.133.11.233</code><br><code>198.41.209.7</code><br><code>cloudinary.com</code><br><code>www.garmin.com</code><br><code>www.zendesk.com</code></blockquote><br><br>پروفایل های عمومی:<br><br>پروفایل 1):<br><blockquote expandable=\"\">cipherSuites:<br><code>TLS_AES_128_GCM_SHA256:TLS_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</code><br>finalMask:<br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"100\", \"6\", \"6\", \"6\"], \"delays\": [\"0\"], \"maxSplit\": \"4\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"110\", \"6\", \"6\", \"6\"], \"delays\": [\"1-2\"], \"maxSplit\": \"4\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}</code></blockquote><br><br>پروفایل 2):<br><blockquote expandable=\"\">cipherSuites:<br><code>TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256</code><br>finalMask:<br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"120\", \"6\", \"6\", \"6\"], \"delays\": [\"0\"], \"maxSplit\": \"4\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"130\", \"6\", \"6\", \"6\"], \"delays\": [\"1-2\"], \"maxSplit\": \"4\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}</code></blockquote><br><br>پروفایل 3):<br><blockquote expandable=\"\">cipherSuites:<br><code>TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256</code><br>finalMask:<br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"108\", \"6\", \"6\"], \"delays\": [\"0\"], \"maxSplit\": \"3\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"118\", \"6\", \"6\"], \"delays\": [\"1-2\"], \"maxSplit\": \"3\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}</code></blockquote><br><br>پروفایل های 2 پکتی:<br><br>پروفایل 1):<br><blockquote expandable=\"\">cipherSuites:<br><code>TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256</code><br>finalMask:<br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"132\"], \"delays\": [\"0\"], \"maxSplit\": \"1\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"141\"], \"delays\": [\"2\"], \"maxSplit\": \"1\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}</code></blockquote><br><br>پروفایل 2):<br><blockquote expandable=\"\">cipherSuites:<br><code>TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256</code><br>finalMask:<br>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"117\"], \"delays\": [\"0\"], \"maxSplit\": \"1\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"129\"], \"delays\": [\"2\"], \"maxSplit\": \"1\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}</blockquote><br><br><br><a href=\"https://t.me/LabAlan\" target=\"_blank\">@LabAlan</a>",
+      "plain_text": "لیست گلچین آی‌پی‌ها و دامنه‌های تمیز (تاییدشده با هندشیک فرگمنت):\n172.64.155.209\n104.17.147.16\n141.101.120.89\n141.101.120.172\n141.101.120.117\n162.159.135.9\n172.64.155.117\n188.114.99.30\n104.16.142.190\n162.159.133.82\n192.133.11.233\n198.41.209.7\ncloudinary.com\nwww.garmin.com\nwww.zendesk.com\n\nپروفایل های عمومی:\n\nپروفایل 1):\ncipherSuites:\nTLS_AES_128_GCM_SHA256:TLS_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256\nfinalMask:\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"100\", \"6\", \"6\", \"6\"], \"delays\": [\"0\"], \"maxSplit\": \"4\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"110\", \"6\", \"6\", \"6\"], \"delays\": [\"1-2\"], \"maxSplit\": \"4\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}\n\nپروفایل 2):\ncipherSuites:\nTLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256\nfinalMask:\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"120\", \"6\", \"6\", \"6\"], \"delays\": [\"0\"], \"maxSplit\": \"4\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"130\", \"6\", \"6\", \"6\"], \"delays\": [\"1-2\"], \"maxSplit\": \"4\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}\n\nپروفایل 3):\ncipherSuites:\nTLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256\nfinalMask:\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"108\", \"6\", \"6\"], \"delays\": [\"0\"], \"maxSplit\": \"3\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"118\", \"6\", \"6\"], \"delays\": [\"1-2\"], \"maxSplit\": \"3\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}\n\nپروفایل های 2 پکتی:\n\nپروفایل 1):\ncipherSuites:\nTLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256\nfinalMask:\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"132\"], \"delays\": [\"0\"], \"maxSplit\": \"1\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"141\"], \"delays\": [\"2\"], \"maxSplit\": \"1\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}\n\nپروفایل 2):\ncipherSuites:\nTLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256\nfinalMask:\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"117\"], \"delays\": [\"0\"], \"maxSplit\": \"1\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"129\"], \"delays\": [\"2\"], \"maxSplit\": \"1\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}\n\n\n@LabAlan",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "347",
+      "posted_at": "2026-10-19T10:14:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2035",
+      "reply": null
+    },
+    {
+      "id": "whitedns/2036",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/rx8da1vqTriwbqQXZKYyp0EtRPOGnkaC8e6lx8tZ7zFRSpqD-fCUJy1vS2ITs3qv4yK7fl3VL7q5IvkTORMMEAY7rL8HyX_kzWVKf9wZrAyb1BwuIap3qOsU9ByqD5BenWWe7vqxTy9SORKOha34dZD6-IT_aHLffJ_LIgzHHKs1xJthktPHK3i3z1vE0UlBed_iBE98hdkCd85mpgWvv2SFbbx3quU77NKiASHUaPQNgWN4_81h9oIEdeJ0dvtR3C_UYI8apvPKFesfJFpAUDvG3R_6ij7yiDDPfh4up1INM0mkCFwjulI8Tl0Fi_YksCm0gzumVQqiGor0BreYfA.jpg",
+      "author_photo_path": "channels/whitedns/media/b4c89e29d525aae2486e3a49.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "پروفایل قدرت اپلود:<br><blockquote expandable=\"\">cipherSuites:<br><code>TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256</code><br>finalMask:<br><code>{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"121\"], \"delays\": [\"0\"], \"maxSplit\": \"1\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"131\"], \"delays\": [\"2\"], \"maxSplit\": \"1\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}</code></blockquote><br>کلیدها و سرورهای تاییدشده ECH (Encrypted ClientHello):<br><blockquote expandable=\"\"><code>AEX+DQBBRwAgACA2qHlBMmSMzrtDopRTdNF7BzOqI9WwTQMhs/+KqTprQwAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA=</code><br><br><code>cloudflare-ech.com+udp://76.76.2.0</code><br><code>cloudflare-ech.com+udp://208.67.220.220</code><br><code>cloudflare-ech.com+udp://185.228.168.9</code><br><code>cloudflare-ech.com+udp://9.9.9.9</code><br><code>cloudflare-ech.com+udp://45.90.28.0 </code></blockquote><br><br> آموزش استفاده در کلاینت WhiteVPN:<br><blockquote>مقادیر alpn و ciphersuites و finalmask رو در بخش تکه‌تکه‌سازی‌اتصال(Fragment) وارد کنید و لینک ساب رو روی ساب عمومی تنظیم کنید<br></blockquote>اموزش استفاده در کلاینت PattNG:<br><br><blockquote>یک کانفیگ وارد کنید در بخش ویرایش کانفیگ مقادیر echConfigList و ciphersuites و alpn و finalmask رو وارد کنید.</blockquote><br><br><br><a href=\"https://t.me/LabAlan\" target=\"_blank\">@LabAlan</a>",
+      "plain_text": "پروفایل قدرت اپلود:\ncipherSuites:\nTLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256\nfinalMask:\n{\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"121\"], \"delays\": [\"0\"], \"maxSplit\": \"1\"}}, {\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"131\"], \"delays\": [\"2\"], \"maxSplit\": \"1\"}}], \"udp\": [{\"type\": \"noise\", \"settings\": {\"reset\": \"28\", \"noise\": [{\"rand\": \"1200-1230\", \"delay\": \"1\"}]}}]}\nکلیدها و سرورهای تاییدشده ECH (Encrypted ClientHello):\nAEX+DQBBRwAgACA2qHlBMmSMzrtDopRTdNF7BzOqI9WwTQMhs/+KqTprQwAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA=\n\ncloudflare-ech.com+udp://76.76.2.0\ncloudflare-ech.com+udp://208.67.220.220\ncloudflare-ech.com+udp://185.228.168.9\ncloudflare-ech.com+udp://9.9.9.9\ncloudflare-ech.com+udp://45.90.28.0\n\nآموزش استفاده در کلاینت WhiteVPN:\nمقادیر alpn و ciphersuites و finalmask رو در بخش تکه‌تکه‌سازی‌اتصال(Fragment) وارد کنید و لینک ساب رو روی ساب عمومی تنظیم کنید\nاموزش استفاده در کلاینت PattNG:\n\nیک کانفیگ وارد کنید در بخش ویرایش کانفیگ مقادیر echConfigList و ciphersuites و alpn و finalmask رو وارد کنید.\n\n\n@LabAlan",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        }
+      ],
+      "views_label": "292",
+      "posted_at": "2026-10-19T10:14:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2036",
+      "reply": null
+    },
     {
       "id": "whitedns/2034",
       "author_name": "White DNS",
@@ -35,7 +81,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "53"
+          "count": "54"
         },
         {
           "emoji": "🙏",
@@ -43,7 +89,7 @@
         },
         {
           "emoji": "❤‍🔥",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👎",
@@ -54,7 +100,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.22K",
+      "views_label": "5.37K",
       "posted_at": "2026-10-19T04:58:20+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2034",
@@ -72,7 +118,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "137"
+          "count": "138"
         },
         {
           "emoji": "👍",
@@ -85,6 +131,10 @@
         {
           "emoji": "💯",
           "count": "2"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "1"
         },
         {
           "emoji": "👎",
@@ -103,7 +153,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.32K",
+      "views_label": "6.42K",
       "posted_at": "2026-10-19T01:43:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2033",
@@ -133,7 +183,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "71"
+          "count": "72"
         },
         {
           "emoji": "🔥",
@@ -150,9 +200,13 @@
         {
           "emoji": "🙏",
           "count": "2"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "1"
         }
       ],
-      "views_label": "6.64K",
+      "views_label": "6.71K",
       "posted_at": "2026-10-19T00:15:51+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2032",
@@ -170,7 +224,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "70"
+          "count": "71"
         },
         {
           "emoji": "🔥",
@@ -185,11 +239,15 @@
           "count": "2"
         },
         {
+          "emoji": "❤‍🔥",
+          "count": "1"
+        },
+        {
           "emoji": "🙏",
           "count": "1"
         }
       ],
-      "views_label": "6.46K",
+      "views_label": "6.5K",
       "posted_at": "2026-10-19T00:15:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2031",
@@ -207,7 +265,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "97"
+          "count": "98"
         },
         {
           "emoji": "👏",
@@ -222,6 +280,10 @@
           "count": "2"
         },
         {
+          "emoji": "❤‍🔥",
+          "count": "1"
+        },
+        {
           "emoji": "👎",
           "count": "1"
         },
@@ -234,7 +296,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.86K",
+      "views_label": "5.93K",
       "posted_at": "2026-10-19T00:11:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2030",
@@ -252,7 +314,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "63"
+          "count": "64"
         },
         {
           "emoji": "🕊",
@@ -267,11 +329,15 @@
           "count": "2"
         },
         {
+          "emoji": "❤‍🔥",
+          "count": "1"
+        },
+        {
           "emoji": "🙏",
           "count": "1"
         }
       ],
-      "views_label": "5.36K",
+      "views_label": "5.42K",
       "posted_at": "2026-10-19T00:11:48+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2029",
@@ -328,7 +394,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.38K",
+      "views_label": "9.4K",
       "posted_at": "2026-10-18T18:13:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2028",
@@ -397,7 +463,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.26K",
+      "views_label": "9.28K",
       "posted_at": "2026-10-18T16:57:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2027",
@@ -1047,6 +1113,10 @@
         }
       ],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "❤",
           "count": "226"
@@ -5272,92 +5342,6 @@
       "posted_at": "2026-10-03T15:40:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1903",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1902",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
-      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "87"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "8"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "11.5K",
-      "posted_at": "2026-10-03T11:47:14+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1902",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1901",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/q5tfXu0b_1P9P-TPxB83G1L81uEaye8KfnF7w9EOjVJ-uJsnnMooK4E4W4dDDNtGYoZKJEwKxlbbgwXxBrzCyS56vbS-RJPaayDKfgEuFnsqvL3Gt6pDRuzOM-EetJRwmeQLq0-GHAGNwBXh6p7i_Txx4Z8Yx2D1ikhkz-SjNhnZ91iJqsjKbYJ_x2-Nxo-iQ6Bgk53WcCmQ3wIkAP1paCsWqmpszzRnNeGpDg2VIefDJf66Ox5K4QHtUESIhQhL_enjZ6ujWwp-iSSrVi9Gz6Ex6BGYDL5QXy8DuqpfF_RZMNQ7Z4HZ83W4X0bA5b2f8EJRZCZOWzePcJMmkwM2jA.jpg",
-      "author_photo_path": "channels/whitedns/media/7edc1fa9e93bc43208b7b5d0.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "برای دسترسی به امکانات جدید نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 میتونید با مراجعه به تب \"پروفایل\" - \"افزودن\" آنها را مشاهده کنید<br><a href=\"https://t.me/whitevpn\" target=\"_blank\">@whitevpn</a>",
-      "plain_text": "برای دسترسی به امکانات جدید نسخهٔ آزمایشی WhiteVPN 1.7.0-beta.1 میتونید با مراجعه به تب \"پروفایل\" - \"افزودن\" آنها را مشاهده کنید\n@whitevpn",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1901",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/RcvwgkqZ8tV7HgMpa4P2uJs0UkX0L_uVJ-j3diBKOyn1ps2I7mK2bT8SIwwRuP7va7lb9VkQ2b1J0P41EDSdaqBLjg3pMaY9YEsdeeHyJmn2T1yYTbTZrbBZlyPCV6mOLW48Zorv1-PPeOmSkPYi8hsk_6itUE3Y1Kr7KprZPvauHeH6NQaAlx5o95vmlvt275a_PkzaOCP28W5BIdRlKTc1sncP246dYnPygnvGGwsYWz-7ETIoZpPKDW2yh1X8c6y20iNPuDs2SIot3AnP2r64H1rMWd82rOtt--sLEB8WwYctAAO4M2jJmIkrfbGS45YOb5DlFuGaLQZwJAjwQg.jpg",
-          "thumbnail_path": "channels/whitedns/media/2f7fb4b553cf82b09564506c.jpg",
-          "thumbnail_sha256": "ec280b62d34c6c0e2328a79ab0ee6d05633aa252b8826ffcf6d8c72e35d5fa5f",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "91"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "10"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        },
-        {
-          "emoji": "🙏",
-          "count": "3"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "10.1K",
-      "posted_at": "2026-10-03T10:46:17+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1901",
       "reply": null
     }
   ]
