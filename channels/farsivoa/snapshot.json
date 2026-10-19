@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-19T16:52:08.949Z",
+  "fetched_at": "2026-10-19T16:57:42.006Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/234258",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/BHYivgWkUH3AJPTkEmNoVLICko28Hk9YU-_-22xFeWHhzTM5EnJY7d0jqs-siCmobW596Uvy6NyqUfZJomHHmv0P_5Cu5rt_qB2AVX66ESCPNqDPegNy-Ca483082R7vixMlana27xS5ei_dUGc8V4MSRLLTAKhBnlbNutY2Iik0H7GYLPglhf8Xzf0E1RZMyPrAXJ9duaNdNa4PUX2GrGWpWkcqu2bV8bQtxPAnzOxiBY0rCmVmubk8sENnJXb_AqTnuEGWw2DFp02K7gP_FHHWspfzjWoNyJSuWlz_38xAsQjTfAQrUN9kJ1ayZDqeeI27PucAn6rMFm395y8N-A.jpg",
+      "author_photo_path": "channels/farsivoa/media/63f54b48f5673fa2dd697e67.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "امیر چاهکی می‌گوید جمهوری اسلامی تا زمانی که مسئله رابطه با آمریکا را حل نکند، نمی‌تواند از فرصت‌های جدید تجاری، موج سرمایه‌گذاری‌های تازه در آسیا بهره‌مند شود و همچنان در حاشیه تحولات اقتصادی منطقه باقی خواهد ماند.",
+      "plain_text": "امیر چاهکی می‌گوید جمهوری اسلامی تا زمانی که مسئله رابطه با آمریکا را حل نکند، نمی‌تواند از فرصت‌های جدید تجاری، موج سرمایه‌گذاری‌های تازه در آسیا بهره‌مند شود و همچنان در حاشیه تحولات اقتصادی منطقه باقی خواهد ماند.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/234258",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/qdk1Vf0Mgyq5Ck1bauPaCCL2FkPmLiP3BlEmx2Tdd1Auiga0KF51mqcJqJCpXGMogC1oTw9JHSusFLFxu5oByNhTBSP6if06a2ZT4YRngmof82Bg2Xe8sewgho8f0YcY3wif-PXu1F3AgAThTWzQkvhmag8Y7sKLHLUpN-fFPUxqzSkz1Z3eAK1BTEnxcTZ5OXqS94hRQdLlt_wZnWLUF9kKA2hDvaJgiK-AVryG4UIxPegUm4_ofJfOm2LXPHlByalj-lo4qkyxMwl_24arsoFf6MRE21yZtv0s5n8Rl-hb4PTXiWAwi5Pgl4W4j6Q2FjM81P-Z1yy-u-8Lc_u5RA",
+          "thumbnail_path": "channels/farsivoa/media/c6e0ec670a4f87fe90c4728f.jpg",
+          "thumbnail_sha256": "42093c0c3688b45d767b3035fc02476f4ed544a9bb752ee532cee9a577b10363",
+          "duration_label": "1:26",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "70",
+      "posted_at": "2026-10-19T16:56:25+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/234258",
+      "reply": null
+    },
+    {
       "id": "farsivoa/234257",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/BHYivgWkUH3AJPTkEmNoVLICko28Hk9YU-_-22xFeWHhzTM5EnJY7d0jqs-siCmobW596Uvy6NyqUfZJomHHmv0P_5Cu5rt_qB2AVX66ESCPNqDPegNy-Ca483082R7vixMlana27xS5ei_dUGc8V4MSRLLTAKhBnlbNutY2Iik0H7GYLPglhf8Xzf0E1RZMyPrAXJ9duaNdNa4PUX2GrGWpWkcqu2bV8bQtxPAnzOxiBY0rCmVmubk8sENnJXb_AqTnuEGWw2DFp02K7gP_FHHWspfzjWoNyJSuWlz_38xAsQjTfAQrUN9kJ1ayZDqeeI27PucAn6rMFm395y8N-A.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺وعده ماسک: یک سهم از «اِسپیس‌ایکس» برای هر کودک آمریکایی\n\n▪️یک روز پس از آنکه شرکت «آنتروپیک» در پستی در شبکه‌های اجتماعی اعلام کرد ۵ درصد از سهام خود را به یک صندوق جدید با هدف «منفعت عمومی» اختصاص می‌دهد، ایلان ماسک وعده داد که سال آینده، یک سهم از شرکت خود، «اِسپیس‌ایکس»، را به «تمام کودکان آمریکایی» اختصاص می‌دهد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/elon-musk-children-under-eighteen-share-spacex/8212824.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1",
+      "views_label": "372",
       "posted_at": "2026-10-19T16:52:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234257",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "734",
+      "views_label": "987",
       "posted_at": "2026-10-19T16:33:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234256",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "893",
+      "views_label": "1.11K",
       "posted_at": "2026-10-19T16:29:58+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234255",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.14K",
+      "views_label": "1.29K",
       "posted_at": "2026-10-19T16:24:41+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234254",
@@ -121,7 +149,7 @@
       "plain_text": "🔺پرزیدنت ترامپ از ابتکار جدید دولت آمریکا برای ارتقای سلامت زنان رونمایی کرد\n\n▪️دونالد ترامپ، رئیس جمهوری ایالات متحده آمریکا، در مراسمی با حضور ملانیا ترامپ، بانوی اول آمریکا، از ابتکار جدید دولت خود برای ارتقای سلامت زنان رونمایی کرد. این طرح شامل ایجاد بخشی ویژه در مؤسسات ملی بهداشت آمریکا و تشکیل یک کارگروه در کاخ سفید برای گسترش تحقیقات پزشکی و بهبود خدمات درمانی زنان است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/trump-unveils-women-s-health-initiative/8212811.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.34K",
+      "views_label": "1.5K",
       "posted_at": "2026-10-19T16:17:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234253",
@@ -149,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.19K",
+      "views_label": "1.31K",
       "posted_at": "2026-10-19T16:16:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234252",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.03K",
+      "views_label": "1.12K",
       "posted_at": "2026-10-19T16:16:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234251",
@@ -193,7 +221,7 @@
       "plain_text": "🔺حکومت ایران یک جوان معترض دیگر را به اعدام محکوم کرد\n\n▪️کانون حقوق بشر ایران روز دوشنبه ۲۷ مهر اعلام کرد همایون شبانکار، معترض ۲۲ ساله، فعال حقوق حیوانات و هنرمند، از سوی شعبه دوم دادگاه انقلاب کرج به اعدام محکوم شده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-us-execution-homayoun-shabankar-regime-authorities/8212806.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.3K",
+      "views_label": "1.42K",
       "posted_at": "2026-10-19T16:06:04+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234250",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.36K",
+      "views_label": "1.45K",
       "posted_at": "2026-10-19T16:02:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234249",
@@ -237,7 +265,7 @@
       "plain_text": "🔺حمله موشکی حوثی‌ها به یک مرکز آموزشی در یمن؛ ۵۳ سرباز کشته شدند\n\n▪️حمله حوثی‌ها به یک مرکز آموزش نظامی در استان شبوه با موشک‌های بالستیک، تلفات سنگینی به همراه داشت و مقامات دولت قانونی یمن آن را یک عملیات تروریستی توصیف کردند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/houthi-attack-yemen-shabwa-killing-terrorism/8212804.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.31K",
+      "views_label": "1.39K",
       "posted_at": "2026-10-19T15:59:54+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234248",
@@ -253,7 +281,7 @@
       "plain_text": "🔺جمهوری اسلامی به‌دنبال کشت خشخاش؛ «پزشکیان پیگیر» است\n\n▪️دبیرکل اسبق ستاد مبارزه با مواد مخدر روز دوشنبه ۲۷ مهر در گفتگو با خبرگزاری حکومتی ایسنا از تلاش مقامات جمهوری اسلامی برای آغاز مجدد کشت خشخاش «به صورت قانونی» در ایران خبر داد و گفت مسعود پزشکیان هم در دوره وزارت بهداشت و هم در زمان کنونی ریاست جمهوری علاقمند و پیگیر این موضوع بوده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/8212797.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.42K",
+      "views_label": "1.5K",
       "posted_at": "2026-10-19T15:56:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234247",
@@ -281,7 +309,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.42K",
+      "views_label": "1.5K",
       "posted_at": "2026-10-19T15:50:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234246",
@@ -309,7 +337,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.68K",
+      "views_label": "1.76K",
       "posted_at": "2026-10-19T15:37:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234245",
@@ -325,7 +353,7 @@
       "plain_text": "🔺وزارت خارجه آمریکا در سالگرد بازداشت کارکنانش توسط حوثی‌ها: «جرم» آن‌ها کمک‌های بشردوستانه است\n\n◾️وزارت خارجه آمریکا روز دوشنبه ۲۷ مهر، در پنجمین سالگرد بازداشت بیش از ۲۰ نفر از کارکنان فعلی و سابق سفارت این کشور در صنعا در بیانیه‌ای نوشت: «این افراد همچنان از سوی حوثی‌های مورد حمایت جمهوری اسلامی ایران در بازداشت هستند.»\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/five-year-detention-twenty-us-embassy-employees-release-houthi/8212784.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.77K",
+      "views_label": "1.81K",
       "posted_at": "2026-10-19T15:32:40+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/234244",
@@ -353,7 +381,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.61K",
+      "views_label": "1.65K",
       "posted_at": "2026-10-19T15:29:03+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234243",
@@ -369,7 +397,7 @@
       "plain_text": "🔺سفر روبیو به آسیای مرکزی؛ آمریکا و ازبکستان قرارداد ۱۲ میلیارد دلاری امضا کردند\n\n◾️دولت ازبکستان از امضای ۵۴ توافق اقتصادی به ارزش ۱۲ میلیارد دلار با ایالات متحده آمریکا هم‌زمان با سفر مارکو روبیو، وزیر امور خارجه آمریکا، به آن کشور خبر داد. سفر روبیو با هدف گسترش روابط تجاری، سرمایه‌گذاری و همکاری‌های راهبردی آمریکا با کشورهای آسیای مرکزی انجام شده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/rubio-secures-12-billion-agreements/8212789.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.7K",
+      "views_label": "1.74K",
       "posted_at": "2026-10-19T15:26:17+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/234242",
@@ -397,7 +425,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.8K",
+      "views_label": "1.83K",
       "posted_at": "2026-10-19T15:11:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234241",
@@ -413,7 +441,7 @@
       "plain_text": "🔺حماس اظهارنظر مقامات خود درباره حمایت نظامی مصر از عربستان را ممنوع کرد\n\n▪️به گزارش شبکه «آی ۲۴» اسرائیل در روز دوشنبه ۲۷ مهر، حماس به رهبران خود دستور داده است که از انتقاد از قاهره یا اظهار نظر در مورد حمایت نظامی احتمالی این کشور از عربستان سعودی خودداری کنند تا آسیبی به روابط خود با مصر وارد نشود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/hamas-yemen-houthi-egypt-saudi-war/8212779.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.93K",
+      "views_label": "1.97K",
       "posted_at": "2026-10-19T15:06:19+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234240",
@@ -485,7 +513,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.8K",
+      "views_label": "1.81K",
       "posted_at": "2026-10-19T15:05:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234235",
@@ -2379,34 +2407,6 @@
       "posted_at": "2026-10-18T16:55:16+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/234152",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/234151",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/EFODzkOdwq4vowQsNHK4S7-sPIHFvkIUjYcEw7Qno7eJebIMvntgGguzTmkSTgt2jlq0vE61a5GLvcj2dKC3PeZjSXnxWTCip5HeWjYw2Ae7maUp0_Hb8y7pTuqwODkoj1UiLESpliwuAMfTnry3FwJ7DSq3L_yU-kuCrqienjIXdg_oBlweWvryD1EFyCvtUlbvbmkRPTJDlpacFBzI81sIgsleRxAx8kRWgJgfxLYp110KpitErvZDKzHXqUb_PBQjrtPxtHE2aPNdvEhRfvO7H64l_Ex579jw3dCebfC8vA4NFGSU4qoRrGoZvTzqQKfTiQ3bLDFgaawXGr1rKA.jpg",
-      "author_photo_path": "channels/farsivoa/media/27245550b53bede056a5a683.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "رها بحرینی در گفت‌وگو با فهیمه خضر حیدری در «عمق میدان» قانون اساسی و ساختار قضائی را مشکل اصلی در اجرای عدالت در ایران می‌نامد.",
-      "plain_text": "رها بحرینی در گفت‌وگو با فهیمه خضر حیدری در «عمق میدان» قانون اساسی و ساختار قضائی را مشکل اصلی در اجرای عدالت در ایران می‌نامد.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/234151",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/GvbcPv1jvZg6EbWq6AYZy8f0ucTCC14F6GKcTZggSa11a8-sr1EghV7yYCmaEPcyw3XRM9AJ78bb01SqqQTRqkRdW4tv_biOdK581UlCGkOMcafpiap7OeGisH74mQHwE0wtdq__L2rEamNGcB7-LBvg2ScHzfzuVFnLvAbWVYnHcMvQaZ1g8RIfBe6bXRLbERTIcvukdQRuIqgk90RQr8uPqFVUhxsWXYcVwRht5vxLGMIciIkiuGgQ6BbKr7GIqnveIx-oHsFA3ZMFhnf6l_HWKd2jbqq1qH2hBdAX-KzaHpE6yAU-XZfliGvprQnZgS4TY7COhkBsN3C9_ctsCA",
-          "thumbnail_path": "channels/farsivoa/media/b9ff47f4cf14c818205d2007.jpg",
-          "thumbnail_sha256": "06c49304369feebc61e4e3da8a3a8085e5cc38d2293ed95b0dc9a9de1422b9f5",
-          "duration_label": "1:31",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.26K",
-      "posted_at": "2026-10-18T16:54:21+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/234151",
       "reply": null
     }
   ]
