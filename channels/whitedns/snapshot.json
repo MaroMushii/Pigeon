@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-19T17:22:33.298Z",
+  "fetched_at": "2026-10-19T17:28:20.516Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,55 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/2043",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/rx8da1vqTriwbqQXZKYyp0EtRPOGnkaC8e6lx8tZ7zFRSpqD-fCUJy1vS2ITs3qv4yK7fl3VL7q5IvkTORMMEAY7rL8HyX_kzWVKf9wZrAyb1BwuIap3qOsU9ByqD5BenWWe7vqxTy9SORKOha34dZD6-IT_aHLffJ_LIgzHHKs1xJthktPHK3i3z1vE0UlBed_iBE98hdkCd85mpgWvv2SFbbx3quU77NKiASHUaPQNgWN4_81h9oIEdeJ0dvtR3C_UYI8apvPKFesfJFpAUDvG3R_6ij7yiDDPfh4up1INM0mkCFwjulI8Tl0Fi_YksCm0gzumVQqiGor0BreYfA.jpg",
+      "author_photo_path": "channels/whitedns/media/b4c89e29d525aae2486e3a49.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<b>بررسی فنی و نقش این ابزارها در قطعی سراسری اینترنت:</b><br><br><b>مفهوم و کارکرد CottenRouter:</b> ابزار <b>CottenRouter</b> یک روتر جلویی (Front Router) سبک است که امکان اشتراک‌گذاری <b>یک آی‌پی و پورت عمومی 53 (UDP و TCP)</b> و همچنین پورت‌های DoT و HTTPS را بین چندین بک‌اند مختلف تونل DNS (مانند CottenDNS، MasterDnsVPN، StormDNS و Soar) فراهم می‌کند<br><br> این روتر با خواندن نخستین پرسش DNS و یافتن «طولانی‌ترین پسوند دامنه تطبیق‌یافته» (Longest Matching Suffix)، پکت‌ها را بدون تغییر در بایتهای پروتکل یا دستکاری TLS به بک‌اند مربوطه هدایت می‌کند.<br><br><b>مفهوم و کارکرد CottenDNS:</b> ابزار <b>CottenDNS</b> (که بر پایه پروژه StormDNS و MasterDnsVPN توسعه یافته) یک تونل DNS اختصاصی برای شبکه‌هایی است که پروکسی‌ها و VPNهای معمولی در آن‌ها کاملاً مسدود شده اما بستر DNS همچنان پاسخگوست .<br>این سیستم ترافیک برنامه‌ها را به فریم‌های کوچک خرد کرده، رمزنگاری می‌کند و از مسیر ریزالورهای DNS عبور می‌دهد.همچنین با بهره‌گیری از <b>کنترل‌کننده مسیر آداپتیو (Unified Path Controller)</b>، شناسایی هوشمند MTU و پروتکل‌های ترمیم خطا مانند ARQ و Reed–Solomon FEC، افت پکت شدید و اختلالات مسیر را جبران می‌کند<br><b>چگونه در قطعی سراسری اینترنت ارتباط حفظ شد؟</b> در زمان قطعی کامل یا اختلال شدید اینترنت بین‌الملل در ایران، پروتکل‌های استاندارد ارتباطی و پروتکل‌های رایج VPN به‌طور کامل مسدود شدند. با این حال، زیرساخت شبکه داخلی برای امکان استعلام دامنه‌ها ناچار به باز نگه‌داشتن پورت 53 روی ریزالورهای ISPها بود[5]. ابزارهای <b>CottenDNS</b> و <b>CottenRouter</b> دقیقاً از همین روزنه تنفسی شبکه استفاده کردند تا داده‌ها را در قالب درخواست‌های مشروع DNS به سرورهای خارج از کشور ارسال کنند و با وجود سرعت محدود و افت پکت بالا، امکان تبادل داده و حفظ ارتباطات حیاتی را فراهم سازند<br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "بررسی فنی و نقش این ابزارها در قطعی سراسری اینترنت:\n\nمفهوم و کارکرد CottenRouter: ابزار CottenRouter یک روتر جلویی (Front Router) سبک است که امکان اشتراک‌گذاری یک آی‌پی و پورت عمومی 53 (UDP و TCP) و همچنین پورت‌های DoT و HTTPS را بین چندین بک‌اند مختلف تونل DNS (مانند CottenDNS، MasterDnsVPN، StormDNS و Soar) فراهم می‌کند\n\nاین روتر با خواندن نخستین پرسش DNS و یافتن «طولانی‌ترین پسوند دامنه تطبیق‌یافته» (Longest Matching Suffix)، پکت‌ها را بدون تغییر در بایتهای پروتکل یا دستکاری TLS به بک‌اند مربوطه هدایت می‌کند.\n\nمفهوم و کارکرد CottenDNS: ابزار CottenDNS (که بر پایه پروژه StormDNS و MasterDnsVPN توسعه یافته) یک تونل DNS اختصاصی برای شبکه‌هایی است که پروکسی‌ها و VPNهای معمولی در آن‌ها کاملاً مسدود شده اما بستر DNS همچنان پاسخگوست .\nاین سیستم ترافیک برنامه‌ها را به فریم‌های کوچک خرد کرده، رمزنگاری می‌کند و از مسیر ریزالورهای DNS عبور می‌دهد.همچنین با بهره‌گیری از کنترل‌کننده مسیر آداپتیو (Unified Path Controller)، شناسایی هوشمند MTU و پروتکل‌های ترمیم خطا مانند ARQ و Reed–Solomon FEC، افت پکت شدید و اختلالات مسیر را جبران می‌کند\nچگونه در قطعی سراسری اینترنت ارتباط حفظ شد؟ در زمان قطعی کامل یا اختلال شدید اینترنت بین‌الملل در ایران، پروتکل‌های استاندارد ارتباطی و پروتکل‌های رایج VPN به‌طور کامل مسدود شدند. با این حال، زیرساخت شبکه داخلی برای امکان استعلام دامنه‌ها ناچار به باز نگه‌داشتن پورت 53 روی ریزالورهای ISPها بود[5]. ابزارهای CottenDNS و CottenRouter دقیقاً از همین روزنه تنفسی شبکه استفاده کردند تا داده‌ها را در قالب درخواست‌های مشروع DNS به سرورهای خارج از کشور ارسال کنند و با وجود سرعت محدود و افت پکت بالا، امکان تبادل داده و حفظ ارتباطات حیاتی را فراهم سازند\n\n@whitedns",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "14"
+        }
+      ],
+      "views_label": "627",
+      "posted_at": "2026-10-19T17:24:23+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2043",
+      "reply": null
+    },
+    {
+      "id": "whitedns/2042",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/rx8da1vqTriwbqQXZKYyp0EtRPOGnkaC8e6lx8tZ7zFRSpqD-fCUJy1vS2ITs3qv4yK7fl3VL7q5IvkTORMMEAY7rL8HyX_kzWVKf9wZrAyb1BwuIap3qOsU9ByqD5BenWWe7vqxTy9SORKOha34dZD6-IT_aHLffJ_LIgzHHKs1xJthktPHK3i3z1vE0UlBed_iBE98hdkCd85mpgWvv2SFbbx3quU77NKiASHUaPQNgWN4_81h9oIEdeJ0dvtR3C_UYI8apvPKFesfJFpAUDvG3R_6ij7yiDDPfh4up1INM0mkCFwjulI8Tl0Fi_YksCm0gzumVQqiGor0BreYfA.jpg",
+      "author_photo_path": "channels/whitedns/media/b4c89e29d525aae2486e3a49.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "",
+      "plain_text": "",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2042",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/OefYGYc9XIVESq9bvvLBupIyYjybvwRv8OMuhLqN3bWug4v8Squ2L40-BgINO0N6beynoaW7Ak3I3GreV9H3Xt5VZGt8mmpak1_10DtM_ZU-sfM0-kq0ZRfmUYCtnHSORmq5aOOt63FlrIfx1_muaU-ruDyEfRVv_i0DGVCxZvD6fWGgIeh-X0GCC_VGhv08DGFlweuSssrP7L-FAVk01HUTU2vBS3c-OAeZGtqK8R0exDhT3aSLX3tSlkLjWQ3VfxFrY69vI0OC6ysdNcYnJ4GN2sT58Y5qKmxbbGz8kW3SeiosT1sJuToLOriWNX-q9r_Ouo3FGH72of2YW1wCVQ.jpg",
+          "thumbnail_path": "channels/whitedns/media/6bdb9ca3e6554a3951490ab7.jpg",
+          "thumbnail_sha256": "15098a604a2422c261356dc0fbf187bea7e7be80b76f86e558e4729d71ec33c7",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "597",
+      "posted_at": "2026-10-19T17:24:16+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2042",
+      "reply": null
+    },
     {
       "id": "whitedns/2041",
       "author_name": "White DNS",
@@ -35,7 +84,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "59"
+          "count": "60"
         },
         {
           "emoji": "🥱",
@@ -58,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.14K",
+      "views_label": "3.45K",
       "posted_at": "2026-10-19T16:24:55+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2041",
@@ -80,7 +129,7 @@
         },
         {
           "emoji": "🤣",
-          "count": "357"
+          "count": "360"
         },
         {
           "emoji": "❤",
@@ -123,7 +172,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.9K",
+      "views_label": "8.06K",
       "posted_at": "2026-10-19T11:57:16+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2040",
@@ -180,7 +229,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.15K",
+      "views_label": "8.26K",
       "posted_at": "2026-10-19T10:52:19+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2039",
@@ -229,7 +278,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.48K",
+      "views_label": "7.56K",
       "posted_at": "2026-10-19T10:40:18+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2038",
@@ -294,7 +343,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.43K",
+      "views_label": "7.48K",
       "posted_at": "2026-10-19T10:39:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2037",
@@ -312,7 +361,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "66"
+          "count": "67"
         },
         {
           "emoji": "❤‍🔥",
@@ -339,7 +388,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.49K",
+      "views_label": "6.57K",
       "posted_at": "2026-10-19T10:14:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2035",
@@ -380,7 +429,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.45K",
+      "views_label": "6.52K",
       "posted_at": "2026-10-19T10:14:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2036",
@@ -410,7 +459,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "77"
+          "count": "78"
         },
         {
           "emoji": "🙏",
@@ -433,7 +482,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.29K",
+      "views_label": "8.35K",
       "posted_at": "2026-10-19T04:58:20+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2034",
@@ -455,7 +504,7 @@
         },
         {
           "emoji": "👍",
-          "count": "28"
+          "count": "29"
         },
         {
           "emoji": "🤣",
@@ -490,7 +539,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.39K",
+      "views_label": "8.44K",
       "posted_at": "2026-10-19T01:43:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2033",
@@ -520,7 +569,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "85"
+          "count": "86"
         },
         {
           "emoji": "🔥",
@@ -551,7 +600,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.55K",
+      "views_label": "8.57K",
       "posted_at": "2026-10-19T00:15:51+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2032",
@@ -596,7 +645,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.26K",
+      "views_label": "8.29K",
       "posted_at": "2026-10-19T00:15:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2031",
@@ -649,7 +698,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.55K",
+      "views_label": "7.61K",
       "posted_at": "2026-10-19T00:11:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2030",
@@ -690,7 +739,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.12K",
+      "views_label": "7.14K",
       "posted_at": "2026-10-19T00:11:48+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2029",
@@ -781,7 +830,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "151"
+          "count": "152"
         },
         {
           "emoji": "❤‍🔥",
@@ -858,7 +907,7 @@
         },
         {
           "emoji": "⚡",
-          "count": "145"
+          "count": "146"
         },
         {
           "emoji": "❤",
@@ -931,7 +980,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "270"
+          "count": "271"
         },
         {
           "emoji": "👍",
@@ -950,6 +999,10 @@
           "count": "4"
         },
         {
+          "emoji": "🍾",
+          "count": "3"
+        },
+        {
           "emoji": "👏",
           "count": "2"
         },
@@ -959,10 +1012,6 @@
         },
         {
           "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "🍾",
           "count": "2"
         },
         {
@@ -5444,88 +5493,6 @@
       "posted_at": "2026-10-03T22:01:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1914",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1913",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/rhoWiHMht30ahx5HEXiP5uxmubGRIbglKgm3mnyN1Y5S7kRS8bLfLPRdwLvzgQvYSLguewlpqTQj4b05VGbnbO62dMwWYzJcNpUN3XGcq6DQGOhQe_DxtAcewRjvOTE7AYZCZFc551vMLFc2Pu_Qy3j3UCNzO1fdd37Zr1Kc4Foi5l1WkApRK7aKTjxvXqSCimIMeiX_tigXVGqSRF5w3Be5VlVqjZKREziPRaNjC6sSm7-E8gaCxWSOjBeMdH52NlKiZ3MCNQBQTrlzoParRHhNVV2zZPy28Y3E6gg9xlbhoFL26gmb_PYgAOfbu5xPxC8X805KCrL8YUSd2B2R6g.jpg",
-      "author_photo_path": "channels/whitedns/media/ed79162dabfce0501ff17470.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9186.png')\"><b>👆</b></i>این کانفیگ ها را هم برای amneziawg روی آپ whitevpn امتحان کنید <br>یکی از دوستان خوب زحمت کشیدند این کانفیگ ها را بازنویسی کردند <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i>",
-      "plain_text": "👆این کانفیگ ها را هم برای amneziawg روی آپ whitevpn امتحان کنید\nیکی از دوستان خوب زحمت کشیدند این کانفیگ ها را بازنویسی کردند\n❤️",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "151"
-        },
-        {
-          "emoji": "🙏",
-          "count": "8"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        },
-        {
-          "emoji": "🕊",
-          "count": "3"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        }
-      ],
-      "views_label": "17.2K",
-      "posted_at": "2026-10-03T16:24:38+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1913",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1908",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/rhoWiHMht30ahx5HEXiP5uxmubGRIbglKgm3mnyN1Y5S7kRS8bLfLPRdwLvzgQvYSLguewlpqTQj4b05VGbnbO62dMwWYzJcNpUN3XGcq6DQGOhQe_DxtAcewRjvOTE7AYZCZFc551vMLFc2Pu_Qy3j3UCNzO1fdd37Zr1Kc4Foi5l1WkApRK7aKTjxvXqSCimIMeiX_tigXVGqSRF5w3Be5VlVqjZKREziPRaNjC6sSm7-E8gaCxWSOjBeMdH52NlKiZ3MCNQBQTrlzoParRHhNVV2zZPy28Y3E6gg9xlbhoFL26gmb_PYgAOfbu5xPxC8X805KCrL8YUSd2B2R6g.jpg",
-      "author_photo_path": "channels/whitedns/media/ed79162dabfce0501ff17470.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "109"
-        },
-        {
-          "emoji": "👍",
-          "count": "8"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        }
-      ],
-      "views_label": "19.2K",
-      "posted_at": "2026-10-03T16:23:14+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1908",
       "reply": null
     }
   ]
