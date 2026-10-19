@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-19T10:47:08.311Z",
+  "fetched_at": "2026-10-19T10:52:34.757Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,34 @@
     "subscriber_count": "107K"
   },
   "posts": [
+    {
+      "id": "whitedns/2039",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/rx8da1vqTriwbqQXZKYyp0EtRPOGnkaC8e6lx8tZ7zFRSpqD-fCUJy1vS2ITs3qv4yK7fl3VL7q5IvkTORMMEAY7rL8HyX_kzWVKf9wZrAyb1BwuIap3qOsU9ByqD5BenWWe7vqxTy9SORKOha34dZD6-IT_aHLffJ_LIgzHHKs1xJthktPHK3i3z1vE0UlBed_iBE98hdkCd85mpgWvv2SFbbx3quU77NKiASHUaPQNgWN4_81h9oIEdeJ0dvtR3C_UYI8apvPKFesfJFpAUDvG3R_6ij7yiDDPfh4up1INM0mkCFwjulI8Tl0Fi_YksCm0gzumVQqiGor0BreYfA.jpg",
+      "author_photo_path": "channels/whitedns/media/b4c89e29d525aae2486e3a49.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948E.png')\"><b>🔎</b></i> <b>تفاوت پنل WhiteDNS با CottenRouter چیست؟</b><br><br>پروژه <a href=\"https://github.com/TaJirax/CottenRouter\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">CottenRouter</a> امکان اجرای چند تونل روی یک سرور، یک IP و پورت عمومی ۵۳ را فراهم می‌کند. ترافیک هر دامنه را به سرویس مربوط می‌فرستد و برای نصب و مدیریت سرویس‌ها، محیط تعاملی ترمینال دارد. تنوع موتورهای قابل استفاده، از مزیت‌های مهم آن است.<br><b>WhiteDNS روی مدیریت یکپارچهٔ کاربران Soar و Cotten از داخل پنل وب تمرکز دارد.</b> مزیت‌های این رویکرد:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F91A4.png')\"><b>👤</b></i> <b>مدیریت جداگانهٔ کاربران</b><br>برای هر کاربر حساب بسازید، حجم، تاریخ انقضا، سرعت و سقف اتصال هم‌زمان تعیین کنید و مصرف او را ببینید. ویرایش، غیرفعال‌سازی و حذف جمعی حساب‌ها از مرورگر انجام می‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <b>دو موتور با یک حساب و یک ساب</b><br>می‌توانید Soar و Cotten را برای یک حساب فعال کنید. کاربر پروفایل‌های هر دو موتور را از یک ساب دریافت می‌کند و مصرف آن‌ها از سهمیهٔ مشترک حساب محاسبه می‌شود. فعال‌کردن موتور دوم هم دامنه و رکورد DNS جداگانه نمی‌خواهد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> <b>دامنه‌های جایگزین بدون ساخت مجدد حساب‌ها</b><br>تا ۸ دامنهٔ تونل اضافه کنید و هنگام تغییر دامنه، حساب‌ها، کلیدها و مصرف قبلی را حفظ کنید. پس از تازه‌سازی ساب، کاربر می‌تواند پروفایل دامنهٔ جایگزین را انتخاب کند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> <b>چند آدرس امن برای ورود به پنل</b><br>تا ۸ آدرس HTTPS برای پنل داشته باشید. گواهی‌ها پیش از اعمال تغییر آماده می‌شوند و می‌توانید هنگام تعویض دامنه، آدرس قبلی را هم فعال نگه دارید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> <b>نصب و نگهداری در یک روند مشخص</b><br>نصب‌کننده، DNS و اتصال واقعی هر دو موتور را بررسی می‌کند. مدیریت روزمره، پشتیبان‌گیری و به‌روزرسانی نیز از پنل در دسترس‌اند.<br>مزیت اصلی WhiteDNS، <b>کنترل کاربران و سهمیه‌ها و مدیریت دامنه‌های جایگزین در یک پنل واحد</b> است؛ CottenRouter برای کنار هم قراردادن پروژه‌های متنوع‌تر و مسیریابی میان آن‌ها امکانات گسترده‌تری دارد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/releases/tag/panel-v0.5.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دریافت WhiteDNS 0.5.0 و راهنمای نصب</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🔎 تفاوت پنل WhiteDNS با CottenRouter چیست؟\n\nپروژه CottenRouter امکان اجرای چند تونل روی یک سرور، یک IP و پورت عمومی ۵۳ را فراهم می‌کند. ترافیک هر دامنه را به سرویس مربوط می‌فرستد و برای نصب و مدیریت سرویس‌ها، محیط تعاملی ترمینال دارد. تنوع موتورهای قابل استفاده، از مزیت‌های مهم آن است.\nWhiteDNS روی مدیریت یکپارچهٔ کاربران Soar و Cotten از داخل پنل وب تمرکز دارد. مزیت‌های این رویکرد:\n👤 مدیریت جداگانهٔ کاربران\nبرای هر کاربر حساب بسازید، حجم، تاریخ انقضا، سرعت و سقف اتصال هم‌زمان تعیین کنید و مصرف او را ببینید. ویرایش، غیرفعال‌سازی و حذف جمعی حساب‌ها از مرورگر انجام می‌شود.\n🔗 دو موتور با یک حساب و یک ساب\nمی‌توانید Soar و Cotten را برای یک حساب فعال کنید. کاربر پروفایل‌های هر دو موتور را از یک ساب دریافت می‌کند و مصرف آن‌ها از سهمیهٔ مشترک حساب محاسبه می‌شود. فعال‌کردن موتور دوم هم دامنه و رکورد DNS جداگانه نمی‌خواهد.\n🌐 دامنه‌های جایگزین بدون ساخت مجدد حساب‌ها\nتا ۸ دامنهٔ تونل اضافه کنید و هنگام تغییر دامنه، حساب‌ها، کلیدها و مصرف قبلی را حفظ کنید. پس از تازه‌سازی ساب، کاربر می‌تواند پروفایل دامنهٔ جایگزین را انتخاب کند.\n🔐 چند آدرس امن برای ورود به پنل\nتا ۸ آدرس HTTPS برای پنل داشته باشید. گواهی‌ها پیش از اعمال تغییر آماده می‌شوند و می‌توانید هنگام تعویض دامنه، آدرس قبلی را هم فعال نگه دارید.\n🛠 نصب و نگهداری در یک روند مشخص\nنصب‌کننده، DNS و اتصال واقعی هر دو موتور را بررسی می‌کند. مدیریت روزمره، پشتیبان‌گیری و به‌روزرسانی نیز از پنل در دسترس‌اند.\nمزیت اصلی WhiteDNS، کنترل کاربران و سهمیه‌ها و مدیریت دامنه‌های جایگزین در یک پنل واحد است؛ CottenRouter برای کنار هم قراردادن پروژه‌های متنوع‌تر و مسیریابی میان آن‌ها امکانات گسترده‌تری دارد.\n📥 دریافت WhiteDNS 0.5.0 و راهنمای نصب\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2039",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/aGKe-HtUkfbMYzvQNetOkWsGsPUOd80Y_Kv2U--xUo6BFUjJvX3Fe647GmKJNoQw8tjRoROGBoX9T7jEbQhzMmDNkuXAvIbRt2JE-vbH_XCcqvIT8OL8Z3lLFox3d4cXoR6HGxqfnKjzWjgRRC6UNHguM-5np-56Rj7nCTs1oRm02ExKutXCn9CCQ30Iz9QC7ngkaZZ-2jtNYAZYx4cEgSpofZlHlUZ1KKL84M6e0-ZW9EVShUAIvgRAGNkFUOFU4WTnUvd6Ln4nte7Avg1EHRaF09CZt7kPHMTtjjtAlVDuKoFc2CqJd71KDuMT5U8dZeTJAluj7ezE615rAcQ43Q.jpg",
+          "thumbnail_path": "channels/whitedns/media/b58174fcc389c39f39757df5.jpg",
+          "thumbnail_sha256": "6ed658fc2b4e62a0390cae8f9bac42c9219d7d708c8d7d2bd92dc0160da2f6a8",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-10-19T10:52:19+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2039",
+      "reply": null
+    },
     {
       "id": "whitedns/2038",
       "author_name": "White DNS",
@@ -23,18 +51,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "19"
+          "count": "28"
         },
         {
           "emoji": "🤷‍♂",
-          "count": "4"
+          "count": "7"
         },
         {
           "emoji": "👎",
-          "count": "1"
+          "count": "3"
         }
       ],
-      "views_label": "932",
+      "views_label": "1.33K",
       "posted_at": "2026-10-19T10:40:18+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2038",
@@ -64,7 +92,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "22"
+          "count": "28"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "2"
         },
         {
           "emoji": "🤔",
@@ -75,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "993",
+      "views_label": "1.38K",
       "posted_at": "2026-10-19T10:39:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2037",
@@ -93,18 +125,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "31"
+          "count": "32"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "🍓",
           "count": "1"
         }
       ],
-      "views_label": "2.19K",
+      "views_label": "2.39K",
       "posted_at": "2026-10-19T10:14:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2035",
@@ -122,18 +154,18 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "31"
+          "count": "32"
         },
         {
           "emoji": "❤‍🔥",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "🍓",
           "count": "1"
         }
       ],
-      "views_label": "2.26K",
+      "views_label": "2.51K",
       "posted_at": "2026-10-19T10:14:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2036",
@@ -182,7 +214,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.02K",
+      "views_label": "6.12K",
       "posted_at": "2026-10-19T04:58:20+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2034",
@@ -200,7 +232,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "139"
+          "count": "140"
         },
         {
           "emoji": "👍",
@@ -235,7 +267,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.87K",
+      "views_label": "6.9K",
       "posted_at": "2026-10-19T01:43:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2033",
@@ -288,7 +320,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.1K",
+      "views_label": "7.17K",
       "posted_at": "2026-10-19T00:15:51+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2032",
@@ -329,7 +361,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.91K",
+      "views_label": "6.94K",
       "posted_at": "2026-10-19T00:15:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2031",
@@ -378,7 +410,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.27K",
+      "views_label": "6.3K",
       "posted_at": "2026-10-19T00:11:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2030",
@@ -419,7 +451,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.73K",
+      "views_label": "5.76K",
       "posted_at": "2026-10-19T00:11:48+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2029",
@@ -476,7 +508,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.57K",
+      "views_label": "9.61K",
       "posted_at": "2026-10-18T18:13:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2028",
@@ -545,7 +577,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.38K",
+      "views_label": "9.41K",
       "posted_at": "2026-10-18T16:57:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2027",
@@ -695,7 +727,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.5K",
+      "views_label": "10.6K",
       "posted_at": "2026-10-18T11:27:21+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2025",
@@ -5321,39 +5353,6 @@
       "posted_at": "2026-10-03T15:46:19+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/1906",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1905",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/nAYZeSbIrEqOtyGFAO_BC4fYrArhAYFu75DQuDmWnpgOjLEqc19h8Yo4n2NRQegBnDp4kthy48-Dy9ozq-s-okcF-k1x0chh571sFqsGGk7f8fx7joreZ9zZ3IgBI_DMaF5__nn9z1OEFYlMCQFL2L2bqK2gW9yOVCZ5FOnmzliy3B9mX6H0PMsEGC92cJkMToV6zHSjF69gLUjv1niJULU9pbUNCsWUkH5CSOP5DV0qlmu66o2bJ0ZR213qrYdcioNh-Ww-ziVUoVMQ4q8HDS-35_O4P-3hSePoYlTRePAJfv7CK2E9-saGpNn8oqjO9OvC4I5evDaoXKtn841SAA.jpg",
-      "author_photo_path": "channels/whitedns/media/c1642d9daf0d9bcf9927de54.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "74"
-        },
-        {
-          "emoji": "👎",
-          "count": "6"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "👍",
-          "count": "1"
-        }
-      ],
-      "views_label": "13K",
-      "posted_at": "2026-10-03T15:40:45+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1905",
       "reply": null
     }
   ]
