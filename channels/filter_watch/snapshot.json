@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-21T16:17:57.972Z",
+  "fetched_at": "2026-10-21T16:22:25.045Z",
   "channel": {
     "username": "filter_watch",
     "title": "فیلتربان",
@@ -21,7 +21,7 @@
       "plain_text": "🚨 هشدار امنیتی فوری: انتشار پچ اضطراری برای زیرساخت PHP\n\nتیم امنیتی PHP دو آسیب‌پذیری بحرانی کشف کرده که امکان نفوذ و اجرای کد مخرب روی سرور را فراهم می‌کند. اگر سایت وردپرسی، فروشگاهی یا سرور لینوکسی دارید، این رشته‌توییت را بخوانید و سریع اقدام کنید.\n\n🔍 چه کسانی در معرض خطر هستند؟\n▫️ تمام سایت‌های وردپرس، ووکامرس، دروپال، مجنتو و اسکریپت‌های اختصاصی PHP\n▫️ سایت‌هایی که هنوز روی PHP 5 یا PHP 7 مانده‌اند (این نسخه‌ها پچ رسمی دریافت نمی‌کنند)\n▫️ سرورهایی با شاخه PHP 8 که آخرین به‌روزرسانی امنیتی روی آن‌ها اعمال نشده است\n🛠 همین حالا چه باید کرد؟\n۱. به هاستینگ یا ادمین سرور پیام دهید تا آخرین پچ شاخه‌های PHP 8 را اعمال کند.\n۲. نسخه سایت را از PHP 7/5 به نسخه‌های پایدار ارتقا دهید.\n۳. در صورت تاخیر در آپدیت، موقتاً session.upload_progress.enabled را در php.ini خاموش کنید.\n📩 نیاز به بررسی یا راهنمایی امنیتی دارید؟\nبرای مشاوره و دریافت کمک رایگان، می‌توانید با پشتیبانی گروه میان در ارتباط باشید:\n▫️ تلگرام: @miaan_helpline_bot\n▫️ واتس‌اپ و سیگنال: +46 766 860 503\n▫️ ایمیل: helpdesk@miaan.org\n@Filter_Watch",
       "media": [],
       "reactions": [],
-      "views_label": "186",
+      "views_label": "189",
       "posted_at": "2026-10-21T14:46:56+00:00",
       "edited": true,
       "permalink": "https://t.me/filter_watch/1921",
@@ -41,8 +41,8 @@
           "asset_url": "https://t.me/filter_watch/1920",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/LYvrvAUtowpb80QrgSSwfYWnWHp9A8w8mSOtEdiZFp-3dJnMznT8gxlaXHKS760RHeg7CXeL5SXSgOHnjjy1XFu18Vkn3YPjcT78-YGBFkHYY_7hB8uRShinsEBNjmkAiP78bQ-N-LZkI31G159IcuKXeiqFNgOGf3vkdaygVkPzqMPRXRSe5uUFb5W9v6f0fh8JvKeHrrK9UCdVDtvIKLbCVxlpNg1Mcn9-L2mX5Cas9jutN_PxRtER0jcwmtNPTgWONvFzVSQCRjFZdPWPgg8nfyVgfbjQevfIsvbVM00Rb1q-9HuHkKv_XvCN-XW_rlToh7qnwFN8a2jXGKDVog.jpg",
-          "thumbnail_path": "channels/filter_watch/media/34e12c385f7cdec12f0210fd.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Vafrn6eGgH_am1iNUTzL2FJDEvPUNikF8-gGlT34Av4WnU5d4__vH16PNe1rSgZ9nH9wldOwP8XjLn-8HV9y9Me9h5fZtFzvF6Nsvullk54EDKleRkuOCseQSuXUfVcZ2eW0dAdBTzVcY_a86b--6RU_i8c9uib5hQEdNMO2K2Xqm9GVsslvJqozyHrYVrZMbQrK5ULWmbtqCEM6YNvT4Tm6RjVz4sm3TUDISihJS5RV21KksIf5Uw62SAxFULxieNO46WLAkcxXDVGNs3pxIjD8m401T4qijwYbQnoGAuaPzZJLrx3oL2tgEyeSGL5KqjPzRAGkyH9kfU1sHq4ULQ.jpg",
+          "thumbnail_path": "channels/filter_watch/media/80d2e9316e732eb6b4907237.jpg",
           "thumbnail_sha256": "39330c58c12ca1aeacef3e5b70824362a6b3925cd6aa4bc85c0a3f8d44a42b2b",
           "duration_label": null,
           "aspect_ratio": 0.8
@@ -58,7 +58,7 @@
           "count": "1"
         }
       ],
-      "views_label": "293",
+      "views_label": "294",
       "posted_at": "2026-10-20T16:35:48+00:00",
       "edited": false,
       "permalink": "https://t.me/filter_watch/1920",
@@ -74,7 +74,7 @@
       "plain_text": "🔸پادکست لایه هفتم ۶۱\n\n🔸چه کسی ثبت می‌شود و چه کسی جا می‌ماند\n\n\n🔸 در این قسمت درباره اهمیت آرشیو در ثبت سرکوب، دادخواهی و حفظ روایت‌های تاریخی حرف می‌زنیم و می‌پرسیم چه کسانی به‌دلیل زبان، جنسیت، محل زندگی، محدودیت اینترنت یا خطرهای امنیتی از مستندات جا می‌مانند. به همین بهانه، با حسین و یاس، دو پژوهشگر حوزه رسانه‌های دیجیتال و تحقیقات منبع باز، از تجربه «آرشیو ایران» در نمونیک صحبت می‌کنیم؛ از شیوه حفظ و راستی‌آزمایی شواهد دیجیتال تا این پرسش مهم که چطور می‌شود اسناد را نگه داشت، بدون اینکه امنیت و اختیار صاحبان روایت نادیده گرفته شود.\n\n🔸فردا پادکست 🎧",
       "media": [],
       "reactions": [],
-      "views_label": "616",
+      "views_label": "617",
       "posted_at": "2026-10-17T11:14:39+00:00",
       "edited": false,
       "permalink": "https://t.me/filter_watch/1918",
