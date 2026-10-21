@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-21T05:32:04.039Z",
+  "fetched_at": "2026-10-21T05:37:47.062Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,27 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5634",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/JRB5EEZX7HFzvdUrJ6qQCaK5RjqOqGjZ6XN44_gYZVvpz7gQiW_xVjt9xpBL-YsTHvQrNzuycbCIDhiHKvB8_sSP_cjjNcp4qIoQjsi3pkyEhqSEeLpU4J0aE36SfcC3mSlHAkIxtaKJjJGw1wsOccXxcGOTA4OWsiHcnWylxqizPoi1Hs_VVYyKCc9WJXUkiyPQDX1-esvPD_sI8ADtjaqsVcP0NBdofzOkNQxpv81Ayvx2i7sLKgSZnQWiry4dJEZzNfyxYecT9dAgsPpc-6rXxqfWQ6TLPL5RFJqr4bA4MG5E4y0wfynLljWP8HNis5B1JQrLABHH-mZgTDSJeA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/c2a68667a75d3ae5bd176a9e.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<tg-emoji emoji-id=\"5197288647275071607\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i></tg-emoji> آماده‌سازی سرورهای عمومی WhiteDNS برای شرایط اضطراری اینترنت<br><br>داریم تعدادی سرور عمومی برای اپلیکیشن WhiteDNS آماده و کانفیگ می‌کنیم تا در صورت نیاز، کاربران بتونن ازشون استفاده کنن.<br><br>اگر هنوز با این اپ آشنا نیستید، پیشنهاد می‌کنم حتما ویدیوی آموزشی ما رو در یوتیوب ببینید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA5.png')\"><b>🎥</b></i> <a href=\"https://youtu.be/tz8cj7HzHVI\" target=\"_blank\" rel=\"noopener\">https://youtu.be/tz8cj7HzHVI</a><br><br>اپلیکیشن WhiteDNS با پشتیبانی از MasterDNS، CottonDNS، StormDNS و SOAR در قطعی قبلی اینترنت کمک کرد تا صدها هزار نفر بتونن ارتباطشون رو با اینترنت حفظ کنن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> یه نکته خیلی مهم:<br><br>قرار نیست با این روش‌ها سرعت بالایی داشته باشیم یا تجربه‌ای مشابه VPNهای معمولی بگیریم. این ابزارها برای شرایط اضطراری طراحی شدن؛ زمانی که روش‌های رایج اتصال دیگه کار نمی‌کنن و شاید همین ارتباط محدود، تنها راه باقی‌مونده باشه.<br><br>به همین دلیل پیشنهاد می‌کنیم منتظر قطعی اینترنت نمونید. از الان اپ رو نصب کنید و کار باهاش رو یاد بگیرید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> دانلود آخرین نسخه WhiteDNS:<br><br><a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteDNS-Android/releases/latest</a><br><br>می‌دونیم استفاده از WhiteDNS به سادگی اپ‌های VPN معمولی نیست. بخشی از این پیچیدگی به ماهیت روش‌های اتصال برمی‌گرده و ما هم تلاش کردیم تا جای ممکن کار رو ساده‌تر کنیم.<br><br>دوستانی هم که از ios استفاده میکنن، پیشنهاد ما اپ CoreForge هستش.<br><br>با این حال، بهتره الان که فرصت داریم با این ابزارها آشنا بشیم، نه زمانی که دسترسی به اینترنت محدود شده و حتی پیدا کردن یه راهنمای ساده هم دشواره.<br><br>برای اتصال به این روش یا باید توی گروه ها سرور عمومی پیدا کنید و یا سرور شخصی خودتون رو داشته باشید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i> برای دوستانی که سرور شخصی دارن:<br><br>پیشنهاد می‌کنیم نگاهی هم به پروژه متن‌باز Soar-Server بندازید.<br><br>با استفاده از این پنل می‌تونید CottonDNS و SOAR رو روی سرور خودتون راه‌اندازی کنید و کاربران و دسترسی‌هاشون رو مدیریت کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/Soar-Server</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i> امیدواریم هیچ‌وقت دوباره به این روش‌ها نیاز پیدا نکنیم، اما تجربه قطعی‌های قبلی بهمون نشون داده که آماده بودن خیلی بهتر از غافلگیر شدنه.<br><br>ما هم مثل همیشه تلاش می‌کنیم ابزارهای بیشتری آماده کنیم تا در سخت‌ترین شرایط هم راهی برای اتصال باقی بمونه.<br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "🛡 آماده‌سازی سرورهای عمومی WhiteDNS برای شرایط اضطراری اینترنت\n\nداریم تعدادی سرور عمومی برای اپلیکیشن WhiteDNS آماده و کانفیگ می‌کنیم تا در صورت نیاز، کاربران بتونن ازشون استفاده کنن.\n\nاگر هنوز با این اپ آشنا نیستید، پیشنهاد می‌کنم حتما ویدیوی آموزشی ما رو در یوتیوب ببینید. 👇\n\n🎥 https://youtu.be/tz8cj7HzHVI\n\nاپلیکیشن WhiteDNS با پشتیبانی از MasterDNS، CottonDNS، StormDNS و SOAR در قطعی قبلی اینترنت کمک کرد تا صدها هزار نفر بتونن ارتباطشون رو با اینترنت حفظ کنن.\n\n⚠️ یه نکته خیلی مهم:\n\nقرار نیست با این روش‌ها سرعت بالایی داشته باشیم یا تجربه‌ای مشابه VPNهای معمولی بگیریم. این ابزارها برای شرایط اضطراری طراحی شدن؛ زمانی که روش‌های رایج اتصال دیگه کار نمی‌کنن و شاید همین ارتباط محدود، تنها راه باقی‌مونده باشه.\n\nبه همین دلیل پیشنهاد می‌کنیم منتظر قطعی اینترنت نمونید. از الان اپ رو نصب کنید و کار باهاش رو یاد بگیرید.\n\n📱 دانلود آخرین نسخه WhiteDNS:\n\nhttps://github.com/WhiteDNS/WhiteDNS-Android/releases/latest\n\nمی‌دونیم استفاده از WhiteDNS به سادگی اپ‌های VPN معمولی نیست. بخشی از این پیچیدگی به ماهیت روش‌های اتصال برمی‌گرده و ما هم تلاش کردیم تا جای ممکن کار رو ساده‌تر کنیم.\n\nدوستانی هم که از ios استفاده میکنن، پیشنهاد ما اپ CoreForge هستش.\n\nبا این حال، بهتره الان که فرصت داریم با این ابزارها آشنا بشیم، نه زمانی که دسترسی به اینترنت محدود شده و حتی پیدا کردن یه راهنمای ساده هم دشواره.\n\nبرای اتصال به این روش یا باید توی گروه ها سرور عمومی پیدا کنید و یا سرور شخصی خودتون رو داشته باشید.\n\n🖥 برای دوستانی که سرور شخصی دارن:\n\nپیشنهاد می‌کنیم نگاهی هم به پروژه متن‌باز Soar-Server بندازید.\n\nبا استفاده از این پنل می‌تونید CottonDNS و SOAR رو روی سرور خودتون راه‌اندازی کنید و کاربران و دسترسی‌هاشون رو مدیریت کنید.\n\n🔗 https://github.com/WhiteDNS/Soar-Server\n\n❤️ امیدواریم هیچ‌وقت دوباره به این روش‌ها نیاز پیدا نکنیم، اما تجربه قطعی‌های قبلی بهمون نشون داده که آماده بودن خیلی بهتر از غافلگیر شدنه.\n\nما هم مثل همیشه تلاش می‌کنیم ابزارهای بیشتری آماده کنیم تا در سخت‌ترین شرایط هم راهی برای اتصال باقی بمونه.\n\n@WhiteDNS",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "7"
+        }
+      ],
+      "views_label": "774",
+      "posted_at": "2026-10-21T05:31:38+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5634",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5633",
       "author_name": "Matin SenPai",
@@ -38,7 +59,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.4K",
+      "views_label": "12.8K",
       "posted_at": "2026-10-20T19:35:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5633",
@@ -79,7 +100,7 @@
           "count": "4"
         }
       ],
-      "views_label": "17.4K",
+      "views_label": "17.6K",
       "posted_at": "2026-10-20T16:29:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5632",
@@ -121,7 +142,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18K",
+      "views_label": "18.2K",
       "posted_at": "2026-10-20T16:21:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5631",
@@ -170,7 +191,7 @@
           "count": "2"
         }
       ],
-      "views_label": "19.1K",
+      "views_label": "19.3K",
       "posted_at": "2026-10-20T16:14:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5630",
@@ -228,7 +249,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.4K",
+      "views_label": "18.5K",
       "posted_at": "2026-10-20T16:10:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5629",
@@ -292,7 +313,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23K",
+      "views_label": "23.1K",
       "posted_at": "2026-10-20T12:04:09+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5627",
@@ -341,7 +362,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.4K",
+      "views_label": "25.5K",
       "posted_at": "2026-10-20T07:20:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5626",
@@ -424,7 +445,7 @@
           "count": "7"
         }
       ],
-      "views_label": "27.4K",
+      "views_label": "27.5K",
       "posted_at": "2026-10-19T20:12:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5624",
@@ -520,7 +541,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.3K",
       "posted_at": "2026-10-19T16:29:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5622",
@@ -729,7 +750,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.3K",
       "posted_at": "2026-10-19T08:28:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5617",
@@ -4530,44 +4551,6 @@
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5529",
       "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5528",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/hsYpDWebHjyBXJ0oNvX6tycXeLZGp4ojsOnVCD741QdtED2w3R-vePb7s0vXRMBEIySfSUPKx87FN5CoUIeFLXaMrN2Z7WQumzfb6bkAX25oJP2dKHDWTWQ2aDUq_9G9AekCMAaA9KeSWVhCiToGbS6z4oLsGNOKmPxPswqQQj7eaDPKcQ0TRy0XI7UelkwEss85ZQuLq8XqrsBzGiGSmaGVMTox_seJsWI7CLdf1JqPM_xvkXw2JyGEs-Fns5JJCzpjj5smUPCTp78r7jiEa7m-No6r8V0GZ-KIUtQ6T-7p7Jmfut5IyGBo6wfSPkEa0jSejttGuoFLXupD_48KeQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/5f8020b30c39c60585674e4f.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "گویا هنوز برای همه‌ی یوزرها نیومده<br>احتمالا تا آخر شب اضافه بشه واسه همه",
-      "plain_text": "گویا هنوز برای همه‌ی یوزرها نیومده\nاحتمالا تا آخر شب اضافه بشه واسه همه",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "101"
-        },
-        {
-          "emoji": "👍",
-          "count": "13"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        }
-      ],
-      "views_label": "29.9K",
-      "posted_at": "2026-10-06T10:05:11+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5528",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5527",
-        "author_name": "Matin SenPai",
-        "preview_text": "نانو بنانا 2.1 توی Google Flow در دسترسه(رایگان) با این پروژه می‌تونید کانفیگ مناسب وارد شدن به Flow رو پیدا کنید: https://github.com/MatinSenPai/Gemini-Config-Checker/",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/Vv0C8pgcI1l4BcAQYMZcPy8W2khwvCE6fja1-IIfmoWdyE3WUJKT5Lv_bA65ecym4xaVojdjHizdER2kzZYKUHyp50IbFhaUX8cd72Kuc1642xr-MMfRe8JNJkloD3MC67eE1J3dcYIl8gOnWSNuMFsMn1Cs7wXjt9dUt-vak29quyeQNqvfcd9Erclaivd1SYcWq-y-OOjKAbzUGUXCikUdF2bcFOM3ngmgmjjJLbJqKwDqlMhPtKR4IEPHVRy1MUemjwrMe-JzRorChaIIEY2PpOfOSSrdXOhNnm0zlMtgez21xeO6c6jIOLBskhjDLi05vmvpnPSOzqP56k5ZHQ.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/9052a9c6f4ca461cc6a67914.jpg",
-        "thumbnail_sha256": "3892de906b9fcec394db8dda435b3ef7e35e8d9cf25288e6f4b4fc5ae849ade3",
-        "permalink": "https://t.me/matinsenpaii/5527"
-      }
     }
   ]
 }
