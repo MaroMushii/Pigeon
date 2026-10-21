@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-21T11:07:31.769Z",
+  "fetched_at": "2026-10-21T11:12:12.024Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -12,18 +12,64 @@
   },
   "posts": [
     {
+      "id": "whitedns/2072",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/A3ui_oEiPFX7G58sc5F4lUIfOKGKgGb-As3QvebWig2IsYNbVmyve21Yj3QvBCdopg400cP-a6m6WgdBJ6dfmLX091UplTcyrAzj63kEZMlgMh_5NP3IEvrbws3yeWAFKksVHczCnBoVbvhWUWAMEJmsHuEG-6SiJ06cTgyd7rBPWwZJHsqZG5e0hG-jpG5tRJOe4db3MjGHPVbtwNxTH4J6vWfysLfPqUWe0WHWKDs3Z7UcwU3DLDnh-CPqdfNqmLq8OVrtZGkE5LW28-yFk5fLmNL5X6SyDQn_4uR5xr2FCcKx8uvzi1RSTrBrVYR-pU3lSUOHcOGzkAWsT-GcrA.jpg",
+      "author_photo_path": "channels/whitedns/media/de62de8bf2f5d90ee3f7e915.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "بچه‌ها، همه اینا فعلا تست هستن تا بتونیم خودمون رو آماده کنیم و سرویس‌هامون رو زیر فشار و Load Test بررسی کنیم.<br><br>می‌دونیم که شاید الان یکم اذیت بشید، ولی نتیجه همه این تست‌ها کمک می‌کنه تا سرویس‌های پایدارتر و بهتری داشته باشیم و وقتی واقعا بهشون نیاز دارید، بتونیم بهتر کمکتون کنیم.<br><br>مرسی که تست می‌کنید، مشکلات رو گزارش می‌دید و از همه مهم‌تر، صبر و حوصله به خرج می‌دید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i><br><br>دم همتون گرم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i>",
+      "plain_text": "بچه‌ها، همه اینا فعلا تست هستن تا بتونیم خودمون رو آماده کنیم و سرویس‌هامون رو زیر فشار و Load Test بررسی کنیم.\n\nمی‌دونیم که شاید الان یکم اذیت بشید، ولی نتیجه همه این تست‌ها کمک می‌کنه تا سرویس‌های پایدارتر و بهتری داشته باشیم و وقتی واقعا بهشون نیاز دارید، بتونیم بهتر کمکتون کنیم.\n\nمرسی که تست می‌کنید، مشکلات رو گزارش می‌دید و از همه مهم‌تر، صبر و حوصله به خرج می‌دید. ❤️\n\nدم همتون گرم ❤️",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "18"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "4"
+        }
+      ],
+      "views_label": "134",
+      "posted_at": "2026-10-21T11:10:13+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2072",
+      "reply": null
+    },
+    {
+      "id": "whitedns/2071",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/A3ui_oEiPFX7G58sc5F4lUIfOKGKgGb-As3QvebWig2IsYNbVmyve21Yj3QvBCdopg400cP-a6m6WgdBJ6dfmLX091UplTcyrAzj63kEZMlgMh_5NP3IEvrbws3yeWAFKksVHczCnBoVbvhWUWAMEJmsHuEG-6SiJ06cTgyd7rBPWwZJHsqZG5e0hG-jpG5tRJOe4db3MjGHPVbtwNxTH4J6vWfysLfPqUWe0WHWKDs3Z7UcwU3DLDnh-CPqdfNqmLq8OVrtZGkE5LW28-yFk5fLmNL5X6SyDQn_4uR5xr2FCcKx8uvzi1RSTrBrVYR-pU3lSUOHcOGzkAWsT-GcrA.jpg",
+      "author_photo_path": "channels/whitedns/media/de62de8bf2f5d90ee3f7e915.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "دو کانفیگ جدید whitedns حجم نامحدود یک روزه (3)<br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTkiLCJuYW1lIjoiVGVzdCIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoidTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwicHVibGljX2tleSI6Ink3bTdXTHNjRFlLUUx1MWNIWXlzZmtmMzF5dHFRdDUvSHFMV1d6dUo0OFk9In0sInNvYXJTZXR0aW5ncyI6eyJ0cmFuc3BvcnQiOiJhdXRvIiwiZGlzY292ZXJ5Ijp0cnVlLCJkaXNjb3ZlcnlXYW50IjoyLCJkaXNjb3ZlcnlDb25jdXJyZW5jeSI6MiwiZGlzY292ZXJ5UGFjZU1zIjoxMDAwLCJzYWZlUU5hbWUiOjEwMSwibWF4UU5hbWUiOjI1MywibWF4QW5zd2VyIjoxMjMyLCJob2xkTXMiOjUwMCwibWF4SW5mbGlnaHQiOjEyOCwibWF4UGF0aFdpbmRvdyI6MzIsIm1heFN0cmVhbXMiOjEyOCwic3RyZWFtV2luZG93S2lCIjoyNTYsInNlbmRCdWZmZXJLaUIiOjY0LCJzZXNzaW9uSWRsZVNlY29uZHMiOjkwLCJkaWFsVGltZW91dFNlY29uZHMiOjkwLCJjb3VudHJ5IjoiSVIifX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ</code><br><br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "دو کانفیگ جدید whitedns حجم نامحدود یک روزه (3)\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTkiLCJuYW1lIjoiVGVzdCIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoidTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwicHVibGljX2tleSI6Ink3bTdXTHNjRFlLUUx1MWNIWXlzZmtmMzF5dHFRdDUvSHFMV1d6dUo0OFk9In0sInNvYXJTZXR0aW5ncyI6eyJ0cmFuc3BvcnQiOiJhdXRvIiwiZGlzY292ZXJ5Ijp0cnVlLCJkaXNjb3ZlcnlXYW50IjoyLCJkaXNjb3ZlcnlDb25jdXJyZW5jeSI6MiwiZGlzY292ZXJ5UGFjZU1zIjoxMDAwLCJzYWZlUU5hbWUiOjEwMSwibWF4UU5hbWUiOjI1MywibWF4QW5zd2VyIjoxMjMyLCJob2xkTXMiOjUwMCwibWF4SW5mbGlnaHQiOjEyOCwibWF4UGF0aFdpbmRvdyI6MzIsIm1heFN0cmVhbXMiOjEyOCwic3RyZWFtV2luZG93S2lCIjoyNTYsInNlbmRCdWZmZXJLaUIiOjY0LCJzZXNzaW9uSWRsZVNlY29uZHMiOjkwLCJkaWFsVGltZW91dFNlY29uZHMiOjkwLCJjb3VudHJ5IjoiSVIifX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ\n\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\n@whitedns",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "14"
+        }
+      ],
+      "views_label": "609",
+      "posted_at": "2026-10-21T11:07:14+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2071",
+      "reply": null
+    },
+    {
       "id": "whitedns/2070",
       "author_name": "White DNS",
       "author_photo_url": "https://cdn4.telesco.pe/file/A3ui_oEiPFX7G58sc5F4lUIfOKGKgGb-As3QvebWig2IsYNbVmyve21Yj3QvBCdopg400cP-a6m6WgdBJ6dfmLX091UplTcyrAzj63kEZMlgMh_5NP3IEvrbws3yeWAFKksVHczCnBoVbvhWUWAMEJmsHuEG-6SiJ06cTgyd7rBPWwZJHsqZG5e0hG-jpG5tRJOe4db3MjGHPVbtwNxTH4J6vWfysLfPqUWe0WHWKDs3Z7UcwU3DLDnh-CPqdfNqmLq8OVrtZGkE5LW28-yFk5fLmNL5X6SyDQn_4uR5xr2FCcKx8uvzi1RSTrBrVYR-pU3lSUOHcOGzkAWsT-GcrA.jpg",
       "author_photo_path": "channels/whitedns/media/de62de8bf2f5d90ee3f7e915.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "دو سرورجدید whitedns حجم نامحدود یک روزه (2)<br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiZDQ5ZWFkMTBjYzRmOWViNzUyOTRmY2FkZmJlOGYxYTUiLCJuYW1lIjoidGVzdCAyIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiIyc3BrMmVnbWo2cGxvdXV1N3N3N3gyaHJ1dS5zb2FyLmlyYW5tb3Rvci5iaXoiLCJwdWJsaWNfa2V5IjoiTjJUQ3VEc1c2UTJyM1Q1d3Jma0tad0J5ZnVnMHVCSDY5T3FOVmpYOVhZTT0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "دو سرورجدید whitedns حجم نامحدود یک روزه (2)\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiZDQ5ZWFkMTBjYzRmOWViNzUyOTRmY2FkZmJlOGYxYTUiLCJuYW1lIjoidGVzdCAyIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiIyc3BrMmVnbWo2cGxvdXV1N3N3N3gyaHJ1dS5zb2FyLmlyYW5tb3Rvci5iaXoiLCJwdWJsaWNfa2V5IjoiTjJUQ3VEc1c2UTJyM1Q1d3Jma0tad0J5ZnVnMHVCSDY5T3FOVmpYOVhZTT0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\n@whitedns",
+      "body_html": "دو کانفیگ جدید whitedns حجم نامحدود یک روزه (2)<br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiZDQ5ZWFkMTBjYzRmOWViNzUyOTRmY2FkZmJlOGYxYTUiLCJuYW1lIjoidGVzdCAyIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiIyc3BrMmVnbWo2cGxvdXV1N3N3N3gyaHJ1dS5zb2FyLmlyYW5tb3Rvci5iaXoiLCJwdWJsaWNfa2V5IjoiTjJUQ3VEc1c2UTJyM1Q1d3Jma0tad0J5ZnVnMHVCSDY5T3FOVmpYOVhZTT0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "دو کانفیگ جدید whitedns حجم نامحدود یک روزه (2)\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiZDQ5ZWFkMTBjYzRmOWViNzUyOTRmY2FkZmJlOGYxYTUiLCJuYW1lIjoidGVzdCAyIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiIyc3BrMmVnbWo2cGxvdXV1N3N3N3gyaHJ1dS5zb2FyLmlyYW5tb3Rvci5iaXoiLCJwdWJsaWNfa2V5IjoiTjJUQ3VEc1c2UTJyM1Q1d3Jma0tad0J5ZnVnMHVCSDY5T3FOVmpYOVhZTT0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\n@whitedns",
       "media": [],
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "25"
+          "count": "32"
         },
         {
           "emoji": "❤",
@@ -38,7 +84,7 @@
           "count": "1"
         }
       ],
-      "views_label": "1.55K",
+      "views_label": "1.94K",
       "posted_at": "2026-10-21T10:53:03+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2070",
@@ -50,13 +96,13 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/A3ui_oEiPFX7G58sc5F4lUIfOKGKgGb-As3QvebWig2IsYNbVmyve21Yj3QvBCdopg400cP-a6m6WgdBJ6dfmLX091UplTcyrAzj63kEZMlgMh_5NP3IEvrbws3yeWAFKksVHczCnBoVbvhWUWAMEJmsHuEG-6SiJ06cTgyd7rBPWwZJHsqZG5e0hG-jpG5tRJOe4db3MjGHPVbtwNxTH4J6vWfysLfPqUWe0WHWKDs3Z7UcwU3DLDnh-CPqdfNqmLq8OVrtZGkE5LW28-yFk5fLmNL5X6SyDQn_4uR5xr2FCcKx8uvzi1RSTrBrVYR-pU3lSUOHcOGzkAWsT-GcrA.jpg",
       "author_photo_path": "channels/whitedns/media/de62de8bf2f5d90ee3f7e915.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "دو سرورجدید whitedns حجم نامحدود یک روزه (1)<br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTkiLCJuYW1lIjoiVGVzdCIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoidTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwicHVibGljX2tleSI6Ink3bTdXTHNjRFlLUUx1MWNIWXlzZmtmMzF5dHFRdDUvSHFMV1d6dUo0OFk9In0sInNvYXJTZXR0aW5ncyI6eyJ0cmFuc3BvcnQiOiJhdXRvIiwiZGlzY292ZXJ5Ijp0cnVlLCJkaXNjb3ZlcnlXYW50IjoyLCJkaXNjb3ZlcnlDb25jdXJyZW5jeSI6MiwiZGlzY292ZXJ5UGFjZU1zIjoxMDAwLCJzYWZlUU5hbWUiOjEwMSwibWF4UU5hbWUiOjI1MywibWF4QW5zd2VyIjoxMjMyLCJob2xkTXMiOjUwMCwibWF4SW5mbGlnaHQiOjEyOCwibWF4UGF0aFdpbmRvdyI6MzIsIm1heFN0cmVhbXMiOjEyOCwic3RyZWFtV2luZG93S2lCIjoyNTYsInNlbmRCdWZmZXJLaUIiOjY0LCJzZXNzaW9uSWRsZVNlY29uZHMiOjkwLCJkaWFsVGltZW91dFNlY29uZHMiOjkwLCJjb3VudHJ5IjoiSVIifX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ</code><br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "دو سرورجدید whitedns حجم نامحدود یک روزه (1)\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTkiLCJuYW1lIjoiVGVzdCIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoidTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwicHVibGljX2tleSI6Ink3bTdXTHNjRFlLUUx1MWNIWXlzZmtmMzF5dHFRdDUvSHFMV1d6dUo0OFk9In0sInNvYXJTZXR0aW5ncyI6eyJ0cmFuc3BvcnQiOiJhdXRvIiwiZGlzY292ZXJ5Ijp0cnVlLCJkaXNjb3ZlcnlXYW50IjoyLCJkaXNjb3ZlcnlDb25jdXJyZW5jeSI6MiwiZGlzY292ZXJ5UGFjZU1zIjoxMDAwLCJzYWZlUU5hbWUiOjEwMSwibWF4UU5hbWUiOjI1MywibWF4QW5zd2VyIjoxMjMyLCJob2xkTXMiOjUwMCwibWF4SW5mbGlnaHQiOjEyOCwibWF4UGF0aFdpbmRvdyI6MzIsIm1heFN0cmVhbXMiOjEyOCwic3RyZWFtV2luZG93S2lCIjoyNTYsInNlbmRCdWZmZXJLaUIiOjY0LCJzZXNzaW9uSWRsZVNlY29uZHMiOjkwLCJkaWFsVGltZW91dFNlY29uZHMiOjkwLCJjb3VudHJ5IjoiSVIifX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\n@whitedns",
+      "body_html": "دو کانفیگ جدید whitedns حجم نامحدود یک روزه (1)<br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTkiLCJuYW1lIjoiVGVzdCIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoidTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwicHVibGljX2tleSI6Ink3bTdXTHNjRFlLUUx1MWNIWXlzZmtmMzF5dHFRdDUvSHFMV1d6dUo0OFk9In0sInNvYXJTZXR0aW5ncyI6eyJ0cmFuc3BvcnQiOiJhdXRvIiwiZGlzY292ZXJ5Ijp0cnVlLCJkaXNjb3ZlcnlXYW50IjoyLCJkaXNjb3ZlcnlDb25jdXJyZW5jeSI6MiwiZGlzY292ZXJ5UGFjZU1zIjoxMDAwLCJzYWZlUU5hbWUiOjEwMSwibWF4UU5hbWUiOjI1MywibWF4QW5zd2VyIjoxMjMyLCJob2xkTXMiOjUwMCwibWF4SW5mbGlnaHQiOjEyOCwibWF4UGF0aFdpbmRvdyI6MzIsIm1heFN0cmVhbXMiOjEyOCwic3RyZWFtV2luZG93S2lCIjoyNTYsInNlbmRCdWZmZXJLaUIiOjY0LCJzZXNzaW9uSWRsZVNlY29uZHMiOjkwLCJkaWFsVGltZW91dFNlY29uZHMiOjkwLCJjb3VudHJ5IjoiSVIifX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ</code><br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "دو کانفیگ جدید whitedns حجم نامحدود یک روزه (1)\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTkiLCJuYW1lIjoiVGVzdCIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoidTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwicHVibGljX2tleSI6Ink3bTdXTHNjRFlLUUx1MWNIWXlzZmtmMzF5dHFRdDUvSHFMV1d6dUo0OFk9In0sInNvYXJTZXR0aW5ncyI6eyJ0cmFuc3BvcnQiOiJhdXRvIiwiZGlzY292ZXJ5Ijp0cnVlLCJkaXNjb3ZlcnlXYW50IjoyLCJkaXNjb3ZlcnlDb25jdXJyZW5jeSI6MiwiZGlzY292ZXJ5UGFjZU1zIjoxMDAwLCJzYWZlUU5hbWUiOjEwMSwibWF4UU5hbWUiOjI1MywibWF4QW5zd2VyIjoxMjMyLCJob2xkTXMiOjUwMCwibWF4SW5mbGlnaHQiOjEyOCwibWF4UGF0aFdpbmRvdyI6MzIsIm1heFN0cmVhbXMiOjEyOCwic3RyZWFtV2luZG93S2lCIjoyNTYsInNlbmRCdWZmZXJLaUIiOjY0LCJzZXNzaW9uSWRsZVNlY29uZHMiOjkwLCJkaWFsVGltZW91dFNlY29uZHMiOjkwLCJjb3VudHJ5IjoiSVIifX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiYTdiODFhOTA2NGVjNjMxOGExOThkZmY5ZDkzNjQwMTk6Y290dGVuIiwibmFtZSI6IlRlc3QgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3QudTY0YnZlZGU1cnJycmlteTM3NDVzbnNhZGUuc29hci5pcmFubW90b3IuYml6IiwiZW5jcnlwdGlvbl9rZXkiOiI3MmFiNDljMzI5YjY2ZGNmNjBkNTNjOTA5NzkyZjE4M2E2ZjE4NjE1ZTJiNzA1NDY2YjgwODNkMjc5NDk3ZTdhIiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\n@whitedns",
       "media": [],
       "reactions": [
         {
           "emoji": "❤‍🔥",
-          "count": "31"
+          "count": "36"
         },
         {
           "emoji": "❤",
@@ -71,7 +117,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2K",
+      "views_label": "2.32K",
       "posted_at": "2026-10-21T10:47:34+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2069",
@@ -89,7 +135,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "79"
+          "count": "86"
         },
         {
           "emoji": "❤‍🔥",
@@ -116,7 +162,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.35K",
+      "views_label": "3.48K",
       "posted_at": "2026-10-21T10:22:14+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2068",
@@ -134,7 +180,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "81"
+          "count": "87"
         },
         {
           "emoji": "❤‍🔥",
@@ -153,7 +199,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.55K",
+      "views_label": "3.74K",
       "posted_at": "2026-10-21T10:18:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2067",
@@ -194,11 +240,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "51"
+          "count": "53"
         },
         {
           "emoji": "👍",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "❤‍🔥",
@@ -213,7 +259,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.96K",
+      "views_label": "4.15K",
       "posted_at": "2026-10-21T10:11:29+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2065",
@@ -231,7 +277,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "73"
+          "count": "75"
         },
         {
           "emoji": "👍",
@@ -258,7 +304,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.76K",
+      "views_label": "5.88K",
       "posted_at": "2026-10-21T09:14:29+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2064",
@@ -301,7 +347,7 @@
         },
         {
           "emoji": "❤",
-          "count": "229"
+          "count": "231"
         },
         {
           "emoji": "❤‍🔥",
@@ -344,7 +390,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.78K",
+      "views_label": "8.87K",
       "posted_at": "2026-10-21T05:27:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2061",
@@ -381,7 +427,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.1K",
+      "views_label": "8.17K",
       "posted_at": "2026-10-21T05:01:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2060",
@@ -430,7 +476,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-10-21T01:57:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2059",
@@ -448,7 +494,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "197"
+          "count": "198"
         },
         {
           "emoji": "👍",
@@ -479,7 +525,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.67K",
+      "views_label": "8.7K",
       "posted_at": "2026-10-20T23:05:32+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2058",
@@ -510,7 +556,7 @@
         },
         {
           "emoji": "❤",
-          "count": "219"
+          "count": "220"
         },
         {
           "emoji": "🔥",
@@ -545,7 +591,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.9K",
+      "views_label": "24K",
       "posted_at": "2026-10-20T23:04:54+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2057",
@@ -602,7 +648,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.99K",
+      "views_label": "9.03K",
       "posted_at": "2026-10-20T20:09:57+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2056",
@@ -826,7 +872,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.74K",
+      "views_label": "9.77K",
       "posted_at": "2026-10-20T08:44:59+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2051",
@@ -5512,112 +5558,6 @@
       "posted_at": "2026-10-10T01:36:11+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1938",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1937",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/X8_YRHetvm-zgeeNh8mVx4Xa8YZufAvKE2ENa9TDZFw67-8AP4L08vaHAfMjplg8x_ktmStQgUyC_oxOFPFMvskOMXY_cI5oFw5-lm7HLlImmRtCrjTRs6C_K1ZyLRT_JgBmUW-FBVpGiOOUSxgZg84hEz9EUdmJmb5-v47aTLwk4iEHsDwQkE3q_ebAWXUQU0zaVTffH8ugcclaJuikrp9r3nt_5IUtamd05vaRtLQMn7oemn67_UWrTm9wlM1DoBbMI-xkuRqEG8kpV5BSmHDJS32ekhVJtGf_rlSunnkAlpzAqXeR56JHkpBxlrJN4h-uUjyI-BswAJNYg6CwwA.jpg",
-      "author_photo_path": "channels/whitedns/media/7cf131d988b97e7190d9e4a7.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "سلام به همهٔ همراهان عزیز <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918B.png')\"><b>👋</b></i><br>امیدوارم این روزها با وجود همهٔ فراز و نشیب‌ها، حال دلتون خوب باشه و اینترنتتون هم روان و بی‌دردسر <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F929A.png')\"><b>💚</b></i><br><br>از وقتی فیلترچی‌های عزیز محبتشون رو بیشتر کردن، دیگه هر روز باید یه راه تازه پیدا کنیم. این روش رو اول کانال پترنی‌ها (<a href=\"https://t.me/patt_channel_x\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">https://t.me/patt_channel_x</a>) با کلی آموزش مفصل معرفی کردن؛ من فقط یه بخشش رو برداشتم و یه تغییر کوچیک روش دادم که جوابش واقعاً عالی درومد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> نکتهٔ مهم: توی منطقهٔ من این روش فقط روی رایتل و همراه اول جواب داد. برای ایرانسل هم پایین‌تر آموزش جدا گذاشتم.<br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> <b>روش اول — مخصوص رایتل و همراه اول</b><br><br><b>۱) کانفیگ رو وارد کن</b><br>هر کانفیگی که دوست داری از هر پنلی بردار و توی PattNG بازش کن.<br><br><b>۲) آی‌پی رو عوض کن</b><br>برو توی بخش ویرایش، یکی از این آی‌پی‌ها رو کپی کن و توی «نشانی» (Address) بذار:<br><br><b>۱۸۸.114.97.1</b><br><pre>188.114.97.1</pre><br><b>۱۸۸.114.97.2</b><br><pre>188.114.97.2</pre><br><b>۱۸۸.114.97.3</b><br><pre>188.114.97.3</pre><br><b>۱۸۸.114.97.4</b><br><pre>188.114.97.4</pre><br><b>۱۸۸.114.97.5</b><br><pre>188.114.97.5</pre><br><b>۱۸۸.114.97.7</b><br><pre>188.114.97.7</pre><br><b>۱۸۸.114.97.8</b><br><pre>188.114.97.8</pre><br><b>۳) اثر انگشت</b><br>همون‌جا پایین برو و گزینهٔ «اثر انگشت» (Fingerprint) رو روی Chrome بذار.<br><br><b>۴) echConfigList</b><br>باز پایین‌تر برو و یکی از این‌ها رو توی بخش echConfigList بذار:<br><br><b>ECH ۱</b><br><pre>cloudflare-ech.com+udp://1.1.1.1</pre><br><b>ECH ۲</b><br><pre>cloudflare-ech.com+udp://9.9.9.9</pre><br><b>ECH ۳</b><br><pre>cloudflare-ech.com+udp://208.67.222.222</pre><br><b>ECH ۴</b><br><pre>cloudflare-ech.com+udp://8.8.8.8</pre><br><b>ECH ۵</b><br><pre>cloudflare-ech.com+udp://1.0.0.1</pre><br><b>ECH ۶</b><br><pre>cloudflare-ech.com+udp://8.8.4.4</pre><br><b>ECH ۷</b><br><pre>cloudflare-ech.com+udp://149.112.112.112</pre><br><b>ECH ۸</b><br><pre>cloudflare-ech.com+udp://208.67.220.220</pre><br><b>ECH ۹</b><br><pre>cloudflare-ech.com+udp://76.76.19.19</pre><br><b>ECH ۱۰</b><br><pre>cloudflare-ech.com+udp://76.76.2.0</pre><br><b>ECH ۱۱</b><br><pre>cloudflare-ech.com+udp://94.140.14.14</pre><br><b>ECH ۱۲</b><br><pre>cloudflare-ech.com+udp://94.140.15.15</pre><br><b>ECH ۱۳</b><br><pre>cloudflare-ech.com+udp://64.6.64.6</pre><br><b>ECH ۱۴</b><br><pre>cloudflare-ech.com+udp://64.6.65.6</pre><br><b>ECH ۱۵</b><br><pre>cloudflare-ech.com+udp://45.90.28.0</pre><br><b>ECH ۱۶</b><br><pre>cloudflare-ech.com+udp://45.90.30.0</pre><br><b>ECH ۱۷</b><br><pre>cloudflare-ech.com+udp://185.228.168.9</pre><br><b>ECH ۱۸</b><br><pre>cloudflare-ech.com+udp://185.228.169.9</pre><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> نکته: این عبارت‌های ECH ممکنه منطقه به منطقه فرق کنن؛ پس همه رو تست کن تا بهترینش رو پیدا کنی.<br><br><b>۵) ذخیره و وصل شو</b><br>روی تیک بالای کانفیگ بزن که ذخیره بشه و تموم — راحت وصل می‌شی. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><br><br>---<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> <b>روش دوم — مخصوص ایرانسل</b><br><br>بازم ممنون از پترنی‌های عزیز که روش فایروال ایرانسل رو هم گذاشتن. من یه تغییر کوچیک روش دادم که به نظرم سرعتش خیلی بهتر شد. اینجوری:<br><br><b>۱) آی‌پی</b><br>کانفیگ رو توی PattNG باز کن، برو بخش ویرایش و یکی از این‌ها رو توی «نشانی» بذار:<br><br><b>۱۸۸.114.97.1</b><br><pre>188.114.97.1</pre><br><b>۱۸۸.114.97.2</b><br><pre>188.114.97.2</pre><br><b>۱۸۸.114.97.3</b><br><pre>188.114.97.3</pre><br><b>۱۸۸.114.97.4</b><br><pre>188.114.97.4</pre><br><b>۱۸۸.114.97.5</b><br><pre>188.114.97.5</pre><br><b>۱۸۸.114.97.7</b><br><pre>188.114.97.7</pre><br><b>۱۸۸.114.97.8</b><br><pre>188.114.97.8</pre><br><b>۲) finalMask</b><br>یه کمی پایین‌تر توی finalMask گزینهٔ tlshello-0-len رو انتخاب کن.<br><br><b>۳) اثر انگشت</b><br>باز پایین‌تر توی «اثر انگشت» گزینهٔ unsafe رو بزن.<br><br><b>۴) مجموعه رمزنگاری</b><br>باز هم پایین‌تر توی «مجموعه رمزنگاری» (Cipher Suites) گزینهٔ real_firefox_cipherSuites رو انتخاب کن.<br><br><b>۵) ذخیره</b><br>توی پایان روی دکمهٔ ذخیره/سیو بزن تا اعمال بشه.<br><br>---<br><br>امیدوارم این راهکار به دردتون بخوره. موفق و پایدار باشید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8CB9.png')\"><b>🌹</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>یادآوری آخر:</b> توی بعضی مناطق سیم‌کارتت ممکنه همراه اول باشه ولی فایروالت ایرانسل، و برعکس؛ سیم ایرانسل ولی فایروال همراه اول. بقیهٔ اپراتورها هم معمولاً از یکی از همین دو فایروال استفاده می‌کنن. پس یه زحمت بکش و هر دو روش رو روی اینترنت خودت تست کن <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "سلام به همهٔ همراهان عزیز 👋\nامیدوارم این روزها با وجود همهٔ فراز و نشیب‌ها، حال دلتون خوب باشه و اینترنتتون هم روان و بی‌دردسر 💚\n\nاز وقتی فیلترچی‌های عزیز محبتشون رو بیشتر کردن، دیگه هر روز باید یه راه تازه پیدا کنیم. این روش رو اول کانال پترنی‌ها (https://t.me/patt_channel_x) با کلی آموزش مفصل معرفی کردن؛ من فقط یه بخشش رو برداشتم و یه تغییر کوچیک روش دادم که جوابش واقعاً عالی درومد.\n\n📌 نکتهٔ مهم: توی منطقهٔ من این روش فقط روی رایتل و همراه اول جواب داد. برای ایرانسل هم پایین‌تر آموزش جدا گذاشتم.\n\n---\n\n🟢 روش اول — مخصوص رایتل و همراه اول\n\n۱) کانفیگ رو وارد کن\nهر کانفیگی که دوست داری از هر پنلی بردار و توی PattNG بازش کن.\n\n۲) آی‌پی رو عوض کن\nبرو توی بخش ویرایش، یکی از این آی‌پی‌ها رو کپی کن و توی «نشانی» (Address) بذار:\n\n۱۸۸.114.97.1\n188.114.97.1\n۱۸۸.114.97.2\n188.114.97.2\n۱۸۸.114.97.3\n188.114.97.3\n۱۸۸.114.97.4\n188.114.97.4\n۱۸۸.114.97.5\n188.114.97.5\n۱۸۸.114.97.7\n188.114.97.7\n۱۸۸.114.97.8\n188.114.97.8\n۳) اثر انگشت\nهمون‌جا پایین برو و گزینهٔ «اثر انگشت» (Fingerprint) رو روی Chrome بذار.\n\n۴) echConfigList\nباز پایین‌تر برو و یکی از این‌ها رو توی بخش echConfigList بذار:\n\nECH ۱\ncloudflare-ech.com+udp://1.1.1.1\nECH ۲\ncloudflare-ech.com+udp://9.9.9.9\nECH ۳\ncloudflare-ech.com+udp://208.67.222.222\nECH ۴\ncloudflare-ech.com+udp://8.8.8.8\nECH ۵\ncloudflare-ech.com+udp://1.0.0.1\nECH ۶\ncloudflare-ech.com+udp://8.8.4.4\nECH ۷\ncloudflare-ech.com+udp://149.112.112.112\nECH ۸\ncloudflare-ech.com+udp://208.67.220.220\nECH ۹\ncloudflare-ech.com+udp://76.76.19.19\nECH ۱۰\ncloudflare-ech.com+udp://76.76.2.0\nECH ۱۱\ncloudflare-ech.com+udp://94.140.14.14\nECH ۱۲\ncloudflare-ech.com+udp://94.140.15.15\nECH ۱۳\ncloudflare-ech.com+udp://64.6.64.6\nECH ۱۴\ncloudflare-ech.com+udp://64.6.65.6\nECH ۱۵\ncloudflare-ech.com+udp://45.90.28.0\nECH ۱۶\ncloudflare-ech.com+udp://45.90.30.0\nECH ۱۷\ncloudflare-ech.com+udp://185.228.168.9\nECH ۱۸\ncloudflare-ech.com+udp://185.228.169.9\n⚠️ نکته: این عبارت‌های ECH ممکنه منطقه به منطقه فرق کنن؛ پس همه رو تست کن تا بهترینش رو پیدا کنی.\n\n۵) ذخیره و وصل شو\nروی تیک بالای کانفیگ بزن که ذخیره بشه و تموم — راحت وصل می‌شی. ✅\n\n---\n\n🟢 روش دوم — مخصوص ایرانسل\n\nبازم ممنون از پترنی‌های عزیز که روش فایروال ایرانسل رو هم گذاشتن. من یه تغییر کوچیک روش دادم که به نظرم سرعتش خیلی بهتر شد. اینجوری:\n\n۱) آی‌پی\nکانفیگ رو توی PattNG باز کن، برو بخش ویرایش و یکی از این‌ها رو توی «نشانی» بذار:\n\n۱۸۸.114.97.1\n188.114.97.1\n۱۸۸.114.97.2\n188.114.97.2\n۱۸۸.114.97.3\n188.114.97.3\n۱۸۸.114.97.4\n188.114.97.4\n۱۸۸.114.97.5\n188.114.97.5\n۱۸۸.114.97.7\n188.114.97.7\n۱۸۸.114.97.8\n188.114.97.8\n۲) finalMask\nیه کمی پایین‌تر توی finalMask گزینهٔ tlshello-0-len رو انتخاب کن.\n\n۳) اثر انگشت\nباز پایین‌تر توی «اثر انگشت» گزینهٔ unsafe رو بزن.\n\n۴) مجموعه رمزنگاری\nباز هم پایین‌تر توی «مجموعه رمزنگاری» (Cipher Suites) گزینهٔ real_firefox_cipherSuites رو انتخاب کن.\n\n۵) ذخیره\nتوی پایان روی دکمهٔ ذخیره/سیو بزن تا اعمال بشه.\n\n---\n\nامیدوارم این راهکار به دردتون بخوره. موفق و پایدار باشید 🌹🚀\n\n⚠️ یادآوری آخر: توی بعضی مناطق سیم‌کارتت ممکنه همراه اول باشه ولی فایروالت ایرانسل، و برعکس؛ سیم ایرانسل ولی فایروال همراه اول. بقیهٔ اپراتورها هم معمولاً از یکی از همین دو فایروال استفاده می‌کنن. پس یه زحمت بکش و هر دو روش رو روی اینترنت خودت تست کن ❤️\n\n@whitedns",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "262"
-        },
-        {
-          "emoji": "👍",
-          "count": "19"
-        },
-        {
-          "emoji": "🔥",
-          "count": "7"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        }
-      ],
-      "views_label": "13.7K",
-      "posted_at": "2026-10-10T01:30:42+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/1937",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1936",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/X8_YRHetvm-zgeeNh8mVx4Xa8YZufAvKE2ENa9TDZFw67-8AP4L08vaHAfMjplg8x_ktmStQgUyC_oxOFPFMvskOMXY_cI5oFw5-lm7HLlImmRtCrjTRs6C_K1ZyLRT_JgBmUW-FBVpGiOOUSxgZg84hEz9EUdmJmb5-v47aTLwk4iEHsDwQkE3q_ebAWXUQU0zaVTffH8ugcclaJuikrp9r3nt_5IUtamd05vaRtLQMn7oemn67_UWrTm9wlM1DoBbMI-xkuRqEG8kpV5BSmHDJS32ekhVJtGf_rlSunnkAlpzAqXeR56JHkpBxlrJN4h-uUjyI-BswAJNYg6CwwA.jpg",
-      "author_photo_path": "channels/whitedns/media/7cf131d988b97e7190d9e4a7.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29881.png')\"><b>☁️</b></i> ساخت پروکسی رایگان با Cloudflare! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i><br><br>توی این آموزش یاد می‌گیری چطور فقط توی چند دقیقه پروکسی خودت رو بسازی. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> لینک ویدیو:    </b><a href=\"https://youtu.be/8JytQZ1unz0\" target=\"_blank\" rel=\"noopener\"><b>https://youtu.be/8JytQZ1unz0</b></a><b><br><br>·:¨༺ </b><a href=\"https://t.me/BlueKnight_Net\" target=\"_blank\"><b>@BlueKnight_Net</b></a><b> ༻¨:·</b>",
-      "plain_text": "☁️ ساخت پروکسی رایگان با Cloudflare! ⚡️\n\nتوی این آموزش یاد می‌گیری چطور فقط توی چند دقیقه پروکسی خودت رو بسازی. 🚀\n\n🔗 لینک ویدیو: https://youtu.be/8JytQZ1unz0\n\n·:¨༺ @BlueKnight_Net ༻¨:·",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/1936",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/MUak7Ipis5K2v9QVftqZm5P459tao1vZHJg9ZJ8m6PAAPGiFyIsnQyC9haEXRHXwSxYD7sXw3xTngRz4Bk4p3hrEVGZJEspjev4FjJOogRydOPccs5W3Ht0_OUHaW-0o4OAbACRaoM10NvUDk4fBDcByDOxCC7EddZuP7xiBp6H7kj3acSJyAyPSRz3jZiI-K7sMab2RYGSyQ9s64DaTxHDvN2ouE7l0p426old-YdvhocMu4yFcSTxjpjcvgRZiTzkDB7EcXvdmPFab8TRfssCE2qtCNiMF-dDs22Hd6AftWLPKIJSxB9GxxdsLdYzc7dVfGnhgURPP3NdHkcLg_Q.jpg",
-          "thumbnail_path": "channels/whitedns/media/baa0f6ccab6bff50c28bb317.jpg",
-          "thumbnail_sha256": "fdf4f3083d6ab1b21292ffe1f86316c5a00e8bc2d477d4b7c3fb3d68b66161e1",
-          "duration_label": null,
-          "aspect_ratio": 1.7738359201773837
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "181"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "🤨",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "😭",
-          "count": "1"
-        }
-      ],
-      "views_label": "13.7K",
-      "posted_at": "2026-10-09T15:07:23+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1936",
       "reply": null
     }
   ]
