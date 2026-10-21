@@ -1,6 +1,19 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-21T13:38:15.815Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-10-21T13:42:32.068Z",
+  "succeeded": 20,
+  "failed": [
+    {
+      "username": "bbcpersian",
+      "error": "fetch failed"
+    },
+    {
+      "username": "daadbaan2021",
+      "error": "fetch failed"
+    },
+    {
+      "username": "bidarzani",
+      "error": "fetch failed"
+    }
+  ]
 }
