@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-21T08:17:01.153Z",
+  "fetched_at": "2026-10-21T08:22:29.144Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5637",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/JRB5EEZX7HFzvdUrJ6qQCaK5RjqOqGjZ6XN44_gYZVvpz7gQiW_xVjt9xpBL-YsTHvQrNzuycbCIDhiHKvB8_sSP_cjjNcp4qIoQjsi3pkyEhqSEeLpU4J0aE36SfcC3mSlHAkIxtaKJjJGw1wsOccXxcGOTA4OWsiHcnWylxqizPoi1Hs_VVYyKCc9WJXUkiyPQDX1-esvPD_sI8ADtjaqsVcP0NBdofzOkNQxpv81Ayvx2i7sLKgSZnQWiry4dJEZzNfyxYecT9dAgsPpc-6rXxqfWQ6TLPL5RFJqr4bA4MG5E4y0wfynLljWP8HNis5B1JQrLABHH-mZgTDSJeA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/c2a68667a75d3ae5bd176a9e.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>من «DeepSeek V4.1 Flash 1017» رو ۸۹ بار روی ۹ تا harness مختلف اجرا کردم تا ببینم کدوم‌شون بهتر کار می‌کنه.</b><br>با High effort و ۵ بار تلاش برای هر کدوم:<br>Pi harness: ۴۰.۴<br>Grok Build CLI: ۴۰.۴<br>DeepSeek: ۳۹.۲<br>OpenCode 2.0: ۳۸.۶<br>OpenCode: ۳۶.۶<br>Claude Code: ۳۶.۴<br>Codex: ۳۳.۲<br>Hermes Agent: ۳۲<br>Kilo Code: ۳۱.۸<br>Codex چند بار پشت هم از زمان مجاز هر ریپو (۳ ساعت) بیشتر طول کشید و ناتموم موند، برای همین همون جایی که تموم شد نمره‌ش رو حساب کردم.<br>طبق تست‌های من، Pi و Grok Build CLI و OpenCode 2.0 قوی‌ترین harnessهای همه‌کاره به نظر میان. البته لزوماً نمی‌شه این نتیجه رو به همه‌جا تعمیم داد.<br><br><tg-emoji emoji-id=\"5470060791883374114\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <a href=\"https://x.com/PawelHuryn/status/2112571119412646370\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">PawelHuryn</a>",
+      "plain_text": "من «DeepSeek V4.1 Flash 1017» رو ۸۹ بار روی ۹ تا harness مختلف اجرا کردم تا ببینم کدوم‌شون بهتر کار می‌کنه.\nبا High effort و ۵ بار تلاش برای هر کدوم:\nPi harness: ۴۰.۴\nGrok Build CLI: ۴۰.۴\nDeepSeek: ۳۹.۲\nOpenCode 2.0: ۳۸.۶\nOpenCode: ۳۶.۶\nClaude Code: ۳۶.۴\nCodex: ۳۳.۲\nHermes Agent: ۳۲\nKilo Code: ۳۱.۸\nCodex چند بار پشت هم از زمان مجاز هر ریپو (۳ ساعت) بیشتر طول کشید و ناتموم موند، برای همین همون جایی که تموم شد نمره‌ش رو حساب کردم.\nطبق تست‌های من، Pi و Grok Build CLI و OpenCode 2.0 قوی‌ترین harnessهای همه‌کاره به نظر میان. البته لزوماً نمی‌شه این نتیجه رو به همه‌جا تعمیم داد.\n\n✍️ PawelHuryn",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5637",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/TrCMNNxZ76ofoaXrkbNvzcl8c0qUgnJFRCn_nX8yfcpJBFcHh8kJ8R75QnKffckI5NTBZv1pB18J8pYGzmeGW8v0tvMDreE6qSLwnitzIGzDH4er3tJfsr0sKGfEcwJpLsU2A_6WHeQaP5zEPRyUXHRRtiAd1diC8G0UAgutcZc36iP-5HrCRuyoEa-t8VZy4wM1I_spndurT1jbF9fBIv2XPcPK_gyTB4MEezttX4yTW1t-MVoNPv-wXrulN6_HcWRZ7NAeXU048BEOCaU-Cu5D9EmUqq3QU9dzbxSsPyTr_UKsXkG3y2andGW3rbmlv9K-nrBfWe00gBWvjXyc1w.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/95b16c9387004e59551bba3a.jpg",
+          "thumbnail_sha256": "1e9ec710feecc7a99c241a33a84946c1b3b077ccb965e80c8c1425f2b22e1b9c",
+          "duration_label": null,
+          "aspect_ratio": 1.0309278350515463
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "12"
+        }
+      ],
+      "views_label": "1.13K",
+      "posted_at": "2026-10-21T08:19:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5637",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5636",
       "author_name": "Matin SenPai",
@@ -23,7 +56,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "140"
+          "count": "143"
         },
         {
           "emoji": "😁",
@@ -35,14 +68,14 @@
         },
         {
           "emoji": "👍",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "🦄",
           "count": "2"
         }
       ],
-      "views_label": "12.1K",
+      "views_label": "12.5K",
       "posted_at": "2026-10-21T05:44:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5636",
@@ -60,7 +93,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "86"
+          "count": "89"
         },
         {
           "emoji": "👍",
@@ -75,7 +108,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.7K",
+      "views_label": "11K",
       "posted_at": "2026-10-21T05:44:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5635",
@@ -93,7 +126,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "83"
+          "count": "84"
         },
         {
           "emoji": "👍",
@@ -108,7 +141,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.4K",
+      "views_label": "10.8K",
       "posted_at": "2026-10-21T05:31:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5634",
@@ -134,14 +167,14 @@
         },
         {
           "emoji": "👍",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "😁",
           "count": "1"
         }
       ],
-      "views_label": "18.3K",
+      "views_label": "18.5K",
       "posted_at": "2026-10-20T19:35:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5633",
@@ -182,7 +215,7 @@
           "count": "5"
         }
       ],
-      "views_label": "21.4K",
+      "views_label": "21.6K",
       "posted_at": "2026-10-20T16:29:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5632",
@@ -224,7 +257,7 @@
           "count": "3"
         }
       ],
-      "views_label": "21.6K",
+      "views_label": "21.8K",
       "posted_at": "2026-10-20T16:21:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5631",
@@ -273,7 +306,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.5K",
+      "views_label": "22.6K",
       "posted_at": "2026-10-20T16:14:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5630",
@@ -331,7 +364,7 @@
           "count": "3"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.6K",
       "posted_at": "2026-10-20T16:10:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5629",
@@ -627,7 +660,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.9K",
+      "views_label": "27K",
       "posted_at": "2026-10-19T16:29:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5622",
@@ -668,7 +701,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.6K",
+      "views_label": "26.7K",
       "posted_at": "2026-10-19T15:25:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5621",
@@ -758,7 +791,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.2K",
+      "views_label": "27.3K",
       "posted_at": "2026-10-19T12:10:40+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5619",
@@ -803,7 +836,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.6K",
+      "views_label": "26.7K",
       "posted_at": "2026-10-19T10:24:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5618",
@@ -4521,35 +4554,6 @@
       "posted_at": "2026-10-06T17:45:36+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5532",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5531",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/rAFzer4CSwPf-QO-xfIq6wcqXh5-e_s5-MpdhfeGp_g55gwzs6Lh4Wc_6iwfh53m3eQwBMplb0lcRVWsiFLVMe0900E066Ua0u68-Qe6kzAl9yavl6I_-uZ1kZfqk-KUvv-YJrIuV3Slbom3GvadXny8cHC_e700ok_T-sTvKzpPo4-GWfQjsM4WqLyyZzkBKsQ07UBaYo8cxoRNiDBWWBBwqGjz_ZBsBr76HL-7IIEtccLdtMl18llZ9QNgMJS891As9lv-PTkc-TAXXafdUSkXdk4Kxz35NTZr-olkG2bIH9JZ4Nw5uFLPGwBVySUkOkq69D2cpq2VMHv5-QnYRg.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/4e5d74e6b64bfc470e78b2bb.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "اینم کانال تلگرام یزدانه پرسیده بودید توی چت فراموش کردم بگم:<br><a href=\"https://t.me/antimatter0x1\" target=\"_blank\" rel=\"noopener\">https://t.me/antimatter0x1</a>",
-      "plain_text": "اینم کانال تلگرام یزدانه پرسیده بودید توی چت فراموش کردم بگم:\nhttps://t.me/antimatter0x1",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "74"
-        },
-        {
-          "emoji": "🦄",
-          "count": "6"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        }
-      ],
-      "views_label": "31.2K",
-      "posted_at": "2026-10-06T14:35:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5531",
       "reply": null
     }
   ]
