@@ -1,6 +1,11 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-21T00:37:10.911Z",
-  "succeeded": 23,
-  "failed": []
+  "generated_at": "2026-10-21T00:42:25.019Z",
+  "succeeded": 22,
+  "failed": [
+    {
+      "username": "sahamnewsorg",
+      "error": "fetch failed"
+    }
+  ]
 }
