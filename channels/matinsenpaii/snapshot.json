@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-22T14:07:04.218Z",
+  "fetched_at": "2026-10-22T14:12:22.327Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,35 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5654",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/rZ8hBtmsaDl8-OE2yMIe-1E0ey0O4GJB24BHd6QkWDmMo_EQjwL4AH2DK6aGdEAcbEvB4cCn39wK_brL5zq9ht6CdTBzUK5heR1Yy8VR_B55KF3JusrLHpSxESX8SE2x3w4TB95GP1F5HuM0pQvOy6pEVQSu4q0aXzL4gQ-XRXOwaQSkstQZSzs-P1nrjvDZ70WUropv1dScy_wCmOYblfY_ZdP8YZln0K6nF__KGYH-XqFDRNGkad5IbjPLjS0XMoaWRfNKdDezRXtPg4KPkdeMahCLX2uCzokYtYeTxx8JmlVEPPK1fBYwVN2uAolGSchx-DsRZUrDfStUGWleRA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/18a3828589b2f42beefd246b.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>جمع بندی راه‌های کنونی اتصال به کلودفلر بر روی فایروال همراه اول:</b><br><br>1. CDN/WORKER with IPv6<br><br>در صورت داشتن IPv6 و در صورتی که دامنه‌ی شخصی فیلتر نشده دارید، و یا از دامنه‌ی <a href=\"http://workers.dev/\" target=\"_blank\" rel=\"noopener\">workers.dev</a>.* استفاده میکنید، میتوانید از این روش استفاده کنید (دامنه <a href=\"http://pages.dev/\" target=\"_blank\" rel=\"noopener\">pages.dev</a>.* به طور کلی فیلتر است).<br><br>برای استفاده ابتدا echConfigList و cipherSuites و finalMask را پاک کنید، فینگرپرینت را روی chrome قرار دهید و سپس از یک آدرس IPv6 به طور مثال<br><code>2a06:98c1:3101::6812:202f</code><br>استفاده کنید.<br><br>2. WARP with IPv6<br><br>از قسمت add aether ابتدا پروتوکل را روی wireguard قرار دهید، نوع آیپی را IPv6 انتخاب کنید، اسکن کنید، بعد از پیدا شدن آیپی اسم انتخاب کنید و سیو کنید.<br><br>3. MASQUE/H2<br><br>از قسمت add aether پروتوکل را روی MASQUE-HTTP/2 قرار دهید،&nbsp; سپس اسکن کنید، و بعد از پیدا شدن آیپی اسم انتخاب کنید و سیو کنید.<br><br>////////////////////<br><br><b>جمع بندی راه‌های کنونی اتصال به کلودفلر بر روی فایروال ایرانسل:</b><br><br>1. CDN/WORKER with F&amp;F method<br><br>ابتدا echConfigList را پاک کنید، از یک آدرس مناسب به طور مثال<br><code>188.114.98.0</code><br><br>استفاده کنید، finalMask را tlshello-0-len (همان مقدار متد F&amp;F) قرار دهید و برای فایروال ایرانسل حتما باید cipherSuites را روی semi-python (همان مقدار متد F&amp;F) و فینگرپرینت را روی unsafe قرار دهید، همچنین دقت کنید که مقدار ALPN را درست انتخاب کرده باشید (http/1.1 برای ws و h2,http/1.1 برای XHTTP)<br><br>* سایر روشها روی فایروال ایرانسل با محدودیت سرعت آپلود مواجه هستند.<br><br>2. WARP <br><br>همان مراحل فایروال همراه اول، منتها روی فایروال ایرانسل میتوانید از هر نوع IPی استفاده کنید.<br><br>3. MASQUE/H2 <br><br>دقیقا همان مراحل فایروال همراه اول <br><br>////////////////////<br><br><b>دقت کنید در برخی مناطق سیم کارتتون میتونه همراه اول باشه ولی فایروالتون ایرانسل باشه و بالعکس سیم کارتتون میتونه ایرانسل باشه ولی فایروالتون همراه اول باشه.</b><br><br>سایر نت ها هم معمولا از یکی از این دو فایروال استفاده میکنند.",
+      "plain_text": "جمع بندی راه‌های کنونی اتصال به کلودفلر بر روی فایروال همراه اول:\n\n1. CDN/WORKER with IPv6\n\nدر صورت داشتن IPv6 و در صورتی که دامنه‌ی شخصی فیلتر نشده دارید، و یا از دامنه‌ی workers.dev.* استفاده میکنید، میتوانید از این روش استفاده کنید (دامنه pages.dev.* به طور کلی فیلتر است).\n\nبرای استفاده ابتدا echConfigList و cipherSuites و finalMask را پاک کنید، فینگرپرینت را روی chrome قرار دهید و سپس از یک آدرس IPv6 به طور مثال\n2a06:98c1:3101::6812:202f\nاستفاده کنید.\n\n2. WARP with IPv6\n\nاز قسمت add aether ابتدا پروتوکل را روی wireguard قرار دهید، نوع آیپی را IPv6 انتخاب کنید، اسکن کنید، بعد از پیدا شدن آیپی اسم انتخاب کنید و سیو کنید.\n\n3. MASQUE/H2\n\nاز قسمت add aether پروتوکل را روی MASQUE-HTTP/2 قرار دهید،  سپس اسکن کنید، و بعد از پیدا شدن آیپی اسم انتخاب کنید و سیو کنید.\n\n////////////////////\n\nجمع بندی راه‌های کنونی اتصال به کلودفلر بر روی فایروال ایرانسل:\n\n1. CDN/WORKER with F&F method\n\nابتدا echConfigList را پاک کنید، از یک آدرس مناسب به طور مثال\n188.114.98.0\n\nاستفاده کنید، finalMask را tlshello-0-len (همان مقدار متد F&F) قرار دهید و برای فایروال ایرانسل حتما باید cipherSuites را روی semi-python (همان مقدار متد F&F) و فینگرپرینت را روی unsafe قرار دهید، همچنین دقت کنید که مقدار ALPN را درست انتخاب کرده باشید (http/1.1 برای ws و h2,http/1.1 برای XHTTP)\n\n* سایر روشها روی فایروال ایرانسل با محدودیت سرعت آپلود مواجه هستند.\n\n2. WARP\n\nهمان مراحل فایروال همراه اول، منتها روی فایروال ایرانسل میتوانید از هر نوع IPی استفاده کنید.\n\n3. MASQUE/H2\n\nدقیقا همان مراحل فایروال همراه اول\n\n////////////////////\n\nدقت کنید در برخی مناطق سیم کارتتون میتونه همراه اول باشه ولی فایروالتون ایرانسل باشه و بالعکس سیم کارتتون میتونه ایرانسل باشه ولی فایروالتون همراه اول باشه.\n\nسایر نت ها هم معمولا از یکی از این دو فایروال استفاده میکنند.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "19"
+        },
+        {
+          "emoji": "💔",
+          "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.2K",
+      "posted_at": "2026-10-22T14:07:12+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5654",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5653",
       "author_name": "Matin SenPai",
@@ -35,7 +64,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "41"
+          "count": "44"
         },
         {
           "emoji": "👍",
@@ -50,7 +79,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.77K",
+      "views_label": "8.53K",
       "posted_at": "2026-10-22T12:48:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5653",
@@ -80,7 +109,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "50"
+          "count": "53"
         },
         {
           "emoji": "👍",
@@ -88,14 +117,14 @@
         },
         {
           "emoji": "😁",
-          "count": "1"
+          "count": "2"
         },
         {
           "emoji": "💔",
           "count": "1"
         }
       ],
-      "views_label": "13.2K",
+      "views_label": "13.6K",
       "posted_at": "2026-10-22T10:04:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5652",
@@ -113,7 +142,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "69"
+          "count": "72"
         },
         {
           "emoji": "👍",
@@ -128,7 +157,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15.9K",
+      "views_label": "16.1K",
       "posted_at": "2026-10-22T08:16:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5651",
@@ -200,7 +229,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "39"
+          "count": "41"
         },
         {
           "emoji": "❤",
@@ -215,7 +244,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.7K",
+      "views_label": "15.9K",
       "posted_at": "2026-10-22T08:15:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5647",
@@ -245,7 +274,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "48"
+          "count": "49"
         },
         {
           "emoji": "❤",
@@ -256,7 +285,7 @@
           "count": "9"
         }
       ],
-      "views_label": "16.9K",
+      "views_label": "17.1K",
       "posted_at": "2026-10-22T07:01:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5646",
@@ -274,7 +303,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "181"
+          "count": "183"
         },
         {
           "emoji": "💔",
@@ -297,7 +326,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.4K",
+      "views_label": "20.5K",
       "posted_at": "2026-10-22T05:53:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5645",
@@ -344,14 +373,14 @@
         },
         {
           "emoji": "🦄",
-          "count": "3"
+          "count": "4"
         },
         {
           "emoji": "👍",
           "count": "1"
         }
       ],
-      "views_label": "20.6K",
+      "views_label": "20.7K",
       "posted_at": "2026-10-22T05:52:31+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5644",
@@ -384,7 +413,7 @@
           "count": "4"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.4K",
       "posted_at": "2026-10-21T19:44:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5643",
@@ -431,7 +460,7 @@
         },
         {
           "emoji": "❤",
-          "count": "30"
+          "count": "31"
         },
         {
           "emoji": "👍",
@@ -442,7 +471,7 @@
           "count": "6"
         }
       ],
-      "views_label": "28.6K",
+      "views_label": "28.7K",
       "posted_at": "2026-10-21T16:21:30+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5642",
@@ -487,7 +516,7 @@
         },
         {
           "emoji": "❤",
-          "count": "173"
+          "count": "174"
         },
         {
           "emoji": "😁",
@@ -506,7 +535,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.7K",
+      "views_label": "29.8K",
       "posted_at": "2026-10-21T15:47:27+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5640",
@@ -536,7 +565,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "76"
+          "count": "77"
         },
         {
           "emoji": "❤",
@@ -559,7 +588,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27K",
+      "views_label": "27.1K",
       "posted_at": "2026-10-21T12:32:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5639",
@@ -581,7 +610,7 @@
         },
         {
           "emoji": "🆒",
-          "count": "260"
+          "count": "261"
         },
         {
           "emoji": "❤",
@@ -649,7 +678,7 @@
           "count": "1"
         }
       ],
-      "views_label": "28.5K",
+      "views_label": "28.6K",
       "posted_at": "2026-10-21T08:19:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5637",
@@ -704,7 +733,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "150"
+          "count": "151"
         },
         {
           "emoji": "👍",
@@ -4651,55 +4680,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/5539"
       }
-    },
-    {
-      "id": "MatinSenPaii/5544",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/JQqwHaNZFhj7aEmLC0hFMa6rK2MZMZqZHcML4T0NNyqsJ7Dkr4MGeS1Jk_cb0QLyqZnwCO0RyLaXbfAQ0KkWUuONxXzJCXZpIIhpp7KQ_c9-jieouMhU19hDc8C8HZ_UjF1EL9dmIYzASRkO1iU5IEGkZsEKPrFE0LP7srTzDNEONMTTJM4DP5zSz8TUesgC-igwB77308XkMdfcGoUzede1Myp1enVxL-Jcpxoe2_f9d8Uf92jWcnEr38SCkNZp4aUMiIvrAN7YAL43A2TTil1dnKio-Ieekiuv6TkOS9l0YBCQhn8nE0jQ-vJCxtqHEzoIFg1nniMBMaS7Jzm_SQ.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/730a662bc8827bd719f171b0.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>رابط بصری جدید ChatGPT</b><br><br>گویا اوپن‌ای‌آی داره یه رابط جدید برای ChatGPT میده که جواب‌ها رو خیلی بصری‌تر و تعاملی می‌کنه؛ یعنی به‌جای متن خشک، ویژوال تعاملی می‌بینیم و برای کسایی که هر روز با ChatGPT کار می‌کنن(مثل خودم برای چت روزمره یا سؤالهایی که حین یادگیری Rust می‌پرسم) تجربه‌شون حسابی قراره بهتر بشه.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "رابط بصری جدید ChatGPT\n\nگویا اوپن‌ای‌آی داره یه رابط جدید برای ChatGPT میده که جواب‌ها رو خیلی بصری‌تر و تعاملی می‌کنه؛ یعنی به‌جای متن خشک، ویژوال تعاملی می‌بینیم و برای کسایی که هر روز با ChatGPT کار می‌کنن(مثل خودم برای چت روزمره یا سؤالهایی که حین یادگیری Rust می‌پرسم) تجربه‌شون حسابی قراره بهتر بشه.\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5544",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/mNBalkSbECylGmklPaKsl5TLjvEBshhAGsH140fAej2-feQPJWYq9m0PSndsfbEFEHm1y76BQTyw1UPOEg92uhoZZe8Fqcr8Tt8PnffxRAyIn50--fIctXWsQDNAPE9WH7-21f0hwy0-1Yw55HK-ldFfs_NxUfPqFFxQovE9KlFxaZz0LYcFW4AAknTrx73fBUvRLswcnQ4kW88djXvCGKRQYCYHaAThnv1JEKIwwXddjQPuoiHFhvCZpbNPMxICOBqQ1MWPh8g7FUuaxtjULIIOfJC1zjYsCikuuFtg4hbnpk2UfE_rqg23OYvPJxyYEd3-fbkKD5dKyB2UbqqwJQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/25c93014fa255f56fdd1602d.jpg",
-          "thumbnail_sha256": "fd4dd27adc69412621125b6c48ed954285a599877c71135983a4aff6b12aac27",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "247"
-        },
-        {
-          "emoji": "👍",
-          "count": "24"
-        },
-        {
-          "emoji": "🆒",
-          "count": "10"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        }
-      ],
-      "views_label": "36.6K",
-      "posted_at": "2026-10-08T05:01:26+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5544",
-      "reply": null
     }
   ]
 }
