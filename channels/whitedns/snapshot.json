@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-22T13:38:43.572Z",
+  "fetched_at": "2026-10-22T13:42:12.164Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "108K"
   },
   "posts": [
+    {
+      "id": "whitedns/2094",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/qM2ioZQ-unQptfBKzHbPSn3mCpf9V0fQMJczGO2S_BppVfK-JWInKyjYshJc_W_VmwekyHEXcSxM2v0zsuclgxITi-79opG8qEnp1i7a0-qqlIInrm8yOKVdj7WW22cUv2w-y-7DXa1wwd4SpUAAOVLUNhB1Nv3JXLnULkzneZwsKwLg3-Z7sEEd-4kwdWBafJCl3SarHoBlvsBuvKUmulEq1bhxfujeMwd2spCCE7-jSMTzSNon4nohJ2o5uUlnig63poZ_NQEovI4m_jKLjLPGOGZru7NbihHepeVaVvx_Lx0hTXfka41RGJoz3MgWPfbnOj2eitx4mes-U-HJyw.jpg",
+      "author_photo_path": "channels/whitedns/media/2662507bc918c6fd6ea3f2bc.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> انتشار نسخه جدید WhiteAesther Desktop  v1.10.1<br><br>ارتقای پایداری، تفکیک پشته‌های اجرایی و اتصال در شبکه‌های با فیلترینگ شدید<br>در این نسخه، بهبودهای اساسی هستهٔ بومی Aether 2.3 برای حفظ پایداری و اتصال مطمئن در سخت‌ترین شرایط فیلترینگ دسکتاپ پیاده‌سازی شده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> مهم‌ترین تغییرات و ویژگی‌های نسخه 1.10.1:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> راه‌اندازی تطبیقی و اولویت MASQUE H2:<br>در شبکه‌های جدید و ناشناخته، مسیر MASQUE H2 یک برتری زمانی ۳ ثانیه‌ای دریافت می‌کند و بلافاصله پس از اتصال، گیت‌وی برنده در حافظه ذخیره می‌شود (Route Memory) تا اتصالات بعدی با بیشترین سرعت برقرار شوند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> تفکیک پشته و پیشگیری از خطای سرریز حافظه (8MB Stacks):<br>تخصیص نخ‌های اجرایی با پشتهٔ اختصاصی ۸ مگابایتی برای موتور بومی و Tokio Workers جهت حذف قطعی خطاهای سرریز پشته (Stack Overflow) در هندشیک‌های سنگین و سناریوهای تودرتو.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> ایزوله‌سازی و حفظ پروکسی بالادستی (Scoped Upstream):<br>زمینهٔ مسیریابی و پروکسی‌های بالادست (Upstream Proxies) در طول ساخت و اجرای فیوچرهای داخلی موتور به دقت حفظ شده و تداخل در اتصالات زنجیره‌ای (Chain Proxy) رفع گردیده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> رقابت هوشمند پیش از جهش (Pre-mutation Races):<br>رقابت موازی و هم‌زمان بین Direct TLS، اسپلیت ClientHello و پروتکل ECH پیش از ارسال هرگونه جهش داده، و لغو آنی فیوچرهای بازنده پس از تثبیت نخستین اتصال موفق.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9492.png')\"><b>🔒</b></i> قفل هماهنگ هویت (Identity File Lock):<br>استفاده از قفل اشتراکی در سطح سیستم‌عامل برای جلوگیری از تداخل فرآیندهای هم‌زمان دسکتاپ هنگام خواندن، بازسازی و ذخیرهٔ کلیدهای هویت.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i> چندسکویی کامل و مستقل:<br>نسخهٔ ویندوز به هیچ عنوان وابسته به پیش‌نیازهای مجزای Visual C++ نبوده و به شکل کاملاً مستقل (Static CRT) اجرا می‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> پلتفرم‌های قابل دریافت:<br>• ویندوز: فایل نصاب (Setup.exe) و پکیج (MSI)<br>• مک‌اواس: نسخهٔ Apple Silicon (M1/M2/M3/M4) و پردازنده‌های Intel<br>• لینوکس: بسته‌های آمادهٔ AppImage، DEB و RPM<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> لینک دانلود مستقیم از گیت‌هاب:<br><a href=\"https://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.10.1\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.10.1</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> راهنمای فارسی تنظیمات پیشرفته:<br><a href=\"https://github.com/WhiteDNS/WhiteAesther/blob/v1.10.1/docs/AETHER-2.3.fa.md\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAesther/blob/v1.10.1/docs/AETHER-2.3.fa.md</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🚀 انتشار نسخه جدید WhiteAesther Desktop v1.10.1\n\nارتقای پایداری، تفکیک پشته‌های اجرایی و اتصال در شبکه‌های با فیلترینگ شدید\nدر این نسخه، بهبودهای اساسی هستهٔ بومی Aether 2.3 برای حفظ پایداری و اتصال مطمئن در سخت‌ترین شرایط فیلترینگ دسکتاپ پیاده‌سازی شده است.\n✨ مهم‌ترین تغییرات و ویژگی‌های نسخه 1.10.1:\n⚡️ راه‌اندازی تطبیقی و اولویت MASQUE H2:\nدر شبکه‌های جدید و ناشناخته، مسیر MASQUE H2 یک برتری زمانی ۳ ثانیه‌ای دریافت می‌کند و بلافاصله پس از اتصال، گیت‌وی برنده در حافظه ذخیره می‌شود (Route Memory) تا اتصالات بعدی با بیشترین سرعت برقرار شوند.\n🛡 تفکیک پشته و پیشگیری از خطای سرریز حافظه (8MB Stacks):\nتخصیص نخ‌های اجرایی با پشتهٔ اختصاصی ۸ مگابایتی برای موتور بومی و Tokio Workers جهت حذف قطعی خطاهای سرریز پشته (Stack Overflow) در هندشیک‌های سنگین و سناریوهای تودرتو.\n🔗 ایزوله‌سازی و حفظ پروکسی بالادستی (Scoped Upstream):\nزمینهٔ مسیریابی و پروکسی‌های بالادست (Upstream Proxies) در طول ساخت و اجرای فیوچرهای داخلی موتور به دقت حفظ شده و تداخل در اتصالات زنجیره‌ای (Chain Proxy) رفع گردیده است.\n🔐 رقابت هوشمند پیش از جهش (Pre-mutation Races):\nرقابت موازی و هم‌زمان بین Direct TLS، اسپلیت ClientHello و پروتکل ECH پیش از ارسال هرگونه جهش داده، و لغو آنی فیوچرهای بازنده پس از تثبیت نخستین اتصال موفق.\n🔒 قفل هماهنگ هویت (Identity File Lock):\nاستفاده از قفل اشتراکی در سطح سیستم‌عامل برای جلوگیری از تداخل فرآیندهای هم‌زمان دسکتاپ هنگام خواندن، بازسازی و ذخیرهٔ کلیدهای هویت.\n⚙️ چندسکویی کامل و مستقل:\nنسخهٔ ویندوز به هیچ عنوان وابسته به پیش‌نیازهای مجزای Visual C++ نبوده و به شکل کاملاً مستقل (Static CRT) اجرا می‌شود.\n💻 پلتفرم‌های قابل دریافت:\n• ویندوز: فایل نصاب (Setup.exe) و پکیج (MSI)\n• مک‌اواس: نسخهٔ Apple Silicon (M1/M2/M3/M4) و پردازنده‌های Intel\n• لینوکس: بسته‌های آمادهٔ AppImage، DEB و RPM\n🔗 لینک دانلود مستقیم از گیت‌هاب:\nhttps://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.10.1\n📖 راهنمای فارسی تنظیمات پیشرفته:\nhttps://github.com/WhiteDNS/WhiteAesther/blob/v1.10.1/docs/AETHER-2.3.fa.md\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2094",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/WdEOuQ2ZUloRT8_Tk7VXfFVZ4_tdP1bbKWZqK8G90tqCe1Rt9mhNcJT6S3TKAKwcOIRBFajht5vfkJabJ3V09YHLxzp7lfnhh5lhnfXE_hwTp3pjJ_EmJpJWeT_N5r5oUFUjlmxXmLtXLk9ZjSaZ9LPrepGbtfmRYA8Ga1le6pHw_oi2gZumgaRAAGIlRjDGhGIYZvj-a3L5nY3mogXkvVLbSxMbjUiinCOYeuxpeigmbO0kMz7z6LTiHI5kRPmXj2VupZpZ2xH9WMsLZhZD1Jqp_aWMVEtT9XIA368zoqq_OEzSdhhBck1tT9S4h-rBb6dQZ9n8oF3COvjXVSRSNw.jpg",
+          "thumbnail_path": "channels/whitedns/media/451686e147b7863c2331c2a3.jpg",
+          "thumbnail_sha256": "63501da827ec7c094c5764d4f4ed650f267901ab878ee48a152a28bb612639b9",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "130",
+      "posted_at": "2026-10-22T13:41:07+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2094",
+      "reply": null
+    },
     {
       "id": "whitedns/2093",
       "author_name": "White DNS",
@@ -35,7 +72,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "74"
+          "count": "76"
         },
         {
           "emoji": "🍓",
@@ -46,7 +83,7 @@
           "count": "2"
         }
       ],
-      "views_label": "4.54K",
+      "views_label": "4.64K",
       "posted_at": "2026-10-22T11:48:07+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2093",
@@ -76,7 +113,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "118"
+          "count": "119"
         },
         {
           "emoji": "👍",
@@ -103,7 +140,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.73K",
+      "views_label": "6.8K",
       "posted_at": "2026-10-22T10:07:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2092",
@@ -121,7 +158,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "195"
+          "count": "197"
         },
         {
           "emoji": "👍",
@@ -152,7 +189,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.81K",
+      "views_label": "8.84K",
       "posted_at": "2026-10-22T06:24:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2091",
@@ -170,7 +207,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "162"
+          "count": "163"
         },
         {
           "emoji": "❤‍🔥",
@@ -193,7 +230,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.16K",
+      "views_label": "3.19K",
       "posted_at": "2026-10-22T05:48:28+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2090",
@@ -234,7 +271,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.48K",
+      "views_label": "9.51K",
       "posted_at": "2026-10-22T05:48:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2089",
@@ -283,7 +320,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.71K",
+      "views_label": "8.74K",
       "posted_at": "2026-10-22T04:39:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2086",
@@ -344,7 +381,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.25K",
+      "views_label": "9.28K",
       "posted_at": "2026-10-22T04:38:46+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2085",
@@ -404,7 +441,7 @@
       "reply": {
         "channel_username": "whitedns",
         "post_id": "2056",
-        "author_name": "",
+        "author_name": "Blue Knight",
         "preview_text": "سریع‌ترین متد DNS Tunneling؟ 👀⚡️ با SOAR DNS آشنا شو و ببین این روش چطور کار می‌کنه! 💻✨ توی ویدیوی جدید، از راه‌اندازی تا تستشو باهم انجام میدیم. 🍓 🎞 تماشا در یوتیوب ·:¨༺ @BlueKnight_Net ༻¨:·",
         "thumbnail_url": "https://cdn4.telesco.pe/file/nZ3H8tUdLXucFYD3cxuYCEqG3AG4bJPvfDtVYZyRQisTb_z_-fHlzPsj3X67uWcdXzEpgC5rVtjTJ1Pe-0MJghQqQlcHVCOL-LWcHVWztnTAv3ghhuSHtU1ZWYQ5X8W5SSRorgndfKWD-Dj1idWz1NNT_F6I1OpuKExh95ZTV8URyi-SCTjiWfOyWmHNlhiRaFG1qcB3kLzkckHyKLRoPWHj5PSN_EykNODTPuyZcVmB71LMOpuCfE4rWAUYjZjlc5D-ZmIpSlrxMBog3WZ-VHqcgQ381Sf6sFDDu6xyCeNp5eXodIMmUkBnPStlAqkHzBrpuTyCeFy2MPLDp0F85A.jpg",
         "thumbnail_path": "channels/whitedns/media/12bb943dc29a2d8ad9a0dae2.jpg",
@@ -459,7 +496,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.01K",
+      "views_label": "9.04K",
       "posted_at": "2026-10-22T02:40:42+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2083",
@@ -539,7 +576,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "140"
+          "count": "141"
         },
         {
           "emoji": "❤‍🔥",
@@ -5517,63 +5554,6 @@
       "posted_at": "2026-10-14T09:28:12+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/1962",
-      "reply": null
-    },
-    {
-      "id": "whitedns/1959",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/DeuqcAdKuwQcgYrP8EGjfokTNaAvieasux392FhRHGCg3IIgJ0T57kN50rzIp3w211xRLKb6uj9KF87u5zPWrhJ2BUdQGZgxLl8OHu4-ZO4xlw0-874xk1tpBcPl-dcsSp6gYoOLC5hGqDpVMB5bsLPIWYfh06RccesrorOeVXfCDGX0_nMv0QUhJkhocBYHzRn_H6lpSvl3WoTwAFmUgArhY88je0zbSZCUqfl3nKev-XeX03-2S4gGvhoyxHnF4jOgnkQ1YJKFiIbpR26tI5F3hQ_JpxYA8u0w3YvpXQSQ-c0HUrVoeUULAA5te6dD7H-MIEaHLHxgUangyovMpQ.jpg",
-      "author_photo_path": "channels/whitedns/media/7fe5c6c4e17d93a319565cc7.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "نسخه جدید whiteaesther mobile منتشر شد ! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i><br>whiteaesther mobiel 1.12.0 <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i>",
-      "plain_text": "نسخه جدید whiteaesther mobile منتشر شد ! 📱✨\nwhiteaesther mobiel 1.12.0 🚀",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "153"
-        },
-        {
-          "emoji": "💯",
-          "count": "10"
-        },
-        {
-          "emoji": "🙏",
-          "count": "5"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "💘",
-          "count": "2"
-        },
-        {
-          "emoji": "🤯",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "😍",
-          "count": "1"
-        },
-        {
-          "emoji": "🤨",
-          "count": "1"
-        }
-      ],
-      "views_label": "10.2K",
-      "posted_at": "2026-10-14T04:21:19+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/1959",
       "reply": null
     }
   ]
