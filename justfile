@@ -46,6 +46,33 @@ reveal:
 clean: kill
     -trash ~/Library/Developer/Xcode/DerivedData/Pigeon-*
 
+# Verify the tools the mac app and mirror need are installed
+doctor:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    fail=0
+    check() {
+        local name="$1" hint="$2"
+        if command -v "$name" >/dev/null 2>&1; then
+            echo "ok      $name"
+        else
+            echo "MISSING $name — $hint"
+            fail=1
+        fi
+    }
+    check xcodegen "brew install xcodegen (regenerates the Xcode project)"
+    check pnpm "brew install pnpm (mirror scripts)"
+    check node "via fnm/pnpm env — mirror scripts run on Node 22"
+    check gh "brew install gh (mirror + release ops)"
+    check trash "brew install trash (repo convention: never rm)"
+    if command -v xcodebuild >/dev/null 2>&1; then
+        echo "ok      xcodebuild ($(xcodebuild -version | tr '\n' ' '))"
+    else
+        echo "MISSING xcodebuild — install Xcode 26 and run xcode-select"
+        fail=1
+    fi
+    exit "$fail"
+
 # Build release artifacts into mac/dist using the current version (latest v*.*.* tag) and reveal the .dmg in Finder. Does NOT push a tag.
 package:
     #!/usr/bin/env bash
