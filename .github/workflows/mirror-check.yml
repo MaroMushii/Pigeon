@@ -1,0 +1,54 @@
+name: mirror-check
+run-name: mirror-check · ${{ github.event_name }} ${{ github.sha }}
+
+# The scraper CI (mirror.yml) only ever runs the scraper, so type- and
+# behavior-level breakage in mirror/ lands silently on main. This runs the
+# offline gates on every change to mirror/ — the rot-catcher the repo had
+# been missing (signing.test.ts sat broken on main for months unnoticed).
+on:
+  push:
+    branches: [main]
+    paths:
+      - "mirror/**"
+      - ".github/workflows/mirror-check.yml"
+  pull_request:
+    paths:
+      - "mirror/**"
+      - ".github/workflows/mirror-check.yml"
+
+# No shared state with mirror.yml — superseded runs can cancel freely.
+concurrency:
+  group: mirror-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Typecheck + tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 10
+
+      - name: Set up Node 22
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: pnpm
+          cache-dependency-path: mirror/pnpm-lock.yaml
+
+      - name: Install dependencies
+        working-directory: mirror
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck
+        working-directory: mirror
+        run: pnpm typecheck
+
+      - name: Test
+        working-directory: mirror
+        run: pnpm test
