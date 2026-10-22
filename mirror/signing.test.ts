@@ -39,6 +39,13 @@ function makePublicKey(): import("node:crypto").KeyObject {
   });
 }
 
+// `buf[0] ^= x` doesn't typecheck under noUncheckedIndexedAccess, and
+// indexing past the end must throw, not silently no-op — readUInt8 does.
+function flipFirstByte(buffer: Buffer): Buffer {
+  buffer.writeUInt8(buffer.readUInt8(0) ^ 0xff, 0);
+  return buffer;
+}
+
 test("signBytes produces a 64-byte signature", async () => {
   process.env.MIRROR_SIGNING_KEY = PLACEHOLDER_SEED_B64;
   const { signBytes } = await import("./signing.js");
@@ -59,8 +66,7 @@ test("verification fails on tampered payload", async () => {
   const { signBytes } = await import("./signing.js");
   const payload = Buffer.from("hello mirror");
   const sig = signBytes(payload);
-  const tampered = Buffer.from(payload);
-  tampered[0] ^= 0xff;
+  const tampered = flipFirstByte(Buffer.from(payload));
   assert.equal(verify(null, tampered, makePublicKey(), sig), false);
 });
 
@@ -68,8 +74,7 @@ test("verification fails on tampered signature", async () => {
   process.env.MIRROR_SIGNING_KEY = PLACEHOLDER_SEED_B64;
   const { signBytes } = await import("./signing.js");
   const payload = Buffer.from("hello mirror");
-  const sig = Buffer.from(signBytes(payload));
-  sig[0] ^= 0xff;
+  const sig = flipFirstByte(Buffer.from(signBytes(payload)));
   assert.equal(verify(null, payload, makePublicKey(), sig), false);
 });
 
