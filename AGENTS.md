@@ -341,17 +341,15 @@ cd mirror && pnpm scrape /tmp/test-export channels.json
 
 In rough priority order if the user asks "what's next?":
 
-1. **Un-mirrored channel suggestion flow.** Today, adding `@somechannel`
-   that's not in `mirror/channels.json` falls through to the GT proxy
-   (works, but slower and more fragile than the mirror). A "Suggest
-   this channel for the mirror" action that opens a pre-filled GitHub
-   PR would close the loop without giving Pigeon any write capability.
-2. **Mirror retry/backoff** in `mirror/scrape.ts` so one flaky
+1. **Mirror retry/backoff** in `mirror/scrape.ts` so one flaky
    `t.me/s/<u>` doesn't repeatedly fail across consecutive sweeps. Low
    priority — the 5-min cron is already a coarse retry, and `health.json`
    now surfaces persistent failures so they're at least visible.
 
-**Explicitly out of scope:** notifications on new posts (banners,
+**Explicitly out of scope:** any "suggest this channel for the mirror"
+flow that opens a pre-filled GitHub PR (user decision: don't want PRs
+opened for channel suggestions). Un-mirrored channels keep using the GT
+proxy fallback. Also notifications on new posts (banners,
 sounds, `UNUserNotificationCenter`). The dock-icon unread badge —
 maintained by `ChannelService.updateDockBadge()` from a cached
 `unreadCount` — is the deliberate substitute. Don't propose
