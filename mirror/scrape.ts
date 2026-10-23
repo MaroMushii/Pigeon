@@ -23,6 +23,7 @@
 import { mkdirSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { atomicWriteFile } from "./fs-utils.js";
+import { fetchChannelPage } from "./page-fetch.js";
 import { parseChannelPage } from "./parser.js";
 import type {
   HealthDoc,
@@ -243,15 +244,7 @@ async function scrapeChannel(
   imagesSkipped: number;
 }> {
   const url = `https://t.me/s/${encodeURIComponent(username)}`;
-  const res = await fetch(url, {
-    signal: AbortSignal.timeout(15_000),
-    headers: {
-      "User-Agent": USER_AGENT,
-      Accept:
-        "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      "Accept-Language": "en-US,en;q=0.9",
-    },
-  });
+  const res = await fetchChannelPage(url);
   if (!res.ok) throw new Error(`t.me ${username}: HTTP ${res.status}`);
 
   const html = await res.text();
