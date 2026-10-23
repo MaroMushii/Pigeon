@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-22T23:57:33.254Z",
+  "fetched_at": "2026-10-23T00:02:18.291Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -26,8 +26,8 @@
           "asset_path": null,
           "asset_sha256": null,
           "thumbnail_url": "https://cdn4.telesco.pe/file/H7E-Oo8ZezntBFSiMevGVdPJnKq4LBTNau5-4jHxypA-IBAlzSS27cSfAzd73sJTMSQz3kDUiSfps1T97r3DIl193daU7WZF5b1YjFOmsepl0pM-mfxLl7VIieWJkHaEHDyTeDYYrIO0Q_tutQpbzdAcGCd8RbkK-4dvnlvRN4XI3ROmM9T4E4c1bS3YJiB4NIsEzcyEM_Os5U7uEB_FuC1J0RpQy8kGzkrB7jcfeQUMIQ97E-IFYDurafti5nsO0HD_LdU0xMr0L6T3s8pb4ykrVM8M_Rct_d5XOsghS3PuzhUymoPajiFqnIPaWESETND6-QTWnVHLevLG8VXQvw.jpg",
-          "thumbnail_path": null,
-          "thumbnail_sha256": null,
+          "thumbnail_path": "channels/whitedns/media/e2f8bee7f4c277df884b2f06.jpg",
+          "thumbnail_sha256": "b112332628e22fe3362b7bd746c23db377baddb1ae3d3e087da9c44d6a373bc5",
           "duration_label": null,
           "aspect_ratio": 0.7500000000000188
         }
@@ -35,18 +35,22 @@
       "reactions": [
         {
           "emoji": "💔",
-          "count": "19"
+          "count": "33"
         },
         {
           "emoji": "🔥",
           "count": "4"
         },
         {
-          "emoji": "❤",
-          "count": "1"
+          "emoji": "👍",
+          "count": "2"
         },
         {
-          "emoji": "👍",
+          "emoji": "🤬",
+          "count": "2"
+        },
+        {
+          "emoji": "❤",
           "count": "1"
         },
         {
@@ -54,15 +58,11 @@
           "count": "1"
         },
         {
-          "emoji": "🤬",
-          "count": "1"
-        },
-        {
           "emoji": "🙏",
           "count": "1"
         }
       ],
-      "views_label": "283",
+      "views_label": "448",
       "posted_at": "2026-10-22T23:51:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2104",
@@ -99,7 +99,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.28K",
+      "views_label": "3.36K",
       "posted_at": "2026-10-22T22:05:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2103",
@@ -152,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.8K",
+      "views_label": "10.9K",
       "posted_at": "2026-10-22T15:22:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2102",
@@ -189,7 +189,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.85K",
+      "views_label": "2.86K",
       "posted_at": "2026-10-22T15:21:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2098",
@@ -234,7 +234,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.9K",
+      "views_label": "3.91K",
       "posted_at": "2026-10-22T15:21:24+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2101",
@@ -283,7 +283,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.45K",
+      "views_label": "2.46K",
       "posted_at": "2026-10-22T15:21:22+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2097",
@@ -332,7 +332,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.16K",
+      "views_label": "7.19K",
       "posted_at": "2026-10-22T15:19:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2096",
@@ -381,7 +381,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.92K",
+      "views_label": "6.93K",
       "posted_at": "2026-10-22T15:17:34+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2095",
@@ -446,7 +446,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.49K",
+      "views_label": "8.5K",
       "posted_at": "2026-10-22T13:41:07+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2094",
@@ -499,7 +499,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.18K",
+      "views_label": "9.19K",
       "posted_at": "2026-10-22T11:48:07+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2093",
@@ -658,7 +658,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.15K",
+      "views_label": "4.16K",
       "posted_at": "2026-10-22T05:48:28+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2090",
