@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-Project-level guidance for Claude when working in this repo. Read first.
+Project-level guidance for AI agents working in this repository. Read first.
 
 ## What this project is
 

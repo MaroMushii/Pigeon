@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/mehdi/Work/Curvy/**)",
+      "Bash(just)",
+      "Bash(duckdb *)",
+      "Bash(but diff *)",
+      "Bash(claude skills *)",
+      "Bash(but status *)",
+      "Bash(skills find *)",
+      "Bash(just trace *)",
+      "Bash(just logs-since *)",
+      "Bash(just build *)",
+      "Bash(pnpm typecheck *)"
+    ]
+  }
+}
