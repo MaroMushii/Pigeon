@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-24T09:02:38.977Z",
+  "fetched_at": "2026-10-24T09:04:37.929Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -12,6 +12,55 @@
   },
   "posts": [
     {
+      "id": "whitedns/2138",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/qj-sXVG_bt-G8LyDxj-V9alY9u6YhFO70aMm9-BGGlFJsv1mMb4qItEAYjGMZ8MCKMWx9UdVdrfyzmfpmHULFR9FXpppNDdEW9QwGib3wJAJZmwhYTmpYn1u6F_ULNgnZBmiaMPpH3a1-FVh4YkifaBKjqgAU_KB8x6ZMCO1_-j_uG7qyRPV6nZ5ZuOuUzr5RBzrEldnoYsPWwJJwAX5Rhbuw-vhlHQ4eCJcitIVa5JDbLZeZEc_P6-mxVz_MjF0_f7gwTjOxeWVAGIHan52e3s1W6rIdjeceEbh6SlSovXgqvhvhXSKeTCiLsTMBN8ZXgoIWrROwYyrqiCRDBnDaw.jpg",
+      "author_photo_path": "channels/whitedns/media/b66c42337b35a0a778da896d.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i> WhtieDNS Public Servers<br><br><br>سرور عمومی SOAR <br><br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTgiLCJuYW1lIjoid2hpdGVkbnMgcHVibGljIDIiLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6IjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsInB1YmxpY19rZXkiOiJ1VVdrOU4yc3lXVG1sUUFPOHlsa3ZpaWkxSVFHRjlJa0JabFFSYkZsNjNNPSJ9LCJzb2FyU2V0dGluZ3MiOnsidHJhbnNwb3J0IjoiYXV0byIsImRpc2NvdmVyeSI6dHJ1ZSwiZGlzY292ZXJ5V2FudCI6MiwiZGlzY292ZXJ5Q29uY3VycmVuY3kiOjIsImRpc2NvdmVyeVBhY2VNcyI6MTAwMCwic2FmZVFOYW1lIjoxMDEsIm1heFFOYW1lIjoyNTMsIm1heEFuc3dlciI6MTIzMiwiaG9sZE1zIjo1MDAsIm1heEluZmxpZ2h0IjoxMjgsIm1heFBhdGhXaW5kb3ciOjMyLCJtYXhTdHJlYW1zIjoxMjgsInN0cmVhbVdpbmRvd0tpQiI6MjU2LCJzZW5kQnVmZmVyS2lCIjo2NCwic2Vzc2lvbklkbGVTZWNvbmRzIjo5MCwiZGlhbFRpbWVvdXRTZWNvbmRzIjo5MCwiY291bnRyeSI6IklSIn19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0</code><br><br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzYiLCJuYW1lIjoiV2hpdGVETlMgUHVibGljIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJpdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJwdWJsaWNfa2V5IjoiR1daa2NSVVErUHhqMnEydXRKZllEV2cwR2dOR3AybmtVMmN5UE8ySk1UMD0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><br><br>سرور عمومی CottenDNS <br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTg6Y290dGVuIiwibmFtZSI6IndoaXRlZG5zIHB1YmxpYyAyIMK3IENvdHRlbiIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiY290LjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiODU5YzY4MWYzZGU2NDE4ZmVmY2ZlNmY4ZTY0OWYzN2U4ZDkyMGU2MzExNzEyOWE3MjEwNmM3NjRhNDRkOTFmYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ</code><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🔥 WhtieDNS Public Servers\n\n\nسرور عمومی SOAR\n\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTgiLCJuYW1lIjoid2hpdGVkbnMgcHVibGljIDIiLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6IjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsInB1YmxpY19rZXkiOiJ1VVdrOU4yc3lXVG1sUUFPOHlsa3ZpaWkxSVFHRjlJa0JabFFSYkZsNjNNPSJ9LCJzb2FyU2V0dGluZ3MiOnsidHJhbnNwb3J0IjoiYXV0byIsImRpc2NvdmVyeSI6dHJ1ZSwiZGlzY292ZXJ5V2FudCI6MiwiZGlzY292ZXJ5Q29uY3VycmVuY3kiOjIsImRpc2NvdmVyeVBhY2VNcyI6MTAwMCwic2FmZVFOYW1lIjoxMDEsIm1heFFOYW1lIjoyNTMsIm1heEFuc3dlciI6MTIzMiwiaG9sZE1zIjo1MDAsIm1heEluZmxpZ2h0IjoxMjgsIm1heFBhdGhXaW5kb3ciOjMyLCJtYXhTdHJlYW1zIjoxMjgsInN0cmVhbVdpbmRvd0tpQiI6MjU2LCJzZW5kQnVmZmVyS2lCIjo2NCwic2Vzc2lvbklkbGVTZWNvbmRzIjo5MCwiZGlhbFRpbWVvdXRTZWNvbmRzIjo5MCwiY291bnRyeSI6IklSIn19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0\n\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzYiLCJuYW1lIjoiV2hpdGVETlMgUHVibGljIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJpdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJwdWJsaWNfa2V5IjoiR1daa2NSVVErUHhqMnEydXRKZllEV2cwR2dOR3AybmtVMmN5UE8ySk1UMD0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\n\n\nسرور عمومی CottenDNS\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTg6Y290dGVuIiwibmFtZSI6IndoaXRlZG5zIHB1YmxpYyAyIMK3IENvdHRlbiIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiY290LjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiODU5YzY4MWYzZGU2NDE4ZmVmY2ZlNmY4ZTY0OWYzN2U4ZDkyMGU2MzExNzEyOWE3MjEwNmM3NjRhNDRkOTFmYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ\n\n@whitedns",
+      "media": [],
+      "reactions": [],
+      "views_label": "181",
+      "posted_at": "2026-10-24T09:03:22+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2138",
+      "reply": null
+    },
+    {
+      "id": "whitedns/2137",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/qj-sXVG_bt-G8LyDxj-V9alY9u6YhFO70aMm9-BGGlFJsv1mMb4qItEAYjGMZ8MCKMWx9UdVdrfyzmfpmHULFR9FXpppNDdEW9QwGib3wJAJZmwhYTmpYn1u6F_ULNgnZBmiaMPpH3a1-FVh4YkifaBKjqgAU_KB8x6ZMCO1_-j_uG7qyRPV6nZ5ZuOuUzr5RBzrEldnoYsPWwJJwAX5Rhbuw-vhlHQ4eCJcitIVa5JDbLZeZEc_P6-mxVz_MjF0_f7gwTjOxeWVAGIHan52e3s1W6rIdjeceEbh6SlSovXgqvhvhXSKeTCiLsTMBN8ZXgoIWrROwYyrqiCRDBnDaw.jpg",
+      "author_photo_path": "channels/whitedns/media/b66c42337b35a0a778da896d.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "آموزش کوتاه نحوه استفاده از whitedns mobile <br><br>پروکسی استفاده شده در آموزش:<br><a href=\"https://t.me/socks?server=127.0.0.1&amp;port=10886\" target=\"_blank\" rel=\"noopener\">https://t.me/socks?server=127.0.0.1&amp;port=10886</a><br><br>با تشکر از دوست عزیزمان Sepee <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "آموزش کوتاه نحوه استفاده از whitedns mobile\n\nپروکسی استفاده شده در آموزش:\nhttps://t.me/socks?server=127.0.0.1&port=10886\n\nبا تشکر از دوست عزیزمان Sepee ❤️\n\n@whitedns",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/whitedns/2137",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/kvhggXwseOEJTQpQtldpzESPsqxDNnH56-Wy5JSSQ8nUlID2bhCYMQLoc_BDM8MFbsbWuyuxQVyCUetgs6rDu_5AIQXdDyYrWNFqliZ68YpnDkvNuhU02R8FarQogrrlRsZuYZb5Jplz4egajKGHsxdNP9j-YEeXFZApHb0tC5Tm9a-LjL8W22dyOekU7UgcDx60S5GnFqk_fNqshynDNevRpIrL3m6tXH2A2oUg_TO801De6H4mYOKaw1lZf4wQaU_shjY-m7qz4X4JH2Ss1Sk_jKz3cBefov04DvIQQ2Mqmn8J9v5wNOn7jqI85K176xvuC92iM04CoTv4D2Tj4w",
+          "thumbnail_path": "channels/whitedns/media/3618a6c8fd7c9f82c1aca56e.jpg",
+          "thumbnail_sha256": "24fefb73c2d5b8b8e9ae0a8f1104ac87069e071f44f02602da3bdc86b02830ae",
+          "duration_label": "2:06",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "57",
+      "posted_at": "2026-10-24T09:03:08+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2137",
+      "reply": null
+    },
+    {
       "id": "whitedns/2136",
       "author_name": "White DNS",
       "author_photo_url": "https://cdn4.telesco.pe/file/qj-sXVG_bt-G8LyDxj-V9alY9u6YhFO70aMm9-BGGlFJsv1mMb4qItEAYjGMZ8MCKMWx9UdVdrfyzmfpmHULFR9FXpppNDdEW9QwGib3wJAJZmwhYTmpYn1u6F_ULNgnZBmiaMPpH3a1-FVh4YkifaBKjqgAU_KB8x6ZMCO1_-j_uG7qyRPV6nZ5ZuOuUzr5RBzrEldnoYsPWwJJwAX5Rhbuw-vhlHQ4eCJcitIVa5JDbLZeZEc_P6-mxVz_MjF0_f7gwTjOxeWVAGIHan52e3s1W6rIdjeceEbh6SlSovXgqvhvhXSKeTCiLsTMBN8ZXgoIWrROwYyrqiCRDBnDaw.jpg",
@@ -20,8 +69,17 @@
       "body_html": "حتما برنامه های whitedns را نصب کنید و امتحان کنید تا یاد بگیرید چطور کار میکنه تا موقع قطعی گسترده سوپرایز نشید . <br><br><b> WhiteDNS</b><br><br>برنامه ها <br><a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود پایدار اندروید</a><br><a href=\"https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود پایدار دسکتاپ</a><br><a href=\"https://www.youtube.com/watch?v=spFuEWejbLE\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش ویدیویی دسکتاپ</a><br><a href=\"https://www.youtube.com/watch?v=tz8cj7HzHVI\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش ویدیویی اندروید</a><br><br>پتل <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دریافت آخرین نسخهٔ پنل</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/blob/panel-v0.6.0/docs/PANEL.fa.md\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای فارسی پنل</a><br><br>ربات <br><a href=\"https://t.me/WhiteDnsChainbot\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ربات دریافت کانفیگ اضطراری masterdns</a><br>( این ربات در صورت بروز قطعی گسترده فقط روشن خواهد شد)",
       "plain_text": "حتما برنامه های whitedns را نصب کنید و امتحان کنید تا یاد بگیرید چطور کار میکنه تا موقع قطعی گسترده سوپرایز نشید .\n\nWhiteDNS\n\nبرنامه ها\nدانلود پایدار اندروید\nدانلود پایدار دسکتاپ\nآموزش ویدیویی دسکتاپ\nآموزش ویدیویی اندروید\n\nپتل\n📥 دریافت آخرین نسخهٔ پنل\n📖 راهنمای فارسی پنل\n\nربات\nربات دریافت کانفیگ اضطراری masterdns\n( این ربات در صورت بروز قطعی گسترده فقط روشن خواهد شد)",
       "media": [],
-      "reactions": [],
-      "views_label": "1",
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "431",
       "posted_at": "2026-10-24T09:02:22+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2136",
@@ -51,7 +109,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "51"
+          "count": "53"
         },
         {
           "emoji": "❤‍🔥",
@@ -66,7 +124,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.07K",
+      "views_label": "3.28K",
       "posted_at": "2026-10-24T08:10:19+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2133",
@@ -100,7 +158,7 @@
         },
         {
           "emoji": "❤",
-          "count": "45"
+          "count": "46"
         },
         {
           "emoji": "❤‍🔥",
@@ -115,7 +173,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.18K",
+      "views_label": "3.26K",
       "posted_at": "2026-10-24T08:03:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2132",
@@ -149,7 +207,7 @@
         },
         {
           "emoji": "❤‍🔥",
-          "count": "7"
+          "count": "8"
         },
         {
           "emoji": "🕊",
@@ -168,7 +226,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.03K",
+      "views_label": "6.11K",
       "posted_at": "2026-10-24T06:18:04+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2131",
@@ -194,7 +252,7 @@
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "🍓",
@@ -209,7 +267,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.68K",
+      "views_label": "6.71K",
       "posted_at": "2026-10-24T05:06:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2130",
@@ -250,7 +308,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.49K",
+      "views_label": "6.54K",
       "posted_at": "2026-10-24T05:04:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2129",
@@ -307,7 +365,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.3K",
+      "views_label": "7.34K",
       "posted_at": "2026-10-24T04:12:21+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2127",
@@ -368,7 +426,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.92K",
+      "views_label": "7.98K",
       "posted_at": "2026-10-24T03:49:27+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2126",
@@ -777,7 +835,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.21K",
+      "views_label": "6.25K",
       "posted_at": "2026-10-23T10:37:53+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2117",
@@ -822,7 +880,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.04K",
+      "views_label": "2.05K",
       "posted_at": "2026-10-23T10:36:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2116",
@@ -5291,156 +5349,6 @@
         "thumbnail_sha256": "1d30cc85ea9fe2da8643d6bace0bfb6c8a564d3c821e621025fa66a23b16c0fc",
         "permalink": "https://t.me/whitedns/2017"
       }
-    },
-    {
-      "id": "whitedns/2017",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/rx8da1vqTriwbqQXZKYyp0EtRPOGnkaC8e6lx8tZ7zFRSpqD-fCUJy1vS2ITs3qv4yK7fl3VL7q5IvkTORMMEAY7rL8HyX_kzWVKf9wZrAyb1BwuIap3qOsU9ByqD5BenWWe7vqxTy9SORKOha34dZD6-IT_aHLffJ_LIgzHHKs1xJthktPHK3i3z1vE0UlBed_iBE98hdkCd85mpgWvv2SFbbx3quU77NKiASHUaPQNgWN4_81h9oIEdeJ0dvtR3C_UYI8apvPKFesfJFpAUDvG3R_6ij7yiDDPfh4up1INM0mkCFwjulI8Tl0Fi_YksCm0gzumVQqiGor0BreYfA.jpg",
-      "author_photo_path": "channels/whitedns/media/b4c89e29d525aae2486e3a49.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "تقریبا هر روز کامنت‌هایی شبیه این می‌بینم؛ هم درباره ابزارهای WhiteDNS و هم درباره پروژه‌هایی که بقیه دارن روشون کار می‌کنن.<br><br>می‌خوام یه موضوع رو خیلی شفاف و قاطع بگم:<br><br>بله، ما بخش زیادی از کد ابزارهای WhiteDNS رو با کمک هوش مصنوعی می‌نویسیم. نه از گفتنش خجالت می‌کشیم، نه دلیلی برای پنهان کردنش داریم.<br><br>اما پشت این ابزارها فقط چند تا پرامپت و خروجی هوش مصنوعی نیست.<br><br>پشتش سال‌ها تجربه مهندسی نرم‌افزار، دانش شبکه، ساعت‌ها تحقیق، آزمون و خطا، رفع باگ و تست با کمک آدم‌های مختلفه.<br><br>هوش مصنوعی می‌تونه کد بنویسه، اما قرار نیست به‌جای ما تصمیم‌های فنی بگیره، مشکلات شبکه رو درک کنه یا مسئولیت نتیجه نهایی رو بپذیره. این مسئولیت با ماست.<br><br>و حتی اگر تمام این کدها با هوش مصنوعی نوشته شده بودن، باز هم یه واقعیت تغییر نمی‌کرد:<br><br><tg-emoji emoji-id=\"5440660757194744323\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E280BC.png')\"><b>‼️</b></i></tg-emoji><b>این ابزارها دارن مشکل واقعی آدم‌های واقعی رو حل می‌کنن.</b><br><br>ما هیچ‌وقت ادعا نکردیم بهترین برنامه‌نویس‌های دنیا هستیم یا ابزارهایی که می‌سازیم بی‌نقصن. اتفاقا همیشه جا برای بهتر شدن هست.<br><br>نقد فنی، گزارش باگ و پیشنهاد برای بهبود رو با آغوش باز می‌پذیریم. اما اینکه تنها معیار قضاوت درباره یه محصول این باشه که «با هوش مصنوعی ساخته شده»، نه نقد فنیه و نه نگاه درستی به نرم‌افزار.<br><br>ارزش یه ابزار رو کیفیت، کارایی و مشکلی که حل می‌کنه مشخص می‌کنه؛ نه اینکه چند درصد کدش رو انسان تایپ کرده.<br><br>از روز اول هدف ما توی WhiteDNS کمک کردن بوده و هنوز هم همینه. نه دنبال اثبات خودمون به کسی هستیم، نه دنبال گرفتن تایید از همه.<br><br>تا وقتی این ابزارها به درد مردم می‌خورن، به توسعه و بهتر کردنشون ادامه می‌دیم.<br><br>آخرش چیزی که برای ما اهمیت داره، نتیجه‌ایه که به دست مردم می‌رسه، نه قضاوت درباره ابزاری که باهاش اون نتیجه رو ساختیم.",
-      "plain_text": "تقریبا هر روز کامنت‌هایی شبیه این می‌بینم؛ هم درباره ابزارهای WhiteDNS و هم درباره پروژه‌هایی که بقیه دارن روشون کار می‌کنن.\n\nمی‌خوام یه موضوع رو خیلی شفاف و قاطع بگم:\n\nبله، ما بخش زیادی از کد ابزارهای WhiteDNS رو با کمک هوش مصنوعی می‌نویسیم. نه از گفتنش خجالت می‌کشیم، نه دلیلی برای پنهان کردنش داریم.\n\nاما پشت این ابزارها فقط چند تا پرامپت و خروجی هوش مصنوعی نیست.\n\nپشتش سال‌ها تجربه مهندسی نرم‌افزار، دانش شبکه، ساعت‌ها تحقیق، آزمون و خطا، رفع باگ و تست با کمک آدم‌های مختلفه.\n\nهوش مصنوعی می‌تونه کد بنویسه، اما قرار نیست به‌جای ما تصمیم‌های فنی بگیره، مشکلات شبکه رو درک کنه یا مسئولیت نتیجه نهایی رو بپذیره. این مسئولیت با ماست.\n\nو حتی اگر تمام این کدها با هوش مصنوعی نوشته شده بودن، باز هم یه واقعیت تغییر نمی‌کرد:\n\n‼️این ابزارها دارن مشکل واقعی آدم‌های واقعی رو حل می‌کنن.\n\nما هیچ‌وقت ادعا نکردیم بهترین برنامه‌نویس‌های دنیا هستیم یا ابزارهایی که می‌سازیم بی‌نقصن. اتفاقا همیشه جا برای بهتر شدن هست.\n\nنقد فنی، گزارش باگ و پیشنهاد برای بهبود رو با آغوش باز می‌پذیریم. اما اینکه تنها معیار قضاوت درباره یه محصول این باشه که «با هوش مصنوعی ساخته شده»، نه نقد فنیه و نه نگاه درستی به نرم‌افزار.\n\nارزش یه ابزار رو کیفیت، کارایی و مشکلی که حل می‌کنه مشخص می‌کنه؛ نه اینکه چند درصد کدش رو انسان تایپ کرده.\n\nاز روز اول هدف ما توی WhiteDNS کمک کردن بوده و هنوز هم همینه. نه دنبال اثبات خودمون به کسی هستیم، نه دنبال گرفتن تایید از همه.\n\nتا وقتی این ابزارها به درد مردم می‌خورن، به توسعه و بهتر کردنشون ادامه می‌دیم.\n\nآخرش چیزی که برای ما اهمیت داره، نتیجه‌ایه که به دست مردم می‌رسه، نه قضاوت درباره ابزاری که باهاش اون نتیجه رو ساختیم.",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/2017",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/pnFmUj-wZPZjSg_kAoYk2xZL46b0dj7lyPpA92-lmveidwWmY3GMVnrwUicoUVu_Mr8OyUWATZsQfKJI0BdCuiIzoj2uRbNMVYSpTgA7V_AU44DiepeR-1WVaA0GbeX9kNeRfC42VpRPEe84QJ3usmvyDoxdchksx9DlgjW_kMZvdH9Ez06XKPFLRzmzpBqzyLOH2wwmIukPJMfjYTKYdbbra7s5j4tN5mJmrW2YMNqkUO0xH6ri0_Ypt6kXhWNlFhCvy0vSMsE9RnNNyzblGqLbm8UHMdBLftK22ffsIa8tVf6e0Jm4z8IQJY0GEVoNv67XlyYcr-4WwXmdb84_2g.jpg",
-          "thumbnail_path": "channels/whitedns/media/b3d2d381c611f4a926ef4751.jpg",
-          "thumbnail_sha256": "f80a2acee2f1f9dfa433a0a64f54b872def0eb5ae3548bad1037aa76348032d6",
-          "duration_label": null,
-          "aspect_ratio": 1.9656019656019657
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "32"
-        },
-        {
-          "emoji": "❤",
-          "count": "884"
-        },
-        {
-          "emoji": "👏",
-          "count": "63"
-        },
-        {
-          "emoji": "👍",
-          "count": "45"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "15"
-        },
-        {
-          "emoji": "🙏",
-          "count": "6"
-        },
-        {
-          "emoji": "🔥",
-          "count": "5"
-        },
-        {
-          "emoji": "🤣",
-          "count": "3"
-        },
-        {
-          "emoji": "🍓",
-          "count": "3"
-        },
-        {
-          "emoji": "💅",
-          "count": "3"
-        },
-        {
-          "emoji": "💋",
-          "count": "2"
-        },
-        {
-          "emoji": "😘",
-          "count": "1"
-        }
-      ],
-      "views_label": "12.8K",
-      "posted_at": "2026-10-17T07:56:24+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2017",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2016",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/rx8da1vqTriwbqQXZKYyp0EtRPOGnkaC8e6lx8tZ7zFRSpqD-fCUJy1vS2ITs3qv4yK7fl3VL7q5IvkTORMMEAY7rL8HyX_kzWVKf9wZrAyb1BwuIap3qOsU9ByqD5BenWWe7vqxTy9SORKOha34dZD6-IT_aHLffJ_LIgzHHKs1xJthktPHK3i3z1vE0UlBed_iBE98hdkCd85mpgWvv2SFbbx3quU77NKiASHUaPQNgWN4_81h9oIEdeJ0dvtR3C_UYI8apvPKFesfJFpAUDvG3R_6ij7yiDDPfh4up1INM0mkCFwjulI8Tl0Fi_YksCm0gzumVQqiGor0BreYfA.jpg",
-      "author_photo_path": "channels/whitedns/media/b4c89e29d525aae2486e3a49.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94AD.png')\"><b>🔭</b></i><b> دانلود ابزارهای WhiteDNS<br></b><br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29B8F.png')\"><b>⛏️</b></i> اپلیکیشن ها</b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> WhiteAesther<br></b><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود موبایل</a> • <a href=\"https://github.com/WhiteDNS/WhiteAesther/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود دسکتاپ</a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> WhiteVPN<br></b><a href=\"https://github.com/WhiteDNS/WhiteVPN/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود موبایل</a> • <a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود دسکتاپ</a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> WhiteDNS</b> مناسب دوران قطعی<br><a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود اندروید</a> • <a href=\"https://github.com/WhiteDNS/WhiteDNS-Desktop/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود دسکتاپ</a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948E.png')\"><b>🔎</b></i> WhiteDNS Clean IP + Resolver Finder<br></b><a href=\"https://github.com/WhiteDNS/WhiteDNS-cleanip-finder/releases\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود برای موبایل و دسکتاپ</a><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> CoreForge VPN + DNS<br></b><a href=\"https://testflight.apple.com/join/DRkT6zny\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دریافت نسخه iOS از TestFlight</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAE.png')\"><b>🎮</b></i> WhiteGame<br><a href=\"https://github.com/TaJirax/WhiteGame\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دریافت نسخه اندروید</a><br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA496.png')\"><b>🤖</b></i> ربات‌های WhiteDNS</b> <br>      ربات برای گرفتن کانفیگ exit chain <br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> WhiteDnsChain :  <a href=\"https://t.me/WhiteDnsChainbot\" target=\"_blank\">@WhiteDnsChainbot</a><br> ربات برای گرفتن کانفیگ اضطراری (مستر دی ان اس )<br> whitedns app config bot/ masterdns config : <a href=\"https://t.me/MasterDnsManager_bot\" target=\"_blank\">@MasterDnsManager_bot</a><br><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E93.png')\"><b>🎓</b></i><b> آموزش‌ها و راهنماها</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://youtu.be/yx-jFqv9pYM\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش Exit Chain برای WhiteAesther و WhiteVPN</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E80.png')\"><b>🎀</b></i><a href=\"https://www.youtube.com/watch?v=spFuEWejbLE\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">0-100 راه اندازی WhiteDNS</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> <a href=\"https://www.youtube.com/watch?v=tm0ls3r4ppw\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل WhiteVPN</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> <a href=\"https://www.youtube.com/watch?v=cRfqxbDY1Dg&amp;amp;t=1s\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل WhiteAesther</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> <a href=\"https://www.youtube.com/watch?v=tz8cj7HzHVI\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل WhiteDNS</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> <a href=\"https://www.youtube.com/watch?v=filwdiPKN90\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل CoreForge</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948E.png')\"><b>🔎</b></i> <a href=\"https://www.youtube.com/watch?v=N5hKuWXp37w\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش کامل اسکنر WhiteDNS</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://t.me/whitedns/1711\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای کامل ربات WhiteDnsChain</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')\"><b>💬</b></i> <a href=\"https://t.me/whitedns/1712\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای استفاده از ربات WhiteDNS</a><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "🔭 دانلود ابزارهای WhiteDNS\n\n\n⛏️ اپلیکیشن ها\n📱 WhiteAesther\nدانلود موبایل • دانلود دسکتاپ\n🛡 WhiteVPN\nدانلود موبایل • دانلود دسکتاپ\n🌐 WhiteDNS مناسب دوران قطعی\nدانلود اندروید • دانلود دسکتاپ\n🔎 WhiteDNS Clean IP + Resolver Finder\nدانلود برای موبایل و دسکتاپ\n🍎 CoreForge VPN + DNS\nدریافت نسخه iOS از TestFlight\n🎮 WhiteGame\nدریافت نسخه اندروید\n\n🤖 ربات‌های WhiteDNS\nربات برای گرفتن کانفیگ exit chain\n🔗 WhiteDnsChain : @WhiteDnsChainbot\nربات برای گرفتن کانفیگ اضطراری (مستر دی ان اس )\nwhitedns app config bot/ masterdns config : @MasterDnsManager_bot\n\n\n🎓 آموزش‌ها و راهنماها\n🔗 آموزش Exit Chain برای WhiteAesther و WhiteVPN\n🎀0-100 راه اندازی WhiteDNS\n🛡 آموزش کامل WhiteVPN\n📱 آموزش کامل WhiteAesther\n🌐 آموزش کامل WhiteDNS\n🍎 آموزش کامل CoreForge\n🔎 آموزش کامل اسکنر WhiteDNS\n🔗 راهنمای کامل ربات WhiteDnsChain\n💬 راهنمای استفاده از ربات WhiteDNS\n\n@WhiteDNS",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/2016",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/uvnFeAJ93QYMXEuC3spM-FB3rVgoxhgz8t6LSVHpUmz0nKvuP9I7x4rzO_MRrzv4RNpMdKqHVSXRcAbcDSqhovAvoobgyxFBFZT923M9Ot9c-Pf_NwR4DXUmSA5HfHriwAcVGWcP6IQoo4Hu0s3DM-QueqNk7eSPsS8NW70JzYwvMvjg_zFjUP7i3OUo7njRY3Sa9lWilVF84FYyWRJx6661Y9zZuwbt7vCOeD4D1Sx43s4UMOse_b5hXQoKjgevjSqt-7fFfY68UawVtwULCkev4nPpA5roJ3D7TmXnLfjq0B0LS86wLomjOQTDfRvwQYdmAcolmMXB5cX8AtY_Tg.jpg",
-          "thumbnail_path": "channels/whitedns/media/ded0c994bdfe82cf2ea4d190.jpg",
-          "thumbnail_sha256": "6140b01108e6e140cd671a4067f95ec3a570965fcfbb1598a209a2d9eda1613a",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "127"
-        },
-        {
-          "emoji": "🤩",
-          "count": "4"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "🌚",
-          "count": "2"
-        },
-        {
-          "emoji": "👍",
-          "count": "1"
-        },
-        {
-          "emoji": "🥰",
-          "count": "1"
-        },
-        {
-          "emoji": "🥱",
-          "count": "1"
-        },
-        {
-          "emoji": "🐳",
-          "count": "1"
-        },
-        {
-          "emoji": "🍓",
-          "count": "1"
-        }
-      ],
-      "views_label": "12.3K",
-      "posted_at": "2026-10-17T05:05:43+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/2016",
-      "reply": null
     }
   ]
 }
