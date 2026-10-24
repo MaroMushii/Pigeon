@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-24T13:07:47.663Z",
+  "fetched_at": "2026-10-24T13:13:29.910Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,47 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5687",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/crHil8DaasZsfTWQTklXCtlmL4DDX7GDI4em5feTf_X3SVpAHFbyVJcFQAtW6hdEzUcf-OmmM1nr_WblDCDw590VFMkEUgYIEUkfA9IaGFePUA8zoY3CE9pcbqhyVcU7O3Rcn4lQOf8K3FnTXACzKOueZ-RmgNd4-Ja8alpjpIKwfBP2soOE-ve38CL7XLzElQB0UPL5NoU6YP8VrERrtcz9S5a1TZdHNfyxPnYfHNXz8s7VGQYKeDH_Kx_HydMTAF1doCTcdjZoR5T3Vjyjppag301CIODN7YY-yWMQ1pC38xHjbQPYsEdl07dHYYLLBm7fnk4Z1p2zST_8QihpPA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/d656b249a6da06892175140d.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>آسیب‌پذیری Brotli با شناسه CVE-2026-111497 (node2shell) در پایتون و دیگر مصرف‌کنندگان این کتابخانه هم قابل بهره‌برداری است</b><br><br>الگوریتم Brotli یک الگوریتم فشرده‌سازی داده است که در بسیاری از کتابخانه‌های HTTP و مرورگرها استفاده می‌شود؛ CVE شناسه‌ی عمومی ثبت یک آسیب‌پذیری امنیتی است.<br><br>گزارش Aikido نشان می‌دهد آسیب‌پذیری node2shell که این هفته درباره‌ی Brotli منتشر شد، فقط به Node.js محدود نیست و در پکیج‌های پایتون و دیگر مصرف‌کنندگان Brotli هم قابل بهره‌برداری است. در بحث Hacker News از تکامل آن به HTTP2Shell و دامنه‌ی اثر گسترده روی کتابخانه‌ها و اپلیکیشن‌های HTTP صحبت شده است. Maintainer ها و تیم‌های امنیتی باید وابستگی‌های خود به Brotli را بررسی و به‌روزرسانی کنند.<br><br><a href=\"https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "آسیب‌پذیری Brotli با شناسه CVE-2026-111497 (node2shell) در پایتون و دیگر مصرف‌کنندگان این کتابخانه هم قابل بهره‌برداری است\n\nالگوریتم Brotli یک الگوریتم فشرده‌سازی داده است که در بسیاری از کتابخانه‌های HTTP و مرورگرها استفاده می‌شود؛ CVE شناسه‌ی عمومی ثبت یک آسیب‌پذیری امنیتی است.\n\nگزارش Aikido نشان می‌دهد آسیب‌پذیری node2shell که این هفته درباره‌ی Brotli منتشر شد، فقط به Node.js محدود نیست و در پکیج‌های پایتون و دیگر مصرف‌کنندگان Brotli هم قابل بهره‌برداری است. در بحث Hacker News از تکامل آن به HTTP2Shell و دامنه‌ی اثر گسترده روی کتابخانه‌ها و اپلیکیشن‌های HTTP صحبت شده است. Maintainer ها و تیم‌های امنیتی باید وابستگی‌های خود به Brotli را بررسی و به‌روزرسانی کنند.\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5687",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/QJbbWQQGlAKaQjF3EL6RSlhq2laXvMZ7qzfjReeo9TVpMYVzCxWJm0jQ4FFA54-jVeVjCOF3perRbsYYaGaO4CZlaA3gbf2B_VqnKLEiW8nE_B42SWzlLrTdNk6t7Cj20b2QqqvkE9SQS7obO0cR7kSW_GVgz1b1Xck2ec4wG6Pel5PMTljDUBzxz2_mVBAH7oFjK2NK-gG_Yijq7yiJT4n5l5JqOvHhHElRrq3cWqFbs4L8R_7MpmTuzVJnipZ5pyhRqM2UDDGQvAW3g04CwHd6kxsZ2bpcbrwXi-zRT3kIEHPPLU6SIbJpF8Mtzqw3C6sjwFKEcJmJnWT6Qw03Zg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/ee9c1ebd5ef9943906ce7af9.jpg",
+          "thumbnail_sha256": "dcb93470985dc68cb5a1e42a0c840f6b60367203d760859a589c6c30cd384d51",
+          "duration_label": null,
+          "aspect_ratio": 1.9047619047619047
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "😁",
+          "count": "7"
+        },
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "1.25K",
+      "posted_at": "2026-10-24T13:09:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5687",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5686",
       "author_name": "Matin SenPai",
@@ -27,7 +68,7 @@
         },
         {
           "emoji": "😁",
-          "count": "104"
+          "count": "112"
         },
         {
           "emoji": "🦄",
@@ -35,7 +76,7 @@
         },
         {
           "emoji": "💔",
-          "count": "8"
+          "count": "10"
         },
         {
           "emoji": "🆒",
@@ -43,10 +84,10 @@
         },
         {
           "emoji": "❤",
-          "count": "1"
+          "count": "2"
         }
       ],
-      "views_label": "6.04K",
+      "views_label": "6.86K",
       "posted_at": "2026-10-24T12:41:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5686",
@@ -64,7 +105,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "146"
+          "count": "153"
         },
         {
           "emoji": "👍",
@@ -79,7 +120,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.7K",
+      "views_label": "11.2K",
       "posted_at": "2026-10-24T11:43:03+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5685",
@@ -97,7 +138,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "219"
+          "count": "226"
         },
         {
           "emoji": "💔",
@@ -112,7 +153,7 @@
           "count": "7"
         }
       ],
-      "views_label": "12.1K",
+      "views_label": "12.5K",
       "posted_at": "2026-10-24T11:34:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5684",
@@ -151,18 +192,18 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "106"
+          "count": "107"
         },
         {
           "emoji": "❤",
-          "count": "18"
+          "count": "19"
         },
         {
           "emoji": "👍",
           "count": "8"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.6K",
       "posted_at": "2026-10-24T10:29:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5683",
@@ -207,14 +248,14 @@
         },
         {
           "emoji": "❤",
-          "count": "19"
+          "count": "20"
         },
         {
           "emoji": "👍",
-          "count": "11"
+          "count": "12"
         }
       ],
-      "views_label": "14.9K",
+      "views_label": "15.2K",
       "posted_at": "2026-10-24T10:27:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5681",
@@ -255,7 +296,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15.8K",
+      "views_label": "16K",
       "posted_at": "2026-10-24T09:28:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5680",
@@ -300,7 +341,7 @@
           "count": "2"
         }
       ],
-      "views_label": "17.6K",
+      "views_label": "17.7K",
       "posted_at": "2026-10-24T07:26:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5679",
@@ -334,7 +375,7 @@
         },
         {
           "emoji": "❤",
-          "count": "112"
+          "count": "113"
         },
         {
           "emoji": "🆒",
@@ -357,7 +398,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.6K",
+      "views_label": "18.7K",
       "posted_at": "2026-10-24T05:58:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5678",
@@ -394,7 +435,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.8K",
       "posted_at": "2026-10-24T04:24:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5677",
@@ -496,7 +537,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-10-23T22:57:21+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5675",
@@ -514,7 +555,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "280"
+          "count": "281"
         },
         {
           "emoji": "👍",
@@ -544,7 +585,7 @@
       "reply": {
         "channel_username": "matinsenpaii",
         "post_id": "5673",
-        "author_name": "Linuxor ?",
+        "author_name": "",
         "preview_text": "من یه عالمه توکن دیگه سوزوندم و منطقه یک تهران را حالت بازی جهان باز شبیه به gta تحت وب ساختم.زبان و هوا و ترافیک با تهران واقعی سینک میشه میتونی موتور ماشین هلیکوپتر و هواپیما سوار بشی ماموریت انجام بدی .به مرور زمان کامل ترش میکنم tehran.velestudio.com…",
         "thumbnail_url": "https://cdn4.telesco.pe/file/XgOaRxzR3-dfq5O623Nret0jkfZpGTkRXTLPm3AM8qo8-OhIE4aV2hZPvWtIt7yd_fxYwMFbAy6_4CCqkGGsmE-Ybz4Pq1NBM06--ZwDg4C3gsndql-4HIKL1FC7vU5m0Y-mZOQiDG0gdPebojgRFyER31imFS1I-9yOLbXqSJAkfwbYURyaYL-24KROC02-wd3DdJPAq7-srvBEOZGFSNZ5DPOIvYG7J0KRySbhJoD9Np2A8Br3WFXO9rWUu06-4cPpbPECKlxk_2XMd9C9kOc_yJEBkev-u_WQobqoNa06ctfNFF3oBWFUfW3r8WH5RcuqVwSo61QQgwBfToCynA.jpg",
         "thumbnail_path": "channels/matinsenpaii/media/fb7b0bf6102a59e46d468e83.jpg",
@@ -595,7 +636,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23K",
+      "views_label": "23.1K",
       "posted_at": "2026-10-23T21:44:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5673",
@@ -692,7 +733,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "25.8K",
       "posted_at": "2026-10-23T12:49:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5670",
@@ -4607,43 +4648,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/matinsenpaii/5540"
       }
-    },
-    {
-      "id": "MatinSenPaii/5574",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/sxMUg81LaUpy0vs8Iy7OPl0o_huOe1WH22WHw_tXFUI2upO99pWz6SXsscNmOLvLqerSvEBFy7wTjWTI8ZFspPYWuo4VZPYoJQzD_i9F_wvxt9GnCUjRxfh0sQzogDbIC9YXKF2TIe-DMGHaGGAGNbrfb7ooMyu3b52HNDmC3MAf1cziS0ZHFwMHAbCMOKhbPWEXhm8HHegWPiD3Ls3pdt89kQku8Lz_9UJZtFnjskkqz25BhvrO9EinKvlFogYu6vSiJ5Y1uAobF0zzWz5sGnotQ5sV1vo9cbz1Bsqb3wVP-AJs9cVzsD4h-9OjOA89lxf7dblchct1ugxhJ_Mn5A.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/78da8759f7c823053c80ce13.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "گویا Mpay رفته زیر maintenance. حسابای منم قطعه فعلا که گفتن اوکی میشه",
-      "plain_text": "گویا Mpay رفته زیر maintenance. حسابای منم قطعه فعلا که گفتن اوکی میشه",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "219"
-        },
-        {
-          "emoji": "💔",
-          "count": "82"
-        },
-        {
-          "emoji": "👍",
-          "count": "16"
-        },
-        {
-          "emoji": "🦄",
-          "count": "10"
-        },
-        {
-          "emoji": "❤",
-          "count": "8"
-        }
-      ],
-      "views_label": "33.4K",
-      "posted_at": "2026-10-13T16:15:43+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5574",
-      "reply": null
     }
   ]
 }
