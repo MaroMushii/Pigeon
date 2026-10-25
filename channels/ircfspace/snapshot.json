@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-25T04:07:02.571Z",
+  "fetched_at": "2026-10-25T04:12:09.460Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,51 @@
     "subscriber_count": "96.9K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2687",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/vxEQ0YqQ39zrOC6nliWziY03uMD0si_0qCm-ApZKqYvZd67UrA0uu_XnTk7DTpE1OF-EJkgpL86naiFEteqWoxVExMGftrojyvE6kgZvH8CWEdBTRFZDOs3p7ORCDIyGq8vqSZ6_twbu6TCkSXO1neCXYUcWD8eaR3u-EpyQJ3z1NGr-oax3tyN9SEXvGLrBEKDdXujhOwFaJfwBbX9qnnfhBJQtUr6ttwJT6qB8X5rFqgQtFGu7SBUL0GbJZjekLiJEeEmHnli6tIai5M1pIfFMuV9NC-HymAJAeIbNT5JlcZ7x752jfp3TI8XWr2adQRyJWV_8UcgP_ulux15AvQ.jpg",
+      "author_photo_path": "channels/ircfspace/media/90543541bc0bb15786adcbdd.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "در آپدیت جدید هسته Aether، مشکلات دریافت کلید وارپ برطرف شده و با اضافه شدن روش جایگزین دریافت کلید، اتصال روی اینترنت‌هایی که با روش قبلی مشکل داشتن بهتر شده.<br>همینطور فلگ --fragment حالا برای درخواست‌های دریافت کلید هم کار می‌کنه و امکان تنظیم SNI برای روش اتصال مسک اضافه شده. علاوه بر این، مشکل بررسی گواهی در Zero Trust برطرف شده و تغییرات مربوط به فینگرپرینت TLS امکان شبیه‌سازی دقیق‌تر رفتار کلاینت‌های واقعی رو فراهم می‌کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/CluvexStudio/Aether/releases\" target=\"_blank\" rel=\"noopener\">github.com/CluvexStudio/Aether/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "در آپدیت جدید هسته Aether، مشکلات دریافت کلید وارپ برطرف شده و با اضافه شدن روش جایگزین دریافت کلید، اتصال روی اینترنت‌هایی که با روش قبلی مشکل داشتن بهتر شده.\nهمینطور فلگ --fragment حالا برای درخواست‌های دریافت کلید هم کار می‌کنه و امکان تنظیم SNI برای روش اتصال مسک اضافه شده. علاوه بر این، مشکل بررسی گواهی در Zero Trust برطرف شده و تغییرات مربوط به فینگرپرینت TLS امکان شبیه‌سازی دقیق‌تر رفتار کلاینت‌های واقعی رو فراهم می‌کنه.\n\n👉 github.com/CluvexStudio/Aether/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2687",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/K8bIRfVws0M1cX6ae3aeEN8xvTbrFwNDPoepuawQ2_aUsS0_oY3Fp0DcFJkv1n0bUilZ5zY5_5hvZYesquT9lMdjOhfkrKmw04bs3v-Pyy9qCqwo4cqC4Gkb2WI-NgT7im25T8AV704P0A4NTrEJX2-OjTa7CeuvttuFe9Iqp7coP5jKLn0MvfpKvefbCfoifOfxMI-lT8VUOOqgtk46rq7zocSWZOBdRMiIKBdZB9wssVfWXkR-5gmyaiUaqcdoylhR1hcqUJuFxWlCyXwPN-MAJJQi0ll9HCNk4ljc79fkAioNFCY1s0DBoqGwCi4TszcJ_3TRInhzdtzOoJXwgg.jpg",
+          "thumbnail_path": "channels/ircfspace/media/87e6f3c677e6ca2e6eff956a.jpg",
+          "thumbnail_sha256": "ce01b312d2a739ea889bf2820abff0238af7b0f4f3c0f596bdd8da565291767e",
+          "duration_label": null,
+          "aspect_ratio": 1.2698412698412698
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "9"
+        },
+        {
+          "emoji": "❤",
+          "count": "3"
+        },
+        {
+          "emoji": "👎",
+          "count": "1"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "490",
+      "posted_at": "2026-10-25T04:07:15+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2687",
+      "reply": null
+    },
     {
       "id": "ircfspace/2686",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -23,7 +68,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "870"
+          "count": "873"
         },
         {
           "emoji": "👍",
@@ -66,7 +111,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.8K",
+      "views_label": "17.9K",
       "posted_at": "2026-10-23T10:49:40+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2686",
@@ -96,7 +141,7 @@
       "reactions": [
         {
           "emoji": "😐",
-          "count": "211"
+          "count": "212"
         },
         {
           "emoji": "👍",
@@ -131,7 +176,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.9K",
+      "views_label": "22K",
       "posted_at": "2026-10-22T13:33:37+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2685",
@@ -161,7 +206,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "262"
+          "count": "263"
         },
         {
           "emoji": "👍",
@@ -196,7 +241,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.9K",
+      "views_label": "19K",
       "posted_at": "2026-10-22T13:17:10+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2684",
@@ -226,7 +271,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "734"
+          "count": "735"
         },
         {
           "emoji": "🤡",
@@ -753,7 +798,7 @@
           "count": "1"
         }
       ],
-      "views_label": "33K",
+      "views_label": "33.2K",
       "posted_at": "2026-10-14T04:36:10+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2675",
@@ -1066,7 +1111,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.4K",
+      "views_label": "22.5K",
       "posted_at": "2026-10-12T18:29:25+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2670",
@@ -6000,75 +6045,6 @@
       "posted_at": "2026-09-07T05:10:20+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2583",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2582",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/oue_kPyb2XmrE1Q_UEuRv0Pct9B82TOgZIcyNZ-KuKWjcHlRMfgvRtTh3k1E53duG_4YRzv9JINuNWyzbd_ILOnlOtjOiEMPy_QjzcFWfDtwQ5Q5BKPozYI7zwPa5SVDAUgc_WskURhJTmwsuabeVzGS1G5WdPN3SbpjJWjt9Bo68RNLSe9aDumOACUUyy0MoZ4T12hK7dj5VTbmVflcXwxNmtly8lAGRzIDPIRZSvEPxKsVlt3YZgaQW_HZkm6mNkaW8xtp8SwR32l51ZYgtcFftFZBtzns3t-J6WavFy2xcjeDMDyKhNW576a3GEp6eEyiky2MJTKG8LGtdAXNEg.jpg",
-      "author_photo_path": "channels/ircfspace/media/24ea0c8ffc535af977183618.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "به نظر میرسه یکی از زیردامنه‌های gov[.]ir به افراد دارای مدرک فوق‌دیپلم یا پایین‌تر اجازه ورود نمیده و حتما باید لیسانس داشته باشین <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9881.png')\"><b>😁</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> SePeHr<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "به نظر میرسه یکی از زیردامنه‌های gov[.]ir به افراد دارای مدرک فوق‌دیپلم یا پایین‌تر اجازه ورود نمیده و حتما باید لیسانس داشته باشین 😁\n\n© SePeHr\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2582",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/UI56WHL_cFM36PTcn1ToB0jONaAr7uW_drZWu2pEq0zLgqIRSK6aERSnu7mamQ0N_i8xnjal8NyPxRKUSMoXwrJE3jN_xTC5HvVOHBqyLkKOQY0CebAIoXDI0APwboglS_JJI1qcpkA57UtlSsKtY4ACbq0f6Vsb2CCFCp2yFd8L4O2J6UjEMbB7R3QidUIwwt67-K2UEIwQfcRpnbP27iokEvDoPhk8fFi5dHR5Fewosr9LxKldFqlrni0sxbQmOZwLqMUCrrpjhq19Ruqh-rXOY3xyyUsz7B5jCJyjrBa7qps41h_s-U7Izig1olXRN135VF9h_64mFhP1HyS0aQ.jpg",
-          "thumbnail_path": "channels/ircfspace/media/4d8f245159816b20a9394c82.jpg",
-          "thumbnail_sha256": "52e15a101e29bd9ee64e0747172d45f9ceade306dddaaeb0d6dcb4baf7352cec",
-          "duration_label": null,
-          "aspect_ratio": 1.456140350877187
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "932"
-        },
-        {
-          "emoji": "🗿",
-          "count": "54"
-        },
-        {
-          "emoji": "🤡",
-          "count": "21"
-        },
-        {
-          "emoji": "❤",
-          "count": "12"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        },
-        {
-          "emoji": "😐",
-          "count": "5"
-        },
-        {
-          "emoji": "🤬",
-          "count": "4"
-        },
-        {
-          "emoji": "😢",
-          "count": "3"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "😱",
-          "count": "1"
-        }
-      ],
-      "views_label": "26.7K",
-      "posted_at": "2026-09-06T04:09:39+00:00",
-      "edited": false,
-      "permalink": "https://t.me/ircfspace/2582",
       "reply": null
     }
   ]
