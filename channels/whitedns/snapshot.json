@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-25T02:37:19.660Z",
+  "fetched_at": "2026-10-25T02:41:58.739Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "109K"
   },
   "posts": [
+    {
+      "id": "whitedns/2147",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/DWz_TGQM_81_6b6idP5lkRUaoyZB61CFy6NoKtaMyQRapHpjZJQzvgHw9ColInms6QHHKFMG0Z9Ti_2QcnatbOK8VpT8C_GQJ7Y9R51ZbjcSQNSWDVV7Jy2HxwQUXdD-THi_s9fUZK7HuNCPz6YJ2VahWql2XacWQ-uK9Foknq8xLJPlCKNgg2moL3q8rrhpL8K97P5KrJvLDkzSqGPvZ2o3RAzO_3PQ5A94ibNtgnycWim0S37BeDTxZkqbeubuGkksAPBbywHvtoFoLnOkoe4jA_GSIegiRnaagHIBCn_5VcaQoHQuaHL8rgV_uVNFrPRx-E19bTVgFU1lQrCixg.jpg",
+      "author_photo_path": "channels/whitedns/media/2f1bc9c4212a68f1608a8344.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> <b>WhiteDNS Panel — نسخهٔ 0.10.0</b><br>این نسخه مشکل اتصال CottenMax به حساب‌های ساخته‌شده در پنل را برطرف می‌کند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> پشتیبانی از Normal و Max با همان دامنه، کلید و پروفایل حساب<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> اعمال سهمیه و محدودیت‌های حساب روی اتصال‌های Max<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> رفع مشکل پاک‌سازی نشست‌های Max هنگام توقف موتور<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> کنترل باز و بسته‌کردن سایدبار، با حفظ انتخاب کاربر<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> حذف لینک‌های تکراری مستندات؛ لینک فقط پایین سایدبار باقی مانده است<br>حساب‌ها و لینک‌های قبلی قابل استفاده‌اند. برای سازگاری کامل، کلاینت را نیز به اندروید <b>1.6.14</b> یا دسکتاپ <b>1.4.5</b> به‌روزرسانی کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/releases/tag/panel-v0.10.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود پنل و جزئیات انتشار</a><br><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> <b>WhiteDNS Android — نسخهٔ 1.6.14</b><br>مشکل شروع اتصال Max با دامنه‌های طولانی حساب‌های پنل برطرف شد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> محاسبهٔ خودکار فضای لازم برای شروع اتصال Max<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> رفع این مشکل در اتصال و اسکن، شامل دامنه‌های پشتیبان<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> حفظ پروفایل‌ها و تنظیمات ذخیره‌شده<br>نیازی به ساخت کانفیگ تازه یا تغییر دستی تنظیمات نیست. برای اتصال Max به حساب‌های پنل، سرور را نیز به نسخهٔ <b>0.10.0</b> ارتقا دهید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/tag/1.6.14\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ اندروید</a><br><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> <b>WhiteDNS Desktop — نسخهٔ 1.4.5</b><br>رفع مشکل شروع اتصال و اسکن CottenMax با دامنه‌های طولانی ساخته‌شده توسط پنل.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> تنظیم خودکار ظرفیت شروع اتصال متناسب با دامنه‌های اصلی و پشتیبان<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> سازگاری این محاسبه با تنظیمات شکل‌دهی نام DNS<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> حفظ پروفایل‌ها و تنظیمات ذخیره‌شده<br>این نسخه برای <b>ویندوز، لینوکس و macOS</b> منتشر شده است. برای استفاده از Max در حساب‌های پنل، سرور را نیز به نسخهٔ <b>0.10.0</b> به‌روزرسانی کنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/tag/desktop-v1.4.5\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ دسکتاپ</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a>",
+      "plain_text": "🟢 WhiteDNS Panel — نسخهٔ 0.10.0\nاین نسخه مشکل اتصال CottenMax به حساب‌های ساخته‌شده در پنل را برطرف می‌کند.\n✅ پشتیبانی از Normal و Max با همان دامنه، کلید و پروفایل حساب\n✅ اعمال سهمیه و محدودیت‌های حساب روی اتصال‌های Max\n✅ رفع مشکل پاک‌سازی نشست‌های Max هنگام توقف موتور\n✅ کنترل باز و بسته‌کردن سایدبار، با حفظ انتخاب کاربر\n✅ حذف لینک‌های تکراری مستندات؛ لینک فقط پایین سایدبار باقی مانده است\nحساب‌ها و لینک‌های قبلی قابل استفاده‌اند. برای سازگاری کامل، کلاینت را نیز به اندروید 1.6.14 یا دسکتاپ 1.4.5 به‌روزرسانی کنید.\n📥 دانلود پنل و جزئیات انتشار\n\n\n📱 WhiteDNS Android — نسخهٔ 1.6.14\nمشکل شروع اتصال Max با دامنه‌های طولانی حساب‌های پنل برطرف شد.\n✅ محاسبهٔ خودکار فضای لازم برای شروع اتصال Max\n✅ رفع این مشکل در اتصال و اسکن، شامل دامنه‌های پشتیبان\n✅ حفظ پروفایل‌ها و تنظیمات ذخیره‌شده\nنیازی به ساخت کانفیگ تازه یا تغییر دستی تنظیمات نیست. برای اتصال Max به حساب‌های پنل، سرور را نیز به نسخهٔ 0.10.0 ارتقا دهید.\n📥 دانلود نسخهٔ اندروید\n\n\n💻 WhiteDNS Desktop — نسخهٔ 1.4.5\nرفع مشکل شروع اتصال و اسکن CottenMax با دامنه‌های طولانی ساخته‌شده توسط پنل.\n✅ تنظیم خودکار ظرفیت شروع اتصال متناسب با دامنه‌های اصلی و پشتیبان\n✅ سازگاری این محاسبه با تنظیمات شکل‌دهی نام DNS\n✅ حفظ پروفایل‌ها و تنظیمات ذخیره‌شده\nاین نسخه برای ویندوز، لینوکس و macOS منتشر شده است. برای استفاده از Max در حساب‌های پنل، سرور را نیز به نسخهٔ 0.10.0 به‌روزرسانی کنید.\n📥 دانلود نسخهٔ دسکتاپ\n\n@whitedns\nhttps://whitedns.online",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2147",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/ZcHHsuxzjJL1QeZB3fy6u7_e-qVj4FouUH82LXHA1AZhidE2tMBtTvYibiIngNjiL3EUlxrKjNUBDUi2K-Z6DLmHlw9VoD9iRQ_rJ-EpYiWFyW6jXffujX-Lr-OgQJ-N0NHkhK4m3nuTpgT5CcMHBfU3KRd9invmSNbxiyPfe5jM8cvS6CrEACb8fMzBWo7JESmuBe4rKZYOg0Goa1p_wKDZL0eomyQCxsfqUXGeJ0FqNXmip0_XAhpMZKYBcZ0XYneo3Cp2SeS7mATdXch512cjE7Q1ovqWtA9f3IE9fO_7RJAXGrRr5ejWKoNB8hYAMzNt2MXHjKfWoJo3Os9ktw.jpg",
+          "thumbnail_path": "channels/whitedns/media/8b716fb2ce30ba583ab749b1.jpg",
+          "thumbnail_sha256": "3bf7e9390ef812504655bc031783a59ce4314ae63232e2101eeed2abbe7f7d5e",
+          "duration_label": null,
+          "aspect_ratio": 0.8062499999999869
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "🥰",
+          "count": "1"
+        }
+      ],
+      "views_label": "115",
+      "posted_at": "2026-10-25T02:38:39+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2147",
+      "reply": null
+    },
     {
       "id": "whitedns/2146",
       "author_name": "White DNS",
@@ -23,14 +60,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "15"
+          "count": "17"
         },
         {
           "emoji": "🍓",
           "count": "2"
         }
       ],
-      "views_label": "590",
+      "views_label": "643",
       "posted_at": "2026-10-25T01:30:58+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2146",
@@ -60,7 +97,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "15"
+          "count": "17"
         },
         {
           "emoji": "🤣",
@@ -71,7 +108,7 @@
           "count": "1"
         }
       ],
-      "views_label": "835",
+      "views_label": "908",
       "posted_at": "2026-10-25T01:30:57+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2145",
@@ -142,7 +179,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "119"
+          "count": "120"
         },
         {
           "emoji": "👍",
@@ -165,7 +202,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.18K",
+      "views_label": "9.21K",
       "posted_at": "2026-10-24T16:02:43+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2143",
@@ -516,7 +553,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.62K",
+      "views_label": "8.63K",
       "posted_at": "2026-10-24T09:02:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2136",
@@ -573,7 +610,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.81K",
+      "views_label": "8.82K",
       "posted_at": "2026-10-24T08:10:19+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2133",
@@ -732,7 +769,7 @@
           "count": "2"
         }
       ],
-      "views_label": "9.91K",
+      "views_label": "9.92K",
       "posted_at": "2026-10-24T05:06:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2130",
@@ -777,7 +814,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.76K",
+      "views_label": "9.77K",
       "posted_at": "2026-10-24T05:04:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2129",
@@ -5223,47 +5260,6 @@
       "posted_at": "2026-10-19T00:11:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2030",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2029",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/IusKbjoQcycICofyzLShs7-vNos3mTaxxyautEyqRPbyc2JA7OSrBKf5GwnlWy5_fQr7CPssOq61sqphmfLkHt12oiEYNslHE91Ql6uVMt8bYL1X3SWd2uZMK4LY6YfShZ1rxDexO4OvKQbeg-7QvryXnf5aWJ4BUa-az2oN7A94uUekSwHyI5q1iqUjk3XA2V6LtgDZkn7PotA2TgRbWJFsG4YpHVvJ0DpAKw7D33pMIIWQUjAYrdPSFISrbAbAqXxt0nYdE0709dIse6OYA9dtTB97E1jHfSd0b-f4kzYHUbmz8iPfeUDobws9aTwv83TiAAD_c5rrR_xdntxCTw.jpg",
-      "author_photo_path": "channels/whitedns/media/91a4aa3f78ad09ee59c33220.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "‏<b>آپدیت جدید CoreForge</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8695.png')\"><b>🆕</b></i><br><br>‏یه سری قابلیت تازه اضافه شده که کم‌کم و یکی‌یکی براتون می‌گیم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br>‏<b>موتور جدید DnsForge — SOAR</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i><br>‏تونل DNS با موتور تازه؛ کافیه یه پروفایل soar:// ایمپورت کنی.<br>‏هنوز برای سرعت کامل optimize نشده و داریم روش کار می‌کنیم.<br><br>‏<b>اتصال سریع یک‌لمسی</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡</b></i><br>‏تو Settings گزینهٔ Psiphon رو روشن کن (پیش‌فرض خاموشه).<br>‏بعدش از صفحهٔ اصلی با یه لمس وصل می‌شی.<br><br>‏<b>بهبود OpenVPN</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i><br>‏اگه یوزر/پسورد اشتباه باشه سریع ارور می‌ده و معطلت نمی‌کنه.<br>‏فایل‌های ovpn. با CA جداگانه هم حالا ایمپورت می‌شن.<br><br>‏<b>پشتیبانی از SlipNet / Slipstream</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A9.png')\"><b>🧩</b></i><br>‏ایمپورت پروفایل اضافه شد.<br><br>‏<b>لینک‌های نصب — TestFlight</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B2.png')\"><b>📲</b></i><br>‏اپ CoreForge نسخهٔ iOS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> — <a href=\"https://testflight.apple.com/join/vAaXH9Cv\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">نصب</a><br>‏اپ ForgeCore نسخهٔ iOS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡</b></i> — <a href=\"https://testflight.apple.com/join/YqwS1qtj\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">نصب</a><br>‏نسخهٔ macOS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> — به‌زودی؛ آپدیتش منتظر تأیید اپله.<br><br>‏ادامه‌ش رو تو پست‌های بعدی می‌گیم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F918C.png')\"><b>👌</b></i><br><br>‏<a href=\"https://t.me/coreforgeios\" target=\"_blank\">@coreforgeios</a>",
-      "plain_text": "‏آپدیت جدید CoreForge 🆕\n\n‏یه سری قابلیت تازه اضافه شده که کم‌کم و یکی‌یکی براتون می‌گیم 👇\n\n‏موتور جدید DnsForge — SOAR 🌐\n‏تونل DNS با موتور تازه؛ کافیه یه پروفایل soar:// ایمپورت کنی.\n‏هنوز برای سرعت کامل optimize نشده و داریم روش کار می‌کنیم.\n\n‏اتصال سریع یک‌لمسی ⚡\n‏تو Settings گزینهٔ Psiphon رو روشن کن (پیش‌فرض خاموشه).\n‏بعدش از صفحهٔ اصلی با یه لمس وصل می‌شی.\n\n‏بهبود OpenVPN 🔐\n‏اگه یوزر/پسورد اشتباه باشه سریع ارور می‌ده و معطلت نمی‌کنه.\n‏فایل‌های ovpn. با CA جداگانه هم حالا ایمپورت می‌شن.\n\n‏پشتیبانی از SlipNet / Slipstream 🧩\n‏ایمپورت پروفایل اضافه شد.\n\n‏لینک‌های نصب — TestFlight 📲\n‏اپ CoreForge نسخهٔ iOS 🍎 — نصب\n‏اپ ForgeCore نسخهٔ iOS ⚡ — نصب\n‏نسخهٔ macOS 💻 — به‌زودی؛ آپدیتش منتظر تأیید اپله.\n\n‏ادامه‌ش رو تو پست‌های بعدی می‌گیم 👌\n\n‏@coreforgeios",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "81"
-        },
-        {
-          "emoji": "🕊",
-          "count": "4"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        },
-        {
-          "emoji": "🍓",
-          "count": "3"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        }
-      ],
-      "views_label": "7.8K",
-      "posted_at": "2026-10-19T00:11:48+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2029",
       "reply": null
     }
   ]
