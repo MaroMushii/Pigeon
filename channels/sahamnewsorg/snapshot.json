@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-25T12:57:18.754Z",
+  "fetched_at": "2026-10-25T13:03:36.238Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -11,6 +11,43 @@
     "subscriber_count": "218K"
   },
   "posts": [
+    {
+      "id": "sahamnewsorg/149465",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/EmoO6NQnscaicoqaPtyEwvxrLCNVfj8Wpl9pbJ5lbVPu05sgGG1rVX5LnbB8vfBbiFzJ6LQEb4qXOcceJrRY8ovj-ouF1x__WifY3WSMdfdUr0Hc5WuA4gkcqBDmIwoFdcBjypNuGQ3GG-0MRn4xzU4t-xJGwyHVinIdM2jyJapU8BUCCvf2hlnWyrqiKYWp1jU42bQogminRLGPuXfsK09AHMi1oPl9UUiPUj4lJYzU9D1JPbQY59ENMmleu3gmvb3fnVYIi0aHhK_4Zo8MKAEeBVa_3WkHeyZoRyQgjQ3m9B5fTehHg8288BjYzKFb-bm2EBM_j0QZxsomswzRxQ.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/d8ad9398e839c83d879f11ef.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>مقابله جالب معترضین با پلیس آلبانی<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅مقابله جالب معترضین با پلیس آلبانی\n\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/149465",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/RdOMUAMMz1_D95MF8-I8FRtA3dDJJi27tfKn79ZTmHB84XSkUjPqXzP5yWgtcH9sUbcHGLiiIrqzUPBmY_Wb9gOCby_1Pbqp5Usobl4fAfNmZlpJLxLv2k6P62ji3RMtggj4ZSXXs5Ym2Nwpo4VwwlIc7BLh3yR3DCswhwd6F0whkqvAfunkOGE47T4O4MARfCw6j09J7H_m4V7ekjajv0-KzUHsRM6TguViuZJEdje4j2zP_BX-CJWIr7uARQgpS3uovYbju7rBwM7Sk6hNz6vbA5IMxw14x26zuoS9A2g8WM1nSXNx4TK5vk8otIVJybFSmcuEsougW015r2F8-A",
+          "thumbnail_path": "channels/sahamnewsorg/media/4fe3af57e55c1ad16abf7af8.jpg",
+          "thumbnail_sha256": "b81486ac0a057a944e8623a0cf3b2eac4e3baccbfe86008886cb2460f94da0e5",
+          "duration_label": "0:36",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "932",
+      "posted_at": "2026-10-25T13:00:46+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/149465",
+      "reply": {
+        "channel_username": "sahamnewsorg",
+        "post_id": "149444",
+        "author_name": "سهام نیوز",
+        "preview_text": "✅وضعیت عجیب اعتراضات در آلبانی شلیک مداوم مواد آتش زا به سوی پلیس در جریان اعتراضات از سوی مردم @Sahamnewsorg",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/U6j6y2-k4OIs5BdYzEptT5Pzvq9Imh_8NOHqoq3guXoFaszjE_DW0zQZ-8GsNoY4Q1fVmf8rqWUNLddwHyTuaIDR1v_V5r2QKAUS991BA5u1XqVtpYIbZVuu9mfHgDbVsdoo8IwKy3ntzNbcYr7N48mZs-7BctKUJrb8LCpjIpt-FDMa1xSZ6JXASUoYInuj8SCVWFKEQAAE5MIZPqD7kQvo33OVtdwpQNXTyYed6j24wJLI4kT1Pd9p93moRB_FNMqn_bbzJEouv_619twoporV0sJdimlp7sV-v0xMcGzsK8JxkcWTPJw-4nwGDkYjj5YIQdVcI3I-t5BIVQJ2OA",
+        "thumbnail_path": "channels/sahamnewsorg/media/facf3c8e64aa0b4ce7682c21.jpg",
+        "thumbnail_sha256": "ba8da2255b7e33f328acce23002ab6e434f994008456f2868c2d1bea60aaddc0",
+        "permalink": "https://t.me/sahamnewsorg/149444"
+      }
+    },
     {
       "id": "sahamnewsorg/149464",
       "author_name": "سهام نیوز",
@@ -33,7 +70,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "9.58K",
+      "views_label": "11.1K",
       "posted_at": "2026-10-25T12:24:45+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149464",
@@ -61,7 +98,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "25.5K",
+      "views_label": "26.5K",
       "posted_at": "2026-10-25T11:15:17+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149463",
@@ -77,7 +114,7 @@
       "plain_text": "✅نشریه هیل : سنتکام‌ برای حمله به ایران که احتمالاً پس از انتخابات اتفاق بیفتد کاملا آماده‌ست\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "27.3K",
+      "views_label": "28.2K",
       "posted_at": "2026-10-25T10:59:19+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149462",
@@ -105,7 +142,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "28.9K",
+      "views_label": "29.5K",
       "posted_at": "2026-10-25T10:53:13+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149461",
@@ -133,7 +170,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "28.6K",
+      "views_label": "29.2K",
       "posted_at": "2026-10-25T10:48:45+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149460",
@@ -161,7 +198,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "29.1K",
+      "views_label": "29.7K",
       "posted_at": "2026-10-25T10:40:35+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149459",
@@ -189,7 +226,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "29K",
+      "views_label": "29.6K",
       "posted_at": "2026-10-25T10:37:06+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149458",
@@ -205,7 +242,7 @@
       "plain_text": "✅هشدار ترسناک بیل گیتس: هوش مصنوعی می تواند باعث از بین رفتن انسان های زیادی شود\n\nبرای جهانی جدید آماده باشید\n\n۲۰ سال پرآشوب در انتظار جهان است و این دوران برندگان و بازندگان فراوانی خواهد داشت\nبیل گیتس،بنیان‌گذار مایکروسافت، معتقد است حتی اگر بشر بتواند خطرات هوش مصنوعی را مهار کند، جهان در دو دهه‌ی آینده یکی از پرآشوب‌ترین دوره‌های تاریخ خود را تجربه خواهد کرد. او هشدار می‌دهد که سرعت پیشرفت این فناوری بسیار بیشتر از آمادگی دولت‌ها و جوامع برای مواجهه با پیامدهای آن است.\n\nگیتس در مصاحبه‌ای مفصل با نیلای پتل، سردبیر ورج، هوش مصنوعی را خطرناک‌ترین فناوری ساخته‌شده به دست بشر توصیف کرد. به باور او، توانایی مدل‌های پیشرفته در شناسایی آسیب‌پذیری‌های امنیتی، انجام حملات سایبری و کمک به ساخت عوامل زیستی خطرناک، تهدیدهایی هستند که دیگر نمی‌توان آن‌ها را نادیده گرفت.\n\nگیتس می‌گوید که تنها طی دو تا سه سال آینده، پیامدهای منفی قابل‌توجهی در بازار کار و امنیت سایبری آشکار خواهد شد. او معتقد است مشاغلی مانند پشتیبانی مشتریان، فروش تلفنی و حسابداری به‌تدریج با سیستم‌هایی جایگزین می‌شوند که سریع‌تر، ارزان‌تر و حتی دقیق‌تر از انسان کار می‌کنند.\n\nبه گفته‌ی گیتس، این روند به مشاغل اداری محدود نمی‌ماند. ربات‌های انسان‌نما نیز در آینده می‌توانند ساخت خانه، تولید غذا و حتی انجام جراحی را برعهده بگیرند. او احتمال می‌دهد که طی حدود ۲۰ سال، نیاز اقتصاد به بسیاری از فعالیت‌های انسانی به‌شدت کاهش یابد.\nبااین‌حال، نگرانی گیتس فقط بیکاری نیست. او می‌گوید شغل برای انسان علاوه‌بر درآمد، منبعی برای احساس مفیدبودن، برقراری روابط اجتماعی و داشتن هدف در زندگی است. از دیدگاه او، فراوانی کالاها و خدمات ممکن است جامعه را با پرسشی دشوار مواجه کند: وقتی ماشین‌ها تقریباً همه‌چیز را بهتر انجام می‌دهند،\n\nانسان چه نقشی خواهد داشت؟\nگیتس حتی پیشنهاد می‌کند که جوامع در آینده برخی فعالیت‌ها مانند مراقبت از کودکان، هنر، ورزش و تهیه‌ی غذا را مخصوص انسان‌ها نگه دارند؛ حتی اگر هوش مصنوعی بتواند آن‌ها را بهتر انجام دهد.\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "31.6K",
+      "views_label": "32.3K",
       "posted_at": "2026-10-25T10:22:32+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149457",
@@ -233,7 +270,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "32K",
+      "views_label": "32.6K",
       "posted_at": "2026-10-25T10:16:15+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149456",
@@ -261,7 +298,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "33.5K",
+      "views_label": "33.8K",
       "posted_at": "2026-10-25T09:48:27+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149455",
@@ -298,7 +335,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "34.8K",
+      "views_label": "35.1K",
       "posted_at": "2026-10-25T09:40:43+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149454",
@@ -326,7 +363,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "37.6K",
+      "views_label": "37.9K",
       "posted_at": "2026-10-25T09:09:25+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/149453",
@@ -342,7 +379,7 @@
       "plain_text": "✅بنابر گزارش روزنامه الشرق الاوسط:\n\nحزب‌الله لبنان به نبیه بری، رئیس پارلمان این کشور،\nاطمینان داده است که در صورت وقوع جنگ جدید علیه ایران،\nبرای حمایت از تهران وارد درگیری نظامی نخواهد شد.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "38.5K",
+      "views_label": "38.8K",
       "posted_at": "2026-10-25T08:53:46+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149452",
@@ -358,7 +395,7 @@
       "plain_text": "✅سفارت جمهوری اسلامی در بغداد، اظهارات مشاور نخست‌وزیر عراق درباره قاچاق مواد مخدر و اسکناس‌های جعلی از مرز چذابه را تکذیب کرد\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "38.4K",
+      "views_label": "38.8K",
       "posted_at": "2026-10-25T08:50:34+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149451",
@@ -383,7 +420,7 @@
       "plain_text": "✅نیویورک‌تایمز می‌گوید دو مقام ارشد جمهوری اسلامی (از جمله سپاه) نزد این رسانه تأیید کردند جمهوری اسلامی برای آسیب‌رساندن به دیپلمات‌ها و مقامات آمریکایی آماده می‌شود.\n\nآن‌ها گفته‌اند. چون اسراییل و آمریکا ده‌ها مقام ارشد جمهوری اسلامی و برخی اعضای خانواده‌شان را کشتند، آمریکایی‌ها هم هدف مشروع شده‌اند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "38.7K",
+      "views_label": "39.1K",
       "posted_at": "2026-10-25T08:45:20+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149450",
@@ -399,7 +436,7 @@
       "plain_text": "✅روزنامه جمهوری اسلامی: جبهه پایداری، موجودیت ۹۰ میلیون نفر را بازیچه قرار داده و به دنبال نابودی ایران است\n\nجمهوری اسلامی نوشت گروه موسوم به جبهه پایداری با انتشار بیانیه‌ای خطاب به نمایندگان مجلس و شورای عالی امنیت ملی خواستار خروج ایران از پیمان منع گسترش سلاح‌های هسته‌ای (ان.پی.تی) شد.\n\nمتأسفانه این عده، مصالح و منافع و موجودیت کشوری با ۹۰ میلیون جمعیت را بازیچه بازی‌های سیاسی و دیدگاه‌های خرافی خود قرار داده‌اند و کشور را به سمت نیستی و مردم را به سمت فاجعه سوق می‌دهند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "39.3K",
+      "views_label": "39.7K",
       "posted_at": "2026-10-25T08:40:11+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149449",
@@ -415,7 +452,7 @@
       "plain_text": "✅آمار عجیب مدیرعامل شرکت پخش فرآورده های نفتی از سوخت گیری با کارت جایگاههای سوخت\n\nدر یک روز یک شخص ۱۰۵ بار از یک جایگاه سوخت‌گیری کرده است.\n\nشخصی دیگر با مراجعه به ۳۸ جایگاه ۹۸ بار بنزین زده است\n\nدر آخرین روز مهر یک شخص با چهار بار مراجعه و دریافت توکن به جایگاه در مجموع ۲ هزار و ۳۳۷ لیتر سوختگیری کرده است.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "40.8K",
+      "views_label": "41.1K",
       "posted_at": "2026-10-25T08:10:02+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149448",
@@ -431,7 +468,7 @@
       "plain_text": "✅عبدالحمید: مردم گرسنه‌اند؛ مسوولان در مذاکرات نرمش نشان دهند\n\nعبدالحمید اسماعیل‌زهی، امام‌جمعه زاهدان، با انتقاد از وضعیت اقتصادی کشور و تشدید فشارهای معیشتی، از حاکمیت، دولت، مجلس و فرماندهان نظامی خواست شرایط بحرانی زندگی مردم را در تصمیم‌گیری‌های‌شان در نظر بگیرند و به‌جای اصرار بر سیاست‌های گذشته، در مذاکرات و گفت‌وگوها نرمش نشان دهند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "40.1K",
+      "views_label": "40.4K",
       "posted_at": "2026-10-25T08:02:48+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149447",
@@ -447,7 +484,7 @@
       "plain_text": "ممکن است گاز یک شهر قطع شود\n\n✅حمید پورمحمدی، رئيس سازمان برنامه‌وبودجه، در برنامه‌ای در صداوسیما گفت: امسال سال سردی را پیش رو خواهیم داشت و از سوی دیگر با ناترازی گاز مواجهیم و همچنین در جنگ اخیر بخشی از تاسیسات تولید گاز از بین رفت.\n\nاو افزوده:اگر فشار گاز افت کند ممکن است گاز یک شهر قطع شود نه یک یا دو واحد مسکونی.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "40.4K",
+      "views_label": "40.8K",
       "posted_at": "2026-10-25T08:00:28+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149446",
@@ -2214,34 +2251,6 @@
       "posted_at": "2026-10-23T14:20:43+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/149366",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/149365",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/rzSXuvThSlbydeuZeR_9VkTlEpMNkdv9db4_E5uiAl9Xh-8TBvoHX6yHeV5YDcK6M4-H8Wl-ZZbV87wSmPYgiPon3ClmWX37CeD5cTbhsWMFJoKeBwErY5KgW4BTOEbzq8q-3WzezGenGXr7u8uKxCVLyrP0YLG8koYhz5pGi2kr0AjQsvuxHhJqz7vmnWkB4jroyus394tHpJtv3MhIsYmgS11DD1eb8cS8M4gFp8NFghnaFaqs3e1FIx0l75jBDvcuY3wkrn8ZCAxmSYg686ZgAT3HdO2d1YjPB36oFl2MlqyqWkX5GZi56J1uMg_lhbX4B5RLA61ROEgeLTQa7g.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/f755e27f729e7a0fc44addeb.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><b>فرو ریختن وحشتناک ساختمان ۱۸ طبقه در کنیا</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>یک ساختمان ۱۸ طبقه که در حال ساخت بود، بعدازظهر امروز در منطقه «ایستلی» در نایروبی، پایتخت کنیا، فرو ریخت و شمار نامشخصی از کارگران ساختمانی و شهروندان زیر آوار گرفتار شده‌اند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>به گزارش خبرگزاری «شینهوا»، عیسی محمد، فرمانده پلیس منطقه‌ای نایروبی، اعلام کرد مقامات همچنان در حال جمع‌آوری اطلاعات درباره این حادثه هستند و تیم‌های امدادی با شتاب به محل اعزام شده‌اند. تا این لحظه، اطلاعاتی درباره تلفات احتمالی منتشر نشده است./فارس<br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅فرو ریختن وحشتناک ساختمان ۱۸ طبقه در کنیا\n\n🔹یک ساختمان ۱۸ طبقه که در حال ساخت بود، بعدازظهر امروز در منطقه «ایستلی» در نایروبی، پایتخت کنیا، فرو ریخت و شمار نامشخصی از کارگران ساختمانی و شهروندان زیر آوار گرفتار شده‌اند.\n\n🔹به گزارش خبرگزاری «شینهوا»، عیسی محمد، فرمانده پلیس منطقه‌ای نایروبی، اعلام کرد مقامات همچنان در حال جمع‌آوری اطلاعات درباره این حادثه هستند و تیم‌های امدادی با شتاب به محل اعزام شده‌اند. تا این لحظه، اطلاعاتی درباره تلفات احتمالی منتشر نشده است./فارس\n@Sahamnewsorg",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/sahamnewsorg/149365",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/F2OPzTWZvpviFtUoyMZgVJpeTDBJFCAa1vjyqHettkxoyFpBzKzaV6PD-DAhH17ZF8g77keFrCwEO79lRluaMPKEOUbLXOOAS9tC2ZCYt6HaNaVzdMcERKogzfvWTxfaFz3sLGKlezlWaAbYbIfmExrhKJbCJiyl76gOby5h3lgzt5PEyZnhQbL_e0tYiVRWCK7jDEU384ngdvyYcKKR9zv6biwFkikH84N2FSBYANFBLXHc97nDF8wVVjrPaakQcSYZJBbLEdByh-aL_lgpHyjuKZsHBUfukE4ak6ZgtY9ItDoRD7f5CUHsyQfaPyZLPF93Kz8uPqVv-FnMPVKd5A",
-          "thumbnail_path": "channels/sahamnewsorg/media/4e13a33faafc17d47f067bf0.jpg",
-          "thumbnail_sha256": "3495b76a110f93c82e90b55cc64297308a97e02846694a1b8f3d00d5f04fc45a",
-          "duration_label": "0:09",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "60.7K",
-      "posted_at": "2026-10-23T13:54:09+00:00",
-      "edited": true,
-      "permalink": "https://t.me/sahamnewsorg/149365",
       "reply": null
     }
   ]
