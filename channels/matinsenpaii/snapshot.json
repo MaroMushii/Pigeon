@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-25T12:32:13.932Z",
+  "fetched_at": "2026-10-25T12:37:17.313Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5697",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/iso6BUlGboBR6ux5RWDeRyxUJD4KMrasoBxUdBygGPCScug6r_jyv2xomGyILSHFcqibh3XoxD9Q8cT76Ua3OKgv7ncCpofEVf0yMdwb-IBMA26kbUyeNru7WrpxWSSIbFI78zixnxpun5HOXDUAcTcJQdDhE1aF1S3nJOi3I9DUXTURiYhHl_0-2SLJgMei2DCMgwKY9oYf_cWc1XVzOYU7KRC7bsyMavSqCjsJUS-CS9Isv1gMsyACjKbrSPTMlLtLfNEkvGTIe1VBGFkQJ3XyYaH_-1T1-tA1dRa9uOKcE2WZqwO4eoA4oiykdiaMc1e165_vKh5o5rS8Qe64NA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/ec69e5ca321a8368f2fac0d7.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>استفاده از مدلهای رایگان Opencode در Deepseek Harness</b><br><br>با نصب پلاگین dsh-our-free-model می‌توان GLM 5.3 Flash، DeepSeek V4.1 Flash و Kimi K3 را بدون اکانت، API Key و اشتراک روی DSH اجرا کرد. او می‌گوید دسترسی، به منطقه و فهرست فعلی مدل‌ها بستگی دارد.<br><br><b>مراحل نصب طبق توییت:</b><br>۱. اجرای DSH:<br><code>npx @deepseek-ai/dsh web</code><br>۲. کلون ریپوی پلاگین:<br><code>git clone https://github.com/Ebony-Vinyl/dsh-our-free-model</code><br>۳. افزودن پلاگین:<br><code>dsh plugin --profile web add /path/to/dsh-our-free-model</code><br>۴. ری‌استارت DSH؛ مدل‌ها در model picker ظاهر می‌شوند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> پلاگین توی هاب غیررسمی کامیونیتی دیپ‌سیک منتشر شده و راستی‌آزمایی هم نشده از لحاظ امنیتی؛ توی سندباکس بریزیدش و مراقب باشید<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://x.com/He1s_Sammy/status/2114056654777897002\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "استفاده از مدلهای رایگان Opencode در Deepseek Harness\n\nبا نصب پلاگین dsh-our-free-model می‌توان GLM 5.3 Flash، DeepSeek V4.1 Flash و Kimi K3 را بدون اکانت، API Key و اشتراک روی DSH اجرا کرد. او می‌گوید دسترسی، به منطقه و فهرست فعلی مدل‌ها بستگی دارد.\n\nمراحل نصب طبق توییت:\n۱. اجرای DSH:\nnpx @deepseek-ai/dsh web\n۲. کلون ریپوی پلاگین:\ngit clone https://github.com/Ebony-Vinyl/dsh-our-free-model\n۳. افزودن پلاگین:\ndsh plugin --profile web add /path/to/dsh-our-free-model\n۴. ری‌استارت DSH؛ مدل‌ها در model picker ظاهر می‌شوند.\n\n⚠️ پلاگین توی هاب غیررسمی کامیونیتی دیپ‌سیک منتشر شده و راستی‌آزمایی هم نشده از لحاظ امنیتی؛ توی سندباکس بریزیدش و مراقب باشید\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5697",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/XeuL-67M8qx7--DawBUhUg2OEZEsIwuM5frEqlATm8cJoKpLJ4_R2nEzqt3j4kXHL4gVmrDi2dVksJpBxxIJpPxXNcDrPy3hrH6iDrvWZIIbHyWJa64U3IQb1bzddU7s9z1ciDQha6z_6Mq1UwSmZmfunsEtkpYWoNnBIQCb7hzXEkMDBJOP_CsfuGm6r279heaKRvVotHECMUdzlCo63eQ4sTTCWHlgtK6QzLMFUL7IPmUAlL_kPvd824UVfgD4ObvjZUWKCFEZYptLuYbhmArAHQDgQrgVfmhFHVt2EYzRl4HQlRpiv4jSQ00LIUsIW99KR_kmBJvcuPlbYaWH9g.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/f084e5ab9324f18cba5c97c5.jpg",
+          "thumbnail_sha256": "a9597a248007860149bf6ddea89bd5351ce415500ff9ad1332f466d92b1f1964",
+          "duration_label": null,
+          "aspect_ratio": 1.3377926421404682
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "8"
+        }
+      ],
+      "views_label": "848",
+      "posted_at": "2026-10-25T12:34:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5697",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5696",
       "author_name": "Matin SenPai",
@@ -35,7 +68,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "45"
+          "count": "47"
         },
         {
           "emoji": "👍",
@@ -46,7 +79,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.88K",
+      "views_label": "8.32K",
       "posted_at": "2026-10-25T10:51:45+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5696",
@@ -75,7 +108,7 @@
           "count": "2"
         }
       ],
-      "views_label": "13.6K",
+      "views_label": "13.8K",
       "posted_at": "2026-10-25T07:26:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5695",
@@ -116,7 +149,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "60"
+          "count": "61"
         },
         {
           "emoji": "❤",
@@ -127,7 +160,7 @@
           "count": "2"
         }
       ],
-      "views_label": "13K",
+      "views_label": "13.2K",
       "posted_at": "2026-10-25T07:26:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5693",
@@ -168,7 +201,7 @@
           "count": "10"
         }
       ],
-      "views_label": "11K",
+      "views_label": "11.2K",
       "posted_at": "2026-10-25T07:26:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5692",
@@ -202,7 +235,7 @@
         },
         {
           "emoji": "❤",
-          "count": "22"
+          "count": "23"
         },
         {
           "emoji": "😁",
@@ -217,7 +250,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.3K",
+      "views_label": "14.4K",
       "posted_at": "2026-10-25T06:56:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5691",
@@ -254,7 +287,7 @@
           "count": "4"
         }
       ],
-      "views_label": "23K",
+      "views_label": "23.1K",
       "posted_at": "2026-10-24T17:42:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5690",
@@ -335,7 +368,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.7K",
+      "views_label": "26.8K",
       "posted_at": "2026-10-24T17:03:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5688",
@@ -597,7 +630,7 @@
           "count": "16"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "23.8K",
       "posted_at": "2026-10-24T10:27:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5681",
@@ -638,7 +671,7 @@
           "count": "5"
         }
       ],
-      "views_label": "22.9K",
+      "views_label": "23K",
       "posted_at": "2026-10-24T09:28:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5680",
@@ -744,7 +777,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.9K",
+      "views_label": "24K",
       "posted_at": "2026-10-24T05:58:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5678",
@@ -4586,55 +4619,6 @@
       "posted_at": "2026-10-16T06:44:43+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5584",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5583",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/g5kO8FBwEkSv9mWjFR6FYwMu4ZnooKjQDFgwpVD4Fj-VpXQQboIkX4Hiq2Sw-BLn6zQV26SRExuqnVOHpgifnx7sE8pknXdFoa0SIIxO3ioJwSQGfAGmV57r2GlVWBpz3Bo9xMRZ6slYesWOx0U2yc9TIDVkVN7NbmCkX9X7rkUo3NHAZWAHnxzqK5h_GRm3n6CGVNK3ZFEqaySsGf0cwW6OZ9Zzl68pdsAxtBNhQMun0UcFoXaPdf3Bm43G7T9_zg4fLYiwQCF-c5Wu9M8vklpnwVKRFsnSbnwrmxth1ayJH6MT1__jGCxe7EJh92KcfpJS2Tl3Q4lRJTVadSrLtA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/78b43fb78aae974ba1669e0a.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "دسترسی به DeepSeek V4.1 Flash روی اوپن کد رایگان شد(تا قبلش V4 بود)",
-      "plain_text": "دسترسی به DeepSeek V4.1 Flash روی اوپن کد رایگان شد(تا قبلش V4 بود)",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5583",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Xz_q8uM0wFPv_JDrd5tCU94BrUfH_4i1fBjZKHEA0ExEyoQHlhALfPy_Q6FptvjMCDII9tCs-xUIQcCcvFHDgUagqFTrcUawmfBUSIv-ZmlND9TDMwx7rtefccM8OWcdyTPbP8gqoh-UFY-eEkeT-SOefIJCWnLsNz_xagsx7gWqxh8BRkx9OZYy7QDzThWMY_zeE8LviclX4P9TmY75NWXA4GsNTqMuq4-AdTzZKMJzehZ0hbXwdxRwFK4HfTUP1T0fG3uIUmZYpt8Aybm12MYBhirVZfH3vOjoGumECC_5sifYIME4eVEsg3cW7ScYuSP9oUdGLD1r1YycTrAhRg.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/42c601dd27ae5a207dbec534.jpg",
-          "thumbnail_sha256": "fb25a3bf95a76307e3a41279672cceb1f7962bcd9dc4ca7165d0ca49f5e2f73c",
-          "duration_label": null,
-          "aspect_ratio": 1.9656019656019657
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "351"
-        },
-        {
-          "emoji": "😁",
-          "count": "34"
-        },
-        {
-          "emoji": "👍",
-          "count": "20"
-        },
-        {
-          "emoji": "💔",
-          "count": "3"
-        }
-      ],
-      "views_label": "33.3K",
-      "posted_at": "2026-10-15T18:59:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5583",
       "reply": null
     }
   ]
