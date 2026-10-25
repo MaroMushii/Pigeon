@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-25T10:52:17.188Z",
+  "fetched_at": "2026-10-25T10:57:05.401Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5696",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/iso6BUlGboBR6ux5RWDeRyxUJD4KMrasoBxUdBygGPCScug6r_jyv2xomGyILSHFcqibh3XoxD9Q8cT76Ua3OKgv7ncCpofEVf0yMdwb-IBMA26kbUyeNru7WrpxWSSIbFI78zixnxpun5HOXDUAcTcJQdDhE1aF1S3nJOi3I9DUXTURiYhHl_0-2SLJgMei2DCMgwKY9oYf_cWc1XVzOYU7KRC7bsyMavSqCjsJUS-CS9Isv1gMsyACjKbrSPTMlLtLfNEkvGTIe1VBGFkQJ3XyYaH_-1T1-tA1dRa9uOKcE2WZqwO4eoA4oiykdiaMc1e165_vKh5o5rS8Qe64NA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/ec69e5ca321a8368f2fac0d7.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>مقایسه‌ی DeepSeek V4.1 Flash در دو هارنس: pi در برابر DeepSeekHarness</b><br><br>هارنس (Harness) لایه‌ی پیرامون مدل است: پرامپت سیستمی، ابزارها، حافظه و قواعد اجرا؛ چیزی که مدل را به ایجنت تبدیل می‌کند(توی این ویدئو به طور ساده توضیحش دادم: <a href=\"https://youtu.be/9uO56F8UXQ4\" target=\"_blank\" rel=\"noopener\">https://youtu.be/9uO56F8UXQ4</a> )<br><br>یکی از کاربران توییتر، مدل DeepSeek V4.1 Flash را با تنظیم max 1017 یک‌بار در هارنس pi و یک‌بار در DeepSeekHarness (DSH) اجرا کرده است. در pi اجرا ۴ ساعت و ۳۲ دقیقه طول کشیده، ۳۵٫۸ میلیون توکن مصرف شده و هزینه ۰٫۶۳ دلار بوده است(که به نظرم ضعیف‌تر بوده به شدت).<br><br>در DSH همان کار ۱ ساعت و ۵۷ دقیقه زمان برده، ۱۳۴٫۷ میلیون توکن مصرف کرده و ۰٫۷۲ دلار هزینه داشته است. نرخ cache در pi برابر ۹۵٫۲ و در DSH برابر ۹۹٫۸ درصد گزارش شده است.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://x.com/beyondwudan/status/2113952452211012092\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "مقایسه‌ی DeepSeek V4.1 Flash در دو هارنس: pi در برابر DeepSeekHarness\n\nهارنس (Harness) لایه‌ی پیرامون مدل است: پرامپت سیستمی، ابزارها، حافظه و قواعد اجرا؛ چیزی که مدل را به ایجنت تبدیل می‌کند(توی این ویدئو به طور ساده توضیحش دادم: https://youtu.be/9uO56F8UXQ4 )\n\nیکی از کاربران توییتر، مدل DeepSeek V4.1 Flash را با تنظیم max 1017 یک‌بار در هارنس pi و یک‌بار در DeepSeekHarness (DSH) اجرا کرده است. در pi اجرا ۴ ساعت و ۳۲ دقیقه طول کشیده، ۳۵٫۸ میلیون توکن مصرف شده و هزینه ۰٫۶۳ دلار بوده است(که به نظرم ضعیف‌تر بوده به شدت).\n\nدر DSH همان کار ۱ ساعت و ۵۷ دقیقه زمان برده، ۱۳۴٫۷ میلیون توکن مصرف کرده و ۰٫۷۲ دلار هزینه داشته است. نرخ cache در pi برابر ۹۵٫۲ و در DSH برابر ۹۹٫۸ درصد گزارش شده است.\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/5696",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/BnNc9whe7Zt0nbTe19_52kILV7KHcqxWGHpsNSyWUoiqMUtKIedS4OZPD-4CqUSnWcjI9uw18ZIA6fzXecK-du5PCABWyfiL3KIQPUpHAmXJlmSi1lwJABsQm4JwCYSpKyHQS6hReUPmeC8SCMy87MNd-F4STs_nz6Mlg4N9_HvkkbLifpXeYjxzggEGXmJ9snATrQfr0fc3HVjBn7X_BpslsXAOO5yUeAvMUszJlKcHbwubEGuyEsyg4lt00NFwQcJQVAVv9niJUbHJcTLWo4G1TTKDmT94UANpT2nJQwWtzvuYK2bsitkHtqHuo23BzjSLiBIrqfX73L_WhwRshA",
+          "thumbnail_path": "channels/matinsenpaii/media/2ddaccc9f901a98e1f798995.jpg",
+          "thumbnail_sha256": "02305a298a2ec0883237c9d524de1cb1ca62acd2722ce623bc9c04af1b62773f",
+          "duration_label": "0:48",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "9"
+        }
+      ],
+      "views_label": "1.49K",
+      "posted_at": "2026-10-25T10:51:45+00:00",
+      "edited": true,
+      "permalink": "https://t.me/MatinSenPaii/5696",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5695",
       "author_name": "Matin SenPai",
@@ -23,7 +56,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "54"
+          "count": "56"
         },
         {
           "emoji": "👍",
@@ -34,7 +67,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.2K",
+      "views_label": "10.7K",
       "posted_at": "2026-10-25T07:26:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5695",
@@ -75,14 +108,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "48"
+          "count": "50"
         },
         {
           "emoji": "❤",
           "count": "17"
         }
       ],
-      "views_label": "10K",
+      "views_label": "10.5K",
       "posted_at": "2026-10-25T07:26:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5693",
@@ -112,18 +145,18 @@
       "reactions": [
         {
           "emoji": "🆒",
-          "count": "33"
+          "count": "34"
         },
         {
           "emoji": "❤",
-          "count": "18"
+          "count": "21"
         },
         {
           "emoji": "👍",
           "count": "9"
         }
       ],
-      "views_label": "8.26K",
+      "views_label": "8.69K",
       "posted_at": "2026-10-25T07:26:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5692",
@@ -153,7 +186,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "47"
+          "count": "48"
         },
         {
           "emoji": "❤",
@@ -172,7 +205,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.6K",
+      "views_label": "12K",
       "posted_at": "2026-10-25T06:56:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5691",
@@ -190,7 +223,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "531"
+          "count": "532"
         },
         {
           "emoji": "❤",
@@ -209,7 +242,7 @@
           "count": "4"
         }
       ],
-      "views_label": "22.1K",
+      "views_label": "22.2K",
       "posted_at": "2026-10-24T17:42:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5690",
@@ -263,7 +296,7 @@
         },
         {
           "emoji": "❤",
-          "count": "406"
+          "count": "407"
         },
         {
           "emoji": "👍",
@@ -290,7 +323,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.9K",
+      "views_label": "26K",
       "posted_at": "2026-10-24T17:03:25+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5688",
@@ -417,7 +450,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.6K",
       "posted_at": "2026-10-24T11:43:03+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5685",
@@ -450,7 +483,7 @@
           "count": "10"
         }
       ],
-      "views_label": "24K",
+      "views_label": "24.1K",
       "posted_at": "2026-10-24T11:34:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5684",
@@ -500,7 +533,7 @@
           "count": "10"
         }
       ],
-      "views_label": "24.6K",
+      "views_label": "24.7K",
       "posted_at": "2026-10-24T10:29:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5683",
@@ -552,7 +585,7 @@
           "count": "16"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-10-24T10:27:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5681",
@@ -642,7 +675,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.1K",
+      "views_label": "23.2K",
       "posted_at": "2026-10-24T07:26:48+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5679",
@@ -4590,59 +4623,6 @@
       "posted_at": "2026-10-15T18:59:32+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5583",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5582",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/g5kO8FBwEkSv9mWjFR6FYwMu4ZnooKjQDFgwpVD4Fj-VpXQQboIkX4Hiq2Sw-BLn6zQV26SRExuqnVOHpgifnx7sE8pknXdFoa0SIIxO3ioJwSQGfAGmV57r2GlVWBpz3Bo9xMRZ6slYesWOx0U2yc9TIDVkVN7NbmCkX9X7rkUo3NHAZWAHnxzqK5h_GRm3n6CGVNK3ZFEqaySsGf0cwW6OZ9Zzl68pdsAxtBNhQMun0UcFoXaPdf3Bm43G7T9_zg4fLYiwQCF-c5Wu9M8vklpnwVKRFsnSbnwrmxth1ayJH6MT1__jGCxe7EJh92KcfpJS2Tl3Q4lRJTVadSrLtA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/78b43fb78aae974ba1669e0a.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "جمنای 4 آرگون اومده و به زودی تستش می‌کنم<br>بچه‌ها جواب‌های خوبی ازش گرفتن<tg-emoji emoji-id=\"5274090977584234781\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i></tg-emoji>",
-      "plain_text": "جمنای 4 آرگون اومده و به زودی تستش می‌کنم\nبچه‌ها جواب‌های خوبی ازش گرفتن🎨",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5582",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/e9wBZerd_kgkODxK5AAdjp5fmdGKDw2J5_C_KD5a6MyoQb9QIsyiAO-dnOAI2Mn6DEbGP2QLvn3SOpMf20j13lklmIStedkE3S6k5x-JdCHnBDKmWq4KTEYw8IWMmc5WdjPsI_HDWm8_GYrITAKMZeT_wL-3YYa3As12i9pUJyfRBp0tfh7i-d7e6t7HhiS4gHpO5CSELfbKmcVtEVEHg_sV9rMqwLFQY4XX__JFSHRjz_ZC7YiklrV8HMpv8i92DyRrEnRPc5tOpzOKD3nKByeuRDcoC76jfNCwWlbrifsa81uPuYsCtb-nfM13AaQui3qJJN6JDDT6CqixxHlilw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/807b45db2784ca4fea4a1cd9.jpg",
-          "thumbnail_sha256": "0d998b51bb1f7444903f437532931d29ff10eb53bb1254a51957d286efa49f5a",
-          "duration_label": null,
-          "aspect_ratio": 1.3513513513513513
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "427"
-        },
-        {
-          "emoji": "❤",
-          "count": "42"
-        },
-        {
-          "emoji": "💔",
-          "count": "25"
-        },
-        {
-          "emoji": "😁",
-          "count": "12"
-        },
-        {
-          "emoji": "🦄",
-          "count": "5"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        }
-      ],
-      "views_label": "37.6K",
-      "posted_at": "2026-10-14T19:00:43+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/5582",
       "reply": null
     }
   ]
