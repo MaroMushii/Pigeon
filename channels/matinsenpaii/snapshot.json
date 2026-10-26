@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-26T13:37:02.402Z",
+  "fetched_at": "2026-10-26T13:42:21.268Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5707",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/ptF1YIhrm0K4puZYpdYkUS9GwXBe-_ie2jLh5v8tHRtSfeUK4TbLbEYZjUiSG-n5JCxIv3FhOetClMXNbGceoGYM5bRwtAiUz7yGAO_xXkpBObwrxaKhzh4kamHTh-TMEVo0YUkj28-aGbrldQlly8fpYuR5o3QiSMHnIJVe5xrgBufdPyvpwuYUsp4N_Xu7baOMp63hO2BM4ygjx3s6htkMO2g9YdjE-SR_Yx5qmOloBD8EmNtE9sGikz_d7aO5LvBw4fAXmO2qSa-yxLWAN7IQQ-skTyCIDCTa_GWZyrxpqJqlx-WpKXUh9HgXjF06DYOj3pZ7X1xdUUMyw03vUA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/16b2424a25a703a0bf1a731f.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>ساخت استارتاپ و 50 میلیون کسب درآمد توی 30 روز با Claude Code | قسمت 1</b><br><br>توی این سری ویدئو، قراره با همدیگه Commento (کامنتو) رو بسازیم. پلتفرمی که کامنت‌های اینستاگرام رو به‌صورت هوشمند بررسی می‌کنه؛ کامنت‌های توهین‌آمیز و مزاحم رو فیلتر و حذف می‌کنه و کامنت‌هایی که نشونه‌ی خرید دارن رو شناسایی می‌کنه تا پیج‌های فروشگاهی و اینفلوئنسرها بتونن بدون دردسر، حجم بالای کامنت‌هاشون رو مدیریت کنن<tg-emoji emoji-id=\"5424803166707261356\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8F83E2808DE29982.png')\"><b>🏃‍♂</b></i></tg-emoji><br><br>هدف من توی این چالش اینه که یه محصول واقعی رو از صفر بسازم و توی ۳۰ روز ازش ۵۰ میلیون تومن درآمد داشته باشم، اونم با شرایط واقعی ایران: اینماد، دامنه، سرور، درگاه پیامک و همه‌ی چالش‌هایی که سر راهه. نه ادعای «بخواب و پول دربیار» دارم، نه قصد دارم محتوای زرد بسازم<tg-emoji emoji-id=\"5255999394217488900\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i></tg-emoji><br><br>یه نکته‌ی مهم: این ویدئو فقط شروع ماجراست. چیزی که توی این قسمت ساخته می‌شه یه نسخه‌ی خیلی ابتدایی و اولیه‌ست و قرار نیست محصول نهایی باشه. نرم‌افزار به این سادگی‌ها نیست؛ طبیعت این کار اینه که خیلی جاها اشتباه می‌کنیم، چیزهایی رو بازنویسی می‌کنیم و مسیر رو اصلاح می‌کنیم. همین الان هم توی همین ویدئو می‌بینید که نسخه‌ی اول با ایراد جدی ساخته می‌شه و سر همین دلیل، ویدئوهای بعدی رو داریم که توش بک‌اند رو اصولی‌تر طراحی می‌کنیم<tg-emoji emoji-id=\"5458669860009554206\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9AB6.png')\"><b>🚶</b></i></tg-emoji><br><br><tg-emoji emoji-id=\"5388953246486269495\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939A.png')\"><b>📚</b></i></tg-emoji> چیا رو انجام میدیم؟<br><blockquote expandable=\"\">• تبدیل ایده به محصول با کمک ایجنت: قبل از ساختن، امکان‌سنجی کن و محدودیت‌های API رو بشناس (مثلاً آیا اینستاگرام اجازه وصل کردن ۵۰ پیج به یک سرور و وبهوک رو می‌ده؟)<br>• معماری چندلایه‌ی تشخیص کامنت: نرمال‌سازی، بلاک‌لیست، کامنت‌های حذف‌شده قبلی و در آخر هوش مصنوعی ارزون؛ به‌همراه محاسبه هزینه توکن و نتیجه تست روی کامنت‌های مختلف<br>• نوشتن SRS با ایجنت Muse و بهبودش با Claude: با یه SRS خوب، حتی ایجنت ضعیف‌تر هم خروجی خوبی می‌ده<br>• اتصال Claude Code به API واسط: ساخت کلید با محدودیت مدل، IP و انقضا، تنظیم settings.json، کش و ارزان‌تر شدن درخواست‌ها، و دستور /usage<br>• پلاگین‌ها و اسکیل‌ها: Graphify، CodeGraph، frontend-design و Superpowers (و اینکه چرا 200 تا پلاگین و skill نباید نصب کنید)<br>• مدیریت پروژه‌ی بزرگ با Claude Code: شکستن SRS دو هزار خطی به ۳۲ فایل، و یه سری ریزه‌کاری‌های کار با Claude<br>• یادگیری از ایجنت: پرسیدن دلیل انتخاب PostgreSQL، Redis، RabbitMQ و Drizzle و درخواست توضیح با نمودار<br>• سرور، SSH و دامنه: ساخت سرور، کلید SSH، اتصال با Termius، خرید دامنه از Cloudflare و تنظیم DNS؛ به‌همراه هشدار درباره‌ی تفاوت قیمت خرید و تمدید و بن شدن کاربران ایرانی<br>• تحویل کلیدها و سرویس‌ها به ایجنت: LLM endpoint، پنل پیامک و ورود با OTP، دیپلوی از طریق گیت‌هاب</blockquote><br><br><tg-emoji emoji-id=\"5071261477743100913\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B9.png')\"><b>📹</b></i></tg-emoji> تماشا در یوتوب: <a href=\"https://youtu.be/OD-wmcUsTm4\" target=\"_blank\" rel=\"noopener\">https://youtu.be/OD-wmcUsTm4</a>",
+      "plain_text": "ساخت استارتاپ و 50 میلیون کسب درآمد توی 30 روز با Claude Code | قسمت 1\n\nتوی این سری ویدئو، قراره با همدیگه Commento (کامنتو) رو بسازیم. پلتفرمی که کامنت‌های اینستاگرام رو به‌صورت هوشمند بررسی می‌کنه؛ کامنت‌های توهین‌آمیز و مزاحم رو فیلتر و حذف می‌کنه و کامنت‌هایی که نشونه‌ی خرید دارن رو شناسایی می‌کنه تا پیج‌های فروشگاهی و اینفلوئنسرها بتونن بدون دردسر، حجم بالای کامنت‌هاشون رو مدیریت کنن🏃‍♂\n\nهدف من توی این چالش اینه که یه محصول واقعی رو از صفر بسازم و توی ۳۰ روز ازش ۵۰ میلیون تومن درآمد داشته باشم، اونم با شرایط واقعی ایران: اینماد، دامنه، سرور، درگاه پیامک و همه‌ی چالش‌هایی که سر راهه. نه ادعای «بخواب و پول دربیار» دارم، نه قصد دارم محتوای زرد بسازم❤️\n\nیه نکته‌ی مهم: این ویدئو فقط شروع ماجراست. چیزی که توی این قسمت ساخته می‌شه یه نسخه‌ی خیلی ابتدایی و اولیه‌ست و قرار نیست محصول نهایی باشه. نرم‌افزار به این سادگی‌ها نیست؛ طبیعت این کار اینه که خیلی جاها اشتباه می‌کنیم، چیزهایی رو بازنویسی می‌کنیم و مسیر رو اصلاح می‌کنیم. همین الان هم توی همین ویدئو می‌بینید که نسخه‌ی اول با ایراد جدی ساخته می‌شه و سر همین دلیل، ویدئوهای بعدی رو داریم که توش بک‌اند رو اصولی‌تر طراحی می‌کنیم🚶\n\n📚 چیا رو انجام میدیم؟\n• تبدیل ایده به محصول با کمک ایجنت: قبل از ساختن، امکان‌سنجی کن و محدودیت‌های API رو بشناس (مثلاً آیا اینستاگرام اجازه وصل کردن ۵۰ پیج به یک سرور و وبهوک رو می‌ده؟)\n• معماری چندلایه‌ی تشخیص کامنت: نرمال‌سازی، بلاک‌لیست، کامنت‌های حذف‌شده قبلی و در آخر هوش مصنوعی ارزون؛ به‌همراه محاسبه هزینه توکن و نتیجه تست روی کامنت‌های مختلف\n• نوشتن SRS با ایجنت Muse و بهبودش با Claude: با یه SRS خوب، حتی ایجنت ضعیف‌تر هم خروجی خوبی می‌ده\n• اتصال Claude Code به API واسط: ساخت کلید با محدودیت مدل، IP و انقضا، تنظیم settings.json، کش و ارزان‌تر شدن درخواست‌ها، و دستور /usage\n• پلاگین‌ها و اسکیل‌ها: Graphify، CodeGraph، frontend-design و Superpowers (و اینکه چرا 200 تا پلاگین و skill نباید نصب کنید)\n• مدیریت پروژه‌ی بزرگ با Claude Code: شکستن SRS دو هزار خطی به ۳۲ فایل، و یه سری ریزه‌کاری‌های کار با Claude\n• یادگیری از ایجنت: پرسیدن دلیل انتخاب PostgreSQL، Redis، RabbitMQ و Drizzle و درخواست توضیح با نمودار\n• سرور، SSH و دامنه: ساخت سرور، کلید SSH، اتصال با Termius، خرید دامنه از Cloudflare و تنظیم DNS؛ به‌همراه هشدار درباره‌ی تفاوت قیمت خرید و تمدید و بن شدن کاربران ایرانی\n• تحویل کلیدها و سرویس‌ها به ایجنت: LLM endpoint، پنل پیامک و ورود با OTP، دیپلوی از طریق گیت‌هاب\n\n📹 تماشا در یوتوب: https://youtu.be/OD-wmcUsTm4",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5707",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/i2l67yD7UTTKWiE87WIT0xn6Je1M5bCZRFq8b9iOMIZBbyq5NxFuimIl-s88TkzslJDkinR94DYgbWYABja0PUjYWb9OpQtBP_9K9KA5Q4ozzsTTWQWEBLHFD4c1M_gggls71isn0-2K5xGQn5x86jOA3HNe-5pjJE10L0yUGNfbCK0TVC-6DwAaLSNi2uFXm5rwol5xDgqVFbtgltWWgqGgk2WmHgFvmUVq4b-o5AeUeOSukYaiPHKtuGLL79HK2RrPP-BluNKyuyBBcT73QVPb6eyA9cBSRfCx4uN70ehyL2RSiF554GO5DmUnWv-dM6W5vkWj3b0mSRbI5CbIvg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/6d170d1f4a899c990de789ac.jpg",
+          "thumbnail_sha256": "07844ec47955e37ad5a3cfeb826f7b6e019fa4cdda64fa1a733b778f7de004d5",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "20"
+        }
+      ],
+      "views_label": "1.22K",
+      "posted_at": "2026-10-26T13:39:34+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5707",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5706",
       "author_name": "Matin SenPai",
@@ -35,22 +68,22 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "154"
+          "count": "158"
         },
         {
           "emoji": "👍",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "❤",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "🦄",
           "count": "1"
         }
       ],
-      "views_label": "8.2K",
+      "views_label": "8.88K",
       "posted_at": "2026-10-26T12:35:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5706",
@@ -77,7 +110,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "64"
+          "count": "65"
         },
         {
           "emoji": "❤",
@@ -88,7 +121,7 @@
           "count": "5"
         }
       ],
-      "views_label": "14K",
+      "views_label": "14.4K",
       "posted_at": "2026-10-26T10:39:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5705",
@@ -106,7 +139,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "68"
+          "count": "69"
         },
         {
           "emoji": "💔",
@@ -129,7 +162,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14K",
+      "views_label": "14.5K",
       "posted_at": "2026-10-26T10:39:37+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5704",
@@ -168,11 +201,11 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "311"
+          "count": "316"
         },
         {
           "emoji": "❤",
-          "count": "25"
+          "count": "26"
         },
         {
           "emoji": "🦄",
@@ -187,7 +220,7 @@
           "count": "4"
         }
       ],
-      "views_label": "16.9K",
+      "views_label": "17.3K",
       "posted_at": "2026-10-26T09:57:58+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5703",
@@ -217,7 +250,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "155"
+          "count": "156"
         },
         {
           "emoji": "💔",
@@ -232,7 +265,7 @@
           "count": "5"
         }
       ],
-      "views_label": "19.9K",
+      "views_label": "20.1K",
       "posted_at": "2026-10-26T08:35:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5702",
@@ -262,7 +295,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "253"
+          "count": "254"
         },
         {
           "emoji": "🆒",
@@ -281,7 +314,7 @@
           "count": "3"
         }
       ],
-      "views_label": "22.3K",
+      "views_label": "22.5K",
       "posted_at": "2026-10-26T06:13:36+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5701",
@@ -383,7 +416,7 @@
           "count": "3"
         }
       ],
-      "views_label": "25.8K",
+      "views_label": "25.9K",
       "posted_at": "2026-10-25T16:18:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5699",
@@ -438,7 +471,7 @@
         },
         {
           "emoji": "🆒",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "💔",
@@ -568,7 +601,7 @@
           "count": "3"
         }
       ],
-      "views_label": "22.2K",
+      "views_label": "22.3K",
       "posted_at": "2026-10-25T07:26:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5695",
@@ -718,7 +751,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.4K",
+      "views_label": "23.5K",
       "posted_at": "2026-10-25T06:56:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5691",
@@ -4638,59 +4671,6 @@
       "posted_at": "2026-10-17T04:50:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5595",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5594",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/g5kO8FBwEkSv9mWjFR6FYwMu4ZnooKjQDFgwpVD4Fj-VpXQQboIkX4Hiq2Sw-BLn6zQV26SRExuqnVOHpgifnx7sE8pknXdFoa0SIIxO3ioJwSQGfAGmV57r2GlVWBpz3Bo9xMRZ6slYesWOx0U2yc9TIDVkVN7NbmCkX9X7rkUo3NHAZWAHnxzqK5h_GRm3n6CGVNK3ZFEqaySsGf0cwW6OZ9Zzl68pdsAxtBNhQMun0UcFoXaPdf3Bm43G7T9_zg4fLYiwQCF-c5Wu9M8vklpnwVKRFsnSbnwrmxth1ayJH6MT1__jGCxe7EJh92KcfpJS2Tl3Q4lRJTVadSrLtA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/78b43fb78aae974ba1669e0a.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "اگر روی 9Router ارور <br><code>HTTP 403: [403]: {\"type\":\"error\",\"error\":{\"type\":\"FreeTierError\",\"message\":\"Error from provider (Console): OpenCode's free tier can only be used from within OpenCode\"}}</code><br>می‌گیرید از اوپن کد، علتش آپدیت نبودن 9Routerتون هست.<br><br>برای آپدیت کسایی که با npm نصب کردن، از دستور<br><pre>npm i -g 9router@latest --prefer-online</pre><br>استفاده کنن، و کسایی هم که با داکر نصب کردن از<br><pre>docker pull decolua/9router:latest<br><br>docker rm -f 9router<br><br>docker run -d \\<br>  --name 9router \\<br>  -p 20128:20128 \\<br>  -v \"$HOME/.9router:/app/data\" \\<br>  -e DATA_DIR=/app/data \\<br>  -e JWT_SECRET=\"change-this-to-a-long-random-secret\" \\<br>  -e INITIAL_PASSWORD=\"your-strong-dashboard-password\" \\<br>  decolua/9router:latest</pre><br>استفاده کنن(با پسوورد و JWT دلخواه برای JWT_SECRET و INITIAL_PASSWORD)",
-      "plain_text": "اگر روی 9Router ارور\nHTTP 403: [403]: {\"type\":\"error\",\"error\":{\"type\":\"FreeTierError\",\"message\":\"Error from provider (Console): OpenCode's free tier can only be used from within OpenCode\"}}\nمی‌گیرید از اوپن کد، علتش آپدیت نبودن 9Routerتون هست.\n\nبرای آپدیت کسایی که با npm نصب کردن، از دستور\nnpm i -g 9router@latest --prefer-online\nاستفاده کنن، و کسایی هم که با داکر نصب کردن از\ndocker pull decolua/9router:latest\n\ndocker rm -f 9router\n\ndocker run -d \\\n--name 9router \\\n-p 20128:20128 \\\n-v \"$HOME/.9router:/app/data\" \\\n-e DATA_DIR=/app/data \\\n-e JWT_SECRET=\"change-this-to-a-long-random-secret\" \\\n-e INITIAL_PASSWORD=\"your-strong-dashboard-password\" \\\ndecolua/9router:latest\nاستفاده کنن(با پسوورد و JWT دلخواه برای JWT_SECRET و INITIAL_PASSWORD)",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5594",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/WW13Miaa-v1XtFJTFprsZgSMNeQRdgPxUclBD90etGBBHctyIM1oV2nHb0avhpo9lldgnRMRjRBziiNSmolkRsJvlBbmKodX2P2aO9YXeBdCLMCM418o4fzbEpduDJlkG6Lc5x7D25T1npsvAqK3nYK3wtdNzFq2ntQciytLNrNC9thbKTmVmpuC9o6iT69LHYJS5gSuN9XcJ4_LlkVWyPfGBnZJmg0xs7vkJLtbD47I4sf8Istk0E2BSrWMEjqs0YyQ0MApD9NBYJ4yhuvHE_I4nAlvT5HsP9aBGXuqYhfG0ZK-rTQcvs1rkBf4x6TlF8W8mpP38H8CWLSZuJ7hTw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/9324a8bfd5754d5a2bf015ad.jpg",
-          "thumbnail_sha256": "5164f69b6cef6d6b56968bae6e10d5478a056637f338d635988bb09ce1fea061",
-          "duration_label": null,
-          "aspect_ratio": 1.6326530612244898
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "128"
-        },
-        {
-          "emoji": "👍",
-          "count": "12"
-        },
-        {
-          "emoji": "💔",
-          "count": "10"
-        },
-        {
-          "emoji": "🆒",
-          "count": "3"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        }
-      ],
-      "views_label": "31.7K",
-      "posted_at": "2026-10-16T20:55:35+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5594",
       "reply": null
     }
   ]
