@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-27T13:28:59.779Z",
+  "fetched_at": "2026-10-27T13:37:40.817Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "110K"
   },
   "posts": [
+    {
+      "id": "whitedns/2180",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/cNu0KKyc2gnoUTTmS10it_MI665Dnom4TBmgTu1d_UWyEmziM5zJgn8drCGT_sJBrXhXxDTbq89z_qoLqxvGWPzeJ6YiwRxZSYhjttq3VKU_AX6na9B4a2jt5szq3GHAgcV9LM3-L6nw0_aPBtfAzqgas8yQ_G3WXZu5zBqOaSoBNklk8rIlTgoK9poyxqbk2pR2-UUtO4LhaaWngzy4zCadzNWI9D3_R-xAK_9Obk3zgNaqIgVKlW-sdrvI0xevI7XqPr3HsV-gHV42lSW5_qyVlf_90hR-PuxpNJBa20D-BbsET9H_t_DZUaoiDbfh4E9-T01hV6Ax6UEGP--I7A.jpg",
+      "author_photo_path": "channels/whitedns/media/9a1f3ae7eefa2d7157558daa.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "نسخه <b>Pre-release |</b>  <b>آزمایشی</b> <b>WhiteDNS Desktop 1.4.9 منتشر شد</b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> تغییرات این نسخه:<br><br>داشبورد جدید و چیدمان مناسب اندازه‌های مختلف صفحه<br>انتخاب Proxy، VPN یا TUN از Quick setup<br>ورود ریزالور با کپی آدرس یا فایل و استفاده برای همهٔ کانفیگ‌ها<br>نمودار زندهٔ تأخیر و نمایش وضعیت ریزالورها<br>درخواست خودکار دسترسی ادمین برای TUN در ویندوز<br>اصلاح اعمال پراکسی ویندوز و مسیر DNS در TUN<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i><b> TUN فقط روی ویندوز فعال است. VPN پراکسی سیستم است. Soar ترافیک TCP را منتقل می‌کند؛ UDP عمومی در TUN آن پشتیبانی نمی‌شود.<br>کانفیگ‌های قبلی حفظ می‌شوند؛ مشکلات احتمالی را گزارش کنید.</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> <a href=\"https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.9/WhiteDNS-Desktop-1.4.9-windows-x64.zip\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود ویندوز x64 برای Intel و AMD</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> <a href=\"https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/tag/desktop-v1.4.9\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود تمام نسخه‌های ویندوز، macOS و لینوکس</a><br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a><br><a href=\"?q=%23whitedns_desktop\">#whitedns_desktop</a>",
+      "plain_text": "نسخه Pre-release | آزمایشی WhiteDNS Desktop 1.4.9 منتشر شد⚠️\n\n✨ تغییرات این نسخه:\n\nداشبورد جدید و چیدمان مناسب اندازه‌های مختلف صفحه\nانتخاب Proxy، VPN یا TUN از Quick setup\nورود ریزالور با کپی آدرس یا فایل و استفاده برای همهٔ کانفیگ‌ها\nنمودار زندهٔ تأخیر و نمایش وضعیت ریزالورها\nدرخواست خودکار دسترسی ادمین برای TUN در ویندوز\nاصلاح اعمال پراکسی ویندوز و مسیر DNS در TUN\n\n📌 TUN فقط روی ویندوز فعال است. VPN پراکسی سیستم است. Soar ترافیک TCP را منتقل می‌کند؛ UDP عمومی در TUN آن پشتیبانی نمی‌شود.\nکانفیگ‌های قبلی حفظ می‌شوند؛ مشکلات احتمالی را گزارش کنید.\n\n⬇️ دانلود ویندوز x64 برای Intel و AMD\n📦 دانلود تمام نسخه‌های ویندوز، macOS و لینوکس\n\n@WhiteDNS\n#whitedns_desktop",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2180",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/i7i-AizV9pe9_-gEfENIh1C9jbQPskLt3m46SOJRJ9tnqi_mPrVbU12jRIO8X7ym8Iz6Jwkc1mHbTg3BPPJGrudr34I2TZFKpBAQeBnXOa5pSy7Wkz6cI0TDiLIeYqfuTofzBqFHpaK8LIVmN64zVP88cq5vmTftYWTe2xdD89brXBXcFKz-OE13rvGegFutZqeznZ2V3zV9aX9djQjr5-x79Eb452WK4bE0WMDJVCgSdirmHOHWW-YVI5MgDdYEPIqp7Dqs6cUMee1YEzPijjiQFhoe2P9dDELqAiXDTDtt-0m-XEIn7KIZLAHdEsIV7RYrZbIvWt6V7MTOh8Nrng.jpg",
+          "thumbnail_path": "channels/whitedns/media/69d6d721a241b4646581c86a.jpg",
+          "thumbnail_sha256": "9c06c5bde4bf7426564dbfdc4fceadfc39433d68ef9ea318bc686068310bd3ec",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "10"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "710",
+      "posted_at": "2026-10-27T13:32:19+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2180",
+      "reply": null
+    },
     {
       "id": "whitedns/2179",
       "author_name": "White DNS",
@@ -35,7 +72,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "54"
+          "count": "55"
         },
         {
           "emoji": "❤‍🔥",
@@ -43,7 +80,7 @@
         },
         {
           "emoji": "👍",
-          "count": "4"
+          "count": "5"
         },
         {
           "emoji": "👏",
@@ -54,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.2K",
+      "views_label": "4.53K",
       "posted_at": "2026-10-27T11:50:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2179",
@@ -72,7 +109,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "85"
+          "count": "86"
         },
         {
           "emoji": "❤‍🔥",
@@ -87,7 +124,7 @@
           "count": "2"
         }
       ],
-      "views_label": "5.35K",
+      "views_label": "5.59K",
       "posted_at": "2026-10-27T11:03:50+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2178",
@@ -156,7 +193,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.03K",
+      "views_label": "7.15K",
       "posted_at": "2026-10-27T09:19:01+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2177",
@@ -205,7 +242,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.58K",
+      "views_label": "9.62K",
       "posted_at": "2026-10-27T03:26:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2176",
@@ -258,7 +295,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.35K",
+      "views_label": "9.42K",
       "posted_at": "2026-10-27T02:54:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2175",
@@ -307,7 +344,7 @@
           "count": "2"
         }
       ],
-      "views_label": "9.46K",
+      "views_label": "9.51K",
       "posted_at": "2026-10-27T02:26:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2174",
@@ -368,7 +405,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.2K",
+      "views_label": "31.3K",
       "posted_at": "2026-10-26T14:20:06+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2172",
@@ -494,7 +531,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.9K",
+      "views_label": "13K",
       "posted_at": "2026-10-26T05:23:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2170",
@@ -551,7 +588,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13K",
+      "views_label": "13.1K",
       "posted_at": "2026-10-26T05:11:40+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2168",
@@ -5169,43 +5206,6 @@
       "posted_at": "2026-10-21T05:27:33+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2061",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2060",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/A3ui_oEiPFX7G58sc5F4lUIfOKGKgGb-As3QvebWig2IsYNbVmyve21Yj3QvBCdopg400cP-a6m6WgdBJ6dfmLX091UplTcyrAzj63kEZMlgMh_5NP3IEvrbws3yeWAFKksVHczCnBoVbvhWUWAMEJmsHuEG-6SiJ06cTgyd7rBPWwZJHsqZG5e0hG-jpG5tRJOe4db3MjGHPVbtwNxTH4J6vWfysLfPqUWe0WHWKDs3Z7UcwU3DLDnh-CPqdfNqmLq8OVrtZGkE5LW28-yFk5fLmNL5X6SyDQn_4uR5xr2FCcKx8uvzi1RSTrBrVYR-pU3lSUOHcOGzkAWsT-GcrA.jpg",
-      "author_photo_path": "channels/whitedns/media/de62de8bf2f5d90ee3f7e915.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "67"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "9"
-        },
-        {
-          "emoji": "🍓",
-          "count": "3"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        }
-      ],
-      "views_label": "9.43K",
-      "posted_at": "2026-10-21T05:01:54+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2060",
       "reply": null
     }
   ]
