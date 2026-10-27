@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-27T02:26:58.180Z",
+  "fetched_at": "2026-10-27T02:32:02.477Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "110K"
   },
   "posts": [
+    {
+      "id": "whitedns/2174",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/cNu0KKyc2gnoUTTmS10it_MI665Dnom4TBmgTu1d_UWyEmziM5zJgn8drCGT_sJBrXhXxDTbq89z_qoLqxvGWPzeJ6YiwRxZSYhjttq3VKU_AX6na9B4a2jt5szq3GHAgcV9LM3-L6nw0_aPBtfAzqgas8yQ_G3WXZu5zBqOaSoBNklk8rIlTgoK9poyxqbk2pR2-UUtO4LhaaWngzy4zCadzNWI9D3_R-xAK_9Obk3zgNaqIgVKlW-sdrvI0xevI7XqPr3HsV-gHV42lSW5_qyVlf_90hR-PuxpNJBa20D-BbsET9H_t_DZUaoiDbfh4E9-T01hV6Ax6UEGP--I7A.jpg",
+      "author_photo_path": "channels/whitedns/media/9a1f3ae7eefa2d7157558daa.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i> <b>راهنمای تنظیم ضدفلاد و کنترل سوءاستفاده در<br> WhiteDNS</b> Sever Management <br><br>اگر هاست شما به ترافیک حساس است، این آموزش را بخوانید؛ شامل توضیح تمام گزینه‌ها، روش بررسی قرنطینه و <b>دو نمونه تنظیمات کامل برای هاست‌های بسیار حساس</b>.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> محدودیت اتصال با تعداد درخواست HTTP فرق دارد؛ تنظیم درست، ریسک را کاهش می‌دهد اما تضمین جلوگیری از ساسپند نیست.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> <a href=\"https://whitedns.online/blog/antiflood-abuse-control-guide/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">مطالعهٔ آموزش کامل در وب‌سایت</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a><br><a href=\"?q=%23anti_flood\">#anti_flood</a><br><a href=\"?q=%23%D9%BE%D9%86%D9%84_whitedns\">#پنل_whitedns</a>",
+      "plain_text": "🛡 راهنمای تنظیم ضدفلاد و کنترل سوءاستفاده در\nWhiteDNS Sever Management\n\nاگر هاست شما به ترافیک حساس است، این آموزش را بخوانید؛ شامل توضیح تمام گزینه‌ها، روش بررسی قرنطینه و دو نمونه تنظیمات کامل برای هاست‌های بسیار حساس.\n⚠️ محدودیت اتصال با تعداد درخواست HTTP فرق دارد؛ تنظیم درست، ریسک را کاهش می‌دهد اما تضمین جلوگیری از ساسپند نیست.\n📖 مطالعهٔ آموزش کامل در وب‌سایت\n@whitedns\n#anti_flood\n#پنل_whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2174",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/A_W65znAAr_aRF-dGHP3oWHWbfxueUnbD3LTLBF__X_DWFt41K1aEgBiAjQMbkxjiiy0UNsHEDJ8zJXpsVfGov2LAsihPq54IxmXdp_W4HkDf0uJsS_e5hyI_Dqomr5679rk_MaoPUc4rUHkSxH_PfKDnK3SgACaMaFIap8hgGXwjErWso2w9UTydW6TWstv4FfpA96-yTjjArHy-czKKzUj08pNWobeIfgk_zBIeo_C9ycnDVDq3D_O1tPPVxwUuQdbzMxy-g_ibnpb-f3q3hDpsuaYWiJ_UYIuQop_NGtklL5OWdsP4A5DI2PD_dBxnucGMygFVK6mGin1eEkrEw.jpg",
+          "thumbnail_path": "channels/whitedns/media/08a69f4e094318f5389320ff.jpg",
+          "thumbnail_sha256": "eff9180165a8245f2d11f1003fc24017fe018a4d879d182a6788e8835086a9ad",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "171",
+      "posted_at": "2026-10-27T02:26:11+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2174",
+      "reply": null
+    },
     {
       "id": "whitedns/2172",
       "author_name": "White DNS",
@@ -58,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.5K",
+      "views_label": "14.6K",
       "posted_at": "2026-10-26T14:20:06+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2172",
@@ -119,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.1K",
+      "views_label": "10.2K",
       "posted_at": "2026-10-26T11:40:37+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2171",
@@ -237,7 +270,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.5K",
+      "views_label": "11.6K",
       "posted_at": "2026-10-26T05:11:40+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2168",
@@ -255,7 +288,7 @@
       "reactions": [
         {
           "emoji": "🔥",
-          "count": "128"
+          "count": "129"
         },
         {
           "emoji": "❤",
@@ -5174,71 +5207,6 @@
       "posted_at": "2026-10-20T12:53:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2055",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2054",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/qM2ioZQ-unQptfBKzHbPSn3mCpf9V0fQMJczGO2S_BppVfK-JWInKyjYshJc_W_VmwekyHEXcSxM2v0zsuclgxITi-79opG8qEnp1i7a0-qqlIInrm8yOKVdj7WW22cUv2w-y-7DXa1wwd4SpUAAOVLUNhB1Nv3JXLnULkzneZwsKwLg3-Z7sEEd-4kwdWBafJCl3SarHoBlvsBuvKUmulEq1bhxfujeMwd2spCCE7-jSMTzSNon4nohJ2o5uUlnig63poZ_NQEovI4m_jKLjLPGOGZru7NbihHepeVaVvx_Lx0hTXfka41RGJoz3MgWPfbnOj2eitx4mes-U-HJyw.jpg",
-      "author_photo_path": "channels/whitedns/media/2662507bc918c6fd6ea3f2bc.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/whitedns/2054",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/FLHLiUCq0mF2V22Y_6Ipi_VOO1EtD7CLpbbPhj271zprKYlrIvP6FMf9VwAhPvrXFos0A2KQWd2douzCl8vWIU4dMqnjYL5c0Y5LUK-_0wt_pG0uGvpyGlGF2PnBBqmwVh4Hd3no0fQbHEa4y-riBHtbc7T7isIoxImgmS0IclSoizICf1ST2u6Cb1wLaw5TZwm5f0Yxyk9Mcs0CZh4lUulBQX_pPtk-Fz2HU5GPpnLLUx5lFwOMIMuyCoAq85Va9EcbonS8JD-cdRsQBsW8KpRBjp_Cw2zNyjevuzPtkvGY8A_Rj6ZQRCfdtOwB2dA3fEIXK3c1p1hK5mHbU6X17Q",
-          "thumbnail_path": "channels/whitedns/media/f5627a921c346bd9df3439ff.jpg",
-          "thumbnail_sha256": "fc96fe7963cdd701e4c1af415295d489ec71048636c8ea097fcdb77313e1c012",
-          "duration_label": null,
-          "aspect_ratio": 1.3333333333333333
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "129"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "16"
-        },
-        {
-          "emoji": "🕊",
-          "count": "4"
-        },
-        {
-          "emoji": "💋",
-          "count": "4"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "🤣",
-          "count": "2"
-        },
-        {
-          "emoji": "🥱",
-          "count": "1"
-        },
-        {
-          "emoji": "🍓",
-          "count": "1"
-        },
-        {
-          "emoji": "🫡",
-          "count": "1"
-        }
-      ],
-      "views_label": "11.6K",
-      "posted_at": "2026-10-20T09:53:20+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2054",
       "reply": null
     }
   ]
