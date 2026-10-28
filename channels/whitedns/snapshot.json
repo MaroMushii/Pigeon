@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-28T06:27:28.376Z",
+  "fetched_at": "2026-10-28T06:31:57.620Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2185",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/dVudklB1113PtndbihJJYrkZbR1L7pXzwB_mxefNiSVF_H9yoVbo5QmRSB4jnoBxM8kOeIyKtRImRtkDY-T_s_Lsx8b_Eu5G4spmkr0-zl_qxVtBVZ3yg7X1HAipepC9Vn1VGvOFBYyL8wQl_s7iwAcRfjwGglxgq1BPz27q0lMiyDCEiMhEy9IRBlGo8Xs7DS6vfil5MBBzuS8y6YsHyXM5-2EBaPTt4Enf-4Rnl5BMVWFjunk5FG1Q9Wf-N_Q3uOrlpcdwfvpbKQfzIEQCTvaMdgyBzWRCFl9_OOoidUMe2dOrOw-qC5ln1JGQ_1fcD7TPJTCBsMZvVqhifRMI3A.jpg",
+      "author_photo_path": "channels/whitedns/media/124779b82537c82b152ab6a8.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>نسخهٔ 0.13.0 WhiteDNS Sever Management  منتشر شد</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i> <b>منوی مدیریت ۲۴ گزینه‌ای در SSH</b><br>ریست رمز مدیر، کنترل سرویس‌ها، تغییر دامنه و پورت، مدیریت گواهی HTTPS، بکاپ و بازیابی، آپدیت، لاگ، عیب‌یابی و حذف پنل.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> <b>رفع لگ و پرش آمار</b><br>به‌روزرسانی جدول‌ها بدون ساخت دوبارهٔ ردیف‌ها، حفظ آمار هنگام جابه‌جایی تب‌ها و ترنزیشن نرم بین صفحات.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A7.png')\"><b>🔧</b></i> رفع خطای آپدیت با TLS و پورت سفارشی، همراه با امکان انتخاب پورت محلی DNS برای Soar، Cotten و MasterDNS.<br><br>بعد از به‌روزرسانی، منوی سرور را با این دستور باز کنید:<tg-emoji emoji-id=\"5895577117592128901\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A99.png')\"><b>⚙️</b></i></tg-emoji><br><br><code>sudo whitedns</code><br><br>حساب‌ها، کلیدها، لینک‌های ساب و مصرف ذخیره‌شده حفظ می‌شوند. پیش از ارتقا بکاپ بگیرید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/releases/tag/panel-v0.13.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود برای AMD64 و ARM64</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/blob/panel-v0.13.0/docs/SERVER-MENU.fa.md\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای فارسی منوی SSH</a><br><a href=\"?q=%23WhiteDNS\">#WhiteDNS</a> <a href=\"?q=%23Soar\">#Soar</a> <a href=\"?q=%23%D8%A2%D9%BE%D8%AF%DB%8C%D8%AA\">#آپدیت</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🚀 نسخهٔ 0.13.0 WhiteDNS Sever Management منتشر شد\n\n🖥 منوی مدیریت ۲۴ گزینه‌ای در SSH\nریست رمز مدیر، کنترل سرویس‌ها، تغییر دامنه و پورت، مدیریت گواهی HTTPS، بکاپ و بازیابی، آپدیت، لاگ، عیب‌یابی و حذف پنل.\n\n✨ رفع لگ و پرش آمار\nبه‌روزرسانی جدول‌ها بدون ساخت دوبارهٔ ردیف‌ها، حفظ آمار هنگام جابه‌جایی تب‌ها و ترنزیشن نرم بین صفحات.\n🔧 رفع خطای آپدیت با TLS و پورت سفارشی، همراه با امکان انتخاب پورت محلی DNS برای Soar، Cotten و MasterDNS.\n\nبعد از به‌روزرسانی، منوی سرور را با این دستور باز کنید:⚙️\n\nsudo whitedns\n\nحساب‌ها، کلیدها، لینک‌های ساب و مصرف ذخیره‌شده حفظ می‌شوند. پیش از ارتقا بکاپ بگیرید.\n📦 دانلود برای AMD64 و ARM64\n📖 راهنمای فارسی منوی SSH\n#WhiteDNS #Soar #آپدیت\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2185",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/R2-1bLYW5tP0_4huCstUXqizVUJG1naeCfWYx88DwsJusjfIfBeAhlwyAKFYFEhX4QLjSiW8AO2iI0N2LQxvEFVi2LDi7lgZRv9gsBDWUxvAEwJ8yKdXzD_xlRIsxhRM4WD87q3oYpksUyNCw0m_z-YE9Fp8kVRnex9gH_1Ym4BmCKQVQyA6f0wqtvXfaivuPUOePz_pGtO31xD1-TGHe5gvTn_QJ3w-OdXLRIOyf7jn1XPH6p4Ri-bAVZy5zmBOGBRXTLN4fKzq4vYrtYoMF12Kd1DJJEzXexcyCFs42RJMBIb9EYVtYhiy2wq_pOAiV1AfZxfQzfV1k5KBmXHJbw.jpg",
+          "thumbnail_path": "channels/whitedns/media/a01e5f301c27dc2436fd82c6.jpg",
+          "thumbnail_sha256": "e1d3825e76895ae450c96575d1dd0b5fca395d5d3d160d5ae226572993bae6e1",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "9"
+        }
+      ],
+      "views_label": "414",
+      "posted_at": "2026-10-28T06:28:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2185",
+      "reply": null
+    },
     {
       "id": "whitedns/2184",
       "author_name": "White DNS",
@@ -35,11 +68,11 @@
       "reactions": [
         {
           "emoji": "👏",
-          "count": "76"
+          "count": "79"
         },
         {
           "emoji": "❤",
-          "count": "47"
+          "count": "48"
         },
         {
           "emoji": "🔥",
@@ -62,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.34K",
+      "views_label": "4.49K",
       "posted_at": "2026-10-28T04:21:05+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2184",
@@ -135,7 +168,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.98K",
+      "views_label": "10K",
       "posted_at": "2026-10-27T17:08:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2183",
@@ -241,7 +274,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12K",
+      "views_label": "12.1K",
       "posted_at": "2026-10-27T13:47:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2181",
@@ -290,7 +323,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12K",
       "posted_at": "2026-10-27T13:32:19+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2180",
@@ -510,7 +543,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.7K",
+      "views_label": "11.8K",
       "posted_at": "2026-10-27T03:26:23+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2176",
@@ -860,7 +893,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.3K",
+      "views_label": "14.4K",
       "posted_at": "2026-10-26T05:11:40+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2168",
@@ -931,7 +964,7 @@
         },
         {
           "emoji": "👍",
-          "count": "18"
+          "count": "19"
         },
         {
           "emoji": "🥰",
@@ -966,7 +999,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.6K",
+      "views_label": "14.7K",
       "posted_at": "2026-10-26T03:34:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2161",
@@ -5202,59 +5235,6 @@
       "posted_at": "2026-10-21T10:47:34+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2069",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2068",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/qM2ioZQ-unQptfBKzHbPSn3mCpf9V0fQMJczGO2S_BppVfK-JWInKyjYshJc_W_VmwekyHEXcSxM2v0zsuclgxITi-79opG8qEnp1i7a0-qqlIInrm8yOKVdj7WW22cUv2w-y-7DXa1wwd4SpUAAOVLUNhB1Nv3JXLnULkzneZwsKwLg3-Z7sEEd-4kwdWBafJCl3SarHoBlvsBuvKUmulEq1bhxfujeMwd2spCCE7-jSMTzSNon4nohJ2o5uUlnig63poZ_NQEovI4m_jKLjLPGOGZru7NbihHepeVaVvx_Lx0hTXfka41RGJoz3MgWPfbnOj2eitx4mes-U-HJyw.jpg",
-      "author_photo_path": "channels/whitedns/media/2662507bc918c6fd6ea3f2bc.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "یک لیست از ریزالورهای اسکن شده و اماده که توسط دوست خوبمون Luffy انجام شده<br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "یک لیست از ریزالورهای اسکن شده و اماده که توسط دوست خوبمون Luffy انجام شده\n@whitedns",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "188"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "9"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        },
-        {
-          "emoji": "🍓",
-          "count": "3"
-        },
-        {
-          "emoji": "🙏",
-          "count": "2"
-        },
-        {
-          "emoji": "😭",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        },
-        {
-          "emoji": "🫡",
-          "count": "1"
-        }
-      ],
-      "views_label": "11.1K",
-      "posted_at": "2026-10-21T10:22:14+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/2068",
       "reply": null
     }
   ]
