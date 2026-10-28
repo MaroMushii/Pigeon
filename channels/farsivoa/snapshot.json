@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-28T12:17:04.501Z",
+  "fetched_at": "2026-10-28T12:23:40.760Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/235233",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/dAfM-vfnt8lJ6hFvM6T2pner9VFuC04DbMvU3ObP5fYArXyhJrdsYT4fyEWZ3iBKl1L8JRPdA5n_Ysiv6QVqwwI1kmnowZWb9gVXCi9RXBvq2B1kdi4EJqC0klc7gy9GvR8ARJFpwIASnqJPfGmdRyRa9ZGmJsxwouyR4bec3bq90wzpnVLqe2oRRMHO81tLB1fFzv5tMGv6F88sP-mgbqE1h6dKCUkKOw2Dun8k8vz5ZXc2iIz2Z9PwzTNOZUv9uWOZ8fXN2qA8uAxAC_qDvuhJdSJfpWGrMTku1HSomSbq7twkH3N_jFffh-voFv908pZtxwQw_Fl8ICx3JBGhgg.jpg",
+      "author_photo_path": "channels/farsivoa/media/7e750170dd79ec2a12298253.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "برادر علی سیدی، از کشته‌شدگان اعتراضات ۱۴۰۱، در چهارمین سالگرد کشته شدن او ویدیویی منتشر کرد و گفت:‌ «ما در کشورمان می‌مانیم و می‌جنگیم و می‌سازیم.»<br><br>علی سیدی، ۲۵ ساله، چهارم آبان ۱۴۰۱ با گلوله ماموران حکومتی در پرند کشته شد.",
+      "plain_text": "برادر علی سیدی، از کشته‌شدگان اعتراضات ۱۴۰۱، در چهارمین سالگرد کشته شدن او ویدیویی منتشر کرد و گفت:‌ «ما در کشورمان می‌مانیم و می‌جنگیم و می‌سازیم.»\n\nعلی سیدی، ۲۵ ساله، چهارم آبان ۱۴۰۱ با گلوله ماموران حکومتی در پرند کشته شد.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/235233",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/crZhoOZk8zQCrPzf3TtiUBqpUMHIoOdouOjNBai7ytn51TsjEVG_VoWxNO3ltuqRJvQxMIxJ2cznixL2KurhLZhnTqlx1dMcZtS9YxTKeK8L-sVPEUQx2TIDzsmFvx_kgxQ2hA2OgukpSbFJM_Ef63gn0hgF4TGasWNJK1FyaX6rCKiiJEr0TNEKZVVloZ0I3rHCO4_1xjiEVFB2WZadd7Fef6ivnZw16hXL5RIo3nC9CF1ljl8n393u55RqVYbocdzXJw7SP6qpYpigZ2zq5YlySfBW51z8EOTcj1QY3OdGuqAuK07vz7mfru4BlxKBAyYbEJn-tQHPcuoHopyh-A",
+          "thumbnail_path": "channels/farsivoa/media/c9cc90fdb4e5cefaf1a1f2ad.jpg",
+          "thumbnail_sha256": "95a1ee928e8fd6282404417e25d1453ed2efeb18141876590980697b9dbaf93c",
+          "duration_label": "0:30",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "449",
+      "posted_at": "2026-10-28T12:16:52+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/235233",
+      "reply": null
+    },
+    {
       "id": "farsivoa/235232",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/dAfM-vfnt8lJ6hFvM6T2pner9VFuC04DbMvU3ObP5fYArXyhJrdsYT4fyEWZ3iBKl1L8JRPdA5n_Ysiv6QVqwwI1kmnowZWb9gVXCi9RXBvq2B1kdi4EJqC0klc7gy9GvR8ARJFpwIASnqJPfGmdRyRa9ZGmJsxwouyR4bec3bq90wzpnVLqe2oRRMHO81tLB1fFzv5tMGv6F88sP-mgbqE1h6dKCUkKOw2Dun8k8vz5ZXc2iIz2Z9PwzTNOZUv9uWOZ8fXN2qA8uAxAC_qDvuhJdSJfpWGrMTku1HSomSbq7twkH3N_jFffh-voFv908pZtxwQw_Fl8ICx3JBGhgg.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺تورم به مرز ۷۷ درصد رسید؛ روغن با ۲۵۵ درصد رکورددار تورم نقطه‌به‌نقطه\n\n▪️مرکز آمار ایران تورم نقطه‌به‌نقطه روغن در مهر را ۲۵۵ درصد و شیر، پنیر و تخم‌مرغ را ۱۵۴ درصد اعلام کرد. روغن با همین رقم از بالاترین گروه اصلی شاخص، یعنی دخانیات با ۱۶۳.۲ درصد، هم فراتر رفته است.\n\n▪️مقیاس تغییر را همین گزارش نشان می‌دهد. در شهریور ۱۴۰۴ تورم نقطه‌به‌نقطه روغن و چربی‌ها ۴۸.۷ درصد و شیر، پنیر و تخم‌مرغ ۴۶.۲ درصد بود. یعنی سرعت گرانی این دو قلم در یک سال بیش از سه برابر شده است.\n\n▪️شاخص کل در مهر تورم ماهانه ۴.۴ درصد، تورم نقطه‌به‌نقطه ۸۸.۷ درصد و تورم سالانه ۷۶.۸ درصد را ثبت کرد. تورم نقطه‌به‌نقطه در مناطق روستایی به ۱۰۷ درصد رسید و در مناطق شهری ۸۵.۵ درصد بود، یعنی ۲۱.۵ واحد درصد اختلاف.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/inflation-reached-77-percent-oil-with-255-percent-point-to-point-inflation-record/8216023.html",
       "media": [],
       "reactions": [],
-      "views_label": "864",
+      "views_label": "1.21K",
       "posted_at": "2026-10-28T11:58:31+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235232",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.21K",
+      "views_label": "1.47K",
       "posted_at": "2026-10-28T11:50:10+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235231",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.59K",
+      "views_label": "1.75K",
       "posted_at": "2026-10-28T11:41:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235230",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.77K",
+      "views_label": "1.93K",
       "posted_at": "2026-10-28T11:30:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235229",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.91K",
+      "views_label": "2.07K",
       "posted_at": "2026-10-28T11:20:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235228",
@@ -161,7 +189,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.19K",
+      "views_label": "2.32K",
       "posted_at": "2026-10-28T11:10:32+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235227",
@@ -189,7 +217,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.23K",
+      "views_label": "2.36K",
       "posted_at": "2026-10-28T11:01:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235226",
@@ -217,7 +245,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.43K",
+      "views_label": "2.5K",
       "posted_at": "2026-10-28T10:50:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235225",
@@ -245,7 +273,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.59K",
+      "views_label": "2.66K",
       "posted_at": "2026-10-28T10:41:09+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/235224",
@@ -273,7 +301,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.62K",
+      "views_label": "2.68K",
       "posted_at": "2026-10-28T10:30:28+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235223",
@@ -301,7 +329,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.75K",
+      "views_label": "2.82K",
       "posted_at": "2026-10-28T10:22:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235222",
@@ -329,7 +357,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.72K",
+      "views_label": "2.75K",
       "posted_at": "2026-10-28T10:13:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235221",
@@ -357,7 +385,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.05K",
+      "views_label": "3.08K",
       "posted_at": "2026-10-28T09:58:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235220",
@@ -373,7 +401,7 @@
       "plain_text": "🔺شرکت ملی گاز می‌گوید ۱۱ استان در خطر قطع گاز هستند\n\n▪️مدیر امور هماهنگی گازرسانی شرکت ملی گاز ایران زمستان پیش رو را دشوارتر از سال‌های گذشته خواند و گفت ظرفیت تولید گاز کشور نسبت به سال گذشته حدود ۱۳۰ میلیون مترمکعب کاهش یافته است.\n\n▪️صیدالی تولید گاز کشور را در سال گذشته حدود ۸۲۰ تا ۸۳۰ میلیون مترمکعب در روز برآورد کرد و تولید کنونی را بیش از ۷۰۰ میلیون مترمکعب خواند.\n\n▪️او پیش‌بینی اولیه را بروز مشکل در حدود ۱۱ استان دانست. سه استان خراسان شمالی، مازندران و گلستان شرایط دشوارتری دارند، چون هم در انتهای خطوط انتقال قرار گرفته‌اند و هم مصرفشان بالاست.\n\n▪️هشت استان دیگر عمدتاً در شمال‌غرب کشورند و بخش‌هایی از هر کدام ممکن است با محدودیت روبه‌رو شوند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8216019.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.24K",
+      "views_label": "3.31K",
       "posted_at": "2026-10-28T09:47:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235219",
@@ -389,7 +417,7 @@
       "plain_text": "🔺رویترز: میانجی‌های قطری در تهران پیش‌نویس توافقی تازه را برای پایان جنگ ارائه کردند\n\n▪️جمهوری اسلامی پیش‌نویس توافقی تازه را بررسی می‌کند و انتظار می‌رود تا پایان هفته پاسخ دهد. رویترز روز چهارشنبه با استناد به یک مقام مطلع از مذاکرات نوشت میانجی‌های قطری این پیش‌نویس را روز یکشنبه در نشستی در تهران ارائه کردند. محتوای پیش‌نویس منتشر نشده است.\n\n▪️این در حالی است که وال استریت ژورنال روز سه‌شنبه با استناد به افراد مطلع اعلام کرد آمریکا به چند کشور حاشیه خلیج فارس اطلاع داده برای عملیاتی کوتاه و شدید پس از انتخابات کنگره، آماده باشند.\n\n▪️بر این اساس، دونالد ترامپ هنوز تصمیم نگرفته اما به حمله‌ای بزرگ پس از انتخابات تمایل دارد، و تلاش میانجی‌های منطقه‌ای تا کنون نتیجه‌ای نداشته است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/qatari-mediators-present-iran-with-new-deal-to-end-the-war-official-says/8216021.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.53K",
+      "views_label": "3.6K",
       "posted_at": "2026-10-28T09:36:02+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235218",
@@ -417,7 +445,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.7K",
+      "views_label": "3.73K",
       "posted_at": "2026-10-28T09:19:44+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/235217",
@@ -445,7 +473,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.85K",
+      "views_label": "3.88K",
       "posted_at": "2026-10-28T09:08:24+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235216",
@@ -473,7 +501,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.95K",
+      "views_label": "3.98K",
       "posted_at": "2026-10-28T08:57:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235215",
@@ -501,7 +529,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.19K",
+      "views_label": "4.2K",
       "posted_at": "2026-10-28T08:22:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235214",
@@ -2526,34 +2554,6 @@
       "posted_at": "2026-10-27T14:10:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235131",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/235130",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/tUsex0PeTRbCAgMHjEYMdFWRdJziJ0fGaYris-bBNi_VNUQ8TFZLd_PxHc7YsYTujPer3YzS_0EQu532m0BbnZI8BGVq49XftDpmF0EHgOtwhVKhjDpFNowfwhstTelEt5gUDX09ODj_0U4JuurHLKehGZBgL7WMZlITrbPCwrZtuGUZsvjmCL2Dz9syYjldQxQWnaGBRV8QZhU2d8flOS6s0W3hSMoBmWE8gOzSIdPLli9eaKFu2qV8mfDwFciKFy2_q0kM7sysTfUTJccDPHRp0yf2RMNbPSQlHwbmyjbcn9ftU5yvl4XwfJM2jGXPUtc7_9CFX8hSPCrwdbnyAw.jpg",
-      "author_photo_path": "channels/farsivoa/media/925fc0891447b0744d072e43.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "معاون وزیر کار جمهوری اسلامی از بیکاری دست‌کم ۲.۵ میلیون نفر و خطر حذف ۱.۴ میلیون شغل تا پایان سال در صورت تداوم رشد اقتصادی منفی خبر داد. هم‌زمان، طرح اشتغال عمومی دولت به دلیل نداشتن بیمه تامین اجتماعی و حمایت‌های قانون کار با پرسش‌های جدی روبه‌رو شده است.",
-      "plain_text": "معاون وزیر کار جمهوری اسلامی از بیکاری دست‌کم ۲.۵ میلیون نفر و خطر حذف ۱.۴ میلیون شغل تا پایان سال در صورت تداوم رشد اقتصادی منفی خبر داد. هم‌زمان، طرح اشتغال عمومی دولت به دلیل نداشتن بیمه تامین اجتماعی و حمایت‌های قانون کار با پرسش‌های جدی روبه‌رو شده است.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/235130",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/iOhETZuMiZwFx56vTXINUcZxx8ZaY_JYh37_5n1s-l50K9cYkxPGHM3A7GKpH0IT9rI7Yti429KnEZijz-FAaSVw-KTeSD2K5ZMb_1kGRTWnDBjN4HrZ4rd6V6z6HLZ7g5cfARJd3Ap4RORimNdM3BEjgg7kbRoUu-I-MdrmhbvZUQiloMn7UVPLhsrIyCI1ZMqCR1vTw2DnqKjxQp2GOsgXcpYH5Xzx1oRvv3yhGM9xbThzC911jvHJwECCa96nFvAavT1_UU3s0igYnU8pRtmb7ru7EdLXewCaPfUGDVy-96dRuccyGY5V-TRebXwt7xr-1zs-XaKpNI3OOH-4UA",
-          "thumbnail_path": "channels/farsivoa/media/4cd26fc0dbcc408b15c672c3.jpg",
-          "thumbnail_sha256": "f6af330db5639dca430537c8b11ca6013fa0280d0c5877fe278a5cebf99d475e",
-          "duration_label": "3:48",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.02K",
-      "posted_at": "2026-10-27T14:04:23+00:00",
-      "edited": true,
-      "permalink": "https://t.me/farsivoa/235130",
       "reply": null
     }
   ]
