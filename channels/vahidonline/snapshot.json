@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-29T13:13:07.011Z",
+  "fetched_at": "2026-10-29T13:17:03.606Z",
   "channel": {
     "username": "vahidonline",
     "title": "Vahid Online وحید آنلاین",
@@ -20,6 +20,17 @@
       "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">'یک <a href=\"?q=%23%D8%A2%D8%AA%D8%B4%E2%80%8C%D8%B3%D9%88%D8%B2%DB%8C\">#آتش‌سوزی</a> بزرگ در بزرگراه <a href=\"?q=%23%D8%AA%D9%87%D8%B1%D8%A7%D9%86\">#تهران</a> کرج'<br>تصاویر دریافتی از شهروندان با شرح بالا<br>پنج‌شنبه ۷ آبان حدود ساعت ۱۶<br><a href=\"https://x.com/Vahid/status/2115787758753226984\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Vahid</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A1.png')\"><b>📡</b></i> <a href=\"https://t.me/VahidOnline\" target=\"_blank\">@VahidOnline</a></div>",
       "plain_text": "'یک #آتش‌سوزی بزرگ در بزرگراه #تهران کرج'\nتصاویر دریافتی از شهروندان با شرح بالا\nپنج‌شنبه ۷ آبان حدود ساعت ۱۶\nVahid\n\n📡 @VahidOnline",
       "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/VahidOnline/78886?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/bCuVJNAtazM0lXEg9Pcr809lnhmrCyadnpgXfD7YIjwLy7VLEyIRfntOW2zhHyozVTFLOw8eY66NuWZZJAonsM1EvE49TbaqvgLyzCQJplD41BiUzJd7wie1URGYYNzUSh7UX5XPUUceQwiXSMDG-aiNZnlvEXq8vo3hfooSP1t0g8MvMPMfZEIZW4GmpjMU34v1ugK0fU5u_aCGvJN3A7LmPC5U9ey-BP2ByxY_KEL9Dq5YVB7ssNQdAIVvlufTL3gIMwbqvNcDdP9NzSGHf9hZw8ZXqWlN06x1z_HMaX9gklRHzTMts_wTPDhp_0hpCMdEB8YoUxMj--sGcCTDVQ.jpg",
+          "thumbnail_path": "channels/vahidonline/media/5a0e810ab9de73216dc99718.jpg",
+          "thumbnail_sha256": "b5cc0f9ced05e396c277c51ed5836f238cec26c6b8f5136c0d41a33bea7e9d98",
+          "duration_label": null,
+          "aspect_ratio": 0.45
+        },
         {
           "kind": "photo",
           "asset_url": "https://t.me/VahidOnline/78887?single",
@@ -99,17 +110,6 @@
         },
         {
           "kind": "video",
-          "asset_url": "https://t.me/VahidOnline/78886?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/N0nRcQIa-rP4wLZNS86oH6v9OG3HVb_eiRRltlLPvphrY9qN50b3wlrmftjNBSKOf3LGGy7Iei2RU4h93sFIUjv1eEpaiZCMZPEvuRDkqpX8Sy7voTGx4dlG7tcSA0GNDFVbZR0mGocfhCwu9rcimaBXYtJTvLqGMGtK9RxYLlQFA6avUGNtzeEio56IDUGfoMSLD-2_IGsCZ5axcvyNbdlinW8pHDurw7bEZll4nXziQttrAOs50UW0CGGDXwC7mnhfNrNY9RICy1SnGYr2tJ-__4Ui3yL6p1BJc-EY6DbJ8QXHG97Uo2JzcpoImzr8RpYhzznSPhMfbvLA_4eeCQ",
-          "thumbnail_path": "channels/vahidonline/media/844743227a043bc51e5c3f0d.jpg",
-          "thumbnail_sha256": "59e7043b22ea8b28cb9c48a1a9cfb0dece1e20b331b6973298dc6109fc930866",
-          "duration_label": "0:14",
-          "aspect_ratio": null
-        },
-        {
-          "kind": "video",
           "asset_url": "https://t.me/VahidOnline/78888?single",
           "asset_path": null,
           "asset_sha256": null,
@@ -121,7 +121,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "41.7K",
+      "views_label": "46.1K",
       "posted_at": "2026-10-29T12:50:47+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/78884",
@@ -149,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "95.7K",
+      "views_label": "99K",
       "posted_at": "2026-10-29T11:51:17+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/78883",
@@ -177,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "88.4K",
+      "views_label": "91.7K",
       "posted_at": "2026-10-29T11:50:32+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/78882",
@@ -205,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "78K",
+      "views_label": "80.2K",
       "posted_at": "2026-10-29T11:49:52+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/78881",
@@ -233,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "79K",
+      "views_label": "80.2K",
       "posted_at": "2026-10-29T11:47:38+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/78880",
@@ -261,7 +261,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "73.8K",
+      "views_label": "76K",
       "posted_at": "2026-10-29T11:46:19+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/78879",
@@ -289,7 +289,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "82.4K",
+      "views_label": "83.6K",
       "posted_at": "2026-10-29T11:44:57+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/78878",
@@ -317,7 +317,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "87K",
+      "views_label": "89.2K",
       "posted_at": "2026-10-29T11:44:30+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/78877",
@@ -345,7 +345,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "268K",
+      "views_label": "269K",
       "posted_at": "2026-10-28T21:48:45+00:00",
       "edited": false,
       "permalink": "https://t.me/VahidOnline/78876",
@@ -401,7 +401,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "265K",
+      "views_label": "266K",
       "posted_at": "2026-10-28T20:29:47+00:00",
       "edited": true,
       "permalink": "https://t.me/VahidOnline/78874",
