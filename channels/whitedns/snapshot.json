@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-29T00:37:06.446Z",
+  "fetched_at": "2026-10-29T00:42:10.306Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2191",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/UydQzyWcD8h2JnAOjzJVN287CwdFrrvIitwSirlII6dIhcEBsX-KYACajgBrre9NhtG60WzvEkUkqmQ_BjqtgJbFdK7iWqfnWFKg7-6pEi8uwSpCaEdAQleHtcSN5PPJos0zYOzZBnNMbIYW-YMiHOk5UyVEl7VkegMcc0smJNJba8GjScsbTJB0VZlj0uDme4t_bIQ4Qm5sHBeh8h4Tm2DjGBMtek6UWLoMV036EfxSMGFhyy0tLQFwaxCG2jH0xSwTPEkk9hIh7Jsjchy8Bj3thb3zKoObkhzm75cCBErjNUNGNAWWJIjgiOq7sLXrRUk0q5yeLePfKLF22EplAw.jpg",
+      "author_photo_path": "channels/whitedns/media/01e84cbd010844c016375c56.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> <b>پنل 0.14.0 WhiteDNS Sever Management  منتشر شد</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9480.png')\"><b>🔀</b></i> <b>پراکسی مستقل برای هر موتور</b><br>برای Soar، Cotten و MasterDNS مسیر SOCKS5 یا HTTP/HTTPS CONNECT جدا تنظیم کنید؛ ورودی لوکال Xray و sing-box هم قابل استفاده است. خرابی پراکسی باعث برگشت خودکار به اتصال مستقیم نمی‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E9B.png')\"><b>🎛</b></i> <b>کنترل پورت‌های Upstream</b><br>پورت تکی، بازه یا پورت آزاد مخصوص مسیر پراکسی؛ محدودیت پورت مستقیم و Anti-Flood همچنان برقرارند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i> <b>گزارش ترافیک خروجی</b><br>موتور، حساب، IP و پورت مقصد، زمان و حجم؛ با بازهٔ زمانی دلخواه و دانلود CSV/JSON.<br>ثبت گزارش پیش‌فرض خاموش است؛ از تنظیمات فعالش کنید. HTTP CONNECT فقط TCP دارد. این گزارش‌ها تضمین جلوگیری از Abuse نیستند.<br>حساب‌ها، کلیدها، ساب و مصرف حفظ می‌شوند؛ پیش از ارتقا بکاپ بگیرید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/releases/tag/panel-v0.14.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ جدید</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/blob/main/docs/EGRESS.fa.md\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای کامل فارسی</a><br><a href=\"?q=%23WhiteDNS\">#WhiteDNS</a> <a href=\"?q=%23Soar\">#Soar</a><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">لینک وبسایت whitedns</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🟢 پنل 0.14.0 WhiteDNS Sever Management منتشر شد 🔥\n🔀 پراکسی مستقل برای هر موتور\nبرای Soar، Cotten و MasterDNS مسیر SOCKS5 یا HTTP/HTTPS CONNECT جدا تنظیم کنید؛ ورودی لوکال Xray و sing-box هم قابل استفاده است. خرابی پراکسی باعث برگشت خودکار به اتصال مستقیم نمی‌شود.\n🎛 کنترل پورت‌های Upstream\nپورت تکی، بازه یا پورت آزاد مخصوص مسیر پراکسی؛ محدودیت پورت مستقیم و Anti-Flood همچنان برقرارند.\n📊 گزارش ترافیک خروجی\nموتور، حساب، IP و پورت مقصد، زمان و حجم؛ با بازهٔ زمانی دلخواه و دانلود CSV/JSON.\nثبت گزارش پیش‌فرض خاموش است؛ از تنظیمات فعالش کنید. HTTP CONNECT فقط TCP دارد. این گزارش‌ها تضمین جلوگیری از Abuse نیستند.\nحساب‌ها، کلیدها، ساب و مصرف حفظ می‌شوند؛ پیش از ارتقا بکاپ بگیرید.\n📦 دانلود نسخهٔ جدید\n📖 راهنمای کامل فارسی\n#WhiteDNS #Soar\nلینک وبسایت whitedns\n@whitedns",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2191",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/YIMzPuJp92K5xBj5vu6bHhOVj5LHMQFV7f8c0rkM4LDtw9XhCVTqFlwBkuFRATmJ4Yqgn2LRryndNHAq7CC1bJ2CrjnIt7gGdP-NIOPUiqGgR9zdBwd-W7Q8hIB2hArI5Jasgt0MlhcCpB5eDdGs94ixpwkD4PUDCF-wqFwRoBSSr_AU3kUima6i5HiXW3OEuq5R4cVhSNgqwywuh7Zexy9UJZhrmeusQuA3JzOjijK3h-cG51rpX5NPK4zaIPGdDDavziM54RNR4tKYrjEsfEIvwEKRZUM417-o5t1oIxTaU8tpjEFwVhWjwNBZUh8mzAedcyhLof9jOmURdgBB4A.jpg",
+          "thumbnail_path": "channels/whitedns/media/7efbc9fa9538a543c101ddca.jpg",
+          "thumbnail_sha256": "4ad963fc06374ed4a553925670c2b6a39028448379fdd733b17fb9dad65ca3f1",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👎",
+          "count": "1"
+        }
+      ],
+      "views_label": "121",
+      "posted_at": "2026-10-29T00:38:40+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2191",
+      "reply": null
+    },
     {
       "id": "whitedns/2189",
       "author_name": "White DNS",
@@ -66,7 +99,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.04K",
+      "views_label": "8.09K",
       "posted_at": "2026-10-28T13:24:39+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2189",
@@ -123,7 +156,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.54K",
+      "views_label": "7.58K",
       "posted_at": "2026-10-28T12:59:43+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2188",
@@ -176,7 +209,7 @@
           "count": "2"
         }
       ],
-      "views_label": "9.68K",
+      "views_label": "9.71K",
       "posted_at": "2026-10-28T07:38:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2187",
@@ -233,7 +266,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.75K",
+      "views_label": "9.77K",
       "posted_at": "2026-10-28T06:28:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2185",
@@ -375,7 +408,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.5K",
+      "views_label": "12.6K",
       "posted_at": "2026-10-27T17:08:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2183",
@@ -5270,59 +5303,6 @@
       "posted_at": "2026-10-21T11:28:52+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2073",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2072",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/qM2ioZQ-unQptfBKzHbPSn3mCpf9V0fQMJczGO2S_BppVfK-JWInKyjYshJc_W_VmwekyHEXcSxM2v0zsuclgxITi-79opG8qEnp1i7a0-qqlIInrm8yOKVdj7WW22cUv2w-y-7DXa1wwd4SpUAAOVLUNhB1Nv3JXLnULkzneZwsKwLg3-Z7sEEd-4kwdWBafJCl3SarHoBlvsBuvKUmulEq1bhxfujeMwd2spCCE7-jSMTzSNon4nohJ2o5uUlnig63poZ_NQEovI4m_jKLjLPGOGZru7NbihHepeVaVvx_Lx0hTXfka41RGJoz3MgWPfbnOj2eitx4mes-U-HJyw.jpg",
-      "author_photo_path": "channels/whitedns/media/2662507bc918c6fd6ea3f2bc.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "بچه‌ها، همه اینا فعلا تست هستن تا بتونیم خودمون رو آماده کنیم و سرویس‌هامون رو زیر فشار و Load Test بررسی کنیم.<br><br>می‌دونیم که شاید الان یکم اذیت بشید، ولی نتیجه همه این تست‌ها کمک می‌کنه تا سرویس‌های پایدارتر و بهتری داشته باشیم و وقتی واقعا بهشون نیاز دارید، بتونیم بهتر کمکتون کنیم.<br><br>مرسی که تست می‌کنید، مشکلات رو گزارش می‌دید و از همه مهم‌تر، صبر و حوصله به خرج می‌دید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i><br><br>دم همتون گرم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i>",
-      "plain_text": "بچه‌ها، همه اینا فعلا تست هستن تا بتونیم خودمون رو آماده کنیم و سرویس‌هامون رو زیر فشار و Load Test بررسی کنیم.\n\nمی‌دونیم که شاید الان یکم اذیت بشید، ولی نتیجه همه این تست‌ها کمک می‌کنه تا سرویس‌های پایدارتر و بهتری داشته باشیم و وقتی واقعا بهشون نیاز دارید، بتونیم بهتر کمکتون کنیم.\n\nمرسی که تست می‌کنید، مشکلات رو گزارش می‌دید و از همه مهم‌تر، صبر و حوصله به خرج می‌دید. ❤️\n\nدم همتون گرم ❤️",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "371"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "28"
-        },
-        {
-          "emoji": "👍",
-          "count": "15"
-        },
-        {
-          "emoji": "🔥",
-          "count": "9"
-        },
-        {
-          "emoji": "🫡",
-          "count": "5"
-        },
-        {
-          "emoji": "🍓",
-          "count": "4"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "11.6K",
-      "posted_at": "2026-10-21T11:10:13+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2072",
       "reply": null
     }
   ]
