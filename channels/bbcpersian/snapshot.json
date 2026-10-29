@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-29T14:21:57.188Z",
+  "fetched_at": "2026-10-29T14:26:58.376Z",
   "channel": {
     "username": "bbcpersian",
     "title": "BBCPersian",
@@ -12,6 +12,50 @@
   },
   "posts": [
     {
+      "id": "bbcpersian/294284",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/eRVDKOHlKgykP-rA-Na6xFR-MQn5BX-Hz0lp9UnDEgwXZ_I1aQCMNT0TzXvILSlyUief0wV6tLszskgIr0pELzHDmdYWT8JoSOvghFPhP1T66GPJrQfRaHx1_0_lrRyaaecKeAy6J25e-LfZTAEXP9hgCS50lrVYIVFFE-ObWJtzp69RWAyCUAg_QxnuH7kdM65xKm7Bbv9_B6KO6UbmLHMUUWswWf4eH4tul0RFXl0Ohu1fA8X2ZsGhr7nGuRIy6Blv5AMIGw1ImdNvTNvz9mu22kAn3d9JTcaSyoqQVOuKahyoPPc9tJWuHwDfKx_6toqdgLhe4iFfqOjnTz4nkw.jpg",
+      "author_photo_path": "channels/bbcpersian/media/c19b4715a41340c2d8c21108.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>سرخط خبرهای پنجشنبه ۷ آبان ۱۴۰۵<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "🔻سرخط خبرهای پنجشنبه ۷ آبان ۱۴۰۵\n\n@BBCPersian",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/bbcpersian/294284",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/uxtNHD-dZSR1QXA6UIIdFSRyjaazrPSWP2lOyQMmz1YvaI-HroMXt7y9u8SqBtnSbf8n3Fc_a-1fSIFLWhZaPFyWEn93MKu3hg8MzTBvNegrWB-kKik_zpRanfndJdFqoWUayG6pEgsR_P0nHidwWiZ2y1kglx4lBqQb1rt-161cKuvgJhxI4agH6NHiw_kvFBzZx5LQu0icEioCmdTQr8XTMjBfDzQL8jLCRZWVuhqo85Wju5AnhuqJTDXCkO3mp7WFTTX6LIJS8FXVxZay8PVfBxnHvhTPIOxFZfaE1q96AMo0V5JX1MmQk9mcwsvFYdaYIA05Ue12cuH57lW-1w",
+          "thumbnail_path": "channels/bbcpersian/media/7491e4e18712ed0763b4e656.jpg",
+          "thumbnail_sha256": "b72ff183f2a32cb4d18b4a46d8aed7b9725fc919f3c85b8cdb220c273b4e866c",
+          "duration_label": "1:12",
+          "aspect_ratio": 1.7733990147783216
+        }
+      ],
+      "reactions": [],
+      "views_label": "3",
+      "posted_at": "2026-10-29T14:26:08+00:00",
+      "edited": false,
+      "permalink": "https://t.me/bbcpersian/294284",
+      "reply": null
+    },
+    {
+      "id": "bbcpersian/294283",
+      "author_name": "BBCPersian",
+      "author_photo_url": "https://cdn4.telesco.pe/file/eRVDKOHlKgykP-rA-Na6xFR-MQn5BX-Hz0lp9UnDEgwXZ_I1aQCMNT0TzXvILSlyUief0wV6tLszskgIr0pELzHDmdYWT8JoSOvghFPhP1T66GPJrQfRaHx1_0_lrRyaaecKeAy6J25e-LfZTAEXP9hgCS50lrVYIVFFE-ObWJtzp69RWAyCUAg_QxnuH7kdM65xKm7Bbv9_B6KO6UbmLHMUUWswWf4eH4tul0RFXl0Ohu1fA8X2ZsGhr7nGuRIy6Blv5AMIGw1ImdNvTNvz9mu22kAn3d9JTcaSyoqQVOuKahyoPPc9tJWuHwDfKx_6toqdgLhe4iFfqOjnTz4nkw.jpg",
+      "author_photo_path": "channels/bbcpersian/media/c19b4715a41340c2d8c21108.jpg",
+      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BB.png')\"><b>📻</b></i>تازه‌ترین خبرهای جهان، پنجشنبه، ۷ آبان ۱۴۰۵<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
+      "plain_text": "📻تازه‌ترین خبرهای جهان، پنجشنبه، ۷ آبان ۱۴۰۵\n\n@BBCPersian",
+      "media": [],
+      "reactions": [],
+      "views_label": "1.32K",
+      "posted_at": "2026-10-29T14:23:51+00:00",
+      "edited": true,
+      "permalink": "https://t.me/bbcpersian/294283",
+      "reply": null
+    },
+    {
       "id": "bbcpersian/294282",
       "author_name": "BBCPersian",
       "author_photo_url": "https://cdn4.telesco.pe/file/eRVDKOHlKgykP-rA-Na6xFR-MQn5BX-Hz0lp9UnDEgwXZ_I1aQCMNT0TzXvILSlyUief0wV6tLszskgIr0pELzHDmdYWT8JoSOvghFPhP1T66GPJrQfRaHx1_0_lrRyaaecKeAy6J25e-LfZTAEXP9hgCS50lrVYIVFFE-ObWJtzp69RWAyCUAg_QxnuH7kdM65xKm7Bbv9_B6KO6UbmLHMUUWswWf4eH4tul0RFXl0Ohu1fA8X2ZsGhr7nGuRIy6Blv5AMIGw1ImdNvTNvz9mu22kAn3d9JTcaSyoqQVOuKahyoPPc9tJWuHwDfKx_6toqdgLhe4iFfqOjnTz4nkw.jpg",
@@ -21,7 +65,7 @@
       "plain_text": "🔻چین برای کاهش پیامدهای جنگ ایران، افزایش قیمت بنزین و گازوئیل را محدود کرد\n\nدولت چین اعلام کرد که قیمت بنزین و گازوئیل را در بازار داخلی افزایش می‌دهد، اما برای کاهش فشار ناشی از افزایش بهای جهانی نفت در پی جنگ ایران، میزان این افزایش را محدود کرده است.\n\nبه گزارش رویترز، کمیسیون ملی توسعه و اصلاحات چین روز پنجشنبه اعلام کرد که از ۳۰ اکتبر، قیمت هر تن بنزین ۳۴۵ یوان، معادل حدود ۵۲ دلار، و قیمت هر تن گازوئیل ۳۳۵ یوان افزایش خواهد یافت.\n\nبر اساس سازوکار معمول قیمت‌گذاری سوخت در چین، بهای بنزین باید ۴۴۰ یوان و گازوئیل ۴۲۰ یوان در هر تن افزایش می‌یافت، اما دولت تصمیم گرفته است برای کاهش پیامدهای اقتصادی جنگ ایران، افزایش قیمت‌ها را کمتر از میزان تعیین‌شده اعمال کند.\n\nhttps://bbc.in/4iN2Zu8\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "1.97K",
+      "views_label": "4.25K",
       "posted_at": "2026-10-29T14:17:30+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294282",
@@ -49,7 +93,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.61K",
+      "views_label": "5.25K",
       "posted_at": "2026-10-29T14:12:55+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294281",
@@ -77,7 +121,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "17.4K",
+      "views_label": "18.8K",
       "posted_at": "2026-10-29T13:15:32+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294280",
@@ -105,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "22K",
+      "views_label": "23K",
       "posted_at": "2026-10-29T12:55:15+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294279",
@@ -133,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "22.3K",
+      "views_label": "23K",
       "posted_at": "2026-10-29T12:40:24+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294278",
@@ -161,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "28.8K",
+      "views_label": "29.4K",
       "posted_at": "2026-10-29T12:02:16+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294277",
@@ -177,7 +221,7 @@
       "plain_text": "💢کاخ سفید میان جنگ و رای\n🖌بهمن کلباسی، بی‌بی‌سی، نیویورک  \n\nرسانه‌های آمریکا روز چهارشنبه مجموعه‌ای از گزارش‌ها و تحلیل‌ها را درباره جنگ با ایران منتشر کردند. خبرگزاری رویترز، به نقل از اسنادی که به نوشته این رسانه از وزارت دفاع آمریکا درز کرده، گزارش داد هزینه نظامی این جنگ از ۴۷ میلیارد دلار فراتر رفته است.\n\nاما پرسش مهم‌تر این است که هزینه سیاسی جنگ برای دونالد ترامپ و حزب جمهوری‌خواه چه خواهد بود. پاسخ این پرسش احتمالا در نخستین ساعات بامداد چهارشنبه آینده و همزمان با روشن شدن نتایج انتخابات میان‌دوره‌ای آشکار می‌شود. اگر جمهوری‌خواهان اکثریت خود را در مجلس نمایندگان و حتی سنا از دست بدهند، بسیاری این نتیجه را پیامد مستقیم جنگ با ایران و نارضایتی رای‌دهندگان از افزایش قیمت‌ها و فشارهای اقتصادی ناشی از آن خواهند دانست.\n\nهمین نگرانی‌ها، به گفته ناظران، یکی از دلایل خودداری کاخ سفید از هرگونه تشدید درگیری پیش از انتخابات بوده است. در واقع، هزینه سیاسی جنگ به اندازه‌ای بالاست که دولت ترامپ ترجیح می‌دهد تا زمان رای‌گیری، بحران ایران بار دیگر به صدر اخبار بازنگردد.\n\nادامه مطلب⬇️\nhttps://bbc.in/4ySoOgW\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "26.2K",
+      "views_label": "26.9K",
       "posted_at": "2026-10-29T12:00:46+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294276",
@@ -193,7 +237,7 @@
       "plain_text": "🔻سپاه پاسداران از «سرنگونی یک پهپاد آمریکایی» در شرق تنگه هرمز خبر داد\n\nسپاه پاسداران انقلاب اسلامی می‌گوید که «یک فروند پهپاد آمریکایی از نوع ام‌کیو-۱» را در آسمان شرق تنگه هرمز رهگیری و سرنگون کرده است.\n\nبر اساس اطلاعیه روابط عمومی سپاه پاسداران این پهپاد صبح پنجشنبه در نزدیکی سواحل سیریک در استان هرمزگان، رهگیری و منهدم شده است.\n\nسپاه همچنین مدعی شده است که از آغاز جنگ آمریکا و اسرائیل با ایران در ماه فوریه، نیروهای ایرانی در مجموع ۵۴ فروند پهپاد آمریکایی از نوع ام‌کیو-۹ و ۱۴ فروند از نوع ام‌کیو-۱ را سرنگون کرده‌اند.\n\nهنوز مقام‌های آمریکایی به این گزارش واکنش نشان نداده‌اند.\n\nhttps://bbc.in/4A09S1g\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "26.2K",
+      "views_label": "26.9K",
       "posted_at": "2026-10-29T11:56:05+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294275",
@@ -221,7 +265,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "37.9K",
+      "views_label": "38.6K",
       "posted_at": "2026-10-29T10:26:48+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294274",
@@ -237,7 +281,7 @@
       "plain_text": "💢«فیلین»، موشک جدید روسیه؛ چرا برای اوکراین خطرناک است؟\n🖌ایلیا آبیشف\nتحلیلگر نظامی، بی‌بی‌سی روسی\n\nاز اواخر تابستان ۲۰۲۶، روسیه برای حمله به اوکراین از موشک کروز «فیلین» استفاده می‌کند؛ موشکی نسبتا کوچک و احتمالا کم‌هزینه، اما با مشخصات اعلام‌شده‌ای قابل توجه.\n\nهنوز اطلاعات کاملی درباره این موشک در دست نیست. تاکنون تصویری از بخشی آسیب‌دیده از یک موشک «فیلین» که ظاهرا سرنگون شده، در اینترنت منتشر شده است. همچنین اطلاعاتی کلی درباره ساختار، قطعات الکترونیکی و موتور آن نیز در ۲۲ اکتبر از سوی وزارت دفاع اوکراین منتشر شد.\n\nکارشناسان نظامی اتفاق‌نظر دارند که موشک‌های «فیلین» در صورتی که روسیه بتواند تولید انبوه آن‌ها را راه‌اندازی کند، قادر خواهند بود فشار بر سامانه پدافند هوایی اوکراین را به طور قابل توجهی افزایش دهند.\n\nدرباره این محصول جدید صنایع نظامی روسیه چه می‌دانیم و این موشک چه خطری برای اوکراین ایجاد می‌کند؟\n\nادامه مطلب⬇️\nhttps://bbc.in/4jMAOwu\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "40.4K",
+      "views_label": "40.8K",
       "posted_at": "2026-10-29T09:48:50+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294273",
@@ -265,7 +309,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "40.3K",
+      "views_label": "40.6K",
       "posted_at": "2026-10-29T09:25:48+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294272",
@@ -281,7 +325,7 @@
       "plain_text": "🔻کره جنوبی اعزام نیروهای رزمی به تنگه هرمز را رد کرد؛ اعزام هواپیمای گشت دریایی در دست بررسی است\n\nمشاور امنیت ملی کره جنوبی اعلام کرد که این کشور همچنان گزینه‌های مختلفی را برای حضور احتمالی در تنگه هرمز، از جمله اعزام یک هواپیمای گشت دریایی، بررسی می‌کند، اما اعزام نیروهای رزمی منتفی است.\n\nبه گزارش رویترز، وی سونگ‌لاک روز پنجشنبه در جلسه نظارتی یکی از کمیسیون‌های پارلمان کره جنوبی گفت که سئول همچنان درباره گزینه‌های احتمالی با واشنگتن در حال گفت‌وگو است.\n\nاو تاکید کرد که اعزام نیروهای رزمی، مطابق با موضعی که پیش‌تر لی جه‌میونگ، رئیس‌جمهور کره جنوبی، اعلام کرده بود، از دستور کار خارج شده است.\n\nhttps://bbc.in/48rUWgl\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "39.7K",
+      "views_label": "40.1K",
       "posted_at": "2026-10-29T09:06:20+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294271",
@@ -309,7 +353,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "38.9K",
+      "views_label": "39.2K",
       "posted_at": "2026-10-29T08:59:16+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294270",
@@ -325,7 +369,7 @@
       "plain_text": "🔻ترامپ در آستانه انتخابات میان‌دوره‌ای آمریکا؛ نارضایتی از جنگ ایران و هزینه‌های زندگی چالشی برای جمهوری‌خواهان\n\nدونالد ترامپ، رئیس‌جمهور آمریکا، شامگاه چهارشنبه ۲۸ اکتبر برای حمایت از نامزدهای حزب جمهوری‌خواه در انتخابات میان‌دوره‌ای سوم نوامبر، در یک گردهمایی انتخاباتی در ایالت اوهایو شرکت کرد.\n\nترامپ در این گردهمایی در کنار ویوک راماسوامی، نامزد جمهوری‌خواهان برای فرمانداری اوهایو، و جان هاستد، سناتور این ایالت، ظاهر شد. آقای هاستد در یکی از رقابت‌های حساس سنا با شرود براون، سناتور سابق دموکرات، رقابت می‌کند؛ انتخاباتی که نتیجه آن می‌تواند در حفظ اکثریت ۵۳ در برابر ۴۷ کرسی جمهوری‌خواهان در سنا تعیین‌کننده باشد.\n\nسخنرانی ترامپ برای مدتی کوتاه با اعتراض شماری از حاضران مختل شد. ماموران امنیتی چند نفر از معترضان، از جمله فردی را که درباره جفری اپستین فریاد می‌زد، از محل گردهمایی خارج کردند.\n\nاین گردهمایی در حالی برگزار شد که در آخرین هفته تبلیغات انتخابات میان‌دوره‌ای آمریکا، میزان محبوبیت ترامپ به یکی از پایین‌ترین سطوح خود نزدیک شده است. نارضایتی فزاینده آمریکایی‌ها از هزینه‌های بالای زندگی و جنگ با ایران، حفظ اکثریت جمهوری‌خواهان در مجلس نمایندگان و سنا را با چالش روبه‌رو کرده است.\n\nhttps://bbc.in/4srtF6Z\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "42K",
+      "views_label": "42.3K",
       "posted_at": "2026-10-29T08:17:49+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294269",
@@ -341,7 +385,7 @@
       "plain_text": "🔻پیامدهای جنگ ایران؛ بانک مرکزی اروپا میان مهار تورم و حمایت از اقتصاد\n\nبانک مرکزی اروپا روز پنجشنبه در حالی درباره نرخ بهره تصمیم می‌گیرد که افزایش قیمت انرژی در پی جنگ ایران و آمریکا، فشار تورمی بر اقتصاد کشورهای حوزه یورو را تشدید کرده است.\n\nبه گزارش خبرگزاری فرانسه، نرخ تورم منطقه یورو در سپتامبر به ۳/۸ درصد، بالاترین میزان در سه سال اخیر، رسید؛ رقمی که به‌مراتب بالاتر از هدف دو درصدی بانک مرکزی اروپاست.\n\nاین بانک که امسال دو بار نرخ بهره را افزایش داده، اکنون با این چالش روبه‌روست که چگونه بدون آسیب بیشتر به رشد اقتصادی، تورم ناشی از افزایش قیمت انرژی را مهار کند.\n\nانتظار می‌رود که بانک مرکزی اروپا در نشست امروز نرخ بهره را بدون تغییر نگه دارد، هرچند اقتصاددانان احتمال افزایش دوباره آن در ماه دسامبر را مطرح کرده‌اند.\n\nhttps://bbc.in/3W5Imkh\n@BBCPersian",
       "media": [],
       "reactions": [],
-      "views_label": "40.7K",
+      "views_label": "41.1K",
       "posted_at": "2026-10-29T08:09:56+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294268",
@@ -369,7 +413,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "39.3K",
+      "views_label": "39.7K",
       "posted_at": "2026-10-29T07:59:22+00:00",
       "edited": true,
       "permalink": "https://t.me/bbcpersian/294267",
@@ -2005,83 +2049,6 @@
       "posted_at": "2026-10-28T05:32:52+00:00",
       "edited": false,
       "permalink": "https://t.me/bbcpersian/294179",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/294178",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/nwCOkUfXlpsc2PMZDqwIlYX3YAyMTNNujYzrHeoAXEDeVQWt8rloEgX82NVH1tuB6SAj-fTgGbp3Yrtay-KpLepUP7fvGxyCGURDMemFzxHICN6_wFc7aRIceyW1d2KbpngH5UJFUBUgfz-cA0ZV1W53rBV6uUQFWis3WCsG5v924MjKxI6_zlY1-Lanev-o9V5tzzM6PyS2l7VBJM9jnZVyKnvRq0sNy5JM3ktqIfNB-fF-egojukXRQThCO4k5nrOxY9JACGoFybsCpq-2NcWhUorosmfamftu2u-buYaq0neTvQmapnsdGg_dn7XYxNQX2OBS89LusOGVa-cR-w.jpg",
-      "author_photo_path": "channels/bbcpersian/media/0ef9f98a99d7500290ed0783.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i><b>آیا برابری آراء دو جناح به نفع نتانیاهو تمام خواهد شد؟<br></b><br>هم‌زمان با اعلام تدریجی نتایج آرا، کانال ۱۲ اسرائيل، برتری کوچک ۵۲ بر ۴۹ را برای ائتلاف حزب لیکود، به رهبری بنیامین نتانیاهو پیش‌بینی کرد.<br><br>اما تا این لحظه، هیچ‌یک از طرفین به ۶۱ کرسی لازم برای کسب اکثریت در کنست ۱۲۰ نفره دست نیافتند.<br><br>این بن‌بست ممکن است به نفع آقای نتانیاهو تمام شود و او را در مقام نخست‌وزیر دولت انتقالی حفظ کند؛ به‌ویژه در دوره‌ای که احتمالاً مذاکرات برای تشکیل ائتلاف طولانی خواهد شد. مذاکراتی که حتی ممکن است تا زمان برگزاری انتخاباتی دیگر ادامه یابد.<br><br>پیش‌بینی می‌شود احزاب مذهبی راست‌گرای افراطی به رهبری ایتامار بن‌گویر و بزالل اسموتریچ، در مجموع ۱۳ کرسی را در درون جناح نتانیاهو به دست آورند؛ بدون آنکه هیچ‌یک از آن‌ها افزایش قابل‌توجهی در تعداد کرسی‌های خود داشته باشند.<br><br>این در حالی است که احزاب عربی که خارج از دو جناح اصلی قرار دارند، می‌توانند نقش تعیین‌کننده‌ای در توازن قدرت ایفا کنند.<br><br>اما گادی آیزنکوت، رهبر حزب یاشار و رئیس پیشین ستاد کل ارتش، تشکیل دولت با مشارکت احزاب عرب را تقریباً منتفی دانسته است؛ موضوعی که مسیر او را برای رسیدن به قدرت دشوارتر می‌کند.<br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a>",
-      "plain_text": "🔻آیا برابری آراء دو جناح به نفع نتانیاهو تمام خواهد شد؟\n\nهم‌زمان با اعلام تدریجی نتایج آرا، کانال ۱۲ اسرائيل، برتری کوچک ۵۲ بر ۴۹ را برای ائتلاف حزب لیکود، به رهبری بنیامین نتانیاهو پیش‌بینی کرد.\n\nاما تا این لحظه، هیچ‌یک از طرفین به ۶۱ کرسی لازم برای کسب اکثریت در کنست ۱۲۰ نفره دست نیافتند.\n\nاین بن‌بست ممکن است به نفع آقای نتانیاهو تمام شود و او را در مقام نخست‌وزیر دولت انتقالی حفظ کند؛ به‌ویژه در دوره‌ای که احتمالاً مذاکرات برای تشکیل ائتلاف طولانی خواهد شد. مذاکراتی که حتی ممکن است تا زمان برگزاری انتخاباتی دیگر ادامه یابد.\n\nپیش‌بینی می‌شود احزاب مذهبی راست‌گرای افراطی به رهبری ایتامار بن‌گویر و بزالل اسموتریچ، در مجموع ۱۳ کرسی را در درون جناح نتانیاهو به دست آورند؛ بدون آنکه هیچ‌یک از آن‌ها افزایش قابل‌توجهی در تعداد کرسی‌های خود داشته باشند.\n\nاین در حالی است که احزاب عربی که خارج از دو جناح اصلی قرار دارند، می‌توانند نقش تعیین‌کننده‌ای در توازن قدرت ایفا کنند.\n\nاما گادی آیزنکوت، رهبر حزب یاشار و رئیس پیشین ستاد کل ارتش، تشکیل دولت با مشارکت احزاب عرب را تقریباً منتفی دانسته است؛ موضوعی که مسیر او را برای رسیدن به قدرت دشوارتر می‌کند.\n@BBCPersian",
-      "media": [],
-      "reactions": [],
-      "views_label": "50.4K",
-      "posted_at": "2026-10-28T05:31:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/294178",
-      "reply": null
-    },
-    {
-      "id": "bbcpersian/294174",
-      "author_name": "BBCPersian",
-      "author_photo_url": "https://cdn4.telesco.pe/file/nwCOkUfXlpsc2PMZDqwIlYX3YAyMTNNujYzrHeoAXEDeVQWt8rloEgX82NVH1tuB6SAj-fTgGbp3Yrtay-KpLepUP7fvGxyCGURDMemFzxHICN6_wFc7aRIceyW1d2KbpngH5UJFUBUgfz-cA0ZV1W53rBV6uUQFWis3WCsG5v924MjKxI6_zlY1-Lanev-o9V5tzzM6PyS2l7VBJM9jnZVyKnvRq0sNy5JM3ktqIfNB-fF-egojukXRQThCO4k5nrOxY9JACGoFybsCpq-2NcWhUorosmfamftu2u-buYaq0neTvQmapnsdGg_dn7XYxNQX2OBS89LusOGVa-cR-w.jpg",
-      "author_photo_path": "channels/bbcpersian/media/0ef9f98a99d7500290ed0783.jpg",
-      "author_photo_sha256": "cf48535f60438757cd9b0534a23c038e85ac3e9a472bad98fdb8dd6f9211ad10",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>انتخابات روز سه شنبه در اسرائیل که با مشارکت ۷۷ درصدی مردم این کشور برگزار شد، اکنون به مرحله شمارش آرا و تعیین نتایج رسیده است.<br><br>هیچ حزبی تاکنون به‌تنهایی اکثریت مطلق کرسی‌های پارلمان اسرائیل را به دست نیاورده است؛ به همین دلیل، دولت‌ها همواره از طریق ائتلاف احزاب تشکیل شده‌اند.<br><br>پس از شمارش آرا، رئیس‌جمهور اسرائیل با رهبران احزاب مشورت می‌کند و سپس از فردی که به باور او بیشترین شانس را برای تشکیل دولت دارد، می‌خواهد ائتلافی تشکیل دهد.<br><br>این فرد ۲۸ روز فرصت دارد تا دولت تشکیل دهد و در صورت نیاز می‌تواند ۱۴ روز دیگر نیز مهلت بگیرد. اگر در این مدت مذاکرات به نتیجه نرسد، رئیس‌جمهور می‌تواند از نامزد دیگری بخواهد تشکیل دولت را امتحان کند.<br><br>پس از انتخابات سال ۲۰۲۲، حزب لیکود به رهبری بنیامین نتانیاهو با کسب ۳۲ کرسی از مجموع ۱۲۰ کرسی کنست، بزرگ‌ترین حزب شد. نتانیاهو سپس با چند حزب راست افراطی ائتلاف کرد و همراه با متحدانش اکثریت ۶۴ کرسی را در اختیار گرفت.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B7.png')\"><b>📷</b></i> <a href=\"https://images.tools.bbc.co.uk/search?query=credit%3AReuters&amp;amp;nonFree=true\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Reuters</a><br>EPA/Shutterstock/ Getty Images<br><br><a href=\"https://t.me/BBCPersian\" target=\"_blank\">@BBCPersian</a></div>",
-      "plain_text": "🔻انتخابات روز سه شنبه در اسرائیل که با مشارکت ۷۷ درصدی مردم این کشور برگزار شد، اکنون به مرحله شمارش آرا و تعیین نتایج رسیده است.\n\nهیچ حزبی تاکنون به‌تنهایی اکثریت مطلق کرسی‌های پارلمان اسرائیل را به دست نیاورده است؛ به همین دلیل، دولت‌ها همواره از طریق ائتلاف احزاب تشکیل شده‌اند.\n\nپس از شمارش آرا، رئیس‌جمهور اسرائیل با رهبران احزاب مشورت می‌کند و سپس از فردی که به باور او بیشترین شانس را برای تشکیل دولت دارد، می‌خواهد ائتلافی تشکیل دهد.\n\nاین فرد ۲۸ روز فرصت دارد تا دولت تشکیل دهد و در صورت نیاز می‌تواند ۱۴ روز دیگر نیز مهلت بگیرد. اگر در این مدت مذاکرات به نتیجه نرسد، رئیس‌جمهور می‌تواند از نامزد دیگری بخواهد تشکیل دولت را امتحان کند.\n\nپس از انتخابات سال ۲۰۲۲، حزب لیکود به رهبری بنیامین نتانیاهو با کسب ۳۲ کرسی از مجموع ۱۲۰ کرسی کنست، بزرگ‌ترین حزب شد. نتانیاهو سپس با چند حزب راست افراطی ائتلاف کرد و همراه با متحدانش اکثریت ۶۴ کرسی را در اختیار گرفت.\n\n📷 Reuters\nEPA/Shutterstock/ Getty Images\n\n@BBCPersian",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/294174?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/St_ITBLfmtZhhYCLJIJLzu11YR_o2BSBZ61iWZS6VYbihKPGfwNyLFmOokdXs6-2TMHJPtbsVeEpFIQ6XN5yGW93nYlz7AIAmqjPo2rSBkg3b12vz3wJ9b2guFx4SLDbDVdd9pKabfSD-cmRdI6ecBUAmRbpKolSsqDCSc0vowuY_QjQTYVXGDAPaGEOFO0-vMV5Uih13EeNIrJB-F6GkG5iAIyJumkmUuPgi3cD8S94g_weUPyzNtCxSA4kI2kjNAH0G6iM43pp-kmmR6RS1ShUgzFehTQgL6un8OaQjezpVKp6DlPEhHWUykcEvJ7K5iXwaatXqLXVRkiM2_5Ysg.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/561956c86b37df662ef2cd35.jpg",
-          "thumbnail_sha256": "2950d0aaa24a65ac7d31ae73fb4fa6d79d6740c1b626d98fe46be7be4347b511",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/294175?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/qJRel-RtINbyYOe8jsuCHyk9yLCW57Zih_JtECJP-uAhyxmQJqjdqyMDjEfpV9D3DOlPn269z7MVbfA57FnZ9geOvFeFowkrgTIsPrAtRi6vdN61Q7Tx9RRM-CaOh8tUXLhit2nikGFiiJJ1Qe_bQcbLnYASnPmCr8_K0i9WCrb34S4KypD2GcJqgN79WfN4ND3aGzMB8PH_TGBHIsBhzliO4tRttlYSPLFCYhkel5R3D2b-Hin9g8_IjPdgzE-VAwS1wbOVa7vZIKsAOkibc_o405c4G1Pes-HK1hLiMUc1DZ_wKnT-OdeL7efXxqPYaS-bK6uCXQEa2Qs35OfFOQ.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/05fee1bb8bd60c001804faed.jpg",
-          "thumbnail_sha256": "e9ee999561a0135cdcba5bd30321d405fc1a8068af9c445f3ad1f66eeabde618",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/294176?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/lB7Xpcz1SdkGSck75nhXzpCfAr1keq94CpzpNZ5hanc1rdOjTdrJJLR_xHOTsthDPUM7MAppuUT4i0orqKcLfBmwX3at8b8sq82E1jLEI_u4IQjO8nXCwuQNwY0KkqZ8bgd0VMhiuBrcfo_cLi1yyteaYP50I0rEos9ScerZatnK1VMDsqweviOkhKlSXJtsaS-L9xH1zH2pFLpTaHDOrwhMgn7lIZonVcDa_9NMxa9uiaObLKWmO9fN-fu7DTMmswXUaiF2Hghgx7ZxTn3aevoFcCjBMf_QF06ZhKlqVJbL6xf8KQykUKvkn4lyvkMr_Lw9IljkOrD6bSLPGIUXYA.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/ab0c7f7bb827a91ab51ede2d.jpg",
-          "thumbnail_sha256": "c114c478f64f27d0e3eb88673827b595171320addf1768a3c495aeb8506980ca",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/bbcpersian/294177?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/uLgfUIRXQuBzhSAn9g5pNmTIltjZ7GDX9sBBS-SyvlDe0lpr_gSYBs10dpzFYQAkT3g8uPLTLdytrawoIl0dmf7UK8K0ZzzIKjp14X_k4mR8M-iaBtqL7CM7tfx3_bGKTSB5IvACYWIg_Moc0aiWDR9T3tfgCHImQvjRM_v8KoNazSOxoi9zvzOJyrzYlF_rduYShtQH4_n1Ug0E3KbOarnaqzYZNzve-EcAjlQScK7OazL-ByDmTMZ03hSmvP4cDJcp8tf7GCWY524PW5QzvasdMiLPNTTdqcj5gNtweIXBs2a4rLSsHUe9rJg2S0G8U3tdcRG3orw0bdOn5H5iIg.jpg",
-          "thumbnail_path": "channels/bbcpersian/media/a8c46392a67105627e53e9b7.jpg",
-          "thumbnail_sha256": "130266c9bf18869053c091dd9b7c55df6ee588e1e1bae6bd715b05bbc65e8db6",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "46.8K",
-      "posted_at": "2026-10-28T05:23:41+00:00",
-      "edited": false,
-      "permalink": "https://t.me/bbcpersian/294174",
       "reply": null
     }
   ]
