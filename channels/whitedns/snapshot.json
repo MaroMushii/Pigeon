@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-29T00:52:24.476Z",
+  "fetched_at": "2026-10-29T00:57:18.839Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -17,8 +17,8 @@
       "author_photo_url": "https://cdn4.telesco.pe/file/UydQzyWcD8h2JnAOjzJVN287CwdFrrvIitwSirlII6dIhcEBsX-KYACajgBrre9NhtG60WzvEkUkqmQ_BjqtgJbFdK7iWqfnWFKg7-6pEi8uwSpCaEdAQleHtcSN5PPJos0zYOzZBnNMbIYW-YMiHOk5UyVEl7VkegMcc0smJNJba8GjScsbTJB0VZlj0uDme4t_bIQ4Qm5sHBeh8h4Tm2DjGBMtek6UWLoMV036EfxSMGFhyy0tLQFwaxCG2jH0xSwTPEkk9hIh7Jsjchy8Bj3thb3zKoObkhzm75cCBErjNUNGNAWWJIjgiOq7sLXrRUk0q5yeLePfKLF22EplAw.jpg",
       "author_photo_path": "channels/whitedns/media/01e84cbd010844c016375c56.jpg",
       "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> <b>پنل 0.14.0 WhiteDNS Sever Management  منتشر شد</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9480.png')\"><b>🔀</b></i> <b>پراکسی مستقل برای هر موتور</b><br>برای Soar، Cotten و MasterDNS مسیر SOCKS5 یا HTTP/HTTPS CONNECT جدا تنظیم کنید؛ ورودی لوکال Xray و sing-box هم قابل استفاده است. خرابی پراکسی باعث برگشت خودکار به اتصال مستقیم نمی‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E9B.png')\"><b>🎛</b></i> <b>کنترل پورت‌های Upstream</b><br>پورت تکی، بازه یا پورت آزاد مخصوص مسیر پراکسی؛ محدودیت پورت مستقیم و Anti-Flood همچنان برقرارند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i> <b>گزارش ترافیک خروجی</b><br>موتور، حساب، IP و پورت مقصد، زمان و حجم؛ با بازهٔ زمانی دلخواه و دانلود CSV/JSON.<br>ثبت گزارش پیش‌فرض خاموش است؛ از تنظیمات فعالش کنید. HTTP CONNECT فقط TCP دارد. این گزارش‌ها تضمین جلوگیری از Abuse نیستند.<br>حساب‌ها، کلیدها، ساب و مصرف حفظ می‌شوند؛ پیش از ارتقا بکاپ بگیرید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/releases/tag/panel-v0.14.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ جدید</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/blob/main/docs/EGRESS.fa.md\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای کامل فارسی</a><br><a href=\"?q=%23WhiteDNS\">#WhiteDNS</a> <a href=\"?q=%23Soar\">#Soar</a><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">لینک وبسایت whitedns</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🟢 پنل 0.14.0 WhiteDNS Sever Management منتشر شد 🔥\n🔀 پراکسی مستقل برای هر موتور\nبرای Soar، Cotten و MasterDNS مسیر SOCKS5 یا HTTP/HTTPS CONNECT جدا تنظیم کنید؛ ورودی لوکال Xray و sing-box هم قابل استفاده است. خرابی پراکسی باعث برگشت خودکار به اتصال مستقیم نمی‌شود.\n🎛 کنترل پورت‌های Upstream\nپورت تکی، بازه یا پورت آزاد مخصوص مسیر پراکسی؛ محدودیت پورت مستقیم و Anti-Flood همچنان برقرارند.\n📊 گزارش ترافیک خروجی\nموتور، حساب، IP و پورت مقصد، زمان و حجم؛ با بازهٔ زمانی دلخواه و دانلود CSV/JSON.\nثبت گزارش پیش‌فرض خاموش است؛ از تنظیمات فعالش کنید. HTTP CONNECT فقط TCP دارد. این گزارش‌ها تضمین جلوگیری از Abuse نیستند.\nحساب‌ها، کلیدها، ساب و مصرف حفظ می‌شوند؛ پیش از ارتقا بکاپ بگیرید.\n📦 دانلود نسخهٔ جدید\n📖 راهنمای کامل فارسی\n#WhiteDNS #Soar\nلینک وبسایت whitedns\n@whitedns",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> <b>پنل 0.14.0 WhiteDNS Sever Management  منتشر شد</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9480.png')\"><b>🔀</b></i> <b>پراکسی مستقل برای هر موتور</b><br>برای Soar، Cotten و MasterDNS مسیر SOCKS5 یا HTTP/HTTPS CONNECT جدا تنظیم کنید؛ ورودی لوکال Xray و sing-box هم قابل استفاده است. خرابی پراکسی باعث برگشت خودکار به اتصال مستقیم نمی‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8E9B.png')\"><b>🎛</b></i> <b>کنترل پورت‌های Upstream</b><br>پورت تکی، بازه یا پورت آزاد مخصوص مسیر پراکسی؛ محدودیت پورت مستقیم و Anti-Flood همچنان برقرارند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938A.png')\"><b>📊</b></i> <b>گزارش ترافیک خروجی</b><br>موتور، حساب، IP و پورت مقصد، زمان و حجم؛ با بازهٔ زمانی دلخواه و دانلود CSV/JSON.<br>ثبت گزارش پیش‌فرض خاموش است؛ از تنظیمات فعالش کنید. HTTP CONNECT فقط TCP دارد. این گزارش‌ها تضمین جلوگیری از Abuse نیستند.<br>حساب‌ها، کلیدها، ساب و مصرف حفظ می‌شوند؛ پیش از ارتقا بکاپ بگیرید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A6.png')\"><b>📦</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/releases/tag/panel-v0.14.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ جدید</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server/blob/main/docs/EGRESS.fa.md\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای کامل فارسی</a><br><a href=\"?q=%23WhiteDNS\">#WhiteDNS</a> <a href=\"?q=%23Soar\">#Soar</a><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">لینک وبسایت whitedns</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
+      "plain_text": "🟢 پنل 0.14.0 WhiteDNS Sever Management منتشر شد 🔥\n\n🔀 پراکسی مستقل برای هر موتور\nبرای Soar، Cotten و MasterDNS مسیر SOCKS5 یا HTTP/HTTPS CONNECT جدا تنظیم کنید؛ ورودی لوکال Xray و sing-box هم قابل استفاده است. خرابی پراکسی باعث برگشت خودکار به اتصال مستقیم نمی‌شود.\n🎛 کنترل پورت‌های Upstream\nپورت تکی، بازه یا پورت آزاد مخصوص مسیر پراکسی؛ محدودیت پورت مستقیم و Anti-Flood همچنان برقرارند.\n📊 گزارش ترافیک خروجی\nموتور، حساب، IP و پورت مقصد، زمان و حجم؛ با بازهٔ زمانی دلخواه و دانلود CSV/JSON.\nثبت گزارش پیش‌فرض خاموش است؛ از تنظیمات فعالش کنید. HTTP CONNECT فقط TCP دارد. این گزارش‌ها تضمین جلوگیری از Abuse نیستند.\nحساب‌ها، کلیدها، ساب و مصرف حفظ می‌شوند؛ پیش از ارتقا بکاپ بگیرید.\n📦 دانلود نسخهٔ جدید\n📖 راهنمای کامل فارسی\n#WhiteDNS #Soar\nلینک وبسایت whitedns\n@whitedns",
       "media": [
         {
           "kind": "photo",
@@ -38,13 +38,17 @@
           "count": "2"
         },
         {
+          "emoji": "❤",
+          "count": "1"
+        },
+        {
           "emoji": "👎",
           "count": "1"
         }
       ],
-      "views_label": "344",
+      "views_label": "421",
       "posted_at": "2026-10-29T00:38:40+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/whitedns/2191",
       "reply": null
     },
@@ -103,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.16K",
+      "views_label": "8.19K",
       "posted_at": "2026-10-28T13:24:39+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2189",
@@ -133,7 +137,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "169"
+          "count": "170"
         },
         {
           "emoji": "❤‍🔥",
@@ -160,7 +164,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.62K",
+      "views_label": "7.64K",
       "posted_at": "2026-10-28T12:59:43+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2188",
@@ -213,7 +217,7 @@
           "count": "2"
         }
       ],
-      "views_label": "9.75K",
+      "views_label": "9.77K",
       "posted_at": "2026-10-28T07:38:47+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2187",
@@ -270,7 +274,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.8K",
+      "views_label": "9.81K",
       "posted_at": "2026-10-28T06:28:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2185",
