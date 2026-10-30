@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-30T20:27:07.974Z",
+  "fetched_at": "2026-10-30T20:32:10.984Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,34 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5736",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/mjtYmBYz6PBzmL6BNtKJjrsnBQH4J0wKuFIbZt5Fwrj64ZJ4FDCjkB2xDAXM_Z-lmZMdVmK4TpvY0v3qmuOgT2QAuLYEpaNVEdk0NkJ4OIlRu37SAHhBoaRkESFm04lpiplpYO_eymQhtvCK1peqMXUQ-BUNwbGvNcems2mn8DO5FGhD-NX19aMPchWM8x5P4lTDR7Uh6tar5gO-VxKlLyaWC10EnyT4ev-8VXywGbptO55S4HOdl4hHS8pXr2orwwjZjMhat7qoSRbfNjbixO2OeoU1QfrI8xHkcuayg0rmAB5rRskRAlO6EDgvBDeMDt_A03X8UrnqNWFhb3xkmw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/ad86d925b85435c2a536cef5.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>ساخت ویدیو با Claude Code، بدون استفاده از انجین کروم</b><br><br>یه توسعه‌دهنده ابزاری ساخته به اسم Kinetograph که جای Remotion رو می‌گیره: به جای این که برای رندر هر فریم یه هدلس کروم بالا بیاد، کدهای React و TSX رو روی Node اجرا می‌کنه و فریم‌ها رو یه کامپوزیتور GPU که با Rust نوشته شده می‌سازه. اسکیل کلاد کد هم داره، یعنی فقط توضیح می‌دید ویدئو چی باشه و خودش کامپوننت‌ها رو می‌نویسه و رندر می‌گیره.<br><br>عددهای تست مقایسه‌ای خود سازنده روی مک M4:<br>۹۸۸ فریم: ریموشن ۱۳۱ ثانیه، کینتوگراف ۲۲ ثانیه<br>۱۱۸۴ فریم: ریموشن ۳۱.۵ ثانیه، کینتوگراف ۱۵ ثانیه<br><br>خود این ویدیویی که می‌بینید هم با همین ابزار ساخته شده. نصبش هم با:<br><blockquote>npx skills add 0xS4N4TG/kinetograph</blockquote><br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://www.reddit.com/r/ClaudeCode/comments/1xh1a8s/i_built_a_way_for_claude_code_to_generate_videos/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "ساخت ویدیو با Claude Code، بدون استفاده از انجین کروم\n\nیه توسعه‌دهنده ابزاری ساخته به اسم Kinetograph که جای Remotion رو می‌گیره: به جای این که برای رندر هر فریم یه هدلس کروم بالا بیاد، کدهای React و TSX رو روی Node اجرا می‌کنه و فریم‌ها رو یه کامپوزیتور GPU که با Rust نوشته شده می‌سازه. اسکیل کلاد کد هم داره، یعنی فقط توضیح می‌دید ویدئو چی باشه و خودش کامپوننت‌ها رو می‌نویسه و رندر می‌گیره.\n\nعددهای تست مقایسه‌ای خود سازنده روی مک M4:\n۹۸۸ فریم: ریموشن ۱۳۱ ثانیه، کینتوگراف ۲۲ ثانیه\n۱۱۸۴ فریم: ریموشن ۳۱.۵ ثانیه، کینتوگراف ۱۵ ثانیه\n\nخود این ویدیویی که می‌بینید هم با همین ابزار ساخته شده. نصبش هم با:\nnpx skills add 0xS4N4TG/kinetograph\n\n🔗منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/5736",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/oPkh7MCaz0ZGAldJYmM6b-ro12DV2-ubKhCkkrDIS0CGbkxbFuKL5g2lYImtanFQTSinmmyoGCKy5gw1BLBFZR20o32pvtRTQctes4fMlZnpuPCrVdlBfwSc-qq5vKHj1HzQtyE0pUa5ne0pU6qi-XTSbGn1lIzluTrPGXKxq-2ZUVXIGINnDoJtp0oEGcPmFlaCW0DlGMDKuVsUVCCfQKFZaeTmBTP34S7scNDhrSiItOrnsn6qnpnkiWHVqU5UOiVLoRsfIS6w_6U8qR3oNeHm4Noz8TeJOHKC236qodC-n9MLkDd7g6JvkcOBS1SS5w6ulbLSwQroMC6kcmKu5w",
+          "thumbnail_path": "channels/matinsenpaii/media/37d718ad6bf39b023eb68d16.jpg",
+          "thumbnail_sha256": "30bd62c87b9da028416d37e1634db30c472c3b7f81b55118ee73b9e46d1ad6c2",
+          "duration_label": "0:39",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "3",
+      "posted_at": "2026-10-30T20:31:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5736",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5735",
       "author_name": "Matin SenPai",
@@ -470,7 +498,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.6K",
       "posted_at": "2026-10-28T20:30:33+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5725",
@@ -4677,60 +4705,6 @@
         "thumbnail_path": "channels/matinsenpaii/media/2fd3957f41a7a1b8b53f2277.jpg",
         "thumbnail_sha256": "bd663e97838aae95087c20bd3c4a12febfe214a71418d2f4c06405c103a4002c",
         "permalink": "https://t.me/matinsenpaii/5332"
-      }
-    },
-    {
-      "id": "MatinSenPaii/5623",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/JRB5EEZX7HFzvdUrJ6qQCaK5RjqOqGjZ6XN44_gYZVvpz7gQiW_xVjt9xpBL-YsTHvQrNzuycbCIDhiHKvB8_sSP_cjjNcp4qIoQjsi3pkyEhqSEeLpU4J0aE36SfcC3mSlHAkIxtaKJjJGw1wsOccXxcGOTA4OWsiHcnWylxqizPoi1Hs_VVYyKCc9WJXUkiyPQDX1-esvPD_sI8ADtjaqsVcP0NBdofzOkNQxpv81Ayvx2i7sLKgSZnQWiry4dJEZzNfyxYecT9dAgsPpc-6rXxqfWQ6TLPL5RFJqr4bA4MG5E4y0wfynLljWP8HNis5B1JQrLABHH-mZgTDSJeA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/c2a68667a75d3ae5bd176a9e.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "مدل Space Bunny همون MiniMax M3.1 Flash بود.<br>برای 12 روز متوالی مدل تاپ OpenCode بود و برای سه روز بعدی هم رایگان می‌مونه<br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "مدل Space Bunny همون MiniMax M3.1 Flash بود.\nبرای 12 روز متوالی مدل تاپ OpenCode بود و برای سه روز بعدی هم رایگان می‌مونه\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5623",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/QSMV1A9SMAfekeniJHJrASW1HwVs0Jd2W_Qp_px8xElSa2p9voVwzPJfjrVI-ZOPYxpJdaDttTh7CrWVwJxu-5iPnhevrDIhwYJV3ltgblJRL8ZWeAXJy-b517DDJEKDarspTT63Mh7h2DPw7xaL3QJgFcgMLBQROCMZb_RvuMOLYPwTbEoKaawcOCC4iVKVx-XS-mPb4zDdsSl6-ipFXTbLPNWfVCevK71fUUn63e0eXhaL-b6P7eWnntZGBVgpjPNCjcJbUp4TAZhSWZH1iuekkh9sj3wLEhzpQOdifIj6qx9xNKvxIUQw2Tit2p2NqqkADlNwndTY2JFnsbqUXw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/00769fcd2ac0bb277da0b33f.jpg",
-          "thumbnail_sha256": "44ba6f84c741f232e12854683d5cefd07a46cb2a8442c33d610ac7a51f69e5e0",
-          "duration_label": null,
-          "aspect_ratio": 0.8399999999999933
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "135"
-        },
-        {
-          "emoji": "🦄",
-          "count": "9"
-        },
-        {
-          "emoji": "👍",
-          "count": "8"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        }
-      ],
-      "views_label": "28.3K",
-      "posted_at": "2026-10-19T19:45:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5623",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5619",
-        "author_name": "Matin SenPai",
-        "preview_text": "گویا مدل MiniMax M3.1-Flash اومده و با قیمت ورودی ۰٫۱۵ دلار · خروجی ۰٫۶۰ دلار · ورودی کش‌شده ۰٫۰۱۵ دلار وارد رقابت با Deepseek شده😁 ✉️ t.me/MatinSenPaii",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/qcNM0j6J7NqTDR4bN0tHi-yTLE4sXX6wLhAC6fIXph9IQCPwiXTSF94H0JwIVw9w2G3FA1nZwmkfZQSHb54iKA32tgJ9skb7_60k6nzCDS0gv5NBGF5YmrleHsma9bgc_GEl7_r_lcqcTISC1dnwgWhVlWkyKE5HMY51N_IYrQtZuHt45Mn60kmHT1sAPbUd7LRg1ehVOD7kiypDVJ2vR-STBo8-z-T4fArkEHejHzafg7lEyJkS7dbYuHvvRmtVnTbwdhuhOS23l6jj5adMZvERmZVkm94PBsG1fqVycp6Ip7VPQRLZdo2paPTatzqNtKfMa7PZWkZOeDenBJl4-g",
-        "thumbnail_path": "channels/matinsenpaii/media/45ae080abc609c1ce3071bc9.jpg",
-        "thumbnail_sha256": "1c644fd8b4455dac40dc450a48c1ed8d0757a66de18580d6d4eb8b506ecf9b49",
-        "permalink": "https://t.me/matinsenpaii/5619"
       }
     }
   ]
