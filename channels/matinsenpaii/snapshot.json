@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-30T10:09:55.162Z",
+  "fetched_at": "2026-10-30T10:12:03.832Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,31 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5735",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/BT--qelsCSaaIyZT27p6j9PDzARqdyzCpgVlr8V21y-UelwZfKqdbNouYjTlaoGeXp8KGk4SdlIYJZwKp6iRm0T3No_RRCEEllGHNXo5ATIjrS_-uXJbYFSe6DDFIrXw9hMEu2nq1K08ea6YgcRw_SA1F14h6WnGwDjppFZ8UASGPSjsa39n1rUmG69t8aad3O8_vLiJD8sl5aTVny73FjhBK090xbIvlAFWoc2Yq4MzWIoVEpg_NCch3Vd4QaKIvmCEdT6I5sJ3X661HKL0u5p0NGUr8HLZcqj0K8wyZUs-UVjWCH1fACl23JjQ3iPsAX19hcJ4YlrSqqdCw8mScw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/bf51a44abf82f242f1fbc7df.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>پروژه‌ی BLA؛ ابزاری که ایجنت‌های مهندسی معکوس AI(مثل REA) رو به بن‌بست می‌کشونه</b><br><br>الان با ابزارهایی مثل REA می‌شه یه فایل اجرایی یا باندل جاوااسکریپت رو داد به ایجنت هوش مصنوعی و ازش مهندسی معکوس گرفت.<br>و پروژه‌ی متن‌باز BLA دقیقا برای مقابله با همینه و شعارش هم جالبه: مهندسی معکوس رو دوباره ورشکست کن.<br><br>این BLA توی فایل‌های ریلیز پروژه‌تون سه لایه دفاع می‌ذاره.<br><b>اول طعمه:</b> کلیدهای جعلی، اینترفیس‌های الکی و منطق گمراه‌کننده که شبیه مدرک واقعی‌ان.<br><b>دوم خستگی:</b> فایل رو از سقف بودجه تحلیل REA رد می‌کنه تا آنالایزر به خطای ظرفیت و محدودیت بخوره. <br><b>سوم توهم:</b> ایجنت با یه عالمه سرنخ ناقص و بن‌بست می‌مونه و توکن‌هاش هم می‌سوزه، در حالی که رفتار خود برنامه برای کاربر نهایی هیچ فرقی نکرده.<br><br>سازنده باهاش REA واقعی رو تست کرده: باندل JS به سقف بودجه خورد، فایل Electron از حدود ۶۰۰ بایت رسید به ۱۷ مگابایت و خطای ظرفیت داد و خروجی WASM فقط ناقص خونده شد. روی ۱۴ نمونه هم رفتار نهایی برنامه‌ها عین اصل موند. البته منصفانه بگم، عددهای چندصد برابر شدن هزینه و توکن برآورد داخلی خود پروژه‌ست، نه اندازه‌گیری مستقل؛ چیزی که واقعاً ثبت شده همون خطاهای آنالایزره.<br><br>استفاده‌ش هم ساده‌ست و با Claude Code و Codex و Cursor کار می‌کنه:<br>npx bla-agents setup<br>npx bla-agents harden .<br><br>بحث‌های پیرامونش چیه؟ <br>1- خود ریپوی BLA متن‌بازه، پس می‌شه دادش به یه AI تا تله‌هاش رو یاد بگیره؛ و 2- اگه کسی مدل لوکال اجرا کنه، سوختن توکن دیگه هزینه‌ای نداره و عملاً فقط GPU طرف بیشتر کار می‌کنه؛ یعنی جلوی مهندسی معکوس رو نمی‌گیره، فقط کند و گرونش می‌کنه. یه عده هم کلا بدبینن و می‌گن همچین ابزاری بیشتر به درد فروشنده‌های نرم‌افزار می‌خوره تا کاربرها.<br><br>پروژه: <a href=\"http://github.com/qybaihe/bla\" target=\"_blank\" rel=\"noopener\">github.com/qybaihe/bla</a><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://x.com/qwerty__cs/status/2115749428703453558\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "پروژه‌ی BLA؛ ابزاری که ایجنت‌های مهندسی معکوس AI(مثل REA) رو به بن‌بست می‌کشونه\n\nالان با ابزارهایی مثل REA می‌شه یه فایل اجرایی یا باندل جاوااسکریپت رو داد به ایجنت هوش مصنوعی و ازش مهندسی معکوس گرفت.\nو پروژه‌ی متن‌باز BLA دقیقا برای مقابله با همینه و شعارش هم جالبه: مهندسی معکوس رو دوباره ورشکست کن.\n\nاین BLA توی فایل‌های ریلیز پروژه‌تون سه لایه دفاع می‌ذاره.\nاول طعمه: کلیدهای جعلی، اینترفیس‌های الکی و منطق گمراه‌کننده که شبیه مدرک واقعی‌ان.\nدوم خستگی: فایل رو از سقف بودجه تحلیل REA رد می‌کنه تا آنالایزر به خطای ظرفیت و محدودیت بخوره.\nسوم توهم: ایجنت با یه عالمه سرنخ ناقص و بن‌بست می‌مونه و توکن‌هاش هم می‌سوزه، در حالی که رفتار خود برنامه برای کاربر نهایی هیچ فرقی نکرده.\n\nسازنده باهاش REA واقعی رو تست کرده: باندل JS به سقف بودجه خورد، فایل Electron از حدود ۶۰۰ بایت رسید به ۱۷ مگابایت و خطای ظرفیت داد و خروجی WASM فقط ناقص خونده شد. روی ۱۴ نمونه هم رفتار نهایی برنامه‌ها عین اصل موند. البته منصفانه بگم، عددهای چندصد برابر شدن هزینه و توکن برآورد داخلی خود پروژه‌ست، نه اندازه‌گیری مستقل؛ چیزی که واقعاً ثبت شده همون خطاهای آنالایزره.\n\nاستفاده‌ش هم ساده‌ست و با Claude Code و Codex و Cursor کار می‌کنه:\nnpx bla-agents setup\nnpx bla-agents harden .\n\nبحث‌های پیرامونش چیه؟\n1- خود ریپوی BLA متن‌بازه، پس می‌شه دادش به یه AI تا تله‌هاش رو یاد بگیره؛ و 2- اگه کسی مدل لوکال اجرا کنه، سوختن توکن دیگه هزینه‌ای نداره و عملاً فقط GPU طرف بیشتر کار می‌کنه؛ یعنی جلوی مهندسی معکوس رو نمی‌گیره، فقط کند و گرونش می‌کنه. یه عده هم کلا بدبینن و می‌گن همچین ابزاری بیشتر به درد فروشنده‌های نرم‌افزار می‌خوره تا کاربرها.\n\nپروژه: github.com/qybaihe/bla\n🔗منبع\n\n✉️ t.me/MatinSenPaii",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "🆒",
+          "count": "1"
+        }
+      ],
+      "views_label": "127",
+      "posted_at": "2026-10-30T10:11:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5735",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5734",
       "author_name": "Matin SenPai",
@@ -42,7 +67,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.44K",
+      "views_label": "8.47K",
       "posted_at": "2026-10-30T07:29:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5734",
@@ -95,7 +120,7 @@
           "count": "2"
         }
       ],
-      "views_label": "15K",
+      "views_label": "15.1K",
       "posted_at": "2026-10-30T06:16:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5733",
@@ -113,7 +138,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "179"
+          "count": "180"
         },
         {
           "emoji": "❤",
@@ -741,7 +766,7 @@
       "reply": {
         "channel_username": "matinsenpaii",
         "post_id": "5716",
-        "author_name": "",
+        "author_name": "Rick Sanchez 🤍 ریک سانچز",
         "preview_text": "9روتر باگ داره!!! اگر توکن‌هاتون زود تموم میشه و ۹روتر روی سرور دارید مشکل از این باگه :) دهن سوریسا سشن پرووایدر رو کپی میکنن و سه سوت خالی میکننش انگار توکن هارو ذخیره می‌کنند 😂 اخه نمیشه انقدر با سرعت بالا مصرف کرد",
         "thumbnail_url": null,
         "thumbnail_path": null,
@@ -4687,43 +4712,6 @@
         "thumbnail_sha256": "1c644fd8b4455dac40dc450a48c1ed8d0757a66de18580d6d4eb8b506ecf9b49",
         "permalink": "https://t.me/matinsenpaii/5619"
       }
-    },
-    {
-      "id": "MatinSenPaii/5622",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/JRB5EEZX7HFzvdUrJ6qQCaK5RjqOqGjZ6XN44_gYZVvpz7gQiW_xVjt9xpBL-YsTHvQrNzuycbCIDhiHKvB8_sSP_cjjNcp4qIoQjsi3pkyEhqSEeLpU4J0aE36SfcC3mSlHAkIxtaKJjJGw1wsOccXxcGOTA4OWsiHcnWylxqizPoi1Hs_VVYyKCc9WJXUkiyPQDX1-esvPD_sI8ADtjaqsVcP0NBdofzOkNQxpv81Ayvx2i7sLKgSZnQWiry4dJEZzNfyxYecT9dAgsPpc-6rXxqfWQ6TLPL5RFJqr4bA4MG5E4y0wfynLljWP8HNis5B1JQrLABHH-mZgTDSJeA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/c2a68667a75d3ae5bd176a9e.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>انتشار پروتکل متن‌باز WhatsApp MCP برای اتصال دستیارهای هوش مصنوعی به پیام‌ها</b><br><br>پروژه متن‌باز جدید whatsapp-mcp امکان دسترسی خواندنی (Read-only) به پیام‌ها و تاریخچه چت‌های واتس‌اپ را از طریق پروتکل کانتکست مدل (MCP) برای ایجنت‌هایی مثل Claude Code و Claude Desktop فراهم می‌کند. این ابزار بدون نیاز به حساب تجاری (WhatsApp Business) یا سرور اختصاصی، به عنوان یک سرور سبک و مستقل روی سرویس Cloudflare Workers اجرا می‌شود؛ کاربر تنها یک‌بار مشابه واتس‌اپ وب گوشی خود را متصل می‌کند و پیام‌ها به شکل رمزگذاری‌شده در دیتابیس محلی SQLite درون Durable Object ذخیره می‌شوند. ایجنت هوش مصنوعی می‌تواند محتوای چت‌ها، نام مخاطبان و موضوعات قبلی را جستجو کرده و خلاصه کند، بدون اینکه امکان ارسال پیام یا دسترسی بیرونی وجود داشته باشد.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://github.com/finereli/whatsapp-mcp\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "انتشار پروتکل متن‌باز WhatsApp MCP برای اتصال دستیارهای هوش مصنوعی به پیام‌ها\n\nپروژه متن‌باز جدید whatsapp-mcp امکان دسترسی خواندنی (Read-only) به پیام‌ها و تاریخچه چت‌های واتس‌اپ را از طریق پروتکل کانتکست مدل (MCP) برای ایجنت‌هایی مثل Claude Code و Claude Desktop فراهم می‌کند. این ابزار بدون نیاز به حساب تجاری (WhatsApp Business) یا سرور اختصاصی، به عنوان یک سرور سبک و مستقل روی سرویس Cloudflare Workers اجرا می‌شود؛ کاربر تنها یک‌بار مشابه واتس‌اپ وب گوشی خود را متصل می‌کند و پیام‌ها به شکل رمزگذاری‌شده در دیتابیس محلی SQLite درون Durable Object ذخیره می‌شوند. ایجنت هوش مصنوعی می‌تواند محتوای چت‌ها، نام مخاطبان و موضوعات قبلی را جستجو کرده و خلاصه کند، بدون اینکه امکان ارسال پیام یا دسترسی بیرونی وجود داشته باشد.\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "75"
-        },
-        {
-          "emoji": "❤",
-          "count": "36"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        },
-        {
-          "emoji": "🆒",
-          "count": "2"
-        }
-      ],
-      "views_label": "27.8K",
-      "posted_at": "2026-10-19T16:29:02+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5622",
-      "reply": null
     }
   ]
 }
