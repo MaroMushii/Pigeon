@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-31T08:02:04.462Z",
+  "fetched_at": "2026-10-31T08:11:12.227Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,36 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5738",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/mjtYmBYz6PBzmL6BNtKJjrsnBQH4J0wKuFIbZt5Fwrj64ZJ4FDCjkB2xDAXM_Z-lmZMdVmK4TpvY0v3qmuOgT2QAuLYEpaNVEdk0NkJ4OIlRu37SAHhBoaRkESFm04lpiplpYO_eymQhtvCK1peqMXUQ-BUNwbGvNcems2mn8DO5FGhD-NX19aMPchWM8x5P4lTDR7Uh6tar5gO-VxKlLyaWC10EnyT4ev-8VXywGbptO55S4HOdl4hHS8pXr2orwwjZjMhat7qoSRbfNjbixO2OeoU1QfrI8xHkcuayg0rmAB5rRskRAlO6EDgvBDeMDt_A03X8UrnqNWFhb3xkmw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/ad86d925b85435c2a536cef5.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "از حرف‌های سازنده توی ریپلای‌ها، این نکات رو برداشتم که بهتون توضیح بدم:<br><br>۱- خود ویدئوی معرفی(که بالا فرستادم)، کاملا لوکال ساخته شده. ویس‌اور با Qwen TTS، sfx رو کلاد با API صدای خود ابزار نوشته و بیشتر تصویرها و افکت‌ها رو هم کلاد روی Canvas ساخته؛ فقط کلیپ‌های چند ثانیه اول از یه سایت استوک دانلود شدن. کد کامل فیلم معرفی هم توی مثال‌های ریپوی گیت‌هاب هست.<br><br>۲- هزینه‌ی اضافه‌ای نداره، فقط همون اشتراک LLMای که دارید. ساخت تصویر توش نیست؛ یا با Codex تصویر می‌سازید، یا Claude یا LLM دیگه‌ای، SVG تولید می‌کنه. برای صداگذاری کامل هم مدل محلی‌ای مثل Qwen TTS جواب می‌ده. که ما میتونیم از گوگل استفاده کنیم.<br><br>۳- پروژه از صفر نوشته نشده؛ و به نظرم این نکته‌ی مهمیه که بهتون میگم چرا. پروژه روی سه تا پروژه‌ی سنگین Stylo و Blitz و Parley سواره و رندر GPU با Skia انجام می‌شه. موقع توسعه، خروجی رو با رندر کروم مقایسه می‌کردن و کد رو اصلاح می‌کردن. دلیلی هم که مهمه اینه که از صفر وایب کد کردنِ چیزی که همین الان وجود داره، ارزشی نداره. هنر اینه که از ابزارهای موجود استفاده کنیم و چیز جدیدتری بسازیم که یه مشکل واقعی رو حل کنه.<br><br>۴- با fframes فرق داره: اون پروژه، ویدئو رو با کد Rust می‌سازه، ولی این جایگزین مستقیم پروژه‌های آماده Remotion و HyperFrames هست و نسخه آخرش فایل‌های html هایپرفریمز هم رندر می‌کنه.",
+      "plain_text": "از حرف‌های سازنده توی ریپلای‌ها، این نکات رو برداشتم که بهتون توضیح بدم:\n\n۱- خود ویدئوی معرفی(که بالا فرستادم)، کاملا لوکال ساخته شده. ویس‌اور با Qwen TTS، sfx رو کلاد با API صدای خود ابزار نوشته و بیشتر تصویرها و افکت‌ها رو هم کلاد روی Canvas ساخته؛ فقط کلیپ‌های چند ثانیه اول از یه سایت استوک دانلود شدن. کد کامل فیلم معرفی هم توی مثال‌های ریپوی گیت‌هاب هست.\n\n۲- هزینه‌ی اضافه‌ای نداره، فقط همون اشتراک LLMای که دارید. ساخت تصویر توش نیست؛ یا با Codex تصویر می‌سازید، یا Claude یا LLM دیگه‌ای، SVG تولید می‌کنه. برای صداگذاری کامل هم مدل محلی‌ای مثل Qwen TTS جواب می‌ده. که ما میتونیم از گوگل استفاده کنیم.\n\n۳- پروژه از صفر نوشته نشده؛ و به نظرم این نکته‌ی مهمیه که بهتون میگم چرا. پروژه روی سه تا پروژه‌ی سنگین Stylo و Blitz و Parley سواره و رندر GPU با Skia انجام می‌شه. موقع توسعه، خروجی رو با رندر کروم مقایسه می‌کردن و کد رو اصلاح می‌کردن. دلیلی هم که مهمه اینه که از صفر وایب کد کردنِ چیزی که همین الان وجود داره، ارزشی نداره. هنر اینه که از ابزارهای موجود استفاده کنیم و چیز جدیدتری بسازیم که یه مشکل واقعی رو حل کنه.\n\n۴- با fframes فرق داره: اون پروژه، ویدئو رو با کد Rust می‌سازه، ولی این جایگزین مستقیم پروژه‌های آماده Remotion و HyperFrames هست و نسخه آخرش فایل‌های html هایپرفریمز هم رندر می‌کنه.",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "9"
+        }
+      ],
+      "views_label": "1.61K",
+      "posted_at": "2026-10-31T08:06:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5738",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "5736",
+        "author_name": "Matin SenPai",
+        "preview_text": "ساخت ویدیو با Claude Code، بدون استفاده از انجین کروم یه توسعه‌دهنده ابزاری ساخته به اسم Kinetograph که جای Remotion رو می‌گیره: به جای این که برای رندر هر فریم یه هدلس کروم بالا بیاد، کدهای React و TSX رو روی Node اجرا می‌کنه و فریم‌ها رو یه کامپوزیتور GPU…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/PAWWYR5sCdWHyGasS76QEbKnVXMJwrJ5GyBbRqocTZ6MACdhAXjQwP9-vkeLdDsRSzUUiVyJMy8qC26MKzo_2QGVouUlBCa-jPD5c6hALNLgIpOrdDFDRkDwa-kxvqBGEpGSoUjH4cqfNfAXxNtMgU-Xf-L_Ivd_8c35jR0yFDf-v99DEdP0RbP3G-pKahnbwnZFkdbzmUlKApK4XbVG9XeRvUtBVlf3pBiu8Fp6YdMaFBLlWiLq_V4sTwloI3iIkJJ0sF04aq78UgJcGYddQh67dkmQZS6aXNsdGfbZJCuP4xtyhuACxU4JPXRsQPQNKD7BWoqfi2CVEEjjYLZ06Q",
+        "thumbnail_path": "channels/matinsenpaii/media/bd876e8d743177bbaa5b7408.jpg",
+        "thumbnail_sha256": "30bd62c87b9da028416d37e1634db30c472c3b7f81b55118ee73b9e46d1ad6c2",
+        "permalink": "https://t.me/matinsenpaii/5736"
+      }
+    },
     {
       "id": "MatinSenPaii/5737",
       "author_name": "Matin SenPai",
@@ -27,14 +57,14 @@
         },
         {
           "emoji": "❤",
-          "count": "21"
+          "count": "22"
         },
         {
           "emoji": "🦄",
           "count": "4"
         }
       ],
-      "views_label": "16.5K",
+      "views_label": "17K",
       "posted_at": "2026-10-30T20:46:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5737",
@@ -77,7 +107,7 @@
         },
         {
           "emoji": "❤",
-          "count": "103"
+          "count": "108"
         },
         {
           "emoji": "👍",
@@ -88,7 +118,7 @@
           "count": "12"
         }
       ],
-      "views_label": "18.3K",
+      "views_label": "18.7K",
       "posted_at": "2026-10-30T20:31:10+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5736",
@@ -110,7 +140,7 @@
         },
         {
           "emoji": "❤",
-          "count": "131"
+          "count": "133"
         },
         {
           "emoji": "👍",
@@ -133,7 +163,7 @@
           "count": "3"
         }
       ],
-      "views_label": "22.5K",
+      "views_label": "22.7K",
       "posted_at": "2026-10-30T10:11:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5735",
@@ -155,7 +185,7 @@
         },
         {
           "emoji": "❤",
-          "count": "146"
+          "count": "147"
         },
         {
           "emoji": "👍",
@@ -174,7 +204,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.7K",
+      "views_label": "18.8K",
       "posted_at": "2026-10-30T07:29:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5734",
@@ -204,7 +234,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "140"
+          "count": "141"
         },
         {
           "emoji": "❤",
@@ -260,7 +290,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.2K",
+      "views_label": "26.3K",
       "posted_at": "2026-10-29T19:11:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5732",
@@ -369,7 +399,7 @@
           "count": "2"
         }
       ],
-      "views_label": "30.3K",
+      "views_label": "30.4K",
       "posted_at": "2026-10-29T13:45:01+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5729",
@@ -403,7 +433,7 @@
         },
         {
           "emoji": "❤",
-          "count": "39"
+          "count": "40"
         },
         {
           "emoji": "😁",
@@ -418,7 +448,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.9K",
+      "views_label": "30K",
       "posted_at": "2026-10-29T08:23:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5728",
@@ -452,7 +482,7 @@
         },
         {
           "emoji": "😁",
-          "count": "1.5K"
+          "count": "1.51K"
         },
         {
           "emoji": "👍",
@@ -505,7 +535,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "183"
+          "count": "184"
         },
         {
           "emoji": "👍",
@@ -520,7 +550,7 @@
           "count": "6"
         }
       ],
-      "views_label": "30.4K",
+      "views_label": "30.5K",
       "posted_at": "2026-10-29T04:02:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5726",
@@ -735,7 +765,7 @@
           "count": "1"
         }
       ],
-      "views_label": "32.2K",
+      "views_label": "32.3K",
       "posted_at": "2026-10-28T13:59:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5720",
@@ -784,7 +814,7 @@
           "count": "4"
         }
       ],
-      "views_label": "29.8K",
+      "views_label": "29.9K",
       "posted_at": "2026-10-28T06:18:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5719",
@@ -4682,55 +4712,6 @@
         "thumbnail_sha256": "7a997de0586eb98be6f31d63f1a63df6a8aa90533cd11f4e39924e2a8287fc9c",
         "permalink": "https://t.me/matinsenpaii/5623"
       }
-    },
-    {
-      "id": "MatinSenPaii/5625",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/rZ8hBtmsaDl8-OE2yMIe-1E0ey0O4GJB24BHd6QkWDmMo_EQjwL4AH2DK6aGdEAcbEvB4cCn39wK_brL5zq9ht6CdTBzUK5heR1Yy8VR_B55KF3JusrLHpSxESX8SE2x3w4TB95GP1F5HuM0pQvOy6pEVQSu4q0aXzL4gQ-XRXOwaQSkstQZSzs-P1nrjvDZ70WUropv1dScy_wCmOYblfY_ZdP8YZln0K6nF__KGYH-XqFDRNGkad5IbjPLjS0XMoaWRfNKdDezRXtPg4KPkdeMahCLX2uCzokYtYeTxx8JmlVEPPK1fBYwVN2uAolGSchx-DsRZUrDfStUGWleRA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/18a3828589b2f42beefd246b.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "استفاده از دیپ‌سیک 4.1 فلش 1017 برای ساخت پلیکان معروفمون:<br>- ویدئوی بالا هارنس اوپن کد<br>- ویدئوی پایین با استفاده از Deepseek Harness <br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://x.com/ai_funss/status/2112158264087417234\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "استفاده از دیپ‌سیک 4.1 فلش 1017 برای ساخت پلیکان معروفمون:\n- ویدئوی بالا هارنس اوپن کد\n- ویدئوی پایین با استفاده از Deepseek Harness\n\n🔗منبع\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/MatinSenPaii/5625",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/l2CYqSxHPI5wxGKqsmqTtwZds1NHFSD8YuL6MilmZmQeOpOwC44wsbZalZTiX98_MQRiT5YFyCq8mbkeqohyFMJ06BAzCzvURILIOvo57IbbCHQ4RjFKQ9EY83q5dsiJPDAAuPSiJ3rG-3iLZLnbV-ruyRmbV07pl1QHCvBDlYZ2FAy4TiO116suqHQeeQw-z8Hr-Ct4ZwELyAcpg_I0uWt6YTNgZs1DWxi5PD6xDs6dRMJIgoHQlYUP3CYRTPRllR9ATWqApUNk55LO63X6UBt-V_kHtY6edsE_nCH2Xp_0UoTyNF4HcmT0EgWRcfDmf3mI4oiifEGDvo-haHkCKA",
-          "thumbnail_path": "channels/matinsenpaii/media/2c5542a493b0ad662a113505.jpg",
-          "thumbnail_sha256": "55528ac767204bc89f5f53552708f2afa466ec5fdaecf267efd3963ea81adde4",
-          "duration_label": "0:10",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "147"
-        },
-        {
-          "emoji": "👍",
-          "count": "25"
-        },
-        {
-          "emoji": "😁",
-          "count": "3"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        },
-        {
-          "emoji": "🆒",
-          "count": "1"
-        }
-      ],
-      "views_label": "28.7K",
-      "posted_at": "2026-10-20T05:43:45+00:00",
-      "edited": true,
-      "permalink": "https://t.me/MatinSenPaii/5625",
-      "reply": null
     }
   ]
 }
