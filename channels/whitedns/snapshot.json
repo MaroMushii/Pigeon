@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-10-31T02:42:11.306Z",
+  "fetched_at": "2026-10-31T02:47:36.405Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,27 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2211",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/WrmoEZphkbHeNdc0VHYWmzN9RK3ya1TFSz8UniHyN7i1LqlVXW5DUTte3Nwz_3PB36DHtYQt2OVULUGS7_zeosKihIpIeZvV2Hg-j2aaqMWIMtm2Lm-P77B9W_Gpa2VKnZdUiDYCMOJU6JwTG5Nt8sdPaVZoCRCVingNTV7pTwwJwveEaSA79u0xIDp6J8FEn1O9XrrSTxm8BCIJeQ7_jb4ghpMk0GUgsdn1shCNlwwgWL5TZMnWfk56l2yFpThPZx5eoxNiPpAVxkanmj-kfGV03ZdTsP_fXVPJkYMhCt0aC12BTknL2y3J7hJmkO4-RWRJUuuWWZP0RCaFER_nqA.jpg",
+      "author_photo_path": "channels/whitedns/media/2796b16c90c6acf98ba178f3.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAC.png')\"><b>🎬</b></i> <b>تونل DNS چطور کار می‌کنه؟</b><br><br>دوستان، توی ویدیوی قبلی دربارهٔ خود DNS حرف زدیم؛ این بار می‌ریم سراغ <b>DNS tunneling</b> و اینکه چطور می‌شه از پرس‌وجوها و جواب‌های DNS برای جابه‌جایی داده استفاده کرد.<br><br>اگه از WhiteDNS استفاده می‌کنید، احتمالاً بارها دکمهٔ اتصال رو زدید. ولی پشت اون دکمه چه اتفاقی می‌افته؟ وقتی سایت‌ها باز نمی‌شن و مسیرهای معمول بسته‌ان، چطور ممکنه هنوز یه پیام ردوبدل بشه؟<br><br>توی این ویدیو مسیر همون پیام رو از گوشی تا ریزالور و سرور تونل دنبال می‌کنیم و می‌بینیم جواب چطور برمی‌گرده. از پایه شروع می‌کنیم و کم‌کم می‌رسیم به اینکه چرا سرعت محدوده، چرا هر ریزالوری به درد تونل نمی‌خوره و رمزنگاری چه نقشی داره.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> یه نکتهٔ مهم: <b>باید هنوز یه مسیر رفت‌وبرگشت DNS تا سرور تونل باقی مونده باشه.</b> اگه اون مسیر هم کاملاً قطع شده باشه، تونل DNS نمی‌تونه اتصال برقرار کنه.<br><br>پیشنهاد می‌کنم ببینیدش؛ کمک می‌کنه بهتر بفهمیم ابزاری که استفاده می‌کنیم چطور کار می‌کنه و چه محدودیت‌هایی داره. اگه ویدیوی قبلی رو ندیدید، اول اون رو ببینید تا این بحث رو راحت‌تر دنبال کنید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br>----------<br><a href=\"?q=%23%D8%A2%D9%85%D9%88%D8%B2%D8%B4\">#آموزش</a> <a href=\"?q=%23DNS\">#DNS</a> <a href=\"?q=%23%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA_%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%B1%DB%8C\">#اینترنت_اضطراری</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA5.png')\"><b>🎥</b></i> <a href=\"https://www.youtube.com/watch?v=d9ABLNvoctE\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">تماشای ویدیوی تونل DNS</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F939A.png')\"><b>📚</b></i> <a href=\"https://www.youtube.com/watch?v=E2MZuktvgHU\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ویدیوی قبلی: DNS چیه و چطور کار می‌کنه؟</a><br>کانال: <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "🎬 تونل DNS چطور کار می‌کنه؟\n\nدوستان، توی ویدیوی قبلی دربارهٔ خود DNS حرف زدیم؛ این بار می‌ریم سراغ DNS tunneling و اینکه چطور می‌شه از پرس‌وجوها و جواب‌های DNS برای جابه‌جایی داده استفاده کرد.\n\nاگه از WhiteDNS استفاده می‌کنید، احتمالاً بارها دکمهٔ اتصال رو زدید. ولی پشت اون دکمه چه اتفاقی می‌افته؟ وقتی سایت‌ها باز نمی‌شن و مسیرهای معمول بسته‌ان، چطور ممکنه هنوز یه پیام ردوبدل بشه؟\n\nتوی این ویدیو مسیر همون پیام رو از گوشی تا ریزالور و سرور تونل دنبال می‌کنیم و می‌بینیم جواب چطور برمی‌گرده. از پایه شروع می‌کنیم و کم‌کم می‌رسیم به اینکه چرا سرعت محدوده، چرا هر ریزالوری به درد تونل نمی‌خوره و رمزنگاری چه نقشی داره.\n\n⚠️ یه نکتهٔ مهم: باید هنوز یه مسیر رفت‌وبرگشت DNS تا سرور تونل باقی مونده باشه. اگه اون مسیر هم کاملاً قطع شده باشه، تونل DNS نمی‌تونه اتصال برقرار کنه.\n\nپیشنهاد می‌کنم ببینیدش؛ کمک می‌کنه بهتر بفهمیم ابزاری که استفاده می‌کنیم چطور کار می‌کنه و چه محدودیت‌هایی داره. اگه ویدیوی قبلی رو ندیدید، اول اون رو ببینید تا این بحث رو راحت‌تر دنبال کنید 👇\n\n----------\n#آموزش #DNS #اینترنت_اضطراری\n\n🎥 تماشای ویدیوی تونل DNS\n📚 ویدیوی قبلی: DNS چیه و چطور کار می‌کنه؟\nکانال: @WhiteDNS",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "3"
+        }
+      ],
+      "views_label": "111",
+      "posted_at": "2026-10-31T02:45:11+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2211",
+      "reply": null
+    },
     {
       "id": "whitedns/2210",
       "author_name": "White DNS",
@@ -54,7 +75,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.35K",
+      "views_label": "8.4K",
       "posted_at": "2026-10-30T15:26:19+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2210",
@@ -111,7 +132,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.96K",
+      "views_label": "8.99K",
       "posted_at": "2026-10-30T13:50:48+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2209",
@@ -168,7 +189,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.13K",
+      "views_label": "8.16K",
       "posted_at": "2026-10-30T13:19:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2208",
@@ -499,7 +520,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "139"
+          "count": "140"
         },
         {
           "emoji": "👍",
@@ -734,7 +755,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14K",
+      "views_label": "14.1K",
       "posted_at": "2026-10-29T00:38:40+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2191",
@@ -5286,47 +5307,6 @@
       "posted_at": "2026-10-22T05:48:28+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2090",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2089",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/PvuAfXH2UAF8VFkbM7EGMD7wW3tvrezDaA_Sr08k-O3rJEFhvOuRDRiH5Bh4Qqxy4V8-cI_LMTu7cqRvOjeNsln-mphpLDK8ecepG1t6WUA7ngLwEKZm0ZFPBYTYt-18UNMVOxDrRBFv4ZubCzftI7qSHZyVQ4-AAd1RMX5AziJvJ7KAiNtYmuetMExB0ewdgqIMakRN4gcEqOF4A2KnU77SfnscsnT7CX_LHN5Lwf20sEyYMFjdo1etujfKndt740jzBNdTnj13ooIjy05k5P9zO2xsRX9kbeaJJ8Wzv_Lo9wnxSsKUl88Fs_PI5NVkabXMJq15nEXfGQJZ3ZfpLQ.jpg",
-      "author_photo_path": "channels/whitedns/media/f2b0c9d657bc05a996afc59e.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i> WhtieDNS Public Servers<br><br><br>سرور عمومی SOAR <br><br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTgiLCJuYW1lIjoid2hpdGVkbnMgcHVibGljIDIiLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6IjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsInB1YmxpY19rZXkiOiJ1VVdrOU4yc3lXVG1sUUFPOHlsa3ZpaWkxSVFHRjlJa0JabFFSYkZsNjNNPSJ9LCJzb2FyU2V0dGluZ3MiOnsidHJhbnNwb3J0IjoiYXV0byIsImRpc2NvdmVyeSI6dHJ1ZSwiZGlzY292ZXJ5V2FudCI6MiwiZGlzY292ZXJ5Q29uY3VycmVuY3kiOjIsImRpc2NvdmVyeVBhY2VNcyI6MTAwMCwic2FmZVFOYW1lIjoxMDEsIm1heFFOYW1lIjoyNTMsIm1heEFuc3dlciI6MTIzMiwiaG9sZE1zIjo1MDAsIm1heEluZmxpZ2h0IjoxMjgsIm1heFBhdGhXaW5kb3ciOjMyLCJtYXhTdHJlYW1zIjoxMjgsInN0cmVhbVdpbmRvd0tpQiI6MjU2LCJzZW5kQnVmZmVyS2lCIjo2NCwic2Vzc2lvbklkbGVTZWNvbmRzIjo5MCwiZGlhbFRpbWVvdXRTZWNvbmRzIjo5MCwiY291bnRyeSI6IklSIn19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0</code><br><br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzYiLCJuYW1lIjoiV2hpdGVETlMgUHVibGljIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJpdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJwdWJsaWNfa2V5IjoiR1daa2NSVVErUHhqMnEydXRKZllEV2cwR2dOR3AybmtVMmN5UE8ySk1UMD0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><br><br>سرور عمومی CottenDNS <br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTg6Y290dGVuIiwibmFtZSI6IndoaXRlZG5zIHB1YmxpYyAyIMK3IENvdHRlbiIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiY290LjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiODU5YzY4MWYzZGU2NDE4ZmVmY2ZlNmY4ZTY0OWYzN2U4ZDkyMGU2MzExNzEyOWE3MjEwNmM3NjRhNDRkOTFmYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ</code><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🔥 WhtieDNS Public Servers\n\n\nسرور عمومی SOAR\n\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTgiLCJuYW1lIjoid2hpdGVkbnMgcHVibGljIDIiLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6IjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsInB1YmxpY19rZXkiOiJ1VVdrOU4yc3lXVG1sUUFPOHlsa3ZpaWkxSVFHRjlJa0JabFFSYkZsNjNNPSJ9LCJzb2FyU2V0dGluZ3MiOnsidHJhbnNwb3J0IjoiYXV0byIsImRpc2NvdmVyeSI6dHJ1ZSwiZGlzY292ZXJ5V2FudCI6MiwiZGlzY292ZXJ5Q29uY3VycmVuY3kiOjIsImRpc2NvdmVyeVBhY2VNcyI6MTAwMCwic2FmZVFOYW1lIjoxMDEsIm1heFFOYW1lIjoyNTMsIm1heEFuc3dlciI6MTIzMiwiaG9sZE1zIjo1MDAsIm1heEluZmxpZ2h0IjoxMjgsIm1heFBhdGhXaW5kb3ciOjMyLCJtYXhTdHJlYW1zIjoxMjgsInN0cmVhbVdpbmRvd0tpQiI6MjU2LCJzZW5kQnVmZmVyS2lCIjo2NCwic2Vzc2lvbklkbGVTZWNvbmRzIjo5MCwiZGlhbFRpbWVvdXRTZWNvbmRzIjo5MCwiY291bnRyeSI6IklSIn19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0\n\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzYiLCJuYW1lIjoiV2hpdGVETlMgUHVibGljIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJpdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJwdWJsaWNfa2V5IjoiR1daa2NSVVErUHhqMnEydXRKZllEV2cwR2dOR3AybmtVMmN5UE8ySk1UMD0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\n\n\nسرور عمومی CottenDNS\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTg6Y290dGVuIiwibmFtZSI6IndoaXRlZG5zIHB1YmxpYyAyIMK3IENvdHRlbiIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiY290LjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiODU5YzY4MWYzZGU2NDE4ZmVmY2ZlNmY4ZTY0OWYzN2U4ZDkyMGU2MzExNzEyOWE3MjEwNmM3NjRhNDRkOTFmYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ\n\n@whitedns",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "171"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "8"
-        },
-        {
-          "emoji": "🕊",
-          "count": "5"
-        },
-        {
-          "emoji": "🍓",
-          "count": "4"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        },
-        {
-          "emoji": "🥰",
-          "count": "1"
-        }
-      ],
-      "views_label": "17K",
-      "posted_at": "2026-10-22T05:48:11+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2089",
       "reply": null
     }
   ]
