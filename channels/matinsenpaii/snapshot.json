@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-01T04:52:53.833Z",
+  "fetched_at": "2026-11-01T04:56:49.757Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5745",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/aCrJrnb5D1RCk-UtHPXj2XypuhyPvV96RiBzyfSTKyAcZzEiVkJbRVTKuLQusUb8c8mv_miczNWF2liSFMcXQBZOUjSP07PxcO0o3nljYsWZb5I0g2j5fd0HJQx7DEE0ub_-EJJUZsYK-PKiseYXVNFHM7k6TggjJYv2GSE3GuP0l3mEeGyAUZbdliiQ8orL3yC0gtetuj0Upk9ZWOHceQ-mP9jc0dR0VelsTRI-SyfOuHPYnFkmAImkUdAOGPH3HBAHy_Dt1StwuxczOc-4_qjFv7yVj-mqAFWpiFZJtpjnvFeA69AP-fW2rBwxucVuOSKnCdAbeULtyIGwwMwetg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/d19240e8874c78efd3736279.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>مدل Opus مدیر پروژه، DeepSeek تیم اجرایی؛ ۶۳٪ توکن کمتر</b><br><br>یه توسعه‌دهنده پلاگینی ساخته برای کلاد کد به اسم Cheap Agent که تقسیم کار می‌کنه: Opus فقط برنامه‌ریزی می‌کنه و تسک‌های کوتاه و دقیق می‌نویسه، بعد یه مدل ارزون (DeepSeek V4.1 Flash از OpenRouter، حدود نیم سنت برای هر تسک بزرگ به طور میانگین) کد رو توی یه کپی جدا از ریپو می‌نویسه.<br><br>شرطش هم اینه که مدل ارزون باید اول یه تست بنویسه که قبل از فیکس رد بشه و بعدش قبول بشه و خود ابزار تست رو اجرا می‌کنه؛ فقط کاری که تستش پاس بشه برمی‌گرده برای بازبینی شما. اگه مدل ارزون گیر کنه، Sonnet اون قدم رو تموم می‌کنه، نه Opus.<br><br>عددهای سازنده روی SWE-bench Verified با Opus 5.5:<br>اضافه کردن یه فیچر: از ۱۵۴ هزار توکن Opus رسیده به ۵۷ هزار، یعنی ۶۳٪ کمتر<br>۷ باگ معمولی: ۵۹٪ کمتر و هر ۷ تا رو هر دو روش حل کردن<br><br>اوپن‌سورس و رایگانه و مدل ارزون روی API key خودتون کار می‌کنه. نصب:<br><blockquote>npx cheap-agent</blockquote><br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://www.reddit.com/r/ClaudeCoding/comments/1xjr68j/made_opus_the_principal_dev_and_deepseek_its_team/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "مدل Opus مدیر پروژه، DeepSeek تیم اجرایی؛ ۶۳٪ توکن کمتر\n\nیه توسعه‌دهنده پلاگینی ساخته برای کلاد کد به اسم Cheap Agent که تقسیم کار می‌کنه: Opus فقط برنامه‌ریزی می‌کنه و تسک‌های کوتاه و دقیق می‌نویسه، بعد یه مدل ارزون (DeepSeek V4.1 Flash از OpenRouter، حدود نیم سنت برای هر تسک بزرگ به طور میانگین) کد رو توی یه کپی جدا از ریپو می‌نویسه.\n\nشرطش هم اینه که مدل ارزون باید اول یه تست بنویسه که قبل از فیکس رد بشه و بعدش قبول بشه و خود ابزار تست رو اجرا می‌کنه؛ فقط کاری که تستش پاس بشه برمی‌گرده برای بازبینی شما. اگه مدل ارزون گیر کنه، Sonnet اون قدم رو تموم می‌کنه، نه Opus.\n\nعددهای سازنده روی SWE-bench Verified با Opus 5.5:\nاضافه کردن یه فیچر: از ۱۵۴ هزار توکن Opus رسیده به ۵۷ هزار، یعنی ۶۳٪ کمتر\n۷ باگ معمولی: ۵۹٪ کمتر و هر ۷ تا رو هر دو روش حل کردن\n\nاوپن‌سورس و رایگانه و مدل ارزون روی API key خودتون کار می‌کنه. نصب:\nnpx cheap-agent\n\n🔗منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/MatinSenPaii/5745",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/EPhtdfDz6FFWVga_0DPcrJDf22m4j1aQFo8NNouMX5-59DAfJSFpMxhYNpOpZadoFaube_K6VfVFnS10ujxzzBExwB_DjexO-kTH-1DP07ZZvzSxgMZMHv7ERrXjXdz0GJiIk4CUQf2NkTLSwAJLEPNCTz4Q38C0UNwQxGLlCh0GLry1fE_icoomnp0PmLQhPFb_Tuh56Q6z6Ko8-35KSdsHISfD3PFHYTMk0vjtZfBMeMT4Stz9f47OVxuhhDalMjXFAyistzwVxePeDPmDWPkNVE_TCwJQn9Otpr9wpUqnONMKgFQ900VM1cXC6YM1fLeIBOcKMBnmiKI74ARfng",
+          "thumbnail_path": "channels/matinsenpaii/media/f55c8d81f8b42e191a40fdbf.jpg",
+          "thumbnail_sha256": "77912cadaf437c37166a0943c987fe5e1a64a3f3249a4aff1b84cb57cd298d8e",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "17"
+        }
+      ],
+      "views_label": "775",
+      "posted_at": "2026-11-01T04:52:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5745",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5744",
       "author_name": "Matin SenPai",
@@ -34,7 +67,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "13K",
       "posted_at": "2026-10-31T20:26:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5744",
@@ -79,7 +112,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.3K",
+      "views_label": "18.5K",
       "posted_at": "2026-10-31T17:07:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5743",
@@ -140,7 +173,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.7K",
+      "views_label": "22.8K",
       "posted_at": "2026-10-31T14:39:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5742",
@@ -194,7 +227,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.1K",
+      "views_label": "23.2K",
       "posted_at": "2026-10-31T13:19:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5741",
@@ -256,7 +289,7 @@
           "count": "5"
         }
       ],
-      "views_label": "20.3K",
+      "views_label": "20.4K",
       "posted_at": "2026-10-31T09:24:19+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5739",
@@ -285,7 +318,7 @@
           "count": "3"
         }
       ],
-      "views_label": "23.7K",
+      "views_label": "23.8K",
       "posted_at": "2026-10-31T08:06:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5738",
@@ -323,7 +356,7 @@
           "count": "4"
         }
       ],
-      "views_label": "26.1K",
+      "views_label": "26.2K",
       "posted_at": "2026-10-30T20:46:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5737",
@@ -613,7 +646,7 @@
           "count": "3"
         }
       ],
-      "views_label": "30.9K",
+      "views_label": "31K",
       "posted_at": "2026-10-29T14:07:46+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5730",
@@ -4633,39 +4666,6 @@
       "posted_at": "2026-10-21T05:31:38+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5634",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5633",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/rZ8hBtmsaDl8-OE2yMIe-1E0ey0O4GJB24BHd6QkWDmMo_EQjwL4AH2DK6aGdEAcbEvB4cCn39wK_brL5zq9ht6CdTBzUK5heR1Yy8VR_B55KF3JusrLHpSxESX8SE2x3w4TB95GP1F5HuM0pQvOy6pEVQSu4q0aXzL4gQ-XRXOwaQSkstQZSzs-P1nrjvDZ70WUropv1dScy_wCmOYblfY_ZdP8YZln0K6nF__KGYH-XqFDRNGkad5IbjPLjS0XMoaWRfNKdDezRXtPg4KPkdeMahCLX2uCzokYtYeTxx8JmlVEPPK1fBYwVN2uAolGSchx-DsRZUrDfStUGWleRA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/18a3828589b2f42beefd246b.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "قدرت minimax-m3.1-flash-free که روی OpenCode هست توی ترجمه فارسی، در حد Gemini 3.8 Flash high بوده واسم تا الان(کمی پایینتر هنوز اما خیلی خیلی امیدوارم)<br>فقط سرعتش کمی پایینه اونجا",
-      "plain_text": "قدرت minimax-m3.1-flash-free که روی OpenCode هست توی ترجمه فارسی، در حد Gemini 3.8 Flash high بوده واسم تا الان(کمی پایینتر هنوز اما خیلی خیلی امیدوارم)\nفقط سرعتش کمی پایینه اونجا",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "💯",
-          "count": "100"
-        },
-        {
-          "emoji": "❤",
-          "count": "30"
-        },
-        {
-          "emoji": "👍",
-          "count": "11"
-        },
-        {
-          "emoji": "😁",
-          "count": "1"
-        }
-      ],
-      "views_label": "26.6K",
-      "posted_at": "2026-10-20T19:35:25+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5633",
       "reply": null
     }
   ]
