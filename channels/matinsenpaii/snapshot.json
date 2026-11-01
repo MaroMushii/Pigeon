@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-01T07:16:56.587Z",
+  "fetched_at": "2026-11-01T07:21:57.148Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,43 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5746",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/aCrJrnb5D1RCk-UtHPXj2XypuhyPvV96RiBzyfSTKyAcZzEiVkJbRVTKuLQusUb8c8mv_miczNWF2liSFMcXQBZOUjSP07PxcO0o3nljYsWZb5I0g2j5fd0HJQx7DEE0ub_-EJJUZsYK-PKiseYXVNFHM7k6TggjJYv2GSE3GuP0l3mEeGyAUZbdliiQ8orL3yC0gtetuj0Upk9ZWOHceQ-mP9jc0dR0VelsTRI-SyfOuHPYnFkmAImkUdAOGPH3HBAHy_Dt1StwuxczOc-4_qjFv7yVj-mqAFWpiFZJtpjnvFeA69AP-fW2rBwxucVuOSKnCdAbeULtyIGwwMwetg.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/d19240e8874c78efd3736279.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>به نظرتون چرا هر چی AI می‌سازه شبیه همه؟<br>جواب: چون جلوش رو هیچی نمی‌گیره<br></b><br>یه قانون‌نامه‌ی اوپن‌سورس هست به اسم Anti-Slop که دقیقا برای همین ساخته شده.<br>۴۰ تا قانون سخت و اجباری که ایجنت کدنویسی‌تون اول هر Session می‌خونه و خروجی کلیشه‌ای رو قبل از این که شیپ بشه فیلتر می‌کنه.<br><br>خود سازنده توی ریپو رک می‌گه که این ابزار یه فیلتره، راهنمای سبک نیست. رنگ و فونت تجویز نمی‌کنه، صرفا چیزهای زائد رو حذف می‌کنه و جهت با خودتونه.<br><br>هر چیزی که بوی AI میده رو حذف می‌کنه. توی عکس می‌تونید قبل و بعد رو ببینید<br><br>نصبش هم با یه دستوره و با Claude Code و Hermes و Codex و OpenCode و بیشتر ایجنت‌ها کار می‌کنه:<br><blockquote>npx antislop-ai</blockquote><br>یا توی خود کلاد کد:<br><blockquote>/plugin install antislop@anti-slop</blockquote><br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji>لینک پروژه:<br><a href=\"http://github.com/miqdadbadjuber/anti-slop\" target=\"_blank\" rel=\"noopener\">github.com/miqdadbadjuber/anti-slop</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "به نظرتون چرا هر چی AI می‌سازه شبیه همه؟\nجواب: چون جلوش رو هیچی نمی‌گیره\n\nیه قانون‌نامه‌ی اوپن‌سورس هست به اسم Anti-Slop که دقیقا برای همین ساخته شده.\n۴۰ تا قانون سخت و اجباری که ایجنت کدنویسی‌تون اول هر Session می‌خونه و خروجی کلیشه‌ای رو قبل از این که شیپ بشه فیلتر می‌کنه.\n\nخود سازنده توی ریپو رک می‌گه که این ابزار یه فیلتره، راهنمای سبک نیست. رنگ و فونت تجویز نمی‌کنه، صرفا چیزهای زائد رو حذف می‌کنه و جهت با خودتونه.\n\nهر چیزی که بوی AI میده رو حذف می‌کنه. توی عکس می‌تونید قبل و بعد رو ببینید\n\nنصبش هم با یه دستوره و با Claude Code و Hermes و Codex و OpenCode و بیشتر ایجنت‌ها کار می‌کنه:\nnpx antislop-ai\nیا توی خود کلاد کد:\n/plugin install antislop@anti-slop\n\n🔗لینک پروژه:\ngithub.com/miqdadbadjuber/anti-slop\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5746",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/dg73Vpv-H3ey3PPj3l_Jdos7ssEC7-kjySEfJbSksU2T1eSIwjrb5eDbne5rSDynz5ktt43vN-La0ZxIFYia3eI6qDp_0ilrtzyxODBxiSKtAqjvOGke9n8bv3JiWuzebKdD9kC3F-g875XKqIJ82ByNqGgSuH7CN7clSGGjtTQhJoHHqx8yMOild1G_gFa6HeWKXzpwDPWuB87inIT_v8EkalTJV-OdZg1tcFVlBorR67JaTxWyjiDWxuy-AtcQy9RCte8wczW_XoG6RzY6sustw2RiK9-ZLqFpUMtJRoibgYl_DZON8xfZdS6FeDFUI2NIwMqWxhysRLqyiDo2LQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/cf0f708e7d63bf77a484fb02.jpg",
+          "thumbnail_sha256": "e574fe5e84ba2b71b88a5d388704a715f184415ee44de5d93532a92b0ec40e18",
+          "duration_label": null,
+          "aspect_ratio": 1.1695906432748537
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "334",
+      "posted_at": "2026-11-01T07:20:21+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5746",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5745",
       "author_name": "Matin SenPai",
@@ -35,14 +72,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "91"
+          "count": "92"
         },
         {
           "emoji": "👍",
           "count": "11"
         }
       ],
-      "views_label": "9.13K",
+      "views_label": "9.38K",
       "posted_at": "2026-11-01T04:52:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5745",
@@ -71,7 +108,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17K",
+      "views_label": "17.1K",
       "posted_at": "2026-10-31T20:26:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5744",
@@ -116,7 +153,7 @@
           "count": "2"
         }
       ],
-      "views_label": "21.1K",
+      "views_label": "21.2K",
       "posted_at": "2026-10-31T17:07:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5743",
@@ -177,7 +214,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.4K",
+      "views_label": "24.5K",
       "posted_at": "2026-10-31T14:39:44+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5742",
@@ -231,7 +268,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.6K",
       "posted_at": "2026-10-31T13:19:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5741",
@@ -268,7 +305,7 @@
           "count": "6"
         }
       ],
-      "views_label": "24.4K",
+      "views_label": "24.5K",
       "posted_at": "2026-10-31T10:46:40+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5740",
@@ -4629,47 +4666,6 @@
       "posted_at": "2026-10-21T05:44:04+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5635",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5634",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/rZ8hBtmsaDl8-OE2yMIe-1E0ey0O4GJB24BHd6QkWDmMo_EQjwL4AH2DK6aGdEAcbEvB4cCn39wK_brL5zq9ht6CdTBzUK5heR1Yy8VR_B55KF3JusrLHpSxESX8SE2x3w4TB95GP1F5HuM0pQvOy6pEVQSu4q0aXzL4gQ-XRXOwaQSkstQZSzs-P1nrjvDZ70WUropv1dScy_wCmOYblfY_ZdP8YZln0K6nF__KGYH-XqFDRNGkad5IbjPLjS0XMoaWRfNKdDezRXtPg4KPkdeMahCLX2uCzokYtYeTxx8JmlVEPPK1fBYwVN2uAolGSchx-DsRZUrDfStUGWleRA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/18a3828589b2f42beefd246b.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<tg-emoji emoji-id=\"5197288647275071607\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i></tg-emoji> آماده‌سازی سرورهای عمومی WhiteDNS برای شرایط اضطراری اینترنت<br><br>داریم تعدادی سرور عمومی برای اپلیکیشن WhiteDNS آماده و کانفیگ می‌کنیم تا در صورت نیاز، کاربران بتونن ازشون استفاده کنن.<br><br>اگر هنوز با این اپ آشنا نیستید، پیشنهاد می‌کنم حتما ویدیوی آموزشی ما رو در یوتیوب ببینید. <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA5.png')\"><b>🎥</b></i> <a href=\"https://youtu.be/tz8cj7HzHVI\" target=\"_blank\" rel=\"noopener\">https://youtu.be/tz8cj7HzHVI</a><br><br>اپلیکیشن WhiteDNS با پشتیبانی از MasterDNS، CottonDNS، StormDNS و SOAR در قطعی قبلی اینترنت کمک کرد تا صدها هزار نفر بتونن ارتباطشون رو با اینترنت حفظ کنن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> یه نکته خیلی مهم:<br><br>قرار نیست با این روش‌ها سرعت بالایی داشته باشیم یا تجربه‌ای مشابه VPNهای معمولی بگیریم. این ابزارها برای شرایط اضطراری طراحی شدن؛ زمانی که روش‌های رایج اتصال دیگه کار نمی‌کنن و شاید همین ارتباط محدود، تنها راه باقی‌مونده باشه.<br><br>به همین دلیل پیشنهاد می‌کنیم منتظر قطعی اینترنت نمونید. از الان اپ رو نصب کنید و کار باهاش رو یاد بگیرید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> دانلود آخرین نسخه WhiteDNS:<br><br><a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/latest\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteDNS-Android/releases/latest</a><br><br>می‌دونیم استفاده از WhiteDNS به سادگی اپ‌های VPN معمولی نیست. بخشی از این پیچیدگی به ماهیت روش‌های اتصال برمی‌گرده و ما هم تلاش کردیم تا جای ممکن کار رو ساده‌تر کنیم.<br><br>دوستانی هم که از ios استفاده میکنن، پیشنهاد ما اپ CoreForge هستش.<br><br>با این حال، بهتره الان که فرصت داریم با این ابزارها آشنا بشیم، نه زمانی که دسترسی به اینترنت محدود شده و حتی پیدا کردن یه راهنمای ساده هم دشواره.<br><br>برای اتصال به این روش یا باید توی گروه ها سرور عمومی پیدا کنید و یا سرور شخصی خودتون رو داشته باشید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')\"><b>🖥</b></i> برای دوستانی که سرور شخصی دارن:<br><br>پیشنهاد می‌کنیم نگاهی هم به پروژه متن‌باز Soar-Server بندازید.<br><br>با استفاده از این پنل می‌تونید CottonDNS و SOAR رو روی سرور خودتون راه‌اندازی کنید و کاربران و دسترسی‌هاشون رو مدیریت کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://github.com/WhiteDNS/Soar-Server\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/Soar-Server</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i> امیدواریم هیچ‌وقت دوباره به این روش‌ها نیاز پیدا نکنیم، اما تجربه قطعی‌های قبلی بهمون نشون داده که آماده بودن خیلی بهتر از غافلگیر شدنه.<br><br>ما هم مثل همیشه تلاش می‌کنیم ابزارهای بیشتری آماده کنیم تا در سخت‌ترین شرایط هم راهی برای اتصال باقی بمونه.<br><br><a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "🛡 آماده‌سازی سرورهای عمومی WhiteDNS برای شرایط اضطراری اینترنت\n\nداریم تعدادی سرور عمومی برای اپلیکیشن WhiteDNS آماده و کانفیگ می‌کنیم تا در صورت نیاز، کاربران بتونن ازشون استفاده کنن.\n\nاگر هنوز با این اپ آشنا نیستید، پیشنهاد می‌کنم حتما ویدیوی آموزشی ما رو در یوتیوب ببینید. 👇\n\n🎥 https://youtu.be/tz8cj7HzHVI\n\nاپلیکیشن WhiteDNS با پشتیبانی از MasterDNS، CottonDNS، StormDNS و SOAR در قطعی قبلی اینترنت کمک کرد تا صدها هزار نفر بتونن ارتباطشون رو با اینترنت حفظ کنن.\n\n⚠️ یه نکته خیلی مهم:\n\nقرار نیست با این روش‌ها سرعت بالایی داشته باشیم یا تجربه‌ای مشابه VPNهای معمولی بگیریم. این ابزارها برای شرایط اضطراری طراحی شدن؛ زمانی که روش‌های رایج اتصال دیگه کار نمی‌کنن و شاید همین ارتباط محدود، تنها راه باقی‌مونده باشه.\n\nبه همین دلیل پیشنهاد می‌کنیم منتظر قطعی اینترنت نمونید. از الان اپ رو نصب کنید و کار باهاش رو یاد بگیرید.\n\n📱 دانلود آخرین نسخه WhiteDNS:\n\nhttps://github.com/WhiteDNS/WhiteDNS-Android/releases/latest\n\nمی‌دونیم استفاده از WhiteDNS به سادگی اپ‌های VPN معمولی نیست. بخشی از این پیچیدگی به ماهیت روش‌های اتصال برمی‌گرده و ما هم تلاش کردیم تا جای ممکن کار رو ساده‌تر کنیم.\n\nدوستانی هم که از ios استفاده میکنن، پیشنهاد ما اپ CoreForge هستش.\n\nبا این حال، بهتره الان که فرصت داریم با این ابزارها آشنا بشیم، نه زمانی که دسترسی به اینترنت محدود شده و حتی پیدا کردن یه راهنمای ساده هم دشواره.\n\nبرای اتصال به این روش یا باید توی گروه ها سرور عمومی پیدا کنید و یا سرور شخصی خودتون رو داشته باشید.\n\n🖥 برای دوستانی که سرور شخصی دارن:\n\nپیشنهاد می‌کنیم نگاهی هم به پروژه متن‌باز Soar-Server بندازید.\n\nبا استفاده از این پنل می‌تونید CottonDNS و SOAR رو روی سرور خودتون راه‌اندازی کنید و کاربران و دسترسی‌هاشون رو مدیریت کنید.\n\n🔗 https://github.com/WhiteDNS/Soar-Server\n\n❤️ امیدواریم هیچ‌وقت دوباره به این روش‌ها نیاز پیدا نکنیم، اما تجربه قطعی‌های قبلی بهمون نشون داده که آماده بودن خیلی بهتر از غافلگیر شدنه.\n\nما هم مثل همیشه تلاش می‌کنیم ابزارهای بیشتری آماده کنیم تا در سخت‌ترین شرایط هم راهی برای اتصال باقی بمونه.\n\n@WhiteDNS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "❤",
-          "count": "172"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        },
-        {
-          "emoji": "💯",
-          "count": "3"
-        },
-        {
-          "emoji": "🆒",
-          "count": "3"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        }
-      ],
-      "views_label": "23K",
-      "posted_at": "2026-10-21T05:31:38+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5634",
       "reply": null
     }
   ]
