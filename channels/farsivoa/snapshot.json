@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-02T13:32:03.958Z",
+  "fetched_at": "2026-11-02T13:36:55.804Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,62 @@
     "subscriber_count": "135K"
   },
   "posts": [
+    {
+      "id": "farsivoa/235749",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/bKwop7B-VJn6J1LcdBMmi_6DDCbVOPm9SOLyBYo4nNCpNrL-iHSrxW_WkzZT17LU0ZQUceAX6QtToZeEFecZmf_G7hZAEXamscX7lu0mdRuRbKAxTWE7zOrxqy2ZhNQP-DX-wAy8iGiX5iA47cYeVZeBWNlV778jbM47-Td16uCfYONBXrljm9C1qnCSZ4O7SSxNoxSq95lcHWxGbu11tGOeEu5qc1VsEMtYM9zzXgV00Kpt6ZifDfHA5365VE7OQlteAd9ccZUBHI0Qn2Cu1WcKGDn1kLIk5YKaRTQhnTAGyXKFG5eYJV18OdiAcIy8VfKk1xvWE5i12V1wXJD58w.jpg",
+      "author_photo_path": "channels/farsivoa/media/f9516d57476a89031cb1dca0.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "شاهین مدرس می‌گوید اگر تلاش‌های دیپلماتیک به نتیجه نرسد و آمریکا وارد مرحله بعدی اقدام نظامی شود، جمهوری اسلامی در نهایت وادار به تسلیم خواهد شد.",
+      "plain_text": "شاهین مدرس می‌گوید اگر تلاش‌های دیپلماتیک به نتیجه نرسد و آمریکا وارد مرحله بعدی اقدام نظامی شود، جمهوری اسلامی در نهایت وادار به تسلیم خواهد شد.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/235749",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/SyraZ0MjHOYx6V7pxqqEbJ1iqhdtsc1JbbGjgpBQFRBKCdcfXzLwCCzmTehII_MjQflbVMoFJVqLXaKpHlOFEtlXGJUHpBu0O_Pbt1XBwgF_dnPad0PRKvmGeOGG8A9rQnQ3xjw5xL3VW42iY0rji1EuU8LfANcgtQAxEbGsCk9p60W5vz6tGY_jQbpa2QOKsMmiCvmXjfRO2wRqdrDXeKftSgJ0CfUQtkH22CK-hznxAxQHRjgvFoQfGVqOFfRP0kunpj3kNSpxjvP6gB3OefTu6Tyv4RERTDl1kUKY6dIOgXtpkUIXSL9gREWfHGY-EZafDdGcysaRJD9HCPOaAA",
+          "thumbnail_path": "channels/farsivoa/media/0ad3d49a4b09eee4f524678d.jpg",
+          "thumbnail_sha256": "3bc0082e7357cc9b39db50010a22d8cbf0492a6a3795d2069bcf441f6f9865a1",
+          "duration_label": "3:14",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "1",
+      "posted_at": "2026-11-02T13:36:32+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/235749",
+      "reply": null
+    },
+    {
+      "id": "farsivoa/235748",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/bKwop7B-VJn6J1LcdBMmi_6DDCbVOPm9SOLyBYo4nNCpNrL-iHSrxW_WkzZT17LU0ZQUceAX6QtToZeEFecZmf_G7hZAEXamscX7lu0mdRuRbKAxTWE7zOrxqy2ZhNQP-DX-wAy8iGiX5iA47cYeVZeBWNlV778jbM47-Td16uCfYONBXrljm9C1qnCSZ4O7SSxNoxSq95lcHWxGbu11tGOeEu5qc1VsEMtYM9zzXgV00Kpt6ZifDfHA5365VE7OQlteAd9ccZUBHI0Qn2Cu1WcKGDn1kLIk5YKaRTQhnTAGyXKFG5eYJV18OdiAcIy8VfKk1xvWE5i12V1wXJD58w.jpg",
+      "author_photo_path": "channels/farsivoa/media/f9516d57476a89031cb1dca0.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "گروهی از بازنشستگان مخابرات تهران دوشنبه، ١١ آبان ۱۴۰۵، با سر دادن شعار «دیگه نگید نداریم، از این شعار بیزاریم» در اعتراض به افزایش هزینه‌های زندگی، پایین بودن حقوق بازنشستگی، پرداخت نشدن مطالبات، اجرای ناقص آیین‌نامه «۲۴/۸۹»، و مشکلات مربوط به بیمه تکمیلی تجمع کردند.",
+      "plain_text": "گروهی از بازنشستگان مخابرات تهران دوشنبه، ١١ آبان ۱۴۰۵، با سر دادن شعار «دیگه نگید نداریم، از این شعار بیزاریم» در اعتراض به افزایش هزینه‌های زندگی، پایین بودن حقوق بازنشستگی، پرداخت نشدن مطالبات، اجرای ناقص آیین‌نامه «۲۴/۸۹»، و مشکلات مربوط به بیمه تکمیلی تجمع کردند.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/235748",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/N8FoJ_g1Sf1JSd3xf_jl4kThvhk91psrIU7RLoZ_zCY4pPw8qIoMxx_b3kfoNaSMvluQZkcI3uqrarmFh8A5swP7BLG-7iiDp0X1eGeCABRRpLibaFMIlFRZPPHu9joU0JXxtEy-c9XgrbW7gZGKaYpBtVPZcf5SWcixVdlScdMZrEnjsZSOUUY7lRcn4p8si4RlE2ZALSeHkxGw0m9stncgiUfj2lJfe-FAnA4FwFcZpLuKKLpoxjRK7qwBQB8-qXfrtnXcOIEuu9yPwWZA1NW2yFPWLIsDC3fpYpfxZSeuvuiAwBymhJuRaANf-t93whMRffPrTkr3OucVuLz-QQ",
+          "thumbnail_path": "channels/farsivoa/media/0365b5293025ea04b75cd17e.jpg",
+          "thumbnail_sha256": "6bf7431f07c0136bbdfb84ce00c2c9160c29025f9b2db98527c3d692b008b893",
+          "duration_label": "1:07",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "123",
+      "posted_at": "2026-11-02T13:34:11+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/235748",
+      "reply": null
+    },
     {
       "id": "farsivoa/235742",
       "author_name": "Farsi VOA",
@@ -88,7 +144,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "543",
+      "views_label": "728",
       "posted_at": "2026-11-02T13:16:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235742",
@@ -104,7 +160,7 @@
       "plain_text": "🔺وزیر انرژی امارات: این بار برای جنگ با جمهوری اسلامی آماده‌تر هستیم\n\n◾️وزیر انرژی امارات متحده عربی گفت نمی‌توان پیش‌بینی کرد در جنگ آمریکا و اسرائیل علیه جمهوری اسلامی چه رخ می‌دهد، ولی امارات این بار آماده‌تر خواهد بود.\n\n◾️نگرانی از حمله آمریکا به جمهوری اسلامی و پاسخ جمهوری اسلامی در روزهای گذشته منطقه را فراگرفته و بازار نفت را متلاطم کرده است. دو شرکت نفتی آمریکا، اکسون‌موبیل و شورون، هفته گذشته سفر مدیرانشان به همین نمایشگاه را به دلیل نگرانی‌های امنیتی لغو کردند.\n\n◾️پیشتر انور قرقاش مشاور دیپلماتیک رئیس امارات موضع آمریکا و جمهوری اسلامی را «بسیار دور از هم» خوانده و گفته بود کشورش امیدوار به پیشرفت دیپلماتیک است، ولی برای بدترین حالت هم آماده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8217724.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.58K",
+      "views_label": "1.7K",
       "posted_at": "2026-11-02T12:42:24+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235741",
@@ -120,7 +176,7 @@
       "plain_text": "🔺تداوم حمله روسیه و اوکراین به زیرساخت انرژی یکدیگر و هک سامانه‌ها\n\n◾️در حالی که کمبود بنزین در روسیه فروکش کرده و صف‌های طولانی جایگاه‌های سوخت با افزایش واردات و بازگشت نسبی پالایش داخلی از میان رفته، خبرگزاری بلومبرگ دوشنبه یازدهم آبان نوشت اوکراین حمله به پالایشگاه‌های نفت روسیه را دوباره آغاز کرد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8217721.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.58K",
+      "views_label": "1.64K",
       "posted_at": "2026-11-02T12:35:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235740",
@@ -136,7 +192,7 @@
       "plain_text": "🔺روبیو: ترامپ برای جنگ آماده است، گرچه صلح را ترجیح می‌دهد\n\n◾️وزیر خارجه آمریکا گفت دونالد ترامپ رئیس‌جمهور ایالات متحده صلح را ترجیح می‌دهد، ولی برای جنگ آماده است.\n\n◾️مارکو روبیو در آتلانتا به خبرنگاران گفت «به گمان من، مشاهده رئیس‌جمهور این است که ایالات متحده توانمندترین قدرت نظامی روی زمین باقی مانده است. اگر بخواهیم، می‌توانیم به هدف‌های نظامی دست یابیم».\n\n◾️روبیو افزود: «او تصمیمی نگرفته است. او ترجیح داد موضوع را دیپلماتیک حل کند. ولی به گمان من رئیس‌جمهور اعتمادی باورنکردنی بیان می‌کند، به اینکه اگر لازم باشد کاری نظامی انجام دهیم، توانش را خواهیم داشت. و واقعاً هرچه برای موفقیت لازم داریم در اختیار داریم، ولی ترجیح می‌دهیم مسالمت‌آمیز انجامش دهیم».\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8217719.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.64K",
+      "views_label": "1.7K",
       "posted_at": "2026-11-02T12:29:06+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235739",
@@ -152,7 +208,7 @@
       "plain_text": "🔺برق در ایران با اضافه شدن هزینه سوخت نیروگاه‌ها به قبض‌ها گران می‌شود\n\n◾️قبض برق مشترکان در ایران از ابتدای آبان هزینه سوخت نیروگاه‌ها را هم در خود دارد.\n\n◾️سخنگوی صنعت برق گفت تغییر نرخ سوخت نیروگاه‌ها بر قیمت تمام‌شده برق اثر گذاشته و به همین دلیل قیمت سوخت در قبض لحاظ می‌شود.\n\n◾️احسان ذبیح‌زاده در همین حال مدعی شد «هیچ‌گونه افزایش قیمتی در برق نداشتیم» و یادآور شد قبض برق سالی یک بار بالا می‌رود. او افزود این هزینه را کارگروهی با نمایندگان وزارتخانه‌های نیرو، نفت و امور اقتصادی و دارایی و سازمان برنامه و بودجه تعیین می‌کند.\n\n◾️هیچ رقم یا درصدی برای میزان افزایش قبض اعلام نشده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8217720.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.6K",
+      "views_label": "1.63K",
       "posted_at": "2026-11-02T12:22:46+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235738",
@@ -168,7 +224,7 @@
       "plain_text": "🔺آمریکا می‌کوشد صادرات گاز روسیه را به اروپا از نو برقرار کند\n\n◾️آمریکا از بازگشت سریع فروش گاز طبیعی روسیه به اروپا از مسیر خط لوله‌هایی که از خاک اوکراین می‌گذرد پشتیبانی می‌کند، تا پیش از زمستان یک آتش‌بس انرژی به دست آید.\n\n◾️وال‌استریت ژورنال با استناد به اظهارات مقام‌های سه کشور نوشت فرستادگان آمریکا، این ایده را در سفرهای ماه سپتامبر به روسیه و اوکراین پیش کشیدند و گاز روسیه قرار است با واسطه‌ای آمریکایی فروخته شود تا تحریم‌های اروپا دور زده شود.\n\n◾️به ارزیابی مذاکره‌کنندگان آمریکایی، بازگشت روسیه به بازار گاز اروپا انگیزه‌ای نیرومند برای ولادیمیر پوتین می‌سازد تا توافق کند. استفاده از شبکه خط لوله دوران شوروی، درآمد ترانزیتی اوکراین را هم تأمین می‌کند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8217717.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.54K",
+      "views_label": "1.6K",
       "posted_at": "2026-11-02T12:16:14+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235737",
@@ -196,7 +252,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.54K",
+      "views_label": "1.6K",
       "posted_at": "2026-11-02T12:11:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235736",
@@ -212,7 +268,7 @@
       "plain_text": "🔺چین میزبان هم‌زمان مقام امنیتی جمهوری اسلامی و سلطان عمان شد\n\n◾️وانگ یی دیپلمات ارشد چین روز دوشنبه یازدهم آبان در پکن با علی باقری کنی معاون دبیر شورای عالی امنیت ملی جمهوری اسلامی دیدار کرد و از همه طرف‌های منازعه خاورمیانه خواست راه‌حل سیاسی بجویند و به درگیری مسلحانه بازنگردند.\n\n◾️خبرگزاری شینهوا اعلام کرد وانگ یی گفت «گفت‌وگو و مذاکره راه حل منازعه‌های خاورمیانه است».\n\n◾️شی جین‌پینگ رئیس‌جمهور چین در همین روز با سلطان هیثم بن طارق حاکم عمان دیدار کرد.\n\n◾️دو کشور در بیانیه‌ای مشترک و ۲۰ ماده‌ای از طرح‌های صلح چین برای خاورمیانه پشتیبانی کردند و خواستار بازگشت آمریکا و ایران به تفاهم‌نامه اسلام‌آباد و بازگشت ناوبری امن در تنگه هرمز شدند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8217715.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.64K",
+      "views_label": "1.67K",
       "posted_at": "2026-11-02T12:03:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235735",
@@ -228,7 +284,7 @@
       "plain_text": "🔺رویترز: پیش‌نویس پیشنهاد توافق آمریکا و جمهوری اسلامی در گردش است\n\n◾️خبرگزاری رویترز به نقل از یک مقام آگاه از مذاکرات دوحه نوشت پیش‌نویسی برای دریافت نظر در گردش بود و نشست پیگیری ممکن است برگزار شود.\n\n◾️بنابر این گزارش، مذاکره‌کنندگان ایرانی یکشنبه دهم آبان دوحه را ترک کردند، ولی خروجشان به دشواری در مذاکرات مربوط نبود.\n\n◾️رویترز نام طرف‌هایی که پیش‌نویس را در گردش گذاشته‌اند یا نظر می‌دهند اعلام نکرد و ننوشت که آیا نماینده‌ای از آمریکا در دوحه حاضر بوده است.\n\n◾️روند سه‌روزه از هشتم آبان آغاز شد. میانجی‌های قطری جمعه در تهران با مقام‌های ایرانی گفت‌وگو کردند، شنبه مذاکرات به دوحه منتقل شد و یکشنبه سومین روز پیاپی بود. این روند با تماس‌های منظم با آمریکا هماهنگ می‌شود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/reuters-draft-proposal-for-us-iran-deal-being-circulated/8217714.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.85K",
+      "views_label": "1.91K",
       "posted_at": "2026-11-02T11:52:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235734",
@@ -256,7 +312,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.25K",
+      "views_label": "2.28K",
       "posted_at": "2026-11-02T11:26:45+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235733",
@@ -284,7 +340,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.39K",
+      "views_label": "2.42K",
       "posted_at": "2026-11-02T11:14:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235732",
@@ -312,7 +368,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.48K",
+      "views_label": "2.52K",
       "posted_at": "2026-11-02T11:02:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235731",
@@ -340,7 +396,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.45K",
+      "views_label": "2.48K",
       "posted_at": "2026-11-02T10:54:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235730",
@@ -2460,62 +2516,6 @@
       "posted_at": "2026-11-01T13:33:28+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/235645",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/235644",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/W9_5aDjbqzISA-k_TQDnKotbzz7D-hhGAEpinfvrCQwiyiHZ3ysF6ArUFkI5TRa9xSokU35b-j8DZudWUeHQXAc624gVBGboKYRHPwmQiiOyCmE7NGuTo6w-Oy9eBaiYHo0z-XFCiXq7Cg88RE81DIM3PynDrvIjyYT43WsU-g1GDEjzX4YCkjFVr7c8Vv372pbrIm7xUxOsbCO6YsyJ1vrIaj0FnRRTGVoGjuCRvOI-f1AyTgGU85sVCq2omMT1Fgiopib9sy3usgyhRl3Qt4YWN_-84jZSBUnB0geyWEf51H7k3FsNGC0yX2BHWyRvrbuRXimFMfuM_s-dgyGdsQ.jpg",
-      "author_photo_path": "channels/farsivoa/media/de29a749f9c2227bc7f9ef3a.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "یکشنبه ۱۰ آبان، بازنشستگان فولاد و ذوب‌آهن مقابل استانداری اصفهان راهپیمایی و تجمع کردند. معترضان خواستار برقراری بیمه پایه و تکمیلی، پرداخت هزینه‌های معوق درمانی، اجرای مرحله سوم متناسب‌سازی حقوق و بهبود وضعیت معیشتی خود شدند.",
-      "plain_text": "یکشنبه ۱۰ آبان، بازنشستگان فولاد و ذوب‌آهن مقابل استانداری اصفهان راهپیمایی و تجمع کردند. معترضان خواستار برقراری بیمه پایه و تکمیلی، پرداخت هزینه‌های معوق درمانی، اجرای مرحله سوم متناسب‌سازی حقوق و بهبود وضعیت معیشتی خود شدند.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/235644",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/CT6CSn4lyattEbkytlT2v7Ocm77v62-Skmkikm0-FaR0Tc0nSY038waHu9Yu5pzZ9HTsZCp40GV85w2nkfRJp-na35vV5m-L-X7aNwWOPw8MnCPjlvJBpz0VoAuwBr0wKotcW61qW25N2mEZyemOfpTKuEf7NJ6c_tXiq_fRg_OKyJjbQknGuMK4QCFlt5jEWvIINfzxa78EFszbfyJng6-6PHrxH_W-_telB6GvpMbY3V6ycKNQiCGGFcdLmxWjZ1bYOCu8Gim_LJXNAGiT7dtkLqay_nb-pgSNMORFbWN4TBCx3rSB1hCOqwnomKGGqX4bTPJeJvMQ8Tr8DRXw7w",
-          "thumbnail_path": "channels/farsivoa/media/013d5c47df75525b87c61666.jpg",
-          "thumbnail_sha256": "2cd99ced5b01f4ba1eb797cf23862c7ff4bc799e5deb970c1e5886ae177bc575",
-          "duration_label": "0:52",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.05K",
-      "posted_at": "2026-11-01T13:17:39+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/235644",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/235643",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/W9_5aDjbqzISA-k_TQDnKotbzz7D-hhGAEpinfvrCQwiyiHZ3ysF6ArUFkI5TRa9xSokU35b-j8DZudWUeHQXAc624gVBGboKYRHPwmQiiOyCmE7NGuTo6w-Oy9eBaiYHo0z-XFCiXq7Cg88RE81DIM3PynDrvIjyYT43WsU-g1GDEjzX4YCkjFVr7c8Vv372pbrIm7xUxOsbCO6YsyJ1vrIaj0FnRRTGVoGjuCRvOI-f1AyTgGU85sVCq2omMT1Fgiopib9sy3usgyhRl3Qt4YWN_-84jZSBUnB0geyWEf51H7k3FsNGC0yX2BHWyRvrbuRXimFMfuM_s-dgyGdsQ.jpg",
-      "author_photo_path": "channels/farsivoa/media/de29a749f9c2227bc7f9ef3a.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "خبرگزاری رویترز با استناد به یک مقام آگاه از مذاکرات نوشت مذاکره‌کنندگان ایرانی روز یکشنبه دهم آبان برای سومین روز پیاپی در دوحه با میانجیگران قطری گفت‌وگو کردند. هدف، رسیدن به توافقی برای پایان جنگ آمریکا و اسرائیل علیه ایران است.<br><br>بنابر روایت همین مقام، میانجیگران قطری روز جمعه هشتم آبان در تهران با مقام‌های ایرانی نشستند و مذاکرات روز شنبه به دوحه منتقل شد. گفت‌وگوها با تماس‌های منظم با دولت آمریکا هماهنگ می‌شود.<br><br>نگرانی اصلی، تشدید دوباره جنگ پس از انتخابات میان‌دوره‌ای آمریکا در ۱۲ آبان است. دونالد ترامپ رئیس‌جمهور آمریکا گفته است پیش از رأی‌گیری حمله تازه‌ای به جمهوری اسلامی انجام نمی‌دهد و مذاکرات را سازنده خوانده، ولی اقدام نظامی پس از انتخابات را رد نکرده است.<br><br>مارکو روبیو وزیر امور خارجه آمریکا روز شنبه نهم آبان اظهار کرد ترامپ درباره حمله تازه تصمیمی نگرفته و راه‌حل دیپلماتیک را ترجیح می‌دهد.<br><br>جمهوری اسلامی اعلام کرده در صورت حمله تازه، هدف‌های آمریکا و اسرائیل را در کشورهای همسایه می‌زند.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "خبرگزاری رویترز با استناد به یک مقام آگاه از مذاکرات نوشت مذاکره‌کنندگان ایرانی روز یکشنبه دهم آبان برای سومین روز پیاپی در دوحه با میانجیگران قطری گفت‌وگو کردند. هدف، رسیدن به توافقی برای پایان جنگ آمریکا و اسرائیل علیه ایران است.\n\nبنابر روایت همین مقام، میانجیگران قطری روز جمعه هشتم آبان در تهران با مقام‌های ایرانی نشستند و مذاکرات روز شنبه به دوحه منتقل شد. گفت‌وگوها با تماس‌های منظم با دولت آمریکا هماهنگ می‌شود.\n\nنگرانی اصلی، تشدید دوباره جنگ پس از انتخابات میان‌دوره‌ای آمریکا در ۱۲ آبان است. دونالد ترامپ رئیس‌جمهور آمریکا گفته است پیش از رأی‌گیری حمله تازه‌ای به جمهوری اسلامی انجام نمی‌دهد و مذاکرات را سازنده خوانده، ولی اقدام نظامی پس از انتخابات را رد نکرده است.\n\nمارکو روبیو وزیر امور خارجه آمریکا روز شنبه نهم آبان اظهار کرد ترامپ درباره حمله تازه تصمیمی نگرفته و راه‌حل دیپلماتیک را ترجیح می‌دهد.\n\nجمهوری اسلامی اعلام کرده در صورت حمله تازه، هدف‌های آمریکا و اسرائیل را در کشورهای همسایه می‌زند.\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/235643",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/tFRERSgGHbGQbuiujp8wrXP9KVoJEMLQh1rjh3MH0TR9VflFZnRxHO8qnbWcmOwTHT9mKT_2V-Zb17KepNtfXxmd41S_W0ut1p5D4pEFh-TCkbYtXnVUdcB4kiLcxcragBxVO5KZgW4MNyOuh2_D9pQa4_LObOBMaAjAsEaggNQp9y19Cjp2wnZNy56IAR74aMN8Zm5Agrf54B5Bw7tO1hnBGNv81bklPnCRe4mH3Kiv__q9-v9tBFLb1ve1dK-rUOmippp3z5rk4_NRjU9uSXp2nsB7oAz4UqsEOcfKByzxUEXLDOzdInRTRerMBASfmwNl4R5WySg0Gsxi7Zm3Fw.jpg",
-          "thumbnail_path": "channels/farsivoa/media/cada0976a2b86eb1528f6802.jpg",
-          "thumbnail_sha256": "a1e6efc5ce6c7dea67ba2da3ec64d57cf860f10611bc13c68dda6422cfb982c5",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.27K",
-      "posted_at": "2026-11-01T13:00:40+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/235643",
       "reply": null
     }
   ]
