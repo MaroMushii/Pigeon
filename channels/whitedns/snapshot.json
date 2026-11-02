@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-02T14:52:01.581Z",
+  "fetched_at": "2026-11-02T14:57:04.967Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,47 @@
     "subscriber_count": "112K"
   },
   "posts": [
+    {
+      "id": "whitedns/2217",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn4.telesco.pe/file/gSYyOh4aPyjP1lKY9MjR3Ugl-rMhZHM9CmxBMAAKKg9YUTbx1j1T3rYL4kVbrULx2FcGzsqwrtYVaEX969KLd2vzaorrnhHkf4oQzkg7eSgt9JAj5T29pM67T6fhkXDYKrK3l6y0WNvVR6Ta6qhF_lR-2gk4tBYKj1omfvbfFpgVUu-Rg3gpgKNFiqTr_fKAx7Ms-4Ui_-6fCyszAx_ubYET-akNUDXAhbHNbUbsW-WF9AWEBxa9VaeUp4RJ0Pj7xj2A1ju0KML5iXW0e2lCHZdXv5o_6sC3TCIg34CLESGi_KCZmSOdik4zWSdIX4IJth3lwRgxoPV7f3dtBe4GUw.jpg",
+      "author_photo_path": "channels/whitedns/media/2ceb5689f9d141773b0aae31.jpg",
+      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
+      "body_html": "نصب و راه‌اندازی WhiteDNS فقط با یک ربات تلگرامی!<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F988C.png')\"><b>😌</b></i><br><br>توی این آموزش یاد می‌گیریم چطور با ربات WhiteDNS Server Manager سرورمون رو راه‌اندازی کنیم، پنل رو نصب کنیم و کانفیگ بسازیم. در ادامه هم اتصال با Resolverهای جدید و راه‌اندازی پروکسی تلگرام رو تست می‌کنیم! <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA5B9.png')\"><b>🥹</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EAC.png')\"><b>🎬</b></i>تماشا در یوتیوب :  <a href=\"https://youtu.be/YrIX1YxRxf0\" target=\"_blank\" rel=\"noopener\">https://youtu.be/YrIX1YxRxf0</a><br><br>·:¨༺ <a href=\"https://t.me/BlueKnight_Net\" target=\"_blank\">@BlueKnight_Net</a> ༻¨:·",
+      "plain_text": "نصب و راه‌اندازی WhiteDNS فقط با یک ربات تلگرامی!😌\n\nتوی این آموزش یاد می‌گیریم چطور با ربات WhiteDNS Server Manager سرورمون رو راه‌اندازی کنیم، پنل رو نصب کنیم و کانفیگ بسازیم. در ادامه هم اتصال با Resolverهای جدید و راه‌اندازی پروکسی تلگرام رو تست می‌کنیم! 🥹✨\n\n🎬تماشا در یوتیوب : https://youtu.be/YrIX1YxRxf0\n\n·:¨༺ @BlueKnight_Net ༻¨:·",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2217",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/THqPPlgI30PVyUr3Gscw1XHcy_ok59rjoJhYnh8WFXsSa70Rhffk8TQEvKO9Xq2cZr3yvG849MrTNWJi9hJ5cvmIM8fV-6I3TdlfpTo1h4PEDvlGAxiDkUIuVxUHPN0LyhlER2W-AORD0c8o0leRUFUE-x6UYuh4P6aV4a9c3qw-OMGxjhatKb7PsUApiwXMacyR6Xwi5YV6shu1RVIEhChj3uCF0tAAa6aG5NFyAnuLTkqPQi_6oHjIeln6Ky6xY6mWUq_wGbH4rwLqHtlmIx3x808sk3tBcOUcZ2oDDy32tARswRLnQej5wkCQG-aizfABDYOKpNvpc4hFGCyjhQ.jpg",
+          "thumbnail_path": "channels/whitedns/media/e34f6133f15ea7d844697f49.jpg",
+          "thumbnail_sha256": "f600fa5dfd848f248899979e719bd1dbdc78e60f5fe8f99feeb5c4cd5581533f",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        },
+        {
+          "emoji": "🙏",
+          "count": "1"
+        }
+      ],
+      "views_label": "127",
+      "posted_at": "2026-11-02T14:55:45+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2217",
+      "reply": null
+    },
     {
       "id": "whitedns/2216",
       "author_name": "White DNS",
@@ -35,7 +76,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "215"
+          "count": "216"
         },
         {
           "emoji": "👍",
@@ -758,7 +799,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.1K",
+      "views_label": "13.2K",
       "posted_at": "2026-10-30T06:06:31+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2202",
@@ -868,7 +909,7 @@
           "count": "2"
         }
       ],
-      "views_label": "45.9K",
+      "views_label": "46K",
       "posted_at": "2026-10-30T02:50:21+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2198",
@@ -1080,7 +1121,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.7K",
+      "views_label": "16.8K",
       "posted_at": "2026-10-29T00:38:40+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2191",
@@ -1173,6 +1214,10 @@
         }
       ],
       "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
         {
           "emoji": "❤",
           "count": "205"
@@ -5298,55 +5343,6 @@
       "posted_at": "2026-10-22T15:19:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2096",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2095",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/PvuAfXH2UAF8VFkbM7EGMD7wW3tvrezDaA_Sr08k-O3rJEFhvOuRDRiH5Bh4Qqxy4V8-cI_LMTu7cqRvOjeNsln-mphpLDK8ecepG1t6WUA7ngLwEKZm0ZFPBYTYt-18UNMVOxDrRBFv4ZubCzftI7qSHZyVQ4-AAd1RMX5AziJvJ7KAiNtYmuetMExB0ewdgqIMakRN4gcEqOF4A2KnU77SfnscsnT7CX_LHN5Lwf20sEyYMFjdo1etujfKndt740jzBNdTnj13ooIjy05k5P9zO2xsRX9kbeaJJ8Wzv_Lo9wnxSsKUl88Fs_PI5NVkabXMJq15nEXfGQJZ3ZfpLQ.jpg",
-      "author_photo_path": "channels/whitedns/media/f2b0c9d657bc05a996afc59e.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "",
-      "plain_text": "",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/whitedns/2095",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/ujSdDozzvUR0D0lNOz86FYiscE8JqKFF1LEwn8Ywenixn_nGQvdSxEsvZdKq0Yg1fr-1rhMQsEuJ6k81IyTFG9-_OnMEX2sEM5ibka47lPAxRhMXFZ04Rs4XBFHwH2jinziWqMLe2ppIXPPaMMs2gYZJJmx0faoKYxjjHybd4P-INOmIT3TGkwbkPqeDlaLsx_JNW36EGOEJif2OH5A4-SSL82pZDbDj4HjD2fIC9YJ1LF8CzCqm83vP-6t7qfMA6IMoWOiQy_Tavwd96jwOCrUwchFBdHS-jrAdbRJ81l0UsvtUJLfMrI2HpLiuh8aJu0-wVVkiffS6AURB5aO08Q",
-          "thumbnail_path": "channels/whitedns/media/ca90f23ea2d55994fa6e88eb.jpg",
-          "thumbnail_sha256": "fc96fe7963cdd701e4c1af415295d489ec71048636c8ea097fcdb77313e1c012",
-          "duration_label": null,
-          "aspect_ratio": 1.3333333333333333
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "59"
-        },
-        {
-          "emoji": "🍓",
-          "count": "5"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "🫡",
-          "count": "3"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "8.43K",
-      "posted_at": "2026-10-22T15:17:34+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2095",
       "reply": null
     }
   ]
