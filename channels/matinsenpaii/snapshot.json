@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-04T04:32:09.135Z",
+  "fetched_at": "2026-11-04T04:37:28.021Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,47 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5774",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>یه مدل زبانی، وزن‌های یه مدل دیگه رو مستقیم ویرایش کرده و ریاضیش ۶ برابر شده</b><br><br>تیمی از MIT CSAIL می‌گن از GPT-6 Astra خواستن Qwen3.5-0.8B رو توی ریاضی بهتر کنه، بدون هیچ آموزش و گرادیانی. مدل فقط ۰٫۰۱۶ درصد از وزن‌های مدل کوچیک رو ویرایش کرده، دقیقا جاهایی که باعث حلقه‌های استدلالی خراب می‌شدن.<br><br>نتیجه‌ای که گزارش کردن:<br>- امتیاز MATH-500 از ۷٫۹ درصد رسیده به ۴۸٫۱ درصد، یعنی حدود ۶ برابر<br>- پیروی از دستور (IFEval) هم ۳ برابر بهتر شده<br><br>اسم ایده رو گذاشتن Weight-Space Programming؛ یعنی مدل وزن‌های خام رو مثل کد می‌خونه، ایراد رو پیدا می‌کنه و همونجا وصله‌ش می‌زنه. البته GPT-6 Astra هنوز رسما معرفی نشده و این فعلا ادعای خودشونه.<br>نه Fine-Tune در کاره، نه چیزی.<br><br>جزئیات کامل توی بلاگشونه:<br><a href=\"https://rikiyat.github.io/blog/weight-space-programming/\" target=\"_blank\" rel=\"noopener\">https://rikiyat.github.io/blog/weight-space-programming/</a><br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://x.com/rikiyatakehi/status/2117313742891327994\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "یه مدل زبانی، وزن‌های یه مدل دیگه رو مستقیم ویرایش کرده و ریاضیش ۶ برابر شده\n\nتیمی از MIT CSAIL می‌گن از GPT-6 Astra خواستن Qwen3.5-0.8B رو توی ریاضی بهتر کنه، بدون هیچ آموزش و گرادیانی. مدل فقط ۰٫۰۱۶ درصد از وزن‌های مدل کوچیک رو ویرایش کرده، دقیقا جاهایی که باعث حلقه‌های استدلالی خراب می‌شدن.\n\nنتیجه‌ای که گزارش کردن:\n- امتیاز MATH-500 از ۷٫۹ درصد رسیده به ۴۸٫۱ درصد، یعنی حدود ۶ برابر\n- پیروی از دستور (IFEval) هم ۳ برابر بهتر شده\n\nاسم ایده رو گذاشتن Weight-Space Programming؛ یعنی مدل وزن‌های خام رو مثل کد می‌خونه، ایراد رو پیدا می‌کنه و همونجا وصله‌ش می‌زنه. البته GPT-6 Astra هنوز رسما معرفی نشده و این فعلا ادعای خودشونه.\nنه Fine-Tune در کاره، نه چیزی.\n\nجزئیات کامل توی بلاگشونه:\nhttps://rikiyat.github.io/blog/weight-space-programming/\n\n🔗منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5774",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/RNJpDvjH-BgiseTXheh2c84nunUjN0-xW87m-xatf6Vcs1UNjAGma2lQ7g2D2iFPGHl10d2Oxf5sDemEFVU_Qf2XY38DbsZ_cb7-0EBFHNzr-N8fe6a5m103GxNpErL60rafiiTul_5cDV6ZpDiBFYSz7FiLCJHMRLW6H2fJv6lSDpXXO5VyK2pIPw7_jHcu4AP4kUz-I78AZnT-TPKjPzIlYI6TpjITtNfhzVmMpvz1DxlNE2Tf4Od2KLuqW6CbWNBndepk9XDilYna2B2T-4RlvAbk2VJFAsf82UziZwLqC1iePpXC01LnvR1waPATIfSO9wIx0Y4Qfa9UFMsY-g.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/9c00fa9d5db3637c4978a8d6.jpg",
+          "thumbnail_sha256": "dc03737e843b6703ebc2b310d8f835ed148fc6cb1438d2b4da402cd96f1f73c2",
+          "duration_label": null,
+          "aspect_ratio": 1.9184652278177459
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
+          "emoji": "🆒",
+          "count": "1"
+        }
+      ],
+      "views_label": "671",
+      "posted_at": "2026-11-04T04:32:57+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5774",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5773",
       "author_name": "Matin SenPai",
@@ -39,14 +80,14 @@
         },
         {
           "emoji": "❤",
-          "count": "103"
+          "count": "104"
         },
         {
           "emoji": "👍",
           "count": "15"
         }
       ],
-      "views_label": "11.5K",
+      "views_label": "11.8K",
       "posted_at": "2026-11-03T21:02:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5773",
@@ -68,7 +109,7 @@
         },
         {
           "emoji": "❤",
-          "count": "259"
+          "count": "262"
         },
         {
           "emoji": "💔",
@@ -83,7 +124,7 @@
           "count": "2"
         }
       ],
-      "views_label": "16K",
+      "views_label": "16.3K",
       "posted_at": "2026-11-03T19:38:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5772",
@@ -117,7 +158,7 @@
         },
         {
           "emoji": "💔",
-          "count": "764"
+          "count": "770"
         },
         {
           "emoji": "😁",
@@ -137,10 +178,10 @@
         },
         {
           "emoji": "👍",
-          "count": "1"
+          "count": "3"
         }
       ],
-      "views_label": "17.2K",
+      "views_label": "17.4K",
       "posted_at": "2026-11-03T19:31:52+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5771",
@@ -158,7 +199,7 @@
       "reactions": [
         {
           "emoji": "💯",
-          "count": "29"
+          "count": "30"
         },
         {
           "emoji": "❤",
@@ -173,7 +214,7 @@
           "count": "3"
         }
       ],
-      "views_label": "19.3K",
+      "views_label": "19.5K",
       "posted_at": "2026-11-03T17:52:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5770",
@@ -203,7 +244,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "84"
+          "count": "85"
         },
         {
           "emoji": "🆒",
@@ -226,7 +267,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.1K",
+      "views_label": "20.2K",
       "posted_at": "2026-11-03T17:39:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5769",
@@ -248,7 +289,7 @@
         },
         {
           "emoji": "👍",
-          "count": "51"
+          "count": "52"
         },
         {
           "emoji": "❤",
@@ -293,7 +334,7 @@
         },
         {
           "emoji": "❤",
-          "count": "459"
+          "count": "460"
         },
         {
           "emoji": "👍",
@@ -341,7 +382,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.6K",
+      "views_label": "20.7K",
       "posted_at": "2026-11-03T14:49:35+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5766",
@@ -445,7 +486,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.5K",
+      "views_label": "21.6K",
       "posted_at": "2026-11-03T10:42:53+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5762",
@@ -494,7 +535,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-11-03T09:49:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5761",
@@ -523,7 +564,7 @@
           "count": "1"
         }
       ],
-      "views_label": "19.7K",
+      "views_label": "19.8K",
       "posted_at": "2026-11-03T09:03:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5760",
@@ -4608,43 +4649,6 @@
       "posted_at": "2026-10-23T09:42:12+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5665",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5664",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/crHil8DaasZsfTWQTklXCtlmL4DDX7GDI4em5feTf_X3SVpAHFbyVJcFQAtW6hdEzUcf-OmmM1nr_WblDCDw590VFMkEUgYIEUkfA9IaGFePUA8zoY3CE9pcbqhyVcU7O3Rcn4lQOf8K3FnTXACzKOueZ-RmgNd4-Ja8alpjpIKwfBP2soOE-ve38CL7XLzElQB0UPL5NoU6YP8VrERrtcz9S5a1TZdHNfyxPnYfHNXz8s7VGQYKeDH_Kx_HydMTAF1doCTcdjZoR5T3Vjyjppag301CIODN7YY-yWMQ1pC38xHjbQPYsEdl07dHYYLLBm7fnk4Z1p2zST_8QihpPA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/d656b249a6da06892175140d.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "یه سری از دوستان برگشتن میگن اوپراتورها رو تحریم کنیم به خاطر افزایش قیمت اینترنت<br>که خنده‌دارترین حرفیه که میشه زد. چی رو دارید تحریم می‌کنید دقیقا؟<br>انحصار رو مگه میشه تحریم کرد؟ مثل همون قضیه تحریم کردن اسنپ و ... هست(که دیدیم چقدر جواب داد)<br>اون تحریم فلان شرکت و اعتراض و اینها مال کشورهای اروپاییه. نه ما<br>حوصله‌ی توضیح دادنش رو هم ندارم",
-      "plain_text": "یه سری از دوستان برگشتن میگن اوپراتورها رو تحریم کنیم به خاطر افزایش قیمت اینترنت\nکه خنده‌دارترین حرفیه که میشه زد. چی رو دارید تحریم می‌کنید دقیقا؟\nانحصار رو مگه میشه تحریم کرد؟ مثل همون قضیه تحریم کردن اسنپ و ... هست(که دیدیم چقدر جواب داد)\nاون تحریم فلان شرکت و اعتراض و اینها مال کشورهای اروپاییه. نه ما\nحوصله‌ی توضیح دادنش رو هم ندارم",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "687"
-        },
-        {
-          "emoji": "💔",
-          "count": "44"
-        },
-        {
-          "emoji": "❤",
-          "count": "17"
-        },
-        {
-          "emoji": "😁",
-          "count": "4"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        }
-      ],
-      "views_label": "25.3K",
-      "posted_at": "2026-10-23T09:38:00+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5664",
       "reply": null
     }
   ]
