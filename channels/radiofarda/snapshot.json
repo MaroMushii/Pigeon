@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-04T10:47:08.395Z",
+  "fetched_at": "2026-11-04T10:57:08.569Z",
   "channel": {
     "username": "radiofarda",
     "title": "RadioFarda",
@@ -11,6 +11,39 @@
     "subscriber_count": "110K"
   },
   "posts": [
+    {
+      "id": "radiofarda/162845",
+      "author_name": "RadioFarda",
+      "author_photo_url": "https://cdn4.telesco.pe/file/FpLdjx-kFjUAuITMrE8ENXYULzQMXNd6Am8mlx1e_uOZV8a5HkdysUEuVsDMX5yTX-PM6Cq4TFx-zdGSeTNElAxAKOuWPMjwpxoSQ9AKDrE09ASRNbd5g2Ynf2wCe9utkaGwyxVqvhYKnokMHc-LG81G3oUxgNP94sL0fyj5qRmmgTaccqKxKv6gvzdFTERdCAtqjDsX2DoG2-eMv1oNuTmyUl4icX14xH7yXXQxyTS57VoX337ZRPHKHiN5RBL3Z5Iwq35A-gHioH8fvivHi56js6scs2V7DaJVRzrdRfBaG3bX20AXHngqu3X3SQ_c0_B72CI5EJ8dUHZwdgV9AQ.jpg",
+      "author_photo_path": "channels/radiofarda/media/8a9b2db9ce297fa6053b04e9.jpg",
+      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
+      "body_html": "",
+      "plain_text": "",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/radiofarda/162845",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/bJxvH9PUCDCSsuB10Dk98Y0jTTQc20YfmvqFKIBiEd9BS2ygFHpYi2MwBVQnFFaOBDLdVY8aadNeQsMmOJ3WJtgebqDXNGhW7NSy9TFxbZBJDdI7WWEy28rsXbz0ux92WTknCuvSM9bDpRS-R0fopu3Q2pIspIit78piCTnRhjXzvwFXUlOmrTLi4y6FZhXQYoe1xI8BOheeoQMeHD7LH9zHj0gqke5Z2hx-3AmSNUECx367jEEN3NWdD1cCH_u9hT0rJwfJoavmM8M4KPQDWB21wkgbPSSIN89kNQVsYJiJiZKinLJ5-1wr-va3wSAwCz_FGab11Cl46OQjlGdAHg.jpg",
+          "thumbnail_path": "channels/radiofarda/media/0b6ad61813fd1dc4f2f2c066.jpg",
+          "thumbnail_sha256": "1486a9702a6981fe585fb1a2234e6f4b3d859e1ed090f08733427b1d948da9a4",
+          "duration_label": null,
+          "aspect_ratio": 1.7738359201773837
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "196",
+      "posted_at": "2026-11-04T10:53:59+00:00",
+      "edited": false,
+      "permalink": "https://t.me/radiofarda/162845",
+      "reply": null
+    },
     {
       "id": "radiofarda/162844",
       "author_name": "RadioFarda",
@@ -23,14 +56,14 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "❤",
           "count": "2"
         }
       ],
-      "views_label": "1.5K",
+      "views_label": "1.79K",
       "posted_at": "2026-11-04T10:02:55+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162844",
@@ -60,7 +93,7 @@
       "reactions": [
         {
           "emoji": "😡",
-          "count": "9"
+          "count": "11"
         },
         {
           "emoji": "👍",
@@ -71,7 +104,7 @@
           "count": "2"
         }
       ],
-      "views_label": "2.07K",
+      "views_label": "2.31K",
       "posted_at": "2026-11-04T09:43:07+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162843",
@@ -89,11 +122,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "15"
+          "count": "17"
         },
         {
           "emoji": "👎",
-          "count": "7"
+          "count": "10"
         },
         {
           "emoji": "👍",
@@ -104,7 +137,7 @@
           "count": "2"
         }
       ],
-      "views_label": "2.85K",
+      "views_label": "3.03K",
       "posted_at": "2026-11-04T09:11:10+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162842",
@@ -122,7 +155,7 @@
       "reactions": [
         {
           "emoji": "👎",
-          "count": "18"
+          "count": "20"
         },
         {
           "emoji": "❤",
@@ -133,7 +166,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.16K",
+      "views_label": "4.27K",
       "posted_at": "2026-11-04T07:57:28+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162841",
@@ -163,22 +196,22 @@
       "reactions": [
         {
           "emoji": "😡",
-          "count": "26"
+          "count": "28"
         },
         {
           "emoji": "👍",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "👎",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "❤",
           "count": "3"
         }
       ],
-      "views_label": "4.22K",
+      "views_label": "4.32K",
       "posted_at": "2026-11-04T07:41:50+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162840",
@@ -208,11 +241,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "12"
+          "count": "13"
         },
         {
           "emoji": "👎",
-          "count": "8"
+          "count": "10"
         },
         {
           "emoji": "👍",
@@ -223,7 +256,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.92K",
+      "views_label": "5K",
       "posted_at": "2026-11-04T07:06:39+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162839",
@@ -293,7 +326,7 @@
           "count": "2"
         }
       ],
-      "views_label": "5.7K",
+      "views_label": "5.78K",
       "posted_at": "2026-11-04T05:35:55+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162837",
@@ -322,7 +355,7 @@
           "count": "2"
         }
       ],
-      "views_label": "5.61K",
+      "views_label": "5.69K",
       "posted_at": "2026-11-04T05:34:23+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162836",
@@ -352,7 +385,7 @@
       "reactions": [
         {
           "emoji": "😡",
-          "count": "22"
+          "count": "23"
         },
         {
           "emoji": "❤",
@@ -363,7 +396,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.43K",
+      "views_label": "8.47K",
       "posted_at": "2026-11-03T20:54:46+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162835",
@@ -397,10 +430,10 @@
         },
         {
           "emoji": "😍",
-          "count": "5"
+          "count": "6"
         }
       ],
-      "views_label": "6.97K",
+      "views_label": "7.01K",
       "posted_at": "2026-11-03T20:51:56+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162834",
@@ -485,14 +518,14 @@
       "reactions": [
         {
           "emoji": "😢",
-          "count": "36"
+          "count": "37"
         },
         {
           "emoji": "❤",
           "count": "19"
         }
       ],
-      "views_label": "7.54K",
+      "views_label": "7.56K",
       "posted_at": "2026-11-03T18:37:51+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162828",
@@ -526,7 +559,7 @@
         },
         {
           "emoji": "❤",
-          "count": "14"
+          "count": "15"
         },
         {
           "emoji": "👏",
@@ -541,7 +574,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.46K",
+      "views_label": "7.47K",
       "posted_at": "2026-11-03T17:50:44+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162827",
@@ -570,7 +603,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.73K",
+      "views_label": "6.74K",
       "posted_at": "2026-11-03T17:23:48+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162826",
@@ -600,7 +633,7 @@
       "reactions": [
         {
           "emoji": "😡",
-          "count": "21"
+          "count": "22"
         },
         {
           "emoji": "❤",
@@ -615,7 +648,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.09K",
+      "views_label": "7.1K",
       "posted_at": "2026-11-03T16:32:02+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162825",
@@ -3563,39 +3596,6 @@
       "posted_at": "2026-10-30T18:46:55+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162739",
-      "reply": null
-    },
-    {
-      "id": "radiofarda/162738",
-      "author_name": "RadioFarda",
-      "author_photo_url": "https://cdn4.telesco.pe/file/f9wc0DDDvpl2OLhxJmHsaRGxJE3KJ-jQeWE7Xy5e2HehJvtHS1agvaCAylLIel3S9ES6dC-dp4hlzj8_IS08RQ2dJscmmPOucBFJVCyd3aNu5zPxcC1NxAS-HoW5zgAHN5hOMuCvjizz60vmHMnsJHuHq65ci8-K55lBPW5LPakcSTu8oPcHMcSlVjkIUA28q8nC2f8IRusWXA0-NM4Aw0qf6IgAOH8kM2u4Vj8p-RLv2396iQ_puyZl8XISdRCQpO669Mvqv0PXBmzwccU4tD-pOfywMwUwVmJTokkGHb1m1w8tZfgwqTtJQ4NufFZrK4T8l6JJYwAnlvH66YSvuQ.jpg",
-      "author_photo_path": "channels/radiofarda/media/bcbf9b1d39fa17c416a5053d.jpg",
-      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>در حالی که گمانه‌زنی‌ها درباره احتمال حملات تازه آمریکا به ایران افزایش یافته است، صدراعظم آلمان خواستار دنبال کردن راه‌حل دیپلماتیک برای پایان این درگیری شد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>فریدریش مرتس روز جمعه هشتم آبان در پایان سفر خود به کره‌ جنوبی گفت: «من فقط می‌توانم به همه طرف‌های درگیر بگویم: این مناقشه راه‌حل نظامی ندارد».<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>او افزود که آلمان و شرکایش از طریق کانال‌های مختلف در حال هماهنگی و تشدید تلاش‌های دیپلماتیک هستند تا هرچه سریع‌تر به این درگیری پایان دهند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>مرتس تأکید کرد که آلمان از نظر اقتصادی منافعی جدی در پایان یافتن این بحران دارد و خاطرنشان کرد که افزایش قیمت انرژی تاکنون بیش از ۱۰۰ میلیارد یورو (۱۱۵ میلیارد دلار) به اروپا هزینه تحمیل کرده است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>اظهارات مرتس اندکی پس از آن مطرح شد که رسانه‌های آمریکایی گزارش دادند دونالد ترامپ، رئیس‌جمهور آمریکا، دیداری کم‌سابقه و حضوری با یکی از فرماندهان ارشد نظامی برگزار کرده تا درباره گام‌های بعدی در جنگ با ایران گفت‌وگو کند.<br><br><br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a>",
-      "plain_text": "🔸در حالی که گمانه‌زنی‌ها درباره احتمال حملات تازه آمریکا به ایران افزایش یافته است، صدراعظم آلمان خواستار دنبال کردن راه‌حل دیپلماتیک برای پایان این درگیری شد.\n\n🔸فریدریش مرتس روز جمعه هشتم آبان در پایان سفر خود به کره‌ جنوبی گفت: «من فقط می‌توانم به همه طرف‌های درگیر بگویم: این مناقشه راه‌حل نظامی ندارد».\n\n🔸او افزود که آلمان و شرکایش از طریق کانال‌های مختلف در حال هماهنگی و تشدید تلاش‌های دیپلماتیک هستند تا هرچه سریع‌تر به این درگیری پایان دهند.\n\n🔸مرتس تأکید کرد که آلمان از نظر اقتصادی منافعی جدی در پایان یافتن این بحران دارد و خاطرنشان کرد که افزایش قیمت انرژی تاکنون بیش از ۱۰۰ میلیارد یورو (۱۱۵ میلیارد دلار) به اروپا هزینه تحمیل کرده است.\n\n🔸اظهارات مرتس اندکی پس از آن مطرح شد که رسانه‌های آمریکایی گزارش دادند دونالد ترامپ، رئیس‌جمهور آمریکا، دیداری کم‌سابقه و حضوری با یکی از فرماندهان ارشد نظامی برگزار کرده تا درباره گام‌های بعدی در جنگ با ایران گفت‌وگو کند.\n\n\n@RadioFarda",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/radiofarda/162738",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/iGe6BI0qeROWtXYgOuLAKbo46l6kY5D_Hnrr7B2QreDY4rTW0A9mAnaT7zHMwi0qsea6bzcjm961e4CSlq-mD_3mIuxUYtFFE65X5Auy4XY123R45aZsDmjPn2BgIY4IqTSMjR5_S8GHRnv8ppkkCnCc_bRFMY1ljdHTiTYaKlmo9J4yzDDkosWbpkh0QL1wLyMkrsfPYzBfnccA5at4BBj0vp2g5belRo6GgStEgmlKQMevZ9jKMkx3U2pAdL8guI2_xD6l79pR3r-6kvLkSqVCEAgoQ6ULdrbZb4je8qZ5kJwYrLFCe8FAV9NdoxzaM-25I6U4RaIh5b_Bi7S2Ig.jpg",
-          "thumbnail_path": "channels/radiofarda/media/686cf9ea45103bc3bb23387c.jpg",
-          "thumbnail_sha256": "e0430776f1468c8239aa4af6d2af6e7e6720d97e85f73f4ae76d4daa3bfb491e",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😡",
-          "count": "29"
-        }
-      ],
-      "views_label": "7.28K",
-      "posted_at": "2026-10-30T18:25:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/radiofarda/162738",
       "reply": null
     }
   ]
