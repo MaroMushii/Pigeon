@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-05T05:57:18.194Z",
+  "fetched_at": "2026-11-05T06:02:07.132Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,39 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5788",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/AOZrG5xgecc1aMSyBwm1Jm9YycT6bsLH2wtfHcXYM1l27KkE5NTz8Cfui3GLWap3YdV_uIARGNjlq5caq5S6FLQFEgSki2b8DnOpykU1V4jUpc-RhaHqEKpRfMCfZnWvFDvRBxXgdxKZ_XB6aSXdUGW7iLNEV75ZRjZkxSaBRtxFj1sMcPYBgBA4ZDKucWqa2S0P072Bjz0GnxKCcEp34tMkzpqHvIdPQaP44Ivp9PfNA6ovIwL7Ytc035kRwD4U-By1XAdHGV4GfWz5V4CNzJNueSvN399tzmTKuQUAtGY9GRm30j6Xg9NKwcppy7Xq4hgySzSx4nU_cYZGpiQ3ug.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/836e357e74fc613540af486f.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>نسخه ۰٫۹٫۰ llama.cpp اومد؛ با پشتیبانی FP8 و مدل‌های جدید</b><br><br>صفحه ریلیز llama.cpp می‌گه نسخه ۰٫۹٫۰ با پشتیبانی از کوانتیزاسیون OCP FP8 E4M3 اومده؛ یعنی یه فرمت فشرده‌سازی وزن‌ها که مدل رو سبک‌تر و سریع‌تر می‌کنه، به‌علاوه یه عملگر تازه flash_attn_ext_rows که کش یکپارچه KV رو برای استنتاج چند دنباله‌ای بهینه‌تر می‌کنه.<br><br>چهار معماری تازه هم اضافه شده: Clover و Limite و Metis-1.6 و Mistral Large 4. توی بخش صدا هم Chatterbox TTS و Nemotron 3.5 Transcribe برای رونویسی آفلاین به ۴۰ زبان اومده و مدل‌های Gemma 4 E2B و E4B هم توی Prefill بهینه‌سازی بزرگی گرفتن.<br><br>نسخه ggml هم به ۰٫۲۹٫۰ رسیده و پشتیبانی از موازی‌سازی چند نودی با NCCL بهش اضافه شده.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "نسخه ۰٫۹٫۰ llama.cpp اومد؛ با پشتیبانی FP8 و مدل‌های جدید\n\nصفحه ریلیز llama.cpp می‌گه نسخه ۰٫۹٫۰ با پشتیبانی از کوانتیزاسیون OCP FP8 E4M3 اومده؛ یعنی یه فرمت فشرده‌سازی وزن‌ها که مدل رو سبک‌تر و سریع‌تر می‌کنه، به‌علاوه یه عملگر تازه flash_attn_ext_rows که کش یکپارچه KV رو برای استنتاج چند دنباله‌ای بهینه‌تر می‌کنه.\n\nچهار معماری تازه هم اضافه شده: Clover و Limite و Metis-1.6 و Mistral Large 4. توی بخش صدا هم Chatterbox TTS و Nemotron 3.5 Transcribe برای رونویسی آفلاین به ۴۰ زبان اومده و مدل‌های Gemma 4 E2B و E4B هم توی Prefill بهینه‌سازی بزرگی گرفتن.\n\nنسخه ggml هم به ۰٫۲۹٫۰ رسیده و پشتیبانی از موازی‌سازی چند نودی با NCCL بهش اضافه شده.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5788",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Vi6drR1sW0mAqjAPorTtOVHPFxKLNJ45IT0d3JozdRteXuSIUY9G4J-CatpRhZMViE9rRA0X-4zY6UXo_wSMnUI8-j7olFMSe_IjgFIunQ83uhJeumNdFgB1HgDhqR8UfTdMHxpq1d-WNrofS4D1goMpOvdJwQetiRYKl3zN4HdQNOHZItKKBkK9oEhvBxDHbAMnsjfcBkq3Jyxo4m8CMCjY4cMolJQDlheB-vfqRurPfEZaoGPo2vDkiUS5QSwsZ0Dw_njB7TUqBScDKa5ciL7VyXJ74hmlQk8ozgeglTv7MEzO0CgBRN1TgTopkp78mgRDGYx7U1BNCISK2dppng.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/65df53364fb7e6c67f0b3f15.jpg",
+          "thumbnail_sha256": "d2fcce7490f2b170bb58740bea04777f8963ff5f8237f11acbeeea9aed7223d5",
+          "duration_label": null,
+          "aspect_ratio": 1.3333333333333333
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        }
+      ],
+      "views_label": "852",
+      "posted_at": "2026-11-05T05:56:57+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5788",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5787",
       "author_name": "Matin SenPai",
@@ -35,11 +68,11 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "53"
+          "count": "55"
         },
         {
           "emoji": "❤",
-          "count": "24"
+          "count": "25"
         },
         {
           "emoji": "💔",
@@ -50,7 +83,7 @@
           "count": "2"
         }
       ],
-      "views_label": "6.05K",
+      "views_label": "6.4K",
       "posted_at": "2026-11-05T03:40:57+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5787",
@@ -68,7 +101,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "97"
+          "count": "102"
         },
         {
           "emoji": "👍",
@@ -87,7 +120,7 @@
           "count": "3"
         }
       ],
-      "views_label": "9.22K",
+      "views_label": "9.47K",
       "posted_at": "2026-11-05T00:19:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5786",
@@ -120,7 +153,7 @@
           "count": "2"
         }
       ],
-      "views_label": "16.5K",
+      "views_label": "16.6K",
       "posted_at": "2026-11-04T19:10:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5785",
@@ -151,7 +184,7 @@
         },
         {
           "emoji": "👍",
-          "count": "54"
+          "count": "55"
         },
         {
           "emoji": "💔",
@@ -170,7 +203,7 @@
           "count": "2"
         }
       ],
-      "views_label": "16.9K",
+      "views_label": "17K",
       "posted_at": "2026-11-04T18:56:39+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5784",
@@ -215,7 +248,7 @@
           "count": "2"
         }
       ],
-      "views_label": "16.7K",
+      "views_label": "16.8K",
       "posted_at": "2026-11-04T18:31:56+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5783",
@@ -264,7 +297,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.5K",
+      "views_label": "17.6K",
       "posted_at": "2026-11-04T17:07:42+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5782",
@@ -327,7 +360,7 @@
         },
         {
           "emoji": "❤",
-          "count": "180"
+          "count": "181"
         },
         {
           "emoji": "👍",
@@ -342,7 +375,7 @@
           "count": "19"
         }
       ],
-      "views_label": "21.4K",
+      "views_label": "21.5K",
       "posted_at": "2026-11-04T14:40:17+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5780",
@@ -404,7 +437,7 @@
           "count": "6"
         }
       ],
-      "views_label": "24.2K",
+      "views_label": "24.3K",
       "posted_at": "2026-11-04T11:30:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5779",
@@ -537,7 +570,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.9K",
+      "views_label": "25K",
       "posted_at": "2026-11-04T07:16:20+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5776",
@@ -4602,47 +4635,6 @@
       "posted_at": "2026-10-24T10:27:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5681",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5680",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/iso6BUlGboBR6ux5RWDeRyxUJD4KMrasoBxUdBygGPCScug6r_jyv2xomGyILSHFcqibh3XoxD9Q8cT76Ua3OKgv7ncCpofEVf0yMdwb-IBMA26kbUyeNru7WrpxWSSIbFI78zixnxpun5HOXDUAcTcJQdDhE1aF1S3nJOi3I9DUXTURiYhHl_0-2SLJgMei2DCMgwKY9oYf_cWc1XVzOYU7KRC7bsyMavSqCjsJUS-CS9Isv1gMsyACjKbrSPTMlLtLfNEkvGTIe1VBGFkQJ3XyYaH_-1T1-tA1dRa9uOKcE2WZqwO4eoA4oiykdiaMc1e165_vKh5o5rS8Qe64NA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/ec69e5ca321a8368f2fac0d7.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>افشای بنچمارک‌های گمراه‌کننده‌ی زبان Tov در ادعای «سریع‌تر از Rust»</b><br><br>تیم Fyra Labs در یک گزارش تحلیلی ادعای «سریع‌تر از Rust» بودن زبان Tov را بررسی کرده و بنچمارک‌های منتشرشده‌ی آن را گمراه‌کننده و مغرضانه توصیف می‌کند. این گزارش در Lobsters مطرح شده است. نتیجه آن است که ادعاهای عملکردی زبان‌های جدید بدون بازتولید مستقل بنچمارک‌ها قابل اتکا نیستند.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "افشای بنچمارک‌های گمراه‌کننده‌ی زبان Tov در ادعای «سریع‌تر از Rust»\n\nتیم Fyra Labs در یک گزارش تحلیلی ادعای «سریع‌تر از Rust» بودن زبان Tov را بررسی کرده و بنچمارک‌های منتشرشده‌ی آن را گمراه‌کننده و مغرضانه توصیف می‌کند. این گزارش در Lobsters مطرح شده است. نتیجه آن است که ادعاهای عملکردی زبان‌های جدید بدون بازتولید مستقل بنچمارک‌ها قابل اتکا نیستند.\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5680",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Gks9--dNEVz1P83zaeMQGaOGG7qUnZY3XRoVn55k3nj_q4fHYHcyYCho8j7hJ1vOLAo0oPwOo9khB_jOLKxnOtktEJhDiChaPKthrvwkvC9l70mcoQfdnD5G7j3RPvl_e6OoGrn2BEO6CHJy0VmzJ2XbBuY5Ts6XmP8MlyvcmZzRgEo_p3A1zvYxTTRBB8BK9OjRkM-jUrnMbu38gFrvAKbnVh4oiPTUyrw9TjejvjyQNLlWpf7QXYO498pc7TSUB2lWtpti3Hj_FLuR3VLaNNaBZartkobaMNMLKSNcX6YsNG3qszsw57VMVfsuXFT16Yaa9u0hU8f7OtAZ1c1v8A.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/c3fb4f96ae28028f3c4e4973.jpg",
-          "thumbnail_sha256": "98543f1f23249a8aab0a737132e7f33750cca023028951e7f26521131bdd4572",
-          "duration_label": null,
-          "aspect_ratio": 1.288244766505636
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "51"
-        },
-        {
-          "emoji": "😁",
-          "count": "6"
-        },
-        {
-          "emoji": "👍",
-          "count": "5"
-        }
-      ],
-      "views_label": "23.6K",
-      "posted_at": "2026-10-24T09:28:02+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5680",
       "reply": null
     }
   ]
