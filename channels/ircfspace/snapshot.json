@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-05T06:12:04.195Z",
+  "fetched_at": "2026-11-05T06:17:10.755Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
@@ -11,6 +11,43 @@
     "subscriber_count": "96.9K"
   },
   "posts": [
+    {
+      "id": "ircfspace/2702",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/GkNcKsqQ9C8SU8xBIh9IWyA6CIeT0uJCW9cGzYzzIU2qcICjaNZhwDimO_SVohHMyMrpOmwXKxj9dBvQQ_IqScqq6mVJsOhZS41jEDSnX0HiWRbI-L-eLW60OmuMycnfiy9zJq8LlUDTI0ujKBdLw_MgBNhbZTRGndbOle4tBEt-ax4yJ5qt6RizE1w32SYbRR2VGmgJJ-kiXHppOU85OYXj0I7UWdBwRmcvNqx3jFQq_CEQLBLcVD5824DIxI-kaUWJYVnGVp2lUrVr5HGeW2Po6PuTREpz7A193jSg8pV7FcQeCaWFqUCoxU8pa88TEzxLOnBGRTG14gPMzkCDPA.jpg",
+      "author_photo_path": "channels/ircfspace/media/d20fbd2faf5c9df8c3113632.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "بررسی امنیتی تیم پس‌کوچه روی فیلترشکن MiuMiu VPN که تاکنون بیش از ۵۰۰ هزار بار از گوگل‌پلی دانلود شده، نشون داده که این برنامه با وجود اتصال VPN، ممکنه درخواست‌های DNS بعضی اپلیکیشن‌هارو خارج از تانل و بصورت رمزنگاری‌نشده ارسال کنه؛ و حتی قابلیت Lockdown اندروید هم جلوی این نشت اطلاعات رو نمی‌گیره.<br>همینطور در جریان آزمایش‌ها مشخص شده که میشه ارتباط برنامه با سرورش رو دستکاری کرد و پاسخ تنظیمات جعلی رو به برنامه تحمیل کرد؛ موضوعی که می‌تونه زمینه هدایت کاربر به سرورهای مخرب رو فراهم کنه. نکته نگران‌کننده‌تر اینکه برخلاف ادعای جمع‌آوری‌نکردن اطلاعات، برنامه داده‌هایی مثل شناسه دستگاه، مدل گوشی و اطلاعات فنی اون رو به سرور خودش ارسال می‌کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "بررسی امنیتی تیم پس‌کوچه روی فیلترشکن MiuMiu VPN که تاکنون بیش از ۵۰۰ هزار بار از گوگل‌پلی دانلود شده، نشون داده که این برنامه با وجود اتصال VPN، ممکنه درخواست‌های DNS بعضی اپلیکیشن‌هارو خارج از تانل و بصورت رمزنگاری‌نشده ارسال کنه؛ و حتی قابلیت Lockdown اندروید هم جلوی این نشت اطلاعات رو نمی‌گیره.\nهمینطور در جریان آزمایش‌ها مشخص شده که میشه ارتباط برنامه با سرورش رو دستکاری کرد و پاسخ تنظیمات جعلی رو به برنامه تحمیل کرد؛ موضوعی که می‌تونه زمینه هدایت کاربر به سرورهای مخرب رو فراهم کنه. نکته نگران‌کننده‌تر اینکه برخلاف ادعای جمع‌آوری‌نکردن اطلاعات، برنامه داده‌هایی مثل شناسه دستگاه، مدل گوشی و اطلاعات فنی اون رو به سرور خودش ارسال می‌کنه.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2702",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/s7zNdJr1Pa9h0qRhx7WIPHOBOapTlu9Ph8dtjM0IqIU9QbW5RaqfNx3mM1JjL0xfnvIq07QLKLxKKAptsOEpqs6gLHvWkgMwjtqcKWXDZXT30TuAogPxExB-ayp6shBzND4gYFFtVlaKGNLH3mzjY0uVbyW7N6OWq-PRWqX0SoKRvcujdu2ayOG52m6icc3WMgE_Aq9g_aMhCwPkAMBF0qjrUuMnK-gONjRh6vhFmqHPBqNwfXDZxTqMJHtVk1iDuoS4yVLJ_qUddtnBNeK5Os9dGiWnvUitla2TJXG7v9GWAgU9Wz5AnbYvYFn0biRbxkZo126l5o255pRcl57EzQ.jpg",
+          "thumbnail_path": "channels/ircfspace/media/ab620883b402d9d7de55522b.jpg",
+          "thumbnail_sha256": "ff79fb779dd8d85b807923a2f8665421756f5bf3546607cb2936fc695ac50b6b",
+          "duration_label": null,
+          "aspect_ratio": 1.415929203539823
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "7"
+        },
+        {
+          "emoji": "👏",
+          "count": "1"
+        }
+      ],
+      "views_label": "668",
+      "posted_at": "2026-11-05T06:13:25+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2702",
+      "reply": null
+    },
     {
       "id": "ircfspace/2701",
       "author_name": "IRCF | اینترنت آزاد برای همه",
@@ -35,22 +72,22 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "8"
+          "count": "12"
         },
         {
           "emoji": "❤",
-          "count": "2"
+          "count": "3"
+        },
+        {
+          "emoji": "🥴",
+          "count": "3"
         },
         {
           "emoji": "🔥",
           "count": "1"
-        },
-        {
-          "emoji": "🥴",
-          "count": "1"
         }
       ],
-      "views_label": "869",
+      "views_label": "1.69K",
       "posted_at": "2026-11-05T06:06:27+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2701",
@@ -80,7 +117,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "129"
+          "count": "130"
         },
         {
           "emoji": "😱",
@@ -119,7 +156,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.5K",
+      "views_label": "18.7K",
       "posted_at": "2026-11-02T06:30:08+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2700",
@@ -137,7 +174,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "209"
+          "count": "210"
         },
         {
           "emoji": "👍",
@@ -160,7 +197,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.3K",
+      "views_label": "15.4K",
       "posted_at": "2026-11-02T06:27:06+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2699",
@@ -178,7 +215,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "389"
+          "count": "392"
         },
         {
           "emoji": "🤬",
@@ -217,7 +254,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.9K",
+      "views_label": "16.1K",
       "posted_at": "2026-11-02T06:23:06+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2698",
@@ -254,7 +291,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.4K",
+      "views_label": "14.5K",
       "posted_at": "2026-11-02T06:12:41+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2697",
@@ -315,7 +352,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.4K",
+      "views_label": "15.5K",
       "posted_at": "2026-11-02T06:00:49+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2696",
@@ -356,7 +393,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.4K",
+      "views_label": "15.5K",
       "posted_at": "2026-11-02T05:54:28+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2695",
@@ -417,7 +454,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29.2K",
+      "views_label": "29.3K",
       "posted_at": "2026-10-28T04:43:56+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2694",
@@ -551,7 +588,7 @@
           "count": "1"
         }
       ],
-      "views_label": "33.6K",
+      "views_label": "33.7K",
       "posted_at": "2026-10-26T04:34:05+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2692",
@@ -604,7 +641,7 @@
           "count": "2"
         }
       ],
-      "views_label": "27.9K",
+      "views_label": "28K",
       "posted_at": "2026-10-26T04:20:03+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2691",
@@ -669,7 +706,7 @@
           "count": "1"
         }
       ],
-      "views_label": "29.8K",
+      "views_label": "29.9K",
       "posted_at": "2026-10-25T04:37:06+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2690",
@@ -742,7 +779,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.1K",
+      "views_label": "25.3K",
       "posted_at": "2026-10-25T04:20:37+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2689",
@@ -832,7 +869,7 @@
           "count": "2"
         }
       ],
-      "views_label": "49K",
+      "views_label": "49.1K",
       "posted_at": "2026-10-25T04:07:15+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2687",
@@ -5896,79 +5933,6 @@
       "posted_at": "2026-09-11T07:45:37+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2598",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2597",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/TUie3eNwIr4Ynf2gYCtNesULEVHm1XMfc2umXjRxkt_bFdBTBlQGzpZdR2yvy6Vnl_-XLnQpx_WhvZmcPcmOta97QFm1AlfvzlcrGCG9Uq90jXrGLHmeCwuggYpc0rH-Uc12uaTwN_2v4iC6Pkibb8Pk16xAYz-Q4X_hiH8ixD9n_1odbny28tUHy5_Muu21xjn9WIItnb9CdvwxjHKk6z115Pgu54KeMga_1mJLJkskuZjgwfn3IYi6qdeO69Wj5vHKhh5QXUAyifHHcwcYPo8LI0SHreRotQQz64FZeXuTQddBCHWoRo1kXxZ5RAnGjwsUZ7dquFDQPATXp9sllA.jpg",
-      "author_photo_path": "channels/ircfspace/media/f50a1712e6e3e60960f4e4ee.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "معاون علمی رئیس‌جمهور گفته \"۸۳ درصد رتبه‌های برتر کنکور در ایران مانده‌اند. این موضوع نشان می‌دهد بخش قابل توجهی از استعدادهای برتر کشور در داخل فعالیت می‌کنند\".<br><br>البته نگفته ۸۸ روز اینترنت رو قطع کردیم، هزاران نفر رو در خیابون کشتیم و خیلی از همون‌هایی که کشته یا سرکوب شدن، از استعدادهای برتر همین کشور بودن.<br><br>نگفته راه خروج از کشور رو برای خیلی‌ها سخت‌تر و پرهزینه‌تر کردیم، عوارض خروج گذاشتیم، ارزش ریال رو در برابر دلار به پایین‌ترین سطح ممکن رسوندیم و انقدر محدودیت‌های مختلف ایجاد کردیم که بخش قابل توجهی از آدم‌ها اصلاً امکان رفتن پیدا نکنن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "معاون علمی رئیس‌جمهور گفته \"۸۳ درصد رتبه‌های برتر کنکور در ایران مانده‌اند. این موضوع نشان می‌دهد بخش قابل توجهی از استعدادهای برتر کشور در داخل فعالیت می‌کنند\".\n\nالبته نگفته ۸۸ روز اینترنت رو قطع کردیم، هزاران نفر رو در خیابون کشتیم و خیلی از همون‌هایی که کشته یا سرکوب شدن، از استعدادهای برتر همین کشور بودن.\n\nنگفته راه خروج از کشور رو برای خیلی‌ها سخت‌تر و پرهزینه‌تر کردیم، عوارض خروج گذاشتیم، ارزش ریال رو در برابر دلار به پایین‌ترین سطح ممکن رسوندیم و انقدر محدودیت‌های مختلف ایجاد کردیم که بخش قابل توجهی از آدم‌ها اصلاً امکان رفتن پیدا نکنن.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/ircfspace/2597",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Vu_ictvMbhChoXgbjStwVp4mDUbu-swXHUO8Sgn5JDKO1NqQvx7ySjBvyW-7KEAKoxGgtKhiHo_54X4u3xsO6lLdqADHDRMnF2McFQoFrt7ehWQVrHkjw84rjkQWLtAsXCVKaiiEvNO-HjEiYTyc7u2Owk48UL9bop3fjZl2CzDZqr0r7YK-NVdh5CwCtw11uBIQa5BHu_i7KkOMFXrVqAKAeROl5stwfjgO02hhN72mgz34mgcM61GWFSP5wLXZV5c0zz9oNkjC1o1My2GyeOvXS0t59inHv4KRORy-JwAueyMJTlnbeOzx0P5hNFsk4UE-myZlrupnA1dDrJALPw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/d4e108881d150793e5708dd8.jpg",
-          "thumbnail_sha256": "071a14cbdfc2214a575dfe1566d75430305968bcdfa8130bf5c8fc3c41a9645c",
-          "duration_label": null,
-          "aspect_ratio": 1.064017660044145
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "👍",
-          "count": "758"
-        },
-        {
-          "emoji": "🤬",
-          "count": "70"
-        },
-        {
-          "emoji": "👎",
-          "count": "36"
-        },
-        {
-          "emoji": "❤",
-          "count": "31"
-        },
-        {
-          "emoji": "🤡",
-          "count": "14"
-        },
-        {
-          "emoji": "😁",
-          "count": "11"
-        },
-        {
-          "emoji": "😢",
-          "count": "10"
-        },
-        {
-          "emoji": "💯",
-          "count": "5"
-        },
-        {
-          "emoji": "🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "🗿",
-          "count": "3"
-        }
-      ],
-      "views_label": "35K",
-      "posted_at": "2026-09-10T04:30:32+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2597",
       "reply": null
     }
   ]
