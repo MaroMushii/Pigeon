@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-06T18:02:29.983Z",
+  "fetched_at": "2026-11-06T18:07:05.800Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,22 @@
     "subscriber_count": "112K"
   },
   "posts": [
+    {
+      "id": "whitedns/2239",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/m4n83phNaoHldXDF3WBUsooJOpvRwd3WCpvHomTeKO15xp3YQ8IxiOE1aqBYtjD6bWaLYnyzMJ5d_pHd1yp8h4j1lfOjbtywp8n0l-oBeGxTuhmAUMxGby0pyawkfIS_vk5-9G-V-c6Hw2iGsPL8jXI-5yYFTlvGkNRB3rYiBhBf8EM0aOaFMzFl_4drd2aWRrzfk4OnXW5mqa2csrjpFSO5AXKyo0MT2G6RtX58rRqdpa-ZGH5DV57Z5N5KDqfJ_6yrY6OPViSueGLymh47iXuzpvE2RPq6A1Hu1S73HNgZF0ERhKRNWMrogixZL8WAQblijKIiodgvh9NvbF2F0Q.jpg",
+      "author_photo_path": "channels/whitedns/media/9ff45865b4a81800718a5b80.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> <b>آپدیت جدید CottenRouter نسخه‌ v1.2.26 منتشر شد!</b><br>در این آپدیت، پشتیبانی و سازگاری با نسخه‌های جدید سرویس‌های زیر بهبود پیدا کرده است:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> TheFeed v0.42.0<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> SlipGate v1.6.8<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> WhiteDNS Panel v0.14.4<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> <b>مهم‌ترین تغییرات:</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> <b>TheFeed</b><br>- مسیریابی خودکار دامنه‌های اصلی، جایگزین، پیام‌رسان‌ها و تلگرام (MTProto)<br>- حفظ تنظیمات و انتخاب‌های قبلی کاربران<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> <b>SlipGate</b><br>- اضافه شدن پشتیبانی از Soar در کنار DNSTT، Slipstream و VayDNS<br>- پشتیبانی از تبدیل DNS-over-TCP به ارتباطات UDP<br>- بهبود بررسی اتصال، حفظ تنظیمات WARP فعال و پاک‌سازی مسیرهای قدیمی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> <b>WhiteDNS Panel</b><br>- رفع مشکلات نصب و آپدیت نسخه پایدار پنل<br>- پشتیبانی از معماری‌های AMD64 و ARM64<br>- هماهنگ‌سازی دامنه‌های سرویس با Router<br>- حفظ حساب‌ها، کلیدها، سهمیه‌ها و محدودیت‌های کاربران هنگام آپدیت<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> <b>نسخه v1.2.26 شامل تمام بهبودهای v1.2.25 نیز هست.</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i> <b>آموزش آپدیت CottenRouter و سرویس‌ها</b><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> ابتدا CottenRouter را آپدیت کنید:</b><br><code>curl -fsSL https://raw.githubusercontent.com/TaJirax/CottenRouter/main/scripts/install.sh | sudo bash</code><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> سپس سرویس‌های نصب‌شده را جداگانه آپدیت کنید:</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>آپدیت TheFeed:</b><br><code>sudo cottenrouter update --project thefeed</code><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>آپدیت SlipGate:</b><br><code>sudo cottenrouter update --project slipgate</code><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> <b>آپدیت WhiteDNS Panel:</b><br><code>sudo cottenrouter update --project whitedns-panel</code><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> <b>نکته:</b> اگر دامنه‌های تونل را در WhiteDNS Panel تغییر دادید، فرم Configure مربوط به پنل را در CottenRouter مجدداً ذخیره کنید تا مسیرها به‌روزرسانی شوند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <b>لینک دانلود و تغییرات:</b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/TaJirax/CottenRouter/releases/tag/v1.2.26\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخه v1.2.26</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938B.png')\"><b>📋</b></i> <a href=\"https://github.com/TaJirax/CottenRouter/releases/tag/v1.2.25\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">تغییرات نسخه v1.2.25</a><br><a href=\"?q=%23CottenRouter\">#CottenRouter</a> <a href=\"?q=%23TheFeed\">#TheFeed</a> <a href=\"?q=%23SlipGate\">#SlipGate</a> <a href=\"?q=%23WhiteDNS\">#WhiteDNS</a>",
+      "plain_text": "🚀 آپدیت جدید CottenRouter نسخه‌ v1.2.26 منتشر شد!\nدر این آپدیت، پشتیبانی و سازگاری با نسخه‌های جدید سرویس‌های زیر بهبود پیدا کرده است:\n🔹 TheFeed v0.42.0\n🔹 SlipGate v1.6.8\n🔹 WhiteDNS Panel v0.14.4\n✨ مهم‌ترین تغییرات:\n✅ TheFeed\n- مسیریابی خودکار دامنه‌های اصلی، جایگزین، پیام‌رسان‌ها و تلگرام (MTProto)\n- حفظ تنظیمات و انتخاب‌های قبلی کاربران\n✅ SlipGate\n- اضافه شدن پشتیبانی از Soar در کنار DNSTT، Slipstream و VayDNS\n- پشتیبانی از تبدیل DNS-over-TCP به ارتباطات UDP\n- بهبود بررسی اتصال، حفظ تنظیمات WARP فعال و پاک‌سازی مسیرهای قدیمی\n✅ WhiteDNS Panel\n- رفع مشکلات نصب و آپدیت نسخه پایدار پنل\n- پشتیبانی از معماری‌های AMD64 و ARM64\n- هماهنگ‌سازی دامنه‌های سرویس با Router\n- حفظ حساب‌ها، کلیدها، سهمیه‌ها و محدودیت‌های کاربران هنگام آپدیت\n✅ نسخه v1.2.26 شامل تمام بهبودهای v1.2.25 نیز هست.\n🔄 آموزش آپدیت CottenRouter و سرویس‌ها\n1️⃣ ابتدا CottenRouter را آپدیت کنید:\ncurl -fsSL https://raw.githubusercontent.com/TaJirax/CottenRouter/main/scripts/install.sh | sudo bash\n2️⃣ سپس سرویس‌های نصب‌شده را جداگانه آپدیت کنید:\n🔹 آپدیت TheFeed:\nsudo cottenrouter update --project thefeed\n🔹 آپدیت SlipGate:\nsudo cottenrouter update --project slipgate\n🔹 آپدیت WhiteDNS Panel:\nsudo cottenrouter update --project whitedns-panel\n⚠️ نکته: اگر دامنه‌های تونل را در WhiteDNS Panel تغییر دادید، فرم Configure مربوط به پنل را در CottenRouter مجدداً ذخیره کنید تا مسیرها به‌روزرسانی شوند.\n🔗 لینک دانلود و تغییرات:\n📥 دانلود نسخه v1.2.26\n📋 تغییرات نسخه v1.2.25\n#CottenRouter #TheFeed #SlipGate #WhiteDNS",
+      "media": [],
+      "reactions": [],
+      "views_label": "402",
+      "posted_at": "2026-11-06T18:04:40+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2239",
+      "reply": null
+    },
     {
       "id": "whitedns/2237",
       "author_name": "White DNS",
@@ -39,18 +55,22 @@
         },
         {
           "emoji": "❤",
-          "count": "80"
+          "count": "81"
         },
         {
           "emoji": "😍",
-          "count": "4"
+          "count": "3"
         },
         {
           "emoji": "🙏",
           "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
         }
       ],
-      "views_label": "6.74K",
+      "views_label": "6.96K",
       "posted_at": "2026-11-06T15:23:03+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2237",
@@ -88,7 +108,7 @@
         },
         {
           "emoji": "👍",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "👏",
@@ -115,7 +135,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.3K",
+      "views_label": "11.4K",
       "posted_at": "2026-11-06T06:58:52+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2236",
@@ -158,9 +178,13 @@
         {
           "emoji": "🫡",
           "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
         }
       ],
-      "views_label": "13.6K",
+      "views_label": "13.7K",
       "posted_at": "2026-11-05T20:47:52+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2235",
@@ -202,7 +226,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.43K",
+      "views_label": "9.46K",
       "posted_at": "2026-11-05T20:43:40+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2233",
@@ -249,6 +273,10 @@
         {
           "emoji": "🙏",
           "count": "2"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
         },
         {
           "emoji": "👏",
@@ -539,7 +567,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.2K",
+      "views_label": "17.3K",
       "posted_at": "2026-11-04T03:34:43+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2228",
@@ -868,7 +896,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14K",
       "posted_at": "2026-11-03T03:24:20+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2220",
@@ -5382,55 +5410,6 @@
       "posted_at": "2026-10-23T10:36:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2116",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2115",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/DWz_TGQM_81_6b6idP5lkRUaoyZB61CFy6NoKtaMyQRapHpjZJQzvgHw9ColInms6QHHKFMG0Z9Ti_2QcnatbOK8VpT8C_GQJ7Y9R51ZbjcSQNSWDVV7Jy2HxwQUXdD-THi_s9fUZK7HuNCPz6YJ2VahWql2XacWQ-uK9Foknq8xLJPlCKNgg2moL3q8rrhpL8K97P5KrJvLDkzSqGPvZ2o3RAzO_3PQ5A94ibNtgnycWim0S37BeDTxZkqbeubuGkksAPBbywHvtoFoLnOkoe4jA_GSIegiRnaagHIBCn_5VcaQoHQuaHL8rgV_uVNFrPRx-E19bTVgFU1lQrCixg.jpg",
-      "author_photo_path": "channels/whitedns/media/2f1bc9c4212a68f1608a8344.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A3.png')\"><b>📣</b></i> <b>مدیریت سرور از تلگرام، در نسخهٔ بعدی</b><br><br>دوستان، توی نسخهٔ بعدی پنل Soar Server، اتصال به تلگرام رو اضافه می‌کنیم تا بتونید سرور شخصی‌تون رو از داخل تلگرام مدیریت کنید.<br><br>اینطوری موقع قطعی یا اختلال اینترنت، اگه دسترسی مستقیم به داشبورد نداشتید ولی شما و سرورتون هنوز به تلگرام دسترسی داشتید، یه راه جایگزین برای مدیریت سرور دارید.<br><br>این قابلیت هنوز منتشر نشده و برای نسخهٔ بعدی در نظر گرفته شده.<br><br>----------<br><a href=\"?q=%23%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87\">#اطلاعیه</a> <a href=\"?q=%23WhiteDNS_Panel\">#WhiteDNS_Panel</a> <a href=\"?q=%23Soar\">#Soar</a><br><br>کانال: <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "📣 مدیریت سرور از تلگرام، در نسخهٔ بعدی\n\nدوستان، توی نسخهٔ بعدی پنل Soar Server، اتصال به تلگرام رو اضافه می‌کنیم تا بتونید سرور شخصی‌تون رو از داخل تلگرام مدیریت کنید.\n\nاینطوری موقع قطعی یا اختلال اینترنت، اگه دسترسی مستقیم به داشبورد نداشتید ولی شما و سرورتون هنوز به تلگرام دسترسی داشتید، یه راه جایگزین برای مدیریت سرور دارید.\n\nاین قابلیت هنوز منتشر نشده و برای نسخهٔ بعدی در نظر گرفته شده.\n\n----------\n#اطلاعیه #WhiteDNS_Panel #Soar\n\nکانال: @WhiteDNS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "🍓",
-          "count": "112"
-        },
-        {
-          "emoji": "❤",
-          "count": "47"
-        },
-        {
-          "emoji": "👍",
-          "count": "25"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "9"
-        },
-        {
-          "emoji": "🔥",
-          "count": "4"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "🤯",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "10.8K",
-      "posted_at": "2026-10-23T09:32:20+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2115",
       "reply": null
     }
   ]
