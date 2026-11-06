@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-06T08:22:02.209Z",
+  "fetched_at": "2026-11-06T08:26:58.171Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "sahamnewsorg/150068",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/t2ex3vnTGSnU8NhZtqZlrrdJMAwWpVedjH7rzVHAPG9EGGPlf6518Lej1TSFweYUkwTiy5bsrdG0jXX9q0FpaqwkDAzBxp3asls2Z-rVN_LLIBo0L6sxuzKRRvjR1aD9f216K41RgV-N_zJ_yxT5xOsyiIO0WZ0yGTJLJfUGpzUemuSq6WFPLVrStx227o-YLjZs9nMZxUi0TeSpIVS7612oyiY6xYZPbznVFXfwzEXlBcSUZkmQlt093ac0AEwhPFht3pkt5WSR1RMTLtIqVqcIgeGliZQqhhnFbaTALlKjxR8yKiF4iJoHyZe0yHf3jMX8N_6INJ0WH51yWEYswQ.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/60bc86ea6a9c8acba3c47822.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>وضعیت دولت ترامپ با پیروزی دموکرات‌ها چطور خواهد بود؟<br><br>در این ویدئو ببینید و بشنوید ترامپ با پیروزی دموکرات‌ها چه مشکلاتی و چه راه‌حل‌هایی خواهد داشت.<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅وضعیت دولت ترامپ با پیروزی دموکرات‌ها چطور خواهد بود؟\n\nدر این ویدئو ببینید و بشنوید ترامپ با پیروزی دموکرات‌ها چه مشکلاتی و چه راه‌حل‌هایی خواهد داشت.\n\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/150068",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/JF4DSfy4zP5UbIbTjQfow1lx00u6PneIRf4mAgagZ6TEVX4bf-lliMVr8XnQPgd6P95mvCpPN00E2qVOR6GEUKw-ckg0dBlaHJH4O3GZ97RwYJX_0ICK0bqSTRyYX4Mjf5VPCcygch176O284QUod_04TKseXALHcHSWje0w1UMxKvUkR3AjXTyty9knkTcgaVdzUaUpttEC9XUW1NPZvCnfXmhe4F201j3ybY2Fj0kcIRpMMKrnXQtS4BrfRWwRK4ZoYvBdrF1RJwBtyUWgMddPyOU5mdKl-9ZoN-mRR8oQQENuyvZlx88N9oty6ZI2rGtfWV9l9tYWLuMGqcIJ8w",
+          "thumbnail_path": "channels/sahamnewsorg/media/057741438c02566280da248e.jpg",
+          "thumbnail_sha256": "d96152d38835dee45c62fa6f54467b5610df60c8bb55484076c33675d00decf1",
+          "duration_label": "1:25",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "2.78K",
+      "posted_at": "2026-11-06T08:21:43+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/150068",
+      "reply": null
+    },
+    {
       "id": "sahamnewsorg/150067",
       "author_name": "سهام نیوز",
       "author_photo_url": "https://cdn1.telesco.pe/file/t2ex3vnTGSnU8NhZtqZlrrdJMAwWpVedjH7rzVHAPG9EGGPlf6518Lej1TSFweYUkwTiy5bsrdG0jXX9q0FpaqwkDAzBxp3asls2Z-rVN_LLIBo0L6sxuzKRRvjR1aD9f216K41RgV-N_zJ_yxT5xOsyiIO0WZ0yGTJLJfUGpzUemuSq6WFPLVrStx227o-YLjZs9nMZxUi0TeSpIVS7612oyiY6xYZPbznVFXfwzEXlBcSUZkmQlt093ac0AEwhPFht3pkt5WSR1RMTLtIqVqcIgeGliZQqhhnFbaTALlKjxR8yKiF4iJoHyZe0yHf3jMX8N_6INJ0WH51yWEYswQ.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "✅پیشنهاد قطری ها به ایران و آمریکا برای مذاکرات: در روز نخست آمریکا محاصره دریایی ایران را لغو کرده و بخشی از دارایی‌های مسدودشده ایران را آزاد خواهد کرد؛ در مقابل، ایران دعوت‌نامه رسمی برای آژانس صادر می‌کند تا بازرسان بر اساس توافق قاهره از تأسیسات هسته‌ای بمباران‌شده بازدید کنند\n\nدر روز دوم تنگه هرمز بازگشایی خواهد شد و پس از آن مذاکرات هسته‌ای از سر گرفته می‌شود\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "4.61K",
+      "views_label": "6.77K",
       "posted_at": "2026-11-06T08:13:08+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150067",
@@ -37,7 +65,7 @@
       "plain_text": "✅فوت حضرت آیت الله العظمی وحید خراسانی تکذیب شد\n\nطبق پیگیری خبرگزاری صداوسیما از اعضای دفتر حضرت آیت الله العظمی وحید خراسانی، خبر فوت ایشان صحیح نبوده و روند درمانی ایشان ادامه دارد.\n\nدفتر آیت الله العظمی وحید خراسانی ضمن تکذیب خبری که در رسانه ها از فوت ایشان منتشر شد، از مومنین دعا برای سلامتی این مرجع عالیقدر را خواستار شدند./ صداوسیما\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "11.1K",
+      "views_label": "12.9K",
       "posted_at": "2026-11-06T07:57:41+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150066",
@@ -74,7 +102,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "12.6K",
+      "views_label": "14.1K",
       "posted_at": "2026-11-06T07:52:34+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150065",
@@ -90,7 +118,7 @@
       "plain_text": "✅هگست؛ وزیر جنگ امریکا\nاین جنگ تازه شروع شده. ما عقب نشینی نمیکنیم و  مصمم تر از قبل هستیم تا ماموریتمون در ایران رو کامل کنیم. این یک حرکت شجاعانه و تاریخی خواهد بود.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "18.1K",
+      "views_label": "19.4K",
       "posted_at": "2026-11-06T07:32:13+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150064",
@@ -106,7 +134,7 @@
       "plain_text": "✅ضربه سنگین نتیجه انتخابات آمریکا به شرکت‌های ایلان ماسک\n\n🔹در پی عملکرد بهتر از انتظار دموکرات‌ها در انتخابات میان‌دوره‌ای آمریکا، ارزش سهام شرکت‌های سهام تسلا و اسپیس‌اکس تحت رهبری ایلان ماسک، روز پنج‌شنبه پنجم نوامبر، با سقوطی شدید مواجه شد.\n\n🔹از زمان مشخص شدن نتایج انتخابات میان‌دوره‌ای آمریکا، مجموع ارزش بازار تسلا و اسپیس‌اکس حدود ۴۶۰ میلیارد دلار کاهش یافته است./ایسنا\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "22.1K",
+      "views_label": "23.4K",
       "posted_at": "2026-11-06T07:14:01+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150063",
@@ -122,7 +150,7 @@
       "plain_text": "✅عربستان ادعاهای «وال‌استریت ژورنال»مبنی بر درخواست غرامت توسط انصارالله را تکذیب کرد\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "22.8K",
+      "views_label": "24K",
       "posted_at": "2026-11-06T07:10:36+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150062",
@@ -159,7 +187,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "60.7K",
+      "views_label": "61K",
       "posted_at": "2026-11-05T22:46:18+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150061",
@@ -175,7 +203,7 @@
       "plain_text": "✅وزیر امور خارجه عراق:\nاحتمال از سرگیری جنگ بین ایالات متحده و ایران بسیار زیاد است و دیگر یک راز نیست.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "56.3K",
+      "views_label": "56.6K",
       "posted_at": "2026-11-05T22:20:28+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150060",
@@ -203,7 +231,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "56.9K",
+      "views_label": "57.2K",
       "posted_at": "2026-11-05T21:52:12+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150059",
@@ -219,7 +247,7 @@
       "plain_text": "✅ترامپ: اگر مجبور شویم کار ایران را یکسره کنیم، کاملاً آماده و در وضعیت آماده‌باش نظامی هستیم.»\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "55.7K",
+      "views_label": "56K",
       "posted_at": "2026-11-05T21:44:16+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150058",
@@ -235,7 +263,7 @@
       "plain_text": "✅ترامپ: ترجیح می‌دهم آنچه از ایران باقی مانده را نابود نکنم، اما شاید مجبور شوم.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "55.9K",
+      "views_label": "56.2K",
       "posted_at": "2026-11-05T21:36:26+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150057",
@@ -251,7 +279,7 @@
       "plain_text": "✅ترامپ:قرار است کارهای زیادی انجام دهیم. طی یک یا دو هفته آینده شاهد اتفاقات زیادی خواهید بود.\n\nما برنامه‌های زیادی در دست اجرا داریم.\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "55.8K",
+      "views_label": "56.1K",
       "posted_at": "2026-11-05T21:34:16+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150056",
@@ -279,7 +307,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "58.7K",
+      "views_label": "59K",
       "posted_at": "2026-11-05T21:16:42+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150055",
@@ -295,7 +323,7 @@
       "plain_text": "✅نیویورک تایمز: ارتش‌های آمریکا و اسرائیل طرح‌های مشخصی را برای یک عملیات کوتاه اما فشرده تدوین کرده‌اند که احتمالاً شامل اهداف زیرساختی انرژی، تاسیسات هسته‌ای، زرادخانه موشکی و پهپادها در ایران خواهد بود.\n\n🔹نیروهای آمریکایی و اسرائیلی، مانورهای خود را تشدید کرده‌اند و هواپیماهای آن‌ها بر فراز عراق برای تمرین عملیات‌های تهاجمی پرواز کرده‌اند.\n🔹وزارت جنگ و وزارت امور خارجه آمریکا، به عنوان یک اقدام احتیاطی، تعدادی از کارکنان خود را از پایگاه‌ها و تاسیسات موجود در منطقه فراخوانده‌اند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "56.3K",
+      "views_label": "56.6K",
       "posted_at": "2026-11-05T21:14:32+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150054",
@@ -334,7 +362,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "55.2K",
+      "views_label": "55.5K",
       "posted_at": "2026-11-05T20:58:28+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150052",
@@ -362,7 +390,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "57.5K",
+      "views_label": "57.8K",
       "posted_at": "2026-11-05T20:20:23+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150051",
@@ -390,7 +418,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "58.9K",
+      "views_label": "59.2K",
       "posted_at": "2026-11-05T20:04:24+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150050",
@@ -418,7 +446,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "59K",
+      "views_label": "59.3K",
       "posted_at": "2026-11-05T19:45:28+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150049",
@@ -2444,22 +2472,6 @@
         "thumbnail_sha256": "79ad0017442feb5662d938f4a186e8418ebf4ecd4d5e51e8f33eb5e54c3f1a75",
         "permalink": "https://t.me/sahamnewsorg/149904"
       }
-    },
-    {
-      "id": "sahamnewsorg/149963",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/JPQzuQczGa6FVaFLPPemv8-fgmhACH8KkhXERwpa7FczxgUh6At6lFsMYc-sJsvnrWMbaRJSUL2Dmc68BNLOHyxRDKB-zh2cDGoLaHuZfeoeYkrZKPcm2rfx4vykJ1_L8Sm-UMt7fdjT4hiFBS0_wVBMQNSeNqFfwNe36qAhw1nWAvVo29zzjSg2K-PgwxSgcUxibSp1n7XZuwA7frWpJE_-1nTldvY3RuK0bVsmE2maQVhZ1TufzLkWQbBq_94JKGrl6Fp7By-krTnfAeraESaqV776Uycul4UKwc7N0KYbZZ-P8S8r5qerRKSjkoZnTXTRGaCTqDbkbLqAlDAB3g.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/543d8b4b0d6fd0a6365cefb1.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>دولت جمهوری آذربایجان ۱۴ شهروند ایرانی، از جمله نمایندگان مجلس، روحانیون و چهره‌های رسانه‌ای، را «عنصر نامطلوب» اعلام کرد و ورودشان به این کشور را ممنوع کرد. <br><br>خبرگزاری دولتی آپا گزارش داد که در فهرست ۱۴ نفره، نام کامران غضنفری، ابوالفضل ظهره‌وند، عباس مقتدایی و علیرضا سلیمی، نمایندگان مجلس، و حسین شریعتمداری، مدیرمسئول روزنامه کیهان، آمده است. محسن اراکی ( پرویز عراقی) و محمدجواد فاضل لنکرانی، دو روحانی، نیز در این فهرست قرار دارند.<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅دولت جمهوری آذربایجان ۱۴ شهروند ایرانی، از جمله نمایندگان مجلس، روحانیون و چهره‌های رسانه‌ای، را «عنصر نامطلوب» اعلام کرد و ورودشان به این کشور را ممنوع کرد.\n\nخبرگزاری دولتی آپا گزارش داد که در فهرست ۱۴ نفره، نام کامران غضنفری، ابوالفضل ظهره‌وند، عباس مقتدایی و علیرضا سلیمی، نمایندگان مجلس، و حسین شریعتمداری، مدیرمسئول روزنامه کیهان، آمده است. محسن اراکی ( پرویز عراقی) و محمدجواد فاضل لنکرانی، دو روحانی، نیز در این فهرست قرار دارند.\n\n@Sahamnewsorg",
-      "media": [],
-      "reactions": [],
-      "views_label": "45.6K",
-      "posted_at": "2026-11-04T09:10:27+00:00",
-      "edited": false,
-      "permalink": "https://t.me/sahamnewsorg/149963",
-      "reply": null
     }
   ]
 }
