@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-06T15:31:56.202Z",
+  "fetched_at": "2026-11-06T15:37:27.976Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/236241",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/jbAJkJtqckCFhqaY9GhihkDQ7y2FdGHKsA-vadkSN9KhgWGxPELdkgvS_xSAiq11whAylGrNft0rxnVZYmTdRuhfokJAov3guu1w-g0NimSwbGC8gHR94W97Hmt06voQrsDJ4r082FWCWRUMe9VvX75WskrXd72yUvA_BKkwaQto8Mm2B5xp_I8MF9oSffd4PzAjZgXYmbmllZyhLSyR4sP5tNv6TtnlTtaHicnIwS585S-rSwjS1Zord3Kb-uZ1sznojku3aFbpiReKnXCTbSDR4ejoICZFUlAp7zgJsqQMlVHyplEtC2aaMnfIIVjcI5kx6FZCboSXEljAyRbBGw.jpg",
+      "author_photo_path": "channels/farsivoa/media/71075fddaab5c489a0ea78f9.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "ویدیوی منتشرشده در شبکه‌های اجتماعی، لاشه یک نهنگ را در ساحل غربی جزیره کیش نشان می‌دهد. علت مرگ و گونه این نهنگ هنوز مشخص نیست و بررسی‌های لازم برای تعیین وضعیت آن در دستور کار اداره محیط‌زیست قرار گرفته است.<br><br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
+      "plain_text": "ویدیوی منتشرشده در شبکه‌های اجتماعی، لاشه یک نهنگ را در ساحل غربی جزیره کیش نشان می‌دهد. علت مرگ و گونه این نهنگ هنوز مشخص نیست و بررسی‌های لازم برای تعیین وضعیت آن در دستور کار اداره محیط‌زیست قرار گرفته است.\n\n@FarsiVOA",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/236241",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/bE4_pyX8gszHlaOpfZPxELpUbwffi3jvXCuRB1H_jsNvu9A6xZB0cl6RfhaqmhIW0tIQmhjrzGfYzVaCEPDYcVFllRWOa20Qg0juoEEENLdnG_FAi0LiYDs0U5E6jXBYbGa9Cvd2xXZpnuS9Dm2Hz7bjviw5DtwEYG0SykoEpDGzOf-aCcuC6ofWUjbKAfXJt1bAgqCjn4GzLbdWYDmG-6vnBlqmT9PRXD2MJ37nszIcwAzsZso4RWhEfsFtKJlMOwHPVsEwb4MUloS68uTFA9G7RLXZd91Vs_leH94aVi8IhnwrQv3TnwJewMHr_4XVCmaTtwkTCXt6NHGsRZ2r-Q",
+          "thumbnail_path": "channels/farsivoa/media/45325f7d192285ed1a459377.jpg",
+          "thumbnail_sha256": "59254d296b2f478da20a948457e0ad8656cbfa07063692dcf819144d1c4d62b5",
+          "duration_label": "0:15",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "318",
+      "posted_at": "2026-11-06T15:32:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/236241",
+      "reply": null
+    },
+    {
       "id": "farsivoa/236240",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/jbAJkJtqckCFhqaY9GhihkDQ7y2FdGHKsA-vadkSN9KhgWGxPELdkgvS_xSAiq11whAylGrNft0rxnVZYmTdRuhfokJAov3guu1w-g0NimSwbGC8gHR94W97Hmt06voQrsDJ4r082FWCWRUMe9VvX75WskrXd72yUvA_BKkwaQto8Mm2B5xp_I8MF9oSffd4PzAjZgXYmbmllZyhLSyR4sP5tNv6TtnlTtaHicnIwS585S-rSwjS1Zord3Kb-uZ1sznojku3aFbpiReKnXCTbSDR4ejoICZFUlAp7zgJsqQMlVHyplEtC2aaMnfIIVjcI5kx6FZCboSXEljAyRbBGw.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺رئیس جمهوری اسرائیل تاریخ معرفی نامزد نخست‌وزیری را اعلام کرد\n\n▪️اسحاق هرتزوگ، رئیس‌ جمهوری اسرائیل، روز جمعه ۱۵ آبان با انتشار یک پیام تصویری اعلام کرد، نامزد احراز منصب نخست‌وزیری اسرائیل و تشکیل دولت آن کشور را روز یکشنبه ۱۷ آبان معرفی خواهد کرد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/israel-election-isaac-herzog-arab-parties/8219634.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.91K",
+      "views_label": "2.13K",
       "posted_at": "2026-11-06T14:50:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236240",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.09K",
+      "views_label": "2.28K",
       "posted_at": "2026-11-06T14:45:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236239",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.32K",
+      "views_label": "2.54K",
       "posted_at": "2026-11-06T14:34:49+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236238",
@@ -93,7 +121,7 @@
       "plain_text": "🔺مقام دولت آمریکا: جمهوری اسلامی از نظر نظامی درهم کوبیده شده و کمک‌های خارجی بی‌اثر است\n\n▪️یک مقام دولت آمریکا در پاسخ به صدای آمریکا اعلام کرد که هرگونه کمک احتمالی کشورهای دیگر به جمهوری اسلامی، در برابر عملیات نظامی آمریکا علیه حکومت ایران در اوایل سال جاری میلادی و فشارهای فلج‌کننده اقتصادی که همچنان ادامه دارد، بی‌اثر بوده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/us-foreign-aid-cannot-save-iran/8219645.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.69K",
+      "views_label": "2.82K",
       "posted_at": "2026-11-06T14:21:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236237",
@@ -121,7 +149,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.11K",
+      "views_label": "3.23K",
       "posted_at": "2026-11-06T13:56:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236236",
@@ -193,7 +221,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.93K",
+      "views_label": "4.02K",
       "posted_at": "2026-11-06T13:08:36+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236231",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.97K",
+      "views_label": "4.06K",
       "posted_at": "2026-11-06T12:55:31+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236230",
@@ -249,7 +277,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.06K",
+      "views_label": "4.16K",
       "posted_at": "2026-11-06T12:42:44+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236229",
@@ -277,7 +305,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.75K",
+      "views_label": "3.81K",
       "posted_at": "2026-11-06T12:32:56+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236228",
@@ -293,7 +321,7 @@
       "plain_text": "🔺حملات حوثی‌ها به شهرهای عربستان سعودی ادامه دارد؛ انهدام یک پهپاد در منطقه مکه\n\n▪️ائتلاف نظامی به رهبری عربستان سعودی که با حوثی‌های تحت حمایت جمهوری اسلامی در یمن می‌جنگد، اعلام کرد یک پهپاد را در منطقه مکه، مقدس‌ترین شهر مسلمانان، رهگیری و منهدم کرده است.\n\n▪️ترکی المالکی، سخنگوی این ائتلاف، جمعه در شبکه‌های اجتماعی از «رهگیری و انهدام یک پهپاد در منطقه مکه» خبر داد اما درباره منشأ این حمله توضیحی نداد.\n\n▪️این حمله پس از حملات مکرر حوثی‌ها به عربستان سعودی رخ می‌دهد.\n\n▪️ساعاتی قبل، سخنگوی ائتلاف به رهبری عربستان سعودی در یمن اعلام کرد که سامانه‌های پدافند هوایی این ائتلاف دو فروند موشک بالستیک شلیک‌شده از سوی حوثی‌ها به مقصد شهر نجران را رهگیری و منهدم کرده‌اند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8219625.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.35K",
+      "views_label": "4.41K",
       "posted_at": "2026-11-06T11:48:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236227",
@@ -321,7 +349,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "4.34K",
+      "views_label": "4.37K",
       "posted_at": "2026-11-06T11:22:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236226",
@@ -337,7 +365,7 @@
       "plain_text": "🔺کوشنر: آمریکا به‌دنبال ایجاد چارچوب امنیتی جدید برای اروپا و پایان جنگ اوکراین است\n\n▪️جرد کوشنر، نماینده ویژه دونالد ترامپ و مذاکره‌کننده ایالات متحده، از طرح آمریکا برای ایجاد چارچوب امنیتی جدید در اروپا با هدف پایان دادن به جنگ اوکراین خبر داد.\n\n▪️آقای کوشنر در شبکه اجتماعی ایکس اعلام کرد واشنگتن در حال مذاکره با اوکراین، ناتو و کشورهای اروپایی برای تدوین سازوکاری بلندمدت با هدف کاهش تنش میان اروپا و روسیه است.\n\n▪️او با اشاره به مذاکرات آتی صلح در ابوظبی، گفت: «در حاشیه این مذاکرات، مشورت‌های نزدیکی با شرکای اروپایی خود خواهیم داشت و در صورت دستیابی به پیشرفت، تلاش خواهیم کرد به سمت قالبی گسترده‌تر و چندجانبه حرکت کنیم که در آن کشورهای اروپایی نیز مشارکت مستقیم داشته باشند.»\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8219623.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.02K",
+      "views_label": "4.05K",
       "posted_at": "2026-11-06T11:15:58+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236225",
@@ -353,7 +381,7 @@
       "plain_text": "🔺شمار کشته‌شدگان بمباران مرکز توزیع کمک‌های بشردوستانه در اوکراین به ۵۳ نفر رسید\n\n▪️فرماندار موقت زاپوریژیا جمعه اعلام کرد شمار کشته‌شدگان بمباران یک مدرسه و مرکز توزیع کمک‌های بشردوستانه در این منطقه، در جنوب شرقی اوکراین، به ۵۳ نفر افزایش یافت. این حمله دوشنبه انجام شد.\n\n▪️میخایلو سمیکین در پیامی در شبکه اجتماعی تلگرام اعلام کرد عملیات جست‌وجو و نجات در محل حادثه، در شرایطی دشوار و با وجود تهدید دائمی حملات مجدد روسیه، وارد پنجمین روز خود شده است.\n\n▪️این مدرسه در خط مقدم جنگ و در روستای کومیشوواخا در منطقه زاپوریژیا به مرکز توزیع کمک‌های بشردوستانه تبدیل شده بود. حمله به این مدرسه و پناهگاهی در نزدیکی آن یکی از مرگبارترین حملات علیه غیرنظامیان در اوکراین در سال جاری به شمار می‌رود.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/death-toll-from-russian-bombing-of-ukrainian-aid-point-rises-to-53/8219622.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.99K",
+      "views_label": "4.02K",
       "posted_at": "2026-11-06T11:05:21+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236224",
@@ -381,7 +409,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.86K",
+      "views_label": "3.92K",
       "posted_at": "2026-11-06T10:47:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236223",
@@ -397,7 +425,7 @@
       "plain_text": "🔺پس از جهش ۱۱۳ درصدی قیمت مواد غذایی، دولت تنها ۵۰۰ هزار تومان به کالابرگ شهروندان ایرانی اضافه کرد\n\n▪️حمید پورمحمدی، رئیس سازمان برنامه و بودجه از افزایش ۵۰۰ هزار تومانی اعتبار کالابرگ برای ۳۰ میلیون شهروند ایرانی خبر داد.\n\n▪️هم‌زمان طبق وزارت کار و رفاه اجتماعی اعلام کرد کالابرگ سرپرستان خانوار با رقم انتهای کد ملی ۰، ۱ و ۲ و همچنین خانوارهای حمایتی (کمیته امداد، بهزیستی و نیروهای مسلح) روز جمعه شارژ می‌شود.\n\n▪️افزایش ۵۰۰ هزار تومانی کالابرگ ۳۰ میلیون شهروند در حالی است که طی یک سال گذشته ریال ۶۰ درصد ارزش خود را از دست داده، تورم اقلام خوراکی به نزدیک ۱۱۳ درصد اوج گرفته و قیمت مواد غذایی بیش از دو برابر شده است.\n\n▪️طبق برآورد صندوق بین‌المللی پول، ایران بالاترین تورم جهان را بعد از ونزوئلا خواهد داشت.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iran-economy-living-cost/8219621.html",
       "media": [],
       "reactions": [],
-      "views_label": "4.46K",
+      "views_label": "4.49K",
       "posted_at": "2026-11-06T10:05:34+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236222",
@@ -2531,34 +2559,6 @@
       "posted_at": "2026-11-05T12:42:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236131",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/236130",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/RU4kCftDbdOcZAh80jwzcPCxJu4SBkwLFIf9jRsZuw5N3Wfz6v6sND4FVx6NFEMgeZxgmwDbh24YOh4jZThSbd9JsbjgxULmd6HXZS5nu18Iqjq4_jNASxb8H90vcRSbzrzs6MIWXX1HbEGzOAEQv0O4MzBGj6s55Hv091QsQ6dB5Snw0luqHCtQcd49Q7YIUWtcZ4gC5j0XYNE13tmBn28alnPK0Au2pJg-gE5SEWDnSfL2mIIJrFDrIbiPyKSxReoVf0Fe7wyaasSNyh5L1CscnMavcb1u-tVW-TVNjB8meEycPJzNa1Uoatqh3FEjJ3RH3KPlcZHnkTHzbAKmsw.jpg",
-      "author_photo_path": "channels/farsivoa/media/86eff02ccfee92ff50d4845e.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "آژانس امنیت داخلی لهستان روز پنجشنبه ۱۴ آبان اعلام کرد چهار نفر را به اتهام جاسوسی برای سرویس‌های اطلاعاتی روسیه و تأمین قطعات نظامی برای این کشور بازداشت کرده است.<br><br>به گزارش رویترز، دو متهم دیگر این پرونده، با اتهام عضویت در گروه مجرمانه سازمان‌یافته، تحت تدابیر قضایی بدون بازداشت قرار گرفته‌اند. شش مظنون شامل پنج شهروند لهستانی و یک زن ۳۷ ساله روس هستند.<br><br>به گفته این آژانس، این گروه مقادیر قابل‌توجهی قطعات مورد استفاده در تولید مهمات و سامانه‌های تسلیحاتی را غیرقانونی به روسیه ارسال کرده است.<br><br>مسئول سرویس‌های ویژه لهستان، هدف عملیات را دورزدن تحریم‌های تسلیحاتی توصیف کرد. به گفته او، از ابتدای ۲۰۲۴ حدود ۱۰۰ نفر در پرونده‌های جاسوسی و خرابکاری مظنون شناخته شده‌اند. سفارت روسیه به درخواست رویترز برای اظهارنظر پاسخ فوری نداد.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "آژانس امنیت داخلی لهستان روز پنجشنبه ۱۴ آبان اعلام کرد چهار نفر را به اتهام جاسوسی برای سرویس‌های اطلاعاتی روسیه و تأمین قطعات نظامی برای این کشور بازداشت کرده است.\n\nبه گزارش رویترز، دو متهم دیگر این پرونده، با اتهام عضویت در گروه مجرمانه سازمان‌یافته، تحت تدابیر قضایی بدون بازداشت قرار گرفته‌اند. شش مظنون شامل پنج شهروند لهستانی و یک زن ۳۷ ساله روس هستند.\n\nبه گفته این آژانس، این گروه مقادیر قابل‌توجهی قطعات مورد استفاده در تولید مهمات و سامانه‌های تسلیحاتی را غیرقانونی به روسیه ارسال کرده است.\n\nمسئول سرویس‌های ویژه لهستان، هدف عملیات را دورزدن تحریم‌های تسلیحاتی توصیف کرد. به گفته او، از ابتدای ۲۰۲۴ حدود ۱۰۰ نفر در پرونده‌های جاسوسی و خرابکاری مظنون شناخته شده‌اند. سفارت روسیه به درخواست رویترز برای اظهارنظر پاسخ فوری نداد.\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/236130",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/dgFjvwBzeQ31zvTRAIhEXElSJZ0Hha3Nk8Rm0U1uXZub8kilYoqcc-pZGg-8i0S7tMCVZ5FRO3WCSZB4rR_zNWzqIIfFwFNRwuE4TohRdzfyFq8WWSW04a5qRVUN14fCpO6Wyui_-1t135JuX5xYqYoFQJiuNWzKVNYYhfRF7_dp42nlWWBWMFCN_69o4ePG5mZacGTkM_EedhrWDwLdY91tJDDwDnr29YPsMez2-zW93F2hNeOlCUCcegA3N3yarm3h4x-PHwAulupJacgQHiFEbYgjzLm-nhE12hzpMldwbpZiJmsjfQr1O2z7DKPddGnY7b_iy4RDhEwwoKc2Lg.jpg",
-          "thumbnail_path": "channels/farsivoa/media/e7d6b00ca8b5e9db8fa6cdf9.jpg",
-          "thumbnail_sha256": "8a235c7cf9d0156f0627bca46ae5896b223af8633461e82a664bdb9fd504dd10",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.23K",
-      "posted_at": "2026-11-05T12:37:07+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/236130",
       "reply": null
     }
   ]
