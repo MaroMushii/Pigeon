@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-07T12:03:43.401Z",
+  "fetched_at": "2026-11-07T12:07:05.227Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,68 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5809",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Y51q3Z-EbGIleJVfsJgMHufFmIBSbCHA1W7Z-6qk6_cv4P6NPLQdo15PNNS8s1lWe1lmg03c-SkpMUsyEhSbWPrF9XPkqbML6uyxWSP_BPk2wTQiYc-CsQ3_-rWflxSWSTm8El-CWlIEhZh5HuW-UDb7LYfwb4pYZqBz7N58ak8WbL3KkJMg0jsQIrUR2y0F9PhPsnOWNGwAJ0pxtlJDQj_SOa2Gj6-mjiogEf5YIxpB5L_VHWPgxaLqv4K7DmHYeAIollfKdiZMWgkYdrpeMDM9TGR9q5GzpibJltiyvAp58Ctl8MS03Bke3QyscDtxoq9dELR-5rjXc4-Bo1FALQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/0e8bbb34e70520a04ca263e2.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "واژه‌ی Perplexity (پرپلکسیتی) توی مدل‌های زبانی، معیاریه که نشون می‌ده مدل چقدر داخل پیش‌بینی توکن بعدی یک متن دچار عدم قطعیت می‌شه.<br>که کمپانی Perplexity اسمش رو از همین گرفته و خواستم یک وقت گیج نشید",
+      "plain_text": "واژه‌ی Perplexity (پرپلکسیتی) توی مدل‌های زبانی، معیاریه که نشون می‌ده مدل چقدر داخل پیش‌بینی توکن بعدی یک متن دچار عدم قطعیت می‌شه.\nکه کمپانی Perplexity اسمش رو از همین گرفته و خواستم یک وقت گیج نشید",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "9"
+        },
+        {
+          "emoji": "🆒",
+          "count": "3"
+        }
+      ],
+      "views_label": "1.09K",
+      "posted_at": "2026-11-07T12:04:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5809",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/5808",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Y51q3Z-EbGIleJVfsJgMHufFmIBSbCHA1W7Z-6qk6_cv4P6NPLQdo15PNNS8s1lWe1lmg03c-SkpMUsyEhSbWPrF9XPkqbML6uyxWSP_BPk2wTQiYc-CsQ3_-rWflxSWSTm8El-CWlIEhZh5HuW-UDb7LYfwb4pYZqBz7N58ak8WbL3KkJMg0jsQIrUR2y0F9PhPsnOWNGwAJ0pxtlJDQj_SOa2Gj6-mjiogEf5YIxpB5L_VHWPgxaLqv4K7DmHYeAIollfKdiZMWgkYdrpeMDM9TGR9q5GzpibJltiyvAp58Ctl8MS03Bke3QyscDtxoq9dELR-5rjXc4-Bo1FALQ.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/0e8bbb34e70520a04ca263e2.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>گوگل با معماری Muir می‌گه ۱۰ میلیون توکن رو می‌شه توی ۲۵ مگابایت جا داد</b><br><br>یه مقاله‌ی تازه‌ی گوگل ریسرچ به اسم Muir به چشمم خورد دیروز؛ که یه معماری اتنشن خطیه، یعنی به‌جای اینکه کل متن رو مثل یه حافظه‌ی بزرگ نگه داره، خلاصه‌ش رو توی یه حالت کوچیک با اندازه‌ی ثابت جمع می‌کنه.<br><br>عددهای خود مقاله می‌گن مدل ۱٫۳۴ میلیاردی Muir که فقط روی ۴ هزار توکن آموزش دیده، تا ۱۰ میلیون توکن بدون افت کیفیت ادامه می‌ده و حافظه‌ش فقط ۲۵ مگابایته؛ در حالی که یه ترنسفورمر معمولی برای همون ۱۰ میلیون توکن ۲٫۱ ترابایت حافظه می‌خواد. perplexity(نه کمپانی<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i>) هم که یعنی معیار سردرگمی مدل، ۲٫۵ تا ۳٫۶٪ از ترنسفورمر بهتره.<br><br>البته هنوز معلوم نیست گوگل این رو توی محصولی می‌ذاره یا نه.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1xplbuu/muir_linear_attention_with_sensitivityallocated/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "گوگل با معماری Muir می‌گه ۱۰ میلیون توکن رو می‌شه توی ۲۵ مگابایت جا داد\n\nیه مقاله‌ی تازه‌ی گوگل ریسرچ به اسم Muir به چشمم خورد دیروز؛ که یه معماری اتنشن خطیه، یعنی به‌جای اینکه کل متن رو مثل یه حافظه‌ی بزرگ نگه داره، خلاصه‌ش رو توی یه حالت کوچیک با اندازه‌ی ثابت جمع می‌کنه.\n\nعددهای خود مقاله می‌گن مدل ۱٫۳۴ میلیاردی Muir که فقط روی ۴ هزار توکن آموزش دیده، تا ۱۰ میلیون توکن بدون افت کیفیت ادامه می‌ده و حافظه‌ش فقط ۲۵ مگابایته؛ در حالی که یه ترنسفورمر معمولی برای همون ۱۰ میلیون توکن ۲٫۱ ترابایت حافظه می‌خواد. perplexity(نه کمپانی😂) هم که یعنی معیار سردرگمی مدل، ۲٫۵ تا ۳٫۶٪ از ترنسفورمر بهتره.\n\nالبته هنوز معلوم نیست گوگل این رو توی محصولی می‌ذاره یا نه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5808",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ZnnS5TQHsvS2vDwhD-1qUUVKWaLne1BJI-E3b3h8GsD15ST4VPNHqBIl5xWbuQu3dw34ZhHJjoIFpF57FBDR_nIk82LJvaMPU8dbV8ewjXIYtwLhMp9neeBZYZihjWtUTJhNIjI5HRV7kfY45KO9YZTvx_eTEdKsMfwYWT5NA6PMFcZ0L8BTNZvOPvj3pp7qRm4AL1aJO5y6BK2njFeV-3_ULkaQVbRZ0RVmKTF8ktjKrYj31F8eD4EYxmcAm3cZOam3wr0bGQzwoaVgLo_WHgZyfm6zDoK_6l8UhTNJaLqE5p5YuHmMC8RBOGUlgmICb0HRe3gRV76F5ArmXhCoHg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/4d5bc924fe719d525b2015ef.jpg",
+          "thumbnail_sha256": "3d7781fd3e04dea33ece8e6ba5dd46c65ba12a7e4cee8aa3a360f2d2a81dac0d",
+          "duration_label": null,
+          "aspect_ratio": 1.5009380863039399
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "😁",
+          "count": "3"
+        }
+      ],
+      "views_label": "1.29K",
+      "posted_at": "2026-11-07T12:03:35+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5808",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5807",
       "author_name": "Matin SenPai",
@@ -35,7 +97,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "77"
+          "count": "79"
         },
         {
           "emoji": "🆒",
@@ -43,7 +105,7 @@
         },
         {
           "emoji": "👍",
-          "count": "2"
+          "count": "3"
         },
         {
           "emoji": "🦄",
@@ -54,7 +116,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.59K",
+      "views_label": "10.1K",
       "posted_at": "2026-11-07T09:47:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5807",
@@ -75,7 +137,7 @@
           "count": "42"
         }
       ],
-      "views_label": "11.8K",
+      "views_label": "12.1K",
       "posted_at": "2026-11-07T08:33:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5806",
@@ -109,14 +171,14 @@
         },
         {
           "emoji": "❤",
-          "count": "72"
+          "count": "73"
         },
         {
           "emoji": "👍",
           "count": "19"
         }
       ],
-      "views_label": "14.4K",
+      "views_label": "14.7K",
       "posted_at": "2026-11-07T07:19:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5805",
@@ -150,10 +212,10 @@
         },
         {
           "emoji": "👍",
-          "count": "13"
+          "count": "14"
         }
       ],
-      "views_label": "16.5K",
+      "views_label": "16.7K",
       "posted_at": "2026-11-07T04:24:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5804",
@@ -186,7 +248,7 @@
           "count": "3"
         }
       ],
-      "views_label": "17.7K",
+      "views_label": "17.8K",
       "posted_at": "2026-11-07T02:31:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5803",
@@ -239,7 +301,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.6K",
+      "views_label": "18.7K",
       "posted_at": "2026-11-07T01:18:41+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5802",
@@ -300,7 +362,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.1K",
+      "views_label": "22.2K",
       "posted_at": "2026-11-06T19:42:55+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5801",
@@ -334,11 +396,11 @@
         },
         {
           "emoji": "👍",
-          "count": "196"
+          "count": "197"
         },
         {
           "emoji": "❤",
-          "count": "39"
+          "count": "40"
         },
         {
           "emoji": "💔",
@@ -361,7 +423,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.9K",
+      "views_label": "23K",
       "posted_at": "2026-11-06T19:27:12+00:00",
       "edited": true,
       "permalink": "https://t.me/MatinSenPaii/5800",
@@ -398,7 +460,7 @@
           "count": "5"
         }
       ],
-      "views_label": "28.3K",
+      "views_label": "28.4K",
       "posted_at": "2026-11-06T16:24:24+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5799",
@@ -439,7 +501,7 @@
           "count": "2"
         }
       ],
-      "views_label": "28.7K",
+      "views_label": "28.8K",
       "posted_at": "2026-11-06T16:14:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5798",
@@ -782,7 +844,7 @@
           "count": "1"
         }
       ],
-      "views_label": "26.5K",
+      "views_label": "26.6K",
       "posted_at": "2026-11-05T13:13:14+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5791",
@@ -4524,105 +4586,6 @@
       "posted_at": "2026-10-26T10:39:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5705",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5704",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/nvWxw_IVxjALhODt7E9HQEXN46ImMqC4HXJLsm9kXCbNUs0A29uJ_ITQUfStPsT8454D-m739fN-K7cSnZO9W2CbqAR6AKJE6RqMyQHNXyiEQprepbqHreeEPkRfXw_Bv3QEkmty7Rtde2TLZb6XllJK6t2QKw0GX0zSM9lQSUQyzNwdATpZG6wB9ekgvvJHu6vOcAOn_KlLDYQtmFLEZSZAI5kQnvGTZP9-GKuddlF4ejZZr4RGpso_e0hYylufkb7MtLzjox8oHpDZR00mOCrA1oWcDQAMdBbWr6rAiMOjM-9AOcqbUACqu-07OjhtiIgasMEEUfV3DZQtyO6x9A.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/1fbf4e2e13d2907473b7e216.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "93"
-        },
-        {
-          "emoji": "💔",
-          "count": "18"
-        },
-        {
-          "emoji": "❤",
-          "count": "16"
-        },
-        {
-          "emoji": "🦄",
-          "count": "4"
-        },
-        {
-          "emoji": "😁",
-          "count": "2"
-        },
-        {
-          "emoji": "💯",
-          "count": "2"
-        }
-      ],
-      "views_label": "30.2K",
-      "posted_at": "2026-10-26T10:39:37+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5704",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5703",
-        "author_name": "Matin SenPai",
-        "preview_text": "بعد از 50 دلار مصرف توکن: (دلیلی که میگم حتما حتما از Ponytail استفاده کنید همینه)",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/o4ExSqKOWmGsq0RlWfOTJlLKCcfa_6kHBUx0UfBaV5uc5kQ2D8JmB6hXPYNFG9j_vTI811St-xLFcWe63oK0pCX9i6PvebtvISqfnl2Nf8ZpLygu-GGnZfWGtupNhEzkn8DUMvqoC1qjjAe_JtSzfpsuylsGueK4Fy6CQCTJGSYvuaOLk7vwby0w2NRczK1JKXsoghmQw6F9uTpP_dPZxMJU-okS0IGcHUpsWvhY2O37VJP80fBccUV72iAbVyXXVfKxoxuB6kT7IdKNAdC0mUr3nkdX5DDUAvHt1jNEhpczHMI6dLRTbfpVNXVX3DSZ--DF4GcTaiucYfLnZA6_lA.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/02902ab4c4ddbec79c93dc07.jpg",
-        "thumbnail_sha256": "da27f0b7017cbb6e7a587e9ac60945a5b0c611fdebbec8c67f8afa28a83e2dd5",
-        "permalink": "https://t.me/matinsenpaii/5703"
-      }
-    },
-    {
-      "id": "MatinSenPaii/5703",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/KqHqg5iNnthnhJEb_sy8vcoK2T2_LPoyWYrzdz6D696sAT72lQqNTq9Cmqu6jAroe4-Yj3e2XCqdm2_exQt5Ie9fyNWw-I7kQQVUHP3BykfqYnazxIIMaaQpWcZpz775Btw43V9f9v2rDFfQ9-ReH-m7aApDing6n6-PJeYHoRfAAQLUs6DP82hQBSNlP8LVhefyvsQ5hz3U4Wh2rp09DUSOHEFByO5gHnOpK6mue5N_AUWN2BsRYUHKKFm04ljkNBGFhhNnV6nqgd2Zdsc4CtEdnNtmvcydNA57wmzETSKkscUcu1zKkRiUa-0APLWJUy_YYJEird5bUVqETwxbow.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/a597444d5efeecbfec2a5f4f.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "بعد از 50 دلار مصرف توکن:<br>(دلیلی که میگم حتما حتما از Ponytail استفاده کنید همینه)",
-      "plain_text": "بعد از 50 دلار مصرف توکن:\n(دلیلی که میگم حتما حتما از Ponytail استفاده کنید همینه)",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5703",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/fLWBxIHMurwzWJrMuSxhfuaLQp4BohgxKRLCywOh4mc1vqmlrt283JvnctT62vMIfdsoiBqBQsvAN8VyWmsJkkWJ2YhEdmFop-26MGOxgrnbuVwKwo-FgSkduK97DbRCkakCKHZ2ZCYEXw-cyGo2cCXjFMFyyIA1aH72iFrYPPY6SQF7RDnU7QKp9x6DepgkI4wnxPh5yfX8rm3Ax_z0r_zgyLgJpnAo-0nIMMpYpOD5lf5botGLkBdwRzO-f_gNawzWz3JK93o6KP6_AoLi6lP9mxt6Bh8Ehmv0bGw8UbbjjJhJZ3LhjJrGu9FsyTK5fJUGs4R-pqNKwrvL0MiqiQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/1c72415ac9aa6a741c09a544.jpg",
-          "thumbnail_sha256": "219904c762e6e3ca7f9e818e52c4998e2b194968e6d08da179c0b51a174bcb60",
-          "duration_label": null,
-          "aspect_ratio": 2.146596858638722
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "417"
-        },
-        {
-          "emoji": "❤",
-          "count": "32"
-        },
-        {
-          "emoji": "🦄",
-          "count": "22"
-        },
-        {
-          "emoji": "👍",
-          "count": "17"
-        },
-        {
-          "emoji": "💔",
-          "count": "4"
-        }
-      ],
-      "views_label": "31.5K",
-      "posted_at": "2026-10-26T09:57:58+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5703",
       "reply": null
     }
   ]
