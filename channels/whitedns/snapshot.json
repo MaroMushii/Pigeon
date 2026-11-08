@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-08T00:52:25.287Z",
+  "fetched_at": "2026-11-08T00:57:23.020Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -32,8 +32,13 @@
           "aspect_ratio": 2
         }
       ],
-      "reactions": [],
-      "views_label": "71",
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        }
+      ],
+      "views_label": "192",
       "posted_at": "2026-11-08T00:50:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2250",
@@ -48,8 +53,13 @@
       "body_html": "‏آپدیت جدید CoreForge <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8695.png')\"><b>🆕</b></i><br><br>‏این نسخه چند تا چیز مهم آورده، بریم ببینیم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br>‏SlipNet <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i><br>‏• پروفایل‌های رمزنگاری‌شدهٔ slipnet-enc:// رو ایمپورت کن و وصل شو<br>‏• شامل VayDNS، Slipstream، Slipstream + SSH و Soar<br>‏• از برنامه بیای بیرون یا گوشی رو قفل کنی، اتصال قطع نمی‌شه<br><br>‏Soar — تونل DNS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C80.png')\"><b>🌀</b></i><br>‏• روی شبکه‌های فیلترشده خیلی سریع‌تر وصل می‌شه<br><br>‏Psiphon جمع‌وجور شد <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7B9.png')\"><b>🧹</b></i><br>‏• حالا فقط یه ردیف تو Configs‌ه<br>‏• سرورهای داخلیش رفتن به Settings › Psiphon<br>‏• تایل Psiphon تو Home رو نگه داری، مستقیم می‌ری تو تنظیماتش<br><br>‏Cloudflare WARP <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7A9.png')\"><b>🧩</b></i><br>‏• حالت‌های WARP in WARP و Gool<br>‏• اندپوینت IPv4 یا IPv6، هر کدوم رو خواستی<br>‏• فینگرپرینت‌های TLS بیشتر برای MASQUE<br>‏• سازندهٔ کانفیگ MASQUE<br>‏• اون WARPـی که «Connected» نشون می‌داد ولی دیتا رد نمی‌کرد، حالا خودش خودشو درست می‌کنه<br>‏• تایل WARP تو Home رو نگه داری، تنظیماتش باز می‌شه<br><br>‏Mixed exit تو صفحهٔ Home <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C8D.png')\"><b>🌍</b></i><br>‏• اگه سروری بسته به مقصد از کشورهای مختلف خارج بشه، خودش بهت می‌گه «Mixed exit»<br><br>‏ظاهر جدید <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i><br>‏• تب‌بار شیشه‌ای<br>‏• کنترل‌های کشویی<br>‏• استایل‌های تازه برای آیکون برنامه<br><br>‏لینک‌های نصب — TestFlight <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B2.png')\"><b>📲</b></i><br>‏• اپ CoreForge نسخهٔ iOS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> — نصب<br>‏• اپ ForgeCore نسخهٔ iOS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡</b></i> — نصب<br>‏• اپ CoreForge نسخهٔ macOS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> — نصب<br><br>‏<a href=\"https://t.me/coreforgeios\" target=\"_blank\">@coreforgeios</a>",
       "plain_text": "‏آپدیت جدید CoreForge 🆕\n\n‏این نسخه چند تا چیز مهم آورده، بریم ببینیم 👇\n\n‏SlipNet 🔐\n‏• پروفایل‌های رمزنگاری‌شدهٔ slipnet-enc:// رو ایمپورت کن و وصل شو\n‏• شامل VayDNS، Slipstream، Slipstream + SSH و Soar\n‏• از برنامه بیای بیرون یا گوشی رو قفل کنی، اتصال قطع نمی‌شه\n\n‏Soar — تونل DNS 🌀\n‏• روی شبکه‌های فیلترشده خیلی سریع‌تر وصل می‌شه\n\n‏Psiphon جمع‌وجور شد 🧹\n‏• حالا فقط یه ردیف تو Configs‌ه\n‏• سرورهای داخلیش رفتن به Settings › Psiphon\n‏• تایل Psiphon تو Home رو نگه داری، مستقیم می‌ری تو تنظیماتش\n\n‏Cloudflare WARP 🧩\n‏• حالت‌های WARP in WARP و Gool\n‏• اندپوینت IPv4 یا IPv6، هر کدوم رو خواستی\n‏• فینگرپرینت‌های TLS بیشتر برای MASQUE\n‏• سازندهٔ کانفیگ MASQUE\n‏• اون WARPـی که «Connected» نشون می‌داد ولی دیتا رد نمی‌کرد، حالا خودش خودشو درست می‌کنه\n‏• تایل WARP تو Home رو نگه داری، تنظیماتش باز می‌شه\n\n‏Mixed exit تو صفحهٔ Home 🌍\n‏• اگه سروری بسته به مقصد از کشورهای مختلف خارج بشه، خودش بهت می‌گه «Mixed exit»\n\n‏ظاهر جدید ✨\n‏• تب‌بار شیشه‌ای\n‏• کنترل‌های کشویی\n‏• استایل‌های تازه برای آیکون برنامه\n\n‏لینک‌های نصب — TestFlight 📲\n‏• اپ CoreForge نسخهٔ iOS 🍎 — نصب\n‏• اپ ForgeCore نسخهٔ iOS ⚡ — نصب\n‏• اپ CoreForge نسخهٔ macOS 💻 — نصب\n\n‏@coreforgeios",
       "media": [],
-      "reactions": [],
-      "views_label": "167",
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "2"
+        }
+      ],
+      "views_label": "275",
       "posted_at": "2026-11-08T00:48:37+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2249",
@@ -110,7 +120,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.4K",
+      "views_label": "10.5K",
       "posted_at": "2026-11-07T11:35:41+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2247",
@@ -163,7 +173,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.46K",
+      "views_label": "9.49K",
       "posted_at": "2026-11-07T08:11:00+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2246",
@@ -261,7 +271,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.7K",
+      "views_label": "11.8K",
       "posted_at": "2026-11-07T04:37:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2242",
@@ -577,7 +587,7 @@
       "reply": {
         "channel_username": "whitedns",
         "post_id": "2234",
-        "author_name": "Sarto | سارتو",
+        "author_name": "",
         "preview_text": "🎬 آموزش جامع TheFeed | از صفر تا صد ‏TheFeed آپدیت شده و حالا علاوه بر قابلیت‌های قبلی، امکانات جدیدی مثل پیام‌رسان اختصاصی و دسترسی به خود تلگرام هم بهش اضافه شده! 🚀 توی این ویدیو تمام بخش‌های برنامه رو از ابتدا آموزش دادیم تا بدون سردرگمی بتونید از امکاناتش…",
         "thumbnail_url": "https://cdn4.telesco.pe/file/qkGb8JTCWtrgYjIvxuQfglRBTx8rVApfeNQIGQuUsvs-Jj8OK2yia5BOVMOQDI8tF7OlqSfgZZO7_s1tSEuej3QLbV6Fei3msLf3TLN1kDPDcpff9Y4GMAfgZ62dtxweTm6xgojllgpNNf8-OGzFXOFksMkYWvYGsTQ1cNKejuswmTU4Wrwi-9O3502qIpzNDHcWoVQdxcGT4n4kpO63elijRI1ZWER2QyxGyO0JppZpj4RQkJPZ73Aax7LQl41nKH8TM8hnZPFNAWc7AS96eHIhH8_LWweA6obxZxGDKP5cYaePoSgV2k61BYO3IQ6reXAQtW86162nzkyqFXN3aQ",
         "thumbnail_path": "channels/whitedns/media/c3a31334b0b23c09a07a6f27.jpg",
@@ -677,7 +687,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.8K",
+      "views_label": "12.9K",
       "posted_at": "2026-11-05T20:43:40+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2234",
