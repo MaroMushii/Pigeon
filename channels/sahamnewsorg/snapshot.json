@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-08T10:42:58.770Z",
+  "fetched_at": "2026-11-08T10:47:01.320Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "sahamnewsorg/150161",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/IiTRp4DwQUnSfiCRIz4R7XfClHKXW5mFVjFjny9SBJAPHCmpY3z1EqBzlcIea2mEvKeZ_I-Q0TFnok9mJ5XZP4XTOrPM4RH9CovfOIhsKZa9oYbshLmrqaVCXuwqbev3nFBd0ARjH1dmbiny656Spa5hqQU3UMKeY0KA1r4ws5VdbebhkIsjVe5_eA7p6bc2nTihGJVfVBoctClIMKC-uZc7BH83j5zVxgFkdhcrqKFWwaNGvBtF34uvTNyL6ySmz7FZ1jmQCml3pMXe2YCwxkxjOs9BTjTdVLPaHZY2caDry0eMeUtwYjRV-nzQvxruze-hh4I3oMJOnio75hjHyg.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/9824dd174c558dc4067a5e04.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>صمصامی:۲۰میلیون از جیب مردم برمیدارند،یک میلیون صدقه میدن <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i>بیش از ۳۰ سال است حکومت و دولت ها از جیب مردم هزینه ماجراجویی در منطقه را دارند پرداخت می کنند<br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅صمصامی:۲۰میلیون از جیب مردم برمیدارند،یک میلیون صدقه میدن\n\n🔻بیش از ۳۰ سال است حکومت و دولت ها از جیب مردم هزینه ماجراجویی در منطقه را دارند پرداخت می کنند\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/150161",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/pEad7afpp6QuNYQzUv9Y46cwiu3qcBx2MGnUWL7K0LxWOp__JR8t8fHb5m04KMVaXwie9eMyTM3p6pe1R4elxI-v46bxWLKDUmutkPzlTePdGS7X0Yer42YL4i4ACJJjeUJ6HIziy_nG4WkoJ2a-aCiIq_2gzh_YzIXdIdg82tns0_IIuYPFPJyrpU8ao5AV7ANkQDNeo9prW2zs_4hVV7YchVSzgoUWfIrCG7SjSgFtB0kenWEyf6C68X9mKmJo9wq_VI9qPNymJZu92Zqw2E-PMUV-eiz_HzUxn8BTFPgb1C4FliABG7otbJ8fCRAISeAaPIJnb5peKYKzneNMPA",
+          "thumbnail_path": "channels/sahamnewsorg/media/4f8fe286a457e53097d4d3b9.jpg",
+          "thumbnail_sha256": "9ad81b223b13a5139f971c6d2add6b3340ef2035d84768b51774b0dec56fa30b",
+          "duration_label": "0:24",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "2.44K",
+      "posted_at": "2026-11-08T10:42:46+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/150161",
+      "reply": null
+    },
+    {
       "id": "sahamnewsorg/150160",
       "author_name": "سهام نیوز",
       "author_photo_url": "https://cdn1.telesco.pe/file/IiTRp4DwQUnSfiCRIz4R7XfClHKXW5mFVjFjny9SBJAPHCmpY3z1EqBzlcIea2mEvKeZ_I-Q0TFnok9mJ5XZP4XTOrPM4RH9CovfOIhsKZa9oYbshLmrqaVCXuwqbev3nFBd0ARjH1dmbiny656Spa5hqQU3UMKeY0KA1r4ws5VdbebhkIsjVe5_eA7p6bc2nTihGJVfVBoctClIMKC-uZc7BH83j5zVxgFkdhcrqKFWwaNGvBtF34uvTNyL6ySmz7FZ1jmQCml3pMXe2YCwxkxjOs9BTjTdVLPaHZY2caDry0eMeUtwYjRV-nzQvxruze-hh4I3oMJOnio75hjHyg.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "✅سه تن دیگر از بازداشت ‌شدگان اعتراضات دی‌ماه اعدام شدند\n\nخبرگزاری میزان، وابسته به قوه قضاییه، یکشنبه ۱۸ آبان از اجرای حکم اعدام حسن دیوبند، حمید کاظمی و رضا زنگنه در پرونده اعتراضات ۱۸ و ۱۹ دی ۱۴۰۴ در کرج خبر داد.\n\nبه گزارش میزان، دادگاه انقلاب کرج این سه نفر را به اتهام “مشارکت در اقدام عملیاتی برای اسرائیل، آمریکا و گروه‌های متخاصم” به اعدام و مصادره همه اموال محکوم کرده و دیوان عالی کشور احکام را تایید کرده بود.\n\nمیزان مدعی شد این سه نفر در جریان اعتراضات با سلاح سرد و گرم در تخریب اماکن عمومی و دولتی و پست برق در کرج مشارکت داشته‌اند. این خبرگزاری همچنین از بازداشت هشت متهم دیگر در این پرونده و محکومیت آنان به پنج تا ۱۰ سال زندان خبر داد.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "7.67K",
+      "views_label": "9.5K",
       "posted_at": "2026-11-08T10:24:52+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150160",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "12.9K",
+      "views_label": "14.7K",
       "posted_at": "2026-11-08T10:10:49+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150159",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "14.7K",
+      "views_label": "16.3K",
       "posted_at": "2026-11-08T10:06:01+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150158",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "18.1K",
+      "views_label": "19K",
       "posted_at": "2026-11-08T09:52:29+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150157",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "23.9K",
+      "views_label": "24.9K",
       "posted_at": "2026-11-08T09:33:50+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150156",
@@ -149,7 +177,7 @@
       "plain_text": "✅»ح.خ» از مدعیان طب سنتی با شکایت خصوصی و سازمان نظام پزشکی دستگیر شد\n\n🔹آبان سال گذشته حکم جلب سیار او صادر شده بود. وی با وعده تحصیل دکتری با مدرک یک دانشگاه معتبر ارمنستانی دانشجویان را فریب و ارقامی را به دلار از آنان دریافت کرده بود.\n\n🔹بر اساس اطلاعات منتشرشده، این فرد شامگاه ۱۵ آبان در جریان برگزاری جلسه‌ای در آستان امامزاده سیدعلی قم بازداشت و به کلانتری ۲۵ منتقل شد. وی روز ۱۶ آبان به زندان تهران بزرگ انتقال یافت.\n\n🔹تأسیس دانشکده غیرقانونی طب سنتی با ادعای نمایندگی یک دانشگاه پزشکی در ارمنستان، دریافت مبالغ دلاری از دانشجویان با وعده تربیت پزشک و انتشار مطالب غیرعلمی در حوزه پزشکی از اتهامات مطرح‌شده علیه اوست.\n\n🔹این مدعی طب سنتی سال‌ها در رسانه‌ها فعالیت داشته و تبلیغات او نیز در شبکه‌های مختلف صداوسیما پخش می‌شده است.\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "23.6K",
+      "views_label": "24.6K",
       "posted_at": "2026-11-08T09:24:17+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150155",
@@ -165,7 +193,7 @@
       "plain_text": "✅3 تا 5/3 ميليون شغل از دست رفته است\n\nروزنامه جمهوری اسلامی در ستون جهت اطلاع نوشت:\n🔹یک کارشناس بازار کار با اشاره به پیامدهای جنگ‌های اخیر بر اشتغال کشور گفت: برآوردها از دست رفتن حدود 3 تا 5/3 میلیون شغل را نشان می‌داد.\n\n\n🔹حاج اسماعیلی افزود: هرچند بخشی از این مشاغل پس از آتش‌بس احیا شده‌اند، اما چشم‌انداز بازار کار در کوتاه‌مدت روشن نیست و جوانان، زنان و فارغ‌التحصیلان بیش از سایر گروه‌ها در معرض بیکاری قرار دارند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "27.9K",
+      "views_label": "28.8K",
       "posted_at": "2026-11-08T08:53:22+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150154",
@@ -193,7 +221,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "31.6K",
+      "views_label": "32.6K",
       "posted_at": "2026-11-08T08:24:37+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150153",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "32.8K",
+      "views_label": "33.4K",
       "posted_at": "2026-11-08T08:14:13+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150152",
@@ -237,7 +265,7 @@
       "plain_text": "✅جواد لاریجانی، زمین خوار اعظم:می توان از سلاح هسته ای علیه پایگاههای نظامی دشمن استفاده کرد!!\n\nلاریجانی، رئیس پژوهشگاه دانش‌های بنیادی، در گفت‌وگویی که از تلویزیون ایران پخش شد، گفت که می‌توان از سلاح هسته‌ای به‌صورت تاکتیکی علیه پایگاه‌های نظامی دشمن استفاده کرد.\n\nاو گفت: «از سلاح هسته‌ای نمی‌شود علیه مردم استفاده کرد اما آن را می‌شود به صورت تاکتیکی علیه پایگاه نظامی دشمن استفاده کرد.»\n\nلاریجانی همچنین خواستار پایان دادن به وضعیت «نه جنگ، نه صلح» و ایجاد آنچه «بازدارندگی مطلق» خواند، شد و گفت که هرگونه حمله موشکی یا ترور مقام‌های ایران باید در خاک کشور مهاجم تلافی شود.\n\nاو در تشریح راهبرد «حذف محدودیت جغرافیایی» گفت که اگر از پایگاه‌های آمریکا در آلمان، آلبانی یا بریتانیا علیه ایران استفاده شود، این پایگاه‌ها «هدف مشروع» جمهوری اسلامی خواهند بود.\n\nلاریجانی در بخش دیگری از سخنانش خواستار افزایش سطح غنی‌سازی اورانیوم تا ۸۰ درصد برای استفاده در پیشران‌ها و زیردریایی‌های هسته‌ای شد و گفت که ایران نباید بر سر غنی‌سازی چانه‌زنی کند.\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "36.7K",
+      "views_label": "37K",
       "posted_at": "2026-11-08T07:44:09+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150151",
@@ -265,7 +293,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "62.9K",
+      "views_label": "63.2K",
       "posted_at": "2026-11-07T22:12:27+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150150",
@@ -353,7 +381,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "61.9K",
+      "views_label": "62.2K",
       "posted_at": "2026-11-07T21:07:39+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150146",
@@ -409,7 +437,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "59.3K",
+      "views_label": "59.6K",
       "posted_at": "2026-11-07T20:49:57+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150144",
@@ -437,7 +465,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "64.9K",
+      "views_label": "65.2K",
       "posted_at": "2026-11-07T20:45:56+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150143",
@@ -453,7 +481,7 @@
       "plain_text": "✅سنتکام: نیروهای فرماندهی مرکزی ارتش آمریکا (سنتکام) روز ۷ نوامبر، یک کشتی باری با پرچم سنت کیتس را در دریای عمان از کار انداختند؛ این اقدام پس از آن صورت گرفت که کشتی تلاش داشت محاصره دریایی علیه ایران را نقض کند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "59K",
+      "views_label": "59.3K",
       "posted_at": "2026-11-07T20:45:03+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150142",
@@ -2350,22 +2378,6 @@
       "posted_at": "2026-11-05T21:16:42+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150055",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/150054",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/t2ex3vnTGSnU8NhZtqZlrrdJMAwWpVedjH7rzVHAPG9EGGPlf6518Lej1TSFweYUkwTiy5bsrdG0jXX9q0FpaqwkDAzBxp3asls2Z-rVN_LLIBo0L6sxuzKRRvjR1aD9f216K41RgV-N_zJ_yxT5xOsyiIO0WZ0yGTJLJfUGpzUemuSq6WFPLVrStx227o-YLjZs9nMZxUi0TeSpIVS7612oyiY6xYZPbznVFXfwzEXlBcSUZkmQlt093ac0AEwhPFht3pkt5WSR1RMTLtIqVqcIgeGliZQqhhnFbaTALlKjxR8yKiF4iJoHyZe0yHf3jMX8N_6INJ0WH51yWEYswQ.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/60bc86ea6a9c8acba3c47822.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>نیویورک تایمز: ارتش‌های آمریکا و اسرائیل طرح‌های مشخصی را برای یک عملیات کوتاه اما فشرده تدوین کرده‌اند که احتمالاً شامل اهداف زیرساختی انرژی، تاسیسات هسته‌ای، زرادخانه موشکی و پهپادها در ایران خواهد بود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>نیروهای آمریکایی و اسرائیلی، مانورهای خود را تشدید کرده‌اند و هواپیماهای آن‌ها بر فراز عراق برای تمرین عملیات‌های تهاجمی پرواز کرده‌اند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i>وزارت جنگ و وزارت امور خارجه آمریکا، به عنوان یک اقدام احتیاطی، تعدادی از کارکنان خود را از پایگاه‌ها و تاسیسات موجود در منطقه فراخوانده‌اند.<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅نیویورک تایمز: ارتش‌های آمریکا و اسرائیل طرح‌های مشخصی را برای یک عملیات کوتاه اما فشرده تدوین کرده‌اند که احتمالاً شامل اهداف زیرساختی انرژی، تاسیسات هسته‌ای، زرادخانه موشکی و پهپادها در ایران خواهد بود.\n\n🔹نیروهای آمریکایی و اسرائیلی، مانورهای خود را تشدید کرده‌اند و هواپیماهای آن‌ها بر فراز عراق برای تمرین عملیات‌های تهاجمی پرواز کرده‌اند.\n🔹وزارت جنگ و وزارت امور خارجه آمریکا، به عنوان یک اقدام احتیاطی، تعدادی از کارکنان خود را از پایگاه‌ها و تاسیسات موجود در منطقه فراخوانده‌اند.\n\n@Sahamnewsorg",
-      "media": [],
-      "reactions": [],
-      "views_label": "59.9K",
-      "posted_at": "2026-11-05T21:14:32+00:00",
-      "edited": false,
-      "permalink": "https://t.me/sahamnewsorg/150054",
       "reply": null
     }
   ]
