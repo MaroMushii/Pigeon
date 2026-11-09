@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-09T17:08:02.844Z",
+  "fetched_at": "2026-11-09T17:12:17.245Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "sahamnewsorg/150231",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/kBvUMNlLgaKGMXjzj8cHf49BzLAd26QAe4s7YPmHDru3pyOS9QcYDh6vtzJq1UF6i8HVgDjhQE5mxssdTW8KVvXItWW7ENhxD2nLaxUM30ze1ATheocrzcTZDHA_-iiFvUjiebRWXif_sUBSjsS2FvdaxEW0IhsBqgyXeRX4ACFL8gqECOuNgubCZViIKSnM3o2PGDve2t-rg1vEJq16x__n76dUIgWAQG7Ja-hmxdp609KhYptFj7zcGBS5OoBsnKNTRhO1DucY62x7dvLuZ3PSMFRiHtDOUtRwFJrCmwOhY2lyRBXEFT3DAI5FRI_zkWehgTXCFQ1OZQ30kWx21w.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/0cf504727370c2ca5de65c44.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><b>شهر فرش یا شهر پرونده قضایی؟!<br><br>قوه قضاییه:<br> مجموعه سرای ایرانی<br> (که تلویزیون کلی تبلیغش رو میکنه،)<br> ۵۷ هزار پرونده قضایی تو دستگاه دارد!</b>",
+      "plain_text": "✅شهر فرش یا شهر پرونده قضایی؟!\n\nقوه قضاییه:\nمجموعه سرای ایرانی\n(که تلویزیون کلی تبلیغش رو میکنه،)\n۵۷ هزار پرونده قضایی تو دستگاه دارد!",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/150231",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/FiOtXAAUsJwi4t9N-PTnNpmQKgeT5Cr1RcCgfLp2ha3e77rykH4rhqd1_2pb6MULrF9EUIxhk6HesGTYUCMzKdHgRUr2kAmyhk8MGXxH5nla-9mYGG1fm8gPwSILnjW4Yu7WWs7MjVDO0rnqAmaHXamMpONre7NGrM5hLKyeJXcUDuBnZX1q9z4jahnK7AtH1ajuboMyS_QsHP7EF93XxdfomiuZ4P3Bm6ansk3LjX9lV9j7R-oiHJyFdehzdh_SvQS7XIv4ipCYs2vauW2W_ddJFgIZw0cd5zEzEvW8db9QdLjd9mXQybHbfepAuPlXHmS7bYtEd26bVIlbfxX_XA",
+          "thumbnail_path": "channels/sahamnewsorg/media/c6d2ce5dd6cfab8fc97c40f8.jpg",
+          "thumbnail_sha256": "43e95e300549a912afed39697bbf60d1d079d3adb0b4468a2e7f266ebecd1c44",
+          "duration_label": "0:13",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "4",
+      "posted_at": "2026-11-09T17:11:04+00:00",
+      "edited": false,
+      "permalink": "https://t.me/sahamnewsorg/150231",
+      "reply": null
+    },
+    {
       "id": "sahamnewsorg/150230",
       "author_name": "سهام نیوز",
       "author_photo_url": "https://cdn1.telesco.pe/file/kBvUMNlLgaKGMXjzj8cHf49BzLAd26QAe4s7YPmHDru3pyOS9QcYDh6vtzJq1UF6i8HVgDjhQE5mxssdTW8KVvXItWW7ENhxD2nLaxUM30ze1ATheocrzcTZDHA_-iiFvUjiebRWXif_sUBSjsS2FvdaxEW0IhsBqgyXeRX4ACFL8gqECOuNgubCZViIKSnM3o2PGDve2t-rg1vEJq16x__n76dUIgWAQG7Ja-hmxdp609KhYptFj7zcGBS5OoBsnKNTRhO1DucY62x7dvLuZ3PSMFRiHtDOUtRwFJrCmwOhY2lyRBXEFT3DAI5FRI_zkWehgTXCFQ1OZQ30kWx21w.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "✅فرانسه: حمله سایبری به یخچال‌ها کار سپاه بوده\n\nوزیر امورخارجه فرانسه گفت سپاه پاسداران مسئول حمله سایبری به یخچال‌های سراسر فرانسه است و این اقدام عواقبی خواهد داشت- او افزوده:سفیر جمهوری اسلامی را به دلیل حمله سایبری به سیستم‌ های خنک‌‌کننده احضار کردیم.\n\nدر بحبوحه‌ی بحران اعتراضات اقتصادی در فرانسه، هکرها به سامانه‌های کنترل یخچال و فریزر صدها فروشگاه زنجیره‌ای در فرانسه نفوذ کردند، دمای یخچال‌ها را از راه دور تا حدود ۵۰ درجه سانتی‌گراد بالا بردند؛ در نتیجه حجم زیادی از مواد غذایی فاسد شد و در برخی فروشگاه‌ها آتش‌سوزی رخ داد- حمله از راه آسیب‌پذیری نرم‌افزارهای کنترل تجهیزات سرمایشی اجرا شده بود و هیچ گروهی رسما مسوولیت آن را گردن نگرفته است-\nچند هفته پیش هم در چندین کشور اروپایی این ماجرا رخ داد و آن‌زمان هم روسیه و ایران از سوی برخی رسانه‌ها متهم شدند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "4.03K",
+      "views_label": "5.9K",
       "posted_at": "2026-11-09T17:01:00+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150230",
@@ -37,7 +65,7 @@
       "plain_text": "✅رویترز به نقل از یک منبع ایرانی: حملات دوسه‌شب اخیر آمریکا به جزیره قشم به چندین سامانه نظامی، از جمله تجهیزات مین‌گذاری دریایی، تأسیسات راداری و سامانه‌های ناوبری دریایی آسیب وارد کرده است.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "6.21K",
+      "views_label": "8.07K",
       "posted_at": "2026-11-09T16:57:16+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150229",
@@ -53,7 +81,7 @@
       "plain_text": "✅اردوغان درباره احتمال وقوع مجدد جنگ علیه ایران:\nمتأسفانه بار دیگر شاهد چرخشی منفی هستیم\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "24.5K",
+      "views_label": "25.4K",
       "posted_at": "2026-11-09T15:50:58+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150228",
@@ -81,7 +109,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "27.5K",
+      "views_label": "28.5K",
       "posted_at": "2026-11-09T15:35:05+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150227",
@@ -109,7 +137,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "30.6K",
+      "views_label": "31.2K",
       "posted_at": "2026-11-09T15:20:16+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150226",
@@ -125,7 +153,7 @@
       "plain_text": "✅کروبی: ایران این آزمون تاریخی بزرگ را شجاعانه و با افتخار پشت سر خواهد گذاشت\n\nمهدی کروبی در پیامی به مناسبت یکصدمین سالروز تولد آیت‌الله سید جلال‌الدین طاهری اصفهانی، از او به‌عنوان «مجاهد نستوه و عالم عامل» یاد کرد و بر ضرورت بررسی و تجلیل منصفانه از میراث فکری و مبارزاتی این روحانی فقید تأکید کرد.\n\nبه گزارش دریافتی انصاف نیوز، متن پیام حجت‌الاسلام مهدی کروبی در پی می‌آید:\n\nباسمه تعالی\n\nالذین آمنوا و لم یلبسوا ایمانهم بظلم اولئک لهم الامن وهم مهتدون.\n\nزندگی پر از امید و انگیزه در بحرانی‌ترین شرایط سیاسی و اجتماعی، جزئی از هنر ایرانی و رمز پویایی و پیروزی ایرانیان در مقابله با تجاوزها و تهدیدهای داخلی و خارجی است و قدرشناسی و تکریم نیکان و فرزانگان که عمر خود را در راه تحکیم هویت‌های اسلامی و ایرانی سپری کرده‌اند، یکی از آثار این فرزانگی و فرهیختگی است.\n\nمن نیز به نوبه‌ی خود خرسندم که به مناسبت صدمین سالروز تولد برادر مجاهد و فقیدم مرحوم آیت‌الله سید جلال‌الدین طاهری اصفهانی، هم‌صدا با ملت شریف، بویژه دوستان و همراهان وفادارش یاد آن مجاهد نستوه و عالم عامل را که سراسر حیات شریفش نماد وفاداری و پایداری به حقیقت و آرمان‌های اسلام عزیز و تأکید بر کرامت انسان‌ها و اعتقاد به تقدم حقوق مردم بر همه‌ی اولویت‌ها و مصلحت‌های دیگر بود، گرامی می‌دارم.\n\nبر این باورم که ایران عزیز، با سربلندی و افتخار، آزمون تاریخی بزرگی را که گریبانگیر آن است شجاعانه پشت سر خواهد گذاشت و مجال پرداختن بیشتر به میراث فکری و مبارزاتی فرزانگانی که تاریخ معاصر ما با مقاومت و مجاهدت آنان رقم خورده است، فراهم خواهد آمد و ارزش‌آفرینی بزرگانی همچون آیت‌الله طاهری اصفهانی به نحو بایسته در معرض تحقیق، نقد و تجلیل منصفانه قرار خواهد گرفت.\n\nعلو درجات آن اسلام‌شناس حق‌مدار و زندگی پرنشاط ملت مقاوم و حق‌جوی ایران را از حضرت احدیت مسئلت می‌نمایم.\nمهدی کروبی\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "35.7K",
+      "views_label": "36.3K",
       "posted_at": "2026-11-09T14:32:28+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150225",
@@ -141,7 +169,7 @@
       "plain_text": "✅یک مقام قطری ادعای رسانه‌ها در مورد جزئیات توافق احتمالی بین ایران و آمریکا را «کاملاً نادرست» خواند\n\n🔹یک مقام ارشد قطری به شبکه الجزیره گفت که گزارش‌های خبری که جزئیاتی را درباره غنی‌سازی اورانیوم توسط ایران و آزادسازی دارایی‌های مسدودشده تهران مطرح می‌کنند، «کاملاً نادرست» هستند.\n\n🔹این مقام ارشد اظهار داشت: گزارش‌هایی که منتشر شده و مدعی افشای جزئیات طرح ارائه‌شده به ایالات متحده و ایران هستند — از جمله ادعاهای مربوط به غنی‌سازی اورانیوم، آزادسازی دارایی‌های مسدودشده، تلاش‌های میانجی‌گرانه در یمن و سایر مسائل — کاملاً نادرست می‌باشند.\n\n🔹با این حال، وی تاکید کرد که مذاکرات برای پایان دادن به جنگ آمریکا و اسرائیل علیه ایران همچنان در جریان است.",
       "media": [],
       "reactions": [],
-      "views_label": "47.2K",
+      "views_label": "47.6K",
       "posted_at": "2026-11-09T11:32:37+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150224",
@@ -157,7 +185,7 @@
       "plain_text": "✅کانال ۱۴ اسرائیل گزارش داده: “بر اساس پیشنهاد جدید با میانجی‌گری قطر، جهوری اسلامی، باید کل ذخایر ۴۰۰ کیلوگرمی اورانیوم غنی‌شده ۶۰ درصدی خود را رقیق‌سازی کند، غنی‌سازی را در خاک ایران به حداکثر ۳.۶۷ درصد محدود کند، تنگه هرمز را فوراً باز کند و اجازه بازگشت کامل بازرسان آژانس بین‌المللی انرژی اتمی به تمامی تأسیسات هسته‌ای را بدهد. در مقابل، آمریکا محاصره دریایی بنادر ایران را لغو کرده و احتمالاً حدود ۶ میلیارد دلار از مجموع ۱۲۰ میلیارد دلار دارایی‌های مسدودشده ایران را آزاد خواهد کرد.\n\nاین پیشنهاد با هدف کاهش تنش‌ها و دستیابی به توافق دیپلماتیک مطرح شده و هنوز توافق نهایی محسوب نمی‌شود.\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "49.7K",
+      "views_label": "50K",
       "posted_at": "2026-11-09T11:10:43+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150223",
@@ -173,7 +201,7 @@
       "plain_text": "✅منابع آگاه عراقی در گفت‌وگو با پایگاه خبری قطری «العربی الجدید»، از هشدارهای شدیداللحن دونالد ترامپ، رئیس‌جمهوری آمریکا، به علی الزیدی، نخست‌وزیر عراق، در تماس تلفنی پنج‌شنبه گذشته با وی- که با حضور توماس باراک، فرستاده ویژه آمریکا در امور عراق انجام شد- خبر دادند.\n\nبه گفته این منابع، ترامپ در این تماس خواستار اقدام عملی بغداد برای انحصار سلاح در دست دولت و پایان دادن به فعالیت‌های مسلحانه خارج از چارچوب نهادهای رسمی شده و درباره پیامدهای ورود گروه‌های مسلح عراقی به هرگونه درگیری احتمالی در کنار ایران هشدار داده است.\n\nترامپ تأکید کرده واشنگتن دیگر به وعده‌ها و توافق‌های سیاسی بغداد با گروه‌های مسلح اکتفا نمی‌کند و انتظار دارد دولت عراق برای کنترل سلاح اقدامات ملموسی انجام دهد.\n\nوی همچنین هشدار داده در صورت ازسرگیری جنگ علیه ایران و مشارکت گروه‌های مسلح عراقی در آن، آمریکا بدون هماهنگی با بغداد یا اطلاع قبلی، حملات گسترده‌ای علیه مقرها و فرماندهان این گروه‌ها انجام خواهد داد.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "48.5K",
+      "views_label": "48.8K",
       "posted_at": "2026-11-09T11:03:59+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150222",
@@ -201,7 +229,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "53.6K",
+      "views_label": "53.9K",
       "posted_at": "2026-11-09T09:24:01+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150221",
@@ -229,7 +257,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "54.2K",
+      "views_label": "54.5K",
       "posted_at": "2026-11-09T09:06:14+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150220",
@@ -245,7 +273,7 @@
       "plain_text": "✅شبکه ۱۳ اسرايیل:حملات احتمالی جدید به ایران، زیرساخت‌ها را هدف می‌گیرد\n\nشبکه ۱۳ اسرائیل مدعی شد برد کوپر، فرمانده سنتکام، به اسرائیل اطلاع داده است که هرگونه حمله جدید علیه ایران، پل‌ها و نیروگاه‌ها را هدف قرار خواهد داد.\n\nبه ادعای این شبکه، کوپر به اسرائیل اعلام کرده است که احتمال انجام حملات مشترک جدید علیه ایران وجود دارد.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "50.5K",
+      "views_label": "50.6K",
       "posted_at": "2026-11-09T08:57:38+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150219",
@@ -273,7 +301,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "50.7K",
+      "views_label": "51.1K",
       "posted_at": "2026-11-09T08:49:05+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150218",
@@ -301,7 +329,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "51.6K",
+      "views_label": "51.9K",
       "posted_at": "2026-11-09T08:40:50+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150217",
@@ -329,7 +357,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "52.8K",
+      "views_label": "53.1K",
       "posted_at": "2026-11-09T08:00:31+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150216",
@@ -401,7 +429,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "52.2K",
+      "views_label": "52.5K",
       "posted_at": "2026-11-09T07:38:24+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150213",
@@ -2298,45 +2326,6 @@
       "posted_at": "2026-11-07T17:22:31+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150130",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/150128",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Au7VutdYo1aMEPPOrTKYEZcxvm64V5aCjajI-whWn0z_DWfmtOUFzqgDr3Otjq-z7X00I5aoICOcNSf3UrObtp-3VBswZkUBYxIiLhbojzaRvd7yEYgd7V776dvWBJ8xfdtg3U3L75LjRxWA-L5d2ud2pIu5GenTcp2z7oRNrabXtAJdQtcGWMU0fLDZMn96sXxxSACNYewHf4xQ6j2vqp4HMXLd6ezmLo9cfKpD2MG8IDBjcD1644_wZOSly7CpF7PE2v9tnOrTOfqEdPwzVtxgQkEwZQx6XQnNnuMpjFoE-e7FBpSPrjEWSJljPx_hvYOXDp6JvyEoiMsBuYaKUQ.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/fbe7839c8aeb0a2fdb43218f.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>این عمامه به سر بی عقل از کجا پیداش شده؟<br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a></div>",
-      "plain_text": "✅این عمامه به سر بی عقل از کجا پیداش شده؟\n@Sahamnewsorg",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/sahamnewsorg/150128?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/QpX7EmAsf3wFpDR5t4aPLYnOTqS27O6x--1Z3oiBlrh3KhXCMqzykcLH3cCUZErevio10U4e0qXgzj0f9H7Lcr-bl8hwexDpG6_V_VwtRptvZKhVnzCB7m1jBfa19Iz6ySOIu0RLcNAvqcGsdDvaJDdpI8XceVcNTpoGW3tPuxa9Iz23AGp5OE7ZvOFeLhqiHQHTCE60jYSBYB1RIzDEOJhDEcboEQhWxY3cMQ7V68w6WCF3IeetxH-LPysYPAPmukDh1bBkDOB_DST0kQLjgobWhLzhj6X2kf7KDNaqEaoqwe2APgCtNcpVc7AQjCEG9egSORhFZQrK5qFhUxxAUA",
-          "thumbnail_path": "channels/sahamnewsorg/media/8e28c9e110f3e2ddd46e2605.jpg",
-          "thumbnail_sha256": "efb5c3b7496ef6a3916aed3279f7ec53eb3eeab3d5c9886ad3de45aca8baa6b4",
-          "duration_label": "0:20",
-          "aspect_ratio": null
-        },
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/sahamnewsorg/150129?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/axFdb6UbYF74y6ip_NNj3yMrCpEfRZx1syBuEMUcTZpIAzAVgY02whI4KnQKYL9zIY0XZ_WKtn9C8PRbR15yEK_MUHneNyPZqZdzwyyIINpIEK9T2MTLfzkzVm-jcI3gmTBx7EX-YprQ4IWMMyfTDEJdZl8M2KaGqVuKZ3lrI0cgoLApne5OWc_rIM-rXzGdnlSzSyDR2KeAy5qQ4iM6R023y-pJzkhXvj4DuMJsSsnJmI-l_Dw036WwpT2Oc6ikJ9xuvwyxE_X2ZUOFiPUFEpRkb8aMTgI6xiGwhJDOpCKE4jTFt-n_DYrGq1UNVMDsf4pjverrIt7h3le2djkCqQ",
-          "thumbnail_path": "channels/sahamnewsorg/media/8e2707bead6ccc9aed2cfced.jpg",
-          "thumbnail_sha256": "b9873d4fb46b0f4a65f5b1506af8a59ab8b6559c32e098807d0d88e5c544f735",
-          "duration_label": "0:26",
-          "aspect_ratio": null
-        }
-      ],
-      "reactions": [],
-      "views_label": "55.1K",
-      "posted_at": "2026-11-07T17:01:00+00:00",
-      "edited": false,
-      "permalink": "https://t.me/sahamnewsorg/150128",
       "reply": null
     }
   ]
