@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-09T16:32:16.801Z",
+  "fetched_at": "2026-11-09T16:37:33.720Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/236550",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/njBu2NNGO900p9wpc6xgxZDtWKODKuGsg1Wff3Si1-bXQPZleCQNgI2r6L01IXfUIdrwKyor_Q9eoc1BqgejUYypVERK538X1ge_-H-oOIoFCmbKlITYfv4DrLPmjPVXhKZHYKErNzpTDrMUXy7s_tt3PtDDAwV52fAQVMhhRMTTFzDEluwPn2cwRh-v6wdchy8_oQd-2UBRSMNrThOYsKVAyRSOocE09mvO-Cu4TcB4i0Vh_oBt_A5uE523EwVncUNbasIAEh0u5tth4E7_Rg6TOMgrEPTrBNL7L6XDPWmZZZlXoR4-sit1idIlCbGmNm161ATjFBtLbGns_N5OBQ.jpg",
+      "author_photo_path": "channels/farsivoa/media/bc81809be5dc0f6c85b56b6b.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "میانگین عمر ناوگان ایران در دریای خزر از ۳۷ سال گذشته و به گفته نماینده رئیس‌جمهور، فقط از ۲۰ درصد ظرفیت بندر چابهار استفاده می‌شود. این آمارها چه تصویری از کارنامه جمهوری اسلامی در توسعه تجارت دریایی ارائه می‌کنند؟",
+      "plain_text": "میانگین عمر ناوگان ایران در دریای خزر از ۳۷ سال گذشته و به گفته نماینده رئیس‌جمهور، فقط از ۲۰ درصد ظرفیت بندر چابهار استفاده می‌شود. این آمارها چه تصویری از کارنامه جمهوری اسلامی در توسعه تجارت دریایی ارائه می‌کنند؟",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/236550",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/BulUgIpI96WHhuLlsflUpOlC36ZUahF7Ji5uJUsIY22ead4mrV2V-JOQET5EEkLFFYRRt_5MKjT-s6vbllZve9gu_Sx2fJ7kbVZYarCdR46kPn1AhDSomAnHyIbIclTMYmc1gpsIE6SAQltzqyXAKuGZ6QyIwSlGEnUC5uAYhiY0XF8_jIO8Ozj_Z4i2EF-0XawR7S4QpWL8K8mhnYY3G02CX7uN1CNwo3ROzRcqKyn-8t25oCGK6IX5Zhy7K1hKUi2J_vc4LBijyEhvs_dRHbED0YeaPQ48boMNBAxGgAii-l-iSlU5HB9ZH3I-1_e9Ku-Rs2ZS6hEIVzsmOUw3aw",
+          "thumbnail_path": "channels/farsivoa/media/57ec8bf720edaa8adff86d63.jpg",
+          "thumbnail_sha256": "5f70ee3dc4684492cdc59fbdba1099cfa0010769cf20338f77e177f476dafc14",
+          "duration_label": "3:50",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "283",
+      "posted_at": "2026-11-09T16:32:30+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/236550",
+      "reply": null
+    },
+    {
       "id": "farsivoa/236549",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/njBu2NNGO900p9wpc6xgxZDtWKODKuGsg1Wff3Si1-bXQPZleCQNgI2r6L01IXfUIdrwKyor_Q9eoc1BqgejUYypVERK538X1ge_-H-oOIoFCmbKlITYfv4DrLPmjPVXhKZHYKErNzpTDrMUXy7s_tt3PtDDAwV52fAQVMhhRMTTFzDEluwPn2cwRh-v6wdchy8_oQd-2UBRSMNrThOYsKVAyRSOocE09mvO-Cu4TcB4i0Vh_oBt_A5uE523EwVncUNbasIAEh0u5tth4E7_Rg6TOMgrEPTrBNL7L6XDPWmZZZlXoR4-sit1idIlCbGmNm161ATjFBtLbGns_N5OBQ.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺نتانیاهو خواستار تشکیل دولت وحدت ملی شد؛ هشدار به آیزنکوت درباره اتکا به احزاب حامی حماس\n\n▪️بنیامین نتانیاهو، نخست‌ وزیر اسرائیل، با انتقاد از احتمال تشکیل دولت جدید با حمایت احزاب عرب‌تبار، خواستار تشکیل یک «دولت وحدت ملی» شد و تأکید کرد مقابله با جمهوری اسلامی و نیروهای نیابتی آن نیازمند اتحاد نیروهای سیاسی اسرائیل است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/netanyahu-calls-for-national-unity-government/8220529.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "413",
+      "views_label": "731",
       "posted_at": "2026-11-09T16:25:43+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236549",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "918",
+      "views_label": "1.11K",
       "posted_at": "2026-11-09T16:12:26+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236548",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.08K",
+      "views_label": "1.27K",
       "posted_at": "2026-11-09T16:07:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236547",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.21K",
+      "views_label": "1.37K",
       "posted_at": "2026-11-09T16:05:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236546",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.27K",
+      "views_label": "1.43K",
       "posted_at": "2026-11-09T16:00:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236545",
@@ -149,7 +177,7 @@
       "plain_text": "🔺وزیر خارجه آلمان خواستار توقف دائمی غنی‌سازی اورانیوم در ایران شد؛ تأکید بر هدف مشترک با آمریکا\n\n▪️یوهان واده‌فول، وزیر امور خارجه آلمان، خواستار توقف دائمی غنی‌سازی اورانیوم و برنامه تسلیحات هسته‌ای جمهوری اسلامی شد و تأکید کرد کشورش در این زمینه همان هدف سیاسی آمریکا را دنبال می‌کند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/germany-demands-permanent-enrichment-halt-iran/8220503.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.19K",
+      "views_label": "2.29K",
       "posted_at": "2026-11-09T15:24:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236544",
@@ -177,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.06K",
+      "views_label": "2.12K",
       "posted_at": "2026-11-09T15:20:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236543",
@@ -193,7 +221,7 @@
       "plain_text": "🔺دولت لبنان بر جلوگیری از جنگ جدید تأکید کرد؛ گزارش‌ها از آمادگی حزب‌الله برای درگیری با اسرائیل\n\n▪️دولت لبنان همزمان با انتشار گزارش‌هایی درباره آمادگی حزب‌الله برای ورود به جنگ جدید با اسرائیل، اعلام کرد جلوگیری از کشیده شدن این کشور به درگیری‌های منطقه‌ای در اولویت قرار دارد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/lebanon-warns-new-war-hezbollah-iran-turkey/8220506.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.12K",
+      "views_label": "2.21K",
       "posted_at": "2026-11-09T15:12:24+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236542",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.21K",
+      "views_label": "2.28K",
       "posted_at": "2026-11-09T14:59:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236541",
@@ -249,7 +277,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.19K",
+      "views_label": "2.29K",
       "posted_at": "2026-11-09T14:56:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236540",
@@ -277,7 +305,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.49K",
+      "views_label": "2.58K",
       "posted_at": "2026-11-09T14:45:25+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236539",
@@ -305,7 +333,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.45K",
+      "views_label": "2.51K",
       "posted_at": "2026-11-09T14:41:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236538",
@@ -333,7 +361,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.73K",
+      "views_label": "2.83K",
       "posted_at": "2026-11-09T14:22:17+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236537",
@@ -361,7 +389,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.89K",
+      "views_label": "2.96K",
       "posted_at": "2026-11-09T14:10:56+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236536",
@@ -389,7 +417,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.96K",
+      "views_label": "2.99K",
       "posted_at": "2026-11-09T13:51:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236535",
@@ -405,7 +433,7 @@
       "plain_text": "🔺حملات متقابل روسیه و اوکراین؛ بازگشت کمبود سوخت به روسیه و گسترش خاموشی‌ها در اوکراین\n\n▪️حملات اوکراین به پالایشگاه‌های روسیه با بازگشت کمبود سوخت و محدودیت فروش بنزین و گازوئیل در چندین منطقه این کشور همراه شده است. همزمان، حملات روسیه به شبکه انرژی و مناطق مسکونی اوکراین تلفات و اختلال در تأمین آب و برق و گرمایش بر جای گذاشته است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/russia-ukraine-mutual-attacks-energy-infrastructure/8220469.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.18K",
+      "views_label": "3.21K",
       "posted_at": "2026-11-09T13:33:17+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236534",
@@ -433,7 +461,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.79K",
+      "views_label": "2.85K",
       "posted_at": "2026-11-09T13:32:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236533",
@@ -461,7 +489,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.89K",
+      "views_label": "2.92K",
       "posted_at": "2026-11-09T13:18:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236532",
@@ -489,7 +517,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.35K",
+      "views_label": "3.38K",
       "posted_at": "2026-11-09T12:51:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236531",
@@ -2395,34 +2423,6 @@
       "posted_at": "2026-11-08T15:14:58+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236449",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/236448",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Bqh8jPpV2HGve_BtlfLOiXuWSZlaHWM_HNlKq1l0hlBwfINSn5O91OWoWAnvtnU0f0n9a0A79uwbDvCmaKmAVZOt02QdH2yYhdJtS_fC0G1BjNviczS6Np0hR48xa-wFH5D-8bzc-lG_8Y_8syeyOlkpaBDPbsWbd3OSb0x1iB2ukKMG2kxx5HAIAS6L5Kc0Nw8BaG05pNhMQkloHwzFjbcriEqCg_ePxOUh7XOV7YrqWBPPk6Z8f1W3m1h68-YHtsmNloMQ8mdr7qD3iPo3AX11BAl6SRR08EMuWECqyY3ivuxNPwtr2Xj3zGvk6J6ZLzIqbJ4Hw0AZHHWM78xRgA.jpg",
-      "author_photo_path": "channels/farsivoa/media/e528864cd9bf4bfed8f46c04.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "پدر پوریا باقری، از کشته‌شدگان دی ماه ۱۴۰۴، در پیامی ویدیویی از «بنیاد اعطا کننده جایزه آزادی به مردم آزادیخواه ایران» تشکر کرد و گفت: «چه نعمتی است این آزادی و درد ما درد آزادی است.» روز شنبه ۱۶ آبان، «جایزه آزادی» بنیاد فریدریش ناومان به مردم ایران اهدا شد و به امانت در اختیار شاهزاده رضا پهلوی قرار گرفت.<br><br>پوریا باقری، ۲۲ ساله، ۱۸ دی با گلوله ماموران حکومتی در شهریار کشته شد.",
-      "plain_text": "پدر پوریا باقری، از کشته‌شدگان دی ماه ۱۴۰۴، در پیامی ویدیویی از «بنیاد اعطا کننده جایزه آزادی به مردم آزادیخواه ایران» تشکر کرد و گفت: «چه نعمتی است این آزادی و درد ما درد آزادی است.» روز شنبه ۱۶ آبان، «جایزه آزادی» بنیاد فریدریش ناومان به مردم ایران اهدا شد و به امانت در اختیار شاهزاده رضا پهلوی قرار گرفت.\n\nپوریا باقری، ۲۲ ساله، ۱۸ دی با گلوله ماموران حکومتی در شهریار کشته شد.",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/236448",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/CKO2OTQfiCDQKeD6kpIJ6HDmEIoEK80flS-gMqbvpk2OKOI1B27yqhe7LzX-DsmxvaKHkQ65OemhQOApC2hMF2GSGaQM0WcFQOAaI52S9Jw2dWO3W4fjB_Vf-neuh49IT39-kojBmPuEEecVC82cFhRyK50sdGGUSuAUJcuIJzejtspDM5L-aot9il2fZPteDsBrxBxdMxoFwKE6sIdgx0RWSxLNtqkZPZ5-tdRbp__fPXTYpKoEkKIK4mSI9NypSe7gQImtgGKXxO6TJL5Syf69p0FCsnLF-2dXD6T7ac02Uqb_O54yEeVkTM6Qt6nV_ldR84BY5xutbsUZDmIx7A",
-          "thumbnail_path": "channels/farsivoa/media/3082d068c091d597a766dd5c.jpg",
-          "thumbnail_sha256": "d4bcbc992e96cf4fd8011cd869eed97f77b1e37458622c4ef961e6c01718769c",
-          "duration_label": "1:51",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "2.56K",
-      "posted_at": "2026-11-08T15:14:07+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/236448",
       "reply": null
     }
   ]
