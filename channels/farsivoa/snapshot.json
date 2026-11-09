@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-09T13:47:07.694Z",
+  "fetched_at": "2026-11-09T13:52:59.435Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/236535",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/njBu2NNGO900p9wpc6xgxZDtWKODKuGsg1Wff3Si1-bXQPZleCQNgI2r6L01IXfUIdrwKyor_Q9eoc1BqgejUYypVERK538X1ge_-H-oOIoFCmbKlITYfv4DrLPmjPVXhKZHYKErNzpTDrMUXy7s_tt3PtDDAwV52fAQVMhhRMTTFzDEluwPn2cwRh-v6wdchy8_oQd-2UBRSMNrThOYsKVAyRSOocE09mvO-Cu4TcB4i0Vh_oBt_A5uE523EwVncUNbasIAEh0u5tth4E7_Rg6TOMgrEPTrBNL7L6XDPWmZZZlXoR4-sit1idIlCbGmNm161ATjFBtLbGns_N5OBQ.jpg",
+      "author_photo_path": "channels/farsivoa/media/bc81809be5dc0f6c85b56b6b.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "تجمعات اعتراضی بازنشستگان و کارگران در شهرهای مختلف ایران ادامه دارد. هم‌زمان، گزارش‌ها از مرگ ۳ کارگر، مصدومیت ۱۴ کارگر کشاورزی، تأخیر در پرداخت حقوق، ناامنی شغلی و محرومیت کارگران از ابتدایی‌ترین امکانات ایمنی و رفاهی حکایت دارد.",
+      "plain_text": "تجمعات اعتراضی بازنشستگان و کارگران در شهرهای مختلف ایران ادامه دارد. هم‌زمان، گزارش‌ها از مرگ ۳ کارگر، مصدومیت ۱۴ کارگر کشاورزی، تأخیر در پرداخت حقوق، ناامنی شغلی و محرومیت کارگران از ابتدایی‌ترین امکانات ایمنی و رفاهی حکایت دارد.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/236535",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/SeXe7MECcudSEykUnoPJz1VOLkMxMFSaEyEyK_Ltmhuafv692xlRWncvn5QksI1ff_37BSbIY2uwJ-QFNp24P2vtaJhoa34T8cleuijXFm-rs8FppoNBAY0R4Wgj9MfikRu3qbpl2S_r5zN5dzo8UOiWhPV4FwWJb6kVw1gnKIlZHXsOFWRhXdloMBfFI8qjmz779TUyhPvn8dYHhhmN3hcDtXwWr061-JO1GIQVhQukGDN-dujcjTFwVBjwCcXgS41dhGXEa_XO5GPqpAPNjVQZAA76ks32MROnH_-tP1o1YR2lnKs4ReFBQAEQxrqsUL7EglPdhdZQ-pkQQG5mVw",
+          "thumbnail_path": "channels/farsivoa/media/1bcf3c3738fb2b85e6691441.jpg",
+          "thumbnail_sha256": "ab3335e2d01cf5f56aa6b09e39d435338bee5f95238c74c822c637c9fe3874d2",
+          "duration_label": "5:51",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "65",
+      "posted_at": "2026-11-09T13:51:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/236535",
+      "reply": null
+    },
+    {
       "id": "farsivoa/236534",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/njBu2NNGO900p9wpc6xgxZDtWKODKuGsg1Wff3Si1-bXQPZleCQNgI2r6L01IXfUIdrwKyor_Q9eoc1BqgejUYypVERK538X1ge_-H-oOIoFCmbKlITYfv4DrLPmjPVXhKZHYKErNzpTDrMUXy7s_tt3PtDDAwV52fAQVMhhRMTTFzDEluwPn2cwRh-v6wdchy8_oQd-2UBRSMNrThOYsKVAyRSOocE09mvO-Cu4TcB4i0Vh_oBt_A5uE523EwVncUNbasIAEh0u5tth4E7_Rg6TOMgrEPTrBNL7L6XDPWmZZZlXoR4-sit1idIlCbGmNm161ATjFBtLbGns_N5OBQ.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺حملات متقابل روسیه و اوکراین؛ بازگشت کمبود سوخت به روسیه و گسترش خاموشی‌ها در اوکراین\n\n▪️حملات اوکراین به پالایشگاه‌های روسیه با بازگشت کمبود سوخت و محدودیت فروش بنزین و گازوئیل در چندین منطقه این کشور همراه شده است. همزمان، حملات روسیه به شبکه انرژی و مناطق مسکونی اوکراین تلفات و اختلال در تأمین آب و برق و گرمایش بر جای گذاشته است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/russia-ukraine-mutual-attacks-energy-infrastructure/8220469.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "531",
+      "views_label": "753",
       "posted_at": "2026-11-09T13:33:17+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236534",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "565",
+      "views_label": "724",
       "posted_at": "2026-11-09T13:32:20+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236533",
@@ -77,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "949",
+      "views_label": "1.08K",
       "posted_at": "2026-11-09T13:18:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236532",
@@ -105,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.74K",
+      "views_label": "1.87K",
       "posted_at": "2026-11-09T12:51:38+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236531",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.74K",
+      "views_label": "1.84K",
       "posted_at": "2026-11-09T12:43:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236530",
@@ -149,7 +177,7 @@
       "plain_text": "🔺آسوشیتدپرس: پرواز اخراج ایرانیان از آمریکا با مقصد نهایی ایران لغو شد\n\n◾️آسوشیتدپرس به نقل از وکیل شماری از بازداشت‌شدگان ایرانی گزارش داد پرواز اخراج آنان از آمریکا، با مقصد نهایی ایران، صبح یکشنبه ۱۷ آبان پس از سوارشدن دست‌کم هشت نفر به هواپیما لغو شده است.\n\n◾️بر اساس این گزارش، این افراد قرار بود از مسیر گرجستان به پاکستان منتقل شوند. به گفته او، یک مقام دفتر حفاظت منافع جمهوری اسلامی در واشنگتن به آنان گفته بود دولت ایران انتقال‌شان از پاکستان به ایران را انجام خواهد داد.\n\n◾️وزارت امنیت داخلی آمریکا از اظهارنظر درباره جزئیات عملیات اخراج خودداری کرد، اما تأکید کرد دولت ترامپ برای اجرای برنامه اخراج مهاجران از تمامی گزینه‌های قانونی استفاده می‌کند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8220463.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.8K",
+      "views_label": "1.86K",
       "posted_at": "2026-11-09T12:31:46+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236529",
@@ -165,7 +193,7 @@
       "plain_text": "🔺انتقال امیرسالار داوودی، وکیل زندانی، به بیمارستان پس از حمله قلبی در سلول انفرادی\n\n◾️کمیته آزادی زندانیان سیاسی در ایران از انتقال امیرسالار داوودی، وکیل دادگستری زندانی، به بیمارستان الزهرای اصفهان پس از وقوع حمله قلبی در سلول انفرادی خبر داد.\n\n◾️بر اساس این گزارش، آقای داوودی در پی فشارهای وارده و محرومیت از دسترسی به دارو در دوران بازداشت دچار حمله قلبی شده است.\n\n◾️تاکنون اطلاعات دقیقی درباره وضعیت جسمانی و روند درمان او منتشر نشده و مشخص نیست که همچنان در بیمارستان بستری است یا به زندان بازگردانده شده است.\n\n◾️امیرسالار داوودی ۱۹ مهر ۱۴۰۵، هنگام حضور در دادگاه و در جریان دفاع از موکل خود بازداشت شد. او از وکلای پرونده موسوم به «میدان علیخانی» بود؛ پرونده‌ای که متهمان آن اعدام شده‌اند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8220461.html",
       "media": [],
       "reactions": [],
-      "views_label": "1.9K",
+      "views_label": "1.97K",
       "posted_at": "2026-11-09T12:17:53+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236528",
@@ -193,7 +221,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2K",
+      "views_label": "2.07K",
       "posted_at": "2026-11-09T12:07:27+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236527",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.29K",
+      "views_label": "2.36K",
       "posted_at": "2026-11-09T11:57:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236526",
@@ -249,7 +277,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.28K",
+      "views_label": "2.32K",
       "posted_at": "2026-11-09T11:48:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236525",
@@ -265,7 +293,7 @@
       "plain_text": "🔺جمهوری اسلامی و امنیت هرمز در دستور کار گروه هفت؛ آلمان خواستار پرهیز از تشدید نظامی شد\n\n◾️رفتار جمهوری اسلامی و امنیت تنگه هرمز از محورهای نشست دو روزه وزیران خارجه گروه هفت در پاریس است؛ نشستی که با حضور مارکو روبیو برگزار می‌شود و حمایت از اوکراین و پیامدهای امنیتی هوش مصنوعی نیز در دستور کار آن قرار دارد.\n\n◾️بر اساس اعلام وزارت خارجه آلمان، در این نشست، امنیت تنگه هرمز، به‌عنوان یکی از مهم‌ترین گذرگاه‌های تجارت انرژی، جایگاهی محوری دارد. امنیت دریای سرخ و فعالیت گروه‌های مسلح مورد حمایت جمهوری اسلامی نیز از موضوعات مورد بررسی است.\n\n◾️وزیر خارجه آلمان، در بیانیه‌ای پیش از سفر به پاریس، گفت رویکرد مورد نظر برلین در بحران ایران، پیشبرد مذاکرات و جلوگیری از تشدید دوباره درگیری نظامی است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iran-conflict-and-security-in-strait-of-hormuz-on-g7-agenda/8220460.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.56K",
+      "views_label": "2.59K",
       "posted_at": "2026-11-09T11:36:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236524",
@@ -293,7 +321,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.68K",
+      "views_label": "2.71K",
       "posted_at": "2026-11-09T11:25:11+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236523",
@@ -321,7 +349,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.34K",
+      "views_label": "3.37K",
       "posted_at": "2026-11-09T10:46:50+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/236522",
@@ -337,7 +365,7 @@
       "plain_text": "🔺چین در راستای توافق شی و ترامپ، تعلیق تعرفه‌ها و محدودیت‌های صادراتی را تمدید کرد\n\n◾️چین تعلیق تعرفه‌های اضافی بر کالاهای آمریکایی و محدودیت‌های صادراتی مواد حساس را تمدید کرد تا بخشی از توافق‌های تجاری با واشنگتن حفظ شود.\n\n◾️بر پایه اعلام کمیسیون تعرفه‌ها، تعلیق تعرفه ۲۴ درصدی برای دو ماه ادامه می‌یابد، اما تعرفه ۱۰ درصدی برقرار است.\n\n◾️همچنین تعلیق محدودیت صادرات عناصر کمیاب و فناوری باتری‌های لیتیومی، عوارض ویژه بندری برای کشتی‌های مرتبط با آمریکا و تحریم‌های پنج زیرمجموعه شرکت «هانوا اوشن» تا ۱۰ ژانویه ۲۰۲۷ تمدید شد.\n\n◾️این اقدام خطر اختلال صنایع آمریکا را کاهش می‌دهد، ولی به معنای لغو تمام کنترل‌ها نیست.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8220457.html",
       "media": [],
       "reactions": [],
-      "views_label": "3.23K",
+      "views_label": "3.26K",
       "posted_at": "2026-11-09T10:31:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236521",
@@ -353,7 +381,7 @@
       "plain_text": "🔺هشدار مقام سازمان برنامه و بودجه درباره «صفر شدن درآمدهای نفتی» در سال ۱۴۰۶\n\n◾️معاون هماهنگی سازمان برنامه و بودجه، همزمان با تشدید تلاش‌های آمریکا برای قطع منابع درآمدی جمهوری اسلامی، تأکید کرد دولت باید هنگام تدوین بودجه سال ۱۴۰۶ برای سناریوی صفر شدن درآمدهای نفتی آماده باشد.\n\n◾️دنیای اقتصاد دوشنبه ۱۸ آبان، با اشاره به سخنان این مقام سازمان برنامه نوشت جنگ همزمان درآمدهای دولت را کاهش داده و هزینه‌های آن را افزایش داده است. در گزارش این روزنامه، ادامه تحریم‌ها و محاصره دریایی نیز از مفروضات سناریوی تداوم وضع موجود در بودجه سال آینده معرفی شده است.\n\n◾️این هشدار در حالی مطرح می‌شود که سنتکام اعلام کرده محاصره دریایی مانع صادرات بیش از ۲۵ میلیارد دلار نفت خام ایران شده است.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/iran-to-consider-zero-oil-revenues-in-next-year-budget/8220452.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.99K",
+      "views_label": "3.03K",
       "posted_at": "2026-11-09T10:19:15+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236520",
@@ -369,7 +397,7 @@
       "plain_text": "🔺ابوالفضل قدیانی، زندانی سیاسی ۸۱ ساله، در پرونده‌ای تازه به دو سال حبس محکوم شد\n\n◾️هرانا نوشت شعبه ۲۹ دادگاه انقلاب تهران ابوالفضل قدیانی، زندانی سیاسی ۸۱ ساله زندان اوین، را در پرونده‌ای تازه که در دوران حبس برایش گشوده شده، به دو سال حبس محکوم کرد.\n\n◾️به گزارش هرانا، او به اتهام «تبلیغ علیه نظام» و «توهین به رهبری» به صورت غیابی محکوم شد.\n\n◾️یک منبع نزدیک به خانواده به هرانا گفت حکم هفته گذشته در زندان به او ابلاغ شده و پرونده به‌دلیل انتشار بیانیه‌ای از زندان گشوده شده است.\n\n◾️این منبع گفت قدیانی امروز برای معاینه و درمان بیماری قلبی به بیمارستانی بیرون از زندان برده شد و به اوین برگشت.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/abolfazl-qadyani-81-year-old-political-prisoner-sentenced-to-two-years-prison-in-new-case/8220455.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.91K",
+      "views_label": "2.95K",
       "posted_at": "2026-11-09T10:02:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236519",
@@ -385,7 +413,7 @@
       "plain_text": "🔺روبیو با وزیران خارجه گروه هفت درباره جمهوری اسلامی و اوکراین گفت‌وگو می‌کند\n\n◾️مارکو روبیو وزیر خارجه آمریکا، دوشنبه ۱۸ آبان در پاریس با همتایان خود در گروه هفت دیدار می‌کند. جنگ اوکراین، و منازعه با جمهوری اسلامی در دستور کار این نشست قرار دارد.\n\n◾️آقای روبیو پیش از عزیمت به پاریس، در ایالت فلوریدا درباره تنش‌ها با تهران گفت که طرفین «در آستانه پیشرفت» نیستند.\n\n◾️او توضیح داد اگرچه آقای ترامپ مسیر دیپلماتیک را ترجیح می‌دهد، اما این رویکرد تاکنون «چندان ثمربخش نبوده»، چرا که خواسته‌های جمهوری اسلامی «غیرقابل‌قبول» است.\n\n◾️او همچنین درباره تضمین‌های امنیتی برای اوکراین پس از جنگ گفت که «پیشرفت‌هایی» حاصل شده اما هنوز «چیزی نهایی نشده» و امکان دارد در مذاکرات ابوظبی گشایشی به دست آید.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/rubio-will-discuss-iran-ukraine-and-more-with-g7-allies-in-france/8220456.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.96K",
+      "views_label": "2.99K",
       "posted_at": "2026-11-09T09:50:12+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236518",
@@ -401,7 +429,7 @@
       "plain_text": "🔺رویترز: روسیه با جعل گزارش‌های خبری از ناآرامی‌های فرانسه بهره‌برداری کرد\n\n◾️رویترز به نقل از ارزیابی داخلی اتحادیه اروپا گزارش داد شبکه‌ای روسی با جعل محتوای رسانه‌های غربی تلاش کرده ناآرامی‌های ماه گذشته فرانسه را به مهاجرت کنترل‌نشده نسبت دهد و دولت را ناتوان از مهار اوضاع نشان دهد.\n\n◾️به گزارش رویترز، شبکه موسوم به «عملیات اورلود» ویدئوهایی با ظاهر گزارش‌های رسانه‌های معتبر منتشر کرده است. این محتوا شامل ادعاهای ساختگی درباره تجاوز مهاجران به معترضان و قریب‌الوقوع‌بودن حملات تروریستی بوده است.\n\n◾️در ارزیابی اروپایی، تضعیف حمایت از اوکراین نیز از اهداف این شبکه معرفی شده است؛ از جمله با القای اینکه دولت‌های اروپایی، کمک به کی‌یف را بر رسیدگی به مشکلات داخلی ترجیح می‌دهند.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/8220454.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.82K",
+      "views_label": "2.85K",
       "posted_at": "2026-11-09T09:42:49+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236517",
@@ -429,7 +457,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.83K",
+      "views_label": "2.87K",
       "posted_at": "2026-11-09T09:32:33+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/236516",
@@ -2383,34 +2411,6 @@
       "posted_at": "2026-11-08T12:27:42+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/236433",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/236432",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Bqh8jPpV2HGve_BtlfLOiXuWSZlaHWM_HNlKq1l0hlBwfINSn5O91OWoWAnvtnU0f0n9a0A79uwbDvCmaKmAVZOt02QdH2yYhdJtS_fC0G1BjNviczS6Np0hR48xa-wFH5D-8bzc-lG_8Y_8syeyOlkpaBDPbsWbd3OSb0x1iB2ukKMG2kxx5HAIAS6L5Kc0Nw8BaG05pNhMQkloHwzFjbcriEqCg_ePxOUh7XOV7YrqWBPPk6Z8f1W3m1h68-YHtsmNloMQ8mdr7qD3iPo3AX11BAl6SRR08EMuWECqyY3ivuxNPwtr2Xj3zGvk6J6ZLzIqbJ4Hw0AZHHWM78xRgA.jpg",
-      "author_photo_path": "channels/farsivoa/media/e528864cd9bf4bfed8f46c04.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "در پی تصادف یک دستگاه مینی‌بوس با پلاک ایران در استان وان ترکیه، ۹ نفر از جمله پنج زن و چهار مرد جان خود را از دست دادند و پنج تن دیگر مصدوم شدند.<br><br>به گزارش روزنامه «ملیت» ترکیه، این سانحه رانندگی روز شنبه در مسیر جاده «اؤزآلپ‌ـ‌سارای» واقع در استان وان در نزدیکی مرز ایران رخ داده است.<br><br>علی علایی، فرماندار خوی، روز یکشنبه با تأیید وقوع این حادثه اعلام کرد بر اساس بررسی‌های اولیه، بارش شدید باران و لغزندگی سطح جاده از عوامل اصلی وقوع این تصادف بوده است.<br><br>فرماندار خوی با بیان اینکه شماری از جان‌باختگان و مصدومان این سانحه از شهروندان ایرانی هستند، افزود روند شناسایی دقیق هویت قربانیان از طریق مراجع رسمی و نهادهای مسئول در ترکیه همچنان ادامه دارد.<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "در پی تصادف یک دستگاه مینی‌بوس با پلاک ایران در استان وان ترکیه، ۹ نفر از جمله پنج زن و چهار مرد جان خود را از دست دادند و پنج تن دیگر مصدوم شدند.\n\nبه گزارش روزنامه «ملیت» ترکیه، این سانحه رانندگی روز شنبه در مسیر جاده «اؤزآلپ‌ـ‌سارای» واقع در استان وان در نزدیکی مرز ایران رخ داده است.\n\nعلی علایی، فرماندار خوی، روز یکشنبه با تأیید وقوع این حادثه اعلام کرد بر اساس بررسی‌های اولیه، بارش شدید باران و لغزندگی سطح جاده از عوامل اصلی وقوع این تصادف بوده است.\n\nفرماندار خوی با بیان اینکه شماری از جان‌باختگان و مصدومان این سانحه از شهروندان ایرانی هستند، افزود روند شناسایی دقیق هویت قربانیان از طریق مراجع رسمی و نهادهای مسئول در ترکیه همچنان ادامه دارد.\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/farsivoa/236432",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/YgKOjx2OxnOhBTy5-jOv-g3FRAhrkcaB_2TGuWe0S2-X9phmQOMIMi_oTsGQ6V94TlrthSkhuRbkltpAbGgg80it4X2bVJnaV-9tvUqlvR8dwy_NDB_97hSjCkQYAmYORm6eTLLJNP0Y3g3wSssOIEf278xtk4BWdUTU3lP9jVlcR6YlYj44gGjyLA1KkxNZotbTAt8rOg0yGwkkC7yyD0hiRR6xE-koxU36_oTFUfwmJaRr-6Qx0m8E7boKWcp7lKPWy2RCBy5PHkoTHbrfU0vFaU9ed3Jb6_urD_PsTcmopAe7IZwXqVK3uyTLMU0_5tyA50G_o8pNustDQc4mXA.jpg",
-          "thumbnail_path": "channels/farsivoa/media/2b6bd24a1bc4b5be9a3ef866.jpg",
-          "thumbnail_sha256": "174c727071ff4f18ba94827ed92f4e513a981fe49420a4af4dbbc9f734d5418e",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.29K",
-      "posted_at": "2026-11-08T12:16:50+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/236432",
       "reply": null
     }
   ]
