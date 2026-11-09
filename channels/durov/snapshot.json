@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-09T12:57:22.734Z",
+  "fetched_at": "2026-11-09T13:02:47.506Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,51 @@
     "subscriber_count": "10.1M"
   },
   "posts": [
+    {
+      "id": "durov/553",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/AZyrOu5Xy83KlCzHvp5iP__ZCSVySueKjN7G0Lk8x-kShrZcdha_Nz3p0SdQt9Hgwxp6mu01H32Kyq15wagWdVzOHZeacpxbCgHVb4ONd99u-GBse7hwNLw-R5OhDc6Di5UNsaQCM0G5sXelhhPHaipLm-Bq59AeEEz9ymYPuf8FbepGa_TPBMUMwRKXmdhetwk1Sui_5mU9SilE_wTKm_Cl5IUS0xdZg6uyw_eWzmTAkbHlKNtGUAqDyOxGeBLJjjJ6qvRSXw0MhOcL4CiHC8rRfTdKFTj9yqxKUbsIorTyyWryLir58QPw0w6KR7uYu_D66vPqqa30Nqic9KPUbA.jpg",
+      "author_photo_path": "channels/durov/media/2f29d655ad530358fae65527.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "<b>700K+</b> self-custodial <a href=\"https://t.me/durov/551\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">wallets</a> created on Telegram in the last <b>48 hours</b> alone.<br><br><tg-emoji emoji-id=\"5433656554593196791\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA6A0.png')\"><b>🦠</b></i></tg-emoji> Adoption spreads virally. A wallet activates the moment someone receives Grams.<br><br><tg-emoji emoji-id=\"5388755604976186348\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AA.png')\"><b>💪</b></i></tg-emoji> The crypto revolution is going strong.",
+      "plain_text": "700K+ self-custodial wallets created on Telegram in the last 48 hours alone.\n\n🦠 Adoption spreads virally. A wallet activates the moment someone receives Grams.\n\n💪 The crypto revolution is going strong.",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/durov/553",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/bge3VLstoSlfg86m3B0-dvZH8vOgLYtEN7z7nNTKwOWD5pbDMGjJSx9ZUNHs7s7r1g2rCZTGvmboU4NZ5G6C-WA0SRRhjwuwVSOyaot8sly6HjQVYGfqUXa4SrUIXSVrsNAt4LjUhYgT0WOShStXXNum1yZKrTKU2MVc7b8HWnThfL6KpQTarbzgi-aIbO43anLFofm85t-3iiSqBaK88MyMGlSu3prdSMM_9Z03NGRT4eiL8tKbVjHPP0mhiZzJCQ6CISOcrqAUrKieeHcQy-i321kJkaF0e7S5Mip5qkMuYYNClRk5RXVFI76pRfCNlDGFlqlwmUzWfU4u0B0SdA.jpg",
+          "thumbnail_path": "channels/durov/media/1a208f663bb33b46f90b5b6d.jpg",
+          "thumbnail_sha256": "4ffe466a2753dea49dd00999c43c1ed600d8287bd66aeaca941071cb627b2892",
+          "duration_label": null,
+          "aspect_ratio": 2.1415929203539847
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "298"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.25K"
+        },
+        {
+          "emoji": "💎",
+          "count": "950"
+        },
+        {
+          "emoji": "💎",
+          "count": "713"
+        }
+      ],
+      "views_label": "37.5K",
+      "posted_at": "2026-11-09T13:00:39+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/553",
+      "reply": null
+    },
     {
       "id": "durov/552",
       "author_name": "Pavel Durov",
@@ -39,18 +84,18 @@
         },
         {
           "emoji": "💎",
-          "count": "19.6K"
+          "count": "19.7K"
         },
         {
           "emoji": "💎",
-          "count": "8.36K"
+          "count": "8.39K"
         },
         {
           "emoji": "💎",
-          "count": "6.59K"
+          "count": "6.61K"
         }
       ],
-      "views_label": "2.18M",
+      "views_label": "2.21M",
       "posted_at": "2026-10-11T14:52:40+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/552",
@@ -84,7 +129,7 @@
         },
         {
           "emoji": "💎",
-          "count": "39.1K"
+          "count": "39.2K"
         },
         {
           "emoji": "💎",
@@ -95,7 +140,7 @@
           "count": "10.2K"
         }
       ],
-      "views_label": "2.23M",
+      "views_label": "2.24M",
       "posted_at": "2026-10-10T14:22:43+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/551",
@@ -128,7 +173,7 @@
           "count": "10.2K"
         }
       ],
-      "views_label": "4.2M",
+      "views_label": "4.21M",
       "posted_at": "2026-09-11T16:04:02+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/548",
@@ -195,7 +240,7 @@
         },
         {
           "emoji": "💎",
-          "count": "28.5K"
+          "count": "28.6K"
         },
         {
           "emoji": "💎",
@@ -449,7 +494,7 @@
           "count": "9.14K"
         }
       ],
-      "views_label": "3.62M",
+      "views_label": "3.63M",
       "posted_at": "2026-08-08T21:11:14+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/539",
@@ -502,8 +547,8 @@
           "asset_url": "https://t.me/durov/537",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/IptFPcEjgEnN-8LWhA8e1DaOUwT8GAU2PRntpNKwooMwW4uWXqHZHrCiUYOKbtv17ssN7jujy1-rv3Fn5D2OLYDne6SgEFN8yjrUCAwikVUTLU-7_hcv2OBHTJU_zhEQ5ddeo9-hW_nzQttRsqClWde3g8_g98s0BInyIzudmKWkyo7xxAJMx81sYu3JMDjav8Y4fE9inFtN-I_tx8vV8pO-C6Jk3uR9xXlMCMl9Ite0xnqqQeE6F3kqkRuMtz01BHOZUBmCZf-OtjBP2QRo-Ki0cP1Q4zo2wnD7e5iztHRCLaVJAhf15uOZaVwsmzA50LKy7SlY7CA38FSWBxwERw.jpg",
-          "thumbnail_path": "channels/durov/media/2474c22dd01926034c9bd2ee.jpg",
+          "thumbnail_url": "https://cdn4.telesco.pe/file/NDdi7OOBjKhM9Q3QUaRZ6bVJkYvwik_ZGlSvM59oOJ8esUFzPnLns604G455VlAEMQKXtgfrjgCSYOhffIPQR6gYEM5sZ927vFLFwtbgnromvUtmCTUxjigzvhmDUKQrFUHuvpCbACAY-Ca3e16WTYWppHB6RqOkzAciTKlE7WVbB8lCrevZS0IfzJ1nHURtmuRfNwP4VTcDAL02dBmT57NYsbZ4Xzq6yAYtFvvZuao85LeZ2VOlOgLd2TCHYL3eY2fY-CRGbpn70YWGetReg3_B-NrK4jvG3_WLn5sA3jglVqEEbGPnvg75gbB_I38w0igZ8mVvfQVYMoMcPVyIgA.jpg",
+          "thumbnail_path": "channels/durov/media/eda5a5a59da314e1123c4985.jpg",
           "thumbnail_sha256": "67c188c51ab01028c1970f03292f7da0230ba57a62358b4d60d272e6ab09d2de",
           "duration_label": null,
           "aspect_ratio": 1.8691588785046729
