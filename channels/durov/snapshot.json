@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-10T12:56:46.968Z",
+  "fetched_at": "2026-11-10T13:01:52.107Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,51 @@
     "subscriber_count": "10.1M"
   },
   "posts": [
+    {
+      "id": "durov/554",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/lCqchcVe-kzgC9vzDviVVIRf9Vf05ZmjkhBZeTDmB8jrfoeYL8twdQ939gD_c1AnlalXRX-7IeQaOTWkSD1phrJhN_gaG8LeUk41siSVAsoQF6E5E_nJBdWrl458DdY5F60lEP18EdkC6c0sdM_lsfG4mpKPAhmn2TGaL2o3clvD9FFJTfAMU0gAWm2fYTJPXa4QbQ90DlCmHvluwYaGNH9Kam2kP86a8bTiN7hk-R6m71hXU8W0WEHlap-dKdzwDGs_CMCMZ0MHY4T_DLBwMrEqaONGeXOmjeeZwYRqbUCnTfBsKPQVZp4JQhASXL3gfJlaLv3rPVrPynckCvqZbA.jpg",
+      "author_photo_path": "channels/durov/media/b7835be3ec1fe63bca8900e9.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "Any Telegram message can now become an app.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡️</b></i> Downloads instantly (just 4 KB)<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i> Interactive and natively rendered<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B8.png')\"><b>💸</b></i> Payments and viral mechanics built in<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA0.png')\"><b>🛠</b></i> Build your own. More info and docs for devs: <a href=\"https://t.me/BotNews/122\" target=\"_blank\" rel=\"noopener\">https://t.me/BotNews/122</a>",
+      "plain_text": "Any Telegram message can now become an app.\n\n⚡️ Downloads instantly (just 4 KB)\n🎨 Interactive and natively rendered\n💸 Payments and viral mechanics built in\n\n🛠 Build your own. More info and docs for devs: https://t.me/BotNews/122",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/durov/554",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/SUHUSCedk45FccMBvxmwfdojQy0CqU07ODYyO8WcKFQ4ktDqA69bI1hJUqsQIXPw88b1JFZabSa5eWBW6IeqM8D36mR1qld0f2KRvVZq3ck0kVkHl5Ox4QKvQC_BYsZgQsfn4eF6VUqJA5tVVhxckw1J8cQBCi10Mjpw79uacdsQallijZojz15lSGckVgV4vjWsFAw_FX4duGkOP1yEcahxQttD-cWiJqHkML6jCjrxqDmlASMsIguMWuBtpUE3MfPD4GwfE0yLiX86zhuuxqGLnYfdpTSPqvTkkhUXsfJyQf6iu6SiEJqrbPVES7p5Rmzowf9RsNj5xn1rsm8k2Q",
+          "thumbnail_path": "channels/durov/media/cb299da35542573eb14b75f1.jpg",
+          "thumbnail_sha256": "c68e848cbd55928544bef83338e40e08562d4c611ad8ecccc60368cc91c74da1",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "201"
+        },
+        {
+          "emoji": "💎",
+          "count": "709"
+        },
+        {
+          "emoji": "💎",
+          "count": "617"
+        },
+        {
+          "emoji": "💎",
+          "count": "454"
+        }
+      ],
+      "views_label": "53.1K",
+      "posted_at": "2026-11-10T12:59:06+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/554",
+      "reply": null
+    },
     {
       "id": "durov/553",
       "author_name": "Pavel Durov",
@@ -43,14 +88,14 @@
         },
         {
           "emoji": "💎",
-          "count": "5.51K"
+          "count": "5.54K"
         },
         {
           "emoji": "💎",
-          "count": "4.46K"
+          "count": "4.48K"
         }
       ],
-      "views_label": "693K",
+      "views_label": "709K",
       "posted_at": "2026-11-09T13:00:39+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/553",
@@ -92,7 +137,7 @@
         },
         {
           "emoji": "💎",
-          "count": "6.94K"
+          "count": "6.95K"
         }
       ],
       "views_label": "2.77M",
@@ -129,7 +174,7 @@
         },
         {
           "emoji": "💎",
-          "count": "40.1K"
+          "count": "40.2K"
         },
         {
           "emoji": "💎",
@@ -140,7 +185,7 @@
           "count": "10.4K"
         }
       ],
-      "views_label": "2.54M",
+      "views_label": "2.55M",
       "posted_at": "2026-10-10T14:22:43+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/551",
