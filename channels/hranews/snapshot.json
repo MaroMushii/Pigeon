@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-11T14:27:52.997Z",
+  "fetched_at": "2026-11-11T14:32:11.338Z",
   "channel": {
     "username": "hranews",
     "title": "خبرگزاری هرانا",
@@ -11,6 +11,34 @@
     "subscriber_count": "29.2K"
   },
   "posts": [
+    {
+      "id": "hranews/117098",
+      "author_name": "خبرگزاری هرانا",
+      "author_photo_url": "https://cdn1.telesco.pe/file/b_wSXRi-3fx8rVH1YnNdrC9L52GYum_KYyYIB0jE-TAJFoeaRwV93kmomcSmxb2pYhmZVSkIJUmPx1hrIlhECw34hfA62IldUTqg9w70cIYahQoguZrdE4u_mEg3ZlJFzTi2SIYvYNLU0K6zZ-RR3K-bC7Cq0Vc8lCFSgksI90w-kFjMUBzLiFnGsFqFmgwXQFa4hUUi40l99vRPmLdTbAPCB-K_h-vLDLzKEkUeReDAUcPd-VMj2DTBKcGqYrsaekljw1V7g0c8HFQZO0HKdhdnl38ODaA6bbvzjcZx44Jl5zP9Rfnk26jsXNZrl7_hPbMOXmDpTA-HYVZ_AhMfAQ.jpg",
+      "author_photo_path": "channels/hranews/media/9471701f8e55bfe3cbfad112.jpg",
+      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
+      "body_html": "در روز جاری، گروهی از کارکنان هوانیروز در اعتراض به بلاتکلیفی پروژه‌ی تعاونی مسکن خود مقابل استانداری کرمانشاه <a href=\"?q=%23%D8%AA%D8%AD%D8%B5%D9%86\">#تحصن</a> کردند.<br><br>به گفته معترضان، آنان از سال ۱۳۹۰، هم‌زمان با تأسیس تعاونی مسکن هوانیروز، زمین خریده‌اند؛ اما پس از ۱۵ سال هنوز پروژه‌ی ساخت مسکن برای آنان به مرحله‌ اجرا نرسیده است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -&nbsp; <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>&nbsp; کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
+      "plain_text": "در روز جاری، گروهی از کارکنان هوانیروز در اعتراض به بلاتکلیفی پروژه‌ی تعاونی مسکن خود مقابل استانداری کرمانشاه #تحصن کردند.\n\nبه گفته معترضان، آنان از سال ۱۳۹۰، هم‌زمان با تأسیس تعاونی مسکن هوانیروز، زمین خریده‌اند؛ اما پس از ۱۵ سال هنوز پروژه‌ی ساخت مسکن برای آنان به مرحله‌ اجرا نرسیده است.\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/hranews/117098",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/HwJbe99V52AI_Ts7_Rtd4c8XdtfjHHFq2EiQix67PCWtQHe8-UsYivXtYu_B59LpNsydtsvLAMjJu3sLK34D4v_iTwo_QjsjedVdUsJmSPumqyp9C20EcHvl0zTV9tUiHC_PXhpFEf_ITNoR7H2STb7JfupZ8twMxCRmwXbF4afMfSYuF0qmq4N2HpTeT0pzSxz7VDR6VMsYgBLH8XfVVg8s4WRSHLQkaJ2RfcWWDtRwnJqVW1lQxM7cmt7vGRo3BO1XrGMl6ZqstwT9c41A35ytMfhxkrPJKew3DbXnDASdxS9c-M9aqTmGLBuwbYsjRmRykq-mDFiFEJ7NMHWWKQ",
+          "thumbnail_path": "channels/hranews/media/6be11a3528d862215c89213f.jpg",
+          "thumbnail_sha256": "19d1e40d086ca5429b801ceb63d5b4b2ab23630d0c8758cea554c30ef0a0094b",
+          "duration_label": "0:50",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [],
+      "views_label": "24",
+      "posted_at": "2026-11-11T14:29:38+00:00",
+      "edited": false,
+      "permalink": "https://t.me/hranews/117098",
+      "reply": null
+    },
     {
       "id": "hranews/117097",
       "author_name": "خبرگزاری هرانا",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "98",
+      "views_label": "118",
       "posted_at": "2026-11-11T14:03:53+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117097",
@@ -127,7 +155,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "238",
+      "views_label": "253",
       "posted_at": "2026-11-11T13:19:50+00:00",
       "edited": true,
       "permalink": "https://t.me/hranews/117090",
@@ -143,7 +171,7 @@
       "plain_text": "جلسه دادگاه رسیدگی به اتهامات ۵ روزنامه‌نگار برگزار شد\n\n❗️❗️❗️❗️❗️– جلسه دادگاه رسیدگی به اتهامات ۵ روزنامه‌نگار به نام‌های ماندانا صادقی، آرش قلعه‌ گلاب، کوروش کرم‌پور، فرزانه یحیی‌آبادی و رضا محمدی در شعبه ۱۰۳ دادگاه کیفری دو شهرستان آبادان برگزار شد.\n\nادامه مطلب\n\n#ماندانا_صادقی #آرش_قلعه‌_گلاب #کوروش_کرم‌پور، #فرزانه_یحیی‌آبادی #رضا_محمدی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "304",
+      "views_label": "315",
       "posted_at": "2026-11-11T12:45:20+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117089",
@@ -159,7 +187,7 @@
       "plain_text": "طی نیمه نخست سال؛ ثبت ۴۷۴ حادثه برای نیروی کار در صنایع استان اصفهان\n\n❗️❗️❗️❗️❗️– مدیرکل مدیریت بحران استانداری اصفهان اعلام کرد که در نیمه نخست سال جاری، ۴۷۴ نیروی کار در بخش صنایع استان اصفهان در حوزه‌های معدن، ساختمانی و صنعتی دچار حادثه شده‌اند.\n\nادامه مطلب\n\n#کارگر #حوادث_کار\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "351",
+      "views_label": "360",
       "posted_at": "2026-11-11T12:01:24+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117088",
@@ -175,7 +203,7 @@
       "plain_text": "برخلاف پیمان‌نامه حقوق کودک؛ بیش از ۳۲۰ دانش‌آموز به مناطق عملیاتی کشور اعزام شدند\n\n❗️❗️❗️❗️❗️– برخلاف تعهدات بین‌المللی ایران در چارچوب پیمان‌نامه حقوق کودک و تعهدات مربوط به عدم به‌کارگیری کودکان در امور نظامی، بیش از ۳۲۰ دانش‌آموز از شهرستان‌های دورود در استان لرستان و ورامین و پردیس در استان تهران، در قالب اردوهای موسوم به «راهیان نور» به مناطق عملیاتی جنوب کشور اعزام شدند.\n\nادامه مطلب\n\n#راهیان_نور #حقوق_کودک\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "347",
+      "views_label": "355",
       "posted_at": "2026-11-11T11:43:50+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117087",
@@ -203,7 +231,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "379",
+      "views_label": "387",
       "posted_at": "2026-11-11T11:11:29+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117086",
@@ -219,7 +247,7 @@
       "plain_text": "در ۳ استان؛ پنج تن توسط ماموران امنیتی بازداشت شدند\n\n❗️❗️❗️❗️❗️– اداره‌کل اطلاعات استان کرمانشاه از #بازداشت پنج تن در استان‌های کرمانشاه، البرز و تهران خبر داد. ارتباط با سرویس اطلاعاتی اسرائیل و آمریکا از جمله دلایل بازداشت این افراد عنوان شده است.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "452",
+      "views_label": "457",
       "posted_at": "2026-11-11T10:29:00+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117085",
@@ -235,7 +263,7 @@
       "plain_text": "زاهدان؛ سه شهروند در پی تیراندازی بی‌ضابطه نیروهای نظامی کشته شدند\n\n❗️❗️❗️❗️❗️– بامداد امروز، در پی #تیراندازی_بی‌ضابطه نیروهای نظامی به سمت یک خودروی سواری و سرنشینان آن در محدوده لخشک زاهدان، سه شهروند جان خود را از دست دادند.\n\nادامه مطلب\n\n#امید_جمال‌زهی #حنظله_جمال‌زهی\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "523",
+      "views_label": "527",
       "posted_at": "2026-11-11T09:56:33+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117084",
@@ -263,7 +291,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "498",
+      "views_label": "502",
       "posted_at": "2026-11-11T09:39:01+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117083",
@@ -279,7 +307,7 @@
       "plain_text": "متهمان سه پرونده اقتصادی در تهران به مجازات شلاق محکوم شدند\n\n❗️❗️❗️❗️❗️– رئیس کل دادگستری استان تهران از صدور حکم #شلاق و سایر مجازات‌ها برای متهمان سه پرونده مرتبط با تخلفات ارزی خبر داد.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "501",
+      "views_label": "506",
       "posted_at": "2026-11-11T09:05:22+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117082",
@@ -295,7 +323,7 @@
       "plain_text": "برخلاف پیمان‌نامه حقوق کودک؛ اعزام ۳۹۰ دانش‌آموز به مناطق عملیاتی جنوب کشور\n\n❗️❗️❗️❗️❗️– برخلاف تعهدات بین‌المللی ایران در چارچوب پیمان‌نامه حقوق کودک و تعهدات مربوط به عدم به‌کارگیری کودکان در امور نظامی، ۳۹۰ دانش‌آموز دختر از شهرستان‌های یزد و بروجرد، در قالب اردوهای موسوم به «راهیان نور» به مناطق عملیاتی کشور اعزام شدند.\n\nادامه مطلب\n\n#راهیان_نور #حقوق_کودک\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "496",
+      "views_label": "500",
       "posted_at": "2026-11-11T08:46:15+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117081",
@@ -311,7 +339,7 @@
       "plain_text": "در پی انتشار ویدیویی در فضای مجازی؛ دادستانی تهران علیه یک زن اعلام جرم کرد\n\n❗️❗️❗️❗️❗️– دادستانی تهران از اعلام جرم علیه یک زن در پی انتشار ویدیویی در فضای مجازی خبر داد. در پی تشکیل پرونده قضایی برای این شهروند، دو حساب کاربری او در فضای مجازی با دستور قضایی مسدود شده است.\n\nادامه مطلب\n\n↘️\n@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑",
       "media": [],
       "reactions": [],
-      "views_label": "577",
+      "views_label": "583",
       "posted_at": "2026-11-11T08:21:02+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117080",
@@ -339,7 +367,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "639",
+      "views_label": "643",
       "posted_at": "2026-11-11T07:37:35+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/117079",
@@ -2211,34 +2239,6 @@
       "posted_at": "2026-11-08T11:01:37+00:00",
       "edited": false,
       "permalink": "https://t.me/hranews/116993",
-      "reply": null
-    },
-    {
-      "id": "hranews/116992",
-      "author_name": "خبرگزاری هرانا",
-      "author_photo_url": "https://cdn1.telesco.pe/file/l7iMmGdTcmQnDuz21DaboQVjbfdEFivGcgcz5lXT3zQCl9yraQEPXvqxw5yE1WruyFRx7tgMzypn9AxBxuNYQB-326ObSKnNsI94swhMcADFvvxE23hVAeXo5gV6vIuRRGKDGHVCl14E6MxMaL0-ILE4IHXVVKApNQaMGh8BEvK8PxTQByGxYDDMhlL1gojhyxTxfaFcjMFjMI_0lBNOt6c92_c39Tab6B2KPc2IMlla0-A0L8aAwUFw47MiLpZPBYwoLmaA3DvNQwkf2I8YbTNPANllOxsu4jfNciXdWcc_qbp_5NPF-WhuvUpUWov8CcBFCg3d0_NEc9hxTu-iNQ.jpg",
-      "author_photo_path": "channels/hranews/media/694a77165d3cf3dc3e16a536.jpg",
-      "author_photo_sha256": "d063f8e1e038efa3cf3c80de8b1cd6c031cc0154acab24c60aa5d3c06e4f972f",
-      "body_html": "امروز یکشنبه ۱۷ آبان‌ماه، شماری از بازنشستگان تامین اجتماعی در مقابل ساختمان این سازمان در شهرستان شوش دست به تجمع و راهپیمایی اعتراضی زدند. <br><br>همسان‌سازی حقوق‌ها، افزایش دریافتی‌های متناسب با هزینه‌های زندگی، خروج سازمان تامین اجتماعی از انحصار دولت، رفع مشکلات مربوط به بیمه تکمیلی و اجرای ماده ۵۴ قانون تامین اجتماعی جهت دریافت خدمات درمانی رایگان، از جمله مطالبات بازنشستگان است.<br><br><a href=\"?q=%23%D8%AA%D8%AC%D9%85%D8%B9\">#تجمع</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E28698.png')\"><b>↘️</b></i> <br><a href=\"https://t.me/hranews_bot\" target=\"_blank\">@hranews_bot</a> تماس <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i> -  <a href=\"https://t.me/Hranews\" target=\"_blank\">@Hranews</a>  کانال هرانا <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8691.png')\"><b>🆑</b></i>",
-      "plain_text": "امروز یکشنبه ۱۷ آبان‌ماه، شماری از بازنشستگان تامین اجتماعی در مقابل ساختمان این سازمان در شهرستان شوش دست به تجمع و راهپیمایی اعتراضی زدند.\n\nهمسان‌سازی حقوق‌ها، افزایش دریافتی‌های متناسب با هزینه‌های زندگی، خروج سازمان تامین اجتماعی از انحصار دولت، رفع مشکلات مربوط به بیمه تکمیلی و اجرای ماده ۵۴ قانون تامین اجتماعی جهت دریافت خدمات درمانی رایگان، از جمله مطالبات بازنشستگان است.\n\n#تجمع\n\n↘️\n@hranews_bot تماس ✉️ - @Hranews کانال هرانا 🆑",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/hranews/116992",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/i_aTshcU42fLpNxkaOr25g2waXnGAJ7SACfUv80H13BYZTydAxXo33kBC153Uz2YYj2xVyZPRRdWfqtoidY3kp8kqNgrwLJG1WB0qVUbPC5WXdjrJTGqMwI21XaewJ1x7ARhJ4j01xiVXfkZGM40tc6O80HqaLzq5UyZbkNry8fYebtfZxqiH1pd9TZVH8KzSyiDp5CocVZM2QHO754vsZZrANHpHP7Gz5A7PAw4klrIEnC145LBUs5YOBfw1mkaM_9X_Y2AYZdUDU2d9VDVoyl-l-QyWN2fcL_N5a1ooTnJGk3o1aSXQh-_N_i8Vc1q6JL1Ys-mC3NHacctSznjvQ",
-          "thumbnail_path": "channels/hranews/media/838eeee2c990023a9bcf9787.jpg",
-          "thumbnail_sha256": "7a9c2b1426b09cc1502527ab89af722cc32a3c734723164e53e990d398fbac6d",
-          "duration_label": "0:32",
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [],
-      "views_label": "852",
-      "posted_at": "2026-11-08T10:55:40+00:00",
-      "edited": false,
-      "permalink": "https://t.me/hranews/116992",
       "reply": null
     }
   ]
