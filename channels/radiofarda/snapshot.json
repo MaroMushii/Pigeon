@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-12T18:17:39.332Z",
+  "fetched_at": "2026-11-12T18:22:19.846Z",
   "channel": {
     "username": "radiofarda",
     "title": "RadioFarda",
@@ -25,9 +25,9 @@
           "asset_url": "https://t.me/radiofarda/163075",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/WXi9MHgg4cTitlvN9TzfJzuh3IBgywFUDUsoDeebw8lGKKw7RiXs0SNz4mXyn-gw4tIj01awj5TafKe6gPgttwe2fwnl6WrguMe8-VHn6jEDu9A-emFivf5S57PUlmlJD5Veo-8dglvIRtLTCeORv6PIJbhESl-e5k2tegYGU1uuQZZ_7r2yv75eczHJyLgRlXzcCrE25fA7qV8BOMXSu_LD9R0wHctX1uEwxG6xV3FDgOCpRhGm5S-EHoZnxdkr4GpvfqNwGW7CS1m-cU0hJyD01UDPkEgVhAVq45Q1pAgmzZ-PbJ7B2Bpfs7m9e9O_9pkqYBKPCUR92z4eHPtjdw",
-          "thumbnail_path": "channels/radiofarda/media/00f16f52c983a62c6df8f75a.jpg",
-          "thumbnail_sha256": "b19dc11fdf2ea2979780fe711101a27eb5823a201eb1d510449af8edd7644e3d",
+          "thumbnail_url": "https://cdn4.telesco.pe/file/FqgEJ9pd8mncihiU7GuKTCrvfmdPnXIxh1Olmy03GlzTBNQ75zgr6I-2jaT9FFFtsS_UGbCqv0kWeD6Owpx-yPJgFHUufe2xBTnCGgR1u0lZWcbM3OWwYgeQTkP1gTnsZePytvxiR-vzhKaNkWjxZfFSZL_kAtxjeiDCZGccizsRoedriQz-BPoyGNOkiBydMVh8Lr20maro5oqeDqmgNd_JhzrY1GJRNlEu5QG8kgLVN_Qy6L-u2Et7_oGWGJQjqLL6zOqtkpiLNmpMgee6LC_SX_xutFpd3px2d_uONXzeOfUmOiSp--C-rfLe7mVymHguOG7Xe0XFLCwtV6kkDg",
+          "thumbnail_path": "channels/radiofarda/media/05ca2c960d3c4ae0155eddfc.jpg",
+          "thumbnail_sha256": "f9bc5428f45474c970a7274883212b1f37d4b1d38f6b4b967869242b766f84a6",
           "duration_label": "1:23",
           "aspect_ratio": 0.7500000000000188
         }
@@ -35,16 +35,16 @@
       "reactions": [
         {
           "emoji": "😢",
-          "count": "13"
+          "count": "15"
         },
         {
           "emoji": "❤",
           "count": "2"
         }
       ],
-      "views_label": "1.37K",
+      "views_label": "1.48K",
       "posted_at": "2026-11-12T17:27:55+00:00",
-      "edited": false,
+      "edited": true,
       "permalink": "https://t.me/radiofarda/163075",
       "reply": null
     },
@@ -87,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.36K",
+      "views_label": "2.44K",
       "posted_at": "2026-11-12T16:46:08+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163074",
@@ -112,7 +112,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.48K",
+      "views_label": "2.55K",
       "posted_at": "2026-11-12T16:21:24+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163073",
@@ -145,7 +145,7 @@
           "count": "2"
         }
       ],
-      "views_label": "2.58K",
+      "views_label": "2.65K",
       "posted_at": "2026-11-12T16:15:39+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163072",
@@ -178,7 +178,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.49K",
+      "views_label": "3.53K",
       "posted_at": "2026-11-12T14:35:28+00:00",
       "edited": true,
       "permalink": "https://t.me/radiofarda/163071",
@@ -211,7 +211,7 @@
           "count": "3"
         }
       ],
-      "views_label": "3.83K",
+      "views_label": "3.87K",
       "posted_at": "2026-11-12T14:01:10+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163070",
@@ -240,7 +240,7 @@
           "count": "3"
         }
       ],
-      "views_label": "3.65K",
+      "views_label": "3.68K",
       "posted_at": "2026-11-12T13:53:31+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163069",
@@ -281,7 +281,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.88K",
+      "views_label": "3.91K",
       "posted_at": "2026-11-12T13:12:34+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163068",
@@ -306,7 +306,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.88K",
+      "views_label": "3.91K",
       "posted_at": "2026-11-12T12:36:41+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163067",
@@ -351,7 +351,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.06K",
+      "views_label": "4.09K",
       "posted_at": "2026-11-12T12:32:13+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163066",
@@ -396,7 +396,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.84K",
+      "views_label": "4.86K",
       "posted_at": "2026-11-12T10:57:32+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163065",
@@ -433,7 +433,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.81K",
+      "views_label": "4.83K",
       "posted_at": "2026-11-12T10:26:16+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163064",
@@ -478,7 +478,7 @@
           "count": "3"
         }
       ],
-      "views_label": "4.67K",
+      "views_label": "4.68K",
       "posted_at": "2026-11-12T09:28:57+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163063",
@@ -507,7 +507,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.93K",
+      "views_label": "4.95K",
       "posted_at": "2026-11-12T08:45:05+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163062",
@@ -552,7 +552,7 @@
           "count": "4"
         }
       ],
-      "views_label": "5.66K",
+      "views_label": "5.68K",
       "posted_at": "2026-11-12T07:39:42+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163061",
@@ -585,7 +585,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.86K",
+      "views_label": "5.88K",
       "posted_at": "2026-11-12T06:04:24+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163060",
@@ -610,7 +610,7 @@
           "count": "3"
         }
       ],
-      "views_label": "5.88K",
+      "views_label": "5.89K",
       "posted_at": "2026-11-12T06:02:20+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163059",
@@ -651,7 +651,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.88K",
+      "views_label": "7.89K",
       "posted_at": "2026-11-11T20:42:19+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163058",
@@ -684,7 +684,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.77K",
+      "views_label": "7.78K",
       "posted_at": "2026-11-11T20:01:45+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163057",
@@ -729,7 +729,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.37K",
+      "views_label": "7.38K",
       "posted_at": "2026-11-11T18:53:01+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163056",
