@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-12T12:37:09.021Z",
+  "fetched_at": "2026-11-12T12:42:16.277Z",
   "channel": {
     "username": "radiofarda",
     "title": "RadioFarda",
@@ -11,6 +11,22 @@
     "subscriber_count": "110K"
   },
   "posts": [
+    {
+      "id": "radiofarda/163067",
+      "author_name": "RadioFarda",
+      "author_photo_url": "https://cdn4.telesco.pe/file/GXfIBXnPhhGsOnKlrgm3OMu5wk4CSwgQUYq7aTFInO36oHW8hx5NFS-csQcVtZnD59TO1iZdTTKjahrJIQQKDdTSSoa-XiqN6dq-_e6kXxZ-dTnprP4a4g7H6tpwdjmRgLHu0cMTTvMHZvZZDO-qmgfMNdnv2BdQm6tuJhJ3d6Do8r3KXVAj5GL9uiH28oxzJc86z4FcxxbFDsTbEtZkuCH_6PVTLVkCtFP4tF14q3_W9aH-x00kOnyoINLEqu5IPYwDp1uixzfrFt2Eapql2iVh4FHyPGSzk5jbRcA8Gad-JEDZeilsulEfLizm6FW_uqRAMOrrFgqLRa9PL33uxg.jpg",
+      "author_photo_path": "channels/radiofarda/media/b0eca7bddb819ee16f17540b.jpg",
+      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BB.png')\"><b>📻</b></i>بشنوید: ساعت ۱۴ با رادیوفردا ۲۱ آبان ۱۴۰۵<br></b><br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a>",
+      "plain_text": "📻بشنوید: ساعت ۱۴ با رادیوفردا ۲۱ آبان ۱۴۰۵\n\n@RadioFarda",
+      "media": [],
+      "reactions": [],
+      "views_label": "238",
+      "posted_at": "2026-11-12T12:36:41+00:00",
+      "edited": false,
+      "permalink": "https://t.me/radiofarda/163067",
+      "reply": null
+    },
     {
       "id": "radiofarda/163066",
       "author_name": "RadioFarda",
@@ -35,10 +51,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "4"
+          "count": "5"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
         }
       ],
-      "views_label": "248",
+      "views_label": "436",
       "posted_at": "2026-11-12T12:32:13+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163066",
@@ -68,22 +88,22 @@
       "reactions": [
         {
           "emoji": "😢",
-          "count": "5"
+          "count": "6"
         },
         {
           "emoji": "❤",
           "count": "2"
         },
         {
-          "emoji": "🔥",
-          "count": "1"
+          "emoji": "😡",
+          "count": "2"
         },
         {
-          "emoji": "😡",
+          "emoji": "🔥",
           "count": "1"
         }
       ],
-      "views_label": "2.21K",
+      "views_label": "2.33K",
       "posted_at": "2026-11-12T10:57:32+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163065",
@@ -101,7 +121,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "7"
+          "count": "8"
         },
         {
           "emoji": "😢",
@@ -116,7 +136,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.69K",
+      "views_label": "2.76K",
       "posted_at": "2026-11-12T10:26:16+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163064",
@@ -161,7 +181,7 @@
           "count": "2"
         }
       ],
-      "views_label": "3.13K",
+      "views_label": "3.19K",
       "posted_at": "2026-11-12T09:28:57+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163063",
@@ -186,7 +206,7 @@
           "count": "2"
         }
       ],
-      "views_label": "3.42K",
+      "views_label": "3.47K",
       "posted_at": "2026-11-12T08:45:05+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163062",
@@ -216,7 +236,7 @@
       "reactions": [
         {
           "emoji": "😡",
-          "count": "35"
+          "count": "36"
         },
         {
           "emoji": "👌",
@@ -231,7 +251,7 @@
           "count": "2"
         }
       ],
-      "views_label": "4.13K",
+      "views_label": "4.17K",
       "posted_at": "2026-11-12T07:39:42+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163061",
@@ -264,7 +284,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.56K",
+      "views_label": "4.6K",
       "posted_at": "2026-11-12T06:04:24+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163060",
@@ -289,7 +309,7 @@
           "count": "3"
         }
       ],
-      "views_label": "4.51K",
+      "views_label": "4.55K",
       "posted_at": "2026-11-12T06:02:20+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163059",
@@ -326,7 +346,7 @@
           "count": "6"
         }
       ],
-      "views_label": "7.18K",
+      "views_label": "7.2K",
       "posted_at": "2026-11-11T20:42:19+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163058",
@@ -359,7 +379,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.24K",
+      "views_label": "7.25K",
       "posted_at": "2026-11-11T20:01:45+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163057",
@@ -404,7 +424,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.96K",
+      "views_label": "6.97K",
       "posted_at": "2026-11-11T18:53:01+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163056",
@@ -445,7 +465,7 @@
           "count": "5"
         }
       ],
-      "views_label": "6.41K",
+      "views_label": "6.42K",
       "posted_at": "2026-11-11T18:28:44+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163055",
@@ -470,7 +490,7 @@
           "count": "3"
         }
       ],
-      "views_label": "6.09K",
+      "views_label": "6.1K",
       "posted_at": "2026-11-11T17:51:15+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163054",
@@ -499,7 +519,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.5K",
+      "views_label": "6.52K",
       "posted_at": "2026-11-11T16:18:36+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163053",
@@ -540,7 +560,7 @@
           "count": "3"
         }
       ],
-      "views_label": "6.35K",
+      "views_label": "6.36K",
       "posted_at": "2026-11-11T15:57:39+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163052",
@@ -651,7 +671,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.35K",
+      "views_label": "5.36K",
       "posted_at": "2026-11-11T15:51:13+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163045",
@@ -3864,47 +3884,6 @@
       "posted_at": "2026-11-08T11:45:06+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/162950",
-      "reply": null
-    },
-    {
-      "id": "radiofarda/162949",
-      "author_name": "RadioFarda",
-      "author_photo_url": "https://cdn4.telesco.pe/file/AZRQLOhvnIrNrZd_ihkGpvhquCb03ICAi3jpl-yMiafQp3FG59qfDk5I8-BhqLFiOUYIhtCxxmcrlbl0AoW2vdXucaKinZU3VH2h05YarPN85-jp7VOvLulxxYL89uhOy80yFaCTAekbY64gSVuh31OwtDiKHcozChXfUexi3--8oLvhaAzGZ6QX8OIDYlMReyAXmdC8l3g0vC9k2VbIi_aAZzMlrDVVNJynyYgm5SJE56Xnv4zuiPd6Ptqyd84UtRaDZpqEeEbKKJovZ9fSH_WYEfm0bHk-QaWArI1TBocpwdFcb7CD7_-JEo6fdJJ07ECpqi-CT2L7yRA7smeKyg.jpg",
-      "author_photo_path": "channels/radiofarda/media/7cfdc85dc9496bf1830ef1bb.jpg",
-      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>وزارت انرژی عربستان سعودی روز یکشنبه ۱۷ آبان تأیید کرد که یک ساختمان اداری متعلق به شرکت نفتی آرامکو در ریاض، در پی سقوط بقایای پرتابه‌ها پس از تلاش برای حمله به پایتخت این کشور، آسیب محدودی دیده است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>این وزارتخانه اعلام کرد که این حادثه هیچ کشته یا زخمی بر جای نگذاشته است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>یک شاهد خبرگزاری رویترز نیز گزارش داد که شیشه‌های چندین طبقه برج آرامکو، یکی از بلندترین ساختمان‌های منطقه مالی ملک عبدالله در ریاض، بر اثر این حادثه شکسته است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>این حادثه پس از آن رخ داد که ائتلاف نظامی به رهبری عربستان اعلام کرد دو موشک بالیستیک شلیک‌شده از سوی حوثی‌های مورد حمایت جمهوری اسلامی در یمن را به سمت ریاض رهگیری و منهدم کرده است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>به گزارش رویترز، بامداد یکشنبه اندکی پس از صدور هشدار دفاع مدنی عربستان درباره تهدید احتمالی، صدای چند انفجار مهیب در ریاض شنیده شد. مقام‌های عربستان بعداً اعلام کردند که خطر برطرف شده است.<br><br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a>",
-      "plain_text": "🔸وزارت انرژی عربستان سعودی روز یکشنبه ۱۷ آبان تأیید کرد که یک ساختمان اداری متعلق به شرکت نفتی آرامکو در ریاض، در پی سقوط بقایای پرتابه‌ها پس از تلاش برای حمله به پایتخت این کشور، آسیب محدودی دیده است.\n\n🔸این وزارتخانه اعلام کرد که این حادثه هیچ کشته یا زخمی بر جای نگذاشته است.\n\n🔸یک شاهد خبرگزاری رویترز نیز گزارش داد که شیشه‌های چندین طبقه برج آرامکو، یکی از بلندترین ساختمان‌های منطقه مالی ملک عبدالله در ریاض، بر اثر این حادثه شکسته است.\n\n🔸این حادثه پس از آن رخ داد که ائتلاف نظامی به رهبری عربستان اعلام کرد دو موشک بالیستیک شلیک‌شده از سوی حوثی‌های مورد حمایت جمهوری اسلامی در یمن را به سمت ریاض رهگیری و منهدم کرده است.\n\n🔸به گزارش رویترز، بامداد یکشنبه اندکی پس از صدور هشدار دفاع مدنی عربستان درباره تهدید احتمالی، صدای چند انفجار مهیب در ریاض شنیده شد. مقام‌های عربستان بعداً اعلام کردند که خطر برطرف شده است.\n\n@RadioFarda",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/radiofarda/162949",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/pmjVjXtICkbY3yaxWc0UAZjpHG8x2X5fiyjxsAzduFnVHOBNKm1jZ9kPvc_O8-FKGc-077T0wZIwXnZAyU33Klc4U-oQlq3DIFj0VJbDNNMtsx8zGeL4qFvVV11g3NZTg0K6ckIaZ9MWEyyq6DwKeEuWsbxdVYnb6lWaCvNsJ95T1Vr7YzBnpB-xhLlSJP3MI77wduJOInwbaYzYWB2u0fXBq3wnelVt3O6LHbZ4gBtbHKM9-6AM_edjYx25-YBy-kB3iCGGXdG1uGsWrjkCvpLAlwowTV7PKaAM86yhxV-YyHKhtAxvgU3kooTOKYVoLqiaGG_-DVy9Fau_RyKHQg",
-          "thumbnail_path": "channels/radiofarda/media/b668e9260343237ab26ade6c.jpg",
-          "thumbnail_sha256": "fdb6210581aeb49aea3da1f3033873cba4e7682a967e8cff01dbb3e92e421475",
-          "duration_label": "0:32",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "14"
-        },
-        {
-          "emoji": "🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "👎",
-          "count": "2"
-        }
-      ],
-      "views_label": "7.04K",
-      "posted_at": "2026-11-08T11:41:26+00:00",
-      "edited": false,
-      "permalink": "https://t.me/radiofarda/162949",
       "reply": null
     }
   ]
