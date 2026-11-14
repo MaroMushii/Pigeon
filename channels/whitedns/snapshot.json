@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-14T16:27:05.380Z",
+  "fetched_at": "2026-11-14T16:32:28.628Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,47 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2271",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/DQO5a3gFkWCVSBmmwjr56bUuiUfikfhgrbWcQrPEBKo8R8HbNOgOnAhch5cx_DFusc0DhaEsOLYqcO5_XM1Fi4Zr0QCx20AUiZ0dsUTxInmgTwGlkwYCQSWGv6HWgHnwgyHIieWBIQ8C_qnjRorOJJlz1jJL8dRx_2ozmLVHwy4aosZygkL0q8G3cut3K7oCore0ut6UE6EJXqLRgapAOKxQtRPN7ydzxSZyAMkJj9wCL8y_ddC-Cf8wR7vElsXl0AbqvnEIVCXwLHSdr1-8UgBb2tol_sX6Oo7B111617GC_0zUszaMFqBcCug7-Wj4qiK182JoowizUEZB1kXg1g.jpg",
+      "author_photo_path": "channels/whitedns/media/44c2bea1202fdcdcdcfa0bae.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> WhiteAesther 1.16.0<br><br>این نسخه اتصال را روی شبکه‌های سخت‌گیرتر قابل‌اعتمادتر می‌کند و دو امکان تازه دارد: حالت «فقط IPv6» و وارد کردن فهرست قوانین مسیریابی از فایل.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> تازه‌ها<br>• ثبت حساب WARP روی شبکه‌هایی که مسیرهای معمول را می‌بندند، یک مسیر جایگزین تازه دارد. روی شبکهٔ عادی هیچ تغییری حس نمی‌کنید.<br>• گزینهٔ «فقط IPv6» در بخش «آدرس‌ها»، برای شبکه‌هایی که مسیر IPv6 تمیزتری دارند.<br>• وارد کردن فهرست قوانین آماده از یک فایل روی گوشی، برای «هرگز وصل نشو» یا «بدون تونل».<br>• جعبهٔ «این مقصد با کدام قانون می‌خورد؟» که روی خود گوشی می‌گوید یک سایت از تونل می‌رود، مستقیم می‌رود یا مسدود می‌شود.<br>• پورت محلی ورکر حالا رمز تصادفی دارد و برنامه‌های دیگر گوشی نمی‌توانند از آن استفاده کنند.<br>• اگر روش اتصالتان Psiphon، Tor، ورکر یا پروفایل پروکسی باشد، صفحهٔ ابزارها می‌گوید کدام تنظیمات مال موتور اتر است و الان اثری ندارد.<br>• ورکر نام هاست خودش را اول از DNS رمزشده می‌پرسد و با یک IP تمیز شروع می‌کند، پس اپراتوری که نام ورکر را جواب نمی‌دهد دیگر اتصال را نگه نمی‌دارد.<br>• پیام گزینهٔ «بدون مبهم‌سازی» روشن‌تر شد: روی شبکهٔ فیلترشده بیشترین احتمال را دارد که اتصال را از کار بیندازد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> آموزش کوتاه<br><br>حالت فقط IPv6<br>۱. ابزارها ← آدرس‌ها ← «فقط IPv6».<br>۲. اگر زیر گزینه نوشت «این شبکه IPv6 ندارد»، روی همین شبکه کار نمی‌کند؛ «IPv4 + IPv6» را بگذارید.<br>این گزینه فقط تعیین می‌کند موتور با کدام آدرس‌های کلادفلر وصل شود. برنامه‌های داخل تونل همچنان هر دو نوع آدرس را دارند.<br><br>وارد کردن فهرست قوانین<br>۱. ابزارها ← قوانین مسیریابی.<br>۲. «وارد کردن فهرست هرگز وصل نشو» یا «وارد کردن فهرست بدون تونل» را بزنید و فایل را انتخاب کنید.<br>۳. برنامه می‌گوید چند قانون اضافه شد و چه چیزی به چه دلیل کنار رفت.<br>۴. هر فهرست را می‌توانید جدا روشن، خاموش یا حذف کنید.<br>فرمت‌های پشتیبانی‌شده: نام دامنه، فایل hosts، آدرس IP و CIDR، و فهرست قوانین Clash.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> نکته‌ها<br>• قوانین geosite و geoip (به‌جز private) فعلاً پشتیبانی نمی‌شوند و در گزارش ورود شمرده می‌شوند.<br>• هر چه در فهرست «بدون تونل» باشد با آدرس واقعی گوشی شما می‌رود. فقط فهرستی را وارد کنید که به منبعش اعتماد دارید.<br>• برنامه قانون‌هایی را که آن‌قدر گسترده‌اند که کل ترافیک را از تونل بیرون ببرند یا اتصال را قطع کنند، وارد نمی‌کند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود: <a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.16.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.16.0</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a> <br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a>",
+      "plain_text": "🚀 WhiteAesther 1.16.0\n\nاین نسخه اتصال را روی شبکه‌های سخت‌گیرتر قابل‌اعتمادتر می‌کند و دو امکان تازه دارد: حالت «فقط IPv6» و وارد کردن فهرست قوانین مسیریابی از فایل.\n\n✨ تازه‌ها\n• ثبت حساب WARP روی شبکه‌هایی که مسیرهای معمول را می‌بندند، یک مسیر جایگزین تازه دارد. روی شبکهٔ عادی هیچ تغییری حس نمی‌کنید.\n• گزینهٔ «فقط IPv6» در بخش «آدرس‌ها»، برای شبکه‌هایی که مسیر IPv6 تمیزتری دارند.\n• وارد کردن فهرست قوانین آماده از یک فایل روی گوشی، برای «هرگز وصل نشو» یا «بدون تونل».\n• جعبهٔ «این مقصد با کدام قانون می‌خورد؟» که روی خود گوشی می‌گوید یک سایت از تونل می‌رود، مستقیم می‌رود یا مسدود می‌شود.\n• پورت محلی ورکر حالا رمز تصادفی دارد و برنامه‌های دیگر گوشی نمی‌توانند از آن استفاده کنند.\n• اگر روش اتصالتان Psiphon، Tor، ورکر یا پروفایل پروکسی باشد، صفحهٔ ابزارها می‌گوید کدام تنظیمات مال موتور اتر است و الان اثری ندارد.\n• ورکر نام هاست خودش را اول از DNS رمزشده می‌پرسد و با یک IP تمیز شروع می‌کند، پس اپراتوری که نام ورکر را جواب نمی‌دهد دیگر اتصال را نگه نمی‌دارد.\n• پیام گزینهٔ «بدون مبهم‌سازی» روشن‌تر شد: روی شبکهٔ فیلترشده بیشترین احتمال را دارد که اتصال را از کار بیندازد.\n\n📖 آموزش کوتاه\n\nحالت فقط IPv6\n۱. ابزارها ← آدرس‌ها ← «فقط IPv6».\n۲. اگر زیر گزینه نوشت «این شبکه IPv6 ندارد»، روی همین شبکه کار نمی‌کند؛ «IPv4 + IPv6» را بگذارید.\nاین گزینه فقط تعیین می‌کند موتور با کدام آدرس‌های کلادفلر وصل شود. برنامه‌های داخل تونل همچنان هر دو نوع آدرس را دارند.\n\nوارد کردن فهرست قوانین\n۱. ابزارها ← قوانین مسیریابی.\n۲. «وارد کردن فهرست هرگز وصل نشو» یا «وارد کردن فهرست بدون تونل» را بزنید و فایل را انتخاب کنید.\n۳. برنامه می‌گوید چند قانون اضافه شد و چه چیزی به چه دلیل کنار رفت.\n۴. هر فهرست را می‌توانید جدا روشن، خاموش یا حذف کنید.\nفرمت‌های پشتیبانی‌شده: نام دامنه، فایل hosts، آدرس IP و CIDR، و فهرست قوانین Clash.\n\n💡 نکته‌ها\n• قوانین geosite و geoip (به‌جز private) فعلاً پشتیبانی نمی‌شوند و در گزارش ورود شمرده می‌شوند.\n• هر چه در فهرست «بدون تونل» باشد با آدرس واقعی گوشی شما می‌رود. فقط فهرستی را وارد کنید که به منبعش اعتماد دارید.\n• برنامه قانون‌هایی را که آن‌قدر گسترده‌اند که کل ترافیک را از تونل بیرون ببرند یا اتصال را قطع کنند، وارد نمی‌کند.\n\n📥 دانلود: https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.16.0\n\n@whitedns\nhttps://whitedns.online",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2271",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/rp9fD_xpRTz9emqX31T5I5cvFshwBDIIxPJzneDlzeuoYNYHAqCzZuXPncyNglz2CEZwt29Fo1Yzatmc2OFXbqBis1ZmpnX8WWDkpAXnSF64GHhcOM2y6LUbxLx8tYweQpZPDhuxcfSzbB5Qw0lrgGs5jyguLrwEs7p2C9twEwO-v-H8Ghe3Msc1VCFyZM8vRlTmN4zp586iOwKgUTctAv1YDU3RLbiBSu4zYKXjGIkYJ4U5hfasvMfodnUiLGf2nDLYW3BVaBrNSPj4qaTc_zkiQpwMyDFtX1BDe8bORqDTG_3buyErPW0FkZtK-B5PSDV87VdoPNs9ixgf50EWiA.jpg",
+          "thumbnail_path": "channels/whitedns/media/2f26ec596b4915ad15af8675.jpg",
+          "thumbnail_sha256": "e1af3958d0b948e9d25bbd0d16434e64a729ba80f7844bd3906d1445e51ef983",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "10"
+        },
+        {
+          "emoji": "👍",
+          "count": "4"
+        },
+        {
+          "emoji": "🥰",
+          "count": "1"
+        }
+      ],
+      "views_label": "532",
+      "posted_at": "2026-11-14T16:28:44+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2271",
+      "reply": null
+    },
     {
       "id": "whitedns/2270",
       "author_name": "White DNS",
@@ -35,7 +76,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "201"
+          "count": "203"
         },
         {
           "emoji": "👍",
@@ -70,7 +111,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.98K",
+      "views_label": "9.11K",
       "posted_at": "2026-11-13T22:54:10+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2270",
@@ -139,7 +180,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.2K",
+      "views_label": "14.3K",
       "posted_at": "2026-11-12T02:21:40+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2269",
@@ -273,7 +314,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.1K",
+      "views_label": "16.3K",
       "posted_at": "2026-11-11T03:22:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2266",
@@ -310,7 +351,7 @@
           "count": "2"
         }
       ],
-      "views_label": "13.6K",
+      "views_label": "13.7K",
       "posted_at": "2026-11-10T22:36:15+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2265",
@@ -363,7 +404,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.6K",
+      "views_label": "11.7K",
       "posted_at": "2026-11-10T22:21:44+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2264",
@@ -408,7 +449,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12K",
+      "views_label": "12.2K",
       "posted_at": "2026-11-10T22:20:32+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2258",
@@ -636,7 +677,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.8K",
+      "views_label": "14.9K",
       "posted_at": "2026-11-10T02:24:16+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2254",
@@ -831,7 +872,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.5K",
+      "views_label": "14.6K",
       "posted_at": "2026-11-08T00:50:49+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2250",
@@ -5613,39 +5654,6 @@
       "posted_at": "2026-10-24T13:30:28+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2141",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2140",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/qj-sXVG_bt-G8LyDxj-V9alY9u6YhFO70aMm9-BGGlFJsv1mMb4qItEAYjGMZ8MCKMWx9UdVdrfyzmfpmHULFR9FXpppNDdEW9QwGib3wJAJZmwhYTmpYn1u6F_ULNgnZBmiaMPpH3a1-FVh4YkifaBKjqgAU_KB8x6ZMCO1_-j_uG7qyRPV6nZ5ZuOuUzr5RBzrEldnoYsPWwJJwAX5Rhbuw-vhlHQ4eCJcitIVa5JDbLZeZEc_P6-mxVz_MjF0_f7gwTjOxeWVAGIHan52e3s1W6rIdjeceEbh6SlSovXgqvhvhXSKeTCiLsTMBN8ZXgoIWrROwYyrqiCRDBnDaw.jpg",
-      "author_photo_path": "channels/whitedns/media/b66c42337b35a0a778da896d.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br>وبسایت به روز رسانی شد <br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a>",
-      "plain_text": "⚠️\nوبسایت به روز رسانی شد\nhttps://whitedns.online",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "90"
-        },
-        {
-          "emoji": "👍",
-          "count": "5"
-        },
-        {
-          "emoji": "🦄",
-          "count": "4"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "3"
-        }
-      ],
-      "views_label": "5.73K",
-      "posted_at": "2026-10-24T10:07:25+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/2140",
       "reply": null
     }
   ]
