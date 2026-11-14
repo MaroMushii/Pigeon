@@ -1,21 +1,82 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-13T15:22:51.119Z",
+  "fetched_at": "2026-11-14T15:27:08.912Z",
   "channel": {
     "username": "ircfspace",
     "title": "IRCF | اینترنت آزاد برای همه",
     "description_html": "این‌کانال با هدف دسترسی آزاد به اینترنت «به‌عنوان یک حق شهروندی»، به‌دور از هرگونه وابستگی حزبی، سیاسی، تشکیلاتی و ... فعالیت میکنه!<br><br><a href=\"https://ircf.space/contacts\" target=\"_blank\" rel=\"noopener\">https://ircf.space/contacts</a><br><a href=\"https://x.com/ircfspace\" target=\"_blank\" rel=\"noopener\">https://x.com/ircfspace</a>",
-    "photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-    "photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+    "photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+    "photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
     "photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-    "subscriber_count": "97.1K"
+    "subscriber_count": "97K"
   },
   "posts": [
     {
+      "id": "ircfspace/2717",
+      "author_name": "IRCF | اینترنت آزاد برای همه",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
+      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
+      "body_html": "هسته‌ی رخش برای ساخت شبکه‌های چندگرهی و تانل‌های انعطاف‌پذیر ارا‌ئه شده، تا ترافیک رو بصورت مستقیم یا از طریق تانل، از هر تعداد سروری که در اختیار دارین عبور بده. هدفش اینه که به یک سرور یا روش ارتباطی خاص محدود نباشه و حتی روی شبکه‌هایی که سعی می‌کنن جلوی ارتباط رو بگیرن، به کارش ادامه بده.<br><br>پروتکل اصلی رخش به نوع اتصال وابسته نیست و هر تانل از چند مسیر مستقل تشکیل شده، تا اگر یکی از مسیرها قطع شد، جریان‌های در حال انتقال بتونن از مسیر دیگه ادامه پیدا کنن. همینطور هر گره هویت و کلید اختصاصی خودش رو داره و ارتباط بین گره‌ها با احراز هویت و رمزنگاری سرتاسری محافظت میشن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/CluvexStudio/rakhsh/releases\" target=\"_blank\" rel=\"noopener\">github.com/CluvexStudio/rakhsh/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
+      "plain_text": "هسته‌ی رخش برای ساخت شبکه‌های چندگرهی و تانل‌های انعطاف‌پذیر ارا‌ئه شده، تا ترافیک رو بصورت مستقیم یا از طریق تانل، از هر تعداد سروری که در اختیار دارین عبور بده. هدفش اینه که به یک سرور یا روش ارتباطی خاص محدود نباشه و حتی روی شبکه‌هایی که سعی می‌کنن جلوی ارتباط رو بگیرن، به کارش ادامه بده.\n\nپروتکل اصلی رخش به نوع اتصال وابسته نیست و هر تانل از چند مسیر مستقل تشکیل شده، تا اگر یکی از مسیرها قطع شد، جریان‌های در حال انتقال بتونن از مسیر دیگه ادامه پیدا کنن. همینطور هر گره هویت و کلید اختصاصی خودش رو داره و ارتباط بین گره‌ها با احراز هویت و رمزنگاری سرتاسری محافظت میشن.\n\n👉 github.com/CluvexStudio/rakhsh/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/ircfspace/2717",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/OulFlFVf8SnhbwfSERT90GwPeZFtHaQNL8pMm21NZVQFHYLR5BnK3FI9wNR8IyjIbeknj8-qU9teKjG93EGiMN373-e8CqiQQ2YfevWil2o0VFn7BAx7eOcIp7Qn7k_nsymkkIlBnqmP90N5FSx6UmGLydXTlI3_2KN1nHvvA3smNNdWcagiVcWbnlgsBjYyj23LAtq0Km48fgsGbtvm5AulSN8W0jWkx4nljSDxJZGnGMXaix4gK69PBEu6f_eDEgSJ2K8au0tk2Em5YvZc9ULA7KMfR_Aj6aXAMRDe2Wl7Jdw97pxes0IV7K10ABcMC5fEq2FFCc_rSxRhtVs-KQ.jpg",
+          "thumbnail_path": "channels/ircfspace/media/767776ae58477f18323274a2.jpg",
+          "thumbnail_sha256": "d62c56bc3c55f28d83d71d091bc7b4e0c2cf6126d86cbc52b45683c8594920c7",
+          "duration_label": null,
+          "aspect_ratio": 1.5810276679841897
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "110"
+        },
+        {
+          "emoji": "👍",
+          "count": "23"
+        },
+        {
+          "emoji": "🔥",
+          "count": "6"
+        },
+        {
+          "emoji": "👎",
+          "count": "4"
+        },
+        {
+          "emoji": "⚡",
+          "count": "2"
+        },
+        {
+          "emoji": "👏",
+          "count": "2"
+        },
+        {
+          "emoji": "😢",
+          "count": "1"
+        },
+        {
+          "emoji": "🤡",
+          "count": "1"
+        }
+      ],
+      "views_label": "8.74K",
+      "posted_at": "2026-11-14T08:16:57+00:00",
+      "edited": true,
+      "permalink": "https://t.me/ircfspace/2717",
+      "reply": null
+    },
+    {
       "id": "ircfspace/2716",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "اپ متن‌باز و رایگان theFeed یه فید ریدر و پیامرسان مبتنی بر DNS برای اندروید، iOS، ویندوز، لینوکس و مک هست، که باهاش می‌تونین کانال‌های تلگرام و حساب‌های عمومی X رو بخونین، با کاربران دیگه چت رمزنگاری‌شده سرتاسری داشته باشین و حتی طبق آخرین آپدیتش، مستقیماً وارد حساب تلگرام خودتون بشین. <br>همه این کارها از طریق DNS انجام میشه و برای استفاده از قابلیت‌های اصلی برنامه نیازی به راه‌اندازی سرور شخصی ندارین؛ چون چند کانفیگ عمومی از قبل داخل برنامه قرار گرفته.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/sartoopjj/thefeed/releases\" target=\"_blank\" rel=\"noopener\">github.com/sartoopjj/thefeed/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "اپ متن‌باز و رایگان theFeed یه فید ریدر و پیامرسان مبتنی بر DNS برای اندروید، iOS، ویندوز، لینوکس و مک هست، که باهاش می‌تونین کانال‌های تلگرام و حساب‌های عمومی X رو بخونین، با کاربران دیگه چت رمزنگاری‌شده سرتاسری داشته باشین و حتی طبق آخرین آپدیتش، مستقیماً وارد حساب تلگرام خودتون بشین.\nهمه این کارها از طریق DNS انجام میشه و برای استفاده از قابلیت‌های اصلی برنامه نیازی به راه‌اندازی سرور شخصی ندارین؛ چون چند کانفیگ عمومی از قبل داخل برنامه قرار گرفته.\n\n👉 github.com/sartoopjj/thefeed/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -25,8 +86,8 @@
           "asset_url": "https://t.me/ircfspace/2716",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/jNm5ydv2V95mFEoyoJGp_aCUvFN8JfBgqPYqCyALW3wb5yK0fj-LiqH40LbMg5bPpUtBzVNLWrxblnV1XJpV4bBwwF4OMfrKvvf1ydQ3qwes0KjarSwXo_S80iogjp-4e6ETM_rye8c0BdsWy-1PCMCDqqIElZpv3Ozi-b-RefbmyD5m8oyDOhT7rjefykxJ0f45lKpx_718kQmpJOGQQB567yaYN0DlCh0gGXa3_PGanqF9LgRTeWQjAZWLLJvtDt9D_s5Tp5U_zHWZvBq2WDzSSedQkTyLp1ArBQWqYCgP7rMeflPQbr46DuAdmRuJd68-0r0X_igkL3ckERPjuA.jpg",
-          "thumbnail_path": "channels/ircfspace/media/fb9fdc9840f65b8d5ce875c6.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/MBxZoSAPn_etw0D8KUMRKC7_kX8q3wVQh9jGTcvC_EUNIIwD5F-rxMlNyfqUMa_S2BkezATeJhs7bN7_iEeKJmXyjALmhBQya6Dzs20Tq9elgmv3Zonxtfetn0CPQsmU6xaNYx_UFlwr6c4348nzUlYyvEeQkOoIr0a8LGAuhWzoHs8o9ZFO2i-xirQ2BVsf1JZESvDV7kEoYiQcMbW4l5q708JloRfQx94HqmXk0xl7NhAQumPryHrUi6S3lY7zmj-F0dvvy-mS-aNDidWzcHBp8Eo9S30bLTijtlB_WvCDbj3-K_UWtiHVeGz4nfFNcP4op956Vn_wWucCNWwq7Q.jpg",
+          "thumbnail_path": "channels/ircfspace/media/2db6c4def791acc73241df1e.jpg",
           "thumbnail_sha256": "01e6060265ee461e2ef6f6dcc878d59e44aa56b324c4f9db3ebf3d05cadf8fce",
           "duration_label": null,
           "aspect_ratio": 1.3333333333333333
@@ -35,30 +96,30 @@
       "reactions": [
         {
           "emoji": "👏",
-          "count": "141"
+          "count": "157"
         },
         {
           "emoji": "❤",
-          "count": "52"
+          "count": "60"
         },
         {
           "emoji": "👍",
-          "count": "22"
+          "count": "23"
         },
         {
           "emoji": "🎉",
           "count": "4"
         },
         {
-          "emoji": "👎",
-          "count": "2"
+          "emoji": "🏆",
+          "count": "3"
         },
         {
-          "emoji": "🏆",
-          "count": "1"
+          "emoji": "👎",
+          "count": "2"
         }
       ],
-      "views_label": "11.4K",
+      "views_label": "14.7K",
       "posted_at": "2026-11-12T05:27:02+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2716",
@@ -67,8 +128,8 @@
     {
       "id": "ircfspace/2715",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "ماجرای حمله سایبری به سیستم‌های سرمایشی حدود ۷۰۰ سوپرمارکت در فرانسه که به فاسد شدن مواد غذایی و آتش‌سوزی در تعدادی از فروشگاه‌ها منجر شد، ابعاد تازه‌ای پیدا کرده. گزارش‌های جدید رسانه‌های بین‌المللی از جمله رویترز، از هدف قرار گرفتن کشتارگاه‌ها، واحدهای فرآوری مواد غذایی و حتی برخی تأسیسات برق‌آبی در فرانسه خبر میدن. مقام‌های فرانسوی میگن این حملات دست‌کم باعث ۱۵ مورد آتش‌سوزی شده و خسارت بعضی فروشگاه‌ها به ده‌ها میلیون یورو رسیده.<br>فرانسه علاوه بر درخواست حکم بازداشت بین‌المللی برای ۳ مقام مرتبط با واحد سایبری سپاه، از پیگیری تحریم‌های اروپایی هم خبر داده. از طرف دیگه، حملات مشابهی در چند کشور اروپایی گزارش شده، اما هنوز ارتباط قطعی اونها با گروه‌های مرتبط با ج.ا تأیید نشده. <br>البته وزارت امور خارجه جمهوری اسلامی اتهامات فرانسه رو رد کرده و بی‌اساس و خصمانه دونسته.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "ماجرای حمله سایبری به سیستم‌های سرمایشی حدود ۷۰۰ سوپرمارکت در فرانسه که به فاسد شدن مواد غذایی و آتش‌سوزی در تعدادی از فروشگاه‌ها منجر شد، ابعاد تازه‌ای پیدا کرده. گزارش‌های جدید رسانه‌های بین‌المللی از جمله رویترز، از هدف قرار گرفتن کشتارگاه‌ها، واحدهای فرآوری مواد غذایی و حتی برخی تأسیسات برق‌آبی در فرانسه خبر میدن. مقام‌های فرانسوی میگن این حملات دست‌کم باعث ۱۵ مورد آتش‌سوزی شده و خسارت بعضی فروشگاه‌ها به ده‌ها میلیون یورو رسیده.\nفرانسه علاوه بر درخواست حکم بازداشت بین‌المللی برای ۳ مقام مرتبط با واحد سایبری سپاه، از پیگیری تحریم‌های اروپایی هم خبر داده. از طرف دیگه، حملات مشابهی در چند کشور اروپایی گزارش شده، اما هنوز ارتباط قطعی اونها با گروه‌های مرتبط با ج.ا تأیید نشده.\nالبته وزارت امور خارجه جمهوری اسلامی اتهامات فرانسه رو رد کرده و بی‌اساس و خصمانه دونسته.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -78,8 +139,8 @@
           "asset_url": "https://t.me/ircfspace/2715",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/F5IdHaNfefZusn0uAXNSdk8n3zcWoW7nWefNpDGXRsQ6nXr1oTbv25j_1jOWv4jYhKib8pXExSFsAneC--SqRJLwsjulv7VxRbAPoOSreqBT2lHE6jUmH6qiYx2hS8O9cPPTFzRdRh9r-RW3NPhMU1NtU4tw26Jj2jv0rB3aoznXZzZgqQL_ph-H4zzdxHVrWuOB7Req7nippgainByQ33iaRaaUs4Q0iTF3Qpfmu4cd4cwR1MUFgMRDGleXEuyXVztVs6IIPqeViKs2pxBi-5jBP89I8EuTXoOUXALaZjLeoL-9VDNAR1_fETbdfsdHAITcbFQiO9aRdAqUbUK6Og.jpg",
-          "thumbnail_path": "channels/ircfspace/media/6e4d8d4575f4c048e06a9378.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/G1kVwF0VJMWtat06NQbpASfb3F3DZgfFJW_VmcEnN0fyehuD_18t908uH7Edpd8IbDRnTaYhYT0E7mRiJyWVi2F4GcswL0wDAVTcUv2JA12gQ09WQs47Ueu_r6ZnDURoeLOe5CWZD-_8qsr_-Euvxh5mYMOw_ETig-VXnyY1qT0PD5RTG_PlnVl8z7L0UYImaounMx72RQ9v6UE9LLl9vpczhv2pUOwrjuV4q2b4sv3a9pBZPihNneAoBp0VRRvPFlL6Qcn9cAfHgQp3ryScMqgJ0-MkabhEalr4a6yRuciDDSWlQq9xmYjq3PbtlS1JM0QGeVilGvc_UsNVc8rV7Q.jpg",
+          "thumbnail_path": "channels/ircfspace/media/a46f1fbcaead25db935d4d71.jpg",
           "thumbnail_sha256": "745c6bfbc246c3b68766da747f542c3ccb98ae5478aa39a7acfdaae07b116d99",
           "duration_label": null,
           "aspect_ratio": 1.4953271028037383
@@ -88,19 +149,19 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "108"
+          "count": "125"
         },
         {
           "emoji": "🤬",
-          "count": "24"
+          "count": "26"
+        },
+        {
+          "emoji": "👍",
+          "count": "13"
         },
         {
           "emoji": "🔥",
           "count": "12"
-        },
-        {
-          "emoji": "👍",
-          "count": "9"
         },
         {
           "emoji": "😐",
@@ -111,7 +172,7 @@
           "count": "5"
         }
       ],
-      "views_label": "11.6K",
+      "views_label": "14.4K",
       "posted_at": "2026-11-12T05:08:21+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2715",
@@ -120,8 +181,8 @@
     {
       "id": "ircfspace/2714",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "اسپیس‌ایکس نسل جدید اینترنت ماهواره‌ای قابل حمل Starlink Mini 2 رو معرفی کرده، که مهمترین تغییر این مدل، باتری جداشونده ۷۱ وات‌ساعتیه که تا ۴.۵ ساعت شارژدهی داره. پشتیبانی از Wi-Fi 6، شارژ از طریق USB-C و طراحی باریک‌تر هم از تغییرات دیگه‌ش هست.<br>قیمت احتمالی دستگاه حدود ۲۴۹ دلاره، هرچند هنوز قیمت نهایی رسماً تأیید نشده. پیش‌فروش اولیه از ۱۹ آبان در آمریکا شروع شده و ارسال سفارش‌ها از اواخر آذر آغاز میشه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> dishytech<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "اسپیس‌ایکس نسل جدید اینترنت ماهواره‌ای قابل حمل Starlink Mini 2 رو معرفی کرده، که مهمترین تغییر این مدل، باتری جداشونده ۷۱ وات‌ساعتیه که تا ۴.۵ ساعت شارژدهی داره. پشتیبانی از Wi-Fi 6، شارژ از طریق USB-C و طراحی باریک‌تر هم از تغییرات دیگه‌ش هست.\nقیمت احتمالی دستگاه حدود ۲۴۹ دلاره، هرچند هنوز قیمت نهایی رسماً تأیید نشده. پیش‌فروش اولیه از ۱۹ آبان در آمریکا شروع شده و ارسال سفارش‌ها از اواخر آذر آغاز میشه.\n\n© dishytech\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -131,8 +192,8 @@
           "asset_url": "https://t.me/ircfspace/2714",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/qDRshnOIyhdcn6pcaYxofNiLHPF5wmhGOaZIiYJORp7YEUseEN0CAyt-MyCT_3bsNlkBCOkxKvcAMwjiJY9iHcRtE_lXo65K18rk1iTV7gnqKPxNEgqRctCIhBBtlGXwh5ZkAymjOPNyNBsONYR_D7T0oCHBvVQIvY7X04mDjMZ3QqykrGuS0FCNA__JtgAlwphbIb7ZyRbjYwkbab-22MyAgxVN51la-tQ8XmfFfaGzQqQWDHRniF0ecgcE0doet7U6pxZbdAbMbTAPbGcInv0MNASXhFWD-VFGt_JIbUWs9b__dyErzoi5vcRVxMybsS9ca8avCDafBsRMjbYosA.jpg",
-          "thumbnail_path": "channels/ircfspace/media/98b90b7898111473d6be298b.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/N8qGCrmkpICbq_pZD3cozAIF63IyAPSEgZzEa2vwdLOl2jByZd6OALl6DfRWWW5589aW9-ih2jynwWAYUjQhHX9oKDTGmUqAya6JzJl_KcOLbEaUprGltmif_-dLkgnC-h6SArtq1Oi6TQUlW1fQJAb1tD491J9qwa7Tyd_zq4urdj5Sqfu0K6Cm2n-J7lvL3SyDebfybnoOUdLwnXYNZlzkz1pxX5_3SUBo6RtAIOjH0rTvpB9fxPcagEtW4xsvP6ymhTeH2ktyZnMCI-FQwPpwlqUBAKCG6HILaR3h09VfPmiUCX-SgXXO63tBpauA1XMNaykmzaglIkqrtE4O8A.jpg",
+          "thumbnail_path": "channels/ircfspace/media/6e3474a492eb37fa07ebf579.jpg",
           "thumbnail_sha256": "abc81b026c5f07ec4b09f0d1b83d87c41fc1a81617eadab47b4f3b32cc7fad48",
           "duration_label": null,
           "aspect_ratio": 1.7777777777777777
@@ -141,18 +202,22 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "122"
+          "count": "139"
         },
         {
           "emoji": "👍",
-          "count": "30"
+          "count": "32"
         },
         {
           "emoji": "🤩",
           "count": "5"
+        },
+        {
+          "emoji": "😢",
+          "count": "1"
         }
       ],
-      "views_label": "10.7K",
+      "views_label": "13.4K",
       "posted_at": "2026-11-12T05:01:38+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2714",
@@ -161,8 +226,8 @@
     {
       "id": "ircfspace/2713",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "پنل نس‌نت یک ابزار متن‌باز برای مدیریت روترهای میکروتیک و اتصال‌های استارلینک هست، که بصورت تحت وب طراحی شده و میتونه مستقیماً روی خود روتر اجرا بشه.<br>در نسخه جدید از این‌ابزار، امکان مدیریت و بروزرسانی لیست آیپی‌های داخلی، بهبود پشتیبانی از RouterOS و نمایش بهتر وضعیت نصب فریمور درنظر گرفته شده. همچنین می‌تونین بدون نیاز به پیکربندی مجدد روتر، به نسخه‌های قبلی برنامه برگردین.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/nasnet-community/nasnet-panel/releases\" target=\"_blank\" rel=\"noopener\">github.com/nasnet-community/nasnet-panel/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "پنل نس‌نت یک ابزار متن‌باز برای مدیریت روترهای میکروتیک و اتصال‌های استارلینک هست، که بصورت تحت وب طراحی شده و میتونه مستقیماً روی خود روتر اجرا بشه.\nدر نسخه جدید از این‌ابزار، امکان مدیریت و بروزرسانی لیست آیپی‌های داخلی، بهبود پشتیبانی از RouterOS و نمایش بهتر وضعیت نصب فریمور درنظر گرفته شده. همچنین می‌تونین بدون نیاز به پیکربندی مجدد روتر، به نسخه‌های قبلی برنامه برگردین.\n\n👉 github.com/nasnet-community/nasnet-panel/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -172,8 +237,8 @@
           "asset_url": "https://t.me/ircfspace/2713",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Dtu4aZ0eLnEGhYn0eGA37tAYiIWc_dkAo7Cktn_ukcgKTkiHLASVh2zNcMIGgImIMaL6uCqecyuwcGsO3F3cba0dw8oqy2XY-6U4mtPhSZUzF1EGbAc_MBT3_626ywxbklikygPehiwu9SsBDq07_UO-ojwlTi1jRx4L0VskEYR1AFdy4CW4O4ykUPkacxQCl5ZdRgLMK89FkCrlQpazKGR4EmKPdRo8dY-9PEtDZPcNaMLggmZn8lCcOY-0vhR4i52yyw-kxEX0LSuRjX6x98C0_fLLpmhY61BrdAwKdimTKGpoold8lXP40P4hGAQKTuQG7P27EXLnm60mf9rCug.jpg",
-          "thumbnail_path": "channels/ircfspace/media/c09b2ce9f362b02414d20b12.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/dRcdFHxpk6mh_mmvamk3eo1q-s5UE6VtPwkFaYSXyJpb6ZbLaTL_I1vcXzKZj9teI1tvVPAGdbCv-369rwTckHWuXhvfVZwVBZXA5qGCc30LOb1Ucqsn0-P3l178AFdY5UeeqouL0FvOWkX3QUuNNQe3W3i8bmCL7akXf61_Tt8gCXDWKixs3uD5jVtETNmXb0iOFRRdyzFYqtnMRY0rFwlfqrlFqpUykOebG3tVF6dvsjcArO8Ex7Wi78xQGzwEPC9ziR6Yk7gbHY7Wl0lXhxXEIhz9XAnbklzi1KGEHomYXdZcUei8RoUpmwosSeUJtpSnPjwxEoBiDzeD6B2mNg.jpg",
+          "thumbnail_path": "channels/ircfspace/media/972dcdb49a2c685f296d7b95.jpg",
           "thumbnail_sha256": "d9d8552ca7b6e808f8c48f7d2f2438dfa6903785cd9b633a4726ca259f17ad27",
           "duration_label": null,
           "aspect_ratio": 1.3333333333333333
@@ -182,11 +247,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "69"
+          "count": "77"
         },
         {
           "emoji": "👍",
-          "count": "16"
+          "count": "17"
         },
         {
           "emoji": "⚡",
@@ -201,7 +266,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.5K",
+      "views_label": "12.5K",
       "posted_at": "2026-11-12T04:55:15+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2713",
@@ -210,8 +275,8 @@
     {
       "id": "ircfspace/2712",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "تهدیدهای جمهوری اسلامی درباره هدف قرار دادن کابل‌های اینترنت زیردریایی در خلیج فارس در هفته‌های اخیر جدی‌تر شده؛ رویترز هم به نقل از دو مقام امنیتی ج.ا گزارش داده که برای حمله به این کابل‌ها و حتی جلوگیری از تعمیر مجدد اونها برنامه‌ریزی شده.<br><br>البته برخلاف تصور اولیه، قطع این کابل‌ها به معنی قطع اینترنت جهانی نیست؛ چون درصد محدودی از پهنای باند بین‌المللی اینترنت از تنگه هرمز عبور می‌کنه. با این حال، چنین اقدامی میتونه اینترنت و زیرساخت‌های ارتباطی کشورهای حاشیه خلیج فارس رو با اختلال جدی مواجه کنه.<br><br>در همین شرایط، ایلان ماسک از برنامه‌های اسپیس‌ایکس برای توسعه نسل چهارم استارلینک صحبت کرده؛ شبکه‌ای که به ادعای او در آینده می‌تونه با ظرفیت کابل‌های زیردریایی رقابت کنه.<br><br>ماسک در توضیح این طرح گفته ماهواره‌های V4 به حدود ۱۰۰ ارتباط لیزری مجهز میشن که هرکدوم ظرفیت انتقال داده‌ای بیش از ۱۰ ترابیت بر ثانیه دارن. با استقرار بیش از ۱۰۰ هزار ماهواره از این نسل، استارلینک میتونه از نظر ظرفیت انتقال داده با شبکه جهانی کابل‌های زیردریایی رقابت کنه و حتی از اون پیشی بگیره.<br><br>ماسک همچنین مدعی شده سرعت نور در فضا حدود ۴۰ درصد بیشتر از داخل کابل‌های فیبر نوریه. از طرف دیگه، ارتباط مستقیم بین ماهواره‌ها باعث میشه داده‌ها بجای دنبال کردن مسیرهای طولانی کابل‌ها روی زمین، مسیر کوتاه‌تری رو طی کنن و در نتیجه زمان انتقال اطلاعات کاهش پیدا کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "تهدیدهای جمهوری اسلامی درباره هدف قرار دادن کابل‌های اینترنت زیردریایی در خلیج فارس در هفته‌های اخیر جدی‌تر شده؛ رویترز هم به نقل از دو مقام امنیتی ج.ا گزارش داده که برای حمله به این کابل‌ها و حتی جلوگیری از تعمیر مجدد اونها برنامه‌ریزی شده.\n\nالبته برخلاف تصور اولیه، قطع این کابل‌ها به معنی قطع اینترنت جهانی نیست؛ چون درصد محدودی از پهنای باند بین‌المللی اینترنت از تنگه هرمز عبور می‌کنه. با این حال، چنین اقدامی میتونه اینترنت و زیرساخت‌های ارتباطی کشورهای حاشیه خلیج فارس رو با اختلال جدی مواجه کنه.\n\nدر همین شرایط، ایلان ماسک از برنامه‌های اسپیس‌ایکس برای توسعه نسل چهارم استارلینک صحبت کرده؛ شبکه‌ای که به ادعای او در آینده می‌تونه با ظرفیت کابل‌های زیردریایی رقابت کنه.\n\nماسک در توضیح این طرح گفته ماهواره‌های V4 به حدود ۱۰۰ ارتباط لیزری مجهز میشن که هرکدوم ظرفیت انتقال داده‌ای بیش از ۱۰ ترابیت بر ثانیه دارن. با استقرار بیش از ۱۰۰ هزار ماهواره از این نسل، استارلینک میتونه از نظر ظرفیت انتقال داده با شبکه جهانی کابل‌های زیردریایی رقابت کنه و حتی از اون پیشی بگیره.\n\nماسک همچنین مدعی شده سرعت نور در فضا حدود ۴۰ درصد بیشتر از داخل کابل‌های فیبر نوریه. از طرف دیگه، ارتباط مستقیم بین ماهواره‌ها باعث میشه داده‌ها بجای دنبال کردن مسیرهای طولانی کابل‌ها روی زمین، مسیر کوتاه‌تری رو طی کنن و در نتیجه زمان انتقال اطلاعات کاهش پیدا کنه.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -219,23 +284,23 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "164"
+          "count": "182"
         },
         {
           "emoji": "🤡",
-          "count": "22"
+          "count": "23"
         },
         {
           "emoji": "🔥",
-          "count": "15"
+          "count": "17"
         },
         {
           "emoji": "❤",
-          "count": "12"
+          "count": "13"
         },
         {
           "emoji": "👏",
-          "count": "6"
+          "count": "7"
         },
         {
           "emoji": "👎",
@@ -254,7 +319,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.3K",
+      "views_label": "13.1K",
       "posted_at": "2026-11-12T04:34:41+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2712",
@@ -263,8 +328,8 @@
     {
       "id": "ircfspace/2711",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "اپ متن‌باز و رایگان Keqdroid، یک کلاینت VPN برای اندروید، ویندوز و لینوکس هست، که با هسته‌های Xray و Mihomo کار میکنه و از پشتیبانی VLESS، Hysteria2، WireGuard، AmneziaWG و...، انتخاب خودکار سرور پایدار و قابلیت Split tunnel برخورداره.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/Lemonochka/keqdroid/releases\" target=\"_blank\" rel=\"noopener\">github.com/Lemonochka/keqdroid/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "اپ متن‌باز و رایگان Keqdroid، یک کلاینت VPN برای اندروید، ویندوز و لینوکس هست، که با هسته‌های Xray و Mihomo کار میکنه و از پشتیبانی VLESS، Hysteria2، WireGuard، AmneziaWG و...، انتخاب خودکار سرور پایدار و قابلیت Split tunnel برخورداره.\n\n👉 github.com/Lemonochka/keqdroid/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -274,8 +339,8 @@
           "asset_url": "https://t.me/ircfspace/2711",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/PJhCmk6XlPVfWyJxkOFfmm9s1an8EhAqrTX297nlXTZqhZ5AZtbqTpi06gLVctsQiQw4k-ZoK2j3l-NMrLGfHsmNvx1YJCNZTVGH6Ugblv-A47Q3I6m7ON5qTao6ZVbZs7jTFDsL9TxE7gJZDQepMvZMhdIHCcmmc1Z46Hya1VIUy8MM4rP5fGOSQ654Kp6z31aUflpZeM_btUieZDv2mcCpG3f4hphKPbo2l4e3ddolLy_USGPdsXNTSwa4lKt-U7lK2a2eNCEgxS697IjAdB0M6e9ok5BSwo4kEL5_YkowdpWQQ9ImD2AndKwmeH9qLf0KiRSQrhv3EcuJDtg2cA.jpg",
-          "thumbnail_path": "channels/ircfspace/media/2485206e1dfdb25cd0cf92cf.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/MnU0BlESmlH16SRk5u_gOMcAYCZTwJt6cUk6KKAsEoYcsXO4OkGC0OuXpX9AzDFXpECyIv71iKzlAe0umXqdO-vWZw6Ey_0VwPJwk84ttP0DyJGhe2nBSzPm5XbHjug6e9qNj6ebN_YkboQ9-cGfGYfFvAjk_CqJmf92dzOX74s9nrgdsXCxpey3QPwS1dw1PxvjTF_vxkhrH7ivo02x84VKFU1VTKAcY-k59btHQ5cReRzLwBobVWM6KExMRftUr0aj1KLb5NkY6JSN-sUYZs-EBJteFhEMpsMGhs5BjN_AU85dgqgjUL4n5DsGHaHqQOkVHlsjICAvF-sNzeB8IQ.jpg",
+          "thumbnail_path": "channels/ircfspace/media/52d15d0c40c577fd4e3d3b7f.jpg",
           "thumbnail_sha256": "8abf6d75a349556c2266c705c7187eed838af3fb82b1df29f1d38bb8b2584d82",
           "duration_label": null,
           "aspect_ratio": 1.5841584158415842
@@ -284,11 +349,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "71"
+          "count": "78"
         },
         {
           "emoji": "👍",
-          "count": "18"
+          "count": "20"
         },
         {
           "emoji": "👎",
@@ -303,7 +368,7 @@
           "count": "2"
         }
       ],
-      "views_label": "11.5K",
+      "views_label": "13.3K",
       "posted_at": "2026-11-12T04:21:34+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2711",
@@ -312,8 +377,8 @@
     {
       "id": "ircfspace/2710",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "نسخه ۵.۵ از اپ متن‌باز و رایگان هیدیفای برای اندروید، iOS، ویندوز، مک و لینوکس منتشر شد. <br>در این بروزرسانی علاوه بر بازطراحی و بهبود بخش‌های مختلف برنامه، بیش از ۲۰ روش جدید برای عبور از سانسور اضافه شده، که میشه به اضافه شدن پروتکل‌هایی مثل DNSTT، MasterDNS، Soar، Psiphon، GooseRelay، XHTTP، FinalMask و AmneziaWG اشاره کرد. بخش وارپ هم بازطراحی شده و حالا از WireGuard، MASQUE و AmneziaWG با قابلیت انتخاب خودکار نویز و آیپی تمیز پشتیبانی می‌کنه.<br>امکان تست سرعت پروکسی‌ها، پالایش هوشمند پروکسی‌های فعال و انتقال سریع کانفیگ از گوشی به Android TV از قابلیت‌های جدید این نسخه هستن؛ همچنین حالت VPN در نسخه‌های ویندوز، مک و لینوکس بطور کامل بازنویسی شده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/hiddify/hiddify-app/releases\" target=\"_blank\" rel=\"noopener\">github.com/hiddify/hiddify-app/releases</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "نسخه ۵.۵ از اپ متن‌باز و رایگان هیدیفای برای اندروید، iOS، ویندوز، مک و لینوکس منتشر شد.\nدر این بروزرسانی علاوه بر بازطراحی و بهبود بخش‌های مختلف برنامه، بیش از ۲۰ روش جدید برای عبور از سانسور اضافه شده، که میشه به اضافه شدن پروتکل‌هایی مثل DNSTT، MasterDNS، Soar، Psiphon، GooseRelay، XHTTP، FinalMask و AmneziaWG اشاره کرد. بخش وارپ هم بازطراحی شده و حالا از WireGuard، MASQUE و AmneziaWG با قابلیت انتخاب خودکار نویز و آیپی تمیز پشتیبانی می‌کنه.\nامکان تست سرعت پروکسی‌ها، پالایش هوشمند پروکسی‌های فعال و انتقال سریع کانفیگ از گوشی به Android TV از قابلیت‌های جدید این نسخه هستن؛ همچنین حالت VPN در نسخه‌های ویندوز، مک و لینوکس بطور کامل بازنویسی شده.\n\n👉 github.com/hiddify/hiddify-app/releases\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -323,8 +388,8 @@
           "asset_url": "https://t.me/ircfspace/2710",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ogT3OE2imYaETdneunpiRpofnTn5Y4z_P-Nc60Y8XPiZcN0tsWGMqbEAUvM0L60BCDe-_PWCKMfDv_QfndcB66YVKXZn_cOlqHgFmDbUuMPGuU8jfMb4Qewa93VnKsirK-HBGPL98Kt4w8o-jTgEeMeMaCrxPztNqHb9Sr5nbMqqDmg5MXhrvf6_FNZjcO9xf3Rw0viqemz9JR39M7gQFJlSYOrdUCspL29WBm44csfDfhr4CIh7otOQ9f01UyhCSnYh6PJKLhGDITakOBuZp3n-wK4wRs4LhxgizrDdgGGnciwmA_kHttRa2gMTZzOMSHN9Bv8mlyjG3Y9Ik2ekxw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/03baa7726e181586bf8787a3.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/t_AqZB7105c-AJyT3_52A--ucv7Law55_Bb1tuMQAyd5G-GSRdtHd1-xtJ02z-9Ct0a1vgMZHm9K-0g0e-5cdqDs6aQnEDxSRG6uwaihCDs4GOJei6DYGB8WycKaiEdbAbMONomzbGxCCkPxWyIENI1MPnM2stRHBYffbA93wK7SSIKKWEBnICAJAisc40L05iZqieJr9nsYshxXBpGN3aPYvEz9bpENs7XcYTJ3o7pzTAggQjwypYQXwglUbsg5xPM1FBuW8FKGiVYW4ehWmp8PBS_aRwBytXEM-F1b5quzb7pudAeHBzWgILWay8VbqqkZw1ZKrMxLFnEzSFSLyQ.jpg",
+          "thumbnail_path": "channels/ircfspace/media/7f8c4ad005c18dfe153c6334.jpg",
           "thumbnail_sha256": "3d36feb1941c70c079d303413301ddf91a71979e6264d3667a22f9488204b31d",
           "duration_label": null,
           "aspect_ratio": 1.5009380863039399
@@ -333,7 +398,7 @@
       "reactions": [
         {
           "emoji": "👏",
-          "count": "165"
+          "count": "169"
         },
         {
           "emoji": "❤",
@@ -341,7 +406,7 @@
         },
         {
           "emoji": "👍",
-          "count": "29"
+          "count": "30"
         },
         {
           "emoji": "👎",
@@ -352,7 +417,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.2K",
+      "views_label": "22.5K",
       "posted_at": "2026-11-09T05:00:56+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2710",
@@ -361,8 +426,8 @@
     {
       "id": "ircfspace/2709",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "فیلترشکن دیفیکس قابلیت Split Tunneling رو در جدیدترین بروزرسانی برای نسخه‌های اندروید، iOS، ویندوز، لینوکس و مک در دسترس قرار داد.<br>با این قابلیت می‌تونین مشخص کنین ترافیک کدوم اپلیکیشن‌ها، آیپی‌ها یا آدرس‌ها از تانل VPN عبور نکنه و مستقیماً از اینترنت عادی استفاده کنن. مثلاً می‌تونین بدون قطع اتصال VPN، به سامانه‌های دولتی، بانکی یا سرویس‌هایی که به IP واقعی شما نیاز دارن دسترسی داشته باشین.<br>از طرف دیگه، امکان انتخاب مسیر معکوس هم وجود داره؛ یعنی می‌تونین مشخص کنین فقط اپلیکیشن‌های خاصی از تانل دیفیکس عبور کنن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://defyxvpn.com/download\" target=\"_blank\" rel=\"noopener\">defyxvpn.com/download</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "فیلترشکن دیفیکس قابلیت Split Tunneling رو در جدیدترین بروزرسانی برای نسخه‌های اندروید، iOS، ویندوز، لینوکس و مک در دسترس قرار داد.\nبا این قابلیت می‌تونین مشخص کنین ترافیک کدوم اپلیکیشن‌ها، آیپی‌ها یا آدرس‌ها از تانل VPN عبور نکنه و مستقیماً از اینترنت عادی استفاده کنن. مثلاً می‌تونین بدون قطع اتصال VPN، به سامانه‌های دولتی، بانکی یا سرویس‌هایی که به IP واقعی شما نیاز دارن دسترسی داشته باشین.\nاز طرف دیگه، امکان انتخاب مسیر معکوس هم وجود داره؛ یعنی می‌تونین مشخص کنین فقط اپلیکیشن‌های خاصی از تانل دیفیکس عبور کنن.\n\n👉 defyxvpn.com/download\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -372,8 +437,8 @@
           "asset_url": "https://t.me/ircfspace/2709",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/C2etuNi3EufMt6HkBtpYJhCXiSFFbNMXnY_BQ3mb69AH6pzsZfQBn6V9gQsTOJqIX_deXn9uCjKiI4KndMXu1HRL2rYvgrqzjDfrm0t7s4JQxpPpqTfBx9vGE_3gqprBblveZv_qUx2tSNDUNcUoeH1zrB1sLlBzdg-QhpeNKCc9NZe-l6Aa9Hxcb4IWfCHOxdidUolmxMehjuiVv0HAFPX-KTSt_5nZw2AeR7c_iN8WNIDjY-KS57brUBbvXX6t2SzQChiO02b2_MTRxP5dgSl6MBAeNZdkgtlihHdw5lwLh6C7fRiR52LCKaMFP9EP8y_rjoJj7sS1GWJmrRhZlA.jpg",
-          "thumbnail_path": "channels/ircfspace/media/f9a888021a544f854415f198.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/acNUy99LDbffXJbxuV5806j6ASdexX2wo_HXa9UeBkHgLW5cnUzEun1IsPei0VmIzcKkiplMJBot-ZUgdc3hJXimnz76sfB_WFFtvRYfgi2_59NiNhCKbDxFjhWHLNCHSuH0CQ-U_bx5XryAIZshH1T-qJHrC1jvXzUGQeEjgtqMmByO2nfyQgSuV1J5O2DzSkXBtRv29IJW_iMFFmfMblCyiMGq0QmTrGvgevtqeDPfkXdAJ8GcfgO4XAbGBV-_bnJjXd_RlnqtDF-Y79ZwttfPL5l8PNW8OZXI7erT3AmZMlkC9-uvpAp6zYou8W5XIxKhGso-e1iUkcISAmjKKA.jpg",
+          "thumbnail_path": "channels/ircfspace/media/49d5b9cc0e1fb03c3feb4eb0.jpg",
           "thumbnail_sha256": "ea4cce13e49bb27b21944bf57763851b455217b431d5336b2aac8bf49bbe3a2b",
           "duration_label": null,
           "aspect_ratio": 1.3333333333333333
@@ -386,7 +451,7 @@
         },
         {
           "emoji": "👍",
-          "count": "162"
+          "count": "164"
         },
         {
           "emoji": "❤",
@@ -405,7 +470,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.7K",
+      "views_label": "27.3K",
       "posted_at": "2026-11-08T04:59:39+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2709",
@@ -414,8 +479,8 @@
     {
       "id": "ircfspace/2708",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "مدتیه گزارش‌های مختلفی از قطع موقت آنتن‌دهی اپراتورهای تلفن همراه در نقاط مختلف کشور منتشر میشه؛ اختلال‌هایی که روی تماس‌ها، اینترنت و حتی دستگاه‌های کارتخوان اثر میذارن و معمولاً در کمتر از یک ساعت برطرف میشن.<br><br>این اتفاق در تابستون و همزمان با قطعی‌های روزانه برق چندان عجیب نبود، اما تداوم چنین گزارش‌هایی در شرایط فعلی می‌تونه نشونه‌ای از مشکلات جدی‌تر در زیرساخت مخابراتی باشه. <br>در کنار اختلال‌های عامدانه و محدودیت‌هایی که در شرایط جنگی بر شبکه اعمال میشن، فرسودگی تجهیزات، آسیب دیدن باتری‌ها و سیستم‌های پشتیبان بر اثر قطعی‌های مکرر برق، کمبود منابع مالی برای تعمیر و نوسازی و همچنین تحریم‌های گسترده که تأمین تجهیزات، قطعات جایگزین و خدمات فنی رو دشوارتر کرده، میتونن از جمله عوامل این اختلال‌ها باشن.<br><br>البته بدون دسترسی به اطلاعات فنی اپراتورها نمیشه علت مشخصی رو تأیید کرد، اما تداوم این وضعیت احتمالا نشونه‌ای از کاهش تاب‌آوری شبکه تلفن همراه و دشوارتر شدن نگهداری و نوسازی زیرساخت‌های ارتباطی کشوره.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "مدتیه گزارش‌های مختلفی از قطع موقت آنتن‌دهی اپراتورهای تلفن همراه در نقاط مختلف کشور منتشر میشه؛ اختلال‌هایی که روی تماس‌ها، اینترنت و حتی دستگاه‌های کارتخوان اثر میذارن و معمولاً در کمتر از یک ساعت برطرف میشن.\n\nاین اتفاق در تابستون و همزمان با قطعی‌های روزانه برق چندان عجیب نبود، اما تداوم چنین گزارش‌هایی در شرایط فعلی می‌تونه نشونه‌ای از مشکلات جدی‌تر در زیرساخت مخابراتی باشه.\nدر کنار اختلال‌های عامدانه و محدودیت‌هایی که در شرایط جنگی بر شبکه اعمال میشن، فرسودگی تجهیزات، آسیب دیدن باتری‌ها و سیستم‌های پشتیبان بر اثر قطعی‌های مکرر برق، کمبود منابع مالی برای تعمیر و نوسازی و همچنین تحریم‌های گسترده که تأمین تجهیزات، قطعات جایگزین و خدمات فنی رو دشوارتر کرده، میتونن از جمله عوامل این اختلال‌ها باشن.\n\nالبته بدون دسترسی به اطلاعات فنی اپراتورها نمیشه علت مشخصی رو تأیید کرد، اما تداوم این وضعیت احتمالا نشونه‌ای از کاهش تاب‌آوری شبکه تلفن همراه و دشوارتر شدن نگهداری و نوسازی زیرساخت‌های ارتباطی کشوره.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -425,8 +490,8 @@
           "asset_url": "https://t.me/ircfspace/2708",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/bQzvn6zbDYuZ8Y1kO7rFg0d1a0Ya7eeFs6tsq_lFG8NcGu06N__OSABCbb2vzY2F1dInQ3MQQYLSU8NQKZ6k5OaLKTCNNeESGyFiNIhRxTJaochcvm2Suh1vKWK84TddNBxQVF0-Cz9Ko-gXtOmLdR9pBSo_pAw6FCu-TLUfXANQG_Bm0zxUxab6qJcbCyE3PVC-qRrq3Vu8RTT-cygHW1f0rfukt7QfjaP6e7fiBMXmjOMMgn6AkrBoHkYnUIbL5TmjwvNgMesahr2sS53Y0-O5pbzGBjJ69tcjUK7MNsEjar_Ad39OP5xWoLJT1v-g5Qvkouj4laHj5AIR7p6zYw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/573ec5e9d9af753b177dadc3.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/EmmfLiYoOmEzSAklOvlQ76X09G_nixqVUSNfqm8UMrTq-Kovxbj46bbmcpsoRf7PsnpOAdjn5Eigwak9RfWZFEdDLd09Q7FpFj1bZFPpN9w3zUCdnUio4UjB_XW8t2dx5c1DRNSjGJyaZTK5PX_4s7YZOvTjgrLYycXoTnWzgX2ViB8E4OJcjMouVj_bljdrsX-n35M5nRAneHmtL_BRTQ1stuFxzrq1RVaj6snYdK9MKcH5MXdodRVV1WzYmHGX_beD3iiQPZEsr9jToLwVUUwK7SSFeNXGlCwtrTtIhF-v2drUXSOcO8OUiX0Xbq1VglZewC_B9Hsho7ndGnNoAw.jpg",
+          "thumbnail_path": "channels/ircfspace/media/bc812f43950d78eb58381def.jpg",
           "thumbnail_sha256": "345ba9770845abbfa90a6cd703e833163a764cb302635f6ceb9006f3036347c3",
           "duration_label": null,
           "aspect_ratio": 1.5009380863039399
@@ -435,7 +500,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "133"
+          "count": "134"
         },
         {
           "emoji": "🤬",
@@ -454,7 +519,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-11-08T04:45:22+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2708",
@@ -463,8 +528,8 @@
     {
       "id": "ircfspace/2707",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "گزارش‌ها به از دسترس خارج شدن تعدادی از دامنه بین‌المللی سایت‌های ایرانی اشاره دارن. دامنه ورزش۳ هم در همین دسته قرار می‌گیره، که توسط شرکت ثبت‌کننده در وضعیت تعلیق (HOLD) قرار گرفته. <br>هنوز مشخص نیست این اتفاق‌ها به تحریم‌ها یا اجرای سیاست جدیدی از سوی GoDaddy مربوط باشن و این شرکت هم تا الان توضیح رسمی‌ای در این زمینه ارائه نکرده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "گزارش‌ها به از دسترس خارج شدن تعدادی از دامنه بین‌المللی سایت‌های ایرانی اشاره دارن. دامنه ورزش۳ هم در همین دسته قرار می‌گیره، که توسط شرکت ثبت‌کننده در وضعیت تعلیق (HOLD) قرار گرفته.\nهنوز مشخص نیست این اتفاق‌ها به تحریم‌ها یا اجرای سیاست جدیدی از سوی GoDaddy مربوط باشن و این شرکت هم تا الان توضیح رسمی‌ای در این زمینه ارائه نکرده.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -474,8 +539,8 @@
           "asset_url": "https://t.me/ircfspace/2707",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/dN7Eyy25Og0olHK61tyxAcRHZVlr7zd0hBtSdBYWQzaAKg2JGE4AAwgiZMGgJbMSPrzC8bK8TCU2D4DqAVd4mQoxjm5_c84pyJYRK4FeYzMlXISekOUqjRwjG4enNrKxQ_TX9S2sfgKHRG-T94s9paXvPHUS6Ceq2T0axVugmexU_tsS6kcqmEGbgu22mAk-PzzgriyOd2kqMsdejAxpptPTKATyIS_hDO0_YUdedLq7CnqS7GedwCsch_hrjqnBKnWJQGVw5TWcw4LHYcNDjaZz3K9CQN75VJq_efW0oRcISk8nhaN4F-BuzpqKEK_EbNfk-vuiZbCCxB-YhRlScQ.jpg",
-          "thumbnail_path": "channels/ircfspace/media/2c8b3756eeafd25ed20c7679.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/bL2kU_VMB9tCzxab1WzXxdcfqZDA6FxpJDeR5Z1F3AoNJSpE_tVtnNEwgBSDcrQpLcnFX-y9rfmPfWi4wGPpmTmxs0fR28rJxGPH-fiUBTV1XrKCqHysFdQsiXL2sTeSGWHh77AQPXQrGJOuBHFUJSpU9uyfLjjxtOzUPEvQOtukOfislKXVRcpJV9-q1Rv5jLWCuJvWzN8QvJ_COxyT0nt5YDsO9Wx6QdxxcjGvQGVwxZdTRHg7IXELMU2MyeUohM1t51KeR_VPeLa5VxMxSpQFTi7t_75AyRUGRGdoXu0-lb_mYXPUWh0XWzOF7N7FBIzHK3pd4gFXyd84f96tqQ.jpg",
+          "thumbnail_path": "channels/ircfspace/media/276bd1c497a956f53895eb79.jpg",
           "thumbnail_sha256": "fe6eb02a1d289fbeff3646277eeabc22c5a5849ebc22edad9cba7f39cbbc59cf",
           "duration_label": null,
           "aspect_ratio": 1.5009380863039399
@@ -484,7 +549,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "165"
+          "count": "168"
         },
         {
           "emoji": "👍",
@@ -523,7 +588,7 @@
           "count": "2"
         }
       ],
-      "views_label": "20.1K",
+      "views_label": "20.9K",
       "posted_at": "2026-11-08T04:30:42+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2707",
@@ -532,8 +597,8 @@
     {
       "id": "ircfspace/2706",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "آنتروپیک از ۲۱ آبان نسخه جدید سیاست‌های استفاده از هوش مصنوعی کلاد رو اجرا می‌کنه، که در اون محدودیت دسترسی کاربران کشورهای پشتیبانی‌نشده \"از جمله ایران\" صریح‌تر شده. <br>بر اساس این قوانین، نه‌تنها افرادی که از داخل این کشورها به کلاد وصل میشن، بلکه شرکت‌هایی که در این مناطق ثبت شدن یا عمده مالکیت و کنترلشون در اختیار افراد و نهادهای مستقر در اونهاست هم اجازه استفاده از سرویس رو ندارن! بنابراین احتمال مسدود شدن حساب کاربرانی که با روش‌های غیرمستقیم از کلاد استفاده می‌کنن وجود داره، هرچند آنتروپیک زمان یا برنامه مشخصی برای مسدودسازی حساب‌ها اعلام نکرده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "آنتروپیک از ۲۱ آبان نسخه جدید سیاست‌های استفاده از هوش مصنوعی کلاد رو اجرا می‌کنه، که در اون محدودیت دسترسی کاربران کشورهای پشتیبانی‌نشده \"از جمله ایران\" صریح‌تر شده.\nبر اساس این قوانین، نه‌تنها افرادی که از داخل این کشورها به کلاد وصل میشن، بلکه شرکت‌هایی که در این مناطق ثبت شدن یا عمده مالکیت و کنترلشون در اختیار افراد و نهادهای مستقر در اونهاست هم اجازه استفاده از سرویس رو ندارن! بنابراین احتمال مسدود شدن حساب کاربرانی که با روش‌های غیرمستقیم از کلاد استفاده می‌کنن وجود داره، هرچند آنتروپیک زمان یا برنامه مشخصی برای مسدودسازی حساب‌ها اعلام نکرده.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -543,8 +608,8 @@
           "asset_url": "https://t.me/ircfspace/2706",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/fdApdoK1jn6OslooY_UB9yQCJbfAFjDtsVnS6rpBrY4hTLUjfrRn9K60z6v5YApCdtlWFKftl7Y3zzwMmX84JUuLM-CmqDnw9ZxJ_Ypj7hrd1xCjiDui5iA-4w3L4MnsKQzR4oEavIpjkeREkew2lykLW3nGmTuK1wcwqfcnZRhtZOBd7Q1_EC3Ic4Uv_u0TAojEQmHi4SI--gTM2ia3gxfo-9G_iGJK7S8OV-dc1mKEQaz_Of56dbGVCzdD24qRj_-h4C9Ro9QAuYBNMMosTSA7KS6S5KMFTJKcAE7sBlUl4WPmI2JiZFUAeZJtaetBLEpPXkCXbgF71SYyAwjDKw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/df7081a7604cc491e003d9e8.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Sg7md4UNG-ts1A0UoZnz-RumEuRp2tLkwDBI0pwgnRPqyfBN8l-9uNeSrND1GhR5iSLgmpPhxsuO1wsb9CyT7HhRXni9-OTzLOJ8pkruvXW6KhbsP3K6kWx9PplugX8UFuC1Lw6usblFHky5Kbelo7I-vhsIE3eNH4MI28cJrNsK6x8OVwPrChfWJLJdTkEmI7oUdaISJBJH-CqQl7KywPEC07p0qRj0N4B8ZZKicd4WtCwrx_i6PI-sP_PLatha4_yIyGnwk6t3t_K9c1S77FlBmHeIBym2njLDXoXNfjyOUawDLwUlqOXX_X7AZhzMrgz_Y9T_Rsa0J9jRgc-_8Q.jpg",
+          "thumbnail_path": "channels/ircfspace/media/9c5e71c670976c0a0da77ecf.jpg",
           "thumbnail_sha256": "fb8e965aa508c032d96dfcdc51bc2bcbc0e661b2d33bbb6c887594dab2a521aa",
           "duration_label": null,
           "aspect_ratio": 1.8181818181818181
@@ -553,11 +618,11 @@
       "reactions": [
         {
           "emoji": "😢",
-          "count": "204"
+          "count": "206"
         },
         {
           "emoji": "👍",
-          "count": "33"
+          "count": "35"
         },
         {
           "emoji": "🤬",
@@ -580,7 +645,7 @@
           "count": "3"
         }
       ],
-      "views_label": "60.5K",
+      "views_label": "63.7K",
       "posted_at": "2026-11-08T04:22:34+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2706",
@@ -589,8 +654,8 @@
     {
       "id": "ircfspace/2705",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "بررسی ترافیک اینترنت ایران در ۷ روز اخیر نشون میده که در ساعات پایانی شب، علاوه بر کاهش معمول مصرف اینترنت بدلیل ساعت استراحت مردم، افت‌های قابل‌توجهی در ترافیک ثبت شده. این افت‌ها از نظر زمانی با گزارش‌های اخیر کاربران درباره ایران‌اکسس شدن یا قطع چند دقیقه‌ای اینترنت در اواخر شب همخوانی داره.<br><br>این وضعیت در حالی ادامه داره که اینترنت ایران بعد از تجربه ۸۸ روز قطع سراسری، هنوز حتی به شرایط قبل از جنگ برنگشته و همچنان با اختلال، افت کیفیت و محدودیت‌های متعدد همراهه. در این مدت، به جای بهبود کیفیت و دسترسی اینترنت، تنها تغییر ملموسی که کاربران باهاش مواجه شدن، افزایش حدود ۴۰ درصدی قیمت بسته‌های اینترنت بوده!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "بررسی ترافیک اینترنت ایران در ۷ روز اخیر نشون میده که در ساعات پایانی شب، علاوه بر کاهش معمول مصرف اینترنت بدلیل ساعت استراحت مردم، افت‌های قابل‌توجهی در ترافیک ثبت شده. این افت‌ها از نظر زمانی با گزارش‌های اخیر کاربران درباره ایران‌اکسس شدن یا قطع چند دقیقه‌ای اینترنت در اواخر شب همخوانی داره.\n\nاین وضعیت در حالی ادامه داره که اینترنت ایران بعد از تجربه ۸۸ روز قطع سراسری، هنوز حتی به شرایط قبل از جنگ برنگشته و همچنان با اختلال، افت کیفیت و محدودیت‌های متعدد همراهه. در این مدت، به جای بهبود کیفیت و دسترسی اینترنت، تنها تغییر ملموسی که کاربران باهاش مواجه شدن، افزایش حدود ۴۰ درصدی قیمت بسته‌های اینترنت بوده!\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -600,8 +665,8 @@
           "asset_url": "https://t.me/ircfspace/2705",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/rRP4ilf3SFr148FSoC0a7NqA6aUWlI8L8xcJl2lT8VV3YstCdiZxwDNY55cEMb4HaP1a9AF0-2ETrxI86aDGkd2_DkPerh9UCWB6nGLyOWr-YkIhL_6quZ76jThEKpE9aFttdC5ppPa7fNU5-lxTo5OrjqSDD6UgLMhueFm5UlJuul8-_izPSzifYTh4C7jId0EqcNGnMm6_e4a06r179-B4mZlmYUs1GS6U2BMzEE9DMGMB8OxbUSpqzJ_qvSihj6kHwdxBBibAX-pzYkFpNxTJ43iMAQmE6JrLQxpVWhuNiDpmSlwgDOzoaZrGWkIfCnSwVLhCLlxAWVTBxX9yOw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/a0935e38aba5b881bea9d528.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/ebRGA1w5Bn1Y2sYvnQCKDbptRi6O7gAQ7As663z6_xrS36fKufTh2Op-ThD_BE-vmlCJIOwdo-dYPSPweXbC0sT7Pc0zIOQ81Zf43vcJqCmj_AQUEwK67Lpbgavb0zdiab7COtPtWcRM9NSzK5bw71zR27tbXTBAd5OpdVtlOfyO9Mua73lq0p4MQtGQeN8IE_-zutuh02x-1fGw6wahweTixB2M0fnlbNNOlOuOeeZNseppxE54cFcVKAiYCRp1ECU9M4o16Gn_S-oNGnTCLVW8G2Hs9o4Lkauel2mnZ4HIMYiV9mxwPf4yeHnv9j8EpOswAO5QnQVkTOBIZcxldQ.jpg",
+          "thumbnail_path": "channels/ircfspace/media/ec22325e6db739fdc96fc488.jpg",
           "thumbnail_sha256": "d766657ee938d615633af1050301c68b38a2ba67db3ad4b9e40b64aa50df26ec",
           "duration_label": null,
           "aspect_ratio": 1.9607843137254901
@@ -610,7 +675,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "247"
+          "count": "252"
         },
         {
           "emoji": "👍",
@@ -629,7 +694,7 @@
           "count": "2"
         }
       ],
-      "views_label": "18.1K",
+      "views_label": "21.2K",
       "posted_at": "2026-11-08T04:12:49+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2705",
@@ -638,8 +703,8 @@
     {
       "id": "ircfspace/2704",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "پروکسی‌گشا یک اسکریپت رایگانه که با استفاده از سرویس ورکر کلودفلر، برای تلگرام WEB Proxy راه‌اندازی می‌کنه. این نوع پروکسی برخلاف MTProto، ترافیکش رو در قالب HTTPS معمولی منتقل می‌کنه و میتونه پشت سی‌دی‌ان کلودفلر فعالیت کنه؛ در نتیجه از نظر فیلترینگ، شبیه ترافیک عادی وب‌سایته و حتی اگه کسی آدرس پروکسی رو توی مرورگر باز کنه، یه سایت اینترنتی معمولی می‌بینه! <br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9189.png')\"><b>👉</b></i> <a href=\"http://github.com/amirmarandidev/proxygosha\" target=\"_blank\" rel=\"noopener\">github.com/amirmarandidev/proxygosha</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "پروکسی‌گشا یک اسکریپت رایگانه که با استفاده از سرویس ورکر کلودفلر، برای تلگرام WEB Proxy راه‌اندازی می‌کنه. این نوع پروکسی برخلاف MTProto، ترافیکش رو در قالب HTTPS معمولی منتقل می‌کنه و میتونه پشت سی‌دی‌ان کلودفلر فعالیت کنه؛ در نتیجه از نظر فیلترینگ، شبیه ترافیک عادی وب‌سایته و حتی اگه کسی آدرس پروکسی رو توی مرورگر باز کنه، یه سایت اینترنتی معمولی می‌بینه!\n\n👉 github.com/amirmarandidev/proxygosha\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -649,8 +714,8 @@
           "asset_url": "https://t.me/ircfspace/2704",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/p0Umudtp27I2NFls7wy8ibo1XfGKh9gaBrAjQQ9w4BvsVqLx6o6gapMurfT8f7LigwrZh9uwIhFTYipZZHL7kC5Sc-SpuZW5oEU-iO-yqAOnFxNtbgb7iTn5kKa2z5ywlBQZHE1vGpBuVfLvR6cuOdLGIUypz9gg-iE9dyafUNXC3p0fcou1YSyh5ewjTQKTJMcXadtcnSgSldUEa-Y-uOXWiTw9WEi0WXu3k7cm3H6MkhXecy-IBJVgtEkww6cA7Gh4KT8nswgRefO3p0bl2OuPnAMUhen3iiGDyYACVUtT6Wmz125jZ1bh-5-QOWz0T6edFd8Zr1bPPFzHmtJ2Wg.jpg",
-          "thumbnail_path": "channels/ircfspace/media/641ce2e22c03ec6e78fdd365.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/vCI_jFbiclV9zbo998FWmpvIzYHAozlSzX0JWw2ahUI7pQ2IY-PLQlLi-VM4eCBa0jv551w_g3EnS6PyMP5Cb4p50VHirFMOOhgOkptOilGV0e_zwfZMQFoNlnhCOYCUIvLnVypiygMgqPJ-4fvSnkb3PRVIAy9xXJLrkr3tqqV4mW5TxOlSFawDn3DqTw-50jFRpQwDtEQiG64lX9hXBFg4ZXIcSAOdfuEeLb3SRkWRqwZnYvw94gbmU9ioICciquRbVV3faOlchVSbiwkHUeRihECJ_fzx5ca19WMWzyG1Rhdyo7nC_j2nq1D1LCaWrbxuz7QXj818QYIjhWjp9w.jpg",
+          "thumbnail_path": "channels/ircfspace/media/dd5252e135feb53b9ce6853f.jpg",
           "thumbnail_sha256": "734f9a1032958663b12e815c4ccc8bbc1a79df02803735434d5a2e13d34a8e8d",
           "duration_label": null,
           "aspect_ratio": 1.3333333333333333
@@ -663,7 +728,7 @@
         },
         {
           "emoji": "❤",
-          "count": "235"
+          "count": "237"
         },
         {
           "emoji": "👍",
@@ -698,7 +763,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.3K",
+      "views_label": "23.9K",
       "posted_at": "2026-11-05T16:19:53+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2704",
@@ -707,8 +772,8 @@
     {
       "id": "ircfspace/2703",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "بعد از حذف اپلیکیشن همسریابی \"آدم و حوا\" از گوگل‌پلی و پاک شدن صفحات تبلیغاتی اون از پلتفرم‌های متا بدلیل معرفی دختران ۱۳ ساله به‌عنوان گزینه ازدواج، یکی از مدیران وزارت ورزش از این موضوع دفاع کرده و گفته طبق قوانین جمهوری اسلامی، ازدواج دختران از ۱۳ سالگی با رضایت خانواده قانونیه و فعلاً مبنای مشخصی برای برخورد با این سامانه وجود نداره؛ با این حال به مراکز همسان‌گزینی توصیه کرده حداقل سن پذیرش دختران رو به بالای ۱۵ سال افزایش بدن! /هرانا<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "بعد از حذف اپلیکیشن همسریابی \"آدم و حوا\" از گوگل‌پلی و پاک شدن صفحات تبلیغاتی اون از پلتفرم‌های متا بدلیل معرفی دختران ۱۳ ساله به‌عنوان گزینه ازدواج، یکی از مدیران وزارت ورزش از این موضوع دفاع کرده و گفته طبق قوانین جمهوری اسلامی، ازدواج دختران از ۱۳ سالگی با رضایت خانواده قانونیه و فعلاً مبنای مشخصی برای برخورد با این سامانه وجود نداره؛ با این حال به مراکز همسان‌گزینی توصیه کرده حداقل سن پذیرش دختران رو به بالای ۱۵ سال افزایش بدن! /هرانا\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -718,8 +783,8 @@
           "asset_url": "https://t.me/ircfspace/2703",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/JUhxu1sOOnLv_CC1LImoJoyWB0LNzLp6bA2Yf1yyKyEJEJanoBZl1S7Z5-tkPwL4pCXN9fVU-2YcaNXzx3aZLaUZGVULU1CDN52KfdZzgzqU4N-XVvaR4PKgJIEuwEdo0CDsSJWqvwgINB70GlThLQlkFBH8k3pUHv3n29bzn26aIpq_aHeMO2Cj8d_EdfeNkWPT7yCGCFuJKkTXiLB2hWJP09h6Wn5gW31V28_8Tr_Sl8o5lDxbLUUxLsoBk_77PMH7upKC3WsLPcNja9fiHpJeDM10oAcgpV90J-vAth0j40RtbgDKKx1b0E6KBxufYV3UzR00tbB6qqwHpz44Nw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/18743f6797bf52778eb97151.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/LF2Ez9AdXIP6C_Nx_Tv5wP723Iu6lYfTP5xao5zM1UiNCUa-4Q-iO_DjHXDmiT8dZW6TApsWWuVpJtrtjUNG3-75RPBsGt-8CtwYZLACB5WlFG9YXAOdrZfq7h1odamiywFN0Hiq-EG-9wNCmnkSmV6SZy7Bxz7CnI06xUxFS5Ya5akxNUyKcatFfO9MtX3zOhQ4M3DFWauJpN6DT4lIYcpVuei3VCe-3eH19-V60HOnxnfM-yPLwM1B246-CUg7pcB7t5HJXxejrgBT7Qz178KGUIk082BGeWPXI_H7Ew1Nwn_3tia7OcOO0srHk-yraZ6Uib1QL6u2m7iPWLM75g.jpg",
+          "thumbnail_path": "channels/ircfspace/media/d7f22dd8436a682574f73620.jpg",
           "thumbnail_sha256": "4f7fe97ee4c082019af8d575bb887edbbf40c41ec13ac1992be78ae27b7c30db",
           "duration_label": null,
           "aspect_ratio": 1.2059553349876
@@ -728,15 +793,15 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "608"
+          "count": "611"
         },
         {
           "emoji": "😐",
-          "count": "41"
+          "count": "42"
         },
         {
           "emoji": "🤡",
-          "count": "30"
+          "count": "31"
         },
         {
           "emoji": "❤",
@@ -763,7 +828,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25K",
+      "views_label": "25.7K",
       "posted_at": "2026-11-05T16:13:18+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2703",
@@ -772,8 +837,8 @@
     {
       "id": "ircfspace/2702",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "بررسی امنیتی تیم پس‌کوچه روی فیلترشکن MiuMiu VPN که تاکنون بیش از ۵۰۰ هزار بار از گوگل‌پلی دانلود شده، نشون داده که این برنامه با وجود اتصال VPN، ممکنه درخواست‌های DNS بعضی اپلیکیشن‌هارو خارج از تانل و بصورت رمزنگاری‌نشده ارسال کنه؛ و حتی قابلیت Lockdown اندروید هم جلوی این نشت اطلاعات رو نمی‌گیره.<br>همینطور در جریان آزمایش‌ها مشخص شده که میشه ارتباط برنامه با سرورش رو دستکاری کرد و پاسخ تنظیمات جعلی رو به برنامه تحمیل کرد؛ موضوعی که می‌تونه زمینه هدایت کاربر به سرورهای مخرب رو فراهم کنه. نکته نگران‌کننده‌تر اینکه برخلاف ادعای جمع‌آوری‌نکردن اطلاعات، برنامه داده‌هایی مثل شناسه دستگاه، مدل گوشی و اطلاعات فنی اون رو به سرور خودش ارسال می‌کنه.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "بررسی امنیتی تیم پس‌کوچه روی فیلترشکن MiuMiu VPN که تاکنون بیش از ۵۰۰ هزار بار از گوگل‌پلی دانلود شده، نشون داده که این برنامه با وجود اتصال VPN، ممکنه درخواست‌های DNS بعضی اپلیکیشن‌هارو خارج از تانل و بصورت رمزنگاری‌نشده ارسال کنه؛ و حتی قابلیت Lockdown اندروید هم جلوی این نشت اطلاعات رو نمی‌گیره.\nهمینطور در جریان آزمایش‌ها مشخص شده که میشه ارتباط برنامه با سرورش رو دستکاری کرد و پاسخ تنظیمات جعلی رو به برنامه تحمیل کرد؛ موضوعی که می‌تونه زمینه هدایت کاربر به سرورهای مخرب رو فراهم کنه. نکته نگران‌کننده‌تر اینکه برخلاف ادعای جمع‌آوری‌نکردن اطلاعات، برنامه داده‌هایی مثل شناسه دستگاه، مدل گوشی و اطلاعات فنی اون رو به سرور خودش ارسال می‌کنه.\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -783,8 +848,8 @@
           "asset_url": "https://t.me/ircfspace/2702",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/AswgADEMXBIsdfexsKJr3K2GPeMUsPsd7OdU6iLd9UnJrhwRMVpL-yktJUPUPfCWC5vEZNHd9raUZ-tQrDLH55kaRvae-FOlmIw_PlefGqCK2FXR5JhXoGLyZN0oIpFiB6rVEWDwMghcFm8h0hEmftauq7raBcpOSR37-uexRxToYuuBtq9jOJ9fUtlsLY08fAmJBry00XXGOGOxu5wJKjh9m0sFKrsy6ku7q_WxEShSeS0nQ8f2U-MUJX9E_v2eCQWvnrNI7h9yV43GYZYLZ_MExLxEG6d3idZYjrXCo0D7v-5UZY6WqB_vzDmOX3eiGiE3Pwvl6-Pe-Re61N6rqw.jpg",
-          "thumbnail_path": "channels/ircfspace/media/8cd34fcd6d597d8ebceb1a72.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/RUSr0Uev2lnTbdYopxUVnWyr3JAJGJZ004vhp9AlO2F98tW1VpNdxHNPGQ9NQ0tCbe4x0hCqKoiG71SWet0WvceILug9YSnm23mIxmbdfYvRK_Q88RYzY9s7Okj5OxmRJgisja3NkOXSheRMEkMKBUIMu1llr9rt2GzUpNUIU3w-fmuXkCTx9PZ495AuxTqnLBgWOObiiMf5VprhcYnkgjG-Dge7e9HNoKfHSBzVl_t57VIAksNeMWOAxTRUYOUsu1GxRHZabn-vsPKBRJNtQHNnzyZRvI-jHzKqY56m96PB4yr-BRYrV5oPgoO-cOSpa2w4ngY6WyDkTnTCt1tLWA.jpg",
+          "thumbnail_path": "channels/ircfspace/media/63422b4b3fb6cd5dd5032e96.jpg",
           "thumbnail_sha256": "ff79fb779dd8d85b807923a2f8665421756f5bf3546607cb2936fc695ac50b6b",
           "duration_label": null,
           "aspect_ratio": 1.415929203539823
@@ -793,7 +858,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "172"
+          "count": "173"
         },
         {
           "emoji": "❤",
@@ -820,7 +885,7 @@
           "count": "2"
         }
       ],
-      "views_label": "25.3K",
+      "views_label": "25.9K",
       "posted_at": "2026-11-05T06:13:25+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2702",
@@ -829,8 +894,8 @@
     {
       "id": "ircfspace/2701",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "کدهای کشف‌شده در جدیدترین نسخه اندروید یوتیوب نشون میدن گوگل در حال آزمایش یه پلتفرم اجتماعی جدید به اسم Tamba هست که می‌تونه رقیبی برای اینستاگرام باشه. <br>این سرویس قراره قابلیت‌هایی مثل فالو کردن کاربران، انتشار پست، ارسال دایرکت و چت گروهی داشته باشه و حتی امکان اشتراک‌گذاری و تماشای ویدیوهای Shorts رو فراهم کنه. <br>البته هنوز مشخص نیست Tamba بصورت یه اپلیکیشن مستقل منتشر می‌شه، یا صرفاً بستری برای آزمایش قابلیت‌های اجتماعی جدیده.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> androidauthority<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "کدهای کشف‌شده در جدیدترین نسخه اندروید یوتیوب نشون میدن گوگل در حال آزمایش یه پلتفرم اجتماعی جدید به اسم Tamba هست که می‌تونه رقیبی برای اینستاگرام باشه.\nاین سرویس قراره قابلیت‌هایی مثل فالو کردن کاربران، انتشار پست، ارسال دایرکت و چت گروهی داشته باشه و حتی امکان اشتراک‌گذاری و تماشای ویدیوهای Shorts رو فراهم کنه.\nالبته هنوز مشخص نیست Tamba بصورت یه اپلیکیشن مستقل منتشر می‌شه، یا صرفاً بستری برای آزمایش قابلیت‌های اجتماعی جدیده.\n\n© androidauthority\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -840,8 +905,8 @@
           "asset_url": "https://t.me/ircfspace/2701",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/YrpeGEfzQbMITNqT9aU4NebobcxoC4rNBV6aIxaHK-ziNxJRLZsnhL_539KuYgFQX7qBE7Pl6i2Te3m_I8EJ5Q79H7XLv3i5lFDXQetunlUIPvUmbDc1nVPw0-zvjwOUFppN2GSREWoJwMeVFaFRgnyk4RytOl2bfrVZKncP0FVfnSzM7dxDr1LOWHrrALWnh9ZGLPbm1F6NwBV5BoNIGI9ONVEjSGBc8t5bvKjbU8r4ri1K9BCUzelCI__w2plwl5tjDfiLuXscc7A6WRoR4zYtL0Bd30BJN5qjXzQSYEGfabcXdhSdalR1HVb_kIb_U_zzyb-0JizY2HwdfXFT3A.jpg",
-          "thumbnail_path": "channels/ircfspace/media/0b8490c70ad53c6b2a765b1a.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/PXoXs7tMnZy4Y027GdzS4U84CDxTQkT5DC9tsPrbZjzlPKKEbFplcWSjKNBGLgtLVqWLNp92CgJIqGt-t7EuB4fre2oRFMfxA6HulCesuxt3a48wPhP647xb5uOR3GgLMqRx_fNk3lkyMK9jiUN1H93PY4ysPEGNfxlq0bR23r1S3Bk5LRTs5OHS_Bq0uHWo4AUkdHyGIAEvJZueqKj6yr4cJ1SRPWqmr_46mG7QWJTCFeLr3_AlQhacaRZ4oKQqzCKCKXGl3hGj_yKYhn_oFkx52JQjC9MsWUOUkI8XyvaY9_ZNL6R8FKJDIT0BeT_uh8hFyrNgCQrMFwZASR4_-w.jpg",
+          "thumbnail_path": "channels/ircfspace/media/72333fe152d7aa73cd8dfb51.jpg",
           "thumbnail_sha256": "c04651864f6d2134d47365cf976a0d8632b3c7ec68e1485f6333e0a650dbf8f5",
           "duration_label": null,
           "aspect_ratio": 1.6985138004246285
@@ -850,7 +915,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "145"
+          "count": "147"
         },
         {
           "emoji": "🥴",
@@ -881,7 +946,7 @@
           "count": "2"
         }
       ],
-      "views_label": "22K",
+      "views_label": "22.4K",
       "posted_at": "2026-11-05T06:06:27+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2701",
@@ -890,8 +955,8 @@
     {
       "id": "ircfspace/2700",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "یه آسیب‌پذیری خطرناک به اسم SMS of Death در اندروید شناسایی شده که به مهاجم اجازه میده فقط با ارسال یه پیامک مخرب و بدون نیاز به باز کردن پیام توسط کاربر، تماس‌های گوشی رو قطع کنه و حتی در صورت تکرار حمله، دستگاه رو وارد چرخه ری‌استارت کنه.<br>این مشکل روی گوشی‌های پیکسل و سامسونگ گلکسی آزمایش شده و نمونه عملی حمله هم منتشر شده. گوگل این مشکل رو در آپدیت امنیتی اکتبر برای اندروید ۱۴ به بالا برطرف کرده، اما دستگاه‌های قدیمی‌تر مثل گوشی‌های مجهز به اندروید ۱۲ و ۱۳ ممکنه همچنان آسیب‌پذیر باشن.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> bleepingcomputer<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "یه آسیب‌پذیری خطرناک به اسم SMS of Death در اندروید شناسایی شده که به مهاجم اجازه میده فقط با ارسال یه پیامک مخرب و بدون نیاز به باز کردن پیام توسط کاربر، تماس‌های گوشی رو قطع کنه و حتی در صورت تکرار حمله، دستگاه رو وارد چرخه ری‌استارت کنه.\nاین مشکل روی گوشی‌های پیکسل و سامسونگ گلکسی آزمایش شده و نمونه عملی حمله هم منتشر شده. گوگل این مشکل رو در آپدیت امنیتی اکتبر برای اندروید ۱۴ به بالا برطرف کرده، اما دستگاه‌های قدیمی‌تر مثل گوشی‌های مجهز به اندروید ۱۲ و ۱۳ ممکنه همچنان آسیب‌پذیر باشن.\n\n© bleepingcomputer\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -901,8 +966,8 @@
           "asset_url": "https://t.me/ircfspace/2700",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Udn0lqleeGmRXVMBK8BJHJp8z4kssWx1-gr4ofwCLZBjIzDRMUNRvAlhxUps99TOqSJcHzloR_U7xa9gTX9qATKg-YGsjz73FWjNXCqjmIwUtGPkh9uTsm9hLR_i0VYqPLB7s_bRRrcHD_MM4-wk7p7Gv3oKD1ut057n9SkYX8zCIA4px-0cgzuOQS8n3FedOgzb3MQc-KnpHEqdRtSwUm1-702x5l_5TtfOKpM75lO9TAXlNlbha7dWDInTc2v5OjifEUR5hblAr_BAsYTRowwLSTJfHpQwICGKVg47C7FQvTijdy-NVgAHGUZJCmbORSUgyI_sgEJVN2oiU-Vvog.jpg",
-          "thumbnail_path": "channels/ircfspace/media/d49ac5d32b18bf3a20114866.jpg",
+          "thumbnail_url": "https://cdn1.telesco.pe/file/lAUs5egxKS9KS1GjIcX6Ddyd8ul3sbpOAvtnT2ox1gEy-yLD57A_aI8G6OmVtZPHofC3djIVT1xfXOB6EePrOk4FHWamu7ExYzNmmui9GNaDh19wENFkACn0QB2Pbm2WxJrJSyPTiAWgcLaiiOf9_neUpSY68-9mDJDpUpdfXzxPG8IR6OG6qcXLEDYHdwXrDHvFxaougFVuXsTYnED1jXSCFo3itzpkfyWjV97atKfbKEFa1ojIEF2rNkfm99tBTpMKmnLWGPFOahzFiIm9u-jlNnfIzzTQMWJHNcscvU0VfFI-WnUHl3_ikFCycOMfcww-kdBxzYuIOYDlL2vzoA.jpg",
+          "thumbnail_path": "channels/ircfspace/media/030bdffa81aa471c9c3f72fa.jpg",
           "thumbnail_sha256": "5fd735fb45f602d05077f698582da3603a68add62ac5525777a55dc8e0b2415c",
           "duration_label": null,
           "aspect_ratio": 1.7777777777777777
@@ -950,7 +1015,7 @@
           "count": "2"
         }
       ],
-      "views_label": "34.1K",
+      "views_label": "34.7K",
       "posted_at": "2026-11-02T06:30:08+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2700",
@@ -959,8 +1024,8 @@
     {
       "id": "ircfspace/2699",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "به گفته معاون گردشگری استان تهران، تا الان نزدیک به ۸۰۰ صفحه اینستاگرامی مربوط به تورهای گردشگری فاقد مجوز شناسایی و اطلاعاتشون برای پیگیری قضایی ارسال شده! این موضوع در پی دستور اخیر دادستان تهران برای مسدودسازی این صفحات مطرح شده. /زومیت<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "به گفته معاون گردشگری استان تهران، تا الان نزدیک به ۸۰۰ صفحه اینستاگرامی مربوط به تورهای گردشگری فاقد مجوز شناسایی و اطلاعاتشون برای پیگیری قضایی ارسال شده! این موضوع در پی دستور اخیر دادستان تهران برای مسدودسازی این صفحات مطرح شده. /زومیت\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -968,7 +1033,7 @@
       "reactions": [
         {
           "emoji": "🤬",
-          "count": "241"
+          "count": "242"
         },
         {
           "emoji": "👍",
@@ -991,7 +1056,7 @@
           "count": "2"
         }
       ],
-      "views_label": "30.1K",
+      "views_label": "30.8K",
       "posted_at": "2026-11-02T06:27:06+00:00",
       "edited": false,
       "permalink": "https://t.me/ircfspace/2699",
@@ -1000,8 +1065,8 @@
     {
       "id": "ircfspace/2698",
       "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/scTUDzH3TxfxlnMWzZRkeWiz-MKSQDNeOnFXREBlkyVjiGNT3nqqjQhyo3zHT39Nftxo-oRmYQYyDwI5RJZZmF08J0QAx4TxDNRaviDCa1z2eyHLPN36rFgN9OQBqHwQ6xNFfvn0KIHzrOn30cxZlpg9ahGcKpM8oOrCXk6OIvJtgLFVfNbCU-DFfKSc38USq7BJqUHQrEpjZ96B3EhTX44LumFgL8UHcIRo449gN7ke6lIOqPZ16ny1ElLy-ibXi9_cRJYOuUQdF6Hf6wthr9NKUKVcPgtclWxonUVDiE55s9NxyWdMwyjcBpIis1wsYiM9OlwxOdErMJeZ9yItnw.jpg",
-      "author_photo_path": "channels/ircfspace/media/0de62db5ee532904a4aad0ff.jpg",
+      "author_photo_url": "https://cdn1.telesco.pe/file/L8L5k4kbkcn4dgVwh9GGBW1t2D1dExfMfGT0FW1sTQlg8TNAZ3fe3izDPRqjx9r6LEYrz0xLPxPZ_Fhcpxj9EbJoR4sYdDb8HUxzd0eulQ9m0CDtjwxDeaDoh2e394W2G_Bu7kI74AY3A_19hfdbj9NTtrc4OWdp3ubShkW4dIvYoNfrK_vPtm2lKYkfMWjTt_2zyQYFGknoyRo3KdB2XbLUfIG7O1w7hn2XOmtr2wUzpTTXTMvjR-BArXMTFcYr-xcbhDffjIfRjGJ6g-FEgy4_uP9WVW1G77LB-BqahQ2_2-zUZYZCVX-ibKZXZInTJN2sV-uyje0St6ezzUFIsA.jpg",
+      "author_photo_path": "channels/ircfspace/media/0c51a511d79c5390f1bdf7ba.jpg",
       "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
       "body_html": "فیلترینگ، تورم چندرقمی، تحریم، آلودگی هوا، نابودی محیط‌زیست، جنگ و ناترازی دائمی برق، گاز، آب و سوخت و ...<br>مردم دنیا شاید یکی‌دو مورد از این مصائب را دیده یا شنیده باشند؛ اما بر سر ملت ما همه را یکجا آوار کرده‌اند<br>در هیچ جای تاریخ، زندگی انسان‌ها اینگونه هزینه مُشتی شعار واهی نشد!<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> mohammadparsi1<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
       "plain_text": "فیلترینگ، تورم چندرقمی، تحریم، آلودگی هوا، نابودی محیط‌زیست، جنگ و ناترازی دائمی برق، گاز، آب و سوخت و ...\nمردم دنیا شاید یکی‌دو مورد از این مصائب را دیده یا شنیده باشند؛ اما بر سر ملت ما همه را یکجا آوار کرده‌اند\nدر هیچ جای تاریخ، زندگی انسان‌ها اینگونه هزینه مُشتی شعار واهی نشد!\n\n© mohammadparsi1\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
@@ -1009,7 +1074,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "453"
+          "count": "455"
         },
         {
           "emoji": "🤬",
@@ -1048,7 +1113,7 @@
           "count": "2"
         }
       ],
-      "views_label": "33.5K",
+      "views_label": "34.5K",
       "posted_at": "2026-11-02T06:23:06+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2698",
@@ -5796,63 +5861,6 @@
       "posted_at": "2026-09-22T04:31:13+00:00",
       "edited": true,
       "permalink": "https://t.me/ircfspace/2614",
-      "reply": null
-    },
-    {
-      "id": "ircfspace/2613",
-      "author_name": "IRCF | اینترنت آزاد برای همه",
-      "author_photo_url": "https://cdn1.telesco.pe/file/m0BZc26qeUYlrUM5n8nucJTHTbIw760_SbD_9Z-EHcF-Ey3l1RuVtXRTI_cy7Gvp4F4UVQwjTkpJUJqVj0FXSSBv1k2yldyGsFyoFIX6azoMQqg4IgAmcaI94b8l-ypG0wDO7NaIo1GmsX8W5FmCJVwZZuYoMESPxchyPrjngbZqUS051l5WWkZ1SXw38XJC3hN02FYOXv3nuZ2CmrJgBXlreiqLU59l4GL_1_NV2SQXTVGWAj2sR1VgIZBmxLRcHrCktGx1oScu2G3B_77LA6hPQkTqFyMXSb4zo0JqD7_27YBSqqYjVv0N3bUy1DB_5NIXyazK_N-w9L-CHr79Og.jpg",
-      "author_photo_path": "channels/ircfspace/media/c488cf54d0581912583ea46f.jpg",
-      "author_photo_sha256": "158f2dc02d1e6a05c082153b128dee184884a3f1159a3f635b1a111432f7eabc",
-      "body_html": "بانک مرکزی نصب «گواهی ریشه داخلی» روی دستگاه مشتریان را یکی از راه‌های ادامه خدمات بانکی مطرح کرده است!<br>اما مسئله فقط رفع هشدار اینترنت‌بانک نیست؛ اگر این اعتماد در سطح کل دستگاه ایجاد شود، می‌تواند فراتر از سایت بانک اثر بگذارد و در شرایط مشخص، زمینه رهگیری ارتباطات رمزگذاری‌شده را فراهم کند.<br><br>مرورگر زمانی گواهی یک سایت را معتبر می‌داند که زنجیره آن به یک مرجع ریشه مورد اعتماد برسد. اگر کاربر یک ریشه داخلی را به سیستم‌عامل اضافه کند، دستگاه ممکن است گواهی‌های دیگری را هم که همان مرجع صادر کرده معتبر بشناسد.<br>خطر زمانی ایجاد می‌شود که آن مرجع برای یک سایت گواهی جعلی صادر کند و مهاجم نیز بتواند در مسیر ترافیک قرار بگیرد. در چنین شرایطی، مرورگر می‌تواند بدون هشدار معمول به واسطه اعتماد کند و حمله «مرد میانی» امکان رمزگشایی ارتباط را فراهم کند.<br><br>نصب گواهی ریشه به‌تنهایی به معنای شنود نیست؛ مسئله اصلی دامنه اختیاری است که به آن مرجع داده می‌شود.<br>البته راه کم‌خطرتر وجود دارد؛ اپ بانک می‌تواند فقط برای سرویس‌ها و دامنه‌های خودش به یک مرجع داخلی اعتماد کند، بدون تغییر فهرست اعتماد کل دستگاه.<br>پرسش اصلی طرح بانک مرکزی همین است: برای حل اختلال خدمات بانکی، چرا باید اعتماد یک مرجع تازه احتمالا به ارتباطات خارج از بانک هم گسترش پیدا کند؟<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/C2A9.png')\"><b>©</b></i> raaznet<br><br><a href=\"https://raaznet.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpvust6na%2Fproduction%2F4b3c19f32c223e56129d4f88bced9f305a36e560-1672x941.jpg%3Fw%3D1200%26auto%3Dformat%26q%3D80&amp;amp;w=1920&amp;amp;q=75\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></a> <a href=\"https://ircf.space/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴡᴇʙꜱɪᴛᴇ</a> • <a href=\"https://t.me/persianvpnhub\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ᴠᴘɴʜᴜʙ</a> • <a href=\"https://t.me/PersianGithubMirror\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ</a><br><a href=\"https://t.me/ircfspace\" target=\"_blank\">@ircfspace</a>",
-      "plain_text": "بانک مرکزی نصب «گواهی ریشه داخلی» روی دستگاه مشتریان را یکی از راه‌های ادامه خدمات بانکی مطرح کرده است!\nاما مسئله فقط رفع هشدار اینترنت‌بانک نیست؛ اگر این اعتماد در سطح کل دستگاه ایجاد شود، می‌تواند فراتر از سایت بانک اثر بگذارد و در شرایط مشخص، زمینه رهگیری ارتباطات رمزگذاری‌شده را فراهم کند.\n\nمرورگر زمانی گواهی یک سایت را معتبر می‌داند که زنجیره آن به یک مرجع ریشه مورد اعتماد برسد. اگر کاربر یک ریشه داخلی را به سیستم‌عامل اضافه کند، دستگاه ممکن است گواهی‌های دیگری را هم که همان مرجع صادر کرده معتبر بشناسد.\nخطر زمانی ایجاد می‌شود که آن مرجع برای یک سایت گواهی جعلی صادر کند و مهاجم نیز بتواند در مسیر ترافیک قرار بگیرد. در چنین شرایطی، مرورگر می‌تواند بدون هشدار معمول به واسطه اعتماد کند و حمله «مرد میانی» امکان رمزگشایی ارتباط را فراهم کند.\n\nنصب گواهی ریشه به‌تنهایی به معنای شنود نیست؛ مسئله اصلی دامنه اختیاری است که به آن مرجع داده می‌شود.\nالبته راه کم‌خطرتر وجود دارد؛ اپ بانک می‌تواند فقط برای سرویس‌ها و دامنه‌های خودش به یک مرجع داخلی اعتماد کند، بدون تغییر فهرست اعتماد کل دستگاه.\nپرسش اصلی طرح بانک مرکزی همین است: برای حل اختلال خدمات بانکی، چرا باید اعتماد یک مرجع تازه احتمالا به ارتباطات خارج از بانک هم گسترش پیدا کند؟\n\n© raaznet\n\n🔗 ᴡᴇʙꜱɪᴛᴇ • ᴠᴘɴʜᴜʙ • ɢɪᴛʜᴜʙᴍɪʀʀᴏʀ\n@ircfspace",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "👍",
-          "count": "173"
-        },
-        {
-          "emoji": "🥴",
-          "count": "23"
-        },
-        {
-          "emoji": "😐",
-          "count": "18"
-        },
-        {
-          "emoji": "🤬",
-          "count": "15"
-        },
-        {
-          "emoji": "❤",
-          "count": "13"
-        },
-        {
-          "emoji": "😁",
-          "count": "2"
-        },
-        {
-          "emoji": "😢",
-          "count": "2"
-        },
-        {
-          "emoji": "👏",
-          "count": "1"
-        },
-        {
-          "emoji": "🤡",
-          "count": "1"
-        }
-      ],
-      "views_label": "28.4K",
-      "posted_at": "2026-09-22T04:22:57+00:00",
-      "edited": true,
-      "permalink": "https://t.me/ircfspace/2613",
       "reply": null
     }
   ]

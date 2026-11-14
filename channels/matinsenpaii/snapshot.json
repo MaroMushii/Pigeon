@@ -1,16 +1,690 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-13T15:22:52.437Z",
+  "fetched_at": "2026-11-14T15:27:09.766Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
     "description_html": "متین هستم و کامپیوتر رو دوست دارم! در حال یادگیری هستم و چیزهایی که یاد میگیرم رو سعی میکنم به شما هم یاد بدم اگر به دردتون بخوره=)<br><br>ارتباط با من: <a href=\"https://linktr.ee/matinsenpai\" target=\"_blank\" rel=\"noopener\">https://linktr.ee/matinsenpai</a>",
-    "photo_url": "https://cdn1.telesco.pe/file/GuGGxY6pO0f407n8l3FCF85XGhgyhEf5NtVOURQRrgfjIbJ59VHYEP3oAbW88pZ-RNyjcgV7X8kvEO9eCfNeXdTNeXfgWXjwyF0auyVJpAa9GyXcSM57NU7luuFTyfqbkwAmzih-lmVYwwDBTVuTc9lCprH5JKc6qBRZzu9RTxeAKtfnfpIfpBOiwFyfjHGvps4fA6PtXHEcrf6-ArAc0QYtUidbHezUs3eBzPRtOSkNmhBuBJxocuLxwkN1fqunEfw9yai0TXM_EQU5IafAQ6JoCrycbZ9TkXLaMpQFP7PaI1_fJVvldAdwtx0rZWvfmSHuwxujHkK_9ZYLKA8jGQ.jpg",
-    "photo_path": "channels/matinsenpaii/media/73deaa82ea7cbe0f73d53c5c.jpg",
+    "photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+    "photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
     "photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
     "subscriber_count": "155K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5874",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>یه باگ ۲۲ ساله توی PostgreSQL پیدا شده که به RCE می‌رسه</b><br><br>محمت اینجه توی قسمت سوم سری «ریسک‌های سیستمیک PostgreSQL مدیریت‌شده» می‌گه یه باگ قدیمی از نوع type confusion پیدا کرده که ۲۲ سال توی هسته PostgreSQL بوده و به اجرای کد از راه دور (CVE-2026-6460) می‌رسه. طرز کارش این شکلیه که یه مقدار رو داخل یه composite type می‌ذاری، نوع یکی از فیلدهاش رو عوض می‌کنی و بعد از دیتابیس می‌خوای همون مقدار رو بخونه؛ دیتابیس هم چون نوع داده رو فقط از روی برچسبش می‌فهمه، بایت‌ها رو اشتباه تفسیر می‌کنه. خودش می‌گه این آسیب‌پذیری رو با کمک یه ایجنت کلاد که نقش معلم رو داشته، قدم‌به‌قدم یاد گرفته و کشف کرده. این ماجرا یه بار دیگه نشون می‌ده اعتماد کورکورانه به تگ دیتاتایپ چقدر می‌تونه خطرناک باشه.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "یه باگ ۲۲ ساله توی PostgreSQL پیدا شده که به RCE می‌رسه\n\nمحمت اینجه توی قسمت سوم سری «ریسک‌های سیستمیک PostgreSQL مدیریت‌شده» می‌گه یه باگ قدیمی از نوع type confusion پیدا کرده که ۲۲ سال توی هسته PostgreSQL بوده و به اجرای کد از راه دور (CVE-2026-6460) می‌رسه. طرز کارش این شکلیه که یه مقدار رو داخل یه composite type می‌ذاری، نوع یکی از فیلدهاش رو عوض می‌کنی و بعد از دیتابیس می‌خوای همون مقدار رو بخونه؛ دیتابیس هم چون نوع داده رو فقط از روی برچسبش می‌فهمه، بایت‌ها رو اشتباه تفسیر می‌کنه. خودش می‌گه این آسیب‌پذیری رو با کمک یه ایجنت کلاد که نقش معلم رو داشته، قدم‌به‌قدم یاد گرفته و کشف کرده. این ماجرا یه بار دیگه نشون می‌ده اعتماد کورکورانه به تگ دیتاتایپ چقدر می‌تونه خطرناک باشه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5874",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/KdUnsjeCYLkp9Up3qKsI21Qfw1EUEJMtbNDu-KXdtOmXu3IIJiaGGEvvlnYE8T5f72uN1ByUupp40vcnYL6m2GvW-1fjd28sAcECvGizlFyohVVVs9EpukS1RZWAjfFLZgNWA1hP8OMS6i01jG0MAWp_bQr87bzzSuGLW-h058RLEOmeNOFI_v44Bp9Gs9E-957WxW5zj2WF8NDyO7CECQ7D8xsHCauh8em6GLa2yS6J4kNWJrdgoIuBgS8wVn-JVfGllhgQpGlKbCiN8vrwEUnLz9B3Zxvq_xt-YsaHHYct-jhXrERUmXPFFy6NsRQCWGRjKUwUc0Tt4TyiZ-0qFA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/6a6b209b08efc54a416e9552.jpg",
+          "thumbnail_sha256": "0305d3fd0c7b0d1c68303dd9f62b708c268a7b5183265aa9e555a9567ea8e1fb",
+          "duration_label": null,
+          "aspect_ratio": 1.5009380863039399
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "93"
+        },
+        {
+          "emoji": "👍",
+          "count": "10"
+        },
+        {
+          "emoji": "🦄",
+          "count": "4"
+        },
+        {
+          "emoji": "😁",
+          "count": "1"
+        }
+      ],
+      "views_label": "12.7K",
+      "posted_at": "2026-11-14T11:34:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5874",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/5873",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<a href=\"https://ns1.rmft.tech/l2tp/sub\" target=\"_blank\" rel=\"noopener\">https://ns1.rmft.tech/l2tp/sub</a>",
+      "plain_text": "https://ns1.rmft.tech/l2tp/sub",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5873",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/IYdCEVjdLLgEyupyr8MrL-xBA8ooYHPHeODGdMLhmpqr86zNBtZe200ZizozW5MywSqMF5VwjTWRUUI8E4GKU4HNcRMuUcy2U5W9Vy7ew8fk00MrzkO9VKVyUO6xz3E_Crh4p3UG2Ufb2Gdkc6zhBWcf-476a3BhO8kW3EJdpDX1D3eQDAnzPPqQnMOZ59se4G3qjfCVH20G2rCUPy38vi-5mKLehiFezQy1Tb7A8mvDBuqyL-9zOYtC4fXoXg_WNSLvM3zTmJE1wXflIURG1jJpiL9qk4wY9zIFjP4sE_p10Vu7TltnhAcZbcS_bdNJRH0Bjdxt7jo9H8S8CaMk9g.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/52912f32effaaba1d9cef44a.jpg",
+          "thumbnail_sha256": "6df07da128b6b66a9f9e6df0031901f89c8429671ca09e6ff2bd81e3257f86bc",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "39"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "12.6K",
+      "posted_at": "2026-11-14T11:19:21+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5873",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "5872",
+        "author_name": "",
+        "preview_text": "‏آپدیت جدید CoreForge 🆕 ‏این نسخه چند تا چیز مهم آورده، بریم ببینیم 👇 ‏پروتکل‌های تازه 🔌 ‏• L2TP/IPsec با shared secret — همونی که تو VPN خود آیفون هست، از مسیر Add Server › Manual یا با لینک l2tp:// ‏• تنها استفاده کن یا به‌عنوان هاپ اول زنجیره ‏• پراکسی…",
+        "thumbnail_url": null,
+        "thumbnail_path": null,
+        "thumbnail_sha256": null,
+        "permalink": "https://t.me/matinsenpaii/5872"
+      }
+    },
+    {
+      "id": "MatinSenPaii/5872",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "‏آپدیت جدید CoreForge <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8695.png')\"><b>🆕</b></i><br><br>‏این نسخه چند تا چیز مهم آورده، بریم ببینیم <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br>‏پروتکل‌های تازه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948C.png')\"><b>🔌</b></i><br>‏• L2TP/IPsec با shared secret — همونی که تو VPN خود آیفون هست، از مسیر Add Server › Manual یا با لینک l2tp://<br>‏• تنها استفاده کن یا به‌عنوان هاپ اول زنجیره<br>‏• پراکسی HTTPS حالا یه پروتکل کامله، با بخش «Use TLS (HTTPS)» تو ادیتور و سرعت بیشتر<br>‏• فایل‌های OpenVPN خروجی sing-box با پسوند .bpf و سرویس‌هایی مثل KeepSolid هم وصل می‌شن<br>‏• دو تا لینک که مسنجر به هم چسبونده، درست جدا و ایمپورت می‌شن<br><br>‏سایفون <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')\"><b>🛡</b></i><br>‏• پروتکل جدید CDN Fronting تو Settings › Psiphon، با اسکنر داخلی که مسیر کارکننده رو روی شبکهٔ خودت پیدا می‌کنه<br>‏• سرورهای meek خیلی سریع‌تر شدن: ۵ تا ۱۷ مگابیت، اتصال تو ۴ تا ۹ ثانیه<br>‏• زنجیره با همهٔ پروتکل‌ها و هر دو ترتیب کار می‌کنه<br>‏• حالت «سایفون آخر» با هر کانفیگی، تقریباً هم‌سرعت سایفون تنها<br>‏• لیست سرورها خودش از تو تونل آپدیت می‌شه<br>‏• اگه کانفیگی از مسیر سایفون در دسترس نباشه، اپ می‌گه کدوم پورت و چیکار کنی — دیگه کانفیگ رو «خراب» علامت نمی‌زنه<br><br>‏صفحهٔ Configs <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9381.png')\"><b>📁</b></i><br>‏• علاقه‌مندی‌ها: از منوی ••• هر کانفیگ بزن Add to Favourites<br>‏• پوشه‌ها حالا یه کارت یکپارچه‌ن که نرم باز و بسته می‌شه<br>‏• اسکرول پوشه‌های بلند روون شده<br><br>‏لینک‌های نصب — TestFlight <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B2.png')\"><b>📲</b></i><br>‏• اپ CoreForge نسخهٔ iOS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8D8E.png')\"><b>🍎</b></i> — <a href=\"https://testflight.apple.com/join/vAaXH9Cv\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">نصب</a><br>‏• اپ ForgeCore نسخهٔ iOS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA1.png')\"><b>⚡</b></i> — <a href=\"https://testflight.apple.com/join/YqwS1qtj\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">نصب</a><br>‏• اپ CoreForge نسخهٔ macOS <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> — <a href=\"https://testflight.apple.com/join/Z4rvxEwk\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">نصب</a><br><br>‏<a href=\"https://t.me/coreforgeios\" target=\"_blank\">@coreforgeios</a>",
+      "plain_text": "‏آپدیت جدید CoreForge 🆕\n\n‏این نسخه چند تا چیز مهم آورده، بریم ببینیم 👇\n\n‏پروتکل‌های تازه 🔌\n‏• L2TP/IPsec با shared secret — همونی که تو VPN خود آیفون هست، از مسیر Add Server › Manual یا با لینک l2tp://\n‏• تنها استفاده کن یا به‌عنوان هاپ اول زنجیره\n‏• پراکسی HTTPS حالا یه پروتکل کامله، با بخش «Use TLS (HTTPS)» تو ادیتور و سرعت بیشتر\n‏• فایل‌های OpenVPN خروجی sing-box با پسوند .bpf و سرویس‌هایی مثل KeepSolid هم وصل می‌شن\n‏• دو تا لینک که مسنجر به هم چسبونده، درست جدا و ایمپورت می‌شن\n\n‏سایفون 🛡\n‏• پروتکل جدید CDN Fronting تو Settings › Psiphon، با اسکنر داخلی که مسیر کارکننده رو روی شبکهٔ خودت پیدا می‌کنه\n‏• سرورهای meek خیلی سریع‌تر شدن: ۵ تا ۱۷ مگابیت، اتصال تو ۴ تا ۹ ثانیه\n‏• زنجیره با همهٔ پروتکل‌ها و هر دو ترتیب کار می‌کنه\n‏• حالت «سایفون آخر» با هر کانفیگی، تقریباً هم‌سرعت سایفون تنها\n‏• لیست سرورها خودش از تو تونل آپدیت می‌شه\n‏• اگه کانفیگی از مسیر سایفون در دسترس نباشه، اپ می‌گه کدوم پورت و چیکار کنی — دیگه کانفیگ رو «خراب» علامت نمی‌زنه\n\n‏صفحهٔ Configs 📁\n‏• علاقه‌مندی‌ها: از منوی ••• هر کانفیگ بزن Add to Favourites\n‏• پوشه‌ها حالا یه کارت یکپارچه‌ن که نرم باز و بسته می‌شه\n‏• اسکرول پوشه‌های بلند روون شده\n\n‏لینک‌های نصب — TestFlight 📲\n‏• اپ CoreForge نسخهٔ iOS 🍎 — نصب\n‏• اپ ForgeCore نسخهٔ iOS ⚡ — نصب\n‏• اپ CoreForge نسخهٔ macOS 💻 — نصب\n\n‏@coreforgeios",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "31"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "11.8K",
+      "posted_at": "2026-11-14T11:19:20+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5872",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/5871",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>مدل DeepSeek V4.1 Flash اولین اوپن‌ویتی شد که توی بنچمارک SWE-sweep از ۱٪ رد شد</b><br><br>سازنده‌های بنچمارک SWE-sweep لیدربوردشون رو با مدل‌های اوپن‌ویت تازه کردن و DeepSeek V4.1 Flash با ۱٫۷٪ اولین مدلیه که از ۱٪ رد شده؛ خود این بنچمارک، بنچمارکیه که به مدل یه Repository بزرگ پر از باگ می‌ده، بدون اینکه بگه باگ‌ها کجان، و مدل باید خودش پیداشون کنه و درستشون کنه. همه مدل‌ها توی یه هارنس و زمان یکسان تست شدن و کد ارزیابی هم اوپن‌سورسه.<br>برای اینکه بهتر دستتون بیاد، Opus 5.5 نمره‌ی 3.6 و Astra 6 نمره‌ی 9.5 گرفته. قیمت‌هاشونم عجیب غریبه و در کل بنچمارک عجیبیه؛ اما دیپ‌سیک به نظرم خوب عمل کرده<br><br>نکته‌ی خنده‌دار اینه که گوگل ادعا کرده Gemini 4 Hydrogen نمره‌ی 13.5 گرفته<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9882.png')\"><b>😂</b></i><br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1xvcgxq/deepseek_flash_max_is_the_first_model_to_reach_1/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "مدل DeepSeek V4.1 Flash اولین اوپن‌ویتی شد که توی بنچمارک SWE-sweep از ۱٪ رد شد\n\nسازنده‌های بنچمارک SWE-sweep لیدربوردشون رو با مدل‌های اوپن‌ویت تازه کردن و DeepSeek V4.1 Flash با ۱٫۷٪ اولین مدلیه که از ۱٪ رد شده؛ خود این بنچمارک، بنچمارکیه که به مدل یه Repository بزرگ پر از باگ می‌ده، بدون اینکه بگه باگ‌ها کجان، و مدل باید خودش پیداشون کنه و درستشون کنه. همه مدل‌ها توی یه هارنس و زمان یکسان تست شدن و کد ارزیابی هم اوپن‌سورسه.\nبرای اینکه بهتر دستتون بیاد، Opus 5.5 نمره‌ی 3.6 و Astra 6 نمره‌ی 9.5 گرفته. قیمت‌هاشونم عجیب غریبه و در کل بنچمارک عجیبیه؛ اما دیپ‌سیک به نظرم خوب عمل کرده\n\nنکته‌ی خنده‌دار اینه که گوگل ادعا کرده Gemini 4 Hydrogen نمره‌ی 13.5 گرفته😂😂😂\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5871",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/aVg7e7NR-XXTngUizcPTL30MNxqLoIDcsWuj5F40J0dRbEH5jP88Rzj0k6wCJ2mrFCPfzekAwyiUsaXMZMTWoENJMsNDqlOUMjTdiTpLfk_bUdhE8JoqiHLbxewIxzLzNhfG-LfztcAhArwn8EVuZL4xYL8DRYc6GKsc8WWyW2DSrfdktsR7IxkBbLdDwDkiMEAZaS4cFXJBpGNJ57QUAm8O_EDMt6m5yGU9BdELzMv3RVKKvO_VKsllSyTM1KjSwf3pY8XzI3-clcjaC3BclJ2J-bcwVnk1YKWjfbr7c1lLXT1Cc9Fsxyu41YsimhA2BaL5bd1IcQ8j9G1iwVkTzA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/d90291dbad31f7009923c694.jpg",
+          "thumbnail_sha256": "aff62f3b353fd105f375e82b7762fd9c2bb563b940b59c75bd54999a920c4f24",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "🆒",
+          "count": "79"
+        },
+        {
+          "emoji": "😁",
+          "count": "45"
+        },
+        {
+          "emoji": "❤",
+          "count": "24"
+        },
+        {
+          "emoji": "👍",
+          "count": "6"
+        },
+        {
+          "emoji": "💯",
+          "count": "2"
+        }
+      ],
+      "views_label": "15.3K",
+      "posted_at": "2026-11-14T09:28:41+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5871",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/5870",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد</b><br><br>بلاگ کلودفلر می‌گه Kitesurf، موتور مرورگر سبکی که برای ایجنت‌های AI ساخته، حالا با لایسنس Apache 2.0 روی گیت‌هابه و می‌تونید خودتون اجراش کنید یا روی اکانت خودتون دیپلویش کنید. این موتور به‌جای کانتینر کامل کرومیوم روی Workers اجرا می‌شه، HTML رو پارس می‌کنه، جاوااسکریپت اجرا می‌کنه و اسکرین‌شات می‌گیره، با CPU و حافظه کمتر. از پروتکل Chrome DevTools هم پشتیبانی می‌کنه، یعنی با Puppeteer وصلش می‌کنید و ایجنت مستقیم کنترلش رو می‌گیره.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://blog.cloudflare.com/kitesurf-open-source/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد\n\nبلاگ کلودفلر می‌گه Kitesurf، موتور مرورگر سبکی که برای ایجنت‌های AI ساخته، حالا با لایسنس Apache 2.0 روی گیت‌هابه و می‌تونید خودتون اجراش کنید یا روی اکانت خودتون دیپلویش کنید. این موتور به‌جای کانتینر کامل کرومیوم روی Workers اجرا می‌شه، HTML رو پارس می‌کنه، جاوااسکریپت اجرا می‌کنه و اسکرین‌شات می‌گیره، با CPU و حافظه کمتر. از پروتکل Chrome DevTools هم پشتیبانی می‌کنه، یعنی با Puppeteer وصلش می‌کنید و ایجنت مستقیم کنترلش رو می‌گیره.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5870",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/YqUywH4uQnrXtp00bMB4DffT7pJkfMW4htmkICRcbhIwYLzLoEwiDc_d_VGqhjNZDdUZ9QjYraSwhjgAkG3_EeFJIf0APj1deQK8B07b9U-BRXMLzKkl4jbmQayCp90jkRg6vTZUtD2soxOHrBOVZsxWs62w3dJuNnDdmvmOGOP53f8pCEst-4XMdJqbcEcBh2cauKykV-bH0el5TJWxe69TQJYgGgjC6wCRXCqtpLJ7isV1vfh4nhJGTcxwZnIRTZPWpFDbykirGeaouU3uM-Iv69E4W8doMjUPC-HKQ2NmIWE9zHDJ5NksT381VjsHuPVzakvnjj1PTto9UxDWyQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/f42869dd982e068e3f069f60.jpg",
+          "thumbnail_sha256": "533a11af9f139ef1f8b48870dca82dcbe1fd279a7ad2b2835e9aaf2ac4d95e03",
+          "duration_label": null,
+          "aspect_ratio": 1.5009380863039399
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
+          "emoji": "👍",
+          "count": "101"
+        },
+        {
+          "emoji": "❤",
+          "count": "42"
+        },
+        {
+          "emoji": "🦄",
+          "count": "3"
+        }
+      ],
+      "views_label": "17.9K",
+      "posted_at": "2026-11-14T07:20:40+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5870",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/5862",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">چه وضعیتیه<br>این واقعا نگران کنندست<br>و در مورد خودم صحبت نمیکنم طبیعتا.<br>فرض کنید یه نفر بیاد شروع کنه به تولید محتوا و ارزش و پست بذاره و ممبراش کم باشه از قضا(و صداش به جایی نرسه)، این کانالای تلگرامی شبیه راهزن باهاش برخورد می‌کنن:)) من تازه یه ذره سین می‌خوره پستام و یه ذره من رو میشناسن و این شکلی رفتار می‌کنن<br>وای به حال چنل‌های کوچیک</div>",
+      "plain_text": "چه وضعیتیه\nاین واقعا نگران کنندست\nو در مورد خودم صحبت نمیکنم طبیعتا.\nفرض کنید یه نفر بیاد شروع کنه به تولید محتوا و ارزش و پست بذاره و ممبراش کم باشه از قضا(و صداش به جایی نرسه)، این کانالای تلگرامی شبیه راهزن باهاش برخورد می‌کنن:)) من تازه یه ذره سین می‌خوره پستام و یه ذره من رو میشناسن و این شکلی رفتار می‌کنن\nوای به حال چنل‌های کوچیک",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5862?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/i-EYDa5gQoaY_E6sNBDfVeRmJCN_o6hG8Hwxr64fUhxMLg62kCZme9ANNolAIKMb3lMASfdqmuyuBrTdvYHTz7F6J41L5OSP1sQd_Ll5Um_jMP4-KGSZoKNl__xcuYAExlbjH7RKjmEbpqFQmrVcu4g1eYLN3xuN7gSxBb-lpuYFmygE1FYlL9Vl-i9YTsXhu48gkg1BAT-ELuhKXCxBbhwcXJ-aT8YfY6dthRSSnmmYzXEhCGZ7jBc9zljD0rFnvpODclcR3NTOZMvv88XZaQCUpA6BZFv4e1St_oCSv2mz-eVI1Uv2dojvCn4ZyfQD6JQ54QmZwSQdbS1tm4M9Lg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/15c953d0ed8c1f8c772ad128.jpg",
+          "thumbnail_sha256": "c10af048fd8318baec7a9f1c4a05fb44daed2c4f3cb7036eb639f9d8237d1944",
+          "duration_label": null,
+          "aspect_ratio": 0.74
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5863?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/F4rGYd8A_4FlASnMpCyjG1-hciWnXftUqxVsEQ9AzGqK1PdxD--ItfSxQ6eWezHXG8Ynk4iv-lQCRqWS_gKpfTE-qniC5IPBpan6zPCTi7pp2Z8b_gdOU4WPOIVJz-r4i0NCBhEN1TeQgenGlDJFSGS643dXM-cDQNlxwsLqH7xVoVYFPd75X_FUvRtvsvvriTHnGTc4N4cZEoJvezqGYSJeMplKL_UVK2ChaOyldFnj4PjO0RVDb1HtUueuzx1MM4N5S6ewC7zlIySmI6YFFSGdWocdfZsGvlEZUKWt-hRxeCXwM122iJBWN4Vlj7rVMCwo45UknG2vE5DyS4NN-g.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/0f1eab8656ca1c1ec1c86b3d.jpg",
+          "thumbnail_sha256": "14ddc22d1fe0ed144edcd8c28ffe44b41b5e1a90b0c35b39cfb6c6f37b90e847",
+          "duration_label": null,
+          "aspect_ratio": 0.825
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5864?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/po7EUR9aXFWH-mecJRAp_jkmQ8fAPgMQPh3zo6ZRDRLEkbsXZBzZRLdIVWnpzMzThFa5I0UDvQZTxGl2PjrrlRU0FP4-Flq9ZCndLkJ-DM50_6pxOGXsi-jg1rsBdvEG_YQ23b8bPmZdpAtYejERjMiut1AJ-Ba7VEj1Anx6Ic8DbnlRzaL4RCmaJv5k-m8ZJNMZzLgOomYLUkJEdOSfiaI4wUwuvIm-lKYmUd-A5dHGiqGbuanjTYXrK4OiGb7HiWj-A3v89a1JUhedl9Kc_g6q-DvnHfIYEfMQ3Nl7A7AW_fdLqGLyANQoTXv9Lb7ghG6ZPeY_En8_YGbtdoiLfA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/0f5b412363c577f6854d42fe.jpg",
+          "thumbnail_sha256": "25c0387fe0e203174012c24c747c51ed04373382f6fe834e2a960e3c244eaa71",
+          "duration_label": null,
+          "aspect_ratio": 0.75125
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5865?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/O2e8SqXSppOfsaYWOyFydkxkczO43Tu7aCEh1gnJ1pIvjwR1VhOnbMPhfaF-2plb08wtdiBvog8gfInVm8fXONJnt5gQo3_KgCUIzi39YbtApcgX2C1kM6qbezO0myvjOXNl4kMwise8pcEyHj6NzvCKNJVZ16pIl54qy4CkCI_47Fiq8S8m0vdMCmkjAk1UpwGqSv5nlW2QvVzdkaLoK_P-mVfFwMUNm_xVdVseP6LT4125KqlLiSAqhXBzBcaBAfZhEK8tlE0h9HKBp-9pbE9em-HwClZpSdHXWlju1l_VQGEaZBi2UW1sYU7y3Ck2BUi6et3K4GjArayhIwhlSQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/e9524cede8487bc57375a4f1.jpg",
+          "thumbnail_sha256": "1792f7e7fc200949dbc91d56d710299e22e1676637c807b811eb20979f356da6",
+          "duration_label": null,
+          "aspect_ratio": 0.74125
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5866?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/vedBo22AbjKjlzbiF3QSKqnnZ89X9P-l6OZ9jZvJd1YVEYv960Um6Qm7ukcpmgjjMbbzkPm0mbpGioSjIR2MsYWnjcnTSal7d99-IX0ZAp8OI5MRqAyb4e-gilRmzDvNaRYQL0MjLYX1dNP0ydmQ9os0WLMNGXKftI5kOpk5M-o89EFn6Ai9D7vOKpn-QRre_QvZOy2Sa9h2jEMI6GI30NjqW6F9HvFERYvOcUpjTzOuOeWoMQRll6WiCQcmdwJL8lmf7cz1o0ueBP15_TEXSzu-mUSZfC8Wckmw1_bhMvapJrPaXxhRJmUS-znt_Ja3rtPkT5lAEImhBBmLQ--6xg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/63fa372cddce5091c996382b.jpg",
+          "thumbnail_sha256": "cc63ca103798c89f501990d9280ad1d28e5653172bccb6651b86082d4faa46f9",
+          "duration_label": null,
+          "aspect_ratio": 0.77875
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5867?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/FTzjr67M2RJlVHUuovxjIpULMwcUgMk5K-E1Rbc9S_38i46jsYTkllV7jHIP6-U0Q4eHCfvv8R3LLnN3pgyv8cft8AsZymDqKN73s6lqQSgi7nA4d5y7uuVn76VLvGuiSgX0fxz-GJOyaaWuCBf36jbdD51Kqt2ops5renn7OhxlxvdOkzIjeOi1PDG-EeTjoiGlsaJxvbtCtJ-FBilWmZnk-HQqJqKf27YVJFRU3eVKCyhUeuOUmJ1CUiYmFpkyY0VgoxNRuqLWz9cofM3ygXSJvLlKkvVjlykuWTBkkySdgcvCyY9iLwnrgCQgJDwEuYn7Ih29y-t8fK-2SMtNtg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/dc9cb506d81e8a8554fafa93.jpg",
+          "thumbnail_sha256": "ca98f45f12685242e996657e8a20c44e0ce73baec8276c3842d8985fb58afa9d",
+          "duration_label": null,
+          "aspect_ratio": 0.7475
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5868?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/Nd1STXWNokBJzOxeuIyTB5bmxYFaBiC-KoGR0oBvxxxLM65io1jb0NXA_w1vLA4T0pyYoYfCRgsTAl35hYf5f6Z4RFYaP1pMHfEhdZYsI3Ieh_Y6ydlvmN6krORoAoNSDPNVlgfWYm5Avf2rWvHpINe_Gm9TdF0nwgadfO6v3VGtn1ZcXUOyQNlr7_x2mOxh3hy_IEuCJzn0JdVJ8WZ_k9MW0waYKxsY2t-vFZwXO-7oxhwQ6mglLnFrLFo-ItLvZP-ADiGaenYqNToSALjG_pDNeXtn0BxNCnf2h84pSxR8OuqNqmmyJMoshjv_Y07fWRTl9KaVYIMsZ6UXxYOX1A.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/1a3fb5a0e83021e644cd2ff5.jpg",
+          "thumbnail_sha256": "c557241a353add5aa1871bdad7dc057ced49badad75ee8d82b0c831ead7f0f1b",
+          "duration_label": null,
+          "aspect_ratio": 0.775
+        },
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5869?single",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/TGI7dc5vXeZd2BEzfYF7gNa-5-2ZhKkrjUXpeK3KdwHqoarXOmAnB8kZnodZgJdBAu93yWfMo5rIu8jp9IGcfHVlBmUkjOOXYuLXA-l_l-6k8WpWXS5zqH_5by2oNDxNGXF-i1BazuUrVqJjCby3GURJrAFoS_3YR7FXefOAbJ_9EkvkUr0cIb8NIIaaSTzCIQ0DHQnt1e3qy8Dr8WlF3M-YxrxUqlVXiqh9u5UhNVEe7xqpt9x9ohVmg0hDoi9o2HiAejOhs3w02AfC4DnGKbcrmiDVbcKMyPz8eMkC1gPMlMvnUU7_RcX0U9sVpLYhT4W0F0B_hcdH8Cx7YW2Twg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/1f19f4c19a1388be80650a51.jpg",
+          "thumbnail_sha256": "eda7326d6067f55baaddeeb588299d23bdf004f862f1437d3a63e48d277c2648",
+          "duration_label": null,
+          "aspect_ratio": 0.7725
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "3"
+        },
+        {
+          "emoji": "💔",
+          "count": "831"
+        },
+        {
+          "emoji": "👍",
+          "count": "96"
+        },
+        {
+          "emoji": "😁",
+          "count": "45"
+        },
+        {
+          "emoji": "❤",
+          "count": "32"
+        },
+        {
+          "emoji": "🦄",
+          "count": "4"
+        },
+        {
+          "emoji": "💯",
+          "count": "2"
+        }
+      ],
+      "views_label": "24.3K",
+      "posted_at": "2026-11-13T19:46:03+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5862",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "5861",
+        "author_name": "Matin SenPai",
+        "preview_text": "این پست من حقیقتا چیز خاصی نبود. یه پرامپت اجرا کردم و هر کسی هم می‌تونست با اجرا کردنش و 20 دقیقه زمان، خودش تجربه‌اش رو بذاره. اما صحبتم اینه که اگر یه کانال کوچیکتر جای من بود، هیچکس صداش رو نمی‌شنید. و این دوستمون عملا عیناً خود پست رو کپی پیست کرده و…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/WRxY6BtML17fOemNti9_B08bQ1jO0qqgC4G9t51d1aeclBLtgSVzYuUlsm_FKHoxb7orCJBOSTnSMnnG20cT270dsOKVUISFxWHrZ209TcbUeNVeeCKaFOfGLoXt404vFZZUiVGpCfHHRyJgcBB33ZV1PfGxp-IaFVbxCfAJFyp7yFGnvA43eHnzPYEhq2eGKOBXgsVI5qXPzK1edWAZo6_xwU-UrmERMiJCiQVrt4dFZgAvm-G0UZaBQMZpcRa4kCeA9noOAquNSSVqw4qZExyOCi1L9QzIndFxmnS5O5G4DOjkXVoDWXTX-CiTH0EL1TzdMS5sueh8foL1oSJ_0Q.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/fa7ccad4e9609addc0206fc5.jpg",
+        "thumbnail_sha256": "b8b4b4d652e5bdd6ee4d9d515fc0dfaba69db4ce5b4ee25ccf26291c2ca23b74",
+        "permalink": "https://t.me/matinsenpaii/5861"
+      }
+    },
+    {
+      "id": "MatinSenPaii/5861",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "این پست من حقیقتا چیز خاصی نبود.<br>یه پرامپت اجرا کردم و هر کسی هم می‌تونست با اجرا کردنش و 20 دقیقه زمان، خودش تجربه‌اش رو بذاره. اما صحبتم اینه که اگر یه کانال کوچیکتر جای من بود، هیچکس صداش رو نمی‌شنید. <br>و این دوستمون عملا عیناً خود پست رو کپی پیست کرده و گذاشته بدون هیچ رفرنسی و زیرش هم ربات خودش رو تبلیغ کرده.<br><br>روی صحبتم با شماست. اگر کسی پستی رو گذاشته(چه توییتر چه ردیت چه تلگرام و...)، و شما ازش رفرنس می‌گیرید به هر شکل، حتما رفرنس بذارید. نه چون اگه نذارید کسی ممکنه بفهمه و نه چون اگه بذارید ممکنه بهتون جایزه بدن.<br>چون کار \"درستی\"ـه و جزو حداقل بیس‌های اخلاقی‌ای هست که یه انسان باید داشته باشه به نظرم",
+      "plain_text": "این پست من حقیقتا چیز خاصی نبود.\nیه پرامپت اجرا کردم و هر کسی هم می‌تونست با اجرا کردنش و 20 دقیقه زمان، خودش تجربه‌اش رو بذاره. اما صحبتم اینه که اگر یه کانال کوچیکتر جای من بود، هیچکس صداش رو نمی‌شنید.\nو این دوستمون عملا عیناً خود پست رو کپی پیست کرده و گذاشته بدون هیچ رفرنسی و زیرش هم ربات خودش رو تبلیغ کرده.\n\nروی صحبتم با شماست. اگر کسی پستی رو گذاشته(چه توییتر چه ردیت چه تلگرام و...)، و شما ازش رفرنس می‌گیرید به هر شکل، حتما رفرنس بذارید. نه چون اگه نذارید کسی ممکنه بفهمه و نه چون اگه بذارید ممکنه بهتون جایزه بدن.\nچون کار \"درستی\"ـه و جزو حداقل بیس‌های اخلاقی‌ای هست که یه انسان باید داشته باشه به نظرم",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5861",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/M0WIc_uaZTT-8TjtgFoJrd7gLflHRVcJQh9hTjk0zSzeN-CuEcx8A7v1M0mIQbZumIRjK7fKEfWFKh234a7q1OC6ShMEUdmI4G1cE0gEcytU4D4OfwtUlu-n7wvGS8Y3W1N7pndwO3StWpLsUlRJNjdlyiFcsIwlZSZJGWGJHUHloIIniqJsJrGjTPQbE4EpONNkAqmGzdkLGNvscLCX8hPMSKVWG84Oy0DMVMmmF5VxBRlMnyVL5rRDEXVFskFGecVo1dQto2_R50n4CGUehkbYobMuLvyr5v1ujlMFGXtj0_tZD6sWPNJtkxeMgik12ncOX4gDZrLAS0UhXmRMMw.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/8d3c8747677a24bb65863b4c.jpg",
+          "thumbnail_sha256": "7e8a7f084752e65f00fd9aea2c57ff2bb85315f1b7c62d6285fa307ce067f5cb",
+          "duration_label": null,
+          "aspect_ratio": 1.1004126547455295
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "5"
+        },
+        {
+          "emoji": "👍",
+          "count": "681"
+        },
+        {
+          "emoji": "❤",
+          "count": "78"
+        },
+        {
+          "emoji": "😁",
+          "count": "16"
+        },
+        {
+          "emoji": "💯",
+          "count": "3"
+        }
+      ],
+      "views_label": "23.3K",
+      "posted_at": "2026-11-13T19:33:21+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5861",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "5839",
+        "author_name": "Matin SenPai",
+        "preview_text": "ببینید Fable 5.2 چی ساخت فقط با یه پرامپت:) نه بلندر، نه mcp خاصی، نه Skill، هیچی. کد خالص زیباتر از همه‌شون بوده تا به الان، اما مصرفش هم از همه بالاتر. 11 دلار API مصرف کرد و 50-60 درصد از لیمیت 5 ساعته‌ام. این هم پرامپت همیشگی: make a dynamic 15-second…",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/AikERV0yQftLBIADqEnzl2-sIC0Qnfmw1VMlhHgkRMEFuEX1mlORLQeS-Thrr11-SbTuROrpgvWnAe7FSnO8jWT1EkwkuX_jYPP__S8OlBszmVUqcgGsUpPuOTXYT3IGbebWusgwveAFFqTXFpyg98dJhxKnY73-SRh1kZ23jhyZa0L7bobmFcd2kAU2ikemXSuiZaGFaPLhaGJSeU99a3GPELP72QX0xXi8AQczEiW5cS_UGxII2uKMZzhEGKRK8p3OVqksaayBEurIle9WM-alJY54W28gVnMa2SBjDQEtMaclPbnaWLZ-sLWEOExA0175_B93F6hOFG3DDuOkLw",
+        "thumbnail_path": "channels/matinsenpaii/media/0298e51f6f9b731d276ed9fe.jpg",
+        "thumbnail_sha256": "1243950ad142b1cffddca79df0a7bd4c194c013082b4ddc56d95c145173297c3",
+        "permalink": "https://t.me/matinsenpaii/5839"
+      }
+    },
+    {
+      "id": "MatinSenPaii/5860",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "این قضیه انویدیا داره به طرز کسل کننده ای مطابق الگویی که حدس زدم پیش میره و جنسن همین امروز \"استعفا\" داد! <br><br>حالا ازینجا به بعدش یکمی جالب میشه و پیشبینی من میتونه ضریب خطا داشته باشه، ولی به هر حال دوست دارم مکتوبش کنم.<br><br>جنسن توی واشنگتن خیلی مخالف داره ولی پشتش به کاخ سفید گرم هست، دشمنی واشنگتن با جنسن هم بحث مفصلی هست ولی در کل دلیلش اینه که جنسن طرفدار مدل های اپن سورس هست و چند سال اخیر مدام به واشنگتن فشار آورده که بذاره انویدیا به چین هم gpu بفروشه و چینی ها هم خیلی خیلی با جنسن میونه خوبی دارن و اصلا یه دلیلی که ما میتونیم از مدل های ارزون چینی استفاده کنیم، بخاطر همین جنسن هوانگ هست.<br><br>در واشنگتن، عده زیادی هستن که چین رو بزرگ ترین تهدید آمریکا میدونن و سال ها هست که دارن گلوی جنسن رو فشار میدن تا دست از فروش gpu به چین برداره ولی جنسن زیر بار نرفته و نخواهد رفت.<br><br>حالا واشنگتن و سرویس های امنیتی آمریکا خیلی ناگهانی داستان \"جاسوس چینی\" به \"دستشون رسیده\" و بعد هم فهمیدن که جنسن با یکی از vp های انویدیا رابطه داشته؟ عجب :)))<br><br>حالا یه چیزی ازونور واضح هست و اونم اینه که هیئت مدیره انویدیا و کاخ سفید پشت سر جنسن هستن، خب حالا فرض کن که شما جنسن هوانگ هستی و در این وضعیت که اذهان عمومی داره شمارو جاج میکنه و داخل واشنگتن هم اینهمه دشمن قدرتمند داری، بهترین استراتژی چیه؟ <br><br>شما میای استعفا میدی و با خبر استعفا، اذهان عمومی یکم یخ میکنه و انویدیا از سر تیتر اخبار میاد پایین و اذهان عمومی منظورم سهامدارای انویدیا هستن و انویدیا یه کمپانی پابلیک هست و هرکسی میتونه سهامشو خرید و فروش کنه. <br><br>پس اینجا از اذهان عمومی منظورم اصغرقلی نیست که یه گوشه نشسته و صبح تا شب توییتر رو بالا پایین میکنه چون نظر اصغرقلی روی قیمت سهام انویدیا تاثیری نداره ولی نظر مردم آمریکا نسبت به جنسن، روی قیمت سهام انویدیا خیلی اثر گذار هست.<br><br>خب پس شما استعفا میدی و ملت یکم آروم میشن و تب و تاب این داستان یکم میخوابه، بعدش چی میشه؟ هیئت مدیره میره ریسرچ و تحقیق میکنه و میاد میگه ای ملت! این جاسوس چینی هیچ اطلاعاتی از انویدیا نتونسته بدزده و همه چیز امن و امان هست، بعدشم جنسن یه نامه عذرخواهی میزنه و بابت رفتار غیرحرفه ای خودش عذرخواهی میکنه و بعد هم هیئت مدیره میگه خب باشه اشکال نداره بیا برگرد سرکار عزیزدلم و قضیه ختم به خیر میشه.<br><br>حالا یک سال دیگه من این پست رو ریپلای میکنم و اون موقع ببینیم مدیرعامل انویدیا چه کسی هست و آیا من تونستم درست پیشبینی بکنم یا نه! <tg-emoji emoji-id=\"5888549099396926729\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA494.png')\"><b>🤔</b></i></tg-emoji>",
+      "plain_text": "این قضیه انویدیا داره به طرز کسل کننده ای مطابق الگویی که حدس زدم پیش میره و جنسن همین امروز \"استعفا\" داد!\n\nحالا ازینجا به بعدش یکمی جالب میشه و پیشبینی من میتونه ضریب خطا داشته باشه، ولی به هر حال دوست دارم مکتوبش کنم.\n\nجنسن توی واشنگتن خیلی مخالف داره ولی پشتش به کاخ سفید گرم هست، دشمنی واشنگتن با جنسن هم بحث مفصلی هست ولی در کل دلیلش اینه که جنسن طرفدار مدل های اپن سورس هست و چند سال اخیر مدام به واشنگتن فشار آورده که بذاره انویدیا به چین هم gpu بفروشه و چینی ها هم خیلی خیلی با جنسن میونه خوبی دارن و اصلا یه دلیلی که ما میتونیم از مدل های ارزون چینی استفاده کنیم، بخاطر همین جنسن هوانگ هست.\n\nدر واشنگتن، عده زیادی هستن که چین رو بزرگ ترین تهدید آمریکا میدونن و سال ها هست که دارن گلوی جنسن رو فشار میدن تا دست از فروش gpu به چین برداره ولی جنسن زیر بار نرفته و نخواهد رفت.\n\nحالا واشنگتن و سرویس های امنیتی آمریکا خیلی ناگهانی داستان \"جاسوس چینی\" به \"دستشون رسیده\" و بعد هم فهمیدن که جنسن با یکی از vp های انویدیا رابطه داشته؟ عجب :)))\n\nحالا یه چیزی ازونور واضح هست و اونم اینه که هیئت مدیره انویدیا و کاخ سفید پشت سر جنسن هستن، خب حالا فرض کن که شما جنسن هوانگ هستی و در این وضعیت که اذهان عمومی داره شمارو جاج میکنه و داخل واشنگتن هم اینهمه دشمن قدرتمند داری، بهترین استراتژی چیه؟\n\nشما میای استعفا میدی و با خبر استعفا، اذهان عمومی یکم یخ میکنه و انویدیا از سر تیتر اخبار میاد پایین و اذهان عمومی منظورم سهامدارای انویدیا هستن و انویدیا یه کمپانی پابلیک هست و هرکسی میتونه سهامشو خرید و فروش کنه.\n\nپس اینجا از اذهان عمومی منظورم اصغرقلی نیست که یه گوشه نشسته و صبح تا شب توییتر رو بالا پایین میکنه چون نظر اصغرقلی روی قیمت سهام انویدیا تاثیری نداره ولی نظر مردم آمریکا نسبت به جنسن، روی قیمت سهام انویدیا خیلی اثر گذار هست.\n\nخب پس شما استعفا میدی و ملت یکم آروم میشن و تب و تاب این داستان یکم میخوابه، بعدش چی میشه؟ هیئت مدیره میره ریسرچ و تحقیق میکنه و میاد میگه ای ملت! این جاسوس چینی هیچ اطلاعاتی از انویدیا نتونسته بدزده و همه چیز امن و امان هست، بعدشم جنسن یه نامه عذرخواهی میزنه و بابت رفتار غیرحرفه ای خودش عذرخواهی میکنه و بعد هم هیئت مدیره میگه خب باشه اشکال نداره بیا برگرد سرکار عزیزدلم و قضیه ختم به خیر میشه.\n\nحالا یک سال دیگه من این پست رو ریپلای میکنم و اون موقع ببینیم مدیرعامل انویدیا چه کسی هست و آیا من تونستم درست پیشبینی بکنم یا نه! 🤔",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5860",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/XNUdQuXppbRTirdBNQja_YWVACf1tSfdxv_LUI15DFw-U5pxqNsFleJDvzpbqwbzAuLhoPu_0hsrebi7RztrQhVgWTZT_hcIAOQvEUFA6G1yWhcqL-YWQE4kjcbf21-5iZLFAaowvxdSwNUntS5x7lZyQIm3zJOc6pDdGd2RaS03Wa0waElq56HKydNwk6pKZdIYrNX_7iKr2BXkwRmhCwlwoPqaQPHFCKygtgYPud5p5N0Jb6aFueT-XuJETDOaOn6RPT01zrsxYJbAnHFLkfKJk_katvGF_MYn0nSrWOx0u5YDwIntsCc-dzC1M7CeFMH8sHnGSrUF_O06suZVhA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/6380686e62d8499ac64d5c4a.jpg",
+          "thumbnail_sha256": "cf299ccce621964383734b36a4db166c79b518171128c20ad876130e54c1bc85",
+          "duration_label": null,
+          "aspect_ratio": 0.7950000000000162
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "377"
+        },
+        {
+          "emoji": "👍",
+          "count": "78"
+        },
+        {
+          "emoji": "😁",
+          "count": "57"
+        },
+        {
+          "emoji": "🦄",
+          "count": "17"
+        },
+        {
+          "emoji": "🆒",
+          "count": "6"
+        },
+        {
+          "emoji": "💔",
+          "count": "4"
+        },
+        {
+          "emoji": "💯",
+          "count": "2"
+        }
+      ],
+      "views_label": "23.3K",
+      "posted_at": "2026-11-13T17:59:54+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5860",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/5859",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "توی صفحه‌ی چت Ai studio درست کرد<br>نه آنتی گرویتی و...<br>با نبود هارنس هست که ساخته و برام جالبه",
+      "plain_text": "توی صفحه‌ی چت Ai studio درست کرد\nنه آنتی گرویتی و...\nبا نبود هارنس هست که ساخته و برام جالبه",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "108"
+        },
+        {
+          "emoji": "❤",
+          "count": "9"
+        },
+        {
+          "emoji": "🆒",
+          "count": "7"
+        },
+        {
+          "emoji": "🦄",
+          "count": "2"
+        }
+      ],
+      "views_label": "22.8K",
+      "posted_at": "2026-11-13T16:44:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5859",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/5858",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "Toggle on/off لامپ هم گذاشته خودش مثل qwen 3.8 max",
+      "plain_text": "Toggle on/off لامپ هم گذاشته خودش مثل qwen 3.8 max",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5858",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/P-vnVa9yQHlAZWOf6EKaGu0Ns_WnizSxWpzdSuVDghS2TFHDmqK84oDP-Y_VLE-na8Gmb0PJvrOqe_5s1tH5bIUuGhReKI-brof55FtjyMKFlRELAxf-k8rF3C3EXchROQ3TUta-fdV-Gt88w_0m4kGRFciMBIjhfF0FSgmdI8Tob30c5OFxFOp8eOjnw1NeTyK9kZqJe5QbW2OBxnpudoxC4yE1iCqRY6DWLMiJ9RB0JeMlC4CNHlE0XfzaNBA-XvPjLOJxuxE362C09rV3YMF5LPtzwIBLLRRXOfebn9-u6Xqb7kIyn_nuWi6Ie354W-7G7ybFUqC0xeAwwcShpQ.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/c629aa88f52b8bbab07a4071.jpg",
+          "thumbnail_sha256": "cc5cca760764371534983dbfc82e9146101bb66ddcde315826b7cad2562a2d8e",
+          "duration_label": null,
+          "aspect_ratio": 2.2408963585434174
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "104"
+        },
+        {
+          "emoji": "😁",
+          "count": "9"
+        },
+        {
+          "emoji": "🆒",
+          "count": "2"
+        }
+      ],
+      "views_label": "23.5K",
+      "posted_at": "2026-11-13T16:42:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5858",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/5857",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<a href=\"https://t.me/MatinSenPaii/4770\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">این پرامپت قدیمی</a> که توی ویدئو کلاد رایگان یاد داده بودم با Kimi K3 رو دادم Gemini Hydrogen 4 بزنه، One Shot توی دو دقیقه زد. <br>چه با Sonnet 5 چه با Kimi K3 تقریبا چندین بار کُشتی گرفتم تا درستش کردن. فوق‌العاده بود<br>در واقع پیشرفت AI در گذر این چند ماه فوق‌العاده بوده. <br>نسبت هزینه به قدرت و سرعتش خیلی خوبه، و راضی بودم",
+      "plain_text": "این پرامپت قدیمی که توی ویدئو کلاد رایگان یاد داده بودم با Kimi K3 رو دادم Gemini Hydrogen 4 بزنه، One Shot توی دو دقیقه زد.\nچه با Sonnet 5 چه با Kimi K3 تقریبا چندین بار کُشتی گرفتم تا درستش کردن. فوق‌العاده بود\nدر واقع پیشرفت AI در گذر این چند ماه فوق‌العاده بوده.\nنسبت هزینه به قدرت و سرعتش خیلی خوبه، و راضی بودم",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5857",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/tumtmhv7PS-iCESUkJq5yJAaxlGi9sqS6pSEpQCKF0Rk2G2_UAUOw8OHnsnd9PsV7SqC6ObGT3OGoIm0b2cZpCRO0lhYs00CSlYOLzndlTfOS9sBNU7E3OPgWcyJdKMn8OUmOb3PBKak9Ha8yjAvVFTEgly7EcEiGiK1ndtyDMFt_9OozidNJBqAjxaECa0piOeKIXC8RNDxPpDWdj9DyIBaflEIiBVh29ZXnuIAz2hsO4pujqvGvsdjn2O55iwL_qLl2RixB6gFIH1yYaArmhP3v0HBPdv2Oj27dWHKHQ0hYJP5HKyoI50owDMpVHtHxinI_hAKjiC83D8EpQKUXg.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/bc8345e249cf014673b0533c.jpg",
+          "thumbnail_sha256": "654408bde8cad3d7e39dcf4cc891ed76fd78052225aab0fa4acf6322f6329bc1",
+          "duration_label": null,
+          "aspect_ratio": 2.2408963585434174
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "149"
+        },
+        {
+          "emoji": "👍",
+          "count": "13"
+        }
+      ],
+      "views_label": "23.6K",
+      "posted_at": "2026-11-13T16:41:31+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5857",
+      "reply": null
+    },
+    {
+      "id": "MatinSenPaii/5856",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "مدل Gemini Hydrogen 4 روی ai studio الان در دسترسه و می‌تونید استفاده کنید:<br><a href=\"https://aistudio.google.com/prompts/new_chat\" target=\"_blank\" rel=\"noopener\">https://aistudio.google.com/prompts/new_chat</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "مدل Gemini Hydrogen 4 روی ai studio الان در دسترسه و می‌تونید استفاده کنید:\nhttps://aistudio.google.com/prompts/new_chat\n\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5856",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/a_Ku9DqaEbP1iPWLAAKy5yZJwHobxR6R6JSooeHdF1bhRHGj9Cb0v8uoED6CQPB__vvSK2KNhuYnR0LmDE0Lejs3fYJeiKgwjeEhezquWSwKEr5nJYF2oMC_B5gafoftLIYTU3yDLYO6hRFknk9WpbBmLyrm3vjE37tvmOQrLqRMwb8ft-3ahpFUAJMnfseMO-PcUqc4j_MkmgxTS7kufQrhbR7AsfVwoRPwpdBaarzVshRZaQQZEpZE1tGjD6yVfXACBgsBz8H0GvjUy43UbfSjrYpvZqwHT5mPUZsAv-ML-x-XLddmUxZ0tdKbHew1amMzoRSm9EQZxqp8D4Oz9w.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/347f81d4a8cd63cbb8472b90.jpg",
+          "thumbnail_sha256": "e368a67a7c56160ed2b4407434bf0ece1abc15055b7cd3828c2cc25937a773aa",
+          "duration_label": null,
+          "aspect_ratio": 2.399999999999981
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "129"
+        },
+        {
+          "emoji": "👍",
+          "count": "16"
+        },
+        {
+          "emoji": "🦄",
+          "count": "5"
+        },
+        {
+          "emoji": "💔",
+          "count": "4"
+        }
+      ],
+      "views_label": "24.5K",
+      "posted_at": "2026-11-13T15:53:09+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5856",
+      "reply": {
+        "channel_username": "matinsenpaii",
+        "post_id": "5853",
+        "author_name": "Matin SenPai",
+        "preview_text": "جمنای Hydrogen 4 اومد روی اپ جمنای جایگزین 3.8 Flash",
+        "thumbnail_url": "https://cdn1.telesco.pe/file/ekE-ZGRxSJw6TjxZeUUjyKyrH3kEuUGOcIme181Wy392t7JsIan0C_0H_PLcHvgIS5LZ3KnrlNtifG9OYzOVdYmcrz17lnHK1opgW9OqFSFnDVwxuux9-98Ij8xrv27YiVJU18qqPblTubVNuqdyriDtCxEkHEkAe7ziI_CllqqurCR9u7lsou12QJh-TP86H6op3iqrDCiCztu678YVF_9yj77sJ3WeTprW_8WfG4HaVqufwlhrW7mCauCmhUe3y7ayn2wx6JG3MD0UdUer5V2RZV7NcLtPBR3ZIu0jGPsw_ICqUkKNDH08loIWL87julbTv6uZJjaCzd1n4g2bnA.jpg",
+        "thumbnail_path": "channels/matinsenpaii/media/634e26f3820ec810647c803c.jpg",
+        "thumbnail_sha256": "2ddd8750ddebc406e91a263f675d2b3a03302b8867e5db8b6530c57763f6bcf8",
+        "permalink": "https://t.me/matinsenpaii/5853"
+      }
+    },
+    {
+      "id": "MatinSenPaii/5855",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/Z25Gl1NNSJIFDEsJvePPNpojPIX8USm0djE_vVJWwTj9uPBmNhZYH6o6qOzUeVW4hUiP16OLOoZBIDQBvBYvcSaImvCsRKBy3K91GOTzMzMnJ2N1CgrAnV8AxGJd-JwmqmkVH_ymuTjek2TQfOFYAPNo1osgzvrd5N-TRp1C9PabBV0PEyBJFYVaSICP7fYzJTk8WcMwh5LHHeftEDWHeZgixrZYrrBgIPF_BAqqxhQCNOzWKAOSq10b8KjECEbaCJqgpXuhszeSUTr7onI4e4hAAokgub4woLy07HMLct-ImFEuMEvE-GzDlxDIPZoqZaWlECyZXj98MPO74ejnbw.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/b75017fc37c8a0ef1be7d929.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "از دیروز دارم میم‌های جنسن هوآنگ رو می‌بینم<br>فوق‌العادست",
+      "plain_text": "از دیروز دارم میم‌های جنسن هوآنگ رو می‌بینم\nفوق‌العادست",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "😁",
+          "count": "532"
+        },
+        {
+          "emoji": "👍",
+          "count": "45"
+        },
+        {
+          "emoji": "💔",
+          "count": "18"
+        },
+        {
+          "emoji": "💯",
+          "count": "5"
+        },
+        {
+          "emoji": "🆒",
+          "count": "1"
+        },
+        {
+          "emoji": "🦄",
+          "count": "1"
+        }
+      ],
+      "views_label": "25.2K",
+      "posted_at": "2026-11-13T15:36:15+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5855",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5853",
       "author_name": "Matin SenPai",
@@ -4034,624 +4708,6 @@
       "posted_at": "2026-11-03T05:59:59+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5758",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5757",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "قابلیت جدید Creator Mode به DeepSeek Harness اضافه شده(قبلا توی بتا بود)؛ جایی که خودت تعریف می‌کنی هارنس چی باشه. ایده‌ت رو می‌دی و ازش یه پلاگین واقعی و قابل استفاده درمیاد؛ از یه محیط طراحی گرفته تا یه بازی سندباکس و حتی یه نمایشگر سه‌بعدی برای مدل‌های زبانی.<br><br>توی ویدئو چند تا نمونه هم نشون می‌دن که باهاش ساختن<br>فقط ای کاش، دیپ‌سیک Coding Plan میداد که همه‌اش مجبور نباشیم بریم سراغ API<br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "قابلیت جدید Creator Mode به DeepSeek Harness اضافه شده(قبلا توی بتا بود)؛ جایی که خودت تعریف می‌کنی هارنس چی باشه. ایده‌ت رو می‌دی و ازش یه پلاگین واقعی و قابل استفاده درمیاد؛ از یه محیط طراحی گرفته تا یه بازی سندباکس و حتی یه نمایشگر سه‌بعدی برای مدل‌های زبانی.\n\nتوی ویدئو چند تا نمونه هم نشون می‌دن که باهاش ساختن\nفقط ای کاش، دیپ‌سیک Coding Plan میداد که همه‌اش مجبور نباشیم بریم سراغ API\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/MatinSenPaii/5757",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/VuP8m88jF8HJ-n72LfNy2zyHn1ngN71UGUqMwAye3pvTYdwrUk3sKRJZ7f3z2Gyz1M0r6w3vZUpT6JizHxxXRK_Ym3Kel7mkCid5EmaCVFG4xAPYymnM-G2S5CBwDm0buEEmfybUgew2jGx8IXDTBwUhSUBeSFHutv1y_K3F8rYADtg8zjzrKWlWDIk93G_chzD5Yf2zedWbzYDtS-2yXLzGPqjvtpoxPMGrPAxxMgBY-cjxeC6ANxE3abfhFYjv1-c9LE5Ftv-GyMZzmrajwlhAL6AJDTRAyQSqmXgUnYBFgVyY-wbmfWik5TZ9BSeB3QZwjGYiO0H6r6NvSD9ryQ",
-          "thumbnail_path": "channels/matinsenpaii/media/6ddbfd235976a6cec84b589b.jpg",
-          "thumbnail_sha256": "761c3d315f9966b74e445e303416d75e947416164e55a7e5a84b1c37949d8cf1",
-          "duration_label": "1:39",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "1"
-        },
-        {
-          "emoji": "👍",
-          "count": "126"
-        },
-        {
-          "emoji": "❤",
-          "count": "28"
-        },
-        {
-          "emoji": "💯",
-          "count": "6"
-        },
-        {
-          "emoji": "🆒",
-          "count": "1"
-        }
-      ],
-      "views_label": "28.1K",
-      "posted_at": "2026-11-02T18:45:57+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5757",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5756",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>دادگاه برزیل وکیل‌ها را به‌خاطر Prompt Injection در پرونده جریمه کرد</b><br><br>مفهوم Prompt Injection به طور خلاصه یعنی دست‌کاری پرامپت ورودی برای وادارکردن یه سیستم AI به نادیده‌گرفتن دستورهای اصلی یا انجام کار ناخواسته.<br><br>گزارش Jetstream Security می‌گه یه دادگاه برزیلی، وکیل‌هایی رو به‌خاطر واردکردن Prompt Injection در یک سند قضایی مجازات کرده. این ماجرا نشون می‌ده متن‌های آلوده‌ای که برای منحرف‌کردن سیستم‌های AI طراحی می‌شن، فقط مسئله‌ی فنی نیستن و ممکنه پیامد حقوقی هم داشته باشن.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "دادگاه برزیل وکیل‌ها را به‌خاطر Prompt Injection در پرونده جریمه کرد\n\nمفهوم Prompt Injection به طور خلاصه یعنی دست‌کاری پرامپت ورودی برای وادارکردن یه سیستم AI به نادیده‌گرفتن دستورهای اصلی یا انجام کار ناخواسته.\n\nگزارش Jetstream Security می‌گه یه دادگاه برزیلی، وکیل‌هایی رو به‌خاطر واردکردن Prompt Injection در یک سند قضایی مجازات کرده. این ماجرا نشون می‌ده متن‌های آلوده‌ای که برای منحرف‌کردن سیستم‌های AI طراحی می‌شن، فقط مسئله‌ی فنی نیستن و ممکنه پیامد حقوقی هم داشته باشن.\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5756",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/ri2nW0eu3CTgafIbqROw6_pZ94t_0OgObrxrhnsp34HtVxYIn-6K4RE7FZ1P8LZ0GlVk87c0NC765HopzNCfv3lJobtCUaTKX9McYVml7H8zuUJ8Xnhq9vMR_yUPdw8UJb0WavYu2LOCTahKCM9MFYyvmiwIAbLNOPfmQsdl62XRBrXoh2C8-4tnfhEcVKgVoEbc083tP4SLtAudeE0IyWLYliJPN4iws9PvGmpKuFykUwxE2w__Z2pdmTDdYjbSh7Pw5ZXv1khFbyHGF5N7qi1S6PBBox6OZVIRLUihU-6Acx-DlVJLF80sfavKt6MMFVvKBv59TTQO89OaXs4I-Q.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/383238166333fe9658b6aaea.jpg",
-          "thumbnail_sha256": "4ecc10e56ae238f879f8bd1c5269f5c9da55ba3d8cd4c376f2b6b37d19781de5",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "127"
-        },
-        {
-          "emoji": "❤",
-          "count": "13"
-        },
-        {
-          "emoji": "💔",
-          "count": "9"
-        },
-        {
-          "emoji": "👍",
-          "count": "7"
-        },
-        {
-          "emoji": "🆒",
-          "count": "7"
-        }
-      ],
-      "views_label": "27.5K",
-      "posted_at": "2026-11-02T17:31:34+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5756",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5755",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "مرسی که مثل همیشه هستید بچه‌ها<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i> ۴-۵ تا سرویس معرفی کردید که بررسی می‌کنم همه رو",
-      "plain_text": "مرسی که مثل همیشه هستید بچه‌ها❤️ ۴-۵ تا سرویس معرفی کردید که بررسی می‌کنم همه رو",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "⭐",
-          "count": "2"
-        },
-        {
-          "emoji": "❤",
-          "count": "418"
-        },
-        {
-          "emoji": "👍",
-          "count": "23"
-        },
-        {
-          "emoji": "🆒",
-          "count": "2"
-        }
-      ],
-      "views_label": "28.2K",
-      "posted_at": "2026-11-02T08:55:35+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5755",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5754",
-        "author_name": "Matin SenPai",
-        "preview_text": "گویا Mpay توی آپدیت جدیدش برای ثبت کارت جدید، KYC و احراز هویت می‌خواد. به دنبال جایگزین مناسبی براش هستم که بهتون معرفی کنم. اگر که جایگزین خوبی میشناختید، بهم ایمیل کنید: senpaimatin@gmail.com",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/hz9LWzt0lE2-7opPTOfFJOHBfmky67Wy8rnGn6LWyb45zz-aw4h_LL3-51w-wrYUhE3T1vQC3j-mPjZMnISorPxR4mEGhKP2kBLF8zRKbSLmqf2ZAdvEVKfk6Kq77jlnr0kik51a4CPVHv5oaxJkYlJadKVvw5tSUJpAuI1bHfB5R7jN57wh-y-mu78XdnnvqTqFEXokLZkopoF0YYFuNhHXjI3rTY-nUq3wecwrsdyvV0K_DjW79aBQbDp7pshRfZ4DbZUF7DnDjdXf26UnZH16WSXpi-gEgD3gYRy0B7pfCEoRSRgMzYXMXervtnecpB2K6nANrG0bctSL8lBBrA.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/e2b94a01bd9a78284bce09ef.jpg",
-        "thumbnail_sha256": "d8cc2cc206649132019ff81191bd84b5f1ac14c09253166d8e4e9be58a51c959",
-        "permalink": "https://t.me/matinsenpaii/5754"
-      }
-    },
-    {
-      "id": "MatinSenPaii/5754",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "گویا Mpay توی آپدیت جدیدش برای ثبت کارت جدید، KYC و احراز هویت می‌خواد. به دنبال جایگزین مناسبی براش هستم که بهتون معرفی کنم.<br>اگر که جایگزین خوبی میشناختید، بهم ایمیل کنید: senpaimatin@gmail.com",
-      "plain_text": "گویا Mpay توی آپدیت جدیدش برای ثبت کارت جدید، KYC و احراز هویت می‌خواد. به دنبال جایگزین مناسبی براش هستم که بهتون معرفی کنم.\nاگر که جایگزین خوبی میشناختید، بهم ایمیل کنید: senpaimatin@gmail.com",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5754",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/q8tJiPCwCJfqUgmLXs0nI_EXQrRsHFRoKNYL_h_T9kam6E9-fQxqS-okCRq3ztWMSWQUIhXeGWaktQGm8znFnZLnyvlExaWrNH6R344OeqcQViLi9D7eXYW5ZXJd-JG1PLVDgjtE1_cb1hGwqMkAvVc7UfI5CRmk7JtKO2FXLM5vDft1uVy5tQEZMPSj4KPv5Qb_duI5xDMmR27CGeVxIabahlRWkXXeGjk2zqkRKLHEvaA1T5Ir7jM79tLCfwky2jKqi6jEOGmmWKqAh0n_OzNII8WPpS_b-ruy5dsO7ytobzM-irwwg1Oj0Q8SkSf5uQK71SXUQpOF4bmPdsf0og.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/843006561e0de39b5aa2c0e4.jpg",
-          "thumbnail_sha256": "eb4092000c0c3d51e9439432aa9e8a2d02e4b651d69bab8237c1a685c8580b0c",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "💔",
-          "count": "409"
-        },
-        {
-          "emoji": "❤",
-          "count": "55"
-        },
-        {
-          "emoji": "😁",
-          "count": "10"
-        },
-        {
-          "emoji": "👍",
-          "count": "4"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        },
-        {
-          "emoji": "💯",
-          "count": "1"
-        }
-      ],
-      "views_label": "29.3K",
-      "posted_at": "2026-11-02T08:24:14+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5754",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5753",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "کم کم داریم به دوران Jarvis و ایجنت تونی استارک نزدیک میشیم<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9881.png')\"><b>😁</b></i> یه عینک بزنیم و از داخلش، ایجنت همه چیز رو بهمون بگه",
-      "plain_text": "کم کم داریم به دوران Jarvis و ایجنت تونی استارک نزدیک میشیم😁 یه عینک بزنیم و از داخلش، ایجنت همه چیز رو بهمون بگه",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5753",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/BzOUCpnA5AteGyP5r9nV4nRvTcppVSaJAAfxNp8LJYedqvOjKTxpgwSC5_Nf_sm_Of8PzqtIa4onVD_1asI0FozarL1Z8rN56mh8R3mv_pfBPjfifzN2nYoUbnU-x1ypnvoiv1CqvfSOeBa50I5t0PdMpAvs9KJQbVwTH_WRdwtxG1SA4mI1fGqJrerrGBi2gdeGKbcnBnGJS9Fp4ozNqQmcq7pOCnEQBrGOuwovq9ibVjcppamSTuHzgqaEQjVgvUVOPibKcq59zvCYTQ4UHiC9jBGkoUsUF049JGIGJY7BW-0DDpllUKrW44FSfFdT1I1sl-qduekHNsUe65BH1Q.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/ea0d6a51d5d2afdfade927f7.jpg",
-          "thumbnail_sha256": "81a5c1e37bec98ff98cda1c4cdab05ebbb085e924b1380d1ec8d636bd13c561e",
-          "duration_label": null,
-          "aspect_ratio": 1.9230769230769231
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "😁",
-          "count": "393"
-        },
-        {
-          "emoji": "❤",
-          "count": "49"
-        },
-        {
-          "emoji": "👍",
-          "count": "27"
-        },
-        {
-          "emoji": "💯",
-          "count": "6"
-        },
-        {
-          "emoji": "💔",
-          "count": "3"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        },
-        {
-          "emoji": "🆒",
-          "count": "1"
-        }
-      ],
-      "views_label": "28.8K",
-      "posted_at": "2026-11-02T05:53:15+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5753",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5752",
-        "author_name": "Matin SenPai",
-        "preview_text": "ایجنت StreamVibe: ویدئوایجنتی که باید بفهمد کی کمک کند ویدئوایجنت یعنی مدلی که ویدئو را دنبال می‌کند و در لحظه‌ی مناسب وارد تعامل می‌شود. تیمی به رهبری Google، پژوهشی به نام StreamVibe ساخته تا هنگام آشپزی یا سرهم‌کردن وسایل، فقط وقتی لازم است پیشنهاد کمک…",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/TMky42jxVvRbAzWChQupGOzqrTWIDfmj03aai4AavKA_nOHog8MiKasJv_0hnHdtb12iPVxXfLC9dxPcw241ACi0q5zaOYR2TiWXifA2I1Cl0ZKOAknf5DvI9JufYwJyeqEUnMcy9BAGHVXjRHTf5EZpoXoypOJgvW0RPQKLeM-D4qdRZ1BxD4iT4Z-7tNCib303bZMux-98pfg8XWApzEyJBrFRktbn8E1Y9VyKzW7KcsCg3EQ8pKtoEM4xwjg06f-HgXWORspAW2XDPcUBQJuAhczkiUv19MR9Crs0GX_GsffWvM5Z8laGZTCpgmjL36zmNjlpz5cM79xUj012mw.jpg",
-        "thumbnail_path": "channels/matinsenpaii/media/d2edca67eab7f42973eda0dc.jpg",
-        "thumbnail_sha256": "c0bf30888b7d3ea43f275991459ac4e2406773ce6c5c397c1ecc17f44a974846",
-        "permalink": "https://t.me/matinsenpaii/5752"
-      }
-    },
-    {
-      "id": "MatinSenPaii/5752",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>ایجنت StreamVibe: ویدئوایجنتی که باید بفهمد کی کمک کند</b><br><br>ویدئوایجنت یعنی مدلی که ویدئو را دنبال می‌کند و در لحظه‌ی مناسب وارد تعامل می‌شود. تیمی به رهبری Google، پژوهشی به نام StreamVibe ساخته تا هنگام آشپزی یا سرهم‌کردن وسایل، فقط وقتی لازم است پیشنهاد کمک بدهد. بنچمارک‌شان نشان می‌دهد مدل‌های آزمایش‌شده هنوز در ویدئوهای طولانی زمان درست مداخله را قابل‌اعتماد تشخیص نمی‌دهند؛ خطاها جمع می‌شود و کیفیت پاسخ افت می‌کند.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"> منبع</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "ایجنت StreamVibe: ویدئوایجنتی که باید بفهمد کی کمک کند\n\nویدئوایجنت یعنی مدلی که ویدئو را دنبال می‌کند و در لحظه‌ی مناسب وارد تعامل می‌شود. تیمی به رهبری Google، پژوهشی به نام StreamVibe ساخته تا هنگام آشپزی یا سرهم‌کردن وسایل، فقط وقتی لازم است پیشنهاد کمک بدهد. بنچمارک‌شان نشان می‌دهد مدل‌های آزمایش‌شده هنوز در ویدئوهای طولانی زمان درست مداخله را قابل‌اعتماد تشخیص نمی‌دهند؛ خطاها جمع می‌شود و کیفیت پاسخ افت می‌کند.\n\n🔗 منبع\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5752",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/tl4pwhabT3trMgn-3_Y8kF60m2QQyoTwwdvRiPqQrfJytgf6YmyipThIWMuqdfEU7Rg9_q8ly3b5PdoNDlhPqUNUNR76icT0esQyMwCp-a3zyW5LCp5xRX1cV1PRSI1fD309jnbOR_gkBJhEDS3AVsbvum6pZcrPiREdqMl8nJKxrv2lq8_eC8a_tWErtz7REEGnuLfToXomXqwj-UimAYjIQdnqdtsYhcSjNADLAbbRd0cb8F9faaCuccy5IdHPH0XDqvXFt_CkdO3SefLQauPaFBOKfpePXF65Ir992XU88hfVFQGnPPY784euwIAEaluT997SaoadUlqK8tmmFQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/a31ca6e8a5629be4796db979.jpg",
-          "thumbnail_sha256": "f740b60542832e3df9ce9a858dea1c4fe85146b38ffd5a07c6db6ef62a9aae59",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "127"
-        },
-        {
-          "emoji": "💯",
-          "count": "8"
-        },
-        {
-          "emoji": "🆒",
-          "count": "4"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        },
-        {
-          "emoji": "😁",
-          "count": "3"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "28.5K",
-      "posted_at": "2026-11-02T05:42:57+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5752",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5751",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "این هم عکسیه که برای اثبات حرفش گذاشته",
-      "plain_text": "این هم عکسیه که برای اثبات حرفش گذاشته",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5751",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/MRdzkYuNoVET3pubiu_ltOUd03CrLgOSNmOYpVNFyxuPiGSM_S7MmBWiuckWbY_qJkmvijgOKIrDqGoasb8e2etLKbmjkBlIN-t1223fysD01iVGYNSYnXMktS4IPhIBJ_xSWFfsJ_4oi2wQt3UxFCEEBTZznJsv9g2Q0tymmQV85Rqi-IeBY6r7UN4JmjKcZu9KXwadqE2n0bw34DRQDWYsobH2Ds_Lu2dm-eefEF2w62-z08cnwbhNk-8RAHDYXBxHuV-7i35vgERulKVpCIrYGQnpHubRuTTkihCWGoBlryhj-IOyyKnJ17OTaNFKDRAMKQd4VEEZuKQBXuhnMA.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/f684a143eebab34d5bf4ee69.jpg",
-          "thumbnail_sha256": "7923c728d66a73c16dec7c4ff1b62b0371eaf16cb1b76aadc4f33c84ad5b9716",
-          "duration_label": null,
-          "aspect_ratio": 1.10803324099723
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "132"
-        },
-        {
-          "emoji": "😁",
-          "count": "20"
-        },
-        {
-          "emoji": "👍",
-          "count": "5"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        }
-      ],
-      "views_label": "29.2K",
-      "posted_at": "2026-11-01T17:43:01+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5751",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5750",
-        "author_name": "Matin SenPai",
-        "preview_text": "شایعه Fable 5.5 و Mythos 5.5 و Opus-Next دوباره داغ شده یکی توی توییتر این ویدیو رو گذاشته و می‌گه خروجی مدلیه که هنوز معرفی نشده. چیزی که می‌بینید یه فایل HTML ـه با انیمیشن سه‌بعدی یه پلیکان واقع‌گرایانه سوار دوچرخه، که به ادعای خودش با یه پرامپت و یه ضرب…",
-        "thumbnail_url": "https://cdn1.telesco.pe/file/mic5EaQe_9wnCS5e1lSyrZhBHdMc000iCnTLN2irIHQ3hM5GWP5Xj2ub-HMqLIB8i1TSLPyX_6MVcfln4_0kepEMP13Gz37U5b2qojBc9Q4UKM14x81iKWxLu0ZR7BdZQFBtbvSK6ariBKMdZPJwppEj9DaYuxz004YagYW7iKbEK5t4dgoU1ZbRXQDCPblBYVn4OhuEpzXFHHAM4YcJut8tjWU_RwKgqvu8qIT-rbZ3zknUdVJXKfL0E55qYKh02tDRZev_5fEB6d8PHxuIM2F18ynuWr7h5ZeHBbbI_zIyKRC7ptxbB_EBLs6MEYmfGL-G3ClJ5RdWTo_lFG8yeg",
-        "thumbnail_path": "channels/matinsenpaii/media/0928f9e02876cc12601ececd.jpg",
-        "thumbnail_sha256": "8402b923bb93e43cacf6dae3a94e6456cfe02c4b8e03a3c0a34d8e0a5fea5d47",
-        "permalink": "https://t.me/matinsenpaii/5750"
-      }
-    },
-    {
-      "id": "MatinSenPaii/5750",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>شایعه Fable 5.5 و Mythos 5.5 و Opus-Next دوباره داغ شده</b><br><br>یکی توی توییتر این ویدیو رو گذاشته و می‌گه خروجی مدلیه که هنوز معرفی نشده. چیزی که می‌بینید یه فایل HTML ـه با انیمیشن سه‌بعدی یه پلیکان واقع‌گرایانه سوار دوچرخه، که به ادعای خودش با یه پرامپت و یه ضرب ساخته شده. ادعای اصلیش اینه که کلاد بعضی حساب‌ها رو بی‌سر و صدا به مدل جدید وصل کرده و این ویدیو هم مدرکشه.<br><br>پرامپت پلیکان و دوچرخه رو هم در جریانش هستید دیگه، همون تست معروفه برای سنجیدن مدل‌ها.<br>قبلا اینجا گذاشته بودم: <a href=\"https://t.me/MatinSenPaii/5625\" target=\"_blank\" rel=\"noopener\">https://t.me/MatinSenPaii/5625</a><br>یه تست دیگه هم پیشنهاد کرده: بدون سرچ و بدون حافظه از مدل بپرسید کارپاتی ۲۰۲۶ کجا رفته؛ می‌گه فقط مدل جدید جوابش رو بلده.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"http://x.com/chetaslua/status/2116882694026269148\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "شایعه Fable 5.5 و Mythos 5.5 و Opus-Next دوباره داغ شده\n\nیکی توی توییتر این ویدیو رو گذاشته و می‌گه خروجی مدلیه که هنوز معرفی نشده. چیزی که می‌بینید یه فایل HTML ـه با انیمیشن سه‌بعدی یه پلیکان واقع‌گرایانه سوار دوچرخه، که به ادعای خودش با یه پرامپت و یه ضرب ساخته شده. ادعای اصلیش اینه که کلاد بعضی حساب‌ها رو بی‌سر و صدا به مدل جدید وصل کرده و این ویدیو هم مدرکشه.\n\nپرامپت پلیکان و دوچرخه رو هم در جریانش هستید دیگه، همون تست معروفه برای سنجیدن مدل‌ها.\nقبلا اینجا گذاشته بودم: https://t.me/MatinSenPaii/5625\nیه تست دیگه هم پیشنهاد کرده: بدون سرچ و بدون حافظه از مدل بپرسید کارپاتی ۲۰۲۶ کجا رفته؛ می‌گه فقط مدل جدید جوابش رو بلده.\n\n🔗منبع\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/MatinSenPaii/5750",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/QpW0k6Q9TSqTRUCzLXfKPdyOQZwgyTlQCCnFMtDvJNszC2j7U5npDUUue7VMSsNVqd1TU8sPsVMPYkHJLKKqQyUo-KilXkWjKLEPftiMJOfg071E_COnOJC9YbpIObDHZG-qzNPC9fR9PwFEatAsvmLHYnlJ_MrvUoAepC36eYF7t2MOWl-jtocSgB8hO95L_YUGPdLaB1LuMn9GQlmHcj05OOGej3MrOOfTQsJP8LyzByyH9Of2Olak2W5ksqfxxyCYlBlEmFDxJ0-oWXiBt6zA873S_BGF53464obssW2eQ_AqgNwqXobHRuRadQy5ItwfI8t04uF583yFq8rESQ",
-          "thumbnail_path": "channels/matinsenpaii/media/5c52d65ce172b5ecd4e4302f.jpg",
-          "thumbnail_sha256": "8402b923bb93e43cacf6dae3a94e6456cfe02c4b8e03a3c0a34d8e0a5fea5d47",
-          "duration_label": "0:15",
-          "aspect_ratio": 1.5472222222222156
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "147"
-        },
-        {
-          "emoji": "😁",
-          "count": "18"
-        },
-        {
-          "emoji": "👍",
-          "count": "9"
-        },
-        {
-          "emoji": "🆒",
-          "count": "7"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        }
-      ],
-      "views_label": "28.3K",
-      "posted_at": "2026-11-01T17:27:11+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5750",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5749",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/SW92lyMlKQtOnQJCwfdFkfxMNdSuTIZMc1y6Xr9KraP5sNXT91nvoQ3MR7cuL8fQfwrb7uLf4STMlWjW_bG98WL1dn_9oP7G3fEHtP5uGi36lpp581nAh15gPzJxul4eWeacAY4LTy6zNK8QwMzy5potfhN53eD6oWmGik5R6u0Z4wjZ9sEJ78evEOuJ8k4OaVRdZpg3-x-GA_0rOf9CHLgEb6hkrP7c7u55aw3EX2wtGjIfuX55zW6Ghfma0J60hOMUPFq1nxctlk-Xh6ORoYXqgBJUDMSNGyWHnhrZiSWLNywrGi0efYTBXpdpT5938gA4A0esTWmyEeJrqVENyA.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/0cbb943941acdfc92929d670.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "هوش مصنوعی درسته که ممکنه دچار Hallucination بشه(که اونم خیلی خیلی کمتر شده با مدلهای به روز)، ولی <br>1- مگه جواب سرچ‌ها همیشه درست بود؟<br>2- خیلی از ابزارهای جدید جواب رو همراه با منبع می‌دن و By default سرچشون On هست. مثل Grok<br>3- برای کارهای روزمره، جواب سریع و خلاصه‌ی هوش مصنوعی بارها ارزشمندتر از ده دقیقه گشتن بین سایت‌های مختلفه، و اگر موضوع حساس بود، همیشه می‌شه جواب رو دابل چک کرد",
-      "plain_text": "هوش مصنوعی درسته که ممکنه دچار Hallucination بشه(که اونم خیلی خیلی کمتر شده با مدلهای به روز)، ولی\n1- مگه جواب سرچ‌ها همیشه درست بود؟\n2- خیلی از ابزارهای جدید جواب رو همراه با منبع می‌دن و By default سرچشون On هست. مثل Grok\n3- برای کارهای روزمره، جواب سریع و خلاصه‌ی هوش مصنوعی بارها ارزشمندتر از ده دقیقه گشتن بین سایت‌های مختلفه، و اگر موضوع حساس بود، همیشه می‌شه جواب رو دابل چک کرد",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "307"
-        },
-        {
-          "emoji": "❤",
-          "count": "25"
-        },
-        {
-          "emoji": "💔",
-          "count": "6"
-        },
-        {
-          "emoji": "😁",
-          "count": "5"
-        },
-        {
-          "emoji": "🦄",
-          "count": "2"
-        }
-      ],
-      "views_label": "27.2K",
-      "posted_at": "2026-11-01T14:29:22+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5749",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5748",
-        "author_name": "Matin SenPai",
-        "preview_text": "من زدم خوبه. به نظرم خوبی‌هاش به قدری هست که بدی‌ها به چشم نیان سرعت و صرفه‌جویی توی زمان، دقت بالاتر و احتمال پایینتر سرچ اشتباه، و ده‌ها دلیل دیگه. دید من به استفاده‌ی عمومیه. نه برنامه‌نویسی یا استفاده‌ی تخصصی «درمان بیماری سرخک» «کاربرد جوش شیرین در…",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/5748"
-      }
-    },
-    {
-      "id": "MatinSenPaii/5748",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Z3vduRC5d7NFalc5mUfFIlDVkt06F9hEPKQRYCxNHgyXGNWdOgJoccCNVqB6oqwosM5dTWXHGBP_ZYD0i0B01XDcCZgglsOnDo51_2OlddFcrcRnsicv71n0EXVfVbrK_zUuAsrSTpXVJdH5KFQQlzaxDKaQumV56EVHBBz7fDLS758oFCGvhD3mIpE3129cVXfllJfKCXpbknu6IYWhzXxU7OIPZn8plgNW-_BzQRGS5TNjg4Q0LV3azQ6-BywFsb7HI0wLIut-YGN41bkBq6M2eIPKElAn1rmrABFSbPsWAhN0a2tl-OlQbi0MaWqTqE3DqUu37qinT_wBg9Cf7Q.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/fed88a823493cd8912bf3231.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "من زدم خوبه. به نظرم خوبی‌هاش به قدری هست که بدی‌ها به چشم نیان<br>سرعت و صرفه‌جویی توی زمان،<br>دقت بالاتر و احتمال پایینتر سرچ اشتباه،<br>و ده‌ها دلیل دیگه.<br><br>دید من به استفاده‌ی عمومیه. نه برنامه‌نویسی یا استفاده‌ی تخصصی<br><br>«درمان بیماری سرخک»<br>«کاربرد جوش شیرین در آشپزخانه»<br>«غذای خرگوش»<br>«جواب مسئله درسی»<br><br>قبلا این عبارات رو باید سرچ میکردیم، تازه میرفتیم توی یه وبسایت که کلی متن غیرضروری نوشته بود و ته تهش با هزار جور تبلیغات، جوابمون رو آیا پیدا می‌کردیم آیا نمی‌کردیم",
-      "plain_text": "من زدم خوبه. به نظرم خوبی‌هاش به قدری هست که بدی‌ها به چشم نیان\nسرعت و صرفه‌جویی توی زمان،\nدقت بالاتر و احتمال پایینتر سرچ اشتباه،\nو ده‌ها دلیل دیگه.\n\nدید من به استفاده‌ی عمومیه. نه برنامه‌نویسی یا استفاده‌ی تخصصی\n\n«درمان بیماری سرخک»\n«کاربرد جوش شیرین در آشپزخانه»\n«غذای خرگوش»\n«جواب مسئله درسی»\n\nقبلا این عبارات رو باید سرچ میکردیم، تازه میرفتیم توی یه وبسایت که کلی متن غیرضروری نوشته بود و ته تهش با هزار جور تبلیغات، جوابمون رو آیا پیدا می‌کردیم آیا نمی‌کردیم",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "343"
-        },
-        {
-          "emoji": "❤",
-          "count": "23"
-        },
-        {
-          "emoji": "🦄",
-          "count": "4"
-        },
-        {
-          "emoji": "💔",
-          "count": "2"
-        },
-        {
-          "emoji": "🆒",
-          "count": "2"
-        }
-      ],
-      "views_label": "27.4K",
-      "posted_at": "2026-11-01T14:24:57+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5748",
-      "reply": {
-        "channel_username": "matinsenpaii",
-        "post_id": "5747",
-        "author_name": "",
-        "preview_text": "",
-        "thumbnail_url": null,
-        "thumbnail_path": null,
-        "thumbnail_sha256": null,
-        "permalink": "https://t.me/matinsenpaii/5747"
-      }
-    },
-    {
-      "id": "MatinSenPaii/5747",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Z3vduRC5d7NFalc5mUfFIlDVkt06F9hEPKQRYCxNHgyXGNWdOgJoccCNVqB6oqwosM5dTWXHGBP_ZYD0i0B01XDcCZgglsOnDo51_2OlddFcrcRnsicv71n0EXVfVbrK_zUuAsrSTpXVJdH5KFQQlzaxDKaQumV56EVHBBz7fDLS758oFCGvhD3mIpE3129cVXfllJfKCXpbknu6IYWhzXxU7OIPZn8plgNW-_BzQRGS5TNjg4Q0LV3azQ6-BywFsb7HI0wLIut-YGN41bkBq6M2eIPKElAn1rmrABFSbPsWAhN0a2tl-OlQbi0MaWqTqE3DqUu37qinT_wBg9Cf7Q.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/fed88a823493cd8912bf3231.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "",
-      "plain_text": "",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "65"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        }
-      ],
-      "views_label": "26.1K",
-      "posted_at": "2026-11-01T14:18:01+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5747",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5746",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Z3vduRC5d7NFalc5mUfFIlDVkt06F9hEPKQRYCxNHgyXGNWdOgJoccCNVqB6oqwosM5dTWXHGBP_ZYD0i0B01XDcCZgglsOnDo51_2OlddFcrcRnsicv71n0EXVfVbrK_zUuAsrSTpXVJdH5KFQQlzaxDKaQumV56EVHBBz7fDLS758oFCGvhD3mIpE3129cVXfllJfKCXpbknu6IYWhzXxU7OIPZn8plgNW-_BzQRGS5TNjg4Q0LV3azQ6-BywFsb7HI0wLIut-YGN41bkBq6M2eIPKElAn1rmrABFSbPsWAhN0a2tl-OlQbi0MaWqTqE3DqUu37qinT_wBg9Cf7Q.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/fed88a823493cd8912bf3231.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>به نظرتون چرا هر چی AI می‌سازه شبیه همه؟<br>جواب: چون جلوش رو هیچی نمی‌گیره<br></b><br>یه قانون‌نامه‌ی اوپن‌سورس هست به اسم Anti-Slop که دقیقا برای همین ساخته شده.<br>۴۰ تا قانون سخت و اجباری که ایجنت کدنویسی‌تون اول هر Session می‌خونه و خروجی کلیشه‌ای رو قبل از این که شیپ بشه فیلتر می‌کنه.<br><br>خود سازنده توی ریپو رک می‌گه که این ابزار یه فیلتره، راهنمای سبک نیست. رنگ و فونت تجویز نمی‌کنه، صرفا چیزهای زائد رو حذف می‌کنه و جهت با خودتونه.<br><br>هر چیزی که بوی AI میده رو حذف می‌کنه. توی عکس می‌تونید قبل و بعد رو ببینید<br><br>نصبش هم با یه دستوره و با Claude Code و Hermes و Codex و OpenCode و بیشتر ایجنت‌ها کار می‌کنه:<br><blockquote>npx antislop-ai</blockquote><br>یا توی خود کلاد کد:<br><blockquote>/plugin install antislop@anti-slop</blockquote><br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji>لینک پروژه:<br><a href=\"http://github.com/miqdadbadjuber/anti-slop\" target=\"_blank\" rel=\"noopener\">github.com/miqdadbadjuber/anti-slop</a><br><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "به نظرتون چرا هر چی AI می‌سازه شبیه همه؟\nجواب: چون جلوش رو هیچی نمی‌گیره\n\nیه قانون‌نامه‌ی اوپن‌سورس هست به اسم Anti-Slop که دقیقا برای همین ساخته شده.\n۴۰ تا قانون سخت و اجباری که ایجنت کدنویسی‌تون اول هر Session می‌خونه و خروجی کلیشه‌ای رو قبل از این که شیپ بشه فیلتر می‌کنه.\n\nخود سازنده توی ریپو رک می‌گه که این ابزار یه فیلتره، راهنمای سبک نیست. رنگ و فونت تجویز نمی‌کنه، صرفا چیزهای زائد رو حذف می‌کنه و جهت با خودتونه.\n\nهر چیزی که بوی AI میده رو حذف می‌کنه. توی عکس می‌تونید قبل و بعد رو ببینید\n\nنصبش هم با یه دستوره و با Claude Code و Hermes و Codex و OpenCode و بیشتر ایجنت‌ها کار می‌کنه:\nnpx antislop-ai\nیا توی خود کلاد کد:\n/plugin install antislop@anti-slop\n\n🔗لینک پروژه:\ngithub.com/miqdadbadjuber/anti-slop\n\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5746",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/WKSnm_sr1TnyAKdGwcYC12d3Elg_6x3DFTDve7MeJ1wQftXfYwId8RRg1G2Ykx7XG2wrL3B9yaf1XMhs0h_PqNJXpieRFgiMrrfiw_gkvga1l0NNPKnfWNZeFZOZ26OQFyvhmebvD4frPPKQG2knofjdxB7NkZ_oC3-5A4m6E1M3fgcSaOIwsXQDUTsuw9bxtfloKgthw176T0yL6L9LqoP9h-54h7f27t1GvNijeFVeOuYjQNnaDdHLmpc5CrbXJ_LMEhsd0XPlGFyPIqjvTOcer5Y8SY2vgSzhYkpjxuvTTn0qc9sGCXBhOhux6c0PZRFF7csr4vTEw3DfCHyHtw.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/35e2960419fbcff3e0e7e050.jpg",
-          "thumbnail_sha256": "e574fe5e84ba2b71b88a5d388704a715f184415ee44de5d93532a92b0ec40e18",
-          "duration_label": null,
-          "aspect_ratio": 1.1695906432748537
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "191"
-        },
-        {
-          "emoji": "👍",
-          "count": "38"
-        },
-        {
-          "emoji": "😁",
-          "count": "4"
-        },
-        {
-          "emoji": "💯",
-          "count": "2"
-        },
-        {
-          "emoji": "🆒",
-          "count": "2"
-        }
-      ],
-      "views_label": "31.4K",
-      "posted_at": "2026-11-01T07:20:21+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5746",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5745",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Z3vduRC5d7NFalc5mUfFIlDVkt06F9hEPKQRYCxNHgyXGNWdOgJoccCNVqB6oqwosM5dTWXHGBP_ZYD0i0B01XDcCZgglsOnDo51_2OlddFcrcRnsicv71n0EXVfVbrK_zUuAsrSTpXVJdH5KFQQlzaxDKaQumV56EVHBBz7fDLS758oFCGvhD3mIpE3129cVXfllJfKCXpbknu6IYWhzXxU7OIPZn8plgNW-_BzQRGS5TNjg4Q0LV3azQ6-BywFsb7HI0wLIut-YGN41bkBq6M2eIPKElAn1rmrABFSbPsWAhN0a2tl-OlQbi0MaWqTqE3DqUu37qinT_wBg9Cf7Q.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/fed88a823493cd8912bf3231.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>مدل Opus مدیر پروژه، DeepSeek تیم اجرایی؛ ۶۳٪ توکن کمتر</b><br><br>یه توسعه‌دهنده پلاگینی ساخته برای کلاد کد به اسم Cheap Agent که تقسیم کار می‌کنه: Opus فقط برنامه‌ریزی می‌کنه و تسک‌های کوتاه و دقیق می‌نویسه، بعد یه مدل ارزون (DeepSeek V4.1 Flash از OpenRouter، حدود نیم سنت برای هر تسک بزرگ به طور میانگین) کد رو توی یه کپی جدا از ریپو می‌نویسه.<br><br>شرطش هم اینه که مدل ارزون باید اول یه تست بنویسه که قبل از فیکس رد بشه و بعدش قبول بشه و خود ابزار تست رو اجرا می‌کنه؛ فقط کاری که تستش پاس بشه برمی‌گرده برای بازبینی شما. اگه مدل ارزون گیر کنه، Sonnet اون قدم رو تموم می‌کنه، نه Opus.<br><br>عددهای سازنده روی SWE-bench Verified با Opus 5.5:<br>اضافه کردن یه فیچر: از ۱۵۴ هزار توکن Opus رسیده به ۵۷ هزار، یعنی ۶۳٪ کمتر<br>۷ باگ معمولی: ۵۹٪ کمتر و هر ۷ تا رو هر دو روش حل کردن<br><br>اوپن‌سورس و رایگانه و مدل ارزون روی API key خودتون کار می‌کنه. نصب:<br><blockquote>npx cheap-agent</blockquote><br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji><a href=\"https://www.reddit.com/r/ClaudeCoding/comments/1xjr68j/made_opus_the_principal_dev_and_deepseek_its_team/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "مدل Opus مدیر پروژه، DeepSeek تیم اجرایی؛ ۶۳٪ توکن کمتر\n\nیه توسعه‌دهنده پلاگینی ساخته برای کلاد کد به اسم Cheap Agent که تقسیم کار می‌کنه: Opus فقط برنامه‌ریزی می‌کنه و تسک‌های کوتاه و دقیق می‌نویسه، بعد یه مدل ارزون (DeepSeek V4.1 Flash از OpenRouter، حدود نیم سنت برای هر تسک بزرگ به طور میانگین) کد رو توی یه کپی جدا از ریپو می‌نویسه.\n\nشرطش هم اینه که مدل ارزون باید اول یه تست بنویسه که قبل از فیکس رد بشه و بعدش قبول بشه و خود ابزار تست رو اجرا می‌کنه؛ فقط کاری که تستش پاس بشه برمی‌گرده برای بازبینی شما. اگه مدل ارزون گیر کنه، Sonnet اون قدم رو تموم می‌کنه، نه Opus.\n\nعددهای سازنده روی SWE-bench Verified با Opus 5.5:\nاضافه کردن یه فیچر: از ۱۵۴ هزار توکن Opus رسیده به ۵۷ هزار، یعنی ۶۳٪ کمتر\n۷ باگ معمولی: ۵۹٪ کمتر و هر ۷ تا رو هر دو روش حل کردن\n\nاوپن‌سورس و رایگانه و مدل ارزون روی API key خودتون کار می‌کنه. نصب:\nnpx cheap-agent\n\n🔗منبع\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/MatinSenPaii/5745",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/rRWs9AX8xuFTSjLeSBMTbY4PofuwJCz4BYvm7tdam8VmcqvKVsyXDKUag1QMYX2JDRB--masC-Nv5RPjWQCrtTvbW4-fy8bTAp2AUPVKLVl56U8ks9Ax6ahtIm_RHBPCOr6Ca8BLP8a9uj56_UfAMnul_NyM9iSEvZuFLkBGtwU1qIFtEvJWVx_rJDZuKBk9qrvTQHOVAuOKWYqWoEBnRyRD5mmEwWAYdAlkwKYBF31iL_nny4zfI2Vq8kS-Q-nKYHYwW0rrEdSGXyapVUMvigVSBSWrBklxNtJKqVJ-jJbxa8MbGu2m59M0KL9ifvbHJGxqc0eEpgdKS-VU5VgFUg",
-          "thumbnail_path": "channels/matinsenpaii/media/858e2d2a328d6916b26fef09.jpg",
-          "thumbnail_sha256": "77912cadaf437c37166a0943c987fe5e1a64a3f3249a4aff1b84cb57cd298d8e",
-          "duration_label": null,
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "181"
-        },
-        {
-          "emoji": "👍",
-          "count": "25"
-        }
-      ],
-      "views_label": "29K",
-      "posted_at": "2026-11-01T04:52:02+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5745",
       "reply": null
     }
   ]
