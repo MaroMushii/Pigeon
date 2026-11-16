@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-16T19:31:57.912Z",
+  "fetched_at": "2026-11-16T19:36:57.332Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -11,6 +11,34 @@
     "subscriber_count": "135K"
   },
   "posts": [
+    {
+      "id": "farsivoa/237373",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/OFlUAWVWx4cLIzbSoae4MHvCu9BeGqXZ9gA-BUpNcmFyUWSg-wUWZvZXb2JlK2fMXtFfU6C43iECtFp6sg5Lgi7QqJ1VyyDTBcYVVUZeijlmxXkhTFsbtMzWyV2gEGQ7E_pvlcDcLaR3nkXGgr2ngFGHc1aUb3YJCW4y4Rc42kcu3gfdsFjiCDzs8tfBBRdlNSC2On-q4-_aLk7JVf6rS9Ff4xPIL2RcszRSxZK9QSUrIhugEXLCbwtlbL15AgOxWDCRRTPc0axp1qMkzN6xu1PARzDuu6eKlY8y26Wu47JAmEQxVW3NzEZZzs_BR_o736esCoKRfq9etvNAB6cmSg.jpg",
+      "author_photo_path": "channels/farsivoa/media/39443c5adf6bbee509c6dfff.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "رزا محتشم در پنجمین روایت از پادکست «رویای آمریکایی» به سراغ مریلین مونرو رفته است. کامل آن را یوتیوب ببینید:<br> <br><a href=\"https://www.youtube.com/watch?v=LmZhoSh5o9k&amp;t=18s\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=LmZhoSh5o9k&amp;t=18s</a><br><br>و یا در ساوندکلاود بشنوید:<br><br><a href=\"https://teams.microsoft.com/l/message/19:79089aa9-d63f-4d0f-8660-32750ff852bf_9443e165-fd4d-409f-bcff-25d91f2e927e@unq.gbl.spaces/1794857178146?context=%7B%22contextType%22%3A%22chat%22%7D\" target=\"_blank\" rel=\"noopener\">https://teams.microsoft.com/l/message/19:79089aa9-d63f-4d0f-8660-32750ff852bf_9443e165-fd4d-409f-bcff-25d91f2e927e@unq.gbl.spaces/1794857178146?context=%7B%22contextType%22%3A%22chat%22%7D</a>",
+      "plain_text": "رزا محتشم در پنجمین روایت از پادکست «رویای آمریکایی» به سراغ مریلین مونرو رفته است. کامل آن را یوتیوب ببینید:\n\nhttps://www.youtube.com/watch?v=LmZhoSh5o9k&t=18s\n\nو یا در ساوندکلاود بشنوید:\n\nhttps://teams.microsoft.com/l/message/19:79089aa9-d63f-4d0f-8660-32750ff852bf_9443e165-fd4d-409f-bcff-25d91f2e927e@unq.gbl.spaces/1794857178146?context=%7B%22contextType%22%3A%22chat%22%7D",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/237373",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/WeLN-ldgBzlSFWl6bk1OhwljhXmAn9IX-zwbWrbPAfXnN0tymvZ_kdj0DfBZO5UrSk2-iA-WBATqTRQLW_ifowXvIbkjoqRdtJQ8QMSWr9AhVWGpZasQ8jValyWJdJGJXQZ7Ozty0j6yTwqF8Y7bcCqIOxI5U3IofOPuxoslWpa0a58ZnjzCIw8Kx-JxELc9q0h0ob9P6YM8ozQObqT_04oDxayQkWvrbyzjRY010LfsI9JhUJf_OxZuhUF1Hy70dnTntCL-sN-Sa-tluVMnBB_4MXS577c7JqHWgxzpM5C1XL-hlnsIaS1oF5COIRFQk2yH_FnFtV_1vn03JqGczA",
+          "thumbnail_path": "channels/farsivoa/media/4cef8bba938011a4bfac3a7a.jpg",
+          "thumbnail_sha256": "60839f4a3d33a7a15f8d928869d4bd6af0eeae91ddf845aa30251ab94003e05f",
+          "duration_label": "1:37",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "223",
+      "posted_at": "2026-11-16T19:33:10+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/237373",
+      "reply": null
+    },
     {
       "id": "farsivoa/237370",
       "author_name": "Farsi VOA",
@@ -55,7 +83,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "382",
+      "views_label": "637",
       "posted_at": "2026-11-16T19:26:26+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237370",
@@ -83,7 +111,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "922",
+      "views_label": "1.18K",
       "posted_at": "2026-11-16T19:14:17+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237369",
@@ -111,7 +139,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.3K",
+      "views_label": "1.5K",
       "posted_at": "2026-11-16T19:06:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237368",
@@ -139,7 +167,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.56K",
+      "views_label": "1.72K",
       "posted_at": "2026-11-16T18:56:19+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237367",
@@ -167,7 +195,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.94K",
+      "views_label": "2.07K",
       "posted_at": "2026-11-16T18:48:18+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237366",
@@ -183,7 +211,7 @@
       "plain_text": "🔺دولت عراق رسما گروه نیابتی جمهوری اسلامی را به قاچاق نفت در جرف‌ الصخر متهم کرد\n\n◾️برای نخستین بار یک مقام دولتی عراق کتائب حزب‌الله، بزرگترین گروه مسلح تحت حمایت جمهوری اسلامی، را صراحتا به قاچاق نفت این کشور متهم کرد. این در حالی است که علی الزیدی، نخست‌وزیر عراق، دستور ورود نیروهای نظامی به منطقه جرف‌ الصخر و بیرون کردن کتائب حزب‌الله را صادر کرده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iraq-jurf-alsakhar-iran-militia/8224163.html",
       "media": [],
       "reactions": [],
-      "views_label": "2.51K",
+      "views_label": "2.6K",
       "posted_at": "2026-11-16T18:32:39+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237365",
@@ -211,7 +239,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.28K",
+      "views_label": "2.37K",
       "posted_at": "2026-11-16T18:29:28+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237364",
@@ -239,7 +267,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.24K",
+      "views_label": "2.34K",
       "posted_at": "2026-11-16T18:27:05+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237363",
@@ -267,7 +295,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.52K",
+      "views_label": "2.61K",
       "posted_at": "2026-11-16T18:14:59+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237362",
@@ -295,7 +323,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.46K",
+      "views_label": "2.55K",
       "posted_at": "2026-11-16T18:09:45+00:00",
       "edited": true,
       "permalink": "https://t.me/farsivoa/237361",
@@ -323,7 +351,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.36K",
+      "views_label": "2.43K",
       "posted_at": "2026-11-16T18:07:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237360",
@@ -351,7 +379,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.37K",
+      "views_label": "2.43K",
       "posted_at": "2026-11-16T18:06:11+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237359",
@@ -383,7 +411,7 @@
       "plain_text": "🔴📢‌ پادکست تفسیر خبر - دوشنبه ۲۵ آبان \n\n🛜در صورتی که با مشکل اینترنت مواجه هستید میتوانید اخبار صدای آمریکا را از نسخه‌های پادکست خبری ما به صورت صوتی دنبال کنید و یا اخبار را از نسخه سبک وب‌سایت ما پیگیر باشید:\nhttps://ir.voanews.com/lite\n\n📡بروزترین فرکانسهای ماهواره‌ای را نیز میتوانید از صفحه زیر پیگیری کنید:\nhttps://ir.voanews.com/satellite\n\n🔔دیگر شبکه‌های اجتماعی ما را هم دنبال کنید:\nhttps://linktr.ee/voafarsi\n\n\nبا دوستانتان به اشتراک بگذارید\n@farsivoa",
       "media": [],
       "reactions": [],
-      "views_label": "2.22K",
+      "views_label": "2.31K",
       "posted_at": "2026-11-16T18:05:35+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237357",
@@ -411,7 +439,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.92K",
+      "views_label": "2.98K",
       "posted_at": "2026-11-16T17:17:04+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237356",
@@ -439,7 +467,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.85K",
+      "views_label": "2.91K",
       "posted_at": "2026-11-16T17:14:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237355",
@@ -455,7 +483,7 @@
       "plain_text": "🔺پرزیدنت ترامپ: درباره جمهوری اسلامی با رهبران چین و روسیه گفت‌وگو خواهیم کرد\n\n▪️پرزیدنت ترامپ اعلام کرد که موضوع جمهوری اسلامی در گفت‌وگوهای پیش‌روی او با رهبران چین و روسیه مطرح خواهد شد. او همچنین در پاسخ به پرسشی درباره درخواست احتمالی از چین برای توقف خرید نفت جمهوری اسلامی، از اعلام جزئیات خودداری کرد.\n\n⬇️ بیشتر بخوانید:\nhttps://ir.voanews.com/a/president-trump-plans-iran-talks-in-china/8224213.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.94K",
+      "views_label": "2.97K",
       "posted_at": "2026-11-16T17:09:54+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237354",
@@ -2477,34 +2505,6 @@
       "posted_at": "2026-11-15T20:51:50+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237270",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/237269",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/MU8a-X2EIxrSd74R0Cxzz-ypNyy3Xsf0gXHcPw7J0rBSoOdiHPnt3dTIEIFVr9i2S-PiLx9dKX8i7NuKgfyJZGqs52b2k-BzzR82QTRveEbMptvSea6toJTNJyFRzPHsjcdcQJau46PaABzWx0GJW-dNoYsdqcZN_2ZI0DNie4vcK1XS1DJ2HKNQRHCLqGaDyCwZclHsQku5h70MCD8jFGpsgJoOa9bPhAZzuDbBffS-uKMM3EcezEVU6PgswC9HHL5TQXHO8p82EoRdVexLzkOAwYMb2-DektDraFFh8kd6nZNEh55aGXFWyDgBvXqhPZJ0a7vuG8mUaGN1xotzXA.jpg",
-      "author_photo_path": "channels/farsivoa/media/143b96c3a7bc841f33e00b67.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "امواج سهمگین در کالیفرنیا؛ تعطیلی اسکله‌ها و هشدار به گردشگران<br><a href=\"https://t.me/FarsiVOA\" target=\"_blank\">@FarsiVOA</a>",
-      "plain_text": "امواج سهمگین در کالیفرنیا؛ تعطیلی اسکله‌ها و هشدار به گردشگران\n@FarsiVOA",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/farsivoa/237269",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/fjrFEwxA62YlI99qfLq9Z8A5Jkv3919aCp_PNLXGNq_Gx_U87HJNNhw1D_K9OrQHcjy5AlBUx8a9YOJ9RPUzzpcJIfW_PSlKEBJY6hNpUHi_CmIE0ijgqq30T6Qcd03AhrE25gTYT4yx9DygHOYppI2kTd9rr9bVzwO-Z8ehlPHnLrmcR66SZjlJ_3nustfb2_EVB2Apxfd5w0yANZYm9PtY0p32ddYJXeT9_vmR2ZX-mGPtzCmWAaurHIbeDflYh2TTovQtB9hng1RsaSt0UlpB5qqj6kKO4mSOvZol5fAmM1OMlYe0teKep7UwZRzVp5OrxBh_tdEVFYqW-JR0Kw",
-          "thumbnail_path": "channels/farsivoa/media/bcee1f2b7c4df41d17f929d5.jpg",
-          "thumbnail_sha256": "701fb44dd555c27185bc3bb15abbd16a3aa5a8233dafc3e6221997c34a336bd0",
-          "duration_label": "3:26",
-          "aspect_ratio": 1.7777777777777777
-        }
-      ],
-      "reactions": [],
-      "views_label": "3.35K",
-      "posted_at": "2026-11-15T20:17:33+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/237269",
       "reply": null
     }
   ]
