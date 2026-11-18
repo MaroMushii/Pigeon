@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-18T07:27:17.669Z",
+  "fetched_at": "2026-11-18T07:34:24.010Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -12,6 +12,62 @@
   },
   "posts": [
     {
+      "id": "sahamnewsorg/150635",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/DAydGbPkJq7joCerBrmt08kmP45AMiqXdYNRSIFrazB-zl1JqXEk3pr_ZXEyVGTuXQ8xwHgbr0liDWC0edNINZ9_rE9r75rpxmkTyp4b6wie8VsTJO2o3mNQcfOBZpdsecRkpO53vFxYmQTIwXY7dz_rYMj6lhnmP2B7R_ah1iNTWa0msvtymzQf_-r4Ca1-TQ16-PY0aIDokN91rpW07rVLKauuAYLVzQ8H9JjBi_RQ0iMya9P4zmXezu8QG_oomwdH7ZsrcoU-ibpcFbRIT2g5nEVsKXNQCix82gqshfjE_zvCJUeqA8FxkU9skNH1M_TxEGHb-NrVD5MHl7eNpA.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/b82035ddea7495283760cf84.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>تصویری که گفته می‌شود مربوط به حمله پهپادی بامداد امروز به بحرین است</b><br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\"><b>@Sahamnewsorg</b></a>",
+      "plain_text": "✅تصویری که گفته می‌شود مربوط به حمله پهپادی بامداد امروز به بحرین است\n\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/sahamnewsorg/150635",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/g6X4HEG0JhvkK1TymC101F5kwy_vbIygJwx_Yl54eg2X0FG33cSa4VqivXsqXBhKVl1ypYJpSuiDrGMbbINQOOTPrYlB1gYaKNo55LfQJ4p2xuP8ssnZKggeJhrVogRXbe4ag-SI396aFgf4GSJ6-ZZmq3aJClYceO-894YE4BjwfW3NRShQwSdnLDvp2_s9RTgGQfoOlLsY6JEthwxEx4GROHM5W2W8g1kPudphVS7J754Y63dT9OLRk-jxPXrqm7JaODQle6yzqUlvcgjpu__o3U_43o4SVCN-Y8jgxvv32DBdudRdO89-QNY-LZyEbd6JOgxSRc-H9d_I17XisQ.jpg",
+          "thumbnail_path": "channels/sahamnewsorg/media/095ece8fb1e9f0911e068372.jpg",
+          "thumbnail_sha256": "1eb138a4c00d549c18c108d4eb04e9e8ac21a515f0a34afd0cfd6649c911e354",
+          "duration_label": null,
+          "aspect_ratio": 1.5473887814313345
+        }
+      ],
+      "reactions": [],
+      "views_label": "1.24K",
+      "posted_at": "2026-11-18T07:32:03+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/150635",
+      "reply": null
+    },
+    {
+      "id": "sahamnewsorg/150634",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/DAydGbPkJq7joCerBrmt08kmP45AMiqXdYNRSIFrazB-zl1JqXEk3pr_ZXEyVGTuXQ8xwHgbr0liDWC0edNINZ9_rE9r75rpxmkTyp4b6wie8VsTJO2o3mNQcfOBZpdsecRkpO53vFxYmQTIwXY7dz_rYMj6lhnmP2B7R_ah1iNTWa0msvtymzQf_-r4Ca1-TQ16-PY0aIDokN91rpW07rVLKauuAYLVzQ8H9JjBi_RQ0iMya9P4zmXezu8QG_oomwdH7ZsrcoU-ibpcFbRIT2g5nEVsKXNQCix82gqshfjE_zvCJUeqA8FxkU9skNH1M_TxEGHb-NrVD5MHl7eNpA.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/b82035ddea7495283760cf84.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>خودداری نخست‌وزیر چک از دست دادن با بنیامین نتانیاهو پس از نشست خبری<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅خودداری نخست‌وزیر چک از دست دادن با بنیامین نتانیاهو پس از نشست خبری\n\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/150634",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/RukY5tiVUYwkUOq0A-SDXD7gXJTfcBZ_BO70Ue4pyZMHxEaoODhvaqYGc9GS4SZNOwVrc1lT287UBxeOBykl-KyA1Ij7hOEYKttqaSlF2t35PKN6GnWcCgf7lB44l02XdtRG5yTXaM7Cd6ib9fe366EARu6OqdLvkTfSom9j8JQVXAD2ylhxKKDMW2p7foa5941zxFGW8ukCRVkuNDHFyFmSzuzcWYV7XFeEvWbHJVMbltkKjYqMeq4WkK2vXV-54maWmoZEbmnkKCT0zpMQU7IIxDu9mIzcMxuy1I0FQPWF_v42WVuBdr56z4e9e_dBHWBouoeaoMsdiL_j2Tzing",
+          "thumbnail_path": "channels/sahamnewsorg/media/52c2a2a575867482319c7ca3.jpg",
+          "thumbnail_sha256": "4b2f32bd8c7cb03e2386ddb837ce1ce18a156d99ec16fcff7b9b120111d8307e",
+          "duration_label": "0:18",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "2.17K",
+      "posted_at": "2026-11-18T07:30:11+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/150634",
+      "reply": null
+    },
+    {
       "id": "sahamnewsorg/150633",
       "author_name": "سهام نیوز",
       "author_photo_url": "https://cdn1.telesco.pe/file/DAydGbPkJq7joCerBrmt08kmP45AMiqXdYNRSIFrazB-zl1JqXEk3pr_ZXEyVGTuXQ8xwHgbr0liDWC0edNINZ9_rE9r75rpxmkTyp4b6wie8VsTJO2o3mNQcfOBZpdsecRkpO53vFxYmQTIwXY7dz_rYMj6lhnmP2B7R_ah1iNTWa0msvtymzQf_-r4Ca1-TQ16-PY0aIDokN91rpW07rVLKauuAYLVzQ8H9JjBi_RQ0iMya9P4zmXezu8QG_oomwdH7ZsrcoU-ibpcFbRIT2g5nEVsKXNQCix82gqshfjE_zvCJUeqA8FxkU9skNH1M_TxEGHb-NrVD5MHl7eNpA.jpg",
@@ -21,7 +77,7 @@
       "plain_text": "✅خشم نتانیاهو از انتخاب رئیس جدید کنست\n\nامشب شاهد آن بودیم که رئیس «کمیته امور خارجی و دفاع» و رئیس «کنست» (پارلمان)، با آرای حامیان تروریسم انتخاب شدند!\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "1.23K",
+      "views_label": "4.62K",
       "posted_at": "2026-11-18T07:25:16+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150633",
@@ -58,7 +114,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.84K",
+      "views_label": "8.31K",
       "posted_at": "2026-11-18T07:12:30+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150632",
@@ -74,7 +130,7 @@
       "plain_text": "✅پزشک قانونی:مرگ سوگند صیادی بر اثر صدمات متعدد ناشی از سقوط از ارتفاع اعلام شده\n\nتعیین اینکه این صدمات توسط چه شخصی یا در چه شرایطی ایجاد شده، در حیطه تحقیقات قضایی و بررسی‌های تخصصی سایر مراجع قرار دارد\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "47.6K",
+      "views_label": "48.2K",
       "posted_at": "2026-11-17T23:18:17+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150631",
@@ -111,7 +167,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "48.1K",
+      "views_label": "48.7K",
       "posted_at": "2026-11-17T23:11:11+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150630",
@@ -139,7 +195,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "49.4K",
+      "views_label": "50.3K",
       "posted_at": "2026-11-17T22:57:55+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150629",
@@ -167,7 +223,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "48.9K",
+      "views_label": "49.5K",
       "posted_at": "2026-11-17T22:30:32+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150628",
@@ -192,7 +248,7 @@
       "plain_text": "✅۱۶ سال که لایحه منع خشونت علیه زنان را تصویب نکردن\n\nدقیقا از همان سالی که ⁧ #سوگند_صیادی⁩ به دنیا آمد، لایحه منع خشونت علیه زنان در انتظار تصویب است. سوگند ۱۶ ساله بر اثر خشونت علیه زنان کشته شد، اما ۱۶ سال است لایحه منع خشونت علیه زنان هنوز تصویب نشده‌است.فرشاد اسماعیلی\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "45.8K",
+      "views_label": "46.5K",
       "posted_at": "2026-11-17T22:24:47+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150627",
@@ -217,7 +273,7 @@
       "plain_text": "✅قرار به رفع گرسنگی نیست!\n\n✍️احمد زیدآبادی\nمهدی کوچک‌زاده از اعضای مجلس: “هدف این انقلاب و نظام رفع گرسنگی و آوردن ارزانی نیست”!\nاینها درست جملاتی است که بسیاری از مردم به تنگ آمده و ناراضی، روزانه در کوچه و خیابان مطرح می‌کنند!\nمنتها وقتی ناراضیان این حرف‌ها را می‌زنند اسمش می‌شود؛ تبلیغ عليه نظام، نشر اکاذیب، تشویش اذهان عمومی، اقدام علیه امنیت ملی و حتی همراهی با آمریکا و اسرائیل، اما وقتی یک نمایندهٔ مجلس بگوید‌، لابد اسمش می‌شود انقلابی‌گری، عزت‌طلبی، ارزش‌مداری و قس‌علی‌هذا!\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "45.7K",
+      "views_label": "46.3K",
       "posted_at": "2026-11-17T21:54:21+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150626",
@@ -254,7 +310,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "44.5K",
+      "views_label": "45.4K",
       "posted_at": "2026-11-17T21:51:57+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150625",
@@ -282,7 +338,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "44.1K",
+      "views_label": "44.7K",
       "posted_at": "2026-11-17T21:48:43+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150624",
@@ -310,7 +366,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "50.4K",
+      "views_label": "51K",
       "posted_at": "2026-11-17T20:45:46+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150623",
@@ -338,7 +394,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "50.4K",
+      "views_label": "50.7K",
       "posted_at": "2026-11-17T20:23:13+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150622",
@@ -363,7 +419,7 @@
       "plain_text": "✅عراقچی: تبلیغاتی که هم‌اکنون در آمریکا علیه ایران ترویج می‌شود، مشابه تبلیغات پیش از جنگ عراق است\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "51.4K",
+      "views_label": "51.7K",
       "posted_at": "2026-11-17T20:17:25+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150621",
@@ -379,7 +435,7 @@
       "plain_text": "✅کانال 12 اسرائیل: جلسات بسیار مهم و سطح بالایی میان فرمانده سنتکام و مقامات ارشد نظامی اسرائیلی در تل‌آویو درباره ایران در حال برگزاری است\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "51.1K",
+      "views_label": "51.8K",
       "posted_at": "2026-11-17T20:14:26+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150620",
@@ -395,7 +451,7 @@
       "plain_text": "✅فرماندهان سپاه و رهبر به‌شدت برای حفظ قدرت به همدیگر وابسته‌اند.\n\n✍️حسین باستانی\nکشته شدن علی خامنه‌ای در حمله هوایی، در ابعادی غیرمنتظره جایگاه فرزند را در حلقه‌های حکومتی تقویت کرد.\n\nشروع رهبری مجتبی خامنه‌ای در این فضای خاص، البته همزمان با ارتقای جایگاه سپاه پاسداران در معادلات قدرت، به‌خاطر شرایط جنگی بود. ولی ارتقای جایگاه سپاه در حکومت، لزوماً شامل فرماندهان سپاه نمی‌شد؛ عمدتاً به این دلیل که در جریان دو جنگ ۱۲ روزه و ۴۰ روزه، مهم‌ترین چهره‌های سپاه کشته شدند و فرماندهان باقی‌مانده، از جایگاه و نفوذی به‌مراتب پایین‌تر برخوردار هستند.\n\nمهم‌تر آنکه در نگاه کلان، بین فرماندهان سپاه و رهبر جمهوری اسلامی تضاد منافع معناداری قابل‌تشخیص نیست که به نوعی جنگ قدرت منجر شود؛ بلکه در عوض، فرماندهان و رهبر به‌شدت برای حفظ قدرت به همدیگر وابسته‌اند.\n\nاز مجموعه اینها، البته نمی‌توان نتیجه گرفت که افول جایگاه مجتبی خامنه‌ای در مقایسه با سپاه، به‌ویژه اگر غیبت او از انظار عمومی طول بکشد، نامحتمل خواهد بود. از سوی دیگر، چه بسا نیروهایی در بدنه سپاه وجود داشته باشند که از اساس مخالف حکومتند، هرچند از چشم سلسله‌مراتب فرماندهی یا حفاظتی به دور مانده‌اند.\n\nولی حتی با در نظر گرفتن همه این ملاحظات، تاکنون شواهدی ملاحظه نشده که حکایت کنند در سطح مجموعه «سپاهیان حامی نظام»، برخی فرماندهان ـیا فرماندهان سابق- از نفوذ یا قدرتی قابل‌مقایسه با رهبر جمهوری اسلامی برخوردارند.\n\nبه بیان ساده‌تر، اگرچه سرنوشت حکومت ایران قابل‌پیش‌بینی نیست، ولی در چارچوب ساختار موجود جمهوری اسلامی، منطقا فرضیاتی چون «به حاشیه راندن جایگاه رهبر توسط سپاه پاسداران» یا «کنار زدن رهبر از سوی فرماندهان سپاه»، بلاموضوع به نظر می‌رسند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "55.6K",
+      "views_label": "55.9K",
       "posted_at": "2026-11-17T19:51:15+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150619",
@@ -423,7 +479,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "57.4K",
+      "views_label": "57.7K",
       "posted_at": "2026-11-17T19:39:05+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150618",
@@ -439,7 +495,7 @@
       "plain_text": "✅استانداری هرمزگان: حمله ساعاتی پیش آمریکا به نقاطی در محدوده قشم خسارتی به مناطق مسکونی، تجاری و زیرساختی وارد نکرد\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "64.4K",
+      "views_label": "64.7K",
       "posted_at": "2026-11-17T17:11:45+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150617",
@@ -467,7 +523,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "70.6K",
+      "views_label": "70.9K",
       "posted_at": "2026-11-17T17:05:59+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150616",
@@ -2716,62 +2772,6 @@
       "posted_at": "2026-11-15T21:24:13+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150522",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/150521",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DpsXbZH0FgRNeU13bJPzFYFtxdr3I5eDYcFNDoy5k-Bju-pD3zYwtHd5sxMva52c5rnKU53Q_iuEioy5kt9PtaWMlmB1SQV5vo1qaXa0JmmrGTisUyYIA3yeL2jKJ7UVQFPBpU0jL---_eBPKKFpIus-zcaDpcBR38x-kJ1pakd0uS_0I1Yp7xvTsYiqJRaneAW1cRC6M4BNboMP19f_5xMYofVBihnGZ2p74lbLdDC4N0S3HuSNHRkTVHfQHtDIXAzR36PCJi7izV2fs56WcWIudG8jnqn_N-Sz_y9fCCNGPrR0DrmyEt-Ph2x08eiwXkiRbLwHw1LO-YEz7QNhFQ.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/dcfe8bf4e5f5afbe6a33480a.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>شکست، شکست، شکست و در نهایت پیروزی؛ شاهکار تازه ایلان ماسک: فضاپیمای استارشیپ پس از ۲۲ ساعت گردش به دور زمین، به محل پرتاب بازگشت<br><br>این عملیات تاریخی پیش از این بارها به شکست انجامیده بود<br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅شکست، شکست، شکست و در نهایت پیروزی؛ شاهکار تازه ایلان ماسک: فضاپیمای استارشیپ پس از ۲۲ ساعت گردش به دور زمین، به محل پرتاب بازگشت\n\nاین عملیات تاریخی پیش از این بارها به شکست انجامیده بود\n@Sahamnewsorg",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/sahamnewsorg/150521",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/LgnpO1R7yuL_OU__V4q6BkS63RdCF5JYwL6zf2C_kN1SRrtnCb7xgqqxzosw6dYfjJKgaIekstRP3QiSw0P4Erjj1X6w9cDE5kSJxKvoWk5Qmk1A62hLykbSp8vRR_2hyMrIxS87NK72-FAtVnCyzYgt4tunETNVD7NHjDvt4R5rb3sHqbvd6dFbjt-qjIpRsySoPNLP6ZyzOGgx2PfDITpTBmb-iDXNMBfW0w5vleNAQoUZfQZPHwHtcI-K-nz1HGXodQLimj30V5NgL158X5XzzoQTFr-ZBlA1NfNX65TYhKDX5VOnS9MkCoh7qJsxrqfqRs0Ouvo2UNN21LAsWA",
-          "thumbnail_path": "channels/sahamnewsorg/media/53b30c4a1e12f4f43f657121.jpg",
-          "thumbnail_sha256": "330cfe46bca331f11fc3650a33623290a25bbdbcc37e65e8d827116ac2a8155e",
-          "duration_label": "0:27",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "52.8K",
-      "posted_at": "2026-11-15T21:14:37+00:00",
-      "edited": true,
-      "permalink": "https://t.me/sahamnewsorg/150521",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/150520",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DpsXbZH0FgRNeU13bJPzFYFtxdr3I5eDYcFNDoy5k-Bju-pD3zYwtHd5sxMva52c5rnKU53Q_iuEioy5kt9PtaWMlmB1SQV5vo1qaXa0JmmrGTisUyYIA3yeL2jKJ7UVQFPBpU0jL---_eBPKKFpIus-zcaDpcBR38x-kJ1pakd0uS_0I1Yp7xvTsYiqJRaneAW1cRC6M4BNboMP19f_5xMYofVBihnGZ2p74lbLdDC4N0S3HuSNHRkTVHfQHtDIXAzR36PCJi7izV2fs56WcWIudG8jnqn_N-Sz_y9fCCNGPrR0DrmyEt-Ph2x08eiwXkiRbLwHw1LO-YEz7QNhFQ.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/dcfe8bf4e5f5afbe6a33480a.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA4A9.png')\"><b>🤩</b></i> <b>یوزپلنگ پیر توران جان باخت</b><br><br><b>جسد «فقه»، یوزپلنگ نری که سال‌ها در پهنه‌های وسیع توران و یوزکنام پرسه زده بود، امروز توسط یوزبانان حفاظتگاه مشارکتی یوزکنام پیدا شد</b><br><br>بررسی‌های اولیه نشان می‌دهد که احتمالاً فقه به مرگ طبیعی از دنیا رفته است. /مدیرکل حفاظت محیط زیست سمنان<br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "🤩 یوزپلنگ پیر توران جان باخت\n\nجسد «فقه»، یوزپلنگ نری که سال‌ها در پهنه‌های وسیع توران و یوزکنام پرسه زده بود، امروز توسط یوزبانان حفاظتگاه مشارکتی یوزکنام پیدا شد\n\nبررسی‌های اولیه نشان می‌دهد که احتمالاً فقه به مرگ طبیعی از دنیا رفته است. /مدیرکل حفاظت محیط زیست سمنان\n@Sahamnewsorg",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/sahamnewsorg/150520",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/LGyFU6DTNUZtuBu1bL4MU94SxW0fB6sWIHdRqqMRo5ZZvtxed3wh-C_CFphxQCdEAaUYhZKuPF5Wbi03gi4o7wiCxMLCUN_RWYCWGY6cXrmAXQEqLOh0xIGOVPV00f80L6-3EtbQc1VATvq1joZiTGFgnLdO1XOVaANvLRKAr_QEweTxJt92MsdSc8XUqBUZfFNvNhpLHbmNJ4ZIHT5HYf0DdEGpN1ht1rDRjaZJJOYMA58QK8PgUG4qbM6F34CYO1w2U5YWHbrq7O5eBIWgJoIALs-p0BouS2fKk60sd_dNkKdGmw0v0Yy8UdfbKwoKO9sq7RdUZvAT39izbf7GFA.jpg",
-          "thumbnail_path": "channels/sahamnewsorg/media/6e4549510dce115b9636326d.jpg",
-          "thumbnail_sha256": "628c7e4c1b179d17564383a19bf8c19057d76fb4d2c8043d0a0057ac57e07551",
-          "duration_label": null,
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "51.6K",
-      "posted_at": "2026-11-15T21:06:51+00:00",
-      "edited": true,
-      "permalink": "https://t.me/sahamnewsorg/150520",
       "reply": null
     }
   ]
