@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-18T03:52:43.319Z",
+  "fetched_at": "2026-11-18T03:57:02.891Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,47 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2284",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/JF6kUXaPB6pVpPIiqT5qmpz6xbC-U6wLeonWJFeB_MG-U7_cxzZnLOdda64n0bU0jJyckn8Qr8_wkZMQte5GC68PQP35uisj1guQm1ple__OTKamDGYFmpSrIElneItVOklMqXYC6tJ6nZ5tjoIKVXNuqKHHf854Yhvc0WTT7UwW32ssBoq1gwJRdWKkp1Qtlw_FBAGSwti2DR9z-yLM9hMutGFPeVQC_Rt-oq3h6JMQSg4mDaMEW6qc71ttkTC3jManN6z3Oi5b6rIaIxRX9E8a0foZnJB7f5pVNK1R498NunlePLFJ3FeJhlR_7sU5ldxdSflVZm0LeWe5NhpofQ.jpg",
+      "author_photo_path": "channels/whitedns/media/28ab0f13b4abd1728d9b0e52.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9484.png')\"><b>🔄</b></i> نسخه‌ی ۱.۱۸.۰ whiteaesther mobile منتشر شد<br><br>شاید بپرسید چرا فقط چند روز بعد از ۱.۱۷.۰ یه نسخه‌ی جدید اومده. علتش اینه که بعد از انتشار ۱.۱۷.۰، گزارش‌های شما نشون داد زنجیره‌ی خروج (Exit chain) درست کار نمیکنه. اشتراک‌ها لود نمیشدن، لیست کانفیگ‌ها نمیومد و انتخاب نود عملاً ممکن نبود. چون خیلی از شما برای خروج از آی‌پی کلودفلر به همین بخش وابسته‌اید، نخواستیم تا نسخه‌ی بعدی صبر کنیم.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> چی درست شد:<br>• اشتراک‌ها دوباره درست دریافت میشن و لیست نودها نمایش داده میشه<br>• اتصال با زنجیره‌ی خروج از همون بار اول برقرار میشه<br>• زنجیره‌ی خروج حالا در حالت پروکسی هم کار میکنه، نه فقط VPN<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> امکانات جدید:<br>• دکمه‌ی «به‌روزرسانی اشتراک‌ها»: هر وقت کانفیگ‌های اشتراکتون عوض شد، با یه دکمه لیست جدید رو بگیرید<br>• تست پینگ همه‌ی نودها، حتی قبل از اتصال، با مرتب‌سازی بر اساس سرعت، جستجو و فیلتر پروتکل<br>• انتخاب نود خودکار یا دستی: خودکار سریع‌ترین نود رو انتخاب میکنه، یا خودتون یکی رو انتخاب کنید<br>• صفحه‌ی اصلی حالا اسم نودی که باهاش وصل هستید، کشور و پینگ واقعی نود رو نشون میده<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938D.png')\"><b>📍</b></i> «زنجیره‌ی خروج کجا رفت؟»<br>خیلی‌ها پرسیده بودید. حالا وقتی روی «تغییر» در صفحه‌ی اصلی میزنید، پایین لیست روش‌ها، بخش «تنظیمات بیشتر اتصال» هست و زنجیره‌ی خروج و اتصال ترکیبی (Two-hop) مستقیم اونجان.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA7B9.png')\"><b>🧹</b></i> چند مورد تکراری هم از صفحه‌ها حذف شد و ترجمه‌ی فارسی چند بخش اصلاح شد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دریافت: از داخل خود اپ آپدیت کنید، یا از صفحه‌ی ریلیز در گیت‌هاب دانلود کنید. برای بیشتر گوشی‌ها فایل arm64-v8a مناسبه.<br><br>ممنون از همه‌ی کسایی که مشکل رو گزارش کردن <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F998F.png')\"><b>🙏</b></i> گزارش‌های شما همین آپدیت رو ممکن کرد.<br><br><a href=\"https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.18.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.18.0</a><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a> <br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a>",
+      "plain_text": "🔄 نسخه‌ی ۱.۱۸.۰ whiteaesther mobile منتشر شد\n\nشاید بپرسید چرا فقط چند روز بعد از ۱.۱۷.۰ یه نسخه‌ی جدید اومده. علتش اینه که بعد از انتشار ۱.۱۷.۰، گزارش‌های شما نشون داد زنجیره‌ی خروج (Exit chain) درست کار نمیکنه. اشتراک‌ها لود نمیشدن، لیست کانفیگ‌ها نمیومد و انتخاب نود عملاً ممکن نبود. چون خیلی از شما برای خروج از آی‌پی کلودفلر به همین بخش وابسته‌اید، نخواستیم تا نسخه‌ی بعدی صبر کنیم.\n\n✅ چی درست شد:\n• اشتراک‌ها دوباره درست دریافت میشن و لیست نودها نمایش داده میشه\n• اتصال با زنجیره‌ی خروج از همون بار اول برقرار میشه\n• زنجیره‌ی خروج حالا در حالت پروکسی هم کار میکنه، نه فقط VPN\n\n✨ امکانات جدید:\n• دکمه‌ی «به‌روزرسانی اشتراک‌ها»: هر وقت کانفیگ‌های اشتراکتون عوض شد، با یه دکمه لیست جدید رو بگیرید\n• تست پینگ همه‌ی نودها، حتی قبل از اتصال، با مرتب‌سازی بر اساس سرعت، جستجو و فیلتر پروتکل\n• انتخاب نود خودکار یا دستی: خودکار سریع‌ترین نود رو انتخاب میکنه، یا خودتون یکی رو انتخاب کنید\n• صفحه‌ی اصلی حالا اسم نودی که باهاش وصل هستید، کشور و پینگ واقعی نود رو نشون میده\n\n📍 «زنجیره‌ی خروج کجا رفت؟»\nخیلی‌ها پرسیده بودید. حالا وقتی روی «تغییر» در صفحه‌ی اصلی میزنید، پایین لیست روش‌ها، بخش «تنظیمات بیشتر اتصال» هست و زنجیره‌ی خروج و اتصال ترکیبی (Two-hop) مستقیم اونجان.\n\n🧹 چند مورد تکراری هم از صفحه‌ها حذف شد و ترجمه‌ی فارسی چند بخش اصلاح شد.\n\n📥 دریافت: از داخل خود اپ آپدیت کنید، یا از صفحه‌ی ریلیز در گیت‌هاب دانلود کنید. برای بیشتر گوشی‌ها فایل arm64-v8a مناسبه.\n\nممنون از همه‌ی کسایی که مشکل رو گزارش کردن 🙏 گزارش‌های شما همین آپدیت رو ممکن کرد.\n\nhttps://github.com/WhiteDNS/WhiteAestherMobile/releases/tag/v1.18.0\n\n@whitedns\nhttps://whitedns.online",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2284",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/VKGEPtRVtEi7lZ7L9JROwCJk8LaaotdjfuaIYWhHXoOZrnbhRsE4QK8l1gRz7BWIZAkjV8pdrus7CSrzqMWgRMOsB822bfh7DyV9U8hQLUogtbJfl0SD1WKXSgaiqUYzZi-A8AnuQWqrPjaPy5k7GbnHUWl_8_grgoWf4jp-OMyGrnxj7au9q5A0hL-bsePTZxG-lh3EIucmcMS_5rEpUV3Tt3VmC4j6sHrPiA7wI5AyBQp12xtVujs7_2YhYDvwTgeJKIbnR3N1nW3o0qMJitHPUjdqdKW33VFl5DOkdPv1bfdQw50kJeopa4P0VpixYnZMXh2t2RBfk4VYnbfx6Q.jpg",
+          "thumbnail_path": "channels/whitedns/media/912c87808326bd144b00fbe4.jpg",
+          "thumbnail_sha256": "10b5927df9d1ad9294da7958148ed4f1df8204dca500e3f4bf30e721efac460f",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "8"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        },
+        {
+          "emoji": "😍",
+          "count": "1"
+        }
+      ],
+      "views_label": "227",
+      "posted_at": "2026-11-18T03:52:50+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/2284",
+      "reply": null
+    },
     {
       "id": "whitedns/2281",
       "author_name": "White DNS",
@@ -35,7 +76,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "161"
+          "count": "163"
         },
         {
           "emoji": "❤‍🔥",
@@ -70,7 +111,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.12K",
+      "views_label": "9.18K",
       "posted_at": "2026-11-17T16:30:57+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2281",
@@ -131,7 +172,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.05K",
+      "views_label": "9.11K",
       "posted_at": "2026-11-17T16:22:11+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2280",
@@ -161,7 +202,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "164"
+          "count": "165"
         },
         {
           "emoji": "❤‍🔥",
@@ -188,7 +229,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.3K",
+      "views_label": "12.4K",
       "posted_at": "2026-11-17T07:53:57+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2279",
@@ -218,7 +259,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "134"
+          "count": "135"
         },
         {
           "emoji": "👍",
@@ -318,7 +359,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.48K",
+      "views_label": "6.5K",
       "posted_at": "2026-11-16T13:18:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2277",
@@ -797,7 +838,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.9K",
+      "views_label": "19K",
       "posted_at": "2026-11-12T02:05:12+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2267",
@@ -874,7 +915,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.3K",
+      "views_label": "24.4K",
       "posted_at": "2026-11-11T03:22:45+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2266",
@@ -5672,75 +5713,6 @@
       "posted_at": "2026-10-25T10:09:25+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2152",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2151",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/cNu0KKyc2gnoUTTmS10it_MI665Dnom4TBmgTu1d_UWyEmziM5zJgn8drCGT_sJBrXhXxDTbq89z_qoLqxvGWPzeJ6YiwRxZSYhjttq3VKU_AX6na9B4a2jt5szq3GHAgcV9LM3-L6nw0_aPBtfAzqgas8yQ_G3WXZu5zBqOaSoBNklk8rIlTgoK9poyxqbk2pR2-UUtO4LhaaWngzy4zCadzNWI9D3_R-xAK_9Obk3zgNaqIgVKlW-sdrvI0xevI7XqPr3HsV-gHV42lSW5_qyVlf_90hR-PuxpNJBa20D-BbsET9H_t_DZUaoiDbfh4E9-T01hV6Ax6UEGP--I7A.jpg",
-      "author_photo_path": "channels/whitedns/media/9a1f3ae7eefa2d7157558daa.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "سلام دوستان <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29DA4.png')\"><b>❤️</b></i><br><br>ما یه ربات جدید به اسم WhiteDNS Responder (AI) به گروه اضافه کردیم تا برای پیدا کردن جواب سؤال‌هاتون کمک کنه.<br><br>این ربات از مطالب آموزشی کانال و ویدیوهای یوتیوب ما استفاده می‌کنه و دنبال جواب یا آموزش مرتبط با سؤال شما می‌گرده؛ هدفش اینه که بر اساس همین منابع راهنمایی‌تون کنه، نه اینکه برای هر سؤالی یه جواب بسازه. اگه منبع مناسبی پیدا نکنه، ممکنه سکوت کنه و پاسخی نده.<br><br>البته ممکنه اشتباه هم بکنه و جای پشتیبانی انسانی رو نمی‌گیره. اگه پاسخش به مشکلتون نمی‌خوره، برای بررسی بیشتر از تیم پشتیبانی کمک بگیرید.<br><br>امیدواریم این ربات بتونه به بخشی از سؤال‌هاتون جواب بده و پیدا کردن آموزش‌های موردنیازتون رو راحت‌تر کنه <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8CB1.png')\"><b>🌱</b></i><br><br>----------<br><a href=\"?q=%23%D9%85%D8%B9%D8%B1%D9%81%DB%8C_%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1\">#معرفی_ابزار</a> <a href=\"?q=%23%D8%B1%D8%A8%D8%A7%D8%AA\">#ربات</a> <a href=\"?q=%23%D9%87%D9%88%D8%B4_%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C\">#هوش_مصنوعی</a><br><br>کانال: <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "سلام دوستان ❤️\n\nما یه ربات جدید به اسم WhiteDNS Responder (AI) به گروه اضافه کردیم تا برای پیدا کردن جواب سؤال‌هاتون کمک کنه.\n\nاین ربات از مطالب آموزشی کانال و ویدیوهای یوتیوب ما استفاده می‌کنه و دنبال جواب یا آموزش مرتبط با سؤال شما می‌گرده؛ هدفش اینه که بر اساس همین منابع راهنمایی‌تون کنه، نه اینکه برای هر سؤالی یه جواب بسازه. اگه منبع مناسبی پیدا نکنه، ممکنه سکوت کنه و پاسخی نده.\n\nالبته ممکنه اشتباه هم بکنه و جای پشتیبانی انسانی رو نمی‌گیره. اگه پاسخش به مشکلتون نمی‌خوره، برای بررسی بیشتر از تیم پشتیبانی کمک بگیرید.\n\nامیدواریم این ربات بتونه به بخشی از سؤال‌هاتون جواب بده و پیدا کردن آموزش‌های موردنیازتون رو راحت‌تر کنه 🌱\n\n----------\n#معرفی_ابزار #ربات #هوش_مصنوعی\n\nکانال: @WhiteDNS",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/2151",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/py_ZI5OBF6FmQYQ2P9NZ9pdry-DjY5dGBc6aKOXdYyIjpiGDMIjNXI5Eod9KprrpfW7UvNED2np13pl9P6mthkAlqGZuA2rB40tBmX3CbHVtb9hka7D9yFF2kg72bJTVHV-CN9-8aVeJ24aqJB6FXl751h2HyFw18C4E5p_Rha4cqiakbHnUlFzN93ZDBIx65Fuz--wPTWT1eThQz83_ZvP3PWN6YfkxzXbDeNl4_XxtyUwOFMuFZz4M1anObVkAvFq6C8FBtTaoOaE_WsZLpK5lb0HM-J67BSeSGTH6KlTLz6jFEMGExz2bOLEv65jXM8PJkVHHwFAJywND9_YDyw.jpg",
-          "thumbnail_path": "channels/whitedns/media/b394f18e2b8306b234a4b564.jpg",
-          "thumbnail_sha256": "f4777f9d06a5029c79200b0fcfa384531758cf3d019b49fa225841db443e8082",
-          "duration_label": null,
-          "aspect_ratio": 1.629327902240326
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "202"
-        },
-        {
-          "emoji": "👍",
-          "count": "11"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "🍓",
-          "count": "5"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        },
-        {
-          "emoji": "🥴",
-          "count": "3"
-        },
-        {
-          "emoji": "🙏",
-          "count": "2"
-        },
-        {
-          "emoji": "🔥",
-          "count": "1"
-        },
-        {
-          "emoji": "🤯",
-          "count": "1"
-        },
-        {
-          "emoji": "🕊",
-          "count": "1"
-        }
-      ],
-      "views_label": "13.8K",
-      "posted_at": "2026-10-25T05:36:28+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2151",
       "reply": null
     }
   ]
