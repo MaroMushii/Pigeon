@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-18T13:48:05.305Z",
+  "fetched_at": "2026-11-18T13:55:21.406Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -11,6 +11,34 @@
     "subscriber_count": "219K"
   },
   "posts": [
+    {
+      "id": "sahamnewsorg/150656",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/DAydGbPkJq7joCerBrmt08kmP45AMiqXdYNRSIFrazB-zl1JqXEk3pr_ZXEyVGTuXQ8xwHgbr0liDWC0edNINZ9_rE9r75rpxmkTyp4b6wie8VsTJO2o3mNQcfOBZpdsecRkpO53vFxYmQTIwXY7dz_rYMj6lhnmP2B7R_ah1iNTWa0msvtymzQf_-r4Ca1-TQ16-PY0aIDokN91rpW07rVLKauuAYLVzQ8H9JjBi_RQ0iMya9P4zmXezu8QG_oomwdH7ZsrcoU-ibpcFbRIT2g5nEVsKXNQCix82gqshfjE_zvCJUeqA8FxkU9skNH1M_TxEGHb-NrVD5MHl7eNpA.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/b82035ddea7495283760cf84.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i><b>سگ‌گردانی ساعتی ۱۰ میلیون تومان در تهران!</b><br><br>تبیان نوشت: ۱۰ میلیون تومان، فقط برای یک ساعت پیاده‌روی با سگ! در تهران شغلی وجود دارد به نام «داگ‌واکر»؛ افرادی که در ازای پول، سگ‌ها را برای قدم زدن به خیابان می‌برند و می‌گویند اگر سگ بدقلقی کند یا راه نیاید، در همان پیاده‌روی به او آموزش هم می‌دهند!<br><br>البته دغدغه‌های عجیب یک طبقه خاص در جامعه تمامی ندارد. بعضی پانسیون‌ها سگ‌ها را گروهی به پیاده‌روی می‌برند؛ ۵۰ دقیقه به قیمت یک میلیون تومان برای هر سگ، آن هم فقط در خیابان‌های زعفرانیه!<br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅سگ‌گردانی ساعتی ۱۰ میلیون تومان در تهران!\n\nتبیان نوشت: ۱۰ میلیون تومان، فقط برای یک ساعت پیاده‌روی با سگ! در تهران شغلی وجود دارد به نام «داگ‌واکر»؛ افرادی که در ازای پول، سگ‌ها را برای قدم زدن به خیابان می‌برند و می‌گویند اگر سگ بدقلقی کند یا راه نیاید، در همان پیاده‌روی به او آموزش هم می‌دهند!\n\nالبته دغدغه‌های عجیب یک طبقه خاص در جامعه تمامی ندارد. بعضی پانسیون‌ها سگ‌ها را گروهی به پیاده‌روی می‌برند؛ ۵۰ دقیقه به قیمت یک میلیون تومان برای هر سگ، آن هم فقط در خیابان‌های زعفرانیه!\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/150656",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/OGfBlwC_ezrEk8Dycda5kjGImQsPXorkzksh6c1_6p9GqGnzvNE9FRTyj_NxV0Ltrm8Hvd-vEcrCUEWBbLfqgkCOGlpiyM7IQm3lIn6QMLhJnj-iWzRreC0XWJPTKxWSQQLgeZoZucKshdYyTaZnzgZPxjY6BUJTKnrS9eID1lG6T13FDai0f2YWApjNct_pTp6NE6LX5CcMe8nRmRdStui_7VYrbZ_bzOv04bzoniaWIklOnjT_FlZHS8FhbFsuqm-wWEQ_TACFgEuymSFLrdemWU69nLFTp_Tzm0i6_KeR2Mjsy7ZhwhphaP79uF3dx3GQ8Biv0kq4z2qEmlcFTA",
+          "thumbnail_path": "channels/sahamnewsorg/media/c87663e73f859f7fc02b32bd.jpg",
+          "thumbnail_sha256": "d9c3925900346dfaa414510a0a63227ec850578e791b67a47fd250eb862bc2c6",
+          "duration_label": "0:20",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "3.09K",
+      "posted_at": "2026-11-18T13:48:13+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/150656",
+      "reply": null
+    },
     {
       "id": "sahamnewsorg/150655",
       "author_name": "سهام نیوز",
@@ -33,7 +61,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.9K",
+      "views_label": "8.06K",
       "posted_at": "2026-11-18T13:32:05+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150655",
@@ -61,7 +89,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "8.98K",
+      "views_label": "10.8K",
       "posted_at": "2026-11-18T13:22:24+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150654",
@@ -89,7 +117,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "19.5K",
+      "views_label": "21K",
       "posted_at": "2026-11-18T12:33:52+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150653",
@@ -105,7 +133,7 @@
       "plain_text": "✅عدد مهمترین ابزار دنیاست تا به سرمایه گذار کمک کند بدون تعصب صحبت کند و بدون تعصب تصمیم بگیرد\n\n✍️حامد پاک طینت\nدر یک سال گذشته:\nمسکن ۱۴۳%\nدلار ۱۳۴%\nطلا ۱۳۰%\n\nدر دو سال گذشته\nمسکن ۱۸۶%\nدلار ۳۱۴%\nسکه ۴۳۰%\n\nو در پنج سال\nمسکن ۵۴۲%\nدلار ۸۳۷%\nسکه ۲۱۲۰%\n\nرشد کرده است\n\nیعنی در یک سال گذشته هر سه دارایی تقریبا بازدهی مساوی داشته اما در میان مدت چنین نبوده و دلار ۱.۷ برابر مسکن رشد داشته است\n\nدر واقع طی پنج سال گذشته مالکین مسکن ۳۱% نسبت به صاحبان دلار و ۷۱% نسبت به صاحبان طلا عقب مانده اند\n\nملک توانسته تا حد بسیار زیادی تورم را جبران کند اما این اعداد گویای آن است که متغیر تقاضا در ملک و کشش قیمتی آن، در مقایسه با دلار و طلا کم اثر نبوده است\n\nهیچ سرمایه ای ارزش تعصب را ندارد، آنچه باید به آن متعصب بود اعداد است!/\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "22.3K",
+      "views_label": "23.5K",
       "posted_at": "2026-11-18T12:13:45+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150652",
@@ -133,7 +161,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "23.5K",
+      "views_label": "24.8K",
       "posted_at": "2026-11-18T12:05:09+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150651",
@@ -158,7 +186,7 @@
       "plain_text": "✅صمصامی نماینده مجلس: قیمت اکثریت کالاها بیش از دو برابر افزایش یافته است\n\nبانک مرکزی موجب افزایش نرخ ارز می‌شود\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "23.5K",
+      "views_label": "24.4K",
       "posted_at": "2026-11-18T12:01:00+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150650",
@@ -186,7 +214,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "25.4K",
+      "views_label": "26.3K",
       "posted_at": "2026-11-18T11:52:56+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150649",
@@ -214,7 +242,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "32.1K",
+      "views_label": "32.7K",
       "posted_at": "2026-11-18T10:42:08+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150648",
@@ -242,7 +270,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "37K",
+      "views_label": "37.6K",
       "posted_at": "2026-11-18T09:57:09+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150647",
@@ -270,7 +298,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "42.9K",
+      "views_label": "43.5K",
       "posted_at": "2026-11-18T09:49:50+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150646",
@@ -286,7 +314,7 @@
       "plain_text": "✅بازداشت و ضرب‌وشتم اعضای خانواده سپیده قلیان برای وادار کردن او به معرفی خود\n\nبه گزارش ندای زنان ایران، مأموران امنیتی روز دوشنبه ۲۵ آبان با یورش به خانه پدری سپیده قلیان، فعال حقوق بشر و زندانی سیاسی پیشین، پدر و برادرزاده ۱۷ ساله او را با خشونت بازداشت کردند. مهدی قلیان، برادر سپیده نیز در جریان پیگیری وضعیت بازداشت‌شدگان بازداشت شده است.\n\nسپیده قلیان گفته است مأموران یکی دیگر از برادرزاده‌های نوجوانش را به‌شدت کتک زده و بیهوش کرده‌اند. به گفته او، مأموران تهدید کرده‌اند تا زمان معرفی و بازداشت سپیده، پدر و برادرزاده‌اش آزاد نخواهند شد.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "38.3K",
+      "views_label": "38.6K",
       "posted_at": "2026-11-18T09:39:15+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150645",
@@ -302,7 +330,7 @@
       "plain_text": "✅یک پاکستانی به اتهام تلاش برای ترور ترامپ و مقام‌های آمریکایی به ۲۷ سال و نیم زندان محکوم شد؛ ارتباط متهم با سپاه پاسداران\n\nعاصف مرچنت، شهروند ۴۸ ساله پاکستانی، که دادستان‌های آمریکایی او را از عوامل آموزش‌دیده سپاه پاسداران معرفی کرده‌اند، روز سه‌شنبه ۱۷ نوامبر ۲۰۲۶ به اتهام تلاش برای ترور مقام‌های سیاسی آمریکا به ۳۳۰ ماه زندان، معادل ۲۷ سال و شش ماه، محکوم شد.\n\nبنا به اطلاعیه وزارت دادگستری آمریکا، این حکم در دادگاه فدرال بروکلین صادر شد. هیئت منصفه نیز در مارس ۲۰۲۶ مرچنت را به اتهام تلاش برای ارتکاب اقدام تروریستی و اجیر کردن افراد برای قتل مجرم شناخته بود.\n\nاهداف احتمالی طرح ترور\n\nبر اساس اسناد دادگاه، دونالد ترامپ هدف اصلی احتمالی این طرح بود. نام جو بایدن، رئیس‌جمهور وقت آمریکا، و نیکی هیلی، سفیر پیشین آمریکا در سازمان ملل و نامزد انتخابات ریاست‌جمهوری ۲۰۲۴، نیز در گفت‌وگوهای مرچنت با رابط ایرانی‌اش مطرح شده بود.\n\nدادستان‌های آمریکایی می‌گویند مرچنت از حدود سال ۲۰۲۲ با سپاه پاسداران همکاری داشته و از طریق فردی به نام «یوسف مهرداد یا مهرداد یوسف» با یک مأمور رابط سپاه در ارتباط بوده است. به ادعای دادستانی، مرچنت در فاصله سال‌های ۲۰۲۳ و ۲۰۲۴ چندین بار به تهران سفر کرد و در ملاقات‌هایی درباره اقدامات اطلاعاتی و سازمان‌دهی ترور مقام‌های آمریکایی آموزش دید.\n\nچگونگی کشف طرح\n\nمرچنت در آوریل ۲۰۲۴ وارد آمریکا شد و برای اجرای طرح ترور با یکی از آشنایان خود تماس گرفت. این فرد موضوع را به اف‌بی‌آی اطلاع داد و به منبع محرمانه این نهاد تبدیل شد. مأموران مخفی اف‌بی‌آی سپس خود را به‌عنوان افراد اجیرشده برای اجرای ترور معرفی کردند.\n\nطبق اسناد دادگاه، مرچنت در ژوئن ۲۰۲۴ با این مأموران درباره جزئیات عملیات گفت‌وگو کرد و پنج هزار دلار به‌عنوان پیش‌پرداخت در اختیار آن‌ها گذاشت. او در ۱۲ ژوئیه ۲۰۲۴، پیش از اجرای عملیات و هنگام تلاش برای خروج از آمریکا، بازداشت شد.\n\nانگیزه طرح و دفاعیات متهم\n\nدادستان‌های آمریکایی انگیزه این عملیات را انتقام‌گیری از کشته شدن قاسم سلیمانی، فرمانده پیشین نیروی قدس سپاه، در حمله پهپادی آمریکا در ژانویه ۲۰۲۰ در بغداد عنوان کرده‌اند.\n\nمرچنت در دادگاه مدعی شد که به دلیل تهدید خانواده‌اش در تهران ناچار به همکاری با مأموران ایرانی شده و تصور می‌کرد مقام‌های آمریکایی پیش از وقوع هرگونه حمله، طرح را کشف و متوقف خواهند کرد. با این حال، هیئت منصفه دفاعیات او را نپذیرفت و او را مجرم شناخت.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "38.6K",
+      "views_label": "39.2K",
       "posted_at": "2026-11-18T09:35:31+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150644",
@@ -339,7 +367,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "36.4K",
+      "views_label": "37K",
       "posted_at": "2026-11-18T09:27:41+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150643",
@@ -355,7 +383,7 @@
       "plain_text": "✅دموکرات‌ها با پیروزی در آلاسکا، رسما اکثریت سنا را به دست گرفتند؛ ۵۶ کرسی در برابر ۴۴ کرسی\n\n🔹 مری پلِتولا، نامزد دموکرات ایالت آلاسکا، در انتخابات مجلس سنا دن سالیوان، سناتور جمهوری‌خواه، را شکست داد. این نخستین بار در ۱۸ سال گذشته است که یک نامزد دموکرات در انتخابات سنا در این ایالت به پیروزی می‌رسد\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "37K",
+      "views_label": "37.6K",
       "posted_at": "2026-11-18T09:24:38+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150642",
@@ -371,7 +399,7 @@
       "plain_text": "✅آسوشیتدپرس:یک مرد پاکستانی که به تلاش برای ترور ترامپ اعتراف کرده، گفته ایران او را به انجام این کار وادار کرده\n\n🔹 او به نزدیک به سه دهه زندان محکوم شد\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "38.2K",
+      "views_label": "38.9K",
       "posted_at": "2026-11-18T09:21:08+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150641",
@@ -399,7 +427,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "38.8K",
+      "views_label": "39.2K",
       "posted_at": "2026-11-18T09:14:38+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150640",
@@ -415,7 +443,7 @@
       "plain_text": "✅اطلاعات: دیروز رومینا کشته شد و امروز سوگند؛ مسئولان اما سال‌هاست از «لایحه منع خشونت علیه زنان» حرف می‌زنند\n\nروزنامه اطلاعات نوشت: سال‌هاست از «لایحه منع خشونت علیه زنان» صحبت می‌کنیم؛ لایحه‌ای که قرار بود برای پیشگیری از خشونت، حمایت از زنان در معرض خطر و برخورد با مرتکبان، سازوکارهای قانونی مشخصی فراهم کند.\n\nاما این لایحه سال‌ها میان دولت و مجلس دست‌به‌دست شد و حتی بر سر واژه‌های به‌کاررفته در عنوان آن نیز، اختلاف‌نظر وجود دارد.\n\nوقتی حتی بر سر به رسمیت شناختن مفهوم خشونت اختلاف وجود دارد، چگونه می‌توان انتظار داشت قربانیان از حمایت مؤثر برخوردار باشند؟ درواقع، خشونت با تغییر نام، تغییر کاربری نمی‌دهد!\n\nشاید مهم‌ترین کار امروز تبدیل نکردن خبر مرگ سوگند، به یک خبر کوتاه دیگر باشد؛ شاید وقت آن رسیده که لایحه حمایت از زنان در برابر خشونت را به سرانجام برسانیم، سازوکارهای حمایت از دختران را جدی بگیریم و برای پیشگیری از حادثه بعدی کاری انجام دهیم؛ نه اینکه هر بار که دختری در این کشور جان خود را از دست داد، تازه یادمان بیفتد که باید کاری می‌کردیم!\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "40.4K",
+      "views_label": "40.7K",
       "posted_at": "2026-11-18T09:00:55+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150639",
@@ -443,7 +471,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "45.7K",
+      "views_label": "46K",
       "posted_at": "2026-11-18T08:19:21+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150638",
@@ -471,7 +499,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "43.5K",
+      "views_label": "43.8K",
       "posted_at": "2026-11-18T08:09:23+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150637",
@@ -2688,34 +2716,6 @@
       "posted_at": "2026-11-16T11:33:42+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150544",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/150543",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/DpsXbZH0FgRNeU13bJPzFYFtxdr3I5eDYcFNDoy5k-Bju-pD3zYwtHd5sxMva52c5rnKU53Q_iuEioy5kt9PtaWMlmB1SQV5vo1qaXa0JmmrGTisUyYIA3yeL2jKJ7UVQFPBpU0jL---_eBPKKFpIus-zcaDpcBR38x-kJ1pakd0uS_0I1Yp7xvTsYiqJRaneAW1cRC6M4BNboMP19f_5xMYofVBihnGZ2p74lbLdDC4N0S3HuSNHRkTVHfQHtDIXAzR36PCJi7izV2fs56WcWIudG8jnqn_N-Sz_y9fCCNGPrR0DrmyEt-Ph2x08eiwXkiRbLwHw1LO-YEz7QNhFQ.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/dcfe8bf4e5f5afbe6a33480a.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>سطح دغدغه و مطالبه‌ی بوقچی‌های سیرک شبانه<br><br>به جای جاده مخصوص بگید اتوبان شهید لشگری<br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅سطح دغدغه و مطالبه‌ی بوقچی‌های سیرک شبانه\n\nبه جای جاده مخصوص بگید اتوبان شهید لشگری\n@Sahamnewsorg",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/sahamnewsorg/150543",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/aIhoftQJKqa_HifgVgPNHfEqDHCmAJ1ZW_CUPrWwFBV_CpdP0Pzt8-CcfnvAdP6NV4urwzc--M62cPLLQL6XYh_d-sPJ9YlDh7a22hh18nYpRhuxg1GF-SBv3JqqhgYdMLGmtKX8sIs4CUroS7XikIwZzqMqWrxrJyoM84X43s8eFX18HYePbetw6UtwLyqWUQuhoV-Yx-WWOkd3q7UkH_SKE4iaioTevk7-9_imYIp-KOq8lndfCqBm-rgMTsJWtUnYMxd6axSuLN3GU5zMKBedl5563S8oGSuL7RO9TndD3hHL-LJ-GHvtbiDVzpL2bHTuEfXBYPSRPm4k_8M_tA",
-          "thumbnail_path": "channels/sahamnewsorg/media/1713970d8ed999df2d934297.jpg",
-          "thumbnail_sha256": "779b22863dba8f375e1dbddd9d0a6309308c868db4cf7f448edb4413c327fd69",
-          "duration_label": "0:44",
-          "aspect_ratio": 0.7500000000000188
-        }
-      ],
-      "reactions": [],
-      "views_label": "51.9K",
-      "posted_at": "2026-11-16T10:25:10+00:00",
-      "edited": true,
-      "permalink": "https://t.me/sahamnewsorg/150543",
       "reply": null
     }
   ]
