@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-19T08:17:10.127Z",
+  "fetched_at": "2026-11-19T08:22:15.472Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2292",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/XaC8ECJYNwLyYazQFZ6bXMvskVBYqI7l6N8M1_IUBap4o498Q-FhDL9M7GdTJ7nYuZzdN97gZ4j2az7laZuwJPLfn1rr35A3xxpKQHKSPfnK3LXJ7iczuoehAoM9gLmrh2rIov5ZlGtra4SsmD0m9-CwcRvjYTGgXVSC7ix7WQu61rMLmoUhLVim1jccCAaaMxNw9eQkvaQJKBTAUmAF3kpUKUAFYXwRBtDn8xvMcRS4VNoAqWBv9UYT7wzVexSZpXaIKhWVfdGycfcJbGBGDLu5TfdBXChXxP8Wf-5Ksu32_2PcMitu67F8uuO-OCqi48EmoUMUjsQvHr-tI7Cegg.jpg",
+      "author_photo_path": "channels/whitedns/media/d71ea76b28721cd427bf4ba1.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "سری (2)<br><br>کانفیک اضطراری به مدت 1 روز -  whitedns <br><br>\"کانفیگ های قبلی را پاک نکنید  . در ضورت ملی شدن نت اونها دوباره فعال میشه \"<br><br># Whitedns-Emergency Config<br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiOTA0NDdhYzJiNzRkOTQyZDMwZWVlZDc1YTY4NTI5M2IiLCJuYW1lIjoiV2hpdGVkbnMtRW1lcmdlbmN5IENvbmZpZyIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiand2c2FjcDV5NmVhbjZraWNzbHJ4di5zb2FyLndoaXRlZG5zLmRvd25sb2FkIiwicHVibGljX2tleSI6IlNJUVVmQ3RTQml5ZDQrWDZMNXd2dzRlZm1FWHVVdG9VZTRuc1RRdUcyMUU9In0sInNvYXJTZXR0aW5ncyI6eyJ0cmFuc3BvcnQiOiJhdXRvIiwiZGlzY292ZXJ5Ijp0cnVlLCJkaXNjb3ZlcnlXYW50IjoyLCJkaXNjb3ZlcnlDb25jdXJyZW5jeSI6MiwiZGlzY292ZXJ5UGFjZU1zIjoxMDAwLCJzYWZlUU5hbWUiOjEwMSwibWF4UU5hbWUiOjI1MywibWF4QW5zd2VyIjoxMjMyLCJob2xkTXMiOjUwMCwibWF4SW5mbGlnaHQiOjEyOCwibWF4UGF0aFdpbmRvdyI6MzIsIm1heFN0cmVhbXMiOjEyOCwic3RyZWFtV2luZG93S2lCIjoyNTYsInNlbmRCdWZmZXJLaUIiOjY0LCJzZXNzaW9uSWRsZVNlY29uZHMiOjkwLCJkaWFsVGltZW91dFNlY29uZHMiOjkwLCJjb3VudHJ5IjoiSVIifX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ</code><br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiOTA0NDdhYzJiNzRkOTQyZDMwZWVlZDc1YTY4NTI5M2I6Y290dGVuIiwibmFtZSI6IldoaXRlZG5zLUVtZXJnZW5jeSBDb25maWcgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3Quand2c2FjcDV5NmVhbjZraWNzbHJ4di5zb2FyLndoaXRlZG5zLmRvd25sb2FkIiwiZW5jcnlwdGlvbl9rZXkiOiI0YzczNzIxMmVkMDY2OTBjZWE0MjZkNWExNWFiZTc0ZjI2Nzk2ODc0NTE2OTExOGNjNDI0YzFlZWVmMGFkOGM1IiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><code>masterdns://eyJwcm9maWxlIjp7ImVuZ2luZSI6Im1hc3RlcmRucyIsImlkIjoiOTA0NDdhYzJiNzRkOTQyZDMwZWVlZDc1YTY4NTI5M2I6bWFzdGVyZG5zIiwibmFtZSI6IldoaXRlZG5zLUVtZXJnZW5jeSBDb25maWcgwrcgTWFzdGVyRE5TIiwic2VydmVyIjp7ImRvbWFpbiI6Im1kbnMtMS5qd3ZzYWNwNXk2ZWFuNmtpY3Nscnh2LnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJlbmNyeXB0aW9uX2tleSI6IjVlYmE4OWZhYjRkZTc2MTM1M2VmMmJhZmU5NWI2N2RjMzQ5ODBhYmQzMjU5MzM0ZTU3MGEyMDUyNWM4OGYyYmMiLCJlbmNyeXB0aW9uX21ldGhvZCI6NX19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0</code><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a><br><br>اموزش و اطلاعات بیشتر در وبسایت whitedns<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br><a href=\"https://whitedns.online/tools/whitedns/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online/tools/whitedns/</a>",
+      "plain_text": "سری (2)\n\nکانفیک اضطراری به مدت 1 روز - whitedns\n\n\"کانفیگ های قبلی را پاک نکنید . در ضورت ملی شدن نت اونها دوباره فعال میشه \"\n\n# Whitedns-Emergency Config\nsoar://eyJwcm9maWxlIjp7ImlkIjoiOTA0NDdhYzJiNzRkOTQyZDMwZWVlZDc1YTY4NTI5M2IiLCJuYW1lIjoiV2hpdGVkbnMtRW1lcmdlbmN5IENvbmZpZyIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiand2c2FjcDV5NmVhbjZraWNzbHJ4di5zb2FyLndoaXRlZG5zLmRvd25sb2FkIiwicHVibGljX2tleSI6IlNJUVVmQ3RTQml5ZDQrWDZMNXd2dzRlZm1FWHVVdG9VZTRuc1RRdUcyMUU9In0sInNvYXJTZXR0aW5ncyI6eyJ0cmFuc3BvcnQiOiJhdXRvIiwiZGlzY292ZXJ5Ijp0cnVlLCJkaXNjb3ZlcnlXYW50IjoyLCJkaXNjb3ZlcnlDb25jdXJyZW5jeSI6MiwiZGlzY292ZXJ5UGFjZU1zIjoxMDAwLCJzYWZlUU5hbWUiOjEwMSwibWF4UU5hbWUiOjI1MywibWF4QW5zd2VyIjoxMjMyLCJob2xkTXMiOjUwMCwibWF4SW5mbGlnaHQiOjEyOCwibWF4UGF0aFdpbmRvdyI6MzIsIm1heFN0cmVhbXMiOjEyOCwic3RyZWFtV2luZG93S2lCIjoyNTYsInNlbmRCdWZmZXJLaUIiOjY0LCJzZXNzaW9uSWRsZVNlY29uZHMiOjkwLCJkaWFsVGltZW91dFNlY29uZHMiOjkwLCJjb3VudHJ5IjoiSVIifX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiOTA0NDdhYzJiNzRkOTQyZDMwZWVlZDc1YTY4NTI5M2I6Y290dGVuIiwibmFtZSI6IldoaXRlZG5zLUVtZXJnZW5jeSBDb25maWcgwrcgQ290dGVuIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJjb3Quand2c2FjcDV5NmVhbjZraWNzbHJ4di5zb2FyLndoaXRlZG5zLmRvd25sb2FkIiwiZW5jcnlwdGlvbl9rZXkiOiI0YzczNzIxMmVkMDY2OTBjZWE0MjZkNWExNWFiZTc0ZjI2Nzk2ODc0NTE2OTExOGNjNDI0YzFlZWVmMGFkOGM1IiwiZW5jcnlwdGlvbl9tZXRob2QiOjV9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\nmasterdns://eyJwcm9maWxlIjp7ImVuZ2luZSI6Im1hc3RlcmRucyIsImlkIjoiOTA0NDdhYzJiNzRkOTQyZDMwZWVlZDc1YTY4NTI5M2I6bWFzdGVyZG5zIiwibmFtZSI6IldoaXRlZG5zLUVtZXJnZW5jeSBDb25maWcgwrcgTWFzdGVyRE5TIiwic2VydmVyIjp7ImRvbWFpbiI6Im1kbnMtMS5qd3ZzYWNwNXk2ZWFuNmtpY3Nscnh2LnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJlbmNyeXB0aW9uX2tleSI6IjVlYmE4OWZhYjRkZTc2MTM1M2VmMmJhZmU5NWI2N2RjMzQ5ODBhYmQzMjU5MzM0ZTU3MGEyMDUyNWM4OGYyYmMiLCJlbmNyeXB0aW9uX21ldGhvZCI6NX19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0\n\n@whitedns\n\nاموزش و اطلاعات بیشتر در وبسایت whitedns👇\n\nhttps://whitedns.online/tools/whitedns/",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2292",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/lmAIPSoT0t4KgFNeil-M3jqAXdWcwvMzVAf9urzP0DIo9KRh2s0DYTyNEYscwfkdMuXOAZfNMXNnPpWHTXyLj2D1TdcAxmxYAAwJtfMRYo4eEZRID-5aTW5IruSGttmlRB6yBbgibb38GJcJ5J9vFfXW6ets0tW8hqAn2MXqszn5Tc8IvQppxtlXTvYVhnraSDzzS_NDPmAFJyE6aooTP9iYQpDI5SP1bYwUb1uYEVt3aZvL-2lMA8vdEOOlLzKnDjRC1_Z5TFXaP7uwieh5avPLfM_EAfSv_n12_PSrUj5tV1w7I5cF-L6KL1wr_-383A7QwH7n4zsheZ3CpMHOLg.jpg",
+          "thumbnail_path": "channels/whitedns/media/74051e1dc15638de31c3c165.jpg",
+          "thumbnail_sha256": "bb298017177df6b4bdfc08431a149fcddbc4a2df734c464b9f737148651b71ef",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "6"
+        },
+        {
+          "emoji": "🔥",
+          "count": "1"
+        }
+      ],
+      "views_label": "634",
+      "posted_at": "2026-11-19T08:16:52+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2292",
+      "reply": null
+    },
     {
       "id": "whitedns/2291",
       "author_name": "White DNS",
@@ -35,7 +72,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "67"
+          "count": "69"
         },
         {
           "emoji": "🥰",
@@ -50,7 +87,7 @@
           "count": "1"
         }
       ],
-      "views_label": "2.52K",
+      "views_label": "2.67K",
       "posted_at": "2026-11-19T05:48:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2291",
@@ -107,7 +144,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.23K",
+      "views_label": "5.39K",
       "posted_at": "2026-11-19T02:50:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2290",
@@ -168,7 +205,7 @@
           "count": "1"
         }
       ],
-      "views_label": "10.4K",
+      "views_label": "10.5K",
       "posted_at": "2026-11-18T07:33:36+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2289",
@@ -225,7 +262,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.44K",
+      "views_label": "9.5K",
       "posted_at": "2026-11-18T06:56:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2287",
@@ -278,7 +315,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.09K",
+      "views_label": "8.15K",
       "posted_at": "2026-11-18T06:36:26+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2286",
@@ -335,7 +372,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.24K",
+      "views_label": "8.27K",
       "posted_at": "2026-11-18T06:36:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2285",
@@ -365,7 +402,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "155"
+          "count": "156"
         },
         {
           "emoji": "👍",
@@ -400,7 +437,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.69K",
+      "views_label": "9.76K",
       "posted_at": "2026-11-18T03:52:50+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2284",
@@ -587,7 +624,7 @@
           "count": "1"
         }
       ],
-      "views_label": "14.3K",
+      "views_label": "14.4K",
       "posted_at": "2026-11-17T07:53:57+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2279",
@@ -717,7 +754,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.86K",
+      "views_label": "7.9K",
       "posted_at": "2026-11-16T13:18:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2277",
@@ -782,7 +819,7 @@
           "count": "1"
         }
       ],
-      "views_label": "17.3K",
+      "views_label": "17.5K",
       "posted_at": "2026-11-15T12:40:22+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2275",
@@ -924,7 +961,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.6K",
+      "views_label": "16.7K",
       "posted_at": "2026-11-15T05:20:43+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2272",
@@ -997,7 +1034,7 @@
           "count": "1"
         }
       ],
-      "views_label": "16.4K",
+      "views_label": "16.5K",
       "posted_at": "2026-11-14T16:28:44+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2271",
@@ -5668,31 +5705,6 @@
       "posted_at": "2026-10-26T01:46:44+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2159",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2158",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/pDoxTXi6Aj-sftbOEBP5gID_Qzl-aj4b2rtzEphuvWtDwvxYWPuUQSQIvRU4tjwbtHFo9zHbbsXmFDkQ1Yy-Q9_LZslzF9-B82g01Ld_eYYTMtPl8EbLCDgdCmCFaSjDtdtJWTfjXRl4-KJZoiNYY-WPttjErcnILRsaUtkOgClIKn3UAYNIzKvDDbYeWgFUiehhiMOlTckrDkL62a0fdCGj6TNvxqkYglYxQ_OpKReI4ETvFtEk1i1kCQ3UDUwyh0uL1nQS2pkxGXoyTg8jNP2vv09UMjFTPVsOO1Ik7-p4a4ocJSRBu30J-Bc5irXkrLHjHI9JzKnJRGw-2KKBEQ.jpg",
-      "author_photo_path": "channels/whitedns/media/b0f0c5d2f18784c48680a36d.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9382.png')\"><b>📂</b></i> مجموعهٔ یکپارچهٔ ریزالورهای منتشرشده در کانال<br><br>فهرست‌های متنی و فایل‌های ریزالوری که قبلاً در کانال منتشر کرده بودیم را در یک فایل جمع کردیم و آدرس‌های تکراری را حذف کردیم.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> تعداد نهایی: ۷٬۶۲۹ آدرس یکتا<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9384.png')\"><b>📄</b></i> فرمت فایل: متن ساده، هر آدرس در یک خط<br><br>دیگر لازم نیست فهرست‌های قدیمی را جداگانه پیدا و با هم ترکیب کنید؛ مجموعهٔ ادغام‌شده را از فایل همین پست دریافت کنید.<br><br><a href=\"https://t.me/dns_resolvers_bot\" target=\"_blank\">@dns_resolvers_bot</a><br>----------<br><a href=\"?q=%23%D8%A7%D8%B3%DA%A9%D9%86\">#اسکن</a> <a href=\"?q=%23DNS\">#DNS</a> <a href=\"?q=%23Resolvers\">#Resolvers</a><br><br>کانال: <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">وب‌سایت WhiteDNS</a>",
-      "plain_text": "📂 مجموعهٔ یکپارچهٔ ریزالورهای منتشرشده در کانال\n\nفهرست‌های متنی و فایل‌های ریزالوری که قبلاً در کانال منتشر کرده بودیم را در یک فایل جمع کردیم و آدرس‌های تکراری را حذف کردیم.\n\n📌 تعداد نهایی: ۷٬۶۲۹ آدرس یکتا\n📄 فرمت فایل: متن ساده، هر آدرس در یک خط\n\nدیگر لازم نیست فهرست‌های قدیمی را جداگانه پیدا و با هم ترکیب کنید؛ مجموعهٔ ادغام‌شده را از فایل همین پست دریافت کنید.\n\n@dns_resolvers_bot\n----------\n#اسکن #DNS #Resolvers\n\nکانال: @WhiteDNS\nوب‌سایت WhiteDNS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "53"
-        },
-        {
-          "emoji": "👍",
-          "count": "3"
-        }
-      ],
-      "views_label": "2.31K",
-      "posted_at": "2026-10-26T01:45:14+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/2158",
       "reply": null
     }
   ]
