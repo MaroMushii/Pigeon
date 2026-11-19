@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-19T22:12:02.899Z",
+  "fetched_at": "2026-11-19T22:17:07.413Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,51 @@
     "subscriber_count": "9.94M"
   },
   "posts": [
+    {
+      "id": "durov/566",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/V0-4Icd3s5l2j5yXmmZH3XhGG8EN14K4hxJqvD51lBCaVy-byIPTQd92IDWvs2NmqU-IuHDBnpw82gn05rFWtmBcs3MjyxTcyCQo158r5iewPEmOicuj2-Gsj3Z87-rV1JU8EEcJA_g-UWbtiwzKsYr8plGLIAjiROERDYNApujbNu7p06fdyMVtFInl-sHzB9XxBqBmFB5RXnpQsdhFq_xs3_EhBsQs5SlkDYEHB6UPkz2IpGADF8WRy7WF-ln1IC_wSl8ICM0vnMjaDADpbHkviS1KAQ_eBMqyKE9UeCyTdJa5FHZ9vGdXdfvadTtwVwTTab70JSb_kCB6Popa3Q.jpg",
+      "author_photo_path": "channels/durov/media/eae770ea5091dddb3af49cca.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "Apple finally made a phone that’s both too big and too small.<br><br>It folds in half. Just like your enthusiasm.<br><br>We still made Telegram look incredible at both wrong sizes.<br><br>We do a lot of charity work.",
+      "plain_text": "Apple finally made a phone that’s both too big and too small.\n\nIt folds in half. Just like your enthusiasm.\n\nWe still made Telegram look incredible at both wrong sizes.\n\nWe do a lot of charity work.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/durov/566",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/SYIulSS8So0TwjJYRu-co1fCIFC4zEWWrBlh3QxnKX9ULqOUSZIrUU57KKIgH0b0oSdnMj_bopbNgkV_1Ide312D4qmjS3MXNxo2bpI5BzxZISWrZJZ1Fx2Rv1reWpJu0yVGp3fX2u3CS-L3Th4z1-51or5OII3CLAlNiBAsH34nuwtUQiO-F96IZ6W6RnAvQ8CVDwsSiqwblTCQ_usjDxqGvwtYaivjJOpP-1MCzTwO-lgxZZz6X4kCc6F4Rp-V97_CUiU7lYoQ6w9UkE2jkENVCKHYr4-5mShJJUIlZF8NgP-5_J8lGVP2a3CrJqImILfKIL1y2aGy8IaCJUxzNA",
+          "thumbnail_path": "channels/durov/media/bd3c662212c2d7ca2eaf5f54.jpg",
+          "thumbnail_sha256": "20635c7cf3125c4fdf59fe8427c7f0a10e5fc2abe034d09d276f163727b76df5",
+          "duration_label": null,
+          "aspect_ratio": 1.28
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "8K"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.97K"
+        },
+        {
+          "emoji": "💎",
+          "count": "1.2K"
+        },
+        {
+          "emoji": "💎",
+          "count": "726"
+        }
+      ],
+      "views_label": "41.1K",
+      "posted_at": "2026-11-19T22:12:20+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/566",
+      "reply": null
+    },
     {
       "id": "durov/565",
       "author_name": "Pavel Durov",
@@ -27,7 +72,7 @@
         },
         {
           "emoji": "💎",
-          "count": "44.2K"
+          "count": "44.4K"
         },
         {
           "emoji": "💎",
@@ -38,7 +83,7 @@
           "count": "11.5K"
         }
       ],
-      "views_label": "979K",
+      "views_label": "993K",
       "posted_at": "2026-11-18T17:42:19+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/565",
@@ -68,10 +113,10 @@
         },
         {
           "emoji": "💎",
-          "count": "9.59K"
+          "count": "9.6K"
         }
       ],
-      "views_label": "1.32M",
+      "views_label": "1.33M",
       "posted_at": "2026-11-17T19:12:44+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/564",
@@ -97,14 +142,14 @@
         },
         {
           "emoji": "💎",
-          "count": "6.02K"
+          "count": "6.03K"
         },
         {
           "emoji": "💎",
-          "count": "4.62K"
+          "count": "4.63K"
         }
       ],
-      "views_label": "1.31M",
+      "views_label": "1.32M",
       "posted_at": "2026-11-16T17:06:39+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/563",
@@ -138,7 +183,7 @@
         },
         {
           "emoji": "💎",
-          "count": "60.3K"
+          "count": "60.4K"
         },
         {
           "emoji": "💎",
@@ -149,7 +194,7 @@
           "count": "15.5K"
         }
       ],
-      "views_label": "1.53M",
+      "views_label": "1.54M",
       "posted_at": "2026-11-15T22:48:26+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/562",
@@ -183,10 +228,10 @@
         },
         {
           "emoji": "💎",
-          "count": "761"
+          "count": "763"
         }
       ],
-      "views_label": "1.74M",
+      "views_label": "1.75M",
       "posted_at": "2026-11-14T09:29:21+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/561",
@@ -245,7 +290,7 @@
         },
         {
           "emoji": "💎",
-          "count": "42.7K"
+          "count": "42.8K"
         },
         {
           "emoji": "💎",
@@ -257,7 +302,7 @@
         },
         {
           "emoji": "💎",
-          "count": "312"
+          "count": "313"
         }
       ],
       "views_label": "1.76M",
@@ -306,7 +351,7 @@
         },
         {
           "emoji": "💎",
-          "count": "177"
+          "count": "178"
         }
       ],
       "views_label": "1.77M",
@@ -404,7 +449,7 @@
           "count": "84"
         }
       ],
-      "views_label": "1.69M",
+      "views_label": "1.7M",
       "posted_at": "2026-11-11T12:27:06+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/556",
@@ -450,7 +495,7 @@
         },
         {
           "emoji": "💎",
-          "count": "86"
+          "count": "87"
         }
       ],
       "views_label": "1.87M",
