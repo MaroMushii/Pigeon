@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-20T12:23:25.177Z",
+  "fetched_at": "2026-11-20T12:27:00.974Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -17,8 +17,8 @@
       "author_photo_url": "https://cdn5.telesco.pe/file/C4TyP9EsdXvZkThhVzvzOrQY5-cEM3JR6DKUK-RW-k9R4G2kDUqbE9syw-nLHu8oXMNZnz16I4YmFEZADAaTMirMtMSNQ4609Qp_aGIT9hcpGn_PROFS0Ayb3ovfqfiw1Ay9Rpg3qJSRSYPa82V9zapSPaJV8pbvd187YKsMn_Jb7UQfNLsUZG1mADnshv9GRXMwwMUC01YLqCksc7rWKFHDxCFay62xvcgKC6q8B0Sn5R1AC7s2N5DlE-YjIA-Wkaq0_JAlxVQNpTgIGImZeObWj2VNdMBI6Y3p8ORyKy5nXO1kkRCkc8MIpt7jKMqcUESoTSscPHE8trPGcE2zFw.jpg",
       "author_photo_path": "channels/whitedns/media/7810edb51b510ac0f3360530.jpg",
       "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> (نسخه آزمایشی) WhiteVPN mobile 1.8.0-beta.2 منتشر شد !<br><br>این نسخه آزمایشی است؛ اگر دنبال پایداری کامل هستید، فعلاً روی 1.7.1 بمانید. <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> تغییرات اصلی<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> هسته جدید Mihomo v1.19.34<br>اثرانگشت TLS به‌روزتر، رفع یک مشکل امنیتی و پایداری بهتر اتصال‌های XHTTP و DoH.<br><br>ا<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> ECH خودکار <br>برای کانفیگ‌های CDN (WebSocket، gRPC و XHTTP) نام سایت در TLS پنهان می‌شود. اگر سرور از ECH پشتیبانی نکند، اتصال عادی برقرار می‌شود.<br>روشن/خاموش: تنظیمات ← امنیت اتصال ← «ECH خودکار»<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> موتورهای اتصال جدید<br>Tor (obfs4 / Snowflake / Conjure)، Psiphon، SSH، AmneziaWG و IKEv2<br><br>وارپ (warp) رایگان کلادفلر<br>ساخت حساب WARP با یک لمس، بدون نیاز به کانفیگ.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> زنجیره اتصال بازطراحی شد<br>مسیر: گوشی ← نود ۱ ← نود ۲ ← اینترنت<br><br><br>━━━━━━━━━━━━━━<br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> آموزش<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> ساخت WARP<br>پروفایل‌ها ← افزودن ← WARP (Cloudflare)<br>یک پروفایل WARP ساخته می‌شود. آن را انتخاب کنید و وصل شوید.<br>اگر وصل نشد: روی پروفایل ← ویرایش، یک IP یا پورت دیگر امتحان کنید (مثلاً 2408، 854، 894). «نویز ضدفیلتر» را روشن بگذارید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> افزودن Tor یا Psiphon<br>پروفایل‌ها ← افزودن ← Tor یا Psiphon<br>• Tor: اگر obfs4 وصل نشد، Snowflake را امتحان کنید.<br>• Psiphon: حالت «auto» را بگذارید. انتخاب کشور اختیاری است.<br>پروفایل را انتخاب کنید و وصل شوید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i>ا Tor و Psiphon فقط TCP را عبور می‌دهند (تماس صوتی و بازی‌های UDP کار نمی‌کنند).<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/33E283A3.png')\"><b>3️⃣</b></i> زنجیره اتصال (دو سرور پشت هم)<br>تنظیمات ← زنجیرهٔ اتصال ← «فعال‌کردن زنجیره»<br>در صفحه اصلی روی «نود ۱ (ورود)» و «نود ۲ (خروج)» بزنید و از لیست انتخاب کنید.<br>• پروفایل‌های خودتان (مثل WARP) بالای لیست در باکس «پروفایل‌های من» هستند.<br>• با دکمه «تست» کنار هر اشتراک، سرعت کانفیگ‌ها را ببینید (VPN باید قطع باشد).<br>• کانفیگ‌هایی که با هم جور نیستند کم‌رنگ می‌شوند و دلیلش نوشته می‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> ترکیب پیشنهادی: نود ۱ = WARP ، نود ۲ = یک کانفیگ عمومی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i>ا Tor، Psiphon و بقیه موتورها در زنجیره قرار نمی‌گیرند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/34E283A3.png')\"><b>4️⃣</b></i> ویرایش WARP<br>پروفایل‌ها ← WARP ← ویرایش<br>فیلدهای ساده: IP سرور، پورت و نویز.<br>حرفه‌ای‌ها: دکمه «حالت پیشرفته» برای ویرایش متن کامل کانفیگ.</blockquote><br><br>━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود<br><a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.8.0-beta.2\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.8.0-beta.2</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> اگر نسخه دیباگ یا غیررسمی نصب دارید، قبل از نصب آن را حذف کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i> گزارش مشکل:<br>تنظیمات ← ضبط لاگ، مشکل را تکرار کنید و فایل لاگ را در گروه بفرستید.<br><a href=\"https://t.me/whitedns_group\" target=\"_blank\">@whitedns_group</a><br><br><a href=\"?q=%23WhiteVPN\">#WhiteVPN</a> <a href=\"?q=%23WARP\">#WARP</a> <a href=\"?q=%23Tor\">#Tor</a> <a href=\"?q=%23Psiphon\">#Psiphon</a><br><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8694.png')\"><b>🆔</b></i> <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
-      "plain_text": "🚀 (نسخه آزمایشی) WhiteVPN mobile 1.8.0-beta.2 منتشر شد !\n\nاین نسخه آزمایشی است؛ اگر دنبال پایداری کامل هستید، فعلاً روی 1.7.1 بمانید. ⚠️\n\n✨ تغییرات اصلی\n\n🔹 هسته جدید Mihomo v1.19.34\nاثرانگشت TLS به‌روزتر، رفع یک مشکل امنیتی و پایداری بهتر اتصال‌های XHTTP و DoH.\n\nا🔹 ECH خودکار\nبرای کانفیگ‌های CDN (WebSocket، gRPC و XHTTP) نام سایت در TLS پنهان می‌شود. اگر سرور از ECH پشتیبانی نکند، اتصال عادی برقرار می‌شود.\nروشن/خاموش: تنظیمات ← امنیت اتصال ← «ECH خودکار»\n\n🔹 موتورهای اتصال جدید\nTor (obfs4 / Snowflake / Conjure)، Psiphon، SSH، AmneziaWG و IKEv2\n\nوارپ (warp) رایگان کلادفلر\nساخت حساب WARP با یک لمس، بدون نیاز به کانفیگ.\n\n🔹 زنجیره اتصال بازطراحی شد\nمسیر: گوشی ← نود ۱ ← نود ۲ ← اینترنت\n\n\n━━━━━━━━━━━━━━\n📖 آموزش\n\n1️⃣ ساخت WARP\nپروفایل‌ها ← افزودن ← WARP (Cloudflare)\nیک پروفایل WARP ساخته می‌شود. آن را انتخاب کنید و وصل شوید.\nاگر وصل نشد: روی پروفایل ← ویرایش، یک IP یا پورت دیگر امتحان کنید (مثلاً 2408، 854، 894). «نویز ضدفیلتر» را روشن بگذارید.\n\n2️⃣ افزودن Tor یا Psiphon\nپروفایل‌ها ← افزودن ← Tor یا Psiphon\n• Tor: اگر obfs4 وصل نشد، Snowflake را امتحان کنید.\n• Psiphon: حالت «auto» را بگذارید. انتخاب کشور اختیاری است.\nپروفایل را انتخاب کنید و وصل شوید.\n⚠️ا Tor و Psiphon فقط TCP را عبور می‌دهند (تماس صوتی و بازی‌های UDP کار نمی‌کنند).\n\n3️⃣ زنجیره اتصال (دو سرور پشت هم)\nتنظیمات ← زنجیرهٔ اتصال ← «فعال‌کردن زنجیره»\nدر صفحه اصلی روی «نود ۱ (ورود)» و «نود ۲ (خروج)» بزنید و از لیست انتخاب کنید.\n• پروفایل‌های خودتان (مثل WARP) بالای لیست در باکس «پروفایل‌های من» هستند.\n• با دکمه «تست» کنار هر اشتراک، سرعت کانفیگ‌ها را ببینید (VPN باید قطع باشد).\n• کانفیگ‌هایی که با هم جور نیستند کم‌رنگ می‌شوند و دلیلش نوشته می‌شود.\n💡 ترکیب پیشنهادی: نود ۱ = WARP ، نود ۲ = یک کانفیگ عمومی\n⚠️ا Tor، Psiphon و بقیه موتورها در زنجیره قرار نمی‌گیرند.\n\n4️⃣ ویرایش WARP\nپروفایل‌ها ← WARP ← ویرایش\nفیلدهای ساده: IP سرور، پورت و نویز.\nحرفه‌ای‌ها: دکمه «حالت پیشرفته» برای ویرایش متن کامل کانفیگ.\n\n━━━━━━━━━━━━━━\n📥 دانلود\nhttps://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.8.0-beta.2\n\n⚠️ اگر نسخه دیباگ یا غیررسمی نصب دارید، قبل از نصب آن را حذف کنید.\n\n🐞 گزارش مشکل:\nتنظیمات ← ضبط لاگ، مشکل را تکرار کنید و فایل لاگ را در گروه بفرستید.\n@whitedns_group\n\n#WhiteVPN #WARP #Tor #Psiphon\n\nhttps://whitedns.online\n🆔 @WhiteDNS",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> (نسخه آزمایشی) WhiteVPN mobile 1.8.0-beta.2 منتشر شد !<br><br>این نسخه آزمایشی است؛ اگر دنبال پایداری کامل هستید، فعلاً روی 1.7.1 بمانید. <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29CA8.png')\"><b>✨</b></i> تغییرات اصلی<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> هسته جدید Mihomo v1.19.34<br>اثرانگشت TLS به‌روزتر، رفع یک مشکل امنیتی و پایداری بهتر اتصال‌های XHTTP و DoH.<br><br>ا<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> ECH خودکار <br>برای کانفیگ‌های CDN (WebSocket، gRPC و XHTTP) نام سایت در TLS پنهان می‌شود. اگر سرور از ECH پشتیبانی نکند، اتصال عادی برقرار می‌شود.<br>روشن/خاموش: تنظیمات ← امنیت اتصال ← «ECH خودکار»<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> موتورهای اتصال جدید<br>Tor (obfs4 / Snowflake / Conjure)، Psiphon، SSH، AmneziaWG و IKEv2<br><br>وارپ (warp) رایگان کلادفلر<br>ساخت حساب WARP با یک لمس، بدون نیاز به کانفیگ.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> زنجیره اتصال بازطراحی شد<br>مسیر: گوشی ← نود ۱ ← نود ۲ ← اینترنت<br><br><br>━━━━━━━━━━━━━━<br><blockquote expandable=\"\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9396.png')\"><b>📖</b></i> آموزش<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/31E283A3.png')\"><b>1️⃣</b></i> ساخت WARP<br>پروفایل‌ها ← افزودن ← WARP (Cloudflare)<br>یک پروفایل WARP ساخته می‌شود. آن را انتخاب کنید و وصل شوید.<br>اگر وصل نشد: روی پروفایل ← ویرایش، یک IP یا پورت دیگر امتحان کنید (مثلاً 2408، 854، 894). «نویز ضدفیلتر» را روشن بگذارید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/32E283A3.png')\"><b>2️⃣</b></i> افزودن Tor یا Psiphon<br>پروفایل‌ها ← افزودن ← Tor یا Psiphon<br>• Tor: اگر obfs4 وصل نشد، Snowflake را امتحان کنید.<br>• Psiphon: حالت «auto» را بگذارید. انتخاب کشور اختیاری است.<br>پروفایل را انتخاب کنید و وصل شوید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i>ا Tor و Psiphon فقط TCP را عبور می‌دهند (تماس صوتی و بازی‌های UDP کار نمی‌کنند).<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/33E283A3.png')\"><b>3️⃣</b></i> زنجیره اتصال (دو سرور پشت هم)<br>تنظیمات ← زنجیرهٔ اتصال ← «فعال‌کردن زنجیره»<br>در صفحه اصلی روی «نود ۱ (ورود)» و «نود ۲ (خروج)» بزنید و از لیست انتخاب کنید.<br>• پروفایل‌های خودتان (مثل WARP) بالای لیست در باکس «پروفایل‌های من» هستند.<br>• با دکمه «تست» کنار هر اشتراک، سرعت کانفیگ‌ها را ببینید (VPN باید قطع باشد).<br>• کانفیگ‌هایی که با هم جور نیستند کم‌رنگ می‌شوند و دلیلش نوشته می‌شود.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92A1.png')\"><b>💡</b></i> ترکیب پیشنهادی: نود ۱ = WARP ، نود ۲ = یک کانفیگ عمومی<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i>ا Tor، Psiphon و بقیه موتورها در زنجیره قرار نمی‌گیرند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/34E283A3.png')\"><b>4️⃣</b></i> ویرایش WARP<br>پروفایل‌ها ← WARP ← ویرایش<br>فیلدهای ساده: IP سرور، پورت و نویز.<br>حرفه‌ای‌ها: دکمه «حالت پیشرفته» برای ویرایش متن کامل کانفیگ.</blockquote><br><br>━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> دانلود<br><a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.8.0-beta.2\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.8.0-beta.2</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> اگر نسخه دیباگ یا غیررسمی نصب دارید، قبل از نصب آن را حذف کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F909E.png')\"><b>🐞</b></i> گزارش مشکل:<br>تنظیمات ← ضبط لاگ، مشکل را تکرار کنید و فایل لاگ را در گروه بفرستید.<br><br><a href=\"https://t.me/whitedns_group\" target=\"_blank\">@whitedns_group</a><br><br><a href=\"?q=%23WhiteVPN\">#WhiteVPN</a> <a href=\"?q=%23WARP\">#WARP</a> <a href=\"?q=%23Tor\">#Tor</a> <a href=\"?q=%23Psiphon\">#Psiphon</a><br><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8694.png')\"><b>🆔</b></i> <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "🚀 (نسخه آزمایشی) WhiteVPN mobile 1.8.0-beta.2 منتشر شد !\n\nاین نسخه آزمایشی است؛ اگر دنبال پایداری کامل هستید، فعلاً روی 1.7.1 بمانید. ⚠️\n\n✨ تغییرات اصلی\n\n🔹 هسته جدید Mihomo v1.19.34\nاثرانگشت TLS به‌روزتر، رفع یک مشکل امنیتی و پایداری بهتر اتصال‌های XHTTP و DoH.\n\nا🔹 ECH خودکار\nبرای کانفیگ‌های CDN (WebSocket، gRPC و XHTTP) نام سایت در TLS پنهان می‌شود. اگر سرور از ECH پشتیبانی نکند، اتصال عادی برقرار می‌شود.\nروشن/خاموش: تنظیمات ← امنیت اتصال ← «ECH خودکار»\n\n🔹 موتورهای اتصال جدید\nTor (obfs4 / Snowflake / Conjure)، Psiphon، SSH، AmneziaWG و IKEv2\n\nوارپ (warp) رایگان کلادفلر\nساخت حساب WARP با یک لمس، بدون نیاز به کانفیگ.\n\n🔹 زنجیره اتصال بازطراحی شد\nمسیر: گوشی ← نود ۱ ← نود ۲ ← اینترنت\n\n\n━━━━━━━━━━━━━━\n📖 آموزش\n\n1️⃣ ساخت WARP\nپروفایل‌ها ← افزودن ← WARP (Cloudflare)\nیک پروفایل WARP ساخته می‌شود. آن را انتخاب کنید و وصل شوید.\nاگر وصل نشد: روی پروفایل ← ویرایش، یک IP یا پورت دیگر امتحان کنید (مثلاً 2408، 854، 894). «نویز ضدفیلتر» را روشن بگذارید.\n\n2️⃣ افزودن Tor یا Psiphon\nپروفایل‌ها ← افزودن ← Tor یا Psiphon\n• Tor: اگر obfs4 وصل نشد، Snowflake را امتحان کنید.\n• Psiphon: حالت «auto» را بگذارید. انتخاب کشور اختیاری است.\nپروفایل را انتخاب کنید و وصل شوید.\n⚠️ا Tor و Psiphon فقط TCP را عبور می‌دهند (تماس صوتی و بازی‌های UDP کار نمی‌کنند).\n\n3️⃣ زنجیره اتصال (دو سرور پشت هم)\nتنظیمات ← زنجیرهٔ اتصال ← «فعال‌کردن زنجیره»\nدر صفحه اصلی روی «نود ۱ (ورود)» و «نود ۲ (خروج)» بزنید و از لیست انتخاب کنید.\n• پروفایل‌های خودتان (مثل WARP) بالای لیست در باکس «پروفایل‌های من» هستند.\n• با دکمه «تست» کنار هر اشتراک، سرعت کانفیگ‌ها را ببینید (VPN باید قطع باشد).\n• کانفیگ‌هایی که با هم جور نیستند کم‌رنگ می‌شوند و دلیلش نوشته می‌شود.\n💡 ترکیب پیشنهادی: نود ۱ = WARP ، نود ۲ = یک کانفیگ عمومی\n⚠️ا Tor، Psiphon و بقیه موتورها در زنجیره قرار نمی‌گیرند.\n\n4️⃣ ویرایش WARP\nپروفایل‌ها ← WARP ← ویرایش\nفیلدهای ساده: IP سرور، پورت و نویز.\nحرفه‌ای‌ها: دکمه «حالت پیشرفته» برای ویرایش متن کامل کانفیگ.\n\n━━━━━━━━━━━━━━\n📥 دانلود\nhttps://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.8.0-beta.2\n\n⚠️ اگر نسخه دیباگ یا غیررسمی نصب دارید، قبل از نصب آن را حذف کنید.\n\n🐞 گزارش مشکل:\nتنظیمات ← ضبط لاگ، مشکل را تکرار کنید و فایل لاگ را در گروه بفرستید.\n\n@whitedns_group\n\n#WhiteVPN #WARP #Tor #Psiphon\n\nhttps://whitedns.online\n🆔 @WhiteDNS",
       "media": [
         {
           "kind": "photo",
@@ -35,14 +35,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "1"
+          "count": "6"
         },
         {
           "emoji": "👍",
           "count": "1"
         }
       ],
-      "views_label": "4",
+      "views_label": "518",
       "posted_at": "2026-11-20T12:22:59+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2298",
@@ -91,7 +91,7 @@
           "count": "2"
         }
       ],
-      "views_label": "6.48K",
+      "views_label": "6.62K",
       "posted_at": "2026-11-20T05:08:37+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2297",
@@ -144,7 +144,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.17K",
+      "views_label": "7.27K",
       "posted_at": "2026-11-20T02:47:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2296",
@@ -201,7 +201,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.13K",
+      "views_label": "7.18K",
       "posted_at": "2026-11-20T01:23:26+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2295",
@@ -311,7 +311,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.85K",
+      "views_label": "9.88K",
       "posted_at": "2026-11-19T08:16:52+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2292",
@@ -372,7 +372,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.11K",
+      "views_label": "7.13K",
       "posted_at": "2026-11-19T05:48:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2291",
@@ -433,7 +433,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.45K",
+      "views_label": "9.52K",
       "posted_at": "2026-11-19T02:50:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2290",
@@ -604,7 +604,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.62K",
+      "views_label": "9.66K",
       "posted_at": "2026-11-18T06:36:26+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2286",
@@ -661,7 +661,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.89K",
+      "views_label": "9.9K",
       "posted_at": "2026-11-18T06:36:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2285",
@@ -913,7 +913,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.2K",
+      "views_label": "15.3K",
       "posted_at": "2026-11-17T07:53:57+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2279",
@@ -1108,7 +1108,7 @@
           "count": "1"
         }
       ],
-      "views_label": "22.6K",
+      "views_label": "22.7K",
       "posted_at": "2026-11-15T12:40:22+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2275",
