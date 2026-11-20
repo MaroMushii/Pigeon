@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-20T13:57:14.781Z",
+  "fetched_at": "2026-11-20T14:02:34.391Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -74,21 +74,21 @@
       "plain_text": "🚀 (نسخه آزمایشی) WhiteVPN mobile 1.8.0-beta.2 منتشر شد !\n\nاین نسخه آزمایشی است؛ اگر دنبال پایداری کامل هستید، فعلاً روی 1.7.1 بمانید. ⚠️\n\n✨ تغییرات اصلی\n\n🔹 هسته جدید Mihomo v1.19.34\nاثرانگشت TLS به‌روزتر، رفع یک مشکل امنیتی و پایداری بهتر اتصال‌های XHTTP و DoH.\n\nا🔹 ECH خودکار\nبرای کانفیگ‌های CDN (WebSocket، gRPC و XHTTP) نام سایت در TLS پنهان می‌شود. اگر سرور از ECH پشتیبانی نکند، اتصال عادی برقرار می‌شود.\nروشن/خاموش: تنظیمات ← امنیت اتصال ← «ECH خودکار»\n\n🔹 موتورهای اتصال جدید\nTor (obfs4 / Snowflake / Conjure)، Psiphon، SSH، AmneziaWG و IKEv2\n\nوارپ (warp) رایگان کلادفلر\nساخت حساب WARP با یک لمس، بدون نیاز به کانفیگ.\n\n🔹 زنجیره اتصال بازطراحی شد\nمسیر: گوشی ← نود ۱ ← نود ۲ ← اینترنت\n\n\n━━━━━━━━━━━━━━\n📖 آموزش\n\n1️⃣ ساخت WARP\nپروفایل‌ها ← افزودن ← WARP (Cloudflare)\nیک پروفایل WARP ساخته می‌شود. آن را انتخاب کنید و وصل شوید.\nاگر وصل نشد: روی پروفایل ← ویرایش، یک IP یا پورت دیگر امتحان کنید (مثلاً 2408، 854، 894). «نویز ضدفیلتر» را روشن بگذارید.\n\n2️⃣ افزودن Tor یا Psiphon\nپروفایل‌ها ← افزودن ← Tor یا Psiphon\n• Tor: اگر obfs4 وصل نشد، Snowflake را امتحان کنید.\n• Psiphon: حالت «auto» را بگذارید. انتخاب کشور اختیاری است.\nپروفایل را انتخاب کنید و وصل شوید.\n⚠️ا Tor و Psiphon فقط TCP را عبور می‌دهند (تماس صوتی و بازی‌های UDP کار نمی‌کنند).\n\n3️⃣ زنجیره اتصال (دو سرور پشت هم)\nتنظیمات ← زنجیرهٔ اتصال ← «فعال‌کردن زنجیره»\nدر صفحه اصلی روی «نود ۱ (ورود)» و «نود ۲ (خروج)» بزنید و از لیست انتخاب کنید.\n• پروفایل‌های خودتان (مثل WARP) بالای لیست در باکس «پروفایل‌های من» هستند.\n• با دکمه «تست» کنار هر اشتراک، سرعت کانفیگ‌ها را ببینید (VPN باید قطع باشد).\n• کانفیگ‌هایی که با هم جور نیستند کم‌رنگ می‌شوند و دلیلش نوشته می‌شود.\n💡 ترکیب پیشنهادی: نود ۱ = WARP ، نود ۲ = یک کانفیگ عمومی\n⚠️ا Tor، Psiphon و بقیه موتورها در زنجیره قرار نمی‌گیرند.\n\n4️⃣ ویرایش WARP\nپروفایل‌ها ← WARP ← ویرایش\nفیلدهای ساده: IP سرور، پورت و نویز.\nحرفه‌ای‌ها: دکمه «حالت پیشرفته» برای ویرایش متن کامل کانفیگ.\n\n━━━━━━━━━━━━━━\n📥 دانلود\nhttps://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.8.0-beta.2\n\n⚠️ اگر نسخه دیباگ یا غیررسمی نصب دارید، قبل از نصب آن را حذف کنید.\n\n🐞 گزارش مشکل:\nتنظیمات ← ضبط لاگ، مشکل را تکرار کنید و فایل لاگ را در گروه بفرستید.\n\n@whitedns_group\n\n#WhiteVPN #WARP #Tor #Psiphon\n\nhttps://whitedns.online\n🆔 @WhiteDNS",
       "media": [
         {
-          "kind": "photo",
+          "kind": "video",
           "asset_url": "https://t.me/whitedns/2298",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/iXy7_RA-S1t_Qlc27yyftLrCRZsSvNEZu_uIwuDHokwBLqIkp788BKD_NzEd-C3B4XFOc36KtHO_6iikO8cn4jLt3tMuSA1d0z-jOMO_8jxAEltzt_OkP2bDIRitYjuQtnRLDVuiFjatBIG7CGFEcTKQ4-ys_HheKADCsNLPKXuN1WcVtTbUv4PDBvMNosBY1c37MCk1FBq9D8QeeVnuizrFtW5mWTM6CrZmZhqyjciiSL-b0JbvV5jl3T78S5tQgwlipHw4hZ1HFS5mqOBVShNPVVIsp5RPH2GulPajtGoBQzTCo-_9_ZwzmymkEsDRbFIBwt-lWWeOvo7eUjc88g.jpg",
-          "thumbnail_path": "channels/whitedns/media/2d82b192169089181cdfad89.jpg",
-          "thumbnail_sha256": "8c68d82e42a420ec6b67d877f5dfc81c168ec5f7f9924a17a7a686bc3464387e",
+          "thumbnail_url": "https://cdn5.telesco.pe/file/qFlV-eme6XvQEcL44ZiRom0J5iAPJ8e4RKT_YP6pKPlgvs0-qmE0te0aEoP2R9UfNDHKQXFxD5sOV8f5aqvyn6rbKPGsR-5TbM1ln_eM1Ay7aAZeyjGnITeCZGhl0d_BlF6zWkNQrRn3c4XU0MTulEDFeVnkQq8gCraybS8qdKoEupNIT6lTGMkVJqc4d7c0ZG-XvIYYjT75rdIEyKAd4ZX2tIfIQewvJHMhJ1ActKNQHVTb2dSB-7HhNAOtA8kJwuY15F--DhkZxXvUvPLhQ_tk_sT9YqclmcWxC_Vs8zq1h84WRrhHHgpszl5uMuKK1dbr-feVltK4GF7flespjA",
+          "thumbnail_path": "channels/whitedns/media/cee9db387bc8aa74b6ae3015.jpg",
+          "thumbnail_sha256": "cdcd54ffd182b5cdd0c26307d3405d800369d94a6ffcd4f8a7fd468c246e3fef",
           "duration_label": null,
-          "aspect_ratio": 1
+          "aspect_ratio": 0.7500000000000188
         }
       ],
       "reactions": [
         {
           "emoji": "❤",
-          "count": "36"
+          "count": "40"
         },
         {
           "emoji": "👍",
@@ -107,7 +107,7 @@
           "count": "1"
         }
       ],
-      "views_label": "3.5K",
+      "views_label": "3.58K",
       "posted_at": "2026-11-20T12:22:59+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2298",
@@ -156,7 +156,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.27K",
+      "views_label": "7.29K",
       "posted_at": "2026-11-20T05:08:37+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2297",
@@ -209,7 +209,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.9K",
+      "views_label": "7.92K",
       "posted_at": "2026-11-20T02:47:45+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2296",
@@ -266,7 +266,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.77K",
+      "views_label": "7.79K",
       "posted_at": "2026-11-20T01:23:26+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2295",
@@ -669,7 +669,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.71K",
+      "views_label": "9.72K",
       "posted_at": "2026-11-18T06:36:26+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2286",
@@ -1388,7 +1388,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18K",
+      "views_label": "18.1K",
       "posted_at": "2026-11-14T16:28:44+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2271",
