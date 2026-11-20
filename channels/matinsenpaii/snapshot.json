@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-20T12:57:01.080Z",
+  "fetched_at": "2026-11-20T13:08:30.733Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,31 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5928",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/F29mcB5CtVyHH9J4ck91JKmIPQyOKCyofuHVWGZsKP1vsCLhFu3-iOqgfLeaitej96CIdhBw0miPwCnohVMmD3jxgx-n8bVLhhtlAHSd_RLzzuSgs9z90Vy4Wft0umRpkPBuEg3HoF7J7W-i4fz8gi-29ndlcq82ushJmkvK_j42TztmtHiLWZ66px8fH1q1lnQfVYU_lFtid3v9WbLqvwCAs4mGZJIH1GyxM_gqjyGqJIEDfhOAbL2mJmQG26jITrg1p06uutu4aews3z6gS8D8_mcD4KrpLwX3oZMOFxhs7WPPiWVEhM6HUondpvneBnPBXae_7NYFPfOmKF4f9Q.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/cb4a8c7bc860204aea28da9f.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>کلادفلر مدل Clairic رو منتشر کرده که خروجیش رایگانه</b><br><br>Clairic یه مدل استخراج داده‌ست؛ متن و PDF و عکس رو می‌دی و اطلاعات ساخت‌یافته ازش درمیاره. مثلاً متن آگهی استخدام رو می‌دی و می‌گی مهارت‌های ضروری و ترجیحی و سابقه و حقوق رو دربیار، یا عکس فاکتور رو می‌دی و مبلغ و تاریخ رو می‌گیری. فرقش با Jev اینه که Jev تصمیم‌گیری و امتیازدهی می‌کنه، این یکی فقط داده استخراج می‌کنه.<br><br>طرز کارش این شکلیه که ساختار خروجی رو هم خودت تعیین می‌کنی؛ مثلاً می‌گی فقط JSON بده و خروجی رو مستقیم می‌بری توی دیتابیس. برای هر فیلد هم امتیاز اطمینان می‌ده، یعنی خروجی‌های کم‌اطمینان رو جدا می‌کنی برای بررسی انسانی و مطمئن‌ها رو اتوماتیک جلو می‌بری.<br><br>«خروجی رایگان» یعنی مدل توکن خروجی تولید می‌کنه ولی کلادفلر پولش رو نمی‌گیره؛ فقط ورودی حساب می‌شه، فعلاً ۱۰ سنت برای هر یک میلیون توکن. هر دو نسخه‌ش هم اوپن ویتن و می‌تونید روی زیرساخت خودتون اجراش کنید. نویسنده‌ش می‌گه برای استخراج اطلاعات از متن‌های فارسی هم گزینه‌ی خوبیه.<br><br><tg-emoji emoji-id=\"5470060791883374114\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8D.png')\"><b>✍️</b></i></tg-emoji> <a href=\"https://x.com/alinajafi321/status/2123544511091503464\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">Ali Najafi</a>",
+      "plain_text": "کلادفلر مدل Clairic رو منتشر کرده که خروجیش رایگانه\n\nClairic یه مدل استخراج داده‌ست؛ متن و PDF و عکس رو می‌دی و اطلاعات ساخت‌یافته ازش درمیاره. مثلاً متن آگهی استخدام رو می‌دی و می‌گی مهارت‌های ضروری و ترجیحی و سابقه و حقوق رو دربیار، یا عکس فاکتور رو می‌دی و مبلغ و تاریخ رو می‌گیری. فرقش با Jev اینه که Jev تصمیم‌گیری و امتیازدهی می‌کنه، این یکی فقط داده استخراج می‌کنه.\n\nطرز کارش این شکلیه که ساختار خروجی رو هم خودت تعیین می‌کنی؛ مثلاً می‌گی فقط JSON بده و خروجی رو مستقیم می‌بری توی دیتابیس. برای هر فیلد هم امتیاز اطمینان می‌ده، یعنی خروجی‌های کم‌اطمینان رو جدا می‌کنی برای بررسی انسانی و مطمئن‌ها رو اتوماتیک جلو می‌بری.\n\n«خروجی رایگان» یعنی مدل توکن خروجی تولید می‌کنه ولی کلادفلر پولش رو نمی‌گیره؛ فقط ورودی حساب می‌شه، فعلاً ۱۰ سنت برای هر یک میلیون توکن. هر دو نسخه‌ش هم اوپن ویتن و می‌تونید روی زیرساخت خودتون اجراش کنید. نویسنده‌ش می‌گه برای استخراج اطلاعات از متن‌های فارسی هم گزینه‌ی خوبیه.\n\n✍️ Ali Najafi",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "13"
+        },
+        {
+          "emoji": "👍",
+          "count": "2"
+        }
+      ],
+      "views_label": "2.25K",
+      "posted_at": "2026-11-20T13:01:02+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5928",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5927",
       "author_name": "Matin SenPai",
@@ -23,7 +48,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "22"
+          "count": "24"
         },
         {
           "emoji": "👍",
@@ -34,7 +59,7 @@
           "count": "1"
         }
       ],
-      "views_label": "7.02K",
+      "views_label": "8.24K",
       "posted_at": "2026-11-20T11:27:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5927",
@@ -73,11 +98,11 @@
       "reactions": [
         {
           "emoji": "🆒",
-          "count": "75"
+          "count": "80"
         },
         {
           "emoji": "👍",
-          "count": "15"
+          "count": "18"
         },
         {
           "emoji": "❤",
@@ -96,7 +121,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.31K",
+      "views_label": "10.3K",
       "posted_at": "2026-11-20T11:14:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5926",
@@ -118,11 +143,11 @@
         },
         {
           "emoji": "😁",
-          "count": "122"
+          "count": "127"
         },
         {
           "emoji": "🦄",
-          "count": "14"
+          "count": "15"
         },
         {
           "emoji": "❤",
@@ -133,7 +158,7 @@
           "count": "3"
         }
       ],
-      "views_label": "12.4K",
+      "views_label": "13.1K",
       "posted_at": "2026-11-20T10:26:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5925",
@@ -160,11 +185,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "81"
+          "count": "86"
         },
         {
           "emoji": "👍",
-          "count": "12"
+          "count": "13"
         },
         {
           "emoji": "🦄",
@@ -179,7 +204,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "13.2K",
       "posted_at": "2026-11-20T10:24:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5924",
@@ -206,7 +231,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "68"
+          "count": "70"
         },
         {
           "emoji": "👍",
@@ -217,7 +242,7 @@
           "count": "3"
         }
       ],
-      "views_label": "13.4K",
+      "views_label": "13.9K",
       "posted_at": "2026-11-20T10:18:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5923",
@@ -247,11 +272,11 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "108"
+          "count": "110"
         },
         {
           "emoji": "😁",
-          "count": "38"
+          "count": "39"
         },
         {
           "emoji": "👍",
@@ -266,7 +291,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.9K",
+      "views_label": "16.4K",
       "posted_at": "2026-11-20T09:55:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5922",
@@ -296,7 +321,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "246"
+          "count": "249"
         },
         {
           "emoji": "❤",
@@ -315,7 +340,7 @@
           "count": "1"
         }
       ],
-      "views_label": "20.2K",
+      "views_label": "20.5K",
       "posted_at": "2026-11-20T06:40:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5921",
@@ -342,7 +367,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "224"
+          "count": "227"
         },
         {
           "emoji": "❤",
@@ -361,7 +386,7 @@
           "count": "2"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "24K",
       "posted_at": "2026-11-19T22:54:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5920",
@@ -383,7 +408,7 @@
         },
         {
           "emoji": "👍",
-          "count": "225"
+          "count": "227"
         },
         {
           "emoji": "❤",
@@ -398,7 +423,7 @@
           "count": "1"
         }
       ],
-      "views_label": "23.8K",
+      "views_label": "23.9K",
       "posted_at": "2026-11-19T22:54:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5919",
@@ -432,7 +457,7 @@
         },
         {
           "emoji": "😁",
-          "count": "307"
+          "count": "310"
         },
         {
           "emoji": "👍",
@@ -455,7 +480,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.2K",
+      "views_label": "24.3K",
       "posted_at": "2026-11-19T22:50:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5918",
@@ -477,7 +502,7 @@
         },
         {
           "emoji": "❤",
-          "count": "57"
+          "count": "58"
         },
         {
           "emoji": "👍",
@@ -496,7 +521,7 @@
           "count": "1"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.7K",
       "posted_at": "2026-11-19T21:59:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5917",
@@ -526,7 +551,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "613"
+          "count": "614"
         },
         {
           "emoji": "👍",
@@ -553,7 +578,7 @@
           "count": "2"
         }
       ],
-      "views_label": "26.4K",
+      "views_label": "26.5K",
       "posted_at": "2026-11-19T18:50:15+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5916",
@@ -594,7 +619,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27K",
+      "views_label": "27.1K",
       "posted_at": "2026-11-19T17:56:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5915",
@@ -639,7 +664,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.1K",
+      "views_label": "27.2K",
       "posted_at": "2026-11-19T17:53:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5914",
@@ -688,7 +713,7 @@
           "count": "2"
         }
       ],
-      "views_label": "28.7K",
+      "views_label": "28.8K",
       "posted_at": "2026-11-19T12:27:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5913",
@@ -824,7 +849,7 @@
           "count": "1"
         }
       ],
-      "views_label": "31.1K",
+      "views_label": "31.2K",
       "posted_at": "2026-11-18T17:17:13+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5910",
@@ -869,7 +894,7 @@
           "count": "1"
         }
       ],
-      "views_label": "30.9K",
+      "views_label": "31K",
       "posted_at": "2026-11-18T12:54:08+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5909",
@@ -4774,59 +4799,6 @@
         "thumbnail_sha256": null,
         "permalink": "https://t.me/m4tinbeigi/447"
       }
-    },
-    {
-      "id": "MatinSenPaii/5811",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Lw4JDqz83bgW9Ek7dvoIlcgTwNaOma8sRSB8psmtREG7E77bm8y7xSeAlDytHdpl-9Sg6Pv21OOsLZ8xpe9vSbYHV31GCL-PLFiq8bGBEEnO4Z84QaQVEvopeFBlR58eZCF1-NUq-3vvVPSVcfMuUIHVxp6SQfjbXR8tI_y6gqFg7K8CNHL1kfolFnOGwQQ4lQkj4UtCSSdphddhPpiqfeiR6G4I63h43gob-dz4fnnZA0CfiGrLItcoCGrw_sDqun94V4CC3uuUKgRfbHWLEINyk63WH7HKNhn4lWWt19_bjoo2QR1-f_Lp_g90snIqBLhoT50peu2A5j5n5cPDog.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/2483443c31d955a11d95bbba.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>دموی Miracle نشون می‌ده وسط ویدیو رنگ مو رو عوض می‌کنید، پس‌زمینه رو برمی‌دارید و سر رو تا ۱۸۰ درصد بزرگ می‌کنید</b><br><br>این دمو رو یه کاربر توییتری گذاشته و Miracle رو «لحظه‌ی Mythos تدوین ویدئو» خونده؛ (Mythos همون جهش بزرگیه آنتروپیک روی مدلهای کلاد داد)<br><br>توی دمو سوژه از پس‌زمینه جداست و با اسلایدر زنده ادیت می‌شه: رنگ مو از بلوند به قرمز عوض می‌شه و اندازه‌ی سر بالا و پایین می‌ره. همونطور که توی پست قبل گفتم، ویدئو دیگه یه فایل تخت نیست، لایه‌لایه‌ست و هر لایه دست خودتونه.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://x.com/adilinthewild/status/2118772763557269977\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "دموی Miracle نشون می‌ده وسط ویدیو رنگ مو رو عوض می‌کنید، پس‌زمینه رو برمی‌دارید و سر رو تا ۱۸۰ درصد بزرگ می‌کنید\n\nاین دمو رو یه کاربر توییتری گذاشته و Miracle رو «لحظه‌ی Mythos تدوین ویدئو» خونده؛ (Mythos همون جهش بزرگیه آنتروپیک روی مدلهای کلاد داد)\n\nتوی دمو سوژه از پس‌زمینه جداست و با اسلایدر زنده ادیت می‌شه: رنگ مو از بلوند به قرمز عوض می‌شه و اندازه‌ی سر بالا و پایین می‌ره. همونطور که توی پست قبل گفتم، ویدئو دیگه یه فایل تخت نیست، لایه‌لایه‌ست و هر لایه دست خودتونه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/MatinSenPaii/5811",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/NEF0RsBnQYMWvGzIZrC0oi93KbBrO6GVRVu663_XES7PkXgmtQtNyzP3yAGDABi5HXGJHcE2yZDbuygNNASEHDdbMV3ciN6iDbjFFYQ9Y1vIQwK0O2FKGj3uj8qIeFlDeghgeZceNQAsWT357gYUt5Zfv0Jhav5lkhb7MhAoB_pMO7xVUJhLRdMAaMcgMPoOSy9uUygDyVTRMbq1gpm8k-KXRw9-RujB48feFdFBiq4nXgKUu1LHwKWHkUDNRP1IelXQ09DMMi6zEHERtzYB1RxXG_JimZFeLhexyMVJxQbPicbxk7mvdtICxL8GVmGFoM_Z53vQ4K2DCgKX3RFmEg",
-          "thumbnail_path": "channels/matinsenpaii/media/0eccff41e46a138755e016c9.jpg",
-          "thumbnail_sha256": "6e7442c313542df0f0fabd3d702658c37d24e7e000970796ac5a9a289a8f8ab7",
-          "duration_label": "0:14",
-          "aspect_ratio": 1.3333333333333333
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "🆒",
-          "count": "92"
-        },
-        {
-          "emoji": "❤",
-          "count": "44"
-        },
-        {
-          "emoji": "👍",
-          "count": "6"
-        },
-        {
-          "emoji": "💯",
-          "count": "3"
-        },
-        {
-          "emoji": "🦄",
-          "count": "3"
-        },
-        {
-          "emoji": "😁",
-          "count": "1"
-        }
-      ],
-      "views_label": "31.7K",
-      "posted_at": "2026-11-07T14:49:01+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5811",
-      "reply": null
     }
   ]
 }
