@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-20T14:34:00.438Z",
+  "fetched_at": "2026-11-20T14:37:32.488Z",
   "channel": {
     "username": "matinsenpaii",
     "title": "Matin SenPai",
@@ -11,6 +11,51 @@
     "subscriber_count": "154K"
   },
   "posts": [
+    {
+      "id": "MatinSenPaii/5930",
+      "author_name": "Matin SenPai",
+      "author_photo_url": "https://cdn1.telesco.pe/file/F29mcB5CtVyHH9J4ck91JKmIPQyOKCyofuHVWGZsKP1vsCLhFu3-iOqgfLeaitej96CIdhBw0miPwCnohVMmD3jxgx-n8bVLhhtlAHSd_RLzzuSgs9z90Vy4Wft0umRpkPBuEg3HoF7J7W-i4fz8gi-29ndlcq82ushJmkvK_j42TztmtHiLWZ66px8fH1q1lnQfVYU_lFtid3v9WbLqvwCAs4mGZJIH1GyxM_gqjyGqJIEDfhOAbL2mJmQG26jITrg1p06uutu4aews3z6gS8D8_mcD4KrpLwX3oZMOFxhs7WPPiWVEhM6HUondpvneBnPBXae_7NYFPfOmKF4f9Q.jpg",
+      "author_photo_path": "channels/matinsenpaii/media/cb4a8c7bc860204aea28da9f.jpg",
+      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
+      "body_html": "<b>اسکیل rust-anything اپت رو تیکه‌تیکه به Rust بازنویسی می‌کنه و ثابت می‌کنه هیچی خراب نشده</b><br><br>rust-anything یه ابزار و اسکیل کلاد کده که اپ TypeScript و Python و C و Go و Ruby و Java رو قدم‌به‌قدم به Rust خالص می‌بره.<br><br>طرز کارش این شکلیه که اول رفتار نسخه اصلی رو روی هزاران ورودی ضبط می‌کنه، حتی کیس‌های لبه‌ای مثل ایموجی و سرریز عددی. یه باینری Rust می‌ذاره جلو و هر تیکه‌ای که هنوز پورت نشده برمی‌گرده به نسخه اصلی، یعنی اپ از روز اول کار می‌کنه. هر واحد که پورت شد، همه کیس‌ها روش ری‌پلی می‌شن و باید صددرصد یکی باشن. وقتی دیگه فالبکی نموند، کد قدیمی حذف می‌شه.<br><br>سازنده‌ش می‌گه ۳۸٬۲۵۱ کیس ضبط‌شده با صفر مغایرت ری‌پلی شدن و توی حالت فقط سرعت، جست‌وجو توی Node بیست برابر سریع‌تر شده. نصبش یه دستوره و لایسنسش MITه. نسخه ۲ش هم اومده که باهاش Prettier رو پورت کردن و ۱۹ برابر سریع‌ترش کردن.<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://github.com/erkamyaman/rust-anything\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">ریپو</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
+      "plain_text": "اسکیل rust-anything اپت رو تیکه‌تیکه به Rust بازنویسی می‌کنه و ثابت می‌کنه هیچی خراب نشده\n\nrust-anything یه ابزار و اسکیل کلاد کده که اپ TypeScript و Python و C و Go و Ruby و Java رو قدم‌به‌قدم به Rust خالص می‌بره.\n\nطرز کارش این شکلیه که اول رفتار نسخه اصلی رو روی هزاران ورودی ضبط می‌کنه، حتی کیس‌های لبه‌ای مثل ایموجی و سرریز عددی. یه باینری Rust می‌ذاره جلو و هر تیکه‌ای که هنوز پورت نشده برمی‌گرده به نسخه اصلی، یعنی اپ از روز اول کار می‌کنه. هر واحد که پورت شد، همه کیس‌ها روش ری‌پلی می‌شن و باید صددرصد یکی باشن. وقتی دیگه فالبکی نموند، کد قدیمی حذف می‌شه.\n\nسازنده‌ش می‌گه ۳۸٬۲۵۱ کیس ضبط‌شده با صفر مغایرت ری‌پلی شدن و توی حالت فقط سرعت، جست‌وجو توی Node بیست برابر سریع‌تر شده. نصبش یه دستوره و لایسنسش MITه. نسخه ۲ش هم اومده که باهاش Prettier رو پورت کردن و ۱۹ برابر سریع‌ترش کردن.\n\n🔗 ریپو\n✉️ t.me/MatinSenPaii",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/MatinSenPaii/5930",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/AxdSC2ntXuwfG6VehyBtiTwCEa0oVkz9U34LU5UW0l51rMZ6CXp4yOMR2Kt_ROA7kKJNv_jDV12eqp1BEAxL9snmrvsATNQi9kgEehT1CqzcqXK60kSzeAFLl1K3rGLYpxGsVNnofr2YciT5B9rdKxaJLqph8fe2Flg2IftQIov0q6mXfmjYkYkYSHTG0rYXHnZez1jB9JlsTv-r-EMQCSxXb7EksqlRFBmSbHcjUdy5h4i9wD0qSIypsOFH2ZzeNZFhyDDyFYQs9GsbbWvGj4P-nDrJHTIDolO4v1iSaK-QU0-iU5dF9ofPY1bZhsm8X027Sng_86xdLOtL3wfhtA.jpg",
+          "thumbnail_path": "channels/matinsenpaii/media/d0bb97dd2678e662b3501650.jpg",
+          "thumbnail_sha256": "0fe54d53ccdd34cd1b1889c445ff69dc841ecd16fe96cb0134c4e5e48c23d004",
+          "duration_label": null,
+          "aspect_ratio": 1.9607843137254901
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "🆒",
+          "count": "6"
+        },
+        {
+          "emoji": "❤",
+          "count": "3"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        },
+        {
+          "emoji": "💯",
+          "count": "1"
+        }
+      ],
+      "views_label": "1.26K",
+      "posted_at": "2026-11-20T14:34:01+00:00",
+      "edited": false,
+      "permalink": "https://t.me/MatinSenPaii/5930",
+      "reply": null
+    },
     {
       "id": "MatinSenPaii/5929",
       "author_name": "Matin SenPai",
@@ -34,11 +79,23 @@
       ],
       "reactions": [
         {
+          "emoji": "⭐",
+          "count": "1"
+        },
+        {
           "emoji": "🆒",
-          "count": "3"
+          "count": "16"
+        },
+        {
+          "emoji": "❤",
+          "count": "7"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
         }
       ],
-      "views_label": "217",
+      "views_label": "1.61K",
       "posted_at": "2026-11-20T14:32:42+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5929",
@@ -56,7 +113,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "65"
+          "count": "66"
         },
         {
           "emoji": "👍",
@@ -67,7 +124,7 @@
           "count": "2"
         }
       ],
-      "views_label": "8.74K",
+      "views_label": "9.37K",
       "posted_at": "2026-11-20T13:01:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5928",
@@ -85,7 +142,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "34"
+          "count": "35"
         },
         {
           "emoji": "👍",
@@ -96,7 +153,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.1K",
+      "views_label": "12.6K",
       "posted_at": "2026-11-20T11:27:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5927",
@@ -135,7 +192,7 @@
       "reactions": [
         {
           "emoji": "🆒",
-          "count": "97"
+          "count": "98"
         },
         {
           "emoji": "👍",
@@ -143,7 +200,7 @@
         },
         {
           "emoji": "❤",
-          "count": "14"
+          "count": "15"
         },
         {
           "emoji": "🦄",
@@ -158,7 +215,7 @@
           "count": "2"
         }
       ],
-      "views_label": "13.6K",
+      "views_label": "14K",
       "posted_at": "2026-11-20T11:14:01+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5926",
@@ -180,7 +237,7 @@
         },
         {
           "emoji": "😁",
-          "count": "139"
+          "count": "140"
         },
         {
           "emoji": "🦄",
@@ -188,7 +245,7 @@
         },
         {
           "emoji": "❤",
-          "count": "7"
+          "count": "8"
         },
         {
           "emoji": "👍",
@@ -199,7 +256,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.4K",
+      "views_label": "15.7K",
       "posted_at": "2026-11-20T10:26:22+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5925",
@@ -226,7 +283,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "96"
+          "count": "97"
         },
         {
           "emoji": "👍",
@@ -245,7 +302,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.4K",
+      "views_label": "15.6K",
       "posted_at": "2026-11-20T10:24:47+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5924",
@@ -272,7 +329,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "76"
+          "count": "77"
         },
         {
           "emoji": "👍",
@@ -287,7 +344,7 @@
           "count": "1"
         }
       ],
-      "views_label": "15.9K",
+      "views_label": "16.1K",
       "posted_at": "2026-11-20T10:18:07+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5923",
@@ -317,7 +374,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "123"
+          "count": "124"
         },
         {
           "emoji": "😁",
@@ -336,7 +393,7 @@
           "count": "1"
         }
       ],
-      "views_label": "18.4K",
+      "views_label": "18.6K",
       "posted_at": "2026-11-20T09:55:49+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5922",
@@ -370,7 +427,7 @@
         },
         {
           "emoji": "❤",
-          "count": "38"
+          "count": "39"
         },
         {
           "emoji": "💯",
@@ -385,7 +442,7 @@
           "count": "1"
         }
       ],
-      "views_label": "21.6K",
+      "views_label": "21.7K",
       "posted_at": "2026-11-20T06:40:51+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5921",
@@ -416,7 +473,7 @@
         },
         {
           "emoji": "❤",
-          "count": "16"
+          "count": "17"
         },
         {
           "emoji": "🦄",
@@ -431,7 +488,7 @@
           "count": "2"
         }
       ],
-      "views_label": "24.5K",
+      "views_label": "24.6K",
       "posted_at": "2026-11-19T22:54:23+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5920",
@@ -457,7 +514,7 @@
         },
         {
           "emoji": "❤",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "😁",
@@ -513,19 +570,19 @@
           "count": "22"
         },
         {
-          "emoji": "💔",
+          "emoji": "❤",
           "count": "10"
         },
         {
-          "emoji": "❤",
-          "count": "9"
+          "emoji": "💔",
+          "count": "10"
         },
         {
           "emoji": "🦄",
           "count": "2"
         }
       ],
-      "views_label": "24.9K",
+      "views_label": "25K",
       "posted_at": "2026-11-19T22:50:18+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5918",
@@ -547,7 +604,7 @@
         },
         {
           "emoji": "❤",
-          "count": "59"
+          "count": "60"
         },
         {
           "emoji": "👍",
@@ -566,7 +623,7 @@
           "count": "1"
         }
       ],
-      "views_label": "25.2K",
+      "views_label": "25.3K",
       "posted_at": "2026-11-19T21:59:05+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5917",
@@ -596,7 +653,7 @@
       "reactions": [
         {
           "emoji": "😁",
-          "count": "614"
+          "count": "615"
         },
         {
           "emoji": "👍",
@@ -608,7 +665,7 @@
         },
         {
           "emoji": "❤",
-          "count": "8"
+          "count": "9"
         },
         {
           "emoji": "🆒",
@@ -649,11 +706,11 @@
         },
         {
           "emoji": "😁",
-          "count": "41"
+          "count": "42"
         },
         {
           "emoji": "❤",
-          "count": "10"
+          "count": "11"
         },
         {
           "emoji": "👍",
@@ -664,7 +721,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.4K",
+      "views_label": "27.5K",
       "posted_at": "2026-11-19T17:56:11+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5915",
@@ -686,7 +743,7 @@
         },
         {
           "emoji": "💔",
-          "count": "149"
+          "count": "150"
         },
         {
           "emoji": "😁",
@@ -698,7 +755,7 @@
         },
         {
           "emoji": "❤",
-          "count": "9"
+          "count": "10"
         },
         {
           "emoji": "💯",
@@ -709,7 +766,7 @@
           "count": "1"
         }
       ],
-      "views_label": "27.5K",
+      "views_label": "27.6K",
       "posted_at": "2026-11-19T17:53:00+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5914",
@@ -739,7 +796,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "225"
+          "count": "226"
         },
         {
           "emoji": "👍",
@@ -758,7 +815,7 @@
           "count": "2"
         }
       ],
-      "views_label": "29.1K",
+      "views_label": "29.2K",
       "posted_at": "2026-11-19T12:27:02+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5913",
@@ -780,7 +837,7 @@
         },
         {
           "emoji": "❤",
-          "count": "18"
+          "count": "19"
         },
         {
           "emoji": "😁",
@@ -4752,55 +4809,6 @@
       "posted_at": "2026-11-08T09:50:29+00:00",
       "edited": false,
       "permalink": "https://t.me/MatinSenPaii/5814",
-      "reply": null
-    },
-    {
-      "id": "MatinSenPaii/5813",
-      "author_name": "Matin SenPai",
-      "author_photo_url": "https://cdn1.telesco.pe/file/Lw4JDqz83bgW9Ek7dvoIlcgTwNaOma8sRSB8psmtREG7E77bm8y7xSeAlDytHdpl-9Sg6Pv21OOsLZ8xpe9vSbYHV31GCL-PLFiq8bGBEEnO4Z84QaQVEvopeFBlR58eZCF1-NUq-3vvVPSVcfMuUIHVxp6SQfjbXR8tI_y6gqFg7K8CNHL1kfolFnOGwQQ4lQkj4UtCSSdphddhPpiqfeiR6G4I63h43gob-dz4fnnZA0CfiGrLItcoCGrw_sDqun94V4CC3uuUKgRfbHWLEINyk63WH7HKNhn4lWWt19_bjoo2QR1-f_Lp_g90snIqBLhoT50peu2A5j5n5cPDog.jpg",
-      "author_photo_path": "channels/matinsenpaii/media/2483443c31d955a11d95bbba.jpg",
-      "author_photo_sha256": "95ae8e2aec025881043da70adb1d671105ad0967ccf529de97116f62ad47cb90",
-      "body_html": "<b>پشتیبانی Kimi K3.1 Pro به llama.cpp اضافه شد؛ ولی اجراش روی سیستم خودتون فعلا رویاست</b><br><br>ریلیز تازه llama.cpp پشتیبانی از مدل متنی Kimi K3.1 Pro رو اضافه کرده؛ یعنی حالا llama.cpp می‌تونه این مدل رو بخونه و اجراش کنه.<br><br>تغییر اصلی‌ش اینه که ۲۴ تا از ۹۳ لایه مدل به‌جای اتنشن کامل از یه ایندکسر سبک استفاده می‌کنن. فعلا فقط نسخه‌ی متنیه و بخش تصویری رو رد کردن.<br><br>البته وزن‌های کاملش هنوز هم حدود ۱٫۵ ترابایته(مقابل ۲.۸ ترابایت)، پس اجرای محلی‌ش بیشتر برای سرورهای بزرگه طبیعتا تا لپ تاپ و کامپیوترهای معمولی؛ ولی اومدنش به llama.cpp یعنی اکوسیستم لوکال داره کم‌کم دورش شکل می‌گیره و این خودش خبر خوبیه<br><br><tg-emoji emoji-id=\"5375129357373165375\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i></tg-emoji> <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b12180\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">منبع</a><br><tg-emoji emoji-id=\"5069150690295677651\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C89.png')\"><b>✉️</b></i></tg-emoji> <a href=\"http://t.me/MatinSenPaii\" target=\"_blank\" rel=\"noopener\">t.me/MatinSenPaii</a>",
-      "plain_text": "پشتیبانی Kimi K3.1 Pro به llama.cpp اضافه شد؛ ولی اجراش روی سیستم خودتون فعلا رویاست\n\nریلیز تازه llama.cpp پشتیبانی از مدل متنی Kimi K3.1 Pro رو اضافه کرده؛ یعنی حالا llama.cpp می‌تونه این مدل رو بخونه و اجراش کنه.\n\nتغییر اصلی‌ش اینه که ۲۴ تا از ۹۳ لایه مدل به‌جای اتنشن کامل از یه ایندکسر سبک استفاده می‌کنن. فعلا فقط نسخه‌ی متنیه و بخش تصویری رو رد کردن.\n\nالبته وزن‌های کاملش هنوز هم حدود ۱٫۵ ترابایته(مقابل ۲.۸ ترابایت)، پس اجرای محلی‌ش بیشتر برای سرورهای بزرگه طبیعتا تا لپ تاپ و کامپیوترهای معمولی؛ ولی اومدنش به llama.cpp یعنی اکوسیستم لوکال داره کم‌کم دورش شکل می‌گیره و این خودش خبر خوبیه\n\n🔗 منبع\n✉️ t.me/MatinSenPaii",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/MatinSenPaii/5813",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn1.telesco.pe/file/Dvyod9csdC89__T78Unyjid_4ZOcaOJU83fNTofMEoIGemCofX5BAI77xwT8As4-v7aRsfnDjoBcE7ekJ7dwFXiQ5R1215ZQX51Q89xbBPjt8DXW_giDjJhy1JYFtJRJk6f7XEiS8wwMz8MAZRe5D7PKXoX3WbUvXIYgQWFBF_HJTL_jrS-jWNPEhdnxeiuJsJsZTq3t7x_7Hu7LIZYf1nS77GQnzW3Hj4bJ2CwperW-3v8FMvAkIurl7eguHgjHW-KRhXcbXdQvv4r5KGfmnIw2L0e-OflCb6hBwE2m0vieZWRL5bhFXp_x9uHYfWCXQGvnq3naxU357dLPIrryhQ.jpg",
-          "thumbnail_path": "channels/matinsenpaii/media/d917c2ed1126e78c9f7120da.jpg",
-          "thumbnail_sha256": "91797cdd70cf2ca755337e051b1281f4149ca5aa895774106c56d2a31ddef0ce",
-          "duration_label": null,
-          "aspect_ratio": 1.5009380863039399
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "96"
-        },
-        {
-          "emoji": "👍",
-          "count": "12"
-        },
-        {
-          "emoji": "💯",
-          "count": "4"
-        },
-        {
-          "emoji": "💔",
-          "count": "1"
-        },
-        {
-          "emoji": "🦄",
-          "count": "1"
-        }
-      ],
-      "views_label": "34K",
-      "posted_at": "2026-11-07T19:05:23+00:00",
-      "edited": false,
-      "permalink": "https://t.me/MatinSenPaii/5813",
       "reply": null
     }
   ]
