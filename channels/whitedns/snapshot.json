@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-20T01:22:57.811Z",
+  "fetched_at": "2026-11-20T01:27:18.374Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2295",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/XaC8ECJYNwLyYazQFZ6bXMvskVBYqI7l6N8M1_IUBap4o498Q-FhDL9M7GdTJ7nYuZzdN97gZ4j2az7laZuwJPLfn1rr35A3xxpKQHKSPfnK3LXJ7iczuoehAoM9gLmrh2rIov5ZlGtra4SsmD0m9-CwcRvjYTGgXVSC7ix7WQu61rMLmoUhLVim1jccCAaaMxNw9eQkvaQJKBTAUmAF3kpUKUAFYXwRBtDn8xvMcRS4VNoAqWBv9UYT7wzVexSZpXaIKhWVfdGycfcJbGBGDLu5TfdBXChXxP8Wf-5Ksu32_2PcMitu67F8uuO-OCqi48EmoUMUjsQvHr-tI7Cegg.jpg",
+      "author_photo_path": "channels/whitedns/media/d71ea76b28721cd427bf4ba1.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i> پنل WhiteDNS نسخهٔ 0.16.0 منتشر شد<br>خلاصهٔ امکانات تازهٔ نسخه‌های 0.15 و 0.16 و طرز استفاده از آن‌ها <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br>━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A4.png')\"><b>📤</b></i> خروجی گروهی کانفیگ‌ها<br>دیگر لازم نیست حساب‌ها را یکی‌یکی باز کنید.<br><br>طرز کار:<br>۱. به «حساب‌های کاربری» بروید.<br>۲. حساب‌های دلخواه را تیک بزنید (یا «انتخاب همه»).<br>۳. در نوار بالای جدول، «خروجی کانفیگ‌ها» را بزنید.<br>۴. «دانلود فایل» یا «کپی» را انتخاب کنید.<br><br>در فایل، برای هر حساب نام، لینک مستقیم Soar، Cotten و MasterDNS و در آخر لینک ساب آمده است.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> این فایل کلید اتصال حساب‌ها را دارد؛ فقط به صاحب هر حساب بدهید.<br><br>━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> پشتیبانی کامل از چند دامنه<br>اگر برای سرور چند دامنهٔ تونل تنظیم کرده‌اید، حالا لینک و QR همهٔ دامنه‌ها در دسترس است، نه فقط دامنهٔ ترجیحی.<br><br>طرز کار:<br>• در پنجرهٔ «لینک / QR» یک ردیف «دامنه» اضافه شده؛ دامنه را انتخاب کنید تا لینک و QR همان دامنه نمایش داده شود.<br>• در «خروجی کانفیگ‌ها» تیک هر دامنه را بزنید یا بردارید؛ لینک‌ها به تفکیک دامنه مرتب می‌شوند و دامنهٔ ترجیحی اول می‌آید.<br>• لینک ساب مثل قبل همهٔ دامنه‌ها را خودکار دارد.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E299BB.png')\"><b>♻️</b></i> لینک‌های فعلی، کلیدها و لینک ساب هیچ تغییری نمی‌کنند.<br><br>━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')\"><b>🎨</b></i> ظاهر تازهٔ پنل<br>• منوی کناری در سه گروه: «اصلی»، «پایش و حفاظت» و «سرور»<br>• آیکون اختصاصی برای هر صفحه و طراحی تازهٔ همهٔ آیکون‌ها<br>• نقطهٔ رنگی کنار وضعیت هر حساب و دکمه‌های آیکون‌دار در جدول حساب‌ها<br><br>━━━━━━━━━━━━━━<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC86.png')\"><b>⬆️</b></i> آپدیت نصب معمولی: از صفحهٔ «به‌روزرسانی پنل» داخل پنل، و بعد صفحه را تازه‌سازی کنید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> دانلود و یادداشت انتشار:<br><a href=\"https://github.com/WhiteDNS/Soar-Server/releases/tag/panel-v0.16.0\" target=\"_blank\" rel=\"noopener\">https://github.com/WhiteDNS/Soar-Server/releases/tag/panel-v0.16.0</a><br><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8694.png')\"><b>🆔</b></i> <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "🟢 پنل WhiteDNS نسخهٔ 0.16.0 منتشر شد\nخلاصهٔ امکانات تازهٔ نسخه‌های 0.15 و 0.16 و طرز استفاده از آن‌ها 👇\n\n━━━━━━━━━━━━━━\n📤 خروجی گروهی کانفیگ‌ها\nدیگر لازم نیست حساب‌ها را یکی‌یکی باز کنید.\n\nطرز کار:\n۱. به «حساب‌های کاربری» بروید.\n۲. حساب‌های دلخواه را تیک بزنید (یا «انتخاب همه»).\n۳. در نوار بالای جدول، «خروجی کانفیگ‌ها» را بزنید.\n۴. «دانلود فایل» یا «کپی» را انتخاب کنید.\n\nدر فایل، برای هر حساب نام، لینک مستقیم Soar، Cotten و MasterDNS و در آخر لینک ساب آمده است.\n🔐 این فایل کلید اتصال حساب‌ها را دارد؛ فقط به صاحب هر حساب بدهید.\n\n━━━━━━━━━━━━━━\n🌐 پشتیبانی کامل از چند دامنه\nاگر برای سرور چند دامنهٔ تونل تنظیم کرده‌اید، حالا لینک و QR همهٔ دامنه‌ها در دسترس است، نه فقط دامنهٔ ترجیحی.\n\nطرز کار:\n• در پنجرهٔ «لینک / QR» یک ردیف «دامنه» اضافه شده؛ دامنه را انتخاب کنید تا لینک و QR همان دامنه نمایش داده شود.\n• در «خروجی کانفیگ‌ها» تیک هر دامنه را بزنید یا بردارید؛ لینک‌ها به تفکیک دامنه مرتب می‌شوند و دامنهٔ ترجیحی اول می‌آید.\n• لینک ساب مثل قبل همهٔ دامنه‌ها را خودکار دارد.\n♻️ لینک‌های فعلی، کلیدها و لینک ساب هیچ تغییری نمی‌کنند.\n\n━━━━━━━━━━━━━━\n🎨 ظاهر تازهٔ پنل\n• منوی کناری در سه گروه: «اصلی»، «پایش و حفاظت» و «سرور»\n• آیکون اختصاصی برای هر صفحه و طراحی تازهٔ همهٔ آیکون‌ها\n• نقطهٔ رنگی کنار وضعیت هر حساب و دکمه‌های آیکون‌دار در جدول حساب‌ها\n\n━━━━━━━━━━━━━━\n⬆️ آپدیت نصب معمولی: از صفحهٔ «به‌روزرسانی پنل» داخل پنل، و بعد صفحه را تازه‌سازی کنید.\n\n⬇️ دانلود و یادداشت انتشار:\nhttps://github.com/WhiteDNS/Soar-Server/releases/tag/panel-v0.16.0\n\nhttps://whitedns.online\n🆔 @WhiteDNS",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2295",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/BWuR2avBS19uI4gtZ9dkr3QEvLDt9w4n9384oXTRTJn3COL7PYuZowcb1KlJj7INYZOPcSXCud4auwH8aEcFzEOOmgw81J4ij-wExRa3M2pjCy1JckkVqpKiRyyQiqiG7pMJdlqYUC-WJtJYG4PV7ITdErUPXrvX74PMOPpUpGWPDRg-CoMBrKgDN2ZfbvGUSS8_U2Va76_OEYWdBaEzl8Dlki5MtC_RHGn6HQNre6_mxdoeV3aF0j-1S-Wn81axz6bDgm27w7P6oraq8eC0JiZeiWQQhfgzX19mrSqqDzj6XDbfUYrx_LquMiwebVdxIJ4E_pAtgsucGndC96lJUA.jpg",
+          "thumbnail_path": "channels/whitedns/media/d60ec3a4baa4f2463d57d701.jpg",
+          "thumbnail_sha256": "328d0eb7a08ee2325819b50ae7903bbd9f4c080ce95ade4e7f67f20fc030d4ac",
+          "duration_label": null,
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "4"
+        },
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "104",
+      "posted_at": "2026-11-20T01:23:26+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2295",
+      "reply": null
+    },
     {
       "id": "whitedns/2293",
       "author_name": "White DNS",
@@ -54,7 +91,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.22K",
+      "views_label": "8.26K",
       "posted_at": "2026-11-19T09:47:42+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2293",
@@ -115,7 +152,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.25K",
+      "views_label": "8.28K",
       "posted_at": "2026-11-19T08:16:52+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2292",
@@ -176,7 +213,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.08K",
+      "views_label": "6.1K",
       "posted_at": "2026-11-19T05:48:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2291",
@@ -237,7 +274,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.68K",
+      "views_label": "8.69K",
       "posted_at": "2026-11-19T02:50:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2290",
@@ -408,7 +445,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.04K",
+      "views_label": "9.05K",
       "posted_at": "2026-11-18T06:36:26+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2286",
@@ -847,7 +884,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.5K",
+      "views_label": "8.52K",
       "posted_at": "2026-11-16T13:18:54+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2277",
@@ -5766,22 +5803,6 @@
       "posted_at": "2026-10-26T03:34:56+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2161",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2160",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/pDoxTXi6Aj-sftbOEBP5gID_Qzl-aj4b2rtzEphuvWtDwvxYWPuUQSQIvRU4tjwbtHFo9zHbbsXmFDkQ1Yy-Q9_LZslzF9-B82g01Ld_eYYTMtPl8EbLCDgdCmCFaSjDtdtJWTfjXRl4-KJZoiNYY-WPttjErcnILRsaUtkOgClIKn3UAYNIzKvDDbYeWgFUiehhiMOlTckrDkL62a0fdCGj6TNvxqkYglYxQ_OpKReI4ETvFtEk1i1kCQ3UDUwyh0uL1nQS2pkxGXoyTg8jNP2vv09UMjFTPVsOO1Ik7-p4a4ocJSRBu30J-Bc5irXkrLHjHI9JzKnJRGw-2KKBEQ.jpg",
-      "author_photo_path": "channels/whitedns/media/b0f0c5d2f18784c48680a36d.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<a class=\"tgme_widget_message_author_name\" href=\"https://t.me/whitedns\"><span dir=\"auto\">White DNS</span></a> pinned a file",
-      "plain_text": "White DNS pinned a file",
-      "media": [],
-      "reactions": [],
-      "views_label": null,
-      "posted_at": "2026-10-26T01:46:49+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2160",
       "reply": null
     }
   ]
