@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-21T14:38:04.608Z",
+  "fetched_at": "2026-11-21T14:44:54.207Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,43 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2307",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/I7FSSqFtD3Ss3DSzpbd0RYO7RLFQyHzva_D2koCMybEzeRDtNWYrp-ZfomFQNNjV2jZdSicUBoyVVixL6s56DWyAkDFA3AUb3X9T-ktomM0TDvNa6P1chFvUEK9ZFIG_gwC2tHU5nMqvAWSuIY-g1hXuDmvOmZpxzWCCSeQNFqiiubf04t1PdhUeGGEV3rE3KEL5V3sL2olLrB_RhWagBLKkf-w7DhyuJrOoFyVSJxexk9KnTkUZZmU-RL0Pc2L4Y0Zbs-MILmr4YTJQc8Xh9BB0t02eQhaelRFvf92OqCI7KTyDL2tfVxat15-vuj7g9BsRKHZuvLPjNg1jinB0Hg.jpg",
+      "author_photo_path": "channels/whitedns/media/12b3e78a33e3217bde1c45ee.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "این کانفیگ ها را ذخیره کنید <br>در زمان قطعی فعال خواهد شد <br><br># whitedns public 2<br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTgiLCJuYW1lIjoid2hpdGVkbnMgcHVibGljIDIiLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6IjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsInB1YmxpY19rZXkiOiJ1VVdrOU4yc3lXVG1sUUFPOHlsa3ZpaWkxSVFHRjlJa0JabFFSYkZsNjNNPSJ9LCJzb2FyU2V0dGluZ3MiOnsidHJhbnNwb3J0IjoiYXV0byIsImRpc2NvdmVyeSI6dHJ1ZSwiZGlzY292ZXJ5V2FudCI6MiwiZGlzY292ZXJ5Q29uY3VycmVuY3kiOjIsImRpc2NvdmVyeVBhY2VNcyI6MTAwMCwic2FmZVFOYW1lIjoxMDEsIm1heFFOYW1lIjoyNTMsIm1heEFuc3dlciI6MTIzMiwiaG9sZE1zIjo1MDAsIm1heEluZmxpZ2h0IjoxMjgsIm1heFBhdGhXaW5kb3ciOjMyLCJtYXhTdHJlYW1zIjoxMjgsInN0cmVhbVdpbmRvd0tpQiI6MjU2LCJzZW5kQnVmZmVyS2lCIjo2NCwic2Vzc2lvbklkbGVTZWNvbmRzIjo5MCwiZGlhbFRpbWVvdXRTZWNvbmRzIjo5MCwiY291bnRyeSI6IklSIn19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0</code><br><code><br>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTg6Y290dGVuIiwibmFtZSI6IndoaXRlZG5zIHB1YmxpYyAyIMK3IENvdHRlbiIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiY290LjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiODU5YzY4MWYzZGU2NDE4ZmVmY2ZlNmY4ZTY0OWYzN2U4ZDkyMGU2MzExNzEyOWE3MjEwNmM3NjRhNDRkOTFmYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ</code><br><br><br># WhiteDNS Public<br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzYiLCJuYW1lIjoiV2hpdGVETlMgUHVibGljIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJpdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJwdWJsaWNfa2V5IjoiR1daa2NSVVErUHhqMnEydXRKZllEV2cwR2dOR3AybmtVMmN5UE8ySk1UMD0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzY6Y290dGVuIiwibmFtZSI6IldoaXRlRE5TIFB1YmxpYyDCtyBDb3R0ZW4iLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6ImNvdC5pdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJlbmNyeXB0aW9uX2tleSI6IjllMjhlZWNhNDk2MDFhNGYwNGM0MDg2M2RkODM4NjQ3OWI2YWYzNzJiMTFiODc3MzlhYjI5YWIyYTQ3NDEyMzkiLCJlbmNyeXB0aW9uX21ldGhvZCI6NX19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0</code><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a><br><br>اموزش و اطلاعات بیشتر در وبسایت whitedns<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9187.png')\"><b>👇</b></i><br><br><a href=\"https://whitedns.online/tools/whitedns/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online/tools/whitedns/</a>",
+      "plain_text": "این کانفیگ ها را ذخیره کنید\nدر زمان قطعی فعال خواهد شد\n\n# whitedns public 2\nsoar://eyJwcm9maWxlIjp7ImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTgiLCJuYW1lIjoid2hpdGVkbnMgcHVibGljIDIiLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6IjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsInB1YmxpY19rZXkiOiJ1VVdrOU4yc3lXVG1sUUFPOHlsa3ZpaWkxSVFHRjlJa0JabFFSYkZsNjNNPSJ9LCJzb2FyU2V0dGluZ3MiOnsidHJhbnNwb3J0IjoiYXV0byIsImRpc2NvdmVyeSI6dHJ1ZSwiZGlzY292ZXJ5V2FudCI6MiwiZGlzY292ZXJ5Q29uY3VycmVuY3kiOjIsImRpc2NvdmVyeVBhY2VNcyI6MTAwMCwic2FmZVFOYW1lIjoxMDEsIm1heFFOYW1lIjoyNTMsIm1heEFuc3dlciI6MTIzMiwiaG9sZE1zIjo1MDAsIm1heEluZmxpZ2h0IjoxMjgsIm1heFBhdGhXaW5kb3ciOjMyLCJtYXhTdHJlYW1zIjoxMjgsInN0cmVhbVdpbmRvd0tpQiI6MjU2LCJzZW5kQnVmZmVyS2lCIjo2NCwic2Vzc2lvbklkbGVTZWNvbmRzIjo5MCwiZGlhbFRpbWVvdXRTZWNvbmRzIjo5MCwiY291bnRyeSI6IklSIn19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTg6Y290dGVuIiwibmFtZSI6IndoaXRlZG5zIHB1YmxpYyAyIMK3IENvdHRlbiIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiY290LjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiODU5YzY4MWYzZGU2NDE4ZmVmY2ZlNmY4ZTY0OWYzN2U4ZDkyMGU2MzExNzEyOWE3MjEwNmM3NjRhNDRkOTFmYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ\n\n\n# WhiteDNS Public\nsoar://eyJwcm9maWxlIjp7ImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzYiLCJuYW1lIjoiV2hpdGVETlMgUHVibGljIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJpdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJwdWJsaWNfa2V5IjoiR1daa2NSVVErUHhqMnEydXRKZllEV2cwR2dOR3AybmtVMmN5UE8ySk1UMD0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzY6Y290dGVuIiwibmFtZSI6IldoaXRlRE5TIFB1YmxpYyDCtyBDb3R0ZW4iLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6ImNvdC5pdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJlbmNyeXB0aW9uX2tleSI6IjllMjhlZWNhNDk2MDFhNGYwNGM0MDg2M2RkODM4NjQ3OWI2YWYzNzJiMTFiODc3MzlhYjI5YWIyYTQ3NDEyMzkiLCJlbmNyeXB0aW9uX21ldGhvZCI6NX19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0\n\n@whitedns\n\nاموزش و اطلاعات بیشتر در وبسایت whitedns👇\n\nhttps://whitedns.online/tools/whitedns/",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2307",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/WEHQi_IK9j_Qtfr7fq_GjKEmfew0A-fkxMEqp4lbfPPkdNOxoOJzyRGNmCDdOZFFqGvZNPFruT6HntJR4dHdnVXq-0DWtMrs80ROxcSWWjjGCzDYL-Gk-2PQFbPPIYJjAzi-qHSWxtQpiFnT2Kh0jsxqp1dPAW6kGrOVLA3_InbdHF0pAONJVS5RhzmG16kCyUvSf-omojaAkOvkGiSrvt00bEcmrZqwUgG8uO8zkjOx0hvfyILqlB8uEqZAMyCk35dn9ZyDaWjQxdIxg9XYbUgpybuxNoawJe97W7waxIStwCUUXSwrU-a6hq7CJSOnRK-4lY1xioAbCMjSlXoygg.jpg",
+          "thumbnail_path": "channels/whitedns/media/7bc0efe52b0af67ddbbcb9f5.jpg",
+          "thumbnail_sha256": "bb298017177df6b4bdfc08431a149fcddbc4a2df734c464b9f737148651b71ef",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "21"
+        },
+        {
+          "emoji": "🙏",
+          "count": "1"
+        }
+      ],
+      "views_label": "717",
+      "posted_at": "2026-11-21T14:40:08+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2307",
+      "reply": null
+    },
     {
       "id": "whitedns/2306",
       "author_name": "White DNS",
@@ -23,7 +60,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "107"
+          "count": "110"
         },
         {
           "emoji": "👍",
@@ -58,7 +95,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.37K",
+      "views_label": "5.66K",
       "posted_at": "2026-11-21T11:09:36+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2306",
@@ -88,7 +125,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "100"
+          "count": "101"
         },
         {
           "emoji": "👍",
@@ -111,7 +148,7 @@
           "count": "1"
         }
       ],
-      "views_label": "6.94K",
+      "views_label": "7.15K",
       "posted_at": "2026-11-21T10:08:47+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2305",
@@ -129,7 +166,7 @@
       "reactions": [
         {
           "emoji": "👍",
-          "count": "188"
+          "count": "189"
         },
         {
           "emoji": "❤",
@@ -156,7 +193,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.38K",
+      "views_label": "8.5K",
       "posted_at": "2026-11-21T04:52:04+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2304",
@@ -195,7 +232,7 @@
       "reactions": [
         {
           "emoji": "🤯",
-          "count": "325"
+          "count": "327"
         },
         {
           "emoji": "❤",
@@ -203,7 +240,7 @@
         },
         {
           "emoji": "😁",
-          "count": "38"
+          "count": "39"
         },
         {
           "emoji": "🤣",
@@ -238,7 +275,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.51K",
+      "views_label": "9.62K",
       "posted_at": "2026-11-21T03:59:02+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2303",
@@ -291,7 +328,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.52K",
+      "views_label": "9.63K",
       "posted_at": "2026-11-21T01:57:07+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2302",
@@ -340,7 +377,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.3K",
+      "views_label": "11.4K",
       "posted_at": "2026-11-20T14:20:59+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2300",
@@ -666,7 +703,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.8K",
+      "views_label": "11.9K",
       "posted_at": "2026-11-19T09:47:42+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2293",
@@ -792,7 +829,7 @@
           "count": "1"
         }
       ],
-      "views_label": "8.38K",
+      "views_label": "8.42K",
       "posted_at": "2026-11-19T05:48:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2291",
@@ -5759,51 +5796,6 @@
       "posted_at": "2026-10-27T11:50:22+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2179",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2178",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/VVkC03nKIT2p34JVt4ZTVWlM7qqnYT1PQ2RPBzPV9jJxO7Xkr_ti_VGaUkv62wJJnMC6zUcwkCbckFl5YtQOKrzis28cTgSWuu192-Wpypewg4rlbEMD2dfWB4oaEaPlO0JTyOkfSgXWRNltsrtQhC5oGylSi2un9tP-ctUvKF8MNQN0F-Ad1SOtvug-Dg9E8EwADYXaMFVupNh3KVs5-85_CmSQKpxzo6un5Rr3Kfnak2dobSjtjRJtQRDfSWRfcsbobZlXQj6o9zb7oIMEyAy2y3aflZsYKK_-tGr3AV_reLAZHgdXhVIn5mIWKg5UxKdOM1q2w3ZKSrMfzwnz9w.jpg",
-      "author_photo_path": "channels/whitedns/media/7ba36c062a21caa25a86f445.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "سرورهای (کانفیگ های ) عمومی برای استفاده در برنامه های whitedns !<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/WhiteDNS-Android/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ اندروید</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود نسخهٔ دسکتاپ</a><br><br><a href=\"https://whitedns.online/tools/whitedns/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای واردکردن کانفیگ و اتصال WhiteDNS</a><br><br><blockquote><b>برنامه whitedns برای زمان اختلال های شدید و یا قطغی های گسترده طراحی شده و به شما تجربه برنامه هایی مثل whitevpn یا whiteaesther را نخواهد داد </b></blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i> WhtieDNS Public Servers<br><br><br>سرور عمومی SOAR <br><br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTgiLCJuYW1lIjoid2hpdGVkbnMgcHVibGljIDIiLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6IjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsInB1YmxpY19rZXkiOiJ1VVdrOU4yc3lXVG1sUUFPOHlsa3ZpaWkxSVFHRjlJa0JabFFSYkZsNjNNPSJ9LCJzb2FyU2V0dGluZ3MiOnsidHJhbnNwb3J0IjoiYXV0byIsImRpc2NvdmVyeSI6dHJ1ZSwiZGlzY292ZXJ5V2FudCI6MiwiZGlzY292ZXJ5Q29uY3VycmVuY3kiOjIsImRpc2NvdmVyeVBhY2VNcyI6MTAwMCwic2FmZVFOYW1lIjoxMDEsIm1heFFOYW1lIjoyNTMsIm1heEFuc3dlciI6MTIzMiwiaG9sZE1zIjo1MDAsIm1heEluZmxpZ2h0IjoxMjgsIm1heFBhdGhXaW5kb3ciOjMyLCJtYXhTdHJlYW1zIjoxMjgsInN0cmVhbVdpbmRvd0tpQiI6MjU2LCJzZW5kQnVmZmVyS2lCIjo2NCwic2Vzc2lvbklkbGVTZWNvbmRzIjo5MCwiZGlhbFRpbWVvdXRTZWNvbmRzIjo5MCwiY291bnRyeSI6IklSIn19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0</code><br><br><br><code>soar://eyJwcm9maWxlIjp7ImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzYiLCJuYW1lIjoiV2hpdGVETlMgUHVibGljIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJpdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJwdWJsaWNfa2V5IjoiR1daa2NSVVErUHhqMnEydXRKZllEV2cwR2dOR3AybmtVMmN5UE8ySk1UMD0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9</code><br><br><br><br>سرور عمومی CottenDNS <br><br><code>cottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTg6Y290dGVuIiwibmFtZSI6IndoaXRlZG5zIHB1YmxpYyAyIMK3IENvdHRlbiIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiY290LjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiODU5YzY4MWYzZGU2NDE4ZmVmY2ZlNmY4ZTY0OWYzN2U4ZDkyMGU2MzExNzEyOWE3MjEwNmM3NjRhNDRkOTFmYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ</code><br><br>سرور عمومی masterdns<br><br><pre>masterdns://eyJwcm9maWxlIjp7ImVuZ2luZSI6Im1hc3RlcmRucyIsImlkIjoiYzY4ZDkxMzBiODJjZTYzZmQ4MDdlNWU4Njc1MjBkMjY6bWFzdGVyZG5zIiwibmFtZSI6Ik1hc3RlckROUyDCtyBNYXN0ZXJETlMiLCJzZXJ2ZXIiOnsiZG9tYWluIjoibWRucy0xLnkyZ3pjbWZ5ZnR0ZDd3YWg0eHVnb3Uuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiOGRiYzEyODJiOTgzNzFiNTg4NjU4NzgyY2YwYzY4ODAwODAyMWJlM2UwNDFkNmI2OTA0Y2EwNmFhYTM3Y2MxYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ</pre><br><br><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a><br><br>----------<br><a href=\"?q=%23%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF\">#کانفیگ</a> <a href=\"?q=%23CottenDNS\">#CottenDNS</a> <a href=\"?q=%23Soar\">#Soar</a> <a href=\"?q=%23Servers\">#Servers</a><br><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">وب‌سایت WhiteDNS</a>",
-      "plain_text": "سرورهای (کانفیگ های ) عمومی برای استفاده در برنامه های whitedns !\n\n📥 دانلود نسخهٔ اندروید\n📥 دانلود نسخهٔ دسکتاپ\n\nراهنمای واردکردن کانفیگ و اتصال WhiteDNS\n\nبرنامه whitedns برای زمان اختلال های شدید و یا قطغی های گسترده طراحی شده و به شما تجربه برنامه هایی مثل whitevpn یا whiteaesther را نخواهد داد\n\n🔥 WhtieDNS Public Servers\n\n\nسرور عمومی SOAR\n\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTgiLCJuYW1lIjoid2hpdGVkbnMgcHVibGljIDIiLCJyZXNvbHZlcnMiOlsiMS4xLjEuMSIsIjguOC44LjgiXSwic2VydmVyIjp7ImRvbWFpbiI6IjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsInB1YmxpY19rZXkiOiJ1VVdrOU4yc3lXVG1sUUFPOHlsa3ZpaWkxSVFHRjlJa0JabFFSYkZsNjNNPSJ9LCJzb2FyU2V0dGluZ3MiOnsidHJhbnNwb3J0IjoiYXV0byIsImRpc2NvdmVyeSI6dHJ1ZSwiZGlzY292ZXJ5V2FudCI6MiwiZGlzY292ZXJ5Q29uY3VycmVuY3kiOjIsImRpc2NvdmVyeVBhY2VNcyI6MTAwMCwic2FmZVFOYW1lIjoxMDEsIm1heFFOYW1lIjoyNTMsIm1heEFuc3dlciI6MTIzMiwiaG9sZE1zIjo1MDAsIm1heEluZmxpZ2h0IjoxMjgsIm1heFBhdGhXaW5kb3ciOjMyLCJtYXhTdHJlYW1zIjoxMjgsInN0cmVhbVdpbmRvd0tpQiI6MjU2LCJzZW5kQnVmZmVyS2lCIjo2NCwic2Vzc2lvbklkbGVTZWNvbmRzIjo5MCwiZGlhbFRpbWVvdXRTZWNvbmRzIjo5MCwiY291bnRyeSI6IklSIn19LCJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MX0\n\n\nsoar://eyJwcm9maWxlIjp7ImlkIjoiNDRjMjc0YTMzNTM1MGZhYzljMjg0ZWNhOGVhMzkyNzYiLCJuYW1lIjoiV2hpdGVETlMgUHVibGljIiwicmVzb2x2ZXJzIjpbIjEuMS4xLjEiLCI4LjguOC44Il0sInNlcnZlciI6eyJkb21haW4iOiJpdGJoaml6dmd1aDJ6aGJpajNmaTVpLnNvYXIud2hpdGVkbnMuZG93bmxvYWQiLCJwdWJsaWNfa2V5IjoiR1daa2NSVVErUHhqMnEydXRKZllEV2cwR2dOR3AybmtVMmN5UE8ySk1UMD0ifSwic29hclNldHRpbmdzIjp7InRyYW5zcG9ydCI6ImF1dG8iLCJkaXNjb3ZlcnkiOnRydWUsImRpc2NvdmVyeVdhbnQiOjIsImRpc2NvdmVyeUNvbmN1cnJlbmN5IjoyLCJkaXNjb3ZlcnlQYWNlTXMiOjEwMDAsInNhZmVRTmFtZSI6MTAxLCJtYXhRTmFtZSI6MjUzLCJtYXhBbnN3ZXIiOjEyMzIsImhvbGRNcyI6NTAwLCJtYXhJbmZsaWdodCI6MTI4LCJtYXhQYXRoV2luZG93IjozMiwibWF4U3RyZWFtcyI6MTI4LCJzdHJlYW1XaW5kb3dLaUIiOjI1Niwic2VuZEJ1ZmZlcktpQiI6NjQsInNlc3Npb25JZGxlU2Vjb25kcyI6OTAsImRpYWxUaW1lb3V0U2Vjb25kcyI6OTAsImNvdW50cnkiOiJJUiJ9fSwic2NoZW1hIjoid2hpdGVkbnMucHJvZmlsZSIsInZlcnNpb24iOjF9\n\n\n\nسرور عمومی CottenDNS\n\ncottendns://eyJwcm9maWxlIjp7ImVuZ2luZSI6ImNvdHRlbmRucyIsImlkIjoiZGM4MGYyMzNiZjQyNDg0MzdjZDMyZWU0N2NlOWRkYTg6Y290dGVuIiwibmFtZSI6IndoaXRlZG5zIHB1YmxpYyAyIMK3IENvdHRlbiIsInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdLCJzZXJ2ZXIiOnsiZG9tYWluIjoiY290LjNzYXBlbTU3aWplZWc3Z3RmM3NoejIuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiODU5YzY4MWYzZGU2NDE4ZmVmY2ZlNmY4ZTY0OWYzN2U4ZDkyMGU2MzExNzEyOWE3MjEwNmM3NjRhNDRkOTFmYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ\n\nسرور عمومی masterdns\n\nmasterdns://eyJwcm9maWxlIjp7ImVuZ2luZSI6Im1hc3RlcmRucyIsImlkIjoiYzY4ZDkxMzBiODJjZTYzZmQ4MDdlNWU4Njc1MjBkMjY6bWFzdGVyZG5zIiwibmFtZSI6Ik1hc3RlckROUyDCtyBNYXN0ZXJETlMiLCJzZXJ2ZXIiOnsiZG9tYWluIjoibWRucy0xLnkyZ3pjbWZ5ZnR0ZDd3YWg0eHVnb3Uuc29hci53aGl0ZWRucy5kb3dubG9hZCIsImVuY3J5cHRpb25fa2V5IjoiOGRiYzEyODJiOTgzNzFiNTg4NjU4NzgyY2YwYzY4ODAwODAyMWJlM2UwNDFkNmI2OTA0Y2EwNmFhYTM3Y2MxYyIsImVuY3J5cHRpb25fbWV0aG9kIjo1fX0sInNjaGVtYSI6IndoaXRlZG5zLnByb2ZpbGUiLCJ2ZXJzaW9uIjoxfQ\n\n\n@whitedns\n\n----------\n#کانفیگ #CottenDNS #Soar #Servers\n\nوب‌سایت WhiteDNS",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "155"
-        },
-        {
-          "emoji": "🔥",
-          "count": "9"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "👍",
-          "count": "2"
-        },
-        {
-          "emoji": "🙏",
-          "count": "2"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        }
-      ],
-      "views_label": "13.9K",
-      "posted_at": "2026-10-27T11:03:50+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2178",
       "reply": null
     }
   ]
