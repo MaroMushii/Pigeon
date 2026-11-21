@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-21T05:42:06.881Z",
+  "fetched_at": "2026-11-21T05:47:47.515Z",
   "channel": {
     "username": "radiofarda",
     "title": "RadioFarda",
@@ -11,6 +11,38 @@
     "subscriber_count": "110K"
   },
   "posts": [
+    {
+      "id": "radiofarda/163265",
+      "author_name": "RadioFarda",
+      "author_photo_url": "https://cdn4.telesco.pe/file/QyrMycGEmKFd32jgBOE89qGXmL9W0bVsYcP8zze94yYbGcGOqgYtqIL4RmycbQranQaWA36yznxSs5Rrn8B6cbPxGCK6r8oSeF2kWoiYwbzaT6C72Yrav3X8nvo8HPAKNa0DYDkTlTmGQZ99-U_Ai01ua4FHjmcGiQVDY3GPTcFIRwy1hGpLP0wgQPAlG21AE0J8uUEArLviLpo7tU4NbwrNope9TdTxnNM1igfn44PqrcIs5idY-jlm8xThl97UniDfm-BEiz5J_kh7XTSvKeV7-6GgPeRl0dKaWHLb051qkPUZXVEZLrp3a33ShRYmm-bfGFAFeDMU5n8hnnEOOQ.jpg",
+      "author_photo_path": "channels/radiofarda/media/4360b6273f2a1e2d1a630dce.jpg",
+      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BB.png')\"><b>📻</b></i>بشنوید: سرخط خبرهای رادیوفردا، ۳۰ آبان ۱۴۰۵<br></b><br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a>",
+      "plain_text": "📻بشنوید: سرخط خبرهای رادیوفردا، ۳۰ آبان ۱۴۰۵\n\n@RadioFarda",
+      "media": [],
+      "reactions": [],
+      "views_label": "81",
+      "posted_at": "2026-11-21T05:45:36+00:00",
+      "edited": false,
+      "permalink": "https://t.me/radiofarda/163265",
+      "reply": null
+    },
+    {
+      "id": "radiofarda/163264",
+      "author_name": "RadioFarda",
+      "author_photo_url": "https://cdn4.telesco.pe/file/QyrMycGEmKFd32jgBOE89qGXmL9W0bVsYcP8zze94yYbGcGOqgYtqIL4RmycbQranQaWA36yznxSs5Rrn8B6cbPxGCK6r8oSeF2kWoiYwbzaT6C72Yrav3X8nvo8HPAKNa0DYDkTlTmGQZ99-U_Ai01ua4FHjmcGiQVDY3GPTcFIRwy1hGpLP0wgQPAlG21AE0J8uUEArLviLpo7tU4NbwrNope9TdTxnNM1igfn44PqrcIs5idY-jlm8xThl97UniDfm-BEiz5J_kh7XTSvKeV7-6GgPeRl0dKaWHLb051qkPUZXVEZLrp3a33ShRYmm-bfGFAFeDMU5n8hnnEOOQ.jpg",
+      "author_photo_path": "channels/radiofarda/media/4360b6273f2a1e2d1a630dce.jpg",
+      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BB.png')\"><b>📻</b></i>بشنوید: صبح‌نگار با رادیوفردا، ۳۰ آبان ۱۴۰۵<br></b><br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a>",
+      "plain_text": "📻بشنوید: صبح‌نگار با رادیوفردا، ۳۰ آبان ۱۴۰۵\n\n@RadioFarda",
+      "media": [],
+      "reactions": [],
+      "views_label": "164",
+      "posted_at": "2026-11-21T05:44:37+00:00",
+      "edited": false,
+      "permalink": "https://t.me/radiofarda/163264",
+      "reply": null
+    },
     {
       "id": "radiofarda/163263",
       "author_name": "RadioFarda",
@@ -54,7 +86,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.28K",
+      "views_label": "5.37K",
       "posted_at": "2026-11-20T21:00:42+00:00",
       "edited": true,
       "permalink": "https://t.me/radiofarda/163263",
@@ -95,7 +127,7 @@
           "count": "5"
         }
       ],
-      "views_label": "5.4K",
+      "views_label": "5.48K",
       "posted_at": "2026-11-20T20:33:28+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163262",
@@ -132,7 +164,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.34K",
+      "views_label": "5.37K",
       "posted_at": "2026-11-20T20:00:26+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163261",
@@ -161,7 +193,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.87K",
+      "views_label": "4.9K",
       "posted_at": "2026-11-20T19:56:48+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163260",
@@ -192,9 +224,13 @@
         {
           "emoji": "🔥",
           "count": "1"
+        },
+        {
+          "emoji": "👏",
+          "count": "1"
         }
       ],
-      "views_label": "4.56K",
+      "views_label": "4.59K",
       "posted_at": "2026-11-20T19:52:14+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163259",
@@ -212,7 +248,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "11"
+          "count": "12"
         },
         {
           "emoji": "👏",
@@ -235,7 +271,7 @@
           "count": "1"
         }
       ],
-      "views_label": "4.45K",
+      "views_label": "4.47K",
       "posted_at": "2026-11-20T19:47:22+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163258",
@@ -280,7 +316,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.16K",
+      "views_label": "5.19K",
       "posted_at": "2026-11-20T19:09:38+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163257",
@@ -305,7 +341,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.4K",
+      "views_label": "5.41K",
       "posted_at": "2026-11-20T18:03:36+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163256",
@@ -334,7 +370,7 @@
           "count": "2"
         }
       ],
-      "views_label": "5.79K",
+      "views_label": "5.81K",
       "posted_at": "2026-11-20T17:50:33+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163255",
@@ -375,7 +411,7 @@
           "count": "5"
         }
       ],
-      "views_label": "5.02K",
+      "views_label": "5.03K",
       "posted_at": "2026-11-20T17:46:48+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163254",
@@ -416,7 +452,7 @@
           "count": "4"
         }
       ],
-      "views_label": "5.29K",
+      "views_label": "5.31K",
       "posted_at": "2026-11-20T16:59:00+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163253",
@@ -445,7 +481,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.06K",
+      "views_label": "5.08K",
       "posted_at": "2026-11-20T16:22:44+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163252",
@@ -475,7 +511,7 @@
       "reactions": [
         {
           "emoji": "🎉",
-          "count": "17"
+          "count": "18"
         },
         {
           "emoji": "❤",
@@ -494,7 +530,7 @@
           "count": "2"
         }
       ],
-      "views_label": "5.57K",
+      "views_label": "5.58K",
       "posted_at": "2026-11-20T15:54:07+00:00",
       "edited": true,
       "permalink": "https://t.me/radiofarda/163251",
@@ -539,7 +575,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.87K",
+      "views_label": "5.88K",
       "posted_at": "2026-11-20T14:33:50+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163250",
@@ -568,7 +604,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.16K",
+      "views_label": "5.17K",
       "posted_at": "2026-11-20T14:31:12+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163249",
@@ -605,7 +641,7 @@
           "count": "7"
         }
       ],
-      "views_label": "5.53K",
+      "views_label": "5.55K",
       "posted_at": "2026-11-20T13:58:50+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163248",
@@ -650,7 +686,7 @@
           "count": "2"
         }
       ],
-      "views_label": "5.45K",
+      "views_label": "5.46K",
       "posted_at": "2026-11-20T13:12:54+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163247",
@@ -675,7 +711,7 @@
           "count": "4"
         }
       ],
-      "views_label": "5.64K",
+      "views_label": "5.65K",
       "posted_at": "2026-11-20T12:50:48+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163246",
@@ -3944,68 +3980,6 @@
       "posted_at": "2026-11-16T20:22:06+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163161",
-      "reply": null
-    },
-    {
-      "id": "radiofarda/163160",
-      "author_name": "RadioFarda",
-      "author_photo_url": "https://cdn4.telesco.pe/file/SJecOaxoVjyZdJvJlyQNAux7vdHcdNEf1Rc1wsLxynqOW71sWDVAhftTNQOCTQzVta_N8f5WtHxJLLAhzzFeveZAo4pPEVjkRdlhMCoDIP1xkHcOUiI2sQZv767CxIKVKBYDoSFGFehLI49ejDuaq8Ug0wrk8Zvkq5J0SpozH9rdLZfPx2Gtq0rVK0sM9LTc2GUTgbv_m3XXfy0TiQqyVfGlxPF_nHIuFCvCLIfzgUB7dVzZ0ZBfD6t2ggR1xCC8pE32gf27mgRGn_caSl1JhPhpbyeKDkC1F8Q02s59LKucDYHcOERnN0yrtUVKWLNaq9DkPxdsCUusiSrtpkxhVg.jpg",
-      "author_photo_path": "channels/radiofarda/media/df4f47b54e7d792b78f57c1b.jpg",
-      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
-      "body_html": "<b>برنامه رادیویی پاراگراف اول؛ اسرائیل از ایران چه می‌خواهد؟<br></b><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>در برنامه رادیویی «پاراگراف اول» تامار گیندین، پژوهشگر مرکز عزری برای مطالعات ایران و خلیج فارس در دانشگاه حیفا، و منشه امیر، روزنامه‌نگار &nbsp;از بیت‌المقدس به تحولات سیاسی اسرائیل در آینه میراث سیاسی و امنیتی بنیامین نتانیاهو و آینده جنگ احتمالی با ایران پرداخته‌اند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>این برنامه رادیویی را می‌توانید در شبکه پیام‌رسان تلگرام، پادپخش و <a href=\"https://smarturl.click/L6473W\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">تارنمای رادیو فردا</a> بشنوید.<br>&nbsp;<br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a>",
-      "plain_text": "برنامه رادیویی پاراگراف اول؛ اسرائیل از ایران چه می‌خواهد؟\n\n🔸در برنامه رادیویی «پاراگراف اول» تامار گیندین، پژوهشگر مرکز عزری برای مطالعات ایران و خلیج فارس در دانشگاه حیفا، و منشه امیر، روزنامه‌نگار  از بیت‌المقدس به تحولات سیاسی اسرائیل در آینه میراث سیاسی و امنیتی بنیامین نتانیاهو و آینده جنگ احتمالی با ایران پرداخته‌اند.\n\n🔸این برنامه رادیویی را می‌توانید در شبکه پیام‌رسان تلگرام، پادپخش و تارنمای رادیو فردا بشنوید.\n \n@RadioFarda",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👏",
-          "count": "10"
-        },
-        {
-          "emoji": "❤",
-          "count": "6"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "😡",
-          "count": "1"
-        }
-      ],
-      "views_label": "5.97K",
-      "posted_at": "2026-11-16T19:02:13+00:00",
-      "edited": false,
-      "permalink": "https://t.me/radiofarda/163160",
-      "reply": null
-    },
-    {
-      "id": "radiofarda/163159",
-      "author_name": "RadioFarda",
-      "author_photo_url": "https://cdn4.telesco.pe/file/SJecOaxoVjyZdJvJlyQNAux7vdHcdNEf1Rc1wsLxynqOW71sWDVAhftTNQOCTQzVta_N8f5WtHxJLLAhzzFeveZAo4pPEVjkRdlhMCoDIP1xkHcOUiI2sQZv767CxIKVKBYDoSFGFehLI49ejDuaq8Ug0wrk8Zvkq5J0SpozH9rdLZfPx2Gtq0rVK0sM9LTc2GUTgbv_m3XXfy0TiQqyVfGlxPF_nHIuFCvCLIfzgUB7dVzZ0ZBfD6t2ggR1xCC8pE32gf27mgRGn_caSl1JhPhpbyeKDkC1F8Q02s59LKucDYHcOERnN0yrtUVKWLNaq9DkPxdsCUusiSrtpkxhVg.jpg",
-      "author_photo_path": "channels/radiofarda/media/df4f47b54e7d792b78f57c1b.jpg",
-      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
-      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BB.png')\"><b>📻</b></i>بشنوید: ایستگاه ۱۹ با رادیوفردا، ۲۵ آبان ۱۴۰۵<br></b><br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a>",
-      "plain_text": "📻بشنوید: ایستگاه ۱۹ با رادیوفردا، ۲۵ آبان ۱۴۰۵\n\n@RadioFarda",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "10"
-        },
-        {
-          "emoji": "❤",
-          "count": "4"
-        },
-        {
-          "emoji": "👏",
-          "count": "3"
-        }
-      ],
-      "views_label": "6.1K",
-      "posted_at": "2026-11-16T17:25:35+00:00",
-      "edited": false,
-      "permalink": "https://t.me/radiofarda/163159",
       "reply": null
     }
   ]
