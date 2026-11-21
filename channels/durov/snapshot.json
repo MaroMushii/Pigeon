@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-21T22:46:57.074Z",
+  "fetched_at": "2026-11-21T22:52:06.901Z",
   "channel": {
     "username": "durov",
     "title": "Pavel Durov",
@@ -11,6 +11,51 @@
     "subscriber_count": "9.91M"
   },
   "posts": [
+    {
+      "id": "durov/568",
+      "author_name": "Pavel Durov",
+      "author_photo_url": "https://cdn4.telesco.pe/file/AlFE1k6PezTg6pY5WQZI8rkFABoUSC5YWVYgHgZdDCkCm-XerUnUpWGSQCjh7-qnpmfPAl4LFzNe65wQOHOA9w5ZoTubAzZ1i8jmaaqKdN_mpG5UQlTpa_cI_voq6dFkIWrCrXQRM9IykmZfI1vK3oPfV0HXIiiBhfnjCglpoZMAxfM1ArSwOtoGinSJLnkV19v_CJvjEr97NIL2WhLg59wcvlw2YIHBFQYD7vuyaWxulgLaCJE_dtcgtACz7Bko-pQt5VivIVIIMZhX8nJCkpd0KYoiYtXLCYOIJaoHTFtXS2ddHkJOLHPtRcCQFrmQVIlQgys9saFkTe9wZaGl5A.jpg",
+      "author_photo_path": "channels/durov/media/8bffec85e03ab804ed30e2bc.jpg",
+      "author_photo_sha256": "c8dc5acc961fc086e84217b035d6fa85e23dcae971eeed4d5b0c446914f4204b",
+      "body_html": "You won't look professional in 2027 if your QR is unpimped.",
+      "plain_text": "You won't look professional in 2027 if your QR is unpimped.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/durov/568",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/cgSoOZ1zjKgIE2XOOH6pd2QyWQW3ZbCtgN9_dFX508GFU7PPea3_HU9dSNy-QKnAACWdK-RX4SbYbSIGBWmspbA4_uuSK7HKlmp9XL4n6rbLcgso_-_ES0YQCY3hPo10vJiPFRIOAfddnTICjfyJvlYsrTnYskTagjO2mPD4bTxItcB6cChqay8SPYpdY6hVdvcASlLHWepowwIal9bedFT93U9rw6i_Ni6c-lCdb9Pe18LVzrG9wN_-wuz7iSK-alA-o944X6R5_GWERa1yMMPT431SI_FMnatzT-cyhLID2nQCZm5FvEGFxQTdD507vaVvy6uDOexKemcS0-RGdg",
+          "thumbnail_path": "channels/durov/media/2297e31c7be85b8b0912e8d9.jpg",
+          "thumbnail_sha256": "f1363d08a8bbf84d898411d9a9bd5ba82ade0b383f46f6e631d1fc9b2a5942b4",
+          "duration_label": "0:24",
+          "aspect_ratio": 1
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "count": "243"
+        },
+        {
+          "emoji": "💎",
+          "count": "612"
+        },
+        {
+          "emoji": "💎",
+          "count": "384"
+        },
+        {
+          "emoji": "💎",
+          "count": "361"
+        }
+      ],
+      "views_label": "28.5K",
+      "posted_at": "2026-11-21T22:48:52+00:00",
+      "edited": false,
+      "permalink": "https://t.me/durov/568",
+      "reply": null
+    },
     {
       "id": "durov/567",
       "author_name": "Pavel Durov",
@@ -27,7 +72,7 @@
         },
         {
           "emoji": "💎",
-          "count": "35.5K"
+          "count": "35.6K"
         },
         {
           "emoji": "💎",
@@ -35,10 +80,10 @@
         },
         {
           "emoji": "💎",
-          "count": "9.08K"
+          "count": "9.1K"
         }
       ],
-      "views_label": "816K",
+      "views_label": "824K",
       "posted_at": "2026-11-20T20:47:30+00:00",
       "edited": true,
       "permalink": "https://t.me/durov/567",
@@ -80,10 +125,10 @@
         },
         {
           "emoji": "💎",
-          "count": "8.12K"
+          "count": "8.13K"
         }
       ],
-      "views_label": "1.1M",
+      "views_label": "1.11M",
       "posted_at": "2026-11-19T22:12:20+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/566",
@@ -116,7 +161,7 @@
           "count": "12.8K"
         }
       ],
-      "views_label": "1.49M",
+      "views_label": "1.5M",
       "posted_at": "2026-11-18T17:42:19+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/565",
@@ -149,7 +194,7 @@
           "count": "10.1K"
         }
       ],
-      "views_label": "1.81M",
+      "views_label": "1.82M",
       "posted_at": "2026-11-17T19:12:44+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/564",
@@ -175,14 +220,14 @@
         },
         {
           "emoji": "💎",
-          "count": "6.27K"
+          "count": "6.28K"
         },
         {
           "emoji": "💎",
           "count": "4.83K"
         }
       ],
-      "views_label": "1.76M",
+      "views_label": "1.77M",
       "posted_at": "2026-11-16T17:06:39+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/563",
@@ -264,7 +309,7 @@
           "count": "829"
         }
       ],
-      "views_label": "1.9M",
+      "views_label": "1.91M",
       "posted_at": "2026-11-14T09:29:21+00:00",
       "edited": false,
       "permalink": "https://t.me/durov/561",
