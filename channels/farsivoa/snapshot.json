@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-21T19:52:40.956Z",
+  "fetched_at": "2026-11-21T19:56:55.504Z",
   "channel": {
     "username": "farsivoa",
     "title": "Farsi VOA",
@@ -12,6 +12,34 @@
   },
   "posts": [
     {
+      "id": "farsivoa/238029",
+      "author_name": "Farsi VOA",
+      "author_photo_url": "https://cdn1.telesco.pe/file/eDVa8GRQGDiFTXnqPrRkpaVwv5p2zaDf8wC5jiaeixDJzY0cYmKknKYoC3PaOvJhb_WGPXNj0sGF4uj3xVMw55LB4eNFfMN7Dg8lqHJ0ZdlaHkqHk7CXxv7vWgLW17B26GokRoEH4frUknuQBOm5HRq_1PElfLHTFRLL1cByiOg6MKWIGer0B99BimhFUB1U26B1BYLN-5qLR5qkayAPJT2GEGlGI9YEvu-LxK8bLhtNw2Ngd8PW-sgn5sSjE6PozQCbK5QQgszv4T7jP_RkIXPdiVMfcOCklSE4nj71vbqpB2mc3V4FIfJNYnr0WNZ3xwrycoksorkN-Q-u8GFqDg.jpg",
+      "author_photo_path": "channels/farsivoa/media/485be854965db2272779d689.jpg",
+      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
+      "body_html": "مایکروسافت به حدود ۶۰ هزار کارمند واجد شرایط پیشنهاد خروج داوطلبانه داده است. در همین رابطه مدیرعامل اجرایی این غول فناوری می‌گوید گسترش ابرهوش در حال تغییر ماهیت مشاغل، از جمله برنامه‌نویسی، و مهارت‌های موردنیاز در این صنعت است.",
+      "plain_text": "مایکروسافت به حدود ۶۰ هزار کارمند واجد شرایط پیشنهاد خروج داوطلبانه داده است. در همین رابطه مدیرعامل اجرایی این غول فناوری می‌گوید گسترش ابرهوش در حال تغییر ماهیت مشاغل، از جمله برنامه‌نویسی، و مهارت‌های موردنیاز در این صنعت است.",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/farsivoa/238029",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn1.telesco.pe/file/EeQLTRB3EuGCGUiIV7vMvrnr_gUWg4SIR59-7GZJlRjpYgFg6_U2aX3INMOomE2EZveRDoDLTmS7CM4uaMqNxQRefb19iY_UaWWCqesGsVixF7xbXo0UXZXcagzAF9_t-JoRiyVq0Zw8fvJJbTZfz0GJB-LsEsYipfz3f_6W6Wkeo7O1SfXMWfsATE4QvEel9gfdchIV5Bev9Qt9iVPW-QRsuIeeKohy0h5JZu1vjAeRDRlRPCZTjlL1v-VWZ_lCIxCmbaob-d5ZEsD86HhVWpez7c0jCwIm_cwIN_4cp1RWLzHwY0pKvXH-1qb6tK1Luagy9kgajQw6-AnSUi1AXQ",
+          "thumbnail_path": "channels/farsivoa/media/7fd30233e3e81eb8f0e3e6d4.jpg",
+          "thumbnail_sha256": "fab343165ceee842062349cd2478609f5a4b6edd190b5da32e7cdde62cac2639",
+          "duration_label": "2:49",
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "227",
+      "posted_at": "2026-11-21T19:54:18+00:00",
+      "edited": false,
+      "permalink": "https://t.me/farsivoa/238029",
+      "reply": null
+    },
+    {
       "id": "farsivoa/238028",
       "author_name": "Farsi VOA",
       "author_photo_url": "https://cdn1.telesco.pe/file/eDVa8GRQGDiFTXnqPrRkpaVwv5p2zaDf8wC5jiaeixDJzY0cYmKknKYoC3PaOvJhb_WGPXNj0sGF4uj3xVMw55LB4eNFfMN7Dg8lqHJ0ZdlaHkqHk7CXxv7vWgLW17B26GokRoEH4frUknuQBOm5HRq_1PElfLHTFRLL1cByiOg6MKWIGer0B99BimhFUB1U26B1BYLN-5qLR5qkayAPJT2GEGlGI9YEvu-LxK8bLhtNw2Ngd8PW-sgn5sSjE6PozQCbK5QQgszv4T7jP_RkIXPdiVMfcOCklSE4nj71vbqpB2mc3V4FIfJNYnr0WNZ3xwrycoksorkN-Q-u8GFqDg.jpg",
@@ -21,7 +49,7 @@
       "plain_text": "🔺انتقال نوید نجاران و میلاد آرمون به سلول انفرادی؛ هشدار درباره خطر اجرای قریب‌الوقوع حکم اعدام\n\n◾️گزارش‌ها از انتقال نوید نجاران و میلاد آرمون، دو زندانی سیاسی محکوم به اعدام در پرونده موسوم به «شهرک اکباتان»، به سلول انفرادی زندان قزل‌حصار و نگرانی از خطر اجرای قریب‌الوقوع احکام اعدام آنها حکایت دارد.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iranian-prisoners-face-imminent-execution/8226432.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "287",
+      "views_label": "639",
       "posted_at": "2026-11-21T19:49:07+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238028",
@@ -49,7 +77,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "1.6K",
+      "views_label": "1.82K",
       "posted_at": "2026-11-21T19:21:49+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238027",
@@ -65,7 +93,7 @@
       "plain_text": "🔺دیدگاه | بحران بی‌سابقه «دولت‌کده» دست‌نشانده جمهوری اسلامی در جرف‌الصخر عراق\n\n◾️نام‌های ضَحیان در استان صعده یمن، ضاحیه در جنوب بیروت، و جرف‌الصخر در استان بابل عراق و در فاصله ۶۰ کیلومتری جنوب بغداد، برای کسانی که ارتباط جمهوری اسلامی با جهان عرب را دنبال می‌کنند، نام‌های آشنایی هستند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/crisis-in-iranian-regime-backed-statelet-jurf-al-sakhar/8226413.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "1.85K",
+      "views_label": "2.07K",
       "posted_at": "2026-11-21T19:16:29+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238026",
@@ -81,7 +109,7 @@
       "plain_text": "🔺نرگس محمدی با حمایت از کارزار جهانی مقابله با آزار اینترنتی: نگذارید نفرت سازمان‌یافته شما را خاموش کند\n\n◾️نرگس محمدی، برنده جایزه صلح نوبل و فعال حقوق بشر ایرانی، با انتشار ویدیویی به زبان انگلیسی از کارزار بین‌المللی «فقط عشق» برای مقابله با آزار و حملات سازمان‌یافته اینترنتی حمایت کرد و با اشاره به تجربه شخصی خود از تهدید به مرگ و خشونت جنسی آنلاین، از قربانیان این حملات خواست در برابر تهدیدها و فشارها تسلیم نشوند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/narges-mohammadi-combats-online-harassment/8226418.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "2.74K",
+      "views_label": "2.87K",
       "posted_at": "2026-11-21T18:45:00+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238025",
@@ -109,7 +137,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.94K",
+      "views_label": "3.01K",
       "posted_at": "2026-11-21T18:28:52+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238024",
@@ -137,7 +165,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "2.97K",
+      "views_label": "3.07K",
       "posted_at": "2026-11-21T18:23:48+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238023",
@@ -165,7 +193,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.25K",
+      "views_label": "3.32K",
       "posted_at": "2026-11-21T18:10:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238022",
@@ -193,7 +221,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.12K",
+      "views_label": "3.18K",
       "posted_at": "2026-11-21T18:05:09+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238021",
@@ -221,7 +249,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.4K",
+      "views_label": "3.47K",
       "posted_at": "2026-11-21T17:45:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238020",
@@ -237,7 +265,7 @@
       "plain_text": "🔺شمار بازداشت‌شدگان اعتراضات آبدانان به ۱۰ نفر افزایش یافت\n\n◾️منابع حقوق بشری روز شنبه ۳۰ آبان از افزایش شمار بازداشت‌شدگان اعتراضات اخیر آبدانان به ۱۰ نفر خبر دادند.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/abdanan-protest-arrests-reach-ten/8226409.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.34K",
+      "views_label": "3.38K",
       "posted_at": "2026-11-21T17:39:40+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238019",
@@ -253,7 +281,7 @@
       "plain_text": "🔺صدور سه حکم اعدام در تهران و بازداشت مجدد یک جوان در یاسوج؛ سرکوب معترضان توسط جمهوری اسلامی ادامه دارد\n\n◾️در ادامه برخوردهای قضایی و امنیتی جمهوری اسلامی با معترضان دی ۱۴۰۴، سه تن از بازداشت‌شدگان این اعتراضات در تهران به اعدام محکوم شده‌اند و یک جوان ۲۰ ساله نیز در یاسوج بار دیگر توسط نیروهای اطلاعات سپاه پاسداران بازداشت شده است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/iran-protesters-face-death-sentences/8226403.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.07K",
+      "views_label": "3.13K",
       "posted_at": "2026-11-21T17:33:22+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238018",
@@ -281,7 +309,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.07K",
+      "views_label": "3.13K",
       "posted_at": "2026-11-21T17:14:47+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238017",
@@ -309,7 +337,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.19K",
+      "views_label": "3.23K",
       "posted_at": "2026-11-21T17:03:55+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238016",
@@ -341,7 +369,7 @@
       "plain_text": "🔴📢‌ پادکست تفسیر خبر- شنبه ۳۰ آبان\n\n🛜در صورتی که با مشکل اینترنت مواجه هستید میتوانید اخبار صدای آمریکا را از نسخه‌های پادکست خبری ما به صورت صوتی دنبال کنید و یا اخبار را از نسخه سبک وب‌سایت ما پیگیر باشید:\nhttps://ir.voanews.com/lite\n\n📡بروزترین فرکانسهای ماهواره‌ای را نیز میتوانید از صفحه زیر پیگیری کنید:\nhttps://ir.voanews.com/satellite\n\n🔔دیگر شبکه‌های اجتماعی ما را هم دنبال کنید:\nhttps://linktr.ee/voafarsi\n\nبا دوستانتان به اشتراک بگذارید\n@farsivoa",
       "media": [],
       "reactions": [],
-      "views_label": "3.35K",
+      "views_label": "3.42K",
       "posted_at": "2026-11-21T16:53:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238014",
@@ -369,7 +397,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.14K",
+      "views_label": "3.17K",
       "posted_at": "2026-11-21T16:51:23+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238013",
@@ -397,7 +425,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.16K",
+      "views_label": "3.23K",
       "posted_at": "2026-11-21T16:48:30+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238012",
@@ -425,7 +453,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "3.26K",
+      "views_label": "3.33K",
       "posted_at": "2026-11-21T16:38:08+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238011",
@@ -441,7 +469,7 @@
       "plain_text": "🔺پرزیدنت ترامپ: جمهوری اسلامی توافق‌ها را نقض می‌کند؛ آنها هرگز سلاح هسته‌ای نخواهند داشت\n\n◾️پرزیدنت ترامپ با تاکید بر این که هرگز اجازه دستیابی جمهوری اسلامی به سلاح هسته‌ای را نخواهد داد، گفت به دنبال توافقی دائمی با حکومت ایران است که حتی پس از پایان دوران ریاست جمهوری او نیز پابرجا بماند. رئیس جمهوری آمریکا همچنین با انتقاد از سابقه جمهوری اسلامی در نقض توافق‌ها، گفت مذاکره با رهبران کنونی این حکومت همچنان بسیار دشوار است.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/trump-rejects-iranian-nuclear-deception/8226395.html/?nocach=1",
       "media": [],
       "reactions": [],
-      "views_label": "3.62K",
+      "views_label": "3.66K",
       "posted_at": "2026-11-21T16:25:14+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/238010",
@@ -2503,22 +2531,6 @@
       "posted_at": "2026-11-20T20:05:57+00:00",
       "edited": false,
       "permalink": "https://t.me/farsivoa/237915",
-      "reply": null
-    },
-    {
-      "id": "farsivoa/237914",
-      "author_name": "Farsi VOA",
-      "author_photo_url": "https://cdn1.telesco.pe/file/ec4GKiFiPE15M1bX70K9ugE4LxN8A6BSaoX21wCPtW_RMEyrZIOB0riX4iI7chHLhTZx4f91J4GDTtQhROkFQ7SzpBARRL0Tv53yOWaH9Pa8rDOCznfSyswHfXorOAxBd69F33Y_w3cRJFmFou1e0XtuQiTp4xiCWaHDdMUjoZ4QUbl3Kg5lwqBxYBj-aCCyjJ2Vzg-QNoH31IBQEVTTrP8iBNLDUz3APLpnd7oU6jJRjflX9HLm2YNz28wr_JF-RhyATxT2gZPp6EXU5YnN-xqY0dKGKzgKs0WkirZcetaEG_b_s6048Rk_bsN2YnYLy6fVRefB7ccYIgFYWBWecg.jpg",
-      "author_photo_path": "channels/farsivoa/media/b977013e9e376cd8ec896008.jpg",
-      "author_photo_sha256": "134b08ca8097f7fd9df09d5873936ee189d397f09558543b8581df410a098b90",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BA.png')\"><b>🔺</b></i>سفیر اسرائیل در آمریکا: پس از شکست جمهوری اسلامی نیروهای آمریکایی به خانه بازمی‌گردند<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AA.png')\"><b>▪️</b></i>یخیل لایتر، سفیر اسرائیل در آمریکا، با تأکید بر این که نیروهای آمریکایی پس از شکست جمهوری اسلامی به کشورشان بازمی‌گردند، گفت تصمیم درباره ازسرگیری عملیات نظامی علیه حکومت ایران با پرزیدنت ترامپ است و در صورت اتخاذ چنین تصمیمی، اسرائیل نیز در کنار آمریکا خواهد بود.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> بیشتر بخوانید:<br><br><a href=\"https://ir.voanews.com/a/israeli-ambassador-predicts-iran-defeat/8226114.html/?nocach=1\" target=\"_blank\" rel=\"noopener\">https://ir.voanews.com/a/israeli-ambassador-predicts-iran-defeat/8226114.html/?nocach=1</a>",
-      "plain_text": "🔺سفیر اسرائیل در آمریکا: پس از شکست جمهوری اسلامی نیروهای آمریکایی به خانه بازمی‌گردند\n\n▪️یخیل لایتر، سفیر اسرائیل در آمریکا، با تأکید بر این که نیروهای آمریکایی پس از شکست جمهوری اسلامی به کشورشان بازمی‌گردند، گفت تصمیم درباره ازسرگیری عملیات نظامی علیه حکومت ایران با پرزیدنت ترامپ است و در صورت اتخاذ چنین تصمیمی، اسرائیل نیز در کنار آمریکا خواهد بود.\n\n⬇️ بیشتر بخوانید:\n\nhttps://ir.voanews.com/a/israeli-ambassador-predicts-iran-defeat/8226114.html/?nocach=1",
-      "media": [],
-      "reactions": [],
-      "views_label": "3.29K",
-      "posted_at": "2026-11-20T19:47:30+00:00",
-      "edited": false,
-      "permalink": "https://t.me/farsivoa/237914",
       "reply": null
     }
   ]
