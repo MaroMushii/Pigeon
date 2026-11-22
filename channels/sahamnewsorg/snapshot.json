@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-22T08:52:01.747Z",
+  "fetched_at": "2026-11-22T08:57:44.722Z",
   "channel": {
     "username": "sahamnewsorg",
     "title": "سهام نیوز",
@@ -11,6 +11,43 @@
     "subscriber_count": "219K"
   },
   "posts": [
+    {
+      "id": "sahamnewsorg/150847",
+      "author_name": "سهام نیوز",
+      "author_photo_url": "https://cdn1.telesco.pe/file/cTt5X_GkP2b0x1h-anN8HTSzRPttFeYu0vrceGhFNS7qIwjarGHataTNQZn3Mp5zxnrVBCrcAXzVwXt_-NtvFglEJTavzwer6345wUiJNGHEyJO1QQgBY7Ps5vF1LFMdoFMXIaYORX6JDJaYu-F1a8OBjhyuTYOQY1Oo7-ovBFP4JIrttrs3GB6EFW4kAMOSM_h6PZgYo12jzdUYzxna6dqv0NvtOinzGvFMR5cOfTYcMqE1-8SULQfjBPHnL0EIbwLRL0b85AiHU7DrqnbdxoUHx0P1sTsP_pxXxZxy89Sc2iDQZ3gV4JfwUrISMDo1PXpZBqqAGZRlw-UqCTgdNQ.jpg",
+      "author_photo_path": "channels/sahamnewsorg/media/578a452667eddb510aa642c3.jpg",
+      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>ایرانی ها با این وضعیت به سختی ها عادت کردند<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
+      "plain_text": "✅ایرانی ها با این وضعیت به سختی ها عادت کردند\n\n@Sahamnewsorg",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/sahamnewsorg/150847",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/evLsRtfLDMlZIzzyEpi7JGDJfe4VXWEQ0vp3eyhL3y9TNLeZZ9X93cZEKwIoIpzAX1MXfDQKOLFRuIGiAhkQzjrxCAWt17-Mn5khRsEBhqGFHihkU4rJrJjOpP2VVz7vh3OwT0xKNVcRpV6l2wmc5bbywjPftujZ9u0V9HfpQkF_8LB85AIfCyFFtXx-BkgCoCPulk65WLqnzU0wvPNQyGz4wsuYuDi6A1TasF7kE2XOS8MbFybJBwKngiUxlq9a30XAwk3SFbdtWvnskyQZJFWJDfDPIZWxteCfsFK3vd7iyGXjjQ29X2NlNTmCNMYSyvI0NETYjm_hSmXjwHye8g",
+          "thumbnail_path": "channels/sahamnewsorg/media/516e46048f8a700fa7e417ac.jpg",
+          "thumbnail_sha256": "1da1353a16c870b3f827241eeb1d03aca4cdd0dec4ba88245cbfdbb9305d2a1b",
+          "duration_label": "0:42",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "2.76K",
+      "posted_at": "2026-11-22T08:51:30+00:00",
+      "edited": true,
+      "permalink": "https://t.me/sahamnewsorg/150847",
+      "reply": {
+        "channel_username": "sahamnewsorg",
+        "post_id": "150806",
+        "author_name": "سهام نیوز",
+        "preview_text": "✅علی مطهری: مردم ما چهار دهه است در سختی هستند و به سختی عادت دارند؛ اما غربی‌ها به سختی عادت ندارند به همین دلیل تاب آوری ما بیشتر از آنهاست 🔻پ ن:مردم اگر به سختی های دهه اول انقلاب صبور بودند به این دلیل بود که حکومت را از خودشان می دانستند اما الان حکومت…",
+        "thumbnail_url": "https://cdn4.telesco.pe/file/XcQ3Zh5fHhYlNv3_cQieJibFvf2lwkW1mpF9HJtfkhXKz90VQuNXRS3n7l-WzR3rpIGFjQGQ2nh8cVx5gZUjYw9xB-wRnW_i8G8IRsSGM1JNSxjrvyEzk0LVgv3IArtz4kiH6qBtuU7QorVtMocGqfd3o4UX9pw_quUwnq6srnydo-lE7Isk95FWwgNVEJhiV-St2T15zxvV5j19Oomjb2_fefh24_Cprac2D8TyPvUCBcGSdUUhRlBvfKYTge6xR0YEBgr9fSh83-jEnX0P57JmotwGmZyu8KATF0aBjuCT9n2lUNYkJUwIJhSJrlo3FdJfyzB1Kny8eBjJdZOcDA.jpg",
+        "thumbnail_path": "channels/sahamnewsorg/media/90ed89fbdbca1944aaf8c80a.jpg",
+        "thumbnail_sha256": "7a488365ef46d5c745bd055c74ab5e261657fa03d1a417b35570dc232fefad1d",
+        "permalink": "https://t.me/sahamnewsorg/150806"
+      }
+    },
     {
       "id": "sahamnewsorg/150846",
       "author_name": "سهام نیوز",
@@ -33,7 +70,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "5.55K",
+      "views_label": "7.39K",
       "posted_at": "2026-11-22T08:36:47+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150846",
@@ -70,7 +107,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "7.07K",
+      "views_label": "8.91K",
       "posted_at": "2026-11-22T08:32:44+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150845",
@@ -86,7 +123,7 @@
       "plain_text": "✅جوزف عون: اسراییل و ایران دو تهدید اصلی علیه لبنان‌اند\n\nجوزف عون رئیس‌جمهور لبنان در نطقی ایران را به دخالت در امور این کشور از طریق سلاح‌های حزب‌الله متهم کرده و خواستار خروج کامل اسراییل از جنوب لبنان شد.\n\nاو گفت حاکمیت لبنان با دو تهدید روبه‌رو است: اشغال بخش‌هایی از خاک لبنان به دست اسراییل و دخالت حکومت ایران از طریق مسلح‌کردن حزب‌الل- و افزود «پیام لبنان به اسراییل روشن است از وجب‌به‌وجب خاک لبنان خارج شوید و حملات‌تان را متوقف کنید و جمهوری اسلامی نیز نباید در امور داخلی ما «دخالت» کند»\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "8.29K",
+      "views_label": "9.82K",
       "posted_at": "2026-11-22T08:26:58+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150844",
@@ -102,7 +139,7 @@
       "plain_text": "✅مست‌کُشی در شهر خیام\n\nدانشگاه علوم پزشکی نیشابور از بستری شدن ۳۳ نفر بر اثر مسمومیت الکلی در این شهرستان خبر داد و اعلام کرد که تاکنون سه نفر نیز جان خود را در این رویداد از دست داده‌اند.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "12K",
+      "views_label": "13.2K",
       "posted_at": "2026-11-22T08:14:02+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150843",
@@ -141,7 +178,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "15K",
+      "views_label": "16.3K",
       "posted_at": "2026-11-22T07:59:02+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150841",
@@ -157,7 +194,7 @@
       "plain_text": "✅عقل حکومتی ها و سرداران سپاه\n\nقبل از جنگ؛ اگر حمله کنید تنگه رو می بندیم\n\nبعد از جنگ؛ اگر تنگه رو باز نکنید حمله می کنیم\nمیخواهیم چند تا نفت کش خودمون رو عبور دهیم\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "16.9K",
+      "views_label": "17.8K",
       "posted_at": "2026-11-22T07:53:08+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150840",
@@ -173,7 +210,7 @@
       "plain_text": "✅‏ کیهان: جنگ قطعی است؛ باید ضربه اول را به آمریکا بزنیم\n\nروزنامه کیهان با اشاره به تحرکات نظامی و اطلاعاتی آمریکا و اسرائیل، مدعی شد آن‌ها در حال آماده‌سازی برای حمله به ایران هستند. این روزنامه تأکید کرد باید با اقدام پیش‌دستانه و وارد کردن «ضربه اول» به آمریکا، ابتکار عمل را در دست گرفت و هزینه‌های جنگ را برای دشمن افزایش داد.\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "17.5K",
+      "views_label": "18.4K",
       "posted_at": "2026-11-22T07:47:53+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150839",
@@ -189,7 +226,7 @@
       "plain_text": "✅مهران طباطبایی: نام چهار تراستی که توسط خزانه داری امریکا تحریم شدن .\n\nآیا تا بحال نامی از این افراد شنیده بودید ؟\n\nمجتبی عرب‌نژاد، پسر رییس شرکت ماهان\n\nمحمدحسین ثروتی، پسر یکی از فرماندهان سپاه\n\nمجید تاج، برادر رییس فدراسیون فوتبال\n\nمحمدجواد باوند، افسر سابق اطلاعاتی\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "19.6K",
+      "views_label": "20.6K",
       "posted_at": "2026-11-22T07:39:44+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150838",
@@ -214,7 +251,7 @@
       "plain_text": "✅۶٫۰۰۰٫۰۰۰٫۰۰۰٫۰۰۰ دلار !\nعددی هست که بورس آمریکا ریخته ، انگار ۵۵ بار کل بورس ایران صفر بشه!\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "19.6K",
+      "views_label": "20.5K",
       "posted_at": "2026-11-22T07:36:09+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150837",
@@ -242,7 +279,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "22.1K",
+      "views_label": "23K",
       "posted_at": "2026-11-22T07:26:44+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150836",
@@ -270,7 +307,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "22.4K",
+      "views_label": "23.1K",
       "posted_at": "2026-11-22T07:18:03+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150835",
@@ -298,7 +335,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "23.6K",
+      "views_label": "24.5K",
       "posted_at": "2026-11-22T07:07:41+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150834",
@@ -314,7 +351,7 @@
       "plain_text": "✅شایسته هست امثال امیرحسین ثابتی و جوجه تراستی‌ها را که مبدع اخذ ۶۰۰ میلیارد دلار از تنگه بودند را سوار نفتکش‌های خط شکن کنند!/علی شریعتی، عضو اتاق بازرگانی\n\n@Sahamnewsorg",
       "media": [],
       "reactions": [],
-      "views_label": "56.2K",
+      "views_label": "56.5K",
       "posted_at": "2026-11-21T22:46:10+00:00",
       "edited": false,
       "permalink": "https://t.me/sahamnewsorg/150833",
@@ -358,7 +395,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "54.3K",
+      "views_label": "54.6K",
       "posted_at": "2026-11-21T22:27:17+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150831",
@@ -442,7 +479,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "55.9K",
+      "views_label": "56K",
       "posted_at": "2026-11-21T20:40:26+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150828",
@@ -2279,34 +2316,6 @@
       "posted_at": "2026-11-20T12:56:32+00:00",
       "edited": true,
       "permalink": "https://t.me/sahamnewsorg/150747",
-      "reply": null
-    },
-    {
-      "id": "sahamnewsorg/150746",
-      "author_name": "سهام نیوز",
-      "author_photo_url": "https://cdn1.telesco.pe/file/bZ3_kS9rbKi_odCI52Qy54ovRuttDNi08HpHh8f9jfInthKEfr3TE8pTGopD7EUrRkrYmw5Ln8iUZrK29gAmCEpbSYMGfqBid95adUCE-jeoCoCfa_zzoFz5EY855aJh8wbeTABJk6hH7GXvCPqqlhF2a9JuyluuO6fiBp8SdUQW3uDUWcp_wVmILkYNsypBnJfXo1T0ykCHxa9mLY181x0KvX4XFuRoPw8dO1eUSBJWLsC_QAMZuqXtGzEQlaLCfqa77WcbwrrFu6ONcwE7bvUuzH0sIrAdZD2oM7DLTxnz6415LYHlrlujQeD4hOfQnG8s9A-l7b-tE8_zDmmcFA.jpg",
-      "author_photo_path": "channels/sahamnewsorg/media/4f8f9af0d9756bd9e404a059.jpg",
-      "author_photo_sha256": "c1531cc0b75ad7351c08c6d310be2b9ac446bd100e0b69bacbca8736e307d198",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i>نیمی از خودروهای سواری تهران فرسوده‌‌اند<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹️</b></i> 50 درصد خودرو‌های سواری، 55 درصد موتورسیکلت‌ها و 77 درصد اتوبوس‌های در حال تردد در سطح شهر تهران فرسوده هستند.<br><br><a href=\"https://t.me/Sahamnewsorg\" target=\"_blank\">@Sahamnewsorg</a>",
-      "plain_text": "✅نیمی از خودروهای سواری تهران فرسوده‌‌اند\n\n🔹️ 50 درصد خودرو‌های سواری، 55 درصد موتورسیکلت‌ها و 77 درصد اتوبوس‌های در حال تردد در سطح شهر تهران فرسوده هستند.\n\n@Sahamnewsorg",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/sahamnewsorg/150746",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/Nap8_JaTu9TcwR_DU9QyMUocu_TocTBO-6f7QFNMHLXlJbeOmHGwcjs6IwgAJ4gfbEphoK3Soyx-YhQotV6Ki6PlHg0iJ-7PMaKlx2gpeFF2Le00nGOdPaiJ6Y5vPslAE5K6SySJyQOIMe-wTitBbWpG6FeOd29uppfjPjVQynVWFxeAZom5ZTHcy_fMUT2cQyotAsZbtQalL_IWv2Ca-mjIqjBexikFBlAvtSCtuobtdXocSPQDeUwBZhFTdMnuvwY6wz5QSlOvOG8LDcuEtrajlIovvo5qOLxoKyOEdCCmglH_5WY_ciKTgpKzqT-3wcGJq5mnbiAZ9gafLWPj8Q.jpg",
-          "thumbnail_path": "channels/sahamnewsorg/media/1adcba0786152d00e6c4d25d.jpg",
-          "thumbnail_sha256": "47490fa5a22fae92250b37c28c0f29d79e64e43349ef50f1727ea9942e49496a",
-          "duration_label": null,
-          "aspect_ratio": 1.714285714285724
-        }
-      ],
-      "reactions": [],
-      "views_label": "42.4K",
-      "posted_at": "2026-11-20T12:52:11+00:00",
-      "edited": true,
-      "permalink": "https://t.me/sahamnewsorg/150746",
       "reply": null
     }
   ]
