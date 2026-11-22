@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-22T15:26:57.649Z",
+  "fetched_at": "2026-11-22T15:33:14.289Z",
   "channel": {
     "username": "iranintltv",
     "title": "Iran International ایران اینترنشنال",
@@ -12,6 +12,62 @@
   },
   "posts": [
     {
+      "id": "IranintlTV/368182",
+      "author_name": "Iran International ایران اینترنشنال",
+      "author_photo_url": "https://cdn4.telesco.pe/file/hmcdvKPN2wZ0B2Xy4oBeXJAJy_2YSvSWi0OClIM_fMKiPXngn0yjxCj2rmquw0lywcZhpVCNCSYFCAwqpQ2ZG6DcEX23ttQQJUtU74iDrLAAbmP0-HuToilr5a3tfB1dHe5R_n14THc-ipxxCfxkhJtbzc0D1CeiPfWQhvnNZmzu0gb3iqPPDetzA3o8itYF5ZTpFJkQtBo5y2X21vYsIFTzmBcb4gvBxFFjNbQwsbJkuRJj1v8wW0CQ9RFY0HKbjlNnUYcA5xElWiKjGd5KwOS_PO7NsZNLYFjgb907In_06hrxB14mLbIu-LSPaxohYWXFws9LIBIvUg5l6WCzIA.jpg",
+      "author_photo_path": "channels/iranintltv/media/c846e8cba43b3199934df50c.jpg",
+      "author_photo_sha256": "dc7fffe671062b14e24dddfeb10909af3a74558347168a9753a3147064742f05",
+      "body_html": "یک شهروند با ارسال ویدیویی به ایران‌اینترنشنال در یکشنبه اول آذر، هوای آلوده تهران را نشان می‌دهد می‌گوید: «برق و آب و گاز هم نداریم. از این هوا هم حالت تهوع گرفته‌ایم.»",
+      "plain_text": "یک شهروند با ارسال ویدیویی به ایران‌اینترنشنال در یکشنبه اول آذر، هوای آلوده تهران را نشان می‌دهد می‌گوید: «برق و آب و گاز هم نداریم. از این هوا هم حالت تهوع گرفته‌ایم.»",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/IranintlTV/368182",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/b6168gOfi9H3Rq4WrepSO9bJTwvEGiV4o-bO9I6mp2hqDH34tgNFDvcE0czjPfOoDuLWhBaF--iBJVKXjKsfu5DP6w36a1JtaHphMq_tNuCWw6Sl1JkZ5S8WxgrRSFUQJiSONKrv2ntjxupoDNhgDG_l30wP3oaIJO1HX-ykhyFS_YHE_n4POkmM1I1-FpF8N2XprWx3ElCzvcuSnqgAusMRSsJygnDtvyYmdExLW8Ed4OHfpHa30uhUXYOQQ1cv-GePoiFhWLqvj_JArfftcQeefBfFfFJxJ4bHjrjzePpzFy6DiJ6DBrP7JlzldHo5_c9g8xxDOV1V_IxhtDJtIA",
+          "thumbnail_path": "channels/iranintltv/media/bd0f3b23541d84376db034ba.jpg",
+          "thumbnail_sha256": "d002ae64c69d204600d97508b1778fa88cc46dce44df3ac3a5ae344c702de0e1",
+          "duration_label": "0:54",
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [],
+      "views_label": "1.05K",
+      "posted_at": "2026-11-22T15:30:57+00:00",
+      "edited": false,
+      "permalink": "https://t.me/IranintlTV/368182",
+      "reply": null
+    },
+    {
+      "id": "IranintlTV/368181",
+      "author_name": "Iran International ایران اینترنشنال",
+      "author_photo_url": "https://cdn4.telesco.pe/file/hmcdvKPN2wZ0B2Xy4oBeXJAJy_2YSvSWi0OClIM_fMKiPXngn0yjxCj2rmquw0lywcZhpVCNCSYFCAwqpQ2ZG6DcEX23ttQQJUtU74iDrLAAbmP0-HuToilr5a3tfB1dHe5R_n14THc-ipxxCfxkhJtbzc0D1CeiPfWQhvnNZmzu0gb3iqPPDetzA3o8itYF5ZTpFJkQtBo5y2X21vYsIFTzmBcb4gvBxFFjNbQwsbJkuRJj1v8wW0CQ9RFY0HKbjlNnUYcA5xElWiKjGd5KwOS_PO7NsZNLYFjgb907In_06hrxB14mLbIu-LSPaxohYWXFws9LIBIvUg5l6WCzIA.jpg",
+      "author_photo_path": "channels/iranintltv/media/c846e8cba43b3199934df50c.jpg",
+      "author_photo_sha256": "dc7fffe671062b14e24dddfeb10909af3a74558347168a9753a3147064742f05",
+      "body_html": "خبرگزاری هرانا، یک‌شنبه اول آذر گزارش داد که محمد شرقی، از کارکنان حفاظت فرودگاه مهرآباد تهران و از بازداشت‌شدگان مرتبط با اعتراضات دی‌ماه ۱۴۰۴، از سوی شعبه ۲۳ دادگاه انقلاب تهران به اعدام محکوم شده است.<br><br>هرانا افزود که شرقی به حکم صادرشده اعتراض کرده و پرونده او اکنون در شعبه ۹ دیوان عالی کشور در حال بررسی است.<br>محمد شرقی ۲۷ اسفند ۱۴۰۴ از سوی نیروهای امنیتی بازداشت شد و در حال حاضر در زندان قزلحصار کرج نگهداری می‌شود.<br><a href=\"https://iranintl.com/202611222798\" target=\"_blank\" rel=\"noopener\">https://iranintl.com/202611222798</a>",
+      "plain_text": "خبرگزاری هرانا، یک‌شنبه اول آذر گزارش داد که محمد شرقی، از کارکنان حفاظت فرودگاه مهرآباد تهران و از بازداشت‌شدگان مرتبط با اعتراضات دی‌ماه ۱۴۰۴، از سوی شعبه ۲۳ دادگاه انقلاب تهران به اعدام محکوم شده است.\n\nهرانا افزود که شرقی به حکم صادرشده اعتراض کرده و پرونده او اکنون در شعبه ۹ دیوان عالی کشور در حال بررسی است.\nمحمد شرقی ۲۷ اسفند ۱۴۰۴ از سوی نیروهای امنیتی بازداشت شد و در حال حاضر در زندان قزلحصار کرج نگهداری می‌شود.\nhttps://iranintl.com/202611222798",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/IranintlTV/368181",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/nKig9vrg3bK4fC-xET-cyZClUCEBvnX4TaKAWseAlkTEDtRaKHlk2TegMB0zz0jeZz59JVy5Tml0-SaGDZQhX_YcbG6ngOQ4D4S4AEBw_usmvrtfpT2KWSHhN_1j6DJ_IDlgsltzZ3rq3j9lMedn_I04LHtTK_3gtLhWoC62t7GDJ7iA1E67pHkNWmtz67vIfXek958b-CohQm8E4Pd17iOT_2NmHtfyE2o4H-qsR1qOGqmjVeXGlqMyphLqxuISGaegmcvAPV2jPJAyDDG3Il0SSxnqke6b9Nam56I9ck1EnrmsWU9iZ0qs6DjOsTOTeXSxfbbUIG5HSeELFx4l5w.jpg",
+          "thumbnail_path": "channels/iranintltv/media/63a93090d8ffbbd6abd7bc4a.jpg",
+          "thumbnail_sha256": "714f62d0d8b8a8ebedf8b1ed565b2e8c7c440bff39c4143942f3b89f1ce4f1fc",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [],
+      "views_label": "45",
+      "posted_at": "2026-11-22T15:30:55+00:00",
+      "edited": false,
+      "permalink": "https://t.me/IranintlTV/368181",
+      "reply": null
+    },
+    {
       "id": "IranintlTV/368180",
       "author_name": "Iran International ایران اینترنشنال",
       "author_photo_url": "https://cdn4.telesco.pe/file/hmcdvKPN2wZ0B2Xy4oBeXJAJy_2YSvSWi0OClIM_fMKiPXngn0yjxCj2rmquw0lywcZhpVCNCSYFCAwqpQ2ZG6DcEX23ttQQJUtU74iDrLAAbmP0-HuToilr5a3tfB1dHe5R_n14THc-ipxxCfxkhJtbzc0D1CeiPfWQhvnNZmzu0gb3iqPPDetzA3o8itYF5ZTpFJkQtBo5y2X21vYsIFTzmBcb4gvBxFFjNbQwsbJkuRJj1v8wW0CQ9RFY0HKbjlNnUYcA5xElWiKjGd5KwOS_PO7NsZNLYFjgb907In_06hrxB14mLbIu-LSPaxohYWXFws9LIBIvUg5l6WCzIA.jpg",
@@ -21,7 +77,7 @@
       "plain_text": "🎧نسخه صوتی چرتکه: گرانی به اسم صرفه‌جویی | نتایج کمپین بنزین\n@iranintlTV",
       "media": [],
       "reactions": [],
-      "views_label": "7.38K",
+      "views_label": "9.54K",
       "posted_at": "2026-11-22T15:15:37+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368180",
@@ -49,7 +105,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "9.52K",
+      "views_label": "13.7K",
       "posted_at": "2026-11-22T15:11:26+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368179",
@@ -77,7 +133,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "13.7K",
+      "views_label": "16.8K",
       "posted_at": "2026-11-22T15:02:38+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368178",
@@ -93,7 +149,7 @@
       "plain_text": "🗣روایت شما از موج تازه قطعی برق در کشور- یکشنبه یکم آذرماه\n\n🔹از مشهد: امروز برق قطع شد و بچه‌ها رفتن سر کلاس تاریک. معلم دخترم الان پیام داده که اگه چراغ شارژی دارید، بدید بچه‌ها همراه خودشون بیارن. حتماً گاز هم از چند روز دیگه قطع می‌کنن. کاش زودتر از دست این حکومت خلاص بشیم.\n\n🔹از ورامین: امروز یکم آذرماه، دو مرحله دو ساعتی برق قطع شد. مرحله اول ساعت ۷ تا ۹ صبح رفتیم بالای قله و مرحله دوم ساعت ۱۱ تا ۱۳ رفتیم روی قله. دیگه نفسمون برید!\n\n🔹از گنبد کاووس: امروز ساعت ۱۳ تا ۱۵ برق منطقه بهار شهدا قطع شد. تابستون و زمستون قطعی برق داریم، اون‌وقت می‌گن ابرقدرت هستیم. خنده‌داره.\n\n🔹در خونه کاپشن بپوشید، تابستون لخت بشید، با بی‌برقی بسازید، نون کوپنی بخرید و بنزین سوپر بزنید. پس شما چه غلطی می‌کنید؟ مردم مالیات بدن، تورم بکشن و از شکم زن و بچه‌شون بزنن تا شما منابع ایران رو غارت کنید؟ چرا برق ۸۷۶۰ امامزاده رو قطع نمی‌کنید؟\n\n🔹از لرستان: آقای پزشکیان، به‌جای پوشیدن کاپشن و روشن نکردن چراغ و گرمایش که دردی از مردم دوا نمی‌کنه، به فکر ساخت نیروگاه یا راه‌اندازی واحدهای آسیب‌دیده باش. آخه این چه وضعشه؟ مردم تا کی باید تاوان دزدی و ندانم‌کاری شما رو بدن؟ به عمل کار برآید، به سخندانی نیست.\n\n🔹جمهوری اسلامی گفته بود شما رو به قله می‌رسونیم و فکر می‌کردیم دروغه، اما درست می‌گفتن. قله یعنی جایی که نه آب داره، نه گاز، نه برق و نه اینترنت.\n\n🔹این آب و برق رو کجا دارید مصرف می‌کنید که مردم باید تاوانش رو بدن؟\n\n🔹جمهوری اسلامی عنوان می‌کنه قطعی برق به‌خاطر کمبود نیروگاه‌ها و از پیامدهای جنگه، اما شاید بهتر باشه بگن به‌خاطر فروش منابع انرژی ایران به کشورهای همسایه است.\n\n🔹هوا که نیست نفس بکشیم، گاز و برق هم که قراره قطع بشه. نون خالی سفره‌هامون رو هم که دارید سهمیه‌بندی می‌کنید. شما حکومت هستید یا مأمور عذاب جهنم؟\n\n🔹چرا کسی به آب اشاره نمی‌کنه؟ می‌گن قطعی گاز و برق داریم، اما وقتی برق نباشه، آب هم قطعاً نیست. حالا بماند که اکثر وقت‌ها با قطعی برق، اینترنت هم نداریم. دیگه چی مونده آخه که بخوایم داشته باشیم ما؟",
       "media": [],
       "reactions": [],
-      "views_label": "20K",
+      "views_label": "22.1K",
       "posted_at": "2026-11-22T14:49:01+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368177",
@@ -121,7 +177,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "16.9K",
+      "views_label": "19K",
       "posted_at": "2026-11-22T14:48:48+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368176",
@@ -149,7 +205,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "18.9K",
+      "views_label": "20.1K",
       "posted_at": "2026-11-22T14:45:55+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368175",
@@ -177,7 +233,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "24.2K",
+      "views_label": "25.3K",
       "posted_at": "2026-11-22T14:29:48+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368174",
@@ -205,7 +261,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "32.6K",
+      "views_label": "33.7K",
       "posted_at": "2026-11-22T14:07:03+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368173",
@@ -233,7 +289,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "31.6K",
+      "views_label": "32.7K",
       "posted_at": "2026-11-22T14:04:05+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368172",
@@ -249,7 +305,7 @@
       "plain_text": "🗣روایت شما: وضعیت معیشت در سایه بحران اقتصادی و تورم - یکشنبه یکم آذر\n\n🔹از تهران: ۱۳ ساله راننده تاکسی در تهران هستم. ماشینم فرسوده شده، تاکسیرانی نه تعویضش می‌کنه و نه کمک می‌کنه درستش کنم. یه ساله برای تعویض ثبت‌نام کردم و ماشین رو خوابوندم. بیکار شدم و نمی‌تونم درستش کنم.\n\n🔹از شیراز: شرکت توسعه منابع، آب و انرژی، مجری سد نرگسی، از اسفند پارسال تاکنون حقوق معوقه کارکنان رو پرداخت نکرده. یعنی ۹ ماهه حقوق ندادن و از پاسخگویی طفره می‌رن.\n\n🔹امشب رفتم بنزین بزنم، گفتن کارت آزاد نداریم و فقط کارت سوخت. موتورم هوندا مدل ۹۳ هست و به‌خاطر سنش، کارت سوخت بهم نمی‌دن و پول خرید موتور جدید هم ندارم. حالا منی که با موتور کار می‌کنم، چطور باید امرار معاش کنم؟ یعنی نه کارت سوخت، نه بنزین، نه کار؟\n\n🔹شرکت سایپا فقط اسمش خوبه و بزرگه، ولی دریغ از رسیدگی درست. چند ماهه که ارزاق ماهیانه ندادن، بن‌کارت‌ها عقب افتاده و برای یه مرخصی باید به هزار نفر التماس کنی و بگی چیکار داری که نمیای.\n\n🔹از تهران: من در کمیته امداد امام خمینی به‌صورت قراردادی مشغول هستم و ماهیانه ۲۵ میلیون تومان حقوق می‌دن. اعتراض هم می‌کنی، می‌گن همینه، اگه جای بهتر سراغ داری، برو. نمی‌دونم به کی یا کجا باید بگیم ۲۵ میلیون تومان برای ۲۰ سال سابقه، حقوق نیست.\n\n🔹از کرمانشاه: من الان باید مهره‌های گردنم رو عمل کنم و دکتر گفته ۳۰۰ میلیون تومان هزینه داره. با حقوق ۲۴ میلیون تومانی اصلاً نمی‌تونم و باید فقط درد بکشم.\n\n🔹از ارومیه: آقای نماینده که می‌گی هر میانجی هم که بیاد، ما غنی‌سازی رو کنار نمی‌ذاریم، آیا تو که حقوق نجومی داری، اصلاً از زندگی مردم عادی خبر داری؟ چرا یه رفراندوم آزاد نمی‌ذارید تا مردم نظرشون رو بگن؟ چرا نذاشتید سفره‌ای برای مردم باقی بمونه؟\n\n🔹از ماهدشت: می‌خواستم بگم این چند نفری که به‌خاطر یه کیلو برنج و چایی می‌رن پرچم می‌چرخونن، چجوری وجدان‌درد نمی‌گیرن بابت این همه فلاکت و بدبختی که آخوندها بهمون دادن؟",
       "media": [],
       "reactions": [],
-      "views_label": "29.5K",
+      "views_label": "30.6K",
       "posted_at": "2026-11-22T14:03:28+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368171",
@@ -277,7 +333,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "25.4K",
+      "views_label": "26.5K",
       "posted_at": "2026-11-22T14:02:12+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368170",
@@ -305,7 +361,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "25.4K",
+      "views_label": "26.5K",
       "posted_at": "2026-11-22T14:00:39+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368169",
@@ -361,7 +417,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "31.7K",
+      "views_label": "32.8K",
       "posted_at": "2026-11-22T13:43:55+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368167",
@@ -389,7 +445,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "32.9K",
+      "views_label": "34K",
       "posted_at": "2026-11-22T13:34:34+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368166",
@@ -405,7 +461,7 @@
       "plain_text": "🎧نسخه صوتی اخبار نیمروزی | یکشنبه ۱ آذر\n@iranintlTV",
       "media": [],
       "reactions": [],
-      "views_label": "34.8K",
+      "views_label": "35.9K",
       "posted_at": "2026-11-22T13:27:32+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368165",
@@ -433,7 +489,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "37K",
+      "views_label": "38K",
       "posted_at": "2026-11-22T13:21:39+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368164",
@@ -461,7 +517,7 @@
         }
       ],
       "reactions": [],
-      "views_label": "36.9K",
+      "views_label": "37K",
       "posted_at": "2026-11-22T13:18:05+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368163",
@@ -2657,62 +2713,6 @@
       "posted_at": "2026-11-21T22:05:14+00:00",
       "edited": false,
       "permalink": "https://t.me/IranintlTV/368082",
-      "reply": null
-    },
-    {
-      "id": "IranintlTV/368081",
-      "author_name": "Iran International ایران اینترنشنال",
-      "author_photo_url": "https://cdn4.telesco.pe/file/hmcdvKPN2wZ0B2Xy4oBeXJAJy_2YSvSWi0OClIM_fMKiPXngn0yjxCj2rmquw0lywcZhpVCNCSYFCAwqpQ2ZG6DcEX23ttQQJUtU74iDrLAAbmP0-HuToilr5a3tfB1dHe5R_n14THc-ipxxCfxkhJtbzc0D1CeiPfWQhvnNZmzu0gb3iqPPDetzA3o8itYF5ZTpFJkQtBo5y2X21vYsIFTzmBcb4gvBxFFjNbQwsbJkuRJj1v8wW0CQ9RFY0HKbjlNnUYcA5xElWiKjGd5KwOS_PO7NsZNLYFjgb907In_06hrxB14mLbIu-LSPaxohYWXFws9LIBIvUg5l6WCzIA.jpg",
-      "author_photo_path": "channels/iranintltv/media/c846e8cba43b3199934df50c.jpg",
-      "author_photo_sha256": "dc7fffe671062b14e24dddfeb10909af3a74558347168a9753a3147064742f05",
-      "body_html": "سرخط خبرهای یک‌شنبه ۱ آذر<br><a href=\"https://t.me/iranintltv\" target=\"_blank\">@iranintltv</a>",
-      "plain_text": "سرخط خبرهای یک‌شنبه ۱ آذر\n@iranintltv",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/IranintlTV/368081",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/Smu0CtzxOAyNa-TWXT6HEwXk4lK628-no1fEqMM54EPZPOHV0bendM9Befj0n_GU5ChLJKekKQnuSYYUSeAF7QMvEQ3tBJarL1wMQjc5vzZdR7bE-RIfjE6xSKeDs7aHN5Dcw9ZNrmrG6XgXK4iVl5tiE2Z1OlgfMDCdDcUHrGY6w9hFNDSss8aDCqSOwmoSwVDjwgFhHu6cU3Go1mf-PGCHpxoPZqM-Df5rKh85I5xfPOeCIpev6y_55PsS8ZpgsDM1-4o-wlW5-5fUwhGCdgrMc8Bvj-CQ1-gEe_O_t_4cB_X6xjqBWVnBO0bPaYlJJHpcTfcVhHp-wk9i7aC1IQ",
-          "thumbnail_path": "channels/iranintltv/media/99c33c59ac2263a813e8f48c.jpg",
-          "thumbnail_sha256": "1a0144e93f46222fc12f0d42f77ce6980635dd85783671fda0b29fc56ce62a8c",
-          "duration_label": "1:27",
-          "aspect_ratio": 1.7750000000000026
-        }
-      ],
-      "reactions": [],
-      "views_label": "31K",
-      "posted_at": "2026-11-21T21:43:46+00:00",
-      "edited": false,
-      "permalink": "https://t.me/IranintlTV/368081",
-      "reply": null
-    },
-    {
-      "id": "IranintlTV/368080",
-      "author_name": "Iran International ایران اینترنشنال",
-      "author_photo_url": "https://cdn4.telesco.pe/file/hmcdvKPN2wZ0B2Xy4oBeXJAJy_2YSvSWi0OClIM_fMKiPXngn0yjxCj2rmquw0lywcZhpVCNCSYFCAwqpQ2ZG6DcEX23ttQQJUtU74iDrLAAbmP0-HuToilr5a3tfB1dHe5R_n14THc-ipxxCfxkhJtbzc0D1CeiPfWQhvnNZmzu0gb3iqPPDetzA3o8itYF5ZTpFJkQtBo5y2X21vYsIFTzmBcb4gvBxFFjNbQwsbJkuRJj1v8wW0CQ9RFY0HKbjlNnUYcA5xElWiKjGd5KwOS_PO7NsZNLYFjgb907In_06hrxB14mLbIu-LSPaxohYWXFws9LIBIvUg5l6WCzIA.jpg",
-      "author_photo_path": "channels/iranintltv/media/c846e8cba43b3199934df50c.jpg",
-      "author_photo_sha256": "dc7fffe671062b14e24dddfeb10909af3a74558347168a9753a3147064742f05",
-      "body_html": "علیرضا نامور حقیقی، تحلیلگر سیاسی با اشاره به میانجی‌گری قطر گفت با وجود تنش میان تهران و واشینگتن، احتمال دستیابی به توافقی موقت وجود دارد.<br><br>به گفته او، عبور نفتکش‌های ایرانی می‌تواند نشانه‌ای از تلاش برای اعتمادسازی باشد و تهران نیز در مقابل ممکن است اقدامات خود را در تنگه هرمز کاهش دهد. <br><a href=\"https://t.me/iranintltv\" target=\"_blank\">@iranintltv</a>",
-      "plain_text": "علیرضا نامور حقیقی، تحلیلگر سیاسی با اشاره به میانجی‌گری قطر گفت با وجود تنش میان تهران و واشینگتن، احتمال دستیابی به توافقی موقت وجود دارد.\n\nبه گفته او، عبور نفتکش‌های ایرانی می‌تواند نشانه‌ای از تلاش برای اعتمادسازی باشد و تهران نیز در مقابل ممکن است اقدامات خود را در تنگه هرمز کاهش دهد.\n@iranintltv",
-      "media": [
-        {
-          "kind": "video",
-          "asset_url": "https://t.me/IranintlTV/368080",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/veW1DL77A8o6_tQQesOZ98Zlfae824AjXvrl-Axh5c0Vp_IN-O50i36is-u57CdqboHd9p1zuLt-KwZI9-QYO2g5H7ddY8b0B0hHNMqHXxSrIWWTa5jzidhhtody0BmVmi7YE9NfrDLdVRC9snYGAUtJJ9iQPVlqmFcN5YMFX-9fxxZKfjKHrlL0gLaNsjDKqwj9Bl4xBNoh2HOT_CYThiqhFbeTCpEqLwV3HaHyi18LodWOd6UwEc7tFJ5SoUK3JSBK2AVuLohi5s6pO7zARbgcafIKPO1HGztfOC1I7R8XCiQPyPnceqjAD3SsQgq8YFstafvu5OgzM54DuhylgA",
-          "thumbnail_path": "channels/iranintltv/media/57da8a687e0a7024150ab66e.jpg",
-          "thumbnail_sha256": "4f47ac19af855606612e488288a6e63e15be3f51c7a0d033a0afee86e92349f1",
-          "duration_label": "7:48",
-          "aspect_ratio": 1.7750000000000026
-        }
-      ],
-      "reactions": [],
-      "views_label": "31.9K",
-      "posted_at": "2026-11-21T21:41:04+00:00",
-      "edited": false,
-      "permalink": "https://t.me/IranintlTV/368080",
       "reply": null
     }
   ]
