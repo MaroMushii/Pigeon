@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-23T05:02:10.467Z",
+  "fetched_at": "2026-11-23T05:08:13.378Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,39 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2312",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/c4J9fvP66aABDqrh63wW1gCVI44LA6kayUFvhFxgssKVFenpbid0SYRPLFVLSrMU3Jr5_OfapamAxmtWermxC48msu3yQtE7iB_4r8I8zCeFgMMsoYX02jaWQEP7_0QkX-tYzmmyi1gOjU58AaL_WlByJcXhAlaF9znw-xnWBjJz_07emuGIYGNWUrwEqV_bbyCyvEuXKUlVczkiAthyBNVvIJT-qpA2sECt50zmqov53q_HYrrsNMANUWo0Mpnj38Q17H-_BUFvm9JbAo3Env3UMgZa1g4D-bEpDV7MXOC68y-W4lqTnuUOHSZ8kzYao9hpVLpdYUL7fLLthUfJig.jpg",
+      "author_photo_path": "channels/whitedns/media/60227adc78f17d1fd5cd409f.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "آموزش سادهٔ MASQUE در <b>whitevpn</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> <a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/tag/v1.8.0\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود اندروید 1.8.0</a> | <a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/tag/v1.0.25\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود دسکتاپ 1.0.25</a><br><blockquote expandable=\"\"><b>۱. کانفیگ را بسازید</b><br>سایت را باز کنید، روی <b>Generate new key</b> بزنید و منتظر پیام <b>Key loaded</b> بمانید. در بخش <b>Client</b>، تب <b>Android</b> یا <b>Windows</b> را باز کنید و <b>Clash</b> را انتخاب کنید. برای امتحان اول، <b>H2</b>، تعداد <b>1</b>، قوانین <b>Iran</b>، آدرس <code>162.159.198.2</code> و پورت <code>443</code> را بگذارید. بقیهٔ گزینه‌ها روی پیش‌فرض بمانند. با <b>Download</b> فایل YAML را بگیرید یا با <b>Copy</b> متن کامل کانفیگ را کپی کنید. <a href=\"https://darknessshade.github.io/Masque-Generator/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">باز کردن MASQUE Generator</a><br><b>۲. در اندروید وارد کنید</b><br>از <b>پروفایل‌ها ← افزودن</b> وارد شوید. روی <b>وارد کردن فایل</b> بزنید و فایل YAML را از دانلودها انتخاب کنید. اگر متن را کپی کرده‌اید، <b>از کلیپ‌بورد</b> را بزنید. اگر نام خالی است، یک اسم مثل <code>WARP MASQUE</code> بنویسید و <b>افزودن</b> را بزنید. روی کارت پروفایل جدید بزنید تا انتخاب شود. در تب <b>وی‌پی‌ان</b>، از ردیف <b>اتصال</b> گزینهٔ <code>MASQUE Nav</code> را انتخاب کنید و دکمهٔ <b>اتصال</b> را بزنید. اگر گوشی اجازهٔ VPN خواست، تأیید کنید.<br><b>۳. در دسکتاپ وارد کنید</b><br>از نوار کناری وارد <b>اشتراک‌ها</b> شوید و <b>وارد کردن فایل</b> یا <b>از کلیپ‌بورد</b> را بزنید. کانفیگ مستقیم به فهرست اضافه می‌شود. اگر وی‌پی‌ان وصل است، ابتدا قطع کنید. روی تیک کنار کانفیگ جدید بزنید تا <b>در حال استفاده</b> شود. سپس در صفحهٔ <b>وی‌پی‌ان</b>، روش <b>خودکار</b> را انتخاب کنید و <b>اتصال</b> را بزنید.<br><b>۴. اتصال را بررسی کنید</b><br>صفحهٔ تست را بعد از اتصال باز کنید. اگر <code>warp=on</code> دیدید، همان درخواست از WARP عبور کرده است. <a href=\"https://cloudflare.com/cdn-cgi/trace\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">صفحهٔ تست Cloudflare</a></blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> فایل و متن کانفیگ حاوی کلید خصوصی‌اند. آن‌ها را در گروه یا کانال عمومی منتشر نکنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> <a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8694.png')\"><b>🆔</b></i> <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "آموزش سادهٔ MASQUE در whitevpn 🔥🔥🔥\n\n⬇️ دانلود اندروید 1.8.0 | دانلود دسکتاپ 1.0.25\n۱. کانفیگ را بسازید\nسایت را باز کنید، روی Generate new key بزنید و منتظر پیام Key loaded بمانید. در بخش Client، تب Android یا Windows را باز کنید و Clash را انتخاب کنید. برای امتحان اول، H2، تعداد 1، قوانین Iran، آدرس 162.159.198.2 و پورت 443 را بگذارید. بقیهٔ گزینه‌ها روی پیش‌فرض بمانند. با Download فایل YAML را بگیرید یا با Copy متن کامل کانفیگ را کپی کنید. باز کردن MASQUE Generator\n۲. در اندروید وارد کنید\nاز پروفایل‌ها ← افزودن وارد شوید. روی وارد کردن فایل بزنید و فایل YAML را از دانلودها انتخاب کنید. اگر متن را کپی کرده‌اید، از کلیپ‌بورد را بزنید. اگر نام خالی است، یک اسم مثل WARP MASQUE بنویسید و افزودن را بزنید. روی کارت پروفایل جدید بزنید تا انتخاب شود. در تب وی‌پی‌ان، از ردیف اتصال گزینهٔ MASQUE Nav را انتخاب کنید و دکمهٔ اتصال را بزنید. اگر گوشی اجازهٔ VPN خواست، تأیید کنید.\n۳. در دسکتاپ وارد کنید\nاز نوار کناری وارد اشتراک‌ها شوید و وارد کردن فایل یا از کلیپ‌بورد را بزنید. کانفیگ مستقیم به فهرست اضافه می‌شود. اگر وی‌پی‌ان وصل است، ابتدا قطع کنید. روی تیک کنار کانفیگ جدید بزنید تا در حال استفاده شود. سپس در صفحهٔ وی‌پی‌ان، روش خودکار را انتخاب کنید و اتصال را بزنید.\n۴. اتصال را بررسی کنید\nصفحهٔ تست را بعد از اتصال باز کنید. اگر warp=on دیدید، همان درخواست از WARP عبور کرده است. صفحهٔ تست Cloudflare\n\n🔐 فایل و متن کانفیگ حاوی کلید خصوصی‌اند. آن‌ها را در گروه یا کانال عمومی منتشر نکنید.\n🌐 https://whitedns.online\n🆔 @WhiteDNS",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/whitedns/2312",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/bktsJnscwFtz7UnGDEEKrdTrqxz-gdRGNFo6AJiwkiOPrn6e2qURhXNa02ui4zXBSgWVt2BZr_O7WEwI1SC2UaysXKChCAenmXkBpf_O2M7wWzPbyqyp_vwDO-HeR39HI1N8cNTGwt3EVbiXRFIC4XgxpCmnu6wdVQyRCi53C8y9eb6KIrkTuE0img7AGApfW6ob-nLorBVLIq8N7Nx4mdqcCfRaCRa29zSJSPeJJK5k_m-agLoCbBVS4nra_Vwk8UUzlom_jJFUuMaUZDoUSPVdyN9JkgVpt9h7r10NDArmX3exnMeGNvTbagloeJdv3TamhOgMbVUpSPi5HlLeug",
+          "thumbnail_path": "channels/whitedns/media/16b5e48064c0f560d315852f.jpg",
+          "thumbnail_sha256": "0ebb93dd6dd5184156a7ba3146e8c0d6466387e8205608a57e6f1226a88d588d",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "1"
+        }
+      ],
+      "views_label": "165",
+      "posted_at": "2026-11-23T05:06:29+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2312",
+      "reply": null
+    },
     {
       "id": "whitedns/2311",
       "author_name": "White DNS",
@@ -35,14 +68,14 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "8"
+          "count": "12"
         },
         {
           "emoji": "🔥",
-          "count": "1"
+          "count": "2"
         }
       ],
-      "views_label": "816",
+      "views_label": "1.08K",
       "posted_at": "2026-11-23T04:46:29+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2311",
@@ -173,7 +206,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.2K",
+      "views_label": "11.3K",
       "posted_at": "2026-11-21T18:03:05+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2309",
@@ -203,7 +236,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "226"
+          "count": "227"
         },
         {
           "emoji": "🙏",
@@ -513,7 +546,7 @@
       "reactions": [
         {
           "emoji": "❤",
-          "count": "92"
+          "count": "93"
         },
         {
           "emoji": "👍",
@@ -548,7 +581,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.6K",
+      "views_label": "12.7K",
       "posted_at": "2026-11-21T01:57:07+00:00",
       "edited": true,
       "permalink": "https://t.me/whitedns/2302",
@@ -1077,7 +1110,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.52K",
+      "views_label": "9.56K",
       "posted_at": "2026-11-19T05:48:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2291",
@@ -1142,7 +1175,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.4K",
+      "views_label": "13.5K",
       "posted_at": "2026-11-19T02:50:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2290",
@@ -5840,47 +5873,6 @@
       "posted_at": "2026-10-27T17:08:46+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2183",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2182",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/WrmoEZphkbHeNdc0VHYWmzN9RK3ya1TFSz8UniHyN7i1LqlVXW5DUTte3Nwz_3PB36DHtYQt2OVULUGS7_zeosKihIpIeZvV2Hg-j2aaqMWIMtm2Lm-P77B9W_Gpa2VKnZdUiDYCMOJU6JwTG5Nt8sdPaVZoCRCVingNTV7pTwwJwveEaSA79u0xIDp6J8FEn1O9XrrSTxm8BCIJeQ7_jb4ghpMk0GUgsdn1shCNlwwgWL5TZMnWfk56l2yFpThPZx5eoxNiPpAVxkanmj-kfGV03ZdTsP_fXVPJkYMhCt0aC12BTknL2y3J7hJmkO4-RWRJUuuWWZP0RCaFER_nqA.jpg",
-      "author_photo_path": "channels/whitedns/media/2796b16c90c6acf98ba178f3.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "موقت : <tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5812032620636152069\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA4A9.png')\"><b>🤩</b></i></tg-emoji><br>یک تعدادی از دوستان اطلاع دادند که کلاینت whiteaesther اندروید براشون کار میکنه ولی نسخه دسکتاپ کار نمیکنه . حالا داریم روش کار میکنیم . سعی میکنیم در اولین فرصت مشکل را پیدا و رفع کنیم و منتشر کنیم . <br>تیم وایت",
-      "plain_text": "موقت : ⚠️🤩\nیک تعدادی از دوستان اطلاع دادند که کلاینت whiteaesther اندروید براشون کار میکنه ولی نسخه دسکتاپ کار نمیکنه . حالا داریم روش کار میکنیم . سعی میکنیم در اولین فرصت مشکل را پیدا و رفع کنیم و منتشر کنیم .\nتیم وایت",
-      "media": [],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "269"
-        },
-        {
-          "emoji": "👍",
-          "count": "32"
-        },
-        {
-          "emoji": "🙏",
-          "count": "13"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "11"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        }
-      ],
-      "views_label": "16K",
-      "posted_at": "2026-10-27T15:17:51+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2182",
       "reply": null
     }
   ]
