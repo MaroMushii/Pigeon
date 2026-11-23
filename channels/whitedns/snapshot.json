@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-23T09:37:14.640Z",
+  "fetched_at": "2026-11-23T09:43:24.034Z",
   "channel": {
     "username": "whitedns",
     "title": "White DNS",
@@ -11,6 +11,76 @@
     "subscriber_count": "111K"
   },
   "posts": [
+    {
+      "id": "whitedns/2314",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/c4J9fvP66aABDqrh63wW1gCVI44LA6kayUFvhFxgssKVFenpbid0SYRPLFVLSrMU3Jr5_OfapamAxmtWermxC48msu3yQtE7iB_4r8I8zCeFgMMsoYX02jaWQEP7_0QkX-tYzmmyi1gOjU58AaL_WlByJcXhAlaF9znw-xnWBjJz_07emuGIYGNWUrwEqV_bbyCyvEuXKUlVczkiAthyBNVvIJT-qpA2sECt50zmqov53q_HYrrsNMANUWo0Mpnj38Q17H-_BUFvm9JbAo3Env3UMgZa1g4D-bEpDV7MXOC68y-W4lqTnuUOHSZ8kzYao9hpVLpdYUL7fLLthUfJig.jpg",
+      "author_photo_path": "channels/whitedns/media/60227adc78f17d1fd5cd409f.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "آموزش سادهٔ MASQUE در <b>whitevpn</b> <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')\"><b>🔥</b></i><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> <a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود اندروید 1.8.1</a> | <a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دانلود دسکتاپ 1.0.25</a><br><blockquote expandable=\"\"><b>۱. کانفیگ را بسازید</b><br>سایت را باز کنید، روی <b>Generate new key</b> بزنید و منتظر پیام <b>Key loaded</b> بمانید. در بخش <b>Client</b>، تب <b>Android</b> یا <b>Windows</b> را باز کنید و <b>Clash</b> را انتخاب کنید. برای امتحان اول، <b>H2</b>، تعداد <b>1</b>، قوانین <b>Iran</b>، آدرس <code>162.159.198.2</code> و پورت <code>443</code> را بگذارید. بقیهٔ گزینه‌ها روی پیش‌فرض بمانند. با <b>Download</b> فایل YAML را بگیرید یا با <b>Copy</b> متن کامل کانفیگ را کپی کنید. <a href=\"https://darknessshade.github.io/Masque-Generator/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">باز کردن MASQUE Generator</a><br><b>۲. در اندروید وارد کنید</b><br>از <b>پروفایل‌ها ← افزودن</b> وارد شوید. روی <b>وارد کردن فایل</b> بزنید و فایل YAML را از دانلودها انتخاب کنید. اگر متن را کپی کرده‌اید، <b>از کلیپ‌بورد</b> را بزنید. اگر نام خالی است، یک اسم مثل <code>WARP MASQUE</code> بنویسید و <b>افزودن</b> را بزنید. روی کارت پروفایل جدید بزنید تا انتخاب شود. در تب <b>وی‌پی‌ان</b>، از ردیف <b>اتصال</b> گزینهٔ <code>MASQUE Nav</code> را انتخاب کنید و دکمهٔ <b>اتصال</b> را بزنید. اگر گوشی اجازهٔ VPN خواست، تأیید کنید.<br><b>۳. در دسکتاپ وارد کنید</b><br>از نوار کناری وارد <b>اشتراک‌ها</b> شوید و <b>وارد کردن فایل</b> یا <b>از کلیپ‌بورد</b> را بزنید. کانفیگ مستقیم به فهرست اضافه می‌شود. اگر وی‌پی‌ان وصل است، ابتدا قطع کنید. روی تیک کنار کانفیگ جدید بزنید تا <b>در حال استفاده</b> شود. سپس در صفحهٔ <b>وی‌پی‌ان</b>، روش <b>خودکار</b> را انتخاب کنید و <b>اتصال</b> را بزنید.<br><b>۴. اتصال را بررسی کنید</b><br>صفحهٔ تست را بعد از اتصال باز کنید. اگر <code>warp=on</code> دیدید، همان درخواست از WARP عبور کرده است. <a href=\"https://cloudflare.com/cdn-cgi/trace\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">صفحهٔ تست Cloudflare</a></blockquote><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9490.png')\"><b>🔐</b></i> فایل و متن کانفیگ حاوی کلید خصوصی‌اند. آن‌ها را در گروه یا کانال عمومی منتشر نکنید.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> <a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8694.png')\"><b>🆔</b></i> <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a>",
+      "plain_text": "آموزش سادهٔ MASQUE در whitevpn 🔥🔥🔥\n\n⬇️ دانلود اندروید 1.8.1 | دانلود دسکتاپ 1.0.25\n۱. کانفیگ را بسازید\nسایت را باز کنید، روی Generate new key بزنید و منتظر پیام Key loaded بمانید. در بخش Client، تب Android یا Windows را باز کنید و Clash را انتخاب کنید. برای امتحان اول، H2، تعداد 1، قوانین Iran، آدرس 162.159.198.2 و پورت 443 را بگذارید. بقیهٔ گزینه‌ها روی پیش‌فرض بمانند. با Download فایل YAML را بگیرید یا با Copy متن کامل کانفیگ را کپی کنید. باز کردن MASQUE Generator\n۲. در اندروید وارد کنید\nاز پروفایل‌ها ← افزودن وارد شوید. روی وارد کردن فایل بزنید و فایل YAML را از دانلودها انتخاب کنید. اگر متن را کپی کرده‌اید، از کلیپ‌بورد را بزنید. اگر نام خالی است، یک اسم مثل WARP MASQUE بنویسید و افزودن را بزنید. روی کارت پروفایل جدید بزنید تا انتخاب شود. در تب وی‌پی‌ان، از ردیف اتصال گزینهٔ MASQUE Nav را انتخاب کنید و دکمهٔ اتصال را بزنید. اگر گوشی اجازهٔ VPN خواست، تأیید کنید.\n۳. در دسکتاپ وارد کنید\nاز نوار کناری وارد اشتراک‌ها شوید و وارد کردن فایل یا از کلیپ‌بورد را بزنید. کانفیگ مستقیم به فهرست اضافه می‌شود. اگر وی‌پی‌ان وصل است، ابتدا قطع کنید. روی تیک کنار کانفیگ جدید بزنید تا در حال استفاده شود. سپس در صفحهٔ وی‌پی‌ان، روش خودکار را انتخاب کنید و اتصال را بزنید.\n۴. اتصال را بررسی کنید\nصفحهٔ تست را بعد از اتصال باز کنید. اگر warp=on دیدید، همان درخواست از WARP عبور کرده است. صفحهٔ تست Cloudflare\n\n🔐 فایل و متن کانفیگ حاوی کلید خصوصی‌اند. آن‌ها را در گروه یا کانال عمومی منتشر نکنید.\n🌐 https://whitedns.online\n🆔 @WhiteDNS",
+      "media": [
+        {
+          "kind": "video",
+          "asset_url": "https://t.me/whitedns/2314",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/jMhnPbLWVctXiYNP8KdVScTchtdkpwypsXd9b7UfNhG485544hdoQ-YsC3Nza5zOxXbVx7ia40ERRdZbV0livfppVuumtoA9WdU88YNxphdFfDC1_cvjLP6n8h_HQmFpgyluGV2297ctGg-rZo8EKIXp8tDV0t2bFwn0DfMYB69o0a42s-yL7E6_1eGG7IbcBvULNnH0bQo-2Ikl93q0HnJeFrLZ2eAvS7yqQGj9QPLyOnviSSD0MLpyyc-87GreupQohaf8YgGREE1Cn1q-Qea0haQJThcYs1Lf59Q7g6tPh-jRyeD_YkhJRl91P-IBPzGduU719w0X-NVl_WQYGA",
+          "thumbnail_path": "channels/whitedns/media/a030dcf3d2cf94bf6da0d7de.jpg",
+          "thumbnail_sha256": "0ebb93dd6dd5184156a7ba3146e8c0d6466387e8205608a57e6f1226a88d588d",
+          "duration_label": null,
+          "aspect_ratio": 0.7500000000000188
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "9"
+        },
+        {
+          "emoji": "🥰",
+          "count": "1"
+        }
+      ],
+      "views_label": "625",
+      "posted_at": "2026-11-23T09:37:23+00:00",
+      "edited": false,
+      "permalink": "https://t.me/whitedns/2314",
+      "reply": null
+    },
+    {
+      "id": "whitedns/2313",
+      "author_name": "White DNS",
+      "author_photo_url": "https://cdn5.telesco.pe/file/c4J9fvP66aABDqrh63wW1gCVI44LA6kayUFvhFxgssKVFenpbid0SYRPLFVLSrMU3Jr5_OfapamAxmtWermxC48msu3yQtE7iB_4r8I8zCeFgMMsoYX02jaWQEP7_0QkX-tYzmmyi1gOjU58AaL_WlByJcXhAlaF9znw-xnWBjJz_07emuGIYGNWUrwEqV_bbyCyvEuXKUlVczkiAthyBNVvIJT-qpA2sECt50zmqov53q_HYrrsNMANUWo0Mpnj38Q17H-_BUFvm9JbAo3Env3UMgZa1g4D-bEpDV7MXOC68y-W4lqTnuUOHSZ8kzYao9hpVLpdYUL7fLLthUfJig.jpg",
+      "author_photo_path": "channels/whitedns/media/60227adc78f17d1fd5cd409f.jpg",
+      "author_photo_sha256": "202500a0c44e49e04aeee3ac0b3ff58900ca9cd9b916fff991aa6a6250f41304",
+      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i> دو نسخهٔ پایدار جدید WhiteVPN منتشر شدند<br><br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')\"><b>📱</b></i> اندروید 1.8.1</b><br>ورود کانفیگ از <b>فایل یا کلیپ‌بورد</b> در صفحهٔ پروفایل‌ها<br>ساخت و ویرایش WARP کلودفلر و اتصال دو نودی از اشتراک‌های مختلف<br>موتورهای اتصال جدید، ECH خودکار و هستهٔ Mihomo 1.19.34<br><a href=\"https://github.com/WhiteDNS/WhiteVPN/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> دانلود APK اندروید</a><br><br><br><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')\"><b>💻</b></i> دسکتاپ 1.0.25</b><br>ورود فایل یا <b>متن کامل کانفیگ از کلیپ‌بورد</b> در صفحهٔ اشتراک‌ها<br>WARP و Psiphon، به‌همراه Tor در بستهٔ ویندوز x64<br>اتصال دو نودی از اشتراک‌های مختلف و انتخاب خودکار نود در هر فهرست<br>ECH خودکار و ذخیره‌سازی محافظت‌شدهٔ اطلاعات خصوصی در ویندوز<br><a href=\"https://github.com/WhiteDNS/WhiteVPN-Desktop/releases/latest\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E2AC87.png')\"><b>⬇️</b></i> دانلود برای Windows، macOS و Linux</a><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i> <a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\">https://whitedns.online</a><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8694.png')\"><b>🆔</b></i> <a href=\"https://t.me/WhiteDNS\" target=\"_blank\">@WhiteDNS</a><br><br>----------<br><a href=\"?q=%23%D8%A2%D9%BE%D8%AF%DB%8C%D8%AA\">#آپدیت</a> <a href=\"?q=%23WhiteVPN\">#WhiteVPN</a><br><br><a href=\"https://www.youtube.com/watch?v=tm0ls3r4ppw\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">آموزش پایهٔ WhiteVPN دسکتاپ (نسخه‌های قبلی)</a><br><a href=\"https://github.com/WhiteDNS/WhiteVPN/blob/main/README.md\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">راهنمای رسمی WhiteVPN اندروید (انگلیسی)</a>",
+      "plain_text": "🚀 دو نسخهٔ پایدار جدید WhiteVPN منتشر شدند\n\n\n📱 اندروید 1.8.1\nورود کانفیگ از فایل یا کلیپ‌بورد در صفحهٔ پروفایل‌ها\nساخت و ویرایش WARP کلودفلر و اتصال دو نودی از اشتراک‌های مختلف\nموتورهای اتصال جدید، ECH خودکار و هستهٔ Mihomo 1.19.34\n⬇️ دانلود APK اندروید\n\n\n💻 دسکتاپ 1.0.25\nورود فایل یا متن کامل کانفیگ از کلیپ‌بورد در صفحهٔ اشتراک‌ها\nWARP و Psiphon، به‌همراه Tor در بستهٔ ویندوز x64\nاتصال دو نودی از اشتراک‌های مختلف و انتخاب خودکار نود در هر فهرست\nECH خودکار و ذخیره‌سازی محافظت‌شدهٔ اطلاعات خصوصی در ویندوز\n⬇️ دانلود برای Windows، macOS و Linux\n\n🌐 https://whitedns.online\n🆔 @WhiteDNS\n\n----------\n#آپدیت #WhiteVPN\n\nآموزش پایهٔ WhiteVPN دسکتاپ (نسخه‌های قبلی)\nراهنمای رسمی WhiteVPN اندروید (انگلیسی)",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/whitedns/2313",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn5.telesco.pe/file/CrrYW6eGssaT0pbVYnWUOUJfdYGy_-lVIa7X9EzfnSyxoEEF5aGfkUTKIx44GWtIfNIQLKG3_xeZDhPZm7eJd6SzUC_noZi_fLUr7N7QTOgwM9AGvvR9pmhqUus70G1sY1Mgry9gsaEJ0GoEMUsRnURFaf8DxWDbQMBhOZ0hHwclQXsQDbYLVKA4smvuNSSEhK89xJBvNXp2N69gYjiDdafnSDSaeS4HOaWd9a6hzwlLm3cCHZnBgeeWKAQ4OGXYXjYEvA9lICoJhrxILj4KIQe_5V4Jf_YrxeOWTB4plUvIdqbcxnVocMCLGTk-lp21PXCIrIcqhdh4dkdaaI8uew.jpg",
+          "thumbnail_path": "channels/whitedns/media/63f3991c5dc320a307bd600a.jpg",
+          "thumbnail_sha256": "54de9a2036c36aec61965743aa969c35d238a4c688a5541c2a75dad8c35d494c",
+          "duration_label": null,
+          "aspect_ratio": 0.8
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": "7"
+        }
+      ],
+      "views_label": "602",
+      "posted_at": "2026-11-23T09:37:14+00:00",
+      "edited": true,
+      "permalink": "https://t.me/whitedns/2313",
+      "reply": null
+    },
     {
       "id": "whitedns/2312",
       "author_name": "White DNS",
@@ -230,7 +300,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.9K",
+      "views_label": "12K",
       "posted_at": "2026-11-21T18:03:05+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2309",
@@ -299,7 +369,7 @@
           "count": "1"
         }
       ],
-      "views_label": "12.5K",
+      "views_label": "12.6K",
       "posted_at": "2026-11-21T14:40:08+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2307",
@@ -372,8 +442,8 @@
           "asset_url": "https://t.me/whitedns/2305",
           "asset_path": null,
           "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/vfmaA2trBIs-HQj6PP9-b5LQezM6izrVeUnl3bEDXbY30aNq0PEuVG-dVRtN3wZV8l7KBAeZ8iSKiJH36LGDVvUWHonCdqzo28i9dEi3V_hm4JNRZclIqgi9R3bVSRjO7cMaK54EnxEMEnEx_3C1BtVAk3BgF_GsTjl55Im0WOZ2lGOsRr5Y1PxODu5zMCI6OhqaoG3M9BBCZmbh9D5aA69-wDT6H1nYKTVrvQ-6MJpWy754XJbk92a9HV021JlIMubpXz3Qf0czIREPO90UyGxWU9qJKmIPRW3KIturLivEDc8WY6eauOHAop87wi0HV0dr8PNcwk8d6znv3cmAKw",
-          "thumbnail_path": "channels/whitedns/media/3633c00d11c8fb043a6326e0.jpg",
+          "thumbnail_url": "https://cdn5.telesco.pe/file/HfjWo4F5eqJOwFtw3xJY5Egy8YHLLL4JeU_phbYzs2KwDSgOhm_LFnbS7SrSFRIOiClnhpbvsc07F1Qz6-qyonX8Vgg6mFCiIgFzhHDcqJfDmSntrttP1a654I0z_DvGDNRu7PPNs1M5CPYBLQRmPDHhjUeeRypRnCoZmvAkE-l1vWSto3SzHv4OW7tez5xmPjEMjs33x4gzsJOfDUm3pNPrQZMk_GxzoxvVWKDzQF8ynsGFaMi68HX8St0Cc8a0MKObBPgI-Sehc53MvZeUwo7nZbtx6hZcYtZz777VOzjDSC2pfsReHSg82WUYQRSTXGjR7Z3n1yInwwSOhWWCBQ",
+          "thumbnail_path": "channels/whitedns/media/3cb2153ac62db1f905f54c32.jpg",
           "thumbnail_sha256": "4397650d3d648a1bfa7414e3f2da4ae88dc20bf6a04b4cce4f88e7952816be3d",
           "duration_label": "0:26",
           "aspect_ratio": 0.7500000000000188
@@ -829,7 +899,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.6K",
+      "views_label": "11.7K",
       "posted_at": "2026-11-20T05:08:37+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2297",
@@ -947,7 +1017,7 @@
           "count": "1"
         }
       ],
-      "views_label": "11.4K",
+      "views_label": "11.5K",
       "posted_at": "2026-11-20T01:23:26+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2295",
@@ -1134,7 +1204,7 @@
           "count": "1"
         }
       ],
-      "views_label": "9.83K",
+      "views_label": "9.84K",
       "posted_at": "2026-11-19T05:48:23+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2291",
@@ -1199,7 +1269,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.9K",
+      "views_label": "14K",
       "posted_at": "2026-11-19T02:50:06+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2290",
@@ -1427,7 +1497,7 @@
           "count": "1"
         }
       ],
-      "views_label": "13.5K",
+      "views_label": "13.6K",
       "posted_at": "2026-11-18T06:36:14+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2285",
@@ -5755,148 +5825,6 @@
       "posted_at": "2026-10-28T06:28:02+00:00",
       "edited": false,
       "permalink": "https://t.me/whitedns/2185",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2184",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/B6sVSCYvU8iLAfivEMqTytJOke8dtR_G7VOopYBNbA0Gcg41iZfKi6mLmEiY6zr7vBOq1mrAx7g7nTCHgveTFdXzBaWZoaRlhpaEE7psQSNl0ZjpyL_j_Sc78SAF-z7WRgCN5nLoMu874wcc3wRRd_1eyZQBqDi_1DqvrM3JqUpwFflj-1I_y_xa_rp5ACDm_d5h2g5osi_cOdhf-QxRbQ3g5dt9Jkro1Or35HzvVsXyRNnoTD846sWkJ3bsrBHsBX9GcGLyLKtQrgJV7qCY5_eTfrPhQ9iYp2GfSQhd8DOwv9OTUIxQZfiPzObXiDeZmvIHTeL6Gtfygqw2ghJ6lg.jpg",
-      "author_photo_path": "channels/whitedns/media/73bcdff396fe78c3b3b2a114.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8C90.png')\"><b>🌐</b></i>ف<b>ید کانال تلگرام whitedns در وبسایت whitedns ؛</b> یک مسیر کمکی در زمان اختلالات<br><br>یکی از مشکلات همیشگی زمان اختلالات شدید شبکه، «حلقهٔ باطل دسترسی» است:<br>برای دریافت کانفیگ یا اطلاع از وضعیت شبکه به تلگرام نیاز دارید، اما خود تلگرام هم بدون اتصال بالا نمی‌آید.<br><br>برای اینکه در زمان مسدودی تلگرام یک راه دسترسی پشتیبان داشته باشید، بخش فید متنی کانال را روی وب‌سایت فعال کرده‌ایم:<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9497.png')\"><b>🔗</b></i> <a href=\"http://whitedns.online/feed\" target=\"_blank\" rel=\"noopener\">whitedns.online/feed</a><br><br>ویژگی‌ها و کاربرد این بخش:<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> دسترسی از طریق مرورگر: تا زمانی که دامنه و سرورهای وب‌سایت در دسترس باشند، پیام‌های کانال از طریق مرورگر معمولی قابل مشاهده‌اند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> ۵۰ پیام و نسخهٔ اخیر: به‌روزرسانی منظم هر ۶ ساعت از پیام‌های عمومی، نسخه‌های جدید ابزارها و هشدارهای شبکه.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> کپی آسان کانفیگ‌ها: کدهای Soar و Cotten در باکس‌های اختصاصی قرار گرفته‌اند تا با یک کلیک و بدون به‌هم‌ریختگی متنی کپی شوند.<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')\"><b>🔹</b></i> جست‌وجوی داخلی: امکان سرچ سریع در متن ۵۰ پیام اخیر برای پیدا کردن ابزار یا راهکار مورد نظر.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i> یادآوری واقع‌بینانه:<br>این بخش یک «مسیر کمکی بر بستر وب» است و در صورت مسدود شدن دامنه یا اعمال خاموشی سراسری اینترنت بین‌الملل، مانند سایر وب‌سایت‌های خارجی ممکن است با اختلال مواجه شود. پیشنهاد می‌کنیم آدرس فوق را در بوکمارک مرورگر خود ذخیره داشته باشید تا در مواقع لزوم در دسترس باشد.<br><br><a href=\"?q=%23%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87\">#اطلاعیه</a> <a href=\"?q=%23WhiteDNS\">#WhiteDNS</a> <a href=\"?q=%23%D8%A2%DB%8C%D9%86%D9%87_%D9%88%D8%A8\">#آینه_وب</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🌐فید کانال تلگرام whitedns در وبسایت whitedns ؛ یک مسیر کمکی در زمان اختلالات\n\nیکی از مشکلات همیشگی زمان اختلالات شدید شبکه، «حلقهٔ باطل دسترسی» است:\nبرای دریافت کانفیگ یا اطلاع از وضعیت شبکه به تلگرام نیاز دارید، اما خود تلگرام هم بدون اتصال بالا نمی‌آید.\n\nبرای اینکه در زمان مسدودی تلگرام یک راه دسترسی پشتیبان داشته باشید، بخش فید متنی کانال را روی وب‌سایت فعال کرده‌ایم:\n\n🔗 whitedns.online/feed\n\nویژگی‌ها و کاربرد این بخش:\n🔹 دسترسی از طریق مرورگر: تا زمانی که دامنه و سرورهای وب‌سایت در دسترس باشند، پیام‌های کانال از طریق مرورگر معمولی قابل مشاهده‌اند.\n🔹 ۵۰ پیام و نسخهٔ اخیر: به‌روزرسانی منظم هر ۶ ساعت از پیام‌های عمومی، نسخه‌های جدید ابزارها و هشدارهای شبکه.\n🔹 کپی آسان کانفیگ‌ها: کدهای Soar و Cotten در باکس‌های اختصاصی قرار گرفته‌اند تا با یک کلیک و بدون به‌هم‌ریختگی متنی کپی شوند.\n🔹 جست‌وجوی داخلی: امکان سرچ سریع در متن ۵۰ پیام اخیر برای پیدا کردن ابزار یا راهکار مورد نظر.\n\n⚠️ یادآوری واقع‌بینانه:\nاین بخش یک «مسیر کمکی بر بستر وب» است و در صورت مسدود شدن دامنه یا اعمال خاموشی سراسری اینترنت بین‌الملل، مانند سایر وب‌سایت‌های خارجی ممکن است با اختلال مواجه شود. پیشنهاد می‌کنیم آدرس فوق را در بوکمارک مرورگر خود ذخیره داشته باشید تا در مواقع لزوم در دسترس باشد.\n\n#اطلاعیه #WhiteDNS #آینه_وب\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/2184",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/jez6SrT5Hs00-b3aRzUOeo0-pOwN-l52T9oDYKWb9LVvXG7BJ86wPhPMOrjPaEPxD17JHM4KNHIU5dKmaeZXfSfcqSy3kcRZ3eXkzyDZmqjLnCJwYBJ9xLQthgUio_i8g3K8WsdFcHQ8Rcu5bbiRRVH0HNJMHAk9MJPWTgNQu3mZ0xc8CrYN7cTdatfF4iig5vynrOEUzofuXj88B6oTs3RLEg_coV-mhNqBmq6ogb4D0nD--Pyu2KhcYsuvViPCc6VFs03Ny2O_CB7pWnNWNAwK-rHR6SqKmTLfsXI9VssHl7Cu6XJOdTFomHE7y48OeVuZ9WQzpKYhFI5-nDlLDg.jpg",
-          "thumbnail_path": "channels/whitedns/media/d09aca6763e51d41cabf6875.jpg",
-          "thumbnail_sha256": "4bd6c8f7617b1bbf7b0d253309d54010143356c25c01497dc46c88512518a7a3",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👏",
-          "count": "160"
-        },
-        {
-          "emoji": "❤",
-          "count": "86"
-        },
-        {
-          "emoji": "👍",
-          "count": "9"
-        },
-        {
-          "emoji": "🔥",
-          "count": "6"
-        },
-        {
-          "emoji": "🕊",
-          "count": "4"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "2"
-        },
-        {
-          "emoji": "🥴",
-          "count": "2"
-        },
-        {
-          "emoji": "🥰",
-          "count": "1"
-        },
-        {
-          "emoji": "🙏",
-          "count": "1"
-        },
-        {
-          "emoji": "🫡",
-          "count": "1"
-        }
-      ],
-      "views_label": "15K",
-      "posted_at": "2026-10-28T04:21:05+00:00",
-      "edited": true,
-      "permalink": "https://t.me/whitedns/2184",
-      "reply": null
-    },
-    {
-      "id": "whitedns/2183",
-      "author_name": "White DNS",
-      "author_photo_url": "https://cdn4.telesco.pe/file/B6sVSCYvU8iLAfivEMqTytJOke8dtR_G7VOopYBNbA0Gcg41iZfKi6mLmEiY6zr7vBOq1mrAx7g7nTCHgveTFdXzBaWZoaRlhpaEE7psQSNl0ZjpyL_j_Sc78SAF-z7WRgCN5nLoMu874wcc3wRRd_1eyZQBqDi_1DqvrM3JqUpwFflj-1I_y_xa_rp5ACDm_d5h2g5osi_cOdhf-QxRbQ3g5dt9Jkro1Or35HzvVsXyRNnoTD846sWkJ3bsrBHsBX9GcGLyLKtQrgJV7qCY5_eTfrPhQ9iYp2GfSQhd8DOwv9OTUIxQZfiPzObXiDeZmvIHTeL6Gtfygqw2ghJ6lg.jpg",
-      "author_photo_path": "channels/whitedns/media/73bcdff396fe78c3b3b2a114.jpg",
-      "author_photo_sha256": "333c4e41d2bf79dd691d47900c56c348640a2318a91227017dc547fbda818224",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i>نسخهٔ آزمایشی <b>WhiteAesther Desktop 1.10.4</b><b><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji></b><b><br><br>اگر با اندروید وصل می‌شدید اما دسکتاپ روی همان شبکه وصل نمی‌شد، این نسخه برای برطرف‌کردن اختلاف‌های مسیر اتصال این دو آماده شده است.</b><br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> هستهٔ کامل Aether 2.4 همراه با BoringSSL 5.3<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> روش‌های بیشتر برای اتصال خودکار و تلاش مجدد<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> حفظ تنظیمات روش موفق به تفکیک شبکه<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> اسکن با تأیید ترافیک واقعی و تنظیمات پیشرفته‌تر TLS<br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C85.png')\"><b>✅</b></i> بهبود بازیابی اتصال و روش‌های جایگزین Tor و Psiphon<br>پروفایل‌ها و identityهای قبلی قابل استفاده‌اند. اگر مسیر Core executable را دستی تنظیم کرده‌اید، آن را خالی کنید تا هستهٔ همراه نسخهٔ جدید اجرا شود.<br>در ویندوز، برای پوشش کل سیستم، <b>Full tunnel</b> را با دسترسی Administrator فعال کنید.<br>این نسخه آزمایشی است؛ نتیجهٔ اتصال روی شبکه‌های مختلف را همراه با گزارش اتصال بفرستید.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93A5.png')\"><b>📥</b></i> <a href=\"https://github.com/WhiteDNS/WhiteAesther/releases/tag/v1.10.4\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">دریافت نسخهٔ ۱.۱۰.۴</a><br><a href=\"?q=%23WhiteAesther\">#WhiteAesther</a> <a href=\"?q=%23Aether\">#Aether</a> <a href=\"?q=%23Windows\">#Windows</a><br><a href=\"https://whitedns.online/\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\">وبسایت whitedns</a><br><a href=\"https://t.me/whitedns\" target=\"_blank\">@whitedns</a>",
-      "plain_text": "🚀نسخهٔ آزمایشی WhiteAesther Desktop 1.10.4⚠️\n\nاگر با اندروید وصل می‌شدید اما دسکتاپ روی همان شبکه وصل نمی‌شد، این نسخه برای برطرف‌کردن اختلاف‌های مسیر اتصال این دو آماده شده است.\n\n✅ هستهٔ کامل Aether 2.4 همراه با BoringSSL 5.3\n✅ روش‌های بیشتر برای اتصال خودکار و تلاش مجدد\n✅ حفظ تنظیمات روش موفق به تفکیک شبکه\n✅ اسکن با تأیید ترافیک واقعی و تنظیمات پیشرفته‌تر TLS\n✅ بهبود بازیابی اتصال و روش‌های جایگزین Tor و Psiphon\nپروفایل‌ها و identityهای قبلی قابل استفاده‌اند. اگر مسیر Core executable را دستی تنظیم کرده‌اید، آن را خالی کنید تا هستهٔ همراه نسخهٔ جدید اجرا شود.\nدر ویندوز، برای پوشش کل سیستم، Full tunnel را با دسترسی Administrator فعال کنید.\nاین نسخه آزمایشی است؛ نتیجهٔ اتصال روی شبکه‌های مختلف را همراه با گزارش اتصال بفرستید.\n\n📥 دریافت نسخهٔ ۱.۱۰.۴\n#WhiteAesther #Aether #Windows\nوبسایت whitedns\n@whitedns",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/whitedns/2183",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn5.telesco.pe/file/RHAl2TZb_0fBRTdJYkyzZrvI0Liwce8IpRuYrK2p6OlVXmVt87V2nwepN4RXQlPRoupEki1lwFV_eUaQ8NIua7f3PY95YIt7CzgsXtfMiFAdCX-9nGbjAuUcVbBoXDojBU9IaJgaqafzACEgxOlZL_Ien4WaQB0gaSeGpVJ9YDZgybiCcXCmb2mQ5Jjp1LVBMuMK-Uv4GFVgFxOHBdWC5GgKYIO33GT1SiOoO4hfuRWAl2_CoZJasKtxhCNZQ9-I67A0dL-NghluJjyfT3USThAjZhI89WWuuF7yonKEKxeM_0evQoleQdlvpUAi6cOVr-gJkYc-oStWKtLIMQV3xg.jpg",
-          "thumbnail_path": "channels/whitedns/media/8b370368bd928da27f9cf9a1.jpg",
-          "thumbnail_sha256": "b8607f27e0a3dabf3aa9ced2db0c0a87b6a9f5b0b3b8bc21b44af3732ebf8106",
-          "duration_label": null,
-          "aspect_ratio": 1
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "❤",
-          "count": "142"
-        },
-        {
-          "emoji": "❤‍🔥",
-          "count": "15"
-        },
-        {
-          "emoji": "👍",
-          "count": "12"
-        },
-        {
-          "emoji": "🔥",
-          "count": "3"
-        },
-        {
-          "emoji": "🙏",
-          "count": "3"
-        },
-        {
-          "emoji": "🕊",
-          "count": "2"
-        },
-        {
-          "emoji": "😍",
-          "count": "2"
-        },
-        {
-          "emoji": "🍓",
-          "count": "2"
-        },
-        {
-          "emoji": "👎",
-          "count": "1"
-        },
-        {
-          "emoji": "🤯",
-          "count": "1"
-        },
-        {
-          "emoji": "👀",
-          "count": "1"
-        }
-      ],
-      "views_label": "15.7K",
-      "posted_at": "2026-10-27T17:08:46+00:00",
-      "edited": false,
-      "permalink": "https://t.me/whitedns/2183",
       "reply": null
     }
   ]
