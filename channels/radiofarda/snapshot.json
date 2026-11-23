@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "fetched_at": "2026-11-23T12:12:05.243Z",
+  "fetched_at": "2026-11-23T12:17:07.527Z",
   "channel": {
     "username": "radiofarda",
     "title": "RadioFarda",
@@ -11,6 +11,55 @@
     "subscriber_count": "110K"
   },
   "posts": [
+    {
+      "id": "radiofarda/163317",
+      "author_name": "RadioFarda",
+      "author_photo_url": "https://cdn4.telesco.pe/file/bOCS9XMr2_c1BStYnuifRYwgQFNuW5llK_zIahvccIw30xsPsXNKbS2dVF4G3E-ZTY6UBn3ITGsFNQNCv6daBsEvyhCLWmQpRLZMN2KQZQT3CCfuU-2VvhrtzfEiCA4wOoiset8NZrLA6AAPDygkG5buXmVIv5XCIM7KaOBn-5EQvpLd_uSlsGvtZzWkKUvWEPT_WO6SrzPolL1wrX_jljgCCMh3t2Ep8Vfr_ZGWLiSgulye2lQ36ZVf87YNZjZTddV3Q-O_Ta40x3NEKV6reom9CwlevLEE4XHXcGU_4iIN0kEgot5R80qTiPCOO7RUVojc5Ns5BM_LylNgUfwtGA.jpg",
+      "author_photo_path": "channels/radiofarda/media/03a1db9335993554c91cb0b4.jpg",
+      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
+      "body_html": "",
+      "plain_text": "",
+      "media": [
+        {
+          "kind": "photo",
+          "asset_url": "https://t.me/radiofarda/163317",
+          "asset_path": null,
+          "asset_sha256": null,
+          "thumbnail_url": "https://cdn4.telesco.pe/file/i2jk8dx6d9a9084Rg8HugMxzt4fEDWm0BRQL1J79Jk5qNfU9zrjAsuCwyXF3I2Tp8GXMyxa25bBhBkBIsIuOSGrKiWf_ZHbzWamDiY2r9QW3IEbBsUEj1RI__dbFfiBHxkbbfPiapLKvuPcpxyHbWr8xbGEvb-AFbZdQ25VQR93OvDCWtFpyVLyilVdImIHOjdphr32Otmf9HiFaLj7CeY7uzoVfCUJgZw4wHAHoHio_qXWaMb72bnPNxBAY2q_xduBHioxyFiRtgWazY3FXZ-B8Agvulyg36-HXokY28UWpXvSj-b-qw61pUbgTizdQY1ROHSoCw0kV-YktOnEm8g.jpg",
+          "thumbnail_path": "channels/radiofarda/media/da2e95a6377eef6df638bde8.jpg",
+          "thumbnail_sha256": "6a8563ccf1cc53e576e73c7054e20109f5d130607bcfd7c30f7da87904317bd1",
+          "duration_label": null,
+          "aspect_ratio": 1.7777777777777777
+        }
+      ],
+      "reactions": [],
+      "views_label": "138",
+      "posted_at": "2026-11-23T12:13:48+00:00",
+      "edited": false,
+      "permalink": "https://t.me/radiofarda/163317",
+      "reply": null
+    },
+    {
+      "id": "radiofarda/163316",
+      "author_name": "RadioFarda",
+      "author_photo_url": "https://cdn4.telesco.pe/file/bOCS9XMr2_c1BStYnuifRYwgQFNuW5llK_zIahvccIw30xsPsXNKbS2dVF4G3E-ZTY6UBn3ITGsFNQNCv6daBsEvyhCLWmQpRLZMN2KQZQT3CCfuU-2VvhrtzfEiCA4wOoiset8NZrLA6AAPDygkG5buXmVIv5XCIM7KaOBn-5EQvpLd_uSlsGvtZzWkKUvWEPT_WO6SrzPolL1wrX_jljgCCMh3t2Ep8Vfr_ZGWLiSgulye2lQ36ZVf87YNZjZTddV3Q-O_Ta40x3NEKV6reom9CwlevLEE4XHXcGU_4iIN0kEgot5R80qTiPCOO7RUVojc5Ns5BM_LylNgUfwtGA.jpg",
+      "author_photo_path": "channels/radiofarda/media/03a1db9335993554c91cb0b4.jpg",
+      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
+      "body_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F93BB.png')\"><b>📻</b></i>بشنوید: ساعت ۱۴ با رادیوفردا دوم آذر ۱۴۰۵<br></b><br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a>",
+      "plain_text": "📻بشنوید: ساعت ۱۴ با رادیوفردا دوم آذر ۱۴۰۵\n\n@RadioFarda",
+      "media": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": "1"
+        }
+      ],
+      "views_label": "145",
+      "posted_at": "2026-11-23T12:13:40+00:00",
+      "edited": false,
+      "permalink": "https://t.me/radiofarda/163316",
+      "reply": null
+    },
     {
       "id": "radiofarda/163315",
       "author_name": "RadioFarda",
@@ -34,11 +83,11 @@
       ],
       "reactions": [
         {
-          "emoji": "❤",
-          "count": "6"
+          "emoji": "👏",
+          "count": "7"
         },
         {
-          "emoji": "👏",
+          "emoji": "❤",
           "count": "6"
         },
         {
@@ -46,7 +95,7 @@
           "count": "4"
         }
       ],
-      "views_label": "2.37K",
+      "views_label": "2.46K",
       "posted_at": "2026-11-23T10:03:54+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163315",
@@ -79,19 +128,19 @@
           "count": "12"
         },
         {
-          "emoji": "😡",
+          "emoji": "🎉",
           "count": "3"
         },
         {
-          "emoji": "🎉",
-          "count": "2"
+          "emoji": "😡",
+          "count": "3"
         },
         {
           "emoji": "👌",
           "count": "2"
         }
       ],
-      "views_label": "3.11K",
+      "views_label": "3.2K",
       "posted_at": "2026-11-23T09:11:06+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163314",
@@ -132,7 +181,7 @@
           "count": "5"
         }
       ],
-      "views_label": "4.06K",
+      "views_label": "4.1K",
       "posted_at": "2026-11-23T07:17:45+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163313",
@@ -181,7 +230,7 @@
           "count": "2"
         }
       ],
-      "views_label": "4.25K",
+      "views_label": "4.32K",
       "posted_at": "2026-11-23T06:49:05+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163312",
@@ -206,7 +255,7 @@
           "count": "5"
         }
       ],
-      "views_label": "4.5K",
+      "views_label": "4.56K",
       "posted_at": "2026-11-23T05:48:18+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163311",
@@ -227,7 +276,7 @@
           "count": "6"
         }
       ],
-      "views_label": "4.29K",
+      "views_label": "4.35K",
       "posted_at": "2026-11-23T05:47:30+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163310",
@@ -276,7 +325,7 @@
           "count": "4"
         }
       ],
-      "views_label": "7.44K",
+      "views_label": "7.46K",
       "posted_at": "2026-11-22T20:44:58+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163309",
@@ -313,7 +362,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.83K",
+      "views_label": "7.86K",
       "posted_at": "2026-11-22T19:23:36+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163308",
@@ -338,7 +387,7 @@
           "count": "6"
         }
       ],
-      "views_label": "6.99K",
+      "views_label": "7.03K",
       "posted_at": "2026-11-22T18:21:42+00:00",
       "edited": true,
       "permalink": "https://t.me/radiofarda/163307",
@@ -383,7 +432,7 @@
           "count": "2"
         }
       ],
-      "views_label": "7.37K",
+      "views_label": "7.38K",
       "posted_at": "2026-11-22T17:39:22+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163306",
@@ -432,7 +481,7 @@
           "count": "2"
         }
       ],
-      "views_label": "6.73K",
+      "views_label": "6.74K",
       "posted_at": "2026-11-22T16:32:16+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163305",
@@ -469,7 +518,7 @@
           "count": "1"
         }
       ],
-      "views_label": "5.84K",
+      "views_label": "5.85K",
       "posted_at": "2026-11-22T16:22:29+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163304",
@@ -649,7 +698,7 @@
           "count": "2"
         }
       ],
-      "views_label": "6.42K",
+      "views_label": "6.43K",
       "posted_at": "2026-11-22T12:25:44+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163300",
@@ -715,7 +764,7 @@
           "count": "4"
         }
       ],
-      "views_label": "6.65K",
+      "views_label": "6.66K",
       "posted_at": "2026-11-22T11:38:38+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163298",
@@ -3909,111 +3958,6 @@
       "posted_at": "2026-11-18T20:28:51+00:00",
       "edited": false,
       "permalink": "https://t.me/radiofarda/163214",
-      "reply": null
-    },
-    {
-      "id": "radiofarda/163213",
-      "author_name": "RadioFarda",
-      "author_photo_url": "https://cdn4.telesco.pe/file/epinlmFAMlVoBNvMCrVkagdK12UNMwYcoEyoHxqaEi6ldLPEuGYTcY4jNYN8cU6s1nPlHvEr7PKYJnsB8YV9O8STsVdcR771lfmiqBP5HQ2KyQYHbZm1dEoQN9qX2szsU1JmCT4cM9pQOEL8VUKnjMOSkT2UVQl2H9d00Vck4qZ2PYBB44F0wp24Sutr0hNygMgNbvdItDfjxpwf0S0FvVSklUnowU78tbGpnwspiHaq7p-e9ZAO_qKgLbDprAzpP6RiiUJcP736JNf82m11d-W_9NMGgQkuATmn3HXJCyd8fST1fE30wDziB84JlbjlBOITHNq2dbrvF1dpuQffsQ.jpg",
-      "author_photo_path": "channels/radiofarda/media/8ba228816dd7274b7bff9d61.jpg",
-      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
-      "body_html": "<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>ارتش اسرائیل اعلام کرد کوپر و زامیر همچنین در نشستی جداگانه با حضور فرماندهان ارشد دو کشور، تحولات منطقه‌ای و چالش‌های امنیتی مشترک را بررسی کردند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>به‌گفتۀ ارتش اسرائیل، در این نشست بر ضرورت تعمیق همکاری‌های راهبردی و عملیاتی، تقویت هماهنگی میان نیروهای دو کشور و افزایش آمادگی مشترک برای رویارویی با سناریوهای مختلف تأکید شد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>روزنامۀ جروزالم پست نیز گزارش داد که تهدیدهای مرتبط با ایران از محورهای اصلی رایزنی‌های فرماندهان نظامی آمریکا و اسرائیل بوده است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>این دیدار در حالی انجام شد که خبرگزاری رویترز روز چهارشنبه به نقل از دو منبع آگاه گزارش داد رومن گافمن، رئیس موساد، هفتۀ گذشته در دیدار با مقام‌های آمریکایی، از جمله جان رتکلیف، رئیس سی‌آی‌ای، خواستار حملات مشترک تازه آمریکا و اسرائیل به ایران شده است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>به‌گفتۀ منابع رویترز، ران درمر، از نزدیکان بنیامین نتانیاهو، نخست‌وزیر اسرائیل، نیز هم‌زمان برای جلب حمایت واشینگتن از حملۀ تازه به ایران رایزنی کرده است.<br><br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a>",
-      "plain_text": "🔸ارتش اسرائیل اعلام کرد کوپر و زامیر همچنین در نشستی جداگانه با حضور فرماندهان ارشد دو کشور، تحولات منطقه‌ای و چالش‌های امنیتی مشترک را بررسی کردند.\n\n🔸به‌گفتۀ ارتش اسرائیل، در این نشست بر ضرورت تعمیق همکاری‌های راهبردی و عملیاتی، تقویت هماهنگی میان نیروهای دو کشور و افزایش آمادگی مشترک برای رویارویی با سناریوهای مختلف تأکید شد.\n\n🔸روزنامۀ جروزالم پست نیز گزارش داد که تهدیدهای مرتبط با ایران از محورهای اصلی رایزنی‌های فرماندهان نظامی آمریکا و اسرائیل بوده است.\n\n🔸این دیدار در حالی انجام شد که خبرگزاری رویترز روز چهارشنبه به نقل از دو منبع آگاه گزارش داد رومن گافمن، رئیس موساد، هفتۀ گذشته در دیدار با مقام‌های آمریکایی، از جمله جان رتکلیف، رئیس سی‌آی‌ای، خواستار حملات مشترک تازه آمریکا و اسرائیل به ایران شده است.\n\n🔸به‌گفتۀ منابع رویترز، ران درمر، از نزدیکان بنیامین نتانیاهو، نخست‌وزیر اسرائیل، نیز هم‌زمان برای جلب حمایت واشینگتن از حملۀ تازه به ایران رایزنی کرده است.\n\n@RadioFarda",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/radiofarda/163213",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/oER0daYMun6pisWIMvU722Mgx73wdGnKf79uQqOGGEsO60ULGTrMD-RE1RcaNRb-kABnkGnN1gRy7iwyjAORTv0egDtviCuy86j_C_WfyFAeFCpBOv4q_4nFCSyF01FaNoLbRe_sEnNYwMpSC_07-V4LvRII_ygXU3ITc1xEDQ8-R8bPitbj9BZU0YVU9SLIrYHl2Fms-5mFHQRhxiv2DzEBhUhWf8_pXxa3PQyiIeTqYLbvGCbOEXBtR_alNwwd-D7uTulQGUoTZBHDB3CF8Qcydxg2cwtNC0mIlHEkAMCahqNWOS528klffElnwhE0atAxzBzE_54K0wj0HR7XFg.jpg",
-          "thumbnail_path": "channels/radiofarda/media/9e3bfb3f178261250413531f.jpg",
-          "thumbnail_sha256": "a0750811e4fce24588dd838cda0ab6c5fce3b112773570a43af9ba0915809ac5",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👍",
-          "count": "31"
-        },
-        {
-          "emoji": "👎",
-          "count": "7"
-        },
-        {
-          "emoji": "❤",
-          "count": "3"
-        },
-        {
-          "emoji": "👏",
-          "count": "2"
-        },
-        {
-          "emoji": "😡",
-          "count": "1"
-        }
-      ],
-      "views_label": "6.15K",
-      "posted_at": "2026-11-18T20:06:21+00:00",
-      "edited": false,
-      "permalink": "https://t.me/radiofarda/163213",
-      "reply": null
-    },
-    {
-      "id": "radiofarda/163211",
-      "author_name": "RadioFarda",
-      "author_photo_url": "https://cdn4.telesco.pe/file/epinlmFAMlVoBNvMCrVkagdK12UNMwYcoEyoHxqaEi6ldLPEuGYTcY4jNYN8cU6s1nPlHvEr7PKYJnsB8YV9O8STsVdcR771lfmiqBP5HQ2KyQYHbZm1dEoQN9qX2szsU1JmCT4cM9pQOEL8VUKnjMOSkT2UVQl2H9d00Vck4qZ2PYBB44F0wp24Sutr0hNygMgNbvdItDfjxpwf0S0FvVSklUnowU78tbGpnwspiHaq7p-e9ZAO_qKgLbDprAzpP6RiiUJcP736JNf82m11d-W_9NMGgQkuATmn3HXJCyd8fST1fE30wDziB84JlbjlBOITHNq2dbrvF1dpuQffsQ.jpg",
-      "author_photo_path": "channels/radiofarda/media/8ba228816dd7274b7bff9d61.jpg",
-      "author_photo_sha256": "64a87e11935de46ba38795762d4ad6a44f86bb30956e5a113f67aa844db27246",
-      "body_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>فرماندهی مرکزی ارتش آمریکا، سنتکام، گزارش‌های منتشرشده در فضای مجازی درباره زخمی شدن نظامیان این کشور در حملات اخیر جمهوری اسلامی و انتقال آن‌ها برای دریافت خدمات پزشکی را تکذیب کرد و اعلام کرد که هیچ نیروی آمریکایی در حملات ایران طی هفتۀ جاری زخمی نشده است.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>سنتکام روز چهارشنبه ۲۷ آبان در پیامی در شبکۀ اجتماعی ایکس نوشت: «هیچ‌یک از نیروهای آمریکایی در حملات نافرجام ایران در این هفته زخمی نشده‌اند. تمامی نظامیان آمریکایی سالم هستند و وضعیت همۀ آن‌ها مشخص است».<br>این فرماندهی همچنین حساب‌های نزدیک به سپاه پاسداران را به انتشار مکرر روایت‌های نادرست در فضای مجازی متهم کرد.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>این واکنش در حالی منتشر شده است که شماری از رسانه‌های حکومتی ایران، با استناد به داده‌های ردیابی پرواز، از حرکت یک هواپیمای ترابری نظامی سی-۱۷ آمریکا با شناسه پروازی BNDGE01 در منطقه و بازگشت آن به اروپا خبر داده‌اند.<br><br><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')\"><b>🔸</b></i>این رسانه‌ها با اشاره به کاربرد احتمالی چنین پروازهایی برای انتقال مجروحان، گمانه‌زنی‌هایی درباره مأموریت پزشکی هواپیما مطرح کرده‌اند. <br><br><a href=\"https://t.me/RadioFarda\" target=\"_blank\">@RadioFarda</a></div>",
-      "plain_text": "🔸فرماندهی مرکزی ارتش آمریکا، سنتکام، گزارش‌های منتشرشده در فضای مجازی درباره زخمی شدن نظامیان این کشور در حملات اخیر جمهوری اسلامی و انتقال آن‌ها برای دریافت خدمات پزشکی را تکذیب کرد و اعلام کرد که هیچ نیروی آمریکایی در حملات ایران طی هفتۀ جاری زخمی نشده است.\n\n🔸سنتکام روز چهارشنبه ۲۷ آبان در پیامی در شبکۀ اجتماعی ایکس نوشت: «هیچ‌یک از نیروهای آمریکایی در حملات نافرجام ایران در این هفته زخمی نشده‌اند. تمامی نظامیان آمریکایی سالم هستند و وضعیت همۀ آن‌ها مشخص است».\nاین فرماندهی همچنین حساب‌های نزدیک به سپاه پاسداران را به انتشار مکرر روایت‌های نادرست در فضای مجازی متهم کرد.\n\n🔸این واکنش در حالی منتشر شده است که شماری از رسانه‌های حکومتی ایران، با استناد به داده‌های ردیابی پرواز، از حرکت یک هواپیمای ترابری نظامی سی-۱۷ آمریکا با شناسه پروازی BNDGE01 در منطقه و بازگشت آن به اروپا خبر داده‌اند.\n\n🔸این رسانه‌ها با اشاره به کاربرد احتمالی چنین پروازهایی برای انتقال مجروحان، گمانه‌زنی‌هایی درباره مأموریت پزشکی هواپیما مطرح کرده‌اند.\n\n@RadioFarda",
-      "media": [
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/radiofarda/163211?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/ewFA-3ZhVFDWwfdeoWiWywNtYXiCUjzyO6TPkuZJtgsvZhtxvbaUY_S7KyqgHYP42YSZwtnk_puF1uQYcFx_UMC-_BRKtpMU99NbuWGNP_5UDskNyDm_0iankd89iE4Tr4hpa2j_kK0KyClnUK-aGRppOEfJ3qEyLXfF3qIXA9L6nKwEVDeEnlu7VRVtEvCDfupIexZtQoR_YW0Yldx67dZKj5yroKV-rvsmscl29gyi0Qbk_j9gO2PnaZN_-wkWDer_cFRVJuO8jmSfCEEiSbClFR3-wlIQeUZa0SxI_Na5oGAH3pBwFOXjZ67t0intor6kPWYoPmCWM6r94Jrf5Q.jpg",
-          "thumbnail_path": "channels/radiofarda/media/ace0efc9111cb648949df534.jpg",
-          "thumbnail_sha256": "1098d4bc239a40c37890f630261b0955ec34c7eb543599906e782c3db9ea40ab",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        },
-        {
-          "kind": "photo",
-          "asset_url": "https://t.me/radiofarda/163212?single",
-          "asset_path": null,
-          "asset_sha256": null,
-          "thumbnail_url": "https://cdn4.telesco.pe/file/nkkEiVsWSyx0-XxLx4bdb0zBAU2227zHzWYANkE-VvHkngSeZL7VJTyfk3tVaFERUkuvRVHXLeou8-eQpkBQ_AfUXZwKLrsMoc4uaI0aBJ4J6yLOO3BVeuVtJuV7Hv9JCRcOb803c7KUq3Sw9DRqRpl-2Eyvg3TYH6ObzlPI8PYXaDN774NQSV-gcNUhndfXwVWkG80hHa3UJMIhjFoEpx1HbE87EAlFF_2PPKnXmcCgcV79zsnwnSdXy-Fj9QXYAyK2KAUrdG5ioPopiE95nXVKsYpLOlz3KL2NShqF9pR2z2en6U6J8kZqiudBk_yI-POiZdcAOeTEmSHIwicmmw.jpg",
-          "thumbnail_path": "channels/radiofarda/media/6b017122fa85dd46ef6f29f2.jpg",
-          "thumbnail_sha256": "dc2634fdce18a9b7bffbad03a9a6ee56634c2489fd580a51f646f190f8c31321",
-          "duration_label": null,
-          "aspect_ratio": 0.8
-        }
-      ],
-      "reactions": [
-        {
-          "emoji": "👏",
-          "count": "21"
-        },
-        {
-          "emoji": "❤",
-          "count": "11"
-        },
-        {
-          "emoji": "👎",
-          "count": "5"
-        },
-        {
-          "emoji": "😡",
-          "count": "1"
-        }
-      ],
-      "views_label": "6.35K",
-      "posted_at": "2026-11-18T18:23:09+00:00",
-      "edited": false,
-      "permalink": "https://t.me/radiofarda/163211",
       "reply": null
     }
   ]
